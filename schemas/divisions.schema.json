@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema",
-  "$id": "https://github.com/msitarzewski/agency-agents/schemas/divisions.schema.json",
+  "$id": "https://github.com/z451047442-debug/agency-agents/schemas/divisions.schema.json",
   "title": "Agency Divisions Configuration",
   "description": "Schema for divisions.json — the canonical registry of agent divisions. Each division maps to a top-level directory containing .md agent files.",
   "type": "object",

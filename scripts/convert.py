@@ -225,7 +225,7 @@ def build_aider_windsurf(agents, out_dir, tool):
             "# The Agency — AI Agent Conventions\n"
             "#\n"
             "# This file provides Aider with the full roster of specialized AI agents from\n"
-            "# The Agency (https://github.com/msitarzewski/agency-agents).\n"
+            "# The Agency (https://github.com/z451047442-debug/agency-agents).\n"
             "#\n"
             "# To activate an agent, reference it by name in your Aider session prompt, e.g.:\n"
             '#   "Use the Frontend Developer agent to review this component."\n'

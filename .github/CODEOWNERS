@@ -1,0 +1,74 @@
+# CODEOWNERS — Domain stewards for The Agency
+# Community contributions are always welcome.
+# Add your handle if you want to steward a domain.
+
+# Core infrastructure
+/scripts/                        @msitarzewski
+/schemas/                        @msitarzewski
+/.github/workflows/              @msitarzewski
+/CLAUDE.md                       @msitarzewski
+/AGENTS.json                     @msitarzewski
+/generate_slnx.py               @msitarzewski
+/docs/                           @msitarzewski
+
+# Agent domains (60 categories)
+/engineering/                    @msitarzewski
+/infrastructure/                 @msitarzewski
+/cybersecurity/                  @msitarzewski
+/data-science/                   @msitarzewski
+/design/                         @msitarzewski
+/marketing/                      @msitarzewski
+/sales/                          @msitarzewski
+/product/                        @msitarzewski
+/finance/                        @msitarzewski
+/legal/                          @msitarzewski
+/hr/                             @msitarzewski
+/healthcare/                     @msitarzewski
+/education/                      @msitarzewski
+/government/                     @msitarzewski
+/energy/                         @msitarzewski
+/environmental/                  @msitarzewski
+/agriculture/                    @msitarzewski
+/manufacturing/                  @msitarzewski
+/automotive/                     @msitarzewski
+/aerospace/                      @msitarzewski
+/construction/                   @msitarzewski
+/logistics/                      @msitarzewski
+/retail/                         @msitarzewski
+/tourism/                        @msitarzewski
+/insurance/                      @msitarzewski
+/real-estate/                    @msitarzewski
+/customer-service/               @msitarzewski
+/operations/                     @msitarzewski
+/administration/                 @msitarzewski
+/project-management/             @msitarzewski
+/quality/                        @msitarzewski
+/securities/                     @msitarzewski
+/lottery/                        @msitarzewski
+/telecom/                        @msitarzewski
+/iot/                            @msitarzewski
+/robotics/                       @msitarzewski
+/spatial-computing/              @msitarzewski
+/game-development/               @msitarzewski
+/web3/                           @msitarzewski
+/network-engineering/            @msitarzewski
+/testing/                        @msitarzewski
+/media-entertainment/            @msitarzewski
+/food-beverage/                  @msitarzewski
+/pharma-biotech/                 @msitarzewski
+/strategy/                       @msitarzewski
+/specialized/                    @msitarzewski
+/sports/                         @msitarzewski
+/fashion/                        @msitarzewski
+/mining/                         @msitarzewski
+/nonprofit/                      @msitarzewski
+/publishing/                     @msitarzewski
+/events/                         @msitarzewski
+/forestry/                       @msitarzewski
+/beauty/                         @msitarzewski
+/localization/                   @msitarzewski
+/emergency/                      @msitarzewski
+/libraries/                      @msitarzewski
+/museums/                        @msitarzewski
+/pets/                           @msitarzewski
+/hr-tech/                        @msitarzewski

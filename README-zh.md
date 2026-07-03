@@ -6,13 +6,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/z451047442-debug)
-[![下载 App](https://img.shields.io/github/v/release/z451047442-debug/agency-agents-app?label=下载App&color=2563eb)](https://github.com/z451047442-debug/agency-agents-app/releases/latest)
-
-> ### 🆕 现在有桌面应用了
->
-> **[Agency Agents](https://agencyagents.app)** 是一款支持 **macOS、Linux 和 Windows** 的原生桌面应用。你可以浏览全部 Agent 名册，一键安装到 Claude Code、Cursor、Codex、Gemini、Osaurus 等工具中 — 无需克隆仓库，无需运行脚本，且自动更新。
->
-> **→ [下载最新版本](https://github.com/z451047442-debug/agency-agents-app/releases/latest) · [agencyagents.app](https://agencyagents.app)**
 
 ---
 
@@ -31,19 +24,7 @@
 
 ## ⚡ 快速开始
 
-### 方式一：安装桌面应用（推荐）
-
-最快上手方式 — 无需克隆，无需终端。[**Agency Agents**](https://agencyagents.app) 是一款原生桌面应用（macOS · Linux · Windows），可以浏览全部名册并将 Agent 安装到 Claude Code、Cursor、Codex、Gemini CLI、OpenCode、Qwen 和 Osaurus 中，并保持更新。
-
-**[⬇ 下载最新版本](https://github.com/z451047442-debug/agency-agents-app/releases/latest)** — Mac 用户也可以通过 Homebrew 安装：
-
-```bash
-brew install --cask z451047442-debug/agency-agents/agency-agents
-```
-
-如果你偏好命令行，下面的脚本方式同样可以安装 Agent。
-
-### 方式二：在 Claude Code 中使用
+### 方式一：在 Claude Code 中使用
 
 #### Linux / macOS
 
@@ -124,7 +105,7 @@ ls ~/.claude/agents/
 ./scripts/install.sh --uninstall --agent engineering-frontend-developer --tool claude-code
 ```
 
-### 方式三：作为参考资料使用
+### 方式二：作为参考资料使用
 
 每个 Agent 文件包含：
 - 身份与人格特质
@@ -134,7 +115,7 @@ ls ~/.claude/agents/
 
 浏览下方的 Agent 名册，按需复制或改编！
 
-### 方式四：在其他工具中使用（GitHub Copilot、Antigravity、Gemini CLI、OpenCode、OpenClaw、Cursor、Aider、Windsurf、Kimi Code、Codex、Osaurus、Hermes）
+### 方式三：在其他工具中使用（GitHub Copilot、Antigravity、Gemini CLI、OpenCode、OpenClaw、Cursor、Aider、Windsurf、Kimi Code、Codex、Osaurus、Hermes）
 
 ```bash
 # 第 1 步 — 为所有支持的工具生成集成文件

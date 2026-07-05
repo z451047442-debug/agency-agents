@@ -1,0 +1,151 @@
+{
+  "category": "network-engineering",
+  "agent_count": 12,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "network-engineering-architect",
+      "name": "网络架构师",
+      "description": "企业级网络架构设计专家，覆盖路由交换、SDN/NFV、数据中心网络、云网络互联与高可用设计",
+      "emoji": "🌐",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-architect.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-automation",
+      "name": "网络自动化工程师",
+      "description": "网络自动化与可编程网络专家，覆盖Ansible/Terraform网络编排、CI/CD网络管道、NETCONF/RESTCONF、网络即代码与自动化测试",
+      "emoji": "🤖",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-automation.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-cloud",
+      "name": "云网络工程师",
+      "description": "云网络架构与运维专家，覆盖AWS VPC/Azure VNet、混合云互联、云原生网络(Cilium/Calico)、负载均衡与CDN",
+      "emoji": "☁️",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-cloud.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-director",
+      "name": "网络部门总监",
+      "description": "企业/运营商网络部门最高负责人，覆盖网络架构/运营策略、团队/预算管理、供应商/技术选型与服务可用性保障",
+      "emoji": "🌐",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "network-engineering-engineering-architect-networks",
+      "name": "企业网络架构与治理专家",
+      "description": "全球企业网络架构设计和治理专家，覆盖SD-WAN/SASE/SSE架构、零信任网络(ZTNA)、混合云网络设计、网络自动化/编排与企业网络策略",
+      "emoji": "🌐",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-engineering-architect-networks.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-engineering-network-protocol",
+      "name": "网络协议栈开发工程师",
+      "description": "TCP/IP网络协议栈与数据平面开发专家，覆盖Linux内核网络子系统/eBPF/XDP、DPDK高性能数据平面、QUIC/HTTP3协议实现与SDN数据平面(OpenFlow/P4)",
+      "emoji": "📨",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-engineering-network-protocol.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-engineering-optical-fiber-sensing",
+      "name": "光纤传感/分布式光纤监测工程师",
+      "description": "分布式光纤传感(DFOS)与光电检测专家，覆盖DTS拉曼/布里渊(BOTDR/BOTDA)/DAS瑞利分布式光纤传感、光纤光栅(FBG)/干涉仪(Michelson/Fabry-Perot)点式传感与结构健康监测(SHM)/管道泄漏/周界安防",
+      "emoji": "🔦",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-engineering-optical-fiber-sensing.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-engineering-optical-network-design",
+      "name": "光学网络/光互连设计工程师",
+      "description": "数据中心光互连与光子集成(PIC)设计专家，覆盖硅光子/InP光子集成、光模块(400G/800G/1.6T Pluggable/CPO)、相干光通信与光背板/片上光互连",
+      "emoji": "💡",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-engineering-optical-network-design.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-operations",
+      "name": "网络运维工程师",
+      "description": "网络运维与排障专家，覆盖路由器/交换机/防火墙日常运维、故障排查、变更管理、监控告警与性能调优",
+      "emoji": "🔧",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-operations.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-satellite",
+      "name": "卫星通信/Starlink网络工程师",
+      "description": "卫星通信与宽带星座网络专家，覆盖LEO/MEO/GEO卫星通信链路、星地网关/地面段、相控阵天线与卫星互联网宽带接入",
+      "emoji": "🛰️",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-satellite.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-voip-uc",
+      "name": "统一通信工程师",
+      "description": "VoIP与统一通信(UC)专家，覆盖SIP中继/交换、IP-PBX、视频会议系统、WebRTC、联络中心与语音质量(QoS/MoS)",
+      "emoji": "📞",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-voip-uc.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "network-engineering-wireless",
+      "name": "无线与移动网络工程师",
+      "description": "无线/移动网络规划优化专家，覆盖WiFi设计/勘测/排障、4G/5G RAN规划、蜂窝网络优化与IoT无线接入",
+      "emoji": "📡",
+      "category": "network-engineering",
+      "subcategory": "",
+      "path": "network-engineering/network-engineering-wireless.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "category": "testing",
+  "agent_count": 20,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "testing-accessibility-auditor",
+      "name": "无障碍审计师",
+      "description": "WCAG 审计、辅助技术测试与包容性设计专家",
+      "emoji": "♿",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-accessibility-auditor.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-api-tester",
+      "name": "API 测试工程师",
+      "description": "API 验证、集成测试与端点核查专家",
+      "emoji": "🔌",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-api-tester.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-automation-architect",
+      "name": "自动化测试架构师",
+      "description": "测试自动化架构与框架设计专家，覆盖测试策略、框架选型、CI/CD测试集成、测试数据管理与可维护性设计",
+      "emoji": "🔄",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-automation-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "testing-director",
+      "name": "测试总监/QA Director",
+      "description": "软件测试与质量保证最高负责人，覆盖测试策略/质量体系、自动化测试架构、测试团队建设、缺陷治理与持续交付质量门",
+      "emoji": "✅",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "testing-engineering-quality-assurance-automation",
+      "name": "测试自动化开发工程师(SDET II)",
+      "description": "高级测试自动化与测试框架开发专家，覆盖Selenium/Cypress/Playwright/Appium框架深度定制、测试数据工厂/服务虚拟化、持续测试CT与测试环境管理",
+      "emoji": "🤖",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-engineering-quality-assurance-automation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "testing-engineering-reliability-testing",
+      "name": "可靠性测试(HALT/HASS)工程师",
+      "description": "产品可靠性工程与加速寿命测试专家，覆盖HALT高加速寿命测试、HASS高加速应力筛选、MTBF/Weibull分析、环境应力筛选(ESS)与可靠性增长",
+      "emoji": "🔨",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-engineering-reliability-testing.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-engineering-sdet",
+      "name": "测试开发工程师/SDET",
+      "description": "自动化测试框架、CI/CD 测试集成、性能测试与测试左移专家",
+      "emoji": "🧪",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-engineering-sdet.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "testing-engineering-software-tester",
+      "name": "软件开发工程师(测试方向)",
+      "description": "专注于测试的软件开发工程师(SDET)，覆盖单元测试/集成测试/端到端测试框架、测试驱动开发(TDD)、Mock/Stub/Fixture设计与代码可测试性",
+      "emoji": "🧪",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-engineering-software-tester.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-engineering-test-automation-framework",
+      "name": "测试框架架构师",
+      "description": "企业级测试自动化框架设计专家，覆盖多语言/多平台测试框架(Pytest/JUnit/TestNG)、BDD/TDD/ATDD实践(Cucumber/SpecFlow)、测试数据/环境即代码与CI/CD集成",
+      "emoji": "🧪",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-engineering-test-automation-framework.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "testing-evidence-collector",
+      "name": "测试证据采集员",
+      "description": "截图 QA、视觉验证与 Bug 文档专家",
+      "emoji": "📸",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-evidence-collector.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "testing-localization",
+      "name": "本地化/国际化测试专家",
+      "description": "软件本地化(L10n)与国际化(i18n)测试专家，覆盖多语言UI/内容验证、日期/货币/数字格式、RTL语言/双字节字符、文化适配与伪本地化测试",
+      "emoji": "🌐",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-localization.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-mobile",
+      "name": "移动应用测试专家",
+      "description": "移动应用测试专家，覆盖iOS/Android真机测试、设备碎片化管理、手势/传感器测试、网络条件模拟与App审核合规",
+      "emoji": "📱",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-mobile.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-performance-benchmarker",
+      "name": "性能基准测试专家",
+      "description": "性能测试、压力测试与速度优化专家",
+      "emoji": "⏱️",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-performance-benchmarker.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-playwright-expert",
+      "name": "Playwright自动化测试专家",
+      "description": "Playwright端到端测试与浏览器自动化专家,覆盖Playwright Test Runner(Test/Expect/Fixtures/Hooks)与TypeScript配置、Page Object Model与测试架构模式、API testing(APIRequestContext)与混合UI/API测试策略、视觉回归测试(screenshot/toHaveScreenshot/pixelmatch)与可访问性测试(axe-core integration)、CI集成(GitHub Actions/Docker/parallel sharding)与Trace Viewer调试",
+      "emoji": "🎭",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-playwright-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "testing-reality-checker",
+      "name": "生产就绪验证员",
+      "description": "基于证据的认证、质量门与发布认证专家",
+      "emoji": "🧐",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-reality-checker.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-security-penetration",
+      "name": "安全渗透测试工程师",
+      "description": "应用安全渗透测试专家，覆盖OWASP Top10/API安全测试、Web/移动/云渗透测试方法、漏洞验证/Exploit开发与渗透测试报告/修复建议",
+      "emoji": "🎯",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-security-penetration.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-test-results-analyzer",
+      "name": "测试结果分析师",
+      "description": "测试评估、质量指标分析与覆盖率报告专家",
+      "emoji": "📋",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-test-results-analyzer.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-tool-evaluator",
+      "name": "工具评估专家",
+      "description": "技术评估与工具选型专家",
+      "emoji": "🔧",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-tool-evaluator.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-usability",
+      "name": "可用性测试专家",
+      "description": "可用性与用户体验测试专家，覆盖可用性评估方法、用户测试执行、启发式评估、眼动追踪分析与可访问性测试",
+      "emoji": "👤",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-usability.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "testing-workflow-optimizer",
+      "name": "工作流优化专家",
+      "description": "流程分析、工作流改进与自动化机会挖掘专家",
+      "emoji": "⚡",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-workflow-optimizer.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    }
+  ]
+}

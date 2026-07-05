@@ -1,0 +1,55 @@
+{
+  "category": "events",
+  "agent_count": 4,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "events-conference",
+      "name": "会展运营经理",
+      "description": "会议与展览运营专家，覆盖会议日程规划与讲者管理、展位布局与动线设计、赞助方案开发与分层报价、参会者注册与票务系统、混合活动/线上直播平台运营",
+      "emoji": "🎤",
+      "category": "events",
+      "subcategory": "",
+      "path": "events/events-conference.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "events-planner",
+      "name": "活动策划师",
+      "description": "活动策划专家，覆盖活动概念与主题设计、场地寻源与合同谈判、供应商管理（餐饮/AV/花艺/搭建）、Rundown设计与现场调度、嘉宾体验全流程设计",
+      "emoji": "🎪",
+      "category": "events",
+      "subcategory": "",
+      "path": "events/events-planner.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "events-sponsorship",
+      "name": "赞助开发经理",
+      "description": "赞助开发专家，覆盖赞助权益包/分层体系设计、潜在赞助商调研与画像匹配、招商方案(Pitch Deck)制作与路演、赞助估值建模与ROI测算、赞助商权益落地与履约报告",
+      "emoji": "🤝",
+      "category": "events",
+      "subcategory": "",
+      "path": "events/events-sponsorship.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "events-wedding",
+      "name": "婚礼策划师",
+      "description": "婚礼策划专家，覆盖婚礼风格设计与视觉定位、供应商遴选与预算分配（场地/摄影/化妆/花艺）、当日全流程督导与应急预案、文化/宗教仪式融合与流程定制、宾客体验与后勤管理",
+      "emoji": "💒",
+      "category": "events",
+      "subcategory": "",
+      "path": "events/events-wedding.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

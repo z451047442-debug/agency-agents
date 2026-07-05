@@ -1,0 +1,187 @@
+{
+  "category": "sales",
+  "agent_count": 15,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "sales-account-strategist",
+      "name": "客户策略师",
+      "description": "拓客留存、QBR 与利益相关者地图专家",
+      "emoji": "🗺️",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-account-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "sales-coach",
+      "name": "销售教练",
+      "description": "销售代表成长、通话辅导与管道审查促进专家",
+      "emoji": "🏋️",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-coach.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "sales-customer-onboarding",
+      "name": "客户导入/实施(Onboarding)经理",
+      "description": "B2B/SaaS客户导入与实施专家，覆盖新客户上线/系统配置、数据迁移/集成、用户培训/变更管理与Time-to-Value(TTV)优化",
+      "emoji": "🚀",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-customer-onboarding.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sales-data-extraction-agent",
+      "name": "销售数据提取 Agent",
+      "description": "Excel 监控与销售指标提取（MTD/YTD）专家",
+      "emoji": "📊",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-data-extraction-agent.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sales-deal-strategist",
+      "name": "商机策略师",
+      "description": "MEDDPICC 资格认定、竞争定位与赢单策略专家",
+      "emoji": "♟️",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-deal-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "sales-director",
+      "name": "销售总监/VP Sales",
+      "description": "销售团队最高负责人，覆盖销售策略/目标制定、团队搭建/薪酬激励、大客户/渠道管理、销售运营/CRM与收入预测",
+      "emoji": "💼",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "sales-discovery-coach",
+      "name": "销售发现教练",
+      "description": "SPIN、Gap Selling 与 Sandler 问题设计专家",
+      "emoji": "🔍",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-discovery-coach.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "sales-engineer",
+      "name": "售前工程师",
+      "description": "技术演示、POC 范围确定与竞争技术定位专家",
+      "emoji": "🛠️",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-engineer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sales-offer-lead-gen-strategist",
+      "name": "报价与线索生成策略师",
+      "description": "漏斗顶端架构师，设计不可抗拒的报价与线索磁石以规模化吸引合格潜在客户",
+      "emoji": "🧲",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-offer-lead-gen-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "sales-outbound-strategist",
+      "name": "外呼销售策略师",
+      "description": "基于信号的精准找客、多渠道序列与 ICP 定位专家",
+      "emoji": "🎯",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-outbound-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "sales-outreach",
+      "name": "外呼销售专员",
+      "description": "顾问式 B2B 销售外呼专家，覆盖冷线索挖掘、线索跟进、异议处理、提案撰写与管道管理",
+      "emoji": "🎯",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-outreach.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sales-pipeline-analyst",
+      "name": "销售漏斗分析师",
+      "description": "预测、漏斗健康度、商机速度与 RevOps 专家",
+      "emoji": "📊",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-pipeline-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "sales-proposal-strategist",
+      "name": "提案策略师",
+      "description": "RFP 响应、赢单主题与叙事结构专家",
+      "emoji": "🏹",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-proposal-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "sales-revenue-operations",
+      "name": "收入运营(RevOps)经理",
+      "description": "销售/市场/客户成功一体化运营专家，覆盖CRM/营销自动化/CS平台集成、全漏斗数据分析(Pipeline/Conversion/Retention)、销售薪酬/佣金设计与跨部门流程优化",
+      "emoji": "📊",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-revenue-operations.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sales-sdr-manager",
+      "name": "销售开发(SDR/BDR)经理",
+      "description": "销售开发与线索挖掘团队管理者，覆盖SDR/BDR团队搭建/培训、外呼序列/节奏设计、线索评分(MQL/SQL)与SDR→AE交接流程",
+      "emoji": "📞",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-sdr-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

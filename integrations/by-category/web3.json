@@ -1,0 +1,163 @@
+{
+  "category": "web3",
+  "agent_count": 13,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "web3-blockchain-architect",
+      "name": "区块链架构师",
+      "description": "共识机制、L1/L2 协议设计与链上基础设施规划专家",
+      "emoji": "🏗️",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-blockchain-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "web3-crypto-researcher",
+      "name": "加密货币研究员",
+      "description": "NFT 市场分析、项目尽职调查与链上 Alpha 发现专家",
+      "emoji": "🔍",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-crypto-researcher.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "web3-defi-analyst",
+      "name": "DeFi 分析师",
+      "description": "流动性挖矿、收益策略、协议风险评估与链上数据分析专家",
+      "emoji": "📊",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-defi-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "web3-defi-strategist",
+      "name": "DeFi产品策略师",
+      "description": "去中心化金融(DeFi)产品设计与策略专家，覆盖AMM/DEX流动性设计、借贷协议/利率模型、收益聚合/机枪池、跨链桥与MEV风险管理",
+      "emoji": "💰",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-defi-strategist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "web3-director",
+      "name": "Web3/区块链项目总监",
+      "description": "Web3/区块链业务最高负责人，覆盖去中心化产品策略、智能合约/协议开发、代币经济学/治理、社区建设与合规",
+      "emoji": "⛓️",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "web3-engineering-blockchain-architect",
+      "name": "区块链/分布式账本架构师",
+      "description": "区块链底层协议与分布式共识系统架构师，覆盖共识机制(PoW/PoS/PBFT/Tendermint)、状态机/虚拟机(EVM/WASM/Move)、分片/Layer2扩容与密码经济学/代币机制设计",
+      "emoji": "⛓️",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-engineering-blockchain-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "web3-engineering-blockchain-developer",
+      "name": "区块链开发工程师",
+      "description": "DApp 开发、智能合约、链上数据索引与 Web3 基础设施专家",
+      "emoji": "⛓️",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-engineering-blockchain-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "web3-engineering-smart-contract-security",
+      "name": "智能合约安全审计/形式化验证专家",
+      "description": "区块链智能合约安全性与形式化验证专家，覆盖重入/溢出/抢跑/闪电贷攻击模式、Slither/Mythril/Foundry安全工具、CertiK/Trail of Bits审计方法与形式化验证(K Framework/Certora)",
+      "emoji": "🔒",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-engineering-smart-contract-security.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "web3-engineering-solidity-smart-contract-engineer",
+      "name": "Solidity 智能合约工程师",
+      "description": "EVM 合约、Gas 优化与 DeFi 协议专家",
+      "emoji": "⛓️",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-engineering-solidity-smart-contract-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "web3-engineering-web3-frontend",
+      "name": "Web3前端/DApp开发工程师",
+      "description": "去中心化应用(DApp)前端开发专家，覆盖ethers.js/wagmi/viem Web3前端库、钱包连接(MetaMask/WalletConnect)、智能合约交互/交易体验与ENS/IPFS集成",
+      "emoji": "🦊",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-engineering-web3-frontend.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "web3-frontend-developer",
+      "name": "Web3 前端开发工程师",
+      "description": "钱包集成、dApp 交互与去中心化前端架构专家",
+      "emoji": "🦊",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-frontend-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "web3-smart-contract-dev",
+      "name": "智能合约开发工程师",
+      "description": "区块链智能合约开发专家，覆盖Solidity/Rust合约开发、ERC标准(ERC20/721/1155/4337)、Gas优化、合约安全审计与形式化验证",
+      "emoji": "📝",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-smart-contract-dev.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "web3-smart-contract-developer",
+      "name": "智能合约开发工程师",
+      "description": "Solidity、Rust 与 Move 智能合约开发与安全审计专家",
+      "emoji": "⛓️",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-smart-contract-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

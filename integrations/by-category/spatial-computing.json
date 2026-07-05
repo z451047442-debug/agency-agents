@@ -1,0 +1,187 @@
+{
+  "category": "spatial-computing",
+  "agent_count": 15,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "spatial-computing-3d-asset-artist",
+      "name": "3D资产艺术家",
+      "description": "3D资产与数字内容创作专家，覆盖建模/雕刻、PBR材质、UV展开、LOD优化与跨引擎资产管线",
+      "emoji": "💎",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-3d-asset-artist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-ar-filter-creator",
+      "name": "AR滤镜与体验创作者",
+      "description": "AR滤镜与增强现实体验创作专家，覆盖Spark AR/Meta Camera/Lens Studio、面部追踪、空间锚定与交互式AR设计",
+      "emoji": "✨",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-ar-filter-creator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-director",
+      "name": "空间计算/XR总监",
+      "description": "空间计算与XR业务最高负责人，覆盖AR/VR/MR产品策略、空间交互设计、3D内容生态、硬件/软件平台路线图与沉浸式体验创新",
+      "emoji": "🥽",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "spatial-computing-engineering-metaverse-experience",
+      "name": "虚拟世界/元宇宙体验设计师",
+      "description": "沉浸式虚拟世界与社交元宇宙体验设计专家，覆盖虚拟空间/世界构建(World Building)、虚拟化身/数字身份系统、社交互动/经济系统设计与跨平台(VR/Web/Mobile)体验",
+      "emoji": "🌐",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-engineering-metaverse-experience.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-engineering-spatial-computing-engineer",
+      "name": "空间感知/3D重建工程师",
+      "description": "空间感知与三维重建专家，覆盖多视图几何/SfM(Structure from Motion)、NeRF/3D Gaussian Splatting、深度估计/立体视觉、LiDAR点云处理与实时SLAM",
+      "emoji": "📐",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-engineering-spatial-computing-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-engineering-technical-architect-ar",
+      "name": "增强现实(AR)开发工程师",
+      "description": "增强现实应用开发专家，覆盖ARKit/ARCore/WebAR开发、空间锚定/平面检测、光照估计/遮挡、AR云/持久化与AR交互设计",
+      "emoji": "👓",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-engineering-technical-architect-ar.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-engineering-virtual-reality",
+      "name": "VR虚拟现实开发工程师",
+      "description": "虚拟现实(VR)应用与沉浸式体验开发专家，覆盖Unity/Unreal VR开发、OpenXR/SteamVR运行时、VR交互(手势/控制器)、性能优化(注视点渲染)与VR UX设计",
+      "emoji": "🥽",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-engineering-virtual-reality.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-engineering-wearable-tech",
+      "name": "可穿戴设备/消费电子硬件工程师",
+      "description": "智能手表/手环/耳机等可穿戴与消费电子硬件设计专家，覆盖微型化/高密度PCB/ SiP设计、低功耗蓝牙(BLE)/NFC无线、 PPG/ECG/IMU生物传感器集成与防水/跌落/汗液可靠性",
+      "emoji": "⌚",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-engineering-wearable-tech.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-macos-spatial-metal-engineer",
+      "name": "macOS 空间/Metal 工程师",
+      "description": "Swift、Metal 与高性能 3D macOS 空间计算专家",
+      "emoji": "🍎",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-macos-spatial-metal-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-terminal-integration-specialist",
+      "name": "终端集成专家",
+      "description": "终端集成、命令行工具与开发者工作流专家",
+      "emoji": "🖥️",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-terminal-integration-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-ux-designer",
+      "name": "空间交互/UX设计师",
+      "description": "空间计算交互体验设计师，覆盖空间UI/UX范式(注视/手势/语音)、3D界面/信息架构、空间原型设计工具与无障碍空间交互",
+      "emoji": "🖐️",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-ux-designer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-visionos-spatial-engineer",
+      "name": "visionOS 空间工程师",
+      "description": "Apple Vision Pro 应用与空间计算体验开发专家",
+      "emoji": "🥽",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-visionos-spatial-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-xr-cockpit-interaction-specialist",
+      "name": "XR 座舱交互专家",
+      "description": "座舱控制系统与沉浸式控制界面专家",
+      "emoji": "🕹️",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-xr-cockpit-interaction-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-xr-immersive-developer",
+      "name": "WebXR 沉浸式开发者",
+      "description": "WebXR、浏览器端 AR/VR 沉浸式体验开发专家",
+      "emoji": "🌐",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-xr-immersive-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "spatial-computing-xr-interface-architect",
+      "name": "XR 界面架构师",
+      "description": "空间交互设计与沉浸式 UX 专家（AR/VR/XR）",
+      "emoji": "🫧",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-xr-interface-architect.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

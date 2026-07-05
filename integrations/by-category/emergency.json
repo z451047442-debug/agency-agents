@@ -1,0 +1,55 @@
+{
+  "category": "emergency",
+  "agent_count": 4,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "emergency-disaster-response",
+      "name": "灾害响应协调员",
+      "description": "多机构协调（FEMA/UN/红十字会）、快速损害评估、紧急救援物流、避难所管理、危机沟通专家",
+      "emoji": "🆘",
+      "category": "emergency",
+      "subcategory": "",
+      "path": "emergency/emergency-disaster-response.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "emergency-ems",
+      "name": "EMS 医疗主任",
+      "description": "院前急救方案、救护车运营、大规模伤亡检伤分类、EMS 培训、社区急救医疗与移动整合健康服务",
+      "emoji": "🚑",
+      "category": "emergency",
+      "subcategory": "",
+      "path": "emergency/emergency-ems.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "emergency-fire-chief",
+      "name": "消防总长/指挥官",
+      "description": "ICS（事故指挥系统）操作、火场战略、资源调配、危险物质事故管理、火灾预防、消防员培训与安全保障专家",
+      "emoji": "🚒",
+      "category": "emergency",
+      "subcategory": "",
+      "path": "emergency/emergency-fire-chief.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "emergency-search-rescue",
+      "name": "搜救专家",
+      "description": "搜索与救援专家，覆盖SAR任务规划与指挥协调、搜索理论（概率/网格/扇形搜索）与资源部署、绳索/水域/雪崩等专业技术救援、K9搜救犬分队指挥与战术运用、多部门联合指挥体系(ICS)整合",
+      "emoji": "🧭",
+      "category": "emergency",
+      "subcategory": "",
+      "path": "emergency/emergency-search-rescue.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

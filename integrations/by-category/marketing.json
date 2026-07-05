@@ -1,0 +1,1035 @@
+{
+  "category": "marketing",
+  "agent_count": 84,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "marketing-abm-account-based",
+      "name": "基于客户的营销(ABM)经理",
+      "description": "B2B大客户ABM营销策略专家，覆盖1:1/1:Few/1:Many ABM分层策略、目标客户名单(TAL)构建、个性化内容/活动/广告与ABM效果衡量(Pipeline/Engagement/Influence)",
+      "emoji": "🎯",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-abm-account-based.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-ad-strategist",
+      "name": "广告投放策略师",
+      "description": "全渠道广告策略与投放架构专家,覆盖品牌-效果投放矩阵设计、渠道组合与预算分配(搜索/社媒/信息流/程序化/DSP)、目标受众与触达频次策略、创意策略与素材矩阵、全链路漏斗(认知-兴趣-购买-复购)投放策略",
+      "emoji": "🎯",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-ad-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-aeo-foundations",
+      "name": "AEO基础架构师",
+      "description": "AI引擎优化基础设施专家，实现llms.txt、AI感知robots.txt与结构化内容",
+      "emoji": "🏗️",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-aeo-foundations.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-affiliate-manager",
+      "name": "联盟/渠道营销经理",
+      "description": "联盟营销与渠道合作伙伴管理专家，覆盖联盟网络(CJ/Impact/Awin)策略、佣金结构/归因、KOL/内容合作伙伴招募与效果优化",
+      "emoji": "🤝",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-affiliate-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-africa-market-expert",
+      "name": "非洲市场专家",
+      "description": "非洲市场进入、移动支付M-Pesa体系、尼日利亚/肯尼亚/南非核心市场与最后一公里物流专家",
+      "emoji": "🌍",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-africa-market-expert.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-agentic-search-optimizer",
+      "name": "智能搜索优化师",
+      "description": "WebMCP 就绪与智能体任务完成审计专家 — 验证 AI Agent 是否能在网站上完成预订、购买、注册等任务",
+      "emoji": "🤖",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-agentic-search-optimizer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-ai-citation-strategist",
+      "name": "AI 引用策略师",
+      "description": "AEO/GEO、AI 推荐可见度与引用审计专家",
+      "emoji": "🔮",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-ai-citation-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-analytics",
+      "name": "营销数据分析师",
+      "description": "营销数据分析与归因专家，覆盖多渠道归因(MMM/MTA)、LTV/CAC模型、营销ROI分析、A/B实验评估与营销仪表板构建",
+      "emoji": "📊",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-analytics.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-app-store-optimizer",
+      "name": "应用商店优化专家",
+      "description": "ASO、转化率优化与应用曝光专家",
+      "emoji": "📱",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-app-store-optimizer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-asa-specialist",
+      "name": "ASA优化师",
+      "description": "Apple Search Ads优化专家,覆盖ASA基础/高级/Custom Product Page全产品矩阵、关键词策略(发现/品牌/竞品/类别)、CPT/CPA出价优化、ASO联动(元数据/关键词/评分)、iOS ATT框架下的归因与ROI分析",
+      "emoji": "🍎",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-asa-specialist.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-automation",
+      "name": "营销自动化(MA)专家",
+      "description": "营销自动化平台与Martech专家，覆盖HubSpot/Marketo/ Salesforce Marketing Cloud、线索评分/培育、客户旅程编排、CDP数据平台与营销技术栈整合",
+      "emoji": "🤖",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-automation.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-baidu-seo-specialist",
+      "name": "百度 SEO 专家",
+      "description": "百度优化、中国 SEO 与 ICP 合规专家",
+      "emoji": "🇨🇳",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-baidu-seo-specialist.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-bilibili-content-strategist",
+      "name": "Bilibili 内容策略师",
+      "description": "Expert Bilibili marketing specialist focused on UP主 growth, danmaku culture mastery, B站 algorithm optimization, community building, and branded content strategy for China's leading video community platform.",
+      "emoji": "🎬",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-bilibili-content-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-book-co-author",
+      "name": "图书联合作者",
+      "description": "思想领导力书籍、代笔写作与出版策略专家",
+      "emoji": "\"📘\"",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-book-co-author.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-brand-strategist-name",
+      "name": "品牌命名/语言策略师",
+      "description": "品牌命名与语言识别专家，覆盖品牌/产品/服务命名策略、商标检索/可用性评估、多语言命名/文化适配与语言识别(Verbal Identity)/品牌语调(Tone of Voice)",
+      "emoji": "💬",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-brand-strategist-name.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-brand-strategist",
+      "name": "品牌策略师",
+      "description": "品牌定位、品牌架构、品牌重命名与品牌资产测量专家",
+      "emoji": "🏷️",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-brand-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-carousel-growth-engine",
+      "name": "轮播图增长引擎",
+      "description": "TikTok/Instagram 轮播图创作与自动发布专家",
+      "emoji": "🎠",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-carousel-growth-engine.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-china-ecommerce-operator",
+      "name": "中国电商运营专家",
+      "description": "淘宝/天猫/拼多多与直播电商运营专家",
+      "emoji": "🛒",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-china-ecommerce-operator.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-china-market-localization-strategist",
+      "name": "中国市场本地化策略师",
+      "description": "全栈中国市场本地化专家，将实时趋势信号转化为可执行的 GTM 策略，覆盖抖音、小红书、微信、B站等平台",
+      "emoji": "🇨🇳",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-china-market-localization-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-community-manager",
+      "name": "社群/社区运营经理",
+      "description": "在线社群与用户社区运营专家，覆盖Discord/Slack/微信群/论坛社区运营、用户激励/UGC体系、社群活动/KOL培养与社群健康度量",
+      "emoji": "👥",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-community-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-content-creator",
+      "name": "内容创作者",
+      "description": "多平台内容策略、编辑日历与文案专家",
+      "emoji": "✍️",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-content-creator.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-content-strategist",
+      "name": "内容策略师",
+      "description": "品牌内容与编辑策略专家，覆盖内容战略/编辑日历规划、SEO驱动型内容/内容支柱(Pillar)策略、多渠道内容分发(博客/社交/视频/播客)与内容ROI衡量",
+      "emoji": "📝",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-content-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-conversion-copywriter",
+      "name": "转化文案/销售文案专家",
+      "description": "直接反应与转化导向文案撰写专家，覆盖销售页/Landing Page文案、电子邮件序列/CTA文案、广告文案(搜索/社交/展示)与A/B文案测试优化",
+      "emoji": "✍️",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-conversion-copywriter.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-creative-director",
+      "name": "创意总监(Creative Director)",
+      "description": "广告/品牌创意方向最高负责人，覆盖品牌创意策略/大创意(Big Idea)、文案/美术指导、创意团队管理与客户提案",
+      "emoji": "💡",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-creative-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "marketing-crm-community-expert",
+      "name": "会员/社群运营专家",
+      "description": "CRM 体系设计、忠诚度计划、超级用户管理与私域精细化运营专家",
+      "emoji": "👥",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-crm-community-expert.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-cro",
+      "name": "转化率优化(CRO)专家",
+      "description": "转化率优化专家，覆盖落地页优化、A/B测试策略、用户行为分析(热图/录屏)、漏斗分析与优化、说服心理学与用户体验优化",
+      "emoji": "🎯",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-cro.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-cross-border-ecommerce",
+      "name": "跨境电商专家",
+      "description": "亚马逊/Shopee/Lazada 与跨境履约全链路专家",
+      "emoji": "🌏",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-cross-border-ecommerce.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-customer-advocacy",
+      "name": "客户倡导/参考案例经理",
+      "description": "B2B客户倡导与营销案例管理专家，覆盖客户成功案例(Success Story/ROI Case)挖掘撰写、客户视频/证言制作、客户推荐(Reference)管理与客户咨询委员会(CAB)",
+      "emoji": "🌟",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-customer-advocacy.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-customer-data-platform",
+      "name": "CDP/客户数据平台专家",
+      "description": "客户数据平台(CDP)与营销数据架构专家，覆盖Segment/mParticle/Tealium CDP实施、客户身份拼接/360°画像、实时受众/分群与多渠道激活(Audience Activation)",
+      "emoji": "🗂️",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-customer-data-platform.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-customer-lifecycle",
+      "name": "客户生命周期营销专家",
+      "description": "客户生命周期与CRM营销专家，覆盖客户旅程编排/个性化、RFM分层/精准营销、忠诚度计划/会员体系与激活/留存/挽回策略",
+      "emoji": "🔄",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-customer-lifecycle.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-demand-generation",
+      "name": "需求生成(Demand Gen)经理",
+      "description": "B2B需求生成与线索孵化专家，覆盖多渠道获客策略(内容/广告/活动/邮件)、线索评分/孵化/培育流转、营销自动化工作流与SQL管道生成",
+      "emoji": "📈",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-demand-generation.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-director",
+      "name": "市场营销总监/CMO",
+      "description": "市场营销最高负责人，覆盖品牌/增长/内容/数字营销全栈策略、营销预算/ROI、团队建设与跨部门协同",
+      "emoji": "📢",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "marketing-douyin-strategist",
+      "name": "抖音运营策略师",
+      "description": "抖音平台、短视频营销与算法增长专家",
+      "emoji": "🎵",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-douyin-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-email-marketing",
+      "name": "邮件营销专家",
+      "description": "邮件营销与自动化专家，覆盖EDM策略、邮件序列设计、A/B测试、送达率优化、GDPR/CAN-SPAM合规、生命周期邮件与CRM集成",
+      "emoji": "📧",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-email-marketing.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-email-strategist",
+      "name": "邮件营销策略师",
+      "description": "CRM驱动的邮件营销专家，覆盖生命周期自动化、分群架构与送达率优化",
+      "emoji": "📧",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-email-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-engineering-community-manager",
+      "name": "社区管理",
+      "description": "开发者社区运营、Discord/论坛管理、活动策划与生态增长专家",
+      "emoji": "🌐",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-engineering-community-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-engineering-seo-technical",
+      "name": "技术SEO/搜索引擎工程师",
+      "description": "技术SEO与搜索引擎优化工程专家，覆盖网站架构/爬虫优化(Crawl Budget)、Core Web Vitals/Page Experience、结构化数据(Schema.org/JSON-LD)、JavaScript SEO与SERP特性(Featured Snippet)",
+      "emoji": "🔍",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-engineering-seo-technical.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-europe-market",
+      "name": "欧洲市场专家",
+      "description": "欧洲市场营销与合规专家，覆盖GDPR/ePrivacy数据合规、多国多语言本地化、本地支付(PayPal/Klarna/iDEAL)、SEO区域策略与DACH/北欧/南欧市场差异",
+      "emoji": "🇪🇺",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-europe-market.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-feed-ad-optimizer",
+      "name": "信息流广告优化师",
+      "description": "信息流广告投放与优化专家，覆盖巨量引擎(抖音/头条/穿山甲)/腾讯广告(微信/QQ/优量汇)/快手磁力引擎全平台投放、素材创意A/B测试、出价策略(oCPM/oCPC/CPA)、人群定向(DMP/一方数据/相似人群)与ROI优化",
+      "emoji": "📱",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-feed-ad-optimizer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-field-marketing",
+      "name": "区域/现场营销(Field Marketing)经理",
+      "description": "区域营销与线下活动执行专家，覆盖区域市场拓展/本地化策略、线下活动/展会/路演策划执行、销售赋能/本地化内容与区域营销预算/ROI",
+      "emoji": "📍",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-field-marketing.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-french-market-consultant",
+      "name": "法国咨询市场导航师",
+      "description": "ESN/SI 生态与法国 IT 自由职业专家",
+      "emoji": "🇫🇷",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-french-market-consultant.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-global-podcast-strategist",
+      "name": "全球播客策略师",
+      "description": "专注节目定位、受众发展、内容策略与变现的播客增长专家",
+      "emoji": "🎙️",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-global-podcast-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-global-ua-manager",
+      "name": "海外推广经理",
+      "description": "海外用户增长与广告投放专家，覆盖Google Ads(搜索/购物/PMAX/YouTube)/Meta Ads(Facebook/Instagram/Advantage+)/TikTok Ads(Spark Ads/VSA/DSA)全平台投放、MMP归因配置(Appsflyer/Adjust/Branch)、ASO/ASA协同、素材本地化与多市场预算分配",
+      "emoji": "🌍",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-global-ua-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-growth-hacker",
+      "name": "增长黑客",
+      "description": "快速用户获取、病毒循环与实验驱动增长专家",
+      "emoji": "🚀",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-growth-hacker.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-inbound-strategist",
+      "name": "SEO/内容/集客营销(Inbound)经理",
+      "description": "搜索引擎优化与集客营销增长专家，覆盖内容SEO/技术SEO/外链建设、博客/白皮书/案例等集客内容、营销自动化线索孵化与Organic渠道ROI",
+      "emoji": "🧲",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-inbound-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-india-market",
+      "name": "印度市场专家",
+      "description": "印度市场营销策略专家，覆盖多语言/多邦策略、WhatsApp/ShareChat/ Moj生态、UPI支付、价格敏感度与区域化内容策略",
+      "emoji": "🇮🇳",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-india-market.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-influencer-kol",
+      "name": "网红/KOL营销专家",
+      "description": "网红与KOL营销策略专家，覆盖达人筛选/数据评估、Brief撰写、报价谈判、内容共创、效果追踪与长期合作管理，覆盖抖音/小红书/B站/TikTok/Instagram/YouTube",
+      "emoji": "⭐",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-influencer-kol.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-instagram-curator",
+      "name": "Instagram 运营专家",
+      "description": "视觉叙事、社区运营与 Instagram 策略专家",
+      "emoji": "📸",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-instagram-curator.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-japan-market-expert",
+      "name": "日本市场专家",
+      "description": "日本市场进入、Rakuten/Yahoo! JAPAN营销、日本消费者行为与LINE生态专家",
+      "emoji": "🇯🇵",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-japan-market-expert.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-korean-business-navigator",
+      "name": "韩国商务导航师",
+      "description": "韩国商业文化、品议流程与人际关系机制专家",
+      "emoji": "🇰🇷",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-korean-business-navigator.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-kuaishou-strategist",
+      "name": "快手运营策略师",
+      "description": "Expert Kuaishou marketing strategist specializing in short-video content for China's lower-tier city markets, live commerce operations, community trust building, and grassroots audience growth on 快手.",
+      "emoji": "🎥",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-kuaishou-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-linkedin-content-creator",
+      "name": "领英内容创作者",
+      "description": "个人品牌、思想领导力与领英专业内容专家",
+      "emoji": "💼",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-linkedin-content-creator.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-livestream-commerce-coach",
+      "name": "直播带货教练",
+      "description": "主播培训、直播间优化与转化提升专家",
+      "emoji": "🎙️",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-livestream-commerce-coach.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-market-research",
+      "name": "市场研究员",
+      "description": "市场研究与消费者洞察专家，覆盖定量/定性研究方法、问卷设计/抽样、焦点小组/深度访谈、联合分析(Conjoint)与市场细分/品牌追踪",
+      "emoji": "📊",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-market-research.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "marketing-multi-platform-publisher",
+      "name": "多平台发布专家",
+      "description": "中文内容一键分发专家，通过Wechatsync将文章路由至知乎/小红书/CSDN/B站/公众号/掘金",
+      "emoji": "📡",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-multi-platform-publisher.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-paid-media-auditor",
+      "name": "付费媒体审计师",
+      "description": "200+ 维度账户审计与竞争对手分析专家",
+      "emoji": "📋",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-paid-media-auditor.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "marketing-paid-media-creative-strategist",
+      "name": "广告创意策略师",
+      "description": "RSA 文案、Meta 创意与 PMax 素材专家",
+      "emoji": "🎨",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-paid-media-creative-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-paid-media-paid-social-strategist",
+      "name": "付费社交策略师",
+      "description": "Meta/LinkedIn/TikTok 跨平台付费社交专家",
+      "emoji": "💰",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-paid-media-paid-social-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-paid-media-ppc-strategist",
+      "name": "竞价广告策略师",
+      "description": "Google/Microsoft/Amazon 广告、账户结构与出价专家",
+      "emoji": "💸",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-paid-media-ppc-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-paid-media-programmatic-buyer",
+      "name": "程序化广告购买专家",
+      "description": "GDN、DSP、合作媒体与 ABM 展示广告专家",
+      "emoji": "📺",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-paid-media-programmatic-buyer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-paid-media-search-query-analyst",
+      "name": "搜索词分析师",
+      "description": "搜索词分析、否定关键词与意图映射专家",
+      "emoji": "🔎",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-paid-media-search-query-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "marketing-paid-media-tracking-specialist",
+      "name": "追踪与埋点专家",
+      "description": "GTM、GA4、转化追踪与 CAPI 实施专家",
+      "emoji": "📡",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-paid-media-tracking-specialist.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-performance-analyst",
+      "name": "效果广告数据分析师",
+      "description": "效果广告数据分析专家,覆盖多平台数据整合(巨量/腾讯/百度/Google/Meta)、ROAS/LTV/CAC/ROI全链路分析、归因模型(末次点击/位置/时间衰减/数据驱动)、增量测试(PSA/geo lift/switchback)、广告BI看板搭建与异常检测",
+      "emoji": "📈",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-performance-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "marketing-podcast-strategist",
+      "name": "播客策略师",
+      "description": "播客内容策略与平台运营专家",
+      "emoji": "🎧",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-podcast-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-pr-communications-manager",
+      "name": "公关与传播经理",
+      "description": "媒体关系、新闻稿、危机传播与整合传播规划的战略公关专家",
+      "emoji": "📣",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-pr-communications-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-pr-expert",
+      "name": "公关/PR 专家",
+      "description": "危机公关、媒体关系、企业声誉管理与发言人培训专家",
+      "emoji": "📰",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-pr-expert.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-private-domain-operator",
+      "name": "私域运营专家",
+      "description": "企业微信、私域流量与社群运营专家",
+      "emoji": "🔒",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-private-domain-operator.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-reddit-community-builder",
+      "name": "Reddit 社区运营",
+      "description": "真实互动、价值内容与 Reddit 营销专家",
+      "emoji": "💬",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-reddit-community-builder.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-retail-media-ad",
+      "name": "零售媒体/电商广告专家",
+      "description": "零售媒体网络(Retail Media)与电商站内广告专家，覆盖Amazon Ads/京东天猫站内广告、Sponsored Products、DSP与ROAS分析",
+      "emoji": "🛒",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-retail-media-ad.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-sales-enablement",
+      "name": "销售赋能(Sales Enablement)经理",
+      "description": "B2B销售赋能与销售内容管理专家，覆盖销售培训/认证体系、销售话术/Playbook/竞争对比(Battlecard)、销售内容库/CRM内容集成与新员工Onboarding",
+      "emoji": "🎯",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-sales-enablement.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-sem-baidu-specialist",
+      "name": "SEM/百度竞价专员",
+      "description": "百度搜索推广(凤巢)与SEM优化专家,覆盖关键词策略(拓词/分词/匹配模式)、创意优化(通配符/组件/高级样式)、质量度优化、oCPC出价策略、竞品分析与百度统计",
+      "emoji": "🔍",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-sem-baidu-specialist.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-seo-specialist",
+      "name": "SEO 专家",
+      "description": "技术 SEO、内容策略与外链建设专家",
+      "emoji": "🔍",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-seo-specialist.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-short-video-editing-coach",
+      "name": "短视频剪辑教练",
+      "description": "后期制作、剪辑流程与平台规格优化专家",
+      "emoji": "🎬",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-short-video-editing-coach.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-sms-push-notifications",
+      "name": "推送/短信/应用内消息专家",
+      "description": "移动推送与消息触达策略专家，覆盖App Push/短信/微信模板消息/应用内消息、用户分群/触发策略、A/B消息测试与送达率优化",
+      "emoji": "📲",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-sms-push-notifications.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-social-media-strategist",
+      "name": "社交媒体策略师",
+      "description": "跨平台策略、营销活动与社媒整体规划专家",
+      "emoji": "📣",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-social-media-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-southeast-asia-expert",
+      "name": "东南亚市场专家",
+      "description": "东南亚六国市场策略、Grab/GoTo超级应用生态、社交媒体矩阵与本地化支付专家",
+      "emoji": "🌴",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-southeast-asia-expert.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-tiktok-strategist",
+      "name": "TikTok 策略专家",
+      "description": "病毒内容、算法优化与 TikTok 增长专家",
+      "emoji": "🎵",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-tiktok-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-twitter-engager",
+      "name": "Twitter 运营专家",
+      "description": "实时互动、思想领导力与推特策略专家",
+      "emoji": "🐦",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-twitter-engager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-video-optimization-specialist",
+      "name": "视频优化专家",
+      "description": "视频营销策略师，专注 YouTube 算法优化、观众留存、章节划分、缩略图策略与跨平台视频分发",
+      "emoji": "🎬",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-video-optimization-specialist.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-wechat-official-account",
+      "name": "微信公众号运营专家",
+      "description": "粉丝互动、内容营销与微信公众号策略专家",
+      "emoji": "📱",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-wechat-official-account.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-weibo-strategist",
+      "name": "微博运营策略师",
+      "description": "微博热搜、话题营销与粉丝互动专家",
+      "emoji": "🔥",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-weibo-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-x-twitter-intelligence-analyst",
+      "name": "X/Twitter情报分析师",
+      "description": "X/Twitter社交媒体研究、趋势检测与受众洞察的情报分析专家",
+      "emoji": "🛰️",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-x-twitter-intelligence-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "marketing-xiaohongshu-specialist",
+      "name": "小红书运营专家",
+      "description": "生活方式内容、趋势策略与小红书增长专家",
+      "emoji": "🌸",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-xiaohongshu-specialist.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-zhihu-strategist",
+      "name": "知乎运营专家",
+      "description": "思想领导力、知识驱动互动与知乎权威建立专家",
+      "emoji": "🧠",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-zhihu-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

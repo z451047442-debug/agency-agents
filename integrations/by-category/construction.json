@@ -1,0 +1,487 @@
+{
+  "category": "construction",
+  "agent_count": 40,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "construction-architectural-designer",
+      "name": "建筑设计师",
+      "description": "建筑设计与空间规划专家，覆盖概念设计、方案深化、建筑规范、可持续设计与BIM协同",
+      "emoji": "🏛️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-architectural-designer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-bim-engineer",
+      "name": "BIM工程师",
+      "description": "BIM(建筑信息模型)与数字建造专家，覆盖Revit建模、碰撞检测、4D/5D模拟、点云扫描与数字化交付",
+      "emoji": "🧬",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-bim-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-cost-estimator",
+      "name": "工程造价师",
+      "description": "工程造价与成本顾问专家，覆盖工料测量、造价估算、招标管理、合同管理与工程结算审计",
+      "emoji": "📐",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-cost-estimator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-electrical",
+      "name": "建筑电气工程师",
+      "description": "建筑电气系统设计与施工专家，覆盖变配电/高低压、照明/应急照明、防雷接地、火灾自动报警、电气节能(光伏/储能)与智能配电(能源管理系统)",
+      "emoji": "⚡",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-electrical.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-acoustics-consultant",
+      "name": "建筑声学/室内声学顾问",
+      "description": "建筑声学与室内声学设计顾问，覆盖音乐厅/剧院/录音棚(RT60/STI/C80/D50)音质设计、隔声(空气声/撞击声)/设备减振(NC曲线)、开敞办公室/教室/医院声环境与声学模拟(Odeon/CATT-Acoustic)",
+      "emoji": "🎵",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-acoustics-consultant.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-acoustics-specialist",
+      "name": "声学/降噪工程师",
+      "description": "声学工程与主动降噪(ANC)专家，覆盖建筑/汽车/消费电子声学设计、主动降噪(反馈/前馈)算法、声学测量(消声室/NVH)与音频DSP",
+      "emoji": "🔇",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-acoustics-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-bridge-structural",
+      "name": "桥梁工程/桥梁健康监测工程师",
+      "description": "大跨度桥梁设计与结构健康监测专家，覆盖悬索桥/斜拉桥/拱桥/梁桥结构、风工程/抗震设计、桥梁健康监测(SHM)/荷载试验与桥梁养护/加固",
+      "emoji": "🌉",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-bridge-structural.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-civil-engineer",
+      "name": "土木工程师",
+      "description": "全球标准覆盖的土木结构工程专家 — Eurocode、DIN、ACI、AISC、ASCE 等国际规范，专注结构分析、岩土设计与施工文档",
+      "emoji": "🏗️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-civil-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-construction-claims",
+      "name": "工程索赔/争议解决(量子/工期)顾问",
+      "description": "建设工程合同索赔与争议解决专家顾问，覆盖工期延误分析(TIA/Window/CPM)、量子(Quantum)额外费用/ disruption/ acceleration量化、合同解释(FIDIC/NEC/JCT)与专家证人/裁决/仲裁",
+      "emoji": "⚖️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-construction-claims.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-construction-materials",
+      "name": "土木工程材料/混凝土专家",
+      "description": "水泥混凝土与工程材料专家，覆盖高性能混凝土(HPC/UHPC)/自密实混凝土配合比、骨料/掺合料/外加剂、耐久性/碱骨料反应/氯离子渗透与材料检测/无损评估",
+      "emoji": "🧱",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-construction-materials.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-cultural-heritage-digitization",
+      "name": "文化遗产数字化/数字人文(DH)专家",
+      "description": "文化遗产3D数字化与数字人文技术专家，覆盖激光扫描/摄影测量/RTI(Reflectance Transformation Imaging)、3D建模/虚拟修复/VR/AR文化遗产、文化遗产元数据(CIDOC-CRM)/数字档案与数字孪生/预防性保护",
+      "emoji": "🏛️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-cultural-heritage-digitization.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-dam-engineering",
+      "name": "大坝工程/水工结构工程师",
+      "description": "混凝土坝/土石坝设计与安全监测专家，覆盖拱坝/重力坝/面板堆石坝(CFRD)结构设计、坝基/坝肩/库岸边坡稳定性、大坝安全监测(变形/渗流/应力)与溃坝洪水/风险分析",
+      "emoji": "🏗️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-dam-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-facade-engineering",
+      "name": "幕墙/建筑外围护工程师",
+      "description": "高层建筑幕墙与建筑外围护结构专家，覆盖玻璃幕墙(单元式/构件式/点支式)/金属/石材幕墙、幕墙热工/结露/遮阳(BIPV)、幕墙结构(抗风/地震/层间位移)/水密气密(AAMA/ASTM/EN)与幕墙检测(PMU/现场水密)",
+      "emoji": "🏢",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-facade-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-fire-dynamics",
+      "name": "火灾调查/火场溯源专家",
+      "description": "火灾起因调查与火场重建专家，覆盖火灾痕迹/烧损图(Char Pattern)/V型图案分析、电气火灾(电弧/过载/漏电)鉴定、放火/纵火物证分析与NFPA 921科学方法",
+      "emoji": "🔥",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-fire-dynamics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-geodesy-surveying",
+      "name": "大地测量/精密定位工程师",
+      "description": "卫星大地测量与精密定位系统专家，覆盖GNSS(北斗/GPS/GLONASS/Galileo)精密单点定位(PPP)/RTK、CORS连续运行参考站网络、INS/GNSS组合导航与地壳形变/InSAR大地测量",
+      "emoji": "🛰️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-geodesy-surveying.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-geotechnical-earthquake",
+      "name": "岩土地震/土动力学工程师",
+      "description": "岩土地震工程与场地效应专家，覆盖场地地震反应分析(SHAKE/DEEPSOIL/FLAC)、砂土液化评估(SPT/CPT/Vs)/液化灾害(Lateral Spreading/沉降)、地震边坡/路堤/挡土墙稳定性与软土震陷/断层破裂",
+      "emoji": "🏗️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-geotechnical-earthquake.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-green-building",
+      "name": "绿色建筑/净零能耗设计顾问",
+      "description": "高性能绿色建筑与零碳建筑设计顾问，覆盖被动式设计/建筑物理模拟(EnergyPlus/IES/DesignBuilder)、LEED/绿建三星/BREEAM/WELL认证、光伏/地源热泵/自然通风与隐含碳(LCA)",
+      "emoji": "🏢",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-green-building.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-heritage-conservation",
+      "name": "文化遗产保护/文物保护科技专家",
+      "description": "文化遗产保护科学技术与修复专家，覆盖文物材料分析(XRF/XRD/SEM/FTIR)、环境监测/预防性保护(温湿度/光照/污染物)、石质/金属/壁画/纸张修复与数字化保护(3D扫描/数字存档)",
+      "emoji": "🏛️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-heritage-conservation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-hvac-automation",
+      "name": "制冷/热泵/空调系统工程师",
+      "description": "蒸气压缩制冷与热泵系统设计专家，覆盖制冷循环/压缩机/换热器/膨胀阀选型、制冷剂(R32/R290/R744/R1234yf)环保替代、变频/数码涡旋容量调节与热泵除霜/极寒制热",
+      "emoji": "❄️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-hvac-automation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-industrial-refrigeration",
+      "name": "工业制冷/冷链制冷工程师",
+      "description": "工业氨/CO2制冷系统与大型冷库设计专家，覆盖氨(NH3)/CO2复叠与跨临界制冷系统、冷库(高温/低温/速冻)气流组织、工业制冷安全(PED/ASME B31.5/压力容器)与制冷能耗优化/废热回收",
+      "emoji": "❄️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-industrial-refrigeration.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-landscape-architecture",
+      "name": "景观建筑/景观生态设计师",
+      "description": "可持续景观与城市生态设计专家，覆盖雨水花园/生物滞留/绿色屋顶/植草沟(GI/LID)、乡土植物群落/城市生物多样性、公共空间/广场/滨水景观与景观绩效评估(SITES)",
+      "emoji": "🌳",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-landscape-architecture.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-noise-control",
+      "name": "环境噪声/交通噪声控制工程师",
+      "description": "城市环境噪声与交通噪声预测控制专家，覆盖交通噪声(公路/铁路/航空NORD2000/CNOSSOS)预测、声屏障/隔声窗/建筑隔声、土地利用噪声规划与噪声投诉/听证",
+      "emoji": "🔇",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-noise-control.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-piping-design",
+      "name": "管道/配管设计工程师",
+      "description": "工业管道系统与工艺配管设计专家，覆盖ASME B31.1/B31.3管道规范、管道应力分析(CAESAR II)、P&ID/管道材料等级、三维管道设计(PDMS/SP3D/Plant 3D)与管道支吊架设计",
+      "emoji": "🔧",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-piping-design.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-rail-infrastructure",
+      "name": "轨道工程/铁路基础设施维护工程师",
+      "description": "有砟/无砟轨道结构与铁路基础设施专家，覆盖轨道几何(Track Geometry)/钢轨廓形/波磨/伤损管理、道床/扣件/轨枕/道岔维护、打磨/换轨/大修/养路机械(捣固车/清筛车)与轨道检测(轨检车/Ultrasonic)",
+      "emoji": "🛤️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-rail-infrastructure.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-rail-transit",
+      "name": "轨道交通/信号系统工程专家",
+      "description": "城市轨道交通与铁路信号系统专家，覆盖CBTC基于通信的列车控制、联锁(CBI)/ATP/ATO/ATS、GSM-R/LTE-R通信与系统安全(SIL4/EN 5012x)",
+      "emoji": "🚆",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-rail-transit.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-railway-systems-design",
+      "name": "铁路车辆/动车组设计工程师",
+      "description": "铁路车辆与高速动车组机械设计专家，覆盖车辆动力学(蛇行/舒适度/脱轨)、转向架/车体/车钩缓冲器、制动系统与UIC/EN/GB车辆标准",
+      "emoji": "🚄",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-railway-systems-design.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-rock-mechanics",
+      "name": "岩石力学/采矿工程工程师",
+      "description": "岩石力学与采矿/隧道围岩稳定性专家，覆盖岩石强度准则(Hoek-Brown/Mohr-Coulomb)/岩体分类(RMR/Q/G SI)、深部开采/岩爆/微震监测、边坡/采空区稳定性与充填/支护设计",
+      "emoji": "⛏️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-rock-mechanics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-seismic-retrofit",
+      "name": "抗震加固/抗震韧性评估工程师",
+      "description": "既有建筑抗震鉴定与结构加固改造专家，覆盖抗震鉴定(ATC-40/FEMA 356/GB 50023)/Pushover推覆分析、碳纤维(CFRP)/粘钢/增大截面/隔震/消能减震加固、韧性城市(REDi)评级与基于性能的地震工程(PBEE)",
+      "emoji": "🏗️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-seismic-retrofit.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-structural-analysis",
+      "name": "结构分析/有限元(FEA)高级工程师",
+      "description": "高级结构有限元分析与仿真专家，覆盖非线性FEA(材料/几何/接触)、显式动力学(LS-DYNA/Abaqus Explicit)、疲劳/断裂力学、复合材料结构分析与优化(拓扑/形貌)",
+      "emoji": "📐",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-structural-analysis.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-structural-fire",
+      "name": "结构抗火/消防工程性能化设计专家",
+      "description": "建筑结构抗火与性能化消防工程专家，覆盖结构耐火(钢/混凝土/木防火保护)、火灾/烟气蔓延模拟(FDS/ CFAST)、人员疏散模拟(Pathfinder/STEPS)与性能化设计(Performance-Based Design)",
+      "emoji": "🔥",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-structural-fire.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-tunnel-engineering",
+      "name": "隧道/地下工程工程师",
+      "description": "隧道与地下空间工程设计与施工专家，覆盖TBM/盾构/钻爆法/明挖施工方法、新奥法(NATM)围岩支护、隧道通风/防水/火灾安全与地质预报/监控量测",
+      "emoji": "🚇",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-tunnel-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-engineering-urban-planning-design",
+      "name": "城市规划/城市设计师",
+      "description": "可持续城市规划与城市设计专家，覆盖总体规划/控制性详规、TOD公共交通导向开发、韧性城市与公众参与",
+      "emoji": "🏙️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-engineering-urban-planning-design.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-fire-protection",
+      "name": "消防工程师",
+      "description": "建筑消防系统设计与验收专家，覆盖水喷淋/消火栓/气体灭火、火灾自动报警/联动控制、防排烟、防火分区/疏散与消防建审/验收流程",
+      "emoji": "🧯",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-fire-protection.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-geotechnical-engineer",
+      "name": "岩土/地基工程师",
+      "description": "岩土工程与地基基础设计专家，覆盖场地勘察/地质报告解读、桩基/地下连续墙/深基坑设计、地基处理/边坡稳定性分析与岩土工程风险评估",
+      "emoji": "⛰️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-geotechnical-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-hvac",
+      "name": "暖通空调(HVAC)工程师",
+      "description": "暖通空调系统设计与施工专家，覆盖冷热源系统(冷水机组/锅炉/热泵)、空调末端/通风/防排烟、洁净室/恒温恒湿、数据中心制冷与节能(LEED/绿建)",
+      "emoji": "🌬️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-hvac.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-low-voltage",
+      "name": "弱电智能化工程师",
+      "description": "弱电与智能化系统设计与施工专家，覆盖综合布线/结构化布线、安防(视频监控/门禁/入侵报警)、楼宇自控(BAS/BMS)、消防报警、会议/信息发布与IBMS集成平台",
+      "emoji": "🔌",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-low-voltage.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-plumbing",
+      "name": "给排水工程师",
+      "description": "建筑给排水系统设计与施工专家，覆盖生活给水/热水、污废水排水/雨水、消防供水系统(消火栓/喷淋/水炮)、水泵房/水池与同层排水/BIM协同",
+      "emoji": "💧",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-plumbing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-project-manager",
+      "name": "施工项目经理",
+      "description": "施工项目管理专家，覆盖施工计划、进度控制、成本管理、分包协调、质量验收与安全管理",
+      "emoji": "🏗️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-project-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-safety-officer",
+      "name": "建筑安全/健康与环境(HSE)经理",
+      "description": "建筑施工安全与职业健康管理专家，覆盖HSE管理体系(ISO45001)、施工现场危险源辨识/风险评估(JSA)、安全培训/检查与事故调查",
+      "emoji": "⛑️",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-safety-officer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-surveyor",
+      "name": "测量/测绘工程师",
+      "description": "工程测量与测绘专家，覆盖GNSS/全站仪/水准测量、无人机倾斜摄影/三维激光扫描、控制网/变形监测与BIM+GIS融合",
+      "emoji": "📐",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-surveyor.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "category": "beauty",
+  "agent_count": 3,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "beauty-formulation",
+      "name": "化妆品配方科学家",
+      "description": "护肤与彩妆配方研发、成分功效评估、稳定性测试、纯净美妆、FDA/EC/NMPA法规合规",
+      "emoji": "🧪",
+      "category": "beauty",
+      "subcategory": "",
+      "path": "beauty/beauty-formulation.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "beauty-marketing",
+      "name": "美妆品牌营销师",
+      "description": "美妆品牌故事讲述、社交媒体社群运营、达人合作、教程内容策略与新品发布活动专家",
+      "emoji": "✨",
+      "category": "beauty",
+      "subcategory": "",
+      "path": "beauty/beauty-marketing.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "beauty-product-manager",
+      "name": "美妆产品经理",
+      "description": "产品概念开发、包装策略、上市推广、达人种草、DTC渠道策略与趋势监测专家",
+      "emoji": "💄",
+      "category": "beauty",
+      "subcategory": "",
+      "path": "beauty/beauty-product-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

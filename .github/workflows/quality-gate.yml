@@ -1,0 +1,176 @@
+name: Quality Gate
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "scripts/score-agents.py"
+      - "scripts/lint-agents.py"
+      - "scripts/analyze-deps.py"
+      - "scripts/agent-lifecycle.py"
+      - "scripts/shard-index.py"
+      - "AGENTS.json"
+      - ".github/workflows/quality-gate.yml"
+
+jobs:
+  # ── Quality scoring with threshold ──────────────────────────────────────
+  score:
+    name: Score agents (threshold ≥5)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Get changed agent files
+        id: changed
+        run: |
+          FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- '*.md' ':!examples/*' ':!integrations/*' ':!scripts/*' ':!docs/*' ':!.github/*')
+          {
+            echo "files<<ENDOFLIST"
+            echo "$FILES"
+            echo "ENDOFLIST"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Score changed agents
+        if: steps.changed.outputs.files != ''
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+        run: |
+          FAILED=0
+          for f in $CHANGED_FILES; do
+            echo "::group::Scoring $f"
+            python scripts/score-agents.py --file "$f" --no-freshness --threshold 5 || FAILED=1
+            echo "::endgroup::"
+          done
+          if [ "$FAILED" -eq 1 ]; then
+            echo "::error::Some changed agents scored below threshold (5)"
+            exit 1
+          fi
+
+  # ── Security + lint on changed agents ───────────────────────────────────
+  security-lint:
+    name: Security scan & lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Get changed agent files
+        id: changed
+        run: |
+          FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- '*.md' ':!examples/*' ':!integrations/*' ':!scripts/*' ':!docs/*' ':!.github/*')
+          {
+            echo "files<<ENDOFLIST"
+            echo "$FILES"
+            echo "ENDOFLIST"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Lint with security scan
+        if: steps.changed.outputs.files != ''
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+        run: |
+          echo "::group::Lint + Security Scan"
+          python scripts/lint-agents.py $CHANGED_FILES --no-freshness
+          LINT_EXIT=$?
+          echo "::endgroup::"
+
+          echo "::group::Security Findings"
+          python scripts/lint-agents.py $CHANGED_FILES --no-freshness 2>&1 | grep "SECURITY" || echo "No security findings"
+          echo "::endgroup::"
+
+          exit $LINT_EXIT
+
+  # ── Dependency validation ──────────────────────────────────────────────
+  validate-deps:
+    name: Validate depends_on references
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Check for broken dependencies
+        run: |
+          python scripts/analyze-deps.py --validate
+          echo "::notice::All depends_on references are valid"
+
+  # ── Index shard sync check ─────────────────────────────────────────────
+  check-shards:
+    name: Verify index shards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check shards are in sync
+        run: |
+          if [ -d integrations/by-category ]; then
+            python scripts/shard-index.py --check
+          else
+            echo "::notice::Shards not yet generated — run 'python scripts/shard-index.py' to create them"
+          fi
+
+  # ── Quality summary ────────────────────────────────────────────────────
+  summary:
+    name: Quality Summary
+    needs: [score, security-lint, validate-deps, check-shards]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Overall status
+        run: |
+          echo "## Quality Gate Results" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Gate | Status |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|------|--------|" >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "${{ needs.score.result }}" = "success" ]; then
+            echo "| Score (≥5) | ✅ PASS |" >> "$GITHUB_STEP_SUMMARY"
+          elif [ "${{ needs.score.result }}" = "skipped" ]; then
+            echo "| Score (≥5) | ⏭️ SKIPPED |" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "| Score (≥5) | ❌ FAIL |" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          if [ "${{ needs.security-lint.result }}" = "success" ]; then
+            echo "| Security + Lint | ✅ PASS |" >> "$GITHUB_STEP_SUMMARY"
+          elif [ "${{ needs.security-lint.result }}" = "skipped" ]; then
+            echo "| Security + Lint | ⏭️ SKIPPED |" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "| Security + Lint | ❌ FAIL |" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          if [ "${{ needs.validate-deps.result }}" = "success" ]; then
+            echo "| depends_on | ✅ PASS |" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "| depends_on | ❌ FAIL |" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          if [ "${{ needs.check-shards.result }}" = "success" ]; then
+            echo "| Index Shards | ✅ PASS |" >> "$GITHUB_STEP_SUMMARY"
+          elif [ "${{ needs.check-shards.result }}" = "skipped" ]; then
+            echo "| Index Shards | ⏭️ SKIPPED |" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "| Index Shards | ❌ FAIL |" >> "$GITHUB_STEP_SUMMARY"
+          fi

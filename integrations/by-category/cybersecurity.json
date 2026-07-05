@@ -1,0 +1,451 @@
+{
+  "category": "cybersecurity",
+  "agent_count": 35,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "cybersecurity-appsec-engineer",
+      "name": "应用安全工程师",
+      "description": "应用安全(AppSec)专家，覆盖安全代码审查、SAST/DAST/SCA工具链、安全开发生命周期(SDL)、漏洞管理与安全修复",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-appsec-engineer.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-blockchain-security-auditor",
+      "name": "区块链安全审计师",
+      "description": "智能合约审计与漏洞分析专家",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-blockchain-security-auditor.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-bug-bounty-hunter",
+      "name": "漏洞赏金猎人",
+      "description": "漏洞赏金猎人与漏洞研究专家，专注众测安全测试、创造性漏洞利用链、负责任披露及最大化赏金收益，覆盖 Web、API 与移动端目标",
+      "emoji": "🏹",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-bug-bounty-hunter.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-chief-security-officer",
+      "name": "首席信息安全官(CISO)",
+      "description": "企业信息安全最高负责人，覆盖安全战略/治理框架、安全预算/ROI、安全团队建设、董事会沟通、合规与风险 appetite 管理",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-chief-security-officer.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-cloud-security-architect",
+      "name": "云安全架构师",
+      "description": "云安全架构专家，专注多云安全（AWS/GCP/Azure）、云原生安全控制、零信任身份架构、工作负载保护及策略即代码实施",
+      "emoji": "☁️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-cloud-security-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-compliance-auditor",
+      "name": "合规审计师",
+      "description": "SOC2/ISO27001/HIPAA/PCI-DSS 合规认证指导专家",
+      "emoji": "📋",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-compliance-auditor.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-devsecops-engineer",
+      "name": "DevSecOps工程师",
+      "description": "DevSecOps与安全自动化专家，覆盖CI/CD安全集成、基础设施即代码安全、容器/K8s安全、策略即代码与安全可观测性",
+      "emoji": "⚙️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-devsecops-engineer.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-digital-forensics",
+      "name": "数字取证调查员",
+      "description": "数字取证调查专家，专注证据收集、取证镜像、时间线分析、痕迹恢复及保管链文档，覆盖终端、网络与云环境",
+      "emoji": "🔍",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-digital-forensics.md",
+      "nexus_roles": [
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-biometric-engineer",
+      "name": "生物识别/身份认证工程师",
+      "description": "生物特征识别与身份认证技术专家，覆盖指纹/人脸/虹膜/声纹/静脉识别算法、活体检测/防伪(PAD)、FIDO2/WebAuthn无密码认证与生物特征数据保护(ISO 30107)",
+      "emoji": "🔐",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-biometric-engineer.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-compliance-engineer",
+      "name": "合规/法规事务(RA)工程师",
+      "description": "产品合规与法规事务工程专家，覆盖CE/FCC/UL/CCC/ SRRC/ RoHS/REACH等全球市场准入认证、产品安全标准(IEC/GB)、EMC/无线/能效测试与法规情报",
+      "emoji": "📋",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-compliance-engineer.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-cryptography-engineer",
+      "name": "密码学/安全协议工程师",
+      "description": "应用密码学与安全协议设计专家，覆盖对称/非对称加密(AES/RSA/ECC/PQC)、TLS/HTTPS传输安全、密钥管理(KMS/HSM)、零知识证明(ZKP)与同态加密",
+      "emoji": "🔐",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-cryptography-engineer.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-customer-identity-access",
+      "name": "客户身份与访问管理(CIAM)工程师",
+      "description": "面向消费者的身份认证与客户数据平台专家，覆盖Auth0/AWS Cognito/Azure AD B2C、社交登录/Passkey/FIDO、用户画像/同意管理(Consent)与GDPR/CCPA隐私合规",
+      "emoji": "🔑",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-customer-identity-access.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-cyber-risk-model",
+      "name": "网络风险量化/网络安全保险精算师",
+      "description": "网络风险建模与网络安全保险产品设计专家，覆盖网络损失分布/蒙特卡洛模拟、安全控制审计/风险工程与保险定价",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-cyber-risk-model.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-cybersecurity-risk",
+      "name": "安全风险/GRC管理顾问",
+      "description": "信息安全风险与治理合规(GRC)顾问，覆盖NIST CSF/ISO 27001/ SOC2框架、风险评估方法(FAIR/ OCTAVE)、第三方/供应链风险管理与安全指标/董事会报告",
+      "emoji": "📋",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-cybersecurity-risk.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-data-privacy-architect",
+      "name": "隐私增强技术(PETs)研究员",
+      "description": "隐私增强技术与数据安全研究专家，覆盖联邦学习(Federated Learning)/差分隐私(DP)、安全多方计算(SMPC)/同态加密(HE)、可信执行环境(TEE/SGX)与隐私保护机器学习",
+      "emoji": "🔒",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-data-privacy-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-endpoint-forensics",
+      "name": "终端检测/事件响应(EDR/DFIR)分析师",
+      "description": "高级端点威胁检测与数字取证事件响应(DFIR)专家，覆盖EDR规则/Sigma/YARA检测开发、内存取证(Volatility/Rekall)、时间线分析(Plaso/Timeliner)与勒索软件/APT事件响应",
+      "emoji": "🔍",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-endpoint-forensics.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-firmware-security",
+      "name": "固件安全/逆向工程师",
+      "description": "嵌入式固件安全分析与逆向工程专家，覆盖固件提取/反汇编(Ghidra/IDA Pro)、硬件调试(JTAG/SWD)、固件漏洞挖掘与安全启动绕过分析",
+      "emoji": "🔓",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-firmware-security.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-forensic-analyst",
+      "name": "数字取证/电子数据鉴定工程师",
+      "description": "数字取证与电子数据司法鉴定专家，覆盖磁盘/内存/移动设备取证、文件系统/日志/时间线分析、证据链/写保护/哈希验证、云取证(SaaS/IaaS)与电子发现(eDiscovery)",
+      "emoji": "🔍",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-forensic-analyst.md",
+      "nexus_roles": [
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-hardware-security",
+      "name": "硬件安全/芯片安全工程师",
+      "description": "集成电路与硬件安全专家，覆盖侧信道攻击(DPA/SPA)/故障注入防护、物理不可克隆函数(PUF)/真随机数发生器、安全Enclave/TEE/Secure Element与芯片级安全认证(CC EAL)",
+      "emoji": "🔐",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-hardware-security.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-network-security",
+      "name": "网络安全工程师",
+      "description": "防火墙、IDS/IPS、渗透测试与安全审计专家",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-network-security.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-privacy-engineer",
+      "name": "隐私工程/隐私计算工程师",
+      "description": "隐私保护技术与隐私计算专家，覆盖GDPR/PIPL隐私工程(Privacy by Design)、差分隐私/联邦学习/多方安全计算(MPC)、数据脱敏/匿名化与Cookie/Consent管理",
+      "emoji": "🔒",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-privacy-engineer.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-security-architect-cloud",
+      "name": "云安全架构师",
+      "description": "云计算平台安全架构专家，覆盖AWS/Azure/GCP/阿里云安全架构(Well-Architected Security)、IAM/权限边界、数据加密(KMS/BYOK)、云安全态势管理(CSPM)与云原生安全(CNAPP)",
+      "emoji": "☁️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-security-architect-cloud.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-security-champion",
+      "name": "安全卫士/安全教练(Security Champion)",
+      "description": "嵌入开发团队的安全倡导者，覆盖安全需求分析/威胁建模(STRIDE)、安全代码审查/SAST结果解读、开发者安全培训与安全左移文化建设",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-security-champion.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-security-engineer",
+      "name": "安全工程师",
+      "description": "威胁建模、安全代码审查与应用安全架构专家",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-security-engineer.md",
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-engineering-threat-detection-engineer",
+      "name": "威胁检测工程师",
+      "description": "SIEM 规则、威胁狩猎与 ATT&CK 映射专家",
+      "emoji": "🎯",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-engineering-threat-detection-engineer.md",
+      "nexus_roles": [
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-fortinet-expert",
+      "name": "Fortinet安全专家",
+      "description": "Fortinet安全产品与网络防护专家,覆盖FortiGate NGFW防火墙策略与UTM配置、FortiManager/FortiAnalyzer集中管理与日志分析、FortiGuard安全服务(IPS/AV/WebFiltering/AppControl)、SD-WAN与ZTNA零信任、FortiSandbox与FortiSIEM",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-fortinet-expert.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-grc-specialist",
+      "name": "治理风险合规专家",
+      "description": "治理风险合规专家，指导组织通过安全框架（SOC 2/ISO 27001/HIPAA/PCI-DSS/NIST）认证、风险评估、政策制定及审计准备",
+      "emoji": "⚖️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-grc-specialist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-incident-response",
+      "name": "事件响应分析师",
+      "description": "安全事件响应(IR)专家，覆盖入侵检测、应急响应、取证分析、威胁狩猎与事件复盘",
+      "emoji": "🚨",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-incident-response.md",
+      "nexus_roles": [
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-malware-analyst",
+      "name": "恶意软件分析师",
+      "description": "恶意软件分析专家，专注逆向工程、静态与动态分析、威胁情报及恶意软件家族分类，解剖恶意软件提取威胁指标以加固防御",
+      "emoji": "🔬",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-malware-analyst.md",
+      "nexus_roles": [
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-paloalto-expert",
+      "name": "Palo Alto安全专家",
+      "description": "Palo Alto Networks下一代防火墙与安全平台专家,覆盖PAN-OS平台管理与Panorama集中管理、App-ID/User-ID/Content-ID技术体系、安全策略与NAT规则设计、Threat Prevention(IPS/Antivirus/WildFire/URL Filtering/DNS Security)、GlobalProtect VPN与Prisma Access SASE",
+      "emoji": "🔥",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-paloalto-expert.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-penetration-tester",
+      "name": "渗透测试工程师",
+      "description": "渗透测试专家，专注红队行动、攻击性安全评估及对抗模拟，覆盖 Web、网络、云与移动端目标",
+      "emoji": "🎯",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-penetration-tester.md",
+      "depends_on": [
+        "cybersecurity-threat-intelligence",
+        "cybersecurity-malware-analyst"
+      ],
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-security-architect",
+      "name": "安全架构师",
+      "description": "企业安全架构设计专家，覆盖零信任架构、身份与访问管理(IAM)、安全边界设计、数据保护与安全技术栈规划",
+      "emoji": "🏰",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-security-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "cybersecurity-soc-analyst",
+      "name": "安全运营中心分析师",
+      "description": "安全运营中心分析专家，专注事件分诊、威胁检测、SIEM 监控、事件处置及告警调查，蓝队防御者",
+      "emoji": "📡",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-soc-analyst.md",
+      "depends_on": [
+        "cybersecurity-threat-intelligence"
+      ],
+      "nexus_roles": [
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-threat-intelligence",
+      "name": "威胁情报分析师",
+      "description": "网络威胁情报(CTI)分析专家，覆盖APT组织追踪/TTP映射(MITRE ATT&CK)、IOC管理/威胁狩猎、暗网监控与战略/战术/运营三级威胁情报",
+      "emoji": "🔍",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-threat-intelligence.md",
+      "nexus_roles": [
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-wireshark-expert",
+      "name": "Wireshark网络分析专家",
+      "description": "Wireshark/tshark网络数据包分析专家，覆盖抓包策略设计(BPF/MAC/SPAN/TAP)、协议深度解码(HTTP/DNS/TLS/TCP/IP)、故障排查方法论、安全事件取证与网络性能基线分析",
+      "emoji": "🦈",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-wireshark-expert.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    }
+  ]
+}

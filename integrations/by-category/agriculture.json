@@ -1,0 +1,151 @@
+{
+  "category": "agriculture",
+  "agent_count": 12,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "agriculture-agronomist",
+      "name": "农艺师",
+      "description": "作物科学与田间管理：品种选育、水肥管理、植保方案、土壤改良、精准农业",
+      "emoji": "🌾",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-agronomist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-economist",
+      "name": "农业经济学家",
+      "description": "农业经济与政策分析：农产品定价、期货市场、补贴政策、国际贸易、农村金融",
+      "emoji": "📉",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-economist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-engineering-aquaculture-fish",
+      "name": "水产养殖/渔业科学专家",
+      "description": "工业化水产养殖与可持续渔业管理专家，覆盖循环水养殖系统(RAS)/深海网箱/池塘精养、鱼虾贝藻种苗繁育/遗传选育、水产饲料/营养/病害防控与水产养殖尾水处理/碳汇渔业",
+      "emoji": "🐟",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-engineering-aquaculture-fish.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-engineering-iot-agriculture",
+      "name": "农业机器人/自动化农机工程师",
+      "description": "农业自动驾驶与智能农机专家，覆盖拖拉机/收割机自动驾驶(GNSS RTK/视觉导航)、精量播种/变量施肥/智能喷药(See & Spray)、农机ISOBUS/机群管理与作业数据平台",
+      "emoji": "🚜",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-engineering-iot-agriculture.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-engineering-soil-science",
+      "name": "土壤科学/土壤修复专家",
+      "description": "土壤环境科学与污染场地修复专家，覆盖场地调查(Phase I/II ESA)/土壤地下水采样、污染物运移模拟/风险评估、修复技术(原位/异位/生物修复)与棕地再开发",
+      "emoji": "🌱",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-engineering-soil-science.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-general-manager",
+      "name": "农业总经理/农场主",
+      "description": "农业企业/大型农场全面经营管理者，覆盖种植/养殖战略规划、土地/水资源管理、农产品销售/品牌化、政府补贴/政策合规与农业科技投资决策",
+      "emoji": "🌾",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-general-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "agriculture-iot-engineer",
+      "name": "农业物联网工程师",
+      "description": "农业IoT与智能装备专家，覆盖土壤/气象传感器网络、智能灌溉控制、农业无人机、畜牧监控与边缘计算",
+      "emoji": "📡",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-iot-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-livestock-manager",
+      "name": "畜牧/养殖管理专家",
+      "description": "畜禽养殖与牧场管理专家，覆盖养殖场设计/生物安全、饲料配方/营养管理、繁殖/遗传改良、动物健康/福利与养殖经济",
+      "emoji": "🐄",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-livestock-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-precision-farming",
+      "name": "精准农业专家",
+      "description": "精准农业与数字农艺专家，覆盖遥感监测、变量施肥、产量预测、土壤建模与农业数据分析",
+      "emoji": "🌾",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-precision-farming.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-quality-safety",
+      "name": "农产品质量安全专家",
+      "description": "农产品质量安全与合规专家，覆盖GAP认证、农药残留管理、食品安全体系(HACCP)、有机认证与出口合规",
+      "emoji": "🔬",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-quality-safety.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-supply-chain",
+      "name": "农业供应链专家",
+      "description": "农产品供应链管理：冷链物流、产地仓储、产销对接、溯源体系、生鲜电商",
+      "emoji": "🚜",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-supply-chain.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-sustainability",
+      "name": "可持续农业顾问",
+      "description": "可持续农业实践：有机种植、碳汇农业、生物多样性、水资源管理、ESG农业投资",
+      "emoji": "♻️",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-sustainability.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

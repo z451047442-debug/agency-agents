@@ -1,0 +1,154 @@
+{
+  "category": "product",
+  "agent_count": 11,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "product-ai-pm",
+      "name": "AI产品经理",
+      "description": "AI/ML产品策略，模型生命周期管理，产品提示工程，AI伦理与负责任AI，数据飞轮设计，LLM集成规划，AI功能优先级排序",
+      "emoji": "🤖",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-ai-pm.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "product-analyst",
+      "name": "产品分析师",
+      "description": "产品指标定义、埋点设计、用户行为分析、漏斗分析、留存队列分析、功能采纳测量、产品看板搭建、SQL/Python 产品数据处理",
+      "emoji": "📉",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "product-b2b-manager",
+      "name": "B2B产品经理",
+      "description": "企业级SaaS产品策略、多租户架构规划、RBAC权限设计、SLA管理、企业入驻、集成生态策略与安全合规要求（SOC2/ISO）",
+      "emoji": "🏢",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-b2b-manager.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "product-behavioral-nudge-engine",
+      "name": "行为助推引擎",
+      "description": "行为心理学、助推设计与用户激励专家",
+      "emoji": "🧠",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-behavioral-nudge-engine.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "product-feedback-synthesizer",
+      "name": "用户反馈综合分析师",
+      "description": "用户反馈分析、洞察提取与产品优先级专家",
+      "emoji": "🔍",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-feedback-synthesizer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "product-growth-manager",
+      "name": "增长产品经理",
+      "description": "病毒裂变、留存优化、引导漏斗设计、PLG策略、转化率优化、推荐计划、队列分析",
+      "emoji": "📈",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-growth-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "product-manager",
+      "name": "产品经理",
+      "description": "全生命周期产品管理：发现、PRD、路线图、GTM",
+      "emoji": "🧭",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-manager.md",
+      "depends_on": [
+        "product-product-analyst"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "product-operations-manager",
+      "name": "产品运营经理",
+      "description": "产品运营全链路管理：发版运营、用户反馈闭环、数据驱动优化、跨职能协调、功能灰度发布、A/B测试运营",
+      "emoji": "📊",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-operations-manager.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "product-sprint-prioritizer",
+      "name": "Sprint 优先级规划师",
+      "description": "敏捷规划、功能优先级与 Sprint 管理专家",
+      "emoji": "🎯",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-sprint-prioritizer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "product-technical-manager",
+      "name": "技术产品经理",
+      "description": "技术产品经理(TPM)专家，覆盖API产品设计、平台产品策略、技术路线图、开发者体验(DX)与服务架构决策",
+      "emoji": "⚡",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-technical-manager.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "product-trend-researcher",
+      "name": "市场趋势研究员",
+      "description": "市场情报、竞品分析与机会识别专家",
+      "emoji": "🔭",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-trend-researcher.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    }
+  ]
+}

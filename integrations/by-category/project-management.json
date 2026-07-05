@@ -1,0 +1,305 @@
+{
+  "category": "project-management",
+  "agent_count": 23,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "project-management-agents-orchestrator",
+      "name": "多智能体编排师",
+      "description": "多 Agent 协调、工作流管理与复杂项目统筹专家",
+      "emoji": "🎛️",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-agents-orchestrator.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-agile-coach",
+      "name": "敏捷教练/Agile Coach",
+      "description": "敏捷转型策略与组织变革专家，覆盖Scrum/Kanban/SAFe框架实施、团队成熟度评估与教练辅导、敏捷度量与健康检查、仪式与回顾引导、产品负责人与Scrum Master导师、组织级变革管理推动敏捷采纳",
+      "emoji": "🔄",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-agile-coach.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "project-management-bid-engineer",
+      "name": "方案与投标工程师",
+      "description": "技术方案与投标专家，覆盖RFP/招标文件分析、技术方案/技术标书撰写、项目成本估算、技术评分点预判与竞争博弈策略",
+      "emoji": "📝",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-bid-engineer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-consulting-manager",
+      "name": "咨询项目经理",
+      "description": "管理咨询项目交付专家，覆盖咨询项目启动/诊断/方案/实施全流程、客户干系人管理、咨询团队组建/资源调度、交付件(Deliverable)质量管控与项目SOW/变更管理",
+      "emoji": "💡",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-consulting-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-controls",
+      "name": "项目控制(P6/计划)工程师",
+      "description": "项目计划与控制专家，覆盖Primavera P6/MS Project进度编制、挣值管理(EVM:CPI/SPI)、关键路径/资源平衡、风险蒙特卡洛模拟(SRA)与进度/成本综合管控",
+      "emoji": "📊",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-controls.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-engineering-technical-program-manager",
+      "name": "技术项目经理(TPM)",
+      "description": "跨团队技术项目管理专家，覆盖大型技术项目规划/分解(WBS)、跨团队依赖/风险管理、技术路线图/里程碑管理与执行跟踪",
+      "emoji": "📋",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-engineering-technical-program-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-event-manager",
+      "name": "活动/会展项目经理",
+      "description": "活动与会展项目管理专家，覆盖大型活动/会议/展览策划、场地/搭建/AV设备/安保管理、供应商/赞助商/嘉宾协调、活动预算/票务/风险预案与现场执行",
+      "emoji": "🎪",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-event-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-experiment-tracker",
+      "name": "实验追踪专家",
+      "description": "A/B 测试、假设验证与数据驱动决策专家",
+      "emoji": "🧪",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-experiment-tracker.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-film-producer",
+      "name": "影视制片人",
+      "description": "影视/视频项目制片管理专家，覆盖影视项目预算/融资、拍摄排期/统筹、剧组/演员/设备调度、后期制作管理与发行/参展全流程",
+      "emoji": "🎬",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-film-producer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-government-grant",
+      "name": "政府项目申报专员",
+      "description": "政府资金/补贴项目申报专家，覆盖科技厅/工信厅/发改委专项资金、高新技术企业认定、研发费用加计扣除、项目可行性报告/申报书撰写与答辩验收",
+      "emoji": "📋",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-government-grant.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-jira-workflow-steward",
+      "name": "Jira 工作流管理员",
+      "description": "Git 工作流、分支策略与 Jira 关联交付规范专家",
+      "emoji": "📋",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-jira-workflow-steward.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-manager",
+      "name": "项目交付经理",
+      "description": "项目交付与执行专家，覆盖端到端项目交付、技术方案落地管理、项目团队/分包协调、客户验收/移交(SAT/FAT)与项目后评估",
+      "emoji": "🚀",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-meeting-notes-specialist",
+      "name": "会议纪要专家",
+      "description": "从会议记录或原始笔记中提取结构化决策、行动项与待决问题的专家",
+      "emoji": "📋",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-meeting-notes-specialist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-pmo-director",
+      "name": "PMO总监",
+      "description": "项目管理办公室(PMO)与项目组合治理专家，覆盖PMO体系(支持型/控制型/战略型)、项目组合(PPM)优先级/资源池、方法论标准化(PMBOK/PRINCE2)、项目审计与组织级项目管理成熟度(OPM3)",
+      "emoji": "🏛️",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-pmo-director.md",
+      "depends_on": [
+        "project-management-project-manager-senior"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "project-management-pmp",
+      "name": "PMP项目管理经理",
+      "description": "PMP项目管理全流程专家，覆盖项目章程与范围管理、WBS与进度编制(关键路径法)、预算与挣值管理(EVM:CPI/SPI/TCPI)、风险登记册与缓解规划、干系人沟通与报告、PMO治理、经验教训与持续改进",
+      "emoji": "📋",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-pmp.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-portfolio",
+      "name": "项目组合经理",
+      "description": "项目组合管理(PPM)专家，覆盖组合优先级排序与遴选、资源产能规划与分配、组合风险管理、战略对齐与OKR逐级分解、组合看板与报告、阶段关口治理、组合财务管理(资本性/运营性支出)",
+      "emoji": "📊",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-portfolio.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "project-management-project-manager-senior",
+      "name": "高级项目经理",
+      "description": "现实范围评估与规格转任务分解专家",
+      "emoji": "📝",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-project-manager-senior.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-project-shepherd",
+      "name": "项目协调专家",
+      "description": "跨职能协调、时间轴管理与端到端项目统筹专家",
+      "emoji": "🐑",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-project-shepherd.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-rd-manager",
+      "name": "R&D与科研项目经理",
+      "description": "研发与科研项目管理专家，覆盖阶段关口(Stage-Gate)/敏捷研发流程、技术路线图/TRL评估、科研经费/课题管理、知识产权/专利布局与成果转化",
+      "emoji": "🔬",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-rd-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-scrum-master",
+      "name": "敏捷教练/Scrum Master",
+      "description": "敏捷开发与Scrum专家，覆盖Scrum/Kanban/SAFe框架、团队教练/站会/回顾/计划会主持、迭代交付/持续改进、工程实践(CI/CD/TDD)与组织级敏捷转型",
+      "emoji": "🏃",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-scrum-master.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "project-management-site-engineer",
+      "name": "现场实施工程师",
+      "description": "项目现场实施与调试专家，覆盖系统安装部署集成、现场冷调/热调/联调、客户培训操作手册、验收(IGCC/机械竣工)与质保期运维",
+      "emoji": "🔧",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-site-engineer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-studio-operations",
+      "name": "工作室运营专家",
+      "description": "日常效率优化、流程改进与生产支持专家",
+      "emoji": "🏭",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-studio-operations.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "project-management-studio-producer",
+      "name": "工作室制作人",
+      "description": "高层编排、投资组合管理与多项目监督专家",
+      "emoji": "🎬",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-studio-producer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

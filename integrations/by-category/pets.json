@@ -1,0 +1,43 @@
+{
+  "category": "pets",
+  "agent_count": 3,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "pets-behaviorist",
+      "name": "动物行为师",
+      "description": "动物行为专家，覆盖行为评估与功能分析、正向强化训练方案设计、恐惧/焦虑/攻击行为干预、分离焦虑系统脱敏治疗、多宠家庭行为协调与环境丰容",
+      "emoji": "🐱",
+      "category": "pets",
+      "subcategory": "",
+      "path": "pets/pets-behaviorist.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "pets-grooming-business",
+      "name": "宠物美容与门店运营",
+      "description": "宠物美容与门店运营专家，覆盖品种标准美容造型（贵宾/比熊/雪纳瑞等）、宠物操作安全与低应激处理、门店卫生消毒与传染病防控、预约排班与客户关系管理、移动美容车运营与上门服务",
+      "emoji": "✂️",
+      "category": "pets",
+      "subcategory": "",
+      "path": "pets/pets-grooming-business.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "pets-nutritionist",
+      "name": "宠物营养师",
+      "description": "宠物营养专家，覆盖物种适宜饮食配方设计（犬/猫/异宠）、生命周期阶段营养规划（幼年/成年/老年/繁殖期）、宠粮原料评估与供应商审核、体重管理与处方粮方案、AAFCO/FEDIAF营养标准合规",
+      "emoji": "🐕",
+      "category": "pets",
+      "subcategory": "",
+      "path": "pets/pets-nutritionist.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

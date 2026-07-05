@@ -1,0 +1,127 @@
+{
+  "category": "government",
+  "agent_count": 10,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "government-digital-presales-consultant",
+      "name": "政务数字化售前顾问",
+      "description": "ToG 项目售前与数字政府转型方案专家",
+      "emoji": "🏛️",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-digital-presales-consultant.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-digital-transformation",
+      "name": "数字政府顾问",
+      "description": "数字政府转型：政务云、数据共享平台、一网通办、数字孪生城市、政务AI应用",
+      "emoji": "🏛️",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-digital-transformation.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-gr-expert",
+      "name": "政府关系专家",
+      "description": "政策沟通、政企协调、行业监管与公共事务专家",
+      "emoji": "🏛️",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-gr-expert.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-policy-analyst",
+      "name": "公共政策分析师",
+      "description": "政策研究、影响评估、政策建议与法规分析专家",
+      "emoji": "📋",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-policy-analyst.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-procurement",
+      "name": "政府采购官员",
+      "description": "公共采购全生命周期管理（RFI/RFP/RFQ），投标评估与供应商选择，政府合同谈判，采购合规与审计，电子采购系统，可持续/绿色采购，供应商多样性计划",
+      "emoji": "📋",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-procurement.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-public-administration",
+      "name": "公共管理/公务员专家",
+      "description": "公共行政与政府管理专家，覆盖公共政策执行/公共服务交付、预算编制/绩效管理、政府信息公开/公众参与与行政效能提升",
+      "emoji": "🏛️",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-public-administration.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-public-affairs",
+      "name": "公共事务总监",
+      "description": "政府关系战略、利益相关者图谱、政策倡导、公众咨询管理、跨政府协调、立法追踪、监管事务",
+      "emoji": "🏛️",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-public-affairs.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-public-safety-analyst",
+      "name": "公共安全分析师",
+      "description": "公共安全与应急管理：风险评估、应急预案、防灾减灾、舆情监测、智慧安防",
+      "emoji": "🛡️",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-public-safety-analyst.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-smart-city",
+      "name": "智慧城市顾问",
+      "description": "城市物联网基础设施、智能交通系统(ITS)、智能电网与能源管理、数字市民服务、城市数据平台与分析、智慧城市PPP模式、关键基础设施网络安全",
+      "emoji": "🌆",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-smart-city.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-urban-planner",
+      "name": "城市规划师",
+      "description": "总体规划与详细规划、土地利用与区划管理、交通规划、社区参与与公众参与、智慧城市战略、环境影响评估、城市设计导则",
+      "emoji": "🏙️",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-urban-planner.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    }
+  ]
+}

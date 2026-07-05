@@ -1,0 +1,187 @@
+{
+  "category": "hr",
+  "agent_count": 15,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "hr-business-partner",
+      "name": "HR业务伙伴(HRBP)",
+      "description": "人力资源业务伙伴，作为业务单元的战略HR搭档，覆盖组织诊断、人才盘点、变革管理、员工敬业度与业务对齐，将HR策略转化为业务成果",
+      "emoji": "🤝",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-business-partner.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "hr-compensation-benefits",
+      "name": "薪酬福利专家",
+      "description": "薪酬福利与激励设计专家，覆盖薪酬架构、岗位评估、短期/长期激励、福利方案设计与薪酬合规",
+      "emoji": "💎",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-compensation-benefits.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-corporate-training-designer",
+      "name": "企业培训设计师",
+      "description": "企业培训、课程开发与学习系统设计专家",
+      "emoji": "📚",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-corporate-training-designer.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-director",
+      "name": "人力资源总监/CHRO",
+      "description": "人力资源最高负责人，覆盖人才战略/组织设计、薪酬福利/绩效体系、人才招聘/发展、员工关系/文化与HR数字化转型",
+      "emoji": "👥",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "hr-employee-relations",
+      "name": "员工关系(ER)专家",
+      "description": "员工关系与劳动关系专家，覆盖员工投诉/纠纷处理、内部调查与取证、违纪/解除程序合规、集体协商与工会关系、竞业限制执行与员工关系风险预警",
+      "emoji": "⚡",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-employee-relations.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-hris",
+      "name": "HRIS/人力资源信息系统专家",
+      "description": "人力资源信息系统(HRIS)与HR数字化转型专家，覆盖SAP SuccessFactors/Workday/飞书People等E-HR系统选型实施、HR数据架构/主数据治理、HR报表/BI分析与系统集成",
+      "emoji": "💻",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-hris.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-labor-relations",
+      "name": "劳动关系/工会关系专家",
+      "description": "企业劳动关系与集体协商专家，覆盖工会/职工代表制度建设、集体合同/工资集体协商、劳动仲裁/诉讼管理与和谐劳动关系创建",
+      "emoji": "🤝",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-labor-relations.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-onboarding",
+      "name": "HR 入职专员",
+      "description": "全面的 HR 入职专家，负责员工入职引导、文档管理、合规跟踪、福利注册与文化融入",
+      "emoji": "🤝",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-onboarding.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-organization-development",
+      "name": "组织发展专家",
+      "description": "组织发展与变革管理专家，覆盖组织诊断、文化建设、领导力发展、人才梯队、敬业度与变革推动",
+      "emoji": "🌱",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-organization-development.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-people-analytics",
+      "name": "People Analytics与人力资源数据分析",
+      "description": "人力资源数据分析专家，覆盖离职预测/流失分析、招聘漏斗/效率、人力编制与成本规划、员工敬业度/组织网络分析(ONA)与HR数据仪表板",
+      "emoji": "📈",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-people-analytics.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-performance-management",
+      "name": "绩效管理专家",
+      "description": "绩效管理体系设计专家，覆盖OKR/KPI/平衡计分卡、绩效评估/360度反馈、述职与校准、绩效改进计划(PIP)、绩效薪酬联动与绩效文化建设",
+      "emoji": "🎯",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-performance-management.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-recruitment-specialist",
+      "name": "招聘专家",
+      "description": "人才获取、招聘运营与雇主品牌专家",
+      "emoji": "🎯",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-recruitment-specialist.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-talent-acquisition-manager",
+      "name": "招聘/人才获取(TA)经理",
+      "description": "企业招聘与人才获取团队管理者，覆盖招聘策略/雇主品牌(EVP)、招聘渠道/ATS系统管理、面试流程设计与招聘团队KPI/效率管理",
+      "emoji": "🎯",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-talent-acquisition-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-workforce-planning",
+      "name": "人力规划/编制管理专家",
+      "description": "企业人力编制与劳动力规划专家，覆盖战略人力规划(3-5年)、编制预算/成本建模、人才供需预测/缺口分析与组织架构优化",
+      "emoji": "📊",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-workforce-planning.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "hr-workplace-wellness",
+      "name": "员工健康与福利(EAP)专家",
+      "description": "企业员工健康管理与员工援助计划(EAP)专家，覆盖心理健康支持/心理咨询、身体健康促进/职业健康、压力管理与工作生活平衡",
+      "emoji": "🧘",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-workplace-wellness.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

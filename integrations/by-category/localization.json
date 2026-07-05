@@ -1,0 +1,55 @@
+{
+  "category": "localization",
+  "agent_count": 4,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "localization-engineer",
+      "name": "本地化工程师",
+      "description": "i18n/l10n基础设施、TMS配置、CAT工具自动化、伪本地化测试、持续本地化CI/CD、机器翻译与LLM译后编辑流水线专家",
+      "emoji": "🌐",
+      "category": "localization",
+      "subcategory": "",
+      "path": "localization/localization-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "localization-i18n-pm",
+      "name": "国际化产品经理",
+      "description": "全球市场就绪、区域优先级、国际用户体验适配、全球发布协调、国际合规、全球 SEO/ASO 专家",
+      "emoji": "🌍",
+      "category": "localization",
+      "subcategory": "",
+      "path": "localization/localization-i18n-pm.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "localization-language-translator",
+      "name": "语言翻译员",
+      "description": "实时西班牙语 ↔ 英语翻译专家，具备文化语境、地域方言意识，适用于日常、商务与紧急场景",
+      "emoji": "🌐",
+      "category": "localization",
+      "subcategory": "",
+      "path": "localization/localization-language-translator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "localization-reviewer",
+      "name": "翻译审校与QA专家",
+      "description": "翻译质量审校与评估专家，覆盖MQM/LISA质量评估模型、语言QA测试、术语一致性、风格指南合规、区域适配审校",
+      "emoji": "✅",
+      "category": "localization",
+      "subcategory": "",
+      "path": "localization/localization-reviewer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

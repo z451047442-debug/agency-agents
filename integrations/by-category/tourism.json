@@ -1,0 +1,151 @@
+{
+  "category": "tourism",
+  "agent_count": 12,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "tourism-cruise",
+      "name": "邮轮运营管理专家",
+      "description": "邮轮航线运营管理专家，覆盖航线规划与港口谈判、船上体验与娱乐、海事安全与SOLAS合规、船员管理与培训、收益管理（舱房/岸上游/酒水）、环境管理、港口作业与周转物流",
+      "emoji": "🚢",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-cruise.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-cultural-heritage",
+      "name": "文化遗产旅游专家",
+      "description": "遗产地阐释与故事讲述、UNESCO世界遗产申报与管理、文化遗产旅游产品开发、社区旅游、非物质遗产保护、游客管理与承载力、遗产阐释规划",
+      "emoji": "🏯",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-cultural-heritage.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-destination-marketing",
+      "name": "目的地营销策略师",
+      "description": "旅游局与目的地品牌营销专家，操盘城市、地区、国家旅游形象的全球推广",
+      "emoji": "📍",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-destination-marketing.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-event-planner",
+      "name": "大型活动与MICE策划师",
+      "description": "国际会议、展览、奖励旅游策划专家，千万级预算项目全案操盘",
+      "emoji": "🎪",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-event-planner.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-hotel-gm",
+      "name": "酒店总经理",
+      "description": "酒店全面经营管理专家，覆盖客房收益管理(RevPAR)、餐饮/宴会运营、宾客服务/满意度、人力/财务预算与OTA/直销渠道策略",
+      "emoji": "🏨",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-hotel-gm.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-hotel-operations",
+      "name": "酒店运营管理专家",
+      "description": "国际酒店集团运营管理专家，覆盖房务、餐饮、收益、宾客体验全链运营",
+      "emoji": "🏨",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-hotel-operations.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-mice-planner",
+      "name": "MICE/会奖旅游策划师",
+      "description": "会议/奖励旅游/大型企业活动(MICE)策划专家，覆盖企业年会/奖励旅游/产品发布、场地/搭建/AV/餐饮全案策划与预算管控",
+      "emoji": "🎪",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-mice-planner.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-revenue-manager",
+      "name": "旅游收益管理专家",
+      "description": "酒店与航司收益管理专家，动态定价、库存优化、需求预测全链路操盘",
+      "emoji": "📊",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-revenue-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-sustainable",
+      "name": "可持续旅游顾问",
+      "description": "目的地承载力评估、生态旅游认证(GSTC)、碳中和旅行项目、社区利益与经济漏损分析、野生动物旅游伦理、可持续住宿标准、旅游影响测量专家",
+      "emoji": "🌿",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-sustainable.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-travel-agency",
+      "name": "旅行社运营管理专家",
+      "description": "旅行社全链路运营管理专家，覆盖旅游产品设计与定价、目的地合作与签约、预订系统与GDS管理、团队出游协调、旅行保险与风险管理、客户服务与危机处理、旅行趋势分析",
+      "emoji": "🧳",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-travel-agency.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-travel-agent",
+      "name": "旅行社/旅行顾问",
+      "description": "旅行社经营与旅行顾问专家，覆盖个性化行程设计、机票/酒店/地接资源组合、签证/保险/防疫旅行合规、旅行体验与危机处理",
+      "emoji": "🧳",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-travel-agent.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-travel-experience-designer",
+      "name": "旅行体验设计师",
+      "description": "沉浸式旅行体验策划专家，从文化沉浸到冒险路线，打造不可复制的旅程记忆",
+      "emoji": "🗺️",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-travel-experience-designer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

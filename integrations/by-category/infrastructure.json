@@ -1,0 +1,1224 @@
+{
+  "category": "infrastructure",
+  "agent_count": 96,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "infrastructure-aliyun-architect",
+      "name": "阿里云架构师",
+      "description": "阿里云平台架构与解决方案专家,覆盖飞天平台核心服务(ECS/VPC/SLB/OSS/RDS/ACK)、云原生(K8s/ASK/FC/MSE/RocketMQ)、安全合规(等保2.0/RAM/KMS/ActionTrail/WAF)、数据智能(MaxCompute/DataWorks/Hologres/PAI)、混合云(Apsara Stack/CEN/CloudBox)",
+      "emoji": "☁️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-aliyun-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "infrastructure-ansible-expert",
+      "name": "Ansible自动化专家",
+      "description": "Ansible配置管理与自动化专家,覆盖Ansible Core/AWX/AAP平台架构、Playbook/Role/Collection设计、Inventory动态管理、自定义模块开发(Python)、大规模节点管理与性能调优",
+      "emoji": "📜",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-ansible-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-apache-httpd-expert",
+      "name": "Apache HTTPD专家",
+      "description": "Apache HTTP Server运维与优化专家,覆盖httpd 2.4.x编译与MPM(prefork/worker/event)模块管理、虚拟主机与SSL/TLS(mod_ssl)、反向代理与负载均衡(mod_proxy)、URL重写与安全加固(mod_rewrite/mod_security)、性能调优与高并发",
+      "emoji": "🪶",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-apache-httpd-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-argocd-expert",
+      "name": "GitOps部署专家",
+      "description": "ArgoCD与GitOps持续部署专家,覆盖ArgoCD Application/ApplicationSet/App of Apps模式与多集群管理、Git仓库结构与分支策略(GitFlow/Trunk-Based/Environment Branching)、Sync策略(Automated/Manual/Prune/SelfHeal)与Sync Wave/Phase编排、Helm/Kustomize/Ksonnet模板化配置管理、Argo Rollouts蓝绿/金丝雀渐进式发布",
+      "emoji": "🚢",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-argocd-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-aruba-network",
+      "name": "Aruba网络专家",
+      "description": "Aruba(HPE)企业网络专家，覆盖CX交换机/AOS-CX、Central云管、AOS10 WiFi 6E/7 AP、ClearPass NAC策略、SD-Branch与EdgeConnect SD-WAN",
+      "emoji": "🟣",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-aruba-network.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-aws-architect",
+      "name": "AWS解决方案架构师",
+      "description": "AWS云架构与解决方案专家,覆盖Well-Architected Framework六大支柱、核心服务(VPC/EC2/S3/RDS/Lambda/DynamoDB/EKS)、安全合规(IAM/SCP/KMS/CloudTrail/GuardDuty)、成本优化(Savings Plans/Spot/Compute Optimizer)、Serverless架构(Lambda/Step Functions/EventBridge)",
+      "emoji": "☁️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-aws-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "infrastructure-backup-admin",
+      "name": "备份与恢复管理员",
+      "description": "企业数据备份与灾难恢复专家，覆盖Veeam/Commvault/Veritas备份方案、磁带/磁盘/云分层备份策略、RPO/RTO合规与恢复演练",
+      "emoji": "💾",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-backup-admin.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-brother-printer-expert",
+      "name": "Brother打印机专家",
+      "description": "Brother(兄弟)打印机与办公解决方案专家，覆盖激光/喷墨/标签打印机产品线、BRAdmin Professional管理、打印服务器/网络扫描配置、耗材管理与中小型企业打印方案",
+      "emoji": "🖨️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-brother-printer-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-cable-management",
+      "name": "综合布线/线缆管理工程师",
+      "description": "数据中心/企业结构化布线专家，覆盖铜缆(Cat6A/8)/光纤(OM4/OS2)布线标准(TIA-568/ISO 11801)、配线架/桥架/管道设计、线缆测试/认证(Fluke)与线缆资产管理(DCIM)",
+      "emoji": "🔌",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-cable-management.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-cacti-expert",
+      "name": "Cacti监控专家",
+      "description": "Cacti网络流量与性能监控专家，覆盖SNMP/SNMPv3数据采集、RRDtool图形引擎、Spine轮询器、数据模板与图形模板设计、Threshold/Thold告警与流量基线分析",
+      "emoji": "📡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-cacti-expert.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-canon-printer-expert",
+      "name": "Canon打印机专家",
+      "description": "Canon(佳能)打印机与影像解决方案专家，覆盖imageRUNNER/imageCLASS/imagePROGRAF产品线、MEAP/SES应用平台、uniFLOW打印管理、DRUM/NPG耗材体系与专业影像/宽幅打印",
+      "emoji": "🖨️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-canon-printer-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-cisco-network",
+      "name": "Cisco网络专家",
+      "description": "Cisco网络设备专家，覆盖IOS/IOS-XE/NX-OS、Catalyst/Nexus/ISR/ASR、SD-Access/A CI、DNAC/Catalyst Center与Meraki云管",
+      "emoji": "🔵",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-cisco-network.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-cloud-cost-optimization",
+      "name": "云成本/FinOps管理顾问",
+      "description": "多云成本优化与FinOps治理顾问，覆盖AWS/Azure/GCP/阿里云成本分析、RI/SP/Savings Plans购买策略、资源标签/成本分摊(Showback/Chargeback)与云治理自动化",
+      "emoji": "💰",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-cloud-cost-optimization.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-cmdb-configuration",
+      "name": "CMDB/配置管理数据库专家",
+      "description": "IT配置管理数据库与服务映射专家，覆盖ServiceNow CMDB/CSDM 4.0模型、自动发现(Discovery/Service Mapping)、CI全生命周期管理与ITOM健康/事件关联",
+      "emoji": "🗄️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-cmdb-configuration.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-cybersecurity-analyst",
+      "name": "网络安全运营(NOC/SOC)分析师",
+      "description": "网络与安全运营中心(NOC/SOC)一线分析师，覆盖7×24网络/安全监控、告警分类/初始响应、工单升级/派发、运维SOP/Playbook执行与交接班管理",
+      "emoji": "📡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-cybersecurity-analyst.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-dahua-server",
+      "name": "大华服务器专家",
+      "description": "大华智能服务器与云存储专家，覆盖AI服务器(GPU/MLU)、视频云存储、智能分析一体机、大数据服务器与DSS平台集群部署",
+      "emoji": "🗄️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-dahua-server.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-dahua-surveillance",
+      "name": "大华安防网络专家",
+      "description": "大华(Dahua)安防系统与网络专家，覆盖IP摄像头/HDCVI/NVR、视频管理平台(DSS/DMSS)、门禁/周界/消防联动与AI智能分析方案",
+      "emoji": "📷",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-dahua-surveillance.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-data-center-network",
+      "name": "数据中心网络架构师",
+      "description": "超大规模数据中心网络设计专家，覆盖Spine-Leaf/Clos Fabric架构、VXLAN EVPN/BGP underlay-overlay、RoCEv2无损网络、DC互联(DCI)与网络自动化(ZTP/Ansible)",
+      "emoji": "🌐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-data-center-network.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-data-center",
+      "name": "数据中心基础设施专家",
+      "description": "数据中心基础设施规划与运维专家，覆盖供配电/UPS/柴油发电、精密空调/液冷、机柜/桥架/综合布线、DCIM/BMS与PUE优化",
+      "emoji": "🏭",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-data-center.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-datadog-expert",
+      "name": "Datadog可观测性专家",
+      "description": "Datadog全栈可观测性专家,覆盖Agent部署与600+集成管理、APM与分布式追踪(Flame Graph/Service Map)、Infrastructure Monitoring与SLO/SLI、Log Management与Sensitive Data Scanner、Cloud SIEM与CSPM/Workload Security",
+      "emoji": "🐕",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-datadog-expert.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-dell-server",
+      "name": "Dell服务器专家",
+      "description": "Dell PowerEdge服务器与超融合专家，覆盖PowerEdge R/T/MX/XR全系列、iDRAC、OpenManage、VxRail HCI、PowerFlex/PowerStore与Dell数据中心网络",
+      "emoji": "🔷",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-dell-server.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-desktop-support-engineer",
+      "name": "桌面运维工程师",
+      "description": "企业桌面运维综合专家，覆盖Windows/macOS双平台、硬件故障诊断与更换、软件部署与许可管理、网络连接排障、打印机/外设支持、IT资产管理、终端安全与用户培训",
+      "emoji": "🖥️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-desktop-support-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-devops-platform",
+      "name": "DevOps平台/工具链工程师",
+      "description": "DevOps平台与开发者工具链(SDLC)工程专家，覆盖GitLab/GitHub/Bitbucket CI/CD流水线、制品仓库(Artifactory/Nexus/Harbor)、代码质量(SonarQube)与DevSecOps工具链集成",
+      "emoji": "🔧",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-devops-platform.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-digital-workplace",
+      "name": "数字化工作空间/VDI工程师",
+      "description": "企业终端用户计算与虚拟桌面专家，覆盖Citrix/VMware Horizon/Windows 365/Azure Virtual Desktop、Intune现代管理、应用程序虚拟化(App-V/FSLogix)与DEX数字员工体验",
+      "emoji": "💻",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-digital-workplace.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-docker-expert",
+      "name": "容器化平台专家",
+      "description": "Docker与容器化平台构建专家,覆盖OCI容器镜像构建(Dockerfile/多阶段构建/BuildKit/buildah)与镜像优化、容器运行时(containerd/runc/gVisor/kata/Firecracker)与隔离技术(namespace/cgroup/seccomp)、Registry管理(Harbor/Distribution/ECS/ACR)与镜像安全扫描(Trivy/Grype/Snyk)、Docker Compose/Docker Swarm编排与开发环境标准化、容器安全最佳实践与CIS Benchmark合规",
+      "emoji": "🐳",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-docker-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-elk-expert",
+      "name": "ELK Stack专家",
+      "description": "Elastic Stack(ELK)日志与数据分析平台专家，覆盖Elasticsearch集群架构与调优、Logstash管道设计/Grok解析、Kibana可视化与Dashboard、Beats采集器全家桶与跨集群/跨数据中心大规模部署",
+      "emoji": "📊",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-elk-expert.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-bios-uefi",
+      "name": "BIOS/UEFI固件工程师",
+      "description": "系统固件与平台初始化专家，覆盖UEFI/BIOS开发(TianoCore/ EDK II)、ACPI/SMBIOS表、芯片组初始化、安全启动/TPM与固件更新/恢复",
+      "emoji": "⚡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-bios-uefi.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-cicd-engineer",
+      "name": "CI/CD 流水线工程师",
+      "description": "持续集成、持续交付与 GitOps 部署自动化专家",
+      "emoji": "🔄",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-cicd-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-cloud-architect",
+      "name": "云计算架构师",
+      "description": "AWS/Azure/GCP/阿里云多平台架构设计、FinOps 与云原生迁移专家",
+      "emoji": "☁️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-cloud-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-cloud-finops",
+      "name": "云成本优化(FinOps)工程师",
+      "description": "云成本管理与FinOps专家，覆盖AWS/Azure/GCP成本分析/优化、预留实例/Savings Plans策略、资源标签/成本归因(Showback/Chargeback)与云治理",
+      "emoji": "💰",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-cloud-finops.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-cloud-migration",
+      "name": "云迁移/现代化工程师",
+      "description": "应用云迁移与现代化转型专家，覆盖6R迁移策略(Rehost/Replatform/Refactor)、容器化/微服务改造、数据迁移(DB/Storage)与混合云/多云架构",
+      "emoji": "☁️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-cloud-migration.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-cloud-native",
+      "name": "云原生/Serverless架构师",
+      "description": "云原生应用架构与Serverless计算专家，覆盖Kubernetes/Service Mesh、FaaS(AWS Lambda/Azure Functions)、事件驱动架构(EDA)/EventBridge/Kafka与12-Factor应用设计",
+      "emoji": "☁️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-cloud-native.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-container-orchestrator",
+      "name": "容器编排工程师",
+      "description": "Docker、Kubernetes 集群管理与微服务容器化部署专家",
+      "emoji": "🐳",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-container-orchestrator.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-data-center-facility",
+      "name": "数据中心电气/暖通设计工程师",
+      "description": "数据中心关键设施(电气/暖通)设计专家，覆盖Uptime Tier III/IV设计、双路供配电/柴发/UPS、冷冻水/间接蒸发冷却、列间/液冷与BMS/DCIM",
+      "emoji": "🏭",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-data-center-facility.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-data-center-operations",
+      "name": "数据中心运营/现场运维经理",
+      "description": "超大规模数据中心现场运营与基础设施运维经理，覆盖7×24基础设施(电气/暖通/弱电)运维、容量/变更/事件管理、现场安全/环境合规与运维团队管理",
+      "emoji": "🏭",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-data-center-operations.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-data-center-thermal",
+      "name": "数据中心热管理/液冷专家",
+      "description": "高密度数据中心制冷与液冷系统专家，覆盖直接芯片液冷(DLC)/浸没式冷却(单相/两相)、冷板/CDU(冷却液分配单元)/CDU、ASHRAE TC 9.9与PUE/WUE优化",
+      "emoji": "🌡️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-data-center-thermal.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-devops-automator",
+      "name": "DevOps 自动化工程师",
+      "description": "CI/CD、基础设施自动化与云运营专家",
+      "emoji": "⚙️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-devops-automator.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-edge-computing",
+      "name": "边缘计算工程师",
+      "description": "边缘计算与CDN架构专家，覆盖边缘节点/Edge Cloud设计、MEC多接入边缘计算、CDN内容分发/边缘缓存与5G边缘融合",
+      "emoji": "🌐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-edge-computing.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-enterprise-architect",
+      "name": "企业架构师(Enterprise Architect)",
+      "description": "企业级信息技术架构与战略规划专家，覆盖TOGAF/Zachman企业架构框架、业务/应用/数据/技术四层架构、IT战略/路线图与架构治理/技术债务管理",
+      "emoji": "🏛️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-enterprise-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-incident-commander",
+      "name": "事故指挥官(Incident Commander)",
+      "description": "重大技术事故应急指挥专家，覆盖事故分级/升级机制、跨团队协调/战时沟通、止损决策/恢复优先级、事后复盘(Postmortem)与改进跟踪",
+      "emoji": "🚨",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-incident-commander.md",
+      "depends_on": [
+        "infrastructure-engineering-sre"
+      ],
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-incident-response-commander",
+      "name": "故障响应指挥官",
+      "description": "事件管理、故障复盘与值班应急专家",
+      "emoji": "🚨",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-incident-response-commander.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-it-service-manager",
+      "name": "IT服务管理(ITIL)专家",
+      "description": "ITIL 4服务管理专家，覆盖事件/问题/变更/发布管理、CMDB配置管理、SLA/OLA设计与运维、IT服务台运营与持续服务改进(CSI)",
+      "emoji": "🖧",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-it-service-manager.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-kubernetes-expert",
+      "name": "Kubernetes/容器编排专家",
+      "description": "K8s 集群管理、Helm、服务网格与 GitOps 专家",
+      "emoji": "☸️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-kubernetes-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-linux-admin",
+      "name": "Linux 系统管理员",
+      "description": "系统运维、性能调优、Shell 脚本与安全管理专家",
+      "emoji": "🐧",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-linux-admin.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-monitoring-engineer",
+      "name": "监控告警工程师",
+      "description": "Prometheus、Grafana、可观测性堆栈建设与告警策略设计专家",
+      "emoji": "📡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-monitoring-engineer.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-observability-architect",
+      "name": "可观测性架构师",
+      "description": "企业级可观测性平台架构专家，覆盖OpenTelemetry标准化采集、LGTM(Mimir/Tempo/Loki/Grafana)/ELK架构设计、分布式追踪/SLO体系与可观测性成本治理",
+      "emoji": "🔭",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-observability-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-observability-engineer",
+      "name": "可观测性工程师",
+      "description": "可观测性与监控工程专家，覆盖OpenTelemetry/Prometheus/Grafana/LGTM技术栈、分布式追踪、SLO/错误预算、告警治理与可观测性平台建设",
+      "emoji": "🔭",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-observability-engineer.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-platform-engineer",
+      "name": "平台工程师",
+      "description": "平台工程与开发者体验(DX)专家，覆盖内部开发者平台(IDP)、自服务基础设施、开发者门户、平台API与生产力工程",
+      "emoji": "🏗️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-platform-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-site-reliability-architect",
+      "name": "站点可靠性架构师(SRE Architect)",
+      "description": "高级SRE与系统可靠性架构师，覆盖大规模分布式系统可靠性设计、混沌工程/故障注入、容量规划/弹性伸缩、灾难恢复架构与SLO驱动运维",
+      "emoji": "🏗️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-site-reliability-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-site-reliability-automation",
+      "name": "SRE自动化/运维开发工程师",
+      "description": "SRE运维自动化与平台开发专家，覆盖Terraform/Pulumi基础设施即代码(IaC)、GitOps(ArgoCD/Flux)、自愈系统(Self-Healing)、ChatOps与运维数据平台",
+      "emoji": "🛠️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-site-reliability-automation.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-sre-manager",
+      "name": "SRE/基础设施工程经理",
+      "description": "SRE与基础设施工程团队管理者，覆盖SRE/SysAdmin/Network团队领导、生产环境可用性责任、基础设施OKR/SLO/SLI体系与ITIL变更/事故/问题管理",
+      "emoji": "🛡️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-sre-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-sre",
+      "name": "站点可靠性工程师",
+      "description": "SLO、错误预算、可观测性与混沌工程专家",
+      "emoji": "🛡️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-sre.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-epson-printer-expert",
+      "name": "Epson打印机专家",
+      "description": "Epson(爱普生)打印机与影像解决方案专家，覆盖WorkForce/EcoTank/SureColor/LabelWorks产品线、微压电喷墨技术/PrecisionCore打印头、Epson Connect云服务、影像/色彩管理与POS/票据打印",
+      "emoji": "🖨️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-epson-printer-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-github-actions-expert",
+      "name": "GitHub Actions CI/CD专家",
+      "description": "GitHub Actions持续集成与部署专家,覆盖Workflow/Job/Step/Runner架构与YAML语法、Reusable Workflow与Composite Action模块化设计、Self-Hosted Runner部署与Auto-Scaling、Secrets/OIDC/Environment保护与安全最佳实践、Marketplace Action评估与自定义Action开发(JS/Docker/Composite)",
+      "emoji": "🔄",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-github-actions-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-graylog-expert",
+      "name": "Graylog日志管理专家",
+      "description": "Graylog集中式日志管理与SIEM平台专家，覆盖集群架构设计、输入/提取器/流规则引擎、Elasticsearch/OpenSearch后端运维、告警与事件关联、内容包(Content Pack)编排与大规模日志管道设计",
+      "emoji": "📋",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-graylog-expert.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-h3c-network",
+      "name": "H3C网络专家",
+      "description": "H3C(新华三)网络设备专家，覆盖Comware OS、交换机/路由器/WLAN、IRF堆叠、SDN(AD-Campus/AD-DC)与H3C iMC管理平台",
+      "emoji": "🔷",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-h3c-network.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-hikvision-server",
+      "name": "海康威视服务器专家",
+      "description": "海康威视智能分析服务器与视频云存储专家，覆盖AI服务器(GPU/Atlas)、视频云存储、智能分析一体机、流媒体服务器与DeepinMind平台",
+      "emoji": "🖥️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-hikvision-server.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-hikvision-surveillance",
+      "name": "海康威视安防网络专家",
+      "description": "海康威视安防系统与网络专家，覆盖IP摄像头/NVR/DVR、视频管理平台(HikCentral/iVMS)、门禁对讲、车牌识别与安防网络设计优化",
+      "emoji": "📹",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-hikvision-surveillance.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-hp-printer-expert",
+      "name": "HP打印机专家",
+      "description": "HP(惠普)打印机与打印解决方案专家，覆盖LaserJet Enterprise/MFP/PageWide/DesignJet产品线、HP Smart/Web JetAdmin管理、打印服务器/驱动部署、耗材管理与MPS托管打印服务",
+      "emoji": "🖨️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-hp-printer-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-hpe-server",
+      "name": "HPE服务器专家",
+      "description": "HPE ProLiant/ Synergy服务器与存储专家，覆盖iLO/OneView、Apollo HPC、SimpliVity HCI、Nimble/Alletra 存储与GreenLake即服务",
+      "emoji": "🟢",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-hpe-server.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-huawei-network",
+      "name": "华为网络专家",
+      "description": "华为网络设备专家，覆盖VRP/S系列交换机、NetEngine/AR路由器、AirEngine WiFi、iMaster NCE/SDN与华为云Stack网络",
+      "emoji": "🔴",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-huawei-network.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-huawei-xfusion-server",
+      "name": "华为/超聚变服务器专家",
+      "description": "华为与超聚变(xFusion)ARM/x86服务器专家，覆盖鲲鹏/昇腾生态、FusionServer、KunLun关键业务服务器、iBMC/FusionDirector管理与信创合规",
+      "emoji": "❤️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-huawei-xfusion-server.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-identity-access",
+      "name": "企业身份与访问管理(IAM)工程师",
+      "description": "企业IAM/身份治理专家，覆盖Azure AD/Entra ID、Okta/PingFederate、SSO/SAML/OIDC/OAuth2.0、生命周期(JML/JIT)与PAM特权访问管理",
+      "emoji": "🔑",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-identity-access.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-inspur-cisco-network",
+      "name": "浪潮思科网络专家",
+      "description": "浪潮思科(Inspur-Cisco)合资网络设备专家，覆盖浪潮CN系列交换机/路由器、基于Cisco IOS-XE/NX-OS技术栈、信创合规场景与数据中心/园区国产化替代方案",
+      "emoji": "🌊",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-inspur-cisco-network.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-istio-expert",
+      "name": "服务网格架构师",
+      "description": "Istio服务网格与企业级微服务治理专家,覆盖Istio控制面(istiod)与数据面(Envoy/Sidecar/Ambient mesh)架构、流量管理(VirtualService/DestinationRule/Gateway)与负载均衡/超时/重试/熔断、安全通信(mTLS/PeerAuthentication/RequestAuthentication)与AuthorizationPolicy、可观测性(Kiali/Jaeger/Prometheus/Grafana/Loki)全栈集成、多集群Mesh Federation与混合部署",
+      "emoji": "🕸️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-istio-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-it-asset-manager",
+      "name": "IT资产管理(ITAM)专家",
+      "description": "IT资产全生命周期管理专家，覆盖硬件/软件资产发现/盘点、许可证合规/Software Asset Management、资产成本/折旧与CMDB/ServiceNow集成",
+      "emoji": "🏷️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-it-asset-manager.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-it-director",
+      "name": "IT基础设施总监",
+      "description": "企业IT基础设施最高负责人，覆盖数据中心/服务器/网络/存储全栈规划、IT运维团队管理、基础设施预算/ROI、云策略与数字化转型",
+      "emoji": "🖥️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-it-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "infrastructure-jenkins-expert",
+      "name": "Jenkins CI/CD专家",
+      "description": "Jenkins持续集成与交付专家,覆盖Controller/Agent分布式架构与高可用、Pipeline as Code(Declarative/Scripted + Shared Libraries)、插件生态(2000+)与安全加固、多分支/多环境流水线与GitOps、构建性能优化与Artifact管理",
+      "emoji": "🔧",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-jenkins-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-jumpserver-expert",
+      "name": "跳板机/堡垒机专家",
+      "description": "跳板机与堡垒机架构专家，覆盖OpenSSH Bastion/Teleport/JumpServer/Apache Guacamole多层跳板架构、会话审计与录像、RBAC权限模型、零信任SSH/RDP网关、合规审计(等保/SOC2/PCI-DSS)与高可用部署",
+      "emoji": "🔐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-jumpserver-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-kubernetes-expert",
+      "name": "Kubernetes集群管理专家",
+      "description": "Kubernetes生产集群架构与运维专家,覆盖集群架构设计(控制面/etcd/Worker节点)与高可用部署(kubeadm/k3s/RKE2)、网络模型(CNI/Calico/Cilium/Flannel)与服务暴露(Service/Ingress/Gateway API)、存储管理(CSI/PV/PVC/StorageClass)与有状态应用、RBAC/OPA/Gatekeeper安全策略与Pod安全标准、资源管理(HPA/VPA/ResourceQuota/LimitRange)与成本优化",
+      "emoji": "☸️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-kubernetes-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-linux-systems",
+      "name": "Linux系统专家",
+      "description": "Linux系统管理与内核优化专家，覆盖RHEL/Rocky/Ubuntu/Debian/SUSE全系发行版、systemd服务管理、内核调优、SELinux安全加固与自动化运维",
+      "emoji": "🐧",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-linux-systems.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-mainframe-engineer",
+      "name": "大型机/主机工程师",
+      "description": "IBM Z/OS大型机系统工程师,覆盖z/OS操作系统与JES2/JES3作业管理、COBOL/PL/I/Assembler/REXX编程、CICS/IMS在线事务处理、DB2 for z/OS数据库管理、VSAM/QSAM/zFS数据管理与SMP/E系统维护",
+      "emoji": "💻",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-mainframe-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-microsoft365",
+      "name": "Microsoft 365与Exchange专家",
+      "description": "Microsoft 365云服务与Exchange专家，覆盖Exchange Online/混合部署、SharePoint Online、Teams、OneDrive、Intune终结点管理、Defender XDR与M365安全合规",
+      "emoji": "☁️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-microsoft365.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-monitoring-admin",
+      "name": "系统监控/告警管理工程师",
+      "description": "IT系统监控与可观测性运维专家，覆盖Zabbix/Nagios/Prometheus/Grafana监控平台、告警规则/阈值/升级策略、日志管理(ELK/Splunk)与监控即代码",
+      "emoji": "📡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-monitoring-admin.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-ms-project-expert",
+      "name": "Microsoft Project/项目管理工具专家",
+      "description": "Microsoft Project与项目组合管理(PPM)专家，覆盖MS Project Desktop/Online/Server、Project for the Web、资源管理/成本管理/挣值分析(EVM)、关键路径分析与项目群管理",
+      "emoji": "📊",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-ms-project-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-nagios-expert",
+      "name": "Nagios监控专家",
+      "description": "Nagios/Nagios XI/Centreon监控平台专家，覆盖NRPE/NSCA/被动监控架构、插件开发、配置即代码(IaC)、分布式监控拓扑与告警集成",
+      "emoji": "📡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-nagios-expert.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-nginx-expert",
+      "name": "Nginx专家",
+      "description": "Nginx高性能Web服务器与反向代理专家,覆盖Nginx OSS/Nginx Plus核心配置与模块、反向代理与7层负载均衡(upstream/least_conn/ip_hash)、SSL/TLS终结与HTTP/2 HTTP/3 QUIC、Lua扩展(OpenResty)与NJS脚本、API网关(Kong/APISIX/Nginx Ingress)",
+      "emoji": "🟢",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-nginx-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-nutanix",
+      "name": "Nutanix超融合专家",
+      "description": "Nutanix超融合与云平台专家，覆盖AOS/AHV/Prism Central、Nutanix HCI硬件、Calm自服务、Files/Mine/Flow、数据库服务(NDB)与Kubernetes(NKE)",
+      "emoji": "🔹",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-nutanix.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-office-365-expert",
+      "name": "Office 365/Microsoft 365专家",
+      "description": "Microsoft 365办公套件专家，覆盖Word/Excel/PowerPoint/Outlook/Teams/OneNote/SharePoint/OneDrive高级功能、VBA自动化、Power Platform(BI/Automate/Apps)、协作效率优化",
+      "emoji": "📎",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-office-365-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-opennms-expert",
+      "name": "OpenNMS监控专家",
+      "description": "OpenNMS Horizon/Meridian网络监控平台专家，覆盖自动发现与拓扑映射、SNMP/SNMPv3性能数据采集、事件关联与告警降噪、服务监控(Poller/Provision/Linkd)与大规模部署架构设计",
+      "emoji": "📡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-opennms-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-oracle-dba",
+      "name": "Oracle DBA专家",
+      "description": "Oracle数据库管理专家,覆盖19c/21c/23ai版本、RAC集群与ASM存储管理、Data Guard容灾与GoldenGate复制、RMAN备份恢复与Flashback、AWR/ASH性能诊断与SQL调优、多租户PDB/CDB架构与Exadata一体机",
+      "emoji": "🗄️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-oracle-dba.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-powershell",
+      "name": "PowerShell与Windows自动化专家",
+      "description": "PowerShell自动化与脚本专家，覆盖PowerShell 5.1/7.x、DSC配置管理、自动化编排、模块开发、WinRM/PSRemoting与Azure自动化",
+      "emoji": "⚡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-powershell.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-printer-maintenance-engineer",
+      "name": "打印机通用运维工程师",
+      "description": "打印机通用运维与技术支持专家，覆盖多品牌(HP/Epson/Canon/Brother/Kyocera/Xerox)硬件排障、打印服务器/打印池管理、驱动冲突/假脱机诊断、网络打印协议(LPR/IPP/RAW)与安全打印策略",
+      "emoji": "🔧",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-printer-maintenance-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-rabbitmq-expert",
+      "name": "RabbitMQ消息队列专家",
+      "description": "RabbitMQ消息中间件架构与运维专家,覆盖集群架构与高可用(Classic/Mirrored/Quorum Queue)、Exchange/Routing Key/Binding拓扑设计、AMQP 0-9-1/MQTT/STOMP协议、性能调优(Connection/Channel/Prefetch)、监控告警(Prometheus/Management API)与运维自动化",
+      "emoji": "🐰",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-rabbitmq-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-ruijie-network",
+      "name": "锐捷网络专家",
+      "description": "锐捷网络设备专家，覆盖RGOS交换机/路由器、极简园区网方案、数据中心(Newton 18000)、WiFi 7 AP与云管/睿易方案",
+      "emoji": "🟠",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-ruijie-network.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-sangfor-security",
+      "name": "深信服安全专家",
+      "description": "深信服(Sangfor)安全与云IT专家，覆盖下一代防火墙(NGAF)、上网行为管理(AC)、SSL VPN、超融合(HCI)、桌面云(aDesk)与安全服务(EDR/XDR)",
+      "emoji": "🛡️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-sangfor-security.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-sap-expert",
+      "name": "SAP技术专家",
+      "description": "SAP Basis与ABAP技术专家,覆盖SAP S/4HANA架构部署与迁移、Basis运维(Client Copy/Transport/Spool/Background Job)、HANA数据库管理与性能优化、ABAP开发与Fiori/UI5、BTP集成套件与接口管理(IDoc/RFC/SOAP/OData)",
+      "emoji": "🏭",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-sap-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-service-desk-manager",
+      "name": "IT服务台/ITSM经理",
+      "description": "IT服务台与IT服务管理(ITSM)运营专家，覆盖ServiceNow/Jira Service Management、ITIL 4事件/请求/问题管理、服务水平(SLA/OLA)管理与服务台KPI",
+      "emoji": "🎧",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-service-desk-manager.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-splunk-expert",
+      "name": "Splunk平台专家",
+      "description": "Splunk企业级日志管理与SIEM平台专家,覆盖分布式架构(Indexer/Search Head/Forwarder/Cluster Master)、SPL搜索语言与Dashboard开发、数据接入(UF/HF/HEC/DB Connect)、Splunk ES安全分析(关联搜索/Notable/RBA)、ITSI运维监控",
+      "emoji": "🔍",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-splunk-expert.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-storage-backup",
+      "name": "企业存储与备份专家",
+      "description": "企业存储与数据保护专家，覆盖SAN/NAS/DAS存储架构、群晖/QNAP NAS、Dell EMC/NetApp/Pure企业存储、备份策略(3-2-1)、容灾与数据归档",
+      "emoji": "💾",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-storage-backup.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-terraform-expert",
+      "name": "Terraform IaC专家",
+      "description": "Terraform基础设施即代码专家,覆盖HCL模块化设计与Monorepo策略、Provider生态(AWS/Azure/GCP/阿里云/K8s)、State管理与Backend(S3/Terraform Cloud)、Sentinel/OPA策略即代码、GitOps与CI/CD集成",
+      "emoji": "🏗️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-terraform-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "infrastructure-tplink-network",
+      "name": "TP-Link网络专家",
+      "description": "TP-Link企业网络设备专家，覆盖JetStream交换机、Omada SDN控制器、商用路由器与WiFi AP，专注中小企业/酒店/零售场景",
+      "emoji": "🟢",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-tplink-network.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-vmware",
+      "name": "VMware虚拟化专家",
+      "description": "VMware vSphere/数据中心虚拟化专家，覆盖ESXi/vCenter/vSAN/NSX、Horizon VDI、SRM容灾、vRealize(Aria)运维与VMware Cloud Foundation",
+      "emoji": "🔶",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-vmware.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-windows-desktop",
+      "name": "Windows桌面管理专家",
+      "description": "Windows桌面与终端管理专家，覆盖Windows 10/11部署与镜像、Intune/Autopilot现代管理、MDT/WDS传统部署、策略管理与补丁管理",
+      "emoji": "💻",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-windows-desktop.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-windows-server",
+      "name": "Windows Server与AD专家",
+      "description": "Windows Server与Active Directory专家，覆盖AD DS/DNS/DHCP/组策略、AD CS/FS/RMS、Server 2016/2019/2022、Hyper-V、IIS与Windows安全加固",
+      "emoji": "🪟",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-windows-server.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-zabbix-expert",
+      "name": "Zabbix监控专家",
+      "description": "Zabbix 6.x/7.x企业级监控专家，覆盖分布式架构设计(Server/Proxy/Agent)、模板与自动发现、LLD低级别发现、API自动化、性能调优与高可用部署",
+      "emoji": "📡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-zabbix-expert.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

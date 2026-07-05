@@ -1,0 +1,182 @@
+name: Lint Agent Files
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "**/*.sh"
+      - "schemas/**"
+      - "scripts/**"
+      - "!examples/**"
+      - "!integrations/**"
+      - "tests/**"
+      - "requirements-dev.txt"
+      - ".github/workflows/lint-agents.yml"
+
+# ── Job placement strategy ─────────────────────────────────────────────────
+# Multi-platform (ubuntu + macos + windows):
+#   lint, check-index, validate-index, pytest
+#   These run Python-based validation that benefits from OS diversity.
+#
+# Ubuntu-only:
+#   integration
+#   Shell-script-heavy (create-agent.sh, convert.sh, search-agents.sh) with
+#   bash-specific tooling (mktemp patterns, chmod, process substitution).
+#   Running on macOS/Windows would burn CI minutes without meaningful
+#   cross-platform coverage for these tools.
+# ────────────────────────────────────────────────────────────────────────────
+
+jobs:
+  # ── Multi-platform agent linting ─────────────────────────────────────────
+  lint:
+    name: Lint agents (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python deps
+        run: pip install pyyaml
+
+      - name: Get changed agent files
+        id: changed
+        run: |
+          FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- '*.md' ':!examples/*' ':!integrations/*' ':!*.github/*')
+          {
+            echo "files<<ENDOFLIST"
+            echo "$FILES"
+            echo "ENDOFLIST"
+          } >> "$GITHUB_OUTPUT"
+          if [ -z "$FILES" ]; then
+            echo "No agent files changed."
+          else
+            echo "Changed files:"
+            echo "$FILES"
+          fi
+
+      - name: Run agent linter (Python)
+        if: steps.changed.outputs.files != ''
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+        run: python scripts/lint-agents.py $CHANGED_FILES
+
+      - name: Check agent originality
+        if: steps.changed.outputs.files != ''
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+        run: bash scripts/check-agent-originality.sh $CHANGED_FILES
+
+  # ── Multi-platform index freshness ──────────────────────────────────────
+  check-index:
+    name: Verify index (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check AGENTS.json staleness
+        run: bash scripts/generate-index.sh --check
+
+  # ── Multi-platform schema validation ─────────────────────────────────────
+  validate-index:
+    name: Validate index schema (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install jsonschema
+
+      - name: Run validate-index.py
+        run: python scripts/validate-index.py
+
+  # ── Multi-platform Python unit tests ─────────────────────────────────────
+  pytest:
+    name: Python tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: python -m pytest tests/ -v
+
+  # ── Multi-platform i18n validation ──────────────────────────────────────
+  i18n:
+    name: Validate i18n (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run i18n checker
+        run: python scripts/i18n/check-i18n.py --strict
+
+  # ── Ubuntu-only integration tests ────────────────────────────────────────
+  integration:
+    name: Integration tests (convert + search + create-agent)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run search (stats + categories)
+        run: |
+          chmod +x scripts/search-agents.sh
+          ./scripts/search-agents.sh --stats
+          ./scripts/search-agents.sh --list-categories | head -5
+
+      - name: Run create-agent (CLI mode)
+        run: |
+          chmod +x scripts/create-agent.sh
+          ./scripts/create-agent.sh --name "Test Agent" --category testing --emoji "🧪" --color "teal" --description "Test agent for CI validation"
+          ./scripts/lint-agents.sh testing/testing-test-agent.md
+          rm testing/testing-test-agent.md
+          echo "create-agent.sh: OK"
+
+      - name: Verify integrations are up to date
+        run: |
+          chmod +x scripts/convert.sh
+          ./scripts/convert.sh --check

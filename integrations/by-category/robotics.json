@@ -1,0 +1,187 @@
+{
+  "category": "robotics",
+  "agent_count": 15,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "robotics-automation-engineer",
+      "name": "机器人自动化工程师",
+      "description": "机器人系统设计与自动化专家，覆盖机械臂、AGV/AMR、运动规划、ROS/ROS2与仿真验证",
+      "emoji": "🤖",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-automation-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-control-systems",
+      "name": "控制系统工程师",
+      "description": "实时控制系统设计与调优专家，覆盖PID、MPC、LQR、状态估计、系统辨识与实时嵌入式控制",
+      "emoji": "🎛️",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-control-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-director",
+      "name": "机器人事业部总监",
+      "description": "机器人产品/业务最高负责人，覆盖机器人产品战略/应用场景、机械/电子/软件集成开发、制造/部署/服务与安全合规",
+      "emoji": "🤖",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "robotics-engineering-exoskeleton-robotics",
+      "name": "外骨骼/可穿戴机器人工程师",
+      "description": "助力外骨骼与可穿戴机器人系统专家，覆盖人体生物力学/步态分析、串联弹性/可变刚度/液压驱动、人机交互力/意图检测(EMG/力传感器)与安全/ISO 13482认证",
+      "emoji": "🦿",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-engineering-exoskeleton-robotics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-engineering-haptics-engineer",
+      "name": "触觉/力反馈(Haptics)工程师",
+      "description": "触觉技术与力反馈系统专家，覆盖压电/线性马达(LRA)/ERM触觉执行器驱动、触觉效果设计(Haptics Studio)、触觉渲染算法与人因/触觉感知研究",
+      "emoji": "🖐️",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-engineering-haptics-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-engineering-industrial-robotics",
+      "name": "协作机器人/人机协作安全工程师",
+      "description": "协作机器人(cobot)安全与应用工程专家，覆盖ISO/TS 15066协作机器人安全(力/功率/速度限制PFL/SLS)、末端执行器/夹具/视觉系统集成、风险评估(ISO 12100)/安全验证与应用编程(Hand-Guiding/Teach Pendant)",
+      "emoji": "🤝",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-engineering-industrial-robotics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-engineering-mechatronics",
+      "name": "机电一体化/机械设计工程师",
+      "description": "精密机械设计与机电一体化专家，覆盖3D CAD(SolidWorks/Catia/NX)/GD&T公差设计、运动机构/传动设计、电机/传感器/执行器选型与样机/测试/调试",
+      "emoji": "⚙️",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-engineering-mechatronics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-engineering-robotic-perception-systems",
+      "name": "机器人环境感知系统工程师",
+      "description": "移动机器人环境感知与导航系统专家，覆盖LiDAR/相机/毫米波雷达融合感知、占据栅格地图/ BEV感知、路径规划(A*/RRT/Lattice)与自主导航定位",
+      "emoji": "🤖",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-engineering-robotic-perception-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-engineering-robotics-control-systems",
+      "name": "机器人控制算法工程师",
+      "description": "机器人控制理论与实时控制系统专家，覆盖反馈/前馈/自适应控制、力/阻抗混合控制、运动学冗余/零空间控制、力控打磨/装配与实时EtherCAT/CANopen通信",
+      "emoji": "🎛️",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-engineering-robotics-control-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-engineering-robotics-manipulation",
+      "name": "机器人操作/抓取工程师",
+      "description": "机器人灵巧操作与自主抓取专家，覆盖抓取规划(6D Pose Estimation)、夹爪/灵巧手设计、力触觉反馈、视觉伺服(Visual Servoing)与Bin Picking无序抓取",
+      "emoji": "🦾",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-engineering-robotics-manipulation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-industrial-automation",
+      "name": "工业自动化专家",
+      "description": "工业自动化与智能制造专家，覆盖PLC/DCS编程、SCADA系统、MES集成、OPC-UA与工业4.0架构",
+      "emoji": "🏭",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-industrial-automation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-integration-engineer",
+      "name": "机器人系统集成工程师",
+      "description": "机器人系统集成与应用部署专家，覆盖工业机器人工作站/产线集成、末端执行器/视觉/传送带联调、PLC/机器人通信与安全围栏/风险评估",
+      "emoji": "🔩",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-integration-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-motion-control",
+      "name": "机器人运动控制工程师",
+      "description": "机器人运动规划与控制专家，覆盖正逆运动学/动力学、轨迹规划/插补、力控/阻抗控制、实时控制系统与ROS/ROS2",
+      "emoji": "🦾",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-motion-control.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-perception-engineer",
+      "name": "感知系统工程师",
+      "description": "机器人感知系统专家，覆盖计算机视觉、LiDAR点云处理、SLAM、多传感器融合与环境理解",
+      "emoji": "👁️",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-perception-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "robotics-ros-developer",
+      "name": "ROS开发工程师",
+      "description": "机器人操作系统(ROS/ROS2)开发专家，覆盖节点架构、话题/服务/动作通信、导航栈、MoveIt与Gazebo仿真",
+      "emoji": "🦾",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-ros-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

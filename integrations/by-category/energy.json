@@ -1,0 +1,487 @@
+{
+  "category": "energy",
+  "agent_count": 40,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "energy-carbon-accountant",
+      "name": "碳核算专家",
+      "description": "碳核算与碳资产管理：GHG盘查、产品碳足迹、碳配额交易、CCER开发、ESG报告",
+      "emoji": "🌍",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-carbon-accountant.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-carbon-market",
+      "name": "碳交易与碳市场分析师",
+      "description": "碳市场与碳交易策略专家，覆盖EU ETS/中国全国碳市场、碳配额/CCER/VCS方法论、碳价预测、碳资产管理与企业碳中和路径规划",
+      "emoji": "🌿",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-carbon-market.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-director",
+      "name": "能源项目总监",
+      "description": "能源项目/资产最高负责人，覆盖能源资产(电站/风场/储能)全生命周期管理、电力市场/PPA策略、项目融资与团队管理",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "energy-engineering-battery-recycling",
+      "name": "电池回收/退役电池梯次利用工程师",
+      "description": "锂离子电池回收与梯次利用专家，覆盖湿法冶金(浸出/溶剂萃取)/火法/直接回收正极材料、退役电池分选/重组/储能系统与欧盟电池法规(EU Battery Regulation 2023)/EPR",
+      "emoji": "♻️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-battery-recycling.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-carbon-capture-storage",
+      "name": "碳捕获利用封存(CCUS)工程师",
+      "description": "燃烧后/燃烧前/富氧燃烧CO2捕集与地质封存专家，覆盖胺基/膜/固体吸附/钙循环CO2捕集、CO2压缩/管道/注入(酸性气体/超临界)、咸水层/油气藏/EOR CO2地质封存与MRV/碳信用方法学",
+      "emoji": "🏭",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-carbon-capture-storage.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-cryogenic-engineering",
+      "name": "低温/超导磁体工程师",
+      "description": "低温工程与超导磁体系统专家，覆盖液氦(4.2K)/液氮(77K)/GM/JT/Turbo-Brayton低温制冷、MRI/NMR超导磁体( NbTi/Nb3Sn/REBCO HTS)、真空多层绝热(MLI)与失超(Quench)保护",
+      "emoji": "🧊",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-cryogenic-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-energy-expert",
+      "name": "能源/新能源专家",
+      "description": "光伏、储能、氢能、碳中和与能源转型战略专家",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-energy-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-energy-storage-materials-sci",
+      "name": "电池材料/电化学科学家",
+      "description": "下一代锂离子/固态/钠离子电池材料研究专家，覆盖正极(NMC/LFP)/负极(石墨/硅碳)、固态电解质、界面SEI与电化学表征(EIS/CV)",
+      "emoji": "🔋",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-energy-storage-materials-sci.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-geothermal-reservoir",
+      "name": "地热资源/地热地质工程师",
+      "description": "地热资源勘探评估与储层工程管理专家，覆盖地热地质/地球物理/地球化学勘探、地热储层数值模拟(TOUGH2/CMG STARS)、生产/回灌井设计与地热田可持续开发",
+      "emoji": "🌋",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-geothermal-reservoir.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-grid-forming-inverter",
+      "name": "构网型逆变器/微电网控制工程师",
+      "description": "构网型(GFM)逆变器与新能源微电网专家，覆盖跟网型(GFL)/构网型(GFM)逆变器控制(VSM虚拟同步机/Droop下垂/VSG)、微电网(孤岛/并网/黑启动)、弱电网/SCR<2稳定性与IEEE 1547-2018/GB 38755",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-grid-forming-inverter.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-grid-modernization",
+      "name": "配电自动化/智能配电网工程师",
+      "description": "中低压配电网自动化与智能电网专家，覆盖配电自动化(DA/FLISR/馈线自动化)、智能电表AMI/MDMS、分布式能源(DER/光伏/储能/EV)并网管理与ADMS高级配电管理系统",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-grid-modernization.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-grid-scale-storage",
+      "name": "电网级储能/电力市场分析师",
+      "description": "大型储能电站投资与电力市场收益优化专家，覆盖锂电储能/液流/压缩空气/抽水蓄能技术路线、电力现货/调频/备用/容量市场化收益模型、储能项目融资与LMP电价预测",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-grid-scale-storage.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-hydrogen-fuel-cell",
+      "name": "氢能/燃料电池系统工程师",
+      "description": "质子交换膜燃料电池(PEMFC)与固体氧化物燃料电池(SOFC)系统专家，覆盖膜电极(MEA)/双极板/电堆设计、BOP辅助系统(氢气循环/空气供应/热管理)、燃料电池控制(FCU)与氢安全",
+      "emoji": "🔋",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-hydrogen-fuel-cell.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-hydrogen-storage",
+      "name": "储氢/氢输运/加氢站工程师",
+      "description": "高压气态/液氢/固态储氢及加氢基础设施专家，覆盖70MPa IV型复合材料储氢瓶/液氢(-253°C)储罐、氢气管道(氢脆/掺氢天然气)/管束车、加氢站(T40/T70/液氢)/压缩/加注协议(SAE J2601)与氢安全/防爆(ATEX/IECEx)",
+      "emoji": "🔋",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-hydrogen-storage.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-marine-corrosion",
+      "name": "船舶与海洋工程维护/检验师",
+      "description": "船舶与海洋结构物检验与船级社规范专家，覆盖船体结构测厚/近观检验(CAP/SCAP)、船舶与平台特检/中间检验/年检(ESP)、船级社规范(DNV/ABS/CCS/Lloyd's)与船舶维修/坞修/改装工程",
+      "emoji": "🔍",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-marine-corrosion.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-maritime-engineering",
+      "name": "海洋工程/船舶设计工程师",
+      "description": "海洋工程与船舶/海工结构设计专家，覆盖船舶稳性/浮态/阻力/推进、海工结构(导管架/SPAR/FPSO)/系泊分析、海洋环境载荷(波浪/流/风)与船级社规范(DNV/ABS/CCS)",
+      "emoji": "🚢",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-maritime-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-nuclear-decommissioning",
+      "name": "核设施退役/放射性废物管理专家",
+      "description": "核设施退役与放射性废物处理处置专家，覆盖核电厂/研究堆/核设施退役策略(立即/延缓/封存)、去污/拆除/源项调查、放射性废物分类/处理/整备/处置与辐射环境监测",
+      "emoji": "☢️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-nuclear-decommissioning.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-offshore-wind",
+      "name": "海上风电/海洋结构工程师",
+      "description": "海上风电场基础结构与安装工程专家，覆盖单桩/导管架/重力式/浮式基础(半潜/Spar/TLP)设计、海上施工/安装船/打桩/冲刷防护与海工结构腐蚀/疲劳/检测",
+      "emoji": "🌊",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-offshore-wind.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-oil-gas-processing",
+      "name": "油气集输/天然气处理工程师",
+      "description": "油气田地面工程与天然气处理专家，覆盖油气水分离/原油脱水脱盐、天然气脱硫(胺法)/脱水(TEG)/凝液回收(NGL)、LNG液化/气化与管道输送模拟(OLGA/PIPESIM)",
+      "emoji": "🛢️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-oil-gas-processing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-petroleum-drilling",
+      "name": "钻井/定向井/随钻测井(MWD/LWD)工程师",
+      "description": "油气钻井与定向井轨迹控制专家，覆盖旋转导向/泥浆马达定向钻进、MWD/LWD随钻测量(电阻率/伽马/密度/孔隙度)、井控/防喷器(BOP)/井筒压力管理(ECD)与钻井液/固井",
+      "emoji": "🛢️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-petroleum-drilling.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-petroleum-geology",
+      "name": "石油地质/勘探地球物理学家",
+      "description": "油气勘探地质与地震解释专家，覆盖沉积盆地分析/石油系统(烃源岩/储层/盖层/圈闭)、三维地震解释/属性分析/反演、测井解释/岩石物理与资源量评估(SPE-PRMS)",
+      "emoji": "🔍",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-petroleum-geology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-petroleum-reservoir",
+      "name": "油藏工程/石油工程专家",
+      "description": "油气藏评价与开发工程专家，覆盖油藏数值模拟(ECLIPSE/CMG)、储量评估/递减曲线分析、EOR提高采收率(热采/化学驱/气驱)与钻井/完井/生产优化",
+      "emoji": "🛢️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-petroleum-reservoir.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-power-electronics-packaging",
+      "name": "功率模块/IGBT/SiC封装工程师",
+      "description": "电力电子功率模块封装与可靠性专家，覆盖IGBT/SiC MOSFET/GaN HEMT模块封装(绑定线/DBC基板/灌封)、热管理(直接冷却/相变)、可靠性(功率循环/热循环)与汽车/新能源应用",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-power-electronics-packaging.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-power-electronics",
+      "name": "电力电子/电源设计工程师",
+      "description": "电力电子与开关电源设计专家，覆盖AC-DC/DC-DC/DC-AC电源拓扑(Buck/Boost/Flyback/LLC)、GaN/SiC宽禁带器件、EMC电磁兼容与热管理设计",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-power-electronics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-power-systems",
+      "name": "电力系统/电网工程师",
+      "description": "电力系统与智能电网专家，覆盖输配电/变电站设计、电力系统暂态/稳态分析(PSS/E/ETAP)、继电保护/安全自动装置、新能源并网/微电网与电力市场/调度",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-power-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-process-safety",
+      "name": "工艺安全/过程安全管理(PSM)工程师",
+      "description": "化工/石化/制药工艺安全管理专家，覆盖HAZOP/HAZID/LOPA保护层分析、SIL定级/验证(IEC 61511)、QRA定量风险评估/后果模拟(PHAST)与过程安全信息(PSI)",
+      "emoji": "⚠️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-process-safety.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-pv-solar-cell",
+      "name": "光伏电池/钙钛矿太阳电池研究员",
+      "description": "晶硅/钙钛矿/叠层太阳电池器件物理与工艺研究员，覆盖PERC/TOPCon/HJT晶硅电池、钙钛矿单结/晶硅-钙钛矿叠层、薄膜(CIGS/CdTe)与光伏组件封装/可靠性(IEC 61215/61730)",
+      "emoji": "☀️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-pv-solar-cell.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-small-modular-reactor",
+      "name": "小型模块化反应堆(SMR)/先进堆工程师",
+      "description": "轻水/熔盐/铅冷/钠冷/高温气冷小型模块化反应堆与微堆专家，覆盖SMR设计( iPWR/MSR/LFR/HTGR/MMR)、非能动安全/固有安全/Walk-Away Safe、工厂制造/模块化建造与SMR许可(10 CFR Part 53/NRC/CNSC)",
+      "emoji": "⚛️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-small-modular-reactor.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "energy-engineering-subsea-offshore",
+      "name": "海底/水下工程技术工程师",
+      "description": "海洋油气与海上风电海底生产系统专家，覆盖海底采油树/管汇/脐带缆、水下机器人(ROV/AUV)作业、海底管道/立管设计与安装与深水钻井/完井技术",
+      "emoji": "🌊",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-subsea-offshore.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-thermal-engineer",
+      "name": "热设计/散热工程师",
+      "description": "电子产品热管理设计专家，覆盖风冷/液冷/相变散热方案、散热片/热管/均温板设计、风扇选型/风道优化、热仿真(Flotherm/Icepak)与功耗-热测试验证",
+      "emoji": "🌡️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-thermal-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-thermal-hydraulics",
+      "name": "核工程/反应堆物理工程师",
+      "description": "核反应堆物理与热工水力学专家，覆盖中子输运/扩散理论、堆芯燃料管理/燃耗优化、热工水力学/CHF临界热流密度、事故分析(LOCA/RIA)与安全分析报告(SAR)",
+      "emoji": "☢️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-thermal-hydraulics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-tidal-energy",
+      "name": "海洋能/潮流能/波浪能工程师",
+      "description": "潮汐/潮流/波浪/温差海洋可再生能源专家，覆盖潮流能水轮机(水平轴/垂直轴/振荡水翼)、波浪能(振荡水柱OWC/点吸收/衰减器)、潮汐泻湖/堤坝与海上系泊/防腐/生物污损",
+      "emoji": "🌊",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-tidal-energy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-waste-to-energy",
+      "name": "固废处理/垃圾焚烧发电(WTE)工程师",
+      "description": "城市固废焚烧发电与飞灰/炉渣处理专家，覆盖机械炉排/流化床焚烧炉、烟气净化(SNCR+干法+布袋+湿法)、飞灰螯合/填埋与能源回收(朗肯循环)",
+      "emoji": "🔥",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-waste-to-energy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-wind-energy",
+      "name": "风能/风力发电机设计工程师",
+      "description": "大型风力发电机组设计与系统集成专家，覆盖风轮空气动力学/BEM理论、传动链(齿轮箱/直驱/永磁发电机)、塔筒/基础/浮式平台与IEC 61400型式认证",
+      "emoji": "🌬️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-wind-energy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-geothermal-engineer",
+      "name": "地热能源工程师",
+      "description": "地热能开发与利用专家，覆盖地热资源评估/勘探、地热发电(干蒸汽/闪蒸/双循环)、地源热泵与地热直接利用(供热/温室)",
+      "emoji": "🌋",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-geothermal-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-grid-engineer",
+      "name": "电网工程师",
+      "description": "电力系统运行与维护：输配电网络、变电站、继电保护、SCADA调度、电能质量分析",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-grid-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-nuclear-engineer",
+      "name": "核电工程师",
+      "description": "核能与核工程专家，覆盖压水堆(PWR)/AP1000/华龙一号设计运营、核燃料循环/临界安全、辐射防护ALARA、核安全/纵深防御与退役/废物管理",
+      "emoji": "☢️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-nuclear-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-renewable-analyst",
+      "name": "新能源分析师",
+      "description": "新能源技术与市场分析：光伏、风电、储能、氢能、分布式能源、并网技术",
+      "emoji": "🌱",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-renewable-analyst.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-storage-engineer",
+      "name": "储能系统工程师",
+      "description": "电化学储能与电池系统专家，覆盖锂电池/液流/钠硫储能技术、BMS电池管理、PCS储能变流器、光储充一体化与电网调频/调峰应用",
+      "emoji": "🔋",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-storage-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-trading-strategist",
+      "name": "能源交易策略师",
+      "description": "电力市场交易策略：现货/期货/中长期合约、价差套利、负荷预测、偏差考核、绿证交易",
+      "emoji": "📊",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-trading-strategist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

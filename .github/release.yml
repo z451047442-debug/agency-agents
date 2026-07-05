@@ -1,0 +1,32 @@
+# .github/release.yml — GitHub's built-in release notes generator
+# Auto-categorizes merged PRs in GitHub Releases by label.
+
+changelog:
+  categories:
+    - title: "New Agents"
+      labels:
+        - new-agent
+        - agent
+    - title: "Enhancements"
+      labels:
+        - enhancement
+        - feature
+    - title: "Bug Fixes"
+      labels:
+        - bug
+        - fix
+    - title: "Documentation"
+      labels:
+        - documentation
+        - docs
+    - title: "Tooling & Scripts"
+      labels:
+        - tooling
+        - scripts
+        - ci
+    - title: "Dependencies"
+      labels:
+        - dependencies
+    - title: "Other Changes"
+      labels:
+        - "*"

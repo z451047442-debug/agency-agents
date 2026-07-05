@@ -1,0 +1,151 @@
+{
+  "category": "telecom",
+  "agent_count": 12,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "telecom-5g-core",
+      "name": "5G核心网工程师",
+      "description": "5G核心网/移动通信专家，覆盖5GC服务化架构(SBA)、AMF/SMF/UPF网元、网络切片/边缘计算(MEC)、IMS/VoLTE与信令/协议(N1/N2/N4)",
+      "emoji": "📶",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-5g-core.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-data-analyst",
+      "name": "电信数据分析师",
+      "description": "电信大数据分析：用户行为建模、离网预警、精准营销、网络流量预测、地理位置洞察",
+      "emoji": "📈",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-data-analyst.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-director",
+      "name": "电信运营总监",
+      "description": "电信运营公司/部门最高负责人，覆盖网络规划/建设/运维全生命周期、频谱/牌照管理、用户发展/ARPU与监管合规",
+      "emoji": "📶",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "telecom-engineering-antenna-rf",
+      "name": "天线/射频(RF)设计工程师",
+      "description": "天线与射频电路设计专家，覆盖天线设计(贴片/偶极/阵列)/HFSS/CST仿真、阻抗匹配/S参数、射频前端(RFFE)/滤波器与OTA/ SAR测试",
+      "emoji": "📡",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-engineering-antenna-rf.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-engineering-electromagnetic-compatibility",
+      "name": "电磁兼容(EMC)/电磁干扰(EMI)工程师",
+      "description": "电子设备电磁兼容设计与整改专家，覆盖传导/辐射发射(CE/RE)与抗扰度(CS/RS/ESD/EFT/Surge)、PCB Layout/屏蔽/滤波/接地EMC设计、EMC暗室/接收机/天线测试与FCC/CE/CISPR/GB EMC合规",
+      "emoji": "📡",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-engineering-electromagnetic-compatibility.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-engineering-maritime-navigation",
+      "name": "船舶电气/自动化工程师",
+      "description": "船舶电气系统与机舱自动化专家，覆盖船舶电力系统(发电/配电/电力推进)、船舶自动化(IAS/AMS/PMS)、DP动力定位(DP1/2/3)与船级社(IEC 60092/DNV/ABS CCS)",
+      "emoji": "🚢",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-engineering-maritime-navigation.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-engineering-radar-systems",
+      "name": "雷达系统/射频感知工程师",
+      "description": "雷达系统与射频探测技术专家，覆盖毫米波雷达(24/60/77GHz)/相控阵(AESA)设计、雷达信号处理(CFAR/DBF/Micro-Doppler)、汽车雷达/4D成像雷达与雷达系统链路预算",
+      "emoji": "📡",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-engineering-radar-systems.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-engineering-signal-integrity",
+      "name": "信号完整性(SI)/电源完整性(PI)工程师",
+      "description": "高速数字系统信号与电源完整性专家，覆盖SerDes/DDR/PCIe高速接口SI仿真(HFSS/SIwave)、PDN阻抗/去耦电容优化、IBIS-AMI/TDR/VNA测量与PCB Stackup设计",
+      "emoji": "📊",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-engineering-signal-integrity.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-network-engineer",
+      "name": "通信网络工程师",
+      "description": "通信网络规划与优化：5G/LTE、核心网、接入网、传输网、网络切片、QoS保障",
+      "emoji": "📡",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-network-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-ops-manager",
+      "name": "电信运维经理",
+      "description": "电信网络运维管理：故障监控、告警分析、变更管理、SLA保障、自动化运维",
+      "emoji": "🔧",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-ops-manager.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-optical-engineer",
+      "name": "光纤/光通信工程师",
+      "description": "光纤通信与光传输网络专家，覆盖OTN/DWDM波分复用、SDH/MSTP传输网、光纤测试/OTDR/熔接、PON/FTTx接入网与海底光缆",
+      "emoji": "🔦",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-optical-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "telecom-product-manager",
+      "name": "通信产品经理",
+      "description": "通信产品设计与运营：套餐设计、用户增长、ARPU提升、终端策略、增值服务",
+      "emoji": "📱",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-product-manager.md",
+      "nexus_roles": [
+        "phase-2-foundation"
+      ]
+    }
+  ]
+}

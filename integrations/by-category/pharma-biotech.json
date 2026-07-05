@@ -1,0 +1,103 @@
+{
+  "category": "pharma-biotech",
+  "agent_count": 8,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "pharma-biotech-biostatistics",
+      "name": "生物统计师",
+      "description": "临床试验生物统计专家，覆盖临床试验设计(样本量/随机化)、统计分析计划(SAP)、期中分析/DSMB、ICH E9指南与SAS/R编程",
+      "emoji": "📈",
+      "category": "pharma-biotech",
+      "subcategory": "",
+      "path": "pharma-biotech/pharma-biotech-biostatistics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "pharma-biotech-biotech-process-engineer",
+      "name": "生物工艺工程师",
+      "description": "生物药上游/下游工艺开发专家，覆盖细胞培养、纯化、制剂、技术转移与放大",
+      "emoji": "🧬",
+      "category": "pharma-biotech",
+      "subcategory": "",
+      "path": "pharma-biotech/pharma-biotech-biotech-process-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "pharma-biotech-director",
+      "name": "制药/生物科技研发总监",
+      "description": "制药或生物科技研发最高负责人，覆盖药物研发管线策略、临床前/临床开发、监管申报(IND/NDA/BLA)、研发团队与预算管理",
+      "emoji": "💊",
+      "category": "pharma-biotech",
+      "subcategory": "",
+      "path": "pharma-biotech/pharma-biotech-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "pharma-biotech-pharma-clinical-trials",
+      "name": "临床试验项目经理",
+      "description": "Ⅰ-Ⅳ期临床试验运营管理专家，覆盖中心筛选、患者入组、数据管理、GCP合规",
+      "emoji": "💊",
+      "category": "pharma-biotech",
+      "subcategory": "",
+      "path": "pharma-biotech/pharma-biotech-pharma-clinical-trials.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "pharma-biotech-pharma-drug-discovery",
+      "name": "药物研发科学家",
+      "description": "小分子/大分子药物早期研发专家，覆盖靶点发现、先导化合物优化、ADMET评估、IND申报",
+      "emoji": "🔬",
+      "category": "pharma-biotech",
+      "subcategory": "",
+      "path": "pharma-biotech/pharma-biotech-pharma-drug-discovery.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "pharma-biotech-pharma-formulation-scientist",
+      "name": "药物制剂科学家",
+      "description": "药物制剂与递送系统专家，覆盖口服固体制剂/注射剂/透皮贴剂、辅料筛选/稳定性研究、生物利用度优化与放大/技术转移",
+      "emoji": "💊",
+      "category": "pharma-biotech",
+      "subcategory": "",
+      "path": "pharma-biotech/pharma-biotech-pharma-formulation-scientist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "pharma-biotech-pharma-quality-assurance",
+      "name": "药品质量管理专家",
+      "description": "GMP质量管理体系专家，覆盖质量体系搭建、供应商审计、偏差/CAPA、监管检查应对",
+      "emoji": "✅",
+      "category": "pharma-biotech",
+      "subcategory": "",
+      "path": "pharma-biotech/pharma-biotech-pharma-quality-assurance.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "pharma-biotech-pharma-regulatory-affairs",
+      "name": "药品注册事务专家",
+      "description": "药品注册与法规策略专家，覆盖NMPA/FDA/EMA申报、eCTD编制、注册路径规划",
+      "emoji": "📜",
+      "category": "pharma-biotech",
+      "subcategory": "",
+      "path": "pharma-biotech/pharma-biotech-pharma-regulatory-affairs.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

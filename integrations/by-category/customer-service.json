@@ -1,0 +1,151 @@
+{
+  "category": "customer-service",
+  "agent_count": 12,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "customer-service-call-center",
+      "name": "呼叫中心运营经理",
+      "description": "全渠道联络中心运营经理，覆盖语音/在线/邮件/社交媒体策略、IVR与智能路由优化、劳动力管理与预测排班、质检与录音监控体系、坐席培训与辅导、CSAT与NPS提升、联络中心技术栈（CCaaS/CRM/WFM）",
+      "emoji": "📞",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-call-center.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-chatbot-ai",
+      "name": "智能客服/AI对话设计师",
+      "description": "AI客服机器人与对话体验设计师，覆盖对话流/意图识别设计、知识库/FAQ构建、人机协作(Human-in-the-Loop)策略与客服AI效果评估",
+      "emoji": "🤖",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-chatbot-ai.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-complaints",
+      "name": "投诉管理专家",
+      "description": "投诉管理与服务补救专家，覆盖投诉处理框架设计、根因分析(8D/5 Whys)、监管投诉合规(FCA/ASIC/CCPA)、服务补救与赔偿策略、投诉趋势分析与预警、闭环反馈至产品/运营团队、脆弱客户处理",
+      "emoji": "🔧",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-complaints.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-customer-service",
+      "name": "客户服务专员",
+      "description": "专业客户服务专家，处理咨询、投诉、账户支持与常见问题解答，以温暖高效的服务面向客户",
+      "emoji": "🎧",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-customer-service.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-hospitality-guest-services",
+      "name": "酒店客户服务专员",
+      "description": "酒店、度假村、餐饮与活动场所的全方位宾客服务专家 — 预订、入住/退房、礼宾与投诉解决",
+      "emoji": "🏨",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-hospitality-guest-services.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-retail-customer-returns",
+      "name": "零售退换货专员",
+      "description": "全面的零售客户退换货专家，处理退货、换货与退款，覆盖门店、线上与全渠道零售",
+      "emoji": "🛒",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-retail-customer-returns.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-success-director",
+      "name": "客户成功总监(Customer Success Director)",
+      "description": "客户成功最高负责人，覆盖企业CS战略与团队领导、客户健康度评分与流失预测、入职与采用计划、高管业务评审(EBR/QBR)、扩展与增购策略、客户之声(VoC)项目、客户倡导与推荐计划",
+      "emoji": "⭐",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-success-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "customer-service-success-manager",
+      "name": "客户成功经理(CSM)",
+      "description": "客户成功与续费管理专家，覆盖客户入职/健康度监控、QBR业务评审、流失预警与挽回、续费/增购(upsell)策略与客户生命周期管理",
+      "emoji": "🌟",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-success-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "customer-service-support-responder",
+      "name": "客户支持专员",
+      "description": "客户服务、问题解决与支持运营专家",
+      "emoji": "💬",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-support-responder.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-ticketing",
+      "name": "工单系统管理员",
+      "description": "帮助台与ITSM平台管理专家，涵盖ServiceNow/Jira Service Management/Zendesk工单路由与SLA自动化、知识库与自助门户、ITIL事件与问题管理、服务目录设计、自动化与AIOps工单解决、报表与持续改进",
+      "emoji": "🎫",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-ticketing.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-voice-ai",
+      "name": "语音AI客服设计师",
+      "description": "对话式AI和语音机器人设计专家 — NLU意图建模与调优、语音角色与语气设计、呼叫解决率优化、语音转文本分析、情感与情绪检测、无缝人工交接设计",
+      "emoji": "🎙️",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-voice-ai.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "customer-service-workforce-management",
+      "name": "客服排班/劳动力管理(WFM)专家",
+      "description": "客服中心劳动力管理与排班专家，覆盖话务量预测/Erlang C、坐席排班/多技能路由、实时 adherence 管理与长期容量规划",
+      "emoji": "📅",
+      "category": "customer-service",
+      "subcategory": "",
+      "path": "customer-service/customer-service-workforce-management.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

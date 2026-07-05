@@ -1,0 +1,523 @@
+{
+  "category": "manufacturing",
+  "agent_count": 43,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "manufacturing-engineering-3d-printing-additive",
+      "name": "增材制造/3D打印工程师",
+      "description": "工业3D打印与增材制造专家，覆盖SLM/SLS/FDM/DLP/MJF打印工艺、金属/聚合物/陶瓷材料、拓扑优化/DfAM、后处理(热处理/HIP)与打印质量控制",
+      "emoji": "🖨️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-3d-printing-additive.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-additive-manufacturing-metal",
+      "name": "金属增材制造/3D打印工艺专家",
+      "description": "金属粉末床熔融(LPBF/SLM/EBM)与定向能量沉积(DED)工艺专家，覆盖金属粉末特性/工艺参数窗口、热应力/变形/支撑优化、后处理(HIP/热处理/机加工)与航空航天/医疗认证(Nadcap/ASTM F3303)",
+      "emoji": "🏗️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-additive-manufacturing-metal.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-automation-systems",
+      "name": "楼宇自动化(BAS/BMS)系统工程师",
+      "description": "智能楼宇自动化与能源管理系统专家，覆盖楼宇自控(BACnet/Modbus/KNX)、HVAC控制策略/DDC、能源监测/优化、IBMS集成平台与LEED/WELL认证",
+      "emoji": "🏢",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-automation-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-composites-manufacturing",
+      "name": "复合材料制造/自动铺放(AFP/ATL)工程师",
+      "description": "碳纤维/玻璃纤维复合材料自动化制造专家，覆盖自动铺丝(AFP)/自动铺带(ATL)/缠绕(Filament Winding)、热压罐/非热压罐(OOA)固化、RTM树脂传递模塑/热压成型与NDI超声相控阵/热成像检测",
+      "emoji": "🛠️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-composites-manufacturing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-control-systems",
+      "name": "控制理论/先进过程控制(APC)工程师",
+      "description": "经典与现代控制理论应用专家，覆盖PID/MPC模型预测控制、系统辨识/自适应控制、LQR/H-infinity鲁棒控制、DCS/SCADA与化工/炼油/电力过程优化",
+      "emoji": "🎛️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-control-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-corrosion-engineering",
+      "name": "腐蚀工程/阴极保护专家",
+      "description": "金属腐蚀防护与电化学保护专家，覆盖大气/海水/土壤/高温/微生物(MIC)腐蚀机理、牺牲阳极/外加电流阴极保护(CP)设计与测试、涂层/缓蚀剂/材料选择与腐蚀监测(探针/LPR/超声波)",
+      "emoji": "🧪",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-corrosion-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-cyber-physical",
+      "name": "信息物理系统(CPS)工程师",
+      "description": "信息物理系统与数字孪生专家，覆盖物理系统建模/仿真、IoT+AI融合、实时控制/反馈、数字孪生平台与工业元宇宙",
+      "emoji": "🔗",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-cyber-physical.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-digital-twins-manufacturing",
+      "name": "数字主线/数字工程(Digital Thread)架构师",
+      "description": "产品数字主线与基于模型的系统工程(MBSE)专家，覆盖SysML/UML/UAF体系架构建模(Cameo/MagicDraw)、PLM/ALM/MES/BOM数字主线(Rethread/Aras/Windchill)、数字孪生(Live Twin)/As-Built vs As-Designed与DOD DIGITAL ENGINEERING/INCOSE",
+      "emoji": "🔗",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-digital-twins-manufacturing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-digital-twins-platform",
+      "name": "工业数字孪生平台工程师",
+      "description": "工业资产数字孪生与资产性能管理(APM)平台专家，覆盖3D模型/实时数据融合、故障预测/剩余寿命(RUL)、资产健康评分/维护策略优化与Digital Twin标准(ISO 23247)",
+      "emoji": "🔗",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-digital-twins-platform.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-electronics-manufacturing",
+      "name": "电子制造/SMT工艺工程师",
+      "description": "电子组装制造与SMT工艺专家，覆盖SMT贴片/回流焊/波峰焊工艺、钢网/印刷/贴片程序优化、DFM/可制造性设计与IPC-A-610验收标准",
+      "emoji": "🏭",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-electronics-manufacturing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-glass-ceramics",
+      "name": "玻璃/陶瓷/耐火材料工程师",
+      "description": "无机非金属材料与高温过程专家，覆盖玻璃熔制/浮法/化学强化(Gorilla Glass)、先进陶瓷(氧化铝/氧化锆/氮化硅/碳化硅)/粉末冶金、耐火材料(铝硅/镁质/碳复合)与高温窑炉设计",
+      "emoji": "🔥",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-glass-ceramics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-ic-packaging",
+      "name": "先进封装/异构集成工程师",
+      "description": "先进IC封装与异构集成技术专家，覆盖2.5D/3D封装(CoWoS/EMIB/Foveros)、芯片堆叠(混合键合Hybrid Bonding)、扇出封装(Fan-Out/FOWLP)与Chiplet/UCIe互连标准",
+      "emoji": "💎",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-ic-packaging.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-laser-processing",
+      "name": "激光加工/激光制造工程师",
+      "description": "工业激光材料加工与激光制造专家，覆盖激光切割/焊接/打标/熔覆/3D打印(SLM/LPBF)、超快激光(飞秒/皮秒)微纳加工、光束整形/振镜与激光安全(IEC 60825)",
+      "emoji": "💥",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-laser-processing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-material-scientist",
+      "name": "材料科学与工程专家",
+      "description": "材料科学与选材工程专家，覆盖金属/陶瓷/聚合物/复合材料特性、失效分析(断口/金相)、材料测试(拉伸/疲劳/蠕变)与材料选择/替代(绿色材料/轻量化)",
+      "emoji": "🧪",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-material-scientist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-mineral-processing",
+      "name": "选矿/矿物加工工程师",
+      "description": "矿石粉碎/磨矿/浮选/磁选/重选工艺专家，覆盖选矿流程设计/模拟(JKSimMet/ MODSIM)、磨矿回路/分级效率、浮选药剂/电化学与精矿脱水/尾矿处置",
+      "emoji": "⛏️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-mineral-processing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-optical-lithography",
+      "name": "光刻/计算光刻(OPC)工程师",
+      "description": "极紫外(EUV)/深紫外(DUV)光刻工艺与计算光刻专家，覆盖EUV光刻胶/多层膜/ Stochastic defect、OPC光学邻近修正/ ILT逆向光刻/ SMO光源掩模优化、套刻精度(Overlay)与DTCO设计工艺协同优化",
+      "emoji": "💡",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-optical-lithography.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-optical-metrology",
+      "name": "精密测量/光学计量(Metrology)工程师",
+      "description": "超精密光学测量与几何量计量专家，覆盖激光干涉仪/自准直仪/坐标测量机(CMM)计量、白光干涉/共聚焦/结构光3D表面计量、纳米测量/校准链/测量不确定度(GUM)与半导体/光学制造在线计量",
+      "emoji": "📏",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-optical-metrology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-pcb-designer",
+      "name": "PCB/电子硬件设计工程师",
+      "description": "印刷电路板与电子硬件设计专家，覆盖高速/混合信号PCB Layout、Altium/Cadence/ KiCad EDA工具、信号完整性(SI)/电源完整性(PI)仿真与DFM/DFT设计",
+      "emoji": "🛠️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-pcb-designer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-photonics-engineer",
+      "name": "光学/光子学工程师",
+      "description": "光学系统与光子学设计专家，覆盖光学设计(Zemax/Code V)/成像系统、激光/光纤光学、光学镀膜/微纳光学与光电探测/传感",
+      "emoji": "💡",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-photonics-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-photonics-integrated",
+      "name": "集成光子/硅光芯片设计工程师",
+      "description": "硅基光子集成(PIC)与光电共封装(CPO)设计专家，覆盖硅光子器件(波导/调制器/Ge PD/光栅耦合器)/PDK工艺、光子芯片(PIC)版图/DRC与光电2.5D/3D异质集成",
+      "emoji": "💡",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-photonics-integrated.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-plasma-technology",
+      "name": "等离子体/半导体工艺刻蚀工程师",
+      "description": "半导体等离子体刻蚀与薄膜沉积工艺专家，覆盖ICP/CCP/RIE等离子体刻蚀、ALD/CVD/PECVD/ALE原子级沉积刻蚀、等离子体诊断(OES/Langmuir probe)与工艺窗口开发/DOE",
+      "emoji": "⚡",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-plasma-technology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-polymer-science",
+      "name": "高分子材料/聚合物科学家",
+      "description": "高分子合成与聚合物材料物理专家，覆盖自由基/缩聚/开环/配位聚合、高分子流变学/力学性能/热分析(DSC/DMA/TGA)、高分子共混/复合材料与生物可降解/生物基高分子",
+      "emoji": "🧪",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-polymer-science.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-process-automation",
+      "name": "流程自动化(RPA/BPA)工程师",
+      "description": "机器人流程自动化与业务流程自动化专家，覆盖UiPath/Automation Anywhere/Power Automate RPA平台、流程挖掘/任务捕获、低代码自动化与CoE卓越中心治理",
+      "emoji": "🤖",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-process-automation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-semiconductor-process",
+      "name": "半导体工艺/良率工程师",
+      "description": "晶圆制造工艺与良率提升专家，覆盖光刻/蚀刻/CVD/PVD/CMP工艺窗口、缺陷检测/分类(FDC/SPC)、良率分析(YMS)与DFM/可制造性设计",
+      "emoji": "💎",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-semiconductor-process.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-simulation-engineer",
+      "name": "仿真/CAE工程师",
+      "description": "计算机辅助工程与多物理场仿真专家，覆盖FEM有限元/CFD/多体动力学仿真、ANSYS/Abaqus/COMSOL工具链、仿真验证(V&V)与数字孪生",
+      "emoji": "🔬",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-simulation-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-sports-engineering",
+      "name": "体育工程/运动器材设计工程师",
+      "description": "体育器材与运动装备工程设计师，覆盖复合材料(碳纤维)自行车/球拍/球杆/滑雪板结构力学、运动鞋/跑步鞋生物力学/缓震/能量回馈、运动装备空气动力学(风洞/CFD)与FEA/冲击/疲劳测试",
+      "emoji": "🏆",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-sports-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-surface-engineering",
+      "name": "表面工程/热喷涂/电镀工程师",
+      "description": "先进表面涂层与表面改性技术专家，覆盖热喷涂(HVOF/等离子/电弧/火焰)/冷喷涂、PVD/CVD/电镀/化学镀/阳极氧化、激光熔覆/堆焊与涂层表征(附着力/孔隙率/显微硬度/磨损)",
+      "emoji": "🎨",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-surface-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-test-chip-bringup",
+      "name": "芯片验证/测试开发工程师",
+      "description": "芯片Bring-Up与测试开发专家，覆盖ATE测试(Advantest/Teradyne)、DFT可测性设计、芯片回片调试(Bring-Up)、SLT系统级测试与量产测试程序开发",
+      "emoji": "🔬",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-test-chip-bringup.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-textile-engineering",
+      "name": "纺织工程/功能性纺织品开发专家",
+      "description": "产业用纺织品与功能性面料开发专家，覆盖高性能纤维(碳纤维/芳纶/UHMWPE)、智能/电子纺织品(E-Textiles)、非织造布/过滤材料与纺织品测试(ASTM/ISO)",
+      "emoji": "🧵",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-textile-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-thermal-spray",
+      "name": "增材修复/激光熔覆再制造工程师",
+      "description": "高能束增材修复与零部件再制造专家，覆盖激光熔覆(LENS/DMD)/电子束/等离子/超音速火焰喷涂(HVOF)修复、损伤评估/可修复性判定(NDT)、修复后加工/热处理/检测与MRO/航空发动机/矿山机械再制造",
+      "emoji": "♻️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-thermal-spray.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-tooling-design",
+      "name": "模具/工装夹具设计工程师",
+      "description": "注塑模具/冲压模具/压铸模具与工装夹具设计专家，覆盖注塑模(热流道/冷却/顶出)、冲压模(级进模/传递模)、公差积累/GD&T与模具流动分析(Moldflow)",
+      "emoji": "🔧",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-tooling-design.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-tribology-engineer",
+      "name": "摩擦学/润滑工程专家",
+      "description": "摩擦磨损与润滑科学专家，覆盖接触力学/弹流润滑(EHL)/边界润滑薄膜、润滑油/润滑脂/固体润滑剂配方、轴承/齿轮/密封/刹车摩擦副设计与磨损/胶合/微动磨损失效分析",
+      "emoji": "⚙️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-tribology-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-vibration-analysis",
+      "name": "振动分析/旋转机械诊断工程师",
+      "description": "工业旋转机械振动诊断与状态监测专家，覆盖振动频谱分析(FFT/包络谱)/轴心轨迹、轴承/齿轮/电机故障诊断、动平衡/对中修正在线/离线与预测性维护(PdM)方案",
+      "emoji": "📊",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-vibration-analysis.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-vibration-testing",
+      "name": "环境应力筛选/振动冲击试验工程师",
+      "description": "产品环境与可靠性试验验证专家，覆盖随机振动/正弦扫频/经典冲击/SRS冲击试验、温度/湿度/高度/盐雾综合环境试验、HALT/HASS/HASA与MIL-STD-810/DO-160/GB/T 2423",
+      "emoji": "🔬",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-vibration-testing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-engineering-welding-metallurgy",
+      "name": "焊接工程/焊接冶金专家",
+      "description": "焊接工艺与焊接冶金专家，覆盖电弧焊(GMAW/GTAW/SMAW/FCAW)/激光焊/搅拌摩擦焊(FSW)、焊接冶金(热影响区/残余应力)、焊接WPS/PQR/WPQ与NDT无损检测(RT/UT/MT/PT)",
+      "emoji": "🔥",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-engineering-welding-metallurgy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-industrial-engineer",
+      "name": "工业工程师",
+      "description": "工业工程与精益生产：工时研究、人机工程、价值流图VSM、Kaizen改善、自动化评估",
+      "emoji": "📐",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-industrial-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-lean-six-sigma",
+      "name": "精益制造/六西格玛专家",
+      "description": "精益制造与六西格玛质量改进专家，覆盖VSM价值流图析、5S/看板/标准化作业、DMAIC改善、SPC统计过程控制与持续改善(Kaizen)文化",
+      "emoji": "📊",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-lean-six-sigma.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-plant-manager",
+      "name": "工厂厂长",
+      "description": "制造工厂全面管理者，覆盖生产运营/产出效率、质量/安全/环境(QHSE)、设备/设施管理、成本控制/预算、供应链协调与人员管理",
+      "emoji": "🏭",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-plant-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-process-engineer",
+      "name": "工艺工程师",
+      "description": "制造工艺设计与优化：工艺流程规划、设备选型、产线布局、参数调优、良率提升",
+      "emoji": "⚙️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-process-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-production-planner",
+      "name": "生产计划与排程(APS)专家",
+      "description": "生产计划与高级排程专家，覆盖MPS主计划/MRP物料需求、有限产能排程、约束理论(TOC)、S&OP产销协同与MES集成",
+      "emoji": "📋",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-production-planner.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-quality-manager",
+      "name": "质量管理专家",
+      "description": "全面质量管理：六西格玛、SPC统计过程控制、FMEA失效分析、ISO体系、供应商质量审核",
+      "emoji": "✅",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-quality-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-supply-chain-planner",
+      "name": "制造供应链规划师",
+      "description": "制造业供应链规划：物料需求MRP、产能平衡、JIT/精益、供应商管理、全球化采购",
+      "emoji": "🏭",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-supply-chain-planner.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-tpm-reliability",
+      "name": "设备维护与可靠性(TPM)工程师",
+      "description": "设备维护管理与可靠性工程专家，覆盖TPM全员生产维护/自主保全、RCM以可靠性为中心的维护、预测性维护(PdM)/振动分析/油液分析、OEE综合效率与CMMS/EAM系统",
+      "emoji": "🔧",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-tpm-reliability.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

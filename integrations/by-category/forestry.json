@@ -1,0 +1,43 @@
+{
+  "category": "forestry",
+  "agent_count": 3,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "forestry-conservation",
+      "name": "森林保护专家",
+      "description": "森林生态系统保护与可持续管理：生物多样性监测、碳核算与REDD+、保护区管理、毁林监测预警、生态恢复规划与实施",
+      "emoji": "🦉",
+      "category": "forestry",
+      "subcategory": "",
+      "path": "forestry/forestry-conservation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "forestry-manager",
+      "name": "林业经理",
+      "description": "可持续森林经营、木材采伐调度、造林育林、森林认证(FSC/PEFC)、野生动物保护、森林防火",
+      "emoji": "🌲",
+      "category": "forestry",
+      "subcategory": "",
+      "path": "forestry/forestry-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "forestry-timber-supply",
+      "name": "木材供应链经理",
+      "description": "木材供应链专家，覆盖原木采购与林地资源寻源、运输物流与车队调度管理、锯木厂协调与加工排产对接、木材市场价格分析与采购策略、产销监管链认证(FSC/PEFC)与合规",
+      "emoji": "🪵",
+      "category": "forestry",
+      "subcategory": "",
+      "path": "forestry/forestry-timber-supply.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

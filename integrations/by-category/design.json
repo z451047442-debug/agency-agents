@@ -1,0 +1,296 @@
+{
+  "category": "design",
+  "agent_count": 23,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "design-brand-guardian",
+      "name": "品牌守护者",
+      "description": "品牌认知、一致性与品牌定位专家",
+      "emoji": "🎨",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-brand-guardian.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "design-cultural-intelligence-strategist",
+      "name": "文化智能策略师",
+      "description": "全球 UX、多元呈现与文化排斥规避专家",
+      "emoji": "🌍",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-cultural-intelligence-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-director",
+      "name": "设计总监",
+      "description": "设计团队最高负责人，覆盖设计战略/系统、品牌体验一致性、设计团队管理、设计评审与跨职能协作",
+      "emoji": "🎨",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "design-engineering-accessibility-engineer",
+      "name": "无障碍工程师",
+      "description": "Web/移动端无障碍(A11y)工程专家，覆盖WCAG 2.2/AAA合规、ARIA语义实现、屏幕阅读器适配、键盘导航与无障碍自动化测试",
+      "emoji": "♿",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-accessibility-engineer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-engineering-human-factors",
+      "name": "人因/工效学(Human Factors)工程师",
+      "description": "人因工程与用户安全设计专家，覆盖人机交互/人误预防、驾驶舱/控制室/医疗设备人因设计、可用性工程(IEC 62366/FDA Human Factors)与认知负荷/情境意识",
+      "emoji": "🧑‍🔬",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-human-factors.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "design-engineering-quant-ux-researcher",
+      "name": "量化用户体验研究员(Quant UX)",
+      "description": "大规模量化用户研究与行为数据科学家，覆盖A/B测试统计/实验设计、用户行为日志分析/Clickstream、产品体验指标(HEART/PULSE)与用户体验度量基准",
+      "emoji": "📈",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-quant-ux-researcher.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "design-engineering-user-research-system",
+      "name": "用户体验度量/产品分析经理",
+      "description": "产品用户体验指标与数据驱动优化专家，覆盖HEART/PULSE/SUPR-Q产品体验框架、NPS/CSAT/FCR客户满意度体系、用户痛点/摩擦点识别与产品体验仪表板",
+      "emoji": "📊",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-user-research-system.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "design-engineering-ux-auditor",
+      "name": "用户体验审计/启发式评估专家",
+      "description": "数字产品UX审计与可用性启发式评估专家，覆盖Nielsen十大可用性原则/ISO 9241-110对话原则、认知走查(Cognitive Walkthrough)、WCAG 2.2 AA/AAA无障碍审计与UX成熟度评估",
+      "emoji": "🔍",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-ux-auditor.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-engineering-ux-content-strategy",
+      "name": "内容策略(Content Strategy)专家",
+      "description": "跨渠道品牌内容与信息架构策略专家，覆盖内容审计/内容清单、信息架构(IA)/内容建模、多平台内容治理/工作流与内容运营/编辑标准",
+      "emoji": "📋",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-ux-content-strategy.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-engineering-ux-engineer",
+      "name": "UX工程师(UX Engineer)",
+      "description": "用户体验工程与前端实现专家，桥接设计与开发，覆盖设计系统组件化实现(Storybook)、CSS架构/Design Tokens、无障碍(A11y)代码实现与原型工程",
+      "emoji": "🎨",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-ux-engineer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-engineering-ux-research-ops",
+      "name": "用户研究运营(ResearchOps)专家",
+      "description": "用户研究运营与规模化研究平台专家，覆盖研究招募/参与者管理(User Interviews/Respondent)、研究知识库/洞察管理(Dovetail/Condens)、研究治理/模板与工具栈",
+      "emoji": "⚙️",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-ux-research-ops.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "design-engineering-ux-writer",
+      "name": "UX写作/内容设计师",
+      "description": "产品界面文案与用户体验写作专家，覆盖按钮/错误/空状态/通知等微文案(Microcopy)、产品术语表/语音语调指南、无障碍文案与国际化/本地化适配",
+      "emoji": "✍️",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-engineering-ux-writer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-figma-expert",
+      "name": "Figma设计系统专家",
+      "description": "Figma设计系统与协作平台专家,覆盖组件库/Design Token/Variable体系架构、Auto Layout与响应式设计、Dev Mode与设计-开发交接、Figma Plugin开发(JS/TS API)、Design Ops与团队协作(分支/Review/Version History)",
+      "emoji": "🎨",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-figma-expert.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-image-prompt-engineer",
+      "name": "图像提示词工程师",
+      "description": "AI 图像生成提示词、摄影风格指令专家",
+      "emoji": "📷",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-image-prompt-engineer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-inclusive-visuals-specialist",
+      "name": "包容性视觉专家",
+      "description": "多元化呈现、偏见消除与真实 AI 图像生成专家",
+      "emoji": "🌈",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-inclusive-visuals-specialist.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "design-motion-designer",
+      "name": "动效/交互动画设计师",
+      "description": "UI动效与交互反馈设计专家，覆盖微交互/转场动画、加载/等待状态设计、Lottie/Rive动效实现与可用性/愉悦感平衡",
+      "emoji": "✨",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-motion-designer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-persona-walkthrough",
+      "name": "用户画像走查专家",
+      "description": "从特定角色心理视角模拟网页认知走查，输出结构化CRO报告的专家",
+      "emoji": "🎭",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-persona-walkthrough.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "design-researcher",
+      "name": "设计研究员",
+      "description": "用户研究与设计洞察专家，覆盖用户访谈/情境访谈、问卷调查/量化研究、可用性测试/行为观察、人物画像/用户旅程与设计策略洞察",
+      "emoji": "🔍",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-researcher.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "design-ui-designer",
+      "name": "UI 设计师",
+      "description": "视觉设计、组件库与设计系统专家",
+      "emoji": "🎨",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-ui-designer.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "design-ux-architect",
+      "name": "用户体验架构师",
+      "description": "技术架构、CSS 系统与前端实现指导专家",
+      "emoji": "📐",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-ux-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "design-ux-researcher",
+      "name": "用户体验研究员",
+      "description": "用户测试、行为分析与可用性研究专家",
+      "emoji": "🔬",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-ux-researcher.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "design-visual-storyteller",
+      "name": "视觉叙事师",
+      "description": "视觉叙事、多媒体内容与品牌故事专家",
+      "emoji": "🎬",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-visual-storyteller.md",
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "design-whimsy-injector",
+      "name": "创意注入师",
+      "description": "品牌个性、微互动与趣味体验设计专家",
+      "emoji": "✨",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-whimsy-injector.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    }
+  ]
+}

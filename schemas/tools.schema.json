@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://github.com/z451047442-debug/agency-agents/schemas/tools.schema.json",
+  "title": "Agency Tool Configuration",
+  "description": "Schema for tool definitions consumed by convert.sh and install.sh. Each tool specifies its output format, install destination, and file naming conventions.",
+  "type": "object",
+  "required": ["tools"],
+  "properties": {
+    "tools": {
+      "type": "object",
+      "description": "Map of tool IDs to their configuration.",
+      "patternProperties": {
+        "^[a-z][a-z0-9-]*$": {
+          "type": "object",
+          "required": ["label", "format", "ext", "dest"],
+          "properties": {
+            "label": {
+              "type": "string",
+              "description": "Human-readable tool name shown in install.sh output."
+            },
+            "format": {
+              "type": "string",
+              "enum": ["markdown", "toml", "yaml", "skill"],
+              "description": "Output file format."
+            },
+            "ext": {
+              "type": "string",
+              "description": "Output file extension (e.g. '.md', '.toml', '.mdc')."
+            },
+            "dest": {
+              "type": "string",
+              "description": "Default install directory, relative to $HOME or absolute."
+            },
+            "split_sections": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether to split agent body into persona/operations files (openclaw)."
+            },
+            "minimal_frontmatter": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether to strip color/emoji/vibe from frontmatter (qwen, codex)."
+            },
+            "single_file": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether all agents are merged into one file (aider, windsurf)."
+            }
+          }
+        }
+      }
+    }
+  }
+}

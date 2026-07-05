@@ -1,0 +1,211 @@
+{
+  "category": "education",
+  "agent_count": 17,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "education-academic-anthropologist",
+      "name": "学术人类学家",
+      "description": "文化研究、田野调查与人类学视角分析专家",
+      "emoji": "🌍",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-academic-anthropologist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-academic-dean",
+      "name": "大学院长/系主任",
+      "description": "高等教育学术管理者，覆盖学科建设/课程发展、师资管理/学术评估、研究生培养/科研管理、预算分配与校企合作",
+      "emoji": "📚",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-academic-dean.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-academic-geographer",
+      "name": "学术地理学家",
+      "description": "空间分析、地理信息与地缘研究专家",
+      "emoji": "🗺️",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-academic-geographer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-academic-historian",
+      "name": "学术历史学家",
+      "description": "历史分析、史料解读与历史叙事专家",
+      "emoji": "📚",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-academic-historian.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-academic-narratologist",
+      "name": "学术叙事学家",
+      "description": "叙事结构、故事理论与文本分析专家",
+      "emoji": "📜",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-academic-narratologist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-academic-psychologist",
+      "name": "学术心理学家",
+      "description": "心理学研究、行为分析与认知科学专家",
+      "emoji": "🧠",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-academic-psychologist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-academic-research-scientist",
+      "name": "学术研究科学家",
+      "description": "大学/研究机构科研工作者，覆盖研究设计/方法论、基金申请/项目管理、数据收集/统计分析、学术论文撰写/同行评审与研究生指导",
+      "emoji": "🔬",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-academic-research-scientist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-assessment-specialist",
+      "name": "教育评估/测评专家",
+      "description": "教育测量与学习评估专家，覆盖标准化测验设计/项目反应理论(IRT)、形成性/终结性评估、评分标准(Rubric)/量规设计与评估数据分析",
+      "emoji": "📋",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-assessment-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-curriculum-designer",
+      "name": "课程设计师",
+      "description": "课程与教学设计专家，覆盖学习目标分析、课程体系构建、评估设计、教学资源开发与教育技术应用",
+      "emoji": "📖",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-curriculum-designer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-director",
+      "name": "教育机构总监/校长",
+      "description": "学校/教育机构最高管理者，覆盖教育战略/课程体系、师资建设/教学质量管理、学生发展/家校关系、财务可持续性与合规",
+      "emoji": "🎓",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "education-instructional-technologist",
+      "name": "教育技术/EdTech专家",
+      "description": "教育技术与数字学习专家，覆盖LMS学习管理系统(Canvas/Moodle/Blackboard)、交互式数字内容/模拟、学习分析/数据驱动教学与AI+教育",
+      "emoji": "💻",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-instructional-technologist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-online-learning-designer",
+      "name": "在线教育设计师",
+      "description": "MOOC 设计、混合式教学、LMS 平台与学习体验设计专家",
+      "emoji": "💻",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-online-learning-designer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-school-administrator",
+      "name": "学校行政/校长",
+      "description": "学校管理与教育行政专家，覆盖学校战略/发展规划、教学质量/课程管理、教师队伍/绩效评估、家校/社区关系与教育政策合规",
+      "emoji": "🏫",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-school-administrator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-special-needs",
+      "name": "特殊教育专家",
+      "description": "特殊教育与融合教育专家，覆盖学习障碍评估、个别化教育计划(IEP)、行为干预、辅助技术与差异化教学",
+      "emoji": "🧩",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-special-needs.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-study-abroad-advisor",
+      "name": "留学顾问",
+      "description": "国际教育、申请规划与留学目的地专家（美/英/加/澳）",
+      "emoji": "🎓",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-study-abroad-advisor.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-teacher",
+      "name": "教育专家",
+      "description": "学科教学法、课程设计、学习评估与教育技术专家",
+      "emoji": "📚",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-teacher.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-vocational-trainer",
+      "name": "职业培训/技能教育专家",
+      "description": "职业技能培训与成人教育专家，覆盖职业技能标准/课程开发、实训基地/校企合作、职业资格认证/技能鉴定与就业对接",
+      "emoji": "🔧",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-vocational-trainer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

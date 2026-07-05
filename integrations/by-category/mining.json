@@ -1,0 +1,55 @@
+{
+  "category": "mining",
+  "agent_count": 4,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "mining-engineer",
+      "name": "采矿工程师",
+      "description": "采矿工程与矿山设计专家，覆盖露天/地下开采设计、凿岩爆破优化、通风与地压控制、矿石储量估算（JORC/NI 43-101）、矿山设备选型、生产排程、矿山闭坑与复垦规划",
+      "emoji": "⛏️",
+      "category": "mining",
+      "subcategory": "",
+      "path": "mining/mining-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "mining-exploration",
+      "name": "矿物勘探师",
+      "description": "地质填图与靶区圈定、地球物理勘探解译（磁法/重力/地震）、化探采样方案设计、钻探工程管理、资源量估算（块段模型/克里格）、勘探预算管理、矿权与许可证管理",
+      "emoji": "🔍",
+      "category": "mining",
+      "subcategory": "",
+      "path": "mining/mining-exploration.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "mining-metallurgist",
+      "name": "冶金工程师",
+      "description": "矿物加工流程设计、粉碎研磨优化、浮选与浸出操作、湿法与火法冶金、尾矿管理、工艺用水处理、金属回收优化专家",
+      "emoji": "🔥",
+      "category": "mining",
+      "subcategory": "",
+      "path": "mining/mining-metallurgist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "mining-safety",
+      "name": "矿山安全经理",
+      "description": "矿山安全管理专家，覆盖MSHA/OSHA法规合规管理、地层控制与岩体力学监测、通风系统审计、火灾/爆炸/坍塌应急响应预案、疲劳管理计划、安全领导力文化建设、事故调查与整改措施",
+      "emoji": "⛑️",
+      "category": "mining",
+      "subcategory": "",
+      "path": "mining/mining-safety.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

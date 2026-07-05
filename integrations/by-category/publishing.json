@@ -1,0 +1,55 @@
+{
+  "category": "publishing",
+  "agent_count": 4,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "publishing-academic",
+      "name": "学术出版专员",
+      "description": "学术出版专家，覆盖同行评审管理、开放获取合规（金色/绿色/混合OA）、影响因子与引文分析、科研诚信与伦理审查、机构知识库与预印本管理",
+      "emoji": "🔬",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-academic.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "publishing-digital",
+      "name": "数字出版经理",
+      "description": "数字出版专家，覆盖电子书/有声书制作、数字分发渠道（Kindle/Apple Books/Kobo/微信读书）、元数据优化与关键词策略、按需印刷(POD)、DRM策略与反盗版",
+      "emoji": "📱",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-digital.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "publishing-editor",
+      "name": "图书编辑",
+      "description": "图书编辑专家，覆盖稿件审读与选题策划、发展性编辑与逐行编辑、作者关系管理、书名定位与市场包装、出版进度管控",
+      "emoji": "📚",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-editor.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "publishing-literary-agent",
+      "name": "文学经纪人",
+      "description": "文学经纪专家，覆盖作者发掘与签约、稿件打磨与提案撰写、出版合同谈判（预付/版税/权利）、附属权利（影视/翻译/有声书）、作者职业生涯规划",
+      "emoji": "🤝",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-literary-agent.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

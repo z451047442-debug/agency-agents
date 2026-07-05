@@ -1,0 +1,586 @@
+{
+  "category": "data-science",
+  "agent_count": 46,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "data-science-bi-analyst",
+      "name": "商业智能分析师",
+      "description": "商业智能分析专家，专注 SQL 分析、仪表板开发（Tableau/Looker/Power BI）、KPI 框架、业务指标设计及数据驱动决策支持",
+      "emoji": "📈",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-bi-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "data-science-causal-inference",
+      "name": "因果推断专家",
+      "description": "因果推断与计量经济学专家，覆盖DID、RDD、工具变量、双重机器学习与政策效应评估",
+      "emoji": "🧪",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-causal-inference.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "data-science-consolidation-agent",
+      "name": "数据整合 Agent",
+      "description": "销售数据聚合与仪表板报告专家",
+      "emoji": "🗄️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-consolidation-agent.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-data-engineer",
+      "name": "数据工程师(Data Engineer)",
+      "description": "数据工程与数据管道构建专家，覆盖ELT/ETL管道设计、数据仓库/数据湖建模(Kimball/Data Vault)、Spark/dbt/Airflow技术栈与数据质量框架",
+      "emoji": "🔧",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-data-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-data-scientist-zh",
+      "name": "数据科学家 (中文版)",
+      "description": "面向中文用户的数据科学专家——统计建模、机器学习、AB 测试与因果推断",
+      "emoji": "🔬",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-data-scientist-zh.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "data-science-data-scientist",
+      "name": "数据科学家",
+      "description": "统计分析、机器学习建模、AB 测试与因果推断专家",
+      "emoji": "📊",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-data-scientist.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "data-science-director",
+      "name": "数据科学总监",
+      "description": "数据科学与AI团队最高负责人，覆盖数据/AI战略、模型治理与MLOps、数据团队建设、业务价值转化与数据伦理",
+      "emoji": "📊",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "data-science-engineering-bi-engineer",
+      "name": "BI/商业智能工程师",
+      "description": "Tableau/PowerBI/Superset、多维分析与数据可视化专家",
+      "emoji": "📈",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-bi-engineer.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "data-science-engineering-big-data-engineer",
+      "name": "大数据工程师",
+      "description": "Hadoop/Spark/Flink、数据湖与实时计算专家",
+      "emoji": "🐘",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-big-data-engineer.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "data-science-engineering-computer-vision-3d",
+      "name": "3D视觉/深度传感工程师",
+      "description": "3D视觉与深度感知技术专家，覆盖结构光/ToF/双目立体视觉深度传感、点云配准(ICP/NDT)、RGB-D SLAM与3D场景理解",
+      "emoji": "👁️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-computer-vision-3d.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-computer-vision-deep",
+      "name": "计算机视觉/深度学习工程师",
+      "description": "深度学习与计算机视觉算法专家，覆盖CNN/Transformer/ViT视觉模型、目标检测(YOLO)/语义分割、模型压缩(量化/剪枝)与边缘推理部署(TensorRT/CoreML)",
+      "emoji": "👁️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-computer-vision-deep.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-computer-vision-expert",
+      "name": "计算机视觉专家",
+      "description": "图像分类、目标检测、图像分割与视频分析专家",
+      "emoji": "👁️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-computer-vision-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-customer-data-science",
+      "name": "客户数据科学/增长数据科学家",
+      "description": "用户增长与客户行为数据科学家，覆盖用户留存/流失预测模型(Survival Analysis)、客户LTV预测/分群、推荐系统/个性化排序与A/B实验设计/因果推断",
+      "emoji": "📈",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-customer-data-science.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-data-analytics-engineer",
+      "name": "数据分析工程师(Analytics Engineer)",
+      "description": "数据分析工程与数据建模专家，覆盖dbt/Snowflake/ BigQuery数据转换、数据建模(星型/雪花)、BI语义层设计与数据血缘/文档(data catalog)",
+      "emoji": "📊",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-data-analytics-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-data-engineer",
+      "name": "数据工程师",
+      "description": "数据管道、湖仓架构与 ETL/ELT 专家",
+      "emoji": "🔧",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-data-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-data-governance-expert",
+      "name": "数据治理专家",
+      "description": "数据质量管理、元数据管理、数据血缘与数据目录专家",
+      "emoji": "📐",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-data-governance-expert.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "data-science-engineering-data-lakes-warehouse",
+      "name": "数据湖/湖仓一体(Lakehouse)架构师",
+      "description": "数据湖与湖仓一体平台架构专家，覆盖Apache Iceberg/Delta Lake/Hudi开放表格式、Spark/Trino/Presto查询引擎、Medallion架构(Bronze/Silver/Gold)与数据网格(Data Mesh)",
+      "emoji": "🏞️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-data-lakes-warehouse.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-data-lineage",
+      "name": "数据治理/数据血缘专家",
+      "description": "企业数据治理与元数据管理专家，覆盖数据血缘(Data Lineage)/影响分析、数据目录(Alation/Collibra/DataHub)、数据质量框架(DQ维度/规则/SLA)与GDPR/CCPA数据合规",
+      "emoji": "🗂️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-data-lineage.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "data-science-engineering-data-warehouse-expert",
+      "name": "数据仓库专家",
+      "description": "Snowflake/Redshift/BigQuery、星型模型与数据建模专家",
+      "emoji": "🏗️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-data-warehouse-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-deep-learning-training",
+      "name": "大规模深度学习训练/分布式系统工程师",
+      "description": "千卡/万卡级大模型分布式训练系统专家，覆盖数据并行/张量并行/流水线并行/序列并行(FSDP/Megatron/DeepSpeed)、ZeRO冗余优化器、AllReduce/NCCL通信优化与训练稳定性(损失尖峰/发散)",
+      "emoji": "🔥",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-deep-learning-training.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-etl-expert",
+      "name": "ETL/ELT 专家",
+      "description": "数据管道、CDC、批流一体与数据质量监控专家",
+      "emoji": "🔄",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-etl-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-insurance-claims-analytics",
+      "name": "理赔数据科学/反欺诈分析师",
+      "description": "保险理赔数据分析与欺诈检测专家，覆盖结构化/非结构化(文本/图像)理赔数据挖掘、欺诈评分模型/网络分析(Social Network Analysis)、AI图像定损/OCR与规则引擎/异常检测",
+      "emoji": "🔍",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-insurance-claims-analytics.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-knowledge-management",
+      "name": "企业知识管理/组织学习顾问",
+      "description": "企业知识管理与组织学习系统顾问，覆盖知识管理(KM)战略/KM成熟度、经验教训/最佳实践/复盘(After Action Review)、知识图谱/企业维基/Wiki与学习型组织(Learning Organization)建设",
+      "emoji": "🧠",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-knowledge-management.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-language-model-nlp",
+      "name": "NLP/大语言模型应用工程师",
+      "description": "自然语言处理与大模型应用开发专家，覆盖LLM/RAG/Agent框架、模型微调、Prompt工程与模型评估",
+      "emoji": "🧠",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-language-model-nlp.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-llm-training-expert",
+      "name": "LLM/大模型训练专家",
+      "description": "预训练、微调 SFT/RLHF、分布式训练与模型评估专家",
+      "emoji": "🧠",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-llm-training-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-mlops-engineer",
+      "name": "MLOps/机器学习运维工程师",
+      "description": "模型部署、特征存储、模型监控与 ML 管道自动化专家",
+      "emoji": "🔄",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-mlops-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-mlops-platform",
+      "name": "MLOps/ML平台工程师",
+      "description": "机器学习平台与MLOps工程专家，覆盖ML训练/推理平台架构(Kubeflow/MLflow/Ray)、特征存储/模型注册表、A/B实验框架与模型监控/漂移检测",
+      "emoji": "⚙️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-mlops-platform.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-nlp-expert",
+      "name": "NLP/自然语言处理专家",
+      "description": "文本分类、命名实体识别、情感分析与机器翻译专家",
+      "emoji": "📝",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-nlp-expert.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-optical-character-recognition",
+      "name": "OCR/文档理解/Document AI研究员",
+      "description": "光学字符识别与AI文档理解专家，覆盖OCR/场景文字检测识别(CRAFT/TrOCR/Donut)、文档版面分析/表格提取/Key-Value抽取、多模态文档理解(Document VQA/LayoutLM)与IDP智能文档处理",
+      "emoji": "📄",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-optical-character-recognition.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-process-mining",
+      "name": "流程挖掘/业务流程智能分析师",
+      "description": "流程挖掘与业务流程分析专家，覆盖事件日志提取(ERP/CRM/HIS)/Celonis/Disco/UiPath Process Mining、流程发现/一致性检查(Conformance)/增强(Enhancement)与BPMN流程优化",
+      "emoji": "🔍",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-process-mining.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-prompt-engineer",
+      "name": "提示词工程师",
+      "description": "Prompt 设计优化、Few-shot/Chain-of-Thought 与模型行为调优专家",
+      "emoji": "🎛️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-prompt-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-rag-architect",
+      "name": "RAG 架构师",
+      "description": "检索增强生成、文档分块策略、向量检索优化与查询重写专家",
+      "emoji": "🔍",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-rag-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "data-science-engineering-reinforcement-learning",
+      "name": "强化学习(RL)工程师",
+      "description": "强化学习与决策智能专家，覆盖DQN/PPO/SAC深度RL算法、Gym/Gymnasium环境开发、RLHF/从人类反馈强化学习、多智能体RL与游戏/机器人/推荐系统应用",
+      "emoji": "🎮",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-reinforcement-learning.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-sports-analytics",
+      "name": "体育科学/运动表现分析师",
+      "description": "竞技体育科学与运动表现数据分析专家，覆盖运动员GPS/惯性/生理数据采集分析、技战术视频分析(TrackMan/Sportscode)、训练负荷/疲劳/伤病风险模型与运动生物力学(测力台/EMG)",
+      "emoji": "⚽",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-sports-analytics.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-streaming-data-engineer",
+      "name": "流数据平台工程师",
+      "description": "实时流数据与消息平台专家，覆盖Apache Kafka/Pulsar消息平台、Flink/Spark流处理、实时数据管道、CDC/变更数据捕获与事件驱动架构",
+      "emoji": "🌊",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-streaming-data-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-vector-database-expert",
+      "name": "向量数据库专家",
+      "description": "Milvus/Pinecone/Weaviate、向量索引与 ANN 搜索优化专家",
+      "emoji": "🗂️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-vector-database-expert.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "data-science-engineering-video-analytics",
+      "name": "视频智能分析/视频AI工程师",
+      "description": "大规模视频内容理解与智能分析专家，覆盖视频分类/动作识别/时序定位(Temporal Action Localization)、多目标跟踪(MOT)/ReID、视频摘要/精彩片段与视频大模型(Video-LLM)",
+      "emoji": "🎬",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-video-analytics.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-engineering-web-analytics",
+      "name": "Web/数字分析实施工程师",
+      "description": "数字分析埋点与数据采集专家，覆盖Google Analytics 4/GTM/Adobe Analytics实施、增强电商(Enhanced Ecommerce)数据层、服务端跟踪(Server-Side Tagging)与隐私合规(Cookie Consent/GTM Consent Mode)",
+      "emoji": "📊",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-engineering-web-analytics.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-experimentation",
+      "name": "实验设计与A/B测试专家",
+      "description": "在线实验设计与分析专家，覆盖样本量计算、随机化策略、序贯检验、多重比较修正与实验平台设计",
+      "emoji": "🧫",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-experimentation.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "data-science-feature-store",
+      "name": "特征平台专家",
+      "description": "特征工程与特征平台架构专家，覆盖特征存储设计、特征复用、时间点正确性、特征血缘与在线/离线一致性保障",
+      "emoji": "🗂️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-feature-store.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-huggingface-expert",
+      "name": "Hugging Face生态专家",
+      "description": "Hugging Face模型生态与应用专家,覆盖Transformers/Trainer/SFTTrainer微调全流程、Hub模型/NLP/CV/Audio多模态模型选用、Datasets/Evaluate/PEFT工具链、Gradio/Spaces应用部署与演示、开源模型社区贡献与预训练",
+      "emoji": "🤗",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-huggingface-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-lora-expert",
+      "name": "LLM微调与适配专家",
+      "description": "大模型高效微调与适配专家,覆盖LoRA/QLoRA/DoRA参数高效微调(PEFT)方法论、SFT监督微调数据构造与质量管控、DPO/ORPO偏好对齐训练、模型合并(MergeKit/TIES/DARE)与模型量化、领域适配(医疗/法律/金融垂直领域微调)与持续预训练(CPT)",
+      "emoji": "🔧",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-lora-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-ml-engineer",
+      "name": "机器学习工程师",
+      "description": "生产级机器学习系统构建专家，覆盖模型训练管线、特征工程、模型服务、效果评估与模型生命周期管理",
+      "emoji": "⚙️",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-ml-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-ml-researcher",
+      "name": "机器学习研究员",
+      "description": "机器学习研究专家，专注深度学习、NLP、计算机视觉、模型架构设计、训练优化及研究到生产的转化，精通 PyTorch 与 TensorFlow",
+      "emoji": "🤖",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-ml-researcher.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "data-science-model-qa",
+      "name": "模型 QA 专家",
+      "description": "ML 审计、特征分析与可解释性专家",
+      "emoji": "🔬",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-model-qa.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "data-science-vector-db-architect",
+      "name": "向量数据库架构师",
+      "description": "向量数据库选型与架构设计专家,覆盖Milvus/Pinecone/Weaviate/Qdrant/ChromaDB五大引擎深度对比、向量索引算法(HNSW/IVF/PQ/DiskANN)与参数调优、Embedding流水线与多模态向量化、混合搜索(向量+BM25+元数据过滤)与Rerank策略、十亿级向量集群规划与性能优化",
+      "emoji": "🧬",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-vector-db-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    }
+  ]
+}

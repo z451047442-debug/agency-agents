@@ -1,0 +1,247 @@
+{
+  "category": "specialized",
+  "agent_count": 20,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "specialized-agentic-identity-trust",
+      "name": "智能体身份与信任架构师",
+      "description": "Agent 身份、认证与信任验证专家",
+      "emoji": "🔐",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-agentic-identity-trust.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-business-strategist",
+      "name": "商业策略师",
+      "description": "管理咨询与商业策略专家，覆盖竞争分析、市场进入策略、增长规划与战略决策",
+      "emoji": "♟️",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-business-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-change-management-consultant",
+      "name": "变革管理顾问",
+      "description": "运用ADKAR、Kotter、Prosci框架引导组织完成技术实施与文化转型的变革专家",
+      "emoji": "🔄",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-change-management-consultant.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-chief-financial-officer",
+      "name": "首席财务官(CFO)",
+      "description": "管理资本配置、资金运营、财务规划、并购与投资者关系的战略财务高管",
+      "emoji": "💼",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-chief-financial-officer.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-chief-of-staff",
+      "name": "幕僚长",
+      "description": "创始人与高管的协调专家 — 过滤噪音、把控流程、确保一致性、路由决策、优化产出",
+      "emoji": "🧭",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-chief-of-staff.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-customer-success-manager",
+      "name": "客户成功经理(CSM)",
+      "description": "专注客户入职、健康度评分、QBR、流失预防与扩展机会识别的战略客户成功专家",
+      "emoji": "🌟",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-customer-success-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "specialized-data-privacy-officer",
+      "name": "数据保护官(DPO)",
+      "description": "构建GDPR、CCPA与全球隐私合规项目的企业数据隐私专家",
+      "emoji": "🔐",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-data-privacy-officer.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "specialized-document-generator",
+      "name": "文档生成专家",
+      "description": "PDF/PPTX/DOCX/XLSX 代码生成与专业文档创建专家",
+      "emoji": "📄",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-document-generator.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-esg-sustainability-officer",
+      "name": "ESG与可持续发展官",
+      "description": "ESG报告、碳中和战略、可持续发展项目与利益相关方期望对齐的企业可持续发展战略家",
+      "emoji": "🌱",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-esg-sustainability-officer.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "specialized-grant-writer",
+      "name": "拨款撰写人",
+      "description": "非营利与科研机构的专家级拨款撰写人，覆盖资助前景研究、提案撰写与预算叙事",
+      "emoji": "📝",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-grant-writer.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "specialized-identity-graph-operator",
+      "name": "身份图谱运营专家",
+      "description": "多 Agent 系统实体去重与身份一致性专家",
+      "emoji": "🕸️",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-identity-graph-operator.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-ma-integration-manager",
+      "name": "并购整合经理",
+      "description": "设计与执行并购后整合方案的专家，覆盖Day 1准备、百日计划与协同效应追踪",
+      "emoji": "🤝",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-ma-integration-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "specialized-medical-billing-coding-specialist",
+      "name": "医疗计费与编码专家",
+      "description": "ICD-10-CM/PCS、CPT与HCPCS编码、索赔提交与收入周期优化专家",
+      "emoji": "🏥",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-medical-billing-coding-specialist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-operations-manager",
+      "name": "运营经理",
+      "description": "运用精益、六西格玛与系统思维进行流程映射、产能规划与组织效率优化的业务运营专家",
+      "emoji": "⚙️",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-operations-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "specialized-organizational-psychologist",
+      "name": "组织心理学家",
+      "description": "诊断团队动力、心理安全、倦怠风险与文化健康的应用组织心理学专家",
+      "emoji": "🧠",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-organizational-psychologist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-personal-growth-mentor",
+      "name": "个人成长导师",
+      "description": "跨领域个人发展导师，覆盖目标清晰度、习惯设计、战略决策与问责",
+      "emoji": "🌱",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-personal-growth-mentor.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-pricing-analyst",
+      "name": "定价分析师",
+      "description": "通过市场研究、竞争分析与成本结构评估制定最优定价模型的专业定价专家",
+      "emoji": "💰",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-pricing-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "specialized-strategy-duel-agent",
+      "name": "策略对决Agent",
+      "description": "运用博弈论与三十六计进行实时策略对决的专家",
+      "emoji": "⚔️",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-strategy-duel-agent.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-workflow-architect",
+      "name": "工作流架构师",
+      "description": "工作流发现、流程映射与规格说明专家",
+      "emoji": "\"🗺️\"",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-workflow-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "specialized-zk-steward",
+      "name": "知识卡片管理员",
+      "description": "知识管理、Zettelkasten 与笔记系统专家",
+      "emoji": "🗃️",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-zk-steward.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "category": "museums",
+  "agent_count": 2,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "museums-conservator",
+      "name": "文物修复师",
+      "description": "艺术品与文物修复专家，覆盖藏品状况评估与修复方案制定、预防性保护（环境监控/虫害管理/光照控制）、绘画/纺织/纸质/陶瓷专项修复、数字化记录与RTI/多光谱成像、灾后文物抢救与应急保护",
+      "emoji": "🖼️",
+      "category": "museums",
+      "subcategory": "",
+      "path": "museums/museums-conservator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "museums-curator",
+      "name": "博物馆策展人",
+      "description": "展览概念与叙事发展、藏品研究与学术、展品选择与阐释、展览设计、借展谈判、图录撰写、社区参与专家",
+      "emoji": "🏛️",
+      "category": "museums",
+      "subcategory": "",
+      "path": "museums/museums-curator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

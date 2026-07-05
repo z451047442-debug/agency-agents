@@ -1,0 +1,31 @@
+{
+  "category": "libraries",
+  "agent_count": 2,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "libraries-archivist",
+      "name": "档案管理员",
+      "description": "档案管理专家，覆盖档案鉴定与征集评估、检索工具编制（ISAD(G)/DACS/EAD）、原生数字档案与电子邮件归档、脆弱载体保护与数字化抢救、档案保管期限表与处置合规",
+      "emoji": "🗄️",
+      "category": "libraries",
+      "subcategory": "",
+      "path": "libraries/libraries-archivist.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "libraries-digital-librarian",
+      "name": "数字图书馆员",
+      "description": "数字馆藏开发、机构知识库管理、元数据模式设计（Dublin Core/MARC）、数字保存（OAIS）、发现系统优化、开放获取倡导专家",
+      "emoji": "📖",
+      "category": "libraries",
+      "subcategory": "",
+      "path": "libraries/libraries-digital-librarian.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "category": "quality",
+  "agent_count": 9,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "quality-customer-cqe",
+      "name": "客户质量工程师(CQE)",
+      "description": "客户质量与投诉处理专家，覆盖客户投诉处理/8D根本原因分析、退货(RMA)管理/失效分析、客户质量协议/特殊要求(CSR)、客户满意度监控与预防性质量改进",
+      "emoji": "🎯",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-customer-cqe.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-food-safety",
+      "name": "食品安全质量(QA)专家",
+      "description": "食品质量与安全管理专家，覆盖HACCP危害分析/CCP关键控制点、FSSC 22000/BRC/IFS认证、食品防护/过敏原管理、食品检验/微生物/理化与追溯召回体系",
+      "emoji": "🍽️",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-food-safety.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-healthcare-clinical",
+      "name": "医疗质量与患者安全专家",
+      "description": "医疗质量管理与患者安全专家，覆盖JCI/三级医院评审标准、临床质量指标(死亡率/再入院率/感染率)、不良事件报告/根因分析(RCA/FMEA)与持续质量改进(PDSA)",
+      "emoji": "🏥",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-healthcare-clinical.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-lab-17025",
+      "name": "实验室质量(ISO 17025)专家",
+      "description": "实验室质量管理与认可专家，覆盖ISO/IEC 17025(检测/校准实验室)、测量不确定度评定、方法验证/确认、能力验证(PT)/比对与内审/管理评审",
+      "emoji": "🔬",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-lab-17025.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-process-pqe",
+      "name": "过程质量工程师(PQE)",
+      "description": "制造过程质量控制专家，覆盖SPC统计过程控制/控制图(Xbar-R/p/np/Cpk)、制程审核/分层过程审核(LPA)、不合格品(MRB)处置、FMEA/控制计划与持续改善(QC小组)",
+      "emoji": "📈",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-process-pqe.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-qms-engineer",
+      "name": "QMS/质量体系工程师",
+      "description": "质量管理体系(QMS)专家，覆盖ISO9001/IATF16949/ISO13485/GMP体系搭建与认证、质量手册/程序文件编制、内审/管理评审与认证审核应对",
+      "emoji": "📋",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-qms-engineer.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "quality-service-callcenter",
+      "name": "服务质量与客户体验(CX)专家",
+      "description": "服务行业质量与客户体验专家，覆盖COPC/ISO 18295客服中心标准、神秘顾客/质检监控、NPS/CSAT客户满意度体系、投诉处理质量与坐席辅导/校准",
+      "emoji": "⭐",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-service-callcenter.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-software-sqa",
+      "name": "软件质量保证(SQA)工程师",
+      "description": "软件质量保证与质量度量专家，覆盖ISTQB质量体系、CMMI/ASPICE成熟度、代码质量/技术债务管理、缺陷分析与质量度量(DRE/MTBF)",
+      "emoji": "💻",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-software-sqa.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-supplier-sqe",
+      "name": "供应商质量工程师(SQE)",
+      "description": "供应商质量管理专家，覆盖新供应商开发审核/准入、PPAP/FAI首件批准、供应商过程审核(VDA6.3)、来料检验/批次合格率与供应商绩效(QCD)改善",
+      "emoji": "🔍",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-supplier-sqe.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "category": "nonprofit",
+  "agent_count": 4,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "nonprofit-fundraiser",
+      "name": "募款经理",
+      "description": "非营利募款经理/筹款策略专家，覆盖个人捐赠计划（大额捐赠/年度基金）、企业赞助开发、基金会资助研究撰写、资本运动规划执行、捐赠人管理与CRM系统、筹款活动（晚宴/步行/拍卖）、遗产捐赠与捐赠基金策略",
+      "emoji": "❤️",
+      "category": "nonprofit",
+      "subcategory": "",
+      "path": "nonprofit/nonprofit-fundraiser.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "nonprofit-grant-writer",
+      "name": "拨款撰写人",
+      "description": "资助前景研究（基金会/政府/企业）、提案叙事开发、逻辑模型与变革理论构建、预算制定与说明、成果衡量框架、合规与报告、拨款日历管理",
+      "emoji": "📝",
+      "category": "nonprofit",
+      "subcategory": "",
+      "path": "nonprofit/nonprofit-grant-writer.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "nonprofit-program-director",
+      "name": "项目总监",
+      "description": "非营利项目设计与管理专家，覆盖基于使命与变革理论的项目设计、受益人需求评估、监测与评估(M&E)框架、项目预算管理、社区组织合作伙伴拓展、员工与志愿者督导、面向利益相关方的影响力报告",
+      "emoji": "🎯",
+      "category": "nonprofit",
+      "subcategory": "",
+      "path": "nonprofit/nonprofit-program-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "nonprofit-volunteer-coordinator",
+      "name": "志愿者协调员",
+      "description": "志愿者招募与筛选、岗位匹配与入职、培训与技能发展、排班与轮班管理、认可与留存项目、风险管理与背景调查、志愿者影响力衡量",
+      "emoji": "🤝",
+      "category": "nonprofit",
+      "subcategory": "",
+      "path": "nonprofit/nonprofit-volunteer-coordinator.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    }
+  ]
+}

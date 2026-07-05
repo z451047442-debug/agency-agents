@@ -1,0 +1,89 @@
+# CODEOWNERS — Domain stewards for The Agency
+# Community contributions are always welcome.
+# Add your handle if you want to steward a domain group.
+
+# ── Core Infrastructure ──────────────────────────────────────────────────────
+/scripts/                        @z451047442-debug
+/schemas/                        @z451047442-debug
+/.github/workflows/              @z451047442-debug
+/CLAUDE.md                       @z451047442-debug
+/AGENTS.json                     @z451047442-debug
+/generate_slnx.py               @z451047442-debug
+/docs/                           @z451047442-debug
+
+# ── Engineering & Technology ──────────────────────────────────────────────────
+/engineering/                    @z451047442-debug
+/infrastructure/                 @z451047442-debug
+/cybersecurity/                  @z451047442-debug
+/network-engineering/            @z451047442-debug
+/testing/                        @z451047442-debug
+/data-science/                   @z451047442-debug
+/iot/                            @z451047442-debug
+/robotics/                       @z451047442-debug
+
+# ── Business & Finance ───────────────────────────────────────────────────────
+/finance/                        @z451047442-debug
+/insurance/                      @z451047442-debug
+/securities/                     @z451047442-debug
+/lottery/                        @z451047442-debug
+/real-estate/                    @z451047442-debug
+/strategy/                       @z451047442-debug
+
+# ── Product, Marketing & Sales ───────────────────────────────────────────────
+/product/                        @z451047442-debug
+/marketing/                      @z451047442-debug
+/sales/                          @z451047442-debug
+/design/                         @z451047442-debug
+/retail/                         @z451047442-debug
+/customer-service/               @z451047442-debug
+
+# ── People & Operations ──────────────────────────────────────────────────────
+/hr/                             @z451047442-debug
+/hr-tech/                        @z451047442-debug
+/operations/                     @z451047442-debug
+/administration/                 @z451047442-debug
+/project-management/             @z451047442-debug
+/quality/                        @z451047442-debug
+
+# ── Industry & Manufacturing ──────────────────────────────────────────────────
+/manufacturing/                  @z451047442-debug
+/automotive/                     @z451047442-debug
+/aerospace/                      @z451047442-debug
+/construction/                   @z451047442-debug
+/energy/                         @z451047442-debug
+/mining/                         @z451047442-debug
+/logistics/                      @z451047442-debug
+
+# ── Healthcare & Life Sciences ────────────────────────────────────────────────
+/healthcare/                     @z451047442-debug
+/pharma-biotech/                 @z451047442-debug
+/environmental/                  @z451047442-debug
+/agriculture/                    @z451047442-debug
+/forestry/                       @z451047442-debug
+
+# ── Digital & Creative ───────────────────────────────────────────────────────
+/media-entertainment/            @z451047442-debug
+/game-development/               @z451047442-debug
+/web3/                           @z451047442-debug
+/spatial-computing/              @z451047442-debug
+/publishing/                     @z451047442-debug
+
+# ── Public & Social ──────────────────────────────────────────────────────────
+/education/                      @z451047442-debug
+/government/                     @z451047442-debug
+/nonprofit/                      @z451047442-debug
+/emergency/                      @z451047442-debug
+/legal/                          @z451047442-debug
+
+# ── Specialized Domains ──────────────────────────────────────────────────────
+/tourism/                        @z451047442-debug
+/food-beverage/                  @z451047442-debug
+/sports/                         @z451047442-debug
+/fashion/                        @z451047442-debug
+/beauty/                         @z451047442-debug
+/pets/                           @z451047442-debug
+/museums/                        @z451047442-debug
+/telecom/                        @z451047442-debug
+/localization/                   @z451047442-debug
+/libraries/                      @z451047442-debug
+/specialized/                    @z451047442-debug

@@ -1,0 +1,43 @@
+{
+  "category": "hr-tech",
+  "agent_count": 3,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "hr-tech-hrtech-ats-specialist",
+      "name": "ATS实施顾问",
+      "description": "申请人跟踪系统(ATS)实施顾问，覆盖ATS选型评估与RFP撰写、系统配置与业务流程映射、招聘流程优化与自动化规则设计、HRIS/薪资系统集成对接、EEO/OFCCP/GDPR招聘合规配置",
+      "emoji": "🔧",
+      "category": "hr-tech",
+      "subcategory": "",
+      "path": "hr-tech/hr-tech-hrtech-ats-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "hr-tech-hrtech-ex-designer",
+      "name": "员工体验设计师",
+      "description": "员工体验设计专家，覆盖员工旅程地图绘制（入职到退休全周期）、EX策略与关键时刻设计、员工倾听系统与持续反馈机制、物理与数字办公场所体验设计、EX度量体系与投资回报追踪",
+      "emoji": "🌟",
+      "category": "hr-tech",
+      "subcategory": "",
+      "path": "hr-tech/hr-tech-hrtech-ex-designer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "hr-tech-hrtech-people-analytics",
+      "name": "人力分析科学家",
+      "description": "人力分析科学家，覆盖人力数据建模与预测分析、员工生命周期分析（招聘-入职-发展-离职）、员工敬业度调查设计与因子分析、组织网络分析(ONA)与关系图谱、薪酬公平性与薪酬差距分析",
+      "emoji": "📊",
+      "category": "hr-tech",
+      "subcategory": "",
+      "path": "hr-tech/hr-tech-hrtech-people-analytics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

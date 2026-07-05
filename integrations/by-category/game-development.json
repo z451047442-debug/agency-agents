@@ -1,0 +1,301 @@
+{
+  "category": "game-development",
+  "agent_count": 24,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "blender-addon-engineer",
+      "name": "Blender 插件工程师",
+      "description": "Blender 工具开发专家 — 构建 Python 插件、资产验证器、导出器与管线自动化",
+      "emoji": "🧩",
+      "category": "game-development",
+      "subcategory": "blender",
+      "path": "game-development/blender/blender-addon-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "game-development-engineering-video-game-backend",
+      "name": "游戏后端/实时服务(Live Service)工程师",
+      "description": "大型多人在线游戏后端与实时服务专家，覆盖游戏服务器(专用服务器Dedicated Server/P2P)、匹配系统(Matchmaking/SBMM)、玩家状态/存档、经济系统/防作弊与Unity/Unreal后端集成",
+      "emoji": "🎮",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-engineering-video-game-backend.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "game-development-game-audio-engineer",
+      "name": "游戏音频工程师",
+      "description": "FMOD/Wwise、自适应音乐与空间音频专家",
+      "emoji": "🎵",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-game-audio-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "game-development-game-designer",
+      "name": "游戏设计师",
+      "description": "系统设计、GDD 写作、经济平衡与玩法循环专家",
+      "emoji": "🎮",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-game-designer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "game-development-game-monetization-designer",
+      "name": "游戏变现设计师",
+      "description": "游戏经济与变现设计专家，覆盖免费+内购(F2P)经济系统、通行证/Battle Pass设计、订阅模型、广告变现与玩家LTV优化",
+      "emoji": "💰",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-game-monetization-designer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "game-development-game-producer",
+      "name": "游戏制作人",
+      "description": "游戏制作与项目管理专家，覆盖游戏开发流程、里程碑管理、团队协调、预算控制与发行策略",
+      "emoji": "🎯",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-game-producer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "game-development-game-quality-assurance",
+      "name": "游戏QA/测试工程师",
+      "description": "游戏质量保证与测试专家，覆盖功能测试/关卡测试、性能/兼容性测试(多平台/设备)、多人/网络测试、自动化测试框架与Bug追踪/回归",
+      "emoji": "🎮",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-game-quality-assurance.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "game-development-level-designer",
+      "name": "关卡设计师",
+      "description": "布局理论、节奏、遭遇设计与环境叙事专家",
+      "emoji": "🗺️",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-level-designer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "game-development-narrative-designer",
+      "name": "叙事设计师",
+      "description": "故事系统、分支对话与世界观架构专家",
+      "emoji": "📖",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-narrative-designer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "game-development-technical-artist",
+      "name": "技术美术",
+      "description": "Shader、VFX、LOD 管线与美术到引擎优化专家",
+      "emoji": "🎨",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-technical-artist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "godot-gameplay-scripter",
+      "name": "Godot 玩法脚本工程师",
+      "description": "组合与信号完整性专家 — 精通 GDScript 2.0、C# 集成、节点架构与类型安全信号设计",
+      "emoji": "🎯",
+      "category": "game-development",
+      "subcategory": "godot",
+      "path": "game-development/godot/godot-gameplay-scripter.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "godot-multiplayer-engineer",
+      "name": "Godot 多人网络工程师",
+      "description": "Godot 4 网络专家 — 精通 MultiplayerAPI、场景复制、ENet/WebRTC 传输、RPC 与权威模型",
+      "emoji": "🌐",
+      "category": "game-development",
+      "subcategory": "godot",
+      "path": "game-development/godot/godot-multiplayer-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "godot-shader-developer",
+      "name": "Godot Shader 开发工程师",
+      "description": "Godot 4 视觉效果专家 — 精通 Godot Shading Language、VisualShader 编辑器与性能优化",
+      "emoji": "💎",
+      "category": "game-development",
+      "subcategory": "godot",
+      "path": "game-development/godot/godot-shader-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "roblox-studio-roblox-avatar-creator",
+      "name": "Roblox 虚拟形象创建师",
+      "description": "Roblox UGC 与虚拟形象流水线专家 — 精通虚拟形象系统、UGC 物品创建、配饰绑定与 Creator Marketplace 提交",
+      "emoji": "👤",
+      "category": "game-development",
+      "subcategory": "roblox-studio",
+      "path": "game-development/roblox-studio/roblox-studio-roblox-avatar-creator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "roblox-studio-roblox-experience-designer",
+      "name": "Roblox 体验设计师",
+      "description": "Roblox 平台 UX 与变现专家 — 精通参与循环设计、DataStore 驱动进度系统与玩家留存策略",
+      "emoji": "🎪",
+      "category": "game-development",
+      "subcategory": "roblox-studio",
+      "path": "game-development/roblox-studio/roblox-studio-roblox-experience-designer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "roblox-studio-roblox-systems-scripter",
+      "name": "Roblox 系统脚本工程师",
+      "description": "Roblox 平台工程专家 — 精通 Luau、客户端-服务器安全模型、RemoteEvents/RemoteFunctions 与 DataStore",
+      "emoji": "🔧",
+      "category": "game-development",
+      "subcategory": "roblox-studio",
+      "path": "game-development/roblox-studio/roblox-studio-roblox-systems-scripter.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "unity-architect",
+      "name": "Unity 架构师",
+      "description": "ScriptableObjects、数据驱动模块化与 DOTS/ECS 专家",
+      "emoji": "🏛️",
+      "category": "game-development",
+      "subcategory": "unity",
+      "path": "game-development/unity/unity-architect.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "unity-editor-tool-developer",
+      "name": "Unity 编辑器工具开发者",
+      "description": "EditorWindow、AssetPostprocessor 与构建自动化专家",
+      "emoji": "🛠️",
+      "category": "game-development",
+      "subcategory": "unity",
+      "path": "game-development/unity/unity-editor-tool-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "unity-multiplayer-engineer",
+      "name": "Unity 多人网络工程师",
+      "description": "Netcode for GameObjects、Unity Relay/Lobby 与服务器权威专家",
+      "emoji": "🔗",
+      "category": "game-development",
+      "subcategory": "unity",
+      "path": "game-development/unity/unity-multiplayer-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "unity-shader-graph-artist",
+      "name": "Unity Shader 艺术家",
+      "description": "Shader Graph、HLSL、URP/HDRP 与渲染特性专家",
+      "emoji": "✨",
+      "category": "game-development",
+      "subcategory": "unity",
+      "path": "game-development/unity/unity-shader-graph-artist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "unreal-engine-unreal-multiplayer-architect",
+      "name": "Unreal 多人网络架构师",
+      "description": "Unreal Engine 网络专家 — 精通 Actor 复制、GameMode/GameState 架构、服务器权威玩法与 UE5 专用服务器",
+      "emoji": "🌐",
+      "category": "game-development",
+      "subcategory": "unreal-engine",
+      "path": "game-development/unreal-engine/unreal-engine-unreal-multiplayer-architect.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "unreal-engine-unreal-systems-engineer",
+      "name": "Unreal 系统工程师",
+      "description": "性能与混合架构专家 — 精通 C++/Blueprint 协作、Nanite 几何体、Lumen 全局光照与 GAS 系统",
+      "emoji": "⚙️",
+      "category": "game-development",
+      "subcategory": "unreal-engine",
+      "path": "game-development/unreal-engine/unreal-engine-unreal-systems-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "unreal-engine-unreal-technical-artist",
+      "name": "Unreal 技术美术",
+      "description": "Unreal Engine 视觉管线专家 — 精通 Material Editor、Niagara VFX、程序化内容生成与美术到引擎的 UE5 管线",
+      "emoji": "🎨",
+      "category": "game-development",
+      "subcategory": "unreal-engine",
+      "path": "game-development/unreal-engine/unreal-engine-unreal-technical-artist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "unreal-engine-unreal-world-builder",
+      "name": "Unreal 世界构建师",
+      "description": "开放世界与环境专家 — 精通 UE5 World Partition、Landscape、程序化植被、HLOD 与大规模关卡流式加载",
+      "emoji": "🌍",
+      "category": "game-development",
+      "subcategory": "unreal-engine",
+      "path": "game-development/unreal-engine/unreal-engine-unreal-world-builder.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

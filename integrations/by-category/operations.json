@@ -1,0 +1,139 @@
+{
+  "category": "operations",
+  "agent_count": 11,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "operations-analytics-reporter",
+      "name": "数据分析报告员",
+      "description": "数据分析、仪表板与业务洞察专家",
+      "emoji": "📊",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-analytics-reporter.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "operations-automation-governance-architect",
+      "name": "自动化治理架构师",
+      "description": "自动化治理、n8n 与工作流审计专家",
+      "emoji": "⚙️",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-automation-governance-architect.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "operations-bcp-disaster-recovery",
+      "name": "业务连续性(BCP)与灾备专家",
+      "description": "业务连续性与灾难恢复专家，覆盖BIA业务影响分析、BCP/DRP计划编制、RTO/RPO定义、灾备演练(桌面/实战)与ISO 22301认证",
+      "emoji": "🛡️",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-bcp-disaster-recovery.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "operations-change-management",
+      "name": "变革管理顾问",
+      "description": "组织变革管理专家，覆盖ADKAR/Kotter/PROSCI变革方法论、干系人分析/沟通策略、变革准备度评估、培训与能力建设、变革阻力管理与可持续性",
+      "emoji": "🔄",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-change-management.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "operations-director",
+      "name": "运营总监/COO",
+      "description": "企业运营最高负责人，覆盖业务流程优化/标准化、跨部门协调、运营KPI体系、成本效率与战略落地执行",
+      "emoji": "⚙️",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "operations-executive-summary-generator",
+      "name": "高管摘要生成师",
+      "description": "C 级沟通、战略摘要与决策支持专家",
+      "emoji": "📝",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-executive-summary-generator.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "operations-finance-tracker",
+      "name": "财务追踪专员",
+      "description": "财务规划、预算管理与业务绩效分析专家",
+      "emoji": "💰",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-finance-tracker.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "operations-infrastructure-maintainer",
+      "name": "基础设施维护工程师",
+      "description": "系统可靠性、性能优化与基础设施运营专家",
+      "emoji": "🏢",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-infrastructure-maintainer.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "operations-legal-compliance-checker",
+      "name": "法律合规检查员",
+      "description": "合规审查、监管要求与风险管理专家",
+      "emoji": "⚖️",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-legal-compliance-checker.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "operations-procurement-director",
+      "name": "采购总监/CPO",
+      "description": "企业采购与供应链最高负责人，覆盖品类采购战略/供应商关系管理、采购数字化(P2P/SRM)、成本优化/价值创造与采购组织能力建设",
+      "emoji": "🛒",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-procurement-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "operations-report-distribution-agent",
+      "name": "报告分发 Agent",
+      "description": "自动化报告交付与按区域定时发送专家",
+      "emoji": "📤",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-report-distribution-agent.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

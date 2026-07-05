@@ -1,0 +1,439 @@
+{
+  "category": "finance",
+  "agent_count": 36,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "finance-accounts-payable-agent",
+      "name": "应付账款 Agent",
+      "description": "支付处理、供应商管理与自主支付专家",
+      "emoji": "💸",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-accounts-payable-agent.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-accounts-payable-manager",
+      "name": "应付账款(AP)自动化专家",
+      "description": "应付账款与发票处理自动化专家，覆盖三单匹配(PO/收货/发票)/OCR识别、付款排程/现金流优化、供应商对账与P2P(Procure-to-Pay)系统(SAP/Ariba/Coupa)",
+      "emoji": "💸",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-accounts-payable-manager.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-accounts-receivable",
+      "name": "应收账款(AR)/信用控制专家",
+      "description": "企业应收账款管理与信用控制专家，覆盖客户信用评估/额度管理、账龄分析/催收策略、现金回款预测/DSO优化与收入确认(ASC 606/IFRS 15)对账",
+      "emoji": "📬",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-accounts-receivable.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-actuary",
+      "name": "保险精算师",
+      "description": "费率厘定、准备金评估、偿付能力管理与 IFRS 17 专家",
+      "emoji": "📐",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-actuary.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-auditor",
+      "name": "审计师",
+      "description": "财务审计、内控审计、IT 审计与反舞弊调查专家",
+      "emoji": "🔎",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-auditor.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-bank-relationship",
+      "name": "银行关系/融资经理",
+      "description": "企业银行关系与债权融资专家，覆盖银行授信/银团贷款/债券发行、信用评级维护、现金池/资金集中管理(Kyribion/TMS)与银行费用优化",
+      "emoji": "🏦",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-bank-relationship.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-bookkeeper-controller",
+      "name": "簿记与财务总监",
+      "description": "精通日常会计核算、财务对账、月末结账与内控的专业簿记专家",
+      "emoji": "📒",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-bookkeeper-controller.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-capital-markets-analyst",
+      "name": "资本市场/ECM分析师",
+      "description": "股权资本市场与公司金融分析师，覆盖IPO/再融资/配股交易执行、估值(可比/先例/DCF)、投资者路演/簿记建档与上市后股价/流动性分析",
+      "emoji": "📈",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-capital-markets-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-cfo",
+      "name": "首席财务官(CFO)",
+      "description": "企业首席财务官/财务战略专家，覆盖资本配置/资金策略、FP&A与董事会报告、M&A财务尽调/估值、投资者关系与公司财务治理",
+      "emoji": "💼",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-cfo.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "finance-cost-accountant",
+      "name": "成本会计师",
+      "description": "成本核算与管理会计专家，覆盖标准成本/实际成本法、BOM/工艺路线成本核算、差异分析、COGS计算、存货估值与制造费用分摊",
+      "emoji": "🏭",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-cost-accountant.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-credit-analyst",
+      "name": "信用分析师",
+      "description": "企业信用与信贷风险评估专家，覆盖企业财务报表分析/现金流建模、信用评级/违约概率(PD)、行业/管理层风险分析与授信方案",
+      "emoji": "📊",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-credit-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-data-analyst",
+      "name": "财务数据分析师",
+      "description": "财务数据与商业智能分析专家，覆盖财务数据仓库/BI建模(Power BI/Tableau)、管理报表/驾驶舱、自助分析与财务数据治理",
+      "emoji": "📈",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-data-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-engineering-credit-risk-model",
+      "name": "信用风险/IFRS 9/CECL模型开发专家",
+      "description": "银行信用风险量化模型与预期信用损失(ECL)专家，覆盖PD/LGD/EAD模型开发验证、IFRS 9/CECL减值计提、Basel III/IV RWA资本计量与压力测试(CCAR/DFAST)",
+      "emoji": "📊",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-engineering-credit-risk-model.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-engineering-forensic-accounting",
+      "name": "法务会计/舞弊调查会计师",
+      "description": "财务舞弊调查与诉讼支持会计专家，覆盖财务报表舞弊/资产侵占/贪污腐败调查、电子取证/数据分析(Benford定律/关联交易)、量化损失/损害赔偿计算与ACFE/CFE/诉讼支持",
+      "emoji": "🔍",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-engineering-forensic-accounting.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-engineering-infrastructure-finance",
+      "name": "基础设施/项目融资(Project Finance)顾问",
+      "description": "大型基础设施与能源项目结构化融资专家，覆盖BOT/PPP/特许经营模式、项目融资现金流建模(CFADS/DSCR/LLCR)、银团贷款/ECA出口信贷与基础设施基金/REITs",
+      "emoji": "🏗️",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-engineering-infrastructure-finance.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-engineering-risk-quant",
+      "name": "金融风险/市场风险(FRTB/XVA)量化分析师",
+      "description": "金融市场风险量化与XVA定价专家，覆盖FRTB标准法/内模法(IMM)、交易对手信用风险(CVA/DVA/FVA/KVA/MVA)、XVA/ SIMM初始保证金与压力测试/反向压力测试",
+      "emoji": "📉",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-engineering-risk-quant.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-engineering-tax-incentives",
+      "name": "R&D税务激励/研发费用加计扣除顾问",
+      "description": "全球研发税收激励与政府补助( Grants)顾问，覆盖中国研发费用加计扣除(100-120%)/高新企业(15% CIT)、美国R&D Tax Credit(IRC §41)/FDII、EU/Horizon Europe/UK R&D Tax Relief(Eureka)与OECD BEPS 2.0 Pillar Two(GloBE/GILTI)",
+      "emoji": "💰",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-engineering-tax-incentives.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-esg-analyst",
+      "name": "ESG/可持续金融分析师",
+      "description": "ESG投资与可持续金融分析专家，覆盖ESG评级/评分(MSCI/Sustainalytics)、ESG整合/负面筛选/影响力投资、绿色债券/可持续挂钩贷款(SLL)与TCFD/ISSB气候风险分析",
+      "emoji": "🌱",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-esg-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-financial-analyst",
+      "name": "财务分析师",
+      "description": "专家级财务分析师，专注财务建模、预测、情景分析与数据驱动决策",
+      "emoji": "📊",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-financial-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-financial-controller",
+      "name": "财务总监(Controller)",
+      "description": "企业财务报告与会计控制专家，覆盖US GAAP/IFRS/中国会计准则财务报告、合并报表、SEC/监管申报(10-K/10-Q/年报)、审计协调与内部控制",
+      "emoji": "📒",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-financial-controller.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-fpa-analyst",
+      "name": "财务规划分析师",
+      "description": "财务规划与分析专家，专注预算编制、差异分析、滚动预测与战略决策支持",
+      "emoji": "📈",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-fpa-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-insurance-underwriter",
+      "name": "保险精算/产品定价师",
+      "description": "寿险/健康险精算与产品开发专家，覆盖死亡率/发病率经验分析、准备金(IFRS 17/LDTI)评估、产品费率厘定与利润测试、偿付能力(C-ROSS/Solvency II)",
+      "emoji": "🧮",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-insurance-underwriter.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-internal-auditor",
+      "name": "内部审计师",
+      "description": "内部审计与内部控制专家，覆盖风险导向审计计划、SOX/内控测试、运营审计/流程改进、反舞弊调查与审计委员会报告",
+      "emoji": "🔍",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-internal-auditor.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-investment-researcher",
+      "name": "投资研究员",
+      "description": "专家级投资研究员，专注市场研究、尽职调查、投资组合分析与资产估值",
+      "emoji": "🔍",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-investment-researcher.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-ipo-advisor",
+      "name": "上市与资本市场财务顾问",
+      "description": "企业上市(IPO)与资本市场财务专家，覆盖A股/港股/美股上市筹备、财务合规整改、招股书财务章节、股权激励与股份支付会计、上市后定期报告合规",
+      "emoji": "📊",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-ipo-advisor.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "finance-loan-officer-assistant",
+      "name": "贷款专员助理",
+      "description": "全面的贷款专员助理，覆盖借款人受理、预审资格、文件收集、管道管理与交割协调",
+      "emoji": "🏦",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-loan-officer-assistant.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-mergers-acquisitions",
+      "name": "并购/企业融资(M&A)顾问",
+      "description": "企业并购与投资银行顾问，覆盖并购目标筛选/估值、尽职调查协调(财务/法务/税务/IT)、SPA/交易结构谈判与并购后整合(PMI)",
+      "emoji": "🤝",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-mergers-acquisitions.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-payroll-manager",
+      "name": "薪酬核算/个税专家",
+      "description": "企业薪酬核算与个人所得税专家，覆盖月度薪资计算/社保公积金核算、个税预扣/专项附加扣除/年度汇算清缴、多地区薪酬合规与薪酬系统(ADP/北森)管理",
+      "emoji": "💰",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-payroll-manager.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-personal-advisor",
+      "name": "个人理财顾问",
+      "description": "家庭资产配置、保险规划、税务优化与养老/教育金规划专家",
+      "emoji": "🏦",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-personal-advisor.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "finance-quant-trader",
+      "name": "量化交易分析师",
+      "description": "量化策略研发、因子挖掘、回测框架构建与高频交易系统专家",
+      "emoji": "📊",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-quant-trader.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-risk-manager",
+      "name": "风险管理专家",
+      "description": "市场风险、信用风险、操作风险与 VaR/压力测试专家",
+      "emoji": "⚠️",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-risk-manager.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-tax-strategist",
+      "name": "税务策略师",
+      "description": "专家级税务策略师，专注税务优化、跨管辖区合规、转移定价与战略税务规划",
+      "emoji": "🏛️",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-tax-strategist.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "finance-transfer-pricing",
+      "name": "转让定价/国际税务专家",
+      "description": "转让定价与跨境税务筹划专家，覆盖关联交易/独立交易原则、转让定价文档(主体/本地/国别报告)、预约定价(APA)与税务争议/相互协商",
+      "emoji": "🌐",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-transfer-pricing.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-treasury",
+      "name": "资金管理与司库专家",
+      "description": "企业资金/司库管理专家，覆盖现金流预测与管理、银行关系/授信、外汇风险管理、短期投资/理财、债务融资与营运资金优化",
+      "emoji": "💵",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-treasury.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-wealth-manager",
+      "name": "财富管理/私人银行顾问",
+      "description": "高净值客户财富管理与私人银行专家，覆盖资产配置/投资组合管理、家族信托/税务筹划、遗产规划/财富传承与跨境资产配置",
+      "emoji": "💎",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-wealth-manager.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-web3-analyst",
+      "name": "Web3 分析师",
+      "description": "链上数据分析、DeFi 协议评估、代币经济模型与 Dune Analytics 专家",
+      "emoji": "⛓️",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-web3-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    }
+  ]
+}

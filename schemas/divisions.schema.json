@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://github.com/z451047442-debug/agency-agents/schemas/divisions.schema.json",
+  "title": "Agency Divisions Configuration",
+  "description": "Schema for divisions.json — the canonical registry of agent divisions. Each division maps to a top-level directory containing .md agent files.",
+  "type": "object",
+  "required": ["divisions"],
+  "properties": {
+    "_note": { "type": "string" },
+    "divisions": {
+      "type": "object",
+      "description": "Map of division IDs (directory names) to their metadata.",
+      "patternProperties": {
+        "^[a-z][a-z0-9-]*$": {
+          "type": "object",
+          "required": ["label", "icon", "color"],
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Human-readable division name."
+            },
+            "icon": {
+              "type": "string",
+              "pattern": "^[A-Z][a-zA-Z0-9]*$",
+              "description": "Lucide icon name in PascalCase (e.g. 'Code', 'HeartPulse')."
+            },
+            "color": {
+              "type": "string",
+              "pattern": "^#[0-9A-Fa-f]{6}$",
+              "description": "Brand color as hex code (e.g. '#3B82F6')."
+            }
+          }
+        }
+      }
+    }
+  }
+}

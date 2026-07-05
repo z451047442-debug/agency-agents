@@ -1,0 +1,80 @@
+{
+  "category": "security",
+  "agent_count": 6,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "security-appsec-engineer",
+      "name": "应用安全工程师",
+      "description": "通过威胁建模、安全代码审查与SAST/DAST集成的应用安全(AppSec)专家",
+      "emoji": "🔐",
+      "category": "security",
+      "subcategory": "",
+      "path": "security/security-appsec-engineer.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "security-cloud-security-architect",
+      "name": "云安全架构师",
+      "description": "设计零信任架构、跨AWS/Azure/GCP深度防御的云原生安全专家",
+      "emoji": "☁️",
+      "category": "security",
+      "subcategory": "",
+      "path": "security/security-cloud-security-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "security-incident-responder",
+      "name": "事件响应分析师",
+      "description": "主导漏洞调查、遏制主动威胁、协调危机响应的事故响应与数字取证专家",
+      "emoji": "🚨",
+      "category": "security",
+      "subcategory": "",
+      "path": "security/security-incident-responder.md",
+      "nexus_roles": [
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "security-penetration-tester",
+      "name": "渗透测试工程师",
+      "description": "授权渗透测试、红队行动与漏洞评估的攻击性安全专家",
+      "emoji": "🗡️",
+      "category": "security",
+      "subcategory": "",
+      "path": "security/security-penetration-tester.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "security-senior-secops",
+      "name": "高级安全运营工程师",
+      "description": "防御性应用安全专家，覆盖密钥扫描、认证授权与安全头配置",
+      "emoji": "🛡️",
+      "category": "security",
+      "subcategory": "",
+      "path": "security/security-senior-secops.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "security-threat-intelligence-analyst",
+      "name": "威胁情报分析师",
+      "description": "追踪APT组织、映射攻击活动到MITRE ATT&CK并构建检测规则的专家",
+      "emoji": "🔍",
+      "category": "security",
+      "subcategory": "",
+      "path": "security/security-threat-intelligence-analyst.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    }
+  ]
+}

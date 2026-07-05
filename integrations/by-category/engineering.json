@@ -1,0 +1,1121 @@
+{
+  "category": "engineering",
+  "agent_count": 92,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "engineering-ai-agent-developer",
+      "name": "AI Agent 开发专家",
+      "description": "自主 Agent 架构、工具调用、记忆管理与多 Agent 协作专家",
+      "emoji": "🤖",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ai-agent-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ai-data-remediation-engineer",
+      "name": "AI 数据修复工程师",
+      "description": "自愈数据管道、离线 SLM 与语义聚类专家",
+      "emoji": "🧬",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ai-data-remediation-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ai-engineer",
+      "name": "AI 工程师",
+      "description": "机器学习模型部署、AI 集成与数据管道专家",
+      "emoji": "🤖",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ai-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ai-ethics",
+      "name": "AI伦理与负责任AI专家",
+      "description": "人工智能伦理与负责任AI治理专家，覆盖AI公平性/Fairness检测与缓解、可解释性(XAI/SHAP/LIME)、模型风险评估/红队测试(Red Teaming)、AI监管合规(EU AI Act/NIST)与AI伦理委员会",
+      "emoji": "⚖️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ai-ethics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ai-observability-expert",
+      "name": "AI应用可观测性专家",
+      "description": "AI/LLM应用监控与可观测性专家,覆盖LLM追踪与调试(LangSmith/Weights & Biases/Arize/Phoenix)、Token使用与成本监控、Latency/Throughput/Error Rate全链路指标、RAG质量评估(忠实度/相关性/上下文精度)、Prompt版本管理与A/B实验",
+      "emoji": "📊",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ai-observability-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ai-product-manager",
+      "name": "AI产品经理(AI PM)",
+      "description": "人工智能/机器学习驱动产品管理专家，覆盖AI/ML产品策略/可行性评估、数据需求/标注策略、模型评估指标/公平性/安全与AI UX/Human-AI交互设计",
+      "emoji": "🤖",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ai-product-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ai-safety-expert",
+      "name": "AI安全与对齐专家",
+      "description": "AI安全、对齐与负责任AI专家,覆盖RLHF/DPO/Constitutional AI对齐训练与评估、红队测试与越狱防御(Prompt Injection/Jailbreak/Data Poisoning)、内容安全与Guardrail体系(Nemo/Llama Guard/ moderation API)、模型偏见检测与公平性审计、AI监管合规(EU AI Act/中国生成式AI管理办法/NIST AI RMF)",
+      "emoji": "🛡️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ai-safety-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-android-developer",
+      "name": "Android 开发工程师",
+      "description": "Kotlin/Jetpack Compose、Google Play 与 Android 生态开发专家",
+      "emoji": "🤖",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-android-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-android-framework",
+      "name": "Android系统/框架工程师",
+      "description": "Android系统与AOSP框架开发专家，覆盖AOSP定制/ROM开发、Android Framework(AMS/WMS/PMS)、HAL硬件抽象层、Treble架构与系统性能优化",
+      "emoji": "🤖",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-android-framework.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-api-designer",
+      "name": "API与接口设计师",
+      "description": "API设计与管理专家，覆盖RESTful/GraphQL/gRPC API设计原则、OpenAPI/AsyncAPI规范、API版本/生命周期管理、开发者门户与API治理",
+      "emoji": "🔌",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-api-designer.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-backend-architect",
+      "name": "后端架构师",
+      "description": "负责 API 设计、数据库架构与可扩展性的后端系统专家",
+      "emoji": "🏗️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-backend-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-build-release-engineer",
+      "name": "构建与发布工程师",
+      "description": "软件构建/打包/发布工程专家，覆盖CI/CD流水线(Jenkins/GitLab CI/GitHub Actions)、制品管理(Artifactory/Nexus)、容器镜像构建、发布编排与回滚策略",
+      "emoji": "📦",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-build-release-engineer.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "engineering-chaos-engineer",
+      "name": "混沌工程师",
+      "description": "混沌工程与韧性系统设计专家，覆盖故障注入、爆炸半径控制、稳态假说验证、GameDay演练与分布式系统韧性架构",
+      "emoji": "🌀",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-chaos-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-cms-developer",
+      "name": "CMS 开发工程师",
+      "description": "Drupal 与 WordPress 专家，专注主题开发、自定义插件/模块、内容架构与代码优先的 CMS 实施",
+      "emoji": "🧱",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-cms-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-code-reviewer",
+      "name": "代码审查工程师",
+      "description": "建设性代码审查、安全与可维护性评估专家",
+      "emoji": "👁️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-code-reviewer.md",
+      "nexus_roles": [
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "engineering-codebase-onboarding-engineer",
+      "name": "代码库入门工程师",
+      "description": "开发者入门专家，帮助新工程师快速理解陌生代码库，通过阅读源码、追踪代码路径了解架构",
+      "emoji": "🧭",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-codebase-onboarding-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-computer-graphics",
+      "name": "计算机图形/渲染工程师",
+      "description": "实时渲染与计算机图形学专家，覆盖OpenGL/Vulkan/Metal/DirectX图形API、PBR物理渲染管线、光线追踪(RTX)/全局光照与GPU驱动渲染优化",
+      "emoji": "🎮",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-computer-graphics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-container-orchestration",
+      "name": "容器/平台工程(K8s)专家",
+      "description": "Kubernetes与容器编排平台专家，覆盖K8s集群架构/调度/网络(CNI)/存储(CSI)、Helm/Kustomize部署、服务网格(Istio/Linkerd)与多集群管理",
+      "emoji": "🐳",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-container-orchestration.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-cross-platform",
+      "name": "跨平台/多端统一开发工程师",
+      "description": "Flutter/React Native/KMP跨平台移动端统一开发专家，覆盖Flutter(Widget/Rendering/Native Plugin)、React Native(JSI/Fabric/TurboModule)、Kotlin Multiplatform与原生桥接/性能优化",
+      "emoji": "📱",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-cross-platform.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "engineering-database-administrator",
+      "name": "数据库管理员(DBA)",
+      "description": "数据库管理与运维专家，覆盖MySQL/PostgreSQL/MongoDB/Redis日常运维、备份恢复/高可用(主从/集群)、SQL性能调优/慢查询分析与容量规划",
+      "emoji": "🗄️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-database-administrator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-database-optimizer",
+      "name": "数据库优化工程师",
+      "description": "Schema 设计、查询优化与索引策略专家（PostgreSQL/MySQL）",
+      "emoji": "🗄️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-database-optimizer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-developer-advocate",
+      "name": "开发者布道师",
+      "description": "社区建设、开发者体验与技术内容创作专家",
+      "emoji": "🗣️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-developer-advocate.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-developer-experience",
+      "name": "开发者体验(DX)工程师",
+      "description": "开发者体验与工具链工程专家，覆盖本地开发环境/Dev Container、CLI工具/开发者门户、SDK/库设计、文档/入门体验与开发者生产力度量",
+      "emoji": "🛠️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-developer-experience.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-developer-relations",
+      "name": "开发者关系工程师",
+      "description": "SDK 开发、技术文档撰写、社区赋能与产品反馈闭环专家",
+      "emoji": "🤝",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-developer-relations.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-drupal-shopping-cart",
+      "name": "Drupal购物车开发工程师",
+      "description": "Drupal Commerce专家，覆盖产品目录管理、支付集成、结账流程与订单管理",
+      "emoji": "🛒",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-drupal-shopping-cart.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ecommerce-platform",
+      "name": "电商平台架构师",
+      "description": "大规模电子商务平台技术架构专家，覆盖商品/库存/价格/促销/订单核心域建模、秒杀/大促高并发设计、多租户/多站点架构与电商中台(业务中台/数据中台)",
+      "emoji": "🛒",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ecommerce-platform.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "engineering-education-technology",
+      "name": "教育信息化/智慧校园架构师",
+      "description": "K12/高校智慧校园与教育信息化平台专家，覆盖教务/学工/人事/科研管理系统、智慧教室/录播/互动教学、一卡通/统一认证(IDaaS)与教育数据中台",
+      "emoji": "🏫",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-education-technology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-electron-developer",
+      "name": "桌面应用开发工程师",
+      "description": "Electron/Tauri、跨平台桌面应用开发专家",
+      "emoji": "🖥️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-electron-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-email-intelligence-engineer",
+      "name": "邮件智能工程师",
+      "description": "从原始邮件线程中提取结构化、可供推理使用的数据的专家，服务于 AI Agent 与自动化系统",
+      "emoji": "📧",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-email-intelligence-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-erp-implementer",
+      "name": "ERP实施/功能顾问",
+      "description": "企业资源计划(ERP)系统实施与功能顾问，覆盖SAP S/4HANA/Oracle Fusion/用友/金蝶实施、业务流程蓝图设计、模块配置(FI/CO/SD/MM/PP)与数据迁移/上线切换",
+      "emoji": "🏗️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-erp-implementer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-fastapi-expert",
+      "name": "FastAPI后端开发专家",
+      "description": "FastAPI高性能Python API开发专家,覆盖Python异步编程(asyncio/async/await)与FastAPI路由设计、Pydantic v2数据验证与Schema建模、依赖注入(Depends)与中间件(Middleware/CORS)、SQLAlchemy 2.0/SQLModel异步ORM与数据库迁移(Alembic)、性能优化(连接池/缓存/后台任务)与OpenAPI文档",
+      "emoji": "🐍",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-fastapi-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-feishu-integration-developer",
+      "name": "飞书集成开发工程师",
+      "description": "飞书/Lark 开放平台、机器人与工作流集成专家",
+      "emoji": "🔗",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-feishu-integration-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-filament-optimization-specialist",
+      "name": "Filament 优化专家",
+      "description": "Filament PHP 管理面板重构与优化专家，专注高影响力的结构改进而非表面调整",
+      "emoji": "🔧",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-filament-optimization-specialist.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "engineering-fintech-engineer",
+      "name": "金融科技(FinTech)工程师",
+      "description": "金融科技与支付系统开发专家，覆盖支付网关/清结算系统(ISO 8583/20022)、银行API(Open Banking/PSD2)、实时风控/反欺诈引擎与PCI-DSS/金融安全合规",
+      "emoji": "💳",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-fintech-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-flutter-developer",
+      "name": "Flutter开发工程师",
+      "description": "Flutter跨平台应用开发专家,覆盖Dart语言与Flutter框架(Widget/State/RenderObject三棵树)、状态管理(Provider/Riverpod/Bloc)与架构(MVVM/Clean Architecture)、自定义渲染与动画(Canvas/implicit/hero/shader)、平台通道(Platform Channel/FFI/Pigeon)、测试(Unit/Widget/Integration)与CI/CD(Fastlane/Codemagic)",
+      "emoji": "🐦",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-flutter-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-frontend-developer",
+      "name": "前端开发工程师",
+      "description": "专注现代 Web 技术、React/Vue/Angular 框架、UI 实现与性能优化的前端专家",
+      "emoji": "🖥️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-frontend-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-fullstack-developer",
+      "name": "全栈开发工程师",
+      "description": "全栈Web开发专家，覆盖React/Vue/Angular前端+Node.js/Python/Go后端、REST/GraphQL API、数据库设计与DevOps基础",
+      "emoji": "🏗️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-fullstack-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-git-workflow-master",
+      "name": "Git 工作流专家",
+      "description": "分支策略、规范提交与高级 Git 操作专家",
+      "emoji": "🌿",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-git-workflow-master.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-gpu-architect",
+      "name": "GPU/异构计算工程师",
+      "description": "GPU计算与高性能计算(HPC)专家，覆盖CUDA/ROCm并行编程、GPU集群/GPU云架构、深度学习训练/推理优化与异构计算性能调优",
+      "emoji": "🔥",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-gpu-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-graph-database",
+      "name": "图数据库/知识图谱工程师",
+      "description": "图数据库与知识图谱专家，覆盖Neo4j/JanusGraph/Amazon Neptune图数据库、Cypher/Gremlin图查询、知识图谱建模/推理、图算法与社交网络分析",
+      "emoji": "🕸️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-graph-database.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-graphql-expert",
+      "name": "GraphQL API架构师",
+      "description": "GraphQL API设计与架构专家,覆盖GraphQL Schema设计(SDL/Code-First)与类型系统、Apollo GraphOS (Router/Federation/Supergraph)与微服务GraphQL网关、Query/Mutation/Subscription设计与N+1解决方案(DataLoader/@defer/@stream)、GraphQL安全(深度限制/复杂度分析/持久化查询/授权)与性能优化(CDN/APQ/批处理)、Relay/URQL/Apollo Client状态管理与缓存策略",
+      "emoji": "◈",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-graphql-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-humanitarian-engineering",
+      "name": "人道主义工程/WASH专家",
+      "description": "人道主义水卫生(WASH)与应急工程专家，覆盖紧急供水(打井/运水/净水药片)/环境卫生(应急厕所/粪便污泥管理)、难民营/临时安置点规划与人道主义标准(SPHERE/ Core Humanitarian Standard)",
+      "emoji": "💧",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-humanitarian-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-i18n-l10n",
+      "name": "国际化/本地化(i18n/L10n)工程师",
+      "description": "软件国际化与本地化工程专家，覆盖Unicode/CLDR/ICU标准、i18n框架(react-intl/gettext)、RTL语言(阿拉伯/希伯来)布局、多语言内容管道(TMS/CAT)与伪本地化测试",
+      "emoji": "🌐",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-i18n-l10n.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-innovation-manager",
+      "name": "创新/研发项目经理",
+      "description": "企业创新管理与研发组合(R&D Portfolio)专家，覆盖创新漏斗/Stage-Gate管道、技术侦察/开放创新、内部创业/孵化器、知识产权策略与研发KPI/ROI管理",
+      "emoji": "💡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-innovation-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-insurance-technology",
+      "name": "保险科技(InsurTech)产品经理",
+      "description": "保险科技与数字化保险产品专家，覆盖互联网保险/嵌入式保险(Embedded Insurance)产品设计、智能核保/理赔AI、UBI车险/健康管理保险与保险核心系统(Policy/Claims/Billing)",
+      "emoji": "🛡️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-insurance-technology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ios-developer",
+      "name": "iOS 开发工程师",
+      "description": "Swift/SwiftUI、App Store 生态与 iOS 应用开发专家",
+      "emoji": "🍎",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ios-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ios-system",
+      "name": "iOS/macOS系统工程师",
+      "description": "Apple平台系统软件开发专家，覆盖Darwin/XNU内核扩展、Metal/ CoreAudio/CoreML框架深度、App Extensions/Widgets系统与Apple平台性能优化",
+      "emoji": "🍎",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ios-system.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-it-service-manager",
+      "name": "IT服务经理",
+      "description": "运用ITIL 4框架进行服务目录设计、事件与问题管理、变更控制与SLA治理的专家",
+      "emoji": "🖧",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-it-service-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-langchain-expert",
+      "name": "LangChain/LangGraph专家",
+      "description": "LangChain与LangGraph AI Agent框架专家,覆盖LangChain Expression Language(LCEL)/Runnable接口与链式调用设计、LangGraph状态图与多Agent编排、工具定义与函数调用(Tool/StructuredTool集成)、RAG管道设计与向量存储集成、LangSmith可观测性与Agent评估",
+      "emoji": "⛓️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-langchain-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-llamaindex-expert",
+      "name": "LlamaIndex专家",
+      "description": "LlamaIndex数据Agent与RAG框架专家,覆盖Index架构(Summary/Tree/Keyword/Vector)与数据连接器、高级RAG(Sentence Window/Auto-Merging/Hierarchical)与检索策略、Query Engine与Agent推理(ReAct/OpenAI/Anthropic Agent)、多模态索引与结构化数据提取、生产化部署与Router/Ingestion Pipeline",
+      "emoji": "🦙",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-llamaindex-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-llm-inference-expert",
+      "name": "LLM推理部署专家",
+      "description": "大语言模型推理引擎与部署专家,覆盖vLLM(SGLang/TRT-LLM/TGI/Ollama)推理框架架构与选型、KV Cache管理与PagedAttention内存优化、量化部署(GPTQ/AWQ/GGUF/bitsandbytes)与精度调优、分布式推理(TP/PP/DP)与多GPU扩展、服务化部署与负载均衡(API Gateway/Rate Limit/Auto Scaling)",
+      "emoji": "🚀",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-llm-inference-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-lowcode-expert",
+      "name": "低代码/无代码开发专家",
+      "description": "OutSystems/Power Platform/简道云、流程自动化与企业级低代码平台专家",
+      "emoji": "🧩",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-lowcode-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-lsp-index-engineer",
+      "name": "语言服务器/索引工程师",
+      "description": "LSP 实现、代码智能与语义索引专家",
+      "emoji": "🔎",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-lsp-index-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-mcp-builder",
+      "name": "MCP 构建专家",
+      "description": "Model Context Protocol 服务器与 AI Agent 工具链专家",
+      "emoji": "🔌",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-mcp-builder.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-microservices-architect",
+      "name": "微服务架构师",
+      "description": "服务拆分、API 网关、事件驱动与分布式事务专家",
+      "emoji": "🔀",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-microservices-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-minimal-change-engineer",
+      "name": "最小变更工程师",
+      "description": "专注最小可行差异的工程专家 — 仅修复要求的范围、拒绝范围蔓延、防止 Bug 修复变成大规模重构",
+      "emoji": "🪡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-minimal-change-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-mobile-app-builder",
+      "name": "移动端开发工程师",
+      "description": "iOS/Android、React Native、Flutter 跨平台移动应用构建者",
+      "emoji": "📲",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-mobile-app-builder.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-mobile-architect",
+      "name": "移动端架构师",
+      "description": "iOS/Android移动应用架构专家，覆盖MVVM/MVI/Clean Architecture模式、模块化/组件化架构、跨平台(Flutter/React Native/KMP)选型与移动端性能/安全架构",
+      "emoji": "📱",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-mobile-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-mongodb-expert",
+      "name": "MongoDB数据架构师",
+      "description": "MongoDB分布式文档数据库架构专家,覆盖Document Schema Design(嵌入/引用/多态/桶模式)与反范式化策略、Replica Set高可用(Oplog/Write Concern/Read Concern/Read Preference)与故障恢复、Sharding分片集群(Shard Key选型/Chunk均衡/Zones)与水平扩展、Aggregation Pipeline(索引优化/物化视图/$lookup/$merge/$facet)与查询性能调优、Atlas云平台管理与运维自动化(Backup/Encryption/Network Peering)",
+      "emoji": "🍃",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-mongodb-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-multi-agent-systems-architect",
+      "name": "多智能体系统架构师",
+      "description": "多Agent系统设计与治理专家，覆盖Agent拓扑/编排模式、上下文/记忆管理、信任与安全边界、故障恢复与人机协作(Human-in-the-Loop)",
+      "emoji": "🕸️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-multi-agent-systems-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-network-engineer",
+      "name": "网络工程师",
+      "description": "Cisco IOS/IOS-XE、Juniper Junos与Palo Alto PAN-OS路由交换与防火墙排障专家",
+      "emoji": "🌐",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-network-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-nextjs-expert",
+      "name": "Next.js全栈开发专家",
+      "description": "Next.js全栈Web应用开发专家,覆盖App Router(React Server Components/Server Actions/Streaming)与Pages Router双模式、数据获取(Server Components/Route Handler/tRPC)与缓存策略(Static/Dynamic/Revalidate/ISR/On-Demand)、渲染策略(SSR/SSG/ISR/PPR)与Edge/Node运行时选择、NextAuth/Auth.js身份认证与中间件(Middleware)、Vercel/自托管部署与性能优化(Core Web Vitals/Image Optimization/Bundle Analysis)",
+      "emoji": "⚡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-nextjs-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-nocode-developer",
+      "name": "低代码/无代码开发专家",
+      "description": "低代码与无代码平台开发专家，覆盖Power Platform(Canvas/Model-Driven/Power Automate)、OutSystems/Mendix企业低代码与企业级LCNC治理",
+      "emoji": "🧩",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-nocode-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-orgscript-engineer",
+      "name": "OrgScript工程师",
+      "description": "OrgScript语法设计与解析、AST验证与业务逻辑定义的专家",
+      "emoji": "📜",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-orgscript-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-payment-systems",
+      "name": "支付系统/交易处理工程师",
+      "description": "大规模支付交易处理系统专家，覆盖双活/多活异地多活支付架构、交易一致性/幂等/冲正、PCI-DSS/PCI-PIN/PCI-3DS合规与ISO 8583/20022报文标准",
+      "emoji": "💳",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-payment-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-postgres-specialist",
+      "name": "PostgreSQL高级DBA/性能专家",
+      "description": "PostgreSQL数据库深度优化与管理专家，覆盖PG执行计划/查询优化(VACUUM/ANALYZE/Index)、流复制/逻辑复制/高可用(Patroni/Stolon)、分区/分表与PG扩展(PostGIS/Citus)",
+      "emoji": "🐘",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-postgres-specialist.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "engineering-programming-language",
+      "name": "编译器/编程语言工程师",
+      "description": "编译器与编程语言设计专家，覆盖词法/语法/语义分析、LLVM/GCC编译器优化、JIT编译/V8引擎、类型系统设计与DSL领域特定语言",
+      "emoji": "🔣",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-programming-language.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-prompt-engineer",
+      "name": "提示词工程师",
+      "description": "系统化设计、测试与优化大语言模型提示词的专家，将模糊指令转化为可靠的生产级AI行为",
+      "emoji": "🧬",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-prompt-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-quantum-computing",
+      "name": "量子计算研究员",
+      "description": "量子计算与量子算法专家，覆盖量子电路/门模型、变分量子算法(VQE/QAOA)、量子纠错/容错、量子-经典混合架构与Qiskit/Cirq编程",
+      "emoji": "⚛️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-quantum-computing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-racial-equity",
+      "name": "公平性审计/算法公平研究员",
+      "description": "AI系统公平性与社会影响评估专家，覆盖算法公平性指标(人口平等/机会均等/校准)、公平性审计/红队(Red Teaming)、去偏技术(预处理/训练中/后处理)与反歧视法(AI Act/EEOC/ NYC 144)",
+      "emoji": "⚖️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-racial-equity.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "engineering-rapid-prototyper",
+      "name": "快速原型工程师",
+      "description": "快速 POC 开发、MVP 与迭代验证专家",
+      "emoji": "⚡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-rapid-prototyper.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-reactive-systems",
+      "name": "响应式/分布式系统架构师",
+      "description": "大规模分布式系统与响应式架构专家，覆盖Actor模型(Akka/Orleans)、CQRS/Event Sourcing模式、最终一致性/CRDT/Saga模式与Reactive Manifesto(响应/弹性/韧性/消息驱动)",
+      "emoji": "⚡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-reactive-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-reactnative-expert",
+      "name": "React Native移动开发专家",
+      "description": "React Native跨平台移动应用开发专家,覆盖React Native新架构(Fabric/TurboModules/JSI/Codegen)与性能优化、Hermes引擎调优与Native Module桥接、React Navigation 7.x导航架构与Deep Link路由、状态管理(Zustand/TanStack Query/Jotai)与离线优先策略、iOS/Android构建签名(App Store/TestFlight/Google Play/Fastlane)与OTA更新(CodePush/EAS Update)",
+      "emoji": "📱",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-reactnative-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-realtime-systems",
+      "name": "实时系统/嵌入式RTOS工程师",
+      "description": "实时操作系统与确定性系统专家，覆盖FreeRTOS/Zephyr/ThreadX RTOS、实时调度/优先级反转、中断延迟/抖动控制与安全关键(SIL/MISRA)系统",
+      "emoji": "⏱️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-realtime-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-retail-technology",
+      "name": "零售科技(RetailTech)产品经理",
+      "description": "零售科技与智能门店方案产品专家，覆盖POS/自助收银/电子价签(ESL)、RFID智能盘点/防损、客流分析/热力图与智能门店IoT",
+      "emoji": "🛒",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-retail-technology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-salesforce-architect",
+      "name": "Salesforce 架构师",
+      "description": "多云 Salesforce 设计、Governor Limits 与集成专家",
+      "emoji": "☁️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-salesforce-architect.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-senior-developer",
+      "name": "高级开发工程师",
+      "description": "Laravel/Livewire、复杂模式与架构决策专家",
+      "emoji": "💎",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-senior-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-sitecore-developer",
+      "name": "前端架构/性能优化工程师",
+      "description": "Web前端性能优化与架构专家，覆盖Core Web Vitals(LCP/FID/CLS)优化、代码分割/懒加载/Tree Shaking、CDN/缓存策略与前端可观测性(RUM)",
+      "emoji": "⚡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-sitecore-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-social-media-platform",
+      "name": "社交媒体/内容平台架构师",
+      "description": "社交媒体与UGC内容平台技术架构专家，覆盖Feed/Timeline/推荐系统、社交图谱/关系链存储、UGC审核/内容安全与高并发消息/通知系统",
+      "emoji": "📱",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-social-media-platform.md",
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "engineering-software-architect",
+      "name": "软件架构师",
+      "description": "系统设计、DDD、架构模式与权衡分析专家",
+      "emoji": "🏛️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-software-architect.md",
+      "depends_on": [
+        "engineering-backend-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-standards-compliance",
+      "name": "标准化/技术委员会专家",
+      "description": "国际标准制定与技术委员会管理专家，覆盖ISO/IEEE/ITU/3GPP/IETF国际标准组织、标准必要专利(SEP)/FRAND许可、标准参与策略与企业标准化治理",
+      "emoji": "📜",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-standards-compliance.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-swiftui-expert",
+      "name": "SwiftUI/iOS开发专家",
+      "description": "SwiftUI声明式UI与iOS原生开发专家,覆盖SwiftUI视图体系(View/Modifier/PreferenceKey/Environment)与Swift 6并发(async/await/Actor/Sendable)、SwiftData/Core Data持久化与CloudKit同步、TCA/MVVM架构与依赖注入、SwiftUI动画与自定义转场(MatchedGeometryEffect/PhaseAnimator/KeyframeAnimator)、App Store提交(TestFlight/App Review/StoreKit 2/App Intents/Siri/Widget)",
+      "emoji": "🍎",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-swiftui-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-systems-integrator",
+      "name": "系统集成工程师",
+      "description": "复杂系统集成与接口管理专家，覆盖多供应商系统集成(SoI)、接口协议/数据映射、端到端集成测试、系统级验收与集成风险管理",
+      "emoji": "🔗",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-systems-integrator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-technical-writer",
+      "name": "技术文档工程师",
+      "description": "开发者文档、API 参考手册与教程撰写专家",
+      "emoji": "📚",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-technical-writer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-visual-studio-cpp",
+      "name": "Visual Studio C++开发专家",
+      "description": "Visual Studio C++开发专家，覆盖MSVC编译器/链接器优化、MFC/ATL桌面应用、DirectX/游戏开发、Win32/COM互操作、CMake/MSBuild项目配置、vcpkg包管理与调试诊断",
+      "emoji": "🔷",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-visual-studio-cpp.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-visual-studio-dotnet-csharp",
+      "name": "Visual Studio .NET/C#开发专家",
+      "description": "Visual Studio .NET/C#开发专家，覆盖WinForms/WPF/WinUI 3桌面应用、ASP.NET Core Web、MAUI跨平台、NuGet包管理、MSBuild配置、EF Core数据访问与Azure云集成",
+      "emoji": "🟣",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-visual-studio-dotnet-csharp.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-visual-studio-python",
+      "name": "Visual Studio Python开发专家",
+      "description": "Visual Studio Python开发专家，覆盖Python工具/数据科学/C++扩展、PTVS调试与性能分析、Conda/virtualenv环境管理、Azure ML集成与Django/Flask Web应用开发",
+      "emoji": "🐍",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-visual-studio-python.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-visual-studio-web-aspnet",
+      "name": "Visual Studio Web/ASP.NET开发专家",
+      "description": "Visual Studio Web开发专家，覆盖ASP.NET Core MVC/Blazor/Razor Pages、前端工具链(TypeScript/SCSS/Webpack)、SignalR实时通信、gRPC服务、Azure云部署与DevOps集成",
+      "emoji": "🌐",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-visual-studio-web-aspnet.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-voice-ai-integration-engineer",
+      "name": "语音 AI 集成工程师",
+      "description": "端到端语音转录管线构建专家 — 从原始音频到预处理、转录清理、字幕生成、说话人分离的结构化集成",
+      "emoji": "🎙️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-voice-ai-integration-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-webassembly-expert",
+      "name": "WebAssembly 专家",
+      "description": "WASM 运行时、WASI 与高性能前端计算专家",
+      "emoji": "⚡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-webassembly-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-wechat-mini-program-developer",
+      "name": "微信小程序开发工程师",
+      "description": "Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem.",
+      "emoji": "💬",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-wechat-mini-program-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-wordpress-shopping-cart",
+      "name": "WordPress购物车开发工程师",
+      "description": "WooCommerce专家，覆盖产品目录管理、支付集成、结账定制与转化优化",
+      "emoji": "🛍️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-wordpress-shopping-cart.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

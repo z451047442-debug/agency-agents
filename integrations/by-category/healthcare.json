@@ -1,0 +1,607 @@
+{
+  "category": "healthcare",
+  "agent_count": 50,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "healthcare-anesthesiologist",
+      "name": "麻醉科医师",
+      "description": "临床麻醉与围术期医学专家，覆盖全身/区域/局部麻醉、困难气道管理、术中监测/液体管理、术后镇痛与PACU恢复",
+      "emoji": "💤",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-anesthesiologist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-clinical-physician",
+      "name": "临床诊断医师",
+      "description": "临床诊断与内科专家，覆盖病史采集、鉴别诊断、循证医学、检查解读与治疗方案制定",
+      "emoji": "🩺",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-clinical-physician.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-customer-service",
+      "name": "医疗客服专员",
+      "description": "富有同理心的医疗客户服务专家，处理患者支持、账单咨询、预约管理、保险问题与投诉解决",
+      "emoji": "🏥",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-customer-service.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-dentist",
+      "name": "口腔科/牙科医师",
+      "description": "口腔医学与牙科临床专家，覆盖口腔疾病诊治(龋病/牙周/牙髓)、口腔修复(冠/桥/种植/义齿)/正畸、儿童牙科/预防保健与口腔颌面影像/麻醉",
+      "emoji": "🦷",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-dentist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-emergency-medicine",
+      "name": "急诊/院前急救医师",
+      "description": "急诊医学与院前急救专家，覆盖急诊分诊/危重症识别、创伤/中毒/心脏骤停急救、院前转运/EMS调度与灾难医学/群体伤事件应急",
+      "emoji": "🚑",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-emergency-medicine.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-3d-bioprinting",
+      "name": "生物3D打印/组织器官打印研究员",
+      "description": "生物墨水与活细胞3D打印专家，覆盖挤出式/喷墨式/光固化(DLP/SLA)生物打印、生物墨水(水凝胶/脱细胞基质/纳米纤维素)、细胞存活率/血管化/组织成熟与生物打印ISO/ASTM标准",
+      "emoji": "🖨️",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-3d-bioprinting.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-biomaterials-tissue",
+      "name": "生物材料/组织工程研究员",
+      "description": "可植入生物材料与组织再生支架专家，覆盖可降解聚合物(PLA/PGA/PCL)/水凝胶/生物陶瓷、组织工程支架(3D打印/静电纺丝)、生物相容性(ISO 10993)与干细胞/生长因子",
+      "emoji": "🧬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-biomaterials-tissue.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-biomedical-engineer",
+      "name": "生物医学工程师",
+      "description": "生物医学工程与医疗器械开发专家，覆盖医疗设备设计/开发(ISO 13485)、生物信号处理(ECG/EEG/EMG)、医学影像设备(CT/MRI/超声)与FDA/CE注册",
+      "emoji": "🩻",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-biomedical-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-biostatistics-clinical",
+      "name": "临床数据管理/生物统计程序员",
+      "description": "临床试验数据管理与SAS/R统计编程专家，覆盖CRF/eCRF病例报告表设计、CDISC标准(SDTM/ADaM)、SAS/R统计分析编程(TLF)与临床数据核查/清洗",
+      "emoji": "💻",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-biostatistics-clinical.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-biotech-process",
+      "name": "生物工艺/发酵工程师",
+      "description": "生物反应器与发酵工艺放大专家，覆盖CHO/微生物发酵工艺开发、上游(USP)/下游(DSP)生物工艺、PAT过程分析技术与cGMP生物制药生产",
+      "emoji": "🧬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-biotech-process.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-clinical-research",
+      "name": "临床研究协调员(CRC)/研究护士",
+      "description": "临床试验现场运营与受试者管理专家，覆盖GCP/ICH E6(R2)合规、受试者招募/知情同意/随访管理、CRF数据录入/质疑解答与试验药物/生物样本管理",
+      "emoji": "📋",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-clinical-research.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-cold-chain-pharma",
+      "name": "医药冷链/GDP温控物流工程师",
+      "description": "药品优良分销规范(GDP)冷链物流与温度控制专家，覆盖药品冷链(2-8°C/15-25°C/-20°C)温控包装(被动PCM/主动温控箱)、温度监测(数据记录器/实时IoT)、冷链验证/确认(ISTA 7D/WHO/PDA TR39)与药品序列化/追溯(DSCSA/EU FMD)",
+      "emoji": "💊",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-cold-chain-pharma.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-cryo-electron-microscopy",
+      "name": "冷冻电镜(Cryo-EM)/结构生物学研究员",
+      "description": "单颗粒冷冻电镜与冷冻电子断层扫描(cryo-ET)结构生物学专家，覆盖冷冻样品制备( Vitrobot/Plunge Freeze)/数据收集、单颗粒分析(RELION/cryoSPARC)/图像处理与原子模型搭建/验证(Coot/Phenix)",
+      "emoji": "🔬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-cryo-electron-microscopy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-gene-editing-crispr",
+      "name": "基因编辑/CRISPR农业应用研究员",
+      "description": "基因编辑(Gene Editing)作物育种与农业生物技术专家，覆盖CRISPR/Cas9/Cas12/Cas13/碱基编辑/Prime Editing、植物转化(农杆菌/基因枪)/组织培养/再生体系、基因编辑作物法规(USDA SECURE/ EU NGT/中国基因编辑作物)",
+      "emoji": "🌾",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-gene-editing-crispr.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-gene-therapy",
+      "name": "基因治疗/细胞治疗CMC专家",
+      "description": "AAV/慢病毒载体基因治疗与CAR-T/ TCR-T细胞治疗CMC工艺专家，覆盖病毒载体(悬浮HEK293/Sf9-杆状病毒)上游/下游纯化、自体/异体细胞治疗工艺(磁珠/自动化)、关键质量属性(CQA)/效力检测与BLA/MAA CMC模块",
+      "emoji": "🧬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-gene-therapy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-genomics-bioinformatics",
+      "name": "生物信息学/基因组学数据科学家",
+      "description": "生物信息学与基因组数据分析专家，覆盖NGS测序数据处理(DNA/RNA-seq)、变异检测/注释(VCF/GATK)、单细胞组学分析、蛋白质结构预测与生物信息学管道(Nextflow/Snakemake)",
+      "emoji": "🧬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-genomics-bioinformatics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-medical-device-software",
+      "name": "医疗设备软件(SaMD/SiMD)工程师",
+      "description": "医疗器械软件与健康IT合规开发专家，覆盖IEC 62304软件生命周期、FDA 510(k)/PMA/De Novo提交、医疗设备网络安全(FDA Cybersecurity Guidance)与互操作性(HL7/FHIR/DICOM)",
+      "emoji": "🏥",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-medical-device-software.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-medical-imaging-ai",
+      "name": "医学影像AI/放射组学研究员",
+      "description": "医学影像人工智能与影像组学(Radiomics)专家，覆盖CT/MRI/PET/病理图像AI分割/分类/检测、放射组学特征提取(PyRadiomics)/特征选择、多模态影像融合与AI医学设备FDA/CE/NMPA注册(SaMD)",
+      "emoji": "🩻",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-medical-imaging-ai.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-medical-robotics",
+      "name": "手术机器人/医疗机器人工程师",
+      "description": "微创手术机器人与介入导航系统专家，覆盖主从控制/力反馈/运动缩放、手术器械/末端执行器/无菌适配器、术中导航/光学追踪与FDA/CE注册(IEC 60601/IEC 62304/RAMS)",
+      "emoji": "🏥",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-medical-robotics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-microbiome-research",
+      "name": "微生物组/宏基因组学研究员",
+      "description": "人体与环境微生物组计算生物学专家，覆盖宏基因组/16S rRNA扩增子测序分析(QIIME2/metaPhlAn)、宏转录组/代谢组多组学整合、菌群-宿主互作机制与益生菌/活体生物药(LBP)研发",
+      "emoji": "🦠",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-microbiome-research.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-molecular-diagnostics",
+      "name": "分子诊断/精准医疗产品开发专家",
+      "description": "体外诊断(IVD)与分子诊断产品开发专家，覆盖PCR/qPCR/dPCR/NGS检测试剂开发、样本制备/核酸提取、伴随诊断(CDx)开发与IVDR/NMPA注册",
+      "emoji": "🧬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-molecular-diagnostics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-neurotechnology",
+      "name": "神经工程/脑机接口(BCI)研究员",
+      "description": "神经工程与脑机接口技术研究员，覆盖非侵入式(EEG/fNIRS)/侵入式(ECoG/Utah Array)神经信号采集、神经解码/运动想象/ P300/SSVEP、神经刺激(DBS/TMS/tDCS)与神经可塑性",
+      "emoji": "🧠",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-neurotechnology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-nuclear-medicine",
+      "name": "核医学/放射性药物专家",
+      "description": "诊断治疗一体化核医学与放射性药物专家，覆盖PET(18F/68Ga/89Zr)/SPECT(99mTc)诊断放射性药物、α/β-/俄歇治疗核素(177Lu/225Ac/131I)、放射化学/自动化合成(cGMP)与内照射剂量学(MIRD/OLINDA)",
+      "emoji": "☢️",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-nuclear-medicine.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-optometry-ophthalmic",
+      "name": "视光学/眼科光学工程师",
+      "description": "眼科光学与视觉矫正技术专家，覆盖眼镜片光学设计(单光/渐进多焦点/自由曲面)/镀膜、角膜接触镜(软性/RGP/Ortho-K)、验光/双眼视功能/低视力与眼科仪器(验光仪/角膜地形图/OCT)",
+      "emoji": "👓",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-optometry-ophthalmic.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-peptide-therapeutics",
+      "name": "多肽/寡核苷酸药物CMC专家",
+      "description": "治疗性多肽与反义寡核苷酸(ASO/siRNA/aptamer)CMC开发专家，覆盖固相合成(SPPS/SPOS)/液相合成、纯化(prep-HPLC/IEX)/冻干与聚集体/杂质分析(DLS/SEC-HPLC/LC-MS)",
+      "emoji": "🧬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-peptide-therapeutics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-pharmacoeconomics",
+      "name": "药物经济学/卫生技术评估(HTA)专家",
+      "description": "药物经济学评价与医保准入谈判专家，覆盖成本效果/成本效用分析(CER/ICER/QALY)、预算影响分析(BIA)、卫生技术评估(HTA)/价值档案(Value Dossier)与国家医保目录(NRDL)准入谈判",
+      "emoji": "💊",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-pharmacoeconomics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-pharmacovigilance",
+      "name": "药物警戒/药品安全专家",
+      "description": "上市后药物警戒与药品安全管理专家，覆盖不良事件(AE/SAE/SUSAR)个例报告处理/MedDRA编码、PSUR/PBRER/DSUR定期报告、信号检测(Empirical Bayes/PRR)与风险管理计划(RMP/REMS)",
+      "emoji": "⚕️",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-pharmacovigilance.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-phenomics-phenotyping",
+      "name": "表型组学/高通量植物表型研究员",
+      "description": "植物表型组学与高通量自动化表型平台专家，覆盖可见光/高光谱/荧光/热红外/LiDAR传感器表型数据采集、图像处理/深度学习特征提取(GWAS/QTL)、环境响应(GxE互作)与Field/Lab/Greenhouse表型平台",
+      "emoji": "🌱",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-phenomics-phenotyping.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-prosthetics-orthotics",
+      "name": "假肢/矫形器/康复辅具工程师",
+      "description": "上下肢假肢与脊柱/四肢矫形器临床工程专家，覆盖肌电/力感应/模式识别多自由度假肢控制、3D扫描/CAD/CAM个性化接受腔/矫形器、碳纤/钛合金/硅胶材料与CE/FDA康复辅具注册",
+      "emoji": "🦿",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-prosthetics-orthotics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-regulatory-science",
+      "name": "监管科学/法规策略(Regulatory Strategy)顾问",
+      "description": "药品/医疗器械/食品化妆品法规注册策略专家，覆盖FDA IND/NDA/BLA、EMA MAA、NMPA IND/NDA注册路径、孤儿药/突破性疗法/优先审评与CMC法规(药学/工艺验证)",
+      "emoji": "📋",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-regulatory-science.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-sewage-epidemiology",
+      "name": "污水流行病学(WBE)/环境病原监测专家",
+      "description": "基于废水的公共卫生监测与流行病学专家，覆盖污水中病原体(病毒/细菌/耐药基因AMR)/药物/代谢标志物检测(qPCR/ddPCR/靶向/非靶向分析)、人群消费/健康行为反演(WBE Back-Calculation)与公共卫生早期预警",
+      "emoji": "🦠",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-sewage-epidemiology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-synthetic-biology",
+      "name": "合成生物学/基因线路设计研究员",
+      "description": "合成生物学与基因线路工程专家，覆盖CRISPR/Cas基因编辑/碱基编辑、基因线路(逻辑门/振荡器/开关)设计、代谢途径工程/底盘生物与DNA合成/组装(Gibson/Golden Gate)",
+      "emoji": "🧬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-synthetic-biology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-systems-biology",
+      "name": "系统生物学/网络药理学研究员",
+      "description": "系统生物学与网络药理学研究专家，覆盖蛋白质互作网络(PPI)/基因调控网络(GRN)、多组学整合分析、通路富集分析(GSEA/ORA)与药物靶点发现/老药新用",
+      "emoji": "🧬",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-systems-biology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-engineering-veterinary-medicine",
+      "name": "兽医影像/兽医外科专家",
+      "description": "小动物/异宠/大动物兽医影像诊断与外科专家，覆盖DR/CT/MRI/超声兽医影像判读、软组织/骨科/神经外科/微创(腹腔镜/关节镜)、麻醉/疼痛管理与兽医临床病理",
+      "emoji": "🐾",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-engineering-veterinary-medicine.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-fitness-coach",
+      "name": "健身教练",
+      "description": "力量训练、功能性训练、康复训练、运动处方 — 科学训练，安全第一，终生健康",
+      "emoji": "💪",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-fitness-coach.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-hospital-administrator",
+      "name": "医院管理专家",
+      "description": "医院管理与运营专家，覆盖医疗质量管理、JCI评审、床位调度、感控管理、医保控费与服务流程优化",
+      "emoji": "🏥",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-hospital-administrator.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-hospital-ceo",
+      "name": "医院院长/CEO",
+      "description": "医院最高管理者，覆盖医院战略/学科建设、医疗质量/患者安全治理、财务可持续性/医保控费、人才梯队/科研教学与政府/社区关系",
+      "emoji": "🏥",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-hospital-ceo.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "healthcare-marketing-compliance",
+      "name": "医疗营销合规专家",
+      "description": "中国医疗广告法规合规专家",
+      "emoji": "⚕️",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-marketing-compliance.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-mental-health",
+      "name": "精神科/心理健康医师",
+      "description": "精神医学与心理健康临床专家，覆盖抑郁/焦虑/双相/精神分裂症诊治、心理治疗/药物治疗/物理治疗、自杀风险评估与危机干预",
+      "emoji": "🧠",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-mental-health.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-nurse",
+      "name": "注册护士",
+      "description": "临床护理专家，覆盖患者评估、护理计划、给药管理、急症识别、患者教育与跨学科协作",
+      "emoji": "💉",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-nurse.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-nutritionist",
+      "name": "营养师",
+      "description": "膳食规划、营养评估、慢病营养管理、运动营养 — 用科学的营养策略改善健康",
+      "emoji": "🥗",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-nutritionist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-obstetrician",
+      "name": "产科/围产医学医师",
+      "description": "产科与围产期保健专家，覆盖孕期管理/产前筛查、分娩管理/剖宫产/产程处理、高危妊娠(子痫/妊娠糖尿病)管理与产后/新生儿护理",
+      "emoji": "🤰",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-obstetrician.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-pediatrician",
+      "name": "儿科医师",
+      "description": "儿科与儿童保健专家，覆盖儿童生长发育/预防保健、新生儿/儿童常见病诊治、疫苗接种/营养指导与家庭为中心的医疗沟通",
+      "emoji": "👶",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-pediatrician.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-pharmacist",
+      "name": "临床药剂师",
+      "description": "临床药学专家，覆盖处方审核、药物相互作用评估、治疗药物监测、药学咨询与用药安全管理",
+      "emoji": "💊",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-pharmacist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-physiotherapist",
+      "name": "物理治疗/康复治疗师",
+      "description": "物理治疗与运动康复专家，覆盖骨骼肌肉/神经/心肺康复评估、手法治疗/运动疗法/物理因子治疗、术后康复方案与功能恢复评估",
+      "emoji": "🦿",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-physiotherapist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-psychologist",
+      "name": "心理咨询师",
+      "description": "认知行为疗法、心理评估、危机干预、积极心理学 — 非临床心理支持与心理健康引导",
+      "emoji": "🧠",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-psychologist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-radiologist",
+      "name": "影像/放射科医师",
+      "description": "医学影像诊断与介入放射专家，覆盖X线/CT/MRI/超声影像判读、影像AI辅助诊断、介入放射治疗与辐射安全",
+      "emoji": "🩻",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-radiologist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-surgeon",
+      "name": "外科医师",
+      "description": "外科手术与围术期管理专家，覆盖术前评估/手术规划、开放/微创/机器人手术技术、术中并发症处理、术后管理与ERAS加速康复",
+      "emoji": "🔪",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-surgeon.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-tcm-practitioner",
+      "name": "中医药师",
+      "description": "中医诊断、方剂调配、针灸推拿与中西医结合咨询专家",
+      "emoji": "🍃",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-tcm-practitioner.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "healthcare-veterinarian",
+      "name": "宠物医生",
+      "description": "犬猫内科、外科手术、皮肤科与宠物预防医学专家",
+      "emoji": "🐾",
+      "category": "healthcare",
+      "subcategory": "",
+      "path": "healthcare/healthcare-veterinarian.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

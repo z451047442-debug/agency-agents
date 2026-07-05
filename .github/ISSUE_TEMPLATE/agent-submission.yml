@@ -1,0 +1,173 @@
+name: Agent Submission
+description: Submit a complete agent you've written and tested
+labels: ["agent-submission"]
+title: "[Agent Submission] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing an agent! Fill out the details below.
+        **Before submitting:** run `./scripts/lint-agents.sh path/to/your-agent.md` and fix any errors.
+
+  - type: input
+    id: agent-name
+    attributes:
+      label: Agent Display Name
+      description: The name that appears in tool selectors (1-120 chars)
+      placeholder: e.g. Database Performance Engineer
+    validations:
+      required: true
+
+  - type: input
+    id: emoji
+    attributes:
+      label: Emoji
+      description: A single emoji that represents this agent (1-8 chars)
+      placeholder: e.g. 🗄️
+    validations:
+      required: true
+
+  - type: input
+    id: color
+    attributes:
+      label: Color
+      description: A named CSS color or hex code
+      placeholder: e.g. blue or #3366FF
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category directory does this agent belong in?
+      options:
+        - administration
+        - aerospace
+        - agriculture
+        - automotive
+        - beauty
+        - construction
+        - customer-service
+        - cybersecurity
+        - data-science
+        - design
+        - education
+        - emergency
+        - energy
+        - engineering
+        - environmental
+        - events
+        - fashion
+        - finance
+        - food-beverage
+        - forestry
+        - game-development
+        - gis
+        - government
+        - healthcare
+        - hr
+        - hr-tech
+        - infrastructure
+        - insurance
+        - iot
+        - legal
+        - libraries
+        - localization
+        - logistics
+        - lottery
+        - manufacturing
+        - marketing
+        - media-entertainment
+        - mining
+        - museums
+        - network-engineering
+        - nonprofit
+        - operations
+        - pets
+        - pharma-biotech
+        - product
+        - project-management
+        - publishing
+        - quality
+        - real-estate
+        - retail
+        - robotics
+        - sales
+        - securities
+        - security
+        - spatial-computing
+        - specialized
+        - sports
+        - strategy
+        - telecom
+        - testing
+        - tourism
+        - web3
+        - new category (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: agent-content
+    attributes:
+      label: Agent Content
+      description: |
+        Paste the complete agent `.md` file content below. Must include:
+
+        **Frontmatter** (required):
+        - `name`, `description`, `emoji`, `color`
+
+        **Body sections** (recommended):
+        - Identity & Memory, Core Mission, Critical Rules, Deliverables, Workflow, Success Metrics
+      placeholder: |
+        ---
+        name: "Your Agent Name"
+        description: "What this agent does"
+        emoji: 🎯
+        color: cyan
+        ---
+
+        ## 🧠 Your Identity & Memory
+        ...
+      render: yaml
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why This Agent?
+      description: What gap does it fill? When would someone use it? (2-3 sentences)
+      placeholder: This agent fills the gap for...
+    validations:
+      required: true
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: How Did You Test It?
+      description: Describe real scenarios where you used this agent and the results.
+      placeholder: I tested this agent by...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-Submission Checklist
+      options:
+        - label: "Ran `./scripts/lint-agents.sh path/to/my-agent.md` — no errors"
+          required: true
+        - label: "Ran `./scripts/check-agent-originality.sh path/to/my-agent.md` — not a near-duplicate"
+          required: true
+        - label: "Ran `./scripts/generate-index.sh` to update AGENTS.json"
+          required: true
+        - label: "Agent has a distinct personality and voice (not generic)"
+          required: true
+        - label: "Agent includes at least 2 concrete code/template examples"
+          required: true
+        - label: "Agent defines specific, measurable success metrics"
+          required: true
+        - label: "Agent filename follows the convention: `<category>-<agent-name>.md`"
+          required: true

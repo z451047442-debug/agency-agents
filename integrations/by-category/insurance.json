@@ -1,0 +1,139 @@
+{
+  "category": "insurance",
+  "agent_count": 11,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "insurance-auto-claims",
+      "name": "车险理赔专员",
+      "description": "车险理赔专家，覆盖车辆损失评估、维修成本核算、全损鉴定、欺诈检测、第三方责任判定、代位求偿与数字化理赔（照片/视频查勘定损）",
+      "emoji": "🚗",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-auto-claims.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-broker",
+      "name": "保险经纪人",
+      "description": "保险经纪与风险管理顾问，为客户设计保险方案、询价议价、管理续保与理赔协助，代表投保人利益",
+      "emoji": "🤝",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-broker.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-claims-adjuster",
+      "name": "理赔专员",
+      "description": "保险理赔专家，覆盖财产险、责任险、货运险的事故调查、损失评估、保险责任判定与赔付协商",
+      "emoji": "📋",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-claims-adjuster.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-general-manager",
+      "name": "保险公司总经理",
+      "description": "保险公司/分支机构全面管理者，覆盖承保/理赔/精算/再保业务线、偿付能力管理、渠道/代理人管理与合规监管关系",
+      "emoji": "🏦",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-general-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "insurance-health-underwriter",
+      "name": "健康险核保师",
+      "description": "健康险核保专家，覆盖个人与团体健康险的医学核保指引、既往症评估、发病率风险评分、医疗成本趋势分析、再保止损评估与监管合规（ACA/医改）",
+      "emoji": "🏥",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-health-underwriter.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-insurtech",
+      "name": "保险科技专家",
+      "description": "保险科技专家，覆盖车联网/物联网的UBI保险、AI核保、区块链理赔结算、参数化保险产品、嵌入式保险（API优先）、数字分销平台、开放保险架构",
+      "emoji": "📱",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-insurtech.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-life-actuary",
+      "name": "寿险精算师",
+      "description": "寿险精算专家，覆盖死亡率表构建、定期/终身/万能寿险定价、准备金评估(statutory/GAAP/IFRS 17)、经验分析、再保险优化、资产负债匹配、保单持有人行为建模",
+      "emoji": "⚰️",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-life-actuary.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-reinsurance-broker",
+      "name": "再保险经纪人",
+      "description": "再保险经纪人，覆盖合约与临时分保排分、巨灾建模(RMS/AIR)、转分保策略、劳合社/百慕大/欧洲市场容量谈判、ILS与巨灾债券结构化设计、再保险应收款管理",
+      "emoji": "🌪️",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-reinsurance-broker.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-reinsurance-specialist",
+      "name": "再保险专家",
+      "description": "再保险与风险转移专家，覆盖合约再保、临时分保、巨灾建模、转分保与再保险方案结构设计",
+      "emoji": "🔄",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-reinsurance-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-risk-surveyor",
+      "name": "风险查勘师",
+      "description": "保险风险查勘与防灾防损专家，通过现场勘查识别风险隐患、评估安全措施、提出整改建议并降低赔付率",
+      "emoji": "🏗️",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-risk-surveyor.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "insurance-underwriter",
+      "name": "核保员",
+      "description": "保险核保专家，覆盖财产险、责任险、意外险的风险评估、条款定制、费率厘定与承保决策",
+      "emoji": "🔍",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-underwriter.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

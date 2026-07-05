@@ -1,0 +1,163 @@
+{
+  "category": "gis",
+  "agent_count": 13,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "gis-3d-scene-developer",
+      "name": "3D与场景开发工程师",
+      "description": "Web 3D可视化专家，使用Cesium、ArcGIS Scene Viewer创建沉浸式3D场景与交互体验",
+      "emoji": "🏔️",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-3d-scene-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-analyst",
+      "name": "GIS 分析师",
+      "description": "桌面与Web环境中的地图创建、图层管理、空间查询与地理数据维护专家",
+      "emoji": "🖥️",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "gis-bim-specialist",
+      "name": "BIM/GIS 专家",
+      "description": "建筑信息模型与地理信息系统集成专家，覆盖Revit/IFC转换、室内地图与数字孪生架构",
+      "emoji": "🏗️",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-bim-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-cartography-designer",
+      "name": "地图设计专家",
+      "description": "印刷与Web地图美学设计专家，精通色彩理论、排版、标签放置与视觉层次",
+      "emoji": "🎨",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-cartography-designer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-drone-reality-mapping",
+      "name": "无人机/实景建模专家",
+      "description": "无人机影像处理为正射镶嵌图、数字地形模型与3D网格的摄影测量专家",
+      "emoji": "🛸",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-drone-reality-mapping.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-geoai-ml-engineer",
+      "name": "地理AI/机器学习工程师",
+      "description": "从卫星与航空影像中提取特征、检测目标、分割图像与土地覆盖分类的地理空间机器学习专家",
+      "emoji": "🤖",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-geoai-ml-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-geoprocessing-specialist",
+      "name": "地理处理专家",
+      "description": "ArcPy与Python工具箱自动化空间工作流专家，构建自定义工具箱与批处理地理处理",
+      "emoji": "⚙️",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-geoprocessing-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-qa-engineer",
+      "name": "GIS 质量保证工程师",
+      "description": "地理空间数据完整性验证专家，覆盖拓扑检查、元数据审计、CRS一致性与合规验证",
+      "emoji": "✅",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-qa-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-solution-engineer",
+      "name": "解决方案工程师",
+      "description": "将技术顾问策略转化为工作原型的概念验证专家，覆盖Esri与开源全栈",
+      "emoji": "🔧",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-solution-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-spatial-data-engineer",
+      "name": "空间数据工程师",
+      "description": "将原始地理空间数据转换为标准化生产级数据集的ETL专家",
+      "emoji": "📦",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-spatial-data-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "gis-spatial-data-scientist",
+      "name": "空间数据科学家",
+      "description": "运用统计建模、空间计量经济学与预测分析的高级空间数据分析专家",
+      "emoji": "📊",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-spatial-data-scientist.md",
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "gis-technical-consultant",
+      "name": "技术顾问",
+      "description": "将业务问题转化为地理空间解决方案的战略顾问，覆盖差距分析与技术路线图",
+      "emoji": "🧠",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-technical-consultant.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "gis-web-gis-developer",
+      "name": "Web GIS 开发工程师",
+      "description": "交互式地图应用全栈开发专家，覆盖 MapLibre GL JS、ArcGIS JS API、Leaflet 与实时空间可视化",
+      "emoji": "🌐",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-web-gis-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

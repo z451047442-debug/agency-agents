@@ -1,0 +1,55 @@
+{
+  "category": "sports",
+  "agent_count": 4,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "sports-agent",
+      "name": "运动员经纪人",
+      "description": "合同谈判（薪资/奖金/代言）、品牌合作开发、运动员公关与危机管理、职业转型规划、选秀准备策略、财务顾问协调、法律代理管理",
+      "emoji": "💰",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-agent.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sports-coach",
+      "name": "体育教练",
+      "description": "运动员发展计划、技术分析、训练周期化、比赛策略、伤病预防协调、运动心理学基础、视频分析表现评估、团队动力学与领导力",
+      "emoji": "🏅",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-coach.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sports-event-ops",
+      "name": "赛事运营经理",
+      "description": "赛事物流与场馆管理、票务与观赛体验、转播与媒体协调、赞助商激活管理、安保与人群管控规划、志愿者管理、赛后分析",
+      "emoji": "🏟️",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-event-ops.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sports-marketing",
+      "name": "体育营销专员",
+      "description": "赞助估值与包装、运动员品牌大使计划、体育内容营销、粉丝互动策略、电竞与游戏营销、运动服饰联名、赛事活动激活专家",
+      "emoji": "📣",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-marketing.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

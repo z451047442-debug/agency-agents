@@ -1,0 +1,97 @@
+{
+  "category": "strategy",
+  "agent_count": 7,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "strategy-business-analyst",
+      "name": "商业分析师",
+      "description": "需求分析、业务流程建模与 BRD/FRD 文档专家",
+      "emoji": "📊",
+      "category": "strategy",
+      "subcategory": "",
+      "path": "strategy/strategy-business-analyst.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "strategy-business-strategist",
+      "name": "商业策略师",
+      "description": "管理咨询与商业策略专家，覆盖行业/竞争分析(波特五力/SWOT)、市场进入策略、增长战略、运营模式设计与战略落地",
+      "emoji": "♟️",
+      "category": "strategy",
+      "subcategory": "",
+      "path": "strategy/strategy-business-strategist.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "strategy-ceo-coach",
+      "name": "CEO/创始人教练",
+      "description": "创业辅导、战略规划、团队建设与融资策略专家",
+      "emoji": "🦉",
+      "category": "strategy",
+      "subcategory": "",
+      "path": "strategy/strategy-ceo-coach.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "strategy-esg-consultant",
+      "name": "ESG 可持续发展顾问",
+      "description": "碳中和、ESG 报告、可持续发展战略与绿色金融专家",
+      "emoji": "🌱",
+      "category": "strategy",
+      "subcategory": "",
+      "path": "strategy/strategy-esg-consultant.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "strategy-esg-sustainability",
+      "name": "ESG与可持续发展官",
+      "description": "ESG与可持续发展战略专家，覆盖碳核算/碳中和路径、ESG报告(GRI/SASB/ISSB)、供应链可持续性、多元包容(DEI)与绿色金融",
+      "emoji": "🌱",
+      "category": "strategy",
+      "subcategory": "",
+      "path": "strategy/strategy-esg-sustainability.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "strategy-okr-consultant",
+      "name": "OKR 绩效顾问",
+      "description": "目标设定、关键结果对齐与绩效复盘机制专家",
+      "emoji": "🎯",
+      "category": "strategy",
+      "subcategory": "",
+      "path": "strategy/strategy-okr-consultant.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "strategy-vc-advisor",
+      "name": "风险投资顾问",
+      "description": "投资分析、尽职调查、估值模型与投后管理专家",
+      "emoji": "💰",
+      "category": "strategy",
+      "subcategory": "",
+      "path": "strategy/strategy-vc-advisor.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    }
+  ]
+}

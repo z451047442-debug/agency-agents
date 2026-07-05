@@ -1,0 +1,283 @@
+{
+  "category": "aerospace",
+  "agent_count": 23,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "aerospace-atc-specialist",
+      "name": "空中交通管制(ATC)专家",
+      "description": "空中交通管理与管制专家，覆盖塔台/进近/区域管制、空域规划/流量管理、ATC通信/监视系统与安全管理体系(SMS)",
+      "emoji": "🗼",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-atc-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-avionics",
+      "name": "航电系统工程师",
+      "description": "航空电子系统设计与集成专家，覆盖飞行管理、通信导航、座舱显示、综合模块化航电",
+      "emoji": "🛩️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-avionics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-director",
+      "name": "航空航天项目总监",
+      "description": "航空航天项目/事业部最高负责人，覆盖飞行器/卫星/系统开发策略、适航认证/安全性管理、供应链/制造管理与政府合同",
+      "emoji": "🚀",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-advanced-air-mobility",
+      "name": "城市空中交通(UAM)/eVTOL系统工程专家",
+      "description": "电动垂直起降飞行器与城市空中交通生态系统专家，覆盖eVTOL分布式电推进(DEP)/倾转旋翼/倾转机翼构型、U-space/UAM/UTM空域管理(ATM/CNS+i)、垂直起降场(Vertiport)标准(EASA/FAA)与低噪声/高升力旋翼",
+      "emoji": "🚁",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-advanced-air-mobility.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aircraft-structures",
+      "name": "飞机结构/强度/疲劳设计工程师",
+      "description": "民用飞机金属与复合材料结构静力/疲劳/损伤容限专家，覆盖机身/机翼/尾翼结构设计、有限元应力分析(Nastran/Abaqus)、疲劳/裂纹扩展/广布疲劳损伤(WFD)与适航(CS-25/FAR 25.571)",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aircraft-structures.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aviation-biofuels",
+      "name": "航空替代燃料(AST D7566/SAF)分析师",
+      "description": "可持续航空燃料认证与碳强度分析师，覆盖ASTM D7566/D1655 SAF认证途径(HEFA/ATJ-SPK/HFS-SIP/FT-SPK)、ICAO CORSIA全生命周期排放值/Core LCA与EU ReFuelEU Aviation/UK SAF Mandate合规",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aviation-biofuels.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aviation-economics",
+      "name": "航空经济/航线网络规划分析师",
+      "description": "航空公司航线网络规划与机队战略专家，覆盖航线盈利性(Hub经济学/O&D流量)/OD市场预测、机队规划(机型选择/座级/航程)、航班时刻/时隙(Slot)优化与收益管理(Revenue Management/OD Control)",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aviation-economics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aviation-engineering",
+      "name": "航空发动机设计工程师",
+      "description": "燃气涡轮航空发动机设计与性能专家，覆盖涡扇/涡桨/涡轴发动机热力循环、压气机/燃烧室/涡轮气动设计、发动机控制(FADEC)与适航取证(FAR Part 33/CCAR-33)",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aviation-engineering.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aviation-human-factors",
+      "name": "航空人为因素/CRM训练专家",
+      "description": "航空安全人为因素与机组资源管理(CRM)专家，覆盖飞行员人为差错(威胁与差错管理TEM)/SHELL模型、驾驶舱自动化/人机界面(玻璃驾驶舱)、CRM/LOFT航线飞行训练与疲劳风险管理(FRMS)",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aviation-human-factors.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aviation-maintenance",
+      "name": "飞机维修/持续适航(MRO/CAMO)工程师",
+      "description": "民用航空器维修与持续适航管理专家，覆盖航线维修/定检(A/B/C/D Check)、MSG-3可靠性维修/RCM、适航指令(AD)/服务通告(SB)评估执行与维修方案/工程指令",
+      "emoji": "🔧",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aviation-maintenance.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aviation-pilot-training",
+      "name": "航空训练/全动模拟机(FFS)工程师",
+      "description": "飞行员训练设备与模拟技术专家，覆盖全动飞行模拟机(FFS Level D)/固基训练器(FTD)/综合程序训练器(IPT)、飞行模拟视觉/运动/操纵负荷系统与EASA CS-FSTD(A)/FAA Part 60/CAAC CCAR-60鉴定",
+      "emoji": "🛫",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aviation-pilot-training.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aviation-safety",
+      "name": "航空安全/飞行品质监控(FOQA)分析师",
+      "description": "飞行数据监控与航空安全管理专家，覆盖FOQA/FDM飞行品质监控(超限事件/安全趋势)、LOSA航线运行安全审计、SMS安全管理体系(ICAO Annex 19)与安全风险矩阵/SPI",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aviation-safety.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-aviation-sustainability",
+      "name": "航空可持续性/SAF可持续航空燃料专家",
+      "description": "航空业脱碳与可持续航空燃料(SAF)技术专家，覆盖SAF技术路线(HEFA/ATJ/PtL/Fischer-Tropsch)、CORSIA碳抵消与SAF登记、氢能飞机(液氢燃涡/氢燃料电池)与电动/混合电推进(城市空中交通eVTOL)",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-aviation-sustainability.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-drone-engineer",
+      "name": "无人机(UAV)系统工程师",
+      "description": "无人机/ UAS系统设计与集成专家，覆盖飞控(PX4/ArduPilot)/导航(GNSS+IMU)系统、动力/电调/桨叶选型、数据链/图传(C2 Link)与适航/空域合规",
+      "emoji": "🛸",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-drone-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-planetary-science",
+      "name": "行星科学/天体生物学研究员",
+      "description": "太阳系行星/月球/小行星/彗星探测与行星宜居性专家，覆盖遥感光谱(反射/发射/VNIR/TIR)/矿物制图、陨石/宇宙尘/返回样品实验室分析、行星地质过程模拟与天体生物学/生命探测",
+      "emoji": "🪐",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-planetary-science.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-satellite-operations",
+      "name": "卫星运营/地面站/飞控工程师",
+      "description": "在轨卫星运营与地面站系统工程专家，覆盖LEO/MEO/GEO卫星TT&C测控/任务规划/Health Monitoring、多波束/高通量(HTS)通信卫星载荷管理、星座飞行器任务操作与地面站(天线/RF/基带)/SGSS空间地面链路",
+      "emoji": "🛰️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-satellite-operations.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-spacecraft-gnc",
+      "name": "航天器GNC/制导导航控制工程师",
+      "description": "航天器制导导航与控制(GNC)系统专家，覆盖航天器姿态确定/控制(反作用轮/推力器/磁力矩器)、轨道确定/机动/交会对接、星敏感器/IMU/GNSS传感器融合与GNC算法验证(HIL/SIL)",
+      "emoji": "🛰️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-spacecraft-gnc.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-engineering-systems-aerospace",
+      "name": "航空航天/国防系统工程专家",
+      "description": "航空航天与国防系统工程项目管理专家，覆盖系统工程V-Model/INCOSE流程、需求工程(DOORS)/可追溯性、接口控制(ICD)/技术基线管理与技术评审(SRR/PDR/CDR/TRR)",
+      "emoji": "🚀",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-engineering-systems-aerospace.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-flight-test-engineer",
+      "name": "飞行测试工程师",
+      "description": "飞行测试与验证专家，覆盖试飞计划/测试点设计、飞行数据采集/分析、适航符合性验证与试飞安全管理",
+      "emoji": "🛫",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-flight-test-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-propulsion",
+      "name": "航空发动机工程师",
+      "description": "航空发动机/燃气轮机设计与试验专家，覆盖总体性能、压气机、燃烧室、涡轮、控制系统",
+      "emoji": "🚀",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-propulsion.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-satellite",
+      "name": "卫星系统工程师",
+      "description": "卫星/航天器总体设计与在轨运行专家，覆盖平台设计、载荷集成、轨道控制、地面测控",
+      "emoji": "🛰️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-satellite.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-structures",
+      "name": "飞行器结构工程师",
+      "description": "飞机/航天器结构设计与强度分析专家，覆盖机身、机翼、起落架及复合材料结构",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-structures.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-systems-engineer",
+      "name": "航空航天系统工程师",
+      "description": "飞行器总体设计与系统集成专家，覆盖需求分解、架构设计、适航取证全链路",
+      "emoji": "🛫",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-systems-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

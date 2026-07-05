@@ -1,0 +1,315 @@
+{
+  "_note": "Source of truth for the agent division set. Each division maps to a top-level agent directory containing .md files with YAML frontmatter. Consumed by the Agency Agents app and catalog tooling. scripts/check-divisions.sh (CI: check-divisions.yml) fails the build if this list disagrees with the directories on disk. To add a division: create its directory with at least one frontmatter agent file, add an entry here, then run scripts/check-divisions.sh and update wherever it points. NOT every top-level directory is a division: integrations/ holds per-tool conversion OUTPUTS (not source agents); docs/ and examples/ are excluded via NON_DIVISION_DIRS in check-divisions.sh.",
+  "divisions": {
+    "administration": {
+      "label": "Administration",
+      "icon": "FileText",
+      "color": "#6B7280"
+    },
+    "aerospace": {
+      "label": "Aerospace",
+      "icon": "Rocket",
+      "color": "#6366F1"
+    },
+    "agriculture": {
+      "label": "Agriculture",
+      "icon": "Wheat",
+      "color": "#22C55E"
+    },
+    "automotive": {
+      "label": "Automotive",
+      "icon": "Car",
+      "color": "#3B82F6"
+    },
+    "beauty": {
+      "label": "Beauty",
+      "icon": "Sparkles",
+      "color": "#EC4899"
+    },
+    "construction": {
+      "label": "Construction",
+      "icon": "HardHat",
+      "color": "#F59E0B"
+    },
+    "customer-service": {
+      "label": "Customer Service",
+      "icon": "Headphones",
+      "color": "#84CC16"
+    },
+    "cybersecurity": {
+      "label": "Cybersecurity",
+      "icon": "ShieldAlert",
+      "color": "#DC2626"
+    },
+    "data-science": {
+      "label": "Data Science",
+      "icon": "BarChart3",
+      "color": "#8B5CF6"
+    },
+    "design": {
+      "label": "Design",
+      "icon": "PenTool",
+      "color": "#EC4899"
+    },
+    "education": {
+      "label": "Education",
+      "icon": "GraduationCap",
+      "color": "#8B5CF6"
+    },
+    "emergency": {
+      "label": "Emergency",
+      "icon": "Siren",
+      "color": "#EF4444"
+    },
+    "energy": {
+      "label": "Energy",
+      "icon": "Zap",
+      "color": "#EAB308"
+    },
+    "engineering": {
+      "label": "Engineering",
+      "icon": "Code",
+      "color": "#3B82F6"
+    },
+    "environmental": {
+      "label": "Environmental",
+      "icon": "Leaf",
+      "color": "#22C55E"
+    },
+    "events": {
+      "label": "Events",
+      "icon": "CalendarDays",
+      "color": "#F97316"
+    },
+    "fashion": {
+      "label": "Fashion",
+      "icon": "Shirt",
+      "color": "#EC4899"
+    },
+    "finance": {
+      "label": "Finance",
+      "icon": "DollarSign",
+      "color": "#22C55E"
+    },
+    "food-beverage": {
+      "label": "Food Beverage",
+      "icon": "UtensilsCrossed",
+      "color": "#F97316"
+    },
+    "forestry": {
+      "label": "Forestry",
+      "icon": "Trees",
+      "color": "#22C55E"
+    },
+    "game-development": {
+      "label": "Game Development",
+      "icon": "Gamepad2",
+      "color": "#A855F7"
+    },
+    "gis": {
+      "label": "GIS",
+      "icon": "Map",
+      "color": "#14B8A6"
+    },
+    "government": {
+      "label": "Government",
+      "icon": "Landmark",
+      "color": "#78716C"
+    },
+    "healthcare": {
+      "label": "Healthcare",
+      "icon": "HeartPulse",
+      "color": "#EF4444"
+    },
+    "hr": {
+      "label": "Hr",
+      "icon": "Users",
+      "color": "#22C55E"
+    },
+    "hr-tech": {
+      "label": "Hr Tech",
+      "icon": "MonitorCheck",
+      "color": "#22C55E"
+    },
+    "infrastructure": {
+      "label": "Infrastructure",
+      "icon": "Server",
+      "color": "#3B82F6"
+    },
+    "insurance": {
+      "label": "Insurance",
+      "icon": "Umbrella",
+      "color": "#3B82F6"
+    },
+    "iot": {
+      "label": "Iot",
+      "icon": "Cpu",
+      "color": "#0EA5E9"
+    },
+    "legal": {
+      "label": "Legal",
+      "icon": "Scale",
+      "color": "#78716C"
+    },
+    "libraries": {
+      "label": "Libraries",
+      "icon": "LibraryBig",
+      "color": "#8B5CF6"
+    },
+    "localization": {
+      "label": "Localization",
+      "icon": "Languages",
+      "color": "#22C55E"
+    },
+    "logistics": {
+      "label": "Logistics",
+      "icon": "Truck",
+      "color": "#14B8A6"
+    },
+    "lottery": {
+      "label": "Lottery",
+      "icon": "Ticket",
+      "color": "#EAB308"
+    },
+    "manufacturing": {
+      "label": "Manufacturing",
+      "icon": "Factory",
+      "color": "#F97316"
+    },
+    "marketing": {
+      "label": "Marketing",
+      "icon": "Megaphone",
+      "color": "#F97316"
+    },
+    "media-entertainment": {
+      "label": "Media Entertainment",
+      "icon": "Film",
+      "color": "#EC4899"
+    },
+    "mining": {
+      "label": "Mining",
+      "icon": "Pickaxe",
+      "color": "#78716C"
+    },
+    "museums": {
+      "label": "Museums",
+      "icon": "Building2",
+      "color": "#78716C"
+    },
+    "network-engineering": {
+      "label": "Network Engineering",
+      "icon": "Network",
+      "color": "#0EA5E9"
+    },
+    "nonprofit": {
+      "label": "Nonprofit",
+      "icon": "Heart",
+      "color": "#EF4444"
+    },
+    "operations": {
+      "label": "Operations",
+      "icon": "Cog",
+      "color": "#6B7280"
+    },
+    "pets": {
+      "label": "Pets",
+      "icon": "PawPrint",
+      "color": "#F97316"
+    },
+    "pharma-biotech": {
+      "label": "Pharma Biotech",
+      "icon": "Microscope",
+      "color": "#06B6D4"
+    },
+    "product": {
+      "label": "Product",
+      "icon": "Box",
+      "color": "#D946EF"
+    },
+    "project-management": {
+      "label": "Project Management",
+      "icon": "ClipboardList",
+      "color": "#0EA5E9"
+    },
+    "publishing": {
+      "label": "Publishing",
+      "icon": "BookOpen",
+      "color": "#8B5CF6"
+    },
+    "quality": {
+      "label": "Quality",
+      "icon": "ClipboardCheck",
+      "color": "#F59E0B"
+    },
+    "real-estate": {
+      "label": "Real Estate",
+      "icon": "Building",
+      "color": "#78350F"
+    },
+    "retail": {
+      "label": "Retail",
+      "icon": "ShoppingBag",
+      "color": "#F97316"
+    },
+    "robotics": {
+      "label": "Robotics",
+      "icon": "Bot",
+      "color": "#6B7280"
+    },
+    "sales": {
+      "label": "Sales",
+      "icon": "TrendingUp",
+      "color": "#10B981"
+    },
+    "securities": {
+      "label": "Securities",
+      "icon": "TrendingUp",
+      "color": "#10B981"
+    },
+    "security": {
+      "label": "Security",
+      "icon": "ShieldCheck",
+      "color": "#EF4444"
+    },
+    "spatial-computing": {
+      "label": "Spatial Computing",
+      "icon": "Boxes",
+      "color": "#06B6D4"
+    },
+    "specialized": {
+      "label": "Specialized",
+      "icon": "Sparkles",
+      "color": "#6366F1"
+    },
+    "sports": {
+      "label": "Sports",
+      "icon": "Trophy",
+      "color": "#F97316"
+    },
+    "strategy": {
+      "label": "Strategy",
+      "icon": "Lightbulb",
+      "color": "#EAB308"
+    },
+    "telecom": {
+      "label": "Telecom",
+      "icon": "Radio",
+      "color": "#6366F1"
+    },
+    "testing": {
+      "label": "Testing",
+      "icon": "FlaskConical",
+      "color": "#F59E0B"
+    },
+    "tourism": {
+      "label": "Tourism",
+      "icon": "Plane",
+      "color": "#06B6D4"
+    },
+    "web3": {
+      "label": "Web3",
+      "icon": "Bitcoin",
+      "color": "#A855F7"
+    }
+  }
+}

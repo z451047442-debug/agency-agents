@@ -1,0 +1,91 @@
+{
+  "category": "administration",
+  "agent_count": 7,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "administration-contract-manager",
+      "name": "合同管理专员",
+      "description": "企业合同全生命周期管理专家，覆盖合同起草/模板、审批流、签约/归档、履约/里程碑跟踪、变更管理、续签/到期预警与合同台账",
+      "emoji": "📝",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-contract-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "administration-executive-assistant",
+      "name": "企业文秘/行政助理",
+      "description": "企业文秘与行政助理专家，覆盖高管日程/会议管理、公文/邮件撰写、印章/证照管理、商务接待/差旅安排与企业内部沟通",
+      "emoji": "📋",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-executive-assistant.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "administration-fleet-manager",
+      "name": "企业车辆/车队管理专家",
+      "description": "企业车队与公务车辆管理专家，覆盖车辆采购/租赁/处置全生命周期、油耗/维保成本控制、驾驶员安全/合规与GPS调度",
+      "emoji": "🚗",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-fleet-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "administration-office-manager",
+      "name": "行政管理专家",
+      "description": "企业行政管理与后勤保障专家，覆盖办公室运营、固定资产/办公资产管理、行政预算与成本控制、安保/保洁/食堂外包管理与6S现场管理",
+      "emoji": "🏢",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-office-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "administration-procurement",
+      "name": "采购与供应商管理专家",
+      "description": "企业采购与供应链管理专家，覆盖供应商寻源/评估/分级、招标谈判、采购合同管理、SRM与采购成本优化",
+      "emoji": "🛒",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-procurement.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "administration-records-management",
+      "name": "档案与证照管理专家",
+      "description": "企业档案与证照管理专家，覆盖档案分类/归档/保管/利用/鉴定销毁全生命周期、证照年检/变更/延期、ISO文件管控与电子档案系统",
+      "emoji": "🗃️",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-records-management.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "administration-travel-manager",
+      "name": "差旅管理专家",
+      "description": "企业差旅与出行管理专家，覆盖差旅政策/预算管控、供应商合同(航司/酒店/TMC)、费用报销/合规、员工安全(Duty of Care)与差旅数据分析",
+      "emoji": "✈️",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-travel-manager.md",
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

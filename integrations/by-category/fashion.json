@@ -1,0 +1,55 @@
+{
+  "category": "fashion",
+  "agent_count": 4,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "fashion-brand-manager",
+      "name": "时尚品牌经理",
+      "description": "品牌定位与DNA管理、季节活动策划、影响者与明星合作、时装秀与活动制作、数字与社交媒体运营、奢侈品与大众市场品牌策略、联名合作与胶囊系列",
+      "emoji": "✨",
+      "category": "fashion",
+      "subcategory": "",
+      "path": "fashion/fashion-brand-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "fashion-designer",
+      "name": "时装设计师",
+      "description": "季节性系列概念开发、面辅料采购、制版与立裁、技术规格（工艺单）制作、试身与样衣评审、趋势预测整合、可持续设计实践专家",
+      "emoji": "👗",
+      "category": "fashion",
+      "subcategory": "",
+      "path": "fashion/fashion-designer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "fashion-merchandiser",
+      "name": "服装买手/商品企划",
+      "description": "商品企划、OTB管理、趋势分析、采购谈判、SKU优化、定价与折扣策略、售罄分析与库存流转优化专家",
+      "emoji": "🛒",
+      "category": "fashion",
+      "subcategory": "",
+      "path": "fashion/fashion-merchandiser.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "fashion-sustainability",
+      "name": "可持续时尚顾问",
+      "description": "循环时尚策略（转售/租赁/维修）、可持续材料采购（有机/再生/再生农业）、供应链透明与可追溯、碳足迹减少、劳工伦理合规、绿色洗刷识别、B Corp 与可持续发展认证",
+      "emoji": "♻️",
+      "category": "fashion",
+      "subcategory": "",
+      "path": "fashion/fashion-sustainability.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

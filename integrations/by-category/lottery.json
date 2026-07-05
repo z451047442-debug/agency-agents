@@ -1,0 +1,127 @@
+{
+  "category": "lottery",
+  "agent_count": 10,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "lottery-customer-service",
+      "name": "彩票客服与兑奖管理专家",
+      "description": "彩票客户服务与奖金兑付专家，覆盖彩民咨询/投诉处理、大奖兑付流程/身份验证/税务处理、问题彩民识别/干预与客服团队管理",
+      "emoji": "🎫",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-customer-service.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-data-analyst",
+      "name": "彩票数据分析师",
+      "description": "彩票数据深度分析：历史号码统计、冷热号趋势、概率建模、返奖率分析、彩民行为研究",
+      "emoji": "🎰",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-data-analyst.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-game-designer",
+      "name": "彩票游戏设计师",
+      "description": "彩票游戏数学与奖级结构设计、摇奖游戏与即开票设计、头奖与赔率建模、游戏组合策略、责任博彩特性、玩家行为与偏好研究、监管申报与游戏认证",
+      "emoji": "🎰",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-game-designer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-marketing",
+      "name": "彩票营销与渠道推广专家",
+      "description": "彩票市场营销与渠道推广专家，覆盖彩票品牌/公益形象传播、新彩民获客/老彩民留存、投注站营销物料/促销活动与责任博彩宣传",
+      "emoji": "📢",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-marketing.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-operations",
+      "name": "彩票运营专家",
+      "description": "彩票零售与渠道运营专家，覆盖投注站选址/运营管理、彩民营销/会员体系、即开票/竞彩/乐透渠道策略与合规销售",
+      "emoji": "🎫",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-operations.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-product-designer",
+      "name": "彩票产品设计师",
+      "description": "彩票游戏设计：玩法机制设计、奖级结构、赔率计算、用户体验、合规审查",
+      "emoji": "🎲",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-product-designer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-product-risk",
+      "name": "彩票产品与风控专家",
+      "description": "彩票游戏设计与风险管理专家，覆盖游戏机制/赔率设计、奖池资金管理、风险控制(限额/限号)、返奖率测算与监管合规",
+      "emoji": "🎲",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-product-risk.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-retail-network",
+      "name": "彩票零售网络管理专家",
+      "description": "彩票零售网络管理专家，覆盖零售商招募与入驻、终端与POS部署、零售商培训与绩效管理、佣金与激励结构、零售陈列与店内激活、零售商合规监控、新零售渠道拓展（数字/自助终端）",
+      "emoji": "🏪",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-retail-network.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-risk-compliance",
+      "name": "彩票风控合规官",
+      "description": "彩票风控合规专家：反洗钱AML/KYC运营、游戏公正性与反欺诈控制、责任博彩项目管理、监管报告与审计、数据安全与隐私合规、供应商尽职调查、内部威胁防范",
+      "emoji": "🛡️",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-risk-compliance.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-risk-manager",
+      "name": "博彩风控专家",
+      "description": "博彩风控与合规：反洗钱AML、异常投注检测、风险限额管理、责任博彩、监管合规",
+      "emoji": "🛡️",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-risk-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "category": "media-entertainment",
+  "agent_count": 24,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "media-entertainment-3ds-max-expert",
+      "name": "Autodesk 3ds Max专家",
+      "description": "Autodesk 3ds Max三维建模/渲染/动画专家，覆盖硬表面/建筑可视化建模、V-Ray/Arnold/Corona渲染、粒子系统/流体模拟、角色绑定/动画、MAXScript自动化与游戏资产导出",
+      "emoji": "🏗️",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-3ds-max-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-acrobat-expert",
+      "name": "Adobe Acrobat/PDF专家",
+      "description": "Adobe Acrobat与PDF文档工程专家，覆盖PDF创建/优化/压缩、交互式表单设计、数字签名/认证工作流、无障碍PDF(PDF/UA)、印前检查/预检与文档安全/权限管理",
+      "emoji": "📄",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-acrobat-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-after-effects-expert",
+      "name": "Adobe After Effects专家",
+      "description": "Adobe After Effects动态图形与视觉特效专家，覆盖2D/3D合成、运动图形(MoGraph)、表达式驱动动画、粒子系统、绿幕抠像/跟踪/稳定、Cinema 4D集成与渲染优化",
+      "emoji": "🎬",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-after-effects-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-autocad-expert",
+      "name": "AutoCAD专家",
+      "description": "AutoCAD二维/三维CAD设计专家，覆盖建筑/机械/电气制图、动态块/属性提取、AutoLISP/脚本自动化、图纸集(Sheet Set)/外部参照(Xref)管理、三维建模与渲染",
+      "emoji": "📐",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-autocad-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-creative-3d-modeler",
+      "name": "3D 建模师",
+      "description": "Blender/Maya/3ds Max、材质纹理、渲染管线、数字资产 — 从概念到成品，全流程三维创作",
+      "emoji": "🎨",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-creative-3d-modeler.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-creative-animator-vfx",
+      "name": "动画/视觉特效(VFX)师",
+      "description": "3D动画与视觉特效专家，覆盖角色动画/绑定、粒子/刚体/流体/布料模拟、合成(Nuke/After Effects)、Motion Capture与实时渲染特效",
+      "emoji": "✨",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-creative-animator-vfx.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-creative-music-producer",
+      "name": "音乐制作人",
+      "description": "作曲编曲、混音母带、DAW/Ableton/Logic、音效设计 — 从灵感到成品，全流程音乐制作",
+      "emoji": "🎵",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-creative-music-producer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-creative-photographer",
+      "name": "摄影师",
+      "description": "构图布光、人像/风光/产品摄影、后期Lightroom/PS — 从拍摄到后期，用镜头讲述故事",
+      "emoji": "📷",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-creative-photographer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-creative-sound-designer",
+      "name": "音效与声音设计师",
+      "description": "声音设计与音频后期专家，覆盖音效设计、拟音(Foley)、环境音场、混音母带、游戏音频与影视配乐",
+      "emoji": "🎧",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-creative-sound-designer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-creative-videographer",
+      "name": "摄像师/视频制作人",
+      "description": "视频拍摄与制作专家，覆盖摄影构图、灯光布光、现场收音、后期剪辑、调色与多平台输出",
+      "emoji": "🎥",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-creative-videographer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-engineering-audio-dsp-signal",
+      "name": "音频DSP/音频算法工程师",
+      "description": "实时音频数字信号处理与音频算法专家，覆盖FIR/IIR滤波器设计/自适应滤波(LMS/NLMS)、音频编解码器(Opus/AAC/LC3)算法、波束形成/盲源分离与音频效果器(混响/压缩/EQ)",
+      "emoji": "🎵",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-engineering-audio-dsp-signal.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-engineering-audio-engineer",
+      "name": "音频/声学工程师",
+      "description": "音频处理与声学工程专家，覆盖音频DSP/降噪/回声消除、语音增强/语音识别前处理、空间音频/3D Audio与音频编解码(Opus/AAC/LDAC)",
+      "emoji": "🎧",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-engineering-audio-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-engineering-entertainment-technology",
+      "name": "演艺技术/舞台灯光音响工程师",
+      "description": "大型演出与主题娱乐技术系统工程师，覆盖舞台机械/威亚/转台/升降台、专业灯光(Moving Light/LED/Media Server)/数字调音台/线阵列音响、演出控制(Show Control/MIDI/Timecode)与临时结构安全",
+      "emoji": "🎪",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-engineering-entertainment-technology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-engineering-music-technology",
+      "name": "音乐科技/音乐信息检索(MIR)研究员",
+      "description": "音乐信息检索与AI音乐生成专家，覆盖音乐特征提取(节拍/调性/和弦/结构)、音乐推荐/相似度/自动标注、AI音乐生成(Suno/Udio/MusicLM)与数字信号处理",
+      "emoji": "🎵",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-engineering-music-technology.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-engineering-video-streaming",
+      "name": "视频流/直播技术工程师",
+      "description": "视频流媒体与直播技术专家，覆盖RTMP/HLS/WebRTC流媒体协议、编解码(H.264/H.265/AV1)、CDN视频分发、低延迟直播与视频处理管道(FFmpeg/GStreamer)",
+      "emoji": "🎥",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-engineering-video-streaming.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-fusion-expert",
+      "name": "Autodesk Fusion专家",
+      "description": "Autodesk Fusion产品设计与制造专家，覆盖参数化实体建模/自由曲面(T-Spline)、装配/运动仿真、CAM刀具路径/增材制造、云协作(Team Hub)/版本管理与电子设计(PCB)集成",
+      "emoji": "⚙️",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-fusion-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-illustrator-expert",
+      "name": "Adobe Illustrator专家",
+      "description": "Adobe Illustrator矢量设计专家，覆盖品牌标识/Logo设计、插画创作、排版/字体设计、包装设计、信息图表/数据可视化、印刷准备与网页/SVG输出",
+      "emoji": "✏️",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-illustrator-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-indesign-expert",
+      "name": "Adobe InDesign专家",
+      "description": "Adobe InDesign排版与出版专家，覆盖书籍/杂志/宣传册排版、长篇文档自动化(Data Merge/GREP样式)、母版页/样式体系、交互式PDF/EPUB数字出版与印刷生产",
+      "emoji": "📖",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-indesign-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-lightroom-expert",
+      "name": "Adobe Lightroom专家",
+      "description": "Adobe Lightroom照片管理与后期处理专家，覆盖RAW处理/批量调色、目录管理/关键词标注、预设开发/LUT应用、HDR/全景合成、云同步(Lightroom Cloud)与作品集输出",
+      "emoji": "📸",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-lightroom-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-maya-expert",
+      "name": "Autodesk Maya专家",
+      "description": "Autodesk Maya三维动画与视觉效果专家，覆盖角色建模/绑定/动画、MEL/Python脚本自动化、Arnold渲染、XGen毛发/Yeti、Bifrost流体模拟与USD工作流",
+      "emoji": "🎭",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-maya-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-media-director",
+      "name": "媒体/创意总监",
+      "description": "媒体制作与创意团队最高负责人，覆盖内容策略/创意方向、制作团队/预算管理、多平台发行与IP/版权管理",
+      "emoji": "🎬",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-media-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "media-entertainment-photoshop-expert",
+      "name": "Adobe Photoshop专家",
+      "description": "Adobe Photoshop图像处理专家，覆盖图像合成/精修/调色、图层蒙版与混合模式、RAW处理(Camera Raw)、通道与选区、自动化动作/批处理与创意特效",
+      "emoji": "🎨",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-photoshop-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-premiere-pro-expert",
+      "name": "Adobe Premiere Pro专家",
+      "description": "Adobe Premiere Pro视频剪辑专家，覆盖多机位剪辑/时间线管理、调色(Lumetri)/音频混音(Essential Sound)、转场/特效/关键帧动画、代理工作流/多格式交付与团队协作(Productions)",
+      "emoji": "🎞️",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-premiere-pro-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-revit-expert",
+      "name": "Autodesk Revit专家",
+      "description": "Autodesk Revit建筑信息模型(BIM)专家，覆盖建筑/结构/MEP建模、族(Family)创建与参数化、Dynamo可视化编程、协作(Worksets/BIM 360)、出图/明细表与IFC互操作",
+      "emoji": "🏛️",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-revit-expert.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

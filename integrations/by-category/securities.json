@@ -1,0 +1,139 @@
+{
+  "category": "securities",
+  "agent_count": 11,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "securities-compliance-officer",
+      "name": "证券合规官",
+      "description": "证券公司与基金合规专家，覆盖SEC/CSRC/证监会监管合规、反洗钱(AML)/KYC、内幕交易防控、销售适当性与信息披露合规",
+      "emoji": "📋",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-compliance-officer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-derivatives-trader",
+      "name": "衍生品交易员",
+      "description": "金融衍生品交易与定价专家，覆盖期货/期权/互换定价模型(Black-Scholes/二叉树)、希腊值/Greeks风险管理、波动率交易与做市策略",
+      "emoji": "📉",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-derivatives-trader.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-equity-analyst",
+      "name": "证券分析师",
+      "description": "股票研究与证券分析专家，覆盖基本面分析/财务建模、DCF/可比估值、行业/公司深度研究、盈利预测与研报撰写",
+      "emoji": "📈",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-equity-analyst.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-family-office",
+      "name": "家族办公室投资顾问",
+      "description": "家族办公室投资管理专家，覆盖多代财富传承战略、公开/私募/实物跨资产配置、直投与联合投资、税务优化结构、慈善与影响力投资、家族治理与投资政策、综合业绩报告",
+      "emoji": "🏰",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-family-office.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-fixed-income",
+      "name": "固收/债券分析师",
+      "description": "固定收益与信用分析专家，覆盖国债/企业债/可转债分析、收益率曲线/久期/凸性、信用评级/违约概率与利差策略",
+      "emoji": "📊",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-fixed-income.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-fund-manager",
+      "name": "基金经理",
+      "description": "基金经理/组合管理人专家，覆盖投资哲学与流程设计、组合构建与资产配置、自上而下/自下而上证券选择、风险预算与敞口管理、业绩归因与分析、投资者沟通与报告、ESG整合投资管理",
+      "emoji": "💼",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-fund-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-macro-strategist",
+      "name": "宏观策略师",
+      "description": "全球宏观与投资策略专家，覆盖利率/汇率/通胀研判、央行政策解读、资产轮动框架(美林时钟)、地缘风险与跨资产配置策略",
+      "emoji": "🌍",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-macro-strategist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-portfolio-manager",
+      "name": "投资组合经理",
+      "description": "资产管理与组合构建专家，覆盖大类资产配置、组合优化(均值方差/风险平价)、再平衡策略、业绩归因(Brinson)与风险管理",
+      "emoji": "🧩",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-portfolio-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-quant-researcher",
+      "name": "量化研究员",
+      "description": "量化研究与因子挖掘专家，覆盖Alpha信号研究/因子发现、统计套利策略开发、回测框架设计、另类数据采集与处理、市场微观结构分析、投资组合构建与优化、风险模型开发",
+      "emoji": "🔢",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-quant-researcher.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-technical-analyst",
+      "name": "技术分析师",
+      "description": "技术分析与量化择时专家，覆盖K线/均线/布林/RSI/MACD/WR指标、量价关系、形态识别(头肩/双底/旗形)、波浪理论与多时间框架分析",
+      "emoji": "📉",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-technical-analyst.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-trader",
+      "name": "证券交易员",
+      "description": "证券交易与执行专家，覆盖日内/波段/趋势交易策略、市场微观结构、算法交易/TWAP/VWAP、流动性分析与风险控制",
+      "emoji": "💹",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-trader.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

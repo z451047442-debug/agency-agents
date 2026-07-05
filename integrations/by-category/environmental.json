@@ -1,0 +1,403 @@
+{
+  "category": "environmental",
+  "agent_count": 33,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "environmental-carbon-management",
+      "name": "碳管理专家",
+      "description": "碳核算、碳交易与碳中和路径规划专家，覆盖GHG Protocol、EU ETS/全国碳市场、SBTi目标设定与碳足迹LCA",
+      "emoji": "♻️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-carbon-management.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-climate-analyst",
+      "name": "气候数据分析师",
+      "description": "气候数据科学与建模专家，覆盖气候模式降尺度、极端事件归因、长期趋势分析与预测、CMIP6数据处理",
+      "emoji": "🌍",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-climate-analyst.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-director",
+      "name": "环保/可持续发展总监",
+      "description": "企业环保与可持续发展最高负责人，覆盖环境管理体系(ISO14001)、碳减排/碳中和战略、ESG报告与合规、循环经济与绿色供应链",
+      "emoji": "🌍",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "environmental-ecology-restoration",
+      "name": "生态修复工程师",
+      "description": "生态系统修复与重建专家，覆盖湿地/河流/矿山/棕地修复、植被重建/生物多样性恢复、水土保持/流域管理与生态监测",
+      "emoji": "🌿",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-ecology-restoration.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-advanced-oxidation",
+      "name": "高级氧化/水中新污染物(PFAS)处理工程师",
+      "description": "水中新污染物与难降解有机物去除专家，覆盖PFAS(全氟烷基)/药品/农药/内分泌干扰物(EDC)、UV/H2O2/臭氧/Fenton/电化学高级氧化(AOP)、活性炭(GAC)/离子交换(IX)/纳滤(NF)吸附分离与饮用水/再生水安全",
+      "emoji": "💧",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-advanced-oxidation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-air-quality",
+      "name": "大气环境/空气质量工程师",
+      "description": "大气污染扩散模拟与空气质量专家，覆盖AERMOD/CALPUFF/CMAQ大气扩散模型、排放源清单/源解析(PMF)、废气治理技术(脱硫脱硝除尘/VOCs)与空气质量监测网络",
+      "emoji": "🌬️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-air-quality.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-aquifer-recharge",
+      "name": "地下水/水文地质学家",
+      "description": "地下水科学与水文地质专家，覆盖地下水数值模拟(MODFLOW/FEFLOW/GMS)、含水层抽水试验/参数反演、地下水资源评价/开采/人工回灌与地下水污染(NAPL)/监测自然衰减(MNA)",
+      "emoji": "💧",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-aquifer-recharge.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-bioacoustics",
+      "name": "生物声学/生态声学研究员",
+      "description": "动物声学通信与环境声学生态监测专家，覆盖被动声学监测(PAM)/声景生态学(Soundscape Ecology)、动物发声分析/物种识别(蝙蝠/鲸类/鸟类/昆虫)、水下声学(水听器阵列)与声学指数(ACI/ADI/NDSI)",
+      "emoji": "🎧",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-bioacoustics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-biodegradable-plastics",
+      "name": "生物可降解/可堆肥高分子材料工程师",
+      "description": "生物可降解塑料与生物基高分子专家，覆盖PLA/PHA/PBAT/PBS/PCL/淀粉基可降解材料合成与改性、堆肥化降解(ASTM D6400/EN 13432/GB/T 20197)、海洋/土壤/淡水环境降解与生命周期评估",
+      "emoji": "🌱",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-biodegradable-plastics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-circular-economy",
+      "name": "循环经济/可持续产品设计专家",
+      "description": "循环经济与产品全生命周期可持续设计专家，覆盖产品LCA生命周期评价(ISO 14040/14044)、可拆卸/可修复/可回收设计(DfX)、材料护照/循环供应链与EPR生产者延伸责任",
+      "emoji": "♻️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-circular-economy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-climate-tech",
+      "name": "气候科技/碳移除工程师",
+      "description": "气候技术与碳移除(CDR)工程专家，覆盖直接空气捕获(DAC)/碳矿化、生物能源碳捕获(BECCS)、海洋碱化/增强风化与碳信用MRV(监测报告验证)",
+      "emoji": "🌍",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-climate-tech.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-coastal-erosion",
+      "name": "水工/港口航道工程师",
+      "description": "港口码头与航道工程设计专家，覆盖码头结构(重力式/高桩/板桩)/防波堤/船坞设计、航道疏浚/水深维护、系泊/护舷/装卸工艺与系泊分析(OcraFlex/Optimoor)",
+      "emoji": "⚓",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-coastal-erosion.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-coastal-marine",
+      "name": "海岸/海洋工程工程师",
+      "description": "海岸防护与近海工程技术专家，覆盖波浪/潮流/风暴潮水动力模型(Delft3D/MIKE21)、防波堤/海堤/护岸设计、泥沙输运/岸线演变与海上风电基础(单桩/导管架/浮式)",
+      "emoji": "🌊",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-coastal-marine.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-coastal-resilience",
+      "name": "海岸韧性/基于自然的方案(NbS)工程师",
+      "description": "海岸生态工程与基于自然的防洪方案专家，覆盖红树林/盐沼/牡蛎礁/珊瑚礁生态护岸、沙丘/海滩养护、基于自然的洪水风险管理与灰色-绿色混合基础设施设计",
+      "emoji": "🌿",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-coastal-resilience.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-desalination-water",
+      "name": "海水淡化/膜分离技术工程师",
+      "description": "反渗透(RO)/纳滤(NF)/电渗析(ED)膜法水处理专家，覆盖海水淡化SWRO工艺(预处理/高压泵/ERD能量回收)、苦咸水BWRO/超纯水UPW、膜污染/清洗/寿命与热法(MSF/MED)",
+      "emoji": "💧",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-desalination-water.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-ecosystem-restoration",
+      "name": "森林生态/碳汇林业专家",
+      "description": "森林生态系统管理与森林碳汇MRV专家，覆盖森林资源清查/生长模型(LiDAR/遥感)、造林/再造林/森林经营碳汇计量(CDM/VCS/CCER)、REDD+与林业碳汇项目开发",
+      "emoji": "🌲",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-ecosystem-restoration.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-gis-remote-sensing",
+      "name": "地理信息(GIS)/遥感工程师",
+      "description": "地理信息系统与遥感分析专家，覆盖ArcGIS/QGIS/PostGIS空间数据库、卫星遥感(Sentinel/Landsat)影像处理、空间分析/地统计与Web GIS(Mapbox/Leaflet/GeoServer)",
+      "emoji": "🗺️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-gis-remote-sensing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-hydrology-water",
+      "name": "水文/水资源工程师",
+      "description": "水文分析与水资源规划管理专家，覆盖流域水文模型(HEC-HMS/SWAT)、洪水频率分析/洪水风险图、城市排水/海绵城市(LID/GI)、水库调度/水资源配置与水文观测/遥感水文",
+      "emoji": "💧",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-hydrology-water.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-industrial-hygiene",
+      "name": "职业卫生/工业卫生师",
+      "description": "工作场所职业健康危害评估与控制专家，覆盖化学危害(有机溶剂/重金属/粉尘)暴露评估(个人采样/生物监测)、噪声/热应激/辐射物理危害、通风工程控制(LV/ dilution)与OEL/OEB",
+      "emoji": "🩺",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-industrial-hygiene.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-oil-spill-response",
+      "name": "溢油应急/海洋环境应急专家",
+      "description": "海上溢油应急与海洋污染防控专家，覆盖溢油轨迹/风化漂移模型(OSCAR/GNOME)、围油栏/撇油器/消油剂(化学分散剂)/原位燃烧应急技术、环境敏感性指数(ESI)制图与ICS/ICS/NIMS应急指挥体系",
+      "emoji": "🌊",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-oil-spill-response.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-packaging-sustainability",
+      "name": "包装可持续性/生命周期(LCA)顾问",
+      "description": "包装环保与全生命周期评估专家，覆盖包装LCA碳足迹/水足迹(Ecoinvent/GaBi/SimaPro)、可回收设计(DfR/APR/RecyClass)/可堆肥/可重复使用、EPR生产者延伸责任合规与PCR/LCA审定(ISO 14040/14044/14025)",
+      "emoji": "📦",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-packaging-sustainability.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-paleontology-stratigraphy",
+      "name": "古生物学/生物地层学研究员",
+      "description": "化石记录与地质年代地层专家，覆盖微体化石(有孔虫/牙形石/孢粉/钙质超微)/大化石鉴定与生物地层、沉积相/古环境/古气候重建、定量生物地层(UAgraph/RASC)/天文旋回地层与油气/矿产勘探应用",
+      "emoji": "🦴",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-paleontology-stratigraphy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-sewage-treatment",
+      "name": "污泥处理/厌氧消化/沼气工程师",
+      "description": "污泥处理处置与有机固废资源化专家，覆盖厌氧消化(沼气/生物甲烷)/好氧堆肥、污泥脱水/干化/焚烧、生物天然气净化/并网与污泥/沼渣土地利用",
+      "emoji": "💩",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-sewage-treatment.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-snow-avalanche",
+      "name": "雪冰/冰川/冻土工程师",
+      "description": "寒区工程与冰冻圈科学专家，覆盖多年冻土/季节性冻土路基工程设计、冰川/冰湖溃决洪水(GLOF)风险评估、积雪/雪崩防护与寒区材料/混凝土抗冻",
+      "emoji": "❄️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-snow-avalanche.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-sustainable-chemistry",
+      "name": "绿色化学/可持续化学工艺开发专家",
+      "description": "绿色化学十二原则与可持续化学工艺专家，覆盖原子经济性/催化(均相/多相/酶)/无溶剂反应/水相化学、可再生原料/生物基化学品、E-Factor/过程质量强度(PMI)/生命周期(LCA)",
+      "emoji": "🧪",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-sustainable-chemistry.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-waste-management",
+      "name": "固体废物管理/垃圾分类规划师",
+      "description": "城市固废管理与资源化规划专家，覆盖垃圾分类/收运体系规划、机械生物处理(MBT)/材料回收(MRF)、有机垃圾厌氧消化/好氧堆肥化与填埋场设计/渗滤液/填埋气",
+      "emoji": "🗑️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-waste-management.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-water-resources",
+      "name": "水利工程/水资源规划专家",
+      "description": "水资源综合规划与水利枢纽设计专家，覆盖流域水资源配置/水库群联合调度、洪水风险/防洪规划、灌溉排水工程与水利水电工程经济评价/环境社会影响",
+      "emoji": "🌊",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-water-resources.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-weather-climate",
+      "name": "气象/气候数据科学家",
+      "description": "气象预报与气候数据分析专家，覆盖数值天气预报(NWP/WRF/GFS)、卫星遥感/雷达数据分析、气候模式/降尺度、AI气象大模型(FourCastNet/Pangu)与气象风险量化",
+      "emoji": "🌦️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-weather-climate.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-engineering-weather-forecast",
+      "name": "数值天气预报(NWP)模式专家",
+      "description": "全球/区域/对流尺度数值天气预报模式与资料同化专家，覆盖WRF/MPAS/GFS/IFS/GRAPES模式研发、变分/集合卡尔曼滤波(EnKF)/混合资料同化、物理参数化(微物理/积云/边界层)与模式检验/后处理",
+      "emoji": "🌦️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-engineering-weather-forecast.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-gis-analyst",
+      "name": "环境GIS分析师",
+      "description": "环境空间数据与遥感分析专家，覆盖卫星影像处理、土地利用分类、环境遥感反演、空间统计与环境制图",
+      "emoji": "🗺️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-gis-analyst.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-monitoring-engineer",
+      "name": "环境监测工程师",
+      "description": "环境监测系统设计与部署专家，覆盖空气质量、水质、土壤、噪声监测的传感器网络、数据采集与实时预警",
+      "emoji": "🌿",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-monitoring-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-renewable-energy",
+      "name": "可再生能源工程师",
+      "description": "可再生能源系统设计与评估专家，覆盖太阳能光伏/光热、风力发电、储能系统、微电网调度与LCOE分析",
+      "emoji": "☀️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-renewable-energy.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-water-treatment",
+      "name": "水处理工程师",
+      "description": "水处理与水环境工程专家，覆盖市政供水/污水处理、MBR膜生物反应器/RO反渗透、工业废水零排放(ZLD)、污泥处置与水资源回收",
+      "emoji": "💧",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-water-treatment.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

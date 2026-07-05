@@ -1,0 +1,271 @@
+{
+  "category": "automotive",
+  "agent_count": 22,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "automotive-adas-engineer",
+      "name": "ADAS高级驾驶辅助工程师",
+      "description": "L2/L3驾驶辅助系统开发专家，覆盖AEB、ACC、LKA功能安全与ISO 26262合规",
+      "emoji": "🛡️",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-adas-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-autonomous-driving",
+      "name": "自动驾驶系统工程师",
+      "description": "L4/L5自动驾驶系统架构与感知规划专家，覆盖传感器融合、路径规划与安全验证",
+      "emoji": "🚗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-autonomous-driving.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-director",
+      "name": "汽车研发/事业部总监",
+      "description": "汽车研发或事业部最高负责人，覆盖整车/系统开发策略、平台架构/技术路线、供应商/产业链管理、研发团队与预算管控",
+      "emoji": "🚗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "automotive-engineering-automotive-cae",
+      "name": "汽车碰撞安全/被动安全CAE工程师",
+      "description": "汽车碰撞安全与乘员约束系统CAE仿真专家，覆盖整车碰撞(正面FRB/ODB/MDB/侧柱/翻滚)结构耐撞性/侵入、乘员约束(安全气囊/安全带/座椅) MADYMO仿真、行人保护与NCAP/法规星级评定",
+      "emoji": "🚗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-automotive-cae.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-automotive-engineer",
+      "name": "汽车/智能驾驶工程师",
+      "description": "自动驾驶、智能座舱、车联网与汽车电子系统开发专家",
+      "emoji": "🚗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-automotive-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-automotive-homologation-test",
+      "name": "汽车测试/耐久性验证工程师",
+      "description": "汽车整车与零部件耐久性/可靠性测试验证专家，覆盖整车道路/台架/环境耐久试验、加速寿命试验(ALT)/可靠性增长(RGT)、振动/温度/湿度多应力综合试验与试验场(PG)/公共道路测试",
+      "emoji": "🔬",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-automotive-homologation-test.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-automotive-lighting",
+      "name": "汽车照明/车灯光学设计工程师",
+      "description": "汽车外部照明与信号系统光学专家，覆盖LED矩阵/ADB自适应远光/μLED/激光光源、自由曲面/微透镜阵列光学设计(LucidShape/SPEOS)、法规(GB/ECE/FMVSS 108)与散热/雾气管理",
+      "emoji": "💡",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-automotive-lighting.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-automotive-software",
+      "name": "汽车基础软件(AUTOSAR CP/AP)工程师",
+      "description": "AUTOSAR汽车基础软件与中间件开发专家，覆盖AUTOSAR Classic(COM Stack/RTE/BSW)/Adaptive(ARA)/Safety(ISO 26262 ASIL)、 SOME/IP/DDS与ECU软件集成/刷写(UDS on CAN/DoIP)",
+      "emoji": "🚗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-automotive-software.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-automotive-systems",
+      "name": "汽车电子电气(E/E)架构师",
+      "description": "汽车电子电气架构与域控制器设计专家，覆盖中央计算/区域架构、AUTOSAR Classic/Adaptive、车载网络设计(CAN/LIN/Ethernet/SerDes)、域融合与SOA服务化",
+      "emoji": "🚗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-automotive-systems.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-automotive-thermal",
+      "name": "汽车热管理/空调系统工程师",
+      "description": "纯电/混动汽车整车热管理系统专家，覆盖热泵系统/余热回收(电机/电池/电控)、电池热管理(液冷/直冷/相变)、乘客舱舒适性(自动空调/分区/座椅加热通风)与能耗优化(续航影响)",
+      "emoji": "🌡️",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-automotive-thermal.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-autonomous-optimization-architect",
+      "name": "自主优化架构师",
+      "description": "LLM 路由、成本优化与影子测试专家",
+      "emoji": "⚡",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-autonomous-optimization-architect.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-battery-modeling",
+      "name": "电池建模/状态估计工程师",
+      "description": "电池数学模型与BMS算法专家，覆盖电化学/等效电路模型(ECM)、SOC/SOH/SOP状态估计算法(Kalman Filter)、电池老化/寿命预测与快充策略优化",
+      "emoji": "🔋",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-battery-modeling.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-electric-vehicle-aerodynamics",
+      "name": "汽车空气动力学/气动声学工程师",
+      "description": "整车空气动力学与风噪优化专家，覆盖外流场Cd风阻/升力/横风稳定性CFD(STAR-CCM+/PowerFLOW)、气动声学/风噪(侧窗/天窗/后视镜)、主动格栅/气坝/扩散器/底盘平整化与风洞测试(模型/实车/声学风洞)",
+      "emoji": "🏎️",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-electric-vehicle-aerodynamics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-ev-charging",
+      "name": "充电桩/电动汽车充电工程师",
+      "description": "电动汽车充电基础设施与系统专家，覆盖AC/DC充电桩(GB/T/CCS/CHAdeMO/NACS)、OCPP充电协议、充电站/光储充微网设计与电网互动(V2G/V2H)",
+      "emoji": "🔌",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-ev-charging.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-functional-safety",
+      "name": "功能安全(ISO 26262/IEC 61508)工程师",
+      "description": "汽车/工业功能安全工程专家，覆盖ISO 26262(汽车)/IEC 61508(工业)功能安全标准、HARA/安全目标/ASIL等级、安全概念(FSC/TSC)、FMEA/FTA安全分析与安全案例(Safety Case)",
+      "emoji": "⚠️",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-functional-safety.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-vehicle-bus",
+      "name": "车载网络/总线(CAN/LIN/Ethernet)工程师",
+      "description": "汽车车载网络与总线系统专家，覆盖CAN/CAN FD/LIN/FlexRay总线协议、车载以太网(100BASE-T1/1000BASE-T1)、AUTOSAR CP/AP通信栈与UDS/OBD诊断",
+      "emoji": "🚗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-vehicle-bus.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-engineering-vehicle-dynamics",
+      "name": "车辆动力学/底盘调校工程师",
+      "description": "汽车底盘动力学与整车操控调校专家，覆盖悬架(K&C)/转向/制动/轮胎动力学、车辆动力学仿真(CarSim/ADAMS)、主观/客观评价与ESC/ABS/TCS底盘控制标定",
+      "emoji": "🏎️",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-engineering-vehicle-dynamics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-ev-battery",
+      "name": "新能源电池系统工程师",
+      "description": "动力电池系统设计与热管理专家，覆盖电芯化学、BMS、pack集成与回收全生命周期",
+      "emoji": "🔋",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-ev-battery.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-homologation",
+      "name": "汽车认证/法规工程师",
+      "description": "汽车型式认证与法规合规专家，覆盖中国CCC/公告/国六、欧盟WVTA、美国FMVSS/EPA、排放/安全/召回合规管理",
+      "emoji": "📜",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-homologation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-nvh-engineer",
+      "name": "汽车NVH工程师",
+      "description": "汽车噪声振动与声振粗糙度(NVH)专家，覆盖动力总成/路噪/风噪NVH、模态分析/传递路径分析、声学包设计与主观评价",
+      "emoji": "🔇",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-nvh-engineer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-supply-chain",
+      "name": "汽车供应链管理专家",
+      "description": "全球汽车供应链与采购策略专家，覆盖 tier-1 到 tier-N 供应商体系与 JIT 精益物流",
+      "emoji": "🔗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-supply-chain.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "automotive-vehicle-architecture",
+      "name": "整车架构与平台工程师",
+      "description": "整车电子电气架构与平台化开发专家，覆盖域控制器、软件定义汽车与OTA架构",
+      "emoji": "🏗️",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-vehicle-architecture.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

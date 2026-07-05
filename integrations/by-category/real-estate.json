@@ -1,0 +1,127 @@
+{
+  "category": "real-estate",
+  "agent_count": 10,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "real-estate-appraiser",
+      "name": "房地产估价师",
+      "description": "房地产估价与价值评估专家，覆盖市场比较法/收益法/成本法三大估价方法、抵押/交易/征收/课税等不同目的估价与估价报告撰写",
+      "emoji": "📐",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-appraiser.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-buyer-seller",
+      "name": "房地产买卖代理",
+      "description": "全面的房地产代理助手，覆盖买方与卖方代理、房源管理、报价谈判、交易协调与交割支持",
+      "emoji": "🏠",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-buyer-seller.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-commercial-broker",
+      "name": "商业地产经纪人",
+      "description": "商业地产经纪：写字楼/零售/工业租赁、资本化率与净运营收入分析、租户代表、房东代表、售后回租结构设计、1031交换、市场可比分析",
+      "emoji": "🏢",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-commercial-broker.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-developer",
+      "name": "房地产开发商",
+      "description": "房地产开发全周期专家，覆盖土地获取与可行性分析、规划审批与区划协调、项目融资（建设贷款/夹层融资/合资股权）、设计与施工监督、预售/招商策略、社区关系管理、退出策略（出售/再融资/持有运营）",
+      "emoji": "🏗️",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-developer.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-development-manager",
+      "name": "开发项目经理",
+      "description": "房地产开发全周期管理：拿地研判、规划设计、报建审批、施工管理、交付验收",
+      "emoji": "🏗️",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-development-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-facility-manager",
+      "name": "设施管理(FM)专家",
+      "description": "商业建筑设施管理专家，覆盖楼宇机电(HVAC/电气/电梯)运维、保洁/安保/前台软服务外包、空间利用率/工位管理(CAFM/IWMS)与租赁/合同管理",
+      "emoji": "🏢",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-facility-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-investment-analyst",
+      "name": "房产投资分析师",
+      "description": "房地产投资分析：市场研判、投资回报ROI、现金流模型、资产估值、风险对冲",
+      "emoji": "🏠",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-investment-analyst.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-property-manager",
+      "name": "物业管理经理",
+      "description": "物业管理经理，覆盖租户关系维护与续租、租赁合同管理与租金收取、日常维修与资本改善规划、供应商管理（保洁/安保/园林绿化）、运营预算与公共区域维护费(CAM)分摊核算、风险管理与保险、可持续发展与能源管理",
+      "emoji": "🔑",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-property-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-property-valuator",
+      "name": "物业估价师",
+      "description": "住宅与商业地产估价专家，精通收益法/市场法/成本法、最高最佳使用分析、折旧评估、USPAP/IVS估价报告撰写、征收补偿估价、房产税评估申诉",
+      "emoji": "📋",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-property-valuator.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-reit-analyst",
+      "name": "REIT分析师",
+      "description": "REIT金融建模分析：FFO/AFFO调整、物业板块研判(写字楼/公寓/工业/医疗/数据中心)、NAV估值、股息可持续性、利率敏感性测试、资产收购/处置承销、公开市场可比分析",
+      "emoji": "📈",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-reit-analyst.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "category": "retail",
+  "agent_count": 12,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "retail-category-manager",
+      "name": "品类经理",
+      "description": "零售品类管理与空间规划专家，覆盖品类战略与商品组合规划、货架图(Planogram)优化、定价与促销策略、供应商谈判、自有品牌开发、库存周转优化、购物篮分析",
+      "emoji": "🛍️",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-category-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-customer-insight-analyst",
+      "name": "客户洞察分析师",
+      "description": "消费者行为分析：用户画像、RFM分层、流失预警、LTV建模、A/B实验设计",
+      "emoji": "🔍",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-customer-insight-analyst.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-data-analyst",
+      "name": "零售数据分析师",
+      "description": "全链路零售数据分析：售罄率分析、客流分析、RFM客户分层、促销效果评估、门店绩效对标、库存预测、全渠道归因",
+      "emoji": "📊",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-data-analyst.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-ecommerce-strategist",
+      "name": "电商策略师",
+      "description": "电商全渠道策略：平台选择、品类规划、促销设计、增长飞轮与盈利模型",
+      "emoji": "🛒",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-ecommerce-strategist.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-fmcg-manager",
+      "name": "快消品经理",
+      "description": "快消品品牌经理，覆盖通路营销策略、经销商/批发商渠道管理、店内激活与POSM、促销日历规划、市场份额追踪(Nielsen/IRI)、新品上市、品类舰长谈判",
+      "emoji": "🧴",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-fmcg-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-loss-prevention",
+      "name": "零售防损/资产保护专家",
+      "description": "零售防损与资产保护专家，覆盖店铺内外盗/员工舞弊防控、库存损耗(Shrinkage)分析、EAS/CCTV/ POS例外监控与内部调查",
+      "emoji": "🔐",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-loss-prevention.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-omnichannel-manager",
+      "name": "全渠道运营经理",
+      "description": "线上线下全渠道运营：门店数字化、私域流量、直播电商、即时零售、会员体系",
+      "emoji": "🏬",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-omnichannel-manager.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-omnichannel",
+      "name": "全渠道零售专家",
+      "description": "全渠道零售策略：统一商务战略、BOPIS/到店自提优化、无尽货架落地、渠道库存可见性、跨渠道退货管理、会员体系整合、客户数据平台(CDP)战略",
+      "emoji": "🔄",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-omnichannel.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-store-ops",
+      "name": "门店运营经理",
+      "description": "门店运营管理专家，覆盖门店SOP制定、人员排班优化、视觉陈列标准、防损策略、门店稽核合规、新店开业手册、全渠道履约(BOPIS/门店发货)",
+      "emoji": "🏪",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-store-ops.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-supply-chain-analyst",
+      "name": "零售供应链分析师",
+      "description": "零售供应链优化：库存管理、需求预测、仓储物流、供应商协同",
+      "emoji": "📦",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-supply-chain-analyst.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-technology",
+      "name": "零售技术(POS/WMS/OMO)专家",
+      "description": "零售技术与系统集成专家，覆盖POS/收银系统、WMS/仓储系统、OMS订单管理、CRM/会员系统与线上线下融合(OMO)中台架构",
+      "emoji": "🖥️",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-technology.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-visual-merchandiser",
+      "name": "视觉陈列(VMD)设计师",
+      "description": "零售视觉陈列与店面体验设计专家，覆盖橱窗/店内陈列设计、顾客动线/体验规划、品牌空间一致性、陈列道具管理与季节性换装",
+      "emoji": "🎨",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-visual-merchandiser.md",
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

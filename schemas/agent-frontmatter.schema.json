@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://github.com/z451047442-debug/agency-agents/schemas/agent-frontmatter.schema.json",
+  "title": "Agency Agent Frontmatter",
+  "description": "Schema for YAML frontmatter in agency-agents .md files. Defines the metadata contract every agent file must satisfy.",
+  "type": "object",
+  "required": ["name", "description", "emoji", "color"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "Display name shown in tool selectors and UI."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500,
+      "description": "One-sentence summary of the agent's expertise. Used in tool selectors and search."
+    },
+    "emoji": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 8,
+      "description": "Single emoji or short emoji sequence representing the agent."
+    },
+    "color": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32,
+      "description": "Display colour for the agent. Standard named colours: cyan, blue, green, red, purple, orange, teal, indigo, pink, gold, amber, yellow, violet, rose, lime, gray, fuchsia, navy, slate, brown. Hex codes (#RRGGBB) are also accepted.",
+      "examples": ["blue", "teal", "#E63946"]
+    },
+    "vibe": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Personality primer line that captures the agent's tone and philosophy. Recommended but not required."
+    },
+    "version": {
+      "type": "string",
+      "maxLength": 32,
+      "description": "Semantic version for the agent definition (e.g. '1.0.0'). Recommended for change tracking.",
+      "examples": ["1.0.0"]
+    },
+    "date_added": {
+      "type": "string",
+      "maxLength": 16,
+      "description": "ISO date when this agent was first added (e.g. '2026-06-18'). Recommended for lifecycle tracking.",
+      "examples": ["2026-06-18"]
+    },
+    "nexus_roles": {
+      "type": "array",
+      "description": "NEXUS pipeline phases this agent participates in. Used by the orchestration layer for agent discovery.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "phase-0-discovery",
+          "phase-1-strategy",
+          "phase-2-foundation",
+          "phase-3-build",
+          "phase-4-hardening",
+          "phase-5-launch",
+          "phase-6-operate"
+        ]
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "depends_on": {
+      "type": "array",
+      "description": "Agent IDs that this agent logically depends on. The install tool may warn if a dependency is missing.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*-[a-z][a-z0-9-]*$"
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    }
+  },
+  "additionalProperties": true
+}

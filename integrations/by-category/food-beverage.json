@@ -1,0 +1,187 @@
+{
+  "category": "food-beverage",
+  "agent_count": 15,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "food-beverage-beverage-rd",
+      "name": "饮品研发工程师",
+      "description": "饮料/酒饮产品研发专家，覆盖即饮茶、咖啡、功能性饮料、酒精饮料全品类",
+      "emoji": "🥤",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-beverage-rd.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-culinary-innovation",
+      "name": "餐饮研发与创新厨师",
+      "description": "餐饮连锁与中央厨房产品研发专家，覆盖菜品标准化、预制菜、酱料工业化",
+      "emoji": "👨‍🍳",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-culinary-innovation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-director",
+      "name": "食品公司总经理",
+      "description": "食品饮料企业全面管理者，覆盖产品研发/创新、生产/供应链/食品安全、品牌/渠道/营销与财务绩效",
+      "emoji": "🍽️",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-director.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "food-beverage-engineering-alt-protein",
+      "name": "替代蛋白/细胞农业科学家",
+      "description": "植物基与细胞培养替代蛋白研发专家，覆盖植物蛋白(大豆/豌豆/小麦)组织化/挤压、细胞培养肉(增殖/分化/支架)、精密发酵/微生物蛋白与新型食品法规(Novel Food)",
+      "emoji": "🧪",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-engineering-alt-protein.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-engineering-beverage-brewing",
+      "name": "酿造/发酵饮料工艺工程师",
+      "description": "啤酒/葡萄酒/烈酒酿造与饮料微生物发酵专家，覆盖麦芽/糖化/发酵/成熟工艺控制、酵母/酶/微生物管理、无菌灌装(CIP/SIP)/包装与风味化学/感官品控",
+      "emoji": "🍺",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-engineering-beverage-brewing.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-engineering-cosmetics-science",
+      "name": "化妆品科学/配方化学家",
+      "description": "化妆品与个人护理品配方科学专家，覆盖乳化/增稠/表面活性剂体系、活性物(维生素/肽/植物提取)递送、防腐/微生物挑战与稳定性、安全评估(CPSR)/功效宣称验证",
+      "emoji": "💄",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-engineering-cosmetics-science.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-engineering-food-fermentation",
+      "name": "发酵食品/酵素/益生菌工艺专家",
+      "description": "传统与现代发酵食品工艺科学家，覆盖乳酸菌/酵母/曲霉/芽孢杆菌发酵剂管理、发酵过程监控(pH/温度/DO/代谢物)、益生菌/后生元/酵素产品开发与发酵食品功能声称/法规(GRAS/Novel Food)",
+      "emoji": "🧫",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-engineering-food-fermentation.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-engineering-food-packaging",
+      "name": "食品包装/阻隔材料工程师",
+      "description": "食品接触包装材料与活性/智能包装专家，覆盖多层共挤/真空镀铝阻隔膜(OTR/WVTR)、MAP气调包装/真空包装、活性包装(氧气吸收/抗菌)、智能包装(TTI/ RFID/NFC)与食品接触材料法规(EU 1935/2004/FDA/GB 9685)",
+      "emoji": "📦",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-engineering-food-packaging.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-engineering-food-process",
+      "name": "食品工艺/食品制造工程师",
+      "description": "食品加工工艺与工业化生产专家，覆盖热加工(巴氏/杀菌/烘焙)/非热加工(HPP/超声波)、食品添加剂/配料功能、工艺放大(中试→量产)与FSSC 22000/HACCP合规",
+      "emoji": "🏭",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-engineering-food-process.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-engineering-food-sensory",
+      "name": "感官科学/风味化学专家",
+      "description": "食品感官评价与风味化学专家，覆盖描述性分析(QDA)/差别检验(三角检验/ duo-trio)/消费者偏好测试、GC-O/MS风味分析/香气重组与缺失、感官货架期与食品基质-风味相互作用",
+      "emoji": "👃",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-engineering-food-sensory.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-food-product-developer",
+      "name": "食品产品研发(R&D)专家",
+      "description": "食品新产品开发与感官科学专家，覆盖配方研发/风味调配、质构/口感设计、营养/清洁标签趋势、中试放大与包装兼容性",
+      "emoji": "🔬",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-food-product-developer.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-food-safety",
+      "name": "食品安全与质量专家",
+      "description": "食品安全管理体系专家，覆盖 HACCP、FSSC 22000、追溯体系、食品安全风险评估",
+      "emoji": "🛡️",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-food-safety.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-food-scientist",
+      "name": "食品科学家",
+      "description": "食品科学与产品开发专家，覆盖配方设计、工艺优化、保质期研究、感官评价",
+      "emoji": "🧪",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-food-scientist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-food-supply-chain-traceability",
+      "name": "食品溯源与供应链透明专家",
+      "description": "食品供应链溯源与透明化专家，覆盖区块链/GS1溯源系统、产地到餐桌全程可视化、召回效率与可持续采购认证",
+      "emoji": "🔍",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-food-supply-chain-traceability.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-food-supply-chain",
+      "name": "食品供应链经理",
+      "description": "食品行业供应链管理专家，覆盖生鲜冷链、原料采购、仓储物流、需求预测",
+      "emoji": "🚚",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-food-supply-chain.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

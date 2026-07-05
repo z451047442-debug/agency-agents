@@ -1,0 +1,59 @@
+name: Nightly Full Audit
+
+on:
+  schedule:
+    - cron: "37 2 * * *"  # nightly at 02:37 UTC
+  workflow_dispatch:
+
+jobs:
+  score:
+    name: Quality Score
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate AGENTS.json index
+        run: bash scripts/generate-index.sh
+      - name: Run quality scoring
+        run: bash scripts/score-agents.sh
+
+  duplicates:
+    name: Duplicate Detection
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate AGENTS.json index
+        run: bash scripts/generate-index.sh
+      - name: Run duplicate check
+        run: bash scripts/check-dupes.sh --threshold 0.90
+
+  dependencies:
+    name: Dependency Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate AGENTS.json index
+        run: bash scripts/generate-index.sh
+      - name: Run dependency check
+        run: bash scripts/check-deps.sh
+
+  originality:
+    name: Originality Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run originality check on changed agents
+        run: bash scripts/check-agent-originality.sh

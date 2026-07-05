@@ -1,0 +1,293 @@
+{
+  "category": "legal",
+  "agent_count": 22,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "legal-billing-time-tracking",
+      "name": "法务计费与工时管理专员",
+      "description": "全面的法务计费与工时管理专家，覆盖工时记录、发票生成、收款管理与信托账户合规",
+      "emoji": "⏱️",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-billing-time-tracking.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-client-intake",
+      "name": "法务客户受理专员",
+      "description": "全面的法务客户受理专家，负责潜在客户筛选、案件信息收集、咨询预约与利益冲突检查",
+      "emoji": "📋",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-client-intake.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-construction-realestate",
+      "name": "工程建设与不动产律师",
+      "description": "工程建设与不动产法律专家，覆盖建设工程施工合同/EPC、招投标/政府采购法、竣工验收/质量纠纷、BIM/智能建筑/弱电系统工程合规与不动产投资并购",
+      "emoji": "🏗️",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-construction-realestate.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-corporate-attorney",
+      "name": "公司法/商事律师",
+      "description": "投融资、并购重组、公司治理、股权架构与跨境交易法律专家",
+      "emoji": "🏢",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-corporate-attorney.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-criminal-defense-attorney",
+      "name": "刑事辩护律师",
+      "description": "刑事辩护、取保候审、量刑协商、上诉代理与刑事合规专家",
+      "emoji": "⚖️",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-criminal-defense-attorney.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-cybersecurity-data",
+      "name": "网络安全与数据合规律师",
+      "description": "网络安全与数据安全法律专家，覆盖《网络安全法》《数据安全法》《个人信息保护法》、等保/关基合规、数据跨境传输安全评估、网络安全事件应急与监管应对",
+      "emoji": "🔐",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-cybersecurity-data.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-data-privacy-attorney",
+      "name": "数据隐私律师",
+      "description": "GDPR/PIPL/CCPA 合规、隐私政策、数据跨境传输与 DPIA 专家",
+      "emoji": "🔒",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-data-privacy-attorney.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-data-protection-officer",
+      "name": "数据保护官(DPO)",
+      "description": "数据保护与隐私合规专家，覆盖GDPR/PIPL/CCPA合规、数据映射/DPIA、隐私设计(Privacy by Design)、数据主体请求(DSAR)响应与跨境数据传输影响评估",
+      "emoji": "🔐",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-data-protection-officer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-document-review",
+      "name": "法务文件审查专员",
+      "description": "全面的法务文件审查专家，覆盖合同、诉讼文件与不动产协议的摘要、风险条款标记与合规检查",
+      "emoji": "⚖️",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-document-review.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-engineering-legal-contracts-ai",
+      "name": "法律AI/计算法律学研究员",
+      "description": "计算法律学与AI法律推理专家，覆盖法律文本NLP/命名实体识别(当事人/法院/日期)、裁判预测/类案检索、法律知识图谱/本体论与法律推理/论证挖掘",
+      "emoji": "⚖️",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-engineering-legal-contracts-ai.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-engineering-legal-document-automation",
+      "name": "智能合约/法律文档自动化工程师",
+      "description": "法律文档自动化与智能合约模板专家，覆盖文档自动化(HotDocs/Docassemble)、合同生命周期编码、法律规则引擎与NLP合同条款提取",
+      "emoji": "📄",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-engineering-legal-document-automation.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-engineering-legal-technology",
+      "name": "法律科技(LegalTech)产品经理",
+      "description": "法律科技与智能合同管理产品专家，覆盖AI合同审查/智能合约/eDiscovery、律所/法务工作流自动化、法律知识图谱与合规科技(RegTech)",
+      "emoji": "⚖️",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-engineering-legal-technology.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-engineering-outer-space-law",
+      "name": "空间法/太空资源开发法律顾问",
+      "description": "国际空间法与商业航天法律专家，覆盖外空条约(OST)/责任公约/登记公约、商业遥感/卫星通信(FCC/ITU)许可、空间碎片减缓/在轨服务/主动碎片清除与天体资源(月球/小行星采矿)产权",
+      "emoji": "🚀",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-engineering-outer-space-law.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-engineering-patent-engineer",
+      "name": "专利/知识产权工程师",
+      "description": "技术专利与知识产权工程专家，覆盖专利检索/现有技术分析、专利说明书/权利要求撰写、发明人访谈/技术交底与专利审查答辩",
+      "emoji": "📜",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-engineering-patent-engineer.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-engineering-trade-compliance",
+      "name": "贸易合规/出口管制(ECCN/HS)专家",
+      "description": "国际出口管制与贸易制裁合规专家，覆盖美国EAR(BIS)/ITAR(DDTC)、欧盟Dual-Use/军事、中国出口管制法/不可靠实体清单、ECCN/HS编码分类与制裁筛查(SDN/实体清单)",
+      "emoji": "🛃",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-engineering-trade-compliance.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-environmental-attorney",
+      "name": "环境/能源法律顾问",
+      "description": "环境法与能源法律专家，覆盖环境影响评价(EIA)/排污许可合规、环境诉讼/公益诉讼、碳排放权交易/绿证法律与可再生能源项目开发法律",
+      "emoji": "🌍",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-environmental-attorney.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-general-counsel",
+      "name": "企业法务总监",
+      "description": "企业法务总监/总法律顾问，覆盖公司治理/董事会法律支持、合规体系建设、合同/诉讼管理、外部律所管理、法律风险预警与业务法律支持",
+      "emoji": "⚖️",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-general-counsel.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-immigration-attorney",
+      "name": "移民/出入境法律顾问",
+      "description": "移民法与全球人才流动法律专家，覆盖工作签证/居留许可、技术移民/投资移民、企业全球派遣合规与出入境法律风险",
+      "emoji": "🛂",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-immigration-attorney.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-ip-attorney",
+      "name": "知识产权/专利律师",
+      "description": "专利申请、商标注册、版权保护、侵权诉讼与知识产权战略管理专家",
+      "emoji": "🧠",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-ip-attorney.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-labor-attorney",
+      "name": "劳动法律师",
+      "description": "劳动合同管理、劳动争议仲裁、工伤赔偿与竞业限制纠纷专家",
+      "emoji": "🤝",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-labor-attorney.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-smart-manufacturing",
+      "name": "智能制造与工业互联网法律顾问",
+      "description": "智能制造/工业4.0法律专家，覆盖智能工厂自动化系统责任、工业互联网数据权属、AI/算法治理、工业机器人安全认证、设备互联标准与跨境技术转让合规",
+      "emoji": "🏭",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-smart-manufacturing.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-tax-attorney",
+      "name": "税务律师",
+      "description": "税务争议解决、税务筹划、转让定价与跨境税收法律专家",
+      "emoji": "📜",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-tax-attorney.md",
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    }
+  ]
+}

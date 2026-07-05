@@ -1,0 +1,235 @@
+{
+  "category": "logistics",
+  "agent_count": 19,
+  "generated": "2026-07-05",
+  "agents": [
+    {
+      "id": "logistics-cold-chain-specialist",
+      "name": "冷链物流专家",
+      "description": "温控供应链管理专家，覆盖冷藏/冷冻运输、冷链仓储、温度监控、GDP合规与生鲜/医药冷链解决方案",
+      "emoji": "❄️",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-cold-chain-specialist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-courier-express",
+      "name": "快递/快运网络运营专家",
+      "description": "快递与快运网络运营管理专家，覆盖分拨中心/转运枢纽运营、路由网络规划、末端网点/驿站管理、时效管控与成本优化",
+      "emoji": "📦",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-courier-express.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-cross-border-ecommerce",
+      "name": "跨境电商物流专家",
+      "description": "跨境电商与小包物流(B2C)专家，覆盖9610/9710/9810海关监管方式、海外仓(FBA/第三方仓)头程/尾程物流、跨境小包/专线与目的国清关合规",
+      "emoji": "🌏",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-cross-border-ecommerce.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-customs-broker",
+      "name": "报关员",
+      "description": "海关报关与通关专家，覆盖HS编码归类与预裁定、完税价格审定、原产地证申领(FORM E/F/A/B/COO)、单一窗口一体化申报、海关查验/估价/稽查应对与AEO高级认证辅导",
+      "emoji": "🛃",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-customs-broker.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-customs-compliance",
+      "name": "关务合规师",
+      "description": "海关合规与跨境贸易专家，覆盖HS归类、关税筹划、AEO认证、原产地规则、出口管制与海关审计应对",
+      "emoji": "🛃",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-customs-compliance.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-engineering-automation-robotics-intralogistics",
+      "name": "内部物流/仓储自动化系统工程师",
+      "description": "自动化仓储与内部物流系统集成专家，覆盖AGV/AMR移动机器人(WMS/WCS调度)、堆垛机ASRS/Miniload/穿梭车、输送分拣系统(Crossbelt/Shoe Sorter)与仓库控制系统(WCS/WES)集成",
+      "emoji": "🏭",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-engineering-automation-robotics-intralogistics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-engineering-humanitarian-logistics",
+      "name": "应急物流/灾害响应供应链专家",
+      "description": "人道主义应急物流与灾害救援供应链专家，覆盖灾害预置库存/紧急采购/最后一公里配送、冷链(疫苗)/危化品(燃料)应急物流、需求评估/物流集群(Logistics Cluster)协调与供应链韧性/业务连续性(BCP)",
+      "emoji": "🚁",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-engineering-humanitarian-logistics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-engineering-supply-chain-analytics",
+      "name": "供应链分析/优化(OR)科学家",
+      "description": "运筹学与供应链优化科学家，覆盖线性/整数/混合整数规划、网络流/车辆路径(VRP)优化、库存优化(报童模型/多级)、需求预测与供应链数字孪生",
+      "emoji": "📊",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-engineering-supply-chain-analytics.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-engineering-supply-chain-risk",
+      "name": "供应链风险管理/韧性顾问",
+      "description": "全球供应链风险与韧性战略顾问，覆盖供应商风险(财务/合规/地缘)/供应链中断情景规划、多源策略/安全库存/近岸外包(China+1/Nearshoring)、SCRM数字化与冲突矿产/强迫劳动合规",
+      "emoji": "⚠️",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-engineering-supply-chain-risk.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-engineering-supply-chain-software",
+      "name": "软件供应链/依赖管理专家",
+      "description": "软件供应链安全与依赖管理专家，覆盖SBOM(Software Bill of Materials)、开源许可证合规、依赖漏洞管理(Dependabot/Snyk)与软件供应链SLSA框架",
+      "emoji": "📦",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-engineering-supply-chain-software.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-export-manager",
+      "name": "出口业务经理",
+      "description": "出口业务拓展与管理专家，覆盖海外市场调研与渠道开发、国际客户谈判(价格/付款/交期)、展会参展(B2B广交会/海外行业展)获客、出口成本核算(FOB/CIF报价)与合同签约、出口订单全流程管理与售后",
+      "emoji": "🌏",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-export-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-freight-forwarder",
+      "name": "货运代理专家",
+      "description": "国际货运代理与贸易合规专家，精通海运、空运、报关、贸易术语(Incoterms)与跨境物流全链路管理",
+      "emoji": "🚢",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-freight-forwarder.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-general-manager",
+      "name": "物流公司总经理",
+      "description": "第三方物流(3PL)/合同物流企业全面管理者，覆盖战略客户开发、仓储/运输网络规划、运营效率/成本控制与团队建设",
+      "emoji": "🚛",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-general-manager.md",
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "logistics-inventory-planner",
+      "name": "库存规划师",
+      "description": "库存管理与需求预测专家，覆盖安全库存策略、补货计划、ABC分类、滞销品管理与库存周转优化",
+      "emoji": "📦",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-inventory-planner.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-last-mile-delivery",
+      "name": "最后一公里配送专家",
+      "description": "末端配送网络设计与运营专家，覆盖即时配送、快递柜、社区团购、路径优化与骑手管理",
+      "emoji": "🛵",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-last-mile-delivery.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-supply-chain-strategist",
+      "name": "供应链策略师",
+      "description": "供应链管理、采购策略与优化专家",
+      "emoji": "🔗",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-supply-chain-strategist.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-trade-operations",
+      "name": "外贸跟单员",
+      "description": "外贸跟单与订单执行专家，覆盖国际贸易合同审核(Incoterms 2020/L/C条款)、生产跟催与验货排程、订舱/拖车/报关/保险全流程协调、外贸单证制作(商业发票/箱单/提单/产地证/保险单)与出口退税申报",
+      "emoji": "📋",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-trade-operations.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-transportation-planner",
+      "name": "运输调度专家",
+      "description": "运输网络规划与调度优化专家，覆盖路线规划、承运商管理、多式联运、成本控制与运输管理系统(TMS)实施",
+      "emoji": "🚛",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-transportation-planner.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "logistics-warehouse-manager",
+      "name": "仓储经理",
+      "description": "全面的仓库运营管理专家，覆盖仓储布局规划、库存管理、WMS系统实施、人力调度与安全合规",
+      "emoji": "🏭",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-warehouse-manager.md",
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    }
+  ]
+}

@@ -85,3 +85,7 @@ integrations/codex/agents/*
 integrations/osaurus/agency-*/
 integrations/hermes/agency-agents-router/
 graphify-out/
+
+# VS solution build artifacts
+_solution/obj/
+_solution/bin/

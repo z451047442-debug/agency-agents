@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="administration/**/*.md" />
+    <None Include="aerospace/**/*.md" />
+    <None Include="agriculture/**/*.md" />
+    <None Include="automotive/**/*.md" />
+    <None Include="beauty/**/*.md" />
+    <None Include="construction/**/*.md" />
+    <None Include="customer-service/**/*.md" />
+    <None Include="cybersecurity/**/*.md" />
+    <None Include="data-science/**/*.md" />
+    <None Include="design/**/*.md" />
+    <None Include="education/**/*.md" />
+    <None Include="emergency/**/*.md" />
+    <None Include="energy/**/*.md" />
+    <None Include="engineering/**/*.md" />
+    <None Include="environmental/**/*.md" />
+    <None Include="events/**/*.md" />
+    <None Include="fashion/**/*.md" />
+    <None Include="finance/**/*.md" />
+    <None Include="food-beverage/**/*.md" />
+    <None Include="forestry/**/*.md" />
+    <None Include="game-development/**/*.md" />
+    <None Include="gis/**/*.md" />
+    <None Include="government/**/*.md" />
+    <None Include="healthcare/**/*.md" />
+    <None Include="hr-tech/**/*.md" />
+    <None Include="hr/**/*.md" />
+    <None Include="infrastructure/**/*.md" />
+    <None Include="insurance/**/*.md" />
+    <None Include="iot/**/*.md" />
+    <None Include="legal/**/*.md" />
+    <None Include="libraries/**/*.md" />
+    <None Include="localization/**/*.md" />
+    <None Include="logistics/**/*.md" />
+    <None Include="lottery/**/*.md" />
+    <None Include="manufacturing/**/*.md" />
+    <None Include="marketing/**/*.md" />
+    <None Include="media-entertainment/**/*.md" />
+    <None Include="mining/**/*.md" />
+    <None Include="museums/**/*.md" />
+    <None Include="network-engineering/**/*.md" />
+    <None Include="nonprofit/**/*.md" />
+    <None Include="operations/**/*.md" />
+    <None Include="pets/**/*.md" />
+    <None Include="pharma-biotech/**/*.md" />
+    <None Include="product/**/*.md" />
+    <None Include="project-management/**/*.md" />
+    <None Include="publishing/**/*.md" />
+    <None Include="quality/**/*.md" />
+    <None Include="real-estate/**/*.md" />
+    <None Include="retail/**/*.md" />
+    <None Include="robotics/**/*.md" />
+    <None Include="sales/**/*.md" />
+    <None Include="securities/**/*.md" />
+    <None Include="security/**/*.md" />
+    <None Include="spatial-computing/**/*.md" />
+    <None Include="specialized/**/*.md" />
+    <None Include="sports/**/*.md" />
+    <None Include="strategy/**/*.md" />
+    <None Include="telecom/**/*.md" />
+    <None Include="testing/**/*.md" />
+    <None Include="tourism/**/*.md" />
+    <None Include="web3/**/*.md" />
+  </ItemGroup>
+</Project>

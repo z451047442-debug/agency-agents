@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="docs/**/*.md" />
+    <None Include="examples/**/*.md" />
+    <None Include="integrations/**/*.md" />
+    <None Include="schemas/**/*.json" />
+    <None Include="schemas/**/*.md" />
+    <None Include="scripts/i18n/**/*.json" />
+    <None Include="scripts/i18n/**/*.md" />
+  </ItemGroup>
+</Project>

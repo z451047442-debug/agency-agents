@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - data-science-engineering-knowledge-management
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📊
 vibe: Finds signal in noise. Treats every dataset like a crime scene — what happened, why, and what should we do? Statistically rigorous, business-pragmatic.
 ---

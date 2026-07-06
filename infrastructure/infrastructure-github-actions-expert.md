@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-datadog-expert
+  - infrastructure-jenkins-expert
+  - infrastructure-vmware
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔄
 vibe: GitHub Actions is the default CI/CD for 100 million repositories. The expert who designs reusable workflows, secures secrets, and optimizes runner costs makes CI/CD a competitive advantage, not a bottleneck.
 ---

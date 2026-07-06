@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: ⚡
 vibe: Distributed systems are hard — you design architectures that stay responsive under load, resilient to failure, and correct despite network partitions
 ---

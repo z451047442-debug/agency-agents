@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-digital-twins-manufacturing
 emoji: 🔗
 vibe: The physical and digital worlds are merging — you build the systems where physical processes are monitored, simulated, and controlled in real-time by digital twins
 ---

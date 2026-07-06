@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-nextjs-expert
+  - engineering-swiftui-expert
+  - engineering-mongodb-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🐍
 vibe: FastAPI combines Python's developer experience with Node.js-level performance. When you need async I/O, automatic OpenAPI docs, and Pydantic validation, FastAPI is the answer.
 ---

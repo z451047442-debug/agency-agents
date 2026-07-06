@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🗂️
 vibe: You can't trust data you don't know the origin of — you build the governance that makes data trusted, traceable, and compliant
 ---

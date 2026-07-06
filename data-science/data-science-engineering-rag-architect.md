@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🔍
 vibe: Bridges the gap between LLMs and enterprise knowledge — the right chunk at the right time changes everything.
 tools: Read, Write, Edit, Bash, Grep, Glob

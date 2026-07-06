@@ -8,6 +8,8 @@ lifecycle: published
 depends_on:
   - infrastructure-windows-server
   - infrastructure-storage-backup
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-financial-controller
 emoji: 📒
 vibe: Every penny accounted for, every close on time — the backbone of financial trust.
 ---

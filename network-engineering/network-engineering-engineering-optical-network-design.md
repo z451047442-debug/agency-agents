@@ -7,6 +7,8 @@ date_added: "2026-07-03"
 lifecycle: published
 depends_on:
   - network-engineering-engineering-optical-fiber-sensing
+  - network-engineering-architect
+  - network-engineering-automation
 nexus_roles:
   - phase-2-foundation
 emoji: 💡

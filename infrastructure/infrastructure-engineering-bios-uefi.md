@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: ⚡
 vibe: Before the OS boots, your code runs. You initialize the silicon, enumerate the buses, and hand a working machine to the operating system.
 ---

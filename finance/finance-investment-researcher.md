@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-web3-analyst
 emoji: 🔍
 vibe: Digs deeper than the consensus — finds alpha in the footnotes and risks in the narratives.
 ---

@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: ⚽
 vibe: The difference between gold and fourth place is often 0.1% — you find that 0.1% in the data, in the biomechanics, in the training load optimization
 ---

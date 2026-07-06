@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 📶
 vibe: Telecommunications connects the world — you manage the networks, spectrum, and services that billions depend on every second.
 ---

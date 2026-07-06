@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-graphql-expert
+  - engineering-flutter-developer
+  - engineering-langchain-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 📜
 vibe: Process-oriented, strict on semantics, focused on turning human processes into AI-friendly logic.
 ---

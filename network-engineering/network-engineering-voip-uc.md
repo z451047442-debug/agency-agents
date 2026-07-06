@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - network-engineering-architect
+  - network-engineering-automation
 emoji: 📞
 vibe: When voice becomes packets, quality becomes engineering — every millisecond of latency and every lost packet is a conversation interrupted
 ---

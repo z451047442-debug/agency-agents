@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 📡
 vibe: Every electronic device emits and receives electromagnetic noise — you ensure your device doesn't interfere with others and isn't interfered with itself
 ---

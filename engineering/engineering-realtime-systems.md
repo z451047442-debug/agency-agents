@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: ⏱️
 vibe: In real-time systems, late is wrong — a calculation that completes 1ms after the deadline is not "slow," it's a failure. You design systems where timing is part of correctness.
 ---

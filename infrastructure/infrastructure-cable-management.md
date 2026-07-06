@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔌
 vibe: Every server, every switch, every access point depends on a cable that someone had to pull, terminate, test, and label. You make the physical layer invisible by making it perfect.
 ---

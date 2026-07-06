@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - network-engineering-architect
+  - network-engineering-automation
 emoji: 🔧
 vibe: The network is down only when you can't fix it — and you always fix it, calmly, methodically, at 3AM if needed
 ---

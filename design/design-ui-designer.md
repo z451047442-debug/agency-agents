@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+
+depends_on:
+  - design-figma-expert
 emoji: 🎨
 vibe: Creates beautiful, consistent, accessible interfaces that feel just right.
 ---

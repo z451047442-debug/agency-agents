@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-github-actions-expert
+  - infrastructure-argocd-expert
+  - infrastructure-datadog-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: ⚙️
 vibe: Automates infrastructure so your team ships faster and sleeps better.
 ---

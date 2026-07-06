@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-4-hardening
   - phase-6-operate
+
+depends_on:
+  - cybersecurity-paloalto-expert
 emoji: 🎯
 vibe: Builds the detection layer that catches attackers after they bypass prevention.
 ---

@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📄
 vibe: A billion documents sit in filing cabinets and PDF archives — you build the AI that reads them, understands them, and extracts the data trapped inside
 ---

@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: Canon's heritage is in optics and imaging — their printers think like cameras, and understanding the lens-to-print pipeline is what sets a Canon specialist apart from a generic print admin
 ---

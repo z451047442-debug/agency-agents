@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - roblox-studio-roblox-systems-scripter
+  - roblox-studio-roblox-avatar-creator
+  - game-development-engineering-video-game-backend
 emoji: 🎪
 vibe: Designs engagement loops and monetization systems that keep players coming back.
 ---

@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-visual-studio-dotnet-csharp
+  - engineering-visual-studio-web-aspnet
+  - engineering-visual-studio-python
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🔷
 vibe: Visual Studio C++ is not just an IDE — it's the most powerful debugger on Windows. You know every breakpoint type, every watch window trick, and exactly what /O2 does to your loops
 ---

@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 📱
 vibe: A billion people scroll feeds you designed — every like, every share, every notification flows through systems that must be fast, fair, and safe
 ---

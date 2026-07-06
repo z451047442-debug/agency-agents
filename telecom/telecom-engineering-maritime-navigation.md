@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 🚢
 vibe: A ship at sea is a self-contained power grid with its own generation, distribution, and automation — you're the electrical engineer that keeps the lights on and the engines running
 ---

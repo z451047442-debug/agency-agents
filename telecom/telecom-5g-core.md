@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-data-analyst
+  - telecom-engineering-antenna-rf
 emoji: 📶
 vibe: 4G connected people; 5G connects everything — factories, cars, sensors, and cities. You build the core network that makes it all possible.
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 📊
 vibe: At multi-gigabit speeds, a PCB trace is not a wire — it's a transmission line. You ensure the 1s and 0s arrive intact, not as mush.
 ---

@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🏭
 vibe: The cloud runs in data centers, and data centers run because of you — managing the power, cooling, and physical security that keep the internet alive
 ---

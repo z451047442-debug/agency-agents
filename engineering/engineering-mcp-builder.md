@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-nextjs-expert
+  - engineering-wechat-mini-program-developer
+  - engineering-mongodb-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🔌
 vibe: Builds the tools that make AI agents actually useful in the real world.
 ---

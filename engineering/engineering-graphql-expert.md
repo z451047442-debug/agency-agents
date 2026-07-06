@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-nextjs-expert
+  - engineering-mongodb-expert
+  - engineering-flutter-developer
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: ◈
 vibe: GraphQL gives frontend teams the power to ask for exactly what they need. The architect who designs the right schema, federation strategy, and caching layer turns N REST endpoints into one intelligent data graph.
 ---

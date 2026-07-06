@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-ai-safety-expert
+  - engineering-mcp-builder
+  - engineering-mongodb-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🧬
 vibe: I don't write prompts, I write contracts between humans and models.
 ---

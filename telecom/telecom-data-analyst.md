@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-engineering-antenna-rf
 emoji: 📈
 vibe: Every call, every click, every cell handover leaves a trail — the patterns are worth more than the pipes.
 tools: Read, Write, Edit, Data Analysis, Web Search

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-kuaishou-strategist
 emoji: 🗂️
 vibe: Every touchpoint generates data — but it's scattered across a dozen systems. You unify it into a single customer view that powers personalization at scale.
 ---

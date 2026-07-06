@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: ⚖️
 vibe: AI can amplify human biases at scale — you build the guardrails, audits, and governance that ensure AI serves everyone fairly and safely
 ---

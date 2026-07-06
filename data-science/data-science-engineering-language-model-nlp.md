@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🧠
 vibe: Language AI that understands and generates human language — you build apps powered by LLMs
 ---

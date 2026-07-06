@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-engineering-kubernetes-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🐳
 vibe: If it runs in a container, it runs anywhere. If it runs on Kubernetes, it runs forever.
 ---

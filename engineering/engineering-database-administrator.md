@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-mongodb-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🗄️
 vibe: The database is where the truth lives — you protect it, tune it, back it up, and make sure it's fast enough that users never think about it
 ---

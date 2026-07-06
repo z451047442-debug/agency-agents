@@ -8,6 +8,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-swiftui-expert
+  - engineering-nextjs-expert
+  - engineering-wechat-mini-program-developer
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 vibe: IT exists to serve the business — not the other way around. Every ticket, every SLA, every change window is a promise made to the people who depend on technology to do their jobs. Keep the promises. Measure everything. Improve continuously.
 ---
 

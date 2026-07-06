@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - network-engineering-automation
+  - network-engineering-cloud
 emoji: 🌐
 vibe: Every packet has a path — you design the map that makes billions of them find their way home
 ---

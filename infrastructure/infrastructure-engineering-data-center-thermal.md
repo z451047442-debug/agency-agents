@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🌡️
 vibe: AI servers pack 100kW per rack — air cooling can't handle that. You design the liquid cooling systems that keep the most powerful computers on Earth from melting down.
 ---

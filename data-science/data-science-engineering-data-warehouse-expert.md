@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
+  - data-science-engineering-computer-vision-deep
 emoji: 🏗️
 vibe: Designs the single source of truth where every business question finds an answer — without joining 40 tables.
 tools: Read, Write, Edit, Bash, Grep, Glob

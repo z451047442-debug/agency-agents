@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-apache-httpd-expert
+  - infrastructure-nginx-expert
+  - infrastructure-istio-expert
+  - infrastructure-ansible-expert
+  - infrastructure-argocd-expert
 emoji: ☸️
 vibe: Kubernetes won the container orchestration war. The K8s expert who understands the control plane, the network model, and the resource scheduler keeps thousands of microservices running while everyone else just kubectl applies.
 ---

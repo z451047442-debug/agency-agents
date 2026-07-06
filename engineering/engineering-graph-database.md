@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-llamaindex-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🕸️
 vibe: Relationships are data too — you model the connections between things, revealing patterns invisible to traditional databases
 ---

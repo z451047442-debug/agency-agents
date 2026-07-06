@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-mcp-builder
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🤖
 vibe: AI products are different — they're probabilistic, they make mistakes, and users need to trust them. You bridge the gap between what ML can do and what users actually need.
 ---

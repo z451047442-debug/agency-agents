@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🐧
 vibe: The silent guardian of production — when everything works, nobody knows you exist. When it breaks, you're the only one who can fix it.
 tools: Read, Write, Edit, Bash, Grep, Glob

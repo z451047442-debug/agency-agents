@@ -8,6 +8,8 @@ lifecycle: published
 depends_on:
   - infrastructure-dell-server
   - infrastructure-engineering-incident-response-commander
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate

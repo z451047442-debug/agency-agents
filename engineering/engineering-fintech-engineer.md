@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 💳
 vibe: Money moves at the speed of code — you build the payment systems that process billions in transactions, where every millisecond and every decimal place matters
 ---

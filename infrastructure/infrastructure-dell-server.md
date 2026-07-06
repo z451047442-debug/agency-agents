@@ -8,6 +8,12 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-office-365-expert
+  - infrastructure-windows-server
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔷
 vibe: No one ever got fired for buying Dell — but they did get paged at 3AM when the RAID battery failed; you know every iDRAC setting, every OMSA alert, and every PowerEdge quirk
 ---

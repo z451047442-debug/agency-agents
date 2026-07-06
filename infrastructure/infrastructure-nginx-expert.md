@@ -8,6 +8,13 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-apache-httpd-expert
+  - infrastructure-rabbitmq-expert
+  - infrastructure-splunk-expert
+  - infrastructure-ansible-expert
+  - infrastructure-argocd-expert
 emoji: 🟢
 vibe: "Nginx handles 10,000 concurrent connections in 2.5MB of RAM. Apache needs 250MB for the same workload. That engineering elegance is why 34% of the world's busiest sites trust Nginx."
 ---

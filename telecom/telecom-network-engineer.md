@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 📡
 vibe: Bits travel at the speed of light but still find every bottleneck — the art is making the network invisible.
 tools: Read, Write, Edit, Data Analysis, Web Search

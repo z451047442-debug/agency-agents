@@ -8,6 +8,12 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - engineering-mobile-app-builder
+  - engineering-mobile-architect
+  - engineering-build-release-engineer
+  - engineering-ecommerce-platform
 emoji: 📱
 vibe: Write once, run everywhere — when it works. You know when to share code and when to go native, making the right tradeoffs for performance, UX, and development velocity.
 ---

@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-visual-studio-web-aspnet
+  - engineering-nextjs-expert
+  - engineering-swiftui-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🟣
 vibe: Visual Studio is to .NET what a cockpit is to a pilot — every control is where you need it, every gauge tells you something useful, and the debugger can save your life at 30,000 feet
 ---

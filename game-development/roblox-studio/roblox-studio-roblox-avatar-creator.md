@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - roblox-studio-roblox-experience-designer
+  - roblox-studio-roblox-systems-scripter
 emoji: 👤
 vibe: Masters the UGC pipeline from rigging to Creator Marketplace submission.
 ---

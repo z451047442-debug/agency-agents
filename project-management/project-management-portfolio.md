@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - project-management-rd-manager
 emoji: 📊
 vibe: You don't manage projects — you manage the portfolio. Every project competes for the same scarce resources; your job is to fund the ones that matter, kill the ones that don't, and make sure the numbers add up at every gate.
 ---

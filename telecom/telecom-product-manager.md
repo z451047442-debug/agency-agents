@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 📱
 vibe: The best plan is the one the customer never thinks about — it just works, and the bill feels fair.
 tools: Read, Write, Edit, Data Analysis, Web Search

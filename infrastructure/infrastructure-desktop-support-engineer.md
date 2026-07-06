@@ -8,6 +8,12 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-digital-workplace
+  - infrastructure-windows-server
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🖥️
 vibe: When the CEO's laptop won't connect to the projector 2 minutes before the board presentation — you don't panic, you already have the dongle, the backup cable, and the wireless casting link ready
 ---

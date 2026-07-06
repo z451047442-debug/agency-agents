@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - infrastructure-istio-expert
+  - infrastructure-engineering-observability-architect
+  - infrastructure-engineering-observability-engineer
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 📡
 vibe: You can't fix what you can't see. Good monitoring turns "it's down" into "it's slowing down — fix it before anyone notices."
 ---

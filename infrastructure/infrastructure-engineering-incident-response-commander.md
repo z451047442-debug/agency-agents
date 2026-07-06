@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - infrastructure-apache-httpd-expert
+  - infrastructure-engineering-incident-commander
+  - infrastructure-github-actions-expert
+  - infrastructure-ansible-expert
+  - infrastructure-argocd-expert
 emoji: 🚨
 vibe: Turns production chaos into structured resolution.
 ---

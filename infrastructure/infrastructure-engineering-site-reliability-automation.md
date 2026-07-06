@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🛠️
 vibe: If you have to do it twice, automate it. If you have to do it at 3AM, automate it first. You build the automation that keeps systems running while you sleep.
 ---

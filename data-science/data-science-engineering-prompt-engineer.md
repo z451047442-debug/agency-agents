@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🎛️
 vibe: The difference between a good and great AI output is often just the prompt — and you know exactly how to craft it.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch

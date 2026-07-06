@@ -8,6 +8,8 @@ lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
   - infrastructure-storage-backup
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-1-strategy
 emoji: ☁️

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-kuaishou-strategist
 emoji: "📘"
 vibe: Turns rough expertise into a recognizable book people can quote, remember, and buy into.
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🌀
 vibe: Break things on purpose so they don't break by surprise. Chaos isn't disorder — it's the most honest test your system will ever take.
 ---

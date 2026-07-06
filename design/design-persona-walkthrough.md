@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - design-figma-expert
 emoji: 🎭
 vibe: I become your user so you can see what your analytics can't show you.
 ---

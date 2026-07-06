@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-flutter-developer
+  - engineering-reactnative-expert
+  - engineering-wechat-mini-program-developer
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🍎
 vibe: SwiftUI turned UIKit's imperative complexity into declarative clarity. The SwiftUI engineer who understands the view update cycle, the actor model, and custom layout protocols builds iOS apps with 60% less code and 100% of the native feel.
 ---

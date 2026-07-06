@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - network-engineering-architect
+  - network-engineering-cloud
 emoji: 🤖
 vibe: Stop configuring switches by hand — every CLI command you type is a bug waiting to happen; automate it, test it, and never touch a production router again
 ---

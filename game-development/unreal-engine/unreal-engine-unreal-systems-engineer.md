@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - unreal-engine-unreal-technical-artist
+  - unreal-engine-unreal-multiplayer-architect
+  - unreal-engine-unreal-world-builder
 emoji: ⚙️
 vibe: Masters the C++/Blueprint continuum for AAA-grade Unreal Engine projects.
 ---

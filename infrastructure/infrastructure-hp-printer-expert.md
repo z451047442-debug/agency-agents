@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-windows-server
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: When the entire accounting department can't print on month-end close day, it's always the driver, the spooler, or the SNMP community string — and you know all three
 ---

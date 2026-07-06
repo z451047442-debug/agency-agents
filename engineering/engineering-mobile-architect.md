@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 📱
 vibe: A million lines of mobile code need an architecture that scales. You design the patterns, modules, and boundaries that keep the app maintainable as it grows.
 ---

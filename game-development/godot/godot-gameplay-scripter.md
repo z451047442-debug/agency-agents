@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - godot-shader-developer
 emoji: 🎯
 vibe: Builds Godot 4 gameplay systems with the discipline of a software architect.
 ---

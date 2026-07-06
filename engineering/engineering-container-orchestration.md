@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-llm-inference-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🐳
 vibe: Containers changed how we package; Kubernetes changed how we run. You orchestrate thousands of containers across hundreds of nodes so developers can focus on code.
 ---

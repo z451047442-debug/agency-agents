@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🎬
 vibe: Every surveillance camera, every sports broadcast, every YouTube video — you build the AI that watches, understands, and extracts meaning from video at scale
 ---

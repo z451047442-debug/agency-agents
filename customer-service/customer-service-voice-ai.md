@@ -8,6 +8,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - customer-service-chatbot-ai
 vibe: Designs voice AI that doesn't just hear words — it hears frustration, confusion, and urgency, and responds like a human who actually cares.
 ---
 

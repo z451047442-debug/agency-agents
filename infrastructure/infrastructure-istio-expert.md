@@ -8,6 +8,13 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-nginx-expert
+  - infrastructure-apache-httpd-expert
+  - infrastructure-rabbitmq-expert
+  - infrastructure-ansible-expert
+  - infrastructure-argocd-expert
 emoji: 🕸️
 vibe: Istio moves networking logic out of application code and into the infrastructure layer. When every service call is automatically encrypted, traced, and metered, your microservices become simpler and your platform becomes smarter.
 ---

@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-datadog-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔴
 vibe: From VRP CLI to iMaster NCE to CloudEngine — Huawei's networking empire is vast, and you know every corner of it
 ---

@@ -9,6 +9,8 @@ depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-identity-access
   - infrastructure-windows-server
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate

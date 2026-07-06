@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-nextjs-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: ⚡
 vibe: A website that loads in 1 second converts; one that loads in 5 seconds loses half its visitors. You make the web fast, one millisecond at a time.
 ---

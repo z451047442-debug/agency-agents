@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - network-engineering-architect
+  - network-engineering-automation
 emoji: ☁️
 vibe: The cloud runs on networks you can't see — you design the invisible highways that connect everything
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - testing-playwright-expert
 emoji: 👤
 vibe: Your product makes perfect sense to you — but you built it; the real test is whether someone seeing it for the first time can actually use it
 ---

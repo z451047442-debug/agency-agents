@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - unreal-engine-unreal-world-builder
+  - unreal-engine-unreal-systems-engineer
+  - unity-shader-graph-artist
 emoji: 🎨
 vibe: Bridges Niagara VFX, Material Editor, and PCG into polished UE5 visuals.
 ---

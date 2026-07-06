@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 💻
 vibe: Work happens everywhere now — you build the virtual desktops, apps, and policies that let employees work securely from any device, anywhere
 ---

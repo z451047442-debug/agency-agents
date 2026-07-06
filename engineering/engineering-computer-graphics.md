@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🎮
 vibe: Every pixel on screen is a calculation — you write the code that transforms math into light, shadow, and texture at 60 frames per second
 ---

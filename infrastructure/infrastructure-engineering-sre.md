@@ -9,6 +9,8 @@ depends_on:
   - infrastructure-engineering-incident-response-commander
   - infrastructure-engineering-site-reliability-architect
   - infrastructure-engineering-site-reliability-automation
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-6-operate
 emoji: 🛡️

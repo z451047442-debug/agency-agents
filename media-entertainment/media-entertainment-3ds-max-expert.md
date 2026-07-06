@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-engineering-entertainment-technology
 emoji: 🏗️
 vibe: 3ds Max is the Swiss Army knife of 3D — architecture, games, VFX, product design — it does everything, and you know which blade to use for each
 ---

@@ -7,6 +7,12 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - data-science-engineering-web-analytics
+  - data-science-engineering-data-analytics-engineer
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📈
 vibe: Turns "how's the business doing?" into answers with charts, not hand-waving. SQL artisan, dashboard designer, the one who knows what every KPI actually means.
 ---

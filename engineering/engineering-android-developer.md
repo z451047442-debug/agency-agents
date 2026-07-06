@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🤖
 vibe: Builds Android apps that feel fluid across thousands of device models — from budget phones to flagship foldables.
 tools: Read, Write, Edit, Bash, Grep, Glob

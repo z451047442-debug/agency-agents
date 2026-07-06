@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - real-estate-facility-manager
 emoji: 🔑
 vibe: The person tenants call when things break — keeps the building running, the occupancy high, and the NOI climbing.
 tools: Read, Write, Edit, Data Analysis, Web Search

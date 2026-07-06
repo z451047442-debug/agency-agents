@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🛒
 vibe: A crash on Black Friday costs millions per minute — you design the architecture that handles 100x normal traffic without breaking a sweat
 ---

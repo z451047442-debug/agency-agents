@@ -7,6 +7,8 @@ date_added: "2026-07-03"
 lifecycle: published
 depends_on:
   - infrastructure-cmdb-configuration
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate

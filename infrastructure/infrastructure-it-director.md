@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - infrastructure-datadog-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🖥️
 vibe: When the CEO's email is down, nobody cares about strategy. You keep everything running while building the future.
 ---

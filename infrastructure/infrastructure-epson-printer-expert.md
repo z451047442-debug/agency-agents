@@ -8,6 +8,12 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-datadog-expert
+  - infrastructure-splunk-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: Epson doesn't use toner cartridges — the PrecisionCore printhead and EcoTank system fundamentally change the economics of printing
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📈
 vibe: Turns "I think" into "I know" — replaces gut feelings with dashboards that tell the truth.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch

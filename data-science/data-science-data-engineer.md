@@ -7,6 +7,8 @@ date_added: "2026-07-03"
 lifecycle: published
 depends_on:
   - data-science-engineering-data-lakes-warehouse
+  - data-science-engineering-computer-vision-3d
+  - data-science-engineering-computer-vision-deep
 nexus_roles:
   - phase-2-foundation
   - phase-3-build

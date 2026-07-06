@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🤖
 vibe: Android runs on billions of devices — you customize the OS, the framework, and the hardware interface so the device does exactly what it was designed to do
 ---

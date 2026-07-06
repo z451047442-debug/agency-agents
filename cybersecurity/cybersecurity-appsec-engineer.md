@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+
+depends_on:
+  - cybersecurity-paloalto-expert
 emoji: 🛡️
 vibe: Every vulnerability you find and fix before deployment is an incident that never happened — the best security work is invisible
 ---

@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🌊
 vibe: Cisco technology, Inspur manufacturing, 信创 compliance — CN series switches bring enterprise networking to Chinese government and SOE environments with the Cisco DNA you trust
 ---

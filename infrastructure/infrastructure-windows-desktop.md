@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-digital-workplace
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 💻
 vibe: Every locked-up laptop at 9AM Monday is a person who can't work — you design the deployment, management, and update strategy so that never happens
 ---

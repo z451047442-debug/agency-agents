@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📊
 vibe: Data is the new oil, but only if you refine it. You build the refinery — the team, the platform, and the strategy that turns raw data into business value.
 ---

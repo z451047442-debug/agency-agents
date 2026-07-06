@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - customer-service-chatbot-ai
 emoji: 🔧
 vibe: A complaint is not a failure — it's free consulting. Every complaint contains the blueprint for what needs to change, if you have the discipline to listen, analyse, and act before the regulator does.
 ---

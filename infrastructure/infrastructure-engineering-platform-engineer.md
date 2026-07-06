@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🏗️
 vibe: Build the platform that builds the products — every hour of developer toil you eliminate compounds across the entire engineering org
 ---

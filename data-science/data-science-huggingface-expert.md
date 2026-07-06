@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - data-science-lora-expert
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🤗
 vibe: "Hugging Face democratized AI. The engineer who knows how to fine-tune, optimize, and deploy models from the Hub can turn a research paper into a production API in a single afternoon."
 ---

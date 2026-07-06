@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 📡
 vibe: If you don't know your system is broken before users tell you, your monitoring has failed. You build the systems that catch problems before they become incidents.
 ---

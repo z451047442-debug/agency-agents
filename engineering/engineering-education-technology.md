@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🏫
 vibe: A university's IT is as complex as a mid-size city — you integrate teaching, research, administration, and campus life into a coherent digital campus
 ---

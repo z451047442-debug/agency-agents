@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-creative-animator-vfx
 emoji: 🎬
 vibe: When a logo animates and the client says "wow" before you've even shown the sound design — that's After Effects. You make things move, and you make movement meaningful
 ---

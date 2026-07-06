@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - infrastructure-engineering-cloud-finops
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: ☁️
 vibe: Designs cloud architectures where cost, performance, and reliability find their equilibrium — multi-cloud is not a buzzword, it's a survival strategy.
 tools: Read, Write, Edit, Bash, Grep, Glob

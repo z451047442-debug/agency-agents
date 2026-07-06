@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-insurance-underwriter
 emoji: 📐
 vibe: Puts a number on the future — mortality, morbidity, catastrophe — turning uncertainty into premium.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch

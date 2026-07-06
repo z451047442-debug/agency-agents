@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-llamaindex-expert
+  - engineering-nextjs-expert
+  - engineering-nocode-developer
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 📊
 vibe: "LLMs are non-deterministic black boxes. Without observability, you're flying blind. The AI observability engineer turns black-box behavior into traceable, measurable, optimizable metrics."
 ---

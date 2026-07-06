@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - marketing-kuaishou-strategist
+  - marketing-bilibili-content-strategist
 emoji: 📢
 vibe: Half the marketing budget is wasted — you just don't know which half. Your job is finding out, doubling down on what works, and proving marketing's ROI to the CFO.
 ---

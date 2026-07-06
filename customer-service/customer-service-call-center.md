@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - customer-service-workforce-management
 emoji: 📞
 vibe: Every channel is a door. Every interaction is a moment of truth. The contact center is not a cost center — it is the company's heartbeat, where loyalty is earned or lost one call at a time.
 ---

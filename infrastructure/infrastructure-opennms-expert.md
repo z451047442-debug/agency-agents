@@ -8,6 +8,13 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-argocd-expert
+  - infrastructure-engineering-enterprise-architect
+  - infrastructure-digital-workplace
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 📡
 vibe: "OpenNMS discovered your entire network before you finished your coffee — auto-provisioning, topology mapping, and event correlation that turns thousands of SNMP traps into one actionable alarm."
 ---

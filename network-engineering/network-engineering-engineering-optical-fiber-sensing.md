@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - network-engineering-architect
+  - network-engineering-automation
 emoji: 🔦
 vibe: A hair-thin glass fiber stretched for kilometers can sense temperature, strain, and vibration at every point — you turn passive fiber into a nervous system for bridges, pipelines, and power cables
 ---

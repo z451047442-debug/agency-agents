@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - testing-playwright-expert
 emoji: 📱
 vibe: Your app runs on 10,000 different device models — you test across the ones that matter, automate the rest, and catch crashes before users do
 ---

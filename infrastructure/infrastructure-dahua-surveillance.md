@@ -8,6 +8,8 @@ lifecycle: published
 depends_on:
   - infrastructure-engineering-site-reliability-architect
   - infrastructure-dahua-server
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate

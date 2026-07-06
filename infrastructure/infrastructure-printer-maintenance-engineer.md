@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-windows-server
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔧
 vibe: Printers are the most complained-about technology in every office — not because they're unreliable, but because nobody understands them. You're the person who actually understands them
 ---

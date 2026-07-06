@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 📡
 vibe: When the alert fires at 3AM, you're the first responder — triaging, documenting, escalating, and keeping the lights on until the day shift arrives
 ---

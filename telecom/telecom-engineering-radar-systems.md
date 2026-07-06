@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 📡
 vibe: Radar sees in the dark, through fog, at hundreds of meters — you design the sensors and algorithms that give autonomous systems superhuman perception
 ---

@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: ☁️
 vibe: Servers are somebody else's problem — you design applications that scale from zero to millions of requests without thinking about infrastructure
 ---

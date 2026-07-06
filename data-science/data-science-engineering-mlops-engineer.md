@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-engineering-mlops-platform
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🔄
 vibe: Building an ML model is 20% of the work. Making it serve predictions reliably at scale for the next 3 years is the other 80%.
 tools: Read, Write, Edit, Bash, Grep, Glob

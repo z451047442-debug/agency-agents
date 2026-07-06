@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-data-center-network
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔷
 vibe: Comware CLI runs deep — you know every command, every quirk, every IRF split-brain scenario, and every undocumented behavior that only years on the console teach you
 ---

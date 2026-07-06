@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - design-engineering-ux-research-ops
 emoji: 🔬
 vibe: Validates design decisions with real user data, not assumptions.
 ---

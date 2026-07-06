@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🌐
 vibe: Not everything belongs in the cloud. When latency must be under 10ms, compute moves to the edge — you build the distributed infrastructure that makes it possible.
 ---

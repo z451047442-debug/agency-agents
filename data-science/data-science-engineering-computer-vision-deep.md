@@ -9,6 +9,8 @@ depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-computer-vision-expert
+  - data-science-data-engineer
+  - data-science-engineering-customer-data-science
 nexus_roles:
   - phase-2-foundation
   - phase-3-build

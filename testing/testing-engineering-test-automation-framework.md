@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - testing-playwright-expert
 emoji: 🧪
 vibe: A well-designed test framework makes writing tests so easy that developers do it voluntarily. You architect the framework that makes quality the default.
 ---

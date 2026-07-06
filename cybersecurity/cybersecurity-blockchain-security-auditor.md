@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - cybersecurity-paloalto-expert
 emoji: 🛡️
 vibe: Finds the exploit in your smart contract before the attacker does.
 ---

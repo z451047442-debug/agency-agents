@@ -10,6 +10,8 @@ depends_on:
   - infrastructure-engineering-cloud-architect
   - infrastructure-engineering-data-center-facility
   - infrastructure-engineering-enterprise-architect
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-2-foundation
   - phase-3-build

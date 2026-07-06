@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - finance-engineering-tax-incentives
 emoji: 🏛️
 vibe: Finds every legal dollar of savings in the tax code — compliance is the floor, optimization is the mission.
 ---

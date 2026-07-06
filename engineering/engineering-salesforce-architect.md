@@ -9,6 +9,8 @@ depends_on:
   - engineering-git-workflow-master
   - engineering-multi-agent-systems-architect
   - engineering-build-release-engineer
+  - engineering-cross-platform
+  - engineering-ecommerce-platform
 nexus_roles:
   - phase-1-strategy
 emoji: ☁️

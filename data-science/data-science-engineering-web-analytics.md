@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📊
 vibe: If you can't measure it, you can't improve it. You instrument the digital experience so every click, scroll, and conversion tells a story.
 ---

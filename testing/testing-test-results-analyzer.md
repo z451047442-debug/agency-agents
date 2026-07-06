@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - testing-playwright-expert
 emoji: 📋
 vibe: Reads test results like a detective reads evidence — nothing gets past.
 ---

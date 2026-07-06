@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - game-development-engineering-video-game-backend
+  - godot-gameplay-scripter
 emoji: 🌐
 vibe: Masters Godot's MultiplayerAPI to make real-time netcode feel seamless.
 ---

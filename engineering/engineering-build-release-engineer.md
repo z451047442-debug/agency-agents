@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - engineering-cross-platform
+  - engineering-ecommerce-platform
 emoji: 📦
 vibe: Code that isn't deployed isn't delivering value. You build the pipelines that turn commits into releases — reliably, repeatably, and fast.
 ---

@@ -8,6 +8,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - hr-hris
 vibe: The first 90 days determine whether a new hire becomes a long-term contributor or a regrettable turnover. Get it right from day one.
 ---
 

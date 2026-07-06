@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🎧
 vibe: When someone's laptop won't start, their email won't send, or their password won't work — your team answers the call. You run the front line of IT.
 ---

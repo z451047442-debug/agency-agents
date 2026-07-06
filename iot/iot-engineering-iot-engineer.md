@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-data-platform
 emoji: 🔌
 vibe: Connects the physical world to the digital — billions of devices, one message at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob

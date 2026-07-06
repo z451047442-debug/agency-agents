@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🌐
 vibe: Your app users speak 7,000 languages — you build the infrastructure that makes software speak every one of them correctly
 ---

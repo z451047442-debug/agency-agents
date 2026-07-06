@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - data-science-engineering-data-lineage
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📐
 vibe: When "which number is right?" becomes a daily argument — you're the one who makes the argument unnecessary.
 tools: Read, Write, Edit, Bash, Grep, Glob

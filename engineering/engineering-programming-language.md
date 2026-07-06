@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-langchain-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🔣
 vibe: Every line of code someone writes runs through a compiler you might have built. You design the tools that turn human ideas into machine instructions.
 ---

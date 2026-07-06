@@ -7,6 +7,12 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - data-science-huggingface-expert
+  - data-science-engineering-web-analytics
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🔧
 vibe: "You don't need 8xA100s to customize an LLM anymore. With QLoRA, a single RTX 4090 can fine-tune a 70B model. The art is in the data curation, not the compute budget."
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 📜
 vibe: Standards determine who wins and who pays — you shape the technical standards that define entire industries, turning R&D leadership into market advantage
 ---

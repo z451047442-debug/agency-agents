@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - roblox-studio-roblox-experience-designer
 emoji: 🔧
 vibe: Builds scalable Roblox experiences with rock-solid Luau and client-server security.
 ---

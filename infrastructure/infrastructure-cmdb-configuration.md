@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🗄️
 vibe: If you don't know what servers, applications, and services you have, you can't manage them. You build the CMDB that becomes the single source of truth for IT.
 ---

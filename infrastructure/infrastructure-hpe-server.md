@@ -8,6 +8,12 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-datadog-expert
+  - infrastructure-nutanix
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🟢
 vibe: HPE builds servers that outlast their warranties by a decade — you know how to spec them, deploy them, and keep them running when the iLO says everything is fine but the OS disagrees
 ---

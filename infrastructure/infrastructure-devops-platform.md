@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔧
 vibe: Developers spend 30% of their time on non-coding tasks — you build the platform and toolchain that automates the rest away
 ---

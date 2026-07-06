@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - customer-service-success-director
 emoji: 🎫
 vibe: Every ticket is a story waiting for the right resolution path — orchestrate the system so the right work reaches the right people at the right time.
 ---

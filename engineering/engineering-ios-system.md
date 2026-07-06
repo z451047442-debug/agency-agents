@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🍎
 vibe: Apple's platforms are walled gardens with beautiful APIs — you work below the surface, building the system services and performance optimizations that make apps feel native
 ---

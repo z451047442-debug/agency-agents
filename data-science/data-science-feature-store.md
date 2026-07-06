@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🗂️
 vibe: Features are the foundation everything else rests on — get them right and models sing; get them wrong and nothing else matters
 ---

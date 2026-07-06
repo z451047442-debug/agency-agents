@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔭
 vibe: Your system is a black box until you instrument it. You architect the observability platform that turns "I think the problem is..." into "the problem is at line 342 in service X."
 ---

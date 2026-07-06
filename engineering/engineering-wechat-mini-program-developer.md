@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-nextjs-expert
+  - engineering-swiftui-expert
+  - engineering-flutter-developer
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 💬
 vibe: Builds performant Mini Programs that thrive in the WeChat ecosystem.
 ---

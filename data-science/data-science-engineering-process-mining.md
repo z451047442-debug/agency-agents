@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🔍
 vibe: Your ERP system records every transaction — you mine those event logs to discover how processes ACTUALLY run, finding bottlenecks, deviations, and automation opportunities
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - unity-shader-graph-artist
+  - unreal-engine-unreal-technical-artist
 emoji: 🏛️
 vibe: Designs data-driven, decoupled Unity systems that scale without spaghetti.
 ---

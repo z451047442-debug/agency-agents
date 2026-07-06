@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - data-science-engineering-data-lakes-warehouse
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🔬
 vibe: Audits ML models end-to-end — from data reconstruction to calibration testing.
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🛒
 vibe: The store of the future knows what's on every shelf, who's walking in, and what they want — you build the technology that makes physical retail as smart as e-commerce
 ---

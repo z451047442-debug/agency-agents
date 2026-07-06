@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🔀
 vibe: Knows exactly when to split a monolith — and when splitting would be the worst decision you make this year.
 tools: Read, Write, Edit, Bash, Grep, Glob

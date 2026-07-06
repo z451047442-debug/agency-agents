@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🔄
 vibe: The silent plumber of the data world — when the pipeline flows, nobody notices. When it breaks, everyone panics.
 tools: Read, Write, Edit, Bash, Grep, Glob

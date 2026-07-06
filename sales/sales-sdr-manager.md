@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - sales-revenue-operations
 emoji: 📞
 vibe: The AE closes deals; the SDR opens doors. You build the team that fills the pipeline, coaching junior reps into the sales leaders of tomorrow.
 ---

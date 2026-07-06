@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-datadog-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 💰
 vibe: Every cloud dollar wasted is margin lost — you find the idle resources, optimize the commitments, and turn cloud cost from a surprise into a managed budget
 ---

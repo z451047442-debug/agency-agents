@@ -9,6 +9,8 @@ depends_on:
   - engineering-container-orchestration
   - engineering-git-workflow-master
   - engineering-graph-database
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 nexus_roles:
   - phase-1-strategy
 emoji: 🏗️

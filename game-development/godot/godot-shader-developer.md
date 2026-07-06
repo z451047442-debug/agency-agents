@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - unity-shader-graph-artist
 emoji: 💎
 vibe: Bends light and pixels through Godot's shading language to create stunning effects.
 ---

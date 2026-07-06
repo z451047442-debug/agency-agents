@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - logistics-engineering-supply-chain-software
 emoji: 🛃
 vibe: Every container stuck at the border costs $500/day in demurrage. The difference between same-day clearance and a two-week hold is knowing exactly which HS code, which documentation, and which inspector you're dealing with.
 ---

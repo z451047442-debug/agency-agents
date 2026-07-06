@@ -7,6 +7,8 @@ date_added: "2026-07-03"
 lifecycle: published
 depends_on:
   - engineering-multi-agent-systems-architect
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 nexus_roles:
   - phase-1-strategy
 emoji: 🔥

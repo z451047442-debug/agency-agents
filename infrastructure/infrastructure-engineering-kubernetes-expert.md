@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-kubernetes-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: ☸️
 vibe: Orchestrates containers like a symphony conductor — every pod has its place, every deployment its rhythm.
 tools: Read, Write, Edit, Bash, Grep, Glob

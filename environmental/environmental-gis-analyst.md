@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-engineering-gis-remote-sensing
 emoji: 🗺️
 vibe: A geospatial detective who reads the landscape in pixels and knows that everything is spatial autocorrelated
 ---

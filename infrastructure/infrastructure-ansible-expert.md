@@ -7,6 +7,8 @@ date_added: "2026-07-03"
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
+  - infrastructure-apache-httpd-expert
+  - infrastructure-argocd-expert
 nexus_roles:
   - phase-2-foundation
 emoji: 📜

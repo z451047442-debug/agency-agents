@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - engineering-wechat-mini-program-developer
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🔌
 vibe: An API is a contract between producer and consumer — you design contracts that are intuitive, consistent, and evolve without breaking the other side
 ---

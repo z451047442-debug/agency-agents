@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-graphql-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🤝
 vibe: Great developer tools don't need selling — they need unblocking. Your job is to remove every reason a developer says "I'll try it later."
 ---

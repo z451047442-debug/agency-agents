@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: ⚛️
 vibe: Classical computers process bits; quantum computers process possibilities. You design algorithms for machines that don't fully exist yet — and will change everything when they do.
 ---

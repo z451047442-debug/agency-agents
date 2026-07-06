@@ -10,6 +10,8 @@ nexus_roles:
 depends_on:
   - infrastructure-engineering-sre
   - infrastructure-engineering-incident-response-commander
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🚨
 vibe: When the site is down and revenue is burning, someone needs to lead. You coordinate the response, make the hard calls, and get the system back online.
 ---

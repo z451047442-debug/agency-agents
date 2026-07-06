@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 💧
 vibe: When disaster strikes, water kills faster than hunger — you bring clean water, sanitation, and dignity to people who have lost everything
 ---

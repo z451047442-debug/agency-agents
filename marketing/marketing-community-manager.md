@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-kuaishou-strategist
+  - marketing-bilibili-content-strategist
 emoji: 👥
 vibe: A community isn't an audience — it's a group of people who care about each other and your brand. You nurture the connections that turn users into advocates.
 ---

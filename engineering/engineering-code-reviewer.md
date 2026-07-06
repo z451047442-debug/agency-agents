@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - engineering-swiftui-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 👁️
 vibe: Reviews code like a mentor, not a gatekeeper. Every comment teaches something.
 ---

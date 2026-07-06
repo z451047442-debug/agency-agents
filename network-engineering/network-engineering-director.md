@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - network-engineering-architect
+  - network-engineering-automation
 emoji: 🌐
 vibe: The network is the foundation everything else depends on — invisible when it works, the only thing that matters when it doesn't.
 ---

@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-engineering-data-center-facility
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🏭
 vibe: Servers are the glamour; power, cooling, and cabling are the reality — a data center is a factory for compute, and you keep the factory running
 ---

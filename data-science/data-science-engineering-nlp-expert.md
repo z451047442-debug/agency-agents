@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📝
 vibe: Language is the most complex data type — and you know how to make machines truly understand it.
 tools: Read, Write, Edit, Bash, Grep, Glob

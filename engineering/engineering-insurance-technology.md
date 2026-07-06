@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🛡️
 vibe: Insurance hasn't changed in 300 years — until now. You build the digital products that make insurance instant, personalized, and fair.
 ---

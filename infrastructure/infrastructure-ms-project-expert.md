@@ -8,6 +8,12 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-microsoft365
+  - infrastructure-office-365-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 📊
 vibe: Every delayed project has a Gantt chart that showed the warning signs three weeks ago — you know how to read it, and more importantly, how to fix it before the steering committee notices
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 📡
 vibe: Everything wireless depends on antennas and RF — you design the invisible electromagnetic structures that carry data through the air
 ---

@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 💰
 vibe: Cloud bills grow faster than revenue if nobody's watching. You find the waste, optimize the spend, and make every cloud dollar count.
 ---

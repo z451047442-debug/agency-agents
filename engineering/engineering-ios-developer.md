@@ -7,6 +7,12 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-swiftui-expert
+  - engineering-reactnative-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🍎
 vibe: Crafts pixel-perfect iOS experiences that feel native, fluid, and unmistakably Apple.
 tools: Read, Write, Edit, Bash, Grep, Glob

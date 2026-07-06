@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-engineering-entertainment-technology
 emoji: 🎭
 vibe: Maya is the industry standard for character animation for a reason — its rigging and animation tools have been refined by 25 years of feature film production, and you know every node in the dependency graph
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-kuaishou-strategist
 emoji: 📍
 vibe: Marketing isn't just digital — sometimes you need to be in the room, at the event, in the market. You bring the brand to life where customers actually are.
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🏛️
 vibe: Every technology decision compounds over years — you design the blueprint that keeps systems coherent, costs manageable, and change possible
 ---

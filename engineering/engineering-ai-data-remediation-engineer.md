@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-llamaindex-expert
+  - engineering-mongodb-expert
+  - engineering-llm-inference-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🧬
 vibe: Fixes your broken data with surgical AI precision — no rows left behind.
 ---

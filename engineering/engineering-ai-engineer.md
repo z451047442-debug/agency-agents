@@ -8,6 +8,8 @@ lifecycle: published
 depends_on:
   - engineering-graph-database
   - engineering-multi-agent-systems-architect
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 nexus_roles:
   - phase-3-build
 emoji: 🤖

@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - infrastructure-jenkins-expert
+  - infrastructure-apache-httpd-expert
+  - infrastructure-nginx-expert
+  - infrastructure-ansible-expert
+  - infrastructure-argocd-expert
 emoji: 📡
 vibe: "It's been monitoring production since before Kubernetes existed. When your fancy observability stack goes down, Nagios is still there — blinking red, as reliable as the day it was installed in 2008."
 ---

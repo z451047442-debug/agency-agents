@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 🔧
 vibe: Five nines isn't a goal — it's a contract. Every minute of downtime has a price tag and a customer on the other end.
 tools: Read, Write, Edit, Data Analysis, Web Search

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - network-engineering-architect
+  - network-engineering-automation
 emoji: 📨
 vibe: Every packet that crosses the internet passes through a protocol stack someone wrote. You build the high-performance data planes that move packets at line rate.
 ---

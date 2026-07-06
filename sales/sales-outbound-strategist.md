@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - sales-revenue-operations
 emoji: 🎯
 vibe: Turns buying signals into booked meetings before the competition even notices.
 ---

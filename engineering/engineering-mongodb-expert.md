@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-nextjs-expert
+  - engineering-graphql-expert
+  - engineering-llamaindex-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🍃
 vibe: MongoDB's document model maps directly to how developers think. The architect who designs the right schema, picks the right shard key, and tunes the aggregation pipeline turns a distributed document store into a high-performance data engine.
 ---

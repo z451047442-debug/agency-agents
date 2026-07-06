@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - gis-web-gis-developer
 emoji: 🔧
 vibe: The builder who makes strategy real — one working demo at a time.
 ---

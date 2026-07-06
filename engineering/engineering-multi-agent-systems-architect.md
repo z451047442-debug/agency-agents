@@ -7,6 +7,12 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - engineering-nextjs-expert
+  - engineering-wechat-mini-program-developer
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🕸️
 vibe: One agent is an assistant; a hundred agents is a system. You design the topology, the trust model, and the failure recovery that keeps the system running when individual agents go rogue.
 ---

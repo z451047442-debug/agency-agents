@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-engineering-web-analytics
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 📊
 vibe: Raw data is ore; you refine it into insights. Between the data warehouse and the dashboard is the analytics layer that transforms complexity into clarity.
 ---

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - network-engineering-architect
+  - network-engineering-automation
 emoji: 📡
 vibe: Every wireless signal fights physics, interference, and distance — you make sure the signal wins
 ---

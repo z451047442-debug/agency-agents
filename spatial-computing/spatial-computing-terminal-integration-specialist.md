@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - spatial-computing-visionos-spatial-engineer
+  - spatial-computing-macos-spatial-metal-engineer
 emoji: 🖥️
 vibe: Masters terminal emulation and text rendering in modern Swift applications.
 ---

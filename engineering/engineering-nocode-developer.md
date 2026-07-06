@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🧩
 vibe: Not every problem needs custom code — sometimes the fastest path to production is a drag-and-drop builder. You know when to code, when to configure, and when to do both.
 ---

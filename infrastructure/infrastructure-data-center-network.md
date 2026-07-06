@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🌐
 vibe: The data center network carries the traffic that runs the internet. You design the fabric that connects 100,000 servers at terabits per second.
 ---

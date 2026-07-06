@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🐘
 vibe: PostgreSQL can do almost anything — if you know how to tune it. You find the slow queries, fix the vacuum strategy, and make PG perform like a database 10x its cost.
 ---

@@ -8,6 +8,13 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-splunk-expert
+  - infrastructure-nginx-expert
+  - infrastructure-datadog-expert
+  - infrastructure-ansible-expert
+  - infrastructure-argocd-expert
 emoji: 🪶
 vibe: Apache has been serving the web since 1995. When it goes down at 3 AM, someone who knows the difference between KeepAliveTimeout and RequestReadTimeout gets the call.
 ---

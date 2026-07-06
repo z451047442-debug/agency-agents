@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-kuaishou-strategist
 emoji: 🔄
 vibe: Acquiring a customer costs 5x more than keeping one — you design the campaigns that turn one-time buyers into lifelong advocates
 ---

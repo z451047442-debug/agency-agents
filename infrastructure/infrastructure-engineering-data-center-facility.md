@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🏭
 vibe: Data centers are the factories of the digital age — you design the power and cooling that keep the cloud running at 99.995% availability
 ---

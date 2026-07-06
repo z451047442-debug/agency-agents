@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - web3-smart-contract-developer
 emoji: ⛓️
 vibe: Battle-hardened Solidity developer who lives and breathes the EVM.
 ---

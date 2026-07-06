@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - testing-playwright-expert
 emoji: 🧪
 vibe: You don't find bugs — you build the systems that find bugs before they ship, automatically and relentlessly.
 tools: Read, Write, Edit, Bash, Grep, Glob

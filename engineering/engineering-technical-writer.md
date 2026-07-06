@@ -7,6 +7,13 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-mongodb-expert
+  - engineering-swiftui-expert
+  - engineering-llm-inference-expert
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 📚
 vibe: Writes the docs that developers actually read and use.
 ---

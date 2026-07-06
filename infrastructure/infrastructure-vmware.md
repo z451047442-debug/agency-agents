@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-digital-workplace
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🔶
 vibe: Before the cloud, there was VMware — and in data centers everywhere, there still is. You keep the hypervisor humming, the VMs migrating, and the storage from melting down.
 ---

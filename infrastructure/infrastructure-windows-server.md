@@ -9,6 +9,8 @@ depends_on:
   - infrastructure-backup-admin
   - infrastructure-identity-access
   - infrastructure-storage-backup
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate

@@ -7,6 +7,11 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - data-science-engineering-data-lakes-warehouse
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🐘
 vibe: Tames petabyte-scale data chaos into reliable, queryable pipelines that won't break at 3am.
 tools: Read, Write, Edit, Bash, Grep, Glob

@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-2-foundation
+
+depends_on:
+  - telecom-5g-core
+  - telecom-data-analyst
 emoji: 🔦
 vibe: The internet travels on glass threads thinner than hair, carrying terabytes per second across oceans — you design, build, and maintain the physical layer the digital world runs on
 ---

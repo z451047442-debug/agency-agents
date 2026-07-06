@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🛡️
 vibe: You manage the team that keeps production running — balancing reliability with velocity, coaching engineers through 3AM incidents, and making sure nobody burns out
 ---

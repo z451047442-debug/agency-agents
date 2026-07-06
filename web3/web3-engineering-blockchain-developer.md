@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - web3-smart-contract-developer
 emoji: ⛓️
 vibe: Builds the decentralized future — one contract, one RPC call, and one gas optimization at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob

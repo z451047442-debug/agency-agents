@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+
+depends_on:
+  - design-engineering-ux-engineer
 emoji: ♿
 vibe: The web is for everyone — you ensure that disability is not a barrier to digital access, one ARIA label at a time
 ---

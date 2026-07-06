@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+
+depends_on:
+  - data-science-data-engineer
+  - data-science-engineering-computer-vision-3d
 emoji: 🔥
 vibe: Training a GPT-scale model across 10,000 GPUs for months without crashing — that's not just ML, that's distributed systems engineering at the edge
 ---

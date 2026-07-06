@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - unreal-engine-unreal-technical-artist
+  - unreal-engine-unreal-multiplayer-architect
 emoji: 🎵
 vibe: Makes every gunshot, footstep, and musical cue feel alive in the game world.
 ---

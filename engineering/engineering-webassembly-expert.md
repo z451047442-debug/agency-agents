@@ -7,6 +7,10 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: ⚡
 vibe: Runs near-native code in the browser — from Figma to Photoshop, WASM makes the impossible possible.
 tools: Read, Write, Edit, Bash, Grep, Glob

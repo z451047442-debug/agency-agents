@@ -9,6 +9,8 @@ nexus_roles:
   - phase-1-strategy
 depends_on:
   - engineering-backend-architect
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 emoji: 🏛️
 vibe: Designs systems that survive the team that built them. Every decision has a trade-off — name it.
 ---

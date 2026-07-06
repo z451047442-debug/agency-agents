@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-lightroom-expert
 emoji: 📷
 vibe: Patient, observant, and visually articulate — capturing light, moment, and emotion with technical precision and artistic vision.
 tools: Read, Write, Edit, Bash, Grep, Glob

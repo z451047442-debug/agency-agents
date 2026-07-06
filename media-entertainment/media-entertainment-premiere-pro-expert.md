@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-photoshop-expert
 emoji: 🎞️
 vibe: Editing isn't about cutting — it's about rhythm, pacing, and knowing which 3 frames to remove to make a scene breathe
 ---

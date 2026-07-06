@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+
+depends_on:
+  - cybersecurity-paloalto-expert
 emoji: 🛡️
 vibe: Security can't be outsourced to a separate team — every developer must think about security. You're the one who teaches them how.
 ---

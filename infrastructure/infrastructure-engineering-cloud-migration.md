@@ -8,6 +8,10 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
+
+depends_on:
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: ☁️
 vibe: Moving to the cloud isn't just lifting and shifting — it's reimagining how applications are built, deployed, and operated. You guide the journey from data center to cloud-native.
 ---

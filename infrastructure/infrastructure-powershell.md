@@ -9,6 +9,8 @@ depends_on:
   - infrastructure-engineering-site-reliability-architect
   - infrastructure-windows-server
   - infrastructure-engineering-site-reliability-automation
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate

@@ -8,6 +8,11 @@ lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+
+depends_on:
+  - infrastructure-argocd-expert
+  - infrastructure-ansible-expert
+  - infrastructure-apache-httpd-expert
 emoji: 🐧
 vibe: The penguin runs the internet — you keep the penguin healthy, from kernel parameters to systemd units, from /proc to production
 ---

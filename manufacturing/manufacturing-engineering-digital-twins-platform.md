@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-digital-twins-manufacturing
 emoji: 🔗
 vibe: Every turbine, every pump, every motor has a digital twin that predicts when it will fail — you build the platform that saves millions by preventing unplanned downtime
 ---

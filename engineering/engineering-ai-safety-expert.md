@@ -7,6 +7,8 @@ date_added: "2026-07-03"
 lifecycle: published
 depends_on:
   - engineering-minimal-change-engineer
+  - engineering-build-release-engineer
+  - engineering-cross-platform
 nexus_roles:
   - phase-3-build
 emoji: 🛡️

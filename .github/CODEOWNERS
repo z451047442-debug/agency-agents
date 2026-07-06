@@ -8,7 +8,6 @@
 /.github/workflows/              @z451047442-debug
 /CLAUDE.md                       @z451047442-debug
 /AGENTS.json                     @z451047442-debug
-/generate_slnx.py               @z451047442-debug
 /docs/                           @z451047442-debug
 
 # ── Engineering & Technology ──────────────────────────────────────────────────

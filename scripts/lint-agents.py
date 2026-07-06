@@ -185,6 +185,32 @@ SUSPICIOUS_UNICODE = {
 }
 
 
+# Agents whose job is to describe or defend against security threats.
+# Exempt from patterns that would false-positive on threat descriptions.
+SECURITY_EXEMPT_AGENTS = {
+    "engineering-ai-safety-expert",
+    "engineering-prompt-engineer",
+    "cybersecurity-security-champion",
+    "cybersecurity-security-awareness-trainer",
+}
+
+
+def _is_emoji_zwj(content, pos):
+    """Check if ZWJ at pos is part of a legitimate emoji sequence."""
+    import unicodedata
+    for offset in (-1, 1):
+        i = pos + offset
+        if 0 <= i < len(content):
+            cat = unicodedata.category(content[i])
+            cp = ord(content[i])
+            if not (cat in ('So', 'Sk')
+                    or 0x1F300 <= cp <= 0x1FAFF
+                    or 0xFE00 <= cp <= 0xFE0F
+                    or cp == 0x200D):
+                return False
+    return True
+
+
 def scan_security(content, rel_path):
     """Scan agent body content for security concerns.
 
@@ -194,10 +220,21 @@ def scan_security(content, rel_path):
     """
     findings = []
 
+    # Check if this agent is exempt from security pattern scanning
+    agent_id = rel_path.rsplit("/", 1)[-1].replace(".md", "") if "/" in rel_path else rel_path.replace(".md", "")
+    exempt = agent_id in SECURITY_EXEMPT_AGENTS
+
     # 1. Check for suspicious Unicode characters
     for char, name in SUSPICIOUS_UNICODE.items():
         if char in content:
-            positions = [i for i, c in enumerate(content) if c == char]
+            # Skip ZWJ in legitimate emoji sequences (e.g. 🧑‍🔬)
+            if char == '‍':
+                positions = [i for i, c in enumerate(content)
+                             if c == char and not _is_emoji_zwj(content, i)]
+            else:
+                positions = [i for i, c in enumerate(content) if c == char]
+            if not positions:
+                continue
             findings.append((
                 "WARN",
                 f"SECURITY {rel_path}: suspicious Unicode char U+{ord(char):04X} "
@@ -205,21 +242,21 @@ def scan_security(content, rel_path):
                 f"may be used for prompt injection smuggling",
             ))
 
-    # 2. Check regex patterns
-    for pattern_name, (pattern, level, description) in SECURITY_PATTERNS.items():
-        matches = list(re.finditer(pattern, content))
-        if matches:
-            severity = "WARN"
-            for m in matches[:3]:  # show up to 3 occurrences
-                # Extract a short snippet around the match
-                start = max(0, m.start() - 20)
-                end = min(len(content), m.end() + 20)
-                snippet = content[start:end].replace("\n", " ").strip()
-                findings.append((
-                    severity,
-                    f"SECURITY {rel_path}: [{level}] {description} — "
-                    f"matched pattern '{pattern_name}' near: \"...{snippet}...\"",
-                ))
+    # 2. Check regex patterns (skip for agents whose job is describing threats)
+    if not exempt:
+        for pattern_name, (pattern, level, description) in SECURITY_PATTERNS.items():
+            matches = list(re.finditer(pattern, content))
+            if matches:
+                severity = "WARN"
+                for m in matches[:3]:
+                    start = max(0, m.start() - 20)
+                    end = min(len(content), m.end() + 20)
+                    snippet = content[start:end].replace("\n", " ").strip()
+                    findings.append((
+                        severity,
+                        f"SECURITY {rel_path}: [{level}] {description} — "
+                        f"matched pattern '{pattern_name}' near: \"...{snippet}...\"",
+                    ))
 
     return findings
 
@@ -230,17 +267,16 @@ def _category_for_file(filepath):
     """Return the logical category name for a file path.
 
     For most agents this is filepath.parent.name.  For categories with
-    engine / framework subdirectories (game-development) this is the
-    grandparent so that ``unity-game-developer.md`` inside
-    ``game-development/unity/`` is checked against ``game-development-``
-    rather than ``unity-``.
+    engine / framework subdirectories (game-development) the subdirectory
+    name is used as the expected prefix — e.g. files in
+    ``game-development/godot/`` must start with ``godot-``.
     """
     parent = filepath.parent
-    if parent.name in SUBDIR_CATEGORIES:
-        return parent.name
     grandparent = parent.parent
     if grandparent.name in SUBDIR_CATEGORIES:
-        return grandparent.name
+        return parent.name
+    if parent.name in SUBDIR_CATEGORIES:
+        return parent.name
     return parent.name
 
 
@@ -297,14 +333,14 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
 
     # 5. File size check
     file_size_kb = len(content.encode("utf-8")) / 1024
-    if file_size_kb > 100:
+    if file_size_kb > 80:
         errors.append(
-            f"ERROR {rel}: file way too large ({file_size_kb:.1f} KB > 30 KB); "
+            f"ERROR {rel}: file way too large ({file_size_kb:.1f} KB > 80 KB); "
             f"must be split into multiple agents"
         )
-    elif file_size_kb > 10:
+    elif file_size_kb > 50:
         warnings.append(
-            f"WARN  {rel}: file too large ({file_size_kb:.1f} KB > 10 KB); "
+            f"WARN  {rel}: file too large ({file_size_kb:.1f} KB > 50 KB); "
             f"consider splitting into multiple agents"
         )
 

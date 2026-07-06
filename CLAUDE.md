@@ -4,7 +4,7 @@
 
 The Agency is a collection of 1000+ AI agent personality definitions (`.md` files with YAML frontmatter) organized into 50+ industry categories. Each agent file defines a specialized expert — its identity, mission, workflows, deliverables, and communication style. These files are installed into AI coding tools (Claude Code, Copilot, Cursor, Windsurf, Gemini CLI, etc.) to provide on-demand domain expertise.
 
-The project has **no runtime code** — it is a content repository. Python scripts (`generate_slnx.py`, `scripts/convert.py`) generate indices and tool-specific integration files. Shell scripts under `scripts/` handle installation, linting, and indexing.
+The project has **no runtime code** — it is a content repository. Python scripts under `scripts/` handle installation, linting, validation, indexing, and tool-specific integration. Shell scripts in the same directory are thin wrappers around their Python counterparts.
 
 ## Common commands
 
@@ -71,12 +71,8 @@ python scripts/convert.py --parallel --jobs 4   # parallel mode for speed
 ./scripts/clean.sh --dry-run && ./scripts/clean.sh
 cp scripts/git-hooks/pre-commit .git/hooks/pre-commit
 
-# Regenerate AGENTS.json index and VS solution files
+# Regenerate AGENTS.json index
 ./scripts/generate-index.sh
-python generate_slnx.py
-
-# Regenerate VS solution files only
-python generate_slnx.py
 ```
 
 ## Agent file anatomy
@@ -136,7 +132,6 @@ The linter (`scripts/lint-agents.py`) enforces:
    - At least 100 words of meaningful content
 3. Run `./scripts/lint-agents.sh <your-file>` to validate
 4. Run `./scripts/generate-index.sh` to update AGENTS.json
-5. Run `python generate_slnx.py` to update VS solution files
 
 ## NEXUS — multi-agent orchestration
 
@@ -147,4 +142,4 @@ The `docs/nexus-strategy.md` defines a 7-phase pipeline (Discovery → Strategy 
 - File names: lowercase kebab-case, prefixed with category (e.g., `engineering-frontend-developer.md`)
 - Content language: English (with `name` and `description` in Chinese where applicable)
 - Color values: named CSS colors (`cyan`, `blue`, `teal`) or hex codes (`#E63946`)
-- The `AGENTS.json` index and `.sln`/`.slnx` files should be regenerated after any agent add/move/delete
+- The `AGENTS.json` index should be regenerated after any agent add/move/delete

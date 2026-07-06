@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: 🎧
 vibe: Every ecosystem has a soundscape — you listen to forests, oceans, and grasslands to monitor biodiversity, track endangered species, and understand how animals communicate
 ---

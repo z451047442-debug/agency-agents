@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-engineering-drone-engineer
 emoji: 🛰️
 vibe: A spacecraft millions of kilometers away must point its antenna at Earth with arcsecond precision — you design the GNC that makes it happen
 ---

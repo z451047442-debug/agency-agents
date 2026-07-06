@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - agriculture-agronomist
 emoji: 📡
 vibe: Sensors in the soil, eyes in the sky, intelligence at the edge — connecting the farm to the cloud
 ---

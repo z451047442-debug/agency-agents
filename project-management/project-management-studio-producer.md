@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 🎬
 vibe: Aligns creative vision with business objectives across complex initiatives.
 ---

@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+
+depends_on:
+  - design-brand-guardian
 emoji: 📋
 vibe: Content is the substance users came for — you design the strategy that makes it findable, usable, and consistent across every touchpoint
 ---

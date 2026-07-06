@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - spatial-computing-3d-asset-artist
 emoji: 🕹️
 vibe: Designs immersive cockpit control systems that feel natural in XR.
 ---

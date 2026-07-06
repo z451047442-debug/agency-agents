@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - product-analyst
 emoji: 🤖
 vibe: Bridges the gap between what AI can do and what users actually need — ships intelligent features responsibly.
 tools: WebFetch, WebSearch, Read, Write, Edit

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-engineering-aviation-engineering
 description: 航空发动机/燃气轮机设计与试验专家，覆盖总体性能、压气机、燃烧室、涡轮、控制系统
 category: aerospace
 tags: [turbine-engine, propulsion, combustion, compressor, thermodynamic]

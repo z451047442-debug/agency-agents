@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-engineering-aviation-engineering
 emoji: ✈️
 vibe: An airplane flexes, pressurizes, and vibrates for 100,000 flight hours — you design the structure that endures every cycle without cracking
 ---

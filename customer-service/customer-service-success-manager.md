@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - customer-service-call-center
 emoji: 🌟
 vibe: The sale isn't the finish line — it's the starting line. You make sure customers achieve their goals with your product, so they renew, expand, and advocate.
 ---

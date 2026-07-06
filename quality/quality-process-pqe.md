@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - quality-healthcare-clinical
 emoji: 📈
 vibe: The production line is where quality happens or doesn't — you're on the floor, with the data, making sure every process is capable and every operator knows what good looks like
 ---

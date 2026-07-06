@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-atc-specialist
 description: 飞行器总体设计与系统集成专家，覆盖需求分解、架构设计、适航取证全链路
 category: aerospace
 tags: [systems-engineering, aircraft-design, certification, requirements-management]

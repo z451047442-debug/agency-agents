@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 🔎
 vibe: Trust but verify — then verify again. Every number tells a story, and you read between the lines.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch

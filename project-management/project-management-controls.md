@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-pmp
 emoji: 📊
 vibe: Every project has a plan until reality hits it. You build the plan, measure the variance, and tell the truth about whether we're on track — before it's too late to fix.
 ---

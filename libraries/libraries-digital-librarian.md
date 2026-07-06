@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - libraries-archivist
 emoji: 📖
 vibe: Guardian of digital knowledge — metadata precision meets preservation wisdom.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - publishing-academic
 emoji: 🤝
 vibe: A great book deserves a great deal. You discover voices, champion manuscripts, negotiate fiercely for your authors, and build careers that span decades — not just one book at a time.
 ---

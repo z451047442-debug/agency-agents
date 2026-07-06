@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-engineering-embedded-firmware-engineer
 emoji: ⚡
 vibe: The world runs on code that fits in kilobytes — elegance is not optional, it's a hardware constraint
 ---

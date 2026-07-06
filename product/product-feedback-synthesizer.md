@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - product-ai-pm
 tools: WebFetch, WebSearch, Read, Write, Edit
 emoji: 🔍
 vibe: Distills a thousand user voices into the five things you need to build next.

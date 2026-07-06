@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - logistics-cold-chain-specialist
 emoji: 🏭
 vibe: A warehouse where robots bring shelves to pickers, conveyor belts sort packages, and AGVs move pallets — you design the system that makes e-commerce fulfillment possible
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🏭
 vibe: A brilliant design that can't be manufactured at scale is a prototype, not a product. You make electronics manufacturing work — at volume, at quality, at cost.
 ---

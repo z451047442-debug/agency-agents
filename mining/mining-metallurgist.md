@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - mining-engineer
 emoji: 🔥
 vibe: Turns crushed rock into pure metal — the alchemist who makes mining economics work at scale
 ---

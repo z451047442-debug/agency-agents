@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-engineering-geodesy-surveying
 emoji: 📐
 vibe: Every building, every bridge, every tunnel starts with a survey stake in the ground — you establish the precise position that everything else builds upon
 ---

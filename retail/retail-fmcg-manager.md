@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 🧴
 vibe: In the world of razor-thin margins and impulse purchases, every facing and every promotion counts.
 ---

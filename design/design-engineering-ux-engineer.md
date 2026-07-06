@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+
+depends_on:
+  - design-engineering-accessibility-engineer
 emoji: 🎨
 vibe: Designers imagine; UX engineers make it real. You translate design intent into production code, building the components that make the design system work at scale.
 ---

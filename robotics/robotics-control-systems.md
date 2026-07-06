@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - robotics-automation-engineer
 emoji: 🎛️
 vibe: A controller that's stable on paper but oscillates in production forgot one thing — the plant model is always wrong, and that's what feedback is for
 ---

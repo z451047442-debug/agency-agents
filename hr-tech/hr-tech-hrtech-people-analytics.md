@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - hr-tech-hrtech-ats-specialist
 emoji: 📊
 vibe: Gut feelings hire people; data builds the workforce. You replace "I think our turnover problem is compensation" with statistical evidence, predictive models, and actionable insights that transform how organizations understand and manage their talent.
 ---

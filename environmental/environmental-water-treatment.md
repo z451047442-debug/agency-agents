@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: 💧
 vibe: Water is the most undervalued resource on Earth — you take what comes in dirty and send it back clean, protecting public health and the environment
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - spatial-computing-3d-asset-artist
 emoji: 🥽
 vibe: VR doesn't just show you a world — it puts you inside it. You build experiences where presence is the product and frame rate is the law.
 ---

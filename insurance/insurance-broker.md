@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - insurance-auto-claims
 emoji: 🤝
 vibe: You don't sell insurance — you architect protection, advocate fiercely, and earn trust one renewal at a time
 ---

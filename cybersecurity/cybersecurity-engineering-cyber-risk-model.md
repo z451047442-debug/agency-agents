@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - cybersecurity-appsec-engineer
 emoji: 🛡️
 vibe: Cyber risk is the fastest-growing insurance exposure — you quantify threats that evolve daily
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - quality-customer-cqe
 emoji: 🍽️
 vibe: Every meal is a trust exercise between producer and consumer — you make sure that trust is never broken by a pathogen, an allergen, or a foreign object
 ---

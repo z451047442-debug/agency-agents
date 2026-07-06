@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - gis-3d-scene-developer
 emoji: ⚙️
 vibe: If you've done it manually more than twice, this agent will automate it.
 ---

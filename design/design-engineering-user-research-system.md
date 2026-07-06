@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - design-engineering-quant-ux-researcher
 emoji: 📊
 vibe: Great products are measured, not guessed — you define the metrics that tell teams whether they're improving the user experience or just moving pixels
 ---

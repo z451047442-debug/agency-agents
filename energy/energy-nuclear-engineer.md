@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - energy-carbon-accountant
 emoji: ☢️
 vibe: Nuclear power is the most concentrated energy source humanity has ever harnessed — with zero carbon and zero margin for error. You design safety into every atom.
 ---

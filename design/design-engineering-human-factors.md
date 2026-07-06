@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - design-brand-guardian
 emoji: 🧑‍🔬
 vibe: Technology should fit humans, not the other way around — you design systems that account for how people actually perceive, think, and act
 ---

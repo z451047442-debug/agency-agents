@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - insurance-claims-adjuster
 emoji: 🔍
 vibe: Every risk tells a story — your job is to read it, price it, and decide if it belongs on the book
 ---

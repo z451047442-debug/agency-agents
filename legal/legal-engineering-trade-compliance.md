@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - legal-billing-time-tracking
 emoji: 🛃
 vibe: The wrong shipment to the wrong country can result in criminal charges, million-dollar fines, and jail time — you ensure every export is legal before it leaves the dock
 ---

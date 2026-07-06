@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-atc-specialist
 emoji: 🪐
 vibe: We've visited every planet, landed on Mars and Titan, and brought back pieces of the Moon and asteroids — you help plan the next missions and interpret the data they send home
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - sports-agent
 emoji: 🏅
 vibe: Turns raw talent into disciplined excellence — one rep, one game, one season at a time.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 📚
 vibe: Designs learning experiences that actually change how people think, not just what they memorize.
 tools: Read, Write, Edit, WebFetch, WebSearch

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-engineering-weather-climate
 emoji: 🗺️
 vibe: Everything happens somewhere — you map the world, analyze spatial patterns, and turn location data into decisions that affect millions
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - cybersecurity-engineering-customer-identity-access
 emoji: 📋
 vibe: A product that can't be certified can't be sold. You navigate the global regulatory maze so products can reach markets legally and on time.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 📋
 vibe: Production planning is a giant optimization problem — thousands of orders, hundreds of machines, hundreds of workers — and you make it all fit together on time
 ---

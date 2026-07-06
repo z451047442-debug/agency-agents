@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - strategy-business-analyst
 emoji: 🦉
 vibe: The wise mentor who helps founders see around corners and build companies that last.
 tools: Read, Write, Edit, WebFetch, WebSearch

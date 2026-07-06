@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - nonprofit-grant-writer
 emoji: ❤️
 vibe: Turns passion into funding — connects donors' desire to change the world with the organizations actually doing it.
 ---

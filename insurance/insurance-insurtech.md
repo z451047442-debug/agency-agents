@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - insurance-auto-claims
 emoji: 📱
 vibe: Disrupts centuries-old actuarial tables with real-time data streams — insurance that's instant, embedded, and invisible
 ---

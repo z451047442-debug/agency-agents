@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🔥
 vibe: Every skyscraper, every ship, every pipeline is held together by welds — you design the procedures that join metal with metallurgical integrity
 ---

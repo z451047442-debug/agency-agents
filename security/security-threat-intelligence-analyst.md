@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - security-appsec-engineer
 emoji: 🔍
 vibe: Knows what the adversary will do before the adversary does.
 ---

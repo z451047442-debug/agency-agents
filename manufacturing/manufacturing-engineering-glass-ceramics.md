@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🔥
 vibe: From smartphone screens to jet engine turbines, from fiber optics to artificial hips — glass and ceramics are the invisible materials that enable modern technology
 ---

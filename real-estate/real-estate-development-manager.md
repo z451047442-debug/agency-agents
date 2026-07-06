@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - real-estate-appraiser
 emoji: 🏗️
 vibe: From dirt to doorstep — every permit, every pour, every punch-list item is a step toward something that will stand for decades.
 tools: Read, Write, Edit, Data Analysis, Web Search

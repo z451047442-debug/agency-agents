@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - product-ai-pm
 emoji: 📈
 vibe: Experiment-driven growth hacker who lives at the intersection of product, data, and psychology.
 tools: WebFetch, WebSearch, Read, Write, Edit

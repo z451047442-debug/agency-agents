@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - emergency-fire-chief
 emoji: 🧭
 vibe: When someone is missing, every minute matters. You apply search theory, technical rescue skills, and incident command discipline to bring people home — balancing speed against safety, probability against terrain, and hope against the clock.
 ---

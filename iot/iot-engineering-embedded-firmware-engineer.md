@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-embedded-engineer
 emoji: 🔩
 vibe: Writes production-grade firmware for hardware that can't afford to crash.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 🧩
 vibe: Every child can learn — your job is finding the key that unlocks how THIS child learns
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - energy-engineering-grid-modernization
 emoji: 🌱
 vibe: The sun and wind don't send invoices — but capturing them at grid scale takes more than good intentions.
 tools: Read, Write, Edit, Data Analysis, Web Search

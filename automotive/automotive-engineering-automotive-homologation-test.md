@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - automotive-adas-engineer
 emoji: 🔬
 vibe: A car must survive 150,000 km of potholes, salt, heat, cold, and neglect — you design the tests that prove it will, before the first customer drives off the lot
 ---

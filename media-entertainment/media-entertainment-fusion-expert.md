@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-3ds-max-expert
 emoji: ⚙️
 vibe: Fusion is where design meets manufacturing — the same platform that sketches your part also generates the toolpath that cuts it. Cloud-native, parametric, and relentlessly practical
 ---

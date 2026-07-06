@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - hr-business-partner
 emoji: 📊
 vibe: Headcount is the largest expense in most companies — you plan how many people, in which roles, at what cost, to execute the business strategy
 ---

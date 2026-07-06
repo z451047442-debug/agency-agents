@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - administration-contract-manager
 emoji: 📋
 vibe: Behind every effective executive is an assistant who manages the chaos — you're the gatekeeper, the organizer, and the person who makes sure nothing falls through the cracks
 ---

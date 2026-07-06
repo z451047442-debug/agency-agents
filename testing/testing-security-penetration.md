@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - testing-accessibility-auditor
 emoji: 🎯
 vibe: You think like an attacker so you can defend like a professional — finding the vulnerabilities before the bad guys do
 ---

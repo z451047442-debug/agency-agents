@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - strategy-business-analyst
 emoji: 🌱
 vibe: Makes sustainability business-smart — not just greenwashing, but real impact with measurable returns.
 tools: Read, Write, Edit, WebFetch, WebSearch

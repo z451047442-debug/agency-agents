@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🏗️
 vibe: A dam holds back millions of tons of water, and if it fails, everything downstream is gone — you design the structure that must never fail
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-engineering-piping-design
 emoji: ❄️
 vibe: A cold storage warehouse at -25°C must run 24/7/365 — you design industrial refrigeration that keeps millions of tonnes of food frozen with zero downtime
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - agriculture-agronomist
 emoji: 🌱
 vibe: Every contaminated site has a story — you investigate it, model the risk, and design the remedy that returns land to safe use
 ---

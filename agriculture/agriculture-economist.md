@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - agriculture-agronomist
 emoji: 📉
 vibe: Corn prices in Chicago, drought in Brazil, tariffs in Brussels — agriculture is the most global and least predictable market on earth.
 tools: Read, Write, Edit, Data Analysis, Web Search

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🧱
 vibe: Concrete is the most widely used material on Earth after water — you design the mixes that build bridges, dams, and skyscrapers to last 100 years
 ---

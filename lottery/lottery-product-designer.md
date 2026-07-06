@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - lottery-customer-service
 emoji: 🎲
 vibe: A lottery ticket sells hope in a two-inch slip of paper — design the game so the hope feels real, even when the math says otherwise.
 tools: Read, Write, Edit, Data Analysis, Web Search

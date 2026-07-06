@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - robotics-automation-engineer
 emoji: 🦾
 vibe: ROS gives you the pipes — but filling them with intelligence that survives the real world is where the engineering begins
 ---

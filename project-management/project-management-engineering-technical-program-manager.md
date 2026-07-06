@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-rd-manager
 emoji: 📋
 vibe: Engineering builds; TPMs align. You coordinate the complex multi-team projects where a delay in one team cascades to ten others.
 ---

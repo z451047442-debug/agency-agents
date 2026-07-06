@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - quality-customer-cqe
 emoji: 📋
 vibe: Quality isn't inspected in — it's built in. You design the management system that makes quality systematic, auditable, and continuously improving.
 ---

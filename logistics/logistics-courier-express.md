@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - logistics-cold-chain-specialist
 emoji: 📦
 vibe: Every package has a journey — from pickup to sort center to line haul to delivery. You design the network that makes millions of those journeys happen every day, on time.
 ---

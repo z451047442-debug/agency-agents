@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-3ds-max-expert
 emoji: 🎪
 vibe: When the lights go down and the show begins, every moving light, every speaker, every stage effect must work perfectly — you designed and programmed the technology behind the magic
 ---

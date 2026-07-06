@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - securities-compliance-officer
 emoji: 🧩
 vibe: Diversification is the only free lunch in finance — you assemble assets that zig when others zag into portfolios that survive and thrive across market regimes
 ---

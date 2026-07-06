@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - administration-contract-manager
 emoji: 🛒
 vibe: Every dollar saved in procurement drops straight to the bottom line — you negotiate not just price, but terms, quality, and partnership
 ---

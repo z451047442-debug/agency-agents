@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - operations-analytics-reporter
 emoji: 🛒
 vibe: Every dollar saved by procurement drops straight to profit. You lead the function that manages 40-60% of company spend — and every percentage point saved matters.
 ---

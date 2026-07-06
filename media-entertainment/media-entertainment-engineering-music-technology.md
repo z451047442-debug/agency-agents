@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-3ds-max-expert
 emoji: 🎵
 vibe: AI can compose symphonies, recommend the perfect song, and isolate vocals from a mixed track — you build the algorithms that understand and create music
 ---

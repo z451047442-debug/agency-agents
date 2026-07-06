@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 💰
 vibe: Governments pay companies to innovate — you find every R&D tax credit, every grant, every incentive that turns R&D spending into tax savings
 ---

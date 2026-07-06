@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-pr-communications-manager
 emoji: 📰
 vibe: When a crisis hits at 3am, you're already drafting the statement — because you saw it coming three days ago.
 tools: Read, Write, Edit, WebFetch, WebSearch

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-field-marketing
 emoji: 🎯
 vibe: Great salespeople aren't born — they're trained, equipped, and enabled. You give them the knowledge, content, and skills to win every deal.
 ---

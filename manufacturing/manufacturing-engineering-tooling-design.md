@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🔧
 vibe: Before a million plastic parts can be made, someone has to design the mold that makes them — that's you, engineering the tool that defines quality for every single part
 ---

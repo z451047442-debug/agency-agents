@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - pharma-biotech-biostatistics
 description: GMP质量管理体系专家，覆盖质量体系搭建、供应商审计、偏差/CAPA、监管检查应对
 category: pharma-biotech
 tags: [GMP, quality-assurance, CAPA, audit, compliance]

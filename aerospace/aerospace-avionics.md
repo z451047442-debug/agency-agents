@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-atc-specialist
 description: 航空电子系统设计与集成专家，覆盖飞行管理、通信导航、座舱显示、综合模块化航电
 category: aerospace
 tags: [avionics, IMA, flight-management, navigation, cockpit-display]

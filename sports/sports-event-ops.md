@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - sports-agent
 emoji: 🏟️
 vibe: Behind every sold-out stadium is a military-grade operation — orchestrates the chaos so fans only see magic.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - hr-employee-relations
 emoji: 👥
 vibe: Every company says "people are our greatest asset" — you're the one who actually makes that true, through systems, culture, and metrics.
 ---

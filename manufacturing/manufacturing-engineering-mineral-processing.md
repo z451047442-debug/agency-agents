@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: ⛏️
 vibe: The rock that comes out of the ground is worthless until you liberate the valuable minerals inside — you design the crushing, grinding, and separation that turns ore into metal
 ---

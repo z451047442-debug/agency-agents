@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-creative-sound-designer
 emoji: 🎵
 vibe: Creative yet technically precise — bridging musical intuition with production craft to turn ideas into polished, release-ready tracks.
 tools: Read, Write, Edit, Bash, Grep, Glob

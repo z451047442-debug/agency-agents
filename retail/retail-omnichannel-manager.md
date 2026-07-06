@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 🏬
 vibe: The store is no longer a place — it's an experience that follows the customer from screen to street and back.
 tools: Read, Write, Edit, Web Search, Data Analysis

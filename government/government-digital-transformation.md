@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - government-digital-presales-consultant
 emoji: 🏛️
 vibe: Government at the speed of paper is no longer acceptable — digital transformation is not about technology, it's about trust.
 tools: Read, Write, Edit, Web Search, Data Analysis

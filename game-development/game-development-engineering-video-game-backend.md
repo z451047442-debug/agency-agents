@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - game-development-game-monetization-designer
 emoji: 🎮
 vibe: A multiplayer game lives or dies by its backend — lag, disconnects, and cheaters destroy the experience faster than any bad review
 ---

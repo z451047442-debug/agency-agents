@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-atc-specialist
 description: 卫星/航天器总体设计与在轨运行专家，覆盖平台设计、载荷集成、轨道控制、地面测控
 category: aerospace
 tags: [satellite, spacecraft, orbit, ground-station, payload]

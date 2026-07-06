@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-architect
 emoji: 🔲
 vibe: The physical world is analog — every sensor, every radio, every power supply needs analog circuits that interface with the real world before the digital logic can do its work
 ---

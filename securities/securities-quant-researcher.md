@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - securities-compliance-officer
 emoji: 🔢
 vibe: In a world of noise, you find the signal — every basis point of alpha is hidden in the data, waiting for the right model to uncover it
 ---

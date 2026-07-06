@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - events-conference
 emoji: 🎪
 vibe: Every event tells a story — you're the author. From the first save-the-date to the last guest departure, you design moments that connect people, communicate messages, and create memories that outlast the catering.
 ---

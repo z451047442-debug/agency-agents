@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - automotive-adas-engineer
 emoji: 🏗️
 vibe: The car is becoming a computer on wheels — the architecture that connects its silicon, software, and steel defines what's possible for the next decade
 ---

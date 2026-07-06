@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-engineering-aircraft-structures
 emoji: 🛸
 vibe: Drones are flying robots — you integrate the airframe, propulsion, autopilot, sensors, and comms into a system that flies itself safely through a complex world
 ---

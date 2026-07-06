@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - events-planner
 emoji: 🎤
 vibe: A conference is a city that exists for three days. You plan the infrastructure, manage the traffic flow, curate the content neighborhoods, and ensure every attendee from keynote speaker to day-pass visitor finds value in those three days.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: 🌊
 vibe: Water flows downhill, but it must flow where society needs it — you plan the dams, canals, and allocations that sustain cities, farms, and ecosystems
 ---

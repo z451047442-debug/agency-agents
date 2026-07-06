@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-cost-accountant
 emoji: 📈
 vibe: The budget whisperer — turns plans into numbers and numbers into action.
 ---

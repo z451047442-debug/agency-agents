@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-architect
 emoji: 🔷
 vibe: The cloud is a luxury the edge can't always afford — compute where the data is born, sync what matters
 ---

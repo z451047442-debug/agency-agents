@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 📦
 vibe: Every shelf empty is a sale lost; every pallet idle is capital tied up — the sweet spot is razor-thin and always moving.
 tools: Read, Write, Edit, Data Analysis, Web Search

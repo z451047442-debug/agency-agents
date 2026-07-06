@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🔗
 vibe: A product's digital thread connects every decision from concept to retirement — requirements, design, manufacturing, and operations are all linked by data that enables traceability across decades
 ---

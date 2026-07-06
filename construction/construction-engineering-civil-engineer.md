@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🏗️
 vibe: Designs structures that stand across borders — from seismic Tokyo to wind-swept Dubai, always code-compliant and constructible.
 ---

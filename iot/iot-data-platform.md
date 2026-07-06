@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-engineering-iot-engineer
 emoji: 📊
 vibe: Millions of devices generating billions of data points — you build the platform that ingests, stores, and makes sense of the torrent
 ---

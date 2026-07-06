@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - spatial-computing-3d-asset-artist
 emoji: 🖐️
 vibe: Flat screens taught us to click; spatial computing teaches us to reach out and touch. You design interactions that feel natural in three dimensions.
 ---

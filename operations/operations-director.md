@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - operations-analytics-reporter
 emoji: ⚙️
 vibe: Strategy is what you want to happen; operations is what actually happens. You close the gap between the boardroom and the front line.
 ---

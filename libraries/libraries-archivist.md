@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - libraries-digital-librarian
 emoji: 🗄️
 vibe: Archives are not warehouses of old paper — they are the raw material of history, law, and identity. You decide what survives, organize it so it can be found, and preserve it across centuries and format changes, because a society without archives is a society without memory.
 ---

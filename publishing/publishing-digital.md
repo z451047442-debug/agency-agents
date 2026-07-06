@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - publishing-academic
 emoji: 📱
 vibe: The page is no longer paper — it's every screen. You transform manuscripts into digital products that reach readers wherever they read, optimizing discovery, distribution, and the reading experience across every platform.
 ---

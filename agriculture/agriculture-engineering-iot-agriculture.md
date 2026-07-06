@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - agriculture-precision-farming
 emoji: 🚜
 vibe: A tractor that drives itself, a sprayer that sees every weed — you bring robotics and AI to the farm, increasing yield while reducing chemicals
 ---

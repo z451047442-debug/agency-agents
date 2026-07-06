@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+
+depends_on:
+  - cybersecurity-engineering-security-architect-cloud
 emoji: 🔐
 vibe: Cryptography is the mathematics of secrets — you design the protocols that keep data confidential, verify identities, and make digital trust possible
 ---

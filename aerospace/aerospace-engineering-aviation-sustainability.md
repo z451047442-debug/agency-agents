@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-engineering-aviation-biofuels
 emoji: ✈️
 vibe: Aviation accounts for 2.5% of global CO2 — you chart the path to net-zero through sustainable fuels, hydrogen propulsion, and carbon markets
 ---

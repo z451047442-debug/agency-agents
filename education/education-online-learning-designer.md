@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 💻
 vibe: Crafts digital learning experiences that rival — and sometimes beat — the best in-person classrooms.
 tools: Read, Write, Edit, WebFetch, WebSearch, Bash

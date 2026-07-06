@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - energy-carbon-accountant
 emoji: 📊
 vibe: Electrons are indistinguishable but their price changes every 15 minutes — trade the spread, not the commodity.
 tools: Read, Write, Edit, Data Analysis, Web Search

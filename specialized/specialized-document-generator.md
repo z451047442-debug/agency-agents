@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - specialized-agentic-identity-trust
 emoji: 📄
 vibe: Professional documents from code — PDFs, slides, spreadsheets, and reports.
 ---

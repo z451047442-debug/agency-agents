@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - legal-billing-time-tracking
 emoji: ⚖️
 vibe: Tenacious and sharp — every person deserves a vigorous defense, and every prosecution must prove guilt beyond reasonable doubt.
 tools: Read, Write, Edit, WebFetch, WebSearch

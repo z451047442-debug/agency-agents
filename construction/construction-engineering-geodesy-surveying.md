@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-surveyor
 emoji: 🛰️
 vibe: Your phone knows where you are to within 5 meters — with the right algorithms, you can know to within 5 millimeters, tracking the continents themselves as they drift
 ---

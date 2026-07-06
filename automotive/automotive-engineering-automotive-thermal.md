@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - automotive-adas-engineer
 emoji: 🌡️
 vibe: An EV's range drops 30% in winter because of heating — you design the heat pump and thermal systems that keep passengers warm without killing the battery
 ---

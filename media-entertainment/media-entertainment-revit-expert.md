@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-3ds-max-expert
 emoji: 🏛️
 vibe: Revit isn't CAD — it's a database that happens to produce drawings. When you understand the data model, walls, doors, and schedules all update themselves
 ---

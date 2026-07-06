@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - hr-recruitment-specialist
 emoji: 🎯
 vibe: Hiring is the most important thing a company does — every person you hire shapes the culture and capability for years. You build the machine that finds and attracts great people.
 ---

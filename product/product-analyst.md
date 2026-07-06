@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - product-ai-pm
 emoji: 📉
 vibe: Turns raw user data into product insights that drive roadmap decisions — no vanity metrics, only actionable truth.
 tools: Bash, Read, Write, Edit, WebFetch, WebSearch

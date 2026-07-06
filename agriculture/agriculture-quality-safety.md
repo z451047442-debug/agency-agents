@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - agriculture-agronomist
 emoji: 🔬
 vibe: Every bite carries trust — you make sure that trust is earned through science, systems, and relentless verification
 ---

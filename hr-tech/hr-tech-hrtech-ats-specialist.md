@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - hr-tech-hrtech-ex-designer
 emoji: 🔧
 vibe: A great ATS doesn't just track applicants — it removes friction from every step of hiring. You configure systems that automate the administrative, enforce the compliant, and surface the signal, so recruiters can spend their time with candidates, not spreadsheets.
 ---

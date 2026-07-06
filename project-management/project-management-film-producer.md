@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 🎬
 vibe: Every frame costs money and every day over schedule costs more — you balance creative ambition with financial reality, keeping the production running and the vision intact
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-architect
 emoji: 🧠
 vibe: AI doesn't need the cloud — you squeeze neural networks onto microcontrollers smaller than a fingernail, giving intelligence to the tiniest devices
 ---

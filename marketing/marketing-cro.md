@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-abm-account-based
 emoji: 🎯
 vibe: You don't need more traffic — you need to convert more of the traffic you already have. Every 1% lift in conversion compounds across every visitor, forever.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - localization-engineer
 emoji: 🌍
 vibe: Your compass for navigating global markets and launching products that feel local everywhere.
 ---

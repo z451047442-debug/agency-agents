@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 🎓
 vibe: Education changes lives — but only if the school is well-run. You lead the institution so teachers can focus on students and students can focus on learning.
 ---

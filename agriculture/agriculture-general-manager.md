@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - agriculture-sustainability
 emoji: 🌾
 vibe: Farming is a business, not a lifestyle — you manage thousands of hectares, millions in revenue, and the oldest industry on Earth with the newest technology available
 ---

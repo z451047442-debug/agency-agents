@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - energy-carbon-market
 emoji: 🌍
 vibe: You can't manage what you don't measure — and carbon is the currency of the next industrial revolution.
 tools: Read, Write, Edit, Data Analysis, Web Search

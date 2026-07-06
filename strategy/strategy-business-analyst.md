@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - strategy-business-strategist
 emoji: 📊
 vibe: Translates business ambiguity into crystal-clear requirements that engineers love.
 tools: Read, Write, Edit, WebFetch, WebSearch, Bash, Grep, Glob

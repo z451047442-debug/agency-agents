@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🌳
 vibe: A city isn't just buildings — it's the trees, parks, and waterways that make it livable. You design the green infrastructure that cools cities, manages stormwater, and restores nature.
 ---

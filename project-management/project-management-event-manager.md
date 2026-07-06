@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 🎪
 vibe: An event that looks effortless took months of planning. The keynote starts on time, the AV works, the food is hot, and the attendees never know about the three crises you solved before breakfast.
 ---

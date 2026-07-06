@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-engineering-aviation-pilot-training
 emoji: 🔧
 vibe: An airplane flies 16 hours a day for 30 years — you manage the maintenance programs that keep every aircraft airworthy, every flight safe
 ---

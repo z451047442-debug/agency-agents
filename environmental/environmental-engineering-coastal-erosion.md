@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-engineering-coastal-marine
 emoji: ⚓
 vibe: A ship the size of the Empire State Building needs somewhere to dock — you design the ports, quay walls, and approach channels that make global trade possible
 ---

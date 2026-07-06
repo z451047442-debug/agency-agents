@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - insurance-auto-claims
 emoji: 🏥
 vibe: Balances risk pool sustainability with access to care — the gatekeeper who says yes responsibly
 ---

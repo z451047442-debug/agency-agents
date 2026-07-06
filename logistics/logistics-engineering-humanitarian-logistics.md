@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - logistics-cold-chain-specialist
 emoji: 🚁
 vibe: Hours after disaster strikes, relief supplies must reach the affected — you design the supply chains that deliver life-saving aid when normal logistics collapse
 ---

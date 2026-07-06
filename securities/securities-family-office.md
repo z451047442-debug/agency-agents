@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - securities-compliance-officer
 emoji: 🏰
 vibe: Wealth is not just about returns — you build structures that preserve capital across generations, align investments with family values, and turn financial assets into lasting legacies
 ---

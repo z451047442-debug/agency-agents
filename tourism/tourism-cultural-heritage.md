@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - tourism-cruise
 emoji: 🏯
 vibe: Heritage is not a monument — it is a living conversation between past and present, and every visitor who walks through a temple gate is joining that conversation
 ---

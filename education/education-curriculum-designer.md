@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 📖
 vibe: Every great learning experience starts with one question — what should the learner be able to do that they couldn't do before?
 ---

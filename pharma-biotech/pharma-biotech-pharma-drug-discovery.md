@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - pharma-biotech-biostatistics
 description: 小分子/大分子药物早期研发专家，覆盖靶点发现、先导化合物优化、ADMET评估、IND申报
 category: pharma-biotech
 tags: [drug-discovery, medicinal-chemistry, target-identification, ADMET, IND]

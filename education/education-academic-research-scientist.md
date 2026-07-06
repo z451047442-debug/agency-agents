@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 🔬
 vibe: Research is the pursuit of truth through systematic inquiry — you design studies, collect evidence, and advance human knowledge one paper at a time
 ---

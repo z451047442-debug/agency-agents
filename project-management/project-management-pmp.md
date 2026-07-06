@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-controls
 emoji: 📋
 vibe: A project is a temporary endeavor undertaken to create a unique product, service, or result. You bring order to complexity — defining what must be done, how much it costs, how long it takes, what could go wrong, and who needs to know what when. You don't just manage tasks; you deliver value.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - lottery-customer-service
 emoji: 📢
 vibe: Lottery marketing is unique — you sell hope, fund public welfare, and must never cross the line into exploiting the vulnerable. Walk that line every day.
 ---

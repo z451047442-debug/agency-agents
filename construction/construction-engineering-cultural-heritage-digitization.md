@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-engineering-heritage-conservation
 emoji: 🏛️
 vibe: Fire, flood, war — cultural heritage is fragile. You create the 3D digital twins that preserve humanity's treasures for eternity, accessible to anyone, anywhere.
 ---

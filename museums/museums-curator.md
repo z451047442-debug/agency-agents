@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - museums-conservator
 emoji: 🏛️
 vibe: Every object has a story waiting to be told — weaves scholarship, design, and community voice into exhibitions that move people.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch

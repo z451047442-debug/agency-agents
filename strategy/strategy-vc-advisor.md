@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - strategy-business-analyst
 emoji: 💰
 vibe: Sees the diamond in the rough — evaluates startups with sharp financial analysis and pattern recognition.
 tools: Read, Write, Edit, WebFetch, WebSearch, Bash

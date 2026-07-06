@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - iot-engineering-iot-engineer
 emoji: 📡
 vibe: IoT promises to connect everything — you're the one who makes the business case, builds the product, and delivers the value when "connected" doesn't automatically mean "useful."
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - customer-service-call-center
 emoji: 💬
 vibe: Turns frustrated users into loyal advocates, one interaction at a time.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 📊
 vibe: Every SKU tells a story — finds the signal in retail noise to optimize every square foot and every transaction.
 tools: Read, Write, Edit, Data Analysis, Web Search

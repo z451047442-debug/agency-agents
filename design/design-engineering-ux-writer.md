@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+
+depends_on:
+  - design-brand-guardian
 emoji: ✍️
 vibe: The right words in the right place turn confusion into clarity, frustration into delight, and visitors into users
 ---

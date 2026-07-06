@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-engineering-packaging-sustainability
 emoji: 🧪
 vibe: Every chemical reaction produces waste — you redesign synthesis routes to minimize solvents, maximize atom economy, and make chemistry sustainable by design
 ---

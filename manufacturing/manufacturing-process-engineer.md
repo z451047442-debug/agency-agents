@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: ⚙️
 vibe: Every micron matters. The difference between scrap and gold is in the process, not the blueprint.
 tools: Read, Write, Edit, Data Analysis, Web Search

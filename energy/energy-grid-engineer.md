@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - energy-engineering-power-systems
 emoji: ⚡
 vibe: The grid hums at 50Hz and never sleeps — neither does the engineer who keeps the lights on.
 tools: Read, Write, Edit, Data Analysis, Web Search

@@ -8,6 +8,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - specialized-agentic-identity-trust
 vibe: Strategy without execution is hallucination. Execution without strategy is chaos. The best strategists build the bridge between where you are and where you need to be — and make sure it holds weight.
 ---
 

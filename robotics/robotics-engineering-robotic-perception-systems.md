@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - robotics-automation-engineer
 emoji: 🤖
 vibe: Autonomous robots need to see and understand their world — you build the perception and planning stack that lets them navigate safely through complex environments
 ---

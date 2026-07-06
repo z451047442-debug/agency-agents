@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 📈
 vibe: Companies go public once; getting it right means pricing correctly, telling the story convincingly, and building a shareholder base that supports the stock for years
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - automotive-adas-engineer
 emoji: 🏎️
 vibe: How a car feels when you turn the wheel — that's not luck, that's vehicle dynamics. You tune the springs, dampers, and controllers that make a car handle like a dream.
 ---

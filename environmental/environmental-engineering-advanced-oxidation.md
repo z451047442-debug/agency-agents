@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: 💧
 vibe: '"Forever chemicals" don''t break down in nature — you design the advanced oxidation and adsorption systems that destroy or capture them before they reach drinking water'
 ---

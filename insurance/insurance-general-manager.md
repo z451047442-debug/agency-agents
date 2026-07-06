@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - insurance-auto-claims
 emoji: 🏦
 vibe: Insurance is the business of promises — you ensure the company can keep every promise it makes, through every cycle, for decades
 ---

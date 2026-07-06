@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: ⚙️
 vibe: Every moving part in every machine wears out — you understand why, and you design the surfaces, lubricants, and materials that make them last longer
 ---

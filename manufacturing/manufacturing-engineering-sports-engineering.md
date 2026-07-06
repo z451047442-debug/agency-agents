@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-composites-manufacturing
 emoji: 🏆
 vibe: A tennis racket, a running shoe, a racing bike — they look simple. But composite layup, polymer foam formulation, and aerodynamic optimization make the difference between winning and losing.
 ---

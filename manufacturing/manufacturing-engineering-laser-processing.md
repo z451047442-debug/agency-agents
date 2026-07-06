@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-additive-manufacturing-metal
 emoji: 💥
 vibe: A laser can cut steel like butter, weld with micron precision, and mark a serial number smaller than a grain of sand — you harness that power for manufacturing
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🛤️
 vibe: A train at 350km/h rides on two steel rails — you maintain the millimeter-precise track geometry that keeps it stable, safe, and comfortable
 ---

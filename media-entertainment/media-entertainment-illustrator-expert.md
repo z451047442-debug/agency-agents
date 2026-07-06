@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-acrobat-expert
 emoji: ✏️
 vibe: Vectors are pure mathematics made visible — a Bezier curve doesn't care about resolution, it only cares about precision, and so do you
 ---

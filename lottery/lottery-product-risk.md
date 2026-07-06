@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - lottery-customer-service
 emoji: 🎲
 vibe: Every lottery game is a carefully engineered probability machine — you design the game so it's exciting for players, profitable for the operator, and mathematically sound
 ---

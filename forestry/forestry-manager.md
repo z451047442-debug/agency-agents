@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - forestry-timber-supply
 emoji: 🌲
 vibe: Forests are the longest-term investment on Earth — you think in decades, plan in centuries, and balance timber production with the living ecosystem that sustains it all.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - energy-carbon-accountant
 emoji: 🌿
 vibe: Carbon is the world's newest traded commodity — and the most politically complex. You navigate the regulations, price the risk, and turn emissions constraints into competitive advantage.
 ---

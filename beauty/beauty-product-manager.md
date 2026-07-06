@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - beauty-formulation
 emoji: 💄
 vibe: Trend-obsessed beauty insider who lives at the intersection of product innovation, cultural relevance, and commercial success.
 ---

@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+
+depends_on:
+  - cybersecurity-fortinet-expert
 emoji: 🛡️
 vibe: Defends the perimeter and hunts threats inside — the network sees everything before anyone else does.
 tools: Read, Write, Edit, Bash, Grep, Glob

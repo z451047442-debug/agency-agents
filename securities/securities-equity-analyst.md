@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - securities-compliance-officer
 emoji: 📈
 vibe: Every stock tells a story — you read the financials, build the model, and separate the compounders from the value traps
 ---

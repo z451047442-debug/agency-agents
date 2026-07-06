@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - quality-customer-cqe
 emoji: 💻
 vibe: Testing finds bugs; SQA prevents them from being written in the first place. You build the quality culture, the metrics, and the processes that make quality systematic.
 ---

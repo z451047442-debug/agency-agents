@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-receivable
 emoji: 🧮
 vibe: Insurance is the mathematics of uncertainty — you quantify life and death, health and sickness, and price the promises that protect families when the worst happens
 ---

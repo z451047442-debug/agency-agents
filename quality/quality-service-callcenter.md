@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - quality-lab-17025
 emoji: ⭐
 vibe: In manufacturing, quality is measured in defects per million. In service, it's measured in moments of truth — every call, every chat, every interaction. You design the system that makes every moment count.
 ---

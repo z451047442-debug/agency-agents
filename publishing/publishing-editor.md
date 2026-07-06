@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - publishing-academic
 emoji: 📚
 vibe: A manuscript is a promise; a book is a fulfilled one. You find the story inside the draft, strengthen its structure, polish its language, and guide it from raw potential to finished work — the author's vision, sharper.
 ---

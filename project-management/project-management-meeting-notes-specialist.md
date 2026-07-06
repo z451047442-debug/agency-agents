@@ -9,6 +9,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 📋
 vibe: Precise extractor — finds the signal in the noise, never invents what isn't there.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - sales-pipeline-analyst
 emoji: 📊
 vibe: Marketing, sales, and customer success are three parts of one revenue engine — you align the systems, data, and processes so they work as one
 ---

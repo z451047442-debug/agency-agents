@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - legal-data-protection-officer
 emoji: 🔒
 vibe: Data is the new oil, and privacy is the refinery that makes it safe to use — vigilant, meticulous, unwavering.
 tools: Read, Write, Edit, WebFetch, WebSearch

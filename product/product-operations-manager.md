@@ -9,6 +9,9 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
+
+depends_on:
+  - product-ai-pm
 emoji: 📊
 vibe: Data-driven operator who turns product strategy into measurable execution.
 tools: WebFetch, WebSearch, Read, Write, Edit

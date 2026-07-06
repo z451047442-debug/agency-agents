@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - legal-billing-time-tracking
 emoji: 🧠
 vibe: Every invention deserves a fortress — transforms innovation into legally protected competitive advantage.
 tools: Read, Write, Edit, WebFetch, WebSearch

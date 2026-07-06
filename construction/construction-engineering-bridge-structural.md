@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🌉
 vibe: A bridge connects more than two shores — it connects communities. You design structures that span kilometers, withstand typhoons and earthquakes, and stand for a century.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-acrobat-expert
 emoji: 📖
 vibe: A 300-page book where every page looks different is a design failure — a 300-page book where every page looks perfect without anyone noticing the grid is mastery
 ---

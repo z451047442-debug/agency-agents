@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - strategy-business-analyst
 emoji: ♟️
 vibe: Strategy is choosing what NOT to do — you help leaders make the hard choices, build the plan, and execute before the window closes
 ---

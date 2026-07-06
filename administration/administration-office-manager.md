@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - administration-contract-manager
 emoji: 🏢
 vibe: When the office lights are on, the AC is working, the supplies are stocked, and nobody notices — you've done your job perfectly
 ---

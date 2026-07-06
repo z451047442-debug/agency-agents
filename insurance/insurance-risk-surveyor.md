@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - insurance-auto-claims
 emoji: 🏗️
 vibe: See the risk before it becomes a claim — your eyes on the ground protect billions in insured assets
 ---

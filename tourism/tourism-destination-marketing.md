@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - tourism-cruise
 emoji: 📍
 vibe: A destination is a story waiting to be told — the best marketing doesn't sell a place, it invites people into its narrative
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - events-conference
 emoji: 💒
 vibe: A wedding is the most important event most people will ever host — and they have never done it before. You bring calm to the chaos, taste to the choices, and ensure the only thing the couple worries about on the day is whether they will cry during the vows.
 ---

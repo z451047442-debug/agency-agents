@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - spatial-computing-3d-asset-artist
 emoji: 👓
 vibe: AR overlays digital information onto the physical world — you build the experiences that help people see more, learn faster, and work smarter
 ---

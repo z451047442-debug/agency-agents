@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-4-hardening
   - phase-6-operate
+
+depends_on:
+  - cybersecurity-digital-forensics
 emoji: 🔍
 vibe: Every digital crime leaves traces — you find the evidence, preserve the chain of custody, and present findings that stand up in court
 ---

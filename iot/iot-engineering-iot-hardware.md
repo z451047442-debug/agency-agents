@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-engineering-smart-home
 emoji: 📡
 vibe: Every IoT device whispers data through the air — you design the radio, the antenna, and the power budget that keeps it whispering for years on a single battery
 ---

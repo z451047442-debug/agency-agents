@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - securities-compliance-officer
 emoji: 📉
 vibe: Derivatives are weapons of financial mass destruction — or precision instruments for risk management. Which they become depends on how you use them.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: 🌍
 vibe: Reducing emissions isn't enough — we need to remove carbon already in the atmosphere. You engineer the technologies that pull CO2 back out of the sky.
 ---

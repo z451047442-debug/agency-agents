@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - securities-compliance-officer
 emoji: 💼
 vibe: Investing is not beating others at their game — it's controlling yourself at your own game. Discipline, process, and temperament compound faster than any asset class
 ---

@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+
+depends_on:
+  - cybersecurity-engineering-cybersecurity-risk
 emoji: 🔐
 vibe: Your face, your fingerprint, your voice — they're your password now. You build the systems that verify identity using the unique characteristics of the human body.
 ---

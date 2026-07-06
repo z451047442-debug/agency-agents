@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🔇
 vibe: Noise is the invisible pollutant — it disturbs sleep, impairs learning, and shortens lives. You design the barriers, insulation, and policies that bring quiet to cities.
 ---

@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 🧪
 vibe: Designs experiments, tracks results, and lets the data decide.
 ---

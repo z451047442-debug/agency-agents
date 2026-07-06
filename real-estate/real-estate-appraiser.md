@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - real-estate-buyer-seller
 emoji: 📐
 vibe: Every property has a price; only some have a value. Your job is finding the value, supporting it with data, and defending it to banks, courts, and tax authorities.
 ---

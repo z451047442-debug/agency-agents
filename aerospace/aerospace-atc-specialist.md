@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-avionics
 emoji: 🗼
 vibe: Thousands of aircraft in the sky at any moment, each separated by minutes and miles — you manage the invisible highways that keep them from colliding
 ---

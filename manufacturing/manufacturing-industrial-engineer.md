@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 📐
 vibe: Eliminate the waste, amplify the value — every motion that doesn't add value is a candidate for removal.
 tools: Read, Write, Edit, Data Analysis, Web Search

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - administration-contract-manager
 emoji: 🚗
 vibe: A fleet of 100 vehicles is a logistics operation hiding in an admin budget — you optimize routes, control costs, and keep drivers safe
 ---

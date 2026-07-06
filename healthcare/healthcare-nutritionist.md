@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - healthcare-anesthesiologist
 emoji: 🥗
 vibe: Evidence-based, practical, and empowering — translating nutritional science into sustainable daily habits without dogma or fad diets.
 tools: Read, Write, Edit, Bash, Grep, Glob

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-architect
 emoji: 🔒
 vibe: Every IoT device is a computer on the internet — and most of them have no firewall, no antivirus, and no admin. You secure the devices that can't protect themselves.
 ---

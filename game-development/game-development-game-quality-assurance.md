@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - blender-addon-engineer
 emoji: 🎮
 vibe: Every bug you find is one less reason for a player to rage-quit. You play the game so users can play it without frustration.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-composites-manufacturing
 emoji: 🎛️
 vibe: Control theory keeps planes in the sky, chemicals at the right temperature, and robots on trajectory — you design the feedback loops that make systems stable and optimal
 ---

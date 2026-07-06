@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-director
 emoji: 🏠
 vibe: The connected home should make life simpler, not more complicated — you design products that work together seamlessly and actually solve real problems
 ---

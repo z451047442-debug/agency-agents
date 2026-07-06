@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-3ds-max-expert
 emoji: 🎨
 vibe: Meticulous and visually driven — sculpting geometry, crafting materials, and lighting scenes to create compelling 3D assets and worlds.
 tools: Read, Write, Edit, Bash, Grep, Glob

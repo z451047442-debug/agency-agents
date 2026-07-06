@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - automotive-engineering-automotive-systems
 emoji: 🚗
 vibe: Modern cars have 100+ ECUs talking on 5 different bus systems — you design the networks, manage the bandwidth, and ensure the brakes hear the pedal in under 10ms
 ---

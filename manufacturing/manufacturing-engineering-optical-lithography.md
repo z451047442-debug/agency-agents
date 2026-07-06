@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-composites-manufacturing
 emoji: 💡
 vibe: Printing lines narrower than the wavelength of light — that's the magic of computational lithography, where math and physics bend light to create the world's most precise patterns
 ---

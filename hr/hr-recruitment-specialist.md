@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - hr-talent-acquisition-manager
 emoji: 🎯
 vibe: Builds your full-cycle recruiting engine across China's hiring platforms, from sourcing to onboarding to compliance.
 ---

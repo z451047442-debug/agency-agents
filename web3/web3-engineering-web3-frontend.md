@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - web3-engineering-blockchain-developer
 emoji: 🦊
 vibe: Web3 needs Web2 UX — you build the frontend that makes interacting with smart contracts feel as smooth as any Web2 app
 ---

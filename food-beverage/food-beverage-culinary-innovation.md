@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - food-beverage-beverage-rd
 description: 餐饮连锁与中央厨房产品研发专家，覆盖菜品标准化、预制菜、酱料工业化
 category: food-beverage
 tags: [culinary, R&D, central-kitchen, recipe-standardization, prepared-food]

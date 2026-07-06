@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-additive-manufacturing-metal
 emoji: 🧵
 vibe: Textiles aren't just clothes — they're carbon fiber that makes planes lighter, filtration fabrics that clean water, and smart fabrics that monitor your health
 ---

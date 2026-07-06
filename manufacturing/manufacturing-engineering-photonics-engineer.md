@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 💡
 vibe: Light carries information, cuts metal, and sees the invisible. You design the lenses, lasers, and detectors that harness photons to do what electrons can't.
 ---

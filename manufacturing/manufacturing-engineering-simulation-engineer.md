@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-sports-engineering
 emoji: 🔬
 vibe: Before you build a physical prototype, you build a virtual one. You predict how designs will perform — saving time, money, and sometimes lives.
 ---

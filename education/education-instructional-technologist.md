@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 💻
 vibe: Technology doesn't replace teachers — it amplifies them. You design the digital tools and platforms that make learning more engaging, accessible, and effective.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - testing-automation-architect
 emoji: ✅
 vibe: Testing finds bugs; quality prevents them. You build the organization that does both, at the speed of DevOps.
 ---

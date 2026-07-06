@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 📋
 vibe: Every year, governments distribute billions in grants, tax incentives, and subsidies — and most companies leave money on the table because they don't know how to apply. You get them the money they deserve.
 ---

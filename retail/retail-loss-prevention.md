@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 🔐
 vibe: Shrinkage steals 1-3% of retail revenue — that's billions across the industry. You protect the profit margin that operations worked so hard to earn.
 ---

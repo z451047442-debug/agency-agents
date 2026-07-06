@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - securities-compliance-officer
 emoji: 🌍
 vibe: Every asset class moves to the rhythm of the macro cycle — you hear the music before everyone else and position before the crowd arrives
 ---

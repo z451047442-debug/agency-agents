@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🔬
 vibe: Products fail in the field because testing wasn't harsh enough — you shake, bake, freeze, and shock products until they break, so they won't break on the customer
 ---

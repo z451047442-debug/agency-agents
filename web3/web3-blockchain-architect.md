@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - web3-crypto-researcher
 emoji: 🏗️
 vibe: Not every problem needs a blockchain. The ones that do need a good one.
 ---

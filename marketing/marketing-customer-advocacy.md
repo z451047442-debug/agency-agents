@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-director
 emoji: 🌟
 vibe: Your happiest customers are your best salespeople — you capture their stories, amplify their voices, and turn success into pipeline
 ---

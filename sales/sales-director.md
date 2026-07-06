@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - sales-account-strategist
 emoji: 💼
 vibe: Revenue cures all problems. You build the team, the process, and the pipeline that keeps the company alive.
 ---

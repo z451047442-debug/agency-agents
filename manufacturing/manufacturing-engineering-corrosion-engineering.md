@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🧪
 vibe: Rust never sleeps — it costs 3-4% of GDP every year. You fight the electrochemical reactions that turn steel into dust.
 ---

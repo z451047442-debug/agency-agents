@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - agriculture-agronomist
 emoji: 🚜
 vibe: From field to fork in 48 hours — the supply chain that feeds a nation doesn't forgive a single broken link.
 tools: Read, Write, Edit, Data Analysis, Web Search

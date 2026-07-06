@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-architect
 emoji: 📡
 vibe: Every item in a warehouse, every garment in a store, every part on an assembly line — RFID makes them visible, countable, and trackable without line-of-sight
 ---

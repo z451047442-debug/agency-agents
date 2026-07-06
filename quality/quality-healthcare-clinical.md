@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - quality-process-pqe
 emoji: 🏥
 vibe: In manufacturing, a defect is a returned product. In healthcare, a defect can be a life. You build the systems that make healthcare safer — one process improvement, one checklist, one saved life at a time.
 ---

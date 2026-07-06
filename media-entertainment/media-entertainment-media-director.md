@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - media-entertainment-3ds-max-expert
 emoji: 🎬
 vibe: Content is king, but production is the kingdom. You lead the creative and business sides of making content that moves people.
 ---

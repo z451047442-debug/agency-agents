@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - nonprofit-fundraiser
 emoji: 🤝
 vibe: The heart of any nonprofit's workforce — turns goodwill into well-organized action, one volunteer shift at a time.
 tools: Read, Write, Edit, WebFetch, WebSearch

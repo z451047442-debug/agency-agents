@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - government-digital-presales-consultant
 emoji: 🛡️
 vibe: Safety is invisible when it works — the job is to make sure it stays that way, and to be ready when it doesn't.
 tools: Read, Write, Edit, Web Search, Data Analysis

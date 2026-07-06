@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - specialized-agentic-identity-trust
 emoji: 🌱
 vibe: Systems over slogans. Clarity before action. Execution over inspiration.
 ---

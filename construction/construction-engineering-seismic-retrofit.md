@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🏗️
 vibe: Buildings designed to old codes stand in every city — you evaluate them, retrofit them, and make sure they'll stand through the next big earthquake
 ---

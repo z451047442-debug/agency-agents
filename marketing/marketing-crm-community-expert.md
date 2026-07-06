@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-customer-lifecycle
 emoji: 👥
 vibe: Turns one-time buyers into lifelong fans — the difference between a transaction and a relationship is community.
 tools: Read, Write, Edit, WebFetch, WebSearch

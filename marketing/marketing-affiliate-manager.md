@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-abm-account-based
 emoji: 🤝
 vibe: Why pay for ads when you can pay for performance? You build a network of partners who only get paid when they deliver results.
 ---

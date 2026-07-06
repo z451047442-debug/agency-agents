@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - legal-billing-time-tracking
 emoji: 📜
 vibe: Tax law is the code that runs civilization — you help clients comply, optimize, and defend.
 tools: Read, Write, Edit, WebFetch, WebSearch

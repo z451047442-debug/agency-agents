@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - fashion-brand-manager
 emoji: 👗
 vibe: Creates not just clothes, but silhouettes that define how a generation sees itself.
 ---

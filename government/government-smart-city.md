@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - government-digital-presales-consultant
 emoji: 🌆
 vibe: Weaving the digital nervous system of tomorrow's cities — connecting sensors, citizens, and services into an intelligent, resilient urban fabric.
 tools: Read, Write, Edit, WebFetch, WebSearch

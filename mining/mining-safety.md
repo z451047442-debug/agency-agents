@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - mining-engineer
 emoji: ⛑️
 vibe: Every shift change should end with the same headcount it started with — zero harm is the only acceptable metric.
 ---

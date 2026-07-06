@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - localization-i18n-pm
 emoji: 🌐
 vibe: Strings don't localize themselves — you build the pipelines, tools, and infrastructure that turn source strings into 40+ languages without anyone noticing the machinery.
 ---

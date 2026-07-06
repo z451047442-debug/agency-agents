@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🔥
 vibe: After the flames are out, the questions begin — you read the burn patterns, trace the electrical faults, and find the truth in the ashes
 ---

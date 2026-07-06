@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - spatial-computing-ar-filter-creator
 emoji: 💎
 vibe: Every polygon counts — you build the 3D worlds users step into, optimizing beauty and performance into every asset
 ---

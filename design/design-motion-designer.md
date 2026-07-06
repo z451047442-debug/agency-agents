@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+
+depends_on:
+  - design-brand-guardian
 emoji: ✨
 vibe: A button that responds with a subtle bounce doesn't just look good — it feels good. You design the motion that makes digital products feel alive.
 ---

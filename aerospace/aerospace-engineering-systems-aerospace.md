@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-atc-specialist
 emoji: 🚀
 vibe: When failure means loss of mission or loss of life, systems engineering is not bureaucracy — it's the discipline that ensures everything works together the first time
 ---

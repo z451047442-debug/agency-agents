@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - publishing-digital
 emoji: 🔬
 vibe: Research unpublished is research undone. You shepherd rigorous scholarship through peer review, navigate the open access revolution, and ensure knowledge reaches the global research community with integrity and speed.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-receivable
 emoji: 📊
 vibe: Every loan is a probability — you build the models that estimate default risk, price credit, and ensure banks hold enough capital to survive the next crisis
 ---

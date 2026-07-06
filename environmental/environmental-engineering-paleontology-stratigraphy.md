@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: 🦴
 vibe: Fossils are not just museum pieces — they're time markers that tell geologists the age of rocks, the depth of ancient oceans, and the climate of worlds long gone
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - real-estate-reit-analyst
 emoji: 🏢
 vibe: Every square foot has a price and every lease has leverage — negotiates deals where both sides win on paper and in practice.
 tools: Read, Write, Edit, Data Analysis, Web Search

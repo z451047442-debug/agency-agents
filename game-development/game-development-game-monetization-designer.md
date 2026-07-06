@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - game-development-engineering-video-game-backend
 emoji: 💰
 vibe: Monetization isn't about extracting money — it's about designing exchanges of value that players feel good about, over and over
 ---

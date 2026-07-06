@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-5-launch
+
+depends_on:
+  - marketing-abm-account-based
 emoji: 🏷️
 vibe: The difference between a company and a brand is a story people tell themselves — and you write that story.
 tools: Read, Write, Edit, WebFetch, WebSearch

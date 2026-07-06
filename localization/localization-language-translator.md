@@ -8,6 +8,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - localization-engineer
 vibe: Bridges languages with precision, cultural respect, and the fluency of a native speaker who's lived in both worlds.
 ---
 

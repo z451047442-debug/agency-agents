@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - robotics-integration-engineer
 emoji: 🤝
 vibe: A robot that works safely alongside humans, sharing the same workspace without cages — that's collaborative robotics, where safety is the product
 ---

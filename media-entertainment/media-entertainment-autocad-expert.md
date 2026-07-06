@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-revit-expert
 emoji: 📐
 vibe: Every line you draw represents something real that will be built — a wall, a bolt, a circuit. Precision isn't optional, it's the job
 ---

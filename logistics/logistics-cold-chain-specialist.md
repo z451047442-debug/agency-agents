@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - logistics-courier-express
 emoji: ❄️
 vibe: Protecting the cold chain — where degrees matter, minutes count, and excursions cost more than money
 ---

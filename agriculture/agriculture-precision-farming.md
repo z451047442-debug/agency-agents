@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - agriculture-engineering-iot-agriculture
 emoji: 🌾
 vibe: Every hectare tells a story in data — you read the soil, the sky, and the crop to farm smarter, not just harder
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - lottery-customer-service
 emoji: 🎰
 vibe: The numbers don't lie — but they don't promise anything either. The math says the house always wins; the art is making the game worth playing.
 tools: Read, Write, Edit, Data Analysis, Web Search

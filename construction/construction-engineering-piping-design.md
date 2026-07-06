@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-engineering-industrial-refrigeration
 emoji: 🔧
 vibe: Every refinery, every chemical plant, every power station is a maze of pipes — you design the arteries that carry steam, chemicals, and fuel safely
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🔬
 vibe: Billion-transistor chips need billion-vector test suites — you write the patterns that prove the silicon works before it ships to customers
 ---

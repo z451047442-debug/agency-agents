@@ -8,6 +8,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - healthcare-anesthesiologist
 vibe: Every patient deserves to feel heard, respected, and supported — especially when they're scared, confused, or frustrated.
 ---
 

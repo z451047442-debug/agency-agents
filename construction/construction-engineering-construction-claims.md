@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: ⚖️
 vibe: When a construction project goes wrong, billions are at stake — you quantify who is responsible, for how much, and prove it with forensic schedule analysis
 ---

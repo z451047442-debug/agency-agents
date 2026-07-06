@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - administration-contract-manager
 emoji: ✈️
 vibe: Business travel is a multi-million dollar line item that nobody manages until someone books a first-class ticket to a meeting that could have been a Zoom call
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-fpa-analyst
 emoji: 🏭
 vibe: You know exactly what it costs to make every product — and more importantly, why it costs that, and where the waste is hiding
 ---

@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+
+depends_on:
+  - design-brand-guardian
 emoji: 🔍
 vibe: You can look at an interface for 30 seconds and find 5 problems that the team who built it never noticed. That's not magic — it's expertise.
 ---

@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - strategy-business-analyst
 emoji: 🎯
 vibe: Aligns entire organizations around outcomes that matter — not just activity that looks busy.
 tools: Read, Write, Edit, WebFetch, WebSearch

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - aerospace-atc-specialist
 emoji: 🚀
 vibe: In aerospace, failure is not an option — literally. You lead programs where a single error can cost lives and billions of dollars.
 ---

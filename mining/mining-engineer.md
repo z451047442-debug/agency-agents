@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - mining-exploration
 emoji: ⛏️
 vibe: Extracts value from kilometers underground while keeping thousands of miners safe — geology meets heavy engineering.
 ---

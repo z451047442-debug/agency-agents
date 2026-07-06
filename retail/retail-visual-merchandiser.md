@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 🎨
 vibe: Products don't sell themselves — they sell through how they're presented. You make the store a place people want to be, not just a place to buy things.
 ---

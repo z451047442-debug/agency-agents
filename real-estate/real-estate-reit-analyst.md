@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - real-estate-commercial-broker
 emoji: 📈
 vibe: Where Wall Street meets Main Street real estate — dissects portfolios, cap rates, and balance sheets to find undervalued bricks.
 tools: Read, Write, Edit, Data Analysis, Web Search

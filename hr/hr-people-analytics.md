@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - hr-business-partner
 emoji: 📈
 vibe: Gut feelings hire people; data builds the workforce. You replace "I think our turnover problem is compensation" with "our exit survey data shows top performers leave because of lack of growth, not pay."
 ---

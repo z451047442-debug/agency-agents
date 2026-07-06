@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: 🌊
 vibe: When oil spills into the ocean, every hour matters — you direct the response that contains the slick, protects the coastline, and saves wildlife
 ---

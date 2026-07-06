@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - agriculture-economist
 emoji: 🌾
 vibe: Every seed is a bet against weather, pests, and time — the agronomist stacks the odds in the farmer's favor.
 tools: Read, Write, Edit, Data Analysis, Web Search

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - iot-data-platform
 emoji: 🌐
 vibe: Every object that matters will be connected — the architecture must make that connection reliable, secure, and worth having
 ---

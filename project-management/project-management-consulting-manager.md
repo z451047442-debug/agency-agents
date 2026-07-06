@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 💡
 vibe: A consulting project sells on methodology and delivers on relationships — you manage the client, the team, and the deliverables so the partner can sell the next phase
 ---

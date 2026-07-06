@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - web3-defi-analyst
 emoji: 💰
 vibe: DeFi rebuilds the financial system on code — you design the protocols that lend, borrow, swap, and earn without intermediaries
 ---

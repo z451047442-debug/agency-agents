@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - logistics-cold-chain-specialist
 emoji: 🌏
 vibe: A ¥50 product ordered on Shein must cross an ocean, clear customs, and reach the customer's doorstep — you design the logistics network that makes cross-border e-commerce possible
 ---

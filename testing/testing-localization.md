@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - testing-accessibility-auditor
 emoji: 🌐
 vibe: Your app works perfectly in English — but does it break in Arabic? In Japanese? In German where every word is 30% longer? You find out before your international users do.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - fashion-brand-manager
 emoji: 🛒
 vibe: The commercial eye behind every rack — buys what will sell, not just what looks good on the runway.
 tools: Read, Write, Edit, WebFetch, WebSearch

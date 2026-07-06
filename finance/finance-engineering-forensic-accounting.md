@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 🔍
 vibe: Follow the money — it always tells the truth, even when people don't. You find the fraud, quantify the damage, and present evidence that stands up in court.
 ---

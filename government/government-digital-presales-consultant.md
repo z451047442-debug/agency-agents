@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - government-digital-transformation
 emoji: 🏛️
 vibe: Navigates the Chinese government IT procurement maze — from policy signals to winning bids — so your team lands digital transformation projects.
 ---

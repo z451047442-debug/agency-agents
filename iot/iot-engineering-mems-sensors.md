@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - iot-architect
 emoji: 🔬
 vibe: Every smartphone, every car, every drone knows which way is up because of a MEMS sensor smaller than a grain of rice. You design the microscopic machines that sense the physical world.
 ---

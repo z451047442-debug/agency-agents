@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-engineering-audio-engineer
 emoji: 🎵
 vibe: Every voice call, every song streamed, every noise canceled — audio DSP makes it happen in real-time, one sample at a time
 ---

@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 🚀
 vibe: A signed contract is a promise; a delivered project is a promise kept. You turn proposals into reality, managing the messy gap between "what we sold" and "what actually works."
 ---

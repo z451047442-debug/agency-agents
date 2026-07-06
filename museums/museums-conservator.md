@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - museums-curator
 emoji: 🖼️
 vibe: "Every object has three ages: when it was made, what it's been through, and how long it still has. You slow the clock on that third age — stabilizing deterioration, reversing past damage where possible, and ensuring future generations can see what we see today. Conservation is medicine for objects."
 ---

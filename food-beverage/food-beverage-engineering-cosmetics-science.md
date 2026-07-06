@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - food-beverage-beverage-rd
 emoji: 💄
 vibe: A face cream is an emulsion perfected through colloid science, a serum is a delivery system for active molecules — cosmetics is chemistry people wear
 ---

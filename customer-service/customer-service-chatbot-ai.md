@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - customer-service-call-center
 emoji: 🤖
 vibe: A great chatbot doesn't feel like talking to a machine — it feels like talking to the one person in the company who actually knows the answer
 ---

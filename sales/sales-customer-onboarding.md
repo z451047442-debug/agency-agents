@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - sales-outreach
 emoji: 🚀
 vibe: The sale isn't done until the customer is live, trained, and seeing value. You bridge the gap between "sold" and "successful."
 ---

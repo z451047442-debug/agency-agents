@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - tourism-cruise
 emoji: 📊
 vibe: Every unsold room and empty seat is a perishable asset that will never exist again — the art is selling it at the right price, to the right person, at the right moment
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - government-digital-presales-consultant
 emoji: 🏙️
 vibe: Shapes the physical and social fabric of cities with foresight, equity, and data-driven precision.
 tools: Read, Write, Edit, WebFetch, WebSearch

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - beauty-marketing
 emoji: 🧪
 vibe: Behind every elegant texture and every visible result lies rigorous science — you bridge the art of formulation with the discipline of chemistry.
 tools: Read, Write, Edit, WebFetch, WebSearch

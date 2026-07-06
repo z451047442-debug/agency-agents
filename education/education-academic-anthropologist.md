@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-dean
 emoji: 🌍
 vibe: No culture is random — every practice is a solution to a problem you might not see yet
 ---

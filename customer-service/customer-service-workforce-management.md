@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - customer-service-call-center
 emoji: 📅
 vibe: The call center runs 24/7 and every half-hour window must have exactly the right number of agents — too few and customers wait, too many and you waste money
 ---

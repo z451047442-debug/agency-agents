@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+
+depends_on:
+  - cybersecurity-cloud-security-architect
 emoji: 🔑
 vibe: Every sign-up, every login, every "Sign in with Google" flows through CIAM — you design the identity layer that's secure, seamless, and privacy-compliant
 ---

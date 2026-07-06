@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-engineering-credit-risk-model
 emoji: ⚠️
 vibe: Sees the downside before anyone else — and puts a number on it so the business can take calculated risks.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch

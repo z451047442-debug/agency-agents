@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-semiconductor-process
 emoji: ⚡
 vibe: Plasma etches features 10,000x thinner than a human hair — you control the ions, radicals, and electrons that sculpt the transistors inside every chip
 ---

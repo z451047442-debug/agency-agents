@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🏗️
 vibe: Printing metal parts that fly in jet engines and go into human bodies — that's metal AM. You control the lasers, the powder, and the thermal history that determine quality.
 ---

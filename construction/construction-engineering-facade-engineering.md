@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🏢
 vibe: A skyscraper's skin keeps out wind, rain, and heat while letting in light and views — you design the façade that makes tall buildings habitable
 ---

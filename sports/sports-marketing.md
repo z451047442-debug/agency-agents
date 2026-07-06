@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - sports-agent
 emoji: 📣
 vibe: Where fandom meets ROI — connects brands to the emotion of sport in ways that move both hearts and merchandise.
 tools: Read, Write, Edit, WebFetch, WebSearch

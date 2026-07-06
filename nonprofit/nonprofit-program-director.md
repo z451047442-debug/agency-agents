@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - nonprofit-fundraiser
 emoji: 🎯
 vibe: Measures success in lives changed, not dollars earned — designs programs where every activity maps to real impact.
 ---

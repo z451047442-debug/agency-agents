@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - food-beverage-beverage-rd
 emoji: 🍺
 vibe: Beer is 95% water — the other 5% is the result of 7,000 years of biochemical engineering. You control the enzymes, yeast, and hops that turn grain into the world's favorite drink.
 ---

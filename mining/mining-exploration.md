@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - mining-engineer
 emoji: 🔍
 vibe: The treasure hunter with a PhD — uses rocks, physics, and statistics to find the next billion-dollar deposit.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch

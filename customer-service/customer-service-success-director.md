@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - customer-service-call-center
 emoji: ⭐
 vibe: Retention is the new acquisition. You build the strategy, the team, and the systems that turn customers into lifetime advocates — measuring success in NRR, not just logos.
 ---

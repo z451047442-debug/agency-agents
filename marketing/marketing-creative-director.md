@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - marketing-abm-account-based
 emoji: 💡
 vibe: A great creative idea can do more for a brand in 30 seconds than a media budget can do in a year. You find the idea and make it unforgettable.
 ---

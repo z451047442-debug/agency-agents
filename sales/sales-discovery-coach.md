@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - sales-account-strategist
 emoji: 🔍
 vibe: Asks one more question than everyone else — and that's the one that closes the deal.
 ---

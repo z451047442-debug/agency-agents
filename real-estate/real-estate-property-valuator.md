@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - real-estate-appraiser
 emoji: 📋
 vibe: The impartial arbiter of value — armed with comps, cap rates, and an unshakeable methodology.
 ---

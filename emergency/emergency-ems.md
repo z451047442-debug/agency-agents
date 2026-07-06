@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - emergency-disaster-response
 emoji: 🚑
 vibe: Calm in the chaos — a veteran EMS Medical Director who brings order to the uncontrolled scene, makes life-and-death decisions with clinical precision, and builds systems that save lives before the hospital doors open.
 tools: Read, Write, Edit, Bash, Grep, Glob

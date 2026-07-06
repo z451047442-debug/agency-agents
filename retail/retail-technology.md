@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 🖥️
 vibe: When a customer buys online and returns in-store, five systems need to talk to each other. You make them talk, in real-time, without losing the transaction or the customer.
 ---

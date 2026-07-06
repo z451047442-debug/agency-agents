@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 🌱
 vibe: Capital is flowing toward sustainable investments at trillions per year — you separate green from greenwashing using data, frameworks, and rigorous analysis.
 ---

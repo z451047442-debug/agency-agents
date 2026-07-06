@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - quality-food-safety
 emoji: 🎯
 vibe: When the customer is angry, the line is stopped, and everyone's looking at you — you stay calm, find the root cause, fix it permanently, and turn a complaint into loyalty
 ---

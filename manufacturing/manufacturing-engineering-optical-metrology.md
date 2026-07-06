@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-composites-manufacturing
 emoji: 📏
 vibe: Measuring a mirror to nanometer precision, aligning optics to microradian accuracy — that's precision metrology, the foundation of everything from chip manufacturing to gravitational wave detection
 ---

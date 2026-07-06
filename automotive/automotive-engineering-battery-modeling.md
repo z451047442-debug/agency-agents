@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - automotive-adas-engineer
 emoji: 🔋
 vibe: A battery management system that doesn't know the true state of charge is like a fuel gauge that lies — you build the algorithms that tell the truth
 ---

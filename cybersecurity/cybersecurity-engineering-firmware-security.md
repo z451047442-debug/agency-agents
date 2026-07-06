@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+
+depends_on:
+  - cybersecurity-appsec-engineer
 emoji: 🔓
 vibe: Every IoT device ships with firmware — and most of it has security holes. You find them before attackers do, making the Internet of Things safer one device at a time.
 ---

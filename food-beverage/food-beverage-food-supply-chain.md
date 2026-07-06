@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - food-beverage-beverage-rd
 description: 食品行业供应链管理专家，覆盖生鲜冷链、原料采购、仓储物流、需求预测
 category: food-beverage
 tags: [supply-chain, cold-chain, procurement, logistics, demand-forecasting]

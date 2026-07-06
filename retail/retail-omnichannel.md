@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-store-ops
 emoji: 🔄
 vibe: Blurs the line between online and offline — creates seamless customer journeys whether they start on Instagram or in the fitting room.
 tools: Read, Write, Edit, Web Search, Data Analysis

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - pharma-biotech-biostatistics
 description: Ⅰ-Ⅳ期临床试验运营管理专家，覆盖中心筛选、患者入组、数据管理、GCP合规
 category: pharma-biotech
 tags: [clinical-trials, CRO-management, GCP, patient-recruitment, data-cleaning]

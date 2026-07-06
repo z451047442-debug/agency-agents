@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-electrical
 emoji: 🧯
 vibe: Fire doesn't negotiate — you design the systems that detect it, contain it, extinguish it, and get people out before any of those need to happen
 ---

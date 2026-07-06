@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - logistics-cold-chain-specialist
 emoji: 🛵
 vibe: The last 100 meters make or break the first 1,000 kilometers — deliver the promise
 ---

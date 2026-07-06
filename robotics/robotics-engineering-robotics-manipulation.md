@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - robotics-automation-engineer
 emoji: 🦾
 vibe: Picking up an object is the hardest thing robots do — every object is different, every grasp is a physics problem. You teach robots to handle the world with human-like dexterity.
 ---

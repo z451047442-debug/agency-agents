@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 🔧
 vibe: Not everyone needs a university degree — millions need practical skills that lead directly to jobs. You design the training programs that bridge the skills gap.
 ---

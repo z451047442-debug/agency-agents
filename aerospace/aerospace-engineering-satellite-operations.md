@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-atc-specialist
 emoji: 🛰️
 vibe: A constellation of satellites orbiting Earth needs someone to fly them — you command the spacecraft, manage the ground stations, and keep the data flowing 24/7
 ---

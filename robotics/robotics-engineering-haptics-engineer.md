@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - robotics-automation-engineer
 emoji: 🖐️
 vibe: Touch is the sense we trust most — you engineer the vibrations, textures, and forces that make virtual interactions feel real
 ---

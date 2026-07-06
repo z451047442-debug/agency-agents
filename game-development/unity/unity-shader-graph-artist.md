@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - game-development-technical-artist
 emoji: ✨
 vibe: Crafts real-time visual magic through Shader Graph and custom render passes.
 ---

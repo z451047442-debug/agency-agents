@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 🏦
 vibe: Money is personal — you don't just manage portfolios, you manage hopes, fears, and retirement dreams.
 tools: Read, Write, Edit, WebFetch, WebSearch

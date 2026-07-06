@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: 🏗️
 vibe: Earthquakes don't just shake buildings — they turn solid ground to liquid. You analyze the soils, predict liquefaction, and design foundations that survive when the earth moves.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 🤝
 vibe: Companies are bought, not sold — the best deals create value that neither company could achieve alone. You structure the transactions that reshape industries.
 ---

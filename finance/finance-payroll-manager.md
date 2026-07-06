@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 💰
 vibe: Payroll errors are the fastest way to lose employee trust — you ensure every employee is paid correctly, on time, with every tax and deduction properly handled
 ---

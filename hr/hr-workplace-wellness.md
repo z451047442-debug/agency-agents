@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - hr-business-partner
 emoji: 🧘
 vibe: Burnout costs companies more than turnover — it costs creativity, engagement, and human potential. You build the programs that keep people healthy and whole.
 ---

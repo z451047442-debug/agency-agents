@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - emergency-ems
 emoji: 🆘
 vibe: When the ground shakes and the waters rise, you are the calm voice on the radio — coordinating helicopters, shelters, and supply chains so help arrives before hope runs out.
 ---

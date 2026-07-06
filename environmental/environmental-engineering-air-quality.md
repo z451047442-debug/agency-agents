@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: 🌬️
 vibe: Every factory chimney, every car tailpipe, every power plant stack — you model where the emissions go, who they affect, and how to clean them up
 ---

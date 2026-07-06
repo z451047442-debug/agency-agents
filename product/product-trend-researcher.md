@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - product-ai-pm
 tools: WebFetch, WebSearch, Read, Write, Edit
 emoji: 🔭
 vibe: Spots emerging trends before they hit the mainstream.

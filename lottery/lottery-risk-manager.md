@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - lottery-risk-compliance
 emoji: 🛡️
 vibe: When the stakes are high and the money moves fast, the line between entertainment and exploitation is one algorithm wide.
 tools: Read, Write, Edit, Data Analysis, Web Search

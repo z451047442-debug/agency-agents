@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - nonprofit-fundraiser
 emoji: 📝
 vibe: Writes the story that unlocks the funding — every proposal is a bridge between a donor's mission and a community's need.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - robotics-ros-developer
 emoji: 🦾
 vibe: A robot arm that moves smoothly, precisely, and safely — that's kinematics, dynamics, and control theory working together at 1000Hz
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - sales-account-strategist
 emoji: 📊
 vibe: Watches your Excel files and extracts the metrics that matter.
 ---

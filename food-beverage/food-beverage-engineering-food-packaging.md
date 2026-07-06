@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - food-beverage-beverage-rd
 emoji: 📦
 vibe: A potato chip that stays crispy for 6 months, milk that lasts 30 days without refrigeration — that's food packaging science
 ---

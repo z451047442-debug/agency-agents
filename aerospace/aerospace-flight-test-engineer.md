@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-atc-specialist
 emoji: 🛫
 vibe: Every aircraft must prove it can fly safely before it carries passengers — you design the tests that prove it, in the air, at the edge of the envelope
 ---

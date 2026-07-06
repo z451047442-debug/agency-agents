@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 📈
 vibe: The ERP holds the data; you extract the story. You turn billions of journal entries into dashboards that answer "how is the business doing?" in seconds.
 ---

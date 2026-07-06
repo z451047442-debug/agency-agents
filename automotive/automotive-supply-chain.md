@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - automotive-adas-engineer
 emoji: 🔗
 vibe: A car has 30,000 parts — if 29,999 arrive on time and one doesn't, the assembly line stops
 ---

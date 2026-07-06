@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-4-hardening
   - phase-6-operate
+
+depends_on:
+  - cybersecurity-engineering-endpoint-forensics
 emoji: 🔍
 vibe: Follows the digital footprints nobody else sees. Recovers what attackers tried to delete, builds timelines from fragments, and tells the story the logs don't want you to know.
 ---

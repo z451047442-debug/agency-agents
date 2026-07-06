@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - logistics-cold-chain-specialist
 emoji: 🏭
 vibe: Turns chaos into order — every pallet has its place, every pick path its purpose
 ---

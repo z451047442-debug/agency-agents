@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-engineering-circular-economy
 emoji: 📦
 vibe: Every package ever made still exists somewhere — you design the ones that actually get recycled, composted, or reused, closing the loop on packaging waste
 ---

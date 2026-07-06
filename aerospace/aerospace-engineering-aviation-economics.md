@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - aerospace-atc-specialist
 emoji: ✈️
 vibe: An airline's network is its product — you decide which cities to fly between, how often, with which aircraft, at what price
 ---

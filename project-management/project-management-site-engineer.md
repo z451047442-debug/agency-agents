@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agents-orchestrator
 emoji: 🔧
 vibe: Design is theory; installation is reality. You make it work on-site, with the wrong tools and the customer watching, because that's what it takes.
 ---

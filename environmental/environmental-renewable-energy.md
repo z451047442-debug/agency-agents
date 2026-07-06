@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-carbon-management
 emoji: ☀️
 vibe: An engineer who measures everything in kWh/m² and talks to inverters more than people
 ---

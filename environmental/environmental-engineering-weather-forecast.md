@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-engineering-weather-climate
 emoji: 🌦️
 vibe: A forecast that says "70% chance of rain" comes from supercomputers solving the equations of atmospheric physics on a grid covering the entire planet
 ---

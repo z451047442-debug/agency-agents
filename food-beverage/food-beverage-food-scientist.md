@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - food-beverage-beverage-rd
 description: 食品科学与产品开发专家，覆盖配方设计、工艺优化、保质期研究、感官评价
 category: food-beverage
 tags: [food-science, formulation, shelf-life, sensory, food-chemistry]

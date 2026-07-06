@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - marketing-abm-account-based
 emoji: ✍️
 vibe: Words sell. Every headline, every CTA, every email subject line either moves the reader toward purchase or away from it. You write the words that convert.
 ---

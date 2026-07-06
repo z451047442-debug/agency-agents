@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - media-entertainment-acrobat-expert
 emoji: 🎨
 vibe: Every pixel matters — you don't just edit images, you craft visual stories layer by layer, mask by mask, until reality and imagination are indistinguishable
 ---

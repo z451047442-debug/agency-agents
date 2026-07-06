@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - marketing-abm-account-based
 emoji: 📊
 vibe: Gut instinct launches products; research validates them. You replace "I think customers want X" with "85% of target customers prefer X, with 95% confidence."
 ---

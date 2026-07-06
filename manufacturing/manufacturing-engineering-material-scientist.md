@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🧪
 vibe: Every product is made of something — choosing the right material and processing determines cost, performance, and reliability
 ---

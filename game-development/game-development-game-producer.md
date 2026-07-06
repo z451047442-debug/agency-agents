@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - blender-addon-engineer
 emoji: 🎯
 vibe: Great games aren't just designed — they're produced; you're the one who turns creative vision into shipped product, on time and in scope
 ---

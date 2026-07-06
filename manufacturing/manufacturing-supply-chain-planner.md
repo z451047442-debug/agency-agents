@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-3d-printing-additive
 emoji: 🏭
 vibe: The best factory is the one that never stops — raw materials in, finished goods out, no surprises in between.
 tools: Read, Write, Edit, Data Analysis, Web Search

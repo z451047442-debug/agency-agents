@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - government-digital-presales-consultant
 emoji: 📋
 vibe: Every taxpayer dollar spent must deliver maximum public value — procurement is stewardship, not just purchasing.
 tools: Read, Write, Edit, WebFetch, WebSearch

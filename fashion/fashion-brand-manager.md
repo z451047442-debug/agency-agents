@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - fashion-designer
 emoji: ✨
 vibe: The guardian of the logo — every ad, every store, every post must whisper the same seductive story.
 ---

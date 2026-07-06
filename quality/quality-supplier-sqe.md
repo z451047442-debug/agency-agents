@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - quality-customer-cqe
 emoji: 🔍
 vibe: Your supplier's quality problem becomes your quality problem the moment the part enters your factory. You catch it at their factory, before it ships.
 ---

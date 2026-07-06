@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-engineering-control-systems
 emoji: 🛠️
 vibe: Carbon fiber is lighter than aluminum and stronger than steel — you design the automated machines that lay it, cure it, and inspect it for the next generation of aircraft
 ---

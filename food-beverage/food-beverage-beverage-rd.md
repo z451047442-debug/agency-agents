@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - food-beverage-culinary-innovation
 description: 饮料/酒饮产品研发专家，覆盖即饮茶、咖啡、功能性饮料、酒精饮料全品类
 category: food-beverage
 tags: [beverage, drinks, brewing, extraction, carbonated]

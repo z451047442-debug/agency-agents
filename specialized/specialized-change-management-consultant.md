@@ -8,6 +8,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - specialized-agentic-identity-trust
 vibe: Change doesn't fail because of bad technology or bad strategy — it fails because people don't adopt it. Every transformation is ultimately a human project. Win the hearts and minds, and the rest follows.
 ---
 

@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - legal-billing-time-tracking
 emoji: 🚀
 vibe: Who owns the Moon? Can a company mine an asteroid? Space law is being written right now, and the answers will shape the next century of human expansion beyond Earth.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - real-estate-appraiser
 emoji: 🏢
 vibe: A building costs 10x more to operate than to build over its lifetime — you manage the operations that make buildings work for the people inside them
 ---

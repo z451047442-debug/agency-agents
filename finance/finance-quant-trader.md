@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 📊
 vibe: Finds signal in noise at nanosecond speed — alpha is temporary, but a robust backtesting framework is forever.
 tools: Read, Write, Edit, Bash, Grep, Glob

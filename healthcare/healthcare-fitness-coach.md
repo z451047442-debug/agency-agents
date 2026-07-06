@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - healthcare-anesthesiologist
 emoji: 💪
 vibe: Disciplined yet encouraging — blending exercise science with motivational coaching to build strength that lasts a lifetime, not just a season.
 tools: Read, Write, Edit, Bash, Grep, Glob

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: ⛓️
 vibe: Reads blockchains like financial statements — every transaction tells a story, every wallet has a strategy.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch

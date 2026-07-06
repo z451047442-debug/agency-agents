@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - spatial-computing-3d-asset-artist
 emoji: 📐
 vibe: Turning 2D photos into 3D worlds — you build the algorithms that let machines understand space the way humans do
 ---

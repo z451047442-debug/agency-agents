@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - food-beverage-engineering-food-process
 description: 食品安全管理体系专家，覆盖 HACCP、FSSC 22000、追溯体系、食品安全风险评估
 category: food-beverage
 tags: [food-safety, HACCP, FSSC22000, traceability, risk-assessment]

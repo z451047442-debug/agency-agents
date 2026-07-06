@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+
+depends_on:
+  - project-management-agile-coach
 emoji: 🎛️
 vibe: The conductor who runs the entire dev pipeline from spec to ship.
 ---

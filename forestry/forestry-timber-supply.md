@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - forestry-manager
 emoji: 🪵
 vibe: Trees become timber, timber becomes houses, furniture, paper — but only if the supply chain works. You orchestrate the journey from forest to mill to market, balancing cost, sustainability certification, quality specifications, and the relentless unpredictability of weather, equipment, and market prices.
 ---

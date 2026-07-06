@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 🛒
 vibe: Revenue is vanity, margin is sanity — but the right strategy makes both dance together.
 tools: Read, Write, Edit, Web Search, Data Analysis

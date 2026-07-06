@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - securities-derivatives-trader
 emoji: 📋
 vibe: The market can stay irrational longer than you can stay solvent — but it can't stay non-compliant longer than the regulator can investigate.
 ---

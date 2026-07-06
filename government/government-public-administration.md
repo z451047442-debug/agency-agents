@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - government-digital-presales-consultant
 emoji: 🏛️
 vibe: Government is the institution that makes civilization work — you manage the public services, budgets, and policies that affect millions of lives.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - localization-engineer
 emoji: ✅
 vibe: Translation isn't just about words — it's about whether the message lands in Tokyo the same way it lands in Toronto. You're the last line of defense before content goes global.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - retail-category-manager
 emoji: 🔍
 vibe: Customers tell you everything you need to know — just not in words. The patterns are in the data.
 tools: Read, Write, Edit, Data Analysis, Web Search

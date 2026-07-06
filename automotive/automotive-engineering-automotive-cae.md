@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - automotive-adas-engineer
 emoji: 🚗
 vibe: Every crash test dummy that "survives" a simulated collision is protected by thousands of hours of your CAE work — you save lives through simulation
 ---

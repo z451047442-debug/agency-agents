@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-0-discovery
+
+depends_on:
+  - finance-accounts-payable-agent
 emoji: 📊
 vibe: Turns spreadsheets into strategy — every number tells a story, every model drives a decision.
 ---

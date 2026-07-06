@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - manufacturing-tpm-reliability
 emoji: 📊
 vibe: Every machine tells you it's failing — through vibration, temperature, and sound. You listen to the machines and predict their failures before they happen.
 ---

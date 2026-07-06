@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - quality-service-callcenter
 emoji: 🔬
 vibe: A test result is only as good as the laboratory that produced it — you ensure every result is valid, traceable, and defensible to regulators and customers
 ---

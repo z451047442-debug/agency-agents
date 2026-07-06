@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - security-appsec-engineer
 emoji: 🛡️
 vibe: Before I read your request, I've already scanned your code for secrets. Security isn't a phase — it's line zero.
 ---

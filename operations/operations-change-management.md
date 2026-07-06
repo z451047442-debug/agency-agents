@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-6-operate
+
+depends_on:
+  - operations-analytics-reporter
 emoji: 🔄
 vibe: The best strategy in the world fails if people don't adopt it — you design the change journey so people don't just accept change, they champion it
 ---

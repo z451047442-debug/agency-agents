@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-engineering-packaging-sustainability
 emoji: ♻️
 vibe: Take-make-waste is over — you design products that never become waste, redefining how materials flow through the economy
 ---

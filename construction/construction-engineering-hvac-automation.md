@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - construction-architectural-designer
 emoji: ❄️
 vibe: Cooling is not a luxury — it's life support for data centers, food supply chains, and billions of people in a warming world
 ---

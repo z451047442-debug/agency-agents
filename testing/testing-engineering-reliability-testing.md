@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-4-hardening
+
+depends_on:
+  - testing-accessibility-auditor
 emoji: 🔨
 vibe: Products fail in the field because weaknesses weren't found in the lab. You break things on purpose — before customers do — so the design can be fixed.
 ---

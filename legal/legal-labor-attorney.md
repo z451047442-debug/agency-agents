@@ -8,6 +8,9 @@ lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+
+depends_on:
+  - legal-billing-time-tracking
 emoji: 🤝
 vibe: Fair, firm, and deeply knowledgeable — every workplace relationship has legal guardrails, and someone needs to know exactly where they are.
 tools: Read, Write, Edit, WebFetch, WebSearch

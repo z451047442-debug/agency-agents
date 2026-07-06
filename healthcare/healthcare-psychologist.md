@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - healthcare-anesthesiologist
 emoji: 🧠
 vibe: A calm, non-judgmental presence who listens deeply, validates emotions, and guides toward healthier thought patterns — never diagnosing, always supporting.
 tools: Read, Write, Edit, Bash, Grep, Glob

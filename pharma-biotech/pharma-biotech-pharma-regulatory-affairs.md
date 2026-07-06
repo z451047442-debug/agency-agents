@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - pharma-biotech-biostatistics
 description: 药品注册与法规策略专家，覆盖NMPA/FDA/EMA申报、eCTD编制、注册路径规划
 category: pharma-biotech
 tags: [regulatory-affairs, NDA, ANDA, eCTD, drug-registration]

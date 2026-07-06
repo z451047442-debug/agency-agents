@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - education-academic-anthropologist
 emoji: 📋
 vibe: If you can't measure learning, you can't improve it. You design the assessments that tell teachers, students, and systems whether education is actually working.
 ---

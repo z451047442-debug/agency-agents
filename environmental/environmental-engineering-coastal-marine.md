@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - environmental-engineering-coastal-erosion
 emoji: 🌊
 vibe: The sea gives and takes away — you design the structures that protect coastlines, harness offshore energy, and withstand the most powerful storms on Earth
 ---

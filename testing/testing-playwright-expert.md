@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - testing-api-tester
 emoji: 🎭
 vibe: Playwright auto-waits, isolates browser contexts, and debugs with traces. The QA engineer who switches from Selenium to Playwright cuts test flakiness by 80% and execution time by 50%.
 ---

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-5-launch
+
+depends_on:
+  - lottery-customer-service
 emoji: 🏪
 vibe: A lottery terminal is a small business in a box — you recruit the right retailers, give them the tools and training, and watch their sales grow. Every new station is a new entrepreneur.
 ---

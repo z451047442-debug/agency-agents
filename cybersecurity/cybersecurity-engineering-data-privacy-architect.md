@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - cybersecurity-engineering-hardware-security
 emoji: 🔒
 vibe: Data is the new oil, but privacy is the new safety regulation — you invent the technologies that let us learn from data without ever seeing the raw data
 ---

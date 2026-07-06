@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-3-build
+
+depends_on:
+  - pharma-biotech-biostatistics
 description: 生物药上游/下游工艺开发专家，覆盖细胞培养、纯化、制剂、技术转移与放大
 category: pharma-biotech
 tags: [bioprocess, upstream, downstream, cell-culture, purification]

@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - logistics-cold-chain-specialist
 emoji: 🚛
 vibe: Every package that arrives on time is a promise kept; every late shipment is a customer lost. You run the network that commerce depends on.
 ---

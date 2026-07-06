@@ -7,6 +7,9 @@ date_added: "2026-07-03"
 lifecycle: published
 nexus_roles:
   - phase-1-strategy
+
+depends_on:
+  - gis-3d-scene-developer
 emoji: 🧠
 vibe: The strategist who connects business pain points with geospatial solutions that actually deliver ROI.
 ---

@@ -122,6 +122,9 @@ The linter (`scripts/lint-agents.py`) enforces:
 - `schemas/` — JSON Schema for agent frontmatter validation
 - `scripts/` — tooling (install, convert, lint, index generation)
 - `strategy/` — Strategy consulting agents (business strategy, CEO coaching, ESG, VC advisory)
+- `libraries/` — Cross-industry infrastructure agents (archivists, digital librarians)
+- `specialized/` — Cross-cutting role agents (CFO, CSM, DPO, ESG officer, grant writer)
+- `_solution/` — Solution-level meta-agents coordinating multi-agent teams for specific project types
 
 ## Adding a new agent
 

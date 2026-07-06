@@ -92,411 +92,71 @@ After release and within the 3-year audit window, errors discovered require a fo
 
 ```python
 """
-Chinese Customs Tariff (中华人民共和国进出口税则) Classification Engine
+HS Classification Engine. GIR hierarchy: 1: headings + Section/Chapter Notes → 2(a): incomplete articles
+→ 2(b): mixtures by essential character → 3(a): most specific → 3(b): essential character
+→ 3(c): last numerical → 4: closest analogy → 5: packing → 6: subheading mutatis mutandis.
 
-HS Nomenclature Structure:
-  Chapter  (2 digits) — 01 to 97 (77 reserved for future use)
-  Heading  (4 digits) — international WCO standard
-  Subheading (6 digits) — international WCO standard
-  Chinese National Tariff Line (8 digits) — 税目
-  Chinese Customs Supervision Code (10 digits) — 商品编号 — THIS is what goes on the 报关单
+High-risk zones: Ch.84 vs 85 (functional vs electronic machines), 84.71 vs 85.17 (computers vs comms),
+Ch.90 vs 84/85 (instruments), Ch.94 vs 87/90/84 (furniture exclusions), Ch.61 vs 62 (knit vs woven).
 
-Classification by GIR (归类总规则) hierarchy:
-  GIR 1: Classify by terms of headings + Section/Chapter Notes FIRST
-  GIR 2(a): Incomplete/unfinished articles with essential character of complete article
-  GIR 2(b): Mixtures/combinations of materials (classified as the material giving essential character)
-  GIR 3(a): Most specific description
-  GIR 3(b): Essential character for mixtures/composite goods/sets
-  GIR 3(c): Last heading in numerical order (when all else fails)
-  GIR 4: Closest analogy (residual classification)
-  GIR 5: Packing materials/containers presented with articles
-  GIR 6: Subheading classification follows GIR 1-5 mutatis mutandis
-
-High-risk classification zones in China customs practice:
-  - Ch. 84 vs 85: "Functional" machines (84) vs "electrical/electronic" machines (85)
-  - Ch. 84.79 vs 84.80-84.79: Residual machinery (8479.89) vs specific function machines
-  - Ch. 84.71 vs 85.17: Data processing machines vs communication devices
-  - Ch. 73 vs 84/85: Steel articles as "parts of machinery" or "articles of iron/steel"
-  - Ch. 90 vs 84/85: Instruments vs machinery — measurement function vs physical processing
-  - Ch. 94 vs 87/90/84: Furniture — medical/dental/laboratory furniture exclusion in Ch. 94 Note 1
+Workflow: GIR1 classify → GIR3 resolve if ambiguous → 10-digit CN code → CIQ mapping →
+  license check → risk assessment (>30% audit prob → pre-ruling; else file with memo) → duty rates.
 """
 
-def hs_classification_workflow(product_info, importer_credit_rating, port_of_entry):
-    """
-    Complete HS classification decision workflow for Chinese customs declaration.
-    Returns: classification result with risk assessment and declaration guidance.
-    """
-    result = {
-        'classification': None,
-        'gir_applied': None,
-        'certainty_level': None,  # 'certain', 'high-confidence', 'ambiguous'
-        'risk_assessment': {},
-        'declaration_guidance': [],
-        'recommended_action': None
-    }
-    
-    # Step 1: GIR 1 classification
-    candidate_headings = classify_by_gir1(
-        product_info['name_zh'],
-        product_info['description_zh'],
-        product_info['function'],
-        product_info['material_composition'],
-        product_info.get('principle_of_operation', '')
-    )
-    
-    # Step 2: Resolve ambiguity via GIR 3 if multiple viable headings
-    if len(candidate_headings) > 1:
-        selected_heading = gir3_resolve(candidate_headings, product_info)
-        result['gir_applied'] = 'GIR 1 → GIR 3'
-    else:
-        selected_heading = candidate_headings[0]
-        result['gir_applied'] = 'GIR 1'
-    
-    # Step 3: Map to Chinese 10-digit code via national tariff schedule
-    cn_code = map_to_chinese_10digit(
-        selected_heading,
-        product_info['specifications']
-    )
-    result['classification'] = cn_code
-    
-    # Step 4: CIQ code mapping (mandatory for unified declaration post-关检融合)
-    ciq_code = map_hs_to_ciq(cn_code)
-    result['ciq_code'] = ciq_code
-    result['ciq_inspection_required'] = check_ciq_inspection_requirement(ciq_code)
-    
-    # Step 5: Regulatory license check
-    licenses_required = check_regulatory_licenses(cn_code, product_info)
-    if licenses_required:
-        result['declaration_guidance'].append(
-            f'LICENSE REQUIRED: {", ".join(licenses_required)} — verify license obtained before filing'
-        )
-    
-    # Step 6: Risk assessment
-    risk = assess_classification_risk(
-        cn_code, 
-        product_info, 
-        importer_credit_rating,
-        port_of_entry
-    )
-    result['risk_assessment'] = risk
-    
-    # Step 7: Decision
-    if risk['audit_probability'] >= 0.3:  # 30%+ audit probability
-        result['certainty_level'] = 'ambiguous'
-        result['recommended_action'] = (
-            'Seek binding pre-classification ruling (预裁定) from GAC Tariff Classification '
-            'Department before first import. Allow 60 days for ruling.'
-        )
-    elif risk['alternative_plausible']:
-        result['certainty_level'] = 'high-confidence'
-        result['recommended_action'] = (
-            'Document GIR rationale in written classification memo. '
-            'File declaration with supporting classification analysis attached via 单一窗口电子随附单证.'
-        )
-    else:
-        result['certainty_level'] = 'certain'
-        result['recommended_action'] = 'Standard declaration — proceed with filing.'
-    
-    # Step 8: Duty rate lookup
-    duty_rates = get_duty_rates(cn_code, product_info.get('country_of_origin'))
-    result['duty_rates'] = duty_rates
-    
-    return result
-
-
-# --- Known HS chapter risk profiles for Chinese customs ---
-
 HS_CHAPTER_RISK_PROFILES = {
-    '84': {
-        'risk_level': 'HIGH',
-        'risk_factors': [
-            'Multi-function machine classification (Section XVI Note 3)',
-            'Parts vs. accessories vs. complete machines',
-            '8479.89 residual heading overuse flag',
-            'Tariff engineering suspicion when declared function differs from obvious use',
-        ],
-        'typical_audit_triggers': [
-            'Declared as parts (lower duty) when complete machine (higher duty) is plausible',
-            '8479.89 declared for machines that fit specific function headings (8479.81-8479.83)',
-            'Used machinery imported at suspiciously low declared values',
-        ],
-        'inspection_rate_multiplier': 1.3,
-    },
-    '85': {
-        'risk_level': 'HIGH',
-        'risk_factors': [
-            'Communication vs. data processing equipment distinction (85.17 vs 84.71)',
-            'Electronic components — classification as general parts vs. specific device parts',
-            'Smart devices straddling multiple functions',
-        ],
-        'typical_audit_triggers': [
-            'Integrated circuits classified generically when application-specific classification exists',
-            'Telecommunication equipment declared without 进网许可证 (network access license)',
-        ],
-        'inspection_rate_multiplier': 1.25,
-    },
-    '61': {
-        'risk_level': 'MEDIUM-HIGH',
-        'risk_factors': [
-            'Knit vs. woven determination (Ch. 61 = knit/crochet, Ch. 62 = not knit)',
-            'Fiber content drives subheading: cotton (5201-5212 upstream) vs. synthetic (5501-5516 upstream)',
-            'Men\'s vs. women\'s cut — often ambiguous for unisex garments',
-        ],
-        'typical_audit_triggers': [
-            'Declared cotton composition > confidence threshold when lab test may show synthetic blend',
-            'Declared as Ch. 61 (knit) — customs may physically inspect to verify knit construction',
-        ],
-        'inspection_rate_multiplier': 1.4,
-    },
+    '84': {'risk': 'HIGH', 'mult': 1.3, 'triggers': ['multifunction machines', '8479.89 overuse', 'used machinery undervalue']},
+    '85': {'risk': 'HIGH', 'mult': 1.25, 'triggers': ['comms vs data processing', 'smart device multi-function', 'network license missing']},
+    '61': {'risk': 'MEDIUM-HIGH', 'mult': 1.4, 'triggers': ['knit vs woven', 'fiber content dispute', 'unisex garment']},
 }
-
-
-def gir3_resolve(candidate_headings, product_info):
-    """
-    GIR 3 resolution when goods are prima facie classifiable under two or more headings.
-    
-    GIR 3(a): Most specific description preferred over more general description.
-    GIR 3(b): Mixtures, composite goods, sets — classified by material/component
-               giving essential character. Factors: nature of material, bulk, weight,
-               value, role in relation to use of the goods.
-    GIR 3(c): When 3(a) and 3(b) both fail, last heading in numerical order.
-    """
-    # Specificity analysis
-    heading_specificity = {}
-    for h in candidate_headings:
-        scope = get_heading_scope(h)  # breadth of goods covered
-        heading_specificity[h] = 1 / scope  # narrower scope = higher specificity
-    
-    sorted_by_specificity = sorted(
-        candidate_headings, 
-        key=lambda h: heading_specificity[h], 
-        reverse=True
-    )
-    
-    if heading_specificity[sorted_by_specificity[0]] > 1.5 * heading_specificity[sorted_by_specificity[1]]:
-        return sorted_by_specificity[0]  # GIR 3(a) resolves
-    
-    # GIR 3(b) — essential character for composite goods/sets
-    essential_character_heading = determine_essential_character(
-        product_info, candidate_headings
-    )
-    if essential_character_heading:
-        return essential_character_heading
-    
-    # GIR 3(c) — last in numerical order
-    return max(candidate_headings)
 ```
 
 ### Single Window Declaration Field Mapping
 
 ```
-CHINA SINGLE WINDOW (国际贸易单一窗口) — UNIFIED IMPORT DECLARATION
-报关单类型: 进口报关单 (CUS-IMP-001)
-申报模式: 整合申报 (Unified Customs + CIQ Declaration, since April 2018)
+CHINA SINGLE WINDOW - UNIFIED IMPORT DECLARATION (整合申报, since Apr 2018)
 
-HEADER FIELDS (表头):
-┌─────────────────────────────────────────────────────────────────┐
-│ 1.  收发货人 (Consignee):              [Enterprise Name]         │
-│     - Must match customs registration (海关备案登记)              │
-│     - 统一社会信用代码 (USCC) + 10-digit 海关编码                 │
-│                                                                  │
-│ 2.  消费使用单位 (End-User):            [Enterprise Name]         │
-│     - The actual user of imported goods                          │
-│     - May differ from consignee; must have valid customs         │
-│       registration                                               │
-│                                                                  │
-│ 3.  申报单位 (Declaring Entity):         [Broker Name]            │
-│     - Licensed customs broker (报关企业)                          │
-│     - 电子代理报关委托书 must be on file and valid                │
-│                                                                  │
-│ 4.  运输方式 (Transport Mode):           [2=Sea, 3=Rail, 4=Road, │
-│                                            5=Air, 6=Mail,        │
-│                                            7=Bonded, 9=Other]    │
-│                                                                  │
-│ 5.  运输工具名称 (Vessel/Flight No.):     [Vessel name+Voyage]   │
-│     - Ocean: VESSEL_NAME/VOYAGE (e.g., MSC MARIA/042W)          │
-│     - Air: FLIGHT_NUMBER (e.g., CA1234)                          │
-│                                                                  │
-│ 6.  提运单号 (B/L or AWB No.):           [Document Number]       │
-│     - Must match manifest (舱单) exactly                          │
-│                                                                  │
-│ 7.  监管方式 (Supervision Mode):         [4-digit code]          │
-│     - 0110=一般贸易, 0214=来料加工, 0615=进料对口,                │
-│       1233=保税仓库货物, 1300=修理物品, 2600=暂时进出,            │
-│       9610=跨境电商, 9710=跨境电商B2B出口, 9810=出口海外仓       │
-│                                                                  │
-│ 8.  征免性质 (Duty Exemption Nature):    [3-digit code]          │
-│     - 101=一般征税, 299=其他法定, 401=科教用品,                   │
-│       422=鼓励项目(外商), 789=鼓励项目                             │
-│                                                                  │
-│ 9.  备案号 (Record Filing No.):          [Manual/Approval No.]   │
-│     - Processing trade: 电子手册号 (15-digit)                     │
-│     - Bonded zone: 保税核注清单编号 (18-digit)                    │
-│     - Duty exemption certificate: 征免税证明编号                  │
-│                                                                  │
-│ 10. 合同协议号 (Contract No.):            [Contract Number]       │
-│                                                                  │
-│ 11. 许可证编号 (License No.):             [Import License No.]    │
-│     - Applies to restricted/controlled goods                     │
-│     - Auto-validated against 许可证电子底账                      │
-│                                                                  │
-│ 12. 启运国 (Country of Departure):       [3-digit Country Code]  │
-│     - Country from which goods were shipped                      │
-│     - NOT necessarily the manufacturing country                  │
-│                                                                  │
-│ 13. 经停港 (Port of Transshipment):      [Port Code]             │
-│     - Used when direct transport verification needed for FTA     │
-│                                                                  │
-│ 14. 成交方式 (Transaction Terms):        [1=CIF, 2=C&F, 3=FOB] │
-│     - Drives how freight/insurance is computed for dutiable value│
-│     - China customs values on CIF basis (到岸价格)                │
-│                                                                  │
-│ 15. 运费/保险费/杂费 (Freight/Insur./Misc.):                     │
-│     - Mark as: 1=rate%, 2=unit price, 3=total amount             │
-│     - For FOB shipments, freight + insurance added separately     │
-│       to compute CIF dutiable value                              │
-│                                                                  │
-│ 16. 件数/包装种类 (Pieces/Pkg Type):      [Qty] [Code]           │
-│     - Package type codes aligned with UN/CEFACT Rec 21           │
-│                                                                  │
-│ 17. 毛重/净重 (Gross/Net Weight):         [KG]                   │
-│     - Must match packing list, B/L, and manifest                  │
-│                                                                  │
-│ 18. 备注 (Remarks):                       [Free text]            │
-│     - FTA COO number, special instructions, guarantee deposit    │
-│       reference number                                           │
-└─────────────────────────────────────────────────────────────────┘
+HEADER FIELDS: 收发货人(Consignee) | 消费使用单位(End User) | 申报单位(Broker)
+  运输方式(Transport: 2-Sea/3-Rail/4-Road/5-Air) | 运输工具名称(Vessel/Flight) | 提运单号(BL/AWB)
+  监管方式(Procedure): 0110-一般贸易 0214-来料加工 0615-进料对口 1233-保税仓库 9610/9710/9810-跨境电商
+  征免性质(Exemption): 101-一般征税 299-其他法定 401-科教用品 789-鼓励项目
+  成交方式(Incoterm): 1-CIF 2-C&F 3-FOB | 运费/保费/杂费(Freight/Ins./Misc) | 件数/包装(Packages)
+  毛重/净重(Gross/Net KG) | 启运国/经停港(Origin/Transit) | 合同号/许可证号(Contract/License)
 
-ITEM-LEVEL FIELDS (表体) — repeated for each item (HS code line):
-┌─────────────────────────────────────────────────────────────────┐
-│ A. 商品编号 (HS Code):                    [10 digits]            │
-│    - Chinese national tariff line + supervision digits           │
-│                                                                  │
-│ B. 商品名称 (Product Name in Chinese):    [Descriptive name]     │
-│    - Must be sufficiently descriptive (not generic)              │
-│                                                                  │
-│ C. 规格型号 (Specifications/Model):       [Detailed specs]       │
-│    - Brand, model, dimensions, capacity, material, etc.          │
-│    - Critical for classification verification                   │
-│                                                                  │
-│ D. 原产国 (Country of Origin):           [3-digit code]         │
-│    - Where substantial transformation occurred                   │
-│    - For FTA claims: must match COO country exactly              │
-│                                                                  │
-│ E. 数量及单位 (Quantity & Unit):          [3 unit lines]         │
-│    Line 1: 法定第一计量单位 (Legal Unit 1 — from tariff)         │
-│    Line 2: 法定第二计量单位 (Legal Unit 2 — if applicable)       │
-│    Line 3: 成交计量单位 (Transaction Unit — actual pricing unit) │
-│                                                                  │
-│ F. 单价/总价/币制 (Unit/Total Price, Currency):                  │
-│    - 单价 (unit price) — per transaction unit                    │
-│    - 总价 (total price) — price actually paid or payable         │
-│    - 币制 (currency) — ISO 4217 code                             │
-│                                                                  │
-│ G. 原产地证据文件 (Origin Evidence Doc):                          │
-│    - COO/Certificate of Origin number                            │
-│    - 原产资格 (Origin eligibility) indicator                     │
-│    - 优惠贸易协定代码 (FTA code): e.g., 01=ASEAN-China,          │
-│      02=China-Pakistan, 03=RCEP, 04=China-Korea, etc.           │
-│                                                                  │
-│ H. 检验检疫编码 (CIQ Code):               [Numerical code]       │
-│    - Mapped from HS code 1:1                                       │
-│    - Determines CIQ inspection category                          │
-│                                                                  │
-│ I. 用途 (Use):                             [Code]                │
-│    - 01=外贸自营内销 (own-account domestic sale)                  │
-│    - 03=来料加工 (processing with supplied materials)            │
-│    - 04=进料加工 (processing imported materials)                  │
-│    - 11=保税区仓储 (bonded zone storage)                          │
-│                                                                  │
-│ J. 货物属性 (Goods Attributes):            [Code(s)]             │
-│    - 11=正常 (normal), 16=旧品 (used),                            │
-│      34=含木质包装 (wooden packaging), etc.                       │
-│                                                                  │
-│ K. 危险货物信息 (DG Info):                 [UN No., Class, etc.] │
-│    - Mandatory for IMO dangerous goods                            │
-└─────────────────────────────────────────────────────────────────┘
+ITEM FIELDS (repeated per HS line): 商品编号(10-digit HS) | 商品名称(Name CN) | 规格型号(Specs)
+  原产国(Country of Origin) | 数量及单位(Quantity x3: legal unit 1, legal unit 2, transaction unit)
+  单价/总价/币制(Unit Price, Total, Currency ISO 4217) | 原产地证据文件(FTA COO number + 优惠贸易协定代码)
+  检验检疫编码(CIQ code, 1:1 from HS) | 用途(Usage: 01-domestic sale, 03/04-processing, 11-bonded)
+  货物属性(Goods Attributes: 11-normal, 16-used, 34-wooden pkg) | 危险货物(DG info)
 
-TAX COMPUTATION FIELDS (自动计算 by 单一窗口 system):
-  关税 (Customs Duty) = CIF Value × MFN Rate (or FTA preferential rate if claimed)
-  增值税 (VAT) = (CIF Value + Customs Duty + Consumption Tax, if any) × VAT Rate
-  消费税 (Consumption Tax) = Applicable to luxury goods, tobacco, alcohol, 
-                              automobiles, cosmetics, jewelry, etc.
+TAX (auto-computed): 关税 = CIF x MFN/FTA Rate | 增值税 = (CIF + Duty + Consump. Tax) x VAT% | 消费税 on luxury
 ```
+
+### Customs Inspection Response Framework```
 
 ### Customs Inspection Response Framework
 
 ```
 CUSTOMS INSPECTION (海关查验) RESPONSE PROTOCOL
 
-INSPECTION TYPES:
-□ 机检 (X-Ray Non-Intrusive): 2-4 hours, container scanned at terminal
-□ 人工查验-外形 (Partial/Visual): 4-8 hours, external inspection + partial unpacking
-□ 人工查验-彻底 (Full Physical): 1-3 days, complete strip — every item verified
+INSPECTION TYPES: 机检(X-Ray) 2-4 hrs | 人工查验-外形(Partial) 4-8 hrs | 人工查验-彻底(Full) 1-3 days
 
-INSPECTION NOTIFICATION RECEIVED — IMMEDIATE ACTIONS (0-30 min):
-1. Confirm inspection type in 单一窗口 — 查验通知 pushed electronically
-2. Verify container location: still at terminal or already moved to 查验区?
-3. Contact customs inspection department (查验科) — confirm scheduled time
-4. Assemble documentation package:
-   □ Full customs declaration (报关单) with all item lines
-   □ Commercial invoice + packing list (matching declared values/quantities exactly)
-   □ B/L or AWB (original or telex release confirmation)
-   □ Certificate of Origin (for any FTA claims)
-   □ Product specifications, catalogues, photos (to verify HS classification)
-   □ Import/export license (if applicable)
-   □ 3C/CCC certificate or exemption (if applicable)
-   □ Packing declaration for wooden packaging materials (木质包装声明)
-5. Arrange inspector's representative (报关员 or 查验陪同人员) to be present
+IMMEDIATE ACTIONS on inspection notice:
+  1. Confirm inspection type and location (terminal/warehouse/bonded zone)
+  2. Dispatch broker rep to inspection site within 2 hrs
+  3. Prepare: declaration form, invoices, packing list, BL/AWB, COO, license, technical docs
+  4. Document pre-inspection container status with photos
+  5. Post-inspection: obtain Inspection Report (查验记录单), document findings
 
-INSPECTION PREPARATION (0-4 hours before scheduled time):
-- Review ALL items on the declaration — know exactly what's in the container
-- Pre-check for common discrepancies: declared weight vs. actual, declared
-  quantity vs. actual, product description on declaration vs. physical goods
-- If any discrepancy is identified internally, prepare explanation and
-  supporting evidence BEFORE customs discovers it
-- Ensure container is accessible: unstuffed if needed, goods arranged for
-  easy inspection, adequate lighting and safety conditions
+COMMON FINDINGS: HS code mismatch -> reclassification + back duty + penalty (2-10x duty)
+  Undervaluation -> customs valuation review -> guarantee deposit -> 6-18 month adjudication
+  Unlicensed goods -> confiscation or re-export at importer's cost
+  CIQ non-compliance -> quarantine hold (no deposit release mechanism)
 
-DURING INSPECTION:
-- Single point of contact with customs officers — avoid unstructured commentary
-  from warehouse workers or drivers who may say something inaccurate
-- Answer the question asked, not broader context
-- If customs identifies a discrepancy:
-  a. Acknowledge and request time to investigate internally
-  b. Do NOT argue or negotiate on-site — escalate to customs legal/audit
-  c. Document the finding precisely (photo, measurement, weight ticket)
-  d. The inspection officer issues a 查验记录 (inspection record) —
-     review carefully before signing; any inaccuracies in the record
-     become problems later
-
-POST-INSPECTION:
-- If cleared: container released, 查验正常标记 in system, proceed to delivery
-- If discrepancy found:
-  a. Minor (weight variance within tolerance, minor description mismatch):
-     — Amend declaration (报关单修改) or provide explanation letter
-     — May still clear same day
-  b. Material (wrong HS code, under-declared value, missing license):
-     — Container transferred to 查验待处理 (detention pending resolution)
-     — Customs case opened — engage legal counsel immediately
-     — Potential outcomes: re-classification + back duty + penalty,
-       confiscation (for serious violations), or criminal referral
-
-POST-CLEARANCE AUDIT (海关稽查) — 3-YEAR LOOK-BACK:
-- Audit notification typically 3-7 days advance for on-site visit
-- Scope defined in 稽查通知书 (audit notification letter)
-- PREPARE: re-audit every entry in scope internally; identify any errors
-  before customs auditors arrive
-- CONSIDER VOLUNTARY DISCLOSURE (主动披露):
-  * GAC 海关总署公告[2019]161号: voluntary disclosure of non-compliance
-    may result in reduced or waived administrative penalty
-  * Conditions: (1) self-identified before customs discovers, (2) not
-    result of customs audit/investigation initiated, (3) not smuggling
-    or suspected smuggling
-  * Submit via 单一窗口 主动披露 module or directly to competent customs
-    office with jurisdiction over the importer
+INSPECTION APPEAL: File written objection to 查验科 within 3 working days.
+  Grounds: procedural error, incorrect HS interpretation, tested sample misrepresentation.
 ```
 
+##
 ## 🔄 Workflow
 
 ### Step 1 — Pre-Shipment Classification & Documentation Audit (出货前归类审核)

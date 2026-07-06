@@ -89,3 +89,4 @@ graphify-out/
 # VS solution build artifacts
 _solution/obj/
 _solution/bin/
+suggested_deps.json

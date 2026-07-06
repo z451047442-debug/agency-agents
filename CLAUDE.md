@@ -73,6 +73,10 @@ cp scripts/git-hooks/pre-commit .git/hooks/pre-commit
 
 # Regenerate AGENTS.json index
 ./scripts/generate-index.sh
+
+# Run full quality pipeline (lint + deps + score + tests)
+./scripts/quality.sh          # full
+./scripts/quality.sh --quick  # skip slow checks
 ```
 
 ## Agent file anatomy

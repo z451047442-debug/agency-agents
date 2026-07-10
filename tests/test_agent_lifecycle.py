@@ -1,6 +1,8 @@
 """Tests for scripts/agent-lifecycle.py — lifecycle state machine."""
 
 import importlib.util
+import io
+import json
 import sys
 from pathlib import Path
 
@@ -200,3 +202,60 @@ class TestBuildLifecycleReport:
         report = mod.build_lifecycle_report(check_freshness=False)
         assert "eng" in report["by_category_state"]
         assert report["by_category_state"]["eng"]["published"] == 1
+
+
+# ── discover_all_agents ──────────────────────────────────────────────────────
+
+class TestDiscoverAllAgents:
+    def test_yields_triplets(self):
+        gen = mod.discover_all_agents(category_filter="aviation")
+        items = list(gen)
+        for item in items:
+            assert len(item) == 3
+            assert isinstance(item[0], Path)
+            assert isinstance(item[1], str)
+            assert isinstance(item[2], str)
+
+    def test_respects_category_filter(self):
+        items = list(mod.discover_all_agents(category_filter="aviation"))
+        for _fp, _aid, cat in items:
+            assert cat == "aviation"
+
+    def test_empty_for_nonexistent_category(self):
+        items = list(mod.discover_all_agents(category_filter="zzz_no_such_cat_zzz"))
+        assert items == []
+
+
+# ── print_json_report ────────────────────────────────────────────────────────
+
+class TestPrintJsonReport:
+    def test_outputs_valid_json(self):
+        report = {
+            "agents": {"published": []},
+            "by_state": {"published": 10, "draft": 2, "review": 1, "deprecated": 0},
+            "by_category_state": {},
+        }
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            mod.print_json_report(report)
+        finally:
+            sys.stdout = old_stdout
+        data = json.loads(buf.getvalue())
+        assert "generated" in data
+        assert "total_agents" in data
+        assert data["total_agents"] == 13
+        assert data["by_state"]["published"] == 10
+
+    def test_empty_report(self):
+        report = {"agents": {}, "by_state": {}, "by_category_state": {}}
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            mod.print_json_report(report)
+        finally:
+            sys.stdout = old_stdout
+        data = json.loads(buf.getvalue())
+        assert data["total_agents"] == 0

@@ -292,7 +292,7 @@ def print_dependency_health(all_agents):
     print(f"{BOLD}{'='*60}{RESET}\n")
 
     print(f"{BOLD}depends_on Usage:{RESET}")
-    pct = agents_with_deps / total * 100
+    pct = agents_with_deps / total * 100 if total else 0
     print(f"  Agents with dependencies: {agents_with_deps} ({pct:.1f}%)")
     print(f"  Valid references:         {GREEN}{len(valid)}{RESET}")
     print(f"  Broken references:        {RED}{len(broken)}{RESET}")

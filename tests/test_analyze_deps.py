@@ -1,6 +1,7 @@
 """Tests for scripts/analyze-deps.py — dependency analysis engine."""
 
 import importlib.util
+import io
 import sys
 from pathlib import Path
 
@@ -22,6 +23,7 @@ get_list_field = mod.get_list_field
 build_agent_index = mod.build_agent_index
 build_term_index = mod.build_term_index
 suggest_dependencies = mod.suggest_dependencies
+print_dependency_health = mod.print_dependency_health
 
 
 def make_agent_file(path, name, description, body, deps=None, category="test-cat"):
@@ -267,3 +269,99 @@ class TestBuildTermIndex:
     def test_empty_index(self):
         idx = build_term_index({})
         assert idx == {}
+
+
+# ── build_agent_index ────────────────────────────────────────────────────────
+
+class TestBuildAgentIndex:
+    def test_returns_dict(self):
+        agents = build_agent_index(category_filter="aviation")
+        assert isinstance(agents, dict)
+
+    def test_each_entry_has_required_fields(self):
+        agents = build_agent_index(category_filter="aviation")
+        for agent_id, agent_data in agents.items():
+            assert "id" in agent_data
+            assert "category" in agent_data
+            assert "name" in agent_data
+            assert "all_terms" in agent_data
+            assert agent_data["category"] == "aviation"
+
+    def test_empty_for_nonexistent_category(self):
+        agents = build_agent_index(category_filter="zzz_no_such_cat_zzz")
+        assert agents == {}
+
+
+# ── suggest_dependencies ─────────────────────────────────────────────────────
+
+class TestSuggestDependencies:
+    def test_returns_dict(self):
+        agents = build_agent_index(category_filter="aviation")
+        if len(agents) < 2:
+            pytest.skip("need at least 2 agents for dependency suggestions")
+        term_idx = build_term_index(agents)
+        suggestions = suggest_dependencies(agents, term_idx, min_confidence=0.3)
+        assert isinstance(suggestions, dict)
+
+    def test_suggestions_have_confidence_scores(self):
+        agents = build_agent_index(category_filter="aviation")
+        if len(agents) < 2:
+            pytest.skip("need at least 2 agents for dependency suggestions")
+        term_idx = build_term_index(agents)
+        suggestions = suggest_dependencies(agents, term_idx, min_confidence=0.1)
+        for agent_id, deps in suggestions.items():
+            for target_id, confidence, evidence in deps:
+                assert 0.0 <= confidence <= 1.0
+                assert isinstance(target_id, str)
+                assert isinstance(evidence, list)
+
+
+# ── print_dependency_health ──────────────────────────────────────────────────
+
+class TestPrintDependencyHealth:
+    def test_prints_header(self, tmp_path, monkeypatch):
+        f1 = make_agent_file(
+            tmp_path / "cat1" / "cat1-agent1.md",
+            "Agent One", "Testing agent",
+            "Some **body** content with **testing** terms."
+        )
+        f2 = make_agent_file(
+            tmp_path / "cat2" / "cat2-agent2.md",
+            "Agent Two", "Another agent",
+            "Works with **testing** infrastructure."
+        )
+
+        def mock_discover():
+            for f in (f1, f2):
+                cat = f.parent.name
+                rel = str(f.relative_to(tmp_path)).replace("\\", "/")
+                yield cat, rel, f
+
+        monkeypatch.setattr(mod, "discover_agents", mock_discover)
+        agents = {}
+        for f in (f1, f2):
+            terms = extract_terms(f)
+            if terms:
+                agents[terms["id"]] = terms
+
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            print_dependency_health(agents)
+        finally:
+            sys.stdout = old_stdout
+        output = buf.getvalue()
+        assert "Dependency Graph Health" in output
+        assert "Total agents" in output
+
+    def test_handles_empty_agents(self):
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            print_dependency_health({})
+        finally:
+            sys.stdout = old_stdout
+        output = buf.getvalue()
+        assert "Total agents: 0" in output

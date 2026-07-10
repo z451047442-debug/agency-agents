@@ -1,6 +1,7 @@
 """Tests for scripts/expand-agent.py — agent expansion planning."""
 
 import importlib.util
+import io
 import sys
 from pathlib import Path
 
@@ -15,7 +16,10 @@ spec = importlib.util.spec_from_file_location(
 mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
 
+find_reference_agents = mod.find_reference_agents
 generate_expansion_plan = mod.generate_expansion_plan
+print_expansion_plan = mod.print_expansion_plan
+analyze_expansion_needs = mod.analyze_expansion_needs
 EXPANSION_SECTIONS = mod.EXPANSION_SECTIONS
 
 
@@ -46,7 +50,7 @@ class TestExpansionSections:
 
 def _make_analysis(agent_id="test-agent", category="engineering",
                    grade="B", total=5, word_count=200, scores=None,
-                   section_found=3, estimated_new_words=300):
+                   section_found=3, estimated_new_words=300, issues=None):
     if scores is None:
         scores = {
             "content_depth": 2,
@@ -65,7 +69,7 @@ def _make_analysis(agent_id="test-agent", category="engineering",
         "needs": [],
         "estimated_new_words": estimated_new_words,
         "projected_grade": "A" if total >= 8 else "B",
-        "issues": [],
+        "issues": issues if issues is not None else [],
     }
 
 
@@ -138,3 +142,113 @@ class TestGenerateExpansionPlan:
         section_names = {p["section"] for p in plan}
         for name in EXPANSION_SECTIONS:
             assert name in section_names, f"Missing section: {name}"
+
+
+# ── find_reference_agents ────────────────────────────────────────────────────
+
+class TestFindReferenceAgents:
+    def test_returns_list_of_tuples(self):
+        refs = find_reference_agents("engineering", "zzz_nonexistent_zzz")
+        assert isinstance(refs, list)
+        if refs:
+            wc, total, ref_id, filepath = refs[0]
+            assert isinstance(wc, int)
+            assert isinstance(total, int)
+            assert isinstance(ref_id, str)
+            assert isinstance(filepath, Path)
+
+    def test_excludes_self(self):
+        refs = find_reference_agents("engineering", "engineering-frontend-developer")
+        ids = [r[2] for r in refs]
+        assert "engineering-frontend-developer" not in ids
+
+    def test_returns_at_most_top_n(self):
+        refs = find_reference_agents("engineering", "zzz_nonexistent_zzz", top_n=2)
+        assert len(refs) <= 2
+
+    def test_empty_for_small_category(self):
+        """Very small categories may have no A-grade agents."""
+        refs = find_reference_agents("aviation", "aviation_nonexistent")
+        assert isinstance(refs, list)
+
+
+# ── analyze_expansion_needs ──────────────────────────────────────────────────
+
+class TestAnalyzeExpansionNeeds:
+    def test_returns_expected_keys(self):
+        """Test with a real agent file from a small category."""
+        agent_file = SCRIPTS_DIR.parent / "aviation" / "aviation-flight-test-engineer.md"
+        if not agent_file.exists():
+            pytest.skip("aviation agent file not found")
+        result = analyze_expansion_needs(
+            "aviation-flight-test-engineer", "aviation", agent_file
+        )
+        for key in ("agent_id", "category", "current_grade", "current_total",
+                     "word_count", "needs", "estimated_new_words", "projected_grade"):
+            assert key in result, f"Missing key: {key}"
+
+    def test_agent_id_matches_input(self):
+        agent_file = SCRIPTS_DIR.parent / "aviation" / "aviation-flight-test-engineer.md"
+        if not agent_file.exists():
+            pytest.skip("aviation agent file not found")
+        result = analyze_expansion_needs(
+            "test-id-123", "aviation", agent_file
+        )
+        assert result["agent_id"] == "test-id-123"
+
+
+# ── print_expansion_plan ─────────────────────────────────────────────────────
+
+class TestPrintExpansionPlan:
+    def test_prints_agent_info(self):
+        analysis = _make_analysis(agent_id="test-expand-me", category="testing")
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            print_expansion_plan(analysis, [], [])
+        finally:
+            sys.stdout = old_stdout
+        output = buf.getvalue()
+        assert "test-expand-me" in output
+        assert "testing" in output
+
+    def test_shows_reference_agents(self):
+        analysis = _make_analysis()
+        refs = [_make_ref_agent("ref-expert", word_count=600, total=9)]
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            print_expansion_plan(analysis, refs, [])
+        finally:
+            sys.stdout = old_stdout
+        assert "ref-expert" in buf.getvalue()
+
+    def test_shows_expansion_steps(self):
+        analysis = _make_analysis(word_count=100, grade="B", total=4)
+        plan = generate_expansion_plan(analysis, [])
+        if not plan:
+            pytest.skip("no expansion plan generated")
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            print_expansion_plan(analysis, [], plan)
+        finally:
+            sys.stdout = old_stdout
+        output = buf.getvalue()
+        assert "Expansion Steps" in output
+        assert "Estimated total" in output
+
+    def test_shows_current_issues(self):
+        analysis = _make_analysis(issues=["Missing sections", "Too short"])
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            print_expansion_plan(analysis, [], [])
+        finally:
+            sys.stdout = old_stdout
+        output = buf.getvalue()
+        assert "Missing sections" in output

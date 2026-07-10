@@ -165,6 +165,8 @@ class TestCheckShards:
         monkeypatch.setattr(mod, "SHARD_DIR", tmp_path)
         data = _make_data([_make_agent(1, "eng"), _make_agent(2, "eng")])
         _write_shards(tmp_path, data)
+        # Also create _index.json to cover the skip logic (line 124)
+        (tmp_path / "_index.json").write_text("{}", encoding="utf-8")
 
         check_shards(data)
         assert "in sync" in capsys.readouterr().out
@@ -214,3 +216,183 @@ class TestCheckShards:
         with pytest.raises(SystemExit) as exc:
             check_shards(data)
         assert exc.value.code == 1
+
+    def test_invalid_json_exits_1(self, tmp_path, monkeypatch):
+        """check_shards handles invalid JSON in shard file (lines 118-119)."""
+        monkeypatch.setattr(mod, "SHARD_DIR", tmp_path)
+        data = _make_data([_make_agent(1, "eng")])
+        # Write corrupt JSON to the shard file
+        (tmp_path / "eng.json").write_text("{not valid json!!!", encoding="utf-8")
+
+        with pytest.raises(SystemExit) as exc:
+            check_shards(data)
+        assert exc.value.code == 1
+
+
+# ── load_index ─────────────────────────────────────────────────────────────
+
+class TestLoadIndex:
+    def test_file_not_found_exits(self, monkeypatch):
+        """load_index exits when AGENTS.json is missing (lines 39-40)."""
+        monkeypatch.setattr(mod, "INDEX_PATH", Path("/nonexistent/AGENTS.json"))
+        with pytest.raises(SystemExit) as exc:
+            mod.load_index()
+        assert exc.value.code == 1
+
+
+# ── print_stats ────────────────────────────────────────────────────────────
+
+class TestPrintStats:
+    def _setup_shards(self, tmp_path, monkeypatch, categories=None):
+        """Create shard files for print_stats to read."""
+        if categories is None:
+            categories = {"engineering": 5, "design": 3}
+        shard_dir = tmp_path / "shards"
+        shard_dir.mkdir()
+        for cat, count in categories.items():
+            agents = [_make_agent(i, cat) for i in range(count)]
+            shard = {
+                "category": cat,
+                "agent_count": count,
+                "agents": agents,
+                "generated": "2026-01-01",
+            }
+            (shard_dir / f"{cat}.json").write_text(
+                json.dumps(shard, indent=2, ensure_ascii=False), encoding="utf-8",
+            )
+        # Create INDEX_PATH pointing to a dummy file so stat works
+        index_path = tmp_path / "AGENTS.json"
+        index_path.write_text("{}", encoding="utf-8")
+        monkeypatch.setattr(mod, "INDEX_PATH", index_path)
+        monkeypatch.setattr(mod, "SHARD_DIR", shard_dir)
+        return shard_dir
+
+    def test_prints_distribution(self, tmp_path, monkeypatch, capsys):
+        self._setup_shards(tmp_path, monkeypatch)
+        mod.print_stats()
+        captured = capsys.readouterr()
+        assert "Shard Size Distribution" in captured.out
+        assert "Total:" in captured.out
+
+    def test_shows_largest_shard(self, tmp_path, monkeypatch, capsys):
+        self._setup_shards(tmp_path, monkeypatch)
+        mod.print_stats()
+        captured = capsys.readouterr()
+        assert "Largest shard" in captured.out
+
+    def test_shows_category_rows(self, tmp_path, monkeypatch, capsys):
+        self._setup_shards(tmp_path, monkeypatch)
+        mod.print_stats()
+        captured = capsys.readouterr()
+        assert "engineering" in captured.out
+        assert "design" in captured.out
+
+    def test_no_shards_exits(self, tmp_path, monkeypatch):
+        """print_stats exits when SHARD_DIR doesn't exist (line 142-143)."""
+        monkeypatch.setattr(mod, "SHARD_DIR", tmp_path / "nonexistent")
+        with pytest.raises(SystemExit) as exc:
+            mod.print_stats()
+        assert exc.value.code == 1
+
+    def test_skips_index_file(self, tmp_path, monkeypatch, capsys):
+        """print_stats skips _index.json when iterating shards (line 147)."""
+        shard_dir = tmp_path / "shards"
+        shard_dir.mkdir()
+        # _index.json plus one real shard to avoid the 0-shard crash bug
+        (shard_dir / "_index.json").write_text("{}", encoding="utf-8")
+        (shard_dir / "engineering.json").write_text(
+            json.dumps({"category": "engineering", "agent_count": 1,
+                        "agents": [_make_agent(1, "engineering")],
+                        "generated": "2026-01-01"}),
+            encoding="utf-8",
+        )
+        index_path = tmp_path / "AGENTS.json"
+        index_path.write_text("{}", encoding="utf-8")
+        monkeypatch.setattr(mod, "INDEX_PATH", index_path)
+        monkeypatch.setattr(mod, "SHARD_DIR", shard_dir)
+        mod.print_stats()
+        captured = capsys.readouterr()
+        # _index.json should be skipped, only engineering shows
+        assert "engineering" in captured.out
+
+
+# ── stdout encoding ────────────────────────────────────────────────────────
+
+class TestStdoutEncoding:
+    def test_reconfigure_on_non_utf8(self, monkeypatch):
+        """Cover line 29: sys.stdout.reconfigure when encoding != utf-8."""
+        import io
+
+        class MockStdout(io.StringIO):
+            encoding = "ascii"
+            def reconfigure(self, **kwargs):
+                pass
+
+        fake_stdout = MockStdout()
+        monkeypatch.setattr(sys, "stdout", fake_stdout)
+        import importlib.util
+        spec2 = importlib.util.spec_from_file_location(
+            "shard_index_enc", str(SCRIPTS_DIR / "shard-index.py")
+        )
+        mod2 = importlib.util.module_from_spec(spec2)
+        spec2.loader.exec_module(mod2)
+
+
+# ── main ───────────────────────────────────────────────────────────────────
+
+class TestMain:
+    def _setup_index(self, tmp_path, monkeypatch, agents=None):
+        if agents is None:
+            agents = [_make_agent(1, "eng"), _make_agent(2, "eng"), _make_agent(1, "ds")]
+        index_path = tmp_path / "AGENTS.json"
+        data = _make_data(agents, total_agents=len(agents))
+        index_path.write_text(json.dumps(data), encoding="utf-8")
+        monkeypatch.setattr(mod, "INDEX_PATH", index_path)
+        # Also redirect SHARD_DIR so sharding output goes to tmp
+        shard_dir = tmp_path / "by-category"
+        monkeypatch.setattr(mod, "SHARD_DIR", shard_dir)
+        return index_path
+
+    def test_default_mode_shards_index(self, tmp_path, monkeypatch, capsys):
+        """main() runs shard_index by default (lines 186-193)."""
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr("sys.argv", ["shard-index.py"])
+        mod.main()
+        captured = capsys.readouterr()
+        assert "sharded successfully" in captured.out
+
+    def test_check_mode(self, tmp_path, monkeypatch, capsys):
+        """main() --check runs check_shards (lines 181-182)."""
+        self._setup_index(tmp_path, monkeypatch)
+        # Pre-populate shards in sync so check passes
+        shard_dir = tmp_path / "by-category"
+        shard_dir.mkdir(parents=True, exist_ok=True)
+        _write_shards(shard_dir, _make_data(
+            [_make_agent(1, "eng"), _make_agent(2, "eng"), _make_agent(1, "ds")],
+            total_agents=3,
+        ))
+
+        monkeypatch.setattr("sys.argv", ["shard-index.py", "--check"])
+        mod.main()
+        captured = capsys.readouterr()
+        assert "in sync" in captured.out
+
+    def test_stats_mode(self, tmp_path, monkeypatch, capsys):
+        """main() --stats runs print_stats (lines 183-184)."""
+        self._setup_index(tmp_path, monkeypatch)
+        # Pre-populate shards
+        shard_dir = tmp_path / "by-category"
+        shard_dir.mkdir(parents=True, exist_ok=True)
+        _write_shards(shard_dir, _make_data(
+            [_make_agent(1, "eng")], total_agents=1,
+        ))
+        # Need the INDEX_PATH file itself for the stat call
+        index_path = tmp_path / "AGENTS.json"
+        index_path.write_text(json.dumps(_make_data(
+            [_make_agent(1, "eng")], total_agents=1,
+        )), encoding="utf-8")
+
+        monkeypatch.setattr("sys.argv", ["shard-index.py", "--stats"])
+        mod.main()
+        captured = capsys.readouterr()
+        assert "Shard Size Distribution" in captured.out

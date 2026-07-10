@@ -284,3 +284,285 @@ class TestCheckCrossReference:
         assert any("No orphan entries" in l for l in lines)
         assert any("No missing entries" in l for l in lines)
         assert any("total_agents" in l for l in lines)
+
+
+# ── load_json OSError (lines 37-38) ─────────────────────────────────────────
+
+class TestLoadJsonOSError:
+    """Test OSError handling in load_json (lines 37-38)."""
+
+    def test_os_error(self, tmp_path):
+        """Line 37-38: OSError raised by open is caught and returned as error."""
+        p = tmp_path / "data.json"
+        p.write_text('{"key": "value"}', encoding="utf-8")
+
+        with patch("builtins.open", side_effect=OSError("permission denied")):
+            data, err = load_json(str(p))
+            assert data is None
+            assert "Error reading" in err
+
+
+# ── helpers for main() tests ────────────────────────────────────────────────
+
+def _make_index(path, agents=None, total_agents=None):
+    """Write a minimal AGENTS.json to a temp path."""
+    if agents is None:
+        agents = [{
+            "id": "test-agent", "name": "Test Agent",
+            "category": "test", "description": "A test agent",
+            "path": "test/test-agent.md",
+        }]
+    if total_agents is None:
+        total_agents = len(agents)
+    data = {"agents": agents, "total_agents": total_agents}
+    path.write_text(json.dumps(data), encoding="utf-8")
+
+
+def _make_schema(path):
+    """Write a minimal valid JSON schema to a temp path."""
+    path.write_text(json.dumps({
+        "type": "object",
+        "properties": {
+            "agents": {"type": "array"},
+            "total_agents": {"type": "integer"},
+        },
+        "required": ["agents"],
+    }), encoding="utf-8")
+
+
+def _setup_repo_schema(monkeypatch, tmp_path):
+    """Setup temp REPO and SCHEMA_FILE for main() tests."""
+    monkeypatch.setattr(mod, "REPO", tmp_path)
+    schema_path = tmp_path / "schema.json"
+    _make_schema(schema_path)
+    monkeypatch.setattr(mod, "SCHEMA_FILE", schema_path)
+
+
+# ── main() function ─────────────────────────────────────────────────────────
+
+class TestMainFunction:
+    """Tests for the main() function covering lines 128-201."""
+
+    def test_main_all_checks_pass(self, tmp_path, monkeypatch):
+        """All checks pass with valid AGENTS.json and matching filesystem."""
+        index_path = tmp_path / "AGENTS.json"
+        cat_dir = tmp_path / "test"
+        cat_dir.mkdir()
+        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+
+        _make_index(index_path, [{
+            "id": "test-agent", "name": "Test Agent",
+            "category": "test", "description": "A test agent",
+            "path": "test/test-agent.md",
+        }])
+
+        _setup_repo_schema(monkeypatch, tmp_path)
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path)]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 0
+
+    def test_main_invalid_json_syntax(self, tmp_path, monkeypatch, capsys):
+        """Invalid JSON syntax → exits with code 1."""
+        index_path = tmp_path / "AGENTS.json"
+        index_path.write_text("{not valid json", encoding="utf-8")
+
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path)]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+
+        captured = capsys.readouterr()
+        assert "FAIL:" in captured.out
+
+    def test_main_schema_only_flag(self, tmp_path, monkeypatch):
+        """--schema-only skips filesystem cross-reference."""
+        index_path = tmp_path / "AGENTS.json"
+        _make_index(index_path)
+
+        _setup_repo_schema(monkeypatch, tmp_path)
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path),
+                           "--schema-only"]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 0
+
+    def test_main_sync_only_flag(self, tmp_path, monkeypatch):
+        """--sync-only skips schema validation and duplicate check."""
+        index_path = tmp_path / "AGENTS.json"
+        cat_dir = tmp_path / "test"
+        cat_dir.mkdir()
+        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+
+        _make_index(index_path, [{
+            "id": "test-agent", "name": "Test Agent",
+            "category": "test", "description": "A test agent",
+            "path": "test/test-agent.md",
+        }])
+
+        _setup_repo_schema(monkeypatch, tmp_path)
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path),
+                           "--sync-only"]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 0
+
+    def test_main_schema_load_error(self, tmp_path, monkeypatch):
+        """Schema file not found → schema validation error, exits 1."""
+        index_path = tmp_path / "AGENTS.json"
+        cat_dir = tmp_path / "test"
+        cat_dir.mkdir()
+        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+
+        _make_index(index_path, [{
+            "id": "test-agent", "name": "Test Agent",
+            "category": "test", "description": "A test agent",
+            "path": "test/test-agent.md",
+        }])
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        monkeypatch.setattr(mod, "SCHEMA_FILE",
+                            tmp_path / "nonexistent_schema.json")
+
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path)]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+
+    def test_main_duplicate_ids(self, tmp_path, monkeypatch):
+        """Duplicate agent IDs → validation error."""
+        index_path = tmp_path / "AGENTS.json"
+        _make_index(index_path, [
+            {"id": "dup-id", "name": "First", "category": "c",
+             "description": "d", "path": "c/first.md"},
+            {"id": "dup-id", "name": "Second", "category": "c",
+             "description": "d", "path": "c/second.md"},
+        ])
+
+        _setup_repo_schema(monkeypatch, tmp_path)
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path)]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+
+    def test_main_orphan_and_missing(self, tmp_path, monkeypatch):
+        """Orphan entries + missing files → exits with code 1."""
+        index_path = tmp_path / "AGENTS.json"
+        cat_dir = tmp_path / "test"
+        cat_dir.mkdir()
+        # Create a file NOT in AGENTS.json (missing) but DON'T create
+        # the file referenced in AGENTS.json (orphan)
+        (cat_dir / "extra-file.md").write_text("content", encoding="utf-8")
+
+        _make_index(index_path, [{
+            "id": "orphan-agent", "name": "Orphan",
+            "category": "test", "description": "Orphaned agent",
+            "path": "test/orphan-agent.md",  # this file does NOT exist
+        }])
+
+        _setup_repo_schema(monkeypatch, tmp_path)
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path)]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+
+    def test_main_total_agents_mismatch(self, tmp_path, monkeypatch):
+        """total_agents field doesn't match array length → error."""
+        index_path = tmp_path / "AGENTS.json"
+        _make_index(index_path, [{
+            "id": "test-agent", "name": "Test Agent",
+            "category": "test", "description": "A test agent",
+            "path": "test/test-agent.md",
+        }], total_agents=999)
+
+        _setup_repo_schema(monkeypatch, tmp_path)
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path)]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+
+    def test_main_schema_validation_errors(self, tmp_path, monkeypatch):
+        """Schema validation finds errors → exits 1 if jsonschema installed."""
+        try:
+            import jsonschema  # noqa: F401
+        except ImportError:
+            pytest.skip("jsonschema not installed")
+
+        index_path = tmp_path / "AGENTS.json"
+        # Create a schema that requires fields our data doesn't have
+        schema_path = tmp_path / "schema.json"
+        schema_path.write_text(json.dumps({
+            "type": "object",
+            "properties": {"agents": {"type": "array"}},
+            "required": ["agents", "version"]
+        }), encoding="utf-8")
+
+        _make_index(index_path)  # no "version" field
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        monkeypatch.setattr(mod, "SCHEMA_FILE", schema_path)
+
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path)]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+
+    def test_main_schema_skip_jsonschema_not_installed(self, tmp_path, monkeypatch,
+                                                        capsys):
+        """Line 162: jsonschema not installed → WARN message printed."""
+        index_path = tmp_path / "AGENTS.json"
+        cat_dir = tmp_path / "test"
+        cat_dir.mkdir()
+        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+
+        _make_index(index_path, [{
+            "id": "test-agent", "name": "Test Agent",
+            "category": "test", "description": "A test agent",
+            "path": "test/test-agent.md",
+        }])
+
+        _setup_repo_schema(monkeypatch, tmp_path)
+        # Simulate jsonschema not installed
+        with patch.dict("sys.modules", {"jsonschema": None}):
+            with patch.object(sys, "argv",
+                              ["validate-index.py", "--path", str(index_path)]):
+                with pytest.raises(SystemExit) as exc:
+                    mod.main()
+                assert exc.value.code == 0
+
+        captured = capsys.readouterr()
+        assert "WARN:" in captured.out
+
+    def test_main_sync_only_skips_schema_load_error(self, tmp_path, monkeypatch):
+        """--sync-only skips schema, so nonexistent schema won't cause error."""
+        index_path = tmp_path / "AGENTS.json"
+        cat_dir = tmp_path / "test"
+        cat_dir.mkdir()
+        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+
+        _make_index(index_path, [{
+            "id": "test-agent", "name": "Test Agent",
+            "category": "test", "description": "A test agent",
+            "path": "test/test-agent.md",
+        }])
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        # Schema file doesn't matter — sync-only skips schema entirely
+        monkeypatch.setattr(mod, "SCHEMA_FILE",
+                            tmp_path / "nonexistent.json")
+
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path),
+                           "--sync-only"]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 0

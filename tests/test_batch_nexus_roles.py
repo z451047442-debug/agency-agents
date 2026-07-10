@@ -3,6 +3,7 @@
 import importlib.util
 import sys
 from pathlib import Path
+from unittest.mock import patch
 
 import pytest
 
@@ -167,3 +168,242 @@ class TestAssignRoles:
     def test_data_science_engineer_gets_build(self):
         result = assign_roles("data-science-machine-learning-engineer", "data-science")
         assert result == ["phase-2-foundation", "phase-3-build"]
+
+
+# ── main() function ─────────────────────────────────────────────────────────
+
+class TestMainFunction:
+    """Tests for the main() function covering lines 250-309."""
+
+    def _make_agent_file(self, cat_dir, filename, frontmatter, body="\n\n## Identity\nTest."):
+        """Helper to create a test agent .md file."""
+        path = cat_dir / filename
+        fm_str = "\n".join(f"{k}: {v}" for k, v in frontmatter.items())
+        content = f"---\n{fm_str}\n---{body}"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def test_dry_run_no_write(self, tmp_path, monkeypatch, capsys):
+        """Lines 295-299: --dry-run does not modify files."""
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir()
+        self._make_agent_file(eng_dir, "engineering-test-agent.md", {
+            "name": "Test Agent",
+            "description": "A test",
+            "emoji": "X",
+            "color": "blue",
+            "version": "1.0.0",
+            "date_added": "2026-01-01",
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py", "--dry-run"]):
+            mod.main()
+
+        # File should NOT have been modified (no nexus_roles added)
+        content = (eng_dir / "engineering-test-agent.md").read_text(encoding="utf-8")
+        assert "nexus_roles:" not in content
+
+        captured = capsys.readouterr()
+        assert "Assigned: 1" in captured.out
+        assert "DRY RUN" in captured.out
+
+    def test_dry_run_verbose(self, tmp_path, monkeypatch, capsys):
+        """Verbose mode with dry-run shows WOULD UPDATE output."""
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir()
+        self._make_agent_file(eng_dir, "engineering-dev-agent.md", {
+            "name": "Dev Agent",
+            "description": "Developer",
+            "emoji": "X",
+            "color": "blue",
+            "version": "1.0.0",
+            "date_added": "2026-01-01",
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv",
+                          ["batch-nexus-roles.py", "--dry-run", "--verbose"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "WOULD UPDATE" in captured.out
+
+    def test_live_write_modifies_files(self, tmp_path, monkeypatch):
+        """Lines 300-305: Actual write modifies agent files."""
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir()
+        self._make_agent_file(eng_dir, "engineering-dev-agent.md", {
+            "name": "Dev Agent",
+            "description": "Developer",
+            "emoji": "X",
+            "color": "blue",
+            "version": "1.0.0",
+            "date_added": "2026-01-01",
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py"]):
+            mod.main()
+
+        content = (eng_dir / "engineering-dev-agent.md").read_text(encoding="utf-8")
+        assert "nexus_roles:" in content
+
+    def test_live_write_verbose(self, tmp_path, monkeypatch, capsys):
+        """Live write with verbose flag shows UPDATED messages."""
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir()
+        self._make_agent_file(eng_dir, "engineering-dev-agent.md", {
+            "name": "Dev Agent",
+            "description": "Developer",
+            "emoji": "X",
+            "color": "blue",
+            "version": "1.0.0",
+            "date_added": "2026-01-01",
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv",
+                          ["batch-nexus-roles.py", "--verbose"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "UPDATED" in captured.out
+
+    def test_category_filter(self, tmp_path, monkeypatch):
+        """--category flag only processes matching category."""
+        eng_dir = tmp_path / "engineering"
+        design_dir = tmp_path / "design"
+        eng_dir.mkdir()
+        design_dir.mkdir()
+        self._make_agent_file(eng_dir, "engineering-dev.md", {
+            "name": "Dev", "description": "d", "emoji": "X", "color": "b",
+            "version": "1.0.0", "date_added": "2026-01-01",
+        })
+        self._make_agent_file(design_dir, "design-ui.md", {
+            "name": "UI", "description": "d", "emoji": "X", "color": "b",
+            "version": "1.0.0", "date_added": "2026-01-01",
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv",
+                          ["batch-nexus-roles.py", "--category", "engineering"]):
+            mod.main()
+
+        # Only engineering file should be modified
+        eng_content = (eng_dir / "engineering-dev.md").read_text(encoding="utf-8")
+        assert "nexus_roles:" in eng_content
+
+        design_content = (design_dir / "design-ui.md").read_text(encoding="utf-8")
+        assert "nexus_roles:" not in design_content
+
+    def test_already_has_roles(self, tmp_path, monkeypatch, capsys):
+        """Agent with existing nexus_roles increments 'already' counter."""
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir()
+        self._make_agent_file(eng_dir, "engineering-with-roles.md", {
+            "name": "Has Roles",
+            "description": "Already assigned",
+            "emoji": "X",
+            "color": "blue",
+            "version": "1.0.0",
+            "date_added": "2026-01-01",
+            "nexus_roles": '  # already present\n  - phase-3-build',
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "Already had: 1" in captured.out
+
+    def test_skipped_unknown_category(self, tmp_path, monkeypatch, capsys):
+        """Agent in unknown category gets skipped (assign_roles returns None)."""
+        unknown_dir = tmp_path / "zzz-unknown"
+        unknown_dir.mkdir()
+        self._make_agent_file(unknown_dir, "zzz-unknown-agent.md", {
+            "name": "Unknown",
+            "description": "Unknown category",
+            "emoji": "X",
+            "color": "blue",
+            "version": "1.0.0",
+            "date_added": "2026-01-01",
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "Skipped: 1" in captured.out
+
+    def test_no_valid_md_files(self, tmp_path, monkeypatch, capsys):
+        """No valid agent files — all counts zero."""
+        (tmp_path / "empty-dir").mkdir()
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "Assigned: 0" in captured.out
+        assert "Already had: 0" in captured.out
+        assert "Skipped: 0" in captured.out
+
+    def test_skips_non_directories(self, tmp_path, monkeypatch, capsys):
+        """Line 268: skip files (non-directories) in REPO root."""
+        (tmp_path / "README.txt").write_text("not a dir", encoding="utf-8")
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "Assigned: 0" in captured.out
+
+    def test_skips_hidden_dirs(self, tmp_path, monkeypatch, capsys):
+        """Line 268: skip directories starting with dot."""
+        (tmp_path / ".hidden-dir").mkdir()
+        self._make_agent_file(tmp_path / ".hidden-dir", "hidden-agent.md", {
+            "name": "H", "description": "d", "emoji": "X", "color": "b",
+            "version": "1.0.0", "date_added": "2026-01-01",
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "Assigned: 0" in captured.out
+
+    def test_skips_excluded_dirs(self, tmp_path, monkeypatch, capsys):
+        """Line 270: skip directories in EXCLUDE set."""
+        (tmp_path / "docs").mkdir()
+        self._make_agent_file(tmp_path / "docs", "some-doc.md", {
+            "name": "D", "description": "d", "emoji": "X", "color": "b",
+            "version": "1.0.0", "date_added": "2026-01-01",
+        })
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "Assigned: 0" in captured.out
+
+    def test_skips_bad_frontmatter(self, tmp_path, monkeypatch, capsys):
+        """Line 279: skip .md files without valid frontmatter."""
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir()
+        # File without YAML frontmatter delimiters
+        (eng_dir / "engineering-no-fm.md").write_text(
+            "## Just a heading\nNo frontmatter here.", encoding="utf-8"
+        )
+
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-nexus-roles.py"]):
+            mod.main()
+
+        captured = capsys.readouterr()
+        assert "Assigned: 0" in captured.out

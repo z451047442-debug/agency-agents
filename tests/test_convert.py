@@ -1,6 +1,8 @@
 """Comprehensive tests for scripts/convert.py."""
 
+import argparse
 import importlib.util
+import json
 from pathlib import Path
 
 import pytest
@@ -157,6 +159,14 @@ class TestDiscoverAgents:
         (tmp_path / "scripts").mkdir()
         (tmp_path / "scripts" / "skip.md").write_text(
             '---\nname: "Skip"\ndescription: "Desc"\n---\nBody.', encoding="utf-8"
+        )
+        assert list(discover_agents()) == []
+
+    def test_excludes_underscore_prefixed_dirs(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        (tmp_path / "_solution").mkdir()
+        (tmp_path / "_solution" / "agent.md").write_text(
+            '---\nname: "Hidden"\ndescription: "Desc"\n---\nBody.', encoding="utf-8"
         )
         assert list(discover_agents()) == []
 
@@ -511,6 +521,347 @@ class TestTomlEscape:
         result = _toml_escape("a\x00b")
         assert "\\u0000" in result
 
+    def test_escapes_form_feed(self):
+        result = _toml_escape("a\x0Cb")
+        assert "\\f" in result
+
     def test_escapes_del_character(self):
         result = _toml_escape("a\x7Fb")
         assert "\\u007F" in result
+
+
+# ── build_depends_manifest ──────────────────────────────────────────────────
+
+class TestBuildDependsManifest:
+    def test_with_dependencies(self, tmp_path):
+        """build_depends_manifest writes depends_on.json when agents have deps."""
+        out_dir = tmp_path / "out"
+        agents = [
+            ("engineering", Path("/fake/engineering-agent-a.md"),
+             'depends_on:\n  - engineering-agent-b\n  - engineering-agent-c\n', ""),
+            ("design", Path("/fake/design-agent-x.md"),
+             'depends_on: design-agent-y\n', ""),
+        ]
+        convert.build_depends_manifest(agents, out_dir)
+        manifest_file = out_dir / "depends_on.json"
+        assert manifest_file.exists()
+        data = json.loads(manifest_file.read_text())
+        assert "engineering-agent-a" in data
+        assert data["engineering-agent-a"] == ["engineering-agent-b", "engineering-agent-c"]
+        assert "design-agent-x" in data
+        assert data["design-agent-x"] == ["design-agent-y"]
+
+    def test_no_dependencies(self, tmp_path):
+        """build_depends_manifest handles agents without depends_on."""
+        out_dir = tmp_path / "out"
+        agents = [
+            ("engineering", Path("/fake/agent.md"),
+             'name: "No Deps"\n', ""),
+        ]
+        # Should not create file; catch stdout
+        import io, sys
+        captured = io.StringIO()
+        old = sys.stdout
+        sys.stdout = captured
+        try:
+            convert.build_depends_manifest(agents, out_dir)
+        finally:
+            sys.stdout = old
+        assert "No agent dependencies found" in captured.getvalue()
+
+    def test_inline_comma_separated_deps(self, tmp_path):
+        """build_depends_manifest parses inline comma-separated depends_on."""
+        out_dir = tmp_path / "out"
+        agents = [
+            ("engineering", Path("/fake/engineering-agent-e.md"),
+             'depends_on: "agent-one, agent-two, agent-three"\n', ""),
+        ]
+        convert.build_depends_manifest(agents, out_dir)
+        manifest_file = out_dir / "depends_on.json"
+        data = json.loads(manifest_file.read_text())
+        assert data["engineering-agent-e"] == ["agent-one", "agent-two", "agent-three"]
+
+
+# ── run_hermes ──────────────────────────────────────────────────────────────
+
+class TestRunHermes:
+    def test_delegates_to_build_hermes_plugin(self, tmp_path, monkeypatch):
+        """run_hermes calls build-hermes-plugin.py via subprocess."""
+        out_dir = tmp_path / "out"
+
+        def _fake_run(cmd, **kwargs):
+            # Return a CompletedProcess-like result
+            class FakeResult:
+                returncode = 0
+            return FakeResult()
+
+        monkeypatch.setattr(convert.subprocess, "run", _fake_run)
+        # Should not raise
+        convert.run_hermes(out_dir)
+
+
+# ── run_tool hermes & fm_text path ─────────────────────────────────────────
+
+class TestRunToolHermes:
+    def test_run_tool_hermes(self, tmp_path, monkeypatch):
+        """run_tool('hermes') delegates to run_hermes."""
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        (tmp_path / "engineering").mkdir()
+        (tmp_path / "engineering" / "agent.md").write_text(
+            '---\nname: "Test Agent"\ndescription: "A test agent"\n---\n\nBody.\n',
+            encoding="utf-8",
+        )
+        agents = list(discover_agents())
+        out_dir = tmp_path / "integrations"
+
+        # Mock run_hermes and clean_tool_output so we don't call subprocess
+        called = []
+        def _fake_run_hermes(od):
+            called.append(od)
+        monkeypatch.setattr(convert, "run_hermes", _fake_run_hermes)
+        monkeypatch.setattr(convert, "clean_tool_output", lambda *a: None)
+
+        count = convert.run_tool("hermes", agents, out_dir)
+        assert count == 1
+        assert len(called) == 1
+
+    def test_run_tool_opencode_with_fm_text(self, tmp_path, monkeypatch):
+        """run_tool for opencode passes fm_text to converter."""
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        (tmp_path / "engineering").mkdir()
+        fm_text = 'name: "Color Agent"\ndescription: "A colored agent"\nemoji: X\ncolor: cyan\n'
+        (tmp_path / "engineering" / "agent.md").write_text(
+            f"---\n{fm_text}---\n\nBody.\n", encoding="utf-8",
+        )
+        agents = list(discover_agents())
+        out_dir = tmp_path / "integrations"
+
+        monkeypatch.setattr(convert, "clean_tool_output", lambda *a: None)
+
+        count = convert.run_tool("opencode", agents, out_dir)
+        assert count == 1
+        agent_file = out_dir / "opencode" / "agents" / "color-agent.md"
+        assert agent_file.exists()
+        content = agent_file.read_text(encoding="utf-8")
+        # Color resolution from cyan -> #00FFFF
+        assert "color: '#00FFFF'" in content
+
+    def test_run_tool_windsurf(self, tmp_path, monkeypatch):
+        """run_tool('windsurf') builds .windsurfrules."""
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        (tmp_path / "engineering").mkdir()
+        (tmp_path / "engineering" / "agent.md").write_text(
+            '---\nname: "Test Agent"\ndescription: "A test agent"\n---\n\nBody.\n',
+            encoding="utf-8",
+        )
+        agents = list(discover_agents())
+        out_dir = tmp_path / "integrations"
+        count = convert.run_tool("windsurf", agents, out_dir)
+        assert count == 1
+        rules = out_dir / "windsurf" / ".windsurfrules"
+        assert rules.exists()
+
+
+# ── main ────────────────────────────────────────────────────────────────────
+
+class TestMain:
+    """Tests for convert.py main() function."""
+
+    @staticmethod
+    def _make_mock_agent(tmp_path):
+        """Helper to create a minimal agent file for main() tests."""
+        (tmp_path / "engineering").mkdir(exist_ok=True)
+        (tmp_path / "engineering" / "agent.md").write_text(
+            '---\nname: "Test Agent"\ndescription: "A test agent"\n---\n\nBody.\n',
+            encoding="utf-8",
+        )
+
+    @staticmethod
+    def _setup_main(main_args, tmp_path, monkeypatch):
+        """Setup a main() call with mocked args, return capture buffer.
+
+        Mocks sys.argv so argparse.parse_args() uses the given args,
+        mocks run_hermes to avoid subprocess calls, and routes stdout.
+        """
+        import io, sys
+
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        TestMain._make_mock_agent(tmp_path)
+
+        # Mock run_hermes to avoid subprocess call
+        monkeypatch.setattr(convert, "run_hermes", lambda *a: None)
+
+        old_argv = sys.argv
+        sys.argv = main_args
+        captured = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = captured
+        return captured, old_argv, old_stdout
+
+    @staticmethod
+    def _teardown_main(old_argv, old_stdout):
+        import sys
+        sys.stdout = old_stdout
+        sys.argv = old_argv
+
+    def test_unknown_tool_exits(self, monkeypatch):
+        """Passing an unknown tool should exit with code 1."""
+        import sys
+        monkeypatch.setattr(convert, "REPO", Path("."))
+        old_argv = sys.argv
+        sys.argv = ["convert.py", "--tool", "nonexistent"]
+        try:
+            with pytest.raises(SystemExit) as exc_info:
+                convert.main()
+            assert exc_info.value.code == 1
+        finally:
+            sys.argv = old_argv
+
+    def test_single_tool_sequential(self, tmp_path, monkeypatch):
+        """Test main() with --tool cursor (sequential mode)."""
+        captured, old_argv, old_stdout = self._setup_main(
+            ["convert.py", "--tool", "cursor"], tmp_path, monkeypatch)
+        try:
+            convert.main()
+        finally:
+            self._teardown_main(old_argv, old_stdout)
+        output = captured.getvalue()
+        assert "cursor" in output.lower()
+        assert "Converted 1 agents" in output
+
+    def test_parallel_mode(self, tmp_path, monkeypatch):
+        """Test main() with --parallel --tool cursor (parallel path but single tool)."""
+        captured, old_argv, old_stdout = self._setup_main(
+            ["convert.py", "--parallel", "--tool", "cursor"], tmp_path, monkeypatch)
+        try:
+            convert.main()
+        finally:
+            self._teardown_main(old_argv, old_stdout)
+        output = captured.getvalue()
+        # Parallel path uses "Converting:" headers but non-"all" skips the pool
+        assert "Done" in output
+
+    def test_sequential_all_tools(self, tmp_path, monkeypatch):
+        """Test main() default (all tools, sequential)."""
+        captured, old_argv, old_stdout = self._setup_main(
+            ["convert.py"], tmp_path, monkeypatch)
+        try:
+            convert.main()
+        finally:
+            self._teardown_main(old_argv, old_stdout)
+        output = captured.getvalue()
+        assert "Done" in output
+
+    def test_parallel_all_tools(self, tmp_path, monkeypatch):
+        """Test main() with --parallel (all tools, parallel)."""
+        captured, old_argv, old_stdout = self._setup_main(
+            ["convert.py", "--parallel"], tmp_path, monkeypatch)
+        try:
+            convert.main()
+        finally:
+            self._teardown_main(old_argv, old_stdout)
+        output = captured.getvalue()
+        assert "Done" in output
+
+    def test_check_mode_no_diffs(self, tmp_path, monkeypatch):
+        """Test --check mode when integrations/ is up to date.
+
+        Pre-create the output dir (mirroring a previous convert run),
+        then run --check with --out pointing to that dir so comparison matches.
+        """
+        import io, sys
+
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        self._make_mock_agent(tmp_path)
+
+        # Pre-create the integrations output dir so comparison passes
+        out_dir = tmp_path / "integrations"
+        agents = list(discover_agents())
+        run_tool("cursor", agents, out_dir)
+
+        old_argv = sys.argv
+        sys.argv = ["convert.py", "--tool", "cursor", "--check",
+                    "--out", str(out_dir)]
+        captured = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = captured
+        try:
+            convert.main()
+        finally:
+            sys.stdout = old_stdout
+            sys.argv = old_argv
+        output = captured.getvalue()
+        assert "up to date" in output
+
+    def test_check_mode_with_diffs(self, tmp_path, monkeypatch):
+        """Test --check mode when integrations/ is stale (content differs).
+
+        Creates a stale output dir with the same file paths but wrong content,
+        so the file-level comparison detects content differences.
+        """
+        import io, sys
+
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        self._make_mock_agent(tmp_path)
+
+        # Pre-create stale output — same file structure, wrong content
+        out_dir = tmp_path / "integrations"
+        rules_dir = out_dir / "cursor" / "rules"
+        rules_dir.mkdir(parents=True)
+        (rules_dir / "test-agent.mdc").write_text("stale content here\n")
+
+        old_argv = sys.argv
+        sys.argv = ["convert.py", "--tool", "cursor", "--check",
+                    "--out", str(out_dir)]
+        captured = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = captured
+        try:
+            with pytest.raises(SystemExit) as exc_info:
+                convert.main()
+            assert exc_info.value.code == 1
+        finally:
+            sys.stdout = old_stdout
+            sys.argv = old_argv
+
+    def test_check_mode_many_diffs(self, tmp_path, monkeypatch):
+        """Test --check mode with >20 diffs triggers 'and N more' message.
+
+        Creates a stale output dir with the same file structure but wrong content
+        for 22 agents, so each file comparison finds a difference.
+        """
+        import io, sys
+
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        # Create 22 agents so run_tool generates 22 output files
+        agent_dir = tmp_path / "engineering"
+        agent_dir.mkdir()
+        for i in range(22):
+            (agent_dir / f"engineering-agent-{i}.md").write_text(
+                f'---\nname: "Agent {i}"\ndescription: "Agent {i} desc"\n---\n\nBody {i}.\n',
+                encoding="utf-8",
+            )
+
+        # Pre-create stale output with same file structure but wrong content
+        out_dir = tmp_path / "integrations"
+        rules_dir = out_dir / "cursor" / "rules"
+        rules_dir.mkdir(parents=True)
+        for i in range(22):
+            slug = convert.slugify(f"Agent {i}")
+            (rules_dir / f"{slug}.mdc").write_text("stale content\n")
+
+        old_argv = sys.argv
+        sys.argv = ["convert.py", "--tool", "cursor", "--check",
+                    "--out", str(out_dir)]
+        captured = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = captured
+        try:
+            with pytest.raises(SystemExit) as exc_info:
+                convert.main()
+            assert exc_info.value.code == 1
+        finally:
+            sys.stdout = old_stdout
+            sys.argv = old_argv
+        output = captured.getvalue()
+        assert "and" in output.lower()

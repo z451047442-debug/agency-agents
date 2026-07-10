@@ -302,3 +302,196 @@ class TestReadme:
     def test_zero_agents(self):
         result = readme(0)
         assert "0" in result
+
+
+# ── parse_agent edge cases (line 58: skip non-key-value lines) ──────────────
+
+class TestParseAgentEdgeCases:
+    def test_skips_blank_lines_in_frontmatter(self, tmp_path):
+        """Lines without ':' are skipped (covered by line 58 continue)."""
+        repo = tmp_path / "repo"
+        (repo / "engineering").mkdir(parents=True)
+        path = repo / "engineering" / "eng-agent.md"
+        path.write_text(
+            "---\n"
+            'name: "Test Agent"\n'
+            'description: "A test"\n'
+            "\n"  # blank line — no colon
+            'emoji: "\U0001f680"\n'
+            "color: blue\n"
+            "---\n\n## Body\n",
+            encoding="utf-8",
+        )
+        result = parse_agent(path, repo)
+        assert result is not None
+        assert result["name"] == "Test Agent"
+
+    def test_skips_indented_yaml_lines(self, tmp_path):
+        """Lines starting with space/tab are skipped (line 58 startswith check)."""
+        repo = tmp_path / "repo"
+        (repo / "engineering").mkdir(parents=True)
+        path = repo / "engineering" / "eng-agent.md"
+        path.write_text(
+            "---\n"
+            'name: "Test Agent"\n'
+            'description: "A test"\n'
+            "  indented_field: should_skip\n"  # starts with space
+            'emoji: "\U0001f680"\n'
+            "color: blue\n"
+            "---\n\n## Body\n",
+            encoding="utf-8",
+        )
+        result = parse_agent(path, repo)
+        assert result is not None
+        assert result["name"] == "Test Agent"
+        # indented_field should NOT be in the result
+        assert "indented_field" not in result
+
+
+# ── build ──────────────────────────────────────────────────────────────────
+
+class TestBuild:
+    def test_creates_all_files(self, tmp_path, monkeypatch):
+        """build() creates plugin dir, plugin.yaml, __init__.py, agents.json, README."""
+        out_dir = tmp_path / "out"
+        out_dir.mkdir()
+
+        # Mock collect_agents to return known data
+        mock_agents = [
+            {
+                "slug": "test-agent",
+                "name": "Test Agent",
+                "description": "A test agent",
+                "division": "engineering",
+                "color": "blue",
+                "emoji": "🚀",
+                "vibe": "helpful",
+                "source_path": "engineering/test-agent.md",
+                "body": "## Identity\nYou are a test agent.\n",
+            }
+        ]
+        monkeypatch.setattr(mod, "collect_agents", lambda _repo_root: mock_agents)
+
+        count = mod.build(tmp_path / "repo", out_dir)
+        assert count == 1
+
+        plugin_dir = out_dir / "agency-agents-router"
+        assert plugin_dir.is_dir()
+        assert (plugin_dir / "plugin.yaml").exists()
+        assert (plugin_dir / "__init__.py").exists()
+        assert (plugin_dir / "data" / "agents.json").exists()
+        assert (out_dir / "README.md").exists()
+
+    def test_removes_existing_plugin_dir(self, tmp_path, monkeypatch):
+        """build() removes an existing plugin directory before recreating."""
+        out_dir = tmp_path / "out"
+        out_dir.mkdir()
+
+        # Pre-create the plugin dir with a stale file
+        plugin_dir = out_dir / "agency-agents-router"
+        plugin_dir.mkdir(parents=True)
+        (plugin_dir / "stale.txt").write_text("old", encoding="utf-8")
+
+        monkeypatch.setattr(mod, "collect_agents", lambda _repo_root: [])
+
+        mod.build(tmp_path / "repo", out_dir)
+
+        # The stale file should be gone
+        assert not (plugin_dir / "stale.txt").exists()
+
+    def test_creates_readme_with_count(self, tmp_path, monkeypatch):
+        out_dir = tmp_path / "out"
+        out_dir.mkdir()
+
+        mock_agents = [
+            {
+                "slug": f"agent-{i}",
+                "name": f"Agent {i}",
+                "description": "desc",
+                "division": "eng",
+                "color": "blue",
+                "emoji": "X",
+                "vibe": "",
+                "source_path": f"eng/agent-{i}.md",
+                "body": "body",
+            }
+            for i in range(3)
+        ]
+        monkeypatch.setattr(mod, "collect_agents", lambda _repo_root: mock_agents)
+
+        mod.build(tmp_path / "repo", out_dir)
+        readme_content = (out_dir / "README.md").read_text(encoding="utf-8")
+        assert "3" in readme_content
+
+
+# ── main ───────────────────────────────────────────────────────────────────
+
+class TestMain:
+    def test_default_args(self, tmp_path, monkeypatch):
+        """main() resolves default repo_root and out_dir."""
+        out_dir = tmp_path / "integrations" / "hermes"
+        out_dir.mkdir(parents=True)
+
+        repo_root = tmp_path / "repo"
+        repo_root.mkdir()
+
+        monkeypatch.setattr(
+            mod, "collect_agents", lambda _repo_root: []
+        )
+        monkeypatch.setattr(
+            "sys.argv", ["build-hermes-plugin.py", "--repo-root", str(repo_root), "--out", str(out_dir)]
+        )
+
+        result = mod.main()
+        assert result == 0
+        # Should have created the plugin dir structure
+        assert (out_dir / "agency-agents-router").is_dir()
+
+    def test_custom_repo_root(self, tmp_path, monkeypatch):
+        """main() accepts --repo-root argument."""
+        out_dir = tmp_path / "out"
+        out_dir.mkdir()
+        repo = tmp_path / "custom-repo"
+        repo.mkdir()
+
+        monkeypatch.setattr(mod, "collect_agents", lambda _repo_root: [])
+        monkeypatch.setattr(
+            "sys.argv",
+            ["build-hermes-plugin.py", "--repo-root", str(repo), "--out", str(out_dir)],
+        )
+
+        result = mod.main()
+        assert result == 0
+
+    def test_prints_agent_count(self, tmp_path, monkeypatch, capsys):
+        """main() prints the count of built agents."""
+        out_dir = tmp_path / "out"
+        out_dir.mkdir()
+
+        mock_agents = [
+            {
+                "slug": "a",
+                "name": "A",
+                "description": "d",
+                "division": "e",
+                "color": "blue",
+                "emoji": "X",
+                "vibe": "",
+                "source_path": "e/a.md",
+                "body": "b",
+            }
+            for _ in range(5)
+        ]
+        monkeypatch.setattr(mod, "collect_agents", lambda _repo_root: mock_agents)
+        monkeypatch.setattr(
+            "sys.argv",
+            [
+                "build-hermes-plugin.py",
+                "--repo-root", str(tmp_path / "repo"),
+                "--out", str(out_dir),
+            ],
+        )
+
+        mod.main()
+        captured = capsys.readouterr()
+        assert "5" in captured.out

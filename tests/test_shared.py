@@ -75,6 +75,23 @@ class TestTerminal:
             assert terminal.RESET == ""
             assert terminal.RED == ""
 
+    def test_ansi_constants_defined_when_color_supported(self, monkeypatch):
+        """Lines 17-23: ANSI constants set when supports_color() is True."""
+        import importlib
+        from _shared import terminal
+
+        monkeypatch.delenv("NO_COLOR", raising=False)
+        monkeypatch.setenv("TERM", "xterm-256color")
+        with mock.patch.object(sys.stdout, "isatty", return_value=True):
+            importlib.reload(terminal)
+            assert terminal.GREEN == "\033[0;32m"
+            assert terminal.YELLOW == "\033[1;33m"
+            assert terminal.RED == "\033[0;31m"
+            assert terminal.BOLD == "\033[1m"
+            assert terminal.CYAN == "\033[0;36m"
+            assert terminal.MAGENTA == "\033[0;35m"
+            assert terminal.RESET == "\033[0m"
+
 
 class TestFrontmatter:
     def test_get_frontmatter_text(self):
@@ -156,3 +173,29 @@ class TestDiscovery:
     def test_discover_agents_nonexistent_category(self):
         found = list(discover_agents("zzz-nonexistent-category"))
         assert found == []
+
+    def test_discover_agents_valueerror_fallback(self, monkeypatch, tmp_path):
+        """Lines 27-28: except ValueError fallback when relative_to fails."""
+        import importlib
+        from _shared import discovery
+
+        # Create a directory with a .md file inside tmp_path
+        sub = tmp_path / "testcat"
+        sub.mkdir()
+        (sub / "agent.md").write_text("---\nname: Test\n---\n")
+
+        # Point REPO to tmp_path so the file is discovered
+        monkeypatch.setattr(discovery, "REPO", tmp_path)
+
+        # Make Path.relative_to always raise ValueError
+        def _raising_relative_to(self, other):
+            raise ValueError("not relative")
+        monkeypatch.setattr(Path, "relative_to", _raising_relative_to)
+
+        results = list(discovery.discover_agents())
+        assert len(results) > 0
+        for cat, rel, path in results:
+            assert cat == "testcat"
+            # Fallback: when relative_to fails, use just the filename
+            assert rel == path.name
+            assert "agent.md" in rel

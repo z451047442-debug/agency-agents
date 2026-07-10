@@ -19,11 +19,6 @@ def find_file(aid):
             if sd.is_dir():
                 p = sd / f"{aid}.md"
                 if p.exists(): return p
-    for s in ('libraries','specialized','_solution','strategy','network-engineering'):
-        sd = ROOT / s
-        if sd.is_dir():
-            p = sd / f"{aid}.md"
-            if p.exists(): return p
     return None
 
 def add_deps(filepath, dep_ids):

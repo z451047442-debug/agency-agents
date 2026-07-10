@@ -85,3 +85,171 @@ class TestMainFunction:
     def test_main_runs_without_error(self):
         # Should not raise
         mod.main()
+
+
+# ── find_agent_file: special directories fallback (line 48) ─────────────────
+
+class TestFindAgentFileSpecial:
+    """Test the special-directory fallback path (line 48)."""
+
+    def test_find_in_special_directory(self, tmp_path, monkeypatch):
+        """Line 48: agent found in special directory when first loop finds nothing."""
+        # Create the special directory with an agent file
+        lib_dir = tmp_path / "libraries"
+        lib_dir.mkdir()
+        (lib_dir / "libraries-test.md").write_text("", encoding="utf-8")
+
+        # Also create an excluded dir so first loop has something to iterate
+        (tmp_path / "docs").mkdir()
+
+        monkeypatch.setattr(mod, "REPO_ROOT", tmp_path)
+
+        # Mock iterdir to only return "docs" (excluded) — first loop finds nothing
+        original_iterdir = tmp_path.__class__.iterdir
+
+        def _mock_iterdir(self):
+            for entry in original_iterdir(self):
+                if entry.name == "docs":
+                    yield entry
+
+        monkeypatch.setattr(tmp_path.__class__, "iterdir", _mock_iterdir)
+
+        result = find_agent_file("libraries-test")
+        assert result is not None
+        assert result.name == "libraries-test.md"
+
+    def test_special_dir_not_found_returns_none(self, tmp_path, monkeypatch):
+        """Special directories exist but agent file not present — returns None."""
+        (tmp_path / "docs").mkdir()
+        (tmp_path / "libraries").mkdir()
+
+        monkeypatch.setattr(mod, "REPO_ROOT", tmp_path)
+        original_iterdir = tmp_path.__class__.iterdir
+
+        def _mock_iterdir(self):
+            for entry in original_iterdir(self):
+                if entry.name == "docs":
+                    yield entry
+
+        monkeypatch.setattr(tmp_path.__class__, "iterdir", _mock_iterdir)
+
+        result = find_agent_file("nonexistent-agent")
+        assert result is None
+
+
+# ── main() function with mocked data ────────────────────────────────────────
+
+class TestMainFunctionFull:
+    """Tests covering the main() processing loop (lines 95-155, 176-181)."""
+
+    def test_main_with_agents_without_deps(self, tmp_path, monkeypatch, capsys):
+        """Full main() run with agents missing depends_on, covering all branches."""
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir()
+
+        test_agents = [
+            {
+                "id": "eng-etl", "name": "ETL Pipeline Engineer",
+                "category": "engineering",
+                "description": "data pipeline etl developer",
+                "depends_on": [],
+            },
+            {
+                "id": "eng-platform",
+                "name": "Platform Developer",
+                "category": "engineering",
+                "description": "infrastructure kubernetes docker container developer",
+                "depends_on": [],
+            },
+            {
+                "id": "eng-ml",
+                "name": "Machine Learning Engineer",
+                "category": "engineering",
+                "description": "machine learning python tensorflow engineer",
+                "depends_on": [],
+            },
+            {
+                "id": "eng-sre",
+                "name": "Site Reliability Engineer",
+                "category": "engineering",
+                "description": "sre kubernetes docker container reliability monitoring engineer",
+                "depends_on": [],
+            },
+            {
+                "id": "eng-no-file",
+                "name": "No File Agent",
+                "category": "engineering",
+                "description": "no file agent",
+                "depends_on": [],
+            },
+            {
+                "id": "eng-bad-fm",
+                "name": "Bad Frontmatter Agent",
+                "category": "engineering",
+                "description": "bad frontmatter agent",
+                "depends_on": [],
+            },
+        ]
+
+        # eng-etl body: many keyword overlaps for HIGH confidence with eng-platform
+        (eng_dir / "eng-etl.md").write_text(
+            "---\nname: etl\n---\n\n"
+            "ETL pipeline engineer working with kubernetes docker container infrastructure "
+            "kubernetes container docker kubernetes platform developer tools for data processing "
+            "kubernetes docker machine learning tensorflow python developer",
+            encoding="utf-8"
+        )
+
+        # eng-ml body: moderate keyword overlap for MEDIUM confidence
+        (eng_dir / "eng-ml.md").write_text(
+            "---\nname: ml\n---\n\n"
+            "Machine learning engineer working with docker containers kubernetes "
+            "for model deployment. Uses python tensorflow developer tools.",
+            encoding="utf-8"
+        )
+
+        # eng-platform body
+        (eng_dir / "eng-platform.md").write_text(
+            "---\nname: platform\n---\n\n"
+            "Platform developer managing kubernetes docker containers.",
+            encoding="utf-8"
+        )
+
+        # eng-sre body
+        (eng_dir / "eng-sre.md").write_text(
+            "---\nname: sre\n---\n\n"
+            "SRE engineer monitoring reliability.",
+            encoding="utf-8"
+        )
+
+        # eng-bad-fm: no closing frontmatter delimiter
+        (eng_dir / "eng-bad-fm.md").write_text(
+            "---\nname: bad\nno closing fm\nSome body content here.",
+            encoding="utf-8"
+        )
+
+        # eng-no-file: not created on disk
+
+        monkeypatch.setattr(mod, "load_agents", lambda: test_agents)
+
+        def _mock_find(agent_id):
+            mapping = {
+                "eng-etl": eng_dir / "eng-etl.md",
+                "eng-ml": eng_dir / "eng-ml.md",
+                "eng-platform": eng_dir / "eng-platform.md",
+                "eng-sre": eng_dir / "eng-sre.md",
+                "eng-bad-fm": eng_dir / "eng-bad-fm.md",
+            }
+            return mapping.get(agent_id)
+
+        monkeypatch.setattr(mod, "find_agent_file", _mock_find)
+        monkeypatch.setattr(mod, "REPO_ROOT", tmp_path)
+
+        mod.main()
+
+        captured = capsys.readouterr()
+        assert "Agents without depends_on: 6/6" in captured.out
+        assert "High-confidence" in captured.out
+        assert "Medium-confidence" in captured.out
+        # Sample HIGH output should show our agent
+        assert "=== Sample HIGH ===" in captured.out

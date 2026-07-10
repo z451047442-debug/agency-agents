@@ -94,6 +94,16 @@ class TestEstimateEffort:
         scores = {"content_depth": 3, "structure": 3, "frontmatter": 2, "file_health": 2}
         assert estimate_effort(["warn: missing link"], scores, 500) == "easy"
 
+    def test_done_when_no_issues_but_scores_below_threshold(self):
+        """Line 81: returns 'done' when no issues but some scores below threshold.
+
+        The first 'done' check fails because frontmatter=1 < 2, but
+        content_depth >= 2 and structure >= 3, so we fall through to the
+        second 'done' at line 81.
+        """
+        scores = {"content_depth": 2, "structure": 3, "frontmatter": 1, "file_health": 2}
+        assert estimate_effort([], scores, 500) == "done"
+
 
 # ── build_opportunities ──────────────────────────────────────────────────────
 
@@ -130,6 +140,28 @@ class TestBuildOpportunities:
         for o in opps:
             expected = {"easy": 3, "moderate": 2, "hard": 1}[o["effort"]]
             assert o["ease"] == expected
+
+    def test_frontmatter_gap_adds_impact(self, monkeypatch):
+        """Line 128: frontmatter score < 2 contributes to impact score."""
+        def mock_score(filepath, check_freshness=False):
+            return {
+                "grade": "C", "total": 4,
+                "scores": {"content_depth": 3, "structure": 3, "frontmatter": 0, "file_health": 2},
+                "issues": ["Missing section"],
+                "word_count": 500,
+            }
+
+        def mock_lint(filepath, errors, warnings, infos, freshness=False):
+            pass  # leave lists empty, no errors or security flags
+
+        monkeypatch.setattr(mod, "score_agent", mock_score)
+        monkeypatch.setattr(mod, "lint_file", mock_lint)
+
+        opps = build_opportunities(category_filter="engineering")
+        # Every agent gets frontmatter=0, so impact includes (2-0)*1 = 2.0
+        for o in opps:
+            assert o["scores"]["frontmatter"] == 0
+            assert o["impact"] >= 2.0
 
 
 # ── print_dashboard ──────────────────────────────────────────────────────────
@@ -231,6 +263,20 @@ class TestPrintDashboard:
             sys.stdout = old_stdout
         assert "Missing Identity section" in buf.getvalue()
 
+    def test_shows_category_when_filtered(self):
+        """Line 188: category header displayed when args.category is set."""
+        opps = [_make_opp()]
+        buf = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = buf
+        try:
+            print_dashboard(opps, _Args(category="engineering"))
+        finally:
+            sys.stdout = old_stdout
+        output = buf.getvalue()
+        assert "Category:" in output
+        assert "engineering" in output
+
 
 # ── print_json_output ────────────────────────────────────────────────────────
 
@@ -275,3 +321,107 @@ class TestPrintJsonOutput:
         ids = [o["id"] for o in data["opportunities"]]
         assert "ez" in ids
         assert "hd" not in ids
+
+
+# ── Module load: sys.stdout.reconfigure (line 34) ────────────────────────────
+
+class _FakeStdout:
+    """Minimal fake stdout to trigger line 34 (encoding check)."""
+    encoding = "ascii"
+    _reconfigure_calls = []
+
+    def reconfigure(self, **kwargs):
+        self._reconfigure_calls.append(kwargs)
+
+    def write(self, s):
+        pass
+
+    def flush(self):
+        pass
+
+    def isatty(self):
+        return True
+
+
+class TestModuleLoadReconfigure:
+    def test_reconfigure_called_when_encoding_not_utf8(self, monkeypatch):
+        """Line 34: sys.stdout.reconfigure called when encoding is not utf-8."""
+        import importlib.util
+
+        fake_stdout = _FakeStdout()
+        monkeypatch.setattr(sys, "stdout", fake_stdout)
+
+        spec2 = importlib.util.spec_from_file_location(
+            "contribute_reconf", str(SCRIPTS_DIR / "contribute.py")
+        )
+        mod2 = importlib.util.module_from_spec(spec2)
+        spec2.loader.exec_module(mod2)
+
+        assert len(fake_stdout._reconfigure_calls) == 1
+        assert fake_stdout._reconfigure_calls[0] == {
+            "encoding": "utf-8", "errors": "replace"
+        }
+
+
+# ── main() (lines 268-285) ────────────────────────────────────────────────────
+
+class TestMain:
+    def test_main_dashboard_mode(self, monkeypatch):
+        """Lines 268-285: main() calls print_dashboard in default mode."""
+        opps = [_make_opp()]
+        monkeypatch.setattr(mod, "build_opportunities",
+                           lambda category_filter=None: opps)
+        dashboard_calls = []
+        monkeypatch.setattr(mod, "print_dashboard",
+                           lambda o, a: dashboard_calls.append((o, a)))
+        monkeypatch.setattr(sys, "argv", ["contribute.py"])
+        mod.main()
+        assert len(dashboard_calls) == 1
+
+    def test_main_json_mode(self, monkeypatch):
+        """Lines 268-285: main() calls print_json_output with --json flag."""
+        opps = [_make_opp()]
+        monkeypatch.setattr(mod, "build_opportunities",
+                           lambda category_filter=None: opps)
+        json_calls = []
+        monkeypatch.setattr(mod, "print_json_output",
+                           lambda o, a: json_calls.append((o, a)))
+        monkeypatch.setattr(sys, "argv", ["contribute.py", "--json"])
+        mod.main()
+        assert len(json_calls) == 1
+
+    def test_main_passes_category_filter(self, monkeypatch):
+        """Lines 268-285: --category value forwarded to build_opportunities."""
+        build_calls = []
+        def _track(category_filter=None):
+            build_calls.append(category_filter)
+            return []
+        monkeypatch.setattr(mod, "build_opportunities", _track)
+        monkeypatch.setattr(mod, "print_dashboard", lambda o, a: None)
+        monkeypatch.setattr(sys, "argv", ["contribute.py", "--category", "aviation"])
+        mod.main()
+        assert build_calls == ["aviation"]
+
+    def test_main_passes_skill_filter(self, monkeypatch):
+        """Lines 268-285: --skill flag is parsed and passed through."""
+        opps = [_make_opp()]
+        monkeypatch.setattr(mod, "build_opportunities",
+                           lambda category_filter=None: opps)
+        dashboard_calls = []
+        monkeypatch.setattr(mod, "print_dashboard",
+                           lambda o, a: dashboard_calls.append((o, a)))
+        monkeypatch.setattr(sys, "argv", ["contribute.py", "--skill", "beginner"])
+        mod.main()
+        assert len(dashboard_calls) == 1
+
+    def test_main_with_top_limit(self, monkeypatch):
+        """Lines 268-285: --top flag limits results."""
+        opps = [_make_opp(agent_id=f"a{i}") for i in range(10)]
+        monkeypatch.setattr(mod, "build_opportunities",
+                           lambda category_filter=None: opps)
+        dashboard_calls = []
+        monkeypatch.setattr(mod, "print_dashboard",
+                           lambda o, a: dashboard_calls.append((o, a)))
+        monkeypatch.setattr(sys, "argv", ["contribute.py", "--top", "5"])
+        mod.main()
+        assert len(dashboard_calls) == 1

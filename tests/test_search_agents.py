@@ -1,6 +1,7 @@
 """Tests for scripts/search-agents.py — agent search engine."""
 
 import importlib.util
+import json
 import sys
 from pathlib import Path
 
@@ -242,3 +243,175 @@ class TestPrintJsonResults:
         import json
         parsed = json.loads(captured.out)
         assert parsed["total"] == 0
+
+
+# ── load_index ─────────────────────────────────────────────────────────────
+
+class TestLoadIndex:
+    def test_file_not_found_exits(self, monkeypatch):
+        """load_index exits when AGENTS.json is missing (lines 35-39)."""
+        monkeypatch.setattr(mod, "INDEX_PATH", Path("/nonexistent/AGENTS.json"))
+        with pytest.raises(SystemExit) as exc:
+            mod.load_index()
+        assert exc.value.code == 1
+
+
+# ── search_agents edge cases ───────────────────────────────────────────────
+
+class TestSearchAgentsEdge:
+    def test_regex_field_search(self):
+        """Field-specific regex search (line 60-61)."""
+        results = mod.search_agents(
+            MOCK_DATA, query=r"^React", field="description", regex=True,
+        )
+        assert len(results) == 1
+        assert results[0]["id"] == "engineering-frontend-dev"
+
+    def test_regex_field_search_no_match(self):
+        """Field-specific regex with no match."""
+        results = mod.search_agents(
+            MOCK_DATA, query=r"^xyz", field="name", regex=True,
+        )
+        assert len(results) == 0
+
+    def test_field_search_non_regex(self):
+        """Field-specific non-regex search (already covered but tests both branches)."""
+        results = mod.search_agents(
+            MOCK_DATA, query="ML", field="name", regex=False,
+        )
+        assert len(results) == 1
+
+
+# ── stdout encoding ────────────────────────────────────────────────────────
+
+class TestStdoutEncoding:
+    def test_reconfigure_on_non_utf8(self, monkeypatch):
+        """Cover line 29: sys.stdout.reconfigure when encoding != utf-8."""
+        import io
+
+        class MockStdout(io.StringIO):
+            encoding = "ascii"
+            def reconfigure(self, **kwargs):
+                pass
+
+        fake_stdout = MockStdout()
+        monkeypatch.setattr(sys, "stdout", fake_stdout)
+        # Re-execute the module code to trigger the encoding check
+        import importlib.util
+        spec2 = importlib.util.spec_from_file_location(
+            "search_agents_enc", str(SCRIPTS_DIR / "search-agents.py")
+        )
+        mod2 = importlib.util.module_from_spec(spec2)
+        spec2.loader.exec_module(mod2)
+
+
+# ── main ───────────────────────────────────────────────────────────────────
+
+class TestMain:
+    def _setup_index(self, tmp_path, monkeypatch, agents=None):
+        index_path = tmp_path / "AGENTS.json"
+        if agents is None:
+            agents = MOCK_DATA["agents"]
+        data = {
+            "total_agents": len(agents),
+            "total_categories": 3,
+            "generated": "2026-01-01",
+            "agents": agents,
+        }
+        index_path.parent.mkdir(parents=True, exist_ok=True)
+        index_path.write_text(json.dumps(data), encoding="utf-8")
+        monkeypatch.setattr(mod, "INDEX_PATH", index_path)
+        return index_path
+
+    def test_stats_mode(self, tmp_path, monkeypatch, capsys):
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr("sys.argv", ["search-agents.py", "--stats"])
+        mod.main()
+        captured = capsys.readouterr()
+        assert "Total agents" in captured.out
+
+    def test_list_categories_mode(self, tmp_path, monkeypatch, capsys):
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr("sys.argv", ["search-agents.py", "--list-categories"])
+        mod.main()
+        captured = capsys.readouterr()
+        assert "categories" in captured.out
+
+    def test_search_with_query(self, tmp_path, monkeypatch, capsys):
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr("sys.argv", ["search-agents.py", "react"])
+        mod.main()
+        captured = capsys.readouterr()
+        assert "1 agent" in captured.out
+
+    def test_search_with_category_only(self, tmp_path, monkeypatch, capsys):
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr(
+            "sys.argv", ["search-agents.py", "--category", "engineering"]
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        assert "engineering" in captured.out
+
+    def test_search_with_query_and_category(self, tmp_path, monkeypatch, capsys):
+        """Query + category prints combined context (line 221-222)."""
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr(
+            "sys.argv", ["search-agents.py", "react", "--category", "engineering"]
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        assert "react" in captured.out
+
+    def test_invalid_field_exits(self, tmp_path, monkeypatch):
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr(
+            "sys.argv",
+            ["search-agents.py", "--field", "invalid_field", "query"],
+        )
+        with pytest.raises(SystemExit) as exc:
+            mod.main()
+        assert exc.value.code == 1
+
+    def test_json_output_mode(self, tmp_path, monkeypatch, capsys):
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr(
+            "sys.argv", ["search-agents.py", "--json", "react"]
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        parsed = json.loads(captured.out)
+        assert parsed["total"] == 1
+
+    def test_pagination_next_hint(self, tmp_path, monkeypatch, capsys):
+        """Pagination shows 'Next: --page N' hint (line 150-151)."""
+        agents = [MOCK_DATA["agents"][0]] * 30
+        self._setup_index(tmp_path, monkeypatch, agents=agents)
+        monkeypatch.setattr(
+            "sys.argv",
+            ["search-agents.py", "frontend", "--per-page", "10"],
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        assert "Next:" in captured.out
+
+    def test_no_results_message(self, tmp_path, monkeypatch, capsys):
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr(
+            "sys.argv", ["search-agents.py", "nonexistent_xyz123"]
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        assert "No agents found" in captured.out
+
+    def test_page_clamped(self, tmp_path, monkeypatch, capsys):
+        """Page out of bounds is clamped (line 128)."""
+        agents = [MOCK_DATA["agents"][0]] * 5
+        self._setup_index(tmp_path, monkeypatch, agents=agents)
+        monkeypatch.setattr(
+            "sys.argv",
+            ["search-agents.py", "frontend", "--page", "99", "--per-page", "3"],
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        assert "Page 2/2" in captured.out

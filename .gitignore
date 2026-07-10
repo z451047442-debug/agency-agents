@@ -92,3 +92,4 @@ graphify-out/
 _solution/obj/
 _solution/bin/
 suggested_deps.json
+tests/_debug_test/

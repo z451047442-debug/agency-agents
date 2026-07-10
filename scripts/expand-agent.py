@@ -15,26 +15,19 @@ Usage:
 import argparse
 import sys
 from collections import defaultdict
-from datetime import date
-from importlib.machinery import SourceFileLoader
 from pathlib import Path
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-score_agents = SourceFileLoader("score_agents", str(SCRIPT_DIR / "score-agents.py")).load_module()
+from _shared import BOLD, CYAN, GREEN, RED, RESET, YELLOW, discover_agents, get_body, load_module
 
-REPO = score_agents.REPO
+_SCRIPTS = Path(__file__).resolve().parent
+_score_agents = load_module("score_agents", _SCRIPTS / "score-agents.py")
+CORE_SECTIONS = _score_agents.CORE_SECTIONS
+score_agent = _score_agents.score_agent
 
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 if sys.stderr.encoding != "utf-8":
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
-
-GREEN = "\033[0;32m"
-YELLOW = "\033[1;33m"
-RED = "\033[0;31m"
-BOLD = "\033[1m"
-CYAN = "\033[0;36m"
-RESET = "\033[0m"
 
 # Sections that add substance to an agent (beyond the generic scaffold)
 EXPANSION_SECTIONS = {
@@ -103,10 +96,10 @@ You think in **[core concepts]**. [Domain] answers: [key question 1]? [key quest
 def find_reference_agents(category, agent_id, top_n=3):
     """Find the best A-grade agents in the same category to use as templates."""
     candidates = []
-    for _cat, _rel, filepath in score_agents.discover_agents(category_filter=category):
+    for _cat, _rel, filepath in discover_agents(category_filter=category):
         if filepath.stem == agent_id:
             continue
-        result = score_agents.score_agent(filepath, check_freshness=False)
+        result = score_agent(filepath, check_freshness=False)
         if result["grade"] == "A" and result["word_count"] >= 400:
             candidates.append((result["word_count"], result["total"], result["id"], filepath))
 
@@ -116,7 +109,7 @@ def find_reference_agents(category, agent_id, top_n=3):
 
 def analyze_expansion_needs(agent_id, category, filepath):
     """Analyze what an agent needs to reach A-grade."""
-    result = score_agents.score_agent(filepath, check_freshness=False)
+    result = score_agent(filepath, check_freshness=False)
     scores = result["scores"]
 
     needs = []
@@ -137,8 +130,7 @@ def analyze_expansion_needs(agent_id, category, filepath):
 
     if scores["structure"] < 3:
         # Find which specific sections are missing
-        from score_agents import CORE_SECTIONS
-        body = score_agents.get_body(filepath.read_text(encoding="utf-8"))
+        body = get_body(filepath.read_text(encoding="utf-8"))
         missing = []
         for section, pattern in CORE_SECTIONS.items():
             import re
@@ -192,8 +184,8 @@ def generate_expansion_plan(analysis, ref_agents):
     ref_sections = defaultdict(list)
     for _wc, _total, ref_id, ref_path in ref_agents:
         content = ref_path.read_text(encoding="utf-8")
-        body = score_agents.get_body(content)
-        for section, pattern in score_agents.CORE_SECTIONS.items():
+        body = get_body(content)
+        for section, pattern in CORE_SECTIONS.items():
             import re
             if re.search(pattern, body, re.IGNORECASE):
                 ref_sections[section].append(ref_id)
@@ -204,17 +196,21 @@ def generate_expansion_plan(analysis, ref_agents):
         agent_content = Path(analysis["path"]).read_text(encoding="utf-8")
     except Exception:
         pass
-    agent_body = score_agents.get_body(agent_content)
+    agent_body = get_body(agent_content)
 
     for section_name, config in EXPANSION_SECTIONS.items():
-        # Check if the agent already has good coverage of this section
-        already_covered = False
-        if section_name == "Identity & Backstory":
-            already_covered = len(agent_body.split()) > 300
-        elif section_name == "Communication Style":
-            already_covered = bool([s for s in ref_sections if "Communication" in s])
-        elif section_name == "Success Metrics":
-            already_covered = bool([s for s in ref_sections if "Success Metrics" in s and ref_sections["Success Metrics"]])
+        # Skip sections the agent already has good coverage of
+        if section_name == "Identity & Backstory" and len(agent_body.split()) > 300:
+            continue
+        if section_name == "Communication Style" and any(
+            s for s in ref_sections if "Communication" in s
+        ):
+            continue
+        if section_name == "Success Metrics" and any(
+            s for s in ref_sections
+            if "Success Metrics" in s and ref_sections.get("Success Metrics")
+        ):
+            continue
 
         # For the plan, always suggest improvements unless clearly already A-grade
         if analysis["current_grade"] == "A":
@@ -318,8 +314,8 @@ def main():
 
         print(f"\n{BOLD}Agents below {args.all_below} words in '{args.category}':{RESET}\n")
         count = 0
-        for _cat, _rel, filepath in score_agents.discover_agents(category_filter=args.category):
-            result = score_agents.score_agent(filepath, check_freshness=False)
+        for _cat, _rel, filepath in discover_agents(category_filter=args.category):
+            result = score_agent(filepath, check_freshness=False)
             if result["word_count"] < args.all_below:
                 gap = args.all_below - result["word_count"]
                 print(f"  {YELLOW}{result['id']}{RESET} — "
@@ -339,7 +335,7 @@ def main():
     # Find the agent file
     filepath = None
     category = None
-    for _cat, _rel, fp in score_agents.discover_agents():
+    for _cat, _rel, fp in discover_agents():
         if fp.stem == agent_id:
             filepath = fp
             category = _cat

@@ -5,7 +5,8 @@ Usage:
     python scripts/batch-nexus-roles.py [--dry-run] [--category NAME]
 """
 
-import re, sys, argparse
+import argparse
+import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent

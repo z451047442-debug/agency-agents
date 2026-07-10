@@ -21,14 +21,19 @@ import json
 import re
 import sys
 from collections import defaultdict
-from importlib.machinery import SourceFileLoader
-from pathlib import Path
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-score_agents = SourceFileLoader("score_agents", str(SCRIPT_DIR / "score-agents.py")).load_module()
-lint_agents = SourceFileLoader("lint_agents", str(SCRIPT_DIR / "lint-agents.py")).load_module()
-
-REPO = score_agents.REPO
+from _shared import (
+    BOLD,
+    CYAN,
+    GREEN,
+    RED,
+    RESET,
+    discover_agents,
+    get_body,
+    get_field,
+    get_frontmatter_text,
+    get_list_field,
+)
 
 # Generic terms that produce too many false positives in dependency matching
 STOP_TERMS = {
@@ -54,31 +59,8 @@ STOP_TERMS = {
 TERM_MIN_LEN = 4  # minimum length for a term to be considered specific enough
 
 
-def get_list_field(field, fm_text):
-    """Extract YAML list items under a field."""
-    items = []
-    in_block = False
-    for line in fm_text.split("\n"):
-        if re.match(rf"^{re.escape(field)}:", line):
-            in_block = True
-            continue
-        if in_block:
-            m = re.match(r"^\s+-\s+(.+)$", line)
-            if m:
-                items.append(m.group(1).strip().strip('"').strip("'"))
-            elif re.match(r"^\S", line):
-                break
-    return items
-
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-
-GREEN = "\033[0;32m"
-YELLOW = "\033[1;33m"
-RED = "\033[0;31m"
-BOLD = "\033[1m"
-CYAN = "\033[0;36m"
-RESET = "\033[0m"
 
 
 def extract_terms(filepath):
@@ -98,13 +80,13 @@ def extract_terms(filepath):
     except Exception:
         return None
 
-    fm = score_agents.get_frontmatter_text(content)
-    body = score_agents.get_body(content)
+    fm = get_frontmatter_text(content)
+    body = get_body(content)
 
     agent_id = filepath.stem
     category = filepath.parent.name
-    name = score_agents.get_field("name", fm)
-    description = score_agents.get_field("description", fm)
+    name = get_field("name", fm)
+    description = get_field("description", fm)
 
     # Extract terms from agent name (split by common delimiters in Chinese/English)
     name_terms = set()
@@ -265,7 +247,7 @@ def suggest_dependencies(all_agents, term_index, min_confidence=0.5, max_suggest
 def build_agent_index(category_filter=None):
     """Build {agent_id: terms_dict} from all agent files."""
     index = {}
-    for _cat, _rel, filepath in score_agents.discover_agents(category_filter=category_filter):
+    for _cat, _rel, filepath in discover_agents(category_filter=category_filter):
         terms = extract_terms(filepath)
         if terms:
             index[terms["id"]] = terms
@@ -281,9 +263,9 @@ def validate_depends_on(all_agents):
     broken = []
     agents_with_deps = 0
 
-    for _cat, _rel, filepath in score_agents.discover_agents():
+    for _cat, _rel, filepath in discover_agents():
         content = filepath.read_text(encoding="utf-8")
-        fm = score_agents.get_frontmatter_text(content)
+        fm = get_frontmatter_text(content)
         deps = get_list_field("depends_on", fm)
 
         if not deps:
@@ -324,7 +306,7 @@ def print_dependency_health(all_agents):
         print(f"\n{BOLD}Existing Dependency Graph:{RESET}")
         # Group by target (most-depended-on agents)
         dep_counts = defaultdict(list)
-        for source, target, cat in valid:
+        for source, target, _cat in valid:
             dep_counts[target].append(source)
         for target, sources in sorted(dep_counts.items(), key=lambda x: -len(x[1])):
             print(f"  {CYAN}{target}{RESET} ← {', '.join(sources[:3])}"
@@ -353,9 +335,9 @@ def print_suggestions(suggestions, agent_filter=None, top_n=10):
                     for e in evidence:
                         print(f"        {e}")
             else:
-                print(f"  No suggestions above confidence threshold")
+                print("  No suggestions above confidence threshold")
         else:
-            print(f"  Agent not found in index")
+            print("  Agent not found in index")
     else:
         # Top suggestions across all agents
         ranked = []
@@ -373,7 +355,6 @@ def print_orphans(all_agents, suggestions):
     """Show agents with no dependencies at all."""
     orphan_ids = []
     for agent_id in all_agents:
-        has_existing = False
         has_suggestion = bool(suggestions.get(agent_id))
         if not has_suggestion:
             orphan_ids.append(agent_id)

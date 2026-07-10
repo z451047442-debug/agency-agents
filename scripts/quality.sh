@@ -21,17 +21,20 @@ PASS=0; FAIL=0
 
 echo "=== Agency Quality Pipeline ==="
 
-echo ""; echo "[1/4] Lint"
+echo ""; echo "[1/5] Agent Lint"
 if "$PYTHON" "$SCRIPT_DIR/lint-agents.py" --all --no-freshness; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
 
-echo ""; echo "[2/4] Dependencies"
+echo ""; echo "[2/5] Dependencies"
 if bash "$SCRIPT_DIR/check-deps.sh"; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
 
-echo ""; echo "[3/4] Quality Score"
+echo ""; echo "[3/5] Quality Score"
 if "$PYTHON" "$SCRIPT_DIR/score-agents.py" > /dev/null 2>&1; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
 
-echo ""; echo "[4/4] Tests"
-if "$PYTHON" -m pytest "$ROOT/tests/" -q; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
+echo ""; echo "[4/5] Python Lint (Ruff)"
+if "$PYTHON" -m ruff check "$SCRIPT_DIR/"; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
+
+echo ""; echo "[5/5] Tests + Coverage"
+if "$PYTHON" -m pytest "$ROOT/tests/" -q --cov=scripts --cov-fail-under=35; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
 
 echo ""; echo "=== Pipeline: $PASS passed, $FAIL failed ==="
 [[ $FAIL -eq 0 ]] && exit 0 || exit 1

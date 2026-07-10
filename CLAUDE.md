@@ -59,6 +59,12 @@ python scripts/convert.py --parallel --jobs 4   # parallel mode for speed
 ./scripts/batch-version.sh --dry-run # preview version field additions
 ./scripts/batch-version.sh --category data-science
 
+# Python code quality
+python -m ruff check scripts/        # lint Python scripts
+python -m ruff check scripts/ --fix  # auto-fix lint issues
+python -m pytest tests/ --cov=scripts --cov-report=term-missing  # test + coverage
+python -m mypy scripts/              # static type checking (optional)
+
 # Post-install verification
 ./scripts/install.sh --list-installed              # show installed agents per tool
 ./scripts/install.sh --verify --tool claude-code    # verify install integrity

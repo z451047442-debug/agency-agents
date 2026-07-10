@@ -23,6 +23,9 @@ discover_agents = lint_agents.discover_agents
 lint_file = lint_agents.lint_file
 collect_files = lint_agents.collect_files
 
+# _shared module for monkeypatching REPO
+import _shared.discovery
+
 # ── Import shared helpers ──────────────────────────────────────────────────────
 
 from tests.conftest import SAMPLE_AGENT_CONTENT, make_agent_file
@@ -45,8 +48,8 @@ class TestGetBody:
         content = "---\nname: Test\n---\n\nbody text"
         assert get_body(content) == "\n\nbody text"
 
-    def test_no_delimiters_returns_empty(self):
-        assert get_body("plain text") == ""
+    def test_no_delimiters_returns_content(self):
+        assert get_body("plain text") == "plain text"
 
 
 class TestGetField:
@@ -92,7 +95,7 @@ class TestGetListField:
 
 class TestDiscoverAgents:
     def test_discovers_agents_in_categories(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(lint_agents, "REPO", tmp_path)
+        monkeypatch.setattr(_shared.discovery, "REPO", tmp_path)
         # Create category dirs with agents
         (tmp_path / "engineering").mkdir()
         (tmp_path / "engineering" / "agent-a.md").write_text("---\nname: A\n---\nbody")
@@ -102,11 +105,11 @@ class TestDiscoverAgents:
 
         results = list(discover_agents())
         assert len(results) == 3
-        categories = [cat for cat, _ in results]
+        categories = [cat for cat, _, _ in results]
         assert categories == ["design", "engineering", "engineering"]
 
     def test_excludes_special_dirs(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(lint_agents, "REPO", tmp_path)
+        monkeypatch.setattr(_shared.discovery, "REPO", tmp_path)
         (tmp_path / "scripts").mkdir()
         (tmp_path / "scripts" / "skip.md").write_text("---\nname: S\n---\nbody")
         (tmp_path / "engineering").mkdir()
@@ -117,13 +120,13 @@ class TestDiscoverAgents:
         assert results[0][0] == "engineering"
 
     def test_skips_hidden_dirs(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(lint_agents, "REPO", tmp_path)
+        monkeypatch.setattr(_shared.discovery, "REPO", tmp_path)
         (tmp_path / ".hidden").mkdir()
         (tmp_path / ".hidden" / "nope.md").write_text("---\nname: N\n---\nbody")
         assert list(discover_agents()) == []
 
     def test_skips_dot_prefix_dirs(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(lint_agents, "REPO", tmp_path)
+        monkeypatch.setattr(_shared.discovery, "REPO", tmp_path)
         (tmp_path / ".config").mkdir()
         (tmp_path / ".config" / "secret.md").write_text("---\nname: S\n---\nbody")
         assert list(discover_agents()) == []
@@ -381,6 +384,7 @@ class TestLintFileSoulAgentsHeaders:
 
 class TestCollectFiles:
     def test_with_paths_relative(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(_shared.discovery, "REPO", tmp_path)
         monkeypatch.setattr(lint_agents, "REPO", tmp_path)
         filepath = make_agent_file(tmp_path, SAMPLE_AGENT_CONTENT)
         rel = str(filepath.relative_to(tmp_path))
@@ -395,6 +399,7 @@ class TestCollectFiles:
         assert files[0] == filepath
 
     def test_with_all_mode(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(_shared.discovery, "REPO", tmp_path)
         monkeypatch.setattr(lint_agents, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()
         (tmp_path / "engineering" / "agent.md").write_text(

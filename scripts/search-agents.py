@@ -20,30 +20,13 @@ import json
 import re
 import sys
 from collections import Counter
-from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent
+from _shared import BOLD, CYAN, REPO, RESET
+
 INDEX_PATH = REPO / "AGENTS.json"
 
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-
-
-def _supports_color():
-    import os
-    return (hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
-            and not os.environ.get("NO_COLOR")
-            and os.environ.get("TERM", "") != "dumb")
-
-
-if _supports_color():
-    GREEN = "\033[0;32m"
-    YELLOW = "\033[1;33m"
-    CYAN = "\033[0;36m"
-    BOLD = "\033[1m"
-    RESET = "\033[0m"
-else:
-    GREEN = YELLOW = CYAN = BOLD = RESET = ""
 
 
 def load_index():

@@ -1,59 +1,39 @@
 # Changelog
 
-> **Note:** This changelog is now automatically generated and maintained by
-> [release-please](https://github.com/googleapis/release-please). It follows
-> [Conventional Commits](https://www.conventionalcommits.org/) and is updated
-> on each release via the `.github/workflows/release.yml` workflow.
->
-> Entries prior to v1.0.0 were maintained manually.
-
-All notable changes to The Agency project will be documented in this file.
-
-## [Unreleased]
+## [1.0.0] — 2026-07-10
 
 ### Added
-- CLAUDE.md for Claude Code project-level guidance
-- CHANGELOG.md to track project history
-- `.github/CODEOWNERS` for domain stewardship
-- `version` + `date_added` fields to agent frontmatter JSON Schema
-- 8 new monitoring/logging/network agents: Zabbix, Nagios, Cacti, OpenNMS, Wireshark, ELK Stack, Graylog, Jump Server
+- CI pipeline (`.github/workflows/ci.yml`): lint → validate → test → score gate
+- `scripts/_shared/` package with `discovery`, `frontmatter`, `terminal` utilities
+- `load_module()` helper for importing hyphen-named Python modules cleanly
+- `jsonschema` to dev dependencies (3 schema validation tests now run)
+- `pyproject.toml` with ruff, mypy, pytest, coverage configuration
 
 ### Changed
-- **Architecture**: Moved NEXUS docs from `strategy/` to `docs/` — `strategy/` now pure agent directory
-- **Reorganization**: 12 `specialized/` agents re-categorized to proper domain directories
-- `engineering/` pruned 411→73 agents (308 moved to domain directories)
-- 15 new domain directories created
-- `project-delivery/` merged into `project-management/`, `academic/` merged into `education/`
-- 58 new agents added (thin categories + new domains + monitoring tools)
-- Scripts updated to exclude `docs/`, `generate_slnx.py` paths updated
-- AGENTS.json: 1083 agents across 60 categories
+- **Breaking (internal):** Migrated `SourceFileLoader` → `importlib.util` across all scripts (Python 3.12+ compatibility)
+- Unified color helpers, REPO, EXCLUDE_DIRS, frontmatter parsing via `_shared/` imports
+- `get_body()` now returns original content when no frontmatter delimiters exist (defensive fallback)
+- `requirements.txt` converted from UTF-16 to UTF-8
+
+### Fixed
+- `jsonschema` import causing 3 skipped schema validation tests
+- Redundant `depends_on` inline parsing in `get_list_field()`
+- Test monkeypatching broken by `_shared` import indirection (REPO aliasing)
+
+### Removed
+- 150+ lines of duplicated frontmatter/color/discovery code across 9 scripts
+- All `importlib.machinery.SourceFileLoader` usage (deprecated in Python 3.12)
+- Redundant `requirements-dev.txt`
 
 ---
 
-## Previous Releases
+## [0.1.0] — 2026-07-03
 
-### 2026-06
-
-- Fix opencode global install docs (#249)
-- Add Qwen integration guide (#232)
-- Align OpenClaw install path docs (#231)
-- Align agent linting with OpenClaw section split (#230)
-- Post-install hint for Copilot agent path verification (#224)
-- 14 new agents added to README roster (#439)
-
-### 2026-05
-
-- **i18n**: Chinese (zh-CN) localization for agent names (#338)
-- New agents: loan officer assistant (#424), real estate (#423), legal billing (#422), legal client intake (#421), legal document review (#417), language translator (#416), sales outreach (#414), HR onboarding (#413), customer service (#412), retail returns (#420), hospitality (#419), healthcare customer service (#418)
-- Finance category added to scripts, CI, README (#437)
-- Contributing template alignment (#436, #433)
-- Codebase Onboarding Engineer (#388), Voice AI Integration Engineer (#415)
-- Chief of Staff agent (#429)
-
-### Earlier
-
-- Vitest test infrastructure for agent/script validation (#337)
-- Promptfoo eval harness for agent quality scoring (#371)
-- Agentic Search Optimizer (#398)
-- SEO Specialist cannibalization rules (#399)
-- Minimal Change Engineer (#430)
+### Added
+- Initial release: 1184 agent personality definitions across 50+ categories
+- Agent validation (YAML frontmatter + structure checks)
+- Dependency analysis (`depends_on`) with 100% coverage
+- Quality scoring pipeline (A-D grades)
+- Multi-tool integration: Claude Code, Cursor, Copilot, Gemini CLI, Windsurf, Codex, Kimi
+- NEXUS multi-agent orchestration framework (7-phase pipeline)
+- AGENTS.json index generation

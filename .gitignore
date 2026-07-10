@@ -50,9 +50,11 @@ logs/
 .cache/
 
 # Testing
+.coverage
 coverage/
 .nyc_output/
 *.lcov
+.pytest_cache/
 
 # Build outputs
 dist/

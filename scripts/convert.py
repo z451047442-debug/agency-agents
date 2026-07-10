@@ -11,32 +11,33 @@ Usage:
     python scripts/convert.py --parallel --jobs 4
 """
 
-import argparse, json, os, re, shutil, subprocess, sys
+import argparse
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent
+from _shared import (
+    BOLD,
+    EXCLUDE_DIRS,
+    GREEN,
+    RED,
+    REPO,
+    RESET,
+    YELLOW,
+    get_body,
+    get_field,
+    get_frontmatter_text,
+    get_list_field,
+)
+
 OUT = REPO / "integrations"
-EXCLUDE_DIRS = {".git", ".github", ".vs", "examples", "integrations",
-                "scripts", "docs", "schemas", "__pycache__"}
 ANTIGRAVITY_DATE = "2026-03-08"
-
-# ── colour helpers ───────────────────────────────────────────────────────────
-
-def _supports_color():
-    return (hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
-            and not os.environ.get("NO_COLOR")
-            and os.environ.get("TERM", "") != "dumb")
-
-if _supports_color():
-    GREEN  = "\033[0;32m"
-    YELLOW = "\033[1;33m"
-    RED    = "\033[0;31m"
-    BOLD   = "\033[1m"
-    RESET  = "\033[0m"
-else:
-    GREEN = YELLOW = RED = BOLD = RESET = ""
 
 def info(msg):    print(f"{GREEN}[OK]{RESET}  {msg}")
 def warn(msg):    print(f"{YELLOW}[!!]{RESET}  {msg}")
@@ -46,62 +47,12 @@ def header(msg):  print(f"\n{BOLD}{msg}{RESET}")
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 
-def get_field(field, text):
-    """Extract a YAML frontmatter field value (multi-line safe)."""
-    m = re.search(rf'^{re.escape(field)}:\s*(.*?)$', text, re.MULTILINE)
-    return m.group(1).strip() if m else ""
-
-def get_frontmatter_text(content):
-    """Return just the frontmatter block (between first two --- fences)."""
-    parts = content.split("---", 2)
-    return parts[1] if len(parts) >= 3 else ""
-
-def get_body(content):
-    """Strip YAML frontmatter, return body text."""
-    parts = content.split("---", 2)
-    return parts[2] if len(parts) >= 3 else content
-
 def slugify(name):
     """Convert display name to kebab-case slug."""
     s = name.lower()
     s = re.sub(r"[^a-z0-9]", "-", s)
     s = re.sub(r"-{2,}", "-", s)
     return s.strip("-")
-
-def get_list_field(field, fm_text):
-    """Extract YAML list items under a field (e.g. depends_on, nexus_roles).
-
-    Handles both YAML list format::
-
-        depends_on:
-          - id1
-          - id2
-
-    and single-line comma-separated format::
-
-        depends_on: id1, id2
-    """
-    items = []
-    in_block = False
-    for line in fm_text.split("\n"):
-        if re.match(rf"^{re.escape(field)}:", line):
-            in_block = True
-            # Check for inline value on the same line: depends_on: id1, id2
-            rest = re.sub(rf"^{re.escape(field)}:\s*", "", line)
-            if rest and not rest.startswith("[") and not rest.startswith("{"):
-                for item in rest.split(","):
-                    item = item.strip().strip('"').strip("'")
-                    if item:
-                        items.append(item)
-                return items
-            continue
-        if in_block:
-            m = re.match(r"^\s+-\s+(.+)$", line)
-            if m:
-                items.append(m.group(1).strip().strip('"').strip("'"))
-            elif re.match(r"^\S", line):
-                break
-    return items
 
 def progress_bar(current, total, width=20):
     """Draw a single-line progress bar to stderr (TTY-aware)."""
@@ -560,7 +511,7 @@ def main():
             # Compare tmp vs real integrations/
             result = filecmp.dircmp(str(tmp), str(out_dir))
             diffs = result.diff_files + result.left_only + result.right_only
-            for root, dirs, files in os.walk(str(tmp)):
+            for root, _dirs, files in os.walk(str(tmp)):
                 for f in files:
                     rel = os.path.relpath(os.path.join(root, f), str(tmp))
                     a = os.path.join(str(tmp), rel)

@@ -72,7 +72,7 @@ class TestHelpers:
         assert "hello" in b
 
     def test_body_none(self):
-        assert get_body("plain") == ""
+        assert get_body("plain") == "plain"
 
     def test_get_field(self):
         assert get_field("name", "\nname: Z\ncolor: red\n") == "Z"

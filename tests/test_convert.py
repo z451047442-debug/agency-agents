@@ -33,6 +33,9 @@ convert_openclaw = convert.convert_openclaw
 build_aider_windsurf = convert.build_aider_windsurf
 clean_tool_output = convert.clean_tool_output
 run_tool = convert.run_tool
+resolve_opencode_color = convert.resolve_opencode_color
+progress_bar = convert.progress_bar
+_toml_escape = convert._toml_escape
 
 # ── Shared helpers ─────────────────────────────────────────────────────────────
 
@@ -423,3 +426,91 @@ class TestRunTool:
         out_dir = tmp_path / "integrations"
         count = run_tool("cursor", agents, out_dir)
         assert count == 0
+
+
+# ── resolve_opencode_color ───────────────────────────────────────────────────
+
+class TestResolveOpencodeColor:
+    def test_returns_default_when_empty(self):
+        assert resolve_opencode_color("") == "#6B7280"
+
+    def test_returns_default_when_none(self):
+        assert resolve_opencode_color(None) == "#6B7280"
+
+    def test_known_color_returns_hex(self):
+        assert resolve_opencode_color("red") == "#E74C3C"
+
+    def test_known_color_case_insensitive(self):
+        assert resolve_opencode_color("BLUE") == "#3498DB"
+
+    def test_unknown_color_falls_back(self):
+        assert resolve_opencode_color("chartreuse") == "#6B7280"
+
+    def test_hex_with_hash_normalized_uppercase(self):
+        result = resolve_opencode_color("#a1b2c3")
+        assert result == "#A1B2C3"
+
+    def test_hex_without_hash_gets_prefixed(self):
+        result = resolve_opencode_color("a1b2c3")
+        assert result == "#A1B2C3"
+
+    def test_whitespace_stripped(self):
+        assert resolve_opencode_color("  cyan  ") == "#00FFFF"
+
+
+# ── progress_bar ─────────────────────────────────────────────────────────────
+
+class TestProgressBar:
+    def test_zero_total_no_output(self, capfd):
+        progress_bar(1, 0)
+        captured = capfd.readouterr()
+        assert captured.err == ""
+
+    def test_full_completion_bar(self, capfd):
+        progress_bar(10, 10, width=10)
+        captured = capfd.readouterr()
+        assert "10/10" in captured.err
+
+    def test_empty_bar(self, capfd):
+        progress_bar(0, 10, width=10)
+        captured = capfd.readouterr()
+        assert "0/10" in captured.err
+
+    def test_includes_progress_fraction(self, capfd):
+        progress_bar(5, 10, width=10)
+        captured = capfd.readouterr()
+        assert "5/10" in captured.err
+
+
+# ── _toml_escape ─────────────────────────────────────────────────────────────
+
+class TestTomlEscape:
+    def test_plain_text_unchanged(self):
+        assert _toml_escape("hello world") == "hello world"
+
+    def test_escapes_backslash(self):
+        assert _toml_escape("a\\b") == "a\\\\b"
+
+    def test_escapes_double_quote(self):
+        assert _toml_escape('say "hi"') == 'say \\"hi\\"'
+
+    def test_escapes_newline(self):
+        assert _toml_escape("a\nb") == "a\\nb"
+
+    def test_escapes_carriage_return(self):
+        assert _toml_escape("a\rb") == "a\\rb"
+
+    def test_escapes_tab(self):
+        assert _toml_escape("a\tb") == "a\\tb"
+
+    def test_escapes_backspace(self):
+        assert _toml_escape("a\x08b") == "a\\bb"
+
+    def test_escapes_control_characters(self):
+        # Null byte
+        result = _toml_escape("a\x00b")
+        assert "\\u0000" in result
+
+    def test_escapes_del_character(self):
+        result = _toml_escape("a\x7Fb")
+        assert "\\u007F" in result

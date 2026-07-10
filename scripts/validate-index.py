@@ -18,13 +18,10 @@ import os
 import sys
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent
+from _shared import EXCLUDE_DIRS, REPO
+
 DEFAULT_INDEX = REPO / "AGENTS.json"
 SCHEMA_FILE = REPO / "schemas" / "agent-index.schema.json"
-
-# Must match the exclusion list in scripts/_discover_dirs.sh
-EXCLUDE_DIRS = {"examples", "integrations", "scripts", "docs", "schemas",
-                ".git", ".github", ".vs", "__pycache__"}
 
 
 def load_json(path):
@@ -144,7 +141,7 @@ def main():
     checks = 0
 
     # ---- 1. JSON syntax -------------------------------------------------------
-    print(f"=== AGENTS.json Validation ===\n")
+    print("=== AGENTS.json Validation ===\n")
     print(f"Index file: {index_path}")
     data, err = load_json(index_path)
     if err:
@@ -176,7 +173,7 @@ def main():
     if not args.sync_only:
         agents = data.get("agents", [])
         ids = [a["id"] for a in agents]
-        dupes = sorted(set(i for i in ids if ids.count(i) > 1))
+        dupes = sorted({i for i in ids if ids.count(i) > 1})
         if dupes:
             print(f"FAIL: Duplicate agent IDs found: {', '.join(dupes)}")
             errors += 1

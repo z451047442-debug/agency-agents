@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Batch-apply high-confidence depends_on suggestions to agent frontmatter."""
-import json, os, re
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -95,7 +95,7 @@ def main():
         try:
             if add_deps(mdf, dep_ids):
                 applied += 1; total += len(dep_ids)
-        except Exception as e:
+        except Exception:
             skipped += 1
     print(f"Applied: {applied} agents, {total} deps, Skipped: {skipped}")
     # Count

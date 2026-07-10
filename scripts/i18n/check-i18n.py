@@ -20,34 +20,15 @@ Usage:
 
 import argparse
 import json
-import os
 import re
 import sys
 from collections import defaultdict
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from _shared import BOLD, EXCLUDE_DIRS, GREEN, RED, REPO, RESET, YELLOW  # noqa: E402
+
 I18N_DIR = Path(__file__).resolve().parent
-EXCLUDE_DIRS = {".git", ".github", ".vs", "examples", "integrations",
-                "scripts", "docs", "schemas", "__pycache__"}
-
-
-# ── colour helpers ──────────────────────────────────────────────────────────
-
-def _supports_color():
-    return (hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
-            and not os.environ.get("NO_COLOR")
-            and os.environ.get("TERM", "") != "dumb")
-
-
-if _supports_color():
-    GREEN  = "\033[0;32m"
-    YELLOW = "\033[1;33m"
-    RED    = "\033[0;31m"
-    BOLD   = "\033[1m"
-    RESET  = "\033[0m"
-else:
-    GREEN = YELLOW = RED = BOLD = RESET = ""
 
 
 def ok(msg):    print(f"{GREEN}[OK]{RESET}  {msg}")
@@ -94,7 +75,7 @@ def load_mapping(lang="zh"):
     map_path = I18N_DIR / f"agent-names-{lang}.json"
     if not map_path.exists():
         return {}
-    with open(map_path, "r", encoding="utf-8") as f:
+    with open(map_path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -130,7 +111,7 @@ def check_coverage(lang="zh", show_untranslated=True, template=False,
         if _has_cjk(name):
             already_localized += 1
 
-    for eng_name, entry in mapping.items():
+    for eng_name, _entry in mapping.items():
         if eng_name not in agent_names:
             unknown_entries.append(eng_name)
 
@@ -246,7 +227,7 @@ def check_encoding(out=sys.stdout):
     oprint()
     _header("UTF-8 Encoding Check", out)
     bad = 0
-    for category, filepath, _name, _desc in discover_agents():
+    for _category, filepath, _name, _desc in discover_agents():
         try:
             content = filepath.read_bytes().decode("utf-8")
             # Re-encode and decode to catch subtle invalid sequences

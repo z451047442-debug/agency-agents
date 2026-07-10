@@ -9,17 +9,25 @@ Usage:
     python scripts/lint-agents.py --all --no-freshness   # skip git date check
 """
 
-import os, re, subprocess, sys
+import re
+import subprocess
+import sys
 from datetime import date, timedelta
 from pathlib import Path
 
 import yaml
-
-REPO = Path(__file__).resolve().parent.parent
-EXCLUDE_DIRS = {".git", ".github", ".vs", ".vscode", ".claude",
-                ".pytest_cache", "examples", "integrations",
-                "scripts", "docs", "schemas", "tests",
-                "__pycache__", "env", "node_modules"}
+from _shared import (
+    GREEN,
+    RED,
+    REPO,
+    RESET,
+    YELLOW,
+    discover_agents,
+    get_body,
+    get_field,
+    get_frontmatter_text,
+    get_list_field,
+)
 
 REQUIRED_FIELDS = ("name", "description", "emoji", "color")
 SECTION_PATTERNS = {
@@ -42,68 +50,6 @@ SOUL_KEYWORDS = re.compile(
 # Categories that use subdirectories for engines / frameworks.
 # Filename prefix checks look at the parent of the subdirectory.
 SUBDIR_CATEGORIES = {"game-development"}
-
-# ── colour helpers ───────────────────────────────────────────────────────────
-
-def _supports_color():
-    return (hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
-            and not os.environ.get("NO_COLOR")
-            and os.environ.get("TERM", "") != "dumb")
-
-if _supports_color():
-    GREEN  = "\033[0;32m"
-    YELLOW = "\033[1;33m"
-    RED    = "\033[0;31m"
-    BOLD   = "\033[1m"
-    RESET  = "\033[0m"
-else:
-    GREEN = YELLOW = RED = BOLD = RESET = ""
-
-
-# ── helpers ──────────────────────────────────────────────────────────────────
-
-def get_frontmatter_text(content):
-    parts = content.split("---", 2)
-    return parts[1] if len(parts) >= 3 else ""
-
-
-def get_body(content):
-    parts = content.split("---", 2)
-    return parts[2] if len(parts) >= 3 else ""
-
-
-def get_field(field, fm_text):
-    m = re.search(rf"^{re.escape(field)}:\s*(.+)$", fm_text, re.MULTILINE)
-    return m.group(1).strip() if m else ""
-
-
-def get_list_field(field, fm_text):
-    """Extract YAML list items under a field (e.g., nexus_roles, depends_on)."""
-    items = []
-    in_block = False
-    for line in fm_text.split("\n"):
-        if re.match(rf"^{re.escape(field)}:", line):
-            in_block = True
-            continue
-        if in_block:
-            m = re.match(r"^\s+-\s+(.+)$", line)
-            if m:
-                items.append(m.group(1).strip().strip('"').strip("'"))
-            elif re.match(r"^\S", line):
-                break
-    return items
-
-
-def discover_agents():
-    """Yield (category, file_path) for every agent .md file."""
-    for entry in sorted(REPO.iterdir()):
-        if not entry.is_dir() or entry.name.startswith(".") or entry.name.startswith("_"):
-            continue
-        if entry.name in EXCLUDE_DIRS:
-            continue
-        for md in sorted(entry.rglob("*.md")):
-            yield entry.name, md
-
 
 # ── security scanner ─────────────────────────────────────────────────────────
 
@@ -438,7 +384,7 @@ def collect_files(paths, all_mode):
             else:
                 files.append(REPO / path)
     elif all_mode:
-        for _category, filepath in discover_agents():
+        for _category, _rel, filepath in discover_agents():
             files.append(filepath)
     return files
 

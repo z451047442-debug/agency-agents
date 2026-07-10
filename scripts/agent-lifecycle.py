@@ -26,27 +26,31 @@ Usage:
 import argparse
 import json
 import re
-import subprocess
 import sys
 from collections import defaultdict
 from datetime import date, timedelta
-from importlib.machinery import SourceFileLoader
 from pathlib import Path
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-score_agents = SourceFileLoader("score_agents", str(SCRIPT_DIR / "score-agents.py")).load_module()
+from _shared import (
+    BOLD,
+    CYAN,
+    GREEN,
+    RED,
+    REPO,
+    RESET,
+    YELLOW,
+    discover_agents,
+    get_field,
+    get_frontmatter_text,
+    load_module,
+)
 
-REPO = score_agents.REPO
+_SCRIPTS = Path(__file__).resolve().parent
+_score_agents = load_module("score_agents", _SCRIPTS / "score-agents.py")
+git_last_modified = _score_agents.git_last_modified
 
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-
-GREEN = "\033[0;32m"
-YELLOW = "\033[1;33m"
-RED = "\033[0;31m"
-BOLD = "\033[1m"
-CYAN = "\033[0;36m"
-RESET = "\033[0m"
 
 LIFECYCLE_STATES = ("draft", "review", "published", "deprecated")
 VALID_TRANSITIONS = {
@@ -70,8 +74,8 @@ def get_current_lifecycle(filepath):
         content = filepath.read_text(encoding="utf-8")
     except Exception:
         return "unknown"
-    fm = score_agents.get_frontmatter_text(content)
-    val = score_agents.get_field("lifecycle", fm)
+    fm = get_frontmatter_text(content)
+    val = get_field("lifecycle", fm)
     if val in LIFECYCLE_STATES:
         return val
     return "published"  # default for agents without the field
@@ -84,8 +88,8 @@ def set_lifecycle(filepath, new_state, note=""):
     except Exception as e:
         return False, str(e)
 
-    fm = score_agents.get_frontmatter_text(content)
-    current = score_agents.get_field("lifecycle", fm)
+    fm = get_frontmatter_text(content)
+    current = get_field("lifecycle", fm)
 
     if current == new_state:
         return True, f"already in '{new_state}'"
@@ -94,7 +98,7 @@ def set_lifecycle(filepath, new_state, note=""):
         return False, f"invalid transition: '{current}' → '{new_state}'. Valid: {VALID_TRANSITIONS.get(current, ())}"
 
     # Check if lifecycle field already exists
-    if f"\nlifecycle:" in fm or fm.startswith("lifecycle:"):
+    if "\nlifecycle:" in fm or fm.startswith("lifecycle:"):
         # Update existing field
         new_fm = re.sub(
             r"^lifecycle:\s*.*$",
@@ -133,7 +137,7 @@ def set_lifecycle(filepath, new_state, note=""):
 
 def discover_all_agents(category_filter=None):
     """Yield (filepath, agent_id, category) for all agents."""
-    for category, rel, filepath in score_agents.discover_agents(category_filter=category_filter):
+    for category, _rel, filepath in discover_agents(category_filter=category_filter):
         yield filepath, filepath.stem, category
 
 
@@ -148,7 +152,7 @@ def build_lifecycle_report(category_filter=None, check_freshness=True):
         days_stale = None
 
         if check_freshness:
-            last_mod = score_agents.git_last_modified(filepath)
+            last_mod = git_last_modified(filepath)
             if last_mod:
                 days_stale = (date.today() - last_mod).days
 
@@ -257,8 +261,8 @@ def sync_lifecycle_fields(category_filter=None, dry_run=False):
     count = 0
     for filepath, agent_id, category in discover_all_agents(category_filter):
         content = filepath.read_text(encoding="utf-8")
-        fm = score_agents.get_frontmatter_text(content)
-        current = score_agents.get_field("lifecycle", fm)
+        fm = get_frontmatter_text(content)
+        current = get_field("lifecycle", fm)
         if not current:
             count += 1
             if dry_run:
@@ -282,7 +286,7 @@ def find_stale_agents(months=12):
     stale = []
 
     for filepath, agent_id, category in discover_all_agents():
-        last_mod = score_agents.git_last_modified(filepath)
+        last_mod = git_last_modified(filepath)
         if last_mod and last_mod < cutoff:
             state = get_current_lifecycle(filepath)
             stale.append((agent_id, category, state, last_mod,

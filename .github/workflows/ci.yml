@@ -1,0 +1,74 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+
+      - name: Lint Python
+        run: python -m ruff check scripts/ --output-format=github
+
+      - name: Validate agents (YAML + structure)
+        run: python scripts/lint-agents.py --all --no-freshness
+
+      - name: Validate depends_on
+        run: python scripts/analyze-deps.py --validate
+
+      - name: Validate AGENTS.json sync
+        run: python scripts/validate-index.py
+
+      - name: Run tests
+        run: python -m pytest tests/ -q --tb=short
+
+      - name: Verify install script (dry-run)
+        run: bash scripts/install.sh --list-installed
+
+  extended:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml mypy
+
+      - name: Type check (mypy)
+        run: python -m mypy scripts/ --ignore-missing-imports
+
+      - name: Agent dedup check
+        run: bash scripts/check-dupes.sh --threshold 0.85
+
+      - name: i18n coverage check
+        run: python scripts/i18n/check-i18n.py --strict
+
+  score-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Quality score gate
+        run: python scripts/score-agents.py --threshold 5 --json

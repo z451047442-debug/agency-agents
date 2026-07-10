@@ -20,25 +20,18 @@ import json
 import sys
 from collections import defaultdict
 from datetime import date
-from importlib.machinery import SourceFileLoader
 from pathlib import Path
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-score_agents = SourceFileLoader("score_agents", str(SCRIPT_DIR / "score-agents.py")).load_module()
-lint_agents = SourceFileLoader("lint_agents", str(SCRIPT_DIR / "lint-agents.py")).load_module()
+from _shared import BOLD, GREEN, RED, RESET, YELLOW, discover_agents, load_module
 
-REPO = score_agents.REPO
+_SCRIPTS = Path(__file__).resolve().parent
+_score_agents = load_module("score_agents", _SCRIPTS / "score-agents.py")
+_lint_agents = load_module("lint_agents", _SCRIPTS / "lint-agents.py")
+score_agent = _score_agents.score_agent
+lint_file = _lint_agents.lint_file
 
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-
-GREEN = "\033[0;32m"
-YELLOW = "\033[1;33m"
-RED = "\033[0;31m"
-BOLD = "\033[1m"
-CYAN = "\033[0;36m"
-MAGENTA = "\033[0;35m"
-RESET = "\033[0m"
 
 SKILL_LEVELS = {
     "beginner": {
@@ -71,13 +64,13 @@ IMPACT_WEIGHTS = {
 
 def estimate_effort(issues, scores, word_count):
     """Categorize the effort needed to fix an agent."""
-    if not issues and all(s >= v for s, v in zip(scores.values(), [2, 3, 2, 2])):
+    if not issues and all(s >= v for s, v in zip(scores.values(), [2, 3, 2, 2], strict=False)):
         return "done"
 
     needs_content = scores.get("content_depth", 0) < 2
     needs_sections = scores.get("structure", 0) < 3
     has_lint_errors = any("ERROR" in str(i) for i in issues)
-    has_security = any("SECURITY" in str(i) or "suspicious" in str(i) for i in issues)
+    any("SECURITY" in str(i) or "suspicious" in str(i) for i in issues)
 
     if needs_content or has_lint_errors:
         return "hard"
@@ -92,18 +85,18 @@ def build_opportunities(category_filter=None):
     """Build the ranked list of contribution opportunities."""
     opportunities = []
 
-    for _cat, _rel, filepath in score_agents.discover_agents(category_filter=category_filter):
+    for _cat, _rel, filepath in discover_agents(category_filter=category_filter):
         agent_id = filepath.stem
         category = _cat
 
         # Score
-        score_result = score_agents.score_agent(filepath, check_freshness=False)
+        score_result = score_agent(filepath, check_freshness=False)
 
         # Lint
         lint_errors = []
         lint_warnings = []
         lint_infos = []
-        lint_agents.lint_file(filepath, lint_errors, lint_warnings, lint_infos, freshness=False)
+        lint_file(filepath, lint_errors, lint_warnings, lint_infos, freshness=False)
 
         # Security flags
         sec_flags = sum(1 for w in lint_warnings if "SECURITY" in w)
@@ -243,9 +236,9 @@ def print_dashboard(opportunities, args):
         print(f"  {GREEN}New contributor?{RESET} Run: python scripts/contribute.py --skill beginner")
         print(f"  {YELLOW}Some experience?{RESET} Run: python scripts/contribute.py --skill intermediate")
         print(f"  {RED}Domain expert?{RESET}   Run: python scripts/contribute.py --skill advanced")
-        print(f"  Focus on a category:     --category manufacturing")
-        print(f"\n  For each agent, run:     python scripts/expand-agent.py <agent-id>")
-        print(f"  To track progress:       python scripts/agent-lifecycle.py --agent <id> --transition review")
+        print("  Focus on a category:     --category manufacturing")
+        print("\n  For each agent, run:     python scripts/expand-agent.py <agent-id>")
+        print("  To track progress:       python scripts/agent-lifecycle.py --agent <id> --transition review")
 
 
 def print_json_output(opportunities, args):

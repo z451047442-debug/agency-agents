@@ -30,7 +30,9 @@ import re
 import sys
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from _shared import BOLD, GREEN, RED, REPO, RESET, YELLOW  # noqa: E402
+
 I18N_DIR = Path(__file__).resolve().parent
 HOME = Path.home()
 
@@ -39,24 +41,6 @@ DEFAULT_INSTALL_DIRS = [
     HOME / ".github" / "agents",
     HOME / ".copilot" / "agents",
 ]
-
-
-# ── colour helpers (matching lint-agents.py) ────────────────────────────────
-
-def _supports_color():
-    return (hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
-            and not os.environ.get("NO_COLOR")
-            and os.environ.get("TERM", "") != "dumb")
-
-
-if _supports_color():
-    GREEN  = "\033[0;32m"
-    YELLOW = "\033[1;33m"
-    RED    = "\033[0;31m"
-    BOLD   = "\033[1m"
-    RESET  = "\033[0m"
-else:
-    GREEN = YELLOW = RED = BOLD = RESET = ""
 
 
 def ok(msg):    print(f"{GREEN}[OK]{RESET}  {msg}")
@@ -78,7 +62,7 @@ def load_map(lang="zh"):
     if not map_path.exists():
         print(f"{RED}Error:{RESET} mapping file not found: {map_path}")
         sys.exit(1)
-    with open(map_path, "r", encoding="utf-8") as f:
+    with open(map_path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -146,7 +130,7 @@ def process_file(filepath, mapping, dry_run=False):
       "no_frontmatter", "error".
     """
     try:
-        with open(filepath, "r", encoding="utf-8") as f:
+        with open(filepath, encoding="utf-8") as f:
             content = f.read()
     except Exception as e:
         print(f"{RED}Error{RESET} reading {filepath}: {e}")

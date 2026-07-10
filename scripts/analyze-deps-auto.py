@@ -11,9 +11,8 @@ Confidence levels:
 - MEDIUM (6-11): moderate overlap, needs human review
 """
 import json
-import os
 import re
-from collections import defaultdict, Counter
+from collections import defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -62,10 +61,10 @@ def extract_keywords(name, description):
             'system','process','data','service','business','product','design','manager','role','work',
             'team','access','project','solution','development','agent','ensure','based','key','well',
             'time','including','help','provide','across','features','tools','applications','used',
-            'related','available','required','experience','experience','specific','focus','best',
+            'related','available','required','experience','specific','focus','best',
             'build','knowledge','needs','skills','deliver','through','enable','ability','complex',
             'approach','different','advanced','modern','technical','critical','analysis','projects',
-            'years','handling','testing','within','including','creating','specialist','background',
+            'years','handling','testing','within','creating','specialist','background',
             'digital','various','expertise','strategies','issues','professional','multiple','drive',
             'success','quality','performance','industry','strategic','improvement','continuous'}
     tokens = [t for t in tokens if len(t) >= 3 and t not in stop]
@@ -99,7 +98,7 @@ def main():
         aid = agent['id']
         cat = agent['category']
         existing = set(agent.get('depends_on', []))
-        my_kw = agent_keywords.get(aid, set())
+        agent_keywords.get(aid, set())
 
         # Load body content
         mdfile = agent_files.get(aid)
@@ -158,7 +157,7 @@ def main():
     total_hi = sum(len(v) for v in high_conf.values())
     total_med = sum(len(v) for v in med_conf.values())
 
-    print(f"\n=== Results ===")
+    print("\n=== Results ===")
     print(f"High-confidence (>=8): {len(high_conf)} agents, {total_hi} deps")
     print(f"Medium-confidence (4-8): {len(med_conf)} agents, {total_med} deps")
 

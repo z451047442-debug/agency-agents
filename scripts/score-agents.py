@@ -21,21 +21,26 @@ Scoring dimensions (0-10 total):
 
 import argparse
 import json
-import os
 import re
 import subprocess
 import sys
 from collections import defaultdict
-from datetime import date, timedelta
+from datetime import date
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent
-EXCLUDE_DIRS = {
-    ".git", ".github", ".vs", ".vscode", ".claude",
-    ".pytest_cache", "examples", "integrations",
-    "scripts", "docs", "schemas", "tests",
-    "__pycache__", "env", "node_modules",
-}
+from _shared import (
+    BOLD,
+    CYAN,
+    GREEN,
+    RED,
+    REPO,
+    RESET,
+    YELLOW,
+    discover_agents,
+    get_body,
+    get_field,
+    get_frontmatter_text,
+)
 
 # Sections that indicate a well-structured agent
 CORE_SECTIONS = {
@@ -47,57 +52,6 @@ CORE_SECTIONS = {
     "Success Metrics": r"(?:success\s*metrics|🎯.*metrics|metrics\s*[—\-]|how you measure)",
     "Communication":  r"(?:communication\s*style|💬.*communication|how you communicate|tone)",
 }
-
-
-def _supports_color():
-    return (hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
-            and not os.environ.get("NO_COLOR")
-            and os.environ.get("TERM", "") != "dumb")
-
-
-if _supports_color():
-    GREEN = "\033[0;32m"
-    YELLOW = "\033[1;33m"
-    RED = "\033[0;31m"
-    BOLD = "\033[1m"
-    CYAN = "\033[0;36m"
-    RESET = "\033[0m"
-else:
-    GREEN = YELLOW = RED = BOLD = CYAN = RESET = ""
-
-
-# ── helpers ──────────────────────────────────────────────────────────────────
-
-def get_frontmatter_text(content):
-    parts = content.split("---", 2)
-    return parts[1] if len(parts) >= 3 else ""
-
-
-def get_body(content):
-    parts = content.split("---", 2)
-    return parts[2] if len(parts) >= 3 else ""
-
-
-def get_field(field, fm_text):
-    m = re.search(rf"^{re.escape(field)}:\s*(.+)$", fm_text, re.MULTILINE)
-    return m.group(1).strip() if m else ""
-
-
-def discover_agents(category_filter=None):
-    """Yield (category, rel_path, file_path) for every agent .md file."""
-    for entry in sorted(REPO.iterdir()):
-        if not entry.is_dir() or entry.name.startswith("."):
-            continue
-        if entry.name in EXCLUDE_DIRS:
-            continue
-        if category_filter and entry.name != category_filter:
-            continue
-        for md in sorted(entry.rglob("*.md")):
-            try:
-                rel = str(md.relative_to(REPO)).replace("\\", "/")
-            except ValueError:
-                rel = md.name
-            yield entry.name, rel, md
 
 
 def git_last_modified(filepath):
@@ -453,7 +407,7 @@ def main():
 
     # Score all
     results = []
-    for category, rel, filepath in files:
+    for _category, _rel, filepath in files:
         r = score_agent(filepath, check_freshness=not args.no_freshness)
         results.append(r)
 

@@ -1,17 +1,20 @@
-## What does this PR do?
+## Summary
 
-<!-- Brief description of the change -->
+<!-- Brief description of the changes -->
 
-## Agent Information (if adding/modifying an agent)
+## Type
 
-- **Agent Name**:
-- **Category**:
-- **Specialty**:
+- [ ] New agent(s)
+- [ ] Agent content update
+- [ ] Tooling / script change
+- [ ] CI / infrastructure
+- [ ] Bug fix
+- [ ] Documentation
 
 ## Checklist
 
-- [ ] Follows the agent template structure from CONTRIBUTING.md
-- [ ] Includes YAML frontmatter with `name`, `description`, `color`
-- [ ] Has concrete code/template examples (for new agents)
-- [ ] Tested in real scenarios
-- [ ] Proofread and formatted correctly
+- [ ] Ran `python scripts/lint-agents.py --all --no-freshness` (for agent changes)
+- [ ] Ran `python scripts/validate-index.py` (for agent add/move/delete)
+- [ ] Ran `python -m pytest tests/` and all pass
+- [ ] Ran `python -m ruff check scripts/` (for Python changes)
+- [ ] Updated CHANGELOG.md if applicable

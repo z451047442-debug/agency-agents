@@ -17,28 +17,20 @@ import json
 import sys
 from collections import defaultdict
 from datetime import date
-from importlib.machinery import SourceFileLoader
+
 from pathlib import Path
 
-SCRIPT_DIR = Path(__file__).resolve().parent
+from _shared import BOLD, CYAN, GREEN, RED, RESET, YELLOW, discover_agents, load_module
+
+_SCRIPTS = Path(__file__).resolve().parent
+lint_file = load_module("lint_agents", _SCRIPTS / "lint-agents.py").lint_file
+score_agent = load_module("score_agents", _SCRIPTS / "score-agents.py").score_agent
 
 # Ensure UTF-8 output on Windows
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 if sys.stderr.encoding != "utf-8":
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
-
-# Load modules that have hyphens in their filenames (not valid Python identifiers)
-lint_agents = SourceFileLoader("lint_agents", str(SCRIPT_DIR / "lint-agents.py")).load_module()
-score_agents = SourceFileLoader("score_agents", str(SCRIPT_DIR / "score-agents.py")).load_module()
-
-from lint_agents import (
-    lint_file, discover_agents, REPO,
-    GREEN, YELLOW, RED, BOLD, RESET,
-)
-from score_agents import score_agent
-
-CYAN = "\033[0;36m" if lint_agents._supports_color() else ""
 
 
 def _estimate_fix_effort(agent_report):
@@ -49,7 +41,7 @@ def _estimate_fix_effort(agent_report):
     """
     fixes = []
     scores = agent_report.get("scores", {})
-    issues = agent_report.get("issues", [])
+    agent_report.get("issues", [])
     lint_errors = agent_report.get("lint_errors", 0)
     lint_warnings = agent_report.get("lint_warnings", 0)
     security_flags = agent_report.get("security_flags", 0)
@@ -94,7 +86,7 @@ def build_report(category_filter=None, agent_filter=None, check_freshness=True):
     """Build the unified quality report for all (or filtered) agents."""
     agents = {}
 
-    for category, rel, filepath in score_agents.discover_agents(category_filter=category_filter):
+    for category, rel, filepath in discover_agents(category_filter=category_filter):
         agent_id = filepath.stem
         if agent_filter and agent_id != agent_filter:
             continue
@@ -211,7 +203,7 @@ def print_dashboard(agents, args):
                 continue
             color = {"easy": GREEN, "moderate": YELLOW, "hard": RED}.get(effort, RESET)
             print(f"\n  {BOLD}{a['id']}{RESET} ({a['total']}/10 {a['grade']}) — {color}{effort}{RESET}")
-            for level, fix in fixes[:3]:
+            for _level, fix in fixes[:3]:
                 print(f"    - {fix}")
 
     # Security summary

@@ -15,22 +15,20 @@ Usage:
 import argparse
 import re
 import sys
-from importlib.machinery import SourceFileLoader
-from pathlib import Path
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-score_agents = SourceFileLoader("score_agents", str(SCRIPT_DIR / "score-agents.py")).load_module()
-
-REPO = score_agents.REPO
+from _shared import (
+    BOLD,
+    GREEN,
+    RESET,
+    YELLOW,
+    discover_agents,
+    get_body,
+    get_field,
+    get_frontmatter_text,
+)
 
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-
-GREEN = "\033[0;32m"
-YELLOW = "\033[1;33m"
-RED = "\033[0;31m"
-BOLD = "\033[1m"
-RESET = "\033[0m"
 
 # Domain-specific communication trait generators.
 # Each category gets a set of traits tailored to that domain's communication style.
@@ -60,11 +58,6 @@ CATEGORY_TRAITS = {
         ("Statistically honest", "Report confidence intervals, not just point estimates. 'The model is 92% accurate' is marketing; '92% ± 1.5% on held-out test data, with 3% degradation on the most recent month' is science."),
         ("Business-grounded", "Translate model metrics to business impact. 'AUC improved by 0.03' is an ML result; 'This improvement means 200 fewer false positives per day, saving 15 hours of reviewer time' is a business result."),
         ("Simplicity-first", "Start with the simplest model that could work. A well-tuned logistic regression with clean features beats a badly-tuned deep learning model. Complexity is a cost, not a virtue — justify every additional layer."),
-    ],
-    "healthcare": [
-        ("Evidence-based", "Every recommendation backed by clinical evidence, guidelines, or peer-reviewed literature. Cite the standard of care. 'In my experience' is not a substitute for 'per IDSA guidelines.'"),
-        ("Patient-centered", "Clinical decisions explained in terms of patient outcomes, not just lab values. 'Hemoglobin A1c decreased from 9.2 to 7.1' is a lab result; 'This reduction corresponds to a 30% lower risk of microvascular complications' is patient impact."),
-        ("Safety-conscious", "Every recommendation considers what could go wrong. Drug interactions, contraindications, monitoring requirements, and failure modes of devices all assessed before making a recommendation."),
     ],
     "finance": [
         ("Quantitative", "Every analysis grounded in numbers: NPV, IRR, payback period, sensitivity ranges. 'This is a good investment' is an opinion; 'NPV of $2.3M at 12% WACC with a 3.2-year payback under base case assumptions' is analysis."),
@@ -113,7 +106,7 @@ def get_traits_for_agent(category, description, name, vibe):
 
     # Try to personalize based on description keywords
     personalized = []
-    desc_lower = (description + " " + name).lower()
+    (description + " " + name).lower()
 
     # Add category-specific traits, filtering for relevance
     for trait_name, trait_desc in traits:
@@ -147,15 +140,15 @@ def insert_comm_section(filepath, dry_run=False):
     except Exception:
         return False, "cannot read file"
 
-    fm = score_agents.get_frontmatter_text(content)
-    body = score_agents.get_body(content)
+    fm = get_frontmatter_text(content)
+    body = get_body(content)
 
     if has_comm_section(body):
         return False, "already has Communication section"
 
-    name = score_agents.get_field("name", fm)
-    description = score_agents.get_field("description", fm)
-    vibe = score_agents.get_field("vibe", fm)
+    name = get_field("name", fm)
+    description = get_field("description", fm)
+    vibe = get_field("vibe", fm)
     category = filepath.parent.name
 
     section = generate_comm_section(filepath.stem, category, description, name, vibe)
@@ -210,12 +203,12 @@ def main():
 
     # Collect agents to process
     targets = []
-    for _cat, _rel, filepath in score_agents.discover_agents(
+    for _cat, _rel, filepath in discover_agents(
         category_filter=args.category if not args.all else None
     ):
         if args.agent and filepath.stem != args.agent:
             continue
-        body = score_agents.get_body(filepath.read_text(encoding="utf-8"))
+        body = get_body(filepath.read_text(encoding="utf-8"))
         if not has_comm_section(body):
             targets.append((filepath.stem, _cat, filepath))
 

@@ -17,7 +17,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install pyyaml jsonschema
+        run: pip install pyyaml jsonschema pytest-cov
 
       - name: Lint Python
         run: python -m ruff check scripts/ --output-format=github
@@ -31,8 +31,8 @@ jobs:
       - name: Validate AGENTS.json sync
         run: python scripts/validate-index.py
 
-      - name: Run tests
-        run: python -m pytest tests/ -q --tb=short
+      - name: Run tests + coverage gate
+        run: python -m pytest tests/ -q --tb=short --cov=scripts --cov-report=term --cov-fail-under=50
 
       - name: Verify install script (dry-run)
         run: bash scripts/install.sh --list-installed

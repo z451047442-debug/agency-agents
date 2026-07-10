@@ -41,7 +41,7 @@ STAGED_MD_FILES=()
 while IFS= read -r -d '' f; do
   # Skip non-agent directories
   case "$f" in
-    docs/*|examples/*|integrations/*|scripts/*|.github/*|README.md|README-zh.md|CONTRIBUTING*.md|CLAUDE.md|AGENTS.md|CHANGELOG.md|CODE_OF_CONDUCT.md|SECURITY.md|USE-CASES.md) continue ;;
+    docs/*|examples/*|integrations/*|scripts/*|.github/*|README.md|README-zh.md|CONTRIBUTING*.md|CLAUDE.md|AGENTS.md|CHANGELOG.md|CODE_OF_CONDUCT.md|SECURITY.md|USE-CASES.md|ARCHITECTURE.md) continue ;;
     *.md) STAGED_MD_FILES+=("$f") ;;
   esac
 done < <(git -C "$REPO_ROOT" diff --cached --name-only --diff-filter=ACMR -z 2>/dev/null || true)

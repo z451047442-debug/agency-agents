@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=1600">
+<title>The Agency - System Architecture v1.0.0</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;color:#e0e0e0;min-width:1400px}
+.header{background:linear-gradient(135deg,#1a1a2e,#16213e);padding:30px 60px;text-align:center;border-bottom:2px solid #333}
+.header h1{font-size:28px;margin-bottom:8px}.header p{color:#888;font-size:14px}
+.container{max-width:1600px;margin:0 auto;padding:20px 40px}
+.layer{border-radius:12px;margin-bottom:24px;overflow:hidden}
+.layer-h{padding:14px 28px;font-size:15px;font-weight:bold;color:#fff}
+.layer-b{padding:20px 28px}
+.l0 .layer-h{background:linear-gradient(135deg,#667eea,#764ba2)}.l0 .layer-b{background:#f0edff;color:#333}
+.l1 .layer-h{background:linear-gradient(135deg,#f093fb,#f5576c)}.l1 .layer-b{background:#fff0f3;color:#333}
+.l2 .layer-h{background:linear-gradient(135deg,#4facfe,#00f2fe)}.l2 .layer-b{background:#f0f8ff;color:#333}
+.l3 .layer-h{background:linear-gradient(135deg,#43e97b,#38f9d7)}.l3 .layer-b{background:#f0fff4;color:#333}
+.l4 .layer-h{background:linear-gradient(135deg,#fa709a,#fee140)}.l4 .layer-b{background:#fff5f5;color:#333}
+.l5 .layer-h{background:linear-gradient(135deg,#a18cd1,#fbc2eb)}.l5 .layer-b{background:#faf5ff;color:#333}
+.fl .layer-h{background:linear-gradient(135deg,#475569,#64748b)}.fl .layer-b{background:#f8fafc;color:#333}
+.gp .layer-h{background:linear-gradient(135deg,#374151,#4b5563)}.gp .layer-b{background:#fafafa;color:#333}
+.grid{display:flex;flex-wrap:wrap;gap:12px}
+.card{background:#fff;border-radius:8px;padding:14px 16px;box-shadow:0 2px 8px rgba(0,0,0,.06);min-width:150px;text-align:center}
+.card .t{font-weight:bold;margin-bottom:4px}
+.card .d{font-size:12px;color:#666}
+.ci-card{border-left:3px solid}.ci-card.a{border-color:#667eea}.ci-card.b{border-color:#764ba2}
+.ci-card .n{font-weight:bold;font-size:13px;color:#667eea}.ci-card.b .n{color:#764ba2}
+.tc{text-align:center}.tc .nm{font-size:12px;color:#555}.tc .ct{font-size:18px;font-weight:bold;color:#f5576c}
+.sh{border:1.5px solid #4facfe;text-align:left;flex:1;min-width:260px}
+.sh .mt{font-weight:bold;font-size:13px;color:#0891b2;margin-bottom:6px}
+.sh .md{font-size:11px;color:#555;line-height:1.6}
+.tg{border-radius:10px;padding:16px;flex:1;min-width:450px}
+.tl{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.ti{background:#fff;border-radius:6px;padding:8px 12px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
+.ti .tn{font-size:11px;font-weight:bold;margin-bottom:2px}.ti .td{font-size:10px;color:#666}
+.crow{display:flex;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.cbox{background:#fff;border-radius:8px;padding:12px 16px;text-align:center;min-width:145px;box-shadow:0 1px 6px rgba(0,0,0,.08)}
+.cbox .cn{font-size:12px;color:#666}.cbox .cc{font-size:24px;font-weight:bold;color:#fa709a}
+.bar{display:flex;height:24px;border-radius:4px;overflow:hidden;margin-bottom:10px}
+.bar .seg{display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-weight:bold}
+.cols{display:flex;gap:20px}.col{flex:1}.colw{flex:2.5}
+.fr{display:flex;align-items:center;gap:0;margin-bottom:10px}
+.fb{background:#dbeafe;border:1.5px solid #3b82f6;border-radius:8px;padding:14px 18px;text-align:center;min-width:170px}
+.fb .fn{font-weight:bold;font-size:12px;color:#1e40af}.fb .fd{font-size:10px;color:#3b82f6;margin-top:4px}
+.fb.o{background:#fef3c7;border-color:#f59e0b}.fb.o .fn{color:#92400e}.fb.o .fd{color:#b45309}
+.fa{font-size:22px;color:#3b82f6;padding:0 6px;font-weight:bold}
+.gr{display:flex;gap:20px}
+.gc{border-radius:10px;padding:20px 24px;flex:1}
+.gc h3{margin-bottom:10px;font-size:15px}.gc ul{list-style:none;font-size:13px;line-height:2}
+.st{font-size:12px;color:#888;text-align:center;padding:6px 0}
+.footer{background:#1a1a2e;color:#888;text-align:center;padding:20px;border-top:2px solid #333;margin-top:30px;font-size:12px}
+.arr{text-align:center;color:#666;font-size:24px;margin:8px 0}
+.tag{display:inline-block;padding:2px 8px;border-radius:3px;font-size:10px;font-weight:bold;margin-right:4px;background:#eee}
+.ib{background:#fff;border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.nx{font-size:10px;display:flex;gap:3px;flex-wrap:wrap;margin:6px 0}.nx span{background:#ecfeff;padding:2px 6px;border-radius:3px;color:#0891b2}
+</style></head>
+<body>
+
+<div class="header">
+  <h1>THE AGENCY — 系统架构图 v1.0.0</h1>
+  <p>1000+ AI Agent 角色定义库 | 60+ 行业分类 | 20 工具脚本 | 380 测试 | 8 集成目标 | Python 3.12 | 覆盖率 52%</p>
+</div>
+<div class="container">
+
+<div class="layer l0">
+  <div class="layer-h">第 0 层: CI/CD 持续集成流水线 (7 个 GitHub Actions 工作流)</div>
+  <div class="layer-b">
+    <div class="grid">
+      <div class="card ci-card a"><div class="n">ci.yml</div><div class="d">push/PR: lint+test+validate+score</div></div>
+      <div class="card ci-card b"><div class="n">lint-agents.yml</div><div class="d">*.md 变更: YAML+结构校验</div></div>
+      <div class="card ci-card a"><div class="n">quality-gate.yml</div><div class="d">评分 >= 5 质量门槛</div></div>
+      <div class="card ci-card b"><div class="n">release.yml</div><div class="d">Tag -> 版本发布 + CHANGELOG</div></div>
+      <div class="card ci-card a"><div class="n">nightly-full-audit.yml</div><div class="d">每日定时: 全面审计</div></div>
+      <div class="card ci-card b"><div class="n">check-divisions.yml</div><div class="d">验证分区目录结构</div></div>
+      <div class="card ci-card a"><div class="n">check-tools.yml</div><div class="d">验证集成目录同步</div></div>
+    </div>
+    <div class="st">覆盖 push、PR、tag 和 cron 定时触发 — 在每个变更入口进行质量把关</div>
+  </div>
+</div>
+<div class="arr">&#8595;</div>
+
+<div class="layer l1">
+  <div class="layer-h">第 1 层: 测试套件 (17 个模块 · 380 个测试用例)</div>
+  <div class="layer-b">
+    <div class="grid">
+      <div class="card tc"><div class="nm">test_convert.py</div><div class="ct">61</div></div>
+      <div class="card tc"><div class="nm">test_lint_agents.py</div><div class="ct">46</div></div>
+      <div class="card tc"><div class="nm">test_build_hermes</div><div class="ct">31</div></div>
+      <div class="card tc"><div class="nm">test_batch_nexus</div><div class="ct">30</div></div>
+      <div class="card tc"><div class="nm">test_search_agents</div><div class="ct">27</div></div>
+      <div class="card tc"><div class="nm">test_validate_index</div><div class="ct">25</div></div>
+      <div class="card tc"><div class="nm">test_shared.py</div><div class="ct">23</div></div>
+      <div class="card tc"><div class="nm">test_quality_report</div><div class="ct">23</div></div>
+      <div class="card tc"><div class="nm">+ 8 个模块</div><div class="ct">154</div></div>
+    </div>
+    <div class="st">每个工具脚本都有对应测试 | 全部 380 通过 | 0 个跳过</div>
+  </div>
+</div>
+<div class="arr">&#8595;</div>
+
+<div class="layer l2">
+  <div class="layer-h">第 2 层: 共享库 (scripts/_shared/) — 16 个公开 API · 13 个调用方</div>
+  <div class="layer-b">
+    <div class="grid">
+      <div class="card sh"><div class="mt">discovery.py — 文件发现引擎</div><div class="md">REPO: Path (仓库根目录)<br>EXCLUDE_DIRS: frozenset (排除目录)<br>discover_agents() -> (分类, 路径, 文件)</div></div>
+      <div class="card sh"><div class="mt">frontmatter.py — YAML 解析工具</div><div class="md">get_frontmatter_text() / get_body()<br>get_field() / get_list_field()<br>解析 YAML 前置数据字段和列表</div></div>
+      <div class="card sh"><div class="mt">terminal.py — 终端颜色常量</div><div class="md">supports_color() -> bool<br>GREEN YELLOW RED BOLD CYAN MAGENTA RESET</div></div>
+      <div class="card sh"><div class="mt">__init__.py — 模块加载入口</div><div class="md">重新导出全部 15 个符号<br>load_module(name, path) -> module<br>替换已弃用的 SourceFileLoader</div></div>
+    </div>
+    <div class="st" style="margin-top:12px">调用方(13): lint-agents | convert | score-agents | analyze-deps | quality-report | agent-lifecycle | contribute | expand-agent | add-comm-section | search-agents | validate-index | i18n/check-i18n | i18n/localize-agents</div>
+  </div>
+</div>
+<div class="arr">&#8595;</div>
+
+<div class="layer l3">
+  <div class="layer-h">第 3 层: 工具脚本 (20 个 Python 模块)</div>
+  <div class="layer-b">
+    <div class="cols">
+      <div class="col"><div class="tg" style="background:#ecfdf5;border:1.5px solid #10b981">
+        <div style="font-weight:bold;color:#059669;font-size:13px">质量流水线</div>
+        <div class="tl">
+          <div class="ti"><div class="tn" style="color:#059669">lint-agents.py</div><div class="td">YAML校验|章节|CRLF|安全扫描</div></div>
+          <div class="ti"><div class="tn" style="color:#059669">score-agents.py</div><div class="td">A-D评级(0-10)|4维度评分</div></div>
+          <div class="ti"><div class="tn" style="color:#059669">analyze-deps.py</div><div class="td">依赖校验|死链检测|NLP建议</div></div>
+          <div class="ti"><div class="tn" style="color:#059669">quality-report.py</div><div class="td">统一仪表盘|难度评估|健康度</div></div>
+        </div>
+      </div></div>
+      <div class="col"><div class="tg" style="background:#fffbeb;border:1.5px solid #f59e0b">
+        <div style="font-weight:bold;color:#d97706;font-size:13px">维护工具</div>
+        <div class="tl">
+          <div class="ti"><div class="tn" style="color:#d97706">agent-lifecycle.py</div><div class="td">草稿->审核->发布->废弃 追踪</div></div>
+          <div class="ti"><div class="tn" style="color:#d97706">expand-agent.py</div><div class="td">B->A 内容扩充|模板引擎</div></div>
+          <div class="ti"><div class="tn" style="color:#d97706">contribute.py</div><div class="td">入门/中级/高级 贡献仪表盘</div></div>
+          <div class="ti"><div class="tn" style="color:#d97706">add-comm-section.py</div><div class="td">领域沟通风格特征生成</div></div>
+        </div>
+      </div></div>
+    </div>
+    <div class="cols" style="margin-top:16px">
+      <div class="col"><div class="tg" style="background:#f5f3ff;border:1.5px solid #8b5cf6">
+        <div style="font-weight:bold;color:#7c3aed;font-size:13px">集成工具</div>
+        <div class="tl" style="grid-template-columns:1fr 1fr 1fr">
+          <div class="ti"><div class="tn" style="color:#7c3aed">convert.py</div><div class="td">8种工具格式|并行</div></div>
+          <div class="ti"><div class="tn" style="color:#7c3aed">build-hermes.py</div><div class="td">插件打包</div></div>
+          <div class="ti"><div class="tn" style="color:#7c3aed">shard-index.py</div><div class="td">索引拆分|并行</div></div>
+        </div>
+      </div></div>
+      <div class="col"><div class="tg" style="background:#ecfeff;border:1.5px solid #06b6d4">
+        <div style="font-weight:bold;color:#0891b2;font-size:13px">发现与本地化工具</div>
+        <div class="tl" style="grid-template-columns:1fr 1fr 1fr">
+          <div class="ti"><div class="tn" style="color:#0891b2">search-agents.py</div><div class="td">关键词|分类|正则</div></div>
+          <div class="ti"><div class="tn" style="color:#0891b2">i18n/check-i18n</div><div class="td">翻译覆盖率|模板</div></div>
+          <div class="ti"><div class="tn" style="color:#0891b2">localize-agents</div><div class="td">名称+描述翻译</div></div>
+        </div>
+      </div></div>
+    </div>
+    <div class="st" style="margin-top:12px"><span class="tag">batch-add-deps</span><span class="tag">batch-nexus-roles</span><span class="tag">validate-index</span><span class="tag">analyze-deps-auto</span></div>
+  </div>
+</div>
+<div class="arr">&#8595;</div>
+
+<div class="layer l4">
+  <div class="layer-h">第 4 层: Agent 内容 (1,184 个 .md 文件 · 60+ 行业分类)</div>
+  <div class="layer-b">
+    <div class="crow">
+      <div class="cbox"><div class="cn">基础设施</div><div class="cc">97</div></div>
+      <div class="cbox"><div class="cn">工程开发</div><div class="cc">92</div></div>
+      <div class="cbox"><div class="cn">市场营销</div><div class="cc">84</div></div>
+      <div class="cbox"><div class="cn">医疗健康</div><div class="cc">50</div></div>
+      <div class="cbox"><div class="cn">数据科学</div><div class="cc">46</div></div>
+      <div class="cbox"><div class="cn">制造业</div><div class="cc">43</div></div>
+      <div class="cbox"><div class="cn">建筑工程</div><div class="cc">40</div></div>
+      <div class="cbox"><div class="cn">能源</div><div class="cc">40</div></div>
+    </div>
+    <div class="bar">
+      <div class="seg" style="width:8.2%;background:#fa709a">97</div>
+      <div class="seg" style="width:7.8%;background:#f973a0">92</div>
+      <div class="seg" style="width:7.1%;background:#f876a8">84</div>
+      <div class="seg" style="width:4.2%;background:#f779b0">50</div>
+      <div class="seg" style="width:3.9%;background:#f67cb8">46</div>
+      <div class="seg" style="width:3.6%;background:#f57fc0">43</div>
+      <div class="seg" style="width:3.4%;background:#f482c8">40</div>
+      <div class="seg" style="width:3.4%;background:#f385d0">40</div>
+      <div style="width:58.4%;background:#ddd"></div>
+    </div>
+    <div class="st">前8占41% | +52: 金融(36) 网安(35) 环境(33) 航天(23) 设计(23) 项管(23) 汽车(22) 法律(22) 测试(20) 专业(20) IoT(19) 物流(19) 教育(17) ...</div>
+    <div class="cols" style="margin-top:14px">
+      <div class="colw">
+        <div class="ib" style="border:1.5px solid #fbbf24">
+          <div style="font-weight:bold;color:#d97706;font-size:13px;margin-bottom:8px">Agent 文件结构</div>
+          <div style="background:#fef3c7;padding:8px 12px;border-radius:4px;font-size:11px;color:#92400e;margin-bottom:6px">--- YAML 前置数据 (Frontmatter) ---</div>
+          <div style="font-size:11px;line-height:1.8;color:#555">name | description | emoji | color <span style="color:#ef4444;font-size:10px">(必填)</span><br>version | date_added <span style="color:#f59e0b;font-size:10px">(自动填充)</span><br>vibe | nexus_roles | depends_on | lifecycle <span style="color:#888;font-size:10px">(可选)</span></div>
+          <div style="background:#fef3c7;padding:8px 12px;border-radius:4px;font-size:11px;color:#92400e;margin:6px 0">--- 正文 (Body) ---</div>
+          <div style="font-size:11px;line-height:1.8;color:#555">身份与记忆 | 核心使命 | 关键规则 | 可交付物 | 工作流程 | 沟通风格 | 成功指标</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="ib" style="border:1.5px solid #8b5cf6">
+          <div style="font-weight:bold;color:#7c3aed;font-size:13px;margin-bottom:6px">特殊目录</div>
+          <div style="font-size:11px;line-height:1.8;color:#555">_solution/ — 元Agent协调<br>libraries/ — 跨行业Agent<br>specialized/ — 跨领域角色<br>strategy/ — 战略咨询</div>
+        </div>
+        <div class="ib" style="border:1.5px solid #06b6d4">
+          <div style="font-weight:bold;color:#0891b2;font-size:13px;margin-bottom:6px">NEXUS 多Agent编排</div>
+          <div class="nx"><span>发现</span>-><span>策略</span>-><span>基础</span>-><span>构建</span>-><span>加固</span>-><span>上线</span>-><span>运营</span></div>
+          <div style="font-size:10px;color:#888">Agent 通过 nexus_roles 字段加入 | 剧本在 docs/</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="arr">&#8595;</div>
+
+<div class="layer l5">
+  <div class="layer-h">第 5 层: 集成目标 (8 种 AI 编程工具, 通过 convert.py 转换)</div>
+  <div class="layer-b">
+    <div class="grid">
+      <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Claude Code</div><div class="d">.md 直接使用<br>无需转换</div></div>
+      <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Cursor</div><div class="d">.mdc 格式<br>convert_cursor()</div></div>
+      <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Copilot</div><div class="d">.md 格式<br>convert_copilot()</div></div>
+      <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Gemini CLI</div><div class="d">.gm.md<br>convert_gemini()</div></div>
+      <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Windsurf</div><div class="d">.windsurf<br>convert_windsurf()</div></div>
+      <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Codex</div><div class="d">.codex 格式<br>convert_codex()</div></div>
+      <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Kimi</div><div class="d">.kimi.md<br>convert_kimi()</div></div>
+      <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Antigravity</div><div class="d">.ag.md<br>convert_ag()</div></div>
+    </div>
+    <div class="st">Claude Code 是唯一无需转换的目标 — 直接读取原始 .md 文件</div>
+  </div>
+</div>
+
+<div class="layer fl">
+  <div class="layer-h">数据流转: 质量流水线 & 模块依赖关系</div>
+  <div class="layer-b">
+    <div class="fr">
+      <div class="fb"><div class="fn">agent.md</div><div class="fd">1,184 文件 / 60+ 目录</div></div>
+      <div class="fa">&#10132;</div>
+      <div class="fb"><div class="fn">lint-agents.py</div><div class="fd">错误 | 警告 | 提示</div></div>
+      <div class="fa">&#10132;</div>
+      <div class="fb"><div class="fn">score-agents.py</div><div class="fd">A-D 评级 (0-10)</div></div>
+      <div class="fa">&#10132;</div>
+      <div class="fb"><div class="fn">analyze-deps.py</div><div class="fd">依赖检测 / 死链报告</div></div>
+      <div class="fa">&#10132;</div>
+      <div class="fb o"><div class="fn">汇总输出</div><div class="fd">质量报告 | 贡献 | 生命周期 | 扩充</div></div>
+    </div>
+    <div class="st" style="margin-top:8px">导入: _shared/ -> {lint-agents, score-agents, convert} -> {quality-report, analyze-deps, agent-lifecycle, contribute, expand-agent, add-comm-section}</div>
+    <div class="st">load_module() 桥接带连字符文件名, 其余通过 _shared 直接导入</div>
+  </div>
+</div>
+
+<div class="layer gp">
+  <div class="layer-h">差距分析 & 下一步计划</div>
+  <div class="layer-b">
+    <div class="gr">
+      <div class="gc" style="background:#fef2f2;border:1.5px solid #ef4444">
+        <h3 style="color:#dc2626">P0: 紧急</h3>
+        <ul style="color:#991b1b"><li>[ ] PyPI 包发布流水线</li><li>[ ] CI 中验证安装流程</li><li>[ ] Git tag v1.0.0 + Release</li></ul>
+      </div>
+      <div class="gc" style="background:#fffbeb;border:1.5px solid #f59e0b">
+        <h3 style="color:#d97706">P1: 高优先级</h3>
+        <ul style="color:#92400e"><li>[ ] 测试覆盖率 52% -> 80%+</li><li>[ ] mypy 静态类型检查入CI</li><li>[ ] pre-commit 钩子安装</li></ul>
+      </div>
+      <div class="gc" style="background:#eff6ff;border:1.5px solid #3b82f6">
+        <h3 style="color:#2563eb">P2: 中等</h3>
+        <ul style="color:#1e40af"><li>[ ] CI 中检测重复 Agent</li><li>[ ] CI 中国际化追踪</li><li>[ ] PR 模板 + CODEOWNERS</li></ul>
+      </div>
+    </div>
+    <div style="background:#f0fdf4;border:1.5px solid #10b981;border-radius:10px;padding:14px 24px;margin-top:16px;color:#065f46;font-size:13px">
+      <strong>P3: 锦上添花</strong> &nbsp;
+      [ ] Agent 使用分析 | [ ] Web 端浏览界面 | [ ] 模板自动生成 | [ ] 跨工具同步验证
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="footer">
+  Agent: 1,184 | 分类: 60+ | 脚本: 20 | 测试: 380 | CI 工作流: 7 | 目标工具: 8 | 共享 API: 16 | 覆盖率: 52% | Python: 3.12<br>
+  6 层架构: CI/CD -> 测试套件 -> 共享库 -> 工具脚本 -> Agent 内容 -> 集成目标
+</div>
+</body></html>

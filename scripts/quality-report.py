@@ -17,7 +17,6 @@ import json
 import sys
 from collections import defaultdict
 from datetime import date
-
 from pathlib import Path
 
 from _shared import BOLD, CYAN, GREEN, RED, RESET, YELLOW, discover_agents, load_module

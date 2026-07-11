@@ -259,9 +259,8 @@ quality-report.py  analyze-deps.py  agent-lifecycle.py
 ## Gaps & Next Steps
 
 ### P0: Critical
-- [ ] PyPI package publishing (pyproject.toml ready, publish workflow exists)
 - [x] Install verification in CI (test install.sh end-to-end)
-- [ ] Git tag v1.0.0 + GitHub Release
+- [x] Git tag v1.0.0 + GitHub Release
 
 ### P1: High
 - [x] Test coverage 100% (903 tests, 3292 lines, 0 missed)

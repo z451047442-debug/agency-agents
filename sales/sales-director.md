@@ -6,6 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 
 depends_on:

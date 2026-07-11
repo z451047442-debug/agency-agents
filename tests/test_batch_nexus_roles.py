@@ -114,16 +114,26 @@ class TestAddNexusRoles:
 
 class TestAssignRoles:
     def test_leadership_override_director(self):
-        assert assign_roles("engineering-director", "engineering") == ["phase-1-strategy"]
+        # Leadership adds phase-1-strategy ON TOP of category domain roles
+        assert assign_roles("engineering-director", "engineering") == [
+            "phase-1-strategy", "phase-3-build"
+        ]
 
     def test_leadership_override_chief(self):
-        assert assign_roles("chief-financial-officer", "finance") == ["phase-1-strategy"]
+        assert assign_roles("chief-financial-officer", "finance") == [
+            "phase-1-strategy", "phase-0-discovery"
+        ]
 
     def test_leadership_override_ceo(self):
-        assert assign_roles("ceo-founder-coach", "strategy") == ["phase-1-strategy"]
+        # Strategy category already includes phase-1-strategy — no duplicate
+        assert assign_roles("ceo-founder-coach", "strategy") == [
+            "phase-0-discovery", "phase-1-strategy"
+        ]
 
     def test_leadership_override_cto(self):
-        assert assign_roles("cto-advisor", "engineering") == ["phase-1-strategy"]
+        assert assign_roles("cto-advisor", "engineering") == [
+            "phase-1-strategy", "phase-3-build"
+        ]
 
     def test_keyword_match_first_rule_wins(self):
         result = assign_roles("engineering-sre-monitoring-engineer", "engineering")

@@ -32,7 +32,7 @@ jobs:
         run: python scripts/validate-index.py
 
       - name: Run tests + coverage gate
-        run: python -m pytest tests/ -q --tb=short --cov=scripts --cov-report=term --cov-fail-under=50
+        run: python -m pytest tests/ -q --tb=short --cov=scripts --cov-report=term --cov-fail-under=90
 
       - name: Verify install script (dry-run)
         run: bash scripts/install.sh --list-installed

@@ -75,7 +75,7 @@ python -m mypy scripts/              # static type checking (optional)
 ./scripts/agent-diff.sh path/to/agent.md
 ./scripts/agent-diff.sh --changed
 ./scripts/clean.sh --dry-run && ./scripts/clean.sh
-cp scripts/git-hooks/pre-commit .git/hooks/pre-commit
+./scripts/setup-hooks.sh
 
 # Regenerate AGENTS.json index
 ./scripts/generate-index.sh

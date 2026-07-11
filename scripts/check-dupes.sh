@@ -43,58 +43,8 @@ done
 
 [[ -f "$INDEX" ]] || { err "AGENTS.json not found. Run: ./scripts/generate-index.sh"; exit 1; }
 
-# Run duplicate detection via Python
-export PYTHONIOENCODING=utf-8
-python3 - "$INDEX" "$THRESHOLD" "$CATEGORY_FILTER" <<'PYEOF'
-import json, sys
-from difflib import SequenceMatcher
+# Build Python args
+ARGS=("--threshold" "$THRESHOLD")
+[[ -n "$CATEGORY_FILTER" ]] && ARGS+=("--category" "$CATEGORY_FILTER")
 
-index_path  = sys.argv[1]
-threshold   = float(sys.argv[2])
-cat_filter  = sys.argv[3]
-
-with open(index_path, encoding="utf-8") as f:
-    data = json.load(f)
-
-agents = data["agents"]
-if cat_filter:
-    agents = [a for a in agents if a["category"] == cat_filter]
-    print(f"Category filter: {cat_filter} ({len(agents)} agents)\n")
-
-n = len(agents)
-pairs = []
-
-for i in range(n):
-    for j in range(i + 1, n):
-        a, b = agents[i], agents[j]
-
-        name_ratio = SequenceMatcher(None,
-            a["name"].lower(), b["name"].lower()).ratio()
-
-        desc_ratio = SequenceMatcher(None,
-            a.get("description","").lower(),
-            b.get("description","").lower()).ratio()
-
-        # weighted composite: name similarity is stronger signal
-        composite = name_ratio * 0.6 + desc_ratio * 0.4
-
-        if composite >= threshold:
-            pairs.append((composite, name_ratio, desc_ratio, a, b))
-
-pairs.sort(key=lambda x: x[0], reverse=True)
-
-if not pairs:
-    print(f"No duplicate pairs found (threshold={threshold}).")
-    sys.exit(0)
-
-print(f"Potential duplicate agents (threshold={threshold}, composite≥{threshold}):\n")
-for comp, nr, dr, a, b in pairs:
-    print(f"  [{comp:.0%}]  {a['name']}  <->  {b['name']}")
-    print(f"            name={nr:.0%}  desc={dr:.0%}")
-    print(f"            {a['category']}/{a['id']}")
-    print(f"            {b['category']}/{b['id']}")
-    print()
-
-print(f"Total: {len(pairs)} pair(s) flagged for review.")
-sys.exit(1)
-PYEOF
+exec python3 "$SCRIPT_DIR/check-dupes.py" "${ARGS[@]}"

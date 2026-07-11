@@ -1,21 +1,51 @@
 #!/usr/bin/env bash
-# Install git hooks from scripts/git-hooks/ into .git/hooks/
-set -e
-HOOKS_DIR="$(cd "$(dirname "$0")" && pwd)/git-hooks"
-GIT_HOOKS="$(cd "$(dirname "$0")/.." && pwd)/.git/hooks"
+#
+# setup-hooks.sh — Install git hooks for The Agency.
+#
+# Usage:
+#   ./scripts/setup-hooks.sh          # install all hooks
+#   ./scripts/setup-hooks.sh --list   # list installed hooks
+#
+set -euo pipefail
 
-if [ ! -d "$HOOKS_DIR" ]; then
-    echo "No git-hooks directory found at $HOOKS_DIR"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+HOOKS_SRC="$SCRIPT_DIR/git-hooks"
+HOOKS_DST="$REPO_ROOT/.git/hooks"
+
+list_hooks() {
+  echo "Available hooks:"
+  for hook in "$HOOKS_SRC"/*; do
+    [[ "$(basename "$hook")" == "README.md" ]] && continue
+    local installed=""
+    [[ -f "$HOOKS_DST/$(basename "$hook")" ]] && installed=" (installed)"
+    echo "  $(basename "$hook")$installed"
+  done
+}
+
+case "${1:-}" in
+  --list|-l)
+    list_hooks
     exit 0
-fi
+    ;;
+  --help|-h)
+    sed -n '3,6p' "$0" | sed 's/^# \{0,1\}//'
+    exit 0
+    ;;
+esac
 
-for hook in "$HOOKS_DIR"/*; do
-    name=$(basename "$hook")
-    # Skip non-executable and sample files
-    if [ -x "$hook" ] && [ "${name%.sample}" = "$name" ]; then
-        cp "$hook" "$GIT_HOOKS/$name"
-        chmod +x "$GIT_HOOKS/$name"
-        echo "  Installed: $name"
-    fi
+mkdir -p "$HOOKS_DST"
+
+installed=0
+for hook in "$HOOKS_SRC"/*; do
+  name="$(basename "$hook")"
+  [[ "$name" == "README.md" ]] && continue
+  cp "$hook" "$HOOKS_DST/$name"
+  chmod +x "$HOOKS_DST/$name"
+  echo "  Installed: $name"
+  installed=$((installed + 1))
 done
-echo "Git hooks installed."
+
+echo ""
+echo "Done — $installed hook(s) installed."
+echo "Run 'scripts/setup-hooks.sh --list' to verify."

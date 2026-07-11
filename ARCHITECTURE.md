@@ -260,19 +260,19 @@ quality-report.py  analyze-deps.py  agent-lifecycle.py
 
 ### P0: Critical
 - [ ] PyPI package publishing (pyproject.toml ready, publish workflow exists)
-- [ ] Install verification in CI (test install.sh end-to-end)
+- [x] Install verification in CI (test install.sh end-to-end)
 - [ ] Git tag v1.0.0 + GitHub Release
 
 ### P1: High
 - [x] Test coverage 100% (903 tests, 3292 lines, 0 missed)
-- [ ] mypy static type checking enforced in CI (already runs in extended job)
+- [x] mypy static type checking (runs in CI extended job)
 - [x] Pre-commit hooks auto-install mechanism (scripts/setup-hooks.sh)
 
 ### P2: Medium
-- [ ] Agent duplication detection in CI (check-dupes.sh already exists)
-- [ ] i18n coverage tracking in CI
+- [x] Agent duplication detection in CI (check-dupes.sh in extended job)
+- [x] i18n coverage tracking in CI (check-i18n.py --strict in extended job)
 - [ ] Agent versioning strategy (bump versions on content changes)
-- [ ] PR template + CODEOWNERS
+- [x] PR template + CODEOWNERS
 
 ### P3: Nice-to-Have
 - [ ] Agent download/usage metrics

@@ -8,6 +8,7 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - product-analyst

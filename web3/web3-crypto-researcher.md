@@ -6,6 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - web3-smart-contract-developer

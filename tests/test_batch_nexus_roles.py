@@ -115,29 +115,30 @@ class TestAddNexusRoles:
 class TestAssignRoles:
     def test_leadership_override_director(self):
         # Leadership adds phase-1-strategy ON TOP of category domain roles
+        # Universal hardening post-processing also adds phase-4-hardening
         assert assign_roles("engineering-director", "engineering") == [
-            "phase-1-strategy", "phase-3-build"
+            "phase-1-strategy", "phase-3-build", "phase-4-hardening"
         ]
 
     def test_leadership_override_chief(self):
         assert assign_roles("chief-financial-officer", "finance") == [
-            "phase-1-strategy", "phase-0-discovery"
+            "phase-1-strategy", "phase-0-discovery", "phase-4-hardening"
         ]
 
     def test_leadership_override_ceo(self):
         # Strategy category already includes phase-1-strategy — no duplicate
         assert assign_roles("ceo-founder-coach", "strategy") == [
-            "phase-0-discovery", "phase-1-strategy"
+            "phase-0-discovery", "phase-1-strategy", "phase-4-hardening"
         ]
 
     def test_leadership_override_cto(self):
         assert assign_roles("cto-advisor", "engineering") == [
-            "phase-1-strategy", "phase-3-build"
+            "phase-1-strategy", "phase-3-build", "phase-4-hardening"
         ]
 
     def test_keyword_match_first_rule_wins(self):
         result = assign_roles("engineering-sre-monitoring-engineer", "engineering")
-        assert result == ["phase-2-foundation", "phase-6-operate"]
+        assert result == ["phase-2-foundation", "phase-6-operate", "phase-4-hardening"]
 
     def test_keyword_match_security(self):
         result = assign_roles("engineering-appsec-engineer", "engineering")
@@ -145,7 +146,7 @@ class TestAssignRoles:
 
     def test_fallback_to_none_pattern(self):
         result = assign_roles("engineering-generic-helper", "engineering")
-        assert result == ["phase-3-build"]
+        assert result == ["phase-3-build", "phase-4-hardening"]
 
     def test_default_by_category(self):
         result = assign_roles("healthcare-nurse-consultant", "healthcare")
@@ -156,28 +157,42 @@ class TestAssignRoles:
 
     def test_strategy_category_default(self):
         result = assign_roles("strategy-business-analyst", "strategy")
-        assert result == ["phase-0-discovery", "phase-1-strategy"]
+        assert result == [
+            "phase-0-discovery", "phase-1-strategy", "phase-4-hardening"
+        ]
 
     def test_product_trend_gets_discovery(self):
-        assert assign_roles("product-trend-researcher", "product") == ["phase-0-discovery"]
+        assert assign_roles("product-trend-researcher", "product") == [
+            "phase-0-discovery", "phase-4-hardening"
+        ]
 
     def test_product_growth_gets_launch(self):
-        assert assign_roles("product-growth-hacker", "product") == ["phase-5-launch"]
+        assert assign_roles("product-growth-hacker", "product") == [
+            "phase-5-launch", "phase-4-hardening"
+        ]
 
     def test_design_brand_gets_strategy_launch(self):
         result = assign_roles("design-brand-strategist", "design")
-        assert result == ["phase-1-strategy", "phase-5-launch"]
+        assert result == [
+            "phase-1-strategy", "phase-5-launch", "phase-4-hardening"
+        ]
 
     def test_marketing_seo_gets_launch(self):
-        assert assign_roles("marketing-seo-specialist", "marketing") == ["phase-5-launch"]
+        assert assign_roles("marketing-seo-specialist", "marketing") == [
+            "phase-5-launch", "phase-4-hardening"
+        ]
 
     def test_legal_default(self):
         result = assign_roles("legal-compliance-attorney", "legal")
-        assert result == ["phase-0-discovery", "phase-1-strategy"]
+        assert result == [
+            "phase-0-discovery", "phase-1-strategy", "phase-4-hardening"
+        ]
 
     def test_data_science_engineer_gets_build(self):
         result = assign_roles("data-science-machine-learning-engineer", "data-science")
-        assert result == ["phase-2-foundation", "phase-3-build"]
+        assert result == [
+            "phase-2-foundation", "phase-3-build", "phase-4-hardening"
+        ]
 
 
 # ── main() function ─────────────────────────────────────────────────────────

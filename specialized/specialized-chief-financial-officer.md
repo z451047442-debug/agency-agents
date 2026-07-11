@@ -8,6 +8,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-0-discovery
+  - phase-4-hardening
 lifecycle: published
 
 depends_on:

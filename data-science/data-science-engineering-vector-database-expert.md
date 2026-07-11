@@ -8,6 +8,7 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 
 depends_on:

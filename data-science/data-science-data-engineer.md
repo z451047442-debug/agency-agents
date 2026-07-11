@@ -7,6 +7,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - data-science-engineering-data-lakes-warehouse

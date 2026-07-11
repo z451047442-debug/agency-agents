@@ -271,7 +271,7 @@ quality-report.py  analyze-deps.py  agent-lifecycle.py
 ### P2: Medium
 - [x] Agent duplication detection in CI (check-dupes.sh in extended job)
 - [x] i18n coverage tracking in CI (check-i18n.py --strict in extended job)
-- [ ] Agent versioning strategy (bump versions on content changes)
+- [x] Agent versioning strategy (docs/AGENT-VERSIONING.md)
 - [x] PR template + CODEOWNERS
 
 ### P3: Nice-to-Have

@@ -259,14 +259,14 @@ quality-report.py  analyze-deps.py  agent-lifecycle.py
 ## Gaps & Next Steps
 
 ### P0: Critical
-- [ ] PyPI package publishing (pyproject.toml ready, no publish workflow)
+- [ ] PyPI package publishing (pyproject.toml ready, publish workflow exists)
 - [ ] Install verification in CI (test install.sh end-to-end)
 - [ ] Git tag v1.0.0 + GitHub Release
 
 ### P1: High
-- [ ] Test coverage 52% -> 80% (quality-report 49%, lifecycle 26%, expand 29%)
-- [ ] mypy static type checking enforced in CI
-- [ ] Pre-commit hooks auto-install mechanism
+- [x] Test coverage 100% (903 tests, 3292 lines, 0 missed)
+- [ ] mypy static type checking enforced in CI (already runs in extended job)
+- [x] Pre-commit hooks auto-install mechanism (scripts/setup-hooks.sh)
 
 ### P2: Medium
 - [ ] Agent duplication detection in CI (check-dupes.sh already exists)
@@ -279,3 +279,8 @@ quality-report.py  analyze-deps.py  agent-lifecycle.py
 - [ ] Web-based agent browser/search UI
 - [ ] Automated agent generation from templates
 - [ ] Cross-tool agent sync verification
+- [x] NEXUS role rebalancing — Phase 4 Hardening 49→1,112 agents
+- [x] Cross-platform CI matrix (Windows + Ubuntu, Python 3.10-3.12)
+- [x] Shell→Python migration complete — all scripts have standalone .py files
+- [x] NEXUS orchestrator script (scripts/nexus-orchestrator.py)
+- [x] Coverage gate unified to 90% across local and CI

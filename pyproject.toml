@@ -1,9 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
 [project]
 name = "agency-agents"
 version = "1.0.0"
 description = "1000+ AI agent personality definitions for coding tools"
 readme = "README.md"
 requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "The Agency Contributors"}]
+keywords = ["ai", "agents", "claude-code", "cursor", "copilot", "gemini"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/z451047442-debug/agency-agents"
+Repository = "https://github.com/z451047442-debug/agency-agents"
+Issues = "https://github.com/z451047442-debug/agency-agents/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["scripts", "scripts._shared", "scripts.i18n"]
+
+[tool.setuptools.package-data]
+scripts = ["../*.md", "../**/*.md", "../AGENTS.json", "../divisions.json"]
 
 [project.optional-dependencies]
 dev = [

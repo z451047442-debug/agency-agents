@@ -4,10 +4,10 @@ description: 视觉设计、组件库与设计系统专家
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - design-figma-expert

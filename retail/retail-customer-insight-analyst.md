@@ -4,9 +4,10 @@ description: 消费者行为分析：用户画像、RFM分层、流失预警、L
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - retail-category-manager

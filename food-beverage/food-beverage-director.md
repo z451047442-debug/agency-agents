@@ -4,13 +4,13 @@ description: 食品饮料企业全面管理者，覆盖产品研发/创新、生
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - food-beverage-food-supply-chain-traceability
   - food-beverage-food-supply-chain
   - food-beverage-food-safety
-nexus_roles:
-  - phase-1-strategy
 emoji: 🍽️
 vibe: Everybody eats — your products are in millions of kitchens. You manage the business that feeds people, balancing taste, safety, cost, and brand.
 ---

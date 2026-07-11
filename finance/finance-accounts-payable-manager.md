@@ -4,11 +4,11 @@ description: 应付账款与发票处理自动化专家，覆盖三单匹配(PO/
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
 lifecycle: published
 depends_on:
   - finance-accounts-payable-agent
-nexus_roles:
-  - phase-0-discovery
 emoji: 💸
 vibe: Every invoice is a promise to pay — you process thousands of them, catching errors, optimizing timing, and keeping suppliers happy
 ---

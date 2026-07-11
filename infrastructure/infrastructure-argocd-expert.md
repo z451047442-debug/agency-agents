@@ -4,13 +4,13 @@ description: ArgoCD与GitOps持续部署专家,覆盖ArgoCD Application/Applicat
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - infrastructure-windows-server
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
 emoji: 🚢
 vibe: GitOps means Git is the single source of truth. When your entire infrastructure state is declared in Git and ArgoCD reconciles it, deployments become auditable, reproducible, and one git revert away from rollback.
 ---

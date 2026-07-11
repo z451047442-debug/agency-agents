@@ -4,9 +4,10 @@ description: 企业差旅与出行管理专家，覆盖差旅政策/预算管控
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - administration-contract-manager

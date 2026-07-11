@@ -4,9 +4,9 @@ description: 供应商质量管理专家，覆盖新供应商开发审核/准入
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - quality-customer-cqe

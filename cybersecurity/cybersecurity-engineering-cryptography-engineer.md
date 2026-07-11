@@ -4,10 +4,10 @@ description: 应用密码学与安全协议设计专家，覆盖对称/非对称
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - cybersecurity-engineering-security-architect-cloud

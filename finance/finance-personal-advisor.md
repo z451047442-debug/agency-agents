@@ -4,9 +4,9 @@ description: 家庭资产配置、保险规划、税务优化与养老/教育金
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent

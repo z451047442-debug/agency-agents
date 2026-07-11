@@ -4,9 +4,9 @@ description: ML 审计、特征分析与可解释性专家
 color: "#B22222"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-engineering-data-lakes-warehouse

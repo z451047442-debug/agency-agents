@@ -4,9 +4,10 @@ description: 彩票风控合规专家：反洗钱AML/KYC运营、游戏公正性
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - lottery-risk-manager

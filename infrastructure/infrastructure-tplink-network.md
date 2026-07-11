@@ -4,14 +4,14 @@ description: TP-Link企业网络设备专家，覆盖JetStream交换机、Omada 
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🟢
 vibe: TP-Link isn't just home routers anymore — JetStream switches and Omada SDN bring enterprise features to SMB budgets, and you know how to make them sing
 ---

@@ -4,9 +4,10 @@ description: 注塑模具/冲压模具/压铸模具与工装夹具设计专家�
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive

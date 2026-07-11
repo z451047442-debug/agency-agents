@@ -4,9 +4,10 @@ description: 快递与快运网络运营管理专家，覆盖分拨中心/转运
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - logistics-cold-chain-specialist

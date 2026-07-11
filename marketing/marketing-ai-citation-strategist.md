@@ -4,14 +4,14 @@ description: AEO/GEO、AI 推荐可见度与引用审计专家
 color: "#6D28D9"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-brand-strategist-name
   - marketing-paid-media-search-query-analyst
   - marketing-brand-strategist
-nexus_roles:
-  - phase-1-strategy
-  - phase-5-launch
 emoji: 🔮
 vibe: Figures out why the AI recommends your competitor and rewires the signals so it recommends you instead
 ---

@@ -4,9 +4,9 @@ description: 机器人运动规划与控制专家，覆盖正逆运动学/动力
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - robotics-ros-developer

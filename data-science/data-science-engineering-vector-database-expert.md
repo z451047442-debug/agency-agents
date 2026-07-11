@@ -4,9 +4,9 @@ description: Milvus/Pinecone/Weaviate、向量索引与 ANN 搜索优化专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - data-science-vector-db-architect

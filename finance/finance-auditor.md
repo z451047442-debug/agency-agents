@@ -4,9 +4,9 @@ description: 财务审计、内控审计、IT 审计与反舞弊调查专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent

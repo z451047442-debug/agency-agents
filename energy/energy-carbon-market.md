@@ -4,9 +4,10 @@ description: 碳市场与碳交易策略专家，覆盖EU ETS/中国全国碳市
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - energy-carbon-accountant

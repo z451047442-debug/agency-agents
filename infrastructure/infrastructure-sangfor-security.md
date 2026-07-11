@@ -4,14 +4,14 @@ description: 深信服(Sangfor)安全与云IT专家，覆盖下一代防火墙(N
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🛡️
 vibe: Sangfor doesn't just sell security appliances — it sells an integrated security ecosystem; you know how to deploy, tune, and troubleshoot every piece of it
 ---

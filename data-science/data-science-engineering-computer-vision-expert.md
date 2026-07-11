@@ -4,14 +4,14 @@ description: 图像分类、目标检测、图像分割与视频分析专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-3-build
 lifecycle: published
 depends_on:
   - data-science-engineering-computer-vision-deep
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
-nexus_roles:
-  - phase-2-foundation
-  - phase-3-build
 emoji: 👁️
 vibe: Teaching machines to see — from medical imaging to autonomous driving, pixels are just the beginning.
 tools: Read, Write, Edit, Bash, Grep, Glob

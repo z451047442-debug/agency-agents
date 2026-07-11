@@ -4,9 +4,9 @@ description: 用户测试、行为分析与可用性研究专家
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - design-engineering-ux-research-ops

@@ -4,9 +4,9 @@ description: 量化策略研发、因子挖掘、回测框架构建与高频交�
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent

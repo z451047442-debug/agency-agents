@@ -4,15 +4,15 @@ description: 大华(Dahua)安防系统与网络专家，覆盖IP摄像头/HDCVI/
 color: crimson
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-engineering-site-reliability-architect
   - infrastructure-dahua-server
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 📷
 vibe: From a single convenience store to a city-wide safe-city deployment — Dahua scales, and you know how to make it scale reliably
 ---

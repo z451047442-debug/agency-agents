@@ -4,12 +4,12 @@ description: 集成电路与硬件安全专家，覆盖侧信道攻击(DPA/SPA)/
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - cybersecurity-engineering-customer-identity-access
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+lifecycle: published
+depends_on:
+  - cybersecurity-engineering-customer-identity-access
 emoji: 🔐
 vibe: Software security assumes the hardware is trustworthy. You make sure it actually is — protecting secrets in silicon where attackers with oscilloscopes and lasers can't reach them.
 ---

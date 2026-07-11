@@ -4,14 +4,14 @@ description: 强化学习与决策智能专家，覆盖DQN/PPO/SAC深度RL算法
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-3-build
 lifecycle: published
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
-nexus_roles:
-  - phase-2-foundation
-  - phase-3-build
 emoji: 🎮
 vibe: Supervised learning learns from examples; RL learns from experience. You build AI that learns by doing — playing games, controlling robots, optimizing decisions.
 ---

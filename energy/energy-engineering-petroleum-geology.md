@@ -4,12 +4,13 @@ description: 油气勘探地质与地震解释专家，覆盖沉积盆地分析/
 color: brown
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-engineering-petroleum-drilling
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: 🔍
 vibe: Oil hides kilometers underground, invisible — you interpret the seismic waves, well logs, and rock samples that reveal where to drill
 ---

@@ -4,13 +4,13 @@ description: Solidity、Rust 与 Move 智能合约开发与安全审计专家
 color: "#7b2ff7"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - web3-engineering-solidity-smart-contract-engineer
   - web3-engineering-smart-contract-security
   - web3-smart-contract-dev
-nexus_roles:
-  - phase-3-build
 emoji: ⛓️
 vibe: Code is law. Every line you ship could move millions — no pressure.
 ---

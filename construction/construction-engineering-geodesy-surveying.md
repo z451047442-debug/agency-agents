@@ -4,9 +4,10 @@ description: 卫星大地测量与精密定位系统专家，覆盖GNSS(北斗/G
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-surveyor

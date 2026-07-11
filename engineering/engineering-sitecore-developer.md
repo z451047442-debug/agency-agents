@@ -4,9 +4,9 @@ description: Web前端性能优化与架构专家，覆盖Core Web Vitals(LCP/FI
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-nextjs-expert

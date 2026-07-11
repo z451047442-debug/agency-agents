@@ -4,9 +4,9 @@ description: 员工关系与劳动关系专家，覆盖员工投诉/纠纷处理
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - hr-director

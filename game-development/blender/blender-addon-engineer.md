@@ -4,9 +4,9 @@ description: Blender 工具开发专家 — 构建 Python 插件、资产验证�
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - unreal-engine-unreal-technical-artist

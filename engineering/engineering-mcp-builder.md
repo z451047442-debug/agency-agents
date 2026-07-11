@@ -4,9 +4,9 @@ description: Model Context Protocol 服务器与 AI Agent 工具链专家
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-nextjs-expert

@@ -4,12 +4,12 @@ description: 研发与科研项目管理专家，覆盖阶段关口(Stage-Gate)/
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - project-management-government-grant
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+lifecycle: published
+depends_on:
+  - project-management-government-grant
 emoji: 🔬
 vibe: Engineering projects build to spec; R&D projects build to discover. You manage the uncertainty — knowing that the path from idea to product is never a straight line.
 ---

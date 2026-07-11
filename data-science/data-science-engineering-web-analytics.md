@@ -4,10 +4,10 @@ description: 数字分析埋点与数据采集专家，覆盖Google Analytics 4/
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

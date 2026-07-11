@@ -4,9 +4,9 @@ description: 直接反应与转化导向文案撰写专家，覆盖销售页/Lan
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - marketing-abm-account-based

@@ -4,9 +4,9 @@ description: Excel 监控与销售指标提取（MTD/YTD）专家
 color: "#2b6cb0"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - sales-account-strategist

@@ -4,9 +4,9 @@ description: B2B销售赋能与销售内容管理专家，覆盖销售培训/认
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - marketing-field-marketing

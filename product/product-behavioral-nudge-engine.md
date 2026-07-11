@@ -4,10 +4,10 @@ description: 行为心理学、助推设计与用户激励专家
 color: "#FF8A65"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - product-ai-pm

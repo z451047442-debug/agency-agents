@@ -5,13 +5,13 @@ emoji: 🎠
 color: "#FF0050"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
-nexus_roles:
-  - phase-5-launch
 services:
   - name: Gemini API
     url: https://aistudio.google.com/app/apikey

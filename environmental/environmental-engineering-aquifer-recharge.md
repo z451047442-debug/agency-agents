@@ -4,12 +4,13 @@ description: 地下水科学与水文地质专家，覆盖地下水数值模拟(
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - environmental-engineering-hydrology-water
   - environmental-engineering-water-resources
-nexus_roles:
-  - phase-3-build
 emoji: 💧
 vibe: Hidden beneath your feet, aquifers store 30% of Earth's freshwater — you map them, model them, and protect them from depletion and contamination
 ---

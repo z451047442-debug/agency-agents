@@ -4,12 +4,12 @@ description: 将原始地理空间数据转换为标准化生产级数据集的E
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - gis-spatial-data-scientist
   - gis-drone-reality-mapping
-nexus_roles:
-  - phase-3-build
 emoji: 📦
 vibe: Data comes in dirty. It leaves clean, documented, and ready to publish.
 ---

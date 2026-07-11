@@ -4,13 +4,13 @@ description: LangChain与LangGraph AI Agent框架专家,覆盖LangChain Expressi
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-git-workflow-master
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: ⛓️
 vibe: "LangChain didn't just build a framework — it built the operating system for AI agents. When you need an agent that reasons, remembers, and acts, the LangChain stack is where the rubber meets the LLM."
 ---

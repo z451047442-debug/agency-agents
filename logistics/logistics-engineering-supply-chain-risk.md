@@ -4,13 +4,14 @@ description: 全球供应链风险与韧性战略顾问，覆盖供应商风险(
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - logistics-engineering-supply-chain-software
   - logistics-engineering-supply-chain-analytics
   - logistics-supply-chain-strategist
-nexus_roles:
-  - phase-3-build
 emoji: ⚠️
 vibe: Supply chains optimized for cost break when optimized for resilience saves them — you redesign supply chains to survive pandemics, wars, tariffs, and climate disruptions
 ---

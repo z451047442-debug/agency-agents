@@ -4,12 +4,12 @@ description: 主播培训、直播间优化与转化提升专家
 color: "#E63946"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-creative-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🎙️
 vibe: Coaches your livestream hosts from awkward beginners to million-yuan sellers.
 ---

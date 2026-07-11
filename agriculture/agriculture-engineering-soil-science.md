@@ -4,9 +4,10 @@ description: 土壤环境科学与污染场地修复专家，覆盖场地调查(
 color: brown
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - agriculture-agronomist

@@ -4,9 +4,10 @@ description: 体育器材与运动装备工程设计师，覆盖复合材料(碳
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-composites-manufacturing

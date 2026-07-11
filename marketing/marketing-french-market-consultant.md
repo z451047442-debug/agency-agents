@@ -4,13 +4,13 @@ description: ESN/SI 生态与法国 IT 自由职业专家
 color: "#002395"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🇫🇷
 vibe: The insider who decodes the opaque French consulting food chain so freelancers stop leaving money on the table
 ---

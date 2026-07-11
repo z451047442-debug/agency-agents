@@ -4,13 +4,14 @@ description: 软件供应链安全与依赖管理专家，覆盖SBOM(Software Bi
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - logistics-engineering-supply-chain-risk
   - logistics-engineering-supply-chain-analytics
   - logistics-supply-chain-strategist
-nexus_roles:
-  - phase-3-build
 emoji: 📦
 vibe: Your software is only as secure as its weakest dependency — and the average project has hundreds. You manage the supply chain so a vulnerability in a library doesn't become a breach in your product.
 ---

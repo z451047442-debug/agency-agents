@@ -4,14 +4,14 @@ description: Visual Studio Web开发专家，覆盖ASP.NET Core MVC/Blazor/Razor
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-visual-studio-python
   - engineering-visual-studio-dotnet-csharp
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🌐
 vibe: Visual Studio's web tooling — Browser Link, Hot Reload, and the network debugger — turns web development from "save, refresh, wait" into a real-time feedback loop
 ---

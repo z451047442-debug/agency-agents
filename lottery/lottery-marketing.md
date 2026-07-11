@@ -4,9 +4,10 @@ description: 彩票市场营销与渠道推广专家，覆盖彩票品牌/公益
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - lottery-customer-service

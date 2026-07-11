@@ -4,9 +4,9 @@ description: 思想领导力书籍、代笔写作与出版策略专家
 color: "#8B5E3C"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - marketing-kuaishou-strategist

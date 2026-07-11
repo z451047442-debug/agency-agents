@@ -4,9 +4,9 @@ description: 企业财务报告与会计控制专家，覆盖US GAAP/IFRS/中国
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-accounts-receivable

@@ -4,6 +4,8 @@ description: SLO、错误预算、可观测性与混沌工程专家
 color: "#e63946"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
@@ -11,8 +13,6 @@ depends_on:
   - infrastructure-engineering-site-reliability-automation
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-6-operate
 emoji: 🛡️
 vibe: Reliability is a feature. Error budgets fund velocity — spend them wisely.
 ---

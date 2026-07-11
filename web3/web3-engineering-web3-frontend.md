@@ -4,9 +4,9 @@ description: 去中心化应用(DApp)前端开发专家，覆盖ethers.js/wagmi/
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - web3-engineering-blockchain-developer

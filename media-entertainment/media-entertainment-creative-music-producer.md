@@ -4,9 +4,10 @@ description: 作曲编曲、混音母带、DAW/Ableton/Logic、音效设计 — 
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - media-entertainment-creative-sound-designer

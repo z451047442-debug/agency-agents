@@ -4,13 +4,13 @@ description: 销售数据聚合与仪表板报告专家
 color: "#38a169"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - data-science-engineering-computer-vision-deep
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
-nexus_roles:
-  - phase-3-build
 emoji: 🗄️
 vibe: Consolidates scattered sales data into live reporting dashboards.
 ---

@@ -4,10 +4,10 @@ description: 浪潮思科(Inspur-Cisco)合资网络设备专家，覆盖浪潮CN
 color: darkcyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

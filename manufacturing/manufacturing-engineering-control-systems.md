@@ -4,9 +4,10 @@ description: 经典与现代控制理论应用专家，覆盖PID/MPC模型预测
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-composites-manufacturing

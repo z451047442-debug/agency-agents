@@ -4,9 +4,10 @@ description: 空间感知与三维重建专家，覆盖多视图几何/SfM(Struc
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - spatial-computing-3d-asset-artist

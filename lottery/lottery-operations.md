@@ -4,9 +4,10 @@ description: 彩票零售与渠道运营专家，覆盖投注站选址/运营管
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - lottery-customer-service

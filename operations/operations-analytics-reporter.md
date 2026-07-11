@@ -4,12 +4,12 @@ description: 数据分析、仪表板与业务洞察专家
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - operations-report-distribution-agent
   - operations-executive-summary-generator
-nexus_roles:
-  - phase-6-operate
 emoji: 📊
 vibe: Transforms raw data into the insights that drive your next decision.
 ---

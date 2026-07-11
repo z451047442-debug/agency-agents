@@ -4,11 +4,12 @@ description: 空间交互设计与沉浸式 UX 专家（AR/VR/XR）
 color: neon-green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - spatial-computing-xr-cockpit-interaction-specialist
-nexus_roles:
-  - phase-3-build
 emoji: 🫧
 vibe: Designs spatial interfaces where interaction feels like instinct, not instruction.
 ---

@@ -4,9 +4,9 @@ description: 企业级可观测性平台架构专家，覆盖OpenTelemetry标准
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

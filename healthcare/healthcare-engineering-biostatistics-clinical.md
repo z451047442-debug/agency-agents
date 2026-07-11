@@ -4,11 +4,12 @@ description: 临床试验数据管理与SAS/R统计编程专家，覆盖CRF/eCRF
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: 💻
 vibe: Clinical trial data proves whether medicines work — you manage and analyze the data that regulators use to approve drugs that save lives
 ---

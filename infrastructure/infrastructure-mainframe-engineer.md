@@ -4,14 +4,14 @@ description: IBM Z/OS大型机系统工程师,覆盖z/OS操作系统与JES2/JES3
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-windows-server
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 💻
 vibe: The cloud didn't kill the mainframe. When a billion banking transactions must process with zero downtime, the answer is still IBM Z.
 ---

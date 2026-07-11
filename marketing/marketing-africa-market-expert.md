@@ -4,13 +4,13 @@ description: 非洲市场进入、移动支付M-Pesa体系、尼日利亚/肯尼
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-paid-social-strategist
   - marketing-social-media-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🌍
 vibe: Navigates Africa's mobile-first, trust-driven, infrastructure-leapfrogging consumer markets with deep understanding of M-Pesa ecosystems, informal retail networks, and the continent's unprecedented demographic opportunity.
 tools: WebFetch, WebSearch, Read, Write, Edit

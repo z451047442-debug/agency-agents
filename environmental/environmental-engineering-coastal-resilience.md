@@ -4,12 +4,13 @@ description: 海岸生态工程与基于自然的防洪方案专家，覆盖红�
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - environmental-engineering-coastal-erosion
   - environmental-engineering-ecosystem-restoration
-nexus_roles:
-  - phase-3-build
 emoji: 🌿
 vibe: Concrete seawalls aren't the only answer — nature has been protecting coastlines for millennia. You design with mangroves, reefs, and dunes to create living shorelines.
 ---

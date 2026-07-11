@@ -4,10 +4,10 @@ description: Microsoft Project与项目组合管理(PPM)专家，覆盖MS Projec
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-microsoft365

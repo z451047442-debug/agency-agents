@@ -4,9 +4,9 @@ description: 性能与混合架构专家 — 精通 C++/Blueprint 协作、Nanit
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - unreal-engine-unreal-technical-artist

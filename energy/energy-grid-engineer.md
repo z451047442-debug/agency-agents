@@ -4,9 +4,10 @@ description: 电力系统运行与维护：输配电网络、变电站、继电�
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - energy-engineering-power-systems

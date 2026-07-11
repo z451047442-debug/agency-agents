@@ -4,11 +4,12 @@ description: 可持续航空燃料认证与碳强度分析师，覆盖ASTM D7566
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - aerospace-engineering-aviation-sustainability
-nexus_roles:
-  - phase-3-build
 emoji: ✈️
 vibe: Sustainable aviation fuel is chemically identical to Jet A-1 but made from waste, not oil — you verify the carbon savings and certify the fuel to fly
 ---

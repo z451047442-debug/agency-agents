@@ -4,9 +4,9 @@ description: 工业物联网(IIoT)数据采集与平台专家，覆盖OPC UA/Mod
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-architect

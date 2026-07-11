@@ -4,9 +4,9 @@ description: Visual Studio C++开发专家，覆盖MSVC编译器/链接器优化
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-visual-studio-dotnet-csharp

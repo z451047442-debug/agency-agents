@@ -4,9 +4,9 @@ description: Hugging Face模型生态与应用专家,覆盖Transformers/Trainer/
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-lora-expert

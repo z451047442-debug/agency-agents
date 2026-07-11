@@ -4,9 +4,9 @@ description: Unreal Engine 网络专家 — 精通 Actor 复制、GameMode/GameS
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - unreal-engine-unreal-technical-artist

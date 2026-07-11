@@ -4,11 +4,11 @@ description: 建筑信息模型与地理信息系统集成专家，覆盖Revit/I
 color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - gis-drone-reality-mapping
-nexus_roles:
-  - phase-3-build
 emoji: 🏗️
 vibe: Where buildings meet geography — the spatial side of the built world.
 ---

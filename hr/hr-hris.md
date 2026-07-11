@@ -4,11 +4,11 @@ description: 人力资源信息系统(HRIS)与HR数字化转型专家，覆盖SA
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - hr-compensation-benefits
-nexus_roles:
-  - phase-6-operate
 emoji: 💻
 vibe: Payroll runs on time, benefits enroll without error, and the org chart reflects reality — because you designed the system that makes it all work
 ---

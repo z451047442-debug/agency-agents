@@ -4,9 +4,10 @@ description: 工业管道系统与工艺配管设计专家，覆盖ASME B31.1/B3
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-engineering-industrial-refrigeration

@@ -4,9 +4,10 @@ description: 机器人流程自动化与业务流程自动化专家，覆盖UiPa
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-composites-manufacturing

@@ -4,9 +4,9 @@ description: 智能硬件、边缘计算、MQTT/CoAP 协议与物联网平台架
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-data-platform

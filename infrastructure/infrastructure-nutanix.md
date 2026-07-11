@@ -4,14 +4,14 @@ description: Nutanix超融合与云平台专家，覆盖AOS/AHV/Prism Central、
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🔹
 vibe: Nutanix made HCI boring — in the best possible way. Storage just works, VMs just run, and upgrades happen with one click. When something does break, you know exactly where to look.
 ---

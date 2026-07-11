@@ -4,9 +4,9 @@ description: 区域营销与线下活动执行专家，覆盖区域市场拓展/
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - marketing-kuaishou-strategist

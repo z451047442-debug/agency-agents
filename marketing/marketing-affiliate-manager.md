@@ -4,9 +4,9 @@ description: 联盟营销与渠道合作伙伴管理专家，覆盖联盟网络(
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - marketing-abm-account-based

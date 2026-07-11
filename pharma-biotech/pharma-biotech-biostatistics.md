@@ -4,11 +4,12 @@ description: 临床试验生物统计专家，覆盖临床试验设计(样本量
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - pharma-biotech-pharma-clinical-trials
-nexus_roles:
-  - phase-3-build
 emoji: 📈
 vibe: Statistics turns data into evidence — you design the trials and analyze the data that determine whether a drug is safe and effective
 ---

@@ -4,12 +4,13 @@ description: 食品加工工艺与工业化生产专家，覆盖热加工(巴氏
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - food-beverage-engineering-food-sensory
   - food-beverage-food-safety
-nexus_roles:
-  - phase-3-build
 emoji: 🏭
 vibe: Making food in a test kitchen is cooking; making it in a factory at 10,000 units per hour is engineering. You bridge the gap.
 ---

@@ -4,6 +4,8 @@ description: AWS云架构与解决方案专家,覆盖Well-Architected Framework�
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
@@ -11,8 +13,6 @@ depends_on:
   - infrastructure-storage-backup
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-1-strategy
 emoji: ☁️
 vibe: AWS has 200+ services. The architect who knows which 20 matter and applies all six Well-Architected pillars saves the company from a six-figure surprise bill.
 ---

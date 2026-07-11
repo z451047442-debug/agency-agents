@@ -4,9 +4,9 @@ description: 物联网数据平台与流处理专家，覆盖时序数据库(Inf
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-engineering-iot-engineer

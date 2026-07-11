@@ -4,10 +4,10 @@ description: 跨职能协调、时间轴管理与端到端项目统筹专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator

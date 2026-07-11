@@ -4,9 +4,9 @@ description: 人工智能伦理与负责任AI治理专家，覆盖AI公平性/Fa
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

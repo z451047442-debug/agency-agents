@@ -4,9 +4,9 @@ description: Docker、Kubernetes 集群管理与微服务容器化部署专家
 color: "#326ce5"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+lifecycle: published
 
 depends_on:
   - infrastructure-engineering-kubernetes-expert

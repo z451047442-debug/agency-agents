@@ -4,9 +4,9 @@ description: 转让定价与跨境税务筹划专家，覆盖关联交易/独立
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent

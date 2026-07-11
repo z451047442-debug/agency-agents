@@ -4,12 +4,12 @@ description: 机器人控制理论与实时控制系统专家，覆盖反馈/前
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - robotics-motion-control
   - robotics-engineering-industrial-robotics
-nexus_roles:
-  - phase-3-build
 emoji: 🎛️
 vibe: A robot is only as precise as its control loop — you write the algorithms that make machines move with micron precision at maximum speed
 ---

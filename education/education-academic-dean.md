@@ -4,11 +4,12 @@ description: 高等教育学术管理者，覆盖学科建设/课程发展、师
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - education-academic-research-scientist
-nexus_roles:
-  - phase-3-build
 emoji: 📚
 vibe: A university department is a small enterprise of knowledge — you lead the faculty, manage the curriculum, and shape the next generation of scholars.
 ---

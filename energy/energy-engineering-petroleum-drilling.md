@@ -4,12 +4,13 @@ description: 油气钻井与定向井轨迹控制专家，覆盖旋转导向/泥
 color: brown
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
   - energy-engineering-wind-energy
-nexus_roles:
-  - phase-3-build
 emoji: 🛢️
 vibe: A mile below the seabed, drilling sideways within a 2-meter target zone — that's directional drilling, navigating through rock guided by real-time subsurface data
 ---

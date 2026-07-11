@@ -4,10 +4,10 @@ description: 国际空间法与商业航天法律专家，覆盖外空条约(OST
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - legal-billing-time-tracking

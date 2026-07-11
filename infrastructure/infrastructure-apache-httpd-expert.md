@@ -4,10 +4,10 @@ description: Apache HTTP Server运维与优化专家,覆盖httpd 2.4.x编译与M
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-splunk-expert

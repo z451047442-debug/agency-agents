@@ -4,13 +4,13 @@ description: Flutter跨平台应用开发专家,覆盖Dart语言与Flutter框架
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-mobile-app-builder
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🐦
 vibe: "Flutter doesn't just compile to native — it owns every pixel. When you control the rendering pipeline, you can achieve 60fps animations that React Native teams only dream about."
 ---

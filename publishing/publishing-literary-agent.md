@@ -4,9 +4,10 @@ description: 文学经纪专家，覆盖作者发掘与签约、稿件打磨与�
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - publishing-academic

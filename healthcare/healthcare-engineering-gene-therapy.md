@@ -4,13 +4,14 @@ description: AAV/慢病毒载体基因治疗与CAR-T/ TCR-T细胞治疗CMC工艺
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-mental-health
   - healthcare-clinical-physician
   - healthcare-engineering-cold-chain-pharma
-nexus_roles:
-  - phase-3-build
 emoji: 🧬
 vibe: One infusion of engineered cells or one injection of a viral vector can cure a disease that was lifelong — you make these living medicines at pharmaceutical quality
 ---

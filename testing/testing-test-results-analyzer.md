@@ -4,9 +4,9 @@ description: 测试评估、质量指标分析与覆盖率报告专家
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - testing-playwright-expert

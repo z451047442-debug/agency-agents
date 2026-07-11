@@ -4,9 +4,9 @@ description: 自愈数据管道、离线 SLM 与语义聚类专家
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-llamaindex-expert

@@ -4,9 +4,10 @@ description: 座舱控制系统与沉浸式控制界面专家
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - spatial-computing-3d-asset-artist

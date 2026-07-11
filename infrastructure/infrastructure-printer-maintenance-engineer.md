@@ -4,10 +4,10 @@ description: 打印机通用运维与技术支持专家，覆盖多品牌(HP/Eps
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-windows-server

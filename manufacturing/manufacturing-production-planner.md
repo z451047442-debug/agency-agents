@@ -4,9 +4,10 @@ description: 生产计划与高级排程专家，覆盖MPS主计划/MRP物料需
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive

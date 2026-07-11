@@ -4,9 +4,10 @@ description: 无机非金属材料与高温过程专家，覆盖玻璃熔制/浮
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive

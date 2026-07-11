@@ -5,9 +5,9 @@ description: 顾问式 B2B 销售外呼专家，覆盖冷线索挖掘、线索�
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - sales-discovery-coach

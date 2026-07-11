@@ -4,12 +4,12 @@ description: 技术专利与知识产权工程专家，覆盖专利检索/现有
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - legal-engineering-legal-document-automation
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
+depends_on:
+  - legal-engineering-legal-document-automation
 emoji: 📜
 vibe: An invention without a patent is a gift to your competitors. You translate engineering innovation into legal protection that creates lasting competitive advantage.
 ---

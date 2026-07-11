@@ -4,12 +4,12 @@ description: 全球 UX、多元呈现与文化排斥规避专家
 color: "#FFA000"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - design-image-prompt-engineer
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+lifecycle: published
+depends_on:
+  - design-image-prompt-engineer
 emoji: 🌍
 vibe: Detects invisible exclusion and ensures your software resonates across cultures.
 ---

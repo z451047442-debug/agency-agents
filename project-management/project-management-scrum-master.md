@@ -4,11 +4,11 @@ description: 敏捷开发与Scrum专家，覆盖Scrum/Kanban/SAFe框架、团队
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - project-management-agile-coach
-nexus_roles:
-  - phase-3-build
 emoji: 🏃
 vibe: Agile isn't stand-ups and sticky notes — it's a discipline of delivering value every sprint, inspecting and adapting, and teaching teams to solve their own problems
 ---

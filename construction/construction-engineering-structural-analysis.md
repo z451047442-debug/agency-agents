@@ -4,9 +4,10 @@ description: 高级结构有限元分析与仿真专家，覆盖非线性FEA(材
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

@@ -4,9 +4,10 @@ description: 申请人跟踪系统(ATS)实施顾问，覆盖ATS选型评估与RF
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - hr-tech-hrtech-ex-designer

@@ -4,10 +4,10 @@ description: VMware vSphere/数据中心虚拟化专家，覆盖ESXi/vCenter/vSA
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-digital-workplace

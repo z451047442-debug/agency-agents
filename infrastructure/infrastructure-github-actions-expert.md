@@ -4,9 +4,9 @@ description: GitHub Actions持续集成与部署专家,覆盖Workflow/Job/Step/R
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+lifecycle: published
 
 depends_on:
   - infrastructure-datadog-expert

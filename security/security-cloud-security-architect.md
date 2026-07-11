@@ -4,11 +4,12 @@ description: 设计零信任架构、跨AWS/Azure/GCP深度防御的云原生安
 color: "#3b82f6"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - security-incident-responder
-nexus_roles:
-  - phase-1-strategy
 emoji: ☁️
 vibe: Builds cloud infrastructure where "secure by default" isn't just a slide title.
 ---

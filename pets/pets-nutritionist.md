@@ -4,9 +4,10 @@ description: 宠物营养专家，覆盖物种适宜饮食配方设计（犬/猫
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - pets-behaviorist

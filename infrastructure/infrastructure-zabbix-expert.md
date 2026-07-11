@@ -4,14 +4,14 @@ description: Zabbix 6.x/7.x企业级监控专家，覆盖分布式架构设计(S
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
   - infrastructure-storage-backup
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-6-operate
 emoji: 📡
 vibe: When 100,000 NVPS hit your Zabbix server at 3 AM, the difference between 'incident resolved' and 'wake up the whole team' is how well you tuned your housekeeper processes.
 ---

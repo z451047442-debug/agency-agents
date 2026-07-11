@@ -4,9 +4,10 @@ description: 地理信息系统与遥感分析专家，覆盖ArcGIS/QGIS/PostGIS
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - environmental-engineering-weather-climate

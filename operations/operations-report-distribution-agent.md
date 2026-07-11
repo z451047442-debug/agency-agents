@@ -4,9 +4,9 @@ description: 自动化报告交付与按区域定时发送专家
 color: "#d69e2e"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - operations-analytics-reporter

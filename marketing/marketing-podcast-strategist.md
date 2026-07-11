@@ -4,14 +4,14 @@ description: 播客内容策略与平台运营专家
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
   - marketing-china-market-localization-strategist
-nexus_roles:
-  - phase-1-strategy
-  - phase-5-launch
 emoji: 🎧
 vibe: Guides your podcast from concept to loyal audience in China's booming audio scene.
 ---

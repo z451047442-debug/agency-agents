@@ -4,9 +4,10 @@ description: 有砟/无砟轨道结构与铁路基础设施专家，覆盖轨道
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

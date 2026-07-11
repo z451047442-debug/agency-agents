@@ -4,9 +4,10 @@ description: 可再生能源系统设计与评估专家，覆盖太阳能光伏/
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - environmental-carbon-management

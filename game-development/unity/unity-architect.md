@@ -4,9 +4,9 @@ description: ScriptableObjects、数据驱动模块化与 DOTS/ECS 专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - unity-shader-graph-artist

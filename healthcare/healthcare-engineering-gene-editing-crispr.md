@@ -4,12 +4,13 @@ description: 基因编辑(Gene Editing)作物育种与农业生物技术专家�
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
-nexus_roles:
-  - phase-3-build
 emoji: 🌾
 vibe: CRISPR edits DNA with surgical precision — you design the guide RNAs that create disease-resistant wheat, drought-tolerant rice, and healthier vegetable oil
 ---

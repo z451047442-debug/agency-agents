@@ -4,13 +4,14 @@ description: 外贸跟单与订单执行专家，覆盖国际贸易合同审核(
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - logistics-last-mile-delivery
   - logistics-engineering-supply-chain-risk
   - logistics-customs-broker
-nexus_roles:
-  - phase-3-build
 emoji: 📋
 vibe: A signed PO is just the starting gun. Between contract and payment are 47 documents, 12 handoffs, and a thousand ways for a shipment to go wrong. The ops specialist catches them all before they become claims.
 ---

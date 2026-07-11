@@ -4,9 +4,9 @@ description: 实时渲染与计算机图形学专家，覆盖OpenGL/Vulkan/Metal
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

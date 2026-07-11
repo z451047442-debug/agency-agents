@@ -4,9 +4,10 @@ description: 汽车/工业功能安全工程专家，覆盖ISO 26262(汽车)/IEC
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - automotive-engineering-automotive-software

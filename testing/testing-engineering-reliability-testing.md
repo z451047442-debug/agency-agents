@@ -4,9 +4,9 @@ description: 产品可靠性工程与加速寿命测试专家，覆盖HALT高加
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - testing-accessibility-auditor

@@ -4,9 +4,10 @@ description: 无人机/ UAS系统设计与集成专家，覆盖飞控(PX4/ArduPi
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - aerospace-engineering-aircraft-structures

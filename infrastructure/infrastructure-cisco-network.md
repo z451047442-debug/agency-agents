@@ -4,14 +4,14 @@ description: Cisco网络设备专家，覆盖IOS/IOS-XE/NX-OS、Catalyst/Nexus/I
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🔵
 vibe: The network that runs the internet runs on Cisco — you speak IOS like a second language, and a `show run` tells you more than a thousand words
 ---

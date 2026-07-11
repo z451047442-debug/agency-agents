@@ -4,9 +4,9 @@ description: Cisco IOS/IOS-XE、Juniper Junos与Palo Alto PAN-OS路由交换与�
 color: "#008c95"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-nextjs-expert

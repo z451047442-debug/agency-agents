@@ -4,11 +4,12 @@ description: 制造工厂全面管理者，覆盖生产运营/产出效率、质
 color: slate
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - manufacturing-supply-chain-planner
-nexus_roles:
-  - phase-3-build
 emoji: 🏭
 vibe: The factory floor is where strategy becomes product — you run the place that makes the thing the company sells, and if it doesn't run, nothing else matters
 ---

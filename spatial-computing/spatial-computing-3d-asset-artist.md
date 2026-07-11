@@ -4,9 +4,10 @@ description: 3D资产与数字内容创作专家，覆盖建模/雕刻、PBR材�
 color: pink
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - spatial-computing-ar-filter-creator

@@ -4,9 +4,9 @@ description: 触觉技术与力反馈系统专家，覆盖压电/线性马达(LR
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - robotics-automation-engineer

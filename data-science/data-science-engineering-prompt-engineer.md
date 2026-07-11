@@ -4,10 +4,10 @@ description: Prompt 设计优化、Few-shot/Chain-of-Thought 与模型行为调�
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

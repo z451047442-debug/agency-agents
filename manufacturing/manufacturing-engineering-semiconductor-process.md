@@ -4,11 +4,11 @@ description: 晶圆制造工艺与良率提升专家，覆盖光刻/蚀刻/CVD/P
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
-nexus_roles:
-  - phase-1-strategy
 emoji: 💎
 vibe: A single particle can kill a chip — you control the billion-dollar cleanroom where silicon becomes circuitry at nanometer precision
 ---

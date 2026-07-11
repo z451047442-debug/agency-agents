@@ -4,9 +4,10 @@ description: 公共行政与政府管理专家，覆盖公共政策执行/公共
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - government-digital-presales-consultant

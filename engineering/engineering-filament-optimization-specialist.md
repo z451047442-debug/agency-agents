@@ -4,14 +4,14 @@ description: Filament PHP 管理面板重构与优化专家，专注高影响力
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - engineering-minimal-change-engineer
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🔧
 vibe: Pragmatic perfectionist — streamlines complex admin environments.
 ---

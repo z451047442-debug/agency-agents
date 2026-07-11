@@ -4,12 +4,13 @@ description: 生物墨水与活细胞3D打印专家，覆盖挤出式/喷墨式/
 color: pink
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
-nexus_roles:
-  - phase-3-build
 emoji: 🖨️
 vibe: Printing living human tissue layer by layer — skin for burn victims, cartilage for joints, eventually whole organs. That's bioprinting.
 ---

@@ -4,9 +4,10 @@ description: 虚拟现实(VR)应用与沉浸式体验开发专家，覆盖Unity/
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - spatial-computing-3d-asset-artist

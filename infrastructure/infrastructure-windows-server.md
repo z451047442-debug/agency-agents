@@ -4,6 +4,9 @@ description: Windows Server与Active Directory专家，覆盖AD DS/DNS/DHCP/组�
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-backup-admin
@@ -11,9 +14,6 @@ depends_on:
   - infrastructure-storage-backup
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🪟
 vibe: Active Directory is the backbone of enterprise IT — when it's healthy, nobody notices; when it breaks, nobody can work. You keep the domain humming.
 ---

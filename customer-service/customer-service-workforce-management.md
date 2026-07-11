@@ -4,9 +4,9 @@ description: 客服中心劳动力管理与排班专家，覆盖话务量预测/
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - customer-service-call-center

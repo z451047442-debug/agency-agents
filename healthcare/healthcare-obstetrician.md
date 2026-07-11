@@ -4,12 +4,13 @@ description: 产科与围产期保健专家，覆盖孕期管理/产前筛查、
 color: pink
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
   - healthcare-emergency-medicine
-nexus_roles:
-  - phase-3-build
 emoji: 🤰
 vibe: You care for two patients at once — guiding mothers safely through pregnancy and bringing new lives into the world
 ---

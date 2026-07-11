@@ -4,9 +4,10 @@ description: 赞助开发专家，覆盖赞助权益包/分层体系设计、潜
 color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - events-conference

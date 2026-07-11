@@ -4,9 +4,10 @@ description: 企业采购与供应链管理专家，覆盖供应商寻源/评估
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - administration-contract-manager

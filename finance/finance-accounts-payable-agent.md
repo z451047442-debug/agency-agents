@@ -4,11 +4,11 @@ description: 支付处理、供应商管理与自主支付专家
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
 lifecycle: published
 depends_on:
   - finance-accounts-payable-manager
-nexus_roles:
-  - phase-0-discovery
 emoji: 💸
 vibe: Moves money across any rail — crypto, fiat, stablecoins — so you don't have to.
 ---

@@ -4,9 +4,9 @@ description: 移动推送与消息触达策略专家，覆盖App Push/短信/微
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - marketing-abm-account-based

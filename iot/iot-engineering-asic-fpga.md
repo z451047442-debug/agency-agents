@@ -4,9 +4,9 @@ description: 数字集成电路与FPGA设计专家，覆盖Verilog/VHDL/SystemVe
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-architect

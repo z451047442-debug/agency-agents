@@ -4,9 +4,10 @@ description: 可持续城市规划与城市设计专家，覆盖总体规划/控
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

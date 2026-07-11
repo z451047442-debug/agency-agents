@@ -4,11 +4,12 @@ description: 城市固废焚烧发电与飞灰/炉渣处理专家，覆盖机械
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: 🔥
 vibe: One person's trash is another's megawatt-hour — you design the plants that turn garbage into electricity while keeping dioxins and heavy metals out of the air
 ---

@@ -4,9 +4,10 @@ description: 快消品品牌经理，覆盖通路营销策略、经销商/批发
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - retail-category-manager

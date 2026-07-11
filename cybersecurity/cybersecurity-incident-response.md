@@ -4,12 +4,12 @@ description: 安全事件响应(IR)专家，覆盖入侵检测、应急响应、
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - cybersecurity-engineering-customer-identity-access
 nexus_roles:
   - phase-4-hardening
   - phase-6-operate
+lifecycle: published
+depends_on:
+  - cybersecurity-engineering-customer-identity-access
 emoji: 🚨
 vibe: When the alarms go off at 3AM, you're the one who stays calm, follows the evidence, and kicks the attacker out before the damage spreads
 ---

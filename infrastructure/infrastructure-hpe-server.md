@@ -4,10 +4,10 @@ description: HPE ProLiant/ Synergy服务器与存储专家，覆盖iLO/OneView�
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-datadog-expert

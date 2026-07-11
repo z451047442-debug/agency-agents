@@ -4,14 +4,14 @@ description: 机器学习模型部署、AI 集成与数据管道专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-graph-database
   - engineering-multi-agent-systems-architect
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🤖
 vibe: Turns ML models into production features that actually scale.
 ---

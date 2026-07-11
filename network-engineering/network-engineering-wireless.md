@@ -4,9 +4,11 @@ description: 无线/移动网络规划优化专家，覆盖WiFi设计/勘测/排
 color: sky
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+  - phase-4-hardening
+  - phase-6-operate
+lifecycle: published
 
 depends_on:
   - network-engineering-architect

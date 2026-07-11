@@ -4,9 +4,9 @@ description: 交互式地图应用全栈开发专家，覆盖 MapLibre GL JS、A
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - gis-3d-scene-developer

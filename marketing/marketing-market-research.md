@@ -4,9 +4,9 @@ description: 市场研究与消费者洞察专家，覆盖定量/定性研究方
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - marketing-abm-account-based

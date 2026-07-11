@@ -4,9 +4,9 @@ description: 企业并购与投资银行顾问，覆盖并购目标筛选/估值
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent

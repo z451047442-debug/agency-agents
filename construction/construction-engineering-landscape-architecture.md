@@ -4,9 +4,10 @@ description: 可持续景观与城市生态设计专家，覆盖雨水花园/生
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

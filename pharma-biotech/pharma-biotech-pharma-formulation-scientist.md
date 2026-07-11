@@ -4,12 +4,13 @@ description: 药物制剂与递送系统专家，覆盖口服固体制剂/注射
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - pharma-biotech-pharma-clinical-trials
   - pharma-biotech-pharma-drug-discovery
-nexus_roles:
-  - phase-3-build
 emoji: 💊
 vibe: The molecule matters, but the formulation determines whether it actually reaches the right place in the body at the right concentration
 ---

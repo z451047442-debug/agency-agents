@@ -4,9 +4,10 @@ description: 纯电/混动汽车整车热管理系统专家，覆盖热泵系统
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - automotive-adas-engineer

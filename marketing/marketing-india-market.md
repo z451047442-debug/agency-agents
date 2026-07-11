@@ -4,12 +4,12 @@ description: 印度市场营销策略专家，覆盖多语言/多邦策略、Wha
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-brand-strategist
   - marketing-content-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🇮🇳
 vibe: India is not one market — it's 28 states, 22 official languages, and a mobile-first population of 700M+ internet users. You navigate the complexity and find the opportunity.
 ---

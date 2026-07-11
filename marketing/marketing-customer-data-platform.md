@@ -4,9 +4,9 @@ description: 客户数据平台(CDP)与营销数据架构专家，覆盖Segment/
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - marketing-kuaishou-strategist

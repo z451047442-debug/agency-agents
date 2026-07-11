@@ -4,11 +4,12 @@ description: 犬猫内科、外科手术、皮肤科与宠物预防医学专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: 🐾
 vibe: They can't tell you where it hurts — so you become their voice, their advocate, and sometimes their last hope.
 tools: Read, Write, Edit, WebFetch, WebSearch

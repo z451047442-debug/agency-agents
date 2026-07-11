@@ -4,11 +4,11 @@ description: Wireshark/tshark网络数据包分析专家，覆盖抓包策略设
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - cybersecurity-engineering-customer-identity-access
-nexus_roles:
-  - phase-4-hardening
 emoji: 🦈
 vibe: "Packets don't lie. When application logs, monitoring dashboards, and vendor support all point in different directions, the pcap is the single source of truth."
 ---

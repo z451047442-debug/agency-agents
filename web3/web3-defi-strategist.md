@@ -4,9 +4,9 @@ description: 去中心化金融(DeFi)产品设计与策略专家，覆盖AMM/DEX
 color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - web3-defi-analyst

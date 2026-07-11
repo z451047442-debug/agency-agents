@@ -4,9 +4,10 @@ description: 技术分析与量化择时专家，覆盖K线/均线/布林/RSI/MA
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - securities-compliance-officer

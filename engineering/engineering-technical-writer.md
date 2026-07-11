@@ -4,9 +4,9 @@ description: 开发者文档、API 参考手册与教程撰写专家
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-mongodb-expert

@@ -4,13 +4,13 @@ description: LSP 实现、代码智能与语义索引专家
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-git-workflow-master
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🔎
 vibe: Builds unified code intelligence through LSP orchestration and semantic indexing.
 ---

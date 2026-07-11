@@ -4,10 +4,10 @@ description: AI 图像生成提示词、摄影风格指令专家
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - design-brand-guardian

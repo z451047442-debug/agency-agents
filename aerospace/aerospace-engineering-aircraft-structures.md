@@ -4,9 +4,10 @@ description: 民用飞机金属与复合材料结构静力/疲劳/损伤容限�
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - aerospace-engineering-aviation-engineering

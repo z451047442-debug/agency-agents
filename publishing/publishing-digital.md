@@ -4,9 +4,10 @@ description: 数字出版专家，覆盖电子书/有声书制作、数字分发
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - publishing-academic

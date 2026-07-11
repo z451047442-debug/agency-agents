@@ -4,9 +4,10 @@ description: 政策研究、影响评估、政策建议与法规分析专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - government-digital-presales-consultant

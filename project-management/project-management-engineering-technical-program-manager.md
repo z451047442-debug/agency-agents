@@ -4,10 +4,10 @@ description: 跨团队技术项目管理专家，覆盖大型技术项目规划/
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - project-management-rd-manager

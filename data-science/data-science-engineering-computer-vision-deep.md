@@ -4,6 +4,9 @@ description: 深度学习与计算机视觉算法专家，覆盖CNN/Transformer/
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-3-build
 lifecycle: published
 depends_on:
   - data-science-engineering-deep-learning-training
@@ -11,9 +14,6 @@ depends_on:
   - data-science-engineering-computer-vision-expert
   - data-science-data-engineer
   - data-science-engineering-customer-data-science
-nexus_roles:
-  - phase-2-foundation
-  - phase-3-build
 emoji: 👁️
 vibe: Machines that can see transform industries — from autonomous driving to medical diagnosis. You build the neural networks that give computers visual intelligence.
 ---

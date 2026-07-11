@@ -4,9 +4,10 @@ description: 汽车车载网络与总线系统专家，覆盖CAN/CAN FD/LIN/Flex
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - automotive-engineering-automotive-systems

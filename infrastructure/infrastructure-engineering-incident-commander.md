@@ -4,9 +4,9 @@ description: 重大技术事故应急指挥专家，覆盖事故分级/升级机
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 depends_on:
   - infrastructure-engineering-sre
   - infrastructure-engineering-incident-response-commander

@@ -4,9 +4,9 @@ description: 开放世界与环境专家 — 精通 UE5 World Partition、Landsc
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - unreal-engine-unreal-multiplayer-architect

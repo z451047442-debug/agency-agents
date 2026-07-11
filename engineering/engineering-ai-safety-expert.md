@@ -4,13 +4,13 @@ description: AI安全、对齐与负责任AI专家,覆盖RLHF/DPO/Constitutional
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-minimal-change-engineer
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🛡️
 vibe: "A powerful model without safety is a liability. The alignment engineer is the one who makes sure your AI says 'I can't help with that' to a dangerous request and actually helps with the safe ones."
 ---

@@ -4,9 +4,9 @@ description: GraphQL API设计与架构专家,覆盖GraphQL Schema设计(SDL/Cod
 color: pink
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-nextjs-expert

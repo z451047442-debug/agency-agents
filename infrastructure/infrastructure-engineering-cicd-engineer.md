@@ -4,14 +4,14 @@ description: 持续集成、持续交付与 GitOps 部署自动化专家
 color: "#1a73e8"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🔄
 vibe: Push to main, watch it fly. Your pipeline is the team's heartbeat — keep it steady.
 ---

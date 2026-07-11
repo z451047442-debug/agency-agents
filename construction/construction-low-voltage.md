@@ -4,9 +4,10 @@ description: 弱电与智能化系统设计与施工专家，覆盖综合布线/
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

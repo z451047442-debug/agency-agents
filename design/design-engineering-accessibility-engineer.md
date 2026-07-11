@@ -4,10 +4,10 @@ description: Web/移动端无障碍(A11y)工程专家，覆盖WCAG 2.2/AAA合规
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - design-engineering-ux-engineer

@@ -4,9 +4,10 @@ description: 零售防损与资产保护专家，覆盖店铺内外盗/员工舞
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - retail-category-manager

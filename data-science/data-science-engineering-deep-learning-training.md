@@ -4,10 +4,10 @@ description: 千卡/万卡级大模型分布式训练系统专家，覆盖数据
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

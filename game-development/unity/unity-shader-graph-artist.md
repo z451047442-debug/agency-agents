@@ -4,9 +4,9 @@ description: Shader Graph、HLSL、URP/HDRP 与渲染特性专家
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - game-development-technical-artist

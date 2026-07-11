@@ -4,9 +4,9 @@ description: 建设性代码审查、安全与可维护性评估专家
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - engineering-swiftui-expert

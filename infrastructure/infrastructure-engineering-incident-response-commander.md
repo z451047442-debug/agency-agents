@@ -4,9 +4,9 @@ description: 事件管理、故障复盘与值班应急专家
 color: "#e63946"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-apache-httpd-expert

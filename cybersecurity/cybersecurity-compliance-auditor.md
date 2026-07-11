@@ -4,11 +4,12 @@ description: SOC2/ISO27001/HIPAA/PCI-DSS 合规认证指导专家
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - cybersecurity-engineering-customer-identity-access
-nexus_roles:
-  - phase-1-strategy
 emoji: 📋
 vibe: Walks you from readiness assessment through evidence collection to SOC 2 certification.
 ---

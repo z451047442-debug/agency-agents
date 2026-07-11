@@ -4,9 +4,10 @@ description: 电池数学模型与BMS算法专家，覆盖电化学/等效电路
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - automotive-adas-engineer

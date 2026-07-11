@@ -4,9 +4,9 @@ description: 游戏质量保证与测试专家，覆盖功能测试/关卡测试
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - blender-addon-engineer

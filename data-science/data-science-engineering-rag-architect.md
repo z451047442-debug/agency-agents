@@ -4,9 +4,9 @@ description: 检索增强生成、文档分块策略、向量检索优化与查�
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

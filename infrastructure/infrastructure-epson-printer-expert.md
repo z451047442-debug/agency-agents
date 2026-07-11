@@ -4,10 +4,10 @@ description: Epson(爱普生)打印机与影像解决方案专家，覆盖WorkFo
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-datadog-expert

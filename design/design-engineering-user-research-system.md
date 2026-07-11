@@ -4,9 +4,9 @@ description: 产品用户体验指标与数据驱动优化专家，覆盖HEART/P
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - design-engineering-quant-ux-researcher

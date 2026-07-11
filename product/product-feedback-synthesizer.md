@@ -4,10 +4,10 @@ description: 用户反馈分析、洞察提取与产品优先级专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - product-ai-pm

@@ -4,11 +4,11 @@ description: 销售代表成长、通话辅导与管道审查促进专家
 color: "#E65100"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - sales-discovery-coach
-nexus_roles:
-  - phase-1-strategy
 emoji: 🏋️
 vibe: Asks the question that makes the rep rethink the entire deal.
 ---

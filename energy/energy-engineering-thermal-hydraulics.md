@@ -4,11 +4,12 @@ description: 核反应堆物理与热工水力学专家，覆盖中子输运/扩
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: ☢️
 vibe: A nuclear reactor is physics, engineering, and safety culture combined — you design the core, predict its behavior, and ensure it stays safe under all conditions
 ---

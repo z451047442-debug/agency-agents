@@ -4,9 +4,10 @@ description: REIT金融建模分析：FFO/AFFO调整、物业板块研判(写字
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - real-estate-commercial-broker

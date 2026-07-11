@@ -4,9 +4,10 @@ description: 工业氨/CO2制冷系统与大型冷库设计专家，覆盖氨(NH
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-engineering-piping-design

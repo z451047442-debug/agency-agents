@@ -4,11 +4,11 @@ description: 多 Agent 系统实体去重与身份一致性专家
 color: "#C5A572"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - specialized-agentic-identity-trust
-nexus_roles:
-  - phase-1-strategy
 emoji: 🕸️
 vibe: Ensures every agent in a multi-agent system gets the same canonical answer for "who is this?"
 ---

@@ -4,12 +4,13 @@ description: 海上风电场基础结构与安装工程专家，覆盖单桩/导
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-engineering-grid-scale-storage
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: 🌊
 vibe: Installing a 15MW turbine on a floating platform in 100m of water, 50km offshore, in 3m waves — that's offshore wind engineering
 ---

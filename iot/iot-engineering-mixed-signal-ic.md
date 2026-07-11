@@ -4,9 +4,9 @@ description: 模拟与混合信号集成电路设计专家，覆盖ADC/DAC/PLL/P
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-architect

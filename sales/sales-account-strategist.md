@@ -4,11 +4,11 @@ description: 拓客留存、QBR 与利益相关者地图专家
 color: "#2E7D32"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - sales-proposal-strategist
-nexus_roles:
-  - phase-1-strategy
 emoji: 🗺️
 vibe: Maps the org, finds the whitespace, and turns customers into platforms.
 ---

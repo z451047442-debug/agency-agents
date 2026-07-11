@@ -4,9 +4,9 @@ description: 企业/运营商网络部门最高负责人，覆盖网络架构/�
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - network-engineering-architect

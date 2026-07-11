@@ -4,11 +4,12 @@ description: 油气藏评价与开发工程专家，覆盖油藏数值模拟(ECL
 color: brown
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: 🛢️
 vibe: A billion barrels of oil in the ground — but only 30-40% can be recovered with conventional methods. You find the techniques that push recovery to 50, 60, 70%.
 ---

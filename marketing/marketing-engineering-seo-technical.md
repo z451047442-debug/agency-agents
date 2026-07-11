@@ -4,9 +4,9 @@ description: 技术SEO与搜索引擎优化工程专家，覆盖网站架构/爬
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - marketing-inbound-strategist

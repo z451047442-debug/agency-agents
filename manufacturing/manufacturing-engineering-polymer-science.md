@@ -4,11 +4,12 @@ description: 高分子合成与聚合物材料物理专家，覆盖自由基/缩
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - manufacturing-engineering-material-scientist
-nexus_roles:
-  - phase-3-build
 emoji: 🧪
 vibe: Plastics, rubbers, fibers, adhesives, coatings — polymers are everywhere. You design the molecules that become the materials of modern life.
 ---

@@ -4,9 +4,10 @@ description: 大跨度桥梁设计与结构健康监测专家，覆盖悬索桥/
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

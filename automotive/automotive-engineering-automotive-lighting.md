@@ -4,11 +4,12 @@ description: 汽车外部照明与信号系统光学专家，覆盖LED矩阵/ADB
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - automotive-engineering-automotive-thermal
-nexus_roles:
-  - phase-3-build
 emoji: 💡
 vibe: Headlights don't just illuminate the road — they communicate, they adapt, and they're becoming the signature design element of every vehicle
 ---

@@ -4,12 +4,13 @@ description: 海洋工程与船舶/海工结构设计专家，覆盖船舶稳性
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
   - energy-engineering-marine-corrosion
-nexus_roles:
-  - phase-3-build
 emoji: 🚢
 vibe: Ships are floating cities that survive hurricanes — you design vessels that are stable, seaworthy, and efficient across the world's most hostile environment
 ---

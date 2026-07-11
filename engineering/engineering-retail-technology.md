@@ -4,9 +4,9 @@ description: 零售科技与智能门店方案产品专家，覆盖POS/自助收
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

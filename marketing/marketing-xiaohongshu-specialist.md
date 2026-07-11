@@ -4,12 +4,12 @@ description: 生活方式内容、趋势策略与小红书增长专家
 color: "#FF1B6D"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-short-video-editing-coach
   - marketing-market-research
-nexus_roles:
-  - phase-5-launch
 emoji: 🌸
 vibe: Masters lifestyle content and aesthetic storytelling on 小红书.
 ---

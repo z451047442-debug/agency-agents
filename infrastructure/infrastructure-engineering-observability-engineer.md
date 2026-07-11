@@ -4,9 +4,9 @@ description: 可观测性与监控工程专家，覆盖OpenTelemetry/Prometheus/
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-engineering-observability-architect

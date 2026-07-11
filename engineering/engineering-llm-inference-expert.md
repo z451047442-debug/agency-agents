@@ -4,14 +4,14 @@ description: 大语言模型推理引擎与部署专家,覆盖vLLM(SGLang/TRT-LL
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-minimal-change-engineer
   - engineering-git-workflow-master
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🚀
 vibe: "Training a model is science. Serving it at 1000 requests per second with p99 latency under 500ms is engineering. vLLM with PagedAttention makes the impossible possible."
 ---

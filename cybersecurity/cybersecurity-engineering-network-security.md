@@ -4,10 +4,10 @@ description: 防火墙、IDS/IPS、渗透测试与安全审计专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - cybersecurity-fortinet-expert

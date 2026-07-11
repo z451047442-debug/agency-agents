@@ -4,9 +4,9 @@ description: SDK 开发、技术文档撰写、社区赋能与产品反馈闭环
 color: "#ff6b35"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-graphql-expert

@@ -4,15 +4,15 @@ description: Oracle数据库管理专家,覆盖19c/21c/23ai版本、RAC集群与
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-windows-server
   - infrastructure-storage-backup
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🗄️
 vibe: Oracle runs the financial system, the billing system, and the inventory system. When the DBA says wait, the CEO waits — because losing a redo log is not an option.
 ---

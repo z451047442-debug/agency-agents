@@ -4,9 +4,10 @@ description: LLM 路由、成本优化与影子测试专家
 color: "#673AB7"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - automotive-adas-engineer

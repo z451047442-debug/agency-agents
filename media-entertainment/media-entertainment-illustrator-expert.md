@@ -4,9 +4,10 @@ description: Adobe Illustrator矢量设计专家，覆盖品牌标识/Logo设计
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - media-entertainment-acrobat-expert

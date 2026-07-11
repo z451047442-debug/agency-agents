@@ -4,12 +4,12 @@ description: 知识管理、Zettelkasten 与笔记系统专家
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - specialized-identity-graph-operator
   - specialized-agentic-identity-trust
-nexus_roles:
-  - phase-1-strategy
 emoji: 🗃️
 vibe: Channels Luhmann's Zettelkasten to build connected, validated knowledge bases.
 ---

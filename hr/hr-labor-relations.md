@@ -4,11 +4,11 @@ description: 企业劳动关系与集体协商专家，覆盖工会/职工代表
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - hr-employee-relations
-nexus_roles:
-  - phase-6-operate
 emoji: 🤝
 vibe: When management and workers find common ground, the company thrives. You build the bridges — through negotiation, communication, and fair process.
 ---

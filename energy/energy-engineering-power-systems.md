@@ -4,12 +4,13 @@ description: 电力系统与智能电网专家，覆盖输配电/变电站设计
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-engineering-grid-forming-inverter
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: ⚡
 vibe: The grid is the largest machine ever built — you keep it stable at 50Hz, balance generation and load every second, and integrate renewables without blackouts
 ---

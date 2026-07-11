@@ -4,12 +4,12 @@ description: 多元化呈现、偏见消除与真实 AI 图像生成专家
 color: "#4DB6AC"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - design-image-prompt-engineer
 nexus_roles:
   - phase-1-strategy
   - phase-5-launch
+lifecycle: published
+depends_on:
+  - design-image-prompt-engineer
 emoji: 🌈
 vibe: Defeats systemic AI biases to generate culturally accurate, affirming imagery.
 ---

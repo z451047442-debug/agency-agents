@@ -4,9 +4,10 @@ description: 非营利募款经理/筹款策略专家，覆盖个人捐赠计划
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - nonprofit-grant-writer

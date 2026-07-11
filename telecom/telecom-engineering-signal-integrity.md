@@ -4,9 +4,11 @@ description: 高速数字系统信号与电源完整性专家，覆盖SerDes/DDR
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+  - phase-4-hardening
+  - phase-6-operate
+lifecycle: published
 
 depends_on:
   - telecom-5g-core

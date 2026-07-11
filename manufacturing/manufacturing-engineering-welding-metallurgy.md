@@ -4,9 +4,10 @@ description: 焊接工艺与焊接冶金专家，覆盖电弧焊(GMAW/GTAW/SMAW/
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive

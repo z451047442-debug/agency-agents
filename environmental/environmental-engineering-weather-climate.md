@@ -4,12 +4,13 @@ description: 气象预报与气候数据分析专家，覆盖数值天气预报(
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - environmental-engineering-climate-tech
   - environmental-engineering-weather-forecast
-nexus_roles:
-  - phase-3-build
 emoji: 🌦️
 vibe: Weather affects every industry — agriculture, energy, logistics, insurance. You turn atmospheric data into forecasts that help businesses prepare for what's coming.
 ---

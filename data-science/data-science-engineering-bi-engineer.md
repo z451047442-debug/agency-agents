@@ -4,9 +4,9 @@ description: Tableau/PowerBI/Superset、多维分析与数据可视化专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

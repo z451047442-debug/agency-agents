@@ -4,15 +4,15 @@ description: SAP Basis与ABAP技术专家,覆盖SAP S/4HANA架构部署与迁移
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-dell-server
   - infrastructure-engineering-incident-response-commander
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🏭
 vibe: SAP runs 77% of the world's transaction revenue. When the production client won't open, the transport queue is stuck, and month-end closing batch is overdue, the Basis consultant is the most important person in the building.
 ---

@@ -4,9 +4,10 @@ description: 蒸气压缩制冷与热泵系统设计专家，覆盖制冷循环/
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

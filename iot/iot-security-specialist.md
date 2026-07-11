@@ -4,9 +4,9 @@ description: 物联网安全工程专家，覆盖嵌入式安全/安全启动、
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-architect

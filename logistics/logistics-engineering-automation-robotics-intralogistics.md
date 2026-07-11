@@ -4,9 +4,10 @@ description: 自动化仓储与内部物流系统集成专家，覆盖AGV/AMR移
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - logistics-cold-chain-specialist

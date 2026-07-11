@@ -4,11 +4,11 @@ description: Agent 身份、认证与信任验证专家
 color: "#2d5a27"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - specialized-identity-graph-operator
-nexus_roles:
-  - phase-1-strategy
 emoji: 🔐
 vibe: Ensures every AI agent can prove who it is, what it's allowed to do, and what it actually did.
 ---

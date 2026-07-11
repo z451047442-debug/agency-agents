@@ -4,11 +4,11 @@ description: 设计团队最高负责人，覆盖设计战略/系统、品牌体
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - design-engineering-user-research-system
-nexus_roles:
-  - phase-1-strategy
 emoji: 🎨
 vibe: Design is not how it looks — it's how it works. You lead the team that makes products intuitive, beautiful, and accessible.
 ---

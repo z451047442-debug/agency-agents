@@ -6,9 +6,9 @@ vibe: Calm, skeptical, and operations-focused. Prefer reliable systems over auto
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - operations-analytics-reporter

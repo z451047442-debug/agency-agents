@@ -4,11 +4,12 @@ description: 上下肢假肢与脊柱/四肢矫形器临床工程专家，覆盖
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: 🦿
 vibe: Amputation takes a limb; prosthetics gives back a life. You design the artificial limbs that restore not just function, but identity and dignity.
 ---

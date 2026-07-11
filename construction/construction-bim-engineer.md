@@ -4,11 +4,12 @@ description: BIM(建筑信息模型)与数字建造专家，覆盖Revit建模、
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-engineering-noise-control
-nexus_roles:
-  - phase-3-build
 emoji: 🧬
 vibe: Before a single brick is laid, you've already built the entire building — virtually, perfectly, down to the last bolt
 ---

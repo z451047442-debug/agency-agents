@@ -4,11 +4,11 @@ description: 合规审查、监管要求与风险管理专家
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - operations-executive-summary-generator
-nexus_roles:
-  - phase-6-operate
 emoji: ⚖️
 vibe: Ensures your operations comply with the law across every jurisdiction that matters.
 ---

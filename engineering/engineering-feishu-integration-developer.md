@@ -4,13 +4,13 @@ description: 飞书/Lark 开放平台、机器人与工作流集成专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - engineering-ecommerce-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🔗
 vibe: Builds enterprise integrations on the Feishu (Lark) platform — bots, approvals, data sync, and SSO — so your team's workflows run on autopilot.
 ---

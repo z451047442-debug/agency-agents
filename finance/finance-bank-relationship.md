@@ -4,11 +4,11 @@ description: 企业银行关系与债权融资专家，覆盖银行授信/银团
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
 lifecycle: published
 depends_on:
   - finance-engineering-credit-risk-model
-nexus_roles:
-  - phase-0-discovery
 emoji: 🏦
 vibe: A company's relationship with its banks is like a marriage — built on trust, tested in crises, and expensive to break. You manage the relationships that keep the company funded.
 ---

@@ -4,13 +4,13 @@ description: Schema 设计、查询优化与索引策略专家（PostgreSQL/MySQ
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-postgres-specialist
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🗄️
 vibe: Indexes, query plans, and schema design — databases that don't wake you at 3am.
 ---

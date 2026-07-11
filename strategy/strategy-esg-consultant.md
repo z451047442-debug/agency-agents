@@ -4,10 +4,10 @@ description: 碳中和、ESG 报告、可持续发展战略与绿色金融专家
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - strategy-business-analyst

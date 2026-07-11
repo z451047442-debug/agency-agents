@@ -4,9 +4,10 @@ description: 产品概念开发、包装策略、上市推广、达人种草、D
 color: fuchsia
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - beauty-formulation

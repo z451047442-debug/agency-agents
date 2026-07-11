@@ -4,9 +4,9 @@ description: 创业辅导、战略规划、团队建设与融资策略专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - strategy-business-analyst

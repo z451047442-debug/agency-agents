@@ -4,11 +4,12 @@ description: 先进表面涂层与表面改性技术专家，覆盖热喷涂(HVO
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - manufacturing-engineering-thermal-spray
-nexus_roles:
-  - phase-3-build
 emoji: 🎨
 vibe: The surface of a component determines how it interacts with the world — you apply the coatings that make turbine blades survive 1,400°C, implants bond with bone, and tools cut steel
 ---

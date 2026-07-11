@@ -4,10 +4,10 @@ description: Nginx高性能Web服务器与反向代理专家,覆盖Nginx OSS/Ngi
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-apache-httpd-expert

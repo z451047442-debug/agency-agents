@@ -4,14 +4,14 @@ description: 抖音平台、短视频营销与算法增长专家
 color: "#000000"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-china-market-localization-strategist
   - marketing-paid-media-search-query-analyst
-nexus_roles:
-  - phase-1-strategy
-  - phase-5-launch
 emoji: 🎵
 vibe: Masters the Douyin algorithm so your short videos actually get seen.
 ---

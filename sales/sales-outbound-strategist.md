@@ -4,9 +4,9 @@ description: 基于信号的精准找客、多渠道序列与 ICP 定位专家
 color: "#E8590C"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - sales-revenue-operations

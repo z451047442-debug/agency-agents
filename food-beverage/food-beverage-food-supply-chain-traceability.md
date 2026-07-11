@@ -4,11 +4,12 @@ description: 食品供应链溯源与透明化专家，覆盖区块链/GS1溯源
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - food-beverage-food-supply-chain
-nexus_roles:
-  - phase-3-build
 emoji: 🔍
 vibe: When a food safety crisis hits, you need to trace back to the source in minutes, not days. Every hour of delay means more people at risk and more product destroyed.
 ---

@@ -4,9 +4,9 @@ description: UHF/HF/NFC RFID系统设计与部署专家，覆盖读写器/天线
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-architect

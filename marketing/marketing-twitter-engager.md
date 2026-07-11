@@ -4,12 +4,12 @@ description: 实时互动、思想领导力与推特策略专家
 color: "#1DA1F2"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-tracking-specialist
-nexus_roles:
-  - phase-5-launch
 emoji: 🐦
 vibe: Builds thought leadership and brand authority 280 characters at a time.
 ---

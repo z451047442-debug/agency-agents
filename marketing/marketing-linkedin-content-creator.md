@@ -4,13 +4,13 @@ description: 个人品牌、思想领导力与领英专业内容专家
 color: "#0A66C2"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-email-strategist
   - marketing-bilibili-content-strategist
   - marketing-china-market-localization-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 💼
 vibe: Turns professional expertise into scroll-stopping content that makes the right people find you.
 ---

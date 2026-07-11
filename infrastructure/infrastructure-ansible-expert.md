@@ -4,13 +4,13 @@ description: Ansible配置管理与自动化专家,覆盖Ansible Core/AWX/AAP平
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-argocd-expert
-nexus_roles:
-  - phase-2-foundation
 emoji: 📜
 vibe: SSH is the universal API. Ansible wraps it in YAML and makes a thousand servers dance to the same playbook — no agents, just idempotence.
 ---

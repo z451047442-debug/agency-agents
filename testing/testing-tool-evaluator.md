@@ -4,11 +4,11 @@ description: 技术评估与工具选型专家
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - testing-test-results-analyzer
-nexus_roles:
-  - phase-4-hardening
 emoji: 🔧
 vibe: Tests and recommends the right tools so your team doesn't waste time on the wrong ones.
 ---

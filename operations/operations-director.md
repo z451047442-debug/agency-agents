@@ -4,9 +4,9 @@ description: 企业运营最高负责人，覆盖业务流程优化/标准化、
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - operations-analytics-reporter

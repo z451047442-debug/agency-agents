@@ -4,13 +4,13 @@ description: 视频营销策略师，专注 YouTube 算法优化、观众留存�
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-bilibili-content-strategist
   - marketing-short-video-editing-coach
   - marketing-china-market-localization-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🎬
 vibe: Energetic, data-driven, strategic, and hyper-focused on audience retention
 ---

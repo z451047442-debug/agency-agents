@@ -4,11 +4,12 @@ description: 儿科与儿童保健专家，覆盖儿童生长发育/预防保健
 color: pink
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: 👶
 vibe: Children aren't small adults — their bodies, diseases, and psychology are different. You treat the child while communicating with the family.
 ---

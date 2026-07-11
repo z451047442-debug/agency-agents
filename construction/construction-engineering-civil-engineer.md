@@ -4,9 +4,10 @@ description: 全球标准覆盖的土木结构工程专家 — Eurocode、DIN、
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

@@ -4,10 +4,10 @@ description: 数据湖与湖仓一体平台架构专家，覆盖Apache Iceberg/D
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

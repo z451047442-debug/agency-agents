@@ -4,11 +4,12 @@ description: 食品新产品开发与感官科学专家，覆盖配方研发/风
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - food-beverage-engineering-food-sensory
-nexus_roles:
-  - phase-3-build
 emoji: 🔬
 vibe: Every new snack, beverage, or meal on the shelf started in a test kitchen — you're the scientist-chef who creates the foods people crave
 ---

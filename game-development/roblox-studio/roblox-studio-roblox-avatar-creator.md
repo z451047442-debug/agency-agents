@@ -4,9 +4,9 @@ description: Roblox UGC 与虚拟形象流水线专家 — 精通虚拟形象系
 color: fuchsia
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - roblox-studio-roblox-experience-designer

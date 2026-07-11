@@ -4,11 +4,11 @@ description: 空间计算与XR业务最高负责人，覆盖AR/VR/MR产品策略
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - spatial-computing-engineering-spatial-computing-engineer
-nexus_roles:
-  - phase-1-strategy
 emoji: 🥽
 vibe: The next computing platform is spatial — you lead the team building experiences that blend digital and physical worlds.
 ---

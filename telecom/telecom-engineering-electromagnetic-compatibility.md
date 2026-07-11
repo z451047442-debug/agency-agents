@@ -4,9 +4,11 @@ description: 电子设备电磁兼容设计与整改专家，覆盖传导/辐射
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+  - phase-4-hardening
+  - phase-6-operate
+lifecycle: published
 
 depends_on:
   - telecom-5g-core

@@ -4,9 +4,10 @@ description: 实时音频数字信号处理与音频算法专家，覆盖FIR/IIR
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - media-entertainment-engineering-audio-engineer

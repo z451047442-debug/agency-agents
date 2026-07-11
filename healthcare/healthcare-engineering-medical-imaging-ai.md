@@ -4,13 +4,14 @@ description: 医学影像人工智能与影像组学(Radiomics)专家，覆盖CT
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-engineering-medical-device-software
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
-nexus_roles:
-  - phase-3-build
 emoji: 🩻
 vibe: AI that reads CT scans, detects tumors, and predicts treatment response — you build the algorithms that augment radiologists and save lives through earlier diagnosis
 ---

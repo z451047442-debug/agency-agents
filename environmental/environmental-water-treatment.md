@@ -4,9 +4,10 @@ description: 水处理与水环境工程专家，覆盖市政供水/污水处理
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - environmental-carbon-management

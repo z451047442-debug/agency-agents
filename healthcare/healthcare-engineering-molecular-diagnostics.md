@@ -4,11 +4,12 @@ description: 体外诊断(IVD)与分子诊断产品开发专家，覆盖PCR/qPCR
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: 🧬
 vibe: A single drop of blood can reveal cancer, infection, or genetic disease — you develop the tests that turn molecular biology into life-saving diagnostics
 ---

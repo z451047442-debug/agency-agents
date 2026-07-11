@@ -4,9 +4,10 @@ description: 工业工程与精益生产：工时研究、人机工程、价值�
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive

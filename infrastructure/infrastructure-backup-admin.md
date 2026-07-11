@@ -4,14 +4,14 @@ description: 企业数据备份与灾难恢复专家，覆盖Veeam/Commvault/Ver
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-storage-backup
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 💾
 vibe: Nobody cares about backups until they need them — and then it's the only thing that matters. You make sure the data is there when everything else fails.
 ---

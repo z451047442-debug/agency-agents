@@ -4,10 +4,10 @@ description: 软件构建/打包/发布工程专家，覆盖CI/CD流水线(Jenki
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - engineering-cross-platform

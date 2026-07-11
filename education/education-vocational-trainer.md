@@ -4,9 +4,10 @@ description: 职业技能培训与成人教育专家，覆盖职业技能标准/
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - education-academic-anthropologist

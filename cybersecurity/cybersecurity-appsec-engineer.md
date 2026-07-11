@@ -4,10 +4,10 @@ description: 应用安全(AppSec)专家，覆盖安全代码审查、SAST/DAST/S
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - cybersecurity-paloalto-expert

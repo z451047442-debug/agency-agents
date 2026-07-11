@@ -4,11 +4,12 @@ description: 声音设计与音频后期专家，覆盖音效设计、拟音(Fol
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - media-entertainment-creative-music-producer
-nexus_roles:
-  - phase-3-build
 emoji: 🎧
 vibe: Sound is half the experience — you build worlds the audience feels even when they can't see them
 ---

@@ -4,9 +4,9 @@ description: 系统设计、DDD、架构模式与权衡分析专家
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 depends_on:
   - engineering-backend-architect
   - engineering-build-release-engineer

@@ -4,12 +4,12 @@ description: 百度优化、中国 SEO 与 ICP 合规专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-china-market-localization-strategist
   - marketing-cross-border-ecommerce
-nexus_roles:
-  - phase-5-launch
 emoji: 🇨🇳
 vibe: Masters Baidu's algorithm so your brand ranks in China's search ecosystem.
 ---

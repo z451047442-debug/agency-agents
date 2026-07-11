@@ -5,9 +5,9 @@ description: 对话式AI和语音机器人设计专家 — NLU意图建模与调
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - customer-service-chatbot-ai

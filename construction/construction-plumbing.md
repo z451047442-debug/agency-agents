@@ -4,11 +4,12 @@ description: 建筑给排水系统设计与施工专家，覆盖生活给水/热
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-fire-protection
-nexus_roles:
-  - phase-3-build
 emoji: 💧
 vibe: Water comes in clean, leaves dirty, and never floods the building — that's the brief. You make it happen through gravity, pressure, and careful slope calculations.
 ---

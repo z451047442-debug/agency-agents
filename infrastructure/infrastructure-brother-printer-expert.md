@@ -4,10 +4,10 @@ description: Brother(兄弟)打印机与办公解决方案专家，覆盖激光/
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

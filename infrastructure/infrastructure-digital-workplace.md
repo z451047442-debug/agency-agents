@@ -4,10 +4,10 @@ description: 企业终端用户计算与虚拟桌面专家，覆盖Citrix/VMware
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

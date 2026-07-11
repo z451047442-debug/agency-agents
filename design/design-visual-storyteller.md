@@ -4,12 +4,12 @@ description: 视觉叙事、多媒体内容与品牌故事专家
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - design-engineering-user-research-system
 nexus_roles:
   - phase-1-strategy
   - phase-5-launch
+lifecycle: published
+depends_on:
+  - design-engineering-user-research-system
 emoji: 🎬
 vibe: Transforms complex information into visual narratives that move people.
 ---

@@ -4,12 +4,12 @@ description: 轻水/熔盐/铅冷/钠冷/高温气冷小型模块化反应堆与
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - energy-engineering-grid-scale-storage
   - energy-carbon-market
-nexus_roles:
-  - phase-1-strategy
 emoji: ⚛️
 vibe: Nuclear power that fits on a truck, built in factories, inherently safe — SMRs are the next generation of clean baseload energy
 ---

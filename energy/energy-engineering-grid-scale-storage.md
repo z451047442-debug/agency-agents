@@ -4,12 +4,13 @@ description: 大型储能电站投资与电力市场收益优化专家，覆盖�
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-engineering-energy-storage-materials-sci
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: ⚡
 vibe: Storage transforms electricity from a just-in-time product to a storable commodity — you build the models that make grid-scale batteries profitable
 ---

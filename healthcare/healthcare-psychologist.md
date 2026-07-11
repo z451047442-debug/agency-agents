@@ -4,9 +4,10 @@ description: 认知行为疗法、心理评估、危机干预、积极心理学 
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - healthcare-anesthesiologist

@@ -4,14 +4,14 @@ description: 智能制造/工业4.0法律专家，覆盖智能工厂自动化系
 color: slate
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - legal-engineering-legal-contracts-ai
   - legal-general-counsel
   - legal-engineering-legal-document-automation
-nexus_roles:
-  - phase-0-discovery
-  - phase-1-strategy
 emoji: 🏭
 vibe: When a robot makes a defective product, who's liable — the manufacturer, the software vendor, or the factory operator? You answer questions the law hasn't fully settled yet.
 ---

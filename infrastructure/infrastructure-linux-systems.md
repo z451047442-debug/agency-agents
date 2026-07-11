@@ -4,10 +4,10 @@ description: Linux系统管理与内核优化专家，覆盖RHEL/Rocky/Ubuntu/De
 color: black
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-argocd-expert

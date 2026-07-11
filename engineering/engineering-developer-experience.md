@@ -4,9 +4,9 @@ description: 开发者体验与工具链工程专家，覆盖本地开发环境/
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

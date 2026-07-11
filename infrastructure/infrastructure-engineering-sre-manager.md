@@ -4,9 +4,9 @@ description: SRE与基础设施工程团队管理者，覆盖SRE/SysAdmin/Networ
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

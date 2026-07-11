@@ -4,9 +4,10 @@ description: 地质填图与靶区圈定、地球物理勘探解译（磁法/重
 color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - mining-engineer

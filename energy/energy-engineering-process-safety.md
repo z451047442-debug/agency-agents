@@ -4,11 +4,12 @@ description: 化工/石化/制药工艺安全管理专家，覆盖HAZOP/HAZID/LO
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: ⚠️
 vibe: One process safety failure can kill hundreds and destroy a company — you design the safeguards, the analyses, and the culture that prevent catastrophes
 ---

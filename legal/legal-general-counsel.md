@@ -4,12 +4,12 @@ description: 企业法务总监/总法律顾问，覆盖公司治理/董事会�
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - legal-engineering-legal-document-automation
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
+depends_on:
+  - legal-engineering-legal-document-automation
 emoji: ⚖️
 vibe: You don't just say no — you find the legal path to yes. The business wants to move fast; your job is making sure they move fast without stepping on landmines.
 ---

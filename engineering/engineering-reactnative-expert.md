@@ -4,13 +4,13 @@ description: React Native跨平台移动应用开发专家,覆盖React Native新
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-mobile-app-builder
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 📱
 vibe: React Native powers apps from Facebook to Shopify. The RN engineer who masters the new architecture, the Hermes engine, and the animation APIs builds mobile apps that feel 100% native while sharing 80% of the code.
 ---

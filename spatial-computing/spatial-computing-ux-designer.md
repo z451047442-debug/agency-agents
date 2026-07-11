@@ -4,9 +4,10 @@ description: 空间计算交互体验设计师，覆盖空间UI/UX范式(注视/
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - spatial-computing-3d-asset-artist

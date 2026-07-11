@@ -4,13 +4,13 @@ description: 向量数据库选型与架构设计专家,覆盖Milvus/Pinecone/We
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - data-science-engineering-vector-database-expert
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
-nexus_roles:
-  - phase-1-strategy
 emoji: 🧬
 vibe: "Vector search isn't just nearest neighbors — it's the retrieval backbone of every modern AI application. The architect who picks the right index, the right distance metric, and the right sharding strategy saves 90% on query latency."
 ---

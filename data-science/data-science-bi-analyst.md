@@ -4,9 +4,9 @@ description: 商业智能分析专家，专注 SQL 分析、仪表板开发（Ta
 color: "#00897B"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - data-science-engineering-web-analytics

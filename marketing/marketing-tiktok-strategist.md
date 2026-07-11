@@ -4,14 +4,14 @@ description: 病毒内容、算法优化与 TikTok 增长专家
 color: "#000000"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
-nexus_roles:
-  - phase-1-strategy
-  - phase-5-launch
 emoji: 🎵
 vibe: Rides the algorithm and builds community through authentic TikTok culture.
 ---

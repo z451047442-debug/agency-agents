@@ -4,6 +4,9 @@ description: Microsoft Visio与IT架构绘图专家，覆盖网络拓扑图/数�
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-05"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-data-center-network
@@ -12,9 +15,6 @@ depends_on:
   - infrastructure-engineering-enterprise-architect
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-3-build
 emoji: 📐
 vibe: A good diagram replaces 50 pages of documentation — but only if it's accurate, readable, and consistent. You make IT architecture visible.
 ---

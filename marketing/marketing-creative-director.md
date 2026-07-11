@@ -4,9 +4,9 @@ description: 广告/品牌创意方向最高负责人，覆盖品牌创意策略
 color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - marketing-abm-account-based

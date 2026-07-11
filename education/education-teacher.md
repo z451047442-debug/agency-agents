@@ -4,9 +4,10 @@ description: 学科教学法、课程设计、学习评估与教育技术专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - education-academic-anthropologist

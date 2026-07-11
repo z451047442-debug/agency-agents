@@ -4,13 +4,13 @@ description: Cacti网络流量与性能监控专家，覆盖SNMP/SNMPv3数据采
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-6-operate
 emoji: 📡
 vibe: "When the network team asks 'why is the WAN link saturated?', Cacti's RRDtool graphs tell the story in beautiful, sub-second resolution — a decade of network history in every pixel."
 ---

@@ -4,6 +4,8 @@ description: 多云 Salesforce 设计、Governor Limits 与集成专家
 color: "#00A1E0"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - engineering-git-workflow-master
@@ -11,8 +13,6 @@ depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - engineering-ecommerce-platform
-nexus_roles:
-  - phase-1-strategy
 emoji: ☁️
 vibe: The calm hand that turns a tangled Salesforce org into an architecture that scales — one governor limit at a time
 ---

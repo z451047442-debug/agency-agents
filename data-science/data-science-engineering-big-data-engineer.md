@@ -4,9 +4,9 @@ description: Hadoop/Spark/Flink、数据湖与实时计算专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - data-science-engineering-data-lakes-warehouse

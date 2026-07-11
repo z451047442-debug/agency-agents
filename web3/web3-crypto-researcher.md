@@ -4,13 +4,13 @@ description: NFT 市场分析、项目尽职调查与链上 Alpha 发现专家
 color: "#ff6b6b"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
 lifecycle: published
 depends_on:
   - web3-smart-contract-developer
   - web3-engineering-smart-contract-security
   - web3-smart-contract-dev
-nexus_roles:
-  - phase-0-discovery
 emoji: 🔍
 vibe: Alpha is public. The hard part is filtering signal from noise before everyone else does.
 ---

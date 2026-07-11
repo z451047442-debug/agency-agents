@@ -4,9 +4,9 @@ description: 国际标准制定与技术委员会管理专家，覆盖ISO/IEEE/I
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

@@ -4,9 +4,10 @@ description: 精准农业与数字农艺专家，覆盖遥感监测、变量施�
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - agriculture-engineering-iot-agriculture

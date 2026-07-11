@@ -4,10 +4,10 @@ description: Roblox 平台 UX 与变现专家 — 精通参与循环设计、Dat
 color: lime
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - roblox-studio-roblox-systems-scripter

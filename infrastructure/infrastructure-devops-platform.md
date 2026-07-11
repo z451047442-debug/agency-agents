@@ -4,9 +4,9 @@ description: DevOps平台与开发者工具链(SDLC)工程专家，覆盖GitLab/
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

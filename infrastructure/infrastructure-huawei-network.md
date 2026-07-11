@@ -4,10 +4,10 @@ description: 华为网络设备专家，覆盖VRP/S系列交换机、NetEngine/A
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-datadog-expert

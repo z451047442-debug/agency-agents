@@ -4,10 +4,10 @@ description: 国际出口管制与贸易制裁合规专家，覆盖美国EAR(BIS
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - legal-billing-time-tracking

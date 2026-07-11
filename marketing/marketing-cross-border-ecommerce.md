@@ -4,11 +4,11 @@ description: 亚马逊/Shopee/Lazada 与跨境履约全链路专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🌏
 vibe: Takes your products from Chinese factories to global bestseller lists.
 ---

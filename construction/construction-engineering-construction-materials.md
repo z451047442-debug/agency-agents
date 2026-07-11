@@ -4,9 +4,10 @@ description: 水泥混凝土与工程材料专家，覆盖高性能混凝土(HPC
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - construction-architectural-designer

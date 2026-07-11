@@ -4,9 +4,9 @@ description: 消费物联网与智能家居产品专家，覆盖智能音箱/照
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-director

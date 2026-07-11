@@ -4,9 +4,9 @@ description: 质量管理体系(QMS)专家，覆盖ISO9001/IATF16949/ISO13485/GM
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - quality-customer-cqe

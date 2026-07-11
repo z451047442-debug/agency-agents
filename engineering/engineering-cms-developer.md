@@ -5,13 +5,13 @@ description: Drupal 与 WordPress 专家，专注主题开发、自定义插件/
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-database-optimizer
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 ---
 
 # 🧱 CMS Developer

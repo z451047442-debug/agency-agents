@@ -4,9 +4,10 @@ description: 叙事结构、故事理论与文本分析专家
 color: "#8B5CF6"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - education-academic-anthropologist

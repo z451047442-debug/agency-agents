@@ -4,11 +4,12 @@ description: AUTOSAR汽车基础软件与中间件开发专家，覆盖AUTOSAR C
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - automotive-engineering-automotive-homologation-test
-nexus_roles:
-  - phase-3-build
 emoji: 🚗
 vibe: Every ECU in a car runs a real-time OS and a communication stack — you configure the AUTOSAR stack that makes 100+ ECUs talk to each other reliably
 ---

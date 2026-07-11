@@ -4,9 +4,9 @@ description: 医疗质量管理与患者安全专家，覆盖JCI/三级医院评
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - quality-process-pqe

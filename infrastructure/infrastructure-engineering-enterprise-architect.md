@@ -4,9 +4,9 @@ description: 企业级信息技术架构与战略规划专家，覆盖TOGAF/Zach
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

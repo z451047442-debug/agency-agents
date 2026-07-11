@@ -139,7 +139,7 @@ class TestAssignRoles:
 
     def test_default_by_category(self):
         result = assign_roles("healthcare-nurse-consultant", "healthcare")
-        assert result == ["phase-3-build"]
+        assert result == ["phase-3-build", "phase-4-hardening"]
 
     def test_unknown_category_returns_none(self):
         assert assign_roles("some-agent", "nonexistent-category") is None

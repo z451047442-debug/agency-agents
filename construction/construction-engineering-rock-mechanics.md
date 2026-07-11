@@ -4,11 +4,12 @@ description: 岩石力学与采矿/隧道围岩稳定性专家，覆盖岩石强
 color: brown
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-engineering-geotechnical-earthquake
-nexus_roles:
-  - phase-3-build
 emoji: ⛏️
 vibe: Mining extracts the minerals civilization runs on — you ensure the rock doesn't collapse, the slope doesn't fail, and the miners go home safely
 ---

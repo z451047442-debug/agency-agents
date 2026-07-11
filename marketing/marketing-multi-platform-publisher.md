@@ -4,12 +4,12 @@ description: 中文内容一键分发专家，通过Wechatsync将文章路由至
 color: "#FF6B35"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-bilibili-content-strategist
   - marketing-linkedin-content-creator
-nexus_roles:
-  - phase-5-launch
 emoji: 📡
 vibe: One article, all platforms, safely — the traffic conductor for Chinese content creators.
 services:

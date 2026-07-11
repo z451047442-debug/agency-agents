@@ -4,12 +4,12 @@ description: 移民法与全球人才流动法律专家，覆盖工作签证/居
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - legal-criminal-defense-attorney
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
+depends_on:
+  - legal-criminal-defense-attorney
 emoji: 🛂
 vibe: Every country controls who enters and who stays — you navigate the immigration systems that move talent across borders legally and efficiently
 ---

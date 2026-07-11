@@ -4,13 +4,13 @@ description: 企业资源计划(ERP)系统实施与功能顾问，覆盖SAP S/4H
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-git-workflow-master
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🏗️
 vibe: ERP is the nervous system of the enterprise — you configure the modules, map the processes, and migrate the data that makes the business run
 ---

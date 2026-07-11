@@ -4,12 +4,12 @@ description: 机器人系统设计与自动化专家，覆盖机械臂、AGV/AMR
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - robotics-motion-control
   - robotics-engineering-robotics-control-systems
-nexus_roles:
-  - phase-3-build
 emoji: 🤖
 vibe: A robot that works in simulation but fails in production failed where it matters — the physical world is the only test that counts
 ---

@@ -4,9 +4,10 @@ description: 文化研究、田野调查与人类学视角分析专家
 color: "#D97706"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - education-academic-dean

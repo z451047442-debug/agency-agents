@@ -4,9 +4,9 @@ description: 大规模支付交易处理系统专家，覆盖双活/多活异地
 color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-wechat-mini-program-developer

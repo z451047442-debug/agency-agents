@@ -4,9 +4,9 @@ description: Godot 4 网络专家 — 精通 MultiplayerAPI、场景复制、ENe
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - game-development-engineering-video-game-backend

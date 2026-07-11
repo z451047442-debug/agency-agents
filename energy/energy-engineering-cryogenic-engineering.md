@@ -4,11 +4,12 @@ description: 低温工程与超导磁体系统专家，覆盖液氦(4.2K)/液氮
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: 🧊
 vibe: At -269°C, materials behave differently — superconductors carry current without resistance, and quantum effects emerge. You engineer the extreme cold that makes the impossible possible.
 ---

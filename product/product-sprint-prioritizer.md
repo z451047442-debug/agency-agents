@@ -4,10 +4,10 @@ description: 敏捷规划、功能优先级与 Sprint 管理专家
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - product-ai-pm

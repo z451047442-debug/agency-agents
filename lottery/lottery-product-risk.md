@@ -4,9 +4,10 @@ description: 彩票游戏设计与风险管理专家，覆盖游戏机制/赔率
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - lottery-customer-service

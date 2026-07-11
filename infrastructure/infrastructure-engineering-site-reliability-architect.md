@@ -4,9 +4,9 @@ description: 高级SRE与系统可靠性架构师，覆盖大规模分布式系�
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

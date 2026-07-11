@@ -4,10 +4,10 @@ description: A/B 测试、假设验证与数据驱动决策专家
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator

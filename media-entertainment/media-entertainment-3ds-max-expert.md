@@ -4,9 +4,10 @@ description: Autodesk 3ds Max三维建模/渲染/动画专家，覆盖硬表面/
 color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - media-entertainment-engineering-entertainment-technology

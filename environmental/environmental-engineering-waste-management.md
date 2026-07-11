@@ -4,12 +4,13 @@ description: 城市固废管理与资源化规划专家，覆盖垃圾分类/收
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - environmental-engineering-climate-tech
   - environmental-water-treatment
-nexus_roles:
-  - phase-3-build
 emoji: 🗑️
 vibe: There is no "away" when you throw something away — you design the systems that collect, sort, treat, and recycle what society discards
 ---

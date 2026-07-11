@@ -4,11 +4,12 @@ description: 供应链管理、采购策略与优化专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - logistics-engineering-supply-chain-analytics
-nexus_roles:
-  - phase-3-build
 emoji: 🔗
 vibe: Builds your procurement engine and supply chain resilience across China's manufacturing ecosystem, from supplier sourcing to risk management.
 ---

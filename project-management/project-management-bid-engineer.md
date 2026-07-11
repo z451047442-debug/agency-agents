@@ -4,10 +4,10 @@ description: 技术方案与投标专家，覆盖RFP/招标文件分析、技术
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator

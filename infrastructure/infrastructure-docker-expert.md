@@ -4,13 +4,13 @@ description: Docker与容器化平台构建专家,覆盖OCI容器镜像构建(Do
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
 emoji: 🐳
 vibe: Docker made containers accessible to every developer. The Docker expert who optimizes the build cache, hardens the runtime, and locks down the registry prevents 'works on my machine' from becoming 'fails in production.'
 ---

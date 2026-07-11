@@ -4,13 +4,13 @@ description: 网红与KOL营销策略专家，覆盖达人筛选/数据评估、
 color: pink
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-paid-social-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: ⭐
 vibe: One authentic creator post can move more product than a ¥1M ad campaign — you find the right creators, build real partnerships, and measure what actually matters
 ---

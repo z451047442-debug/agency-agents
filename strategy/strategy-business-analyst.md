@@ -4,10 +4,10 @@ description: 需求分析、业务流程建模与 BRD/FRD 文档专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - strategy-business-strategist

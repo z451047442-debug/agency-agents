@@ -4,14 +4,14 @@ description: 品牌内容与编辑策略专家，覆盖内容战略/编辑日历
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-paid-social-strategist
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
-nexus_roles:
-  - phase-1-strategy
-  - phase-5-launch
 emoji: 📝
 vibe: Content marketing isn't blogging — it's building an audience through valuable information that earns attention instead of buying it. You design the strategy that makes content an asset, not an expense.
 ---

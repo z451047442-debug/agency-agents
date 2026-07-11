@@ -4,9 +4,9 @@ description: 技术演示、POC 范围确定与竞争技术定位专家
 color: "#2E5090"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - sales-account-strategist

@@ -4,13 +4,13 @@ description: WCAG 审计、辅助技术测试与包容性设计专家
 color: "#0077B6"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - testing-evidence-collector
   - testing-test-results-analyzer
   - testing-reality-checker
-nexus_roles:
-  - phase-4-hardening
 emoji: ♿
 vibe: If it's not tested with a screen reader, it's not accessible.
 ---

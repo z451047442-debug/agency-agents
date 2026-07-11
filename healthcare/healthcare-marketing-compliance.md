@@ -4,9 +4,10 @@ description: 中国医疗广告法规合规专家
 color: "#2E8B57"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - healthcare-engineering-regulatory-science

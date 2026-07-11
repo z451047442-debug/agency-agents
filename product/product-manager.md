@@ -4,11 +4,11 @@ description: 全生命周期产品管理：发现、PRD、路线图、GTM
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
+lifecycle: published
 depends_on:
   - product-analyst
 emoji: 🧭

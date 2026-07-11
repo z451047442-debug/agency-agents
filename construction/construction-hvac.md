@@ -4,12 +4,13 @@ description: 暖通空调系统设计与施工专家，覆盖冷热源系统(冷
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-engineering-green-building
   - construction-engineering-noise-control
-nexus_roles:
-  - phase-3-build
 emoji: 🌬️
 vibe: When 500 people work in a sealed glass tower in August, they don't think about the HVAC — which means you did your job perfectly
 ---

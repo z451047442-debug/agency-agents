@@ -5,13 +5,13 @@ tools: WebFetch, WebSearch, Read, Write, Edit
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-paid-social-strategist
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🚀
 vibe: Finds the growth channel nobody's exploited yet — then scales it.
 ---

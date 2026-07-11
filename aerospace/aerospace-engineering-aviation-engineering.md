@@ -4,12 +4,13 @@ description: 燃气涡轮航空发动机设计与性能专家，覆盖涡扇/涡
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - aerospace-engineering-aircraft-structures
   - aerospace-flight-test-engineer
-nexus_roles:
-  - phase-3-build
 emoji: ✈️
 vibe: A jet engine spins at 15,000 RPM at 1,700°C — hotter than the melting point of its own blades. You design the miracle that makes flight possible.
 ---

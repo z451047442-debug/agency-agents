@@ -4,11 +4,12 @@ description: 硅基光子集成(PIC)与光电共封装(CPO)设计专家，覆盖
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - manufacturing-engineering-test-chip-bringup
-nexus_roles:
-  - phase-3-build
 emoji: 💡
 vibe: Electrons compute; photons communicate. Silicon photonics puts lasers, modulators, and detectors on the same chip as transistors, moving data at the speed of light.
 ---

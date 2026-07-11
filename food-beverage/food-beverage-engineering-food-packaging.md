@@ -4,9 +4,10 @@ description: 食品接触包装材料与活性/智能包装专家，覆盖多层
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - food-beverage-beverage-rd

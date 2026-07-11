@@ -4,9 +4,9 @@ description: ESG投资与可持续金融分析专家，覆盖ESG评级/评分(MS
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent

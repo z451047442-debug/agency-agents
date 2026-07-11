@@ -4,9 +4,10 @@ description: 终端集成、命令行工具与开发者工作流专家
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - spatial-computing-visionos-spatial-engineer

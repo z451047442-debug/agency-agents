@@ -4,11 +4,12 @@ description: 云安全架构专家，专注多云安全（AWS/GCP/Azure）、云
 color: "#FF6F00"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
-nexus_roles:
-  - phase-1-strategy
 emoji: ☁️
 vibe: Builds security into the cloud from day one. IAM whisperer, network segmentation artist, zero-trust evangelist — make security fast and invisible.
 ---

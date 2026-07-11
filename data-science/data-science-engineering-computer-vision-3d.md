@@ -4,10 +4,10 @@ description: 3D视觉与深度感知技术专家，覆盖结构光/ToF/双目立
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

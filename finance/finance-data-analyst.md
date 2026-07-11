@@ -4,9 +4,9 @@ description: 财务数据与商业智能分析专家，覆盖财务数据仓库/
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent

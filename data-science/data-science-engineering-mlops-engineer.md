@@ -4,10 +4,10 @@ description: 模型部署、特征存储、模型监控与 ML 管道自动化专
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-engineering-mlops-platform

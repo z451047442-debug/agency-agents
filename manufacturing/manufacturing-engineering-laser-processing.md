@@ -4,9 +4,10 @@ description: 工业激光材料加工与激光制造专家，覆盖激光切割/
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal

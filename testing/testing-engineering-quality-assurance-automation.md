@@ -4,11 +4,11 @@ description: 高级测试自动化与测试框架开发专家，覆盖Selenium/C
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - testing-engineering-test-automation-framework
-nexus_roles:
-  - phase-3-build
 emoji: 🤖
 vibe: Tests that run in CI are worth 100x more than tests that run on someone's laptop. You build the automation that makes every commit a confident release.
 ---

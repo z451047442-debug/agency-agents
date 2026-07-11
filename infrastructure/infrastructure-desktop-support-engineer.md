@@ -4,10 +4,10 @@ description: 企业桌面运维综合专家，覆盖Windows/macOS双平台、硬
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-digital-workplace

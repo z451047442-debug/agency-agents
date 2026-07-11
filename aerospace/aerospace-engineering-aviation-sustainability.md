@@ -4,9 +4,10 @@ description: 航空业脱碳与可持续航空燃料(SAF)技术专家，覆盖SA
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - aerospace-engineering-aviation-biofuels

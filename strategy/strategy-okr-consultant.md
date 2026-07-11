@@ -4,10 +4,10 @@ description: 目标设定、关键结果对齐与绩效复盘机制专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - strategy-business-analyst

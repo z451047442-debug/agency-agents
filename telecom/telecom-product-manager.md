@@ -4,9 +4,11 @@ description: 通信产品设计与运营：套餐设计、用户增长、ARPU提
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+  - phase-4-hardening
+  - phase-6-operate
+lifecycle: published
 
 depends_on:
   - telecom-5g-core

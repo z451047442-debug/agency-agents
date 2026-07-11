@@ -4,9 +4,9 @@ description: Godot 4 视觉效果专家 — 精通 Godot Shading Language、Visu
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - unity-shader-graph-artist

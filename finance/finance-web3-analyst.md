@@ -4,9 +4,9 @@ description: 链上数据分析、DeFi 协议评估、代币经济模型与 Dune
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent

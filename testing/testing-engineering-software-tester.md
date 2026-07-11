@@ -4,11 +4,11 @@ description: 专注于测试的软件开发工程师(SDET)，覆盖单元测试/
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - testing-engineering-test-automation-framework
-nexus_roles:
-  - phase-4-hardening
 emoji: 🧪
 vibe: Code that can't be tested can't be trusted. You write the tests that make refactoring safe and deployment confident.
 ---

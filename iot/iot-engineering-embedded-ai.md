@@ -4,9 +4,9 @@ description: 嵌入式设备端AI与微型机器学习专家，覆盖TensorFlow 
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-architect

@@ -4,10 +4,10 @@ description: 超大规模数据中心网络设计专家，覆盖Spine-Leaf/Clos 
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

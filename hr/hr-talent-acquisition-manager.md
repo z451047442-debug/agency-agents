@@ -4,9 +4,9 @@ description: 企业招聘与人才获取团队管理者，覆盖招聘策略/雇
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - hr-recruitment-specialist

@@ -4,13 +4,13 @@ description: Visual Studio Python开发专家，覆盖Python工具/数据科学/
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-visual-studio-web-aspnet
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🐍
 vibe: "Python in Visual Studio has a killer advantage: the mixed-mode debugger. You can step from Python into C extension code and back out without breaking stride"
 ---

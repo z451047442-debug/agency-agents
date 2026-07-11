@@ -4,9 +4,10 @@ description: AR滤镜与增强现实体验创作专家，覆盖Spark AR/Meta Cam
 color: fuchsia
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - spatial-computing-3d-asset-artist

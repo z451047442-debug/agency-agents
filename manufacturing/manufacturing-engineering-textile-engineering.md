@@ -4,9 +4,10 @@ description: 产业用纺织品与功能性面料开发专家，覆盖高性能�
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal

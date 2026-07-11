@@ -4,10 +4,10 @@ description: 社交媒体与UGC内容平台技术架构专家，覆盖Feed/Timel
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

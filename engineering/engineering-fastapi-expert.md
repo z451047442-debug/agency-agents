@@ -4,9 +4,9 @@ description: FastAPI高性能Python API开发专家,覆盖Python异步编程(asy
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-nextjs-expert

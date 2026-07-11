@@ -4,9 +4,11 @@ description: 全球企业网络架构设计和治理专家，覆盖SD-WAN/SASE/S
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+  - phase-4-hardening
+  - phase-6-operate
+lifecycle: published
 
 depends_on:
   - network-engineering-architect

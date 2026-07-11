@@ -4,9 +4,10 @@ description: 先进IC封装与异构集成技术专家，覆盖2.5D/3D封装(CoW
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive

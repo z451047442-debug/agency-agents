@@ -4,9 +4,10 @@ description: 飞行测试与验证专家，覆盖试飞计划/测试点设计、
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - aerospace-atc-specialist

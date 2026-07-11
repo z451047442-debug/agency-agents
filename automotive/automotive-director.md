@@ -4,11 +4,11 @@ description: 汽车研发或事业部最高负责人，覆盖整车/系统开发
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - automotive-vehicle-architecture
-nexus_roles:
-  - phase-1-strategy
 emoji: 🚗
 vibe: Cars are the most complex consumer product on Earth — you lead the thousands of engineers who design, test, and build them.
 ---

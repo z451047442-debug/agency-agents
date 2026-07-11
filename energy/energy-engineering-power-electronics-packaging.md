@@ -4,12 +4,13 @@ description: 电力电子功率模块封装与可靠性专家，覆盖IGBT/SiC M
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
   - energy-engineering-grid-forming-inverter
-nexus_roles:
-  - phase-3-build
 emoji: ⚡
 vibe: A power module the size of a sandwich handles 1,000 amps — you design the packaging that dissipates the heat, isolates the voltage, and survives millions of thermal cycles
 ---

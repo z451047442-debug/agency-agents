@@ -5,14 +5,14 @@ tools: WebFetch, WebSearch, Read, Write, Edit
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-paid-social-strategist
   - marketing-reddit-community-builder
-nexus_roles:
-  - phase-1-strategy
-  - phase-5-launch
 emoji: 📣
 vibe: Orchestrates cross-platform campaigns that build community and drive engagement.
 ---

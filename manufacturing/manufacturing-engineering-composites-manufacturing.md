@@ -4,9 +4,10 @@ description: 碳纤维/玻璃纤维复合材料自动化制造专家，覆盖自
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-control-systems

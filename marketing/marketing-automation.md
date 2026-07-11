@@ -4,13 +4,13 @@ description: 营销自动化平台与Martech专家，覆盖HubSpot/Marketo/ Sale
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-auditor
-nexus_roles:
-  - phase-5-launch
 emoji: 🤖
 vibe: Marketing at scale isn't more people — it's smarter automation. You orchestrate the journeys, score the leads, and make every customer feel like the only customer.
 ---

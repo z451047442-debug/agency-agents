@@ -4,11 +4,11 @@ description: 大型基础设施与能源项目结构化融资专家，覆盖BOT/
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
 lifecycle: published
 depends_on:
   - finance-engineering-credit-risk-model
-nexus_roles:
-  - phase-0-discovery
 emoji: 🏗️
 vibe: A power plant costs billions and takes 20 years to pay back — you structure the financing that makes infrastructure possible
 ---

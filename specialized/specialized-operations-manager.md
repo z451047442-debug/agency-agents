@@ -5,9 +5,9 @@ description: 运用精益、六西格玛与系统思维进行流程映射、产�
 color: slate
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - specialized-agentic-identity-trust

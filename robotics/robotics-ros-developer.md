@@ -4,9 +4,9 @@ description: 机器人操作系统(ROS/ROS2)开发专家，覆盖节点架构、
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - robotics-automation-engineer

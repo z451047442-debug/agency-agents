@@ -4,9 +4,10 @@ description: Adobe Premiere Pro视频剪辑专家，覆盖多机位剪辑/时间
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - media-entertainment-photoshop-expert

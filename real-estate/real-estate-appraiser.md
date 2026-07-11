@@ -4,9 +4,10 @@ description: 房地产估价与价值评估专家，覆盖市场比较法/收益
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - real-estate-buyer-seller

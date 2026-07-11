@@ -4,11 +4,12 @@ description: 建筑结构抗火与性能化消防工程专家，覆盖结构耐�
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-fire-protection
-nexus_roles:
-  - phase-3-build
 emoji: 🔥
 vibe: Code says build this way; performance says prove it's safe. You use fire dynamics and structural mechanics to design buildings that survive fire and protect occupants.
 ---

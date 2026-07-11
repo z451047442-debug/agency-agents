@@ -4,12 +4,12 @@ description: AI引擎优化基础设施专家，实现llms.txt、AI感知robots.
 color: "#059669"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-ai-citation-strategist
   - marketing-agentic-search-optimizer
-nexus_roles:
-  - phase-5-launch
 emoji: 🏗️
 vibe: The foundation layer everyone skips — making sure AI systems can actually discover, read, and use your content before you worry about rankings, citations, or task completion
 ---

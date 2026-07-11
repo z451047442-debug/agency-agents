@@ -4,9 +4,9 @@ description: SRE运维自动化与平台开发专家，覆盖Terraform/Pulumi基
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

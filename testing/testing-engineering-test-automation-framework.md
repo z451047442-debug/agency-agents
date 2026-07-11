@@ -4,9 +4,9 @@ description: 企业级测试自动化框架设计专家，覆盖多语言/多平
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - testing-playwright-expert

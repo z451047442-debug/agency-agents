@@ -4,12 +4,12 @@ description: 网络威胁情报(CTI)分析专家，覆盖APT组织追踪/TTP映�
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - cybersecurity-engineering-cyber-risk-model
 nexus_roles:
   - phase-4-hardening
   - phase-6-operate
+lifecycle: published
+depends_on:
+  - cybersecurity-engineering-cyber-risk-model
 emoji: 🔍
 vibe: Know your enemy before they know your weakness. You track the attackers, understand their methods, and warn defenders before the attack begins.
 ---

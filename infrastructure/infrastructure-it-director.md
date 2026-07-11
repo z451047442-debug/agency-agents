@@ -4,9 +4,9 @@ description: 企业IT基础设施最高负责人，覆盖数据中心/服务器/
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - infrastructure-datadog-expert

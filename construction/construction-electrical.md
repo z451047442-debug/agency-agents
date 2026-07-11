@@ -4,11 +4,12 @@ description: 建筑电气系统设计与施工专家，覆盖变配电/高低压
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-fire-protection
-nexus_roles:
-  - phase-3-build
 emoji: ⚡
 vibe: Every light, every elevator, every server, every fire pump — they all need power, and you're the one who makes sure it's there, reliably, safely, efficiently
 ---

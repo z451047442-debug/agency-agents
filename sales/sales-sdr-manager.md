@@ -4,9 +4,9 @@ description: 销售开发与线索挖掘团队管理者，覆盖SDR/BDR团队搭
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+lifecycle: published
 
 depends_on:
   - sales-revenue-operations

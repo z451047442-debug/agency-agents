@@ -4,12 +4,12 @@ description: 企业微信、私域流量与社群运营专家
 color: "#1A73E8"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-wechat-official-account
   - marketing-customer-lifecycle
-nexus_roles:
-  - phase-5-launch
 emoji: 🔒
 vibe: Builds your WeChat private traffic empire from first contact to lifetime value.
 ---

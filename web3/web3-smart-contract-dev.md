@@ -4,12 +4,12 @@ description: 区块链智能合约开发专家，覆盖Solidity/Rust合约开发
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - web3-smart-contract-developer
   - web3-engineering-smart-contract-security
-nexus_roles:
-  - phase-3-build
 emoji: 📝
 vibe: Smart contracts are immutable — once deployed, they can't be changed. Every line of code you write is permanent, so you write every line like it's going to be scrutinized forever.
 ---

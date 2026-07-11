@@ -4,10 +4,10 @@ description: 大规模电子商务平台技术架构专家，覆盖商品/库存
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

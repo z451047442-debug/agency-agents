@@ -4,12 +4,12 @@ description: RFP 响应、赢单主题与叙事结构专家
 color: "#2563EB"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - sales-deal-strategist
   - sales-offer-lead-gen-strategist
-nexus_roles:
-  - phase-1-strategy
 emoji: 🏹
 vibe: Turns RFP responses into stories buyers can't put down.
 ---

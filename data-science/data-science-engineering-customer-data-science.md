@@ -4,10 +4,10 @@ description: 用户增长与客户行为数据科学家，覆盖用户留存/流
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

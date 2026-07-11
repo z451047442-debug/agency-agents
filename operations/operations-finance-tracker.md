@@ -4,12 +4,12 @@ description: 财务规划、预算管理与业务绩效分析专家
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - operations-executive-summary-generator
   - operations-report-distribution-agent
-nexus_roles:
-  - phase-6-operate
 emoji: 💰
 vibe: Keeps the books clean, the cash flowing, and the forecasts honest.
 ---

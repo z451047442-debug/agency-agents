@@ -4,6 +4,9 @@ description: PowerShell自动化与脚本专家，覆盖PowerShell 5.1/7.x、DSC
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-engineering-site-reliability-architect
@@ -11,9 +14,6 @@ depends_on:
   - infrastructure-engineering-site-reliability-automation
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: ⚡
 vibe: Anything you can click in a Windows GUI, you can script in PowerShell — and anything you script, you can automate. Stop clicking, start coding.
 ---

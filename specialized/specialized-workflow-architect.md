@@ -4,11 +4,11 @@ description: 工作流发现、流程映射与规格说明专家
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - specialized-agentic-identity-trust
-nexus_roles:
-  - phase-1-strategy
 emoji: "🗺️"
 vibe: Every path the system can take — mapped, named, and specified before a single line is written.
 ---

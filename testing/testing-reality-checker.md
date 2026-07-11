@@ -4,11 +4,11 @@ description: 基于证据的认证、质量门与发布认证专家
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - testing-test-results-analyzer
-nexus_roles:
-  - phase-4-hardening
 emoji: 🧐
 vibe: Defaults to "NEEDS WORK" — requires overwhelming proof for production readiness.
 ---

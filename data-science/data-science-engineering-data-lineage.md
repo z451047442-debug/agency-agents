@@ -4,9 +4,9 @@ description: 企业数据治理与元数据管理专家，覆盖数据血缘(Dat
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

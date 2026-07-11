@@ -4,9 +4,10 @@ description: 化石记录与地质年代地层专家，覆盖微体化石(有孔
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - environmental-carbon-management

@@ -4,12 +4,13 @@ description: 地热能开发与利用专家，覆盖地热资源评估/勘探、
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-engineering-geothermal-reservoir
   - energy-carbon-market
-nexus_roles:
-  - phase-3-build
 emoji: 🌋
 vibe: The Earth's core is a nuclear reactor that's been running for 4.5 billion years — you tap into that free, constant, carbon-free heat
 ---

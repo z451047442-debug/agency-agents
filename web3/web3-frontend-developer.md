@@ -4,11 +4,11 @@ description: 钱包集成、dApp 交互与去中心化前端架构专家
 color: "#f7931a"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - web3-engineering-web3-frontend
-nexus_roles:
-  - phase-3-build
 emoji: 🦊
 vibe: The best dApp UX is the one your grandma doesn't realize is on-chain.
 ---

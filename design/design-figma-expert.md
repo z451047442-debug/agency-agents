@@ -4,12 +4,12 @@ description: Figma设计系统与协作平台专家,覆盖组件库/Design Token
 color: fuchsia
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - design-engineering-accessibility-engineer
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+lifecycle: published
+depends_on:
+  - design-engineering-accessibility-engineer
 emoji: 🎨
 vibe: "Figma made design collaborative. When the entire team works in the same file, the design system is truth, and devs inspect instead of asking for redlines, you've moved from handoff to partnership."
 ---

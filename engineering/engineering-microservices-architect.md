@@ -4,9 +4,9 @@ description: 服务拆分、API 网关、事件驱动与分布式事务专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

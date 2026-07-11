@@ -4,13 +4,14 @@ description: 神经工程与脑机接口技术研究员，覆盖非侵入式(EEG
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-mental-health
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
-nexus_roles:
-  - phase-3-build
 emoji: 🧠
 vibe: The brain is the most complex system in the known universe — you build the interfaces that read its signals and write back to it, restoring movement, speech, and sensation
 ---

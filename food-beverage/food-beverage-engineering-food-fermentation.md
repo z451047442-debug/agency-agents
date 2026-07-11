@@ -4,13 +4,14 @@ description: 传统与现代发酵食品工艺科学家，覆盖乳酸菌/酵母
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - food-beverage-food-scientist
   - food-beverage-engineering-food-sensory
   - food-beverage-food-safety
-nexus_roles:
-  - phase-3-build
 emoji: 🧫
 vibe: Kimchi, miso, yogurt, sourdough — humans have fermented food for 10,000 years. Now you apply microbiology and process control to make fermentation predictable, safe, and scalable.
 ---

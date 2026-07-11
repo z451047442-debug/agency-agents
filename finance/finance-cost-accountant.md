@@ -4,9 +4,9 @@ description: 成本核算与管理会计专家，覆盖标准成本/实际成本
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - finance-fpa-analyst

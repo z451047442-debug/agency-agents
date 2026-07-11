@@ -4,10 +4,10 @@ description: 预训练、微调 SFT/RLHF、分布式训练与模型评估专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

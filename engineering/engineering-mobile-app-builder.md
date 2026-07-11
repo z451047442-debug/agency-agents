@@ -4,13 +4,13 @@ description: iOS/Android、React Native、Flutter 跨平台移动应用构建者
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-android-framework
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 📲
 vibe: Ships native-quality apps on iOS and Android, fast.
 ---

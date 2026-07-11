@@ -4,15 +4,15 @@ description: 大华智能服务器与云存储专家，覆盖AI服务器(GPU/MLU
 color: crimson
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-dahua-surveillance
   - infrastructure-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🗄️
 vibe: Behind every Dahua DSS platform running a city's surveillance is a cluster of servers you designed — storage nodes, AI nodes, management nodes, all working together
 ---

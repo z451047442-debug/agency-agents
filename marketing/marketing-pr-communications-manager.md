@@ -5,13 +5,13 @@ description: 媒体关系、新闻稿、危机传播与整合传播规划的战�
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
   - marketing-paid-media-creative-strategist
-nexus_roles:
-  - phase-5-launch
 vibe: Reputation is built in years and lost in minutes. Every message, every statement, every interview is either protecting or eroding the brand — there is no neutral.
 ---
 

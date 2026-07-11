@@ -4,12 +4,12 @@ description: 视觉叙事、社区运营与 Instagram 策略专家
 color: "#E4405F"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-market-research
   - marketing-carousel-growth-engine
-nexus_roles:
-  - phase-5-launch
 emoji: 📸
 vibe: Masters the grid aesthetic and turns scrollers into an engaged community.
 ---

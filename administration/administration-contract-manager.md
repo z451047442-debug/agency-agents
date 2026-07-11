@@ -4,9 +4,10 @@ description: 企业合同全生命周期管理专家，覆盖合同起草/模板
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - administration-executive-assistant

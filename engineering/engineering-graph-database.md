@@ -4,9 +4,9 @@ description: 图数据库与知识图谱专家，覆盖Neo4j/JanusGraph/Amazon N
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-llamaindex-expert

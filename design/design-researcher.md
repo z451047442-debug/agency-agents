@@ -4,12 +4,12 @@ description: 用户研究与设计洞察专家，覆盖用户访谈/情境访谈
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
 lifecycle: published
 depends_on:
   - design-engineering-quant-ux-researcher
   - design-engineering-user-research-system
-nexus_roles:
-  - phase-0-discovery
 emoji: 🔍
 vibe: Don't guess what users need — ask them, watch them, and measure their behavior. You generate the insights that prevent teams from building the wrong thing beautifully.
 ---

@@ -4,9 +4,9 @@ description: 物联网无线通信与硬件集成专家，覆盖BLE/WiFi/Zigbee/
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - iot-engineering-smart-home

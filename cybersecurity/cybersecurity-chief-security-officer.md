@@ -4,9 +4,9 @@ description: 企业信息安全最高负责人，覆盖安全战略/治理框架
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - cybersecurity-paloalto-expert

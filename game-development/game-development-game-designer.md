@@ -4,12 +4,12 @@ description: 系统设计、GDD 写作、经济平衡与玩法循环专家
 color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - game-development-game-audio-engineer
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
+depends_on:
+  - game-development-game-audio-engineer
 emoji: 🎮
 vibe: Thinks in loops, levers, and player motivations to architect compelling gameplay.
 ---

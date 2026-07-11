@@ -4,9 +4,10 @@ description: 农业IoT与智能装备专家，覆盖土壤/气象传感器网络
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - agriculture-agronomist

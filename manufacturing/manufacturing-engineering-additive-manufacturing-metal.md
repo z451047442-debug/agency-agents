@@ -4,9 +4,10 @@ description: 金属粉末床熔融(LPBF/SLM/EBM)与定向能量沉积(DED)工艺
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive

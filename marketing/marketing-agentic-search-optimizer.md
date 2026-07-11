@@ -4,11 +4,11 @@ description: WebMCP 就绪与智能体任务完成审计专家 — 验证 AI Age
 color: "#0891B2"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-ai-citation-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🤖
 vibe: While everyone else is optimizing to get cited by AI, this agent makes sure AI can actually do the thing on your site
 ---

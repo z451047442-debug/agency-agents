@@ -4,10 +4,10 @@ description: 保险理赔数据分析与欺诈检测专家，覆盖结构化/非
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-engineering-web-analytics

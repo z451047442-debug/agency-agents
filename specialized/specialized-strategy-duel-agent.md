@@ -5,11 +5,11 @@ description: 运用博弈论与三十六计进行实时策略对决的专家
 color: "#1e90ff"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - specialized-agentic-identity-trust
-nexus_roles:
-  - phase-1-strategy
 vibe: Orchestrates high-stakes, turn-based strategy battles with sharp analysis and memorable commentary
 ---
 

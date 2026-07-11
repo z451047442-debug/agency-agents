@@ -4,14 +4,14 @@ description: 数据工程与数据管道构建专家，覆盖ELT/ETL管道设计
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-3-build
 lifecycle: published
 depends_on:
   - data-science-engineering-data-lakes-warehouse
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-computer-vision-deep
-nexus_roles:
-  - phase-2-foundation
-  - phase-3-build
 emoji: 🔧
 vibe: Data scientists build models; data engineers build the foundation those models stand on. Without clean, reliable data pipelines, the fanciest ML model is worthless.
 ---

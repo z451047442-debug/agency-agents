@@ -4,9 +4,10 @@ description: 核能与核工程专家，覆盖压水堆(PWR)/AP1000/华龙一号
 color: crimson
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - energy-carbon-accountant

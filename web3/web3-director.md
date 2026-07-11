@@ -4,13 +4,13 @@ description: Web3/区块链业务最高负责人，覆盖去中心化产品策�
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - web3-smart-contract-developer
   - web3-engineering-smart-contract-security
   - web3-smart-contract-dev
-nexus_roles:
-  - phase-1-strategy
 emoji: ⛓️
 vibe: Web3 promises to decentralize everything — you lead the team building the protocols, tokens, and communities that make it real.
 ---

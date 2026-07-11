@@ -5,13 +5,13 @@ emoji: 🔎
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
 lifecycle: published
 depends_on:
   - marketing-paid-media-programmatic-buyer
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-auditor
-nexus_roles:
-  - phase-0-discovery
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 🔍

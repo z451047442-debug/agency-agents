@@ -4,12 +4,12 @@ description: MEDDPICC 资格认定、竞争定位与赢单策略专家
 color: "#1B4D3E"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - sales-discovery-coach
   - sales-customer-onboarding
-nexus_roles:
-  - phase-1-strategy
 emoji: ♟️
 vibe: Qualifies deals like a surgeon and kills happy ears on contact.
 ---

@@ -4,9 +4,10 @@ description: 教育测量与学习评估专家，覆盖标准化测验设计/项
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - education-academic-anthropologist

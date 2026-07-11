@@ -4,11 +4,12 @@ description: 诊断治疗一体化核医学与放射性药物专家，覆盖PET(
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: ☢️
 vibe: You can see a single cancer cell light up on a PET scan, then destroy it with a radioactive payload — that's theranostics, nuclear medicine's revolution
 ---

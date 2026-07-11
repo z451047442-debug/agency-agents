@@ -4,11 +4,12 @@ description: 口腔医学与牙科临床专家，覆盖口腔疾病诊治(龋病
 color: white
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: 🦷
 vibe: A smile is the first thing people notice — you restore function, relieve pain, and give people the confidence to smile
 ---

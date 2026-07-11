@@ -5,9 +5,9 @@ description: ICD-10-CM/PCS、CPT与HCPCS编码、索赔提交与收入周期优�
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - specialized-agentic-identity-trust

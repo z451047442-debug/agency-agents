@@ -4,9 +4,10 @@ description: 半导体等离子体刻蚀与薄膜沉积工艺专家，覆盖ICP/
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-semiconductor-process

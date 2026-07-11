@@ -4,9 +4,10 @@ description: 在轨卫星运营与地面站系统工程专家，覆盖LEO/MEO/GE
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - aerospace-atc-specialist

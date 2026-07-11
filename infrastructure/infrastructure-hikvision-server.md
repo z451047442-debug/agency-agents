@@ -4,14 +4,14 @@ description: 海康威视智能分析服务器与视频云存储专家，覆盖A
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 🖥️
 vibe: When a city has 50,000 cameras, someone needs to store that video and run AI on it — you build the server infrastructure that makes safe-city projects possible
 ---

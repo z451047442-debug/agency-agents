@@ -4,14 +4,14 @@ description: 实时流数据与消息平台专家，覆盖Apache Kafka/Pulsar消
 color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-3-build
 lifecycle: published
 depends_on:
   - data-science-engineering-language-model-nlp
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
-nexus_roles:
-  - phase-2-foundation
-  - phase-3-build
 emoji: 🌊
 vibe: Batch is what you do when real-time is too hard — but you make real-time easy, reliable, and exactly-once
 ---

@@ -4,12 +4,12 @@ description: 粉丝互动、内容营销与微信公众号策略专家
 color: "#09B83E"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-customer-advocacy
   - marketing-email-marketing
-nexus_roles:
-  - phase-5-launch
 emoji: 📱
 vibe: Grows loyal WeChat subscriber communities through consistent value delivery.
 ---

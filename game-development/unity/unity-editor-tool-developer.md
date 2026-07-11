@@ -4,9 +4,9 @@ description: EditorWindow、AssetPostprocessor 与构建自动化专家
 color: gray
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - unity-shader-graph-artist

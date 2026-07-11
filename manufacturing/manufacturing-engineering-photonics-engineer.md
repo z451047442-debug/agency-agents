@@ -4,9 +4,10 @@ description: 光学系统与光子学设计专家，覆盖光学设计(Zemax/Cod
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive

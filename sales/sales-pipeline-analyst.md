@@ -4,11 +4,11 @@ description: 预测、漏斗健康度、商机速度与 RevOps 专家
 color: "#059669"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-0-discovery
 lifecycle: published
 depends_on:
   - sales-discovery-coach
-nexus_roles:
-  - phase-0-discovery
 emoji: 📊
 vibe: Tells you your forecast is wrong before you realize it yourself.
 ---

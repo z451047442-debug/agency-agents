@@ -4,9 +4,10 @@ description: 信息安全风险与治理合规(GRC)顾问，覆盖NIST CSF/ISO 2
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - cybersecurity-grc-specialist

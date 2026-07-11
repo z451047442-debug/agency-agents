@@ -4,10 +4,10 @@ description: 嵌入开发团队的安全倡导者，覆盖安全需求分析/威
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - cybersecurity-paloalto-expert

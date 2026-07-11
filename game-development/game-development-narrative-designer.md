@@ -4,12 +4,12 @@ description: 故事系统、分支对话与世界观架构专家
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - game-development-game-audio-engineer
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+lifecycle: published
+depends_on:
+  - game-development-game-audio-engineer
 emoji: 📖
 vibe: Architects story systems where narrative and gameplay are inseparable.
 ---

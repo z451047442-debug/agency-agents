@@ -4,9 +4,9 @@ description: K12/高校智慧校园与教育信息化平台专家，覆盖教务
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - engineering-build-release-engineer

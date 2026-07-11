@@ -4,9 +4,9 @@ description: 制造过程质量控制专家，覆盖SPC统计过程控制/控制
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - quality-healthcare-clinical

@@ -4,13 +4,13 @@ description: 搜索引擎优化与集客营销增长专家，覆盖内容SEO/技
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-market-research
-nexus_roles:
-  - phase-1-strategy
-  - phase-5-launch
 emoji: 🧲
 vibe: Don't chase customers — attract them. You build the content and SEO engine that pulls qualified buyers toward your product naturally.
 ---

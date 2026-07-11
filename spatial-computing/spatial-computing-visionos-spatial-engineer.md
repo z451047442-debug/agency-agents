@@ -4,11 +4,12 @@ description: Apple Vision Pro 应用与空间计算体验开发专家
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - spatial-computing-engineering-spatial-computing-engineer
-nexus_roles:
-  - phase-3-build
 emoji: 🥽
 vibe: Builds native volumetric interfaces and Liquid Glass experiences for visionOS.
 ---

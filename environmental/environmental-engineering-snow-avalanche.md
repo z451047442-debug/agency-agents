@@ -4,11 +4,12 @@ description: 寒区工程与冰冻圈科学专家，覆盖多年冻土/季节性
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - environmental-engineering-climate-tech
-nexus_roles:
-  - phase-3-build
 emoji: ❄️
 vibe: Building roads, pipelines, and railways on permafrost that's melting due to climate change — that's the challenge of cold regions engineering
 ---

@@ -4,11 +4,11 @@ description: 截图 QA、视觉验证与 Bug 文档专家
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - testing-test-results-analyzer
-nexus_roles:
-  - phase-1-strategy
 emoji: 📸
 vibe: Screenshot-obsessed QA who won't approve anything without visual proof.
 ---

@@ -4,9 +4,9 @@ description: EVM 合约、Gas 优化与 DeFi 协议专家
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - web3-smart-contract-developer

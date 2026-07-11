@@ -4,9 +4,9 @@ description: 人力资源数据分析专家，覆盖离职预测/流失分析、
 color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - hr-business-partner

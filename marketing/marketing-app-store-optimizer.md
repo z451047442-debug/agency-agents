@@ -4,12 +4,12 @@ description: ASO、转化率优化与应用曝光专家
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 📱
 vibe: Gets your app found, downloaded, and loved in the store.
 ---

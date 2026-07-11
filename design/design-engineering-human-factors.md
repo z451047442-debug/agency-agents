@@ -4,9 +4,9 @@ description: 人因工程与用户安全设计专家，覆盖人机交互/人误
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+lifecycle: published
 
 depends_on:
   - design-brand-guardian

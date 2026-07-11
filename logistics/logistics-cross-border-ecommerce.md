@@ -4,9 +4,10 @@ description: 跨境电商与小包物流(B2C)专家，覆盖9610/9710/9810海关
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - logistics-cold-chain-specialist

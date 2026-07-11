@@ -4,9 +4,10 @@ description: 港口码头与航道工程设计专家，覆盖码头结构(重力
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - environmental-engineering-coastal-marine

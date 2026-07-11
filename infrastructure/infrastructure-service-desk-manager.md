@@ -4,10 +4,10 @@ description: IT服务台与IT服务管理(ITSM)运营专家，覆盖ServiceNow/J
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - infrastructure-ansible-expert

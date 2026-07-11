@@ -4,9 +4,11 @@ description: 通信网络规划与优化：5G/LTE、核心网、接入网、传�
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+  - phase-4-hardening
+  - phase-6-operate
+lifecycle: published
 
 depends_on:
   - telecom-5g-core

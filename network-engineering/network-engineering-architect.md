@@ -4,9 +4,11 @@ description: 企业级网络架构设计专家，覆盖路由交换、SDN/NFV、
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
+  - phase-4-hardening
+  - phase-6-operate
+lifecycle: published
 
 depends_on:
   - network-engineering-automation

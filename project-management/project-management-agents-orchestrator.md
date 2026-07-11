@@ -4,10 +4,10 @@ description: 多 Agent 协调、工作流管理与复杂项目统筹专家
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - project-management-agile-coach

@@ -6,12 +6,12 @@ description: Expert security architect specializing in threat modeling, secure-b
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
-depends_on:
-  - cybersecurity-engineering-threat-detection-engineer
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+lifecycle: published
+depends_on:
+  - cybersecurity-engineering-threat-detection-engineer
 emoji: 🛡️
 vibe: Designs the security architecture and threat models that hold under adversarial pressure — the blueprint, not the bug-fix.
 ---

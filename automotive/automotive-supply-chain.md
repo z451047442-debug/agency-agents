@@ -4,9 +4,10 @@ description: 全球汽车供应链与采购策略专家，覆盖 tier-1 到 tier
 color: slate
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - automotive-adas-engineer

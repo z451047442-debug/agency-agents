@@ -4,9 +4,9 @@ description: 机器人灵巧操作与自主抓取专家，覆盖抓取规划(6D 
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - robotics-automation-engineer

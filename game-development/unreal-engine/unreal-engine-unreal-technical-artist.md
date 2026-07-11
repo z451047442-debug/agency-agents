@@ -4,9 +4,9 @@ description: Unreal Engine 视觉管线专家 — 精通 Material Editor、Niaga
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - unreal-engine-unreal-world-builder

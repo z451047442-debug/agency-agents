@@ -4,9 +4,9 @@ description: 统计分析、机器学习建模、AB 测试与因果推断专家
 color: "#1565C0"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-0-discovery
+lifecycle: published
 
 depends_on:
   - data-science-engineering-knowledge-management

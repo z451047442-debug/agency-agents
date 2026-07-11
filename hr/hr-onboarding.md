@@ -5,9 +5,9 @@ description: 全面的 HR 入职专家，负责员工入职引导、文档管理
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - hr-hris

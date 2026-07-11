@@ -4,9 +4,10 @@ description: 彩票客户服务与奖金兑付专家，覆盖彩民咨询/投诉
 color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-5-launch
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - lottery-data-analyst

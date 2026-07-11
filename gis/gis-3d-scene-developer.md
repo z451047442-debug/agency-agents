@@ -4,11 +4,11 @@ description: Web 3D可视化专家，使用Cesium、ArcGIS Scene Viewer创建沉
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - gis-drone-reality-mapping
-nexus_roles:
-  - phase-3-build
 emoji: 🏔️
 vibe: Bringing the third dimension to the web — one scene at a time.
 ---

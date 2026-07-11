@@ -4,10 +4,10 @@ description: 生物特征识别与身份认证技术专家，覆盖指纹/人脸
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - cybersecurity-engineering-cybersecurity-risk

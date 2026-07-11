@@ -4,14 +4,14 @@ description: 微博热搜、话题营销与粉丝互动专家
 color: "#FF8200"
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-china-market-localization-strategist
   - marketing-brand-strategist-name
-nexus_roles:
-  - phase-1-strategy
-  - phase-5-launch
 emoji: 🔥
 vibe: Makes your brand trend on Weibo and keeps the conversation going.
 ---

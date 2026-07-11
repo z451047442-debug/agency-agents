@@ -4,11 +4,11 @@ description: 医院最高管理者，覆盖医院战略/学科建设、医疗质
 color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-1-strategy
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-1-strategy
 emoji: 🏥
 vibe: A hospital is a business that can never turn away a customer who can't pay. You balance the mission of care with the reality of costs, every single day.
 ---

@@ -4,11 +4,12 @@ description: 生物反应器与发酵工艺放大专家，覆盖CHO/微生物发
 color: green
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: 🧬
 vibe: Living cells are the world's most sophisticated chemical factories — you grow them at industrial scale to produce the medicines that save lives
 ---

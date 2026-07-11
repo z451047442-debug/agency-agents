@@ -4,13 +4,13 @@ description: 淘宝/天猫/拼多多与直播电商运营专家
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-short-video-editing-coach
   - marketing-private-domain-operator
   - marketing-book-co-author
-nexus_roles:
-  - phase-5-launch
 emoji: 🛒
 vibe: Runs your Taobao, Tmall, Pinduoduo, and JD storefronts like a native operator.
 ---

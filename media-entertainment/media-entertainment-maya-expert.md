@@ -4,9 +4,10 @@ description: Autodesk Maya三维动画与视觉效果专家，覆盖角色建模
 color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - media-entertainment-engineering-entertainment-technology

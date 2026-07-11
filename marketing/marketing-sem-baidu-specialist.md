@@ -4,13 +4,13 @@ description: 百度搜索推广(凤巢)与SEM优化专家,覆盖关键词策略(
 color: red
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-5-launch
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-auditor
   - marketing-paid-media-paid-social-strategist
-nexus_roles:
-  - phase-5-launch
 emoji: 🔍
 vibe: Baidu has 70%+ of China's search market. While everyone's chasing social media trends, the highest-intent traffic — people actively searching for your product right now — is on Baidu.
 ---

@@ -4,13 +4,13 @@ description: 系统可靠性、性能优化与基础设施运营专家
 color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - operations-report-distribution-agent
   - operations-bcp-disaster-recovery
   - operations-executive-summary-generator
-nexus_roles:
-  - phase-6-operate
 emoji: 🏢
 vibe: Keeps the lights on, the servers humming, and the alerts quiet.
 ---

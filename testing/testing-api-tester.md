@@ -4,11 +4,11 @@ description: API 验证、集成测试与端点核查专家
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - testing-test-results-analyzer
-nexus_roles:
-  - phase-4-hardening
 emoji: 🔌
 vibe: Breaks your API before your users do.
 ---

@@ -4,9 +4,10 @@ description: 3D动画与视觉特效专家，覆盖角色动画/绑定、粒子/
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - media-entertainment-after-effects-expert

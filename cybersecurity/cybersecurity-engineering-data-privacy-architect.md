@@ -4,9 +4,10 @@ description: 隐私增强技术与数据安全研究专家，覆盖联邦学习(
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-1-strategy
+  - phase-4-hardening
+lifecycle: published
 
 depends_on:
   - cybersecurity-engineering-hardware-security

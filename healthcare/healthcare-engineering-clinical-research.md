@@ -4,11 +4,12 @@ description: 临床试验现场运营与受试者管理专家，覆盖GCP/ICH E6
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
-nexus_roles:
-  - phase-3-build
 emoji: 📋
 vibe: Clinical trials save future lives, but only if conducted rigorously — you manage the patients, the data, and the compliance that turn protocols into evidence
 ---

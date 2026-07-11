@@ -4,13 +4,13 @@ description: Terraform基础设施即代码专家,覆盖HCL模块化设计与Mon
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
 emoji: 🏗️
 vibe: Infrastructure is code, and code is reviewed, tested, and versioned. Terraform turns months of ticket-based provisioning into a git push and a plan output.
 ---

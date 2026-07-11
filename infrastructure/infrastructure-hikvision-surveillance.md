@@ -4,15 +4,15 @@ description: 海康威视安防系统与网络专家，覆盖IP摄像头/NVR/DVR
 color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-hikvision-server
   - infrastructure-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
-nexus_roles:
-  - phase-2-foundation
-  - phase-6-operate
 emoji: 📹
 vibe: Every camera is a node on the network — you design the surveillance network so that video never stutters, storage never overflows, and evidence is always retrievable
 ---

@@ -4,10 +4,10 @@ description: SIEM 规则、威胁狩猎与 ATT&CK 映射专家
 color: "#7b2d8e"
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-4-hardening
   - phase-6-operate
+lifecycle: published
 
 depends_on:
   - cybersecurity-paloalto-expert

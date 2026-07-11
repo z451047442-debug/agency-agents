@@ -4,10 +4,10 @@ description: 流程挖掘与业务流程分析专家，覆盖事件日志提取(
 color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
-lifecycle: published
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+lifecycle: published
 
 depends_on:
   - data-science-data-engineer

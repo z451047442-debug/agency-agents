@@ -4,13 +4,13 @@ description: 社区建设、开发者体验与技术内容创作专家
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
+nexus_roles:
+  - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-code-reviewer
   - engineering-build-release-engineer
   - engineering-cross-platform
-nexus_roles:
-  - phase-3-build
 emoji: 🗣️
 vibe: Bridges your product team and the developer community through authentic engagement.
 ---

@@ -56,6 +56,16 @@
             "type": "string",
             "pattern": "\\.md$",
             "description": "Relative path from the repository root to the agent .md file."
+          },
+          "depends_on": {
+            "type": "array",
+            "description": "Optional list of agent IDs this agent depends on.",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "nexus_roles": {
+            "type": "array",
+            "description": "Optional list of NEXUS pipeline phases assigned to this agent.",
+            "items": { "type": "string", "minLength": 1 }
           }
         },
         "additionalProperties": false

@@ -11,6 +11,7 @@ Project mode:
     python scripts/nexus-orchestrator.py --project my-project --start 0
     python scripts/nexus-orchestrator.py --project my-project --gate 0
     python scripts/nexus-orchestrator.py --project my-project --complete 0
+    python scripts/nexus-orchestrator.py --project my-project --report
     python scripts/nexus-orchestrator.py --list-projects
 """
 
@@ -59,53 +60,53 @@ SCENARIOS = {
 
 GATE_QUESTIONS = {
     "0": [
-        "Market opportunity validated with data?",
-        "At least 3 user pain points identified?",
-        "Primary sources and key literature collected?",
-        "No blocking compliance/regulatory issues?",
-        "Problem statement clear and specific?",
+        ("Market opportunity validated?", "Describe the data or evidence supporting market demand."),
+        ("User pain points identified?", "List at least 3 validated user pain points with sources."),
+        ("Key sources collected?", "Confirm literature, data, or documents gathered for analysis."),
+        ("Compliance/regulatory clear?", "Note any regulatory review completed or not applicable."),
+        ("Problem statement specific?", "State the problem in one sentence — is it answerable and scoped?"),
     ],
     "1": [
-        "Strategy document covers all requirements?",
-        "Architecture/outline reviewed and approved?",
-        "Work plan with deadlines assigned?",
-        "Quality criteria defined for each deliverable?",
-        "All stakeholders aligned on scope?",
+        ("Strategy covers all requirements?", "Confirm requirement coverage and note any gaps."),
+        ("Architecture/outline approved?", "Who reviewed and approved the architecture/outline?"),
+        ("Work plan with deadlines?", "Confirm tasks are assigned with estimated completion dates."),
+        ("Quality criteria defined?", "What measurable standards define 'done' for each deliverable?"),
+        ("Stakeholders aligned?", "Confirm all stakeholders have signed off on scope and approach."),
     ],
     "2": [
-        "Infrastructure/tools set up and operational?",
-        "Data/sources collected and catalogued?",
-        "Templates and standards defined?",
-        "Team/environment ready for build phase?",
-        "All prerequisites verified as complete?",
+        ("Infrastructure operational?", "Confirm tools, environments, and platforms are ready."),
+        ("Data/sources catalogued?", "Describe what data/sources are collected and organized."),
+        ("Templates defined?", "What templates or standards have been established?"),
+        ("Ready for build phase?", "Confirm no blocking prerequisites remain."),
+        ("Prerequisites verified?", "List prerequisites and their verification status."),
     ],
     "3": [
-        "All planned tasks completed?",
-        "Deliverables match specifications?",
-        "Internal review completed?",
-        "No critical issues outstanding?",
-        "Build artifacts organized and accessible?",
+        ("All tasks completed?", "Confirm task completion percentage and note outstanding items."),
+        ("Deliverables match specs?", "How was specification compliance verified?"),
+        ("Internal review done?", "Who reviewed the deliverables and what was the outcome?"),
+        ("No critical issues?", "List any outstanding issues and their severity."),
+        ("Artifacts organized?", "Where are build artifacts stored and how are they accessed?"),
     ],
     "4": [
-        "All quality checks passed?",
-        "Security/compliance validated?",
-        "Performance/correctness verified?",
-        "Peer review completed?",
-        "Documentation accurate and complete?",
+        ("Quality checks passed?", "List quality metrics (test pass rate, coverage %, lint score)."),
+        ("Security/compliance validated?", "Confirm security review, vulnerability scan, or compliance check results."),
+        ("Performance verified?", "Provide key performance metrics (latency, throughput, etc.)."),
+        ("Peer review completed?", "Who reviewed and what changes were made based on feedback?"),
+        ("Documentation complete?", "Confirm documentation is accurate, current, and accessible."),
     ],
     "5": [
-        "Launch/deployment successful?",
-        "Systems stable for 48 hours?",
-        "User/client feedback channels operational?",
-        "Stakeholders notified?",
-        "Support/monitoring active?",
+        ("Launch successful?", "Describe deployment outcome — downtime, errors, rollback needed?"),
+        ("Stable for 48 hours?", "Confirm system stability metrics for the first 48 hours post-launch."),
+        ("Feedback channels open?", "List active feedback channels and response procedures."),
+        ("Stakeholders notified?", "Who was notified and when?"),
+        ("Monitoring active?", "Confirm dashboards, alerts, and on-call rotation are operational."),
     ],
     "6": [
-        "SLO/SLA compliance maintained?",
-        "Critical incidents < threshold?",
-        "Periodic review completed?",
-        "Improvement backlog active?",
-        "Metrics trending positively?",
+        ("SLO compliance maintained?", "Provide SLO/SLA compliance data for the review period."),
+        ("Incidents < threshold?", "Count of P0/P1/P2 incidents and trend vs previous period."),
+        ("Periodic review done?", "Confirm review cadence and key findings from last review."),
+        ("Improvement backlog active?", "List top improvement items and their status."),
+        ("Metrics positive?", "Show key metrics trend (↑/↓/→) for the review period."),
     ],
 }
 
@@ -226,8 +227,9 @@ def start_phase(name: str, phase: str) -> None:
         if len(by_cat[cat]) > 12:
             print(f"    ... +{len(by_cat[cat]) - 12} more")
     print(f"\nQuality Gate ({PHASE_LABELS[phase]}):")
-    for q in GATE_QUESTIONS[phase]:
+    for q, desc in GATE_QUESTIONS[phase]:
         print(f"  ☐ {q}")
+        print(f"    ({desc})")
     print(f"\nReference: docs/playbooks/phase-{phase}-{PHASE_LABELS[phase].lower()}.md")
 
 
@@ -239,18 +241,85 @@ def run_gate(name: str, phase: str) -> None:
         sys.exit(1)
     print(f"\nPhase {phase} — {PHASE_LABELS[phase]}  [GATE CHECK]")
     print("=" * 55)
-    print("Answer each (y/n):\n")
+    print("For each question, enter: pass|fail [evidence or explanation]")
+    print()
+
     gate = {}
-    for q in GATE_QUESTIONS[phase]:
-        ans = input(f"  [{q}]  y/n: ").strip().lower()
-        gate[q] = ans in ("y", "yes")
-        print(f"    {'✓ PASS' if gate[q] else '✗ FAIL'}")
+    for question, desc in GATE_QUESTIONS[phase]:
+        print(f"  [{question}]")
+        print(f"  ({desc})")
+        ans = input(f"  > ").strip()
+        parts = ans.split(maxsplit=1)
+        passed = parts and parts[0].lower() in ("pass", "p", "yes", "y")
+        evidence = parts[1] if len(parts) > 1 else ""
+        gate[question] = {"passed": passed, "evidence": evidence, "timestamp": datetime.now(timezone.utc).isoformat()}
+        icon = "✓ PASS" if passed else "✗ FAIL"
+        if evidence:
+            print(f"    {icon} — {evidence}")
+        else:
+            print(f"    {icon}")
+        print()
+
     ps["gate"] = gate
     save_checkpoint(name, cp)
-    if all(gate.values()):
-        print(f"\nAll passed. Run --complete {phase} to advance.")
+    if all(g["passed"] for g in gate.values()):
+        print(f"All checks passed. Run --complete {phase} to advance.")
     else:
-        print(f"\nFailures found. Resolve and re-run --gate {phase}.")
+        failed = [q for q, g in gate.items() if not g["passed"]]
+        print(f"{len(failed)} check(s) failed: {', '.join(failed[:3])}")
+        print(f"Resolve issues and re-run --gate {phase}.")
+
+
+def generate_report(name: str) -> None:
+    cp = load_checkpoint(name)
+    sc = SCENARIOS[cp["scenario"]]
+    print(f"\n{'=' * 60}")
+    print(f"NEXUS GATE REPORT")
+    print(f"Project: {name} ({sc['name']})")
+    print(f"Scenario: {cp['scenario']}  |  Created: {cp['created'][:10]}")
+    print(f"{'=' * 60}")
+
+    total_gates = 0
+    passed_gates = 0
+    for p in sc["phases"]:
+        ps = cp["phases"][p]
+        if ps["status"] not in ("completed", "in_progress"):
+            continue
+        print(f"\nPhase {p} — {PHASE_LABELS[p]} [{ps['status'].upper()}]")
+        if ps["started"]:
+            print(f"  Started: {ps['started'][:10]}")
+        if ps["completed"]:
+            print(f"  Completed: {ps['completed'][:10]}")
+
+        gate = ps.get("gate", {})
+        if gate:
+            for question, result in gate.items():
+                if isinstance(result, dict):
+                    icon = "✓" if result["passed"] else "✗"
+                    evidence = f" — {result['evidence']}" if result.get("evidence") else ""
+                    print(f"  {icon} {question}{evidence}")
+                    total_gates += 1
+                    if result["passed"]:
+                        passed_gates += 1
+                else:
+                    # Legacy format support
+                    icon = "✓" if result else "✗"
+                    print(f"  {icon} {question}")
+                    total_gates += 1
+                    if result:
+                        passed_gates += 1
+        else:
+            print(f"  (gate not yet run)")
+
+    if total_gates > 0:
+        print(f"\n{'─' * 60}")
+        print(f"Gate Summary: {passed_gates}/{total_gates} passed ({100 * passed_gates // total_gates}%)")
+
+    # Project progress
+    completed = sum(1 for p in cp["phases"].values() if p["status"] == "completed")
+    total = len(cp["phases"])
+    print(f"Phase Progress: {completed}/{total} phases complete")
+    print(f"{'=' * 60}")
 
 
 def complete_phase(name: str, phase: str) -> None:
@@ -259,7 +328,11 @@ def complete_phase(name: str, phase: str) -> None:
     if ps["status"] != "in_progress":
         print(f"Phase {phase} is {ps['status']}.", file=sys.stderr)
         sys.exit(1)
-    if not ps.get("gate") or not all(ps["gate"].values()):
+    gate = ps.get("gate", {})
+    all_passed = all(
+        (g["passed"] if isinstance(g, dict) else g) for g in gate.values()
+    )
+    if not gate or not all_passed:
         print("Gate not passed. Run --gate first.", file=sys.stderr)
         sys.exit(1)
     ps["status"] = "completed"
@@ -344,6 +417,7 @@ def main() -> None:
     parser.add_argument("--gate", choices=["0","1","2","3","4","5","6"], help="Run gate checklist")
     parser.add_argument("--complete", choices=["0","1","2","3","4","5","6"], help="Complete a phase")
     parser.add_argument("--list-projects", action="store_true", help="List all projects")
+    parser.add_argument("--report", action="store_true", help="Generate gate report for a project")
     # Legacy query mode
     parser.add_argument("--phase", "-p", choices=["0","1","2","3","4","5","6"], help="Query agents for a phase")
     parser.add_argument("--mode", "-m", choices=["micro","sprint","full"], default="full")
@@ -358,7 +432,9 @@ def main() -> None:
         init_project(args.init, args.scenario)
         return
     if args.project:
-        if args.status:
+        if args.report:
+            generate_report(args.project)
+        elif args.status:
             show_status(args.project)
         elif args.start:
             start_phase(args.project, args.start)

@@ -61,6 +61,9 @@ dist/
 build/
 *.egg-info/
 
+# NEXUS project data (user-specific, not shared)
+nexus-projects/
+
 # Personal notes and scratch files
 scratch/
 notes/

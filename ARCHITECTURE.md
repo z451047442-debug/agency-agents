@@ -1,6 +1,6 @@
 # The Agency — System Architecture v1.0.0
 
-**1184 AI Agent Personality Definitions · 60+ Categories · 20 Tooling Scripts · 380 Tests**
+**1184 AI Agent Personality Definitions · 62 Categories · 25 Tooling Scripts · 912 Tests**
 
 ---
 
@@ -68,11 +68,11 @@
 - Re-exports all 15 symbols from submodules
 - `load_module(name, path)` -> module — importlib.util wrapper replacing deprecated SourceFileLoader
 
-### Consumers (13 scripts)
+### Consumers (14 scripts)
 
 lint-agents · convert · score-agents · analyze-deps · quality-report ·
 agent-lifecycle · contribute · expand-agent · add-comm-section ·
-search-agents · validate-index · i18n/check-i18n · i18n/localize-agents
+search-agents · validate-index · generate-index · i18n/check-i18n · i18n/localize-agents
 
 ---
 
@@ -106,13 +106,14 @@ search-agents · validate-index · i18n/check-i18n · i18n/localize-agents
 |--------|---------|
 | convert.py | .md -> 8 target tool formats, parallel mode |
 | build-hermes-plugin.py | Hermes IDE plugin packaging |
-| shard-index.py | AGENTS.json splitter, parallel processing |
 
 ### Discovery Tools
 
 | Script | Purpose |
 |--------|---------|
 | search-agents.py | Keyword/category/regex search, paginated results |
+| generate-index.py | AGENTS.json index generator (cross-platform; --check for CI) |
+| shard-index.py | AGENTS.json splitter, parallel processing |
 | i18n/check-i18n.py | Translation coverage, template generation |
 | i18n/localize-agents.py | Name+description patching from JSON translation maps |
 
@@ -247,6 +248,7 @@ quality-report.py  analyze-deps.py  agent-lifecycle.py
                                    add-comm-section.py
                                    search-agents.py
                                    validate-index.py
+                                   generate-index.py
                                    i18n/check-i18n.py
                                    i18n/localize-agents.py
 

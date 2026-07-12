@@ -18,7 +18,7 @@ Project mode:
 import argparse
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -134,8 +134,8 @@ def checkpoint_path(name: str) -> Path:
 def create_checkpoint(name: str, scenario: str) -> dict:
     return {
         "project": name, "scenario": scenario,
-        "created": datetime.now(timezone.utc).isoformat(),
-        "updated": datetime.now(timezone.utc).isoformat(),
+        "created": datetime.now(UTC).isoformat(),
+        "updated": datetime.now(UTC).isoformat(),
         "current_phase": None,
         "phases": {
             p: {"status": "pending", "started": None, "completed": None, "gate": {}}
@@ -153,7 +153,7 @@ def load_checkpoint(name: str) -> dict:
 
 
 def save_checkpoint(name: str, data: dict) -> None:
-    data["updated"] = datetime.now(timezone.utc).isoformat()
+    data["updated"] = datetime.now(UTC).isoformat()
     proj_dir = PROJECTS_DIR / name
     proj_dir.mkdir(parents=True, exist_ok=True)
     (proj_dir / "checkpoint.json").write_text(
@@ -181,7 +181,7 @@ def show_status(name: str) -> None:
     sc = SCENARIOS[cp["scenario"]]
     print(f"Project: {name} ({sc['name']})")
     print(f"Created: {cp['created'][:10]}  |  Scenario: {cp['scenario']}")
-    print(f"\nPhase Status:")
+    print("\nPhase Status:")
     for p in sc["phases"]:
         ps = cp["phases"][p]
         icon = {"pending": "○", "in_progress": "▶", "completed": "✔"}.get(ps["status"], "?")
@@ -207,7 +207,7 @@ def start_phase(name: str, phase: str) -> None:
         sys.exit(1)
     ps = cp["phases"][phase]
     ps["status"] = "in_progress"
-    ps["started"] = datetime.now(timezone.utc).isoformat()
+    ps["started"] = datetime.now(UTC).isoformat()
     cp["current_phase"] = phase
     save_checkpoint(name, cp)
     # Output agent roster
@@ -248,11 +248,11 @@ def run_gate(name: str, phase: str) -> None:
     for question, desc in GATE_QUESTIONS[phase]:
         print(f"  [{question}]")
         print(f"  ({desc})")
-        ans = input(f"  > ").strip()
+        ans = input("  > ").strip()
         parts = ans.split(maxsplit=1)
         passed = parts and parts[0].lower() in ("pass", "p", "yes", "y")
         evidence = parts[1] if len(parts) > 1 else ""
-        gate[question] = {"passed": passed, "evidence": evidence, "timestamp": datetime.now(timezone.utc).isoformat()}
+        gate[question] = {"passed": passed, "evidence": evidence, "timestamp": datetime.now(UTC).isoformat()}
         icon = "✓ PASS" if passed else "✗ FAIL"
         if evidence:
             print(f"    {icon} — {evidence}")
@@ -274,7 +274,7 @@ def generate_report(name: str) -> None:
     cp = load_checkpoint(name)
     sc = SCENARIOS[cp["scenario"]]
     print(f"\n{'=' * 60}")
-    print(f"NEXUS GATE REPORT")
+    print("NEXUS GATE REPORT")
     print(f"Project: {name} ({sc['name']})")
     print(f"Scenario: {cp['scenario']}  |  Created: {cp['created'][:10]}")
     print(f"{'=' * 60}")
@@ -309,7 +309,7 @@ def generate_report(name: str) -> None:
                     if result:
                         passed_gates += 1
         else:
-            print(f"  (gate not yet run)")
+            print("  (gate not yet run)")
 
     if total_gates > 0:
         print(f"\n{'─' * 60}")
@@ -336,7 +336,7 @@ def complete_phase(name: str, phase: str) -> None:
         print("Gate not passed. Run --gate first.", file=sys.stderr)
         sys.exit(1)
     ps["status"] = "completed"
-    ps["completed"] = datetime.now(timezone.utc).isoformat()
+    ps["completed"] = datetime.now(UTC).isoformat()
     cp["current_phase"] = None
     save_checkpoint(name, cp)
     print(f"Phase {phase} — {PHASE_LABELS[phase]}  [✔ COMPLETED]")
@@ -355,9 +355,11 @@ def list_projects() -> None:
         print("No projects found. Create one with --init <name>")
         return
     for d in sorted(PROJECTS_DIR.iterdir()):
-        if not d.is_dir(): continue
+        if not d.is_dir():
+            continue
         cp_file = d / "checkpoint.json"
-        if not cp_file.exists(): continue
+        if not cp_file.exists():
+            continue
         cp = json.loads(cp_file.read_text(encoding="utf-8"))
         sc = SCENARIOS.get(cp["scenario"], {}).get("name", cp["scenario"])
         done = sum(1 for p in cp["phases"].values() if p["status"] == "completed")
@@ -396,7 +398,8 @@ def query_phase(phase: str, mode: str, category: str | None, json_out: bool) -> 
     for cat in sorted(by_cat):
         print(f"\n  [{cat}]  ({len(by_cat[cat])} agents)")
         for a in by_cat[cat]:
-            if n >= limit: break
+            if n >= limit:
+                break
             print(f"    - {a['name']}")
             n += 1
         if n >= limit:

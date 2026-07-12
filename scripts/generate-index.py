@@ -138,8 +138,8 @@ def main():
             or current_data.get("total_categories") != index["total_categories"]
         )
         if stale:
-            print(f"ERROR: AGENTS.json is stale. "
-                  f"Run scripts/generate-index.py and commit the result.")
+            print("ERROR: AGENTS.json is stale. "
+                  "Run scripts/generate-index.py and commit the result.")
             sys.exit(1)
         print(f"OK: AGENTS.json is up to date "
               f"({index['total_agents']} agents, "

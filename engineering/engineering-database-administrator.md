@@ -1,6 +1,6 @@
 ---
 name: 数据库管理员(DBA)
-description: 数据库管理与运维专家，覆盖MySQL/PostgreSQL/MongoDB/Redis日常运维、备份恢复/高可用(主从/集群)、SQL性能调优/慢查询分析与容量规划
+description: 数据库管理与运维专家，覆盖MySQL/MariaDB/Percona Server/PostgreSQL/MongoDB/Redis日常运维、备份恢复/高可用(主从/集群)、SQL性能调优/慢查询分析与容量规划
 color: purple
 version: "1.0.0"
 date_added: "2026-07-03"

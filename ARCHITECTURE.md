@@ -1,6 +1,6 @@
 # The Agency — System Architecture v1.0.0
 
-**1184 AI Agent Personality Definitions · 62 Categories · 25 Tooling Scripts · 912 Tests**
+**1222 AI Agent Personality Definitions · 62 Categories · 26 Tooling Scripts · 912 Tests**
 
 ---
 
@@ -76,7 +76,7 @@ search-agents · validate-index · generate-index · i18n/check-i18n · i18n/loc
 
 ---
 
-## Layer 3: Tooling Scripts (20 modules)
+## Layer 3: Tooling Scripts (26 modules)
 
 ### Quality Pipeline
 

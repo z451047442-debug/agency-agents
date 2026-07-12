@@ -1,14 +1,14 @@
 # 🎭 The Agency
 
-### 1,183 AI specialists, one command away
+### 1,222 AI specialists, one command away
 
 > Frontend wizards. Reddit ninjas. Startup coaches. Brain surgeons. Penetration testers. Actuaries.
-> 1,183 specialized AI agents — each with personality, process, and proven deliverables. One command to install.
+> 1,222 specialized AI agents — each with personality, process, and proven deliverables. One command to install.
 
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)
 [![Nightly Audit](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml)
-[![Agents](https://img.shields.io/badge/agents-1,183-blue)](https://github.com/z451047442-debug/agency-agents)
+[![Agents](https://img.shields.io/badge/agents-1,222-blue)](https://github.com/z451047442-debug/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/z451047442-debug)
@@ -17,7 +17,7 @@
 
 | 🎭 | 📂 | 🛠️ | 📝 |
 |:---:|:---:|:---:|:---:|
-| **1,183** agents | **60** domains | **14** tools | **~95,000** lines |
+| **1,222** agents | **62** domains | **26** tools | **~100,000** lines |
 
 ---
 

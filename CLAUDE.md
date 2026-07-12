@@ -2,7 +2,7 @@
 
 ## Project overview
 
-The Agency is a collection of 1000+ AI agent personality definitions (`.md` files with YAML frontmatter) organized into 50+ industry categories. Each agent file defines a specialized expert — its identity, mission, workflows, deliverables, and communication style. These files are installed into AI coding tools (Claude Code, Copilot, Cursor, Windsurf, Gemini CLI, etc.) to provide on-demand domain expertise.
+The Agency is a collection of 1200+ AI agent personality definitions (`.md` files with YAML frontmatter) organized into 50+ industry categories. Each agent file defines a specialized expert — its identity, mission, workflows, deliverables, and communication style. These files are installed into AI coding tools (Claude Code, Copilot, Cursor, Windsurf, Gemini CLI, etc.) to provide on-demand domain expertise.
 
 The project has **no runtime code** — it is a content repository. Python scripts under `scripts/` handle installation, linting, validation, indexing, and tool-specific integration. Shell scripts in the same directory are thin wrappers around their Python counterparts.
 

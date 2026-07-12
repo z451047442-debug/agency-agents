@@ -3,7 +3,7 @@
 ### 1,183 个 AI 专家，一行命令即可召唤
 
 > 前端魔法师。Reddit 达人。创业教练。脑外科医生。安全渗透师。精算师。
-> 1,183 个专业 AI Agent — 每个都有个性、有流程、有交付物。一行命令即可安装。
+> 1,222 个专业 AI Agent — 每个都有个性、有流程、有交付物。一行命令即可安装。
 
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)
@@ -17,7 +17,7 @@
 
 | 🎭 | 📂 | 🛠️ | 📝 |
 |:---:|:---:|:---:|:---:|
-| **1,183** 个 Agent | **60** 个领域 | **14** 种工具 | **~95,000** 行内容 |
+| **1,222** 个 Agent | **62** 个领域 | **26** 种工具 | **~100,000** 行内容 |
 
 ---
 

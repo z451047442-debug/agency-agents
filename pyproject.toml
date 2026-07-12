@@ -1,7 +1,7 @@
 [project]
 name = "agency-agents"
 version = "1.0.0"
-description = "1000+ AI agent personality definitions for coding tools"
+description = "1200+ AI agent personality definitions for coding tools"
 readme = "README.md"
 requires-python = ">=3.10"
 

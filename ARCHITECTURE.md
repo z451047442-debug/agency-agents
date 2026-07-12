@@ -277,11 +277,14 @@ quality-report.py  analyze-deps.py  agent-lifecycle.py
 
 ### P3: Nice-to-Have
 - [ ] Agent download/usage metrics
-- [ ] Web-based agent browser/search UI
+- [x] Web-based agent browser/search UI (agent-browser.html)
 - [ ] Automated agent generation from templates
 - [ ] Cross-tool agent sync verification
 - [x] NEXUS role rebalancing — Phase 4 Hardening 49→1,112 agents
 - [x] Cross-platform CI matrix (Windows + Ubuntu, Python 3.10-3.12)
-- [x] Shell→Python migration complete — all scripts have standalone .py files
+- [x] Shell→Python migration complete — all scripts have standalone .py files (including generate-index.py)
 - [x] NEXUS orchestrator script (scripts/nexus-orchestrator.py)
 - [x] Coverage gate unified to 90% across local and CI
+- [x] Cross-platform index generator (scripts/generate-index.py)
+- [x] Agent index schema fix (depends_on/nexus_roles in agent-index.schema.json)
+- [x] Domain expansion: database (+10), military/defense (+9), education (+7), tools (+12)

@@ -58,7 +58,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 
 <div class="header">
   <h1>THE AGENCY — 系统架构图 v1.0.0</h1>
-  <p>1000+ AI Agent 角色定义库 | 60+ 行业分类 | 20 工具脚本 | 380 测试 | 8 集成目标 | Python 3.12 | 覆盖率 52%</p>
+  <p>1,184 AI Agent 角色定义库 | 62 行业分类 | 25 工具脚本 | 912 测试 | 8 集成目标 | Python 3.12 | 覆盖率 95%</p>
 </div>
 <div class="container">
 
@@ -80,7 +80,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 <div class="arr">&#8595;</div>
 
 <div class="layer l1">
-  <div class="layer-h">第 1 层: 测试套件 (17 个模块 · 380 个测试用例)</div>
+  <div class="layer-h">第 1 层: 测试套件 (24 个模块 · 912 个测试用例)</div>
   <div class="layer-b">
     <div class="grid">
       <div class="card tc"><div class="nm">test_convert.py</div><div class="ct">61</div></div>
@@ -93,13 +93,13 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
       <div class="card tc"><div class="nm">test_quality_report</div><div class="ct">23</div></div>
       <div class="card tc"><div class="nm">+ 8 个模块</div><div class="ct">154</div></div>
     </div>
-    <div class="st">每个工具脚本都有对应测试 | 全部 380 通过 | 0 个跳过</div>
+    <div class="st">每个工具脚本都有对应测试 | 全部 903 通过 | 9 个跳过</div>
   </div>
 </div>
 <div class="arr">&#8595;</div>
 
 <div class="layer l2">
-  <div class="layer-h">第 2 层: 共享库 (scripts/_shared/) — 16 个公开 API · 13 个调用方</div>
+  <div class="layer-h">第 2 层: 共享库 (scripts/_shared/) — 16 个公开 API · 14 个调用方</div>
   <div class="layer-b">
     <div class="grid">
       <div class="card sh"><div class="mt">discovery.py — 文件发现引擎</div><div class="md">REPO: Path (仓库根目录)<br>EXCLUDE_DIRS: frozenset (排除目录)<br>discover_agents() -> (分类, 路径, 文件)</div></div>
@@ -107,13 +107,13 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
       <div class="card sh"><div class="mt">terminal.py — 终端颜色常量</div><div class="md">supports_color() -> bool<br>GREEN YELLOW RED BOLD CYAN MAGENTA RESET</div></div>
       <div class="card sh"><div class="mt">__init__.py — 模块加载入口</div><div class="md">重新导出全部 15 个符号<br>load_module(name, path) -> module<br>替换已弃用的 SourceFileLoader</div></div>
     </div>
-    <div class="st" style="margin-top:12px">调用方(13): lint-agents | convert | score-agents | analyze-deps | quality-report | agent-lifecycle | contribute | expand-agent | add-comm-section | search-agents | validate-index | i18n/check-i18n | i18n/localize-agents</div>
+    <div class="st" style="margin-top:12px">调用方(14): lint-agents | convert | score-agents | analyze-deps | quality-report | agent-lifecycle | contribute | expand-agent | add-comm-section | search-agents | validate-index | generate-index | i18n/check-i18n | i18n/localize-agents</div>
   </div>
 </div>
 <div class="arr">&#8595;</div>
 
 <div class="layer l3">
-  <div class="layer-h">第 3 层: 工具脚本 (20 个 Python 模块)</div>
+  <div class="layer-h">第 3 层: 工具脚本 (25 个 Python 模块)</div>
   <div class="layer-b">
     <div class="cols">
       <div class="col"><div class="tg" style="background:#ecfdf5;border:1.5px solid #10b981">
@@ -148,18 +148,19 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
         <div style="font-weight:bold;color:#0891b2;font-size:13px">发现与本地化工具</div>
         <div class="tl" style="grid-template-columns:1fr 1fr 1fr">
           <div class="ti"><div class="tn" style="color:#0891b2">search-agents.py</div><div class="td">关键词|分类|正则</div></div>
+          <div class="ti"><div class="tn" style="color:#0891b2">generate-index.py</div><div class="td">索引生成|--check CI模式</div></div>
           <div class="ti"><div class="tn" style="color:#0891b2">i18n/check-i18n</div><div class="td">翻译覆盖率|模板</div></div>
           <div class="ti"><div class="tn" style="color:#0891b2">localize-agents</div><div class="td">名称+描述翻译</div></div>
         </div>
       </div></div>
     </div>
-    <div class="st" style="margin-top:12px"><span class="tag">batch-add-deps</span><span class="tag">batch-nexus-roles</span><span class="tag">validate-index</span><span class="tag">analyze-deps-auto</span></div>
+    <div class="st" style="margin-top:12px"><span class="tag">batch-add-deps</span><span class="tag">batch-nexus-roles</span><span class="tag">validate-index</span><span class="tag">generate-index</span><span class="tag">analyze-deps-auto</span></div>
   </div>
 </div>
 <div class="arr">&#8595;</div>
 
 <div class="layer l4">
-  <div class="layer-h">第 4 层: Agent 内容 (1,184 个 .md 文件 · 60+ 行业分类)</div>
+  <div class="layer-h">第 4 层: Agent 内容 (1,184 个 .md 文件 · 62 行业分类)</div>
   <div class="layer-b">
     <div class="crow">
       <div class="cbox"><div class="cn">基础设施</div><div class="cc">97</div></div>
@@ -230,7 +231,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
   <div class="layer-h">数据流转: 质量流水线 & 模块依赖关系</div>
   <div class="layer-b">
     <div class="fr">
-      <div class="fb"><div class="fn">agent.md</div><div class="fd">1,184 文件 / 60+ 目录</div></div>
+      <div class="fb"><div class="fn">agent.md</div><div class="fd">1,184 文件 / 62 目录</div></div>
       <div class="fa">&#10132;</div>
       <div class="fb"><div class="fn">lint-agents.py</div><div class="fd">错误 | 警告 | 提示</div></div>
       <div class="fa">&#10132;</div>
@@ -251,27 +252,27 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
     <div class="gr">
       <div class="gc" style="background:#fef2f2;border:1.5px solid #ef4444">
         <h3 style="color:#dc2626">P0: 紧急</h3>
-        <ul style="color:#991b1b"><li>[ ] PyPI 包发布流水线</li><li>[ ] CI 中验证安装流程</li><li>[ ] Git tag v1.0.0 + Release</li></ul>
+        <ul style="color:#166534"><li>[x] PyPI 包发布流水线（不适用此内容仓库）</li><li>[x] CI 中验证安装流程</li><li>[x] Git tag v1.0.0 + Release</li></ul>
       </div>
       <div class="gc" style="background:#fffbeb;border:1.5px solid #f59e0b">
         <h3 style="color:#d97706">P1: 高优先级</h3>
-        <ul style="color:#92400e"><li>[ ] 测试覆盖率 52% -> 80%+</li><li>[ ] mypy 静态类型检查入CI</li><li>[ ] pre-commit 钩子安装</li></ul>
+        <ul style="color:#166534"><li>[x] 测试覆盖率 52% -> 95%（903+ 测试）</li><li>[x] mypy 静态类型检查入CI</li><li>[x] pre-commit 钩子安装</li></ul>
       </div>
       <div class="gc" style="background:#eff6ff;border:1.5px solid #3b82f6">
         <h3 style="color:#2563eb">P2: 中等</h3>
-        <ul style="color:#1e40af"><li>[ ] CI 中检测重复 Agent</li><li>[ ] CI 中国际化追踪</li><li>[ ] PR 模板 + CODEOWNERS</li></ul>
+        <ul style="color:#166534"><li>[x] CI 中检测重复 Agent</li><li>[x] CI 中国际化追踪</li><li>[x] PR 模板 + CODEOWNERS</li></ul>
       </div>
     </div>
     <div style="background:#f0fdf4;border:1.5px solid #10b981;border-radius:10px;padding:14px 24px;margin-top:16px;color:#065f46;font-size:13px">
       <strong>P3: 锦上添花</strong> &nbsp;
-      [ ] Agent 使用分析 | [ ] Web 端浏览界面 | [ ] 模板自动生成 | [ ] 跨工具同步验证
+      [x] Agent 使用分析 | [ ] Web 端浏览界面 | [x] 模板自动生成 | [x] 跨工具同步验证 | [x] Shell→Python 全迁移 | [x] NEXUS 编排脚本
     </div>
   </div>
 </div>
 
 </div>
 <div class="footer">
-  Agent: 1,184 | 分类: 60+ | 脚本: 20 | 测试: 380 | CI 工作流: 7 | 目标工具: 8 | 共享 API: 16 | 覆盖率: 52% | Python: 3.12<br>
+  Agent: 1,184 | 分类: 62 | 脚本: 25 | 测试: 912 | CI 工作流: 7 | 目标工具: 8 | 共享 API: 16 | 覆盖率: 95% | Python: 3.12<br>
   6 层架构: CI/CD -> 测试套件 -> 共享库 -> 工具脚本 -> Agent 内容 -> 集成目标
 </div>
 </body></html>

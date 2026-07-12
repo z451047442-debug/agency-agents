@@ -11,8 +11,12 @@ Project mode:
     python scripts/nexus-orchestrator.py --project my-project --start 0
     python scripts/nexus-orchestrator.py --project my-project --gate 0
     python scripts/nexus-orchestrator.py --project my-project --complete 0
+    python scripts/nexus-orchestrator.py --project my-project --rollback 4
     python scripts/nexus-orchestrator.py --project my-project --report
     python scripts/nexus-orchestrator.py --list-projects
+
+Scenarios use custom phase labels (research: Draft; consulting: Analysis; etc.)
+Feedback loops enable rollback (Phase 4 issues -> Phase 3 rework; Phase 6 feedback -> Phase 0).
 """
 
 import argparse
@@ -36,24 +40,50 @@ SCENARIOS = {
         "name": "Software Product Development",
         "duration": "12-24 weeks", "agents": "15-25",
         "phases": ["0", "1", "2", "3", "4", "5", "6"],
+        "phase_labels": {
+            "0": "Discovery", "1": "Strategy", "2": "Foundation",
+            "3": "Build", "4": "Hardening", "5": "Launch", "6": "Operate",
+        },
+        "feedback": {"4": "3", "6": "0", "5": "3"},
         "runbook": "docs/runbooks/scenario-startup-mvp.md",
     },
     "research": {
         "name": "Research Report / White Paper",
         "duration": "2-4 weeks", "agents": "8-12",
         "phases": ["0", "1", "2", "3", "4", "5", "6"],
+        "phase_labels": {
+            "0": "Scope & Question", "1": "Outline & Method",
+            "2": "Literature & Data", "3": "Draft & Analyze",
+            "4": "Verify & Peer Review", "5": "Publish & Distribute",
+            "6": "Track & Update",
+        },
+        "feedback": {"4": "3", "6": "0"},
         "runbook": "docs/runbooks/scenario-research-report.md",
     },
     "consulting": {
         "name": "Strategy Consulting Engagement",
         "duration": "4-8 weeks", "agents": "10-15",
         "phases": ["0", "1", "2", "3", "4", "5", "6"],
+        "phase_labels": {
+            "0": "Client Intake", "1": "Hypothesis & Framework",
+            "2": "Data & Baseline", "3": "Analysis & Modeling",
+            "4": "Stress-Test & Review", "5": "Present & Deliver",
+            "6": "Implement & Support",
+        },
+        "feedback": {"4": "3", "6": "0"},
         "runbook": "docs/runbooks/scenario-strategy-consulting.md",
     },
     "education": {
         "name": "Course / Curriculum Design",
         "duration": "3-6 weeks", "agents": "8-12",
         "phases": ["0", "1", "2", "3", "4", "5", "6"],
+        "phase_labels": {
+            "0": "Needs Analysis", "1": "Objectives & Map",
+            "2": "Template & Sources", "3": "Content Creation",
+            "4": "Review & Align", "5": "Publish & Onboard",
+            "6": "Iterate & Facilitate",
+        },
+        "feedback": {"4": "3", "6": "0"},
         "runbook": "docs/runbooks/scenario-course-design.md",
     },
 }
@@ -125,6 +155,18 @@ def filter_by_phase(agents: list[dict], phase: str) -> list[dict]:
     return [a for a in agents if role in (a.get("nexus_roles") or [])]
 
 
+def get_phase_label(scenario: str, phase: str) -> str:
+    """Get scenario-specific phase label, falling back to default."""
+    sc = SCENARIOS.get(scenario, {})
+    labels = sc.get("phase_labels", PHASE_LABELS)
+    return labels.get(phase, PHASE_LABELS.get(phase, f"Phase {phase}"))
+
+
+def get_feedback_loops(scenario: str) -> dict[str, str]:
+    """Return {phase: rollback_target} for scenario feedback loops."""
+    return SCENARIOS.get(scenario, {}).get("feedback", {"4": "3", "6": "0"})
+
+
 # ---- Project management ----
 
 def checkpoint_path(name: str) -> Path:
@@ -190,12 +232,22 @@ def show_status(name: str) -> None:
             extra += f"  {ps['started'][:10]}"
         if ps["completed"]:
             extra += f" → {ps['completed'][:10]}"
-        print(f"  {icon} Phase {p} - {PHASE_LABELS[p]:<12} {ps['status']:<12}{extra}")
+        label = get_phase_label(cp["scenario"], p)
+        print(f"  {icon} Phase {p} - {label:<22} {ps['status']:<12}{extra}")
     current = cp.get("current_phase")
     if current and cp["phases"][current]["status"] == "in_progress":
-        print(f"\nActive: Phase {current} ({PHASE_LABELS[current]})")
+        label = get_phase_label(cp["scenario"], current)
+        print(f"\nActive: Phase {current} ({label})")
         print(f"  --start {current} to see agent roster")
         print(f"  --gate {current} to run quality checklist")
+        print(f"  --rollback {current} to return for rework")
+    fb = get_feedback_loops(cp["scenario"])
+    if fb:
+        print("\nFeedback Loops:")
+        for from_p, to_p in sorted(fb.items()):
+            fl = get_phase_label(cp["scenario"], from_p)
+            tl = get_phase_label(cp["scenario"], to_p)
+            print(f"  {fl} (P{from_p}) --found issues--> {tl} (P{to_p})")
 
 
 def start_phase(name: str, phase: str) -> None:
@@ -347,6 +399,34 @@ def complete_phase(name: str, phase: str) -> None:
         print(f"\nAll 7 phases complete! Project '{name}' is finished.")
 
 
+def rollback_phase(name: str, phase: str) -> None:
+    cp = load_checkpoint(name)
+    ps = cp["phases"][phase]
+    if ps["status"] not in ("completed", "in_progress"):
+        print(f"Phase {phase} is {ps['status']}. Nothing to rollback.", file=sys.stderr)
+        sys.exit(1)
+    fb = get_feedback_loops(cp["scenario"])
+    target = fb.get(phase)
+    if not target:
+        print(f"No feedback loop defined for Phase {phase}.", file=sys.stderr)
+        sys.exit(1)
+    # Mark current phase as in_progress (rework) and reset the target
+    ps["status"] = "in_progress"
+    cp["phases"][phase]["completed"] = None
+    cp["phases"][phase]["gate"] = {}
+    # Reopen target phase
+    cp["phases"][target]["status"] = "in_progress"
+    cp["phases"][target]["completed"] = None
+    cp["phases"][target]["gate"] = {}
+    cp["current_phase"] = target
+    save_checkpoint(name, cp)
+    from_label = get_phase_label(cp["scenario"], phase)
+    to_label = get_phase_label(cp["scenario"], target)
+    print(f"Rolled back: {from_label} (P{phase}) → {to_label} (P{target})")
+    print("Both phases reopened for rework.")
+    print(f"\nNext: --project {name} --start {target}")
+
+
 def list_projects() -> None:
     if not PROJECTS_DIR.exists() or not any(
         d.is_dir() and (d / "checkpoint.json").exists()
@@ -419,6 +499,7 @@ def main() -> None:
     parser.add_argument("--start", choices=["0","1","2","3","4","5","6"], help="Start a phase")
     parser.add_argument("--gate", choices=["0","1","2","3","4","5","6"], help="Run gate checklist")
     parser.add_argument("--complete", choices=["0","1","2","3","4","5","6"], help="Complete a phase")
+    parser.add_argument("--rollback", choices=["0","1","2","3","4","5","6"], help="Rollback a phase via feedback loop")
     parser.add_argument("--list-projects", action="store_true", help="List all projects")
     parser.add_argument("--report", action="store_true", help="Generate gate report for a project")
     # Legacy query mode
@@ -445,6 +526,8 @@ def main() -> None:
             run_gate(args.project, args.gate)
         elif args.complete:
             complete_phase(args.project, args.complete)
+        elif args.rollback:
+            rollback_phase(args.project, args.rollback)
         else:
             show_status(args.project)
         return

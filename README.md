@@ -3,7 +3,7 @@
 ### 1,222 AI specialists, one command away
 
 > Frontend wizards. Reddit ninjas. Startup coaches. Brain surgeons. Penetration testers. Actuaries.
-> 1,267 specialized AI agents — each with personality, process, and proven deliverables. One command to install.
+> 1,292 specialized AI agents — each with personality, process, and proven deliverables. One command to install.
 
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)

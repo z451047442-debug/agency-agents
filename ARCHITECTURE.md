@@ -1,6 +1,6 @@
 # The Agency — System Architecture v1.0.0
 
-**1222 AI Agent Personality Definitions · 62 Categories · 26 Tooling Scripts · 912 Tests**
+**1222 AI Agent Personality Definitions · 65 Categories · 26 Tooling Scripts · 912 Tests**
 
 ---
 
@@ -119,7 +119,7 @@ search-agents · validate-index · generate-index · i18n/check-i18n · i18n/loc
 
 ---
 
-## Layer 4: Agent Content (1267 .md files, 62 categories)
+## Layer 4: Agent Content (1292 .md files, 62 categories)
 
 ### Category Distribution (Top 20)
 

@@ -119,31 +119,31 @@ search-agents · validate-index · generate-index · i18n/check-i18n · i18n/loc
 
 ---
 
-## Layer 4: Agent Content (1184 .md files, 60+ categories)
+## Layer 4: Agent Content (1222 .md files, 62 categories)
 
 ### Category Distribution (Top 20)
 
 | # | Category | Agents | # | Category | Agents |
 |---|----------|--------|---|----------|--------|
-| 1 | infrastructure | 97 | 11 | automotive | 22 |
-| 2 | engineering | 92 | 12 | legal | 22 |
-| 3 | marketing | 84 | 13 | testing | 20 |
-| 4 | healthcare | 50 | 14 | specialized | 20 |
-| 5 | data-science | 46 | 15 | iot | 19 |
-| 6 | manufacturing | 43 | 16 | logistics | 19 |
-| 7 | construction | 40 | 17 | education | 17 |
-| 8 | energy | 40 | 18 | hr / sales | 15 |
-| 9 | finance | 36 | 19 | food-beverage | 15 |
-| 10 | cybersecurity | 35 | 20 | robotics | 15 |
+| 1 | engineering | 112 | 11 | education | 24 |
+| 2 | infrastructure | 97 | 12 | project-management | 23 |
+| 3 | marketing | 84 | 13 | automotive | 22 |
+| 4 | healthcare | 50 | 14 | legal | 22 |
+| 5 | data-science | 46 | 15 | specialized | 20 |
+| 6 | manufacturing | 43 | 16 | testing | 20 |
+| 7 | construction | 40 | 17 | iot | 19 |
+| 8 | energy | 40 | 18 | logistics | 19 |
+| 9 | cybersecurity | 36 | 19 | hr / sales | 15 |
+| 10 | finance | 36 | 20 | food-beverage / robotics | 15 |
 
-40+ more categories: aerospace(23), design(23), project-mgmt(23), game-dev(24),
-media-entertainment(24), spatial-computing(15), gis(13), web3(13), customer-service(12),
-network-eng(12), retail(12), telecom(12), tourism(12), insurance(11), operations(11),
-product(11), securities(11), government(10), lottery(10), real-estate(10), quality(9),
-pharma-biotech(8), administration(7), strategy(7), security(6), localization(4),
-mining(4), sports(4), beauty(3), emergency(4), events(4), fashion(4), forestry(3),
-hr-tech(3), libraries(2), museums(2), nonprofit(4), pets(3), publishing(4),
-agriculture(12)
+42 more categories: aerospace(32), environmental(33), game-dev(24),
+media-entertainment(24), design(24), spatial-computing(15), gis(13), web3(13),
+customer-service(12), network-eng(12), retail(12), telecom(12), tourism(12),
+agriculture(12), insurance(11), operations(11), product(11), securities(11),
+government(10), lottery(10), real-estate(10), quality(9), pharma-biotech(8),
+administration(7), strategy(7), security(6), localization(4), mining(4), sports(4),
+emergency(4), events(4), fashion(4), nonprofit(4), publishing(4), beauty(3),
+forestry(3), hr-tech(3), pets(3), libraries(2), museums(2)
 
 ### Special Directories
 

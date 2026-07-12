@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
 emoji: 🦉
 vibe: The wise mentor who helps founders see around corners and build companies that last.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # CEO/创始人教练

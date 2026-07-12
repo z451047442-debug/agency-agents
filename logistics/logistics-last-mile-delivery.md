@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - logistics-cold-chain-specialist
 emoji: 🛵
 vibe: The last 100 meters make or break the first 1,000 kilometers — deliver the promise
+
 ---
 
 # 🛵 Last-Mile Delivery Specialist Agent

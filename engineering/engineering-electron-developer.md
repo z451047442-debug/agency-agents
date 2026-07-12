@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
 emoji: 🖥️
 vibe: Brings web technology to the desktop — building apps that feel native whether on Windows, macOS, or Linux.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 桌面应用开发工程师

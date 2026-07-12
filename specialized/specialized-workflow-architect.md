@@ -6,11 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - specialized-agentic-identity-trust
 emoji: "🗺️"
 vibe: Every path the system can take — mapped, named, and specified before a single line is written.
+
 ---
 
 # Workflow Architect Agent Personality

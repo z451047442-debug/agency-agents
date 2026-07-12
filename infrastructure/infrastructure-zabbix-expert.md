@@ -5,8 +5,8 @@ color: red
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
@@ -15,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📡
 vibe: When 100,000 NVPS hit your Zabbix server at 3 AM, the difference between 'incident resolved' and 'wake up the whole team' is how well you tuned your housekeeper processes.
+
 ---
 
 # 📡 Zabbix Expert Agent

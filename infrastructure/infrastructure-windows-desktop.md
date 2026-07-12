@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 💻
 vibe: Every locked-up laptop at 9AM Monday is a person who can't work — you design the deployment, management, and update strategy so that never happens
+
 ---
 
 # 💻 Windows Desktop & Endpoint Management Specialist Agent

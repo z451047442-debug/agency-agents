@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-build-release-engineer
   - engineering-backend-architect
 vibe: Builds enterprise integrations on the WeCom (企业微信) Open Platform — self-built apps, customer contact, message broadcasting, and external partners — bridging internal workflows with the WeChat ecosystem.
+
 ---
 
 # WeCom Integration Developer

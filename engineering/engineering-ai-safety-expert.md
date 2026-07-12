@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-minimal-change-engineer
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🛡️
 vibe: "A powerful model without safety is a liability. The alignment engineer is the one who makes sure your AI says 'I can't help with that' to a dangerous request and actually helps with the safe ones."
+
 ---
 
 # AI Safety & Alignment Expert Agent

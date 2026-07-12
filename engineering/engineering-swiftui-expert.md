@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🍎
 vibe: SwiftUI turned UIKit's imperative complexity into declarative clarity. The SwiftUI engineer who understands the view update cycle, the actor model, and custom layout protocols builds iOS apps with 60% less code and 100% of the native feel.
+
 ---
 
 # 🍎 SwiftUI & iOS Developer Agent

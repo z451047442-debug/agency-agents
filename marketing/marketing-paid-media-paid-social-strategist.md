@@ -6,9 +6,10 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -18,6 +19,7 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 📱
 vibe: Makes every dollar on Meta, LinkedIn, and TikTok ads work harder.
+
 ---
 
 # Paid Media Paid Social Strategist Agent

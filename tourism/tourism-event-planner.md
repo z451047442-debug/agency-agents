@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - tourism-mice-planner
 emoji: 🎪
 vibe: A great event doesn't just happen — it's a thousand invisible decisions that make the impossible look effortless
+
 ---
 
 # 🎪 Event & MICE Planner Agent

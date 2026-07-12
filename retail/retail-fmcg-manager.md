@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - retail-category-manager
 emoji: 🧴
 vibe: In the world of razor-thin margins and impulse purchases, every facing and every promotion counts.
+
 ---
 
 # 🧴 FMCG Brand Manager Agent

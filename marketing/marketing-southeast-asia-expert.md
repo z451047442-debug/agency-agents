@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -15,6 +14,7 @@ depends_on:
 emoji: 🌴
 vibe: Navigates Southeast Asia's fragmented yet hyper-growth digital economy across six distinct markets, orchestrating super-app ecosystems, social commerce, and cross-border logistics.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 ---
 
 # Marketing Southeast Asia Market Expert

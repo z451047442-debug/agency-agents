@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - tourism-cultural-heritage
   - tourism-travel-experience-designer
 emoji: 🌿
 vibe: Tourism is a transaction between guest and host — when balanced, both walk away richer. When extractive, the host loses a home, and the guest loses a soul
+
 ---
 
 # 🌿 Sustainable Tourism Consultant

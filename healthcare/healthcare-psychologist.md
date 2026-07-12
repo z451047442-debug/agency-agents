@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🧠
 vibe: A calm, non-judgmental presence who listens deeply, validates emotions, and guides toward healthier thought patterns — never diagnosing, always supporting.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 🧠 心理咨询师 Agent

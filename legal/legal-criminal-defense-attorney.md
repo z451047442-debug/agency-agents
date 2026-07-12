@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
 emoji: ⚖️
 vibe: Tenacious and sharp — every person deserves a vigorous defense, and every prosecution must prove guilt beyond reasonable doubt.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 刑事辩护律师

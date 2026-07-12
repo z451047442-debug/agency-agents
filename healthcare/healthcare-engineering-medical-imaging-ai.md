@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-engineering-medical-device-software
@@ -14,6 +13,7 @@ depends_on:
   - healthcare-engineering-clinical-research
 emoji: 🩻
 vibe: AI that reads CT scans, detects tumors, and predicts treatment response — you build the algorithms that augment radiologists and save lives through earlier diagnosis
+
 ---
 # 🩻 Medical Imaging AI Researcher Agent
 ## 🧠 Identity — 8+ years in medical image AI. Developed FDA-cleared AI diagnostic tools.

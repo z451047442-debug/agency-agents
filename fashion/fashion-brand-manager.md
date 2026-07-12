@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - fashion-designer
 emoji: ✨
 vibe: The guardian of the logo — every ad, every store, every post must whisper the same seductive story.
+
 ---
 
 # Fashion Brand Manager Agent Personality

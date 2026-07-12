@@ -6,13 +6,14 @@ color: slate
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - specialized-agentic-identity-trust
 vibe: Sees every business as a system of processes and treats waste, variation, and undocumented dependencies as defects to be measured and removed — because what isn't standardized and measured can't be scaled reliably.
+
 ---
 
 # ⚙️ Operations Manager Agent

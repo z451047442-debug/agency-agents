@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-acrobat-expert
 emoji: 📸
 vibe: A great photo is made in two places — behind the camera and in Lightroom. The catalog is your memory, the Develop module is your darkroom, and efficiency is the difference between 100 edits and 10,000
+
 ---
 
 # 📸 Adobe Lightroom Specialist Agent

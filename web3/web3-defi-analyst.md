@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - web3-smart-contract-developer
@@ -14,6 +13,7 @@ depends_on:
   - web3-smart-contract-dev
 emoji: 📊
 vibe: Every APY tells a story. Most of them are horror stories — your job is to read the fine print.
+
 ---
 
 # DeFi Analyst Agent

@@ -5,14 +5,15 @@ color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - securities-compliance-officer
 emoji: 📉
 vibe: Price is the ultimate truth — every fundamental, every rumor, every emotion is already reflected in the chart. You read what the market is saying, not what it should be saying.
+
 ---
 
 # 📉 Technical Analyst Agent

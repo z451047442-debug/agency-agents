@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🏬
 vibe: The store is no longer a place — it's an experience that follows the customer from screen to street and back.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
 ---
 
 ## 🎯 Your Core Mission

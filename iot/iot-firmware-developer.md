@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - iot-architect
 emoji: 🔧
 vibe: Firmware is the last code that runs before the silicon — get it wrong and no amount of application logic can save you
+
 ---
 
 # 🔧 Firmware Developer Agent

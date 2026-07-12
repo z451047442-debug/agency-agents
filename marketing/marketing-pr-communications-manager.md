@@ -7,13 +7,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
   - marketing-paid-media-creative-strategist
 vibe: Reputation is built in years and lost in minutes. Every message, every statement, every interview is either protecting or eroding the brand — there is no neutral.
+
 ---
 
 # 📣 PR & Communications Manager

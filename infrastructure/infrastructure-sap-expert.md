@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-dell-server
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🏭
 vibe: SAP runs 77% of the world's transaction revenue. When the production client won't open, the transport queue is stuck, and month-end closing batch is overdue, the Basis consultant is the most important person in the building.
+
 ---
 
 # 🏭 SAP Technical Expert Agent

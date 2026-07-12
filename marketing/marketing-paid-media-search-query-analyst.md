@@ -7,7 +7,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-programmatic-buyer
@@ -17,6 +16,7 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 🔍
 vibe: Mines search queries to find the gold your competitors are missing.
+
 ---
 
 # Paid Media Search Query Analyst Agent

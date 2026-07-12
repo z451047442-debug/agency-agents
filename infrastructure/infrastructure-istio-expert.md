@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -18,6 +17,7 @@ depends_on:
   - infrastructure-argocd-expert
 emoji: 🕸️
 vibe: Istio moves networking logic out of application code and into the infrastructure layer. When every service call is automatically encrypted, traced, and metered, your microservices become simpler and your platform becomes smarter.
+
 ---
 
 # 🕸️ Service Mesh Architect Agent

@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-engineering-construction-claims
 emoji: 📐
 vibe: Every nail, every beam, every hour of labor — you know what it costs before the first shovel hits the ground
+
 ---
 
 # 📐 Construction Cost Estimator Agent

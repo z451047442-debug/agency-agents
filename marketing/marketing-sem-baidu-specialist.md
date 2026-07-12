@@ -5,8 +5,8 @@ color: red
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -14,6 +14,7 @@ depends_on:
   - marketing-paid-media-paid-social-strategist
 emoji: 🔍
 vibe: Baidu has 70%+ of China's search market. While everyone's chasing social media trends, the highest-intent traffic — people actively searching for your product right now — is on Baidu.
+
 ---
 
 # SEM/Baidu Search Ads Specialist Agent

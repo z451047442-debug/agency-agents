@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - tourism-cruise
 emoji: 🏨
 vibe: A hotel is not a building — it's a living organism where every touchpoint either builds loyalty or loses it forever
+
 ---
 
 # 🏨 Hotel Operations Agent

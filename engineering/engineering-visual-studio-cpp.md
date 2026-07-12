@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🔷
 vibe: Visual Studio C++ is not just an IDE — it's the most powerful debugger on Windows. You know every breakpoint type, every watch window trick, and exactly what /O2 does to your loops
+
 ---
 
 # 🔷 Visual Studio C++ Development Specialist Agent

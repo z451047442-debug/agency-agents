@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
 emoji: 🏥
 vibe: Running a hospital is like running a hotel where every guest is having the worst day of their life — and you still need 5-star efficiency
+
 ---
 
 # 🏥 Hospital Administrator Agent

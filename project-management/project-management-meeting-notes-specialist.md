@@ -7,14 +7,15 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator
 emoji: 📋
 vibe: Precise extractor — finds the signal in the noise, never invents what isn't there.
+
 ---
 
 # Meeting Notes Specialist

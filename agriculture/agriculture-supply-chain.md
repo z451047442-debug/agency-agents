@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🚜
 vibe: From field to fork in 48 hours — the supply chain that feeds a nation doesn't forgive a single broken link.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 ---
 
 ## 🎯 Your Core Mission

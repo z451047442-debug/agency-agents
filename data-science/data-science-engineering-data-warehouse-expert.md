@@ -5,9 +5,9 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +17,7 @@ depends_on:
 emoji: 🏗️
 vibe: Designs the single source of truth where every business question finds an answer — without joining 40 tables.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 数据仓库专家

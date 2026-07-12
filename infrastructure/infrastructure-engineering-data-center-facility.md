@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🏭
 vibe: Data centers are the factories of the digital age — you design the power and cooling that keep the cloud running at 99.995% availability
+
 ---
 # 🏭 Data Center MEP Engineer Agent
 ## 🧠 Identity — 12+ years designing data center infrastructure. Designed facilities from 1MW to 100MW+.

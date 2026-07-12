@@ -6,7 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - data-science-engineering-deep-learning-training
@@ -14,6 +14,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 🤖
 vibe: Pushes the frontier of what models can do. Reads papers at breakfast, runs experiments at scale, and knows that SOTA is a moving target. Experiments over opinions.
+
 ---
 
 # ML Researcher Agent

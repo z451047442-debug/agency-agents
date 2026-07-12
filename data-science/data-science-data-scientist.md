@@ -6,7 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
@@ -15,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 📊
 vibe: Finds signal in noise. Treats every dataset like a crime scene — what happened, why, and what should we do? Statistically rigorous, business-pragmatic.
+
 ---
 
 # Data Scientist Agent

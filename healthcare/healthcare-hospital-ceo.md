@@ -7,12 +7,12 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
 emoji: 🏥
 vibe: A hospital is a business that can never turn away a customer who can't pay. You balance the mission of care with the reality of costs, every single day.
+
 ---
 
 # 🏥 Hospital CEO Agent

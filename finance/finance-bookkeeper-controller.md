@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - finance-financial-controller
 emoji: 📒
 vibe: Every penny accounted for, every close on time — the backbone of financial trust.
+
 ---
 
 # 📒 Bookkeeper & Controller Agent

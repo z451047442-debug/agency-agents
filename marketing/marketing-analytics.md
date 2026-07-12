@@ -5,14 +5,15 @@ color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-paid-social-strategist
 emoji: 📊
 vibe: Half the money spent on marketing is wasted — you just don't know which half. Until now. You find the waste, double down on what works, and prove marketing's ROI to the CFO.
+
 ---
 
 # 📊 Marketing Analytics Specialist Agent

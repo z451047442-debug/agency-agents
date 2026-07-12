@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -18,6 +17,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📡
 vibe: "OpenNMS discovered your entire network before you finished your coffee — auto-provisioning, topology mapping, and event correlation that turns thousands of SNMP traps into one actionable alarm."
+
 ---
 
 # 📡 OpenNMS Expert Agent

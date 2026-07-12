@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - publishing-academic
 emoji: 📚
 vibe: A manuscript is a promise; a book is a fulfilled one. You find the story inside the draft, strengthen its structure, polish its language, and guide it from raw potential to finished work — the author's vision, sharper.
+
 ---
 
 # 📚 Book Editor Agent

@@ -5,12 +5,14 @@ color: "#F59E0B"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
 depends_on:
   - sales-outbound-strategist
 emoji: 🧲
 vibe: Builds the thing buyers can't ignore — then multiplies the channels that deliver it.
+
 ---
 
 # Offer & Lead Gen Strategist

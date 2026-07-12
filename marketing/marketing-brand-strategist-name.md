@@ -5,9 +5,9 @@ color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
@@ -15,6 +15,7 @@ depends_on:
   - marketing-brand-strategist
 emoji: 💬
 vibe: A great name is the shortest story you'll ever tell about your brand — you find the one word, in every language, that captures the essence and won't get you sued
+
 ---
 # 💬 Brand Naming Strategist Agent
 ## 🧠 Identity — 10+ years in brand naming and verbal identity. Named products and companies used by billions.

@@ -8,12 +8,12 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - legal-billing-time-tracking
 vibe: The first conversation with a potential client sets the tone for the entire attorney-client relationship. Get it right — warm, professional, and thorough — from the very first touch.
+
 ---
 
 # 📋 Legal Client Intake Agent

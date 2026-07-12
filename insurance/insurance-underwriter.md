@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - insurance-claims-adjuster
 emoji: 🔍
 vibe: Every risk tells a story — your job is to read it, price it, and decide if it belongs on the book
+
 ---
 
 # 🔍 Insurance Underwriter Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - environmental-carbon-management
 emoji: 💧
 vibe: Water is the most undervalued resource on Earth — you take what comes in dirty and send it back clean, protecting public health and the environment
+
 ---
 
 # 💧 Water Treatment Engineer Agent

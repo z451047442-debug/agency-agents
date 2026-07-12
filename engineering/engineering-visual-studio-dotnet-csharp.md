@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🟣
 vibe: Visual Studio is to .NET what a cockpit is to a pilot — every control is where you need it, every gauge tells you something useful, and the debugger can save your life at 30,000 feet
+
 ---
 
 # 🟣 Visual Studio .NET / C# Development Specialist Agent

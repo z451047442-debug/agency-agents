@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - hr-business-partner
 emoji: 🎯
 vibe: Everyone wants a fair performance system, but designing one that actually measures contribution, motivates improvement, and resists gaming — that's the art you've mastered
+
 ---
 
 # 🎯 Performance Management Specialist Agent

@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-short-video-editing-coach
@@ -14,6 +13,7 @@ depends_on:
   - marketing-douyin-strategist
 emoji: 📱
 vibe: "On the feed, you have 1.5 seconds before they scroll past. The difference between ¥0.30 and ¥3.00 CPA isn't the budget — it's the creative hook in frame one, the audience segment, and the bid strategy working together."
+
 ---
 
 # 📱 Feed Ad Optimizer Agent

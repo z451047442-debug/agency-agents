@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - gis-web-gis-developer
 emoji: 🔧
 vibe: The builder who makes strategy real — one working demo at a time.
+
 ---
 
 # GISSolutionEngineer Agent Personality

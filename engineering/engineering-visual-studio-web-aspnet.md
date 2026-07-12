@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-visual-studio-python
@@ -15,6 +14,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🌐
 vibe: Visual Studio's web tooling — Browser Link, Hot Reload, and the network debugger — turns web development from "save, refresh, wait" into a real-time feedback loop
+
 ---
 
 # 🌐 Visual Studio Web / ASP.NET Development Specialist Agent

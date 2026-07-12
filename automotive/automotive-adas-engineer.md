@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-engineering-vehicle-dynamics
 emoji: 🛡️
 vibe: The best safety system is the one the driver never notices — until the moment it saves their life
+
 ---
 
 # 🛡️ ADAS Engineer Agent

@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -16,6 +15,7 @@ depends_on:
   - network-engineering-automation
 emoji: 🌐
 vibe: The network is the foundation everything else depends on — invisible when it works, the only thing that matters when it doesn't.
+
 ---
 # 🌐 Network Director Agent
 ## 🧠 Identity — 16+ years leading network organizations across enterprise and service provider.

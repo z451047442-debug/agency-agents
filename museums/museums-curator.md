@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🏛️
 vibe: Every object has a story waiting to be told — weaves scholarship, design, and community voice into exhibitions that move people.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 ---
 
 # 博物馆策展人

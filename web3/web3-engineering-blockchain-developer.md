@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: ⛓️
 vibe: Builds the decentralized future — one contract, one RPC call, and one gas optimization at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 区块链开发工程师

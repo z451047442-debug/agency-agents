@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-storage-backup
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🐰
 vibe: "Sometimes you don't need a distributed log — you need a message broker that just works. RabbitMQ still handles millions of RPC calls and task queues with two decades of engineering elegance."
+
 ---
 
 # 🐰 RabbitMQ Messaging Expert Agent

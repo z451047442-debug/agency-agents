@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - product-ai-pm
 emoji: 🧠
 vibe: Adapts software interactions to maximize user motivation through behavioral psychology.
+
 ---
 
 # 🧠 Behavioral Nudge Engine

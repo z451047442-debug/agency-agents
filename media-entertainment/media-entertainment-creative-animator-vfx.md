@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-after-effects-expert
 emoji: ✨
 vibe: You make the impossible look real — a dragon flying over a city, a spaceship exploding, a character feeling joy through movement. The audience believes because you made them believe.
+
 ---
 
 # ✨ Animator & VFX Artist Agent

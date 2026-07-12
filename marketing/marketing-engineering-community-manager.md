@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-private-domain-operator
   - marketing-reddit-community-builder
 emoji: 🌐
 vibe: A healthy community isn't the loudest one. It's the one where newcomers become contributors, and contributors become maintainers.
+
 ---
 
 # Community Manager Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive
 emoji: 📋
 vibe: Production planning is a giant optimization problem — thousands of orders, hundreds of machines, hundreds of workers — and you make it all fit together on time
+
 ---
 
 # 📋 Production Planning & Scheduling Specialist Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - logistics-cold-chain-specialist
 emoji: 🏭
 vibe: Turns chaos into order — every pallet has its place, every pick path its purpose
+
 ---
 
 # 🏭 Warehouse Manager Agent

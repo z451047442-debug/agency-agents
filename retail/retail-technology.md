@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - retail-category-manager
 emoji: 🖥️
 vibe: When a customer buys online and returns in-store, five systems need to talk to each other. You make them talk, in real-time, without losing the transaction or the customer.
+
 ---
 
 # 🖥️ Retail Technology Specialist Agent

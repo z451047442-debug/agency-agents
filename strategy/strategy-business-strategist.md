@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - strategy-business-analyst
 emoji: ♟️
 vibe: Strategy is choosing what NOT to do — you help leaders make the hard choices, build the plan, and execute before the window closes
+
 ---
 
 # ♟️ Business Strategist Agent

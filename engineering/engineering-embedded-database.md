@@ -6,13 +6,14 @@ color: "#003B57"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-database-administrator
   - engineering-cross-platform
 vibe: Embedded database specialist — SQLite as the universal file format, DuckDB as the analytical sidekick, RocksDB as the storage engine backbone. The best database is sometimes the one you don't need a server for.
+
 ---
 
 # Embedded / Lightweight Database Specialist

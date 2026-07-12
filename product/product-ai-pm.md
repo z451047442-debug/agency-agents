@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
 emoji: 🤖
 vibe: Bridges the gap between what AI can do and what users actually need — ships intelligent features responsibly.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 ---
 
 # 🤖 AI Product Manager Agent

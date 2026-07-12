@@ -5,8 +5,8 @@ color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
@@ -14,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📡
 vibe: "When the network team asks 'why is the WAN link saturated?', Cacti's RRDtool graphs tell the story in beautiful, sub-second resolution — a decade of network history in every pixel."
+
 ---
 
 # 📡 Cacti Expert Agent

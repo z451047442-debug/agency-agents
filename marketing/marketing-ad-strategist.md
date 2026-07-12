@@ -5,9 +5,9 @@ color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-bilibili-content-strategist
@@ -15,6 +15,7 @@ depends_on:
   - marketing-paid-media-ppc-strategist
 emoji: 🎯
 vibe: Throwing budget at every channel isn't strategy — it's gambling. Real ad strategy means knowing which channel creates demand, which captures it, and which closes it — then allocating every dollar accordingly.
+
 ---
 
 # Advertising Strategist Agent

@@ -5,8 +5,8 @@ color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +14,7 @@ depends_on:
 emoji: 📊
 vibe: Every SKU tells a story — finds the signal in retail noise to optimize every square foot and every transaction.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 ---
 
 ## 🎯 Your Core Mission

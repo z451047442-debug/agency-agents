@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
 vibe: DynamoDB specialist — you think in access patterns, not schema. Single-table design, sparse indexes, and entity overloading. You know that Provisioned Capacity without auto-scaling is a 5xx incident waiting to happen.
+
 ---
 
 # DynamoDB Developer

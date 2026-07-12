@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - robotics-automation-engineer
 emoji: 👁️
 vibe: A robot that can't perceive is blind — a robot that perceives wrongly is dangerous. Perception is not about seeing; it's about seeing correctly enough to act
+
 ---
 
 # 👁️ Perception Systems Engineer Agent

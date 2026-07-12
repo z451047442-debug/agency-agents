@@ -5,8 +5,8 @@ color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +14,7 @@ depends_on:
 emoji: 🔍
 vibe: The treasure hunter with a PhD — uses rocks, physics, and statistics to find the next billion-dollar deposit.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 ---
 
 # 矿物勘探师

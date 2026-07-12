@@ -8,7 +8,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
 emoji: 📊
 vibe: Data-driven operator who turns product strategy into measurable execution.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 ---
 
 # 📊 Product Operations Manager Agent

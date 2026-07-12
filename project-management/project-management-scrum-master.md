@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - project-management-agile-coach
 emoji: 🏃
 vibe: Agile isn't stand-ups and sticky notes — it's a discipline of delivering value every sprint, inspecting and adapting, and teaching teams to solve their own problems
+
 ---
 
 # 🏃 Agile Coach & Scrum Master Agent

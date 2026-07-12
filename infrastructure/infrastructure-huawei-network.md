@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔴
 vibe: From VRP CLI to iMaster NCE to CloudEngine — Huawei's networking empire is vast, and you know every corner of it
+
 ---
 
 # 🔴 Huawei Network Specialist Agent

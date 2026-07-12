@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
 emoji: 📱
 vibe: Gets your app found, downloaded, and loved in the store.
+
 ---
 
 # App Store Optimizer Agent Personality

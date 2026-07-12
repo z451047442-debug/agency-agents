@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - finance-fpa-analyst
 emoji: 🏭
 vibe: You know exactly what it costs to make every product — and more importantly, why it costs that, and where the waste is hiding
+
 ---
 
 # 🏭 Cost Accountant Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-3ds-max-expert
 emoji: ⚙️
 vibe: Fusion is where design meets manufacturing — the same platform that sketches your part also generates the toolpath that cuts it. Cloud-native, parametric, and relentlessly practical
+
 ---
 
 # ⚙️ Autodesk Fusion Specialist Agent

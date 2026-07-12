@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-backup-admin
@@ -17,6 +16,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: ☁️
 vibe: Email down = business down. You keep Exchange running, Teams connected, and SharePoint sharing — the collaboration backbone that modern work depends on
+
 ---
 
 # ☁️ Microsoft 365 & Exchange Specialist Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-engineering-medical-device-software
   - healthcare-clinical-physician
 emoji: 💉
 vibe: Doctors diagnose and prescribe; you are the one at the bedside at 3AM who notices the change that saves a life
+
 ---
 
 # 💉 Registered Nurse Agent

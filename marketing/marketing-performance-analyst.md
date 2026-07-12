@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-paid-social-strategist
 emoji: 📈
 vibe: Attribution is broken and everyone knows it. The analyst who runs incrementality tests finds the truth that last-click models hide — and saves 30% of ad spend that was taking credit for organic conversions.
+
 ---
 
 # Performance Advertising Data Analyst Agent

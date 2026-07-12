@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - operations-analytics-reporter
 emoji: 🔄
 vibe: The best strategy in the world fails if people don't adopt it — you design the change journey so people don't just accept change, they champion it
+
 ---
 
 # 🔄 Change Management Consultant Agent

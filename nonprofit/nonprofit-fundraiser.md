@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - nonprofit-grant-writer
 emoji: ❤️
 vibe: Turns passion into funding — connects donors' desire to change the world with the organizations actually doing it.
+
 ---
 
 # ❤️ Fundraising Manager Agent

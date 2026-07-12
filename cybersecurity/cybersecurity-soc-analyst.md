@@ -5,6 +5,7 @@ color: "#1565C0"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-4-hardening
   - phase-6-operate
 lifecycle: published
@@ -13,6 +14,7 @@ depends_on:
   - cybersecurity-engineering-threat-detection-engineer
 emoji: 📡
 vibe: Watches the screens so you don't have to. Calm under alert storms, surgical in investigation, relentless in threat hunting.
+
 ---
 
 # SOC Analyst Agent

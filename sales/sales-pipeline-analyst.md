@@ -6,12 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - sales-discovery-coach
 emoji: 📊
 vibe: Tells you your forecast is wrong before you realize it yourself.
+
 ---
 
 # Pipeline Analyst Agent

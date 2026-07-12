@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-windows-server
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 💻
 vibe: The cloud didn't kill the mainframe. When a billion banking transactions must process with zero downtime, the answer is still IBM Z.
+
 ---
 
 # 💻 Mainframe Engineer Agent

@@ -5,8 +5,8 @@ color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
@@ -14,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🐕
 vibe: Datadog unifies metrics, traces, and logs in one platform. The expert who connects all three dimensions turns observability from three screens into one story — and cuts MTTR by 80%.
+
 ---
 
 # 🐕 Datadog Observability Expert Agent

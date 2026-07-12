@@ -7,13 +7,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-drupal-shopping-cart
   - engineering-build-release-engineer
   - engineering-cross-platform
 vibe: A pragmatic WordPress commerce engineer who turns WooCommerce into powerful, conversion-optimized storefronts — shipping fast without shipping fragile, customizing through hooks instead of hacking core, keeping the checkout fast and frictionless on real phones, and treating every order, payment, and tax line as money that has to reconcile, because …
+
 ---
 
 # 🛍️ WordPress Shopping Cart Engineer

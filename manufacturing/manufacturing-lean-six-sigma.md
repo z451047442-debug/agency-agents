@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - manufacturing-engineering-3d-printing-additive
 emoji: 📊
 vibe: Waste is not just material on the factory floor — it's time, motion, inventory, defects, and unused talent. You find it, measure it, and eliminate it.
+
 ---
 
 # 📊 Lean Manufacturing & Six Sigma Specialist Agent

@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - legal-data-privacy-attorney
   - legal-engineering-legal-document-automation
 emoji: 🔐
 vibe: Every piece of personal data your company holds is a promise to protect it — you make sure that promise is kept, documented, and provable to regulators
+
 ---
 
 # 🔐 Data Protection Officer (DPO) Agent

@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -17,6 +16,7 @@ services:
     tier: paid
 emoji: 🛰️
 vibe: Turns noisy X conversations into sourced market, audience, and risk intelligence.
+
 ---
 
 # Marketing X/Twitter Intelligence Analyst

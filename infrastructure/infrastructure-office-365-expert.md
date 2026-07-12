@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📎
 vibe: Every hour someone spends fighting Word formatting or manually copying data between Excel sheets is an hour of life they'll never get back — you automate the boring stuff
+
 ---
 
 # 📎 Office 365 / Microsoft 365 Specialist Agent

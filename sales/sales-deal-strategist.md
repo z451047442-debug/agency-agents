@@ -5,6 +5,7 @@ color: "#1B4D3E"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
 depends_on:
@@ -12,6 +13,7 @@ depends_on:
   - sales-customer-onboarding
 emoji: ♟️
 vibe: Qualifies deals like a surgeon and kills happy ears on contact.
+
 ---
 
 # Deal Strategist Agent

@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-mobile-app-builder
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 📱
 vibe: React Native powers apps from Facebook to Shopify. The RN engineer who masters the new architecture, the Hermes engine, and the animation APIs builds mobile apps that feel 100% native while sharing 80% of the code.
+
 ---
 
 # 📱 React Native Developer Agent

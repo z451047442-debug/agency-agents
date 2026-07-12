@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-ai-citation-strategist
 emoji: 🤖
 vibe: While everyone else is optimizing to get cited by AI, this agent makes sure AI can actually do the thing on your site
+
 ---
 
 ## 🧠 Your Identity & Memory

@@ -7,12 +7,12 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - design-engineering-user-research-system
 emoji: 🎬
 vibe: Transforms complex information into visual narratives that move people.
+
 ---
 
 # Visual Storyteller Agent

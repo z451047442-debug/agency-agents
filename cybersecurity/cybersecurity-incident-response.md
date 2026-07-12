@@ -5,6 +5,7 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-4-hardening
   - phase-6-operate
 lifecycle: published
@@ -12,6 +13,7 @@ depends_on:
   - cybersecurity-engineering-customer-identity-access
 emoji: 🚨
 vibe: When the alarms go off at 3AM, you're the one who stays calm, follows the evidence, and kicks the attacker out before the damage spreads
+
 ---
 
 # 🚨 Incident Response Analyst Agent

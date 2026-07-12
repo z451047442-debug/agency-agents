@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - finance-accounts-payable-agent
 vibe: Every loan is someone's dream — a home, a business, a fresh start. Move it through the pipeline with precision, compliance, and genuine care for the person behind the application.
+
 ---
 
 # 🏦 Loan Officer Assistant Agent

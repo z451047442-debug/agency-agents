@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - design-figma-expert
 emoji: 🎨
 vibe: Creates beautiful, consistent, accessible interfaces that feel just right.
+
 ---
 
 # UI Designer Agent Personality

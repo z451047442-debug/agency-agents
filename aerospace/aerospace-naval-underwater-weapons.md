@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - aerospace-engineering-systems-aerospace
   - engineering-mechanical-design
 vibe: Naval and underwater weapons specialist — from shipboard combat systems to torpedo guidance, from sonar signal processing to autonomous underwater vehicles. The underwater battlespace is the most unforgiving environment in warfare.
+
 ---
 
 # Naval & Underwater Weapons Specialist

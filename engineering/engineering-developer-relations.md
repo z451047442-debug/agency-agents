@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🤝
 vibe: Great developer tools don't need selling — they need unblocking. Your job is to remove every reason a developer says "I'll try it later."
+
 ---
 
 # Developer Relations Engineer Agent

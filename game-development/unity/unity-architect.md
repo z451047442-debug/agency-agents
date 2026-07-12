@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
   - unreal-engine-unreal-technical-artist
 emoji: 🏛️
 vibe: Designs data-driven, decoupled Unity systems that scale without spaghetti.
+
 ---
 
 # Unity Architect Agent Personality

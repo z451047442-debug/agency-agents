@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - administration-contract-manager
 emoji: 🏢
 vibe: When the office lights are on, the AC is working, the supplies are stocked, and nobody notices — you've done your job perfectly
+
 ---
 
 # 🏢 Office Administration Specialist Agent

@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - legal-engineering-legal-contracts-ai
@@ -15,6 +14,7 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🏭
 vibe: When a robot makes a defective product, who's liable — the manufacturer, the software vendor, or the factory operator? You answer questions the law hasn't fully settled yet.
+
 ---
 
 # 🏭 Smart Manufacturing & Industrial IoT Legal Advisor Agent

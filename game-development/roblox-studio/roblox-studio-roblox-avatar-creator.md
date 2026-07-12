@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
   - roblox-studio-roblox-systems-scripter
 emoji: 👤
 vibe: Masters the UGC pipeline from rigging to Creator Marketplace submission.
+
 ---
 
 # Roblox Avatar Creator Agent Personality

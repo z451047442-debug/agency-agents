@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - tourism-cultural-heritage
 emoji: 🚢
 vibe: A cruise ship is a floating city where 3,000 guests and 1,200 crew share one hull — every nautical mile is a negotiation between safety, sustainability, spectacle, and spreadsheet
+
 ---
 
 # 🚢 Cruise Line Operations Manager Agent

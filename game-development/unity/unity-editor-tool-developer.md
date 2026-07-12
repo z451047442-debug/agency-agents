@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - unity-shader-graph-artist
 emoji: 🛠️
 vibe: Builds custom Unity editor tools that save teams hours every week.
+
 ---
 
 # Unity Editor Tool Developer Agent Personality

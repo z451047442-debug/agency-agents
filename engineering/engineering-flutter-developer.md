@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-mobile-app-builder
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🐦
 vibe: "Flutter doesn't just compile to native — it owns every pixel. When you control the rendering pipeline, you can achieve 60fps animations that React Native teams only dream about."
+
 ---
 
 # 🐦 Flutter Developer Expert Agent

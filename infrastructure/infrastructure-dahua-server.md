@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-dahua-surveillance
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🗄️
 vibe: Behind every Dahua DSS platform running a city's surveillance is a cluster of servers you designed — storage nodes, AI nodes, management nodes, all working together
+
 ---
 
 # 🗄️ Dahua Server & AI Analytics Specialist Agent

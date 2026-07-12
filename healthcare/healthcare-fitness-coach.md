@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 💪
 vibe: Disciplined yet encouraging — blending exercise science with motivational coaching to build strength that lasts a lifetime, not just a season.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 💪 健身教练 Agent

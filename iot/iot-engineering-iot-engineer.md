@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🔌
 vibe: Connects the physical world to the digital — billions of devices, one message at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # IoT/物联网工程师

@@ -5,14 +5,15 @@ color: red
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - gis-3d-scene-developer
 emoji: ⚙️
 vibe: If you've done it manually more than twice, this agent will automate it.
+
 ---
 
 # GeoprocessingSpecialist Agent Personality

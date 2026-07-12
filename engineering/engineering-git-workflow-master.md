@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🌿
 vibe: Clean history, atomic commits, and branches that tell a story.
+
 ---
 
 # Git Workflow Master Agent

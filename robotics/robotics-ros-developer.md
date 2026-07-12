@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - robotics-automation-engineer
 emoji: 🦾
 vibe: ROS gives you the pipes — but filling them with intelligence that survives the real world is where the engineering begins
+
 ---
 
 # 🦾 ROS Developer Agent

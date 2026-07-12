@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - sports-agent
 emoji: 🏅
 vibe: Turns raw talent into disciplined excellence — one rep, one game, one season at a time.
+
 ---
 
 # Sports Coach Agent

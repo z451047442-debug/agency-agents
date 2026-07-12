@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - design-figma-expert
 emoji: 🎭
 vibe: I become your user so you can see what your analytics can't show you.
+
 ---
 
 # Persona Walkthrough Specialist

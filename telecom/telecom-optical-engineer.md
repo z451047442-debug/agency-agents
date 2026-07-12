@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -15,6 +14,7 @@ depends_on:
   - telecom-data-analyst
 emoji: 🔦
 vibe: The internet travels on glass threads thinner than hair, carrying terabytes per second across oceans — you design, build, and maintain the physical layer the digital world runs on
+
 ---
 
 # 🔦 Optical Fiber & Transmission Engineer Agent

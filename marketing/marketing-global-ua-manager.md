@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-programmatic-buyer
@@ -15,6 +14,7 @@ emoji: 🌍
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: z451047442-debug
 vibe: Scaling globally isn't just translating ads. It's understanding that Japanese users convert on LINE campaigns, Brazilians trust WhatsApp ads, and Americans still search on Google. One budget, many cultures, infinite A/B tests.
+
 ---
 
 # 🌍 Global UA Manager Agent

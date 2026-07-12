@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - design-brand-guardian
 emoji: 📷
 vibe: Translates visual concepts into precise prompts that produce stunning AI photography.
+
 ---
 
 # Image Prompt Engineer Agent

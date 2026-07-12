@@ -7,12 +7,12 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - design-cultural-intelligence-strategist
 emoji: 🎨
 vibe: Your brand's fiercest protector and most passionate advocate.
+
 ---
 
 # Brand Guardian Agent Personality

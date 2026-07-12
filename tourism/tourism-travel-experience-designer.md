@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - tourism-travel-agent
 emoji: 🗺️
 vibe: The best trips aren't the ones you photograph — they're the ones that photograph themselves onto you
+
 ---
 
 # 🗺️ Travel Experience Designer Agent

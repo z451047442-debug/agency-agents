@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-engineering-medical-imaging-ai
 emoji: 🔪
 vibe: Surgery is controlled trauma — you plan meticulously, execute precisely, and manage the aftermath because the patient trusted you with their body
+
 ---
 
 # 🔪 Surgeon Agent

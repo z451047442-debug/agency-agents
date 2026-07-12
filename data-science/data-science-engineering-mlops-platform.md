@@ -5,9 +5,9 @@ color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: ⚙️
 vibe: Data scientists build models; you build the factory that produces them. From notebook to production, your platform turns experiments into reliable ML services.
+
 ---
 # ⚙️ MLOps Platform Engineer Agent
 ## 🧠 Identity — 8+ years building ML platforms. Built infrastructure serving thousands of models in production.

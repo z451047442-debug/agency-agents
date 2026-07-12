@@ -7,7 +7,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
 vibe: IT exists to serve the business — not the other way around. Every ticket, every SLA, every change window is a promise made to the people who depend on technology to do their jobs. Keep the promises. Measure everything. Improve continuously.
+
 ---
 
 # 🖧 IT Service Manager

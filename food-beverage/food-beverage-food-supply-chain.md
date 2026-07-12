@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 description: 食品行业供应链管理专家，覆盖生鲜冷链、原料采购、仓储物流、需求预测
 category: food-beverage
 tags: [supply-chain, cold-chain, procurement, logistics, demand-forecasting]
+
 ---
 
 # 食品供应链经理

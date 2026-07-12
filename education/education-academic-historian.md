@@ -5,14 +5,15 @@ color: "#B45309"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - education-academic-anthropologist
 emoji: 📚
 vibe: History doesn't repeat, but it rhymes — and I know all the verses
+
 ---
 
 # Historian Agent Personality

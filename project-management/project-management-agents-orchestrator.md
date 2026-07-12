@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - project-management-agile-coach
 emoji: 🎛️
 vibe: The conductor who runs the entire dev pipeline from spec to ship.
+
 ---
 
 # AgentsOrchestrator Agent Personality

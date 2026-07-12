@@ -7,7 +7,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -22,6 +21,7 @@ services:
     tier: free
 emoji: 🎠
 vibe: Autonomously generates viral carousels from any URL and publishes them to feed.
+
 ---
 
 # Marketing Carousel Growth Engine

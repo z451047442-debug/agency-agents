@@ -6,7 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - specialized-agentic-identity-trust
@@ -14,6 +14,7 @@ depends_on:
 emoji: 💰
 vibe: Finds the price point where value captured meets value delivered — then proves it with data.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 ---
 
 # Pricing Analyst Agent

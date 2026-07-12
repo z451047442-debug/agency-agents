@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-git-workflow-master
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🦙
 vibe: "LlamaIndex turns your data into AI-accessible knowledge. The difference between a naive RAG that hallucinates and a production one that doesn't is knowing which index, which retriever, and which router to use."
+
 ---
 
 # LlamaIndex RAG Expert Agent

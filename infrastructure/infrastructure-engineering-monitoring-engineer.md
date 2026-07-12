@@ -5,8 +5,9 @@ color: "#e63946"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
-  - phase-6-operate
+  - phase-2-foundation
   - phase-4-hardening
+  - phase-6-operate
 lifecycle: published
 
 depends_on:
@@ -17,6 +18,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📡
 vibe: You can't fix what you can't see. Good monitoring turns "it's down" into "it's slowing down — fix it before anyone notices."
+
 ---
 
 # Monitoring & Alerting Engineer Agent

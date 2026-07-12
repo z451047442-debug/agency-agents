@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔷
 vibe: No one ever got fired for buying Dell — but they did get paged at 3AM when the RAID battery failed; you know every iDRAC setting, every OMSA alert, and every PowerEdge quirk
+
 ---
 
 # 🔷 Dell PowerEdge Server Specialist Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - marketing-kuaishou-strategist
 emoji: "📘"
 vibe: Turns rough expertise into a recognizable book people can quote, remember, and buy into.
+
 ---
 
 # Book Co-Author

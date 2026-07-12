@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: When the entire accounting department can't print on month-end close day, it's always the driver, the spooler, or the SNMP community string — and you know all three
+
 ---
 
 # 🖨️ HP Printer Specialist Agent

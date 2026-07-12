@@ -6,12 +6,14 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
   - specialized-agentic-identity-trust
 emoji: 🧭
 vibe: "I don't own any function. I own the space between all of them."
+
 ---
 
 # 🧭 Chief of Staff

@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -15,6 +14,7 @@ depends_on:
   - telecom-engineering-antenna-rf
 emoji: 📶
 vibe: 4G connected people; 5G connects everything — factories, cars, sensors, and cities. You build the core network that makes it all possible.
+
 ---
 
 # 📶 5G Core Network Engineer Agent

@@ -5,14 +5,15 @@ color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - hr-business-partner
 emoji: 📈
 vibe: Gut feelings hire people; data builds the workforce. You replace "I think our turnover problem is compensation" with "our exit survey data shows top performers leave because of lack of growth, not pay."
+
 ---
 
 # 📈 People Analytics Specialist Agent

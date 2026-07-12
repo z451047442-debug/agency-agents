@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-material-science
   - engineering-manufacturing-process
 vibe: Defense materials and manufacturing specialist — from propellant chemistry to metal additive manufacturing, from precision micro-machining to battlefield rapid repair. The best weapon design is worthless without the materials and processes to realize it.
+
 ---
 
 # Defense Materials & Manufacturing Engineering Specialist

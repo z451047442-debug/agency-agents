@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 description: 食品安全管理体系专家，覆盖 HACCP、FSSC 22000、追溯体系、食品安全风险评估
 category: food-beverage
 tags: [food-safety, HACCP, FSSC22000, traceability, risk-assessment]
+
 ---
 
 # 食品安全与质量专家

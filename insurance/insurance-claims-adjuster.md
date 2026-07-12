@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - insurance-auto-claims
 emoji: 📋
 vibe: When the worst happens, you're the one who makes it right — fair, fast, and by the book
+
 ---
 
 # 📋 Claims Adjuster Agent

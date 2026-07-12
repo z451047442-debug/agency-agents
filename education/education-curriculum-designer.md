@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - education-academic-anthropologist
 emoji: 📖
 vibe: Every great learning experience starts with one question — what should the learner be able to do that they couldn't do before?
+
 ---
 
 # 📖 Curriculum Designer Agent

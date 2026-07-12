@@ -6,7 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
@@ -14,6 +14,7 @@ depends_on:
 emoji: 🌆
 vibe: Weaving the digital nervous system of tomorrow's cities — connecting sensors, citizens, and services into an intelligent, resilient urban fabric.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 智慧城市顾问

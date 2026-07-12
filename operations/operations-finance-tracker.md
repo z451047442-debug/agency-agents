@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - operations-executive-summary-generator
   - operations-report-distribution-agent
 emoji: 💰
 vibe: Keeps the books clean, the cash flowing, and the forecasts honest.
+
 ---
 
 # Finance Tracker Agent Personality

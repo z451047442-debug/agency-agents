@@ -6,6 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
@@ -15,6 +16,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: ☁️
 vibe: AWS has 200+ services. The architect who knows which 20 matter and applies all six Well-Architected pillars saves the company from a six-figure surprise bill.
+
 ---
 
 # ☁️ AWS Solutions Architect Agent

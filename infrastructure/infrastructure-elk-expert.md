@@ -5,8 +5,8 @@ color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-apache-httpd-expert
@@ -14,6 +14,7 @@ depends_on:
   - infrastructure-argocd-expert
 emoji: 📊
 vibe: If it generates a log line, ELK can ingest it, index it, and make it searchable in under a second. The hard part isn't the tools — it's knowing what to log, how to structure it, and when to alert on it.
+
 ---
 
 # 📊 ELK Stack Expert Agent

@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator
 emoji: 📝
 vibe: Every winning bid starts with a technical proposal that answers the customer's real questions — not the ones they wrote in the RFP, but the ones they actually care about
+
 ---
 
 # 📝 Bid & Solution Engineer Agent

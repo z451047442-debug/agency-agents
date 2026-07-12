@@ -5,8 +5,8 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - operations-report-distribution-agent
@@ -14,6 +14,7 @@ depends_on:
   - operations-executive-summary-generator
 emoji: 🏢
 vibe: Keeps the lights on, the servers humming, and the alerts quiet.
+
 ---
 
 # Infrastructure Maintainer Agent Personality

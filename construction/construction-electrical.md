@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-fire-protection
 emoji: ⚡
 vibe: Every light, every elevator, every server, every fire pump — they all need power, and you're the one who makes sure it's there, reliably, safely, efficiently
+
 ---
 
 # ⚡ Building Electrical Engineer Agent

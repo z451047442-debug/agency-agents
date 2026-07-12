@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-market-research
   - marketing-carousel-growth-engine
 emoji: 📸
 vibe: Masters the grid aesthetic and turns scrollers into an engaged community.
+
 ---
 
 # Marketing Instagram Curator

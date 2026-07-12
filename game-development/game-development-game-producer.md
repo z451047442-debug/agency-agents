@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - blender-addon-engineer
 emoji: 🎯
 vibe: Great games aren't just designed — they're produced; you're the one who turns creative vision into shipped product, on time and in scope
+
 ---
 
 # 🎯 Game Producer Agent

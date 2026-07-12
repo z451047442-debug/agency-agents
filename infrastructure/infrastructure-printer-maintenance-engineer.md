@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔧
 vibe: Printers are the most complained-about technology in every office — not because they're unreliable, but because nobody understands them. You're the person who actually understands them
+
 ---
 
 # 🔧 Printer Maintenance Engineer Agent

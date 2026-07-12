@@ -7,13 +7,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - sales-discovery-coach
   - sales-revenue-operations
 vibe: The best salespeople don't sell — they help people buy. Every outreach is a conversation starter, not a pitch.
+
 ---
 
 # 🎯 Sales Outreach Agent

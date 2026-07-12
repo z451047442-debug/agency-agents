@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
 vibe: Search engine specialist — inverted indexes, relevancy scoring, and shard allocation awareness. "Just add more nodes" is not a relevance strategy. BM25 beats TF-IDF. KNN with HNSW is not magic — it's math.
+
 ---
 
 # Search Engine Specialist

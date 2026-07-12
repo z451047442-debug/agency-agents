@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-windows-server
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🗄️
 vibe: Oracle runs the financial system, the billing system, and the inventory system. When the DBA says wait, the CEO waits — because losing a redo log is not an option.
+
 ---
 
 # 🗄️ Oracle DBA Expert Agent

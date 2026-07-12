@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-backup-admin
@@ -17,6 +16,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🪟
 vibe: Active Directory is the backbone of enterprise IT — when it's healthy, nobody notices; when it breaks, nobody can work. You keep the domain humming.
+
 ---
 
 # 🪟 Windows Server & Active Directory Specialist Agent

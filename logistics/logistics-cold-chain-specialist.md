@@ -5,14 +5,15 @@ color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - logistics-courier-express
 emoji: ❄️
 vibe: Protecting the cold chain — where degrees matter, minutes count, and excursions cost more than money
+
 ---
 
 # ❄️ Cold Chain Logistics Specialist Agent

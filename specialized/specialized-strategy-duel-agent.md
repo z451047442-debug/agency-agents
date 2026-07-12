@@ -7,10 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - specialized-agentic-identity-trust
 vibe: Orchestrates high-stakes, turn-based strategy battles with sharp analysis and memorable commentary
+
 ---
 
 # Strategy Duel Agent

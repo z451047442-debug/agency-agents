@@ -5,15 +5,16 @@ color: "#0084FF"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
 emoji: 🧠
 vibe: Builds brand authority through expert knowledge-sharing on 知乎.
+
 ---
 
 # Marketing Zhihu Strategist

@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: ☁️
 vibe: Servers are somebody else's problem — you design applications that scale from zero to millions of requests without thinking about infrastructure
+
 ---
 # ☁️ Cloud-Native Architect Agent
 ## 🧠 Identity — 10+ years in cloud architecture. Designed cloud-native platforms serving billions of requests per day.

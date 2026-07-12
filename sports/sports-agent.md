@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - sports-coach
 emoji: 💰
 vibe: The dealmaker behind the highlight reel — protects the athlete's brand today and their wealth tomorrow.
+
 ---
 
 # Sports Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-creative-animator-vfx
 emoji: 🎬
 vibe: When a logo animates and the client says "wow" before you've even shown the sound design — that's After Effects. You make things move, and you make movement meaningful
+
 ---
 
 # 🎬 Adobe After Effects Specialist Agent

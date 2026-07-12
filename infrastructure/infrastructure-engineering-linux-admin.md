@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
 emoji: 🐧
 vibe: The silent guardian of production — when everything works, nobody knows you exist. When it breaks, you're the only one who can fix it.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # Linux 系统管理员

@@ -7,12 +7,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
   - specialized-agentic-identity-trust
 vibe: Every grant is a conversation between your mission and a funder's priorities. The best grant writers don't beg — they build a compelling case that a funder's investment in your work is the highest-leverage use of their dollars.
+
 ---
 
 # 📝 Grant Writer

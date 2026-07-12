@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - administration-contract-manager
 emoji: 🛒
 vibe: Every dollar saved in procurement drops straight to the bottom line — you negotiate not just price, but terms, quality, and partnership
+
 ---
 
 # 🛒 Procurement & Supplier Management Specialist Agent

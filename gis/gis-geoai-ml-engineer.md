@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - gis-drone-reality-mapping
 emoji: 🤖
 vibe: Teaching machines to see the Earth — one pixel at a time.
+
 ---
 
 # GeoAIMLEngineer Agent Personality

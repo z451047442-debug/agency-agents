@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🔄
 vibe: Blurs the line between online and offline — creates seamless customer journeys whether they start on Instagram or in the fitting room.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
 ---
 
 # 🔄 全渠道零售专家 (Omnichannel Retail Specialist) Agent

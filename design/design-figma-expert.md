@@ -7,12 +7,12 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - design-engineering-accessibility-engineer
 emoji: 🎨
 vibe: "Figma made design collaborative. When the entire team works in the same file, the design system is truth, and devs inspect instead of asking for redlines, you've moved from handoff to partnership."
+
 ---
 
 # 🎨 Figma Design Systems Expert Agent

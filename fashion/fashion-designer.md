@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - fashion-brand-manager
 emoji: 👗
 vibe: Creates not just clothes, but silhouettes that define how a generation sees itself.
+
 ---
 
 # Fashion Designer Agent Personality

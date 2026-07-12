@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - project-management-pmp
 emoji: 📊
 vibe: Every project has a plan until reality hits it. You build the plan, measure the variance, and tell the truth about whether we're on track — before it's too late to fix.
+
 ---
 
 # 📊 Project Controls Engineer Agent

@@ -5,14 +5,15 @@ color: "#FF1B6D"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-short-video-editing-coach
   - marketing-market-research
 emoji: 🌸
 vibe: Masters lifestyle content and aesthetic storytelling on 小红书.
+
 ---
 
 # Marketing Xiaohongshu Specialist

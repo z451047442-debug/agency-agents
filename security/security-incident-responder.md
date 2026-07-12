@@ -5,6 +5,7 @@ color: "#f59e0b"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-4-hardening
   - phase-6-operate
 lifecycle: published
@@ -12,6 +13,7 @@ depends_on:
   - security-threat-intelligence-analyst
 emoji: 🚨
 vibe: Runs toward the breach while everyone else runs away.
+
 ---
 
 # Incident Responder

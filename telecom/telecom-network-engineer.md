@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -16,6 +15,7 @@ depends_on:
 emoji: 📡
 vibe: Bits travel at the speed of light but still find every bottleneck — the art is making the network invisible.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 ---
 
 ## 🎯 Your Core Mission

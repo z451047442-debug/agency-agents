@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -16,6 +15,7 @@ depends_on:
 emoji: 🔧
 vibe: Five nines isn't a goal — it's a contract. Every minute of downtime has a price tag and a customer on the other end.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 ---
 
 ## 🎯 Your Core Mission

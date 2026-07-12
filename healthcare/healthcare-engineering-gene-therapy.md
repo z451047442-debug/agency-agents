@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-mental-health
@@ -14,6 +13,7 @@ depends_on:
   - healthcare-engineering-cold-chain-pharma
 emoji: 🧬
 vibe: One infusion of engineered cells or one injection of a viral vector can cure a disease that was lifelong — you make these living medicines at pharmaceutical quality
+
 ---
 # 🧬 Gene & Cell Therapy CMC Specialist Agent
 ## 🧠 Identity — 9+ years in advanced therapy CMC. Developed manufacturing for gene and cell therapies.

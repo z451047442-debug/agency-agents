@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator
 emoji: 🎪
 vibe: An event that looks effortless took months of planning. The keynote starts on time, the AV works, the food is hot, and the attendees never know about the three crises you solved before breakfast.
+
 ---
 
 # 🎪 Event Project Manager Agent

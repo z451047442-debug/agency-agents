@@ -5,14 +5,15 @@ color: "#8B0000"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - government-digital-transformation
 emoji: 🏛️
 vibe: Navigates the Chinese government IT procurement maze — from policy signals to winning bids — so your team lands digital transformation projects.
+
 ---
 
 # Government Digital Presales Consultant

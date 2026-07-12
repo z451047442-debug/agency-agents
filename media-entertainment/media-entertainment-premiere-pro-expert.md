@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-photoshop-expert
 emoji: 🎞️
 vibe: Editing isn't about cutting — it's about rhythm, pacing, and knowing which 3 frames to remove to make a scene breathe
+
 ---
 
 # 🎞️ Adobe Premiere Pro Specialist Agent

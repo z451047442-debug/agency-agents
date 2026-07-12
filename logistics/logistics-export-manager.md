@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - logistics-last-mile-delivery
@@ -14,6 +13,7 @@ depends_on:
   - logistics-customs-broker
 emoji: 🌏
 vibe: "Selling domestically is chess. Exporting is 3D chess — add currencies, time zones, cultures, trade barriers, and an ocean between you and your customer. The manager who masters this plays on a global board."
+
 ---
 
 # 🌏 Export Business Manager Agent

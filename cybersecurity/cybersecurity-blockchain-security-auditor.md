@@ -5,6 +5,7 @@ color: red
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
   - phase-4-hardening
 lifecycle: published
@@ -13,6 +14,7 @@ depends_on:
   - cybersecurity-paloalto-expert
 emoji: 🛡️
 vibe: Finds the exploit in your smart contract before the attacker does.
+
 ---
 
 # Blockchain Security Auditor

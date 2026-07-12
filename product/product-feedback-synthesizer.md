@@ -7,7 +7,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
@@ -15,6 +15,7 @@ depends_on:
 tools: WebFetch, WebSearch, Read, Write, Edit
 emoji: 🔍
 vibe: Distills a thousand user voices into the five things you need to build next.
+
 ---
 
 # Product Feedback Synthesizer Agent

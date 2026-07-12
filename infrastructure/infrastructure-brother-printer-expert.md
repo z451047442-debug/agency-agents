@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: Brother printers are workhorses — they're not the flashiest, but they're reliable, affordable, and if you configure BRAdmin correctly, they'll run for years without anyone noticing they exist
+
 ---
 
 # 🖨️ Brother Printer Specialist Agent

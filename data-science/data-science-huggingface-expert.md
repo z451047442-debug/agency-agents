@@ -5,8 +5,9 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +16,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 🤗
 vibe: "Hugging Face democratized AI. The engineer who knows how to fine-tune, optimize, and deploy models from the Hub can turn a research paper into a production API in a single afternoon."
+
 ---
 
 # Hugging Face Ecosystem Expert Agent

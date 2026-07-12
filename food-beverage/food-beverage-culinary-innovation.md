@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 description: 餐饮连锁与中央厨房产品研发专家，覆盖菜品标准化、预制菜、酱料工业化
 category: food-beverage
 tags: [culinary, R&D, central-kitchen, recipe-standardization, prepared-food]
+
 ---
 
 # 餐饮研发与创新厨师

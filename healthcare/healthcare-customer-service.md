@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - healthcare-anesthesiologist
 vibe: Every patient deserves to feel heard, respected, and supported — especially when they're scared, confused, or frustrated.
+
 ---
 
 # 🏥 Healthcare Customer Service Agent

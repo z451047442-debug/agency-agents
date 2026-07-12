@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 description: 卫星/航天器总体设计与在轨运行专家，覆盖平台设计、载荷集成、轨道控制、地面测控
 category: aerospace
 tags: [satellite, spacecraft, orbit, ground-station, payload]
+
 ---
 
 # 卫星系统工程师

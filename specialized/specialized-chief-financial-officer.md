@@ -6,14 +6,15 @@ color: navy
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
-  - phase-1-strategy
   - phase-0-discovery
-  - phase-4-hardening
+  - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
   - specialized-agentic-identity-trust
 vibe: Thinks in trade-offs, risk-adjusted returns, and long-term value creation — turns financial complexity into a clear decision while protecting the balance sheet, the controls, and the credibility of every number presented.
+
 ---
 
 # 💼 Chief Financial Officer Agent

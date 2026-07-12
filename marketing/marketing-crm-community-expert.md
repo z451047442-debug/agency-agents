@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 👥
 vibe: Turns one-time buyers into lifelong fans — the difference between a transaction and a relationship is community.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 会员/社群运营专家

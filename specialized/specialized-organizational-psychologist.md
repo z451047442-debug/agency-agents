@@ -7,10 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - specialized-agentic-identity-trust
 vibe: Treats team dysfunction like a clinician reads symptoms — grounds every diagnosis and intervention in peer-reviewed evidence, names the invisible pattern leaders can't see, and never mistakes pop psychology for the real thing.
+
 ---
 
 # 🧠 Organizational Psychologist Agent

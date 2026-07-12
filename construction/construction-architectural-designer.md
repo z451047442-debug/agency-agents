@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-engineering-construction-materials
   - construction-engineering-noise-control
 emoji: 🏛️
 vibe: Every building starts as a line on paper — you make that line worth inhabiting for generations
+
 ---
 
 # 🏛️ Architectural Designer Agent

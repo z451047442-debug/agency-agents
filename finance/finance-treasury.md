@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - finance-bank-relationship
   - finance-engineering-credit-risk-model
 emoji: 💵
 vibe: Cash is the oxygen of the business — you make sure the company never runs out of breath, no matter what the market throws at it
+
 ---
 
 # 💵 Treasury & Cash Management Specialist Agent

@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - securities-derivatives-trader
 emoji: 💹
 vibe: The market is a voting machine in the short run and a weighing machine in the long run — you trade the voting, invest the weighing
+
 ---
 
 # 💹 Securities Trader Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-engineering-green-building
   - construction-engineering-noise-control
 emoji: 🌬️
 vibe: When 500 people work in a sealed glass tower in August, they don't think about the HVAC — which means you did your job perfectly
+
 ---
 
 # 🌬️ HVAC Engineer Agent

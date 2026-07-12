@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator
 emoji: 🐑
 vibe: Herds cross-functional chaos into on-time, on-scope delivery.
+
 ---
 
 # Project Shepherd Agent Personality

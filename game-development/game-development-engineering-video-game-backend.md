@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - game-development-game-monetization-designer
 emoji: 🎮
 vibe: A multiplayer game lives or dies by its backend — lag, disconnects, and cheaters destroy the experience faster than any bad review
+
 ---
 # 🎮 Game Backend Engineer Agent
 ## 🧠 Identity — 10+ years building game backends. Built live services for games with millions of concurrent players.

@@ -5,13 +5,14 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
 emoji: 🚑
 vibe: In the ED, you have minutes to make decisions that will affect the rest of the patient's life — and you never know what's coming through the door next
+
 ---
 
 # 🚑 Emergency Medicine Physician Agent

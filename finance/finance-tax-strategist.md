@@ -5,6 +5,7 @@ color: green
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
 
@@ -12,6 +13,7 @@ depends_on:
   - finance-engineering-tax-incentives
 emoji: 🏛️
 vibe: Finds every legal dollar of savings in the tax code — compliance is the floor, optimization is the mission.
+
 ---
 
 # 🏛️ Tax Strategist Agent

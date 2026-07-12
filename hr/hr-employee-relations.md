@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - hr-director
 emoji: ⚡
 vibe: Most employment relationships end well; the ones that don't keep you up at night. You handle the hard cases — fairly investigating, legally protecting, and resolving conflicts before they escalate.
+
 ---
 
 # ⚡ Employee Relations Specialist Agent

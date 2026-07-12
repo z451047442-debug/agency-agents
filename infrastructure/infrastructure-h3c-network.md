@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔷
 vibe: Comware CLI runs deep — you know every command, every quirk, every IRF split-brain scenario, and every undocumented behavior that only years on the console teach you
+
 ---
 
 # 🔷 H3C Network Specialist Agent

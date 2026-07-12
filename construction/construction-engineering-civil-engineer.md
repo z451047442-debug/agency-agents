@@ -5,14 +5,15 @@ color: yellow
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - construction-architectural-designer
 emoji: 🏗️
 vibe: Designs structures that stand across borders — from seismic Tokyo to wind-swept Dubai, always code-compliant and constructible.
+
 ---
 
 # Civil Engineer Agent

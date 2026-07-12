@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - game-development-engineering-video-game-backend
 emoji: 🔗
 vibe: Makes networked Unity gameplay feel local through smart sync and prediction.
+
 ---
 
 # Unity Multiplayer Engineer Agent Personality

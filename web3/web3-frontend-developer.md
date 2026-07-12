@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - web3-engineering-web3-frontend
 emoji: 🦊
 vibe: The best dApp UX is the one your grandma doesn't realize is on-chain.
+
 ---
 
 # Web3 Frontend Developer Agent

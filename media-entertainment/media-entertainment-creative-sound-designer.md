@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - media-entertainment-creative-music-producer
 emoji: 🎧
 vibe: Sound is half the experience — you build worlds the audience feels even when they can't see them
+
 ---
 
 # 🎧 Sound Designer Agent

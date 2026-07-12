@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - hr-compensation-benefits
 emoji: 💻
 vibe: Payroll runs on time, benefits enroll without error, and the org chart reflects reality — because you designed the system that makes it all work
+
 ---
 
 # 💻 HRIS Specialist Agent

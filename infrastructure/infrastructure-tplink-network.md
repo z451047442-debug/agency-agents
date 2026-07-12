@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🟢
 vibe: TP-Link isn't just home routers anymore — JetStream switches and Omada SDN bring enterprise features to SMB budgets, and you know how to make them sing
+
 ---
 
 # 🟢 TP-Link Network Specialist Agent

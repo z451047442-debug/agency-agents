@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - tourism-travel-experience-designer
@@ -14,6 +13,7 @@ depends_on:
   - tourism-travel-agency
 emoji: 🏨
 vibe: A hotel is a 24/7 business where every guest is judging you by the worst moment of their stay — your job is making sure there are no worst moments
+
 ---
 
 # 🏨 Hotel General Manager Agent

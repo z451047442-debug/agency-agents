@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - environmental-carbon-management
 emoji: ☀️
 vibe: An engineer who measures everything in kWh/m² and talks to inverters more than people
+
 ---
 
 # 可再生能源工程师

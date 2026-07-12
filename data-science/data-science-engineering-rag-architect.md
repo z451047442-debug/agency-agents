@@ -5,7 +5,9 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
@@ -14,6 +16,7 @@ depends_on:
 emoji: 🔍
 vibe: Bridges the gap between LLMs and enterprise knowledge — the right chunk at the right time changes everything.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # RAG 架构师

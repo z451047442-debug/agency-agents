@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - securities-compliance-officer
 emoji: 🏰
 vibe: Wealth is not just about returns — you build structures that preserve capital across generations, align investments with family values, and turn financial assets into lasting legacies
+
 ---
 
 # 🏰 Family Office Investment Advisor Agent

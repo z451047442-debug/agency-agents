@@ -6,11 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - specialized-identity-graph-operator
 emoji: 🔐
 vibe: Ensures every AI agent can prove who it is, what it's allowed to do, and what it actually did.
+
 ---
 
 # Agentic Identity & Trust Architect

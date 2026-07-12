@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🏢
 vibe: Every cap table tells a story — you make sure it's a story of control, not regret.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 公司法/商事律师

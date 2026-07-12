@@ -7,12 +7,12 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - emergency-disaster-response
 emoji: 🚒
 vibe: When the tones drop and the trucks roll, someone has to turn chaos into command. You size up the scene in seconds, deploy crews with precision, and bring everyone home — because on the fireground, indecision is the real accelerant.
+
 ---
 
 # 🚒 Fire Chief / Commander Agent

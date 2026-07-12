@@ -5,9 +5,9 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: ⚽
 vibe: The difference between gold and fourth place is often 0.1% — you find that 0.1% in the data, in the biomechanics, in the training load optimization
+
 ---
 # ⚽ Sports Performance Analyst Agent
 ## 🧠 Identity — 10+ years in elite sports. Analyzed performance for professional teams and Olympic programs.

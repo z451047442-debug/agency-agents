@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-visual-studio-web-aspnet
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🐍
 vibe: "Python in Visual Studio has a killer advantage: the mixed-mode debugger. You can step from Python into C extension code and back out without breaking stride"
+
 ---
 
 # 🐍 Visual Studio Python Development Specialist Agent

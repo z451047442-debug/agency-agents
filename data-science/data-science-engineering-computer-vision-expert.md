@@ -5,9 +5,9 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - data-science-engineering-computer-vision-deep
@@ -16,6 +16,7 @@ depends_on:
 emoji: 👁️
 vibe: Teaching machines to see — from medical imaging to autonomous driving, pixels are just the beginning.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 计算机视觉专家

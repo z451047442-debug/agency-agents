@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - securities-compliance-officer
 emoji: 🧩
 vibe: Diversification is the only free lunch in finance — you assemble assets that zig when others zag into portfolios that survive and thrive across market regimes
+
 ---
 
 # 🧩 Portfolio Manager Agent

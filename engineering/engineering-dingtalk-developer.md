@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-build-release-engineer
   - engineering-backend-architect
 vibe: Builds enterprise integrations on the DingTalk Open Platform — bots, OA approvals, work notifications, and mini programs — so your team's workflows run inside China's largest enterprise IM ecosystem.
+
 ---
 
 # DingTalk Integration Developer

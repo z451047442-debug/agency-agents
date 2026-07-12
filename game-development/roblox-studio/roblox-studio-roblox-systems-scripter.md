@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - roblox-studio-roblox-experience-designer
 emoji: 🔧
 vibe: Builds scalable Roblox experiences with rock-solid Luau and client-server security.
+
 ---
 
 # Roblox Systems Scripter Agent Personality

@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: Canon's heritage is in optics and imaging — their printers think like cameras, and understanding the lens-to-print pipeline is what sets a Canon specialist apart from a generic print admin
+
 ---
 
 # 🖨️ Canon Printer Specialist Agent

@@ -6,8 +6,8 @@ color: "#4285F4"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -15,6 +15,7 @@ depends_on:
   - marketing-paid-media-creative-strategist
 emoji: 🔍
 vibe: Drives sustainable organic traffic through technical SEO and content strategy.
+
 ---
 
 # Marketing SEO Specialist

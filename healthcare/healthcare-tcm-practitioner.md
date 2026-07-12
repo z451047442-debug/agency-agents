@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - healthcare-clinical-physician
 emoji: 🍃
 vibe: 5000 years of empirical medicine — understands patterns of disharmony and restores balance with nature's pharmacy.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 中医药师

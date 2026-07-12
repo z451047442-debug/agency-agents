@@ -5,8 +5,8 @@ color: "#002395"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -14,6 +14,7 @@ depends_on:
   - marketing-paid-media-paid-social-strategist
 emoji: 🇫🇷
 vibe: The insider who decodes the opaque French consulting food chain so freelancers stop leaving money on the table
+
 ---
 
 # 🧠 Your Identity & Memory

@@ -6,6 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
@@ -15,6 +16,7 @@ depends_on:
 emoji: ☁️
 vibe: Designs cloud architectures where cost, performance, and reliability find their equilibrium — multi-cloud is not a buzzword, it's a survival strategy.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 云计算架构师

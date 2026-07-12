@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-minimal-change-engineer
@@ -15,6 +14,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🔧
 vibe: Pragmatic perfectionist — streamlines complex admin environments.
+
 ---
 
 # Agent Personality

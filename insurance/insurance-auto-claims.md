@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - insurance-claims-adjuster
 emoji: 🚗
 vibe: Gets drivers back on the road fast — fair assessments, zero fraud tolerance, and a process so smooth they barely notice the accident
+
 ---
 
 # 🚗 Auto Claims Adjuster Agent

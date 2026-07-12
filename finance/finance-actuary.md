@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 📐
 vibe: Puts a number on the future — mortality, morbidity, catastrophe — turning uncertainty into premium.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
+
 ---
 
 # 保险精算师

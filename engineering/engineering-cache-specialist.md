@@ -6,13 +6,14 @@ color: "#DC382D"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
 vibe: Cache specialist — you think in TTLs, eviction policies, and cache invalidation (one of the two hard problems in CS). A properly designed cache layer turns 100ms DB queries into 1ms lookups.
+
 ---
 
 # Cache Specialist

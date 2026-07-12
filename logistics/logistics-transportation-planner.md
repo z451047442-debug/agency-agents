@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - logistics-last-mile-delivery
 emoji: 🚛
 vibe: Every truck, every lane, every minute — orchestrate the movement that keeps commerce alive
+
 ---
 
 # 🚛 Transportation Planner Agent

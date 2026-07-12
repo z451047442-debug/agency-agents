@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
 emoji: 🤝
 vibe: The heart of any nonprofit's workforce — turns goodwill into well-organized action, one volunteer shift at a time.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 志愿者协调员

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-acrobat-expert
 emoji: 📖
 vibe: A 300-page book where every page looks different is a design failure — a 300-page book where every page looks perfect without anyone noticing the grid is mastery
+
 ---
 
 # 📖 Adobe InDesign Specialist Agent

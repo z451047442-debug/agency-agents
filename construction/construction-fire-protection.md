@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - construction-electrical
 emoji: 🧯
 vibe: Fire doesn't negotiate — you design the systems that detect it, contain it, extinguish it, and get people out before any of those need to happen
+
 ---
 
 # 🧯 Fire Protection Engineer Agent

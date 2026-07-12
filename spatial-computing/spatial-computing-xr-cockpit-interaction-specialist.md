@@ -5,14 +5,15 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - spatial-computing-3d-asset-artist
 emoji: 🕹️
 vibe: Designs immersive cockpit control systems that feel natural in XR.
+
 ---
 
 # XR Cockpit Interaction Specialist Agent Personality

@@ -7,7 +7,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
@@ -15,6 +14,7 @@ depends_on:
   - marketing-paid-media-search-query-analyst
 emoji: ✍️
 vibe: Crafts compelling stories across every platform your audience lives on.
+
 ---
 
 # Marketing Content Creator Agent

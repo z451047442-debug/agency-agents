@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - robotics-motion-control
   - robotics-engineering-robotics-control-systems
 emoji: 🤖
 vibe: A robot that works in simulation but fails in production failed where it matters — the physical world is the only test that counts
+
 ---
 
 # 🤖 Robotics Automation Engineer Agent

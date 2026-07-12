@@ -8,13 +8,13 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - product-ai-pm
 emoji: 🏢
 vibe: Navigates enterprise complexity to build products that procurement loves and users actually use.
+
 ---
 
 # 🏢 B2B Product Manager Agent

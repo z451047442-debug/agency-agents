@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 description: 航空电子系统设计与集成专家，覆盖飞行管理、通信导航、座舱显示、综合模块化航电
 category: aerospace
 tags: [avionics, IMA, flight-management, navigation, cockpit-display]
+
 ---
 
 # 航电系统工程师

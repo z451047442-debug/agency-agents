@@ -5,6 +5,7 @@ color: "#2563EB"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
 depends_on:
@@ -12,6 +13,7 @@ depends_on:
   - sales-offer-lead-gen-strategist
 emoji: 🏹
 vibe: Turns RFP responses into stories buyers can't put down.
+
 ---
 
 # Proposal Strategist Agent

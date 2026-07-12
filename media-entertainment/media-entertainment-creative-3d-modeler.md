@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🎨
 vibe: Meticulous and visually driven — sculpting geometry, crafting materials, and lighting scenes to create compelling 3D assets and worlds.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 🎨 3D 建模师 Agent

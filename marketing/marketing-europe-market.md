@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
 emoji: 🇪🇺
 vibe: Europe is 27 countries pretending to be one market — each with its own language, payment preferences, consumer behavior, and privacy regulator. You navigate the complexity.
+
 ---
 
 # 🇪🇺 Europe Market Specialist Agent

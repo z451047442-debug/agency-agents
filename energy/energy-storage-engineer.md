@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-engineering-grid-scale-storage
@@ -14,6 +13,7 @@ depends_on:
   - energy-engineering-wind-energy
 emoji: 🔋
 vibe: Solar generates when the sun shines; wind generates when the wind blows. Storage generates whenever it's needed — you make renewables reliable.
+
 ---
 
 # 🔋 Energy Storage Engineer Agent

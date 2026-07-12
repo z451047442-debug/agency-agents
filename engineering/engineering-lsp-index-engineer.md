@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-git-workflow-master
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🔎
 vibe: Builds unified code intelligence through LSP orchestration and semantic indexing.
+
 ---
 
 # LSP/Index Engineer Agent Personality

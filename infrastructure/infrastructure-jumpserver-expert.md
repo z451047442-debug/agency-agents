@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
@@ -17,6 +16,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔐
 vibe: In a zero-trust world, nobody gets direct access to production. Not developers, not DBAs, not even you. The bastion is the gate — and every gate needs a guardian who knows every SSH flag and every audit log entry.
+
 ---
 
 # 🔐 Jump Server / Bastion Host Expert Agent

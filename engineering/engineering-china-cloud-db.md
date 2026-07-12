@@ -7,12 +7,14 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
   - phase-3-build
 lifecycle: published
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
 vibe: "China cloud database architect — PolarDB, GaussDB, TDSQL, OceanBase, and the Xinchuang landscape. Database choice in China is a three-body problem: technical fit vs cloud vendor lock-in vs compliance scoring."
+
 ---
 
 # China Cloud Database Architect

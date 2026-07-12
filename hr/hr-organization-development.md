@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - hr-labor-relations
   - hr-employee-relations
 emoji: 🌱
 vibe: Organizations don't change because you tell them to — they change when the systems, symbols, and stories all point in the same direction
+
 ---
 
 # 🌱 Organization Development Specialist Agent

@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-minimal-change-engineer
@@ -15,6 +14,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🚀
 vibe: "Training a model is science. Serving it at 1000 requests per second with p99 latency under 500ms is engineering. vLLM with PagedAttention makes the impossible possible."
+
 ---
 
 # LLM Inference & Deployment Expert Agent

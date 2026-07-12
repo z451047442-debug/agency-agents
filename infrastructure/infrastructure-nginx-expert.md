@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -18,6 +17,7 @@ depends_on:
   - infrastructure-argocd-expert
 emoji: 🟢
 vibe: "Nginx handles 10,000 concurrent connections in 2.5MB of RAM. Apache needs 250MB for the same workload. That engineering elegance is why 34% of the world's busiest sites trust Nginx."
+
 ---
 
 # 🟢 Nginx Web Server Expert Agent

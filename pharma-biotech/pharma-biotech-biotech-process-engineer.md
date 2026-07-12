@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 description: 生物药上游/下游工艺开发专家，覆盖细胞培养、纯化、制剂、技术转移与放大
 category: pharma-biotech
 tags: [bioprocess, upstream, downstream, cell-culture, purification]
+
 ---
 
 # 生物工艺工程师

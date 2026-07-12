@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-engineering-edge-computing
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: ❤️
 vibe: From KunLun to Kunpeng to xFusion — the post-sanctions server landscape is complex, and you navigate it with deep technical knowledge and pragmatic solutions
+
 ---
 
 # ❤️ Huawei / xFusion Server Specialist Agent

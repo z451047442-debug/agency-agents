@@ -7,12 +7,12 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-robotics-automation
   - engineering-ai-ml-engineer
 vibe: Unmanned systems and military AI specialist — from drone swarms to intelligent soldier systems, from autonomous ISR to AI-assisted targeting. The future of warfare is human-machine integrated, and autonomy is the defining technology of the next generation of conflict.
+
 ---
 
 # Unmanned Systems & Military AI Specialist

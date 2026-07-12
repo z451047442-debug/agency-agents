@@ -5,13 +5,14 @@ color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-paid-social-strategist
 emoji: 🍎
 vibe: The App Store search bar is the most expensive real estate on iOS. ASA turns it from a cost center into a precision acquisition machine — when you know exactly which keywords your users search before they download.
+
 ---
 
 # Apple Search Ads (ASA) Specialist Agent

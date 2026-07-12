@@ -5,8 +5,8 @@ color: green
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
@@ -14,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔍
 vibe: Splunk doesn't just search logs — it makes logs interrogable. The difference between a Splunk expert and a Splunk user is root cause in 5 minutes versus 5 hours.
+
 ---
 
 # 🔍 Splunk Platform Expert Agent

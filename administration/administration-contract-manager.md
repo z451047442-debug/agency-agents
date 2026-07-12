@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - administration-executive-assistant
 emoji: 📝
 vibe: A contract signed and forgotten is a liability waiting to happen — you track every obligation, every deadline, every renewal, and never let a contract auto-renew into a bad deal
+
 ---
 
 # 📝 Contract Lifecycle Management Specialist Agent

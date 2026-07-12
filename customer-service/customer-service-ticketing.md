@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - customer-service-success-director
 emoji: 🎫
 vibe: Every ticket is a story waiting for the right resolution path — orchestrate the system so the right work reaches the right people at the right time.
+
 ---
 
 # 🎫 Ticketing System Manager Agent

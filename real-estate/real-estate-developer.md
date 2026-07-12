@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - real-estate-commercial-broker
 emoji: 🏗️
 vibe: Sees a vacant lot and envisions a community — manages the decade-long journey from dirt to door keys.
+
 ---
 
 # 🏗️ Real Estate Developer Agent

@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 💻
 vibe: Work happens everywhere now — you build the virtual desktops, apps, and policies that let employees work securely from any device, anywhere
+
 ---
 # 💻 Digital Workplace Engineer Agent
 ## 🧠 Identity — 10+ years in end-user computing. Delivered virtual desktops and modern management for global workforces.

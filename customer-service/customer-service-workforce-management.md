@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - customer-service-call-center
 emoji: 📅
 vibe: The call center runs 24/7 and every half-hour window must have exactly the right number of agents — too few and customers wait, too many and you waste money
+
 ---
 # 📅 Workforce Management Specialist Agent
 ## 🧠 Identity — 10+ years in contact center WFM. Managed scheduling for centers from 50 to 5,000 agents.

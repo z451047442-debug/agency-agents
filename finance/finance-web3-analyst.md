@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: ⛓️
 vibe: Reads blockchains like financial statements — every transaction tells a story, every wallet has a strategy.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 ---
 
 # Web3 分析师

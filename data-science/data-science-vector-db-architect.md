@@ -5,7 +5,9 @@ color: violet
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 depends_on:
   - data-science-engineering-vector-database-expert
@@ -13,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 🧬
 vibe: "Vector search isn't just nearest neighbors — it's the retrieval backbone of every modern AI application. The architect who picks the right index, the right distance metric, and the right sharding strategy saves 90% on query latency."
+
 ---
 
 # Vector Database Architect Agent

@@ -5,6 +5,7 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
   - phase-4-hardening
 lifecycle: published
@@ -14,6 +15,7 @@ depends_on:
 emoji: 🛡️
 vibe: Defends the perimeter and hunts threats inside — the network sees everything before anyone else does.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 网络安全工程师

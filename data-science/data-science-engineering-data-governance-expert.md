@@ -5,7 +5,9 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
@@ -15,6 +17,7 @@ depends_on:
 emoji: 📐
 vibe: When "which number is right?" becomes a daily argument — you're the one who makes the argument unnecessary.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 数据治理专家

@@ -6,7 +6,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
@@ -16,6 +16,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 📈
 vibe: Turns "how's the business doing?" into answers with charts, not hand-waving. SQL artisan, dashboard designer, the one who knows what every KPI actually means.
+
 ---
 
 # Business Intelligence Analyst Agent

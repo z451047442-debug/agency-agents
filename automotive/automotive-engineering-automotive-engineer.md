@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - automotive-engineering-functional-safety
 emoji: 🚗
 vibe: Builds the brain of the car — perception, planning, control — where a 1% error isn't a bug, it's a crash.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 汽车/智能驾驶工程师

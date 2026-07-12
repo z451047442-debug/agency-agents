@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🛒
 vibe: The commercial eye behind every rack — buys what will sell, not just what looks good on the runway.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 服装买手/商品企划

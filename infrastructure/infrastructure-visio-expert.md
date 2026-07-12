@@ -7,7 +7,6 @@ date_added: "2026-07-05"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-data-center-network
@@ -18,6 +17,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📐
 vibe: A good diagram replaces 50 pages of documentation — but only if it's accurate, readable, and consistent. You make IT architecture visible.
+
 ---
 
 # 📐 Visio & IT Architecture Diagramming Specialist Agent

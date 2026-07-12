@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - mining-exploration
 emoji: ⛏️
 vibe: Extracts value from kilometers underground while keeping thousands of miners safe — geology meets heavy engineering.
+
 ---
 
 # 采矿工程师 · Mining Engineer

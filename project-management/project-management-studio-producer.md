@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator
 emoji: 🎬
 vibe: Aligns creative vision with business objectives across complex initiatives.
+
 ---
 
 # Studio Producer Agent Personality

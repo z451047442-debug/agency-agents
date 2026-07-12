@@ -5,15 +5,16 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-china-market-localization-strategist
   - marketing-douyin-strategist
 emoji: 🎥
 vibe: Grows grassroots audiences and drives live commerce on 快手.
+
 ---
 
 # Marketing Kuaishou Strategist

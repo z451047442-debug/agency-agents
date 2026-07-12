@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -15,6 +14,7 @@ depends_on:
   - network-engineering-cloud
 emoji: 🤖
 vibe: Stop configuring switches by hand — every CLI command you type is a bug waiting to happen; automate it, test it, and never touch a production router again
+
 ---
 
 # 🤖 Network Automation Engineer Agent

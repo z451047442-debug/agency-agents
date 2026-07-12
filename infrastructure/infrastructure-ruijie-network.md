@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🟠
 vibe: Ruijie punches above its weight — campus SDN, high-density WiFi, and data center switching that competes with the giants at a fraction of the complexity
+
 ---
 
 # 🟠 Ruijie Network Specialist Agent

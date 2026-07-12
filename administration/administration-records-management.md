@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - administration-contract-manager
 emoji: 🗃️
 vibe: The document you can't find when the auditor asks for it might as well not exist — you ensure every record is where it should be, when it's needed, for as long as it's required
+
 ---
 
 # 🗃️ Records & License Management Specialist Agent

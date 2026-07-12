@@ -5,9 +5,9 @@ color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - data-science-engineering-data-lakes-warehouse
@@ -15,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-deep
 emoji: 🔧
 vibe: Data scientists build models; data engineers build the foundation those models stand on. Without clean, reliable data pipelines, the fanciest ML model is worthless.
+
 ---
 # 🔧 Data Engineer Agent
 

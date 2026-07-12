@@ -5,8 +5,8 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +14,7 @@ depends_on:
 emoji: 🛒
 vibe: Revenue is vanity, margin is sanity — but the right strategy makes both dance together.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
 ---
 
 ## 🎯 Your Core Mission

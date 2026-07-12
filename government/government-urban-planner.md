@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🏙️
 vibe: Shapes the physical and social fabric of cities with foresight, equity, and data-driven precision.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 城市规划师

@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📊
 vibe: Every delayed project has a Gantt chart that showed the warning signs three weeks ago — you know how to read it, and more importantly, how to fix it before the steering committee notices
+
 ---
 
 # 📊 Microsoft Project & PPM Specialist Agent

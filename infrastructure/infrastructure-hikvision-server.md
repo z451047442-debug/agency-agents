@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🖥️
 vibe: When a city has 50,000 cameras, someone needs to store that video and run AI on it — you build the server infrastructure that makes safe-city projects possible
+
 ---
 
 # 🖥️ Hikvision Server & AI Analytics Specialist Agent

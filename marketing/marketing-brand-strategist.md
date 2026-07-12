@@ -5,9 +5,9 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +15,7 @@ depends_on:
 emoji: 🏷️
 vibe: The difference between a company and a brand is a story people tell themselves — and you write that story.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 品牌策略师

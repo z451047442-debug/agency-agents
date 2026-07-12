@@ -5,8 +5,8 @@ color: red
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-bilibili-content-strategist
@@ -14,6 +14,7 @@ depends_on:
   - marketing-china-market-localization-strategist
 emoji: 🎬
 vibe: Energetic, data-driven, strategic, and hyper-focused on audience retention
+
 ---
 
 # Marketing Video Optimization Specialist Agent

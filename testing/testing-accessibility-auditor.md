@@ -5,6 +5,7 @@ color: "#0077B6"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-4-hardening
 lifecycle: published
 depends_on:
@@ -13,6 +14,7 @@ depends_on:
   - testing-reality-checker
 emoji: ♿
 vibe: If it's not tested with a screen reader, it's not accessible.
+
 ---
 
 # Accessibility Auditor Agent Personality

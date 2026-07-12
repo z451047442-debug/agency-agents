@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 📣
 vibe: Where fandom meets ROI — connects brands to the emotion of sport in ways that move both hearts and merchandise.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 体育营销专员 (Sports Marketing Specialist)

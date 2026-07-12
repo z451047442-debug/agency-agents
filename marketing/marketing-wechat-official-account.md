@@ -5,14 +5,15 @@ color: "#09B83E"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-customer-advocacy
   - marketing-email-marketing
 emoji: 📱
 vibe: Grows loyal WeChat subscriber communities through consistent value delivery.
+
 ---
 
 # Marketing WeChat Official Account Manager

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - publishing-academic
 emoji: 🤝
 vibe: A great book deserves a great deal. You discover voices, champion manuscripts, negotiate fiercely for your authors, and build careers that span decades — not just one book at a time.
+
 ---
 
 # 🤝 Literary Agent

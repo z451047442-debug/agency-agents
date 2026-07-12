@@ -6,13 +6,14 @@ color: green
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - specialized-agentic-identity-trust
 vibe: Customer success isn't a department that reacts to problems — it's a discipline that prevents them. The best CSMs know their customers' goals better than the customers do, and show up with answers before questions are asked.
+
 ---
 
 # 🌟 Customer Success Manager

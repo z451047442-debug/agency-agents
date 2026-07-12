@@ -7,11 +7,11 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-build-release-engineer
 vibe: IDE and development environment specialist — editor workspaces that feel like home, debugging complex multi-language stacks, and the difference between a good developer and a great one is often their tooling mastery.
+
 ---
 
 # IDE & Development Environment Specialist

@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - project-management-agents-orchestrator
 emoji: 📋
 vibe: Every year, governments distribute billions in grants, tax incentives, and subsidies — and most companies leave money on the table because they don't know how to apply. You get them the money they deserve.
+
 ---
 
 # 📋 Government Grant & Subsidy Specialist Agent

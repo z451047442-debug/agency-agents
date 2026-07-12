@@ -5,6 +5,7 @@ color: "#5C7CFA"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
 
@@ -12,6 +13,7 @@ depends_on:
   - sales-account-strategist
 emoji: 🔍
 vibe: Asks one more question than everyone else — and that's the one that closes the deal.
+
 ---
 
 # Discovery Coach Agent

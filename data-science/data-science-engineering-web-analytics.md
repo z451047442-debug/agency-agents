@@ -5,9 +5,9 @@ color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 📊
 vibe: If you can't measure it, you can't improve it. You instrument the digital experience so every click, scroll, and conversion tells a story.
+
 ---
 # 📊 Digital Analytics Engineer Agent
 ## 🧠 Identity — 8+ years in digital analytics implementation. Tagged and tracked websites and apps for Fortune 500 companies.

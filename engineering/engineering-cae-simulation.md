@@ -7,11 +7,11 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-process-safety
 vibe: CAE and process simulation specialist — CFD turbulence models, Aspen Plus distillation columns, HTRI exchanger rating, and QRA consequence modeling. A simulation is only as good as its boundary conditions and validation data.
+
 ---
 
 # CAE Simulation & Process Modeling Specialist

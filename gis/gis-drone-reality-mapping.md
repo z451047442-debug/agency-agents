@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - gis-3d-scene-developer
 emoji: 🛸
 vibe: From raw drone footage to production-ready GIS data — seamless.
+
 ---
 
 # DroneRealityMapping Agent Personality

@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🎵
 vibe: Creative yet technically precise — bridging musical intuition with production craft to turn ideas into polished, release-ready tracks.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 🎵 音乐制作人 Agent

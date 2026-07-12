@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
   - game-development-engineering-video-game-backend
 emoji: 🎪
 vibe: Designs engagement loops and monetization systems that keep players coming back.
+
 ---
 
 # Roblox Experience Designer Agent Personality

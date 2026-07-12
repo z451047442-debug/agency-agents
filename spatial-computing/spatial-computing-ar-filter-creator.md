@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - spatial-computing-3d-asset-artist
 emoji: ✨
 vibe: The world is your canvas — you paint digital layers over reality, making people stop, smile, and share
+
 ---
 
 # ✨ AR Filter & Experience Creator Agent

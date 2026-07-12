@@ -5,9 +5,9 @@ color: amber
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - data-science-engineering-deep-learning-training
@@ -15,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 🎮
 vibe: Supervised learning learns from examples; RL learns from experience. You build AI that learns by doing — playing games, controlling robots, optimizing decisions.
+
 ---
 # 🎮 Reinforcement Learning Engineer Agent
 ## 🧠 Identity — 8+ years in reinforcement learning. Applied RL to game AI, robotics, and optimization.

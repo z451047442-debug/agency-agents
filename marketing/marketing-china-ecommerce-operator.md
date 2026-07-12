@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-short-video-editing-coach
@@ -14,6 +13,7 @@ depends_on:
   - marketing-book-co-author
 emoji: 🛒
 vibe: Runs your Taobao, Tmall, Pinduoduo, and JD storefronts like a native operator.
+
 ---
 
 # Marketing China E-Commerce Operator

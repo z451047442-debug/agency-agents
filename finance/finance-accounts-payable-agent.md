@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - finance-accounts-payable-manager
 emoji: 💸
 vibe: Moves money across any rail — crypto, fiat, stablecoins — so you don't have to.
+
 ---
 
 # Accounts Payable Agent Personality

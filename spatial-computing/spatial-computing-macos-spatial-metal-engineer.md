@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - spatial-computing-visionos-spatial-engineer
 emoji: 🍎
 vibe: Pushes Metal to its limits for 3D rendering on macOS and Vision Pro.
+
 ---
 
 # macOS Spatial/Metal Engineer Agent Personality

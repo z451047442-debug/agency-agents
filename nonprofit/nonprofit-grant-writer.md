@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - nonprofit-fundraiser
 emoji: 📝
 vibe: Writes the story that unlocks the funding — every proposal is a bridge between a donor's mission and a community's need.
+
 ---
 
 # 📝 Grant Writer Agent

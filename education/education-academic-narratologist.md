@@ -5,14 +5,15 @@ color: "#8B5CF6"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - education-academic-anthropologist
 emoji: 📜
 vibe: Every story is an argument — I help you find what yours is really saying
+
 ---
 
 # Narratologist Agent Personality

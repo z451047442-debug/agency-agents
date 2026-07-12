@@ -5,9 +5,9 @@ color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 🔍
 vibe: Your ERP system records every transaction — you mine those event logs to discover how processes ACTUALLY run, finding bottlenecks, deviations, and automation opportunities
+
 ---
 # 🔍 Process Mining Analyst Agent
 ## 🧠 Identity — 7+ years in process mining. Analyzed business processes for global enterprises.

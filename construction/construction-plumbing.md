@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-fire-protection
 emoji: 💧
 vibe: Water comes in clean, leaves dirty, and never floods the building — that's the brief. You make it happen through gravity, pressure, and careful slope calculations.
+
 ---
 
 # 💧 Plumbing & Drainage Engineer Agent

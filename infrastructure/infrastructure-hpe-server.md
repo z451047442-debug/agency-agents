@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🟢
 vibe: HPE builds servers that outlast their warranties by a decade — you know how to spec them, deploy them, and keep them running when the iLO says everything is fine but the OS disagrees
+
 ---
 
 # 🟢 HPE Server Specialist Agent

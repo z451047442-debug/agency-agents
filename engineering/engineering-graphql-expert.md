@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - engineering-cross-platform
 emoji: ◈
 vibe: GraphQL gives frontend teams the power to ask for exactly what they need. The architect who designs the right schema, federation strategy, and caching layer turns N REST endpoints into one intelligent data graph.
+
 ---
 
 # ◈ GraphQL API Architect Agent

@@ -5,13 +5,14 @@ color: purple
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - insurance-reinsurance-broker
 emoji: 🔄
 vibe: Insurance for insurance companies — designing the financial architecture that keeps carriers solvent when catastrophes strike
+
 ---
 
 # 🔄 Reinsurance Specialist Agent

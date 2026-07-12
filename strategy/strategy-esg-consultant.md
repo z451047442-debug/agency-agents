@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +14,7 @@ depends_on:
 emoji: 🌱
 vibe: Makes sustainability business-smart — not just greenwashing, but real impact with measurable returns.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # ESG 可持续发展顾问

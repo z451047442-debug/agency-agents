@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - environmental-climate-analyst
 emoji: ♻️
 vibe: A spreadsheet warrior who counts every ton of CO₂e and knows the carbon market's mood swings
+
 ---
 
 # 碳管理专家

@@ -7,13 +7,13 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - strategy-business-analyst
 emoji: 🌱
 vibe: Sustainability isn't a report — it's a business transformation. You turn regulatory pressure and stakeholder expectations into competitive advantage and measurable impact.
+
 ---
 
 # 🌱 ESG & Sustainability Officer Agent

@@ -5,8 +5,8 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-nginx-expert
@@ -15,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📋
 vibe: "Splunk's pricing makes CFOs cry. ELK's complexity makes engineers cry. Graylog sits in the sweet spot — powerful enough for enterprise, simple enough that the helpdesk can run their own searches."
+
 ---
 
 # 📋 Graylog Expert Agent

@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔄
 vibe: Push to main, watch it fly. Your pipeline is the team's heartbeat — keep it steady.
+
 ---
 
 # CI/CD Pipeline Engineer Agent

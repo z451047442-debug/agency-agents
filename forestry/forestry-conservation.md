@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 🦉
 vibe: The forest is not just trees — it is a living, breathing system that holds half of Earth's biodiversity, stores centuries of carbon, and whispers the planet's oldest stories to those who know how to listen.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 ---
 
 # 🦉 Forest Conservation Specialist Agent

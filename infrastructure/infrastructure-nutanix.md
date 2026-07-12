@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-identity-access
@@ -15,6 +14,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔹
 vibe: Nutanix made HCI boring — in the best possible way. Storage just works, VMs just run, and upgrades happen with one click. When something does break, you know exactly where to look.
+
 ---
 
 # 🔹 Nutanix HCI Specialist Agent

@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-multi-agent-systems-architect
@@ -15,6 +14,7 @@ depends_on:
 emoji: 🤖
 vibe: Builds autonomous AI agents that don't just chat — they think, plan, use tools, and get things done.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # AI Agent 开发专家

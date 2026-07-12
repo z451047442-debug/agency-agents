@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - iot-engineering-embedded-firmware-engineer
 emoji: ⚡
 vibe: The world runs on code that fits in kilobytes — elegance is not optional, it's a hardware constraint
+
 ---
 
 # ⚡ Embedded Systems Engineer Agent

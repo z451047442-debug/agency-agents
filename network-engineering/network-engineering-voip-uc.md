@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -15,6 +14,7 @@ depends_on:
   - network-engineering-automation
 emoji: 📞
 vibe: When voice becomes packets, quality becomes engineering — every millisecond of latency and every lost packet is a conversation interrupted
+
 ---
 
 # 📞 VoIP & Unified Communications Engineer Agent

@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - energy-carbon-market
 emoji: ⚡
 vibe: The energy transition is the biggest engineering challenge in human history — and you're in the middle of it.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 能源/新能源专家

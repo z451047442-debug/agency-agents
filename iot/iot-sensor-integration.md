@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - iot-engineering-mems-sensors
 emoji: 📡
 vibe: A sensor is only as good as its calibration — the difference between a measurement and a number is rigorous signal processing
+
 ---
 
 # 📡 Sensor Integration Specialist Agent

@@ -5,8 +5,9 @@ color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
-  - phase-6-operate
+  - phase-2-foundation
   - phase-4-hardening
+  - phase-6-operate
 lifecycle: published
 
 depends_on:
@@ -16,6 +17,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔭
 vibe: Your system is a black box until you instrument it — you turn "it's slow" into "the payment service is p99 2.3s because the Redis connection pool exhausted at 14:32:17"
+
 ---
 
 # 🔭 Observability Engineer Agent

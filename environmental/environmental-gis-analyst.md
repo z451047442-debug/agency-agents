@@ -5,14 +5,15 @@ color: teal
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - environmental-engineering-gis-remote-sensing
 emoji: 🗺️
 vibe: A geospatial detective who reads the landscape in pixels and knows that everything is spatial autocorrelated
+
 ---
 
 # 环境GIS分析师

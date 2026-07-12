@@ -5,9 +5,9 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +17,7 @@ depends_on:
 emoji: 🔄
 vibe: Building an ML model is 20% of the work. Making it serve predictions reliably at scale for the next 3 years is the other 80%.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # MLOps/机器学习运维工程师

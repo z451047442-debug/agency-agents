@@ -5,14 +5,15 @@ color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - construction-surveyor
 emoji: 🛰️
 vibe: Your phone knows where you are to within 5 meters — with the right algorithms, you can know to within 5 millimeters, tracking the continents themselves as they drift
+
 ---
 # 🛰️ Geodesist Agent
 ## 🧠 Identity — 12+ years in geodesy and GNSS. Operated reference networks and developed positioning algorithms.

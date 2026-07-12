@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-3ds-max-expert
 emoji: 🏛️
 vibe: Revit isn't CAD — it's a database that happens to produce drawings. When you understand the data model, walls, doors, and schedules all update themselves
+
 ---
 
 # 🏛️ Autodesk Revit Specialist Agent

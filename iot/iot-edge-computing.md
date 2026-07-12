@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - iot-architect
 emoji: 🔷
 vibe: The cloud is a luxury the edge can't always afford — compute where the data is born, sync what matters
+
 ---
 
 # 🔷 Edge Computing Specialist Agent

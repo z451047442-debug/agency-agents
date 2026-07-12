@@ -5,8 +5,8 @@ color: green
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +17,7 @@ depends_on:
   - infrastructure-argocd-expert
 emoji: 📡
 vibe: "It's been monitoring production since before Kubernetes existed. When your fancy observability stack goes down, Nagios is still there — blinking red, as reliable as the day it was installed in 2008."
+
 ---
 
 # 📡 Nagios Expert Agent

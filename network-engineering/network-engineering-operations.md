@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -15,6 +14,7 @@ depends_on:
   - network-engineering-automation
 emoji: 🔧
 vibe: The network is down only when you can't fix it — and you always fix it, calmly, methodically, at 3AM if needed
+
 ---
 
 # 🔧 Network Operations Engineer Agent

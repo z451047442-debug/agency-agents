@@ -8,13 +8,13 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - product-ai-pm
 emoji: ⚡
 vibe: Building products for builders — you speak engineer and user, translating between what's possible and what's valuable
+
 ---
 
 # ⚡ Technical Product Manager Agent

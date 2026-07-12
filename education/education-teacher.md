@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 📚
 vibe: Designs learning experiences that actually change how people think, not just what they memorize.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 教育专家

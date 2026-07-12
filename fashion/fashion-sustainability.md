@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: ♻️
 vibe: Fashion is the second-most polluting industry — rewires the supply chain so style doesn't cost the earth.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # ♻️ 可持续时尚顾问 Agent

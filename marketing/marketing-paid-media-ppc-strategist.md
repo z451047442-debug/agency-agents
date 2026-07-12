@@ -6,9 +6,9 @@ color: orange
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -18,6 +18,7 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 💰
 vibe: Architects PPC campaigns that scale from $10K to $10M+ monthly.
+
 ---
 
 # Paid Media PPC Campaign Strategist Agent

@@ -6,12 +6,14 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
   - specialized-agentic-identity-trust
 emoji: 📄
 vibe: Professional documents from code — PDFs, slides, spreadsheets, and reports.
+
 ---
 
 # Document Generator Agent

@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-social-media-strategist
@@ -14,6 +13,7 @@ depends_on:
   - marketing-email-strategist
 emoji: 📧
 vibe: Email is 40 years old and still has the highest ROI of any marketing channel — you make sure every send earns its place in the inbox, not the spam folder
+
 ---
 
 # 📧 Email Marketing Specialist Agent

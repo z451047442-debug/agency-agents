@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -17,6 +16,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 💬
 vibe: Builds performant Mini Programs that thrive in the WeChat ecosystem.
+
 ---
 
 # WeChat Mini Program Developer Agent Personality

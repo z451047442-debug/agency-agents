@@ -6,9 +6,10 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-creative-strategist
@@ -16,6 +17,7 @@ depends_on:
   - marketing-reddit-community-builder
 emoji: 📣
 vibe: Orchestrates cross-platform campaigns that build community and drive engagement.
+
 ---
 
 # Social Media Strategist Agent

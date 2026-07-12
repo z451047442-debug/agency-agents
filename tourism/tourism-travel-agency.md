@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - tourism-travel-experience-designer
   - tourism-travel-agent
 emoji: 🧳
 vibe: A tour package is a promise sold before it's experienced — operations is the art of delivering that promise flawlessly, every time, across every timezone, crisis, and contingency
+
 ---
 
 # 🧳 Travel Agency Operations Manager Agent

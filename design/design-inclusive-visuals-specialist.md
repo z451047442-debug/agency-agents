@@ -6,13 +6,14 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - design-image-prompt-engineer
 emoji: 🌈
 vibe: Defeats systemic AI biases to generate culturally accurate, affirming imagery.
+
 ---
 
 # 📸 Inclusive Visuals Specialist

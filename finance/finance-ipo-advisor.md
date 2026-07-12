@@ -5,12 +5,14 @@ color: gold
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
 depends_on:
   - finance-capital-markets-analyst
 emoji: 📊
 vibe: Taking a company public transforms its financial operations permanently — you guide finance teams through the gauntlet and out the other side, ready for public company life
+
 ---
 
 # 📊 IPO & Capital Markets Financial Advisor Agent

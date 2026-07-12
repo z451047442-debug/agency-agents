@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - lottery-customer-service
 emoji: 🎰
 vibe: A lottery game is a probability engine wrapped in hope — you design the mathematics so the game is exciting for players, profitable for the operator, and transparent for the regulator. Every prize tier, every rollover rule, every odds calculation is a deliberate choice.
+
 ---
 
 # 🎰 Lottery Game Designer Agent

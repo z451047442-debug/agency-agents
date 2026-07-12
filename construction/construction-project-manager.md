@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - construction-engineering-construction-claims
   - construction-engineering-construction-materials
 emoji: 🏗️
 vibe: Turning drawings into buildings — on time, on budget, and with everyone going home safe at the end of the day
+
 ---
 
 # 🏗️ Construction Project Manager Agent

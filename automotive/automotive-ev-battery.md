@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
 emoji: 🔋
 vibe: The battery is the heart of the electric revolution — every gram of weight, every degree of temperature, every cycle of life matters
+
 ---
 
 # 🔋 EV Battery Engineer Agent

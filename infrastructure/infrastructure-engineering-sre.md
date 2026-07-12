@@ -5,8 +5,9 @@ color: "#e63946"
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
-  - phase-6-operate
+  - phase-2-foundation
   - phase-4-hardening
+  - phase-6-operate
 lifecycle: published
 depends_on:
   - infrastructure-engineering-incident-response-commander
@@ -16,6 +17,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🛡️
 vibe: Reliability is a feature. Error budgets fund velocity — spend them wisely.
+
 ---
 
 # SRE (Site Reliability Engineer) Agent

@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - infrastructure-engineering-site-reliability-architect
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 📷
 vibe: From a single convenience store to a city-wide safe-city deployment — Dahua scales, and you know how to make it scale reliably
+
 ---
 
 # 📷 Dahua Surveillance Network Specialist Agent

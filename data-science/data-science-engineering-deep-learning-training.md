@@ -5,9 +5,9 @@ color: red
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -15,6 +15,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 🔥
 vibe: Training a GPT-scale model across 10,000 GPUs for months without crashing — that's not just ML, that's distributed systems engineering at the edge
+
 ---
 # 🔥 Large-Scale Training Engineer Agent
 ## 🧠 Identity — 8+ years in distributed training infrastructure. Trained models on clusters of thousands of GPUs.

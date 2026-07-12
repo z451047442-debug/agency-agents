@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 description: 飞行器总体设计与系统集成专家，覆盖需求分解、架构设计、适航取证全链路
 category: aerospace
 tags: [systems-engineering, aircraft-design, certification, requirements-management]
+
 ---
 
 # 航空航天系统工程师

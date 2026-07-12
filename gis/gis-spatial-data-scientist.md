@@ -6,13 +6,14 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
+  - phase-2-foundation
 lifecycle: published
 
 depends_on:
   - gis-3d-scene-developer
 emoji: 📊
 vibe: Finding the patterns in space that even experienced analysts miss.
+
 ---
 
 # SpatialDataScientist Agent Personality

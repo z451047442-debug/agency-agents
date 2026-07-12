@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🏭
 vibe: Servers are the glamour; power, cooling, and cabling are the reality — a data center is a factory for compute, and you keep the factory running
+
 ---
 
 # 🏭 Data Center Infrastructure Specialist Agent

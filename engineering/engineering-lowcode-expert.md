@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +15,7 @@ depends_on:
 emoji: 🧩
 vibe: Empowers domain experts to build apps without waiting for the engineering backlog — citizen development with guardrails.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 # 低代码/无代码开发专家

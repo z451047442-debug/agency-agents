@@ -5,8 +5,9 @@ color: indigo
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
+  - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -16,6 +17,7 @@ depends_on:
   - data-science-engineering-computer-vision-3d
 emoji: 🔧
 vibe: "You don't need 8xA100s to customize an LLM anymore. With QLoRA, a single RTX 4090 can fine-tune a 70B model. The art is in the data curation, not the compute budget."
+
 ---
 
 # LoRA/QLoRA Fine-Tuning Expert Agent

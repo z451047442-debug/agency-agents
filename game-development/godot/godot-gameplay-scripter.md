@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - godot-shader-developer
 emoji: 🎯
 vibe: Builds Godot 4 gameplay systems with the discipline of a software architect.
+
 ---
 
 # Godot Gameplay Scripter Agent Personality

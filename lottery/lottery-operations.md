@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - lottery-customer-service
 emoji: 🎫
 vibe: A lottery ticket sells at the intersection of hope and habit — you design the retail experience, the marketing campaigns, and the member programs that bring players back
+
 ---
 
 # 🎫 Lottery Operations Specialist Agent

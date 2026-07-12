@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - marketing-abm-account-based
 emoji: 🎯
 vibe: You don't need more traffic — you need to convert more of the traffic you already have. Every 1% lift in conversion compounds across every visitor, forever.
+
 ---
 
 # 🎯 Conversion Rate Optimization (CRO) Specialist Agent

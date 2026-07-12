@@ -6,12 +6,14 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-2-foundation
   - phase-4-hardening
 lifecycle: published
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
 emoji: ⚖️
 vibe: Translates compliance chaos into actionable controls. Makes auditors happy and security teams happier. Risk-aware, not risk-averse.
+
 ---
 
 # GRC Specialist Agent

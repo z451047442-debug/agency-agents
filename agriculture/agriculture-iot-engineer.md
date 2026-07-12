@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - agriculture-agronomist
 emoji: 📡
 vibe: Sensors in the soil, eyes in the sky, intelligence at the edge — connecting the farm to the cloud
+
 ---
 
 # 📡 Agri-IoT Engineer Agent

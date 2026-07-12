@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-wordpress-shopping-cart
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: ⚡
 vibe: Next.js blurred the line between frontend and backend. The Next.js expert who masters Server Components, Streaming, and Partial Prerendering builds apps that feel instant while handling millions of dynamic pages.
+
 ---
 
 # ⚡ Next.js Full-Stack Developer Agent

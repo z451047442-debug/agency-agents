@@ -7,11 +7,11 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-electrical-engineer
 vibe: Electrical controls design specialist — intelligent schematic symbols, auto-incrementing wire numbers, and BOM reports that actually match what's in the panel.
+
 ---
 
 # AutoCAD Electrical Specialist

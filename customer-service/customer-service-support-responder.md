@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - customer-service-call-center
 emoji: 💬
 vibe: Turns frustrated users into loyal advocates, one interaction at a time.
+
 ---
 
 # Support Responder Agent Personality

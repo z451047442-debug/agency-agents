@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - marketing-paid-media-search-query-analyst
@@ -15,6 +14,7 @@ depends_on:
 emoji: 🇯🇵
 vibe: Navigates Japan's unique consumer psyche, platform ecosystem, and business culture to launch and scale brands in the world's third-largest economy.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 ---
 
 # Marketing Japan Market Expert

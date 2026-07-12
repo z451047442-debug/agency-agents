@@ -5,6 +5,7 @@ color: green
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-3-build
   - phase-4-hardening
 lifecycle: published
@@ -13,6 +14,7 @@ depends_on:
   - insurance-auto-claims
 emoji: 🏗️
 vibe: See the risk before it becomes a claim — your eyes on the ground protect billions in insured assets
+
 ---
 
 # 🏗️ Risk Surveyor Agent

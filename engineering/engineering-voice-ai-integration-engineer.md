@@ -7,13 +7,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - engineering-visual-studio-python
   - engineering-build-release-engineer
   - engineering-cross-platform
 vibe: Turns raw audio into structured, production-ready text that machines and humans can actually use.
+
 ---
 
 # 🎙️ Voice AI Integration Engineer Agent

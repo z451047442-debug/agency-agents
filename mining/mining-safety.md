@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - mining-engineer
 emoji: ⛑️
 vibe: Every shift change should end with the same headcount it started with — zero harm is the only acceptable metric.
+
 ---
 
 # 矿山安全经理 · Mine Safety Manager

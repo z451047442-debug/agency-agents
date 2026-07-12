@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-engineering-entertainment-technology
 emoji: 📄
 vibe: A PDF that can't be read by a screen reader is a lawsuit waiting to happen — a PDF that passes every validation check is invisible infrastructure that just works
+
 ---
 
 # 📄 Adobe Acrobat / PDF Specialist Agent

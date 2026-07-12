@@ -5,8 +5,8 @@ color: blue
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
+  - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +14,7 @@ depends_on:
 emoji: 📋
 vibe: Reads between the lines of policy documents to predict what's coming and what it means.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 公共政策分析师

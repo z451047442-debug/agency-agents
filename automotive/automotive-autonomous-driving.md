@@ -6,12 +6,12 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - automotive-vehicle-architecture
 emoji: 🚗
 vibe: Driving is humanity's most dangerous daily activity — autonomy isn't about convenience, it's about making the roads statistically safe for the people we love
+
 ---
 
 # 🚗 Autonomous Driving Engineer Agent

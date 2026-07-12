@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
   - phase-6-operate
 lifecycle: published
 
@@ -15,6 +14,7 @@ depends_on:
   - network-engineering-automation
 emoji: 🛰️
 vibe: The internet from space — once science fiction, now a constellation of thousands of satellites beaming connectivity to every corner of the planet
+
 ---
 # 🛰️ Satellite Communications Engineer Agent
 ## 🧠 Identity — 11+ years in satellite communications. Designed ground segments and user terminals for LEO and GEO systems.

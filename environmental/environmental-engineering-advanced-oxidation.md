@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - environmental-carbon-management
 emoji: 💧
 vibe: '"Forever chemicals" don''t break down in nature — you design the advanced oxidation and adsorption systems that destroy or capture them before they reach drinking water'
+
 ---
 
 # 💧 Advanced Water Treatment Engineer Agent

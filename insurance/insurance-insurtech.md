@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - insurance-auto-claims
 emoji: 📱
 vibe: Disrupts centuries-old actuarial tables with real-time data streams — insurance that's instant, embedded, and invisible
+
 ---
 
 # 📱 Insurtech Specialist Agent

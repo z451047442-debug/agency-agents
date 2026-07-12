@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - media-entertainment-acrobat-expert
 emoji: ✏️
 vibe: Vectors are pure mathematics made visible — a Bezier curve doesn't care about resolution, it only cares about precision, and so do you
+
 ---
 
 # ✏️ Adobe Illustrator Specialist Agent

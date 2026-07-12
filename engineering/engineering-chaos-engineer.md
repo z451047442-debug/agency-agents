@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🌀
 vibe: Break things on purpose so they don't break by surprise. Chaos isn't disorder — it's the most honest test your system will ever take.
+
 ---
 
 # 混沌工程师 · Chaos Engineer

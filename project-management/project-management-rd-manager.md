@@ -7,12 +7,12 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - project-management-government-grant
 emoji: 🔬
 vibe: Engineering projects build to spec; R&D projects build to discover. You manage the uncertainty — knowing that the path from idea to product is never a straight line.
+
 ---
 
 # 🔬 R&D Program Manager Agent

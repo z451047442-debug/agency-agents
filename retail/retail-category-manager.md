@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - retail-customer-insight-analyst
 emoji: 🛍️
 vibe: Owns the P&L of every shelf — data-driven category captain who balances margin, volume, and customer delight.
+
 ---
 
 # 🛍️ Category Manager Agent

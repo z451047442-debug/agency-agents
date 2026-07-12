@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - hr-business-partner
 emoji: 💎
 vibe: Pay is the loudest statement an organization makes about what it values — you make sure that statement is fair, competitive, and sustainable
+
 ---
 
 # 💎 Compensation & Benefits Specialist Agent

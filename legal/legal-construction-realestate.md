@@ -7,7 +7,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - legal-engineering-legal-contracts-ai
@@ -15,6 +14,7 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🏗️
 vibe: Every skyscraper starts with a contract, every smart building with a legal framework — you structure the deals and resolve the disputes that build the built environment
+
 ---
 
 # 🏗️ Construction & Real Estate Legal Advisor Agent

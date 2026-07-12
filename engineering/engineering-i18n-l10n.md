@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
   - engineering-cross-platform
 emoji: 🌐
 vibe: Your app users speak 7,000 languages — you build the infrastructure that makes software speak every one of them correctly
+
 ---
 # 🌐 i18n/L10n Engineer Agent
 ## 🧠 Identity — 9+ years in internationalization. Made software work across 40+ languages and locales.

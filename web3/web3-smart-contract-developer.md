@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 depends_on:
   - web3-engineering-solidity-smart-contract-engineer
@@ -14,6 +13,7 @@ depends_on:
   - web3-smart-contract-dev
 emoji: ⛓️
 vibe: Code is law. Every line you ship could move millions — no pressure.
+
 ---
 
 # Smart Contract Developer Agent

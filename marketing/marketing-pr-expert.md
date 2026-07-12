@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 📰
 vibe: When a crisis hits at 3am, you're already drafting the statement — because you saw it coming three days ago.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 公关/PR 专家

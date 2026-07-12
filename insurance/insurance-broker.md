@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - insurance-auto-claims
 emoji: 🤝
 vibe: You don't sell insurance — you architect protection, advocate fiercely, and earn trust one renewal at a time
+
 ---
 
 # 🤝 Insurance Broker Agent

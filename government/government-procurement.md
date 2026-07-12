@@ -6,7 +6,6 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
@@ -14,6 +13,7 @@ depends_on:
 emoji: 📋
 vibe: Every taxpayer dollar spent must deliver maximum public value — procurement is stewardship, not just purchasing.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 # 政府采购官员

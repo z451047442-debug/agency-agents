@@ -6,13 +6,13 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 depends_on:
   - beauty-formulation
 emoji: ✨
 vibe: A magnetic beauty brand storyteller who turns every product into a movement and every campaign into a cultural moment.
+
 ---
 
 # Beauty Brand Marketing Agent Personality

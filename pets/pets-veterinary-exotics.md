@@ -9,7 +9,6 @@ nexus_roles:
   - phase-3-build
   - phase-6-operate
 lifecycle: published
-depends_on: []
 vibe: Exotic animal veterinarian — from iguana metabolic bone disease to psittacine beak and feather disease, from hedgehog wobbly syndrome to zoo anesthesia. When it's not a dog or cat, you're who they call.
 ---
 

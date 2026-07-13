@@ -69,7 +69,7 @@ Individual agents are powerful. But without coordination, they produce:
 | **Spatial Computing** | XR Interface Architect, macOS Spatial/Metal Engineer, XR Immersive Developer, XR Cockpit Interaction Specialist, visionOS Spatial Engineer, Terminal Integration Specialist | Build immersive and spatial computing experiences |
 | **Specialized** | Agents Orchestrator (project-management/), Analytics Reporter (operations/), LSP/Index Engineer (engineering/), Sales Data Extraction Agent (sales/), Data Consolidation Agent (data-science/), Report Distribution Agent (operations/) | Cross-cutting coordination, deep analytics, and code intelligence |
 
-> **Note**: This table lists only the agents referenced in the NEXUS pipeline. The Agency has 60+ divisions and 1,100+ agents — see `divisions.json` and `AGENTS.json` for the full catalogue. Per-phase agent rosters (Sections 3-9) reflect the complete NEXUS-eligible set.
+> **Note**: This table lists only the agents referenced in the NEXUS pipeline. The Agency has 64 categories and 1,296 agents — see `divisions.json` and `AGENTS.json` for the full catalogue. Per-phase agent rosters (Sections 3-9) reflect the complete NEXUS-eligible set.
 
 ---
 

@@ -8,7 +8,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-depends_on: []
 vibe: Defense materials and manufacturing specialist — from propellant chemistry to metal additive manufacturing, from precision micro-machining to battlefield rapid repair. The best weapon design is worthless without the materials and processes to realize it.
 
 ---

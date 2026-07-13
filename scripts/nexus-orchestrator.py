@@ -141,6 +141,7 @@ GATE_QUESTIONS = {
 }
 
 MODE_LIMITS = {"micro": 10, "sprint": 25, "full": 999}
+COMPACT_PER_CAT = 2  # agents shown per category in compact mode (no --verbose)
 
 
 # ---- Data ----
@@ -250,9 +251,8 @@ def show_status(name: str) -> None:
             print(f"  {fl} (P{from_p}) --found issues--> {tl} (P{to_p})")
 
 
-def start_phase(name: str, phase: str) -> None:
+def start_phase(name: str, phase: str, verbose: bool = False) -> None:
     cp = load_checkpoint(name)
-    # Check prerequisite
     prev = str(int(phase) - 1)
     if prev in cp["phases"] and cp["phases"][prev]["status"] != "completed":
         print(f"ERROR: Phase {prev} must be completed first.", file=sys.stderr)
@@ -268,21 +268,37 @@ def start_phase(name: str, phase: str) -> None:
     by_cat: dict[str, list[dict]] = {}
     for a in phase_agents:
         by_cat.setdefault(a["category"], []).append(a)
-    print(f"\nPhase {phase} — {PHASE_LABELS[phase]}  [▶ IN PROGRESS]")
+    phase_label = get_phase_label(cp["scenario"], phase)
+    print(f"\nPhase {phase} — {phase_label}  [▶ IN PROGRESS]")
     print("=" * 55)
-    print(f"\nAgents to activate ({len(phase_agents)} total):\n")
+    playbook_path = f"docs/playbooks/phase-{phase}-{PHASE_LABELS[phase].lower()}.md"
+    print(f"\nPlaybook: {playbook_path}")
+    print(f"Available: {len(phase_agents)} agents across {len(by_cat)} categories")
+
+    limit = COMPACT_PER_CAT if not verbose else 999
+    shown = 0
     for cat in sorted(by_cat):
-        shown = by_cat[cat][:12]
-        print(f"  [{cat}]  ({len(by_cat[cat])} agents)")
-        for a in shown:
+        agents_in_cat = sorted(by_cat[cat], key=lambda a: a["name"])
+        display = agents_in_cat[:limit]
+        remaining = len(agents_in_cat) - len(display)
+        if verbose or len(phase_agents) <= 20 or remaining == 0:
+            print(f"\n  [{cat}]  ({len(agents_in_cat)} agents)")
+        else:
+            print(f"\n  [{cat}]  ({len(agents_in_cat)} agents — showing top {limit})")
+        for a in display:
             print(f"    - {a['name']}  ({a['id']})")
-        if len(by_cat[cat]) > 12:
-            print(f"    ... +{len(by_cat[cat]) - 12} more")
-    print(f"\nQuality Gate ({PHASE_LABELS[phase]}):")
+            shown += 1
+        if remaining > 0:
+            print(f"    ... +{remaining} more")
+    if not verbose and len(phase_agents) > 20:
+        remaining = len(phase_agents) - shown
+        print(f"\n  ({remaining} agents hidden — use --verbose for full listing)")
+
+    print(f"\nQuality Gate ({phase_label}):")
     for q, desc in GATE_QUESTIONS[phase]:
         print(f"  ☐ {q}")
         print(f"    ({desc})")
-    print(f"\nReference: docs/playbooks/phase-{phase}-{PHASE_LABELS[phase].lower()}.md")
+    print(f"\nReference: {playbook_path}")
 
 
 def run_gate(name: str, phase: str) -> None:
@@ -450,7 +466,7 @@ def list_projects() -> None:
 
 # ---- Legacy query mode (backward-compatible) ----
 
-def query_phase(phase: str, mode: str, category: str | None, json_out: bool) -> None:
+def query_phase(phase: str, mode: str, category: str | None, json_out: bool, verbose: bool = False) -> None:
     if not INDEX_PATH.exists():
         print("AGENTS.json not found. Run: python scripts/generate-index.py", file=sys.stderr)
         sys.exit(1)
@@ -468,22 +484,32 @@ def query_phase(phase: str, mode: str, category: str | None, json_out: bool) -> 
             "agents": [{"id": a["id"], "name": a["name"], "category": a["category"]} for a in phase_agents],
         }, ensure_ascii=False, indent=2))
         return
-    limit = MODE_LIMITS[mode]
     by_cat: dict[str, list[dict]] = {}
     for a in phase_agents:
         by_cat.setdefault(a["category"], []).append(a)
     print(f"NEXUS Phase {phase} — {PHASE_LABELS[phase]} ({mode.title()} Mode)")
     print("=" * 55)
+    print(f"Playbook: docs/playbooks/phase-{phase}-{PHASE_LABELS[phase].lower()}.md")
+    print(f"Available: {len(phase_agents)} agents across {len(by_cat)} categories\n")
+
+    limit = MODE_LIMITS[mode]
+    if not verbose and len(phase_agents) > 20:
+        limit = min(limit, COMPACT_PER_CAT * len(by_cat))
     n = 0
     for cat in sorted(by_cat):
-        print(f"\n  [{cat}]  ({len(by_cat[cat])} agents)")
-        for a in by_cat[cat]:
+        agents_in_cat = sorted(by_cat[cat], key=lambda a: a["name"])
+        if verbose or len(phase_agents) <= 20 or (len(agents_in_cat) - COMPACT_PER_CAT <= 0):
+            print(f"  [{cat}]  ({len(agents_in_cat)} agents)")
+        else:
+            print(f"  [{cat}]  ({len(agents_in_cat)} agents — showing top {COMPACT_PER_CAT})")
+        for a in agents_in_cat:
             if n >= limit:
                 break
             print(f"    - {a['name']}")
             n += 1
         if n >= limit:
-            print(f"\n  ... +{len(phase_agents) - n} more (use --mode full)")
+            remaining = len(phase_agents) - n
+            print(f"\n  ... +{remaining} more (use --mode full or --verbose)")
             break
     print(f"\nTotal: {len(phase_agents)} agents for Phase {phase}")
 
@@ -507,6 +533,7 @@ def main() -> None:
     parser.add_argument("--mode", "-m", choices=["micro","sprint","full"], default="full")
     parser.add_argument("--json", action="store_true", help="JSON output")
     parser.add_argument("--category", "-c", help="Filter by category")
+    parser.add_argument("--verbose", "-v", action="store_true", help="Show full agent listing")
     args = parser.parse_args()
 
     if args.list_projects:
@@ -521,7 +548,7 @@ def main() -> None:
         elif args.status:
             show_status(args.project)
         elif args.start:
-            start_phase(args.project, args.start)
+            start_phase(args.project, args.start, verbose=args.verbose)
         elif args.gate:
             run_gate(args.project, args.gate)
         elif args.complete:
@@ -532,7 +559,7 @@ def main() -> None:
             show_status(args.project)
         return
     if args.phase:
-        query_phase(args.phase, args.mode, args.category, args.json)
+        query_phase(args.phase, args.mode, args.category, args.json, verbose=args.verbose)
         return
     parser.print_help()
 

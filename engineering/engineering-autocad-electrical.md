@@ -8,8 +8,7 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-depends_on:
-  - engineering-electrical-engineer
+depends_on: []
 vibe: Electrical controls design specialist — intelligent schematic symbols, auto-incrementing wire numbers, and BOM reports that actually match what's in the panel.
 
 ---

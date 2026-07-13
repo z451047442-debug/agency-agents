@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 depends_on:
   - aerospace-engineering-systems-aerospace
-  - engineering-mechanical-design
 vibe: Naval and underwater weapons specialist — from shipboard combat systems to torpedo guidance, from sonar signal processing to autonomous underwater vehicles. The underwater battlespace is the most unforgiving environment in warfare.
 
 ---

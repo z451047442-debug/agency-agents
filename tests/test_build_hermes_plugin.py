@@ -204,6 +204,26 @@ class TestCollectAgents:
         assert slugs[1] == "design-zeta"
         assert slugs[2] == "engineering-beta"
 
+    def test_duplicate_slugs_raises_system_exit(self, tmp_path):
+        repo = tmp_path / "repo"
+        (repo / "marketing").mkdir(parents=True)
+        (repo / "sales").mkdir(parents=True)
+        agent = (
+            '---\n'
+            'name: "Overlap Agent"\n'
+            'description: "Shared"\n'
+            "emoji: O\n"
+            "color: red\n"
+            "---\n\n## Body\n"
+        )
+        (repo / "marketing" / "overlap-agent.md").write_text(agent, encoding="utf-8")
+        (repo / "sales" / "overlap-agent.md").write_text(agent, encoding="utf-8")
+        with pytest.MonkeyPatch.context() as mp:
+            mp.setattr(mod, "AGENT_DIRS", ["marketing", "sales"])
+            with pytest.raises(SystemExit) as exc:
+                collect_agents(repo)
+            assert "duplicate" in str(exc.value)
+
     def test_accepts_same_name_across_divisions(self, tmp_path):
         repo = tmp_path / "repo"
         (repo / "engineering").mkdir(parents=True)

@@ -8,8 +8,7 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-depends_on:
-  - engineering-process-safety
+depends_on: []
 vibe: CAE and process simulation specialist — CFD turbulence models, Aspen Plus distillation columns, HTRI exchanger rating, and QRA consequence modeling. A simulation is only as good as its boundary conditions and validation data.
 
 ---

@@ -1,4 +1,5 @@
 ---
+
 name: 社会工作与公共服务专家
 description: 社区社会工作、青少年/老年/残疾人服务、危机干预、家庭与儿童福利、个案管理与社区资源协调专家
 emoji: 🤲
@@ -7,9 +8,11 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-0-discovery
+  - phase-2-foundation
   - phase-6-operate
 lifecycle: published
 vibe: Social work specialist — from child protection to elder care, from crisis intervention to community organizing. Social workers meet people at their most vulnerable and help them find a path forward.
+
 ---
 
 # Social Work & Public Service Specialist

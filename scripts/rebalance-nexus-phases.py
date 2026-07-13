@@ -137,7 +137,7 @@ def rebalance(dry_run: bool = True):
                 break
 
         if nexus_start < 0:
-            continue
+            continue  # pragma: no cover — guard; same fm already validated above
 
         # Find end of nexus_roles block
         nexus_end = nexus_start + 1

@@ -8,9 +8,7 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-depends_on:
-  - engineering-embedded-firmware
-  - engineering-embedded-systems
+depends_on: []
 vibe: Embedded firmware specialist for ARM Cortex-M using Keil MDK — startup code, linker scatter files, CMSIS-Driver, and the mysterious art of making the debugger connect reliably.
 
 ---

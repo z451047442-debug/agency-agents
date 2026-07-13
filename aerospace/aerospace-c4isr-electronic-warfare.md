@@ -9,8 +9,7 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 depends_on:
-  - telecom-radar-systems
-  - engineering-electrical-engineer
+  - telecom-engineering-radar-systems
 vibe: C4ISR and electronic warfare specialist — from phased-array radars to distributed kill chains, from SIGINT collection to electromagnetic spectrum dominance. The side that owns the spectrum owns the battlefield.
 
 ---

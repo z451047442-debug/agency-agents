@@ -9,7 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 depends_on:
-  - engineering-material-science
   - aerospace-weapon-systems-engineering
 vibe: Damage and protection specialist — from shaped charge jet penetration to reactive armor, from blast wave propagation to active protection system intercept geometry. The duel between weapon and armor is an arms race that never ends.
 

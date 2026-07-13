@@ -8,8 +8,7 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-depends_on:
-  - design-graphic-designer
+depends_on: []
 vibe: Creative tools specialist — vector illustration in CorelDRAW, photo manipulation in GIMP, and UI/UX prototyping in Sketch. The right tool for the right creative task, and the skill to switch between them.
 ---
 

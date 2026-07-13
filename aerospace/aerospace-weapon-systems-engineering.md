@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 depends_on:
   - aerospace-engineering-systems-aerospace
-  - engineering-mechanical-design
 vibe: Weapons systems engineer — from interior ballistics to terminal effects, from fuze MEMS to system reliability. Every weapon is a system of systems, and every system has failure modes you must anticipate before the first test firing.
 
 ---

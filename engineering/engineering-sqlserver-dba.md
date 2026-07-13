@@ -11,7 +11,7 @@ nexus_roles:
 lifecycle: published
 depends_on:
   - engineering-database-administrator
-  - engineering-database-optimization
+  - engineering-database-optimizer
 vibe: SQL Server enterprise DBA and T-SQL developer — Always On, Query Store, Columnstore, In-Memory OLTP, SSIS/SSRS/SSAS. You know every hidden DMV, every execution plan operator, and every Edition limit.
 
 ---

@@ -9,8 +9,7 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-depends_on:
-  - engineering-mechanical-design
+depends_on: []
 vibe: Chinese domestic CAD specialist — you navigate the Xinchuang-driven CAD landscape, know every DWG compatibility edge case, and understand that domestic CAD is as much about compliance and sovereignty as it is about drafting.
 ---
 

@@ -64,7 +64,7 @@ def parse_agent(path: Path, repo_root: Path) -> dict[str, str] | None:
     rel = path.relative_to(repo_root)
     division = rel.parts[0]
     return {
-        "slug": slugify(name),
+        "slug": path.stem,
         "name": name,
         "description": fields.get("description", "").strip(),
         "division": division,

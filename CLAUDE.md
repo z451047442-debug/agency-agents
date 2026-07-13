@@ -54,6 +54,7 @@ python scripts/convert.py --parallel --jobs 4   # parallel mode for speed
 ./scripts/score-agents.sh --category infrastructure
 ./scripts/check-deps.sh              # validate depends_on references
 ./scripts/check-deps.sh --manifest   # output depends_on.json
+python scripts/check-deps.py         # cross-platform Python version
 ./scripts/check-dupes.sh             # detect near-duplicate agents
 ./scripts/check-dupes.sh --threshold 0.85 --category engineering
 ./scripts/batch-version.sh --dry-run # preview version field additions
@@ -83,6 +84,7 @@ python -m mypy scripts/              # static type checking (optional)
 # Run full quality pipeline (lint + deps + score + tests)
 ./scripts/quality.sh          # full
 ./scripts/quality.sh --quick  # skip slow checks
+python scripts/quality.py     # cross-platform Python version
 ```
 
 ## Agent file anatomy

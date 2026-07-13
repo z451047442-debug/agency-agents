@@ -30,6 +30,10 @@ from _shared import (
 )
 
 REQUIRED_FIELDS = ("name", "description", "emoji", "color")
+
+# Categories where section checks are intentionally skipped
+# (e.g., thinking-models agents use a different format — frameworks, not practical agents)
+SKIP_SECTION_CHECK: frozenset[str] = frozenset({"thinking-models"})
 SECTION_PATTERNS = {
     "Identity": r"identity",
     "Core Mission": r"core\s*mission|mission\s*[—\-]{1,2}",
@@ -268,7 +272,10 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
     body = get_body(content)
 
     # 3. Recommended sections
+    category = rel.split("/")[0]
     for section, pattern in SECTION_PATTERNS.items():
+        if category in SKIP_SECTION_CHECK:
+            continue
         if not re.search(pattern, body, re.IGNORECASE):
             warnings.append(f"WARN  {rel}: missing section '{section}'")
 

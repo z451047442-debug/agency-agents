@@ -87,7 +87,7 @@ class TestParseAgent:
         result = parse_agent(agent_path, repo)
         assert result is not None
         assert result["name"] == "Graphic Designer"
-        assert result["slug"] == "graphic-designer"
+        assert result["slug"] == "design-graphic-designer"
         assert result["division"] == "design"
         assert result["color"] == "purple"
         assert result["emoji"] == "🎨"
@@ -200,23 +200,25 @@ class TestCollectAgents:
 
         slugs = [a["slug"] for a in agents]
         # design comes before engineering, alpha before zeta within design
-        assert slugs[0] == "alpha"
-        assert slugs[1] == "zeta"
-        assert slugs[2] == "beta"
+        assert slugs[0] == "design-alpha"
+        assert slugs[1] == "design-zeta"
+        assert slugs[2] == "engineering-beta"
 
-    def test_detects_duplicate_slugs(self, tmp_path):
+    def test_accepts_same_name_across_divisions(self, tmp_path):
         repo = tmp_path / "repo"
         (repo / "engineering").mkdir(parents=True)
         (repo / "design").mkdir(parents=True)
         content = '---\nname: "Same Name"\ndescription: "desc"\nemoji: X\ncolor: blue\n---\n\nbody'
-        (repo / "engineering" / "eng-agent.md").write_text(content, encoding="utf-8")
+        (repo / "engineering" / "engineering-agent.md").write_text(content, encoding="utf-8")
         (repo / "design" / "design-agent.md").write_text(content, encoding="utf-8")
 
         with pytest.MonkeyPatch.context() as mp:
             mp.setattr(mod, "AGENT_DIRS", ["engineering", "design"])
-            with pytest.raises(SystemExit) as exc:
-                collect_agents(repo)
-            assert "duplicate Hermes agent slugs" in str(exc.value)
+            agents = collect_agents(repo)
+        # Slugs are derived from unique file stems, so no duplicate error
+        assert len(agents) == 2
+        assert agents[0]["slug"] == "design-agent"
+        assert agents[1]["slug"] == "engineering-agent"
 
     def test_empty_dirs_returns_empty_list(self, tmp_path):
         repo = tmp_path / "repo"
@@ -237,7 +239,7 @@ class TestCollectAgents:
             agents = collect_agents(repo)
 
         assert len(agents) == 1
-        assert agents[0]["slug"] == "blender-artist"
+        assert agents[0]["slug"] == "game-dev-blender-artist"
 
 
 # ── plugin_yaml ──────────────────────────────────────────────────────────────

@@ -473,3 +473,85 @@ class TestMain:
         with patch.object(sys, "argv", ["nexus-orchestrator.py", "--project", "p-rb2", "--rollback", "4"]):
             mod.main()
         assert "Rolled back" in capsys.readouterr().out
+
+
+class TestNewScenarios:
+    def test_enterprise_feature_init(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        mod.init_project("ent-feat", "enterprise-feature")
+        cp = mod.load_checkpoint("ent-feat")
+        assert cp["scenario"] == "enterprise-feature"
+        assert len(cp["phases"]) == 5
+
+    def test_incident_response_init(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        mod.init_project("inc-resp", "incident-response")
+        cp = mod.load_checkpoint("inc-resp")
+        assert cp["scenario"] == "incident-response"
+        assert len(cp["phases"]) == 4
+
+    def test_marketing_campaign_feedback(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        mod.init_project("mkt-camp", "marketing-campaign")
+        fb = mod.get_feedback_loops("marketing-campaign")
+        assert fb == {"2": "0"}
+
+
+class TestGetGateQuestions:
+    def test_default_questions(self):
+        qs = mod.get_gate_questions("software", "0")
+        assert len(qs) == 5
+
+    def test_incident_custom_questions(self):
+        qs = mod.get_gate_questions("incident-response", "0")
+        assert any("Severity" in q[0] for q in qs)
+
+    def test_marketing_custom_questions(self):
+        qs = mod.get_gate_questions("marketing-campaign", "0")
+        assert any("Campaign" in q[0] for q in qs)
+
+    def test_unknown_scenario_fallback(self):
+        qs = mod.get_gate_questions("nonexistent", "3")
+        assert len(qs) == 6  # Phase 3 has 6 default questions
+
+    def test_unknown_phase_empty(self):
+        qs = mod.get_gate_questions("software", "99")
+        assert qs == []
+
+
+class TestDiscoverScenario:
+    def test_software_discovery(self, capsys):
+        mod.discover_scenario("build a mobile app")
+        assert "software" in capsys.readouterr().out
+
+    def test_incident_discovery(self, capsys):
+        mod.discover_scenario("production outage emergency alert")
+        assert "incident-response" in capsys.readouterr().out
+
+    def test_marketing_discovery(self, capsys):
+        mod.discover_scenario("social media brand campaign launch")
+        assert "marketing-campaign" in capsys.readouterr().out
+
+    def test_no_match_shows_all(self, capsys):
+        mod.discover_scenario("xyzzy12345")
+        assert "No direct matches" in capsys.readouterr().out
+
+    def test_discover_via_main(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        with patch.object(sys, "argv", ["nexus-orchestrator.py", "--discover", "launch mvp"]):
+            mod.main()
+        assert "software" in capsys.readouterr().out
+
+
+class TestNewPhaseLabels:
+    def test_enterprise_labels(self):
+        assert mod.get_phase_label("enterprise-feature", "0") == "Requirements & Architecture"
+        assert mod.get_phase_label("enterprise-feature", "4") == "Rollout"
+
+    def test_incident_labels(self):
+        assert mod.get_phase_label("incident-response", "0") == "Detection & Triage"
+        assert mod.get_phase_label("incident-response", "3") == "Post-Mortem"
+
+    def test_marketing_labels(self):
+        assert mod.get_phase_label("marketing-campaign", "0") == "Strategy & Content"
+        assert mod.get_phase_label("marketing-campaign", "2") == "Optimize & Sustain"

@@ -8,7 +8,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)
 [![Nightly Audit](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml)
-[![Agents](https://img.shields.io/badge/agents-1,183-blue)](https://github.com/z451047442-debug/agency-agents)
+[![Agents](https://img.shields.io/badge/agents-1,292-blue)](https://github.com/z451047442-debug/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/z451047442-debug)
@@ -309,7 +309,7 @@ ls ~/.claude/agents/
 
 ## 🎨 Agent 名册
 
-> **60 个分类 · 1183 个 Agent**
+> **65 个分类 · 1292 个 Agent**
 
 ### 💻 IT 技术（350+ 个 Agent）
 
@@ -414,7 +414,7 @@ ls ~/.claude/agents/
 
 ## 🎭 完整 Agent 名册
 
-浏览全部 1183 个 Agent 详见各分类目录（60 个领域）：
+浏览全部 1292 个 Agent 详见各分类目录（65 个领域）：
 
 **IT 技术**: [engineering](engineering/)(75) · [infrastructure](infrastructure/)(78) · [data-science](data-science/)(43) · [cybersecurity](cybersecurity/)(33) · [game-development](game-development/)(24) · [testing](testing/)(19) · [iot](iot/)(19) · [spatial-computing](spatial-computing/)(15) · [robotics](robotics/)(15) · [web3](web3/)(13) · [network-engineering](network-engineering/)(12) · [telecom](telecom/)(12)
 

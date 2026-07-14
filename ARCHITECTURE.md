@@ -1,6 +1,6 @@
 # The Agency — System Architecture v1.0.0
 
-**1222 AI Agent Personality Definitions · 65 Categories · 26 Tooling Scripts · 912 Tests**
+**1,292 AI Agent Personality Definitions · 65 Categories · 26 Tooling Scripts · 1,013 Tests**
 
 ---
 
@@ -280,7 +280,7 @@ quality-report.py  analyze-deps.py  agent-lifecycle.py
 - [x] Web-based agent browser/search UI (agent-browser.html)
 - [ ] Automated agent generation from templates
 - [ ] Cross-tool agent sync verification
-- [x] NEXUS role rebalancing — Phase 4 Hardening 49→1,112 agents
+- [x] NEXUS role assignment — 1292/1292 agents with nexus_roles (0 orphans)
 - [x] Cross-platform CI matrix (Windows + Ubuntu, Python 3.10-3.12)
 - [x] Shell→Python migration complete — all scripts have standalone .py files (including generate-index.py)
 - [x] NEXUS orchestrator script (scripts/nexus-orchestrator.py)

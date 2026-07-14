@@ -4,6 +4,21 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Resolve Python 3 interpreter (python3 on Linux/macOS, python on Windows).
+PYTHON=""
+for candidate in python3 python; do
+  if command -v "$candidate" >/dev/null 2>&1; then
+    if "$candidate" -c "import sys; sys.exit(0 if sys.version_info >= (3,9) else 1)" 2>/dev/null; then
+      PYTHON="$candidate"
+      break
+    fi
+  fi
+done
+if [ -z "$PYTHON" ]; then
+  echo "ERROR: Python 3.9+ required. Install from https://python.org." >&2
+  exit 1
+fi
 INDEX="$SCRIPT_DIR/../AGENTS.json"
 # Normalize to absolute path and convert to Windows-native path if needed (for Python)
 INDEX="$(cd "$(dirname "$INDEX")" 2>/dev/null && pwd)/$(basename "$INDEX")"
@@ -27,7 +42,7 @@ done
 
 # Stats mode
 if $STATS; then
-  python3 -c "
+  $PYTHON -c "
 import json; d=json.load(open('$INDEX',encoding='utf-8'))
 from collections import Counter
 cats=Counter(a['category'] for a in d['agents'])
@@ -39,7 +54,7 @@ fi
 
 # List categories mode
 if $LIST_CATS; then
-  python3 -c "
+  $PYTHON -c "
 import json; d=json.load(open('$INDEX',encoding='utf-8'))
 from collections import Counter
 cats=Counter(a['category'] for a in d['agents'])
@@ -52,7 +67,7 @@ print()
 fi
 
 # Search mode
-python3 -c "
+$PYTHON -c "
 import json, sys, re
 d=json.load(open('$INDEX',encoding='utf-8'))
 results=[]

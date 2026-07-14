@@ -554,13 +554,13 @@ def rollback_phase(name: str, phase: str) -> None:
 
 
 SCENARIO_KEYWORDS = {
-    "software": ["software", "product", "app", "mvp", "web", "api", "saas", "feature", "build", "develop", "startup", "platform", "mobile", "fullstack", "deploy"],
-    "enterprise-feature": ["enterprise", "compliance", "security", "stakeholder", "existing", "integration", "governance", "regulatory", "audit", "corporate", "legacy", "migration"],
-    "research": ["research", "report", "paper", "white paper", "analysis", "study", "market", "data", "investigation", "survey", "findings", "literature"],
-    "consulting": ["consulting", "strategy", "engagement", "client", "advisory", "framework", "recommendation", "assessment", "diagnostic", "roadmap", "maturity"],
-    "education": ["course", "curriculum", "education", "training", "learning", "teach", "lesson", "module", "cohort", "syllabus", "pedagogy", "assessment"],
-    "marketing-campaign": ["marketing", "campaign", "content", "social media", "launch", "brand", "ads", "promotion", "seo", "email", "growth", "acquisition", "engagement", "funnel"],
-    "incident-response": ["incident", "outage", "bug", "broken", "emergency", "p0", "alert", "downtime", "incident response", "outage", "breach", "attack", "fire", "triage", "resolution", "postmortem", "post-mortem", "root cause"],
+    "software": ["software", "product", "app", "mvp", "web", "api", "saas", "feature", "build", "develop", "startup", "platform", "mobile", "fullstack", "deploy", "软件", "产品", "开发", "应用", "平台", "构建", "部署"],
+    "enterprise-feature": ["enterprise", "compliance", "security", "stakeholder", "existing", "integration", "governance", "regulatory", "audit", "corporate", "legacy", "migration", "企业", "合规", "安全", "审计", "监管", "迁移", "集成"],
+    "research": ["research", "report", "paper", "white paper", "analysis", "study", "market", "data", "investigation", "survey", "findings", "literature", "研究", "报告", "分析", "调研", "论文", "白皮书", "调查", "数据"],
+    "consulting": ["consulting", "strategy", "engagement", "client", "advisory", "framework", "recommendation", "assessment", "diagnostic", "roadmap", "maturity", "咨询", "战略", "建议", "评估", "框架", "路线图", "客户"],
+    "education": ["course", "curriculum", "education", "training", "learning", "teach", "lesson", "module", "cohort", "syllabus", "pedagogy", "assessment", "课程", "教育", "培训", "教学", "学习", "课件"],
+    "marketing-campaign": ["marketing", "campaign", "content", "social media", "launch", "brand", "ads", "promotion", "seo", "email", "growth", "acquisition", "engagement", "funnel", "营销", "推广", "品牌", "广告", "活动", "增长", "内容"],
+    "incident-response": ["incident", "outage", "bug", "broken", "emergency", "p0", "alert", "downtime", "breach", "attack", "fire", "triage", "resolution", "postmortem", "post-mortem", "root cause", "故障", "事故", "宕机", "紧急", "报警", "恢复", "复盘"],
 }
 
 

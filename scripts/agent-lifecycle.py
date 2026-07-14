@@ -50,7 +50,7 @@ _score_agents = load_module("score_agents", _SCRIPTS / "score-agents.py")
 git_last_modified = _score_agents.git_last_modified
 
 if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
 LIFECYCLE_STATES = ("draft", "review", "published", "deprecated")
 VALID_TRANSITIONS = {

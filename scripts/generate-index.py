@@ -18,7 +18,7 @@ from _shared import REPO, discover_agents, get_field, get_list_field
 DEFAULT_OUT = REPO / "AGENTS.json"
 
 
-def build_index():
+def build_index() -> dict:
     """Scan all agent .md files and return the index dict."""
     agents = []
     categories: set[str] = set()

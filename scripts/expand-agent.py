@@ -25,9 +25,9 @@ CORE_SECTIONS = _score_agents.CORE_SECTIONS
 score_agent = _score_agents.score_agent
 
 if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 if sys.stderr.encoding != "utf-8":
-    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
 # Sections that add substance to an agent (beyond the generic scaffold)
 EXPANSION_SECTIONS = {

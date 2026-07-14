@@ -27,9 +27,9 @@ score_agent = load_module("score_agents", _SCRIPTS / "score-agents.py").score_ag
 
 # Ensure UTF-8 output on Windows
 if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 if sys.stderr.encoding != "utf-8":
-    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
 
 def _estimate_fix_effort(agent_report):

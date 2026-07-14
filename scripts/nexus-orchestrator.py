@@ -24,6 +24,7 @@ import json
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any, cast
 
 REPO = Path(__file__).resolve().parent.parent
 INDEX_PATH = REPO / "AGENTS.json"
@@ -258,7 +259,7 @@ COMPACT_PER_CAT = 2  # agents shown per category in compact mode (no --verbose)
 
 def load_agents() -> list[dict]:
     with open(INDEX_PATH, encoding="utf-8") as f:
-        return json.load(f)["agents"]
+        return cast(list[dict], json.load(f)["agents"])
 
 
 def filter_by_phase(agents: list[dict], phase: str) -> list[dict]:
@@ -268,14 +269,15 @@ def filter_by_phase(agents: list[dict], phase: str) -> list[dict]:
 
 def get_phase_label(scenario: str, phase: str) -> str:
     """Get scenario-specific phase label, falling back to default."""
-    sc = SCENARIOS.get(scenario, {})
-    labels = sc.get("phase_labels", PHASE_LABELS)
-    return labels.get(phase, PHASE_LABELS.get(phase, f"Phase {phase}"))
+    sc: dict[str, Any] = SCENARIOS.get(scenario, {})
+    labels: dict[str, str] = sc.get("phase_labels", PHASE_LABELS)
+    return cast(str, labels.get(phase, PHASE_LABELS.get(phase, f"Phase {phase}")))
 
 
 def get_feedback_loops(scenario: str) -> dict[str, str]:
     """Return {phase: rollback_target} for scenario feedback loops."""
-    return SCENARIOS.get(scenario, {}).get("feedback", {"4": "3", "6": "0"})
+    sc: dict[str, Any] = SCENARIOS.get(scenario, {})
+    return cast(dict[str, str], sc.get("feedback", {"4": "3", "6": "0"}))
 
 
 # ---- Project management ----
@@ -302,7 +304,7 @@ def load_checkpoint(name: str) -> dict:
     if not path.exists():
         print(f"Project '{name}' not found. Use --init to create it.", file=sys.stderr)
         sys.exit(1)
-    return json.loads(path.read_text(encoding="utf-8"))
+    return cast(dict, json.loads(path.read_text(encoding="utf-8")))
 
 
 def save_checkpoint(name: str, data: dict) -> None:
@@ -593,7 +595,7 @@ def discover_scenario(query: str) -> None:
         phases_str = " → ".join(sc["phases"])
         print(f"  --scenario {scenario:<14} {bar:<8} {phases_str:<8} {sc['duration']:<20}")
 
-    best = max(scores, key=scores.get)
+    best = max(scores, key=lambda k: scores[k])
     sc = SCENARIOS[best]
     print(f"\nTop match: --scenario {best} ({sc['name']})")
     print(f"  Duration: {sc['duration']}  |  Agents: {sc['agents']}")
@@ -658,7 +660,7 @@ def export_project(name: str, output_path: str | None = None) -> None:
 
 def preview_scenario(scenario: str) -> None:
     """Show scenario details without creating a project."""
-    sc = SCENARIOS.get(scenario)
+    sc = cast(dict[str, Any], SCENARIOS.get(scenario))
     if not sc:
         print(f"Unknown scenario: {scenario}", file=sys.stderr)
         print(f"Available: {', '.join(SCENARIOS)}", file=sys.stderr)
@@ -667,7 +669,8 @@ def preview_scenario(scenario: str) -> None:
     agents = load_agents()
     phase_summary = []
     for p in sc["phases"]:
-        label = sc["phase_labels"].get(p, PHASE_LABELS.get(p, f"Phase {p}"))
+        labels: dict[str, str] = sc.get("phase_labels", PHASE_LABELS)
+        label = labels.get(p, PHASE_LABELS.get(p, f"Phase {p}"))
         count = len(filter_by_phase(agents, p))
         phase_summary.append(f"P{p} {label} ({count} agents)")
 
@@ -763,7 +766,8 @@ def query_phase(phase: str, mode: str, category: str | None, json_out: bool, ver
 
 
 def main() -> None:
-    sys.stdout.reconfigure(encoding="utf-8")
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[union-attr]
     parser = argparse.ArgumentParser(description="NEXUS multi-agent project orchestrator")
     # Project commands
     parser.add_argument("--init", help="Create a new NEXUS project")

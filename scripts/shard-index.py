@@ -26,7 +26,7 @@ INDEX_PATH = REPO / "AGENTS.json"
 SHARD_DIR = REPO / "integrations" / "by-category"
 
 if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
 GREEN = "\033[0;32m"
 YELLOW = "\033[1;33m"

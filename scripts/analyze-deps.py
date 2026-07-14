@@ -60,7 +60,7 @@ TERM_MIN_LEN = 4  # minimum length for a term to be considered specific enough
 
 
 if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
 
 def extract_terms(filepath):

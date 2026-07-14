@@ -26,7 +26,7 @@ from _shared import BOLD, CYAN, REPO, RESET
 INDEX_PATH = REPO / "AGENTS.json"
 
 if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
 
 def load_index():

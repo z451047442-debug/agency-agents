@@ -28,7 +28,7 @@ from _shared import (
 )
 
 if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
 # Domain-specific communication trait generators.
 # Each category gets a set of traits tailored to that domain's communication style.

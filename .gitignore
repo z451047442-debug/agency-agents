@@ -89,6 +89,7 @@ integrations/kimi/*
 integrations/codex/agents/*
 integrations/osaurus/agency-*/
 integrations/hermes/agency-agents-router/
+integrations/depends_on.json
 graphify-out/
 
 # VS solution build artifacts

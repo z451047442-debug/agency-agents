@@ -31,7 +31,7 @@ score_agent = _score_agents.score_agent
 lint_file = _lint_agents.lint_file
 
 if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
 SKILL_LEVELS = {
     "beginner": {

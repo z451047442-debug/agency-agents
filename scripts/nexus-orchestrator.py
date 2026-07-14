@@ -600,6 +600,62 @@ def discover_scenario(query: str) -> None:
     print(f"  Runbook: {sc['runbook']}")
     print(f"\nNext: python scripts/nexus-orchestrator.py --init <name> --scenario {best}")
 
+def nexus_stats() -> None:
+    """Show NEXUS-wide statistics."""
+    agents = load_agents()
+    phase_counts: dict[str, int] = {}
+    for a in agents:
+        for r in (a.get("nexus_roles") or []):
+            phase_counts[r] = phase_counts.get(r, 0) + 1
+
+    unique_cats = len({a["category"] for a in agents})
+
+    print("\nNEXUS Statistics")
+    print("=" * 55)
+    print(f"  Agents:       {len(agents)}")
+    print(f"  Categories:   {unique_cats}")
+
+    print("\nPhase Distribution:")
+    for p in sorted(phase_counts.keys()):
+        label = PHASE_LABELS.get(p.split("-")[1], p)
+        bar = "█" * (phase_counts[p] // 20)
+        print(f"  {p} ({label:<12}): {phase_counts[p]:>4} {bar}")
+
+    print("\nProjects:")
+    if not PROJECTS_DIR.exists():
+        print("  No projects directory")
+        return
+    projects = list(PROJECTS_DIR.glob("*/checkpoint.json"))
+    if not projects:
+        print("  No projects yet. Create with --init <name>")
+        return
+    print(f"  Total projects: {len(projects)}")
+    scenarios_used: dict[str, int] = {}
+    for cp_file in projects:
+        cp = json.loads(cp_file.read_text(encoding="utf-8"))
+        sc = cp.get("scenario", "unknown")
+        scenarios_used[sc] = scenarios_used.get(sc, 0) + 1
+        done = sum(1 for p in cp["phases"].values() if p["status"] == "completed")
+        total = len(cp["phases"])
+        print(f"    {cp_file.parent.name:<20} {sc:<25} {done}/{total} complete")
+
+    print("\nScenario Usage:")
+    for sc, count in sorted(scenarios_used.items(), key=lambda x: -x[1]):
+        name = SCENARIOS.get(sc, {}).get("name", sc)
+        print(f"  {sc:<25} {count} project(s) — {name}")
+
+
+def export_project(name: str, output_path: str | None = None) -> None:
+    """Export project checkpoint as JSON."""
+    cp = load_checkpoint(name)
+    if output_path:
+        Path(output_path).write_text(
+            json.dumps(cp, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"Exported {name} to {output_path}")
+    else:
+        print(json.dumps(cp, ensure_ascii=False, indent=2))
+
 
 def list_projects() -> None:
     if not PROJECTS_DIR.exists() or not any(
@@ -624,7 +680,7 @@ def list_projects() -> None:
 
 # ---- Legacy query mode (backward-compatible) ----
 
-def query_phase(phase: str, mode: str, category: str | None, json_out: bool, verbose: bool = False) -> None:
+def query_phase(phase: str, mode: str, category: str | None, json_out: bool, verbose: bool = False, scenario: str = "software") -> None:
     if not INDEX_PATH.exists():
         print("AGENTS.json not found. Run: python scripts/generate-index.py", file=sys.stderr)
         sys.exit(1)
@@ -645,7 +701,8 @@ def query_phase(phase: str, mode: str, category: str | None, json_out: bool, ver
     by_cat: dict[str, list[dict]] = {}
     for a in phase_agents:
         by_cat.setdefault(a["category"], []).append(a)
-    print(f"NEXUS Phase {phase} — {PHASE_LABELS[phase]} ({mode.title()} Mode)")
+    label = get_phase_label(scenario, phase)
+    print(f"NEXUS Phase {phase} — {label} ({mode.title()} Mode)")
     print("=" * 55)
     print(f"Playbook: docs/playbooks/phase-{phase}-{PHASE_LABELS[phase].lower()}.md")
     print(f"Available: {len(phase_agents)} agents across {len(by_cat)} categories\n")
@@ -692,9 +749,15 @@ def main() -> None:
     parser.add_argument("--mode", "-m", choices=["micro","sprint","full"], default="full")
     parser.add_argument("--json", action="store_true", help="JSON output")
     parser.add_argument("--category", "-c", help="Filter by category")
+    parser.add_argument("--export", help="Export project checkpoint as JSON (optional: --out PATH)")
+    parser.add_argument("--out", help="Output path for --export")
+    parser.add_argument("--stats", action="store_true", help="Show NEXUS-wide statistics")
     parser.add_argument("--verbose", "-v", action="store_true", help="Show full agent listing")
     args = parser.parse_args()
 
+    if args.stats:
+        nexus_stats()
+        return
     if args.discover:
         discover_scenario(args.discover)
         return
@@ -703,6 +766,9 @@ def main() -> None:
         return
     if args.init:
         init_project(args.init, args.scenario)
+        return
+    if args.export:
+        export_project(args.export, args.out)
         return
     if args.project:
         if args.report:
@@ -721,7 +787,7 @@ def main() -> None:
             show_status(args.project)
         return
     if args.phase:
-        query_phase(args.phase, args.mode, args.category, args.json, verbose=args.verbose)
+        query_phase(args.phase, args.mode, args.category, args.json, verbose=args.verbose, scenario=args.scenario)
         return
     parser.print_help()
 

@@ -555,3 +555,74 @@ class TestNewPhaseLabels:
     def test_marketing_labels(self):
         assert mod.get_phase_label("marketing-campaign", "0") == "Strategy & Content"
         assert mod.get_phase_label("marketing-campaign", "2") == "Optimize & Sustain"
+
+
+class TestPreviewScenario:
+    def test_valid_scenario(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "INDEX_PATH", tmp_path / "AGENTS.json")
+        (tmp_path / "AGENTS.json").write_text('{"agents":[]}', encoding="utf-8")
+        mod.preview_scenario("incident-response")
+        out = capsys.readouterr().out
+        assert "Incident Response" in out
+        assert "Detection & Triage" in out
+
+    def test_invalid_exits(self, tmp_path, monkeypatch):
+        with pytest.raises(SystemExit):
+            mod.preview_scenario("nonexistent")
+
+    def test_via_main(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        monkeypatch.setattr(mod, "INDEX_PATH", tmp_path / "AGENTS.json")
+        (tmp_path / "AGENTS.json").write_text('{"agents":[]}', encoding="utf-8")
+        with patch.object(sys, "argv", ["nx", "--preview", "software"]):
+            mod.main()
+        assert "Software Product Development" in capsys.readouterr().out
+
+
+class TestNexusStats:
+    def test_shows_stats(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        monkeypatch.setattr(mod, "INDEX_PATH", tmp_path / "AGENTS.json")
+        (tmp_path / "AGENTS.json").write_text('{"agents":[]}', encoding="utf-8")
+        mod.nexus_stats()
+        out = capsys.readouterr().out
+        assert "NEXUS Statistics" in out
+
+    def test_with_projects(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        monkeypatch.setattr(mod, "INDEX_PATH", tmp_path / "AGENTS.json")
+        (tmp_path / "AGENTS.json").write_text('{"agents":[]}', encoding="utf-8")
+        mod.init_project("s1", "software")
+        mod.nexus_stats()
+        assert "s1" in capsys.readouterr().out
+
+    def test_via_main(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        monkeypatch.setattr(mod, "INDEX_PATH", tmp_path / "AGENTS.json")
+        (tmp_path / "AGENTS.json").write_text('{"agents":[]}', encoding="utf-8")
+        with patch.object(sys, "argv", ["nx", "--stats"]):
+            mod.main()
+        assert "NEXUS Statistics" in capsys.readouterr().out
+
+
+class TestExportProject:
+    def test_export_stdout(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        mod.init_project("ep1", "software")
+        mod.export_project("ep1")
+        assert "ep1" in capsys.readouterr().out
+
+    def test_export_file(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        mod.init_project("ep2", "incident-response")
+        out = tmp_path / "out.json"
+        mod.export_project("ep2", str(out))
+        import json
+        assert json.loads(out.read_text())["scenario"] == "incident-response"
+
+    def test_via_main(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+        mod.init_project("ep3", "software")
+        with patch.object(sys, "argv", ["nx", "--export", "ep3"]):
+            mod.main()
+        assert "ep3" in capsys.readouterr().out

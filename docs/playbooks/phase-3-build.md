@@ -295,4 +295,25 @@ WHEN task has dependencies:
 
 ---
 
+## Phase 3 Success Metrics
+
+| Metric | Target | Owner |
+|--------|--------|-------|
+| Task QA pass rate | 100% task completion | Agents Orchestrator |
+| First-pass QA rate | 70%+ | Evidence Collector |
+| Avg retries per task | < 1.5 | Agents Orchestrator |
+| API response time | P95 < 200ms | Performance Benchmarker |
+| Page load time | LCP < 2.5s | Performance Benchmarker |
+| Critical bugs | Zero P0/P1 open | Test Results Analyzer |
+| Code review completion | All PRs reviewed + approved | Code review logs |
+
+## Feedback Loop
+
+- **Phase 3 → Phase 4**: Completed features flow to Hardening for final verification
+- **Phase 4 → Phase 3**: Hardening failures return tasks to Build with specific fix lists
+- **Phase 5 → Phase 3**: Launch issues may require build-level fixes before re-deploy
+- Max 3 retry cycles per task before escalation to Studio Producer
+
+---
+
 *Phase 3 is complete when all sprint tasks pass QA, all API endpoints are validated, performance baselines are met, and no critical bugs remain open.*

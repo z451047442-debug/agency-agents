@@ -184,4 +184,23 @@ Include: Quantified market opportunity, validated user needs, regulatory path, t
 
 ---
 
+## Phase 0 Success Metrics
+
+| Metric | Target | Owner |
+|--------|--------|-------|
+| Validated pain points | >= 3 with sources | Feedback Synthesizer + UX Researcher |
+| Competitive analysis depth | >= 15 verified sources | Trend Researcher |
+| Compliance issues found | 0 blocking, all flagged | Legal Compliance Checker |
+| Data signals identified | >= 5 key metrics | Analytics Reporter |
+| Tech stack viability | All components validated | Tool Evaluator |
+| GO/NO-GO decision | Clear recommendation | Executive Summary Generator |
+
+## Feedback Loop
+
+Phase 0 findings flow into Phase 6 (Operate) and can trigger re-discovery:
+- **Phase 6 → Phase 0**: Market shifts or user feedback from production trigger new discovery cycles
+- Escalated via: Executive Summary Generator → Studio Producer
+
+---
+
 *Phase 0 is complete when the Executive Summary Generator delivers a GO decision with supporting evidence from all six discovery agents.*

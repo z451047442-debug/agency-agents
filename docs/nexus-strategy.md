@@ -956,6 +956,49 @@ Use the NEXUS QA Feedback Loop Protocol format
 
 ---
 
+### 15.5 Orchestrator CLI Quick-Start
+
+The NEXUS orchestrator (`python scripts/nexus-orchestrator.py`) provides a CLI for project lifecycle management:
+
+```bash
+# Step 1: Discover the right scenario
+python scripts/nexus-orchestrator.py --discover "launch a mobile app"
+
+# Step 2: Create a project
+python scripts/nexus-orchestrator.py --init my-project --scenario software
+
+# Step 3: See what's next
+python scripts/nexus-orchestrator.py --project my-project --status
+
+# Step 4: Start each phase, run gate, complete
+python scripts/nexus-orchestrator.py --project my-project --start 0
+python scripts/nexus-orchestrator.py --project my-project --gate 0
+python scripts/nexus-orchestrator.py --project my-project --complete 0
+# Repeat: --start 1 → --gate 1 → --complete 1 ... --start N → --gate N → --complete N
+
+# Step 5: Generate a gate report
+python scripts/nexus-orchestrator.py --project my-project --report
+
+# Step 6: Rollback via feedback loops
+python scripts/nexus-orchestrator.py --project my-project --rollback 4
+```
+
+**Scenario to `--scenario` mapping:**
+
+| If you're building... | `--scenario` | Phases | Duration |
+|-----------------------|-------------|--------|----------|
+| A software product/MVP | `software` | 7 (0-6) | 12-24 weeks |
+| Enterprise feature on existing product | `enterprise-feature` | 5 (0-4) | 6-12 weeks |
+| A research report or white paper | `research` | 7 (0-6) | 2-4 weeks |
+| A strategy consulting engagement | `consulting` | 7 (0-6) | 4-8 weeks |
+| A course or curriculum | `education` | 7 (0-6) | 3-6 weeks |
+| A multi-channel marketing campaign | `marketing-campaign` | 4 (0-3) | 2-4 weeks |
+| Responding to a production incident | `incident-response` | 4 (0-3) | Minutes-Hours |
+
+Phase counts vary by scenario — the orchestrator adapts. Incident Response has 4 phases (Detection → Containment → Resolution → Post-Mortem), while Software has 7 (Discovery → Operate).
+
+---
+
 ## 16. Supporting Documents & Templates
 
 The NEXUS strategy is supported by a suite of coordination documents, playbooks, runbooks, and team templates. See the [Document Index](coordination/document-index.md) for a complete navigational map.

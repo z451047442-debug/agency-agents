@@ -345,4 +345,24 @@ Default: NEEDS WORK unless proven otherwise
 
 ---
 
+## Phase 4 Success Metrics
+
+| Metric | Target | Owner |
+|--------|--------|-------|
+| User journey completeness | All critical paths working | Reality Checker |
+| Cross-device consistency | Desktop + Tablet + Mobile verified | Evidence Collector |
+| Security | Zero critical vulnerabilities | Legal Compliance Checker |
+| Performance | P95 < 200ms, LCP < 2.5s, uptime > 99.9% | Performance Benchmarker |
+| Spec compliance | 100% point-by-point | Reality Checker |
+| Gate pass rate | 80%+ on first attempt | Reality Checker |
+
+## Feedback Loop
+
+- **Expected**: 2-3 revision cycles (B/B+ is normal and healthy on first pass)
+- **Phase 4 → Phase 3**: Specific fix lists returned to Build agents for remediation
+- **Phase 4 → Phase 1/2**: Major architectural issues trigger re-architecture (rare)
+- Verdict: READY / NEEDS WORK (→Phase 3) / NOT READY (→Phase 1/2)
+
+---
+
 *Phase 4 is complete when the Reality Checker issues a READY verdict with overwhelming evidence. NEEDS WORK is the expected first-pass result — it means the system is working but needs polish.*

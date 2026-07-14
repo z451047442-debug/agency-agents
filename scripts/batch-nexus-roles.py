@@ -148,7 +148,7 @@ ROLE_RULES = {
     ],
     "specialized": [
         (r"analyst|research|officer|grant|writer|privacy", ["phase-0-discovery"]),
-        (r"strateg|consultant|coach|mentor|advisor|cfo|chief|director", ["phase-1-strategy"]),
+        (r"strateg|consultant|coach|mentor|advisor|cfo|chief|director|habit|productivity", ["phase-1-strategy"]),
         (r"manager|operations|success|customer-success|integration", ["phase-6-operate"]),
         (None, ["phase-1-strategy"]),
     ],
@@ -199,6 +199,10 @@ DEFAULT_BY_CATEGORY = {
     # Strategy/Discovery domains — add hardening for architectural validation
     "government": ["phase-1-strategy", "phase-4-hardening"],
     "libraries": ["phase-0-discovery", "phase-4-hardening"],
+    # Discovery + Launch domains — research + content creation
+    "home-lifestyle": ["phase-0-discovery", "phase-5-launch"],
+    # Discovery + Operate domains — user research + support operations
+    "parenting-family": ["phase-0-discovery", "phase-6-operate"],
 }
 
 

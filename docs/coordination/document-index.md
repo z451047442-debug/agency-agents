@@ -25,13 +25,16 @@
 
 ## Scenario Runbooks
 
-| Scenario | Document | Mode | Duration |
-|----------|----------|------|----------|
-| Startup MVP | [scenario-startup-mvp.md](../runbooks/scenario-startup-mvp.md) | NEXUS-Sprint | 4-6 weeks |
-| Enterprise Feature | [scenario-enterprise-feature.md](../runbooks/scenario-enterprise-feature.md) | NEXUS-Full | 8-12 weeks |
-| Marketing Campaign | [scenario-marketing-campaign.md](../runbooks/scenario-marketing-campaign.md) | NEXUS-Sprint | 2-4 weeks |
-| Incident Response | [scenario-incident-response.md](../runbooks/scenario-incident-response.md) | NEXUS-Micro | Hours |
-| Rollback & Recovery | [scenario-rollback-recovery.md](../runbooks/scenario-rollback-recovery.md) | NEXUS-Micro | Minutes-Hours |
+| Scenario | Document | Mode | Duration | Orchestrator |
+|----------|----------|------|----------|-------------|
+| Startup MVP | [scenario-startup-mvp.md](../runbooks/scenario-startup-mvp.md) | NEXUS-Sprint | 4-6 weeks | `--scenario software` |
+| Enterprise Feature | [scenario-enterprise-feature.md](../runbooks/scenario-enterprise-feature.md) | NEXUS-Sprint | 6-12 weeks | `--scenario enterprise-feature` |
+| Research Report | [scenario-research-report.md](../runbooks/scenario-research-report.md) | NEXUS-Sprint | 2-4 weeks | `--scenario research` |
+| Strategy Consulting | [scenario-strategy-consulting.md](../runbooks/scenario-strategy-consulting.md) | NEXUS-Sprint | 4-8 weeks | `--scenario consulting` |
+| Course Design | [scenario-course-design.md](../runbooks/scenario-course-design.md) | NEXUS-Sprint | 3-6 weeks | `--scenario education` |
+| Marketing Campaign | [scenario-marketing-campaign.md](../runbooks/scenario-marketing-campaign.md) | NEXUS-Sprint | 2-4 weeks | `--scenario marketing-campaign` |
+| Incident Response | [scenario-incident-response.md](../runbooks/scenario-incident-response.md) | NEXUS-Micro | Minutes-Hours | `--scenario incident-response` |
+| Rollback & Recovery | [scenario-rollback-recovery.md](../runbooks/scenario-rollback-recovery.md) | NEXUS-Micro | Minutes-Hours | — |
 
 ## Team Templates
 

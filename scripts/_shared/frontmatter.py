@@ -19,7 +19,22 @@ def get_field(field: str, fm_text: str) -> str:
 
 
 def get_list_field(field: str, fm_text: str) -> list[str]:
-    """Extract YAML list items under a field (e.g., nexus_roles, depends_on)."""
+    """Extract YAML list items under a field (e.g., nexus_roles, depends_on).
+
+    Supports both block format:
+        nexus_roles:
+          - phase-0-discovery
+          - phase-1-strategy
+
+    and inline format:
+        nexus_roles: [phase-0-discovery, phase-1-strategy]
+    """
+    # Try inline format first: field: [item1, item2]
+    m_inline = re.search(rf"^{re.escape(field)}:\s*\[(.+)\]", fm_text, re.MULTILINE)
+    if m_inline:
+        return [s.strip().strip('"').strip("'") for s in m_inline.group(1).split(",") if s.strip()]
+
+    # Block format
     items: list[str] = []
     in_block = False
     for line in fm_text.split("\n"):

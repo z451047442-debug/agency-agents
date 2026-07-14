@@ -86,59 +86,169 @@ SCENARIOS = {
         "feedback": {"4": "3", "6": "0"},
         "runbook": "docs/runbooks/scenario-course-design.md",
     },
+    "enterprise-feature": {
+        "name": "Enterprise Feature Development",
+        "duration": "6-12 weeks", "agents": "20-30",
+        "phases": ["0", "1", "2", "3", "4"],
+        "phase_labels": {
+            "0": "Requirements & Architecture",
+            "1": "Foundation",
+            "2": "Build",
+            "3": "Hardening",
+            "4": "Rollout",
+        },
+        "feedback": {"3": "2", "4": "2"},
+        "runbook": "docs/runbooks/scenario-enterprise-feature.md",
+    },
+    "incident-response": {
+        "name": "Incident Response",
+        "duration": "Minutes to hours", "agents": "3-8",
+        "phases": ["0", "1", "2", "3"],
+        "phase_labels": {
+            "0": "Detection & Triage",
+            "1": "Containment",
+            "2": "Resolution",
+            "3": "Post-Mortem",
+        },
+        "feedback": {},
+        "runbook": "docs/runbooks/scenario-incident-response.md",
+    },
+    "marketing-campaign": {
+        "name": "Multi-Channel Marketing Campaign",
+        "duration": "2-4 weeks", "agents": "10-15",
+        "phases": ["0", "1", "2", "3"],
+        "phase_labels": {
+            "0": "Strategy & Content",
+            "1": "Launch & Activate",
+            "2": "Optimize & Sustain",
+            "3": "Report & Learn",
+        },
+        "feedback": {"2": "0"},
+        "runbook": "docs/runbooks/scenario-marketing-campaign.md",
+    },
 }
 
 GATE_QUESTIONS = {
-    "0": [
-        ("Market opportunity validated?", "Describe the data or evidence supporting market demand."),
-        ("User pain points identified?", "List at least 3 validated user pain points with sources."),
-        ("Key sources collected?", "Confirm literature, data, or documents gathered for analysis."),
-        ("Compliance/regulatory clear?", "Note any regulatory review completed or not applicable."),
-        ("Problem statement specific?", "State the problem in one sentence — is it answerable and scoped?"),
-    ],
-    "1": [
-        ("Strategy covers all requirements?", "Confirm requirement coverage and note any gaps."),
-        ("Architecture/outline approved?", "Who reviewed and approved the architecture/outline?"),
-        ("Work plan with deadlines?", "Confirm tasks are assigned with estimated completion dates."),
-        ("Quality criteria defined?", "What measurable standards define 'done' for each deliverable?"),
-        ("Stakeholders aligned?", "Confirm all stakeholders have signed off on scope and approach."),
-    ],
-    "2": [
-        ("Infrastructure operational?", "Confirm tools, environments, and platforms are ready."),
-        ("Data/sources catalogued?", "Describe what data/sources are collected and organized."),
-        ("Templates defined?", "What templates or standards have been established?"),
-        ("Ready for build phase?", "Confirm no blocking prerequisites remain."),
-        ("Prerequisites verified?", "List prerequisites and their verification status."),
-    ],
-    "3": [
-        ("All tasks completed?", "Confirm task completion percentage and note outstanding items."),
-        ("Deliverables match specs?", "How was specification compliance verified?"),
-        ("Internal review done?", "Who reviewed the deliverables and what was the outcome?"),
-        ("No critical issues?", "List any outstanding issues and their severity."),
-        ("Artifacts organized?", "Where are build artifacts stored and how are they accessed?"),
-    ],
-    "4": [
-        ("Quality checks passed?", "List quality metrics (test pass rate, coverage %, lint score)."),
-        ("Security/compliance validated?", "Confirm security review, vulnerability scan, or compliance check results."),
-        ("Performance verified?", "Provide key performance metrics (latency, throughput, etc.)."),
-        ("Peer review completed?", "Who reviewed and what changes were made based on feedback?"),
-        ("Documentation complete?", "Confirm documentation is accurate, current, and accessible."),
-    ],
-    "5": [
-        ("Launch successful?", "Describe deployment outcome — downtime, errors, rollback needed?"),
-        ("Stable for 48 hours?", "Confirm system stability metrics for the first 48 hours post-launch."),
-        ("Feedback channels open?", "List active feedback channels and response procedures."),
-        ("Stakeholders notified?", "Who was notified and when?"),
-        ("Monitoring active?", "Confirm dashboards, alerts, and on-call rotation are operational."),
-    ],
-    "6": [
-        ("SLO compliance maintained?", "Provide SLO/SLA compliance data for the review period."),
-        ("Incidents < threshold?", "Count of P0/P1/P2 incidents and trend vs previous period."),
-        ("Periodic review done?", "Confirm review cadence and key findings from last review."),
-        ("Improvement backlog active?", "List top improvement items and their status."),
-        ("Metrics positive?", "Show key metrics trend (↑/↓/→) for the review period."),
-    ],
+    "default": {
+        "0": [
+            ("Market opportunity validated?", "Threshold: TAM > minimum viable | Evidence: Trend Researcher report with sources | Describe data supporting market demand."),
+            ("User need confirmed?", "Threshold: >=3 validated pain points | Evidence: Feedback Synthesizer + UX Researcher data | List pain points with sources."),
+            ("Regulatory path clear?", "Threshold: No blocking compliance issues | Evidence: Legal Compliance Checker matrix | Note any issues or N/A status."),
+            ("Data foundation assessed?", "Threshold: Key metrics identified | Evidence: Analytics Reporter audit | Confirm baseline data available."),
+            ("Tech feasibility confirmed?", "Threshold: Stack validated | Evidence: Tool Evaluator assessment | All components have implementation path?"),
+        ],
+        "1": [
+            ("Strategy covers all requirements?", "Threshold: 100% spec coverage | Evidence: Senior PM task list cross-referenced | No gaps in implementation plan."),
+            ("Architecture approved?", "Threshold: All components have implementation path | Evidence: Backend Architect + UX Architect specs | Who reviewed and approved?"),
+            ("Brand system complete?", "Threshold: Logo, colors, typography, voice defined | Evidence: Brand Guardian deliverable | All brand elements ready?"),
+            ("Budget approved?", "Threshold: Within organizational constraints | Evidence: Finance Tracker plan with ROI projections | Budget greenlit?"),
+            ("Sprint plan realistic?", "Threshold: Velocity-based estimation | Evidence: Sprint Prioritizer backlog with dependency map | Timelines achievable?"),
+            ("Security architecture defined?", "Threshold: Threat model + security controls documented | Evidence: Backend Architect + Security review | Security covered?"),
+        ],
+        "2": [
+            ("CI/CD pipeline operational?", "Threshold: Pipeline running end-to-end | Evidence: Pipeline execution logs | Build + test + deploy verified."),
+            ("Database schema deployed?", "Threshold: All migrations applied | Evidence: Migration success + schema dump | Tables/indexes created?"),
+            ("API scaffold responding?", "Threshold: Health checks live (HTTP 200) | Evidence: curl response screenshots | Endpoints reachable?"),
+            ("Frontend rendering?", "Threshold: App loads without errors | Evidence: Evidence Collector screenshots | Skeleton app functional?"),
+            ("Monitoring active?", "Threshold: Dashboards live | Evidence: Grafana/monitoring screenshots | Real-time metrics visible?"),
+        ],
+        "3": [
+            ("All tasks pass QA?", "Threshold: 100% task completion with PASS | Evidence: Evidence Collector per-task verification | Any outstanding items?"),
+            ("API endpoints validated?", "Threshold: All endpoints tested | Evidence: API Tester report | Full regression passing?"),
+            ("Performance baselines met?", "Threshold: P95 < 200ms, LCP < 2.5s | Evidence: Performance Benchmarker report | Meet or exceed targets?"),
+            ("Brand consistency verified?", "Threshold: 95%+ adherence | Evidence: Brand Guardian audit | Visual consistency across all views?"),
+            ("No critical bugs?", "Threshold: Zero P0/P1 open | Evidence: Test Results Analyzer summary | All known issues addressed?"),
+            ("Code review completed?", "Threshold: All PRs reviewed + approved | Evidence: Code review logs | Merge blockers resolved?"),
+        ],
+        "4": [
+            ("User journeys complete?", "Threshold: All critical paths working | Evidence: End-to-end screenshots | Desktop + Tablet + Mobile verified?"),
+            ("Cross-device consistency?", "Threshold: 3 device sizes verified | Evidence: Responsive screenshots | Layout consistent across breakpoints?"),
+            ("Security validated?", "Threshold: Zero critical vulnerabilities | Evidence: Security scan report | All findings addressed?"),
+            ("Compliance certified?", "Threshold: All regulatory requirements met | Evidence: Legal Compliance Checker report | Any outstanding items?"),
+            ("Infrastructure ready?", "Threshold: Production environment validated | Evidence: Infrastructure Maintainer report | Scaled and stable?"),
+            ("Specification compliance?", "Threshold: 100% spec verified | Evidence: Reality Checker point-by-point verification | Every requirement met?"),
+        ],
+        "5": [
+            ("Deployment successful?", "Threshold: Zero-downtime, all health checks pass | Evidence: DevOps deployment logs | Any rollback or errors?"),
+            ("Systems stable for 48h?", "Threshold: No P0/P1 in first 48 hours | Evidence: Infrastructure monitoring | Error rates normal?"),
+            ("User acquisition active?", "Threshold: Traffic > baseline | Evidence: Analytics Reporter dashboard | Channels driving traffic?"),
+            ("Feedback loop operational?", "Threshold: Feedback channels active | Evidence: Feedback Synthesizer report | User feedback being collected?"),
+            ("Support operational?", "Threshold: Response time < 1h | Evidence: Support dashboard | Customer issues being resolved?"),
+        ],
+        "6": [
+            ("SLO compliance maintained?", "Threshold: SLO targets met | Evidence: SLO/SLA compliance data | Any breaches this period?"),
+            ("Incidents under threshold?", "Threshold: Trend stable or ↓ | Evidence: Incident count + trend report | P0/P1/P2 count vs previous?"),
+            ("Periodic review done?", "Threshold: Review cadence met | Evidence: Review meeting notes | Key findings documented?"),
+            ("Improvement backlog active?", "Threshold: Items tracked with owner | Evidence: Backlog status report | Top items progressing?"),
+            ("Metrics positive?", "Threshold: Metrics trending ↑ | Evidence: KPI dashboard | Key metrics direction for the period?"),
+        ],
+    },
+    "incident-response": {
+        "0": [
+            ("Alert acknowledged immediately?", "Who acknowledged and when (timestamp)?"),
+            ("Scope and impact assessed?", "How many users/systems affected? Estimated blast radius."),
+            ("Severity level classified?", "P0/P1/P2/P3 — based on the incident response runbook."),
+            ("Response team activated?", "Which agents mobilized? IC assigned?"),
+            ("Stakeholder comms initiated?", "Status page updated? Executive notified?"),
+        ],
+        "1": [
+            ("Containment applied?", "Rollback, feature flag off, or traffic drained?"),
+            ("User impact stopped?", "Confirm error rates, latency, and availability back to baseline."),
+            ("Customer comms sent?", "Status page updated with containment ETA?"),
+            ("Incident log started?", "Timeline doc created with key events?"),
+        ],
+        "2": [
+            ("Root cause identified?", "What was the underlying cause (not just the symptom)?"),
+            ("Fix deployed and verified?", "Evidence of fix in production with metrics confirming resolution."),
+            ("No regressions detected?", "Full regression suite passed? Canary metrics clean?"),
+            ("Post-incident status posted?", "Status page shows 'resolved' with summary?"),
+        ],
+        "3": [
+            ("Incident timeline documented?", "Full timeline with timestamps for all key events?"),
+            ("Root cause analysis complete?", "5-Whys or similar? Contributing factors identified?"),
+            ("Action items created and assigned?", "Each with owner and due date?"),
+            ("Post-mortem review scheduled?", "Date set for review with relevant teams?"),
+            ("Prevention plan documented?", "What changes prevent this class of incident?"),
+        ],
+    },
+    "marketing-campaign": {
+        "0": [
+            ("Campaign objectives defined?", "Clear KPIs for reach, engagement, conversion?"),
+            ("Content calendar complete?", "All platforms scheduled with publish dates?"),
+            ("Brand guidelines reviewed?", "Brand Guardian signed off on campaign assets?"),
+            ("Compliance check done?", "Ad disclosures, platform policies verified?"),
+            ("Analytics tracking configured?", "UTM parameters, conversion events set up?"),
+        ],
+        "1": [
+            ("All content published on schedule?", "Any delays or blockers in the launch sequence?"),
+            ("Engagement tracking live?", "Real-time dashboard showing metrics per platform?"),
+            ("A/B tests running?", "Test variants active and collecting data?"),
+            ("Team responding to engagement?", "Comments, replies, DMs handled within SLA?"),
+            ("First 48h snapshot taken?", "Early performance data captured for comparison?"),
+        ],
+        "2": [
+            ("Performance data analyzed?", "Which channels over/under-performing?"),
+            ("Channel optimization applied?", "Budget reallocation based on ROAS data?"),
+            ("New content created from data?", "Response content based on top-performing themes?"),
+            ("Weekly report delivered?", "Campaign status shared with stakeholders?"),
+        ],
+        "3": [
+            ("Comprehensive campaign analysis done?", "Full funnel: reach → engagement → conversion?"),
+            ("ROI calculated?", "Total spend vs. return by channel?"),
+            ("Lessons documented?", "What worked, what didn't, and recommendations?"),
+            ("Executive summary delivered?", "C-suite brief with key takeaways and next steps?"),
+            ("Follow-up campaign plan ready?", "Nurture sequences or next campaign drafted?"),
+        ],
+    },
 }
+
+
+def get_gate_questions(scenario: str, phase: str) -> list[tuple[str, str]]:
+    """Return gate questions for a specific scenario and phase, falling back to default."""
+    questions = GATE_QUESTIONS.get(scenario, {})
+    if phase in questions:
+        return questions[phase]
+    return GATE_QUESTIONS["default"].get(phase, [])
 
 MODE_LIMITS = {"micro": 10, "sprint": 25, "full": 999}
 COMPACT_PER_CAT = 2  # agents shown per category in compact mode (no --verbose)
@@ -295,7 +405,7 @@ def start_phase(name: str, phase: str, verbose: bool = False) -> None:
         print(f"\n  ({remaining} agents hidden — use --verbose for full listing)")
 
     print(f"\nQuality Gate ({phase_label}):")
-    for q, desc in GATE_QUESTIONS[phase]:
+    for q, desc in get_gate_questions(cp["scenario"], phase):
         print(f"  ☐ {q}")
         print(f"    ({desc})")
     print(f"\nReference: {playbook_path}")
@@ -313,7 +423,7 @@ def run_gate(name: str, phase: str) -> None:
     print()
 
     gate = {}
-    for question, desc in GATE_QUESTIONS[phase]:
+    for question, desc in get_gate_questions(cp["scenario"], phase):
         print(f"  [{question}]")
         print(f"  ({desc})")
         ans = input("  > ").strip()
@@ -443,6 +553,54 @@ def rollback_phase(name: str, phase: str) -> None:
     print(f"\nNext: --project {name} --start {target}")
 
 
+SCENARIO_KEYWORDS = {
+    "software": ["software", "product", "app", "mvp", "web", "api", "saas", "feature", "build", "develop", "startup", "platform", "mobile", "fullstack", "deploy"],
+    "enterprise-feature": ["enterprise", "compliance", "security", "stakeholder", "existing", "integration", "governance", "regulatory", "audit", "corporate", "legacy", "migration"],
+    "research": ["research", "report", "paper", "white paper", "analysis", "study", "market", "data", "investigation", "survey", "findings", "literature"],
+    "consulting": ["consulting", "strategy", "engagement", "client", "advisory", "framework", "recommendation", "assessment", "diagnostic", "roadmap", "maturity"],
+    "education": ["course", "curriculum", "education", "training", "learning", "teach", "lesson", "module", "cohort", "syllabus", "pedagogy", "assessment"],
+    "marketing-campaign": ["marketing", "campaign", "content", "social media", "launch", "brand", "ads", "promotion", "seo", "email", "growth", "acquisition", "engagement", "funnel"],
+    "incident-response": ["incident", "outage", "bug", "broken", "emergency", "p0", "alert", "downtime", "incident response", "outage", "breach", "attack", "fire", "triage", "resolution", "postmortem", "post-mortem", "root cause"],
+}
+
+
+def discover_scenario(query: str) -> None:
+    """Help users discover the right NEXUS scenario for their project."""
+    query_lower = query.lower()
+    scores: dict[str, int] = {}
+    for scenario, keywords in SCENARIO_KEYWORDS.items():
+        score = 0
+        for kw in keywords:
+            if kw in query_lower:
+                score += len(kw)  # longer keyword matches count more
+        if score > 0:
+            scores[scenario] = score
+
+    print(f"\nNEXUS Scenario Discovery for: \"{query}\"\n")
+    print(f"{'Scenario':<25} {'Match':<8} {'Phases':<8} {'Duration':<20}")
+    print("-" * 65)
+
+    if not scores:
+        print("  No direct matches. Try different keywords.\n")
+        print("Available scenarios:")
+        for name, sc in SCENARIOS.items():
+            print(f"  --scenario {name:<20} → {sc['name']} ({sc['duration']})")
+        return
+
+    for scenario, score in sorted(scores.items(), key=lambda x: -x[1]):
+        sc = SCENARIOS[scenario]
+        bar = "█" * min(score // 3, 10)
+        phases_str = " → ".join(sc["phases"])
+        print(f"  --scenario {scenario:<14} {bar:<8} {phases_str:<8} {sc['duration']:<20}")
+
+    best = max(scores, key=scores.get)
+    sc = SCENARIOS[best]
+    print(f"\nTop match: --scenario {best} ({sc['name']})")
+    print(f"  Duration: {sc['duration']}  |  Agents: {sc['agents']}")
+    print(f"  Runbook: {sc['runbook']}")
+    print(f"\nNext: python scripts/nexus-orchestrator.py --init <name> --scenario {best}")
+
+
 def list_projects() -> None:
     if not PROJECTS_DIR.exists() or not any(
         d.is_dir() and (d / "checkpoint.json").exists()
@@ -526,6 +684,7 @@ def main() -> None:
     parser.add_argument("--gate", choices=["0","1","2","3","4","5","6"], help="Run gate checklist")
     parser.add_argument("--complete", choices=["0","1","2","3","4","5","6"], help="Complete a phase")
     parser.add_argument("--rollback", choices=["0","1","2","3","4","5","6"], help="Rollback a phase via feedback loop")
+    parser.add_argument("--discover", help="Discover the right scenario for your project (e.g. 'launch a mobile app')")
     parser.add_argument("--list-projects", action="store_true", help="List all projects")
     parser.add_argument("--report", action="store_true", help="Generate gate report for a project")
     # Legacy query mode
@@ -536,6 +695,9 @@ def main() -> None:
     parser.add_argument("--verbose", "-v", action="store_true", help="Show full agent listing")
     args = parser.parse_args()
 
+    if args.discover:
+        discover_scenario(args.discover)
+        return
     if args.list_projects:
         list_projects()
         return

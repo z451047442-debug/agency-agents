@@ -656,6 +656,39 @@ def export_project(name: str, output_path: str | None = None) -> None:
     else:
         print(json.dumps(cp, ensure_ascii=False, indent=2))
 
+def preview_scenario(scenario: str) -> None:
+    """Show scenario details without creating a project."""
+    sc = SCENARIOS.get(scenario)
+    if not sc:
+        print(f"Unknown scenario: {scenario}", file=sys.stderr)
+        print(f"Available: {', '.join(SCENARIOS)}", file=sys.stderr)
+        sys.exit(1)
+
+    agents = load_agents()
+    phase_summary = []
+    for p in sc["phases"]:
+        label = sc["phase_labels"].get(p, PHASE_LABELS.get(p, f"Phase {p}"))
+        count = len(filter_by_phase(agents, p))
+        phase_summary.append(f"P{p} {label} ({count} agents)")
+
+    fb = get_feedback_loops(scenario)
+
+    print(f"\n{sc['name']}")
+    print("=" * 55)
+    print(f"  Duration:    {sc['duration']}")
+    print(f"  Agents:      {sc['agents']}")
+    print(f"  Runbook:     {sc['runbook']}")
+    print(f"\n  Phases ({len(sc['phases'])}):")
+    for ps in phase_summary:
+        print(f"    {ps}")
+    if fb:
+        print("\n  Feedback Loops:")
+        for from_p, to_p in sorted(fb.items()):
+            fl = get_phase_label(scenario, from_p)
+            tl = get_phase_label(scenario, to_p)
+            print(f"    {fl} (P{from_p}) --found issues--> {tl} (P{to_p})")
+    print(f"\n  Create: python scripts/nexus-orchestrator.py --init <name> --scenario {scenario}")
+
 
 def list_projects() -> None:
     if not PROJECTS_DIR.exists() or not any(
@@ -741,6 +774,7 @@ def main() -> None:
     parser.add_argument("--gate", choices=["0","1","2","3","4","5","6"], help="Run gate checklist")
     parser.add_argument("--complete", choices=["0","1","2","3","4","5","6"], help="Complete a phase")
     parser.add_argument("--rollback", choices=["0","1","2","3","4","5","6"], help="Rollback a phase via feedback loop")
+    parser.add_argument("--preview", choices=list(SCENARIOS), help="Preview a scenario without creating a project")
     parser.add_argument("--discover", help="Discover the right scenario for your project (e.g. 'launch a mobile app')")
     parser.add_argument("--list-projects", action="store_true", help="List all projects")
     parser.add_argument("--report", action="store_true", help="Generate gate report for a project")
@@ -755,6 +789,9 @@ def main() -> None:
     parser.add_argument("--verbose", "-v", action="store_true", help="Show full agent listing")
     args = parser.parse_args()
 
+    if args.preview:
+        preview_scenario(args.preview)
+        return
     if args.stats:
         nexus_stats()
         return

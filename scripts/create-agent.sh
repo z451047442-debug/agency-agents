@@ -35,6 +35,7 @@ warn()    { printf "%b"  "${YELLOW}[warn]${RESET}   $*\n"; }
 error()   { printf "%b"  "${RED}[error]${RESET}  $*\n" >&2; }
 
 # Auto-discover agent directories (shared logic — see _discover_dirs.sh)
+REPO_ROOT="$AGENTS_DIR"
 source "$SCRIPT_DIR/_discover_dirs.sh"
 
 # Discover agent category directories (uses shared discover_agent_dirs)

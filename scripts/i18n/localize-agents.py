@@ -98,7 +98,9 @@ def patch_frontmatter(fm_text, mapping_entry):
         m_desc = re.match(r"^description:\s*(.+)$", line)
         if m_name:
             translated = mapping_entry.get("name", "")
-            if translated and m_name.group(1).strip() != translated:
+            raw_val = m_name.group(1).strip()
+            val = raw_val.strip('"').strip("'")
+            if translated and val != translated:
                 new_lines.append(f"name: {translated}")
                 changed = True
             else:
@@ -106,7 +108,9 @@ def patch_frontmatter(fm_text, mapping_entry):
         elif m_desc:
             has_description = True
             translated = mapping_entry.get("description", "")
-            if translated and m_desc.group(1).strip() != translated:
+            raw_val = m_desc.group(1).strip()
+            val = raw_val.strip('"').strip("'")
+            if translated and val != translated:
                 new_lines.append(f"description: {translated}")
                 changed = True
             else:
@@ -145,7 +149,7 @@ def process_file(filepath, mapping, dry_run=False):
     if not name_match:
         return filepath, "no_frontmatter"
 
-    current_name = name_match.group(1).strip()
+    current_name = name_match.group(1).strip().strip('"').strip("'")
     entry = mapping.get(current_name)
     if not entry:
         return filepath, "skipped"

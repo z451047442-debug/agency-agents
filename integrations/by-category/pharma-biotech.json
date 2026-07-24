@@ -1,7 +1,7 @@
 {
   "category": "pharma-biotech",
   "agent_count": 8,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "pharma-biotech-biostatistics",
@@ -11,6 +11,12 @@
       "category": "pharma-biotech",
       "subcategory": "",
       "path": "pharma-biotech/pharma-biotech-biostatistics.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-biostatistics-clinical",
+        "healthcare-engineering-regulatory-science",
+        "pharma-biotech-pharma-clinical-trials"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +29,13 @@
       "category": "pharma-biotech",
       "subcategory": "",
       "path": "pharma-biotech/pharma-biotech-biotech-process-engineer.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "healthcare-engineering-gene-editing-crispr",
+        "healthcare-engineering-gene-therapy",
+        "healthcare-engineering-regulatory-science",
+        "pharma-biotech-biostatistics"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,8 +48,17 @@
       "category": "pharma-biotech",
       "subcategory": "",
       "path": "pharma-biotech/pharma-biotech-director.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-regulatory-science",
+        "pharma-biotech-pharma-clinical-trials",
+        "pharma-biotech-pharma-drug-discovery",
+        "pharma-biotech-pharma-regulatory-affairs",
+        "specialized-productivity-time-management"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -47,6 +69,13 @@
       "category": "pharma-biotech",
       "subcategory": "",
       "path": "pharma-biotech/pharma-biotech-pharma-clinical-trials.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "healthcare-engineering-gene-editing-crispr",
+        "healthcare-engineering-gene-therapy",
+        "healthcare-engineering-regulatory-science",
+        "pharma-biotech-biostatistics"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,7 +88,15 @@
       "category": "pharma-biotech",
       "subcategory": "",
       "path": "pharma-biotech/pharma-biotech-pharma-drug-discovery.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "healthcare-engineering-gene-editing-crispr",
+        "healthcare-engineering-gene-therapy",
+        "healthcare-engineering-regulatory-science",
+        "pharma-biotech-biostatistics"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -71,7 +108,15 @@
       "category": "pharma-biotech",
       "subcategory": "",
       "path": "pharma-biotech/pharma-biotech-pharma-formulation-scientist.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-regulatory-science",
+        "pharma-biotech-pharma-clinical-trials",
+        "pharma-biotech-pharma-drug-discovery"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -83,8 +128,16 @@
       "category": "pharma-biotech",
       "subcategory": "",
       "path": "pharma-biotech/pharma-biotech-pharma-quality-assurance.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "healthcare-engineering-gene-editing-crispr",
+        "healthcare-engineering-gene-therapy",
+        "healthcare-engineering-regulatory-science",
+        "pharma-biotech-biostatistics"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -95,6 +148,14 @@
       "category": "pharma-biotech",
       "subcategory": "",
       "path": "pharma-biotech/pharma-biotech-pharma-regulatory-affairs.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "healthcare-engineering-gene-editing-crispr",
+        "healthcare-engineering-gene-therapy",
+        "healthcare-engineering-regulatory-science",
+        "mining-safety",
+        "pharma-biotech-biostatistics"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

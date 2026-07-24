@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Batch-apply high-confidence depends_on suggestions to agent frontmatter."""
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -11,7 +12,12 @@ GENERIC = {
 
 def find_file(aid):
     for cat_dir in ROOT.iterdir():
-        if not cat_dir.is_dir() or cat_dir.name in ('docs','examples','integrations','schemas','scripts','tests','env','.git','.github','__pycache__','.pytest_cache'):
+        if not cat_dir.is_dir() or cat_dir.name in (
+            'docs', 'examples', 'integrations', 'schemas', 'scripts', 'tests',
+            'env', '.git', '.github', '.vs', '.vscode', '.claude',
+            '__pycache__', '.pytest_cache', '.mypy_cache', '.ruff_cache',
+            'node_modules', 'nexus-demo', 'nexus-projects',
+        ):
             continue
         p = cat_dir / f"{aid}.md"
         if p.exists(): return p
@@ -90,11 +96,12 @@ def main():
         try:
             if add_deps(mdf, dep_ids):
                 applied += 1; total += len(dep_ids)
-        except Exception:
+        except Exception as e:
+            print(f"  Warning: skipping {mdf.name}: {e}", file=sys.stderr)
             skipped += 1
     print(f"Applied: {applied} agents, {total} deps, Skipped: {skipped}")
-    # Count
-    agents_data = json.load(open(ROOT / 'AGENTS.json', encoding='utf-8'))
+    with open(ROOT / 'AGENTS.json', encoding='utf-8') as f:
+        agents_data = json.load(f)
     with_deps = sum(1 for a in agents_data['agents'] if a.get('depends_on') and len(a['depends_on']) > 0)
     # Not regenerated yet, add our applied count
     est = with_deps + applied

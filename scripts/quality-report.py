@@ -19,17 +19,48 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 
-from _shared import BOLD, CYAN, GREEN, RED, RESET, YELLOW, discover_agents, load_module
+from _shared import (
+    BOLD,
+    CYAN,
+    GREEN,
+    RED,
+    RESET,
+    YELLOW,
+    discover_agents,
+    get_lint_file,
+    get_score_agent,
+)
 
-_SCRIPTS = Path(__file__).resolve().parent
-lint_file = load_module("lint_agents", _SCRIPTS / "lint-agents.py").lint_file
-score_agent = load_module("score_agents", _SCRIPTS / "score-agents.py").score_agent
+lint_file = get_lint_file()
+score_agent = get_score_agent()
 
 # Ensure UTF-8 output on Windows
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 if sys.stderr.encoding != "utf-8":
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
+
+FEEDBACK_FILE = Path.home() / ".claude" / "agents" / ".feedback.jsonl"
+
+
+def _load_feedback():
+    """Load user feedback data keyed by agent_id."""
+    fb = defaultdict(list)
+    if not FEEDBACK_FILE.exists():
+        return fb
+    try:
+        with open(FEEDBACK_FILE, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        entry = json.loads(line)
+                        fb[entry.get("agent", "")].append(entry)
+                    except json.JSONDecodeError:
+                        pass
+    except Exception:
+        pass
+    return fb
 
 
 def _estimate_fix_effort(agent_report):
@@ -40,7 +71,6 @@ def _estimate_fix_effort(agent_report):
     """
     fixes = []
     scores = agent_report.get("scores", {})
-    agent_report.get("issues", [])
     lint_errors = agent_report.get("lint_errors", 0)
     lint_warnings = agent_report.get("lint_warnings", 0)
     security_flags = agent_report.get("security_flags", 0)
@@ -53,15 +83,23 @@ def _estimate_fix_effort(agent_report):
 
     # Moderate fixes (some content work)
     if scores.get("structure", 0) < 3:
-        fixes.append(("moderate", "Add missing recommended sections"))
-    if scores.get("file_health", 0) < 2:
+        sub = agent_report.get("substantive_sections", 0)
+        fixes.append(("moderate",
+                      f"Strengthen thin sections ({sub}/7 have ≥30 words of substantive content)"))
+    if scores.get("file_health", 0) < 0.4:
         fixes.append(("moderate", "Adjust file size into 2-8 KB sweet spot"))
     if lint_warnings > 3:
         fixes.append(("moderate", f"Address {lint_warnings} lint warnings"))
 
     # Hard fixes (substantial content creation)
     if scores.get("content_depth", 0) < 2:
-        fixes.append(("hard", f"Expand content (currently {agent_report.get('word_count', 0)} words, target 400+)"))
+        ds = agent_report.get("domain_signals", 0)
+        ac = agent_report.get("actionable_count", 0)
+        fixes.append(("hard",
+                      f"Add domain expertise: {ds} domain signals, {ac} actionable directives "
+                      f"(target: ≥10 domain signals, ≥12 actionable)"))
+    if agent_report.get("risk_tier") == "critical" and scores.get("content_depth", 0) < 2:
+        fixes.append(("hard", "CRITICAL-RISK: low content depth in high-stakes domain — priority review"))
     if lint_errors > 0:
         fixes.append(("hard", f"Fix {lint_errors} lint errors"))
 
@@ -84,6 +122,7 @@ def _estimate_fix_effort(agent_report):
 def build_report(category_filter=None, agent_filter=None, check_freshness=True):
     """Build the unified quality report for all (or filtered) agents."""
     agents = {}
+    feedback = _load_feedback()
 
     for category, rel, filepath in discover_agents(category_filter=category_filter):
         agent_id = filepath.stem
@@ -104,6 +143,11 @@ def build_report(category_filter=None, agent_filter=None, check_freshness=True):
             1 for w in lint_warnings if "SECURITY" in w
         ) + sum(1 for e in lint_errors if "SECURITY" in e)
 
+        # Feedback data for this agent
+        agent_fb = feedback.get(agent_id, [])
+        fb_ratings = [e["rating"] for e in agent_fb if "rating" in e]
+        fb_issues = [e for e in agent_fb if "issue" in e]
+
         agents[agent_id] = {
             "id": agent_id,
             "category": category,
@@ -113,6 +157,10 @@ def build_report(category_filter=None, agent_filter=None, check_freshness=True):
             "scores": score_result["scores"],
             "word_count": score_result.get("word_count", 0),
             "sections_found": score_result.get("sections_found", 0),
+            "substantive_sections": score_result.get("substantive_sections", 0),
+            "domain_signals": score_result.get("domain_signals", 0),
+            "actionable_count": score_result.get("actionable_count", 0),
+            "risk_tier": score_result.get("risk_tier", "general"),
             "file_size_kb": score_result.get("file_size_kb", 0),
             "broken_links": score_result.get("broken_links", 0),
             "last_modified": score_result.get("last_modified"),
@@ -121,6 +169,9 @@ def build_report(category_filter=None, agent_filter=None, check_freshness=True):
             "lint_errors": len(lint_errors),
             "lint_warnings": len(lint_warnings),
             "security_flags": security_count,
+            "feedback_count": len(agent_fb),
+            "feedback_rating": round(sum(fb_ratings) / len(fb_ratings), 1) if fb_ratings else None,
+            "feedback_issues": len(fb_issues),
         }
 
     return agents
@@ -163,6 +214,32 @@ def print_dashboard(agents, args):
           f"{CYAN}B:{grades.get('B', 0)}{RESET}  "
           f"{YELLOW}C:{grades.get('C', 0)}{RESET}  "
           f"{RED}D:{grades.get('D', 0)}{RESET}")
+
+    # Risk tier summary
+    risk_count = defaultdict(int)
+    for a in agents.values():
+        risk_count[a.get("risk_tier", "general")] += 1
+    if risk_count:
+        print(f"\n{BOLD}Risk Tier Distribution{RESET}")
+        for tier, color in [("critical", RED), ("high", YELLOW), ("general", GREEN)]:
+            c = risk_count.get(tier, 0)
+            if c:
+                print(f"  {color}{tier:<12}{RESET} {c:>4} ({c/total*100:5.1f}%)")
+
+    # Feedback summary
+    fb_total = sum(1 for a in agents.values() if a.get("feedback_count", 0) > 0)
+    fb_rated = sum(1 for a in agents.values() if a.get("feedback_rating") is not None)
+    fb_issues = sum(a.get("feedback_issues", 0) for a in agents.values())
+    if fb_total > 0:
+        print(f"\n{BOLD}User Feedback{RESET}")
+        print(f"  Agents with feedback: {fb_total} ({fb_rated} rated, {fb_issues} issues reported)")
+        # Show agents with issues
+        issue_agents = [(aid, a) for aid, a in agents.items() if a.get("feedback_issues", 0) > 0]
+        if issue_agents:
+            print(f"  {RED}Agents with reported issues:{RESET}")
+            for aid, a in issue_agents[:5]:
+                rating_str = f" rated {a['feedback_rating']}/5" if a.get("feedback_rating") else ""
+                print(f"    {aid}: {a['feedback_issues']} issues{rating_str}")
 
     # Fixability
     print(f"\n{BOLD}Improvement Landscape{RESET}")

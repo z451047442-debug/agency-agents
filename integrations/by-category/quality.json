@@ -1,7 +1,7 @@
 {
   "category": "quality",
-  "agent_count": 9,
-  "generated": "2026-07-05",
+  "agent_count": 11,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "quality-customer-cqe",
@@ -11,8 +11,37 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-customer-cqe.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-incident-response",
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-language-model-nlp",
+        "operations-report-distribution-agent",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-director",
+      "name": "质量管理总监",
+      "description": "质量管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"✅\"",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "quality-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -23,8 +52,37 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-food-safety.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "food-beverage-engineering-food-packaging",
+        "food-beverage-engineering-food-process",
+        "food-beverage-food-safety",
+        "food-beverage-food-supply-chain-traceability"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "quality-general-manager",
+      "name": "质量管理总经理",
+      "description": "质量管理领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"✅\"",
+      "category": "quality",
+      "subcategory": "",
+      "path": "quality/quality-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "manufacturing-general-manager",
+        "pets-general-manager",
+        "quality-director",
+        "real-estate-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -35,6 +93,16 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-healthcare-clinical.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-human-factors",
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "design-engineering-human-factors",
+        "finance-engineering-credit-risk-model",
+        "healthcare-clinical-physician",
+        "marketing-short-video-editing-coach",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -47,6 +115,14 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-lab-17025.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "education-special-needs",
+        "food-beverage-food-supply-chain-traceability",
+        "legal-engineering-legal-document-automation",
+        "operations-report-distribution-agent",
+        "quality-service-callcenter"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -59,6 +135,13 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-process-pqe.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "manufacturing-engineering-control-systems",
+        "manufacturing-production-planner",
+        "quality-healthcare-clinical"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -71,6 +154,13 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-qms-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-internal-auditor",
+        "healthcare-engineering-medical-device-software",
+        "hr-employee-relations",
+        "quality-customer-cqe"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -83,6 +173,14 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-service-callcenter.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "specialized-multi-agent-president",
+        "testing-tool-evaluator"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -95,6 +193,13 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-software-sqa.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "manufacturing-engineering-test-chip-bringup",
+        "manufacturing-lean-six-sigma",
+        "manufacturing-production-planner",
+        "quality-customer-cqe"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -107,6 +212,13 @@
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-supplier-sqe.md",
+      "depends_on": [
+        "automotive-engineering-automotive-homologation-test",
+        "cybersecurity-engineering-customer-identity-access",
+        "manufacturing-engineering-electronics-manufacturing",
+        "quality-customer-cqe",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]

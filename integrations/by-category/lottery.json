@@ -1,7 +1,7 @@
 {
   "category": "lottery",
-  "agent_count": 10,
-  "generated": "2026-07-05",
+  "agent_count": 12,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "lottery-customer-service",
@@ -11,6 +11,11 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-customer-service.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "lottery-data-analyst"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -23,8 +28,40 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-data-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "engineering-social-media-platform",
+        "food-beverage-food-safety",
+        "infrastructure-identity-access",
+        "lottery-customer-service",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-director",
+      "name": "彩票总监",
+      "description": "彩票领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🎰\"",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "lottery-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -35,7 +72,42 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-game-designer.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "engineering-multi-agent-systems-architect",
+        "engineering-social-media-platform",
+        "finance-engineering-credit-risk-model",
+        "lottery-customer-service",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-retail-media-ad",
+        "marketing-social-media-strategist",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "lottery-general-manager",
+      "name": "彩票总经理",
+      "description": "彩票领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🎰\"",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "lottery-director",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
         "phase-5-launch"
       ]
     },
@@ -47,6 +119,13 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-marketing.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "government-social-work",
+        "infrastructure-identity-access",
+        "lottery-customer-service"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -59,6 +138,13 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-operations.md",
+      "depends_on": [
+        "education-special-needs",
+        "finance-engineering-credit-risk-model",
+        "lottery-customer-service",
+        "marketing-europe-market",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -71,6 +157,16 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-product-designer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "engineering-social-media-platform",
+        "food-beverage-food-safety",
+        "infrastructure-identity-access",
+        "lottery-customer-service",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -83,8 +179,17 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-product-risk.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "finance-engineering-credit-risk-model",
+        "government-public-safety-analyst",
+        "lottery-customer-service",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
       ]
     },
     {
@@ -95,7 +200,12 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-retail-network.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "lottery-customer-service"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -107,8 +217,20 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-risk-compliance.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-graph-database",
+        "food-beverage-food-supply-chain",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "marketing-cross-border-ecommerce",
+        "marketing-customer-lifecycle",
+        "operations-executive-summary-generator",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
       ]
     },
     {
@@ -119,8 +241,19 @@
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-risk-manager.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "engineering-social-media-platform",
+        "food-beverage-food-safety",
+        "infrastructure-identity-access",
+        "lottery-risk-compliance",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
       ]
     }
   ]

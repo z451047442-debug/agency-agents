@@ -1,7 +1,7 @@
 {
   "category": "sports",
-  "agent_count": 4,
-  "generated": "2026-07-05",
+  "agent_count": 8,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "sports-agent",
@@ -11,6 +11,18 @@
       "category": "sports",
       "subcategory": "",
       "path": "sports/sports-agent.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-social-media-platform",
+        "government-social-work",
+        "logistics-public-transit",
+        "marketing-cross-border-ecommerce",
+        "marketing-demand-generation",
+        "marketing-paid-media-creative-strategist",
+        "securities-family-office",
+        "specialized-agentic-identity-trust",
+        "sports-coach"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -23,7 +35,57 @@
       "category": "sports",
       "subcategory": "",
       "path": "sports/sports-coach.md",
+      "depends_on": [
+        "game-development-engineering-video-game-backend",
+        "game-development-game-psychology",
+        "marketing-demand-generation",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-short-video-editing-coach",
+        "marketing-social-media-strategist",
+        "sports-agent"
+      ],
       "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sports-director",
+      "name": "体育总监",
+      "description": "体育领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"⚽\"",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-director.md",
+      "depends_on": [
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager",
+        "sports-general-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "sports-esports-management",
+      "name": "电竞赛事管理专家",
+      "description": "电竞赛事运营、战队管理、选手健康与职业发展、赛事制作与直播、赞助商管理与商业化专家",
+      "emoji": "🎮",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-esports-management.md",
+      "depends_on": [
+        "government-social-work",
+        "marketing-brand-strategist-name",
+        "marketing-linkedin-content-creator",
+        "specialized-identity-graph-operator",
+        "specialized-life-coach"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
         "phase-5-launch"
       ]
     },
@@ -35,7 +97,39 @@
       "category": "sports",
       "subcategory": "",
       "path": "sports/sports-event-ops.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-engineering-incident-response-commander",
+        "marketing-brand-strategist-name",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-social-media-strategist",
+        "operations-report-distribution-agent",
+        "sports-agent"
+      ],
       "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sports-general-manager",
+      "name": "体育总经理",
+      "description": "体育领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"⚽\"",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager",
+        "sports-director"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
         "phase-5-launch"
       ]
     },
@@ -47,8 +141,37 @@
       "category": "sports",
       "subcategory": "",
       "path": "sports/sports-marketing.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "lottery-product-risk",
+        "sports-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "sports-sports-medicine",
+      "name": "运动医学专家",
+      "description": "运动损伤预防与康复、运动生理学、运动营养、运动心理学、队医管理与赛事医疗保障专家",
+      "emoji": "🏥",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-sports-medicine.md",
+      "depends_on": [
+        "education-field-archaeology",
+        "engineering-git-workflow-master",
+        "game-development-game-psychology",
+        "marketing-sms-push-notifications",
+        "specialized-personal-growth-mentor",
+        "sports-coach",
+        "thinking-models-investment-masters"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build",
+        "phase-6-operate"
       ]
     }
   ]

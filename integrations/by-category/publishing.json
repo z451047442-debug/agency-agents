@@ -1,7 +1,7 @@
 {
   "category": "publishing",
-  "agent_count": 4,
-  "generated": "2026-07-05",
+  "agent_count": 9,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "publishing-academic",
@@ -11,8 +11,54 @@
       "category": "publishing",
       "subcategory": "",
       "path": "publishing/publishing-academic.md",
+      "depends_on": [
+        "education-academic-research-scientist",
+        "game-development-game-quality-assurance",
+        "government-social-work",
+        "logistics-public-transit",
+        "operations-report-distribution-agent",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "publishing-comics-illustration",
+      "name": "漫画与插画创作专家",
+      "description": "漫画叙事(分镜/节奏/画格)、角色设计、插图风格(Manga/BD/美漫/图像小说)、数字绘画工具、叙事插画与出版流程专家",
+      "emoji": "🎨",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-comics-illustration.md",
+      "depends_on": [
+        "design-visual-storyteller",
+        "marketing-linkedin-content-creator",
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer",
+        "unity-shader-graph-artist"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "publishing-creative-fiction",
+      "name": "文学小说创作专家",
+      "description": "小说结构设计、人物塑造、叙事视角与声音、对话写作、场景构建、类型小说与写作工坊专家",
+      "emoji": "📝",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-creative-fiction.md",
+      "depends_on": [
+        "marketing-linkedin-content-creator",
+        "marketing-short-video-editing-coach",
+        "operations-report-distribution-agent",
+        "specialized-personal-growth-mentor"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     },
     {
@@ -23,8 +69,39 @@
       "category": "publishing",
       "subcategory": "",
       "path": "publishing/publishing-digital.md",
+      "depends_on": [
+        "game-development-game-quality-assurance",
+        "government-social-work",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-public-transit",
+        "marketing-retail-media-ad",
+        "operations-report-distribution-agent",
+        "robotics-motion-control",
+        "telecom-engineering-signal-integrity"
+      ],
       "nexus_roles": [
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "publishing-director",
+      "name": "出版总监",
+      "description": "出版领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"📖\"",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "publishing-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -35,7 +112,39 @@
       "category": "publishing",
       "subcategory": "",
       "path": "publishing/publishing-editor.md",
+      "depends_on": [
+        "education-academic-research-scientist",
+        "marketing-book-co-author",
+        "marketing-field-marketing",
+        "marketing-market-research",
+        "marketing-retail-media-ad",
+        "operations-report-distribution-agent",
+        "thinking-models-scientific-method"
+      ],
       "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "publishing-general-manager",
+      "name": "出版总经理",
+      "description": "出版领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"📖\"",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "pets-general-manager",
+        "publishing-director",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
         "phase-5-launch"
       ]
     },
@@ -47,8 +156,34 @@
       "category": "publishing",
       "subcategory": "",
       "path": "publishing/publishing-literary-agent.md",
+      "depends_on": [
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "logistics-last-mile-delivery",
+        "marketing-email-marketing",
+        "tourism-travel-agency",
+        "tourism-travel-experience-designer"
+      ],
       "nexus_roles": [
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "publishing-poetry",
+      "name": "诗歌创作专家",
+      "description": "诗歌形式与格律(自由诗/十四行诗/俳句/词/律诗)、意象与隐喻、声音与节奏、现代与古典诗歌传统、诗歌批评与工作坊专家",
+      "emoji": "🎼",
+      "category": "publishing",
+      "subcategory": "",
+      "path": "publishing/publishing-poetry.md",
+      "depends_on": [
+        "specialized-personal-growth-mentor",
+        "sports-event-ops",
+        "testing-evidence-collector",
+        "unity-editor-tool-developer"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     }
   ]

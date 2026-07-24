@@ -160,7 +160,7 @@ class TestEstimateFixEffortExtra:
 
     def test_low_file_health_is_moderate(self):
         report = _make_agent(
-            scores={"frontmatter": 2, "structure": 3, "content_depth": 3, "file_health": 1})
+            scores={"frontmatter": 2, "structure": 3, "content_depth": 3, "file_health": 0.3})
         level, fixes = _estimate_fix_effort(report)
         assert level == "moderate"
         assert any("file size" in f[1].lower() for f in fixes)

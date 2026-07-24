@@ -1,7 +1,7 @@
 {
   "category": "food-beverage",
   "agent_count": 15,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "food-beverage-beverage-rd",
@@ -11,6 +11,10 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-beverage-rd.md",
+      "depends_on": [
+        "food-beverage-culinary-innovation",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +27,10 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-culinary-innovation.md",
+      "depends_on": [
+        "food-beverage-beverage-rd",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,8 +43,15 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-director.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -47,6 +62,13 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-alt-protein.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "food-beverage-engineering-food-fermentation",
+        "food-beverage-engineering-food-sensory",
+        "food-beverage-food-scientist",
+        "sales-data-extraction-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +81,10 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-beverage-brewing.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "food-beverage-beverage-rd"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,7 +97,14 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-cosmetics-science.md",
+      "depends_on": [
+        "beauty-cosmetics-science",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-regulatory-science",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -83,6 +116,13 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-food-fermentation.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "food-beverage-engineering-food-sensory",
+        "food-beverage-food-safety",
+        "food-beverage-food-scientist",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +135,11 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-food-packaging.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-engineering-packaging-sustainability",
+        "food-beverage-beverage-rd"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,6 +152,13 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-food-process.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "food-beverage-engineering-food-sensory",
+        "food-beverage-food-safety",
+        "operations-report-distribution-agent",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,6 +171,12 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-food-sensory.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "food-beverage-food-scientist",
+        "healthcare-engineering-regulatory-science"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -131,6 +189,10 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-food-product-developer.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "food-beverage-engineering-food-sensory"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +205,15 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-food-safety.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "data-science-engineering-knowledge-management",
+        "education-assessment-specialist",
+        "engineering-programming-language",
+        "food-beverage-engineering-food-process",
+        "mining-safety",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +226,28 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-food-scientist.md",
+      "depends_on": [
+        "food-beverage-beverage-rd",
+        "quality-food-safety"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "food-beverage-food-supply-chain",
+      "name": "食品供应链经理",
+      "description": "食品行业供应链管理专家，覆盖生鲜冷链、原料采购、仓储物流、需求预测",
+      "emoji": "🚚",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-food-supply-chain.md",
+      "depends_on": [
+        "food-beverage-beverage-rd",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,18 +260,16 @@
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-food-supply-chain-traceability.md",
-      "nexus_roles": [
-        "phase-3-build"
-      ]
-    },
-    {
-      "id": "food-beverage-food-supply-chain",
-      "name": "食品供应链经理",
-      "description": "食品行业供应链管理专家，覆盖生鲜冷链、原料采购、仓储物流、需求预测",
-      "emoji": "🚚",
-      "category": "food-beverage",
-      "subcategory": "",
-      "path": "food-beverage/food-beverage-food-supply-chain.md",
+      "depends_on": [
+        "agriculture-supply-chain",
+        "automotive-supply-chain",
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "manufacturing-supply-chain-planner"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

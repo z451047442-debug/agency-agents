@@ -19,7 +19,10 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 DIVISIONS_JSON = REPO / "divisions.json"
 
-NON_DIVISION_DIRS = {"examples", "scripts", "integrations", "strategy"}
+NON_DIVISION_DIRS = {
+    "docs", "examples", "integrations", "nexus-demo",
+    "nexus-projects", "schemas", "scripts", "tests",
+}
 
 
 def load_canonical_divisions() -> list[str]:
@@ -32,8 +35,11 @@ def get_actual_dirs() -> list[str]:
     """Return top-level dirs with git-tracked files, excluding non-division dirs."""
     result = subprocess.run(
         ["git", "-C", str(REPO), "ls-files"],
-        capture_output=True, text=True,
+        capture_output=True, text=True, timeout=30,
     )
+    if result.returncode != 0:
+        print(f"ERROR: git ls-files failed with code {result.returncode}: {result.stderr.strip()}")
+        sys.exit(1)
     dirs: set[str] = set()
     for line in result.stdout.splitlines():
         parts = line.split("/")
@@ -58,8 +64,9 @@ def has_agent_file(directory: Path) -> bool:
         return False
     for f in directory.rglob("*.md"):
         try:
-            if f.read_text(encoding="utf-8").startswith("---"):
-                return True
+            with f.open(encoding="utf-8") as fh:
+                if fh.read(4).startswith("---"):
+                    return True
         except OSError:
             pass
     return False
@@ -97,20 +104,24 @@ def main() -> None:
     for script_name in ["convert.sh", "lint-agents.sh"]:
         script_path = REPO / "scripts" / script_name
         if script_path.exists():
-            errors += compare_sets(
-                f"scripts/{script_name} AGENT_DIRS",
-                canonical,
-                extract_agent_dirs_from_script(script_path),
-            )
+            script_dirs = extract_agent_dirs_from_script(script_path)
+            if script_dirs:  # scripts use dynamic discovery when AGENT_DIRS is absent
+                errors += compare_sets(
+                    f"scripts/{script_name} AGENT_DIRS",
+                    canonical,
+                    script_dirs,
+                )
 
     wf = REPO / ".github" / "workflows" / "lint-agents.yml"
     if wf.exists():
         wf_text = wf.read_text(encoding="utf-8")
-        for div in canonical:
-            if not re.search(rf"\b{div}/", wf_text):
-                errors.append(
-                    f"ERROR {wf.relative_to(REPO)} has no path filter for division '{div}'"
-                )
+        # A global "**/*.md" pattern covers all divisions — skip per-division filtering
+        if not re.search(r"\*\*/\*\.md", wf_text):
+            for div in canonical:
+                if not re.search(rf"\b{div}/", wf_text):
+                    errors.append(
+                        f"ERROR {wf.relative_to(REPO)} has no path filter for division '{div}'"
+                    )
 
     with open(DIVISIONS_JSON, encoding="utf-8") as f:
         data = json.load(f)

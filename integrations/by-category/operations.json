@@ -1,7 +1,7 @@
 {
   "category": "operations",
   "agent_count": 11,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "operations-analytics-reporter",
@@ -11,7 +11,16 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-analytics-reporter.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "education-special-needs",
+        "marketing-customer-lifecycle",
+        "marketing-paid-media-search-query-analyst",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-6-operate"
       ]
     },
@@ -23,8 +32,19 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-automation-governance-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "finance-engineering-credit-risk-model",
+        "logistics-engineering-supply-chain-risk",
+        "marketing-customer-lifecycle",
+        "operations-analytics-reporter",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
       ]
     },
     {
@@ -35,8 +55,16 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-bcp-disaster-recovery.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "legal-engineering-legal-document-automation",
+        "operations-report-distribution-agent",
+        "project-management-event-manager",
+        "project-management-site-engineer"
+      ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
       ]
     },
     {
@@ -47,6 +75,12 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-change-management.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "engineering-multi-agent-systems-architect",
+        "operations-analytics-reporter",
+        "project-management-agile-coach"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -59,8 +93,17 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "operations-analytics-reporter"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-6-operate"
       ]
     },
     {
@@ -71,6 +114,17 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-executive-summary-generator.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-deep-learning-training",
+        "education-special-needs",
+        "engineering-git-workflow-master",
+        "finance-engineering-risk-quant",
+        "operations-analytics-reporter",
+        "specialized-document-generator",
+        "thinking-models-decision-frameworks",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -83,6 +137,14 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-finance-tracker.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "finance-engineering-credit-risk-model",
+        "home-lifestyle-personal-finance",
+        "testing-engineering-test-automation-framework",
+        "testing-test-results-analyzer",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -95,7 +157,18 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-infrastructure-maintainer.md",
+      "depends_on": [
+        "engineering-container-orchestration",
+        "infrastructure-storage-backup",
+        "marketing-paid-media-search-query-analyst",
+        "operations-bcp-disaster-recovery",
+        "operations-executive-summary-generator",
+        "operations-report-distribution-agent",
+        "testing-engineering-test-automation-framework",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -107,8 +180,16 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-legal-compliance-checker.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "legal-data-protection-officer",
+        "marketing-cross-border-ecommerce",
+        "marketing-email-marketing",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
       ]
     },
     {
@@ -119,8 +200,17 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-procurement-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "marketing-customer-lifecycle",
+        "operations-analytics-reporter",
+        "securities-family-office"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-6-operate"
       ]
     },
     {
@@ -131,6 +221,13 @@
       "category": "operations",
       "subcategory": "",
       "path": "operations/operations-report-distribution-agent.md",
+      "depends_on": [
+        "data-science-consolidation-agent",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "hr-performance-management",
+        "operations-analytics-reporter"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]

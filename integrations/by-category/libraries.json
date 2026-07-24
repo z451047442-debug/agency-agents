@@ -1,7 +1,7 @@
 {
   "category": "libraries",
-  "agent_count": 2,
-  "generated": "2026-07-05",
+  "agent_count": 3,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "libraries-archivist",
@@ -11,6 +11,14 @@
       "category": "libraries",
       "subcategory": "",
       "path": "libraries/libraries-archivist.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "legal-engineering-legal-document-automation",
+        "libraries-digital-librarian",
+        "logistics-engineering-supply-chain-risk",
+        "marketing-demand-generation",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -23,8 +31,38 @@
       "category": "libraries",
       "subcategory": "",
       "path": "libraries/libraries-digital-librarian.md",
+      "depends_on": [
+        "education-cultural-heritage-law",
+        "engineering-embedded-database",
+        "marketing-linkedin-content-creator",
+        "marketing-short-video-editing-coach",
+        "operations-report-distribution-agent",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "libraries-library-science",
+      "name": "图书馆学与信息科学专家",
+      "description": "图书馆管理、信息组织与检索、数字图书馆与机构库、元数据标准(Dublin Core/MARC/MODS)、知识组织系统、信息素养教育与开放获取专家",
+      "emoji": "📚",
+      "category": "libraries",
+      "subcategory": "",
+      "path": "libraries/libraries-library-science.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "education-academic-research-scientist",
+        "education-field-archaeology",
+        "government-social-work",
+        "specialized-personal-growth-mentor"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     }
   ]

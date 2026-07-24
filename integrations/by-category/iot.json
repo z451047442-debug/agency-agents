@@ -1,7 +1,7 @@
 {
   "category": "iot",
   "agent_count": 19,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "iot-architect",
@@ -11,6 +11,12 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-architect.md",
+      "depends_on": [
+        "energy-engineering-power-electronics",
+        "energy-engineering-power-electronics-packaging",
+        "iot-data-platform",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -23,7 +29,16 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-data-platform.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "iot-engineering-iot-engineer",
+        "logistics-general-manager",
+        "manufacturing-engineering-laser-processing",
+        "manufacturing-tpm-reliability"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -35,6 +50,15 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-director.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "manufacturing-supply-chain-planner"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -47,6 +71,15 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-edge-computing.md",
+      "depends_on": [
+        "automotive-vehicle-architecture",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-computer-vision-expert",
+        "data-science-engineering-language-model-nlp",
+        "iot-architect",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +92,11 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-embedded-engineer.md",
+      "depends_on": [
+        "automotive-engineering-automotive-homologation-test",
+        "healthcare-engineering-medical-device-software",
+        "iot-engineering-embedded-firmware-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,6 +109,13 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-asic-fpga.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "iot-architect",
+        "manufacturing-engineering-test-chip-bringup"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +128,13 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-embedded-ai.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "iot-architect"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +147,15 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-embedded-firmware-engineer.md",
+      "depends_on": [
+        "engineering-ai-safety-expert",
+        "engineering-code-reviewer",
+        "engineering-git-workflow-master",
+        "engineering-keil-embedded-ide",
+        "engineering-minimal-change-engineer",
+        "iot-embedded-engineer",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,6 +168,12 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-embedded-linux.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "iot-architect",
+        "logistics-general-manager"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,7 +186,18 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-industrial-iot-platform.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "iot-architect",
+        "logistics-general-manager",
+        "manufacturing-engineering-laser-processing",
+        "manufacturing-engineering-vibration-testing",
+        "manufacturing-industrial-engineer",
+        "robotics-industrial-automation"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -131,6 +209,14 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-iot-engineer.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-git-workflow-master",
+        "iot-data-platform",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-general-manager",
+        "telecom-5g-core"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +229,15 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-iot-hardware.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "iot-engineering-smart-home",
+        "logistics-general-manager",
+        "manufacturing-engineering-additive-manufacturing-metal",
+        "manufacturing-engineering-composites-manufacturing",
+        "manufacturing-engineering-test-chip-bringup"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +250,12 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-mems-sensors.md",
+      "depends_on": [
+        "automotive-engineering-automotive-homologation-test",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "iot-architect"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,6 +268,16 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-mixed-signal-ic.md",
+      "depends_on": [
+        "engineering-ai-agent-developer",
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "iot-architect",
+        "logistics-cross-border-ecommerce",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-general-manager",
+        "manufacturing-engineering-simulation-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -179,6 +290,15 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-rfid-systems.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "manufacturing-supply-chain-planner"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -191,6 +311,14 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-smart-home.md",
+      "depends_on": [
+        "engineering-ai-agent-developer",
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "iot-director",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-general-manager"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -203,6 +331,14 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-firmware-developer.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-safety",
+        "automotive-engineering-automotive-cae",
+        "automotive-engineering-functional-safety",
+        "iot-architect",
+        "logistics-general-manager",
+        "manufacturing-engineering-control-systems"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -215,8 +351,17 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-security-specialist.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "iot-architect"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-2-foundation",
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -227,6 +372,13 @@
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-sensor-integration.md",
+      "depends_on": [
+        "data-science-engineering-optical-character-recognition",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-medical-device-software",
+        "iot-engineering-mems-sensors",
+        "network-engineering-engineering-optical-fiber-sensing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

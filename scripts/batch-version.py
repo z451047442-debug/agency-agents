@@ -58,7 +58,7 @@ def insert_version(path: Path) -> None:
         if line.startswith("color:"):
             lines.insert(i + 1, VERSION_STRING)
             break
-    path.write_text("\n".join(lines), encoding="utf-8")
+    path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def main() -> None:

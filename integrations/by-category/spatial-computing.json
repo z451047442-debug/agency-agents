@@ -1,7 +1,7 @@
 {
   "category": "spatial-computing",
   "agent_count": 15,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "spatial-computing-3d-asset-artist",
@@ -11,6 +11,12 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-3d-asset-artist.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "energy-engineering-small-modular-reactor",
+        "engineering-git-workflow-master",
+        "spatial-computing-ar-filter-creator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +29,13 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-ar-filter-creator.md",
+      "depends_on": [
+        "engineering-visual-studio-cpp",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-tracking-specialist",
+        "marketing-retail-media-ad",
+        "spatial-computing-3d-asset-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,8 +48,15 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-director.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-engineering-edge-computing",
+        "iot-edge-computing",
+        "spatial-computing-engineering-spatial-computing-engineer"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -47,6 +67,14 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-engineering-metaverse-experience.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "government-social-work",
+        "infrastructure-identity-access",
+        "iot-edge-computing",
+        "operations-report-distribution-agent",
+        "spatial-computing-3d-asset-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +87,15 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-engineering-spatial-computing-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-computer-vision-expert",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "iot-edge-computing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,6 +108,12 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-engineering-technical-architect-ar.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-engineering-edge-computing",
+        "iot-edge-computing",
+        "spatial-computing-3d-asset-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +126,13 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-engineering-virtual-reality.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "iot-edge-computing",
+        "spatial-computing-3d-asset-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +145,14 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-engineering-wearable-tech.md",
+      "depends_on": [
+        "energy-engineering-power-electronics",
+        "energy-engineering-power-electronics-packaging",
+        "engineering-multi-agent-systems-architect",
+        "iot-edge-computing",
+        "manufacturing-engineering-electronics-manufacturing",
+        "spatial-computing-3d-asset-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,6 +165,14 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-macos-spatial-metal-engineer.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "game-development-game-audio-engineer",
+        "gis-drone-reality-mapping",
+        "spatial-computing-visionos-spatial-engineer",
+        "specialized-identity-graph-operator",
+        "unity-shader-graph-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,7 +185,18 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-terminal-integration-specialist.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "engineering-git-workflow-master",
+        "government-public-safety-analyst",
+        "infrastructure-identity-access",
+        "iot-edge-computing",
+        "marketing-paid-media-search-query-analyst",
+        "spatial-computing-macos-spatial-metal-engineer",
+        "spatial-computing-visionos-spatial-engineer"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -131,6 +208,12 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-ux-designer.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-engineering-edge-computing",
+        "iot-edge-computing",
+        "spatial-computing-3d-asset-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +226,13 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-visionos-spatial-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-engineering-edge-computing",
+        "infrastructure-identity-access",
+        "iot-edge-computing",
+        "spatial-computing-engineering-spatial-computing-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,7 +245,13 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-xr-cockpit-interaction-specialist.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "robotics-motion-control",
+        "spatial-computing-3d-asset-artist"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -167,6 +263,14 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-xr-immersive-developer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-deep-learning-training",
+        "infrastructure-identity-access",
+        "iot-edge-computing",
+        "spatial-computing-engineering-spatial-computing-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -179,6 +283,14 @@
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-xr-interface-architect.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "spatial-computing-xr-cockpit-interaction-specialist",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

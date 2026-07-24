@@ -19,7 +19,8 @@
 # get_field <field> <file> — value of a YAML frontmatter field (first match).
 get_field() {
   local field="$1" file="$2"
-  awk -v f="$field" '
+  local escaped; escaped=$(printf '%s' "$field" | sed 's/[.[\*^$()+?{|]/\\&/g')
+  awk -v f="$escaped" '
     /^---$/ { fm++; next }
     fm == 1 && $0 ~ "^" f ": " { sub("^" f ": ", ""); print; exit }
   ' "$file"

@@ -1,7 +1,7 @@
 {
   "category": "real-estate",
-  "agent_count": 10,
-  "generated": "2026-07-05",
+  "agent_count": 12,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "real-estate-appraiser",
@@ -11,6 +11,11 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-appraiser.md",
+      "depends_on": [
+        "education-special-needs",
+        "operations-report-distribution-agent",
+        "real-estate-buyer-seller"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -23,6 +28,12 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-buyer-seller.md",
+      "depends_on": [
+        "legal-billing-time-tracking",
+        "marketing-paid-media-programmatic-buyer",
+        "real-estate-appraiser",
+        "specialized-change-management-consultant"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -35,7 +46,13 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-commercial-broker.md",
+      "depends_on": [
+        "education-special-needs",
+        "real-estate-reit-analyst",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -47,6 +64,12 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-developer.md",
+      "depends_on": [
+        "finance-engineering-credit-risk-model",
+        "legal-engineering-legal-contracts-ai",
+        "legal-engineering-legal-document-automation",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -59,8 +82,37 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-development-manager.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel",
+        "real-estate-appraiser"
+      ],
       "nexus_roles": [
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-director",
+      "name": "房地产总监",
+      "description": "房地产领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🏘\"",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "real-estate-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -71,7 +123,39 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-facility-manager.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "legal-engineering-legal-document-automation",
+        "legal-engineering-outer-space-law",
+        "legal-engineering-trade-compliance",
+        "legal-general-counsel",
+        "real-estate-appraiser",
+        "specialized-productivity-time-management"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "real-estate-general-manager",
+      "name": "房地产总经理",
+      "description": "房地产领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🏘\"",
+      "category": "real-estate",
+      "subcategory": "",
+      "path": "real-estate/real-estate-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "legal-general-manager",
+        "pets-general-manager",
+        "real-estate-director",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
         "phase-5-launch"
       ]
     },
@@ -83,7 +167,16 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-investment-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel",
+        "real-estate-appraiser"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
       ]
     },
@@ -95,6 +188,19 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-property-manager.md",
+      "depends_on": [
+        "construction-engineering-green-building",
+        "engineering-multi-agent-systems-architect",
+        "engineering-programming-language",
+        "infrastructure-identity-access",
+        "logistics-engineering-supply-chain-risk",
+        "marketing-paid-media-auditor",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-programmatic-buyer",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-private-domain-operator",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -107,6 +213,14 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-property-valuator.md",
+      "depends_on": [
+        "energy-engineering-grid-scale-storage",
+        "finance-engineering-credit-risk-model",
+        "finance-insurance-underwriter",
+        "legal-engineering-legal-contracts-ai",
+        "legal-general-counsel",
+        "marketing-paid-media-programmatic-buyer"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -119,7 +233,16 @@
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-reit-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel",
+        "real-estate-commercial-broker"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
       ]
     }

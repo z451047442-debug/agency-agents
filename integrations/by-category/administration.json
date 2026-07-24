@@ -1,7 +1,7 @@
 {
   "category": "administration",
-  "agent_count": 7,
-  "generated": "2026-07-05",
+  "agent_count": 9,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "administration-contract-manager",
@@ -11,8 +11,36 @@
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-contract-manager.md",
+      "depends_on": [
+        "administration-executive-assistant",
+        "engineering-multi-agent-systems-architect",
+        "legal-engineering-legal-contracts-ai",
+        "legal-engineering-legal-document-automation",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
         "phase-6-operate"
+      ]
+    },
+    {
+      "id": "administration-director",
+      "name": "行政管理总监",
+      "description": "行政管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"📋\"",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-director.md",
+      "depends_on": [
+        "administration-general-manager",
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -23,6 +51,13 @@
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-executive-assistant.md",
+      "depends_on": [
+        "administration-contract-manager",
+        "legal-engineering-legal-contracts-ai",
+        "legal-engineering-legal-document-automation",
+        "project-management-meeting-notes-specialist",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -35,8 +70,39 @@
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-fleet-manager.md",
+      "depends_on": [
+        "administration-contract-manager",
+        "data-science-engineering-deep-learning-training",
+        "engineering-insurance-technology",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "hr-corporate-training-designer"
+      ],
       "nexus_roles": [
         "phase-6-operate"
+      ]
+    },
+    {
+      "id": "administration-general-manager",
+      "name": "行政管理总经理",
+      "description": "行政管理领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"📋\"",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-general-manager.md",
+      "depends_on": [
+        "administration-director",
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -47,6 +113,15 @@
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-office-manager.md",
+      "depends_on": [
+        "administration-contract-manager",
+        "data-science-engineering-knowledge-management",
+        "emergency-disaster-response",
+        "engineering-insurance-technology",
+        "finance-cost-accountant",
+        "hr-employee-relations",
+        "securities-family-office"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -59,6 +134,13 @@
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-procurement.md",
+      "depends_on": [
+        "administration-contract-manager",
+        "data-science-engineering-knowledge-management",
+        "finance-cost-accountant",
+        "healthcare-engineering-gene-editing-crispr",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -71,6 +153,15 @@
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-records-management.md",
+      "depends_on": [
+        "administration-contract-manager",
+        "food-beverage-food-safety",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-contracts-ai",
+        "legal-engineering-legal-document-automation",
+        "operations-report-distribution-agent",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -83,6 +174,16 @@
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-travel-manager.md",
+      "depends_on": [
+        "administration-contract-manager",
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "legal-engineering-legal-document-automation",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]

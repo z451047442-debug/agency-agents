@@ -1,7 +1,7 @@
 {
   "category": "specialized",
-  "agent_count": 20,
-  "generated": "2026-07-05",
+  "agent_count": 26,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "specialized-agentic-identity-trust",
@@ -11,8 +11,18 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-agentic-identity-trust.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-threat-detection-engineer",
+        "home-lifestyle-personal-finance",
+        "infrastructure-engineering-incident-response-commander",
+        "logistics-public-transit",
+        "specialized-identity-graph-operator",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -23,8 +33,18 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-business-strategist.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "marketing-china-market-localization-strategist",
+        "marketing-market-research",
+        "sales-deal-strategist",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -35,8 +55,15 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-change-management-consultant.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "quality-healthcare-clinical",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -47,8 +74,16 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-chief-financial-officer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent",
+        "finance-engineering-credit-risk-model",
+        "finance-financial-controller"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -59,8 +94,12 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-chief-of-staff.md",
+      "depends_on": [
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -71,7 +110,17 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-customer-success-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "legal-billing-time-tracking",
+        "legal-document-review",
+        "logistics-last-mile-delivery",
+        "marketing-customer-advocacy",
+        "sales-customer-onboarding",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -83,8 +132,18 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-data-privacy-officer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "legal-data-privacy-attorney",
+        "legal-data-protection-officer",
+        "marketing-china-market-localization-strategist",
+        "marketing-email-marketing",
+        "retail-loss-prevention",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -95,8 +154,15 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-document-generator.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "operations-report-distribution-agent",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -107,8 +173,23 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-esg-sustainability-officer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-deep-learning-training",
+        "environmental-climate-policy",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-supply-chain-strategist",
+        "marketing-paid-media-creative-strategist",
+        "marketing-social-media-strategist",
+        "operations-report-distribution-agent",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -119,8 +200,36 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-grant-writer.md",
+      "depends_on": [
+        "healthcare-engineering-gene-editing-crispr",
+        "legal-billing-time-tracking",
+        "legal-document-review",
+        "nonprofit-grant-writer",
+        "project-management-government-grant",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "specialized-habit-formation",
+      "name": "习惯养成与行为设计专家",
+      "description": "习惯形成科学(行为心理学/神经科学)、行为设计(Fogg模型/COM-B)、习惯追踪与量化自我、环境设计与助推理论专家",
+      "emoji": "🔄",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-habit-formation.md",
+      "depends_on": [
+        "government-social-work",
+        "legal-billing-time-tracking",
+        "logistics-engineering-supply-chain-risk",
+        "spatial-computing-engineering-wearable-tech"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-6-operate"
       ]
     },
     {
@@ -131,8 +240,35 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-identity-graph-operator.md",
+      "depends_on": [
+        "gis-drone-reality-mapping",
+        "operations-legal-compliance-checker",
+        "project-management-agents-orchestrator",
+        "specialized-agentic-identity-trust",
+        "testing-reality-checker",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "specialized-life-coach",
+      "name": "人生教练(Life Coach)",
+      "description": "个人成长与目标设定、职业转型辅导、人际关系教练、工作生活平衡、领导力发展教练、正念与情绪管理专家",
+      "emoji": "🌱",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-life-coach.md",
+      "depends_on": [
+        "legal-billing-time-tracking",
+        "thinking-models-decision-frameworks",
+        "thinking-models-tech-leaders"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-6-operate"
       ]
     },
     {
@@ -143,7 +279,17 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-ma-integration-manager.md",
+      "depends_on": [
+        "construction-engineering-bridge-structural",
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent",
+        "finance-engineering-credit-risk-model",
+        "operations-executive-summary-generator",
+        "specialized-agentic-identity-trust",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -155,8 +301,82 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-medical-billing-coding-specialist.md",
+      "depends_on": [
+        "cybersecurity-compliance-auditor",
+        "legal-billing-time-tracking",
+        "legal-document-review",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "specialized-multi-agent-director",
+      "name": "多智能体总监",
+      "description": "Multi-Agent Director — multi-agent system orchestration specialist",
+      "emoji": "\"🎯\"",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-multi-agent-director.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-3-build",
+        "phase-5-launch",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "specialized-multi-agent-president",
+      "name": "多智能体总裁",
+      "description": "Multi-Agent President — multi-agent system orchestration specialist",
+      "emoji": "\"🏛\"",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-multi-agent-president.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-3-build",
+        "phase-5-launch",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "specialized-multi-agent-project-manager",
+      "name": "多智能体项目经理",
+      "description": "Multi-Agent Project Manager — multi-agent system orchestration specialist",
+      "emoji": "\"📋\"",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-multi-agent-project-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-knowledge-management",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-3-build",
+        "phase-5-launch",
+        "phase-6-operate"
       ]
     },
     {
@@ -167,7 +387,15 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-operations-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model",
+        "manufacturing-lean-six-sigma",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -179,8 +407,17 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-organizational-psychologist.md",
+      "depends_on": [
+        "gis-drone-reality-mapping",
+        "manufacturing-engineering-material-scientist",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -191,8 +428,13 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-personal-growth-mentor.md",
+      "depends_on": [
+        "home-lifestyle-personal-finance",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -203,8 +445,36 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-pricing-analyst.md",
+      "depends_on": [
+        "aerospace-military-materials-manufacturing",
+        "design-cultural-intelligence-strategist",
+        "marketing-china-market-localization-strategist",
+        "operations-executive-summary-generator",
+        "specialized-agentic-identity-trust",
+        "specialized-personal-growth-mentor",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "specialized-productivity-time-management",
+      "name": "时间管理与生产力专家",
+      "description": "个人生产力系统(GTD/番茄工作法/时间块)、任务优先级管理、深度工作与心流、数字极简与注意力管理、会议效率、知识管理工作流专家",
+      "emoji": "⏱️",
+      "category": "specialized",
+      "subcategory": "",
+      "path": "specialized/specialized-productivity-time-management.md",
+      "depends_on": [
+        "engineering-minimal-change-engineer",
+        "government-social-work",
+        "marketing-feed-ad-optimizer",
+        "testing-workflow-optimizer"
+      ],
+      "nexus_roles": [
+        "phase-6-operate"
       ]
     },
     {
@@ -215,8 +485,15 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-strategy-duel-agent.md",
+      "depends_on": [
+        "education-number-theory",
+        "engineering-git-workflow-master",
+        "project-management-agents-orchestrator",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -227,8 +504,17 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-workflow-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-graph-database",
+        "gis-drone-reality-mapping",
+        "infrastructure-github-actions-expert",
+        "marketing-paid-media-search-query-analyst",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -239,8 +525,15 @@
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-zk-steward.md",
+      "depends_on": [
+        "marketing-short-video-editing-coach",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     }
   ]

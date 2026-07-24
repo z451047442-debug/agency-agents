@@ -100,6 +100,9 @@ function buildCatList() {
   });
 }
 
+var ENTITY_MAP = {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};
+function esc(s) { return String(s).replace(/[&<>"']/g, function(c) { return ENTITY_MAP[c]; }); }
+
 function render() {
   var agents = DATA.agents.filter(function(a) {
     if (activeCat && a.category !== activeCat) return false;
@@ -115,7 +118,7 @@ function render() {
   document.getElementById('grid').innerHTML = agents.map(function(a) {
     var deps = (a.depends_on || []).map(function(d) { return '<span class="dep">' + d + '</span>'; }).join('');
     var nexus = (a.nexus_roles || []).map(function(n) { return '<span class="tag tag-nexus">' + n + '</span>'; }).join(' ');
-    var sub = a.subcategory ? ' / ' + a.subcategory : '';
+    var sub = a.subcategory ? ' / ' + esc(a.subcategory) : '';
     var isOpen = expanded[a.id] ? ' open' : '';
     return '<div class="card' + isOpen + '" data-id="' + a.id + '">' +
       '<div class="head">' +
@@ -131,7 +134,7 @@ function render() {
       '</div>' +
       '<div class="extra">' +
         (deps ? '<div class="label">依赖 (depends_on)</div><div class="deps">' + deps + '</div>' : '') +
-        '<div class="label">文件路径</div><div class="path">' + a.path + '</div>' +
+        '<div class="label">文件路径</div><div class="path">' + esc(a.path) + '</div>' +
       '</div>' +
     '</div>';
   }).join('');

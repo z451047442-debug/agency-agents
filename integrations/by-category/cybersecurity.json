@@ -1,7 +1,7 @@
 {
   "category": "cybersecurity",
-  "agent_count": 35,
-  "generated": "2026-07-05",
+  "agent_count": 38,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "cybersecurity-appsec-engineer",
@@ -11,6 +11,11 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-appsec-engineer.md",
+      "depends_on": [
+        "cybersecurity-paloalto-expert",
+        "security-appsec-engineer",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
@@ -24,8 +29,18 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-blockchain-security-auditor.md",
+      "depends_on": [
+        "engineering-minimal-change-engineer",
+        "infrastructure-engineering-incident-response-commander",
+        "operations-executive-summary-generator",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer",
+        "web3-engineering-solidity-smart-contract-engineer"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -36,6 +51,14 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-bug-bounty-hunter.md",
+      "depends_on": [
+        "cybersecurity-penetration-tester",
+        "engineering-minimal-change-engineer",
+        "finance-accounts-payable-agent",
+        "marketing-short-video-editing-coach",
+        "security-penetration-tester",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -48,8 +71,15 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-chief-security-officer.md",
+      "depends_on": [
+        "cybersecurity-paloalto-expert",
+        "data-science-engineering-language-model-nlp",
+        "engineering-email-intelligence-engineer",
+        "finance-engineering-credit-risk-model"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -60,8 +90,18 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-cloud-security-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "finance-accounts-payable-agent",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-identity-access",
+        "infrastructure-kubernetes-expert",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-4-hardening"
       ]
     },
     {
@@ -72,8 +112,16 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-compliance-auditor.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -84,7 +132,16 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-devsecops-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-code-reviewer",
+        "engineering-container-orchestration",
+        "government-public-safety-analyst",
+        "infrastructure-devops-platform",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build",
         "phase-4-hardening"
       ]
@@ -97,9 +154,33 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-digital-forensics.md",
+      "depends_on": [
+        "cybersecurity-engineering-endpoint-forensics",
+        "engineering-cache-specialist",
+        "engineering-olap-database",
+        "operations-executive-summary-generator",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-4-hardening",
         "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-director",
+      "name": "网络安全总监",
+      "description": "网络安全领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🛡\"",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-director.md",
+      "depends_on": [
+        "cybersecurity-general-manager",
+        "security-threat-intelligence-analyst"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -110,6 +191,11 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-biometric-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-cybersecurity-risk",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
@@ -123,8 +209,14 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-compliance-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -135,6 +227,12 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-cryptography-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-security-architect-cloud",
+        "engineering-quantum-computing",
+        "finance-engineering-risk-quant",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
@@ -148,6 +246,12 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-customer-identity-access.md",
+      "depends_on": [
+        "cybersecurity-cloud-security-architect",
+        "finance-engineering-credit-risk-model",
+        "legal-engineering-legal-document-automation",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
@@ -161,8 +265,15 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-cyber-risk-model.md",
+      "depends_on": [
+        "cybersecurity-appsec-engineer",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -173,8 +284,16 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-cybersecurity-risk.md",
+      "depends_on": [
+        "cybersecurity-grc-specialist",
+        "finance-accounts-payable-agent",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -185,8 +304,15 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-data-privacy-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-hardware-security",
+        "data-science-engineering-deep-learning-training",
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -197,8 +323,15 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-endpoint-forensics.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-incident-response",
+        "finance-engineering-credit-risk-model",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -209,6 +342,12 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-firmware-security.md",
+      "depends_on": [
+        "cybersecurity-appsec-engineer",
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-search-query-analyst",
+        "sales-data-extraction-agent"
+      ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
@@ -222,7 +361,14 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-forensic-analyst.md",
+      "depends_on": [
+        "cybersecurity-digital-forensics",
+        "finance-engineering-credit-risk-model",
+        "legal-engineering-legal-document-automation",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-4-hardening",
         "phase-6-operate"
       ]
@@ -235,6 +381,12 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-hardware-security.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "energy-engineering-carbon-capture-storage",
+        "finance-engineering-credit-risk-model",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
@@ -248,7 +400,13 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-network-security.md",
+      "depends_on": [
+        "cybersecurity-fortinet-expert",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build",
         "phase-4-hardening"
       ]
@@ -261,8 +419,15 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-privacy-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-engineering-credit-risk-model",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -273,8 +438,16 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-security-architect-cloud.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-engineering-credit-risk-model",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-4-hardening"
       ]
     },
     {
@@ -285,6 +458,12 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-security-champion.md",
+      "depends_on": [
+        "cybersecurity-paloalto-expert",
+        "data-science-engineering-deep-learning-training",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
@@ -298,6 +477,13 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-security-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-embedded-database",
+        "engineering-git-workflow-master",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-github-actions-expert"
+      ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
@@ -311,6 +497,13 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-engineering-threat-detection-engineer.md",
+      "depends_on": [
+        "infrastructure-github-actions-expert",
+        "marketing-book-co-author",
+        "security-threat-intelligence-analyst",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-4-hardening",
         "phase-6-operate"
@@ -324,8 +517,29 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-fortinet-expert.md",
+      "depends_on": [
+        "operations-report-distribution-agent",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "cybersecurity-general-manager",
+      "name": "网络安全总经理",
+      "description": "网络安全领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🛡\"",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-general-manager.md",
+      "depends_on": [
+        "cybersecurity-director"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -336,8 +550,17 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-grc-specialist.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-code-reviewer",
+        "infrastructure-engineering-incident-response-commander",
+        "thinking-models-decision-frameworks",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-4-hardening"
       ]
     },
     {
@@ -348,6 +571,31 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-incident-response.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-document-automation"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "cybersecurity-kali-linux",
+      "name": "Kali Linux安全测试专家",
+      "description": "Kali Linux渗透测试平台专家，覆盖工具链（Metasploit/Burp Suite/Nmap/Wireshark/Hashcat/Hydra）、环境配置、取证分析与红队基础设施",
+      "emoji": "🐉",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-kali-linux.md",
+      "depends_on": [
+        "cybersecurity-penetration-tester",
+        "operations-executive-summary-generator"
+      ],
       "nexus_roles": [
         "phase-4-hardening",
         "phase-6-operate"
@@ -361,7 +609,13 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-malware-analyst.md",
+      "depends_on": [
+        "infrastructure-engineering-incident-response-commander",
+        "security-threat-intelligence-analyst",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-4-hardening",
         "phase-6-operate"
       ]
@@ -374,6 +628,10 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-paloalto-expert.md",
+      "depends_on": [
+        "infrastructure-windows-server",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -387,8 +645,15 @@
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-penetration-tester.md",
       "depends_on": [
+        "cybersecurity-malware-analyst",
         "cybersecurity-threat-intelligence",
-        "cybersecurity-malware-analyst"
+        "finance-accounts-payable-agent",
+        "government-social-work",
+        "infrastructure-identity-access",
+        "operations-executive-summary-generator",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-4-hardening"
@@ -402,8 +667,16 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-security-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-frontend-developer",
+        "finance-engineering-credit-risk-model",
+        "infrastructure-identity-access",
+        "project-management-pmp"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -415,9 +688,12 @@
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-soc-analyst.md",
       "depends_on": [
-        "cybersecurity-threat-intelligence"
+        "finance-accounts-payable-agent",
+        "infrastructure-engineering-incident-response-commander",
+        "security-threat-intelligence-analyst"
       ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-4-hardening",
         "phase-6-operate"
       ]
@@ -430,7 +706,15 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-threat-intelligence.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-accounts-payable-agent",
+        "finance-engineering-credit-risk-model",
+        "legal-criminal-defense-attorney",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-4-hardening",
         "phase-6-operate"
       ]
@@ -443,6 +727,9 @@
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-wireshark-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]

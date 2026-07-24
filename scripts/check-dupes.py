@@ -4,6 +4,9 @@
 Reads AGENTS.json and uses difflib to compute string similarity
 ratios between all agent pairs.  Flags pairs above the similarity
 threshold as potential duplicates that merit manual review.
+
+When duplicates are found, compares quality scores to recommend
+which agent to keep (higher score = better candidate to retain).
 """
 
 import argparse
@@ -14,6 +17,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 INDEX_PATH = REPO / "AGENTS.json"
+RISK_ORDER = {"critical": 0, "high": 1, "general": 2}
 
 
 def find_duplicates(
@@ -105,12 +109,53 @@ def main() -> None:
         print(f"No duplicate pairs found (threshold={args.threshold}).")
         sys.exit(0)
 
+    # Load scoring to compare duplicates
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "score_agents", str(REPO / "scripts" / "score-agents.py"))
+        if spec is None or spec.loader is None:
+            raise ImportError("Could not load score_agents module")
+        score_mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(score_mod)
+        has_scorer = True
+    except Exception:
+        has_scorer = False
+
+    def _get_score(agent_dict):
+        if not has_scorer:
+            return None
+        try:
+            f = REPO / agent_dict["path"]
+            if f.exists():
+                r = score_mod.score_agent(f, check_freshness=False)
+                return r["total"], r["grade"], r.get("risk_tier", "general")
+        except Exception:
+            pass
+        return None
+
     print(f"Potential duplicate agents (threshold={args.threshold}):\n")
     for comp, nr, dr, a, b in pairs:
         print(f"  [{comp:.0%}]  {a['name']}  <->  {b['name']}")
         print(f"            name={nr:.0%}  desc={dr:.0%}")
         print(f"            {a['category']}/{a['id']}")
         print(f"            {b['category']}/{b['id']}")
+
+        # Score comparison
+        sa = _get_score(a)
+        sb = _get_score(b)
+        if sa and sb:
+            better = a if sa[0] > sb[0] else b if sb[0] > sa[0] else None
+            print(f"            scores: {sa[0]}/10 {sa[1]} vs {sb[0]}/10 {sb[1]}")
+            if better:
+                risk_a = RISK_ORDER.get(sa[2], 99)
+                risk_b = RISK_ORDER.get(sb[2], 99)
+                if risk_a < risk_b:
+                    print(f"            KEEP {a['id']} (higher risk tier: {sa[2]} vs {sb[2]})")
+                elif risk_b < risk_a:
+                    print(f"            KEEP {b['id']} (higher risk tier: {sb[2]} vs {sa[2]})")
+                else:
+                    print(f"            KEEP {better['id']} (higher score: {max(sa[0], sb[0])}/10)")
         print()
 
     print(f"Total: {len(pairs)} pair(s) flagged for review.")

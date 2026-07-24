@@ -1,7 +1,7 @@
 {
   "category": "fashion",
-  "agent_count": 4,
-  "generated": "2026-07-05",
+  "agent_count": 7,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "fashion-brand-manager",
@@ -11,6 +11,15 @@
       "category": "fashion",
       "subcategory": "",
       "path": "fashion/fashion-brand-manager.md",
+      "depends_on": [
+        "design-cultural-intelligence-strategist",
+        "logistics-last-mile-delivery",
+        "marketing-linkedin-content-creator",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-social-media-strategist",
+        "specialized-personal-growth-mentor",
+        "unity-shader-graph-artist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -23,7 +32,62 @@
       "category": "fashion",
       "subcategory": "",
       "path": "fashion/fashion-designer.md",
+      "depends_on": [
+        "aerospace-military-materials-manufacturing",
+        "design-cultural-intelligence-strategist",
+        "finance-accounts-payable-agent",
+        "gis-drone-reality-mapping",
+        "libraries-library-science",
+        "logistics-last-mile-delivery",
+        "specialized-personal-growth-mentor",
+        "thinking-models-decision-frameworks",
+        "unity-shader-graph-artist"
+      ],
       "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "fashion-director",
+      "name": "时尚总监",
+      "description": "时尚领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"👗\"",
+      "category": "fashion",
+      "subcategory": "",
+      "path": "fashion/fashion-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "fashion-general-manager",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "fashion-general-manager",
+      "name": "时尚总经理",
+      "description": "时尚领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"👗\"",
+      "category": "fashion",
+      "subcategory": "",
+      "path": "fashion/fashion-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "fashion-director",
+        "government-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
         "phase-5-launch"
       ]
     },
@@ -35,6 +99,15 @@
       "category": "fashion",
       "subcategory": "",
       "path": "fashion/fashion-merchandiser.md",
+      "depends_on": [
+        "fashion-brand-manager",
+        "finance-cost-accountant",
+        "government-social-work",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "lottery-risk-manager",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -47,8 +120,38 @@
       "category": "fashion",
       "subcategory": "",
       "path": "fashion/fashion-sustainability.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-social-media-platform",
+        "fashion-brand-manager",
+        "food-beverage-food-safety",
+        "gis-drone-reality-mapping",
+        "marketing-paid-media-auditor",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "fashion-textile-design",
+      "name": "纺织与面料设计专家",
+      "description": "纺织纤维科学、面料设计与织造、针织与无纺布技术、染色与后整理工艺、功能性纺织品、可持续纺织与循环时尚专家",
+      "emoji": "🧵",
+      "category": "fashion",
+      "subcategory": "",
+      "path": "fashion/fashion-textile-design.md",
+      "depends_on": [
+        "aerospace-military-materials-manufacturing",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "marketing-market-research"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     }
   ]

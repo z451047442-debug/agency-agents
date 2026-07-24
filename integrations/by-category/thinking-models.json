@@ -1,0 +1,251 @@
+{
+  "category": "thinking-models",
+  "agent_count": 13,
+  "generated": "2026-07-16",
+  "agents": [
+    {
+      "id": "thinking-models-ai-paradigms",
+      "name": "AI与计算机科学范式思维专家",
+      "description": "符号主义(知识图谱与逻辑推理)/连接主义(深度学习与分布式表征)/行为主义(强化学习与奖惩函数)/中本聪(去中心化信任)/区块链(不可篡改账本与智能合约)AI范式思维框架专家",
+      "emoji": "🤖",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-ai-paradigms.md",
+      "depends_on": [
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "web3-engineering-smart-contract-security",
+        "web3-engineering-solidity-smart-contract-engineer",
+        "web3-smart-contract-dev"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "thinking-models-artistic-creators",
+      "name": "文学与艺术创作思维模型专家",
+      "description": "莎士比亚(狐狸型多目标思维)/但丁(刺猬型单一理念思维)/伍尔芙(内省意识流思维)/宫崎骏(骄阳游侠式天赋思维)/迪士尼(梦想家与现实主义结合思维)/毕加索(解构与重组艺术思维)/米开朗基罗(从材料中解放形象思维)等文学与艺术大师创作思维框架专家",
+      "emoji": "🎨",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-artistic-creators.md",
+      "depends_on": [
+        "design-creative-tools",
+        "engineering-git-workflow-master",
+        "specialized-agentic-identity-trust",
+        "specialized-habit-formation",
+        "specialized-identity-graph-operator",
+        "testing-engineering-test-automation-framework",
+        "unity-shader-graph-artist"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "thinking-models-china-business-strategy",
+      "name": "中国企业家与东方经营思维模型专家",
+      "description": "任正非(战略框架/悖论整合/反向思维)/稻盛和夫(阿米巴/敬天爱人/六项精进)/松下幸之助(自来水哲学)/盛田昭夫(创新市场创造)/本田宗一郎(现场现物)/毛泽东(实践论/矛盾论/大跨度战略)/金一南(胜者思维)/孙正义(时光机模型)/刘伯承(斗智斗力)等东方经营与战略思维框架专家",
+      "emoji": "🏯",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-china-business-strategy.md",
+      "depends_on": [
+        "aerospace-military-theory-strategy",
+        "design-cultural-intelligence-strategist",
+        "education-academic-research-scientist",
+        "marketing-market-research"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "thinking-models-cognitive-biases",
+      "name": "认知偏误与行为决策专家",
+      "description": "前景理论、确认偏误、损失规避、沉没成本、系统1与系统2、易得性偏差、锚定效应、框架效应、有限理性、过度自信、后见之明等30+认知偏误与行为经济学思维模型专家",
+      "emoji": "🧠",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-cognitive-biases.md",
+      "depends_on": [
+        "education-number-theory",
+        "product-behavioral-nudge-engine",
+        "specialized-agentic-identity-trust"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "thinking-models-decision-frameworks",
+      "name": "通用思维与决策框架专家",
+      "description": "批判性思维/系统思维/设计思维/金字塔原理/六顶思考帽/奥卡姆剃刀/汉隆剃刀/二阶思维/复利思维/复盘思维/冗余备份/发散收敛/思维导图/横向思维/MECE/10-10-10原则等通用思维框架专家",
+      "emoji": "🧩",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-decision-frameworks.md",
+      "depends_on": [
+        "design-creative-tools",
+        "gis-drone-reality-mapping",
+        "robotics-motion-control",
+        "specialized-personal-growth-mentor",
+        "testing-engineering-test-automation-framework"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "thinking-models-economic-thinkers",
+      "name": "经济学思维模型专家",
+      "description": "哈耶克(自发秩序)/米塞斯(行动学)/凯恩斯(宏观需求管理)/边际效用/机会成本/奥地利学派/芝加哥学派经济学思维框架专家",
+      "emoji": "📈",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-economic-thinkers.md",
+      "depends_on": [
+        "government-social-work",
+        "marketing-private-domain-operator"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "thinking-models-investment-masters",
+      "name": "投资与商业大师思维模型专家",
+      "description": "Buffett(双目标清单/能力圈/安全边际)、Munger(多元思维模型/逆向思维/人类误判心理学)、Dalio(原则/极度透明)、Soros(反身性)、Taleb(反脆弱/黑天鹅)、Thiel(逆向思维/0到1)、Welch(数一数二)、Grove(杠杆思维)、Franklin(十三美德)等投资与商业思想大师思维框架专家",
+      "emoji": "💰",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-investment-masters.md",
+      "depends_on": [
+        "game-development-game-psychology",
+        "marketing-market-research",
+        "testing-engineering-test-automation-framework"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "thinking-models-military-strategy",
+      "name": "军事战略思维专家",
+      "description": "博伊德(OODA循环)/克劳塞维茨(战争迷雾)/孙子(全胜战略)/毛泽东(持久战)/若米尼(决定性点)/朱可夫(心理换位)/金一南(胜者思维)军事战略思维框架专家",
+      "emoji": "⚔️",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-military-strategy.md",
+      "depends_on": [
+        "aerospace-unmanned-intelligent-military",
+        "design-cultural-intelligence-strategist",
+        "education-cultural-heritage-law",
+        "infrastructure-engineering-incident-response-commander",
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "thinking-models-philosophy-thinkers",
+      "name": "东西方哲学思想家思维模型专家",
+      "description": "孔子(中庸/仁学)/孟子(性善论)/老子(道法自然)/庄子(齐物)/韩非(法术势)/孙子(全胜战略)/王阳明(知行合一)/苏格拉底(诘问)/尼采(视角主义)/阿伦特(积极式思维)/克里希那穆提(否定式思维)/维特根斯坦(语言游戏)等东西方哲学思维框架专家",
+      "emoji": "🏛️",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-philosophy-thinkers.md",
+      "depends_on": [
+        "game-development-game-psychology",
+        "parenting-family-education-consulting",
+        "specialized-personal-growth-mentor",
+        "testing-engineering-test-automation-framework"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "thinking-models-political-leaders",
+      "name": "政治与军事领袖思维模型专家",
+      "description": "拿破仑(战略征服思维)/丘吉尔(坚韧演说思维)/华盛顿(宽容气度思维)/艾森豪威尔(授权与各司其职思维)/林肯(团队对手思维)/罗斯福(实验主义)/曼德拉(和解思维)等政治军事领袖决策与领导思维框架专家",
+      "emoji": "🏛️",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-political-leaders.md",
+      "depends_on": [
+        "aerospace-military-aviation-weapons",
+        "specialized-agentic-identity-trust",
+        "specialized-personal-growth-mentor",
+        "testing-engineering-test-automation-framework",
+        "web3-defi-strategist"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "thinking-models-quantum-thinkers",
+      "name": "量子物理学思维专家",
+      "description": "普朗克(量子化)/玻尔(互补原理)/海森堡(不确定性原理)/薛定谔(波动力学)/费曼(路径积分)/狄拉克(反物质)量子物理学思维框架专家",
+      "emoji": "⚛️",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-quantum-thinkers.md",
+      "depends_on": [
+        "data-science-model-qa",
+        "education-number-theory",
+        "gis-drone-reality-mapping",
+        "specialized-personal-growth-mentor",
+        "testing-reality-checker",
+        "unity-editor-tool-developer"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "thinking-models-scientific-method",
+      "name": "科学思维方法论专家",
+      "description": "费曼学习法/波普尔证伪主义/库恩范式转换/达尔文演化思维/爱因斯坦简洁思维/伽利略挑战权威实证思维/居里夫人坚韧实验思维/麦克林托克有机式思维/爱迪生多可能性探索思维/公理化思维/概率思维/贝叶斯更新/博弈论/OODA循环专家",
+      "emoji": "🔬",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-scientific-method.md",
+      "depends_on": [
+        "education-higher-ed-teaching",
+        "education-stem-engineering-teaching",
+        "education-vocational-trade-teaching",
+        "testing-engineering-test-automation-framework"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "thinking-models-tech-leaders",
+      "name": "科技与创新领袖思维模型专家",
+      "description": "Musk(第一性原理/五步工作法/白痴指数/物理学思维)、Jobs(不同思维/极简主义)、Bezos(长期主义/逆向工作法/遗憾最小化)、Nadella(同理心)、Gates(思考周)、黄仁勋(GPU并行思维)、Hinton(深度学习)、LeCun(自监督学习)、李飞飞(数据驱动)等科技领袖思维框架专家",
+      "emoji": "🚀",
+      "category": "thinking-models",
+      "subcategory": "",
+      "path": "thinking-models/thinking-models-tech-leaders.md",
+      "depends_on": [
+        "engineering-minimal-change-engineer",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy"
+      ]
+    }
+  ]
+}

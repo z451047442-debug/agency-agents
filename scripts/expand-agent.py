@@ -17,12 +17,20 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-from _shared import BOLD, CYAN, GREEN, RED, RESET, YELLOW, discover_agents, get_body, load_module
+from _shared import (
+    BOLD,
+    CORE_SECTIONS,
+    CYAN,
+    GREEN,
+    RED,
+    RESET,
+    YELLOW,
+    discover_agents,
+    get_body,
+    get_score_agent,
+)
 
-_SCRIPTS = Path(__file__).resolve().parent
-_score_agents = load_module("score_agents", _SCRIPTS / "score-agents.py")
-CORE_SECTIONS = _score_agents.CORE_SECTIONS
-score_agent = _score_agents.score_agent
+score_agent = get_score_agent()
 
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
@@ -107,15 +115,45 @@ def find_reference_agents(category, agent_id, top_n=3):
     return candidates[:top_n]
 
 
-def analyze_expansion_needs(agent_id, category, filepath):
-    """Analyze what an agent needs to reach A-grade."""
+def print_diagnosis(result):
+    """Domain-aware diagnosis showing exactly what the agent lacks."""
+    scores = result["scores"]
+    ds = result.get("domain_signals", 0)
+    ac = result.get("actionable_count", 0)
+    sub = result.get("substantive_sections", 0)
+    risk = result.get("risk_tier", "general")
+
+    print(f"\n{BOLD}Diagnosis: {result.get('id', '?')} ({result.get('category', '?')}){RESET}")
+    print(f"  Score: {result.get('total', '?')}/10 ({result.get('grade', '?')}) | "
+          f"Risk: {risk} | Words: {result.get('word_count', 0)}")
+    print(f"  Depth={scores.get('content_depth', '?')}/3 | Structure={scores.get('structure', '?')}/3 | "
+          f"FM={scores.get('frontmatter', '?')}/2 | Health={scores.get('file_health', '?')}/2")
+
+    if ds < 5:
+        print(f"  {YELLOW}-> domain signals: {ds} (<5) — add tool names, standards, framework references{RESET}")
+    if ac < 6:
+        print(f"  {YELLOW}-> actionable directives: {ac} (<6) — add checklists, 'you must', numbered steps{RESET}")
+    if sub < 7:
+        print(f"  {YELLOW}-> substantive sections: {sub}/7 — {7-sub} sections need >=30 words of content{RESET}")
+    if risk == "critical" and result["total"] < 7:
+        print(f"  {RED}-> CRITICAL-RISK agent below B-grade — priority review required{RESET}")
+    if result.get("issues"):
+        for issue in result["issues"][:5]:
+            print(f"  {YELLOW}  - {issue}{RESET}")
+    print()
+
+
+def analyze_expansion_needs(agent_id, category, filepath, verbose=False):
+    """Analyze what an agent needs to reach A-grade, with domain-aware diagnostics."""
     result = score_agent(filepath, check_freshness=False)
     scores = result["scores"]
+
+    if verbose:
+        print_diagnosis(result)
 
     needs = []
     word_budget = 0
 
-    # Check each dimension
     if scores["content_depth"] < 3:
         gap = 800 - result["word_count"]
         if gap > 0:
@@ -346,7 +384,7 @@ def main():
         sys.exit(1)
 
     # Analyze
-    analysis = analyze_expansion_needs(agent_id, category, filepath)
+    analysis = analyze_expansion_needs(agent_id, category, filepath, verbose=True)
 
     if analysis["current_grade"] == "A":
         print(f"\n{GREEN}Agent '{agent_id}' is already A-grade ({analysis['current_total']}/10).{RESET}")

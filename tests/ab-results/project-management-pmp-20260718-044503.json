@@ -1,0 +1,38 @@
+{
+  "agent_id": "project-management-pmp",
+  "run_at": "2026-07-18T04:45:03.422493+00:00",
+  "test_cases": [
+    {
+      "id": "tc-004-project-risk",
+      "title": "Project Risk Assessment",
+      "criteria": {
+        "evm_interpretation": {
+          "required": 1,
+          "actual": 44,
+          "met": true
+        },
+        "risk_response_types": {
+          "required": 2,
+          "actual": 11,
+          "met": true
+        },
+        "quantified_advice": {
+          "required": 2,
+          "actual": 13,
+          "met": true
+        },
+        "stakeholder_guidance": {
+          "required": 1,
+          "actual": 26,
+          "met": true
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_criteria": 4,
+    "met_criteria": 4,
+    "grade": "A",
+    "score_pct": 100.0
+  }
+}

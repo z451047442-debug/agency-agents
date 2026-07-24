@@ -1,7 +1,7 @@
 {
   "category": "web3",
   "agent_count": 13,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "web3-blockchain-architect",
@@ -11,6 +11,10 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-blockchain-architect.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "web3-crypto-researcher"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -23,6 +27,15 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-crypto-researcher.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "marketing-market-research",
+        "operations-report-distribution-agent",
+        "product-trend-researcher",
+        "web3-engineering-smart-contract-security",
+        "web3-smart-contract-dev",
+        "web3-smart-contract-developer"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -35,6 +48,14 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-defi-analyst.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-analytics",
+        "operations-executive-summary-generator",
+        "web3-engineering-smart-contract-security",
+        "web3-smart-contract-dev",
+        "web3-smart-contract-developer"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -47,7 +68,15 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-defi-strategist.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "engineering-multi-agent-systems-architect",
+        "finance-capital-markets-analyst",
+        "finance-engineering-credit-risk-model",
+        "web3-defi-analyst"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -59,6 +88,14 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-director.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent",
+        "web3-engineering-smart-contract-security",
+        "web3-smart-contract-dev",
+        "web3-smart-contract-developer"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -71,6 +108,14 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-engineering-blockchain-architect.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent",
+        "web3-engineering-smart-contract-security",
+        "web3-smart-contract-dev",
+        "web3-smart-contract-developer"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -83,6 +128,14 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-engineering-blockchain-developer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-code-reviewer",
+        "engineering-git-workflow-master",
+        "engineering-graph-database",
+        "infrastructure-identity-access",
+        "web3-smart-contract-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,8 +148,17 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-engineering-smart-contract-security.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent",
+        "web3-smart-contract-dev",
+        "web3-smart-contract-developer"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -107,6 +169,17 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-engineering-solidity-smart-contract-engineer.md",
+      "depends_on": [
+        "engineering-minimal-change-engineer",
+        "government-social-work",
+        "home-lifestyle-personal-finance",
+        "logistics-public-transit",
+        "marketing-feed-ad-optimizer",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "testing-workflow-optimizer",
+        "web3-smart-contract-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,6 +192,11 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-engineering-web3-frontend.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "logistics-engineering-supply-chain-risk",
+        "web3-engineering-blockchain-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -131,6 +209,14 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-frontend-developer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based",
+        "marketing-private-domain-operator",
+        "web3-engineering-web3-frontend"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +229,13 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-smart-contract-dev.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "logistics-engineering-supply-chain-risk",
+        "web3-engineering-smart-contract-security",
+        "web3-smart-contract-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +248,15 @@
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-smart-contract-developer.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "engineering-programming-language",
+        "marketing-private-domain-operator",
+        "testing-engineering-test-automation-framework",
+        "web3-engineering-smart-contract-security",
+        "web3-engineering-solidity-smart-contract-engineer",
+        "web3-smart-contract-dev"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

@@ -1,7 +1,7 @@
 {
   "category": "security",
-  "agent_count": 6,
-  "generated": "2026-07-05",
+  "agent_count": 8,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "security-appsec-engineer",
@@ -11,6 +11,17 @@
       "category": "security",
       "subcategory": "",
       "path": "security/security-appsec-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "logistics-public-transit",
+        "security-cloud-security-architect",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -23,8 +34,61 @@
       "category": "security",
       "subcategory": "",
       "path": "security/security-cloud-security-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-embedded-database",
+        "engineering-minimal-change-engineer",
+        "infrastructure-github-actions-expert"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "security-director",
+      "name": "安保服务总监",
+      "description": "安保服务领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🔒\"",
+      "category": "security",
+      "subcategory": "",
+      "path": "security/security-director.md",
+      "depends_on": [
+        "home-lifestyle-garden-landscape",
+        "hr-tech-people-analytics",
+        "security-general-manager",
+        "specialized-habit-formation",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "security-general-manager",
+      "name": "安保服务总经理",
+      "description": "安保服务领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🔒\"",
+      "category": "security",
+      "subcategory": "",
+      "path": "security/security-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-director",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -35,7 +99,15 @@
       "category": "security",
       "subcategory": "",
       "path": "security/security-incident-responder.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-endpoint-forensics",
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-email-intelligence-engineer",
+        "infrastructure-engineering-incident-response-commander"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
       ]
@@ -48,6 +120,14 @@
       "category": "security",
       "subcategory": "",
       "path": "security/security-penetration-tester.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-creative-tools",
+        "engineering-git-workflow-master",
+        "finance-accounts-payable-agent",
+        "infrastructure-engineering-incident-response-commander",
+        "security-incident-responder"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -60,6 +140,15 @@
       "category": "security",
       "subcategory": "",
       "path": "security/security-senior-secops.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-codebase-onboarding-engineer",
+        "engineering-embedded-database",
+        "marketing-private-domain-operator",
+        "security-appsec-engineer",
+        "specialized-agentic-identity-trust",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -72,7 +161,18 @@
       "category": "security",
       "subcategory": "",
       "path": "security/security-threat-intelligence-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-email-intelligence-engineer",
+        "government-social-work",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-4-hardening"
       ]
     }

@@ -1,7 +1,7 @@
 {
   "category": "product",
-  "agent_count": 11,
-  "generated": "2026-07-05",
+  "agent_count": 13,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "product-ai-pm",
@@ -11,6 +11,15 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-ai-pm.md",
+      "depends_on": [
+        "construction-engineering-landscape-architecture",
+        "cybersecurity-engineering-customer-identity-access",
+        "design-engineering-user-research-system",
+        "food-beverage-food-safety",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-short-video-editing-coach",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -24,6 +33,13 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "logistics-last-mile-delivery",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -36,6 +52,14 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-b2b-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-engineering-credit-risk-model",
+        "infrastructure-identity-access",
+        "marketing-email-marketing",
+        "marketing-paid-media-programmatic-buyer",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
@@ -50,9 +74,38 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-behavioral-nudge-engine.md",
+      "depends_on": [
+        "engineering-email-intelligence-engineer",
+        "product-ai-pm",
+        "sales-discovery-coach",
+        "specialized-habit-formation",
+        "specialized-productivity-time-management",
+        "thinking-models-cognitive-biases"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "product-director",
+      "name": "产品管理总监",
+      "description": "产品管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"📱\"",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "product-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -63,9 +116,44 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-feedback-synthesizer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "design-engineering-user-research-system",
+        "education-special-needs",
+        "engineering-social-media-platform",
+        "finance-engineering-risk-quant",
+        "marketing-paid-media-search-query-analyst",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "product-general-manager",
+      "name": "产品管理总经理",
+      "description": "产品管理领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"📱\"",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "pets-general-manager",
+        "product-director",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -76,6 +164,14 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-growth-manager.md",
+      "depends_on": [
+        "data-science-engineering-video-analytics",
+        "finance-engineering-credit-risk-model",
+        "logistics-last-mile-delivery",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -89,7 +185,15 @@
       "subcategory": "",
       "path": "product/product-manager.md",
       "depends_on": [
-        "product-product-analyst"
+        "construction-engineering-green-building",
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "marketing-book-co-author",
+        "marketing-email-marketing",
+        "project-management-meeting-notes-specialist",
+        "sales-customer-onboarding",
+        "web3-engineering-smart-contract-security",
+        "web3-smart-contract-dev"
       ],
       "nexus_roles": [
         "phase-0-discovery",
@@ -105,6 +209,16 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-operations-manager.md",
+      "depends_on": [
+        "data-science-feature-store",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "hr-people-analytics",
+        "infrastructure-engineering-incident-response-commander",
+        "marketing-email-marketing",
+        "product-ai-pm",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
@@ -119,6 +233,16 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-sprint-prioritizer.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-language-model-nlp",
+        "engineering-multi-agent-systems-architect",
+        "operations-report-distribution-agent",
+        "project-management-agile-coach",
+        "project-management-meeting-notes-specialist",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -132,6 +256,17 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-technical-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-consolidation-agent",
+        "data-science-engineering-knowledge-management",
+        "finance-cost-accountant",
+        "food-beverage-food-safety",
+        "marketing-customer-lifecycle",
+        "mining-safety",
+        "product-ai-pm",
+        "spatial-computing-engineering-metaverse-experience"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
@@ -146,6 +281,18 @@
       "category": "product",
       "subcategory": "",
       "path": "product/product-trend-researcher.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "education-academic-research-scientist",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "engineering-social-media-platform",
+        "government-public-safety-analyst",
+        "marketing-customer-advocacy",
+        "marketing-customer-lifecycle",
+        "marketing-paid-media-search-query-analyst",
+        "product-ai-pm"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]

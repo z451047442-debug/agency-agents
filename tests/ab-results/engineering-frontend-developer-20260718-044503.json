@@ -1,0 +1,38 @@
+{
+  "agent_id": "engineering-frontend-developer",
+  "run_at": "2026-07-18T04:45:03.412716+00:00",
+  "test_cases": [
+    {
+      "id": "tc-001-frontend-perf",
+      "title": "Frontend Performance Audit",
+      "criteria": {
+        "named_techniques": {
+          "required": 3,
+          "actual": 22,
+          "met": true
+        },
+        "actionable_steps": {
+          "required": 5,
+          "actual": 86,
+          "met": true
+        },
+        "metric_targets": {
+          "required": 1,
+          "actual": 30,
+          "met": true
+        },
+        "code_examples": {
+          "required": 0,
+          "actual": 7,
+          "met": true
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_criteria": 4,
+    "met_criteria": 4,
+    "grade": "A",
+    "score_pct": 100.0
+  }
+}

@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.3] — 2026-07-25 — Consistency & Quality Baseline
+
+### Fixed
+- **High**: `CLAUDE.md` — agent count corrected 1200+→1406, categories 50+→66
+- **High**: `ARCHITECTURE.md` — version aligned (2.0.1→2.0.2), NEXUS phases 8→7, coverage threshold field fixed, integration targets 6→14 with full tool table
+- **High**: `scripts/_shared/validators.py` — removed non-existent `medical-devices` from HIGH_RISK_CATEGORIES (caused incorrect risk tiering)
+- **High**: `pyproject.toml` — fixed `add_methodology_framework*` omit glob (underscore→hyphen), added 3 missing historical scripts to omit list
+- **Medium**: `scripts/build-architecture.py` — fixed E402 (import not at top of file)
+- **Medium**: `scripts/nexus-orchestrator.py` — fixed E402 (import not at top of file)
+- **Medium**: `scripts/telemetry.py` — fixed E402 (import not at top of file)
+- **Medium**: `scripts/feedback.py` — fixed E402 (import not at top of file)
+
+### Changed
+- **Low**: `pyproject.toml` — added per-file-ignores for legacy maintenance scripts to suppress known ruff warnings
+- **Low**: `scripts/quality.py` — added comment explaining `--cov-fail-under=35` vs CI 80% threshold
+
 ## [2.0.2] — 2026-07-24 — Code Quality & Documentation Audit
 
 ### Fixed

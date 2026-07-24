@@ -1,7 +1,7 @@
 {
   "category": "telecom",
   "agent_count": 12,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "telecom-5g-core",
@@ -11,8 +11,17 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-5g-core.md",
+      "depends_on": [
+        "automotive-autonomous-driving",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "network-engineering-engineering-network-protocol",
+        "telecom-data-analyst",
+        "telecom-engineering-antenna-rf"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -23,8 +32,19 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-data-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "telecom-5g-core",
+        "telecom-engineering-antenna-rf"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-0-discovery",
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -35,8 +55,21 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-director.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "lottery-risk-compliance",
+        "marketing-customer-lifecycle",
+        "telecom-5g-core",
+        "telecom-data-analyst",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -47,8 +80,20 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-engineering-antenna-rf.md",
+      "depends_on": [
+        "aerospace-engineering-systems-aerospace",
+        "automotive-engineering-automotive-homologation-test",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "hr-performance-management",
+        "lottery-product-risk",
+        "telecom-5g-core",
+        "telecom-data-analyst"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -59,8 +104,20 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-engineering-electromagnetic-compatibility.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "hr-performance-management",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "marketing-japan-market-expert",
+        "telecom-5g-core",
+        "telecom-data-analyst"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -71,8 +128,20 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-engineering-maritime-navigation.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "marketing-demand-generation",
+        "operations-report-distribution-agent",
+        "telecom-5g-core",
+        "telecom-data-analyst"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -83,8 +152,18 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-engineering-radar-systems.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "hr-performance-management",
+        "iot-engineering-industrial-iot-platform",
+        "telecom-5g-core",
+        "telecom-data-analyst"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -95,8 +174,19 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-engineering-signal-integrity.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "finance-engineering-credit-risk-model",
+        "operations-report-distribution-agent",
+        "telecom-5g-core",
+        "telecom-data-analyst"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -107,8 +197,18 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-network-engineer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "telecom-5g-core",
+        "telecom-data-analyst"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -119,8 +219,18 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-ops-manager.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "telecom-5g-core",
+        "telecom-data-analyst"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -131,8 +241,17 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-optical-engineer.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "network-engineering-engineering-optical-fiber-sensing",
+        "specialized-document-generator",
+        "telecom-5g-core",
+        "telecom-data-analyst",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -143,8 +262,18 @@
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-product-manager.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "telecom-5g-core",
+        "telecom-data-analyst"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     }
   ]

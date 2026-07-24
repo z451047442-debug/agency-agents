@@ -1,7 +1,7 @@
 {
   "category": "testing",
   "agent_count": 20,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "testing-accessibility-auditor",
@@ -11,7 +11,15 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-accessibility-auditor.md",
+      "depends_on": [
+        "design-engineering-accessibility-engineer",
+        "operations-legal-compliance-checker",
+        "testing-evidence-collector",
+        "testing-reality-checker",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-4-hardening"
       ]
     },
@@ -23,6 +31,13 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-api-tester.md",
+      "depends_on": [
+        "cybersecurity-penetration-tester",
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "security-penetration-tester",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -35,6 +50,12 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-automation-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "finance-engineering-credit-risk-model",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -47,6 +68,12 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-director.md",
+      "depends_on": [
+        "engineering-ai-agent-developer",
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "testing-automation-architect"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -59,8 +86,16 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-engineering-quality-assurance-automation.md",
+      "depends_on": [
+        "engineering-ai-agent-developer",
+        "engineering-android-framework",
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -71,6 +106,13 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-engineering-reliability-testing.md",
+      "depends_on": [
+        "engineering-ai-agent-developer",
+        "engineering-code-reviewer",
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "testing-accessibility-auditor"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -83,8 +125,15 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-engineering-sdet.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "testing-playwright-expert"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -95,6 +144,11 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-engineering-software-tester.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -107,8 +161,16 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-engineering-test-automation-framework.md",
+      "depends_on": [
+        "education-special-needs",
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "operations-report-distribution-agent",
+        "testing-playwright-expert"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -119,8 +181,17 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-evidence-collector.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "education-special-needs",
+        "government-public-safety-analyst",
+        "insurance-auto-claims",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -131,6 +202,14 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-localization.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-cross-platform",
+        "engineering-i18n-l10n",
+        "engineering-multi-agent-systems-architect",
+        "engineering-programming-language",
+        "testing-accessibility-auditor"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -143,6 +222,15 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-mobile.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "data-science-engineering-language-model-nlp",
+        "engineering-android-developer",
+        "engineering-android-framework",
+        "engineering-mobile-app-builder",
+        "engineering-mobile-architect",
+        "testing-playwright-expert"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -155,6 +243,13 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-performance-benchmarker.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-engineering-incident-response-commander",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -167,8 +262,17 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-playwright-expert.md",
+      "depends_on": [
+        "data-science-feature-store",
+        "design-engineering-accessibility-engineer",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-github-actions-expert",
+        "testing-api-tester"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -179,6 +283,13 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-reality-checker.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "education-special-needs",
+        "government-public-safety-analyst",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -191,6 +302,12 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-security-penetration.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "legal-engineering-legal-document-automation",
+        "operations-report-distribution-agent",
+        "testing-accessibility-auditor"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -203,6 +320,14 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-test-results-analyzer.md",
+      "depends_on": [
+        "construction-cost-estimator",
+        "engineering-multi-agent-systems-architect",
+        "insurance-auto-claims",
+        "operations-executive-summary-generator",
+        "testing-playwright-expert",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -215,7 +340,15 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-tool-evaluator.md",
+      "depends_on": [
+        "operations-executive-summary-generator",
+        "specialized-productivity-time-management",
+        "testing-test-results-analyzer",
+        "thinking-models-decision-frameworks",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-4-hardening"
       ]
     },
@@ -227,6 +360,14 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-usability.md",
+      "depends_on": [
+        "aerospace-flight-test-engineer",
+        "data-science-engineering-language-model-nlp",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "operations-report-distribution-agent",
+        "testing-playwright-expert"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -239,6 +380,14 @@
       "category": "testing",
       "subcategory": "",
       "path": "testing/testing-workflow-optimizer.md",
+      "depends_on": [
+        "engineering-minimal-change-engineer",
+        "hr-tech-people-analytics",
+        "marketing-feed-ad-optimizer",
+        "specialized-productivity-time-management",
+        "testing-playwright-expert",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]

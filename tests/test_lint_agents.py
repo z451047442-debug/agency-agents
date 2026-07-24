@@ -240,14 +240,26 @@ class TestLintFileSections:
 
 class TestLintFileShortContent:
     def test_short_content_warns(self, tmp_path):
+        # Body >= 10 words but < 100 — should be WARN, not ERROR
         filepath = make_agent_file(
             tmp_path,
             "---\nname: Short\nemoji: X\ncolor: red\ndescription: Tiny\n---\n\n"
-            "## Identity\nJust a few words here.\n",
+            "## Identity\nJust a few words here but enough to reach the threshold.\n",
         )
         errors, warnings, infos = [], [], []
         lint_file(filepath, errors, warnings, infos)
         assert any("too short" in w for w in warnings)
+
+    def test_empty_body_error(self, tmp_path):
+        # Body < 10 words — should be ERROR
+        filepath = make_agent_file(
+            tmp_path,
+            "---\nname: Empty\nemoji: X\ncolor: red\ndescription: Tiny\n---\n\n"
+            "## Identity\nHi.\n",
+        )
+        errors, warnings, infos = [], [], []
+        lint_file(filepath, errors, warnings, infos)
+        assert any("empty or placeholder" in e for e in errors)
 
 
 class TestLintFileNexusRoles:

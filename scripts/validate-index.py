@@ -16,6 +16,7 @@ and filesystem cross-reference checks run; schema validation is skipped with a w
 import json
 import os
 import sys
+from collections import Counter
 from pathlib import Path
 
 from _shared import EXCLUDE_DIRS, REPO
@@ -78,6 +79,13 @@ def discover_md_files(repo_root):
             for fn in files:
                 if fn.endswith(".md"):
                     abs_path = os.path.join(root, fn)
+                    # Only include agent files that have YAML frontmatter
+                    try:
+                        with open(abs_path, "rb") as f:
+                            if f.read(3) != b"---":
+                                continue
+                    except OSError:
+                        continue
                     rel = os.path.relpath(abs_path, repo_root).replace(os.sep, "/")
                     result[rel] = abs_path
     return result
@@ -91,7 +99,7 @@ def check_cross_reference(data, md_files):
     has_errors = False
     lines = []
 
-    agent_paths = {a["path"] for a in data.get("agents", [])}
+    agent_paths = {a["path"] for a in data.get("agents", []) if "path" in a}
 
     orphan = agent_paths - set(md_files.keys())
     missing = set(md_files.keys()) - agent_paths
@@ -173,7 +181,7 @@ def main():
     if not args.sync_only:
         agents = data.get("agents", [])
         ids = [a["id"] for a in agents]
-        dupes = sorted({i for i in ids if ids.count(i) > 1})
+        dupes = sorted(i for i, c in Counter(ids).items() if c > 1)
         if dupes:
             print(f"FAIL: Duplicate agent IDs found: {', '.join(dupes)}")
             errors += 1

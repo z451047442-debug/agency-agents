@@ -68,9 +68,6 @@ BOX_INNER=48   # chars between the two | walls
 box_top() { printf "  +"; printf '%0.s-' $(seq 1 $BOX_INNER); printf "+\n"; }
 box_bot() { box_top; }
 box_sep() { printf "  |"; printf '%0.s-' $(seq 1 $BOX_INNER); printf "|\n"; }
-strip_ansi() {
-  awk '{ gsub(/\033\[[0-9;]*m/, ""); print }' <<< "$1"
-}
 box_row() {
   # Strip ANSI escapes when measuring visible length
   local raw="$1"
@@ -152,7 +149,7 @@ build_selection() {
     [[ -f "$AGENTS_FILE" ]] || { err "agents-file not found: $AGENTS_FILE"; exit 1; }
     while IFS= read -r line || [[ -n "$line" ]]; do
       line="${line%%#*}"                              # strip trailing comment
-      line="$(printf '%s' "$line" | xargs 2>/dev/null)" # trim
+      line="${line#"${line%%[![:space:]]*}"}"; line="${line%"${line##*[![:space:]]}"}"  # trim
       [[ -z "$line" ]] && continue
       slugs+="$(slugify "$line")"$'\n'
     done < "$AGENTS_FILE"
@@ -648,7 +645,7 @@ uninstall_generic() {
     ok "$label: removed $single_agent"
     return 0
   fi
-  while IFS= read -r -d """" f; do
+  while IFS= read -r -d $'\0' f; do
     [[ "$(head -1 "$f")" == "---" ]] || continue
     rm -f "$f" && (( count++ )) || true
   done < <(find "$dest" -name "*.md" -type f -print0 2>/dev/null)

@@ -228,16 +228,24 @@ depends_on:                   # optional (agent IDs this agent needs)
 
 ---
 
-## Layer 5: Integration Targets (6 tools)
+## Layer 5: Integration Targets (14 tools)
 
 | Tool | Format | Converter |
 |------|--------|-----------|
 | Claude Code | .md | direct (no conversion) |
+| Copilot | .md | direct (no conversion) |
+| Antigravity | SKILL.md | convert_antigravity() |
+| Gemini CLI | .md | convert_gemini_cli() |
+| OpenCode | .md | convert_opencode() |
 | Cursor | .mdc | convert_cursor() |
-| Gemini CLI | .gm.md | convert_gemini_cli() |
-| Codex | .txt | convert_codex() |
-| Kimi | .kimi.md | convert_kimi() |
-| Antigravity | .ag.md | convert_antigravity() |
+| Aider | CONVENTIONS.md | build_aider_windsurf() |
+| Windsurf | .windsurfrules | build_aider_windsurf() |
+| OpenClaw | SOUL/AGENTS/IDENTITY | convert_openclaw() |
+| Qwen | .md | convert_qwen() |
+| Kimi | agent.yaml | convert_kimi() |
+| Codex | .toml | convert_codex() |
+| Osaurus | SKILL.md | convert_osaurus() |
+| Hermes | plugin | build-hermes-plugin.py |
 
 ---
 
@@ -299,14 +307,14 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 
 | Metric | Value |
 |--------|-------|
-| Version | 2.0.1 |
+| Version | 2.0.2 |
 | Python | >=3.10 |
-| Coverage threshold | -v --tb=short --cov-fail-under=80% |
+| Coverage threshold | 80% |
 | Agent files | 1,406 |
 | Tool scripts | 33 (.py) + 20 (.sh) |
 | Tests | 1,161 across 34 modules |
 | CI workflows | 7 |
-| Integration targets | 6 |
-| NEXUS phases | 8 |
+| Integration targets | 14 |
+| NEXUS phases | 7 |
 
 Generated: 2026-07-24 00:36 UTC

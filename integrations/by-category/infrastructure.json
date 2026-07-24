@@ -1,7 +1,7 @@
 {
   "category": "infrastructure",
-  "agent_count": 96,
-  "generated": "2026-07-05",
+  "agent_count": 97,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "infrastructure-aliyun-architect",
@@ -11,8 +11,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-aliyun-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "engineering-olap-database"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -23,6 +29,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-ansible-expert.md",
+      "depends_on": [
+        "infrastructure-github-actions-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-argocd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -35,6 +46,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-apache-httpd-expert.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-argocd-expert",
+        "infrastructure-datadog-expert",
+        "infrastructure-nginx-expert",
+        "infrastructure-splunk-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -48,6 +67,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-argocd-expert.md",
+      "depends_on": [
+        "infrastructure-windows-server",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -60,6 +84,15 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-aruba-network.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-language-model-nlp",
+        "healthcare-mental-health",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-linux-admin",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -73,8 +106,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-aws-architect.md",
+      "depends_on": [
+        "infrastructure-github-actions-expert",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-storage-backup",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -85,9 +126,15 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-backup-admin.md",
+      "depends_on": [
+        "infrastructure-storage-backup",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
       ]
     },
     {
@@ -98,6 +145,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-brother-printer-expert.md",
+      "depends_on": [
+        "engineering-embedded-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -111,6 +163,10 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-cable-management.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -124,7 +180,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-cacti-expert.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-incident-response-commander"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -136,6 +199,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-canon-printer-expert.md",
+      "depends_on": [
+        "engineering-visual-studio-web-aspnet",
+        "healthcare-engineering-gene-editing-crispr",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -149,6 +218,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-cisco-network.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-identity-access",
+        "iot-engineering-smart-home",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -162,6 +239,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-cloud-cost-optimization.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-datadog-expert",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -175,6 +258,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-cmdb-configuration.md",
+      "depends_on": [
+        "engineering-database-optimizer",
+        "engineering-graph-database",
+        "gis-drone-reality-mapping",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -188,8 +278,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-cybersecurity-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-incident-response",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
+        "phase-4-hardening",
         "phase-6-operate"
       ]
     },
@@ -201,6 +299,15 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-dahua-server.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-dahua-surveillance",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -214,19 +321,9 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-dahua-surveillance.md",
-      "nexus_roles": [
-        "phase-2-foundation",
-        "phase-6-operate"
-      ]
-    },
-    {
-      "id": "infrastructure-data-center-network",
-      "name": "数据中心网络架构师",
-      "description": "超大规模数据中心网络设计专家，覆盖Spine-Leaf/Clos Fabric架构、VXLAN EVPN/BGP underlay-overlay、RoCEv2无损网络、DC互联(DCI)与网络自动化(ZTP/Ansible)",
-      "emoji": "🌐",
-      "category": "infrastructure",
-      "subcategory": "",
-      "path": "infrastructure/infrastructure-data-center-network.md",
+      "depends_on": [
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -240,6 +337,30 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-data-center.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "education-special-needs",
+        "manufacturing-engineering-test-chip-bringup",
+        "operations-report-distribution-agent",
+        "specialized-document-generator"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-data-center-network",
+      "name": "数据中心网络架构师",
+      "description": "超大规模数据中心网络设计专家，覆盖Spine-Leaf/Clos Fabric架构、VXLAN EVPN/BGP underlay-overlay、RoCEv2无损网络、DC互联(DCI)与网络自动化(ZTP/Ansible)",
+      "emoji": "🌐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-data-center-network.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -253,7 +374,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-datadog-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-threat-detection-engineer"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -265,6 +391,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-dell-server.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "engineering-git-workflow-master",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-office-365-expert",
+        "infrastructure-windows-server"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -278,6 +412,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-desktop-support-engineer.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-digital-workplace",
+        "infrastructure-windows-server"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -291,6 +432,15 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-devops-platform.md",
+      "depends_on": [
+        "engineering-ai-agent-developer",
+        "engineering-code-reviewer",
+        "engineering-database-optimizer",
+        "engineering-developer-experience",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -303,6 +453,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-digital-workplace.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "iot-edge-computing"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -316,6 +471,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-docker-expert.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-github-actions-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -328,7 +489,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-elk-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -340,6 +506,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-bios-uefi.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "engineering-ai-agent-developer",
+        "engineering-database-optimizer",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -353,6 +527,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-cicd-engineer.md",
+      "depends_on": [
+        "infrastructure-github-actions-expert",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -366,8 +545,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-cloud-architect.md",
+      "depends_on": [
+        "engineering-database-optimizer",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-cloud-finops"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -378,6 +565,10 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-cloud-finops.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -391,6 +582,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-cloud-migration.md",
+      "depends_on": [
+        "engineering-ai-agent-developer",
+        "engineering-database-optimizer",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
@@ -404,6 +602,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-cloud-native.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -417,6 +620,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-container-orchestrator.md",
+      "depends_on": [
+        "energy-engineering-grid-scale-storage",
+        "engineering-container-orchestration",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-kubernetes-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -429,6 +640,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-data-center-facility.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "marketing-demand-generation",
+        "operations-report-distribution-agent",
+        "testing-engineering-reliability-testing"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -442,6 +660,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-data-center-operations.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "data-science-engineering-deep-learning-training",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -455,6 +679,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-data-center-thermal.md",
+      "depends_on": [
+        "engineering-database-optimizer",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -468,6 +698,18 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-devops-automator.md",
+      "depends_on": [
+        "emergency-disaster-response",
+        "engineering-email-intelligence-engineer",
+        "engineering-git-workflow-master",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-argocd-expert",
+        "infrastructure-datadog-expert",
+        "infrastructure-github-actions-expert",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -480,6 +722,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-edge-computing.md",
+      "depends_on": [
+        "engineering-container-orchestration",
+        "engineering-database-optimizer",
+        "engineering-graph-database",
+        "engineering-quantum-computing",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "iot-edge-computing",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -493,8 +745,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-enterprise-architect.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "engineering-chaos-engineer",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -506,9 +766,16 @@
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-incident-commander.md",
       "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-incident-response",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-incident-response-commander",
         "infrastructure-engineering-sre"
       ],
       "nexus_roles": [
+        "phase-2-foundation",
+        "phase-4-hardening",
         "phase-6-operate"
       ]
     },
@@ -520,7 +787,23 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-incident-response-commander.md",
+      "depends_on": [
+        "finance-accounts-payable-agent",
+        "hr-tech-people-analytics",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-argocd-expert",
+        "infrastructure-engineering-incident-commander",
+        "infrastructure-github-actions-expert",
+        "operations-executive-summary-generator",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer",
+        "thinking-models-decision-frameworks",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
+        "phase-4-hardening",
         "phase-6-operate"
       ]
     },
@@ -532,6 +815,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-it-service-manager.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-cmdb-configuration",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -545,6 +834,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-kubernetes-expert.md",
+      "depends_on": [
+        "infrastructure-kubernetes-expert",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -557,6 +851,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-linux-admin.md",
+      "depends_on": [
+        "engineering-database-administrator",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -570,7 +869,19 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-monitoring-engineer.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-observability-architect",
+        "infrastructure-engineering-observability-engineer",
+        "infrastructure-istio-expert",
+        "marketing-paid-media-search-query-analyst",
+        "operations-executive-summary-generator"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
+        "phase-4-hardening",
         "phase-6-operate"
       ]
     },
@@ -582,8 +893,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-observability-architect.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -594,7 +911,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-observability-engineer.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-observability-architect",
+        "infrastructure-istio-expert",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
+        "phase-4-hardening",
         "phase-6-operate"
       ]
     },
@@ -606,6 +932,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-platform-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-engineering-user-research-system",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "marketing-market-research"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -618,8 +951,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-site-reliability-architect.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -630,20 +969,17 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-site-reliability-automation.md",
+      "depends_on": [
+        "engineering-ai-agent-developer",
+        "engineering-database-administrator",
+        "engineering-database-optimizer",
+        "engineering-git-workflow-master",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
-      ]
-    },
-    {
-      "id": "infrastructure-engineering-sre-manager",
-      "name": "SRE/基础设施工程经理",
-      "description": "SRE与基础设施工程团队管理者，覆盖SRE/SysAdmin/Network团队领导、生产环境可用性责任、基础设施OKR/SLO/SLI体系与ITIL变更/事故/问题管理",
-      "emoji": "🛡️",
-      "category": "infrastructure",
-      "subcategory": "",
-      "path": "infrastructure/infrastructure-engineering-sre-manager.md",
-      "nexus_roles": [
-        "phase-6-operate"
       ]
     },
     {
@@ -654,7 +990,37 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-sre.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "engineering-ai-observability-expert",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-engineering-site-reliability-architect",
+        "infrastructure-engineering-site-reliability-automation"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-engineering-sre-manager",
+      "name": "SRE/基础设施工程经理",
+      "description": "SRE与基础设施工程团队管理者，覆盖SRE/SysAdmin/Network团队领导、生产环境可用性责任、基础设施OKR/SLO/SLI体系与ITIL变更/事故/问题管理",
+      "emoji": "🛡️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-engineering-sre-manager.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-4-hardening",
         "phase-6-operate"
       ]
     },
@@ -666,6 +1032,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-epson-printer-expert.md",
+      "depends_on": [
+        "infrastructure-datadog-expert",
+        "infrastructure-splunk-expert",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -679,6 +1051,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-github-actions-expert.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-datadog-expert",
+        "infrastructure-jenkins-expert",
+        "infrastructure-vmware"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -691,7 +1071,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-graylog-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "security-threat-intelligence-analyst"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -703,6 +1088,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-h3c-network.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-data-center-network"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -716,6 +1108,18 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-hikvision-server.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-language-model-nlp",
+        "data-science-engineering-video-analytics",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-identity-access",
+        "marketing-paid-media-search-query-analyst",
+        "media-entertainment-engineering-video-streaming"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -729,6 +1133,19 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-hikvision-surveillance.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-video-analytics",
+        "energy-engineering-carbon-capture-storage",
+        "energy-engineering-grid-scale-storage",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-hikvision-server",
+        "infrastructure-identity-access",
+        "media-entertainment-engineering-video-streaming"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -742,6 +1159,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-hp-printer-expert.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-windows-server",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -755,6 +1178,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-hpe-server.md",
+      "depends_on": [
+        "energy-engineering-grid-scale-storage",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-datadog-expert",
+        "infrastructure-nutanix"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -768,6 +1198,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-huawei-network.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "finance-financial-controller",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-datadog-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -781,6 +1218,19 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-huawei-xfusion-server.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-edge-computing",
+        "infrastructure-windows-server",
+        "iot-edge-computing",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-software",
+        "manufacturing-supply-chain-planner"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -794,6 +1244,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-identity-access.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-computer-vision-deep",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -807,6 +1264,19 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-inspur-cisco-network.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "data-science-engineering-language-model-nlp",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "manufacturing-supply-chain-planner",
+        "web3-engineering-smart-contract-security"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -820,6 +1290,17 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-istio-expert.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-argocd-expert",
+        "infrastructure-nginx-expert",
+        "infrastructure-rabbitmq-expert",
+        "insurance-auto-claims",
+        "operations-bcp-disaster-recovery"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -833,6 +1314,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-it-asset-manager.md",
+      "depends_on": [
+        "engineering-database-optimizer",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -846,8 +1334,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-it-director.md",
+      "depends_on": [
+        "infrastructure-datadog-expert",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -858,6 +1352,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-jenkins-expert.md",
+      "depends_on": [
+        "infrastructure-github-actions-expert",
+        "infrastructure-identity-access",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -870,6 +1370,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-jumpserver-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-github-actions-expert",
+        "infrastructure-identity-access",
+        "infrastructure-windows-server"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -883,6 +1391,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-kubernetes-expert.md",
+      "depends_on": [
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-nginx-expert",
+        "infrastructure-istio-expert",
+        "infrastructure-ansible-expert",
+        "infrastructure-argocd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -895,6 +1410,15 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-linux-systems.md",
+      "depends_on": [
+        "construction-engineering-structural-fire",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-argocd-expert",
+        "insurance-auto-claims",
+        "iot-engineering-embedded-linux"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -908,6 +1432,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-mainframe-engineer.md",
+      "depends_on": [
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-windows-server",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -921,6 +1451,15 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-microsoft365.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-graph-database",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-backup-admin",
+        "infrastructure-identity-access",
+        "infrastructure-windows-server"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -934,7 +1473,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-monitoring-admin.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
+        "phase-4-hardening",
         "phase-6-operate"
       ]
     },
@@ -946,6 +1492,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-ms-project-expert.md",
+      "depends_on": [
+        "infrastructure-microsoft365",
+        "infrastructure-office-365-expert",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -959,7 +1511,17 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-nagios-expert.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-argocd-expert",
+        "infrastructure-jenkins-expert",
+        "infrastructure-nginx-expert"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -971,6 +1533,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-nginx-expert.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-argocd-expert",
+        "infrastructure-rabbitmq-expert",
+        "infrastructure-splunk-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -984,6 +1554,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-nutanix.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "education-special-needs",
+        "engineering-build-release-engineer",
+        "engineering-multi-agent-systems-architect"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -997,6 +1573,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-office-365-expert.md",
+      "depends_on": [
+        "infrastructure-microsoft365",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1010,6 +1591,9 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-opennms-expert.md",
+      "depends_on": [
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1023,6 +1607,13 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-oracle-dba.md",
+      "depends_on": [
+        "engineering-database-optimizer",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-storage-backup",
+        "infrastructure-windows-server"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1036,6 +1627,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-powershell.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-engineering-site-reliability-architect",
+        "infrastructure-engineering-site-reliability-automation",
+        "infrastructure-windows-server",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1049,6 +1650,11 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-printer-maintenance-engineer.md",
+      "depends_on": [
+        "infrastructure-windows-server",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1062,6 +1668,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-rabbitmq-expert.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-storage-backup",
+        "logistics-last-mile-delivery",
+        "operations-bcp-disaster-recovery"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1075,6 +1689,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-ruijie-network.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1088,9 +1708,19 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-sangfor-security.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
       ]
     },
     {
@@ -1101,6 +1731,10 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-sap-expert.md",
+      "depends_on": [
+        "engineering-olap-database",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1114,6 +1748,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-service-desk-manager.md",
+      "depends_on": [
+        "customer-service-call-center",
+        "design-engineering-user-research-system",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1127,7 +1767,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-splunk-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-visual-studio-python"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -1139,9 +1784,15 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-storage-backup.md",
+      "depends_on": [
+        "energy-engineering-grid-scale-storage",
+        "engineering-multi-agent-systems-architect",
+        "operations-bcp-disaster-recovery"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
       ]
     },
     {
@@ -1152,6 +1803,12 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-terraform-expert.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-github-actions-expert"
+      ],
       "nexus_roles": [
         "phase-2-foundation"
       ]
@@ -1164,6 +1821,37 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-tplink-network.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-identity-access",
+        "operations-report-distribution-agent"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "infrastructure-visio-expert",
+      "name": "Visio/IT架构绘图专家",
+      "description": "Microsoft Visio与IT架构绘图专家，覆盖网络拓扑图/数据中心架构图/云架构图/系统部署图绘制、Visio模板/模具/图层管理、IT文档可视化标准与BPMN/UML/网络图规范",
+      "emoji": "📐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-visio-expert.md",
+      "depends_on": [
+        "engineering-visual-studio-dotnet-csharp",
+        "engineering-visual-studio-python",
+        "engineering-visual-studio-web-aspnet",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-data-center-network",
+        "infrastructure-engineering-cloud-architect",
+        "infrastructure-engineering-data-center-facility",
+        "infrastructure-engineering-enterprise-architect"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1177,6 +1865,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-vmware.md",
+      "depends_on": [
+        "education-special-needs",
+        "energy-engineering-grid-scale-storage",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-digital-workplace",
+        "operations-bcp-disaster-recovery",
+        "robotics-motion-control"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1190,6 +1888,16 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-windows-desktop.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "data-science-feature-store",
+        "energy-engineering-grid-scale-storage",
+        "engineering-build-release-engineer",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-digital-workplace",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1203,6 +1911,15 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-windows-server.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-backup-admin",
+        "infrastructure-identity-access",
+        "infrastructure-storage-backup"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -1216,7 +1933,14 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-zabbix-expert.md",
+      "depends_on": [
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-storage-backup",
+        "infrastructure-ansible-expert",
+        "infrastructure-apache-httpd-expert"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     }

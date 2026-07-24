@@ -1,7 +1,7 @@
 {
   "category": "pets",
-  "agent_count": 3,
-  "generated": "2026-07-05",
+  "agent_count": 6,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "pets-behaviorist",
@@ -11,8 +11,63 @@
       "category": "pets",
       "subcategory": "",
       "path": "pets/pets-behaviorist.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "food-beverage-engineering-food-sensory",
+        "food-beverage-food-supply-chain-traceability",
+        "government-social-work",
+        "operations-report-distribution-agent",
+        "robotics-motion-control",
+        "specialized-life-coach",
+        "testing-engineering-test-automation-framework",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-6-operate"
+      ]
+    },
+    {
+      "id": "pets-director",
+      "name": "宠物总监",
+      "description": "宠物领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🐾\"",
+      "category": "pets",
+      "subcategory": "",
+      "path": "pets/pets-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "pets-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "pets-general-manager",
+      "name": "宠物总经理",
+      "description": "宠物领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🐾\"",
+      "category": "pets",
+      "subcategory": "",
+      "path": "pets/pets-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "pets-director",
+        "real-estate-general-manager",
+        "securities-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -23,6 +78,15 @@
       "category": "pets",
       "subcategory": "",
       "path": "pets/pets-grooming-business.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "iot-engineering-mixed-signal-ic",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent",
+        "pets-behaviorist",
+        "robotics-motion-control",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -35,7 +99,36 @@
       "category": "pets",
       "subcategory": "",
       "path": "pets/pets-nutritionist.md",
+      "depends_on": [
+        "design-engineering-human-factors",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "pets-veterinary-exotics",
+      "name": "异宠与野生动物兽医专家",
+      "description": "爬行动物/两栖动物/鸟类/小型哺乳动物(兔/貂/豚鼠)医学、野生动物救护与康复、动物园动物医学、禽类医学与动物福利专家",
+      "emoji": "🦎",
+      "category": "pets",
+      "subcategory": "",
+      "path": "pets/pets-veterinary-exotics.md",
+      "depends_on": [
+        "automotive-engineering-automotive-lighting",
+        "specialized-life-coach",
+        "specialized-personal-growth-mentor",
+        "specialized-workflow-architect",
+        "sports-event-ops",
+        "testing-evidence-collector"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
         "phase-6-operate"
       ]
     }

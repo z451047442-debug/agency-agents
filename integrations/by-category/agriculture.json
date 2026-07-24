@@ -1,7 +1,7 @@
 {
   "category": "agriculture",
-  "agent_count": 12,
-  "generated": "2026-07-05",
+  "agent_count": 13,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "agriculture-agronomist",
@@ -11,7 +11,34 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-agronomist.md",
+      "depends_on": [
+        "agriculture-economist",
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "agriculture-director",
+      "name": "农业总监",
+      "description": "农业领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🌾\"",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-director.md",
+      "depends_on": [
+        "agriculture-general-manager",
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
         "phase-3-build"
       ]
     },
@@ -23,6 +50,12 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-economist.md",
+      "depends_on": [
+        "agriculture-agronomist",
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,6 +68,13 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-engineering-aquaculture-fish.md",
+      "depends_on": [
+        "agriculture-agronomist",
+        "engineering-multi-agent-systems-architect",
+        "environmental-water-treatment",
+        "food-beverage-food-scientist",
+        "healthcare-mental-health"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -47,6 +87,15 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-engineering-iot-agriculture.md",
+      "depends_on": [
+        "agriculture-precision-farming",
+        "data-science-consolidation-agent",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "robotics-engineering-robotics-control-systems"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,7 +108,14 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-engineering-soil-science.md",
+      "depends_on": [
+        "agriculture-agronomist",
+        "cybersecurity-engineering-cyber-risk-model",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -71,8 +127,17 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-general-manager.md",
+      "depends_on": [
+        "agriculture-sustainability",
+        "energy-carbon-market",
+        "energy-engineering-carbon-capture-storage",
+        "engineering-multi-agent-systems-architect",
+        "finance-capital-markets-analyst",
+        "hr-labor-relations"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -83,6 +148,12 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-iot-engineer.md",
+      "depends_on": [
+        "agriculture-agronomist",
+        "engineering-multi-agent-systems-architect",
+        "iot-edge-computing",
+        "logistics-last-mile-delivery"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +166,14 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-livestock-manager.md",
+      "depends_on": [
+        "agriculture-agronomist",
+        "data-science-consolidation-agent",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,7 +186,16 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-precision-farming.md",
+      "depends_on": [
+        "agriculture-engineering-iot-agriculture",
+        "data-science-feature-store",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "environmental-water-treatment",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -119,8 +207,18 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-quality-safety.md",
+      "depends_on": [
+        "agriculture-agronomist",
+        "cybersecurity-incident-response",
+        "engineering-multi-agent-systems-architect",
+        "finance-internal-auditor",
+        "food-beverage-food-safety",
+        "marketing-europe-market",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -131,6 +229,12 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-supply-chain.md",
+      "depends_on": [
+        "agriculture-agronomist",
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +247,12 @@
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-sustainability.md",
+      "depends_on": [
+        "agriculture-general-manager",
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

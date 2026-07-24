@@ -110,7 +110,7 @@ for dname in "${AGENT_DIRS[@]}"; do
     first_line="$(head -1 "$file")"
     [[ "$first_line" == "---" ]] || continue
 
-    name="$(get_field "name" "$file")"
+    name="$(get_field "name" "$file" | json_escape)"
     [[ -n "$name" ]] || continue
 
     description="$(get_field "description" "$file" | json_escape)"
@@ -155,7 +155,7 @@ done
 unique_categories=$(echo "$categories_set" | sort -u | wc -l | tr -d ' ')
 
 # Remove trailing comma from last agent entry, then close JSON
-sed -i '$ s/,$//' "$TMPFILE"
+sed -i.bak '$ s/,$//' "$TMPFILE" && rm -f "$TMPFILE.bak"
 
 cat >> "$TMPFILE" <<HEREDOC
 ],"total_categories":${unique_categories},"total_agents":${total}}

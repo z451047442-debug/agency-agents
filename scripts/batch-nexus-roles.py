@@ -268,6 +268,7 @@ def assign_roles(agent_id, category):
     is_leader = bool(re.search(LEADERSHIP_PATTERN, agent_id, re.IGNORECASE))
 
     # Get category-based roles first
+    base_roles = None
     rules = ROLE_RULES.get(category)
     if rules:
         for pattern, roles in rules:
@@ -339,7 +340,6 @@ def main():
                 if not args.force:
                     already += 1
                     continue
-                already += 1
 
             roles = assign_roles(md_file.stem, cat_dir.name)
             if roles is None:

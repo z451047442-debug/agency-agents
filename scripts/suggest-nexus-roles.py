@@ -6,10 +6,32 @@ NEXUS pipeline phases the agent should participate in.
 """
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
+from _shared.discovery import EXCLUDE_DIRS
+
 REPO = Path(__file__).resolve().parent.parent
+
+
+def discover_agents(category_filter=None):
+    """Return list of (category, rel_path, file_path) tuples, using shared EXCLUDE_DIRS."""
+    result: list[tuple[str, str, Path]] = []
+    for entry in sorted(REPO.iterdir()):
+        if not entry.is_dir() or entry.name.startswith("."):
+            continue
+        if entry.name in EXCLUDE_DIRS:
+            continue
+        if category_filter and entry.name != category_filter:
+            continue
+        for md in sorted(entry.rglob("*.md")):
+            try:
+                rel = str(md.relative_to(REPO)).replace("\\", "/")
+            except ValueError:
+                rel = md.name
+            result.append((entry.name, rel, md))
+    return result
 
 PHASE_KEYWORDS: dict[str, list[str]] = {
     "phase-0-discovery": [
@@ -58,33 +80,12 @@ PHASE_LABELS: dict[str, str] = {
     "phase-6-operate": "Operate",
 }
 
-NON_AGENT_DIRS = frozenset({
-    ".git", ".github", ".vs", ".vscode", ".claude",
-    "examples", "integrations", "scripts", "docs", "schemas", "tests",
-    "__pycache__", "env",
-})
-
 
 def is_agent_file(path: Path) -> bool:
     try:
         return path.read_text(encoding="utf-8").startswith("---")
     except OSError:
         return False
-
-
-def discover_agents(category: str | None = None) -> list[Path]:
-    agents: list[Path] = []
-    for entry in sorted(REPO.iterdir()):
-        if not entry.is_dir() or entry.name.startswith("."):
-            continue
-        if entry.name in NON_AGENT_DIRS:
-            continue
-        if category and entry.name != category:
-            continue
-        for md in sorted(entry.rglob("*.md")):
-            if is_agent_file(md):
-                agents.append(md)
-    return agents
 
 
 def get_body(path: Path) -> str:
@@ -96,7 +97,7 @@ def get_body(path: Path) -> str:
 def count_keywords(body_lower: str, keywords: list[str]) -> int:
     count = 0
     for kw in keywords:
-        if kw in body_lower:
+        if re.search(rf"\b{re.escape(kw)}\b", body_lower):
             count += 1
     return count
 
@@ -130,9 +131,9 @@ def main() -> None:
             sys.exit(1)
         files = [path]
     elif args.category:
-        files = discover_agents(args.category)
+        files = [md for _, _, md in discover_agents(args.category) if is_agent_file(md)]
     else:
-        files = discover_agents()
+        files = [md for _, _, md in discover_agents() if is_agent_file(md)]
 
     analyzed = 0
     suggested = 0

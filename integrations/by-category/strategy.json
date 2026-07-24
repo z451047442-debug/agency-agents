@@ -1,7 +1,7 @@
 {
   "category": "strategy",
   "agent_count": 7,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "strategy-business-analyst",
@@ -11,6 +11,15 @@
       "category": "strategy",
       "subcategory": "",
       "path": "strategy/strategy-business-analyst.md",
+      "depends_on": [
+        "finance-risk-manager",
+        "government-social-work",
+        "lottery-risk-manager",
+        "marketing-retail-media-ad",
+        "specialized-document-generator",
+        "strategy-business-strategist",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -24,6 +33,15 @@
       "category": "strategy",
       "subcategory": "",
       "path": "strategy/strategy-business-strategist.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-language-model-nlp",
+        "logistics-supply-chain-strategist",
+        "marketing-brand-strategist",
+        "marketing-brand-strategist-name",
+        "strategy-business-analyst",
+        "web3-defi-strategist"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -37,7 +55,18 @@
       "category": "strategy",
       "subcategory": "",
       "path": "strategy/strategy-ceo-coach.md",
+      "depends_on": [
+        "government-social-work",
+        "legal-data-privacy-attorney",
+        "logistics-general-manager",
+        "marketing-abm-account-based",
+        "parenting-family-education-consulting",
+        "strategy-business-analyst",
+        "thinking-models-decision-frameworks",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -49,6 +78,15 @@
       "category": "strategy",
       "subcategory": "",
       "path": "strategy/strategy-esg-consultant.md",
+      "depends_on": [
+        "fashion-sustainability",
+        "finance-risk-manager",
+        "government-social-work",
+        "logistics-general-manager",
+        "lottery-risk-manager",
+        "strategy-business-analyst",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -62,6 +100,18 @@
       "category": "strategy",
       "subcategory": "",
       "path": "strategy/strategy-esg-sustainability.md",
+      "depends_on": [
+        "automotive-engineering-electric-vehicle-aerodynamics",
+        "healthcare-engineering-regulatory-science",
+        "infrastructure-identity-access",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-supply-chain-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "operations-report-distribution-agent",
+        "strategy-business-analyst",
+        "tourism-travel-agent",
+        "web3-defi-strategist"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -75,6 +125,15 @@
       "category": "strategy",
       "subcategory": "",
       "path": "strategy/strategy-okr-consultant.md",
+      "depends_on": [
+        "finance-risk-manager",
+        "healthcare-fitness-coach",
+        "specialized-life-coach",
+        "sports-coach",
+        "strategy-business-analyst",
+        "thinking-models-decision-frameworks",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -88,6 +147,16 @@
       "category": "strategy",
       "subcategory": "",
       "path": "strategy/strategy-vc-advisor.md",
+      "depends_on": [
+        "finance-risk-manager",
+        "government-social-work",
+        "legal-engineering-legal-document-automation",
+        "legal-engineering-legal-technology",
+        "sales-outbound-strategist",
+        "specialized-document-generator",
+        "strategy-business-analyst",
+        "thinking-models-investment-masters"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"

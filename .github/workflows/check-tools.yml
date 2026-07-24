@@ -1,18 +1,29 @@
 name: Check Tools Consistency
 
-# Runs on every PR (no path filter on purpose): a new or renamed tool must trip
-# this check even when nobody touched tools.json or the install/convert scripts.
+# Triggered when tools.json, install/convert scripts, or this workflow change.
+# New tool configurations are detected by the check-tools.sh script which
+# validates against the canonical tools.json.
 on:
   pull_request:
+    paths:
+      - 'tools.json'
+      - 'scripts/check-tools.sh'
+      - 'scripts/install.sh'
+      - 'scripts/convert.*'
+      - '.github/workflows/check-tools.yml'
   push:
     branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check-tools:
     name: tools.json is the single source of truth
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
 
       - name: Validate tool set
         run: |

@@ -104,9 +104,8 @@ def get_traits_for_agent(category, description, name, vibe):
     """Get the best communication traits for this agent's domain."""
     traits = CATEGORY_TRAITS.get(category, CATEGORY_TRAITS["_default"])
 
-    # Try to personalize based on description keywords
+    # Personalize based on the agent's domain description
     personalized = []
-    (description + " " + name).lower()
 
     # Add category-specific traits, filtering for relevance
     for trait_name, trait_desc in traits:
@@ -181,7 +180,7 @@ def insert_comm_section(filepath, dry_run=False):
         return True, f"would add Communication section ({len(section.split())} words)"
 
     try:
-        filepath.write_text(new_content, encoding="utf-8")
+        filepath.write_text(new_content, encoding="utf-8", newline="\n")
         return True, f"added Communication section ({len(section.split())} words)"
     except Exception as e:
         return False, str(e)

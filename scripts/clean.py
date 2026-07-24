@@ -3,6 +3,7 @@
 
 import argparse
 import shutil
+import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -152,10 +153,17 @@ def main() -> None:
         return
 
     for p in paths:
-        if p.is_dir():
-            shutil.rmtree(p)
-        elif p.is_file():
-            p.unlink()
+        try:
+            if p.is_dir():
+                shutil.rmtree(p)
+            elif p.is_file():
+                p.unlink()
+        except (PermissionError, OSError) as e:
+            try:
+                rel = str(p.relative_to(REPO)).replace("\\", "/")
+            except ValueError:
+                rel = str(p)
+            print(f"  [WARN] Could not remove {rel}: {e}", file=sys.stderr)
 
     print(f"Cleaned integrations: {total_dirs} dirs, {total_files} files, {pretty} freed.")
     if args.deep:

@@ -1,8 +1,51 @@
 {
   "category": "hr-tech",
-  "agent_count": 3,
-  "generated": "2026-07-05",
+  "agent_count": 6,
+  "generated": "2026-07-16",
   "agents": [
+    {
+      "id": "hr-tech-director",
+      "name": "HR科技总监",
+      "description": "HR科技领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🤖\"",
+      "category": "hr-tech",
+      "subcategory": "",
+      "path": "hr-tech/hr-tech-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "hr-tech-general-manager",
+      "name": "HR科技总经理",
+      "description": "HR科技领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🤖\"",
+      "category": "hr-tech",
+      "subcategory": "",
+      "path": "hr-tech/hr-tech-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "hr-tech-director",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
+      ]
+    },
     {
       "id": "hr-tech-hrtech-ats-specialist",
       "name": "ATS实施顾问",
@@ -11,7 +54,19 @@
       "category": "hr-tech",
       "subcategory": "",
       "path": "hr-tech/hr-tech-hrtech-ats-specialist.md",
+      "depends_on": [
+        "design-engineering-human-factors",
+        "gis-drone-reality-mapping",
+        "hr-tech-hrtech-ex-designer",
+        "legal-engineering-legal-document-automation",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent",
+        "spatial-computing-engineering-virtual-reality",
+        "web3-engineering-smart-contract-security",
+        "web3-smart-contract-dev"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -23,6 +78,16 @@
       "category": "hr-tech",
       "subcategory": "",
       "path": "hr-tech/hr-tech-hrtech-ex-designer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "gis-drone-reality-mapping",
+        "hr-tech-hrtech-ats-specialist",
+        "marketing-customer-lifecycle",
+        "robotics-motion-control",
+        "sales-customer-onboarding",
+        "testing-engineering-test-automation-framework",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,8 +100,37 @@
       "category": "hr-tech",
       "subcategory": "",
       "path": "hr-tech/hr-tech-hrtech-people-analytics.md",
+      "depends_on": [
+        "design-engineering-human-factors",
+        "education-academic-research-scientist",
+        "marketing-customer-lifecycle",
+        "operations-executive-summary-generator",
+        "operations-report-distribution-agent",
+        "robotics-motion-control"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "hr-tech-people-analytics",
+      "name": "人力分析专家",
+      "description": "人力数据分析与建模、员工生命周期分析、敬业度调查与因子分析、组织网络分析(ONA)、薪酬公平性分析、人才预测与劳动力规划专家",
+      "emoji": "📊",
+      "category": "hr-tech",
+      "subcategory": "",
+      "path": "hr-tech/hr-tech-people-analytics.md",
+      "depends_on": [
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent",
+        "specialized-agentic-identity-trust",
+        "thinking-models-tech-leaders"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-6-operate"
       ]
     }
   ]

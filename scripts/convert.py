@@ -24,7 +24,6 @@ from pathlib import Path
 
 from _shared import (
     BOLD,
-    EXCLUDE_DIRS,
     GREEN,
     RED,
     REPO,
@@ -35,6 +34,7 @@ from _shared import (
     get_frontmatter_text,
     get_list_field,
 )
+from _shared.discovery import EXCLUDE_DIRS
 
 OUT = REPO / "integrations"
 ANTIGRAVITY_DATE = "2026-03-08"
@@ -75,9 +75,9 @@ def progress_bar(current, total, width=20):
 def discover_agents():
     """Yield (category, file_path, frontmatter_text, body_text) for every agent."""
     for entry in sorted(REPO.iterdir()):
-        if not entry.is_dir() or entry.name.startswith(".") or entry.name.startswith("_"):
+        if not entry.is_dir() or entry.name.startswith("."):
             continue
-        if entry.name in EXCLUDE_DIRS:
+        if entry.name.startswith("_") or entry.name in EXCLUDE_DIRS:
             continue
         for md in sorted(entry.rglob("*.md")):
             content = md.read_text(encoding="utf-8")
@@ -89,6 +89,31 @@ def discover_agents():
                 continue
             body = get_body(content).lstrip("\n")
             yield entry.name, md, fm_text, body
+
+
+# ── content validation ───────────────────────────────────────────────────────
+
+_PROMPT_INJECTION_RE = re.compile(
+    r"\b(?:ignore|forget|disregard)\s+(?:all|everything)\s+(?:previous|above)\s+instructions?\b|"
+    r"\b(?:reveal|output)\s+(?:your\s+)?system\s+(?:prompt|message)\b|"
+    r"\bDAN\s*(?:mode|prompt)\b|"
+    r"\bdo\s+anything\s+now\b",
+    re.IGNORECASE,
+)
+
+
+def validate_agent_content(filepath):
+    """Check an agent file for potential prompt injection patterns.
+
+    Returns a list of matched pattern descriptions, or empty list if clean.
+    Call this independently to audit agents before conversion.
+    """
+    try:
+        content = filepath.read_text(encoding="utf-8")
+    except Exception:
+        return []
+    matches = _PROMPT_INJECTION_RE.findall(content)
+    return matches
 
 
 # ── tool converters ──────────────────────────────────────────────────────────
@@ -317,8 +342,15 @@ def convert_kimi(name, desc, body, out_dir):
 def run_hermes(out_dir):
     """Delegate to build-hermes-plugin.py (existing Python script)."""
     script = REPO / "scripts" / "build-hermes-plugin.py"
-    subprocess.run([sys.executable, str(script), "--repo-root", str(REPO),
-                    "--out", str(out_dir / "hermes")], check=True)
+    try:
+        subprocess.run([sys.executable, str(script), "--repo-root", str(REPO),
+                        "--out", str(out_dir / "hermes")], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"WARNING: Hermes plugin build failed (exit {e.returncode}), skipping",
+              file=sys.stderr)
+    except FileNotFoundError:
+        print("WARNING: build-hermes-plugin.py not found, skipping Hermes",
+              file=sys.stderr)
 
 
 # ── single-file accumulators (aider, windsurf) ───────────────────────────────

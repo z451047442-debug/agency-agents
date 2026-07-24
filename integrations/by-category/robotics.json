@@ -1,7 +1,7 @@
 {
   "category": "robotics",
   "agent_count": 15,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "robotics-automation-engineer",
@@ -11,6 +11,14 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-automation-engineer.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "manufacturing-production-planner",
+        "manufacturing-supply-chain-planner",
+        "marketing-abm-account-based",
+        "robotics-engineering-robotics-control-systems",
+        "robotics-motion-control"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +31,12 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-control-systems.md",
+      "depends_on": [
+        "automotive-engineering-electric-vehicle-aerodynamics",
+        "data-science-engineering-language-model-nlp",
+        "energy-engineering-wind-energy",
+        "robotics-automation-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,6 +49,13 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-director.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "marketing-customer-lifecycle",
+        "robotics-automation-engineer"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -47,6 +68,14 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-exoskeleton-robotics.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-medical-device-software",
+        "healthcare-engineering-medical-robotics",
+        "robotics-engineering-industrial-robotics",
+        "robotics-engineering-robotics-control-systems",
+        "spatial-computing-engineering-wearable-tech"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +88,13 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-haptics-engineer.md",
+      "depends_on": [
+        "automotive-engineering-automotive-homologation-test",
+        "energy-engineering-power-electronics",
+        "energy-engineering-power-electronics-packaging",
+        "engineering-multi-agent-systems-architect",
+        "robotics-automation-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,6 +107,11 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-industrial-robotics.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "robotics-integration-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +124,12 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-mechatronics.md",
+      "depends_on": [
+        "automotive-engineering-automotive-homologation-test",
+        "engineering-multi-agent-systems-architect",
+        "manufacturing-engineering-electronics-manufacturing",
+        "robotics-automation-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +142,10 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-robotic-perception-systems.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "robotics-automation-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,6 +158,14 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-robotics-control-systems.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "marketing-demand-generation",
+        "robotics-engineering-industrial-robotics",
+        "robotics-motion-control"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,6 +178,10 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-robotics-manipulation.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "robotics-automation-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -131,6 +194,14 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-industrial-automation.md",
+      "depends_on": [
+        "construction-engineering-noise-control",
+        "data-science-engineering-language-model-nlp",
+        "engineering-programming-language",
+        "pharma-biotech-pharma-regulatory-affairs",
+        "robotics-automation-engineer",
+        "telecom-engineering-signal-integrity"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +214,14 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-integration-engineer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "robotics-engineering-industrial-robotics"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +234,10 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-motion-control.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "robotics-ros-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,6 +250,13 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-perception-engineer.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-language-model-nlp",
+        "operations-report-distribution-agent",
+        "robotics-automation-engineer",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -179,6 +269,11 @@
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-ros-developer.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "robotics-automation-engineer",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

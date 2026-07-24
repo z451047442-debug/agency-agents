@@ -1,7 +1,7 @@
 {
   "category": "tourism",
-  "agent_count": 12,
-  "generated": "2026-07-05",
+  "agent_count": 15,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "tourism-cruise",
@@ -11,6 +11,14 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-cruise.md",
+      "depends_on": [
+        "energy-engineering-carbon-capture-storage",
+        "engineering-multi-agent-systems-architect",
+        "environmental-water-treatment",
+        "healthcare-engineering-regulatory-science",
+        "logistics-last-mile-delivery",
+        "tourism-cultural-heritage"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -23,6 +31,16 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-cultural-heritage.md",
+      "depends_on": [
+        "construction-engineering-cultural-heritage-digitization",
+        "construction-engineering-heritage-conservation",
+        "data-science-engineering-language-model-nlp",
+        "engineering-git-workflow-master",
+        "healthcare-engineering-regulatory-science",
+        "marketing-southeast-asia-expert",
+        "operations-report-distribution-agent",
+        "tourism-cruise"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -35,8 +53,41 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-destination-marketing.md",
+      "depends_on": [
+        "engineering-social-media-platform",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-ppc-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist",
+        "marketing-tiktok-strategist",
+        "tourism-cruise"
+      ],
       "nexus_roles": [
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-director",
+      "name": "旅游总监",
+      "description": "旅游领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"✈\"",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "logistics-supply-chain-strategist",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager",
+        "tourism-hotel-gm",
+        "tourism-travel-agency"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -47,8 +98,33 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-event-planner.md",
+      "depends_on": [
+        "gis-drone-reality-mapping",
+        "hr-labor-relations",
+        "media-entertainment-creative-videographer",
+        "tourism-mice-planner"
+      ],
       "nexus_roles": [
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-fb-management",
+      "name": "餐饮运营管理专家",
+      "description": "餐厅运营管理、菜单工程与定价、食材采购与供应链、食品安全(HACCP/ISO 22000)、前厅与后厨协调、餐饮成本控制、连锁餐饮标准化与扩张专家",
+      "emoji": "🍽️",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-fb-management.md",
+      "depends_on": [
+        "food-beverage-food-safety",
+        "food-beverage-food-supply-chain-traceability",
+        "hr-labor-relations",
+        "logistics-engineering-supply-chain-risk",
+        "quality-food-safety"
+      ],
+      "nexus_roles": [
+        "phase-6-operate"
       ]
     },
     {
@@ -59,6 +135,15 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-hotel-gm.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-customer-data-science",
+        "healthcare-engineering-regulatory-science",
+        "hr-employee-relations",
+        "tourism-travel-agency",
+        "tourism-travel-agent",
+        "tourism-travel-experience-designer"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -71,6 +156,14 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-hotel-operations.md",
+      "depends_on": [
+        "food-beverage-food-safety",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "healthcare-engineering-cold-chain-pharma",
+        "quality-food-safety",
+        "tourism-cruise"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -83,6 +176,12 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-mice-planner.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "tourism-event-planner",
+        "tourism-travel-agent",
+        "tourism-travel-experience-designer"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -95,6 +194,11 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-revenue-manager.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "operations-report-distribution-agent",
+        "tourism-cruise"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -107,6 +211,14 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-sustainable.md",
+      "depends_on": [
+        "construction-engineering-cultural-heritage-digitization",
+        "construction-engineering-heritage-conservation",
+        "data-science-engineering-language-model-nlp",
+        "testing-engineering-test-automation-framework",
+        "tourism-cultural-heritage",
+        "tourism-travel-experience-designer"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -119,6 +231,14 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-travel-agency.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "logistics-engineering-supply-chain-risk",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent",
+        "tourism-travel-agent",
+        "tourism-travel-experience-designer"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -131,6 +251,13 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-travel-agent.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "tourism-travel-agency",
+        "tourism-travel-experience-designer"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -143,8 +270,34 @@
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-travel-experience-designer.md",
+      "depends_on": [
+        "engineering-programming-language",
+        "marketing-private-domain-operator",
+        "marketing-southeast-asia-expert",
+        "operations-report-distribution-agent",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "tourism-wine-sommelier",
+      "name": "品酒与侍酒专家",
+      "description": "葡萄酒产区与风土、品鉴方法与感官分析、餐酒搭配、葡萄酒服务与窖藏管理、烈酒与鸡尾酒、清酒与精酿啤酒、酒类教育与认证(WSET/CMS)专家",
+      "emoji": "🍷",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-wine-sommelier.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "food-beverage-engineering-beverage-brewing",
+        "food-beverage-engineering-food-fermentation",
+        "food-beverage-engineering-food-sensory"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-6-operate"
       ]
     }
   ]

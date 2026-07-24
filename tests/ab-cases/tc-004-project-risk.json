@@ -1,0 +1,26 @@
+{
+  "title": "Project Risk Assessment",
+  "domain": "project-management",
+  "agent": "project-management-pmp",
+  "prompt": "A 6-month migration project is 3 months in. SPI=0.72, CPI=0.85. Team velocity dropped 40% last sprint. Two key engineers gave notice. Client requested 3 scope changes this month. Provide risk assessment with concrete recovery options.",
+  "eval_criteria": {
+    "evm_interpretation": {
+      "min": 1,
+      "description": "Correct Earned Value Management interpretation"
+    },
+    "risk_response_types": {
+      "min": 2,
+      "description": "Named risk response strategies"
+    },
+    "quantified_advice": {
+      "min": 2,
+      "description": "Recommendations with specific numbers"
+    },
+    "stakeholder_guidance": {
+      "min": 1,
+      "description": "Stakeholder communication recommendations"
+    }
+  },
+  "id": "tc-004-project-risk",
+  "created": "2026-07-18T04:43:32.667860+00:00"
+}

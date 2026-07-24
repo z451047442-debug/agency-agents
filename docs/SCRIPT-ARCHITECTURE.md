@@ -53,6 +53,10 @@ scripts/
 ├── batch-date-added.sh        Bulk-add date_added from git history
 ├── agent-diff.sh              Semantic diff between agent file versions
 ├── clean.sh                   Cleanup: remove temp files, generated output
+├── generate-index.py           Canonical index generator (AGENTS.json)
+├── generate-index.sh           Shell wrapper: delegates to generate-index.py
+├── build-agent-browser.py      Self-contained HTML agent browser generator
+├── build-architecture.py       Auto-generate ARCHITECTURE.md & ARCHITECTURE.html from live data
 ├── build-hermes-plugin.py     Build Hermes plugin from agent files
 ├── suggest-nexus-roles.sh     Suggest NEXUS pipeline phases for an agent
 ├── i18n/
@@ -85,6 +89,23 @@ Pure-bash interactive installer with a terminal UI. Reads converted files from `
 ### `generate-index.sh`
 
 Scans all agent `.md` files, extracts frontmatter via awk, and writes `AGENTS.json` -- a sorted, formatted JSON catalog of every agent. The `--check` flag compares against the on-disk file and exits non-zero if they differ (used in CI).
+
+### `build-architecture.py`
+
+Generates `ARCHITECTURE.md` (Markdown) and `ARCHITECTURE.html` (visual diagram) from live project data. Reads `AGENTS.json`, `pyproject.toml`, `.github/workflows/`, and `pytest --collect-only` to produce self-updating architecture documentation. All numbers (agent count, test count, script count, category distribution) are dynamically collected — no stale hardcoded values. Use `--check` in CI to verify the committed files match current project state.
+
+```bash
+python scripts/build-architecture.py            # generate both files
+python scripts/build-architecture.py --check    # CI: verify files are up to date
+```
+
+### `build-agent-browser.py`
+
+Generates `agent-browser.html` — a standalone, server-free HTML page that embeds the full agent catalog from `AGENTS.json`. Features category filtering, full-text search, and expandable agent cards with dependency and NEXUS role details.
+
+```bash
+python scripts/build-agent-browser.py           # generate agent-browser.html
+```
 
 ---
 

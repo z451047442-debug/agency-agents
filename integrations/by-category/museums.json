@@ -1,7 +1,7 @@
 {
   "category": "museums",
-  "agent_count": 2,
-  "generated": "2026-07-05",
+  "agent_count": 5,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "museums-conservator",
@@ -11,6 +11,16 @@
       "category": "museums",
       "subcategory": "",
       "path": "museums/museums-conservator.md",
+      "depends_on": [
+        "education-cultural-heritage-law",
+        "marketing-book-co-author",
+        "marketing-demand-generation",
+        "museums-curator",
+        "operations-report-distribution-agent",
+        "testing-engineering-test-automation-framework",
+        "thinking-models-decision-frameworks",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,8 +33,81 @@
       "category": "museums",
       "subcategory": "",
       "path": "museums/museums-curator.md",
+      "depends_on": [
+        "engineering-insurance-technology",
+        "environmental-engineering-climate-tech",
+        "finance-cost-accountant",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "manufacturing-engineering-control-systems",
+        "museums-conservator",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "museums-director",
+      "name": "博物馆总监",
+      "description": "博物馆领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🏛\"",
+      "category": "museums",
+      "subcategory": "",
+      "path": "museums/museums-director.md",
+      "depends_on": [
+        "hr-tech-people-analytics",
+        "museums-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "museums-general-manager",
+      "name": "博物馆总经理",
+      "description": "博物馆领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🏛\"",
+      "category": "museums",
+      "subcategory": "",
+      "path": "museums/museums-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "museums-director",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "museums-museum-management",
+      "name": "博物馆管理与展览策划专家",
+      "description": "博物馆运营管理、展览策划与设计、藏品管理与预防性保护、观众研究与教育项目、博物馆数字化与虚拟展览、文化政策与博物馆筹款专家",
+      "emoji": "🏛️",
+      "category": "museums",
+      "subcategory": "",
+      "path": "museums/museums-museum-management.md",
+      "depends_on": [
+        "education-cultural-heritage-law",
+        "government-social-work",
+        "legal-billing-time-tracking",
+        "legal-engineering-legal-document-automation",
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
       ]
     }
   ]

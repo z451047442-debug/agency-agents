@@ -1,7 +1,7 @@
 {
   "category": "engineering",
-  "agent_count": 92,
-  "generated": "2026-07-05",
+  "agent_count": 114,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "engineering-ai-agent-developer",
@@ -11,6 +11,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ai-agent-developer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +31,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ai-data-remediation-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-language-model-nlp",
+        "education-special-needs",
+        "marketing-customer-lifecycle",
+        "marketing-paid-media-auditor",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,6 +52,17 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ai-engineer.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-reinforcement-learning",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-graph-database",
+        "engineering-multi-agent-systems-architect",
+        "testing-engineering-test-automation-framework",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -47,6 +75,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ai-ethics.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,8 +91,21 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ai-observability-expert.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-llamaindex-expert",
+        "engineering-nextjs-expert",
+        "engineering-nocode-developer",
+        "infrastructure-engineering-incident-response-commander",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer",
+        "testing-tool-evaluator",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -71,6 +116,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ai-product-manager.md",
+      "depends_on": [
+        "engineering-mcp-builder",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +133,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ai-safety-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-minimal-change-engineer",
+        "infrastructure-engineering-incident-response-commander",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +154,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-android-developer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,6 +172,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-android-framework.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,8 +189,29 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-api-designer.md",
+      "depends_on": [
+        "engineering-wechat-mini-program-developer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-autocad-electrical",
+      "name": "AutoCAD Electrical专家",
+      "description": "AutoCAD Electrical电气控制系统设计专家，覆盖原理图设计、PLC I/O、接线图、面板布局、端子排管理与自动报表生成",
+      "emoji": "⚡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-autocad-electrical.md",
+      "depends_on": [
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     },
     {
@@ -131,6 +222,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-backend-architect.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-container-orchestration",
+        "engineering-cross-platform",
+        "engineering-git-workflow-master",
+        "engineering-graph-database",
+        "infrastructure-identity-access",
+        "infrastructure-windows-server"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -143,9 +243,78 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-build-release-engineer.md",
+      "depends_on": [
+        "engineering-cross-platform",
+        "engineering-ecommerce-platform"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ]
+    },
+    {
+      "id": "engineering-cache-specialist",
+      "name": "缓存技术专家",
+      "description": "Redis、Memcached、Hazelcast、Ehcache 分布式缓存专家，覆盖缓存策略、数据一致性、集群模式(Cluster/Sentinel/Codis)与性能调优",
+      "emoji": "⚡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-cache-specialist.md",
+      "depends_on": [
+        "engineering-database-administrator",
+        "engineering-backend-architect"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-cad-advanced",
+      "name": "高级CAD/CAM/CAE工程师",
+      "description": "Siemens NX(UG)、PTC Creo(Pro/E) 高端参数化CAD/CAM/CAE一体化平台专家，覆盖3D建模、装配设计、钣金、曲面造型、数控编程与仿真分析",
+      "emoji": "🔧",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-cad-advanced.md",
+      "depends_on": [
+        "aerospace-military-materials-manufacturing",
+        "specialized-identity-graph-operator",
+        "testing-performance-benchmarker",
+        "testing-test-results-analyzer"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-cae-simulation",
+      "name": "CAE仿真与流程模拟专家",
+      "description": "ANSYS Fluent/CFX、Aspen Plus/HYSYS、PRO-II、HTRI、AutoForm、SAFETI、GRTMPS 等CAE仿真与化工流程模拟专家，覆盖CFD、过程模拟、热交换器设计、冲压仿真与定量风险评估",
+      "emoji": "🖥️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-cae-simulation.md",
+      "depends_on": [
+        "testing-test-results-analyzer"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-cam-machining",
+      "name": "CAM数控加工专家",
+      "description": "Mastercam、EdgeCAM、Cimatron、HyperMill、PowerMill 数控编程与CAM加工专家，覆盖2-5轴铣削、车削复合、线切割、刀路优化与后处理",
+      "emoji": "⚙️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-cam-machining.md",
+      "depends_on": [
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     },
     {
@@ -156,7 +325,71 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-chaos-engineer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "infrastructure-engineering-observability-architect",
+        "infrastructure-engineering-observability-engineer",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-china-cad",
+      "name": "国产CAD专家",
+      "description": "CAXA、中望CAD(ZWCAD)、浩辰CAD(GstarCAD)、新迪天工CAD 国产CAD平台专家，覆盖二维制图、三维建模、PDM集成、信创适配与AutoCAD兼容迁移",
+      "emoji": "🇨🇳",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-china-cad.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-pilot-training",
+        "data-science-engineering-deep-learning-training"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-china-cloud-db",
+      "name": "中国云数据库架构师",
+      "description": "阿里云PolarDB/Lindorm/Tair、华为云GaussDB/TaurusDB、腾讯云TDSQL/TencentDB等中国云厂商数据库专家，覆盖分布式架构、HTAP、信创国产化替代与迁移策略",
+      "emoji": "🏯",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-china-cloud-db.md",
+      "depends_on": [
+        "home-lifestyle-personal-finance",
+        "marketing-china-market-localization-strategist",
+        "marketing-cross-border-ecommerce"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-cloud-dw-architect",
+      "name": "云数据仓库架构师",
+      "description": "Snowflake、Google BigQuery、Amazon Redshift 云数据仓库架构专家，覆盖数据建模、ETL/ELT、成本优化与多集群策略",
+      "emoji": "☁️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-cloud-dw-architect.md",
+      "depends_on": [
+        "engineering-backend-architect",
+        "engineering-database-administrator",
+        "marketing-agentic-search-optimizer",
+        "marketing-app-store-optimizer",
+        "specialized-customer-success-manager",
+        "testing-workflow-optimizer"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -168,6 +401,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-cms-developer.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "testing-accessibility-auditor"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -180,6 +417,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-code-reviewer.md",
+      "depends_on": [
+        "engineering-swiftui-expert",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-4-hardening"
       ]
@@ -192,6 +434,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-codebase-onboarding-engineer.md",
+      "depends_on": [
+        "design-persona-walkthrough",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-flutter-developer",
+        "engineering-graphql-expert",
+        "engineering-nextjs-expert",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -204,6 +455,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-computer-graphics.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -216,7 +472,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-container-orchestration.md",
+      "depends_on": [
+        "energy-engineering-grid-scale-storage",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-llm-inference-expert",
+        "infrastructure-storage-backup"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -228,6 +492,13 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-cross-platform.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-ecommerce-platform",
+        "engineering-mobile-app-builder",
+        "engineering-mobile-architect",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -236,12 +507,20 @@
     {
       "id": "engineering-database-administrator",
       "name": "数据库管理员(DBA)",
-      "description": "数据库管理与运维专家，覆盖MySQL/PostgreSQL/MongoDB/Redis日常运维、备份恢复/高可用(主从/集群)、SQL性能调优/慢查询分析与容量规划",
+      "description": "数据库管理与运维专家，覆盖MySQL/MariaDB/Percona Server/PostgreSQL/MongoDB/Redis日常运维、备份恢复/高可用(主从/集群)、SQL性能调优/慢查询分析与容量规划",
       "emoji": "🗄️",
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-database-administrator.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-mongodb-expert",
+        "infrastructure-backup-admin",
+        "infrastructure-storage-backup"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -253,8 +532,35 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-database-optimizer.md",
+      "depends_on": [
+        "engineering-postgres-specialist",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-db-gui-tools",
+      "name": "数据库GUI工具专家",
+      "description": "MySQL Workbench、MongoDB Compass、pgAdmin、DBeaver、Navicat、DataGrip等数据库图形化管理工具专家，覆盖查询编辑、ER建模、数据迁移、性能监控与日常管理",
+      "emoji": "🖱️",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-db-gui-tools.md",
+      "depends_on": [
+        "engineering-database-administrator",
+        "infrastructure-backup-admin",
+        "specialized-identity-graph-operator",
+        "specialized-productivity-time-management",
+        "testing-test-results-analyzer",
+        "unity-editor-tool-developer"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-6-operate"
       ]
     },
     {
@@ -265,6 +571,17 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-developer-advocate.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-code-reviewer",
+        "engineering-cross-platform",
+        "government-social-work",
+        "hr-tech-people-analytics",
+        "marketing-short-video-editing-coach",
+        "specialized-agentic-identity-trust",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -277,6 +594,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-developer-experience.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -289,7 +610,53 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-developer-relations.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-graphql-expert",
+        "government-public-safety-analyst",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-dingtalk-developer",
+      "name": "钉钉集成开发工程师",
+      "description": "钉钉开放平台、机器人、审批流与工作通知集成专家",
+      "emoji": "📌",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-dingtalk-developer.md",
+      "depends_on": [
+        "construction-engineering-landscape-architecture",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "marketing-paid-media-search-query-analyst"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-director",
+      "name": "工程总监",
+      "description": "工程领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"⚙\"",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-general-manager",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
         "phase-3-build"
       ]
     },
@@ -301,6 +668,30 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-drupal-shopping-cart.md",
+      "depends_on": [
+        "design-engineering-accessibility-engineer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-wordpress-shopping-cart",
+        "testing-accessibility-auditor"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-dynamodb-developer",
+      "name": "DynamoDB开发专家",
+      "description": "Amazon DynamoDB、DocumentDB、Keyspaces 无服务器NoSQL专家，覆盖单表设计、GSI/LSI、DynamoDB Streams与DAX缓存",
+      "emoji": "⚡",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-dynamodb-developer.md",
+      "depends_on": [
+        "engineering-backend-architect",
+        "engineering-database-administrator",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -313,6 +704,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ecommerce-platform.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -326,6 +722,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-education-technology.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "education-academic-research-scientist",
+        "education-online-learning-designer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "pharma-biotech-pharma-regulatory-affairs"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -338,6 +743,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-electron-developer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -350,7 +759,32 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-email-intelligence-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "testing-engineering-test-automation-framework",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-embedded-database",
+      "name": "嵌入式/轻量级数据库专家",
+      "description": "SQLite、DuckDB、LevelDB、RocksDB 嵌入式数据库专家，覆盖移动端、边缘计算、浏览器(WASM)、单文件架构与性能优化",
+      "emoji": "🔋",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-embedded-database.md",
+      "depends_on": [
+        "engineering-cross-platform",
+        "engineering-database-administrator",
+        "infrastructure-storage-backup"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -362,6 +796,16 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-erp-implementer.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "data-science-engineering-deep-learning-training",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-git-workflow-master",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "manufacturing-supply-chain-planner"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -374,6 +818,16 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-fastapi-expert.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-mongodb-expert",
+        "engineering-nextjs-expert",
+        "engineering-swiftui-expert",
+        "infrastructure-kubernetes-expert",
+        "infrastructure-nginx-expert",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -386,6 +840,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-feishu-integration-developer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-incident-response",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-ecommerce-platform",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -398,6 +861,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-filament-optimization-specialist.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-minimal-change-engineer",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-short-video-editing-coach",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -411,6 +882,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-fintech-engineer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -423,6 +898,9 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-flutter-developer.md",
+      "depends_on": [
+        "infrastructure-github-actions-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -435,6 +913,19 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-frontend-developer.md",
+      "depends_on": [
+        "cybersecurity-security-architect",
+        "design-engineering-accessibility-engineer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-flutter-developer",
+        "engineering-nextjs-expert",
+        "engineering-reactnative-expert",
+        "marketing-cross-border-ecommerce",
+        "project-management-pmp",
+        "thinking-models-tech-leaders",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -447,8 +938,34 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-fullstack-developer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-general-manager",
+      "name": "工程总经理",
+      "description": "工程领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"⚙\"",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-general-manager",
+        "engineering-director",
+        "manufacturing-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -459,6 +976,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-git-workflow-master.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-llm-inference-expert",
+        "project-management-scrum-master"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -471,6 +994,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-gpu-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "infrastructure-engineering-edge-computing",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -478,12 +1007,19 @@
     {
       "id": "engineering-graph-database",
       "name": "图数据库/知识图谱工程师",
-      "description": "图数据库与知识图谱专家，覆盖Neo4j/JanusGraph/Amazon Neptune图数据库、Cypher/Gremlin图查询、知识图谱建模/推理、图算法与社交网络分析",
+      "description": "图数据库与知识图谱专家，覆盖Neo4j/JanusGraph/Amazon Neptune/NebulaGraph/Dgraph/HugeGraph/TuGraph/TigerGraph/ArangoDB/OrientDB、Cypher/Gremlin/nGQL图查询、知识图谱建模/推理、图算法与社交网络分析",
       "emoji": "🕸️",
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-graph-database.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-llamaindex-expert",
+        "sales-data-extraction-agent"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -495,6 +1031,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-graphql-expert.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-flutter-developer",
+        "engineering-mongodb-expert",
+        "engineering-nextjs-expert",
+        "infrastructure-engineering-incident-response-commander"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -507,6 +1052,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-humanitarian-engineering.md",
+      "depends_on": [
+        "emergency-disaster-response",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "marketing-southeast-asia-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -519,6 +1070,26 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-i18n-l10n.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-ide-expert",
+      "name": "IDE与开发环境专家",
+      "description": "VS Code、IntelliJ IDEA、PyCharm、Eclipse、CLion、WebStorm、Android Studio、Xcode、NetBeans等集成开发环境专家，覆盖编辑器配置、插件生态、调试器、性能优化与Dev Container",
+      "emoji": "💻",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-ide-expert.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -531,6 +1102,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-innovation-manager.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "marketing-demand-generation"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -543,6 +1119,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-insurance-technology.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-insurance-claims-analytics",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "marketing-brand-strategist-name",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -555,6 +1139,13 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ios-developer.md",
+      "depends_on": [
+        "aerospace-flight-test-engineer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-reactnative-expert",
+        "engineering-swiftui-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -567,6 +1158,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-ios-system.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -579,6 +1174,30 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-it-service-manager.md",
+      "depends_on": [
+        "infrastructure-cmdb-configuration",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-it-asset-manager",
+        "infrastructure-service-desk-manager",
+        "legal-document-review",
+        "specialized-agentic-identity-trust"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-keil-embedded-ide",
+      "name": "Keil嵌入式开发专家",
+      "description": "Keil MDK-ARM (µVision) 嵌入式IDE专家，覆盖ARM Cortex-M微控制器开发、CMSIS、RTX RTOS、调试器（J-Link/ULINK）、启动代码与链接脚本",
+      "emoji": "🔌",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-keil-embedded-ide.md",
+      "depends_on": [
+        "iot-engineering-embedded-firmware-engineer",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -591,6 +1210,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-langchain-expert.md",
+      "depends_on": [
+        "design-image-prompt-engineer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-git-workflow-master",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer",
+        "testing-tool-evaluator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -603,6 +1231,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-llamaindex-expert.md",
+      "depends_on": [
+        "design-image-prompt-engineer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-git-workflow-master",
+        "testing-test-results-analyzer",
+        "testing-tool-evaluator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -615,6 +1251,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-llm-inference-expert.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-git-workflow-master",
+        "engineering-minimal-change-engineer",
+        "specialized-identity-graph-operator",
+        "testing-performance-benchmarker",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -627,6 +1272,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-lowcode-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-nocode-developer",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -639,6 +1292,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-lsp-index-engineer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-git-workflow-master",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer",
+        "unreal-engine-unreal-world-builder"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -651,6 +1312,17 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-mcp-builder.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-mongodb-expert",
+        "engineering-nextjs-expert",
+        "engineering-wechat-mini-program-developer",
+        "infrastructure-github-actions-expert",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer",
+        "unreal-engine-unreal-world-builder"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -663,6 +1335,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-microservices-architect.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -675,6 +1353,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-minimal-change-engineer.md",
+      "depends_on": [
+        "education-field-archaeology",
+        "engineering-build-release-engineer",
+        "engineering-code-reviewer",
+        "engineering-cross-platform",
+        "specialized-agentic-identity-trust",
+        "specialized-life-coach"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -687,6 +1373,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-mobile-app-builder.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -699,6 +1389,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-mobile-architect.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -711,6 +1405,16 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-mongodb-expert.md",
+      "depends_on": [
+        "data-science-feature-store",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-graphql-expert",
+        "engineering-llamaindex-expert",
+        "engineering-nextjs-expert",
+        "infrastructure-storage-backup",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -723,6 +1427,17 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-multi-agent-systems-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-nextjs-expert",
+        "engineering-wechat-mini-program-developer",
+        "infrastructure-engineering-edge-computing",
+        "infrastructure-identity-access",
+        "iot-edge-computing",
+        "project-management-agents-orchestrator"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -735,7 +1450,35 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-network-engineer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-flutter-developer",
+        "engineering-mongodb-expert",
+        "engineering-nextjs-expert",
+        "marketing-private-domain-operator",
+        "marketing-short-video-editing-coach",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-newsql-distributed",
+      "name": "NewSQL分布式数据库专家",
+      "description": "TiDB、CockroachDB、Google Spanner、YugabyteDB、Vitess 分布式NewSQL专家，覆盖水平扩展、分布式事务、HTAP与跨区域部署",
+      "emoji": "🌐",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-newsql-distributed.md",
+      "depends_on": [
+        "engineering-database-administrator",
+        "engineering-backend-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
         "phase-3-build"
       ]
     },
@@ -747,6 +1490,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-nextjs-expert.md",
+      "depends_on": [
+        "infrastructure-github-actions-expert",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -759,7 +1506,28 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-nocode-developer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-olap-database",
+      "name": "分析型数据库专家",
+      "description": "ClickHouse、Druid、DuckDB、StarRocks、Doris OLAP分析型数据库专家，覆盖列式存储、物化视图、实时摄入与查询优化",
+      "emoji": "📈",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-olap-database.md",
+      "depends_on": [
+        "engineering-database-administrator",
+        "engineering-backend-architect"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -771,6 +1539,16 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-orgscript-engineer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-flutter-developer",
+        "engineering-graphql-expert",
+        "engineering-langchain-expert",
+        "testing-test-results-analyzer",
+        "testing-tool-evaluator",
+        "testing-workflow-optimizer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -783,6 +1561,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-payment-systems.md",
+      "depends_on": [
+        "engineering-wechat-mini-program-developer",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -795,6 +1578,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-postgres-specialist.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -808,6 +1595,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-programming-language.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-langchain-expert",
+        "specialized-document-generator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -820,6 +1613,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-prompt-engineer.md",
+      "depends_on": [
+        "engineering-ai-safety-expert",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-mcp-builder",
+        "engineering-mongodb-expert",
+        "thinking-models-scientific-method"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -832,6 +1633,17 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-quantum-computing.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "design-engineering-quant-ux-researcher",
+        "design-engineering-user-research-system",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "infrastructure-engineering-edge-computing",
+        "iot-edge-computing",
+        "product-trend-researcher",
+        "securities-quant-researcher"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -844,6 +1656,13 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-racial-equity.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-multi-agent-systems-architect",
+        "marketing-paid-media-auditor"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -857,6 +1676,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-rapid-prototyper.md",
+      "depends_on": [
+        "education-special-needs",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-git-workflow-master",
+        "government-social-work",
+        "legal-document-review"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -869,6 +1696,10 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-reactive-systems.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -881,6 +1712,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-reactnative-expert.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-mobile-app-builder",
+        "infrastructure-github-actions-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -893,6 +1730,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-realtime-systems.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "iot-embedded-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -905,6 +1747,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-retail-technology.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "iot-engineering-rfid-systems"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -917,8 +1765,34 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-salesforce-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-ecommerce-platform",
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-search-engine-expert",
+      "name": "搜索引擎专家",
+      "description": "Elasticsearch、OpenSearch、Solr、Splunk、Sphinx 全文搜索引擎专家，覆盖索引设计、查询DSL、集群调优、向量搜索与日志分析",
+      "emoji": "🔍",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-search-engine-expert.md",
+      "depends_on": [
+        "data-science-engineering-vector-database-expert",
+        "data-science-vector-db-architect",
+        "testing-test-results-analyzer"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     },
     {
@@ -929,6 +1803,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-senior-developer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-git-workflow-master",
+        "infrastructure-identity-access",
+        "logistics-cross-border-ecommerce",
+        "logistics-public-transit"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -941,6 +1824,11 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-sitecore-developer.md",
+      "depends_on": [
+        "engineering-nextjs-expert",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -953,6 +1841,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-social-media-platform.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "marketing-content-creator",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
@@ -967,10 +1861,39 @@
       "subcategory": "",
       "path": "engineering/engineering-software-architect.md",
       "depends_on": [
-        "engineering-backend-architect"
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-language-model-nlp",
+        "energy-engineering-small-modular-reactor",
+        "engineering-backend-architect",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "infrastructure-identity-access",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "engineering-sqlserver-dba",
+      "name": "SQL Server DBA/开发专家",
+      "description": "Microsoft SQL Server数据库管理与T-SQL开发专家，覆盖SQL Server 2019/2022/Azure SQL、Always On高可用、SSIS/SSRS/SSAS与性能调优",
+      "emoji": "🔲",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-sqlserver-dba.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-database-administrator",
+        "engineering-database-optimizer",
+        "infrastructure-backup-admin",
+        "infrastructure-storage-backup",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
       ]
     },
     {
@@ -981,8 +1904,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-standards-compliance.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -993,6 +1923,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-swiftui-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-feature-store",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-flutter-developer",
+        "engineering-reactnative-expert",
+        "engineering-wechat-mini-program-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1005,6 +1944,13 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-systems-integrator.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1017,6 +1963,18 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-technical-writer.md",
+      "depends_on": [
+        "education-arts-sports-teaching",
+        "education-higher-ed-teaching",
+        "education-language-teaching",
+        "education-number-theory",
+        "education-stem-engineering-teaching",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-llm-inference-expert",
+        "engineering-mongodb-expert",
+        "engineering-swiftui-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1029,6 +1987,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-visual-studio-cpp.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-visual-studio-dotnet-csharp",
+        "engineering-visual-studio-python",
+        "engineering-visual-studio-web-aspnet",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1041,6 +2007,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-visual-studio-dotnet-csharp.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-nextjs-expert",
+        "engineering-swiftui-expert",
+        "engineering-visual-studio-web-aspnet",
+        "infrastructure-desktop-support-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1053,6 +2027,12 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-visual-studio-python.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-visual-studio-web-aspnet",
+        "infrastructure-engineering-devops-automator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1065,6 +2045,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-visual-studio-web-aspnet.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-visual-studio-dotnet-csharp",
+        "engineering-visual-studio-python",
+        "infrastructure-github-actions-expert",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1077,6 +2065,14 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-voice-ai-integration-engineer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-visual-studio-python",
+        "infrastructure-github-actions-expert",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1089,6 +2085,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-webassembly-expert.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-dahua-server",
+        "infrastructure-huawei-xfusion-server",
+        "infrastructure-identity-access",
+        "infrastructure-windows-server"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1101,6 +2106,53 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-wechat-mini-program-developer.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-flutter-developer",
+        "engineering-nextjs-expert",
+        "engineering-swiftui-expert",
+        "finance-accounts-payable-agent",
+        "government-social-work",
+        "hr-tech-people-analytics",
+        "marketing-china-market-localization-strategist",
+        "marketing-short-video-editing-coach",
+        "specialized-habit-formation"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-wecom-developer",
+      "name": "企业微信集成开发工程师",
+      "description": "企业微信开放平台、自建应用、客户联系与消息推送集成专家",
+      "emoji": "💼",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-wecom-developer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-identity-access",
+        "marketing-wechat-official-account"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "engineering-widecolumn-nosql",
+      "name": "宽列NoSQL专家",
+      "description": "Apache Cassandra、HBase、ScyllaDB、BigTable、Accumulo 宽列存储专家，覆盖数据建模、CQL、集群运维与多DC部署",
+      "emoji": "📊",
+      "category": "engineering",
+      "subcategory": "",
+      "path": "engineering/engineering-widecolumn-nosql.md",
+      "depends_on": [
+        "engineering-database-administrator",
+        "engineering-backend-architect"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -1113,6 +2165,15 @@
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-wordpress-shopping-cart.md",
+      "depends_on": [
+        "engineering-build-release-engineer",
+        "engineering-cross-platform",
+        "engineering-drupal-shopping-cart",
+        "marketing-paid-media-tracking-specialist",
+        "operations-report-distribution-agent",
+        "specialized-agentic-identity-trust",
+        "testing-accessibility-auditor"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

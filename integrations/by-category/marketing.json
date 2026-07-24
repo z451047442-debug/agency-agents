@@ -1,7 +1,7 @@
 {
   "category": "marketing",
   "agent_count": 84,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "marketing-abm-account-based",
@@ -11,6 +11,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-abm-account-based.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "marketing-market-research"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -23,7 +29,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-ad-strategist.md",
+      "depends_on": [
+        "data-science-feature-store",
+        "marketing-bilibili-content-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-ppc-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -36,7 +49,15 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-aeo-foundations.md",
+      "depends_on": [
+        "infrastructure-engineering-devops-automator",
+        "infrastructure-windows-server",
+        "marketing-agentic-search-optimizer",
+        "marketing-ai-citation-strategist",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -48,6 +69,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-affiliate-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-risk-quant",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -60,6 +87,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-africa-market-expert.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -72,6 +104,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-agentic-search-optimizer.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "marketing-ai-citation-strategist",
+        "specialized-identity-graph-operator",
+        "specialized-workflow-architect"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -84,8 +122,16 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-ai-citation-strategist.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "marketing-brand-strategist",
+        "marketing-brand-strategist-name",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -97,7 +143,17 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-analytics.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "data-science-engineering-video-analytics",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "government-public-safety-analyst",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
       ]
     },
@@ -109,6 +165,9 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-app-store-optimizer.md",
+      "depends_on": [
+        "engineering-android-framework"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -121,7 +180,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-asa-specialist.md",
+      "depends_on": [
+        "data-science-feature-store",
+        "logistics-last-mile-delivery"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -133,6 +197,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-automation.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-auditor"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -145,7 +214,17 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-baidu-seo-specialist.md",
+      "depends_on": [
+        "engineering-mobile-app-builder",
+        "marketing-china-market-localization-strategist",
+        "marketing-cross-border-ecommerce",
+        "operations-finance-tracker",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -157,7 +236,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-bilibili-content-strategist.md",
+      "depends_on": [
+        "design-cultural-intelligence-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -170,20 +253,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-book-co-author.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "education-special-needs",
+        "engineering-minimal-change-engineer",
+        "marketing-kuaishou-strategist",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
-        "phase-5-launch"
-      ]
-    },
-    {
-      "id": "marketing-brand-strategist-name",
-      "name": "品牌命名/语言策略师",
-      "description": "品牌命名与语言识别专家，覆盖品牌/产品/服务命名策略、商标检索/可用性评估、多语言命名/文化适配与语言识别(Verbal Identity)/品牌语调(Tone of Voice)",
-      "emoji": "💬",
-      "category": "marketing",
-      "subcategory": "",
-      "path": "marketing/marketing-brand-strategist-name.md",
-      "nexus_roles": [
-        "phase-1-strategy",
         "phase-5-launch"
       ]
     },
@@ -195,7 +272,30 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-brand-strategist.md",
+      "depends_on": [
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "marketing-brand-strategist-name",
+      "name": "品牌命名/语言策略师",
+      "description": "品牌命名与语言识别专家，覆盖品牌/产品/服务命名策略、商标检索/可用性评估、多语言命名/文化适配与语言识别(Verbal Identity)/品牌语调(Tone of Voice)",
+      "emoji": "💬",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-brand-strategist-name.md",
+      "depends_on": [
+        "marketing-social-media-strategist",
+        "marketing-paid-media-creative-strategist",
+        "marketing-brand-strategist"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -208,6 +308,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-carousel-growth-engine.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -220,6 +325,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-china-ecommerce-operator.md",
+      "depends_on": [
+        "design-creative-tools",
+        "marketing-book-co-author",
+        "marketing-private-domain-operator",
+        "marketing-short-video-editing-coach"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -232,7 +343,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-china-market-localization-strategist.md",
+      "depends_on": [
+        "design-cultural-intelligence-strategist",
+        "engineering-wechat-mini-program-developer",
+        "logistics-supply-chain-strategist",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -245,6 +363,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-community-manager.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "marketing-bilibili-content-strategist",
+        "marketing-kuaishou-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -257,6 +380,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-content-creator.md",
+      "depends_on": [
+        "marketing-social-media-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -269,7 +397,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-content-strategist.md",
+      "depends_on": [
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -282,6 +416,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-conversion-copywriter.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -294,8 +433,15 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-creative-director.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "engineering-multi-agent-systems-architect",
+        "marketing-abm-account-based",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-5-launch"
       ]
     },
     {
@@ -306,6 +452,9 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-crm-community-expert.md",
+      "depends_on": [
+        "marketing-customer-lifecycle"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -318,6 +467,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-cro.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "marketing-abm-account-based",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -330,6 +484,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-cross-border-ecommerce.md",
+      "depends_on": [
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-supply-chain-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -342,6 +501,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-customer-advocacy.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-risk-quant",
+        "legal-engineering-legal-document-automation",
+        "marketing-director"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -354,7 +520,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-customer-data-platform.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "marketing-kuaishou-strategist"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -366,6 +538,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-customer-lifecycle.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "marketing-kuaishou-strategist",
+        "sales-customer-onboarding"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -378,6 +556,10 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-demand-generation.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "marketing-email-marketing"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -390,8 +572,16 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-director.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "marketing-bilibili-content-strategist",
+        "marketing-kuaishou-strategist",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-5-launch"
       ]
     },
     {
@@ -402,7 +592,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-douyin-strategist.md",
+      "depends_on": [
+        "marketing-paid-media-creative-strategist",
+        "marketing-china-market-localization-strategist",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -415,6 +611,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-email-marketing.md",
+      "depends_on": [
+        "marketing-social-media-strategist",
+        "marketing-paid-media-creative-strategist",
+        "marketing-email-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -427,7 +628,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-email-strategist.md",
+      "depends_on": [
+        "marketing-email-marketing",
+        "marketing-paid-media-ppc-strategist",
+        "marketing-bilibili-content-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -440,6 +647,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-engineering-community-manager.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "engineering-programming-language",
+        "government-public-safety-analyst",
+        "marketing-private-domain-operator",
+        "marketing-reddit-community-builder",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -452,6 +667,10 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-engineering-seo-technical.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "marketing-inbound-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -464,6 +683,9 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-europe-market.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -476,6 +698,9 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-feed-ad-optimizer.md",
+      "depends_on": [
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -488,6 +713,10 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-field-marketing.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "marketing-kuaishou-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -500,7 +729,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-french-market-consultant.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
       ]
     },
@@ -512,7 +748,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-global-podcast-strategist.md",
+      "depends_on": [
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -525,6 +765,9 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-global-ua-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -537,6 +780,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-growth-hacker.md",
+      "depends_on": [
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-social-media-strategist",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -549,7 +797,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-inbound-strategist.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "marketing-market-research",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -562,6 +817,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-india-market.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "web3-defi-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -574,6 +835,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-influencer-kol.md",
+      "depends_on": [
+        "marketing-social-media-strategist",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-paid-social-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -586,6 +852,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-instagram-curator.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-video-analytics",
+        "design-engineering-user-research-system",
+        "design-visual-storyteller",
+        "marketing-carousel-growth-engine",
+        "marketing-market-research"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -598,6 +872,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-japan-market-expert.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -610,6 +889,17 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-korean-business-navigator.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "education-special-needs",
+        "food-beverage-food-safety",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "gis-drone-reality-mapping",
+        "logistics-engineering-supply-chain-risk",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -622,7 +912,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-kuaishou-strategist.md",
+      "depends_on": [
+        "logistics-supply-chain-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -635,6 +929,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-linkedin-content-creator.md",
+      "depends_on": [
+        "government-social-work",
+        "marketing-bilibili-content-strategist",
+        "marketing-china-market-localization-strategist",
+        "marketing-email-strategist",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -647,6 +948,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-livestream-commerce-coach.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -659,6 +965,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-market-research.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "marketing-abm-account-based",
+        "product-trend-researcher",
+        "retail-customer-insight-analyst"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -671,7 +985,16 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-multi-platform-publisher.md",
+      "depends_on": [
+        "design-image-prompt-engineer",
+        "engineering-wechat-mini-program-developer",
+        "logistics-supply-chain-strategist",
+        "marketing-bilibili-content-strategist",
+        "marketing-linkedin-content-creator",
+        "sales-account-strategist"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -683,8 +1006,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-paid-media-auditor.md",
+      "depends_on": [
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-programmatic-buyer",
+        "marketing-paid-media-tracking-specialist"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
       ]
     },
     {
@@ -695,7 +1024,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-paid-media-creative-strategist.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist",
+        "marketing-paid-media-programmatic-buyer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -708,8 +1043,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-paid-media-paid-social-strategist.md",
+      "depends_on": [
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -721,7 +1061,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-paid-media-ppc-strategist.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-paid-social-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -734,6 +1080,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-paid-media-programmatic-buyer.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-auditor"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -746,6 +1097,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-paid-media-search-query-analyst.md",
+      "depends_on": [
+        "marketing-paid-media-programmatic-buyer",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-auditor"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -758,7 +1114,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-paid-media-tracking-specialist.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-auditor"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -770,6 +1132,10 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-performance-analyst.md",
+      "depends_on": [
+        "data-science-causal-inference",
+        "data-science-engineering-deep-learning-training"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -782,7 +1148,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-podcast-strategist.md",
+      "depends_on": [
+        "marketing-social-media-strategist",
+        "marketing-paid-media-creative-strategist",
+        "marketing-china-market-localization-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -795,6 +1167,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-pr-communications-manager.md",
+      "depends_on": [
+        "marketing-social-media-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -807,6 +1184,9 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-pr-expert.md",
+      "depends_on": [
+        "marketing-pr-communications-manager"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -819,6 +1199,9 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-private-domain-operator.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -831,6 +1214,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-reddit-community-builder.md",
+      "depends_on": [
+        "marketing-brand-strategist",
+        "marketing-abm-account-based",
+        "marketing-content-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -843,6 +1231,14 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-retail-media-ad.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "engineering-social-media-platform",
+        "government-social-work",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -855,6 +1251,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-sales-enablement.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "marketing-field-marketing",
+        "specialized-productivity-time-management"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -867,7 +1269,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-sem-baidu-specialist.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-auditor",
+        "marketing-paid-media-paid-social-strategist"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -879,7 +1287,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-seo-specialist.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -891,6 +1305,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-short-video-editing-coach.md",
+      "depends_on": [
+        "marketing-paid-media-creative-strategist",
+        "marketing-linkedin-content-creator",
+        "marketing-field-marketing"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -903,6 +1322,10 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-sms-push-notifications.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -915,8 +1338,15 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-social-media-strategist.md",
+      "depends_on": [
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-reddit-community-builder"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -928,6 +1358,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-southeast-asia-expert.md",
+      "depends_on": [
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist",
+        "marketing-paid-media-paid-social-strategist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -940,7 +1375,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-tiktok-strategist.md",
+      "depends_on": [
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -953,6 +1394,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-twitter-engager.md",
+      "depends_on": [
+        "data-science-engineering-video-analytics",
+        "design-image-prompt-engineer",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-tracking-specialist",
+        "retail-customer-insight-analyst"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -965,7 +1413,16 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-video-optimization-specialist.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "marketing-bilibili-content-strategist",
+        "marketing-china-market-localization-strategist",
+        "marketing-short-video-editing-coach",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -977,7 +1434,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-wechat-official-account.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -989,7 +1450,13 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-weibo-strategist.md",
+      "depends_on": [
+        "marketing-paid-media-creative-strategist",
+        "marketing-china-market-localization-strategist",
+        "marketing-brand-strategist-name"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]
@@ -1002,6 +1469,9 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-x-twitter-intelligence-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -1014,7 +1484,12 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-xiaohongshu-specialist.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-engineering-user-research-system"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-5-launch"
       ]
     },
@@ -1026,7 +1501,11 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-zhihu-strategist.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
       ]

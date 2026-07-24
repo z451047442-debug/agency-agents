@@ -1,7 +1,7 @@
 {
   "category": "finance",
-  "agent_count": 36,
-  "generated": "2026-07-05",
+  "agent_count": 38,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "finance-accounts-payable-agent",
@@ -11,6 +11,11 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-accounts-payable-agent.md",
+      "depends_on": [
+        "finance-accounts-payable-manager",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -23,6 +28,11 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-accounts-payable-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -35,6 +45,12 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-accounts-receivable.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -47,6 +63,10 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-actuary.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-insurance-underwriter"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -59,8 +79,13 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-auditor.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
       ]
     },
     {
@@ -71,6 +96,11 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-bank-relationship.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -83,6 +113,12 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-bookkeeper-controller.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "finance-financial-controller",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -95,6 +131,12 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-capital-markets-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-customer-data-science",
+        "finance-accounts-payable-agent",
+        "healthcare-engineering-regulatory-science"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -107,7 +149,15 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-cfo.md",
+      "depends_on": [
+        "finance-capital-markets-analyst",
+        "government-public-safety-analyst",
+        "marketing-abm-account-based",
+        "marketing-private-domain-operator",
+        "tourism-destination-marketing"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -119,6 +169,11 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-cost-accountant.md",
+      "depends_on": [
+        "finance-fpa-analyst",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -131,6 +186,12 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-credit-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-computer-vision-deep",
+        "finance-engineering-credit-risk-model"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -143,8 +204,34 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-data-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-accounts-payable-agent",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-director",
+      "name": "金融总监",
+      "description": "金融领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"💰\"",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-director.md",
+      "depends_on": [
+        "finance-general-manager",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -155,8 +242,14 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-engineering-credit-risk-model.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-accounts-receivable"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
       ]
     },
     {
@@ -167,8 +260,14 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-engineering-forensic-accounting.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
       ]
     },
     {
@@ -179,8 +278,14 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-engineering-infrastructure-finance.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -191,8 +296,14 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-engineering-risk-quant.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
       ]
     },
     {
@@ -203,6 +314,10 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-engineering-tax-incentives.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -215,6 +330,12 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-esg-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "energy-carbon-market",
+        "environmental-engineering-climate-tech",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -227,8 +348,14 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-financial-analyst.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "operations-executive-summary-generator"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -239,8 +366,16 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-financial-controller.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-consolidation-agent",
+        "finance-accounts-receivable",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -251,8 +386,36 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-fpa-analyst.md",
+      "depends_on": [
+        "finance-cost-accountant",
+        "legal-smart-manufacturing",
+        "operations-executive-summary-generator",
+        "web3-engineering-solidity-smart-contract-engineer"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "finance-general-manager",
+      "name": "金融总经理",
+      "description": "金融领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"💰\"",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-general-manager",
+        "finance-director",
+        "legal-general-manager",
+        "securities-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -263,6 +426,13 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-insurance-underwriter.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-insurance-claims-analytics",
+        "finance-accounts-receivable",
+        "legal-engineering-legal-contracts-ai",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -275,8 +445,17 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-internal-auditor.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "cybersecurity-incident-response",
+        "data-science-engineering-language-model-nlp",
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-auditor",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
       ]
     },
     {
@@ -287,6 +466,12 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-investment-researcher.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "engineering-multi-agent-systems-architect",
+        "finance-web3-analyst",
+        "securities-quant-researcher"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -299,7 +484,16 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-ipo-advisor.md",
+      "depends_on": [
+        "data-science-consolidation-agent",
+        "data-science-engineering-language-model-nlp",
+        "education-special-needs",
+        "finance-capital-markets-analyst",
+        "government-public-safety-analyst",
+        "marketing-paid-media-auditor"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -311,6 +505,11 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-loan-officer-assistant.md",
+      "depends_on": [
+        "finance-accounts-payable-agent",
+        "legal-client-intake",
+        "legal-document-review"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -323,6 +522,11 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-mergers-acquisitions.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -335,6 +539,11 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-payroll-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -347,7 +556,12 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-personal-advisor.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -359,6 +573,10 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-quant-trader.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -371,8 +589,13 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-risk-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-engineering-credit-risk-model"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
       ]
     },
     {
@@ -383,7 +606,15 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-tax-strategist.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "engineering-multi-agent-systems-architect",
+        "environmental-water-treatment",
+        "finance-engineering-tax-incentives",
+        "hr-compensation-benefits"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -395,8 +626,15 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-transfer-pricing.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -407,6 +645,12 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-treasury.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -419,6 +663,11 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-wealth-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent",
+        "marketing-private-domain-operator"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]
@@ -431,6 +680,10 @@
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-web3-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery"
       ]

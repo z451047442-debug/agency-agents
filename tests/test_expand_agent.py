@@ -216,7 +216,7 @@ class TestFindReferenceAgents:
         if refs:
             wc, total, ref_id, filepath = refs[0]
             assert isinstance(wc, int)
-            assert isinstance(total, int)
+            assert isinstance(total, (int, float))
             assert isinstance(ref_id, str)
             assert isinstance(filepath, Path)
 
@@ -326,7 +326,6 @@ class TestAnalyzeExpansionNeedsVariousProfiles:
         """Agent with low content_depth triggers word gap analysis."""
         from _shared import discover_agents
 
-        monkeypatch.setattr(mod._score_agents, "REPO", tmp_path)
         monkeypatch.setattr(_shared.discovery, "REPO", tmp_path)
 
         # Need to find or create an agent with content_depth < 3
@@ -773,3 +772,18 @@ class TestMain:
             sys.argv = old_argv
         output = captured.getvalue()
         assert "Expansion Plan" in output
+
+    def test_critical_risk_diagnosis_warning(self, capsys):
+        """Line 131: critical-risk agent below B-grade triggers warning."""
+        result = {
+            "id": "aerospace-test-pilot", "category": "aerospace",
+            "total": 4, "grade": "C", "risk_tier": "critical",
+            "scores": {"content_depth": 1, "structure": 1,
+                       "frontmatter": 1, "file_health": 1},
+            "word_count": 150, "domain_signals": 2,
+            "actionable_count": 3, "substantive_sections": 2,
+            "issues": []
+        }
+        mod.print_diagnosis(result)
+        captured = capsys.readouterr()
+        assert "CRITICAL-RISK" in captured.out

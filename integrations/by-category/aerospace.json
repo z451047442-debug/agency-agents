@@ -1,7 +1,7 @@
 {
   "category": "aerospace",
-  "agent_count": 23,
-  "generated": "2026-07-05",
+  "agent_count": 32,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "aerospace-atc-specialist",
@@ -11,7 +11,16 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-atc-specialist.md",
+      "depends_on": [
+        "aerospace-avionics",
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -23,6 +32,44 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-avionics.md",
+      "depends_on": [
+        "aerospace-atc-specialist",
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-git-workflow-master",
+        "engineering-programming-language",
+        "engineering-standards-compliance"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-c4isr-electronic-warfare",
+      "name": "电子信息与指挥控制专家",
+      "description": "雷达探测/指控信息系统/综合电子信息系统/火控系统/军用信息系统/军工电子与信息化/电子信息装备/指挥控制与AI/电子战/军用通信专家",
+      "emoji": "📡",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-c4isr-electronic-warfare.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "telecom-engineering-radar-systems"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-damage-protection-technology",
+      "name": "毁伤与防护技术专家",
+      "description": "陆战毁伤/新型武器爆炸毁伤效应/地下目标毁伤技术/精准毁伤与主动防护技术/毁伤与抗毁伤效能评估/装甲防护/爆炸冲击防护专家",
+      "emoji": "🛡️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-damage-protection-technology.md",
+      "depends_on": [
+        "aerospace-weapon-systems-engineering"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,8 +82,19 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-director.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software",
+        "manufacturing-supply-chain-planner",
+        "marketing-customer-lifecycle"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -47,6 +105,11 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-advanced-air-mobility.md",
+      "depends_on": [
+        "automotive-engineering-electric-vehicle-aerodynamics",
+        "automotive-engineering-vehicle-dynamics",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +122,15 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aircraft-structures.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-engineering",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "infrastructure-engineering-site-reliability-architect",
+        "infrastructure-engineering-site-reliability-automation",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,6 +143,15 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-biofuels.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-sustainability",
+        "finance-accounts-payable-agent",
+        "finance-engineering-credit-risk-model",
+        "food-beverage-food-safety",
+        "marketing-abm-account-based",
+        "quality-food-safety",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +164,14 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-economics.md",
+      "depends_on": [
+        "aerospace-atc-specialist",
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +184,10 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-engineering.md",
+      "depends_on": [
+        "aerospace-engineering-aircraft-structures",
+        "aerospace-flight-test-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,8 +200,18 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-human-factors.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-pilot-training",
+        "aerospace-engineering-aviation-safety",
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-human-factors",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -119,6 +222,12 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-maintenance.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-pilot-training",
+        "finance-accounts-payable-agent",
+        "legal-engineering-legal-document-automation",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -131,6 +240,14 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-pilot-training.md",
+      "depends_on": [
+        "aerospace-flight-test-engineer",
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-deep-learning-training",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +260,12 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-safety.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-pilot-training",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +278,13 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-sustainability.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-biofuels",
+        "energy-carbon-market",
+        "energy-engineering-carbon-capture-storage",
+        "logistics-engineering-supply-chain-risk",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,6 +297,11 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-drone-engineer.md",
+      "depends_on": [
+        "aerospace-engineering-aircraft-structures",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -179,7 +314,17 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-planetary-science.md",
+      "depends_on": [
+        "aerospace-atc-specialist",
+        "environmental-engineering-gis-remote-sensing",
+        "finance-accounts-payable-agent",
+        "government-public-safety-analyst",
+        "healthcare-engineering-regulatory-science",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -191,6 +336,14 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-satellite-operations.md",
+      "depends_on": [
+        "aerospace-atc-specialist",
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -203,6 +356,12 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-spacecraft-gnc.md",
+      "depends_on": [
+        "aerospace-engineering-drone-engineer",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -215,6 +374,13 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-systems-aerospace.md",
+      "depends_on": [
+        "aerospace-atc-specialist",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -227,6 +393,105 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-flight-test-engineer.md",
+      "depends_on": [
+        "aerospace-atc-specialist",
+        "finance-accounts-payable-agent",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ]
+    },
+    {
+      "id": "aerospace-military-aviation-weapons",
+      "name": "航空航天武器系统专家",
+      "description": "航空武器装备/航空发动机气动热力与诊断/飞机航电隐身与总体设计/宇航推进/通信卫星工程/飞行器动力学与控制/新概念发射技术/跨介质智能兵器/高效推进技术专家",
+      "emoji": "✈️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-military-aviation-weapons.md",
+      "depends_on": [
+        "aerospace-propulsion",
+        "aerospace-avionics",
+        "aerospace-structures"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-military-civil-fusion",
+      "name": "军民融合与国防战略专家",
+      "description": "军民融合发展战略/军工企业与民参军技术创新管理/军民科技协同创新/国防与航空航天产业链/军事理论发展战略/国防采办与装备经济专家",
+      "emoji": "🤝",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-military-civil-fusion.md",
+      "depends_on": [
+        "logistics-supply-chain-strategist",
+        "marketing-china-market-localization-strategist",
+        "specialized-personal-growth-mentor",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "aerospace-military-materials-manufacturing",
+      "name": "军工材料与制造工程专家",
+      "description": "先进含能材料(发射药/推进剂/装药)/军工复合材料/金属增材制造/精密微细结构加工/激光微纳制造/精密装配/兵器焊接/军事工程抢修抢建/地下工程防护/装备综合保障/产品可靠性专家",
+      "emoji": "⚗️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-military-materials-manufacturing.md",
+      "depends_on": [
+        "manufacturing-engineering-additive-manufacturing-metal",
+        "specialized-personal-growth-mentor"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-military-theory-strategy",
+      "name": "军事学与军事理论专家",
+      "description": "军事思想/军事历史/军事战略学/战争动员学/联合战役学/合同战术学/军队指挥学/军事运筹学/军事通信学/军事情报学/军事管理学/军队政治工作学/军事后勤学/军队训练学/军事装备学/密码学专家",
+      "emoji": "⚔️",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-military-theory-strategy.md",
+      "depends_on": [
+        "design-cultural-intelligence-strategist",
+        "government-social-work",
+        "government-urban-resilience",
+        "logistics-supply-chain-strategist",
+        "specialized-identity-graph-operator",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "aerospace-naval-underwater-weapons",
+      "name": "舰船与水中兵器专家",
+      "description": "舰载武器系统与运用工程/舰艇作战系统/水声工程与矢量声呐/水下航行器总体设计与动力推进/海军武器装备火力指挥控制系统专家",
+      "emoji": "🚢",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-naval-underwater-weapons.md",
+      "depends_on": [
+        "aerospace-engineering-systems-aerospace",
+        "cybersecurity-engineering-threat-detection-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -239,6 +504,12 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-propulsion.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-engineering",
+        "engineering-git-workflow-master",
+        "engineering-programming-language",
+        "engineering-standards-compliance"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -251,6 +522,10 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-satellite.md",
+      "depends_on": [
+        "aerospace-atc-specialist",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -263,6 +538,10 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-structures.md",
+      "depends_on": [
+        "aerospace-engineering-aircraft-structures",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -275,6 +554,46 @@
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-systems-engineer.md",
+      "depends_on": [
+        "aerospace-atc-specialist",
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-git-workflow-master",
+        "engineering-programming-language",
+        "engineering-standards-compliance"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-unmanned-intelligent-military",
+      "name": "无人系统与智能化军事专家",
+      "description": "智能无人系统/无人装备发展战略/智能感知计算与控制/智能单兵武器/智能化军事概念开发与场景设计/军事AI/无人机蜂群/人机协同专家",
+      "emoji": "🤖",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-unmanned-intelligent-military.md",
+      "depends_on": [
+        "engineering-ai-engineer",
+        "testing-engineering-test-automation-framework",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "aerospace-weapon-systems-engineering",
+      "name": "武器系统与兵器工程专家",
+      "description": "武器系统总体设计、弹药工程与毁伤技术、弹道学(内弹道/中间弹道/外弹道/终点弹道)、引信技术与MEMS、火炮与自动武器、水中兵器及特种发射、武器系统安全与可靠性专家",
+      "emoji": "🎯",
+      "category": "aerospace",
+      "subcategory": "",
+      "path": "aerospace/aerospace-weapon-systems-engineering.md",
+      "depends_on": [
+        "aerospace-engineering-systems-aerospace",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

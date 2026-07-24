@@ -1,7 +1,7 @@
 {
   "category": "retail",
-  "agent_count": 12,
-  "generated": "2026-07-05",
+  "agent_count": 14,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "retail-category-manager",
@@ -11,6 +11,13 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-category-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-last-mile-delivery"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -23,7 +30,17 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-customer-insight-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "marketing-private-domain-operator",
+        "marketing-retail-media-ad",
+        "retail-category-manager"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
       ]
     },
@@ -35,8 +52,39 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-data-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "marketing-private-domain-operator",
+        "marketing-retail-media-ad",
+        "retail-category-manager"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-director",
+      "name": "零售总监",
+      "description": "零售领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🛒\"",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "retail-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -47,7 +95,17 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-ecommerce-strategist.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "marketing-private-domain-operator",
+        "marketing-retail-media-ad",
+        "retail-category-manager"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
       ]
     },
@@ -59,7 +117,37 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-fmcg-manager.md",
+      "depends_on": [
+        "food-beverage-food-safety",
+        "logistics-last-mile-delivery",
+        "marketing-brand-strategist-name",
+        "operations-report-distribution-agent",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-general-manager",
+      "name": "零售总经理",
+      "description": "零售领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🛒\"",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "retail-director",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
         "phase-5-launch"
       ]
     },
@@ -71,18 +159,13 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-loss-prevention.md",
-      "nexus_roles": [
-        "phase-5-launch"
-      ]
-    },
-    {
-      "id": "retail-omnichannel-manager",
-      "name": "全渠道运营经理",
-      "description": "线上线下全渠道运营：门店数字化、私域流量、直播电商、即时零售、会员体系",
-      "emoji": "🏬",
-      "category": "retail",
-      "subcategory": "",
-      "path": "retail/retail-omnichannel-manager.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "legal-engineering-legal-document-automation",
+        "logistics-engineering-supply-chain-risk",
+        "retail-category-manager"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -95,6 +178,33 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-omnichannel.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "retail-store-ops",
+        "specialized-document-generator"
+      ],
+      "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "retail-omnichannel-manager",
+      "name": "全渠道运营经理",
+      "description": "线上线下全渠道运营：门店数字化、私域流量、直播电商、即时零售、会员体系",
+      "emoji": "🏬",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-omnichannel-manager.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "marketing-private-domain-operator",
+        "marketing-retail-media-ad",
+        "retail-category-manager"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -107,6 +217,11 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-store-ops.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "retail-loss-prevention"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -119,7 +234,17 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-supply-chain-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "marketing-private-domain-operator",
+        "marketing-retail-media-ad",
+        "retail-category-manager"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-5-launch"
       ]
     },
@@ -131,6 +256,11 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-technology.md",
+      "depends_on": [
+        "customer-service-retail-customer-returns",
+        "cybersecurity-engineering-customer-identity-access",
+        "retail-category-manager"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -143,6 +273,13 @@
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-visual-merchandiser.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "marketing-brand-strategist",
+        "marketing-customer-lifecycle",
+        "retail-category-manager"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]

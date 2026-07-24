@@ -1,7 +1,7 @@
 {
   "category": "legal",
-  "agent_count": 22,
-  "generated": "2026-07-05",
+  "agent_count": 24,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "legal-billing-time-tracking",
@@ -11,6 +11,14 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-billing-time-tracking.md",
+      "depends_on": [
+        "legal-client-intake",
+        "specialized-habit-formation",
+        "specialized-life-coach",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -24,6 +32,10 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-client-intake.md",
+      "depends_on": [
+        "infrastructure-engineering-incident-response-commander",
+        "legal-billing-time-tracking"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -37,6 +49,15 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-construction-realestate.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model",
+        "legal-engineering-legal-contracts-ai",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -50,6 +71,9 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-corporate-attorney.md",
+      "depends_on": [
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -63,6 +87,10 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-criminal-defense-attorney.md",
+      "depends_on": [
+        "legal-billing-time-tracking",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -76,9 +104,17 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-cybersecurity-data.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "cybersecurity-engineering-cybersecurity-risk",
+        "cybersecurity-incident-response",
+        "government-public-safety-analyst",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -89,6 +125,10 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-data-privacy-attorney.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "legal-data-protection-officer"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -102,9 +142,34 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-data-protection-officer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-privacy-engineer",
+        "government-public-safety-analyst"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-director",
+      "name": "法律总监",
+      "description": "法律领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"⚖\"",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-director.md",
+      "depends_on": [
+        "hr-tech-people-analytics",
+        "legal-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -115,9 +180,14 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-document-review.md",
+      "depends_on": [
+        "legal-data-privacy-attorney",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -128,6 +198,14 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-engineering-legal-contracts-ai.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "finance-engineering-credit-risk-model",
+        "legal-engineering-legal-document-automation",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -141,6 +219,14 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-engineering-legal-document-automation.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "legal-engineering-legal-contracts-ai",
+        "marketing-abm-account-based",
+        "testing-engineering-test-automation-framework",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -154,6 +240,14 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-engineering-legal-technology.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "legal-engineering-legal-document-automation",
+        "marketing-abm-account-based",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -167,6 +261,15 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-engineering-outer-space-law.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "legal-billing-time-tracking",
+        "marketing-japan-market-expert",
+        "marketing-private-domain-operator",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -180,6 +283,13 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-engineering-patent-engineer.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "legal-engineering-legal-document-automation",
+        "marketing-abm-account-based",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -193,9 +303,17 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-engineering-trade-compliance.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "legal-billing-time-tracking",
+        "marketing-abm-account-based",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
       ]
     },
     {
@@ -206,6 +324,13 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-environmental-attorney.md",
+      "depends_on": [
+        "energy-carbon-market",
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "legal-criminal-defense-attorney",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -219,9 +344,39 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-general-counsel.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-incident-response",
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "legal-engineering-legal-document-automation",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "legal-general-manager",
+      "name": "法律总经理",
+      "description": "法律领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"⚖\"",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-general-manager",
+        "government-general-manager",
+        "healthcare-general-manager",
+        "legal-director",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -232,6 +387,14 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-immigration-attorney.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "legal-criminal-defense-attorney",
+        "marketing-abm-account-based",
+        "thinking-models-decision-frameworks",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -245,6 +408,10 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-ip-attorney.md",
+      "depends_on": [
+        "legal-billing-time-tracking",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -258,6 +425,10 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-labor-attorney.md",
+      "depends_on": [
+        "legal-billing-time-tracking",
+        "marketing-paid-media-creative-strategist"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -271,6 +442,14 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-smart-manufacturing.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "education-special-needs",
+        "legal-engineering-legal-contracts-ai",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel",
+        "marketing-cross-border-ecommerce"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -284,6 +463,12 @@
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-tax-attorney.md",
+      "depends_on": [
+        "finance-cost-accountant",
+        "finance-engineering-risk-quant",
+        "healthcare-engineering-gene-editing-crispr",
+        "legal-billing-time-tracking"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"

@@ -1,8 +1,48 @@
 {
   "category": "beauty",
-  "agent_count": 3,
-  "generated": "2026-07-05",
+  "agent_count": 6,
+  "generated": "2026-07-16",
   "agents": [
+    {
+      "id": "beauty-cosmetics-science",
+      "name": "化妆品科学与配方专家",
+      "description": "化妆品原料科学、配方开发与工艺放大、功效评价与安全性评估、法规合规(CPSR/FDA/NMPA)、感官评价与消费者测试专家",
+      "emoji": "🧪",
+      "category": "beauty",
+      "subcategory": "",
+      "path": "beauty/beauty-cosmetics-science.md",
+      "depends_on": [
+        "food-beverage-engineering-cosmetics-science",
+        "healthcare-engineering-regulatory-science",
+        "marketing-china-market-localization-strategist",
+        "pharma-biotech-pharma-formulation-scientist"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "beauty-director",
+      "name": "美妆总监",
+      "description": "美妆领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"💄\"",
+      "category": "beauty",
+      "subcategory": "",
+      "path": "beauty/beauty-director.md",
+      "depends_on": [
+        "beauty-general-manager",
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
     {
       "id": "beauty-formulation",
       "name": "化妆品配方科学家",
@@ -11,7 +51,37 @@
       "category": "beauty",
       "subcategory": "",
       "path": "beauty/beauty-formulation.md",
+      "depends_on": [
+        "beauty-marketing",
+        "data-science-engineering-knowledge-management",
+        "food-beverage-engineering-cosmetics-science",
+        "healthcare-engineering-regulatory-science",
+        "pharma-biotech-pharma-regulatory-affairs"
+      ],
       "nexus_roles": [
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "beauty-general-manager",
+      "name": "美妆总经理",
+      "description": "美妆领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"💄\"",
+      "category": "beauty",
+      "subcategory": "",
+      "path": "beauty/beauty-general-manager.md",
+      "depends_on": [
+        "beauty-director",
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
         "phase-5-launch"
       ]
     },
@@ -23,6 +93,17 @@
       "category": "beauty",
       "subcategory": "",
       "path": "beauty/beauty-marketing.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "design-cultural-intelligence-strategist",
+        "marketing-carousel-growth-engine",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist",
+        "marketing-social-media-strategist",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -35,6 +116,14 @@
       "category": "beauty",
       "subcategory": "",
       "path": "beauty/beauty-product-manager.md",
+      "depends_on": [
+        "design-cultural-intelligence-strategist",
+        "logistics-supply-chain-strategist",
+        "marketing-bilibili-content-strategist",
+        "marketing-email-strategist",
+        "specialized-personal-growth-mentor",
+        "unity-shader-graph-artist"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]

@@ -1,7 +1,7 @@
 {
   "category": "sales",
   "agent_count": 15,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "sales-account-strategist",
@@ -11,7 +11,12 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-account-strategist.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-engineering-user-research-system"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -23,6 +28,11 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-coach.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -35,6 +45,12 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-customer-onboarding.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -47,6 +63,11 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-data-extraction-agent.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-risk-quant",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -59,7 +80,14 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-deal-strategist.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "marketing-paid-media-creative-strategist",
+        "real-estate-commercial-broker",
+        "web3-defi-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -71,8 +99,14 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-director.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "sales-account-strategist"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-5-launch"
       ]
     },
     {
@@ -83,7 +117,17 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-discovery-coach.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "education-special-needs",
+        "finance-engineering-risk-quant",
+        "infrastructure-identity-access",
+        "operations-report-distribution-agent",
+        "specialized-agentic-identity-trust",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -95,6 +139,18 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-engineer.md",
+      "depends_on": [
+        "construction-engineering-landscape-architecture",
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-language-model-nlp",
+        "education-special-needs",
+        "marketing-paid-media-programmatic-buyer",
+        "operations-report-distribution-agent",
+        "project-management-meeting-notes-specialist",
+        "sales-account-strategist",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -107,7 +163,18 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-offer-lead-gen-strategist.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "marketing-bilibili-content-strategist",
+        "marketing-china-market-localization-strategist",
+        "marketing-email-strategist",
+        "marketing-linkedin-content-creator",
+        "sales-outbound-strategist",
+        "specialized-agentic-identity-trust",
+        "specialized-habit-formation"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -119,7 +186,16 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-outbound-strategist.md",
+      "depends_on": [
+        "engineering-social-media-platform",
+        "marketing-email-strategist",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-short-video-editing-coach",
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -131,6 +207,12 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-outreach.md",
+      "depends_on": [
+        "engineering-email-intelligence-engineer",
+        "marketing-email-marketing",
+        "sales-discovery-coach",
+        "sales-revenue-operations"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -143,8 +225,19 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-pipeline-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "education-special-needs",
+        "marketing-paid-media-programmatic-buyer",
+        "operations-executive-summary-generator",
+        "specialized-agentic-identity-trust",
+        "telecom-engineering-signal-integrity",
+        "testing-engineering-test-automation-framework",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -155,7 +248,15 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-proposal-strategist.md",
+      "depends_on": [
+        "construction-engineering-landscape-architecture",
+        "data-science-engineering-deep-learning-training",
+        "government-social-work",
+        "operations-executive-summary-generator",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -167,6 +268,13 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-revenue-operations.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "sales-pipeline-analyst",
+        "specialized-productivity-time-management"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]
@@ -179,6 +287,14 @@
       "category": "sales",
       "subcategory": "",
       "path": "sales/sales-sdr-manager.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-risk-quant",
+        "marketing-demand-generation",
+        "sales-revenue-operations"
+      ],
       "nexus_roles": [
         "phase-5-launch"
       ]

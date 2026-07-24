@@ -1,0 +1,26 @@
+{
+  "title": "Cloud Security Threat Assessment",
+  "domain": "cybersecurity",
+  "agent": "cybersecurity-cloud-security-architect",
+  "prompt": "A SaaS startup on AWS needs a security review before SOC 2 audit. Current: EC2+RDS+S3+Lambda, no WAF, IAM policies are *.*, S3 buckets have public read. Provide a prioritized remediation plan.",
+  "eval_criteria": {
+    "named_standards": {
+      "min": 2,
+      "description": "Compliance standards referenced (SOC 2, NIST, etc.)"
+    },
+    "prioritized_steps": {
+      "min": 4,
+      "description": "Prioritized action items with severity levels"
+    },
+    "aws_services": {
+      "min": 3,
+      "description": "AWS security services mentioned (WAF, Shield, GuardDuty, etc.)"
+    },
+    "iam_guidance": {
+      "min": 1,
+      "description": "Specific IAM/policy recommendations"
+    }
+  },
+  "id": "tc-002-cloud-security",
+  "created": "2026-07-18T04:43:32.666860+00:00"
+}

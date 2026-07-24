@@ -3,6 +3,7 @@
 import argparse
 import importlib.util
 import json
+import sys
 from pathlib import Path
 
 import pytest
@@ -10,6 +11,7 @@ import pytest
 # ── Import the script as a module ──────────────────────────────────────────────
 
 SCRIPTS_DIR = Path(__file__).resolve().parent.parent / "scripts"
+sys.path.insert(0, str(SCRIPTS_DIR))
 spec = importlib.util.spec_from_file_location(
     "convert", str(SCRIPTS_DIR / "convert.py")
 )

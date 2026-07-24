@@ -1,7 +1,7 @@
 {
   "category": "game-development",
-  "agent_count": 24,
-  "generated": "2026-07-05",
+  "agent_count": 26,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "blender-addon-engineer",
@@ -11,6 +11,14 @@
       "category": "game-development",
       "subcategory": "blender",
       "path": "game-development/blender/blender-addon-engineer.md",
+      "depends_on": [
+        "finance-accounts-payable-agent",
+        "specialized-identity-graph-operator",
+        "sports-event-ops",
+        "testing-test-results-analyzer",
+        "unity-shader-graph-artist",
+        "unreal-engine-unreal-technical-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +31,11 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-engineering-video-game-backend.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "game-development-game-monetization-designer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,6 +48,14 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-game-audio-engineer.md",
+      "depends_on": [
+        "engineering-minimal-change-engineer",
+        "logistics-public-transit",
+        "spatial-computing-macos-spatial-metal-engineer",
+        "unreal-engine-unreal-multiplayer-architect",
+        "unreal-engine-unreal-technical-artist",
+        "unreal-engine-unreal-world-builder"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -47,6 +68,10 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-game-designer.md",
+      "depends_on": [
+        "game-development-game-audio-engineer",
+        "government-social-work"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -60,6 +85,12 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-game-monetization-designer.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "data-science-engineering-language-model-nlp",
+        "finance-cost-accountant",
+        "game-development-engineering-video-game-backend"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -73,9 +104,29 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-game-producer.md",
+      "depends_on": [
+        "construction-engineering-noise-control",
+        "logistics-last-mile-delivery",
+        "media-entertainment-creative-music-producer"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "game-development-game-psychology",
+      "name": "游戏心理学与行为设计专家",
+      "description": "玩家动机模型(Bartle/SDT)、奖励与强化系统、心流与难度曲线、社交与竞争心理、成瘾性设计与伦理边界、付费设计与商业化伦理专家",
+      "emoji": "🎮",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-game-psychology.md",
+      "depends_on": [
+        "government-social-work"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     },
     {
@@ -86,8 +137,14 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-game-quality-assurance.md",
+      "depends_on": [
+        "blender-addon-engineer",
+        "engineering-multi-agent-systems-architect",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -98,9 +155,33 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-level-designer.md",
+      "depends_on": [
+        "design-visual-storyteller",
+        "game-development-game-audio-engineer",
+        "government-social-work",
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "game-development-narrative-design",
+      "name": "游戏叙事与世界观设计专家",
+      "description": "互动叙事设计(分支叙事/环境叙事/涌现叙事)、游戏世界观构建、角色与对话写作、叙事机制(Ludonarrative和谐)、视觉小说与RPG叙事、跨媒体叙事与IP开发专家",
+      "emoji": "📖",
+      "category": "game-development",
+      "subcategory": "",
+      "path": "game-development/game-development-narrative-design.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "robotics-motion-control",
+        "specialized-agentic-identity-trust"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     },
     {
@@ -111,6 +192,13 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-narrative-designer.md",
+      "depends_on": [
+        "game-development-game-audio-engineer",
+        "government-social-work",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -124,6 +212,14 @@
       "category": "game-development",
       "subcategory": "",
       "path": "game-development/game-development-technical-artist.md",
+      "depends_on": [
+        "engineering-mobile-app-builder",
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer",
+        "unity-shader-graph-artist",
+        "unreal-engine-unreal-technical-artist",
+        "unreal-engine-unreal-world-builder"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -136,6 +232,16 @@
       "category": "game-development",
       "subcategory": "godot",
       "path": "game-development/godot/godot-gameplay-scripter.md",
+      "depends_on": [
+        "finance-accounts-payable-agent",
+        "godot-shader-developer",
+        "marketing-cross-border-ecommerce",
+        "specialized-document-generator",
+        "specialized-personal-growth-mentor",
+        "sports-event-ops",
+        "thinking-models-philosophy-thinkers",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -148,6 +254,17 @@
       "category": "game-development",
       "subcategory": "godot",
       "path": "game-development/godot/godot-multiplayer-engineer.md",
+      "depends_on": [
+        "data-science-model-qa",
+        "education-field-archaeology",
+        "engineering-cae-simulation",
+        "engineering-minimal-change-engineer",
+        "finance-accounts-payable-agent",
+        "game-development-engineering-video-game-backend",
+        "godot-gameplay-scripter",
+        "marketing-cross-border-ecommerce",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -160,6 +277,13 @@
       "category": "game-development",
       "subcategory": "godot",
       "path": "game-development/godot/godot-shader-developer.md",
+      "depends_on": [
+        "engineering-minimal-change-engineer",
+        "spatial-computing-macos-spatial-metal-engineer",
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer",
+        "unity-shader-graph-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -172,6 +296,14 @@
       "category": "game-development",
       "subcategory": "roblox-studio",
       "path": "game-development/roblox-studio/roblox-studio-roblox-avatar-creator.md",
+      "depends_on": [
+        "design-image-prompt-engineer",
+        "government-social-work",
+        "marketing-linkedin-content-creator",
+        "roblox-studio-roblox-experience-designer",
+        "roblox-studio-roblox-systems-scripter",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -184,6 +316,17 @@
       "category": "game-development",
       "subcategory": "roblox-studio",
       "path": "game-development/roblox-studio/roblox-studio-roblox-experience-designer.md",
+      "depends_on": [
+        "engineering-codebase-onboarding-engineer",
+        "game-development-engineering-video-game-backend",
+        "game-development-game-audio-engineer",
+        "game-development-game-psychology",
+        "government-social-work",
+        "marketing-linkedin-content-creator",
+        "roblox-studio-roblox-avatar-creator",
+        "roblox-studio-roblox-systems-scripter",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
@@ -197,6 +340,13 @@
       "category": "game-development",
       "subcategory": "roblox-studio",
       "path": "game-development/roblox-studio/roblox-studio-roblox-systems-scripter.md",
+      "depends_on": [
+        "finance-accounts-payable-agent",
+        "godot-gameplay-scripter",
+        "roblox-studio-roblox-experience-designer",
+        "specialized-agentic-identity-trust",
+        "sports-event-ops"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -209,6 +359,14 @@
       "category": "game-development",
       "subcategory": "unity",
       "path": "game-development/unity/unity-architect.md",
+      "depends_on": [
+        "game-development-game-audio-engineer",
+        "logistics-public-transit",
+        "marketing-private-domain-operator",
+        "specialized-identity-graph-operator",
+        "unity-shader-graph-artist",
+        "unreal-engine-unreal-technical-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -221,6 +379,13 @@
       "category": "game-development",
       "subcategory": "unity",
       "path": "game-development/unity/unity-editor-tool-developer.md",
+      "depends_on": [
+        "design-creative-tools",
+        "infrastructure-github-actions-expert",
+        "marketing-private-domain-operator",
+        "specialized-identity-graph-operator",
+        "unity-shader-graph-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -233,6 +398,17 @@
       "category": "game-development",
       "subcategory": "unity",
       "path": "game-development/unity/unity-multiplayer-engineer.md",
+      "depends_on": [
+        "data-science-model-qa",
+        "education-field-archaeology",
+        "engineering-cae-simulation",
+        "finance-accounts-payable-agent",
+        "game-development-engineering-video-game-backend",
+        "game-development-game-audio-engineer",
+        "specialized-agentic-identity-trust",
+        "specialized-personal-growth-mentor",
+        "sports-event-ops"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -245,6 +421,14 @@
       "category": "game-development",
       "subcategory": "unity",
       "path": "game-development/unity/unity-shader-graph-artist.md",
+      "depends_on": [
+        "education-field-archaeology",
+        "engineering-git-workflow-master",
+        "finance-accounts-payable-agent",
+        "game-development-technical-artist",
+        "specialized-document-generator",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -257,6 +441,13 @@
       "category": "game-development",
       "subcategory": "unreal-engine",
       "path": "game-development/unreal-engine/unreal-engine-unreal-multiplayer-architect.md",
+      "depends_on": [
+        "engineering-minimal-change-engineer",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer",
+        "unreal-engine-unreal-technical-artist",
+        "unreal-engine-unreal-world-builder"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -269,6 +460,15 @@
       "category": "game-development",
       "subcategory": "unreal-engine",
       "path": "game-development/unreal-engine/unreal-engine-unreal-systems-engineer.md",
+      "depends_on": [
+        "logistics-public-transit",
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer",
+        "unity-shader-graph-artist",
+        "unreal-engine-unreal-multiplayer-architect",
+        "unreal-engine-unreal-technical-artist",
+        "unreal-engine-unreal-world-builder"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -281,6 +481,16 @@
       "category": "game-development",
       "subcategory": "unreal-engine",
       "path": "game-development/unreal-engine/unreal-engine-unreal-technical-artist.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "game-development-game-audio-engineer",
+        "libraries-library-science",
+        "specialized-identity-graph-operator",
+        "unity-editor-tool-developer",
+        "unity-shader-graph-artist",
+        "unreal-engine-unreal-systems-engineer",
+        "unreal-engine-unreal-world-builder"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -293,6 +503,17 @@
       "category": "game-development",
       "subcategory": "unreal-engine",
       "path": "game-development/unreal-engine/unreal-engine-unreal-world-builder.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "game-development-game-audio-engineer",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor",
+        "unity-editor-tool-developer",
+        "unity-shader-graph-artist",
+        "unreal-engine-unreal-multiplayer-architect",
+        "unreal-engine-unreal-systems-engineer",
+        "unreal-engine-unreal-technical-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

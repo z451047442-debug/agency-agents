@@ -144,9 +144,9 @@ class TestValidateSchema:
 class TestDiscoverMdFiles:
     def test_discovers_files_in_categories(self, tmp_path):
         (tmp_path / "engineering").mkdir()
-        (tmp_path / "engineering" / "agent.md").write_text("", encoding="utf-8")
+        (tmp_path / "engineering" / "agent.md").write_text("---\n", encoding="utf-8")
         (tmp_path / "design").mkdir()
-        (tmp_path / "design" / "ui-expert.md").write_text("", encoding="utf-8")
+        (tmp_path / "design" / "ui-expert.md").write_text("---\n", encoding="utf-8")
 
         result = discover_md_files(str(tmp_path))
         assert "engineering/agent.md" in result
@@ -177,7 +177,7 @@ class TestDiscoverMdFiles:
     def test_ignores_non_md_files(self, tmp_path):
         (tmp_path / "engineering").mkdir()
         (tmp_path / "engineering" / "notes.txt").write_text("", encoding="utf-8")
-        (tmp_path / "engineering" / "README.md").write_text("", encoding="utf-8")
+        (tmp_path / "engineering" / "README.md").write_text("---\n", encoding="utf-8")
         result = discover_md_files(str(tmp_path))
         assert len(result) == 1
 
@@ -186,9 +186,9 @@ class TestDiscoverMdFiles:
         (tmp_path / "game-development" / "blender").mkdir(parents=True)
         (tmp_path / "game-development" / "godot").mkdir()
         (tmp_path / "game-development" / "blender" / "artist.md").write_text(
-            "", encoding="utf-8")
+            "---\n", encoding="utf-8")
         (tmp_path / "game-development" / "godot" / "dev.md").write_text(
-            "", encoding="utf-8")
+            "---\n", encoding="utf-8")
 
         result = discover_md_files(str(tmp_path))
         assert "game-development/blender/artist.md" in result
@@ -197,7 +197,7 @@ class TestDiscoverMdFiles:
 
     def test_uses_forward_slashes_in_paths(self, tmp_path):
         (tmp_path / "engineering").mkdir()
-        (tmp_path / "engineering" / "agent.md").write_text("", encoding="utf-8")
+        (tmp_path / "engineering" / "agent.md").write_text("---\n", encoding="utf-8")
         result = discover_md_files(str(tmp_path))
         for key in result:
             assert "\\" not in key
@@ -348,7 +348,7 @@ class TestMainFunction:
         index_path = tmp_path / "AGENTS.json"
         cat_dir = tmp_path / "test"
         cat_dir.mkdir()
-        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+        (cat_dir / "test-agent.md").write_text("---\ncontent", encoding="utf-8")
 
         _make_index(index_path, [{
             "id": "test-agent", "name": "Test Agent",
@@ -395,7 +395,7 @@ class TestMainFunction:
         index_path = tmp_path / "AGENTS.json"
         cat_dir = tmp_path / "test"
         cat_dir.mkdir()
-        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+        (cat_dir / "test-agent.md").write_text("---\ncontent", encoding="utf-8")
 
         _make_index(index_path, [{
             "id": "test-agent", "name": "Test Agent",
@@ -416,7 +416,7 @@ class TestMainFunction:
         index_path = tmp_path / "AGENTS.json"
         cat_dir = tmp_path / "test"
         cat_dir.mkdir()
-        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+        (cat_dir / "test-agent.md").write_text("---\ncontent", encoding="utf-8")
 
         _make_index(index_path, [{
             "id": "test-agent", "name": "Test Agent",
@@ -458,7 +458,7 @@ class TestMainFunction:
         cat_dir.mkdir()
         # Create a file NOT in AGENTS.json (missing) but DON'T create
         # the file referenced in AGENTS.json (orphan)
-        (cat_dir / "extra-file.md").write_text("content", encoding="utf-8")
+        (cat_dir / "extra-file.md").write_text("---\ncontent", encoding="utf-8")
 
         _make_index(index_path, [{
             "id": "orphan-agent", "name": "Orphan",
@@ -522,7 +522,7 @@ class TestMainFunction:
         index_path = tmp_path / "AGENTS.json"
         cat_dir = tmp_path / "test"
         cat_dir.mkdir()
-        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+        (cat_dir / "test-agent.md").write_text("---\ncontent", encoding="utf-8")
 
         _make_index(index_path, [{
             "id": "test-agent", "name": "Test Agent",
@@ -547,7 +547,7 @@ class TestMainFunction:
         index_path = tmp_path / "AGENTS.json"
         cat_dir = tmp_path / "test"
         cat_dir.mkdir()
-        (cat_dir / "test-agent.md").write_text("content", encoding="utf-8")
+        (cat_dir / "test-agent.md").write_text("---\ncontent", encoding="utf-8")
 
         _make_index(index_path, [{
             "id": "test-agent", "name": "Test Agent",

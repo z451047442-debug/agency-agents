@@ -1,0 +1,111 @@
+{
+  "category": "home-lifestyle",
+  "agent_count": 5,
+  "generated": "2026-07-16",
+  "agents": [
+    {
+      "id": "home-lifestyle-director",
+      "name": "家居生活总监",
+      "description": "家居生活领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🏠\"",
+      "category": "home-lifestyle",
+      "subcategory": "",
+      "path": "home-lifestyle/home-lifestyle-director.md",
+      "depends_on": [
+        "home-lifestyle-general-manager",
+        "hr-tech-people-analytics",
+        "specialized-life-coach",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "home-lifestyle-garden-landscape",
+      "name": "园艺与景观设计专家",
+      "description": "花园设计与植物配置、可食用园艺(蔬菜/果树)、阳台与小型空间园艺、室内植物养护、生态景观与本土植物、景观维护与病虫害管理、盆景与东方园林艺术专家",
+      "emoji": "🌿",
+      "category": "home-lifestyle",
+      "subcategory": "",
+      "path": "home-lifestyle/home-lifestyle-garden-landscape.md",
+      "depends_on": [
+        "marketing-japan-market-expert",
+        "robotics-motion-control",
+        "specialized-life-coach",
+        "specialized-personal-growth-mentor",
+        "specialized-workflow-architect",
+        "testing-evidence-collector"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "home-lifestyle-general-manager",
+      "name": "家居生活总经理",
+      "description": "家居生活领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🏠\"",
+      "category": "home-lifestyle",
+      "subcategory": "",
+      "path": "home-lifestyle/home-lifestyle-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "home-lifestyle-director",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "home-lifestyle-interior-design",
+      "name": "室内设计与空间规划专家",
+      "description": "居住空间设计、商业与办公空间设计、照明设计、色彩与材料、家具与软装、无障碍与通用设计、可持续室内设计与空间心理学专家",
+      "emoji": "🏠",
+      "category": "home-lifestyle",
+      "subcategory": "",
+      "path": "home-lifestyle/home-lifestyle-interior-design.md",
+      "depends_on": [
+        "automotive-engineering-automotive-lighting",
+        "data-science-model-qa",
+        "engineering-code-reviewer",
+        "legal-document-review",
+        "marketing-sms-push-notifications",
+        "specialized-personal-growth-mentor"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "home-lifestyle-personal-finance",
+      "name": "个人财务管理专家",
+      "description": "家庭预算与记账、储蓄与应急基金、投资入门(股票/基金/ETF)、保险规划、税务筹划(个税/专项扣除)、退休规划、债务管理与信用评分、购房与房贷决策专家",
+      "emoji": "💵",
+      "category": "home-lifestyle",
+      "subcategory": "",
+      "path": "home-lifestyle/home-lifestyle-personal-finance.md",
+      "depends_on": [
+        "finance-accounts-payable-agent",
+        "government-social-work",
+        "marketing-abm-account-based",
+        "marketing-japan-market-expert",
+        "securities-fixed-income",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    }
+  ]
+}

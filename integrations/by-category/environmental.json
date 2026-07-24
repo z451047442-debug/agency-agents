@@ -1,7 +1,7 @@
 {
   "category": "environmental",
-  "agent_count": 33,
-  "generated": "2026-07-05",
+  "agent_count": 37,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "environmental-carbon-management",
@@ -11,6 +11,32 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-carbon-management.md",
+      "depends_on": [
+        "agriculture-general-manager",
+        "construction-safety-officer",
+        "energy-engineering-process-safety",
+        "environmental-climate-analyst",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-circular-economy-design",
+      "name": "循环经济与零废弃设计专家",
+      "description": "循环经济商业模式(产品即服务/回收再造)、可修复与可拆卸设计(DfR/DfD)、材料护照与循环供应链、包装减量与替代材料、纺织与电子废弃物闭环、食品废弃物减少与资源化、城市零废弃与工业共生专家",
+      "emoji": "🔄",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-circular-economy-design.md",
+      "depends_on": [
+        "aerospace-military-materials-manufacturing",
+        "education-arts-sports-teaching",
+        "logistics-supply-chain-strategist",
+        "marketing-bilibili-content-strategist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,8 +49,35 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-climate-analyst.md",
+      "depends_on": [
+        "construction-safety-officer",
+        "data-science-engineering-language-model-nlp",
+        "energy-engineering-process-safety",
+        "environmental-carbon-management",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-climate-policy",
+      "name": "气候政策与碳市场专家",
+      "description": "国际气候治理(UNFCCC/巴黎协定/COP)、碳定价(碳税/ETS/CBAM)、国家自主贡献(NDC)与碳中和路径、气候金融、碳信用质量与市场诚信(ICVCM/CORSIA)、气候风险披露(TCFD/ISSB)专家",
+      "emoji": "🌍",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-climate-policy.md",
+      "depends_on": [
+        "energy-carbon-market",
+        "home-lifestyle-personal-finance",
+        "marketing-china-market-localization-strategist",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy"
       ]
     },
     {
@@ -35,8 +88,16 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-director.md",
+      "depends_on": [
+        "environmental-engineering-circular-economy",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -47,6 +108,12 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-ecology-restoration.md",
+      "depends_on": [
+        "environmental-engineering-ecosystem-restoration",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +126,9 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-advanced-oxidation.md",
+      "depends_on": [
+        "environmental-carbon-management"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,8 +141,16 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-air-quality.md",
+      "depends_on": [
+        "environmental-carbon-management",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "legal-engineering-legal-document-automation",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -83,6 +161,13 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-aquifer-recharge.md",
+      "depends_on": [
+        "environmental-engineering-hydrology-water",
+        "environmental-engineering-water-resources",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +180,15 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-bioacoustics.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "environmental-carbon-management",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent",
+        "product-trend-researcher"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,6 +201,13 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-biodegradable-plastics.md",
+      "depends_on": [
+        "environmental-carbon-management",
+        "food-beverage-engineering-food-packaging",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,7 +220,17 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-circular-economy.md",
+      "depends_on": [
+        "energy-engineering-power-electronics-packaging",
+        "environmental-engineering-packaging-sustainability",
+        "food-beverage-engineering-food-packaging",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "manufacturing-engineering-electronics-manufacturing",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -131,6 +242,14 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-climate-tech.md",
+      "depends_on": [
+        "energy-engineering-carbon-capture-storage",
+        "energy-engineering-energy-storage-materials-sci",
+        "energy-engineering-grid-scale-storage",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +262,15 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-coastal-erosion.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-engineering-coastal-marine",
+        "food-beverage-food-safety",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +283,12 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-coastal-marine.md",
+      "depends_on": [
+        "environmental-engineering-coastal-erosion",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,8 +301,18 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-coastal-resilience.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-engineering-coastal-erosion",
+        "environmental-engineering-ecosystem-restoration",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -179,6 +323,13 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-desalination-water.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-water-treatment",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -191,6 +342,15 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-ecosystem-restoration.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -203,6 +363,15 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-gis-remote-sensing.md",
+      "depends_on": [
+        "education-special-needs",
+        "engineering-graph-database",
+        "environmental-engineering-weather-climate",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "gis-drone-reality-mapping",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -215,6 +384,11 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-hydrology-water.md",
+      "depends_on": [
+        "agriculture-supply-chain",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -227,6 +401,14 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-industrial-hygiene.md",
+      "depends_on": [
+        "environmental-carbon-management",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "healthcare-mental-health",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -239,6 +421,12 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-oil-spill-response.md",
+      "depends_on": [
+        "environmental-carbon-management",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -251,6 +439,13 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-packaging-sustainability.md",
+      "depends_on": [
+        "environmental-engineering-circular-economy",
+        "food-beverage-engineering-food-packaging",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -263,6 +458,11 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-paleontology-stratigraphy.md",
+      "depends_on": [
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -275,6 +475,13 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-sewage-treatment.md",
+      "depends_on": [
+        "energy-engineering-waste-to-energy",
+        "environmental-renewable-energy",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -287,6 +494,13 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-snow-avalanche.md",
+      "depends_on": [
+        "environmental-engineering-climate-tech",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "healthcare-engineering-cold-chain-pharma",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -299,6 +513,14 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-sustainable-chemistry.md",
+      "depends_on": [
+        "environmental-engineering-packaging-sustainability",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "healthcare-engineering-cold-chain-pharma",
+        "operations-report-distribution-agent",
+        "pharma-biotech-pharma-regulatory-affairs"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -311,6 +533,16 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-waste-management.md",
+      "depends_on": [
+        "energy-engineering-waste-to-energy",
+        "environmental-engineering-climate-tech",
+        "environmental-water-treatment",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "manufacturing-supply-chain-planner",
+        "operations-report-distribution-agent",
+        "tourism-event-planner"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -323,6 +555,11 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-water-resources.md",
+      "depends_on": [
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "manufacturing-supply-chain-planner"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -335,6 +572,16 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-weather-climate.md",
+      "depends_on": [
+        "agriculture-engineering-soil-science",
+        "cybersecurity-engineering-cyber-risk-model",
+        "environmental-engineering-climate-tech",
+        "environmental-engineering-weather-forecast",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -347,6 +594,14 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-weather-forecast.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-engineering-weather-climate",
+        "food-beverage-food-scientist",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -359,8 +614,34 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-gis-analyst.md",
+      "depends_on": [
+        "construction-safety-officer",
+        "energy-engineering-process-safety",
+        "environmental-engineering-gis-remote-sensing",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-marine-science",
+      "name": "海洋科学专家",
+      "description": "物理海洋学、海洋化学、海洋生物学、海洋地质学、海洋气候相互作用、海洋资源与海洋保护专家",
+      "emoji": "🌊",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-marine-science.md",
+      "depends_on": [
+        "gis-spatial-data-scientist",
+        "spatial-computing-macos-spatial-metal-engineer",
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -371,8 +652,17 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-monitoring-engineer.md",
+      "depends_on": [
+        "construction-safety-officer",
+        "energy-engineering-grid-scale-storage",
+        "energy-engineering-process-safety",
+        "environmental-carbon-management",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -383,8 +673,32 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-renewable-energy.md",
+      "depends_on": [
+        "construction-safety-officer",
+        "energy-engineering-offshore-wind",
+        "environmental-carbon-management",
+        "legal-engineering-legal-document-automation",
+        "legal-environmental-attorney",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "environmental-sustainability-strategy",
+      "name": "可持续发展战略咨询专家",
+      "description": "企业ESG战略与报告(GRI/SASB/ISSB)、净零转型路径(SBTi)、供应链可持续性、生物多样性与企业(TNFD)、循环经济商业模型、社会影响评估、可持续金融与绿色债券专家",
+      "emoji": "♻️",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-sustainability-strategy.md",
+      "depends_on": [
+        "government-social-work",
+        "logistics-supply-chain-strategist"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy"
       ]
     },
     {
@@ -395,6 +709,12 @@
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-water-treatment.md",
+      "depends_on": [
+        "energy-engineering-waste-to-energy",
+        "environmental-carbon-management",
+        "food-beverage-food-safety",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

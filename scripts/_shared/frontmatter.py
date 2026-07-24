@@ -4,8 +4,11 @@ import re
 
 
 def get_frontmatter_text(content: str) -> str:
-    parts = content.split("---", 2)
-    return parts[1] if len(parts) >= 3 else ""
+    """Extract YAML frontmatter text between opening/closing --- markers."""
+    m = re.match(r"^---(.*?)---", content, re.DOTALL)
+    if m:
+        return m.group(1)
+    return ""
 
 
 def get_body(content: str) -> str:
@@ -14,6 +17,12 @@ def get_body(content: str) -> str:
 
 
 def get_field(field: str, fm_text: str) -> str:
+    # Handle block scalar indicators (|, >) for multi-line values
+    m_block = re.search(
+        rf"^{re.escape(field)}:\s*[|>](?:[+-])?\s*\n((?:\s+.+\n?)*)", fm_text, re.MULTILINE
+    )
+    if m_block:
+        return m_block.group(1).strip()
     m = re.search(rf"^{re.escape(field)}:\s*(.+)$", fm_text, re.MULTILINE)
     return m.group(1).strip() if m else ""
 

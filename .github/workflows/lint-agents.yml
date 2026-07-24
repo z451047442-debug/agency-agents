@@ -10,7 +10,6 @@ on:
       - "!examples/**"
       - "!integrations/**"
       - "tests/**"
-      - "requirements-dev.txt"
       - ".github/workflows/lint-agents.yml"
 
 # ── Job placement strategy ─────────────────────────────────────────────────
@@ -26,6 +25,10 @@ on:
 #   cross-platform coverage for these tools.
 # ────────────────────────────────────────────────────────────────────────────
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   # ── Multi-platform agent linting ─────────────────────────────────────────
   lint:
@@ -39,13 +42,14 @@ jobs:
       run:
         shell: bash
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install Python deps
         run: pip install pyyaml
@@ -53,7 +57,7 @@ jobs:
       - name: Get changed agent files
         id: changed
         run: |
-          FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- '*.md' ':!examples/*' ':!integrations/*' ':!*.github/*')
+          FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- '*.md' ':!examples/*' ':!integrations/*' ':!.github/*')
           {
             echo "files<<ENDOFLIST"
             echo "$FILES"
@@ -90,7 +94,7 @@ jobs:
       run:
         shell: bash
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
 
       - name: Check AGENTS.json staleness
         run: bash scripts/generate-index.sh --check
@@ -104,11 +108,12 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install deps
         run: pip install jsonschema
@@ -125,14 +130,15 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements-dev.txt
+        run: pip install .[dev]
 
       - name: Run tests
         run: python -m pytest tests/ -v
@@ -146,11 +152,12 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Run i18n checker
         run: python scripts/i18n/check-i18n.py --strict
@@ -160,7 +167,7 @@ jobs:
     name: Integration tests (convert + search + create-agent)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
 
       - name: Run search (stats + categories)
         run: |

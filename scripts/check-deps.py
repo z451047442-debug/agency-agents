@@ -14,8 +14,12 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 ANALYZE_SCRIPT = SCRIPT_DIR / "analyze-deps.py"
 
-args = [sys.executable, str(ANALYZE_SCRIPT), "--validate"]
-if "--manifest" in sys.argv:
-    args.append("--json")
+def main() -> None:
+    args = [sys.executable, str(ANALYZE_SCRIPT), "--validate"]
+    if "--manifest" in sys.argv:
+        args.append("--json")
+    sys.exit(subprocess.run(args).returncode)
 
-sys.exit(subprocess.run(args).returncode)
+
+if __name__ == "__main__":
+    main()

@@ -367,6 +367,27 @@ learn the process, then level up on their next contribution.
 
 **Recognition**: Tier 3 contributors are acknowledged in the README and release notes.
 
+### Contributor Ladder
+
+Beyond contribution tiers, we maintain a **Contributor → Reviewer → Maintainer** ladder
+that tracks growing responsibility and trust within the project.
+
+```
+Contributor ──→ Reviewer ──→ Maintainer
+     │               │              │
+  1+ merged PR   5+ reviews    10+ merged PRs
+                 3+ merged PRs  20+ reviews
+                                category ownership
+```
+
+**Contributor**: 1+ merged PR. Listed in CONTRIBUTORS.md. Can self-assign `good first issue`.
+
+**Reviewer**: 5+ substantive PR reviews + 3+ merged contributions + demonstrated knowledge of agent design guidelines. Can approve/request-changes on PRs. Reviews ≥2 PRs/month.
+
+**Maintainer**: 10+ merged contributions + 20+ reviews + owns a category (B-grade agents, ≥6). Write access. Can merge PRs (after CI + 1 maintainer approval). Reviews ≥4 PRs/month. Responds to category issues within 1 week.
+
+Run `python scripts/check-contributor-ladder.py` to generate promotion eligibility reports.
+
 ---
 
 ## 🔄 Pull Request Process

@@ -1,8 +1,46 @@
 {
   "category": "manufacturing",
-  "agent_count": 43,
-  "generated": "2026-07-05",
+  "agent_count": 46,
+  "generated": "2026-07-16",
   "agents": [
+    {
+      "id": "manufacturing-chemistry-research",
+      "name": "化学基础研究专家",
+      "description": "有机化学、无机化学、物理化学、分析化学、理论与计算化学、化学生物学与超分子化学专家",
+      "emoji": "⚗️",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-chemistry-research.md",
+      "depends_on": [
+        "aerospace-military-materials-manufacturing",
+        "education-number-theory",
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "manufacturing-director",
+      "name": "制造总监",
+      "description": "制造领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🏭\"",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "manufacturing-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
     {
       "id": "manufacturing-engineering-3d-printing-additive",
       "name": "增材制造/3D打印工程师",
@@ -11,6 +49,16 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-3d-printing-additive.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "manufacturing-engineering-additive-manufacturing-metal",
+        "manufacturing-supply-chain-planner"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +71,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-additive-manufacturing-metal.md",
+      "depends_on": [
+        "manufacturing-engineering-3d-printing-additive",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,6 +87,16 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-automation-systems.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "energy-engineering-wind-energy",
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "infrastructure-windows-server",
+        "manufacturing-engineering-process-automation",
+        "marketing-brand-strategist-name"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -47,6 +109,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-composites-manufacturing.md",
+      "depends_on": [
+        "manufacturing-engineering-control-systems"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +124,11 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-control-systems.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "manufacturing-engineering-composites-manufacturing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,6 +141,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-corrosion-engineering.md",
+      "depends_on": [
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +156,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-cyber-physical.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "manufacturing-engineering-digital-twins-manufacturing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +172,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-digital-twins-manufacturing.md",
+      "depends_on": [
+        "food-beverage-food-supply-chain-traceability",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,7 +188,12 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-digital-twins-platform.md",
+      "depends_on": [
+        "logistics-engineering-supply-chain-analytics",
+        "manufacturing-engineering-digital-twins-manufacturing"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -119,6 +205,13 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-electronics-manufacturing.md",
+      "depends_on": [
+        "automotive-engineering-automotive-homologation-test",
+        "automotive-engineering-automotive-thermal",
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-build-release-engineer",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -131,6 +224,11 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-glass-ceramics.md",
+      "depends_on": [
+        "energy-engineering-energy-storage-materials-sci",
+        "manufacturing-engineering-3d-printing-additive",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +241,11 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-ic-packaging.md",
+      "depends_on": [
+        "energy-engineering-power-electronics-packaging",
+        "manufacturing-engineering-3d-printing-additive",
+        "telecom-engineering-signal-integrity"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +258,12 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-laser-processing.md",
+      "depends_on": [
+        "energy-engineering-energy-storage-materials-sci",
+        "energy-engineering-power-electronics",
+        "energy-engineering-power-electronics-packaging",
+        "manufacturing-engineering-additive-manufacturing-metal"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,7 +276,15 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-material-scientist.md",
+      "depends_on": [
+        "automotive-engineering-automotive-homologation-test",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-regulatory-science",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -179,6 +296,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-mineral-processing.md",
+      "depends_on": [
+        "energy-engineering-waste-to-energy",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -191,6 +312,11 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-optical-lithography.md",
+      "depends_on": [
+        "construction-engineering-noise-control",
+        "engineering-multi-agent-systems-architect",
+        "manufacturing-engineering-composites-manufacturing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -203,6 +329,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-optical-metrology.md",
+      "depends_on": [
+        "manufacturing-engineering-composites-manufacturing",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -215,6 +345,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-pcb-designer.md",
+      "depends_on": [
+        "manufacturing-engineering-3d-printing-additive",
+        "telecom-engineering-signal-integrity"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -227,6 +361,12 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-photonics-engineer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "network-engineering-engineering-optical-fiber-sensing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -239,6 +379,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-photonics-integrated.md",
+      "depends_on": [
+        "energy-engineering-power-electronics-packaging",
+        "manufacturing-engineering-test-chip-bringup"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -251,6 +395,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-plasma-technology.md",
+      "depends_on": [
+        "manufacturing-engineering-semiconductor-process"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -263,7 +410,13 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-polymer-science.md",
+      "depends_on": [
+        "healthcare-engineering-regulatory-science",
+        "manufacturing-engineering-material-scientist",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -275,6 +428,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-process-automation.md",
+      "depends_on": [
+        "manufacturing-engineering-composites-manufacturing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -287,8 +443,17 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-semiconductor-process.md",
+      "depends_on": [
+        "construction-engineering-green-building",
+        "construction-engineering-noise-control",
+        "data-science-engineering-language-model-nlp",
+        "engineering-multi-agent-systems-architect",
+        "manufacturing-engineering-additive-manufacturing-metal",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -299,6 +464,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-simulation-engineer.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "manufacturing-engineering-sports-engineering"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -311,6 +480,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-sports-engineering.md",
+      "depends_on": [
+        "manufacturing-engineering-composites-manufacturing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -323,6 +495,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-surface-engineering.md",
+      "depends_on": [
+        "manufacturing-engineering-thermal-spray"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -335,8 +510,12 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-test-chip-bringup.md",
+      "depends_on": [
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -347,6 +526,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-textile-engineering.md",
+      "depends_on": [
+        "manufacturing-engineering-additive-manufacturing-metal"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -359,6 +541,10 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-thermal-spray.md",
+      "depends_on": [
+        "environmental-engineering-circular-economy",
+        "manufacturing-engineering-additive-manufacturing-metal"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -371,6 +557,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-tooling-design.md",
+      "depends_on": [
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -383,6 +572,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-tribology-engineer.md",
+      "depends_on": [
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -395,6 +587,9 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-vibration-analysis.md",
+      "depends_on": [
+        "manufacturing-tpm-reliability"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -407,8 +602,14 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-vibration-testing.md",
+      "depends_on": [
+        "automotive-engineering-automotive-homologation-test",
+        "automotive-engineering-automotive-thermal",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -419,8 +620,34 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-welding-metallurgy.md",
+      "depends_on": [
+        "legal-engineering-legal-document-automation",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "manufacturing-general-manager",
+      "name": "制造总经理",
+      "description": "制造领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🏭\"",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-general-manager",
+        "manufacturing-director",
+        "pets-general-manager",
+        "quality-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -431,6 +658,12 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-industrial-engineer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -443,6 +676,12 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-lean-six-sigma.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "manufacturing-engineering-3d-printing-additive",
+        "robotics-motion-control",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -455,6 +694,15 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-plant-manager.md",
+      "depends_on": [
+        "automotive-supply-chain",
+        "food-beverage-food-supply-chain",
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "manufacturing-supply-chain-planner"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -467,6 +715,12 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-process-engineer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -479,6 +733,11 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-production-planner.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-git-workflow-master",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -491,8 +750,15 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-quality-manager.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -503,6 +769,12 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-supply-chain-planner.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "manufacturing-engineering-3d-printing-additive"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -515,8 +787,13 @@
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-tpm-reliability.md",
+      "depends_on": [
+        "manufacturing-engineering-additive-manufacturing-metal",
+        "testing-engineering-reliability-testing"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     }
   ]

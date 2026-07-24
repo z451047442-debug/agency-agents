@@ -1,7 +1,7 @@
 {
   "category": "hr",
   "agent_count": 15,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "hr-business-partner",
@@ -11,6 +11,10 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-business-partner.md",
+      "depends_on": [
+        "hr-organization-development",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -23,6 +27,12 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-compensation-benefits.md",
+      "depends_on": [
+        "finance-accounts-payable-agent",
+        "hr-business-partner",
+        "legal-engineering-legal-document-automation",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -35,6 +45,17 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-corporate-training-designer.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "education-online-learning-designer",
+        "education-special-needs",
+        "hr-business-partner",
+        "marketing-paid-media-search-query-analyst",
+        "specialized-productivity-time-management",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -47,6 +68,11 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-director.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "hr-employee-relations",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -59,6 +85,11 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-employee-relations.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "hr-director",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -71,6 +102,14 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-hris.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "education-special-needs",
+        "engineering-git-workflow-master",
+        "hr-compensation-benefits",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -83,6 +122,13 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-labor-relations.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "environmental-engineering-climate-tech",
+        "hr-employee-relations",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -95,6 +141,12 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-onboarding.md",
+      "depends_on": [
+        "hr-hris",
+        "hr-tech-people-analytics",
+        "legal-billing-time-tracking",
+        "legal-document-review"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -107,6 +159,11 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-organization-development.md",
+      "depends_on": [
+        "hr-employee-relations",
+        "hr-labor-relations",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -119,7 +176,19 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-people-analytics.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-customer-data-science",
+        "data-science-engineering-language-model-nlp",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "healthcare-engineering-regulatory-science",
+        "hr-business-partner",
+        "retail-customer-insight-analyst"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-6-operate"
       ]
     },
@@ -131,6 +200,14 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-performance-management.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "legal-engineering-legal-document-automation",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -143,7 +220,13 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-recruitment-specialist.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "operations-report-distribution-agent",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-6-operate"
       ]
     },
@@ -155,6 +238,12 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-talent-acquisition-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "hr-recruitment-specialist"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -167,6 +256,14 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-workforce-planning.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "education-assessment-specialist",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "hr-business-partner"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -179,6 +276,14 @@
       "category": "hr",
       "subcategory": "",
       "path": "hr/hr-workplace-wellness.md",
+      "depends_on": [
+        "education-assessment-specialist",
+        "education-physical-anthropology",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-mental-health",
+        "hr-business-partner"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]

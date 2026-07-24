@@ -1,7 +1,7 @@
 {
   "category": "forestry",
-  "agent_count": 3,
-  "generated": "2026-07-05",
+  "agent_count": 6,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "forestry-conservation",
@@ -11,8 +11,77 @@
       "category": "forestry",
       "subcategory": "",
       "path": "forestry/forestry-conservation.md",
+      "depends_on": [
+        "environmental-engineering-ecosystem-restoration",
+        "environmental-engineering-gis-remote-sensing",
+        "finance-engineering-credit-risk-model",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "forestry-director",
+      "name": "林业总监",
+      "description": "林业领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🌲\"",
+      "category": "forestry",
+      "subcategory": "",
+      "path": "forestry/forestry-director.md",
+      "depends_on": [
+        "forestry-general-manager",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "forestry-forest-ecology",
+      "name": "森林生态与碳汇专家",
+      "description": "森林生态系统管理、森林碳汇计量与MRV、REDD+与碳信用项目开发、生物多样性监测、造林与森林恢复、社区林业与可持续林产品专家",
+      "emoji": "🌳",
+      "category": "forestry",
+      "subcategory": "",
+      "path": "forestry/forestry-forest-ecology.md",
+      "depends_on": [
+        "environmental-engineering-ecosystem-restoration",
+        "legal-document-review",
+        "marketing-china-market-localization-strategist",
+        "network-engineering-engineering-optical-fiber-sensing"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "forestry-general-manager",
+      "name": "林业总经理",
+      "description": "林业领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🌲\"",
+      "category": "forestry",
+      "subcategory": "",
+      "path": "forestry/forestry-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "forestry-director",
+        "government-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -23,6 +92,13 @@
       "category": "forestry",
       "subcategory": "",
       "path": "forestry/forestry-manager.md",
+      "depends_on": [
+        "energy-engineering-carbon-capture-storage",
+        "energy-engineering-grid-scale-storage",
+        "environmental-engineering-climate-tech",
+        "environmental-engineering-gis-remote-sensing",
+        "finance-engineering-credit-risk-model"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,6 +111,17 @@
       "category": "forestry",
       "subcategory": "",
       "path": "forestry/forestry-timber-supply.md",
+      "depends_on": [
+        "food-beverage-food-supply-chain-traceability",
+        "hr-labor-relations",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software",
+        "logistics-last-mile-delivery",
+        "marketing-book-co-author",
+        "marketing-demand-generation",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

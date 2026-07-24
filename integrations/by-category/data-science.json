@@ -1,7 +1,7 @@
 {
   "category": "data-science",
   "agent_count": 46,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "data-science-bi-analyst",
@@ -11,8 +11,18 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-bi-analyst.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-data-analytics-engineer",
+        "data-science-engineering-web-analytics",
+        "engineering-email-intelligence-engineer",
+        "specialized-agentic-identity-trust",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -23,8 +33,17 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-causal-inference.md",
+      "depends_on": [
+        "construction-cost-estimator",
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "engineering-multi-agent-systems-architect",
+        "operations-executive-summary-generator",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -35,7 +54,17 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-consolidation-agent.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep",
+        "engineering-multi-agent-systems-architect",
+        "marketing-demand-generation",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -47,21 +76,17 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-data-engineer.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-data-lakes-warehouse",
+        "engineering-code-reviewer",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
-      ]
-    },
-    {
-      "id": "data-science-data-scientist-zh",
-      "name": "数据科学家 (中文版)",
-      "description": "面向中文用户的数据科学专家——统计建模、机器学习、AB 测试与因果推断",
-      "emoji": "🔬",
-      "category": "data-science",
-      "subcategory": "",
-      "path": "data-science/data-science-data-scientist-zh.md",
-      "nexus_roles": [
-        "phase-0-discovery"
       ]
     },
     {
@@ -72,8 +97,33 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-data-scientist.md",
+      "depends_on": [
+        "operations-executive-summary-generator",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "data-science-data-scientist-zh",
+      "name": "数据科学家 (中文版)",
+      "description": "面向中文用户的数据科学专家——统计建模、机器学习、AB 测试与因果推断",
+      "emoji": "🔬",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-data-scientist-zh.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -84,8 +134,19 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-director.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "design-engineering-user-research-system",
+        "healthcare-engineering-regulatory-science",
+        "marketing-market-research",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-3-build"
       ]
     },
     {
@@ -96,8 +157,14 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-bi-engineer.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -108,8 +175,14 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-big-data-engineer.md",
+      "depends_on": [
+        "data-science-engineering-data-lakes-warehouse",
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -120,7 +193,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-computer-vision-3d.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-deep",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent",
+        "robotics-engineering-industrial-robotics"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -133,7 +215,17 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-computer-vision-deep.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-expert",
+        "data-science-engineering-customer-data-science",
+        "data-science-engineering-deep-learning-training",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -146,7 +238,13 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-computer-vision-expert.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -159,7 +257,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-customer-data-science.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "education-online-learning-designer",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -172,7 +279,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-data-analytics-engineer.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-web-analytics",
+        "engineering-code-reviewer",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -185,7 +301,20 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-data-engineer.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-data-analytics-engineer",
+        "data-science-engineering-data-lakes-warehouse",
+        "engineering-email-intelligence-engineer",
+        "engineering-git-workflow-master",
+        "engineering-multi-agent-systems-architect",
+        "marketing-email-marketing",
+        "tourism-travel-experience-designer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -198,8 +327,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-data-governance-expert.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-data-lineage",
+        "healthcare-engineering-regulatory-science"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -210,7 +347,14 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-data-lakes-warehouse.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -223,8 +367,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-data-lineage.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -235,7 +387,13 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-data-warehouse-expert.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -248,7 +406,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-deep-learning-training.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science",
+        "infrastructure-identity-access",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -261,7 +428,13 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-etl-expert.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "engineering-postgres-specialist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -274,7 +447,15 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-insurance-claims-analytics.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-web-analytics",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -287,7 +468,15 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-knowledge-management.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "energy-engineering-carbon-capture-storage",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -300,7 +489,14 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-language-model-nlp.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -313,7 +509,12 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-llm-training-expert.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -326,7 +527,14 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-mlops-engineer.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-mlops-platform",
+        "education-online-learning-designer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -339,7 +547,15 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-mlops-platform.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "engineering-code-reviewer",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -352,7 +568,12 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-nlp-expert.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -365,7 +586,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-optical-character-recognition.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-regulatory-science",
+        "marketing-field-marketing",
+        "marketing-market-research"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -378,7 +608,15 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-process-mining.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent",
+        "sales-data-extraction-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -391,7 +629,13 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-prompt-engineer.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -404,8 +648,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-rag-architect.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -416,7 +668,12 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-reinforcement-learning.md",
+      "depends_on": [
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -429,7 +686,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-sports-analytics.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -442,7 +708,17 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-streaming-data-engineer.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-language-model-nlp",
+        "energy-engineering-carbon-capture-storage",
+        "energy-engineering-grid-scale-storage",
+        "engineering-git-workflow-master",
+        "healthcare-mental-health"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -455,8 +731,19 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-vector-database-expert.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-vector-db-architect",
+        "engineering-postgres-specialist",
+        "healthcare-engineering-regulatory-science",
+        "marketing-paid-media-search-query-analyst"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-3-build"
       ]
     },
     {
@@ -467,7 +754,17 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-video-analytics.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-regulatory-science",
+        "hr-people-analytics",
+        "operations-report-distribution-agent",
+        "sales-data-extraction-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -480,7 +777,14 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-engineering-web-analytics.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "healthcare-engineering-regulatory-science",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -493,8 +797,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-experimentation.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -505,7 +817,18 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-feature-store.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-mental-health",
+        "insurance-health-underwriter",
+        "logistics-inventory-planner"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -517,7 +840,20 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-huggingface-expert.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-lora-expert",
+        "design-image-prompt-engineer",
+        "engineering-git-workflow-master",
+        "engineering-llm-inference-expert",
+        "specialized-document-generator",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -529,7 +865,20 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-lora-expert.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-web-analytics",
+        "data-science-huggingface-expert",
+        "engineering-git-workflow-master",
+        "engineering-llm-inference-expert",
+        "engineering-minimal-change-engineer",
+        "marketing-feed-ad-optimizer",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -541,7 +890,17 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-ml-engineer.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-feature-store",
+        "engineering-build-release-engineer",
+        "infrastructure-engineering-incident-response-commander",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
       ]
@@ -554,8 +913,17 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-ml-researcher.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-deep-learning-training",
+        "design-image-prompt-engineer",
+        "specialized-agentic-identity-trust",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-2-foundation"
       ]
     },
     {
@@ -566,8 +934,22 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-model-qa.md",
+      "depends_on": [
+        "data-science-data-engineer",
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-data-lakes-warehouse",
+        "environmental-water-treatment",
+        "home-lifestyle-personal-finance",
+        "legal-document-review",
+        "operations-executive-summary-generator",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-0-discovery",
+        "phase-2-foundation",
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -578,8 +960,16 @@
       "category": "data-science",
       "subcategory": "",
       "path": "data-science/data-science-vector-db-architect.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-embedded-database",
+        "engineering-git-workflow-master",
+        "marketing-short-video-editing-coach"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     }
   ]

@@ -9,6 +9,7 @@ EXCLUDE_DIRS = frozenset({
     ".pytest_cache", "examples", "integrations",
     "scripts", "docs", "schemas", "tests",
     "__pycache__", "env", "node_modules",
+    "nexus-demo", "nexus-projects",
 })
 
 

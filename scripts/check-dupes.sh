@@ -47,4 +47,18 @@ done
 ARGS=("--threshold" "$THRESHOLD")
 [[ -n "$CATEGORY_FILTER" ]] && ARGS+=("--category" "$CATEGORY_FILTER")
 
-exec python3 "$SCRIPT_DIR/check-dupes.py" "${ARGS[@]}"
+# Resolve Python 3 interpreter with execution test (catches Windows Store stubs).
+PYTHON=""
+for candidate in python3 python; do
+  if command -v "$candidate" >/dev/null 2>&1; then
+    if "$candidate" -c "import sys; sys.exit(0 if sys.version_info >= (3,9) else 1)" 2>/dev/null; then
+      PYTHON="$candidate"
+      break
+    fi
+  fi
+done
+if [ -z "$PYTHON" ]; then
+  echo "ERROR: Python 3.9+ required." >&2
+  exit 1
+fi
+exec "$PYTHON" "$SCRIPT_DIR/check-dupes.py" "${ARGS[@]}"

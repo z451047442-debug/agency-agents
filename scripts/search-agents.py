@@ -8,7 +8,9 @@ Usage:
     python scripts/search-agents.py --category cybersecurity  # category filter
     python scripts/search-agents.py "security" --category engineering
     python scripts/search-agents.py --list-categories         # list all categories
+    python scripts/search-agents.py --categories              # alias
     python scripts/search-agents.py --stats                   # summary statistics
+    python scripts/search-agents.py --scenario "mobile app"   # find agents for a task
     python scripts/search-agents.py --field name "Architect"  # search in specific field
     python scripts/search-agents.py --regex "ML|AI|machine learning"
     python scripts/search-agents.py --json "security"         # machine-readable output
@@ -116,6 +118,50 @@ def print_categories(data):
     print()
 
 
+SCENARIO_CATEGORIES = {
+    "mobile app": ["engineering", "design", "testing", "product"],
+    "web app": ["engineering", "design", "testing", "product"],
+    "saas": ["engineering", "marketing", "sales", "product", "finance"],
+    "security audit": ["cybersecurity", "security", "infrastructure", "testing"],
+    "startup": ["strategy", "engineering", "marketing", "finance", "legal"],
+    "api": ["engineering", "testing", "infrastructure"],
+    "devops": ["infrastructure", "engineering", "testing"],
+    "data pipeline": ["data-science", "engineering", "infrastructure"],
+    "marketing campaign": ["marketing", "design", "sales", "data-science"],
+    "content creation": ["marketing", "design", "media-entertainment", "publishing"],
+    "game": ["game-development", "design", "media-entertainment", "engineering"],
+    "blockchain": ["web3", "engineering", "legal", "finance"],
+    "cloud migration": ["infrastructure", "engineering", "data-science"],
+    "compliance": ["legal", "cybersecurity", "finance", "insurance"],
+    "hiring": ["hr", "hr-tech", "operations"],
+    "construction project": ["construction", "project-management", "real-estate"],
+    "healthcare it": ["healthcare", "engineering", "data-science", "cybersecurity"],
+    "financial model": ["finance", "securities", "insurance", "data-science"],
+    "supply chain": ["logistics", "manufacturing", "retail", "agriculture"],
+    "customer support": ["customer-service", "operations", "product"],
+    "ar/vr": ["spatial-computing", "design", "engineering"],
+    "iot": ["iot", "engineering", "manufacturing", "energy"],
+}
+
+
+def scenario_search(data, scenario):
+    """Map a scenario string to relevant categories and search within them."""
+    scenario_lower = scenario.lower()
+    matched = []
+    for key, cats in SCENARIO_CATEGORIES.items():
+        if key in scenario_lower or any(w in scenario_lower for w in key.split()):
+            matched.extend(cats)
+    if not matched:
+        # Fallback: search all categories with the scenario as keywords
+        return search_agents(data, query=scenario)
+    matched = list(dict.fromkeys(matched))  # deduplicate, keep order
+    results = []
+    for cat in matched:
+        cat_results = search_agents(data, category=cat)
+        results.extend(cat_results)
+    return results
+
+
 def print_results(results, page=1, per_page=25):
     """Print search results with pagination."""
     total = len(results)
@@ -175,6 +221,10 @@ def main():
                         help="Treat query as a regular expression")
     parser.add_argument("--list-categories", "-l", action="store_true",
                         help="List all categories with agent counts")
+    parser.add_argument("--categories", action="store_true",
+                        help="Alias for --list-categories")
+    parser.add_argument("--scenario",
+                        help="Find agents for a task scenario (e.g. 'mobile app', 'security audit')")
     parser.add_argument("--stats", "-s", action="store_true",
                         help="Show summary statistics")
     parser.add_argument("--json", action="store_true",
@@ -193,8 +243,18 @@ def main():
         return
 
     # List categories mode
-    if args.list_categories:
+    if args.list_categories or args.categories:
         print_categories(data)
+        return
+
+    # Scenario mode
+    if args.scenario:
+        results = scenario_search(data, args.scenario)
+        if args.json:
+            print_json_results(results)
+        else:
+            print(f"\n  Scenario: {args.scenario}")
+            print_results(results)
         return
 
     # Validate field name
@@ -202,6 +262,12 @@ def main():
         print(f"ERROR: Invalid field '{args.field}'. Valid: name, description, id, emoji, category",
               file=sys.stderr)
         sys.exit(1)
+
+    try:
+        from telemetry import record_event
+        record_event("search", term=args.query, category=args.category)
+    except Exception:
+        pass
 
     # Search mode
     results = search_agents(

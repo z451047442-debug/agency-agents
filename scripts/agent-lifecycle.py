@@ -29,10 +29,10 @@ import re
 import sys
 from collections import defaultdict
 from datetime import date, timedelta
-from pathlib import Path
 
 from _shared import (
     BOLD,
+    CRITICAL_RISK_CATEGORIES,
     CYAN,
     GREEN,
     RED,
@@ -42,12 +42,12 @@ from _shared import (
     discover_agents,
     get_field,
     get_frontmatter_text,
-    load_module,
+    get_list_field,
+    get_score_agent,
+    git_last_modified,
 )
 
-_SCRIPTS = Path(__file__).resolve().parent
-_score_agents = load_module("score_agents", _SCRIPTS / "score-agents.py")
-git_last_modified = _score_agents.git_last_modified
+score_agent_fn = get_score_agent()
 
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
@@ -129,7 +129,7 @@ def set_lifecycle(filepath, new_state, note=""):
     new_content = content.replace(fm, new_fm, 1)
 
     try:
-        filepath.write_text(new_content, encoding="utf-8")
+        filepath.write_text(new_content, encoding="utf-8", newline="\n")
         return True, f"'{current}' → '{new_state}'"
     except Exception as e:
         return False, str(e)
@@ -296,6 +296,90 @@ def find_stale_agents(months=12):
     return stale
 
 
+def auto_flag_agents(dry_run=False, category_filter=None):
+    """Flag agents for review based on quality signals from the scoring system.
+
+    Criteria (any one triggers a flag):
+      - Score < 7 (below B-grade)
+      - Critical-risk category + content_depth < 2
+      - < 4 substantive sections (template-heavy)
+      - Zero cross-category depends_on (siloed)
+      - < 100 words (effectively empty)
+
+    Returns list of (agent_id, category, current_state, reason, score) tuples.
+    """
+    flags = []
+    for filepath, agent_id, category in discover_all_agents(category_filter):
+        state = get_current_lifecycle(filepath)
+        if state in ("deprecated", "draft"):
+            continue
+
+        result = score_agent_fn(filepath, check_freshness=False)
+        reasons = []
+
+        if result["total"] < 7:
+            reasons.append(f"score {result['total']}/10 < 7")
+
+        risk = result.get("risk_tier", "general")
+        if risk == "critical" and result["scores"]["content_depth"] < 2:
+            reasons.append(f"critical-risk + depth {result['scores']['content_depth']}/3")
+
+        subs = result.get("substantive_sections", 0)
+        if subs < 4:
+            reasons.append(f"only {subs}/7 substantive sections")
+
+        content = filepath.read_text(encoding="utf-8")
+        fm = get_frontmatter_text(content)
+        deps = get_list_field("depends_on", fm)
+        has_cross = any(
+            not dep_id.startswith(f"{category}-") for dep_id in deps
+        ) if deps else False
+        if deps and not has_cross:
+            reasons.append("no cross-category depends_on")
+        elif not deps:
+            reasons.append("no depends_on at all")
+
+        if result["word_count"] < 100:
+            reasons.append(f"only {result['word_count']} words")
+
+        if reasons:
+            flags.append((agent_id, category, state, "; ".join(reasons), result["total"]))
+
+    flags.sort(key=lambda x: x[4])
+    return flags
+
+
+def print_auto_flag_report(flags):
+    """Print auto-flag findings."""
+    if not flags:
+        print(f"\n{GREEN}No agents flagged — all clear.{RESET}")
+        return
+
+    print(f"\n{BOLD}{'='*60}{RESET}")
+    print(f"{BOLD}  Auto-Flag Report: Agents Recommended for Review{RESET}")
+    print(f"  {len(flags)} agents flagged")
+    print(f"{BOLD}{'='*60}{RESET}\n")
+
+    by_reason = defaultdict(int)
+    for _, _, _, reason, _ in flags:
+        for r in reason.split("; "):
+            by_reason[r] += 1
+
+    print(f"{BOLD}Flag reasons:{RESET}")
+    for reason, count in sorted(by_reason.items(), key=lambda x: -x[1]):
+        print(f"  {YELLOW}{count:>4}{RESET}  {reason}")
+
+    print(f"\n{BOLD}Flagged agents (lowest score first):{RESET}")
+    for agent_id, category, state, reason, score in flags[:30]:
+        sc_color = RED if score < 5 else YELLOW if score < 7 else RESET
+        risk = " [critical]" if category in CRITICAL_RISK_CATEGORIES else ""
+        print(f"  {sc_color}{score:>2}/10{RESET} {agent_id} ({category}{risk}) [{state}]")
+        print(f"       {reason}")
+
+    if len(flags) > 30:
+        print(f"\n  ... and {len(flags) - 30} more")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Agent lifecycle management for The Agency")
@@ -317,8 +401,12 @@ def main():
                         help="Preview changes without making them")
     parser.add_argument("--find-stale", action="store_true",
                         help="Find agents not updated recently")
+    parser.add_argument("--auto-flag", action="store_true",
+                        help="Flag agents for review based on quality scoring signals")
     parser.add_argument("--months", type=int, default=12,
                         help="Staleness threshold in months (default: 12)")
+    parser.add_argument("--min-severity", type=int, default=0,
+                        help="Only flag agents scoring below this level (0-10, higher = stricter)")
     parser.add_argument("--json", action="store_true",
                         help="Machine-readable JSON output")
     args = parser.parse_args()
@@ -394,6 +482,23 @@ def main():
             print(f"  {color}{state:<12}{RESET} {agent_id:<50} {category:<20} {last_mod} ({days}d)")
         if len(stale) > 50:
             print(f"\n  ... and {len(stale) - 50} more")
+        return
+
+    # --auto-flag mode
+    if args.auto_flag:
+        flags = auto_flag_agents(dry_run=args.dry_run, category_filter=args.category)
+        if args.min_severity and args.min_severity > 0:
+            flags = [f for f in flags if f[4] < args.min_severity]
+            print(
+                f"\n  Filtered to agents scoring below {args.min_severity}/10"
+                f" ({len(flags)} flagged)"
+            )
+        print_auto_flag_report(flags)
+        if args.dry_run:
+            print(f"\n  {YELLOW}DRY RUN: {len(flags)} agents would be flagged for review{RESET}")
+        elif flags and args.category:
+            print(f"\n  To transition flagged agents: python scripts/agent-lifecycle.py "
+                  f"--category {args.category} --transition review")
         return
 
     # Default: --report

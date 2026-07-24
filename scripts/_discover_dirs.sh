@@ -19,12 +19,13 @@
 # Output: one directory name per line
 discover_agent_dirs() {
   for d in "$REPO_ROOT"/*/; do
+    [[ -d "$d" ]] || continue
     local dname="${d%/}"; dname="${dname##*/}"
     case "$dname" in
       # Tooling / generated / docs — never contain agent definitions
       examples|integrations|scripts|docs|schemas) continue ;;
       # Dot-directories — bash */ normally skips these, but be explicit
-      .git|.github|.vs) continue ;;
+      .git|.github|.vs|.vscode|.claude) continue ;;
     esac
     local count
     count=$(find "$d" -maxdepth 1 -name '*.md' -type f 2>/dev/null | wc -l)

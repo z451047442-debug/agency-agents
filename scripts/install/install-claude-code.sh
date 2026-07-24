@@ -38,7 +38,7 @@ uninstall_claude_code() {
     fi
     return 0
   fi
-  while IFS= read -r -d """" f; do
+  while IFS= read -r -d $'\0' f; do
     local first_line; first_line="$(head -1 "$f")"
     [[ "$first_line" == "---" ]] || continue
     rm -f "$f" && (( count++ )) || true

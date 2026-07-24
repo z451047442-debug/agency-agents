@@ -24,4 +24,8 @@ cd "$SCRIPT_DIR/.."
 JSON="divisions.json"
 [[ -f "$JSON" ]] || { echo "ERROR $JSON not found at repo root"; exit 1; }
 
-exec python3 "$SCRIPT_DIR/check-divisions.py"
+# Fallback chain for cross-platform Python resolution
+for py in python3 python; do
+    command -v "$py" >/dev/null 2>&1 && { PYTHON="$py"; break; }
+done
+exec "$PYTHON" "$SCRIPT_DIR/check-divisions.py"

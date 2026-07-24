@@ -15,24 +15,19 @@ import shutil
 import textwrap
 from pathlib import Path
 
-AGENT_DIRS = [
-    "academic",
-    "design",
-    "engineering",
-    "finance",
-    "game-development",
-    "gis",
-    "marketing",
-    "paid-media",
-    "product",
-    "project-management",
-    "sales",
-    "security",
-    "spatial-computing",
-    "specialized",
-    "support",
-    "testing",
-]
+from _shared.discovery import EXCLUDE_DIRS
+
+
+def discover_agent_files(repo_root: Path):
+    """Yield (category, file_path) for every agent .md file."""
+    for entry in sorted(repo_root.iterdir()):
+        if not entry.is_dir() or entry.name.startswith("."):
+            continue
+        if entry.name in EXCLUDE_DIRS:
+            continue
+        for md in sorted(entry.rglob("*.md")):
+            yield entry.name, md
+
 
 PLUGIN_NAME = "agency-agents-router"
 
@@ -78,14 +73,10 @@ def parse_agent(path: Path, repo_root: Path) -> dict[str, str] | None:
 
 def collect_agents(repo_root: Path) -> list[dict[str, str]]:
     agents: list[dict[str, str]] = []
-    for dirname in AGENT_DIRS:
-        base = repo_root / dirname
-        if not base.is_dir():
-            continue
-        for path in sorted(base.rglob("*.md")):
-            parsed = parse_agent(path, repo_root)
-            if parsed:
-                agents.append(parsed)
+    for _category, file_path in discover_agent_files(repo_root):
+        parsed = parse_agent(file_path, repo_root)
+        if parsed:
+            agents.append(parsed)
     agents.sort(key=lambda item: (item["division"], item["slug"]))
     seen: set[str] = set()
     duplicates: set[str] = set()

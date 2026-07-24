@@ -69,13 +69,13 @@ class TestHasAgentFile:
         d.mkdir()
         (d / "agent.md").write_text("---\nname: A\n---\nBody", encoding="utf-8")
 
-        original = mod.Path.read_text
+        original = mod.Path.open
 
         def _fail(path_self, *args, **kwargs):
             if path_self.name == "agent.md":
                 raise OSError
             return original(path_self, *args, **kwargs)
-        monkeypatch.setattr(mod.Path, "read_text", _fail)
+        monkeypatch.setattr(mod.Path, "open", _fail)
         assert has_agent_file(d) is False
 
 
@@ -122,6 +122,7 @@ class TestMainFunction:
 
         def _fake_run(*args, **kwargs):
             class R:
+                returncode = 0
                 stdout = "testdiv/file.md"
             return R()
         monkeypatch.setattr(mod.subprocess, "run", _fake_run)
@@ -145,6 +146,7 @@ class TestMainFunction:
 
         def _fake_run(*args, **kwargs):
             class R:
+                returncode = 0
                 stdout = "testdiv/file.md"
             return R()
         monkeypatch.setattr(mod.subprocess, "run", _fake_run)
@@ -169,6 +171,7 @@ class TestMainFunction:
 
         def _fake_run(*args, **kwargs):
             class R:
+                returncode = 0
                 stdout = "testdiv/file.md"
             return R()
         monkeypatch.setattr(mod.subprocess, "run", _fake_run)
@@ -191,6 +194,7 @@ class TestMainFunction:
 
         def _fake_run(*args, **kwargs):
             class R:
+                returncode = 0
                 stdout = "other/file.md"
             return R()
         monkeypatch.setattr(mod.subprocess, "run", _fake_run)
@@ -226,6 +230,7 @@ class TestMainFunction:
 
         def _fake_run(*args, **kwargs):
             class R:
+                returncode = 0
                 stdout = "testdiv/file.md"
             return R()
         monkeypatch.setattr(mod.subprocess, "run", _fake_run)
@@ -253,6 +258,7 @@ class TestMainFunction:
 
         def _fake_run(*args, **kwargs):
             class R:
+                returncode = 0
                 stdout = "testdiv/file.md"
             return R()
         monkeypatch.setattr(mod.subprocess, "run", _fake_run)

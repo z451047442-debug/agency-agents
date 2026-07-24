@@ -1,0 +1,26 @@
+{
+  "title": "Frontend Performance Audit",
+  "domain": "engineering",
+  "agent": "engineering-frontend-developer",
+  "prompt": "A React e-commerce product listing page takes 8 seconds to load on mobile. The page renders 2,000 product cards with images. Audit the performance issues and provide a concrete optimization plan with specific techniques.",
+  "eval_criteria": {
+    "named_techniques": {
+      "min": 3,
+      "description": "Named optimization techniques (virtualization, code splitting, etc.)"
+    },
+    "actionable_steps": {
+      "min": 5,
+      "description": "Concrete implementation steps (not generic advice)"
+    },
+    "metric_targets": {
+      "min": 1,
+      "description": "Specific performance targets (LCP, FID, CLS, etc.)"
+    },
+    "code_examples": {
+      "min": 0,
+      "description": "Code or pseudocode provided"
+    }
+  },
+  "id": "tc-001-frontend-perf",
+  "created": "2026-07-18T04:43:32.666860+00:00"
+}

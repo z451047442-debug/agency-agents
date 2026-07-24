@@ -11,6 +11,13 @@
 #
 set -euo pipefail
 
+# Bash 4+ required for associative arrays (macOS ships bash 3.2)
+if [[ "${BASH_VERSINFO[0]}" -lt 4 ]]; then
+  echo "ERROR: agent-diff.sh requires bash 4.0 or later (detected ${BASH_VERSION})." >&2
+  echo "Install bash >= 4 via Homebrew: brew install bash" >&2
+  exit 1
+fi
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
@@ -218,16 +225,18 @@ diff_single() {
 
     if [[ -n "$commit_date" ]]; then
       if command -v python3 &>/dev/null; then
-        days_ago="$(python3 -c "
+        days_ago="$(COMMIT_DATE="$commit_date" python3 -c "
+import os
 from datetime import datetime, timezone
-commit_dt = datetime.strptime('$commit_date', '%Y-%m-%d %H:%M:%S %z')
+commit_dt = datetime.strptime(os.environ['COMMIT_DATE'], '%Y-%m-%d %H:%M:%S %z')
 delta = datetime.now(timezone.utc) - commit_dt
 print(delta.days)
 ")"
       elif command -v python &>/dev/null; then
-        days_ago="$(python -c "
+        days_ago="$(COMMIT_DATE="$commit_date" python -c "
+import os
 from datetime import datetime, timezone
-commit_dt = datetime.strptime('$commit_date', '%Y-%m-%d %H:%M:%S %z')
+commit_dt = datetime.strptime(os.environ['COMMIT_DATE'], '%Y-%m-%d %H:%M:%S %z')
 delta = datetime.now(timezone.utc) - commit_dt
 print(delta.days)
 ")"

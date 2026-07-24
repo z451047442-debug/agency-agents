@@ -1,0 +1,38 @@
+{
+  "agent_id": "design-engineering-accessibility-engineer",
+  "run_at": "2026-07-18T04:45:03.425055+00:00",
+  "test_cases": [
+    {
+      "id": "tc-005-a11y-audit",
+      "title": "Accessibility Audit for Fintech Dashboard",
+      "criteria": {
+        "wcag_references": {
+          "required": 2,
+          "actual": 5,
+          "met": true
+        },
+        "aria_patterns": {
+          "required": 2,
+          "actual": 8,
+          "met": true
+        },
+        "assistive_tech": {
+          "required": 1,
+          "actual": 14,
+          "met": true
+        },
+        "prioritized_fixes": {
+          "required": 3,
+          "actual": 2,
+          "met": false
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_criteria": 4,
+    "met_criteria": 3,
+    "grade": "B",
+    "score_pct": 75.0
+  }
+}

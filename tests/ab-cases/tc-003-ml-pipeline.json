@@ -1,0 +1,26 @@
+{
+  "title": "ML Pipeline Architecture Design",
+  "domain": "data-science",
+  "agent": "data-science-ml-engineer",
+  "prompt": "Design a production ML pipeline for fraud detection processing 10,000 TPS. Requirements: real-time scoring (<100ms), daily model retraining, feature store, A/B experiment framework, drift monitoring.",
+  "eval_criteria": {
+    "architecture_components": {
+      "min": 4,
+      "description": "Named components (feature store, model registry, etc.)"
+    },
+    "latency_design": {
+      "min": 1,
+      "description": "Latency/scalability design choices"
+    },
+    "mlops_tools": {
+      "min": 2,
+      "description": "MLOps tools mentioned (MLflow, Kubeflow, Feast, etc.)"
+    },
+    "drift_monitoring": {
+      "min": 1,
+      "description": "Concrete drift detection approach"
+    }
+  },
+  "id": "tc-003-ml-pipeline",
+  "created": "2026-07-18T04:43:32.667860+00:00"
+}

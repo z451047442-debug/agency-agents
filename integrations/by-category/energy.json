@@ -1,7 +1,7 @@
 {
   "category": "energy",
-  "agent_count": 40,
-  "generated": "2026-07-05",
+  "agent_count": 43,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "energy-carbon-accountant",
@@ -11,6 +11,30 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-carbon-accountant.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "energy-carbon-market",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-carbon-capture-advanced",
+      "name": "碳捕获利用与封存(CCUS)专家",
+      "description": "CO2捕集技术(燃烧后/燃烧前/富氧燃烧/DAC)、CO2运输与注入、地质封存与监测、碳利用(矿化/化学品/燃料)、CCUS项目经济性专家",
+      "emoji": "🏭",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-carbon-capture-advanced.md",
+      "depends_on": [
+        "home-lifestyle-personal-finance",
+        "mining-mineral-economics",
+        "specialized-agentic-identity-trust"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +47,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-carbon-market.md",
+      "depends_on": [
+        "energy-carbon-accountant",
+        "finance-engineering-credit-risk-model",
+        "legal-engineering-legal-document-automation",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,8 +65,15 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-director.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -47,6 +84,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-battery-recycling.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +102,9 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-carbon-capture-storage.md",
+      "depends_on": [
+        "environmental-renewable-energy"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,6 +117,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-cryogenic-engineering.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +135,10 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-energy-expert.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,7 +151,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-energy-storage-materials-sci.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-renewable-energy"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -107,6 +168,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-geothermal-reservoir.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,6 +186,9 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-grid-forming-inverter.md",
+      "depends_on": [
+        "environmental-renewable-energy"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -131,6 +201,13 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-grid-modernization.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +220,10 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-grid-scale-storage.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-renewable-energy"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +236,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-hydrogen-fuel-cell.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,6 +254,9 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-hydrogen-storage.md",
+      "depends_on": [
+        "environmental-renewable-energy"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -179,6 +269,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-marine-corrosion.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -191,6 +287,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-maritime-engineering.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -203,6 +305,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-nuclear-decommissioning.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -215,6 +323,10 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-offshore-wind.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -227,6 +339,11 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-oil-gas-processing.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "environmental-water-treatment",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -239,6 +356,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-petroleum-drilling.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -251,6 +374,10 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-petroleum-geology.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -263,18 +390,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-petroleum-reservoir.md",
-      "nexus_roles": [
-        "phase-3-build"
-      ]
-    },
-    {
-      "id": "energy-engineering-power-electronics-packaging",
-      "name": "功率模块/IGBT/SiC封装工程师",
-      "description": "电力电子功率模块封装与可靠性专家，覆盖IGBT/SiC MOSFET/GaN HEMT模块封装(绑定线/DBC基板/灌封)、热管理(直接冷却/相变)、可靠性(功率循环/热循环)与汽车/新能源应用",
-      "emoji": "⚡",
-      "category": "energy",
-      "subcategory": "",
-      "path": "energy/energy-engineering-power-electronics-packaging.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -287,6 +408,28 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-power-electronics.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-engineering-power-electronics-packaging",
+      "name": "功率模块/IGBT/SiC封装工程师",
+      "description": "电力电子功率模块封装与可靠性专家，覆盖IGBT/SiC MOSFET/GaN HEMT模块封装(绑定线/DBC基板/灌封)、热管理(直接冷却/相变)、可靠性(功率循环/热循环)与汽车/新能源应用",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-engineering-power-electronics-packaging.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -299,6 +442,13 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-power-systems.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent",
+        "specialized-document-generator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -311,6 +461,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-process-safety.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "finance-engineering-risk-quant"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -323,6 +479,11 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-pv-solar-cell.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -335,8 +496,15 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-small-modular-reactor.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -347,6 +515,14 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-subsea-offshore.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent",
+        "testing-engineering-test-automation-framework",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -359,6 +535,13 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-thermal-engineer.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -371,6 +554,12 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-thermal-hydraulics.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -383,6 +572,11 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-tidal-energy.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -395,6 +589,13 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-waste-to-energy.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -407,6 +608,9 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-wind-energy.md",
+      "depends_on": [
+        "environmental-renewable-energy"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -419,6 +623,10 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-geothermal-engineer.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "finance-accounts-payable-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -431,7 +639,27 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-grid-engineer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "energy-engineering-power-systems",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-hydrogen-economy",
+      "name": "氢能全产业链专家",
+      "description": "制氢技术(电解水/化石燃料重整/生物质)、储氢与运输(高压/液氢/LOHC/氨)、加氢站与基础设施、燃料电池(PEMFC/SOFC)、氢能在工业/交通/电力中的应用、氢经济政策专家",
+      "emoji": "💧",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-hydrogen-economy.md",
+      "nexus_roles": [
+        "phase-1-strategy",
         "phase-3-build"
       ]
     },
@@ -443,7 +671,29 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-nuclear-engineer.md",
+      "depends_on": [
+        "energy-carbon-accountant",
+        "engineering-multi-agent-systems-architect",
+        "government-public-safety-analyst"
+      ],
       "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "energy-nuclear-fusion",
+      "name": "核聚变工程专家",
+      "description": "磁约束聚变(托卡马克/仿星器)、惯性约束聚变、等离子体物理与不稳定性、聚变材料与氚增殖、聚变电厂概念设计、超导磁体、聚变能源经济性专家",
+      "emoji": "☀️",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-nuclear-fusion.md",
+      "depends_on": [
+        "environmental-renewable-energy",
+        "home-lifestyle-personal-finance"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -455,7 +705,15 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-renewable-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "energy-engineering-grid-modernization",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -467,6 +725,11 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-storage-engineer.md",
+      "depends_on": [
+        "energy-engineering-grid-scale-storage",
+        "energy-engineering-energy-storage-materials-sci",
+        "energy-engineering-wind-energy"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -479,7 +742,15 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-trading-strategist.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "energy-carbon-accountant",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     }

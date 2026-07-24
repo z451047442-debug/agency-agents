@@ -30,16 +30,19 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+# Resolve Python 3 interpreter with execution test (catches Windows Store stubs).
 PYTHON=""
-for cmd in python3 python; do
-  if command -v "$cmd" &>/dev/null; then
-    PYTHON="$cmd"
-    break
+for candidate in python3 python; do
+  if command -v "$candidate" >/dev/null 2>&1; then
+    if "$candidate" -c "import sys; sys.exit(0 if sys.version_info >= (3,9) else 1)" 2>/dev/null; then
+      PYTHON="$candidate"
+      break
+    fi
   fi
 done
 
 if [[ -z "$PYTHON" ]]; then
-  echo "ERROR: python3 or python not found on PATH" >&2
+  echo "ERROR: Python 3.9+ required. Install from https://python.org." >&2
   exit 1
 fi
 

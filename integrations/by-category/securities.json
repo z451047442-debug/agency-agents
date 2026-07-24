@@ -1,7 +1,7 @@
 {
   "category": "securities",
-  "agent_count": 11,
-  "generated": "2026-07-05",
+  "agent_count": 13,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "securities-compliance-officer",
@@ -11,8 +11,17 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-compliance-officer.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "marketing-market-research",
+        "operations-report-distribution-agent",
+        "securities-derivatives-trader"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -23,7 +32,36 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-derivatives-trader.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "finance-engineering-risk-quant",
+        "finance-quant-trader",
+        "finance-risk-manager",
+        "securities-compliance-officer"
+      ],
       "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-director",
+      "name": "证券总监",
+      "description": "证券领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"📈\"",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "securities-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
         "phase-3-build"
       ]
     },
@@ -35,7 +73,19 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-equity-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "government-public-safety-analyst",
+        "marketing-market-research",
+        "retail-customer-insight-analyst",
+        "securities-compliance-officer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -47,6 +97,16 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-family-office.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-capital-markets-analyst",
+        "government-public-safety-analyst",
+        "legal-engineering-legal-document-automation",
+        "marketing-cross-border-ecommerce",
+        "marketing-europe-market",
+        "marketing-private-domain-operator",
+        "securities-compliance-officer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +119,14 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-fixed-income.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "finance-credit-analyst",
+        "finance-engineering-credit-risk-model",
+        "finance-risk-manager",
+        "securities-compliance-officer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,8 +139,38 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-fund-manager.md",
+      "depends_on": [
+        "construction-engineering-bridge-structural",
+        "engineering-multi-agent-systems-architect",
+        "finance-capital-markets-analyst",
+        "marketing-abm-account-based",
+        "project-management-jira-workflow-steward",
+        "securities-compliance-officer"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "securities-general-manager",
+      "name": "证券总经理",
+      "description": "证券领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"📈\"",
+      "category": "securities",
+      "subcategory": "",
+      "path": "securities/securities-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "securities-director",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -83,7 +181,16 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-macro-strategist.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "finance-risk-manager",
+        "finance-transfer-pricing",
+        "securities-compliance-officer",
+        "web3-defi-strategist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -95,6 +202,13 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-portfolio-manager.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-accounts-payable-agent",
+        "finance-capital-markets-analyst",
+        "marketing-abm-account-based",
+        "securities-compliance-officer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,7 +221,18 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-quant-researcher.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "education-academic-research-scientist",
+        "finance-capital-markets-analyst",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "marketing-market-research",
+        "securities-compliance-officer"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -119,7 +244,17 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-technical-analyst.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "marketing-market-research",
+        "marketing-paid-media-search-query-analyst",
+        "operations-report-distribution-agent",
+        "securities-compliance-officer",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -131,6 +266,14 @@
       "category": "securities",
       "subcategory": "",
       "path": "securities/securities-trader.md",
+      "depends_on": [
+        "finance-capital-markets-analyst",
+        "finance-cost-accountant",
+        "finance-engineering-risk-quant",
+        "finance-quant-trader",
+        "finance-risk-manager",
+        "securities-derivatives-trader"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

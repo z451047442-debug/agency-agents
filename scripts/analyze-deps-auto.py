@@ -15,7 +15,10 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
+from _shared.discovery import EXCLUDE_DIRS
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
 
 def load_agents():
     with open(REPO_ROOT / 'AGENTS.json', encoding='utf-8') as f:
@@ -27,7 +30,7 @@ def find_agent_file(agent_id):
         if not cat_dir.is_dir():
             continue
         name = cat_dir.name
-        if name in ('docs','examples','integrations','schemas','scripts','tests','env','.git','.github','.pytest_cache','__pycache__'):
+        if name in EXCLUDE_DIRS:
             continue
         # Direct match
         md_file = cat_dir / f"{agent_id}.md"
@@ -98,7 +101,6 @@ def main():
         aid = agent['id']
         cat = agent['category']
         existing = set(agent.get('depends_on', []))
-        agent_keywords.get(aid, set())
 
         # Load body content
         mdfile = agent_files.get(aid)
@@ -164,9 +166,13 @@ def main():
     existing = len([a for a in all_agents if a.get('depends_on') and len(a['depends_on']) > 0])
     new_hi = existing + len(high_conf)
     new_all = existing + len(high_conf) + len(med_conf)
-    print(f"Coverage: {existing}/{len(all_agents)} ({existing/len(all_agents)*100:.0f}%)")
-    print(f"  + high only: {new_hi}/{len(all_agents)} ({new_hi/len(all_agents)*100:.0f}%)")
-    print(f"  + all: {new_all}/{len(all_agents)} ({new_all/len(all_agents)*100:.0f}%)")
+    total_agents = len(all_agents)
+    if total_agents == 0:
+        print("\nNo agents found in AGENTS.json — cannot calculate coverage.")
+        return
+    print(f"Coverage: {existing}/{total_agents} ({existing/total_agents*100:.0f}%)")
+    print(f"  + high only: {new_hi}/{total_agents} ({new_hi/total_agents*100:.0f}%)")
+    print(f"  + all: {new_all}/{total_agents} ({new_all/total_agents*100:.0f}%)")
 
     output = {'high_confidence': high_conf, 'medium_confidence': med_conf}
     with open(REPO_ROOT / 'suggested_deps.json', 'w', encoding='utf-8') as f:

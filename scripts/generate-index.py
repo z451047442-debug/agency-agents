@@ -50,6 +50,10 @@ def build_index() -> dict:
 
         depends_on = get_list_field("depends_on", fm_text) or None
         nexus_roles = get_list_field("nexus_roles", fm_text) or None
+        version = get_field("version", fm_text) or None
+        date_added = get_field("date_added", fm_text) or None
+        vibe = get_field("vibe", fm_text) or None
+        lifecycle = get_field("lifecycle", fm_text) or None
 
         agent = {
             "id": agent_id,
@@ -64,6 +68,14 @@ def build_index() -> dict:
             agent["depends_on"] = depends_on
         if nexus_roles:
             agent["nexus_roles"] = nexus_roles
+        if version:
+            agent["version"] = version
+        if date_added:
+            agent["date_added"] = date_added
+        if vibe:
+            agent["vibe"] = vibe
+        if lifecycle:
+            agent["lifecycle"] = lifecycle
         agents.append(agent)
         categories.add(category)
 

@@ -1,7 +1,7 @@
 {
   "category": "nonprofit",
-  "agent_count": 4,
-  "generated": "2026-07-05",
+  "agent_count": 5,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "nonprofit-fundraiser",
@@ -11,6 +11,17 @@
       "category": "nonprofit",
       "subcategory": "",
       "path": "nonprofit/nonprofit-fundraiser.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "hr-people-analytics",
+        "hr-tech-hrtech-people-analytics",
+        "legal-data-protection-officer",
+        "logistics-last-mile-delivery",
+        "marketing-email-marketing",
+        "nonprofit-grant-writer",
+        "project-management-government-grant",
+        "securities-family-office"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -23,6 +34,16 @@
       "category": "nonprofit",
       "subcategory": "",
       "path": "nonprofit/nonprofit-grant-writer.md",
+      "depends_on": [
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "hr-compensation-benefits",
+        "logistics-last-mile-delivery",
+        "project-management-government-grant",
+        "specialized-grant-writer",
+        "tourism-travel-agency",
+        "tourism-travel-experience-designer"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -35,8 +56,39 @@
       "category": "nonprofit",
       "subcategory": "",
       "path": "nonprofit/nonprofit-program-director.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "education-number-theory",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "nonprofit-fundraiser",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "nonprofit-social-enterprise",
+      "name": "社会企业与影响力投资专家",
+      "description": "社会企业商业模式设计、影响力衡量与管理(IMM/IRIS+)、影响力投资策略、混合融资(blended finance)、B Corp认证、社会创新与系统变革专家",
+      "emoji": "🌍",
+      "category": "nonprofit",
+      "subcategory": "",
+      "path": "nonprofit/nonprofit-social-enterprise.md",
+      "depends_on": [
+        "gis-drone-reality-mapping",
+        "government-social-work",
+        "home-lifestyle-personal-finance",
+        "marketing-japan-market-expert",
+        "specialized-agentic-identity-trust",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-2-foundation"
       ]
     },
     {
@@ -47,8 +99,18 @@
       "category": "nonprofit",
       "subcategory": "",
       "path": "nonprofit/nonprofit-volunteer-coordinator.md",
+      "depends_on": [
+        "engineering-social-media-platform",
+        "finance-cost-accountant",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "marketing-paid-media-creative-strategist",
+        "nonprofit-fundraiser",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-6-operate"
       ]
     }
   ]

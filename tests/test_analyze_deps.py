@@ -573,7 +573,7 @@ class TestComputeDepScoreEdgeCases:
             set(), {"threat"}
         )
         score, evidence = compute_dep_score(source, target)
-        assert score >= 0.10  # cross-cat bonus
+        assert score >= 0.09  # cross-cat bonus (0.06 CROSS + term match)
 
     def test_name_mention_in_body(self):
         """Cover line 162-164 — direct name mention in body text gives +0.3."""

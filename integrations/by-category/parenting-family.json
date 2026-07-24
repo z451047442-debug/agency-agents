@@ -1,0 +1,107 @@
+{
+  "category": "parenting-family",
+  "agent_count": 5,
+  "generated": "2026-07-16",
+  "agents": [
+    {
+      "id": "parenting-family-child-development",
+      "name": "儿童发展心理学专家",
+      "description": "认知发展(Piaget/Vygotsky)、语言发展、社会情感发展、依恋理论、气质与个性、游戏与发展、神经发育多样性(ADHD/ASD/阅读障碍)、早期干预与评估专家",
+      "emoji": "👶",
+      "category": "parenting-family",
+      "subcategory": "",
+      "path": "parenting-family/parenting-family-child-development.md",
+      "depends_on": [
+        "design-engineering-quant-ux-researcher",
+        "education-online-learning-designer",
+        "game-development-game-psychology",
+        "government-social-work",
+        "specialized-personal-growth-mentor",
+        "testing-evidence-collector"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "parenting-family-director",
+      "name": "亲子家庭总监",
+      "description": "亲子家庭领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"👨‍👩‍👧‍👦\"",
+      "category": "parenting-family",
+      "subcategory": "",
+      "path": "parenting-family/parenting-family-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "parenting-family-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "parenting-family-education-consulting",
+      "name": "家庭教育咨询专家",
+      "description": "积极教养(PET/正面管教)、亲子沟通与冲突解决、学习习惯培养、青春期教养、多子女家庭管理、家校合作、数字时代家庭教育、特殊需求儿童家庭支持专家",
+      "emoji": "👨‍👩‍👧‍👦",
+      "category": "parenting-family",
+      "subcategory": "",
+      "path": "parenting-family/parenting-family-education-consulting.md",
+      "depends_on": [
+        "government-social-work",
+        "hr-labor-relations",
+        "robotics-motion-control",
+        "specialized-personal-growth-mentor"
+      ],
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "parenting-family-elder-care",
+      "name": "老年照护与银发产业专家",
+      "description": "居家养老与适老化改造、社区养老、机构养老、老年综合评估(CGA)、认知症照护(阿尔茨海默)、安宁疗护与临终关怀、老年营养与康复、银发经济产品设计专家",
+      "emoji": "👴",
+      "category": "parenting-family",
+      "subcategory": "",
+      "path": "parenting-family/parenting-family-elder-care.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "government-smart-city",
+        "government-social-work",
+        "iot-engineering-smart-home"
+      ],
+      "nexus_roles": [
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "parenting-family-general-manager",
+      "name": "亲子家庭总经理",
+      "description": "亲子家庭领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"👨‍👩‍👧‍👦\"",
+      "category": "parenting-family",
+      "subcategory": "",
+      "path": "parenting-family/parenting-family-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "parenting-family-director",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
+      ]
+    }
+  ]
+}

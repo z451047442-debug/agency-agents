@@ -1,7 +1,7 @@
 {
   "category": "construction",
-  "agent_count": 40,
-  "generated": "2026-07-05",
+  "agent_count": 42,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "construction-architectural-designer",
@@ -11,6 +11,14 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-architectural-designer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "construction-engineering-construction-materials",
+        "construction-engineering-noise-control",
+        "energy-engineering-wind-energy",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +31,14 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-bim-engineer.md",
+      "depends_on": [
+        "construction-engineering-noise-control",
+        "cybersecurity-engineering-cyber-risk-model",
+        "energy-engineering-grid-scale-storage",
+        "finance-engineering-credit-risk-model",
+        "operations-report-distribution-agent",
+        "specialized-document-generator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,7 +51,37 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-cost-estimator.md",
+      "depends_on": [
+        "construction-engineering-construction-claims",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-insurance-claims-analytics",
+        "finance-engineering-risk-quant",
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-director",
+      "name": "建筑总监",
+      "description": "建筑领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🏗\"",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-director.md",
+      "depends_on": [
+        "construction-general-manager",
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
         "phase-3-build"
       ]
     },
@@ -47,6 +93,12 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-electrical.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "energy-engineering-waste-to-energy",
+        "operations-report-distribution-agent",
+        "specialized-document-generator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,7 +111,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-acoustics-consultant.md",
+      "depends_on": [
+        "construction-engineering-noise-control"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -71,7 +127,14 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-acoustics-specialist.md",
+      "depends_on": [
+        "construction-engineering-noise-control",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model",
+        "media-entertainment-engineering-audio-dsp-signal"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -83,6 +146,9 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-bridge-structural.md",
+      "depends_on": [
+        "construction-architectural-designer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,7 +161,16 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-civil-engineer.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "engineering-embedded-database",
+        "engineering-multi-agent-systems-architect",
+        "environmental-circular-economy-design",
+        "testing-test-results-analyzer",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -107,6 +182,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-construction-claims.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "finance-engineering-risk-quant",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,6 +199,12 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-construction-materials.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "engineering-code-reviewer",
+        "legal-engineering-legal-document-automation",
+        "robotics-motion-control"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -131,6 +217,13 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-cultural-heritage-digitization.md",
+      "depends_on": [
+        "construction-engineering-heritage-conservation",
+        "cybersecurity-engineering-customer-identity-access",
+        "energy-engineering-carbon-capture-storage",
+        "infrastructure-identity-access",
+        "tourism-cultural-heritage"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +236,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-dam-engineering.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "environmental-water-treatment",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +253,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-facade-engineering.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "energy-engineering-wind-energy",
+        "engineering-multi-agent-systems-architect"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,6 +270,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-fire-dynamics.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "operations-report-distribution-agent",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -179,7 +287,16 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-geodesy-surveying.md",
+      "depends_on": [
+        "construction-surveyor",
+        "cybersecurity-engineering-cyber-risk-model",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based",
+        "robotics-motion-control"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -191,6 +308,10 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-geotechnical-earthquake.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "robotics-motion-control"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -203,6 +324,15 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-green-building.md",
+      "depends_on": [
+        "construction-engineering-construction-materials",
+        "cybersecurity-engineering-cyber-risk-model",
+        "energy-engineering-energy-storage-materials-sci",
+        "environmental-renewable-energy",
+        "finance-engineering-credit-risk-model",
+        "logistics-engineering-supply-chain-risk",
+        "marketing-demand-generation"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -215,6 +345,13 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-heritage-conservation.md",
+      "depends_on": [
+        "construction-engineering-construction-materials",
+        "construction-engineering-cultural-heritage-digitization",
+        "healthcare-engineering-regulatory-science",
+        "manufacturing-engineering-material-scientist",
+        "tourism-cultural-heritage"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -227,6 +364,10 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-hvac-automation.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "testing-engineering-reliability-testing"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -239,6 +380,12 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-industrial-refrigeration.md",
+      "depends_on": [
+        "construction-engineering-piping-design",
+        "energy-engineering-energy-storage-materials-sci",
+        "food-beverage-food-safety",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -251,6 +398,10 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-landscape-architecture.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -263,6 +414,12 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-noise-control.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model",
+        "healthcare-mental-health"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -275,6 +432,10 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-piping-design.md",
+      "depends_on": [
+        "construction-engineering-industrial-refrigeration",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -287,7 +448,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-rail-infrastructure.md",
+      "depends_on": [
+        "construction-architectural-designer"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -299,6 +464,13 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-rail-transit.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "construction-architectural-designer",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "telecom-engineering-signal-integrity"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -311,6 +483,9 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-railway-systems-design.md",
+      "depends_on": [
+        "construction-architectural-designer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -323,6 +498,9 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-rock-mechanics.md",
+      "depends_on": [
+        "construction-engineering-geotechnical-earthquake"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -335,6 +513,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-seismic-retrofit.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "construction-architectural-designer",
+        "robotics-motion-control"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -347,6 +530,12 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-structural-analysis.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "cybersecurity-engineering-cyber-risk-model",
+        "finance-engineering-credit-risk-model",
+        "government-smart-city"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -359,6 +548,9 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-structural-fire.md",
+      "depends_on": [
+        "construction-fire-protection"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -371,6 +563,9 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-tunnel-engineering.md",
+      "depends_on": [
+        "construction-architectural-designer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -383,6 +578,14 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-engineering-urban-planning-design.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "cybersecurity-engineering-customer-identity-access",
+        "government-urban-planner",
+        "infrastructure-identity-access",
+        "operations-report-distribution-agent",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -395,8 +598,37 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-fire-protection.md",
+      "depends_on": [
+        "construction-electrical",
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-build-release-engineer",
+        "infrastructure-identity-access",
+        "sales-data-extraction-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "construction-general-manager",
+      "name": "建筑总经理",
+      "description": "建筑领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🏗\"",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-general-manager.md",
+      "depends_on": [
+        "construction-director",
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-general-manager",
+        "legal-general-manager",
+        "pets-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -407,6 +639,9 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-geotechnical-engineer.md",
+      "depends_on": [
+        "construction-architectural-designer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -419,6 +654,13 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-hvac.md",
+      "depends_on": [
+        "construction-engineering-green-building",
+        "construction-engineering-noise-control",
+        "energy-engineering-waste-to-energy",
+        "manufacturing-engineering-automation-systems",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -431,6 +673,13 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-low-voltage.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "cybersecurity-engineering-customer-identity-access",
+        "government-smart-city",
+        "infrastructure-identity-access",
+        "marketing-short-video-editing-coach"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -443,6 +692,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-plumbing.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "energy-engineering-energy-storage-materials-sci",
+        "energy-engineering-waste-to-energy"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -455,6 +709,13 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-project-manager.md",
+      "depends_on": [
+        "construction-engineering-construction-claims",
+        "construction-engineering-construction-materials",
+        "environmental-engineering-weather-forecast",
+        "finance-bank-relationship",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -467,6 +728,11 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-safety-officer.md",
+      "depends_on": [
+        "construction-architectural-designer",
+        "data-science-engineering-deep-learning-training",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -479,7 +745,13 @@
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-surveyor.md",
+      "depends_on": [
+        "construction-engineering-geodesy-surveying",
+        "engineering-graph-database",
+        "legal-engineering-legal-document-automation"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     }

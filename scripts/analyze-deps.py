@@ -11,7 +11,6 @@ Usage:
     python scripts/analyze-deps.py --suggest --category engineering  # suggest for a category
     python scripts/analyze-deps.py --suggest --all --min-confidence 0.7  # suggest for all
     python scripts/analyze-deps.py --validate                  # check existing depends_on
-    python scripts/analyze-deps.py --graph --agent <id>        # dependency graph for an agent
     python scripts/analyze-deps.py --orphans                   # agents with no deps at all
     python scripts/analyze-deps.py --json                      # machine-readable output
 """
@@ -28,6 +27,7 @@ from _shared import (
     GREEN,
     RED,
     RESET,
+    YELLOW,
     discover_agents,
     get_body,
     get_field,
@@ -57,6 +57,143 @@ STOP_TERMS = {
 }
 
 TERM_MIN_LEN = 4  # minimum length for a term to be considered specific enough
+
+# Cross-category bonus table: (source_category, target_category) → bonus score.
+# These represent real-world knowledge dependencies — e.g., healthcare depends
+# on legal (compliance), cybersecurity (HIPAA/HITECH), and data-science (analytics).
+# Bonus values: 0.08 = strong cross-domain dependency, 0.05 = moderate,
+# 0.03 = weak/incidental. Without this table, the dependency analyzer is blind
+# to cross-category relationships and reinforces category silos.
+CROSS_CATEGORY_BONUS = {
+    # ── engineering consumes infrastructure & security ──
+    ("engineering", "infrastructure"):      0.08,
+    ("engineering", "cybersecurity"):        0.06,
+    ("engineering", "security"):             0.06,
+    ("engineering", "data-science"):         0.05,
+    ("engineering", "project-management"):   0.05,
+    ("engineering", "testing"):              0.05,
+    ("engineering", "iot"):                  0.04,
+    ("engineering", "web3"):                 0.03,
+
+    # ── infrastructure consumes engineering & security ──
+    ("infrastructure", "engineering"):       0.08,
+    ("infrastructure", "cybersecurity"):     0.06,
+    ("infrastructure", "security"):          0.06,
+    ("infrastructure", "network-engineering"): 0.05,
+    ("infrastructure", "project-management"): 0.04,
+
+    # ── cybersecurity connects to everything ──
+    ("cybersecurity", "engineering"):        0.06,
+    ("cybersecurity", "infrastructure"):     0.06,
+    ("cybersecurity", "legal"):              0.05,
+    ("cybersecurity", "finance"):            0.04,
+    ("cybersecurity", "healthcare"):         0.04,
+    ("cybersecurity", "government"):         0.04,
+
+    # ── healthcare cross-domain deps ──
+    ("healthcare", "legal"):                 0.06,
+    ("healthcare", "cybersecurity"):         0.05,
+    ("healthcare", "data-science"):          0.05,
+    ("healthcare", "pharma-biotech"):        0.05,
+    ("healthcare", "insurance"):             0.04,
+    ("healthcare", "emergency"):             0.04,
+
+    # ── finance & legal ──
+    ("finance", "legal"):                    0.06,
+    ("finance", "cybersecurity"):            0.05,
+    ("finance", "data-science"):             0.05,
+    ("finance", "securities"):               0.05,
+    ("finance", "insurance"):                0.04,
+    ("legal", "finance"):                    0.05,
+    ("legal", "government"):                 0.05,
+    ("legal", "cybersecurity"):              0.04,
+    ("legal", "real-estate"):                0.03,
+
+    # ── construction & environmental ──
+    ("construction", "environmental"):       0.06,
+    ("construction", "legal"):               0.05,
+    ("construction", "project-management"):  0.05,
+    ("construction", "engineering"):         0.05,
+    ("environmental", "construction"):       0.05,
+    ("environmental", "legal"):              0.05,
+    ("environmental", "energy"):             0.05,
+    ("environmental", "agriculture"):        0.04,
+
+    # ── aerospace & automotive consume engineering ──
+    ("aerospace", "engineering"):            0.06,
+    ("aerospace", "cybersecurity"):          0.05,
+    ("aerospace", "project-management"):     0.05,
+    ("aerospace", "legal"):                  0.04,
+    ("automotive", "engineering"):           0.06,
+    ("automotive", "cybersecurity"):         0.05,
+    ("automotive", "manufacturing"):         0.05,
+    ("automotive", "iot"):                   0.04,
+
+    # ── energy cross-domain ──
+    ("energy", "environmental"):             0.05,
+    ("energy", "engineering"):               0.05,
+    ("energy", "legal"):                     0.04,
+    ("energy", "finance"):                   0.04,
+    ("energy", "project-management"):        0.04,
+
+    # ── manufacturing ──
+    ("manufacturing", "engineering"):        0.06,
+    ("manufacturing", "supply-chain"):       0.05,
+    ("manufacturing", "iot"):                0.04,
+    ("manufacturing", "quality"):            0.04,
+
+    # ── logistics & supply chain ──
+    ("logistics", "engineering"):            0.04,
+    ("logistics", "iot"):                    0.04,
+    ("logistics", "retail"):                 0.03,
+
+    # ── data-science serves many ──
+    ("data-science", "engineering"):         0.05,
+    ("data-science", "finance"):             0.04,
+    ("data-science", "healthcare"):          0.04,
+    ("data-science", "marketing"):           0.04,
+
+    # ── marketing cross-domain ──
+    ("marketing", "data-science"):           0.04,
+    ("marketing", "design"):                 0.04,
+    ("marketing", "retail"):                 0.03,
+
+    # ── agriculture ──
+    ("agriculture", "environmental"):        0.05,
+    ("agriculture", "data-science"):         0.04,
+    ("agriculture", "logistics"):            0.03,
+
+    # ── government ──
+    ("government", "legal"):                 0.05,
+    ("government", "cybersecurity"):         0.05,
+    ("government", "emergency"):             0.04,
+
+    # ── project-management serves many ──
+    ("project-management", "engineering"):   0.04,
+    ("project-management", "construction"):  0.04,
+    ("project-management", "operations"):    0.03,
+
+    # ── robotics consumes multiple domains ──
+    ("robotics", "engineering"):             0.06,
+    ("robotics", "iot"):                     0.04,
+    ("robotics", "manufacturing"):           0.04,
+
+    # ── education ──
+    ("education", "design"):                 0.03,
+    ("education", "hr"):                     0.03,
+
+    # ── spatial-computing ──
+    ("spatial-computing", "engineering"):    0.05,
+    ("spatial-computing", "design"):         0.04,
+    ("spatial-computing", "gis"):            0.03,
+}
+
+# Build reverse direction automatically so we don't duplicate every pair.
+# Most cross-domain relationships are bidirectional.
+_reverse_bonuses = {}
+for (src, tgt), bonus in CROSS_CATEGORY_BONUS.items():
+    _reverse_bonuses[(tgt, src)] = bonus * 0.8  # slightly lower for reverse direction
+CROSS_CATEGORY_BONUS.update(_reverse_bonuses)
 
 
 if sys.stdout.encoding != "utf-8":
@@ -184,16 +321,20 @@ def compute_dep_score(source, target):
         score += 0.05
         evidence.append("same category")
 
-    # 5. Cross-category: infrastructure/engineering are common dependencies
-    cross_cat_pairs = {
-        ("engineering", "infrastructure"): 0.05,
-        ("data-science", "engineering"): 0.05,
-        ("cybersecurity", "engineering"): 0.05,
-        ("cybersecurity", "infrastructure"): 0.05,
-    }
-    bonus = cross_cat_pairs.get((source["category"], target["category"]), 0)
-    if bonus:
-        score += bonus
+    # 5. Cross-category bonus: reward meaningful cross-domain connections.
+    # Same-category gets a mild bonus but cross-category bridges are prioritized
+    # because they build the "latticework" — they're what make the agent network
+    # genuinely interconnected rather than 65 independent silos.
+    if source["category"] != target["category"]:
+        cross_bonus = CROSS_CATEGORY_BONUS.get(
+            (source["category"], target["category"]), 0.0
+        )
+        if cross_bonus:
+            score += cross_bonus
+            evidence.append(f"cross-category: {source['category']}↔{target['category']}")
+    else:
+        # Same-category: mild bonus only, to avoid reinforcing silo walls
+        score += 0.03
 
     # Cap at 1.0
     score = min(score, 1.0)
@@ -209,6 +350,118 @@ def build_term_index(all_agents):
             if len(term) >= 3:
                 index[term].add(agent["id"])
     return index
+
+
+def find_cycles(all_agents, max_report=10):
+    """Detect cycles in the depends_on graph using DFS.
+
+    Returns (cycle_count, largest_cycle, example_cycles, largest_component_size).
+    """
+    # Build graph from agent frontmatter (not from terms index)
+    graph = {aid: set() for aid in all_agents}
+    for _cat, _rel, filepath in discover_agents():
+        content = filepath.read_text(encoding="utf-8")
+        fm = get_frontmatter_text(content)
+        deps = get_list_field("depends_on", fm)
+        for dep in deps:
+            if dep in graph:
+                graph[filepath.stem].add(dep)
+
+    cycles: list[list[str]] = []
+    # Color-based iterative DFS: WHITE=0 (unvisited), GRAY=1 (in stack), BLACK=2 (done)
+    WHITE, GRAY, BLACK = 0, 1, 2
+    color = dict.fromkeys(graph, WHITE)
+    path: list[str] = []
+    # Stack entries: (node, iterator_over_neighbors_or_None)
+    # - On first visit: push (node, iter(neighbors)), set GRAY, append to path
+    # - After iterating neighbors: pop path, set BLACK
+    stack: list[tuple[str, object]] = []
+
+    for start_node in sorted(graph):
+        if color[start_node] != WHITE:
+            continue
+        stack.append((start_node, None))
+        while stack:
+            node, neighbor_iter = stack.pop()
+            if neighbor_iter is None:
+                # First time seeing this node — initialise traversal
+                if color[node] == BLACK:
+                    continue
+                color[node] = GRAY
+                path.append(node)
+                neighbors = iter(graph.get(node, set()))
+                stack.append((node, neighbors))
+            else:
+                # Resume after processing children — try next neighbor
+                try:
+                    neighbor = next(neighbor_iter)
+                except StopIteration:
+                    # All neighbors processed — finish node
+                    path.pop()
+                    color[node] = BLACK
+                    continue
+                # Push back current node to resume after this neighbor
+                stack.append((node, neighbor_iter))
+                if color[neighbor] == WHITE:
+                    stack.append((neighbor, None))
+                elif color[neighbor] == GRAY:
+                    # Cycle found: neighbor is on the current path
+                    cycle_start = path.index(neighbor)
+                    cycles.append(list(path[cycle_start:]))
+
+    undirected = {aid: set(graph[aid]) for aid in graph}
+    for aid in graph:
+        for dep in graph[aid]:
+            undirected.setdefault(dep, set()).add(aid)
+
+    seen_comp = set()
+    max_comp = 0
+
+    def bfs_component(start):
+        q = [start]
+        comp = {start}
+        seen_comp.add(start)
+        while q:
+            n = q.pop()
+            for nb in undirected.get(n, set()):
+                if nb not in seen_comp:
+                    seen_comp.add(nb)
+                    comp.add(nb)
+                    q.append(nb)
+        return len(comp)
+
+    for node in undirected:
+        if node not in seen_comp:
+            size = bfs_component(node)
+            if size > max_comp:
+                max_comp = size
+
+    cycles.sort(key=len, reverse=True)
+    return len(cycles), cycles[0] if cycles else [], cycles[:max_report], max_comp
+
+
+def print_cycle_report(all_agents):
+    """Print a cycle detection report."""
+    cycle_count, largest, examples, max_comp = find_cycles(all_agents)
+    print(f"\n{BOLD}Dependency Cycle Detection{RESET}")
+    print(f"  Total agents:         {len(all_agents)}")
+    print(f"  Cycle count:          {RED}{cycle_count}{RESET}")
+    print(f"  Largest cycle length: {len(largest)}")
+    print(f"  Largest component:    {max_comp} agents")
+    if cycle_count > 0:
+        print(f"\n  {BOLD}Largest cycle:{RESET}")
+        chain = " -> ".join(largest[:12])
+        print(f"  {chain}")
+        if len(largest) > 12:
+            print(f"  ... ({len(largest) - 12} more)")
+        print(f"\n  {BOLD}Sample cycles:{RESET}")
+        for _, cycle in enumerate(examples[:5]):
+            agents_in = len(cycle)
+            cats = {aid.split("-")[0] for aid in cycle}
+            chain = " -> ".join(cycle[:5])
+            print(f"  [{agents_in} agents, {len(cats)} categories] {chain}...")
+    if cycle_count > 100:
+        print(f"\n  {RED}High cycle count - consider breaking weak dependency links{RESET}")
 
 
 def suggest_dependencies(all_agents, term_index, min_confidence=0.5, max_suggestions=5):
@@ -374,6 +627,84 @@ def print_orphans(all_agents, suggestions):
         print(f"  {cat:<28} {len(by_cat[cat]):>4}/{agents_in_cat:<4} orphan ({pct:.0f}%)")
 
 
+def compute_cross_stats(all_agents):
+    """Compute cross-category dependency coverage per category.
+
+    Returns dict: category → {total, with_deps, with_cross, cross_deps, ...}
+    """
+    agent_deps = {}
+    for _cat, _rel, filepath in discover_agents():
+        content = filepath.read_text(encoding="utf-8")
+        fm = get_frontmatter_text(content)
+        deps = get_list_field("depends_on", fm)
+        agent_deps[filepath.stem] = {
+            "category": filepath.parent.name,
+            "deps": deps,
+        }
+
+    cats = defaultdict(lambda: {
+        "total": 0, "with_deps": 0, "with_cross": 0, "cross_deps": 0,
+        "siloed": [], "cross_agents": [],
+    })
+
+    for aid, info in agent_deps.items():
+        cat = info["category"]
+        cats[cat]["total"] += 1
+        if info["deps"]:
+            cats[cat]["with_deps"] += 1
+            has_cross = False
+            for dep_id in info["deps"]:
+                if dep_id in all_agents:
+                    if all_agents[dep_id]["category"] != cat:
+                        cats[cat]["cross_deps"] += 1
+                        has_cross = True
+            if has_cross:
+                cats[cat]["with_cross"] += 1
+                cats[cat]["cross_agents"].append(aid)
+            else:
+                cats[cat]["siloed"].append(aid)
+        else:
+            cats[cat]["siloed"].append(aid)
+
+    return dict(cats)
+
+
+def print_cross_stats(stats):
+    """Print cross-category dependency coverage report."""
+    total_agents = sum(s["total"] for s in stats.values())
+    total_with_cross = sum(s["with_cross"] for s in stats.values())
+
+    print(f"\n{BOLD}{'='*60}{RESET}")
+    print(f"{BOLD}  Cross-Category Dependency Coverage{RESET}")
+    print(f"  {total_with_cross}/{total_agents} agents ({total_with_cross / max(1, total_agents) * 100:.1f}%) have cross-category deps")
+    print(f"{BOLD}{'='*60}{RESET}\n")
+
+    ranked = sorted(stats.items(), key=lambda x: (
+        x[1]["with_cross"] / max(1, x[1]["total"]), -x[1]["total"]
+    ))
+
+    print(f"{BOLD}Categories by Cross-Category Coverage:{RESET}")
+    print(f"  {'Category':<28} {'Total':>5} {'Cross':>5} {'Coverage':>8}  Status")
+    print(f"  {'-'*28} {'-'*5} {'-'*5} {'-'*8}  {'-'*12}")
+    for cat, s in ranked:
+        pct = s["with_cross"] / max(1, s["total"]) * 100
+        if pct == 0:
+            color, status = RED, "SILO"
+        elif pct < 5:
+            color, status = YELLOW, "NEAR-SILO"
+        elif pct < 15:
+            color, status = RESET, "emerging"
+        else:
+            color, status = GREEN, "connected"
+        print(f"  {cat:<28} {s['total']:>5} {s['with_cross']:>5} {color}{pct:>7.1f}%{RESET}  {status}")
+
+    siloed = [(cat, s) for cat, s in ranked if s["with_cross"] == 0 and s["total"] >= 3]
+    if siloed:
+        print(f"\n{BOLD}{RED}Completely Siloed (0% cross-category):{RESET}")
+        for cat, s in siloed:
+            print(f"  {RED}{cat}{RESET}: {s['total']} agents, zero cross-category deps")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Analyze and suggest depends_on relationships between agents")
@@ -385,12 +716,18 @@ def main():
                         help="Check existing depends_on for broken references")
     parser.add_argument("--orphans", action="store_true",
                         help="List agents with no dependency relationships")
+    parser.add_argument("--cross-stats", action="store_true",
+                        help="Cross-category dependency coverage per category")
     parser.add_argument("--agent", "-a",
                         help="Filter to specific agent")
     parser.add_argument("--category", "-c",
                         help="Filter to specific category")
     parser.add_argument("--min-confidence", type=float, default=0.5,
                         help="Minimum confidence for suggestions (default: 0.5)")
+    parser.add_argument("--apply", action="store_true",
+                        help="Write suggested cross-category deps to agent files")
+    parser.add_argument("--cycles", action="store_true",
+                        help="Detect dependency cycles in the graph")
     parser.add_argument("--json", action="store_true",
                         help="Machine-readable JSON output")
     args = parser.parse_args()
@@ -399,7 +736,7 @@ def main():
     all_agents = build_agent_index(category_filter=args.category)
 
     # Default to --report if no action specified
-    if not any([args.suggest, args.validate, args.orphans]):
+    if not any([args.suggest, args.validate, args.orphans, args.cross_stats, args.apply, args.cycles]):
         args.report = True
 
     # --validate mode
@@ -441,6 +778,92 @@ def main():
         suggestions = suggest_dependencies(all_agents, term_index,
                                            min_confidence=0.3)
         print_orphans(all_agents, suggestions)
+        return
+
+    # --cycles mode
+    if args.cycles:
+        print_cycle_report(all_agents)
+        return
+
+    # --cross-stats mode
+    if args.cross_stats:
+        stats = compute_cross_stats(all_agents)
+        if args.json:
+            json.dump(stats, sys.stdout, indent=2, ensure_ascii=False)
+            sys.stdout.write("\n")
+        else:
+            print_cross_stats(stats)
+        return
+
+    # --apply mode: write suggested cross-category deps to agent files
+    if args.apply:
+        term_index = build_term_index(all_agents)
+        suggestions = suggest_dependencies(all_agents, term_index,
+                                           min_confidence=args.min_confidence)
+        applied = 0
+        for _cat, _rel, filepath in discover_agents(category_filter=args.category):
+            agent_id = filepath.stem
+            if agent_id not in suggestions:
+                continue
+            deps = suggestions[agent_id]
+            # Only apply cross-category deps with confidence >= min_confidence
+            cross_deps = [(tid, c) for tid, c, _ in deps
+                          if tid in all_agents
+                          and all_agents[tid]["category"] != all_agents[agent_id]["category"]
+                          and c >= args.min_confidence]
+            if not cross_deps:
+                continue
+
+            content = filepath.read_text(encoding="utf-8")
+            fm = get_frontmatter_text(content)
+            existing = set(get_list_field("depends_on", fm))
+            new_deps = [tid for tid, _ in cross_deps if tid not in existing]
+            if not new_deps:
+                continue
+
+            # Take up to 3 highest-confidence new cross-category deps
+            new_deps = new_deps[:3]
+            all_updated = sorted(existing | set(new_deps))
+
+            # Rebuild depends_on block at YAML root level
+            dep_lines = ["depends_on:"]
+            for dep in all_updated:
+                dep_lines.append(f"  - {dep}")
+
+            # Replace or insert depends_on in frontmatter
+            fm_lines = fm.split("\n")
+            new_fm_lines = []
+            in_deps = False
+            deps_written = False
+            for line in fm_lines:
+                stripped = line.strip()
+                if stripped.startswith("depends_on:"):
+                    in_deps = True
+                    if not deps_written:
+                        new_fm_lines.extend(dep_lines)
+                        deps_written = True
+                    continue
+                if in_deps and re.match(r"^\s+- ", line):
+                    continue
+                if in_deps and not re.match(r"^\s+- ", line):
+                    in_deps = False
+                new_fm_lines.append(line)
+
+            if not deps_written:
+                # Insert before closing --- of frontmatter
+                new_fm_lines.extend(dep_lines)
+
+            new_fm = "\n".join(new_fm_lines)
+            body = get_body(content)
+            new_content = f"---\n{new_fm}\n---{body}"
+            tmp_path = filepath.with_suffix(filepath.suffix + ".tmp")
+            tmp_path.write_text(new_content, encoding="utf-8", newline="\n")
+            tmp_path.replace(filepath)
+            applied += 1
+            print(f"  {GREEN}+{len(new_deps)}{RESET} cross-category deps added to {agent_id} "
+                  f"({', '.join(new_deps[:2])}{'...' if len(new_deps) > 2 else ''})")
+
+        print(f"\n  Applied cross-category deps to {applied} agents")
         return
 
     # --report mode (default)

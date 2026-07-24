@@ -13,9 +13,16 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 # Prefer Python lint (cross-platform), fall back to bash
-if [[ -f "$REPO_ROOT/scripts/lint-agents.py" ]] && command -v python3 &>/dev/null; then
-  LINTER_CMD=(python3 "$REPO_ROOT/scripts/lint-agents.py")
-  SCORER_CMD=(python3 "$REPO_ROOT/scripts/score-agents.py")
+PYTHON_BIN=""
+for py in python3 python; do
+  if command -v "$py" &>/dev/null && "$py" -c "print(1)" &>/dev/null 2>&1; then
+    PYTHON_BIN="$py"
+    break
+  fi
+done
+if [[ -f "$REPO_ROOT/scripts/lint-agents.py" ]] && [[ -n "$PYTHON_BIN" ]]; then
+  LINTER_CMD=("$PYTHON_BIN" "$REPO_ROOT/scripts/lint-agents.py")
+  SCORER_CMD=("$PYTHON_BIN" "$REPO_ROOT/scripts/score-agents.py")
   HAS_PYTHON=true
 else
   LINTER_CMD=(bash "$REPO_ROOT/scripts/lint-agents.sh")
@@ -41,7 +48,7 @@ STAGED_MD_FILES=()
 while IFS= read -r -d '' f; do
   # Skip non-agent directories
   case "$f" in
-    docs/*|examples/*|integrations/*|scripts/*|.github/*|README.md|README-zh.md|CONTRIBUTING*.md|CLAUDE.md|AGENTS.md|CHANGELOG.md|CODE_OF_CONDUCT.md|SECURITY.md|USE-CASES.md|ARCHITECTURE.md) continue ;;
+    docs/*|examples/*|integrations/*|scripts/*|.github/*|README.md|README-zh.md|CONTRIBUTING*.md|CLAUDE.md|AGENTS.md|CHANGELOG.md|CODE_OF_CONDUCT.md|SECURITY.md|USE-CASES.md|ARCHITECTURE.md|MAINTAINERS.md|QUICKSTART.md) continue ;;
     *.md) STAGED_MD_FILES+=("$f") ;;
   esac
 done < <(git -C "$REPO_ROOT" diff --cached --name-only --diff-filter=ACMR -z 2>/dev/null || true)
@@ -59,7 +66,9 @@ echo ""
 # --- Step 3: Run linter on staged files ---
 # We copy each staged file to a temp location and lint that, so we check the
 # staged version, not the working-tree version.
-TEMP_DIR="$(mktemp -d)"
+TEMP_DIR="$REPO_ROOT/.git/temp-lint"
+rm -rf "$TEMP_DIR"
+mkdir -p "$TEMP_DIR"
 trap 'rm -rf "$TEMP_DIR"' EXIT
 
 PASS=0
@@ -81,23 +90,21 @@ for f in "${STAGED_MD_FILES[@]}"; do
   }
 
   # Run lint-agents.sh on this file
-  if "${LINTER_CMD[@]}" "$TEMP_FILE" &>/tmp/agency-precommit-lint.$$.log; then
+  if "${LINTER_CMD[@]}" "$TEMP_FILE" &>"$TEMP_DIR/lint-output.$$.log"; then
     echo "  ${GREEN}OK${RESET}  $f — PASSED"
     PASS=$(( PASS + 1 ))
   else
     echo "  ${RED}FAIL${RESET} $f — FAILED"
     # Extract just ERROR lines from the linter output
-    grep 'ERROR' /tmp/agency-precommit-lint.$$.log 2>/dev/null | while IFS= read -r errline; do
+    grep 'ERROR' "$TEMP_DIR/lint-output.$$.log" 2>/dev/null | while IFS= read -r errline; do
       echo "     $errline"
     done
-    grep 'WARN' /tmp/agency-precommit-lint.$$.log 2>/dev/null | while IFS= read -r warnline; do
+    grep 'WARN' "$TEMP_DIR/lint-output.$$.log" 2>/dev/null | while IFS= read -r warnline; do
       echo "     $warnline"
     done
     FAIL=$(( FAIL + 1 ))
   fi
 done
-
-rm -f /tmp/agency-precommit-lint.$$.log
 
 echo ""
 

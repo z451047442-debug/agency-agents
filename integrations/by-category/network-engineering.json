@@ -1,7 +1,7 @@
 {
   "category": "network-engineering",
   "agent_count": 12,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "network-engineering-architect",
@@ -11,8 +11,18 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-architect.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-cisco-network",
+        "infrastructure-inspur-cisco-network",
+        "network-engineering-automation",
+        "network-engineering-cloud",
+        "spatial-computing-ar-filter-creator"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -23,8 +33,19 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-automation.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "infrastructure-ansible-expert",
+        "infrastructure-backup-admin",
+        "infrastructure-cisco-network",
+        "infrastructure-identity-access",
+        "infrastructure-storage-backup",
+        "network-engineering-architect",
+        "network-engineering-cloud"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -35,8 +56,18 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-cloud.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-engineering-observability-architect",
+        "infrastructure-engineering-observability-engineer",
+        "infrastructure-identity-access",
+        "network-engineering-architect",
+        "network-engineering-automation"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -47,8 +78,19 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-director.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-engineering-edge-computing",
+        "infrastructure-engineering-incident-commander",
+        "infrastructure-identity-access",
+        "network-engineering-architect",
+        "network-engineering-automation"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -59,8 +101,18 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-engineering-architect-networks.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-engineering-site-reliability-automation",
+        "infrastructure-identity-access",
+        "network-engineering-architect",
+        "network-engineering-automation"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -71,8 +123,18 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-engineering-network-protocol.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-engineering-edge-computing",
+        "infrastructure-identity-access",
+        "network-engineering-architect",
+        "network-engineering-automation"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -83,8 +145,18 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-engineering-optical-fiber-sensing.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "education-online-learning-designer",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access",
+        "network-engineering-architect",
+        "network-engineering-automation"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -95,8 +167,18 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-engineering-optical-network-design.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access",
+        "network-engineering-architect",
+        "network-engineering-automation",
+        "network-engineering-engineering-optical-fiber-sensing",
+        "telecom-engineering-signal-integrity"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -107,8 +189,19 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-operations.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-windows-server",
+        "network-engineering-architect",
+        "network-engineering-automation",
+        "operations-bcp-disaster-recovery"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -119,8 +212,17 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-satellite.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access",
+        "network-engineering-architect",
+        "network-engineering-automation"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -131,8 +233,17 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-voip-uc.md",
+      "depends_on": [
+        "government-public-safety-analyst",
+        "marketing-paid-media-tracking-specialist",
+        "media-entertainment-engineering-audio-dsp-signal",
+        "media-entertainment-engineering-video-streaming",
+        "network-engineering-architect",
+        "network-engineering-automation"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -143,8 +254,16 @@
       "category": "network-engineering",
       "subcategory": "",
       "path": "network-engineering/network-engineering-wireless.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-engineering-incident-response-commander",
+        "spatial-computing-macos-spatial-metal-engineer",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     }
   ]

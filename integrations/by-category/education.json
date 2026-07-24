@@ -1,7 +1,7 @@
 {
   "category": "education",
-  "agent_count": 17,
-  "generated": "2026-07-05",
+  "agent_count": 35,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "education-academic-anthropologist",
@@ -11,7 +11,16 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-academic-anthropologist.md",
+      "depends_on": [
+        "education-academic-dean",
+        "government-social-work",
+        "marketing-africa-market-expert",
+        "marketing-japan-market-expert",
+        "project-management-jira-workflow-steward",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -23,7 +32,17 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-academic-dean.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "education-academic-research-scientist",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -35,7 +54,14 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-academic-geographer.md",
+      "depends_on": [
+        "education-academic-anthropologist",
+        "operations-report-distribution-agent",
+        "spatial-computing-macos-spatial-metal-engineer",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -47,7 +73,14 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-academic-historian.md",
+      "depends_on": [
+        "education-academic-anthropologist",
+        "government-social-work",
+        "operations-report-distribution-agent",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -59,7 +92,11 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-academic-narratologist.md",
+      "depends_on": [
+        "education-academic-anthropologist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -71,7 +108,15 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-academic-psychologist.md",
+      "depends_on": [
+        "education-academic-anthropologist",
+        "government-social-work",
+        "specialized-personal-growth-mentor",
+        "thinking-models-cognitive-biases",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -83,6 +128,49 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-academic-research-scientist.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "education-academic-anthropologist",
+        "engineering-multi-agent-systems-architect",
+        "healthcare-engineering-regulatory-science"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-algebraic-geometry",
+      "name": "代数几何专家",
+      "description": "概形理论、代数簇分类、相交理论、导出范畴与同调代数、霍奇理论、双有理几何与极小模型纲领专家",
+      "emoji": "📐",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-algebraic-geometry.md",
+      "depends_on": [
+        "engineering-git-workflow-master"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "education-arts-sports-teaching",
+      "name": "艺体教育专家",
+      "description": "体育/音乐/美术/舞蹈/书法/戏剧(表演)/影视/摄影/播音主持/音乐理论/乐器演奏/声乐/雕塑/设计学等艺术与体育教育专家，覆盖技能训练、艺术素养、展演组织与创造力培养",
+      "emoji": "🎭",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-arts-sports-teaching.md",
+      "depends_on": [
+        "design-creative-tools",
+        "marketing-short-video-editing-coach",
+        "media-entertainment-film-directing",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer",
+        "unity-shader-graph-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,8 +183,35 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-assessment-specialist.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "education-academic-anthropologist",
+        "engineering-multi-agent-systems-architect",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-cultural-heritage-law",
+      "name": "文化遗产法律与政策专家",
+      "description": "文化遗产保护法(国际公约/国内法)、文物返还与restitution、水下文化遗产、非物质文化遗产保护、文化财产伦理与博物馆去殖民化专家",
+      "emoji": "📜",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-cultural-heritage-law.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-git-workflow-master",
+        "legal-engineering-legal-document-automation",
+        "testing-engineering-test-automation-framework",
+        "tourism-cultural-heritage"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy"
       ]
     },
     {
@@ -107,6 +222,12 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-curriculum-designer.md",
+      "depends_on": [
+        "aerospace-engineering-aviation-pilot-training",
+        "data-science-engineering-deep-learning-training",
+        "education-academic-anthropologist",
+        "hr-corporate-training-designer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,8 +240,47 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-director.md",
+      "depends_on": [
+        "education-academic-anthropologist",
+        "engineering-multi-agent-systems-architect"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-field-archaeology",
+      "name": "田野考古专家",
+      "description": "考古调查与发掘方法、地层学与类型学、考古测年技术(放射性碳/光释光/树轮)、遗址保护与管理、考古GIS与遥感、出土文物保护专家",
+      "emoji": "⛏️",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-field-archaeology.md",
+      "depends_on": [
+        "agriculture-engineering-soil-science",
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-higher-ed-teaching",
+      "name": "高等教育教学专家",
+      "description": "大学本科/研究生阶段哲学/法学/经济学/社会学/新闻传播/心理学/考古学/统计学/人类学/伦理学/逻辑学等人文社科类学科教学法专家，覆盖大学课程设计、研讨式教学、学术写作与论文指导",
+      "emoji": "🎓",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-higher-ed-teaching.md",
+      "depends_on": [
+        "education-curriculum-designer",
+        "education-teacher",
+        "government-social-work"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
       ]
     },
     {
@@ -131,8 +291,102 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-instructional-technologist.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-identity-access"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-k12-subject-teaching",
+      "name": "K-12学科教学专家",
+      "description": "中小学语文/数学/英语/物理/化学/生物/政治(道法)/历史/地理/信息技术/通用技术/科学/心理健康/劳动/综合实践全科教学法专家，覆盖课程标准、教学设计、课堂管理、学业评价与中高考备考",
+      "emoji": "📚",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-k12-subject-teaching.md",
+      "depends_on": [
+        "education-curriculum-designer",
+        "education-teacher",
+        "engineering-git-workflow-master",
+        "government-social-work",
+        "manufacturing-chemistry-research",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-language-teaching",
+      "name": "语言教学专家",
+      "description": "对外汉语(汉语国际教育)/日语/法语/德语/西班牙语/俄语/韩语/阿拉伯语/意大利语/葡萄牙语第二语言教学专家，覆盖语言习得理论、交际教学法、HSK/JLPT/DELE等标准化考试与文化教学",
+      "emoji": "🗣️",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-language-teaching.md",
+      "depends_on": [
+        "education-teacher",
+        "government-social-work"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-linguistics",
+      "name": "语言学专家",
+      "description": "理论语言学(音系/形态/句法/语义)、社会语言学、心理语言学、历史语言学、计算语言学与语言类型学专家",
+      "emoji": "📖",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-linguistics.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-minimal-change-engineer"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "education-medical-teaching",
+      "name": "医学教育专家",
+      "description": "基础医学/临床医学/护理学/药学/公共卫生/中医学/中药学/口腔医学/眼视光/康复治疗/医学检验技术等医学教育专家，覆盖临床教学、PBL/CBL教学法、OSCE考核、住院医师规培与医学模拟教育",
+      "emoji": "🩺",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-medical-teaching.md",
+      "depends_on": [
+        "education-teacher",
+        "engineering-git-workflow-master",
+        "specialized-agentic-identity-trust",
+        "specialized-habit-formation",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-number-theory",
+      "name": "数论专家",
+      "description": "解析数论、代数数论、算术几何、模形式与椭圆曲线、丢番图方程、密码学中的数论应用专家",
+      "emoji": "🔢",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-number-theory.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
       ]
     },
     {
@@ -143,8 +397,85 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-online-learning-designer.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "education-academic-anthropologist",
+        "finance-cost-accountant",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-philosophy-ethics",
+      "name": "哲学与伦理学专家",
+      "description": "形而上学与认识论、伦理学与道德哲学、政治哲学、逻辑学与语言哲学、心灵哲学、科技伦理与应用伦理专家",
+      "emoji": "🏛️",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-philosophy-ethics.md",
+      "depends_on": [
+        "aerospace-military-civil-fusion",
+        "engineering-git-workflow-master",
+        "government-social-work",
+        "testing-engineering-test-automation-framework"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "education-physical-anthropology",
+      "name": "体质人类学专家",
+      "description": "人类进化与古人类学、灵长类行为与比较解剖学、法医人类学、人类骨骼生物学、古代DNA与人口历史、人类适应性与生物变异专家",
+      "emoji": "🦴",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-physical-anthropology.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "government-social-work",
+        "specialized-personal-growth-mentor",
+        "testing-engineering-test-automation-framework"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "education-probability-stochastic",
+      "name": "概率论与随机过程专家",
+      "description": "测度论概率基础、随机过程(马尔可夫/鞅/布朗运动)、随机微积分与金融数学、极限理论、随机图与渗流理论、贝叶斯非参数专家",
+      "emoji": "🎲",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-probability-stochastic.md",
+      "depends_on": [
+        "home-lifestyle-personal-finance",
+        "logistics-engineering-supply-chain-risk",
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "education-religious-studies",
+      "name": "宗教学专家",
+      "description": "世界宗教比较、宗教哲学、宗教人类学、宗教社会学、宗教文本研究、宗教心理学与当代宗教现象专家",
+      "emoji": "☸️",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-religious-studies.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "government-social-work"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
       ]
     },
     {
@@ -155,6 +486,9 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-school-administrator.md",
+      "depends_on": [
+        "education-academic-anthropologist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,6 +501,34 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-special-needs.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "education-academic-anthropologist",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-document-automation"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-stem-engineering-teaching",
+      "name": "STEM与工程教育专家",
+      "description": "天文学/环境科学/材料/机械/电子信息/计算机/软件/AI/数据科学/土木/化工/生物工程/航空航天/船舶/核工程/机器人等STEM本科与研究生教学法专家，覆盖实验室教学、项目式学习(CDIO)、毕业设计与工程认证",
+      "emoji": "🔬",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-stem-engineering-teaching.md",
+      "depends_on": [
+        "aerospace-military-materials-manufacturing",
+        "education-curriculum-designer",
+        "education-teacher",
+        "engineering-git-workflow-master",
+        "engineering-visual-studio-cpp",
+        "specialized-personal-growth-mentor",
+        "unreal-engine-unreal-world-builder"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -179,7 +541,18 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-study-abroad-advisor.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "education-academic-research-scientist",
+        "finance-engineering-risk-quant",
+        "logistics-public-transit",
+        "marketing-europe-market",
+        "marketing-linkedin-content-creator",
+        "marketing-paid-media-search-query-analyst",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
       ]
     },
@@ -191,6 +564,65 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-teacher.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "design-engineering-user-research-system",
+        "education-academic-anthropologist",
+        "finance-cost-accountant",
+        "lottery-product-risk",
+        "marketing-paid-media-creative-strategist"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "education-theoretical-physics",
+      "name": "理论物理学家",
+      "description": "量子场论与粒子物理、广义相对论与引力、凝聚态理论、统计力学、宇宙学、弦理论与数学物理专家",
+      "emoji": "⚛️",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-theoretical-physics.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "specialized-identity-graph-operator"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "education-topology",
+      "name": "拓扑学专家",
+      "description": "代数拓扑(同伦/同调)、微分拓扑、几何拓扑(纽结/三维流形)、低维拓扑、同伦论与稳定同伦、拓扑数据分析专家",
+      "emoji": "🔗",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-topology.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-git-workflow-master"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery"
+      ]
+    },
+    {
+      "id": "education-vocational-trade-teaching",
+      "name": "职业教育专家",
+      "description": "电工电子/汽车维修/数控技术/烹饪厨艺/美发美容/服装设计/建筑施工/会计实务/电子商务/物流管理/农林园艺/水产养殖等职业技能教学专家，覆盖技能实训、职业资格认证、工学结合与学徒制培养",
+      "emoji": "🛠️",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-vocational-trade-teaching.md",
+      "depends_on": [
+        "education-teacher",
+        "education-vocational-trainer",
+        "engineering-git-workflow-master",
+        "marketing-livestream-commerce-coach",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -203,6 +635,11 @@
       "category": "education",
       "subcategory": "",
       "path": "education/education-vocational-trainer.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "education-academic-anthropologist",
+        "engineering-multi-agent-systems-architect"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

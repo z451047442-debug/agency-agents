@@ -425,3 +425,23 @@ class TestMain:
         monkeypatch.setattr(sys, "argv", ["contribute.py", "--top", "5"])
         mod.main()
         assert len(dashboard_calls) == 1
+
+    def test_main_risk_filter(self, monkeypatch):
+        """Line 302-304: --risk flag filters opportunities by risk_tier."""
+        opps = [
+            _make_opp(agent_id="a", total=3),
+            _make_opp(agent_id="b", total=8),
+        ]
+        opps[0]["risk_tier"] = "critical"
+        opps[1]["risk_tier"] = "general"
+        monkeypatch.setattr(
+            mod, "build_opportunities", lambda category_filter=None: opps
+        )
+        dashboard_calls = []
+        monkeypatch.setattr(
+            mod, "print_dashboard",
+            lambda o, a: dashboard_calls.append((len(o), a))
+        )
+        monkeypatch.setattr(sys, "argv", ["contribute.py", "--risk", "critical"])
+        mod.main()
+        assert dashboard_calls[0][0] == 1

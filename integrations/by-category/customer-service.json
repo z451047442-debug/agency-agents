@@ -1,7 +1,7 @@
 {
   "category": "customer-service",
   "agent_count": 12,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "customer-service-call-center",
@@ -11,6 +11,18 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-call-center.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-social-media-platform",
+        "environmental-engineering-weather-forecast",
+        "infrastructure-engineering-site-reliability-automation",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-private-domain-operator",
+        "marketing-short-video-editing-coach",
+        "operations-executive-summary-generator",
+        "operations-report-distribution-agent",
+        "testing-engineering-test-automation-framework"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -23,6 +35,16 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-chatbot-ai.md",
+      "depends_on": [
+        "customer-service-call-center",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "lottery-risk-compliance",
+        "marketing-customer-lifecycle"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -35,6 +57,15 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-complaints.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-cultural-intelligence-strategist",
+        "engineering-multi-agent-systems-architect",
+        "hr-people-analytics",
+        "legal-data-protection-officer",
+        "legal-document-review",
+        "operations-executive-summary-generator"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -47,6 +78,11 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-customer-service.md",
+      "depends_on": [
+        "customer-service-retail-customer-returns",
+        "healthcare-customer-service",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -59,6 +95,12 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-hospitality-guest-services.md",
+      "depends_on": [
+        "customer-service-call-center",
+        "specialized-change-management-consultant",
+        "specialized-workflow-architect",
+        "tourism-hotel-gm"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -71,6 +113,12 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-retail-customer-returns.md",
+      "depends_on": [
+        "customer-service-call-center",
+        "energy-engineering-power-electronics",
+        "energy-engineering-power-electronics-packaging",
+        "quality-food-safety"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -83,6 +131,13 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-success-director.md",
+      "depends_on": [
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "logistics-last-mile-delivery",
+        "sales-customer-onboarding",
+        "specialized-customer-success-manager"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -95,6 +150,16 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-success-manager.md",
+      "depends_on": [
+        "customer-service-call-center",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-knowledge-management",
+        "energy-engineering-wind-energy",
+        "finance-accounts-payable-agent",
+        "lottery-risk-compliance",
+        "marketing-abm-account-based",
+        "marketing-customer-lifecycle"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -107,6 +172,18 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-support-responder.md",
+      "depends_on": [
+        "aerospace-damage-protection-technology",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "education-special-needs",
+        "engineering-social-media-platform",
+        "government-social-work",
+        "marketing-customer-advocacy",
+        "marketing-customer-lifecycle",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-private-domain-operator"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -119,6 +196,13 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-ticketing.md",
+      "depends_on": [
+        "customer-service-success-director",
+        "infrastructure-service-desk-manager",
+        "legal-document-review",
+        "logistics-last-mile-delivery",
+        "specialized-customer-success-manager"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -131,6 +215,13 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-voice-ai.md",
+      "depends_on": [
+        "customer-service-chatbot-ai",
+        "design-cultural-intelligence-strategist",
+        "engineering-git-workflow-master",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -143,6 +234,16 @@
       "category": "customer-service",
       "subcategory": "",
       "path": "customer-service/customer-service-workforce-management.md",
+      "depends_on": [
+        "customer-service-call-center",
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-knowledge-management",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "marketing-customer-lifecycle",
+        "project-management-agents-orchestrator"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]

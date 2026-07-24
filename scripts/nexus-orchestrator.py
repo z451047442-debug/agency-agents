@@ -22,9 +22,11 @@ Feedback loops enable rollback (Phase 4 issues -> Phase 3 rework; Phase 6 feedba
 import argparse
 import json
 import sys
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, cast
+
+UTC = timezone.utc
 
 REPO = Path(__file__).resolve().parent.parent
 INDEX_PATH = REPO / "AGENTS.json"
@@ -413,8 +415,14 @@ def start_phase(name: str, phase: str, verbose: bool = False) -> None:
     print(f"\nReference: {playbook_path}")
 
 
-def run_gate(name: str, phase: str) -> None:
+def run_gate(name: str, phase: str, gate_file: str | None = None) -> None:
     cp = load_checkpoint(name)
+
+    # Load answers from file if provided (non-interactive mode)
+    gate_answers = {}
+    if gate_file:
+        with open(gate_file, encoding="utf-8") as f:
+            gate_answers = json.load(f)
     ps = cp["phases"][phase]
     if ps["status"] != "in_progress":
         print(f"Phase {phase} is {ps['status']}. Use --start {phase} first.", file=sys.stderr)
@@ -428,10 +436,17 @@ def run_gate(name: str, phase: str) -> None:
     for question, desc in get_gate_questions(cp["scenario"], phase):
         print(f"  [{question}]")
         print(f"  ({desc})")
-        ans = input("  > ").strip()
-        parts = ans.split(maxsplit=1)
-        passed = parts and parts[0].lower() in ("pass", "p", "yes", "y")
-        evidence = parts[1] if len(parts) > 1 else ""
+        if gate_file:
+            # Non-interactive: read from pre-supplied answers
+            answer = gate_answers.get(question, {})
+            passed = answer.get("passed", False)
+            evidence = answer.get("evidence", "")
+            print(f"  {'PASS' if passed else 'FAIL'}" + (f" — {evidence}" if evidence else ""))
+        else:
+            ans = input("  > ").strip()
+            parts = ans.split(maxsplit=1)
+            passed = parts and parts[0].lower() in ("pass", "p", "yes", "y")
+            evidence = parts[1] if len(parts) > 1 else ""
         gate[question] = {"passed": passed, "evidence": evidence, "timestamp": datetime.now(UTC).isoformat()}
         icon = "✓ PASS" if passed else "✗ FAIL"
         if evidence:
@@ -776,6 +791,7 @@ def main() -> None:
     parser.add_argument("--status", action="store_true", help="Show project status")
     parser.add_argument("--start", choices=["0","1","2","3","4","5","6"], help="Start a phase")
     parser.add_argument("--gate", choices=["0","1","2","3","4","5","6"], help="Run gate checklist")
+    parser.add_argument("--gate-file", help="Read gate answers from JSON file instead of interactive input")
     parser.add_argument("--complete", choices=["0","1","2","3","4","5","6"], help="Complete a phase")
     parser.add_argument("--rollback", choices=["0","1","2","3","4","5","6"], help="Rollback a phase via feedback loop")
     parser.add_argument("--preview", choices=list(SCENARIOS), help="Preview a scenario without creating a project")
@@ -819,7 +835,7 @@ def main() -> None:
         elif args.start:
             start_phase(args.project, args.start, verbose=args.verbose)
         elif args.gate:
-            run_gate(args.project, args.gate)
+            run_gate(args.project, args.gate, gate_file=args.gate_file)
         elif args.complete:
             complete_phase(args.project, args.complete)
         elif args.rollback:

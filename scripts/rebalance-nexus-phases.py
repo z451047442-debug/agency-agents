@@ -10,6 +10,8 @@ import argparse
 import re
 from pathlib import Path
 
+from _shared.frontmatter import get_body, get_frontmatter_text
+
 REPO = Path(__file__).resolve().parent.parent
 EXCLUDE_DIRS = {"docs", "scripts", "examples", "integrations", "schemas", ".git", ".github"}
 
@@ -65,10 +67,9 @@ def rebalance(dry_run: bool = True):
     for filepath in agent_files:
         content = filepath.read_text(encoding="utf-8")
         agent_id = filepath.stem
-        parts = content.split("---", 2)
-        if len(parts) < 3:
+        fm = get_frontmatter_text(content)
+        if not fm:
             continue
-        fm = parts[1]
         lines = fm.split("\n")
         new_lines = []
         in_nexus = False
@@ -153,8 +154,9 @@ def rebalance(dry_run: bool = True):
             role_lines.append(f"{indent}  - {role}")
 
         new_fm = fm_lines[:nexus_start] + role_lines + fm_lines[nexus_end:]
-        new_content = f"---\n{"\n".join(new_fm)}\n---{parts[2]}"
-        filepath.write_text(new_content, encoding="utf-8")
+        fm_joined = "\n".join(new_fm)
+        new_content = f"---\n{fm_joined}\n---{get_body(content)}"
+        filepath.write_text(new_content, encoding="utf-8", newline="\n")
 
     print(f"\n{'DRY RUN — ' if dry_run else ''}Rebalance results:")
     print(f"  Phase 4 removed:  {stats['removed_p4']}")
@@ -163,11 +165,93 @@ def rebalance(dry_run: bool = True):
     print(f"  Skipped:          {stats['skipped']}")
 
 
+def phase_distribution():
+    """Collect NEXUS phase distribution with quality scoring per phase.
+
+    Returns dict: phase → {count, agents, scores}
+    """
+    import sys as _sys
+    _sys.path.insert(0, str(REPO / "scripts"))
+    from _shared import discover_agents, get_frontmatter_text, get_list_field, get_score_agent
+    _score_agent_fn = get_score_agent()
+
+    phases = {}
+    for phase in ["phase-0-discovery", "phase-1-strategy", "phase-2-foundation",
+                   "phase-3-build", "phase-4-hardening", "phase-5-launch",
+                   "phase-6-operate"]:
+        phases[phase] = {"count": 0, "agents": [], "scores": []}
+
+    for _cat, _rel, filepath in discover_agents():
+        content = filepath.read_text(encoding="utf-8")
+        fm = get_frontmatter_text(content)
+        roles = get_list_field("nexus_roles", fm)
+        if roles:
+            for role in roles:
+                if role in phases:
+                    phases[role]["count"] += 1
+                    phases[role]["agents"].append(filepath.stem)
+                    result = _score_agent_fn(filepath, check_freshness=False)
+                    phases[role]["scores"].append(result["total"])
+
+    return phases
+
+
+def print_phase_report(phases):
+    """Print NEXUS phase balance report with quality metrics."""
+    print(f"\n{'='*60}")
+    print("  NEXUS Phase Balance Report")
+    print(f"{'='*60}\n")
+
+    total = sum(p["count"] for p in phases.values())
+    labels = {
+        "phase-0-discovery": "Discovery", "phase-1-strategy": "Strategy",
+        "phase-2-foundation": "Foundation", "phase-3-build": "Build",
+        "phase-4-hardening": "Hardening", "phase-5-launch": "Launch",
+        "phase-6-operate": "Operate",
+    }
+
+    for phase in ["phase-0-discovery", "phase-1-strategy", "phase-2-foundation",
+                   "phase-3-build", "phase-4-hardening", "phase-5-launch",
+                   "phase-6-operate"]:
+        p = phases[phase]
+        pct = p["count"] / total * 100 if total else 0
+        avg = sum(p["scores"]) / len(p["scores"]) if p["scores"] else 0
+        bar = "█" * int(pct / 2)
+
+        if pct > 30:
+            flag = "!!"
+        elif pct > 20:
+            flag = " !"
+        elif pct < 10:
+            flag = " -"
+        else:
+            flag = "  "
+
+        print(f"  {flag} {labels[phase]:<12} {p['count']:>5} ({pct:>5.1f}%)  "
+              f"avg score {avg:.1f}/10  {bar}")
+
+    build = phases["phase-3-build"]["count"]
+    harden = phases["phase-4-hardening"]["count"]
+    if build > 0 and harden > 0:
+        ratio = build / harden
+        print(f"\n  Build→Hardening ratio: {build}:{harden} = {ratio:.1f}:1")
+        if ratio > 3:
+            print(f"  *** BOTTLENECK: {ratio:.0f}x more builders than reviewers ***")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Rebalance NEXUS phase assignments")
     parser.add_argument("--dry-run", action="store_true", default=True)
     parser.add_argument("--apply", dest="dry_run", action="store_false")
+    parser.add_argument("--report", action="store_true",
+                        help="Show NEXUS phase balance report with quality metrics")
     args = parser.parse_args()
+
+    if args.report:
+        phases = phase_distribution()
+        print_phase_report(phases)
+        return
+
     rebalance(dry_run=args.dry_run)
 
 

@@ -1,7 +1,7 @@
 {
   "category": "government",
-  "agent_count": 10,
-  "generated": "2026-07-05",
+  "agent_count": 14,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "government-digital-presales-consultant",
@@ -11,7 +11,13 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-digital-presales-consultant.md",
+      "depends_on": [
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -23,8 +29,58 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-digital-transformation.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "government-digital-presales-consultant",
+        "infrastructure-identity-access",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-director",
+      "name": "数字政府总监",
+      "description": "数字政府领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🏛\"",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "government-general-manager",
+        "hr-tech-people-analytics",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "government-general-manager",
+      "name": "数字政府总经理",
+      "description": "数字政府领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🏛\"",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "cybersecurity-general-manager",
+        "emergency-general-manager",
+        "government-director",
+        "legal-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -35,6 +91,13 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-gr-expert.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "government-digital-presales-consultant",
+        "legal-engineering-legal-document-automation",
+        "legal-engineering-trade-compliance",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -47,7 +110,15 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-policy-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "government-digital-presales-consultant",
+        "legal-engineering-legal-document-automation",
+        "legal-engineering-trade-compliance",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -59,6 +130,13 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-procurement.md",
+      "depends_on": [
+        "construction-cost-estimator",
+        "engineering-social-media-platform",
+        "government-digital-presales-consultant",
+        "marketing-paid-media-paid-social-strategist",
+        "marketing-social-media-strategist"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -71,6 +149,11 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-public-administration.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "government-digital-presales-consultant",
+        "marketing-abm-account-based"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -83,6 +166,13 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-public-affairs.md",
+      "depends_on": [
+        "government-digital-presales-consultant",
+        "legal-engineering-legal-document-automation",
+        "legal-engineering-trade-compliance",
+        "legal-general-counsel",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
       ]
@@ -95,7 +185,16 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-public-safety-analyst.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "cybersecurity-engineering-customer-identity-access",
+        "government-digital-presales-consultant",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-document-automation",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-1-strategy"
       ]
     },
@@ -107,8 +206,36 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-smart-city.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "government-digital-presales-consultant",
+        "legal-engineering-legal-document-automation",
+        "legal-engineering-trade-compliance",
+        "legal-general-counsel"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-2-foundation"
+      ]
+    },
+    {
+      "id": "government-social-work",
+      "name": "社会工作与公共服务专家",
+      "description": "社区社会工作、青少年/老年/残疾人服务、危机干预、家庭与儿童福利、个案管理与社区资源协调专家",
+      "emoji": "🤲",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-social-work.md",
+      "depends_on": [
+        "education-special-needs",
+        "iot-engineering-smart-home",
+        "logistics-public-transit",
+        "parenting-family-elder-care"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-2-foundation",
+        "phase-6-operate"
       ]
     },
     {
@@ -119,8 +246,36 @@
       "category": "government",
       "subcategory": "",
       "path": "government/government-urban-planner.md",
+      "depends_on": [
+        "government-digital-presales-consultant",
+        "legal-engineering-legal-document-automation",
+        "legal-engineering-trade-compliance",
+        "legal-general-counsel",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
         "phase-1-strategy"
+      ]
+    },
+    {
+      "id": "government-urban-resilience",
+      "name": "城市韧性与灾害管理专家",
+      "description": "城市灾害风险评估、韧性城市规划、气候变化适应、应急管理体系、基础设施韧性评估与社区防灾减灾专家",
+      "emoji": "🏙️",
+      "category": "government",
+      "subcategory": "",
+      "path": "government/government-urban-resilience.md",
+      "depends_on": [
+        "emergency-disaster-response",
+        "engineering-code-reviewer",
+        "engineering-git-workflow-master",
+        "environmental-climate-policy",
+        "government-urban-planner",
+        "infrastructure-engineering-incident-response-commander"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-6-operate"
       ]
     }
   ]

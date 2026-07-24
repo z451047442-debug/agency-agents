@@ -20,15 +20,11 @@ import json
 import sys
 from collections import defaultdict
 from datetime import date
-from pathlib import Path
 
-from _shared import BOLD, GREEN, RED, RESET, YELLOW, discover_agents, load_module
+from _shared import BOLD, GREEN, RED, RESET, YELLOW, discover_agents, get_lint_file, get_score_agent
 
-_SCRIPTS = Path(__file__).resolve().parent
-_score_agents = load_module("score_agents", _SCRIPTS / "score-agents.py")
-_lint_agents = load_module("lint_agents", _SCRIPTS / "lint-agents.py")
-score_agent = _score_agents.score_agent
-lint_file = _lint_agents.lint_file
+score_agent = get_score_agent()
+lint_file = get_lint_file()
 
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
@@ -52,14 +48,15 @@ SKILL_LEVELS = {
 }
 
 IMPACT_WEIGHTS = {
-    "content_depth": 3,   # adding words has highest quality impact
-    "structure": 2,       # adding sections has moderate impact
-    "frontmatter": 1,     # metadata is quick but low impact
-    "file_health": 1,     # size/link fixes are quick
-    "security": 4,        # security flags need immediate attention
-    "lint_errors": 3,     # lint errors are blockers
-    "broken_deps": 2,     # broken dependencies
+    "content_depth": 3,
+    "structure": 2,
+    "frontmatter": 1,
+    "file_health": 1,
+    "security": 4,
+    "lint_errors": 3,
+    "broken_deps": 2,
 }
+RISK_MULTIPLIER = {"critical": 2.0, "high": 1.5, "general": 1.0}
 
 
 def estimate_effort(issues, scores, word_count):
@@ -70,9 +67,9 @@ def estimate_effort(issues, scores, word_count):
     needs_content = scores.get("content_depth", 0) < 2
     needs_sections = scores.get("structure", 0) < 3
     has_lint_errors = any("ERROR" in str(i) for i in issues)
-    any("SECURITY" in str(i) or "suspicious" in str(i) for i in issues)
+    has_security = any("SECURITY" in str(i) or "suspicious" in str(i) for i in issues)
 
-    if needs_content or has_lint_errors:
+    if needs_content or has_lint_errors or has_security:
         return "hard"
     elif needs_sections or len(issues) > 2:
         return "moderate"
@@ -136,12 +133,15 @@ def build_opportunities(category_filter=None):
         # Ease factor: easy=3, moderate=2, hard=1 (higher means more approachable)
         ease = {"easy": 3, "moderate": 2, "hard": 1}.get(effort, 1)
 
-        # Composite score: ease × impact
-        priority = ease * impact
+        # Risk-weighted priority: critical-risk agents get higher urgency
+        risk_tier = score_result.get("risk_tier", "general")
+        risk_mult = RISK_MULTIPLIER.get(risk_tier, 1.0)
+        priority = ease * impact * risk_mult
 
         opportunities.append({
             "id": agent_id,
             "category": category,
+            "risk_tier": risk_tier,
             "grade": score_result["grade"],
             "total": score_result["total"],
             "word_count": word_count,
@@ -149,6 +149,7 @@ def build_opportunities(category_filter=None):
             "effort": effort,
             "impact": round(impact, 1),
             "ease": ease,
+            "risk_multiplier": risk_mult,
             "priority": round(priority, 1),
             "issues": issues,
             "security_flags": sec_flags,
@@ -190,8 +191,10 @@ def print_dashboard(opportunities, args):
 
     # Skill level quick stats
     by_effort = defaultdict(int)
+    by_risk = defaultdict(int)
     for o in opportunities:
         by_effort[o["effort"]] += 1
+        by_risk[o.get("risk_tier", "general")] += 1
     print(f"{BOLD}By Skill Level:{RESET}")
     print(f"  {GREEN}Beginner:{RESET}    {by_effort.get('easy', 0)} opportunities — metadata, links, frontmatter fixes")
     print(f"  {YELLOW}Intermediate:{RESET} {by_effort.get('moderate', 0)} opportunities — section additions, lint cleanup")
@@ -215,20 +218,30 @@ def print_dashboard(opportunities, args):
         print(f"  {cat:<28} {avg_p:4.1f} {bar}  ({count:>3}: {GREEN}{easy}e{RESET} {YELLOW}{mod}m{RESET} {RED}{hard}h{RESET})")
 
     # Top opportunities
-    print(f"\n{BOLD}Top {len(opps)} Opportunities (ranked by ease × impact):{RESET}\n")
-    print(f"  {'#':<3} {'PRIORITY':<8} {'EFFORT':<12} {'AGENT':<50} {'SCORE':<6} {'WORDS'}")
-    print(f"  {'-'*3} {'-'*8} {'-'*12} {'-'*50} {'-'*6} {'-'*6}")
+    # Risk tier summary
+    if by_risk:
+        print(f"\n{BOLD}By Risk Tier:{RESET}")
+        for tier, color in [("critical", RED), ("high", YELLOW), ("general", RESET)]:
+            c = by_risk.get(tier, 0)
+            if c:
+                print(f"  {color}{tier:<12}{RESET} {c} opportunities")
+
+    print(f"\n{BOLD}Top {len(opps)} Opportunities (risk-weighted):{RESET}\n")
+    print(f"  {'#':<3} {'PRIO':<5} {'EFFORT':<10} {'RISK':<10} {'AGENT':<45} {'SCORE':<6} {'WORDS'}")
+    print(f"  {'-'*3} {'-'*5} {'-'*10} {'-'*10} {'-'*45} {'-'*6} {'-'*6}")
 
     for i, o in enumerate(opps, 1):
-        color = {"easy": GREEN, "moderate": YELLOW, "hard": RED}.get(o["effort"], RESET)
-        print(f"  {i:<3} {o['priority']:<8.1f} {color}{o['effort']:<12}{RESET} "
-              f"{o['id']:<50} {o['grade']} {o['total']}/10  {o['word_count']}w")
+        ec = {"easy": GREEN, "moderate": YELLOW, "hard": RED}.get(o["effort"], RESET)
+        rc = {"critical": RED, "high": YELLOW, "general": RESET}.get(o.get("risk_tier", "general"), RESET)
+        risk_str = o.get("risk_tier", "gen")[:8]
+        print(f"  {i:<3} {o['priority']:<5.1f} {ec}{o['effort']:<10}{RESET} "
+              f"{rc}{risk_str:<10}{RESET} "
+              f"{o['id']:<45} {o['grade']} {o['total']}/10  {o['word_count']}w")
 
-        # Show the first actionable issue
         if o["issues"]:
-            print(f"       {YELLOW}→{RESET} {o['issues'][0]}")
+            print(f"       {YELLOW}->{RESET} {o['issues'][0]}")
         if o["security_flags"] > 0:
-            print(f"       {RED}⚠ {o['security_flags']} security flag(s) — needs review{RESET}")
+            print(f"       {RED}[!] {o['security_flags']} security flag(s){RESET}")
 
     # Quick start guide
     if not args.skill and not args.category:
@@ -273,11 +286,18 @@ def main():
                         help="Focus on a specific category")
     parser.add_argument("--top", type=int, default=20,
                         help="Show top N opportunities (default: 20)")
+    parser.add_argument("--risk", choices=["critical", "high"],
+                        help="Show only critical/high risk tier agents")
     parser.add_argument("--json", action="store_true",
                         help="Machine-readable JSON output")
     args = parser.parse_args()
 
     opportunities = build_opportunities(category_filter=args.category)
+
+    # Apply risk filter
+    if args.risk:
+        opportunities = [o for o in opportunities
+                         if o.get("risk_tier") == args.risk]
 
     if args.json:
         print_json_output(opportunities, args)

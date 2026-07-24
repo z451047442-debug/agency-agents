@@ -149,10 +149,7 @@ class TestCollectAgents:
             )
             (repo / cat / f"{cat}-agent.md").write_text(agent, encoding="utf-8")
 
-        # Override AGENT_DIRS to only include our test dirs
-        with pytest.MonkeyPatch.context() as mp:
-            mp.setattr(mod, "AGENT_DIRS", ["engineering", "design"])
-            agents = collect_agents(repo)
+        agents = collect_agents(repo)
 
         assert len(agents) == 2
         divisions = {a["division"] for a in agents}
@@ -164,9 +161,7 @@ class TestCollectAgents:
         agent_path = repo / "design" / "design-agent.md"
         agent_path.write_text(MINIMAL_AGENT, encoding="utf-8")
 
-        with pytest.MonkeyPatch.context() as mp:
-            mp.setattr(mod, "AGENT_DIRS", ["design", "fake-dir"])
-            agents = collect_agents(repo)
+        agents = collect_agents(repo)
 
         assert len(agents) > 0
         assert all(a["division"] == "design" for a in agents)
@@ -177,9 +172,7 @@ class TestCollectAgents:
         (repo / "design" / "good.md").write_text(MINIMAL_AGENT, encoding="utf-8")
         (repo / "design" / "bad.md").write_text("No frontmatter here.", encoding="utf-8")
 
-        with pytest.MonkeyPatch.context() as mp:
-            mp.setattr(mod, "AGENT_DIRS", ["design"])
-            agents = collect_agents(repo)
+        agents = collect_agents(repo)
 
         assert len(agents) == 1
 
@@ -194,9 +187,7 @@ class TestCollectAgents:
         (repo / "engineering" / "engineering-beta.md").write_text(
             '---\nname: "Beta"\ndescription: "desc"\nemoji: B\ncolor: blue\n---\n\nbody', encoding="utf-8")
 
-        with pytest.MonkeyPatch.context() as mp:
-            mp.setattr(mod, "AGENT_DIRS", ["design", "engineering"])
-            agents = collect_agents(repo)
+        agents = collect_agents(repo)
 
         slugs = [a["slug"] for a in agents]
         # design comes before engineering, alpha before zeta within design
@@ -218,11 +209,9 @@ class TestCollectAgents:
         )
         (repo / "marketing" / "overlap-agent.md").write_text(agent, encoding="utf-8")
         (repo / "sales" / "overlap-agent.md").write_text(agent, encoding="utf-8")
-        with pytest.MonkeyPatch.context() as mp:
-            mp.setattr(mod, "AGENT_DIRS", ["marketing", "sales"])
-            with pytest.raises(SystemExit) as exc:
-                collect_agents(repo)
-            assert "duplicate" in str(exc.value)
+        with pytest.raises(SystemExit) as exc:
+            collect_agents(repo)
+        assert "duplicate" in str(exc.value)
 
     def test_accepts_same_name_across_divisions(self, tmp_path):
         repo = tmp_path / "repo"
@@ -232,9 +221,7 @@ class TestCollectAgents:
         (repo / "engineering" / "engineering-agent.md").write_text(content, encoding="utf-8")
         (repo / "design" / "design-agent.md").write_text(content, encoding="utf-8")
 
-        with pytest.MonkeyPatch.context() as mp:
-            mp.setattr(mod, "AGENT_DIRS", ["engineering", "design"])
-            agents = collect_agents(repo)
+        agents = collect_agents(repo)
         # Slugs are derived from unique file stems, so no duplicate error
         assert len(agents) == 2
         assert agents[0]["slug"] == "design-agent"
@@ -242,9 +229,8 @@ class TestCollectAgents:
 
     def test_empty_dirs_returns_empty_list(self, tmp_path):
         repo = tmp_path / "repo"
-        with pytest.MonkeyPatch.context() as mp:
-            mp.setattr(mod, "AGENT_DIRS", ["engineering"])
-            agents = collect_agents(repo)
+        repo.mkdir()
+        agents = collect_agents(repo)
         assert agents == []
 
     def test_recursive_subdirs(self, tmp_path):
@@ -254,9 +240,7 @@ class TestCollectAgents:
         content = '---\nname: "Blender Artist"\ndescription: "3D artist"\nemoji: B\ncolor: teal\n---\n\nbody'
         (blender_dir / "game-dev-blender-artist.md").write_text(content, encoding="utf-8")
 
-        with pytest.MonkeyPatch.context() as mp:
-            mp.setattr(mod, "AGENT_DIRS", ["game-development"])
-            agents = collect_agents(repo)
+        agents = collect_agents(repo)
 
         assert len(agents) == 1
         assert agents[0]["slug"] == "game-dev-blender-artist"

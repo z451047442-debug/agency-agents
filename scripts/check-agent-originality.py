@@ -12,14 +12,10 @@ import re
 import sys
 from pathlib import Path
 
+from _shared.discovery import EXCLUDE_DIRS
+
 REPO = Path(__file__).resolve().parent.parent
 
-
-DEFAULT_AGENT_DIRS = [
-    "academic", "design", "engineering", "finance", "game-development",
-    "marketing", "paid-media", "product", "project-management", "sales",
-    "spatial-computing", "specialized", "strategy", "support", "testing",
-]
 
 # Proper nouns we neutralize so find-replace re-skins still score as duplicates.
 ENTITY = re.compile(
@@ -28,6 +24,9 @@ ENTITY = re.compile(
     r'brazilian|mexico|mexican|wechat|weixin|weibo|xiaohongshu|rednote|kuaishou|'
     r'bilibili|zhihu|baidu|shopee|lazada|zalo|tokopedia|taobao|tmall|pinduoduo|'
     r'instagram|facebook|youtube|reels|shorts|linkedin|twitter|threads|snapchat)\b')
+
+# Pre-compiled regex for stripping non-alphanumeric characters in tokenization.
+NON_ALNUM = re.compile(r'[^a-z0-9 ]')
 
 
 def strip_frontmatter(text: str) -> str:
@@ -40,7 +39,7 @@ def strip_frontmatter(text: str) -> str:
 
 def tokens(text: str) -> list[str]:
     text = ENTITY.sub(" ", strip_frontmatter(text).lower())
-    text = re.sub(r"[^a-z0-9 ]", " ", text)
+    text = NON_ALNUM.sub(" ", text)
     return text.split()
 
 
@@ -61,12 +60,21 @@ def is_agent(path: Path) -> bool:
         return False
 
 
-def build_corpus(agent_dirs: list[str]) -> dict[str, set[str]]:
+def build_corpus() -> dict[str, set[str]]:
     corpus: dict[str, set[str]] = {}
-    for d in agent_dirs:
-        for f in sorted(REPO.glob(f"{d}/**/*.md")):
-            if is_agent(f):
-                corpus[str(f.resolve())] = shingles(tokens(f.read_text(encoding="utf-8")))
+    for entry in sorted(REPO.iterdir()):
+        if not entry.is_dir() or entry.name.startswith("."):
+            continue
+        if entry.name in EXCLUDE_DIRS:
+            continue
+        for f in sorted(entry.rglob("*.md")):
+            if not is_agent(f):
+                continue
+            try:
+                text = f.read_text(encoding="utf-8")
+            except OSError:
+                continue
+            corpus[str(f.resolve())] = shingles(tokens(text))
     return corpus
 
 
@@ -184,7 +192,7 @@ def main() -> None:
                 continue
             candidates.append(p)
     else:
-        corpus = build_corpus(DEFAULT_AGENT_DIRS)
+        corpus = build_corpus()
         candidates = [Path(p) for p in corpus]
         exit_code, lines = check_originality(
             candidates, corpus, args.fail_threshold, args.warn_threshold
@@ -196,7 +204,7 @@ def main() -> None:
         print("No agent files to check.")
         sys.exit(0)
 
-    corpus = build_corpus(DEFAULT_AGENT_DIRS)
+    corpus = build_corpus()
     exit_code, lines = check_originality(
         candidates, corpus,
         fail_threshold=args.fail_threshold,

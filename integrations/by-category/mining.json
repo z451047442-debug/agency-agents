@@ -1,8 +1,29 @@
 {
   "category": "mining",
-  "agent_count": 4,
-  "generated": "2026-07-05",
+  "agent_count": 7,
+  "generated": "2026-07-16",
   "agents": [
+    {
+      "id": "mining-director",
+      "name": "矿业总监",
+      "description": "矿业领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"⛏\"",
+      "category": "mining",
+      "subcategory": "",
+      "path": "mining/mining-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "mining-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
     {
       "id": "mining-engineer",
       "name": "采矿工程师",
@@ -11,6 +32,15 @@
       "category": "mining",
       "subcategory": "",
       "path": "mining/mining-engineer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "data-science-engineering-knowledge-management",
+        "education-assessment-specialist",
+        "food-beverage-food-safety",
+        "healthcare-engineering-regulatory-science",
+        "marketing-private-domain-operator",
+        "mining-exploration"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,8 +53,41 @@
       "category": "mining",
       "subcategory": "",
       "path": "mining/mining-exploration.md",
+      "depends_on": [
+        "finance-cost-accountant",
+        "government-social-work",
+        "lottery-product-risk",
+        "lottery-risk-compliance",
+        "lottery-risk-manager",
+        "mining-engineer",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
+        "phase-0-discovery",
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "mining-general-manager",
+      "name": "矿业总经理",
+      "description": "矿业领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"⛏\"",
+      "category": "mining",
+      "subcategory": "",
+      "path": "mining/mining-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "mining-director",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -35,8 +98,40 @@
       "category": "mining",
       "subcategory": "",
       "path": "mining/mining-metallurgist.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "data-science-engineering-language-model-nlp",
+        "energy-engineering-carbon-capture-storage",
+        "energy-engineering-energy-storage-materials-sci",
+        "energy-engineering-grid-scale-storage",
+        "marketing-abm-account-based",
+        "mining-engineer",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "mining-mineral-economics",
+      "name": "矿业经济与资源评估专家",
+      "description": "矿产资源量/储量估算(JORC/NI 43-101)、矿山经济评价(NPV/IRR/DCF)、可行性研究、矿产品市场分析与价格预测、矿业权评估专家",
+      "emoji": "💎",
+      "category": "mining",
+      "subcategory": "",
+      "path": "mining/mining-mineral-economics.md",
+      "depends_on": [
+        "design-engineering-quant-ux-researcher",
+        "engineering-code-reviewer",
+        "government-social-work",
+        "logistics-engineering-supply-chain-risk",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy"
       ]
     },
     {
@@ -47,6 +142,15 @@
       "category": "mining",
       "subcategory": "",
       "path": "mining/mining-safety.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "data-science-engineering-knowledge-management",
+        "food-beverage-food-safety",
+        "manufacturing-engineering-control-systems",
+        "marketing-private-domain-operator",
+        "mining-engineer",
+        "project-management-controls"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

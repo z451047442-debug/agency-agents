@@ -12,11 +12,16 @@
       "patternProperties": {
         "^[a-z][a-z0-9-]*$": {
           "type": "object",
-          "required": ["label", "format", "ext", "dest"],
+          "required": ["label", "format", "ext", "dest", "kebab"],
           "properties": {
             "label": {
               "type": "string",
               "description": "Human-readable tool name shown in install.sh output."
+            },
+            "kebab": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$",
+              "description": "URL-safe kebab-case identifier for the tool."
             },
             "format": {
               "type": "string",

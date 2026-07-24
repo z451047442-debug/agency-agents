@@ -1,7 +1,7 @@
 {
   "category": "media-entertainment",
-  "agent_count": 24,
-  "generated": "2026-07-05",
+  "agent_count": 30,
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "media-entertainment-3ds-max-expert",
@@ -11,6 +11,13 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-3ds-max-expert.md",
+      "depends_on": [
+        "engineering-visual-studio-cpp",
+        "engineering-visual-studio-dotnet-csharp",
+        "engineering-visual-studio-python",
+        "engineering-visual-studio-web-aspnet",
+        "media-entertainment-engineering-entertainment-technology"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +30,14 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-acrobat-expert.md",
+      "depends_on": [
+        "aerospace-flight-test-engineer",
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "legal-engineering-legal-document-automation",
+        "marketing-paid-media-search-query-analyst",
+        "media-entertainment-engineering-entertainment-technology"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,6 +50,9 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-after-effects-expert.md",
+      "depends_on": [
+        "media-entertainment-creative-animator-vfx"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -47,6 +65,31 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-autocad-expert.md",
+      "depends_on": [
+        "engineering-autocad-electrical",
+        "legal-document-review",
+        "media-entertainment-revit-expert",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-classical-composition",
+      "name": "古典音乐作曲与指挥专家",
+      "description": "交响乐/室内乐/歌剧/合唱作曲、管弦乐编配法、和声与对位、指挥技术、音乐分析(Schenker/集合理论)、20-21世纪现代音乐(序列/频谱/电子)专家",
+      "emoji": "🎼",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-classical-composition.md",
+      "depends_on": [
+        "education-online-learning-designer",
+        "engineering-minimal-change-engineer",
+        "specialized-personal-growth-mentor"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -59,6 +102,15 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-creative-3d-modeler.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "data-science-engineering-knowledge-management",
+        "food-beverage-food-safety",
+        "manufacturing-engineering-control-systems",
+        "manufacturing-lean-six-sigma",
+        "media-entertainment-3ds-max-expert",
+        "mining-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,6 +123,10 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-creative-animator-vfx.md",
+      "depends_on": [
+        "construction-engineering-fire-dynamics",
+        "media-entertainment-after-effects-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +139,15 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-creative-music-producer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "data-science-engineering-knowledge-management",
+        "education-assessment-specialist",
+        "food-beverage-food-safety",
+        "marketing-private-domain-operator",
+        "media-entertainment-creative-sound-designer",
+        "mining-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +160,15 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-creative-photographer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "data-science-engineering-knowledge-management",
+        "food-beverage-food-safety",
+        "marketing-brand-strategist",
+        "marketing-private-domain-operator",
+        "media-entertainment-lightroom-expert",
+        "mining-safety"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,6 +181,11 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-creative-sound-designer.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "marketing-paid-media-creative-strategist",
+        "media-entertainment-creative-music-producer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -119,6 +198,27 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-creative-videographer.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "marketing-paid-media-creative-strategist",
+        "media-entertainment-creative-music-producer",
+        "media-entertainment-creative-sound-designer"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-dance-choreography",
+      "name": "舞蹈编导与身体艺术专家",
+      "description": "芭蕾/现代舞/当代舞/中国古典舞与民族民间舞编导、舞蹈即兴与接触即兴、舞蹈剧场、舞蹈影像、动作分析(Laban/Bartenieff)、舞蹈教育法、身体疗愈与舞蹈治疗专家",
+      "emoji": "💃",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-dance-choreography.md",
+      "depends_on": [
+        "specialized-identity-graph-operator"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -131,6 +231,12 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-engineering-audio-dsp-signal.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-risk-quant",
+        "media-entertainment-engineering-audio-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -143,6 +249,11 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-engineering-audio-engineer.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "media-entertainment-engineering-audio-dsp-signal"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -155,6 +266,13 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-engineering-entertainment-technology.md",
+      "depends_on": [
+        "education-special-needs",
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "marketing-paid-media-creative-strategist",
+        "media-entertainment-3ds-max-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -167,6 +285,18 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-engineering-music-technology.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "legal-engineering-legal-document-automation",
+        "marketing-demand-generation",
+        "marketing-paid-media-search-query-analyst",
+        "media-entertainment-3ds-max-expert",
+        "product-trend-researcher"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -179,8 +309,51 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-engineering-video-streaming.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "media-entertainment-3ds-max-expert",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-film-directing",
+      "name": "电影导演专家",
+      "description": "视觉叙事与场面调度、演员指导与表演、摄影与镜头语言、剪辑与节奏、声音设计、拍摄计划与分镜、导演与各部门协作专家",
+      "emoji": "🎬",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-film-directing.md",
+      "depends_on": [
+        "design-visual-storyteller",
+        "engineering-git-workflow-master"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "media-entertainment-film-producing",
+      "name": "电影制片人专家",
+      "description": "电影项目开发与投融资、预算编制与控制、拍摄制作管理、发行与销售策略、电影节策略、合拍片与国际制片、影视法律与版权管理专家",
+      "emoji": "🎥",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-film-producing.md",
+      "depends_on": [
+        "home-lifestyle-personal-finance",
+        "hr-talent-acquisition-manager",
+        "logistics-engineering-supply-chain-risk",
+        "operations-report-distribution-agent"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-1-strategy",
+        "phase-5-launch"
       ]
     },
     {
@@ -191,6 +364,10 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-fusion-expert.md",
+      "depends_on": [
+        "aerospace-engineering-systems-aerospace",
+        "media-entertainment-3ds-max-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -203,6 +380,12 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-illustrator-expert.md",
+      "depends_on": [
+        "engineering-visual-studio-dotnet-csharp",
+        "engineering-visual-studio-web-aspnet",
+        "legal-document-review",
+        "media-entertainment-acrobat-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -215,6 +398,13 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-indesign-expert.md",
+      "depends_on": [
+        "legal-document-review",
+        "media-entertainment-acrobat-expert",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -227,6 +417,12 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-lightroom-expert.md",
+      "depends_on": [
+        "media-entertainment-acrobat-expert",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -239,6 +435,10 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-maya-expert.md",
+      "depends_on": [
+        "media-entertainment-engineering-entertainment-technology",
+        "unity-shader-graph-artist"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -251,8 +451,18 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-media-director.md",
+      "depends_on": [
+        "data-science-engineering-computer-vision-deep",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "marketing-abm-account-based",
+        "marketing-paid-media-creative-strategist",
+        "media-entertainment-3ds-max-expert",
+        "operations-report-distribution-agent"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -263,6 +473,11 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-photoshop-expert.md",
+      "depends_on": [
+        "design-creative-tools",
+        "infrastructure-github-actions-expert",
+        "media-entertainment-acrobat-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -275,6 +490,9 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-premiere-pro-expert.md",
+      "depends_on": [
+        "media-entertainment-photoshop-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -287,8 +505,44 @@
       "category": "media-entertainment",
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-revit-expert.md",
+      "depends_on": [
+        "media-entertainment-3ds-max-expert"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-screenwriting",
+      "name": "编剧专家",
+      "description": "影视剧本结构(三幕/五幕/序列法)、人物弧光与对白创作、类型片写作、电视剧编剧(分集大纲/季弧)、改编写作与剧本分析专家",
+      "emoji": "✍️",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-screenwriting.md",
+      "depends_on": [
+        "specialized-personal-growth-mentor",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ]
+    },
+    {
+      "id": "media-entertainment-theater-directing",
+      "name": "戏剧导演与舞台设计专家",
+      "description": "戏剧导演方法论(Stanislavski/Meisner/Brecht/Grotowski)、舞台美术与布景、灯光与音响设计、剧本分析与排演管理、实验剧场与沉浸式戏剧、歌剧与音乐剧导演专家",
+      "emoji": "🎭",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-theater-directing.md",
+      "depends_on": [
+        "specialized-identity-graph-operator",
+        "unity-shader-graph-artist"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-5-launch"
       ]
     }
   ]

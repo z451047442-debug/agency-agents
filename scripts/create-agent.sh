@@ -63,7 +63,7 @@ validate_emoji() {
 
 validate_color() {
   local c="$1"
-  [[ "$c" =~ ^#[0-9a-fA-F]{3,6}$ ]] && return 0
+  [[ "$c" =~ ^#[0-9a-fA-F]{6}$ ]] && return 0
   local nc
   for nc in $VALID_NAMED_COLORS; do
     [[ "$c" = "$nc" ]] && return 0
@@ -85,7 +85,7 @@ make_agent_id() {
 write_agent_file() {
   local filepath="$1" name="$2" description="$3" emoji="$4" color="$5" vibe="$6" cat="$7"
   local today
-  today=$(date +%Y-%m-%d 2>/dev/null || printf '%s' "$(date +%Y-%m-%d)")
+  today=$(date +%Y-%m-%d 2>/dev/null || echo "2026-01-01")
   cat > "$filepath" <<AGENTEOF
 ---
 name: "${name}"
@@ -186,8 +186,8 @@ quality_check() {
   word_count="${word_count:-0}"
 
   # Count how many placeholders (lines with [bracketed text]) remain
-  filled=$(printf '%s' "$body" | grep -cvE '^[[:space:]]*(-|\#|\*\*)*[[:space:]]*\[.*\]' || echo 0)
-  total_lines=$(printf '%s' "$body" | grep -c . || echo 1)
+  filled=$(printf '%s' "$body" | { grep -cvE '^[[:space:]]*(-|\#|\*\*)*[[:space:]]*\[.*\]' || true; })
+  total_lines=$(printf '%s' "$body" | { grep -c . || true; })
   fraction=$(( filled * 100 / total_lines ))
 
   echo ""

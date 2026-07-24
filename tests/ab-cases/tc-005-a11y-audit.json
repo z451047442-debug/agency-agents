@@ -1,0 +1,26 @@
+{
+  "title": "Accessibility Audit for Fintech Dashboard",
+  "domain": "design",
+  "agent": "design-engineering-accessibility-engineer",
+  "prompt": "A fintech dashboard with real-time trading charts, sortable data tables, and trade confirmation modals needs WCAG 2.1 AA certification. Current issues: no ARIA labels, color-only status indicators (red/green), broken keyboard navigation on trading widget. Provide prioritized fixes.",
+  "eval_criteria": {
+    "wcag_references": {
+      "min": 2,
+      "description": "Specific WCAG success criteria referenced"
+    },
+    "aria_patterns": {
+      "min": 2,
+      "description": "Specific ARIA roles/patterns recommended"
+    },
+    "assistive_tech": {
+      "min": 1,
+      "description": "Screen reader or AT guidance"
+    },
+    "prioritized_fixes": {
+      "min": 3,
+      "description": "Prioritized fix list with severity"
+    }
+  },
+  "id": "tc-005-a11y-audit",
+  "created": "2026-07-18T04:43:32.667860+00:00"
+}

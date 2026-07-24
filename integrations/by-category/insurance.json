@@ -1,7 +1,7 @@
 {
   "category": "insurance",
   "agent_count": 11,
-  "generated": "2026-07-05",
+  "generated": "2026-07-16",
   "agents": [
     {
       "id": "insurance-auto-claims",
@@ -11,6 +11,14 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-auto-claims.md",
+      "depends_on": [
+        "data-science-engineering-optical-character-recognition",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "insurance-claims-adjuster",
+        "logistics-last-mile-delivery",
+        "securities-family-office"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -23,6 +31,14 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-broker.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "engineering-multi-agent-systems-architect",
+        "insurance-auto-claims",
+        "legal-document-review",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -35,6 +51,13 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-claims-adjuster.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "insurance-auto-claims"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -47,8 +70,17 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-general-manager.md",
+      "depends_on": [
+        "data-science-engineering-insurance-claims-analytics",
+        "engineering-multi-agent-systems-architect",
+        "finance-cost-accountant",
+        "insurance-auto-claims",
+        "operations-report-distribution-agent",
+        "thinking-models-tech-leaders"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-3-build"
       ]
     },
     {
@@ -59,6 +91,14 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-health-underwriter.md",
+      "depends_on": [
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "environmental-water-treatment",
+        "healthcare-clinical-physician",
+        "healthcare-emergency-medicine",
+        "insurance-auto-claims"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -71,6 +111,11 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-insurtech.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "healthcare-engineering-medical-device-software",
+        "web3-engineering-solidity-smart-contract-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -83,6 +128,14 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-life-actuary.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "finance-financial-controller",
+        "finance-insurance-underwriter",
+        "hr-compensation-benefits",
+        "testing-test-results-analyzer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -95,6 +148,14 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-reinsurance-broker.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "education-special-needs",
+        "energy-carbon-market",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "marketing-europe-market"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -107,7 +168,14 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-reinsurance-specialist.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "education-special-needs",
+        "engineering-multi-agent-systems-architect",
+        "insurance-reinsurance-broker"
+      ],
       "nexus_roles": [
+        "phase-2-foundation",
         "phase-3-build"
       ]
     },
@@ -119,8 +187,17 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-risk-surveyor.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "education-special-needs",
+        "finance-engineering-risk-quant",
+        "legal-document-review",
+        "operations-executive-summary-generator"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-0-discovery",
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     },
     {
@@ -131,6 +208,13 @@
       "category": "insurance",
       "subcategory": "",
       "path": "insurance/insurance-underwriter.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "emergency-disaster-response",
+        "insurance-claims-adjuster",
+        "marketing-email-marketing",
+        "project-management-jira-workflow-steward"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]

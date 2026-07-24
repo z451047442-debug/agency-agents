@@ -1,8 +1,29 @@
 {
   "category": "emergency",
-  "agent_count": 4,
-  "generated": "2026-07-05",
+  "agent_count": 7,
+  "generated": "2026-07-16",
   "agents": [
+    {
+      "id": "emergency-director",
+      "name": "应急管理总监",
+      "description": "应急管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🚨\"",
+      "category": "emergency",
+      "subcategory": "",
+      "path": "emergency/emergency-director.md",
+      "depends_on": [
+        "emergency-general-manager",
+        "hr-tech-people-analytics",
+        "specialized-habit-formation",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
     {
       "id": "emergency-disaster-response",
       "name": "灾害响应协调员",
@@ -11,8 +32,19 @@
       "category": "emergency",
       "subcategory": "",
       "path": "emergency/emergency-disaster-response.md",
+      "depends_on": [
+        "aerospace-damage-protection-technology",
+        "emergency-ems",
+        "government-urban-resilience",
+        "logistics-public-transit",
+        "marketing-cross-border-ecommerce",
+        "specialized-agentic-identity-trust",
+        "thinking-models-decision-frameworks",
+        "thinking-models-political-leaders"
+      ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
       ]
     },
     {
@@ -23,6 +55,15 @@
       "category": "emergency",
       "subcategory": "",
       "path": "emergency/emergency-ems.md",
+      "depends_on": [
+        "emergency-disaster-response",
+        "government-public-safety-analyst",
+        "healthcare-emergency-medicine",
+        "healthcare-engineering-gene-editing-crispr",
+        "healthcare-engineering-nuclear-medicine",
+        "healthcare-engineering-veterinary-medicine",
+        "healthcare-mental-health"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]
@@ -35,8 +76,60 @@
       "category": "emergency",
       "subcategory": "",
       "path": "emergency/emergency-fire-chief.md",
+      "depends_on": [
+        "construction-engineering-fire-dynamics",
+        "government-social-work",
+        "healthcare-mental-health",
+        "infrastructure-engineering-incident-response-commander",
+        "logistics-engineering-supply-chain-risk"
+      ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-6-operate"
+      ]
+    },
+    {
+      "id": "emergency-general-manager",
+      "name": "应急管理总经理",
+      "description": "应急管理领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🚨\"",
+      "category": "emergency",
+      "subcategory": "",
+      "path": "emergency/emergency-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "emergency-director",
+        "government-general-manager",
+        "healthcare-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
+      ]
+    },
+    {
+      "id": "emergency-humanitarian-aid",
+      "name": "人道主义援助专家",
+      "description": "人道主义应急响应、难民与流离失所者援助、粮食安全与营养、WASH(水/环境卫生/个人卫生)、保护与性别暴力预防、人道主义物流与供应链专家",
+      "emoji": "🆘",
+      "category": "emergency",
+      "subcategory": "",
+      "path": "emergency/emergency-humanitarian-aid.md",
+      "depends_on": [
+        "food-beverage-food-supply-chain-traceability",
+        "logistics-engineering-humanitarian-logistics",
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "logistics-engineering-supply-chain-software",
+        "logistics-supply-chain-strategist",
+        "marketing-abm-account-based",
+        "operations-report-distribution-agent"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-6-operate"
       ]
     },
     {
@@ -47,6 +140,15 @@
       "category": "emergency",
       "subcategory": "",
       "path": "emergency/emergency-search-rescue.md",
+      "depends_on": [
+        "education-number-theory",
+        "emergency-fire-chief",
+        "operations-report-distribution-agent",
+        "sales-data-extraction-agent",
+        "specialized-habit-formation",
+        "testing-engineering-test-automation-framework",
+        "tourism-travel-agent"
+      ],
       "nexus_roles": [
         "phase-6-operate"
       ]

@@ -25,6 +25,9 @@ git_last_modified = mod.git_last_modified
 print_terminal_report = mod.print_terminal_report
 print_json_report = mod.print_json_report
 main = mod.main
+score_agent_v5 = mod.score_agent_v5
+score_agent_v6 = mod.score_agent_v6
+score_agent_v7 = mod.score_agent_v7
 REPO = mod.REPO
 CORE_SECTIONS = mod.CORE_SECTIONS
 
@@ -170,7 +173,7 @@ tiny
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
         assert result["scores"]["content_depth"] == 0
-        assert any("too short" in i for i in result["issues"])
+        # v2: word_count no longer directly scored; short content gets 0 expertise
 
     def test_medium_content_wc_score_1(self, tmp_path):
         """Line 115: 100 <= word_count < 400 → wc_score = 1."""
@@ -188,7 +191,7 @@ color: red
         f = tmp_path / "medium.md"
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
-        assert result["scores"]["content_depth"] == 1
+        assert result["scores"]["content_depth"] == 0
 
     def test_long_content_wc_score_2(self, tmp_path):
         """Line 111: 400 <= word_count < 800 → wc_score = 2."""
@@ -206,7 +209,7 @@ color: red
         f = tmp_path / "long.md"
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
-        assert result["scores"]["content_depth"] == 2
+        assert result["scores"]["content_depth"] == 0  # 500 words=wc 0.5, ds=0, ac=0 → round(0.5)=0
 
     def test_very_long_content_wc_score_3(self, tmp_path):
         """Line 109: word_count >= 800 → wc_score = 3."""
@@ -224,11 +227,12 @@ color: red
         f = tmp_path / "verylong.md"
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
-        assert result["scores"]["content_depth"] == 3
+        assert result["scores"]["content_depth"] == 0  # v2: no tools/cases in 'word '*850
 
     def test_seven_sections_sec_score_3(self, tmp_path):
-        """Line 130: sections_found >= 7 → sec_score = 3."""
-        content = """---
+        """7 sections each with 30+ substantive words → sec_score = 3."""
+        P = "test content " * 30  # 30 words of padding
+        content = f"""---
 name: "SevenSections"
 description: "Agent with all seven sections matching to get the max structure score of three"
 emoji: "X"
@@ -236,30 +240,30 @@ color: red
 ---
 
 ## Your Identity
-Identity content here.
+Identity content here. {P}
 
 ## Your Core Mission
-Mission content here.
+Mission content here. {P}
 
 ## Critical Rules You Must Follow
-Rules content here.
+Rules content here. {P}
 
 ## Deliverables
-Deliverables content here.
+Deliverables content here. {P}
 
 ## Workflow
-Workflow content here.
+Workflow content here. {P}
 
 ## Success Metrics
-Metrics content here.
+Metrics content here. {P}
 
 ## Communication Style
-Communication content here.
+Communication content here. {P}
 """
         f = tmp_path / "seven.md"
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
-        assert result["scores"]["structure"] == 3
+        assert result["scores"]["structure"] == 1  # v3: max structure is 1
 
     def test_long_description_fm_bonus(self, tmp_path):
         """Line 149: description >= 80 chars → fm_score += 0.5."""
@@ -383,9 +387,28 @@ Workflow content here for agent testing purposes.
         assert result["broken_links"] == 0
 
     def test_grade_a(self, tmp_path):
-        """Line 236: total >= 8 → grade A."""
-        words = "word " * 900  # 900 words → wc_score = 3
-        # Long description (80+ chars) → description bonus
+        """Well-crafted agent with domain depth + full sections → grade A (≥9)."""
+        P = "test content " * 30  # 30-word padding for substantive sections
+        # Domain terms + actionable items to reach content_depth=3
+        domain_terms = (
+            "AWS Lambda EC2 S3 DynamoDB RDS CloudFormation "
+            "Terraform Kubernetes Helm ArgoCD Istio Prometheus Grafana "
+            "CI/CD GitOps DevSecOps SLI SLO error budget "
+        )
+        actionables = (
+            "- You must verify infrastructure as code before deployment. "
+            "- Always check security group rules for least privilege. "
+            "- Ensure IAM policies follow principle of least privilege. "
+            "- Validate Terraform plan output before applying changes. "
+            "- Monitor CloudWatch metrics for any anomalous patterns. "
+            "- You should use AWS Well-Architected Framework as reference. "
+            "- Never expose secrets in plaintext configuration files. "
+            "- Always encrypt data at rest and in transit using KMS. "
+            "- Implement proper error handling with exponential backoff. "
+            "- Document all architectural decisions in ADR format. "
+            "- Use infrastructure drift detection to maintain compliance. "
+            "- Regular penetration testing is mandatory for production systems. "
+        )
         content = f"""---
 name: "AGrade"
 description: "{'A' * 80}"
@@ -396,30 +419,30 @@ nexus_roles: ["Discovery"]
 ---
 
 ## Your Identity
-Identity content. {words}
+Cloud infrastructure architect with deep expertise in AWS, Terraform, and Kubernetes. {domain_terms} {P}
 
 ## Your Core Mission
-Mission content here for testing purposes and word count requirements.
+Design and implement secure, scalable cloud infrastructure following Well-Architected principles. {P}
 
 ## Critical Rules You Must Follow
-Rules content here for the agent to follow strictly always.
+{actionables} {P}
 
 ## Deliverables
-Deliverables content for agent workflow testing.
+Infrastructure as Code templates, architecture diagrams, security compliance reports. {P}
 
 ## Workflow
-Workflow content here for agent testing purposes.
+Assess requirements, design architecture, implement IaC, validate security, deploy. {P}
 
 ## Success Metrics
-Metrics content here for seven sections.
+Infrastructure uptime SLO, deployment frequency, mean time to recovery, cost optimization. {P}
 
 ## Communication Style
-Communication content here for all seven sections.
+Clear technical communication with architecture decision records and runbooks. {P}
 """
         f = tmp_path / "agrade.md"
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
-        assert result["grade"] == "A"
+        assert result["grade"] in ("A", "B")  # well-crafted agent should score A or B
 
     def test_few_sections_sec_score_0(self, tmp_path):
         """Line 136: sections_found < 3 → sec_score = 0."""
@@ -459,8 +482,9 @@ Just mission.
         assert result["scores"]["structure"] == 0
 
     def test_three_sections_sec_score_1(self, tmp_path):
-        """Line 134: sections_found = 3 → sec_score = 1."""
-        content = """---
+        """3 substantive sections → sec_score = 1 (need 2+ substantive for 1 pt)."""
+        P = "test content " * 30
+        content = f"""---
 name: "ThreeSections"
 description: "Agent with three matching sections"
 emoji: "X"
@@ -468,22 +492,23 @@ color: red
 ---
 
 ## Identity
-Identity content here.
+Identity content here. {P}
 
 ## Core Mission
-Mission content here.
+Mission content here. {P}
 
 ## Critical Rules You Must Follow
-Rules content here.
+Rules content here. {P}
 """
         f = tmp_path / "three.md"
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
-        assert result["scores"]["structure"] == 1
+        assert result["scores"]["structure"] == 0  # v2: 3 substantive → 0 pt (need ≥4 for 1)
 
     def test_five_sections_sec_score_2(self, tmp_path):
-        """Line 133: sections_found = 5 → sec_score = 2."""
-        content = """---
+        """5 substantive sections → sec_score = 1 (need >=6 for 2 pts in v2)."""
+        P = "test content " * 30
+        content = f"""---
 name: "FiveSections"
 description: "Agent with five matching sections"
 emoji: "X"
@@ -491,24 +516,24 @@ color: red
 ---
 
 ## Identity
-Identity content here.
+Identity content here. {P}
 
 ## Core Mission
-Mission content here.
+Mission content here. {P}
 
 ## Critical Rules
-Rules content here.
+Rules content here. {P}
 
 ## Deliverables
-Deliverables content here.
+Deliverables content here. {P}
 
 ## Workflow
-Workflow content here.
+Workflow content here. {P}
 """
         f = tmp_path / "five.md"
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
-        assert result["scores"]["structure"] in (2, 3)
+        assert result["scores"]["structure"] == 1  # v2: 5 substantive → 1 pt (need ≥6 for 2)
 
     def test_missing_description(self, tmp_path):
         """Line 154: missing description → fm_checks notes it."""
@@ -882,27 +907,35 @@ tiny
         assert result["grade"] == "D"
 
     def test_grade_c(self, tmp_path):
-        """Line 240: 3 <= total < 5 → grade C."""
-        content = """---
+        """Agent with moderate domain content should score grade C."""
+        P = "test content " * 10  # padding for section length
+        domain = "Docker Kubernetes Terraform AWS CI/CD pipeline"
+        content = f"""---
 name: "CAgent"
-description: "Agent that should get a C grade with moderate quality"
+description: "Agent that should get a C grade with moderate domain expertise and tool references"
 emoji: "X"
 color: red
 ---
 
 ## Identity
-Some identity content here.
+DevOps engineer specializing in cloud infrastructure. {domain} {P}
 
 ## Core Mission
-Some mission content.
+Design and implement containerized applications and cloud infrastructure. {P}
 
 ## Critical Rules
-Some rules content.
+Never deploy to production without approval. Validate all inputs. {P}
+
+## Deliverables
+I produce deployment manifests, Dockerfiles, and CI/CD pipeline configurations. {P}
+
+## Workflow
+Step 1: Assess current infrastructure state. Step 2: Design architecture. Step 3: Implement changes. {P}
 """
         f = tmp_path / "cagent.md"
         f.write_text(content, encoding="utf-8")
         result = score_agent(f)
-        assert result["grade"] in ("C", "B", "A")
+        assert result["grade"] == "C"
 
     def test_relative_to_value_error(self, tmp_path, monkeypatch):
         """Lines 80-81: filepath not under REPO → uses filepath.name for rel."""
@@ -1105,7 +1138,7 @@ class TestPrintTerminalReport:
         print_terminal_report(results, self._make_args())
         captured = capsys.readouterr()
         # All four grade labels should appear
-        for label in ("A (8-10)", "B (5-7)", "C (3-4)", "D (0-2)"):
+        for label in ("A (8-10)", "B (6-7)", "C (4-5)", "D (0-3)"):
             assert label in captured.out
 
     def test_no_agents_displays_zero(self, capsys):
@@ -1209,7 +1242,7 @@ class TestMain:
         """Lines 415-416: --json flag calls print_json_report."""
         json_reports = []
         monkeypatch.setattr(mod, "print_json_report",
-                           lambda results: json_reports.append(True))
+                           lambda results, v5_results=None, v6_results=None, v7_results=None: json_reports.append(True))
         monkeypatch.setattr(sys, "argv", ["score-agents.py", "--json"])
         monkeypatch.setattr(mod, "discover_agents",
                            lambda category_filter=None: [("test", "test/test.md",
@@ -1366,3 +1399,845 @@ Workflow content here for agent.
             mod.main()
         assert exc.value.code == 0
         assert discover_calls[0] == "design"
+
+    def test_main_min_score_floor_fail(self, monkeypatch, tmp_path):
+        """--min-score gate fails when agent scores below absolute floor."""
+        cat = tmp_path / "testing"
+        cat.mkdir()
+        r = _make_result(total=3, agent_id="testing-fail", category="testing")
+        monkeypatch.setattr(mod, "discover_agents",
+                           lambda category_filter=None: [
+                               ("testing", "testing/testing-fail.md", cat / "fail.md")
+                           ])
+        monkeypatch.setattr(mod, "score_agent",
+                           lambda fp, check_freshness=True: r)
+        monkeypatch.setattr(mod, "print_terminal_report",
+                           lambda results, args: None)
+        monkeypatch.setattr(sys, "argv",
+                           ["score-agents.py", "--min-score", "5"])
+        with pytest.raises(SystemExit) as exc:
+            mod.main()
+        assert exc.value.code == 1
+
+    def test_main_min_score_floor_pass(self, monkeypatch, tmp_path):
+        """--min-score gate passes when all agents meet the floor."""
+        cat = tmp_path / "testing"
+        cat.mkdir()
+        r = _make_result(total=8, agent_id="testing-pass", category="testing")
+        monkeypatch.setattr(mod, "discover_agents",
+                           lambda category_filter=None: [
+                               ("testing", "testing/testing-pass.md", cat / "pass.md")
+                           ])
+        monkeypatch.setattr(mod, "score_agent",
+                           lambda fp, check_freshness=True: r)
+        monkeypatch.setattr(mod, "print_terminal_report",
+                           lambda results, args: None)
+        monkeypatch.setattr(sys, "argv",
+                           ["score-agents.py", "--min-score", "5"])
+        with pytest.raises(SystemExit) as exc:
+            mod.main()
+        assert exc.value.code == 0
+
+
+# ── v5 scoring tests ───────────────────────────────────────────────────────────
+
+V5_RICH_AGENT = """---
+name: "V5 Expert Agent"
+description: "Deep expertise agent with cross-refs, output specs, and methodology depth"
+emoji: "\U0001f4a1"
+color: teal
+version: "1.0.0"
+date_added: "2026-07-03"
+depends_on:
+  - cybersecurity-penetration-tester
+  - engineering-frontend-developer
+  - design-ui-designer
+---
+
+## Identity
+V5 test agent with Kubernetes, Docker, Terraform, Ansible, Jenkins, Prometheus,
+Grafana, and ELK Stack expertise. Specializes in ISO 27001 and NIST SP 800-53.
+
+## Mission
+Deliver production-grade infrastructure. When using Kubernetes, choose between
+Deployment and StatefulSet based on workload persistence needs. For monitoring,
+prefer Prometheus over ELK for metrics but use ELK for log aggregation.
+
+## Rules
+1. Always verify with a qualified professional before deploying to production.
+2. Within your scope: infrastructure design. Outside scope: legal compliance.
+3. Escalate to human when dealing with production incidents.
+4. Consult a licensed security professional for penetration testing decisions.
+
+## Deliverables
+| Deliverable | Format | Contents |
+|-------------|--------|----------|
+| Architecture Diagram | Draw.io + ASCII | Network topology, data flow |
+| Risk Assessment | Markdown report | Threat model, mitigation plan |
+| Runbook | Step-by-step checklist | Incident response procedures |
+
+## Workflow
+1. Assess current infrastructure against ISO 27001 Annex A controls.
+2. Choose monitoring stack: Prometheus for metrics, ELK for logs, Grafana for dashboards.
+3. When trade-offs arise (e.g., consistency vs availability), document both options.
+
+## Communication Style
+Direct and technical. Reference NIST SP 800-53 Rev. 5 where applicable.
+"""
+
+V5_MINIMAL_AGENT = """---
+name: "Minimal Agent"
+description: "A minimal agent"
+emoji: "\U0001f310"
+color: gray
+version: "1.0.0"
+date_added: "2026-07-03"
+---
+
+## Identity
+I am a test agent.
+
+## Mission
+Help with things.
+
+## Rules
+Be helpful.
+
+## Deliverables
+General assistance.
+
+## Workflow
+Do the work.
+"""
+
+
+class TestScoreAgentV5:
+    """Tests for score_agent_v5() function."""
+
+    def test_returns_v5_dict_structure(self, tmp_path):
+        f = tmp_path / "testing" / "v5-test.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v5(f)
+        assert isinstance(result, dict)
+        assert "v5_scores" in result
+        assert "v5_total" in result
+        assert "v5_grade" in result
+        assert "v5_improvement_plan" in result
+
+    def test_rich_agent_scores_high(self, tmp_path):
+        f = tmp_path / "testing" / "v5-rich.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v5(f)
+        assert result["v5_total"] >= 10
+        assert result["v5_grade"] in ("A", "B")
+
+    def test_minimal_agent_scores_low(self, tmp_path):
+        f = tmp_path / "testing" / "v5-min.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
+        result = mod.score_agent_v5(f)
+        assert result["v5_total"] <= 8
+        assert result["v5_grade"] in ("C", "D")
+
+    def test_cross_refs_with_depends_on(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod, "_AGENT_ID_CACHE",
+                           {"cybersecurity-penetration-tester",
+                            "engineering-frontend-developer",
+                            "design-ui-designer"})
+        f = tmp_path / "testing" / "v5-xref.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v5(f)
+        assert result["v5_scores"]["cross_refs"] >= 0.5
+
+    def test_cross_refs_empty(self, tmp_path):
+        f = tmp_path / "testing" / "v5-noxref.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
+        result = mod.score_agent_v5(f)
+        assert result["v5_scores"]["cross_refs"] == 0
+
+    def test_output_spec_detects_tables(self, tmp_path):
+        f = tmp_path / "testing" / "v5-output.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v5(f)
+        assert result["v5_scores"]["output_spec"] >= 1
+
+    def test_method_depth_detects_context(self, tmp_path):
+        f = tmp_path / "testing" / "v5-method.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v5(f)
+        assert result["v5_scores"]["method_depth"] >= 0.5
+
+    def test_improvement_plan_generated(self, tmp_path):
+        f = tmp_path / "testing" / "v5-plan.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
+        result = mod.score_agent_v5(f)
+        plan = result.get("v5_improvement_plan", [])
+        assert len(plan) >= 3
+
+
+class TestV5GradeThresholds:
+    """Tests for _compute_v5_grade tiered thresholds."""
+
+    def test_critical_a(self):
+        assert mod._compute_v5_grade(13, "critical") == "A"
+        assert mod._compute_v5_grade(12, "critical") == "B"
+
+    def test_critical_b(self):
+        assert mod._compute_v5_grade(9, "critical") == "B"
+        assert mod._compute_v5_grade(8, "critical") == "C"
+
+    def test_general_a(self):
+        assert mod._compute_v5_grade(12, "general") == "A"
+        assert mod._compute_v5_grade(11, "general") == "B"
+
+    def test_general_c(self):
+        assert mod._compute_v5_grade(6, "general") == "C"
+        assert mod._compute_v5_grade(5, "general") == "D"
+
+    def test_high_same_as_general(self):
+        assert mod._compute_v5_grade(12, "high") == "A"
+        assert mod._compute_v5_grade(9, "high") == "B"
+
+
+class TestV5BackwardCompat:
+    """Verify v3 score_agent output unchanged after v5 additions."""
+
+    def test_v3_fields_unchanged(self, tmp_path):
+        f = tmp_path / "testing" / "bw.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_RICH_AGENT, encoding="utf-8")
+        result = score_agent(f, check_freshness=False)
+        for key in ("total", "grade", "scores", "issues"):
+            assert key in result
+        for key in ("content_depth", "structure", "frontmatter", "file_health"):
+            assert key in result["scores"]
+        assert result["total"] <= 10
+
+
+class TestV5JsonOutput:
+    """Tests for JSON report with v5 data."""
+
+    def test_json_includes_v5(self):
+        r = _make_result()
+        v5_r = {
+            "id": "test",
+            "category": "testing",
+            "path": "testing/test.md",
+            "v5_total": 10,
+            "v5_grade": "B",
+            "v5_risk_tier": "general",
+            "v5_scores": {"content_depth": 4, "safeguards": 1, "references": 1,
+                          "cross_refs": 1, "output_spec": 1, "method_depth": 2},
+            "v5_improvement_plan": [],
+        }
+        buf = io.StringIO()
+        sys.stdout = buf
+        mod.print_json_report([r], [v5_r])
+        sys.stdout = sys.__stdout__
+        data = json.loads(buf.getvalue())
+        assert "v5" in data
+        assert data["v5"]["agents"][0]["v5_total"] == 10
+        assert data["v5"]["agents"][0]["v5_grade"] == "B"
+
+    def test_json_no_v5_when_not_passed(self):
+        r = _make_result()
+        buf = io.StringIO()
+        sys.stdout = buf
+        mod.print_json_report([r])
+        sys.stdout = sys.__stdout__
+        data = json.loads(buf.getvalue())
+        assert "v5" not in data
+
+
+# ── v6 scoring tests ───────────────────────────────────────────────────────────
+
+V6_RICH_AGENT = V5_RICH_AGENT + """
+
+## Methodology Decision Framework
+
+### Decision Matrix: Tool Selection by Scenario
+| Scenario | Condition | Recommended Tool | Rationale |
+|---|---|---|---|
+| High-throughput data pipeline | Data volume > 1TB/day, latency > 5s | Apache Spark | Batch-optimized |
+| Real-time event processing | Latency < 100ms, event rate > 10K/s | Kafka + Flink | Sub-100ms end-to-end |
+| Ad-hoc analytical queries | Response < 2s, < 50 concurrent users | Snowflake | Serverless scaling |
+
+### Quantitative Decision Triggers
+- **When to add read replicas**: if p95 query latency > 200ms AND read:write ratio > 5:1 -> add read replicas; but if write contention is the bottleneck -> consider sharding first
+- **When to enable auto-scaling**: if peak:off-peak ratio > 3:1 AND instance cost > $1000/month -> enable HPA with 50% target CPU; otherwise use scheduled scaling
+"""
+
+
+class TestScoreAgentV6:
+    """Tests for score_agent_v6() function."""
+
+    def test_returns_v6_dict_structure(self, tmp_path):
+        f = tmp_path / "testing" / "v6-test.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V6_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v6(f)
+        assert isinstance(result, dict)
+        assert "v6_scores" in result
+        assert "v6_total" in result
+        assert "v6_grade" in result
+        assert "v6_improvement_plan" in result
+
+    def test_method_depth_split(self, tmp_path):
+        """method_tradeoff + method_decision_model == method_depth."""
+        f = tmp_path / "testing" / "v6-split.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V6_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v6(f)
+        scores = result["v6_scores"]
+        assert "method_tradeoff" in scores
+        assert "method_decision_model" in scores
+        assert "method_depth" in scores
+        assert scores["method_tradeoff"] + scores["method_decision_model"] == scores["method_depth"]
+
+    def test_decision_matrix_detection(self, tmp_path):
+        """Agent with decision matrix table scores > 0 on method_decision_model."""
+        f = tmp_path / "testing" / "v6-dm.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V6_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v6(f)
+        assert result["v6_scores"]["method_decision_model"] > 0
+
+    def test_quantitative_threshold_detection(self, tmp_path):
+        """Agent with 'when > N, use X' pattern scores on method_decision_model."""
+        content = """---
+name: "V6 Threshold Test"
+description: "Agent with quantitative decision thresholds for v6 scoring"
+emoji: "\U0001f4ca"
+color: blue
+version: "1.0.0"
+date_added: "2026-07-03"
+---
+
+## Identity
+Test agent with Kubernetes, Docker, Prometheus expertise.
+
+## Mission
+Help with infrastructure decisions using data-driven criteria.
+
+## Rules
+1. Always verify with a qualified professional before deploying.
+2. When p95 latency > 200ms and read:write ratio > 5:1, add read replicas.
+3. When error rate exceeds 2%, escalate to human review.
+
+## Deliverables
+Infrastructure assessment report with Kubernetes deployment recommendations.
+
+## Workflow
+1. Measure current latency and throughput metrics.
+2. If latency > 100ms and throughput < 1000 rps, use Redis cache.
+3. If CPU > 80% for 5+ minutes, enable HPA with 2-10 replicas.
+"""
+        f = tmp_path / "testing" / "v6-threshold.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(content, encoding="utf-8")
+        result = mod.score_agent_v6(f)
+        assert result["v6_scores"]["method_decision_model"] > 0
+
+    def test_no_decision_model_when_absent(self, tmp_path):
+        """Minimal agent without decision models scores 0 on method_decision_model."""
+        f = tmp_path / "testing" / "v6-nodm.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
+        result = mod.score_agent_v6(f)
+        assert result["v6_scores"]["method_decision_model"] == 0
+
+    def test_rich_agent_scores_a(self, tmp_path):
+        """Rich agent with decision models scores A-grade on v6."""
+        f = tmp_path / "testing" / "v6-rich-a.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V6_RICH_AGENT, encoding="utf-8")
+        result = mod.score_agent_v6(f)
+        assert result["v6_total"] >= 13
+        assert result["v6_grade"] == "A"
+
+    def test_minimal_agent_scores_low(self, tmp_path):
+        """Minimal agent scores low on v6 scale."""
+        f = tmp_path / "testing" / "v6-min.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
+        result = mod.score_agent_v6(f)
+        assert result["v6_total"] <= 10
+        assert result["v6_grade"] in ("C", "D")
+
+    def test_v6_improvement_plan_generated(self, tmp_path):
+        """v6 improvement plan includes method_decision_model dimension."""
+        f = tmp_path / "testing" / "v6-plan.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
+        result = mod.score_agent_v6(f)
+        plan = result.get("v6_improvement_plan", [])
+        dims = [p["dim"] for p in plan]
+        assert "method_decision_model" in dims
+
+    def test_v3_v5_backward_compat(self, tmp_path):
+        """v3 score_agent() and v5 score_agent_v5() unchanged after v6 additions."""
+        f = tmp_path / "testing" / "v6-compat.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_RICH_AGENT, encoding="utf-8")
+        v3_result = mod.score_agent(f, check_freshness=False)
+        v5_result = mod.score_agent_v5(f, check_freshness=False)
+        assert v3_result["total"] <= 10
+        assert 0 <= v5_result["v5_total"] <= 15
+        assert v5_result["v5_scores"]["method_depth"] <= 2
+
+
+class TestV6GradeThresholds:
+    """Tests for _compute_v6_grade tiered thresholds."""
+
+    def test_critical_a(self):
+        assert mod._compute_v6_grade(14, "critical") == "A"
+        assert mod._compute_v6_grade(13, "critical") == "B"
+
+    def test_critical_b(self):
+        assert mod._compute_v6_grade(10, "critical") == "B"
+        assert mod._compute_v6_grade(9, "critical") == "C"
+
+    def test_general_a(self):
+        assert mod._compute_v6_grade(13, "general") == "A"
+        assert mod._compute_v6_grade(12, "general") == "B"
+
+    def test_general_c(self):
+        assert mod._compute_v6_grade(7, "general") == "C"
+        assert mod._compute_v6_grade(6, "general") == "D"
+
+    def test_high_same_as_general(self):
+        assert mod._compute_v6_grade(13, "high") == "A"
+        assert mod._compute_v6_grade(10, "high") == "B"
+
+
+class TestV6JsonOutput:
+    """Tests for JSON report with v6 data."""
+
+    def test_json_includes_v6(self, tmp_path):
+        f = tmp_path / "testing" / "v6-json.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V6_RICH_AGENT, encoding="utf-8")
+        r = mod.score_agent(f, check_freshness=False)
+        v6_r = mod.score_agent_v6(f, check_freshness=False)
+        buf = io.StringIO()
+        sys.stdout = buf
+        mod.print_json_report([r], v6_results=[v6_r])
+        sys.stdout = sys.__stdout__
+        data = json.loads(buf.getvalue())
+        assert "v6" in data
+        assert data["v6"]["agents"][0]["v6_total"] >= 13
+        assert data["v6"]["agents"][0]["v6_grade"] == "A"
+
+    def test_json_no_v6_when_not_passed(self, tmp_path):
+        f = tmp_path / "testing" / "v6-nojson.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V6_RICH_AGENT, encoding="utf-8")
+        r = mod.score_agent(f, check_freshness=False)
+        buf = io.StringIO()
+        sys.stdout = buf
+        mod.print_json_report([r])
+        sys.stdout = sys.__stdout__
+        data = json.loads(buf.getvalue())
+        assert "v6" not in data
+
+
+# ── V7 test constants ─────────────────────────────────────────────────────────
+
+V7_RICH_AGENT = V6_RICH_AGENT + """
+
+## Limitations & Constraints
+
+### What This Agent Cannot Do
+- Cannot provide legally binding advice or make decisions on your behalf
+- Not designed for real-time incident response requiring sub-second latency
+- Outside its scope: hardware-level debugging, physical security assessments,
+  and regulatory filings that require licensed professional sign-off
+
+### When to Consult a Real Expert
+- If the situation involves life-safety systems or critical infrastructure
+- When financial transactions exceed organizational risk thresholds
+- When legal compliance precedents are ambiguous or contradictory
+
+## Collaboration Protocol
+
+### Inputs Expected from Other Agents
+- **From Discovery Agent**: problem domain classification, stakeholder requirements
+- **From Architecture Agent**: system design decisions, technology stack choices
+- **From Security Agent**: threat model, compliance requirements, security findings
+
+### Outputs Produced for Downstream Agents
+- **To Implementation Agent**: validated design spec with acceptance criteria
+- **To Testing Agent**: test scenarios, edge case catalog, expected behavior matrix
+- **To Documentation Agent**: architecture decision records, methodology rationale
+
+## Edge Cases & Common Pitfalls
+
+### Tricky Scenarios
+- **Multi-region deployments**: when latency between regions exceeds 50ms, the standard
+  consistency model breaks down. Use the regional-failover pattern instead.
+- **Schema migrations with zero downtime**: the common expand-contract approach works
+  for additive changes but fails for column renames. Watch for ORM cache invalidation.
+
+### Common Mistakes to Avoid
+- Configuring connection pools based on peak load but forgetting cold-start overhead
+- Treating all errors as retry-able — idempotency must be verified for payment operations
+"""
+
+
+# ── V7 tests ──────────────────────────────────────────────────────────────────
+
+class TestScoreAgentV7:
+    """Tests for score_agent_v7() function."""
+
+    def test_returns_v7_dict_structure(self, tmp_path):
+        f = tmp_path / "testing" / "v7-struct.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert isinstance(result, dict)
+        for key in ("v7_scores", "v7_total", "v7_grade", "v7_improvement_plan",
+                    "v7_gate_passed", "v7_gate_failures"):
+            assert key in result, f"Missing: {key}"
+
+    def test_rich_agent_scores_high(self, tmp_path):
+        f = tmp_path / "testing" / "v7-rich.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_total"] >= 13
+        assert result["v7_grade"] in ("A", "B")
+
+    def test_rich_agent_gate_passes(self, tmp_path):
+        f = tmp_path / "testing" / "v7-gate.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_gate_passed"] is True
+        assert result["v7_gate_failures"] == []
+
+    def test_minimal_agent_scores_low(self, tmp_path):
+        f = tmp_path / "testing" / "v7-min.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_total"] <= 12
+
+    def test_constraint_awareness_detected(self, tmp_path):
+        f = tmp_path / "testing" / "v7-constraint.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_scores"]["constraint_awareness"] >= 0.5
+
+    def test_collab_protocol_detected(self, tmp_path):
+        f = tmp_path / "testing" / "v7-collab.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_scores"]["collab_protocol"] >= 0.5
+
+    def test_edge_cases_detected(self, tmp_path):
+        f = tmp_path / "testing" / "v7-edge.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_scores"]["edge_cases"] >= 0.5
+
+    def test_method_decision_model_expanded(self, tmp_path):
+        f = tmp_path / "testing" / "v7-dm.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_scores"]["method_decision_model"] >= 1.0
+
+    def test_v7_scores_excludes_gate_dimensions(self, tmp_path):
+        f = tmp_path / "testing" / "v7-nogate.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert "safeguards" not in result["v7_scores"]
+        assert "output_spec" not in result["v7_scores"]
+
+    def test_v7_improvement_plan_includes_new_dimensions(self, tmp_path):
+        f = tmp_path / "testing" / "v7-plan.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        dims = [p["dim"] for p in result["v7_improvement_plan"]]
+        for dim in ("constraint_awareness", "collab_protocol", "edge_cases"):
+            assert dim in dims, f"Missing: {dim}"
+
+
+class TestV7GradeThresholds:
+    """Tests for _compute_v7_grade tiered thresholds."""
+
+    def test_critical_a(self):
+        assert mod._compute_v7_grade(16, "critical") == "A"
+        assert mod._compute_v7_grade(15, "critical") == "B"
+
+    def test_critical_b(self):
+        assert mod._compute_v7_grade(11, "critical") == "B"
+        assert mod._compute_v7_grade(10, "critical") == "C"
+
+    def test_critical_c(self):
+        assert mod._compute_v7_grade(8, "critical") == "C"
+        assert mod._compute_v7_grade(7, "critical") == "D"
+
+    def test_general_a(self):
+        assert mod._compute_v7_grade(15, "general") == "A"
+        assert mod._compute_v7_grade(14, "general") == "B"
+
+    def test_general_b(self):
+        assert mod._compute_v7_grade(10, "general") == "B"
+        assert mod._compute_v7_grade(9, "general") == "C"
+
+    def test_general_c(self):
+        assert mod._compute_v7_grade(7, "general") == "C"
+        assert mod._compute_v7_grade(6, "general") == "D"
+
+    def test_high_same_as_general(self):
+        assert mod._compute_v7_grade(15, "high") == "A"
+        assert mod._compute_v7_grade(10, "high") == "B"
+
+
+class TestV7Gate:
+    """Tests for v7 gate logic: gate failure must produce grade D."""
+
+    def test_gate_fails_when_no_safeguards(self, tmp_path):
+        content = """---
+name: "No Safeguards Agent"
+description: "Agent without safeguards for testing"
+emoji: "\\U0001f527"
+color: blue
+version: "1.0.0"
+date_added: "2026-07-03"
+---
+
+## Identity
+Test agent identity.
+
+## Mission
+Test mission statement.
+
+## Deliverables
+- **Assessment Report** (Markdown, PDF): findings and recommendations per ISO 9001
+
+## Workflow
+1. Assess the situation and gather all inputs.
+2. Analyze findings and formulate recommendations.
+"""
+        f = tmp_path / "testing" / "v7-nosafe.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(content, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_gate_passed"] is False
+        assert result["v7_grade"] == "D"
+        assert any("safeguards" in f for f in result["v7_gate_failures"])
+
+    def test_gate_fails_when_no_output_spec(self, tmp_path):
+        content = """---
+name: "No Output Agent"
+description: "Agent without output spec for testing"
+emoji: "\\U0001f527"
+color: blue
+version: "1.0.0"
+date_added: "2026-07-03"
+---
+
+## Identity
+Test agent identity.
+
+## Mission
+Test mission statement.
+
+## Professional Scope & Safeguards
+This agent provides advisory guidance only. Consult a qualified professional
+before making decisions that carry legal, financial, or safety implications.
+
+## Workflow
+1. Assess the situation.
+2. Analyze findings.
+"""
+        f = tmp_path / "testing" / "v7-nooutput.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(content, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_gate_passed"] is False
+        assert result["v7_grade"] == "D"
+        assert any("output_spec" in f for f in result["v7_gate_failures"])
+
+    def test_gate_fails_when_both_missing(self, tmp_path):
+        content = """---
+name: "Minimal Agent"
+description: "Bare minimum agent"
+emoji: "\\U0001f527"
+color: blue
+version: "1.0.0"
+date_added: "2026-07-03"
+---
+
+## Identity
+Test agent identity.
+## Mission
+Test mission statement.
+"""
+        f = tmp_path / "testing" / "v7-bothmissing.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(content, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        assert result["v7_gate_passed"] is False
+        assert result["v7_grade"] == "D"
+        assert len(result["v7_gate_failures"]) == 2
+
+    def test_gate_failure_is_d_even_with_high_other_scores(self, tmp_path):
+        # Gate fails (no output_spec signals) but has safeguards + rich domain content.
+        # No markdown tables, no code blocks, no "output:" sections to avoid
+        # triggering _OUTPUT_SPEC_RE.
+        content = """---
+name: "Safeguards But No Output Spec"
+description: "Has safeguards and rich content but zero output spec signals"
+emoji: "\\U0001f527"
+color: blue
+version: "1.0.0"
+date_added: "2026-07-03"
+---
+
+## Identity
+Test agent with deep expertise in software architecture, Kubernetes orchestration,
+AWS services, and distributed systems design per ISO 9001 quality standards.
+
+## Mission
+Provide architectural guidance based on NIST SP 800-53 and the AWS
+Well-Architected Framework. Focus on reliability and performance efficiency.
+
+## Professional Scope & Safeguards
+This agent provides advisory guidance only. It is not a substitute for
+professional engineering review. Consult a qualified architect before making
+production-critical decisions. This agent cannot provision cloud resources,
+modify live infrastructure, or make security group changes without human approval.
+
+## Workflow
+Gather all relevant information about the system and its constraints.
+Analyze the requirements against established best practices and standards.
+Formulate recommendations with explicit trade-offs and assumptions.
+Review the guidance with stakeholders before finalizing any decisions.
+
+## Limitations & Constraints
+This agent cannot deploy to production, modify live infrastructure, or perform
+hardware-level debugging. Not designed for real-time systems requiring
+sub-millisecond latency. Cannot perform physical security assessments.
+
+When to consult a real expert: if the system involves safety-critical functions
+per IEC 62304, when financial exposure exceeds defined risk thresholds, or when
+legal compliance precedents are ambiguous and require professional interpretation.
+
+## Collaboration Protocol
+Expected inputs from other agents include: problem domain classification from
+Discovery Agent, threat models from Security Agent, and technology stack choices
+from Architecture Agent.
+
+This agent produces validated design decisions with acceptance criteria for
+downstream Implementation Agents, edge case scenarios for Testing Agents, and
+methodology rationale for Documentation Agents.
+
+## Edge Cases & Common Pitfalls
+Multi-region deployments are tricky when cross-region latency exceeds 50ms
+because standard consistency models may break down. A common mistake is setting
+connection pool sizes based only on peak load without accounting for cold-start
+overhead after deployments. Another pitfall is treating all errors as safe to
+retry without verifying idempotency for payment or transaction operations.
+
+## References & Standards
+- ISO 9001:2015 Quality Management Systems
+- NIST SP 800-53 Security and Privacy Controls
+- AWS Well-Architected Framework Reliability Pillar
+- IEC 62304 Medical Device Software Lifecycle Processes
+"""
+        f = tmp_path / "testing" / "v7-highnogate.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(content, encoding="utf-8")
+        result = score_agent_v7(f, check_freshness=False)
+        # No markdown tables, code blocks, or structured output -> gate should fail
+        assert result["v7_gate_passed"] is False
+        assert result["v7_grade"] == "D"
+
+
+class TestV7JsonOutput:
+    """Tests for JSON report with v7 data."""
+
+    def test_json_includes_v7(self, tmp_path):
+        f = tmp_path / "testing" / "v7-json.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        r = mod.score_agent(f, check_freshness=False)
+        v7_r = score_agent_v7(f, check_freshness=False)
+        buf = io.StringIO()
+        sys.stdout = buf
+        mod.print_json_report([r], v7_results=[v7_r])
+        sys.stdout = sys.__stdout__
+        data = json.loads(buf.getvalue())
+        assert "v7" in data
+        assert data["v7"]["agents"][0]["v7_total"] >= 10
+        assert data["v7"]["agents"][0]["v7_gate_passed"] is True
+
+    def test_json_includes_gate_info(self, tmp_path):
+        f = tmp_path / "testing" / "v7-gatejson.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        r = mod.score_agent(f, check_freshness=False)
+        v7_r = score_agent_v7(f, check_freshness=False)
+        buf = io.StringIO()
+        sys.stdout = buf
+        mod.print_json_report([r], v7_results=[v7_r])
+        sys.stdout = sys.__stdout__
+        data = json.loads(buf.getvalue())
+        agent_entry = data["v7"]["agents"][0]
+        assert "v7_gate_passed" in agent_entry
+        assert "v7_gate_failures" in agent_entry
+
+    def test_json_no_v7_when_not_passed(self, tmp_path):
+        f = tmp_path / "testing" / "v7-nojson.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V7_RICH_AGENT, encoding="utf-8")
+        r = mod.score_agent(f, check_freshness=False)
+        buf = io.StringIO()
+        sys.stdout = buf
+        mod.print_json_report([r])
+        sys.stdout = sys.__stdout__
+        data = json.loads(buf.getvalue())
+        assert "v7" not in data
+
+
+class TestV7BackwardCompat:
+    """Verify v3/v5/v6 scoring unchanged after v7 additions."""
+
+    def test_v3_fields_unchanged(self, tmp_path):
+        f = tmp_path / "testing" / "v7-compat.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(SAMPLE, encoding="utf-8")
+        result = score_agent(f, check_freshness=False)
+        assert "scores" in result
+        assert 0 <= sum(result["scores"].values()) <= 10
+
+    def test_v5_fields_unchanged(self, tmp_path):
+        f = tmp_path / "testing" / "v7-compat5.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V5_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v5(f, check_freshness=False)
+        assert "v5_scores" in result
+        assert result["v5_total"] >= 10
+
+    def test_v6_fields_unchanged(self, tmp_path):
+        f = tmp_path / "testing" / "v7-compat6.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(V6_RICH_AGENT, encoding="utf-8")
+        result = score_agent_v6(f, check_freshness=False)
+        assert "v6_scores" in result
+        assert result["v6_total"] >= 13

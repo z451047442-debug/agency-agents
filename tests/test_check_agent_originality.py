@@ -111,7 +111,7 @@ class TestBuildCorpus:
         f = d / "agent.md"
         f.write_text("---\nname: Test\n---\nUnique content for testing purposes", encoding="utf-8")
         monkeypatch.setattr(mod, "REPO", tmp_path)
-        corpus = build_corpus(["engineering"])
+        corpus = build_corpus()
         assert len(corpus) == 1
 
     def test_skips_non_agent_files(self, tmp_path, monkeypatch):
@@ -119,7 +119,7 @@ class TestBuildCorpus:
         d.mkdir()
         (d / "README.md").write_text("not an agent", encoding="utf-8")
         monkeypatch.setattr(mod, "REPO", tmp_path)
-        corpus = build_corpus(["engineering"])
+        corpus = build_corpus()
         assert len(corpus) == 0
 
 
@@ -229,7 +229,6 @@ class TestMainFunction:
 
     def test_no_files_audit_mode(self, tmp_path, monkeypatch, capsys):
         monkeypatch.setattr(mod, "REPO", tmp_path)
-        monkeypatch.setattr(mod, "DEFAULT_AGENT_DIRS", [])
         with patch.object(sys, "argv", ["check-agent-originality.py"]):
             with pytest.raises(SystemExit) as exc:
                 mod.main()
@@ -256,7 +255,6 @@ class TestMainFunction:
         f2 = d / "agent2.md"
         f2.write_text("---\nname: Test B\n---\n" + ("distinct beta content. " * 50), encoding="utf-8")
         monkeypatch.setattr(mod, "REPO", tmp_path)
-        monkeypatch.setattr(mod, "DEFAULT_AGENT_DIRS", ["engineering"])
         with patch.object(sys, "argv", ["check-agent-originality.py", str(f1)]):
             with pytest.raises(SystemExit) as exc:
                 mod.main()

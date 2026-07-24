@@ -1,8 +1,29 @@
 {
   "category": "localization",
-  "agent_count": 4,
-  "generated": "2026-07-05",
+  "agent_count": 7,
+  "generated": "2026-07-16",
   "agents": [
+    {
+      "id": "localization-director",
+      "name": "本地化总监",
+      "description": "本地化领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "\"🌐\"",
+      "category": "localization",
+      "subcategory": "",
+      "path": "localization/localization-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "localization-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ]
+    },
     {
       "id": "localization-engineer",
       "name": "本地化工程师",
@@ -11,8 +32,38 @@
       "category": "localization",
       "subcategory": "",
       "path": "localization/localization-engineer.md",
+      "depends_on": [
+        "engineering-code-reviewer",
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-github-actions-expert",
+        "specialized-agentic-identity-trust",
+        "unity-editor-tool-developer"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "localization-general-manager",
+      "name": "本地化总经理",
+      "description": "本地化领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "\"🌐\"",
+      "category": "localization",
+      "subcategory": "",
+      "path": "localization/localization-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "government-general-manager",
+        "localization-director",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "security-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -23,8 +74,38 @@
       "category": "localization",
       "subcategory": "",
       "path": "localization/localization-i18n-pm.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "design-cultural-intelligence-strategist",
+        "marketing-china-market-localization-strategist",
+        "marketing-cross-border-ecommerce",
+        "marketing-email-strategist",
+        "marketing-japan-market-expert",
+        "specialized-personal-growth-mentor",
+        "thinking-models-decision-frameworks"
+      ],
       "nexus_roles": [
         "phase-3-build"
+      ]
+    },
+    {
+      "id": "localization-interpretation",
+      "name": "口译与同声传译专家",
+      "description": "同声传译、交替传译、陪同口译、会议口译、远程口译(RSI)、法庭/医疗口译、口译技术与设备、口译员培训与职业道德专家",
+      "emoji": "🎧",
+      "category": "localization",
+      "subcategory": "",
+      "path": "localization/localization-interpretation.md",
+      "depends_on": [
+        "engineering-git-workflow-master",
+        "events-conference",
+        "legal-document-review",
+        "legal-engineering-legal-document-automation",
+        "marketing-cross-border-ecommerce"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-5-launch"
       ]
     },
     {
@@ -35,6 +116,11 @@
       "category": "localization",
       "subcategory": "",
       "path": "localization/localization-language-translator.md",
+      "depends_on": [
+        "legal-engineering-legal-contracts-ai",
+        "legal-engineering-legal-document-automation",
+        "localization-engineer"
+      ],
       "nexus_roles": [
         "phase-3-build"
       ]
@@ -47,8 +133,17 @@
       "category": "localization",
       "subcategory": "",
       "path": "localization/localization-reviewer.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "localization-engineer",
+        "marketing-japan-market-expert"
+      ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
       ]
     }
   ]

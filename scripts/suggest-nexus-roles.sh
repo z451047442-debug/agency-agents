@@ -16,6 +16,22 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Resolve Python 3 interpreter (python3 on Linux/macOS, python on Windows).
+PYTHON=""
+for candidate in python3 python; do
+  if command -v "$candidate" >/dev/null 2>&1; then
+    if "$candidate" -c "import sys; sys.exit(0 if sys.version_info >= (3,9) else 1)" 2>/dev/null; then
+      PYTHON="$candidate"
+      break
+    fi
+  fi
+done
+if [ -z "$PYTHON" ]; then
+  echo "ERROR: Python 3.9+ required. Install from https://python.org." >&2
+  exit 1
+fi
+
 PY_ARGS=()
 
 while [[ $# -gt 0 ]]; do
@@ -23,9 +39,10 @@ while [[ $# -gt 0 ]]; do
     --category|-c)       PY_ARGS+=("--category" "$2"); shift 2 ;;
     --file|-f)           PY_ARGS+=("--file" "$2"); shift 2 ;;
     --min-confidence)    PY_ARGS+=("--min-confidence" "$2"); shift 2 ;;
-    --help|-h)           exec python3 "$SCRIPT_DIR/suggest-nexus-roles.py" --help ;;
-    *) shift ;;
+    --apply)             PY_ARGS+=("--apply"); shift ;;
+    --help|-h)           exec "$PYTHON" "$SCRIPT_DIR/suggest-nexus-roles.py" --help ;;
+    *)                   echo "Unknown option: $1" >&2; shift ;;
   esac
 done
 
-exec python3 "$SCRIPT_DIR/suggest-nexus-roles.py" "${PY_ARGS[@]}"
+exec "$PYTHON" "$SCRIPT_DIR/suggest-nexus-roles.py" "${PY_ARGS[@]}"

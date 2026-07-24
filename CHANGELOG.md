@@ -1,5 +1,81 @@
 # Changelog
 
+## [2.0.2] — 2026-07-24 — Code Quality & Documentation Audit
+
+### Fixed
+- **Critical**: `scripts/score-agents.py` — fixed banker's rounding in health_score (`round(0.5)=0` → `int(x+0.5)`)
+- **Critical**: `scripts/score-agents.py` — Top 10/Bottom 10 now sort by version-correct score field (v5/v6/v7)
+- **Critical**: `scripts/score-agents.py` — Bottom 10 display uses version-specific risk_tier field
+- **Critical**: `scripts/lint-agents.py` — handles `UnicodeDecodeError` gracefully instead of crashing
+- **Critical**: `scripts/install.sh` — parallel mode passes multi-word arguments via positional `$1`
+- **High**: `schemas/agent-frontmatter.schema.json` — added `slate` to color pattern
+- **High**: `divisions.json` — fixed label casing: Hr→HR, Hr Tech→HR Tech, Iot→IoT
+- **High**: `pyproject.toml` — added `bandit>=1.7` to dev dependencies
+- **High**: `requirements.txt` — converted from lock-file to declarative dependency format
+- **High**: `README.md` / `README-zh.md` — agent count 1,366→1,406, categories 65→66, tools 26→14
+- **High**: `ARCHITECTURE.md` — fixed Phase 2 duplication, 8→7 phases, test count unified, version updated
+- **High**: `docs/DEVELOPMENT.md` — Python version aligned with pyproject.toml (3.11+→3.10+)
+- **High**: `docs/TIERS.md` — updated generation metadata to v7 engine
+
+### Removed
+- 19 root-level junk files: development scripts, empty files, leftover artifacts
+- 3 `_solution/` .csproj files (staged for deletion)
+
+## [2.0.1] — 2026-07-24 — Production Readiness Audit
+
+### Fixed
+- **Critical**: `pyproject.toml` — moved `--cov-fail-under=80` from global pytest addopts to `[tool.coverage.report]` (fixes cross-platform CI crashes without pytest-cov)
+- **Critical**: `scripts/check-deps.py` — added `if __name__ == "__main__"` guard to prevent import-triggered subprocess execution
+- **Critical**: `scripts/_shared/frontmatter.py` — `get_field()` now parses multi-line YAML block scalars (`|`, `>`)
+- **Critical**: `scripts/_shared/validators.py` — `git_last_modified()` handles `ValueError`; `find_broken_links()` strips URI fragments before path check
+- **Critical**: `scripts/lint-agents.py` — broken link detection strips URI fragments (e.g., `file.md#section`)
+- **Critical**: `.release-please-manifest.json` / `release-please-config.json` — version aligned with `pyproject.toml` (2.0.0)
+- **High**: `scripts/score-agents.py` — `--v5`/`--v6`/`--v7` flags now show correct version scores in terminal output
+- **High**: `scripts/convert.py` — `run_hermes()` catches `CalledProcessError` + `FileNotFoundError` without aborting pipeline
+- **High**: `CLAUDE.md` — fixed reference to non-existent `scripts/check-tools.py`
+- **High**: `schemas/tools.schema.json` — added `kebab` to required fields, matching `check-tools.sh` validator
+- **High**: `schemas/agent-frontmatter.schema.json` — fixed `$id` URI format consistency
+- **High**: `scripts/batch-add-deps.py` — aligned hardcoded exclude list with `_shared/discovery.py` EXCLUDE_DIRS
+- **High**: `.github/workflows/quality-gate.yml` — fixed threshold/comment mismatch (v6 >=10)
+- **High**: `.github/workflows/ci.yml` — raised score-gate threshold from 6 to 9 (v5 scale 0-15)
+- **Medium**: `README.md` / `README-zh.md` — agent count updated 1,292 -> 1,406
+- **Medium**: `ARCHITECTURE.md` — test count updated 1,153 -> 1,161
+- **Medium**: `.github/workflows/check-divisions.yml` — added Python setup step
+- **Medium**: `.gitignore` — added `.mypy_cache/` and `.ruff_cache/` entries
+- **Low**: `scripts/git-hooks/pre-commit` — cross-platform Python detection + temp file paths
+- **Tests**: `tests/test_check_deps.py` — adapted to call `mod.main()` after module-level guard
+
+## [2.0.0] — 2026-07-18 — Project Renaissance
+
+### Scoring Engine v2
+- 5-dimension scoring with real variance (StdDev 0.3 to 1.64)
+- New Content Originality dimension: boilerplate penalty + tool richness
+- Distribution statistics (mean/stddev/quartiles) in all reports
+- Fixed banker's rounding bug (round to int(x+0.5))
+
+### Gold Agent Quality
+- 151 Gold agents at 100% A-grade (up from 35 at 26%)
+- 10-round automated enhancement pipeline
+- 152 template phrases removed via boilerplate cleaner
+
+### NEXUS Validation
+- First complete 7-phase NEXUS project (nexus-validation)
+- Gate automation with JSON evidence files
+
+### New Tools (11 scripts)
+- agency CLI: 14 commands via pip install
+- A/B test framework (5 cases, 90% avg)
+- Telemetry: opt-in usage tracking + recommendations
+- Automated enhancement pipeline (4 scripts)
+- Quality Dashboard (Chart.js)
+
+### Infrastructure
+- pip install agency-agents with build-system config
+- score-agents.sh: 380-line bash to 7-line wrapper
+- CI thresholds recalibrated for v2 distribution
+
+---
+
 ## [1.0.0] — 2026-07-10
 
 ### Added

@@ -1,14 +1,14 @@
 # 🎭 The Agency
 
-### 1,292 AI specialists, one command away
+### 1,406 AI specialists, one command away
 
 > Frontend wizards. Reddit ninjas. Startup coaches. Brain surgeons. Penetration testers. Actuaries.
-> 1,292 specialized AI agents — each with personality, process, and proven deliverables. One command to install.
+> 1,406 specialized AI agents — each with personality, process, and proven deliverables. One command to install.
 
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)
 [![Nightly Audit](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml)
-[![Agents](https://img.shields.io/badge/agents-1,292-blue)](https://github.com/z451047442-debug/agency-agents)
+[![Agents](https://img.shields.io/badge/agents-1,406-blue)](https://github.com/z451047442-debug/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/z451047442-debug)
@@ -17,7 +17,7 @@
 
 | 🎭 | 📂 | 🛠️ | 📝 |
 |:---:|:---:|:---:|:---:|
-| **1,292** agents | **65** domains | **26** tools | **~100,000** lines |
+| **1,406** agents | **66** domains | **14** tools | **~100,000** lines |
 
 ---
 
@@ -168,7 +168,7 @@ Each agent is designed with:
 
 ## 📊 Stats
 
-- 🎭 **1183 Specialized Agents** across 60 categories
+- 🎭 **1406 Specialized Agents** across 66 categories
 - 📝 **~95,000+ lines** of personality, process, and code examples
 - 🏗️ **NEXUS**: 7-phase multi-agent orchestration framework
 - ⏱️ **Months of iteration** from real-world usage
@@ -313,7 +313,7 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 > 🇨🇳 中文用户请参阅 [README-zh.md](README-zh.md) · For contribution guidelines in Chinese see [CONTRIBUTING_zh-CN.md](CONTRIBUTING_zh-CN.md)
 >
-> **60 Categories · 1183 Agents**
+> **66 Categories · 1406 Agents**
 
 ### 💻 Technology (350+ agents)
 
@@ -418,7 +418,7 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 ## 🎭 Complete Agent Roster
 
-Browse all 1183 agents in each category directory (60 domains):
+Browse all 1406 agents in each category directory (66 domains):
 
 **Technology**: [engineering](engineering/)(75) · [infrastructure](infrastructure/)(78) · [data-science](data-science/)(43) · [cybersecurity](cybersecurity/)(33) · [game-development](game-development/)(24) · [testing](testing/)(19) · [iot](iot/)(19) · [spatial-computing](spatial-computing/)(15) · [robotics](robotics/)(15) · [web3](web3/)(13) · [network-engineering](network-engineering/)(12) · [telecom](telecom/)(12)
 
@@ -790,7 +790,8 @@ We welcome contributions! Here's how you can help:
    - Workflow Process
    - Success Metrics
 4. Run `scripts/generate-index.sh` to update `AGENTS.json`
-5. Submit a PR with your agent and the updated index
+5. Run `python scripts/build-architecture.py` to regenerate architecture docs
+6. Submit a PR with your agent and the updated index
 
 ### Improve Existing Agents
 
@@ -850,7 +851,7 @@ MIT License - Use freely, commercially or personally. Attribution appreciated bu
 
 ## 🙏 Acknowledgments
 
-What started as a Reddit thread about AI agent specialization has grown into something remarkable — **~470 agents across 46 categories**, supported by a community of contributors from around the world. Every agent in this repo exists because someone cared enough to write it, test it, and share it.
+What started as a Reddit thread about AI agent specialization has grown into something remarkable — **~1406 agents across 66 categories**, supported by a community of contributors from around the world. Every agent in this repo exists because someone cared enough to write it, test it, and share it.
 
 To everyone who has opened a PR, filed an issue, started a Discussion, or simply tried an agent and told us what worked — thank you. You're the reason The Agency keeps getting better.
 

@@ -1,6 +1,8 @@
-# The Agency — System Architecture v1.0.0
+# The Agency — System Architecture v1.0.2
 
-**1,292 AI Agent Personality Definitions · 65 Categories · 26 Tooling Scripts · 1,013 Tests**
+**1,406 AI Agent Personality Definitions · 66 Categories · 33 Tooling Scripts · 1,161 Tests**
+
+Generated: 2026-07-24 00:36 UTC
 
 ---
 
@@ -8,142 +10,187 @@
 
 | Workflow | Trigger | Actions |
 |----------|---------|---------|
-| ci.yml | push/PR to main | lint -> test -> validate -> score-gate |
-| lint-agents.yml | on *.md change | YAML + structure validation |
-| quality-gate.yml | push/PR | score >= 5 threshold |
-| release.yml | tag push | version + changelog |
-| nightly-full-audit.yml | cron daily | full pipeline |
-| check-divisions.yml | push/PR | validate division structure |
-| check-tools.yml | push/PR | verify integrations sync |
+| Check Divisions | push/PR | validate division structure |
+| Check Tools | push/PR | verify integrations sync |
+| CI | push/PR to main | lint -> test -> validate -> score-gate |
+| Lint Agent Files | on *.md change | YAML + structure validation |
+| Nightly Full Audit | cron daily | full pipeline audit |
+| Quality Gate | push/PR | score >= 5 threshold |
+| Release | tag push | version + changelog |
 
 ---
 
-## Layer 1: Test Suite (17 modules, 380 tests)
+## Layer 1: Test Suite (34 modules, 1,161 tests)
 
-| Module | Tests | Module | Tests |
-|--------|-------|--------|-------|
-| test_convert.py | 61 | test_expand_agent.py | 13 |
-| test_lint_agents.py | 46 | test_shard_index.py | 14 |
-| test_build_hermes_plugin.py | 31 | test_add_comm_section.py | 14 |
-| test_batch_nexus_roles.py | 30 | test_analyze_deps_auto.py | 12 |
-| test_search_agents.py | 27 | test_contribute.py | 10 |
-| test_validate_index.py | 25 | test_score_agents.py | 8 |
-| test_shared.py | 23 | test_batch_add_deps.py | 6 |
-| test_quality_report.py | 23 | | |
-| test_agent_lifecycle.py | 20 | | |
-| test_analyze_deps.py | 17 | | |
+| Module (tests) | Module (tests) |
+|----------------|----------------|
+| test_score_agents.py (130) | test_shard_index.py (25) |
+| test_agent_lifecycle.py (80) | test_build_architecture.py (23) |
+| test_convert.py (78) | test_suggest_nexus_roles.py (21) |
+| test_nexus_orchestrator.py (78) | test_batch_version.py (20) |
+| test_lint_agents.py (75) | test_feedback.py (20) |
+| test_analyze_deps.py (68) | test_check_divisions.py (18) |
+| test_quality_report.py (53) | test_batch_add_deps.py (16) |
+| test_batch_nexus_roles.py (42) | test_batch_date_added.py (16) |
+| test_search_agents.py (42) | test_analyze_deps_auto.py (15) |
+| test_build_hermes_plugin.py (40) | test_check_dupes.py (15) |
+| test_expand_agent.py (40) | test_rebalance_nexus_phases.py (13) |
+| test_contribute.py (38) | test_generate_index.py (11) |
+| test_validate_index.py (37) | test_batch_nexus_roles_gap.py (7) |
+| test_shared.py (35) | test_integration_pipeline.py (6) |
+| test_add_comm_section.py (29) | test_build_agent_browser.py (3) |
+| test_check_agent_originality.py (29) | test_check_deps.py (3) |
+| test_clean.py (25) | test_quality_pipeline.py (2) |
 
 ---
 
 ## Layer 2: Shared Library (scripts/_shared/)
 
-### Public API (16 symbols)
+**16 public API symbols** across 4 modules
 
-**Colors:** BOLD, CYAN, GREEN, MAGENTA, RED, RESET, YELLOW
+**discovery.py** — Agent file discovery engine
+- Exports: `REPO, EXCLUDE_DIRS, discover_agents()`
 
-**Parsing:** get_body(), get_field(), get_frontmatter_text(), get_list_field()
+**frontmatter.py** — YAML frontmatter parsing utilities
+- Exports: `get_body(), get_field(), get_frontmatter_text(), get_list_field()`
 
-**Discovery:** EXCLUDE_DIRS, REPO, discover_agents()
+**terminal.py** — ANSI terminal color constants + TTY detection
+- Exports: `BOLD, CYAN, GREEN, RED, RESET, YELLOW, supports_color()`
 
-**Utility:** supports_color(), load_module()
+**__init__.py** — Module entry point and dynamic loader
+- Exports: `Re-exports all 15 symbols + load_module()`
 
-### Module Details
-
-**discovery.py**
-- `REPO: Path` — repo root directory
-- `EXCLUDE_DIRS: frozenset` — non-agent directories to skip
-- `discover_agents(category_filter=None)` -> iterator of `(category, rel_path, file_path)`
-
-**frontmatter.py**
-- `get_frontmatter_text(content)` -> str — YAML between --- delimiters
-- `get_body(content)` -> str — content after YAML frontmatter (returns content when no delimiters)
-- `get_field(field, fm_text)` -> str — single YAML field value
-- `get_list_field(field, fm_text)` -> list[str] — YAML list items under a field
-
-**terminal.py**
-- `supports_color()` -> bool — TTY detection
-- ANSI color constants: GREEN, YELLOW, RED, BOLD, CYAN, MAGENTA, RESET
-
-**__init__.py**
-- Re-exports all 15 symbols from submodules
-- `load_module(name, path)` -> module — importlib.util wrapper replacing deprecated SourceFileLoader
-
-### Consumers (14 scripts)
-
-lint-agents · convert · score-agents · analyze-deps · quality-report ·
-agent-lifecycle · contribute · expand-agent · add-comm-section ·
-search-agents · validate-index · generate-index · i18n/check-i18n · i18n/localize-agents
+**23 consumers**: add-comm-section · agent-lifecycle · analyze-deps · batch-methodology-framework · batch-second-pass · batch-third-pass · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · debug_method_depth · expand-agent · generate-index · check-i18n · localize-agents · lint-agents · quality-report · rebalance-nexus-phases · score-agents · search-agents · validate-index
 
 ---
 
-## Layer 3: Tooling Scripts (26 modules)
+## Layer 3: Tooling Scripts (33 Python modules + 20 shell wrappers)
 
-### Quality Pipeline
-
+### Quality Pipeline (11 scripts)
 | Script | Purpose |
 |--------|---------|
-| lint-agents.py | YAML validation, section checks, CRLF detection, security scanner |
-| score-agents.py | A-D grading (0-10): content_depth(3) + structure(3) + frontmatter(2) + file_health(2) |
-| analyze-deps.py | depends_on validation, broken link detection, dependency suggestion |
-| quality-report.py | Unified dashboard, effort estimation, category health |
-| validate-index.py | AGENTS.json JSON schema + filesystem cross-reference |
 | analyze-deps-auto.py | NLP-based auto dependency mapping from agent content |
+| analyze-deps.py | depends_on validation + cross-category coverage + --apply |
+| check-agent-originality.py | Agent originality and similarity detection |
+| check-deps.py | Dependency graph integrity verification |
+| check-divisions.py | Division directory structure validation |
+| check-dupes.py | Duplicate detection via semantic similarity |
+| lint-agents.py | YAML validation, section checks, CRLF detection, security scanning |
+| quality-report.py | Unified dashboard + risk tiers + feedback integration |
+| quality.py | Quality pipeline orchestration entry point |
+| score-agents.py | A-D grading with risk tiers, domain signals, and score variance |
+| validate-index.py | AGENTS.json JSON schema + filesystem cross-reference validation |
 
-### Maintenance Tools
-
+### Maintenance Tools (11 scripts)
 | Script | Purpose |
 |--------|---------|
-| agent-lifecycle.py | draft -> review -> published -> deprecated lifecycle tracking |
-| contribute.py | Contribution dashboard (beginner/intermediate/advanced skill levels) |
-| expand-agent.py | B-grade -> A-grade content expansion with template engine |
-| add-comm-section.py | Communication Style section generator with domain-specific traits |
-| batch-add-deps.py | Bulk depends_on frontmatter manipulation |
-| batch-nexus-roles.py | Bulk nexus_roles assignment |
+| add-comm-section.py | Communication Style section generator with domain traits |
+| agent-lifecycle.py | draft -> review -> published -> deprecated lifecycle |
+| batch-add-deps.py | Bulk depends_on frontmatter field manipulation |
+| batch-date-added.py | Bulk date_added field population |
+| batch-nexus-roles.py | Bulk nexus_roles field assignment |
+| batch-version.py | Bulk version field population |
+| clean.py | Project cleanup: __pycache__, build artifacts |
+| contribute.py | Contribution dashboard with skill-level filtering |
+| expand-agent.py | B-grade to A-grade content expansion with template engine |
+| rebalance-nexus-phases.py | Rebalance agent distribution across NEXUS phases |
+| suggest-nexus-roles.py | Auto-suggest NEXUS roles based on agent content |
 
-### Integration Tools
-
+### Integration Tools (4 scripts)
 | Script | Purpose |
 |--------|---------|
-| convert.py | .md -> 8 target tool formats, parallel mode |
-| build-hermes-plugin.py | Hermes IDE plugin packaging |
+| build-hermes-plugin.py | Hermes IDE plugin packaging and bundling |
+| convert.py | .md to 9 target tool formats, with parallel mode |
+| generate-index.py | AGENTS.json index generator with --check CI mode |
+| shard-index.py | AGENTS.json splitter for parallel processing |
 
-### Discovery Tools
-
+### Discovery & Orchestration (7 scripts)
 | Script | Purpose |
 |--------|---------|
-| search-agents.py | Keyword/category/regex search, paginated results |
-| generate-index.py | AGENTS.json index generator (cross-platform; --check for CI) |
-| shard-index.py | AGENTS.json splitter, parallel processing |
-| i18n/check-i18n.py | Translation coverage, template generation |
-| i18n/localize-agents.py | Name+description patching from JSON translation maps |
+| build-agent-browser.py | Self-contained agent browser HTML generator |
+| build-architecture.py | ARCHITECTURE.md / .html auto-generator from live project data |
+| feedback.py | User feedback collection — ratings, comments, issue reports |
+| nexus-orchestrator.py | NEXUS multi-agent orchestration engine |
+| search-agents.py | Keyword, category, and regex search with paginated results |
+| i18n/check-i18n.py | Translation coverage tracking and template generation |
+| i18n/localize-agents.py | Name + description patching from JSON translation maps |
+
+Plus 20 shell wrappers (thin entry points delegating to .py counterparts).
 
 ---
 
-## Layer 4: Agent Content (1292 .md files, 62 categories)
+## Layer 4: Agent Content (1,406 .md files, 66 categories)
 
-### Category Distribution (Top 20)
+### Category Distribution (all 66)
 
-| # | Category | Agents | # | Category | Agents |
-|---|----------|--------|---|----------|--------|
-| 1 | engineering | 112 | 11 | education | 24 |
-| 2 | infrastructure | 97 | 12 | project-management | 23 |
-| 3 | marketing | 84 | 13 | automotive | 22 |
-| 4 | healthcare | 50 | 14 | legal | 22 |
-| 5 | data-science | 46 | 15 | specialized | 20 |
-| 6 | manufacturing | 43 | 16 | testing | 20 |
-| 7 | construction | 40 | 17 | iot | 19 |
-| 8 | energy | 40 | 18 | logistics | 19 |
-| 9 | cybersecurity | 36 | 19 | hr / sales | 15 |
-| 10 | finance | 36 | 20 | food-beverage / robotics | 15 |
-
-42 more categories: aerospace(32), environmental(33), game-dev(24),
-media-entertainment(24), design(24), spatial-computing(15), gis(13), web3(13),
-customer-service(12), network-eng(12), retail(12), telecom(12), tourism(12),
-agriculture(12), insurance(11), operations(11), product(11), securities(11),
-government(10), lottery(10), real-estate(10), quality(9), pharma-biotech(8),
-administration(7), strategy(7), security(6), localization(4), mining(4), sports(4),
-emergency(4), events(4), fashion(4), nonprofit(4), publishing(4), beauty(3),
-forestry(3), hr-tech(3), pets(3), libraries(2), museums(2)
+| 中文 | English | Agents |
+|----|---------|--------|
+| 工程开发 | engineering | 114 |
+| 基础设施 | infrastructure | 98 |
+| 市场营销 | marketing | 85 |
+| 医疗健康 | healthcare | 54 |
+| 数据科学 | data-science | 47 |
+| 制造业 | manufacturing | 47 |
+| 能源 | energy | 44 |
+| 建筑工程 | construction | 43 |
+| 金融 | finance | 39 |
+| 网络安全 | cybersecurity | 38 |
+| 环境 | environmental | 38 |
+| 教育 | education | 36 |
+| 航空航天 | aerospace | 33 |
+| 媒体娱乐 | media-entertainment | 31 |
+| 游戏开发 | game-development | 26 |
+| 专业角色 | specialized | 26 |
+| 设计 | design | 25 |
+| 法律 | legal | 25 |
+| 项目管理 | project-management | 24 |
+| 汽车 | automotive | 23 |
+| 物流 | logistics | 22 |
+| 测试 | testing | 21 |
+| 物联网 | iot | 20 |
+| 食品饮料 | food-beverage | 16 |
+| 地理信息 | gis | 16 |
+| 人力资源 | hr | 16 |
+| 机器人 | robotics | 16 |
+| 销售 | sales | 16 |
+| 空间计算 | spatial-computing | 16 |
+| 旅游 | tourism | 16 |
+| 零售 | retail | 15 |
+| 农业 | agriculture | 14 |
+| 政府 | government | 14 |
+| 产品 | product | 14 |
+| 证券 | securities | 14 |
+| Web3 | web3 | 14 |
+| 客户服务 | customer-service | 13 |
+| 彩票 | lottery | 13 |
+| 网络工程 | network-engineering | 13 |
+| 电信 | telecom | 13 |
+| 思维模型 | thinking-models | 13 |
+| 保险 | insurance | 12 |
+| 运营 | operations | 12 |
+| 房地产 | real-estate | 12 |
+| 质量管理 | quality | 11 |
+| 行政管理 | administration | 10 |
+| 医药生物 | pharma-biotech | 9 |
+| 出版 | publishing | 9 |
+| 体育 | sports | 9 |
+| 安全 | security | 8 |
+| 应急管理 | emergency | 7 |
+| 活动会展 | events | 7 |
+| 时尚 | fashion | 7 |
+| 本地化 | localization | 7 |
+| 矿业 | mining | 7 |
+| 战略咨询 | strategy | 7 |
+| 美妆 | beauty | 6 |
+| 林业 | forestry | 6 |
+| HR科技 | hr-tech | 6 |
+| 公益 | nonprofit | 6 |
+| 宠物 | pets | 6 |
+| 家居生活 | home-lifestyle | 5 |
+| 博物馆 | museums | 5 |
+| 亲子家庭 | parenting-family | 5 |
+| _solution | _solution | 3 |
+| 图书馆 | libraries | 3 |
 
 ### Special Directories
 
@@ -159,7 +206,7 @@ forestry(3), hr-tech(3), pets(3), libraries(2), museums(2)
 ---
 name: "Agent Display Name"     # required (1-120 chars)
 description: "One-sentence..." # required (10-500 chars)
-emoji: "🎯"                     # required (1-8 chars)
+emoji: "🎯"             # required (1-8 chars)
 color: cyan                    # required (named or #RRGGBB)
 
 version: "1.0.0"              # standard (auto-populated)
@@ -170,7 +217,6 @@ nexus_roles:                  # optional (NEXUS pipeline phases)
   - phase-0-discovery
 depends_on:                   # optional (agent IDs this agent needs)
   - engineering-backend-architect
-lifecycle: published          # optional (draft/review/published/deprecated)
 ---
 
 ## Identity & Memory          <-- required
@@ -182,109 +228,85 @@ lifecycle: published          # optional (draft/review/published/deprecated)
 
 ---
 
-## Layer 5: Integration Targets (8 tools)
+## Layer 5: Integration Targets (6 tools)
 
 | Tool | Format | Converter |
 |------|--------|-----------|
 | Claude Code | .md | direct (no conversion) |
 | Cursor | .mdc | convert_cursor() |
-| Copilot | .md | convert_copilot() |
 | Gemini CLI | .gm.md | convert_gemini_cli() |
-| Windsurf | .windsurf | convert_windsurf() |
-| Codex | .codex | convert_codex() |
+| Codex | .txt | convert_codex() |
 | Kimi | .kimi.md | convert_kimi() |
 | Antigravity | .ag.md | convert_antigravity() |
 
 ---
 
-## Data Flow: Quality Pipeline
+## Layer 6: Data Flow & Module Dependency
+
+### Shared Foundation
+
+All 33 Python scripts read agent data through `_shared/` — none call each other's output:
 
 ```
-agent.md
-  |
-  v
-lint-agents.py  ---> errors/warnings
-  |
-  v
-score-agents.py ---> A-D grade (0-10)
-  |
-  v
-analyze-deps.py ---> broken/valid deps
-  |
-  +---> quality-report.py    (unified dashboard)
-  +---> contribute.py        (contribution opportunities)
-  +---> agent-lifecycle.py   (state tracking)
-  +---> expand-agent.py      (B->A upgrade path)
+                      _shared/
+          (discovery, frontmatter, terminal)
+         /     /    |     |    \        \\
+        /     /     |     |     \        \\
+   lint    score  analyze convert  search  validate
+ agents  agents  -deps   .py     agents  -index
+   .py     .py    .py             .py     .py
+    |       |      |               |
+    v       v      v               v
+  errors  grades  broken       paginated
+                  refs          results
 ```
+
+### Quality Pipeline (orchestrated by quality.py)
+
+```
+quality.py
+  ├── lint-agents.py       → 0 errors, 2 warnings
+  ├── score-agents.py      → 100% A grade
+  ├── analyze-deps.py      → 0 broken references
+  ├── ruff check           → clean
+  └── pytest --cov         → 93%+ coverage
+```
+
+### Key Consumers (grouped by role)
+
+| Role | Script |
+|------|--------|
+| **Quality Gate** | `lint-agents.py`, `score-agents.py`, `analyze-deps.py`, `quality-report.py`, `validate-index.py` |
+| **Maintenance** | `agent-lifecycle.py`, `contribute.py`, `expand-agent.py`, `add-comm-section.py` |
+| **Integration** | `convert.py`, `generate-index.py`, `build-agent-browser.py`, `build-architecture.py` |
+| **Discovery** | `search-agents.py`, `i18n/check-i18n.py`, `i18n/localize-agents.py` |
+
+All 16 consumers depend on `_shared/` modules; cross-script imports use `load_module()` for hyphenated filenames.
 
 ---
 
-## NEXUS Multi-Agent Orchestration
+## Layer 7: NEXUS Multi-Agent Orchestration
 
-```
-Phase 0: Discovery  ->  Phase 1: Strategy  ->  Phase 2: Foundation
-Phase 3: Build      ->  Phase 4: Hardening  ->  Phase 5: Launch
-Phase 6: Operate
+Phase 0: Discovery -> Phase 1: Strategy -> Phase 2: Foundation -> Phase 3: Build -> Phase 4: Hardening -> Phase 5: Launch -> Phase 6: Operate
 
-Agents opt-in via "nexus_roles" frontmatter field
-Playbooks: docs/playbooks/  |  Runbooks: docs/runbooks/
-Strategy doc: docs/nexus-strategy.md
-```
+**7 phases** with 1,406 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
+
+Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` | `docs/runbooks/` | `docs/teams/` | `docs/coordination/`
 
 ---
 
-## Dependency Graph (Import Relationships)
+## Project Health
 
-```
-                     _shared/
-              (discovery, frontmatter, terminal, load_module)
-              /           |              \
-             /            |               \
-    lint-agents.py  score-agents.py   convert.py
-         |               |                |
-         v               v                v
-quality-report.py  analyze-deps.py  agent-lifecycle.py
-                   contribute.py   expand-agent.py
-                                   add-comm-section.py
-                                   search-agents.py
-                                   validate-index.py
-                                   generate-index.py
-                                   i18n/check-i18n.py
-                                   i18n/localize-agents.py
+| Metric | Value |
+|--------|-------|
+| Version | 2.0.1 |
+| Python | >=3.10 |
+| Coverage threshold | -v --tb=short --cov-fail-under=80% |
+| Agent files | 1,406 |
+| Tool scripts | 33 (.py) + 20 (.sh) |
+| Tests | 1,161 across 34 modules |
+| CI workflows | 7 |
+| Integration targets | 6 |
+| NEXUS phases | 8 |
 
----> import via _shared       (all shared: colors, frontmatter, discovery)
----> import via load_module() (hyphenated: score-agents, lint-agents)
-```
-
----
-
-## Gaps & Next Steps
-
-### P0: Critical
-- [x] Install verification in CI (test install.sh end-to-end)
-- [x] Git tag v1.0.0 + GitHub Release
-
-### P1: High
-- [x] Test coverage 100% (903 tests, 3292 lines, 0 missed)
-- [x] mypy static type checking (runs in CI extended job)
-- [x] Pre-commit hooks auto-install mechanism (scripts/setup-hooks.sh)
-
-### P2: Medium
-- [x] Agent duplication detection in CI (check-dupes.sh in extended job)
-- [x] i18n coverage tracking in CI (check-i18n.py --strict in extended job)
-- [x] Agent versioning strategy (docs/AGENT-VERSIONING.md)
-- [x] PR template + CODEOWNERS
-
-### P3: Nice-to-Have
-- [ ] Agent download/usage metrics
-- [x] Web-based agent browser/search UI (agent-browser.html)
-- [ ] Automated agent generation from templates
-- [ ] Cross-tool agent sync verification
-- [x] NEXUS role assignment — 1292/1292 agents with nexus_roles (0 orphans)
-- [x] Cross-platform CI matrix (Windows + Ubuntu, Python 3.10-3.12)
-- [x] Shell→Python migration complete — all scripts have standalone .py files (including generate-index.py)
-- [x] NEXUS orchestrator script (scripts/nexus-orchestrator.py)
-- [x] Coverage gate unified to 90% across local and CI
-- [x] Cross-platform index generator (scripts/generate-index.py)
-- [x] Agent index schema fix (depends_on/nexus_roles in agent-index.schema.json)
-- [x] Domain expansion: database (+10), military/defense (+9), education (+7), tools (+12)
+Generated: 2026-07-24 00:36 UTC

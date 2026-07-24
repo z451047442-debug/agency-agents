@@ -8,7 +8,7 @@
 
 | Tool | Minimum Version | Check |
 |------|----------------|-------|
-| **Python** | 3.11+ | `python --version` |
+| **Python** | 3.10+ | `python --version` |
 | **Git** | 2.30+ | `git --version` |
 | **bash** | 3.2+ | `bash --version` |
 | **Git Bash** (Windows) | Latest | Included with Git for Windows |

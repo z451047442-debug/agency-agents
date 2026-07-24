@@ -297,7 +297,7 @@ main() {
     export AGENCY_INSTALL_OUT_DIR="$install_out_dir"
     export AGENCY_INSTALL_SCRIPT="$SCRIPT_DIR/install.sh"
     export AGENCY_INSTALL_EXTRA="$(worker_flags)"
-    printf '%s\n' "${SELECTED_TOOLS[@]}" | xargs -P "$parallel_jobs" -I {} sh -c 'AGENCY_INSTALL_WORKER=1 "$AGENCY_INSTALL_SCRIPT" --tool "{}" --no-interactive $AGENCY_INSTALL_EXTRA > "$AGENCY_INSTALL_OUT_DIR/{}" 2>&1'
+    printf '%s\n' "${SELECTED_TOOLS[@]}" | xargs -P "$parallel_jobs" -I {} sh -c 'AGENCY_INSTALL_WORKER=1 "$AGENCY_INSTALL_SCRIPT" --tool "$1" --no-interactive $AGENCY_INSTALL_EXTRA > "$AGENCY_INSTALL_OUT_DIR/$1" 2>&1' _ {}
     for t in "${SELECTED_TOOLS[@]}"; do
       [[ -f "$install_out_dir/$t" ]] && cat "$install_out_dir/$t"
     done
@@ -332,6 +332,12 @@ main() {
   box_bot
   printf "\n"
   dim "  Run ./scripts/convert.sh to regenerate after adding or editing agents."
+  printf "\n"
+  dim "  Quickstart: cat QUICKSTART.md"
+  printf "\n"
+  dim "  Rate agents you use: python scripts/feedback.py --agent <name> --rate 1-5"
+  printf "\n"
+  dim "  See unrated agents: python scripts/feedback.py --prompt"
   printf "\n"
 }
 

@@ -28,6 +28,7 @@
       "type": "string",
       "minLength": 1,
       "maxLength": 32,
+      "pattern": "^(#[0-9a-fA-F]{6}|[a-z][a-z-]+[a-z]|cyan|blue|green|red|purple|orange|teal|indigo|pink|gold|amber|yellow|violet|rose|lime|gray|fuchsia|neon-green|neon-cyan|metallic-blue|brown|black|white|silver|maroon|navy|olive|slate)$",
       "description": "Display colour for the agent. Standard named colours: cyan, blue, green, red, purple, orange, teal, indigo, pink, gold, amber, yellow, violet, rose, lime, gray, fuchsia, navy, slate, brown. Hex codes (#RRGGBB) are also accepted.",
       "examples": ["blue", "teal", "#E63946"]
     },
@@ -45,6 +46,7 @@
     "date_added": {
       "type": "string",
       "maxLength": 16,
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
       "description": "ISO date when this agent was first added (e.g. '2026-06-18'). Recommended for lifecycle tracking.",
       "examples": ["2026-06-18"]
     },
@@ -77,5 +79,5 @@
       "minItems": 1
     }
   },
-  "additionalProperties": true
+  "additionalProperties": false
 }

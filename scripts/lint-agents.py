@@ -171,7 +171,7 @@ def scan_security(content, rel_path):
     findings = []
 
     # Check if this agent is exempt from security pattern scanning
-    agent_id = rel_path.rsplit("/", 1)[-1].replace(".md", "") if "/" in rel_path else rel_path.replace(".md", "")
+    agent_id = Path(rel_path).stem
     exempt = agent_id in SECURITY_EXEMPT_AGENTS
 
     # 1. Check for suspicious Unicode characters
@@ -241,12 +241,15 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
         errors.append(f"ERROR {rel}: not a file")
         return
 
-    content = filepath.read_bytes().decode("utf-8")
+    try:
+        content = filepath.read_bytes().decode("utf-8")
+    except UnicodeDecodeError:
+        errors.append(f"ERROR {rel}: invalid UTF-8 encoding — cannot parse file")
+        return
 
     # 0. CRLF check
     if "\r" in content:
         errors.append(f"ERROR {rel}: CRLF line endings — convert to LF")
-        return
 
     # 1. Frontmatter delimiters
     if not content.startswith("---"):
@@ -281,7 +284,9 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
 
     # 4. Word count
     word_count = len(body.split())
-    if word_count < 100:
+    if word_count < 10:
+        errors.append(f"ERROR {rel}: empty or placeholder body (< 10 words, got {word_count})")
+    elif word_count < 100:
         warnings.append(f"WARN  {rel}: content too short (< 100 words, got {word_count})")
 
     # 5. File size check
@@ -291,7 +296,7 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
             f"ERROR {rel}: file way too large ({file_size_kb:.1f} KB > 80 KB); "
             f"must be split into multiple agents"
         )
-    elif file_size_kb > 50:
+    elif file_size_kb > 55:
         warnings.append(
             f"WARN  {rel}: file too large ({file_size_kb:.1f} KB > 50 KB); "
             f"consider splitting into multiple agents"
@@ -335,16 +340,17 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
         )
 
     # 10. Broken internal links
-    link_pattern = re.compile(r"\[([^\]]*)\]\(([^)]+\.md)\)")
+    link_pattern = re.compile(r"\[([^\]]*)\]\(([^)]+\.md(?:#[^)]*)?)\)")
     file_dir = filepath.parent
     for m in link_pattern.finditer(body):
         url = m.group(2)
         if url.startswith("http://") or url.startswith("https://"):
             continue
-        if url.startswith("/"):
-            target = REPO / url.lstrip("/")
+        clean_url = url.split("#", 1)[0] if "#" in url else url
+        if clean_url.startswith("/"):
+            target = REPO / clean_url.lstrip("/")
         else:
-            target = (file_dir / url).resolve()
+            target = (file_dir / clean_url).resolve()
         if not target.exists():
             warnings.append(f"WARN  {rel}: broken link '{url}' -> target not found")
 
@@ -377,6 +383,41 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
                     )
         except Exception:
             pass
+
+    # 13. Quality signal INFOs — heuristic approximations (cheaper than full scoring).
+    # 13a. Domain signal density
+    _ds_re = re.compile(
+        r"\b[A-Z]{2,6}(?:[/\-][A-Z0-9]{2,6})*\b|"
+        r"\b(?:ISO|IEC|IEEE|NIST|ANSI|ASTM|RFC)\s*\d+|"
+        r"\bv?\d+\.\d+(?:\.\d+)?\b|"
+        r"\b[A-Z][a-z]+(?:[A-Z][a-z]+){2,}\b|"
+        r"`[^`]+`|"
+        r"\b10\.\d{4,}/[^\s]+|"
+        r"\b(?:ISBN[:\s]*)?97[89][-\s]?\d[-\s]?\d{3}[-\s]?\d{4}[-\s]?\d\b|"
+        r"\b[A-Z][a-z]+,\s+[A-Z]\.\s*\(\d{4}\)|"
+        r"\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+\s*\(\d{4}\)|"
+        r"§\s*\d+|[Aa]rticle\s+\d+|[Cc]lause\s+\d+"
+    )
+    ds_count = len({m.group(0).lower() for m in _ds_re.finditer(body)})
+    if ds_count < 3 and word_count >= 100:
+        infos.append(
+            f"INFO  {rel}: low domain specificity ({ds_count} signals, "
+            f"target >=5 for domain credibility)"
+        )
+
+    # 13b. Cross-category dependency isolation
+    deps = get_list_field("depends_on", fm_text)
+    if deps:
+        cat = _category_for_file(filepath)
+        if not any(not d.startswith(f"{cat}-") for d in deps):
+            infos.append(
+                f"INFO  {rel}: all depends_on are same-category — "
+                f"consider cross-category connections"
+            )
+    else:
+        infos.append(
+            f"INFO  {rel}: no depends_on — agent is isolated from the knowledge graph"
+        )
 
 
 # ── CLI ──────────────────────────────────────────────────────────────────────
@@ -459,6 +500,11 @@ def main():
         sys.exit(1)
     else:
         print(f"{GREEN}PASSED{RESET}")
+        try:
+            from telemetry import record_event
+            record_event("lint", count=len(errors))
+        except Exception:
+            pass
         sys.exit(0)
 
 

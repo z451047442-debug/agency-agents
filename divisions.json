@@ -1,6 +1,11 @@
 {
   "_note": "Source of truth for the agent division set. Each division maps to a top-level agent directory containing .md files with YAML frontmatter. Consumed by the Agency Agents app and catalog tooling. scripts/check-divisions.sh (CI: check-divisions.yml) fails the build if this list disagrees with the directories on disk. To add a division: create its directory with at least one frontmatter agent file, add an entry here, then run scripts/check-divisions.sh and update wherever it points. NOT every top-level directory is a division: integrations/ holds per-tool conversion OUTPUTS (not source agents); docs/ and examples/ are excluded via NON_DIVISION_DIRS in check-divisions.sh.",
   "divisions": {
+    "_solution": {
+      "label": "Solution Architects",
+      "icon": "Puzzle",
+      "color": "#6366F1"
+    },
     "administration": {
       "label": "Administration",
       "icon": "FileText",
@@ -121,13 +126,18 @@
       "icon": "HeartPulse",
       "color": "#EF4444"
     },
+    "home-lifestyle": {
+      "label": "Home & Lifestyle",
+      "icon": "Home",
+      "color": "#22C55E"
+    },
     "hr": {
-      "label": "Hr",
+      "label": "HR",
       "icon": "Users",
       "color": "#22C55E"
     },
     "hr-tech": {
-      "label": "Hr Tech",
+      "label": "HR Tech",
       "icon": "MonitorCheck",
       "color": "#22C55E"
     },
@@ -142,7 +152,7 @@
       "color": "#3B82F6"
     },
     "iot": {
-      "label": "Iot",
+      "label": "IoT",
       "icon": "Cpu",
       "color": "#0EA5E9"
     },
@@ -215,6 +225,11 @@
       "label": "Pets",
       "icon": "PawPrint",
       "color": "#F97316"
+    },
+    "parenting-family": {
+      "label": "Parenting & Family",
+      "icon": "Heart",
+      "color": "#EC4899"
     },
     "pharma-biotech": {
       "label": "Pharma Biotech",
@@ -300,6 +315,11 @@
       "label": "Testing",
       "icon": "FlaskConical",
       "color": "#F59E0B"
+    },
+    "thinking-models": {
+      "label": "Thinking Models",
+      "icon": "Brain",
+      "color": "#8B5CF6"
     },
     "tourism": {
       "label": "Tourism",

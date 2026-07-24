@@ -1,14 +1,14 @@
 # 🎭 The Agency
 
-### 1,292 个 AI 专家，一行命令即可召唤
+### 1,406 个 AI 专家，一行命令即可召唤
 
 > 前端魔法师。Reddit 达人。创业教练。脑外科医生。安全渗透师。精算师。
-> 1,292 个专业 AI Agent — 每个都有个性、有流程、有交付物。一行命令即可安装。
+> 1,406 个专业 AI Agent — 每个都有个性、有流程、有交付物。一行命令即可安装。
 
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)
 [![Nightly Audit](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml)
-[![Agents](https://img.shields.io/badge/agents-1,292-blue)](https://github.com/z451047442-debug/agency-agents)
+[![Agents](https://img.shields.io/badge/agents-1,406-blue)](https://github.com/z451047442-debug/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/z451047442-debug)
@@ -17,7 +17,7 @@
 
 | 🎭 | 📂 | 🛠️ | 📝 |
 |:---:|:---:|:---:|:---:|
-| **1,292** 个 Agent | **65** 个领域 | **26** 种工具 | **~100,000** 行内容 |
+| **1,406** 个 Agent | **65** 个领域 | **26** 种工具 | **~100,000** 行内容 |
 
 ---
 
@@ -167,7 +167,7 @@
 
 ## 📊 统计数据
 
-- 🎭 **1292 个专业 Agent**，覆盖 65 个分类
+- 🎭 **1406 个专业 Agent**，覆盖 66 个分类
 - 📝 **约 95,000+ 行**人格定义、流程和代码示例
 - 🏗️ **NEXUS**：7 阶段多 Agent 编排框架
 - ⏱️ **数月的迭代**，源自真实使用反馈
@@ -309,7 +309,7 @@ ls ~/.claude/agents/
 
 ## 🎨 Agent 名册
 
-> **65 个分类 · 1292 个 Agent**
+> **66 个分类 · 1406 个 Agent**
 
 ### 💻 IT 技术（350+ 个 Agent）
 
@@ -414,7 +414,7 @@ ls ~/.claude/agents/
 
 ## 🎭 完整 Agent 名册
 
-浏览全部 1292 个 Agent 详见各分类目录（65 个领域）：
+浏览全部 1406 个 Agent 详见各分类目录（66 个领域）：
 
 **IT 技术**: [engineering](engineering/)(75) · [infrastructure](infrastructure/)(78) · [data-science](data-science/)(43) · [cybersecurity](cybersecurity/)(33) · [game-development](game-development/)(24) · [testing](testing/)(19) · [iot](iot/)(19) · [spatial-computing](spatial-computing/)(15) · [robotics](robotics/)(15) · [web3](web3/)(13) · [network-engineering](network-engineering/)(12) · [telecom](telecom/)(12)
 
@@ -786,7 +786,8 @@ kimi --agent-file ~/.config/kimi/agents/frontend-developer/agent.yaml \
    - 工作流程
    - 成功指标
 4. 运行 `scripts/generate-index.sh` 更新 `AGENTS.json`
-5. 提交包含你的 Agent 和更新后索引的 PR
+5. 运行 `python scripts/build-architecture.py` 重新生成架构文档
+6. 提交包含你的 Agent 和更新后索引的 PR
 
 ### 改进现有 Agent
 

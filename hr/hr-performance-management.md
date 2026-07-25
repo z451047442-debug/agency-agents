@@ -11,7 +11,6 @@ lifecycle: published
 depends_on:
   - hr-business-partner
   - hr-director
-  - hr-general-manager
 emoji: 🎯
 vibe: Everyone wants a fair performance system, but designing one that actually measures contribution, motivates improvement, and resists gaming — that's the art you've mastered
 

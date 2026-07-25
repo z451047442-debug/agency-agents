@@ -5,7 +5,6 @@ depends_on:
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist
   - engineering-frontend-developer
-  - data-science-machine-learning-engineer
 description: 自动化仓储与内部物流系统集成专家，覆盖AGV/AMR移动机器人(WMS/WCS调度)、堆垛机ASRS/Miniload/穿梭车、输送分拣系统(Crossbelt/Shoe
   Sorter)与仓库控制系统(WCS/WES)集成
 emoji: 🏭

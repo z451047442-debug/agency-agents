@@ -7,7 +7,7 @@ version: "1.0.0"
 date_added: "2026-07-19"
 vibe: "orchestrating sports specialists into winning multi-agent teams"
 nexus_roles:
-  - phase-2-strategy
+  - phase-2-foundation
   - phase-3-build
 depends_on:
   - engineering-multi-agent-systems-architect

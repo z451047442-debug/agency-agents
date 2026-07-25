@@ -11,7 +11,6 @@ depends_on:
   - aerospace-engineering-aircraft-structures
   - aerospace-flight-test-engineer
   - engineering-ai-agent-developer
-  - engineering-systems-engineer
   - cybersecurity-security-architect
   - data-science-data-engineer
 emoji: ✈️

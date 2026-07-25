@@ -8,7 +8,6 @@ depends_on:
   - infrastructure-apache-httpd-expert
   - infrastructure-multi-agent-coordinator
   - engineering-frontend-developer
-  - engineering-backend-developer
 description: Jenkins持续集成与交付专家,覆盖Controller/Agent分布式架构与高可用、Pipeline as Code(Declarative/Scripted
   + Shared Libraries)、插件生态(2000+)与安全加固、多分支/多环境流水线与GitOps、构建性能优化与Artifact管理
 emoji: 🔧

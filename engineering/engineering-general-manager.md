@@ -7,7 +7,7 @@ version: "1.0.0"
 date_added: "2026-07-19"
 vibe: "engineering leadership with systems thinking and operational rigor"
 nexus_roles:
-  - phase-2-strategy
+  - phase-2-foundation
   - phase-6-operate
 depends_on:
   - engineering-multi-agent-systems-architect

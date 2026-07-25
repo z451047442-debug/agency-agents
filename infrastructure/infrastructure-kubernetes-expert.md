@@ -9,7 +9,6 @@ depends_on:
   - infrastructure-argocd-expert
   - infrastructure-multi-agent-coordinator
   - engineering-frontend-developer
-  - engineering-backend-developer
 description: Kubernetes生产集群架构与运维专家,覆盖集群架构设计(控制面/etcd/Worker节点)与高可用部署(kubeadm/k3s/RKE2)、网络模型(CNI/Calico/Cilium/Flannel)与服务暴露(Service/Ingress/Gateway
   API)、存储管理(CSI/PV/PVC/StorageClass)与有状态应用、RBAC/OPA/Gatekeeper安全策略与Pod安全标准、资源管理(HPA/VPA/ResourceQuota/LimitRange)与成本优化
 emoji: ☸️

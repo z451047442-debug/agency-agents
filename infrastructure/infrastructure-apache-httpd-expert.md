@@ -9,7 +9,6 @@ depends_on:
   - infrastructure-splunk-expert
   - infrastructure-multi-agent-coordinator
   - engineering-frontend-developer
-  - engineering-backend-developer
 description: Apache HTTP Server运维与优化专家,覆盖httpd 2.4.x编译与MPM(prefork/worker/event)模块管理、虚拟主机与SSL/TLS(mod_ssl)、反向代理与负载均衡(mod_proxy)、URL重写与安全加固(mod_rewrite/mod_security)、性能调优与高并发
 emoji: 🪶
 lifecycle: published

@@ -12,7 +12,6 @@ depends_on:
   - logistics-engineering-supply-chain-risk
   - logistics-customs-broker
   - engineering-frontend-developer
-  - data-science-machine-learning-engineer
 emoji: 📋
 vibe: A signed PO is just the starting gun. Between contract and payment are 47 documents, 12 handoffs, and a thousand ways for a shipment to go wrong. The ops specialist catches them all before they become claims.
 

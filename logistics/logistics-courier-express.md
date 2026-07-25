@@ -5,7 +5,6 @@ depends_on:
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist
   - engineering-frontend-developer
-  - data-science-machine-learning-engineer
 description: 快递与快运网络运营管理专家，覆盖分拨中心/转运枢纽运营、路由网络规划、末端网点/驿站管理、时效管控与成本优化
 emoji: 📦
 lifecycle: published

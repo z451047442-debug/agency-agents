@@ -12,7 +12,6 @@ depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
   - testing-engineering-test-automation-framework
-  - engineering-systems-engineer
   - cybersecurity-security-architect
   - data-science-data-engineer
 emoji: 🛫

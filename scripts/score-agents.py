@@ -2264,7 +2264,11 @@ def main():
         if not filepath.exists():
             print(f"ERROR: file not found: {args.file}", file=sys.stderr)
             sys.exit(1)
-        files = [(filepath.parent.name, str(filepath.relative_to(REPO)), filepath)]
+        try:
+            rel = str(filepath.relative_to(REPO))
+        except ValueError:
+            rel = filepath.name
+        files = [(filepath.parent.name, rel, filepath)]
     else:
         files = list(discover_agents(category_filter=args.category))
 

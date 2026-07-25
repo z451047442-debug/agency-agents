@@ -1,8 +1,8 @@
 # The Agency — System Architecture v1.0.2
 
-**1,406 AI Agent Personality Definitions · 66 Categories · 33 Tooling Scripts · 1,161 Tests**
+**1,406 AI Agent Personality Definitions · 66 Categories · 33 Tooling Scripts · 1,200 Tests**
 
-Generated: 2026-07-24 00:36 UTC
+Generated: 2026-07-25 02:40 UTC
 
 ---
 
@@ -20,27 +20,27 @@ Generated: 2026-07-24 00:36 UTC
 
 ---
 
-## Layer 1: Test Suite (34 modules, 1,161 tests)
+## Layer 1: Test Suite (34 modules, 1,200 tests)
 
 | Module (tests) | Module (tests) |
 |----------------|----------------|
-| test_score_agents.py (130) | test_shard_index.py (25) |
-| test_agent_lifecycle.py (80) | test_build_architecture.py (23) |
-| test_convert.py (78) | test_suggest_nexus_roles.py (21) |
-| test_nexus_orchestrator.py (78) | test_batch_version.py (20) |
-| test_lint_agents.py (75) | test_feedback.py (20) |
-| test_analyze_deps.py (68) | test_check_divisions.py (18) |
-| test_quality_report.py (53) | test_batch_add_deps.py (16) |
+| test_score_agents.py (130) | test_clean.py (25) |
+| test_agent_lifecycle.py (80) | test_rebalance_nexus_phases.py (25) |
+| test_convert.py (78) | test_shard_index.py (25) |
+| test_nexus_orchestrator.py (78) | test_build_architecture.py (23) |
+| test_lint_agents.py (75) | test_suggest_nexus_roles.py (21) |
+| test_analyze_deps.py (73) | test_batch_version.py (20) |
+| test_quality_report.py (53) | test_check_divisions.py (18) |
+| test_search_agents.py (47) | test_batch_add_deps.py (16) |
 | test_batch_nexus_roles.py (42) | test_batch_date_added.py (16) |
-| test_search_agents.py (42) | test_analyze_deps_auto.py (15) |
-| test_build_hermes_plugin.py (40) | test_check_dupes.py (15) |
-| test_expand_agent.py (40) | test_rebalance_nexus_phases.py (13) |
+| test_build_hermes_plugin.py (40) | test_analyze_deps_auto.py (15) |
+| test_expand_agent.py (40) | test_check_dupes.py (15) |
 | test_contribute.py (38) | test_generate_index.py (11) |
+| test_feedback.py (37) | test_quality_pipeline.py (10) |
 | test_validate_index.py (37) | test_batch_nexus_roles_gap.py (7) |
 | test_shared.py (35) | test_integration_pipeline.py (6) |
 | test_add_comm_section.py (29) | test_build_agent_browser.py (3) |
 | test_check_agent_originality.py (29) | test_check_deps.py (3) |
-| test_clean.py (25) | test_quality_pipeline.py (2) |
 
 ---
 
@@ -60,7 +60,7 @@ Generated: 2026-07-24 00:36 UTC
 **__init__.py** — Module entry point and dynamic loader
 - Exports: `Re-exports all 15 symbols + load_module()`
 
-**23 consumers**: add-comm-section · agent-lifecycle · analyze-deps · batch-methodology-framework · batch-second-pass · batch-third-pass · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · debug_method_depth · expand-agent · generate-index · check-i18n · localize-agents · lint-agents · quality-report · rebalance-nexus-phases · score-agents · search-agents · validate-index
+**21 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · generate-index · check-i18n · localize-agents · lint-agents · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
 
 ---
 
@@ -228,24 +228,16 @@ depends_on:                   # optional (agent IDs this agent needs)
 
 ---
 
-## Layer 5: Integration Targets (14 tools)
+## Layer 5: Integration Targets (6 tools)
 
 | Tool | Format | Converter |
 |------|--------|-----------|
 | Claude Code | .md | direct (no conversion) |
-| Copilot | .md | direct (no conversion) |
-| Antigravity | SKILL.md | convert_antigravity() |
-| Gemini CLI | .md | convert_gemini_cli() |
-| OpenCode | .md | convert_opencode() |
 | Cursor | .mdc | convert_cursor() |
-| Aider | CONVENTIONS.md | build_aider_windsurf() |
-| Windsurf | .windsurfrules | build_aider_windsurf() |
-| OpenClaw | SOUL/AGENTS/IDENTITY | convert_openclaw() |
-| Qwen | .md | convert_qwen() |
-| Kimi | agent.yaml | convert_kimi() |
-| Codex | .toml | convert_codex() |
-| Osaurus | SKILL.md | convert_osaurus() |
-| Hermes | plugin | build-hermes-plugin.py |
+| Gemini CLI | .gm.md | convert_gemini_cli() |
+| Codex | .txt | convert_codex() |
+| Kimi | .kimi.md | convert_kimi() |
+| Antigravity | .ag.md | convert_antigravity() |
 
 ---
 
@@ -295,9 +287,9 @@ All 16 consumers depend on `_shared/` modules; cross-script imports use `load_mo
 
 ## Layer 7: NEXUS Multi-Agent Orchestration
 
-Phase 0: Discovery -> Phase 1: Strategy -> Phase 2: Foundation -> Phase 3: Build -> Phase 4: Hardening -> Phase 5: Launch -> Phase 6: Operate
+Phase 0: Discovery -> Phase 1: Strategy -> Phase 2: Foundation -> Phase 2: Strategy -> Phase 3: Build -> Phase 4: Hardening -> Phase 5: Launch -> Phase 6: Operate
 
-**7 phases** with 1,406 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
+**8 phases** with 1,406 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
 
 Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` | `docs/runbooks/` | `docs/teams/` | `docs/coordination/`
 
@@ -307,14 +299,14 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 
 | Metric | Value |
 |--------|-------|
-| Version | 2.0.2 |
+| Version | v1.0.2 |
 | Python | >=3.10 |
-| Coverage threshold | 80% |
+| Coverage threshold | 90% |
 | Agent files | 1,406 |
 | Tool scripts | 33 (.py) + 20 (.sh) |
-| Tests | 1,161 across 34 modules |
+| Tests | 1,200 across 34 modules |
 | CI workflows | 7 |
-| Integration targets | 14 |
-| NEXUS phases | 7 |
+| Integration targets | 6 |
+| NEXUS phases | 8 |
 
-Generated: 2026-07-24 00:36 UTC
+Generated: 2026-07-25 02:40 UTC

@@ -216,7 +216,7 @@ OPENCODE_COLOR_MAP = {
     "teal":          "#008080",
     "indigo":        "#6366F1",
     "pink":          "#E84393",
-    "gold":          "#EAB308",
+    "gold":          "#FFD700",
     "amber":         "#F59E0B",
     "neon-green":    "#10B981",
     "neon-cyan":     "#06B6D4",
@@ -235,7 +235,7 @@ DEFAULT_OPENCODE_COLOR = "#6B7280"
 def resolve_opencode_color(color_name):
     """Resolve a named colour to its #RRGGBB hex value for OpenCode.
 
-    Recognises 21 common CSS colour names.  Already-hex values are normalised
+    Recognises 20 common CSS colour names.  Already-hex values are normalised
     to uppercase.  Unrecognised names fall back to gray (#6B7280).
     """
     if not color_name:

@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.0.4] — 2026-07-25 — Bug Fixes & Quality Hardening
+
+### Fixed
+- **High**: `scripts/_shared/validators.py` — `find_broken_links()` now skips external `http(s)://` URLs, preventing false-positive broken link reports
+- **High**: `scripts/score-agents.py` — `relative_to(REPO)` wrapped in try/except to handle file paths outside the repo (fixes pre-commit hook quality gate crash)
+- **Medium**: `scripts/build-architecture.py` — fallback test count changed from sentinel `-1` to `0` for clean output rendering
+- **Medium**: `scripts/convert.py` — `gold` color corrected from duplicate `#EAB308` to `#FFD700`; docstring fixed from "21" to "20" CSS colour names
+
+### Cleaned
+- Removed 28 one-off batch processing scripts and data artifacts (`upgrade_b_to_a*.py`, `fixup-*.py`, `batch-*.py`, `quality-dashboard.html`, `scores-data.json`, etc.)
+- `pyproject.toml` — removed stale coverage omit and ruff per-file-ignores entries for deleted scripts
+
+### Improved
+- Test coverage threshold raised from 80% to 90%
+- Added 40+ new tests covering `--cross-stats`, `--cycles`, `scenario_search`, `record_usage`, `prompt_for_feedback`, and `phase_distribution` CLI paths
+- `scripts/telemetry.py` excluded from coverage (opt-in utility)
+- Pre-commit hook hardened: `MAINTAINERS.md` and `QUICKSTART.md` excluded from agent scan; temp files now created inside repo for scorer compatibility
+
 ## [2.0.3] — 2026-07-25 — Consistency & Quality Baseline
 
 ### Fixed

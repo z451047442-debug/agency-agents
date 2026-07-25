@@ -1203,3 +1203,59 @@ class TestMain:
         mod.main()
         captured = capsys.readouterr()
         assert "Orphan Agents" in captured.out
+
+    def test_cross_stats_mode(self, tmp_path, monkeypatch, capsys):
+        self._set_repo_and_agents(monkeypatch, tmp_path)
+        monkeypatch.setattr(sys, 'argv',
+                           ['analyze-deps.py', '--cross-stats'])
+        mod.main()
+        captured = capsys.readouterr()
+        assert "Cross-Category" in captured.out
+
+    def test_cross_stats_json_mode(self, tmp_path, monkeypatch, capsys):
+        self._set_repo_and_agents(monkeypatch, tmp_path)
+        monkeypatch.setattr(sys, 'argv',
+                           ['analyze-deps.py', '--cross-stats', '--json'])
+        mod.main()
+        captured = capsys.readouterr()
+        data = json.loads(captured.out)
+        assert isinstance(data, dict)
+
+    def test_cycles_mode(self, tmp_path, monkeypatch, capsys):
+        self._set_repo_and_agents(monkeypatch, tmp_path)
+        monkeypatch.setattr(sys, 'argv',
+                           ['analyze-deps.py', '--cycles'])
+        mod.main()
+        captured = capsys.readouterr()
+        assert "Cycle" in captured.out
+
+    def test_compute_cross_stats_function(self, tmp_path, monkeypatch):
+        import _shared.discovery
+        monkeypatch.setattr(_shared.discovery, "REPO", tmp_path)
+        a1 = make_agent_file(
+            tmp_path / "eng" / "eng-a.md",
+            "Agent A", "Engineering agent",
+            "Works on **platform**.", deps=["data-b"]
+        )
+        (tmp_path / "data").mkdir(parents=True, exist_ok=True)
+        a2 = make_agent_file(
+            tmp_path / "data" / "data-b.md",
+            "Agent B", "Data agent",
+            "Works on **analytics**.",
+        )
+        agents = {}
+        for f in (a1, a2):
+            terms = extract_terms(f)
+            if terms:
+                agents[terms["id"]] = terms
+        stats = mod.compute_cross_stats(agents)
+        assert "eng" in stats or "data" in stats
+
+    def test_print_cross_stats_function(self, capsys):
+        stats = {
+            "eng": {"total": 3, "with_deps": 2, "with_cross": 1, "cross_deps": 2,
+                    "siloed": ["eng-silo"], "cross_agents": ["eng-cross"]},
+        }
+        mod.print_cross_stats(stats)
+        out = capsys.readouterr().out
+        assert "Cross-Category" in out

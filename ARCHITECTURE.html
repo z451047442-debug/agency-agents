@@ -52,7 +52,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 
 <div class="header">
   <h1>THE AGENCY — 系统架构图 v1.0.2</h1>
-  <p>1,406 AI Agent 角色定义库 | 66 行业分类 | 33 工具脚本 | 1,153 测试 | 6 集成目标 | Python >=3.10</p>
+  <p>1,406 AI Agent 角色定义库 | 66 行业分类 | 33 工具脚本 | 1,200 测试 | 6 集成目标 | Python >=3.10</p>
 </div>
 <div class="container">
 
@@ -74,7 +74,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 <div class="arr">&#8595;</div>
 
 <div class="layer l1">
-  <div class="layer-h">第 1 层: 测试套件 (34 个模块 · 1,153 个测试用例)</div>
+  <div class="layer-h">第 1 层: 测试套件 (34 个模块 · 1,200 个测试用例)</div>
   <div class="layer-b">
     <div class="grid">
       <div class="card tc"><div class="nm">score agents</div><div class="ct">130</div></div>
@@ -82,10 +82,10 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 <div class="card tc"><div class="nm">convert</div><div class="ct">78</div></div>
 <div class="card tc"><div class="nm">nexus orchestrator</div><div class="ct">78</div></div>
 <div class="card tc"><div class="nm">lint agents</div><div class="ct">75</div></div>
-<div class="card tc"><div class="nm">analyze deps</div><div class="ct">68</div></div>
+<div class="card tc"><div class="nm">analyze deps</div><div class="ct">73</div></div>
 <div class="card tc"><div class="nm">quality report</div><div class="ct">53</div></div>
-<div class="card tc"><div class="nm">batch nexus roles</div><div class="ct">42</div></div>
-<div class="card tc"><div class="nm">+ 26 modules</div><div class="ct">549</div></div>
+<div class="card tc"><div class="nm">search agents</div><div class="ct">47</div></div>
+<div class="card tc"><div class="nm">+ 26 modules</div><div class="ct">586</div></div>
     </div>
     <div class="st">每个工具脚本都有对应测试 | 全部通过</div>
   </div>
@@ -93,7 +93,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 <div class="arr">&#8595;</div>
 
 <div class="layer l2">
-  <div class="layer-h">第 2 层: 共享库 (scripts/_shared/) — 16 个公开 API · 23 个调用方</div>
+  <div class="layer-h">第 2 层: 共享库 (scripts/_shared/) — 16 个公开 API · 21 个调用方</div>
   <div class="layer-b">
     <div class="grid">
       <div class="card sh"><div class="mt" style="color:#0891b2">discovery.py — Agent file discovery engine</div><div class="md">REPO, EXCLUDE_DIRS, discover_agents()</div></div>
@@ -101,7 +101,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 <div class="card sh"><div class="mt" style="color:#d97706">terminal.py — ANSI terminal color constants + TTY detection</div><div class="md">BOLD, CYAN, GREEN, RED, RESET, YELLOW, supports_color()</div></div>
 <div class="card sh"><div class="mt" style="color:#059669">__init__.py — Module entry point and dynamic loader</div><div class="md">Re-exports all 15 symbols + load_module()</div></div>
     </div>
-    <div class="st" style="margin-top:12px">调用方: add-comm-section | agent-lifecycle | analyze-deps | batch-methodology-framework | batch-second-pass | batch-third-pass | build-agent-browser | build-architecture | build-hermes-plugin | check-agent-originality | contribute | convert | debug_method_depth | expand-agent | generate-index | check-i18n | localize-agents | lint-agents | quality-report | rebalance-nexus-phases | score-agents | search-agents | validate-index</div>
+    <div class="st" style="margin-top:12px">调用方: add-comm-section | agent-lifecycle | analyze-deps-auto | analyze-deps | build-agent-browser | build-architecture | build-hermes-plugin | check-agent-originality | contribute | convert | expand-agent | generate-index | check-i18n | localize-agents | lint-agents | quality-report | rebalance-nexus-phases | score-agents | search-agents | suggest-nexus-roles | validate-index</div>
   </div>
 </div>
 <div class="arr">&#8595;</div>
@@ -168,7 +168,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
       <div><div class="card" style="border-top:3px solid #8b5cf6"><div class="t">Integration</div><div class="d">convert · generate-index<br>build-agent-browser<br>build-architecture</div></div></div>
       <div><div class="card" style="border-top:3px solid #06b6d4"><div class="t">Discovery</div><div class="d">search-agents · i18n/*</div></div></div>
     </div>
-    <div class="st" style="margin-top:12px">23 个脚本依赖 _shared/ → 所有脚本独立读取 agent 数据，通过 quality.py 编排质量流水线</div>
+    <div class="st" style="margin-top:12px">21 个脚本依赖 _shared/ → 所有脚本独立读取 agent 数据，通过 quality.py 编排质量流水线</div>
   </div>
 </div>
 <div class="arr">&#8595;</div>
@@ -183,8 +183,8 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 
 </div>
 <div class="footer">
-  Agent: 1,406 | 分类: 66 | 脚本: 33 (.py) + 20 (.sh) | 测试: 1,153 | CI: 7 工作流 | 目标: 6 工具 | 覆盖率阈值: -v --tb=short --cov-fail-under=80% | Python: >=3.10<br>
+  Agent: 1,406 | 分类: 66 | 脚本: 33 (.py) + 20 (.sh) | 测试: 1,200 | CI: 7 工作流 | 目标: 6 工具 | 覆盖率阈值: 90% | Python: >=3.10<br>
   架构: CI/CD -> 测试 -> 共享库 -> 工具脚本 -> Agent 内容 -> 集成目标 -> 数据流 -> NEXUS 编排<br>
-  生成时间: 2026-07-24 00:36 UTC
+  生成时间: 2026-07-25 02:40 UTC
 </div>
 </body></html>

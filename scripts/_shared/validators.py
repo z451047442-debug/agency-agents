@@ -70,6 +70,9 @@ def find_broken_links(body, filepath):
     parent_dir = filepath.parent
     for m in BROKEN_LINK_RE.finditer(body):
         target = m.group(1)
+        # Skip external URLs (consistent with lint-agents.py)
+        if target.startswith("http://") or target.startswith("https://"):
+            continue
         # Strip URI fragment (e.g., file.md#section → file.md)
         if "#" in target:
             target = target.split("#", 1)[0]

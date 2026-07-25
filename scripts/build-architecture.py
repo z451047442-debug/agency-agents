@@ -125,7 +125,7 @@ def collect_test_modules() -> tuple[list[dict], int]:
         # Fallback: count test files without running pytest
         for f in sorted((REPO / "tests").glob("test_*.py")):
             modules[f.name] = 0
-            total = -1
+            total = 0  # "n/a" sentinel replaced with 0 so output reads cleanly
 
     return [{"module": k, "count": v} for k, v in sorted(modules.items(), key=lambda x: -x[1])], total
 

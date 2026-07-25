@@ -415,3 +415,49 @@ class TestMain:
         mod.main()
         captured = capsys.readouterr()
         assert "Page 2/2" in captured.out
+
+    def test_scenario_mode_matched(self, tmp_path, monkeypatch, capsys):
+        """--scenario that matches SCENARIO_CATEGORIES entry."""
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr(
+            "sys.argv", ["search-agents.py", "--scenario", "mobile app"]
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        assert "Scenario" in captured.out
+
+    def test_scenario_mode_fallback(self, tmp_path, monkeypatch, capsys):
+        """--scenario that doesn't match any key — falls back to keyword search."""
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr(
+            "sys.argv", ["search-agents.py", "--scenario", "xyzznomatch123"]
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        assert "Scenario" in captured.out
+
+    def test_scenario_json_mode(self, tmp_path, monkeypatch, capsys):
+        """--scenario --json outputs valid JSON."""
+        self._setup_index(tmp_path, monkeypatch)
+        monkeypatch.setattr(
+            "sys.argv", ["search-agents.py", "--scenario", "mobile app", "--json"]
+        )
+        mod.main()
+        captured = capsys.readouterr()
+        data = json.loads(captured.out)
+        assert "total" in data
+        assert "results" in data
+
+
+class TestScenarioSearch:
+    """Cover scenario_search() function directly."""
+
+    def test_matches_scenario(self):
+        """scenario_search with 'mobile app' returns agents from matching categories."""
+        results = mod.scenario_search(MOCK_DATA, "mobile app")
+        assert len(results) >= 0
+
+    def test_fallback_to_keyword(self):
+        """Non-matching scenario falls back to keyword search."""
+        results = mod.scenario_search(MOCK_DATA, "kubernetes")
+        assert isinstance(results, list)

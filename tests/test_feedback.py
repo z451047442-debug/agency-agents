@@ -212,3 +212,195 @@ class TestMainCLI:
         assert len(entries) == 1
         assert entries[0]["rating"] == 4
         assert entries[0]["agent"] == "test-x"
+
+    def test_used_mode(self, clean_feedback_env, tmp_path):
+        fb, _ = clean_feedback_env
+        usage_file = tmp_path / ".usage.jsonl"
+        fb.USAGE_FILE = usage_file
+        with mock.patch.object(sys, "argv", ["feedback.py", "--used", "agent-used"]):
+            try:
+                fb.main()
+            except SystemExit:
+                pass
+        assert usage_file.exists()
+        entries = fb._read_usage()
+        assert "agent-used" in entries
+
+    def test_used_multiple_times(self, clean_feedback_env, tmp_path):
+        fb, _ = clean_feedback_env
+        usage_file = tmp_path / ".usage.jsonl"
+        fb.USAGE_FILE = usage_file
+        fb.record_usage("agent-repeat")
+        fb.record_usage("agent-repeat")
+        fb.record_usage("agent-repeat")
+        entries = fb._read_usage()
+        assert entries["agent-repeat"] == 3
+
+    def test_prompt_mode(self, clean_feedback_env, tmp_path):
+        fb, _ = clean_feedback_env
+        usage_file = tmp_path / ".usage.jsonl"
+        fb.USAGE_FILE = usage_file
+        fb.record_usage("unrated-agent")
+        fb.record_usage("unrated-agent")
+        fb.record_usage("unrated-agent")
+        buf = io.StringIO()
+        with mock.patch.object(sys, "stdout", buf), \
+             mock.patch.object(sys, "argv", ["feedback.py", "--prompt"]):
+            try:
+                fb.main()
+            except SystemExit:
+                pass
+        output = buf.getvalue()
+        assert "unrated-agent" in output
+
+    def test_prompt_all_rated(self, clean_feedback_env, tmp_path):
+        fb, _ = clean_feedback_env
+        usage_file = tmp_path / ".usage.jsonl"
+        fb.USAGE_FILE = usage_file
+        fb.record_usage("rated-agent")
+        fb.record_usage("rated-agent")
+        fb.record_usage("rated-agent")
+        fb.add_feedback("rated-agent", rating=4)
+        buf = io.StringIO()
+        with mock.patch.object(sys, "stdout", buf), \
+             mock.patch.object(sys, "argv", ["feedback.py", "--prompt"]):
+            try:
+                fb.main()
+            except SystemExit:
+                pass
+        output = buf.getvalue()
+        assert "All frequently used agents have been rated" in output
+
+    def test_read_usage_empty(self, clean_feedback_env, tmp_path):
+        fb, _ = clean_feedback_env
+        usage_file = tmp_path / ".nonexistent.jsonl"
+        fb.USAGE_FILE = usage_file
+        result = fb._read_usage()
+        assert result == {}
+
+    def test_purge_mode(self, clean_feedback_env):
+        fb, _ = clean_feedback_env
+        fb.add_feedback("test-purge", rating=3)
+        assert len(fb._read_all()) == 1
+        with mock.patch.object(sys, "argv", ["feedback.py", "--purge"]):
+            try:
+                fb.main()
+            except SystemExit:
+                pass
+        assert len(fb._read_all()) == 0
+
+import pytest
+import io
+import json
+import sys
+from unittest import mock
+
+
+@pytest.fixture
+def feedback_env_with_usage(clean_feedback_env):
+    fb, fb_file = clean_feedback_env
+    usage_file = fb_file.parent / ".usage.jsonl"
+    fb.USAGE_FILE = usage_file
+    return fb, fb_file, usage_file
+
+
+class TestRecordUsage:
+    def test_creates_file(self, feedback_env_with_usage):
+        fb, _, usage_file = feedback_env_with_usage
+        entry = fb.record_usage("agent-x")
+        assert usage_file.exists()
+        assert entry["agent"] == "agent-x"
+        assert "timestamp" in entry
+
+    def test_appends_multiple_entries(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        fb.record_usage("agent-x")
+        fb.record_usage("agent-x")
+        fb.record_usage("agent-y")
+        usage = fb._read_usage()
+        assert usage == {"agent-x": 2, "agent-y": 1}
+
+
+class TestReadUsage:
+    def test_empty_when_no_file(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        assert fb._read_usage() == {}
+
+    def test_reads_usage_counts(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        fb.record_usage("agent-x")
+        fb.record_usage("agent-x")
+        fb.record_usage("agent-y")
+        result = fb._read_usage()
+        assert result["agent-x"] == 2
+        assert result["agent-y"] == 1
+
+    def test_skips_corrupted_lines(self, feedback_env_with_usage):
+        fb, _, usage_file = feedback_env_with_usage
+        fb.record_usage("agent-x")
+        with open(usage_file, "a", encoding="utf-8") as f:
+            f.write("{invalid}\n")
+        result = fb._read_usage()
+        assert result["agent-x"] == 1
+
+
+class TestPromptForFeedback:
+    def test_all_rated_when_used_3plus(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        for _ in range(3):
+            fb.record_usage("agent-x")
+        fb.add_feedback("agent-x", rating=4)
+        buf = io.StringIO()
+        with mock.patch.object(sys, "stdout", buf):
+            fb.prompt_for_feedback()
+        output = buf.getvalue()
+        assert "All frequently used agents" in output
+
+    def test_lists_unrated_agents_used_3plus(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        for _ in range(5):
+            fb.record_usage("needs-rating")
+        buf = io.StringIO()
+        with mock.patch.object(sys, "stdout", buf):
+            fb.prompt_for_feedback()
+        output = buf.getvalue()
+        assert "needs-rating" in output
+        assert "used 5 times" in output
+
+    def test_skips_low_usage_unrated(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        fb.record_usage("low-agent")
+        fb.record_usage("low-agent")
+        buf = io.StringIO()
+        with mock.patch.object(sys, "stdout", buf):
+            fb.prompt_for_feedback()
+        assert "All frequently used agents" in buf.getvalue()
+
+    def test_shows_rated_vs_unrated_summary(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        for _ in range(3):
+            fb.record_usage("rated-agent")
+        fb.add_feedback("rated-agent", rating=5)
+        for _ in range(4):
+            fb.record_usage("unrated-agent")
+        buf = io.StringIO()
+        with mock.patch.object(sys, "stdout", buf):
+            fb.prompt_for_feedback()
+        output = buf.getvalue()
+        assert "Rated: 1/2" in output
+
+
+class TestMainCLIUsedPrompt:
+    def test_used_flag(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        with mock.patch.object(sys, "argv", ["feedback.py", "--used", "agent-x"]):
+            fb.main()
+        usage = fb._read_usage()
+        assert usage.get("agent-x") == 1
+
+    def test_prompt_flag_empty(self, feedback_env_with_usage):
+        fb, _, _ = feedback_env_with_usage
+        buf = io.StringIO()
+        with mock.patch.object(sys, "stdout", buf),              mock.patch.object(sys, "argv", ["feedback.py", "--prompt"]):
+            fb.main()
+        assert "All frequently used agents" in buf.getvalue()

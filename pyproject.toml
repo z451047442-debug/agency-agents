@@ -7,7 +7,7 @@ py-modules = ["agency_cli"]
 
 [project]
 name = "agency-agents"
-version = "2.0.3"
+version = "2.0.4"
 description = "1406 AI agent personality definitions + quality toolkit for coding tools"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -37,31 +37,14 @@ addopts = "-v --tb=short"
 source = ["scripts"]
 omit = [
     "scripts/_shared/__init__.py",
-    # Historical one-off maintenance scripts (0% coverage, no longer modified)
-    "scripts/upgrade*.py",
-    "scripts/batch-second*.py",
-    "scripts/batch-third*.py",
-    "scripts/batch-methodology*.py",
-    "scripts/b_agent_report.py",
-    "scripts/debug_method_depth.py",
-    "scripts/boost-actionability.py",
-    "scripts/clean-boilerplate.py",
-    "scripts/decentralize-deps.py",
-    "scripts/enhance_deliverables.py",
-    "scripts/fix_references.py",
-    "scripts/fixup*.py",
-    "scripts/improvement-plan.py",
-    "scripts/add_methodology_framework*.py",
     "scripts/ab-test.py",
     "scripts/ab-evaluate.py",
-    "scripts/target-fix.py",
     "scripts/check-contributor-ladder.py",
-    "scripts/enhance-agents.py",
-    "scripts/inject-safeguards.py",
+    "scripts/telemetry.py",
 ]
 
 [tool.coverage.report]
-fail_under = 80
+fail_under = 90
 exclude_also = [
     "if __name__ == .__main__.:",
 ]
@@ -93,17 +76,7 @@ ignore = [
 "scripts/agent-lifecycle.py" = ["B007"]
 "scripts/score-agents.py" = ["B007"]
 "scripts/validate-index.py" = ["C401"]
-# Historical maintenance scripts (no longer modified, excluded from coverage)
 "scripts/ab-*.py" = ["E402"]
-"scripts/add_methodology_framework*.py" = ["B007"]
-"scripts/batch-methodology-framework.py" = ["F841"]
-"scripts/batch-second-pass.py" = ["F841", "B007"]
-"scripts/boost-actionability.py" = ["E701", "E702"]
-"scripts/clean-boilerplate.py" = ["E701", "E702"]
-"scripts/decentralize-deps.py" = ["B007"]
-"scripts/fix_references.py" = ["F841"]
-"scripts/fixup*.py" = ["B007"]
-"scripts/upgrade*.py" = ["F841", "C401"]
 
 [tool.ruff.format]
 quote-style = "double"

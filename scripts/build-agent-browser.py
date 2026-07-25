@@ -14,6 +14,75 @@ from pathlib import Path
 
 from _shared import REPO
 
+ZH_LABELS = {
+    "_solution": "解决方案",
+    "administration": "行政管理",
+    "aerospace": "航空航天",
+    "agriculture": "农业",
+    "automotive": "汽车",
+    "beauty": "美妆",
+    "construction": "建筑工程",
+    "customer-service": "客户服务",
+    "cybersecurity": "网络安全",
+    "data-science": "数据科学",
+    "design": "设计",
+    "education": "教育",
+    "emergency": "应急管理",
+    "energy": "能源",
+    "engineering": "工程开发",
+    "environmental": "环境",
+    "events": "活动会展",
+    "fashion": "时尚",
+    "finance": "金融",
+    "food-beverage": "食品饮料",
+    "forestry": "林业",
+    "game-development": "游戏开发",
+    "gis": "地理信息",
+    "government": "政府",
+    "healthcare": "医疗健康",
+    "home-lifestyle": "家居生活",
+    "hr": "人力资源",
+    "hr-tech": "HR科技",
+    "infrastructure": "基础设施",
+    "insurance": "保险",
+    "iot": "物联网",
+    "legal": "法律",
+    "libraries": "图书馆",
+    "localization": "本地化",
+    "logistics": "物流",
+    "lottery": "彩票",
+    "manufacturing": "制造业",
+    "marketing": "市场营销",
+    "media-entertainment": "媒体娱乐",
+    "mining": "矿业",
+    "museums": "博物馆",
+    "network-engineering": "网络工程",
+    "nonprofit": "公益",
+    "operations": "运营",
+    "parenting-family": "亲子家庭",
+    "pets": "宠物",
+    "pharma-biotech": "医药生物",
+    "product": "产品",
+    "project-management": "项目管理",
+    "publishing": "出版",
+    "quality": "质量管理",
+    "real-estate": "房地产",
+    "retail": "零售",
+    "robotics": "机器人",
+    "sales": "销售",
+    "securities": "证券",
+    "security": "安全",
+    "spatial-computing": "空间计算",
+    "specialized": "专业角色",
+    "sports": "体育",
+    "strategy": "战略咨询",
+    "telecom": "电信",
+    "testing": "测试",
+    "thinking-models": "思维模型",
+    "tourism": "旅游",
+    "web3": "Web3",
+}
+
 HTML = r"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -85,9 +154,12 @@ function buildCatList() {
     cats[a.category] = (cats[a.category] || 0) + 1;
   });
   var sorted = Object.keys(cats).sort();
+  var labels = DATA.category_labels || {};
   var html = '<div class="cat-item all active" data-cat=""><span>全部 Agent</span><span class="count">' + DATA.total_agents + '</span></div>';
   sorted.forEach(function(c) {
-    html += '<div class="cat-item" data-cat="' + c + '"><span>' + c + '</span><span class="count">' + cats[c] + '</span></div>';
+    var zh = labels[c] || '';
+    var display = zh ? zh + ' ' + c : c;
+    html += '<div class="cat-item" data-cat="' + c + '"><span>' + display + '</span><span class="count">' + cats[c] + '</span></div>';
   });
   document.getElementById('catList').innerHTML = html;
   document.querySelectorAll('.cat-item').forEach(function(el) {
@@ -174,6 +246,7 @@ def main():
 
     data = json.loads(index_path.read_text(encoding="utf-8"))
     del data["generated"]
+    data["category_labels"] = ZH_LABELS
 
     html = HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False))
 

@@ -524,6 +524,7 @@ Generated: {data['generated']}
 # ==========================================================================
 
 ZH_LABELS: dict[str, str] = {
+    "_solution": "解决方案",
     "administration": "行政管理",
     "aerospace": "航空航天",
     "agriculture": "农业",

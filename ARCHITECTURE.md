@@ -2,7 +2,7 @@
 
 **1,406 AI Agent Personality Definitions · 66 Categories · 33 Tooling Scripts · 1,200 Tests**
 
-Generated: 2026-07-25 02:40 UTC
+Generated: 2026-07-25 22:50 UTC
 
 ---
 
@@ -189,7 +189,7 @@ Plus 20 shell wrappers (thin entry points delegating to .py counterparts).
 | 家居生活 | home-lifestyle | 5 |
 | 博物馆 | museums | 5 |
 | 亲子家庭 | parenting-family | 5 |
-| _solution | _solution | 3 |
+| 解决方案 | _solution | 3 |
 | 图书馆 | libraries | 3 |
 
 ### Special Directories
@@ -287,9 +287,9 @@ All 16 consumers depend on `_shared/` modules; cross-script imports use `load_mo
 
 ## Layer 7: NEXUS Multi-Agent Orchestration
 
-Phase 0: Discovery -> Phase 1: Strategy -> Phase 2: Foundation -> Phase 2: Strategy -> Phase 3: Build -> Phase 4: Hardening -> Phase 5: Launch -> Phase 6: Operate
+Phase 0: Discovery -> Phase 1: Strategy -> Phase 2: Foundation -> Phase 3: Build -> Phase 4: Hardening -> Phase 5: Launch -> Phase 6: Operate
 
-**8 phases** with 1,406 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
+**7 phases** with 1,406 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
 
 Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` | `docs/runbooks/` | `docs/teams/` | `docs/coordination/`
 
@@ -307,6 +307,6 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 | Tests | 1,200 across 34 modules |
 | CI workflows | 7 |
 | Integration targets | 6 |
-| NEXUS phases | 8 |
+| NEXUS phases | 7 |
 
-Generated: 2026-07-25 02:40 UTC
+Generated: 2026-07-25 22:50 UTC

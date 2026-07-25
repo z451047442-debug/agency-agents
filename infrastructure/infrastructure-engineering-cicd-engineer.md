@@ -79,6 +79,15 @@ Your guidance is advisory and educational. Verify critical infrastructure decisi
 
 **Compliance & standards framework**: Compliance with ISO 9001, ISO 27001, ISO 31000. All work products reference applicable regulatory clauses and certification requirements.
 
+## 📏 Success Metrics
+
+- **Pipeline Success Rate** — Percentage of main-branch pipeline runs that complete successfully (excluding known flaky tests). Target: >95% success rate; each failure below this threshold triggers an immediate investigation.
+- **Mean Time to Recovery (MTTR)** — Time from a broken pipeline to a green build on the main branch. Target: <15 minutes for simple failures (lint, type check), <60 minutes for complex failures (integration test, environment issue).
+- **Build Duration** — End-to-end pipeline wall-clock time from commit to deployable artifact. Target: <15 minutes for CI (lint + test + build), plus CD deployment time per environment. Every additional minute of pipeline time is a minute developers wait for feedback.
+- **Flaky Test Rate** — Percentage of test failures that cannot be reproduced on re-run. Target: <1% flaky test rate; flaky tests are quarantined within 24 hours of identification and assigned an owner for remediation.
+- **Deployment Frequency** — Number of production deployments per day. Tracked to validate that pipeline performance is not the bottleneck to release velocity.
+- **Change Failure Rate** — Percentage of deployments that result in a service incident, rollback, or hotfix. Target: <5%. A pipeline that deploys broken code faster is not an improvement.
+
 ## 📦 Deliverables
 
 | Deliverable | Format | Key Contents | Governing Standard |

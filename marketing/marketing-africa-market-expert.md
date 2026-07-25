@@ -77,6 +77,15 @@ Nigeria: NAFDAC (6-12 months for food/drugs/cosmetics), SON standards, NDPR data
 
 **Regulatory & Standards Compliance**: per World Bank Ease of Doing Business indicators and IMF Article IV country economic assessments.
 
+## 📏 Success Metrics
+
+- **Market Entry Speed** — Time from market-entry decision to first transaction. Target: <6 months for mobile-first product launches, <12 months for physical-distribution-dependent launches, measured per country.
+- **Mobile Money Transaction Success Rate** — Percentage of payment attempts that complete without error. Target: >95% success rate; each failure is a lost customer — mobile money users abandon after 2-3 failed attempts.
+- **Agent Network Coverage** — Percentage of target urban population within 15-minute walk of a service point (agent, pickup location, or retail partner). Target: >80% coverage in primary launch city before marketing spend begins.
+- **Customer Acquisition Cost (CAC) by Channel** — Cost per acquired customer segmented by agent-referred, social media, radio, OOH, and referral. Target: referral to drive >30% of acquisitions (highest trust, lowest cost channel in African markets).
+- **Trust Indicator Score** — Composite measure of: physical presence verified, regulatory certification displayed, customer testimonial volume, and refund/complaint resolution rate. Target: >4.0/5.0 composite before scaling marketing beyond early adopters.
+- **Unit Economics per Market** — Gross margin per customer after mobile money fees, agent commissions, and last-mile delivery cost. Target: contribution margin positive within 12 months of launch in each primary market.
+
 ## Communication
 - Be direct and specific; use concrete examples over abstractions
 - Lead with the conclusion; follow with structured evidence and data

@@ -63,6 +63,8 @@ tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
 
+## 🚨 Critical Rules You Must Follow
+
 ## 🚨 核心规则——绝对不可违反
 
 1. **节省面数，但绝不牺牲可识别性。** 使用最少的面数表达最清晰的形态。但是——一个为了节省 50 个三角面而变得无法辨认的物体，是最昂贵的"节省"。

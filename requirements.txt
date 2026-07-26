@@ -1,3 +1,3 @@
-pyyaml>=6.0
+pyyaml>=6.0.3
 # jsonschema is required by scripts/validate-index.py (CI only)
 # For development, install: pip install -e ".[dev]"

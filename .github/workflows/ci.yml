@@ -80,8 +80,8 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
-      - name: Quality score gate (v5)
-        run: python scripts/score-agents.py --v5 --threshold 9 --json
+      - name: Quality score gate (v7)
+        run: python scripts/score-agents.py --threshold 8 --json
 
   cross-platform:
     name: "test (${{ matrix.os }}, py${{ matrix.python-version }})"

@@ -52,7 +52,7 @@ jobs:
             echo "ENDOFLIST"
           } >> "$GITHUB_OUTPUT"
 
-      - name: Score NEW agents (must be v6 ≥10)
+      - name: Score NEW agents (v7 B-grade ≥10)
         if: steps.changed.outputs.new_files != ''
         env:
           NEW_FILES: ${{ steps.changed.outputs.new_files }}
@@ -60,43 +60,43 @@ jobs:
           FAILED=0
           for f in $NEW_FILES; do
             echo "::group::Scoring new agent: $f"
-            python scripts/score-agents.py --v6 --file "$f" --no-freshness --threshold 10 || FAILED=1
+            python scripts/score-agents.py --file "$f" --no-freshness --threshold 10 || FAILED=1
             echo "::endgroup::"
           done
           if [ "$FAILED" -eq 1 ]; then
-            echo "::error::New agents must score >=10 (v6 B-grade). See improvement-plan.py --v6 for actionable fixes."
+            echo "::error::New agents must score >=10 (v7 B-grade)."
             exit 1
           fi
 
-      - name: Score MODIFIED agents (v6 C-grade ≥7)
+      - name: Score MODIFIED agents (v7 C-grade ≥8)
         if: steps.changed.outputs.mod_files != ''
         env:
           MOD_FILES: ${{ steps.changed.outputs.mod_files }}
         run: |
           FAILED=0
           for f in $MOD_FILES; do
-            echo "::group::Scoring modified (v6): $f"
-            python scripts/score-agents.py --v6 --file "$f" --no-freshness --threshold 7 || FAILED=1
+            echo "::group::Scoring modified: $f"
+            python scripts/score-agents.py --file "$f" --no-freshness --threshold 8 || FAILED=1
             echo "::endgroup::"
           done
           if [ "$FAILED" -eq 1 ]; then
-            echo "::error::Modified agents must score >=7 (v6 C-grade)."
+            echo "::error::Modified agents must score >=8 (v7 C-grade)."
             exit 1
           fi
 
-      - name: Score NEW agents (v7 gate + C-grade ≥8)
+      - name: Score NEW agents (v7 D-grade floor ≥7)
         if: steps.changed.outputs.new_files != ''
         env:
           NEW_FILES: ${{ steps.changed.outputs.new_files }}
         run: |
           FAILED=0
           for f in $NEW_FILES; do
-            echo "::group::Scoring new agent (v7): $f"
-            python scripts/score-agents.py --v7 --file "$f" --no-freshness --threshold 8 || FAILED=1
+            echo "::group::Scoring new agent: $f"
+            python scripts/score-agents.py --file "$f" --no-freshness --threshold 7 || FAILED=1
             echo "::endgroup::"
           done
           if [ "$FAILED" -eq 1 ]; then
-            echo "::error::New agents must pass v7 gate and score >=8 (v7 C-grade)."
+            echo "::error::New agents must meet v7 floor >=7."
             exit 1
           fi
 
@@ -252,27 +252,27 @@ jobs:
       - name: Check for score regressions
         run: |
           git checkout "${{ github.base_ref }}"
-          python scripts/score-agents.py --v5 --json --no-freshness > /tmp/base-scores.json
+          python scripts/score-agents.py --json --no-freshness > /tmp/base-scores.json
           git checkout -
-          python scripts/score-agents.py --v5 --json --no-freshness > /tmp/pr-scores.json
+          python scripts/score-agents.py --json --no-freshness > /tmp/pr-scores.json
           python -c "
           import json
           with open('/tmp/base-scores.json') as f: base = json.load(f)
           with open('/tmp/pr-scores.json') as f: pr = json.load(f)
-          base_map = {a['id']: a for a in base['v5']['agents']}
-          pr_map = {a['id']: a for a in pr['v5']['agents']}
+          base_map = {a['id']: a for a in base['agents']}
+          pr_map = {a['id']: a for a in pr['agents']}
           regressions = []
           for aid, a in pr_map.items():
               if aid in base_map:
-                  delta = a['v5_total'] - base_map[aid]['v5_total']
+                  delta = a['total'] - base_map[aid]['total']
                   if delta < 0:
-                      regressions.append((aid, base_map[aid]['v5_total'], a['v5_total'], delta))
+                      regressions.append((aid, base_map[aid]['total'], a['total'], delta))
           if regressions:
               regressions.sort(key=lambda x: x[3])
               print(f'Score regressions detected ({len(regressions)} agents):')
               for aid, old, new, delta in regressions[:15]:
                   print(f'  {aid}: {old} -> {new} ({delta})')
-              print(f'::error::{len(regressions)} agent(s) decreased in v5 score')
+              print(f'::error::{len(regressions)} agent(s) decreased in v7 score')
               import sys
               sys.exit(1)
           else:

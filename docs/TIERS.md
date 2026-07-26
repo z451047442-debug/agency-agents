@@ -77,7 +77,7 @@ project-management-meeting-notes     8/B    tools=0  cases=2  words=874
 real-estate-buyer-seller             9/A    tools=0  cases=23 words=2485
 retail-category-manager              8/B    tools=1  cases=11 words=7998
 sales-outreach                       9/A    tools=0  cases=20 words=2107
-security-cloud-security-architect    8/B    tools=7  cases=4  words=2913  (high tools but boiler=4)
+cybersecurity-cloud-security-architect    8/B    tools=7  cases=4  words=2913  (high tools but boiler=4)
 thinking-models-ai-paradigms         7/B    tools=2  cases=0  words=837
 web3-engineering-blockchain-architect 8/B   tools=1  cases=3  words=578
 ... (22 more)

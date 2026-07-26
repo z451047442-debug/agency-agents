@@ -12,7 +12,7 @@ Security incident response — intrusion detection, vulnerability triage, attack
 |------|-------|---------------|
 | Commander | `cybersecurity-incident-response` | Overall coordination, decision-making, external communication |
 | Analyst | `cybersecurity-soc-analyst` | Log analysis, alert investigation, IOC extraction |
-| Engineer | `security-appsec-engineer` | Vulnerability patching, fix deployment |
+| Engineer | `cybersecurity-appsec-engineer` | Vulnerability patching, fix deployment |
 | Architect | `security-architect` | Architecture hardening, lateral movement blocking |
 | Forensics | `cybersecurity-digital-forensics` | Evidence collection, chain of custody, timeline analysis |
 

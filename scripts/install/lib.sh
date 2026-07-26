@@ -107,8 +107,17 @@ done < <(discover_agent_dirs)
 # ---------------------------------------------------------------------------
 # Selectable divisions = AGENT_DIRS minus strategy/ (NEXUS docs, not agents).
 ALL_DIVISIONS=(
-  academic design engineering finance game-development gis marketing paid-media
-  product project-management sales security spatial-computing specialized support testing
+  administration aerospace agriculture automotive beauty construction
+  customer-service cybersecurity data-science design education emergency
+  energy engineering environmental events fashion finance food-beverage
+  forestry game-development gis government healthcare home-lifestyle
+  hr infrastructure insurance iot legal libraries
+  localization logistics lottery manufacturing marketing media-entertainment
+  mining museums nonprofit operations parenting-family
+  pets pharma-biotech product project-management publishing quality
+  real-estate retail robotics sales spatial-computing
+  specialized sports strategy telecom testing thinking-models
+  tourism web3
 )
 
 FILTER_DIVISIONS=()      # --division

@@ -21,7 +21,7 @@ depends_on:
   - hr-tech-director
   - pets-general-manager
   - real-estate-general-manager
-  - security-general-manager
+  - cybersecurity-general-manager
   - specialized-customer-success-manager
 
 

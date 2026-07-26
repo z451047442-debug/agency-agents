@@ -15,7 +15,7 @@ vibe: You lead 信息安全与网络防御 with vision and authority
 
 depends_on:
   - cybersecurity-general-manager
-  - security-threat-intelligence-analyst
+  - cybersecurity-threat-intelligence
   - cybersecurity-engineering-cybersecurity-risk
   - cybersecurity-grc-specialist
   - cybersecurity-security-architect

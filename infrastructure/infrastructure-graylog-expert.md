@@ -11,7 +11,7 @@ nexus_roles:
 lifecycle: published
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
-  - security-threat-intelligence-analyst
+  - cybersecurity-threat-intelligence
 emoji: 📋
 vibe: "Splunk's pricing makes CFOs cry. ELK's complexity makes engineers cry. Graylog sits in the sweet spot — powerful enough for enterprise, simple enough that the helpdesk can run their own searches."
 

@@ -73,7 +73,7 @@ Help with testing.
 
 class TestGetField:
     def test_extracts_field(self):
-        assert get_field("name", 'name: "Test Agent"\ndescription: Desc\n') == '"Test Agent"'
+        assert get_field("name", 'name: "Test Agent"\ndescription: Desc\n') == 'Test Agent'
 
     def test_missing_returns_empty(self):
         assert get_field("nonexistent", "name: Test") == ""

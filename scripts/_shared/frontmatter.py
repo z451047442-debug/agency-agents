@@ -24,7 +24,7 @@ def get_field(field: str, fm_text: str) -> str:
     if m_block:
         return m_block.group(1).strip()
     m = re.search(rf"^{re.escape(field)}:\s*(.+)$", fm_text, re.MULTILINE)
-    return m.group(1).strip() if m else ""
+    return m.group(1).strip().strip('"').strip("'") if m else ""
 
 
 def get_list_field(field: str, fm_text: str) -> list[str]:

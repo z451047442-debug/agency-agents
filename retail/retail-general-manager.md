@@ -20,7 +20,7 @@ depends_on:
   - pets-general-manager
   - real-estate-general-manager
   - retail-director
-  - security-general-manager
+  - cybersecurity-general-manager
   - specialized-customer-success-manager
 
 ---

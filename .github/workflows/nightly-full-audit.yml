@@ -27,7 +27,7 @@ jobs:
         run: bash scripts/generate-index.sh
 
       - name: Quality scoring (v7)
-        run: python scripts/score-agents.py --v7 --json
+        run: python scripts/score-agents.py --json
 
       - name: Duplicate detection
         run: bash scripts/check-dupes.sh --threshold 0.90

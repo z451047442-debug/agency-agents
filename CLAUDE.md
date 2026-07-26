@@ -2,7 +2,7 @@
 
 ## Project overview
 
-The Agency is a collection of 1406 AI agent personality definitions (`.md` files with YAML frontmatter) organized into 66 industry categories. Each agent file defines a specialized expert — its identity, mission, workflows, deliverables, and communication style. These files are installed into AI coding tools (Claude Code, Copilot, Cursor, Windsurf, Gemini CLI, etc.) to provide on-demand domain expertise.
+The Agency is a collection of 1399 AI agent personality definitions (`.md` files with YAML frontmatter) organized into 62 industry categories. Each agent file defines a specialized expert — its identity, mission, workflows, deliverables, and communication style. These files are installed into AI coding tools (Claude Code, Copilot, Cursor, Windsurf, Gemini CLI, etc.) to provide on-demand domain expertise.
 
 The project has **no runtime code** — it is a content repository. Python scripts under `scripts/` handle installation, linting, validation, indexing, and tool-specific integration. Shell scripts in the same directory are thin wrappers around their Python counterparts.
 
@@ -53,12 +53,11 @@ python scripts/convert.py --parallel --jobs 4   # parallel mode for speed
 ./scripts/score-agents.sh            # quality scoring (A-D with real variance)
 ./scripts/score-agents.sh --category infrastructure
 python scripts/score-agents.py --risk critical       # filter by risk tier (critical/high)
-python scripts/score-agents.py --below 6              # agents scoring below 6
-python scripts/score-agents.py --above 8              # agents scoring above 8
-python scripts/score-agents.py --threshold 7 --json   # CI gate (A=9+, B=7+, C=5+, D=0-4)
-./scripts/check-deps.sh              # validate depends_on references
-./scripts/check-deps.sh --manifest   # output depends_on.json
-python scripts/check-deps.py         # cross-platform Python version
+python scripts/score-agents.py --below 8              # agents scoring below 8 (v7 scale)
+python scripts/score-agents.py --above 12             # agents scoring above 12 (v7 A-grade)
+python scripts/score-agents.py --threshold 8 --json   # CI gate (v7: A≥12.5, B≥10, C≥8, D<8)
+python scripts/analyze-deps.py --validate       # validate depends_on references
+python scripts/analyze-deps.py --json             # output depends_on.json (machine-readable)
 python scripts/analyze-deps.py --cross-stats   # cross-category dep coverage by category
 python scripts/analyze-deps.py --apply         # write suggested cross-category deps
 ./scripts/check-dupes.sh             # detect near-duplicates (with score comparison)
@@ -87,6 +86,19 @@ python -m mypy scripts/              # static type checking (optional)
 ./scripts/install.sh --verify --tool claude-code    # verify install integrity
 ./scripts/install.sh --uninstall --agent engineering-frontend-developer --tool claude-code
 ./scripts/convert.sh --check                       # verify integrations/ is in sync (CI)
+
+# Index validation & maintenance
+python scripts/validate-index.py                 # validate AGENTS.json integrity + cross-ref check
+python scripts/shard-index.py                    # shard index for parallel processing
+python scripts/check-contributor-ladder.py       # audit contributor ladder compliance
+python scripts/build-hermes-plugin.py            # build Hermes router plugin from agents
+
+# A/B testing tools
+python scripts/ab-test.py --case tests/ab-cases/tc-001.json  # run A/B test against agents
+python scripts/ab-evaluate.py --result tests/ab-results/     # evaluate A/B test results
+
+# Telemetry (internal)
+python scripts/telemetry.py                      # collect and report usage telemetry
 
 # Git maintenance tools
 ./scripts/agent-diff.sh path/to/agent.md
@@ -117,8 +129,8 @@ python scripts/nexus-orchestrator.py --export        # export project state
 python scripts/analyze-deps.py --validate            # check all depends_on refs
 python scripts/analyze-deps.py --cross-stats         # cross-category dep coverage
 python scripts/analyze-deps.py --apply               # write suggested cross-category deps
-python scripts/check-deps.py                         # validate depends_on references
-python scripts/check-deps.py --manifest              # output depends_on.json
+python scripts/analyze-deps.py --validate            # validate depends_on references
+python scripts/analyze-deps.py --json                 # output depends_on.json
 python scripts/batch-add-deps.py --category engineering  # batch add deps to agents
 
 # Content quality & maintenance
@@ -176,7 +188,8 @@ Optional frontmatter: `vibe` (personality primer), `nexus_roles` (NEXUS pipeline
 
 The linter (`scripts/lint-agents.py`) enforces:
 - **ERROR**: missing required frontmatter fields (`name`, `description`, `emoji`, `color`), invalid YAML, CRLF line endings
-- **WARN**: missing recommended sections, file < 100 words, file > 10 KB, missing `nexus_roles`, broken internal links, filename/category mismatch, missing SOUL/AGENTS headers
+- **WARN**: missing recommended sections, file < 100 words, file > 55 KB, missing `nexus_roles`, broken internal links, filename/category mismatch, missing SOUL/AGENTS headers
+- **ERROR**: file > 80 KB (way too large)
 - **INFO**: stale content (>12 months since last git change), empty `depends_on`
 
 ## Category directory conventions

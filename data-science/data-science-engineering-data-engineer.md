@@ -11,7 +11,7 @@ depends_on:
   - engineering-email-intelligence-engineer
   - engineering-git-workflow-master
   - marketing-email-marketing
-  - security-threat-intelligence-analyst
+  - cybersecurity-threat-intelligence
   - tourism-travel-experience-designer
   - data-science-multi-agent-coordinator
 description: 数据管道、湖仓架构与 ETL/ELT 专家

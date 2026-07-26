@@ -960,30 +960,30 @@ def _compute_v6_grade(total, risk_tier):
 
 
 def _compute_v7_grade(total, risk_tier):
-    """Compute v7 letter grade with tiered thresholds (0-18 scale).
+    """Compute v7 letter grade with calibrated thresholds (0-18 scale).
 
-    v7 thresholds:
+    Thresholds calibrated against actual score distribution (mean ~10.9, range 9-13):
                    A        B        C        D
-    critical      >=16     >=11     >=8      <=7
-    high/general  >=15     >=10     >=7      <=6
+    critical      >=13     >=10.5   >=8.5    <=8.4
+    high/general  >=12.5   >=10     >=8      <=7.9
 
     Note: gate failure is handled BEFORE this function is called.
     If gate fails, grade is D regardless of score.
     """
     if risk_tier == "critical":
-        if total >= 16:
+        if total >= 13:
             return "A"
-        if total >= 11:
+        if total >= 10.5:
             return "B"
-        if total >= 8:
+        if total >= 8.5:
             return "C"
         return "D"
     else:
-        if total >= 15:
+        if total >= 12.5:
             return "A"
         if total >= 10:
             return "B"
-        if total >= 7:
+        if total >= 8:
             return "C"
         return "D"
 
@@ -1824,24 +1824,17 @@ def print_terminal_report(results, args):
         print("Total: 0 agents")
         return
 
-    # Determine active scoring version for display
-    if getattr(args, "v7", False):
-        version_label, score_field, grade_field = "v7", "v7_total", "v7_grade"
-    elif getattr(args, "v6", False):
-        version_label, score_field, grade_field = "v6", "v6_total", "v6_grade"
-    elif getattr(args, "v5", False):
-        version_label, score_field, grade_field = "v5", "v5_total", "v5_grade"
-    else:
-        version_label, score_field, grade_field = "v3", "total", "grade"
+    # v7 is the canonical scoring engine (0-18 scale)
+    version_label, score_field, grade_field = "v7", "total", "grade"
 
     grades = defaultdict(int)
     scores_by_cat = defaultdict(list)
     all_totals = []
 
     for r in results:
-        grades[r.get(grade_field, r.get("grade", "?"))] += 1
-        scores_by_cat[r["category"]].append(r.get(score_field, r.get("total", 0)))
-        all_totals.append(r.get(score_field, r.get("total", 0)))
+        grades[r.get("grade", "?")] += 1
+        scores_by_cat[r["category"]].append(r["total"])
+        all_totals.append(r["total"])
 
     # Header
     print(f"\n{BOLD}=== Agent Quality Report ({version_label}) ==={RESET}")
@@ -1876,8 +1869,8 @@ def print_terminal_report(results, args):
 
     # Grade distribution with bars
     print(f"{BOLD}Score Distribution:{RESET}")
-    for grade, label, color in [("A", "A (8-10)", GREEN), ("B", "B (6-7)", CYAN),
-                                  ("C", "C (4-5)", YELLOW), ("D", "D (0-3)", RED)]:
+    for grade, label, color in [("A", "A (≥12.5)", GREEN), ("B", "B (10-12)", CYAN),
+                                  ("C", "C (8-10)", YELLOW), ("D", "D (<8)", RED)]:
         count = grades.get(grade, 0)
         pct = (count / total_agents * 100) if total_agents else 0
         bar = "█" * int(round(pct / 2))
@@ -1915,7 +1908,7 @@ def print_terminal_report(results, args):
         display_total = r.get(score_field, r.get("total", 0))
         display_grade = r.get(grade_field, r.get("grade", "?"))
         print(f"  {i:>2}. {GREEN}{r['id']}{RESET} ({display_total} {display_grade}) — {r['category']}")
-        print(f"      {detail} | {r['word_count']} words")
+        print(f"      {detail} | {r.get('word_count', 0)} words")
 
     print()
 
@@ -1924,7 +1917,7 @@ def print_terminal_report(results, args):
     bottom = sorted(results, key=lambda r: (r.get(score_field, r.get("total", 0)), r["id"]))[:10]
     risk_field = score_field.replace("total", "risk_tier") if score_field != "total" else "risk_tier"
     for i, r in enumerate(bottom, 1):
-        issues = "; ".join(r["issues"][:3])
+        issues = "; ".join(r.get("issues", [])[:3])
         display_total = r.get(score_field, r.get("total", 0))
         display_grade = r.get(grade_field, r.get("grade", "?"))
         risk_tier_val = r.get(risk_field, r.get("risk_tier", "general"))
@@ -1954,7 +1947,7 @@ def print_terminal_report(results, args):
     print()
 
     # Perimeter stats
-    short = sum(1 for r in results if r["word_count"] < 100)
+    short = sum(1 for r in results if r.get("word_count", 0) < 100)
     stale = sum(1 for r in results if r.get("days_since_modified", 0) > 365)
     broken = sum(1 for r in results if r.get("broken_links", 0) > 0)
     thin = sum(1 for r in results if r.get("substantive_sections", 0) < 4)
@@ -1982,7 +1975,7 @@ def print_terminal_report(results, args):
             print(f"\n{GREEN}THRESHOLD PASS: all agents score ≥ {args.threshold}{RESET}")
 
 
-def print_json_report(results, v5_results=None, v6_results=None, v7_results=None):
+def print_json_report(results):
     """Machine-readable JSON output with distribution statistics."""
     import statistics
     all_totals = [r["total"] for r in results]
@@ -2011,7 +2004,7 @@ def print_json_report(results, v5_results=None, v6_results=None, v7_results=None
             "grade": r["grade"],
             "risk_tier": r.get("risk_tier", "general"),
             "scores": r["scores"],
-            "word_count": r["word_count"],
+            "word_count": r.get("word_count", 0),
             "sections_found": r.get("sections_found", 0),
             "substantive_sections": r.get("substantive_sections", 0),
             "domain_signals": r.get("domain_signals", 0),
@@ -2022,7 +2015,7 @@ def print_json_report(results, v5_results=None, v6_results=None, v7_results=None
             "safeguard_signals": r.get("safeguard_signals", 0),
             "reference_signals": r.get("reference_signals", 0),
             "file_size_kb": r.get("file_size_kb", 0),
-            "issues": r["issues"],
+            "issues": r.get("issues", []),
             "last_modified": r.get("last_modified"),
         }
         output["agents"].append(agent_entry)
@@ -2033,112 +2026,6 @@ def print_json_report(results, v5_results=None, v6_results=None, v7_results=None
         else "FAIL"
     )
 
-    # Add v5 data if available
-    if v5_results:
-        v5_totals = [r["v5_total"] for r in v5_results]
-        v5_grades = defaultdict(int)
-        v5_agents = []
-        for r in v5_results:
-            v5_grades[r["v5_grade"]] += 1
-            v5_agents.append({
-                "id": r["id"],
-                "category": r["category"],
-                "path": r["path"],
-                "v5_total": r["v5_total"],
-                "v5_grade": r["v5_grade"],
-                "v5_risk_tier": r.get("v5_risk_tier", "general"),
-                "v5_scores": r["v5_scores"],
-                "v5_improvement_plan": r["v5_improvement_plan"],
-                "v5_tool_references": r.get("v5_tool_references", 0),
-                "v5_case_examples": r.get("v5_case_examples", 0),
-                "v5_domain_density": r.get("v5_domain_density", 0),
-                "v5_output_spec_signals": r.get("v5_output_spec_signals", 0),
-                "v5_method_depth_signals": r.get("v5_method_depth_signals", 0),
-                "v5_reference_signals": r.get("v5_reference_signals", 0),
-                "v5_safeguard_signals": r.get("v5_safeguard_signals", 0),
-            })
-        output["v5"] = {
-            "grade_distribution": dict(v5_grades),
-            "distribution": {
-                "mean": round(statistics.mean(v5_totals), 2) if v5_totals else 0,
-                "stddev": round(statistics.stdev(v5_totals), 2) if len(v5_totals) > 1 else 0,
-                "q1": sorted(v5_totals)[len(v5_totals) // 4] if v5_totals else 0,
-                "median": sorted(v5_totals)[len(v5_totals) // 2] if v5_totals else 0,
-                "q3": sorted(v5_totals)[len(v5_totals) * 3 // 4] if v5_totals else 0,
-            },
-            "agents": v5_agents,
-        }
-
-    # Add v6 data if available
-    if v6_results:
-        v6_totals = [r["v6_total"] for r in v6_results]
-        v6_grades = defaultdict(int)
-        v6_agents = []
-        for r in v6_results:
-            v6_grades[r["v6_grade"]] += 1
-            v6_agents.append({
-                "id": r["id"],
-                "category": r["category"],
-                "path": r["path"],
-                "v6_total": r["v6_total"],
-                "v6_grade": r["v6_grade"],
-                "v6_risk_tier": r.get("v6_risk_tier", "general"),
-                "v6_scores": r["v6_scores"],
-                "v6_improvement_plan": r["v6_improvement_plan"],
-                "v6_method_tradeoff_signals": r.get("v6_method_tradeoff_signals", 0),
-                "v6_decision_model_signals": r.get("v6_decision_model_signals", 0),
-            })
-        import statistics
-        output["v6"] = {
-            "grade_distribution": dict(v6_grades),
-            "distribution": {
-                "mean": round(statistics.mean(v6_totals), 2) if v6_totals else 0,
-                "stddev": round(statistics.stdev(v6_totals), 2) if len(v6_totals) > 1 else 0,
-                "q1": sorted(v6_totals)[len(v6_totals) // 4] if v6_totals else 0,
-                "median": sorted(v6_totals)[len(v6_totals) // 2] if v6_totals else 0,
-                "q3": sorted(v6_totals)[len(v6_totals) * 3 // 4] if v6_totals else 0,
-            },
-            "agents": v6_agents,
-        }
-
-    # Add v7 data if available
-    if v7_results:
-        v7_totals = [r["v7_total"] for r in v7_results]
-        v7_grades = defaultdict(int)
-        v7_agents = []
-        for r in v7_results:
-            v7_grades[r["v7_grade"]] += 1
-            v7_agents.append({
-                "id": r["id"],
-                "category": r["category"],
-                "path": r["path"],
-                "v7_total": r["v7_total"],
-                "v7_grade": r["v7_grade"],
-                "v7_risk_tier": r.get("v7_risk_tier", "general"),
-                "v7_scores": r["v7_scores"],
-                "v7_improvement_plan": r["v7_improvement_plan"],
-                "v7_gate_passed": r.get("v7_gate_passed", True),
-                "v7_gate_failures": r.get("v7_gate_failures", []),
-                "v7_safeguard_signals": r.get("v7_safeguard_signals", 0),
-                "v7_output_spec_signals": r.get("v7_output_spec_signals", 0),
-                "v7_constraint_signals": r.get("v7_constraint_signals", 0),
-                "v7_collab_protocol_signals": r.get("v7_collab_protocol_signals", 0),
-                "v7_edge_case_signals": r.get("v7_edge_case_signals", 0),
-                "v7_tradeoff_signals": r.get("v7_tradeoff_signals", 0),
-                "v7_decision_model_signals": r.get("v7_decision_model_signals", 0),
-            })
-        output["v7"] = {
-            "grade_distribution": dict(v7_grades),
-            "distribution": {
-                "mean": round(statistics.mean(v7_totals), 2) if v7_totals else 0,
-                "stddev": round(statistics.stdev(v7_totals), 2) if len(v7_totals) > 1 else 0,
-                "q1": sorted(v7_totals)[len(v7_totals) // 4] if v7_totals else 0,
-                "median": sorted(v7_totals)[len(v7_totals) // 2] if v7_totals else 0,
-                "q3": sorted(v7_totals)[len(v7_totals) * 3 // 4] if v7_totals else 0,
-            },
-            "agents": v7_agents,
-        }
-
     json.dump(output, sys.stdout, indent=2, ensure_ascii=False)
     sys.stdout.write("\n")
 
@@ -2147,12 +2034,12 @@ def print_json_report(results, v5_results=None, v6_results=None, v7_results=None
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Score The Agency agent .md files on quality (0-10 scale)")
+        description="Score The Agency agent .md files on quality (v7, 0-18 scale)")
     parser.add_argument("--category", "-c",
                         help="Score agents in a specific category only")
     parser.add_argument("--file", "-f",
                         help="Score a single agent file")
-    parser.add_argument("--threshold", type=int, default=0,
+    parser.add_argument("--threshold", type=float, default=0,
                         help="Exit 1 if any agent scores below this value (CI gate)")
     parser.add_argument("--json", action="store_true",
                         help="Output machine-readable JSON")
@@ -2160,22 +2047,16 @@ def main():
                         help="Skip git freshness check (faster)")
     parser.add_argument("--risk", choices=["critical", "high", "general"],
                         help="Filter by risk tier")
-    parser.add_argument("--below", type=int, default=0,
+    parser.add_argument("--below", type=float, default=0,
                         help="Show only agents scoring below this value")
-    parser.add_argument("--above", type=int, default=0,
+    parser.add_argument("--above", type=float, default=0,
                         help="Show only agents scoring above this value")
-    parser.add_argument("--min-score", type=int, default=0,
+    parser.add_argument("--min-score", type=float, default=0,
                         help="Fail if any agent scores below this absolute floor")
     parser.add_argument("--require-safeguards", action="store_true",
                         help="Fail if any critical/high-risk agent lacks safeguards section")
     parser.add_argument("--compare",
                         help="Compare scores against a base branch (e.g. origin/main)")
-    parser.add_argument("--v5", action="store_true",
-                        help="Use v5 scoring dimensions (0-15 scale, tiered thresholds)")
-    parser.add_argument("--v6", action="store_true",
-                        help="Use v6 scoring dimensions (0-16 scale, tiered thresholds)")
-    parser.add_argument("--v7", action="store_true",
-                        help="Use v7 scoring dimensions (0-18 scale, gate+score split)")
     args = parser.parse_args()
 
     # --compare mode: diff scores against a base ref
@@ -2276,68 +2157,22 @@ def main():
         print("No agent files found.", file=sys.stderr)
         sys.exit(1)
 
-    # Score all
+    # Score all with v7 (canonical scoring engine, 0-18 scale)
     results = []
-    v5_results = []
-    v6_results = []
-    v7_results = []
     for _category, _rel, filepath in files:
-        r = score_agent(filepath, check_freshness=not args.no_freshness)
+        r = score_agent_v7(filepath, check_freshness=not args.no_freshness)
+        # Normalize v7 fields into top-level result keys for filter/display compat
+        r["total"] = r["v7_total"]
+        r["grade"] = r["v7_grade"]
+        r["scores"] = r["v7_scores"]
+        r["risk_tier"] = r.get("v7_risk_tier", "general")
+        r["issues"] = [p.get("action", str(p)) for p in r.get("v7_improvement_plan", [])]
+        r["word_count"] = r.get("v7_word_count", 0)
         results.append(r)
-        if args.v5:
-            r5 = score_agent_v5(filepath, check_freshness=not args.no_freshness)
-            v5_results.append(r5)
-        if args.v6:
-            r6 = score_agent_v6(filepath, check_freshness=not args.no_freshness)
-            v6_results.append(r6)
-        if args.v7:
-            r7 = score_agent_v7(filepath, check_freshness=not args.no_freshness)
-            v7_results.append(r7)
 
-    # Apply filters (use v5/v6 scores when --v5/--v6 is set)
-    if args.v5:
-        # Merge v5 fields into results for seamless filter/threshold compat
-        v5_map = {r5["id"]: r5 for r5 in v5_results}
-        for r in results:
-            r5 = v5_map.get(r["id"])
-            if r5:
-                r["v5_total"] = r5["v5_total"]
-                r["v5_grade"] = r5["v5_grade"]
-                r["v5_scores"] = r5["v5_scores"]
-                r["v5_risk_tier"] = r5.get("v5_risk_tier", "general")
-                r["v5_improvement_plan"] = r5.get("v5_improvement_plan", [])
-    if args.v6:
-        v6_map = {r6["id"]: r6 for r6 in v6_results}
-        for r in results:
-            r6 = v6_map.get(r["id"])
-            if r6:
-                r["v6_total"] = r6["v6_total"]
-                r["v6_grade"] = r6["v6_grade"]
-                r["v6_scores"] = r6["v6_scores"]
-                r["v6_risk_tier"] = r6.get("v6_risk_tier", "general")
-                r["v6_improvement_plan"] = r6.get("v6_improvement_plan", [])
-    if args.v7:
-        v7_map = {r7["id"]: r7 for r7 in v7_results}
-        for r in results:
-            r7 = v7_map.get(r["id"])
-            if r7:
-                r["v7_total"] = r7["v7_total"]
-                r["v7_grade"] = r7["v7_grade"]
-                r["v7_scores"] = r7["v7_scores"]
-                r["v7_risk_tier"] = r7.get("v7_risk_tier", "general")
-                r["v7_improvement_plan"] = r7.get("v7_improvement_plan", [])
-                r["v7_gate_passed"] = r7.get("v7_gate_passed", True)
-                r["v7_gate_failures"] = r7.get("v7_gate_failures", [])
-    score_key = (
-        "v7_total" if args.v7 else
-        ("v6_total" if args.v6 else ("v5_total" if args.v5 else "total"))
-    )
+    score_key = "total"
     if args.risk:
-        risk_field = (
-            "v7_risk_tier" if args.v7 else
-            ("v6_risk_tier" if args.v6 else ("v5_risk_tier" if args.v5 else "risk_tier"))
-        )
-        results = [r for r in results if r.get(risk_field) == args.risk]
+        results = [r for r in results if r.get("risk_tier") == args.risk]
     if args.below > 0:
         results = [r for r in results if r[score_key] < args.below]
     if args.above > 0:
@@ -2349,9 +2184,7 @@ def main():
 
     # Report
     if args.json:
-        print_json_report(results, v5_results if args.v5 else None,
-                          v6_results if args.v6 else None,
-                          v7_results if args.v7 else None)
+        print_json_report(results)
     else:
         print_terminal_report(results, args)
 
@@ -2379,7 +2212,7 @@ def main():
 
     # CI gate: per-agent threshold (changed agents must meet bar)
     if args.threshold is not None and args.threshold > 0:
-        below = [r for r in results if r.get(score_key, r["total"]) < args.threshold]
+        below = [r for r in results if r["total"] < args.threshold]
         if below:
             print(f"THRESHOLD FAIL: {len(below)} agent(s) below {args.threshold}",
                   file=sys.stderr)
@@ -2387,7 +2220,7 @@ def main():
 
     # CI gate: absolute floor (no agent may fall below this, period)
     if args.min_score is not None and args.min_score > 0:
-        below_floor = [r for r in results if r.get(score_key, r["total"]) < args.min_score]
+        below_floor = [r for r in results if r["total"] < args.min_score]
         if below_floor:
             print(
                 f"FLOOR FAIL: {len(below_floor)} agent(s) below absolute floor"

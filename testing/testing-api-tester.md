@@ -5,7 +5,7 @@ depends_on:
   - cybersecurity-penetration-tester
   - engineering-git-workflow-master
   - testing-multi-agent-coordinator
-  - security-penetration-tester
+  - cybersecurity-penetration-tester
   - testing-test-results-analyzer
 description: API 验证、集成测试与端点核查专家
 emoji: 🔌

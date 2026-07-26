@@ -1,14 +1,14 @@
 # 🎭 The Agency
 
-### 1,406 个 AI 专家，一行命令即可召唤
+### 1,399 个 AI 专家，一行命令即可召唤
 
 > 前端魔法师。Reddit 达人。创业教练。脑外科医生。安全渗透师。精算师。
-> 1,406 个专业 AI Agent — 每个都有个性、有流程、有交付物。一行命令即可安装。
+> 1,399 个专业 AI Agent — 每个都有个性、有流程、有交付物。一行命令即可安装。
 
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)
 [![Nightly Audit](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml)
-[![Agents](https://img.shields.io/badge/agents-1,406-blue)](https://github.com/z451047442-debug/agency-agents)
+[![Agents](https://img.shields.io/badge/agents-1,399-blue)](https://github.com/z451047442-debug/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/z451047442-debug)
@@ -17,7 +17,7 @@
 
 | 🎭 | 📂 | 🛠️ | 📝 |
 |:---:|:---:|:---:|:---:|
-| **1,406** 个 Agent | **65** 个领域 | **26** 种工具 | **~100,000** 行内容 |
+| **1,399** 个 Agent | **62** 个领域 | **14** 种工具 | **~100,000** 行内容 |
 
 ---
 
@@ -167,7 +167,7 @@
 
 ## 📊 统计数据
 
-- 🎭 **1406 个专业 Agent**，覆盖 66 个分类
+- 🎭 **1399 个专业 Agent**，覆盖 62 个分类
 - 📝 **约 95,000+ 行**人格定义、流程和代码示例
 - 🏗️ **NEXUS**：7 阶段多 Agent 编排框架
 - ⏱️ **数月的迭代**，源自真实使用反馈
@@ -309,7 +309,7 @@ ls ~/.claude/agents/
 
 ## 🎨 Agent 名册
 
-> **66 个分类 · 1406 个 Agent**
+> **62 个分类 · 1399 个 Agent**
 
 ### 💻 IT 技术（350+ 个 Agent）
 
@@ -414,7 +414,7 @@ ls ~/.claude/agents/
 
 ## 🎭 完整 Agent 名册
 
-浏览全部 1406 个 Agent 详见各分类目录（66 个领域）：
+浏览全部 1399 个 Agent 详见各分类目录（62 个领域）：
 
 **IT 技术**: [engineering](engineering/)(75) · [infrastructure](infrastructure/)(78) · [data-science](data-science/)(43) · [cybersecurity](cybersecurity/)(33) · [game-development](game-development/)(24) · [testing](testing/)(19) · [iot](iot/)(19) · [spatial-computing](spatial-computing/)(15) · [robotics](robotics/)(15) · [web3](web3/)(13) · [network-engineering](network-engineering/)(12) · [telecom](telecom/)(12)
 
@@ -847,7 +847,7 @@ MIT License — 自由使用，商业或个人用途均可。注明出处即可�
 
 ## 🙏 致谢
 
-始于一个关于 AI Agent 专业化的 Reddit 帖子，如今已成长为一项了不起的项目 — **约 470 个 Agent 覆盖 46 个分类**，得到了来自世界各地的社区贡献者的支持。这个仓库中的每个 Agent 都源于有人愿意花时间编写、测试和分享。
+始于一个关于 AI Agent 专业化的 Reddit 帖子，如今已成长为一项了不起的项目 — **约 1,406 个 Agent 覆盖 66 个分类**，得到了来自世界各地的社区贡献者的支持。这个仓库中的每个 Agent 都源于有人愿意花时间编写、测试和分享。
 
 致所有提交过 PR、报告过 Issue、发起过 Discussion，或者仅仅是尝试过一个 Agent 并告诉我们效果如何的朋友 — 谢谢你们。正是因为有你们，The Agency 才一直在变得更好。
 

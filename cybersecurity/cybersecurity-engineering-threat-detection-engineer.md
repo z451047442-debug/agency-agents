@@ -15,7 +15,7 @@ lifecycle: published
 depends_on:
   - infrastructure-github-actions-expert
   - marketing-book-co-author
-  - security-threat-intelligence-analyst
+  - cybersecurity-threat-intelligence
   - specialized-agentic-identity-trust
   - testing-test-results-analyzer
   - thinking-models-decision-frameworks

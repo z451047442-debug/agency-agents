@@ -12,7 +12,7 @@ lifecycle: published
 depends_on:
   - finance-accounts-payable-agent
   - infrastructure-engineering-incident-response-commander
-  - security-threat-intelligence-analyst
+  - cybersecurity-threat-intelligence
 emoji: 📡
 vibe: Watches the screens so you don't have to. Calm under alert storms, surgical
   in investigation, relentless in threat hunting.

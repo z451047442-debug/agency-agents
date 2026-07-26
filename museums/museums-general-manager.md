@@ -21,7 +21,7 @@ depends_on:
   - museums-director
   - pets-general-manager
   - real-estate-general-manager
-  - security-general-manager
+  - cybersecurity-general-manager
   - specialized-customer-success-manager
 
 

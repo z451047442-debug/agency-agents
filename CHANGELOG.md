@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.1.0] — 2026-07-26 — Multi-Expert Audit & Architecture Refinement
+
+### Changed
+- **Scoring**: Unified to v7 engine (0-18 scale) with calibrated thresholds; removed v3/v5/v6
+- **Categories**: Merged security→cybersecurity, hr-tech→hr, securities→finance, network-engineering→infrastructure (66→62)
+- **Agent count**: 1,406→1,399 due to deduplication of 7 overlapping security agents
+
+### Fixed
+- **AGENTS.json**: ~2,200 quote-format inconsistencies resolved via `get_field()` YAML quote stripping
+- **README-zh.md**: 4 data inconsistencies fixed (domains, tools, agent counts, acknowledgments)
+- **CLAUDE.md**: File size threshold corrected (10 KB→55 KB); check-deps references updated
+- **install/lib.sh**: ALL_DIVISIONS expanded from 16 to 61 categories
+
+### Removed
+- `scripts/check-deps.py` / `check-deps.sh` — thin wrappers, superseded by `analyze-deps.py --validate`
+- `security/` directory — 8 agents migrated to `cybersecurity/`
+
+### Added
+- 7 previously undocumented scripts now documented in CLAUDE.md (ab-test, validate-index, shard-index, etc.)
+
 ## [2.0.4] — 2026-07-25 — Bug Fixes & Quality Hardening
 
 ### Fixed

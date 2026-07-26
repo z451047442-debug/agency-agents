@@ -136,11 +136,6 @@
       "icon": "Users",
       "color": "#22C55E"
     },
-    "hr-tech": {
-      "label": "HR Tech",
-      "icon": "MonitorCheck",
-      "color": "#22C55E"
-    },
     "infrastructure": {
       "label": "Infrastructure",
       "icon": "Server",
@@ -206,11 +201,6 @@
       "icon": "Building2",
       "color": "#78716C"
     },
-    "network-engineering": {
-      "label": "Network Engineering",
-      "icon": "Network",
-      "color": "#0EA5E9"
-    },
     "nonprofit": {
       "label": "Nonprofit",
       "icon": "Heart",
@@ -275,16 +265,6 @@
       "label": "Sales",
       "icon": "TrendingUp",
       "color": "#10B981"
-    },
-    "securities": {
-      "label": "Securities",
-      "icon": "TrendingUp",
-      "color": "#10B981"
-    },
-    "security": {
-      "label": "Security",
-      "icon": "ShieldCheck",
-      "color": "#EF4444"
     },
     "spatial-computing": {
       "label": "Spatial Computing",

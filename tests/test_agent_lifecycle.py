@@ -322,17 +322,11 @@ class TestSetLifecycleEdgeCases:
         assert msg
 
     def test_write_text_failure(self, tmp_path, monkeypatch):
-        """Cover lines 134-135 — write_text raises an exception."""
+        """Cover atomic_write exception path."""
         f = make_agent(tmp_path / "test" / "agent.md", "draft")
-        # Patch write_text to raise an error, simulating a write failure
-        original_write = Path.write_text
-
-        def _failing_write(self_path, *args, **kwargs):
-            if self_path == f:
-                raise PermissionError("Permission denied")
-            return original_write(self_path, *args, **kwargs)
-
-        monkeypatch.setattr(Path, "write_text", _failing_write)
+        def _failing_write(path, content, encoding="utf-8", newline=None):
+            raise PermissionError("Permission denied")
+        monkeypatch.setattr(mod, "atomic_write", _failing_write)
         ok, msg = set_lifecycle(f, "review")
         assert not ok
         assert "Permission denied" in msg

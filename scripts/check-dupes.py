@@ -119,7 +119,7 @@ def main() -> None:
         score_mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(score_mod)
         has_scorer = True
-    except Exception:
+    except (ImportError, OSError):
         has_scorer = False
 
     def _get_score(agent_dict):
@@ -130,7 +130,7 @@ def main() -> None:
             if f.exists():
                 r = score_mod.score_agent(f, check_freshness=False)
                 return r["total"], r["grade"], r.get("risk_tier", "general")
-        except Exception:
+        except (ImportError, OSError, KeyError):
             pass
         return None
 

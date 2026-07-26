@@ -98,7 +98,7 @@ def main():
         try:
             if add_deps(mdf, dep_ids):
                 applied += 1; total += len(dep_ids)
-        except Exception as e:
+        except (OSError, UnicodeDecodeError) as e:
             print(f"  Warning: skipping {mdf.name}: {e}", file=sys.stderr)
             skipped += 1
     print(f"Applied: {applied} agents, {total} deps, Skipped: {skipped}")

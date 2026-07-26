@@ -34,7 +34,7 @@ from _shared import (
     get_frontmatter_text,
     get_list_field,
 )
-from _shared.discovery import EXCLUDE_DIRS
+from _shared.discovery import discover_agents
 
 OUT = REPO / "integrations"
 ANTIGRAVITY_DATE = "2026-03-08"
@@ -70,27 +70,6 @@ def progress_bar(current, total, width=20):
     sys.stderr.flush()
 
 
-# ── agent discovery ──────────────────────────────────────────────────────────
-
-def discover_agents():
-    """Yield (category, file_path, frontmatter_text, body_text) for every agent."""
-    for entry in sorted(REPO.iterdir()):
-        if not entry.is_dir() or entry.name.startswith("."):
-            continue
-        if entry.name.startswith("_") or entry.name in EXCLUDE_DIRS:
-            continue
-        for md in sorted(entry.rglob("*.md")):
-            content = md.read_text(encoding="utf-8")
-            if not content.startswith("---"):
-                continue
-            fm_text = get_frontmatter_text(content)
-            name = get_field("name", fm_text)
-            if not name:
-                continue
-            body = get_body(content).lstrip("\n")
-            yield entry.name, md, fm_text, body
-
-
 # ── content validation ───────────────────────────────────────────────────────
 
 _PROMPT_INJECTION_RE = re.compile(
@@ -110,7 +89,7 @@ def validate_agent_content(filepath):
     """
     try:
         content = filepath.read_text(encoding="utf-8")
-    except Exception:
+    except (UnicodeDecodeError, OSError):
         return []
     matches = _PROMPT_INJECTION_RE.findall(content)
     return matches
@@ -527,8 +506,22 @@ def main():
 
     out_dir = Path(args.out)
 
-    # Collect all agents once
-    agents = list(discover_agents())
+    # Collect all agents once (uses shared discover_agents, reads + validates)
+    raw = list(discover_agents())
+    agents = []
+    for category, _rel, file_path in raw:
+        try:
+            content = file_path.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        if not content.startswith("---"):
+            continue
+        fm_text = get_frontmatter_text(content)
+        name = get_field("name", fm_text)
+        if not name:
+            continue
+        body = get_body(content).lstrip("\n")
+        agents.append((category, file_path, fm_text, body))
 
     # --check mode: regenerate to a temp dir and compare
     if args.check:

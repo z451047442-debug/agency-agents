@@ -1,8 +1,8 @@
 # The Agency — System Architecture v1.0.2
 
-**1,406 AI Agent Personality Definitions · 66 Categories · 33 Tooling Scripts · 1,200 Tests**
+**1,399 AI Agent Personality Definitions · 62 Categories · 32 Tooling Scripts · 1,197 Tests**
 
-Generated: 2026-07-25 22:50 UTC
+Generated: 2026-07-26 05:33 UTC
 
 ---
 
@@ -20,7 +20,7 @@ Generated: 2026-07-25 22:50 UTC
 
 ---
 
-## Layer 1: Test Suite (34 modules, 1,200 tests)
+## Layer 1: Test Suite (33 modules, 1,197 tests)
 
 | Module (tests) | Module (tests) |
 |----------------|----------------|
@@ -40,7 +40,7 @@ Generated: 2026-07-25 22:50 UTC
 | test_validate_index.py (37) | test_batch_nexus_roles_gap.py (7) |
 | test_shared.py (35) | test_integration_pipeline.py (6) |
 | test_add_comm_section.py (29) | test_build_agent_browser.py (3) |
-| test_check_agent_originality.py (29) | test_check_deps.py (3) |
+| test_check_agent_originality.py (29) |  |
 
 ---
 
@@ -64,15 +64,14 @@ Generated: 2026-07-25 22:50 UTC
 
 ---
 
-## Layer 3: Tooling Scripts (33 Python modules + 20 shell wrappers)
+## Layer 3: Tooling Scripts (32 Python modules + 19 shell wrappers)
 
-### Quality Pipeline (11 scripts)
+### Quality Pipeline (10 scripts)
 | Script | Purpose |
 |--------|---------|
 | analyze-deps-auto.py | NLP-based auto dependency mapping from agent content |
-| analyze-deps.py | depends_on validation + cross-category coverage + --apply |
+| analyze-deps.py | Dependency graph integrity verification |
 | check-agent-originality.py | Agent originality and similarity detection |
-| check-deps.py | Dependency graph integrity verification |
 | check-divisions.py | Division directory structure validation |
 | check-dupes.py | Duplicate detection via semantic similarity |
 | lint-agents.py | YAML validation, section checks, CRLF detection, security scanning |
@@ -115,26 +114,26 @@ Generated: 2026-07-25 22:50 UTC
 | i18n/check-i18n.py | Translation coverage tracking and template generation |
 | i18n/localize-agents.py | Name + description patching from JSON translation maps |
 
-Plus 20 shell wrappers (thin entry points delegating to .py counterparts).
+Plus 19 shell wrappers (thin entry points delegating to .py counterparts).
 
 ---
 
-## Layer 4: Agent Content (1,406 .md files, 66 categories)
+## Layer 4: Agent Content (1,399 .md files, 62 categories)
 
-### Category Distribution (all 66)
+### Category Distribution (all 62)
 
 | 中文 | English | Agents |
 |----|---------|--------|
 | 工程开发 | engineering | 114 |
-| 基础设施 | infrastructure | 98 |
+| 基础设施 | infrastructure | 111 |
 | 市场营销 | marketing | 85 |
 | 医疗健康 | healthcare | 54 |
+| 金融 | finance | 53 |
 | 数据科学 | data-science | 47 |
 | 制造业 | manufacturing | 47 |
 | 能源 | energy | 44 |
 | 建筑工程 | construction | 43 |
-| 金融 | finance | 39 |
-| 网络安全 | cybersecurity | 38 |
+| 网络安全 | cybersecurity | 39 |
 | 环境 | environmental | 38 |
 | 教育 | education | 36 |
 | 航空航天 | aerospace | 33 |
@@ -145,12 +144,12 @@ Plus 20 shell wrappers (thin entry points delegating to .py counterparts).
 | 法律 | legal | 25 |
 | 项目管理 | project-management | 24 |
 | 汽车 | automotive | 23 |
+| 人力资源 | hr | 22 |
 | 物流 | logistics | 22 |
 | 测试 | testing | 21 |
 | 物联网 | iot | 20 |
 | 食品饮料 | food-beverage | 16 |
 | 地理信息 | gis | 16 |
-| 人力资源 | hr | 16 |
 | 机器人 | robotics | 16 |
 | 销售 | sales | 16 |
 | 空间计算 | spatial-computing | 16 |
@@ -159,11 +158,9 @@ Plus 20 shell wrappers (thin entry points delegating to .py counterparts).
 | 农业 | agriculture | 14 |
 | 政府 | government | 14 |
 | 产品 | product | 14 |
-| 证券 | securities | 14 |
 | Web3 | web3 | 14 |
 | 客户服务 | customer-service | 13 |
 | 彩票 | lottery | 13 |
-| 网络工程 | network-engineering | 13 |
 | 电信 | telecom | 13 |
 | 思维模型 | thinking-models | 13 |
 | 保险 | insurance | 12 |
@@ -174,7 +171,6 @@ Plus 20 shell wrappers (thin entry points delegating to .py counterparts).
 | 医药生物 | pharma-biotech | 9 |
 | 出版 | publishing | 9 |
 | 体育 | sports | 9 |
-| 安全 | security | 8 |
 | 应急管理 | emergency | 7 |
 | 活动会展 | events | 7 |
 | 时尚 | fashion | 7 |
@@ -183,7 +179,6 @@ Plus 20 shell wrappers (thin entry points delegating to .py counterparts).
 | 战略咨询 | strategy | 7 |
 | 美妆 | beauty | 6 |
 | 林业 | forestry | 6 |
-| HR科技 | hr-tech | 6 |
 | 公益 | nonprofit | 6 |
 | 宠物 | pets | 6 |
 | 家居生活 | home-lifestyle | 5 |
@@ -245,7 +240,7 @@ depends_on:                   # optional (agent IDs this agent needs)
 
 ### Shared Foundation
 
-All 33 Python scripts read agent data through `_shared/` — none call each other's output:
+All 32 Python scripts read agent data through `_shared/` — none call each other's output:
 
 ```
                       _shared/
@@ -289,7 +284,7 @@ All 16 consumers depend on `_shared/` modules; cross-script imports use `load_mo
 
 Phase 0: Discovery -> Phase 1: Strategy -> Phase 2: Foundation -> Phase 3: Build -> Phase 4: Hardening -> Phase 5: Launch -> Phase 6: Operate
 
-**7 phases** with 1,406 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
+**7 phases** with 1,399 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
 
 Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` | `docs/runbooks/` | `docs/teams/` | `docs/coordination/`
 
@@ -302,11 +297,11 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 | Version | v1.0.2 |
 | Python | >=3.10 |
 | Coverage threshold | 90% |
-| Agent files | 1,406 |
-| Tool scripts | 33 (.py) + 20 (.sh) |
-| Tests | 1,200 across 34 modules |
+| Agent files | 1,399 |
+| Tool scripts | 32 (.py) + 19 (.sh) |
+| Tests | 1,197 across 33 modules |
 | CI workflows | 7 |
 | Integration targets | 6 |
 | NEXUS phases | 7 |
 
-Generated: 2026-07-25 22:50 UTC
+Generated: 2026-07-26 05:33 UTC

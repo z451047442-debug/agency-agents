@@ -136,7 +136,7 @@ def insert_comm_section(filepath, dry_run=False):
     """Insert a Communication section into an agent file if missing."""
     try:
         content = filepath.read_text(encoding="utf-8")
-    except Exception:
+    except (UnicodeDecodeError, OSError):
         return False, "cannot read file"
 
     fm = get_frontmatter_text(content)
@@ -182,7 +182,7 @@ def insert_comm_section(filepath, dry_run=False):
     try:
         filepath.write_text(new_content, encoding="utf-8", newline="\n")
         return True, f"added Communication section ({len(section.split())} words)"
-    except Exception as e:
+    except OSError as e:
         return False, str(e)
 
 

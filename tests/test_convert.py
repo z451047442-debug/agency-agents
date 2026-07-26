@@ -17,6 +17,7 @@ spec = importlib.util.spec_from_file_location(
 )
 convert = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(convert)
+import _shared.discovery as _shared_discovery
 
 # Aliases
 get_field = convert.get_field
@@ -44,6 +45,23 @@ _toml_escape = convert._toml_escape
 # ── Shared helpers ─────────────────────────────────────────────────────────────
 
 from tests.conftest import make_agent_file
+
+
+def _discover_agents_with_fm():
+    """Mirror convert.main() agent collection: call shared discover_agents,
+    then read each file and extract frontmatter + body."""
+    agents = []
+    for category, _rel, file_path in discover_agents():
+        content = file_path.read_text(encoding="utf-8")
+        if not content.startswith("---"):
+            continue
+        fm_text = get_frontmatter_text(content)
+        name = get_field("name", fm_text)
+        if not name:
+            continue
+        body = get_body(content).lstrip("\n")
+        agents.append((category, file_path, fm_text, body))
+    return agents
 
 # Minimal agent data for converter tests
 AGENT_NAME = "Test Agent"
@@ -128,7 +146,7 @@ class TestSlugify:
 
 class TestDiscoverAgents:
     def test_discovers_agents(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()
         (tmp_path / "engineering" / "agent.md").write_text(
             '---\nname: "Test"\ndescription: "Desc"\n---\n\nBody text.\n',
@@ -136,12 +154,12 @@ class TestDiscoverAgents:
         )
         results = list(discover_agents())
         assert len(results) == 1
-        category, filepath, fm_text, body = results[0]
+        category, rel_path, filepath = results[0]
         assert category == "engineering"
-        assert body.startswith("Body text.")
+        assert filepath.name == "agent.md"
 
     def test_skips_invalid_agents(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()
         # Missing frontmatter
         (tmp_path / "engineering" / "no-fm.md").write_text("Just text.", encoding="utf-8")
@@ -153,24 +171,24 @@ class TestDiscoverAgents:
         (tmp_path / "engineering" / "valid.md").write_text(
             '---\nname: "Valid"\ndescription: "Desc"\n---\nBody.', encoding="utf-8"
         )
-        results = list(discover_agents())
+        results = _discover_agents_with_fm()
         assert len(results) == 1
 
     def test_excludes_special_dirs(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "scripts").mkdir()
         (tmp_path / "scripts" / "skip.md").write_text(
             '---\nname: "Skip"\ndescription: "Desc"\n---\nBody.', encoding="utf-8"
         )
         assert list(discover_agents()) == []
 
-    def test_excludes_underscore_prefixed_dirs(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+    def test_includes_underscore_prefixed_dirs(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "_solution").mkdir()
         (tmp_path / "_solution" / "agent.md").write_text(
             '---\nname: "Hidden"\ndescription: "Desc"\n---\nBody.', encoding="utf-8"
         )
-        assert list(discover_agents()) == []
+        assert len(list(discover_agents())) == 1
 
 
 class TestWriteFrontmatter:
@@ -397,14 +415,14 @@ class TestCleanToolOutput:
 
 class TestRunTool:
     def test_run_tool_cursor(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         # Create a mock agent file
         (tmp_path / "engineering").mkdir()
         (tmp_path / "engineering" / "agent.md").write_text(
             '---\nname: "Test Agent"\ndescription: "A test agent"\n---\n\nBody.\n',
             encoding="utf-8",
         )
-        agents = list(discover_agents())
+        agents = _discover_agents_with_fm()
         assert len(agents) == 1
 
         out_dir = tmp_path / "integrations"
@@ -414,13 +432,13 @@ class TestRunTool:
         assert rule_file.exists()
 
     def test_run_tool_aider(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()
         (tmp_path / "engineering" / "agent.md").write_text(
             '---\nname: "Test Agent"\ndescription: "A test agent"\n---\n\nBody.\n',
             encoding="utf-8",
         )
-        agents = list(discover_agents())
+        agents = _discover_agents_with_fm()
         out_dir = tmp_path / "integrations"
         count = run_tool("aider", agents, out_dir)
         assert count == 1
@@ -428,13 +446,13 @@ class TestRunTool:
         assert conventions.exists()
 
     def test_run_tool_skips_missing_fields(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()
         # Agent with no description
         (tmp_path / "engineering" / "bad.md").write_text(
             '---\nname: "Bad Agent"\n---\n\nBody.\n', encoding="utf-8"
         )
-        agents = list(discover_agents())
+        agents = _discover_agents_with_fm()
         out_dir = tmp_path / "integrations"
         count = run_tool("cursor", agents, out_dir)
         assert count == 0
@@ -607,13 +625,13 @@ class TestRunHermes:
 class TestRunToolHermes:
     def test_run_tool_hermes(self, tmp_path, monkeypatch):
         """run_tool('hermes') delegates to run_hermes."""
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()
         (tmp_path / "engineering" / "agent.md").write_text(
             '---\nname: "Test Agent"\ndescription: "A test agent"\n---\n\nBody.\n',
             encoding="utf-8",
         )
-        agents = list(discover_agents())
+        agents = _discover_agents_with_fm()
         out_dir = tmp_path / "integrations"
 
         # Mock run_hermes and clean_tool_output so we don't call subprocess
@@ -629,13 +647,13 @@ class TestRunToolHermes:
 
     def test_run_tool_opencode_with_fm_text(self, tmp_path, monkeypatch):
         """run_tool for opencode passes fm_text to converter."""
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()
         fm_text = 'name: "Color Agent"\ndescription: "A colored agent"\nemoji: X\ncolor: cyan\n'
         (tmp_path / "engineering" / "agent.md").write_text(
             f"---\n{fm_text}---\n\nBody.\n", encoding="utf-8",
         )
-        agents = list(discover_agents())
+        agents = _discover_agents_with_fm()
         out_dir = tmp_path / "integrations"
 
         monkeypatch.setattr(convert, "clean_tool_output", lambda *a: None)
@@ -650,13 +668,13 @@ class TestRunToolHermes:
 
     def test_run_tool_windsurf(self, tmp_path, monkeypatch):
         """run_tool('windsurf') builds .windsurfrules."""
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()
         (tmp_path / "engineering" / "agent.md").write_text(
             '---\nname: "Test Agent"\ndescription: "A test agent"\n---\n\nBody.\n',
             encoding="utf-8",
         )
-        agents = list(discover_agents())
+        agents = _discover_agents_with_fm()
         out_dir = tmp_path / "integrations"
         count = convert.run_tool("windsurf", agents, out_dir)
         assert count == 1
@@ -687,7 +705,7 @@ class TestMain:
         """
         import io, sys
 
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         TestMain._make_mock_agent(tmp_path)
 
         # Mock run_hermes to avoid subprocess call
@@ -709,7 +727,7 @@ class TestMain:
     def test_unknown_tool_exits(self, monkeypatch):
         """Passing an unknown tool should exit with code 1."""
         import sys
-        monkeypatch.setattr(convert, "REPO", Path("."))
+        monkeypatch.setattr(convert, "REPO", Path(".")); monkeypatch.setattr(_shared_discovery, "REPO", Path("."))
         old_argv = sys.argv
         sys.argv = ["convert.py", "--tool", "nonexistent"]
         try:
@@ -773,12 +791,12 @@ class TestMain:
         """
         import io, sys
 
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         self._make_mock_agent(tmp_path)
 
         # Pre-create the integrations output dir so comparison passes
         out_dir = tmp_path / "integrations"
-        agents = list(discover_agents())
+        agents = _discover_agents_with_fm()
         run_tool("cursor", agents, out_dir)
 
         old_argv = sys.argv
@@ -803,7 +821,7 @@ class TestMain:
         """
         import io, sys
 
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         self._make_mock_agent(tmp_path)
 
         # Pre-create stale output — same file structure, wrong content
@@ -834,7 +852,7 @@ class TestMain:
         """
         import io, sys
 
-        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
         # Create 22 agents so run_tool generates 22 output files
         agent_dir = tmp_path / "engineering"
         agent_dir.mkdir()

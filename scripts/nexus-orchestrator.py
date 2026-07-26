@@ -26,6 +26,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, cast
 
+from _shared import atomic_write
+
 UTC = timezone.utc
 
 REPO = Path(__file__).resolve().parent.parent
@@ -313,9 +315,8 @@ def save_checkpoint(name: str, data: dict) -> None:
     data["updated"] = datetime.now(UTC).isoformat()
     proj_dir = PROJECTS_DIR / name
     proj_dir.mkdir(parents=True, exist_ok=True)
-    (proj_dir / "checkpoint.json").write_text(
-        json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n"
-    )
+    atomic_write(proj_dir / "checkpoint.json",
+                 json.dumps(data, ensure_ascii=False, indent=2), newline="\n")
 
 
 def init_project(name: str, scenario: str) -> None:
@@ -666,9 +667,8 @@ def export_project(name: str, output_path: str | None = None) -> None:
     """Export project checkpoint as JSON."""
     cp = load_checkpoint(name)
     if output_path:
-        Path(output_path).write_text(
-            json.dumps(cp, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
+        atomic_write(Path(output_path),
+                     json.dumps(cp, ensure_ascii=False, indent=2))
         print(f"Exported {name} to {output_path}")
     else:
         print(json.dumps(cp, ensure_ascii=False, indent=2))

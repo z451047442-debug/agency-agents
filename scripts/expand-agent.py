@@ -232,7 +232,7 @@ def generate_expansion_plan(analysis, ref_agents):
     agent_content = ""
     try:
         agent_content = Path(analysis["path"]).read_text(encoding="utf-8")
-    except Exception:
+    except (UnicodeDecodeError, OSError):
         pass
     agent_body = get_body(agent_content)
 

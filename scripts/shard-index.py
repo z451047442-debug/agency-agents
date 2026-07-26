@@ -115,7 +115,7 @@ def check_shards(data):
                     f"Count mismatch in {cat}: "
                     f"AGENTS.json has {len(agents)}, shard has {shard_count}"
                 )
-        except Exception as e:
+        except (json.JSONDecodeError, OSError) as e:
             issues.append(f"Invalid JSON in {cat}.json: {e}")
 
     # Check for stale shards (categories that no longer exist)

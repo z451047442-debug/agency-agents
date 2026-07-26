@@ -58,7 +58,7 @@ def _load_feedback():
                         fb[entry.get("agent", "")].append(entry)
                     except json.JSONDecodeError:
                         pass
-    except Exception:
+    except (json.JSONDecodeError, OSError):
         pass
     return fb
 

@@ -13,7 +13,7 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from _shared import REPO, discover_agents, get_field, get_list_field
+from _shared import REPO, atomic_write, discover_agents, get_field, get_list_field
 
 DEFAULT_OUT = REPO / "AGENTS.json"
 
@@ -159,7 +159,7 @@ def main():
         sys.exit(0)
 
     generated = format_json(index)
-    out_path.write_text(generated, encoding="utf-8")
+    atomic_write(out_path, generated)
     print(f"Generated {out_path} "
           f"({index['total_agents']} agents, "
           f"{index['total_categories']} categories).")

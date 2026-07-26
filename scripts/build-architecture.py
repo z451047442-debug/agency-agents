@@ -34,7 +34,7 @@ def get_version() -> str:
         )
         tags = [t.strip() for t in result.stdout.splitlines() if t.strip().startswith("v")]
         return tags[0] if tags else "v0.0.0"
-    except Exception:
+    except (OSError, subprocess.CalledProcessError):
         return "unknown"
 
 
@@ -45,7 +45,7 @@ def get_python_req() -> str:
         for line in text.splitlines():
             if line.strip().startswith("requires-python"):
                 return line.split("=", 1)[1].strip().strip('"')
-    except Exception:
+    except (OSError, subprocess.CalledProcessError):
         pass
     return ">=3.10"
 
@@ -57,7 +57,7 @@ def get_coverage_threshold() -> str:
         for line in text.splitlines():
             if "cov-fail-under" in line:
                 return line.split("=", 1)[1].strip().strip('"').strip("'")
-    except Exception:
+    except (OSError, subprocess.CalledProcessError):
         pass
     return "90"
 
@@ -95,7 +95,7 @@ def collect_test_modules() -> tuple[list[dict], int]:
             capture_output=True, text=True, cwd=REPO,
         )
         output = result.stdout + result.stderr
-    except Exception:
+    except (OSError, subprocess.CalledProcessError):
         output = ""
 
     modules: dict[str, int] = {}
@@ -152,7 +152,6 @@ def collect_script_categories() -> dict:
         "quality.py": ("quality", "Quality pipeline orchestration entry point"),
         "validate-index.py": ("quality", "AGENTS.json JSON schema + filesystem cross-reference validation"),
         "check-agent-originality.py": ("quality", "Agent originality and similarity detection"),
-        "check-deps.py": ("quality", "Dependency graph integrity verification"),
         "check-divisions.py": ("quality", "Division directory structure validation"),
         "check-dupes.py": ("quality", "Duplicate detection via semantic similarity"),
         # Maintenance Tools
@@ -217,7 +216,7 @@ def collect_shared_library() -> dict:
                 name = py_file.stem
                 if name not in consumers:
                     consumers.append(name)
-        except Exception:
+        except (OSError, subprocess.CalledProcessError):
             pass
 
     return {"modules": modules, "consumers": consumers, "exports_count": 16}
@@ -240,7 +239,7 @@ def collect_integration_targets() -> list[dict]:
         for func, (tool, fmt) in tool_map.items():
             if func in text:
                 targets.append({"tool": tool, "format": fmt, "converter": f"{func}()"})
-    except Exception:
+    except (OSError, subprocess.CalledProcessError):
         pass
     return targets
 

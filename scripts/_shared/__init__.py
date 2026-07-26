@@ -53,6 +53,27 @@ def get_lint_file():
     return _get_script_function("lint-agents", "lint_file")
 
 
+def atomic_write(path, content, encoding="utf-8", newline=None):
+    """Atomically write content to path using tmp + os.replace.
+
+    Writes to a temp file in the same directory, then atomically replaces
+    the target. This prevents partial writes from corrupting existing files.
+    """
+    import os
+    from pathlib import Path as _Path
+    path = _Path(path)
+    tmp_path = path.with_name(path.name + ".tmp")
+    try:
+        if newline is not None:
+            tmp_path.write_text(content, encoding=encoding, newline=newline)
+        else:
+            tmp_path.write_text(content, encoding=encoding)
+        os.replace(str(tmp_path), str(path))
+    except BaseException:
+        tmp_path.unlink(missing_ok=True)
+        raise
+
+
 __all__ = [
     "BOLD", "CYAN", "GREEN", "MAGENTA", "RED", "RESET", "YELLOW",
     "supports_color",
@@ -61,5 +82,5 @@ __all__ = [
     "CORE_SECTIONS", "CRITICAL_RISK_CATEGORIES", "HIGH_RISK_CATEGORIES",
     "count_domain_signals", "count_substantive_sections",
     "find_broken_links", "git_last_modified", "section_body_words",
-    "load_module", "get_score_agent", "get_lint_file",
+    "load_module", "get_score_agent", "get_lint_file", "atomic_write",
 ]

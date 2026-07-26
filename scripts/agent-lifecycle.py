@@ -39,6 +39,7 @@ from _shared import (
     REPO,
     RESET,
     YELLOW,
+    atomic_write,
     discover_agents,
     get_field,
     get_frontmatter_text,
@@ -72,7 +73,7 @@ def get_current_lifecycle(filepath):
     """Read the lifecycle field from an agent's frontmatter. Returns 'published' if absent."""
     try:
         content = filepath.read_text(encoding="utf-8")
-    except Exception:
+    except (UnicodeDecodeError, OSError):
         return "unknown"
     fm = get_frontmatter_text(content)
     val = get_field("lifecycle", fm)
@@ -85,7 +86,7 @@ def set_lifecycle(filepath, new_state, note=""):
     """Update or add the lifecycle field in an agent's YAML frontmatter."""
     try:
         content = filepath.read_text(encoding="utf-8")
-    except Exception as e:
+    except (UnicodeDecodeError, OSError) as e:
         return False, str(e)
 
     fm = get_frontmatter_text(content)
@@ -129,9 +130,9 @@ def set_lifecycle(filepath, new_state, note=""):
     new_content = content.replace(fm, new_fm, 1)
 
     try:
-        filepath.write_text(new_content, encoding="utf-8", newline="\n")
+        atomic_write(filepath, new_content, newline="\n")
         return True, f"'{current}' → '{new_state}'"
-    except Exception as e:
+    except OSError as e:
         return False, str(e)
 
 

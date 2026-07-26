@@ -297,7 +297,7 @@ class TestMain:
         )
 
         # Monkeypatch add_deps to raise an exception
-        monkeypatch.setattr(mod, "add_deps", lambda f, deps: (_ for _ in ()).throw(Exception("boom")))
+        monkeypatch.setattr(mod, "add_deps", lambda f, deps: (_ for _ in ()).throw(OSError("boom")))
 
         mod.main()
         captured = capsys.readouterr()

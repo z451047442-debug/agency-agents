@@ -295,7 +295,7 @@ ls ~/.claude/agents/
 
 ```bash
 ./scripts/install.sh                                    # 交互式向导：选择工具 + 团队
-./scripts/install.sh --tool claude-code --division engineering,security
+./scripts/install.sh --tool claude-code --division engineering,cybersecurity
 ./scripts/install.sh --tool cursor --agent frontend-developer,ui-designer
 ./scripts/install.sh --list teams                       # 查看所有团队及 Agent 数量
 ./scripts/install.sh --tool opencode --division engineering --dry-run

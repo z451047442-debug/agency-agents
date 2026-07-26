@@ -25,8 +25,6 @@ git_last_modified = mod.git_last_modified
 print_terminal_report = mod.print_terminal_report
 print_json_report = mod.print_json_report
 main = mod.main
-score_agent_v5 = mod.score_agent_v5
-score_agent_v6 = mod.score_agent_v6
 score_agent_v7 = mod.score_agent_v7
 REPO = mod.REPO
 CORE_SECTIONS = mod.CORE_SECTIONS
@@ -1442,50 +1440,6 @@ Workflow content here for agent.
 
 # ── v5 scoring tests ───────────────────────────────────────────────────────────
 
-V5_RICH_AGENT = """---
-name: "V5 Expert Agent"
-description: "Deep expertise agent with cross-refs, output specs, and methodology depth"
-emoji: "\U0001f4a1"
-color: teal
-version: "1.0.0"
-date_added: "2026-07-03"
-depends_on:
-  - cybersecurity-penetration-tester
-  - engineering-frontend-developer
-  - design-ui-designer
----
-
-## Identity
-V5 test agent with Kubernetes, Docker, Terraform, Ansible, Jenkins, Prometheus,
-Grafana, and ELK Stack expertise. Specializes in ISO 27001 and NIST SP 800-53.
-
-## Mission
-Deliver production-grade infrastructure. When using Kubernetes, choose between
-Deployment and StatefulSet based on workload persistence needs. For monitoring,
-prefer Prometheus over ELK for metrics but use ELK for log aggregation.
-
-## Rules
-1. Always verify with a qualified professional before deploying to production.
-2. Within your scope: infrastructure design. Outside scope: legal compliance.
-3. Escalate to human when dealing with production incidents.
-4. Consult a licensed security professional for penetration testing decisions.
-
-## Deliverables
-| Deliverable | Format | Contents |
-|-------------|--------|----------|
-| Architecture Diagram | Draw.io + ASCII | Network topology, data flow |
-| Risk Assessment | Markdown report | Threat model, mitigation plan |
-| Runbook | Step-by-step checklist | Incident response procedures |
-
-## Workflow
-1. Assess current infrastructure against ISO 27001 Annex A controls.
-2. Choose monitoring stack: Prometheus for metrics, ELK for logs, Grafana for dashboards.
-3. When trade-offs arise (e.g., consistency vs availability), document both options.
-
-## Communication Style
-Direct and technical. Reference NIST SP 800-53 Rev. 5 where applicable.
-"""
-
 V5_MINIMAL_AGENT = """---
 name: "Minimal Agent"
 description: "A minimal agent"
@@ -1512,155 +1466,49 @@ Do the work.
 """
 
 
-class TestScoreAgentV5:
-    """Tests for score_agent_v5() function."""
+# ── V7 test constants ─────────────────────────────────────────────────────────
 
-    def test_returns_v5_dict_structure(self, tmp_path):
-        f = tmp_path / "testing" / "v5-test.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v5(f)
-        assert isinstance(result, dict)
-        assert "v5_scores" in result
-        assert "v5_total" in result
-        assert "v5_grade" in result
-        assert "v5_improvement_plan" in result
+V7_RICH_AGENT = """---
+name: "V7 Expert Agent"
+description: "Deep expertise agent with safeguards, decision models, and edge cases"
+emoji: "💡"
+color: teal
+version: "1.0.0"
+date_added: "2026-07-03"
+depends_on:
+  - cybersecurity-penetration-tester
+  - engineering-frontend-developer
+  - design-ui-designer
+---
 
-    def test_rich_agent_scores_high(self, tmp_path):
-        f = tmp_path / "testing" / "v5-rich.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v5(f)
-        assert result["v5_total"] >= 10
-        assert result["v5_grade"] in ("A", "B")
+## Identity
+V7 test agent with Kubernetes, Docker, Terraform, Ansible, Jenkins, Prometheus,
+Grafana, and ELK Stack expertise. For standards, follow ISO 27001 and NIST SP 800-53.
 
-    def test_minimal_agent_scores_low(self, tmp_path):
-        f = tmp_path / "testing" / "v5-min.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
-        result = mod.score_agent_v5(f)
-        assert result["v5_total"] <= 8
-        assert result["v5_grade"] in ("C", "D")
+## Mission
+Deliver production-grade infrastructure. When using Kubernetes, choose between
+Deployment and StatefulSet based on workload persistence needs. For monitoring,
+prefer Prometheus over ELK for metrics but use ELK for log aggregation.
 
-    def test_cross_refs_with_depends_on(self, tmp_path, monkeypatch):
-        monkeypatch.setattr(mod, "_AGENT_ID_CACHE",
-                           {"cybersecurity-penetration-tester",
-                            "engineering-frontend-developer",
-                            "design-ui-designer"})
-        f = tmp_path / "testing" / "v5-xref.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v5(f)
-        assert result["v5_scores"]["cross_refs"] >= 0.5
+## Rules
+1. Always verify with a qualified professional before deploying to production.
+2. Within your scope: infrastructure design. Outside scope: legal compliance.
+3. Escalate to human when dealing with production incidents.
 
-    def test_cross_refs_empty(self, tmp_path):
-        f = tmp_path / "testing" / "v5-noxref.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
-        result = mod.score_agent_v5(f)
-        assert result["v5_scores"]["cross_refs"] == 0
+## Deliverables
+| Deliverable | Format | Contents |
+|-------------|--------|----------|
+| Architecture Diagram | Draw.io + ASCII | Network topology, data flow |
+| Risk Assessment | Markdown report | Threat model, mitigation plan |
 
-    def test_output_spec_detects_tables(self, tmp_path):
-        f = tmp_path / "testing" / "v5-output.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v5(f)
-        assert result["v5_scores"]["output_spec"] >= 1
+## Workflow
+1. Assess current infrastructure against ISO 27001 Annex A controls.
+2. Choose monitoring stack: Prometheus for metrics, ELK for logs, Grafana for dashboards.
+3. When trade-offs arise, document both options.
 
-    def test_method_depth_detects_context(self, tmp_path):
-        f = tmp_path / "testing" / "v5-method.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v5(f)
-        assert result["v5_scores"]["method_depth"] >= 0.5
+## Communication Style
+Direct and technical. Reference NIST SP 800-53 Rev. 5 where applicable.
 
-    def test_improvement_plan_generated(self, tmp_path):
-        f = tmp_path / "testing" / "v5-plan.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
-        result = mod.score_agent_v5(f)
-        plan = result.get("v5_improvement_plan", [])
-        assert len(plan) >= 3
-
-
-class TestV5GradeThresholds:
-    """Tests for _compute_v5_grade tiered thresholds."""
-
-    def test_critical_a(self):
-        assert mod._compute_v5_grade(13, "critical") == "A"
-        assert mod._compute_v5_grade(12, "critical") == "B"
-
-    def test_critical_b(self):
-        assert mod._compute_v5_grade(9, "critical") == "B"
-        assert mod._compute_v5_grade(8, "critical") == "C"
-
-    def test_general_a(self):
-        assert mod._compute_v5_grade(12, "general") == "A"
-        assert mod._compute_v5_grade(11, "general") == "B"
-
-    def test_general_c(self):
-        assert mod._compute_v5_grade(6, "general") == "C"
-        assert mod._compute_v5_grade(5, "general") == "D"
-
-    def test_high_same_as_general(self):
-        assert mod._compute_v5_grade(12, "high") == "A"
-        assert mod._compute_v5_grade(9, "high") == "B"
-
-
-class TestV5BackwardCompat:
-    """Verify v3 score_agent output unchanged after v5 additions."""
-
-    def test_v3_fields_unchanged(self, tmp_path):
-        f = tmp_path / "testing" / "bw.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_RICH_AGENT, encoding="utf-8")
-        result = score_agent(f, check_freshness=False)
-        for key in ("total", "grade", "scores", "issues"):
-            assert key in result
-        for key in ("content_depth", "structure", "frontmatter", "file_health"):
-            assert key in result["scores"]
-        assert result["total"] <= 10
-
-
-class TestV5JsonOutput:
-    pytestmark = pytest.mark.skip(reason="removed in v7 unification")
-    """Tests for JSON report with v5 data."""
-
-    def test_json_includes_v5(self):
-        r = _make_result()
-        v5_r = {
-            "id": "test",
-            "category": "testing",
-            "path": "testing/test.md",
-            "v5_total": 10,
-            "v5_grade": "B",
-            "v5_risk_tier": "general",
-            "v5_scores": {"content_depth": 4, "safeguards": 1, "references": 1,
-                          "cross_refs": 1, "output_spec": 1, "method_depth": 2},
-            "v5_improvement_plan": [],
-        }
-        buf = io.StringIO()
-        sys.stdout = buf
-        mod.print_json_report([r], [v5_r])
-        sys.stdout = sys.__stdout__
-        data = json.loads(buf.getvalue())
-        assert "v5" in data
-        assert data["v5"]["agents"][0]["v5_total"] == 10
-        assert data["v5"]["agents"][0]["v5_grade"] == "B"
-
-    def test_json_no_v5_when_not_passed(self):
-        r = _make_result()
-        buf = io.StringIO()
-        sys.stdout = buf
-        mod.print_json_report([r])
-        sys.stdout = sys.__stdout__
-        data = json.loads(buf.getvalue())
-        assert "v5" not in data
-
-
-# ── v6 scoring tests ───────────────────────────────────────────────────────────
-
-V6_RICH_AGENT = V5_RICH_AGENT + """
 
 ## Methodology Decision Framework
 
@@ -1673,187 +1521,7 @@ V6_RICH_AGENT = V5_RICH_AGENT + """
 
 ### Quantitative Decision Triggers
 - **When to add read replicas**: if p95 query latency > 200ms AND read:write ratio > 5:1 -> add read replicas; but if write contention is the bottleneck -> consider sharding first
-- **When to enable auto-scaling**: if peak:off-peak ratio > 3:1 AND instance cost > $1000/month -> enable HPA with 50% target CPU; otherwise use scheduled scaling
-"""
-
-
-class TestScoreAgentV6:
-    """Tests for score_agent_v6() function."""
-
-    def test_returns_v6_dict_structure(self, tmp_path):
-        f = tmp_path / "testing" / "v6-test.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V6_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v6(f)
-        assert isinstance(result, dict)
-        assert "v6_scores" in result
-        assert "v6_total" in result
-        assert "v6_grade" in result
-        assert "v6_improvement_plan" in result
-
-    def test_method_depth_split(self, tmp_path):
-        """method_tradeoff + method_decision_model == method_depth."""
-        f = tmp_path / "testing" / "v6-split.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V6_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v6(f)
-        scores = result["v6_scores"]
-        assert "method_tradeoff" in scores
-        assert "method_decision_model" in scores
-        assert "method_depth" in scores
-        assert scores["method_tradeoff"] + scores["method_decision_model"] == scores["method_depth"]
-
-    def test_decision_matrix_detection(self, tmp_path):
-        """Agent with decision matrix table scores > 0 on method_decision_model."""
-        f = tmp_path / "testing" / "v6-dm.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V6_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v6(f)
-        assert result["v6_scores"]["method_decision_model"] > 0
-
-    def test_quantitative_threshold_detection(self, tmp_path):
-        """Agent with 'when > N, use X' pattern scores on method_decision_model."""
-        content = """---
-name: "V6 Threshold Test"
-description: "Agent with quantitative decision thresholds for v6 scoring"
-emoji: "\U0001f4ca"
-color: blue
-version: "1.0.0"
-date_added: "2026-07-03"
----
-
-## Identity
-Test agent with Kubernetes, Docker, Prometheus expertise.
-
-## Mission
-Help with infrastructure decisions using data-driven criteria.
-
-## Rules
-1. Always verify with a qualified professional before deploying.
-2. When p95 latency > 200ms and read:write ratio > 5:1, add read replicas.
-3. When error rate exceeds 2%, escalate to human review.
-
-## Deliverables
-Infrastructure assessment report with Kubernetes deployment recommendations.
-
-## Workflow
-1. Measure current latency and throughput metrics.
-2. If latency > 100ms and throughput < 1000 rps, use Redis cache.
-3. If CPU > 80% for 5+ minutes, enable HPA with 2-10 replicas.
-"""
-        f = tmp_path / "testing" / "v6-threshold.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(content, encoding="utf-8")
-        result = mod.score_agent_v6(f)
-        assert result["v6_scores"]["method_decision_model"] > 0
-
-    def test_no_decision_model_when_absent(self, tmp_path):
-        """Minimal agent without decision models scores 0 on method_decision_model."""
-        f = tmp_path / "testing" / "v6-nodm.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
-        result = mod.score_agent_v6(f)
-        assert result["v6_scores"]["method_decision_model"] == 0
-
-    def test_rich_agent_scores_a(self, tmp_path):
-        """Rich agent with decision models scores A-grade on v6."""
-        f = tmp_path / "testing" / "v6-rich-a.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V6_RICH_AGENT, encoding="utf-8")
-        result = mod.score_agent_v6(f)
-        assert result["v6_total"] >= 13
-        assert result["v6_grade"] == "A"
-
-    def test_minimal_agent_scores_low(self, tmp_path):
-        """Minimal agent scores low on v6 scale."""
-        f = tmp_path / "testing" / "v6-min.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
-        result = mod.score_agent_v6(f)
-        assert result["v6_total"] <= 10
-        assert result["v6_grade"] in ("C", "D")
-
-    def test_v6_improvement_plan_generated(self, tmp_path):
-        """v6 improvement plan includes method_decision_model dimension."""
-        f = tmp_path / "testing" / "v6-plan.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_MINIMAL_AGENT, encoding="utf-8")
-        result = mod.score_agent_v6(f)
-        plan = result.get("v6_improvement_plan", [])
-        dims = [p["dim"] for p in plan]
-        assert "method_decision_model" in dims
-
-    def test_v3_v5_backward_compat(self, tmp_path):
-        """v3 score_agent() and v5 score_agent_v5() unchanged after v6 additions."""
-        f = tmp_path / "testing" / "v6-compat.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_RICH_AGENT, encoding="utf-8")
-        v3_result = mod.score_agent(f, check_freshness=False)
-        v5_result = mod.score_agent_v5(f, check_freshness=False)
-        assert v3_result["total"] <= 10
-        assert 0 <= v5_result["v5_total"] <= 15
-        assert v5_result["v5_scores"]["method_depth"] <= 2
-
-
-class TestV6GradeThresholds:
-    """Tests for _compute_v6_grade tiered thresholds."""
-
-    def test_critical_a(self):
-        assert mod._compute_v6_grade(14, "critical") == "A"
-        assert mod._compute_v6_grade(13, "critical") == "B"
-
-    def test_critical_b(self):
-        assert mod._compute_v6_grade(10, "critical") == "B"
-        assert mod._compute_v6_grade(9, "critical") == "C"
-
-    def test_general_a(self):
-        assert mod._compute_v6_grade(13, "general") == "A"
-        assert mod._compute_v6_grade(12, "general") == "B"
-
-    def test_general_c(self):
-        assert mod._compute_v6_grade(7, "general") == "C"
-        assert mod._compute_v6_grade(6, "general") == "D"
-
-    def test_high_same_as_general(self):
-        assert mod._compute_v6_grade(13, "high") == "A"
-        assert mod._compute_v6_grade(10, "high") == "B"
-
-
-class TestV6JsonOutput:
-    pytestmark = pytest.mark.skip(reason="removed in v7 unification")
-    """Tests for JSON report with v6 data."""
-
-    def test_json_includes_v6(self, tmp_path):
-        f = tmp_path / "testing" / "v6-json.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V6_RICH_AGENT, encoding="utf-8")
-        r = mod.score_agent(f, check_freshness=False)
-        v6_r = mod.score_agent_v6(f, check_freshness=False)
-        buf = io.StringIO()
-        sys.stdout = buf
-        mod.print_json_report([r], v6_results=[v6_r])
-        sys.stdout = sys.__stdout__
-        data = json.loads(buf.getvalue())
-        assert "v6" in data
-        assert data["v6"]["agents"][0]["v6_total"] >= 13
-        assert data["v6"]["agents"][0]["v6_grade"] == "A"
-
-    def test_json_no_v6_when_not_passed(self, tmp_path):
-        f = tmp_path / "testing" / "v6-nojson.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V6_RICH_AGENT, encoding="utf-8")
-        r = mod.score_agent(f, check_freshness=False)
-        buf = io.StringIO()
-        sys.stdout = buf
-        mod.print_json_report([r])
-        sys.stdout = sys.__stdout__
-        data = json.loads(buf.getvalue())
-        assert "v6" not in data
-
-
-# ── V7 test constants ─────────────────────────────────────────────────────────
-
-V7_RICH_AGENT = V6_RICH_AGENT + """
+- **When to enable auto-scaling**: if peak:off-peak ratio > 3:1 AND instance cost > 000/month -> enable HPA with 50% target CPU; otherwise use scheduled scaling
 
 ## Limitations & Constraints
 
@@ -2227,21 +1895,3 @@ class TestV7BackwardCompat:
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text(SAMPLE, encoding="utf-8")
         result = score_agent(f, check_freshness=False)
-        assert "scores" in result
-        assert 0 <= sum(result["scores"].values()) <= 10
-
-    def test_v5_fields_unchanged(self, tmp_path):
-        f = tmp_path / "testing" / "v7-compat5.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V5_RICH_AGENT, encoding="utf-8")
-        result = score_agent_v5(f, check_freshness=False)
-        assert "v5_scores" in result
-        assert result["v5_total"] >= 10
-
-    def test_v6_fields_unchanged(self, tmp_path):
-        f = tmp_path / "testing" / "v7-compat6.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V6_RICH_AGENT, encoding="utf-8")
-        result = score_agent_v6(f, check_freshness=False)
-        assert "v6_scores" in result
-        assert result["v6_total"] >= 13

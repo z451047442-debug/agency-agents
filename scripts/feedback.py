@@ -48,7 +48,7 @@ def _read_all():
                         entries.append(json.loads(line))
                     except json.JSONDecodeError:
                         continue
-    except Exception:
+    except (json.JSONDecodeError, OSError):
         pass
     return entries
 
@@ -233,7 +233,7 @@ def _read_usage():
                         counts[entry.get("agent", "")] += 1
                     except json.JSONDecodeError:
                         continue
-    except Exception:
+    except (json.JSONDecodeError, OSError):
         pass
     return dict(counts)
 

@@ -136,7 +136,7 @@ def process_file(filepath, mapping, dry_run=False):
     try:
         with open(filepath, encoding="utf-8") as f:
             content = f.read()
-    except Exception as e:
+    except (UnicodeDecodeError, OSError) as e:
         print(f"{RED}Error{RESET} reading {filepath}: {e}")
         return filepath, "error"
 

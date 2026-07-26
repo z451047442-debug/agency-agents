@@ -84,22 +84,6 @@ jobs:
             exit 1
           fi
 
-      - name: Score NEW agents (v7 D-grade floor ≥7)
-        if: steps.changed.outputs.new_files != ''
-        env:
-          NEW_FILES: ${{ steps.changed.outputs.new_files }}
-        run: |
-          FAILED=0
-          for f in $NEW_FILES; do
-            echo "::group::Scoring new agent: $f"
-            python scripts/score-agents.py --file "$f" --no-freshness --threshold 7 || FAILED=1
-            echo "::endgroup::"
-          done
-          if [ "$FAILED" -eq 1 ]; then
-            echo "::error::New agents must meet v7 floor >=7."
-            exit 1
-          fi
-
       - name: Safeguard check (advice-category agents must have disclaimers)
         run: |
           python scripts/score-agents.py --require-safeguards --no-freshness || {
@@ -294,11 +278,11 @@ jobs:
           echo "|------|--------|" >> "$GITHUB_STEP_SUMMARY"
 
           if [ "${{ needs.score.result }}" = "success" ]; then
-            echo "| Score (v6 >=10 new/>=7 mod) | ✅ PASS |" >> "$GITHUB_STEP_SUMMARY"
+            echo "| Score (v7 new>=10 / mod>=8) | ✅ PASS |" >> "$GITHUB_STEP_SUMMARY"
           elif [ "${{ needs.score.result }}" = "skipped" ]; then
-            echo "| Score (v6 >=10 new/>=7 mod) | ⏭️ SKIPPED |" >> "$GITHUB_STEP_SUMMARY"
+            echo "| Score (v7 new>=10 / mod>=8) | ⏭️ SKIPPED |" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "| Score (v6 >=10 new/>=7 mod) | ❌ FAIL |" >> "$GITHUB_STEP_SUMMARY"
+            echo "| Score (v7 new>=10 / mod>=8) | ❌ FAIL |" >> "$GITHUB_STEP_SUMMARY"
           fi
 
           if [ "${{ needs.security-lint.result }}" = "success" ]; then

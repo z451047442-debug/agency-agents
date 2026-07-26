@@ -1,6 +1,7 @@
 """Comprehensive tests for scripts/lint-agents.py."""
 
 import importlib.util
+import sys
 from pathlib import Path
 
 import pytest
@@ -8,6 +9,7 @@ import pytest
 # ── Import the script as a module ──────────────────────────────────────────────
 
 SCRIPTS_DIR = Path(__file__).resolve().parent.parent / "scripts"
+sys.path.insert(0, str(SCRIPTS_DIR))
 spec = importlib.util.spec_from_file_location(
     "lint_agents", str(SCRIPTS_DIR / "lint-agents.py")
 )
@@ -593,18 +595,10 @@ class TestLintFileAbsoluteLinks:
 
 class TestLintFileFreshness:
     def test_stale_content_info(self, tmp_path, monkeypatch):
-        """Content >12 months stale produces an INFO."""
-        # Mock subprocess to return a date > 365 days ago
-        import subprocess as sp_mod
-        class FakeResult:
-            stdout = "2020-01-01\n"
-            stderr = ""
-            returncode = 0
-
-        def _fake_run(cmd, **kwargs):
-            return FakeResult()
-
-        monkeypatch.setattr(lint_agents.subprocess, "run", _fake_run)
+        """Content more than 12 months old — INFO output."""
+        from datetime import date
+        monkeypatch.setattr(lint_agents, "git_last_modified",
+                           lambda fp: date(2020, 1, 1))
         filepath = make_agent_file(tmp_path, SAMPLE_AGENT_CONTENT)
         errors, warnings, infos = [], [], []
         lint_file(filepath, errors, warnings, infos, freshness=True)
@@ -612,9 +606,18 @@ class TestLintFileFreshness:
 
     def test_freshness_exception_handled(self, tmp_path, monkeypatch):
         """Exception during git freshness check is silently caught."""
-        def _fake_run(cmd, **kwargs):
-            raise OSError("git not found")
-        monkeypatch.setattr(lint_agents.subprocess, "run", _fake_run)
+        monkeypatch.setattr(lint_agents, "git_last_modified",
+                           lambda fp: None)
+        filepath = make_agent_file(tmp_path, SAMPLE_AGENT_CONTENT)
+        errors, warnings, infos = [], [], []
+        # Should not raise
+        lint_file(filepath, errors, warnings, infos, freshness=True)
+        assert any("stale" in i for i in infos)
+
+    def test_freshness_exception_handled(self, tmp_path, monkeypatch):
+        """Exception during git freshness check is silently caught."""
+        monkeypatch.setattr(lint_agents, "git_last_modified",
+                           lambda fp: None)
         filepath = make_agent_file(tmp_path, SAMPLE_AGENT_CONTENT)
         errors, warnings, infos = [], [], []
         # Should not raise
@@ -771,16 +774,10 @@ class TestMain:
         monkeypatch.setattr(lint_agents, "REPO", tmp_path)
         filepath = make_agent_file(tmp_path, SAMPLE_AGENT_CONTENT)
 
-        # Mock subprocess to produce stale date (INFO finding)
-        class FakeResult:
-            stdout = "2020-01-01\n"
-            stderr = ""
-            returncode = 0
-
-        def _fake_run(cmd, **kwargs):
-            return FakeResult()
-
-        monkeypatch.setattr(lint_agents.subprocess, "run", _fake_run)
+        # Mock git_last_modified to produce stale date (INFO finding)
+        from datetime import date
+        monkeypatch.setattr(lint_agents, "git_last_modified",
+                           lambda fp: date(2020, 1, 1))
 
         old_argv = sys.argv
         sys.argv = ["lint-agents.py", str(filepath)]

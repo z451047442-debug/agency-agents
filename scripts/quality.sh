@@ -25,7 +25,7 @@ echo ""; echo "[1/5] Agent Lint"
 if "$PYTHON" "$SCRIPT_DIR/lint-agents.py" --all --no-freshness; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
 
 echo ""; echo "[2/5] Dependencies"
-if bash "$SCRIPT_DIR/check-deps.sh"; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
+if "$PYTHON" "$SCRIPT_DIR/analyze-deps.py" --validate; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi
 
 echo ""; echo "[3/5] Quality Score"
 if "$PYTHON" "$SCRIPT_DIR/score-agents.py" > /dev/null 2>&1; then PASS=$((PASS+1)); else FAIL=$((FAIL+1)); fi

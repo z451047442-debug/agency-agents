@@ -214,7 +214,7 @@ def extract_terms(filepath):
     """
     try:
         content = filepath.read_text(encoding="utf-8")
-    except Exception:
+    except (UnicodeDecodeError, OSError):
         return None
 
     fm = get_frontmatter_text(content)

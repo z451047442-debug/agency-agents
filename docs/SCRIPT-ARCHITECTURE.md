@@ -45,7 +45,7 @@ scripts/
 ├── create-agent.sh            Interactive agent scaffold generator
 ├── score-agents.sh            Quality scoring (A-D grades) with weighted heuristics
 ├── check-agent-originality.sh Near-duplicate detection via cosine similarity
-├── check-deps.sh              Validates depends_on references across the roster
+├── analyze-deps.py             Validates depends_on references across the roster
 ├── check-dupes.sh             Fuzzy duplicate detection with adjustable threshold
 ├── check-divisions.sh         Division consistency check (directories vs divisions.json)
 ├── check-tools.sh             Tool consistency check (integrations vs tools.json)

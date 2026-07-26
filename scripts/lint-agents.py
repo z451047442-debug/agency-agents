@@ -10,7 +10,6 @@ Usage:
 """
 
 import re
-import subprocess
 import sys
 from datetime import date, timedelta
 from pathlib import Path
@@ -27,6 +26,7 @@ from _shared import (
     get_field,
     get_frontmatter_text,
     get_list_field,
+    git_last_modified,
 )
 
 REQUIRED_FIELDS = ("name", "description", "emoji", "color")
@@ -375,22 +375,12 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
     # 12. Content freshness (> 12 months stale) — uses git
     if freshness:
         cutoff = date.today() - timedelta(days=365)
-        try:
-            result = subprocess.run(
-                ["git", "-C", str(REPO), "log", "-1", "--format=%ad",
-                 "--date=short", "--", str(filepath)],
-                capture_output=True, text=True, timeout=5,
+        last_mod = git_last_modified(filepath)
+        if last_mod is not None and last_mod < cutoff:
+            infos.append(
+                f"INFO  {rel}: last modified {last_mod.isoformat()} "
+                f"(>12 months ago, may be stale)"
             )
-            last_date_str = result.stdout.strip()
-            if last_date_str:
-                last_date = date.fromisoformat(last_date_str)
-                if last_date < cutoff:
-                    infos.append(
-                        f"INFO  {rel}: last modified {last_date_str} "
-                        f"(>12 months ago, may be stale)"
-                    )
-        except (subprocess.TimeoutExpired, FileNotFoundError, OSError):
-            pass  # git unavailable or timeout — freshness check is non-critical
 
     # 13. Quality signal INFOs — heuristic approximations (cheaper than full scoring).
     # 13a. Domain signal density

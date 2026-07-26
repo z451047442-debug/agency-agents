@@ -298,7 +298,7 @@ Browse the agents below and copy/adapt the ones you need!
 
 ```bash
 ./scripts/install.sh                                    # interactive wizard: pick tools + teams
-./scripts/install.sh --tool claude-code --division engineering,security
+./scripts/install.sh --tool claude-code --division engineering,cybersecurity
 ./scripts/install.sh --tool cursor --agent frontend-developer,ui-designer
 ./scripts/install.sh --list teams                       # see every team + agent count
 ./scripts/install.sh --tool opencode --division engineering --dry-run

@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.1.2] — 2026-07-26 — Data Consistency & Code Quality Hardening
+
+### Fixed
+- **Data**: `divisions.json` removed 4 zombie entries (hr-tech, network-engineering, securities, security) — 66→62 divisions, resolving check-divisions CI failure
+- **CI**: `quality.sh` replaced stale `check-deps.sh` reference with `analyze-deps.py --validate`
+- **CI**: `quality-gate.yml` corrected summary labels from v6 to v7 + removed redundant threshold step
+- **Code**: `convert.py` unified `discover_agents()` to shared `_shared.discovery` implementation — `_solution` agents now included in conversions
+- **Code**: `lint-agents.py` reused `git_last_modified()` from `_shared.validators` — eliminated duplicate subprocess logic
+- **Docs**: Updated README example commands (`security` → `cybersecurity`); regenerated ARCHITECTURE.md
+
+### Removed
+- **Code**: Deleted v5/v6 scoring engines from `score-agents.py` (~570 lines of dead code) — only v7 remains active
+- **Tests**: Deleted v5/v6 test classes from `test_score_agents.py` (~400 lines)
+
+### Improved
+- **Reliability**: Added `atomic_write()` utility (tmp+rename pattern) across `generate-index.py`, `agent-lifecycle.py`, `nexus-orchestrator.py`
+- **Code**: Replaced 21 bare `except Exception` with specific exception types across 11 scripts
+- **Tests**: Added missing `sys.path.insert` in `test_lint_agents.py`; updated convert/lifecycle/batch test mocks for refactored APIs
+- **Docs**: Cleaned up stale `check-deps` references in `docs/SCRIPT-ARCHITECTURE.md` and `scripts/build-architecture.py`
+
 ## [2.1.1] — 2026-07-26 — Pipeline & Schema Hardening
 
 ### Fixed

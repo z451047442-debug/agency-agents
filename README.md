@@ -17,7 +17,7 @@
 
 | 🎭 | 📂 | 🛠️ | 📝 |
 |:---:|:---:|:---:|:---:|
-| **1,399** agents | **62** domains | **14** tools | **~100,000** lines |
+| **1,399** agents | **62** domains | **14** tools | **~95,000+** lines |
 
 ---
 
@@ -94,7 +94,7 @@ Born from a Reddit thread and refined through thousands of real-world sessions, 
 
 ### Scenario 5: Full Agency Product Discovery
 
-**Your Team**: All 27 divisions working in parallel on a single mission.
+**Your Team**: All divisions working in parallel on a single mission.
 
 See the **[Nexus Spatial Discovery Exercise](examples/nexus-spatial-discovery.md)** -- a complete example where 8 agents (Product Trend Researcher, Backend Architect, Brand Guardian, Growth Hacker, Support Responder, UX Researcher, Project Shepherd, and XR Interface Architect) were deployed simultaneously to evaluate a software opportunity and produce a unified product plan covering market validation, technical architecture, brand strategy, go-to-market, support systems, UX research, project execution, and spatial UI design.
 
@@ -294,7 +294,7 @@ Browse the agents below and copy/adapt the ones you need!
 ./scripts/install.sh --tool hermes
 ```
 
-**Install only the teams you need** (not everyone wants all 16 divisions):
+**Install only the teams you need** (not everyone wants all divisions):
 
 ```bash
 ./scripts/install.sh                                    # interactive wizard: pick tools + teams
@@ -319,7 +319,7 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 | Category | Domain | Count | Description |
 |------|------|------|-----------|
-| [infrastructure](infrastructure/) | IT Infrastructure | 78 | Servers, storage, virtualization, monitoring, cloud, SRE, networking vendors, Windows, Linux |
+| [infrastructure](infrastructure/) | IT Infrastructure | 90 | Servers, storage, virtualization, monitoring, cloud, SRE, networking, Windows, Linux |
 | [engineering](engineering/) | Software Engineering | 75 | Frontend, backend, API, mobile, CMS, architecture, code review, technical writing |
 | [data-science](data-science/) | Data Science | 43 | BI, ML, NLP, CV, data engineering, data governance, AI agents, prompt engineering |
 | [cybersecurity](cybersecurity/) | Cybersecurity | 33 | Penetration testing, SOC, digital forensics, threat detection, malware, compliance |
@@ -329,7 +329,6 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 | [spatial-computing](spatial-computing/) | Spatial Computing | 15 | visionOS, WebXR, XR interfaces, cockpit interaction, VR, AR |
 | [robotics](robotics/) | Robotics | 15 | Robot control, ROS, automation, machine vision, exoskeletons |
 | [web3](web3/) | Web3 | 13 | Blockchain, DeFi, NFTs, DAOs, smart contracts, frontend |
-| [network-engineering](network-engineering/) | Network Engineering | 12 | Network architecture, protocols, operations, fiber optics, optical networks |
 | [telecom](telecom/) | Telecom | 12 | 5G, 6G, core networks, RF, wireless, Bluetooth, antennas |
 
 ### 📈 Business & Marketing (143 agents)
@@ -348,12 +347,11 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 | Category | Domain | Count | Description |
 |------|------|------|-----------|
-| [finance](finance/) | Finance & Accounting | 36 | Financial analysis, audit, actuarial, tax, cost, treasury, risk, fintech |
+| [finance](finance/) | Finance & Accounting | 50 | Financial analysis, audit, actuarial, tax, cost, treasury, risk, fintech, securities |
 | [legal](legal/) | Legal | 22 | Corporate, criminal, labor, IP, data privacy, legal tech, compliance |
 | [project-management](project-management/) | Project Management | 22 | PMP, agile, PMO, bidding, Scrum, events, film production, portfolio |
-| [hr](hr/) | Human Resources | 15 | HRBP, recruiting, compensation, performance, OD, employee relations, onboarding, training |
+| [hr](hr/) | Human Resources | 21 | HRBP, recruiting, compensation, performance, OD, employee relations, onboarding, training, HR tech |
 | [operations](operations/) | Internal Operations | 11 | Data reporting, executive summaries, financial tracking, automation governance, infrastructure |
-| [securities](securities/) | Securities & Investment | 11 | Quantitative, fund manager, FICC, family office, technical analysis |
 | [real-estate](real-estate/) | Real Estate | 10 | Commercial brokerage, appraisal, development, property management, REIT, buyer/seller agent |
 | [quality](quality/) | Quality Management | 9 | QMS, SQE, CQE, PQE, SQA, healthcare quality, food safety |
 | [administration](administration/) | Administration | 7 | Office management, secretarial, procurement, archives, contracts, travel, fleet |
@@ -400,7 +398,6 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 | [forestry](forestry/) | Forestry | 3 | Forestry management, forest protection, timber supply chain |
 | [beauty](beauty/) | Beauty | 3 | Cosmetic formulation, product management, brand marketing |
 | [pets](pets/) | Pets | 3 | Pet nutrition, animal behavior, pet grooming |
-| [hr-tech](hr-tech/) | HR Tech | 3 | People analytics, ATS implementation, employee experience |
 | [libraries](libraries/) | Libraries | 2 | Digital libraries, archives management |
 | [museums](museums/) | Museums | 2 | Curation, artifact conservation |
 
@@ -420,17 +417,17 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 Browse all 1399 agents in each category directory (62 domains):
 
-**Technology**: [engineering](engineering/)(75) · [infrastructure](infrastructure/)(78) · [data-science](data-science/)(43) · [cybersecurity](cybersecurity/)(33) · [game-development](game-development/)(24) · [testing](testing/)(19) · [iot](iot/)(19) · [spatial-computing](spatial-computing/)(15) · [robotics](robotics/)(15) · [web3](web3/)(13) · [network-engineering](network-engineering/)(12) · [telecom](telecom/)(12)
+**Technology**: [engineering](engineering/)(75) · [infrastructure](infrastructure/)(90) · [data-science](data-science/)(43) · [cybersecurity](cybersecurity/)(33) · [game-development](game-development/)(24) · [testing](testing/)(19) · [iot](iot/)(19) · [spatial-computing](spatial-computing/)(15) · [robotics](robotics/)(15) · [web3](web3/)(13) · [telecom](telecom/)(12)
 
 **Business & Marketing**: [marketing](marketing/)(72) · [sales](sales/)(14) · [customer-service](customer-service/)(12) · [tourism](tourism/)(12) · [retail](retail/)(12) · [product](product/)(11) · [lottery](lottery/)(10)
 
-**Enterprise Management**: [finance](finance/)(36) · [legal](legal/)(22) · [project-management](project-management/)(22) · [hr](hr/)(15) · [operations](operations/)(11) · [securities](securities/)(11) · [real-estate](real-estate/)(10) · [quality](quality/)(9) · [administration](administration/)(7) · [strategy](strategy/)(7)
+**Enterprise Management**: [finance](finance/)(50) · [legal](legal/)(22) · [project-management](project-management/)(22) · [hr](hr/)(21) · [operations](operations/)(11) · [real-estate](real-estate/)(10) · [quality](quality/)(9) · [administration](administration/)(7) · [strategy](strategy/)(7)
 
 **Manufacturing & Industry**: [manufacturing](manufacturing/)(43) · [construction](construction/)(40) · [energy](energy/)(40) · [aerospace](aerospace/)(23) · [automotive](automotive/)(22) · [agriculture](agriculture/)(12)
 
 **Industry Verticals**: [healthcare](healthcare/)(50) · [environmental](environmental/)(33) · [media-entertainment](media-entertainment/)(24) · [design](design/)(21) · [education](education/)(17) · [logistics](logistics/)(16) · [food-beverage](food-beverage/)(15) · [insurance](insurance/)(11) · [government](government/)(10) · [pharma-biotech](pharma-biotech/)(8)
 
-**New Domains**: [sports](sports/)(4) · [fashion](fashion/)(4) · [mining](mining/)(4) · [nonprofit](nonprofit/)(4) · [publishing](publishing/)(4) · [events](events/)(4) · [localization](localization/)(4) · [emergency](emergency/)(4) · [forestry](forestry/)(3) · [beauty](beauty/)(3) · [pets](pets/)(3) · [hr-tech](hr-tech/)(3) · [libraries](libraries/)(2) · [museums](museums/)(2)
+**New Domains**: [sports](sports/)(4) · [fashion](fashion/)(4) · [mining](mining/)(4) · [nonprofit](nonprofit/)(4) · [publishing](publishing/)(4) · [events](events/)(4) · [localization](localization/)(4) · [emergency](emergency/)(4) · [forestry](forestry/)(3) · [beauty](beauty/)(3) · [pets](pets/)(3) · [libraries](libraries/)(2) · [museums](museums/)(2)
 
 **Specialized**: [specialized](specialized/)(6)
 

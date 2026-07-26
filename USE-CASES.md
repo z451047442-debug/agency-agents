@@ -1,6 +1,6 @@
 # 🎯 Use Cases — 100+ Real-World Scenarios
 
-How to combine The Agency's 1,083 specialists inside your AI coding tool.
+How to combine The Agency's 1,399 specialists inside your AI coding tool.
 Each scenario lists the agent team, what they do, and the expected outcome.
 
 > These are **multi-agent patterns** — load them into Claude Code, Cursor, Copilot,

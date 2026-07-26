@@ -12,7 +12,7 @@
       "patternProperties": {
         "^[a-z][a-z0-9-]*$": {
           "type": "object",
-          "required": ["label", "format", "ext", "dest", "kebab"],
+          "required": ["label", "format", "dest", "kebab"],
           "properties": {
             "label": {
               "type": "string",
@@ -25,16 +25,26 @@
             },
             "format": {
               "type": "string",
-              "enum": ["markdown", "toml", "yaml", "skill"],
-              "description": "Output file format."
+              "enum": ["identity", "codex-toml", "gemini-md", "qwen-md", "cursor-mdc", "opencode-md", "skill-md", "aider-conventions", "antigravity-skill", "kimi-agent", "openclaw-workspace", "windsurf-rules", "hermes-router-plugin"],
+              "description": "Output file format / renderer contract."
             },
             "ext": {
               "type": "string",
               "description": "Output file extension (e.g. '.md', '.toml', '.mdc')."
             },
             "dest": {
-              "type": "string",
-              "description": "Default install directory, relative to $HOME or absolute."
+              "type": "object",
+              "description": "Install destination paths, keyed by scope (user/project), each value is an array of path templates.",
+              "properties": {
+                "user": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "project": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                }
+              }
             },
             "split_sections": {
               "type": "boolean",

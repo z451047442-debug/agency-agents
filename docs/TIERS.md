@@ -95,5 +95,5 @@ All remaining 1,190 agents. These are marked as community-maintained.
 
 ## NEXUS Coverage After Shrink
 
-With 133 Gold + 43 Silver = 176 maintained agents across all 66 categories,
+With 133 Gold + 43 Silver = 176 maintained agents across all 62 categories,
 NEXUS phase coverage is preserved. The depth improvement makes orchestration viable.

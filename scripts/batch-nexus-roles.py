@@ -358,7 +358,9 @@ def main():
                     print(f"  WOULD UPDATE {rel} -> {roles}")
                 assigned += 1
             else:
-                md_file.write_text(new_content, encoding="utf-8", newline="\n")
+                tmp_path = md_file.with_suffix(md_file.suffix + ".tmp")
+                tmp_path.write_text(new_content, encoding="utf-8", newline="\n")
+                tmp_path.replace(md_file)
                 if args.verbose:
                     rel = md_file.relative_to(REPO)
                     print(f"  UPDATED {rel} -> {roles}")

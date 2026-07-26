@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.1.1] — 2026-07-26 — Pipeline & Schema Hardening
+
+### Fixed
+- **CI/CD**: `nightly-full-audit.yml` replaced removed `scripts/check-deps.sh` with `analyze-deps.py --validate`
+- **Schema**: `agent-index.schema.json` added `version`, `date_added`, `lifecycle`, `vibe` fields (was 1,399 validation errors)
+- **Schema**: `tools.schema.json` aligned `format` enum, `dest` type, and `required` with actual `tools.json` data (was 42 errors)
+- **Security**: `SECURITY_EXEMPT_AGENTS` expanded from 4 to 12 agents to reduce false-positive warnings
+- **Code**: 4 batch scripts now use atomic tmp→replace writes to prevent file corruption
+- **Code**: `batch-date-added.py` added missing `newline="\n"` to prevent CRLF on Windows
+- **Code**: 4 `except Exception: pass` blocks replaced with specific exception types
+- **Docs**: Removed 4 stale category references from `CONTRIBUTING.md`
+- **Docs**: `CONTRIBUTING_zh-CN.md` synced categories + added Getting Started, Contribution Tiers, PR Scope, Tool Compatibility
+- **Docs**: Updated agent/category counts across 4 files
+
 ## [2.1.0] — 2026-07-26 — Multi-Expert Audit & Architecture Refinement
 
 ### Changed

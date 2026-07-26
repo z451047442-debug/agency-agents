@@ -14,8 +14,10 @@ REPO = Path(__file__).resolve().parent.parent
 
 NON_AGENT_DIRS = frozenset({
     ".git", ".github", ".vs", ".vscode", ".claude",
-    "examples", "integrations", "scripts", "docs", "schemas", "tests",
-    "__pycache__", "env",
+    ".pytest_cache", "examples", "integrations",
+    "scripts", "docs", "schemas", "tests",
+    "__pycache__", "env", "node_modules",
+    "nexus-demo", "nexus-projects",
 })
 
 
@@ -71,7 +73,9 @@ def insert_date_added(path: Path, date_str: str) -> bool:
     if insert_idx is None:
         return False
     lines.insert(insert_idx, f'date_added: "{date_str}"')
-    path.write_text("\n".join(lines), encoding="utf-8")
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
+    tmp_path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+    tmp_path.replace(path)
     return True
 
 

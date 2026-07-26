@@ -49,7 +49,6 @@ Have an idea for a specialized agent? Great! Here's how to add one:
    - `infrastructure/` — Servers, storage, virtualization, Windows/Linux, network vendors, security appliances, data center
    - `game-development/` — Game design and development (Unity, Unreal, Godot, Roblox, Blender)
    - `cybersecurity/` — Security testing, SOC analysis, forensics, compliance, DevSecOps
-   - `network-engineering/` — Network architecture, operations, wireless, cloud networking, automation
    - `testing/` — QA, automation, performance, accessibility, usability, mobile testing
    - `data-science/` — BI, ML research, causal inference, experimentation, feature engineering
    - `spatial-computing/` — AR/VR/XR, 3D assets, spatial computing
@@ -73,8 +72,6 @@ Have an idea for a specialized agent? Great! Here's how to add one:
    - `government/` — Policy analysis, government relations, smart city, urban planning, digital presales
    - `agriculture/` — Precision farming, agri supply chain, agri IoT, food safety, agronomy
    - `media-entertainment/` — 3D modeling, music, photography, videography, sound design
-   - `securities/` — Equity research, trading, portfolio management, technical analysis, macro strategy
-   - `security/` — Security architect, senior SecOps, incident response, physical security
    - `lottery/` — Lottery data analysis, retail operations, product design, risk management
    - `aerospace/` — Aircraft design, avionics, air traffic control, space systems
    - `automotive/` — Smart driving, connected vehicles, automotive electronics, EV
@@ -105,7 +102,6 @@ Have an idea for a specialized agent? Great! Here's how to add one:
    - `libraries/` — Digital librarian, archivist
    - `museums/` — Curator, art conservator
    - `pets/` — Pet nutrition, animal behavior, pet grooming business
-   - `hr-tech/` — People analytics, ATS implementation, employee experience
 
 3. **Create your agent file** following the template below. Include `version: "1.0.0"` and `date_added: "YYYY-MM-DD"` in your frontmatter so the roster tracks when each agent was introduced.
 4. **Validate your agent** by running `python scripts/lint-agents.py path/to/your-agent.md`. Fix any errors before submitting.

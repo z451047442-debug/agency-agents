@@ -142,6 +142,14 @@ SECURITY_EXEMPT_AGENTS = {
     "engineering-prompt-engineer",
     "cybersecurity-security-champion",
     "cybersecurity-security-awareness-trainer",
+    "cybersecurity-penetration-tester",
+    "cybersecurity-bug-bounty-hunter",
+    "cybersecurity-incident-response",
+    "cybersecurity-malware-analyst",
+    "cybersecurity-soc-analyst",
+    "cybersecurity-threat-intelligence",
+    "cybersecurity-digital-forensics",
+    "cybersecurity-kali-linux",
 }
 
 
@@ -381,8 +389,8 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
                         f"INFO  {rel}: last modified {last_date_str} "
                         f"(>12 months ago, may be stale)"
                     )
-        except Exception:
-            pass
+        except (subprocess.TimeoutExpired, FileNotFoundError, OSError):
+            pass  # git unavailable or timeout — freshness check is non-critical
 
     # 13. Quality signal INFOs — heuristic approximations (cheaper than full scoring).
     # 13a. Domain signal density
@@ -503,8 +511,8 @@ def main():
         try:
             from telemetry import record_event
             record_event("lint", count=len(errors))
-        except Exception:
-            pass
+        except (ImportError, AttributeError):
+            pass  # telemetry is optional
         sys.exit(0)
 
 

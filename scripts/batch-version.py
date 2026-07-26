@@ -10,8 +10,10 @@ VERSION_STRING = 'version: "1.0.0"'
 
 NON_AGENT_DIRS = frozenset({
     ".git", ".github", ".vs", ".vscode", ".claude",
-    "examples", "integrations", "scripts", "docs", "schemas", "tests",
-    "__pycache__", "env",
+    ".pytest_cache", "examples", "integrations",
+    "scripts", "docs", "schemas", "tests",
+    "__pycache__", "env", "node_modules",
+    "nexus-demo", "nexus-projects",
 })
 
 
@@ -58,7 +60,9 @@ def insert_version(path: Path) -> None:
         if line.startswith("color:"):
             lines.insert(i + 1, VERSION_STRING)
             break
-    path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
+    tmp_path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+    tmp_path.replace(path)
 
 
 def main() -> None:

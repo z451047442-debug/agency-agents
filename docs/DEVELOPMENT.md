@@ -75,7 +75,7 @@ python scripts/lint-agents.py file1.md file2.md
 
 The linter enforces:
 - **ERROR**: Missing required frontmatter fields (`name`, `description`, `emoji`, `color`)
-- **WARN**: Missing recommended sections, file < 100 words, file > 10 KB, missing `nexus_roles`
+- **WARN**: Missing recommended sections, file < 100 words, file > 55 KB, missing `nexus_roles`
 
 ---
 

@@ -33,7 +33,7 @@ jobs:
         run: bash scripts/check-dupes.sh --threshold 0.90
 
       - name: Dependency validation
-        run: bash scripts/check-deps.sh
+        run: python scripts/analyze-deps.py --validate
 
   originality:
     name: Originality Check

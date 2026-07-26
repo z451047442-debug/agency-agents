@@ -78,7 +78,9 @@ def add_deps(filepath, dep_ids):
             lines.insert(insert_at, nl)
             fm_end += 1
 
-    filepath.write_text('\n'.join(lines), encoding='utf-8', newline='\n')
+    tmp_path = filepath.with_suffix(filepath.suffix + ".tmp")
+    tmp_path.write_text('\n'.join(lines), encoding='utf-8', newline='\n')
+    tmp_path.replace(filepath)
     return True
 
 def main():

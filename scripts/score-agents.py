@@ -2236,8 +2236,8 @@ def main():
     try:
         from telemetry import record_event
         record_event("score", category=args.category)
-    except Exception:
-        pass
+    except (ImportError, AttributeError):
+        pass  # telemetry is optional
     sys.exit(0)
 
 

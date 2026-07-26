@@ -32,7 +32,6 @@
    - `infrastructure/` —— IT基础设施专家（服务器/存储/虚拟化/Windows/Linux/网络厂商/安防）
    - `game-development/` —— 游戏开发专家（Unity/Unreal/Godot/Roblox/Blender）
    - `cybersecurity/` —— 网络安全专家（渗透测试/SOC/取证/合规/DevSecOps）
-   - `network-engineering/` —— 网络工程专家（架构/运维/无线/云网/自动化）
    - `testing/` —— 测试与QA专家（自动化/性能/无障碍/可用性/移动测试）
    - `data-science/` —— 数据科学专家（BI/因果推断/实验设计/ML工程/特征平台）
    - `spatial-computing/` —— 空间计算专家（AR/VR/XR/3D资产）
@@ -56,7 +55,6 @@
    - `government/` —— 政府与公共事务专家
    - `agriculture/` —— 农业科技专家（精准农业/农供应链/农业IoT/质量安全/农艺师）
    - `media-entertainment/` —— 媒体娱乐专家（3D/音乐/摄影/摄像/声音设计）
-   - `securities/` —— 证券投资专家（证券分析/交易/组合管理/技术分析/宏观策略）
    - `lottery/` —— 彩票专家（数据分析/站点运营/产品设计/风控）
    - `aerospace/` —— 航空航天专家（飞行器设计/航电/空管/空间系统）
    - `automotive/` —— 汽车专家（智能驾驶/车联网/汽车电子/新能源车）
@@ -98,6 +96,87 @@
 - 提供清晰的复现步骤
 - 说明你的使用场景与上下文
 - 如有思路，可以提出潜在解决方案
+
+---
+
+## 🛠️ 开发环境设置
+
+### 前置条件
+
+| 工具 | 最低版本 | 检查命令 |
+|------|---------|---------|
+| **Python** | 3.10+ | `python --version` |
+| **Git** | 2.30+ | `git --version` |
+
+### 克隆与安装
+
+```bash
+git clone https://github.com/z451047442-debug/agency-agents.git
+cd agency-agents
+
+# 安装 Python 开发依赖
+pip install -r requirements.txt
+pip install pytest pyyaml ruff  # dev 依赖
+```
+
+### 运行测试
+
+```bash
+# 全部测试
+python -m pytest tests/ -v
+
+# 仅运行 lint 相关的测试
+python -m pytest tests/test_lint_agents.py -v
+```
+
+---
+
+## 📊 贡献等级
+
+The Agency 采用三级贡献体系，鼓励逐步深入参与：
+
+| 等级 | 名称 | 门槛 | 权限 |
+|------|------|------|------|
+| **Tier 1** | 基础贡献 | 1 个被合并的 PR | 提交 agent 文件、文档修复、typo 修正 |
+| **Tier 2** | 标准贡献 | 5+ 个被合并的 PR | 提交新 agent、参与代码审查 |
+| **Tier 3** | 完整贡献 | 10+ PR + 持续参与 | 评审权限、分类维护、CI/CD 配置修改 |
+
+等级提升由 `scripts/check-contributor-ladder.py` 自动检测和提示。
+
+---
+
+## 📋 PR 范围指南
+
+### 始终欢迎
+- 新增 agent 文件
+- Agent 内容改进（案例、指标、工作流）
+- 文档修复与翻译
+- 测试补充
+
+### 建议先开 Discussion
+- 新增分类目录
+- 修改 agent 文件结构模板
+- 修改 CI/CD 管线
+- 大规模重命名
+
+### 直接关闭
+- 删除他人 agent 文件（除非有明确废弃理由）
+- 未经讨论的架构变更
+- 包含可执行攻击代码的 agent（请先以 Issue 讨论）
+
+---
+
+## 🔧 工具兼容性
+
+新增 agent 时请注意以下工具的特殊要求：
+
+| 工具 | 特殊要求 |
+|------|---------|
+| **Claude Code** | 直接读取 `.md` 文件，无需转换 |
+| **Cursor** | 仅供项目级安装，agent 以 `.mdc` 格式输出 |
+| **Aider/Windsurf** | 所有 agent 合并为单一文件 |
+| **Hermes** | 构建产物，非 per-agent 渲染 |
+| **Qwen/Codex** | 精简 frontmatter，去除 emoji/vibe |
 
 ---
 

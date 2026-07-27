@@ -7,7 +7,7 @@ py-modules = ["agency_cli"]
 
 [project]
 name = "agency-agents"
-version = "2.1.2"
+version = "2.1.3"
 description = "1399 AI agent personality definitions + quality toolkit for coding tools"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -41,6 +41,8 @@ omit = [
     "scripts/ab-evaluate.py",
     "scripts/check-contributor-ladder.py",
     "scripts/telemetry.py",
+    "scripts/install.py",
+    "scripts/fix-filename-prefixes.py",
 ]
 
 [tool.coverage.report]

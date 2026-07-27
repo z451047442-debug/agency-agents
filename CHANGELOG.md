@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.3] — 2026-07-28 — Bug Fix & Code Quality
+
+### Fixed
+- **Bug**: `score_agent_v7()` missing `v7_word_count` field — all agent word counts showed 0 in scoring reports
+- **Code**: `install-remote.py` removed unused `import sys`, fixed placeholder-less f-string
+- **Reliability**: `install-remote.py` added `timeout=30` to both `urlopen()` calls (was no timeout)
+- **Style**: `ab-test.py` PEP 8 import ordering (`from pathlib` moved to import block)
+
+### Added
+- **Tests**: `tests/test_install_remote.py` with 9 unit tests (slugify + install_agents with mocked network)
+- **Config**: `pyproject.toml` coverage omit expanded to include `install.py` and `fix-filename-prefixes.py`
+
 ## [2.1.2] — 2026-07-26 — Data Consistency & Code Quality Hardening
 
 ### Fixed

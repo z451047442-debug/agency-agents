@@ -1014,6 +1014,7 @@ def score_agent_v7(filepath, check_freshness=True):
     # Scores are computed even if gate fails (for diagnostics / improvement plan)
 
     word_count = len(body.split())
+    result["v7_word_count"] = word_count
 
     # Dimension 1: Content Expertise (0-6)
     tool_matches = list(_TOOL_FRAMEWORK_RE.finditer(body))

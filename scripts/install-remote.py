@@ -8,7 +8,6 @@ Usage:
 
 import argparse
 import json
-import sys
 from pathlib import Path
 from urllib.request import urlopen
 
@@ -35,7 +34,7 @@ def install_agents(raw_base: str, tool: str, divisions: set[str] | None,
 
     # Fetch AGENTS.json
     log(f"Fetching {raw_base}/AGENTS.json")
-    with urlopen(f"{raw_base}/AGENTS.json") as resp:
+    with urlopen(f"{raw_base}/AGENTS.json", timeout=30) as resp:
         data = json.loads(resp.read().decode())
     agents = data.get("agents", [])
     log(f"{len(agents)} agents in index")
@@ -55,7 +54,7 @@ def install_agents(raw_base: str, tool: str, divisions: set[str] | None,
         dest_file = dest / f"{aid}.md"
 
         try:
-            with urlopen(url) as resp:
+            with urlopen(url, timeout=30) as resp:
                 dest_file.write_bytes(resp.read())
             count += 1
             if count % 500 == 0:
@@ -78,7 +77,7 @@ def main() -> None:
     raw_base = f"https://raw.githubusercontent.com/{args.repo}/{args.branch}"
     divisions = {d.strip() for d in args.division.split(",")} if args.division else None
 
-    print(f"The Agency — Remote Install")
+    print("The Agency — Remote Install")
     print(f"  Source: github.com/{args.repo}")
 
     n = install_agents(raw_base, args.tool, divisions, args.agent)

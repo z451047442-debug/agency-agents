@@ -179,32 +179,31 @@ Each agent is designed with:
 
 > New here? Follow the [5-Minute Guided Tour](docs/GUIDED-TOUR.md). Running into issues? Check [Troubleshooting](docs/TROUBLESHOOTING.md).
 
-### Option 1: Use with Claude Code
-
-#### Windows (Git Bash — recommended)
-
-Install [Git for Windows](https://git-scm.com/downloads/win), open Git Bash, navigate to the project root:
+### Install to Claude Code
 
 ```bash
-# Install all agents directly — no convert step needed for Claude Code
-./scripts/install.sh --tool claude-code
-
-# Install specific categories only
-./scripts/install.sh --tool claude-code --division engineering,design
-
-# Install a single agent
-./scripts/install.sh --tool claude-code --agent engineering-frontend-developer
+git clone https://github.com/z451047442-debug/agency-agents.git
+cd agency-agents
+python scripts/install.py --tool claude-code
 ```
 
-> **Note:** Claude Code reads agent `.md` files directly — no `convert.sh` step is needed. The `convert.sh` script generates integration files for other tools (Cursor, Copilot, Gemini CLI, etc.). See [Multi-Tool Integrations](#-multi-tool-integrations) for those.
+One command, all platforms (Windows / macOS / Linux). 1,399 agents installed to `~/.claude/agents/`.
 
-Agents are installed to `%USERPROFILE%\.claude\agents\` (i.e. `C:\Users\<username>\.claude\agents\`).
+```bash
+python scripts/install.py --tool claude-code --division engineering,design   # specific categories
+python scripts/install.py --verify --tool claude-code                        # check integrity
+```
 
-> **What is Git Bash?** Git Bash is a Unix-like terminal bundled with Git for Windows. It supports `bash` scripts (`.sh` files) and is the simplest way to run this project's scripts on Windows — no WSL or Cygwin needed.
+> **Requires Python 3.9+.** No other dependencies. Claude Code reads `.md` files directly — no conversion needed.
 
-#### Windows (PowerShell / CMD — manual copy)
+<details>
+<summary>Shell script alternative (Linux / macOS / Git Bash)</summary>
 
-If you don't have Git Bash, copy agent files directly. Open **PowerShell** or **Command Prompt**:
+```bash
+./scripts/install.sh --tool claude-code
+```
+
+</details>
 
 ```powershell
 # Create directory if it doesn't exist

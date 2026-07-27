@@ -10,7 +10,6 @@ lifecycle: published
 depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
-  - aerospace-systems-engineer
   - aerospace-director
 description: 飞行器总体设计与系统集成专家，覆盖需求分解、架构设计、适航取证全链路
 category: aerospace

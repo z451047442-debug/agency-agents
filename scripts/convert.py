@@ -406,6 +406,40 @@ def build_depends_manifest(agents, out_dir):
         info("No agent dependencies found")
 
 
+# ── OMC converter (plugin-type: generates skills, routing, hooks) ─────────────
+
+_OMC_OUT = REPO / "integrations" / "oh-my-claudecode"
+
+
+def convert_oh_my_claudecode(name, description, body, out_dir, fm_text=None):
+    """Delegate to dedicated OMC generator scripts.
+
+    Each script reads AGENTS.json independently to produce its artifact:
+      - generate-nexus-skills.py  → skills/nexus-*/SKILL.md
+      - generate-omc-model-routing.py → model-routing.json
+      - generate-omc-hooks.py → hooks.json
+    """
+    import subprocess
+
+    scripts = [
+        ("generate-nexus-skills.py", []),
+        ("generate-omc-model-routing.py", []),
+        ("generate-omc-hooks.py", []),
+        ("generate-omc-team-config.py", []),
+    ]
+    for script, extra_args in scripts:
+        script_path = REPO / "scripts" / script
+        if not script_path.exists():
+            warn(f"OMC: {script} not found, skipping")
+            continue
+        result = subprocess.run(
+            [sys.executable, str(script_path)] + extra_args,
+            capture_output=True, text=True, cwd=str(REPO),
+        )
+        if result.returncode != 0:
+            warn(f"OMC: {script} failed: {result.stderr.strip()}")
+
+
 # ── main ─────────────────────────────────────────────────────────────────────
 
 CONVERTERS = {
@@ -418,6 +452,7 @@ CONVERTERS = {
     "kimi":         convert_kimi,
     "codex":        convert_codex,
     "osaurus":      convert_osaurus,
+    "oh-my-claudecode": convert_oh_my_claudecode,
 }
 
 # Complete set of convertible tools (excludes install-only tools like
@@ -443,6 +478,10 @@ def run_tool(tool, agents, out_dir):
     clean_tool_output(tool, out_dir)
     if tool == "hermes":
         run_hermes(out_dir)
+        return len(agents)
+
+    if tool == "oh-my-claudecode":
+        convert_oh_my_claudecode("", "", "", out_dir)
         return len(agents)
 
     if tool in ("aider", "windsurf"):

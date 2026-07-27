@@ -21,6 +21,12 @@ python scripts/lint-agents.py --all --no-freshness  # skip git date check (faste
 python scripts/lint-agents.py path/to/agent.md
 
 # Install agents into Claude Code (no convert step needed — reads .md directly)
+# Python is the canonical installer — works on ALL platforms without bash
+python scripts/install.py --tool claude-code                  # all 1399 agents
+python scripts/install.py --tool claude-code --division engineering,design
+python scripts/install.py --list-installed --tool claude-code  # verify
+python scripts/install.py --verify --tool claude-code          # integrity check
+# Shell wrapper (Linux/macOS only, requires bash):
 ./scripts/install.sh --tool claude-code
 ./scripts/install.sh --tool claude-code --division engineering,design
 

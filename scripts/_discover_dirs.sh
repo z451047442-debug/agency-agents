@@ -24,11 +24,14 @@ discover_agent_dirs() {
     case "$dname" in
       # Tooling / generated / docs — never contain agent definitions
       examples|integrations|scripts|docs|schemas) continue ;;
+      # Runtime / cache / build artifacts — never contain agent definitions
+      env|tests|nexus-demo|nexus-projects|__pycache__|node_modules|\
+      agency_agents.egg-info|.pytest_cache|.mypy_cache|agency-agents) continue ;;
       # Dot-directories — bash */ normally skips these, but be explicit
       .git|.github|.vs|.vscode|.claude) continue ;;
     esac
     local count
-    count=$(find "$d" -maxdepth 1 -name '*.md' -type f 2>/dev/null | wc -l)
+    count=$(find "$d" -name '*.md' -type f 2>/dev/null | wc -l)
     (( count > 0 )) && echo "$dname"
   done
 }

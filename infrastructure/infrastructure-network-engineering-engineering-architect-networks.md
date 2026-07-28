@@ -3,12 +3,12 @@ color: blue
 date_added: '2026-07-03'
 depends_on:
   - cybersecurity-engineering-customer-identity-access
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-cloud-cost-optimization
   - infrastructure-engineering-site-reliability-automation
   - infrastructure-identity-access
-  - network-engineering-architect
-  - network-engineering-automation
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
 description: 全球企业网络架构设计和治理专家，覆盖SD-WAN/SASE/SSE架构、零信任网络(ZTNA)、混合云网络设计、网络自动化/编排与企业网络策略
 emoji: 🌐
 lifecycle: published

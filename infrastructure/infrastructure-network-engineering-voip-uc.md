@@ -16,8 +16,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
   - media-entertainment-engineering-audio-dsp-signal
   - media-entertainment-engineering-video-streaming
-  - network-engineering-architect
-  - network-engineering-automation
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
 emoji: 📞
 vibe: When voice becomes packets, quality becomes engineering — every millisecond of latency and every lost packet is a conversation interrupted
 

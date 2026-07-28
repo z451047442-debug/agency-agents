@@ -7,7 +7,7 @@ depends_on:
   - insurance-claims-adjuster
   - insurance-multi-agent-coordinator
   - logistics-last-mile-delivery
-  - securities-family-office
+  - finance-securities-family-office
 description: 车险理赔专家，覆盖车辆损失评估、维修成本核算、全损鉴定、欺诈检测、第三方责任判定、代位求偿与数字化理赔（照片/视频查勘定损）
 emoji: 🚗
 lifecycle: published

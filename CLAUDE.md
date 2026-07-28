@@ -135,8 +135,8 @@ python scripts/nexus-orchestrator.py --export        # export project state
 python scripts/analyze-deps.py --validate            # check all depends_on refs
 python scripts/analyze-deps.py --cross-stats         # cross-category dep coverage
 python scripts/analyze-deps.py --apply               # write suggested cross-category deps
-python scripts/analyze-deps.py --validate            # validate depends_on references
-python scripts/analyze-deps.py --json                 # output depends_on.json
+python scripts/analyze-deps.py --json                # output depends_on.json
+python scripts/analyze-deps.py --report              # dependency health dashboard
 python scripts/batch-add-deps.py --category engineering  # batch add deps to agents
 
 # Content quality & maintenance

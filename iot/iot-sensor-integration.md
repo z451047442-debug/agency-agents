@@ -6,7 +6,7 @@ depends_on:
   - healthcare-engineering-medical-device-software
   - iot-engineering-mems-sensors
   - iot-multi-agent-coordinator
-  - network-engineering-engineering-optical-fiber-sensing
+  - infrastructure-network-engineering-engineering-optical-fiber-sensing
 description: 传感器选型、信号调理、数据融合与校准专家，覆盖MEMS、光学、声学、化学与环境传感器
 emoji: 📡
 lifecycle: published

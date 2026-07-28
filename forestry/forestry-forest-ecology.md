@@ -17,7 +17,7 @@ depends_on:
   - environmental-engineering-ecosystem-restoration
   - legal-document-review
   - marketing-china-market-localization-strategist
-  - network-engineering-engineering-optical-fiber-sensing
+  - infrastructure-network-engineering-engineering-optical-fiber-sensing
 
 ---
 

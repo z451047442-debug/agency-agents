@@ -4,11 +4,11 @@ date_added: '2026-07-03'
 depends_on:
   - data-science-engineering-deep-learning-training
   - education-online-learning-designer
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-cloud-cost-optimization
   - infrastructure-identity-access
-  - network-engineering-architect
-  - network-engineering-automation
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
 description: 分布式光纤传感(DFOS)与光电检测专家，覆盖DTS拉曼/布里渊(BOTDR/BOTDA)/DAS瑞利分布式光纤传感、光纤光栅(FBG)/干涉仪(Michelson/Fabry-Perot)点式传感与结构健康监测(SHM)/管道泄漏/周界安防
 emoji: 🔦
 lifecycle: published

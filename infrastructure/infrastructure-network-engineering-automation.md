@@ -18,8 +18,8 @@ depends_on:
   - infrastructure-cisco-network
   - infrastructure-identity-access
   - infrastructure-storage-backup
-  - network-engineering-architect
-  - network-engineering-cloud
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-cloud
 emoji: 🤖
 vibe: Stop configuring switches by hand — every CLI command you type is a bug waiting to happen; automate it, test it, and never touch a production router again
 

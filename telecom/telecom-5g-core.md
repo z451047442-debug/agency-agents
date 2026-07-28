@@ -15,7 +15,7 @@ depends_on:
   - automotive-autonomous-driving
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
-  - network-engineering-engineering-network-protocol
+  - infrastructure-network-engineering-engineering-network-protocol
   - telecom-data-analyst
   - telecom-engineering-antenna-rf
 emoji: 📶

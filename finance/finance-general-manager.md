@@ -20,7 +20,7 @@ depends_on:
   - cybersecurity-general-manager
   - finance-director
   - legal-general-manager
-  - securities-general-manager
+  - finance-securities-general-manager
   - specialized-customer-success-manager
 
 

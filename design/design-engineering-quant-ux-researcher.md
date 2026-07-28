@@ -9,7 +9,7 @@ depends_on:
   - finance-engineering-risk-quant
   - healthcare-engineering-regulatory-science
   - product-trend-researcher
-  - securities-quant-researcher
+  - finance-securities-quant-researcher
 description: 大规模量化用户研究与行为数据科学家，覆盖A/B测试统计/实验设计、用户行为日志分析/Clickstream、产品体验指标(HEART/PULSE)与用户体验度量基准
 emoji: 📈
 lifecycle: published

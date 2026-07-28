@@ -20,7 +20,7 @@ depends_on:
   - finance-general-manager
   - pets-general-manager
   - real-estate-general-manager
-  - securities-director
+  - finance-securities-director
   - specialized-customer-success-manager
 
 

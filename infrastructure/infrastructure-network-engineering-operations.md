@@ -4,11 +4,11 @@ date_added: '2026-07-03'
 depends_on:
   - cybersecurity-incident-response
   - education-special-needs
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-engineering-incident-response-commander
   - infrastructure-windows-server
-  - network-engineering-architect
-  - network-engineering-automation
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
   - operations-bcp-disaster-recovery
 description: 网络运维与排障专家，覆盖路由器/交换机/防火墙日常运维、故障排查、变更管理、监控告警与性能调优
 emoji: 🔧

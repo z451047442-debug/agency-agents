@@ -3,11 +3,11 @@ color: navy
 date_added: '2026-07-03'
 depends_on:
   - construction-engineering-bridge-structural
-  - securities-multi-agent-coordinator
+  - finance-securities-multi-agent-coordinator
   - finance-capital-markets-analyst
   - marketing-abm-account-based
   - project-management-jira-workflow-steward
-  - securities-compliance-officer
+  - finance-securities-compliance-officer
 description: 基金经理/组合管理人专家，覆盖投资哲学与流程设计、组合构建与资产配置、自上而下/自下而上证券选择、风险预算与敞口管理、业绩归因与分析、投资者沟通与报告、ESG整合投资管理
 emoji: 💼
 lifecycle: published

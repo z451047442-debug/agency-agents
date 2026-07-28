@@ -3,7 +3,7 @@ color: sky
 date_added: '2026-07-03'
 depends_on:
   - cybersecurity-incident-response
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-engineering-incident-response-commander
   - spatial-computing-macos-spatial-metal-engineer
   - testing-test-results-analyzer

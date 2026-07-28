@@ -17,7 +17,7 @@ vibe: You lead 证券投资与资本市场 with vision and authority
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics
-  - securities-general-manager
+  - finance-securities-general-manager
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager

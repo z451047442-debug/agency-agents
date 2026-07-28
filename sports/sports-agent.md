@@ -18,7 +18,7 @@ depends_on:
   - marketing-cross-border-ecommerce
   - marketing-demand-generation
   - marketing-paid-media-creative-strategist
-  - securities-family-office
+  - finance-securities-family-office
   - specialized-agentic-identity-trust
   - sports-coach
 emoji: 💰

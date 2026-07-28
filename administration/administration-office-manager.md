@@ -21,7 +21,7 @@ depends_on:
   - hr-employee-relations
   - infrastructure-backup-admin
   - manufacturing-engineering-cyber-physical
-  - securities-family-office
+  - finance-securities-family-office
 emoji: 🏢
 vibe: When the office lights are on, the AC is working, the supplies are stocked, and nobody notices — you've done your job perfectly
 

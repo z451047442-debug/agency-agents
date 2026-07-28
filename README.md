@@ -257,7 +257,6 @@ Or use Claude Code's `/agents` command to browse installed agents.
 # Uninstall a single agent
 ./scripts/install.sh --uninstall --agent engineering-frontend-developer --tool claude-code
 ```
-```
 
 ### Option 2: Use as Reference
 
@@ -314,97 +313,101 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 >
 > **62 Categories · 1399 Agents**
 
-### 💻 Technology (350+ agents)
+### 💻 Technology (453 agents)
 
 | Category | Domain | Count | Description |
 |------|------|------|-----------|
-| [infrastructure](infrastructure/) | IT Infrastructure | 90 | Servers, storage, virtualization, monitoring, cloud, SRE, networking, Windows, Linux |
-| [engineering](engineering/) | Software Engineering | 75 | Frontend, backend, API, mobile, CMS, architecture, code review, technical writing |
-| [data-science](data-science/) | Data Science | 43 | BI, ML, NLP, CV, data engineering, data governance, AI agents, prompt engineering |
-| [cybersecurity](cybersecurity/) | Cybersecurity | 33 | Penetration testing, SOC, digital forensics, threat detection, malware, compliance |
-| [game-development](game-development/) | Game Development | 24 | Unity, Unreal, Godot, Roblox, Blender engine specialists |
-| [testing](testing/) | Testing & QA | 19 | SDET, API testing, performance benchmarking, accessibility, mobile testing |
-| [iot](iot/) | IoT | 19 | Embedded IoT, firmware, sensors, edge computing, smart home |
-| [spatial-computing](spatial-computing/) | Spatial Computing | 15 | visionOS, WebXR, XR interfaces, cockpit interaction, VR, AR |
-| [robotics](robotics/) | Robotics | 15 | Robot control, ROS, automation, machine vision, exoskeletons |
-| [web3](web3/) | Web3 | 13 | Blockchain, DeFi, NFTs, DAOs, smart contracts, frontend |
-| [telecom](telecom/) | Telecom | 12 | 5G, 6G, core networks, RF, wireless, Bluetooth, antennas |
+| [infrastructure](infrastructure/) | IT Infrastructure | 111 | Servers, storage, virtualization, monitoring, cloud, SRE, networking, Windows, Linux |
+| [engineering](engineering/) | Software Engineering | 114 | Frontend, backend, API, mobile, CMS, architecture, code review, technical writing |
+| [data-science](data-science/) | Data Science | 47 | BI, ML, NLP, CV, data engineering, data governance, AI agents, prompt engineering |
+| [cybersecurity](cybersecurity/) | Cybersecurity | 39 | Penetration testing, SOC, digital forensics, threat detection, malware, compliance |
+| [game-development](game-development/) | Game Development | 26 | Unity, Unreal, Godot, Roblox, Blender engine specialists |
+| [testing](testing/) | Testing & QA | 21 | SDET, API testing, performance benchmarking, accessibility, mobile testing |
+| [iot](iot/) | IoT | 20 | Embedded IoT, firmware, sensors, edge computing, smart home |
+| [spatial-computing](spatial-computing/) | Spatial Computing | 16 | visionOS, WebXR, XR interfaces, cockpit interaction, VR, AR |
+| [robotics](robotics/) | Robotics | 16 | Robot control, ROS, automation, machine vision, exoskeletons |
+| [web3](web3/) | Web3 | 14 | Blockchain, DeFi, NFTs, DAOs, smart contracts, frontend |
+| [telecom](telecom/) | Telecom | 13 | 5G, 6G, core networks, RF, wireless, Bluetooth, antennas |
+| [gis](gis/) | GIS | 16 | Spatial analysis, remote sensing, cartography, geodata pipelines, GIS development |
 
-### 📈 Business & Marketing (143 agents)
-
-| Category | Domain | Count | Description |
-|------|------|------|-----------|
-| [marketing](marketing/) | Marketing | 72 | Social media, content, SEO, paid ads, email, influencers, regional markets |
-| [sales](sales/) | Sales | 14 | Sales coaching, funnel analysis, outbound strategy, proposals, pre-sales |
-| [customer-service](customer-service/) | Customer Service | 12 | Call centers, customer success, ticketing, voice AI, complaint management |
-| [tourism](tourism/) | Tourism & Hospitality | 12 | Travel agencies, cruises, cultural tourism, sustainable tourism, heritage sites |
-| [retail](retail/) | Retail | 12 | Category management, retail data, store operations, omnichannel, FMCG |
-| [product](product/) | Product Management | 11 | Product manager, AI product, growth, B2B, product analytics, product ops |
-| [lottery](lottery/) | Lottery | 10 | Game design, risk compliance, retail network, public welfare, sports betting |
-
-### 🏢 Enterprise Management (150 agents)
+### 📈 Business & Marketing (172 agents)
 
 | Category | Domain | Count | Description |
 |------|------|------|-----------|
-| [finance](finance/) | Finance & Accounting | 50 | Financial analysis, audit, actuarial, tax, cost, treasury, risk, fintech, securities |
-| [legal](legal/) | Legal | 22 | Corporate, criminal, labor, IP, data privacy, legal tech, compliance |
+| [marketing](marketing/) | Marketing | 85 | Social media, content, SEO, paid ads, email, influencers, regional markets |
+| [sales](sales/) | Sales | 16 | Sales coaching, funnel analysis, outbound strategy, proposals, pre-sales |
+| [customer-service](customer-service/) | Customer Service | 13 | Call centers, customer success, ticketing, voice AI, complaint management |
+| [tourism](tourism/) | Tourism & Hospitality | 16 | Travel agencies, cruises, cultural tourism, sustainable tourism, heritage sites |
+| [retail](retail/) | Retail | 15 | Category management, retail data, store operations, omnichannel, FMCG |
+| [product](product/) | Product Management | 14 | Product manager, AI product, growth, B2B, product analytics, product ops |
+| [lottery](lottery/) | Lottery | 13 | Game design, risk compliance, retail network, public welfare, sports betting |
+
+### 🏢 Enterprise Management (176 agents)
+
+| Category | Domain | Count | Description |
+|------|------|------|-----------|
+| [finance](finance/) | Finance & Accounting | 53 | Financial analysis, audit, actuarial, tax, cost, treasury, risk, fintech, securities |
+| [legal](legal/) | Legal | 25 | Corporate, criminal, labor, IP, data privacy, legal tech, compliance |
 | [project-management](project-management/) | Project Management | 22 | PMP, agile, PMO, bidding, Scrum, events, film production, portfolio |
-| [hr](hr/) | Human Resources | 21 | HRBP, recruiting, compensation, performance, OD, employee relations, onboarding, training, HR tech |
-| [operations](operations/) | Internal Operations | 11 | Data reporting, executive summaries, financial tracking, automation governance, infrastructure |
-| [real-estate](real-estate/) | Real Estate | 10 | Commercial brokerage, appraisal, development, property management, REIT, buyer/seller agent |
-| [quality](quality/) | Quality Management | 9 | QMS, SQE, CQE, PQE, SQA, healthcare quality, food safety |
-| [administration](administration/) | Administration | 7 | Office management, secretarial, procurement, archives, contracts, travel, fleet |
+| [hr](hr/) | Human Resources | 22 | HRBP, recruiting, compensation, performance, OD, employee relations, onboarding, training, HR tech |
+| [operations](operations/) | Internal Operations | 12 | Data reporting, executive summaries, financial tracking, automation governance, infrastructure |
+| [real-estate](real-estate/) | Real Estate | 12 | Commercial brokerage, appraisal, development, property management, REIT, buyer/seller agent |
+| [quality](quality/) | Quality Management | 11 | QMS, SQE, CQE, PQE, SQA, healthcare quality, food safety |
+| [administration](administration/) | Administration | 10 | Office management, secretarial, procurement, archives, contracts, travel, fleet |
 | [strategy](strategy/) | Strategy & Consulting | 7 | Business analysis, CEO coaching, ESG, OKR, VC, business strategy |
 
-### 🏭 Manufacturing & Industry (180 agents)
+### 🏭 Manufacturing & Industry (204 agents)
 
 | Category | Domain | Count | Description |
 |------|------|------|-----------|
-| [manufacturing](manufacturing/) | Manufacturing & Materials | 43 | Smart manufacturing, 3D printing, semiconductors, welding, textiles, materials science, optics |
-| [construction](construction/) | Construction & MEP | 40 | Architectural design, BIM, construction, cost engineering, HVAC, plumbing, electrical, fire protection, bridges, tunnels |
-| [energy](energy/) | Energy & Resources | 40 | Solar, wind, energy storage, hydrogen, nuclear, oil & gas, carbon capture, geothermal, tidal |
-| [aerospace](aerospace/) | Aerospace | 23 | Aircraft design, avionics, ATC, satellites, space systems, UAVs |
-| [automotive](automotive/) | Automotive | 22 | Autonomous driving, V2X, ADAS, batteries, vehicle dynamics, NVH |
-| [agriculture](agriculture/) | Agritech | 12 | Precision agriculture, ag supply chain, ag IoT, agronomy, quality & safety |
+| [manufacturing](manufacturing/) | Manufacturing & Materials | 47 | Smart manufacturing, 3D printing, semiconductors, welding, textiles, materials science, optics |
+| [construction](construction/) | Construction & MEP | 43 | Architectural design, BIM, construction, cost engineering, HVAC, plumbing, electrical, fire protection, bridges, tunnels |
+| [energy](energy/) | Energy & Resources | 44 | Solar, wind, energy storage, hydrogen, nuclear, oil & gas, carbon capture, geothermal, tidal |
+| [aerospace](aerospace/) | Aerospace | 33 | Aircraft design, avionics, ATC, satellites, space systems, UAVs |
+| [automotive](automotive/) | Automotive | 23 | Autonomous driving, V2X, ADAS, batteries, vehicle dynamics, NVH |
+| [agriculture](agriculture/) | Agritech | 14 | Precision agriculture, ag supply chain, ag IoT, agronomy, quality & safety |
 
-### 🌍 Industry Verticals (250+ agents)
+### 🌍 Industry Verticals (257 agents)
 
 | Category | Domain | Count | Description |
 |------|------|------|-----------|
-| [healthcare](healthcare/) | Healthcare | 50 | Clinical medicine, nursing, pharmacy, gene editing, medical devices, bioinformatics, TCM |
-| [environmental](environmental/) | Environment & Sustainability | 33 | Carbon neutrality, EIA, climate, coastal, water resources, waste, ecological restoration |
-| [media-entertainment](media-entertainment/) | Media & Entertainment | 24 | Music production, photography, videography, audio, broadcast, entertainment tech |
-| [design](design/) | Design & Creative | 21 | UI, UX, branding, visual storytelling, cultural intelligence, inclusive design |
-| [education](education/) | Education & Academia | 17 | EdTech, curriculum design, anthropology, psychology, history, narratology |
-| [logistics](logistics/) | Logistics & Supply Chain | 16 | Warehousing, transportation, freight forwarding, last-mile, cold chain, customs |
-| [food-beverage](food-beverage/) | Food & Beverage | 15 | Food safety, brewing, fermentation, food packaging, alternative proteins |
-| [insurance](insurance/) | Insurance | 11 | Auto claims, life actuarial, health underwriting, reinsurance, insurtech |
-| [government](government/) | Government & Public | 10 | Policy analysis, government relations, urban planning, smart cities, public procurement |
-| [pharma-biotech](pharma-biotech/) | Pharma & Biotech | 8 | Drug R&D, clinical trials, CMC, molecular diagnostics |
+| [healthcare](healthcare/) | Healthcare | 54 | Clinical medicine, nursing, pharmacy, gene editing, medical devices, bioinformatics, TCM |
+| [environmental](environmental/) | Environment & Sustainability | 38 | Carbon neutrality, EIA, climate, coastal, water resources, waste, ecological restoration |
+| [media-entertainment](media-entertainment/) | Media & Entertainment | 31 | Music production, photography, videography, audio, broadcast, entertainment tech |
+| [design](design/) | Design & Creative | 25 | UI, UX, branding, visual storytelling, cultural intelligence, inclusive design |
+| [education](education/) | Education & Academia | 36 | EdTech, curriculum design, anthropology, psychology, history, narratology |
+| [logistics](logistics/) | Logistics & Supply Chain | 22 | Warehousing, transportation, freight forwarding, last-mile, cold chain, customs |
+| [food-beverage](food-beverage/) | Food & Beverage | 16 | Food safety, brewing, fermentation, food packaging, alternative proteins |
+| [insurance](insurance/) | Insurance | 12 | Auto claims, life actuarial, health underwriting, reinsurance, insurtech |
+| [government](government/) | Government & Public | 14 | Policy analysis, government relations, urban planning, smart cities, public procurement |
+| [pharma-biotech](pharma-biotech/) | Pharma & Biotech | 9 | Drug R&D, clinical trials, CMC, molecular diagnostics |
 
-### 🆕 New Domains (50+ agents)
-
-| Category | Domain | Count | Description |
-|------|------|------|------|
-| [sports](sports/) | Sports | 4 | Sports coaching, event operations, agent, sports marketing |
-| [fashion](fashion/) | Fashion | 4 | Fashion design, buying, brand management, sustainable fashion |
-| [mining](mining/) | Mining | 4 | Mining engineering, mineral exploration, metallurgy, mine safety |
-| [nonprofit](nonprofit/) | Nonprofit | 4 | Fundraising, grant writing, program director, volunteer coordination |
-| [publishing](publishing/) | Publishing | 4 | Book editing, literary agent, digital publishing, academic publishing |
-| [events](events/) | Events & MICE | 4 | Event planning, exhibition operations, wedding planning, sponsorship |
-| [localization](localization/) | Localization | 4 | Localization engineering, translation QA, internationalization PM |
-| [emergency](emergency/) | Emergency Response | 4 | Firefighting, disaster response, EMS, SAR |
-| [forestry](forestry/) | Forestry | 3 | Forestry management, forest protection, timber supply chain |
-| [beauty](beauty/) | Beauty | 3 | Cosmetic formulation, product management, brand marketing |
-| [pets](pets/) | Pets | 3 | Pet nutrition, animal behavior, pet grooming |
-| [libraries](libraries/) | Libraries | 2 | Digital libraries, archives management |
-| [museums](museums/) | Museums | 2 | Curation, artifact conservation |
-
-### ⚙️ Specialized (6 agents)
+### 🆕 New Domains (108 agents)
 
 | Category | Domain | Count | Description |
 |------|------|------|------|
-| [specialized](specialized/) | Specialized | 6 | Agent identity, identity graph, chief of staff, document generation, workflow architecture, knowledge cards |
+| [thinking-models](thinking-models/) | Thinking Models | 13 | Scientific, strategic, economic, investment, and cognitive thinking frameworks |
+| [sports](sports/) | Sports | 9 | Sports coaching, event operations, agent, sports marketing |
+| [publishing](publishing/) | Publishing | 9 | Book editing, literary agent, digital publishing, academic publishing |
+| [fashion](fashion/) | Fashion | 7 | Fashion design, buying, brand management, sustainable fashion |
+| [mining](mining/) | Mining | 7 | Mining engineering, mineral exploration, metallurgy, mine safety |
+| [events](events/) | Events & MICE | 7 | Event planning, exhibition operations, wedding planning, sponsorship |
+| [localization](localization/) | Localization | 7 | Localization engineering, translation QA, internationalization PM |
+| [emergency](emergency/) | Emergency Response | 7 | Firefighting, disaster response, EMS, SAR |
+| [nonprofit](nonprofit/) | Nonprofit | 6 | Fundraising, grant writing, program director, volunteer coordination |
+| [forestry](forestry/) | Forestry | 6 | Forestry management, forest protection, timber supply chain |
+| [beauty](beauty/) | Beauty | 6 | Cosmetic formulation, product management, brand marketing |
+| [pets](pets/) | Pets | 6 | Pet nutrition, animal behavior, pet grooming |
+| [home-lifestyle](home-lifestyle/) | Home & Lifestyle | 5 | Interior design, smart home, personal finance, family education |
+| [parenting-family](parenting-family/) | Parenting & Family | 5 | Child development, parent-child education, family coaching |
+| [libraries](libraries/) | Libraries | 3 | Digital libraries, archives management |
+| [museums](museums/) | Museums | 5 | Curation, artifact conservation, museum management |
+
+### ⚙️ Specialized (26 agents)
+
+| Category | Domain | Count | Description |
+|------|------|------|------|
+| [specialized](specialized/) | Specialized | 26 | Cross-cutting roles: CFO, CSM, DPO, ESG officer, grant writer, workflow architecture, chief of staff, document generation, knowledge cards, and more |
 
 ---
 
@@ -416,19 +419,19 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 Browse all 1399 agents in each category directory (62 domains):
 
-**Technology**: [engineering](engineering/)(75) · [infrastructure](infrastructure/)(90) · [data-science](data-science/)(43) · [cybersecurity](cybersecurity/)(33) · [game-development](game-development/)(24) · [testing](testing/)(19) · [iot](iot/)(19) · [spatial-computing](spatial-computing/)(15) · [robotics](robotics/)(15) · [web3](web3/)(13) · [telecom](telecom/)(12)
+**Technology**: [engineering](engineering/)(114) · [infrastructure](infrastructure/)(111) · [data-science](data-science/)(47) · [cybersecurity](cybersecurity/)(39) · [game-development](game-development/)(26) · [testing](testing/)(21) · [iot](iot/)(20) · [spatial-computing](spatial-computing/)(16) · [robotics](robotics/)(16) · [gis](gis/)(16) · [web3](web3/)(14) · [telecom](telecom/)(13)
 
-**Business & Marketing**: [marketing](marketing/)(72) · [sales](sales/)(14) · [customer-service](customer-service/)(12) · [tourism](tourism/)(12) · [retail](retail/)(12) · [product](product/)(11) · [lottery](lottery/)(10)
+**Business & Marketing**: [marketing](marketing/)(85) · [sales](sales/)(16) · [tourism](tourism/)(16) · [retail](retail/)(15) · [product](product/)(14) · [customer-service](customer-service/)(13) · [lottery](lottery/)(13)
 
-**Enterprise Management**: [finance](finance/)(50) · [legal](legal/)(22) · [project-management](project-management/)(22) · [hr](hr/)(21) · [operations](operations/)(11) · [real-estate](real-estate/)(10) · [quality](quality/)(9) · [administration](administration/)(7) · [strategy](strategy/)(7)
+**Enterprise Management**: [finance](finance/)(53) · [legal](legal/)(25) · [project-management](project-management/)(24) · [hr](hr/)(22) · [real-estate](real-estate/)(12) · [operations](operations/)(12) · [quality](quality/)(11) · [administration](administration/)(10) · [strategy](strategy/)(7)
 
-**Manufacturing & Industry**: [manufacturing](manufacturing/)(43) · [construction](construction/)(40) · [energy](energy/)(40) · [aerospace](aerospace/)(23) · [automotive](automotive/)(22) · [agriculture](agriculture/)(12)
+**Manufacturing & Industry**: [manufacturing](manufacturing/)(47) · [energy](energy/)(44) · [construction](construction/)(43) · [aerospace](aerospace/)(33) · [automotive](automotive/)(23) · [agriculture](agriculture/)(14)
 
-**Industry Verticals**: [healthcare](healthcare/)(50) · [environmental](environmental/)(33) · [media-entertainment](media-entertainment/)(24) · [design](design/)(21) · [education](education/)(17) · [logistics](logistics/)(16) · [food-beverage](food-beverage/)(15) · [insurance](insurance/)(11) · [government](government/)(10) · [pharma-biotech](pharma-biotech/)(8)
+**Industry Verticals**: [healthcare](healthcare/)(54) · [environmental](environmental/)(38) · [education](education/)(36) · [media-entertainment](media-entertainment/)(31) · [design](design/)(25) · [logistics](logistics/)(22) · [food-beverage](food-beverage/)(16) · [government](government/)(14) · [insurance](insurance/)(12) · [pharma-biotech](pharma-biotech/)(9)
 
-**New Domains**: [sports](sports/)(4) · [fashion](fashion/)(4) · [mining](mining/)(4) · [nonprofit](nonprofit/)(4) · [publishing](publishing/)(4) · [events](events/)(4) · [localization](localization/)(4) · [emergency](emergency/)(4) · [forestry](forestry/)(3) · [beauty](beauty/)(3) · [pets](pets/)(3) · [libraries](libraries/)(2) · [museums](museums/)(2)
+**New Domains**: [thinking-models](thinking-models/)(13) · [sports](sports/)(9) · [publishing](publishing/)(9) · [fashion](fashion/)(7) · [mining](mining/)(7) · [events](events/)(7) · [localization](localization/)(7) · [emergency](emergency/)(7) · [nonprofit](nonprofit/)(6) · [forestry](forestry/)(6) · [beauty](beauty/)(6) · [pets](pets/)(6) · [home-lifestyle](home-lifestyle/)(5) · [parenting-family](parenting-family/)(5) · [libraries](libraries/)(3) · [museums](museums/)(5)
 
-**Specialized**: [specialized](specialized/)(6)
+**Specialized**: [specialized](specialized/)(26)
 
 > 💡 Click any category link to browse all agents in that domain with full details (identity, mission, deliverables, workflow, success metrics).
 

@@ -17,7 +17,7 @@ depends_on:
   - government-social-work
   - marketing-abm-account-based
   - marketing-japan-market-expert
-  - securities-fixed-income
+  - finance-securities-fixed-income
   - thinking-models-decision-frameworks
 
 

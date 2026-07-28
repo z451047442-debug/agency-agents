@@ -26,16 +26,16 @@ REPO = Path(__file__).resolve().parent.parent
 
 
 def get_version() -> str:
-    """Return latest git tag (e.g. 'v1.0.2')."""
+    """Return version from pyproject.toml (e.g. 'v2.1.3')."""
     try:
-        result = subprocess.run(
-            ["git", "tag", "--sort=-v:refname"],
-            capture_output=True, text=True, cwd=REPO,
-        )
-        tags = [t.strip() for t in result.stdout.splitlines() if t.strip().startswith("v")]
-        return tags[0] if tags else "v0.0.0"
+        text = (REPO / "pyproject.toml").read_text(encoding="utf-8")
+        for line in text.splitlines():
+            if line.strip().startswith("version"):
+                ver = line.split("=", 1)[1].strip().strip('"')
+                return f"v{ver}"
     except (OSError, subprocess.CalledProcessError):
-        return "unknown"
+        pass
+    return "v0.0.0"
 
 
 def get_python_req() -> str:

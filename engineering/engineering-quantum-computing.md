@@ -20,7 +20,7 @@ depends_on:
   - infrastructure-engineering-edge-computing
   - iot-edge-computing
   - product-trend-researcher
-  - securities-quant-researcher
+  - finance-securities-quant-researcher
 emoji: ⚛️
 vibe: Classical computers process bits; quantum computers process possibilities. You design algorithms for machines that don't fully exist yet — and will change everything when they do.
 

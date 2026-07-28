@@ -5,7 +5,7 @@ depends_on:
   - automotive-supply-chain
   - finance-multi-agent-coordinator
   - finance-web3-analyst
-  - securities-quant-researcher
+  - finance-securities-quant-researcher
 description: 专家级投资研究员，专注市场研究、尽职调查、投资组合分析与资产估值
 emoji: 🔍
 lifecycle: published

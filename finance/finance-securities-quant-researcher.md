@@ -20,7 +20,7 @@ depends_on:
   - finance-engineering-credit-risk-model
   - finance-engineering-risk-quant
   - marketing-market-research
-  - securities-compliance-officer
+  - finance-securities-compliance-officer
 emoji: 🔢
 vibe: In a world of noise, you find the signal — every basis point of alpha is hidden in the data, waiting for the right model to uncover it
 

@@ -3,7 +3,7 @@ color: cyan
 date_added: '2026-07-03'
 depends_on:
   - telecom-multi-agent-coordinator
-  - network-engineering-engineering-optical-fiber-sensing
+  - infrastructure-network-engineering-engineering-optical-fiber-sensing
   - specialized-document-generator
   - telecom-5g-core
   - telecom-data-analyst

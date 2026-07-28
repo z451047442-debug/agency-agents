@@ -3,12 +3,12 @@ color: cyan
 date_added: '2026-07-03'
 depends_on:
   - data-science-engineering-language-model-nlp
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-engineering-observability-architect
   - infrastructure-engineering-observability-engineer
   - infrastructure-identity-access
-  - network-engineering-architect
-  - network-engineering-automation
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
 description: 云网络架构与运维专家，覆盖AWS VPC/Azure VNet、混合云互联、云原生网络(Cilium/Calico)、负载均衡与CDN
 emoji: ☁️
 lifecycle: published

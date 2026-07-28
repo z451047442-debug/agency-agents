@@ -16,7 +16,7 @@ depends_on:
   - finance-engineering-risk-quant
   - finance-quant-trader
   - finance-risk-manager
-  - securities-derivatives-trader
+  - finance-securities-derivatives-trader
 emoji: 💹
 vibe: The market is a voting machine in the short run and a weighing machine in the long run — you trade the voting, invest the weighing
 

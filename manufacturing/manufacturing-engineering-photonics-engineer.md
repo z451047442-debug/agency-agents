@@ -12,7 +12,7 @@ depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
-  - network-engineering-engineering-optical-fiber-sensing
+  - infrastructure-network-engineering-engineering-optical-fiber-sensing
 emoji: 💡
 vibe: Light carries information, cuts metal, and sees the invisible. You design the lenses, lasers, and detectors that harness photons to do what electrons can't.
 ---

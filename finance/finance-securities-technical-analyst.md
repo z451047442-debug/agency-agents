@@ -3,11 +3,11 @@ color: amber
 date_added: '2026-07-03'
 depends_on:
   - design-engineering-user-research-system
-  - securities-multi-agent-coordinator
+  - finance-securities-multi-agent-coordinator
   - marketing-market-research
   - marketing-paid-media-search-query-analyst
   - operations-report-distribution-agent
-  - securities-compliance-officer
+  - finance-securities-compliance-officer
   - testing-engineering-test-automation-framework
 description: 技术分析与量化择时专家，覆盖K线/均线/布林/RSI/MACD/WR指标、量价关系、形态识别(头肩/双底/旗形)、波浪理论与多时间框架分析
 emoji: 📉

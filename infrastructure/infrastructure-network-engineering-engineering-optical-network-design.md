@@ -3,11 +3,11 @@ color: cyan
 date_added: '2026-07-03'
 depends_on:
   - cybersecurity-engineering-customer-identity-access
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-identity-access
-  - network-engineering-architect
-  - network-engineering-automation
-  - network-engineering-engineering-optical-fiber-sensing
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
+  - infrastructure-network-engineering-engineering-optical-fiber-sensing
   - telecom-engineering-signal-integrity
 description: 数据中心光互连与光子集成(PIC)设计专家，覆盖硅光子/InP光子集成、光模块(400G/800G/1.6T Pluggable/CPO)、相干光通信与光背板/片上光互连
 emoji: 💡

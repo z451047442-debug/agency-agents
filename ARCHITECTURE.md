@@ -1,8 +1,8 @@
-# The Agency — System Architecture v1.0.2
+# The Agency — System Architecture v2.1.3
 
-**1,399 AI Agent Personality Definitions · 62 Categories · 32 Tooling Scripts · 1,197 Tests**
+**1,399 AI Agent Personality Definitions · 62 Categories · 32 Tooling Scripts · 1,241 Tests**
 
-Generated: 2026-07-26 05:33 UTC
+Generated: 2026-07-28 14:09 UTC
 
 ---
 
@@ -20,23 +20,24 @@ Generated: 2026-07-26 05:33 UTC
 
 ---
 
-## Layer 1: Test Suite (33 modules, 1,197 tests)
+## Layer 1: Test Suite (35 modules, 1,241 tests)
 
 | Module (tests) | Module (tests) |
 |----------------|----------------|
-| test_score_agents.py (130) | test_clean.py (25) |
+| test_score_agents.py (96) | test_clean.py (25) |
 | test_agent_lifecycle.py (80) | test_rebalance_nexus_phases.py (25) |
 | test_convert.py (78) | test_shard_index.py (25) |
 | test_nexus_orchestrator.py (78) | test_build_architecture.py (23) |
 | test_lint_agents.py (75) | test_suggest_nexus_roles.py (21) |
 | test_analyze_deps.py (73) | test_batch_version.py (20) |
-| test_quality_report.py (53) | test_check_divisions.py (18) |
-| test_search_agents.py (47) | test_batch_add_deps.py (16) |
-| test_batch_nexus_roles.py (42) | test_batch_date_added.py (16) |
-| test_build_hermes_plugin.py (40) | test_analyze_deps_auto.py (15) |
-| test_expand_agent.py (40) | test_check_dupes.py (15) |
-| test_contribute.py (38) | test_generate_index.py (11) |
-| test_feedback.py (37) | test_quality_pipeline.py (10) |
+| test_omc_scripts.py (69) | test_check_divisions.py (18) |
+| test_quality_report.py (53) | test_batch_add_deps.py (16) |
+| test_search_agents.py (47) | test_batch_date_added.py (16) |
+| test_batch_nexus_roles.py (42) | test_analyze_deps_auto.py (15) |
+| test_build_hermes_plugin.py (40) | test_check_dupes.py (15) |
+| test_expand_agent.py (40) | test_generate_index.py (11) |
+| test_contribute.py (38) | test_quality_pipeline.py (10) |
+| test_feedback.py (37) | test_install_remote.py (9) |
 | test_validate_index.py (37) | test_batch_nexus_roles_gap.py (7) |
 | test_shared.py (35) | test_integration_pipeline.py (6) |
 | test_add_comm_section.py (29) | test_build_agent_browser.py (3) |
@@ -60,7 +61,7 @@ Generated: 2026-07-26 05:33 UTC
 **__init__.py** — Module entry point and dynamic loader
 - Exports: `Re-exports all 15 symbols + load_module()`
 
-**21 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · generate-index · check-i18n · localize-agents · lint-agents · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
+**29 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · export-omc-agents · fix-filename-prefixes · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · nexus-orchestrator · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
 
 ---
 
@@ -70,7 +71,7 @@ Generated: 2026-07-26 05:33 UTC
 | Script | Purpose |
 |--------|---------|
 | analyze-deps-auto.py | NLP-based auto dependency mapping from agent content |
-| analyze-deps.py | Dependency graph integrity verification |
+| analyze-deps.py | depends_on validation + cross-category coverage + --apply |
 | check-agent-originality.py | Agent originality and similarity detection |
 | check-divisions.py | Division directory structure validation |
 | check-dupes.py | Duplicate detection via semantic similarity |
@@ -294,14 +295,14 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 
 | Metric | Value |
 |--------|-------|
-| Version | v1.0.2 |
+| Version | v2.1.3 |
 | Python | >=3.10 |
 | Coverage threshold | 90% |
 | Agent files | 1,399 |
 | Tool scripts | 32 (.py) + 19 (.sh) |
-| Tests | 1,197 across 33 modules |
+| Tests | 1,241 across 35 modules |
 | CI workflows | 7 |
 | Integration targets | 6 |
 | NEXUS phases | 7 |
 
-Generated: 2026-07-26 05:33 UTC
+Generated: 2026-07-28 14:09 UTC

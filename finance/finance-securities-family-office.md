@@ -2,14 +2,14 @@
 color: gold
 date_added: '2026-07-03'
 depends_on:
-  - securities-multi-agent-coordinator
+  - finance-securities-multi-agent-coordinator
   - finance-capital-markets-analyst
   - government-public-safety-analyst
   - legal-engineering-legal-document-automation
   - marketing-cross-border-ecommerce
   - marketing-europe-market
   - marketing-private-domain-operator
-  - securities-compliance-officer
+  - finance-securities-compliance-officer
 description: 家族办公室投资管理专家，覆盖多代财富传承战略、公开/私募/实物跨资产配置、直投与联合投资、税务优化结构、慈善与影响力投资、家族治理与投资政策、综合业绩报告
 emoji: 🏰
 lifecycle: published

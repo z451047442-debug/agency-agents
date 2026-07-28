@@ -3,11 +3,11 @@ color: cyan
 date_added: '2026-07-03'
 depends_on:
   - cybersecurity-engineering-customer-identity-access
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-cloud-cost-optimization
   - infrastructure-identity-access
-  - network-engineering-architect
-  - network-engineering-automation
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
 description: 卫星通信与宽带星座网络专家，覆盖LEO/MEO/GEO卫星通信链路、星地网关/地面段、相控阵天线与卫星互联网宽带接入
 emoji: 🛰️
 lifecycle: published

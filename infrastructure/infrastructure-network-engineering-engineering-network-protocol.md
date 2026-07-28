@@ -3,12 +3,12 @@ color: blue
 date_added: '2026-07-03'
 depends_on:
   - data-science-engineering-knowledge-management
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-cloud-cost-optimization
   - infrastructure-engineering-edge-computing
   - infrastructure-identity-access
-  - network-engineering-architect
-  - network-engineering-automation
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
 description: TCP/IP网络协议栈与数据平面开发专家，覆盖Linux内核网络子系统/eBPF/XDP、DPDK高性能数据平面、QUIC/HTTP3协议实现与SDN数据平面(OpenFlow/P4)
 emoji: 📨
 lifecycle: published

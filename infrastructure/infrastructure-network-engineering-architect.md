@@ -3,11 +3,11 @@ color: indigo
 date_added: '2026-07-03'
 depends_on:
   - construction-fire-protection
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-cisco-network
   - infrastructure-inspur-cisco-network
-  - network-engineering-automation
-  - network-engineering-cloud
+  - infrastructure-network-engineering-automation
+  - infrastructure-network-engineering-cloud
   - spatial-computing-ar-filter-creator
 description: 企业级网络架构设计专家，覆盖路由交换、SDN/NFV、数据中心网络、云网络互联与高可用设计
 emoji: 🌐

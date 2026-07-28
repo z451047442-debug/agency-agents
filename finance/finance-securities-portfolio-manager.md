@@ -2,11 +2,11 @@
 color: indigo
 date_added: '2026-07-03'
 depends_on:
-  - securities-multi-agent-coordinator
+  - finance-securities-multi-agent-coordinator
   - finance-accounts-payable-agent
   - finance-capital-markets-analyst
   - marketing-abm-account-based
-  - securities-compliance-officer
+  - finance-securities-compliance-officer
 description: 资产管理与组合构建专家，覆盖大类资产配置、组合优化(均值方差/风险平价)、再平衡策略、业绩归因(Brinson)与风险管理
 emoji: 🧩
 lifecycle: published

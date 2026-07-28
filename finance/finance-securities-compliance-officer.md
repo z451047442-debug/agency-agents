@@ -4,10 +4,10 @@ date_added: '2026-07-03'
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
-  - securities-multi-agent-coordinator
+  - finance-securities-multi-agent-coordinator
   - marketing-market-research
   - operations-report-distribution-agent
-  - securities-derivatives-trader
+  - finance-securities-derivatives-trader
 description: 证券公司与基金合规专家，覆盖SEC/CSRC/证监会监管合规、反洗钱(AML)/KYC、内幕交易防控、销售适当性与信息披露合规
 emoji: 📋
 lifecycle: published

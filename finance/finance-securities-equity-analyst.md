@@ -4,13 +4,13 @@ date_added: '2026-07-03'
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
-  - securities-multi-agent-coordinator
+  - finance-securities-multi-agent-coordinator
   - finance-engineering-credit-risk-model
   - finance-engineering-risk-quant
   - government-public-safety-analyst
   - marketing-market-research
   - retail-customer-insight-analyst
-  - securities-compliance-officer
+  - finance-securities-compliance-officer
 description: 股票研究与证券分析专家，覆盖基本面分析/财务建模、DCF/可比估值、行业/公司深度研究、盈利预测与研报撰写
 emoji: 📈
 lifecycle: published

@@ -16,7 +16,7 @@ depends_on:
   - nonprofit-grant-writer
   - nonprofit-multi-agent-coordinator
   - project-management-government-grant
-  - securities-family-office
+  - finance-securities-family-office
 emoji: ❤️
 vibe: Turns passion into funding — connects donors' desire to change the world with
   the organizations actually doing it.

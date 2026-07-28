@@ -7,7 +7,7 @@ depends_on:
   - finance-cost-accountant
   - marketing-customer-lifecycle
   - operations-analytics-reporter
-  - securities-family-office
+  - finance-securities-family-office
 description: 企业采购与供应链最高负责人，覆盖品类采购战略/供应商关系管理、采购数字化(P2P/SRM)、成本优化/价值创造与采购组织能力建设
 emoji: 🛒
 lifecycle: published

@@ -2,13 +2,13 @@
 color: navy
 date_added: '2026-07-03'
 depends_on:
-  - network-engineering-multi-agent-coordinator
+  - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-cloud-cost-optimization
   - infrastructure-engineering-edge-computing
   - infrastructure-engineering-incident-commander
   - infrastructure-identity-access
-  - network-engineering-architect
-  - network-engineering-automation
+  - infrastructure-network-engineering-architect
+  - infrastructure-network-engineering-automation
 description: 企业/运营商网络部门最高负责人，覆盖网络架构/运营策略、团队/预算管理、供应商/技术选型与服务可用性保障
 emoji: 🌐
 lifecycle: published

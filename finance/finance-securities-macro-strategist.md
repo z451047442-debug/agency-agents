@@ -2,11 +2,11 @@
 color: slate
 date_added: '2026-07-03'
 depends_on:
-  - securities-multi-agent-coordinator
+  - finance-securities-multi-agent-coordinator
   - finance-cost-accountant
   - finance-risk-manager
   - finance-transfer-pricing
-  - securities-compliance-officer
+  - finance-securities-compliance-officer
   - web3-defi-strategist
 description: 全球宏观与投资策略专家，覆盖利率/汇率/通胀研判、央行政策解读、资产轮动框架(美林时钟)、地缘风险与跨资产配置策略
 emoji: 🌍

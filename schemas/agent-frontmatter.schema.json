@@ -73,6 +73,16 @@
       "enum": ["draft", "review", "published", "deprecated"],
       "description": "Lifecycle stage of this agent definition. Managed by scripts/agent-lifecycle.py."
     },
+    "model_tier": {
+      "type": "string",
+      "enum": ["premium", "standard", "economy"],
+      "description": "Cost tier for model routing. premium=Opus (complex/high-stakes), standard=Sonnet (implementation), economy=Haiku (simple/draft)."
+    },
+    "tdd_framework": {
+      "type": "string",
+      "maxLength": 120,
+      "description": "Test framework for TDD enforcement (e.g. 'pytest --cov', 'go test -cover', 'cargo test'). Injected by NEXUS during build phases."
+    },
     "depends_on": {
       "type": "array",
       "description": "Agent IDs that this agent logically depends on. The install tool may warn if a dependency is missing.",

@@ -1,8 +1,8 @@
 # The Agency — System Architecture v2.1.3
 
-**1,399 AI Agent Personality Definitions · 62 Categories · 32 Tooling Scripts · 1,241 Tests**
+**1,399 AI Agent Personality Definitions · 62 Categories · 35 Tooling Scripts · 1,241 Tests · OMC Smart Plugin**
 
-Generated: 2026-07-28 20:58 UTC
+Generated: 2026-07-28 23:29 UTC
 
 ---
 
@@ -61,17 +61,18 @@ Generated: 2026-07-28 20:58 UTC
 **__init__.py** — Module entry point and dynamic loader
 - Exports: `Re-exports all 15 symbols + load_module()`
 
-**30 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · export-omc-agents · fix-filename-prefixes · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · nexus-orchestrator · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
+**33 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · audit-security · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · export-omc-agents · extract-patterns · fix-filename-prefixes · fix-lint · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · nexus-orchestrator · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
 
 ---
 
-## Layer 3: Tooling Scripts (32 Python modules + 19 shell wrappers)
+## Layer 3: Tooling Scripts (35 Python modules + 19 shell wrappers)
 
-### Quality Pipeline (10 scripts)
+### Quality Pipeline (11 scripts)
 | Script | Purpose |
 |--------|---------|
 | analyze-deps-auto.py | NLP-based auto dependency mapping from agent content |
 | analyze-deps.py | depends_on validation + cross-category coverage + --apply |
+| audit-security.py | Security audit: shell/Python/config pattern scanning |
 | check-agent-originality.py | Agent originality and similarity detection |
 | check-divisions.py | Division directory structure validation |
 | check-dupes.py | Duplicate detection via semantic similarity |
@@ -81,7 +82,7 @@ Generated: 2026-07-28 20:58 UTC
 | score-agents.py | A-D grading with risk tiers, domain signals, and score variance |
 | validate-index.py | AGENTS.json JSON schema + filesystem cross-reference validation |
 
-### Maintenance Tools (11 scripts)
+### Maintenance Tools (12 scripts)
 | Script | Purpose |
 |--------|---------|
 | add-comm-section.py | Communication Style section generator with domain traits |
@@ -93,6 +94,7 @@ Generated: 2026-07-28 20:58 UTC
 | clean.py | Project cleanup: __pycache__, build artifacts |
 | contribute.py | Contribution dashboard with skill-level filtering |
 | expand-agent.py | B-grade to A-grade content expansion with template engine |
+| fix-lint.py | Incremental lint fixer: ruff + mypy auto-fix pipeline |
 | rebalance-nexus-phases.py | Rebalance agent distribution across NEXUS phases |
 | suggest-nexus-roles.py | Auto-suggest NEXUS roles based on agent content |
 
@@ -104,11 +106,12 @@ Generated: 2026-07-28 20:58 UTC
 | generate-index.py | AGENTS.json index generator with --check CI mode |
 | shard-index.py | AGENTS.json splitter for parallel processing |
 
-### Discovery & Orchestration (7 scripts)
+### Discovery & Orchestration (8 scripts)
 | Script | Purpose |
 |--------|---------|
 | build-agent-browser.py | Self-contained agent browser HTML generator |
 | build-architecture.py | ARCHITECTURE.md / .html auto-generator from live project data |
+| extract-patterns.py | Feedback pattern analysis: surface improvement insights |
 | feedback.py | User feedback collection — ratings, comments, issue reports |
 | nexus-orchestrator.py | NEXUS multi-agent orchestration engine |
 | search-agents.py | Keyword, category, and regex search with paginated results |
@@ -208,7 +211,9 @@ color: cyan                    # required (named or #RRGGBB)
 version: "1.0.0"              # standard (auto-populated)
 date_added: "2026-07-03"      # standard (auto-populated)
 
-vibe: "personality primer"    # optional
+vibe: "personality primer"     # optional
+model_tier: standard          # optional (premium/standard/economy)
+tdd_framework: "pytest --cov" # optional (test framework for TDD)
 nexus_roles:                  # optional (NEXUS pipeline phases)
   - phase-0-discovery
 depends_on:                   # optional (agent IDs this agent needs)
@@ -241,11 +246,26 @@ depends_on:                   # optional (agent IDs this agent needs)
 
 ---
 
+## Layer 5B: OMC 智能插件层 (4 个生成器, plugin 模式)
+
+OMC (oh-my-claudecode) 是唯一不通过 convert.py 转换的集成目标 — 它由 4 个专用生成器产生 4 种不同的配置产物，反向增强 Claude Code 自身的智能能力：
+
+| 产物 | 生成器 | 输出 | 规模 | 功能 |
+|----|-----|----|----|----|
+| NEXUS Skills | generate-nexus-skills.py | SKILL.md | 7 files | 按阶段关键词触发的 skill 文件，内含该阶段 agent 列表和质量门检查清单 |
+| 模型路由 | generate-omc-model-routing.py | model-routing.json | 1399 条目 | 按 agent 质量评分分配模型层级 — A级→Opus / B级→Sonnet / C/D级→Haiku |
+| 关键词 Hook | generate-omc-hooks.py | hooks.json | 领域→agent | 从 agent 名称和描述中提取领域关键词，用户提及时自动推荐对应 agent |
+| 团队管线 | generate-omc-team-config.py | team-config.json | 5 阶段管线 | NEXUS 7阶段 → OMC 5阶段团队管线映射 (plan→prd→exec→verify→fix) |
+
+> 与 Layer 5 的 10 个工具不同，OMC 不生成 agent 文件副本，而是将 agent 元数据转化为运行时智能 — 模型路由、关键词触发、阶段编排、团队协作。
+
+---
+
 ## Layer 6: Data Flow & Module Dependency
 
 ### Shared Foundation
 
-All 32 Python scripts read agent data through `_shared/` — none call each other's output:
+All 35 Python scripts read agent data through `_shared/` — none call each other's output:
 
 ```
                       _shared/
@@ -303,10 +323,11 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 | Python | >=3.10 |
 | Coverage threshold | 90% |
 | Agent files | 1,399 |
-| Tool scripts | 32 (.py) + 19 (.sh) |
+| Tool scripts | 35 (.py) + 19 (.sh) |
 | Tests | 1,241 across 35 modules |
 | CI workflows | 7 |
 | Integration targets | 10 |
+| OMC plugin artifacts | 4 |
 | NEXUS phases | 7 |
 
-Generated: 2026-07-28 20:58 UTC
+Generated: 2026-07-28 23:29 UTC

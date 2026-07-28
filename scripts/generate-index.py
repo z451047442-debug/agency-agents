@@ -54,6 +54,8 @@ def build_index() -> dict:
         date_added = get_field("date_added", fm_text) or None
         vibe = get_field("vibe", fm_text) or None
         lifecycle = get_field("lifecycle", fm_text) or None
+        model_tier = get_field("model_tier", fm_text) or None
+        tdd_framework = get_field("tdd_framework", fm_text) or None
 
         agent = {
             "id": agent_id,
@@ -76,6 +78,10 @@ def build_index() -> dict:
             agent["vibe"] = vibe
         if lifecycle:
             agent["lifecycle"] = lifecycle
+        if model_tier:
+            agent["model_tier"] = model_tier
+        if tdd_framework:
+            agent["tdd_framework"] = tdd_framework
         agents.append(agent)
         categories.add(category)
 

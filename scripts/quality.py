@@ -63,6 +63,7 @@ def main():
             failed += 1
 
     external_steps = [
+        ("Security Audit", [sys.executable, str(SCRIPT_DIR / "audit-security.py"), "--check"]),
         ("Python Lint (Ruff)", [sys.executable, "-m", "ruff", "check", str(SCRIPT_DIR)]),
         # Relaxed threshold (35%) for the quality pipeline's own quick run.
         # The CI job enforces 80% via pyproject.toml [tool.coverage.report] fail_under.

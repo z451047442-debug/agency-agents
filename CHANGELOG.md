@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.2.0] — 2026-07-29 — ECC Patterns: Security, Cost Awareness & Feedback Loop
+
+### Added
+- **Security**: `scripts/audit-security.py` — scans shell/Python/config files for dangerous patterns (curl pipe bash, hardcoded secrets, pickle, yaml.load, shell=True). Integrated into quality.py pipeline.
+- **Cost Tier**: `model_tier` frontmatter field (premium/standard/economy) for cost-aware agent routing in NEXUS orchestrator
+- **TDD Framework**: `tdd_framework` frontmatter field for language-specific test framework declarations (e.g. `pytest --cov`, `go test -cover`)
+- **Fix-Lint**: `scripts/fix-lint.py` — incremental ruff + mypy auto-fix pipeline with --check/--apply modes
+- **Feedback Loop**: `scripts/extract-patterns.py` — analyzes feedback.json to surface low-rated agents, common issues, and improvement suggestions
+- **Architecture**: OMC Smart Plugin layer (5B) added to ARCHITECTURE.md/html with 4 artifact cards
+
+### Changed
+- `quality.py` pipeline now includes security audit step before ruff
+- `build-architecture.py` includes new scripts in quality/maintenance/discovery categories
+- Agent anatomy docs show new optional fields (model_tier, tdd_framework)
+
 ## [2.1.4] — 2026-07-29 — Bug Fixes & Documentation Accuracy
 
 ### Fixed

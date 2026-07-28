@@ -348,7 +348,7 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 |------|------|------|-----------|
 | [finance](finance/) | Finance & Accounting | 53 | Financial analysis, audit, actuarial, tax, cost, treasury, risk, fintech, securities |
 | [legal](legal/) | Legal | 25 | Corporate, criminal, labor, IP, data privacy, legal tech, compliance |
-| [project-management](project-management/) | Project Management | 22 | PMP, agile, PMO, bidding, Scrum, events, film production, portfolio |
+| [project-management](project-management/) | Project Management | 24 | PMP, agile, PMO, bidding, Scrum, events, film production, portfolio |
 | [hr](hr/) | Human Resources | 22 | HRBP, recruiting, compensation, performance, OD, employee relations, onboarding, training, HR tech |
 | [operations](operations/) | Internal Operations | 12 | Data reporting, executive summaries, financial tracking, automation governance, infrastructure |
 | [real-estate](real-estate/) | Real Estate | 12 | Commercial brokerage, appraisal, development, property management, REIT, buyer/seller agent |

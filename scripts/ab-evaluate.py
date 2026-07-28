@@ -105,6 +105,9 @@ def evaluate_agent(agent_id, tc):
     """Evaluate one agent against one test case by scanning content."""
     agent_path = REPO / tc["domain"] / f"{agent_id}.md"
     if not agent_path.exists():
+        candidates = sorted((REPO / tc["domain"]).rglob(f"{agent_id}.md"))
+        agent_path = candidates[0] if candidates else agent_path
+    if not agent_path.exists():
         return None
     content = agent_path.read_text(encoding="utf-8")
     result = {"id": tc["id"], "title": tc["title"], "criteria": {}}

@@ -444,7 +444,11 @@ def run_gate(name: str, phase: str, gate_file: str | None = None) -> None:
             evidence = answer.get("evidence", "")
             print(f"  {'PASS' if passed else 'FAIL'}" + (f" — {evidence}" if evidence else ""))
         else:
-            ans = input("  > ").strip()
+            try:
+                ans = input("  > ").strip()
+            except EOFError:
+                print("  (EOF, gate aborted)")
+                return
             parts = ans.split(maxsplit=1)
             passed = parts and parts[0].lower() in ("pass", "p", "yes", "y")
             evidence = parts[1] if len(parts) > 1 else ""

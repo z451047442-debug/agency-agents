@@ -24,8 +24,15 @@ cd "$SCRIPT_DIR/.."
 JSON="divisions.json"
 [[ -f "$JSON" ]] || { echo "ERROR $JSON not found at repo root"; exit 1; }
 
-# Fallback chain for cross-platform Python resolution
+# Fallback chain for cross-platform Python resolution (Python >= 3.9)
+PYTHON=""
 for py in python3 python; do
-    command -v "$py" >/dev/null 2>&1 && { PYTHON="$py"; break; }
+    if v=$("$py" -c "import sys; print(sys.version_info[:2] >= (3,9))" 2>/dev/null); then
+        if [ "$v" = "True" ]; then PYTHON="$py"; break; fi
+    fi
 done
+if [ -z "$PYTHON" ]; then
+    echo "ERROR: Python >= 3.9 is required." >&2
+    exit 2
+fi
 exec "$PYTHON" "$SCRIPT_DIR/check-divisions.py"

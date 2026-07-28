@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.1.4] — 2026-07-29 — Bug Fixes & Documentation Accuracy
+
+### Fixed
+- **Bug**: `test_integration_pipeline.py` passed wrong argument type to `validate_depends_on()` — integration test was silently non-functional
+- **Bug**: `analyze-deps.py` `find_cycles()` no exception handling on file read — runtime crash on unreadable agent files
+- **Bug**: `score-agents.py` `--compare` displayed `X/10` but v7 scores are on 0-18 scale — misleading output
+- **Bug**: `analyze-deps.py` reverse cross-category bonus overwrote hand-calibrated explicit values
+
+### Documentation
+- **README**: `project-management` agent count corrected from 22 to 24
+- **README-zh**: All 56 category counts synchronized with AGENTS.json actual data; added 4 missing categories (gis, thinking-models, home-lifestyle, parenting-family); updated all 7 group header totals
+- **ARCHITECTURE**: Integration targets updated from 6 to actual count; removed non-existent `convert_copilot` reference
+- **CONTRIBUTING**: Fixed broken reference to non-existent `CONTRIBUTORS.md`
+
+### Improved
+- **Reliability**: `batch-nexus-roles.py` and `rebalance-nexus-phases.py` now use `atomic_write()` — prevents partial file corruption on crash
+- **Robustness**: `nexus-orchestrator.py` gate mode now handles `EOFError` gracefully (piped stdin)
+- **Robustness**: `ab-evaluate.py` now searches subdirectories for agent files (supports nested categories like game-development/)
+- **Portability**: `check-agent-originality.sh`, `check-divisions.sh`, `analyze-deps.sh` now use python3→python fallback chain with version validation
+- **Schema**: `agent-frontmatter.schema.json` added `lifecycle` field (managed by `agent-lifecycle.py`)
+- **Config**: `release.yml` release-type aligned with `release-please-config.json` (`python` → `simple`)
+- **Code**: `generate-index.py` uses `json.dumps()` for version/generated fields instead of raw string concatenation
+
 ## [2.1.3] — 2026-07-28 — Bug Fix & Code Quality
 
 ### Fixed

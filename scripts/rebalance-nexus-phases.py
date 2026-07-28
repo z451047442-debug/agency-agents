@@ -10,6 +10,7 @@ import argparse
 import re
 from pathlib import Path
 
+from _shared import atomic_write
 from _shared.frontmatter import get_body, get_frontmatter_text
 
 REPO = Path(__file__).resolve().parent.parent
@@ -156,7 +157,7 @@ def rebalance(dry_run: bool = True):
         new_fm = fm_lines[:nexus_start] + role_lines + fm_lines[nexus_end:]
         fm_joined = "\n".join(new_fm)
         new_content = f"---\n{fm_joined}\n---{get_body(content)}"
-        filepath.write_text(new_content, encoding="utf-8", newline="\n")
+        atomic_write(filepath, new_content, newline="\n")
 
     print(f"\n{'DRY RUN — ' if dry_run else ''}Rebalance results:")
     print(f"  Phase 4 removed:  {stats['removed_p4']}")

@@ -1514,12 +1514,12 @@ def main():
         if ups:
             print(f"\n{GREEN}Score Improvements:{RESET}")
             for aid, cat, cur, base, delta, _ in ups:
-                print(f"  {GREEN}+{delta}{RESET}  {aid} ({cat}): {base} -> {cur}/10")
+                print(f"  {GREEN}+{delta}{RESET}  {aid} ({cat}): {base} -> {cur}/18")
 
         if downs:
             print(f"\n{RED}Score Regressions:{RESET}")
             for aid, cat, cur, base, delta, _ in downs:
-                print(f"  {RED}{delta}{RESET}  {aid} ({cat}): {base} -> {cur}/10")
+                print(f"  {RED}{delta}{RESET}  {aid} ({cat}): {base} -> {cur}/18")
 
         if new:
             print(f"\n{CYAN}New agents (no base score):{RESET} {new}")

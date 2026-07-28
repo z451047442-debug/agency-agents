@@ -376,7 +376,7 @@ Contributor ──→ Reviewer ──→ Maintainer
                                 category ownership
 ```
 
-**Contributor**: 1+ merged PR. Listed in CONTRIBUTORS.md. Can self-assign `good first issue`.
+**Contributor**: 1+ merged PR. Listed in the project contributors on GitHub. Can self-assign `good first issue`.
 
 **Reviewer**: 5+ substantive PR reviews + 3+ merged contributions + demonstrated knowledge of agent design guidelines. Can approve/request-changes on PRs. Reviews ≥2 PRs/month.
 

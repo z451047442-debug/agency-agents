@@ -97,8 +97,8 @@ def format_json(data):
     single-line additions/removals per agent.
     """
     lines = [
-        '{"version":"' + data["version"] + '",'
-        '"generated":"' + data["generated"] + '",'
+        '{"version":' + json.dumps(data["version"], ensure_ascii=False) + ','
+        '"generated":' + json.dumps(data["generated"], ensure_ascii=False) + ','
         '"agents":['
     ]
     agents = data["agents"]

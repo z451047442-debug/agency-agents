@@ -198,10 +198,10 @@ class TestPipelineIntegration:
         monkeypatch.setattr(discovery, "REPO", fixture_agents)
 
         analyze_deps = _load_script("analyze_deps", "analyze-deps.py")
-        findings = analyze_deps.validate_depends_on(
-            list(discovery.discover_agents())
-        )
-        assert len(findings) == 3  # (valid_refs, broken_refs, missing_from)
+        # validate_depends_on expects a dict keyed by agent ID
+        agent_index = analyze_deps.build_agent_index()
+        findings = analyze_deps.validate_depends_on(agent_index)
+        assert len(findings) == 3  # (valid_refs, broken_refs, agents_with_deps)
 
     def test_agent_lifecycle_on_fixture(self, fixture_agents, monkeypatch):
         import _shared.discovery as discovery

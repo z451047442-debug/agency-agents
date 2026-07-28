@@ -44,7 +44,7 @@ trap 'rm -f "$TMPFILE"' EXIT
 
 echo '{"nodes":[],"edges":[]}' > "$OUTPUT"
 
-python3 << 'PYEOF'
+"${PYTHON:-python3}" << 'PYEOF'
 import json, os, re, sys
 
 repo = os.environ.get('REPO_ROOT', '.')

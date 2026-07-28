@@ -311,97 +311,101 @@ ls ~/.claude/agents/
 
 > **62 个分类 · 1399 个 Agent**
 
-### 💻 IT 技术（350+ 个 Agent）
+### 💻 IT 技术（453 个 Agent）
 
 | 分类 | 中文 | 数量 | 一句话说明 |
 |------|------|------|-----------|
-| [infrastructure](infrastructure/) | IT基础设施 | 90 | 服务器/存储/虚拟化/监控/云/SRE/网络/Windows/Linux |
-| [engineering](engineering/) | 软件工程 | 75 | 前端/后端/API/移动端/CMS/架构/代码审查/技术写作 |
-| [data-science](data-science/) | 数据科学 | 43 | BI/ML/NLP/CV/数据工程/数据治理/AI Agent/提示工程 |
-| [cybersecurity](cybersecurity/) | 网络安全 | 33 | 渗透测试/SOC/数字取证/威胁检测/恶意软件/合规 |
-| [game-development](game-development/) | 游戏开发 | 24 | Unity/Unreal/Godot/Roblox/Blender 引擎专家 |
-| [testing](testing/) | 测试与QA | 19 | SDET/API测试/性能基准/无障碍/移动测试 |
-| [iot](iot/) | 物联网 | 19 | 嵌入式IoT/固件/传感器/边缘计算/智能家居 |
-| [spatial-computing](spatial-computing/) | 空间计算 | 15 | visionOS/WebXR/XR界面/座舱交互/VR/AR |
-| [robotics](robotics/) | 机器人 | 15 | 机器人控制/ROS/自动化/机器视觉/外骨骼 |
-| [web3](web3/) | Web3 | 13 | 区块链/DeFi/NFT/DAOs/Smart Contracts/前端 |
-| [telecom](telecom/) | 电信 | 12 | 5G/6G/核心网/RF/无线/蓝牙/天线 |
+| [infrastructure](infrastructure/) | IT基础设施 | 111 | 服务器/存储/虚拟化/监控/云/SRE/网络/Windows/Linux |
+| [engineering](engineering/) | 软件工程 | 114 | 前端/后端/API/移动端/CMS/架构/代码审查/技术写作 |
+| [data-science](data-science/) | 数据科学 | 47 | BI/ML/NLP/CV/数据工程/数据治理/AI Agent/提示工程 |
+| [cybersecurity](cybersecurity/) | 网络安全 | 39 | 渗透测试/SOC/数字取证/威胁检测/恶意软件/合规 |
+| [game-development](game-development/) | 游戏开发 | 26 | Unity/Unreal/Godot/Roblox/Blender 引擎专家 |
+| [testing](testing/) | 测试与QA | 21 | SDET/API测试/性能基准/无障碍/移动测试 |
+| [iot](iot/) | 物联网 | 20 | 嵌入式IoT/固件/传感器/边缘计算/智能家居 |
+| [spatial-computing](spatial-computing/) | 空间计算 | 16 | visionOS/WebXR/XR界面/座舱交互/VR/AR |
+| [robotics](robotics/) | 机器人 | 16 | 机器人控制/ROS/自动化/机器视觉/外骨骼 |
+| [web3](web3/) | Web3 | 14 | 区块链/DeFi/NFT/DAOs/Smart Contracts/前端 |
+| [telecom](telecom/) | 电信 | 13 | 5G/6G/核心网/RF/无线/蓝牙/天线 |
+| [gis](gis/) | GIS与地理信息 | 16 | 空间分析/遥感/制图/地理数据管道/GIS开发 |
 
-### 📈 业务与营销（143 个 Agent）
-
-| 分类 | 中文 | 数量 | 一句话说明 |
-|------|------|------|-----------|
-| [marketing](marketing/) | 市场营销 | 72 | 社媒/内容/SEO/付费广告/邮件/网红/区域市场 |
-| [sales](sales/) | 销售 | 14 | 销售教练/漏斗分析/外呼策略/提案/售前 |
-| [customer-service](customer-service/) | 客户服务 | 12 | 呼叫中心/客户成功/工单系统/语音AI/投诉管理 |
-| [tourism](tourism/) | 旅游与酒店 | 12 | 旅行社/游轮/文旅/可持续旅游/文化遗址 |
-| [retail](retail/) | 零售 | 12 | 品类管理/零售数据/门店运营/全渠道/FMCG |
-| [product](product/) | 产品管理 | 11 | 产品经理/AI产品/增长/B2B/产品分析/产品运营 |
-| [lottery](lottery/) | 彩票 | 10 | 游戏设计/风险合规/零售网络/公益金/体育竞猜 |
-
-### 🏢 企业管理（150 个 Agent）
+### 📈 业务与营销（172 个 Agent）
 
 | 分类 | 中文 | 数量 | 一句话说明 |
 |------|------|------|-----------|
-| [finance](finance/) | 财务会计 | 50 | 财务分析/审计/精算/税务/成本/资金/风控/金融科技/证券 |
-| [legal](legal/) | 法律法务 | 22 | 公司/刑事/劳动/知识产权/数据隐私/法律科技/合规 |
-| [project-management](project-management/) | 项目管理 | 22 | PMP/敏捷/PMO/投标/Scrum/活动/制片/项目组合 |
-| [hr](hr/) | 人力资源 | 21 | HRBP/招聘/薪酬/绩效/OD/员工关系/入职/培训/HR科技 |
-| [operations](operations/) | 内部运营 | 11 | 数据报告/高管摘要/财务追踪/自动化治理/基础设施 |
-| [real-estate](real-estate/) | 房地产 | 10 | 商业经纪/估价/开发/物业/REIT/买卖代理 |
-| [quality](quality/) | 品质管理 | 9 | QMS/SQE/CQE/PQE/SQA/医疗质量/食品安全 |
-| [administration](administration/) | 行政管理 | 7 | 办公室管理/文秘/采购/档案/合同/差旅/车队 |
+| [marketing](marketing/) | 市场营销 | 85 | 社媒/内容/SEO/付费广告/邮件/网红/区域市场 |
+| [sales](sales/) | 销售 | 16 | 销售教练/漏斗分析/外呼策略/提案/售前 |
+| [customer-service](customer-service/) | 客户服务 | 13 | 呼叫中心/客户成功/工单系统/语音AI/投诉管理 |
+| [tourism](tourism/) | 旅游与酒店 | 16 | 旅行社/游轮/文旅/可持续旅游/文化遗址 |
+| [retail](retail/) | 零售 | 15 | 品类管理/零售数据/门店运营/全渠道/FMCG |
+| [product](product/) | 产品管理 | 14 | 产品经理/AI产品/增长/B2B/产品分析/产品运营 |
+| [lottery](lottery/) | 彩票 | 13 | 游戏设计/风险合规/零售网络/公益金/体育竞猜 |
+
+### 🏢 企业管理（176 个 Agent）
+
+| 分类 | 中文 | 数量 | 一句话说明 |
+|------|------|------|-----------|
+| [finance](finance/) | 财务会计 | 53 | 财务分析/审计/精算/税务/成本/资金/风控/金融科技/证券 |
+| [legal](legal/) | 法律法务 | 25 | 公司/刑事/劳动/知识产权/数据隐私/法律科技/合规 |
+| [project-management](project-management/) | 项目管理 | 24 | PMP/敏捷/PMO/投标/Scrum/活动/制片/项目组合 |
+| [hr](hr/) | 人力资源 | 22 | HRBP/招聘/薪酬/绩效/OD/员工关系/入职/培训/HR科技 |
+| [operations](operations/) | 内部运营 | 12 | 数据报告/高管摘要/财务追踪/自动化治理/基础设施 |
+| [real-estate](real-estate/) | 房地产 | 12 | 商业经纪/估价/开发/物业/REIT/买卖代理 |
+| [quality](quality/) | 品质管理 | 11 | QMS/SQE/CQE/PQE/SQA/医疗质量/食品安全 |
+| [administration](administration/) | 行政管理 | 10 | 办公室管理/文秘/采购/档案/合同/差旅/车队 |
 | [strategy](strategy/) | 战略与咨询 | 7 | 商业分析/CEO教练/ESG/OKR/VC/商业策略 |
 
-### 🏭 制造与工业（180 个 Agent）
+### 🏭 制造与工业（204 个 Agent）
 
 | 分类 | 中文 | 数量 | 一句话说明 |
 |------|------|------|-----------|
-| [manufacturing](manufacturing/) | 制造与材料 | 43 | 智能制造/3D打印/半导体/焊接/纺织/材料科学/光学 |
-| [construction](construction/) | 建筑与机电 | 40 | 建筑设计/BIM/施工/造价/HVAC/给排水/电气/消防/桥梁/隧道 |
-| [energy](energy/) | 能源与资源 | 40 | 光伏/风电/储能/氢能/核能/油气/碳捕集/地热/潮汐 |
-| [aerospace](aerospace/) | 航空航天 | 23 | 飞行器设计/航电/空管/卫星/空间系统/无人机 |
-| [automotive](automotive/) | 汽车 | 22 | 智能驾驶/车联网/ADAS/电池/车辆动力学/NVH |
-| [agriculture](agriculture/) | 农业科技 | 12 | 精准农业/农供应链/农业IoT/农艺师/质量安全 |
+| [manufacturing](manufacturing/) | 制造与材料 | 47 | 智能制造/3D打印/半导体/焊接/纺织/材料科学/光学 |
+| [construction](construction/) | 建筑与机电 | 43 | 建筑设计/BIM/施工/造价/HVAC/给排水/电气/消防/桥梁/隧道 |
+| [energy](energy/) | 能源与资源 | 44 | 光伏/风电/储能/氢能/核能/油气/碳捕集/地热/潮汐 |
+| [aerospace](aerospace/) | 航空航天 | 33 | 飞行器设计/航电/空管/卫星/空间系统/无人机 |
+| [automotive](automotive/) | 汽车 | 23 | 智能驾驶/车联网/ADAS/电池/车辆动力学/NVH |
+| [agriculture](agriculture/) | 农业科技 | 14 | 精准农业/农供应链/农业IoT/农艺师/质量安全 |
 
-### 🌍 行业垂直（250+ 个 Agent）
+### 🌍 行业垂直（257 个 Agent）
 
 | 分类 | 中文 | 数量 | 一句话说明 |
 |------|------|------|-----------|
-| [healthcare](healthcare/) | 医疗健康 | 50 | 临床/护理/药学/基因编辑/医疗器械/生信/中医 |
-| [environmental](environmental/) | 环保与环境 | 33 | 碳中和/环评/气候/海岸/水资源/废弃物/生态修复 |
-| [media-entertainment](media-entertainment/) | 媒体娱乐 | 24 | 音乐制作/摄影/摄像/音频/广播/娱乐科技 |
-| [design](design/) | 设计创意 | 21 | UI/UX/品牌/视觉叙事/文化智能/包容性设计 |
-| [education](education/) | 教育与学术 | 17 | 教育科技/课程设计/人类学/心理学/历史学/叙事学 |
-| [logistics](logistics/) | 物流与供应链 | 16 | 仓储/运输/货代/最后一公里/冷链/关务 |
-| [food-beverage](food-beverage/) | 食品与饮料 | 15 | 食品安全/酿造/发酵/食品包装/替代蛋白 |
-| [insurance](insurance/) | 保险 | 11 | 车险理赔/寿险精算/健康险核保/再保险/保险科技 |
-| [government](government/) | 政府与公共 | 10 | 政策分析/政府关系/城市规划/智慧城市/公共采购 |
-| [pharma-biotech](pharma-biotech/) | 制药与生物科技 | 8 | 药物研发/临床试验/工艺/分子诊断 |
+| [healthcare](healthcare/) | 医疗健康 | 54 | 临床/护理/药学/基因编辑/医疗器械/生信/中医 |
+| [environmental](environmental/) | 环保与环境 | 38 | 碳中和/环评/气候/海岸/水资源/废弃物/生态修复 |
+| [media-entertainment](media-entertainment/) | 媒体娱乐 | 31 | 音乐制作/摄影/摄像/音频/广播/娱乐科技 |
+| [design](design/) | 设计创意 | 25 | UI/UX/品牌/视觉叙事/文化智能/包容性设计 |
+| [education](education/) | 教育与学术 | 36 | 教育科技/课程设计/人类学/心理学/历史学/叙事学 |
+| [logistics](logistics/) | 物流与供应链 | 22 | 仓储/运输/货代/最后一公里/冷链/关务 |
+| [food-beverage](food-beverage/) | 食品与饮料 | 16 | 食品安全/酿造/发酵/食品包装/替代蛋白 |
+| [insurance](insurance/) | 保险 | 12 | 车险理赔/寿险精算/健康险核保/再保险/保险科技 |
+| [government](government/) | 政府与公共 | 14 | 政策分析/政府关系/城市规划/智慧城市/公共采购 |
+| [pharma-biotech](pharma-biotech/) | 制药与生物科技 | 9 | 药物研发/临床试验/工艺/分子诊断 |
 
-### 🆕 新增领域（50+ 个 Agent）
-
-| 分类 | 中文 | 数量 | 说明 |
-|------|------|------|------|
-| [sports](sports/) | 体育 | 4 | 体育教练/赛事运营/经纪人/体育营销 |
-| [fashion](fashion/) | 时尚 | 4 | 时装设计/买手/品牌管理/可持续时尚 |
-| [mining](mining/) | 矿业 | 4 | 采矿工程/矿物勘探/冶金/矿山安全 |
-| [nonprofit](nonprofit/) | 非营利 | 4 | 募款/拨款撰写/项目总监/志愿者协调 |
-| [publishing](publishing/) | 出版 | 4 | 图书编辑/文学经纪人/数字出版/学术出版 |
-| [events](events/) | 活动会展 | 4 | 活动策划/会展运营/婚礼策划/赞助开发 |
-| [localization](localization/) | 翻译本地化 | 4 | 本地化工程/翻译审校/国际化PM |
-| [emergency](emergency/) | 应急救援 | 4 | 消防/灾难响应/EMS/SAR搜救 |
-| [forestry](forestry/) | 林业 | 3 | 林业管理/森林保护/木材供应链 |
-| [beauty](beauty/) | 美妆 | 3 | 配方科学/产品管理/品牌营销 |
-| [pets](pets/) | 宠物 | 3 | 宠物营养/动物行为/宠物美容 |
-| [libraries](libraries/) | 图书馆 | 2 | 数字图书馆/档案管理 |
-| [museums](museums/) | 博物馆 | 2 | 策展/文物修复 |
-
-### ⚙️ 综合专业（6 个 Agent）
+### 🆕 新增领域（108 个 Agent）
 
 | 分类 | 中文 | 数量 | 说明 |
 |------|------|------|------|
-| [specialized](specialized/) | 综合专业 | 6 | Agent身份/身份图谱/幕僚长/文档生成/工作流架构/知识卡片 |
+| [sports](sports/) | 体育 | 9 | 体育教练/赛事运营/经纪人/体育营销 |
+| [fashion](fashion/) | 时尚 | 7 | 时装设计/买手/品牌管理/可持续时尚 |
+| [mining](mining/) | 矿业 | 7 | 采矿工程/矿物勘探/冶金/矿山安全 |
+| [nonprofit](nonprofit/) | 非营利 | 6 | 募款/拨款撰写/项目总监/志愿者协调 |
+| [publishing](publishing/) | 出版 | 9 | 图书编辑/文学经纪人/数字出版/学术出版 |
+| [events](events/) | 活动会展 | 7 | 活动策划/会展运营/婚礼策划/赞助开发 |
+| [localization](localization/) | 翻译本地化 | 7 | 本地化工程/翻译审校/国际化PM |
+| [emergency](emergency/) | 应急救援 | 7 | 消防/灾难响应/EMS/SAR搜救 |
+| [forestry](forestry/) | 林业 | 6 | 林业管理/森林保护/木材供应链 |
+| [beauty](beauty/) | 美妆 | 6 | 配方科学/产品管理/品牌营销 |
+| [pets](pets/) | 宠物 | 6 | 宠物营养/动物行为/宠物美容 |
+| [libraries](libraries/) | 图书馆 | 3 | 数字图书馆/档案管理 |
+| [museums](museums/) | 博物馆 | 5 | 策展/文物修复 |
+| [thinking-models](thinking-models/) | 思维模型 | 13 | 哲学/认知偏误/决策框架/科学方法论/军事战略 |
+| [home-lifestyle](home-lifestyle/) | 家居生活 | 5 | 个人理财/园艺设计/室内设计/家庭教育 |
+| [parenting-family](parenting-family/) | 亲子家庭 | 5 | 儿童发展/家庭咨询/亲子教育 |
+
+### ⚙️ 综合专业（26 个 Agent）
+
+| 分类 | 中文 | 数量 | 说明 |
+|------|------|------|------|
+| [specialized](specialized/) | 综合专业 | 26 | Agent身份/身份图谱/幕僚长/文档生成/工作流架构/知识卡片 |
 
 ---
 

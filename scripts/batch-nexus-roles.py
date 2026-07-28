@@ -9,6 +9,8 @@ import argparse
 import re
 from pathlib import Path
 
+from _shared import atomic_write
+
 REPO = Path(__file__).resolve().parent.parent
 
 # Category-based phase assignments with optional keyword filters
@@ -358,9 +360,7 @@ def main():
                     print(f"  WOULD UPDATE {rel} -> {roles}")
                 assigned += 1
             else:
-                tmp_path = md_file.with_suffix(md_file.suffix + ".tmp")
-                tmp_path.write_text(new_content, encoding="utf-8", newline="\n")
-                tmp_path.replace(md_file)
+                atomic_write(md_file, new_content, newline="\n")
                 if args.verbose:
                     rel = md_file.relative_to(REPO)
                     print(f"  UPDATED {rel} -> {roles}")

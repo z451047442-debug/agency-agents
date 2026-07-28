@@ -2,7 +2,7 @@
 
 **1,399 AI Agent Personality Definitions · 62 Categories · 32 Tooling Scripts · 1,241 Tests**
 
-Generated: 2026-07-28 14:09 UTC
+Generated: 2026-07-28 20:58 UTC
 
 ---
 
@@ -61,7 +61,7 @@ Generated: 2026-07-28 14:09 UTC
 **__init__.py** — Module entry point and dynamic loader
 - Exports: `Re-exports all 15 symbols + load_module()`
 
-**29 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · export-omc-agents · fix-filename-prefixes · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · nexus-orchestrator · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
+**30 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · export-omc-agents · fix-filename-prefixes · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · nexus-orchestrator · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
 
 ---
 
@@ -224,16 +224,20 @@ depends_on:                   # optional (agent IDs this agent needs)
 
 ---
 
-## Layer 5: Integration Targets (6 tools)
+## Layer 5: Integration Targets (10 tools)
 
 | Tool | Format | Converter |
 |------|--------|-----------|
 | Claude Code | .md | direct (no conversion) |
 | Cursor | .mdc | convert_cursor() |
-| Gemini CLI | .gm.md | convert_gemini_cli() |
-| Codex | .txt | convert_codex() |
-| Kimi | .kimi.md | convert_kimi() |
-| Antigravity | .ag.md | convert_antigravity() |
+| Gemini CLI | .md | convert_gemini_cli() |
+| Codex | .toml | convert_codex() |
+| Kimi | .md | convert_kimi() |
+| Antigravity | .md | convert_antigravity() |
+| OpenCode | .md | convert_opencode() |
+| OpenClaw | .md | convert_openclaw() |
+| Qwen | .md | convert_qwen() |
+| Osaurus | .md | convert_osaurus() |
 
 ---
 
@@ -302,7 +306,7 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 | Tool scripts | 32 (.py) + 19 (.sh) |
 | Tests | 1,241 across 35 modules |
 | CI workflows | 7 |
-| Integration targets | 6 |
+| Integration targets | 10 |
 | NEXUS phases | 7 |
 
-Generated: 2026-07-28 14:09 UTC
+Generated: 2026-07-28 20:58 UTC

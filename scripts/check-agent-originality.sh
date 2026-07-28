@@ -32,14 +32,21 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
-command -v python3 >/dev/null 2>&1 || {
-  echo "ERROR: python3 is required for the originality check." >&2
-  exit 2
-}
+# Fallback chain for cross-platform Python resolution (Python >= 3.9)
+PYTHON=""
+for py in python3 python; do
+    if v=$("$py" -c "import sys; print(sys.version_info[:2] >= (3,9))" 2>/dev/null); then
+        if [ "$v" = "True" ]; then PYTHON="$py"; break; fi
+    fi
+done
+if [ -z "$PYTHON" ]; then
+    echo "ERROR: Python >= 3.9 is required." >&2
+    exit 2
+fi
 
 ORIGINALITY_FAIL="${ORIGINALITY_FAIL:-40}" \
 ORIGINALITY_WARN="${ORIGINALITY_WARN:-20}" \
-exec python3 "$SCRIPT_DIR/check-agent-originality.py" \
+exec "$PYTHON" "$SCRIPT_DIR/check-agent-originality.py" \
     --fail-threshold "$ORIGINALITY_FAIL" \
     --warn-threshold "$ORIGINALITY_WARN" \
     "$@"

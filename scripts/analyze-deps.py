@@ -190,9 +190,12 @@ CROSS_CATEGORY_BONUS = {
 
 # Build reverse direction automatically so we don't duplicate every pair.
 # Most cross-domain relationships are bidirectional.
+# Only add reverse entries for pairs where the reverse is NOT already explicitly defined.
 _reverse_bonuses = {}
 for (src, tgt), bonus in CROSS_CATEGORY_BONUS.items():
-    _reverse_bonuses[(tgt, src)] = bonus * 0.8  # slightly lower for reverse direction
+    rev_key = (tgt, src)
+    if rev_key not in CROSS_CATEGORY_BONUS:
+        _reverse_bonuses[rev_key] = bonus * 0.8  # slightly lower for reverse direction
 CROSS_CATEGORY_BONUS.update(_reverse_bonuses)
 
 
@@ -360,7 +363,10 @@ def find_cycles(all_agents, max_report=10):
     # Build graph from agent frontmatter (not from terms index)
     graph = {aid: set() for aid in all_agents}
     for _cat, _rel, filepath in discover_agents():
-        content = filepath.read_text(encoding="utf-8")
+        try:
+            content = filepath.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
         fm = get_frontmatter_text(content)
         deps = get_list_field("depends_on", fm)
         for dep in deps:

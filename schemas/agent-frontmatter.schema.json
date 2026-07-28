@@ -68,6 +68,11 @@
       "uniqueItems": true,
       "minItems": 1
     },
+    "lifecycle": {
+      "type": "string",
+      "enum": ["draft", "review", "published", "deprecated"],
+      "description": "Lifecycle stage of this agent definition. Managed by scripts/agent-lifecycle.py."
+    },
     "depends_on": {
       "type": "array",
       "description": "Agent IDs that this agent logically depends on. The install tool may warn if a dependency is missing.",

@@ -229,12 +229,14 @@ def collect_integration_targets() -> list[dict]:
         text = (REPO / "scripts" / "convert.py").read_text(encoding="utf-8")
         tool_map = {
             "convert_cursor": ("Cursor", ".mdc"),
-            "convert_copilot": ("Copilot", ".md"),
-            "convert_gemini_cli": ("Gemini CLI", ".gm.md"),
-            "convert_windsurf": ("Windsurf", ".windsurf"),
-            "convert_codex": ("Codex", ".txt"),
-            "convert_kimi": ("Kimi", ".kimi.md"),
-            "convert_antigravity": ("Antigravity", ".ag.md"),
+            "convert_gemini_cli": ("Gemini CLI", ".md"),
+            "convert_codex": ("Codex", ".toml"),
+            "convert_kimi": ("Kimi", ".md"),
+            "convert_antigravity": ("Antigravity", ".md"),
+            "convert_opencode": ("OpenCode", ".md"),
+            "convert_openclaw": ("OpenClaw", ".md"),
+            "convert_qwen": ("Qwen", ".md"),
+            "convert_osaurus": ("Osaurus", ".md"),
         }
         for func, (tool, fmt) in tool_map.items():
             if func in text:

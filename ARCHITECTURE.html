@@ -52,7 +52,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 
 <div class="header">
   <h1>THE AGENCY — 系统架构图 v2.1.3</h1>
-  <p>1,399 AI Agent 角色定义库 | 62 行业分类 | 32 工具脚本 | 1,241 测试 | 6 集成目标 | Python >=3.10</p>
+  <p>1,399 AI Agent 角色定义库 | 62 行业分类 | 32 工具脚本 | 1,241 测试 | 10 集成目标 | Python >=3.10</p>
 </div>
 <div class="container">
 
@@ -93,7 +93,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 <div class="arr">&#8595;</div>
 
 <div class="layer l2">
-  <div class="layer-h">第 2 层: 共享库 (scripts/_shared/) — 16 个公开 API · 29 个调用方</div>
+  <div class="layer-h">第 2 层: 共享库 (scripts/_shared/) — 16 个公开 API · 30 个调用方</div>
   <div class="layer-b">
     <div class="grid">
       <div class="card sh"><div class="mt" style="color:#0891b2">discovery.py — Agent file discovery engine</div><div class="md">REPO, EXCLUDE_DIRS, discover_agents()</div></div>
@@ -101,7 +101,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 <div class="card sh"><div class="mt" style="color:#d97706">terminal.py — ANSI terminal color constants + TTY detection</div><div class="md">BOLD, CYAN, GREEN, RED, RESET, YELLOW, supports_color()</div></div>
 <div class="card sh"><div class="mt" style="color:#059669">__init__.py — Module entry point and dynamic loader</div><div class="md">Re-exports all 15 symbols + load_module()</div></div>
     </div>
-    <div class="st" style="margin-top:12px">调用方: add-comm-section | agent-lifecycle | analyze-deps-auto | analyze-deps | build-agent-browser | build-architecture | build-hermes-plugin | check-agent-originality | contribute | convert | expand-agent | export-omc-agents | fix-filename-prefixes | generate-index | generate-nexus-skills | generate-omc-hooks | generate-omc-model-routing | generate-omc-team-config | check-i18n | localize-agents | install | lint-agents | nexus-orchestrator | quality-report | rebalance-nexus-phases | score-agents | search-agents | suggest-nexus-roles | validate-index</div>
+    <div class="st" style="margin-top:12px">调用方: add-comm-section | agent-lifecycle | analyze-deps-auto | analyze-deps | batch-nexus-roles | build-agent-browser | build-architecture | build-hermes-plugin | check-agent-originality | contribute | convert | expand-agent | export-omc-agents | fix-filename-prefixes | generate-index | generate-nexus-skills | generate-omc-hooks | generate-omc-model-routing | generate-omc-team-config | check-i18n | localize-agents | install | lint-agents | nexus-orchestrator | quality-report | rebalance-nexus-phases | score-agents | search-agents | suggest-nexus-roles | validate-index</div>
   </div>
 </div>
 <div class="arr">&#8595;</div>
@@ -142,15 +142,19 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 <div class="arr">&#8595;</div>
 
 <div class="layer l5">
-  <div class="layer-h">第 5 层: 集成目标 (6 种 AI 编程工具, 通过 convert.py 转换)</div>
+  <div class="layer-h">第 5 层: 集成目标 (10 种 AI 编程工具, 通过 convert.py 转换)</div>
   <div class="layer-b">
     <div class="grid">
       <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Claude Code</div><div class="d">.md<br>direct (no conversion)</div></div>
 <div class="card" style="border-top:3px solid #7c3aed"><div class="t">Cursor</div><div class="d">.mdc<br>convert_cursor()</div></div>
-<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Gemini CLI</div><div class="d">.gm.md<br>convert_gemini_cli()</div></div>
-<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Codex</div><div class="d">.txt<br>convert_codex()</div></div>
-<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Kimi</div><div class="d">.kimi.md<br>convert_kimi()</div></div>
-<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Antigravity</div><div class="d">.ag.md<br>convert_antigravity()</div></div>
+<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Gemini CLI</div><div class="d">.md<br>convert_gemini_cli()</div></div>
+<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Codex</div><div class="d">.toml<br>convert_codex()</div></div>
+<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Kimi</div><div class="d">.md<br>convert_kimi()</div></div>
+<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Antigravity</div><div class="d">.md<br>convert_antigravity()</div></div>
+<div class="card" style="border-top:3px solid #7c3aed"><div class="t">OpenCode</div><div class="d">.md<br>convert_opencode()</div></div>
+<div class="card" style="border-top:3px solid #7c3aed"><div class="t">OpenClaw</div><div class="d">.md<br>convert_openclaw()</div></div>
+<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Qwen</div><div class="d">.md<br>convert_qwen()</div></div>
+<div class="card" style="border-top:3px solid #7c3aed"><div class="t">Osaurus</div><div class="d">.md<br>convert_osaurus()</div></div>
     </div>
     <div class="st">Claude Code 是唯一无需转换的目标 — 直接读取原始 .md 文件</div>
   </div>
@@ -168,7 +172,7 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
       <div><div class="card" style="border-top:3px solid #8b5cf6"><div class="t">Integration</div><div class="d">convert · generate-index<br>build-agent-browser<br>build-architecture</div></div></div>
       <div><div class="card" style="border-top:3px solid #06b6d4"><div class="t">Discovery</div><div class="d">search-agents · i18n/*</div></div></div>
     </div>
-    <div class="st" style="margin-top:12px">29 个脚本依赖 _shared/ → 所有脚本独立读取 agent 数据，通过 quality.py 编排质量流水线</div>
+    <div class="st" style="margin-top:12px">30 个脚本依赖 _shared/ → 所有脚本独立读取 agent 数据，通过 quality.py 编排质量流水线</div>
   </div>
 </div>
 <div class="arr">&#8595;</div>
@@ -183,8 +187,8 @@ body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:#1a1a2e;c
 
 </div>
 <div class="footer">
-  Agent: 1,399 | 分类: 62 | 脚本: 32 (.py) + 19 (.sh) | 测试: 1,241 | CI: 7 工作流 | 目标: 6 工具 | 覆盖率阈值: 90% | Python: >=3.10<br>
+  Agent: 1,399 | 分类: 62 | 脚本: 32 (.py) + 19 (.sh) | 测试: 1,241 | CI: 7 工作流 | 目标: 10 工具 | 覆盖率阈值: 90% | Python: >=3.10<br>
   架构: CI/CD -> 测试 -> 共享库 -> 工具脚本 -> Agent 内容 -> 集成目标 -> 数据流 -> NEXUS 编排<br>
-  生成时间: 2026-07-28 14:09 UTC
+  生成时间: 2026-07-28 20:58 UTC
 </div>
 </body></html>

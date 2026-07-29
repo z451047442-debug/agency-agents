@@ -1,4 +1,5 @@
 """Tests for scripts/suggest-nexus-roles.py — NEXUS role suggestion."""
+from __future__ import annotations
 
 import importlib.util
 import sys
@@ -189,3 +190,70 @@ class TestMainFunction:
         with patch.object(sys, "argv", ["suggest-nexus-roles.py", "--file", str(f)]):
             mod.main()
         assert "Analyzed: 0" in capsys.readouterr().out
+
+
+class TestPhaseFilter:
+    def test_filters_to_single_phase(self, tmp_path, monkeypatch, capsys):
+        f = tmp_path / "agent.md"
+        f.write_text(
+            "---\nname: Dev\n---\nI do testing and qa with code review and deployment.",
+            encoding="utf-8",
+        )
+        with patch.object(sys, "argv",
+                          ["suggest-nexus-roles.py", "--file", str(f),
+                           "--phase", "phase-4-hardening"]):
+            mod.main()
+        out = capsys.readouterr().out
+        assert "phase-4-hardening" in out
+        assert "phase-5-launch" not in out  # deployment keyword shouldn't show
+
+    def test_no_matches_when_phase_mismatch(self, tmp_path, monkeypatch, capsys):
+        f = tmp_path / "agent.md"
+        f.write_text(
+            "---\nname: Dev\n---\nI do testing and qa with code review and linting.",
+            encoding="utf-8",
+        )
+        with patch.object(sys, "argv",
+                          ["suggest-nexus-roles.py", "--file", str(f),
+                           "--phase", "phase-0-discovery"]):
+            mod.main()
+        out = capsys.readouterr().out
+        assert "Suggested: 0" in out
+
+
+class TestJsonOutput:
+    def test_json_output_structure(self, tmp_path, capsys):
+        f = tmp_path / "agent.md"
+        f.write_text(
+            "---\nname: Dev\n---\nI do testing and qa with code review and deployment.",
+            encoding="utf-8",
+        )
+        with patch.object(sys, "argv",
+                          ["suggest-nexus-roles.py", "--file", str(f), "--json"]):
+            mod.main()
+        import json
+        data = json.loads(capsys.readouterr().out)
+        assert isinstance(data, list)
+        assert len(data) == 1
+        entry = data[0]
+        assert "agent_id" in entry
+        assert "category" in entry
+        assert "path" in entry
+        assert "matches" in entry
+
+    def test_json_output_phase_filtered(self, tmp_path, capsys):
+        f = tmp_path / "agent.md"
+        f.write_text(
+            "---\nname: Dev\n---\nI do testing and qa with code review and deployment.",
+            encoding="utf-8",
+        )
+        with patch.object(sys, "argv",
+                          ["suggest-nexus-roles.py", "--file", str(f), "--json",
+                           "--phase", "phase-4-hardening"]):
+            mod.main()
+        import json
+        data = json.loads(capsys.readouterr().out)
+        assert len(data) == 1
+        phases = {m["phase"] for m in data[0]["matches"]}
+        assert "phase-4-hardening" in phases
+        assert "phase-5-launch" not in phases

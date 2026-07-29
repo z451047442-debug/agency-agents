@@ -6,6 +6,7 @@ NEXUS pipeline phases the agent should participate in.
 """
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
@@ -122,6 +123,10 @@ def main() -> None:
         "--min-confidence", type=int, default=2,
         help="Minimum keyword matches to suggest a phase (default: 2)",
     )
+    parser.add_argument("--phase", "-p",
+                        help="Filter suggestions to a specific NEXUS phase (e.g., phase-4-hardening)")
+    parser.add_argument("--json", action="store_true",
+                        help="Output as JSON for machine consumption")
     args = parser.parse_args()
 
     if args.file:
@@ -137,19 +142,37 @@ def main() -> None:
 
     analyzed = 0
     suggested = 0
+    results = []
 
     for f in files:
         if not is_agent_file(f):
             continue
 
         matches = analyze_agent(f, args.min_confidence)
+        if args.phase:
+            matches = [(pid, label, count) for pid, label, count in matches
+                       if pid == args.phase]
         analyzed += 1
 
         if matches:
             suggested += 1
-            print(f"── {f.stem} ──")
-            for phase_id, label, count in matches:
-                print(f"  - {phase_id}  # {label} ({count} keywords)")
+            entry = {
+                "agent_id": f.stem,
+                "category": f.parent.name,
+                "path": str(f),
+                "matches": [{"phase": pid, "label": label, "keywords": count}
+                            for pid, label, count in matches],
+            }
+            results.append(entry)
+            if not args.json:
+                print(f"── {f.stem} ──")
+                for phase_id, label, count in matches:
+                    print(f"  - {phase_id}  # {label} ({count} keywords)")
+
+    if args.json:
+        json.dump(results, sys.stdout, indent=2)
+        print()
+        return
 
     print("")
     print(f"Analyzed: {analyzed} | Suggested: {suggested} | Min confidence: {args.min_confidence}")

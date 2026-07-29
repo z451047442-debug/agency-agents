@@ -8,8 +8,9 @@ description: Coordinates multi-agent workflows for testing — QA automation, pe
 emoji: 🧪
 name: Testing Multi-Agent Coordinator
 nexus_roles:
-- phase-2-strategy
+- phase-1-strategy
 - phase-3-build
+  - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating testing specialists into coherent multi-agent workflows
 ---

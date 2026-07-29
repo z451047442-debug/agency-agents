@@ -8,7 +8,7 @@ description: Coordinates multi-agent workflows for food & beverage — product d
 emoji: 🍽️
 name: Food & Beverage Multi-Agent Coordinator
 nexus_roles:
-- phase-2-strategy
+- phase-1-strategy
 - phase-3-build
 version: 1.0.0
 vibe: orchestrating food-beverage specialists into coherent multi-agent workflows

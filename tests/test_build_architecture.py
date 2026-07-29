@@ -80,6 +80,10 @@ SAMPLE_DATA = {
     "integration_targets_count": 2,
     "nexus_phases": ["phase-1-discovery", "phase-2-strategy", "phase-3-build"],
     "nexus_phases_count": 3,
+    "omc_artifacts": [
+        {"name": "NEXUS Skills", "script": "gen-skills.py", "format": "SKILL.md", "count": "7 files", "desc": "Skills per phase"},
+        {"name": "Model Routing", "script": "gen-routing.py", "format": "json", "count": "1399 entries", "desc": "Score-based routing"},
+    ],
 }
 
 

@@ -7,7 +7,7 @@ description: coordinates multi-agent workflows for sales — pipeline management
 emoji: 📊
 name: Sales Multi-Agent Coordinator
 nexus_roles:
-- phase-2-strategy
+- phase-1-strategy
 - phase-3-build
 version: 1.0.0
 vibe: orchestrating sales specialists into coherent multi-agent workflows

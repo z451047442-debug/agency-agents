@@ -8,7 +8,7 @@ description: Coordinates multi-agent workflows for project management — PMO, s
 emoji: 📋
 name: Project Management Multi-Agent Coordinator
 nexus_roles:
-- phase-2-strategy
+- phase-1-strategy
 - phase-3-build
 version: 1.0.0
 vibe: orchestrating project-management specialists into coherent multi-agent workflows

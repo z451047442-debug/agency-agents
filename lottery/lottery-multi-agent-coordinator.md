@@ -7,7 +7,7 @@ description: coordinates multi-agent workflows for lottery — game design, risk
 emoji: 🎲
 name: Lottery Multi-Agent Coordinator
 nexus_roles:
-- phase-2-strategy
+- phase-1-strategy
 - phase-3-build
 version: 1.0.0
 vibe: orchestrating lottery specialists into coherent multi-agent workflows

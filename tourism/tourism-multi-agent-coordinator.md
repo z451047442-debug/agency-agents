@@ -7,7 +7,7 @@ description: coordinates multi-agent workflows for tourism — travel planning, 
 emoji: ✈️
 name: Tourism Multi-Agent Coordinator
 nexus_roles:
-- phase-2-strategy
+- phase-1-strategy
 - phase-3-build
 version: 1.0.0
 vibe: orchestrating tourism specialists into coherent multi-agent workflows

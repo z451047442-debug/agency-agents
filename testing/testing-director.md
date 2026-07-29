@@ -12,6 +12,7 @@ lifecycle: published
 name: 测试总监/QA Director
 nexus_roles:
 - phase-1-strategy
+  - phase-4-hardening
 version: 1.0.0
 vibe: Testing finds bugs; quality prevents them. You build the organization that does
   both, at the speed of DevOps.

@@ -1082,6 +1082,7 @@ def score_agent_v7(filepath, check_freshness=True):
 
     # Dimension 2: Reference Density (0-2)
     reference_count = _count_reference_signals(body)
+    result["v7_reference_signals"] = reference_count
     if reference_count >= 5:
         ref_count_score = 1
     elif reference_count >= 3:
@@ -1305,18 +1306,15 @@ def print_terminal_report(results, args):
     bottom = sorted(results, key=lambda r: (r.get(score_field, r.get("total", 0)), r["id"]))[:10]
     risk_field = score_field.replace("total", "risk_tier") if score_field != "total" else "risk_tier"
     for i, r in enumerate(bottom, 1):
+        detail = ", ".join(f"{k}={v}" for k, v in r.get(f"{version_label}_scores", r.get("scores", {})).items())
         issues = "; ".join(r.get("issues", [])[:3])
         display_total = r.get(score_field, r.get("total", 0))
         display_grade = r.get(grade_field, r.get("grade", "?"))
         risk_tier_val = r.get(risk_field, r.get("risk_tier", "general"))
         risk = f" [{risk_tier_val}]" if risk_tier_val != "general" else ""
         print(f"  {i:>2}. {RED}{r['id']}{RESET} ({display_total} {display_grade}) — {r['category']}{risk}")
-        print(f"      subsect={r.get('substantive_sections', '?')}/{len(CORE_SECTIONS)}  "
-              f"tools={r.get('tool_references', '?')}  "
-              f"cases={r.get('case_examples', '?')}  "
-              f"boiler={r.get('boilerplate_count', '?')}  "
-              f"safe={r.get('safeguard_signals', '?')}  "
-              f"ref={r.get('reference_signals', '?')}")
+        print(f"      {detail} | {r.get('word_count', 0)} words  "
+              f"safe={r.get('safeguard_signals', 0)}  ref={r.get('reference_signals', 0)}")
         if issues:
             print(f"      {YELLOW}{issues}{RESET}")
 
@@ -1327,10 +1325,12 @@ def print_terminal_report(results, args):
     for cat in sorted(scores_by_cat.keys()):
         scores = scores_by_cat[cat]
         avg = sum(scores) / len(scores)
-        a_count = sum(1 for s in scores if s >= 8)
-        d_count = sum(1 for s in scores if s <= 3)
+        a_count = sum(1 for r in results if r.get("category") == cat and r.get("grade") == "A")
+        b_count = sum(1 for r in results if r.get("category") == cat and r.get("grade") == "B")
+        c_count = sum(1 for r in results if r.get("category") == cat and r.get("grade") == "C")
+        d_count = sum(1 for r in results if r.get("category") == cat and r.get("grade") == "D")
         print(f"  {cat:<30} avg {avg:.1f}  ({len(scores)} agents, "
-              f"{GREEN}{a_count}A{RESET} / {RED}{d_count}D{RESET})")
+              f"{GREEN}{a_count}A{RESET} / {b_count}B / {c_count}C / {RED}{d_count}D{RESET})")
 
     print()
 
@@ -1556,6 +1556,8 @@ def main():
         r["risk_tier"] = r.get("v7_risk_tier", "general")
         r["issues"] = [p.get("action", str(p)) for p in r.get("v7_improvement_plan", [])]
         r["word_count"] = r.get("v7_word_count", 0)
+        r["safeguard_signals"] = r.get("v7_safeguard_signals", 0)
+        r["reference_signals"] = r.get("v7_reference_signals", 0)
         results.append(r)
 
     score_key = "total"

@@ -8,7 +8,7 @@ description: Coordinates multi-agent workflows for logistics — supply chain, f
 emoji: 🚚
 name: Logistics Multi-Agent Coordinator
 nexus_roles:
-- phase-2-strategy
+- phase-1-strategy
 - phase-3-build
 version: 1.0.0
 vibe: orchestrating logistics specialists into coherent multi-agent workflows

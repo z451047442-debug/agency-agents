@@ -11,7 +11,7 @@ description: Coordinates multi-agent workflows for legal — corporate, IP, comp
 emoji: ⚖️
 name: Legal Multi-Agent Coordinator
 nexus_roles:
-- phase-2-strategy
+- phase-1-strategy
 - phase-3-build
 version: 1.0.0
 vibe: orchestrating legal specialists into coherent multi-agent workflows

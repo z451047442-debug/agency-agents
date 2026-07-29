@@ -51,9 +51,9 @@ def get_list_field(field: str, fm_text: str) -> list[str]:
             in_block = True
             continue
         if in_block:
-            m = re.match(r"^\s+-\s+(.+)$", line)
+            m = re.match(r"^\s*-\s+(.+)$", line)
             if m:
                 items.append(m.group(1).strip().strip('"').strip("'"))
-            elif re.match(r"^\S", line):
+            elif not re.match(r"^\s*-", line) and re.match(r"^\S", line):
                 break
     return items

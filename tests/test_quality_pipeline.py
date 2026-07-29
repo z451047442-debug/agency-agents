@@ -19,7 +19,7 @@ class TestQualityPipeline:
             monkeypatch.setattr(quality, "_run_script", lambda *a, **kw: True)
             result = quality.main()
             assert result == 0
-            assert mock_run.call_count == 2
+            assert mock_run.call_count == 3
 
     def test_some_steps_fail(self, monkeypatch):
         """External step failure causes non-zero exit."""
@@ -110,4 +110,4 @@ class TestQualityPipeline:
             result = quality.main()
             assert result == 1
             assert calls["count"] == 3   # all 3 in-process steps still ran
-            assert mock_run.call_count == 2  # both external steps still ran
+            assert mock_run.call_count == 3  # all 3 external steps still ran

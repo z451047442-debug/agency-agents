@@ -193,10 +193,10 @@ class TestMainFunction:
 
 
 class TestPhaseFilter:
-    def test_filters_to_single_phase(self, tmp_path, monkeypatch, capsys):
+    def test_filters_to_single_phase(self, tmp_path, capsys):
         f = tmp_path / "agent.md"
         f.write_text(
-            "---\nname: Dev\n---\nI do testing and qa with code review and deployment.",
+            "---\nname: Dev\n---\nI do testing and qa with code review and deployment and launch.",
             encoding="utf-8",
         )
         with patch.object(sys, "argv",
@@ -207,7 +207,7 @@ class TestPhaseFilter:
         assert "phase-4-hardening" in out
         assert "phase-5-launch" not in out  # deployment keyword shouldn't show
 
-    def test_no_matches_when_phase_mismatch(self, tmp_path, monkeypatch, capsys):
+    def test_no_matches_when_phase_mismatch(self, tmp_path, capsys):
         f = tmp_path / "agent.md"
         f.write_text(
             "---\nname: Dev\n---\nI do testing and qa with code review and linting.",
@@ -244,7 +244,7 @@ class TestJsonOutput:
     def test_json_output_phase_filtered(self, tmp_path, capsys):
         f = tmp_path / "agent.md"
         f.write_text(
-            "---\nname: Dev\n---\nI do testing and qa with code review and deployment.",
+            "---\nname: Dev\n---\nI do testing and qa with code review and deployment and launch.",
             encoding="utf-8",
         )
         with patch.object(sys, "argv",

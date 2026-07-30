@@ -83,6 +83,34 @@
       "maxLength": 120,
       "description": "Test framework for TDD enforcement (e.g. 'pytest --cov', 'go test -cover', 'cargo test'). Injected by NEXUS during build phases."
     },
+    "tags": {
+      "type": "array",
+      "description": "Free-form tags for categorization and discovery.",
+      "items": {
+        "type": "string",
+        "maxLength": 64
+      },
+      "uniqueItems": true
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Structured search keywords for improved discoverability.",
+      "items": {
+        "type": "string",
+        "maxLength": 80
+      },
+      "uniqueItems": true
+    },
+    "complexity": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "Estimated complexity level of the agent's domain or tasks."
+    },
+    "estimated_duration": {
+      "type": "string",
+      "maxLength": 32,
+      "description": "Expected task duration hint (e.g., '2-4h', '1-2d')."
+    },
     "depends_on": {
       "type": "array",
       "description": "Agent IDs that this agent logically depends on. The install tool may warn if a dependency is missing.",

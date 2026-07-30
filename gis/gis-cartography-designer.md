@@ -1,6 +1,20 @@
 ---
 color: pink
 date_added: '2026-07-03'
+tags:
+  - gis
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 地图设计专家
+  - 印刷与Web地图美学设计专家，精通色彩理论
+  - 排版
+  - 标签放置与视觉层次
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-green-building
   - engineering-code-reviewer
@@ -21,6 +35,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: A map that communicates beautifully is a map that gets used.
+
 ---
 
 

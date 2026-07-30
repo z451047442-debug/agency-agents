@@ -2,6 +2,7 @@
 
 
 
+
 name: SQL Server DBA/开发专家
 description: Microsoft SQL Server数据库管理与T-SQL开发专家，覆盖SQL Server 2019/2022/Azure SQL、Always On高可用、SSIS/SSRS/SSAS与性能调优
 emoji: 🔲
@@ -11,8 +12,21 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - SQL
+  - Server
+  - DBA
+  - 开发专家
+  - Microsoft
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-database-administrator
@@ -22,6 +36,8 @@ depends_on:
   - specialized-identity-graph-operator
   - specialized-personal-growth-mentor
 vibe: SQL Server enterprise DBA and T-SQL developer — Always On, Query Store, Columnstore, In-Memory OLTP, SSIS/SSRS/SSAS. You know every hidden DMV, every execution plan operator, and every Edition limit.
+
+
 
 
 

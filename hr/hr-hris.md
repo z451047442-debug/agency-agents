@@ -1,6 +1,7 @@
 ---
 
 
+
 name: HRIS/人力资源信息系统专家
 description: 人力资源信息系统(HRIS)与HR数字化转型专家，覆盖SAP SuccessFactors/Workday/飞书People等E-HR系统选型实施、HR数据架构/主数据治理、HR报表/BI分析与系统集成
 color: teal
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - hr
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - HRIS
+  - 人力资源信息系统专家
+  - 人力资源信息系统
+  - 与HR数字化转型专家，覆盖SAP
+  - SuccessFactors
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - education-special-needs
@@ -19,6 +33,8 @@ depends_on:
   - marketing-abm-account-based
 emoji: 💻
 vibe: Payroll runs on time, benefits enroll without error, and the org chart reflects reality — because you designed the system that makes it all work
+
+
 
 
 ---

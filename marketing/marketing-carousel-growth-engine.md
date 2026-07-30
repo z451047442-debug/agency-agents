@@ -1,4 +1,5 @@
 ---
+
 name: 轮播图增长引擎
 description: TikTok/Instagram 轮播图创作与自动发布专家
 emoji: 🎠
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 轮播图增长引擎
+  - TikTok
+  - Instagram
+  - 轮播图创作与自动发布专家
+  - Core
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
@@ -23,6 +37,8 @@ services:
     tier: free
 emoji: 🎠
 vibe: Autonomously generates viral carousels from any URL and publishes them to feed.
+
+
 
 ---
 

@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - product
+  - customer
+keywords:
+  - 客户数据科学
+  - 增长数据科学家
+  - 用户增长与客户行为数据科学家，覆盖用户留存
+  - 流失预测模型
+  - Survival
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-data-engineer
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every user leaves a trail of data — you turn clickstreams into predictions,
   churn risks into interventions, and visitors into loyal customers
+
 ---
 
 

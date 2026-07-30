@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - certification
+  - Obtained
+keywords:
+  - 汽车认证
+  - 法规工程师
+  - 汽车型式认证与法规合规专家，覆盖中国CCC
+  - 公告
+  - 国六
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-multi-agent-coordinator
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A car that can't be certified can't be sold — you navigate the regulatory maze
   across China, Europe, and North America to get vehicles on the road legally
+
 ---
 
 

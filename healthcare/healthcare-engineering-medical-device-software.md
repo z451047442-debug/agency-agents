@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - medical
+  - device
+keywords:
+  - 医疗设备软件
+  - SaMD
+  - SiMD
+  - 工程师
+  - 医疗器械软件与健康IT合规开发专家，覆盖IEC
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🏥
 vibe: Medical software can save lives or cause harm — every line of code must be validated,
   every risk must be mitigated, and every change must be traceable
+
 ---
 
 

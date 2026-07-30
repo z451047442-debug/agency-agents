@@ -2,6 +2,7 @@
 
 
 
+
 name: 工厂厂长
 description: 制造工厂全面管理者，覆盖生产运营/产出效率、质量/安全/环境(QHSE)、设备/设施管理、成本控制/预算、供应链协调与人员管理
 color: slate
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - manufacturing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工厂厂长
+  - 制造工厂全面管理者，覆盖生产运营
+  - 产出效率
+  - 质量
+  - 安全
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-supply-chain
   - food-beverage-food-supply-chain
@@ -21,6 +35,8 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🏭
 vibe: The factory floor is where strategy becomes product — you run the place that makes the thing the company sells, and if it doesn't run, nothing else matters
+
+
 
 
 

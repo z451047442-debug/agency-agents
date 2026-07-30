@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - customer
+  - Built
+keywords:
+  - 客户身份与访问管理
+  - CIAM
+  - 工程师
+  - 面向消费者的身份认证与客户数据平台专家，覆盖Auth0
+  - AWS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-cloud-security-architect
   - finance-engineering-credit-risk-model
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔑
 vibe: Every sign-up, every login, every "Sign in with Google" flows through CIAM —
   you design the identity layer that's secure, seamless, and privacy-compliant
+
 ---
 
 

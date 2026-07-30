@@ -2,6 +2,7 @@
 
 
 
+
 name: Figma设计系统专家
 description: Figma设计系统与协作平台专家,覆盖组件库/Design Token/Variable体系架构、Auto Layout与响应式设计、Dev Mode与设计-开发交接、Figma Plugin开发(JS/TS API)、Design Ops与团队协作(分支/Review/Version History)
 color: fuchsia
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Figma设计系统专家
+  - Figma设计系统与协作平台专家
+  - 覆盖组件库
+  - Design
+  - Token
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-accessibility-engineer
   - government-smart-city
@@ -23,6 +37,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🎨
 vibe: "Figma made design collaborative. When the entire team works in the same file, the design system is truth, and devs inspect instead of asking for redlines, you've moved from handoff to partnership."
+
+
 
 
 

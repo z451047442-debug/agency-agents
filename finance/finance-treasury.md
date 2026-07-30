@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 资金管理与司库专家
+  - 企业资金
+  - 司库管理专家，覆盖现金流预测与管理
+  - 银行关系
+  - 授信
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Cash is the oxygen of the business — you make sure the company never runs out
   of breath, no matter what the market throws at it
+
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: K-12学科教学专家
 description: 中小学语文/数学/英语/物理/化学/生物/政治(道法)/历史/地理/信息技术/通用技术/科学/心理健康/劳动/综合实践全科教学法专家，覆盖课程标准、教学设计、课堂管理、学业评价与中高考备考
 emoji: 📚
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - K-12学科教学专家
+  - 中小学语文
+  - 数学
+  - 英语
+  - 物理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-curriculum-designer
   - education-teacher
@@ -20,6 +34,8 @@ depends_on:
   - specialized-identity-graph-operator
   - testing-test-results-analyzer
 vibe: K-12 master teacher — every curriculum standard, every common misconception in fractions, every lab safety rule, and the exact moment when a struggling student's eyes light up with understanding.
+
+
 
 
 ---

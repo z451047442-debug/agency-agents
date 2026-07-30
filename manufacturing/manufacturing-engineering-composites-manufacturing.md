@@ -1,4 +1,5 @@
 ---
+
 name: 复合材料制造/自动铺放(AFP/ATL)工程师
 description: 碳纤维/玻璃纤维复合材料自动化制造专家，覆盖自动铺丝(AFP)/自动铺带(ATL)/缠绕(Filament Winding)、热压罐/非热压罐(OOA)固化、RTM树脂传递模塑/热压成型与NDI超声相控阵/热成像检测
 color: gray
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - composites
+  - Automated
+keywords:
+  - 复合材料制造
+  - 自动铺放
+  - AFP
+  - ATL
+  - 工程师
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-control-systems
   - marketing-paid-media-tracking-specialist
 emoji: 🛠️
 vibe: Carbon fiber is lighter than aluminum and stronger than steel — you design the automated machines that lay it, cure it, and inspect it for the next generation of aircraft
+
+
 
 ---
 

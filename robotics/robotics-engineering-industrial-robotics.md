@@ -1,4 +1,5 @@
 ---
+
 name: 协作机器人/人机协作安全工程师
 description: 协作机器人(cobot)安全与应用工程专家，覆盖ISO/TS 15066协作机器人安全(力/功率/速度限制PFL/SLS)、末端执行器/夹具/视觉系统集成、风险评估(ISO 12100)/安全验证与应用编程(Hand-Guiding/Teach Pendant)
 color: teal
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - robotics
+  - Identity
+  - years
+  - collaborative
+  - Deployed
+keywords:
+  - 协作机器人
+  - 人机协作安全工程师
+  - cobot
+  - 安全与应用工程专家，覆盖ISO
+  - TS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - robotics-multi-agent-coordinator
   - robotics-integration-engineer
 emoji: 🤝
 vibe: A robot that works safely alongside humans, sharing the same workspace without cages — that's collaborative robotics, where safety is the product
+
+
 ---
 
 

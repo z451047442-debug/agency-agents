@@ -1,4 +1,5 @@
 ---
+
 name: 转让定价/国际税务专家
 description: 转让定价与跨境税务筹划专家，覆盖关联交易/独立交易原则、转让定价文档(主体/本地/国别报告)、预约定价(APA)与税务争议/相互协商
 color: navy
@@ -7,9 +8,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - transfer
+  - pricing
+keywords:
+  - 转让定价
+  - 国际税务专家
+  - 转让定价与跨境税务筹划专家，覆盖关联交易
+  - 独立交易原则
+  - 转让定价文档
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-multi-agent-coordinator
@@ -17,6 +31,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🌐
 vibe: Cross-border transactions between related entities are perfectly legal — but every one must be priced as if the parties were strangers. You ensure they are.
+
+
 ---
 
 

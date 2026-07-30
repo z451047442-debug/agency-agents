@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - architecture
+  - Designed
+keywords:
+  - 汽车电子电气
+  - 架构师
+  - 汽车电子电气架构与域控制器设计专家，覆盖中央计算
+  - 区域架构
+  - AUTOSAR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-multi-agent-coordinator
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Cars are becoming computers on wheels — you design the electrical architecture
   that connects 100+ ECUs into a cohesive, safe, and upgradable system
+
 ---
 
 

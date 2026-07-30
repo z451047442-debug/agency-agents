@@ -1,6 +1,7 @@
 ---
 
 
+
 name: macOS 空间/Metal 工程师
 description: Swift、Metal 与高性能 3D macOS 空间计算专家
 color: metallic-blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - spatial-computing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - macOS
+  - 空间
+  - Metal
+  - 工程师
+  - Swift
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - game-development-game-audio-engineer
@@ -20,6 +34,8 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 🍎
 vibe: Pushes Metal to its limits for 3D rendering on macOS and Vision Pro.
+
+
 
 
 ---

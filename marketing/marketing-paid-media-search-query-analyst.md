@@ -1,4 +1,5 @@
 ---
+
 name: 搜索词分析师
 description: 搜索词分析、否定关键词与意图映射专家
 emoji: 🔎
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 搜索词分析师
+  - 搜索词分析
+  - 否定关键词与意图映射专家
+  - Role
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-programmatic-buyer
   - marketing-paid-media-creative-strategist
@@ -18,6 +32,8 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 🔍
 vibe: Mines search queries to find the gold your competitors are missing.
+
+
 
 ---
 

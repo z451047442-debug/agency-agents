@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 农业经济学家
 description: 农业经济与政策分析：农产品定价、期货市场、补贴政策、国际贸易、农村金融
 color: orange
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - agriculture
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 农业经济学家
+  - 农业经济与政策分析：农产品定价
+  - 期货市场
+  - 补贴政策
+  - 国际贸易
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-agronomist
   - automotive-engineering-functional-safety
@@ -20,6 +34,8 @@ depends_on:
 emoji: 📉
 vibe: Corn prices in Chicago, drought in Brazil, tariffs in Brussels — agriculture is the most global and least predictable market on earth.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

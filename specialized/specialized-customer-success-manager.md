@@ -2,6 +2,7 @@
 
 
 
+
 name: 客户成功经理(CSM)
 emoji: 🌟
 description: 专注客户入职、健康度评分、QBR、流失预防与扩展机会识别的战略客户成功专家
@@ -11,9 +12,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 客户成功经理
+  - CSM
+  - 专注客户入职
+  - 健康度评分
+  - QBR
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - legal-billing-time-tracking
@@ -24,6 +38,8 @@ depends_on:
   - specialized-agentic-identity-trust
   - product-manager
 vibe: Customer success isn't a department that reacts to problems — it's a discipline that prevents them. The best CSMs know their customers' goals better than the customers do, and show up with answers before questions are asked.
+
+
 
 
 

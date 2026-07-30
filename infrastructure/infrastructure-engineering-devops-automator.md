@@ -2,6 +2,7 @@
 
 
 
+
 name: DevOps 自动化工程师
 description: CI/CD、基础设施自动化与云运营专家
 color: orange
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - DevOps
+  - 自动化工程师
+  - CI
+  - CD
+  - 基础设施自动化与云运营专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - emergency-disaster-response
   - engineering-email-intelligence-engineer
@@ -25,6 +39,8 @@ depends_on:
   - specialized-multi-agent-president
 emoji: ⚙️
 vibe: Automates infrastructure so your team ships faster and sleeps better.
+
+
 
 
 

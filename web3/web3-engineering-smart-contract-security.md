@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - web3
+  - Identity
+  - years
+  - blockchain
+  - security
+keywords:
+  - 智能合约安全审计
+  - 形式化验证专家
+  - 区块链智能合约安全性与形式化验证专家，覆盖重入
+  - 溢出
+  - 抢跑
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - web3-multi-agent-coordinator
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A smart contract bug can drain $100M in seconds — you find the vulnerabilities
   before deployment because after deployment, there's no undo
+
 ---
 
 

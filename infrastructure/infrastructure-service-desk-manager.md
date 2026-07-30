@@ -1,5 +1,6 @@
 ---
 
+
 name: IT服务台/ITSM经理
 description: IT服务台与IT服务管理(ITSM)运营专家，覆盖ServiceNow/Jira Service Management、ITIL 4事件/请求/问题管理、服务水平(SLA/OLA)管理与服务台KPI
 color: teal
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - managing
+  - service
+keywords:
+  - IT服务台
+  - ITSM经理
+  - IT服务台与IT服务管理
+  - ITSM
+  - 运营专家，覆盖ServiceNow
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - customer-service-call-center
   - design-engineering-user-research-system
@@ -18,6 +32,8 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🎧
 vibe: When someone's laptop won't start, their email won't send, or their password won't work — your team answers the call. You run the front line of IT.
+
+
 
 
 ---

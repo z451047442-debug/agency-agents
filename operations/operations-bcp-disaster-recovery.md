@@ -11,6 +11,20 @@ nexus_roles:
   - phase-6-operate
   - phase-4-hardening
 lifecycle: published
+tags:
+  - operations
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 业务连续性
+  - BCP
+  - 与灾备专家
+  - 业务连续性与灾难恢复专家，覆盖BIA业务影响分析
+  - DRP计划编制
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - legal-engineering-legal-document-automation
@@ -19,6 +33,7 @@ depends_on:
   - project-management-site-engineer
 emoji: 🛡️
 vibe: When the data center floods, the ransomware hits, or the supply chain collapses, everyone looks at you. You already planned for this.
+
 
 
 

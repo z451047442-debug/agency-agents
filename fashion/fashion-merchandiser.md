@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 服装买手/商品企划
 description: 商品企划、OTB管理、趋势分析、采购谈判、SKU优化、定价与折扣策略、售罄分析与库存流转优化专家
 color: fuchsia
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - fashion
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 服装买手
+  - 商品企划
+  - OTB管理
+  - 趋势分析
+  - 采购谈判
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - fashion-brand-manager
   - finance-cost-accountant
@@ -22,6 +36,8 @@ depends_on:
 emoji: 🛒
 vibe: The commercial eye behind every rack — buys what will sell, not just what looks good on the runway.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

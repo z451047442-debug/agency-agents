@@ -1,5 +1,6 @@
 ---
 
+
 name: 项目控制(P6/计划)工程师
 description: 项目计划与控制专家，覆盖Primavera P6/MS Project进度编制、挣值管理(EVM:CPI/SPI)、关键路径/资源平衡、风险蒙特卡洛模拟(SRA)与进度/成本综合管控
 color: violet
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 项目控制
+  - P6
+  - 计划
+  - 工程师
+  - 项目计划与控制专家，覆盖Primavera
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-safety
   - construction-engineering-noise-control
@@ -20,6 +34,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📊
 vibe: Every project has a plan until reality hits it. You build the plan, measure the variance, and tell the truth about whether we're on track — before it's too late to fix.
+
+
 
 ---
 

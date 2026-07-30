@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 电池回收/退役电池梯次利用工程师
 description: 锂离子电池回收与梯次利用专家，覆盖湿法冶金(浸出/溶剂萃取)/火法/直接回收正极材料、退役电池分选/重组/储能系统与欧盟电池法规(EU Battery Regulation 2023)/EPR
 color: green
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - battery
+  - recycling
+keywords:
+  - 电池回收
+  - 退役电池梯次利用工程师
+  - 锂离子电池回收与梯次利用专家，覆盖湿法冶金
+  - 浸出
+  - 溶剂萃取
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -17,6 +31,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ♻️
 vibe: Every EV battery will eventually retire — you design the recycling systems that recover lithium, cobalt, and nickel, closing the loop on the electric revolution
+
+
 
 
 ---

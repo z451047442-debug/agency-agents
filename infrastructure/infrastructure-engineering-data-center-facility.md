@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 数据中心电气/暖通设计工程师
 description: 数据中心关键设施(电气/暖通)设计专家，覆盖Uptime Tier III/IV设计、双路供配电/柴发/UPS、冷冻水/间接蒸发冷却、列间/液冷与BMS/DCIM
 color: blue
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - designing
+  - data
+keywords:
+  - 数据中心电气
+  - 暖通设计工程师
+  - 数据中心关键设施
+  - 电气
+  - 暖通
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -20,6 +34,8 @@ depends_on:
   - testing-engineering-reliability-testing
 emoji: 🏭
 vibe: Data centers are the factories of the digital age — you design the power and cooling that keep the cloud running at 99.995% availability
+
+
 
 
 ---

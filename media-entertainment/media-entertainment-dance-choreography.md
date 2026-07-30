@@ -10,9 +10,24 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Choreographer — from classical ballet vocabulary to postmodern pedestrian movement, from Labanotation to contact improvisation. Dance is thought made visible through the body. The body doesn't lie.
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 舞蹈编导与身体艺术专家
+  - 芭蕾
+  - 现代舞
+  - 当代舞
+  - 中国古典舞与民族民间舞编导
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - hr-tech-general-manager
   - project-management-jira-workflow-steward
+
 ---
 
 

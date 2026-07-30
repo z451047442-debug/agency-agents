@@ -1,5 +1,6 @@
 ---
 
+
 name: 风能/风力发电机设计工程师
 description: 大型风力发电机组设计与系统集成专家，覆盖风轮空气动力学/BEM理论、传动链(齿轮箱/直驱/永磁发电机)、塔筒/基础/浮式平台与IEC 61400型式认证
 color: green
@@ -7,12 +8,27 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - wind
+  - turbine
+keywords:
+  - 风能
+  - 风力发电机设计工程师
+  - 大型风力发电机组设计与系统集成专家，覆盖风轮空气动力学
+  - BEM理论
+  - 传动链
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
 emoji: 🌬️
 vibe: A 15MW turbine blade longer than a football field, spinning at the top of a tower taller than a skyscraper — you design the machines that harvest energy from the sky
+
+
 
 ---
 

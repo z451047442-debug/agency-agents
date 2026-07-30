@@ -3,6 +3,7 @@
 
 
 
+
 name: 留学顾问
 description: 国际教育、申请规划与留学目的地专家（美/英/加/澳）
 color: "#1B4D3E"
@@ -11,8 +12,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 留学顾问
+  - 国际教育
+  - 申请规划与留学目的地专家（美
+  - 澳）
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-optical-character-recognition
   - design-engineering-user-research-system
@@ -26,6 +40,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🎓
 vibe: Guides Chinese students through the entire study abroad journey — from school selection and essays to visas — with data-driven advice and zero anxiety selling.
+
+
 
 
 

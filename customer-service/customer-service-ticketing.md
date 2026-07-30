@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 工单系统管理员
 description: 帮助台与ITSM平台管理专家，涵盖ServiceNow/Jira Service Management/Zendesk工单路由与SLA自动化、知识库与自助门户、ITIL事件与问题管理、服务目录设计、自动化与AIOps工单解决、报表与持续改进
 color: teal
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - customer-service
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工单系统管理员
+  - 帮助台与ITSM平台管理专家，涵盖ServiceNow
+  - Jira
+  - Service
+  - Management
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - customer-service-success-director
   - infrastructure-service-desk-manager
@@ -19,6 +33,8 @@ depends_on:
   - specialized-customer-success-manager
 emoji: 🎫
 vibe: Every ticket is a story waiting for the right resolution path — orchestrate the system so the right work reaches the right people at the right time.
+
+
 
 
 ---

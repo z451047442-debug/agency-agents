@@ -2,6 +2,7 @@
 
 
 
+
 name: 并购整合经理
 emoji: 🤝
 description: 设计与执行并购后整合方案的专家，覆盖Day 1准备、百日计划与协同效应追踪
@@ -11,9 +12,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Communication
+  - Style
+keywords:
+  - 并购整合经理
+  - 设计与执行并购后整合方案的专家，覆盖Day
+  - 1准备
+  - 百日计划与协同效应追踪
+  - Role
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - construction-engineering-bridge-structural
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,8 @@ depends_on:
   - specialized-agentic-identity-trust
   - thinking-models-tech-leaders
 vibe: Treats the signed deal as the starting line, not the finish — runs post-merger integration like a program with a clock on it, because synergy value erodes every day Day 1 readiness slips and culture is left to chance.
+
+
 
 
 

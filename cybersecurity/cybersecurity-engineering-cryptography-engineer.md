@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - applied
+  - cryptography
+keywords:
+  - 密码学
+  - 安全协议工程师
+  - 应用密码学与安全协议设计专家，覆盖对称
+  - 非对称加密
+  - AES
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-security-architect-cloud
   - engineering-quantum-computing
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔐
 vibe: Cryptography is the mathematics of secrets — you design the protocols that keep
   data confidential, verify identities, and make digital trust possible
+
 ---
 
 

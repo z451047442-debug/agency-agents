@@ -2,6 +2,7 @@
 
 
 
+
 name: 全渠道运营经理
 description: 线上线下全渠道运营：门店数字化、私域流量、直播电商、即时零售、会员体系
 color: pink
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 全渠道运营经理
+  - 线上线下全渠道运营：门店数字化
+  - 私域流量
+  - 直播电商
+  - 即时零售
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,8 @@ depends_on:
 emoji: 🏬
 vibe: The store is no longer a place — it's an experience that follows the customer from screen to street and back.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
+
 
 
 

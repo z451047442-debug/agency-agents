@@ -1,6 +1,20 @@
 ---
 color: navy
 date_added: '2026-07-03'
+tags:
+  - pharma-biotech
+  - Identity
+  - years
+  - leading
+  - pharmaceutical
+keywords:
+  - 制药
+  - 生物科技研发总监
+  - 制药或生物科技研发最高负责人，覆盖药物研发管线策略
+  - 临床前
+  - 临床开发
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - pharma-biotech-multi-agent-coordinator
   - healthcare-engineering-regulatory-science
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A drug takes 10 years and $2 billion to develop — and most fail. You manage
   the pipeline that bets on which molecules will beat the odds.
+
 ---
 
 

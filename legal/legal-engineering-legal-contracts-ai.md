@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - legal
+  - Identity
+  - years
+  - technology
+  - Built
+keywords:
+  - 法律AI
+  - 计算法律学研究员
+  - 计算法律学与AI法律推理专家，覆盖法律文本NLP
+  - 命名实体识别
+  - 当事人
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - legal-multi-agent-coordinator
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Law is a system of rules that can be modeled, searched, and reasoned about —
   you build the AI that makes legal information accessible and legal reasoning scalable
+
 ---
 
 

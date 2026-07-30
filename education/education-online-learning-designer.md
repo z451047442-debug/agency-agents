@@ -2,6 +2,7 @@
 
 
 
+
 name: 在线教育设计师
 description: MOOC 设计、混合式教学、LMS 平台与学习体验设计专家
 color: blue
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 在线教育设计师
+  - MOOC
+  - 设计
+  - 混合式教学
+  - LMS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-user-research-system
   - education-academic-anthropologist
@@ -24,6 +38,8 @@ depends_on:
 emoji: 💻
 vibe: Crafts digital learning experiences that rival — and sometimes beat — the best in-person classrooms.
 tools: Read, Write, Edit, WebFetch, WebSearch, Bash
+
+
 
 
 

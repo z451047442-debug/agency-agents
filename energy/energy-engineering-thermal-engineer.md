@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 热设计/散热工程师
 description: 电子产品热管理设计专家，覆盖风冷/液冷/相变散热方案、散热片/热管/均温板设计、风扇选型/风道优化、热仿真(Flotherm/Icepak)与功耗-热测试验证
 color: red
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - electronics
+  - thermal
+keywords:
+  - 热设计
+  - 散热工程师
+  - 电子产品热管理设计专家，覆盖风冷
+  - 液冷
+  - 相变散热方案
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -18,6 +32,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🌡️
 vibe: Every watt of power becomes heat — and heat kills electronics. You design the thermal solutions that keep chips cool, servers running, and products reliable.
+
+
 
 
 ---

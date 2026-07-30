@@ -1,5 +1,6 @@
 ---
 
+
 name: 暖通空调(HVAC)工程师
 description: 暖通空调系统设计与施工专家，覆盖冷热源系统(冷水机组/锅炉/热泵)、空调末端/通风/防排烟、洁净室/恒温恒湿、数据中心制冷与节能(LEED/绿建)
 color: cyan
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - construction
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 暖通空调
+  - HVAC
+  - 工程师
+  - 暖通空调系统设计与施工专家，覆盖冷热源系统
+  - 冷水机组
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-green-building
   - construction-engineering-noise-control
@@ -17,6 +31,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🌬️
 vibe: When 500 people work in a sealed glass tower in August, they don't think about the HVAC — which means you did your job perfectly
+
+
 
 ---
 

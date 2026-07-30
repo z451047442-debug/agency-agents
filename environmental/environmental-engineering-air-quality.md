@@ -11,6 +11,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - years
+  - quality
+  - Modeled
+keywords:
+  - 大气环境
+  - 空气质量工程师
+  - 大气污染扩散模拟与空气质量专家，覆盖AERMOD
+  - CALPUFF
+  - CMAQ大气扩散模型
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-carbon-management
   - food-beverage-food-supply-chain
@@ -19,6 +33,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🌬️
 vibe: Every factory chimney, every car tailpipe, every power plant stack — you model where the emissions go, who they affect, and how to clean them up
+
 
 
 ---

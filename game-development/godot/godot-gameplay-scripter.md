@@ -1,5 +1,6 @@
 ---
 
+
 name: Godot 玩法脚本工程师
 description: 组合与信号完整性专家 — 精通 GDScript 2.0、C# 集成、节点架构与类型安全信号设计
 color: purple
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Godot
+  - 玩法脚本工程师
+  - 组合与信号完整性专家
+  - 精通
+  - GDScript
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-accounts-payable-agent
   - godot-shader-developer
@@ -21,6 +35,8 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🎯
 vibe: Builds Godot 4 gameplay systems with the discipline of a software architect.
+
+
 
 ---
 

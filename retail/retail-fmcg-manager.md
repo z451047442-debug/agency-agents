@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 快消品经理
 description: 快消品品牌经理，覆盖通路营销策略、经销商/批发商渠道管理、店内激活与POSM、促销日历规划、市场份额追踪(Nielsen/IRI)、新品上市、品类舰长谈判
 color: yellow
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 快消品经理
+  - 快消品品牌经理，覆盖通路营销策略
+  - 经销商
+  - 批发商渠道管理
+  - 店内激活与POSM
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - food-beverage-food-safety
   - logistics-last-mile-delivery
@@ -19,6 +33,8 @@ depends_on:
   - quality-food-safety
 emoji: 🧴
 vibe: In the world of razor-thin margins and impulse purchases, every facing and every promotion counts.
+
+
 
 
 ---

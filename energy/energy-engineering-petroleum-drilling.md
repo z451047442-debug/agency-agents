@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 钻井/定向井/随钻测井(MWD/LWD)工程师
 description: 油气钻井与定向井轨迹控制专家，覆盖旋转导向/泥浆马达定向钻进、MWD/LWD随钻测量(电阻率/伽马/密度/孔隙度)、井控/防喷器(BOP)/井筒压力管理(ECD)与钻井液/固井
 color: brown
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - drilling
+  - engineering
+keywords:
+  - 钻井
+  - 定向井
+  - 随钻测井
+  - MWD
+  - LWD
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -17,6 +31,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🛢️
 vibe: A mile below the seabed, drilling sideways within a 2-meter target zone — that's directional drilling, navigating through rock guided by real-time subsurface data
+
+
 
 
 ---

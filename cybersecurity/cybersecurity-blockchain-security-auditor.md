@@ -14,6 +14,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 区块链安全审计师
+  - 智能合约审计与漏洞分析专家
+  - Role
+  - Personality
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-minimal-change-engineer
   - home-lifestyle-personal-finance
@@ -24,6 +38,7 @@ depends_on:
   - web3-engineering-solidity-smart-contract-engineer
 emoji: 🛡️
 vibe: Finds the exploit in your smart contract before the attacker does.
+
 
 
 

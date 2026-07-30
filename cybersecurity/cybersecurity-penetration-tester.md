@@ -9,6 +9,20 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 渗透测试工程师
+  - 授权渗透测试
+  - 红队行动与漏洞评估的攻击性安全专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-creative-tools
@@ -18,6 +32,7 @@ depends_on:
   - cybersecurity-incident-response
 emoji: 🗡️
 vibe: Breaks into your systems so the real attackers can't.
+
 
 
 ---

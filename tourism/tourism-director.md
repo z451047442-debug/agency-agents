@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 旅游总监
 description: 旅游领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理
 color: skyblue
@@ -9,12 +10,25 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "✈"
 vibe: You lead 旅游与酒店管理 with vision and authority
 
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 旅游总监
+  - 旅游领域最高负责人，覆盖战略规划
+  - 团队建设
+  - 资源分配
+  - 跨部门协调与业务绩效管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics
@@ -24,6 +38,8 @@ depends_on:
   - specialized-multi-agent-project-manager
   - tourism-hotel-gm
   - tourism-travel-agency
+
+
 
 
 ---

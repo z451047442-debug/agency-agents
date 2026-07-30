@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 音效与声音设计师
+  - 声音设计与音频后期专家，覆盖音效设计
+  - 拟音
+  - Foley
+  - 环境音场
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - media-entertainment-multi-agent-coordinator
   - marketing-paid-media-creative-strategist
@@ -15,6 +29,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Sound is half the experience — you build worlds the audience feels even when
   they can't see them
+
 ---
 
 

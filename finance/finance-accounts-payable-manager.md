@@ -1,4 +1,5 @@
 ---
+
 name: 应付账款(AP)自动化专家
 description: 应付账款与发票处理自动化专家，覆盖三单匹配(PO/收货/发票)/OCR识别、付款排程/现金流优化、供应商对账与P2P(Procure-to-Pay)系统(SAP/Ariba/Coupa)
 color: teal
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - finance
+  - Identity
+  - years
+  - accounts
+  - payable
+keywords:
+  - 应付账款
+  - AP
+  - 自动化专家
+  - 应付账款与发票处理自动化专家，覆盖三单匹配
+  - PO
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
   - marketing-abm-account-based
 emoji: 💸
 vibe: Every invoice is a promise to pay — you process thousands of them, catching errors, optimizing timing, and keeping suppliers happy
+
+
 ---
 
 

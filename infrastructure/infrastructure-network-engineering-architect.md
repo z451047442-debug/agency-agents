@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 网络架构师
+  - 企业级网络架构设计专家，覆盖路由交换
+  - SDN
+  - NFV
+  - 数据中心网络
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - construction-fire-protection
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every packet has a path — you design the map that makes billions of them find
   their way home
+
 ---
 
 

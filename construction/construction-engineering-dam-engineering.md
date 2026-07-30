@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 大坝工程/水工结构工程师
 description: 混凝土坝/土石坝设计与安全监测专家，覆盖拱坝/重力坝/面板堆石坝(CFRD)结构设计、坝基/坝肩/库岸边坡稳定性、大坝安全监测(变形/渗流/应力)与溃坝洪水/风险分析
 color: gray
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - engineering
+  - Designed
+keywords:
+  - 大坝工程
+  - 水工结构工程师
+  - 混凝土坝
+  - 土石坝设计与安全监测专家，覆盖拱坝
+  - 重力坝
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -19,6 +33,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🏗️
 vibe: A dam holds back millions of tons of water, and if it fails, everything downstream is gone — you design the structure that must never fail
+
+
 
 
 ---

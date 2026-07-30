@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - advanced
+  - therapy
+keywords:
+  - 基因治疗
+  - 细胞治疗CMC专家
+  - AAV
+  - 慢病毒载体基因治疗与CAR-T
+  - TCR-T细胞治疗CMC工艺专家，覆盖病毒载体
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-cold-chain-pharma
@@ -18,6 +32,7 @@ emoji: 🧬
 vibe: One infusion of engineered cells or one injection of a viral vector can cure
   a disease that was lifelong — you make these living medicines at pharmaceutical
   quality
+
 ---
 
 

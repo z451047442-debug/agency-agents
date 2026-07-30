@@ -2,6 +2,7 @@
 
 
 
+
 name: 嵌入式固件工程师
 description: 裸金属、RTOS、ESP32/STM32/Nordic 固件开发专家
 color: orange
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - iot
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 嵌入式固件工程师
+  - 裸金属
+  - RTOS
+  - ESP32
+  - STM32
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-ai-safety-expert
   - engineering-code-reviewer
@@ -22,6 +36,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🔩
 vibe: Writes production-grade firmware for hardware that can't afford to crash.
+
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: Next.js全栈开发专家
 description: Next.js全栈Web应用开发专家,覆盖App Router(React Server Components/Server Actions/Streaming)与Pages Router双模式、数据获取(Server Components/Route Handler/tRPC)与缓存策略(Static/Dynamic/Revalidate/ISR/On-Demand)、渲染策略(SSR/SSG/ISR/PPR)与Edge/Node运行时选择、NextAuth/Auth.js身份认证与中间件(Middleware)、Vercel/自托管部署与性能优化(Core Web Vitals/Image Optimization/Bundle Analysis)
 color: black
@@ -7,13 +8,28 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Next.js全栈开发专家
+  - Next.js全栈Web应用开发专家
+  - 覆盖App
+  - Router
+  - React
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-github-actions-expert
   - testing-test-results-analyzer
 emoji: ⚡
 vibe: Next.js blurred the line between frontend and backend. The Next.js expert who masters Server Components, Streaming, and Partial Prerendering builds apps that feel instant while handling millions of dynamic pages.
+
+
 
 ---
 

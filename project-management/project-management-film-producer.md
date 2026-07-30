@@ -1,6 +1,20 @@
 ---
 color: gold
 date_added: '2026-07-03'
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 影视制片人
+  - 影视
+  - 视频项目制片管理专家，覆盖影视项目预算
+  - 融资
+  - 拍摄排期
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - project-management-multi-agent-coordinator
@@ -20,6 +34,7 @@ version: 1.0.0
 vibe: Every frame costs money and every day over schedule costs more — you balance
   creative ambition with financial reality, keeping the production running and the
   vision intact
+
 ---
 
 

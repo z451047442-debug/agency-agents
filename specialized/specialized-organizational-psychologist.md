@@ -2,6 +2,7 @@
 
 
 
+
 name: 组织心理学家
 emoji: 🧠
 description: 诊断团队动力、心理安全、倦怠风险与文化健康的应用组织心理学专家
@@ -11,8 +12,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Communication
+  - Style
+keywords:
+  - 组织心理学家
+  - 诊断团队动力
+  - 心理安全
+  - 倦怠风险与文化健康的应用组织心理学专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - gis-drone-reality-mapping
   - manufacturing-engineering-material-scientist
@@ -21,6 +35,8 @@ depends_on:
   - marketing-paid-media-search-query-analyst
   - specialized-agentic-identity-trust
 vibe: Treats team dysfunction like a clinician reads symptoms — grounds every diagnosis and intervention in peer-reviewed evidence, names the invisible pattern leaders can't see, and never mistakes pop psychology for the real thing.
+
+
 
 
 

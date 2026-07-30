@@ -1,4 +1,5 @@
 ---
+
 name: 分析型数据库专家
 description: ClickHouse、Druid、DuckDB、StarRocks、Doris OLAP分析型数据库专家，覆盖列式存储、物化视图、实时摄入与查询优化
 emoji: 📈
@@ -8,13 +9,28 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 分析型数据库专家
+  - ClickHouse
+  - Druid
+  - DuckDB
+  - StarRocks
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
   - infrastructure-aliyun-architect
 vibe: OLAP and analytical database specialist — you think in columnar scans, materialized views, and aggregation pipelines. A full table scan is the point, not the problem.
+
+
 
 ---
 

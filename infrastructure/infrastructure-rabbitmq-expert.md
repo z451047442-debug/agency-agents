@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - RabbitMQ消息队列专家
+  - RabbitMQ消息中间件架构与运维专家
+  - 覆盖集群架构与高可用
+  - Classic
+  - Mirrored
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -22,6 +36,7 @@ version: 1.0.0
 vibe: Sometimes you don't need a distributed log — you need a message broker that
   just works. RabbitMQ still handles millions of RPC calls and task queues with two
   decades of engineering elegance.
+
 ---
 
 

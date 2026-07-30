@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - logistics
+  - Identity
+  - years
+  - supply
+  - chain
+keywords:
+  - 供应链分析
+  - 优化
+  - 科学家
+  - 运筹学与供应链优化科学家，覆盖线性
+  - 整数
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-multi-agent-coordinator
   - manufacturing-supply-chain-planner
@@ -15,6 +29,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Supply chains are giant optimization problems — you apply operations research
   to save millions in transportation, inventory, and sourcing decisions
+
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 项目交付经理
 description: 项目交付与执行专家，覆盖端到端项目交付、技术方案落地管理、项目团队/分包协调、客户验收/移交(SAT/FAT)与项目后评估
 color: navy
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 项目交付经理
+  - 项目交付与执行专家，覆盖端到端项目交付
+  - 技术方案落地管理
+  - 项目团队
+  - 分包协调
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - construction-engineering-industrial-refrigeration
   - cybersecurity-engineering-customer-identity-access
@@ -20,6 +34,8 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 🚀
 vibe: A signed contract is a promise; a delivered project is a promise kept. You turn proposals into reality, managing the messy gap between "what we sold" and "what actually works."
+
+
 
 ---
 

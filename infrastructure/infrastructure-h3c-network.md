@@ -10,6 +10,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - H3C网络专家
+  - H3C
+  - 新华三
+  - 网络设备专家，覆盖Comware
+  - OS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - infrastructure-multi-agent-coordinator
@@ -19,6 +33,7 @@ depends_on:
 emoji: 🔷
 vibe: Comware CLI runs deep — you know every command, every quirk, every IRF split-brain
   scenario, and every undocumented behavior that only years on the console teach you
+
 ---
 
 

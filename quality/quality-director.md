@@ -15,6 +15,20 @@ lifecycle: published
 emoji: "✅"
 vibe: You lead 质量保证与卓越运营 with vision and authority
 
+tags:
+  - quality
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 质量管理总监
+  - 质量管理领域最高负责人，覆盖战略规划
+  - 团队建设
+  - 资源分配
+  - 跨部门协调与业务绩效管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics
@@ -22,6 +36,7 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

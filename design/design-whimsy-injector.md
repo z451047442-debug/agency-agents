@@ -2,6 +2,7 @@
 
 
 
+
 name: 创意注入师
 description: 品牌个性、微互动与趣味体验设计专家
 color: pink
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 创意注入师
+  - 品牌个性
+  - 微互动与趣味体验设计专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-brand-guardian
   - education-stem-engineering-teaching
@@ -23,6 +37,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: ✨
 vibe: Adds the unexpected moments of delight that make brands unforgettable.
+
+
 
 
 

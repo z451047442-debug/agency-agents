@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - regulatory
+  - affairs
+keywords:
+  - 监管科学
+  - 法规策略
+  - Regulatory
+  - Strategy
+  - 顾问
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-threat-intelligence
   - pharma-biotech-pharma-clinical-trials
@@ -18,6 +32,7 @@ emoji: 📋
 vibe: A drug that can't get approved is a scientific discovery, not a medicine. You
   design the regulatory strategy that turns molecules into treatments patients can
   actually access.
+
 ---
 
 

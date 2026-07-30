@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 运动医学专家
 description: 运动损伤预防与康复、运动生理学、运动营养、运动心理学、队医管理与赛事医疗保障专家
 emoji: 🏥
@@ -11,8 +12,21 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - sports
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 运动医学专家
+  - 运动损伤预防与康复
+  - 运动生理学
+  - 运动营养
+  - 运动心理学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-field-archaeology
   - engineering-git-workflow-master
@@ -22,6 +36,8 @@ depends_on:
   - sports-coach
   - thinking-models-investment-masters
 vibe: Sports medicine specialist — from ACL reconstruction rehab to heat illness prevention, from periodized nutrition to return-to-play protocols. Athletes push limits; you make sure their bodies survive it.
+
+
 
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 name: 高级开发工程师
 description: Laravel/Livewire、复杂模式与架构决策专家
 color: green
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Development
+  - Philosophy
+keywords:
+  - 高级开发工程师
+  - Laravel
+  - Livewire
+  - 复杂模式与架构决策专家
+  - Role
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
@@ -19,6 +33,8 @@ depends_on:
   - logistics-public-transit
 emoji: 💎
 vibe: Premium full-stack craftsperson — Laravel, Livewire, Three.js, advanced CSS.
+
+
 
 ---
 

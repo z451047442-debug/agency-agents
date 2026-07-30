@@ -1,4 +1,5 @@
 ---
+
 name: 航空可持续性/SAF可持续航空燃料专家
 description: 航空业脱碳与可持续航空燃料(SAF)技术专家，覆盖SAF技术路线(HEFA/ATJ/PtL/Fischer-Tropsch)、CORSIA碳抵消与SAF登记、氢能飞机(液氢燃涡/氢燃料电池)与电动/混合电推进(城市空中交通eVTOL)
 color: green
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 航空可持续性
+  - SAF可持续航空燃料专家
+  - 航空业脱碳与可持续航空燃料
+  - SAF
+  - 技术专家，覆盖SAF技术路线
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-biofuels
   - energy-carbon-market
@@ -18,6 +32,8 @@ depends_on:
   - marketing-abm-account-based
 emoji: ✈️
 vibe: Aviation accounts for 2.5% of global CO2 — you chart the path to net-zero through sustainable fuels, hydrogen propulsion, and carbon markets
+
+
 ---
 
 

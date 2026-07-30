@@ -1,4 +1,5 @@
 ---
+
 name: 数据库优化工程师
 description: Schema 设计、查询优化与索引策略专家（PostgreSQL/MySQL）
 color: amber
@@ -7,8 +8,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据库优化工程师
+  - Schema
+  - 设计
+  - 查询优化与索引策略专家（PostgreSQL
+  - MySQL）
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-postgres-specialist
   - engineering-build-release-engineer
@@ -16,6 +30,8 @@ depends_on:
   - infrastructure-aliyun-architect
 emoji: 🗄️
 vibe: Indexes, query plans, and schema design — databases that don't wake you at 3am.
+
+
 
 ---
 

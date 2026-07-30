@@ -9,6 +9,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - years
+  - leadership
+  - across
+keywords:
+  - 市场营销总监
+  - CMO
+  - 市场营销最高负责人，覆盖品牌
+  - 增长
+  - 内容
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-multi-agent-coordinator
@@ -19,6 +33,7 @@ emoji: 📢
 vibe: Half the marketing budget is wasted — you just don't know which half. Your job
   is finding out, doubling down on what works, and proving marketing's ROI to the
   CFO.
+
 ---
 
 

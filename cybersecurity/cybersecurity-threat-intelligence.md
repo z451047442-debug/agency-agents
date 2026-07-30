@@ -12,6 +12,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 威胁情报分析师
+  - 追踪APT组织
+  - 映射攻击活动到MITRE
+  - ATT&CK并构建检测规则的专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - cybersecurity-engineering-threat-detection-engineer
@@ -23,6 +37,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🔍
 vibe: Knows what the adversary will do before the adversary does.
+
 
 
 

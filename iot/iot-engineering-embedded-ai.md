@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - iot
+  - Identity
+  - years
+  - embedded
+  - Deployed
+keywords:
+  - 嵌入式AI
+  - TinyML工程师
+  - 嵌入式设备端AI与微型机器学习专家，覆盖TensorFlow
+  - Lite
+  - Micro
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: AI doesn't need the cloud — you squeeze neural networks onto microcontrollers
   smaller than a fingernail, giving intelligence to the tiniest devices
+
 ---
 
 

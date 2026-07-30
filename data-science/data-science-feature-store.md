@@ -1,6 +1,20 @@
 ---
 color: emerald
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 特征平台专家
+  - 特征工程与特征平台架构专家，覆盖特征存储设计
+  - 特征复用
+  - 时间点正确性
+  - 特征血缘与在线
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - data-science-data-engineer
@@ -22,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Features are the foundation everything else rests on — get them right and models
   sing; get them wrong and nothing else matters
+
 ---
 
 

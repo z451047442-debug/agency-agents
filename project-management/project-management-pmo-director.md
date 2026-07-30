@@ -1,5 +1,6 @@
 ---
 
+
 name: PMO总监
 description: 项目管理办公室(PMO)与项目组合治理专家，覆盖PMO体系(支持型/控制型/战略型)、项目组合(PPM)优先级/资源池、方法论标准化(PMBOK/PRINCE2)、项目审计与组织级项目管理成熟度(OPM3)
 color: slate
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - PMO总监
+  - 项目管理办公室
+  - PMO
+  - 与项目组合治理专家，覆盖PMO体系
+  - 支持型
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-ai-agent-developer
   - engineering-android-framework
@@ -18,6 +32,8 @@ depends_on:
   - project-management-project-manager-senior
 emoji: 🏛️
 vibe: One project is a project; a hundred projects is a portfolio. You build the governance, the standards, and the resource allocation that turns chaos into capability.
+
+
 
 ---
 

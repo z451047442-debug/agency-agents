@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 航空经济
+  - 航线网络规划分析师
+  - 航空公司航线网络规划与机队战略专家，覆盖航线盈利性
+  - Hub经济学
+  - O&D流量
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-atc-specialist
   - data-science-engineering-deep-learning-training
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: An airline's network is its product — you decide which cities to fly between,
   how often, with which aircraft, at what price
+
 ---
 
 

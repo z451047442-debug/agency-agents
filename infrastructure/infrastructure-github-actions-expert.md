@@ -2,6 +2,20 @@
 
 color: purple
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - GitHub
+  - Actions
+  - CI
+  - CD专家
+  - Actions持续集成与部署专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
@@ -24,6 +38,7 @@ version: 1.0.0
 vibe: GitHub Actions is the default CI/CD for 100 million repositories. The expert
   who designs reusable workflows, secures secrets, and optimizes runner costs makes
   CI/CD a competitive advantage, not a bottleneck.
+
 
 ---
 

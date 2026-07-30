@@ -1,5 +1,6 @@
 ---
 
+
 name: 社区管理
 description: 开发者社区运营、Discord/论坛管理、活动策划与生态增长专家
 color: "#9b59b6"
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Expertise
+keywords:
+  - 社区管理
+  - 开发者社区运营
+  - Discord
+  - 论坛管理
+  - 活动策划与生态增长专家
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-engineering-language-model-nlp
   - engineering-programming-language
@@ -18,6 +32,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🌐
 vibe: A healthy community isn't the loudest one. It's the one where newcomers become contributors, and contributors become maintainers.
+
+
 
 ---
 

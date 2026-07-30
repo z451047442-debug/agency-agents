@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - hr
+  - Identity
+  - years
+  - workplace
+  - wellness
+keywords:
+  - 员工健康与福利
+  - EAP
+  - 专家
+  - 企业员工健康管理与员工援助计划
+  - 专家，覆盖心理健康支持
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-assessment-specialist
   - education-physical-anthropology
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Burnout costs companies more than turnover — it costs creativity, engagement,
   and human potential. You build the programs that keep people healthy and whole.
+
 ---
 
 

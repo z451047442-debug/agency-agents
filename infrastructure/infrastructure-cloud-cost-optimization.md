@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - cloud
+  - financial
+keywords:
+  - 云成本
+  - FinOps管理顾问
+  - 多云成本优化与FinOps治理顾问，覆盖AWS
+  - Azure
+  - GCP
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -17,6 +31,7 @@ depends_on:
 emoji: 💰
 vibe: Every cloud dollar wasted is margin lost — you find the idle resources, optimize
   the commitments, and turn cloud cost from a surprise into a managed budget
+
 ---
 
 

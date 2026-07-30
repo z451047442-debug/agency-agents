@@ -1,4 +1,5 @@
 ---
+
 name: 激光加工/激光制造工程师
 description: 工业激光材料加工与激光制造专家，覆盖激光切割/焊接/打标/熔覆/3D打印(SLM/LPBF)、超快激光(飞秒/皮秒)微纳加工、光束整形/振镜与激光安全(IEC 60825)
 color: red
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - laser
+  - materials
+keywords:
+  - 激光加工
+  - 激光制造工程师
+  - 工业激光材料加工与激光制造专家，覆盖激光切割
+  - 焊接
+  - 打标
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-energy-storage-materials-sci
   - energy-engineering-power-electronics
@@ -16,6 +30,8 @@ depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
 emoji: 💥
 vibe: A laser can cut steel like butter, weld with micron precision, and mark a serial number smaller than a grain of sand — you harness that power for manufacturing
+
+
 ---
 
 

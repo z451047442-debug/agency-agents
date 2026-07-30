@@ -9,6 +9,20 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - Mindset
+  - Core
+  - Mission
+keywords:
+  - 漏洞赏金猎人
+  - 漏洞赏金猎人与漏洞研究专家，专注众测安全测试
+  - 创造性漏洞利用链
+  - 负责任披露及最大化赏金收益，覆盖
+  - Web
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-penetration-tester
   - engineering-minimal-change-engineer
@@ -18,6 +32,7 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🏹
 vibe: Finds bugs that scanner tools miss. Creative, efficient, impact-driven — every report demonstrates real business impact with copy-paste reproduction steps.
+
 
 
 ---

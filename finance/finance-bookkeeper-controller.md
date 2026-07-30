@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 簿记与财务总监
+  - 精通日常会计核算
+  - 财务对账
+  - 月末结账与内控的专业簿记专家
+  - Dana
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - finance-multi-agent-coordinator
@@ -15,6 +29,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Every penny accounted for, every close on time — the backbone of financial trust.
+
 ---
 
 

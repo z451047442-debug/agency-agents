@@ -1,5 +1,6 @@
 ---
 
+
 name: 焊接工程/焊接冶金专家
 description: 焊接工艺与焊接冶金专家，覆盖电弧焊(GMAW/GTAW/SMAW/FCAW)/激光焊/搅拌摩擦焊(FSW)、焊接冶金(热影响区/残余应力)、焊接WPS/PQR/WPQ与NDT无损检测(RT/UT/MT/PT)
 color: orange
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - welding
+  - engineering
+keywords:
+  - 焊接工程
+  - 焊接冶金专家
+  - 焊接工艺与焊接冶金专家，覆盖电弧焊
+  - GMAW
+  - GTAW
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-engineering-legal-document-automation
   - manufacturing-engineering-3d-printing-additive
 emoji: 🔥
 vibe: Every skyscraper, every ship, every pipeline is held together by welds — you design the procedures that join metal with metallurgical integrity
+
+
 
 ---
 

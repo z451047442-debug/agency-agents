@@ -10,6 +10,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Cisco网络专家
+  - Cisco网络设备专家，覆盖IOS
+  - IOS-XE
+  - NX-OS
+  - Catalyst
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert
@@ -20,6 +34,7 @@ depends_on:
 emoji: 🔵
 vibe: The network that runs the internet runs on Cisco — you speak IOS like a second
   language, and a `show run` tells you more than a thousand words
+
 ---
 
 

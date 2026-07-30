@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 数据库GUI工具专家
 description: MySQL Workbench、MongoDB Compass、pgAdmin、DBeaver、Navicat、DataGrip等数据库图形化管理工具专家，覆盖查询编辑、ER建模、数据迁移、性能监控与日常管理
 emoji: 🖱️
@@ -10,8 +11,21 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据库GUI工具专家
+  - MySQL
+  - Workbench
+  - MongoDB
+  - Compass
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-database-administrator
   - infrastructure-backup-admin
@@ -20,6 +34,8 @@ depends_on:
   - testing-test-results-analyzer
   - unity-editor-tool-developer
 vibe: Database GUI tools specialist — visual ER diagrams that explain a schema faster than DDL, query editing that beats the CLI for exploration, and data import wizards that save you from writing yet another CSV parser.
+
+
 
 
 ---

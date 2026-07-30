@@ -1,4 +1,5 @@
 ---
+
 name: 体育工程/运动器材设计工程师
 description: 体育器材与运动装备工程设计师，覆盖复合材料(碳纤维)自行车/球拍/球杆/滑雪板结构力学、运动鞋/跑步鞋生物力学/缓震/能量回馈、运动装备空气动力学(风洞/CFD)与FEA/冲击/疲劳测试
 color: blue
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - sports
+  - engineering
+keywords:
+  - 体育工程
+  - 运动器材设计工程师
+  - 体育器材与运动装备工程设计师，覆盖复合材料
+  - 碳纤维
+  - 自行车
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-composites-manufacturing
   - testing-engineering-test-automation-framework
 emoji: 🏆
 vibe: A tennis racket, a running shoe, a racing bike — they look simple. But composite layup, polymer foam formulation, and aerodynamic optimization make the difference between winning and losing.
+
+
 
 ---
 

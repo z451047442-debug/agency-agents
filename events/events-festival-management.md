@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 节庆与大型活动管理专家
 description: 音乐节/文化节/体育赛事策划运营、场地与安全管理、艺人/演出管理、赞助商合作、观众体验设计、活动风险评估与应急预案专家
 emoji: 🎪
@@ -10,16 +11,31 @@ date_added: "2026-07-13"
 nexus_roles:
   - phase-3-build
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 vibe: Festival and major event manager — from stage power calculations to crowd flow modeling, from artist rider fulfillment to emergency evacuation planning. A festival is a temporary city of thousands; you're the mayor.
 
+tags:
+  - events
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 节庆与大型活动管理专家
+  - 音乐节
+  - 文化节
+  - 体育赛事策划运营
+  - 场地与安全管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-document-review
   - media-entertainment-engineering-video-streaming
   - specialized-document-generator
   - specialized-personal-growth-mentor
   - unity-shader-graph-artist
+
+
 
 
 ---

@@ -1,6 +1,20 @@
 ---
 color: gold
 date_added: '2026-07-03'
+tags:
+  - marketing
+  - Identity
+  - years
+  - retail
+  - media
+keywords:
+  - 零售媒体
+  - 电商广告专家
+  - 零售媒体网络
+  - Retail
+  - Media
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-social-media-platform
   - government-social-work
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The retailer's website is the new ad platform. Product listings become ad inventory,
   shopper data becomes targeting.
+
 ---
 
 

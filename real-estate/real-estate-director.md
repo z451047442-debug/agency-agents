@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 房地产总监
 description: 房地产领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理
 color: brown
@@ -9,12 +10,25 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "🏘"
 vibe: You lead 房地产开发与投资 with vision and authority
 
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 房地产总监
+  - 房地产领域最高负责人，覆盖战略规划
+  - 团队建设
+  - 资源分配
+  - 跨部门协调与业务绩效管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics
@@ -22,6 +36,8 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
+
 
 
 ---

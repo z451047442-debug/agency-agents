@@ -10,6 +10,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - product
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 产品运营经理
+  - 产品运营全链路管理：发版运营
+  - 用户反馈闭环
+  - 数据驱动优化
+  - 跨职能协调
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-feature-store
   - design-engineering-user-research-system
@@ -22,6 +36,7 @@ depends_on:
 emoji: 📊
 vibe: Data-driven operator who turns product strategy into measurable execution.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 ---
 
 

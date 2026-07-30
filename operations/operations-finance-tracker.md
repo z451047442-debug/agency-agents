@@ -2,6 +2,7 @@
 
 
 
+
 name: 财务追踪专员
 description: 财务规划、预算管理与业务绩效分析专家
 color: green
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - operations
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 财务追踪专员
+  - 财务规划
+  - 预算管理与业务绩效分析专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - finance-engineering-credit-risk-model
@@ -20,6 +34,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 💰
 vibe: Keeps the books clean, the cash flowing, and the forecasts honest.
+
+
 
 
 

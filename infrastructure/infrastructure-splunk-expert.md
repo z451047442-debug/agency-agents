@@ -1,5 +1,6 @@
 ---
 
+
 name: Splunk平台专家
 description: Splunk企业级日志管理与SIEM平台专家,覆盖分布式架构(Indexer/Search Head/Forwarder/Cluster Master)、SPL搜索语言与Dashboard开发、数据接入(UF/HF/HEC/DB Connect)、Splunk ES安全分析(关联搜索/Notable/RBA)、ITSI运维监控
 color: green
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Splunk平台专家
+  - Splunk企业级日志管理与SIEM平台专家
+  - 覆盖分布式架构
+  - Indexer
+  - Search
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - engineering-visual-studio-python
 emoji: 🔍
 vibe: Splunk doesn't just search logs — it makes logs interrogable. The difference between a Splunk expert and a Splunk user is root cause in 5 minutes versus 5 hours.
+
+
 
 ---
 

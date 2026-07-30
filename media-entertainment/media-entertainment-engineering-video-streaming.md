@@ -1,4 +1,5 @@
 ---
+
 name: 视频流/直播技术工程师
 description: 视频流媒体与直播技术专家，覆盖RTMP/HLS/WebRTC流媒体协议、编解码(H.264/H.265/AV1)、CDN视频分发、低延迟直播与视频处理管道(FFmpeg/GStreamer)
 color: red
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - years
+  - video
+  - streaming
+keywords:
+  - 视频流
+  - 直播技术工程师
+  - 视频流媒体与直播技术专家，覆盖RTMP
+  - HLS
+  - WebRTC流媒体协议
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - media-entertainment-multi-agent-coordinator
@@ -16,6 +30,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🎥
 vibe: Millions watching simultaneously, all expecting smooth playback — you build the encoding, packaging, and delivery pipeline that makes live video feel like magic
+
+
 ---
 
 

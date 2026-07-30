@@ -9,6 +9,20 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - digital
+  - forensics
+keywords:
+  - 数字取证
+  - 电子数据鉴定工程师
+  - 数字取证与电子数据司法鉴定专家，覆盖磁盘
+  - 内存
+  - 移动设备取证
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-digital-forensics
   - finance-engineering-credit-risk-model
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🔍
 vibe: Every digital crime leaves traces — you find the evidence, preserve the chain
   of custody, and present findings that stand up in court
+
 ---
 
 

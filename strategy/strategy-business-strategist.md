@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 商业策略师
 description: 管理咨询与商业策略专家，覆盖行业/竞争分析(波特五力/SWOT)、市场进入策略、增长战略、运营模式设计与战略落地
 color: slate
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - strategy
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 商业策略师
+  - 管理咨询与商业策略专家，覆盖行业
+  - 竞争分析
+  - 波特五力
+  - SWOT
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-language-model-nlp
@@ -22,6 +36,8 @@ depends_on:
   - web3-defi-strategist
 emoji: ♟️
 vibe: Strategy is choosing what NOT to do — you help leaders make the hard choices, build the plan, and execute before the window closes
+
+
 
 
 ---

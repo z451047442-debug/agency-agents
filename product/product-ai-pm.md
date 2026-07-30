@@ -1,6 +1,7 @@
 ---
 
 
+
 name: AI产品经理
 description: AI/ML产品策略，模型生命周期管理，产品提示工程，AI伦理与负责任AI，数据飞轮设计，LLM集成规划，AI功能优先级排序
 color: purple
@@ -9,9 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - product
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AI产品经理
+  - AI
+  - ML产品策略，模型生命周期管理，产品提示工程，AI伦理与负责任AI，数据飞轮设计，LLM集成规划，AI功能优先级排序
+  - Kai
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-landscape-architecture
   - cybersecurity-engineering-customer-identity-access
@@ -25,6 +38,8 @@ depends_on:
 emoji: 🤖
 vibe: Bridges the gap between what AI can do and what users actually need — ships intelligent features responsibly.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
+
 
 
 ---

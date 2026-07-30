@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - medical
+  - device
+keywords:
+  - 生物医学工程师
+  - 生物医学工程与医疗器械开发专家，覆盖医疗设备设计
+  - 开发
+  - ISO
+  - 生物信号处理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-medical-device-software
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🩻
 vibe: Engineering meets medicine — you design the devices that diagnose disease, replace
   organs, and restore function
+
 ---
 
 

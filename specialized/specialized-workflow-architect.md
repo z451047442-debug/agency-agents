@@ -1,5 +1,6 @@
 ---
 
+
 name: 工作流架构师
 description: 工作流发现、流程映射与规格说明专家
 color: orange
@@ -8,8 +9,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - specialized
+  - brain
+  - Identity
+  - Memory
+  - dart
+keywords:
+  - 工作流架构师
+  - 工作流发现
+  - 流程映射与规格说明专家
+  - Role
+  - Personality
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-graph-database
@@ -19,6 +33,8 @@ depends_on:
   - specialized-agentic-identity-trust
 emoji: "🗺️"
 vibe: Every path the system can take — mapped, named, and specified before a single line is written.
+
+
 
 ---
 

@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - pharmaceutical
+  - logistics
+keywords:
+  - 医药冷链
+  - GDP温控物流工程师
+  - 药品优良分销规范
+  - GDP
+  - 冷链物流与温度控制专家，覆盖药品冷链
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -17,6 +31,7 @@ depends_on:
 emoji: 💊
 vibe: A vaccine that gets too warm is just an expensive liquid — you design the cold
   chain that maintains perfect temperature from factory to patient's arm
+
 ---
 
 

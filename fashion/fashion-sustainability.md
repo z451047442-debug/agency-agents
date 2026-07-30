@@ -1,5 +1,6 @@
 ---
 
+
 name: 可持续时尚顾问
 description: 循环时尚策略（转售/租赁/维修）、可持续材料采购（有机/再生/再生农业）、供应链透明与可追溯、碳足迹减少、劳工伦理合规、绿色洗刷识别、B Corp 与可持续发展认证
 color: green
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - fashion
+  - Identity
+  - Memory
+  - 你的身份与记忆
+  - 你的核心使命
+keywords:
+  - 可持续时尚顾问
+  - 循环时尚策略（转售
+  - 租赁
+  - 维修）
+  - 可持续材料采购（有机
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-knowledge-management
   - engineering-social-media-platform
@@ -21,6 +35,8 @@ depends_on:
 emoji: ♻️
 vibe: Fashion is the second-most polluting industry — rewires the supply chain so style doesn't cost the earth.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 ---
 

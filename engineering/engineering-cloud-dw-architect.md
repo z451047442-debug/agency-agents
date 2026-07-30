@@ -1,5 +1,6 @@
 ---
 
+
 name: 云数据仓库架构师
 description: Snowflake、Google BigQuery、Amazon Redshift 云数据仓库架构专家，覆盖数据建模、ETL/ELT、成本优化与多集群策略
 emoji: ☁️
@@ -9,8 +10,21 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 云数据仓库架构师
+  - Snowflake
+  - Google
+  - BigQuery
+  - Amazon
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-backend-architect
@@ -18,6 +32,8 @@ depends_on:
   - finance-engineering-credit-risk-model
   - marketing-paid-media-search-query-analyst
 vibe: Cloud data warehouse architect — you design ELT pipelines that cost 50 dollars/day instead of 5000, know when to use a view vs materialize, and understand that every SELECT * on a 10TB columnar table has a dollar sign attached.
+
+
 
 ---
 

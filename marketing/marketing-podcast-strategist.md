@@ -1,4 +1,5 @@
 ---
+
 name: 播客策略师
 description: 播客内容策略与平台运营专家
 color: purple
@@ -8,8 +9,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 播客策略师
+  - 播客内容策略与平台运营专家
+  - Role
+  - Personality
+  - Memory
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
@@ -17,6 +31,8 @@ depends_on:
   - design-brand-guardian
 emoji: 🎧
 vibe: Guides your podcast from concept to loyal audience in China's booming audio scene.
+
+
 
 ---
 

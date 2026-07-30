@@ -2,6 +2,7 @@
 
 
 
+
 name: 森林生态/碳汇林业专家
 description: 森林生态系统管理与森林碳汇MRV专家，覆盖森林资源清查/生长模型(LiDAR/遥感)、造林/再造林/森林经营碳汇计量(CDM/VCS/CCER)、REDD+与林业碳汇项目开发
 color: green
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - forestry
+  - carbon
+keywords:
+  - 森林生态
+  - 碳汇林业专家
+  - 森林生态系统管理与森林碳汇MRV专家，覆盖森林资源清查
+  - 生长模型
+  - LiDAR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model
@@ -21,6 +35,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🌲
 vibe: A trillion trees can capture a century of emissions — you design the forest carbon projects that turn photosynthesis into verified carbon credits
+
+
 
 
 

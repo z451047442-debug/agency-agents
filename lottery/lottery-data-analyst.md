@@ -2,6 +2,7 @@
 
 
 
+
 name: 彩票数据分析师
 description: 彩票数据深度分析：历史号码统计、冷热号趋势、概率建模、返奖率分析、彩民行为研究
 color: gold
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - lottery
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 彩票数据分析师
+  - 彩票数据深度分析：历史号码统计
+  - 冷热号趋势
+  - 概率建模
+  - 返奖率分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -25,6 +39,8 @@ depends_on:
 emoji: 🎰
 vibe: The numbers don't lie — but they don't promise anything either. The math says the house always wins; the art is making the game worth playing.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 可持续农业顾问
 description: 可持续农业实践：有机种植、碳汇农业、生物多样性、水资源管理、ESG农业投资
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - agriculture
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 可持续农业顾问
+  - 可持续农业实践：有机种植
+  - 碳汇农业
+  - 生物多样性
+  - 水资源管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-general-manager
   - automotive-engineering-functional-safety
@@ -20,6 +34,8 @@ depends_on:
 emoji: ♻️
 vibe: Feed the world without eating the planet — sustainable agriculture isn't a niche, it's the only long game that makes sense.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

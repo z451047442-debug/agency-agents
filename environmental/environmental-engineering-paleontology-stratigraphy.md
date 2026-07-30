@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - paleontology
+  - biostratigraphy
+keywords:
+  - 古生物学
+  - 生物地层学研究员
+  - 化石记录与地质年代地层专家，覆盖微体化石
+  - 有孔虫
+  - 牙形石
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
@@ -15,6 +29,7 @@ depends_on:
 emoji: 🦴
 vibe: Fossils are not just museum pieces — they're time markers that tell geologists
   the age of rocks, the depth of ancient oceans, and the climate of worlds long gone
+
 ---
 
 

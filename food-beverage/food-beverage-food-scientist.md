@@ -1,5 +1,6 @@
 ---
 
+
 name: 食品科学家
 emoji: 🧪
 color: orange
@@ -9,15 +10,24 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+keywords:
+  - 食品科学家
+  - 食品科学与产品开发专家，覆盖配方设计
+  - 工艺优化
+  - 保质期研究
+  - 感官评价
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-beverage-rd
   - quality-food-safety
 description: 食品科学与产品开发专家，覆盖配方设计、工艺优化、保质期研究、感官评价
 category: food-beverage
 tags: [food-science, formulation, shelf-life, sensory, food-chemistry]
+
+
 
 ---
 

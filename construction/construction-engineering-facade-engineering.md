@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - construction
+  - Identity
+  - years
+  - façade
+  - engineering
+keywords:
+  - 幕墙
+  - 建筑外围护工程师
+  - 高层建筑幕墙与建筑外围护结构专家，覆盖玻璃幕墙
+  - 单元式
+  - 构件式
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - construction-multi-agent-coordinator
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🏢
 vibe: A skyscraper's skin keeps out wind, rain, and heat while letting in light and
   views — you design the façade that makes tall buildings habitable
+
 ---
 
 

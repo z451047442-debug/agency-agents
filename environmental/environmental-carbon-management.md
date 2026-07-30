@@ -1,5 +1,6 @@
 ---
 
+
 name: 碳管理专家
 description: 碳核算、碳交易与碳中和路径规划专家，覆盖GHG Protocol、EU ETS/全国碳市场、SBTi目标设定与碳足迹LCA
 color: gray
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Deliverables
+  - Success
+  - Metrics
+  - Identity
+keywords:
+  - 碳管理专家
+  - 碳核算
+  - 碳交易与碳中和路径规划专家，覆盖GHG
+  - Protocol
+  - EU
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-general-manager
   - construction-safety-officer
@@ -19,6 +33,8 @@ depends_on:
   - legal-general-counsel
 emoji: ♻️
 vibe: A spreadsheet warrior who counts every ton of CO₂e and knows the carbon market's mood swings
+
+
 
 ---
 

@@ -2,6 +2,7 @@
 
 
 
+
 name: 艺体教育专家
 description: 体育/音乐/美术/舞蹈/书法/戏剧(表演)/影视/摄影/播音主持/音乐理论/乐器演奏/声乐/雕塑/设计学等艺术与体育教育专家，覆盖技能训练、艺术素养、展演组织与创造力培养
 emoji: 🎭
@@ -10,8 +11,21 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 艺体教育专家
+  - 体育
+  - 音乐
+  - 美术
+  - 舞蹈
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-creative-tools
   - marketing-short-video-editing-coach
@@ -22,6 +36,8 @@ depends_on:
   - testing-test-results-analyzer
   - unity-shader-graph-artist
 vibe: Arts and physical education specialist — from correct embouchure to correct throwing form, from color theory to choreography. Arts and sports develop the whole person. Creativity is teachable, discipline is learnable, and the stage transforms students.
+
+
 
 
 

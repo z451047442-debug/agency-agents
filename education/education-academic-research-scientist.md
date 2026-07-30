@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - education
+  - Identity
+  - years
+  - academic
+  - research
+keywords:
+  - 学术研究科学家
+  - 大学
+  - 研究机构科研工作者，覆盖研究设计
+  - 方法论
+  - 基金申请
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-user-research-system
   - education-academic-anthropologist
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Research is the pursuit of truth through systematic inquiry — you design studies,
   collect evidence, and advance human knowledge one paper at a time
+
 ---
 
 

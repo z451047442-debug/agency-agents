@@ -2,6 +2,20 @@
 
 color: purple
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Terraform
+  - IaC专家
+  - Terraform基础设施即代码专家
+  - 覆盖HCL模块化设计与Monorepo策略
+  - Provider生态
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Infrastructure is code, and code is reviewed, tested, and versioned. Terraform
   turns months of ticket-based provisioning into a git push and a plan output.
+
 
 ---
 

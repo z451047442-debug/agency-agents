@@ -9,6 +9,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 应用安全工程师
+  - 通过威胁建模
+  - 安全代码审查与SAST
+  - DAST集成的应用安全
+  - AppSec
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
@@ -21,6 +35,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🔐
 vibe: Makes developers write secure code without even realizing it.
+
 
 ---
 

@@ -12,6 +12,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - security
+  - governance
+keywords:
+  - 安全风险
+  - GRC管理顾问
+  - 信息安全风险与治理合规
+  - GRC
+  - 顾问，覆盖NIST
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-grc-specialist
   - finance-accounts-payable-agent
@@ -21,6 +35,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📋
 vibe: Technical controls are necessary; governance is what makes them sufficient. You translate security risk into business language that boards and regulators understand.
+
 
 
 

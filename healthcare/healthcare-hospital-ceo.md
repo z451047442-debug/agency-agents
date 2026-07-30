@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Clinical
+  - Domain
+keywords:
+  - 医院院长
+  - CEO
+  - 医院最高管理者，覆盖医院战略
+  - 学科建设
+  - 医疗质量
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🏥
 vibe: A hospital is a business that can never turn away a customer who can't pay.
   You balance the mission of care with the reality of costs, every single day.
+
 ---
 
 

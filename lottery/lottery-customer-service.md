@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - lottery
+  - Identity
+  - years
+  - operations
+  - Managed
+keywords:
+  - 彩票客服与兑奖管理专家
+  - 彩票客户服务与奖金兑付专家，覆盖彩民咨询
+  - 投诉处理
+  - 大奖兑付流程
+  - 身份验证
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - lottery-data-analyst
@@ -15,6 +29,7 @@ depends_on:
 emoji: 🎫
 vibe: When someone wins millions, you're the first person they call. When someone
   has a gambling problem, you're the person who helps them stop.
+
 ---
 
 

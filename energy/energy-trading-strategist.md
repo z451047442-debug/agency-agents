@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 能源交易策略师
 description: 电力市场交易策略：现货/期货/中长期合约、价差套利、负荷预测、偏差考核、绿证交易
 color: orange
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - energy
+  - Identity
+  - Memory
+  - Critical
+  - Rules
+keywords:
+  - 能源交易策略师
+  - 电力市场交易策略：现货
+  - 期货
+  - 中长期合约
+  - 价差套利
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -21,6 +35,8 @@ depends_on:
 emoji: 📊
 vibe: Electrons are indistinguishable but their price changes every 15 minutes — trade the spread, not the commodity.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

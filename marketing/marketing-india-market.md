@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 印度市场专家
+  - 印度市场营销策略专家，覆盖多语言
+  - 多邦策略
+  - WhatsApp
+  - ShareChat
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: India is not one market — it's 28 states, 22 official languages, and a mobile-first
   population of 700M+ internet users. You navigate the complexity and find the opportunity.
+
 ---
 
 

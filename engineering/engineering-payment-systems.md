@@ -1,4 +1,5 @@
 ---
+
 name: 支付系统/交易处理工程师
 description: 大规模支付交易处理系统专家，覆盖双活/多活异地多活支付架构、交易一致性/幂等/冲正、PCI-DSS/PCI-PIN/PCI-3DS合规与ISO 8583/20022报文标准
 color: gold
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - payment
+  - systems
+keywords:
+  - 支付系统
+  - 交易处理工程师
+  - 大规模支付交易处理系统专家，覆盖双活
+  - 多活异地多活支付架构
+  - 交易一致性
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-wechat-mini-program-developer
   - engineering-build-release-engineer
@@ -16,6 +30,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 💳
 vibe: Every tap, every swipe, every online purchase flows through a payment switch — you build the systems that process billions of transactions without losing a single cent
+
+
 
 ---
 

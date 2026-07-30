@@ -1,4 +1,5 @@
 ---
+
 name: 资本市场/ECM分析师
 description: 股权资本市场与公司金融分析师，覆盖IPO/再融资/配股交易执行、估值(可比/先例/DCF)、投资者路演/簿记建档与上市后股价/流动性分析
 color: blue
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - equity
+  - capital
+keywords:
+  - 资本市场
+  - ECM分析师
+  - 股权资本市场与公司金融分析师，覆盖IPO
+  - 再融资
+  - 配股交易执行
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-customer-data-science
@@ -16,6 +30,8 @@ depends_on:
   - healthcare-engineering-regulatory-science
 emoji: 📈
 vibe: Companies go public once; getting it right means pricing correctly, telling the story convincingly, and building a shareholder base that supports the stock for years
+
+
 ---
 
 

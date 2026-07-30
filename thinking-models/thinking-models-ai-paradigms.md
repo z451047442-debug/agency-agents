@@ -11,12 +11,27 @@ nexus_roles: [phase-0-discovery, phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: AI paradigm thinker — from symbolic logic engines to distributed neural networks, from reinforcement learning agents to decentralized trust systems. The fundamental question is not "what can AI do?" but "how should we think about intelligence itself?"
 
+tags:
+  - thinking-models
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AI与计算机科学范式思维专家
+  - 符号主义
+  - 知识图谱与逻辑推理
+  - 连接主义
+  - 深度学习与分布式表征
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - specialized-agentic-identity-trust
   - specialized-identity-graph-operator
   - web3-engineering-smart-contract-security
   - web3-engineering-solidity-smart-contract-engineer
   - web3-smart-contract-dev
+
 
 ---
 

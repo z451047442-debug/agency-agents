@@ -10,6 +10,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - years
+  - customer
+  - data
+keywords:
+  - CDP
+  - 客户数据平台专家
+  - 客户数据平台
+  - 与营销数据架构专家，覆盖Segment
+  - mParticle
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-multi-agent-coordinator
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🗂️
 vibe: Every touchpoint generates data — but it's scattered across a dozen systems.
   You unify it into a single customer view that powers personalization at scale.
+
 ---
 
 

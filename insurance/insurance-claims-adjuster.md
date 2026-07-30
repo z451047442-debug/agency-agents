@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 理赔专员
+  - 保险理赔专家，覆盖财产险
+  - 责任险
+  - 货运险的事故调查
+  - 损失评估
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-incident-response
   - education-special-needs
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: When the worst happens, you're the one who makes it right — fair, fast, and
   by the book
+
 ---
 
 

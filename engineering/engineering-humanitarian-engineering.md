@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 人道主义工程/WASH专家
 description: 人道主义水卫生(WASH)与应急工程专家，覆盖紧急供水(打井/运水/净水药片)/环境卫生(应急厕所/粪便污泥管理)、难民营/临时安置点规划与人道主义标准(SPHERE/ Core Humanitarian Standard)
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - humanitarian
+  - WASH
+keywords:
+  - 人道主义工程
+  - WASH专家
+  - 人道主义水卫生
+  - WASH
+  - 与应急工程专家，覆盖紧急供水
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - emergency-disaster-response
   - engineering-build-release-engineer
@@ -18,6 +32,8 @@ depends_on:
   - marketing-southeast-asia-expert
 emoji: 💧
 vibe: When disaster strikes, water kills faster than hunger — you bring clean water, sanitation, and dignity to people who have lost everything
+
+
 
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Windows桌面管理专家
 description: Windows桌面与终端管理专家，覆盖Windows 10/11部署与镜像、Intune/Autopilot现代管理、MDT/WDS传统部署、策略管理与补丁管理
 color: teal
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Windows桌面管理专家
+  - Windows桌面与终端管理专家，覆盖Windows
+  - 11部署与镜像
+  - Intune
+  - Autopilot现代管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - data-science-feature-store
@@ -23,6 +37,8 @@ depends_on:
   - marketing-abm-account-based
 emoji: 💻
 vibe: Every locked-up laptop at 9AM Monday is a person who can't work — you design the deployment, management, and update strategy so that never happens
+
+
 
 
 ---

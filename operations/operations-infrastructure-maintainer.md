@@ -2,6 +2,7 @@
 
 
 
+
 name: 基础设施维护工程师
 description: 系统可靠性、性能优化与基础设施运营专家
 color: orange
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - operations
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 基础设施维护工程师
+  - 系统可靠性
+  - 性能优化与基础设施运营专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-container-orchestration
   - infrastructure-storage-backup
@@ -23,6 +37,8 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🏢
 vibe: Keeps the lights on, the servers humming, and the alerts quiet.
+
+
 
 
 

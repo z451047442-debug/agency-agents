@@ -8,6 +8,20 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
+tags:
+  - government
+  - Identity
+  - years
+  - public
+  - administration
+keywords:
+  - 公共管理
+  - 公务员专家
+  - 公共行政与政府管理专家，覆盖公共政策执行
+  - 公共服务交付
+  - 预算编制
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-multi-agent-systems-architect
   - government-digital-presales-consultant
@@ -15,6 +29,7 @@ depends_on:
 emoji: 🏛️
 vibe: Government is the institution that makes civilization work — you manage the
   public services, budgets, and policies that affect millions of lives.
+
 ---
 
 

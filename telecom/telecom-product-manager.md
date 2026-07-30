@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 通信产品经理
 description: 通信产品设计与运营：套餐设计、用户增长、ARPU提升、终端策略、增值服务
 color: purple
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - telecom
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 通信产品经理
+  - 通信产品设计与运营：套餐设计
+  - 用户增长
+  - ARPU提升
+  - 终端策略
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,8 @@ depends_on:
 emoji: 📱
 vibe: The best plan is the one the customer never thinks about — it just works, and the bill feels fair.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

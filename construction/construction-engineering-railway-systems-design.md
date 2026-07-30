@@ -1,5 +1,6 @@
 ---
 
+
 name: 铁路车辆/动车组设计工程师
 description: 铁路车辆与高速动车组机械设计专家，覆盖车辆动力学(蛇行/舒适度/脱轨)、转向架/车体/车钩缓冲器、制动系统与UIC/EN/GB车辆标准
 color: blue
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - railway
+  - vehicle
+keywords:
+  - 铁路车辆
+  - 动车组设计工程师
+  - 铁路车辆与高速动车组机械设计专家，覆盖车辆动力学
+  - 蛇行
+  - 舒适度
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -17,6 +31,8 @@ depends_on:
   - mining-safety
 emoji: 🚄
 vibe: A train at 350km/h — stable, comfortable, safe. That's engineering on bogies, brakes, and aerodynamics.
+
+
 
 
 ---

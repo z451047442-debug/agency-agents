@@ -3,6 +3,7 @@
 
 
 
+
 name: 内容策略(Content Strategy)专家
 description: 跨渠道品牌内容与信息架构策略专家，覆盖内容审计/内容清单、信息架构(IA)/内容建模、多平台内容治理/工作流与内容运营/编辑标准
 color: teal
@@ -11,9 +12,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - design
+  - Identity
+  - years
+  - content
+  - strategy
+keywords:
+  - 内容策略
+  - Content
+  - Strategy
+  - 专家
+  - 跨渠道品牌内容与信息架构策略专家，覆盖内容审计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - design-brand-guardian
@@ -27,6 +41,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 📋
 vibe: Content is the substance users came for — you design the strategy that makes it findable, usable, and consistent across every touchpoint
+
+
 
 
 

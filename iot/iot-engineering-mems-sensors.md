@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - iot
+  - Identity
+  - years
+  - MEMS
+  - sensor
+keywords:
+  - MEMS
+  - 传感器设计工程师
+  - 微机电系统与传感器设计专家，覆盖MEMS加速度计
+  - 陀螺仪
+  - 压力传感器设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - education-special-needs
@@ -17,6 +31,7 @@ emoji: 🔬
 vibe: Every smartphone, every car, every drone knows which way is up because of a
   MEMS sensor smaller than a grain of rice. You design the microscopic machines that
   sense the physical world.
+
 ---
 
 

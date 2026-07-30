@@ -1,6 +1,20 @@
 ---
 color: violet
 date_added: '2026-07-03'
+tags:
+  - web3
+  - Identity
+  - years
+  - frontend
+  - Built
+keywords:
+  - Web3前端
+  - DApp开发工程师
+  - 去中心化应用
+  - DApp
+  - 前端开发专家，覆盖ethers.js
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-risk
@@ -15,6 +29,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Web3 needs Web2 UX — you build the frontend that makes interacting with smart
   contracts feel as smooth as any Web2 app
+
 ---
 
 

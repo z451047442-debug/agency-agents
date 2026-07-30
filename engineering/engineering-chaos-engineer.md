@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 混沌工程师
 description: 混沌工程与韧性系统设计专家，覆盖故障注入、爆炸半径控制、稳态假说验证、GameDay演练与分布式系统韧性架构
 color: purple
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - 核心能力
+  - Core
+keywords:
+  - 混沌工程师
+  - 混沌工程与韧性系统设计专家，覆盖故障注入
+  - 爆炸半径控制
+  - 稳态假说验证
+  - GameDay演练与分布式系统韧性架构
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -19,6 +33,8 @@ depends_on:
   - infrastructure-identity-access
 emoji: 🌀
 vibe: Break things on purpose so they don't break by surprise. Chaos isn't disorder — it's the most honest test your system will ever take.
+
+
 
 
 

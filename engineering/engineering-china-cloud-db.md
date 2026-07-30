@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 中国云数据库架构师
 description: 阿里云PolarDB/Lindorm/Tair、华为云GaussDB/TaurusDB、腾讯云TDSQL/TencentDB等中国云厂商数据库专家，覆盖分布式架构、HTAP、信创国产化替代与迁移策略
 emoji: 🏯
@@ -11,13 +12,28 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 中国云数据库架构师
+  - 阿里云PolarDB
+  - Lindorm
+  - Tair
+  - 华为云GaussDB
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - home-lifestyle-personal-finance
   - marketing-china-market-localization-strategist
   - marketing-cross-border-ecommerce
 vibe: "China cloud database architect — PolarDB, GaussDB, TDSQL, OceanBase, and the Xinchuang landscape. Database choice in China is a three-body problem: technical fit vs cloud vendor lock-in vs compliance scoring."
+
+
 
 
 ---

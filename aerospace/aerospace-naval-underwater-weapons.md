@@ -1,4 +1,5 @@
 ---
+
 name: 舰船与水中兵器专家
 description: 舰载武器系统与运用工程/舰艇作战系统/水声工程与矢量声呐/水下航行器总体设计与动力推进/海军武器装备火力指挥控制系统专家
 emoji: 🚢
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 舰船与水中兵器专家
+  - 舰载武器系统与运用工程
+  - 舰艇作战系统
+  - 水声工程与矢量声呐
+  - 水下航行器总体设计与动力推进
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-systems-aerospace
   - aerospace-systems-engineer
@@ -16,6 +30,8 @@ depends_on:
   - cybersecurity-security-architect
   - data-science-data-engineer
 vibe: Naval and underwater weapons specialist — from shipboard combat systems to torpedo guidance, from sonar signal processing to autonomous underwater vehicles. The underwater battlespace is the most unforgiving environment in warfare.
+
+
 
 ---
 

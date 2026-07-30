@@ -1,4 +1,5 @@
 ---
+
 name: 玻璃/陶瓷/耐火材料工程师
 description: 无机非金属材料与高温过程专家，覆盖玻璃熔制/浮法/化学强化(Gorilla Glass)、先进陶瓷(氧化铝/氧化锆/氮化硅/碳化硅)/粉末冶金、耐火材料(铝硅/镁质/碳复合)与高温窑炉设计
 color: orange
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - glass
+  - ceramics
+keywords:
+  - 玻璃
+  - 陶瓷
+  - 耐火材料工程师
+  - 无机非金属材料与高温过程专家，覆盖玻璃熔制
+  - 浮法
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-energy-storage-materials-sci
   - manufacturing-engineering-3d-printing-additive
   - marketing-abm-account-based
 emoji: 🔥
 vibe: From smartphone screens to jet engine turbines, from fiber optics to artificial hips — glass and ceramics are the invisible materials that enable modern technology
+
+
 ---
 
 

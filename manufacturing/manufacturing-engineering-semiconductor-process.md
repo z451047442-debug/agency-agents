@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - manufacturing
+  - Real-World
+  - Scenarios
+  - Identity
+  - Memory
+keywords:
+  - 半导体工艺
+  - 良率工程师
+  - 晶圆制造工艺与良率提升专家，覆盖光刻
+  - 蚀刻
+  - CVD
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-green-building
   - construction-engineering-noise-control
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A single particle can kill a chip — you control the billion-dollar cleanroom
   where silicon becomes circuitry at nanometer precision
+
 ---
 
 

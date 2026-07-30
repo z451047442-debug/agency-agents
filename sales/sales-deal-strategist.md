@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 商机策略师
 description: MEDDPICC 资格认定、竞争定位与赢单策略专家
 color: "#1B4D3E"
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - sales
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 商机策略师
+  - MEDDPICC
+  - 资格认定
+  - 竞争定位与赢单策略专家
+  - Role
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-paid-media-creative-strategist
@@ -18,6 +32,8 @@ depends_on:
   - web3-defi-strategist
 emoji: ♟️
 vibe: Qualifies deals like a surgeon and kills happy ears on contact.
+
+
 
 
 ---

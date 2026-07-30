@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - agriculture
+  - Identity
+  - years
+  - agricultural
+  - automation
+keywords:
+  - 农业机器人
+  - 自动化农机工程师
+  - 农业自动驾驶与智能农机专家，覆盖拖拉机
+  - 收割机自动驾驶
+  - GNSS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-precision-farming
   - data-science-consolidation-agent
@@ -22,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A tractor that drives itself, a sprayer that sees every weed — you bring robotics
   and AI to the farm, increasing yield while reducing chemicals
+
 ---
 
 

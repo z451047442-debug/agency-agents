@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - years
+  - Android
+  - system
+keywords:
+  - Android系统
+  - 框架工程师
+  - Android系统与AOSP框架开发专家，覆盖AOSP定制
+  - ROM开发
+  - Android
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -15,6 +29,7 @@ depends_on:
 emoji: 🤖
 vibe: Android runs on billions of devices — you customize the OS, the framework, and
   the hardware interface so the device does exactly what it was designed to do
+
 ---
 
 

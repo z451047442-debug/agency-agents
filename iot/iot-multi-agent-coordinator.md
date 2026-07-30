@@ -1,6 +1,20 @@
 ---
 color: '#0891B2'
 date_added: '2026-07-19'
+tags:
+  - iot
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - IoT
+  - Multi-Agent
+  - Coordinator
+  - Coordinates
+  - workflows
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for IoT — edge computing, sensor networks,
@@ -13,6 +27,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating iot specialists into coherent multi-agent workflows
+
 ---
 
 

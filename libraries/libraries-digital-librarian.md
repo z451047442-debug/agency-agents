@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 数字图书馆员
 description: 数字馆藏开发、机构知识库管理、元数据模式设计（Dublin Core/MARC）、数字保存（OAIS）、发现系统优化、开放获取倡导专家
 color: teal
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - libraries
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数字图书馆员
+  - 数字馆藏开发
+  - 机构知识库管理
+  - 元数据模式设计（Dublin
+  - Core
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-cultural-heritage-law
   - engineering-embedded-database
@@ -22,6 +36,8 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 📖
 vibe: Guardian of digital knowledge — metadata precision meets preservation wisdom.
+
+
 
 
 ---

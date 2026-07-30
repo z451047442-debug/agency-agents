@@ -1,4 +1,5 @@
 ---
+
 name: 公关/PR 专家
 description: 危机公关、媒体关系、企业声誉管理与发言人培训专家
 color: blue
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 公关
+  - PR
+  - 专家
+  - 危机公关
+  - 媒体关系
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-pr-communications-manager
   - design-brand-guardian
 emoji: 📰
 vibe: When a crisis hits at 3am, you're already drafting the statement — because you saw it coming three days ago.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 ---
 

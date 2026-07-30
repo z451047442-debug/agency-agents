@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 制冷/热泵/空调系统工程师
 description: 蒸气压缩制冷与热泵系统设计专家，覆盖制冷循环/压缩机/换热器/膨胀阀选型、制冷剂(R32/R290/R744/R1234yf)环保替代、变频/数码涡旋容量调节与热泵除霜/极寒制热
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - HVAC&R
+  - system
+keywords:
+  - 制冷
+  - 热泵
+  - 空调系统工程师
+  - 蒸气压缩制冷与热泵系统设计专家，覆盖制冷循环
+  - 压缩机
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -19,6 +33,8 @@ depends_on:
   - testing-engineering-reliability-testing
 emoji: ❄️
 vibe: Cooling is not a luxury — it's life support for data centers, food supply chains, and billions of people in a warming world
+
+
 
 
 

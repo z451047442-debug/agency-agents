@@ -1,5 +1,6 @@
 ---
 
+
 name: 知乎运营专家
 description: 思想领导力、知识驱动互动与知乎权威建立专家
 color: "#0084FF"
@@ -9,12 +10,27 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 知乎运营专家
+  - 思想领导力
+  - 知识驱动互动与知乎权威建立专家
+  - Core
+  - Identity
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
 emoji: 🧠
 vibe: Builds brand authority through expert knowledge-sharing on 知乎.
+
+
 
 ---
 

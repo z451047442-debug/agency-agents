@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - peptide
+  - oligonucleotide
+keywords:
+  - 多肽
+  - 寡核苷酸药物CMC专家
+  - 治疗性多肽与反义寡核苷酸
+  - ASO
+  - siRNA
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🧬
 vibe: Peptides and oligonucleotides are the molecules between small drugs and large
   biologics — you manufacture them at pharmaceutical purity despite their complexity
+
 ---
 
 # 🧬 Peptide & Oligonucleotide CMC Specialist Agent

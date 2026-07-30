@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - automotive
+  - Identity
+  - years
+  - leading
+  - engineering
+keywords:
+  - 汽车研发
+  - 事业部总监
+  - 汽车研发或事业部最高负责人，覆盖整车
+  - 系统开发策略
+  - 平台架构
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - automotive-multi-agent-coordinator
   - automotive-vehicle-architecture
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🚗
 vibe: Cars are the most complex consumer product on Earth — you lead the thousands
   of engineers who design, test, and build them.
+
 ---
 
 

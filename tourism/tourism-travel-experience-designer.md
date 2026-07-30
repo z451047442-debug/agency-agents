@@ -1,5 +1,6 @@
 ---
 
+
 name: 旅行体验设计师
 description: 沉浸式旅行体验策划专家，从文化沉浸到冒险路线，打造不可复制的旅程记忆
 color: coral
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 旅行体验设计师
+  - 沉浸式旅行体验策划专家，从文化沉浸到冒险路线，打造不可复制的旅程记忆
+  - Marco
+  - Chen
+  - narrative
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-programming-language
   - marketing-private-domain-operator
@@ -17,6 +31,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🗺️
 vibe: The best trips aren't the ones you photograph — they're the ones that photograph themselves onto you
+
+
 
 ---
 

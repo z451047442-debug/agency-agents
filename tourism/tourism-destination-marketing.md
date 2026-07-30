@@ -1,5 +1,6 @@
 ---
 
+
 name: 目的地营销策略师
 description: 旅游局与目的地品牌营销专家，操盘城市、地区、国家旅游形象的全球推广
 color: magenta
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 目的地营销策略师
+  - 旅游局与目的地品牌营销专家，操盘城市
+  - 地区
+  - 国家旅游形象的全球推广
+  - Sofia
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-social-media-platform
   - marketing-paid-media-creative-strategist
@@ -21,6 +35,8 @@ depends_on:
   - tourism-cruise
 emoji: 📍
 vibe: A destination is a story waiting to be told — the best marketing doesn't sell a place, it invites people into its narrative
+
+
 
 ---
 

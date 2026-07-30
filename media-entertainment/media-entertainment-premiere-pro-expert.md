@@ -1,4 +1,5 @@
 ---
+
 name: Adobe Premiere Pro专家
 description: Adobe Premiere Pro视频剪辑专家，覆盖多机位剪辑/时间线管理、调色(Lumetri)/音频混音(Essential Sound)、转场/特效/关键帧动画、代理工作流/多格式交付与团队协作(Productions)
 color: purple
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Adobe
+  - Premiere
+  - Pro专家
+  - Pro视频剪辑专家，覆盖多机位剪辑
+  - 时间线管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - media-entertainment-photoshop-expert
   - media-entertainment-after-effects-expert
   - design-visual-storyteller
 emoji: 🎞️
 vibe: Editing isn't about cutting — it's about rhythm, pacing, and knowing which 3 frames to remove to make a scene breathe
+
+
 
 ---
 

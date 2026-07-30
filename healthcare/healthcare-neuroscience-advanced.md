@@ -1,19 +1,35 @@
 ---
 
+
 name: 神经科学专家
 description: 系统与认知神经科学、神经退行性疾病、神经可塑性、神经影像学、计算神经科学与神经工程专家
 emoji: 🧠
 color: "#9C27B0"
 version: "1.0.0"
 date_added: "2026-07-12"
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 神经科学专家
+  - 系统与认知神经科学
+  - 神经退行性疾病
+  - 神经可塑性
+  - 神经影像学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - pharma-biotech-director
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 vibe: Neuroscientist — from synaptic plasticity to large-scale brain networks, from Alzheimer's pathology to brain-computer interfaces. The brain is the most complex object in the known universe.
+
+
 
 ---
 

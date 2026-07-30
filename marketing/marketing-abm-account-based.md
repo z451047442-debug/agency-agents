@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - years
+  - account-based
+  - Built
+keywords:
+  - 基于客户的营销
+  - ABM
+  - 经理
+  - B2B大客户ABM营销策略专家，覆盖1
+  - Many
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-user-research-system
   - marketing-multi-agent-coordinator
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🎯
 vibe: Stop marketing to everyone and start marketing to the 50 accounts that will
   change your business. ABM is precision marketing for B2B.
+
 ---
 
 

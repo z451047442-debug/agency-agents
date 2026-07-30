@@ -11,6 +11,20 @@ nexus_roles:
   - phase-6-operate
   - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 深信服安全专家
+  - 深信服
+  - Sangfor
+  - 安全与云IT专家，覆盖下一代防火墙
+  - NGAF
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
@@ -21,6 +35,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🛡️
 vibe: Sangfor doesn't just sell security appliances — it sells an integrated security ecosystem; you know how to deploy, tune, and troubleshoot every piece of it
+
 
 
 ---

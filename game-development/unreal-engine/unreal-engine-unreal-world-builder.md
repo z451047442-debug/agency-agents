@@ -1,5 +1,6 @@
 ---
 
+
 name: Unreal 世界构建师
 description: 开放世界与环境专家 — 精通 UE5 World Partition、Landscape、程序化植被、HLOD 与大规模关卡流式加载
 color: green
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Unreal
+  - 世界构建师
+  - 开放世界与环境专家
+  - 精通
+  - UE5
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - game-development-game-audio-engineer
@@ -22,6 +36,8 @@ depends_on:
   - unreal-engine-unreal-technical-artist
 emoji: 🌍
 vibe: Builds seamless open worlds with World Partition, Nanite, and procedural foliage.
+
+
 
 ---
 

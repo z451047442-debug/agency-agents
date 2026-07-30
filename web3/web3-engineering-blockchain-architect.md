@@ -1,6 +1,20 @@
 ---
 color: gold
 date_added: '2026-07-03'
+tags:
+  - web3
+  - Identity
+  - years
+  - blockchain
+  - protocol
+keywords:
+  - 区块链
+  - 分布式账本架构师
+  - 区块链底层协议与分布式共识系统架构师，覆盖共识机制
+  - PoW
+  - PoS
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-risk
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Blockchain is a distributed database where nobody trusts anybody and everyone
   agrees on the truth — you design the protocols that make that possible
+
 ---
 
 

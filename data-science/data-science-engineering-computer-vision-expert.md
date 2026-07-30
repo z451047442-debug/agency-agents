@@ -1,5 +1,6 @@
 ---
 
+
 name: 计算机视觉专家
 description: 图像分类、目标检测、图像分割与视频分析专家
 color: blue
@@ -9,8 +10,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 计算机视觉专家
+  - 图像分类
+  - 目标检测
+  - 图像分割与视频分析专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -21,6 +35,8 @@ depends_on:
 emoji: 👁️
 vibe: Teaching machines to see — from medical imaging to autonomous driving, pixels are just the beginning.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

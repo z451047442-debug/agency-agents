@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - logistics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 仓储经理
+  - 全面的仓库运营管理专家，覆盖仓储布局规划
+  - 库存管理
+  - WMS系统实施
+  - 人力调度与安全合规
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-supply-chain
   - customer-service-complaints
@@ -16,6 +30,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Turns chaos into order — every pallet has its place, every pick path its purpose
+
 ---
 
 

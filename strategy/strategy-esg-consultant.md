@@ -1,6 +1,7 @@
 ---
 
 
+
 name: ESG 可持续发展顾问
 description: 碳中和、ESG 报告、可持续发展战略与绿色金融专家
 color: green
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - strategy
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - ESG
+  - 可持续发展顾问
+  - 碳中和
+  - 报告
+  - 可持续发展战略与绿色金融专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - fashion-sustainability
   - finance-risk-manager
@@ -23,6 +37,8 @@ depends_on:
 emoji: 🌱
 vibe: Makes sustainability business-smart — not just greenwashing, but real impact with measurable returns.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

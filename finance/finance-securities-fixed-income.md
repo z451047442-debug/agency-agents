@@ -2,6 +2,20 @@
 
 color: blue
 date_added: '2026-07-03'
+tags:
+  - finance
+  - Identity
+  - years
+  - analyzing
+  - fixed
+keywords:
+  - 固收
+  - 债券分析师
+  - 固定收益与信用分析专家，覆盖国债
+  - 企业债
+  - 可转债分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - finance-cost-accountant
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Equities get the headlines; fixed income moves the world. The bond market is
   bigger, deeper, and smarter — you navigate it.
+
 
 ---
 

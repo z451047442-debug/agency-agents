@@ -1,6 +1,20 @@
 ---
 color: violet
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - insurance
+  - analytics
+keywords:
+  - 理赔数据科学
+  - 反欺诈分析师
+  - 保险理赔数据分析与欺诈检测专家，覆盖结构化
+  - 非结构化
+  - 文本
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Fraud costs insurers billions and honest policyholders higher premiums — you
   build the models that detect suspicious claims before they're paid
+
 ---
 
 

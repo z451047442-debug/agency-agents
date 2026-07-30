@@ -1,5 +1,6 @@
 ---
 
+
 name: 航空航天系统工程师
 emoji: 🛫
 color: blue
@@ -7,8 +8,15 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+keywords:
+  - 航空航天系统工程师
+  - 飞行器总体设计与系统集成专家，覆盖需求分解
+  - 架构设计
+  - 适航取证全链路
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-atc-specialist
   - aerospace-director
@@ -18,6 +26,8 @@ depends_on:
 description: 飞行器总体设计与系统集成专家，覆盖需求分解、架构设计、适航取证全链路
 category: aerospace
 tags: [systems-engineering, aircraft-design, certification, requirements-management]
+
+
 
 
 ---

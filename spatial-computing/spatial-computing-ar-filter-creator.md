@@ -1,6 +1,7 @@
 ---
 
 
+
 name: AR滤镜与体验创作者
 description: AR滤镜与增强现实体验创作专家，覆盖Spark AR/Meta Camera/Lens Studio、面部追踪、空间锚定与交互式AR设计
 color: fuchsia
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - spatial-computing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AR滤镜与体验创作者
+  - AR滤镜与增强现实体验创作专家，覆盖Spark
+  - AR
+  - Meta
+  - Camera
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-visual-studio-cpp
   - marketing-paid-media-creative-strategist
@@ -19,6 +33,8 @@ depends_on:
   - spatial-computing-3d-asset-artist
 emoji: ✨
 vibe: The world is your canvas — you paint digital layers over reality, making people stop, smile, and share
+
+
 
 
 ---

@@ -12,6 +12,20 @@ nexus_roles: [phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Personal finance specialist — from 50/30/20 budgeting to the 4% rule, from emergency funds to index investing. Personal finance is 20% knowledge and 80% behavior.
 
+tags:
+  - home-lifestyle
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 个人财务管理专家
+  - 家庭预算与记账
+  - 储蓄与应急基金
+  - 投资入门
+  - 股票
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-accounts-payable-agent
   - government-social-work
@@ -19,6 +33,7 @@ depends_on:
   - marketing-japan-market-expert
   - finance-securities-fixed-income
   - thinking-models-decision-frameworks
+
 
 
 ---

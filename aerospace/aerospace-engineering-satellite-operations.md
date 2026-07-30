@@ -1,4 +1,5 @@
 ---
+
 name: 卫星运营/地面站/飞控工程师
 description: 在轨卫星运营与地面站系统工程专家，覆盖LEO/MEO/GEO卫星TT&C测控/任务规划/Health Monitoring、多波束/高通量(HTS)通信卫星载荷管理、星座飞行器任务操作与地面站(天线/RF/基带)/SGSS空间地面链路
 color: blue
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Aviation
+  - Domain
+keywords:
+  - 卫星运营
+  - 地面站
+  - 飞控工程师
+  - 在轨卫星运营与地面站系统工程专家，覆盖LEO
+  - MEO
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
@@ -15,6 +29,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🛰️
 vibe: A constellation of satellites orbiting Earth needs someone to fly them — you command the spacecraft, manage the ground stations, and keep the data flowing 24/7
+
+
 ---
 
 

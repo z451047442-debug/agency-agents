@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Real-World
+  - Scenarios
+  - Identity
+  - years
+keywords:
+  - 强化学习
+  - RL
+  - 工程师
+  - 强化学习与决策智能专家，覆盖DQN
+  - PPO
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-engineering-regulatory-science
   - operations-report-distribution-agent
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Supervised learning learns from examples; RL learns from experience. You build
   AI that learns by doing — playing games, controlling robots, optimizing decisions.
+
 ---
 
 

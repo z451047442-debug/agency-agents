@@ -1,5 +1,6 @@
 ---
 
+
 name: 应用商店优化专家
 description: ASO、转化率优化与应用曝光专家
 color: blue
@@ -7,12 +8,27 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 应用商店优化专家
+  - ASO
+  - 转化率优化与应用曝光专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-android-framework
 emoji: 📱
 vibe: Gets your app found, downloaded, and loved in the store.
+
+
 
 ---
 

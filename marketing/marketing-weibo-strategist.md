@@ -1,4 +1,5 @@
 ---
+
 name: 微博运营策略师
 description: 微博热搜、话题营销与粉丝互动专家
 color: "#FF8200"
@@ -8,8 +9,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 微博运营策略师
+  - 微博热搜
+  - 话题营销与粉丝互动专家
+  - Role
+  - Personality
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-china-market-localization-strategist
@@ -17,6 +31,8 @@ depends_on:
   - design-brand-guardian
 emoji: 🔥
 vibe: Makes your brand trend on Weibo and keeps the conversation going.
+
+
 
 ---
 

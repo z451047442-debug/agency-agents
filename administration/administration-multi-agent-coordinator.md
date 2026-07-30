@@ -1,6 +1,20 @@
 ---
 color: '#64748B'
 date_added: '2026-07-19'
+tags:
+  - administration
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Administration
+  - Multi-Agent
+  - Coordinator
+  - Coordinates
+  - workflows
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for administration
@@ -12,6 +26,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating administration specialists into coherent multi-agent workflows
+
 ---
 
 

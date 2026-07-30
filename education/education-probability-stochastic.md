@@ -11,11 +11,26 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Probabilist — from Kolmogorov's axioms to Ito's lemma, from branching processes to SDEs. Probability is the mathematics of uncertainty, and uncertainty is everywhere.
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 概率论与随机过程专家
+  - 测度论概率基础
+  - 随机过程
+  - 马尔可夫
+  - 布朗运动
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - home-lifestyle-personal-finance
   - logistics-engineering-supply-chain-risk
   - operations-report-distribution-agent
   - specialized-identity-graph-operator
+
 
 ---
 

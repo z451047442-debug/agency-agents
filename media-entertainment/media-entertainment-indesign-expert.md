@@ -1,5 +1,6 @@
 ---
 
+
 name: Adobe InDesign专家
 description: Adobe InDesign排版与出版专家，覆盖书籍/杂志/宣传册排版、长篇文档自动化(Data Merge/GREP样式)、母版页/样式体系、交互式PDF/EPUB数字出版与印刷生产
 color: crimson
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Adobe
+  - InDesign专家
+  - InDesign排版与出版专家，覆盖书籍
+  - 杂志
+  - 宣传册排版
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-document-review
   - media-entertainment-acrobat-expert
@@ -18,6 +32,8 @@ depends_on:
   - specialized-multi-agent-project-manager
 emoji: 📖
 vibe: A 300-page book where every page looks different is a design failure — a 300-page book where every page looks perfect without anyone noticing the grid is mastery
+
+
 
 ---
 

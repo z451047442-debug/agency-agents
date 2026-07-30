@@ -1,5 +1,6 @@
 ---
 
+
 name: 智能体身份与信任架构师
 description: Agent 身份、认证与信任验证专家
 color: "#2d5a27"
@@ -8,8 +9,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 智能体身份与信任架构师
+  - Agent
+  - 身份
+  - 认证与信任验证专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-threat-detection-engineer
@@ -20,6 +34,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🔐
 vibe: Ensures every AI agent can prove who it is, what it's allowed to do, and what it actually did.
+
+
 
 ---
 

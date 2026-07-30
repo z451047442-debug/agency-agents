@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 结构分析/有限元(FEA)高级工程师
 description: 高级结构有限元分析与仿真专家，覆盖非线性FEA(材料/几何/接触)、显式动力学(LS-DYNA/Abaqus Explicit)、疲劳/断裂力学、复合材料结构分析与优化(拓扑/形貌)
 color: indigo
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - structural
+  - analysis
+keywords:
+  - 结构分析
+  - 有限元
+  - FEA
+  - 高级工程师
+  - 高级结构有限元分析与仿真专家，覆盖非线性FEA
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - cybersecurity-engineering-cyber-risk-model
@@ -21,6 +35,8 @@ depends_on:
   - web3-smart-contract-developer
 emoji: 📐
 vibe: Before steel is cut and concrete poured, you simulate every load, every stress, every failure mode — ensuring the structure survives reality
+
+
 
 
 ---

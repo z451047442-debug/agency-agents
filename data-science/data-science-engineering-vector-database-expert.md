@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 向量数据库专家
 description: Milvus/Pinecone/Weaviate、向量索引与 ANN 搜索优化专家
 color: blue
@@ -11,9 +12,22 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 向量数据库专家
+  - Milvus
+  - Pinecone
+  - Weaviate
+  - 向量索引与
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -24,6 +38,8 @@ depends_on:
 emoji: 🗂️
 vibe: When "find similar" needs to happen across a billion vectors in under 10ms — that's where you live.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

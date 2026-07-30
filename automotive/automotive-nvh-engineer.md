@@ -1,6 +1,20 @@
 ---
 color: purple
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - Made
+  - cars
+keywords:
+  - 汽车NVH工程师
+  - 汽车噪声振动与声振粗糙度
+  - NVH
+  - 专家，覆盖动力总成
+  - 路噪
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-multi-agent-coordinator
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A quiet car feels premium; a noisy car feels cheap. You engineer the silence
   that makes a vehicle feel like it's worth the money.
+
 ---
 
 

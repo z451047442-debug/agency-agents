@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 地理信息(GIS)/遥感工程师
 description: 地理信息系统与遥感分析专家，覆盖ArcGIS/QGIS/PostGIS空间数据库、卫星遥感(Sentinel/Landsat)影像处理、空间分析/地统计与Web GIS(Mapbox/Leaflet/GeoServer)
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - years
+  - earth
+  - observation
+keywords:
+  - 地理信息
+  - GIS
+  - 遥感工程师
+  - 地理信息系统与遥感分析专家，覆盖ArcGIS
+  - QGIS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - engineering-graph-database
@@ -21,6 +35,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🗺️
 vibe: Everything happens somewhere — you map the world, analyze spatial patterns, and turn location data into decisions that affect millions
+
+
 
 
 ---

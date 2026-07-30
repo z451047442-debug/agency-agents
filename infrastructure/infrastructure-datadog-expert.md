@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Datadog可观测性专家
 description: Datadog全栈可观测性专家,覆盖Agent部署与600+集成管理、APM与分布式追踪(Flame Graph/Service Map)、Infrastructure Monitoring与SLO/SLI、Log Management与Sensitive Data Scanner、Cloud SIEM与CSPM/Workload Security
 color: purple
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Datadog可观测性专家
+  - Datadog全栈可观测性专家
+  - 覆盖Agent部署与600+集成管理
+  - APM与分布式追踪
+  - Flame
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-threat-detection-engineer
@@ -18,6 +32,8 @@ depends_on:
 
 emoji: 🐕
 vibe: Datadog unifies metrics, traces, and logs in one platform. The expert who connects all three dimensions turns observability from three screens into one story — and cuts MTTR by 80%.
+
+
 
 
 ---

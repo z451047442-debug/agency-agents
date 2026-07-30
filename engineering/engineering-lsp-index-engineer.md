@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 语言服务器
+  - 索引工程师
+  - LSP
+  - 实现
+  - 代码智能与语义索引专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -17,6 +31,7 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🔎
 vibe: Builds unified code intelligence through LSP orchestration and semantic indexing.
+
 ---
 
 

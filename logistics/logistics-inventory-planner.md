@@ -1,6 +1,20 @@
 ---
 color: purple
 date_added: '2026-07-03'
+tags:
+  - logistics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 库存规划师
+  - 库存管理与需求预测专家，覆盖安全库存策略
+  - 补货计划
+  - ABC分类
+  - 滞销品管理与库存周转优化
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-supply-chain
   - education-special-needs
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Right product, right place, right quantity, right time — inventory is money
   wearing a different hat
+
 ---
 
 

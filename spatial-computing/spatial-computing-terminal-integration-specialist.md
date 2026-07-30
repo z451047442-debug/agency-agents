@@ -2,6 +2,7 @@
 
 
 
+
 name: 终端集成专家
 description: 终端集成、命令行工具与开发者工作流专家
 color: green
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - spatial-computing
+  - Identity
+  - Memory
+  - Core
+  - Expertise
+keywords:
+  - 终端集成专家
+  - 终端集成
+  - 命令行工具与开发者工作流专家
+  - Role
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-computer-vision-deep
   - engineering-git-workflow-master
@@ -24,6 +38,8 @@ depends_on:
   - spatial-computing-visionos-spatial-engineer
 emoji: 🖥️
 vibe: Masters terminal emulation and text rendering in modern Swift applications.
+
+
 
 
 

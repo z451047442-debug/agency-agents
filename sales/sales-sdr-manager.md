@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - sales
+  - Identity
+  - years
+  - building
+  - leading
+keywords:
+  - 销售开发
+  - SDR
+  - BDR
+  - 经理
+  - 销售开发与线索挖掘团队管理者，覆盖SDR
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
@@ -18,6 +32,7 @@ depends_on:
 emoji: 📞
 vibe: The AE closes deals; the SDR opens doors. You build the team that fills the
   pipeline, coaching junior reps into the sales leaders of tomorrow.
+
 ---
 
 

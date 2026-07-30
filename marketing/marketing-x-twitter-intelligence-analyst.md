@@ -1,5 +1,6 @@
 ---
 
+
 name: X/Twitter情报分析师
 description: X/Twitter社交媒体研究、趋势检测与受众洞察的情报分析专家
 color: "#111111"
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Twitter情报分析师
+  - Twitter社交媒体研究
+  - 趋势检测与受众洞察的情报分析专家
+  - Core
+  - Identity
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
 services:
@@ -17,6 +31,8 @@ services:
     tier: paid
 emoji: 🛰️
 vibe: Turns noisy X conversations into sourced market, audience, and risk intelligence.
+
+
 
 ---
 

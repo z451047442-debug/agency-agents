@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 大华服务器专家
+  - 大华智能服务器与云存储专家，覆盖AI服务器
+  - GPU
+  - MLU
+  - 视频云存储
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-git-workflow-master
@@ -20,6 +34,7 @@ depends_on:
 emoji: 🗄️
 vibe: Behind every Dahua DSS platform running a city's surveillance is a cluster of
   servers you designed — storage nodes, AI nodes, management nodes, all working together
+
 ---
 
 

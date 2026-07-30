@@ -1,4 +1,5 @@
 ---
+
 name: 薪酬核算/个税专家
 description: 企业薪酬核算与个人所得税专家，覆盖月度薪资计算/社保公积金核算、个税预扣/专项附加扣除/年度汇算清缴、多地区薪酬合规与薪酬系统(ADP/北森)管理
 color: amber
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - payroll
+  - processing
+keywords:
+  - 薪酬核算
+  - 个税专家
+  - 企业薪酬核算与个人所得税专家，覆盖月度薪资计算
+  - 社保公积金核算
+  - 个税预扣
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-multi-agent-coordinator
   - finance-accounts-payable-agent
 emoji: 💰
 vibe: Payroll errors are the fastest way to lose employee trust — you ensure every employee is paid correctly, on time, with every tax and deduction properly handled
+
+
 ---
 
 

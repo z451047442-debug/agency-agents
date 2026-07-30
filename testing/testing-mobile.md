@@ -11,6 +11,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 移动应用测试专家
+  - 移动应用测试专家，覆盖iOS
+  - Android真机测试
+  - 设备碎片化管理
+  - 手势
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-language-model-nlp
@@ -21,6 +35,7 @@ depends_on:
   - testing-playwright-expert
 emoji: 📱
 vibe: Your app runs on 10,000 different device models — you test across the ones that matter, automate the rest, and catch crashes before users do
+
 
 
 

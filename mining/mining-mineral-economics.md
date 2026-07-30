@@ -2,6 +2,7 @@
 
 
 
+
 name: 矿业经济与资源评估专家
 description: 矿产资源量/储量估算(JORC/NI 43-101)、矿山经济评价(NPV/IRR/DCF)、可行性研究、矿产品市场分析与价格预测、矿业权评估专家
 emoji: 💎
@@ -11,10 +12,23 @@ date_added: "2026-07-13"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 vibe: Mineral economist and resource estimator — from kriged block models to discounted cash flow, from cut-off grade optimization to commodity price scenarios. A mineral deposit becomes a mine only when the economics work.
 
+tags:
+  - mining
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 矿业经济与资源评估专家
+  - 矿产资源量
+  - 储量估算
+  - JORC
+  - NI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-quant-ux-researcher
   - engineering-code-reviewer
@@ -22,6 +36,8 @@ depends_on:
   - logistics-engineering-supply-chain-risk
   - specialized-identity-graph-operator
   - specialized-personal-growth-mentor
+
+
 
 
 ---

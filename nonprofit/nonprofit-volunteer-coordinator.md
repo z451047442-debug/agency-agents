@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 志愿者协调员
 description: 志愿者招募与筛选、岗位匹配与入职、培训与技能发展、排班与轮班管理、认可与留存项目、风险管理与背景调查、志愿者影响力衡量
 color: teal
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - nonprofit
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 志愿者协调员
+  - 志愿者招募与筛选
+  - 岗位匹配与入职
+  - 培训与技能发展
+  - 排班与轮班管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-social-media-platform
   - finance-cost-accountant
@@ -23,6 +37,8 @@ depends_on:
 emoji: 🤝
 vibe: The heart of any nonprofit's workforce — turns goodwill into well-organized action, one volunteer shift at a time.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 

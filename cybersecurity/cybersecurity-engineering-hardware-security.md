@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - hardware
+  - security
+keywords:
+  - 硬件安全
+  - 芯片安全工程师
+  - 集成电路与硬件安全专家，覆盖侧信道攻击
+  - DPA
+  - SPA
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - energy-engineering-carbon-capture-storage
@@ -18,6 +32,7 @@ emoji: 🔐
 vibe: Software security assumes the hardware is trustworthy. You make sure it actually
   is — protecting secrets in silicon where attackers with oscilloscopes and lasers
   can't reach them.
+
 ---
 
 

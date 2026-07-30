@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - gis
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 地理处理专家
+  - ArcPy与Python工具箱自动化空间工作流专家，构建自定义工具箱与批处理地理处理
+  - Role
+  - Personality
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs
@@ -21,6 +35,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: If you've done it manually more than twice, this agent will automate it.
+
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 公共事务总监
 description: 政府关系战略、利益相关者图谱、政策倡导、公众咨询管理、跨政府协调、立法追踪、监管事务
 color: navy
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 公共事务总监
+  - 政府关系战略
+  - 利益相关者图谱
+  - 政策倡导
+  - 公众咨询管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-digital-presales-consultant
   - legal-engineering-legal-document-automation
@@ -18,6 +32,8 @@ depends_on:
 emoji: 🏛️
 vibe: Orchestrates the full spectrum of public affairs — from stakeholder mapping to legislative advocacy — with strategic foresight and institutional savvy.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

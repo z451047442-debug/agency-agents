@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 领英内容创作者
 description: 个人品牌、思想领导力与领英专业内容专家
 color: "#0A66C2"
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 领英内容创作者
+  - 个人品牌
+  - 思想领导力与领英专业内容专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-social-work
   - marketing-bilibili-content-strategist
@@ -18,6 +32,8 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 💼
 vibe: Turns professional expertise into scroll-stopping content that makes the right people find you.
+
+
 
 
 ---

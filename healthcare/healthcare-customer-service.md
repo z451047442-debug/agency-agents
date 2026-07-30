@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 医疗客服专员
+  - 富有同理心的医疗客户服务专家，处理患者支持
+  - 账单咨询
+  - 预约管理
+  - 保险问题与投诉解决
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-insurance-technology
   - legal-billing-time-tracking
@@ -16,6 +30,7 @@ depends_on:
   - specialized-medical-billing-coding-specialist
 vibe: Every patient deserves to feel heard, respected, and supported — especially
   when they're scared, confused, or frustrated.
+
 ---
 
 

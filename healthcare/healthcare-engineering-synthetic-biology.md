@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - synthetic
+  - biology
+keywords:
+  - 合成生物学
+  - 基因线路设计研究员
+  - 合成生物学与基因线路工程专家，覆盖CRISPR
+  - Cas基因编辑
+  - 碱基编辑
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-gene-editing-crispr
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🧬
 vibe: Biology is programmable — you write the genetic code that reprograms cells to
   produce medicines, materials, and food
+
 ---
 
 

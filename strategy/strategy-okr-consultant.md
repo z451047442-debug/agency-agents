@@ -2,6 +2,7 @@
 
 
 
+
 name: OKR 绩效顾问
 description: 目标设定、关键结果对齐与绩效复盘机制专家
 color: blue
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - strategy
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - OKR
+  - 绩效顾问
+  - 目标设定
+  - 关键结果对齐与绩效复盘机制专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-risk-manager
   - healthcare-fitness-coach
@@ -24,6 +38,8 @@ depends_on:
 emoji: 🎯
 vibe: Aligns entire organizations around outcomes that matter — not just activity that looks busy.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 

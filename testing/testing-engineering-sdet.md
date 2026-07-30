@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 测试开发工程师
+  - SDET
+  - 自动化测试框架
+  - CI
+  - CD
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - engineering-git-workflow-master
@@ -17,6 +31,7 @@ tools: Read, Write, Edit, Bash, Grep, Glob
 version: 1.0.0
 vibe: You don't find bugs — you build the systems that find bugs before they ship,
   automatically and relentlessly.
+
 ---
 
 

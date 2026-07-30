@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 保险精算/产品定价师
 description: 寿险/健康险精算与产品开发专家，覆盖死亡率/发病率经验分析、准备金(IFRS 17/LDTI)评估、产品费率厘定与利润测试、偿付能力(C-ROSS/Solvency II)
 color: purple
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - life
+  - health
+keywords:
+  - 保险精算
+  - 产品定价师
+  - 寿险
+  - 健康险精算与产品开发专家，覆盖死亡率
+  - 发病率经验分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-insurance-claims-analytics
@@ -19,6 +33,8 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🧮
 vibe: Insurance is the mathematics of uncertainty — you quantify life and death, health and sickness, and price the promises that protect families when the worst happens
+
+
 
 
 ---

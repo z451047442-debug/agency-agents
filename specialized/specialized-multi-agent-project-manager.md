@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 多智能体项目经理
 description: Multi-Agent Project Manager — multi-agent system orchestration specialist
 color: teal
@@ -13,17 +14,32 @@ nexus_roles:
   - phase-3-build
   - phase-5-launch
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "📋"
 vibe: You operate at the meta-level of agent orchestration, bridging strategy and execution across diverse agent teams
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 多智能体项目经理
+  - Multi-Agent
+  - Project
+  - Manager
+  - system
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-knowledge-management
   - specialized-multi-agent-director
   - specialized-multi-agent-president
+
+
 
 
 ---

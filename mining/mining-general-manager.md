@@ -1,5 +1,6 @@
 ---
 
+
 name: 矿业总经理
 description: 矿业领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行
 color: dimgray
@@ -9,12 +10,25 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "⛏"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
+tags:
+  - mining
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 矿业总经理
+  - 矿业领域全面经营管理者，覆盖业务运营
+  - 财务绩效
+  - 团队建设
+  - 客户关系与战略执行
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - government-general-manager
@@ -23,6 +37,8 @@ depends_on:
   - real-estate-general-manager
   - cybersecurity-general-manager
   - specialized-customer-success-manager
+
+
 
 ---
 

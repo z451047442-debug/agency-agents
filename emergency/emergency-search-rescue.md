@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 搜救专家
 description: 搜索与救援专家，覆盖SAR任务规划与指挥协调、搜索理论（概率/网格/扇形搜索）与资源部署、绳索/水域/雪崩等专业技术救援、K9搜救犬分队指挥与战术运用、多部门联合指挥体系(ICS)整合
 color: orange
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - emergency
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 搜救专家
+  - 搜索与救援专家，覆盖SAR任务规划与指挥协调
+  - 搜索理论（概率
+  - 网格
+  - 扇形搜索）与资源部署
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-number-theory
   - emergency-fire-chief
@@ -21,6 +35,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🧭
 vibe: When someone is missing, every minute matters. You apply search theory, technical rescue skills, and incident command discipline to bring people home — balancing speed against safety, probability against terrain, and hope against the clock.
+
+
 
 
 ---

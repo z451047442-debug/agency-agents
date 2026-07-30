@@ -1,5 +1,6 @@
 ---
 
+
 name: 设计总监
 description: 设计团队最高负责人，覆盖设计战略/系统、品牌体验一致性、设计团队管理、设计评审与跨职能协作
 color: navy
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - design
+  - Identity
+  - years
+  - leading
+  - teams
+keywords:
+  - 设计总监
+  - 设计团队最高负责人，覆盖设计战略
+  - 系统
+  - 品牌体验一致性
+  - 设计团队管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - design-engineering-user-research-system
   - marketing-abm-account-based
 emoji: 🎨
 vibe: Design is not how it looks — it's how it works. You lead the team that makes products intuitive, beautiful, and accessible.
+
+
 
 
 ---

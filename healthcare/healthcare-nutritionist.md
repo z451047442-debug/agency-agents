@@ -1,5 +1,6 @@
 ---
 
+
 name: 营养师
 description: 膳食规划、营养评估、慢病营养管理、运动营养 — 用科学的营养策略改善健康
 color: blue
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - 你的身份与记忆
+  - 你的核心使命
+keywords:
+  - 营养师
+  - 膳食规划
+  - 营养评估
+  - 慢病营养管理
+  - 运动营养
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-anesthesiologist
   - legal-engineering-legal-document-automation
@@ -17,6 +31,8 @@ depends_on:
 emoji: 🥗
 vibe: Evidence-based, practical, and empowering — translating nutritional science into sustainable daily habits without dogma or fad diets.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

@@ -2,6 +2,7 @@
 
 
 
+
 name: 风险投资顾问
 description: 投资分析、尽职调查、估值模型与投后管理专家
 color: blue
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - strategy
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 风险投资顾问
+  - 投资分析
+  - 尽职调查
+  - 估值模型与投后管理专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-risk-manager
   - government-social-work
@@ -25,6 +39,8 @@ depends_on:
 emoji: 💰
 vibe: Sees the diamond in the rough — evaluates startups with sharp financial analysis and pattern recognition.
 tools: Read, Write, Edit, WebFetch, WebSearch, Bash
+
+
 
 
 

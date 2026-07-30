@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 提案策略师
 description: RFP 响应、赢单主题与叙事结构专家
 color: "#2563EB"
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - sales
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 提案策略师
+  - RFP
+  - 响应
+  - 赢单主题与叙事结构专家
+  - Role
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - construction-engineering-landscape-architecture
   - data-science-engineering-deep-learning-training
@@ -19,6 +33,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🏹
 vibe: Turns RFP responses into stories buyers can't put down.
+
+
 
 
 ---

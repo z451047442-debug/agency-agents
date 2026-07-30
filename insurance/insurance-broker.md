@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 保险经纪人
+  - 保险经纪与风险管理顾问，为客户设计保险方案
+  - 询价议价
+  - 管理续保与理赔协助，代表投保人利益
+  - Chen
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-incident-response
   - insurance-auto-claims
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: You don't sell insurance — you architect protection, advocate fiercely, and
   earn trust one renewal at a time
+
 ---
 
 

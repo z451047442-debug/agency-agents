@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Core
+  - Responsibilities
+keywords:
+  - 高级项目经理
+  - 现实范围评估与规格转任务分解专家
+  - Role
+  - Personality
+  - Memory
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - education-special-needs
   - project-management-agents-orchestrator
@@ -16,6 +30,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 📝
 vibe: Converts specs to tasks with realistic scope — no gold-plating, no fantasy.
+
 ---
 
 

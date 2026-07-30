@@ -8,6 +8,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - hr
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 组织发展专家
+  - 组织发展与变革管理专家，覆盖组织诊断
+  - 文化建设
+  - 领导力发展
+  - 人才梯队
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - hr-employee-relations
   - hr-labor-relations
@@ -15,6 +29,7 @@ depends_on:
 emoji: 🌱
 vibe: Organizations don't change because you tell them to — they change when the systems,
   symbols, and stories all point in the same direction
+
 ---
 
 

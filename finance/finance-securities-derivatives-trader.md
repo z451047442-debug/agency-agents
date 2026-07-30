@@ -2,6 +2,20 @@
 
 color: amber
 date_added: '2026-07-03'
+tags:
+  - finance
+  - Identity
+  - years
+  - trading
+  - derivatives
+keywords:
+  - 衍生品交易员
+  - 金融衍生品交易与定价专家，覆盖期货
+  - 期权
+  - 互换定价模型
+  - Black-Scholes
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - finance-cost-accountant
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Derivatives are weapons of financial mass destruction — or precision instruments
   for risk management. Which they become depends on how you use them.
+
 
 ---
 

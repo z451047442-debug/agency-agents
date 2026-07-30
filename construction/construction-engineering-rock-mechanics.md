@@ -1,5 +1,6 @@
 ---
 
+
 name: 岩石力学/采矿工程工程师
 description: 岩石力学与采矿/隧道围岩稳定性专家，覆盖岩石强度准则(Hoek-Brown/Mohr-Coulomb)/岩体分类(RMR/Q/G SI)、深部开采/岩爆/微震监测、边坡/采空区稳定性与充填/支护设计
 color: brown
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - construction
+  - Identity
+  - years
+  - mining
+  - geomechanics
+keywords:
+  - 岩石力学
+  - 采矿工程工程师
+  - 岩石力学与采矿
+  - 隧道围岩稳定性专家，覆盖岩石强度准则
+  - Hoek-Brown
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-geotechnical-earthquake
   - engineering-git-workflow-master
@@ -16,6 +30,8 @@ depends_on:
   - mining-safety
 emoji: ⛏️
 vibe: Mining extracts the minerals civilization runs on — you ensure the rock doesn't collapse, the slope doesn't fail, and the miners go home safely
+
+
 
 
 ---

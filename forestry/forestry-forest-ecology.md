@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 森林生态与碳汇专家
 description: 森林生态系统管理、森林碳汇计量与MRV、REDD+与碳信用项目开发、生物多样性监测、造林与森林恢复、社区林业与可持续林产品专家
 emoji: 🌳
@@ -10,15 +11,30 @@ date_added: "2026-07-13"
 nexus_roles:
   - phase-0-discovery
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 vibe: Forest ecologist and carbon specialist — from LiDAR biomass estimation to REDD+ safeguards, from natural regeneration to plantation silviculture. Forests are the most cost-effective carbon capture technology on Earth, with biodiversity as a free bonus.
 
+tags:
+  - forestry
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 森林生态与碳汇专家
+  - 森林生态系统管理
+  - 森林碳汇计量与MRV
+  - REDD+与碳信用项目开发
+  - 生物多样性监测
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-engineering-ecosystem-restoration
   - legal-document-review
   - marketing-china-market-localization-strategist
   - infrastructure-network-engineering-engineering-optical-fiber-sensing
+
+
 
 ---
 

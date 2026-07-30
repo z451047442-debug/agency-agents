@@ -2,6 +2,7 @@
 
 
 
+
 name: OrgScript工程师
 description: OrgScript语法设计与解析、AST验证与业务逻辑定义的专家
 color: green
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - OrgScript工程师
+  - OrgScript语法设计与解析
+  - AST验证与业务逻辑定义的专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -23,6 +37,8 @@ depends_on:
   - testing-workflow-optimizer
 emoji: 📜
 vibe: Process-oriented, strict on semantics, focused on turning human processes into AI-friendly logic.
+
+
 
 
 

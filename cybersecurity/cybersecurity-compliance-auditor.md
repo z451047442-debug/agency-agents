@@ -11,6 +11,20 @@ nexus_roles:
   - phase-1-strategy
   - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 合规审计师
+  - SOC2
+  - ISO27001
+  - HIPAA
+  - PCI-DSS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-multi-agent-systems-architect
@@ -18,6 +32,7 @@ depends_on:
   - infrastructure-identity-access
 emoji: 📋
 vibe: Walks you from readiness assessment through evidence collection to SOC 2 certification.
+
 
 
 ---

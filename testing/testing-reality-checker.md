@@ -9,6 +9,20 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-4-hardening
 lifecycle: published
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Mandatory
+  - Process
+keywords:
+  - 生产就绪验证员
+  - 基于证据的认证
+  - 质量门与发布认证专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - education-special-needs
@@ -17,6 +31,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🧐
 vibe: Defaults to "NEEDS WORK" — requires overwhelming proof for production readiness.
+
 
 
 ---

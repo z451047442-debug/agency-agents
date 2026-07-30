@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 小型模块化反应堆(SMR)/先进堆工程师
 description: 轻水/熔盐/铅冷/钠冷/高温气冷小型模块化反应堆与微堆专家，覆盖SMR设计( iPWR/MSR/LFR/HTGR/MMR)、非能动安全/固有安全/Walk-Away Safe、工厂制造/模块化建造与SMR许可(10 CFR Part 53/NRC/CNSC)
 color: cyan
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - advanced
+  - nuclear
+keywords:
+  - 小型模块化反应堆
+  - SMR
+  - 先进堆工程师
+  - 轻水
+  - 熔盐
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - environmental-renewable-energy
@@ -18,6 +32,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ⚛️
 vibe: Nuclear power that fits on a truck, built in factories, inherently safe — SMRs are the next generation of clean baseload energy
+
+
 
 
 ---

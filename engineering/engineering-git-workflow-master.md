@@ -1,5 +1,6 @@
 ---
 
+
 name: Git 工作流专家
 description: 分支策略、规范提交与高级 Git 操作专家
 color: orange
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Git
+  - 工作流专家
+  - 分支策略
+  - 规范提交与高级
+  - 操作专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -17,6 +31,8 @@ depends_on:
   - project-management-scrum-master
 emoji: 🌿
 vibe: Clean history, atomic commits, and branches that tell a story.
+
+
 
 ---
 

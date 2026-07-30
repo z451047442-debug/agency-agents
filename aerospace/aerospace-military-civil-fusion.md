@@ -1,4 +1,5 @@
 ---
+
 name: 军民融合与国防战略专家
 description: 军民融合发展战略/军工企业与民参军技术创新管理/军民科技协同创新/国防与航空航天产业链/军事理论发展战略/国防采办与装备经济专家
 emoji: 🤝
@@ -9,12 +10,27 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 vibe: Military-civil fusion and defense strategy specialist — from technology transfer and dual-use innovation to defense industrial base resilience. National security depends as much on industrial capability and technology ecosystems as on operational forces.
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 军民融合与国防战略专家
+  - 军民融合发展战略
+  - 军工企业与民参军技术创新管理
+  - 军民科技协同创新
+  - 国防与航空航天产业链
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-supply-chain-strategist
   - marketing-china-market-localization-strategist
+
+
 ---
 
 

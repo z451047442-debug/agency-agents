@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 异宠与野生动物兽医专家
 description: 爬行动物/两栖动物/鸟类/小型哺乳动物(兔/貂/豚鼠)医学、野生动物救护与康复、动物园动物医学、禽类医学与动物福利专家
 emoji: 🦎
@@ -10,10 +11,23 @@ date_added: "2026-07-13"
 nexus_roles:
   - phase-3-build
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 vibe: Exotic animal veterinarian — from iguana metabolic bone disease to psittacine beak and feather disease, from hedgehog wobbly syndrome to zoo anesthesia. When it's not a dog or cat, you're who they call.
 
+tags:
+  - pets
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 异宠与野生动物兽医专家
+  - 爬行动物
+  - 两栖动物
+  - 鸟类
+  - 小型哺乳动物
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-lighting
   - specialized-life-coach
@@ -21,6 +35,8 @@ depends_on:
   - specialized-workflow-architect
   - sports-event-ops
   - testing-evidence-collector
+
+
 
 ---
 

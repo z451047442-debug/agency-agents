@@ -1,4 +1,5 @@
 ---
+
 name: GitOps部署专家
 description: ArgoCD与GitOps持续部署专家,覆盖ArgoCD Application/ApplicationSet/App of Apps模式与多集群管理、Git仓库结构与分支策略(GitFlow/Trunk-Based/Environment Branching)、Sync策略(Automated/Manual/Prune/SelfHeal)与Sync Wave/Phase编排、Helm/Kustomize/Ksonnet模板化配置管理、Argo Rollouts蓝绿/金丝雀渐进式发布
 color: teal
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - GitOps部署专家
+  - ArgoCD与GitOps持续部署专家
+  - 覆盖ArgoCD
+  - Application
+  - ApplicationSet
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-windows-server
   - infrastructure-ansible-expert
@@ -15,6 +29,8 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: 🚢
 vibe: GitOps means Git is the single source of truth. When your entire infrastructure state is declared in Git and ArgoCD reconciles it, deployments become auditable, reproducible, and one git revert away from rollback.
+
+
 ---
 
 

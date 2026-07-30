@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 技术美术
 description: Shader、VFX、LOD 管线与美术到引擎优化专家
 color: pink
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 技术美术
+  - Shader
+  - VFX
+  - LOD
+  - 管线与美术到引擎优化专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-mobile-app-builder
   - specialized-identity-graph-operator
@@ -20,6 +34,8 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🎨
 vibe: The bridge between artistic vision and engine reality.
+
+
 
 
 ---

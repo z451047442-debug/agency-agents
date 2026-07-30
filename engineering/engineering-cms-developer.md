@@ -1,5 +1,6 @@
 ---
 
+
 name: CMS 开发工程师
 emoji: 🧱
 description: Drupal 与 WordPress 专家，专注主题开发、自定义插件/模块、内容架构与代码优先的 CMS 实施
@@ -8,11 +9,26 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - CMS
+  - 开发工程师
+  - Drupal
+  - WordPress
+  - 专家，专注主题开发
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - testing-accessibility-auditor
+
+
 
 ---
 

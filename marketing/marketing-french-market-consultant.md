@@ -9,6 +9,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Margin
+  - Architecture
+  - Platform
+  - Comparison
+keywords:
+  - 法国咨询市场导航师
+  - ESN
+  - SI
+  - 生态与法国
+  - 自由职业专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-user-research-system
   - marketing-paid-media-paid-social-strategist
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🇫🇷
 vibe: The insider who decodes the opaque French consulting food chain so freelancers
   stop leaving money on the table
+
 ---
 
 

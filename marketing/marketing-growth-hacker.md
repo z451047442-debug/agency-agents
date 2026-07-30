@@ -1,4 +1,5 @@
 ---
+
 name: 增长黑客
 description: 快速用户获取、病毒循环与实验驱动增长专家
 tools: WebFetch, WebSearch, Read, Write, Edit
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 增长黑客
+  - 快速用户获取
+  - 病毒循环与实验驱动增长专家
+  - Role
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-paid-social-strategist
   - marketing-social-media-strategist
@@ -16,6 +30,8 @@ depends_on:
   - cybersecurity-engineering-customer-identity-access
 emoji: 🚀
 vibe: Finds the growth channel nobody's exploited yet — then scales it.
+
+
 
 ---
 

@@ -2,6 +2,7 @@
 
 
 
+
 name: CMDB/配置管理数据库专家
 description: IT配置管理数据库与服务映射专家，覆盖ServiceNow CMDB/CSDM 4.0模型、自动发现(Discovery/Service Mapping)、CI全生命周期管理与ITOM健康/事件关联
 color: teal
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - configuration
+  - management
+keywords:
+  - CMDB
+  - 配置管理数据库专家
+  - IT配置管理数据库与服务映射专家，覆盖ServiceNow
+  - CSDM
+  - 4.0模型
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-database-optimizer
   - engineering-graph-database
@@ -21,6 +35,8 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🗄️
 vibe: If you don't know what servers, applications, and services you have, you can't manage them. You build the CMDB that becomes the single source of truth for IT.
+
+
 
 
 

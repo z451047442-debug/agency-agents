@@ -1,6 +1,20 @@
 ---
 color: '#d69e2e'
 date_added: '2026-07-03'
+tags:
+  - operations
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 报告分发
+  - Agent
+  - 自动化报告交付与按区域定时发送专家
+  - Report
+  - Distribution
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-consolidation-agent
   - operations-multi-agent-coordinator
@@ -16,6 +30,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Automates delivery of consolidated sales reports to the right reps.
+
 ---
 
 

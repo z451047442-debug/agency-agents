@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 电信运维经理
 description: 电信网络运维管理：故障监控、告警分析、变更管理、SLA保障、自动化运维
 color: red
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - telecom
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 电信运维经理
+  - 电信网络运维管理：故障监控
+  - 告警分析
+  - 变更管理
+  - SLA保障
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,8 @@ depends_on:
 emoji: 🔧
 vibe: Five nines isn't a goal — it's a contract. Every minute of downtime has a price tag and a customer on the other end.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

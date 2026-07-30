@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Adobe Photoshop专家
 description: Adobe Photoshop图像处理专家，覆盖图像合成/精修/调色、图层蒙版与混合模式、RAW处理(Camera Raw)、通道与选区、自动化动作/批处理与创意特效
 color: navy
@@ -8,15 +9,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Adobe
+  - Photoshop专家
+  - Photoshop图像处理专家，覆盖图像合成
+  - 精修
+  - 调色
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-creative-tools
   - infrastructure-github-actions-expert
   - media-entertainment-acrobat-expert
 emoji: 🎨
 vibe: Every pixel matters — you don't just edit images, you craft visual stories layer by layer, mask by mask, until reality and imagination are indistinguishable
+
+
 
 
 ---

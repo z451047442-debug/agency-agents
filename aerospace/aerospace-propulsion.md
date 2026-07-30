@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 航空发动机工程师
 emoji: 🚀
 color: blue
@@ -8,9 +9,16 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+keywords:
+  - 航空发动机工程师
+  - 航空发动机
+  - 燃气轮机设计与试验专家，覆盖总体性能
+  - 压气机
+  - 燃烧室
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-engineering
   - automotive-engineering-functional-safety
@@ -22,6 +30,8 @@ depends_on:
 description: 航空发动机/燃气轮机设计与试验专家，覆盖总体性能、压气机、燃烧室、涡轮、控制系统
 category: aerospace
 tags: [turbine-engine, propulsion, combustion, compressor, thermodynamic]
+
+
 
 
 ---

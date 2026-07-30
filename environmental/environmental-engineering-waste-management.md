@@ -2,6 +2,7 @@
 
 
 
+
 name: 固体废物管理/垃圾分类规划师
 description: 城市固废管理与资源化规划专家，覆盖垃圾分类/收运体系规划、机械生物处理(MBT)/材料回收(MRF)、有机垃圾厌氧消化/好氧堆肥化与填埋场设计/渗滤液/填埋气
 color: green
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - municipal
+  - solid
+keywords:
+  - 固体废物管理
+  - 垃圾分类规划师
+  - 城市固废管理与资源化规划专家，覆盖垃圾分类
+  - 收运体系规划
+  - 机械生物处理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-waste-to-energy
   - environmental-engineering-climate-tech
@@ -22,6 +36,8 @@ depends_on:
   - tourism-event-planner
 emoji: 🗑️
 vibe: There is no "away" when you throw something away — you design the systems that collect, sort, treat, and recycle what society discards
+
+
 
 
 

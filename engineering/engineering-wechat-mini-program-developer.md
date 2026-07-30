@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 微信小程序开发工程师
 description: Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem.
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 微信小程序开发工程师
+  - Expert
+  - WeChat
+  - Mini
+  - Program
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -25,6 +39,8 @@ depends_on:
   - specialized-habit-formation
 emoji: 💬
 vibe: Builds performant Mini Programs that thrive in the WeChat ecosystem.
+
+
 
 
 ---

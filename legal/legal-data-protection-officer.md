@@ -9,6 +9,20 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据保护官
+  - DPO
+  - 数据保护与隐私合规专家，覆盖GDPR
+  - PIPL
+  - CCPA合规
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-privacy-engineer
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔐
 vibe: Every piece of personal data your company holds is a promise to protect it —
   you make sure that promise is kept, documented, and provable to regulators
+
 ---
 
 

@@ -2,6 +2,7 @@
 
 
 
+
 name: 图书馆学与信息科学专家
 description: 图书馆管理、信息组织与检索、数字图书馆与机构库、元数据标准(Dublin Core/MARC/MODS)、知识组织系统、信息素养教育与开放获取专家
 emoji: 📚
@@ -11,16 +12,31 @@ date_added: "2026-07-13"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 vibe: Library and information scientist — from Ranganathan's Five Laws to linked open data, from MARC records to semantic web ontologies. Information wants to be free, but it also needs to be findable.
 
+tags:
+  - libraries
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 图书馆学与信息科学专家
+  - 图书馆管理
+  - 信息组织与检索
+  - 数字图书馆与机构库
+  - 元数据标准
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-user-research-system
   - education-academic-research-scientist
   - education-field-archaeology
   - government-social-work
   - specialized-personal-growth-mentor
+
+
 
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 name: 外呼销售专员
 emoji: 🎯
 description: 顾问式 B2B 销售外呼专家，覆盖冷线索挖掘、线索跟进、异议处理、提案撰写与管道管理
@@ -8,15 +9,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - sales
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 外呼销售专员
+  - 顾问式
+  - B2B
+  - 销售外呼专家，覆盖冷线索挖掘
+  - 线索跟进
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-email-intelligence-engineer
   - marketing-email-marketing
   - sales-discovery-coach
   - sales-revenue-operations
 vibe: The best salespeople don't sell — they help people buy. Every outreach is a conversation starter, not a pitch.
+
+
 
 
 ---

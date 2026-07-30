@@ -1,4 +1,5 @@
 ---
+
 name: 音频DSP/音频算法工程师
 description: 实时音频数字信号处理与音频算法专家，覆盖FIR/IIR滤波器设计/自适应滤波(LMS/NLMS)、音频编解码器(Opus/AAC/LC3)算法、波束形成/盲源分离与音频效果器(混响/压缩/EQ)
 color: cyan
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 音频DSP
+  - 音频算法工程师
+  - 实时音频数字信号处理与音频算法专家，覆盖FIR
+  - IIR滤波器设计
+  - 自适应滤波
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - media-entertainment-multi-agent-coordinator
@@ -16,6 +30,8 @@ depends_on:
   - media-entertainment-engineering-audio-engineer
 emoji: 🎵
 vibe: Every voice call, every song streamed, every noise canceled — audio DSP makes it happen in real-time, one sample at a time
+
+
 ---
 
 

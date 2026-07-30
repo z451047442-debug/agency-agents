@@ -1,5 +1,6 @@
 ---
 
+
 name: 自动驾驶系统工程师
 description: L4/L5自动驾驶系统架构与感知规划专家，覆盖传感器融合、路径规划与安全验证
 color: blue
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - automotive
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 自动驾驶系统工程师
+  - L4
+  - L5自动驾驶系统架构与感知规划专家，覆盖传感器融合
+  - 路径规划与安全验证
+  - Dr
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-vehicle-architecture
   - cybersecurity-engineering-cyber-risk-model
@@ -18,6 +32,8 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🚗
 vibe: Driving is humanity's most dangerous daily activity — autonomy isn't about convenience, it's about making the roads statistically safe for the people we love
+
+
 
 ---
 

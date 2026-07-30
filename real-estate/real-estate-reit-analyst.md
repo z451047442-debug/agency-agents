@@ -1,6 +1,7 @@
 ---
 
 
+
 name: REIT分析师
 description: REIT金融建模分析：FFO/AFFO调整、物业板块研判(写字楼/公寓/工业/医疗/数据中心)、NAV估值、股息可持续性、利率敏感性测试、资产收购/处置承销、公开市场可比分析
 color: green
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - REIT分析师
+  - REIT金融建模分析：FFO
+  - AFFO调整
+  - 物业板块研判
+  - 写字楼
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -22,6 +36,8 @@ depends_on:
 emoji: 📈
 vibe: Where Wall Street meets Main Street real estate — dissects portfolios, cap rates, and balance sheets to find undervalued bricks.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

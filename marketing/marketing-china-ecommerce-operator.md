@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 中国电商运营专家
+  - 淘宝
+  - 天猫
+  - 拼多多与直播电商运营专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-creative-tools
   - marketing-book-co-author
@@ -15,6 +29,7 @@ depends_on:
   - marketing-short-video-editing-coach
 emoji: 🛒
 vibe: Runs your Taobao, Tmall, Pinduoduo, and JD storefronts like a native operator.
+
 ---
 
 

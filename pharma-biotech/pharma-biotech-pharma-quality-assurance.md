@@ -11,6 +11,14 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+keywords:
+  - 药品质量管理专家
+  - GMP质量管理体系专家，覆盖质量体系搭建
+  - 供应商审计
+  - 偏差
+  - CAPA
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -20,6 +28,7 @@ depends_on:
 description: GMP质量管理体系专家，覆盖质量体系搭建、供应商审计、偏差/CAPA、监管检查应对
 category: pharma-biotech
 tags: [GMP, quality-assurance, CAPA, audit, compliance]
+
 
 
 ---

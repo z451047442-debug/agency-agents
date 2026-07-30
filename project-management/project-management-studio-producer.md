@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 工作室制作人
 description: 高层编排、投资组合管理与多项目监督专家
 color: gold
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工作室制作人
+  - 高层编排
+  - 投资组合管理与多项目监督专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-cultural-intelligence-strategist
   - marketing-china-market-localization-strategist
@@ -22,6 +36,8 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🎬
 vibe: Aligns creative vision with business objectives across complex initiatives.
+
+
 
 
 ---

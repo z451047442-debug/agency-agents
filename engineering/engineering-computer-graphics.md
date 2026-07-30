@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - years
+  - real-time
+  - graphics
+keywords:
+  - 计算机图形
+  - 渲染工程师
+  - 实时渲染与计算机图形学专家，覆盖OpenGL
+  - Vulkan
+  - Metal
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-computer-vision-deep
   - engineering-build-release-engineer
@@ -15,6 +29,7 @@ depends_on:
 emoji: 🎮
 vibe: Every pixel on screen is a calculation — you write the code that transforms
   math into light, shadow, and texture at 60 frames per second
+
 ---
 
 

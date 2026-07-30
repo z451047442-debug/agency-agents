@@ -11,6 +11,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - localization
+  - Identity
+  - years
+  - translation
+  - quality
+keywords:
+  - 翻译审校与QA专家
+  - 翻译质量审校与评估专家，覆盖MQM
+  - LISA质量评估模型
+  - 语言QA测试
+  - 术语一致性
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -20,6 +34,7 @@ depends_on:
   - marketing-japan-market-expert
 emoji: ✅
 vibe: Translation isn't just about words — it's about whether the message lands in Tokyo the same way it lands in Toronto. You're the last line of defense before content goes global.
+
 
 
 ---

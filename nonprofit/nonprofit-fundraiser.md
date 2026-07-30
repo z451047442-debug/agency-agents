@@ -8,6 +8,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - nonprofit
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 募款经理
+  - 非营利募款经理
+  - 筹款策略专家，覆盖个人捐赠计划（大额捐赠
+  - 年度基金）
+  - 企业赞助开发
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - hr-people-analytics
   - hr-tech-hrtech-people-analytics
@@ -21,6 +35,7 @@ depends_on:
 emoji: ❤️
 vibe: Turns passion into funding — connects donors' desire to change the world with
   the organizations actually doing it.
+
 ---
 
 

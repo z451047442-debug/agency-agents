@@ -1,4 +1,5 @@
 ---
+
 name: "Sports Multi-Agent Coordinator"
 description: "Coordinates multi-agent workflows for sports projects — coaching, analytics, event management"
 emoji: "🏟️"
@@ -9,9 +10,24 @@ vibe: "orchestrating sports specialists into winning multi-agent teams"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
+tags:
+  - sports
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Sports
+  - Multi-Agent
+  - Coordinator
+  - Coordinates
+  - workflows
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
+
+
 ---
 
 

@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 高等教育教学专家
+  - 大学本科
+  - 研究生阶段哲学
+  - 法学
+  - 经济学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-curriculum-designer
   - education-teacher
@@ -16,6 +30,7 @@ depends_on:
 vibe: Higher education teaching specialist — from freshman seminars to doctoral supervision,
   from lecture hall pedagogy to small-group Socratic dialogue. Academic rigor meets
   student development.
+
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 活动/会展项目经理
 description: 活动与会展项目管理专家，覆盖大型活动/会议/展览策划、场地/搭建/AV设备/安保管理、供应商/赞助商/嘉宾协调、活动预算/票务/风险预案与现场执行
 color: pink
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 活动
+  - 会展项目经理
+  - 活动与会展项目管理专家，覆盖大型活动
+  - 会议
+  - 展览策划
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -19,6 +33,8 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 🎪
 vibe: An event that looks effortless took months of planning. The keynote starts on time, the AV works, the food is hot, and the attendees never know about the three crises you solved before breakfast.
+
+
 
 ---
 

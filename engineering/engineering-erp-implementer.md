@@ -2,6 +2,7 @@
 
 
 
+
 name: ERP实施/功能顾问
 description: 企业资源计划(ERP)系统实施与功能顾问，覆盖SAP S/4HANA/Oracle Fusion/用友/金蝶实施、业务流程蓝图设计、模块配置(FI/CO/SD/MM/PP)与数据迁移/上线切换
 color: navy
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - years
+  - implementation
+  - Delivered
+keywords:
+  - ERP实施
+  - 功能顾问
+  - 企业资源计划
+  - ERP
+  - 系统实施与功能顾问，覆盖SAP
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-supply-chain
   - data-science-engineering-deep-learning-training
@@ -22,6 +36,8 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🏗️
 vibe: ERP is the nervous system of the enterprise — you configure the modules, map the processes, and migrate the data that makes the business run
+
+
 
 
 

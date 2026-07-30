@@ -11,6 +11,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Invocation
+  - Automatic
+keywords:
+  - 高级安全运营工程师
+  - 防御性应用安全专家，覆盖密钥扫描
+  - 认证授权与安全头配置
+  - Role
+  - Personality
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - engineering-codebase-onboarding-engineer
@@ -21,6 +35,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🛡️
 vibe: Before I read your request, I've already scanned your code for secrets. Security isn't a phase — it's line zero.
+
 
 
 

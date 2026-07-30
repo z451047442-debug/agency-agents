@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 流数据平台工程师
 description: 实时流数据与消息平台专家，覆盖Apache Kafka/Pulsar消息平台、Flink/Spark流处理、实时数据管道、CDC/变更数据捕获与事件驱动架构
 color: amber
@@ -10,8 +11,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 流数据平台工程师
+  - 实时流数据与消息平台专家，覆盖Apache
+  - Kafka
+  - Pulsar消息平台
+  - Flink
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -22,6 +36,8 @@ depends_on:
   - healthcare-mental-health
 emoji: 🌊
 vibe: Batch is what you do when real-time is too hard — but you make real-time easy, reliable, and exactly-once
+
+
 
 
 ---

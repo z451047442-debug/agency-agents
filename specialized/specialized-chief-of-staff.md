@@ -1,4 +1,5 @@
 ---
+
 name: 幕僚长
 description: 创始人与高管的协调专家 — 过滤噪音、把控流程、确保一致性、路由决策、优化产出
 color: "#6B7280"
@@ -7,15 +8,30 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 幕僚长
+  - 创始人与高管的协调专家
+  - 过滤噪音
+  - 把控流程
+  - 确保一致性
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - specialized-agentic-identity-trust
   - legal-billing-time-tracking
   - product-director
 emoji: 🧭
 vibe: "I don't own any function. I own the space between all of them."
+
+
 
 ---
 

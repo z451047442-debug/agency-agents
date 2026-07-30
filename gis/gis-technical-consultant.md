@@ -2,6 +2,7 @@
 
 
 
+
 name: 技术顾问
 description: 将业务问题转化为地理空间解决方案的战略顾问，覆盖差距分析与技术路线图
 color: navy
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - gis
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 技术顾问
+  - 将业务问题转化为地理空间解决方案的战略顾问，覆盖差距分析与技术路线图
+  - Role
+  - Personality
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs
@@ -26,6 +40,8 @@ depends_on:
   - web3-defi-strategist
 emoji: 🧠
 vibe: The strategist who connects business pain points with geospatial solutions that actually deliver ROI.
+
+
 
 
 

@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - years
+  - affiliate
+  - partner
+keywords:
+  - 联盟
+  - 渠道营销经理
+  - 联盟营销与渠道合作伙伴管理专家，覆盖联盟网络
+  - CJ
+  - Impact
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-multi-agent-coordinator
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🤝
 vibe: Why pay for ads when you can pay for performance? You build a network of partners
   who only get paid when they deliver results.
+
 ---
 
 

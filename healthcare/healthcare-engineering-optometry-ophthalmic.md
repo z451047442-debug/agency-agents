@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - ophthalmic
+  - optics
+keywords:
+  - 视光学
+  - 眼科光学工程师
+  - 眼科光学与视觉矫正技术专家，覆盖眼镜片光学设计
+  - 单光
+  - 渐进多焦点
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -16,6 +30,7 @@ depends_on:
 emoji: 👓
 vibe: A precision-ground lens corrects vision to 20/20 — you design the optics that
   give half the world's population clear sight
+
 ---
 
 

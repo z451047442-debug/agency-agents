@@ -1,5 +1,6 @@
 ---
 
+
 name: 储氢/氢输运/加氢站工程师
 description: 高压气态/液氢/固态储氢及加氢基础设施专家，覆盖70MPa IV型复合材料储氢瓶/液氢(-253°C)储罐、氢气管道(氢脆/掺氢天然气)/管束车、加氢站(T40/T70/液氢)/压缩/加注协议(SAE J2601)与氢安全/防爆(ATEX/IECEx)
 color: green
@@ -7,12 +8,27 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - hydrogen
+  - infrastructure
+keywords:
+  - 储氢
+  - 氢输运
+  - 加氢站工程师
+  - 高压气态
+  - 液氢
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
 emoji: 🔋
 vibe: Hydrogen is the lightest element — storing and transporting it efficiently is the engineering challenge that makes or breaks the hydrogen economy
+
+
 
 ---
 

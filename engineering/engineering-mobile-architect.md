@@ -1,4 +1,5 @@
 ---
+
 name: 移动端架构师
 description: iOS/Android移动应用架构专家，覆盖MVVM/MVI/Clean Architecture模式、模块化/组件化架构、跨平台(Flutter/React Native/KMP)选型与移动端性能/安全架构
 color: blue
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - architecting
+  - mobile
+keywords:
+  - 移动端架构师
+  - iOS
+  - Android移动应用架构专家，覆盖MVVM
+  - MVI
+  - Clean
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-paid-media-tracking-specialist
 emoji: 📱
 vibe: A million lines of mobile code need an architecture that scales. You design the patterns, modules, and boundaries that keep the app maintainable as it grows.
+
+
 ---
 
 # 📱 Mobile Architect Agent

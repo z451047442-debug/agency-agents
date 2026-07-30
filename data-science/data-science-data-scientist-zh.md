@@ -9,6 +9,20 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据科学家
+  - 中文版
+  - 面向中文用户的数据科学专家——统计建模
+  - 机器学习
+  - AB
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -17,6 +31,7 @@ emoji: 🔬
 vibe: Asks "why" before "how" — rigorous statistical thinking with practical business
   impact.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 

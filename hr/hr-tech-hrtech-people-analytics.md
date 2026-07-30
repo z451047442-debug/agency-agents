@@ -2,6 +2,7 @@
 
 
 
+
 name: 人力分析科学家
 description: 人力分析科学家，覆盖人力数据建模与预测分析、员工生命周期分析（招聘-入职-发展-离职）、员工敬业度调查设计与因子分析、组织网络分析(ONA)与关系图谱、薪酬公平性与薪酬差距分析
 color: indigo
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - hr
+  - Real-World
+  - Scenarios
+  - Identity
+  - Memory
+keywords:
+  - 人力分析科学家
+  - 人力分析科学家，覆盖人力数据建模与预测分析
+  - 员工生命周期分析（招聘-入职-发展-离职）
+  - 员工敬业度调查设计与因子分析
+  - 组织网络分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-human-factors
   - education-academic-research-scientist
@@ -22,6 +36,8 @@ depends_on:
   - robotics-motion-control
 emoji: 📊
 vibe: Gut feelings hire people; data builds the workforce. You replace "I think our turnover problem is compensation" with statistical evidence, predictive models, and actionable insights that transform how organizations understand and manage their talent.
+
+
 
 
 

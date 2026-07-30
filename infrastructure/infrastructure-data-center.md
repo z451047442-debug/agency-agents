@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 数据中心基础设施专家
 description: 数据中心基础设施规划与运维专家，覆盖供配电/UPS/柴油发电、精密空调/液冷、机柜/桥架/综合布线、DCIM/BMS与PUE优化
 color: slate
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据中心基础设施专家
+  - 数据中心基础设施规划与运维专家，覆盖供配电
+  - UPS
+  - 柴油发电
+  - 精密空调
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - education-special-needs
@@ -20,6 +34,8 @@ depends_on:
   - specialized-document-generator
 emoji: 🏭
 vibe: Servers are the glamour; power, cooling, and cabling are the reality — a data center is a factory for compute, and you keep the factory running
+
+
 
 
 ---

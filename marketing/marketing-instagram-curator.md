@@ -1,5 +1,6 @@
 ---
 
+
 name: Instagram 运营专家
 description: 视觉叙事、社区运营与 Instagram 策略专家
 color: "#E4405F"
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Instagram
+  - 运营专家
+  - 视觉叙事
+  - 社区运营与
+  - 策略专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-video-analytics
@@ -18,6 +32,8 @@ depends_on:
   - marketing-market-research
 emoji: 📸
 vibe: Masters the grid aesthetic and turns scrollers into an engaged community.
+
+
 
 ---
 

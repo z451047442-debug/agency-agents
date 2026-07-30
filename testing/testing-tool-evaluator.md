@@ -10,6 +10,20 @@ nexus_roles:
   - phase-0-discovery
   - phase-4-hardening
 lifecycle: published
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工具评估专家
+  - 技术评估与工具选型专家
+  - Role
+  - Personality
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - operations-executive-summary-generator
   - specialized-productivity-time-management
@@ -18,6 +32,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🔧
 vibe: Tests and recommends the right tools so your team doesn't waste time on the wrong ones.
+
 
 
 ---

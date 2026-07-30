@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 临床试验项目经理
 emoji: 💊
 color: indigo
@@ -8,9 +9,16 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+keywords:
+  - 临床试验项目经理
+  - Ⅰ-Ⅳ期临床试验运营管理专家，覆盖中心筛选
+  - 患者入组
+  - 数据管理
+  - GCP合规
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -20,6 +28,8 @@ depends_on:
 description: Ⅰ-Ⅳ期临床试验运营管理专家，覆盖中心筛选、患者入组、数据管理、GCP合规
 category: pharma-biotech
 tags: [clinical-trials, CRO-management, GCP, patient-recruitment, data-cleaning]
+
+
 
 
 

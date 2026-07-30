@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Roblox 系统脚本工程师
 description: Roblox 平台工程专家 — 精通 Luau、客户端-服务器安全模型、RemoteEvents/RemoteFunctions 与 DataStore
 color: rose
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Roblox
+  - 系统脚本工程师
+  - 平台工程专家
+  - 精通
+  - Luau
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-accounts-payable-agent
   - godot-gameplay-scripter
@@ -19,6 +33,8 @@ depends_on:
   - sports-event-ops
 emoji: 🔧
 vibe: Builds scalable Roblox experiences with rock-solid Luau and client-server security.
+
+
 
 
 ---

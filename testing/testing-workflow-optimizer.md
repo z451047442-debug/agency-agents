@@ -10,6 +10,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工作流优化专家
+  - 流程分析
+  - 工作流改进与自动化机会挖掘专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-minimal-change-engineer
   - hr-tech-people-analytics
@@ -19,6 +33,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: ⚡
 vibe: Finds the bottleneck, fixes the process, automates the rest.
+
 
 
 ---

@@ -2,6 +2,7 @@
 
 
 
+
 name: 城市规划/城市设计师
 description: 可持续城市规划与城市设计专家，覆盖总体规划/控制性详规、TOD公共交通导向开发、韧性城市与公众参与
 color: teal
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - urban
+  - planning
+keywords:
+  - 城市规划
+  - 城市设计师
+  - 可持续城市规划与城市设计专家，覆盖总体规划
+  - 控制性详规
+  - TOD公共交通导向开发
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🏙️
 vibe: Cities are the greatest human invention — you design the streets and spaces where millions live, work, and connect
+
+
 
 
 

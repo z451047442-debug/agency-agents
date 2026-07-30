@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 医疗健康总经理
 description: 医疗健康领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行
 color: crimson
@@ -10,18 +11,33 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "🏥"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Clinical
+  - Domain
+keywords:
+  - 医疗健康总经理
+  - 医疗健康领域全面经营管理者，覆盖业务运营
+  - 财务绩效
+  - 团队建设
+  - 客户关系与战略执行
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - healthcare-director
   - legal-document-review
   - legal-general-manager
   - specialized-customer-success-manager
+
+
 
 
 

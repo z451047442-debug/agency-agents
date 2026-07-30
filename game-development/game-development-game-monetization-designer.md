@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 游戏变现设计师
 description: 游戏经济与变现设计专家，覆盖免费+内购(F2P)经济系统、通行证/Battle Pass设计、订阅模型、广告变现与玩家LTV优化
 color: amber
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 游戏变现设计师
+  - 游戏经济与变现设计专家，覆盖免费+内购
+  - F2P
+  - 经济系统
+  - 通行证
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-knowledge-management
   - data-science-engineering-language-model-nlp
@@ -19,6 +33,8 @@ depends_on:
   - game-development-engineering-video-game-backend
 emoji: 💰
 vibe: Monetization isn't about extracting money — it's about designing exchanges of value that players feel good about, over and over
+
+
 
 
 ---

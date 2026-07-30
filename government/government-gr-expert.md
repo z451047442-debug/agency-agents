@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 政府关系专家
 description: 政策沟通、政企协调、行业监管与公共事务专家
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Domain
+  - Expertise
+keywords:
+  - 政府关系专家
+  - 政策沟通
+  - 政企协调
+  - 行业监管与公共事务专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - government-digital-presales-consultant
@@ -20,6 +34,8 @@ depends_on:
 emoji: 🏛️
 vibe: Navigates the complex intersection of business and government with strategic precision.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

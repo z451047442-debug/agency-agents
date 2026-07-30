@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - elite
+  - sports
+keywords:
+  - 体育科学
+  - 运动表现分析师
+  - 竞技体育科学与运动表现数据分析专家，覆盖运动员GPS
+  - 惯性
+  - 生理数据采集分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The difference between gold and fourth place is often 0.1% — you find that 0.1%
   in the data, in the biomechanics, in the training load optimization
+
 ---
 
 

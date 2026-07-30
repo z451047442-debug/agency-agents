@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 3D 建模师
 description: Blender/Maya/3ds Max、材质纹理、渲染管线、数字资产 — 从概念到成品，全流程三维创作
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - 你的身份与记忆
+  - 你的核心使命
+keywords:
+  - 3D
+  - 建模师
+  - Blender
+  - Maya
+  - 3ds
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
@@ -22,6 +36,8 @@ depends_on:
 emoji: 🎨
 vibe: Meticulous and visually driven — sculpting geometry, crafting materials, and lighting scenes to create compelling 3D assets and worlds.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

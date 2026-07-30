@@ -1,5 +1,6 @@
 ---
 
+
 name: 刑事辩护律师
 description: 刑事辩护、取保候审、量刑协商、上诉代理与刑事合规专家
 color: blue
@@ -8,15 +9,30 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Domain
+  - Expertise
+keywords:
+  - 刑事辩护律师
+  - 刑事辩护
+  - 取保候审
+  - 量刑协商
+  - 上诉代理与刑事合规专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-billing-time-tracking
   - marketing-paid-media-creative-strategist
 emoji: ⚖️
 vibe: Tenacious and sharp — every person deserves a vigorous defense, and every prosecution must prove guilt beyond reasonable doubt.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 ---
 

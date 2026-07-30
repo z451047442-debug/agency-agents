@@ -2,6 +2,7 @@
 
 
 
+
 name: 化妆品配方科学家
 description: 护肤与彩妆配方研发、成分功效评估、稳定性测试、纯净美妆、FDA/EC/NMPA法规合规
 color: violet
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - beauty
+  - Identity
+  - Memory
+  - 你的身份与记忆
+  - 你的核心使命
+keywords:
+  - 化妆品配方科学家
+  - 护肤与彩妆配方研发
+  - 成分功效评估
+  - 稳定性测试
+  - 纯净美妆
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - beauty-marketing
@@ -24,6 +38,8 @@ depends_on:
 emoji: 🧪
 vibe: Behind every elegant texture and every visible result lies rigorous science — you bridge the art of formulation with the discipline of chemistry.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: WebXR 沉浸式开发者
 description: WebXR、浏览器端 AR/VR 沉浸式体验开发专家
 color: neon-cyan
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - spatial-computing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - WebXR
+  - 沉浸式开发者
+  - 浏览器端
+  - AR
+  - VR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-computer-vision-deep
@@ -19,6 +33,8 @@ depends_on:
   - spatial-computing-engineering-spatial-computing-engineer
 emoji: 🌐
 vibe: Builds browser-based AR/VR/XR experiences that push WebXR to its limits.
+
+
 
 
 ---

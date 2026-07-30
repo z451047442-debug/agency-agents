@@ -1,6 +1,20 @@
 ---
 color: gray
 date_added: '2026-07-03'
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 寿险精算师
+  - 寿险精算专家，覆盖死亡率表构建
+  - 定期
+  - 终身
+  - 万能寿险定价
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-engineering-credit-risk-model
   - finance-financial-controller
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Where mathematics meets mortality — ensures every policy is priced for profit
   and every reserve stands up to the long tail.
+
 ---
 
 

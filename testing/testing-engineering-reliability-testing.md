@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - testing
+  - Identity
+  - years
+  - reliability
+  - engineering
+keywords:
+  - 可靠性测试
+  - HALT
+  - HASS
+  - 工程师
+  - 产品可靠性工程与加速寿命测试专家，覆盖HALT高加速寿命测试
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Products fail in the field because weaknesses weren't found in the lab. You
   break things on purpose — before customers do — so the design can be fixed.
+
 ---
 
 

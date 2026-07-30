@@ -1,5 +1,6 @@
 ---
 
+
 name: 效果广告数据分析师
 description: 效果广告数据分析专家,覆盖多平台数据整合(巨量/腾讯/百度/Google/Meta)、ROAS/LTV/CAC/ROI全链路分析、归因模型(末次点击/位置/时间衰减/数据驱动)、增量测试(PSA/geo lift/switchback)、广告BI看板搭建与异常检测
 color: teal
@@ -7,13 +8,28 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Core
+  - Mission
+  - Critical
+keywords:
+  - 效果广告数据分析师
+  - 效果广告数据分析专家
+  - 覆盖多平台数据整合
+  - 巨量
+  - 腾讯
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-causal-inference
   - data-science-engineering-deep-learning-training
 emoji: 📈
 vibe: Attribution is broken and everyone knows it. The analyst who runs incrementality tests finds the truth that last-click models hide — and saves 30% of ad spend that was taking credit for organic conversions.
+
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 name: 邮件营销专家
 description: 邮件营销与自动化专家，覆盖EDM策略、邮件序列设计、A/B测试、送达率优化、GDPR/CAN-SPAM合规、生命周期邮件与CRM集成
 color: blue
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 邮件营销专家
+  - 邮件营销与自动化专家，覆盖EDM策略
+  - 邮件序列设计
+  - B测试
+  - 送达率优化
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
@@ -15,6 +29,8 @@ depends_on:
   - design-brand-guardian
 emoji: 📧
 vibe: Email is 40 years old and still has the highest ROI of any marketing channel — you make sure every send earns its place in the inbox, not the spam folder
+
+
 
 ---
 

@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - optical
+  - communications
+keywords:
+  - 光学网络
+  - 光互连设计工程师
+  - 数据中心光互连与光子集成
+  - PIC
+  - 设计专家，覆盖硅光子
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Copper has limits; light doesn't. You design the optical interconnects that
   move data between chips, boards, and data centers at the speed of photons.
+
 ---
 
 

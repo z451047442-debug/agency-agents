@@ -12,6 +12,20 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 故障响应指挥官
+  - 事件管理
+  - 故障复盘与值班应急专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-accounts-payable-agent
   - hr-tech-people-analytics
@@ -27,6 +41,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🚨
 vibe: Turns production chaos into structured resolution.
+
 
 
 ---

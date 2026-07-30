@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 财务分析师
+  - 专家级财务分析师，专注财务建模
+  - 预测
+  - 情景分析与数据驱动决策
+  - Morgan
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Turns spreadsheets into strategy — every number tells a story, every model drives
   a decision.
+
 ---
 
 

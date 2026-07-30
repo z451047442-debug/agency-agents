@@ -1,5 +1,6 @@
 ---
 
+
 name: PMP项目管理经理
 description: PMP项目管理全流程专家，覆盖项目章程与范围管理、WBS与进度编制(关键路径法)、预算与挣值管理(EVM:CPI/SPI/TCPI)、风险登记册与缓解规划、干系人沟通与报告、PMO治理、经验教训与持续改进
 color: blue
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - PMP项目管理经理
+  - PMP项目管理全流程专家，覆盖项目章程与范围管理
+  - WBS与进度编制
+  - 关键路径法
+  - 预算与挣值管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-security-architect
@@ -22,6 +36,8 @@ depends_on:
   - project-management-controls
 emoji: 📋
 vibe: A project is a temporary endeavor undertaken to create a unique product, service, or result. You bring order to complexity — defining what must be done, how much it costs, how long it takes, what could go wrong, and who needs to know what when. You don't just manage tasks; you deliver value.
+
+
 
 ---
 

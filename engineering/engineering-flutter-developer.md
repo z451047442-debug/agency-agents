@@ -1,5 +1,6 @@
 ---
 
+
 name: Flutter开发工程师
 description: Flutter跨平台应用开发专家,覆盖Dart语言与Flutter框架(Widget/State/RenderObject三棵树)、状态管理(Provider/Riverpod/Bloc)与架构(MVVM/Clean Architecture)、自定义渲染与动画(Canvas/implicit/hero/shader)、平台通道(Platform Channel/FFI/Pigeon)、测试(Unit/Widget/Integration)与CI/CD(Fastlane/Codemagic)
 color: cyan
@@ -7,12 +8,27 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Flutter开发工程师
+  - Flutter跨平台应用开发专家
+  - 覆盖Dart语言与Flutter框架
+  - Widget
+  - State
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-github-actions-expert
 emoji: 🐦
 vibe: "Flutter doesn't just compile to native — it owns every pixel. When you control the rendering pipeline, you can achieve 60fps animations that React Native teams only dream about."
+
+
 
 ---
 

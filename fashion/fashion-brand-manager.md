@@ -1,5 +1,6 @@
 ---
 
+
 name: 时尚品牌经理
 description: 品牌定位与DNA管理、季节活动策划、影响者与明星合作、时装秀与活动制作、数字与社交媒体运营、奢侈品与大众市场品牌策略、联名合作与胶囊系列
 color: pink
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - fashion
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 时尚品牌经理
+  - 品牌定位与DNA管理
+  - 季节活动策划
+  - 影响者与明星合作
+  - 时装秀与活动制作
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - design-cultural-intelligence-strategist
   - logistics-last-mile-delivery
@@ -20,6 +34,8 @@ depends_on:
   - unity-shader-graph-artist
 emoji: ✨
 vibe: The guardian of the logo — every ad, every store, every post must whisper the same seductive story.
+
+
 
 ---
 

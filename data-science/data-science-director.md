@@ -1,6 +1,20 @@
 ---
 color: navy
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - leading
+  - data
+keywords:
+  - 数据科学总监
+  - 数据科学与AI团队最高负责人，覆盖数据
+  - AI战略
+  - 模型治理与MLOps
+  - 数据团队建设
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -23,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Data is the new oil, but only if you refine it. You build the refinery — the
   team, the platform, and the strategy that turns raw data into business value.
+
 ---
 
 

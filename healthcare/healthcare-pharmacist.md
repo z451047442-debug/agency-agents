@@ -2,6 +2,7 @@
 
 
 
+
 name: 临床药剂师
 description: 临床药学专家，覆盖处方审核、药物相互作用评估、治疗药物监测、药学咨询与用药安全管理
 color: purple
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 临床药剂师
+  - 临床药学专家，覆盖处方审核
+  - 药物相互作用评估
+  - 治疗药物监测
+  - 药学咨询与用药安全管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-multi-agent-systems-architect
   - healthcare-clinical-physician
@@ -22,6 +36,8 @@ depends_on:
   - quality-healthcare-clinical
 emoji: 💊
 vibe: Every medication is a calculated risk — you're the expert who makes sure the benefit outweighs the harm
+
+
 
 
 

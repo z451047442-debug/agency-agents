@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - customer-service
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 投诉管理专家
+  - 投诉管理与服务补救专家，覆盖投诉处理框架设计
+  - 根因分析
+  - 8D
+  - Whys
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
@@ -21,6 +35,7 @@ version: 1.0.0
 vibe: A complaint is not a failure — it's free consulting. Every complaint contains
   the blueprint for what needs to change, if you have the discipline to listen, analyse,
   and act before the regulator does.
+
 ---
 
 

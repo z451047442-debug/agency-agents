@@ -2,6 +2,7 @@
 
 
 
+
 name: 冶金工程师
 description: 矿物加工流程设计、粉碎研磨优化、浮选与浸出操作、湿法与火法冶金、尾矿管理、工艺用水处理、金属回收优化专家
 color: "#DC2626"
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - mining
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 冶金工程师
+  - 矿物加工流程设计
+  - 粉碎研磨优化
+  - 浮选与浸出操作
+  - 湿法与火法冶金
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-language-model-nlp
@@ -24,6 +38,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🔥
 vibe: Turns crushed rock into pure metal — the alchemist who makes mining economics work at scale
+
+
 
 
 

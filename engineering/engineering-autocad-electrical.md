@@ -1,5 +1,6 @@
 ---
 
+
 name: AutoCAD Electrical专家
 description: AutoCAD Electrical电气控制系统设计专家，覆盖原理图设计、PLC I/O、接线图、面板布局、端子排管理与自动报表生成
 emoji: ⚡
@@ -8,13 +9,28 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 vibe: Electrical controls design specialist — intelligent schematic symbols, auto-incrementing wire numbers, and BOM reports that actually match what's in the panel.
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AutoCAD
+  - Electrical专家
+  - Electrical电气控制系统设计专家，覆盖原理图设计
+  - PLC
+  - 接线图
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - specialized-identity-graph-operator
   - unity-editor-tool-developer
+
+
 ---
 
 

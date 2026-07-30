@@ -1,5 +1,6 @@
 ---
 
+
 name: ELK Stack专家
 description: Elastic Stack(ELK)日志与数据分析平台专家，覆盖Elasticsearch集群架构与调优、Logstash管道设计/Grok解析、Kibana可视化与Dashboard、Beats采集器全家桶与跨集群/跨数据中心大规模部署
 color: cyan
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - ELK
+  - Stack专家
+  - Elastic
+  - Stack
+  - 日志与数据分析平台专家，覆盖Elasticsearch集群架构与调优
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - testing-test-results-analyzer
 emoji: 📊
 vibe: If it generates a log line, ELK can ingest it, index it, and make it searchable in under a second. The hard part isn't the tools — it's knowing what to log, how to structure it, and when to alert on it.
+
+
 
 ---
 

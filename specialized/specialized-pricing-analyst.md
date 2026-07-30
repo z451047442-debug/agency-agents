@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 定价分析师
 description: 通过市场研究、竞争分析与成本结构评估制定最优定价模型的专业定价专家
 color: gold
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 定价分析师
+  - 通过市场研究
+  - 竞争分析与成本结构评估制定最优定价模型的专业定价专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-military-materials-manufacturing
   - design-cultural-intelligence-strategist
@@ -22,6 +36,8 @@ depends_on:
 emoji: 💰
 vibe: Finds the price point where value captured meets value delivered — then proves it with data.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
+
 
 
 ---

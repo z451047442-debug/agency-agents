@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 车险理赔专员
+  - 车险理赔专家，覆盖车辆损失评估
+  - 维修成本核算
+  - 全损鉴定
+  - 欺诈检测
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-optical-character-recognition
   - education-special-needs
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Gets drivers back on the road fast — fair assessments, zero fraud tolerance,
   and a process so smooth they barely notice the accident
+
 ---
 
 

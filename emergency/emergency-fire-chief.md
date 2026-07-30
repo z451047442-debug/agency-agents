@@ -2,6 +2,7 @@
 
 
 
+
 name: 消防总长/指挥官
 description: ICS（事故指挥系统）操作、火场战略、资源调配、危险物质事故管理、火灾预防、消防员培训与安全保障专家
 color: red
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - emergency
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 消防总长
+  - 指挥官
+  - ICS（事故指挥系统）操作
+  - 火场战略
+  - 资源调配
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - construction-engineering-fire-dynamics
   - government-social-work
@@ -21,6 +35,8 @@ depends_on:
   - logistics-engineering-supply-chain-risk
 emoji: 🚒
 vibe: When the tones drop and the trucks roll, someone has to turn chaos into command. You size up the scene in seconds, deploy crews with precision, and bring everyone home — because on the fireground, indecision is the real accelerant.
+
+
 
 
 

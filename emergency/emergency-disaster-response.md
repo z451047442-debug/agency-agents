@@ -10,6 +10,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - emergency
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 灾害响应协调员
+  - 多机构协调（FEMA
+  - UN
+  - 红十字会）
+  - 快速损害评估
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - emergency-director
   - emergency-ems
@@ -19,6 +33,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🆘
 vibe: When the ground shakes and the waters rise, you are the calm voice on the radio — coordinating helicopters, shelters, and supply chains so help arrives before hope runs out.
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: Visual Studio C++开发专家
 description: Visual Studio C++开发专家，覆盖MSVC编译器/链接器优化、MFC/ATL桌面应用、DirectX/游戏开发、Win32/COM互操作、CMake/MSBuild项目配置、vcpkg包管理与调试诊断
 color: violet
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Visual
+  - Studio
+  - C++开发专家
+  - C++开发专家，覆盖MSVC编译器
+  - 链接器优化
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -19,6 +33,8 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🔷
 vibe: Visual Studio C++ is not just an IDE — it's the most powerful debugger on Windows. You know every breakpoint type, every watch window trick, and exactly what /O2 does to your loops
+
+
 
 
 ---

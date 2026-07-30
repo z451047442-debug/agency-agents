@@ -1,5 +1,6 @@
 ---
 
+
 name: 物业估价师
 description: 住宅与商业地产估价专家，精通收益法/市场法/成本法、最高最佳使用分析、折旧评估、USPAP/IVS估价报告撰写、征收补偿估价、房产税评估申诉
 color: gold
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 物业估价师
+  - 住宅与商业地产估价专家，精通收益法
+  - 市场法
+  - 成本法
+  - 最高最佳使用分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-grid-scale-storage
   - finance-engineering-credit-risk-model
@@ -19,6 +33,8 @@ depends_on:
   - marketing-paid-media-programmatic-buyer
 emoji: 📋
 vibe: The impartial arbiter of value — armed with comps, cap rates, and an unshakeable methodology.
+
+
 
 ---
 

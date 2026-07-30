@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - biometric
+  - systems
+keywords:
+  - 生物识别
+  - 身份认证工程师
+  - 生物特征识别与身份认证技术专家，覆盖指纹
+  - 人脸
+  - 虹膜
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cybersecurity-risk
   - finance-engineering-credit-risk-model
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔐
 vibe: Your face, your fingerprint, your voice — they're your password now. You build
   the systems that verify identity using the unique characteristics of the human body.
+
 ---
 
 

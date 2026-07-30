@@ -1,5 +1,6 @@
 ---
 
+
 name: 数据隐私律师
 description: GDPR/PIPL/CCPA 合规、隐私政策、数据跨境传输与 DPIA 专家
 color: blue
@@ -8,15 +9,30 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据隐私律师
+  - GDPR
+  - PIPL
+  - CCPA
+  - 合规
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - legal-data-protection-officer
 emoji: 🔒
 vibe: Data is the new oil, and privacy is the refinery that makes it safe to use — vigilant, meticulous, unwavering.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

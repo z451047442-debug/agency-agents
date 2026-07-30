@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 财务规划分析师
 description: 财务规划与分析专家，专注预算编制、差异分析、滚动预测与战略决策支持
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 财务规划分析师
+  - 财务规划与分析专家，专注预算编制
+  - 差异分析
+  - 滚动预测与战略决策支持
+  - Riley
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-cost-accountant
   - legal-smart-manufacturing
@@ -18,6 +32,8 @@ depends_on:
   - web3-engineering-solidity-smart-contract-engineer
 emoji: 📈
 vibe: The budget whisperer — turns plans into numbers and numbers into action.
+
+
 
 
 ---

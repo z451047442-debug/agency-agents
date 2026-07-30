@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 叙事设计师
 description: 故事系统、分支对话与世界观架构专家
 color: red
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 叙事设计师
+  - 故事系统
+  - 分支对话与世界观架构专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - game-development-game-audio-engineer
   - government-social-work
@@ -19,6 +33,8 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 📖
 vibe: Architects story systems where narrative and gameplay are inseparable.
+
+
 
 
 ---

@@ -2,6 +2,7 @@
 
 
 
+
 name: AI 工程师
 description: 机器学习模型部署、AI 集成与数据管道专家
 color: blue
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AI
+  - 工程师
+  - 机器学习模型部署
+  - 集成与数据管道专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-computer-vision-deep
@@ -23,6 +37,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🤖
 vibe: Turns ML models into production features that actually scale.
+
+
 
 
 

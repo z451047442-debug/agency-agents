@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 网络运维工程师
+  - 网络运维与排障专家，覆盖路由器
+  - 交换机
+  - 防火墙日常运维
+  - 故障排查
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-incident-response
   - education-special-needs
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The network is down only when you can't fix it — and you always fix it, calmly,
   methodically, at 3AM if needed
+
 ---
 
 

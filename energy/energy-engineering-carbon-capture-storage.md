@@ -1,5 +1,6 @@
 ---
 
+
 name: 碳捕获利用封存(CCUS)工程师
 description: 燃烧后/燃烧前/富氧燃烧CO2捕集与地质封存专家，覆盖胺基/膜/固体吸附/钙循环CO2捕集、CO2压缩/管道/注入(酸性气体/超临界)、咸水层/油气藏/EOR CO2地质封存与MRV/碳信用方法学
 color: teal
@@ -7,12 +8,27 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - carbon
+  - capture
+keywords:
+  - 碳捕获利用封存
+  - CCUS
+  - 工程师
+  - 燃烧后
+  - 燃烧前
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
 emoji: 🏭
 vibe: We can't stop burning fossil fuels overnight — CCUS captures the CO2 before it reaches the atmosphere, buying time for the energy transition
+
+
 
 ---
 

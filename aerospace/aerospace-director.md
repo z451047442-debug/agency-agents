@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 航空航天项目总监
 description: 航空航天项目/事业部最高负责人，覆盖飞行器/卫星/系统开发策略、适航认证/安全性管理、供应链/制造管理与政府合同
 color: navy
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - aerospace
+  - Identity
+  - years
+  - leading
+  - programs
+keywords:
+  - 航空航天项目总监
+  - 航空航天项目
+  - 事业部最高负责人，覆盖飞行器
+  - 卫星
+  - 系统开发策略
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
@@ -24,6 +38,8 @@ depends_on:
   - marketing-customer-lifecycle
 emoji: 🚀
 vibe: In aerospace, failure is not an option — literally. You lead programs where a single error can cost lives and billions of dollars.
+
+
 
 
 ---

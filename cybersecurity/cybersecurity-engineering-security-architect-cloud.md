@@ -9,6 +9,20 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Communication
+  - Professional
+  - Scope
+  - Safeguards
+keywords:
+  - 云安全架构师
+  - 云计算平台安全架构专家，覆盖AWS
+  - Azure
+  - GCP
+  - 阿里云安全架构
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-engineering-credit-risk-model
@@ -18,6 +32,7 @@ emoji: ☁️
 vibe: The cloud is just someone else's computer — but with a thousand new ways to
   misconfigure it. You design the guardrails that keep data safe in the shared responsibility
   model.
+
 ---
 
 # ☁️ Cloud Security Architect Agent

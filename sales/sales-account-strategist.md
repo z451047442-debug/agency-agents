@@ -1,5 +1,6 @@
 ---
 
+
 name: 客户策略师
 description: 拓客留存、QBR 与利益相关者地图专家
 color: "#2E7D32"
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - sales
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 客户策略师
+  - 拓客留存
+  - QBR
+  - 与利益相关者地图专家
+  - Role
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
 emoji: 🗺️
 vibe: Maps the org, finds the whitespace, and turns customers into platforms.
+
+
 
 ---
 

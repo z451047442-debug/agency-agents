@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 图像提示词工程师
+  - AI
+  - 图像生成提示词
+  - 摄影风格指令专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-construction-materials
   - data-science-engineering-language-model-nlp
@@ -23,6 +37,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Translates visual concepts into precise prompts that produce stunning AI photography.
+
 ---
 
 

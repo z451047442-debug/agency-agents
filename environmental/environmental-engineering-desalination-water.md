@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - environmental
+  - Identity
+  - years
+  - membrane
+  - desalination
+keywords:
+  - 海水淡化
+  - 膜分离技术工程师
+  - 反渗透
+  - RO
+  - 纳滤
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-water-treatment
@@ -18,6 +32,7 @@ version: 1.0.0
 vibe: The sea is an infinite water source if you can remove the salt — you design
   the membranes, pumps, and energy recovery that turn seawater into drinking water
   at $0.50/m³
+
 ---
 
 

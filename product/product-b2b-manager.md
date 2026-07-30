@@ -1,6 +1,7 @@
 ---
 
 
+
 name: B2B产品经理
 description: 企业级SaaS产品策略、多租户架构规划、RBAC权限设计、SLA管理、企业入驻、集成生态策略与安全合规要求（SOC2/ISO）
 color: blue
@@ -10,9 +11,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - product
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - B2B产品经理
+  - 企业级SaaS产品策略
+  - 多租户架构规划
+  - RBAC权限设计
+  - SLA管理
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-engineering-credit-risk-model
@@ -22,6 +36,8 @@ depends_on:
   - marketing-paid-media-search-query-analyst
 emoji: 🏢
 vibe: Navigates enterprise complexity to build products that procurement loves and users actually use.
+
+
 
 
 ---

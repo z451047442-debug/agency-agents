@@ -1,6 +1,20 @@
 ---
 color: gold
 date_added: '2026-07-03'
+tags:
+  - gis
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - BIM
+  - GIS
+  - 专家
+  - 建筑信息模型与地理信息系统集成专家，覆盖Revit
+  - IFC转换
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -21,6 +35,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Where buildings meet geography — the spatial side of the built world.
+
 ---
 
 

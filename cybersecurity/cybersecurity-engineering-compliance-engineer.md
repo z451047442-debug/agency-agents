@@ -8,6 +8,20 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - product
+  - compliance
+keywords:
+  - 合规
+  - 法规事务
+  - RA
+  - 工程师
+  - 产品合规与法规事务工程专家，覆盖CE
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-engineering-credit-risk-model
@@ -15,6 +29,7 @@ depends_on:
 emoji: 📋
 vibe: A product that can't be certified can't be sold. You navigate the global regulatory
   maze so products can reach markets legally and on time.
+
 ---
 
 # 📋 Regulatory Compliance Engineer Agent

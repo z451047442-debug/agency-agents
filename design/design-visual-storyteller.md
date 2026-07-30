@@ -1,5 +1,6 @@
 ---
 
+
 name: 视觉叙事师
 description: 视觉叙事、多媒体内容与品牌故事专家
 color: purple
@@ -8,8 +9,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 视觉叙事师
+  - 视觉叙事
+  - 多媒体内容与品牌故事专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
@@ -17,6 +31,8 @@ depends_on:
   - marketing-short-video-editing-coach
 emoji: 🎬
 vibe: Transforms complex information into visual narratives that move people.
+
+
 
 
 ---

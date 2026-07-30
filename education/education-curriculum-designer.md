@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 课程设计师
+  - 课程与教学设计专家，覆盖学习目标分析
+  - 课程体系构建
+  - 评估设计
+  - 教学资源开发与教育技术应用
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - data-science-engineering-deep-learning-training
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every great learning experience starts with one question — what should the learner
   be able to do that they couldn't do before?
+
 ---
 
 

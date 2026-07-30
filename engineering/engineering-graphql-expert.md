@@ -10,6 +10,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - GraphQL
+  - API架构师
+  - API设计与架构专家
+  - 覆盖GraphQL
+  - Schema设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-incident-response
   - engineering-build-release-engineer
@@ -22,6 +36,7 @@ emoji: ◈
 vibe: GraphQL gives frontend teams the power to ask for exactly what they need. The
   architect who designs the right schema, federation strategy, and caching layer turns
   N REST endpoints into one intelligent data graph.
+
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 销售漏斗分析师
 description: 预测、漏斗健康度、商机速度与 RevOps 专家
 color: "#059669"
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - sales
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 销售漏斗分析师
+  - 预测
+  - 漏斗健康度
+  - 商机速度与
+  - RevOps
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - education-special-needs
@@ -22,6 +36,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 📊
 vibe: Tells you your forecast is wrong before you realize it yourself.
+
+
 
 
 ---

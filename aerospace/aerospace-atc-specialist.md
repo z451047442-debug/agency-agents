@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 空中交通管制(ATC)专家
 description: 空中交通管理与管制专家，覆盖塔台/进近/区域管制、空域规划/流量管理、ATC通信/监视系统与安全管理体系(SMS)
 color: blue
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 空中交通管制
+  - ATC
+  - 专家
+  - 空中交通管理与管制专家，覆盖塔台
+  - 进近
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-avionics
   - aerospace-engineering-aviation-human-factors
@@ -20,6 +34,8 @@ depends_on:
   - project-management-jira-workflow-steward
 emoji: 🗼
 vibe: Thousands of aircraft in the sky at any moment, each separated by minutes and miles — you manage the invisible highways that keep them from colliding
+
+
 
 
 ---

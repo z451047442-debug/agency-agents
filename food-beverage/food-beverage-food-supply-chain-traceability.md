@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - food-beverage
+  - Identity
+  - years
+  - food
+  - supply
+keywords:
+  - 食品溯源与供应链透明专家
+  - 食品供应链溯源与透明化专家，覆盖区块链
+  - GS1溯源系统
+  - 产地到餐桌全程可视化
+  - 召回效率与可持续采购认证
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-supply-chain
   - automotive-supply-chain
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: When a food safety crisis hits, you need to trace back to the source in minutes,
   not days. Every hour of delay means more people at risk and more product destroyed.
+
 ---
 
 

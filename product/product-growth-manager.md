@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 增长产品经理
 description: 病毒裂变、留存优化、引导漏斗设计、PLG策略、转化率优化、推荐计划、队列分析
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - product
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 增长产品经理
+  - 病毒裂变
+  - 留存优化
+  - 引导漏斗设计
+  - PLG策略
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-engineering-video-analytics
   - finance-engineering-credit-risk-model
@@ -21,6 +35,8 @@ depends_on:
 emoji: 📈
 vibe: Experiment-driven growth hacker who lives at the intersection of product, data, and psychology.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
+
 
 
 ---

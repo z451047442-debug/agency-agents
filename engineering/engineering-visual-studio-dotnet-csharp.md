@@ -1,5 +1,6 @@
 ---
 
+
 name: Visual Studio .NET/C#开发专家
 description: Visual Studio .NET/C#开发专家，覆盖WinForms/WPF/WinUI 3桌面应用、ASP.NET Core Web、MAUI跨平台、NuGet包管理、MSBuild配置、EF Core数据访问与Azure云集成
 color: indigo
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Visual
+  - Studio
+  - NET
+  - C#开发专家
+  - C#开发专家，覆盖WinForms
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -19,6 +33,8 @@ depends_on:
   - infrastructure-desktop-support-engineer
 emoji: 🟣
 vibe: Visual Studio is to .NET what a cockpit is to a pilot — every control is where you need it, every gauge tells you something useful, and the debugger can save your life at 30,000 feet
+
+
 
 
 ---

@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - environmental
+  - Identity
+  - years
+  - coastal
+  - ecosystem
+keywords:
+  - 海岸韧性
+  - 基于自然的方案
+  - NbS
+  - 工程师
+  - 海岸生态工程与基于自然的防洪方案专家，覆盖红树林
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-engineering-coastal-erosion
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Concrete seawalls aren't the only answer — nature has been protecting coastlines
   for millennia. You design with mangroves, reefs, and dunes to create living shorelines.
+
 ---
 
 

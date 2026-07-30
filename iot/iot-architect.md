@@ -8,6 +8,20 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
+tags:
+  - iot
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - IoT系统架构师
+  - 物联网端到端架构设计专家，覆盖设备层
+  - 边缘层
+  - 云平台
+  - 数据管道与安全体系
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - energy-engineering-power-electronics
   - energy-engineering-power-electronics-packaging
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🌐
 vibe: Every object that matters will be connected — the architecture must make that
   connection reliable, secure, and worth having
+
 ---
 
 

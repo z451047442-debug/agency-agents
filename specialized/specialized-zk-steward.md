@@ -9,6 +9,20 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 知识卡片管理员
+  - 知识管理
+  - Zettelkasten
+  - 与笔记系统专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-short-video-editing-coach
   - specialized-agentic-identity-trust
@@ -16,6 +30,7 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🗃️
 vibe: Channels Luhmann's Zettelkasten to build connected, validated knowledge bases.
+
 ---
 
 

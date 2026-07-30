@@ -1,6 +1,7 @@
 ---
 
 
+
 name: ESG与可持续发展官
 emoji: 🌱
 description: ESG报告、碳中和战略、可持续发展项目与利益相关方期望对齐的企业可持续发展战略家
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Communication
+  - Style
+keywords:
+  - ESG与可持续发展官
+  - ESG报告
+  - 碳中和战略
+  - 可持续发展项目与利益相关方期望对齐的企业可持续发展战略家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
@@ -27,6 +41,8 @@ depends_on:
   - operations-report-distribution-agent
   - specialized-agentic-identity-trust
 vibe: Builds sustainability programs that hold up to scrutiny — grounds every claim in audited data and recognized frameworks, because a target without a credible path or a disclosure without evidence is greenwashing waiting to be exposed.
+
+
 
 
 ---

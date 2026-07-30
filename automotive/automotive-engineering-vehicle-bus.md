@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - networking
+  - Designed
+keywords:
+  - 车载网络
+  - 总线
+  - LIN
+  - Ethernet
+  - 工程师
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-systems
   - automotive-multi-agent-coordinator
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Modern cars have 100+ ECUs talking on 5 different bus systems — you design the
   networks, manage the bandwidth, and ensure the brakes hear the pedal in under 10ms
+
 ---
 
 

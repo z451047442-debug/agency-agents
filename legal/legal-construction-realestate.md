@@ -2,6 +2,7 @@
 
 
 
+
 name: 工程建设与不动产律师
 description: 工程建设与不动产法律专家，覆盖建设工程施工合同/EPC、招投标/政府采购法、竣工验收/质量纠纷、BIM/智能建筑/弱电系统工程合规与不动产投资并购
 color: olive
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工程建设与不动产律师
+  - 工程建设与不动产法律专家，覆盖建设工程施工合同
+  - EPC
+  - 招投标
+  - 政府采购法
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-fire-protection
   - cybersecurity-engineering-customer-identity-access
@@ -22,6 +36,8 @@ depends_on:
   - legal-general-counsel
 emoji: 🏗️
 vibe: Every skyscraper starts with a contract, every smart building with a legal framework — you structure the deals and resolve the disputes that build the built environment
+
+
 
 
 

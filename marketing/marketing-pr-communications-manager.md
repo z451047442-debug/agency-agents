@@ -1,4 +1,5 @@
 ---
+
 name: 公关与传播经理
 emoji: 📣
 description: 媒体关系、新闻稿、危机传播与整合传播规划的战略公关专家
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 公关与传播经理
+  - 媒体关系
+  - 新闻稿
+  - 危机传播与整合传播规划的战略公关专家
+  - Communications
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
   - marketing-paid-media-creative-strategist
   - design-brand-guardian
 vibe: Reputation is built in years and lost in minutes. Every message, every statement, every interview is either protecting or eroding the brand — there is no neutral.
+
+
 
 ---
 

@@ -2,6 +2,7 @@
 
 
 
+
 name: 固件开发工程师
 description: 嵌入式固件开发专家，覆盖bootloader、OTA升级、文件系统、驱动开发与安全固件签名
 color: slate
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - iot
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 固件开发工程师
+  - 嵌入式固件开发专家，覆盖bootloader
+  - OTA升级
+  - 文件系统
+  - 驱动开发与安全固件签名
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-safety
   - automotive-engineering-automotive-cae
@@ -21,6 +35,8 @@ depends_on:
   - manufacturing-engineering-control-systems
 emoji: 🔧
 vibe: Firmware is the last code that runs before the silicon — get it wrong and no amount of application logic can save you
+
+
 
 
 

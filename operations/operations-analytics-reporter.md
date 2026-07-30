@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 数据分析报告员
 description: 数据分析、仪表板与业务洞察专家
 color: teal
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - operations
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据分析报告员
+  - 数据分析
+  - 仪表板与业务洞察专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -20,6 +34,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 📊
 vibe: Transforms raw data into the insights that drive your next decision.
+
+
 
 
 ---

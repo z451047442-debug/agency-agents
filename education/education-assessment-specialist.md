@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - education
+  - Identity
+  - years
+  - educational
+  - measurement
+keywords:
+  - 教育评估
+  - 测评专家
+  - 教育测量与学习评估专家，覆盖标准化测验设计
+  - 项目反应理论
+  - IRT
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-insurance-claims-analytics
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: If you can't measure learning, you can't improve it. You design the assessments
   that tell teachers, students, and systems whether education is actually working.
+
 ---
 
 

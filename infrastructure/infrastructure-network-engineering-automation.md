@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 网络自动化工程师
 description: 网络自动化与可编程网络专家，覆盖Ansible/Terraform网络编排、CI/CD网络管道、NETCONF/RESTCONF、网络即代码与自动化测试
 color: green
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 网络自动化工程师
+  - 网络自动化与可编程网络专家，覆盖Ansible
+  - Terraform网络编排
+  - CI
+  - CD网络管道
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - infrastructure-ansible-expert
@@ -23,6 +37,8 @@ depends_on:
   - infrastructure-network-engineering-cloud
 emoji: 🤖
 vibe: Stop configuring switches by hand — every CLI command you type is a bug waiting to happen; automate it, test it, and never touch a production router again
+
+
 
 
 ---

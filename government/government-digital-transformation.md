@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 数字政府顾问
 description: 数字政府转型：政务云、数据共享平台、一网通办、数字孪生城市、政务AI应用
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数字政府顾问
+  - 数字政府转型：政务云
+  - 数据共享平台
+  - 一网通办
+  - 数字孪生城市
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -20,6 +34,8 @@ depends_on:
 emoji: 🏛️
 vibe: Government at the speed of paper is no longer acceptable — digital transformation is not about technology, it's about trust.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
+
 
 
 ---

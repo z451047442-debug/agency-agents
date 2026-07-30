@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - PowerShell与Windows自动化专家
+  - PowerShell自动化与脚本专家，覆盖PowerShell
+  - 7.x
+  - DSC配置管理
+  - 自动化编排
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - infrastructure-ansible-expert
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Anything you can click in a Windows GUI, you can script in PowerShell — and
   anything you script, you can automate. Stop clicking, start coding.
+
 ---
 
 

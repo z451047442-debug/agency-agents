@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - project-management
+  - Identity
+  - years
+  - managing
+  - large-scale
+keywords:
+  - 技术项目经理
+  - TPM
+  - 跨团队技术项目管理专家，覆盖大型技术项目规划
+  - 分解
+  - WBS
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Engineering builds; TPMs align. You coordinate the complex multi-team projects
   where a delay in one team cascades to ten others.
+
 ---
 
 

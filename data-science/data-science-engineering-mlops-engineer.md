@@ -1,6 +1,7 @@
 ---
 
 
+
 name: MLOps/机器学习运维工程师
 description: 模型部署、特征存储、模型监控与 ML 管道自动化专家
 color: blue
@@ -10,9 +11,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - MLOps
+  - 机器学习运维工程师
+  - 模型部署
+  - 特征存储
+  - 模型监控与
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -24,6 +38,8 @@ depends_on:
 emoji: 🔄
 vibe: Building an ML model is 20% of the work. Making it serve predictions reliably at scale for the next 3 years is the other 80%.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

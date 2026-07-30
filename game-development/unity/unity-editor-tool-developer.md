@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Unity 编辑器工具开发者
 description: EditorWindow、AssetPostprocessor 与构建自动化专家
 color: gray
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Unity
+  - 编辑器工具开发者
+  - EditorWindow
+  - AssetPostprocessor
+  - 与构建自动化专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-creative-tools
   - infrastructure-github-actions-expert
@@ -19,6 +33,8 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 🛠️
 vibe: Builds custom Unity editor tools that save teams hours every week.
+
+
 
 
 ---

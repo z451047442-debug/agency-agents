@@ -9,12 +9,27 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - forensic
+  - accounting
+keywords:
+  - 法务会计
+  - 舞弊调查会计师
+  - 财务舞弊调查与诉讼支持会计专家，覆盖财务报表舞弊
+  - 资产侵占
+  - 贪污腐败调查
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-abm-account-based
   - operations-report-distribution-agent
 emoji: 🔍
 vibe: Follow the money — it always tells the truth, even when people don't. You find the fraud, quantify the damage, and present evidence that stands up in court.
+
 ---
 
 

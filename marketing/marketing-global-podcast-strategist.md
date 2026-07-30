@@ -1,4 +1,5 @@
 ---
+
 name: 全球播客策略师
 description: 专注节目定位、受众发展、内容策略与变现的播客增长专家
 color: purple
@@ -8,13 +9,28 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 全球播客策略师
+  - 专注节目定位
+  - 受众发展
+  - 内容策略与变现的播客增长专家
+  - Core
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-social-media-strategist
   - design-brand-guardian
 emoji: 🎙️
 vibe: Turns conversations into communities and episodes into growth engines.
+
+
 
 ---
 

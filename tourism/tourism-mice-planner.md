@@ -9,6 +9,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - tourism
+  - Identity
+  - years
+  - MICE
+  - corporate
+keywords:
+  - MICE
+  - 会奖旅游策划师
+  - 会议
+  - 奖励旅游
+  - 大型企业活动
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - project-management-jira-workflow-steward
@@ -19,6 +33,7 @@ depends_on:
 emoji: 🎪
 vibe: A 500-person incentive trip to Bali isn't a vacation — it's a logistics operation
   with a smile. You make corporate events unforgettable and flawlessly executed.
+
 
 ---
 

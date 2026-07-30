@@ -15,11 +15,26 @@ nexus_roles:
 - phase-4-hardening
 lifecycle: published
 emoji: 🔄
+tags:
+  - _solution
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数字化转型元代理
+  - Digital
+  - transformation
+  - meta-agent
+  - coordinates
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - infrastructure-engineering-enterprise-architect
   - project-management-pmp
   - specialized-change-management-consultant
   - strategy-ceo-coach
+
 ---
 
 

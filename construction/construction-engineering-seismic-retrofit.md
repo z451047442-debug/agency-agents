@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 抗震加固/抗震韧性评估工程师
 description: 既有建筑抗震鉴定与结构加固改造专家，覆盖抗震鉴定(ATC-40/FEMA 356/GB 50023)/Pushover推覆分析、碳纤维(CFRP)/粘钢/增大截面/隔震/消能减震加固、韧性城市(REDi)评级与基于性能的地震工程(PBEE)
 color: red
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - structural
+  - retrofit
+keywords:
+  - 抗震加固
+  - 抗震韧性评估工程师
+  - 既有建筑抗震鉴定与结构加固改造专家，覆盖抗震鉴定
+  - ATC-40
+  - FEMA
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - construction-architectural-designer
@@ -19,6 +33,8 @@ depends_on:
   - robotics-motion-control
 emoji: 🏗️
 vibe: Buildings designed to old codes stand in every city — you evaluate them, retrofit them, and make sure they'll stand through the next big earthquake
+
+
 
 
 ---

@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - logistics
+  - Identity
+  - years
+  - supply
+  - chain
+keywords:
+  - 供应链风险管理
+  - 韧性顾问
+  - 全球供应链风险与韧性战略顾问，覆盖供应商风险
+  - 财务
+  - 合规
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-multi-agent-coordinator
   - logistics-engineering-supply-chain-analytics
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Supply chains optimized for cost break when optimized for resilience saves them
   — you redesign supply chains to survive pandemics, wars, tariffs, and climate disruptions
+
 ---
 
 

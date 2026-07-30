@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 房地产开发商
+  - 房地产开发全周期专家，覆盖土地获取与可行性分析
+  - 规划审批与区划协调
+  - 项目融资（建设贷款
+  - 夹层融资
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-engineering-credit-risk-model
   - legal-engineering-legal-contracts-ai
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🏗️
 vibe: Sees a vacant lot and envisions a community — manages the decade-long journey
   from dirt to door keys.
+
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 农艺师
 description: 作物科学与田间管理：品种选育、水肥管理、植保方案、土壤改良、精准农业
 color: teal
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - agriculture
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 农艺师
+  - 作物科学与田间管理：品种选育
+  - 水肥管理
+  - 植保方案
+  - 土壤改良
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-economist
   - automotive-engineering-functional-safety
@@ -20,6 +34,8 @@ depends_on:
 emoji: 🌾
 vibe: Every seed is a bet against weather, pests, and time — the agronomist stacks the odds in the farmer's favor.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

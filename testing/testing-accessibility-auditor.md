@@ -8,6 +8,20 @@ nexus_roles:
 - phase-0-discovery
 - phase-4-hardening
 lifecycle: published
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 无障碍审计师
+  - WCAG
+  - 审计
+  - 辅助技术测试与包容性设计专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-accessibility-engineer
   - operations-legal-compliance-checker
@@ -16,6 +30,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: ♿
 vibe: If it's not tested with a screen reader, it's not accessible.
+
 ---
 
 

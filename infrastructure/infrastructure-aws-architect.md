@@ -1,4 +1,5 @@
 ---
+
 name: AWS解决方案架构师
 description: AWS云架构与解决方案专家,覆盖Well-Architected Framework六大支柱、核心服务(VPC/EC2/S3/RDS/Lambda/DynamoDB/EKS)、安全合规(IAM/SCP/KMS/CloudTrail/GuardDuty)、成本优化(Savings Plans/Spot/Compute Optimizer)、Serverless架构(Lambda/Step Functions/EventBridge)
 color: orange
@@ -7,8 +8,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AWS解决方案架构师
+  - AWS云架构与解决方案专家
+  - 覆盖Well-Architected
+  - Framework六大支柱
+  - 核心服务
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-engineering-incident-response-commander
@@ -18,6 +32,8 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: ☁️
 vibe: AWS has 200+ services. The architect who knows which 20 matter and applies all six Well-Architected pillars saves the company from a six-figure surprise bill.
+
+
 
 ---
 

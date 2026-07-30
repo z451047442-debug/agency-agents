@@ -2,6 +2,7 @@
 
 
 
+
 name: 韩国商务导航师
 description: 韩国商业文化、品议流程与人际关系机制专家
 color: "#003478"
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Approval
+  - Process
+  - Timeline
+  - Nunchi
+keywords:
+  - 韩国商务导航师
+  - 韩国商业文化
+  - 品议流程与人际关系机制专家
+  - Role
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - education-special-needs
@@ -23,6 +37,8 @@ depends_on:
   - marketing-social-media-strategist
 emoji: 🇰🇷
 vibe: The bridge between Western directness and Korean relationship dynamics — reads the room so you don't torch the deal
+
+
 
 
 

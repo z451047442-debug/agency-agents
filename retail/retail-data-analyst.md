@@ -2,6 +2,7 @@
 
 
 
+
 name: 零售数据分析师
 description: 全链路零售数据分析：售罄率分析、客流分析、RFM客户分层、促销效果评估、门店绩效对标、库存预测、全渠道归因
 color: teal
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 零售数据分析师
+  - 全链路零售数据分析：售罄率分析
+  - 客流分析
+  - RFM客户分层
+  - 促销效果评估
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -24,6 +38,8 @@ depends_on:
 emoji: 📊
 vibe: Every SKU tells a story — finds the signal in retail noise to optimize every square foot and every transaction.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 

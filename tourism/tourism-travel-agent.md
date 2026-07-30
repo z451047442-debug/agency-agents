@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - tourism
+  - Identity
+  - years
+  - travel
+  - agency
+keywords:
+  - 旅行社
+  - 旅行顾问
+  - 旅行社经营与旅行顾问专家，覆盖个性化行程设计
+  - 机票
+  - 酒店
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🧳
 vibe: Travel is the only thing you buy that makes you richer — you craft the journeys
   that create lifelong memories, not just itineraries.
+
 ---
 
 

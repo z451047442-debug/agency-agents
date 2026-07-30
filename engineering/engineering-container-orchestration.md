@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - years
+  - container
+  - platforms
+keywords:
+  - 容器
+  - 平台工程
+  - K8s
+  - 专家
+  - Kubernetes与容器编排平台专家，覆盖K8s集群架构
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-grid-scale-storage
   - engineering-build-release-engineer
@@ -18,6 +32,7 @@ depends_on:
 emoji: 🐳
 vibe: Containers changed how we package; Kubernetes changed how we run. You orchestrate
   thousands of containers across hundreds of nodes so developers can focus on code.
+
 ---
 
 

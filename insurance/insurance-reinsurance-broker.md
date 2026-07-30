@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 再保险经纪人
+  - 再保险经纪人，覆盖合约与临时分保排分
+  - 巨灾建模
+  - RMS
+  - AIR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Insurance for insurance companies — layers risk so no single hurricane or earthquake
   can bring down a carrier
+
 ---
 
 

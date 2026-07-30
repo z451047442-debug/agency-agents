@@ -11,6 +11,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - quality
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 医疗质量与患者安全专家
+  - 医疗质量管理与患者安全专家，覆盖JCI
+  - 三级医院评审标准
+  - 临床质量指标
+  - 死亡率
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-human-factors
   - cybersecurity-engineering-cyber-risk-model
@@ -22,6 +36,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🏥
 vibe: In manufacturing, a defect is a returned product. In healthcare, a defect can be a life. You build the systems that make healthcare safer — one process improvement, one checklist, one saved life at a time.
+
 
 
 

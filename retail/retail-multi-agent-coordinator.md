@@ -1,6 +1,20 @@
 ---
 color: '#059669'
 date_added: '2026-07-19'
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Retail
+  - Multi-Agent
+  - Coordinator
+  - coordinates
+  - workflows
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for retail — store operations, merchandising, omnichannel strategy, loss prevention
@@ -12,6 +26,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating retail specialists into coherent multi-agent workflows
+
 ---
 
 

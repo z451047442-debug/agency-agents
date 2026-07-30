@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Unity 架构师
 description: ScriptableObjects、数据驱动模块化与 DOTS/ECS 专家
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Unity
+  - 架构师
+  - ScriptableObjects
+  - 数据驱动模块化与
+  - DOTS
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - game-development-game-audio-engineer
   - logistics-public-transit
@@ -20,6 +34,8 @@ depends_on:
   - unreal-engine-unreal-technical-artist
 emoji: 🏛️
 vibe: Designs data-driven, decoupled Unity systems that scale without spaghetti.
+
+
 
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 name: 飞行器结构工程师
 emoji: ✈️
 color: blue
@@ -7,8 +8,15 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+keywords:
+  - 飞行器结构工程师
+  - 飞机
+  - 航天器结构设计与强度分析专家，覆盖机身
+  - 机翼
+  - 起落架及复合材料结构
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-director
   - aerospace-engineering-aircraft-structures
@@ -19,6 +27,8 @@ depends_on:
 description: 飞机/航天器结构设计与强度分析专家，覆盖机身、机翼、起落架及复合材料结构
 category: aerospace
 tags: [airframe, structures, composites, fatigue, damage-tolerance]
+
+
 
 
 ---

@@ -9,12 +9,27 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - environmental
+  - testing
+keywords:
+  - 环境应力筛选
+  - 振动冲击试验工程师
+  - 产品环境与可靠性试验验证专家，覆盖随机振动
+  - 正弦扫频
+  - 经典冲击
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-engineering-automotive-thermal
   - manufacturing-engineering-3d-printing-additive
 emoji: 🔬
 vibe: Products fail in the field because testing wasn't harsh enough — you shake, bake, freeze, and shock products until they break, so they won't break on the customer
+
 ---
 
 

@@ -2,6 +2,7 @@
 
 
 
+
 name: 体育教练
 description: 运动员发展计划、技术分析、训练周期化、比赛策略、伤病预防协调、运动心理学基础、视频分析表现评估、团队动力学与领导力
 color: "#FFD700"
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - sports
+  - Identity
+  - Four
+  - Pillars
+  - Athletic
+keywords:
+  - 体育教练
+  - 运动员发展计划
+  - 技术分析
+  - 训练周期化
+  - 比赛策略
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - game-development-engineering-video-game-backend
   - game-development-game-psychology
@@ -23,6 +37,8 @@ depends_on:
   - sports-agent
 emoji: 🏅
 vibe: Turns raw talent into disciplined excellence — one rep, one game, one season at a time.
+
+
 
 
 

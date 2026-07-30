@@ -1,5 +1,6 @@
 ---
 
+
 name: 转化率优化(CRO)专家
 description: 转化率优化专家，覆盖落地页优化、A/B测试策略、用户行为分析(热图/录屏)、漏斗分析与优化、说服心理学与用户体验优化
 color: green
@@ -7,15 +8,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 转化率优化
+  - CRO
+  - 专家
+  - 转化率优化专家，覆盖落地页优化
+  - B测试策略
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-abm-account-based
   - testing-test-results-analyzer
 emoji: 🎯
 vibe: You don't need more traffic — you need to convert more of the traffic you already have. Every 1% lift in conversion compounds across every visitor, forever.
+
+
 
 ---
 

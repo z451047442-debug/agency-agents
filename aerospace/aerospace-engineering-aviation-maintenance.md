@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 飞机维修
+  - 持续适航
+  - MRO
+  - CAMO
+  - 工程师
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - finance-accounts-payable-agent
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔧
 vibe: An airplane flies 16 hours a day for 30 years — you manage the maintenance programs
   that keep every aircraft airworthy, every flight safe
+
 ---
 
 

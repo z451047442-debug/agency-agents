@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 用户体验架构师
 description: 技术架构、CSS 系统与前端实现指导专家
 color: purple
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 用户体验架构师
+  - 技术架构
+  - CSS
+  - 系统与前端实现指导专家
+  - Role
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - design-engineering-ux-content-strategy
   - engineering-git-workflow-master
@@ -21,6 +35,8 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 📐
 vibe: Gives developers solid foundations, CSS systems, and clear implementation paths.
+
+
 
 
 ---

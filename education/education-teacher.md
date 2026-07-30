@@ -1,5 +1,6 @@
 ---
 
+
 name: 教育专家
 description: 学科教学法、课程设计、学习评估与教育技术专家
 color: blue
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 教育专家
+  - 学科教学法
+  - 课程设计
+  - 学习评估与教育技术专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
@@ -18,6 +32,8 @@ depends_on:
 emoji: 📚
 vibe: Designs learning experiences that actually change how people think, not just what they memorize.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

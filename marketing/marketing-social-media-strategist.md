@@ -1,4 +1,5 @@
 ---
+
 name: 社交媒体策略师
 description: 跨平台策略、营销活动与社媒整体规划专家
 tools: WebFetch, WebSearch, Read, Write, Edit
@@ -10,8 +11,21 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Role
+  - Definition
+  - Core
+  - Capabilities
+keywords:
+  - 社交媒体策略师
+  - 跨平台策略
+  - 营销活动与社媒整体规划专家
+  - Platform
+  - Algorithm
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-paid-social-strategist
@@ -19,6 +33,8 @@ depends_on:
   - design-brand-guardian
 emoji: 📣
 vibe: Orchestrates cross-platform campaigns that build community and drive engagement.
+
+
 
 ---
 

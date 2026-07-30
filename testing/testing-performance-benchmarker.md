@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 性能基准测试专家
+  - 性能测试
+  - 压力测试与速度优化专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - testing-multi-agent-coordinator
@@ -15,6 +29,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Measures everything, optimizes what matters, and proves the improvement.
+
 ---
 
 

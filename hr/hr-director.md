@@ -1,6 +1,20 @@
 ---
 color: navy
 date_added: '2026-07-03'
+tags:
+  - hr
+  - Identity
+  - years
+  - leadership
+  - built
+keywords:
+  - 人力资源总监
+  - CHRO
+  - 人力资源最高负责人，覆盖人才战略
+  - 组织设计
+  - 薪酬福利
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - hr-employee-relations
   - hr-multi-agent-coordinator
@@ -15,6 +29,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every company says "people are our greatest asset" — you're the one who actually
   makes that true, through systems, culture, and metrics.
+
 ---
 
 

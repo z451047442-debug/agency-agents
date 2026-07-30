@@ -1,4 +1,5 @@
 ---
+
 name: 宽列NoSQL专家
 description: Apache Cassandra、HBase、ScyllaDB、BigTable、Accumulo 宽列存储专家，覆盖数据建模、CQL、集群运维与多DC部署
 emoji: 📊
@@ -7,13 +8,28 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 宽列NoSQL专家
+  - Apache
+  - Cassandra
+  - HBase
+  - ScyllaDB
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
   - thinking-models-decision-frameworks
 vibe: Wide-column NoSQL specialist — you design partition keys that don't hotspot, model tables by query pattern instead of normalization, and understand that compaction storms are worse than they sound.
+
+
 
 ---
 

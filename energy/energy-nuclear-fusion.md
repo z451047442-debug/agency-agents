@@ -10,9 +10,24 @@ nexus_roles: [phase-0-discovery, phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Fusion engineer — from Lawson criterion to H-mode, from ITER to SPARC, from tritium breeding to first-wall materials. Fusion promises limitless clean energy; the engineering challenge is making it work on a power grid timeline.
 
+tags:
+  - energy
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 核聚变工程专家
+  - 磁约束聚变
+  - 托卡马克
+  - 仿星器
+  - 惯性约束聚变
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - home-lifestyle-personal-finance
+
 ---
 
 

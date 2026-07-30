@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - spatial-computing
+  - Identity
+  - years
+  - development
+  - Built
+keywords:
+  - 增强现实
+  - AR
+  - 开发工程师
+  - 增强现实应用开发专家，覆盖ARKit
+  - ARCore
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - infrastructure-engineering-edge-computing
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: AR overlays digital information onto the physical world — you build the experiences
   that help people see more, learn faster, and work smarter
+
 ---
 
 

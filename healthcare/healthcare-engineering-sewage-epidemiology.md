@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - Monitored
+  - population
+keywords:
+  - 污水流行病学
+  - WBE
+  - 环境病原监测专家
+  - 基于废水的公共卫生监测与流行病学专家，覆盖污水中病原体
+  - 病毒
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -18,6 +32,7 @@ emoji: 🦠
 vibe: What a city flushes down the toilet tells you about its health — you monitor
   wastewater to detect disease outbreaks, track drug use, and warn public health before
   hospitals fill up
+
 ---
 
 

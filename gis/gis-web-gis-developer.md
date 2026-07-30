@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - gis
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Web
+  - GIS
+  - 开发工程师
+  - 交互式地图应用全栈开发专家，覆盖
+  - MapLibre
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - gis-multi-agent-coordinator
   - engineering-visual-studio-python
@@ -15,6 +29,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Maps on the web that actually work — fast, responsive, and beautiful.
+
 ---
 
 

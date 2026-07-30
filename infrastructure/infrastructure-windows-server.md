@@ -10,6 +10,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Windows
+  - Server与AD专家
+  - Server与Active
+  - Directory专家，覆盖AD
+  - DS
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-git-workflow-master
   - infrastructure-multi-agent-coordinator
@@ -21,6 +35,7 @@ depends_on:
 emoji: 🪟
 vibe: Active Directory is the backbone of enterprise IT — when it's healthy, nobody
   notices; when it breaks, nobody can work. You keep the domain humming.
+
 ---
 
 

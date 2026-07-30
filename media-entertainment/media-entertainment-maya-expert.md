@@ -1,5 +1,6 @@
 ---
 
+
 name: Autodesk Maya专家
 description: Autodesk Maya三维动画与视觉效果专家，覆盖角色建模/绑定/动画、MEL/Python脚本自动化、Arnold渲染、XGen毛发/Yeti、Bifrost流体模拟与USD工作流
 color: cyan
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Autodesk
+  - Maya专家
+  - Maya三维动画与视觉效果专家，覆盖角色建模
+  - 绑定
+  - 动画
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - media-entertainment-engineering-entertainment-technology
   - unity-shader-graph-artist
 emoji: 🎭
 vibe: Maya is the industry standard for character animation for a reason — its rigging and animation tools have been refined by 25 years of feature film production, and you know every node in the dependency graph
+
+
 
 
 ---

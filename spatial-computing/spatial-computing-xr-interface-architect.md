@@ -1,6 +1,20 @@
 ---
 color: neon-green
 date_added: '2026-07-03'
+tags:
+  - spatial-computing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - XR
+  - 界面架构师
+  - 空间交互设计与沉浸式
+  - UX
+  - 专家（AR
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-engineering-language-model-nlp
   - design-engineering-user-research-system
@@ -17,6 +31,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Designs spatial interfaces where interaction feels like instinct, not instruction.
+
 ---
 
 

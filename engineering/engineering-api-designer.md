@@ -1,4 +1,5 @@
 ---
+
 name: API与接口设计师
 description: API设计与管理专家，覆盖RESTful/GraphQL/gRPC API设计原则、OpenAPI/AsyncAPI规范、API版本/生命周期管理、开发者门户与API治理
 color: cyan
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - designing
+  - APIs
+keywords:
+  - API与接口设计师
+  - API设计与管理专家，覆盖RESTful
+  - GraphQL
+  - gRPC
+  - API设计原则
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-wechat-mini-program-developer
   - engineering-build-release-engineer
@@ -16,6 +30,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🔌
 vibe: An API is a contract between producer and consumer — you design contracts that are intuitive, consistent, and evolve without breaking the other side
+
+
 ---
 
 

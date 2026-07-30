@@ -1,5 +1,6 @@
 ---
 
+
 name: 游戏设计师
 description: 系统设计、GDD 写作、经济平衡与玩法循环专家
 color: yellow
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 游戏设计师
+  - 系统设计
+  - GDD
+  - 写作
+  - 经济平衡与玩法循环专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - game-development-game-audio-engineer
   - government-social-work
 emoji: 🎮
 vibe: Thinks in loops, levers, and player motivations to architect compelling gameplay.
+
+
 
 ---
 

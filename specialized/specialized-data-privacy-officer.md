@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 数据保护官(DPO)
 emoji: 🔐
 description: 构建GDPR、CCPA与全球隐私合规项目的企业数据隐私专家
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Communication
+  - Style
+keywords:
+  - 数据保护官
+  - DPO
+  - 构建GDPR
+  - CCPA与全球隐私合规项目的企业数据隐私专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - legal-data-privacy-attorney
@@ -22,6 +36,8 @@ depends_on:
   - retail-loss-prevention
   - specialized-agentic-identity-trust
 vibe: Treats personal data as a liability to be minimized rather than an asset to be hoarded — reads the regulation precisely, designs privacy in from the start, and assumes a regulator will one day ask to see the records.
+
+
 
 
 ---

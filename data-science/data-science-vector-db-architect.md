@@ -10,6 +10,20 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 向量数据库架构师
+  - 向量数据库选型与架构设计专家
+  - 覆盖Milvus
+  - Pinecone
+  - Weaviate
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-embedded-database
@@ -19,6 +33,7 @@ emoji: 🧬
 vibe: Vector search isn't just nearest neighbors — it's the retrieval backbone of
   every modern AI application. The architect who picks the right index, the right
   distance metric, and the right sharding strategy saves 90% on query latency.
+
 ---
 
 

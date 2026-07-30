@@ -9,6 +9,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - quality
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 实验室质量
+  - ISO
+  - 专家
+  - 实验室质量管理与认可专家，覆盖ISO
+  - IEC
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - education-special-needs
@@ -18,6 +32,7 @@ depends_on:
   - quality-service-callcenter
 emoji: 🔬
 vibe: A test result is only as good as the laboratory that produced it — you ensure every result is valid, traceable, and defensible to regulators and customers
+
 
 ---
 

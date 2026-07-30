@@ -1,6 +1,7 @@
 ---
 
 
+
 name: BI/商业智能工程师
 description: Tableau/PowerBI/Superset、多维分析与数据可视化专家
 color: blue
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - BI
+  - 商业智能工程师
+  - Tableau
+  - PowerBI
+  - Superset
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -22,6 +36,8 @@ depends_on:
 emoji: 📈
 vibe: Turns "I think" into "I know" — replaces gut feelings with dashboards that tell the truth.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
+
+
 
 
 ---

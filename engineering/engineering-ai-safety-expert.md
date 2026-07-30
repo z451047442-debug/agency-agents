@@ -1,5 +1,6 @@
 ---
 
+
 name: AI安全与对齐专家
 description: AI安全、对齐与负责任AI专家,覆盖RLHF/DPO/Constitutional AI对齐训练与评估、红队测试与越狱防御(Prompt Injection/Jailbreak/Data Poisoning)、内容安全与Guardrail体系(Nemo/Llama Guard/ moderation API)、模型偏见检测与公平性审计、AI监管合规(EU AI Act/中国生成式AI管理办法/NIST AI RMF)
 color: yellow
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AI安全与对齐专家
+  - AI安全
+  - 对齐与负责任AI专家
+  - 覆盖RLHF
+  - DPO
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - cybersecurity-engineering-threat-detection-engineer
@@ -19,6 +33,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🛡️
 vibe: "A powerful model without safety is a liability. The alignment engineer is the one who makes sure your AI says 'I can't help with that' to a dangerous request and actually helps with the safe ones."
+
+
 
 ---
 

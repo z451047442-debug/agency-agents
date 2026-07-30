@@ -1,5 +1,6 @@
 ---
 
+
 name: 汽车供应链管理专家
 description: 全球汽车供应链与采购策略专家，覆盖 tier-1 到 tier-N 供应商体系与 JIT 精益物流
 color: slate
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - automotive
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 汽车供应链管理专家
+  - 全球汽车供应链与采购策略专家，覆盖
+  - tier-1
+  - tier-N
+  - 供应商体系与
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
@@ -21,6 +35,8 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🔗
 vibe: A car has 30,000 parts — if 29,999 arrive on time and one doesn't, the assembly line stops
+
+
 
 ---
 

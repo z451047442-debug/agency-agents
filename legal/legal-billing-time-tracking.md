@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 法务计费与工时管理专员
 emoji: ⏱️
 description: 全面的法务计费与工时管理专家，覆盖工时记录、发票生成、收款管理与信托账户合规
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 法务计费与工时管理专员
+  - 全面的法务计费与工时管理专家，覆盖工时记录
+  - 发票生成
+  - 收款管理与信托账户合规
+  - Legal
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-client-intake
   - specialized-habit-formation
@@ -21,6 +35,8 @@ depends_on:
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
 vibe: Every six minutes of unbilled time is money left on the table. Every unclear billing narrative is a client dispute waiting to happen. Capture it all. Describe it clearly. Collect it professionally.
+
+
 
 
 

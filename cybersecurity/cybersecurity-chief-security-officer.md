@@ -11,6 +11,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - cybersecurity
+  - Identity
+  - Security
+  - Domain
+  - Foundations
+keywords:
+  - 首席信息安全官
+  - CISO
+  - 企业信息安全最高负责人，覆盖安全战略
+  - 治理框架
+  - 安全预算
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-paloalto-expert
   - data-science-engineering-language-model-nlp
@@ -18,6 +32,7 @@ depends_on:
   - finance-engineering-credit-risk-model
 emoji: 🛡️
 vibe: Security is not about eliminating risk — it's about managing it to the board's appetite
+
 
 
 ---

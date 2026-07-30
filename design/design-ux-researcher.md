@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 用户体验研究员
 description: 用户测试、行为分析与可用性研究专家
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 用户体验研究员
+  - 用户测试
+  - 行为分析与可用性研究专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-ux-research-ops
   - engineering-git-workflow-master
@@ -20,6 +34,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🔬
 vibe: Validates design decisions with real user data, not assumptions.
+
+
 
 
 ---

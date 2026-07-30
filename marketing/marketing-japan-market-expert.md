@@ -1,4 +1,5 @@
 ---
+
 name: 日本市场专家
 description: 日本市场进入、Rakuten/Yahoo! JAPAN营销、日本消费者行为与LINE生态专家
 color: red
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 日本市场专家
+  - 日本市场进入
+  - Rakuten
+  - Yahoo!
+  - JAPAN营销
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
@@ -16,6 +30,8 @@ depends_on:
 emoji: 🇯🇵
 vibe: Navigates Japan's unique consumer psyche, platform ecosystem, and business culture to launch and scale brands in the world's third-largest economy.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
+
 
 ---
 

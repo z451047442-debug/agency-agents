@@ -2,6 +2,7 @@
 
 
 
+
 name: 高管摘要生成师
 description: C 级沟通、战略摘要与决策支持专家
 color: purple
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - operations
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 高管摘要生成师
+  - 级沟通
+  - 战略摘要与决策支持专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -24,6 +38,8 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 📝
 vibe: Thinks like a McKinsey consultant, writes for the C-suite.
+
+
 
 
 

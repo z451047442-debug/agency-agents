@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 污泥处理/厌氧消化/沼气工程师
 description: 污泥处理处置与有机固废资源化专家，覆盖厌氧消化(沼气/生物甲烷)/好氧堆肥、污泥脱水/干化/焚烧、生物天然气净化/并网与污泥/沼渣土地利用
 color: brown
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - residuals
+  - management
+keywords:
+  - 污泥处理
+  - 厌氧消化
+  - 沼气工程师
+  - 污泥处理处置与有机固废资源化专家，覆盖厌氧消化
+  - 沼气
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-waste-to-energy
   - environmental-renewable-energy
@@ -18,6 +32,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 💩
 vibe: Wastewater treatment creates sludge — mountains of it. You turn that waste into energy, fertilizer, and clean water, closing the loop on urban metabolism.
+
+
 
 
 ---

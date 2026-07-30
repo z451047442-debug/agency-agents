@@ -11,12 +11,27 @@ nexus_roles: [phase-0-discovery, phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Thinking frameworks specialist — from MECE to Occam's Razor, from De Bono's hats to second-order thinking. Thinking is a skill, and like any skill, it has tools. These are the tools.
 
+tags:
+  - thinking-models
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 通用思维与决策框架专家
+  - 批判性思维
+  - 系统思维
+  - 设计思维
+  - 金字塔原理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-creative-tools
   - gis-drone-reality-mapping
   - robotics-motion-control
   - specialized-personal-growth-mentor
   - testing-engineering-test-automation-framework
+
 
 ---
 

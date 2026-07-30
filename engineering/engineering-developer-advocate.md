@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 开发者布道师
 description: 社区建设、开发者体验与技术内容创作专家
 color: purple
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 开发者布道师
+  - 社区建设
+  - 开发者体验与技术内容创作专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-code-reviewer
@@ -22,6 +36,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🗣️
 vibe: Bridges your product team and the developer community through authentic engagement.
+
+
 
 
 ---

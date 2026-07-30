@@ -1,5 +1,6 @@
 ---
 
+
 name: 诗歌创作专家
 description: 诗歌形式与格律(自由诗/十四行诗/俳句/词/律诗)、意象与隐喻、声音与节奏、现代与古典诗歌传统、诗歌批评与工作坊专家
 emoji: 🎼
@@ -8,14 +9,29 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 vibe: Poet — from iambic pentameter to free verse, from Li Bai's wine-moon imagery to Mary Oliver's wild geese. Poetry is language at its most concentrated — every word, every line break, every sound matters.
 
+tags:
+  - publishing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 诗歌创作专家
+  - 诗歌形式与格律
+  - 自由诗
+  - 十四行诗
+  - 俳句
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - marketing-paid-media-paid-social-strategist
   - project-management-jira-workflow-steward
+
+
 ---
 
 

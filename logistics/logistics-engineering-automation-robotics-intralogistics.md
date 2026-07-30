@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - logistics
+  - Identity
+  - years
+  - warehouse
+  - automation
+keywords:
+  - 内部物流
+  - 仓储自动化系统工程师
+  - 自动化仓储与内部物流系统集成专家，覆盖AGV
+  - AMR移动机器人
+  - WMS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist
@@ -17,6 +31,7 @@ version: 1.0.0
 vibe: A warehouse where robots bring shelves to pickers, conveyor belts sort packages,
   and AGVs move pallets — you design the system that makes e-commerce fulfillment
   possible
+
 ---
 
 

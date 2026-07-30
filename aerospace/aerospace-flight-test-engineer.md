@@ -8,6 +8,20 @@ nexus_roles:
   - phase-3-build
   - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Aviation
+  - Domain
+keywords:
+  - 飞行测试工程师
+  - 飞行测试与验证专家，覆盖试飞计划
+  - 测试点设计
+  - 飞行数据采集
+  - 分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
@@ -16,6 +30,7 @@ depends_on:
   - data-science-data-engineer
 emoji: 🛫
 vibe: Every aircraft must prove it can fly safely before it carries passengers — you design the tests that prove it, in the air, at the edge of the envelope
+
 ---
 
 

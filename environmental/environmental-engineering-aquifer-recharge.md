@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - groundwater
+  - hydrology
+keywords:
+  - 地下水
+  - 水文地质学家
+  - 地下水科学与水文地质专家，覆盖地下水数值模拟
+  - MODFLOW
+  - FEFLOW
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-engineering-hydrology-water
   - environmental-engineering-water-resources
@@ -17,6 +31,7 @@ depends_on:
 emoji: 💧
 vibe: Hidden beneath your feet, aquifers store 30% of Earth's freshwater — you map
   them, model them, and protect them from depletion and contamination
+
 ---
 
 

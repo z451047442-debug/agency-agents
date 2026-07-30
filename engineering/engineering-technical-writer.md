@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 技术文档工程师
 description: 开发者文档、API 参考手册与教程撰写专家
 color: teal
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 技术文档工程师
+  - 开发者文档
+  - API
+  - 参考手册与教程撰写专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-arts-sports-teaching
   - education-higher-ed-teaching
@@ -24,6 +38,8 @@ depends_on:
   - engineering-swiftui-expert
 emoji: 📚
 vibe: Writes the docs that developers actually read and use.
+
+
 
 
 ---

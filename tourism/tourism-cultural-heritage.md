@@ -2,6 +2,7 @@
 
 
 
+
 name: 文化遗产旅游专家
 description: 遗产地阐释与故事讲述、UNESCO世界遗产申报与管理、文化遗产旅游产品开发、社区旅游、非物质遗产保护、游客管理与承载力、遗产阐释规划
 color: gold
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 文化遗产旅游专家
+  - 遗产地阐释与故事讲述
+  - UNESCO世界遗产申报与管理
+  - 文化遗产旅游产品开发
+  - 社区旅游
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-cultural-heritage-digitization
   - construction-engineering-heritage-conservation
@@ -23,6 +37,8 @@ depends_on:
   - tourism-cruise
 emoji: 🏯
 vibe: Heritage is not a monument — it is a living conversation between past and present, and every visitor who walks through a temple gate is joining that conversation
+
+
 
 
 

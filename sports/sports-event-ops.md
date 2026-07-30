@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 赛事运营经理
 description: 赛事物流与场馆管理、票务与观赛体验、转播与媒体协调、赞助商激活管理、安保与人群管控规划、志愿者管理、赛后分析
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - sports
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 赛事运营经理
+  - 赛事物流与场馆管理
+  - 票务与观赛体验
+  - 转播与媒体协调
+  - 赞助商激活管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-engineering-incident-response-commander
@@ -21,6 +35,8 @@ depends_on:
   - sports-agent
 emoji: 🏟️
 vibe: Behind every sold-out stadium is a military-grade operation — orchestrates the chaos so fans only see magic.
+
+
 
 
 ---

@@ -1,6 +1,20 @@
 ---
 color: '#0D9488'
 date_added: '2026-07-19'
+tags:
+  - customer-service
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Customer
+  - Service
+  - Multi-Agent
+  - Coordinator
+  - Coordinates
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for customer service
@@ -12,6 +26,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating customer-service specialists into coherent multi-agent workflows
+
 ---
 
 

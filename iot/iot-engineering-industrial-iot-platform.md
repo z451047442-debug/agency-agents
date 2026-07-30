@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - iot
+  - Identity
+  - years
+  - industrial
+  - connectivity
+keywords:
+  - 工业物联网平台工程师
+  - 工业物联网
+  - IIoT
+  - 数据采集与平台专家，覆盖OPC
+  - UA
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - iot-architect
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Factories generate terabytes trapped in PLCs and legacy systems. You liberate
   industrial data for analytics, AI, and digital twins.
+
 ---
 
 

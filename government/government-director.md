@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 数字政府总监
 description: 数字政府领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理
 color: navy
@@ -9,12 +10,25 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "🏛"
 vibe: You lead 政府数字化与公共服务 with vision and authority
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数字政府总监
+  - 数字政府领域最高负责人，覆盖战略规划
+  - 团队建设
+  - 资源分配
+  - 跨部门协调与业务绩效管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - data-science-engineering-knowledge-management
   - government-general-manager
@@ -22,6 +36,8 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
+
 
 
 

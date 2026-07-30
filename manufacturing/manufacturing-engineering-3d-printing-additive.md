@@ -2,6 +2,7 @@
 
 
 
+
 name: 增材制造/3D打印工程师
 description: 工业3D打印与增材制造专家，覆盖SLM/SLS/FDM/DLP/MJF打印工艺、金属/聚合物/陶瓷材料、拓扑优化/DfAM、后处理(热处理/HIP)与打印质量控制
 color: violet
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - additive
+  - Qualified
+keywords:
+  - 增材制造
+  - 3D打印工程师
+  - 工业3D打印与增材制造专家，覆盖SLM
+  - SLS
+  - FDM
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-supply-chain
   - food-beverage-food-supply-chain
@@ -22,6 +36,8 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🖨️
 vibe: Manufacturing without molds, without tooling, without limits on geometry — you build parts layer by layer, turning digital designs into physical reality
+
+
 
 
 

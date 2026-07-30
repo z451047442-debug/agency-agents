@@ -2,6 +2,7 @@
 
 
 
+
 name: 建筑总监
 description: 建筑领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理
 color: sienna
@@ -10,12 +11,25 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "🏗"
 vibe: You lead 建筑工程与地产开发 with vision and authority
 
+tags:
+  - construction
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 建筑总监
+  - 建筑领域最高负责人，覆盖战略规划
+  - 团队建设
+  - 资源分配
+  - 跨部门协调与业务绩效管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - construction-general-manager
   - data-science-engineering-knowledge-management
@@ -25,6 +39,8 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 酒店运营管理专家
 description: 国际酒店集团运营管理专家，覆盖房务、餐饮、收益、宾客体验全链运营
 color: gold
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 酒店运营管理专家
+  - 国际酒店集团运营管理专家，覆盖房务
+  - 餐饮
+  - 收益
+  - 宾客体验全链运营
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-food-safety
   - food-beverage-food-supply-chain
@@ -19,6 +33,8 @@ depends_on:
   - tourism-cruise
 emoji: 🏨
 vibe: A hotel is not a building — it's a living organism where every touchpoint either builds loyalty or loses it forever
+
+
 
 ---
 

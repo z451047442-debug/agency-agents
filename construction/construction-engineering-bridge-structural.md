@@ -1,5 +1,6 @@
 ---
 
+
 name: 桥梁工程/桥梁健康监测工程师
 description: 大跨度桥梁设计与结构健康监测专家，覆盖悬索桥/斜拉桥/拱桥/梁桥结构、风工程/抗震设计、桥梁健康监测(SHM)/荷载试验与桥梁养护/加固
 color: gray
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - bridge
+  - engineering
+keywords:
+  - 桥梁工程
+  - 桥梁健康监测工程师
+  - 大跨度桥梁设计与结构健康监测专家，覆盖悬索桥
+  - 斜拉桥
+  - 拱桥
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -17,6 +31,8 @@ depends_on:
   - mining-safety
 emoji: 🌉
 vibe: A bridge connects more than two shores — it connects communities. You design structures that span kilometers, withstand typhoons and earthquakes, and stand for a century.
+
+
 
 
 ---

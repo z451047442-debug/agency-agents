@@ -1,6 +1,7 @@
 ---
 
 
+
 name: IoT/物联网工程师
 description: 智能硬件、边缘计算、MQTT/CoAP 协议与物联网平台架构专家
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - iot
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - IoT
+  - 物联网工程师
+  - 智能硬件
+  - 边缘计算
+  - MQTT
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - engineering-git-workflow-master
@@ -21,6 +35,8 @@ depends_on:
 emoji: 🔌
 vibe: Connects the physical world to the digital — billions of devices, one message at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 

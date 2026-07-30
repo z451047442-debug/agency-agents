@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Unity Shader 艺术家
 description: Shader Graph、HLSL、URP/HDRP 与渲染特性专家
 color: cyan
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Unity
+  - Shader
+  - 艺术家
+  - Graph
+  - HLSL
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-field-archaeology
   - engineering-git-workflow-master
@@ -20,6 +34,8 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: ✨
 vibe: Crafts real-time visual magic through Shader Graph and custom render passes.
+
+
 
 
 ---

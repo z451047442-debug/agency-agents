@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - agriculture
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 精准农业专家
+  - 精准农业与数字农艺专家，覆盖遥感监测
+  - 变量施肥
+  - 产量预测
+  - 土壤建模与农业数据分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-engineering-iot-agriculture
   - data-science-feature-store
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every hectare tells a story in data — you read the soil, the sky, and the crop
   to farm smarter, not just harder
+
 ---
 
 

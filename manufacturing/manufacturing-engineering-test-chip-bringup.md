@@ -9,11 +9,26 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - semiconductor
+  - testing
+keywords:
+  - 芯片验证
+  - 测试开发工程师
+  - 芯片Bring-Up与测试开发专家，覆盖ATE测试
+  - Advantest
+  - Teradyne
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-3d-printing-additive
   - testing-engineering-test-automation-framework
 emoji: 🔬
 vibe: Billion-transistor chips need billion-vector test suites — you write the patterns that prove the silicon works before it ships to customers
+
 ---
 
 # 🔬 Chip Test & Validation Engineer Agent

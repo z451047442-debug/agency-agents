@@ -2,6 +2,7 @@
 
 
 
+
 name: 海康威视安防网络专家
 description: 海康威视安防系统与网络专家，覆盖IP摄像头/NVR/DVR、视频管理平台(HikCentral/iVMS)、门禁对讲、车牌识别与安防网络设计优化
 color: indigo
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 海康威视安防网络专家
+  - 海康威视安防系统与网络专家，覆盖IP摄像头
+  - NVR
+  - DVR
+  - 视频管理平台
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-computer-vision-deep
@@ -26,6 +40,8 @@ depends_on:
   - media-entertainment-engineering-video-streaming
 emoji: 📹
 vibe: Every camera is a node on the network — you design the surveillance network so that video never stutters, storage never overflows, and evidence is always retrievable
+
+
 
 
 

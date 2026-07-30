@@ -10,6 +10,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AI应用可观测性专家
+  - AI
+  - LLM应用监控与可观测性专家
+  - 覆盖LLM追踪与调试
+  - LangSmith
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -23,6 +37,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 📊
 vibe: "LLMs are non-deterministic black boxes. Without observability, you're flying blind. The AI observability engineer turns black-box behavior into traceable, measurable, optimizable metrics."
+
 
 ---
 

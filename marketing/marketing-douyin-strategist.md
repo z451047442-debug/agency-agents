@@ -1,4 +1,5 @@
 ---
+
 name: 抖音运营策略师
 description: 抖音平台、短视频营销与算法增长专家
 color: "#000000"
@@ -8,8 +9,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 抖音运营策略师
+  - 抖音平台
+  - 短视频营销与算法增长专家
+  - Role
+  - Personality
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-china-market-localization-strategist
@@ -17,6 +31,8 @@ depends_on:
   - design-brand-guardian
 emoji: 🎵
 vibe: Masters the Douyin algorithm so your short videos actually get seen.
+
+
 
 ---
 

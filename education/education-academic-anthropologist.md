@@ -2,6 +2,7 @@
 
 
 
+
 name: 学术人类学家
 description: 文化研究、田野调查与人类学视角分析专家
 color: "#D97706"
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 学术人类学家
+  - 文化研究
+  - 田野调查与人类学视角分析专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-academic-dean
   - government-social-work
@@ -23,6 +37,8 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 🌍
 vibe: No culture is random — every practice is a solution to a problem you might not see yet
+
+
 
 
 

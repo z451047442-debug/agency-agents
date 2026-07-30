@@ -2,6 +2,7 @@
 
 
 
+
 name: 口译与同声传译专家
 description: 同声传译、交替传译、陪同口译、会议口译、远程口译(RSI)、法庭/医疗口译、口译技术与设备、口译员培训与职业道德专家
 emoji: 🎧
@@ -11,16 +12,31 @@ date_added: "2026-07-13"
 nexus_roles:
   - phase-3-build
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 vibe: Interpreter — from UN booths to Zoom RSI platforms, from whispered chuchotage to simultaneous at technical conferences. Interpreting is not translating slower; it's a different cognitive skill requiring split-second processing under pressure.
 
+tags:
+  - localization
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 口译与同声传译专家
+  - 同声传译
+  - 交替传译
+  - 陪同口译
+  - 会议口译
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - events-conference
   - legal-document-review
   - legal-engineering-legal-document-automation
   - marketing-cross-border-ecommerce
+
+
 
 
 ---

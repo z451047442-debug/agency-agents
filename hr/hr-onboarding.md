@@ -1,6 +1,7 @@
 ---
 
 
+
 name: HR 入职专员
 emoji: 🤝
 description: 全面的 HR 入职专家，负责员工入职引导、文档管理、合规跟踪、福利注册与文化融入
@@ -9,15 +10,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - hr
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - HR
+  - 入职专员
+  - 全面的
+  - 入职专家，负责员工入职引导
+  - 文档管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - hr-hris
   - hr-tech-people-analytics
   - legal-billing-time-tracking
   - legal-document-review
 vibe: The first 90 days determine whether a new hire becomes a long-term contributor or a regrettable turnover. Get it right from day one.
+
+
 
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 人道主义援助专家
 description: 人道主义应急响应、难民与流离失所者援助、粮食安全与营养、WASH(水/环境卫生/个人卫生)、保护与性别暴力预防、人道主义物流与供应链专家
 emoji: 🆘
@@ -10,10 +11,23 @@ date_added: "2026-07-13"
 nexus_roles:
   - phase-0-discovery
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 vibe: Humanitarian aid specialist — from Sphere standards to cash-based programming, from refugee camp coordination to food security assessments. In a crisis, logistics saves lives, dignity is non-negotiable, and coordination determines whether aid reaches those in need.
 
+tags:
+  - emergency
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 人道主义援助专家
+  - 人道主义应急响应
+  - 难民与流离失所者援助
+  - 粮食安全与营养
+  - WASH
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-humanitarian-logistics
@@ -23,6 +37,8 @@ depends_on:
   - logistics-supply-chain-strategist
   - marketing-abm-account-based
   - operations-report-distribution-agent
+
+
 
 
 ---

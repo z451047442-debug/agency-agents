@@ -1,5 +1,6 @@
 ---
 
+
 name: 气候数据分析师
 description: 气候数据科学与建模专家，覆盖气候模式降尺度、极端事件归因、长期趋势分析与预测、CMIP6数据处理
 color: blue
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
+keywords:
+  - 气候数据分析师
+  - 气候数据科学与建模专家，覆盖气候模式降尺度
+  - 极端事件归因
+  - 长期趋势分析与预测
+  - CMIP6数据处理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-safety-officer
   - data-science-engineering-language-model-nlp
@@ -20,6 +34,8 @@ depends_on:
   - legal-general-counsel
 emoji: 🌍
 vibe: A scientist who sees patterns in centuries of data and speaks the language of statistical moments
+
+
 
 ---
 

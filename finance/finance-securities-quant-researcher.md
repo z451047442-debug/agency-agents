@@ -2,6 +2,7 @@
 
 
 
+
 name: 量化研究员
 description: 量化研究与因子挖掘专家，覆盖Alpha信号研究/因子发现、统计套利策略开发、回测框架设计、另类数据采集与处理、市场微观结构分析、投资组合构建与优化、风险模型开发
 color: indigo
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 量化研究员
+  - 量化研究与因子挖掘专家，覆盖Alpha信号研究
+  - 因子发现
+  - 统计套利策略开发
+  - 回测框架设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -24,6 +38,8 @@ depends_on:
   - finance-securities-compliance-officer
 emoji: 🔢
 vibe: In a world of noise, you find the signal — every basis point of alpha is hidden in the data, waiting for the right model to uncover it
+
+
 
 
 

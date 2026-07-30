@@ -9,6 +9,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 商业地产经纪人
+  - 商业地产经纪：写字楼
+  - 零售
+  - 工业租赁
+  - 资本化率与净运营收入分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - real-estate-reit-analyst
@@ -17,6 +31,7 @@ emoji: 🏢
 vibe: Every square foot has a price and every lease has leverage — negotiates deals
   where both sides win on paper and in practice.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 ---
 
 

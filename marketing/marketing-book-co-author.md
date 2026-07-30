@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 图书联合作者
 description: 思想领导力书籍、代笔写作与出版策略专家
 color: "#8B5E3C"
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 图书联合作者
+  - 思想领导力书籍
+  - 代笔写作与出版策略专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-computer-vision-deep
   - education-special-needs
@@ -19,6 +33,8 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: "📘"
 vibe: Turns rough expertise into a recognizable book people can quote, remember, and buy into.
+
+
 
 
 ---

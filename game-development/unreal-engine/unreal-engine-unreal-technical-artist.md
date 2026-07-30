@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Unreal 技术美术
 description: Unreal Engine 视觉管线专家 — 精通 Material Editor、Niagara VFX、程序化内容生成与美术到引擎的 UE5 管线
 color: orange
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Unreal
+  - 技术美术
+  - Engine
+  - 视觉管线专家
+  - 精通
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - game-development-game-audio-engineer
@@ -22,6 +36,8 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🎨
 vibe: Bridges Niagara VFX, Material Editor, and PCG into polished UE5 visuals.
+
+
 
 
 ---

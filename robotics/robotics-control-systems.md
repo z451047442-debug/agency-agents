@@ -1,4 +1,5 @@
 ---
+
 name: 控制系统工程师
 description: 实时控制系统设计与调优专家，覆盖PID、MPC、LQR、状态估计、系统辨识与实时嵌入式控制
 color: blue
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - robotics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 控制系统工程师
+  - 实时控制系统设计与调优专家，覆盖PID
+  - MPC
+  - LQR
+  - 状态估计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
   - data-science-engineering-language-model-nlp
@@ -16,6 +30,8 @@ depends_on:
   - robotics-automation-engineer
 emoji: 🎛️
 vibe: A controller that's stable on paper but oscillates in production forgot one thing — the plant model is always wrong, and that's what feedback is for
+
+
 ---
 
 

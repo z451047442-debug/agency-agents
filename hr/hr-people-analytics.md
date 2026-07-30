@@ -2,6 +2,7 @@
 
 
 
+
 name: People Analytics与人力资源数据分析
 description: 人力资源数据分析专家，覆盖离职预测/流失分析、招聘漏斗/效率、人力编制与成本规划、员工敬业度/组织网络分析(ONA)与HR数据仪表板
 color: violet
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - hr
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - People
+  - Analytics与人力资源数据分析
+  - 人力资源数据分析专家，覆盖离职预测
+  - 流失分析
+  - 招聘漏斗
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
@@ -25,6 +39,8 @@ depends_on:
   - retail-customer-insight-analyst
 emoji: 📈
 vibe: Gut feelings hire people; data builds the workforce. You replace "I think our turnover problem is compensation" with "our exit survey data shows top performers leave because of lack of growth, not pay."
+
+
 
 
 

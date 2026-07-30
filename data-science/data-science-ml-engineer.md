@@ -2,6 +2,7 @@
 
 
 
+
 name: 机器学习工程师
 description: 生产级机器学习系统构建专家，覆盖模型训练管线、特征工程、模型服务、效果评估与模型生命周期管理
 color: blue
@@ -11,8 +12,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 机器学习工程师
+  - 生产级机器学习系统构建专家，覆盖模型训练管线
+  - 特征工程
+  - 模型服务
+  - 效果评估与模型生命周期管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - cybersecurity-incident-response
@@ -24,6 +38,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: ⚙️
 vibe: Research builds a model that works once; you build the system that works forever — reliably, at scale, in production
+
+
 
 
 

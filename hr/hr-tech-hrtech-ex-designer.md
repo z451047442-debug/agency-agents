@@ -2,6 +2,7 @@
 
 
 
+
 name: 员工体验设计师
 description: 员工体验设计专家，覆盖员工旅程地图绘制（入职到退休全周期）、EX策略与关键时刻设计、员工倾听系统与持续反馈机制、物理与数字办公场所体验设计、EX度量体系与投资回报追踪
 color: green
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - hr
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 员工体验设计师
+  - 员工体验设计专家，覆盖员工旅程地图绘制（入职到退休全周期）
+  - EX策略与关键时刻设计
+  - 员工倾听系统与持续反馈机制
+  - 物理与数字办公场所体验设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - gis-drone-reality-mapping
@@ -23,6 +37,8 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🌟
 vibe: Employees don't experience HR programs — they experience moments. You design those moments across the entire hire-to-retire journey, applying design thinking to create a workplace where people feel heard, supported, and able to do their best work.
+
+
 
 
 

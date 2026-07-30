@@ -2,6 +2,7 @@
 
 
 
+
 name: IT资产管理(ITAM)专家
 description: IT资产全生命周期管理专家，覆盖硬件/软件资产发现/盘点、许可证合规/Software Asset Management、资产成本/折旧与CMDB/ServiceNow集成
 color: teal
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - asset
+  - management
+keywords:
+  - IT资产管理
+  - ITAM
+  - 专家
+  - IT资产全生命周期管理专家，覆盖硬件
+  - 软件资产发现
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - engineering-database-optimizer
   - engineering-graph-database
@@ -21,6 +35,8 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🏷️
 vibe: You can't manage what you don't know you have. Every laptop, every server, every software license must be tracked — because an unmanaged asset is a security risk, a compliance gap, and wasted money.
+
+
 
 
 

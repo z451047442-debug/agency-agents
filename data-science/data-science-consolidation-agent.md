@@ -1,6 +1,20 @@
 ---
 color: '#38a169'
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据整合
+  - Agent
+  - 销售数据聚合与仪表板报告专家
+  - Data
+  - Consolidation
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -21,6 +35,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Consolidates scattered sales data into live reporting dashboards.
+
 ---
 
 

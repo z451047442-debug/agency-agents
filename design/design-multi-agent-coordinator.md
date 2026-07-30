@@ -1,6 +1,20 @@
 ---
 color: '#DB2777'
 date_added: '2026-07-19'
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Design
+  - Multi-Agent
+  - Coordinator
+  - Coordinates
+  - workflows
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for design — UX/UI, brand, visual systems,
@@ -13,6 +27,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating design specialists into coherent multi-agent workflows
+
 ---
 
 

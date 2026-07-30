@@ -10,6 +10,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - years
+  - inbound
+  - Built
+keywords:
+  - SEO
+  - 内容
+  - 集客营销
+  - Inbound
+  - 经理
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - design-engineering-user-research-system
   - marketing-multi-agent-coordinator
@@ -18,6 +32,7 @@ depends_on:
 emoji: 🧲
 vibe: Don't chase customers — attract them. You build the content and SEO engine that
   pulls qualified buyers toward your product naturally.
+
 ---
 
 

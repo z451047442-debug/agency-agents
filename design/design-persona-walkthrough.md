@@ -2,6 +2,7 @@
 
 
 
+
 name: 用户画像走查专家
 description: 从特定角色心理视角模拟网页认知走查，输出结构化CRO报告的专家
 color: "#10B981"
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 用户画像走查专家
+  - 从特定角色心理视角模拟网页认知走查，输出结构化CRO报告的专家
+  - Identity
+  - Memory
+  - Core
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - design-figma-expert
@@ -22,6 +36,8 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🎭
 vibe: I become your user so you can see what your analytics can't show you.
+
+
 
 
 

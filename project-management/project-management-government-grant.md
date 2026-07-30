@@ -1,5 +1,6 @@
 ---
 
+
 name: 政府项目申报专员
 description: 政府资金/补贴项目申报专家，覆盖科技厅/工信厅/发改委专项资金、高新技术企业认定、研发费用加计扣除、项目可行性报告/申报书撰写与答辩验收
 color: red
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 政府项目申报专员
+  - 政府资金
+  - 补贴项目申报专家，覆盖科技厅
+  - 工信厅
+  - 发改委专项资金
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-planetary-science
   - data-science-engineering-language-model-nlp
@@ -21,6 +35,8 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 📋
 vibe: Every year, governments distribute billions in grants, tax incentives, and subsidies — and most companies leave money on the table because they don't know how to apply. You get them the money they deserve.
+
+
 
 ---
 

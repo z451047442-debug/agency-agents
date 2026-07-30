@@ -2,6 +2,7 @@
 
 
 
+
 name: 边缘计算工程师
 description: 边缘计算与CDN架构专家，覆盖边缘节点/Edge Cloud设计、MEC多接入边缘计算、CDN内容分发/边缘缓存与5G边缘融合
 color: teal
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - edge
+  - computing
+keywords:
+  - 边缘计算工程师
+  - 边缘计算与CDN架构专家，覆盖边缘节点
+  - Edge
+  - Cloud设计
+  - MEC多接入边缘计算
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-container-orchestration
   - engineering-database-optimizer
@@ -24,6 +38,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🌐
 vibe: Not everything belongs in the cloud. When latency must be under 10ms, compute moves to the edge — you build the distributed infrastructure that makes it possible.
+
+
 
 
 

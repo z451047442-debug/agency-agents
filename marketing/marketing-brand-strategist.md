@@ -1,5 +1,6 @@
 ---
 
+
 name: 品牌策略师
 description: 品牌定位、品牌架构、品牌重命名与品牌资产测量专家
 color: blue
@@ -9,15 +10,30 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 品牌策略师
+  - 品牌定位
+  - 品牌架构
+  - 品牌重命名与品牌资产测量专家
+  - 核心信念
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-abm-account-based
 emoji: 🏷️
 vibe: The difference between a company and a brand is a story people tell themselves — and you write that story.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

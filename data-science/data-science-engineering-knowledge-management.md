@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - knowledge
+  - management
+keywords:
+  - 企业知识管理
+  - 组织学习顾问
+  - 企业知识管理与组织学习系统顾问，覆盖知识管理
+  - KM
+  - 战略
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every time an expert leaves, their knowledge leaves too — unless you've captured
   it. You build the systems that make organizational knowledge a shared asset.
+
 ---
 
 

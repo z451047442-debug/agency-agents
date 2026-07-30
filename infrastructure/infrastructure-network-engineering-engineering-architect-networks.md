@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - enterprise
+  - network
+keywords:
+  - 企业网络架构与治理专家
+  - 全球企业网络架构设计和治理专家，覆盖SD-WAN
+  - SASE
+  - SSE架构
+  - 零信任网络
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -21,6 +35,7 @@ version: 1.0.0
 vibe: The enterprise network connects everything — offices, clouds, data centers,
   remote workers. You design the architecture that makes it secure, scalable, and
   invisible.
+
 ---
 
 

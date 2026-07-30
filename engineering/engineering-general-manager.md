@@ -1,5 +1,6 @@
 ---
 
+
 name: "Engineering General Manager"
 description: "Engineering department general manager — strategic leadership across software, infrastructure, and operations"
 emoji: "🏗️"
@@ -10,12 +11,27 @@ vibe: "engineering leadership with systems thinking and operational rigor"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Engineering
+  - General
+  - Manager
+  - department
+  - strategic
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
   - infrastructure-github-actions-expert
   - project-management-jira-workflow-steward
   - testing-engineering-test-automation-framework
+
+
 
 ---
 

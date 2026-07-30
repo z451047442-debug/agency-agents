@@ -8,6 +8,20 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 平台工程师
+  - 平台工程与开发者体验
+  - DX
+  - 专家，覆盖内部开发者平台
+  - IDP
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🏗️
 vibe: Build the platform that builds the products — every hour of developer toil you
   eliminate compounds across the entire engineering org
+
 ---
 
 

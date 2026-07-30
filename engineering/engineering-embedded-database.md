@@ -1,5 +1,6 @@
 ---
 
+
 name: 嵌入式/轻量级数据库专家
 description: SQLite、DuckDB、LevelDB、RocksDB 嵌入式数据库专家，覆盖移动端、边缘计算、浏览器(WASM)、单文件架构与性能优化
 emoji: 🔋
@@ -9,13 +10,28 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 嵌入式
+  - 轻量级数据库专家
+  - SQLite
+  - DuckDB
+  - LevelDB
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-cross-platform
   - engineering-database-administrator
   - infrastructure-storage-backup
 vibe: Embedded database specialist — SQLite as the universal file format, DuckDB as the analytical sidekick, RocksDB as the storage engine backbone. The best database is sometimes the one you don't need a server for.
+
+
 
 
 ---

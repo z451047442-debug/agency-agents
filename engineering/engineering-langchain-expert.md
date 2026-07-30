@@ -1,6 +1,7 @@
 ---
 
 
+
 name: LangChain/LangGraph专家
 description: LangChain与LangGraph AI Agent框架专家,覆盖LangChain Expression Language(LCEL)/Runnable接口与链式调用设计、LangGraph状态图与多Agent编排、工具定义与函数调用(Tool/StructuredTool集成)、RAG管道设计与向量存储集成、LangSmith可观测性与Agent评估
 color: green
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - LangChain
+  - LangGraph专家
+  - LangChain与LangGraph
+  - AI
+  - Agent框架专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-image-prompt-engineer
   - engineering-build-release-engineer
@@ -20,6 +34,8 @@ depends_on:
   - testing-tool-evaluator
 emoji: ⛓️
 vibe: "LangChain didn't just build a framework — it built the operating system for AI agents. When you need an agent that reasons, remembers, and acts, the LangChain stack is where the rubber meets the LLM."
+
+
 
 
 ---

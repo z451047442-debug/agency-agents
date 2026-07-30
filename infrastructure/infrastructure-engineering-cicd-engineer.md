@@ -1,4 +1,5 @@
 ---
+
 name: CI/CD 流水线工程师
 description: 持续集成、持续交付与 GitOps 部署自动化专家
 color: "#1a73e8"
@@ -7,8 +8,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Expertise
+keywords:
+  - CI
+  - CD
+  - 流水线工程师
+  - 持续集成
+  - 持续交付与
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-ansible-expert
@@ -16,6 +30,8 @@ depends_on:
   - cybersecurity-engineering-customer-identity-access
 emoji: 🔄
 vibe: Push to main, watch it fly. Your pipeline is the team's heartbeat — keep it steady.
+
+
 
 ---
 

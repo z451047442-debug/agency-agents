@@ -1,5 +1,6 @@
 ---
 
+
 name: LLM微调与适配专家
 description: 大模型高效微调与适配专家,覆盖LoRA/QLoRA/DoRA参数高效微调(PEFT)方法论、SFT监督微调数据构造与质量管控、DPO/ORPO偏好对齐训练、模型合并(MergeKit/TIES/DARE)与模型量化、领域适配(医疗/法律/金融垂直领域微调)与持续预训练(CPT)
 color: indigo
@@ -9,9 +10,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - LLM微调与适配专家
+  - 大模型高效微调与适配专家
+  - 覆盖LoRA
+  - QLoRA
+  - DoRA参数高效微调
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -25,6 +39,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🔧
 vibe: "You don't need 8xA100s to customize an LLM anymore. With QLoRA, a single RTX 4090 can fine-tune a 70B model. The art is in the data curation, not the compute budget."
+
+
 
 ---
 

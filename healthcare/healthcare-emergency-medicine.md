@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 急诊
+  - 院前急救医师
+  - 急诊医学与院前急救专家，覆盖急诊分诊
+  - 危重症识别
+  - 创伤
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - engineering-multi-agent-systems-architect
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🚑
 vibe: In the ED, you have minutes to make decisions that will affect the rest of the
   patient's life — and you never know what's coming through the door next
+
 ---
 
 

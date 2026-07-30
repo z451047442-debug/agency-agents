@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Kubernetes集群管理专家
+  - Kubernetes生产集群架构与运维专家
+  - 覆盖集群架构设计
+  - 控制面
+  - etcd
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-apache-httpd-expert
   - infrastructure-nginx-expert
@@ -21,6 +35,7 @@ version: 1.0.0
 vibe: Kubernetes won the container orchestration war. The K8s expert who understands
   the control plane, the network model, and the resource scheduler keeps thousands
   of microservices running while everyone else just kubectl applies.
+
 ---
 
 

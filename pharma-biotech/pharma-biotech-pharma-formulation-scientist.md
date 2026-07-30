@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - pharma-biotech
+  - Identity
+  - years
+  - pharmaceutical
+  - formulation
+keywords:
+  - 药物制剂科学家
+  - 药物制剂与递送系统专家，覆盖口服固体制剂
+  - 注射剂
+  - 透皮贴剂
+  - 辅料筛选
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - pharma-biotech-multi-agent-coordinator
   - healthcare-engineering-regulatory-science
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The molecule matters, but the formulation determines whether it actually reaches
   the right place in the body at the right concentration
+
 ---
 
 

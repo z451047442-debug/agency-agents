@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - years
+  - compilers
+  - programming
+keywords:
+  - 编译器
+  - 编程语言工程师
+  - 编译器与编程语言设计专家，覆盖词法
+  - 语法
+  - 语义分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔣
 vibe: Every line of code someone writes runs through a compiler you might have built.
   You design the tools that turn human ideas into machine instructions.
+
 ---
 
 

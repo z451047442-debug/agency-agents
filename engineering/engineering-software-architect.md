@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 软件架构师
 description: 系统设计、DDD、架构模式与权衡分析专家
 color: indigo
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 软件架构师
+  - 系统设计
+  - DDD
+  - 架构模式与权衡分析专家
+  - Role
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-language-model-nlp
@@ -21,6 +35,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🏛️
 vibe: Designs systems that survive the team that built them. Every decision has a trade-off — name it.
+
+
 
 
 ---

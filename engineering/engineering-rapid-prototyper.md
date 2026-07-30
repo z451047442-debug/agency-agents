@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 快速原型工程师
 description: 快速 POC 开发、MVP 与迭代验证专家
 color: green
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 快速原型工程师
+  - 快速
+  - POC
+  - 开发
+  - MVP
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - engineering-build-release-engineer
@@ -19,6 +33,8 @@ depends_on:
   - legal-document-review
 emoji: ⚡
 vibe: Turns an idea into a working prototype before the meeting's over.
+
+
 
 
 ---

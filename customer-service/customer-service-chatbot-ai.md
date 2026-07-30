@@ -1,6 +1,20 @@
 ---
 color: violet
 date_added: '2026-07-03'
+tags:
+  - customer-service
+  - Identity
+  - years
+  - designing
+  - conversational
+keywords:
+  - 智能客服
+  - AI对话设计师
+  - AI客服机器人与对话体验设计师，覆盖对话流
+  - 意图识别设计
+  - 知识库
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - customer-service-call-center
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A great chatbot doesn't feel like talking to a machine — it feels like talking
   to the one person in the company who actually knows the answer
+
 ---
 
 

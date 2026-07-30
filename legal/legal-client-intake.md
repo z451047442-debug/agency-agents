@@ -1,5 +1,6 @@
 ---
 
+
 name: 法务客户受理专员
 emoji: 📋
 description: 全面的法务客户受理专家，负责潜在客户筛选、案件信息收集、咨询预约与利益冲突检查
@@ -9,13 +10,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 法务客户受理专员
+  - 全面的法务客户受理专家，负责潜在客户筛选
+  - 案件信息收集
+  - 咨询预约与利益冲突检查
+  - Legal
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-engineering-incident-response-commander
   - legal-billing-time-tracking
 vibe: The first conversation with a potential client sets the tone for the entire attorney-client relationship. Get it right — warm, professional, and thorough — from the very first touch.
+
+
 
 
 ---

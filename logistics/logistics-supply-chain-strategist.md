@@ -2,6 +2,7 @@
 
 
 
+
 name: 供应链策略师
 description: 供应链管理、采购策略与优化专家
 color: blue
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - logistics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 供应链策略师
+  - 供应链管理
+  - 采购策略与优化专家
+  - Role
+  - Personality
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-engineering-deep-learning-training
   - energy-engineering-power-electronics-packaging
@@ -21,6 +35,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🔗
 vibe: Builds your procurement engine and supply chain resilience across China's manufacturing ecosystem, from supplier sourcing to risk management.
+
+
 
 
 

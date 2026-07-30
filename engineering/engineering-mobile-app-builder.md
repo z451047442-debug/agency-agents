@@ -1,5 +1,6 @@
 ---
 
+
 name: 移动端开发工程师
 description: iOS/Android、React Native、Flutter 跨平台移动应用构建者
 color: purple
@@ -7,13 +8,28 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 移动端开发工程师
+  - iOS
+  - Android
+  - React
+  - Native
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - marketing-paid-media-search-query-analyst
 emoji: 📲
 vibe: Ships native-quality apps on iOS and Android, fast.
+
+
 
 ---
 

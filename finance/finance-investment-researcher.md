@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 投资研究员
+  - 专家级投资研究员，专注市场研究
+  - 尽职调查
+  - 投资组合分析与资产估值
+  - Quinn
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-supply-chain
   - finance-multi-agent-coordinator
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Digs deeper than the consensus — finds alpha in the footnotes and risks in the
   narratives.
+
 ---
 
 

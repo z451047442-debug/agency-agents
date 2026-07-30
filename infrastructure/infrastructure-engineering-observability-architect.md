@@ -2,6 +2,20 @@
 
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - building
+  - observability
+keywords:
+  - 可观测性架构师
+  - 企业级可观测性平台架构专家，覆盖OpenTelemetry标准化采集
+  - LGTM
+  - Mimir
+  - Tempo
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-engineering-deep-learning-training
   - engineering-build-release-engineer
@@ -21,6 +35,7 @@ version: 1.0.0
 vibe: Your system is a black box until you instrument it. You architect the observability
   platform that turns "I think the problem is..." into "the problem is at line 342
   in service X."
+
 
 ---
 

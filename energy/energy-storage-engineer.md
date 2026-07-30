@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 储能系统工程师
+  - 电化学储能与电池系统专家，覆盖锂电池
+  - 液流
+  - 钠硫储能技术
+  - BMS电池管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-energy-storage-materials-sci
   - energy-engineering-grid-scale-storage
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔋
 vibe: Solar generates when the sun shines; wind generates when the wind blows. Storage
   generates whenever it's needed — you make renewables reliable.
+
 ---
 
 

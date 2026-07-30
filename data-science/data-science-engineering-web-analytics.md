@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - digital
+  - analytics
+keywords:
+  - Web
+  - 数字分析实施工程师
+  - 数字分析埋点与数据采集专家，覆盖Google
+  - Analytics
+  - GTM
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: If you can't measure it, you can't improve it. You instrument the digital experience
   so every click, scroll, and conversion tells a story.
+
 ---
 
 

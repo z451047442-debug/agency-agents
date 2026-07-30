@@ -8,6 +8,20 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - cyber
+  - insurance
+keywords:
+  - 网络风险量化
+  - 网络安全保险精算师
+  - 网络风险建模与网络安全保险产品设计专家，覆盖网络损失分布
+  - 蒙特卡洛模拟
+  - 安全控制审计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-appsec-engineer
   - finance-engineering-credit-risk-model
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🛡️
 vibe: Cyber risk is the fastest-growing insurance exposure — you quantify threats
   that evolve daily
+
 ---
 
 

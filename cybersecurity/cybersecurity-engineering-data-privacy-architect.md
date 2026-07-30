@@ -8,6 +8,20 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - privacy-preserving
+  - technologies
+keywords:
+  - 隐私增强技术
+  - PETs
+  - 研究员
+  - 隐私增强技术与数据安全研究专家，覆盖联邦学习
+  - Federated
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-hardware-security
   - data-science-engineering-deep-learning-training
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔒
 vibe: Data is the new oil, but privacy is the new safety regulation — you invent the
   technologies that let us learn from data without ever seeing the raw data
+
 ---
 
 

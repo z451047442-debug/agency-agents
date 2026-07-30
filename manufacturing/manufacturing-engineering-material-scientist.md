@@ -1,4 +1,5 @@
 ---
+
 name: 材料科学与工程专家
 description: 材料科学与选材工程专家，覆盖金属/陶瓷/聚合物/复合材料特性、失效分析(断口/金相)、材料测试(拉伸/疲劳/蠕变)与材料选择/替代(绿色材料/轻量化)
 color: orange
@@ -8,9 +9,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - materials
+  - science
+keywords:
+  - 材料科学与工程专家
+  - 材料科学与选材工程专家，覆盖金属
+  - 陶瓷
+  - 聚合物
+  - 复合材料特性
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - manufacturing-multi-agent-coordinator
@@ -18,6 +32,8 @@ depends_on:
   - manufacturing-engineering-3d-printing-additive
 emoji: 🧪
 vibe: Every product is made of something — choosing the right material and processing determines cost, performance, and reliability
+
+
 ---
 
 

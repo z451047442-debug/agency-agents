@@ -12,11 +12,26 @@ lifecycle: published
 vibe: Circular economy designer — from Design for Disassembly to product-as-a-service,
   from material passports to industrial symbiosis. Waste is a design flaw, not an
   inevitability.
+tags:
+  - environmental
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 循环经济与零废弃设计专家
+  - 循环经济商业模式
+  - 产品即服务
+  - 回收再造
+  - 可修复与可拆卸设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-military-materials-manufacturing
   - education-arts-sports-teaching
   - logistics-supply-chain-strategist
   - marketing-bilibili-content-strategist
+
 ---
 
 

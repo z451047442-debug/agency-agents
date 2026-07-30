@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - logistics
+  - Identity
+  - years
+  - cross-border
+  - e-commerce
+keywords:
+  - 跨境电商物流专家
+  - 跨境电商与小包物流
+  - B2C
+  - 专家，覆盖9610
+  - 9810海关监管方式
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
@@ -18,6 +32,7 @@ version: 1.0.0
 vibe: A ¥50 product ordered on Shein must cross an ocean, clear customs, and reach
   the customer's doorstep — you design the logistics network that makes cross-border
   e-commerce possible
+
 ---
 
 

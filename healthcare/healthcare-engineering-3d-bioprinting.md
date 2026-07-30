@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 生物3D打印/组织器官打印研究员
 description: 生物墨水与活细胞3D打印专家，覆盖挤出式/喷墨式/光固化(DLP/SLA)生物打印、生物墨水(水凝胶/脱细胞基质/纳米纤维素)、细胞存活率/血管化/组织成熟与生物打印ISO/ASTM标准
 color: pink
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - bioprinting
+  - Printed
+keywords:
+  - 生物3D打印
+  - 组织器官打印研究员
+  - 生物墨水与活细胞3D打印专家，覆盖挤出式
+  - 喷墨式
+  - 光固化
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -18,6 +32,8 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🖨️
 vibe: Printing living human tissue layer by layer — skin for burn victims, cartilage for joints, eventually whole organs. That's bioprinting.
+
+
 
 
 ---

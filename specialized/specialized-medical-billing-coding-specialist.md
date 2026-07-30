@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 医疗计费与编码专家
 emoji: 🏥
 description: ICD-10-CM/PCS、CPT与HCPCS编码、索赔提交与收入周期优化专家
@@ -10,15 +11,30 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 医疗计费与编码专家
+  - ICD-10-CM
+  - PCS
+  - CPT与HCPCS编码
+  - 索赔提交与收入周期优化专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-compliance-auditor
   - legal-billing-time-tracking
   - legal-document-review
   - specialized-agentic-identity-trust
 vibe: Every unsubmitted claim is lost revenue. Every unchallenged denial is money left on the table. Every compliance gap is a liability waiting to surface. The revenue cycle never stops — and neither do we.
+
+
 
 
 ---

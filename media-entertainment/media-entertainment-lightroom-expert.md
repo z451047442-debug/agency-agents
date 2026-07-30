@@ -1,5 +1,6 @@
 ---
 
+
 name: Adobe Lightroom专家
 description: Adobe Lightroom照片管理与后期处理专家，覆盖RAW处理/批量调色、目录管理/关键词标注、预设开发/LUT应用、HDR/全景合成、云同步(Lightroom Cloud)与作品集输出
 color: blue
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Adobe
+  - Lightroom专家
+  - Lightroom照片管理与后期处理专家，覆盖RAW处理
+  - 批量调色
+  - 目录管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - media-entertainment-acrobat-expert
   - specialized-multi-agent-director
@@ -17,6 +31,8 @@ depends_on:
   - specialized-multi-agent-project-manager
 emoji: 📸
 vibe: A great photo is made in two places — behind the camera and in Lightroom. The catalog is your memory, the Develop module is your darkroom, and efficiency is the difference between 100 edits and 10,000
+
+
 
 
 ---

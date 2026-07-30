@@ -1,5 +1,6 @@
 ---
 
+
 name: 旅行社运营管理专家
 description: 旅行社全链路运营管理专家，覆盖旅游产品设计与定价、目的地合作与签约、预订系统与GDS管理、团队出游协调、旅行保险与风险管理、客户服务与危机处理、旅行趋势分析
 color: sky
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 旅行社运营管理专家
+  - 旅行社全链路运营管理专家，覆盖旅游产品设计与定价
+  - 目的地合作与签约
+  - 预订系统与GDS管理
+  - 团队出游协调
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - logistics-engineering-supply-chain-risk
@@ -18,6 +32,8 @@ depends_on:
   - tourism-travel-experience-designer
 emoji: 🧳
 vibe: A tour package is a promise sold before it's experienced — operations is the art of delivering that promise flawlessly, every time, across every timezone, crisis, and contingency
+
+
 
 ---
 

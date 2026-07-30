@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - cryogenics
+  - superconducting
+keywords:
+  - 低温
+  - 超导磁体工程师
+  - 低温工程与超导磁体系统专家，覆盖液氦
+  - 4.2K
+  - 液氮
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -18,6 +32,7 @@ emoji: 🧊
 vibe: At -269°C, materials behave differently — superconductors carry current without
   resistance, and quantum effects emerge. You engineer the extreme cold that makes
   the impossible possible.
+
 ---
 
 # 🧊 Cryogenic Engineer Agent

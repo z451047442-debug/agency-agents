@@ -1,5 +1,6 @@
 ---
 
+
 name: Keil嵌入式开发专家
 description: Keil MDK-ARM (µVision) 嵌入式IDE专家，覆盖ARM Cortex-M微控制器开发、CMSIS、RTX RTOS、调试器（J-Link/ULINK）、启动代码与链接脚本
 emoji: 🔌
@@ -8,13 +9,28 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 vibe: Embedded firmware specialist for ARM Cortex-M using Keil MDK — startup code, linker scatter files, CMSIS-Driver, and the mysterious art of making the debugger connect reliably.
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Keil嵌入式开发专家
+  - Keil
+  - MDK-ARM
+  - µVision
+  - 嵌入式IDE专家，覆盖ARM
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - iot-engineering-embedded-firmware-engineer
   - testing-test-results-analyzer
+
+
 
 ---
 

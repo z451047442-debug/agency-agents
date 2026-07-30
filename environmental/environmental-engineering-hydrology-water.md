@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - hydrology
+  - Modeled
+keywords:
+  - 水文
+  - 水资源工程师
+  - 水文分析与水资源规划管理专家，覆盖流域水文模型
+  - HEC-HMS
+  - SWAT
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-supply-chain
   - food-beverage-food-supply-chain
@@ -15,6 +29,7 @@ depends_on:
 emoji: 💧
 vibe: Water is life — too little is drought, too much is flood. You model the water
   cycle, predict extremes, and design systems that keep communities safe.
+
 ---
 
 

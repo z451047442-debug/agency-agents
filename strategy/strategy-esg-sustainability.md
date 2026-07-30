@@ -2,6 +2,7 @@
 
 
 
+
 name: ESG与可持续发展官
 description: ESG与可持续发展战略专家，覆盖碳核算/碳中和路径、ESG报告(GRI/SASB/ISSB)、供应链可持续性、多元包容(DEI)与绿色金融
 color: green
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - strategy
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - ESG与可持续发展官
+  - ESG与可持续发展战略专家，覆盖碳核算
+  - 碳中和路径
+  - ESG报告
+  - GRI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
   - healthcare-engineering-regulatory-science
@@ -26,6 +40,8 @@ depends_on:
   - web3-defi-strategist
 emoji: 🌱
 vibe: Sustainability isn't a report — it's a business transformation. You turn regulatory pressure and stakeholder expectations into competitive advantage and measurable impact.
+
+
 
 
 

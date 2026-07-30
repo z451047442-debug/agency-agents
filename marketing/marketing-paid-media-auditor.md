@@ -9,6 +9,20 @@ nexus_roles:
   - phase-0-discovery
   - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 付费媒体审计师
+  - 200+
+  - 维度账户审计与竞争对手分析专家
+  - Role
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-programmatic-buyer
@@ -18,6 +32,7 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 📋
 vibe: Finds the waste in your ad spend before your CFO does.
+
 ---
 
 ## Your Identity & Memory

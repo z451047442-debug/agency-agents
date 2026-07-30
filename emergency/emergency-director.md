@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 应急管理总监
 description: 应急管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理
 color: red
@@ -9,12 +10,25 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "🚨"
 vibe: You lead 应急响应与灾害管理 with vision and authority
 
+tags:
+  - emergency
+  - Identity
+  - Memory
+  - Disaster
+  - Response
+keywords:
+  - 应急管理总监
+  - 应急管理领域最高负责人，覆盖战略规划
+  - 团队建设
+  - 资源分配
+  - 跨部门协调与业务绩效管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - emergency-general-manager
   - government-smart-city
@@ -24,6 +38,8 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
+
 
 
 ---

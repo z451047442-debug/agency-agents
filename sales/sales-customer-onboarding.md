@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - sales
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 客户导入
+  - 实施
+  - Onboarding
+  - 经理
+  - B2B
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🚀
 vibe: The sale isn't done until the customer is live, trained, and seeing value. You
   bridge the gap between "sold" and "successful."
+
 ---
 
 

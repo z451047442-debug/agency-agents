@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - embedded
+  - security
+keywords:
+  - 固件安全
+  - 逆向工程师
+  - 嵌入式固件安全分析与逆向工程专家，覆盖固件提取
+  - 反汇编
+  - Ghidra
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-appsec-engineer
   - finance-engineering-credit-risk-model
@@ -17,6 +31,7 @@ emoji: 🔓
 vibe: Every IoT device ships with firmware — and most of it has security holes. You
   find them before attackers do, making the Internet of Things safer one device at
   a time.
+
 ---
 
 

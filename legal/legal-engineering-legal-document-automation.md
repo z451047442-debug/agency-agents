@@ -1,6 +1,20 @@
 ---
 color: violet
 date_added: '2026-07-03'
+tags:
+  - legal
+  - Identity
+  - years
+  - automation
+  - Built
+keywords:
+  - 智能合约
+  - 法律文档自动化工程师
+  - 法律文档自动化与智能合约模板专家，覆盖文档自动化
+  - HotDocs
+  - Docassemble
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Legal documents are just structured data in prose form — you encode legal logic
   into templates and rules that generate perfect documents in seconds
+
 ---
 
 

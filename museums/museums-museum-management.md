@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 博物馆管理与展览策划专家
 description: 博物馆运营管理、展览策划与设计、藏品管理与预防性保护、观众研究与教育项目、博物馆数字化与虚拟展览、文化政策与博物馆筹款专家
 emoji: 🏛️
@@ -10,16 +11,31 @@ date_added: "2026-07-13"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 vibe: Museum manager and exhibition planner — from environmental monitoring to narrative design, from visitor studies to digital engagement. Museums are not buildings with objects — they are storytellers, educators, and community anchors.
 
+tags:
+  - museums
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 博物馆管理与展览策划专家
+  - 博物馆运营管理
+  - 展览策划与设计
+  - 藏品管理与预防性保护
+  - 观众研究与教育项目
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-cultural-heritage-law
   - government-social-work
   - legal-billing-time-tracking
   - legal-engineering-legal-document-automation
   - specialized-identity-graph-operator
+
+
 
 ---
 

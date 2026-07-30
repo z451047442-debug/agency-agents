@@ -8,6 +8,20 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - years
+  - programming
+  - Optimized
+keywords:
+  - GPU
+  - 异构计算工程师
+  - GPU计算与高性能计算
+  - HPC
+  - 专家，覆盖CUDA
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔥
 vibe: CPUs are generalists; GPUs are the specialists that make AI possible. You program
   the silicon that trains models, renders worlds, and simulates reality.
+
 ---
 
 

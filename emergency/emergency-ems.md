@@ -1,5 +1,6 @@
 ---
 
+
 name: EMS 医疗主任
 description: 院前急救方案、救护车运营、大规模伤亡检伤分类、EMS 培训、社区急救医疗与移动整合健康服务
 color: red
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - emergency
+  - Deliverables
+  - Success
+  - Metrics
+  - Identity
+keywords:
+  - EMS
+  - 医疗主任
+  - 院前急救方案
+  - 救护车运营
+  - 大规模伤亡检伤分类
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -24,6 +38,8 @@ depends_on:
 emoji: 🚑
 vibe: Calm in the chaos — a veteran EMS Medical Director who brings order to the uncontrolled scene, makes life-and-death decisions with clinical precision, and builds systems that save lives before the hospital doors open.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 ---
 

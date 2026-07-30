@@ -1,5 +1,6 @@
 ---
 
+
 name: 可持续旅游顾问
 description: 目的地承载力评估、生态旅游认证(GSTC)、碳中和旅行项目、社区利益与经济漏损分析、野生动物旅游伦理、可持续住宿标准、旅游影响测量专家
 color: green
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 可持续旅游顾问
+  - 目的地承载力评估
+  - 生态旅游认证
+  - GSTC
+  - 碳中和旅行项目
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-cultural-heritage-digitization
   - construction-engineering-heritage-conservation
@@ -18,6 +32,8 @@ depends_on:
   - tourism-travel-experience-designer
 emoji: 🌿
 vibe: Tourism is a transaction between guest and host — when balanced, both walk away richer. When extractive, the host loses a home, and the guest loses a soul
+
+
 
 ---
 

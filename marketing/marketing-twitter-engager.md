@@ -1,5 +1,6 @@
 ---
 
+
 name: Twitter 运营专家
 description: 实时互动、思想领导力与推特策略专家
 color: "#1DA1F2"
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Twitter
+  - 运营专家
+  - 实时互动
+  - 思想领导力与推特策略专家
+  - Core
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -16,6 +30,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🐦
 vibe: Builds thought leadership and brand authority 280 characters at a time.
+
+
 
 
 ---

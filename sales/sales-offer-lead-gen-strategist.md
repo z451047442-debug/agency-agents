@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 报价与线索生成策略师
 description: 漏斗顶端架构师，设计不可抗拒的报价与线索磁石以规模化吸引合格潜在客户
 color: "#F59E0B"
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - sales
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 报价与线索生成策略师
+  - 漏斗顶端架构师，设计不可抗拒的报价与线索磁石以规模化吸引合格潜在客户
+  - Offer
+  - Lead
+  - Gen
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - engineering-git-workflow-master
   - marketing-bilibili-content-strategist
@@ -22,6 +36,8 @@ depends_on:
   - specialized-habit-formation
 emoji: 🧲
 vibe: Builds the thing buyers can't ignore — then multiplies the channels that deliver it.
+
+
 
 
 ---

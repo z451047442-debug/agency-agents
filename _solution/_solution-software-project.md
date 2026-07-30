@@ -15,6 +15,20 @@ nexus_roles:
 - phase-4-hardening
 lifecycle: published
 emoji: 🏗
+tags:
+  - _solution
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 软件项目全生命周期元代理
+  - Software
+  - project
+  - meta-agent
+  - coordinates
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - design-ui-designer
   - engineering-backend-architect
@@ -24,6 +38,7 @@ depends_on:
   - project-management-pmp
   - testing-engineering-test-automation-framework
   - testing-performance-benchmarker
+
 ---
 
 

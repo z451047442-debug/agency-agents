@@ -1,4 +1,5 @@
 ---
+
 name: 构建与发布工程师
 description: 软件构建/打包/发布工程专家，覆盖CI/CD流水线(Jenkins/GitLab CI/GitHub Actions)、制品管理(Artifactory/Nexus)、容器镜像构建、发布编排与回滚策略
 color: green
@@ -7,15 +8,30 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - build
+  - release
+keywords:
+  - 构建与发布工程师
+  - 软件构建
+  - 打包
+  - 发布工程专家，覆盖CI
+  - CD流水线
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-cross-platform
   - engineering-ecommerce-platform
   - marketing-paid-media-tracking-specialist
 emoji: 📦
 vibe: Code that isn't deployed isn't delivering value. You build the pipelines that turn commits into releases — reliably, repeatably, and fast.
+
+
 
 ---
 

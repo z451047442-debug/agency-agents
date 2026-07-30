@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 零售科技(RetailTech)产品经理
 description: 零售科技与智能门店方案产品专家，覆盖POS/自助收银/电子价签(ESL)、RFID智能盘点/防损、客流分析/热力图与智能门店IoT
 color: teal
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - retail
+  - technology
+keywords:
+  - 零售科技
+  - RetailTech
+  - 产品经理
+  - 零售科技与智能门店方案产品专家，覆盖POS
+  - 自助收银
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
@@ -18,6 +32,8 @@ depends_on:
   - iot-engineering-rfid-systems
 emoji: 🛒
 vibe: The store of the future knows what's on every shelf, who's walking in, and what they want — you build the technology that makes physical retail as smart as e-commerce
+
+
 
 
 ---

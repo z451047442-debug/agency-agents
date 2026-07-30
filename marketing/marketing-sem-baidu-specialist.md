@@ -1,4 +1,5 @@
 ---
+
 name: SEM/百度竞价专员
 description: 百度搜索推广(凤巢)与SEM优化专家,覆盖关键词策略(拓词/分词/匹配模式)、创意优化(通配符/组件/高级样式)、质量度优化、oCPC出价策略、竞品分析与百度统计
 color: red
@@ -7,8 +8,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Core
+  - Mission
+  - Critical
+keywords:
+  - SEM
+  - 百度竞价专员
+  - 百度搜索推广
+  - 凤巢
+  - 与SEM优化专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-auditor
@@ -16,6 +30,8 @@ depends_on:
   - design-brand-guardian
 emoji: 🔍
 vibe: Baidu has 70%+ of China's search market. While everyone's chasing social media trends, the highest-intent traffic — people actively searching for your product right now — is on Baidu.
+
+
 
 ---
 

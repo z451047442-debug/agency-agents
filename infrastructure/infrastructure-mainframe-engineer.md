@@ -10,6 +10,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 大型机
+  - 主机工程师
+  - IBM
+  - OS大型机系统工程师
+  - 覆盖z
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -18,6 +32,7 @@ depends_on:
 emoji: 💻
 vibe: The cloud didn't kill the mainframe. When a billion banking transactions must
   process with zero downtime, the answer is still IBM Z.
+
 ---
 
 

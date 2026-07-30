@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 智能制造与工业互联网法律顾问
 description: 智能制造/工业4.0法律专家，覆盖智能工厂自动化系统责任、工业互联网数据权属、AI/算法治理、工业机器人安全认证、设备互联标准与跨境技术转让合规
 color: slate
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 智能制造与工业互联网法律顾问
+  - 智能制造
+  - 工业4.0法律专家，覆盖智能工厂自动化系统责任
+  - 工业互联网数据权属
+  - AI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - education-special-needs
@@ -20,6 +34,8 @@ depends_on:
   - marketing-cross-border-ecommerce
 emoji: 🏭
 vibe: When a robot makes a defective product, who's liable — the manufacturer, the software vendor, or the factory operator? You answer questions the law hasn't fully settled yet.
+
+
 
 
 ---

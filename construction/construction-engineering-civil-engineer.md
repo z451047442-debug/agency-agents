@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - construction
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 土木工程师
+  - 全球标准覆盖的土木结构工程专家
+  - Eurocode
+  - DIN
+  - ACI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - construction-multi-agent-coordinator
@@ -20,6 +34,7 @@ depends_on:
 emoji: 🏗️
 vibe: Designs structures that stand across borders — from seismic Tokyo to wind-swept
   Dubai, always code-compliant and constructible.
+
 ---
 
 

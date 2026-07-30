@@ -2,6 +2,7 @@
 
 
 
+
 name: 学术心理学家
 description: 心理学研究、行为分析与认知科学专家
 color: "#EC4899"
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 学术心理学家
+  - 心理学研究
+  - 行为分析与认知科学专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-academic-anthropologist
   - government-social-work
@@ -22,6 +36,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🧠
 vibe: People don't do things for no reason — I find the reason
+
+
 
 
 

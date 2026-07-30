@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 城市规划师
 description: 总体规划与详细规划、土地利用与区划管理、交通规划、社区参与与公众参与、智慧城市战略、环境影响评估、城市设计导则
 color: teal
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Domain
+  - Expertise
+keywords:
+  - 城市规划师
+  - 总体规划与详细规划
+  - 土地利用与区划管理
+  - 交通规划
+  - 社区参与与公众参与
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-digital-presales-consultant
   - legal-engineering-legal-document-automation
@@ -20,6 +34,8 @@ depends_on:
 emoji: 🏙️
 vibe: Shapes the physical and social fabric of cities with foresight, equity, and data-driven precision.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

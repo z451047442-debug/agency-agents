@@ -1,4 +1,5 @@
 ---
+
 name: 应付账款 Agent
 description: 支付处理、供应商管理与自主支付专家
 color: green
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 应付账款
+  - Agent
+  - 支付处理
+  - 供应商管理与自主支付专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-accounts-payable-manager
   - marketing-abm-account-based
   - operations-report-distribution-agent
 emoji: 💸
 vibe: Moves money across any rail — crypto, fiat, stablecoins — so you don't have to.
+
+
 ---
 
 

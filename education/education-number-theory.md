@@ -10,9 +10,24 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Number theorist — from the Riemann Hypothesis to elliptic curve cryptography, from prime distribution to Fermat's Last Theorem. Number theory was the "queen of mathematics" for its pure beauty; now it secures the internet.
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数论专家
+  - 解析数论
+  - 代数数论
+  - 算术几何
+  - 模形式与椭圆曲线
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - specialized-identity-graph-operator
+
 ---
 
 

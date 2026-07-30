@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - iot
+  - Identity
+  - years
+  - digital
+  - design
+keywords:
+  - ASIC
+  - FPGA
+  - 数字IC设计工程师
+  - 数字集成电路与FPGA设计专家，覆盖Verilog
+  - VHDL
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - engineering-code-reviewer
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every chip starts as code — you write the RTL that becomes the silicon that
   powers everything from phones to satellites
+
 ---
 
 

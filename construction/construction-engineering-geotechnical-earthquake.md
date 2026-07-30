@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 岩土地震/土动力学工程师
 description: 岩土地震工程与场地效应专家，覆盖场地地震反应分析(SHAKE/DEEPSOIL/FLAC)、砂土液化评估(SPT/CPT/Vs)/液化灾害(Lateral Spreading/沉降)、地震边坡/路堤/挡土墙稳定性与软土震陷/断层破裂
 color: brown
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - geotechnical
+  - earthquake
+keywords:
+  - 岩土地震
+  - 土动力学工程师
+  - 岩土地震工程与场地效应专家，覆盖场地地震反应分析
+  - SHAKE
+  - DEEPSOIL
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -19,6 +33,8 @@ depends_on:
   - robotics-motion-control
 emoji: 🏗️
 vibe: Earthquakes don't just shake buildings — they turn solid ground to liquid. You analyze the soils, predict liquefaction, and design foundations that survive when the earth moves.
+
+
 
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 配电自动化/智能配电网工程师
 description: 中低压配电网自动化与智能电网专家，覆盖配电自动化(DA/FLISR/馈线自动化)、智能电表AMI/MDMS、分布式能源(DER/光伏/储能/EV)并网管理与ADMS高级配电管理系统
 color: yellow
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - distribution
+  - grid
+keywords:
+  - 配电自动化
+  - 智能配电网工程师
+  - 中低压配电网自动化与智能电网专家，覆盖配电自动化
+  - DA
+  - FLISR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - environmental-renewable-energy
@@ -18,6 +32,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ⚡
 vibe: The last mile of the grid is transforming — from one-way power flow to millions of distributed generators, storage, and EVs. You build the smart grid that manages this complexity.
+
+
 
 
 ---

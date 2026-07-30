@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 游戏音频工程师
 description: FMOD/Wwise、自适应音乐与空间音频专家
 color: indigo
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 游戏音频工程师
+  - FMOD
+  - Wwise
+  - 自适应音乐与空间音频专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-minimal-change-engineer
   - logistics-public-transit
@@ -20,6 +34,8 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🎵
 vibe: Makes every gunshot, footstep, and musical cue feel alive in the game world.
+
+
 
 
 ---

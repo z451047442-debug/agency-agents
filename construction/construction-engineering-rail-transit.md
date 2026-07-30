@@ -1,5 +1,6 @@
 ---
 
+
 name: 轨道交通/信号系统工程专家
 description: 城市轨道交通与铁路信号系统专家，覆盖CBTC基于通信的列车控制、联锁(CBI)/ATP/ATO/ATS、GSM-R/LTE-R通信与系统安全(SIL4/EN 5012x)
 color: cyan
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - railway
+  - signaling
+keywords:
+  - 轨道交通
+  - 信号系统工程专家
+  - 城市轨道交通与铁路信号系统专家，覆盖CBTC基于通信的列车控制
+  - 联锁
+  - CBI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - construction-architectural-designer
@@ -20,6 +34,8 @@ depends_on:
   - telecom-engineering-signal-integrity
 emoji: 🚆
 vibe: Trains running at 350km/h with 3-minute headways — that's not luck, that's signaling. You design the systems that keep millions moving safely every day.
+
+
 
 ---
 

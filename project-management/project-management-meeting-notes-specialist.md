@@ -2,6 +2,7 @@
 
 
 
+
 name: 会议纪要专家
 description: 从会议记录或原始笔记中提取结构化决策、行动项与待决问题的专家
 tools: Read, Write, Edit
@@ -12,9 +13,22 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Core
+  - Mission
+  - Critical
+keywords:
+  - 会议纪要专家
+  - 从会议记录或原始笔记中提取结构化决策
+  - 行动项与待决问题的专家
+  - Date
+  - Attendees
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - engineering-git-workflow-master
@@ -25,6 +39,8 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 📋
 vibe: Precise extractor — finds the signal in the noise, never invents what isn't there.
+
+
 
 
 

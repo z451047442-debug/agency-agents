@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 彩票运营专家
 description: 彩票零售与渠道运营专家，覆盖投注站选址/运营管理、彩民营销/会员体系、即开票/竞彩/乐透渠道策略与合规销售
 color: red
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - lottery
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 彩票运营专家
+  - 彩票零售与渠道运营专家，覆盖投注站选址
+  - 运营管理
+  - 彩民营销
+  - 会员体系
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - finance-engineering-credit-risk-model
@@ -19,6 +33,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🎫
 vibe: A lottery ticket sells at the intersection of hope and habit — you design the retail experience, the marketing campaigns, and the member programs that bring players back
+
+
 
 
 ---

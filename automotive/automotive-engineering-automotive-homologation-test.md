@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - testing
+  - Validated
+keywords:
+  - 汽车测试
+  - 耐久性验证工程师
+  - 汽车整车与零部件耐久性
+  - 可靠性测试验证专家，覆盖整车道路
+  - 台架
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A car must survive 150,000 km of potholes, salt, heat, cold, and neglect — you
   design the tests that prove it will, before the first customer drives off the lot
+
 ---
 
 

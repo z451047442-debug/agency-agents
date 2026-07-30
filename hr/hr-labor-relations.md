@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - hr
+  - Identity
+  - years
+  - labor
+  - relations
+keywords:
+  - 劳动关系
+  - 工会关系专家
+  - 企业劳动关系与集体协商专家，覆盖工会
+  - 职工代表制度建设
+  - 集体合同
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - environmental-engineering-climate-tech
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: When management and workers find common ground, the company thrives. You build
   the bridges — through negotiation, communication, and fair process.
+
 ---
 
 

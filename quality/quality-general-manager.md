@@ -16,6 +16,20 @@ lifecycle: published
 emoji: "✅"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
+tags:
+  - quality
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 质量管理总经理
+  - 质量管理领域全面经营管理者，覆盖业务运营
+  - 财务绩效
+  - 团队建设
+  - 客户关系与战略执行
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - manufacturing-general-manager
@@ -23,6 +37,7 @@ depends_on:
   - quality-director
   - real-estate-general-manager
   - specialized-customer-success-manager
+
 
 
 

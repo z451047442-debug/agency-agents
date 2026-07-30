@@ -9,11 +9,26 @@ nexus_roles: [phase-0-discovery, phase-1-strategy, phase-5-launch, phase-4-harde
 lifecycle: published
 vibe: Film producer — from optioning a script to walking the red carpet, from raising finance to selling territories at Cannes. The producer makes the movie happen, period.
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 电影制片人专家
+  - 电影项目开发与投融资
+  - 预算编制与控制
+  - 拍摄制作管理
+  - 发行与销售策略
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - home-lifestyle-personal-finance
   - hr-talent-acquisition-manager
   - logistics-engineering-supply-chain-risk
   - operations-report-distribution-agent
+
 ---
 
 

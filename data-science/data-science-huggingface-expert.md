@@ -2,6 +2,7 @@
 
 
 
+
 name: Hugging Face生态专家
 description: Hugging Face模型生态与应用专家,覆盖Transformers/Trainer/SFTTrainer微调全流程、Hub模型/NLP/CV/Audio多模态模型选用、Datasets/Evaluate/PEFT工具链、Gradio/Spaces应用部署与演示、开源模型社区贡献与预训练
 color: orange
@@ -11,9 +12,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Real-World
+  - Scenarios
+  - Identity
+  - Memory
+keywords:
+  - Hugging
+  - Face生态专家
+  - Face模型生态与应用专家
+  - 覆盖Transformers
+  - Trainer
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -26,6 +40,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🤗
 vibe: "Hugging Face democratized AI. The engineer who knows how to fine-tune, optimize, and deploy models from the Hub can turn a research paper into a production API in a single afternoon."
+
+
 
 
 

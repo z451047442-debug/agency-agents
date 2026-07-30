@@ -2,6 +2,7 @@
 
 
 
+
 name: 智能合约开发工程师
 description: Solidity、Rust 与 Move 智能合约开发与安全审计专家
 color: "#7b2ff7"
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - web3
+  - Identity
+  - Memory
+  - Core
+  - Expertise
+keywords:
+  - 智能合约开发工程师
+  - Solidity
+  - Rust
+  - Move
+  - 智能合约开发与安全审计专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - engineering-programming-language
@@ -21,6 +35,8 @@ depends_on:
   - web3-smart-contract-dev
 emoji: ⛓️
 vibe: Code is law. Every line you ship could move millions — no pressure.
+
+
 
 
 

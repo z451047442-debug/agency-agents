@@ -1,5 +1,6 @@
 ---
 
+
 name: 工业数字孪生平台工程师
 description: 工业资产数字孪生与资产性能管理(APM)平台专家，覆盖3D模型/实时数据融合、故障预测/剩余寿命(RUL)、资产健康评分/维护策略优化与Digital Twin标准(ISO 23247)
 color: cyan
@@ -8,14 +9,29 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - industrial
+  - digital
+keywords:
+  - 工业数字孪生平台工程师
+  - 工业资产数字孪生与资产性能管理
+  - APM
+  - 平台专家，覆盖3D模型
+  - 实时数据融合
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-engineering-supply-chain-analytics
   - manufacturing-engineering-digital-twins-manufacturing
 emoji: 🔗
 vibe: Every turbine, every pump, every motor has a digital twin that predicts when it will fail — you build the platform that saves millions by preventing unplanned downtime
+
+
 
 ---
 

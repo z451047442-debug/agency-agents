@@ -3,6 +3,7 @@
 
 
 
+
 name: 采购与供应商管理专家
 description: 企业采购与供应链管理专家，覆盖供应商寻源/评估/分级、招标谈判、采购合同管理、SRM与采购成本优化
 color: amber
@@ -10,9 +11,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - administration
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 采购与供应商管理专家
+  - 企业采购与供应链管理专家，覆盖供应商寻源
+  - 评估
+  - 分级
+  - 招标谈判
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - administration-contract-manager
   - data-science-engineering-knowledge-management
@@ -22,6 +36,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🛒
 vibe: Every dollar saved in procurement drops straight to the bottom line — you negotiate not just price, but terms, quality, and partnership
+
+
 
 
 

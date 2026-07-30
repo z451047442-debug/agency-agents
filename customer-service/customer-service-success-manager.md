@@ -1,5 +1,6 @@
 ---
 
+
 name: 客户成功经理(CSM)
 description: 客户成功与续费管理专家，覆盖客户入职/健康度监控、QBR业务评审、流失预警与挽回、续费/增购(upsell)策略与客户生命周期管理
 color: green
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - customer-service
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 客户成功经理
+  - CSM
+  - 客户成功与续费管理专家，覆盖客户入职
+  - 健康度监控
+  - QBR业务评审
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - customer-service-call-center
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,8 @@ depends_on:
   - retail-customer-insight-analyst
 emoji: 🌟
 vibe: The sale isn't the finish line — it's the starting line. You make sure customers achieve their goals with your product, so they renew, expand, and advocate.
+
+
 
 ---
 

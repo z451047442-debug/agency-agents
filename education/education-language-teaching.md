@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 语言教学专家
 description: 对外汉语(汉语国际教育)/日语/法语/德语/西班牙语/俄语/韩语/阿拉伯语/意大利语/葡萄牙语第二语言教学专家，覆盖语言习得理论、交际教学法、HSK/JLPT/DELE等标准化考试与文化教学
 emoji: 🗣️
@@ -9,13 +10,28 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 语言教学专家
+  - 对外汉语
+  - 汉语国际教育
+  - 日语
+  - 法语
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-teacher
   - engineering-git-workflow-master
   - government-social-work
 vibe: Language teaching specialist — language acquisition follows a natural order, input hypothesis explains why immersion works, and culture is not an add-on but the very medium through which language lives.
+
+
 
 
 ---

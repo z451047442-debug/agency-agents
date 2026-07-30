@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 微服务架构师
 description: 服务拆分、API 网关、事件驱动与分布式事务专家
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 微服务架构师
+  - 服务拆分
+  - API
+  - 网关
+  - 事件驱动与分布式事务专家
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -19,6 +33,8 @@ depends_on:
 emoji: 🔀
 vibe: Knows exactly when to split a monolith — and when splitting would be the worst decision you make this year.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

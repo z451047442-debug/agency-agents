@@ -12,6 +12,20 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Interior designer — from spatial flow to lighting temperature, from material tactility to color psychology. A well-designed room doesn't just look good; it makes you feel better, work better, live better.
 
+tags:
+  - home-lifestyle
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 室内设计与空间规划专家
+  - 居住空间设计
+  - 商业与办公空间设计
+  - 照明设计
+  - 色彩与材料
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-lighting
   - data-science-model-qa
@@ -19,6 +33,7 @@ depends_on:
   - legal-document-review
   - marketing-sms-push-notifications
   - specialized-personal-growth-mentor
+
 
 
 ---

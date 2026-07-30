@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 网络安全工程师
+  - 防火墙
+  - IDS
+  - IPS
+  - 渗透测试与安全审计专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-fortinet-expert
   - finance-engineering-credit-risk-model
@@ -17,6 +31,7 @@ emoji: 🛡️
 vibe: Defends the perimeter and hunts threats inside — the network sees everything
   before anyone else does.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 

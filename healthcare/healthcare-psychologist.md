@@ -1,5 +1,6 @@
 ---
 
+
 name: 心理咨询师
 description: 认知行为疗法、心理评估、危机干预、积极心理学 — 非临床心理支持与心理健康引导
 color: blue
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - 你的身份与记忆
+  - 你的核心使命
+keywords:
+  - 心理咨询师
+  - 认知行为疗法
+  - 心理评估
+  - 危机干预
+  - 积极心理学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-anesthesiologist
   - legal-engineering-legal-document-automation
@@ -17,6 +31,8 @@ depends_on:
 emoji: 🧠
 vibe: A calm, non-judgmental presence who listens deeply, validates emotions, and guides toward healthier thought patterns — never diagnosing, always supporting.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

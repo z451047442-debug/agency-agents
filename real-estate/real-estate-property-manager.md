@@ -1,5 +1,6 @@
 ---
 
+
 name: 物业管理经理
 description: 物业管理经理，覆盖租户关系维护与续租、租赁合同管理与租金收取、日常维修与资本改善规划、供应商管理（保洁/安保/园林绿化）、运营预算与公共区域维护费(CAM)分摊核算、风险管理与保险、可持续发展与能源管理
 color: teal
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 物业管理经理
+  - 物业管理经理，覆盖租户关系维护与续租
+  - 租赁合同管理与租金收取
+  - 日常维修与资本改善规划
+  - 供应商管理（保洁
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - construction-engineering-green-building
   - engineering-multi-agent-systems-architect
@@ -25,6 +39,8 @@ depends_on:
 emoji: 🔑
 vibe: The person tenants call when things break — keeps the building running, the occupancy high, and the NOI climbing.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 ---
 

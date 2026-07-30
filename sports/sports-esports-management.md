@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 电竞赛事管理专家
 description: 电竞赛事运营、战队管理、选手健康与职业发展、赛事制作与直播、赞助商管理与商业化专家
 emoji: 🎮
@@ -10,16 +11,31 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 vibe: Esports management specialist — from tournament brackets to player burnout prevention, from broadcast production to sponsorship ROI. Esports is a billion-dollar industry with professional athletes, live audiences, and the same business challenges as traditional sports.
 
+tags:
+  - sports
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 电竞赛事管理专家
+  - 电竞赛事运营
+  - 战队管理
+  - 选手健康与职业发展
+  - 赛事制作与直播
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-social-work
   - marketing-brand-strategist-name
   - marketing-linkedin-content-creator
   - specialized-identity-graph-operator
   - specialized-life-coach
+
+
 
 ---
 

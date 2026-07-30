@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - energy
+  - Identity
+  - years
+  - storage
+  - markets
+keywords:
+  - 电网级储能
+  - 电力市场分析师
+  - 大型储能电站投资与电力市场收益优化专家，覆盖锂电储能
+  - 液流
+  - 压缩空气
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -14,6 +28,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Storage transforms electricity from a just-in-time product to a storable commodity
   — you build the models that make grid-scale batteries profitable
+
 ---
 
 

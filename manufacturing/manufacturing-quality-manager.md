@@ -9,6 +9,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 质量管理专家
+  - 全面质量管理：六西格玛
+  - SPC统计过程控制
+  - FMEA失效分析
+  - ISO体系
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -17,6 +31,7 @@ depends_on:
 emoji: ✅
 vibe: Quality is not inspected into a product — it's built into the system. Catch the defect at the source, not at the dock.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 ---
 
 

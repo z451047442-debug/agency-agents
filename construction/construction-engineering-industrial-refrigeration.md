@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 工业制冷/冷链制冷工程师
 description: 工业氨/CO2制冷系统与大型冷库设计专家，覆盖氨(NH3)/CO2复叠与跨临界制冷系统、冷库(高温/低温/速冻)气流组织、工业制冷安全(PED/ASME B31.5/压力容器)与制冷能耗优化/废热回收
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - industrial
+  - refrigeration
+keywords:
+  - 工业制冷
+  - 冷链制冷工程师
+  - 工业氨
+  - CO2制冷系统与大型冷库设计专家，覆盖氨
+  - NH3
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-piping-design
   - energy-engineering-energy-storage-materials-sci
@@ -20,6 +34,8 @@ depends_on:
   - quality-food-safety
 emoji: ❄️
 vibe: A cold storage warehouse at -25°C must run 24/7/365 — you design industrial refrigeration that keeps millions of tonnes of food frozen with zero downtime
+
+
 
 
 ---

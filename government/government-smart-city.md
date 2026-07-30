@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 智慧城市顾问
 description: 城市物联网基础设施、智能交通系统(ITS)、智能电网与能源管理、数字市民服务、城市数据平台与分析、智慧城市PPP模式、关键基础设施网络安全
 color: cyan
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 智慧城市顾问
+  - 城市物联网基础设施
+  - 智能交通系统
+  - 智能电网与能源管理
+  - 数字市民服务
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - government-digital-presales-consultant
@@ -21,6 +35,8 @@ depends_on:
 emoji: 🌆
 vibe: Weaving the digital nervous system of tomorrow's cities — connecting sensors, citizens, and services into an intelligent, resilient urban fabric.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 

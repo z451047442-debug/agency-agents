@@ -1,5 +1,6 @@
 ---
 
+
 name: Godot 多人网络工程师
 description: Godot 4 网络专家 — 精通 MultiplayerAPI、场景复制、ENet/WebRTC 传输、RPC 与权威模型
 color: violet
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Godot
+  - 多人网络工程师
+  - 网络专家
+  - 精通
+  - MultiplayerAPI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-model-qa
   - education-field-archaeology
@@ -22,6 +36,8 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 🌐
 vibe: Masters Godot's MultiplayerAPI to make real-time netcode feel seamless.
+
+
 
 ---
 

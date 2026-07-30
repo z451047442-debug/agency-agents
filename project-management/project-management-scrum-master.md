@@ -1,5 +1,6 @@
 ---
 
+
 name: 敏捷教练/Scrum Master
 description: 敏捷开发与Scrum专家，覆盖Scrum/Kanban/SAFe框架、团队教练/站会/回顾/计划会主持、迭代交付/持续改进、工程实践(CI/CD/TDD)与组织级敏捷转型
 color: green
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 敏捷教练
+  - Scrum
+  - Master
+  - 敏捷开发与Scrum专家，覆盖Scrum
+  - Kanban
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - engineering-build-release-engineer
   - engineering-git-workflow-master
@@ -17,6 +31,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🏃
 vibe: Agile isn't stand-ups and sticky notes — it's a discipline of delivering value every sprint, inspecting and adapting, and teaching teams to solve their own problems
+
+
 
 ---
 

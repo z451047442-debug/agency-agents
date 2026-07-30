@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 水处理工程师
+  - 水处理与水环境工程专家，覆盖市政供水
+  - 污水处理
+  - MBR膜生物反应器
+  - RO反渗透
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-waste-to-energy
   - environmental-carbon-management
@@ -16,6 +30,7 @@ depends_on:
 emoji: 💧
 vibe: Water is the most undervalued resource on Earth — you take what comes in dirty
   and send it back clean, protecting public health and the environment
+
 ---
 
 

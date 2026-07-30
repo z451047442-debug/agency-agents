@@ -1,5 +1,6 @@
 ---
 
+
 name: 大型活动与MICE策划师
 description: 国际会议、展览、奖励旅游策划专家，千万级预算项目全案操盘
 color: violet
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 大型活动与MICE策划师
+  - 国际会议
+  - 展览
+  - 奖励旅游策划专家，千万级预算项目全案操盘
+  - Isabelle
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - gis-drone-reality-mapping
   - hr-labor-relations
@@ -16,6 +30,8 @@ depends_on:
   - tourism-mice-planner
 emoji: 🎪
 vibe: A great event doesn't just happen — it's a thousand invisible decisions that make the impossible look effortless
+
+
 
 ---
 

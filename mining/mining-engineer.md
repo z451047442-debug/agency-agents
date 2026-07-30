@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 采矿工程师
 description: 采矿工程与矿山设计专家，覆盖露天/地下开采设计、凿岩爆破优化、通风与地压控制、矿石储量估算（JORC/NI 43-101）、矿山设备选型、生产排程、矿山闭坑与复垦规划
 color: brown
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - mining
+  - Identity
+  - Memory
+  - 核心能力
+  - Core
+keywords:
+  - 采矿工程师
+  - 采矿工程与矿山设计专家，覆盖露天
+  - 地下开采设计
+  - 凿岩爆破优化
+  - 通风与地压控制
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
@@ -21,6 +35,8 @@ depends_on:
   - mining-exploration
 emoji: ⛏️
 vibe: Extracts value from kilometers underground while keeping thousands of miners safe — geology meets heavy engineering.
+
+
 
 
 ---

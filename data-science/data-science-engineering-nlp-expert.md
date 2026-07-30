@@ -1,5 +1,6 @@
 ---
 
+
 name: NLP/自然语言处理专家
 description: 文本分类、命名实体识别、情感分析与机器翻译专家
 color: blue
@@ -9,9 +10,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - NLP
+  - 自然语言处理专家
+  - 文本分类
+  - 命名实体识别
+  - 情感分析与机器翻译专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -21,6 +35,8 @@ depends_on:
 emoji: 📝
 vibe: Language is the most complex data type — and you know how to make machines truly understand it.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

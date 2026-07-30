@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 建筑总经理
 description: 建筑领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行
 color: sienna
@@ -10,12 +11,25 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "🏗"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
+tags:
+  - construction
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 建筑总经理
+  - 建筑领域全面经营管理者，覆盖业务运营
+  - 财务绩效
+  - 团队建设
+  - 客户关系与战略执行
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - construction-director
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,8 @@ depends_on:
   - legal-general-manager
   - pets-general-manager
   - specialized-customer-success-manager
+
+
 
 
 

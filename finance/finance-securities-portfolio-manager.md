@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 投资组合经理
+  - 资产管理与组合构建专家，覆盖大类资产配置
+  - 组合优化
+  - 均值方差
+  - 风险平价
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Diversification is the only free lunch in finance — you assemble assets that
   zig when others zag into portfolios that survive and thrive across market regimes
+
 ---
 
 

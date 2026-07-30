@@ -1,5 +1,6 @@
 ---
 
+
 name: 动效/交互动画设计师
 description: UI动效与交互反馈设计专家，覆盖微交互/转场动画、加载/等待状态设计、Lottie/Rive动效实现与可用性/愉悦感平衡
 color: pink
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - design
+  - Identity
+  - years
+  - motion
+  - digital
+keywords:
+  - 动效
+  - 交互动画设计师
+  - UI动效与交互反馈设计专家，覆盖微交互
+  - 转场动画
+  - 加载
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-brand-guardian
   - marketing-abm-account-based
@@ -18,6 +32,8 @@ depends_on:
   - spatial-computing-multi-agent-coordinator
 emoji: ✨
 vibe: A button that responds with a subtle bounce doesn't just look good — it feels good. You design the motion that makes digital products feel alive.
+
+
 
 
 ---

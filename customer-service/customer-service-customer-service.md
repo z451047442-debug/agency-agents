@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 客户服务专员
 emoji: 🎧
 description: 专业客户服务专家，处理咨询、投诉、账户支持与常见问题解答，以温暖高效的服务面向客户
@@ -9,14 +10,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - customer-service
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 客户服务专员
+  - 专业客户服务专家，处理咨询
+  - 投诉
+  - 账户支持与常见问题解答，以温暖高效的服务面向客户
+  - Customer
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - customer-service-retail-customer-returns
   - healthcare-customer-service
   - legal-document-review
   - marketing-abm-account-based
 vibe: Every customer interaction is a chance to turn a problem into loyalty — handle it with care, speed, and a human touch.
+
+
 
 
 ---

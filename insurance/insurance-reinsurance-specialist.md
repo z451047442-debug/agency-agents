@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 再保险专家
+  - 再保险与风险转移专家，覆盖合约再保
+  - 临时分保
+  - 巨灾建模
+  - 转分保与再保险方案结构设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-fire-protection
   - education-special-needs
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🔄
 vibe: Insurance for insurance companies — designing the financial architecture that
   keeps carriers solvent when catastrophes strike
+
 ---
 
 

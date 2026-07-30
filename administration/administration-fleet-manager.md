@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - administration
+  - Identity
+  - years
+  - managing
+  - corporate
+keywords:
+  - 企业车辆
+  - 车队管理专家
+  - 企业车队与公务车辆管理专家，覆盖车辆采购
+  - 租赁
+  - 处置全生命周期
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - administration-contract-manager
   - cybersecurity-incident-response
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A fleet of 100 vehicles is a logistics operation hiding in an admin budget —
   you optimize routes, control costs, and keep drivers safe
+
 ---
 
 

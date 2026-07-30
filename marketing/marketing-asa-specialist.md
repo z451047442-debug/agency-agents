@@ -1,5 +1,6 @@
 ---
 
+
 name: ASA优化师
 description: Apple Search Ads优化专家,覆盖ASA基础/高级/Custom Product Page全产品矩阵、关键词策略(发现/品牌/竞品/类别)、CPT/CPA出价优化、ASO联动(元数据/关键词/评分)、iOS ATT框架下的归因与ROI分析
 color: purple
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Core
+  - Mission
+  - Critical
+keywords:
+  - ASA优化师
+  - Apple
+  - Search
+  - Ads优化专家
+  - 覆盖ASA基础
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-feature-store
   - logistics-last-mile-delivery
 emoji: 🍎
 vibe: The App Store search bar is the most expensive real estate on iOS. ASA turns it from a cost center into a precision acquisition machine — when you know exactly which keywords your users search before they download.
+
+
 
 ---
 

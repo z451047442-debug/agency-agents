@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 开发项目经理
 description: 房地产开发全周期管理：拿地研判、规划设计、报建审批、施工管理、交付验收
 color: red
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 开发项目经理
+  - 房地产开发全周期管理：拿地研判
+  - 规划设计
+  - 报建审批
+  - 施工管理
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -21,6 +35,8 @@ depends_on:
 emoji: 🏗️
 vibe: From dirt to doorstep — every permit, every pour, every punch-list item is a step toward something that will stand for decades.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

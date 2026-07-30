@@ -1,4 +1,5 @@
 ---
+
 name: 成本会计师
 description: 成本核算与管理会计专家，覆盖标准成本/实际成本法、BOM/工艺路线成本核算、差异分析、COGS计算、存货估值与制造费用分摊
 color: teal
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 成本会计师
+  - 成本核算与管理会计专家，覆盖标准成本
+  - 实际成本法
+  - BOM
+  - 工艺路线成本核算
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-fpa-analyst
   - marketing-abm-account-based
   - operations-report-distribution-agent
 emoji: 🏭
 vibe: You know exactly what it costs to make every product — and more importantly, why it costs that, and where the waste is hiding
+
+
 ---
 
 

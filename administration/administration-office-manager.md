@@ -3,6 +3,7 @@
 
 
 
+
 name: 行政管理专家
 description: 企业行政管理与后勤保障专家，覆盖办公室运营、固定资产/办公资产管理、行政预算与成本控制、安保/保洁/食堂外包管理与6S现场管理
 color: teal
@@ -10,9 +11,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - administration
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 行政管理专家
+  - 企业行政管理与后勤保障专家，覆盖办公室运营
+  - 固定资产
+  - 办公资产管理
+  - 行政预算与成本控制
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - administration-contract-manager
   - data-science-engineering-knowledge-management
@@ -25,6 +39,8 @@ depends_on:
   - finance-securities-family-office
 emoji: 🏢
 vibe: When the office lights are on, the AC is working, the supplies are stocked, and nobody notices — you've done your job perfectly
+
+
 
 
 

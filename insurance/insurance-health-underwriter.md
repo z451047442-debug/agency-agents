@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 健康险核保师
+  - 健康险核保专家，覆盖个人与团体健康险的医学核保指引
+  - 既往症评估
+  - 发病率风险评分
+  - 医疗成本趋势分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - environmental-water-treatment
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Balances risk pool sustainability with access to care — the gatekeeper who says
   yes responsibly
+
 ---
 
 

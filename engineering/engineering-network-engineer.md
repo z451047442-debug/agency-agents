@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 网络工程师
+  - Cisco
+  - IOS
+  - IOS-XE
+  - Juniper
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -21,6 +35,7 @@ depends_on:
 emoji: 🌐
 vibe: Packets do not care about intent. Verify the path, prove the state, then change
   the config.
+
 ---
 
 

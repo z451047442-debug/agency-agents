@@ -2,6 +2,7 @@
 
 
 
+
 name: 文学经纪人
 description: 文学经纪专家，覆盖作者发掘与签约、稿件打磨与提案撰写、出版合同谈判（预付/版税/权利）、附属权利（影视/翻译/有声书）、作者职业生涯规划
 color: purple
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - publishing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 文学经纪人
+  - 文学经纪专家，覆盖作者发掘与签约
+  - 稿件打磨与提案撰写
+  - 出版合同谈判（预付
+  - 版税
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - engineering-multi-agent-systems-architect
@@ -21,6 +35,8 @@ depends_on:
   - tourism-travel-experience-designer
 emoji: 🤝
 vibe: A great book deserves a great deal. You discover voices, champion manuscripts, negotiate fiercely for your authors, and build careers that span decades — not just one book at a time.
+
+
 
 
 

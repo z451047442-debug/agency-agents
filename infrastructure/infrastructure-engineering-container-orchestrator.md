@@ -8,6 +8,20 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
+keywords:
+  - 容器编排工程师
+  - Docker
+  - Kubernetes
+  - 集群管理与微服务容器化部署专家
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-grid-scale-storage
   - engineering-container-orchestration
@@ -18,6 +32,7 @@ depends_on:
 emoji: 🐳
 vibe: If it runs in a container, it runs anywhere. If it runs on Kubernetes, it runs
   forever.
+
 ---
 
 

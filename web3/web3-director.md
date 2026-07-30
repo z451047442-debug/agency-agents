@@ -1,6 +1,20 @@
 ---
 color: navy
 date_added: '2026-07-03'
+tags:
+  - web3
+  - Identity
+  - years
+  - blockchain
+  - crypto
+keywords:
+  - Web3
+  - 区块链项目总监
+  - 区块链业务最高负责人，覆盖去中心化产品策略
+  - 智能合约
+  - 协议开发
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-risk
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Web3 promises to decentralize everything — you lead the team building the protocols,
   tokens, and communities that make it real.
+
 ---
 
 

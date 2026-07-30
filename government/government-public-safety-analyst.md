@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 公共安全分析师
 description: 公共安全与应急管理：风险评估、应急预案、防灾减灾、舆情监测、智慧安防
 color: red
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 公共安全分析师
+  - 公共安全与应急管理：风险评估
+  - 应急预案
+  - 防灾减灾
+  - 舆情监测
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -22,6 +36,8 @@ depends_on:
 emoji: 🛡️
 vibe: Safety is invisible when it works — the job is to make sure it stays that way, and to be ready when it doesn't.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
+
 
 
 ---

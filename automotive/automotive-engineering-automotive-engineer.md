@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 汽车
+  - 智能驾驶工程师
+  - 自动驾驶
+  - 智能座舱
+  - 车联网与汽车电子系统开发专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-multi-agent-coordinator
@@ -20,6 +34,7 @@ tools: Read, Write, Edit, Bash, Grep, Glob
 version: 1.0.0
 vibe: Builds the brain of the car — perception, planning, control — where a 1% error
   isn't a bug, it's a crash.
+
 ---
 
 

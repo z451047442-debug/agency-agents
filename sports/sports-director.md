@@ -1,5 +1,6 @@
 ---
 
+
 name: "Sports Director"
 description: "Sports organization director — strategic leadership across athletic programs, coaching, and operations"
 emoji: "🏟️"
@@ -10,12 +11,27 @@ vibe: "athletic excellence meets organizational leadership"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
+tags:
+  - sports
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Sports
+  - Director
+  - organization
+  - strategic
+  - leadership
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - construction-engineering-landscape-architecture
   - engineering-visual-studio-python
   - healthcare-engineering-regulatory-science
   - sports-multi-agent-coordinator
+
+
 
 ---
 

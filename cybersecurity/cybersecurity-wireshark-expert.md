@@ -7,11 +7,26 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Wireshark网络分析专家
+  - Wireshark
+  - tshark网络数据包分析专家，覆盖抓包策略设计
+  - BPF
+  - MAC
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-ai-agent-developer
 emoji: 🦈
 vibe: "Packets don't lie. When application logs, monitoring dashboards, and vendor support all point in different directions, the pcap is the single source of truth."
+
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: SAP技术专家
 description: SAP Basis与ABAP技术专家,覆盖SAP S/4HANA架构部署与迁移、Basis运维(Client Copy/Transport/Spool/Background Job)、HANA数据库管理与性能优化、ABAP开发与Fiori/UI5、BTP集成套件与接口管理(IDoc/RFC/SOAP/OData)
 color: blue
@@ -8,8 +9,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - SAP技术专家
+  - SAP
+  - Basis与ABAP技术专家
+  - 覆盖SAP
+  - 4HANA架构部署与迁移
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-olap-database
   - testing-test-results-analyzer
@@ -17,6 +31,8 @@ depends_on:
 
 emoji: 🏭
 vibe: SAP runs 77% of the world's transaction revenue. When the production client won't open, the transport queue is stuck, and month-end closing batch is overdue, the Basis consultant is the most important person in the building.
+
+
 
 ---
 

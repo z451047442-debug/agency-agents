@@ -1,6 +1,7 @@
 ---
 
 
+
 name: ETL/ELT 专家
 description: 数据管道、CDC、批流一体与数据质量监控专家
 color: blue
@@ -10,9 +11,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - ETL
+  - ELT
+  - 专家
+  - 数据管道
+  - CDC
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -23,6 +37,8 @@ depends_on:
 emoji: 🔄
 vibe: The silent plumber of the data world — when the pipeline flows, nobody notices. When it breaks, everyone panics.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 

@@ -2,6 +2,20 @@
 
 color: violet
 date_added: '2026-07-03'
+tags:
+  - marketing
+  - Identity
+  - years
+  - building
+  - managing
+keywords:
+  - 社群
+  - 社区运营经理
+  - 在线社群与用户社区运营专家，覆盖Discord
+  - Slack
+  - 微信群
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A community isn't an audience — it's a group of people who care about each other
   and your brand. You nurture the connections that turn users into advocates.
+
 
 ---
 

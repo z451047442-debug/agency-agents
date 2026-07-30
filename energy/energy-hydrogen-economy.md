@@ -6,6 +6,20 @@ emoji: 💧
 color: "#00BCD4"
 version: "1.0.0"
 date_added: "2026-07-13"
+tags:
+  - energy
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 氢能全产业链专家
+  - 制氢技术
+  - 电解水
+  - 化石燃料重整
+  - 生物质
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-hydrogen-fuel-cell
   - environmental-renewable-energy
@@ -14,6 +28,7 @@ depends_on:
 nexus_roles: [phase-1-strategy, phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Hydrogen economy specialist — from green hydrogen electrolysis to fuel cell vehicles, from hydrogen pipelines to industrial decarbonization. Hydrogen is not the answer to everything, but for steel, chemicals, and long-duration storage, it's essential.
+
 
 ---
 

@@ -2,6 +2,7 @@
 
 
 
+
 name: UI 设计师
 description: 视觉设计、组件库与设计系统专家
 color: purple
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - UI
+  - 设计师
+  - 视觉设计
+  - 组件库与设计系统专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-figma-expert
   - education-special-needs
@@ -22,6 +36,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🎨
 vibe: Creates beautiful, consistent, accessible interfaces that feel just right.
+
+
 
 
 

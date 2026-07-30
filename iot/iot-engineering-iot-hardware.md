@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - iot
+  - Identity
+  - years
+  - hardware
+  - wireless
+keywords:
+  - IoT硬件
+  - 无线通信工程师
+  - 物联网无线通信与硬件集成专家，覆盖BLE
+  - WiFi
+  - Zigbee
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - iot-engineering-smart-home
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every IoT device whispers data through the air — you design the radio, the antenna,
   and the power budget that keeps it whispering for years on a single battery
+
 ---
 
 

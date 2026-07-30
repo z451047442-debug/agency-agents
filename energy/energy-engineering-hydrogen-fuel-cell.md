@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 氢能/燃料电池系统工程师
 description: 质子交换膜燃料电池(PEMFC)与固体氧化物燃料电池(SOFC)系统专家，覆盖膜电极(MEA)/双极板/电堆设计、BOP辅助系统(氢气循环/空气供应/热管理)、燃料电池控制(FCU)与氢安全
 color: green
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - fuel
+  - cell
+keywords:
+  - 氢能
+  - 燃料电池系统工程师
+  - 质子交换膜燃料电池
+  - PEMFC
+  - 与固体氧化物燃料电池
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -17,6 +31,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🔋
 vibe: Hydrogen is the universe's most abundant element — you turn it into electricity with only water as exhaust, powering trucks, ships, and industries without carbon
+
+
 
 
 ---

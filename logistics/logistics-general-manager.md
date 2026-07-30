@@ -1,6 +1,20 @@
 ---
 color: navy
 date_added: '2026-07-03'
+tags:
+  - logistics
+  - Identity
+  - years
+  - leadership
+  - business
+keywords:
+  - 物流公司总经理
+  - 第三方物流
+  - 3PL
+  - 合同物流企业全面管理者，覆盖战略客户开发
+  - 仓储
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - logistics-multi-agent-coordinator
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every package that arrives on time is a promise kept; every late shipment is
   a customer lost. You run the network that commerce depends on.
+
 ---
 
 

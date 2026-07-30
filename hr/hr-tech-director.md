@@ -1,6 +1,7 @@
 ---
 
 
+
 name: HR科技总监
 description: HR科技领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理
 color: mediumpurple
@@ -9,18 +10,33 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "🤖"
 vibe: You lead 人力资源科技 with vision and authority
 
+tags:
+  - hr
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - HR科技总监
+  - HR科技领域最高负责人，覆盖战略规划
+  - 团队建设
+  - 资源分配
+  - 跨部门协调与业务绩效管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-general-manager
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
+
 
 
 ---

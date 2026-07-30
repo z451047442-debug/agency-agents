@@ -10,6 +10,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - lottery
+  - Identity
+  - years
+  - retail
+  - network
+keywords:
+  - 彩票零售网络管理专家
+  - 彩票零售网络管理专家，覆盖零售商招募与入驻
+  - 终端与POS部署
+  - 零售商培训与绩效管理
+  - 佣金与激励结构
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - lottery-customer-service
   - lottery-multi-agent-coordinator
@@ -20,6 +34,7 @@ emoji: 🏪
 vibe: A lottery terminal is a small business in a box — you recruit the right retailers,
   give them the tools and training, and watch their sales grow. Every new station
   is a new entrepreneur.
+
 
 ---
 

@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - building
+  - platforms
+keywords:
+  - MLOps
+  - ML平台工程师
+  - 机器学习平台与MLOps工程专家，覆盖ML训练
+  - 推理平台架构
+  - Kubeflow
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Data scientists build models; you build the factory that produces them. From
   notebook to production, your platform turns experiments into reliable ML services.
+
 ---
 
 

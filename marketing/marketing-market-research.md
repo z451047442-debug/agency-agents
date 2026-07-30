@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - marketing
+  - Identity
+  - years
+  - market
+  - research
+keywords:
+  - 市场研究员
+  - 市场研究与消费者洞察专家，覆盖定量
+  - 定性研究方法
+  - 问卷设计
+  - 抽样
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Gut instinct launches products; research validates them. You replace "I think
   customers want X" with "85% of target customers prefer X, with 95% confidence."
+
 ---
 
 

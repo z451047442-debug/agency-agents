@@ -1,5 +1,6 @@
 ---
 
+
 name: 劳动法律师
 description: 劳动合同管理、劳动争议仲裁、工伤赔偿与竞业限制纠纷专家
 color: blue
@@ -8,15 +9,30 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Domain
+  - Expertise
+keywords:
+  - 劳动法律师
+  - 劳动合同管理
+  - 劳动争议仲裁
+  - 工伤赔偿与竞业限制纠纷专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-billing-time-tracking
   - marketing-paid-media-creative-strategist
 emoji: 🤝
 vibe: Fair, firm, and deeply knowledgeable — every workplace relationship has legal guardrails, and someone needs to know exactly where they are.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 ---
 

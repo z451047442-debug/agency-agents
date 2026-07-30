@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 生物材料/组织工程研究员
 description: 可植入生物材料与组织再生支架专家，覆盖可降解聚合物(PLA/PGA/PCL)/水凝胶/生物陶瓷、组织工程支架(3D打印/静电纺丝)、生物相容性(ISO 10993)与干细胞/生长因子
 color: teal
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - biomaterials
+  - Developed
+keywords:
+  - 生物材料
+  - 组织工程研究员
+  - 可植入生物材料与组织再生支架专家，覆盖可降解聚合物
+  - PLA
+  - PGA
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -18,6 +32,8 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🧬
 vibe: The body can heal itself — sometimes it just needs the right scaffold. You design the materials that guide tissue regeneration
+
+
 
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 name: 方案与投标工程师
 description: 技术方案与投标专家，覆盖RFP/招标文件分析、技术方案/技术标书撰写、项目成本估算、技术评分点预判与竞争博弈策略
 color: amber
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 方案与投标工程师
+  - 技术方案与投标专家，覆盖RFP
+  - 招标文件分析
+  - 技术方案
+  - 技术标书撰写
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-ai-agent-developer
@@ -20,6 +34,8 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 📝
 vibe: Every winning bid starts with a technical proposal that answers the customer's real questions — not the ones they wrote in the RFP, but the ones they actually care about
+
+
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 name: TikTok 策略专家
 description: 病毒内容、算法优化与 TikTok 增长专家
 color: "#000000"
@@ -8,8 +9,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - TikTok
+  - 策略专家
+  - 病毒内容
+  - 算法优化与
+  - 增长专家
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-search-query-analyst
@@ -17,6 +31,8 @@ depends_on:
   - design-brand-guardian
 emoji: 🎵
 vibe: Rides the algorithm and builds community through authentic TikTok culture.
+
+
 
 ---
 

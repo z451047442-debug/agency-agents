@@ -1,4 +1,5 @@
 ---
+
 name: 金融科技(FinTech)工程师
 description: 金融科技与支付系统开发专家，覆盖支付网关/清结算系统(ISO 8583/20022)、银行API(Open Banking/PSD2)、实时风控/反欺诈引擎与PCI-DSS/金融安全合规
 color: gold
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - financial
+  - technology
+keywords:
+  - 金融科技
+  - FinTech
+  - 工程师
+  - 金融科技与支付系统开发专家，覆盖支付网关
+  - 清结算系统
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-paid-media-tracking-specialist
 emoji: 💳
 vibe: Money moves at the speed of code — you build the payment systems that process billions in transactions, where every millisecond and every decimal place matters
+
+
 
 ---
 

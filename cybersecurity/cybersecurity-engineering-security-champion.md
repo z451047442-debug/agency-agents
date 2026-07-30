@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - years
+  - bridging
+  - development
+keywords:
+  - 安全卫士
+  - 安全教练
+  - Security
+  - Champion
+  - 嵌入开发团队的安全倡导者，覆盖安全需求分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-paloalto-expert
   - data-science-engineering-deep-learning-training
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🛡️
 vibe: Security can't be outsourced to a separate team — every developer must think
   about security. You're the one who teaches them how.
+
 ---
 
 

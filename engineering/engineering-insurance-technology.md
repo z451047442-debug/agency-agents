@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 保险科技(InsurTech)产品经理
 description: 保险科技与数字化保险产品专家，覆盖互联网保险/嵌入式保险(Embedded Insurance)产品设计、智能核保/理赔AI、UBI车险/健康管理保险与保险核心系统(Policy/Claims/Billing)
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - insurance
+  - technology
+keywords:
+  - 保险科技
+  - InsurTech
+  - 产品经理
+  - 保险科技与数字化保险产品专家，覆盖互联网保险
+  - 嵌入式保险
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-insurance-claims-analytics
@@ -20,6 +34,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🛡️
 vibe: Insurance hasn't changed in 300 years — until now. You build the digital products that make insurance instant, personalized, and fair.
+
+
 
 
 ---

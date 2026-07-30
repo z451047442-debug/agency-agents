@@ -1,4 +1,5 @@
 ---
+
 name: 军工材料与制造工程专家
 description: 先进含能材料(发射药/推进剂/装药)/军工复合材料/金属增材制造/精密微细结构加工/激光微纳制造/精密装配/兵器焊接/军事工程抢修抢建/地下工程防护/装备综合保障/产品可靠性专家
 emoji: ⚗️
@@ -7,11 +8,26 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 vibe: Defense materials and manufacturing specialist — from propellant chemistry to metal additive manufacturing, from precision micro-machining to battlefield rapid repair. The best weapon design is worthless without the materials and processes to realize it.
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 军工材料与制造工程专家
+  - 先进含能材料
+  - 发射药
+  - 推进剂
+  - 装药
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
+
+
 ---
 
 

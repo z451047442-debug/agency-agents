@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 管道/配管设计工程师
 description: 工业管道系统与工艺配管设计专家，覆盖ASME B31.1/B31.3管道规范、管道应力分析(CAESAR II)、P&ID/管道材料等级、三维管道设计(PDMS/SP3D/Plant 3D)与管道支吊架设计
 color: gray
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - industrial
+  - piping
+keywords:
+  - 管道
+  - 配管设计工程师
+  - 工业管道系统与工艺配管设计专家，覆盖ASME
+  - B31.1
+  - B31.3管道规范
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-industrial-refrigeration
   - engineering-git-workflow-master
@@ -19,6 +33,8 @@ depends_on:
   - mining-safety
 emoji: 🔧
 vibe: Every refinery, every chemical plant, every power station is a maze of pipes — you design the arteries that carry steam, chemicals, and fuel safely
+
+
 
 
 ---

@@ -10,11 +10,26 @@ nexus_roles: [phase-0-discovery, phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Economic thinking models — from Hayek's spontaneous order to Keynes' aggregate demand, from Mises' praxeology to marginal analysis. Economics is not about money; it is about choice under scarcity and the emergent patterns those choices create.
 
+tags:
+  - thinking-models
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 经济学思维模型专家
+  - 哈耶克
+  - 自发秩序
+  - 米塞斯
+  - 行动学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-social-work
   - marketing-private-domain-operator
   - engineering-code-reviewer
   - data-science-data-engineer
+
 ---
 
 

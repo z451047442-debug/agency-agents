@@ -1,5 +1,6 @@
 ---
 
+
 name: 集成光子/硅光芯片设计工程师
 description: 硅基光子集成(PIC)与光电共封装(CPO)设计专家，覆盖硅光子器件(波导/调制器/Ge PD/光栅耦合器)/PDK工艺、光子芯片(PIC)版图/DRC与光电2.5D/3D异质集成
 color: violet
@@ -7,13 +8,28 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - silicon
+  - photonics
+keywords:
+  - 集成光子
+  - 硅光芯片设计工程师
+  - 硅基光子集成
+  - PIC
+  - 与光电共封装
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-power-electronics-packaging
   - manufacturing-engineering-test-chip-bringup
 emoji: 💡
 vibe: Electrons compute; photons communicate. Silicon photonics puts lasers, modulators, and detectors on the same chip as transistors, moving data at the speed of light.
+
+
 
 ---
 

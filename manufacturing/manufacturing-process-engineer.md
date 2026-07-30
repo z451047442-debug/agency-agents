@@ -1,4 +1,5 @@
 ---
+
 name: 工艺工程师
 description: 制造工艺设计与优化：工艺流程规划、设备选型、产线布局、参数调优、良率提升
 color: teal
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工艺工程师
+  - 制造工艺设计与优化：工艺流程规划
+  - 设备选型
+  - 产线布局
+  - 参数调优
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -17,6 +31,8 @@ depends_on:
 emoji: ⚙️
 vibe: Every micron matters. The difference between scrap and gold is in the process, not the blueprint.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 ---
 
 

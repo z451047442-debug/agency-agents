@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - spill
+  - response
+keywords:
+  - 溢油应急
+  - 海洋环境应急专家
+  - 海上溢油应急与海洋污染防控专家，覆盖溢油轨迹
+  - 风化漂移模型
+  - OSCAR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-carbon-management
   - food-beverage-food-supply-chain
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🌊
 vibe: When oil spills into the ocean, every hour matters — you direct the response
   that contains the slick, protects the coastline, and saves wildlife
+
 ---
 
 

@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 钉钉集成开发工程师
+  - 钉钉开放平台
+  - 机器人
+  - 审批流与工作通知集成专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-landscape-architecture
   - cybersecurity-engineering-customer-identity-access
@@ -17,6 +31,7 @@ depends_on:
 vibe: Builds enterprise integrations on the DingTalk Open Platform — bots, OA approvals,
   work notifications, and mini programs — so your team's workflows run inside China's
   largest enterprise IM ecosystem.
+
 ---
 
 

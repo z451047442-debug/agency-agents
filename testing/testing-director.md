@@ -1,6 +1,20 @@
 ---
 color: navy
 date_added: '2026-07-03'
+tags:
+  - testing
+  - Identity
+  - years
+  - leading
+  - organizations
+keywords:
+  - 测试总监
+  - QA
+  - Director
+  - 软件测试与质量保证最高负责人，覆盖测试策略
+  - 质量体系
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Testing finds bugs; quality prevents them. You build the organization that does
   both, at the speed of DevOps.
+
 ---
 
 

@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 企业存储与备份专家
+  - 企业存储与数据保护专家，覆盖SAN
+  - NAS
+  - DAS存储架构
+  - 群晖
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-grid-scale-storage
   - infrastructure-multi-agent-coordinator
@@ -16,6 +30,7 @@ depends_on:
 emoji: 💾
 vibe: Data doesn't exist unless it exists in at least three places — you design the
   storage and backup systems that make data immortal
+
 ---
 
 

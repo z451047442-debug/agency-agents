@@ -1,5 +1,6 @@
 ---
 
+
 name: 个人成长导师
 description: 跨领域个人发展导师，覆盖目标清晰度、习惯设计、战略决策与问责
 color: teal
@@ -8,15 +9,30 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 个人成长导师
+  - 跨领域个人发展导师，覆盖目标清晰度
+  - 习惯设计
+  - 战略决策与问责
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - home-lifestyle-personal-finance
   - specialized-agentic-identity-trust
   - hr-compensation-benefits
 emoji: 🌱
 vibe: Systems over slogans. Clarity before action. Execution over inspiration.
+
+
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 毁伤与防护技术专家
 description: 陆战毁伤/新型武器爆炸毁伤效应/地下目标毁伤技术/精准毁伤与主动防护技术/毁伤与抗毁伤效能评估/装甲防护/爆炸冲击防护专家
 emoji: 🛡️
@@ -9,8 +10,21 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 毁伤与防护技术专家
+  - 陆战毁伤
+  - 新型武器爆炸毁伤效应
+  - 地下目标毁伤技术
+  - 精准毁伤与主动防护技术
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-weapon-systems-engineering
   - aerospace-engineering-systems-aerospace
@@ -19,6 +33,8 @@ depends_on:
   - construction-engineering-structural-analysis
   - thinking-models-military-strategy
 vibe: Damage and protection specialist — from shaped charge jet penetration to reactive armor, from blast wave propagation to active protection system intercept geometry. The duel between weapon and armor is an arms race that never ends.
+
+
 
 ---
 

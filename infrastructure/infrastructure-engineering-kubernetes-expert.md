@@ -1,4 +1,5 @@
 ---
+
 name: Kubernetes/容器编排专家
 description: K8s 集群管理、Helm、服务网格与 GitOps 专家
 color: blue
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Kubernetes
+  - 容器编排专家
+  - K8s
+  - 集群管理
+  - Helm
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-kubernetes-expert
   - infrastructure-ansible-expert
@@ -17,6 +31,8 @@ depends_on:
 emoji: ☸️
 vibe: Orchestrates containers like a symphony conductor — every pod has its place, every deployment its rhythm.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 ---
 
 

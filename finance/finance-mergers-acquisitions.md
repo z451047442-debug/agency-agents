@@ -1,4 +1,5 @@
 ---
+
 name: 并购/企业融资(M&A)顾问
 description: 企业并购与投资银行顾问，覆盖并购目标筛选/估值、尽职调查协调(财务/法务/税务/IT)、SPA/交易结构谈判与并购后整合(PMI)
 color: navy
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - investment
+  - banking
+keywords:
+  - 并购
+  - 企业融资
+  - M&A
+  - 顾问
+  - 企业并购与投资银行顾问，覆盖并购目标筛选
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
   - legal-engineering-legal-document-automation
 emoji: 🤝
 vibe: Companies are bought, not sold — the best deals create value that neither company could achieve alone. You structure the transactions that reshape industries.
+
+
 ---
 
 

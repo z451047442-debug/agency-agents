@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 海底/水下工程技术工程师
 description: 海洋油气与海上风电海底生产系统专家，覆盖海底采油树/管汇/脐带缆、水下机器人(ROV/AUV)作业、海底管道/立管设计与安装与深水钻井/完井技术
 color: navy
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - subsea
+  - engineering
+keywords:
+  - 海底
+  - 水下工程技术工程师
+  - 海洋油气与海上风电海底生产系统专家，覆盖海底采油树
+  - 管汇
+  - 脐带缆
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -19,6 +33,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🌊
 vibe: Extracting oil and gas from 3,000 meters below the ocean surface — that's not engineering, that's engineering at the edge of what's physically possible
+
+
 
 
 ---

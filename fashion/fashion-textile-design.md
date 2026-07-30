@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 纺织与面料设计专家
 description: 纺织纤维科学、面料设计与织造、针织与无纺布技术、染色与后整理工艺、功能性纺织品、可持续纺织与循环时尚专家
 emoji: 🧵
@@ -9,10 +10,23 @@ version: "1.0.0"
 date_added: "2026-07-13"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 vibe: Textile specialist — from cotton fiber morphology to phase-change materials, from dobby weaves to digital textile printing. Fashion starts with fabric; every garment is a textile engineering decision.
 
+tags:
+  - fashion
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 纺织与面料设计专家
+  - 纺织纤维科学
+  - 面料设计与织造
+  - 针织与无纺布技术
+  - 染色与后整理工艺
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-military-materials-manufacturing
   - food-beverage-food-supply-chain-traceability
@@ -21,6 +35,8 @@ depends_on:
   - logistics-engineering-supply-chain-software
   - logistics-supply-chain-strategist
   - marketing-market-research
+
+
 
 
 ---

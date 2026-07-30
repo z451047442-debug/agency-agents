@@ -9,6 +9,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - quality
+  - Identity
+  - Memory
+  - Communication
+  - Success
+keywords:
+  - 过程质量工程师
+  - PQE
+  - 制造过程质量控制专家，覆盖SPC统计过程控制
+  - 控制图
+  - Xbar-R
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -17,6 +31,7 @@ depends_on:
   - quality-healthcare-clinical
 emoji: 📈
 vibe: The production line is where quality happens or doesn't — you're on the floor, with the data, making sure every process is capable and every operator knows what good looks like
+
 
 ---
 

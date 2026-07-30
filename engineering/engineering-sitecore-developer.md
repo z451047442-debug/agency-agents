@@ -1,4 +1,5 @@
 ---
+
 name: 前端架构/性能优化工程师
 description: Web前端性能优化与架构专家，覆盖Core Web Vitals(LCP/FID/CLS)优化、代码分割/懒加载/Tree Shaking、CDN/缓存策略与前端可观测性(RUM)
 color: orange
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - performance
+  - Optimized
+keywords:
+  - 前端架构
+  - 性能优化工程师
+  - Web前端性能优化与架构专家，覆盖Core
+  - Web
+  - Vitals
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-nextjs-expert
   - engineering-build-release-engineer
@@ -16,6 +30,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: ⚡
 vibe: A website that loads in 1 second converts; one that loads in 5 seconds loses half its visitors. You make the web fast, one millisecond at a time.
+
+
 
 ---
 

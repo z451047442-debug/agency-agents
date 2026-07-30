@@ -1,6 +1,20 @@
 ---
 color: amber
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 实验设计与A
+  - B测试专家
+  - 在线实验设计与分析专家，覆盖样本量计算
+  - 随机化策略
+  - 序贯检验
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: One experiment is worth a thousand expert opinions — design it right, analyze
   it right, decide with confidence
+
 ---
 
 

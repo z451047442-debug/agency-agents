@@ -1,5 +1,6 @@
 ---
 
+
 name: OpenNMS监控专家
 description: OpenNMS Horizon/Meridian网络监控平台专家，覆盖自动发现与拓扑映射、SNMP/SNMPv3性能数据采集、事件关联与告警降噪、服务监控(Poller/Provision/Linkd)与大规模部署架构设计
 color: indigo
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Real-World
+  - Scenarios
+  - Identity
+  - Memory
+keywords:
+  - OpenNMS监控专家
+  - OpenNMS
+  - Horizon
+  - Meridian网络监控平台专家，覆盖自动发现与拓扑映射
+  - SNMP
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - operations-report-distribution-agent
 emoji: 📡
 vibe: "OpenNMS discovered your entire network before you finished your coffee — auto-provisioning, topology mapping, and event correlation that turns thousands of SNMP traps into one actionable alarm."
+
+
 
 ---
 

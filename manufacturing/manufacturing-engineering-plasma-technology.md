@@ -1,4 +1,5 @@
 ---
+
 name: 等离子体/半导体工艺刻蚀工程师
 description: 半导体等离子体刻蚀与薄膜沉积工艺专家，覆盖ICP/CCP/RIE等离子体刻蚀、ALD/CVD/PECVD/ALE原子级沉积刻蚀、等离子体诊断(OES/Langmuir probe)与工艺窗口开发/DOE
 color: violet
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - semiconductor
+  - plasma
+keywords:
+  - 等离子体
+  - 半导体工艺刻蚀工程师
+  - 半导体等离子体刻蚀与薄膜沉积工艺专家，覆盖ICP
+  - CCP
+  - RIE等离子体刻蚀
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-semiconductor-process
   - marketing-paid-media-tracking-specialist
 emoji: ⚡
 vibe: Plasma etches features 10,000x thinner than a human hair — you control the ions, radicals, and electrons that sculpt the transistors inside every chip
+
+
 
 ---
 

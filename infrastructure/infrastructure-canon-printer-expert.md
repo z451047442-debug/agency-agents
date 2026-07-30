@@ -1,5 +1,6 @@
 ---
 
+
 name: Canon打印机专家
 description: Canon(佳能)打印机与影像解决方案专家，覆盖imageRUNNER/imageCLASS/imagePROGRAF产品线、MEAP/SES应用平台、uniFLOW打印管理、DRUM/NPG耗材体系与专业影像/宽幅打印
 color: red
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Canon打印机专家
+  - Canon
+  - 佳能
+  - 打印机与影像解决方案专家，覆盖imageRUNNER
+  - imageCLASS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-visual-studio-web-aspnet
   - healthcare-engineering-gene-editing-crispr
@@ -18,6 +32,8 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: Canon's heritage is in optics and imaging — their printers think like cameras, and understanding the lens-to-print pipeline is what sets a Canon specialist apart from a generic print admin
+
+
 
 
 ---

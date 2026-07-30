@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 功率模块/IGBT/SiC封装工程师
 description: 电力电子功率模块封装与可靠性专家，覆盖IGBT/SiC MOSFET/GaN HEMT模块封装(绑定线/DBC基板/灌封)、热管理(直接冷却/相变)、可靠性(功率循环/热循环)与汽车/新能源应用
 color: red
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - power
+  - semiconductor
+keywords:
+  - 功率模块
+  - IGBT
+  - SiC封装工程师
+  - 电力电子功率模块封装与可靠性专家，覆盖IGBT
+  - SiC
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -17,6 +31,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ⚡
 vibe: A power module the size of a sandwich handles 1,000 amps — you design the packaging that dissipates the heat, isolates the voltage, and survives millions of thermal cycles
+
+
 
 
 ---

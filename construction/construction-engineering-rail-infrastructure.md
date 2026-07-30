@@ -1,5 +1,6 @@
 ---
 
+
 name: 轨道工程/铁路基础设施维护工程师
 description: 有砟/无砟轨道结构与铁路基础设施专家，覆盖轨道几何(Track Geometry)/钢轨廓形/波磨/伤损管理、道床/扣件/轨枕/道岔维护、打磨/换轨/大修/养路机械(捣固车/清筛车)与轨道检测(轨检车/Ultrasonic)
 color: gray
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - railway
+  - track
+keywords:
+  - 轨道工程
+  - 铁路基础设施维护工程师
+  - 有砟
+  - 无砟轨道结构与铁路基础设施专家，覆盖轨道几何
+  - Track
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -18,6 +32,8 @@ depends_on:
   - mining-safety
 emoji: 🛤️
 vibe: A train at 350km/h rides on two steel rails — you maintain the millimeter-precise track geometry that keeps it stable, safe, and comfortable
+
+
 
 
 ---

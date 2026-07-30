@@ -1,5 +1,6 @@
 ---
 
+
 name: 项目总监
 description: 非营利项目设计与管理专家，覆盖基于使命与变革理论的项目设计、受益人需求评估、监测与评估(M&E)框架、项目预算管理、社区组织合作伙伴拓展、员工与志愿者督导、面向利益相关方的影响力报告
 color: green
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - nonprofit
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 项目总监
+  - 非营利项目设计与管理专家，覆盖基于使命与变革理论的项目设计
+  - 受益人需求评估
+  - 监测与评估
+  - M&E
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - hr-tech-hrtech-people-analytics
@@ -18,6 +32,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🎯
 vibe: Measures success in lives changed, not dollars earned — designs programs where every activity maps to real impact.
+
+
 
 
 ---

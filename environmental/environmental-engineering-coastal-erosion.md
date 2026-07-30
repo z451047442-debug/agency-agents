@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - environmental
+  - Identity
+  - years
+  - port
+  - waterway
+keywords:
+  - 水工
+  - 港口航道工程师
+  - 港口码头与航道工程设计专家，覆盖码头结构
+  - 重力式
+  - 高桩
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-engineering-coastal-marine
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A ship the size of the Empire State Building needs somewhere to dock — you design
   the ports, quay walls, and approach channels that make global trade possible
+
 ---
 
 

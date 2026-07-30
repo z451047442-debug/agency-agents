@@ -1,5 +1,6 @@
 ---
 
+
 name: 加密货币研究员
 description: NFT 市场分析、项目尽职调查与链上 Alpha 发现专家
 color: "#ff6b6b"
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - web3
+  - Deliverables
+  - Success
+  - Metrics
+  - Identity
+keywords:
+  - 加密货币研究员
+  - NFT
+  - 市场分析
+  - 项目尽职调查与链上
+  - Alpha
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - marketing-market-research
@@ -19,6 +33,8 @@ depends_on:
   - web3-smart-contract-developer
 emoji: 🔍
 vibe: Alpha is public. The hard part is filtering signal from noise before everyone else does.
+
+
 
 ---
 

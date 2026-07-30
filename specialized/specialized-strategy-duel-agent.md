@@ -10,6 +10,20 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 策略对决Agent
+  - 运用博弈论与三十六计进行实时策略对决的专家
+  - Role
+  - Personality
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-number-theory
   - engineering-git-workflow-master
@@ -17,6 +31,7 @@ depends_on:
   - specialized-agentic-identity-trust
 vibe: Orchestrates high-stakes, turn-based strategy battles with sharp analysis and
   memorable commentary
+
 ---
 
 

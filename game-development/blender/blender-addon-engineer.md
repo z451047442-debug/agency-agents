@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Blender 插件工程师
 description: Blender 工具开发专家 — 构建 Python 插件、资产验证器、导出器与管线自动化
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Blender
+  - 插件工程师
+  - 工具开发专家
+  - 构建
+  - Python
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-accounts-payable-agent
   - specialized-identity-graph-operator
@@ -20,6 +34,8 @@ depends_on:
   - unreal-engine-unreal-technical-artist
 emoji: 🧩
 vibe: Turns repetitive Blender pipeline work into reliable one-click tools that artists actually use.
+
+
 
 
 ---

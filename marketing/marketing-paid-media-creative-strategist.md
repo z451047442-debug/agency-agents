@@ -1,4 +1,5 @@
 ---
+
 name: 广告创意策略师
 description: RSA 文案、Meta 创意与 PMax 素材专家
 emoji: 🎨
@@ -9,8 +10,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 广告创意策略师
+  - RSA
+  - 文案
+  - Meta
+  - 创意与
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
@@ -20,6 +34,8 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: ✍️
 vibe: Turns ad creative from guesswork into a repeatable science.
+
+
 
 ---
 

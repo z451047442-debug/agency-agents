@@ -1,6 +1,7 @@
 ---
 
 
+
 name: DevOps平台/工具链工程师
 description: DevOps平台与开发者工具链(SDLC)工程专家，覆盖GitLab/GitHub/Bitbucket CI/CD流水线、制品仓库(Artifactory/Nexus/Harbor)、代码质量(SonarQube)与DevSecOps工具链集成
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - building
+  - developer
+keywords:
+  - DevOps平台
+  - 工具链工程师
+  - DevOps平台与开发者工具链
+  - SDLC
+  - 工程专家，覆盖GitLab
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
@@ -21,6 +35,8 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔧
 vibe: Developers spend 30% of their time on non-coding tasks — you build the platform and toolchain that automates the rest away
+
+
 
 
 ---

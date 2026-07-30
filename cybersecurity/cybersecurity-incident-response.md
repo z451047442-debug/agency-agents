@@ -11,6 +11,20 @@ nexus_roles:
   - phase-4-hardening
   - phase-6-operate
 lifecycle: published
+tags:
+  - cybersecurity
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 事件响应分析师
+  - 主导漏洞调查
+  - 遏制主动威胁
+  - 协调危机响应的事故响应与数字取证专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-endpoint-forensics
@@ -19,6 +33,7 @@ depends_on:
   - infrastructure-engineering-incident-response-commander
 emoji: 🚨
 vibe: Runs toward the breach while everyone else runs away.
+
 
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 冷冻电镜(Cryo-EM)/结构生物学研究员
 description: 单颗粒冷冻电镜与冷冻电子断层扫描(cryo-ET)结构生物学专家，覆盖冷冻样品制备( Vitrobot/Plunge Freeze)/数据收集、单颗粒分析(RELION/cryoSPARC)/图像处理与原子模型搭建/验证(Coot/Phenix)
 color: violet
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - structural
+  - biology
+keywords:
+  - 冷冻电镜
+  - Cryo-EM
+  - 结构生物学研究员
+  - 单颗粒冷冻电镜与冷冻电子断层扫描
+  - cryo-ET
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -18,6 +32,8 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🔬
 vibe: Seeing a protein at near-atomic resolution — down to individual amino acid side chains — that's cryo-EM, the technique that revolutionized structural biology
+
+
 
 
 ---

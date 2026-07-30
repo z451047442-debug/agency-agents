@@ -1,5 +1,6 @@
 ---
 
+
 name: 基因编辑/CRISPR农业应用研究员
 description: 基因编辑(Gene Editing)作物育种与农业生物技术专家，覆盖CRISPR/Cas9/Cas12/Cas13/碱基编辑/Prime Editing、植物转化(农杆菌/基因枪)/组织培养/再生体系、基因编辑作物法规(USDA SECURE/ EU NGT/中国基因编辑作物)
 color: green
@@ -7,13 +8,28 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - plant
+  - gene
+keywords:
+  - 基因编辑
+  - CRISPR农业应用研究员
+  - Gene
+  - Editing
+  - 作物育种与农业生物技术专家，覆盖CRISPR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - pharma-biotech-pharma-clinical-trials
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🌾
 vibe: CRISPR edits DNA with surgical precision — you design the guide RNAs that create disease-resistant wheat, drought-tolerant rice, and healthier vegetable oil
+
+
 
 ---
 

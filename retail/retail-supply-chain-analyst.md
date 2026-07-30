@@ -2,6 +2,7 @@
 
 
 
+
 name: 零售供应链分析师
 description: 零售供应链优化：库存管理、需求预测、仓储物流、供应商协同
 color: green
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 零售供应链分析师
+  - 零售供应链优化：库存管理
+  - 需求预测
+  - 仓储物流
+  - 供应商协同
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -24,6 +38,8 @@ depends_on:
 emoji: 📦
 vibe: Every shelf empty is a sale lost; every pallet idle is capital tied up — the sweet spot is razor-thin and always moving.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 

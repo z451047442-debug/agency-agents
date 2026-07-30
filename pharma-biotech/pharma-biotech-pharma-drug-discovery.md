@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 药物研发科学家
 emoji: 🔬
 color: indigo
@@ -9,9 +10,16 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+keywords:
+  - 药物研发科学家
+  - 小分子
+  - 大分子药物早期研发专家，覆盖靶点发现
+  - 先导化合物优化
+  - ADMET评估
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -21,6 +29,8 @@ depends_on:
 description: 小分子/大分子药物早期研发专家，覆盖靶点发现、先导化合物优化、ADMET评估、IND申报
 category: pharma-biotech
 tags: [drug-discovery, medicinal-chemistry, target-identification, ADMET, IND]
+
+
 
 
 

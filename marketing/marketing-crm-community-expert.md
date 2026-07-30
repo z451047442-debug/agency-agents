@@ -1,4 +1,5 @@
 ---
+
 name: 会员/社群运营专家
 description: CRM 体系设计、忠诚度计划、超级用户管理与私域精细化运营专家
 color: blue
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 会员
+  - 社群运营专家
+  - CRM
+  - 体系设计
+  - 忠诚度计划
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-customer-lifecycle
   - design-brand-guardian
 emoji: 👥
 vibe: Turns one-time buyers into lifelong fans — the difference between a transaction and a relationship is community.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 ---
 

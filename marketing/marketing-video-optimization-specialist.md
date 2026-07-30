@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 视频优化专家
 description: 视频营销策略师，专注 YouTube 算法优化、观众留存、章节划分、缩略图策略与跨平台视频分发
 color: red
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 视频优化专家
+  - 视频营销策略师，专注
+  - YouTube
+  - 算法优化
+  - 观众留存
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - marketing-bilibili-content-strategist
@@ -20,6 +34,8 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 🎬
 vibe: Energetic, data-driven, strategic, and hyper-focused on audience retention
+
+
 
 
 ---

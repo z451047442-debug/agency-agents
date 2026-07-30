@@ -1,5 +1,6 @@
 ---
 
+
 name: 信息物理系统(CPS)工程师
 description: 信息物理系统与数字孪生专家，覆盖物理系统建模/仿真、IoT+AI融合、实时控制/反馈、数字孪生平台与工业元宇宙
 color: violet
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - bridging
+  - physical
+keywords:
+  - 信息物理系统
+  - CPS
+  - 工程师
+  - 信息物理系统与数字孪生专家，覆盖物理系统建模
+  - 仿真
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - manufacturing-engineering-digital-twins-manufacturing
 emoji: 🔗
 vibe: The physical and digital worlds are merging — you build the systems where physical processes are monitored, simulated, and controlled in real-time by digital twins
+
+
 
 ---
 

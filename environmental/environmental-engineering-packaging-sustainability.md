@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 包装可持续性/生命周期(LCA)顾问
 description: 包装环保与全生命周期评估专家，覆盖包装LCA碳足迹/水足迹(Ecoinvent/GaBi/SimaPro)、可回收设计(DfR/APR/RecyClass)/可堆肥/可重复使用、EPR生产者延伸责任合规与PCR/LCA审定(ISO 14040/14044/14025)
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - years
+  - packaging
+  - sustainability
+keywords:
+  - 包装可持续性
+  - 生命周期
+  - LCA
+  - 顾问
+  - 包装环保与全生命周期评估专家，覆盖包装LCA碳足迹
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-engineering-circular-economy
   - food-beverage-engineering-food-packaging
@@ -19,6 +33,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📦
 vibe: Every package ever made still exists somewhere — you design the ones that actually get recycled, composted, or reused, closing the loop on packaging waste
+
+
 
 
 ---

@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 华为网络专家
+  - 华为网络设备专家，覆盖VRP
+  - S系列交换机
+  - NetEngine
+  - AR路由器
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - finance-financial-controller
@@ -18,6 +32,7 @@ depends_on:
 emoji: 🔴
 vibe: From VRP CLI to iMaster NCE to CloudEngine — Huawei's networking empire is vast,
   and you know every corner of it
+
 ---
 
 

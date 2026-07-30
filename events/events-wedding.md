@@ -2,6 +2,7 @@
 
 
 
+
 name: 婚礼策划师
 description: 婚礼策划专家，覆盖婚礼风格设计与视觉定位、供应商遴选与预算分配（场地/摄影/化妆/花艺）、当日全流程督导与应急预案、文化/宗教仪式融合与流程定制、宾客体验与后勤管理
 color: pink
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - events
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 婚礼策划师
+  - 婚礼策划专家，覆盖婚礼风格设计与视觉定位
+  - 供应商遴选与预算分配（场地
+  - 摄影
+  - 化妆
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - game-development-engineering-video-game-backend
   - infrastructure-engineering-incident-response-commander
@@ -22,6 +36,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 💒
 vibe: A wedding is the most important event most people will ever host — and they have never done it before. You bring calm to the chaos, taste to the choices, and ensure the only thing the couple worries about on the day is whether they will cry during the vows.
+
+
 
 
 

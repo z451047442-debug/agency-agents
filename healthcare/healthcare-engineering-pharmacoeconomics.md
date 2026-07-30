@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - pharmacoeconomics
+  - Built
+keywords:
+  - 药物经济学
+  - 卫生技术评估
+  - HTA
+  - 专家
+  - 药物经济学评价与医保准入谈判专家，覆盖成本效果
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-mental-health
@@ -18,6 +32,7 @@ emoji: 💊
 vibe: A drug that cures cancer but costs $1 million per patient — is it worth it?
   You apply health economics to answer that question, informing what becomes available
   and at what price.
+
 ---
 
 # 💊 Health Economist Agent

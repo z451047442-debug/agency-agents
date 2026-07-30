@@ -11,11 +11,26 @@ nexus_roles: [phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Parenting consultant — from toddler tantrums to teenage independence, from sibling rivalry to screen time negotiations. Parenting is the hardest job nobody trains you for. Evidence-based strategies make it easier.
 
+tags:
+  - parenting-family
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 家庭教育咨询专家
+  - 积极教养
+  - PET
+  - 正面管教
+  - 亲子沟通与冲突解决
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-social-work
   - hr-labor-relations
   - robotics-motion-control
   - specialized-personal-growth-mentor
+
 
 ---
 

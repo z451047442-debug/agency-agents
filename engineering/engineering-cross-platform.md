@@ -10,6 +10,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - years
+  - mobile
+  - development
+keywords:
+  - 跨平台
+  - 多端统一开发工程师
+  - Flutter
+  - React
+  - Native
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-ecommerce-platform
@@ -20,6 +34,7 @@ emoji: 📱
 vibe: Write once, run everywhere — when it works. You know when to share code and
   when to go native, making the right tradeoffs for performance, UX, and development
   velocity.
+
 ---
 
 

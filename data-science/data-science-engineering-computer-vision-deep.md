@@ -1,6 +1,20 @@
 ---
 color: violet
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Real-World
+  - Scenarios
+  - Identity
+  - years
+keywords:
+  - 计算机视觉
+  - 深度学习工程师
+  - 深度学习与计算机视觉算法专家，覆盖CNN
+  - Transformer
+  - ViT视觉模型
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -22,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Machines that can see transform industries — from autonomous driving to medical
   diagnosis. You build the neural networks that give computers visual intelligence.
+
 ---
 
 

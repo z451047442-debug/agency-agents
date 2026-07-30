@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 前端开发工程师
 description: 专注现代 Web 技术、React/Vue/Angular 框架、UI 实现与性能优化的前端专家
 color: cyan
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 前端开发工程师
+  - 专注现代
+  - Web
+  - 技术
+  - React
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-security-architect
   - design-engineering-accessibility-engineer
@@ -25,6 +39,8 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🖥️
 vibe: Builds responsive, accessible web apps with pixel-perfect precision.
+
+
 
 
 ---

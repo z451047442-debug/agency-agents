@@ -1,5 +1,6 @@
 ---
 
+
 name: LLM/大模型训练专家
 description: 预训练、微调 SFT/RLHF、分布式训练与模型评估专家
 color: blue
@@ -9,9 +10,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - LLM
+  - 大模型训练专家
+  - 预训练
+  - 微调
+  - SFT
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -21,6 +35,8 @@ depends_on:
 emoji: 🧠
 vibe: Training the models that run the world — one GPU cluster, one loss curve, and one checkpoint at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

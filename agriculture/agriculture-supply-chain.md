@@ -1,5 +1,6 @@
 ---
 
+
 name: 农业供应链专家
 description: 农产品供应链管理：冷链物流、产地仓储、产销对接、溯源体系、生鲜电商
 color: green
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - agriculture
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 农业供应链专家
+  - 农产品供应链管理：冷链物流
+  - 产地仓储
+  - 产销对接
+  - 溯源体系
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-agronomist
   - automotive-engineering-functional-safety
@@ -19,6 +33,8 @@ depends_on:
 emoji: 🚜
 vibe: From field to fork in 48 hours — the supply chain that feeds a nation doesn't forgive a single broken link.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 ---
 

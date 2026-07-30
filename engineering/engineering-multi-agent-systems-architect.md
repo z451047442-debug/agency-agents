@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 多智能体系统架构师
 description: 多Agent系统设计与治理专家，覆盖Agent拓扑/编排模式、上下文/记忆管理、信任与安全边界、故障恢复与人机协作(Human-in-the-Loop)
 color: violet
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 多智能体系统架构师
+  - 多Agent系统设计与治理专家，覆盖Agent拓扑
+  - 编排模式
+  - 上下文
+  - 记忆管理
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
@@ -23,6 +37,8 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 🕸️
 vibe: One agent is an assistant; a hundred agents is a system. You design the topology, the trust model, and the failure recovery that keeps the system running when individual agents go rogue.
+
+
 
 
 ---

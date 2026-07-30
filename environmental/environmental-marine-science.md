@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 海洋科学专家
 description: 物理海洋学、海洋化学、海洋生物学、海洋地质学、海洋气候相互作用、海洋资源与海洋保护专家
 emoji: 🌊
@@ -10,14 +11,29 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 vibe: Marine scientist — from thermohaline circulation to ocean acidification, from phytoplankton blooms to deep-sea hydrothermal vents. The ocean covers 70% of Earth's surface, drives global climate, and remains largely unexplored.
 
+tags:
+  - environmental
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 海洋科学专家
+  - 物理海洋学
+  - 海洋化学
+  - 海洋生物学
+  - 海洋地质学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - gis-spatial-data-scientist
   - spatial-computing-macos-spatial-metal-engineer
   - specialized-identity-graph-operator
+
+
 
 ---
 

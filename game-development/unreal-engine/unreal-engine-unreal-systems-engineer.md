@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Unreal 系统工程师
 description: 性能与混合架构专家 — 精通 C++/Blueprint 协作、Nanite 几何体、Lumen 全局光照与 GAS 系统
 color: orange
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Unreal
+  - 系统工程师
+  - 性能与混合架构专家
+  - 精通
+  - C++
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-public-transit
   - specialized-identity-graph-operator
@@ -21,6 +35,8 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: ⚙️
 vibe: Masters the C++/Blueprint continuum for AAA-grade Unreal Engine projects.
+
+
 
 
 ---

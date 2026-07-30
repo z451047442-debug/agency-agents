@@ -2,6 +2,7 @@
 
 
 
+
 name: 客户洞察分析师
 description: 消费者行为分析：用户画像、RFM分层、流失预警、LTV建模、A/B实验设计
 color: purple
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 客户洞察分析师
+  - 消费者行为分析：用户画像
+  - RFM分层
+  - 流失预警
+  - LTV建模
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -24,6 +38,8 @@ depends_on:
 emoji: 🔍
 vibe: Customers tell you everything you need to know — just not in words. The patterns are in the data.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 

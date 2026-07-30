@@ -11,11 +11,26 @@ nexus_roles: [phase-0-discovery, phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Behavior designer — from Tiny Habits to the habit loop, from nudges to commitment devices. You don't rely on willpower; you design environments where the right behavior is the easy behavior.
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 习惯养成与行为设计专家
+  - 习惯形成科学
+  - 行为心理学
+  - 神经科学
+  - 行为设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-social-work
   - legal-billing-time-tracking
   - logistics-engineering-supply-chain-risk
   - spatial-computing-engineering-wearable-tech
+
 
 ---
 

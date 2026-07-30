@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - food-beverage
+  - Identity
+  - years
+  - alternative
+  - protein
+keywords:
+  - 替代蛋白
+  - 细胞农业科学家
+  - 植物基与细胞培养替代蛋白研发专家，覆盖植物蛋白
+  - 大豆
+  - 豌豆
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-engineering-food-fermentation
   - food-beverage-engineering-food-sensory
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Feeding 10 billion people without destroying the planet requires reinventing
   protein — you grow meat from cells and turn plants into steak
+
 ---
 
 

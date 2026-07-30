@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - telecom
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 光纤
+  - 光通信工程师
+  - 光纤通信与光传输网络专家，覆盖OTN
+  - DWDM波分复用
+  - SDH
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - telecom-multi-agent-coordinator
   - infrastructure-network-engineering-engineering-optical-fiber-sensing
@@ -20,6 +34,7 @@ version: 1.0.0
 vibe: The internet travels on glass threads thinner than hair, carrying terabytes
   per second across oceans — you design, build, and maintain the physical layer the
   digital world runs on
+
 ---
 
 

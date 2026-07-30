@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - manufacturing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 楼宇自动化
+  - BAS
+  - BMS
+  - 系统工程师
+  - 智能楼宇自动化与能源管理系统专家，覆盖楼宇自控
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - energy-engineering-wind-energy
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Buildings consume 40% of global energy — you design the automation systems that
   make them smarter, greener, and more comfortable
+
 ---
 
 

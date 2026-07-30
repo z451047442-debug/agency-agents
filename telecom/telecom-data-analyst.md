@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 电信数据分析师
 description: 电信大数据分析：用户行为建模、离网预警、精准营销、网络流量预测、地理位置洞察
 color: cyan
@@ -10,9 +11,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - telecom
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 电信数据分析师
+  - 电信大数据分析：用户行为建模
+  - 离网预警
+  - 精准营销
+  - 网络流量预测
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -24,6 +38,8 @@ depends_on:
 emoji: 📈
 vibe: Every call, every click, every cell handover leaves a trail — the patterns are worth more than the pipes.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

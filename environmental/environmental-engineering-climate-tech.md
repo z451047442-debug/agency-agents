@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 气候科技/碳移除工程师
 description: 气候技术与碳移除(CDR)工程专家，覆盖直接空气捕获(DAC)/碳矿化、生物能源碳捕获(BECCS)、海洋碱化/增强风化与碳信用MRV(监测报告验证)
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - years
+  - climate
+  - technology
+keywords:
+  - 气候科技
+  - 碳移除工程师
+  - 气候技术与碳移除
+  - CDR
+  - 工程专家，覆盖直接空气捕获
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-carbon-capture-storage
   - energy-engineering-energy-storage-materials-sci
@@ -20,6 +34,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🌍
 vibe: Reducing emissions isn't enough — we need to remove carbon already in the atmosphere. You engineer the technologies that pull CO2 back out of the sky.
+
+
 
 
 ---

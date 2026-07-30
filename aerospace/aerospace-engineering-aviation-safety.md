@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - 角色定位
+  - 核心能力
+keywords:
+  - 航空安全
+  - 飞行品质监控
+  - FOQA
+  - 分析师
+  - 飞行数据监控与航空安全管理专家，覆盖FOQA
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - aerospace-engineering-aviation-human-factors
@@ -16,6 +30,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ✈️
 vibe: Every flight generates terabytes of data — you mine it for the subtle patterns that predict tomorrow's incident, preventing it before it happens
+
 ---
 
 # ✈️ Aviation Safety / FOQA Analyst Agent

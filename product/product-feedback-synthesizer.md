@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 用户反馈综合分析师
 description: 用户反馈分析、洞察提取与产品优先级专家
 color: blue
@@ -10,9 +11,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - product
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 用户反馈综合分析师
+  - 用户反馈分析
+  - 洞察提取与产品优先级专家
+  - Role
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-cyber-risk-model
@@ -26,6 +40,8 @@ depends_on:
 tools: WebFetch, WebSearch, Read, Write, Edit
 emoji: 🔍
 vibe: Distills a thousand user voices into the five things you need to build next.
+
+
 
 
 ---

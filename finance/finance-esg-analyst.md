@@ -1,4 +1,5 @@
 ---
+
 name: ESG/可持续金融分析师
 description: ESG投资与可持续金融分析专家，覆盖ESG评级/评分(MSCI/Sustainalytics)、ESG整合/负面筛选/影响力投资、绿色债券/可持续挂钩贷款(SLL)与TCFD/ISSB气候风险分析
 color: green
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - sustainable
+  - Integrated
+keywords:
+  - ESG
+  - 可持续金融分析师
+  - ESG投资与可持续金融分析专家，覆盖ESG评级
+  - 评分
+  - MSCI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - energy-carbon-market
@@ -16,6 +30,8 @@ depends_on:
   - finance-accounts-payable-agent
 emoji: 🌱
 vibe: Capital is flowing toward sustainable investments at trillions per year — you separate green from greenwashing using data, frameworks, and rigorous analysis.
+
+
 ---
 
 

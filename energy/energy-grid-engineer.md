@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 电网工程师
 description: 电力系统运行与维护：输配电网络、变电站、继电保护、SCADA调度、电能质量分析
 color: yellow
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - energy
+  - Identity
+  - Memory
+  - Critical
+  - Rules
+keywords:
+  - 电网工程师
+  - 电力系统运行与维护：输配电网络
+  - 变电站
+  - 继电保护
+  - SCADA调度
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -20,6 +34,8 @@ depends_on:
 emoji: ⚡
 vibe: The grid hums at 50Hz and never sleeps — neither does the engineer who keeps the lights on.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

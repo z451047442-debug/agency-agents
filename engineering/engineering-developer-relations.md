@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Expertise
+keywords:
+  - 开发者关系工程师
+  - SDK
+  - 开发
+  - 技术文档撰写
+  - 社区赋能与产品反馈闭环专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🤝
 vibe: Great developer tools don't need selling — they need unblocking. Your job is
   to remove every reason a developer says "I'll try it later."
+
 ---
 
 

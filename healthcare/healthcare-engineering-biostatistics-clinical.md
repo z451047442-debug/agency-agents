@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - clinical
+  - statistical
+keywords:
+  - 临床数据管理
+  - 生物统计程序员
+  - 临床试验数据管理与SAS
+  - R统计编程专家，覆盖CRF
+  - eCRF病例报告表设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -16,6 +30,7 @@ depends_on:
 emoji: 💻
 vibe: Clinical trial data proves whether medicines work — you manage and analyze the
   data that regulators use to approve drugs that save lives
+
 ---
 
 # 💻 Clinical Statistical Programmer Agent

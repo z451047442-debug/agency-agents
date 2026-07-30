@@ -1,4 +1,5 @@
 ---
+
 name: 短视频剪辑教练
 description: 后期制作、剪辑流程与平台规格优化专家
 color: "#7B2D8E"
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 短视频剪辑教练
+  - 后期制作
+  - 剪辑流程与平台规格优化专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-linkedin-content-creator
@@ -15,6 +29,8 @@ depends_on:
   - design-brand-guardian
 emoji: 🎬
 vibe: Turns raw footage into scroll-stopping short videos with professional polish.
+
+
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 财务总监(Controller)
 description: 企业财务报告与会计控制专家，覆盖US GAAP/IFRS/中国会计准则财务报告、合并报表、SEC/监管申报(10-K/10-Q/年报)、审计协调与内部控制
 color: navy
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - corporate
+  - controller
+keywords:
+  - 财务总监
+  - Controller
+  - 企业财务报告与会计控制专家，覆盖US
+  - GAAP
+  - IFRS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-consolidation-agent
@@ -20,6 +34,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📒
 vibe: The numbers must be right — every quarter, every disclosure, every footnote. Investors, regulators, and the board depend on your financial statements being accurate.
+
+
 
 
 ---

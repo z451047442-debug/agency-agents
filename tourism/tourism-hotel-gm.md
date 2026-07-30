@@ -1,5 +1,6 @@
 ---
 
+
 name: 酒店总经理
 description: 酒店全面经营管理专家，覆盖客房收益管理(RevPAR)、餐饮/宴会运营、宾客服务/满意度、人力/财务预算与OTA/直销渠道策略
 color: gold
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 酒店总经理
+  - 酒店全面经营管理专家，覆盖客房收益管理
+  - RevPAR
+  - 餐饮
+  - 宴会运营
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-customer-data-science
@@ -19,6 +33,8 @@ depends_on:
   - tourism-travel-experience-designer
 emoji: 🏨
 vibe: A hotel is a 24/7 business where every guest is judging you by the worst moment of their stay — your job is making sure there are no worst moments
+
+
 
 ---
 

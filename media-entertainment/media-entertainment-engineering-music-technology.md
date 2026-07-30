@@ -1,6 +1,20 @@
 ---
 color: violet
 date_added: '2026-07-03'
+tags:
+  - media-entertainment
+  - Identity
+  - years
+  - music
+  - information
+keywords:
+  - 音乐科技
+  - 音乐信息检索
+  - MIR
+  - 研究员
+  - 音乐信息检索与AI音乐生成专家，覆盖音乐特征提取
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -22,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: AI can compose symphonies, recommend the perfect song, and isolate vocals from
   a mixed track — you build the algorithms that understand and create music
+
 ---
 
 

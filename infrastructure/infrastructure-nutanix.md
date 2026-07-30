@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Nutanix超融合专家
+  - Nutanix超融合与云平台专家，覆盖AOS
+  - AHV
+  - Prism
+  - Central
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - education-special-needs
@@ -18,6 +32,7 @@ emoji: 🔹
 vibe: Nutanix made HCI boring — in the best possible way. Storage just works, VMs
   just run, and upgrades happen with one click. When something does break, you know
   exactly where to look.
+
 ---
 
 

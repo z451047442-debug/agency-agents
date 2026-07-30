@@ -1,4 +1,5 @@
 ---
+
 name: 报关员
 description: 海关报关与通关专家，覆盖HS编码归类与预裁定、完税价格审定、原产地证申领(FORM E/F/A/B/COO)、单一窗口一体化申报、海关查验/估价/稽查应对与AEO高级认证辅导
 color: brown
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - logistics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 报关员
+  - 海关报关与通关专家，覆盖HS编码归类与预裁定
+  - 完税价格审定
+  - 原产地证申领
+  - FORM
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - logistics-engineering-supply-chain-software
   - engineering-frontend-developer
 emoji: 🛃
 vibe: Every container stuck at the border costs $500/day in demurrage. The difference between same-day clearance and a two-week hold is knowing exactly which HS code, which documentation, and which inspector you're dealing with.
+
+
 
 ---
 

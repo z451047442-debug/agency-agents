@@ -10,6 +10,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 提示词工程师
+  - Prompt
+  - 设计优化
+  - Few-shot
+  - Chain-of-Thought
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -18,6 +32,7 @@ emoji: 🎛️
 vibe: The difference between a good and great AI output is often just the prompt —
   and you know exactly how to craft it.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 ---
 
 

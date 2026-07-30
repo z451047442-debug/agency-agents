@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - critical
+  - facility
+keywords:
+  - 数据中心运营
+  - 现场运维经理
+  - 超大规模数据中心现场运营与基础设施运维经理，覆盖7×24基础设施
+  - 电气
+  - 暖通
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-incident-response
   - data-science-engineering-deep-learning-training
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🏭
 vibe: The cloud runs in data centers, and data centers run because of you — managing
   the power, cooling, and physical security that keep the internet alive
+
 ---
 
 

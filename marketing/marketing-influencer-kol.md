@@ -1,4 +1,5 @@
 ---
+
 name: 网红/KOL营销专家
 description: 网红与KOL营销策略专家，覆盖达人筛选/数据评估、Brief撰写、报价谈判、内容共创、效果追踪与长期合作管理，覆盖抖音/小红书/B站/TikTok/Instagram/YouTube
 color: pink
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 网红
+  - KOL营销专家
+  - 网红与KOL营销策略专家，覆盖达人筛选
+  - 数据评估
+  - Brief撰写
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
@@ -15,6 +29,8 @@ depends_on:
   - design-brand-guardian
 emoji: ⭐
 vibe: One authentic creator post can move more product than a ¥1M ad campaign — you find the right creators, build real partnerships, and measure what actually matters
+
+
 
 ---
 

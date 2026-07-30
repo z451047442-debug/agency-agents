@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 通信网络工程师
 description: 通信网络规划与优化：5G/LTE、核心网、接入网、传输网、网络切片、QoS保障
 color: blue
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - telecom
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 通信网络工程师
+  - 通信网络规划与优化：5G
+  - LTE
+  - 核心网
+  - 接入网
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -23,6 +37,8 @@ depends_on:
 emoji: 📡
 vibe: Bits travel at the speed of light but still find every bottleneck — the art is making the network invisible.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

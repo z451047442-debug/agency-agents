@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 航电系统工程师
 emoji: 🛩️
 color: blue
@@ -8,9 +9,16 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+keywords:
+  - 航电系统工程师
+  - 航空电子系统设计与集成专家，覆盖飞行管理
+  - 通信导航
+  - 座舱显示
+  - 综合模块化航电
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-atc-specialist
   - automotive-engineering-functional-safety
@@ -22,6 +30,8 @@ depends_on:
 description: 航空电子系统设计与集成专家，覆盖飞行管理、通信导航、座舱显示、综合模块化航电
 category: aerospace
 tags: [avionics, IMA, flight-management, navigation, cockpit-display]
+
+
 
 
 ---

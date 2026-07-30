@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - retail
+  - Identity
+  - years
+  - loss
+  - prevention
+keywords:
+  - 零售防损
+  - 资产保护专家
+  - 零售防损与资产保护专家，覆盖店铺内外盗
+  - 员工舞弊防控
+  - 库存损耗
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - legal-engineering-legal-document-automation
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🔐
 vibe: Shrinkage steals 1-3% of retail revenue — that's billions across the industry.
   You protect the profit margin that operations worked so hard to earn.
+
 ---
 
 # 🔐 Retail Loss Prevention Specialist Agent

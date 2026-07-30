@@ -1,5 +1,6 @@
 ---
 
+
 name: Bilibili 内容策略师
 description: Expert Bilibili marketing specialist focused on UP主 growth, danmaku culture mastery, B站 algorithm optimization, community building, and branded content strategy for China's leading video community platform.
 color: pink
@@ -9,12 +10,27 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Bilibili
+  - 内容策略师
+  - Expert
+  - marketing
+  - specialist
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - design-cultural-intelligence-strategist
 emoji: 🎬
 vibe: Speaks fluent danmaku and grows your brand on B站.
+
+
 
 ---
 

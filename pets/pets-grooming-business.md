@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 宠物美容与门店运营
 description: 宠物美容与门店运营专家，覆盖品种标准美容造型（贵宾/比熊/雪纳瑞等）、宠物操作安全与低应激处理、门店卫生消毒与传染病防控、预约排班与客户关系管理、移动美容车运营与上门服务
 color: pink
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - pets
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 宠物美容与门店运营
+  - 宠物美容与门店运营专家，覆盖品种标准美容造型（贵宾
+  - 比熊
+  - 雪纳瑞等）
+  - 宠物操作安全与低应激处理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - iot-engineering-mixed-signal-ic
@@ -21,6 +35,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: ✂️
 vibe: Grooming isn't just about looking good — it's about skin health, early disease detection, and a stress-free experience that keeps pets happy to come back. You run a salon where every scissor cut is breed-correct, every restraint is fear-free, and every client leaves healthier than they arrived.
+
+
 
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 分子诊断/精准医疗产品开发专家
 description: 体外诊断(IVD)与分子诊断产品开发专家，覆盖PCR/qPCR/dPCR/NGS检测试剂开发、样本制备/核酸提取、伴随诊断(CDx)开发与IVDR/NMPA注册
 color: teal
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - product
+  - development
+keywords:
+  - 分子诊断
+  - 精准医疗产品开发专家
+  - 体外诊断
+  - IVD
+  - 与分子诊断产品开发专家，覆盖PCR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - pharma-biotech-pharma-clinical-trials
   - pharma-biotech-pharma-drug-discovery
@@ -17,6 +31,8 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🧬
 vibe: A single drop of blood can reveal cancer, infection, or genetic disease — you develop the tests that turn molecular biology into life-saving diagnostics
+
+
 
 
 ---

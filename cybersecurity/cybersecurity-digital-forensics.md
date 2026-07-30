@@ -13,6 +13,20 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
+tags:
+  - cybersecurity
+  - Identity
+  - Mindset
+  - Core
+  - Mission
+keywords:
+  - 数字取证调查员
+  - 数字取证调查专家，专注证据收集
+  - 取证镜像
+  - 时间线分析
+  - 痕迹恢复及保管链文档，覆盖终端
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-endpoint-forensics
   - engineering-cache-specialist
@@ -22,6 +36,7 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🔍
 vibe: Follows the digital footprints nobody else sees. Recovers what attackers tried to delete, builds timelines from fragments, and tells the story the logs don't want you to know.
+
 
 
 

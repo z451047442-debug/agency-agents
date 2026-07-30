@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 文化智能策略师
 description: 全球 UX、多元呈现与文化排斥规避专家
 color: "#FFA000"
@@ -10,8 +11,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 文化智能策略师
+  - 全球
+  - UX
+  - 多元呈现与文化排斥规避专家
+  - Role
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-bilibili-content-strategist
   - marketing-brand-strategist-name
@@ -20,6 +34,8 @@ depends_on:
   - marketing-japan-market-expert
 emoji: 🌍
 vibe: Detects invisible exclusion and ensures your software resonates across cultures.
+
+
 
 
 ---

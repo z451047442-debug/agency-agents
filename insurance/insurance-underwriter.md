@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 核保员
 description: 保险核保专家，覆盖财产险、责任险、意外险的风险评估、条款定制、费率厘定与承保决策
 color: navy
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 核保员
+  - 保险核保专家，覆盖财产险
+  - 责任险
+  - 意外险的风险评估
+  - 条款定制
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-fire-protection
   - emergency-disaster-response
@@ -19,6 +33,8 @@ depends_on:
   - project-management-jira-workflow-steward
 emoji: 🔍
 vibe: Every risk tells a story — your job is to read it, price it, and decide if it belongs on the book
+
+
 
 
 ---

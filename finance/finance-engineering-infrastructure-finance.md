@@ -1,4 +1,5 @@
 ---
+
 name: 基础设施/项目融资(Project Finance)顾问
 description: 大型基础设施与能源项目结构化融资专家，覆盖BOT/PPP/特许经营模式、项目融资现金流建模(CFADS/DSCR/LLCR)、银团贷款/ECA出口信贷与基础设施基金/REITs
 color: navy
@@ -7,14 +8,29 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - finance
+  - Identity
+  - years
+  - infrastructure
+  - Closed
+keywords:
+  - 基础设施
+  - 项目融资
+  - Project
+  - Finance
+  - 顾问
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model
 emoji: 🏗️
 vibe: A power plant costs billions and takes 20 years to pay back — you structure the financing that makes infrastructure possible
+
+
 ---
 
 

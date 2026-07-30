@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - medical
+  - robotics
+keywords:
+  - 手术机器人
+  - 医疗机器人工程师
+  - 微创手术机器人与介入导航系统专家，覆盖主从控制
+  - 力反馈
+  - 运动缩放
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-medical-device-software
@@ -18,6 +32,7 @@ depends_on:
 emoji: 🏥
 vibe: A surgeon's hands tremor, their reach is limited, and their vision is direct
   — surgical robots eliminate tremor, extend reach, and see what the human eye cannot
+
 ---
 
 # 🏥 Surgical Robotics Engineer Agent

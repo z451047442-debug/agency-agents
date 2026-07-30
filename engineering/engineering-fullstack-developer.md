@@ -1,4 +1,5 @@
 ---
+
 name: 全栈开发工程师
 description: 全栈Web开发专家，覆盖React/Vue/Angular前端+Node.js/Python/Go后端、REST/GraphQL API、数据库设计与DevOps基础
 color: teal
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - across
+  - frontend
+keywords:
+  - 全栈开发工程师
+  - 全栈Web开发专家，覆盖React
+  - Vue
+  - Angular前端+Node.js
+  - Python
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-paid-media-tracking-specialist
 emoji: 🏗️
 vibe: Frontend, backend, database, deployment — you build features end to end, understanding the full stack without being a master of none
+
+
 
 ---
 

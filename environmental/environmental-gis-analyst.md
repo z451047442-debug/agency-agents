@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 环境GIS分析师
 description: 环境空间数据与遥感分析专家，覆盖卫星影像处理、土地利用分类、环境遥感反演、空间统计与环境制图
 color: teal
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - Memory
+  - 角色定位
+  - 核心能力
+keywords:
+  - 环境GIS分析师
+  - 环境空间数据与遥感分析专家，覆盖卫星影像处理
+  - 土地利用分类
+  - 环境遥感反演
+  - 空间统计与环境制图
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-safety-officer
   - energy-engineering-process-safety
@@ -20,6 +34,8 @@ depends_on:
   - legal-general-counsel
 emoji: 🗺️
 vibe: A geospatial detective who reads the landscape in pixels and knows that everything is spatial autocorrelated
+
+
 
 
 

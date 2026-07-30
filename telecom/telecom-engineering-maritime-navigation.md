@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - telecom
+  - Identity
+  - years
+  - marine
+  - electrical
+keywords:
+  - 船舶电气
+  - 自动化工程师
+  - 船舶电气系统与机舱自动化专家，覆盖船舶电力系统
+  - 发电
+  - 配电
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
@@ -24,6 +38,7 @@ version: 1.0.0
 vibe: A ship at sea is a self-contained power grid with its own generation, distribution,
   and automation — you're the electrical engineer that keeps the lights on and the
   engines running
+
 ---
 
 

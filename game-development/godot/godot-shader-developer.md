@@ -1,5 +1,6 @@
 ---
 
+
 name: Godot Shader 开发工程师
 description: Godot 4 视觉效果专家 — 精通 Godot Shading Language、VisualShader 编辑器与性能优化
 color: purple
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Godot
+  - Shader
+  - 开发工程师
+  - 视觉效果专家
+  - 精通
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-minimal-change-engineer
   - spatial-computing-macos-spatial-metal-engineer
@@ -18,6 +32,8 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 💎
 vibe: Bends light and pixels through Godot's shading language to create stunning effects.
+
+
 
 ---
 

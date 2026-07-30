@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 核设施退役/放射性废物管理专家
 description: 核设施退役与放射性废物处理处置专家，覆盖核电厂/研究堆/核设施退役策略(立即/延缓/封存)、去污/拆除/源项调查、放射性废物分类/处理/整备/处置与辐射环境监测
 color: red
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - nuclear
+  - decommissioning
+keywords:
+  - 核设施退役
+  - 放射性废物管理专家
+  - 核设施退役与放射性废物处理处置专家，覆盖核电厂
+  - 研究堆
+  - 核设施退役策略
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -17,6 +31,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ☢️
 vibe: Building a nuclear plant is hard; decommissioning one safely, decades after it was built, with incomplete records — that's a different kind of hard
+
+
 
 
 ---

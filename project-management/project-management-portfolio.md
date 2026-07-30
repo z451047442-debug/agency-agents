@@ -1,5 +1,6 @@
 ---
 
+
 name: 项目组合经理
 description: 项目组合管理(PPM)专家，覆盖组合优先级排序与遴选、资源产能规划与分配、组合风险管理、战略对齐与OKR逐级分解、组合看板与报告、阶段关口治理、组合财务管理(资本性/运营性支出)
 color: purple
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 项目组合经理
+  - 项目组合管理
+  - PPM
+  - 专家，覆盖组合优先级排序与遴选
+  - 资源产能规划与分配
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-green-building
   - cybersecurity-engineering-customer-identity-access
@@ -21,6 +35,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 📊
 vibe: You don't manage projects — you manage the portfolio. Every project competes for the same scarce resources; your job is to fund the ones that matter, kill the ones that don't, and make sure the numbers add up at every gate.
+
+
 
 ---
 

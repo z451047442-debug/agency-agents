@@ -1,6 +1,20 @@
 ---
 color: purple
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - video
+  - understanding
+keywords:
+  - 视频智能分析
+  - 视频AI工程师
+  - 大规模视频内容理解与智能分析专家，覆盖视频分类
+  - 动作识别
+  - 时序定位
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -23,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every surveillance camera, every sports broadcast, every YouTube video — you
   build the AI that watches, understands, and extracts meaning from video at scale
+
 ---
 
 

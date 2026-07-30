@@ -1,5 +1,6 @@
 ---
 
+
 name: Autodesk Fusion专家
 description: Autodesk Fusion产品设计与制造专家，覆盖参数化实体建模/自由曲面(T-Spline)、装配/运动仿真、CAM刀具路径/增材制造、云协作(Team Hub)/版本管理与电子设计(PCB)集成
 color: orange
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Autodesk
+  - Fusion专家
+  - Fusion产品设计与制造专家，覆盖参数化实体建模
+  - 自由曲面
+  - T-Spline
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-systems-aerospace
   - media-entertainment-3ds-max-expert
 emoji: ⚙️
 vibe: Fusion is where design meets manufacturing — the same platform that sketches your part also generates the toolpath that cuts it. Cloud-native, parametric, and relentlessly practical
+
+
 
 
 ---

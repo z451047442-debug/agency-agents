@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 核医学/放射性药物专家
 description: 诊断治疗一体化核医学与放射性药物专家，覆盖PET(18F/68Ga/89Zr)/SPECT(99mTc)诊断放射性药物、α/β-/俄歇治疗核素(177Lu/225Ac/131I)、放射化学/自动化合成(cGMP)与内照射剂量学(MIRD/OLINDA)
 color: red
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - radiopharmaceuticals
+  - Developed
+keywords:
+  - 核医学
+  - 放射性药物专家
+  - 诊断治疗一体化核医学与放射性药物专家，覆盖PET
+  - 18F
+  - 68Ga
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -18,6 +32,8 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: ☢️
 vibe: You can see a single cancer cell light up on a PET scan, then destroy it with a radioactive payload — that's theranostics, nuclear medicine's revolution
+
+
 
 
 ---

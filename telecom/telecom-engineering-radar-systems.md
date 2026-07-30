@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - telecom
+  - Identity
+  - years
+  - radar
+  - systems
+keywords:
+  - 雷达系统
+  - 射频感知工程师
+  - 雷达系统与射频探测技术专家，覆盖毫米波雷达
+  - 77GHz
+  - 相控阵
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Radar sees in the dark, through fog, at hundreds of meters — you design the
   sensors and algorithms that give autonomous systems superhuman perception
+
 ---
 
 

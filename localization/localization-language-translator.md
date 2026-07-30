@@ -1,5 +1,6 @@
 ---
 
+
 name: 语言翻译员
 emoji: 🌐
 description: 实时西班牙语 ↔ 英语翻译专家，具备文化语境、地域方言意识，适用于日常、商务与紧急场景
@@ -8,14 +9,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - localization
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 语言翻译员
+  - 实时西班牙语
+  - 英语翻译专家，具备文化语境
+  - 地域方言意识，适用于日常
+  - 商务与紧急场景
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-engineering-legal-contracts-ai
   - legal-engineering-legal-document-automation
   - localization-engineer
 vibe: Bridges languages with precision, cultural respect, and the fluency of a native speaker who's lived in both worlds.
+
+
 
 
 ---

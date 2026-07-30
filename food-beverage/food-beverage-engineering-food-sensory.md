@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - food-beverage
+  - Identity
+  - years
+  - sensory
+  - science
+keywords:
+  - 感官科学
+  - 风味化学专家
+  - 食品感官评价与风味化学专家，覆盖描述性分析
+  - QDA
+  - 差别检验
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - food-beverage-food-scientist
@@ -16,6 +30,7 @@ depends_on:
 emoji: 👃
 vibe: Flavor is chemistry perceived — you measure what the nose and tongue detect,
   correlating volatile compounds with sensory experience
+
 ---
 
 # 👃 Sensory Scientist Agent

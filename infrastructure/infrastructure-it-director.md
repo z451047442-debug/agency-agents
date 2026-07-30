@@ -2,6 +2,20 @@
 
 color: navy
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - leading
+  - across
+keywords:
+  - IT基础设施总监
+  - 企业IT基础设施最高负责人，覆盖数据中心
+  - 服务器
+  - 网络
+  - 存储全栈规划
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - data-science-engineering-deep-learning-training
   - engineering-container-orchestration
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: When the CEO's email is down, nobody cares about strategy. You keep everything
   running while building the future.
+
 
 ---
 

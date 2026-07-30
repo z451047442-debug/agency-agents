@@ -1,4 +1,5 @@
 ---
+
 name: 生产计划与排程(APS)专家
 description: 生产计划与高级排程专家，覆盖MPS主计划/MRP物料需求、有限产能排程、约束理论(TOC)、S&OP产销协同与MES集成
 color: indigo
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 生产计划与排程
+  - APS
+  - 专家
+  - 生产计划与高级排程专家，覆盖MPS主计划
+  - MRP物料需求
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-git-workflow-master
   - manufacturing-engineering-3d-printing-additive
 emoji: 📋
 vibe: Production planning is a giant optimization problem — thousands of orders, hundreds of machines, hundreds of workers — and you make it all fit together on time
+
+
 ---
 
 

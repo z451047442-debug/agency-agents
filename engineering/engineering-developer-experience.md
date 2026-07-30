@@ -1,4 +1,5 @@
 ---
+
 name: 开发者体验(DX)工程师
 description: 开发者体验与工具链工程专家，覆盖本地开发环境/Dev Container、CLI工具/开发者门户、SDK/库设计、文档/入门体验与开发者生产力度量
 color: cyan
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - building
+  - developer
+keywords:
+  - 开发者体验
+  - DX
+  - 工程师
+  - 开发者体验与工具链工程专家，覆盖本地开发环境
+  - Dev
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - construction-engineering-green-building
 emoji: 🛠️
 vibe: Happy developers ship better code faster. You build the tools, the CLI, the SDKs, and the docs that make other engineers 10x more productive.
+
+
 
 ---
 

@@ -2,6 +2,7 @@
 
 
 
+
 name: 生物声学/生态声学研究员
 description: 动物声学通信与环境声学生态监测专家，覆盖被动声学监测(PAM)/声景生态学(Soundscape Ecology)、动物发声分析/物种识别(蝙蝠/鲸类/鸟类/昆虫)、水下声学(水听器阵列)与声学指数(ACI/ADI/NDSI)
 color: green
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - years
+  - bioacoustics
+  - Deployed
+keywords:
+  - 生物声学
+  - 生态声学研究员
+  - 动物声学通信与环境声学生态监测专家，覆盖被动声学监测
+  - PAM
+  - 声景生态学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
@@ -22,6 +36,8 @@ depends_on:
   - product-trend-researcher
 emoji: 🎧
 vibe: Every ecosystem has a soundscape — you listen to forests, oceans, and grasslands to monitor biodiversity, track endangered species, and understand how animals communicate
+
+
 
 
 

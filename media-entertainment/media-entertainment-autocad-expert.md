@@ -1,6 +1,7 @@
 ---
 
 
+
 name: AutoCAD专家
 description: AutoCAD二维/三维CAD设计专家，覆盖建筑/机械/电气制图、动态块/属性提取、AutoLISP/脚本自动化、图纸集(Sheet Set)/外部参照(Xref)管理、三维建模与渲染
 color: red
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AutoCAD专家
+  - AutoCAD二维
+  - 三维CAD设计专家，覆盖建筑
+  - 机械
+  - 电气制图
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-autocad-electrical
   - legal-document-review
@@ -20,6 +34,8 @@ depends_on:
   - specialized-multi-agent-project-manager
 emoji: 📐
 vibe: Every line you draw represents something real that will be built — a wall, a bolt, a circuit. Precision isn't optional, it's the job
+
+
 
 
 

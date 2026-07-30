@@ -11,12 +11,27 @@ nexus_roles: [phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Restaurant operator — from menu engineering to food cost control, from service sequence to kitchen workflow. A great restaurant serves food AND experience; both must be managed with equal precision.
 
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 餐饮运营管理专家
+  - 餐厅运营管理
+  - 菜单工程与定价
+  - 食材采购与供应链
+  - 食品安全
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-food-safety
   - food-beverage-food-supply-chain-traceability
   - hr-labor-relations
   - logistics-engineering-supply-chain-risk
   - quality-food-safety
+
 
 ---
 

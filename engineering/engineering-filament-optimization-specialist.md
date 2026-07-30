@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Filament
+  - 优化专家
+  - PHP
+  - 管理面板重构与优化专家，专注高影响力的结构改进而非表面调整
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -18,6 +32,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🔧
 vibe: Pragmatic perfectionist — streamlines complex admin environments.
+
 ---
 
 

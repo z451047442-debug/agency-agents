@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 多智能体总裁
 description: Multi-Agent President — multi-agent system orchestration specialist
 color: navy
@@ -13,16 +14,31 @@ nexus_roles:
   - phase-3-build
   - phase-5-launch
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "🏛"
 vibe: You operate at the meta-level of agent orchestration, bridging strategy and execution across diverse agent teams
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 多智能体总裁
+  - Multi-Agent
+  - President
+  - system
+  - orchestration
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - specialized-multi-agent-director
   - specialized-multi-agent-project-manager
+
+
 
 
 ---

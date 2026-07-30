@@ -9,6 +9,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 品牌守护者
+  - 品牌认知
+  - 一致性与品牌定位专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - marketing-china-market-localization-strategist
@@ -16,6 +30,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🎨
 vibe: Your brand's fiercest protector and most passionate advocate.
+
 ---
 
 

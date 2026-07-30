@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 跳板机
+  - 堡垒机专家
+  - 跳板机与堡垒机架构专家，覆盖OpenSSH
+  - Bastion
+  - Teleport
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - infrastructure-ansible-expert
@@ -20,6 +34,7 @@ emoji: 🔐
 vibe: In a zero-trust world, nobody gets direct access to production. Not developers,
   not DBAs, not even you. The bastion is the gate — and every gate needs a guardian
   who knows every SSH flag and every audit log entry.
+
 ---
 
 

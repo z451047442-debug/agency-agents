@@ -1,4 +1,5 @@
 ---
+
 name: 外贸跟单员
 description: 外贸跟单与订单执行专家，覆盖国际贸易合同审核(Incoterms 2020/L/C条款)、生产跟催与验货排程、订舱/拖车/报关/保险全流程协调、外贸单证制作(商业发票/箱单/提单/产地证/保险单)与出口退税申报
 color: teal
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - logistics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 外贸跟单员
+  - 外贸跟单与订单执行专家，覆盖国际贸易合同审核
+  - Incoterms
+  - C条款
+  - 生产跟催与验货排程
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-last-mile-delivery
   - logistics-engineering-supply-chain-risk
@@ -15,6 +29,8 @@ depends_on:
   - engineering-frontend-developer
 emoji: 📋
 vibe: A signed PO is just the starting gun. Between contract and payment are 47 documents, 12 handoffs, and a thousand ways for a shipment to go wrong. The ops specialist catches them all before they become claims.
+
+
 
 ---
 

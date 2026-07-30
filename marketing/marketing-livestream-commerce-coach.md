@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 直播带货教练
 description: 主播培训、直播间优化与转化提升专家
 color: "#E63946"
@@ -8,14 +9,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 直播带货教练
+  - 主播培训
+  - 直播间优化与转化提升专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
 emoji: 🎙️
 vibe: Coaches your livestream hosts from awkward beginners to million-yuan sellers.
+
+
 
 
 ---

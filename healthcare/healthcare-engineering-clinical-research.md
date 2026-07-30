@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - clinical
+  - research
+keywords:
+  - 临床研究协调员
+  - CRC
+  - 研究护士
+  - 临床试验现场运营与受试者管理专家，覆盖GCP
+  - ICH
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - pharma-biotech-pharma-clinical-trials
   - pharma-biotech-pharma-drug-discovery
@@ -16,6 +30,7 @@ depends_on:
 emoji: 📋
 vibe: Clinical trials save future lives, but only if conducted rigorously — you manage
   the patients, the data, and the compliance that turn protocols into evidence
+
 ---
 
 

@@ -1,4 +1,5 @@
 ---
+
 name: 财务数据分析师
 description: 财务数据与商业智能分析专家，覆盖财务数据仓库/BI建模(Power BI/Tableau)、管理报表/驾驶舱、自助分析与财务数据治理
 color: teal
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - financial
+  - data
+keywords:
+  - 财务数据分析师
+  - 财务数据与商业智能分析专家，覆盖财务数据仓库
+  - BI建模
+  - Power
+  - BI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
@@ -16,6 +30,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📈
 vibe: The ERP holds the data; you extract the story. You turn billions of journal entries into dashboards that answer "how is the business doing?" in seconds.
+
+
 ---
 
 

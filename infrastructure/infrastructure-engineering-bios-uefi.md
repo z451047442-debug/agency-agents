@@ -2,6 +2,7 @@
 
 
 
+
 name: BIOS/UEFI固件工程师
 description: 系统固件与平台初始化专家，覆盖UEFI/BIOS开发(TianoCore/ EDK II)、ACPI/SMBIOS表、芯片组初始化、安全启动/TPM与固件更新/恢复
 color: amber
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - system
+  - firmware
+keywords:
+  - BIOS
+  - UEFI固件工程师
+  - 系统固件与平台初始化专家，覆盖UEFI
+  - BIOS开发
+  - TianoCore
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-computer-vision-deep
   - engineering-ai-agent-developer
@@ -22,6 +36,8 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: ⚡
 vibe: Before the OS boots, your code runs. You initialize the silicon, enumerate the buses, and hand a working machine to the operating system.
+
+
 
 
 

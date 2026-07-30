@@ -11,11 +11,26 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Philosophical thinking models — from Confucian harmony to Nietzschean perspective, from Socratic questioning to Daoist non-action. Philosophy is the operating system of civilization, shaping how billions think about truth, ethics, and meaning.
 
+tags:
+  - thinking-models
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 东西方哲学思想家思维模型专家
+  - 孔子
+  - 中庸
+  - 仁学
+  - 孟子
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - game-development-game-psychology
   - parenting-family-education-consulting
   - specialized-personal-growth-mentor
   - testing-engineering-test-automation-framework
+
 
 ---
 

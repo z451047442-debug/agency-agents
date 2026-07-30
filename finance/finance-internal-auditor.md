@@ -11,6 +11,20 @@ nexus_roles:
   - phase-0-discovery
   - phase-4-hardening
 lifecycle: published
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 内部审计师
+  - 内部审计与内部控制专家，覆盖风险导向审计计划
+  - SOX
+  - 内控测试
+  - 运营审计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - cybersecurity-incident-response
@@ -20,6 +34,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🔍
 vibe: External auditors check the numbers; you check everything else — the processes, the controls, the risks, and whether anyone is circumventing them
+
 
 
 

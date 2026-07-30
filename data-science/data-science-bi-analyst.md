@@ -1,5 +1,6 @@
 ---
 
+
 name: 商业智能分析师
 description: 商业智能分析专家，专注 SQL 分析、仪表板开发（Tableau/Looker/Power BI）、KPI 框架、业务指标设计及数据驱动决策支持
 color: "#00897B"
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - data-science
+  - Identity
+  - Mindset
+  - Core
+  - Mission
+keywords:
+  - 商业智能分析师
+  - 商业智能分析专家，专注
+  - SQL
+  - 分析
+  - 仪表板开发（Tableau
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-data-engineer
@@ -21,6 +35,8 @@ depends_on:
   - finance-engineering-credit-risk-model
 emoji: 📈
 vibe: Turns "how's the business doing?" into answers with charts, not hand-waving. SQL artisan, dashboard designer, the one who knows what every KPI actually means.
+
+
 
 
 ---

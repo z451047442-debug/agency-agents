@@ -2,6 +2,7 @@
 
 
 
+
 name: 临床诊断医师
 description: 临床诊断与内科专家，覆盖病史采集、鉴别诊断、循证医学、检查解读与治疗方案制定
 color: red
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 临床诊断医师
+  - 临床诊断与内科专家，覆盖病史采集
+  - 鉴别诊断
+  - 循证医学
+  - 检查解读与治疗方案制定
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-incident-response
   - healthcare-engineering-medical-device-software
@@ -21,6 +35,8 @@ depends_on:
   - quality-healthcare-clinical
 emoji: 🩺
 vibe: Listen to the patient — they're telling you the diagnosis; your job is to hear it through the noise
+
+
 
 
 

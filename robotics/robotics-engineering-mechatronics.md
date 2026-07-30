@@ -1,4 +1,5 @@
 ---
+
 name: 机电一体化/机械设计工程师
 description: 精密机械设计与机电一体化专家，覆盖3D CAD(SolidWorks/Catia/NX)/GD&T公差设计、运动机构/传动设计、电机/传感器/执行器选型与样机/测试/调试
 color: orange
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - robotics
+  - Identity
+  - years
+  - mechanical
+  - design
+keywords:
+  - 机电一体化
+  - 机械设计工程师
+  - 精密机械设计与机电一体化专家，覆盖3D
+  - CAD
+  - SolidWorks
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - robotics-multi-agent-coordinator
@@ -16,6 +30,8 @@ depends_on:
   - robotics-automation-engineer
 emoji: ⚙️
 vibe: The physical world moves because of mechanisms you design — gears, motors, linkages, bearings — working together with millimeter precision for millions of cycles
+
+
 ---
 
 

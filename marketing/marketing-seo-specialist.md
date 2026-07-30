@@ -1,4 +1,5 @@
 ---
+
 name: SEO 专家
 description: 技术 SEO、内容策略与外链建设专家
 tools: WebFetch, WebSearch, Read, Write, Edit
@@ -8,8 +9,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - SEO
+  - 专家
+  - 技术
+  - 内容策略与外链建设专家
+  - Core
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
@@ -17,6 +31,8 @@ depends_on:
   - design-brand-guardian
 emoji: 🔍
 vibe: Drives sustainable organic traffic through technical SEO and content strategy.
+
+
 
 ---
 

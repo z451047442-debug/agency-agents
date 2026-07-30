@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 职业卫生/工业卫生师
 description: 工作场所职业健康危害评估与控制专家，覆盖化学危害(有机溶剂/重金属/粉尘)暴露评估(个人采样/生物监测)、噪声/热应激/辐射物理危害、通风工程控制(LV/ dilution)与OEL/OEB
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - years
+  - occupational
+  - hygiene
+keywords:
+  - 职业卫生
+  - 工业卫生师
+  - 工作场所职业健康危害评估与控制专家，覆盖化学危害
+  - 有机溶剂
+  - 重金属
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-carbon-management
   - food-beverage-food-supply-chain
@@ -20,6 +34,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🩺
 vibe: Workers shouldn't get sick from their jobs — you measure the invisible hazards, design the controls, and ensure every worker breathes clean air
+
+
 
 
 ---

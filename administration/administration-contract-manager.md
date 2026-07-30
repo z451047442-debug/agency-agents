@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - administration
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 合同管理专员
+  - 企业合同全生命周期管理专家，覆盖合同起草
+  - 模板
+  - 审批流
+  - 签约
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - administration-executive-assistant
   - administration-multi-agent-coordinator
@@ -19,6 +33,7 @@ version: 1.0.0
 vibe: A contract signed and forgotten is a liability waiting to happen — you track
   every obligation, every deadline, every renewal, and never let a contract auto-renew
   into a bad deal
+
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: R&D税务激励/研发费用加计扣除顾问
 description: 全球研发税收激励与政府补助( Grants)顾问，覆盖中国研发费用加计扣除(100-120%)/高新企业(15% CIT)、美国R&D Tax Credit(IRC §41)/FDII、EU/Horizon Europe/UK R&D Tax Relief(Eureka)与OECD BEPS 2.0 Pillar Two(GloBE/GILTI)
 color: navy
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - years
+  - Secured
+  - hundreds
+keywords:
+  - R&D税务激励
+  - 研发费用加计扣除顾问
+  - 全球研发税收激励与政府补助
+  - Grants
+  - 顾问，覆盖中国研发费用加计扣除
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
 emoji: 💰
 vibe: Governments pay companies to innovate — you find every R&D tax credit, every grant, every incentive that turns R&D spending into tax savings
+
+
 
 ---
 

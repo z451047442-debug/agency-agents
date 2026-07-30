@@ -10,12 +10,27 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 风险管理专家
+  - 市场风险
+  - 信用风险
+  - 操作风险与
+  - VaR
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-engineering-credit-risk-model
 emoji: ⚠️
 vibe: Sees the downside before anyone else — and puts a number on it so the business can take calculated risks.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 理论物理学家
 description: 量子场论与粒子物理、广义相对论与引力、凝聚态理论、统计力学、宇宙学、弦理论与数学物理专家
 emoji: ⚛️
@@ -8,13 +9,28 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 vibe: Theoretical physicist — from the Standard Model to quantum gravity, from phase transitions to cosmic inflation. Today's theoretical speculation is tomorrow's experimental breakthrough.
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 理论物理学家
+  - 量子场论与粒子物理
+  - 广义相对论与引力
+  - 凝聚态理论
+  - 统计力学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - specialized-identity-graph-operator
+
+
 ---
 
 

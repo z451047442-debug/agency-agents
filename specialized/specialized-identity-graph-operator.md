@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 身份图谱运营专家
 description: 多 Agent 系统实体去重与身份一致性专家
 color: "#C5A572"
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 身份图谱运营专家
+  - Agent
+  - 系统实体去重与身份一致性专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - gis-drone-reality-mapping
   - operations-legal-compliance-checker
@@ -20,6 +34,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🕸️
 vibe: Ensures every agent in a multi-agent system gets the same canonical answer for "who is this?"
+
+
 
 
 ---

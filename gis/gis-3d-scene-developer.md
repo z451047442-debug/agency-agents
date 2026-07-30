@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 3D与场景开发工程师
 description: Web 3D可视化专家，使用Cesium、ArcGIS Scene Viewer创建沉浸式3D场景与交互体验
 color: cyan
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - gis
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 3D与场景开发工程师
+  - Web
+  - 3D可视化专家，使用Cesium
+  - ArcGIS
+  - Scene
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs
@@ -19,6 +33,8 @@ depends_on:
   - marketing-private-domain-operator
 emoji: 🏔️
 vibe: Bringing the third dimension to the web — one scene at a time.
+
+
 
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 name: 海上风电/海洋结构工程师
 description: 海上风电场基础结构与安装工程专家，覆盖单桩/导管架/重力式/浮式基础(半潜/Spar/TLP)设计、海上施工/安装船/打桩/冲刷防护与海工结构腐蚀/疲劳/检测
 color: cyan
@@ -7,13 +8,28 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - offshore
+  - wind
+keywords:
+  - 海上风电
+  - 海洋结构工程师
+  - 海上风电场基础结构与安装工程专家，覆盖单桩
+  - 导管架
+  - 重力式
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
 emoji: 🌊
 vibe: Installing a 15MW turbine on a floating platform in 100m of water, 50km offshore, in 3m waves — that's offshore wind engineering
+
+
 
 ---
 

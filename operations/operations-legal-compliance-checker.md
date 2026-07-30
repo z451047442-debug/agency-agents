@@ -10,6 +10,20 @@ nexus_roles:
   - phase-6-operate
   - phase-4-hardening
 lifecycle: published
+tags:
+  - operations
+  - Identity
+  - Memory
+  - Critical
+  - Rules
+keywords:
+  - 法律合规检查员
+  - 合规审查
+  - 监管要求与风险管理专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - legal-data-protection-officer
@@ -18,6 +32,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: ⚖️
 vibe: Ensures your operations comply with the law across every jurisdiction that matters.
+
 
 
 ---

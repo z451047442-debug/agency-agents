@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - years
+  - lifecycle
+  - Built
+keywords:
+  - 客户生命周期营销专家
+  - 客户生命周期与CRM营销专家，覆盖客户旅程编排
+  - 个性化
+  - RFM分层
+  - 精准营销
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-multi-agent-coordinator
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🔄
 vibe: Acquiring a customer costs 5x more than keeping one — you design the campaigns
   that turn one-time buyers into lifelong advocates
+
 ---
 
 

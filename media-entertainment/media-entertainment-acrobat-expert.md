@@ -1,5 +1,6 @@
 ---
 
+
 name: Adobe Acrobat/PDF专家
 description: Adobe Acrobat与PDF文档工程专家，覆盖PDF创建/优化/压缩、交互式表单设计、数字签名/认证工作流、无障碍PDF(PDF/UA)、印前检查/预检与文档安全/权限管理
 color: red
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Adobe
+  - Acrobat
+  - PDF专家
+  - Acrobat与PDF文档工程专家，覆盖PDF创建
+  - 优化
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-flight-test-engineer
   - cybersecurity-engineering-customer-identity-access
@@ -19,6 +33,8 @@ depends_on:
   - media-entertainment-engineering-entertainment-technology
 emoji: 📄
 vibe: A PDF that can't be read by a screen reader is a lawsuit waiting to happen — a PDF that passes every validation check is invisible infrastructure that just works
+
+
 
 ---
 

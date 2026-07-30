@@ -3,6 +3,7 @@
 
 
 
+
 name: 绿色建筑/净零能耗设计顾问
 description: 高性能绿色建筑与零碳建筑设计顾问，覆盖被动式设计/建筑物理模拟(EnergyPlus/IES/DesignBuilder)、LEED/绿建三星/BREEAM/WELL认证、光伏/地源热泵/自然通风与隐含碳(LCA)
 color: green
@@ -10,8 +11,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - construction
+  - Identity
+  - years
+  - sustainable
+  - design
+keywords:
+  - 绿色建筑
+  - 净零能耗设计顾问
+  - 高性能绿色建筑与零碳建筑设计顾问，覆盖被动式设计
+  - 建筑物理模拟
+  - EnergyPlus
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-construction-materials
   - cybersecurity-engineering-cyber-risk-model
@@ -23,6 +37,8 @@ depends_on:
   - marketing-demand-generation
 emoji: 🏢
 vibe: Buildings consume 40% of energy and produce 40% of emissions — you design the ones that produce more energy than they consume
+
+
 
 
 

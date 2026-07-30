@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - lottery
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 彩票游戏设计师
+  - 彩票游戏数学与奖级结构设计
+  - 摇奖游戏与即开票设计
+  - 头奖与赔率建模
+  - 游戏组合策略
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -24,6 +38,7 @@ vibe: A lottery game is a probability engine wrapped in hope — you design the 
   so the game is exciting for players, profitable for the operator, and transparent
   for the regulator. Every prize tier, every rollover rule, every odds calculation
   is a deliberate choice.
+
 ---
 
 

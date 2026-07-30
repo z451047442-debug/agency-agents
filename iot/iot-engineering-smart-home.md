@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - iot
+  - Identity
+  - years
+  - consumer
+  - smart
+keywords:
+  - 智能家居
+  - IoT
+  - Consumer
+  - 产品经理
+  - 消费物联网与智能家居产品专家，覆盖智能音箱
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The connected home should make life simpler, not more complicated — you design
   products that work together seamlessly and actually solve real problems
+
 ---
 
 

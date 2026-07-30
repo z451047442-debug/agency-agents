@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - agriculture
+  - Identity
+  - years
+  - aquaculture
+  - Managed
+keywords:
+  - 水产养殖
+  - 渔业科学专家
+  - 工业化水产养殖与可持续渔业管理专家，覆盖循环水养殖系统
+  - RAS
+  - 深海网箱
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-agronomist
   - agriculture-multi-agent-coordinator
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Half the world's seafood comes from aquaculture — you design the farms that
   produce protein efficiently while protecting the oceans
+
 ---
 
 

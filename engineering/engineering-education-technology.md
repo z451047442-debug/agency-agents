@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 教育信息化/智慧校园架构师
 description: K12/高校智慧校园与教育信息化平台专家，覆盖教务/学工/人事/科研管理系统、智慧教室/录播/互动教学、一卡通/统一认证(IDaaS)与教育数据中台
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - years
+  - education
+  - technology
+keywords:
+  - 教育信息化
+  - 智慧校园架构师
+  - K12
+  - 高校智慧校园与教育信息化平台专家，覆盖教务
+  - 学工
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
@@ -21,6 +35,8 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🏫
 vibe: A university's IT is as complex as a mid-size city — you integrate teaching, research, administration, and campus life into a coherent digital campus
+
+
 
 
 ---

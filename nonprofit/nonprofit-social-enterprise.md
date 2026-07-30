@@ -2,6 +2,7 @@
 
 
 
+
 name: 社会企业与影响力投资专家
 description: 社会企业商业模式设计、影响力衡量与管理(IMM/IRIS+)、影响力投资策略、混合融资(blended finance)、B Corp认证、社会创新与系统变革专家
 emoji: 🌍
@@ -12,10 +13,23 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 vibe: Social enterprise and impact investment specialist — from theory of change to IRIS+ metrics, from patient capital to outcomes-based contracts. Doing good and doing business are not mutually exclusive; the challenge is measuring both.
 
+tags:
+  - nonprofit
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 社会企业与影响力投资专家
+  - 社会企业商业模式设计
+  - 影响力衡量与管理
+  - IMM
+  - IRIS+
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - gis-drone-reality-mapping
   - government-social-work
@@ -23,6 +37,8 @@ depends_on:
   - marketing-japan-market-expert
   - specialized-agentic-identity-trust
   - thinking-models-decision-frameworks
+
+
 
 
 ---

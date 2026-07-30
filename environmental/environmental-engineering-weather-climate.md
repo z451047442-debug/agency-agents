@@ -2,6 +2,7 @@
 
 
 
+
 name: 气象/气候数据科学家
 description: 气象预报与气候数据分析专家，覆盖数值天气预报(NWP/WRF/GFS)、卫星遥感/雷达数据分析、气候模式/降尺度、AI气象大模型(FourCastNet/Pangu)与气象风险量化
 color: blue
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - atmospheric
+  - science
+keywords:
+  - 气象
+  - 气候数据科学家
+  - 气象预报与气候数据分析专家，覆盖数值天气预报
+  - NWP
+  - WRF
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-engineering-soil-science
   - cybersecurity-engineering-cyber-risk-model
@@ -22,6 +36,8 @@ depends_on:
   - logistics-engineering-supply-chain-risk
 emoji: 🌦️
 vibe: Weather affects every industry — agriculture, energy, logistics, insurance. You turn atmospheric data into forecasts that help businesses prepare for what's coming.
+
+
 
 
 

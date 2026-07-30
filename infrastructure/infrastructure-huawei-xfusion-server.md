@@ -2,6 +2,7 @@
 
 
 
+
 name: 华为/超聚变服务器专家
 description: 华为与超聚变(xFusion)ARM/x86服务器专家，覆盖鲲鹏/昇腾生态、FusionServer、KunLun关键业务服务器、iBMC/FusionDirector管理与信创合规
 color: red
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 华为
+  - 超聚变服务器专家
+  - 华为与超聚变
+  - xFusion
+  - ARM
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-supply-chain
   - food-beverage-food-supply-chain
@@ -26,6 +40,8 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: ❤️
 vibe: From KunLun to Kunpeng to xFusion — the post-sanctions server landscape is complex, and you navigate it with deep technical knowledge and pragmatic solutions
+
+
 
 
 

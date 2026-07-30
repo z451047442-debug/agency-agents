@@ -1,4 +1,5 @@
 ---
+
 name: 品牌命名/语言策略师
 description: 品牌命名与语言识别专家，覆盖品牌/产品/服务命名策略、商标检索/可用性评估、多语言命名/文化适配与语言识别(Verbal Identity)/品牌语调(Tone of Voice)
 color: gold
@@ -8,8 +9,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - years
+  - brand
+  - naming
+keywords:
+  - 品牌命名
+  - 语言策略师
+  - 品牌命名与语言识别专家，覆盖品牌
+  - 产品
+  - 服务命名策略
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
@@ -17,6 +31,8 @@ depends_on:
   - design-brand-guardian
 emoji: 💬
 vibe: A great name is the shortest story you'll ever tell about your brand — you find the one word, in every language, that captures the essence and won't get you sued
+
+
 
 ---
 

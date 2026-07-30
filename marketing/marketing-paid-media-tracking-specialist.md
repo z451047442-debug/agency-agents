@@ -1,4 +1,5 @@
 ---
+
 name: 追踪与埋点专家
 description: GTM、GA4、转化追踪与 CAPI 实施专家
 emoji: 📡
@@ -8,8 +9,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Role
+  - Definition
+  - Core
+  - Capabilities
+keywords:
+  - 追踪与埋点专家
+  - GTM
+  - GA4
+  - 转化追踪与
+  - CAPI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-creative-strategist
@@ -19,6 +33,8 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 📡
 vibe: If it's not tracked correctly, it didn't happen.
+
+
 
 ---
 

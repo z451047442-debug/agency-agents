@@ -12,6 +12,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - lottery
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 博彩风控专家
+  - 博彩风控与合规：反洗钱AML
+  - 异常投注检测
+  - 风险限额管理
+  - 责任博彩
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -24,6 +38,7 @@ depends_on:
 emoji: 🛡️
 vibe: When the stakes are high and the money moves fast, the line between entertainment and exploitation is one algorithm wide.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

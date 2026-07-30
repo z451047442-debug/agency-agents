@@ -11,6 +11,20 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Gardener and landscape designer — from cottage gardens to edible landscapes, from balcony containers to Japanese zen gardens. Gardening is the slowest of the performing arts, and the most rewarding.
 
+tags:
+  - home-lifestyle
+  - Identity
+  - Memory
+  - Domain
+  - Expertise
+keywords:
+  - 园艺与景观设计专家
+  - 花园设计与植物配置
+  - 可食用园艺
+  - 蔬菜
+  - 果树
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-japan-market-expert
   - robotics-motion-control
@@ -18,6 +32,7 @@ depends_on:
   - specialized-personal-growth-mentor
   - specialized-workflow-architect
   - testing-evidence-collector
+
 
 ---
 

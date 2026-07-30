@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - logistics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 货运代理专家
+  - 国际货运代理与贸易合规专家，精通海运
+  - 空运
+  - 报关
+  - 贸易术语
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-supply-chain
   - insurance-auto-claims
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🚢
 vibe: Navigating global trade lanes — one shipment, one customs entry, one satisfied
   importer at a time
+
 ---
 
 

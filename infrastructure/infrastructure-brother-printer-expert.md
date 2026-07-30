@@ -1,5 +1,6 @@
 ---
 
+
 name: Brother打印机专家
 description: Brother(兄弟)打印机与办公解决方案专家，覆盖激光/喷墨/标签打印机产品线、BRAdmin Professional管理、打印服务器/网络扫描配置、耗材管理与中小型企业打印方案
 color: navy
@@ -8,15 +9,30 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Brother打印机专家
+  - Brother
+  - 兄弟
+  - 打印机与办公解决方案专家，覆盖激光
+  - 喷墨
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-embedded-database
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: Brother printers are workhorses — they're not the flashiest, but they're reliable, affordable, and if you configure BRAdmin correctly, they'll run for years without anyone noticing they exist
+
+
 
 ---
 

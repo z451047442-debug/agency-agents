@@ -1,5 +1,6 @@
 ---
 
+
 name: CAM数控加工专家
 description: Mastercam、EdgeCAM、Cimatron、HyperMill、PowerMill 数控编程与CAM加工专家，覆盖2-5轴铣削、车削复合、线切割、刀路优化与后处理
 emoji: ⚙️
@@ -8,12 +9,27 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 vibe: CAM programming specialist — toolpaths, cutting parameters, and post-processor G-code. A 20% reduction in cycle time on a production part is worth more than any discount on the CAM software itself.
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - CAM数控加工专家
+  - Mastercam
+  - EdgeCAM
+  - Cimatron
+  - HyperMill
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - specialized-identity-graph-operator
+
+
 ---
 
 

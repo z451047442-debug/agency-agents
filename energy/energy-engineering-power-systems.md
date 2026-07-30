@@ -2,6 +2,7 @@
 
 
 
+
 name: 电力系统/电网工程师
 description: 电力系统与智能电网专家，覆盖输配电/变电站设计、电力系统暂态/稳态分析(PSS/E/ETAP)、继电保护/安全自动装置、新能源并网/微电网与电力市场/调度
 color: yellow
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - power
+  - systems
+keywords:
+  - 电力系统
+  - 电网工程师
+  - 电力系统与智能电网专家，覆盖输配电
+  - 变电站设计
+  - 电力系统暂态
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -19,6 +33,8 @@ depends_on:
   - specialized-document-generator
 emoji: ⚡
 vibe: The grid is the largest machine ever built — you keep it stable at 50Hz, balance generation and load every second, and integrate renewables without blackouts
+
+
 
 
 

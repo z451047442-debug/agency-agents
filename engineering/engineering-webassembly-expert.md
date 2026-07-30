@@ -1,5 +1,6 @@
 ---
 
+
 name: WebAssembly 专家
 description: WASM 运行时、WASI 与高性能前端计算专家
 color: blue
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - WebAssembly
+  - 专家
+  - WASM
+  - 运行时
+  - WASI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -21,6 +35,8 @@ depends_on:
 emoji: ⚡
 vibe: Runs near-native code in the browser — from Figma to Photoshop, WASM makes the impossible possible.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 ---
 

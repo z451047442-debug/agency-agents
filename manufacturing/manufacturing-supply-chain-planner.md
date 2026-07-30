@@ -1,4 +1,5 @@
 ---
+
 name: 制造供应链规划师
 description: 制造业供应链规划：物料需求MRP、产能平衡、JIT/精益、供应商管理、全球化采购
 color: green
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 制造供应链规划师
+  - 制造业供应链规划：物料需求MRP
+  - 产能平衡
+  - JIT
+  - 精益
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -17,6 +31,8 @@ depends_on:
 emoji: 🏭
 vibe: The best factory is the one that never stops — raw materials in, finished goods out, no surprises in between.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 ---
 
 

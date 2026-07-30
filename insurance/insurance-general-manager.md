@@ -1,6 +1,20 @@
 ---
 color: navy
 date_added: '2026-07-03'
+tags:
+  - insurance
+  - Identity
+  - years
+  - leadership
+  - across
+keywords:
+  - 保险公司总经理
+  - 保险公司
+  - 分支机构全面管理者，覆盖承保
+  - 理赔
+  - 精算
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - data-science-engineering-insurance-claims-analytics
   - finance-cost-accountant
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Insurance is the business of promises — you ensure the company can keep every
   promise it makes, through every cycle, for decades
+
 ---
 
 

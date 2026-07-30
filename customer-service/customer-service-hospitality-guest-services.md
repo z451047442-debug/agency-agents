@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 酒店客户服务专员
 emoji: 🏨
 description: 酒店、度假村、餐饮与活动场所的全方位宾客服务专家 — 预订、入住/退房、礼宾与投诉解决
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - customer-service
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 酒店客户服务专员
+  - 酒店
+  - 度假村
+  - 餐饮与活动场所的全方位宾客服务专家
+  - 预订
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - customer-service-call-center
   - engineering-developer-advocate
@@ -19,6 +33,8 @@ depends_on:
   - specialized-workflow-architect
   - tourism-hotel-gm
 vibe: Hospitality is not a transaction — it's a feeling. Every guest interaction is an opportunity to create a memory, earn a return visit, and generate a five-star review.
+
+
 
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 统一通信工程师
 description: VoIP与统一通信(UC)专家，覆盖SIP中继/交换、IP-PBX、视频会议系统、WebRTC、联络中心与语音质量(QoS/MoS)
 color: violet
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 统一通信工程师
+  - VoIP与统一通信
+  - UC
+  - 专家，覆盖SIP中继
+  - 交换
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-public-safety-analyst
   - marketing-paid-media-tracking-specialist
@@ -21,6 +35,8 @@ depends_on:
   - infrastructure-network-engineering-automation
 emoji: 📞
 vibe: When voice becomes packets, quality becomes engineering — every millisecond of latency and every lost packet is a conversation interrupted
+
+
 
 
 ---

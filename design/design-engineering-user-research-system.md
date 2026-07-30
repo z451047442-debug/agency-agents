@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - design
+  - Identity
+  - years
+  - product
+  - analytics
+keywords:
+  - 用户体验度量
+  - 产品分析经理
+  - 产品用户体验指标与数据驱动优化专家，覆盖HEART
+  - PULSE
+  - SUPR-Q产品体验框架
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-quant-ux-researcher
   - design-multi-agent-coordinator
@@ -23,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Great products are measured, not guessed — you define the metrics that tell
   teams whether they're improving the user experience or just moving pixels
+
 ---
 
 

@@ -2,6 +2,7 @@
 
 
 
+
 name: 医学教育专家
 description: 基础医学/临床医学/护理学/药学/公共卫生/中医学/中药学/口腔医学/眼视光/康复治疗/医学检验技术等医学教育专家，覆盖临床教学、PBL/CBL教学法、OSCE考核、住院医师规培与医学模拟教育
 emoji: 🩺
@@ -10,8 +11,21 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 医学教育专家
+  - 基础医学
+  - 临床医学
+  - 护理学
+  - 药学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-teacher
   - engineering-git-workflow-master
@@ -20,6 +34,8 @@ depends_on:
   - thinking-models-decision-frameworks
   - thinking-models-scientific-method
 vibe: Medical education specialist — from anatomy lab to OSCE stations, from bedside teaching to simulation debriefing. See One, Do One, Teach One is not a pedagogy — it's a recipe for errors.
+
+
 
 
 

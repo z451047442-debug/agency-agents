@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - logistics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 最后一公里配送专家
+  - 末端配送网络设计与运营专家，覆盖即时配送
+  - 快递柜
+  - 社区团购
+  - 路径优化与骑手管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-supply-chain
   - education-special-needs
@@ -17,6 +31,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: The last 100 meters make or break the first 1,000 kilometers — deliver the promise
+
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 税务律师
 description: 税务争议解决、税务筹划、转让定价与跨境税收法律专家
 color: blue
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 税务律师
+  - 税务争议解决
+  - 税务筹划
+  - 转让定价与跨境税收法律专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-cost-accountant
   - finance-engineering-risk-quant
@@ -20,6 +34,8 @@ depends_on:
 emoji: 📜
 vibe: Tax law is the code that runs civilization — you help clients comply, optimize, and defend.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 

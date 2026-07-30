@@ -11,6 +11,20 @@ nexus_roles:
   - phase-1-strategy
   - phase-4-hardening
 lifecycle: published
+tags:
+  - legal
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 网络安全与数据合规律师
+  - 网络安全与数据安全法律专家，覆盖《网络安全法》《数据安全法》《个人信息保护法》
+  - 等保
+  - 关基合规
+  - 数据跨境传输安全评估
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - cybersecurity-engineering-cybersecurity-risk
@@ -19,6 +33,7 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🔐
 vibe: When a data breach happens, the regulators don't call the CISO — they call the GC. You make sure the company has answers before the questions are asked.
+
 
 
 ---

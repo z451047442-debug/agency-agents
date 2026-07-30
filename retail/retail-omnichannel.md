@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 全渠道零售专家
+  - 全渠道零售策略：统一商务战略
+  - BOPIS
+  - 到店自提优化
+  - 无尽货架落地
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - retail-multi-agent-coordinator
@@ -17,6 +31,7 @@ emoji: 🔄
 vibe: Blurs the line between online and offline — creates seamless customer journeys
   whether they start on Instagram or in the fitting room.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
 ---
 
 

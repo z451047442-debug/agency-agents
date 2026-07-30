@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - data
+  - platform
+keywords:
+  - 数据湖
+  - 湖仓一体
+  - Lakehouse
+  - 架构师
+  - 数据湖与湖仓一体平台架构专家，覆盖Apache
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The data lake promised cheap storage but became a swamp — you build the lakehouse
   that combines the flexibility of a lake with the reliability of a warehouse
+
 ---
 
 

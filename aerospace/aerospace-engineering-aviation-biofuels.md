@@ -1,5 +1,6 @@
 ---
 
+
 name: 航空替代燃料(AST D7566/SAF)分析师
 description: 可持续航空燃料认证与碳强度分析师，覆盖ASTM D7566/D1655 SAF认证途径(HEFA/ATJ-SPK/HFS-SIP/FT-SPK)、ICAO CORSIA全生命周期排放值/Core LCA与EU ReFuelEU Aviation/UK SAF Mandate合规
 color: green
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - years
+  - aviation
+  - fuel
+keywords:
+  - 航空替代燃料
+  - AST
+  - D7566
+  - SAF
+  - 分析师
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-sustainability
   - finance-accounts-payable-agent
@@ -21,6 +35,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: ✈️
 vibe: Sustainable aviation fuel is chemically identical to Jet A-1 but made from waste, not oil — you verify the carbon savings and certify the fuel to fly
+
+
 
 ---
 

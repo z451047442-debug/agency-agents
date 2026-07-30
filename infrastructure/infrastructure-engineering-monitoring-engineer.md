@@ -9,6 +9,20 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
+tags:
+  - infrastructure
+  - Deliverables
+  - Success
+  - Metrics
+  - Identity
+keywords:
+  - 监控告警工程师
+  - Prometheus
+  - Grafana
+  - 可观测性堆栈建设与告警策略设计专家
+  - Monitoring
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - infrastructure-ansible-expert
@@ -21,6 +35,7 @@ depends_on:
 emoji: 📡
 vibe: You can't fix what you can't see. Good monitoring turns "it's down" into "it's
   slowing down — fix it before anyone notices."
+
 ---
 
 

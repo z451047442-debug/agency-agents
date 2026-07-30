@@ -1,4 +1,5 @@
 ---
+
 name: Zabbix监控专家
 description: Zabbix 6.x/7.x企业级监控专家，覆盖分布式架构设计(Server/Proxy/Agent)、模板与自动发现、LLD低级别发现、API自动化、性能调优与高可用部署
 color: red
@@ -7,8 +8,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Zabbix监控专家
+  - Zabbix
+  - 6.x
+  - 7.x企业级监控专家，覆盖分布式架构设计
+  - Server
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-engineering-incident-response-commander
   - infrastructure-storage-backup
@@ -20,6 +34,8 @@ depends_on:
 
 emoji: 📡
 vibe: When 100,000 NVPS hit your Zabbix server at 3 AM, the difference between 'incident resolved' and 'wake up the whole team' is how well you tuned your housekeeper processes.
+
+
 
 ---
 

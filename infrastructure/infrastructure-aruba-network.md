@@ -10,6 +10,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Aruba网络专家
+  - Aruba
+  - HPE
+  - 企业网络专家，覆盖CX交换机
+  - AOS-CX
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-language-model-nlp
@@ -22,6 +36,7 @@ emoji: 🟣
 vibe: Aruba is HPE's networking crown jewel — CX switches run like a dream, Central
   is the best cloud management in the business, and ClearPass is the NAC that actually
   works
+
 ---
 
 

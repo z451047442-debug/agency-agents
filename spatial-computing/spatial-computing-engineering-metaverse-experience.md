@@ -1,6 +1,20 @@
 ---
 color: violet
 date_added: '2026-07-03'
+tags:
+  - spatial-computing
+  - Identity
+  - years
+  - virtual
+  - worlds
+keywords:
+  - 虚拟世界
+  - 元宇宙体验设计师
+  - 沉浸式虚拟世界与社交元宇宙体验设计专家，覆盖虚拟空间
+  - 世界构建
+  - World
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - government-social-work
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The metaverse isn't a place — it's a moment when digital life feels more meaningful
   than physical life. You design the worlds where that happens.
+
 ---
 
 

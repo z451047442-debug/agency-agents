@@ -1,5 +1,6 @@
 ---
 
+
 name: 精密测量/光学计量(Metrology)工程师
 description: 超精密光学测量与几何量计量专家，覆盖激光干涉仪/自准直仪/坐标测量机(CMM)计量、白光干涉/共聚焦/结构光3D表面计量、纳米测量/校准链/测量不确定度(GUM)与半导体/光学制造在线计量
 color: violet
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - precision
+  - measurement
+keywords:
+  - 精密测量
+  - 光学计量
+  - Metrology
+  - 工程师
+  - 超精密光学测量与几何量计量专家，覆盖激光干涉仪
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-composites-manufacturing
   - operations-report-distribution-agent
 emoji: 📏
 vibe: Measuring a mirror to nanometer precision, aligning optics to microradian accuracy — that's precision metrology, the foundation of everything from chip manufacturing to gravitational wave detection
+
+
 
 ---
 

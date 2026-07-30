@@ -11,11 +11,26 @@ nexus_roles: [phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Elder care specialist — from aging-in-place modifications to dementia care, from caregiver support to end-of-life planning. Aging deserves dignity, autonomy, and joy.
 
+tags:
+  - parenting-family
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 老年照护与银发产业专家
+  - 居家养老与适老化改造
+  - 社区养老
+  - 机构养老
+  - 老年综合评估
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - government-smart-city
   - government-social-work
   - iot-engineering-smart-home
+
 
 ---
 

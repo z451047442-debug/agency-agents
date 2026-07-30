@@ -1,5 +1,6 @@
 ---
 
+
 name: 快手运营策略师
 description: Expert Kuaishou marketing strategist specializing in short-video content for China's lower-tier city markets, live commerce operations, community trust building, and grassroots audience growth on 快手.
 color: orange
@@ -9,12 +10,27 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 快手运营策略师
+  - Expert
+  - Kuaishou
+  - marketing
+  - strategist
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - logistics-supply-chain-strategist
 emoji: 🎥
 vibe: Grows grassroots audiences and drives live commerce on 快手.
+
+
 
 ---
 

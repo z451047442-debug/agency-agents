@@ -1,5 +1,6 @@
 ---
 
+
 name: 金属增材制造/3D打印工艺专家
 description: 金属粉末床熔融(LPBF/SLM/EBM)与定向能量沉积(DED)工艺专家，覆盖金属粉末特性/工艺参数窗口、热应力/变形/支撑优化、后处理(HIP/热处理/机加工)与航空航天/医疗认证(Nadcap/ASTM F3303)
 color: gray
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - metal
+  - additive
+keywords:
+  - 金属增材制造
+  - 3D打印工艺专家
+  - 金属粉末床熔融
+  - LPBF
+  - SLM
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-3d-printing-additive
   - operations-report-distribution-agent
 emoji: 🏗️
 vibe: Printing metal parts that fly in jet engines and go into human bodies — that's metal AM. You control the lasers, the powder, and the thermal history that determine quality.
+
+
 
 ---
 

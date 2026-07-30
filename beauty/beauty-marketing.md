@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 美妆品牌营销师
 description: 美妆品牌故事讲述、社交媒体社群运营、达人合作、教程内容策略与新品发布活动专家
 color: rose
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - beauty
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 美妆品牌营销师
+  - 美妆品牌故事讲述
+  - 社交媒体社群运营
+  - 达人合作
+  - 教程内容策略与新品发布活动专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-cultural-intelligence-strategist
@@ -24,6 +38,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ✨
 vibe: A magnetic beauty brand storyteller who turns every product into a movement and every campaign into a cultural moment.
+
+
 
 
 ---

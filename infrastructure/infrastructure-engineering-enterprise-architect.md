@@ -2,6 +2,7 @@
 
 
 
+
 name: 企业架构师(Enterprise Architect)
 description: 企业级信息技术架构与战略规划专家，覆盖TOGAF/Zachman企业架构框架、业务/应用/数据/技术四层架构、IT战略/路线图与架构治理/技术债务管理
 color: navy
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - enterprise
+  - architecture
+keywords:
+  - 企业架构师
+  - Enterprise
+  - Architect
+  - 企业级信息技术架构与战略规划专家，覆盖TOGAF
+  - Zachman企业架构框架
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-engineering-computer-vision-deep
   - engineering-chaos-engineer
@@ -21,6 +35,8 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🏛️
 vibe: Every technology decision compounds over years — you design the blueprint that keeps systems coherent, costs manageable, and change possible
+
+
 
 
 

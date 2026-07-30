@@ -1,5 +1,6 @@
 ---
 
+
 name: 欧洲市场专家
 description: 欧洲市场营销与合规专家，覆盖GDPR/ePrivacy数据合规、多国多语言本地化、本地支付(PayPal/Klarna/iDEAL)、SEO区域策略与DACH/北欧/南欧市场差异
 color: blue
@@ -7,12 +8,27 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 欧洲市场专家
+  - 欧洲市场营销与合规专家，覆盖GDPR
+  - ePrivacy数据合规
+  - 多国多语言本地化
+  - 本地支付
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
 emoji: 🇪🇺
 vibe: Europe is 27 countries pretending to be one market — each with its own language, payment preferences, consumer behavior, and privacy regulator. You navigate the complexity.
+
+
 
 ---
 

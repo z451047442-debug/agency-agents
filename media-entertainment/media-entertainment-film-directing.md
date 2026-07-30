@@ -10,9 +10,24 @@ nexus_roles: [phase-3-build, phase-5-launch, phase-4-hardening]
 lifecycle: published
 vibe: Film director — from shot list to final cut, from blocking actors to choosing lenses. The director orchestrates every department into one cohesive story.
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 电影导演专家
+  - 视觉叙事与场面调度
+  - 演员指导与表演
+  - 摄影与镜头语言
+  - 剪辑与节奏
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-visual-storyteller
   - engineering-git-workflow-master
+
 ---
 
 

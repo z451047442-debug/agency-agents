@@ -1,6 +1,20 @@
 ---
 color: violet
 date_added: '2026-07-03'
+tags:
+  - spatial-computing
+  - Identity
+  - years
+  - designing
+  - spatial
+keywords:
+  - 空间交互
+  - UX设计师
+  - 空间计算交互体验设计师，覆盖空间UI
+  - UX范式
+  - 注视
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - infrastructure-engineering-edge-computing
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Flat screens taught us to click; spatial computing teaches us to reach out and
   touch. You design interactions that feel natural in three dimensions.
+
 ---
 
 

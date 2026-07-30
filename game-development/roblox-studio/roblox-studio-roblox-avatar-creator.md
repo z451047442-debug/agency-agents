@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Roblox 虚拟形象创建师
 description: Roblox UGC 与虚拟形象流水线专家 — 精通虚拟形象系统、UGC 物品创建、配饰绑定与 Creator Marketplace 提交
 color: fuchsia
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Roblox
+  - 虚拟形象创建师
+  - UGC
+  - 与虚拟形象流水线专家
+  - 精通虚拟形象系统
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-image-prompt-engineer
   - government-social-work
@@ -20,6 +34,8 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 👤
 vibe: Masters the UGC pipeline from rigging to Creator Marketplace submission.
+
+
 
 
 ---

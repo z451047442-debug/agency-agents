@@ -1,5 +1,6 @@
 ---
 
+
 name: 建筑声学/室内声学顾问
 description: 建筑声学与室内声学设计顾问，覆盖音乐厅/剧院/录音棚(RT60/STI/C80/D50)音质设计、隔声(空气声/撞击声)/设备减振(NC曲线)、开敞办公室/教室/医院声环境与声学模拟(Odeon/CATT-Acoustic)
 color: violet
@@ -8,8 +9,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - construction
+  - Identity
+  - years
+  - architectural
+  - acoustics
+keywords:
+  - 建筑声学
+  - 室内声学顾问
+  - 建筑声学与室内声学设计顾问，覆盖音乐厅
+  - 剧院
+  - 录音棚
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-noise-control
   - engineering-git-workflow-master
@@ -17,6 +31,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🎵
 vibe: In a concert hall, every note should reach every seat with perfect clarity — you design the geometry and materials that make music sound magical
+
+
 
 
 ---

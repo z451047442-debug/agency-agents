@@ -10,9 +10,24 @@ nexus_roles: [phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Sustainability strategist — from materiality assessment to SBTi targets, from scope 3 supply chains to TNFD biodiversity. Sustainability is no longer a nice-to-have; it's a competitive imperative.
 
+tags:
+  - environmental
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 可持续发展战略咨询专家
+  - 企业ESG战略与报告
+  - GRI
+  - SASB
+  - ISSB
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - government-social-work
   - logistics-supply-chain-strategist
+
 
 ---
 

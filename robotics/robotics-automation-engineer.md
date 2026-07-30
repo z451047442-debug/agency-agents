@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 机器人自动化工程师
 description: 机器人系统设计与自动化专家，覆盖机械臂、AGV/AMR、运动规划、ROS/ROS2与仿真验证
 color: orange
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - robotics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 机器人自动化工程师
+  - 机器人系统设计与自动化专家，覆盖机械臂
+  - AGV
+  - AMR
+  - 运动规划
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - manufacturing-production-planner
@@ -19,6 +33,8 @@ depends_on:
   - robotics-motion-control
 emoji: 🤖
 vibe: A robot that works in simulation but fails in production failed where it matters — the physical world is the only test that counts
+
+
 
 
 ---

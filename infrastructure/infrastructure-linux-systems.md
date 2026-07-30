@@ -1,6 +1,20 @@
 ---
 color: black
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Linux系统专家
+  - Linux系统管理与内核优化专家，覆盖RHEL
+  - Rocky
+  - Ubuntu
+  - Debian
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-structural-fire
   - infrastructure-ansible-expert
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The penguin runs the internet — you keep the penguin healthy, from kernel parameters
   to systemd units, from /proc to production
+
 ---
 
 

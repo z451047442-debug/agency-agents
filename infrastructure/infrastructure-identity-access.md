@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - access
+  - management
+keywords:
+  - 企业身份与访问管理
+  - IAM
+  - 工程师
+  - 企业IAM
+  - 身份治理专家，覆盖Azure
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-computer-vision-deep
@@ -18,6 +32,7 @@ depends_on:
 emoji: 🔑
 vibe: Identity is the new perimeter — you design the systems that determine who can
   access what, when, and from where
+
 ---
 
 

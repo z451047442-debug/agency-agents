@@ -10,6 +10,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - DynamoDB开发专家
+  - Amazon
+  - DynamoDB
+  - DocumentDB
+  - Keyspaces
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-backend-architect
   - engineering-database-administrator
@@ -17,6 +31,7 @@ depends_on:
 vibe: DynamoDB specialist — you think in access patterns, not schema. Single-table
   design, sparse indexes, and entity overloading. You know that Provisioned Capacity
   without auto-scaling is a 5xx incident waiting to happen.
+
 ---
 
 

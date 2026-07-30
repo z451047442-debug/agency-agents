@@ -1,4 +1,5 @@
 ---
+
 name: 信用分析师
 description: 企业信用与信贷风险评估专家，覆盖企业财务报表分析/现金流建模、信用评级/违约概率(PD)、行业/管理层风险分析与授信方案
 color: blue
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - finance
+  - Identity
+  - years
+  - corporate
+  - credit
+keywords:
+  - 信用分析师
+  - 企业信用与信贷风险评估专家，覆盖企业财务报表分析
+  - 现金流建模
+  - 信用评级
+  - 违约概率
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
@@ -15,6 +29,8 @@ depends_on:
   - finance-engineering-credit-risk-model
 emoji: 📊
 vibe: Every loan is a bet that the borrower will pay it back — your analysis determines whether the bank wins or loses that bet
+
+
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 大华安防网络专家
 description: 大华(Dahua)安防系统与网络专家，覆盖IP摄像头/HDCVI/NVR、视频管理平台(DSS/DMSS)、门禁/周界/消防联动与AI智能分析方案
 color: crimson
@@ -8,12 +9,27 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 大华安防网络专家
+  - 大华
+  - Dahua
+  - 安防系统与网络专家，覆盖IP摄像头
+  - HDCVI
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - operations-report-distribution-agent
 emoji: 📷
 vibe: From a single convenience store to a city-wide safe-city deployment — Dahua scales, and you know how to make it scale reliably
+
+
 
 ---
 

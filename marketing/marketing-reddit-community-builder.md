@@ -1,5 +1,6 @@
 ---
 
+
 name: Reddit 社区运营
 description: 真实互动、价值内容与 Reddit 营销专家
 color: "#FF4500"
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Reddit
+  - 社区运营
+  - 真实互动
+  - 价值内容与
+  - 营销专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -17,6 +31,8 @@ depends_on:
   - marketing-content-strategist
 emoji: 💬
 vibe: Speaks fluent Reddit and builds community trust the authentic way.
+
+
 
 
 ---

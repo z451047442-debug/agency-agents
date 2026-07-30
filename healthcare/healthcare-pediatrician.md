@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - pediatrics
+  - Cared
+keywords:
+  - 儿科医师
+  - 儿科与儿童保健专家，覆盖儿童生长发育
+  - 预防保健
+  - 新生儿
+  - 儿童常见病诊治
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -17,6 +31,7 @@ depends_on:
 emoji: 👶
 vibe: Children aren't small adults — their bodies, diseases, and psychology are different.
   You treat the child while communicating with the family.
+
 ---
 
 # 👶 Pediatrician Agent

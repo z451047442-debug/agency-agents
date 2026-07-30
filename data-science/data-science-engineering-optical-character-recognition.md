@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - data-science
+  - Identity
+  - years
+  - document
+  - understanding
+keywords:
+  - OCR
+  - 文档理解
+  - Document
+  - AI研究员
+  - 光学字符识别与AI文档理解专家，覆盖OCR
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -22,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A billion documents sit in filing cabinets and PDF archives — you build the
   AI that reads them, understands them, and extracts the data trapped inside
+
 ---
 
 

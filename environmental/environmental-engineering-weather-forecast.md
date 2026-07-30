@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - environmental
+  - Identity
+  - years
+  - atmospheric
+  - modeling
+keywords:
+  - 数值天气预报
+  - NWP
+  - 模式专家
+  - 全球
+  - 区域
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-engineering-weather-climate
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A forecast that says "70% chance of rain" comes from supercomputers solving
   the equations of atmospheric physics on a grid covering the entire planet
+
 ---
 
 

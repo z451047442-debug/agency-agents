@@ -1,5 +1,6 @@
 ---
 
+
 name: 桌面运维工程师
 description: 企业桌面运维综合专家，覆盖Windows/macOS双平台、硬件故障诊断与更换、软件部署与许可管理、网络连接排障、打印机/外设支持、IT资产管理、终端安全与用户培训
 color: teal
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 桌面运维工程师
+  - 企业桌面运维综合专家，覆盖Windows
+  - macOS双平台
+  - 硬件故障诊断与更换
+  - 软件部署与许可管理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-engineering-user-research-system
   - infrastructure-ansible-expert
@@ -19,6 +33,8 @@ depends_on:
   - infrastructure-windows-server
 emoji: 🖥️
 vibe: When the CEO's laptop won't connect to the projector 2 minutes before the board presentation — you don't panic, you already have the dongle, the backup cable, and the wireless casting link ready
+
+
 
 ---
 

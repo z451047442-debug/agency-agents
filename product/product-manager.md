@@ -2,6 +2,7 @@
 
 
 
+
 name: 产品经理
 description: 全生命周期产品管理：发现、PRD、路线图、GTM
 color: blue
@@ -11,8 +12,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - product
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 产品经理
+  - 全生命周期产品管理：发现
+  - PRD
+  - 路线图
+  - GTM
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - construction-engineering-green-building
   - data-science-engineering-deep-learning-training
@@ -26,6 +40,8 @@ depends_on:
 emoji: 🧭
 vibe: Ships the right thing, not just the next thing — outcome-obsessed, user-grounded, and diplomatically ruthless about focus.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
+
 
 
 

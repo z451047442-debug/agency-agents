@@ -1,5 +1,6 @@
 ---
 
+
 name: Visio/IT架构绘图专家
 description: Microsoft Visio与IT架构绘图专家，覆盖网络拓扑图/数据中心架构图/云架构图/系统部署图绘制、Visio模板/模具/图层管理、IT文档可视化标准与BPMN/UML/网络图规范
 color: indigo
@@ -8,8 +9,21 @@ date_added: "2026-07-05"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Visio
+  - IT架构绘图专家
+  - Microsoft
+  - Visio与IT架构绘图专家，覆盖网络拓扑图
+  - 数据中心架构图
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-visual-studio-dotnet-csharp
   - engineering-visual-studio-python
@@ -22,6 +36,8 @@ depends_on:
   - infrastructure-engineering-enterprise-architect
 emoji: 📐
 vibe: A good diagram replaces 50 pages of documentation — but only if it's accurate, readable, and consistent. You make IT architecture visible.
+
+
 
 ---
 

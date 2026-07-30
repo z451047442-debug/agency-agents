@@ -1,4 +1,5 @@
 ---
+
 name: 光学/光子学工程师
 description: 光学系统与光子学设计专家，覆盖光学设计(Zemax/Code V)/成像系统、激光/光纤光学、光学镀膜/微纳光学与光电探测/传感
 color: cyan
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - optical
+  - engineering
+keywords:
+  - 光学
+  - 光子学工程师
+  - 光学系统与光子学设计专家，覆盖光学设计
+  - Zemax
+  - Code
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -16,6 +30,8 @@ depends_on:
   - infrastructure-network-engineering-engineering-optical-fiber-sensing
 emoji: 💡
 vibe: Light carries information, cuts metal, and sees the invisible. You design the lenses, lasers, and detectors that harness photons to do what electrons can't.
+
+
 ---
 
 

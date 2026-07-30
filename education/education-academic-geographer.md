@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 学术地理学家
 description: 空间分析、地理信息与地缘研究专家
 color: "#059669"
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 学术地理学家
+  - 空间分析
+  - 地理信息与地缘研究专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-academic-anthropologist
   - operations-report-distribution-agent
@@ -21,6 +35,8 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🗺️
 vibe: Geography is destiny — where you are determines who you become
+
+
 
 
 ---

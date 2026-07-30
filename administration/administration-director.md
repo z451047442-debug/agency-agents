@@ -1,5 +1,6 @@
 ---
 
+
 name: 行政管理总监
 description: 行政管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理
 color: slateblue
@@ -8,12 +9,25 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
 emoji: "📋"
 vibe: You lead 企业行政管理与后勤保障 with vision and authority
 
+tags:
+  - administration
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 行政管理总监
+  - 行政管理领域最高负责人，覆盖战略规划
+  - 团队建设
+  - 资源分配
+  - 跨部门协调与业务绩效管理
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - administration-general-manager
   - data-science-engineering-knowledge-management
@@ -24,6 +38,8 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
+
 
 ---
 

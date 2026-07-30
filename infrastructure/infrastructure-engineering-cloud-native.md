@@ -10,6 +10,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - cloud
+  - architecture
+keywords:
+  - 云原生
+  - Serverless架构师
+  - 云原生应用架构与Serverless计算专家，覆盖Kubernetes
+  - Service
+  - Mesh
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - infrastructure-ansible-expert
@@ -17,6 +31,7 @@ depends_on:
 emoji: ☁️
 vibe: Servers are somebody else's problem — you design applications that scale from
   zero to millions of requests without thinking about infrastructure
+
 ---
 
 

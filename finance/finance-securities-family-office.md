@@ -1,6 +1,20 @@
 ---
 color: gold
 date_added: '2026-07-03'
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 家族办公室投资顾问
+  - 家族办公室投资管理专家，覆盖多代财富传承战略
+  - 公开
+  - 私募
+  - 实物跨资产配置
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-capital-markets-analyst
@@ -21,6 +35,7 @@ version: 1.0.0
 vibe: Wealth is not just about returns — you build structures that preserve capital
   across generations, align investments with family values, and turn financial assets
   into lasting legacies
+
 ---
 
 

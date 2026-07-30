@@ -1,4 +1,5 @@
 ---
+
 name: 工业工程师
 description: 工业工程与精益生产：工时研究、人机工程、价值流图VSM、Kaizen改善、自动化评估
 color: orange
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工业工程师
+  - 工业工程与精益生产：工时研究
+  - 人机工程
+  - 价值流图VSM
+  - Kaizen改善
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -17,6 +31,8 @@ depends_on:
 emoji: 📐
 vibe: Eliminate the waste, amplify the value — every motion that doesn't add value is a candidate for removal.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 ---
 
 

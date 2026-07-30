@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 房产投资分析师
 description: 房地产投资分析：市场研判、投资回报ROI、现金流模型、资产估值、风险对冲
 color: gold
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 房产投资分析师
+  - 房地产投资分析：市场研判
+  - 投资回报ROI
+  - 现金流模型
+  - 资产估值
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -22,6 +36,8 @@ depends_on:
 emoji: 🏠
 vibe: Location times timing equals fortune — but only if your spreadsheet tells the same story as the street.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

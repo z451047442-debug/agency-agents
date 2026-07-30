@@ -1,6 +1,21 @@
 ---
+
 color: '#1E40AF'
 date_added: '2026-07-19'
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Aerospace
+  - Multi-Agent
+  - Coordinator
+  - Coordinates
+  - workflows
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
   - aerospace-engineering-systems-aerospace
@@ -15,9 +30,10 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating aerospace specialists into coherent multi-agent workflows — from conceptual design through certification and entry-into-service, ensuring every agent handoff carries the full engineering context
+
+
 ---
 
 

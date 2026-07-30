@@ -1,4 +1,5 @@
 ---
+
 name: 内容创作者
 description: 多平台内容策略、编辑日历与文案专家
 tools: WebFetch, WebSearch, Read, Write, Edit
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 内容创作者
+  - 多平台内容策略
+  - 编辑日历与文案专家
+  - Role
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
@@ -16,6 +30,8 @@ depends_on:
   - cybersecurity-engineering-customer-identity-access
 emoji: ✍️
 vibe: Crafts compelling stories across every platform your audience lives on.
+
+
 
 ---
 

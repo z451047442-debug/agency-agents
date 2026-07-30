@@ -1,6 +1,20 @@
 ---
 color: pink
 date_added: '2026-07-03'
+tags:
+  - design
+  - Identity
+  - years
+  - writing
+  - content
+keywords:
+  - UX写作
+  - 内容设计师
+  - 产品界面文案与用户体验写作专家，覆盖按钮
+  - 错误
+  - 空状态
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-brand-guardian
   - design-multi-agent-coordinator
@@ -22,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The right words in the right place turn confusion into clarity, frustration
   into delight, and visitors into users
+
 ---
 
 

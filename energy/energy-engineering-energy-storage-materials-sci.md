@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - energy
+  - Identity
+  - years
+  - electrochemical
+  - storage
+keywords:
+  - 电池材料
+  - 电化学科学家
+  - 下一代锂离子
+  - 固态
+  - 钠离子电池材料研究专家，覆盖正极
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -15,6 +29,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The next battery revolution starts in a lab — you invent the materials that
   store more energy, charge faster, and last longer
+
 ---
 
 

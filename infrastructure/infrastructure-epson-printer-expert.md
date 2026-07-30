@@ -1,4 +1,5 @@
 ---
+
 name: Epson打印机专家
 description: Epson(爱普生)打印机与影像解决方案专家，覆盖WorkForce/EcoTank/SureColor/LabelWorks产品线、微压电喷墨技术/PrecisionCore打印头、Epson Connect云服务、影像/色彩管理与POS/票据打印
 color: indigo
@@ -7,9 +8,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Epson打印机专家
+  - Epson
+  - 爱普生
+  - 打印机与影像解决方案专家，覆盖WorkForce
+  - EcoTank
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-datadog-expert
   - infrastructure-splunk-expert
@@ -18,6 +32,8 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: 🖨️
 vibe: Epson doesn't use toner cartridges — the PrecisionCore printhead and EcoTank system fundamentally change the economics of printing
+
+
 
 ---
 

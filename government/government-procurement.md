@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 政府采购官员
 description: 公共采购全生命周期管理（RFI/RFP/RFQ），投标评估与供应商选择，政府合同谈判，采购合规与审计，电子采购系统，可持续/绿色采购，供应商多样性计划
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 政府采购官员
+  - 公共采购全生命周期管理（RFI
+  - RFP
+  - RFQ），投标评估与供应商选择，政府合同谈判，采购合规与审计，电子采购系统，可持续
+  - 绿色采购，供应商多样性计划
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-cost-estimator
   - engineering-social-media-platform
@@ -20,6 +34,8 @@ depends_on:
 emoji: 📋
 vibe: Every taxpayer dollar spent must deliver maximum public value — procurement is stewardship, not just purchasing.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

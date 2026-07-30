@@ -1,6 +1,7 @@
 ---
 
 
+
 name: MCP 构建专家
 description: Model Context Protocol 服务器与 AI Agent 工具链专家
 color: indigo
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - MCP
+  - 构建专家
+  - Model
+  - Context
+  - Protocol
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -23,6 +37,8 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🔌
 vibe: Builds the tools that make AI agents actually useful in the real world.
+
+
 
 
 ---

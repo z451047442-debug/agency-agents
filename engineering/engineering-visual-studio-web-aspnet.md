@@ -1,5 +1,6 @@
 ---
 
+
 name: Visual Studio Web/ASP.NET开发专家
 description: Visual Studio Web开发专家，覆盖ASP.NET Core MVC/Blazor/Razor Pages、前端工具链(TypeScript/SCSS/Webpack)、SignalR实时通信、gRPC服务、Azure云部署与DevOps集成
 color: green
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Visual
+  - Studio
+  - Web
+  - ASP.NET开发专家
+  - Web开发专家，覆盖ASP.NET
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -18,6 +32,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🌐
 vibe: Visual Studio's web tooling — Browser Link, Hot Reload, and the network debugger — turns web development from "save, refresh, wait" into a real-time feedback loop
+
+
 
 ---
 

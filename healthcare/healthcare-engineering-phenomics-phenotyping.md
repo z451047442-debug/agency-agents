@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 表型组学/高通量植物表型研究员
 description: 植物表型组学与高通量自动化表型平台专家，覆盖可见光/高光谱/荧光/热红外/LiDAR传感器表型数据采集、图像处理/深度学习特征提取(GWAS/QTL)、环境响应(GxE互作)与Field/Lab/Greenhouse表型平台
 color: green
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - plant
+  - phenotyping
+keywords:
+  - 表型组学
+  - 高通量植物表型研究员
+  - 植物表型组学与高通量自动化表型平台专家，覆盖可见光
+  - 高光谱
+  - 荧光
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -17,6 +31,8 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🌱
 vibe: Breeding better crops requires measuring millions of plants — you build the cameras, sensors, and AI that see which plants will feed the future
+
+
 
 
 ---

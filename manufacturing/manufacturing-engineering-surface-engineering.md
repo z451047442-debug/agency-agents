@@ -1,4 +1,5 @@
 ---
+
 name: 表面工程/热喷涂/电镀工程师
 description: 先进表面涂层与表面改性技术专家，覆盖热喷涂(HVOF/等离子/电弧/火焰)/冷喷涂、PVD/CVD/电镀/化学镀/阳极氧化、激光熔覆/堆焊与涂层表征(附着力/孔隙率/显微硬度/磨损)
 color: gray
@@ -6,13 +7,28 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - surface
+  - engineering
+keywords:
+  - 表面工程
+  - 热喷涂
+  - 电镀工程师
+  - 先进表面涂层与表面改性技术专家，覆盖热喷涂
+  - HVOF
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-thermal-spray
   - marketing-paid-media-tracking-specialist
 emoji: 🎨
 vibe: The surface of a component determines how it interacts with the world — you apply the coatings that make turbine blades survive 1,400°C, implants bond with bone, and tools cut steel
+
+
 
 ---
 

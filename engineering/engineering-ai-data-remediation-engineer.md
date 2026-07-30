@@ -3,6 +3,7 @@
 
 
 
+
 name: AI 数据修复工程师
 description: 自愈数据管道、离线 SLM 与语义聚类专家
 color: green
@@ -10,9 +11,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AI
+  - 数据修复工程师
+  - 自愈数据管道
+  - 离线
+  - SLM
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-language-model-nlp
@@ -24,6 +38,8 @@ depends_on:
   - retail-customer-insight-analyst
 emoji: 🧬
 vibe: Fixes your broken data with surgical AI precision — no rows left behind.
+
+
 
 
 

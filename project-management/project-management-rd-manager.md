@@ -1,5 +1,6 @@
 ---
 
+
 name: R&D与科研项目经理
 description: 研发与科研项目管理专家，覆盖阶段关口(Stage-Gate)/敏捷研发流程、技术路线图/TRL评估、科研经费/课题管理、知识产权/专利布局与成果转化
 color: indigo
@@ -8,8 +9,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - R&D与科研项目经理
+  - 研发与科研项目管理专家，覆盖阶段关口
+  - Stage-Gate
+  - 敏捷研发流程
+  - 技术路线图
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - design-engineering-user-research-system
   - marketing-demand-generation
@@ -20,6 +34,8 @@ depends_on:
   - project-management-government-grant
 emoji: 🔬
 vibe: Engineering projects build to spec; R&D projects build to discover. You manage the uncertainty — knowing that the path from idea to product is never a straight line.
+
+
 
 ---
 

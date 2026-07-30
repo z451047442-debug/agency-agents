@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 5G核心网工程师
 description: 5G核心网/移动通信专家，覆盖5GC服务化架构(SBA)、AMF/SMF/UPF网元、网络切片/边缘计算(MEC)、IMS/VoLTE与信令/协议(N1/N2/N4)
 color: violet
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - telecom
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 5G核心网工程师
+  - 5G核心网
+  - 移动通信专家，覆盖5GC服务化架构
+  - SBA
+  - AMF
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-autonomous-driving
   - cybersecurity-engineering-customer-identity-access
@@ -21,6 +35,8 @@ depends_on:
   - telecom-engineering-antenna-rf
 emoji: 📶
 vibe: 4G connected people; 5G connects everything — factories, cars, sensors, and cities. You build the core network that makes it all possible.
+
+
 
 
 ---

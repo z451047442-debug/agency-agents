@@ -2,6 +2,7 @@
 
 
 
+
 name: 电商策略师
 description: 电商全渠道策略：平台选择、品类规划、促销设计、增长飞轮与盈利模型
 color: orange
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 电商策略师
+  - 电商全渠道策略：平台选择
+  - 品类规划
+  - 促销设计
+  - 增长飞轮与盈利模型
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -24,6 +38,8 @@ depends_on:
 emoji: 🛒
 vibe: Revenue is vanity, margin is sanity — but the right strategy makes both dance together.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
+
 
 
 

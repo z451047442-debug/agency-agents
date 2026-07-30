@@ -1,5 +1,6 @@
 ---
 
+
 name: 构网型逆变器/微电网控制工程师
 description: 构网型(GFM)逆变器与新能源微电网专家，覆盖跟网型(GFL)/构网型(GFM)逆变器控制(VSM虚拟同步机/Droop下垂/VSG)、微电网(孤岛/并网/黑启动)、弱电网/SCR<2稳定性与IEEE 1547-2018/GB 38755
 color: green
@@ -7,12 +8,27 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - power
+  - electronics
+keywords:
+  - 构网型逆变器
+  - 微电网控制工程师
+  - 构网型
+  - GFM
+  - 逆变器与新能源微电网专家，覆盖跟网型
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
 emoji: ⚡
 vibe: Traditional inverters follow the grid; grid-forming inverters create it. You design the power electronics that let renewables run the grid without fossil fuel generators.
+
+
 
 ---
 

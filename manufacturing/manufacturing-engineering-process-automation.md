@@ -1,4 +1,5 @@
 ---
+
 name: 流程自动化(RPA/BPA)工程师
 description: 机器人流程自动化与业务流程自动化专家，覆盖UiPath/Automation Anywhere/Power Automate RPA平台、流程挖掘/任务捕获、低代码自动化与CoE卓越中心治理
 color: teal
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - process
+  - automation
+keywords:
+  - 流程自动化
+  - RPA
+  - BPA
+  - 工程师
+  - 机器人流程自动化与业务流程自动化专家，覆盖UiPath
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-composites-manufacturing
   - testing-engineering-test-automation-framework
 emoji: 🤖
 vibe: Millions of hours are wasted on repetitive computer tasks — you automate them, freeing humans to do what humans do best
+
+
 
 ---
 

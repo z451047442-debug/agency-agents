@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - charging
+  - infrastructure
+keywords:
+  - 充电桩
+  - 电动汽车充电工程师
+  - 电动汽车充电基础设施与系统专家，覆盖AC
+  - DC充电桩
+  - GB
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: EVs need chargers everywhere — you design the infrastructure that powers the
   electric revolution, from home wallboxes to highway megawatt charging
+
 ---
 
 

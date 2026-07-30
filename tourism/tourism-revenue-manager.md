@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - tourism
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 旅游收益管理专家
+  - 酒店与航司收益管理专家，动态定价
+  - 库存优化
+  - 需求预测全链路操盘
+  - David
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - data-science-engineering-language-model-nlp
   - operations-report-distribution-agent
@@ -16,6 +30,7 @@ emoji: 📊
 vibe: Every unsold room and empty seat is a perishable asset that will never exist
   again — the art is selling it at the right price, to the right person, at the right
   moment
+
 ---
 
 

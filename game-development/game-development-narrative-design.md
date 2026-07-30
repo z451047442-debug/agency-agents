@@ -12,10 +12,25 @@ lifecycle: published
 vibe: 'Game narrative designer — from branching dialogue to environmental storytelling.
   Games tell stories differently: the player is not the audience; the player is a
   co-author.'
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 游戏叙事与世界观设计专家
+  - 互动叙事设计
+  - 分支叙事
+  - 环境叙事
+  - 涌现叙事
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - robotics-motion-control
   - specialized-agentic-identity-trust
+
 ---
 
 

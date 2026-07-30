@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 品类经理
+  - 零售品类管理与空间规划专家，覆盖品类战略与商品组合规划
+  - 货架图
+  - Planogram
+  - 优化
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - food-beverage-food-supply-chain
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🛍️
 vibe: Owns the P&L of every shelf — data-driven category captain who balances margin,
   volume, and customer delight.
+
 ---
 
 

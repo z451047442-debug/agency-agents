@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - petroleum
+  - engineering
+keywords:
+  - 油藏工程
+  - 石油工程专家
+  - 油气藏评价与开发工程专家，覆盖油藏数值模拟
+  - ECLIPSE
+  - CMG
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🛢️
 vibe: A billion barrels of oil in the ground — but only 30-40% can be recovered with
   conventional methods. You find the techniques that push recovery to 50, 60, 70%.
+
 ---
 
 # 🛢️ Reservoir Engineer Agent

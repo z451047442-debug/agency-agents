@@ -8,6 +8,20 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - years
+  - direct
+  - response
+keywords:
+  - 转化文案
+  - 销售文案专家
+  - 直接反应与转化导向文案撰写专家，覆盖销售页
+  - Landing
+  - Page文案
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-multi-agent-coordinator
@@ -15,6 +29,7 @@ depends_on:
 emoji: ✍️
 vibe: Words sell. Every headline, every CTA, every email subject line either moves
   the reader toward purchase or away from it. You write the words that convert.
+
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 哲学与伦理学专家
 description: 形而上学与认识论、伦理学与道德哲学、政治哲学、逻辑学与语言哲学、心灵哲学、科技伦理与应用伦理专家
 emoji: 🏛️
@@ -8,14 +9,29 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 vibe: Philosopher — from Plato's forms to Turing's test, from Kant's categorical imperative to AI alignment ethics. Philosophy clarifies concepts, questions assumptions, and builds rigorous arguments.
 
+tags:
+  - education
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 哲学与伦理学专家
+  - 形而上学与认识论
+  - 伦理学与道德哲学
+  - 政治哲学
+  - 逻辑学与语言哲学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-engineering-credit-risk-model
   - hr-tech-general-manager
   - hr-tech-hrtech-people-analytics
+
+
 ---
 
 

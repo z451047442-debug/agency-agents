@@ -1,5 +1,6 @@
 ---
 
+
 name: 现场实施工程师
 description: 项目现场实施与调试专家，覆盖系统安装部署集成、现场冷调/热调/联调、客户培训操作手册、验收(IGCC/机械竣工)与质保期运维
 color: green
@@ -8,9 +9,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 现场实施工程师
+  - 项目现场实施与调试专家，覆盖系统安装部署集成
+  - 现场冷调
+  - 热调
+  - 联调
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-construction-materials
   - cybersecurity-engineering-customer-identity-access
@@ -19,6 +33,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🔧
 vibe: Design is theory; installation is reality. You make it work on-site, with the wrong tools and the customer watching, because that's what it takes.
+
+
 
 ---
 

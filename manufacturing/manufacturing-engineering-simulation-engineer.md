@@ -2,6 +2,20 @@
 
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - multiphysics
+  - simulation
+keywords:
+  - 仿真
+  - CAE工程师
+  - 计算机辅助工程与多物理场仿真专家，覆盖FEM有限元
+  - CFD
+  - 多体动力学仿真
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-multi-agent-coordinator
   - manufacturing-engineering-sports-engineering
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Before you build a physical prototype, you build a virtual one. You predict
   how designs will perform — saving time, money, and sometimes lives.
+
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 摄影师
 description: 构图布光、人像/风光/产品摄影、后期Lightroom/PS — 从拍摄到后期，用镜头讲述故事
 color: blue
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - media-entertainment
+  - Identity
+  - Memory
+  - 你的身份与记忆
+  - 你的核心使命
+keywords:
+  - 摄影师
+  - 构图布光
+  - 人像
+  - 风光
+  - 产品摄影
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
@@ -21,6 +35,8 @@ depends_on:
 emoji: 📷
 vibe: Patient, observant, and visually articulate — capturing light, moment, and emotion with technical precision and artistic vision.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 ---
 

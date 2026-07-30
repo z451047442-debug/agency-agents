@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 保险科技专家
 description: 保险科技专家，覆盖车联网/物联网的UBI保险、AI核保、区块链理赔结算、参数化保险产品、嵌入式保险（API优先）、数字分销平台、开放保险架构
 color: violet
@@ -8,15 +9,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - insurance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 保险科技专家
+  - 保险科技专家，覆盖车联网
+  - 物联网的UBI保险
+  - AI核保
+  - 区块链理赔结算
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - healthcare-engineering-medical-device-software
   - web3-engineering-solidity-smart-contract-engineer
 emoji: 📱
 vibe: Disrupts centuries-old actuarial tables with real-time data streams — insurance that's instant, embedded, and invisible
+
+
 
 
 ---

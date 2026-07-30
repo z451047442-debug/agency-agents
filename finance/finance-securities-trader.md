@@ -2,6 +2,7 @@
 
 
 
+
 name: 证券交易员
 description: 证券交易与执行专家，覆盖日内/波段/趋势交易策略、市场微观结构、算法交易/TWAP/VWAP、流动性分析与风险控制
 color: red
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 证券交易员
+  - 证券交易与执行专家，覆盖日内
+  - 波段
+  - 趋势交易策略
+  - 市场微观结构
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - finance-capital-markets-analyst
   - finance-cost-accountant
@@ -20,6 +34,8 @@ depends_on:
   - finance-securities-derivatives-trader
 emoji: 💹
 vibe: The market is a voting machine in the short run and a weighing machine in the long run — you trade the voting, invest the weighing
+
+
 
 
 

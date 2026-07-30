@@ -10,6 +10,20 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
+tags:
+  - data-science
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 数据治理专家
+  - 数据质量管理
+  - 元数据管理
+  - 数据血缘与数据目录专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -19,6 +33,7 @@ emoji: 📐
 vibe: When "which number is right?" becomes a daily argument — you're the one who
   makes the argument unnecessary.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 

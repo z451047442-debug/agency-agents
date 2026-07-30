@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 时装设计师
 description: 季节性系列概念开发、面辅料采购、制版与立裁、技术规格（工艺单）制作、试身与样衣评审、趋势预测整合、可持续设计实践专家
 color: rose
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - fashion
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 时装设计师
+  - 季节性系列概念开发
+  - 面辅料采购
+  - 制版与立裁
+  - 技术规格（工艺单）制作
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-military-materials-manufacturing
   - design-cultural-intelligence-strategist
@@ -23,6 +37,8 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 👗
 vibe: Creates not just clothes, but silhouettes that define how a generation sees itself.
+
+
 
 
 ---

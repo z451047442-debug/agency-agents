@@ -1,6 +1,20 @@
 ---
 color: purple
 date_added: '2026-07-03'
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - API
+  - 测试工程师
+  - 验证
+  - 集成测试与端点核查专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-penetration-tester
   - engineering-git-workflow-master
@@ -15,6 +29,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Breaks your API before your users do.
+
 ---
 
 

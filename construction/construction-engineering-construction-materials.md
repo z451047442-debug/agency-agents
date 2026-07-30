@@ -3,6 +3,7 @@
 
 
 
+
 name: 土木工程材料/混凝土专家
 description: 水泥混凝土与工程材料专家，覆盖高性能混凝土(HPC/UHPC)/自密实混凝土配合比、骨料/掺合料/外加剂、耐久性/碱骨料反应/氯离子渗透与材料检测/无损评估
 color: gray
@@ -10,9 +11,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - materials
+  - Designed
+keywords:
+  - 土木工程材料
+  - 混凝土专家
+  - 水泥混凝土与工程材料专家，覆盖高性能混凝土
+  - HPC
+  - UHPC
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - engineering-code-reviewer
@@ -23,6 +37,8 @@ depends_on:
   - robotics-motion-control
 emoji: 🧱
 vibe: Concrete is the most widely used material on Earth after water — you design the mixes that build bridges, dams, and skyscrapers to last 100 years
+
+
 
 
 

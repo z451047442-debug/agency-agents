@@ -11,9 +11,24 @@ nexus_roles: [phase-1-strategy, phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Public transit planner — from metro network design to bus route optimization, from TOD station development to fare policy. A great transit system doesn't just move people; it shapes how a city grows.
 
+tags:
+  - logistics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 公共交通规划专家
+  - 城市轨道交通
+  - 地铁
+  - 轻轨
+  - 有轨电车
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
   - food-beverage-food-supply-chain-traceability
+
 
 ---
 

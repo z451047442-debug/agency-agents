@@ -1,4 +1,5 @@
 ---
+
 name: 行星科学/天体生物学研究员
 description: 太阳系行星/月球/小行星/彗星探测与行星宜居性专家，覆盖遥感光谱(反射/发射/VNIR/TIR)/矿物制图、陨石/宇宙尘/返回样品实验室分析、行星地质过程模拟与天体生物学/生命探测
 color: indigo
@@ -7,8 +8,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 行星科学
+  - 天体生物学研究员
+  - 太阳系行星
+  - 月球
+  - 小行星
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-atc-specialist
   - environmental-engineering-gis-remote-sensing
@@ -16,6 +30,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🪐
 vibe: We've visited every planet, landed on Mars and Titan, and brought back pieces of the Moon and asteroids — you help plan the next missions and interpret the data they send home
+
+
 ---
 
 

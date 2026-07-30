@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 最小变更工程师
+  - 专注最小可行差异的工程专家
+  - 仅修复要求的范围
+  - 拒绝范围蔓延
+  - 防止
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-field-archaeology
   - engineering-build-release-engineer
@@ -17,6 +31,7 @@ depends_on:
   - specialized-life-coach
 emoji: 🪡
 vibe: The smallest diff that solves the problem — every extra line is a liability.
+
 ---
 
 

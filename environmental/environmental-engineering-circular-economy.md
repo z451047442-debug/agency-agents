@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 循环经济/可持续产品设计专家
 description: 循环经济与产品全生命周期可持续设计专家，覆盖产品LCA生命周期评价(ISO 14040/14044)、可拆卸/可修复/可回收设计(DfX)、材料护照/循环供应链与EPR生产者延伸责任
 color: green
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - years
+  - sustainable
+  - design
+keywords:
+  - 循环经济
+  - 可持续产品设计专家
+  - 循环经济与产品全生命周期可持续设计专家，覆盖产品LCA生命周期评价
+  - ISO
+  - 可拆卸
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-power-electronics-packaging
   - environmental-engineering-packaging-sustainability
@@ -22,6 +36,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ♻️
 vibe: Take-make-waste is over — you design products that never become waste, redefining how materials flow through the economy
+
+
 
 
 ---

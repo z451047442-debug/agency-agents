@@ -1,4 +1,5 @@
 ---
+
 name: 航空人为因素/CRM训练专家
 description: 航空安全人为因素与机组资源管理(CRM)专家，覆盖飞行员人为差错(威胁与差错管理TEM)/SHELL模型、驾驶舱自动化/人机界面(玻璃驾驶舱)、CRM/LOFT航线飞行训练与疲劳风险管理(FRMS)
 color: blue
@@ -7,8 +8,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 航空人为因素
+  - CRM训练专家
+  - 航空安全人为因素与机组资源管理
+  - CRM
+  - 专家，覆盖飞行员人为差错
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - aerospace-engineering-aviation-safety
@@ -20,6 +34,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: ✈️
 vibe: 70% of aviation accidents involve human error — not because pilots are careless, but because systems aren't designed for how humans actually think and work
+
+
 
 ---
 

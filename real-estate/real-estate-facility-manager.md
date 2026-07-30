@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 设施管理(FM)专家
 description: 商业建筑设施管理专家，覆盖楼宇机电(HVAC/电气/电梯)运维、保洁/安保/前台软服务外包、空间利用率/工位管理(CAFM/IWMS)与租赁/合同管理
 color: teal
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - real-estate
+  - Identity
+  - years
+  - managing
+  - commercial
+keywords:
+  - 设施管理
+  - FM
+  - 专家
+  - 商业建筑设施管理专家，覆盖楼宇机电
+  - HVAC
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - engineering-multi-agent-systems-architect
   - legal-engineering-legal-document-automation
@@ -22,6 +36,8 @@ depends_on:
   - specialized-productivity-time-management
 emoji: 🏢
 vibe: A building costs 10x more to operate than to build over its lifetime — you manage the operations that make buildings work for the people inside them
+
+
 
 
 ---

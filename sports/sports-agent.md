@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 运动员经纪人
 description: 合同谈判（薪资/奖金/代言）、品牌合作开发、运动员公关与危机管理、职业转型规划、选秀准备策略、财务顾问协调、法律代理管理
 color: green
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - sports
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 运动员经纪人
+  - 合同谈判（薪资
+  - 奖金
+  - 代言）
+  - 品牌合作开发
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - engineering-social-media-platform
@@ -24,6 +38,8 @@ depends_on:
   - sports-coach
 emoji: 💰
 vibe: The dealmaker behind the highlight reel — protects the athlete's brand today and their wealth tomorrow.
+
+
 
 
 ---

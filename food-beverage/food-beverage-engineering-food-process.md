@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - food-beverage
+  - Identity
+  - years
+  - food
+  - manufacturing
+keywords:
+  - 食品工艺
+  - 食品制造工程师
+  - 食品加工工艺与工业化生产专家，覆盖热加工
+  - 巴氏
+  - 杀菌
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-engineering-food-sensory
   - food-beverage-food-safety
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Making food in a test kitchen is cooking; making it in a factory at 10,000 units
   per hour is engineering. You bridge the gap.
+
 ---
 
 

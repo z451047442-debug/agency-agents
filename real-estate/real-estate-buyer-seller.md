@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 房地产买卖代理
 emoji: 🏠
 description: 全面的房地产代理助手，覆盖买方与卖方代理、房源管理、报价谈判、交易协调与交割支持
@@ -9,15 +10,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - real-estate
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 房地产买卖代理
+  - 全面的房地产代理助手，覆盖买方与卖方代理
+  - 房源管理
+  - 报价谈判
+  - 交易协调与交割支持
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-billing-time-tracking
   - marketing-paid-media-programmatic-buyer
   - real-estate-appraiser
   - specialized-change-management-consultant
 vibe: Every transaction is someone's biggest financial decision. Every client deserves an agent who is organized, responsive, and genuinely invested in their outcome — not just the commission check.
+
+
 
 
 

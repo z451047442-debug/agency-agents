@@ -1,4 +1,5 @@
 ---
+
 name: 程序化广告购买专家
 description: GDN、DSP、合作媒体与 ABM 展示广告专家
 emoji: 📺
@@ -7,8 +8,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Role
+  - Definition
+  - Core
+  - Capabilities
+keywords:
+  - 程序化广告购买专家
+  - GDN
+  - DSP
+  - 合作媒体与
+  - ABM
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-creative-strategist
@@ -18,6 +32,8 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 📺
 vibe: Buys display and video inventory at scale with surgical precision.
+
+
 
 ---
 

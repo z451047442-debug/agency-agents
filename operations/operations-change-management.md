@@ -1,6 +1,20 @@
 ---
 color: purple
 date_added: '2026-07-03'
+tags:
+  - operations
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 变革管理顾问
+  - 组织变革管理专家，覆盖ADKAR
+  - Kotter
+  - PROSCI变革方法论
+  - 干系人分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-language-model-nlp
   - operations-multi-agent-coordinator
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The best strategy in the world fails if people don't adopt it — you design the
   change journey so people don't just accept change, they champion it
+
 ---
 
 

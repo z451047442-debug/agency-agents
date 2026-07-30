@@ -2,6 +2,7 @@
 
 
 
+
 name: 图书编辑
 description: 图书编辑专家，覆盖稿件审读与选题策划、发展性编辑与逐行编辑、作者关系管理、书名定位与市场包装、出版进度管控
 color: indigo
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - publishing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 图书编辑
+  - 图书编辑专家，覆盖稿件审读与选题策划
+  - 发展性编辑与逐行编辑
+  - 作者关系管理
+  - 书名定位与市场包装
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-academic-research-scientist
   - marketing-book-co-author
@@ -22,6 +36,8 @@ depends_on:
   - thinking-models-scientific-method
 emoji: 📚
 vibe: A manuscript is a promise; a book is a fulfilled one. You find the story inside the draft, strengthen its structure, polish its language, and guide it from raw potential to finished work — the author's vision, sharper.
+
+
 
 
 

@@ -3,6 +3,7 @@
 
 
 
+
 name: AI Agent 开发专家
 description: 自主 Agent 架构、工具调用、记忆管理与多 Agent 协作专家
 color: blue
@@ -10,8 +11,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - AI
+  - Agent
+  - 开发专家
+  - 自主
+  - 架构
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -23,6 +37,8 @@ depends_on:
 emoji: 🤖
 vibe: Builds autonomous AI agents that don't just chat — they think, plan, use tools, and get things done.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 

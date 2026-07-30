@@ -1,4 +1,5 @@
 ---
+
 name: 竞价广告策略师
 description: Google/Microsoft/Amazon 广告、账户结构与出价专家
 emoji: 💸
@@ -9,8 +10,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 竞价广告策略师
+  - Google
+  - Microsoft
+  - Amazon
+  - 广告
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-creative-strategist
@@ -20,6 +34,8 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 💰
 vibe: Architects PPC campaigns that scale from $10K to $10M+ monthly.
+
+
 
 ---
 

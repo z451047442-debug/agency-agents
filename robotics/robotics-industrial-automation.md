@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 工业自动化专家
 description: 工业自动化与智能制造专家，覆盖PLC/DCS编程、SCADA系统、MES集成、OPC-UA与工业4.0架构
 color: red
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - robotics
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 工业自动化专家
+  - 工业自动化与智能制造专家，覆盖PLC
+  - DCS编程
+  - SCADA系统
+  - MES集成
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-noise-control
   - data-science-engineering-language-model-nlp
@@ -20,6 +34,8 @@ depends_on:
   - telecom-engineering-signal-integrity
 emoji: 🏭
 vibe: The factory floor doesn't forgive — code that controls physical machinery must be correct the first time, every time
+
+
 
 
 ---

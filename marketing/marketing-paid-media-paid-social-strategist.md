@@ -1,5 +1,6 @@
 ---
 
+
 name: 付费社交策略师
 description: Meta/LinkedIn/TikTok 跨平台付费社交专家
 emoji: 💰
@@ -11,14 +12,29 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Role
+  - Definition
+  - Core
+  - Capabilities
+keywords:
+  - 付费社交策略师
+  - Meta
+  - LinkedIn
+  - TikTok
+  - 跨平台付费社交专家
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - operations-report-distribution-agent
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 📱
 vibe: Makes every dollar on Meta, LinkedIn, and TikTok ads work harder.
+
+
 
 ---
 

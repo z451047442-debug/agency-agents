@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 碳核算专家
 description: 碳核算与碳资产管理：GHG盘查、产品碳足迹、碳配额交易、CCER开发、ESG报告
 color: teal
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - energy
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 碳核算专家
+  - 碳核算与碳资产管理：GHG盘查
+  - 产品碳足迹
+  - 碳配额交易
+  - CCER开发
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -20,6 +34,8 @@ depends_on:
 emoji: 🌍
 vibe: You can't manage what you don't measure — and carbon is the currency of the next industrial revolution.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

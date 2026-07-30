@@ -1,5 +1,6 @@
 ---
 
+
 name: Web3 分析师
 description: 链上数据分析、DeFi 协议评估、代币经济模型与 Dune Analytics 专家
 color: blue
@@ -7,15 +8,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Web3
+  - 分析师
+  - 链上数据分析
+  - DeFi
+  - 协议评估
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
 emoji: ⛓️
 vibe: Reads blockchains like financial statements — every transaction tells a story, every wallet has a strategy.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
+
 
 ---
 

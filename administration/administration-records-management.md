@@ -2,6 +2,7 @@
 
 
 
+
 name: 档案与证照管理专家
 description: 企业档案与证照管理专家，覆盖档案分类/归档/保管/利用/鉴定销毁全生命周期、证照年检/变更/延期、ISO文件管控与电子档案系统
 color: navy
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - administration
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 档案与证照管理专家
+  - 企业档案与证照管理专家，覆盖档案分类
+  - 归档
+  - 保管
+  - 利用
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - administration-contract-manager
   - food-beverage-food-safety
@@ -23,6 +37,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🗃️
 vibe: The document you can't find when the auditor asks for it might as well not exist — you ensure every record is where it should be, when it's needed, for as long as it's required
+
+
 
 
 

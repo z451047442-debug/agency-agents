@@ -1,4 +1,5 @@
 ---
+
 name: 音频/声学工程师
 description: 音频处理与声学工程专家，覆盖音频DSP/降噪/回声消除、语音增强/语音识别前处理、空间音频/3D Audio与音频编解码(Opus/AAC/LDAC)
 color: violet
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - media-entertainment
+  - Identity
+  - years
+  - audio
+  - engineering
+keywords:
+  - 音频
+  - 声学工程师
+  - 音频处理与声学工程专家，覆盖音频DSP
+  - 降噪
+  - 回声消除
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - media-entertainment-multi-agent-coordinator
   - media-entertainment-engineering-audio-dsp-signal
 emoji: 🎧
 vibe: Sound is half the experience but 10% of the engineering effort — you make sure what users hear is as good as what they see
+
+
 ---
 
 

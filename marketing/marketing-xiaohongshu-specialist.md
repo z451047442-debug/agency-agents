@@ -1,5 +1,6 @@
 ---
 
+
 name: 小红书运营专家
 description: 生活方式内容、趋势策略与小红书增长专家
 color: "#FF1B6D"
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 小红书运营专家
+  - 生活方式内容
+  - 趋势策略与小红书增长专家
+  - Core
+  - Identity
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
 emoji: 🌸
 vibe: Masters lifestyle content and aesthetic storytelling on 小红书.
+
+
 
 ---
 

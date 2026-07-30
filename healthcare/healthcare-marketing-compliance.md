@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 医疗营销合规专家
+  - 中国医疗广告法规合规专家
+  - Role
+  - Personality
+  - Memory
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - marketing-wechat-official-account
   - pharma-biotech-pharma-drug-discovery
@@ -16,6 +30,7 @@ emoji: ⚕️
 vibe: Keeps your healthcare marketing legal in China's tightly regulated landscape
   — reviewing content, flagging violations, and finding creative space within compliance
   boundaries.
+
 ---
 
 

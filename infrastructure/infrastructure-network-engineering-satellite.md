@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - satellite
+  - communications
+keywords:
+  - 卫星通信
+  - Starlink网络工程师
+  - 卫星通信与宽带星座网络专家，覆盖LEO
+  - MEO
+  - GEO卫星通信链路
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The internet from space — once science fiction, now a constellation of thousands
   of satellites beaming connectivity to every corner of the planet
+
 ---
 
 

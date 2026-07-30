@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - testing
+  - Identity
+  - years
+  - designing
+  - test
+keywords:
+  - 测试框架架构师
+  - 企业级测试自动化框架设计专家，覆盖多语言
+  - 多平台测试框架
+  - Pytest
+  - JUnit
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - education-special-needs
   - engineering-code-reviewer
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A well-designed test framework makes writing tests so easy that developers do
   it voluntarily. You architect the framework that makes quality the default.
+
 ---
 
 

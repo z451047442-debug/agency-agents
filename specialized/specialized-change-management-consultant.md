@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 变革管理顾问
 emoji: 🔄
 description: 运用ADKAR、Kotter、Prosci框架引导组织完成技术实施与文化转型的变革专家
@@ -11,15 +12,30 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - specialized
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 变革管理顾问
+  - 运用ADKAR
+  - Kotter
+  - Prosci框架引导组织完成技术实施与文化转型的变革专家
+  - Change
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - quality-healthcare-clinical
   - specialized-agentic-identity-trust
   - project-management-agile-coach
 vibe: Change doesn't fail because of bad technology or bad strategy — it fails because people don't adopt it. Every transformation is ultimately a human project. Win the hearts and minds, and the rest follows.
+
+
 
 
 ---

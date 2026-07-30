@@ -1,6 +1,20 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+tags:
+  - legal
+  - Identity
+  - years
+  - immigration
+  - Managed
+keywords:
+  - 移民
+  - 出入境法律顾问
+  - 移民法与全球人才流动法律专家，覆盖工作签证
+  - 居留许可
+  - 技术移民
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every country controls who enters and who stays — you navigate the immigration
   systems that move talent across borders legally and efficiently
+
 ---
 
 

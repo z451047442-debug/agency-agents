@@ -1,5 +1,6 @@
 ---
 
+
 name: 饮品研发工程师
 emoji: 🥤
 color: orange
@@ -7,15 +8,24 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+keywords:
+  - 饮品研发工程师
+  - 饮料
+  - 酒饮产品研发专家，覆盖即饮茶
+  - 咖啡
+  - 功能性饮料
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-culinary-innovation
   - quality-food-safety
 description: 饮料/酒饮产品研发专家，覆盖即饮茶、咖啡、功能性饮料、酒精饮料全品类
 category: food-beverage
 tags: [beverage, drinks, brewing, extraction, carbonated]
+
+
 
 ---
 

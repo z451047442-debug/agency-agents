@@ -2,6 +2,20 @@
 
 color: amber
 date_added: '2026-07-03'
+tags:
+  - food-beverage
+  - Identity
+  - years
+  - brewing
+  - fermentation
+keywords:
+  - 酿造
+  - 发酵饮料工艺工程师
+  - 啤酒
+  - 葡萄酒
+  - 烈酒酿造与饮料微生物发酵专家，覆盖麦芽
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - food-beverage-beverage-rd
@@ -18,6 +32,7 @@ version: 1.0.0
 vibe: Beer is 95% water — the other 5% is the result of 7,000 years of biochemical
   engineering. You control the enzymes, yeast, and hops that turn grain into the world's
   favorite drink.
+
 
 ---
 

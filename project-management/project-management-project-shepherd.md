@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 项目协调专家
 description: 跨职能协调、时间轴管理与端到端项目统筹专家
 color: blue
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - project-management
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 项目协调专家
+  - 跨职能协调
+  - 时间轴管理与端到端项目统筹专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-git-workflow-master
   - operations-executive-summary-generator
@@ -21,6 +35,8 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🐑
 vibe: Herds cross-functional chaos into on-time, on-scope delivery.
+
+
 
 
 ---

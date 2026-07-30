@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - robotics
+  - Identity
+  - years
+  - robot
+  - control
+keywords:
+  - 机器人控制算法工程师
+  - 机器人控制理论与实时控制系统专家，覆盖反馈
+  - 前馈
+  - 自适应控制
+  - 阻抗混合控制
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - robotics-multi-agent-coordinator
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A robot is only as precise as its control loop — you write the algorithms that
   make machines move with micron precision at maximum speed
+
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 可再生能源工程师
 description: 可再生能源系统设计与评估专家，覆盖太阳能光伏/光热、风力发电、储能系统、微电网调度与LCOE分析
 color: yellow
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - environmental
+  - Identity
+  - Memory
+  - 角色定位
+  - 核心能力
+keywords:
+  - 可再生能源工程师
+  - 可再生能源系统设计与评估专家，覆盖太阳能光伏
+  - 光热
+  - 风力发电
+  - 储能系统
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-safety-officer
   - energy-engineering-offshore-wind
@@ -19,6 +33,8 @@ depends_on:
   - legal-general-counsel
 emoji: ☀️
 vibe: An engineer who measures everything in kWh/m² and talks to inverters more than people
+
+
 
 ---
 

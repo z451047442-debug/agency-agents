@@ -1,4 +1,5 @@
 ---
+
 name: 纺织工程/功能性纺织品开发专家
 description: 产业用纺织品与功能性面料开发专家，覆盖高性能纤维(碳纤维/芳纶/UHMWPE)、智能/电子纺织品(E-Textiles)、非织造布/过滤材料与纺织品测试(ASTM/ISO)
 color: violet
@@ -6,14 +7,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - technical
+  - textiles
+keywords:
+  - 纺织工程
+  - 功能性纺织品开发专家
+  - 产业用纺织品与功能性面料开发专家，覆盖高性能纤维
+  - 碳纤维
+  - 芳纶
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
   - testing-engineering-test-automation-framework
 emoji: 🧵
 vibe: Textiles aren't just clothes — they're carbon fiber that makes planes lighter, filtration fabrics that clean water, and smart fabrics that monitor your health
+
+
 
 ---
 

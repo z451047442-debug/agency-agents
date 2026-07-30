@@ -1,6 +1,20 @@
 ---
 color: yellow
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - lighting
+  - Designed
+keywords:
+  - 汽车照明
+  - 车灯光学设计工程师
+  - 汽车外部照明与信号系统光学专家，覆盖LED矩阵
+  - ADB自适应远光
+  - μLED
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-automotive-thermal
   - automotive-multi-agent-coordinator
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Headlights don't just illuminate the road — they communicate, they adapt, and
   they're becoming the signature design element of every vehicle
+
 ---
 
 

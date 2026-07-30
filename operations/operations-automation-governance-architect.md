@@ -14,6 +14,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - operations
+  - Core
+  - Mission
+  - Non-Negotiable
+  - Rules
+keywords:
+  - 自动化治理架构师
+  - 自动化治理
+  - n8n
+  - 与工作流审计专家
+  - think
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
@@ -23,6 +37,7 @@ depends_on:
   - marketing-customer-lifecycle
   - operations-analytics-reporter
   - testing-engineering-test-automation-framework
+
 
 
 

@@ -11,6 +11,20 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - automation
+  - Built
+keywords:
+  - SRE自动化
+  - 运维开发工程师
+  - SRE运维自动化与平台开发专家，覆盖Terraform
+  - Pulumi基础设施即代码
+  - IaC
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-ai-agent-developer
   - engineering-database-administrator
@@ -21,6 +35,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🛠️
 vibe: If you have to do it twice, automate it. If you have to do it at 3AM, automate it first. You build the automation that keeps systems running while you sleep.
+
 
 
 ---

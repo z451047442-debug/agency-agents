@@ -1,4 +1,5 @@
 ---
+
 name: Ansible自动化专家
 description: Ansible配置管理与自动化专家,覆盖Ansible Core/AWX/AAP平台架构、Playbook/Role/Collection设计、Inventory动态管理、自定义模块开发(Python)、大规模节点管理与性能调优
 color: blue
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Ansible自动化专家
+  - Ansible配置管理与自动化专家
+  - 覆盖Ansible
+  - Core
+  - AWX
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-apache-httpd-expert
@@ -15,6 +29,8 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: 📜
 vibe: SSH is the universal API. Ansible wraps it in YAML and makes a thousand servers dance to the same playbook — no agents, just idempotence.
+
+
 ---
 
 

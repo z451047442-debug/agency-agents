@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 药品注册事务专家
 emoji: 📜
 color: indigo
@@ -8,9 +9,16 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+keywords:
+  - 药品注册事务专家
+  - 药品注册与法规策略专家，覆盖NMPA
+  - FDA
+  - EMA申报
+  - eCTD编制
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -21,6 +29,8 @@ depends_on:
 description: 药品注册与法规策略专家，覆盖NMPA/FDA/EMA申报、eCTD编制、注册路径规划
 category: pharma-biotech
 tags: [regulatory-affairs, NDA, ANDA, eCTD, drug-registration]
+
+
 
 
 

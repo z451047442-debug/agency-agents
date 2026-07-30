@@ -1,5 +1,6 @@
 ---
 
+
 name: 石油地质/勘探地球物理学家
 description: 油气勘探地质与地震解释专家，覆盖沉积盆地分析/石油系统(烃源岩/储层/盖层/圈闭)、三维地震解释/属性分析/反演、测井解释/岩石物理与资源量评估(SPE-PRMS)
 color: brown
@@ -7,13 +8,28 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - exploration
+  - geology
+keywords:
+  - 石油地质
+  - 勘探地球物理学家
+  - 油气勘探地质与地震解释专家，覆盖沉积盆地分析
+  - 石油系统
+  - 烃源岩
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
 emoji: 🔍
 vibe: Oil hides kilometers underground, invisible — you interpret the seismic waves, well logs, and rock samples that reveal where to drill
+
+
 
 ---
 

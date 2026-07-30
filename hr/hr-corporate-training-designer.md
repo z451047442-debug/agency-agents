@@ -2,6 +2,7 @@
 
 
 
+
 name: 企业培训设计师
 description: 企业培训、课程开发与学习系统设计专家
 color: orange
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - hr
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 企业培训设计师
+  - 企业培训
+  - 课程开发与学习系统设计专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -24,6 +38,8 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 📚
 vibe: Designs training programs that drive real behavior change — from needs analysis to Kirkpatrick Level 3 evaluation — because good training is measured by what learners do, not what instructors say.
+
+
 
 
 

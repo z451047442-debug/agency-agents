@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - aerodynamics
+  - Optimized
+keywords:
+  - 汽车空气动力学
+  - 气动声学工程师
+  - 整车空气动力学与风噪优化专家，覆盖外流场Cd风阻
+  - 升力
+  - 横风稳定性CFD
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-vehicle-dynamics
   - automotive-multi-agent-coordinator
@@ -16,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: At highway speeds, most energy goes to pushing air — every 0.01 Cd reduction
   adds 5-10km to an EV's range
+
 ---
 
 

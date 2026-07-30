@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - spatial-computing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - XR
+  - 座舱交互专家
+  - 座舱控制系统与沉浸式控制界面专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - robotics-motion-control
@@ -15,6 +29,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Designs immersive cockpit control systems that feel natural in XR.
+
 ---
 
 

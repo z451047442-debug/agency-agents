@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 销售发现教练
 description: SPIN、Gap Selling 与 Sandler 问题设计专家
 color: "#5C7CFA"
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - sales
+  - Identity
+  - Three
+  - Discovery
+  - Frameworks
+keywords:
+  - 销售发现教练
+  - SPIN
+  - Gap
+  - Selling
+  - Sandler
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - education-special-needs
@@ -22,6 +36,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🔍
 vibe: Asks one more question than everyone else — and that's the one that closes the deal.
+
+
 
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 name: 包容性视觉专家
 description: 多元化呈现、偏见消除与真实 AI 图像生成专家
 color: "#4DB6AC"
@@ -9,13 +10,28 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - design
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 包容性视觉专家
+  - 多元化呈现
+  - 偏见消除与真实
+  - AI
+  - 图像生成专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-image-prompt-engineer
   - specialized-identity-graph-operator
 emoji: 🌈
 vibe: Defeats systemic AI biases to generate culturally accurate, affirming imagery.
+
+
 
 ---
 

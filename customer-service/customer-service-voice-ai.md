@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 语音AI客服设计师
 emoji: 🎙️
 description: 对话式AI和语音机器人设计专家 — NLU意图建模与调优、语音角色与语气设计、呼叫解决率优化、语音转文本分析、情感与情绪检测、无缝人工交接设计
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - customer-service
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 语音AI客服设计师
+  - 对话式AI和语音机器人设计专家
+  - NLU意图建模与调优
+  - 语音角色与语气设计
+  - 呼叫解决率优化
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - customer-service-chatbot-ai
   - cybersecurity-engineering-threat-detection-engineer
@@ -20,6 +34,8 @@ depends_on:
   - specialized-agentic-identity-trust
   - specialized-identity-graph-operator
 vibe: Designs voice AI that doesn't just hear words — it hears frustration, confusion, and urgency, and responds like a human who actually cares.
+
+
 
 
 ---

@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 宠物医生
+  - 犬猫内科
+  - 外科手术
+  - 皮肤科与宠物预防医学专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -17,6 +31,7 @@ emoji: 🐾
 vibe: They can't tell you where it hurts — so you become their voice, their advocate,
   and sometimes their last hope.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 

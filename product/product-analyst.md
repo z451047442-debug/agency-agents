@@ -8,6 +8,20 @@ nexus_roles:
 - phase-0-discovery
 - phase-4-hardening
 lifecycle: published
+tags:
+  - product
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 产品分析师
+  - 产品指标定义
+  - 埋点设计
+  - 用户行为分析
+  - 漏斗分析
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - logistics-last-mile-delivery
@@ -18,6 +32,7 @@ emoji: 📉
 vibe: Turns raw user data into product insights that drive roadmap decisions — no
   vanity metrics, only actionable truth.
 tools: Bash, Read, Write, Edit, WebFetch, WebSearch
+
 ---
 
 

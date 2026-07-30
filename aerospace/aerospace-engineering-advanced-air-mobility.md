@@ -1,6 +1,20 @@
 ---
 color: cyan
 date_added: '2026-07-03'
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Aviation
+  - Domain
+keywords:
+  - 城市空中交通
+  - UAM
+  - eVTOL系统工程专家
+  - 电动垂直起降飞行器与城市空中交通生态系统专家，覆盖eVTOL分布式电推进
+  - DEP
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
   - automotive-engineering-vehicle-dynamics
@@ -14,6 +28,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Flying taxis are not science fiction — they're in certification now. You integrate the airframes, batteries, autonomy, and airspace systems for the third revolution in aviation.
+
 ---
 
 

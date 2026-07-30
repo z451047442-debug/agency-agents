@@ -1,4 +1,5 @@
 ---
+
 name: 邮件营销策略师
 description: CRM驱动的邮件营销专家，覆盖生命周期自动化、分群架构与送达率优化
 color: green
@@ -8,8 +9,21 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 邮件营销策略师
+  - CRM驱动的邮件营销专家，覆盖生命周期自动化
+  - 分群架构与送达率优化
+  - Role
+  - Personality
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - marketing-email-marketing
   - marketing-paid-media-ppc-strategist
@@ -17,6 +31,8 @@ depends_on:
   - design-brand-guardian
 emoji: 📧
 vibe: Turns a messy contact list into a segmented, automated revenue engine that sends the right message at the right time.
+
+
 
 ---
 

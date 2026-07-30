@@ -1,5 +1,6 @@
 ---
 
+
 name: 信息流广告优化师
 description: 信息流广告投放与优化专家，覆盖巨量引擎(抖音/头条/穿山甲)/腾讯广告(微信/QQ/优量汇)/快手磁力引擎全平台投放、素材创意A/B测试、出价策略(oCPM/oCPC/CPA)、人群定向(DMP/一方数据/相似人群)与ROI优化
 color: orange
@@ -7,12 +8,27 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 信息流广告优化师
+  - 信息流广告投放与优化专家，覆盖巨量引擎
+  - 抖音
+  - 头条
+  - 穿山甲
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - operations-report-distribution-agent
 emoji: 📱
 vibe: "On the feed, you have 1.5 seconds before they scroll past. The difference between ¥0.30 and ¥3.00 CPA isn't the budget — it's the creative hook in frame one, the audience segment, and the bid strategy working together."
+
+
 
 ---
 

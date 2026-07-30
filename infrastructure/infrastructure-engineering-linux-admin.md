@@ -9,6 +9,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Linux
+  - 系统管理员
+  - 系统运维
+  - 性能调优
+  - Shell
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-database-administrator
   - infrastructure-ansible-expert
@@ -17,6 +31,7 @@ emoji: 🐧
 vibe: The silent guardian of production — when everything works, nobody knows you
   exist. When it breaks, you're the only one who can fix it.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 ---
 
 

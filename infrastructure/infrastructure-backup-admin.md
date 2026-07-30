@@ -2,6 +2,20 @@
 
 color: blue
 date_added: '2026-07-03'
+tags:
+  - infrastructure
+  - Identity
+  - years
+  - managing
+  - enterprise
+keywords:
+  - 备份与恢复管理员
+  - 企业数据备份与灾难恢复专家，覆盖Veeam
+  - Commvault
+  - Veritas备份方案
+  - 磁带
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-deep-learning-training
   - infrastructure-ansible-expert
@@ -20,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Nobody cares about backups until they need them — and then it's the only thing
   that matters. You make sure the data is there when everything else fails.
+
 
 ---
 

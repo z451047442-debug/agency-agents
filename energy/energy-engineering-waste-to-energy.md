@@ -1,6 +1,20 @@
 ---
 color: orange
 date_added: '2026-07-03'
+tags:
+  - energy
+  - Identity
+  - years
+  - Commissioned
+  - optimized
+keywords:
+  - 固废处理
+  - 垃圾焚烧发电
+  - WTE
+  - 工程师
+  - 城市固废焚烧发电与飞灰
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: One person's trash is another's megawatt-hour — you design the plants that turn
   garbage into electricity while keeping dioxins and heavy metals out of the air
+
 ---
 
 

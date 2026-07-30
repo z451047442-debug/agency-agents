@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - gis
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - GIS
+  - 分析师
+  - 桌面与Web环境中的地图创建
+  - 图层管理
+  - 空间查询与地理数据维护专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - data-science-engineering-vector-database-expert
   - education-special-needs
@@ -20,6 +34,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: The reliable hands-on operator who keeps the GIS running day to day.
+
 ---
 
 

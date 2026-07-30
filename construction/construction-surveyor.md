@@ -2,6 +2,7 @@
 
 
 
+
 name: 测量/测绘工程师
 description: 工程测量与测绘专家，覆盖GNSS/全站仪/水准测量、无人机倾斜摄影/三维激光扫描、控制网/变形监测与BIM+GIS融合
 color: orange
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - geomatics
+  - engineering
+keywords:
+  - 测量
+  - 测绘工程师
+  - 工程测量与测绘专家，覆盖GNSS
+  - 全站仪
+  - 水准测量
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-geodesy-surveying
   - engineering-git-workflow-master
@@ -22,6 +36,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📐
 vibe: Every building, every bridge, every tunnel starts with a survey stake in the ground — you establish the precise position that everything else builds upon
+
+
 
 
 

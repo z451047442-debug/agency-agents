@@ -1,6 +1,20 @@
 ---
 color: '#059669'
 date_added: '2026-07-19'
+tags:
+  - pharma-biotech
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Pharma
+  - Biotech
+  - Multi-Agent
+  - Coordinator
+  - Coordinates
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for pharma & biotech — drug development,
@@ -13,6 +27,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating pharma-biotech specialists into coherent multi-agent workflows
+
 ---
 
 

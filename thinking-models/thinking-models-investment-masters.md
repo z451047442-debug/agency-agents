@@ -11,10 +11,25 @@ nexus_roles: [phase-0-discovery, phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Investment master thinking models — from Munger's latticework to Dalio's principles, from Taleb's antifragility to Soros' reflexivity. The best investors are philosophers who happen to buy stocks.
 
+tags:
+  - thinking-models
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 投资与商业大师思维模型专家
+  - Buffett
+  - 双目标清单
+  - 能力圈
+  - 安全边际
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - game-development-game-psychology
   - marketing-market-research
   - testing-engineering-test-automation-framework
+
 
 ---
 

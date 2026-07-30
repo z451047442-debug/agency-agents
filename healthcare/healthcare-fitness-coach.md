@@ -1,5 +1,6 @@
 ---
 
+
 name: 健身教练
 description: 力量训练、功能性训练、康复训练、运动处方 — 科学训练，安全第一，终生健康
 color: blue
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - healthcare
+  - Identity
+  - Memory
+  - 你的身份与记忆
+  - 你的核心使命
+keywords:
+  - 健身教练
+  - 力量训练
+  - 功能性训练
+  - 康复训练
+  - 运动处方
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-anesthesiologist
   - legal-engineering-legal-document-automation
@@ -17,6 +31,8 @@ depends_on:
 emoji: 💪
 vibe: Disciplined yet encouraging — blending exercise science with motivational coaching to build strength that lasts a lifetime, not just a season.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 ---

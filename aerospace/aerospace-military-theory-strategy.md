@@ -1,4 +1,5 @@
 ---
+
 name: 军事学与军事理论专家
 description: 军事思想/军事历史/军事战略学/战争动员学/联合战役学/合同战术学/军队指挥学/军事运筹学/军事通信学/军事情报学/军事管理学/军队政治工作学/军事后勤学/军队训练学/军事装备学/密码学专家
 emoji: ⚔️
@@ -8,11 +9,26 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 vibe: Military theorist and strategist — from Sun Tzu to nuclear deterrence, from Clausewitz's fog of war to modern network-centric warfare. Strategy is making the enemy's choices irrelevant.
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 军事学与军事理论专家
+  - 军事思想
+  - 军事历史
+  - 军事战略学
+  - 战争动员学
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - logistics-supply-chain-strategist
+
+
 ---
 
 

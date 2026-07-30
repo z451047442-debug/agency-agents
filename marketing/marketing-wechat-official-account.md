@@ -1,5 +1,6 @@
 ---
 
+
 name: 微信公众号运营专家
 description: 粉丝互动、内容营销与微信公众号策略专家
 color: "#09B83E"
@@ -8,12 +9,27 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 微信公众号运营专家
+  - 粉丝互动
+  - 内容营销与微信公众号策略专家
+  - Core
+  - Identity
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
 emoji: 📱
 vibe: Grows loyal WeChat subscriber communities through consistent value delivery.
+
+
 
 ---
 

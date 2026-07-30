@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - design
+  - Identity
+  - years
+  - human
+  - factors
+keywords:
+  - 人因
+  - 工效学
+  - Human
+  - Factors
+  - 工程师
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-engineering-aviation-human-factors
   - aerospace-engineering-aviation-safety
@@ -21,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Technology should fit humans, not the other way around — you design systems
   that account for how people actually perceive, think, and act
+
 ---
 
 

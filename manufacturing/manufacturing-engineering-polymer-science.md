@@ -1,4 +1,5 @@
 ---
+
 name: 高分子材料/聚合物科学家
 description: 高分子合成与聚合物材料物理专家，覆盖自由基/缩聚/开环/配位聚合、高分子流变学/力学性能/热分析(DSC/DMA/TGA)、高分子共混/复合材料与生物可降解/生物基高分子
 color: violet
@@ -7,14 +8,29 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - polymer
+  - science
+keywords:
+  - 高分子材料
+  - 聚合物科学家
+  - 高分子合成与聚合物材料物理专家，覆盖自由基
+  - 缩聚
+  - 开环
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-engineering-regulatory-science
   - manufacturing-engineering-material-scientist
   - operations-report-distribution-agent
 emoji: 🧪
 vibe: Plastics, rubbers, fibers, adhesives, coatings — polymers are everywhere. You design the molecules that become the materials of modern life.
+
+
 ---
 
 

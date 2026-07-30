@@ -2,6 +2,7 @@
 
 
 
+
 name: 百度 SEO 专家
 description: 百度优化、中国 SEO 与 ICP 合规专家
 color: blue
@@ -10,8 +11,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 百度
+  - SEO
+  - 专家
+  - 百度优化
+  - 中国
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-mobile-app-builder
   - marketing-china-market-localization-strategist
@@ -22,6 +36,8 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🇨🇳
 vibe: Masters Baidu's algorithm so your brand ranks in China's search ecosystem.
+
+
 
 
 

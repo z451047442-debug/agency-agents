@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 关卡设计师
 description: 布局理论、节奏、遭遇设计与环境叙事专家
 color: teal
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 关卡设计师
+  - 布局理论
+  - 节奏
+  - 遭遇设计与环境叙事专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-visual-storyteller
   - game-development-game-audio-engineer
@@ -19,6 +33,8 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🗺️
 vibe: Treats every level as an authored experience where space tells the story.
+
+
 
 
 ---

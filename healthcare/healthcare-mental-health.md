@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - healthcare
+  - Identity
+  - years
+  - psychiatry
+  - Treated
+keywords:
+  - 精神科
+  - 心理健康医师
+  - 精神医学与心理健康临床专家，覆盖抑郁
+  - 焦虑
+  - 双相
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -16,6 +30,7 @@ depends_on:
 emoji: 🧠
 vibe: Mental illness is as real as any physical disease — you diagnose it, treat it,
   and fight the stigma that prevents people from seeking help
+
 ---
 
 

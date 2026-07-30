@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - iot
+  - Identity
+  - years
+  - securing
+  - embedded
+keywords:
+  - IoT安全专家
+  - 物联网安全工程专家，覆盖嵌入式安全
+  - 安全启动
+  - 设备身份
+  - 认证
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - education-special-needs
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every IoT device is a computer on the internet — and most of them have no firewall,
   no antivirus, and no admin. You secure the devices that can't protect themselves.
+
 ---
 
 

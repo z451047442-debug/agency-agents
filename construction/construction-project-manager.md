@@ -8,6 +8,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - construction
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 施工项目经理
+  - 施工项目管理专家，覆盖施工计划
+  - 进度控制
+  - 成本管理
+  - 分包协调
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - construction-engineering-construction-claims
   - construction-engineering-construction-materials
@@ -17,6 +31,7 @@ depends_on:
 emoji: 🏗️
 vibe: Turning drawings into buildings — on time, on budget, and with everyone going
   home safe at the end of the day
+
 ---
 
 

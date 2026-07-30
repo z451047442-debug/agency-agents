@@ -1,6 +1,20 @@
 ---
 color: teal
 date_added: '2026-07-03'
+tags:
+  - agriculture
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 农业物联网工程师
+  - 农业IoT与智能装备专家，覆盖土壤
+  - 气象传感器网络
+  - 智能灌溉控制
+  - 农业无人机
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - agriculture-agronomist
   - cybersecurity-engineering-threat-detection-engineer
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Sensors in the soil, eyes in the sky, intelligence at the edge — connecting
   the farm to the cloud
+
 ---
 
 

@@ -1,6 +1,20 @@
 ---
 color: green
 date_added: '2026-07-03'
+tags:
+  - marketing
+  - Identity
+  - years
+  - customer
+  - advocacy
+keywords:
+  - 客户倡导
+  - 参考案例经理
+  - B2B客户倡导与营销案例管理专家，覆盖客户成功案例
+  - Success
+  - Story
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-engineering-risk-quant
@@ -17,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Your happiest customers are your best salespeople — you capture their stories,
   amplify their voices, and turn success into pipeline
+
 ---
 
 

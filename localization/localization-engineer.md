@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 本地化工程师
 description: i18n/l10n基础设施、TMS配置、CAT工具自动化、伪本地化测试、持续本地化CI/CD、机器翻译与LLM译后编辑流水线专家
 color: cyan
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - localization
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 本地化工程师
+  - i18n
+  - l10n基础设施
+  - TMS配置
+  - CAT工具自动化
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-code-reviewer
   - engineering-multi-agent-systems-architect
@@ -19,6 +33,8 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🌐
 vibe: Strings don't localize themselves — you build the pipelines, tools, and infrastructure that turn source strings into 40+ languages without anyone noticing the machinery.
+
+
 
 
 ---

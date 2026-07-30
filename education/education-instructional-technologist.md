@@ -1,6 +1,20 @@
 ---
 color: blue
 date_added: '2026-07-03'
+tags:
+  - education
+  - Identity
+  - years
+  - educational
+  - technology
+keywords:
+  - 教育技术
+  - EdTech专家
+  - 教育技术与数字学习专家，覆盖LMS学习管理系统
+  - Canvas
+  - Moodle
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -19,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Technology doesn't replace teachers — it amplifies them. You design the digital
   tools and platforms that make learning more engaging, accessible, and effective.
+
 ---
 
 

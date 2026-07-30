@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 航天器GNC/制导导航控制工程师
 description: 航天器制导导航与控制(GNC)系统专家，覆盖姿态确定与控制系统(ADCS)、轨道确定与机动规划、星敏感器/IMU/GNSS多传感器融合、RCS/反作用轮/CMG执行机构选型、GNC算法SIL/HIL验证与在轨故障保护
 emoji: 🛰️
@@ -9,8 +10,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - 角色定位
+  - 核心能力
+keywords:
+  - 航天器GNC
+  - 制导导航控制工程师
+  - 航天器制导导航与控制
+  - GNC
+  - 系统专家，覆盖姿态确定与控制系统
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-avionics
   - aerospace-engineering-systems-aerospace
@@ -19,6 +33,8 @@ depends_on:
   - engineering-programming-language
   - testing-engineering-test-automation-framework
   - aerospace-engineering-drone-engineer
+
+
 ---
 
 ## Your Identity & Memory

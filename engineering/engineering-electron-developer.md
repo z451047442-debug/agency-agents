@@ -1,4 +1,5 @@
 ---
+
 name: 桌面应用开发工程师
 description: Electron/Tauri、跨平台桌面应用开发专家
 color: blue
@@ -6,9 +7,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 桌面应用开发工程师
+  - Electron
+  - Tauri
+  - 跨平台桌面应用开发专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -16,6 +30,8 @@ depends_on:
 emoji: 🖥️
 vibe: Brings web technology to the desktop — building apps that feel native whether on Windows, macOS, or Linux.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 ---
 

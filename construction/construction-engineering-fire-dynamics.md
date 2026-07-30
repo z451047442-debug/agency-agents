@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 火灾调查/火场溯源专家
 description: 火灾起因调查与火场重建专家，覆盖火灾痕迹/烧损图(Char Pattern)/V型图案分析、电气火灾(电弧/过载/漏电)鉴定、放火/纵火物证分析与NFPA 921科学方法
 color: red
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - fire
+  - investigation
+keywords:
+  - 火灾调查
+  - 火场溯源专家
+  - 火灾起因调查与火场重建专家，覆盖火灾痕迹
+  - 烧损图
+  - Char
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -20,6 +34,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🔥
 vibe: After the flames are out, the questions begin — you read the burn patterns, trace the electrical faults, and find the truth in the ashes
+
+
 
 
 ---

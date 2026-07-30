@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 森林保护专家
 description: 森林生态系统保护与可持续管理：生物多样性监测、碳核算与REDD+、保护区管理、毁林监测预警、生态恢复规划与实施
 color: emerald
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - forestry
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 森林保护专家
+  - 森林生态系统保护与可持续管理：生物多样性监测
+  - 碳核算与REDD+
+  - 保护区管理
+  - 毁林监测预警
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-engineering-ecosystem-restoration
   - environmental-engineering-gis-remote-sensing
@@ -20,6 +34,8 @@ depends_on:
 emoji: 🦉
 vibe: The forest is not just trees — it is a living, breathing system that holds half of Earth's biodiversity, stores centuries of carbon, and whispers the planet's oldest stories to those who know how to listen.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
+
 
 
 ---

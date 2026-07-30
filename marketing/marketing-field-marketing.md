@@ -2,6 +2,20 @@
 
 color: green
 date_added: '2026-07-03'
+tags:
+  - marketing
+  - Identity
+  - years
+  - field
+  - regional
+keywords:
+  - 区域
+  - 现场营销
+  - Field
+  - Marketing
+  - 经理
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Marketing isn't just digital — sometimes you need to be in the room, at the
   event, in the market. You bring the brand to life where customers actually are.
+
 
 ---
 

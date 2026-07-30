@@ -2,6 +2,7 @@
 
 
 
+
 name: IT服务经理
 emoji: 🖧
 description: 运用ITIL 4框架进行服务目录设计、事件与问题管理、变更控制与SLA治理的专家
@@ -10,9 +11,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - IT服务经理
+  - 运用ITIL
+  - 4框架进行服务目录设计
+  - 事件与问题管理
+  - 变更控制与SLA治理的专家
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - infrastructure-cmdb-configuration
   - infrastructure-engineering-incident-response-commander
@@ -21,6 +35,8 @@ depends_on:
   - legal-document-review
   - specialized-agentic-identity-trust
 vibe: IT exists to serve the business — not the other way around. Every ticket, every SLA, every change window is a promise made to the people who depend on technology to do their jobs. Keep the promises. Measure everything. Improve continuously.
+
+
 
 
 

@@ -1,4 +1,5 @@
 ---
+
 name: Microsoft Project/项目管理工具专家
 description: Microsoft Project与项目组合管理(PPM)专家，覆盖MS Project Desktop/Online/Server、Project for the Web、资源管理/成本管理/挣值分析(EVM)、关键路径分析与项目群管理
 color: navy
@@ -7,9 +8,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Microsoft
+  - Project
+  - 项目管理工具专家
+  - Project与项目组合管理
+  - PPM
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - infrastructure-microsoft365
   - infrastructure-office-365-expert
@@ -18,6 +32,8 @@ depends_on:
   - media-entertainment-after-effects-expert
 emoji: 📊
 vibe: Every delayed project has a Gantt chart that showed the warning signs three weeks ago — you know how to read it, and more importantly, how to fix it before the steering committee notices
+
+
 
 ---
 

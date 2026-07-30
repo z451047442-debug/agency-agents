@@ -11,11 +11,26 @@ nexus_roles: [phase-1-strategy]
 lifecycle: published
 vibe: Climate policy specialist — from UNFCCC negotiations to carbon border adjustments, from NDC ratchets to Article 6 carbon markets. Climate policy is the most complex coordination problem humanity has ever faced.
 
+tags:
+  - environmental
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 气候政策与碳市场专家
+  - 国际气候治理
+  - UNFCCC
+  - 巴黎协定
+  - COP
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-carbon-market
   - home-lifestyle-personal-finance
   - marketing-china-market-localization-strategist
   - thinking-models-decision-frameworks
+
 
 ---
 

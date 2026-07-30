@@ -2,6 +2,7 @@
 
 
 
+
 name: 技术产品经理
 description: 技术产品经理(TPM)专家，覆盖API产品设计、平台产品策略、技术路线图、开发者体验(DX)与服务架构决策
 color: slate
@@ -11,9 +12,22 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - product
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 技术产品经理
+  - TPM
+  - 专家，覆盖API产品设计
+  - 平台产品策略
+  - 技术路线图
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-consolidation-agent
@@ -26,6 +40,8 @@ depends_on:
   - spatial-computing-engineering-metaverse-experience
 emoji: ⚡
 vibe: Building products for builders — you speak engineer and user, translating between what's possible and what's valuable
+
+
 
 
 

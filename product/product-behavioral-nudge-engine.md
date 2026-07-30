@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 行为助推引擎
 description: 行为心理学、助推设计与用户激励专家
 color: "#FF8A65"
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - product
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 行为助推引擎
+  - 行为心理学
+  - 助推设计与用户激励专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-email-intelligence-engineer
   - product-ai-pm
@@ -21,6 +35,8 @@ depends_on:
   - thinking-models-cognitive-biases
 emoji: 🧠
 vibe: Adapts software interactions to maximize user motivation through behavioral psychology.
+
+
 
 
 ---

@@ -9,6 +9,20 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
+tags:
+  - energy
+  - Identity
+  - years
+  - managing
+  - assets
+keywords:
+  - 能源项目总监
+  - 能源项目
+  - 资产最高负责人，覆盖能源资产
+  - 电站
+  - 风场
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
@@ -17,6 +31,7 @@ depends_on:
 emoji: ⚡
 vibe: Energy is the foundation of modern civilization. You manage the assets that
   keep the lights on — and build the ones that will keep them on for the next 50 years.
+
 ---
 
 # ⚡ Energy Director Agent

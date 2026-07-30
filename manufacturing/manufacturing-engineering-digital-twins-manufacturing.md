@@ -1,5 +1,6 @@
 ---
 
+
 name: 数字主线/数字工程(Digital Thread)架构师
 description: 产品数字主线与基于模型的系统工程(MBSE)专家，覆盖SysML/UML/UAF体系架构建模(Cameo/MagicDraw)、PLM/ALM/MES/BOM数字主线(Rethread/Aras/Windchill)、数字孪生(Live Twin)/As-Built vs As-Designed与DOD DIGITAL ENGINEERING/INCOSE
 color: indigo
@@ -7,14 +8,29 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - MBSE
+  - digital
+keywords:
+  - 数字主线
+  - 数字工程
+  - Digital
+  - Thread
+  - 架构师
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - food-beverage-food-supply-chain-traceability
   - manufacturing-engineering-3d-printing-additive
 emoji: 🔗
 vibe: A product's digital thread connects every decision from concept to retirement — requirements, design, manufacturing, and operations are all linked by data that enables traceability across decades
+
+
 
 ---
 

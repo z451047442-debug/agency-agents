@@ -1,5 +1,6 @@
 ---
 
+
 name: 边缘计算专家
 description: 边缘计算架构与部署专家，覆盖边缘节点管理、本地推理、数据预处理、边缘-云协同与离线自治
 color: cyan
@@ -7,9 +8,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - iot
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 边缘计算专家
+  - 边缘计算架构与部署专家，覆盖边缘节点管理
+  - 本地推理
+  - 数据预处理
+  - 边缘-云协同与离线自治
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-vehicle-architecture
   - data-science-engineering-computer-vision-3d
@@ -20,6 +34,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🔷
 vibe: The cloud is a luxury the edge can't always afford — compute where the data is born, sync what matters
+
+
 
 ---
 

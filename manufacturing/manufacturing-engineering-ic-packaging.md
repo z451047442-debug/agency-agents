@@ -1,4 +1,5 @@
 ---
+
 name: 先进封装/异构集成工程师
 description: 先进IC封装与异构集成技术专家，覆盖2.5D/3D封装(CoWoS/EMIB/Foveros)、芯片堆叠(混合键合Hybrid Bonding)、扇出封装(Fan-Out/FOWLP)与Chiplet/UCIe互连标准
 color: violet
@@ -6,15 +7,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - manufacturing
+  - Identity
+  - years
+  - semiconductor
+  - packaging
+keywords:
+  - 先进封装
+  - 异构集成工程师
+  - 先进IC封装与异构集成技术专家，覆盖2.5D
+  - 3D封装
+  - CoWoS
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-power-electronics-packaging
   - manufacturing-engineering-3d-printing-additive
   - telecom-engineering-signal-integrity
 emoji: 💎
 vibe: Moore's Law slows, but packaging advances — you stack and connect chiplets into systems that perform like a single giant chip
+
+
 ---
 
 

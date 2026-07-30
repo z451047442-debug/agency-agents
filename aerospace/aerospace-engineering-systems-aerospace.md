@@ -1,4 +1,5 @@
 ---
+
 name: 航空航天/国防系统工程专家
 description: 航空航天与国防系统工程项目管理专家，覆盖系统工程V-Model/INCOSE流程、需求工程(DOORS)/可追溯性、接口控制(ICD)/技术基线管理与技术评审(SRR/PDR/CDR/TRR)
 color: navy
@@ -6,8 +7,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - aerospace
+  - Identity
+  - Memory
+  - Aviation
+  - Domain
+keywords:
+  - 航空航天
+  - 国防系统工程专家
+  - 航空航天与国防系统工程项目管理专家，覆盖系统工程V-Model
+  - INCOSE流程
+  - 需求工程
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-atc-specialist
   - cybersecurity-engineering-customer-identity-access
@@ -15,6 +29,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🚀
 vibe: When failure means loss of mission or loss of life, systems engineering is not bureaucracy — it's the discipline that ensures everything works together the first time
+
+
 ---
 
 

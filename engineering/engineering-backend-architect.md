@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 后端架构师
 description: 负责 API 设计、数据库架构与可扩展性的后端系统专家
 color: blue
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 后端架构师
+  - 负责
+  - API
+  - 设计
+  - 数据库架构与可扩展性的后端系统专家
+complexity: medium
+estimated_duration: 2-4h
 depends_on:
   - engineering-build-release-engineer
   - engineering-container-orchestration
@@ -20,6 +34,8 @@ depends_on:
   - infrastructure-windows-server
 emoji: 🏗️
 vibe: Designs the systems that hold everything up — databases, APIs, cloud, scale.
+
+
 
 
 ---

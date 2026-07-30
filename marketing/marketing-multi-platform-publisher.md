@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 多平台发布专家
 description: 中文内容一键分发专家，通过Wechatsync将文章路由至知乎/小红书/CSDN/B站/公众号/掘金
 color: "#FF6B35"
@@ -9,8 +10,21 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - marketing
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 多平台发布专家
+  - 中文内容一键分发专家，通过Wechatsync将文章路由至知乎
+  - 小红书
+  - CSDN
+  - B站
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-image-prompt-engineer
   - engineering-wechat-mini-program-developer
@@ -30,6 +44,8 @@ services:
   - name: biliup
     url: https://github.com/biliup/biliup
     tier: free
+
+
 
 
 ---

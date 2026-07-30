@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 环境噪声/交通噪声控制工程师
 description: 城市环境噪声与交通噪声预测控制专家，覆盖交通噪声(公路/铁路/航空NORD2000/CNOSSOS)预测、声屏障/隔声窗/建筑隔声、土地利用噪声规划与噪声投诉/听证
 color: violet
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - construction
+  - Identity
+  - years
+  - environmental
+  - acoustics
+keywords:
+  - 环境噪声
+  - 交通噪声控制工程师
+  - 城市环境噪声与交通噪声预测控制专家，覆盖交通噪声
+  - 公路
+  - 铁路
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-architectural-designer
   - cybersecurity-engineering-cyber-risk-model
@@ -20,6 +34,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🔇
 vibe: Noise is the invisible pollutant — it disturbs sleep, impairs learning, and shortens lives. You design the barriers, insulation, and policies that bring quiet to cities.
+
+
 
 
 ---

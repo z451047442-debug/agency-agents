@@ -1,5 +1,6 @@
 ---
 
+
 name: 零售技术(POS/WMS/OMO)专家
 description: 零售技术与系统集成专家，覆盖POS/收银系统、WMS/仓储系统、OMS订单管理、CRM/会员系统与线上线下融合(OMO)中台架构
 color: teal
@@ -7,15 +8,30 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - retail
+  - Identity
+  - Memory
+  - Success
+  - Metrics
+keywords:
+  - 零售技术
+  - POS
+  - WMS
+  - OMO
+  - 专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - customer-service-retail-customer-returns
   - cybersecurity-engineering-customer-identity-access
   - retail-category-manager
 emoji: 🖥️
 vibe: When a customer buys online and returns in-store, five systems need to talk to each other. You make them talk, in real-time, without losing the transaction or the customer.
+
+
 
 ---
 

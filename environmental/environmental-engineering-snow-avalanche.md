@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 雪冰/冰川/冻土工程师
 description: 寒区工程与冰冻圈科学专家，覆盖多年冻土/季节性冻土路基工程设计、冰川/冰湖溃决洪水(GLOF)风险评估、积雪/雪崩防护与寒区材料/混凝土抗冻
 color: cyan
@@ -8,8 +9,21 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - environmental
+  - Identity
+  - years
+  - permafrost
+  - cold
+keywords:
+  - 雪冰
+  - 冰川
+  - 冻土工程师
+  - 寒区工程与冰冻圈科学专家，覆盖多年冻土
+  - 季节性冻土路基工程设计
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - environmental-engineering-climate-tech
   - food-beverage-food-supply-chain
@@ -18,6 +32,8 @@ depends_on:
   - operations-report-distribution-agent
 emoji: ❄️
 vibe: Building roads, pipelines, and railways on permafrost that's melting due to climate change — that's the challenge of cold regions engineering
+
+
 
 
 ---

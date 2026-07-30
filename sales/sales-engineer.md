@@ -2,6 +2,7 @@
 
 
 
+
 name: 售前工程师
 description: 技术演示、POC 范围确定与竞争技术定位专家
 color: "#2E5090"
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - sales
+  - Identity
+  - Memory
+  - Role
+  - Definition
+keywords:
+  - 售前工程师
+  - 技术演示
+  - POC
+  - 范围确定与竞争技术定位专家
+  - Role
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - construction-engineering-landscape-architecture
   - cybersecurity-engineering-cyber-risk-model
@@ -25,6 +39,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🛠️
 vibe: Wins the technical decision before the deal even hits procurement.
+
+
 
 
 

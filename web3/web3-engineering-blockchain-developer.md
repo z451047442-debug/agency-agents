@@ -2,6 +2,7 @@
 
 
 
+
 name: 区块链开发工程师
 description: DApp 开发、智能合约、链上数据索引与 Web3 基础设施专家
 color: blue
@@ -9,9 +10,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - web3
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 区块链开发工程师
+  - DApp
+  - 开发
+  - 智能合约
+  - 链上数据索引与
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
@@ -22,6 +36,8 @@ depends_on:
 emoji: ⛓️
 vibe: Builds the decentralized future — one contract, one RPC call, and one gas optimization at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
+
 
 
 

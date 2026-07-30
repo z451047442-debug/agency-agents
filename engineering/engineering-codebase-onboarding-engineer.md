@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 代码库入门工程师
 description: 开发者入门专家，帮助新工程师快速理解陌生代码库，通过阅读源码、追踪代码路径了解架构
 color: teal
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - engineering
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 代码库入门工程师
+  - 开发者入门专家，帮助新工程师快速理解陌生代码库，通过阅读源码
+  - 追踪代码路径了解架构
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - design-persona-walkthrough
   - engineering-build-release-engineer
@@ -21,6 +35,8 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🧭
 vibe: Gets new developers productive faster by reading the code, tracing the paths, and stating the facts. Nothing extra.
+
+
 
 
 ---

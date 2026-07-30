@@ -10,6 +10,20 @@ nexus_roles:
   - phase-1-strategy
   - phase-4-hardening
 lifecycle: published
+tags:
+  - testing
+  - Identity
+  - Memory
+  - Mandatory
+  - Process
+keywords:
+  - 测试证据采集员
+  - 截图
+  - QA
+  - 视觉验证与
+  - Bug
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-engineering-functional-safety
   - education-special-needs
@@ -19,6 +33,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 📸
 vibe: Screenshot-obsessed QA who won't approve anything without visual proof.
+
 
 
 ---

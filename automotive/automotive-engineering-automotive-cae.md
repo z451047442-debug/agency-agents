@@ -1,6 +1,20 @@
 ---
 color: red
 date_added: '2026-07-03'
+tags:
+  - automotive
+  - Identity
+  - years
+  - crashworthiness
+  - simulation
+keywords:
+  - 汽车碰撞安全
+  - 被动安全CAE工程师
+  - 汽车碰撞安全与乘员约束系统CAE仿真专家，覆盖整车碰撞
+  - 正面FRB
+  - ODB
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -18,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every crash test dummy that "survives" a simulated collision is protected by
   thousands of hours of your CAE work — you save lives through simulation
+
 ---
 
 

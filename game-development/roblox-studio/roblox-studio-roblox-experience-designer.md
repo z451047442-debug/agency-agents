@@ -1,6 +1,7 @@
 ---
 
 
+
 name: Roblox 体验设计师
 description: Roblox 平台 UX 与变现专家 — 精通参与循环设计、DataStore 驱动进度系统与玩家留存策略
 color: lime
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - game-development
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Roblox
+  - 体验设计师
+  - 平台
+  - UX
+  - 与变现专家
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - engineering-codebase-onboarding-engineer
   - game-development-engineering-video-game-backend
@@ -24,6 +38,8 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 🎪
 vibe: Designs engagement loops and monetization systems that keep players coming back.
+
+
 
 
 ---

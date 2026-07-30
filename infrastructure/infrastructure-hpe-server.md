@@ -10,6 +10,20 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - HPE服务器专家
+  - HPE
+  - ProLiant
+  - Synergy服务器与存储专家，覆盖iLO
+  - OneView
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - energy-engineering-grid-scale-storage
   - infrastructure-ansible-expert
@@ -20,6 +34,7 @@ emoji: 🟢
 vibe: HPE builds servers that outlast their warranties by a decade — you know how
   to spec them, deploy them, and keep them running when the iLO says everything is
   fine but the OS disagrees
+
 ---
 
 

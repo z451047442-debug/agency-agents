@@ -1,6 +1,20 @@
 ---
 color: navy
 date_added: '2026-07-03'
+tags:
+  - iot
+  - Identity
+  - years
+  - leading
+  - product
+keywords:
+  - IoT事业部总监
+  - 物联网
+  - IoT
+  - 业务最高负责人，覆盖IoT产品
+  - 平台策略
+complexity: high
+estimated_duration: 4-8h
 depends_on:
   - automotive-supply-chain
   - iot-multi-agent-coordinator
@@ -20,6 +34,7 @@ version: 1.0.0
 vibe: IoT promises to connect everything — you're the one who makes the business case,
   builds the product, and delivers the value when "connected" doesn't automatically
   mean "useful."
+
 ---
 
 

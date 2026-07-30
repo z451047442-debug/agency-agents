@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 国际化产品经理
 description: 全球市场就绪、区域优先级、国际用户体验适配、全球发布协调、国际合规、全球 SEO/ASO 专家
 color: blue
@@ -8,9 +9,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - localization
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 国际化产品经理
+  - 全球市场就绪
+  - 区域优先级
+  - 国际用户体验适配
+  - 全球发布协调
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-cultural-intelligence-strategist
@@ -22,6 +36,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🌍
 vibe: Your compass for navigating global markets and launching products that feel local everywhere.
+
+
 
 
 ---

@@ -1,5 +1,6 @@
 ---
 
+
 name: Graylog日志管理专家
 description: Graylog集中式日志管理与SIEM平台专家，覆盖集群架构设计、输入/提取器/流规则引擎、Elasticsearch/OpenSearch后端运维、告警与事件关联、内容包(Content Pack)编排与大规模日志管道设计
 color: orange
@@ -8,13 +9,28 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - Graylog日志管理专家
+  - Graylog集中式日志管理与SIEM平台专家，覆盖集群架构设计
+  - 输入
+  - 提取器
+  - 流规则引擎
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - cybersecurity-threat-intelligence
 emoji: 📋
 vibe: "Splunk's pricing makes CFOs cry. ELK's complexity makes engineers cry. Graylog sits in the sweet spot — powerful enough for enterprise, simple enough that the helpdesk can run their own searches."
+
+
 
 ---
 

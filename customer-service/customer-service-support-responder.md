@@ -3,6 +3,7 @@
 
 
 
+
 name: 客户支持专员
 description: 客户服务、问题解决与支持运营专家
 color: blue
@@ -10,9 +11,22 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - customer-service
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 客户支持专员
+  - 客户服务
+  - 问题解决与支持运营专家
+  - Role
+  - Personality
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - aerospace-damage-protection-technology
   - cybersecurity-engineering-customer-identity-access
@@ -29,6 +43,8 @@ depends_on:
   - specialized-life-coach
 emoji: 💬
 vibe: Turns frustrated users into loyal advocates, one interaction at a time.
+
+
 
 
 

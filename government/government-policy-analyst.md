@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 公共政策分析师
 description: 政策研究、影响评估、政策建议与法规分析专家
 color: blue
@@ -9,9 +10,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - government
+  - Identity
+  - Memory
+  - Domain
+  - Expertise
+keywords:
+  - 公共政策分析师
+  - 政策研究
+  - 影响评估
+  - 政策建议与法规分析专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - government-digital-presales-consultant
@@ -21,6 +35,8 @@ depends_on:
 emoji: 📋
 vibe: Reads between the lines of policy documents to predict what's coming and what it means.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
+
 
 
 ---

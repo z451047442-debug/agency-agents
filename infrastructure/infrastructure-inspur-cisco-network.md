@@ -2,6 +2,7 @@
 
 
 
+
 name: 浪潮思科网络专家
 description: 浪潮思科(Inspur-Cisco)合资网络设备专家，覆盖浪潮CN系列交换机/路由器、基于Cisco IOS-XE/NX-OS技术栈、信创合规场景与数据中心/园区国产化替代方案
 color: darkcyan
@@ -10,9 +11,22 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-  - phase-4-hardening
 lifecycle: published
 
+tags:
+  - infrastructure
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 浪潮思科网络专家
+  - 浪潮思科
+  - Inspur-Cisco
+  - 合资网络设备专家，覆盖浪潮CN系列交换机
+  - 路由器
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - automotive-supply-chain
   - data-science-engineering-language-model-nlp
@@ -27,6 +41,8 @@ depends_on:
   - web3-engineering-smart-contract-security
 emoji: 🌊
 vibe: Cisco technology, Inspur manufacturing, 信创 compliance — CN series switches bring enterprise networking to Chinese government and SOE environments with the Cisco DNA you trust
+
+
 
 
 

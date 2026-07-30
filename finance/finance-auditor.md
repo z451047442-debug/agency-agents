@@ -10,12 +10,27 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
+tags:
+  - finance
+  - Identity
+  - Memory
+  - Core
+  - Mission
+keywords:
+  - 审计师
+  - 财务审计
+  - 内控审计
+  - 审计与反舞弊调查专家
+  - 核心信念
+complexity: low
+estimated_duration: 1-2h
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
 emoji: 🔎
 vibe: Trust but verify — then verify again. Every number tells a story, and you read between the lines.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 
 ---
 

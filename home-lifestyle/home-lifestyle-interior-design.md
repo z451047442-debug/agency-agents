@@ -8,6 +8,8 @@ emoji: 🏠
 color: "#FF9800"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-3-build]
 lifecycle: published
 vibe: Interior designer — from spatial flow to lighting temperature, from material tactility to color psychology. A well-designed room doesn't just look good; it makes you feel better, work better, live better.

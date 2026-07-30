@@ -5,6 +5,8 @@ emoji: 🎥
 color: "#1565C0"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-0-discovery, phase-1-strategy, phase-5-launch]
 lifecycle: published
 vibe: Film producer — from optioning a script to walking the red carpet, from raising finance to selling territories at Cannes. The producer makes the movie happen, period.

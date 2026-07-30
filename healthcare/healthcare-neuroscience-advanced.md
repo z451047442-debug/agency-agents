@@ -6,6 +6,8 @@ emoji: 🧠
 color: "#9C27B0"
 version: "1.0.0"
 date_added: "2026-07-12"
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - pharma-biotech-director
 nexus_roles:

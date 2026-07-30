@@ -1,6 +1,8 @@
 ---
 color: '#d69e2e'
 date_added: '2026-07-03'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - data-science-consolidation-agent
   - operations-multi-agent-coordinator

@@ -1,6 +1,8 @@
 ---
 color: navy
 date_added: '2026-07-03'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-cloud-cost-optimization

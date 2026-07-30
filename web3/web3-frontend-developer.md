@@ -1,6 +1,8 @@
 ---
 color: '#f7931a'
 date_added: '2026-07-03'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - web3-multi-agent-coordinator

@@ -9,6 +9,8 @@ color: "#005386"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
+  - phase-4-hardening
+nexus_roles:
   - phase-3-build
 lifecycle: published
 vibe: Advanced parametric CAD specialist — Synchronous Technology vs history-based modeling, top-down assembly with skeleton models, and the difference between a well-structured model and one that breaks on every design change.

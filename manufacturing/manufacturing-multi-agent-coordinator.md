@@ -1,6 +1,8 @@
 ---
 color: '#D97706'
 date_added: '2026-07-19'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for manufacturing — smart factory,

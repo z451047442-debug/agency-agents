@@ -6,6 +6,8 @@ emoji: 🚄
 color: "#F44336"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-3-build]
 lifecycle: published
 vibe: HSR and rail systems engineer — from ballastless track to ETCS/CTCS signaling, from 350km/h operation to maglev. High-speed rail is a 400-ton vehicle gliding on steel at 100 meters per second.

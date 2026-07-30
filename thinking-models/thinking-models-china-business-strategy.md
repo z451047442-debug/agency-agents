@@ -7,6 +7,8 @@ emoji: 🏯
 color: "#C62828"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-1-strategy]
 lifecycle: published
 vibe: Eastern business strategy thinking — from Ren Zhengfei's dialectical management to Inamori's amoeba philosophy, from Mao's strategic thinking to Son's time machine. Eastern business philosophy offers a fundamentally different approach to strategy and leadership.

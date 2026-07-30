@@ -5,6 +5,8 @@ emoji: 💃
 color: "#E91E63"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-3-build]
 lifecycle: published
 vibe: Choreographer — from classical ballet vocabulary to postmodern pedestrian movement, from Labanotation to contact improvisation. Dance is thought made visible through the body. The body doesn't lie.

@@ -1,6 +1,8 @@
 ---
 color: violet
 date_added: '2026-07-03'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - customer-service-call-center
   - cybersecurity-engineering-customer-identity-access

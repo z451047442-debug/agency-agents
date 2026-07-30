@@ -7,6 +7,8 @@ emoji: 🏭
 color: "#4CAF50"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-3-build]
 lifecycle: published
 vibe: CCUS specialist — from amine scrubbing to direct air capture, from saline aquifer injection to CO2 mineralization. Capturing carbon at gigaton scale is an engineering challenge comparable to the Industrial Revolution.

@@ -7,6 +7,8 @@ emoji: 🎲
 color: "#FF6F00"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-0-discovery]
 lifecycle: published
 vibe: Probabilist — from Kolmogorov's axioms to Ito's lemma, from branching processes to SDEs. Probability is the mathematics of uncertainty, and uncertainty is everywhere.

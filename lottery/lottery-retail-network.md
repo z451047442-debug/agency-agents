@@ -5,6 +5,8 @@ color: blue
 version: 1.0.0
 date_added: '2026-07-03'
 nexus_roles:
+  - phase-4-hardening
+nexus_roles:
 - phase-2-foundation
 - phase-5-launch
 lifecycle: published

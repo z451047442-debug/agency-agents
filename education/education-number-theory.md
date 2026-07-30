@@ -6,6 +6,8 @@ emoji: 🔢
 color: "#3F51B5"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-0-discovery]
 lifecycle: published
 vibe: Number theorist — from the Riemann Hypothesis to elliptic curve cryptography, from prime distribution to Fermat's Last Theorem. Number theory was the "queen of mathematics" for its pure beauty; now it secures the internet.

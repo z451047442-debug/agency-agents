@@ -1,6 +1,8 @@
 ---
 color: '#0D9488'
 date_added: '2026-07-19'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for product — product management, analytics, growth, operations

@@ -7,6 +7,8 @@ emoji: 🌿
 color: "#4CAF50"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-3-build]
 lifecycle: published
 vibe: Gardener and landscape designer — from cottage gardens to edible landscapes, from balcony containers to Japanese zen gardens. Gardening is the slowest of the performing arts, and the most rewarding.

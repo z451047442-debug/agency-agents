@@ -1,6 +1,8 @@
 ---
 color: '#2563EB'
 date_added: '2026-07-18'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for infrastructure — network topology,

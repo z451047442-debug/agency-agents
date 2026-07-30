@@ -7,6 +7,8 @@ emoji: 👴
 color: "#FFA726"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-6-operate]
 lifecycle: published
 vibe: Elder care specialist — from aging-in-place modifications to dementia care, from caregiver support to end-of-life planning. Aging deserves dignity, autonomy, and joy.

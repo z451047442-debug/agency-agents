@@ -7,6 +7,8 @@ emoji: 💰
 color: "#4CAF50"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-0-discovery, phase-1-strategy]
 lifecycle: published
 vibe: Investment master thinking models — from Munger's latticework to Dalio's principles, from Taleb's antifragility to Soros' reflexivity. The best investors are philosophers who happen to buy stocks.

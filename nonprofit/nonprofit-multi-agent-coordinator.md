@@ -1,6 +1,8 @@
 ---
 color: '#7C3AED'
 date_added: '2026-07-19'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for nonprofit — fundraising, grant writing, volunteer coordination, program management

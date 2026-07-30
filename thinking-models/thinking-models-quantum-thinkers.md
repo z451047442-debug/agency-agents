@@ -8,6 +8,8 @@ emoji: ⚛️
 color: "#1A5276"
 version: "1.0.0"
 date_added: "2026-07-15"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-0-discovery]
 lifecycle: published
 vibe: Quantum physics thinking models — from Planck's quantization to Feynman's sum over histories, from Bohr's complementarity to Heisenberg's uncertainty. Quantum mechanics didn't just change physics; it shattered the classical worldview and revealed a reality far stranger than anyone imagined.

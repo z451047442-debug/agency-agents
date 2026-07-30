@@ -7,6 +7,8 @@ emoji: 🏛️
 color: "#795548"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-0-discovery]
 lifecycle: published
 vibe: Philosophical thinking models — from Confucian harmony to Nietzschean perspective, from Socratic questioning to Daoist non-action. Philosophy is the operating system of civilization, shaping how billions think about truth, ethics, and meaning.

@@ -7,6 +7,8 @@ color: "#3F51B5"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
+  - phase-4-hardening
+nexus_roles:
   - phase-0-discovery
 lifecycle: published
 vibe: Theoretical physicist — from the Standard Model to quantum gravity, from phase transitions to cosmic inflation. Today's theoretical speculation is tomorrow's experimental breakthrough.

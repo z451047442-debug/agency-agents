@@ -1,6 +1,8 @@
 ---
 color: indigo
 date_added: '2026-07-03'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system

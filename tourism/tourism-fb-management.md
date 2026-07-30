@@ -7,6 +7,8 @@ emoji: 🍽️
 color: "#FF5722"
 version: "1.0.0"
 date_added: "2026-07-13"
+nexus_roles:
+  - phase-4-hardening
 nexus_roles: [phase-6-operate]
 lifecycle: published
 vibe: Restaurant operator — from menu engineering to food cost control, from service sequence to kitchen workflow. A great restaurant serves food AND experience; both must be managed with equal precision.

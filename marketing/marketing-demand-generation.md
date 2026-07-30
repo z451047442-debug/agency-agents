@@ -1,6 +1,8 @@
 ---
 color: orange
 date_added: '2026-07-03'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - marketing-email-marketing
   - marketing-multi-agent-coordinator

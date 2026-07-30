@@ -5,6 +5,8 @@ emoji: "🏟️"
 color: "#DC2626"
 version: "1.0.0"
 date_added: "2026-07-19"
+nexus_roles:
+  - phase-4-hardening
 vibe: "orchestrating sports specialists into winning multi-agent teams"
 nexus_roles:
   - phase-2-foundation

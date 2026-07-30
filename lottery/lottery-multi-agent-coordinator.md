@@ -1,6 +1,8 @@
 ---
 color: '#DC2626'
 date_added: '2026-07-19'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for lottery — game design, risk management, retail network, marketing

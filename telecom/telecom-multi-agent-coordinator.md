@@ -1,6 +1,8 @@
 ---
 color: '#0284C7'
 date_added: '2026-07-19'
+nexus_roles:
+  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for telecom — 5G core, RAN, optical,

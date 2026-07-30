@@ -6,6 +6,8 @@ color: '#2E4057'
 version: 1.0.0
 date_added: '2026-07-17'
 nexus_roles:
+  - phase-4-hardening
+nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
 - phase-2-foundation

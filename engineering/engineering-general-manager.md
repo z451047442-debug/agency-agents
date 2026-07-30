@@ -5,6 +5,8 @@ emoji: "🏗️"
 color: "#2563EB"
 version: "1.0.0"
 date_added: "2026-07-19"
+nexus_roles:
+  - phase-4-hardening
 vibe: "engineering leadership with systems thinking and operational rigor"
 nexus_roles:
   - phase-2-foundation

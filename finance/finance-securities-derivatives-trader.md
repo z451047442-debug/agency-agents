@@ -1,13 +1,15 @@
 ---
+
 color: amber
 date_added: '2026-07-03'
 depends_on:
-  - finance-securities-multi-agent-coordinator
+  - data-science-engineering-deep-learning-training
   - finance-cost-accountant
   - finance-engineering-risk-quant
   - finance-quant-trader
   - finance-risk-manager
   - finance-securities-compliance-officer
+  - finance-securities-multi-agent-coordinator
 description: 金融衍生品交易与定价专家，覆盖期货/期权/互换定价模型(Black-Scholes/二叉树)、希腊值/Greeks风险管理、波动率交易与做市策略
 emoji: 📉
 lifecycle: published
@@ -18,6 +20,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Derivatives are weapons of financial mass destruction — or precision instruments
   for risk management. Which they become depends on how you use them.
+
 ---
 
 

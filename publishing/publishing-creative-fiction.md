@@ -1,4 +1,5 @@
 ---
+
 name: 文学小说创作专家
 description: 小说结构设计、人物塑造、叙事视角与声音、对话写作、场景构建、类型小说与写作工坊专家
 emoji: 📝
@@ -10,6 +11,11 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 vibe: Fiction writer — from three-act structure to stream of consciousness, from unreliable narrators to ensemble casts. Storytelling is the oldest human technology; mastering it means understanding both craft and the human heart.
+
+depends_on:
+  - marketing-paid-media-search-query-analyst
+  - operations-report-distribution-agent
+  - project-management-jira-workflow-steward
 ---
 
 

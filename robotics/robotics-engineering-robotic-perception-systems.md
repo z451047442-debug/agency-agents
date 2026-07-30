@@ -1,11 +1,15 @@
 ---
+
 name: Robotic Perception Systems
 color: cyan
 date_added: '2026-07-03'
 depends_on:
-  - robotics-multi-agent-coordinator
+  - data-science-engineering-computer-vision-3d
+  - data-science-engineering-computer-vision-deep
+  - data-science-engineering-deep-learning-training
   - robotics-automation-engineer
   - robotics-engineering-robotics-manipulation
+  - robotics-multi-agent-coordinator
 description: 移动机器人环境感知与导航系统专家，覆盖LiDAR/相机/毫米波雷达融合感知、占据栅格地图/ BEV感知、路径规划(A*/RRT/Lattice)与自主导航定位
 emoji: 🤖
 lifecycle: published
@@ -15,6 +19,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Autonomous robots need to see and understand their world — you build the perception
   and planning stack that lets them navigate safely through complex environments
+
 
 
 

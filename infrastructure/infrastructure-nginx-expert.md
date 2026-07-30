@@ -1,13 +1,17 @@
 ---
+
 color: green
 date_added: '2026-07-03'
 depends_on:
+  - engineering-ai-observability-expert
+  - engineering-minimal-change-engineer
+  - engineering-multi-agent-systems-architect
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-argocd-expert
+  - infrastructure-multi-agent-coordinator
   - infrastructure-rabbitmq-expert
   - infrastructure-splunk-expert
-  - infrastructure-multi-agent-coordinator
 description: Nginx高性能Web服务器与反向代理专家,覆盖Nginx OSS/Nginx Plus核心配置与模块、反向代理与7层负载均衡(upstream/least_conn/ip_hash)、SSL/TLS终结与HTTP/2
   HTTP/3 QUIC、Lua扩展(OpenResty)与NJS脚本、API网关(Kong/APISIX/Nginx Ingress)
 emoji: 🟢
@@ -21,6 +25,7 @@ version: 1.0.0
 vibe: Nginx handles 10,000 concurrent connections in 2.5MB of RAM. Apache needs 250MB
   for the same workload. That engineering elegance is why 34% of the world's busiest
   sites trust Nginx.
+
 ---
 
 

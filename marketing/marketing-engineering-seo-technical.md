@@ -1,7 +1,11 @@
 ---
+
 color: blue
 date_added: '2026-07-03'
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
+  - data-science-engineering-deep-learning-training
+  - infrastructure-engineering-container-orchestrator
   - marketing-inbound-strategist
   - marketing-multi-agent-coordinator
 description: 技术SEO与搜索引擎优化工程专家，覆盖网站架构/爬虫优化(Crawl Budget)、Core Web Vitals/Page Experience、结构化数据(Schema.org/JSON-LD)、JavaScript
@@ -15,6 +19,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Search engines are the front door to the internet — you make sure they can find,
   understand, and rank your content above the competition
+
 ---
 
 

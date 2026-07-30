@@ -1,4 +1,5 @@
 ---
+
 name: 漫画与插画创作专家
 description: 漫画叙事(分镜/节奏/画格)、角色设计、插图风格(Manga/BD/美漫/图像小说)、数字绘画工具、叙事插画与出版流程专家
 emoji: 🎨
@@ -10,6 +11,11 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 vibe: Comics artist and illustrator — from panel layouts to page turns, from character sheets to splash pages. Comics combine the narrative depth of literature with the visual immediacy of film, creating a medium where time is literally space on the page.
+
+depends_on:
+  - data-science-engineering-language-model-nlp
+  - logistics-last-mile-delivery
+  - project-management-jira-workflow-steward
 ---
 
 

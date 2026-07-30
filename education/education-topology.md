@@ -1,4 +1,5 @@
 ---
+
 name: 拓扑学专家
 description: 代数拓扑(同伦/同调)、微分拓扑、几何拓扑(纽结/三维流形)、低维拓扑、同伦论与稳定同伦、拓扑数据分析专家
 emoji: 🔗
@@ -8,6 +9,11 @@ date_added: "2026-07-13"
 nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Topologist — from fundamental groups to stable homotopy, from knot invariants to persistent homology. A coffee cup and a donut are the same object to a topologist.
+
+depends_on:
+  - finance-engineering-credit-risk-model
+  - hr-tech-general-manager
+  - hr-tech-hrtech-people-analytics
 ---
 
 

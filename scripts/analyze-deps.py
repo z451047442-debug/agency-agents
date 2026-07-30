@@ -732,6 +732,8 @@ def main():
                         help="Minimum confidence for suggestions (default: 0.5)")
     parser.add_argument("--apply", action="store_true",
                         help="Write suggested cross-category deps to agent files")
+    parser.add_argument("--no-cross-category-only", action="store_true",
+                        help="Only apply deps to agents with no cross-category depends_on")
     parser.add_argument("--cycles", action="store_true",
                         help="Detect dependency cycles in the graph")
     parser.add_argument("--json", action="store_true",
@@ -807,8 +809,28 @@ def main():
         suggestions = suggest_dependencies(all_agents, term_index,
                                            min_confidence=args.min_confidence)
         applied = 0
+
+        # When --no-cross-category-only is set, pre-scan to find agents with
+        # zero cross-category depends_on, so we only apply to those.
+        if args.no_cross_category_only:
+            agents_to_fix = set()
+            for _cat, _rel, fp in discover_agents(category_filter=args.category):
+                aid = fp.stem
+                content = fp.read_text(encoding="utf-8")
+                fm = get_frontmatter_text(content)
+                deps = get_list_field("depends_on", fm)
+                agent_cat = all_agents[aid]["category"] if aid in all_agents else _cat
+                has_cross = any(
+                    all_agents[d]["category"] != agent_cat
+                    for d in deps if d in all_agents
+                )
+                if not has_cross:
+                    agents_to_fix.add(aid)
+
         for _cat, _rel, filepath in discover_agents(category_filter=args.category):
             agent_id = filepath.stem
+            if args.no_cross_category_only and agent_id not in agents_to_fix:
+                continue
             if agent_id not in suggestions:
                 continue
             deps = suggestions[agent_id]

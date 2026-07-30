@@ -1,10 +1,14 @@
 ---
+
 color: navy
 date_added: '2026-07-03'
 depends_on:
-  - infrastructure-datadog-expert
+  - data-science-engineering-deep-learning-training
+  - engineering-container-orchestration
+  - engineering-multi-agent-systems-architect
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
+  - infrastructure-datadog-expert
   - infrastructure-multi-agent-coordinator
 description: 企业IT基础设施最高负责人，覆盖数据中心/服务器/网络/存储全栈规划、IT运维团队管理、基础设施预算/ROI、云策略与数字化转型
 emoji: 🖥️
@@ -17,6 +21,7 @@ nexus_roles:
 version: 1.0.0
 vibe: When the CEO's email is down, nobody cares about strategy. You keep everything
   running while building the future.
+
 ---
 
 

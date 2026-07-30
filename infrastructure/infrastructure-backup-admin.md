@@ -1,11 +1,14 @@
 ---
+
 color: blue
 date_added: '2026-07-03'
 depends_on:
-  - infrastructure-storage-backup
+  - data-science-engineering-deep-learning-training
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-multi-agent-coordinator
+  - infrastructure-storage-backup
+  - project-management-jira-workflow-steward
 description: 企业数据备份与灾难恢复专家，覆盖Veeam/Commvault/Veritas备份方案、磁带/磁盘/云分层备份策略、RPO/RTO合规与恢复演练
 emoji: 💾
 lifecycle: published
@@ -17,6 +20,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Nobody cares about backups until they need them — and then it's the only thing
   that matters. You make sure the data is there when everything else fails.
+
 ---
 
 

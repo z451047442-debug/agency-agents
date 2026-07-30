@@ -1,7 +1,11 @@
 ---
+
 color: cyan
 date_added: '2026-07-03'
 depends_on:
+  - data-science-engineering-deep-learning-training
+  - engineering-build-release-engineer
+  - engineering-container-orchestration
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-multi-agent-coordinator
@@ -17,6 +21,7 @@ version: 1.0.0
 vibe: Your system is a black box until you instrument it. You architect the observability
   platform that turns "I think the problem is..." into "the problem is at line 342
   in service X."
+
 ---
 
 

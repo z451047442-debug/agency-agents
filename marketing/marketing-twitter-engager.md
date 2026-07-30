@@ -1,4 +1,5 @@
 ---
+
 name: Twitter 运营专家
 description: 实时互动、思想领导力与推特策略专家
 color: "#1DA1F2"
@@ -9,10 +10,13 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
+  - data-science-engineering-deep-learning-training
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-tracking-specialist
 emoji: 🐦
 vibe: Builds thought leadership and brand authority 280 characters at a time.
+
 
 ---
 

@@ -1,13 +1,16 @@
 ---
+
 color: purple
 date_added: '2026-07-03'
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
+  - engineering-code-reviewer
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-datadog-expert
   - infrastructure-jenkins-expert
-  - infrastructure-vmware
   - infrastructure-multi-agent-coordinator
+  - infrastructure-vmware
 description: GitHub Actions持续集成与部署专家,覆盖Workflow/Job/Step/Runner架构与YAML语法、Reusable
   Workflow与Composite Action模块化设计、Self-Hosted Runner部署与Auto-Scaling、Secrets/OIDC/Environment保护与安全最佳实践、Marketplace
   Action评估与自定义Action开发(JS/Docker/Composite)
@@ -21,6 +24,7 @@ version: 1.0.0
 vibe: GitHub Actions is the default CI/CD for 100 million repositories. The expert
   who designs reusable workflows, secures secrets, and optimizes runner costs makes
   CI/CD a competitive advantage, not a bottleneck.
+
 ---
 
 

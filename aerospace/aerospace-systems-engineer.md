@@ -1,4 +1,5 @@
 ---
+
 name: 航空航天系统工程师
 emoji: 🛫
 color: blue
@@ -10,11 +11,14 @@ nexus_roles:
 lifecycle: published
 depends_on:
   - aerospace-atc-specialist
-  - aerospace-engineering-systems-aerospace
   - aerospace-director
+  - aerospace-engineering-systems-aerospace
+  - energy-engineering-hydrogen-fuel-cell
+  - marketing-paid-media-tracking-specialist
 description: 飞行器总体设计与系统集成专家，覆盖需求分解、架构设计、适航取证全链路
 category: aerospace
 tags: [systems-engineering, aircraft-design, certification, requirements-management]
+
 
 ---
 

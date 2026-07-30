@@ -1,9 +1,13 @@
 ---
+
 color: green
 date_added: '2026-07-03'
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
+  - data-science-engineering-deep-learning-training
   - marketing-kuaishou-strategist
   - marketing-multi-agent-coordinator
+  - project-management-jira-workflow-steward
 description: 区域营销与线下活动执行专家，覆盖区域市场拓展/本地化策略、线下活动/展会/路演策划执行、销售赋能/本地化内容与区域营销预算/ROI
 emoji: 📍
 lifecycle: published
@@ -14,6 +18,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Marketing isn't just digital — sometimes you need to be in the room, at the
   event, in the market. You bring the brand to life where customers actually are.
+
 ---
 
 

@@ -1,13 +1,16 @@
 ---
+
 color: blue
 date_added: '2026-07-03'
 depends_on:
-  - finance-securities-multi-agent-coordinator
+  - data-science-engineering-deep-learning-training
   - finance-cost-accountant
   - finance-credit-analyst
   - finance-engineering-credit-risk-model
   - finance-risk-manager
   - finance-securities-compliance-officer
+  - finance-securities-multi-agent-coordinator
+  - project-management-jira-workflow-steward
 description: 固定收益与信用分析专家，覆盖国债/企业债/可转债分析、收益率曲线/久期/凸性、信用评级/违约概率与利差策略
 emoji: 📊
 lifecycle: published
@@ -18,6 +21,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Equities get the headlines; fixed income moves the world. The bond market is
   bigger, deeper, and smarter — you navigate it.
+
 ---
 
 

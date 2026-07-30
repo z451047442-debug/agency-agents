@@ -1,10 +1,14 @@
 ---
+
 color: violet
 date_added: '2026-07-03'
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
+  - data-science-engineering-deep-learning-training
   - marketing-bilibili-content-strategist
   - marketing-kuaishou-strategist
   - marketing-multi-agent-coordinator
+  - project-management-jira-workflow-steward
 description: 在线社群与用户社区运营专家，覆盖Discord/Slack/微信群/论坛社区运营、用户激励/UGC体系、社群活动/KOL培养与社群健康度量
 emoji: 👥
 lifecycle: published
@@ -15,6 +19,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A community isn't an audience — it's a group of people who care about each other
   and your brand. You nurture the connections that turn users into advocates.
+
 ---
 
 

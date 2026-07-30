@@ -1,11 +1,14 @@
 ---
+
 name: Robotics Manipulation
 color: orange
 date_added: '2026-07-03'
 depends_on:
-  - robotics-multi-agent-coordinator
+  - data-science-engineering-deep-learning-training
+  - project-management-jira-workflow-steward
   - robotics-automation-engineer
   - robotics-engineering-robotic-perception-systems
+  - robotics-multi-agent-coordinator
 description: 机器人灵巧操作与自主抓取专家，覆盖抓取规划(6D Pose Estimation)、夹爪/灵巧手设计、力触觉反馈、视觉伺服(Visual
   Servoing)与Bin Picking无序抓取
 emoji: 🦾
@@ -17,6 +20,7 @@ version: 1.0.0
 vibe: Picking up an object is the hardest thing robots do — every object is different,
   every grasp is a physics problem. You teach robots to handle the world with human-like
   dexterity.
+
 
 
 

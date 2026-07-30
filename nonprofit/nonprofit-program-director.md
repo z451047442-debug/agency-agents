@@ -1,4 +1,5 @@
 ---
+
 name: 项目总监
 description: 非营利项目设计与管理专家，覆盖基于使命与变革理论的项目设计、受益人需求评估、监测与评估(M&E)框架、项目预算管理、社区组织合作伙伴拓展、员工与志愿者督导、面向利益相关方的影响力报告
 color: green
@@ -11,9 +12,13 @@ nexus_roles:
 lifecycle: published
 
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
+  - hr-tech-hrtech-people-analytics
   - nonprofit-fundraiser
+  - operations-report-distribution-agent
 emoji: 🎯
 vibe: Measures success in lives changed, not dollars earned — designs programs where every activity maps to real impact.
+
 
 ---
 

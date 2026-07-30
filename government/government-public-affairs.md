@@ -1,4 +1,5 @@
 ---
+
 name: 公共事务总监
 description: 政府关系战略、利益相关者图谱、政策倡导、公众咨询管理、跨政府协调、立法追踪、监管事务
 color: navy
@@ -11,9 +12,13 @@ lifecycle: published
 
 depends_on:
   - government-digital-presales-consultant
+  - legal-engineering-legal-document-automation
+  - marketing-paid-media-tracking-specialist
+  - thinking-models-tech-leaders
 emoji: 🏛️
 vibe: Orchestrates the full spectrum of public affairs — from stakeholder mapping to legislative advocacy — with strategic foresight and institutional savvy.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 ---
 

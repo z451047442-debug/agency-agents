@@ -1,4 +1,5 @@
 ---
+
 name: Reddit 社区运营
 description: 真实互动、价值内容与 Reddit 营销专家
 color: "#FF4500"
@@ -9,11 +10,14 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 depends_on:
-  - marketing-brand-strategist
+  - cybersecurity-engineering-customer-identity-access
+  - data-science-engineering-deep-learning-training
   - marketing-abm-account-based
+  - marketing-brand-strategist
   - marketing-content-strategist
 emoji: 💬
 vibe: Speaks fluent Reddit and builds community trust the authentic way.
+
 
 ---
 

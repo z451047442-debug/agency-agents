@@ -1,4 +1,5 @@
 ---
+
 name: 戏剧导演与舞台设计专家
 description: 戏剧导演方法论(Stanislavski/Meisner/Brecht/Grotowski)、舞台美术与布景、灯光与音响设计、剧本分析与排演管理、实验剧场与沉浸式戏剧、歌剧与音乐剧导演专家
 emoji: 🎭
@@ -8,6 +9,10 @@ date_added: "2026-07-13"
 nexus_roles: [phase-3-build, phase-5-launch, phase-4-hardening]
 lifecycle: published
 vibe: "Theater director — from Stanislavski's system to Brechtian alienation, from blocking to lighting design. Theater is the most human art form: live bodies in shared space, creating something that exists only in the moment."
+
+depends_on:
+  - data-science-engineering-reinforcement-learning
+  - project-management-jira-workflow-steward
 ---
 
 

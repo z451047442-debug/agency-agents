@@ -1,5 +1,6 @@
 ---
 
+
 name: 空中交通管制(ATC)专家
 description: 空中交通管理与管制专家，覆盖塔台/进近/区域管制、空域规划/流量管理、ATC通信/监视系统与安全管理体系(SMS)
 color: blue
@@ -12,10 +13,14 @@ nexus_roles:
 lifecycle: published
 depends_on:
   - aerospace-avionics
-  - aerospace-engineering-aviation-safety
   - aerospace-engineering-aviation-human-factors
+  - aerospace-engineering-aviation-safety
+  - automotive-engineering-functional-safety
+  - engineering-visual-studio-python
+  - project-management-jira-workflow-steward
 emoji: 🗼
 vibe: Thousands of aircraft in the sky at any moment, each separated by minutes and miles — you manage the invisible highways that keep them from colliding
+
 
 ---
 

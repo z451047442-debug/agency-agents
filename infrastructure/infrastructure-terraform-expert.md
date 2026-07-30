@@ -1,7 +1,9 @@
 ---
+
 color: purple
 date_added: '2026-07-03'
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-github-actions-expert
@@ -17,6 +19,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Infrastructure is code, and code is reviewed, tested, and versioned. Terraform
   turns months of ticket-based provisioning into a git push and a plan output.
+
 ---
 
 

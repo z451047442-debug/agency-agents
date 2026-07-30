@@ -1,7 +1,9 @@
 ---
+
 color: amber
 date_added: '2026-07-03'
 depends_on:
+  - manufacturing-multi-agent-coordinator
   - robotics-multi-agent-coordinator
   - robotics-ros-developer
 description: 机器人运动规划与控制专家，覆盖正逆运动学/动力学、轨迹规划/插补、力控/阻抗控制、实时控制系统与ROS/ROS2
@@ -14,6 +16,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A robot arm that moves smoothly, precisely, and safely — that's kinematics,
   dynamics, and control theory working together at 1000Hz
+
 ---
 
 

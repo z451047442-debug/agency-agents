@@ -1,7 +1,11 @@
 ---
+
 color: blue
 date_added: '2026-07-03'
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
+  - data-science-engineering-deep-learning-training
+  - engineering-standards-compliance
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-multi-agent-coordinator
@@ -16,6 +20,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The data center network carries the traffic that runs the internet. You design
   the fabric that connects 100,000 servers at terabits per second.
+
 ---
 
 

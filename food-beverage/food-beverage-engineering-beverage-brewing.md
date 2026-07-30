@@ -1,9 +1,12 @@
 ---
+
 color: amber
 date_added: '2026-07-03'
 depends_on:
+  - data-science-engineering-deep-learning-training
   - food-beverage-beverage-rd
   - food-beverage-multi-agent-coordinator
+  - quality-food-safety
 description: 啤酒/葡萄酒/烈酒酿造与饮料微生物发酵专家，覆盖麦芽/糖化/发酵/成熟工艺控制、酵母/酶/微生物管理、无菌灌装(CIP/SIP)/包装与风味化学/感官品控
 emoji: 🍺
 lifecycle: published
@@ -15,6 +18,7 @@ version: 1.0.0
 vibe: Beer is 95% water — the other 5% is the result of 7,000 years of biochemical
   engineering. You control the enzymes, yeast, and hops that turn grain into the world's
   favorite drink.
+
 ---
 
 

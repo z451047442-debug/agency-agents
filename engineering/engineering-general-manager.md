@@ -1,4 +1,5 @@
 ---
+
 name: "Engineering General Manager"
 description: "Engineering department general manager — strategic leadership across software, infrastructure, and operations"
 emoji: "🏗️"
@@ -12,6 +13,10 @@ nexus_roles:
   - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
+  - infrastructure-github-actions-expert
+  - project-management-jira-workflow-steward
+  - testing-engineering-test-automation-framework
+
 ---
 
 

@@ -1,7 +1,11 @@
 ---
+
 color: blue
 date_added: '2026-07-03'
 depends_on:
+  - cybersecurity-engineering-customer-identity-access
+  - data-science-engineering-deep-learning-training
+  - finance-engineering-credit-risk-model
   - marketing-abm-account-based
   - marketing-multi-agent-coordinator
 description: 移动推送与消息触达策略专家，覆盖App Push/短信/微信模板消息/应用内消息、用户分群/触发策略、A/B消息测试与送达率优化
@@ -14,6 +18,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The notification that annoys gets muted; the notification that helps gets tapped.
   You design messages that users welcome, not dread.
+
 ---
 
 

@@ -1,14 +1,18 @@
 ---
+
 color: navy
 date_added: '2026-07-03'
 depends_on:
-  - infrastructure-network-engineering-multi-agent-coordinator
+  - data-science-engineering-deep-learning-training
+  - engineering-standards-compliance
   - infrastructure-cloud-cost-optimization
   - infrastructure-engineering-edge-computing
   - infrastructure-engineering-incident-commander
   - infrastructure-identity-access
   - infrastructure-network-engineering-architect
   - infrastructure-network-engineering-automation
+  - infrastructure-network-engineering-multi-agent-coordinator
+  - iot-multi-agent-coordinator
 description: 企业/运营商网络部门最高负责人，覆盖网络架构/运营策略、团队/预算管理、供应商/技术选型与服务可用性保障
 emoji: 🌐
 lifecycle: published
@@ -21,6 +25,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The network is the foundation everything else depends on — invisible when it
   works, the only thing that matters when it doesn't.
+
 ---
 
 

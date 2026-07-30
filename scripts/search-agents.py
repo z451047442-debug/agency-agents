@@ -27,6 +27,9 @@ from _shared import BOLD, CYAN, REPO, RESET
 
 INDEX_PATH = REPO / "AGENTS.json"
 
+TAG_MATCH_BONUS = 2.0
+KEYWORD_MATCH_BONUS = 1.5
+
 if sys.stdout.encoding != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
 
@@ -79,7 +82,24 @@ def search_agents(data, query=None, category=None, field=None, regex=False):
             # All query words must match (AND search)
             words = query_lower.split()
             if all(w in haystack for w in words):
-                results.append(agent)
+                # Compute relevance score with tag/keyword bonuses
+                score = 10.0 * len(words)
+                tags = agent.get("tags") or []
+                if isinstance(tags, list):
+                    for tag in tags:
+                        if isinstance(tag, str) and tag.lower() in words:
+                            score += TAG_MATCH_BONUS
+                keywords = agent.get("keywords") or []
+                if isinstance(keywords, list):
+                    for kw in keywords:
+                        if isinstance(kw, str) and any(w in kw.lower() for w in words):
+                            score += KEYWORD_MATCH_BONUS
+                results.append((score, agent))
+
+    # Sort scored results by descending score, then extract agent dicts
+    if results and isinstance(results[0], tuple):
+        results.sort(key=lambda x: -x[0])
+        results = [a for _, a in results]
 
     return results
 

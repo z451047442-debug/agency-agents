@@ -362,6 +362,50 @@ class TestLintFileDependsOn:
         assert len(dep_infos) == 0
 
 
+class TestLintFileNewOptionalFields:
+    """Tests for new optional frontmatter fields (tags, keywords, complexity, estimated_duration)."""
+
+    def test_new_optional_fields_accepted(self, tmp_path):
+        """tags, keywords, complexity, estimated_duration should not cause errors or warnings."""
+        content = (
+            "---\nname: Test\ndescription: A test agent\nemoji: \U0001f3af\ncolor: blue\n"
+            "tags:\n  - cloud\n  - security\nkeywords:\n  - test\n"
+            "complexity: medium\nestimated_duration: 2-4h\n"
+            "---\n## Identity\nI am a test.\n\n## Mission\nI test things.\n\n"
+            "## Rules\nBe thorough.\n"
+            "## Deliverables\nStuff.\n## Workflow\nSteps.\n## Success Metrics\nGoals.\n"
+        )
+        filepath = make_agent_file(tmp_path, content)
+        errors, warnings, infos = [], [], []
+        lint_agents.lint_file(filepath, errors, warnings, infos)
+        assert len(errors) == 0
+        field_warnings = [
+            w for w in warnings
+            if "complexity" in w or "estimated_duration" in w
+        ]
+        assert len(field_warnings) == 0
+
+    def test_invalid_complexity_warns(self, tmp_path):
+        """complexity value other than low/medium/high should warn."""
+        content = SAMPLE_AGENT_CONTENT.replace(
+            "color: teal", "color: teal\ncomplexity: extreme\n"
+        )
+        filepath = make_agent_file(tmp_path, content)
+        errors, warnings, infos = [], [], []
+        lint_file(filepath, errors, warnings, infos)
+        assert any("complexity" in w and "extreme" in w for w in warnings)
+
+    def test_empty_estimated_duration_warns(self, tmp_path):
+        """estimated_duration present but empty should warn."""
+        content = SAMPLE_AGENT_CONTENT.replace(
+            "color: teal", "color: teal\nestimated_duration:\n"
+        )
+        filepath = make_agent_file(tmp_path, content)
+        errors, warnings, infos = [], [], []
+        lint_file(filepath, errors, warnings, infos)
+        assert any("estimated_duration" in w and "empty" in w for w in warnings)
+
+
 class TestLintFileSoulAgentsHeaders:
     def test_missing_soul_headers(self, tmp_path):
         # Content with no Identity/Rules-style headers (all headers are AGENTS.md)

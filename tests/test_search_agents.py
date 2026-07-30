@@ -85,6 +85,71 @@ class TestSearchAgents:
         results = search_agents(MOCK_DATA, query="backend-dev")
         assert len(results) == 1
 
+    def test_tag_boost(self):
+        """Agents with matching tags should rank higher than those without."""
+        data = {
+            "agents": [
+                {"id": "agent-a", "name": "Infra Engineer",
+                 "description": "Manages cloud infrastructure",
+                 "category": "engineering", "tags": ["cloud"]},
+                {"id": "agent-b", "name": "Cloud Architect",
+                 "description": "Designs enterprise systems",
+                 "category": "engineering", "tags": []},
+            ]
+        }
+        results = search_agents(data, query="cloud")
+        assert len(results) == 2
+        # Agent-a has the "cloud" tag, so it should rank first
+        assert results[0]["id"] == "agent-a"
+        assert results[1]["id"] == "agent-b"
+
+    def test_keyword_boost(self):
+        """Agents with matching keywords should rank higher."""
+        data = {
+            "agents": [
+                {"id": "agent-x", "name": "Security Expert",
+                 "description": "Handles security audits and reviews",
+                 "category": "engineering", "keywords": ["security audit"]},
+                {"id": "agent-y", "name": "Security Guard",
+                 "description": "General security monitoring duties",
+                 "category": "engineering", "keywords": []},
+            ]
+        }
+        results = search_agents(data, query="security")
+        assert len(results) == 2
+        # Agent-x has "security" (via partial match of "security audit" keyword), so ranks first
+        assert results[0]["id"] == "agent-x"
+        assert results[1]["id"] == "agent-y"
+
+    def test_tag_boost_resilient_to_missing_field(self):
+        """Agents without tags or keywords fields should not crash scoring."""
+        data = {
+            "agents": [
+                {"id": "agent-a", "name": "Cloud Expert",
+                 "description": "Works with the cloud",
+                 "category": "engineering"},
+                {"id": "agent-b", "name": "DevOps Expert",
+                 "description": "Handles deployment",
+                 "category": "engineering"},
+            ]
+        }
+        results = search_agents(data, query="cloud")
+        assert len(results) == 1
+        assert results[0]["id"] == "agent-a"
+
+    def test_tag_boost_without_query_no_effect(self):
+        """When no query, tag/keyword fields do not affect results."""
+        data = {
+            "agents": [
+                {"id": "a", "name": "A", "description": "Desc A",
+                 "category": "engineering", "tags": ["cloud"]},
+                {"id": "b", "name": "B", "description": "Desc B",
+                 "category": "engineering"},
+            ]
+        }
+        results = search_agents(data)  # no query
+        assert len(results) == 2
+
 
 # ── print_stats ──────────────────────────────────────────────────────────────
 

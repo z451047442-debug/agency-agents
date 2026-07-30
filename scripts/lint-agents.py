@@ -325,7 +325,20 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
     if (depends_on or dep_raw) and not depends_on:
         infos.append(f"INFO  {rel}: depends_on is present but empty")
 
-    # 8. SOUL/AGENTS header coverage
+    # 8. New optional field validations
+    complexity = get_field("complexity", fm_text)
+    if complexity and complexity.lower() not in ("low", "medium", "high"):
+        warnings.append(
+            f"WARN  {rel}: complexity '{complexity}' should be one of: low, medium, high"
+        )
+
+    has_duration = re.search(r"^estimated_duration:\s*$", fm_text, re.MULTILINE)
+    if has_duration:
+        warnings.append(
+            f"WARN  {rel}: estimated_duration is present but empty"
+        )
+
+    # 9. SOUL/AGENTS header coverage
     soul_count = 0
     agents_count = 0
     for line in body.split("\n"):
@@ -339,7 +352,7 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
     if agents_count == 0:
         warnings.append(f"WARN  {rel}: no AGENTS.md-mapped section headers")
 
-    # 9. Filename prefix consistency
+    # 10. Filename prefix consistency
     category = _category_for_file(filepath)
     filename = filepath.stem
     if not filename.startswith(f"{category}-"):
@@ -347,7 +360,7 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
             f"WARN  {rel}: filename '{filename}' should start with '{category}-'"
         )
 
-    # 10. Broken internal links
+    # 11. Broken internal links
     link_pattern = re.compile(r"\[([^\]]*)\]\(([^)]+\.md(?:#[^)]*)?)\)")
     file_dir = filepath.parent
     for m in link_pattern.finditer(body):
@@ -362,7 +375,7 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
         if not target.exists():
             warnings.append(f"WARN  {rel}: broken link '{url}' -> target not found")
 
-    # 11. Security scan — prompt injection + hidden Unicode detection
+    # 12. Security scan — prompt injection + hidden Unicode detection
     security_findings = scan_security(body, rel)
     for level, msg in security_findings:
         if level == "ERROR":
@@ -372,7 +385,7 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
         else:
             infos.append(msg)
 
-    # 12. Content freshness (> 12 months stale) — uses git
+    # 13. Content freshness (> 12 months stale) — uses git
     if freshness:
         cutoff = date.today() - timedelta(days=365)
         last_mod = git_last_modified(filepath)
@@ -382,7 +395,7 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
                 f"(>12 months ago, may be stale)"
             )
 
-    # 13. Quality signal INFOs — heuristic approximations (cheaper than full scoring).
+    # 14. Quality signal INFOs — heuristic approximations (cheaper than full scoring).
     # 13a. Domain signal density
     _ds_re = re.compile(
         r"\b[A-Z]{2,6}(?:[/\-][A-Z0-9]{2,6})*\b|"

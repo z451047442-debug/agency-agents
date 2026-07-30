@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-vehicle-dynamics
   - automotive-multi-agent-coordinator
@@ -14,6 +12,7 @@ lifecycle: published
 name: 汽车空气动力学/气动声学工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: At highway speeds, most energy goes to pushing air — every 0.01 Cd reduction
   adds 5-10km to an EV's range

@@ -7,9 +7,7 @@ emoji: 🔬
 color: "#2196F3"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery]
+nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Scientific thinking specialist — from Popper's falsification to Feynman's learning technique, from Darwin's evolution to Boyd's OODA loop. Science is not a body of knowledge; it's a method for distinguishing truth from error.
 

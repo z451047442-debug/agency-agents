@@ -6,9 +6,8 @@ color: "#FF5722"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 vibe: Comics artist and illustrator — from panel layouts to page turns, from character sheets to splash pages. Comics combine the narrative depth of literature with the visual immediacy of film, creating a medium where time is literally space on the page.
 ---

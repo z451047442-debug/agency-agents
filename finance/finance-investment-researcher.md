@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-supply-chain
   - finance-multi-agent-coordinator
@@ -14,6 +12,7 @@ lifecycle: published
 name: 投资研究员
 nexus_roles:
 - phase-0-discovery
+- phase-4-hardening
 version: 1.0.0
 vibe: Digs deeper than the consensus — finds alpha in the footnotes and risks in the
   narratives.

@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-supply-chain
   - iot-multi-agent-coordinator
@@ -17,6 +15,7 @@ lifecycle: published
 name: IoT事业部总监
 nexus_roles:
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: IoT promises to connect everything — you're the one who makes the business case,
   builds the product, and delivers the value when "connected" doesn't automatically

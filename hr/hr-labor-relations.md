@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - environmental-engineering-climate-tech
@@ -15,6 +13,7 @@ lifecycle: published
 name: 劳动关系/工会关系专家
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: When management and workers find common ground, the company thrives. You build
   the bridges — through negotiation, communication, and fair process.

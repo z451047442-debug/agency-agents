@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-code-reviewer
   - iot-architect
@@ -14,6 +12,7 @@ lifecycle: published
 name: 嵌入式Linux/Yocto工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Not every Linux device is a server — some are smaller than your thumb. You customize
   the kernel, build the rootfs, and make Linux boot on hardware that barely has enough

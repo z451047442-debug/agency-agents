@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -14,6 +12,7 @@ lifecycle: published
 name: 车辆动力学/底盘调校工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: How a car feels when you turn the wheel — that's not luck, that's vehicle dynamics.
   You tune the springs, dampers, and controllers that make a car handle like a dream.

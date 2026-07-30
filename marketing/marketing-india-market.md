@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
@@ -14,6 +12,7 @@ lifecycle: published
 name: 印度市场专家
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: India is not one market — it's 28 states, 22 official languages, and a mobile-first
   population of 700M+ internet users. You navigate the complexity and find the opportunity.

@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - pharma-biotech-multi-agent-coordinator
   - healthcare-engineering-biostatistics-clinical
@@ -14,6 +12,7 @@ lifecycle: published
 name: 生物统计师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Statistics turns data into evidence — you design the trials and analyze the
   data that determine whether a drug is safe and effective

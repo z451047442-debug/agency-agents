@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -19,6 +17,7 @@ name: RabbitMQ消息队列专家
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Sometimes you don't need a distributed log — you need a message broker that
   just works. RabbitMQ still handles millions of RPC calls and task queues with two

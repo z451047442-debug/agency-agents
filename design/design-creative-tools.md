@@ -8,9 +8,8 @@ color: "#E91E63"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 vibe: Creative tools specialist — vector illustration in CorelDRAW, photo manipulation in GIMP, and UI/UX prototyping in Sketch. The right tool for the right creative task, and the skill to switch between them.
 

@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - administration-contract-manager
   - data-science-engineering-knowledge-management
@@ -20,6 +18,7 @@ lifecycle: published
 name: 差旅管理专家
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Business travel is a multi-million dollar line item that nobody manages until
   someone books a first-class ticket to a meeting that could have been a Zoom call

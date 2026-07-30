@@ -6,9 +6,8 @@ color: '#3F51B5'
 version: 1.0.0
 date_added: '2026-07-13'
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
 - phase-1-strategy
+- phase-4-hardening
 lifecycle: published
 vibe: Tech leader thinking models — from Musk's first principles to Bezos' long-termism.
   These aren't management theories; they're the mental models that built trillion-dollar

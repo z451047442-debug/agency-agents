@@ -1,8 +1,6 @@
 ---
 color: black
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - construction-engineering-structural-fire
   - infrastructure-ansible-expert
@@ -18,6 +16,7 @@ name: Linux系统专家
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The penguin runs the internet — you keep the penguin healthy, from kernel parameters
   to systemd units, from /proc to production

@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -13,6 +11,7 @@ name: 电池材料/电化学科学家
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The next battery revolution starts in a lab — you invent the materials that
   store more energy, charge faster, and last longer

@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -21,6 +19,7 @@ nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Raw data is ore; you refine it into insights. Between the data warehouse and
   the dashboard is the analytics layer that transforms complexity into clarity.

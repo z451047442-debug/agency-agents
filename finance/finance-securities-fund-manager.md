@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - construction-engineering-bridge-structural
   - finance-securities-multi-agent-coordinator
@@ -16,6 +14,7 @@ lifecycle: published
 name: 基金经理
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Investing is not beating others at their game — it's controlling yourself at
   your own game. Discipline, process, and temperament compound faster than any asset

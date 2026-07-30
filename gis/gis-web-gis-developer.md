@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - gis-multi-agent-coordinator
   - engineering-visual-studio-python
@@ -14,6 +12,7 @@ lifecycle: published
 name: Web GIS 开发工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Maps on the web that actually work — fast, responsive, and beautiful.
 ---

@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - robotics-multi-agent-coordinator
   - healthcare-engineering-medical-device-software
@@ -17,6 +15,7 @@ lifecycle: published
 name: 外骨骼/可穿戴机器人工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: An exoskeleton turns a warehouse worker into a superhero and helps a paralyzed
   person walk again — you build the wearable robots that amplify human capability

@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-multi-agent-coordinator
@@ -15,6 +13,7 @@ lifecycle: published
 name: 汽车认证/法规工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A car that can't be certified can't be sold — you navigate the regulatory maze
   across China, Europe, and North America to get vehicles on the road legally

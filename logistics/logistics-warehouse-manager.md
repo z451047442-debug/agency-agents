@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-supply-chain
   - customer-service-complaints
@@ -15,6 +13,7 @@ lifecycle: published
 name: 仓储经理
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Turns chaos into order — every pallet has its place, every pick path its purpose
 ---

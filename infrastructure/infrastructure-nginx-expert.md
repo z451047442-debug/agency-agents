@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -18,6 +16,7 @@ name: Nginx专家
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Nginx handles 10,000 concurrent connections in 2.5MB of RAM. Apache needs 250MB
   for the same workload. That engineering elegance is why 34% of the world's busiest

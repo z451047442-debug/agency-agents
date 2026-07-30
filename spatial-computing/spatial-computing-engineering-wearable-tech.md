@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - energy-engineering-power-electronics
   - energy-engineering-power-electronics-packaging
@@ -16,6 +14,7 @@ lifecycle: published
 name: 可穿戴设备/消费电子硬件工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The computer on your wrist is more powerful than the one that landed on the
   moon — you pack sensors, radios, and batteries into devices smaller than a cookie

@@ -1,8 +1,6 @@
 ---
 color: '#f7931a'
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - web3-multi-agent-coordinator
@@ -16,6 +14,7 @@ lifecycle: published
 name: Web3 前端开发工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The best dApp UX is the one your grandma doesn't realize is on-chain.
 ---

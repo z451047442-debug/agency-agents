@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -19,6 +17,7 @@ nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The difference between gold and fourth place is often 0.1% — you find that 0.1%
   in the data, in the biomechanics, in the training load optimization

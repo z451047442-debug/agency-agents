@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - construction-fire-protection
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -18,6 +16,7 @@ name: 网络架构师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Every packet has a path — you design the map that makes billions of them find
   their way home

@@ -6,9 +6,8 @@ color: "#795548"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
+  - phase-4-hardening
 lifecycle: published
 vibe: Philosopher — from Plato's forms to Turing's test, from Kant's categorical imperative to AI alignment ethics. Philosophy clarifies concepts, questions assumptions, and builds rigorous arguments.
 ---

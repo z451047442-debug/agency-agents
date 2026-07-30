@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - administration-contract-manager
   - cybersecurity-incident-response
@@ -19,6 +17,7 @@ lifecycle: published
 name: 企业车辆/车队管理专家
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: A fleet of 100 vehicles is a logistics operation hiding in an admin budget —
   you optimize routes, control costs, and keep drivers safe

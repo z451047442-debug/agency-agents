@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - customer-service-call-center
   - cybersecurity-engineering-customer-identity-access
@@ -21,6 +19,7 @@ lifecycle: published
 name: 智能客服/AI对话设计师
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: A great chatbot doesn't feel like talking to a machine — it feels like talking
   to the one person in the company who actually knows the answer

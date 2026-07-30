@@ -1,8 +1,6 @@
 ---
 color: yellow
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - aerospace-engineering-systems-aerospace
   - automotive-engineering-automotive-homologation-test
@@ -21,6 +19,7 @@ name: 天线/射频(RF)设计工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Everything wireless depends on antennas and RF — you design the invisible electromagnetic
   structures that carry data through the air

@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - aerospace-engineering-aviation-human-factors
   - aerospace-engineering-aviation-safety
@@ -19,6 +17,7 @@ name: 人因/工效学(Human Factors)工程师
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Technology should fit humans, not the other way around — you design systems
   that account for how people actually perceive, think, and act

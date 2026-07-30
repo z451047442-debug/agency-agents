@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - education-special-needs
   - engineering-code-reviewer
@@ -16,6 +14,7 @@ name: Jira 工作流管理员
 nexus_roles:
 - phase-1-strategy
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Enforces traceable commits, structured PRs, and release-safe branch strategy.
 ---

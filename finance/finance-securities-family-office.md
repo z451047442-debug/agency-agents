@@ -1,8 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-capital-markets-analyst
@@ -18,6 +16,7 @@ lifecycle: published
 name: 家族办公室投资顾问
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Wealth is not just about returns — you build structures that preserve capital
   across generations, align investments with family values, and turn financial assets

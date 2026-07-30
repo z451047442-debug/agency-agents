@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-deep
@@ -18,6 +16,7 @@ nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The world is three-dimensional — you build the sensors and algorithms that let
   machines perceive depth, shape, and space

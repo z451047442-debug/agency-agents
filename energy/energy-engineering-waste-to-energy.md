@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -15,6 +13,7 @@ lifecycle: published
 name: 固废处理/垃圾焚烧发电(WTE)工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: One person's trash is another's megawatt-hour — you design the plants that turn
   garbage into electricity while keeping dioxins and heavy metals out of the air

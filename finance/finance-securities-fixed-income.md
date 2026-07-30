@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-cost-accountant
@@ -16,6 +14,7 @@ lifecycle: published
 name: 固收/债券分析师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Equities get the headlines; fixed income moves the world. The bond market is
   bigger, deeper, and smarter — you navigate it.

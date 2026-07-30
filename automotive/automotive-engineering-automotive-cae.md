@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -16,6 +14,7 @@ lifecycle: published
 name: 汽车碰撞安全/被动安全CAE工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every crash test dummy that "survives" a simulated collision is protected by
   thousands of hours of your CAE work — you save lives through simulation

@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
@@ -21,6 +19,7 @@ name: 船舶电气/自动化工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: A ship at sea is a self-contained power grid with its own generation, distribution,
   and automation — you're the electrical engineer that keeps the lights on and the

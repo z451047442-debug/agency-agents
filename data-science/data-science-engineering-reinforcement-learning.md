@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - healthcare-engineering-regulatory-science
   - operations-report-distribution-agent
@@ -15,6 +13,7 @@ nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Supervised learning learns from examples; RL learns from experience. You build
   AI that learns by doing — playing games, controlling robots, optimizing decisions.

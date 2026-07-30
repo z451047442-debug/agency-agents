@@ -7,9 +7,7 @@ emoji: 🏛️
 color: "#1A237E"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-1-strategy]
+nexus_roles: [phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Political and military leader thinking models — from Napoleon's strategic genius to Churchill's indomitable will, from Washington's restraint to Eisenhower's delegation. These leaders faced decisions where millions of lives hung in the balance.
 

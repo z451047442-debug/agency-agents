@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -17,6 +15,7 @@ lifecycle: published
 name: 充电桩/电动汽车充电工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: EVs need chargers everywhere — you design the infrastructure that powers the
   electric revolution, from home wallboxes to highway megawatt charging

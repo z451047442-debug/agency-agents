@@ -44,6 +44,56 @@ class TestBatchAddHardeningV2:
         content = f.read_text(encoding="utf-8")
         assert content.count("phase-4-hardening") == 1
 
+    def test_add_hardening_role_date_added_before_nexus_roles(self, tmp_path):
+        """CRITICAL: date_added appears BEFORE nexus_roles — the original bug case."""
+        f = tmp_path / "agent.md"
+        f.write_text(
+            "---\nname: Security Auditor\ndate_added: '2026-07-01'\nversion: '1.0.0'\n"
+            "nexus_roles:\n  - phase-3-build\n  - phase-5-launch\n---\nBody",
+            encoding="utf-8",
+        )
+        mod.add_hardening_role(f)
+        content = f.read_text(encoding="utf-8")
+        # Must not have duplicate nexus_roles keys
+        assert content.count("nexus_roles:") == 1
+        assert "phase-4-hardening" in content
+        # The hardening role should be in the SAME block as the existing one
+        nexus_block = content.split("nexus_roles:")[1].split("---")[0]
+        assert "phase-3-build" in nexus_block
+        assert "phase-5-launch" in nexus_block
+        assert "phase-4-hardening" in nexus_block
+
+    def test_add_hardening_role_inline_format(self, tmp_path):
+        """Agent with inline nexus_roles: [phase-0-discovery] format."""
+        f = tmp_path / "agent.md"
+        f.write_text(
+            "---\nname: Researcher\ncolor: blue\ndate_added: '2026-07-01'\n"
+            "nexus_roles: [phase-0-discovery]\n---\nBody",
+            encoding="utf-8",
+        )
+        mod.add_hardening_role(f)
+        content = f.read_text(encoding="utf-8")
+        assert content.count("nexus_roles:") == 1
+        assert "phase-4-hardening" in content
+        assert "phase-0-discovery" in content
+        # Inline format should be preserved: [...]
+        assert ", phase-4-hardening]" in content or "phase-4-hardening, " in content
+
+    def test_add_hardening_role_nexus_roles_before_date_added(self, tmp_path):
+        """Agent with nexus_roles appearing BEFORE date_added in frontmatter."""
+        f = tmp_path / "agent.md"
+        f.write_text(
+            "---\nname: Builder\ncolor: green\n"
+            "nexus_roles:\n  - phase-3-build\n"
+            "date_added: '2026-07-01'\nversion: '1.0.0'\n---\nBody",
+            encoding="utf-8",
+        )
+        mod.add_hardening_role(f)
+        content = f.read_text(encoding="utf-8")
+        assert content.count("nexus_roles:") == 1
+        assert "phase-4-hardening" in content
+        assert "phase-3-build" in content
+
     def test_dry_run_no_write(self, tmp_path, monkeypatch):
         d = tmp_path / "testing"
         d.mkdir()

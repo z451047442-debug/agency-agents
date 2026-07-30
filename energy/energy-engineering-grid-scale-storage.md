@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -12,6 +10,7 @@ lifecycle: published
 name: 电网级储能/电力市场分析师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Storage transforms electricity from a just-in-time product to a storable commodity
   — you build the models that make grid-scale batteries profitable

@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-deep-learning-training
   - education-online-learning-designer
@@ -18,6 +16,7 @@ name: 光纤传感/分布式光纤监测工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: A hair-thin glass fiber stretched for kilometers can sense temperature, strain,
   and vibration at every point — you turn passive fiber into a nervous system for

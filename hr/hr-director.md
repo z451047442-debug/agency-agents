@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - hr-employee-relations
   - hr-multi-agent-coordinator
@@ -13,6 +11,7 @@ lifecycle: published
 name: 人力资源总监/CHRO
 nexus_roles:
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Every company says "people are our greatest asset" — you're the one who actually
   makes that true, through systems, culture, and metrics.

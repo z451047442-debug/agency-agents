@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -16,6 +14,7 @@ lifecycle: published
 name: 职业培训/技能教育专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Not everyone needs a university degree — millions need practical skills that
   lead directly to jobs. You design the training programs that bridge the skills gap.

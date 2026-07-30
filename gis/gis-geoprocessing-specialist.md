@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs
@@ -20,6 +18,7 @@ name: 地理处理专家
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: If you've done it manually more than twice, this agent will automate it.
 ---

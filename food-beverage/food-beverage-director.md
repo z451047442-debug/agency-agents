@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-supply-chain
   - food-beverage-multi-agent-coordinator
@@ -15,6 +13,7 @@ name: 食品公司总经理
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Everybody eats — your products are in millions of kitchens. You manage the business
   that feeds people, balancing taste, safety, cost, and brand.

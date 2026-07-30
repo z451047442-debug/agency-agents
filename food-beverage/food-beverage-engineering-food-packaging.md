@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - environmental-engineering-packaging-sustainability
   - food-beverage-beverage-rd
@@ -14,6 +12,7 @@ lifecycle: published
 name: 食品包装/阻隔材料工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A potato chip that stays crispy for 6 months, milk that lasts 30 days without
   refrigeration — that's food packaging science

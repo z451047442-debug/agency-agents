@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -20,6 +18,7 @@ name: 大学院长/系主任
 nexus_roles:
 - phase-0-discovery
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A university department is a small enterprise of knowledge — you lead the faculty,
   manage the curriculum, and shape the next generation of scholars.

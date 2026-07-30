@@ -1,8 +1,6 @@
 ---
 color: purple
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
@@ -18,6 +16,7 @@ lifecycle: published
 name: 模拟/混合信号IC设计工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The physical world is analog — every sensor, every radio, every power supply
   needs analog circuits that interface with the real world before the digital logic

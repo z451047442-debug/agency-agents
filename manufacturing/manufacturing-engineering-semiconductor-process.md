@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - construction-engineering-green-building
   - construction-engineering-noise-control
@@ -17,6 +15,7 @@ name: 半导体工艺/良率工程师
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A single particle can kill a chip — you control the billion-dollar cleanroom
   where silicon becomes circuitry at nanometer precision

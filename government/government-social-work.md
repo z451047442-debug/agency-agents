@@ -8,11 +8,10 @@ color: "#E91E63"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
   - phase-6-operate
+  - phase-4-hardening
 lifecycle: published
 vibe: Social work specialist — from child protection to elder care, from crisis intervention to community organizing. Social workers meet people at their most vulnerable and help them find a path forward.
 

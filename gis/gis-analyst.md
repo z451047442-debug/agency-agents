@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-vector-database-expert
   - education-special-needs
@@ -19,6 +17,7 @@ lifecycle: published
 name: GIS 分析师
 nexus_roles:
 - phase-0-discovery
+- phase-4-hardening
 version: 1.0.0
 vibe: The reliable hands-on operator who keeps the GIS running day to day.
 ---

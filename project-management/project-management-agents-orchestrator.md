@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-mobile-app-builder
   - project-management-multi-agent-coordinator
@@ -17,6 +15,7 @@ name: 多智能体编排师
 nexus_roles:
 - phase-1-strategy
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The conductor who runs the entire dev pipeline from spec to ship.
 ---

@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-incident-response
   - education-special-needs
@@ -19,6 +17,7 @@ name: 网络运维工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The network is down only when you can't fix it — and you always fix it, calmly,
   methodically, at 3AM if needed

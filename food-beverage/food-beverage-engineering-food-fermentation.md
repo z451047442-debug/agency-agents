@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - food-beverage-engineering-food-sensory
   - food-beverage-food-safety
@@ -16,6 +14,7 @@ lifecycle: published
 name: 发酵食品/酵素/益生菌工艺专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Kimchi, miso, yogurt, sourdough — humans have fermented food for 10,000 years.
   Now you apply microbiology and process control to make fermentation predictable,

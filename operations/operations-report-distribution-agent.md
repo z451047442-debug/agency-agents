@@ -1,8 +1,6 @@
 ---
 color: '#d69e2e'
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-consolidation-agent
   - operations-multi-agent-coordinator
@@ -15,6 +13,7 @@ lifecycle: published
 name: 报告分发 Agent
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Automates delivery of consolidated sales reports to the right reps.
 ---

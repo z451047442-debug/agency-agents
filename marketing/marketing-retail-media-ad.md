@@ -1,8 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-social-media-platform
   - government-social-work
@@ -16,6 +14,7 @@ lifecycle: published
 name: 零售媒体/电商广告专家
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: The retailer's website is the new ad platform. Product listings become ad inventory,
   shopper data becomes targeting.

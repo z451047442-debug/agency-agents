@@ -5,13 +5,12 @@ emoji: 🧬
 color: "#00BCD4"
 version: "1.0.0"
 date_added: "2026-07-12"
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - pharma-biotech-director
 nexus_roles:
   - phase-0-discovery
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 vibe: Immunology specialist — from T-cell receptor diversity to checkpoint inhibitor mechanisms, from vaccine adjuvant design to CAR-T engineering. The immune system is the most complex system after the brain; understanding it means understanding health at its foundation.
 ---

@@ -1,8 +1,6 @@
 ---
 color: pink
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - beauty-cosmetics-science
   - food-beverage-multi-agent-coordinator
@@ -15,6 +13,7 @@ name: 化妆品科学/配方化学家
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A face cream is an emulsion perfected through colloid science, a serum is a
   delivery system for active molecules — cosmetics is chemistry people wear

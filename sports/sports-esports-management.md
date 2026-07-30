@@ -8,10 +8,9 @@ color: "#7C3AED"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
   - phase-5-launch
+  - phase-4-hardening
 lifecycle: published
 vibe: Esports management specialist — from tournament brackets to player burnout prevention, from broadcast production to sponsorship ROI. Esports is a billion-dollar industry with professional athletes, live audiences, and the same business challenges as traditional sports.
 

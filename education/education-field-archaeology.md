@@ -7,9 +7,7 @@ emoji: ⛏️
 color: "#8D6E63"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery, phase-3-build]
+nexus_roles: [phase-0-discovery, phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Field archaeologist — from stratigraphic excavation to OSL dating, from magnetometry survey to site conservation. Archaeology reconstructs human history one careful trowel stroke at a time.
 

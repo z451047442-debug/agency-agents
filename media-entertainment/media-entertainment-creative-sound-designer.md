@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - media-entertainment-multi-agent-coordinator
   - marketing-paid-media-creative-strategist
@@ -13,6 +11,7 @@ lifecycle: published
 name: 音效与声音设计师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Sound is half the experience — you build worlds the audience feels even when
   they can't see them

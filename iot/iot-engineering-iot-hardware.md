@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-code-reviewer
   - iot-engineering-smart-home
@@ -17,6 +15,7 @@ lifecycle: published
 name: IoT硬件/无线通信工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every IoT device whispers data through the air — you design the radio, the antenna,
   and the power budget that keeps it whispering for years on a single battery

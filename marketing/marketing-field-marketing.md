@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - marketing-kuaishou-strategist
   - marketing-multi-agent-coordinator
@@ -12,6 +10,7 @@ lifecycle: published
 name: 区域/现场营销(Field Marketing)经理
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: Marketing isn't just digital — sometimes you need to be in the room, at the
   event, in the market. You bring the brand to life where customers actually are.

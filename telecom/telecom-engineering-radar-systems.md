@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
@@ -18,6 +16,7 @@ name: 雷达系统/射频感知工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Radar sees in the dark, through fog, at hundreds of meters — you design the
   sensors and algorithms that give autonomous systems superhuman perception

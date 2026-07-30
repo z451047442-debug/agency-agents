@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-engineering-risk-quant
@@ -15,6 +13,7 @@ lifecycle: published
 name: 客户倡导/参考案例经理
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: Your happiest customers are your best salespeople — you capture their stories,
   amplify their voices, and turn success into pipeline

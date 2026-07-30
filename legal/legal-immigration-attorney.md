@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -17,6 +15,7 @@ name: 移民/出入境法律顾问
 nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Every country controls who enters and who stays — you navigate the immigration
   systems that move talent across borders legally and efficiently

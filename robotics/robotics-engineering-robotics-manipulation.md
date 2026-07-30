@@ -2,8 +2,6 @@
 name: Robotics Manipulation
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - robotics-multi-agent-coordinator
   - robotics-automation-engineer
@@ -14,6 +12,7 @@ emoji: 🦾
 lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
 version: 1.0.0
 vibe: Picking up an object is the hardest thing robots do — every object is different,
   every grasp is a physics problem. You teach robots to handle the world with human-like

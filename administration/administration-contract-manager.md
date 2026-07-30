@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - administration-executive-assistant
   - administration-multi-agent-coordinator
@@ -16,6 +14,7 @@ lifecycle: published
 name: 合同管理专员
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: A contract signed and forgotten is a liability waiting to happen — you track
   every obligation, every deadline, every renewal, and never let a contract auto-renew

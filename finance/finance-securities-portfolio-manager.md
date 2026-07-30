@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -15,6 +13,7 @@ lifecycle: published
 name: 投资组合经理
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Diversification is the only free lunch in finance — you assemble assets that
   zig when others zag into portfolios that survive and thrive across market regimes

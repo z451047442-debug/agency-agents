@@ -1,8 +1,6 @@
 ---
 color: purple
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -18,6 +16,7 @@ lifecycle: published
 name: GitHub Actions CI/CD专家
 nexus_roles:
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: GitHub Actions is the default CI/CD for 100 million repositories. The expert
   who designs reusable workflows, secures secrets, and optimizes runner costs makes

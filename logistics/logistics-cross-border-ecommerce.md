@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
@@ -15,6 +13,7 @@ lifecycle: published
 name: 跨境电商物流专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A ¥50 product ordered on Shein must cross an ocean, clear customs, and reach
   the customer's doorstep — you design the logistics network that makes cross-border

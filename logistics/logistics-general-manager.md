@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - logistics-multi-agent-coordinator
@@ -17,6 +15,7 @@ name: 物流公司总经理
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every package that arrives on time is a promise kept; every late shipment is
   a customer lost. You run the network that commerce depends on.

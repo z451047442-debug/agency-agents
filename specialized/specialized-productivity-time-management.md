@@ -7,9 +7,7 @@ emoji: ⏱️
 color: "#FF9800"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-6-operate]
+nexus_roles: [phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Productivity specialist — from GTD to Deep Work, from Pomodoro to time blocking. Productivity is not about doing more; it's about doing what matters with focused attention.
 

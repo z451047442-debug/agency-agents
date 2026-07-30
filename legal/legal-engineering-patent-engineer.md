@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -16,6 +14,7 @@ name: 专利/知识产权工程师
 nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: An invention without a patent is a gift to your competitors. You translate engineering
   innovation into legal protection that creates lasting competitive advantage.

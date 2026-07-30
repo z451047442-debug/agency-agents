@@ -1,8 +1,6 @@
 ---
 color: yellow
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
@@ -21,6 +19,7 @@ name: 电磁兼容(EMC)/电磁干扰(EMI)工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Every electronic device emits and receives electromagnetic noise — you ensure
   your device doesn't interfere with others and isn't interfered with itself

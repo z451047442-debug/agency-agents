@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -14,6 +12,7 @@ lifecycle: published
 name: 工艺安全/过程安全管理(PSM)工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: One process safety failure can kill hundreds and destroy a company — you design
   the safeguards, the analyses, and the culture that prevent catastrophes

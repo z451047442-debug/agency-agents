@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-functional-safety
   - engineering-code-reviewer
@@ -15,6 +13,7 @@ lifecycle: published
 name: ASIC/FPGA/数字IC设计工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every chip starts as code — you write the RTL that becomes the silicon that
   powers everything from phones to satellites

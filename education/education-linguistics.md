@@ -6,9 +6,8 @@ color: "#5C6BC0"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
+  - phase-4-hardening
 lifecycle: published
 vibe: Linguist — from Chomsky's Universal Grammar to usage-based construction grammar, from Proto-Indo-European to transformer language models. Language is the defining characteristic of human cognition; understanding it reveals how the mind works.
 ---

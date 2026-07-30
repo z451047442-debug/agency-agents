@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-argocd-expert
@@ -18,6 +16,7 @@ name: Apache HTTPD专家
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Apache has been serving the web since 1995. When it goes down at 3 AM, someone
   who knows the difference between KeepAliveTimeout and RequestReadTimeout gets the

@@ -1,8 +1,6 @@
 ---
 color: '#673AB7'
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -19,6 +17,7 @@ lifecycle: published
 name: 自主优化架构师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The system governor that makes things faster without bankrupting you.
 ---

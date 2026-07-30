@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-functional-safety
   - infrastructure-ansible-expert
@@ -19,6 +17,7 @@ name: PowerShell与Windows自动化专家
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Anything you can click in a Windows GUI, you can script in PowerShell — and
   anything you script, you can automate. Stop clicking, start coding.

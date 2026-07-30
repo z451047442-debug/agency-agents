@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -15,6 +13,7 @@ lifecycle: published
 name: 机器人事业部总监
 nexus_roles:
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Robots are physical AI — you lead the team that makes intelligence walk, grasp,
   and interact with the real world.

@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - aerospace-atc-specialist
   - data-science-engineering-deep-learning-training
@@ -17,6 +15,7 @@ lifecycle: published
 name: 航空经济/航线网络规划分析师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: An airline's network is its product — you decide which cities to fly between,
   how often, with which aircraft, at what price

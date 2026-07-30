@@ -1,8 +1,6 @@
 ---
 color: sky
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -16,6 +14,7 @@ name: 无线与移动网络工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Every wireless signal fights physics, interference, and distance — you make
   sure the signal wins

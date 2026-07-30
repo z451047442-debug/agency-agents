@@ -6,9 +6,8 @@ color: "#E91E63"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 vibe: Poet — from iambic pentameter to free verse, from Li Bai's wine-moon imagery to Mary Oliver's wild geese. Poetry is language at its most concentrated — every word, every line break, every sound matters.
 ---

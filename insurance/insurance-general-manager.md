@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-insurance-claims-analytics
   - finance-cost-accountant
@@ -17,6 +15,7 @@ name: 保险公司总经理
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Insurance is the business of promises — you ensure the company can keep every
   promise it makes, through every cycle, for decades

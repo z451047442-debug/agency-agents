@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - agriculture-supply-chain
   - automotive-supply-chain
@@ -18,6 +16,7 @@ lifecycle: published
 name: 食品溯源与供应链透明专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: When a food safety crisis hits, you need to trace back to the source in minutes,
   not days. Every hour of delay means more people at risk and more product destroyed.

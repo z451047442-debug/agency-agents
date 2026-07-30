@@ -1,8 +1,6 @@
 ---
 color: purple
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-language-model-nlp
   - operations-multi-agent-coordinator
@@ -14,6 +12,7 @@ lifecycle: published
 name: 变革管理顾问
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The best strategy in the world fails if people don't adopt it — you design the
   change journey so people don't just accept change, they champion it

@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-optical-character-recognition
   - education-special-needs
@@ -16,6 +14,7 @@ lifecycle: published
 name: 车险理赔专员
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Gets drivers back on the road fast — fair assessments, zero fraud tolerance,
   and a process so smooth they barely notice the accident

@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-vector-database-expert
   - engineering-code-reviewer
@@ -17,6 +15,7 @@ lifecycle: published
 name: 空间数据工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Data comes in dirty. It leaves clean, documented, and ready to publish.
 ---

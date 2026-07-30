@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-knowledge-management
@@ -21,6 +19,7 @@ nexus_roles:
 - phase-1-strategy
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Telecommunications connects the world — you manage the networks, spectrum, and
   services that billions depend on every second.

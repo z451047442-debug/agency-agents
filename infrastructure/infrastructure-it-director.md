@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-datadog-expert
   - infrastructure-ansible-expert
@@ -15,6 +13,7 @@ name: IT基础设施总监
 nexus_roles:
 - phase-1-strategy
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: When the CEO's email is down, nobody cares about strategy. You keep everything
   running while building the future.

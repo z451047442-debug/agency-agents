@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - infrastructure-engineering-edge-computing
@@ -15,6 +13,7 @@ name: 空间计算/XR总监
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The next computing platform is spatial — you lead the team building experiences
   that blend digital and physical worlds.

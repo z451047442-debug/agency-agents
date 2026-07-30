@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - design-engineering-quant-ux-researcher
   - design-multi-agent-coordinator
@@ -21,6 +19,7 @@ lifecycle: published
 name: 用户体验度量/产品分析经理
 nexus_roles:
 - phase-0-discovery
+- phase-4-hardening
 version: 1.0.0
 vibe: Great products are measured, not guessed — you define the metrics that tell
   teams whether they're improving the user experience or just moving pixels

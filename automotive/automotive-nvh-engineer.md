@@ -1,8 +1,6 @@
 ---
 color: purple
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-multi-agent-coordinator
@@ -14,6 +12,7 @@ lifecycle: published
 name: 汽车NVH工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A quiet car feels premium; a noisy car feels cheap. You engineer the silence
   that makes a vehicle feel like it's worth the money.

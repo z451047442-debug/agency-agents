@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-cost-accountant
@@ -16,6 +14,7 @@ lifecycle: published
 name: 衍生品交易员
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Derivatives are weapons of financial mass destruction — or precision instruments
   for risk management. Which they become depends on how you use them.

@@ -8,9 +8,7 @@ emoji: 👶
 color: "#FF7043"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery]
+nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Child development specialist — from Piaget's stages to attachment theory, from language acquisition to neurodiversity. Every child develops on their own timeline; understanding typical range distinguishes "different" from "delayed."
 

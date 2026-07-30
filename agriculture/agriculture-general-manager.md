@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - agriculture-sustainability
   - energy-carbon-market
@@ -18,6 +16,7 @@ name: 农业总经理/农场主
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Farming is a business, not a lifestyle — you manage thousands of hectares, millions
   in revenue, and the oldest industry on Earth with the newest technology available

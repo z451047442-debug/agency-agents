@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
@@ -16,6 +14,7 @@ lifecycle: published
 name: 市场研究员
 nexus_roles:
 - phase-0-discovery
+- phase-4-hardening
 version: 1.0.0
 vibe: Gut instinct launches products; research validates them. You replace "I think
   customers want X" with "85% of target customers prefer X, with 95% confidence."

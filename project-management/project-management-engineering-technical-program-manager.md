@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
@@ -18,6 +16,7 @@ name: 技术项目经理(TPM)
 nexus_roles:
 - phase-1-strategy
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Engineering builds; TPMs align. You coordinate the complex multi-team projects
   where a delay in one team cascades to ten others.

@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
@@ -17,6 +15,7 @@ name: 企业法务总监
 nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: You don't just say no — you find the legal path to yes. The business wants to
   move fast; your job is making sure they move fast without stepping on landmines.

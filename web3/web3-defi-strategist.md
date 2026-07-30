@@ -1,8 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - web3-multi-agent-coordinator
@@ -16,6 +14,7 @@ name: DeFi产品策略师
 nexus_roles:
 - phase-0-discovery
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: DeFi rebuilds the financial system on code — you design the protocols that lend,
   borrow, swap, and earn without intermediaries

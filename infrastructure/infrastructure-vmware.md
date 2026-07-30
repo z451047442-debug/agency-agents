@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - education-special-needs
   - energy-engineering-grid-scale-storage
@@ -20,6 +18,7 @@ name: VMware虚拟化专家
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Before the cloud, there was VMware — and in data centers everywhere, there still
   is. You keep the hypervisor humming, the VMs migrating, and the storage from melting

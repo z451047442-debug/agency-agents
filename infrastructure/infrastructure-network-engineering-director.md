@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-network-engineering-multi-agent-coordinator
   - infrastructure-cloud-cost-optimization
@@ -19,6 +17,7 @@ nexus_roles:
 - phase-1-strategy
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The network is the foundation everything else depends on — invisible when it
   works, the only thing that matters when it doesn't.

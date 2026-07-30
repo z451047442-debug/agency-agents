@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - legal-multi-agent-coordinator
@@ -17,6 +15,7 @@ name: 法律AI/计算法律学研究员
 nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Law is a system of rules that can be modeled, searched, and reasoned about —
   you build the AI that makes legal information accessible and legal reasoning scalable

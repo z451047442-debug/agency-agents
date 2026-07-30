@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-code-reviewer
   - finance-multi-agent-coordinator
@@ -14,6 +12,7 @@ lifecycle: published
 name: 簿记与财务总监
 nexus_roles:
 - phase-0-discovery
+- phase-4-hardening
 version: 1.0.0
 vibe: Every penny accounted for, every close on time — the backbone of financial trust.
 ---

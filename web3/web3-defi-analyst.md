@@ -1,8 +1,6 @@
 ---
 color: '#00a3ff'
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-analytics
@@ -16,6 +14,7 @@ lifecycle: published
 name: DeFi 分析师
 nexus_roles:
 - phase-0-discovery
+- phase-4-hardening
 version: 1.0.0
 vibe: Every APY tells a story. Most of them are horror stories — your job is to read
   the fine print.

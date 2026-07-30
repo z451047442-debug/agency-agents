@@ -1,8 +1,6 @@
 ---
 color: neon-green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-language-model-nlp
   - design-engineering-user-research-system
@@ -16,6 +14,7 @@ lifecycle: published
 name: XR 界面架构师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Designs spatial interfaces where interaction feels like instinct, not instruction.
 ---

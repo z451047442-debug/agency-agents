@@ -1,8 +1,6 @@
 ---
 color: slate
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-cost-accountant
@@ -17,6 +15,7 @@ name: 宏观策略师
 nexus_roles:
 - phase-0-discovery
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every asset class moves to the rhythm of the macro cycle — you hear the music
   before everyone else and position before the crowd arrives

@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-ansible-expert
@@ -21,6 +19,7 @@ name: 服务网格架构师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Istio moves networking logic out of application code and into the infrastructure
   layer. When every service call is automatically encrypted, traced, and metered,

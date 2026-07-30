@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-build-release-engineer
   - engineering-code-reviewer
@@ -16,6 +14,7 @@ lifecycle: published
 name: 软件供应链/依赖管理专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Your software is only as secure as its weakest dependency — and the average
   project has hundreds. You manage the supply chain so a vulnerability in a library

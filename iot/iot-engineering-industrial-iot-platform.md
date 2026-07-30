@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-code-reviewer
   - iot-architect
@@ -19,6 +17,7 @@ name: 工业物联网平台工程师
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Factories generate terabytes trapped in PLCs and legacy systems. You liberate
   industrial data for analytics, AI, and digital twins.

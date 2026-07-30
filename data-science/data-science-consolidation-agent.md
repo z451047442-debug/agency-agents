@@ -1,8 +1,6 @@
 ---
 color: '#38a169'
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -20,6 +18,7 @@ nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Consolidates scattered sales data into live reporting dashboards.
 ---

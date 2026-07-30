@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -14,6 +12,7 @@ name: 云成本优化(FinOps)工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Cloud bills grow faster than revenue if nobody's watching. You find the waste,
   optimize the spend, and make every cloud dollar count.

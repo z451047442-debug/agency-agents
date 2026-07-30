@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-build-release-engineer
   - engineering-git-workflow-master
@@ -16,6 +14,7 @@ lifecycle: published
 name: 敏捷教练/Agile Coach
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Agile is not a destination you reach — it's an operating system you install
   across the organization. You measure what matters, coach the system not just the

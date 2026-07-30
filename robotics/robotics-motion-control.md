@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - robotics-multi-agent-coordinator
   - robotics-ros-developer
@@ -12,6 +10,7 @@ lifecycle: published
 name: 机器人运动控制工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A robot arm that moves smoothly, precisely, and safely — that's kinematics,
   dynamics, and control theory working together at 1000Hz

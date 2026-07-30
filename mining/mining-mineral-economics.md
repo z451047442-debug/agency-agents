@@ -9,10 +9,9 @@ color: "#795548"
 version: "1.0.0"
 date_added: "2026-07-13"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+  - phase-4-hardening
 lifecycle: published
 vibe: Mineral economist and resource estimator — from kriged block models to discounted cash flow, from cut-off grade optimization to commodity price scenarios. A mineral deposit becomes a mine only when the economics work.
 

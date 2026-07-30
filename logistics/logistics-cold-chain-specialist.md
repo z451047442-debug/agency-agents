@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - logistics-multi-agent-coordinator
   - healthcare-engineering-cold-chain-pharma
@@ -15,6 +13,7 @@ name: 冷链物流专家
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Protecting the cold chain — where degrees matter, minutes count, and excursions
   cost more than money

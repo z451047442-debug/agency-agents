@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - manufacturing-multi-agent-coordinator
   - manufacturing-engineering-sports-engineering
@@ -12,6 +10,7 @@ lifecycle: published
 name: 仿真/CAE工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Before you build a physical prototype, you build a virtual one. You predict
   how designs will perform — saving time, money, and sometimes lives.

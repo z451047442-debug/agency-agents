@@ -8,10 +8,9 @@ color: "#4CAF50"
 version: "1.0.0"
 date_added: "2026-07-13"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
   - phase-6-operate
+  - phase-4-hardening
 lifecycle: published
 vibe: Exotic animal veterinarian — from iguana metabolic bone disease to psittacine beak and feather disease, from hedgehog wobbly syndrome to zoo anesthesia. When it's not a dog or cat, you're who they call.
 

@@ -8,10 +8,9 @@ color: "#FF9800"
 version: "1.0.0"
 date_added: "2026-07-13"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
   - phase-5-launch
+  - phase-4-hardening
 lifecycle: published
 vibe: Festival and major event manager — from stage power calculations to crowd flow modeling, from artist rider fulfillment to emergency evacuation planning. A festival is a temporary city of thousands; you're the mayor.
 

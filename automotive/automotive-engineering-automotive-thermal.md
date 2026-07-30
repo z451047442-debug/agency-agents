@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -16,6 +14,7 @@ lifecycle: published
 name: 汽车热管理/空调系统工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: An EV's range drops 30% in winter because of heating — you design the heat pump
   and thermal systems that keep passengers warm without killing the battery

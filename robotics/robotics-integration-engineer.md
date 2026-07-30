@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-computer-vision-deep
@@ -16,6 +14,7 @@ lifecycle: published
 name: 机器人系统集成工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A robot in a lab is a prototype; a robot on a production line making parts is
   a solution. You're the one who makes it work in the real world.

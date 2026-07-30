@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - energy-engineering-power-electronics
@@ -15,6 +13,7 @@ lifecycle: published
 name: 触觉/力反馈(Haptics)工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Touch is the sense we trust most — you engineer the vibrations, textures, and
   forces that make virtual interactions feel real

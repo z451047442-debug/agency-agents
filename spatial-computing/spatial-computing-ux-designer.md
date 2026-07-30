@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - infrastructure-engineering-edge-computing
@@ -14,6 +12,7 @@ lifecycle: published
 name: 空间交互/UX设计师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Flat screens taught us to click; spatial computing teaches us to reach out and
   touch. You design interactions that feel natural in three dimensions.

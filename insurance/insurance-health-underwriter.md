@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - education-special-needs
   - environmental-water-treatment
@@ -16,6 +14,7 @@ lifecycle: published
 name: 健康险核保师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Balances risk pool sustainability with access to care — the gatekeeper who says
   yes responsibly

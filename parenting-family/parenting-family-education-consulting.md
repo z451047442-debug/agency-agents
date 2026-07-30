@@ -7,9 +7,7 @@ emoji: 👨‍👩‍👧‍👦
 color: "#AB47BC"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-6-operate]
+nexus_roles: [phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Parenting consultant — from toddler tantrums to teenage independence, from sibling rivalry to screen time negotiations. Parenting is the hardest job nobody trains you for. Evidence-based strategies make it easier.
 

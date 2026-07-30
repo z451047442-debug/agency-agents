@@ -62,33 +62,83 @@ def add_hardening_role(filepath: Path):
     if "phase-4-hardening" in fm_text:
         return False  # already present, idempotent
 
-    # Find insertion point: after nexus_roles list start, or after date_added
-    inserted = False
-    new_lines = []
-    in_nexus_roles = False
+    # --- Pass 1: Scan entire frontmatter for nexus_roles and date_added ---
+    nexus_roles_line_idx = None
+    nexus_roles_inline = False
+    date_added_line_idx = None
 
-    for i, line in enumerate(lines[:fm_end]):
+    for i in range(fm_start + 1, fm_end):
+        stripped = lines[i].rstrip("\n\r")
+        if re.match(r"^nexus_roles:", stripped):
+            nexus_roles_line_idx = i
+            remainder = stripped[len("nexus_roles:"):].strip()
+            if remainder.startswith("["):
+                nexus_roles_inline = True
+            break  # found the first nexus_roles key
+        elif re.match(r"^date_added:", stripped):
+            date_added_line_idx = i
+
+    # --- Pass 2: Build output lines with insertion ---
+    new_lines = []
+    i = 0
+    inserted = False
+
+    while i < fm_end:
+        line = lines[i]
+
+        if not inserted and i == nexus_roles_line_idx:
+            if nexus_roles_inline:
+                # Inline format: nexus_roles: [phase-0-discovery]
+                m = re.match(r"^(nexus_roles:\s*\[)([^\]]*)(\])\s*", line)
+                if m:
+                    prefix, items_str, suffix = m.group(1), m.group(2), m.group(3)
+                    items = [x.strip() for x in items_str.split(",") if x.strip()]
+                    if "phase-4-hardening" not in items:
+                        items.append("phase-4-hardening")
+                    new_lines.append(f"{prefix}{', '.join(items)}{suffix}\n")
+                else:
+                    new_lines.append(line)
+                inserted = True
+                i += 1
+            else:
+                # Block format: write nexus_roles: line, then collect existing items
+                new_lines.append(line)
+                i += 1
+                # Detect indentation of existing items (or default to "  ")
+                indent = "  "
+                item_re = re.compile(r"^(\s*)- ")
+                while i < fm_end and item_re.match(lines[i]):
+                    m2 = item_re.match(lines[i])
+                    if m2:
+                        indent = m2.group(1)
+                    new_lines.append(lines[i])
+                    i += 1
+                # Insert phase-4-hardening at the end of the block using detected indent
+                new_lines.append(f"{indent}- phase-4-hardening\n")
+                inserted = True
+            continue
+
+        if not inserted and nexus_roles_line_idx is None and i == date_added_line_idx:
+            # No existing nexus_roles — insert new block after date_added
+            new_lines.append(line)
+            new_lines.append("nexus_roles:\n")
+            new_lines.append("  - phase-4-hardening\n")
+            inserted = True
+            i += 1
+            continue
+
         new_lines.append(line)
-        if not inserted:
-            if re.match(r"^nexus_roles:", line):
-                in_nexus_roles = True
-            elif in_nexus_roles and re.match(r"^\s+- ", line):
-                pass  # keep scanning nexus_roles items
-            elif in_nexus_roles and not re.match(r"^\s+- ", line):
-                # End of nexus_roles block — insert before this line
-                new_lines.insert(-1, "  - phase-4-hardening\n")
-                inserted = True
-                in_nexus_roles = False
-            elif re.match(r"^date_added:", line) and not in_nexus_roles:
-                # No nexus_roles yet — insert it after date_added
-                new_lines.append("nexus_roles:\n")
-                new_lines.append("  - phase-4-hardening\n")
-                inserted = True
+        i += 1
 
     if not inserted:
-        # Append to end of frontmatter
-        new_lines.insert(-1, "nexus_roles:\n")
-        new_lines.insert(-1, "  - phase-4-hardening\n")
+        # Fallback: append to end of frontmatter before closing ---
+        new_lines.append("nexus_roles:\n")
+        new_lines.append("  - phase-4-hardening\n")
+
+    if not inserted:
+        # Fallback: append to end of frontmatter before closing ---
+        new_lines.append("nexus_roles:\n")
+        new_lines.append("  - phase-4-hardening\n")
 
     new_lines.extend(lines[fm_end:])
     new_content = "".join(new_lines)

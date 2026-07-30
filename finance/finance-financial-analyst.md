@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - finance-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -14,6 +12,7 @@ name: 财务分析师
 nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: Turns spreadsheets into strategy — every number tells a story, every model drives
   a decision.

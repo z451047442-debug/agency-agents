@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - education-special-needs
   - emergency-disaster-response
@@ -16,6 +14,7 @@ lifecycle: published
 name: 应急物流/灾害响应供应链专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Hours after disaster strikes, relief supplies must reach the affected — you
   design the supply chains that deliver life-saving aid when normal logistics collapse

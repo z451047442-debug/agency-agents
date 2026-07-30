@@ -8,10 +8,9 @@ color: "#5C6BC0"
 version: "1.0.0"
 date_added: "2026-07-13"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
   - phase-6-operate
+  - phase-4-hardening
 lifecycle: published
 vibe: People analytics specialist — from attrition prediction to organizational network analysis, from pay equity audits to workforce planning. HR decisions backed by data beat gut feelings every time.
 

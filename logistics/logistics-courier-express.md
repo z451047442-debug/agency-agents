@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist
@@ -13,6 +11,7 @@ lifecycle: published
 name: 快递/快运网络运营专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every package has a journey — from pickup to sort center to line haul to delivery.
   You design the network that makes millions of those journeys happen every day, on

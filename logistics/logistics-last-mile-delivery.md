@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-supply-chain
   - education-special-needs
@@ -16,6 +14,7 @@ lifecycle: published
 name: 最后一公里配送专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The last 100 meters make or break the first 1,000 kilometers — deliver the promise
 ---

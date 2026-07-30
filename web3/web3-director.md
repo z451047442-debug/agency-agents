@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-risk
@@ -16,6 +14,7 @@ lifecycle: published
 name: Web3/区块链项目总监
 nexus_roles:
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Web3 promises to decentralize everything — you lead the team building the protocols,
   tokens, and communities that make it real.

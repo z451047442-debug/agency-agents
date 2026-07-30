@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - media-entertainment-multi-agent-coordinator
   - marketing-paid-media-creative-strategist
@@ -14,6 +12,7 @@ lifecycle: published
 name: 摄像师/视频制作人
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every frame is a choice — what you show, how you show it, and what the viewer
   feels because of those choices

@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - marketing-inbound-strategist
   - marketing-multi-agent-coordinator
@@ -13,6 +11,7 @@ lifecycle: published
 name: 技术SEO/搜索引擎工程师
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: Search engines are the front door to the internet — you make sure they can find,
   understand, and rank your content above the competition

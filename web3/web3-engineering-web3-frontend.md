@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-risk
@@ -13,6 +11,7 @@ lifecycle: published
 name: Web3前端/DApp开发工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Web3 needs Web2 UX — you build the frontend that makes interacting with smart
   contracts feel as smooth as any Web2 app

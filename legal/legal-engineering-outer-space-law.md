@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - legal-multi-agent-coordinator
@@ -18,6 +16,7 @@ name: 空间法/太空资源开发法律顾问
 nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Who owns the Moon? Can a company mine an asteroid? Space law is being written
   right now, and the answers will shape the next century of human expansion beyond

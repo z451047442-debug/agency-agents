@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -15,6 +13,7 @@ lifecycle: published
 name: 整车架构与平台工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The car is becoming a computer on wheels — the architecture that connects its
   silicon, software, and steel defines what's possible for the next decade

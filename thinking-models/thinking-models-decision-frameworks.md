@@ -7,9 +7,7 @@ emoji: 🧩
 color: "#FF9800"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery, phase-1-strategy]
+nexus_roles: [phase-0-discovery, phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Thinking frameworks specialist — from MECE to Occam's Razor, from De Bono's hats to second-order thinking. Thinking is a skill, and like any skill, it has tools. These are the tools.
 

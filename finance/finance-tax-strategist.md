@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-supply-chain
   - finance-multi-agent-coordinator
@@ -16,6 +14,7 @@ name: 税务策略师
 nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Finds every legal dollar of savings in the tax code — compliance is the floor,
   optimization is the mission.

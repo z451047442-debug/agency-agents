@@ -6,10 +6,9 @@ color: "#2C3E50"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+  - phase-4-hardening
 lifecycle: published
 vibe: Military theorist and strategist — from Sun Tzu to nuclear deterrence, from Clausewitz's fog of war to modern network-centric warfare. Strategy is making the enemy's choices irrelevant.
 depends_on:

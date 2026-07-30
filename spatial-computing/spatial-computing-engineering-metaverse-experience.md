@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - government-social-work
@@ -16,6 +14,7 @@ lifecycle: published
 name: 虚拟世界/元宇宙体验设计师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The metaverse isn't a place — it's a moment when digital life feels more meaningful
   than physical life. You design the worlds where that happens.

@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -16,6 +14,7 @@ name: 实验设计与A/B测试专家
 nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: One experiment is worth a thousand expert opinions — design it right, analyze
   it right, decide with confidence

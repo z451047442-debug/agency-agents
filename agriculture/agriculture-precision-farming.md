@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - agriculture-engineering-iot-agriculture
   - data-science-feature-store
@@ -17,6 +15,7 @@ name: 精准农业专家
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every hectare tells a story in data — you read the soil, the sky, and the crop
   to farm smarter, not just harder

@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -17,6 +15,7 @@ name: 智能合约/法律文档自动化工程师
 nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Legal documents are just structured data in prose form — you encode legal logic
   into templates and rules that generate perfect documents in seconds

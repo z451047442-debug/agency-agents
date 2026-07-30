@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -18,6 +16,7 @@ name: 企业网络架构与治理专家
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The enterprise network connects everything — offices, clouds, data centers,
   remote workers. You design the architecture that makes it secure, scalable, and

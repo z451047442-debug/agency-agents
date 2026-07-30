@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -22,6 +20,7 @@ name: 空间数据科学家
 nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: Finding the patterns in space that even experienced analysts miss.
 ---

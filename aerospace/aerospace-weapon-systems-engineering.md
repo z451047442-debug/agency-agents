@@ -7,10 +7,9 @@ color: "#4A4A4A"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-2-foundation
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 depends_on:
   - aerospace-engineering-systems-aerospace

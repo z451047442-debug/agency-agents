@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -16,6 +14,7 @@ lifecycle: published
 name: 电池建模/状态估计工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A battery management system that doesn't know the true state of charge is like
   a fuel gauge that lies — you build the algorithms that tell the truth

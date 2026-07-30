@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - pharma-biotech-multi-agent-coordinator
   - healthcare-engineering-regulatory-science
@@ -17,6 +15,7 @@ name: 制药/生物科技研发总监
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A drug takes 10 years and $2 billion to develop — and most fail. You manage
   the pipeline that bets on which molecules will beat the odds.

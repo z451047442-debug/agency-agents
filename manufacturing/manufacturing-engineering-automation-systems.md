@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-functional-safety
   - energy-engineering-wind-energy
@@ -18,6 +16,7 @@ lifecycle: published
 name: 楼宇自动化(BAS/BMS)系统工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Buildings consume 40% of global energy — you design the automation systems that
   make them smarter, greener, and more comfortable

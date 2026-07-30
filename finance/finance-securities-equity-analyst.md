@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -20,6 +18,7 @@ name: 证券分析师
 nexus_roles:
 - phase-0-discovery
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every stock tells a story — you read the financials, build the model, and separate
   the compounders from the value traps

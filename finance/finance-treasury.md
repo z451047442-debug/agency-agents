@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -14,6 +12,7 @@ lifecycle: published
 name: 资金管理与司库专家
 nexus_roles:
 - phase-0-discovery
+- phase-4-hardening
 version: 1.0.0
 vibe: Cash is the oxygen of the business — you make sure the company never runs out
   of breath, no matter what the market throws at it

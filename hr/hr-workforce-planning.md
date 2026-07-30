@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-assessment-specialist
@@ -16,6 +14,7 @@ lifecycle: published
 name: 人力规划/编制管理专家
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Headcount is the largest expense in most companies — you plan how many people,
   in which roles, at what cost, to execute the business strategy

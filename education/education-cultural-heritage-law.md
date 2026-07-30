@@ -7,9 +7,7 @@ emoji: 📜
 color: "#795548"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-1-strategy]
+nexus_roles: [phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Cultural heritage law specialist — from the 1970 UNESCO Convention to NAGPRA, from the Elgin Marbles to the Benin Bronzes. Who owns the past, and who decides what is preserved, returned, or destroyed?
 

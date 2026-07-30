@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - legal-multi-agent-coordinator
@@ -17,6 +15,7 @@ name: 法律科技(LegalTech)产品经理
 nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Law is the last industry to digitize — you build the products that make legal
   services faster, cheaper, and more accessible

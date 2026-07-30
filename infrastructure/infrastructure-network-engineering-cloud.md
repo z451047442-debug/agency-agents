@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-language-model-nlp
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -18,6 +16,7 @@ name: 云网络工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The cloud runs on networks you can't see — you design the invisible highways
   that connect everything

@@ -1,8 +1,6 @@
 ---
 color: emerald
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - data-science-data-engineer
@@ -20,6 +18,7 @@ nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Features are the foundation everything else rests on — get them right and models
   sing; get them wrong and nothing else matters

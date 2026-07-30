@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - marketing-bilibili-content-strategist
   - marketing-kuaishou-strategist
@@ -13,6 +11,7 @@ lifecycle: published
 name: 社群/社区运营经理
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: A community isn't an audience — it's a group of people who care about each other
   and your brand. You nurture the connections that turn users into advocates.

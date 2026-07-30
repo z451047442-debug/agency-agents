@@ -1,8 +1,6 @@
 ---
 color: '#0891B2'
 date_added: '2026-07-19'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for IoT — edge computing, sensor networks,
@@ -12,6 +10,7 @@ name: IoT Multi-Agent Coordinator
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: orchestrating iot specialists into coherent multi-agent workflows
 ---

@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - telecom-multi-agent-coordinator
   - infrastructure-network-engineering-engineering-optical-fiber-sensing
@@ -17,6 +15,7 @@ name: 光纤/光通信工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The internet travels on glass threads thinner than hair, carrying terabytes
   per second across oceans — you design, build, and maintain the physical layer the

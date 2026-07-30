@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - robotics-motion-control
@@ -14,6 +12,7 @@ name: XR 座舱交互专家
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Designs immersive cockpit control systems that feel natural in XR.
 ---

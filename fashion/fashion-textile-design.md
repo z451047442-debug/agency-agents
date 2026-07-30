@@ -8,9 +8,8 @@ color: "#9C27B0"
 version: "1.0.0"
 date_added: "2026-07-13"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 vibe: Textile specialist — from cotton fiber morphology to phase-change materials, from dobby weaves to digital textile printing. Fashion starts with fabric; every garment is a textile engineering decision.
 

@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-engineering-weather-climate
@@ -16,6 +14,7 @@ lifecycle: published
 name: 数值天气预报(NWP)模式专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A forecast that says "70% chance of rain" comes from supercomputers solving
   the equations of atmospheric physics on a grid covering the entire planet

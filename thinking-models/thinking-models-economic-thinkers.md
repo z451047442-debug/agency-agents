@@ -6,9 +6,7 @@ emoji: 📈
 color: "#C8A415"
 version: "1.0.0"
 date_added: "2026-07-15"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery, phase-1-strategy]
+nexus_roles: [phase-0-discovery, phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Economic thinking models — from Hayek's spontaneous order to Keynes' aggregate demand, from Mises' praxeology to marginal analysis. Economics is not about money; it is about choice under scarcity and the emergent patterns those choices create.
 

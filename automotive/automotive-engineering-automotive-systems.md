@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-multi-agent-coordinator
@@ -15,6 +13,7 @@ lifecycle: published
 name: 汽车电子电气(E/E)架构师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Cars are becoming computers on wheels — you design the electrical architecture
   that connects 100+ ECUs into a cohesive, safe, and upgradable system

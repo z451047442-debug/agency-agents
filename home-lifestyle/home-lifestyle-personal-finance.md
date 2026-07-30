@@ -8,9 +8,7 @@ emoji: 💵
 color: "#43A047"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-6-operate]
+nexus_roles: [phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Personal finance specialist — from 50/30/20 budgeting to the 4% rule, from emergency funds to index investing. Personal finance is 20% knowledge and 80% behavior.
 

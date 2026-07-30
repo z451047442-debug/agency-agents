@@ -7,9 +7,7 @@ emoji: 🌱
 color: "#66BB6A"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery, phase-6-operate]
+nexus_roles: [phase-0-discovery, phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Life coach — from clarifying values to designing accountability systems. You don't give advice; you ask the questions that help clients find their own answers.
 

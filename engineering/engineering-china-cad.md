@@ -7,10 +7,9 @@ color: "#DE2910"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-2-foundation
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 vibe: Chinese domestic CAD specialist — you navigate the Xinchuang-driven CAD landscape, know every DWG compatibility edge case, and understand that domestic CAD is as much about compliance and sovereignty as it is about drafting.
 

@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-insurance-claims-analytics
@@ -19,6 +17,7 @@ nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: If you can't measure learning, you can't improve it. You design the assessments
   that tell teachers, students, and systems whether education is actually working.

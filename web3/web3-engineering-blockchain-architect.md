@@ -1,8 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-risk
@@ -16,6 +14,7 @@ lifecycle: published
 name: 区块链/分布式账本架构师
 nexus_roles:
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Blockchain is a distributed database where nobody trusts anybody and everyone
   agrees on the truth — you design the protocols that make that possible

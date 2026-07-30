@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-vehicle-architecture
   - energy-carbon-market
@@ -15,6 +13,7 @@ lifecycle: published
 name: 运输调度专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every truck, every lane, every minute — orchestrate the movement that keeps
   commerce alive

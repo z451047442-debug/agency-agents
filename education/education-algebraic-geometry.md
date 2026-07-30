@@ -6,9 +6,7 @@ emoji: 📐
 color: "#7C3AED"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery]
+nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Algebraic geometer — from Grothendieck's schemes to Mori's MMP, from intersection theory to derived categories. Algebraic geometry studies solutions to polynomial equations, elevated to the most powerful machinery in mathematics.
 

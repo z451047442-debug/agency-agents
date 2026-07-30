@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -17,6 +15,7 @@ lifecycle: published
 name: 教育技术/EdTech专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Technology doesn't replace teachers — it amplifies them. You design the digital
   tools and platforms that make learning more engaging, accessible, and effective.

@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -19,6 +17,7 @@ lifecycle: published
 name: 容器化平台专家
 nexus_roles:
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: Docker made containers accessible to every developer. The Docker expert who
   optimizes the build cache, hardens the runtime, and locks down the registry prevents

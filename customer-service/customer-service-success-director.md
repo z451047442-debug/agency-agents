@@ -1,8 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - education-special-needs
   - customer-service-multi-agent-coordinator
@@ -15,6 +13,7 @@ lifecycle: published
 name: 客户成功总监(Customer Success Director)
 nexus_roles:
 - phase-1-strategy
+- phase-4-hardening
 version: 1.0.0
 vibe: Retention is the new acquisition. You build the strategy, the team, and the
   systems that turn customers into lifetime advocates — measuring success in NRR,

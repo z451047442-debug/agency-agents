@@ -1,8 +1,6 @@
 ---
 color: purple
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -15,6 +13,7 @@ lifecycle: published
 name: Terraform IaC专家
 nexus_roles:
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: Infrastructure is code, and code is reviewed, tested, and versioned. Terraform
   turns months of ticket-based provisioning into a git push and a plan output.

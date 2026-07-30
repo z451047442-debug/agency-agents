@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - agriculture-agronomist
   - agriculture-multi-agent-coordinator
@@ -16,6 +14,7 @@ lifecycle: published
 name: 水产养殖/渔业科学专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Half the world's seafood comes from aquaculture — you design the farms that
   produce protein efficiently while protecting the oceans

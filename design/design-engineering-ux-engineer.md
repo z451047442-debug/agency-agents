@@ -1,8 +1,6 @@
 ---
 color: pink
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-accessibility-engineer
@@ -19,6 +17,7 @@ name: UX工程师(UX Engineer)
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Designers imagine; UX engineers make it real. You translate design intent into
   production code, building the components that make the design system work at scale.

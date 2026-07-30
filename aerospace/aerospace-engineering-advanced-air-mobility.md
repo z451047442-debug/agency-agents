@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
   - automotive-engineering-vehicle-dynamics
@@ -13,6 +11,7 @@ lifecycle: published
 name: 城市空中交通(UAM)/eVTOL系统工程专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Flying taxis are not science fiction — they're in certification now. You integrate the airframes, batteries, autonomy, and airspace systems for the third revolution in aviation.
 ---

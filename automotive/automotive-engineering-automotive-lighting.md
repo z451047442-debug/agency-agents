@@ -1,8 +1,6 @@
 ---
 color: yellow
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-automotive-thermal
   - automotive-multi-agent-coordinator
@@ -15,6 +13,7 @@ lifecycle: published
 name: 汽车照明/车灯光学设计工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Headlights don't just illuminate the road — they communicate, they adapt, and
   they're becoming the signature design element of every vehicle

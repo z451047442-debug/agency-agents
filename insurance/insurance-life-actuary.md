@@ -1,8 +1,6 @@
 ---
 color: gray
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - finance-engineering-credit-risk-model
   - finance-financial-controller
@@ -16,6 +14,7 @@ lifecycle: published
 name: 寿险精算师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Where mathematics meets mortality — ensures every policy is priced for profit
   and every reserve stands up to the long tail.

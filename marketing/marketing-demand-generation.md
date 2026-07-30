@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - marketing-email-marketing
   - marketing-multi-agent-coordinator
@@ -12,6 +10,7 @@ lifecycle: published
 name: 需求生成(Demand Gen)经理
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: Demand generation isn't about getting leads — it's about creating demand that
   didn't exist before. You build the machine that fills the pipeline with qualified

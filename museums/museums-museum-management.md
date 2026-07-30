@@ -8,10 +8,9 @@ color: "#8D6E63"
 version: "1.0.0"
 date_added: "2026-07-13"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+  - phase-4-hardening
 lifecycle: published
 vibe: Museum manager and exhibition planner — from environmental monitoring to narrative design, from visitor studies to digital engagement. Museums are not buildings with objects — they are storytellers, educators, and community anchors.
 

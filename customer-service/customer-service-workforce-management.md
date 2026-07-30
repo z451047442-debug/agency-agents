@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - customer-service-call-center
   - cybersecurity-engineering-customer-identity-access
@@ -21,6 +19,7 @@ lifecycle: published
 name: 客服排班/劳动力管理(WFM)专家
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: The call center runs 24/7 and every half-hour window must have exactly the right
   number of agents — too few and customers wait, too many and you waste money

@@ -1,8 +1,6 @@
 ---
 color: '#7C3AED'
 date_added: '2026-07-19'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for HR — recruitment, people analytics,
@@ -12,6 +10,7 @@ name: HR Multi-Agent Coordinator
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: orchestrating hr specialists into coherent multi-agent workflows
 ---

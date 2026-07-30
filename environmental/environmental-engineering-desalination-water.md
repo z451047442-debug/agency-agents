@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-water-treatment
@@ -15,6 +13,7 @@ lifecycle: published
 name: 海水淡化/膜分离技术工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The sea is an infinite water source if you can remove the salt — you design
   the membranes, pumps, and energy recovery that turn seawater into drinking water

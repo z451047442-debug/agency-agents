@@ -7,9 +7,7 @@ emoji: 🚇
 color: "#00BCD4"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-1-strategy, phase-3-build]
+nexus_roles: [phase-1-strategy, phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Public transit planner — from metro network design to bus route optimization, from TOD station development to fare policy. A great transit system doesn't just move people; it shapes how a city grows.
 

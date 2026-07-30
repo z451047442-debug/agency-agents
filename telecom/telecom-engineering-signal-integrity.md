@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-knowledge-management
@@ -20,6 +18,7 @@ name: 信号完整性(SI)/电源完整性(PI)工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: At multi-gigabit speeds, a PCB trace is not a wire — it's a transmission line.
   You ensure the 1s and 0s arrive intact, not as mush.

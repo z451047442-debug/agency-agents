@@ -8,10 +8,9 @@ color: "#0288D1"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
+  - phase-4-hardening
 lifecycle: published
 vibe: Marine scientist — from thermohaline circulation to ocean acidification, from phytoplankton blooms to deep-sea hydrothermal vents. The ocean covers 70% of Earth's surface, drives global climate, and remains largely unexplored.
 

@@ -2,8 +2,6 @@
 name: Robotic Perception Systems
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - robotics-multi-agent-coordinator
   - robotics-automation-engineer
@@ -13,6 +11,7 @@ emoji: 🤖
 lifecycle: published
 nexus_roles:
   - phase-3-build
+  - phase-4-hardening
 version: 1.0.0
 vibe: Autonomous robots need to see and understand their world — you build the perception
   and planning stack that lets them navigate safely through complex environments

@@ -6,9 +6,8 @@ color: "#00ACC1"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
+  - phase-4-hardening
 lifecycle: published
 vibe: Research chemist — from total synthesis of natural products to DFT calculations, from MOF design to single-molecule spectroscopy. Chemistry is the central science, connecting physics to biology through the study of matter and its transformations.
 

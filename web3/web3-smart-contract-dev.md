@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - web3-multi-agent-coordinator
   - infrastructure-identity-access
@@ -15,6 +13,7 @@ lifecycle: published
 name: 智能合约开发工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Smart contracts are immutable — once deployed, they can't be changed. Every
   line of code you write is permanent, so you write every line like it's going to

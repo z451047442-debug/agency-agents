@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs
@@ -16,6 +14,7 @@ lifecycle: published
 name: 再保险经纪人
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Insurance for insurance companies — layers risk so no single hurricane or earthquake
   can bring down a carrier

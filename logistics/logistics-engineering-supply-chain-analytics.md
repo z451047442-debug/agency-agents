@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - logistics-multi-agent-coordinator
   - manufacturing-supply-chain-planner
@@ -13,6 +11,7 @@ name: 供应链分析/优化(OR)科学家
 nexus_roles:
 - phase-0-discovery
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Supply chains are giant optimization problems — you apply operations research
   to save millions in transportation, inventory, and sourcing decisions

@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - design-engineering-user-research-system
@@ -18,6 +16,7 @@ lifecycle: published
 name: 量化用户体验研究员(Quant UX)
 nexus_roles:
 - phase-0-discovery
+- phase-4-hardening
 version: 1.0.0
 vibe: Qualitative research tells you why; quantitative research tells you how many
   and how much. You measure the user experience at scale with statistical rigor.

@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-knowledge-management
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -18,6 +16,7 @@ name: 网络协议栈开发工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Every packet that crosses the internet passes through a protocol stack someone
   wrote. You build the high-performance data planes that move packets at line rate.

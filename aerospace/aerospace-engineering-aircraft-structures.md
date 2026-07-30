@@ -1,8 +1,6 @@
 ---
 color: gray
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - aerospace-engineering-aviation-engineering
   - aerospace-multi-agent-coordinator
@@ -18,6 +16,7 @@ lifecycle: published
 name: 飞机结构/强度/疲劳设计工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: An airplane flexes, pressurizes, and vibrates for 100,000 flight hours — you
   design the structure that endures every cycle without cracking

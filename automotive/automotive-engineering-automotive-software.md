@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-multi-agent-coordinator
@@ -15,6 +13,7 @@ lifecycle: published
 name: 汽车基础软件(AUTOSAR CP/AP)工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every ECU in a car runs a real-time OS and a communication stack — you configure
   the AUTOSAR stack that makes 100+ ECUs talk to each other reliably

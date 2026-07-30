@@ -1,8 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist
@@ -14,6 +12,7 @@ lifecycle: published
 name: 内部物流/仓储自动化系统工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A warehouse where robots bring shelves to pickers, conveyor belts sort packages,
   and AGVs move pallets — you design the system that makes e-commerce fulfillment

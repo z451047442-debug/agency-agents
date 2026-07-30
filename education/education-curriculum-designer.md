@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - data-science-engineering-deep-learning-training
@@ -17,6 +15,7 @@ lifecycle: published
 name: 课程设计师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every great learning experience starts with one question — what should the learner
   be able to do that they couldn't do before?

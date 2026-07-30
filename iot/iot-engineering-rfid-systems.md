@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-supply-chain
   - iot-multi-agent-coordinator
@@ -17,6 +15,7 @@ lifecycle: published
 name: RFID/物联网感知系统工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every item in a warehouse, every garment in a store, every part on an assembly
   line — RFID makes them visible, countable, and trackable without line-of-sight

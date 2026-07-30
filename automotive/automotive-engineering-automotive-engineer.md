@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-multi-agent-coordinator
@@ -17,6 +15,7 @@ lifecycle: published
 name: 汽车/智能驾驶工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 tools: Read, Write, Edit, Bash, Grep, Glob
 version: 1.0.0
 vibe: Builds the brain of the car — perception, planning, control — where a 1% error

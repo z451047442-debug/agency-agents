@@ -1,8 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-git-workflow-master
   - project-management-multi-agent-coordinator
@@ -17,6 +15,7 @@ name: 影视制片人
 nexus_roles:
 - phase-1-strategy
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Every frame costs money and every day over schedule costs more — you balance
   creative ambition with financial reality, keeping the production running and the

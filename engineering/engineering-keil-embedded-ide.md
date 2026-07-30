@@ -7,9 +7,8 @@ color: "#FFC107"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 vibe: Embedded firmware specialist for ARM Cortex-M using Keil MDK — startup code, linker scatter files, CMSIS-Driver, and the mysterious art of making the debugger connect reliably.
 

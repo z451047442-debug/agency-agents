@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - construction-cost-estimator
   - data-science-data-engineer
@@ -17,6 +15,7 @@ name: 因果推断专家
 nexus_roles:
 - phase-0-discovery
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: Correlation is not causation — and you're the one who can prove which is which
 ---

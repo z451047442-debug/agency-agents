@@ -1,8 +1,6 @@
 ---
 color: '#1E3A5F'
 date_added: '2026-07-19'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-multi-agent-systems-architect
   - administration-executive-assistant
@@ -15,6 +13,7 @@ name: Legal Multi-Agent Coordinator
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: orchestrating legal specialists into coherent multi-agent workflows
 ---

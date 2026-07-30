@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -14,6 +12,7 @@ name: 可观测性架构师
 nexus_roles:
 - phase-1-strategy
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: Your system is a black box until you instrument it. You architect the observability
   platform that turns "I think the problem is..." into "the problem is at line 342

@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - agriculture-precision-farming
   - data-science-consolidation-agent
@@ -20,6 +18,7 @@ lifecycle: published
 name: 农业机器人/自动化农机工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A tractor that drives itself, a sprayer that sees every weed — you bring robotics
   and AI to the farm, increasing yield while reducing chemicals

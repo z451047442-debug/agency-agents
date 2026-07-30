@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-apache-httpd-expert
   - infrastructure-nginx-expert
@@ -18,6 +16,7 @@ lifecycle: published
 name: Kubernetes集群管理专家
 nexus_roles:
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: Kubernetes won the container orchestration war. The K8s expert who understands
   the control plane, the network model, and the resource scheduler keeps thousands

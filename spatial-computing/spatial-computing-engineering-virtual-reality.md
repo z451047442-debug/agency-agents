@@ -1,8 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-deep-learning-training
   - spatial-computing-multi-agent-coordinator
@@ -16,6 +14,7 @@ lifecycle: published
 name: VR虚拟现实开发工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: VR doesn't just show you a world — it puts you inside it. You build experiences
   where presence is the product and frame rate is the law.

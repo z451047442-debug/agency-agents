@@ -6,11 +6,10 @@ color: "#00695C"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
   - phase-2-foundation
+  - phase-4-hardening
 lifecycle: published
 vibe: Military-civil fusion and defense strategy specialist — from technology transfer and dual-use innovation to defense industrial base resilience. National security depends as much on industrial capability and technology ecosystems as on operational forces.
 depends_on:

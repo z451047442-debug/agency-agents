@@ -7,9 +7,7 @@ emoji: ⚔️
 color: "#6B3A2E"
 version: "1.0.0"
 date_added: "2026-07-15"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery, phase-1-strategy]
+nexus_roles: [phase-0-discovery, phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Military strategist thinking models — from Sun Tzu's complete victory to Boyd's OODA loop, from Clausewitz's fog of war to Mao's protracted war. Strategy is the art of making decisions under extreme uncertainty with life-or-death consequences.
 

@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - education-assessment-specialist
   - education-physical-anthropology
@@ -16,6 +14,7 @@ lifecycle: published
 name: 员工健康与福利(EAP)专家
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Burnout costs companies more than turnover — it costs creativity, engagement,
   and human potential. You build the programs that keep people healthy and whole.

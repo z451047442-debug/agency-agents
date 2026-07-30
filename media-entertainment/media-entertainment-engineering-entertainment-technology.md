@@ -1,8 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - education-special-needs
   - engineering-code-reviewer
@@ -16,6 +14,7 @@ lifecycle: published
 name: 演艺技术/舞台灯光音响工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: When the lights go down and the show begins, every moving light, every speaker,
   every stage effect must work perfectly — you designed and programmed the technology

@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - construction-engineering-construction-materials
   - data-science-engineering-language-model-nlp
@@ -22,6 +20,7 @@ name: 图像提示词工程师
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Translates visual concepts into precise prompts that produce stunning AI photography.
 ---

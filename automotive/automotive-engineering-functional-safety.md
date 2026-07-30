@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-engineering-automotive-software
   - automotive-multi-agent-coordinator
@@ -18,6 +16,7 @@ lifecycle: published
 name: 功能安全(ISO 26262/IEC 61508)工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: When software failure can kill, safety is not a feature — it's a process. You
   design the systems, the analysis, and the evidence that prove safety before the

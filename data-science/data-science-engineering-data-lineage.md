@@ -1,8 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -18,6 +16,7 @@ nexus_roles:
 - phase-0-discovery
 - phase-1-strategy
 - phase-2-foundation
+- phase-4-hardening
 version: 1.0.0
 vibe: You can't trust data you don't know the origin of — you build the governance
   that makes data trusted, traceable, and compliant

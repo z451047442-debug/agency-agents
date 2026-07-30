@@ -7,9 +7,7 @@ emoji: 🍷
 color: "#8E24AA"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-3-build, phase-6-operate]
+nexus_roles: [phase-3-build, phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Sommelier and wine specialist — from Burgundy terroir to biodynamic viticulture, from blind tasting to cellar management. Wine is agriculture, chemistry, history, and art in a glass.
 

@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
@@ -16,6 +14,7 @@ lifecycle: published
 name: 智能家居(IoT Consumer)产品经理
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The connected home should make life simpler, not more complicated — you design
   products that work together seamlessly and actually solve real problems

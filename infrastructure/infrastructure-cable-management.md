@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -14,6 +12,7 @@ name: 综合布线/线缆管理工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Every server, every switch, every access point depends on a cable that someone
   had to pull, terminate, test, and label. You make the physical layer invisible by

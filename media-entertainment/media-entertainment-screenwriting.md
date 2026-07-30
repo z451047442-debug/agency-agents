@@ -7,9 +7,7 @@ emoji: ✍️
 color: "#FF9800"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-3-build]
+nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Screenwriter — from logline to final draft, from Save the Cat to the Hero's Journey. A script is a blueprint for a movie; every scene must earn its place on screen.
 

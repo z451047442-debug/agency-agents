@@ -1,8 +1,6 @@
 ---
 color: '#0891B2'
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - marketing-ai-citation-strategist
   - specialized-identity-graph-operator
@@ -14,6 +12,7 @@ lifecycle: published
 name: 智能搜索优化师
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: While everyone else is optimizing to get cited by AI, this agent makes sure
   AI can actually do the thing on your site

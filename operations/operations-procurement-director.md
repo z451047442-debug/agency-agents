@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-knowledge-management
   - operations-multi-agent-coordinator
@@ -17,6 +15,7 @@ name: 采购总监/CPO
 nexus_roles:
 - phase-1-strategy
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Every dollar saved by procurement drops straight to profit. You lead the function
   that manages 40-60% of company spend — and every percentage point saved matters.

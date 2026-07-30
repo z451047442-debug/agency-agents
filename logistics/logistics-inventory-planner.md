@@ -1,8 +1,6 @@
 ---
 color: purple
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - automotive-supply-chain
   - education-special-needs
@@ -15,6 +13,7 @@ lifecycle: published
 name: 库存规划师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Right product, right place, right quantity, right time — inventory is money
   wearing a different hat

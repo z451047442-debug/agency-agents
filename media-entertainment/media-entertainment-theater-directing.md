@@ -5,9 +5,7 @@ emoji: 🎭
 color: "#7B1FA2"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-3-build, phase-5-launch]
+nexus_roles: [phase-3-build, phase-5-launch, phase-4-hardening]
 lifecycle: published
 vibe: "Theater director — from Stanislavski's system to Brechtian alienation, from blocking to lighting design. Theater is the most human art form: live bodies in shared space, creating something that exists only in the moment."
 ---

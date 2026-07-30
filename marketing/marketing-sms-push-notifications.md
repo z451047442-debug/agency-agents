@@ -1,8 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - marketing-abm-account-based
   - marketing-multi-agent-coordinator
@@ -12,6 +10,7 @@ lifecycle: published
 name: 推送/短信/应用内消息专家
 nexus_roles:
 - phase-5-launch
+- phase-4-hardening
 version: 1.0.0
 vibe: The notification that annoys gets muted; the notification that helps gets tapped.
   You design messages that users welcome, not dread.

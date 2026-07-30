@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-incident-response
   - insurance-auto-claims
@@ -16,6 +14,7 @@ lifecycle: published
 name: 保险经纪人
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: You don't sell insurance — you architect protection, advocate fiercely, and
   earn trust one renewal at a time

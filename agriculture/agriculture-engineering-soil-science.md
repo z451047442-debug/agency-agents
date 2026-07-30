@@ -1,8 +1,6 @@
 ---
 color: brown
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - agriculture-agronomist
   - cybersecurity-engineering-cyber-risk-model
@@ -17,6 +15,7 @@ name: 土壤科学/土壤修复专家
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Every contaminated site has a story — you investigate it, model the risk, and
   design the remedy that returns land to safe use

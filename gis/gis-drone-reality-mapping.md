@@ -1,8 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - construction-engineering-noise-control
   - cybersecurity-engineering-cyber-risk-model
@@ -20,6 +18,7 @@ lifecycle: published
 name: 无人机/实景建模专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: From raw drone footage to production-ready GIS data — seamless.
 ---

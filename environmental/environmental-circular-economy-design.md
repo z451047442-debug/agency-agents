@@ -6,9 +6,8 @@ color: '#66BB6A'
 version: 1.0.0
 date_added: '2026-07-13'
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
 - phase-3-build
+- phase-4-hardening
 lifecycle: published
 vibe: Circular economy designer — from Design for Disassembly to product-as-a-service,
   from material passports to industrial symbiosis. Waste is a design flaw, not an

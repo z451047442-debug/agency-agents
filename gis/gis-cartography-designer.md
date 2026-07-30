@@ -1,8 +1,6 @@
 ---
 color: pink
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - construction-engineering-green-building
   - engineering-code-reviewer
@@ -20,6 +18,7 @@ lifecycle: published
 name: 地图设计专家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: A map that communicates beautifully is a map that gets used.
 ---

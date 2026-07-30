@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - engineering-code-reviewer
   - iot-engineering-iot-engineer
@@ -17,6 +15,7 @@ name: IoT数据平台工程师
 nexus_roles:
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Millions of devices generating billions of data points — you build the platform
   that ingests, stores, and makes sense of the torrent

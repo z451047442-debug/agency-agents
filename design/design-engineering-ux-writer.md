@@ -1,8 +1,6 @@
 ---
 color: pink
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - design-brand-guardian
   - design-multi-agent-coordinator
@@ -20,6 +18,7 @@ name: UX写作/内容设计师
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: The right words in the right place turn confusion into clarity, frustration
   into delight, and visitors into users

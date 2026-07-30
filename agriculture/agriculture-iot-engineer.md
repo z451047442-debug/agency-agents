@@ -1,8 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - agriculture-agronomist
   - cybersecurity-engineering-threat-detection-engineer
@@ -15,6 +13,7 @@ lifecycle: published
 name: 农业物联网工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Sensors in the soil, eyes in the sky, intelligence at the edge — connecting
   the farm to the cloud

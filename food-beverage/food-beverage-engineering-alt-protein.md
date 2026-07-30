@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - food-beverage-engineering-food-fermentation
   - food-beverage-engineering-food-sensory
@@ -16,6 +14,7 @@ lifecycle: published
 name: 替代蛋白/细胞农业科学家
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Feeding 10 billion people without destroying the planet requires reinventing
   protein — you grow meat from cells and turn plants into steak

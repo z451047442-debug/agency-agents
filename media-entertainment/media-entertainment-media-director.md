@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-engineering-computer-vision-deep
   - media-entertainment-multi-agent-coordinator
@@ -18,6 +16,7 @@ name: 媒体/创意总监
 nexus_roles:
 - phase-1-strategy
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Content is king, but production is the kingdom. You lead the creative and business
   sides of making content that moves people.

@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - infrastructure-engineering-edge-computing
@@ -14,6 +12,7 @@ lifecycle: published
 name: 增强现实(AR)开发工程师
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: AR overlays digital information onto the physical world — you build the experiences
   that help people see more, learn faster, and work smarter

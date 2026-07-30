@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
@@ -18,6 +16,7 @@ lifecycle: published
 name: 投诉管理专家
 nexus_roles:
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: A complaint is not a failure — it's free consulting. Every complaint contains
   the blueprint for what needs to change, if you have the discipline to listen, analyse,

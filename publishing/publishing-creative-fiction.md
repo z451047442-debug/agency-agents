@@ -6,9 +6,8 @@ color: "#FF6F00"
 version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
-  - phase-4-hardening
-nexus_roles:
   - phase-3-build
+  - phase-4-hardening
 lifecycle: published
 vibe: Fiction writer — from three-act structure to stream of consciousness, from unreliable narrators to ensemble casts. Storytelling is the oldest human technology; mastering it means understanding both craft and the human heart.
 ---

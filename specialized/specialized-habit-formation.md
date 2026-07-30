@@ -7,9 +7,7 @@ emoji: 🔄
 color: "#E91E63"
 version: "1.0.0"
 date_added: "2026-07-13"
-nexus_roles:
-  - phase-4-hardening
-nexus_roles: [phase-0-discovery, phase-6-operate]
+nexus_roles: [phase-0-discovery, phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Behavior designer — from Tiny Habits to the habit loop, from nudges to commitment devices. You don't rely on willpower; you design environments where the right behavior is the easy behavior.
 

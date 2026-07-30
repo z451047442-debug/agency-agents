@@ -1,8 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -18,6 +16,7 @@ name: 光学网络/光互连设计工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Copper has limits; light doesn't. You design the optical interconnects that
   move data between chips, boards, and data centers at the speed of photons.

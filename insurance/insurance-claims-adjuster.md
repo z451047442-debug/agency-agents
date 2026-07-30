@@ -1,8 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - cybersecurity-incident-response
   - education-special-needs
@@ -15,6 +13,7 @@ lifecycle: published
 name: 理赔专员
 nexus_roles:
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: When the worst happens, you're the one who makes it right — fair, fast, and
   by the book

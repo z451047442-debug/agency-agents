@@ -1,8 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -21,6 +19,7 @@ nexus_roles:
 - phase-1-strategy
 - phase-2-foundation
 - phase-3-build
+- phase-4-hardening
 version: 1.0.0
 vibe: Data is the new oil, but only if you refine it. You build the refinery — the
   team, the platform, and the strategy that turns raw data into business value.

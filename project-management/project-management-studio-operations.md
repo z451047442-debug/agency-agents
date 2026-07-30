@@ -1,8 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-nexus_roles:
-  - phase-4-hardening
 depends_on:
   - project-management-multi-agent-coordinator
   - operations-executive-summary-generator
@@ -17,6 +15,7 @@ name: 工作室运营专家
 nexus_roles:
 - phase-1-strategy
 - phase-6-operate
+- phase-4-hardening
 version: 1.0.0
 vibe: Keeps the studio running smoothly — processes, tools, and people in sync.
 ---

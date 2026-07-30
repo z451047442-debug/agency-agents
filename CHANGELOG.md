@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.2.1] — 2026-07-31 — Bug Fixes & Data Consistency
+
+### Fixed
+- **Critical**: `fix-lint.py` undefined variable `ruff_output` — NameError crash on lint issue detection
+- **High**: `batch-add-hardening-v2.py` duplicated fallback appending `nexus_roles` twice
+- **High**: `quality-report.py` threshold mismatch with v1 scoring engine — `_estimate_fix_effort` always triggered suggestions
+- **Medium**: `_shared/__init__.py` `atomic_write` caught `BaseException` instead of `Exception`
+- **Medium**: `analyze-deps.py` in-place `.update()` mutation of module-level `CROSS_CATEGORY_BONUS` dict
+- **Medium**: `extract-patterns.py` feedback file path/format inconsistent with `feedback.py`
+- **Low**: Various ruff lint issues (unused imports, duplicate set items)
+
+### Data
+- **AGENTS.json**: regenerated — fixed 70 emoji values with literal double-quote characters; `total_categories` corrected 63→62
+- **CLAUDE.md**: agent count 1399→1400 to match AGENTS.json actual
+
+### Schema
+- **agent-index.schema.json**: added missing `tags`, `keywords`, `model_tier`, `tdd_framework` properties
+- **tools.schema.json**: added `omc-plugin` to format enum
+
+### Changed
+- `pyproject.toml`: version synchronized with `.release-please-manifest.json`
+- `generate-index.py`: category count derived from agents list (more robust)
+- `search-agents.py`: outdated error message now references `.py` instead of `.sh`
+
 ## [2.2.0] — 2026-07-29 — ECC Patterns: Security, Cost Awareness & Feedback Loop
 
 ### Added

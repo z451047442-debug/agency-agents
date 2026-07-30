@@ -65,7 +65,7 @@ def main() -> None:
                 if m:
                     print(f"  {GREEN}Fixed: {m.group(1)} issue(s){RESET}")
         else:
-            for line in ruff_output.splitlines()[:8]:
+            for line in _ruff_out.splitlines()[:8]:
                 print(f"  {line}")
     else:
         print(f"  {GREEN}Clean{RESET}")

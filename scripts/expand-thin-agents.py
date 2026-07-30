@@ -357,7 +357,7 @@ def main():
     _print_header(f"{mode_label}: {len(thin_agents)} thin agents")
 
     total_added = 0
-    for n, cat, rel, fp in thin_agents:
+    for n, _cat, rel, fp in thin_agents:
         print(f"  [{n}/7] {rel}")
         added = expand_agent(fp, dry_run=args.dry_run)
         if added:

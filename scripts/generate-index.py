@@ -92,12 +92,13 @@ def build_index() -> dict:
         categories.add(category)
 
     agents.sort(key=lambda a: a["id"])
+    unique_categories = len({a["category"] for a in agents})
 
     return {
         "version": "1.0",
         "generated": date.today().isoformat(),
         "agents": agents,
-        "total_categories": len(categories),
+        "total_categories": unique_categories,
         "total_agents": len(agents),
     }
 

@@ -196,7 +196,7 @@ for (src, tgt), bonus in CROSS_CATEGORY_BONUS.items():
     rev_key = (tgt, src)
     if rev_key not in CROSS_CATEGORY_BONUS:
         _reverse_bonuses[rev_key] = bonus * 0.8  # slightly lower for reverse direction
-CROSS_CATEGORY_BONUS.update(_reverse_bonuses)
+CROSS_CATEGORY_BONUS = {**CROSS_CATEGORY_BONUS, **_reverse_bonuses}
 
 
 if sys.stdout.encoding != "utf-8":

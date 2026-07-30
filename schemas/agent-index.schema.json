@@ -83,6 +83,24 @@
           "vibe": {
             "type": "string",
             "description": "Personality primer line for the agent."
+          },
+          "tags": {
+            "type": "array",
+            "description": "Categorical tags for filtering and discovery.",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "keywords": {
+            "type": "array",
+            "description": "Search keywords for relevance matching.",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "model_tier": {
+            "type": "string",
+            "description": "Cost tier for model routing (premium/standard/economy)."
+          },
+          "tdd_framework": {
+            "type": "string",
+            "description": "Language-specific test framework declaration."
           }
         },
         "additionalProperties": false

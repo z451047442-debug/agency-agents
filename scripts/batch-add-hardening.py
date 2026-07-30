@@ -88,7 +88,6 @@ def add_hardening_role(filepath):
             return True, "added"
 
     # No nexus_roles field — add before closing ---
-    insert_at = fm_end
     for i in range(fm_end - 1, fm_start, -1):
         if lines[i].strip() and not lines[i].strip().startswith("#"):
             # Get indent from previous field

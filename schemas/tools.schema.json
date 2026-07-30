@@ -25,7 +25,7 @@
             },
             "format": {
               "type": "string",
-              "enum": ["identity", "codex-toml", "gemini-md", "qwen-md", "cursor-mdc", "opencode-md", "skill-md", "aider-conventions", "antigravity-skill", "kimi-agent", "openclaw-workspace", "windsurf-rules", "hermes-router-plugin"],
+              "enum": ["identity", "codex-toml", "gemini-md", "qwen-md", "cursor-mdc", "opencode-md", "skill-md", "aider-conventions", "antigravity-skill", "kimi-agent", "openclaw-workspace", "windsurf-rules", "hermes-router-plugin", "omc-plugin"],
               "description": "Output file format / renderer contract."
             },
             "ext": {

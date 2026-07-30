@@ -16,11 +16,9 @@ Usage:
 
 import argparse
 import re
-import sys
-from pathlib import Path
 
 from _shared import atomic_write
-from _shared.discovery import discover_agents, REPO
+from _shared.discovery import discover_agents
 from _shared.frontmatter import get_body, get_field, get_frontmatter_text
 
 # Complexity inference patterns
@@ -62,7 +60,7 @@ def _split_and_clean(text: str) -> list[str]:
     results = []
     seen: set[str] = set()
     for part in re.split(r"[/,、;:\s|()\[\]{}]+", text):
-        part = part.strip().strip("「」『』""''【】")
+        part = part.strip().strip("「」『』""''【】")  # noqa: B005  # intentional set-of-chars strip
         if not part or len(part) < 2:
             continue
         # Skip pure-English stop words (allow CJK and mixed)

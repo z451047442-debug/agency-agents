@@ -69,7 +69,7 @@ def atomic_write(path, content, encoding="utf-8", newline=None):
         else:
             tmp_path.write_text(content, encoding=encoding)
         os.replace(str(tmp_path), str(path))
-    except BaseException:
+    except Exception:
         tmp_path.unlink(missing_ok=True)
         raise
 

@@ -11,11 +11,10 @@ Usage:
 import argparse
 import json
 import sys
-from pathlib import Path
 
+from _shared import BOLD, CYAN, GREEN, RED, RESET, YELLOW
 from _shared.discovery import discover_agents
 from _shared.frontmatter import get_frontmatter_text, get_list_field
-from _shared import BOLD, CYAN, GREEN, RED, RESET, YELLOW
 
 PHASE_LABELS: dict[str, str] = {
     "phase-0-discovery": "Discovery",

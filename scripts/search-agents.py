@@ -38,7 +38,7 @@ def load_index():
     """Load AGENTS.json. Returns dict or exits with error."""
     if not INDEX_PATH.exists():
         print(f"ERROR: AGENTS.json not found at {INDEX_PATH}", file=sys.stderr)
-        print("Run: ./scripts/generate-index.sh", file=sys.stderr)
+        print("Run: python scripts/generate-index.py", file=sys.stderr)
         sys.exit(1)
     with open(INDEX_PATH, encoding="utf-8") as f:
         return json.load(f)

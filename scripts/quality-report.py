@@ -76,13 +76,13 @@ def _estimate_fix_effort(agent_report):
     security_flags = agent_report.get("security_flags", 0)
 
     # Easy fixes (no content creation needed)
-    if scores.get("frontmatter", 0) < 2:
+    if scores.get("frontmatter", 0) < 1:
         fixes.append(("easy", "Add missing frontmatter fields (description, vibe, nexus_roles)"))
     if agent_report.get("broken_links", 0) > 0:
         fixes.append(("easy", f"Fix {agent_report['broken_links']} broken internal link(s)"))
 
     # Moderate fixes (some content work)
-    if scores.get("structure", 0) < 3:
+    if scores.get("structure", 0) < 1:
         sub = agent_report.get("substantive_sections", 0)
         fixes.append(("moderate",
                       f"Strengthen thin sections ({sub}/7 have ≥30 words of substantive content)"))

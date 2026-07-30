@@ -12,9 +12,9 @@ import re
 import sys
 from pathlib import Path
 
+from _shared import BOLD, CYAN, GREEN, RESET, YELLOW
 from _shared.discovery import discover_agents
 from _shared.frontmatter import get_body, get_field, get_frontmatter_text, get_list_field
-from _shared import BOLD, CYAN, GREEN, RED, RESET, YELLOW
 
 STOPWORDS = frozenset({
     "a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for",
@@ -30,8 +30,7 @@ STOPWORDS = frozenset({
     "same", "so", "than", "too", "very", "just", "because", "about",
     "into", "over", "after", "before", "between", "under", "above",
     "below", "up", "down", "out", "off", "again",
-    "further", "then", "once", "here", "there", "when", "where", "why",
-    "now", "during", "through", "against", "without", "within", "along",
+    "further", "then", "once", "here", "there", "now", "during", "through", "against", "without", "within", "along",
     "around", "among", "across", "behind", "beyond", "inside", "outside",
     "onto", "upon", "via",
 })

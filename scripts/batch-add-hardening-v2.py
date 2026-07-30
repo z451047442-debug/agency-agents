@@ -13,11 +13,10 @@ Usage:
 
 import argparse
 import re
-import sys
 from pathlib import Path
 
-from _shared import GREEN, RED, RESET, YELLOW, atomic_write
-from _shared.discovery import EXCLUDE_DIRS, discover_agents
+from _shared import GREEN, RESET, YELLOW, atomic_write
+from _shared.discovery import discover_agents
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -129,11 +128,6 @@ def add_hardening_role(filepath: Path):
 
         new_lines.append(line)
         i += 1
-
-    if not inserted:
-        # Fallback: append to end of frontmatter before closing ---
-        new_lines.append("nexus_roles:\n")
-        new_lines.append("  - phase-4-hardening\n")
 
     if not inserted:
         # Fallback: append to end of frontmatter before closing ---

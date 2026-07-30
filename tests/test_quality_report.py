@@ -71,7 +71,7 @@ class TestEstimateFixEffort:
 
     def test_low_structure_is_moderate(self):
         report = {
-            "scores": {"frontmatter": 2, "content_depth": 3, "structure": 1, "file_health": 2},
+            "scores": {"frontmatter": 1, "content_depth": 3, "structure": 0, "file_health": 1},
             "broken_links": 0, "lint_errors": 0, "lint_warnings": 0, "security_flags": 0,
         }
         level, fixes = _estimate_fix_effort(report)

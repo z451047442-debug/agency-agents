@@ -15,17 +15,26 @@ import argparse
 import json
 import sys
 from collections import Counter, defaultdict
+from pathlib import Path
 
-from _shared import BOLD, GREEN, RED, REPO, RESET, YELLOW
+from _shared import BOLD, GREEN, RED, RESET, YELLOW
 
-FEEDBACK_FILE = REPO / "feedback.json"
+FEEDBACK_FILE = Path.home() / ".claude" / "agents" / ".feedback.jsonl"
 
 
 def load_feedback() -> list[dict]:
     if not FEEDBACK_FILE.exists():
         return []
+    results = []
     with open(FEEDBACK_FILE, encoding="utf-8") as f:
-        return json.load(f)
+        for line in f:
+            line = line.strip()
+            if line:
+                try:
+                    results.append(json.loads(line))
+                except json.JSONDecodeError:
+                    continue
+    return results
 
 
 def analyze(feedback: list[dict]) -> dict:

@@ -54,6 +54,9 @@ from _shared.validators import (
     git_last_modified,
 )
 
+BASELINE_FILE = REPO / ".score-baseline.json"
+HISTORY_FILE = REPO / ".score-history.jsonl"
+
 SECTION_MIN_WORDS = 30  # words required after a section header to count as "substantive"
 
 # Patterns that indicate real domain expertise (not template filler)
@@ -1445,6 +1448,10 @@ def main():
                         help="Fail if any critical/high-risk agent lacks safeguards section")
     parser.add_argument("--compare",
                         help="Compare scores against a base branch (e.g. origin/main)")
+    parser.add_argument("--update-baseline", action="store_true",
+                        help="Update the score baseline after this run")
+    parser.add_argument("--no-baseline", action="store_true",
+                        help="Skip baseline regression check")
     args = parser.parse_args()
 
     # --compare mode: diff scores against a base ref
@@ -1560,6 +1567,12 @@ def main():
         r["reference_signals"] = r.get("v7_reference_signals", 0)
         results.append(r)
 
+    # Snapshot full results before any filtering (for baseline + history)
+    all_totals = [r["total"] for r in results]
+    all_grades = defaultdict(int)
+    for r in results:
+        all_grades[r["grade"]] += 1
+
     score_key = "total"
     if args.risk:
         results = [r for r in results if r.get("risk_tier") == args.risk]
@@ -1622,6 +1635,56 @@ def main():
             if len(below_floor) > 10:
                 print(f"  ... and {len(below_floor) - 10} more", file=sys.stderr)
             sys.exit(1)
+
+    # ── Baseline regression gate ──────────────────────────────────────────────
+    if not args.no_baseline and all_totals:
+        import statistics
+        current = {
+            "date": date.today().isoformat(),
+            "total_agents": len(results),
+            "mean_score": round(statistics.mean(all_totals), 2),
+            "median_score": round(statistics.median(all_totals), 1),
+            "a_pct": round((all_grades.get("A", 0) + all_grades.get("B", 0)) / len(results) * 100, 1),
+            "d_count": all_grades.get("D", 0),
+        }
+        # Append to history JSONL
+        HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with open(HISTORY_FILE, "a", encoding="utf-8") as hf:
+            json.dump(current, hf, ensure_ascii=False)
+            hf.write("\n")
+
+        if BASELINE_FILE.exists():
+            with open(BASELINE_FILE, encoding="utf-8") as bf:
+                baseline = json.load(bf)
+            regressions = []
+            if current["total_agents"] < baseline.get("total_agents", 0):
+                regressions.append(f"agent count {baseline['total_agents']} → {current['total_agents']}")
+            if current["mean_score"] < baseline.get("mean_score", 0) - 0.1:
+                regressions.append(f"mean score {baseline['mean_score']} → {current['mean_score']}")
+            if current["a_pct"] < baseline.get("a_pct", 0) - 2:
+                regressions.append(f"A+B% {baseline['a_pct']}% → {current['a_pct']}%")
+            if regressions:
+                print(f"\n{RED}BASELINE REGRESSION:{RESET}", file=sys.stderr)
+                for r in regressions:
+                    print(f"  - {r}", file=sys.stderr)
+                print("  Run --update-baseline if this is expected.", file=sys.stderr)
+                sys.exit(1)
+            else:
+                improved = []
+                if current["mean_score"] > baseline.get("mean_score", 0) + 0.1:
+                    improved.append(f"mean +{current['mean_score'] - baseline['mean_score']:.2f}")
+                if current["a_pct"] > baseline.get("a_pct", 0) + 2:
+                    improved.append(f"A+B% +{current['a_pct'] - baseline['a_pct']:.1f}%")
+                if improved:
+                    print(f"{GREEN}Baseline improved: {', '.join(improved)}{RESET}",
+                          file=sys.stderr)
+
+        if args.update_baseline:
+            with open(BASELINE_FILE, "w", encoding="utf-8") as bf:
+                json.dump(current, bf, indent=2, ensure_ascii=False)
+                bf.write("\n")
+            print(f"{GREEN}Baseline updated: {BASELINE_FILE}{RESET}",
+                  file=sys.stderr)
 
     try:
         from telemetry import record_event

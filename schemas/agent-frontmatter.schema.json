@@ -111,6 +111,15 @@
       "maxLength": 32,
       "description": "Expected task duration hint (e.g., '2-4h', '1-2d')."
     },
+    "compatible_platforms": {
+      "type": "array",
+      "description": "AI coding platforms this agent is compatible with.",
+      "items": {
+        "type": "string",
+        "enum": ["claude-code", "cursor", "copilot", "gemini-cli", "codex", "windsurf", "aider", "opencode", "qwen", "kimi", "osaurus", "antigravity", "openclaw", "hermes"]
+      },
+      "uniqueItems": true
+    },
     "depends_on": {
       "type": "array",
       "description": "Agent IDs that this agent logically depends on. The install tool may warn if a dependency is missing.",

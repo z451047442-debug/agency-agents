@@ -101,6 +101,11 @@
           "tdd_framework": {
             "type": "string",
             "description": "Language-specific test framework declaration."
+          },
+          "compatible_platforms": {
+            "type": "array",
+            "description": "AI coding platforms this agent is compatible with.",
+            "items": { "type": "string", "minLength": 1 }
           }
         },
         "additionalProperties": false
@@ -115,6 +120,14 @@
       "type": "integer",
       "minimum": 1,
       "description": "Total number of agent entries in the index."
+    },
+    "groupings": {
+      "type": "object",
+      "description": "Functional groupings mapping labels to category lists.",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
     }
   },
   "additionalProperties": false

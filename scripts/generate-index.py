@@ -17,6 +17,42 @@ from _shared import REPO, atomic_write, discover_agents, get_field, get_list_fie
 
 DEFAULT_OUT = REPO / "AGENTS.json"
 
+# Functional groupings for agent discovery and filtering.
+# Each group maps a human-readable label to a list of category directory names.
+GROUPINGS = {
+    "Engineering & Technology": [
+        "engineering", "infrastructure", "cybersecurity", "iot", "robotics",
+        "telecom", "web3", "data-science", "testing", "game-development",
+        "spatial-computing",
+    ],
+    "Business & Strategy": [
+        "strategy", "finance", "insurance", "sales", "marketing", "product",
+        "project-management", "operations", "real-estate", "retail", "securities",
+    ],
+    "Creative & Design": [
+        "design", "fashion", "beauty", "media-entertainment", "publishing",
+        "museums",
+    ],
+    "Health & Life Sciences": [
+        "healthcare", "pharma-biotech", "pets", "sports",
+    ],
+    "Physical World & Industry": [
+        "aerospace", "automotive", "construction", "energy", "environmental",
+        "manufacturing", "mining", "agriculture", "logistics", "food-beverage",
+        "forestry",
+    ],
+    "Public & Social Services": [
+        "government", "education", "emergency", "nonprofit", "legal", "hr",
+        "customer-service",
+    ],
+    "Specialized & Meta": [
+        "_solution", "specialized", "libraries", "localization", "thinking-models",
+    ],
+    "Lifestyle & Leisure": [
+        "home-lifestyle", "parenting-family", "tourism", "events", "lottery",
+    ],
+}
+
 
 def build_index() -> dict:
     """Scan all agent .md files and return the index dict."""
@@ -58,6 +94,7 @@ def build_index() -> dict:
         tdd_framework = get_field("tdd_framework", fm_text) or None
         tags = get_list_field("tags", fm_text) or None
         keywords = get_list_field("keywords", fm_text) or None
+        compatible_platforms = get_list_field("compatible_platforms", fm_text) or None
 
         agent = {
             "id": agent_id,
@@ -88,6 +125,8 @@ def build_index() -> dict:
             agent["tags"] = tags
         if keywords:
             agent["keywords"] = keywords
+        if compatible_platforms:
+            agent["compatible_platforms"] = compatible_platforms
         agents.append(agent)
         categories.add(category)
 
@@ -100,6 +139,7 @@ def build_index() -> dict:
         "agents": agents,
         "total_categories": unique_categories,
         "total_agents": len(agents),
+        "groupings": GROUPINGS,
     }
 
 
@@ -120,10 +160,13 @@ def format_json(data):
         if i < len(agents) - 1:
             entry += ","
         lines.append(entry)
-    lines.append(
+    tail = (
         '],"total_categories":' + str(data["total_categories"]) + ","
-        '"total_agents":' + str(data["total_agents"]) + "}"
+        '"total_agents":' + str(data["total_agents"])
     )
+    if data.get("groupings"):
+        tail += ',"groupings":' + json.dumps(data["groupings"], ensure_ascii=False)
+    lines.append(tail + "}")
     return "\n".join(lines) + "\n"
 
 
@@ -161,6 +204,7 @@ def main():
             current_agents != index["agents"]
             or current_data.get("total_agents") != index["total_agents"]
             or current_data.get("total_categories") != index["total_categories"]
+            or current_data.get("groupings") != index["groupings"]
         )
         if stale:
             print("ERROR: AGENTS.json is stale. "

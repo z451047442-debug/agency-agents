@@ -1,5 +1,49 @@
 # Changelog
 
+## [1.1.0](https://github.com/z451047442-debug/agency-agents/compare/v1.0.2...v1.1.0) (2026-08-01)
+
+
+### Features
+
+* add --no-cross-category-only flag to analyze-deps.py ([47dd173](https://github.com/z451047442-debug/agency-agents/commit/47dd17355ffa8ae9fa30758efced7eda67ea1efc))
+* add --phase and --json flags to suggest-nexus-roles.py ([0715764](https://github.com/z451047442-debug/agency-agents/commit/071576452c5ae295cd46b386db89e574ef678640))
+* add cross-platform Python installer (scripts/install.py) ([41591ba](https://github.com/z451047442-debug/agency-agents/commit/41591bae1aa851589986d8329b6570a6118878a8))
+* add dedicated Reality Checker agent for NEXUS Phase 4 gate ([6649f9d](https://github.com/z451047442-debug/agency-agents/commit/6649f9d301577ad79d74f1caddb03200f1130a5b))
+* add remote installer — no clone needed ([499d35f](https://github.com/z451047442-debug/agency-agents/commit/499d35f588115e886e12177c0b675dcc898e8779))
+* add tags, keywords, complexity, estimated_duration to agent schema ([27542fd](https://github.com/z451047442-debug/agency-agents/commit/27542fd6cdf2cc1fd23a827ff9c02df10602fc7e))
+* batch-add-hardening-v2 with keyword-based auto-detection ([be6ccab](https://github.com/z451047442-debug/agency-agents/commit/be6ccab449b3eba27cd200aa49d1ebce9ac0195a))
+* batch-add-metadata.py for populating new frontmatter fields ([0557abc](https://github.com/z451047442-debug/agency-agents/commit/0557abccaa612d92976f7a0198eba93fbb310577))
+* expand-thin-agents.py for batch content expansion of underweight agents ([d771d59](https://github.com/z451047442-debug/agency-agents/commit/d771d592c4679228ae175956d7fc8eea28bccca0))
+* integrate oh-my-claudecode runtime + quality hardening — 2.2.0 ([e16feb6](https://github.com/z451047442-debug/agency-agents/commit/e16feb6cd1d4b3061451608da1d6160dbbc7a8de))
+* linter and search support for new metadata fields ([f472569](https://github.com/z451047442-debug/agency-agents/commit/f47256997a7d792f878864a4a23f72ca0084fed5))
+* match-nexus-agents.py for project-to-agent matching ([f07d51c](https://github.com/z451047442-debug/agency-agents/commit/f07d51c1dbf656fa5ef3e7293e5e31270d9a69ce))
+* nexus-coverage.py for NEXUS phase coverage visualization ([a1629dd](https://github.com/z451047442-debug/agency-agents/commit/a1629ddb9143378c083c57527105555979a75a30))
+* populate tags, keywords, complexity, estimated_duration for all 1400 agents ([5b8e44a](https://github.com/z451047442-debug/agency-agents/commit/5b8e44ad77c3a926340a2478ee5aef6ba1ddae1c))
+* score baseline regression gate and agent discovery groupings ([2f28fad](https://github.com/z451047442-debug/agency-agents/commit/2f28fad558acb98e520102c2aee7a696567d941b))
+* v2.2.0 — ECC patterns: security audit, cost tier, fix-lint, feedback loop ([e11b7b9](https://github.com/z451047442-debug/agency-agents/commit/e11b7b97b3ba29e2ad3587d28a8e2e425d58cc00))
+
+
+### Bug Fixes
+
+* add 19 missing sections across 15 agent files ([bde268a](https://github.com/z451047442-debug/agency-agents/commit/bde268acf0fb3a048ce170cf78313e0fc8236ec0))
+* add agent count consistency check to CI (AGENTS.json ↔ pyproject.toml) ([cdf9b7b](https://github.com/z451047442-debug/agency-agents/commit/cdf9b7b0fc03acee9ef3d7663dba6536228b5dd8))
+* bug fixes, code cleanup, and 90% coverage threshold (v2.0.4) ([8a509d4](https://github.com/z451047442-debug/agency-agents/commit/8a509d489d077b8549458507bd8ff07e5a46ee1d))
+* comprehensive project audit and fix from prior session ([fe3811f](https://github.com/z451047442-debug/agency-agents/commit/fe3811f99d0ece1302fe6c106e81f4d0711798cf))
+* critical bugs and documentation consistency audit ([2bc81e7](https://github.com/z451047442-debug/agency-agents/commit/2bc81e75fee3192655ec71ed47c91801b45afac3))
+* data consistency and code quality hardening — 2.1.2 ([46ade0e](https://github.com/z451047442-debug/agency-agents/commit/46ade0e86d52bcf77dd2b6ef158862f65b35cbcc))
+* discover nested agent dirs + exclude non-agent directories ([31f4d1d](https://github.com/z451047442-debug/agency-agents/commit/31f4d1dfb8636e1928c4ee0bf9627b167541f76e))
+* make phase filter test non-vacuous, remove unused monkeypatch params ([064fc79](https://github.com/z451047442-debug/agency-agents/commit/064fc79dbe9073b122e54aa7f5d48f278158ef52))
+* parser bug causing 40% nexus_roles undercount + NEXUS hardening rebalance ([9d3fa92](https://github.com/z451047442-debug/agency-agents/commit/9d3fa92ce519b6d061f61ba0049648feafdf2bfd))
+* pipeline and schema hardening — 2.1.1 ([786f0b1](https://github.com/z451047442-debug/agency-agents/commit/786f0b19b7a785800cc8e48050b8735f308345eb))
+* regenerate agent-browser.html (1,399 agents, 62 categories) ([a74f54f](https://github.com/z451047442-debug/agency-agents/commit/a74f54fcc43c1e74c7adcf142a3b83c44c1e6cf5))
+* regenerate TIERS.md with correct agent counts (1,399 total, 62 categories) ([e49fb98](https://github.com/z451047442-debug/agency-agents/commit/e49fb98454ff7138aab481e5757123cc5ae680e6))
+* remove 11 broken depends_on refs and fix 4 WARN-level issues ([132e6c5](https://github.com/z451047442-debug/agency-agents/commit/132e6c598fffc4d9787c3aee9fd9813d438ab208))
+* resolve all README data inconsistencies between EN and ZH ([9b1e6e7](https://github.com/z451047442-debug/agency-agents/commit/9b1e6e75f0867d72c66a06e1d7a0fb5a93145171))
+* resolve critical bugs and data inconsistencies (v2.2.1) ([140d28c](https://github.com/z451047442-debug/agency-agents/commit/140d28ca219c67263fc6f2649367d240ee8dae1b))
+* resolve duplicate nexus_roles YAML keys in batch-add-hardening-v2 ([c596518](https://github.com/z451047442-debug/agency-agents/commit/c596518c97ce959da6311cbc531cc73e8bc22c14))
+* sync agent counts and add Chinese category labels in agent-browser ([5faac82](https://github.com/z451047442-debug/agency-agents/commit/5faac828a33f70f56b0f25883805b2ad0c1065ff))
+* v2.1.4 — bug fixes, doc accuracy, and reliability improvements ([8b80026](https://github.com/z451047442-debug/agency-agents/commit/8b800266573ad553a5186231afa6c39be8bc9494))
+
 ## [2.2.1] — 2026-07-31 — Bug Fixes & Data Consistency
 
 ### Fixed

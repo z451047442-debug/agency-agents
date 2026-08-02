@@ -194,10 +194,10 @@ function render() {
     var isOpen = expanded[a.id] ? ' open' : '';
     return '<div class="card' + isOpen + '" data-id="' + a.id + '">' +
       '<div class="head">' +
-        '<div class="emoji">' + a.emoji + '</div>' +
+        '<div class="emoji">' + esc(a.emoji) + '</div>' +
         '<div class="info">' +
-          '<div class="name">' + a.name + '</div>' +
-          '<div class="desc">' + a.description + '</div>' +
+          '<div class="name">' + esc(a.name) + '</div>' +
+          '<div class="desc">' + esc(a.description) + '</div>' +
         '</div>' +
       '</div>' +
       '<div class="meta">' +

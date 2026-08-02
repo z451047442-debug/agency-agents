@@ -29,6 +29,9 @@ def slugify(name: str) -> str:
 
 def install_agents(raw_base: str, tool: str, divisions: set[str] | None,
                    agent_filter: str | None) -> int:
+    if tool != "claude-code":
+        print(f"Error: --tool '{tool}' is not supported. Remote install only supports claude-code.")
+        return 0
     dest = Path.home() / ".claude" / "agents"
     dest.mkdir(parents=True, exist_ok=True)
 

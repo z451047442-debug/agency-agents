@@ -67,7 +67,8 @@ body:
         - government
         - healthcare
         - hr
-        - hr-tech
+        - home-lifestyle
+        - hr
         - infrastructure
         - insurance
         - iot
@@ -81,9 +82,9 @@ body:
         - media-entertainment
         - mining
         - museums
-        - network-engineering
         - nonprofit
         - operations
+        - parenting-family
         - pets
         - pharma-biotech
         - product
@@ -94,16 +95,16 @@ body:
         - retail
         - robotics
         - sales
-        - securities
-        - security
         - spatial-computing
         - specialized
         - sports
         - strategy
         - telecom
         - testing
+        - thinking-models
         - tourism
         - web3
+        - _solution
         - new category (explain below)
     validations:
       required: true

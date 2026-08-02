@@ -1507,7 +1507,7 @@ def main():
         down = sum(1 for c in changes if c[5] == "DOWN")
         new = sum(1 for c in changes if c[5] == "NEW")
         if changes:
-            net = sum(c[4] for c in changes if isinstance(c[4], int))
+            net = sum(c[4] for c in changes if isinstance(c[4], (int, float)))
             net_str = f"+{net}" if net > 0 else str(net)
             print(f"  {GREEN}{up} up{RESET}  {RED}{down} down{RESET}  {new} new  net: {net_str}")
         else:
@@ -1637,7 +1637,7 @@ def main():
             sys.exit(1)
 
     # ── Baseline regression gate ──────────────────────────────────────────────
-    if not args.no_baseline and all_totals:
+    if not args.no_baseline and all_totals and not args.file:
         import statistics
         current = {
             "date": date.today().isoformat(),

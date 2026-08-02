@@ -50,15 +50,24 @@ def resolve_dest(tool: str, scope: str) -> list[tuple[Path, str]]:
     cfg = get_tool_cfg(tool)
     home = Path.home()
     results = []
+    TEMPLATES = [
+        "/{slug}.md", "/{slug}.toml", "/{slug}.yaml",
+        "/{slug}/SKILL.md", "/{slug}/SOUL.md", "/{slug}/agent.yaml",
+    ]
     for tmpl in cfg.get("dest", {}).get(scope, []):
-        if tmpl.endswith("/{slug}.md"):
-            base = tmpl[:-len("/{slug}.md")]
+        matched = False
+        for pattern in TEMPLATES:
+            if tmpl.endswith(pattern):
+                base = tmpl[:-len(pattern)]
+                resolved = home / base if scope == "user" else REPO / base
+                results.append((resolved, pattern.lstrip("/")))
+                matched = True
+                break
+        if not matched:
+            base = tmpl.rsplit("/", 1)[0] if "/" in tmpl else ""
+            fname = tmpl.rsplit("/", 1)[-1] if "/" in tmpl else tmpl
             resolved = home / base if scope == "user" else REPO / base
-            results.append((resolved, "{slug}.md"))
-        elif tmpl.endswith("/{slug}.toml"):
-            base = tmpl[:-len("/{slug}.toml")]
-            resolved = home / base if scope == "user" else REPO / base
-            results.append((resolved, "{slug}.toml"))
+            results.append((resolved, fname))
     return results
 
 

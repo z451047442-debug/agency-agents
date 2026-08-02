@@ -31,6 +31,6 @@ Your rating helps others find the best specialists.
 
 ## What's next?
 
-- `python scripts/search-agents.py --popular` — see what's trending
+- `python scripts/search-agents.py --stats` — see what's trending
 - `docs/nexus-strategy.md` — combine agents for complex projects
 - `python scripts/feedback.py --prompt` — rate agents you've used

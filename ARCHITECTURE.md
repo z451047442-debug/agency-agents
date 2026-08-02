@@ -1,8 +1,8 @@
-# The Agency — System Architecture v2.1.3
+# The Agency — System Architecture v2.2.1
 
-**1,399 AI Agent Personality Definitions · 62 Categories · 35 Tooling Scripts · 1,241 Tests · OMC Smart Plugin**
+**1,400 AI Agent Personality Definitions · 62 Categories · 35 Tooling Scripts · 1,357 Tests · OMC Smart Plugin**
 
-Generated: 2026-07-28 23:29 UTC
+Generated: 2026-08-01 23:58 UTC
 
 ---
 
@@ -20,28 +20,30 @@ Generated: 2026-07-28 23:29 UTC
 
 ---
 
-## Layer 1: Test Suite (35 modules, 1,241 tests)
+## Layer 1: Test Suite (40 modules, 1,357 tests)
 
 | Module (tests) | Module (tests) |
 |----------------|----------------|
-| test_score_agents.py (96) | test_clean.py (25) |
-| test_agent_lifecycle.py (80) | test_rebalance_nexus_phases.py (25) |
-| test_convert.py (78) | test_shard_index.py (25) |
-| test_nexus_orchestrator.py (78) | test_build_architecture.py (23) |
-| test_lint_agents.py (75) | test_suggest_nexus_roles.py (21) |
-| test_analyze_deps.py (73) | test_batch_version.py (20) |
-| test_omc_scripts.py (69) | test_check_divisions.py (18) |
-| test_quality_report.py (53) | test_batch_add_deps.py (16) |
-| test_search_agents.py (47) | test_batch_date_added.py (16) |
+| test_score_agents.py (96) | test_rebalance_nexus_phases.py (25) |
+| test_agent_lifecycle.py (80) | test_shard_index.py (25) |
+| test_convert.py (78) | test_suggest_nexus_roles.py (25) |
+| test_lint_agents.py (78) | test_build_architecture.py (23) |
+| test_nexus_orchestrator.py (78) | test_match_nexus_agents.py (22) |
+| test_analyze_deps.py (73) | test_nexus_coverage.py (21) |
+| test_omc_scripts.py (69) | test_batch_version.py (20) |
+| test_quality_report.py (53) | test_check_divisions.py (18) |
+| test_search_agents.py (51) | test_batch_add_deps.py (16) |
+| test_batch_add_metadata.py (42) | test_batch_date_added.py (16) |
 | test_batch_nexus_roles.py (42) | test_analyze_deps_auto.py (15) |
 | test_build_hermes_plugin.py (40) | test_check_dupes.py (15) |
-| test_expand_agent.py (40) | test_generate_index.py (11) |
-| test_contribute.py (38) | test_quality_pipeline.py (10) |
-| test_feedback.py (37) | test_install_remote.py (9) |
-| test_validate_index.py (37) | test_batch_nexus_roles_gap.py (7) |
-| test_shared.py (35) | test_integration_pipeline.py (6) |
-| test_add_comm_section.py (29) | test_build_agent_browser.py (3) |
-| test_check_agent_originality.py (29) |  |
+| test_expand_agent.py (40) | test_expand_thin_agents.py (11) |
+| test_contribute.py (38) | test_generate_index.py (11) |
+| test_feedback.py (37) | test_quality_pipeline.py (10) |
+| test_validate_index.py (37) | test_batch_add_hardening_v2.py (9) |
+| test_shared.py (35) | test_install_remote.py (9) |
+| test_add_comm_section.py (29) | test_batch_nexus_roles_gap.py (7) |
+| test_check_agent_originality.py (29) | test_integration_pipeline.py (6) |
+| test_clean.py (25) | test_build_agent_browser.py (3) |
 
 ---
 
@@ -61,7 +63,7 @@ Generated: 2026-07-28 23:29 UTC
 **__init__.py** — Module entry point and dynamic loader
 - Exports: `Re-exports all 15 symbols + load_module()`
 
-**33 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · audit-security · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · export-omc-agents · extract-patterns · fix-filename-prefixes · fix-lint · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · nexus-orchestrator · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
+**38 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · audit-security · batch-add-hardening-v2 · batch-add-metadata · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · expand-thin-agents · export-omc-agents · extract-patterns · fix-filename-prefixes · fix-lint · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · match-nexus-agents · nexus-coverage · nexus-orchestrator · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
 
 ---
 
@@ -122,7 +124,7 @@ Plus 19 shell wrappers (thin entry points delegating to .py counterparts).
 
 ---
 
-## Layer 4: Agent Content (1,399 .md files, 62 categories)
+## Layer 4: Agent Content (1,400 .md files, 62 categories)
 
 ### Category Distribution (all 62)
 
@@ -188,7 +190,7 @@ Plus 19 shell wrappers (thin entry points delegating to .py counterparts).
 | 家居生活 | home-lifestyle | 5 |
 | 博物馆 | museums | 5 |
 | 亲子家庭 | parenting-family | 5 |
-| 解决方案 | _solution | 3 |
+| 解决方案 | _solution | 4 |
 | 图书馆 | libraries | 3 |
 
 ### Special Directories
@@ -309,7 +311,7 @@ All 16 consumers depend on `_shared/` modules; cross-script imports use `load_mo
 
 Phase 0: Discovery -> Phase 1: Strategy -> Phase 2: Foundation -> Phase 3: Build -> Phase 4: Hardening -> Phase 5: Launch -> Phase 6: Operate
 
-**7 phases** with 1,399 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
+**7 phases** with 1,400 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
 
 Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` | `docs/runbooks/` | `docs/teams/` | `docs/coordination/`
 
@@ -319,15 +321,15 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 
 | Metric | Value |
 |--------|-------|
-| Version | v2.1.3 |
+| Version | v2.2.1 |
 | Python | >=3.10 |
 | Coverage threshold | 90% |
-| Agent files | 1,399 |
+| Agent files | 1,400 |
 | Tool scripts | 35 (.py) + 19 (.sh) |
-| Tests | 1,241 across 35 modules |
+| Tests | 1,357 across 40 modules |
 | CI workflows | 7 |
 | Integration targets | 10 |
 | OMC plugin artifacts | 4 |
 | NEXUS phases | 7 |
 
-Generated: 2026-07-28 23:29 UTC
+Generated: 2026-08-01 23:58 UTC

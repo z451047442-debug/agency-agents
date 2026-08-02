@@ -166,7 +166,7 @@ def analyze_expansion_needs(agent_id, category, filepath, verbose=False):
             })
             word_budget += max(0, 400 - result["word_count"])
 
-    if scores["structure"] < 3:
+    if scores["structure"] < 1:
         # Find which specific sections are missing
         body = get_body(filepath.read_text(encoding="utf-8"))
         missing = []
@@ -183,7 +183,7 @@ def analyze_expansion_needs(agent_id, category, filepath, verbose=False):
         })
         word_budget += len(missing) * 60
 
-    if scores["frontmatter"] < 2:
+    if scores["frontmatter"] < 1:
         needs.append({
             "dimension": "frontmatter",
             "current": result.get("frontmatter_details", []),

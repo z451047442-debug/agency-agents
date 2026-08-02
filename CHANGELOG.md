@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.2.2] — 2026-08-02 — CI Recovery & Cross-File Consistency
+
+### Fixed
+- **Critical**: `ci.yml` hard assertion `total_agents == 1399` — CI permanently red (AGENTS.json is 1400). Synced `pyproject.toml`.
+- **Critical**: `convert.py --check` always failed — OMC plugin not in `_CONVERT_EXTERNAL`.
+- **Critical**: `extract-patterns.py` key mismatch (`agent_id` → `agent`) — all ratings classified as "unknown".
+- **High**: `score-agents.py --compare` net change always 0 — `isinstance(delta, int)` always false for float deltas.
+- **High**: `contribute.py` effort never "done" — v1 dimension caps changed without updating thresholds.
+- **High**: `expand-agent.py` structure/frontmatter thresholds always true on v1 0-1 scales.
+- **Medium**: `quality-report.py` incorrect per-dimension max scores.
+- **Medium**: `install.py` silently skipped 4 tools (antigravity/osaurus/kimi/openclaw).
+- **Medium**: `install-remote.py` --tool arg parsed but ignored; now rejects unsupported tools.
+- **Medium**: `build-agent-browser.py` XSS — agent name/description/emoji unescaped in HTML.
+- **Low**: `CONTRIBUTING.md` referenced deleted `requirements-dev.txt`.
+- **Low**: `QUICKSTART.md` `--popular` flag doesn't exist → `--stats`.
+
+### Data
+- **AGENTS.json**: regenerated (1400/62); `_solution-reality-checker` emoji fixed.
+- **.score-history.jsonl**: deduplicated.
+- **CRLF → LF**: 16 files converted.
+
+### Documentation
+- **README/README-zh**: count 1399→1400, Python 3.9+→3.10+, removed hardcoded paths.
+- **ARCHITECTURE.md/html**: regenerated with correct counts.
+- **LICENSE**: copyright "AgentLand"→"The Agency", 2025→2026.
+- **agent-submission.yml**: removed 4 deprecated categories, added 4 missing.
+
 ## [2.2.1] — 2026-07-31 — Bug Fixes & Data Consistency
 
 ### Fixed

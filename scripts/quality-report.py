@@ -309,10 +309,10 @@ def print_agent_detail(agent):
     # Score breakdown
     print(f"{BOLD}Score Breakdown:{RESET}")
     dims = [
-        ("Content Depth", "content_depth", 3, f"{agent['word_count']} words"),
-        ("Structure", "structure", 3, f"{agent['sections_found']}/7 sections"),
-        ("Frontmatter", "frontmatter", 2, "metadata completeness"),
-        ("File Health", "file_health", 2, f"{agent['file_size_kb']} KB, {agent.get('broken_links', 0)} broken links"),
+        ("Content Depth", "content_depth", 4, f"{agent['word_count']} words"),
+        ("Structure", "structure", 1, f"{agent['sections_found']}/7 sections"),
+        ("Frontmatter", "frontmatter", 1, "metadata completeness"),
+        ("File Health", "file_health", 1, f"{agent['file_size_kb']} KB, {agent.get('broken_links', 0)} broken links"),
     ]
     for label, key, max_score, detail in dims:
         score = agent["scores"].get(key, 0)

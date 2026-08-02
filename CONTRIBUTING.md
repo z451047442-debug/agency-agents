@@ -30,7 +30,7 @@ This project and everyone participating in it is governed by our Code of Conduct
 Before contributing, set up your local development environment:
 
 1. Read the [Development Setup Guide](docs/DEVELOPMENT.md) for prerequisites, clone steps, and CI overview
-2. Run the test suite to confirm everything works: `pip install -r requirements-dev.txt && python -m pytest tests/ -v`
+2. Run the test suite to confirm everything works: `pip install -e ".[dev]" && python -m pytest tests/ -v`
 3. Install the pre-commit hook to auto-validate your agents before every commit: `cp scripts/git-hooks/pre-commit .git/hooks/pre-commit`
 
 If you are contributing translations, see the [i18n contribution guide](docs/CONTRIBUTING-I18N.md). For a deep dive into how the scripts system is organized, see [Script Architecture](docs/SCRIPT-ARCHITECTURE.md).

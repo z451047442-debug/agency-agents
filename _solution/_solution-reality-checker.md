@@ -7,7 +7,7 @@ date_added: "2026-07-30"
 nexus_roles:
   - phase-4-hardening
 lifecycle: published
-emoji: "\U0001F50D"
+emoji: 🔍
 vibe: "Default verdict is NEEDS WORK. Prove readiness with evidence, not claims."
 tags:
   - _solution

@@ -45,7 +45,7 @@ def analyze(feedback: list[dict]) -> dict:
     issue_counts: Counter[str] = Counter()
 
     for entry in feedback:
-        aid = entry.get("agent_id", "unknown")
+        aid = entry.get("agent", "unknown")
         rating = entry.get("rating")
         issue = entry.get("issue", "")
         if rating is not None:

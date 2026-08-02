@@ -61,7 +61,7 @@ RISK_MULTIPLIER = {"critical": 2.0, "high": 1.5, "general": 1.0}
 
 def estimate_effort(issues, scores, word_count):
     """Categorize the effort needed to fix an agent."""
-    if not issues and all(s >= v for s, v in zip(scores.values(), [2, 3, 2, 2], strict=False)):
+    if not issues and scores.get("content_depth", 0) >= 3 and scores.get("structure", 0) >= 1 and scores.get("frontmatter", 0) >= 1:
         return "done"
 
     needs_content = scores.get("content_depth", 0) < 2
@@ -117,11 +117,11 @@ def build_opportunities(category_filter=None):
             impact += min(gap / 100, 3) * IMPACT_WEIGHTS["content_depth"]
 
         # Structure gap impact
-        if scores.get("structure", 0) < 3:
+        if scores.get("structure", 0) < 1:
             impact += (3 - scores["structure"]) * IMPACT_WEIGHTS["structure"]
 
         # Frontmatter gap
-        if scores.get("frontmatter", 0) < 2:
+        if scores.get("frontmatter", 0) < 1:
             impact += (2 - scores["frontmatter"]) * IMPACT_WEIGHTS["frontmatter"]
 
         # Security flags

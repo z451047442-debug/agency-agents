@@ -155,14 +155,18 @@ jobs:
           echo "::endgroup::"
 
           echo "::group::SAST (bandit)"
+          set -o pipefail
           python -m bandit -c pyproject.toml -r scripts/ -f txt -ll 2>&1 | tee bandit-report.txt
+          BANDIT_EXIT=$?
           echo "::endgroup::"
 
           echo "::group::Security Lint Findings"
           python scripts/lint-agents.py $CHANGED_FILES --no-freshness 2>&1 | grep "SECURITY" || echo "No content security findings"
           echo "::endgroup::"
 
-          exit $LINT_EXIT
+          if [ $LINT_EXIT -ne 0 ] || [ $BANDIT_EXIT -ne 0 ]; then
+            exit 1
+          fi
 
   # ── Dependency validation ──────────────────────────────────────────────
   validate-deps:

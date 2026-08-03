@@ -4,7 +4,9 @@
   "title": "Agency Tool Configuration",
   "description": "Schema for tool definitions consumed by convert.sh and install.sh. Each tool specifies its output format, install destination, and file naming conventions.",
   "type": "object",
-  "required": ["tools"],
+  "required": [
+    "tools"
+  ],
   "properties": {
     "tools": {
       "type": "object",
@@ -12,7 +14,12 @@
       "patternProperties": {
         "^[a-z][a-z0-9-]*$": {
           "type": "object",
-          "required": ["label", "format", "dest", "kebab"],
+          "required": [
+            "label",
+            "format",
+            "dest",
+            "kebab"
+          ],
           "properties": {
             "label": {
               "type": "string",
@@ -25,7 +32,22 @@
             },
             "format": {
               "type": "string",
-              "enum": ["identity", "codex-toml", "gemini-md", "qwen-md", "cursor-mdc", "opencode-md", "skill-md", "aider-conventions", "antigravity-skill", "kimi-agent", "openclaw-workspace", "windsurf-rules", "hermes-router-plugin", "omc-plugin"],
+              "enum": [
+                "identity",
+                "codex-toml",
+                "gemini-md",
+                "qwen-md",
+                "cursor-mdc",
+                "opencode-md",
+                "skill-md",
+                "aider-conventions",
+                "antigravity-skill",
+                "kimi-agent",
+                "openclaw-workspace",
+                "windsurf-rules",
+                "hermes-router-plugin",
+                "omc-plugin"
+              ],
               "description": "Output file format / renderer contract."
             },
             "ext": {
@@ -38,11 +60,15 @@
               "properties": {
                 "user": {
                   "type": "array",
-                  "items": { "type": "string" }
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "project": {
                   "type": "array",
-                  "items": { "type": "string" }
+                  "items": {
+                    "type": "string"
+                  }
                 }
               }
             },
@@ -60,6 +86,85 @@
               "type": "boolean",
               "default": false,
               "description": "Whether all agents are merged into one file (aider, windsurf)."
+            },
+            "id": {
+              "type": "string",
+              "description": "Unique tool identifier (matches key)."
+            },
+            "short": {
+              "type": "string",
+              "description": "Short display label."
+            },
+            "accent": {
+              "type": "string",
+              "description": "Accent color for UI."
+            },
+            "icon": {
+              "type": "string",
+              "description": "Icon identifier for UI."
+            },
+            "order": {
+              "type": "integer",
+              "description": "Display order in UI."
+            },
+            "installKind": {
+              "type": "string",
+              "enum": [
+                "per-agent",
+                "roster",
+                "plugin"
+              ],
+              "description": "Installation mechanism."
+            },
+            "scope": {
+              "type": "string",
+              "enum": [
+                "user",
+                "project",
+                "both"
+              ],
+              "description": "Install scope."
+            },
+            "slugFrom": {
+              "type": "string",
+              "enum": [
+                "source",
+                "name"
+              ],
+              "description": "How to derive the slug."
+            },
+            "detect": {
+              "type": "object",
+              "description": "Detection configuration for installed tools.",
+              "properties": {
+                "bins": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "dirs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "version": {
+              "type": "object",
+              "description": "Version detection configuration.",
+              "properties": {
+                "bin": {
+                  "type": "string"
+                },
+                "args": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
             }
           }
         }

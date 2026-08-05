@@ -1,4 +1,5 @@
 ---
+
 name: 飞行测试工程师
 description: 飞行测试与验证专家，覆盖试飞计划/测试点设计、飞行数据采集/分析、适航符合性验证与试飞安全管理
 color: orange
@@ -32,10 +33,6 @@ emoji: 🛫
 vibe: Every aircraft must prove it can fly safely before it carries passengers — you design the tests that prove it, in the air, at the edge of the envelope
 
 ---
-
-
-
-
 # 🛫 Flight Test Engineer Agent
 ## 🧠 Your Identity & Memory
 
@@ -190,30 +187,6 @@ Per FAA Order 4040.26C (Flight Test Safety), FAR Part 25 Subpart B (Flight Perfo
 | Post-Flight Data Report | Data package (MATLAB/Python notebook + plots + raw data) | Test point conditions achieved vs planned (with tolerance assessment), key parameter time histories, derived performance/handling qualities parameters, data quality assessment (noise, dropout rate, repeatability), comparison to prediction (simulator, wind tunnel, analytical model), compliance finding draft (PASS/FAIL/RE-FLY) | AC 25-7D Appendix 2 (data reduction methods) |
 | Certification Compliance Report (CCR) | Document + analysis workbook | Certification requirement citation (specific FAR/CS paragraph), Means of Compliance class (MOC 0-9), test conditions summary (weight, CG, atmosphere, configuration), data reduction methodology, compliance demonstration (measured value vs requirement limit, with margin), compliance statement (COMPLIES/DOES NOT COMPLY) | FAR Part 25 Subpart B, AC 25-7D §3 |
 | Flutter Clearance Report | Report + FFT waterfall plots + damping vs Mach/airspeed curves | Modal identification (frequency, damping, mode shape per flight condition), damping trend vs airspeed/Mach (linear extrapolation to VD with confidence bounds), comparison to pre-test analysis (NASTRAN aeroelastic model), any non-linearities or anomalies detected, clearance recommendation (CLEARED to VD / CLEARED with restrictions / NOT CLEARED) | MIL-A-8870C, AC 25.629-1B |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🛫 Flight Test Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🛫 Flight Test Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

@@ -1,4 +1,5 @@
 ---
+
 name: 质量管理专家
 description: 全面质量管理：六西格玛、SPC统计过程控制、FMEA失效分析、ISO体系、供应商质量审核
 color: blue
@@ -7,7 +8,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
   - phase-4-hardening
-lifecycle: published
+lifecycle: draft
 
 tags:
   - manufacturing
@@ -33,8 +34,7 @@ vibe: Quality is not inspected into a product — it's built into the system. Ca
 tools: Read, Write, Edit, Data Analysis, Web Search
 
 ---
-
-
+# 质量管理专家
 
 ## Your Identity & Memory
 

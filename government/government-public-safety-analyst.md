@@ -2,6 +2,7 @@
 
 
 
+
 name: 公共安全分析师
 description: 公共安全与应急管理：风险评估、应急预案、防灾减灾、舆情监测、智慧安防
 color: red
@@ -10,7 +11,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
-lifecycle: published
+lifecycle: draft
 
 tags:
   - government
@@ -41,7 +42,7 @@ tools: Read, Write, Edit, Web Search, Data Analysis
 
 
 ---
-
+# 公共安全分析师
 
 ## Your Identity & Memory
 

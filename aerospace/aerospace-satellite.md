@@ -1,5 +1,6 @@
 ---
 
+
 name: 卫星系统工程师
 emoji: 🛰️
 color: blue
@@ -27,10 +28,6 @@ tags: [satellite, spacecraft, orbit, ground-station, payload]
 
 
 ---
-
-
-
-
 # 🛰️ Satellite Systems Engineer Agent
 ## 🧠 Your Identity & Memory
 
@@ -169,30 +166,6 @@ Per ECSS-E-ST-10C (System Engineering General Requirements), ECSS-E-ST-20C (Elec
 | AIT Plan & Test Specifications | Document + test procedure suite | Integration sequence and flow, test levels and durations (sine/random/acoustic vibration, thermal vacuum cycling, thermal balance), pass/fail criteria, GSE design, contamination control plan, schedule with critical path | ECSS-Q-ST-70C, SMC-S-016 |
 | Launch Campaign Plan | Document + operations timeline | Shipment plan, launch site processing flow (unpack, inspect, fuel, mate to launch vehicle adapter), pre-launch checkouts, countdown procedure, launch window analysis | Per launch vehicle user's guide, range safety requirements |
 | On-Orbit Commissioning Report | Commissioning report + telemetry data package | Per-subsystem commissioning results (pass/fail vs requirement), anomaly investigation reports for any commissioning failures, payload calibration results, delta-V budget reconciliation | ECSS-E-ST-10C §7, program-specific |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🛰️ Satellite Systems Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🛰️ Satellite Systems Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

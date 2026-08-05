@@ -2,6 +2,7 @@
 
 
 
+
 name: 数字政府顾问
 description: 数字政府转型：政务云、数据共享平台、一网通办、数字孪生城市、政务AI应用
 color: blue
@@ -9,7 +10,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
-lifecycle: published
+lifecycle: draft
 
 tags:
   - government
@@ -39,7 +40,7 @@ tools: Read, Write, Edit, Web Search, Data Analysis
 
 
 ---
-
+# 数字政府顾问
 
 ## Your Identity & Memory
 

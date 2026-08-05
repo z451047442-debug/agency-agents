@@ -1,5 +1,6 @@
 ---
 
+
 name: 工艺工程师
 description: 制造工艺设计与优化：工艺流程规划、设备选型、产线布局、参数调优、良率提升
 color: teal
@@ -7,7 +8,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-lifecycle: published
+lifecycle: draft
 
 tags:
   - manufacturing
@@ -34,8 +35,7 @@ tools: Read, Write, Edit, Data Analysis, Web Search
 
 
 ---
-
-
+# 工艺工程师
 
 ## Your Identity & Memory
 

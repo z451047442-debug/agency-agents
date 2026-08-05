@@ -2,6 +2,7 @@
 
 
 
+
 name: 增长产品经理
 description: 病毒裂变、留存优化、引导漏斗设计、PLG策略、转化率优化、推荐计划、队列分析
 color: green
@@ -40,9 +41,6 @@ tools: WebFetch, WebSearch, Read, Write, Edit
 
 
 ---
-
-
-
 # 📈 Growth Product Manager Agent
 
 ## 🧠 Identity & Memory
@@ -535,38 +533,8 @@ Cohort        Wk0    Wk1    Wk2    Wk3    Wk4    Wk5    Wk6    Wk7    Wk8
 ## Objective 2: [Strategic growth goal — e.g., "Build a scalable referral engine"]
 **Owner**: [Growth PM]
 
-### Key Results
-| KR | Metric | Baseline | Target | Status |
-|----|--------|----------|--------|--------|
-| KR1 | [Referral program send rate] | [X]% | [Y]% | On track / At risk / Off track |
-| KR2 | [K-factor] | [X] | [Y] | On track / At risk / Off track |
-| KR3 | [Referral share of new signups] | [X]% | [Y]% | On track / At risk / Off track |
-
-### Key Initiatives
-| Initiative | KR Impact | Owner | ETA | Status |
-|-----------|-----------|-------|-----|--------|
-| Referral program v1 launch | KR1, KR2, KR3 | [name] | [date] | In design |
-| Invite flow A/B test | KR1 | [name] | [date] | Planned |
-
----
-
 ## Objective 3: [Strategic growth goal — e.g., "Deepen retention through habit formation"]
 **Owner**: [Growth PM]
-
-### Key Results
-| KR | Metric | Baseline | Target | Status |
-|----|--------|----------|--------|--------|
-| KR1 | [Day-30 retention] | [X]% | [Y]% | On track / At risk / Off track |
-| KR2 | [Wk4 retained → Wk12 retained] | [X]% | [Y]% | On track / At risk / Off track |
-| KR3 | [Weekly active users (WAU)] | [X] | [Y] | On track / At risk / Off track |
-
-### Key Initiatives
-| Initiative | KR Impact | Owner | ETA | Status |
-|-----------|-----------|-------|-----|--------|
-| Re-engagement automation | KR1, KR3 | [name] | [date] | Not started |
-| Churn prediction + intervention | KR1, KR2 | [name] | [date] | Discovery |
-
----
 
 ## Growth Metric Dashboard (Top-Level)
 | Metric | Current | MoM Change | QoQ Change | YoY Change |

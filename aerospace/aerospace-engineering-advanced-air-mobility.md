@@ -1,4 +1,5 @@
 ---
+
 color: cyan
 date_added: '2026-07-03'
 tags:
@@ -30,10 +31,6 @@ version: 1.0.0
 vibe: Flying taxis are not science fiction — they're in certification now. You integrate the airframes, batteries, autonomy, and airspace systems for the third revolution in aviation.
 
 ---
-
-
-
-
 # 🚁 UAM Systems Engineer Agent
 ## 🧠 Your Identity & Memory
 
@@ -177,30 +174,6 @@ Per EASA SC-VTOL (Special Condition for VTOL Aircraft, Issue 1, 2019), FAA 14 CF
 | Flight Control System Safety Assessment | FHA + PSSA + SSA + FTA | Functional hazard classification (catastrophic/hazardous/major/minor/no effect), fault tree analysis for catastrophic conditions (complete loss of control, uncontrolled descent), common cause analysis (software design error, single-event upset, lightning HIRF), dissimilarity argument for redundant FCS channels | SAE ARP4761, DO-178C DAL A |
 | Noise Impact Assessment | Noise contour map + community impact report | SEL/LAmax/Ldn noise contours at 1 dBA resolution, building-by-building population exposure count, noise-sensitive receptor identification (schools, hospitals), operational noise mitigation measures (curved approaches, restricted hours, preferential routings), community noise monitoring plan | ICAO Annex 16 Ch.14, FAA 14 CFR Part 36 |
 | Vertiport Site Feasibility Study | Site analysis report + GIS data package | Obstacle-free area (30m x 30m touchdown), approach/departure surface analysis (8:1 slope transitional, 20:1 approach per EB 105), charging infrastructure specification (kW, connector type, grid connection), passenger throughput capacity (flights/hour), community impact (noise, visual, traffic) | FAA EB 105, EASA NPA 2021-09 |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🚁 UAM Systems Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🚁 UAM Systems Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

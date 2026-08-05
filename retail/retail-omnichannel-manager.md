@@ -3,6 +3,7 @@
 
 
 
+
 name: 全渠道运营经理
 description: 线上线下全渠道运营：门店数字化、私域流量、直播电商、即时零售、会员体系
 color: pink
@@ -10,7 +11,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-lifecycle: published
+lifecycle: draft
 
 tags:
   - retail
@@ -43,7 +44,7 @@ tools: Read, Write, Edit, Web Search, Data Analysis
 
 
 ---
-
+# 全渠道运营经理
 
 ## Your Identity & Memory
 

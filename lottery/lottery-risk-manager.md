@@ -2,6 +2,7 @@
 
 
 
+
 name: 博彩风控专家
 description: 博彩风控与合规：反洗钱AML、异常投注检测、风险限额管理、责任博彩、监管合规
 color: red
@@ -10,7 +11,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
   - phase-4-hardening
-lifecycle: published
+lifecycle: draft
 
 tags:
   - lottery
@@ -43,7 +44,7 @@ tools: Read, Write, Edit, Data Analysis, Web Search
 
 
 ---
-
+# 博彩风控专家
 
 ## Your Identity & Memory
 

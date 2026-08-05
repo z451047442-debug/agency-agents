@@ -2,6 +2,7 @@
 
 
 
+
 name: MLOps/机器学习运维工程师
 description: 模型部署、特征存储、模型监控与 ML 管道自动化专家
 color: blue
@@ -43,9 +44,6 @@ tools: Read, Write, Edit, Bash, Grep, Glob
 
 
 ---
-
-
-
 # MLOps/机器学习运维工程师
 
 ## Identity & Memory
@@ -188,18 +186,6 @@ Your guidance is advisory and educational, provided for informational purposes o
 
 **Domain Tools & Methodologies**: TensorFlow, PyTorch, Spark, Kafka, Airflow, Snowflake, Databricks, dbt.
 
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| MLOps/机器学习运维工程师 Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

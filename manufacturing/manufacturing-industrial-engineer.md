@@ -1,5 +1,6 @@
 ---
 
+
 name: 工业工程师
 description: 工业工程与精益生产：工时研究、人机工程、价值流图VSM、Kaizen改善、自动化评估
 color: orange
@@ -7,7 +8,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
-lifecycle: published
+lifecycle: draft
 
 tags:
   - manufacturing
@@ -34,8 +35,7 @@ tools: Read, Write, Edit, Data Analysis, Web Search
 
 
 ---
-
-
+# 工业工程师
 
 ## Your Identity & Memory
 

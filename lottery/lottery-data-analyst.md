@@ -3,6 +3,7 @@
 
 
 
+
 name: 彩票数据分析师
 description: 彩票数据深度分析：历史号码统计、冷热号趋势、概率建模、返奖率分析、彩民行为研究
 color: gold
@@ -11,7 +12,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-lifecycle: published
+lifecycle: draft
 
 tags:
   - lottery
@@ -45,7 +46,7 @@ tools: Read, Write, Edit, Data Analysis, Web Search
 
 
 ---
-
+# 彩票数据分析师
 
 ## Your Identity & Memory
 

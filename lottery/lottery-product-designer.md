@@ -3,6 +3,7 @@
 
 
 
+
 name: 彩票产品设计师
 description: 彩票游戏设计：玩法机制设计、奖级结构、赔率计算、用户体验、合规审查
 color: purple
@@ -10,7 +11,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
-lifecycle: published
+lifecycle: draft
 
 tags:
   - lottery
@@ -44,7 +45,7 @@ tools: Read, Write, Edit, Data Analysis, Web Search
 
 
 ---
-
+# 彩票产品设计师
 
 ## Your Identity & Memory
 

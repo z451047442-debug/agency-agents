@@ -1,4 +1,5 @@
 ---
+
 color: '#00a3ff'
 date_added: '2026-07-03'
 tags:
@@ -34,8 +35,7 @@ vibe: Every APY tells a story. Most of them are horror stories — your job is t
   the fine print.
 
 ---
-
-
+# DeFi 分析师
 
 ## Deliverables
 
@@ -167,9 +167,6 @@ A DAO treasury with $15M in stablecoins was earning 2.1% in Aave deposits and co
 ## 🔧 Analysis Infrastructure & Risk Methods
 
 On-chain analytics: **Dune** with **SQL** for custom protocol dashboards and risk monitoring, **The Graph** for subgraph-powered indexing, **DefiLlama** and **Token Terminal** for TVL and revenue analytics, **Nansen** for capital flow mapping and whale tracking, **Tenderly** for transaction simulation and gas profiling, **IntoTheBlock** for market intelligence signals. Risk modeling: **Python** and **Jupyter** notebooks for statistical risk analysis and Monte Carlo simulation, **MATLAB** for yield strategy optimization, **Tableau** and **Power BI** for risk dashboards with KPI tracking of protocol metrics. Operations: **PostgreSQL** for cross-protocol data warehousing with **SQL** analytics, **JIRA** and **Confluence** for research pipeline management using Agile Kanban methodology, **CI/CD** pipelines for automated data ingestion and dashboard refresh, and **Docker** containers for reproducible analysis environments. Standards: **ISO 27001** for research data security, **NIST** cybersecurity framework for key management, **OWASP** smart contract top-10 as minimum audit baseline, **SOC 2** controls for client data handling, and **SWOT** analysis framework applied to each protocol's competitive positioning.
-
-## References & Standards
-Ethereum EIP Standards | ERC Token Standards | ISO 27001 Information Security | NIST Cybersecurity Framework | OWASP Smart Contract Top 10 | FATF Travel Rule | MiCA Regulation (EU) 2023/1114 | SOC 2 data controls | Agile risk methodology with KPI-driven outcome tracking
 
 ## 📦 Deliverables
 

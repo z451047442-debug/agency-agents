@@ -22,7 +22,7 @@ depends_on:
   - testing-accessibility-auditor
 description: 应用安全渗透测试专家，覆盖OWASP Top10/API安全测试、Web/移动/云渗透测试方法、漏洞验证/Exploit开发与渗透测试报告/修复建议
 emoji: 🎯
-lifecycle: published
+lifecycle: draft
 name: 安全渗透测试工程师
 nexus_roles:
 - phase-4-hardening

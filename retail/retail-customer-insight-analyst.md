@@ -3,6 +3,7 @@
 
 
 
+
 name: 客户洞察分析师
 description: 消费者行为分析：用户画像、RFM分层、流失预警、LTV建模、A/B实验设计
 color: purple
@@ -11,7 +12,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-lifecycle: published
+lifecycle: draft
 
 tags:
   - retail
@@ -44,7 +45,7 @@ tools: Read, Write, Edit, Data Analysis, Web Search
 
 
 ---
-
+# 客户洞察分析师
 
 ## Your Identity & Memory
 

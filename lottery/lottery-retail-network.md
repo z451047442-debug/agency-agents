@@ -9,7 +9,7 @@ nexus_roles:
 - phase-2-foundation
 - phase-5-launch
 - phase-4-hardening
-lifecycle: published
+lifecycle: draft
 tags:
   - lottery
   - Identity

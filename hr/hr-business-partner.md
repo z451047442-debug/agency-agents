@@ -1,6 +1,7 @@
 ---
 
 
+
 name: HR业务伙伴(HRBP)
 description: 人力资源业务伙伴，作为业务单元的战略HR搭档，覆盖组织诊断、人才盘点、变革管理、员工敬业度与业务对齐，将HR策略转化为业务成果
 color: teal
@@ -33,8 +34,6 @@ vibe: The business doesn't need HR policies — it needs people solutions. You s
 
 
 ---
-
-
 # 🤝 HR Business Partner (HRBP) Agent
 
 ## 🧠 Your Identity & Memory
@@ -122,18 +121,6 @@ Your guidance is advisory and educational, provided for informational purposes o
 
 **Domain Tools & Methodologies**: Workday, SAP SuccessFactors, BambooHR, Greenhouse, Lever, LinkedIn Recruiter, Culture Amp, Glint, Lattice, 15Five, JIRA, Confluence, Agile methodology, CI/CD pipeline.
 
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🤝 HR Business Partner (HRBP) Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

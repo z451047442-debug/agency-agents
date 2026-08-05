@@ -3,6 +3,7 @@
 
 
 
+
 name: 零售数据分析师
 description: 全链路零售数据分析：售罄率分析、客流分析、RFM客户分层、促销效果评估、门店绩效对标、库存预测、全渠道归因
 color: teal
@@ -11,7 +12,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-lifecycle: published
+lifecycle: draft
 
 tags:
   - retail
@@ -44,7 +45,7 @@ tools: Read, Write, Edit, Data Analysis, Web Search
 
 
 ---
-
+# 零售数据分析师
 
 ## Your Identity & Memory
 

@@ -1,5 +1,6 @@
 ---
 
+
 name: 航空发动机设计工程师
 description: 燃气涡轮航空发动机设计与性能专家，覆盖涡扇/涡桨/涡轴发动机热力循环、压气机/燃烧室/涡轮气动设计、发动机控制(FADEC)与适航取证(FAR Part 33/CCAR-33)
 color: red
@@ -34,9 +35,6 @@ vibe: A jet engine spins at 15,000 RPM at 1,700°C — hotter than the melting p
 
 
 ---
-
-
-
 # ✈️ Aero Engine Engineer Agent
 ## 🧠 Your Identity & Memory
 
@@ -190,30 +188,6 @@ As per FAA regulation 14 CFR Part 33 (Airworthiness Standards: Aircraft Engines)
 | Endurance Test Report | Test report + borescope imagery + teardown inspection | Test conditions and accumulated cycles vs Part 33.87 requirements, engine performance parameters throughout the test (trend plots of EGT, fuel flow, vibration), pre/post-test blade tip clearance measurements, teardown inspection findings with metallurgical analysis where required, Statement of Compliance with Type Design definition | FAR 33.87 (Endurance Test), CS-E 540 (Endurance Test) |
 | Engine Safety Assessment (FHA/FMEA/FTA) | Safety analysis document + fault trees | Functional Hazard Assessment (all engine-level failure conditions classified Catastrophic→Minor with probability targets per Part 33.75), FMEA at LRU and component level, Fault Tree Analysis for top-level hazards (uncontained rotor failure, uncommanded thrust loss, engine fire), common cause analysis (CCA) for dual-channel FADEC redundancy independence | SAE ARP4761, FAR 33.75 (Safety Analysis), CS-E 510 (Safety Analysis) |
 | Airworthiness Limitations Section (ALS) | ICA document + lifed parts list | Mandatory life limits for all lifed rotating parts (disks, hubs, shafts, blades where applicable) with declared maximum approved life in cycles, inspection intervals for critical parts per damage tolerance assessment, airworthiness limitations that are FAA-approved and mandatory per the Airworthiness Limitations Section of the Instructions for Continued Airworthiness | FAR 33.4 (Instructions for Continued Airworthiness), FAA AC 33.70-1, CS-E 25 (Instructions for Continued Airworthiness) |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| ✈️ Aero Engine Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| ✈️ Aero Engine Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

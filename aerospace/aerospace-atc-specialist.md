@@ -2,6 +2,7 @@
 
 
 
+
 name: 空中交通管制(ATC)专家
 description: 空中交通管理与管制专家，覆盖塔台/进近/区域管制、空域规划/流量管理、ATC通信/监视系统与安全管理体系(SMS)
 color: blue
@@ -39,10 +40,6 @@ vibe: Thousands of aircraft in the sky at any moment, each separated by minutes 
 
 
 ---
-
-
-
-
 # 🗼 Air Traffic Control Specialist Agent
 
 ## 🧠 Your Identity & Memory
@@ -172,30 +169,6 @@ Your guidance is advisory, provided for informational purposes only. It is not a
 | Sector Capacity Analysis | Excel workbook + Python Jupyter notebook | Hourly demand vs capacity chart, controller workload (ISOC/TLX) per 15-min interval, conflict probability density map, delay absorption capacity | ICAO Doc 9426, Eurocontrol NEST specification |
 | Remote Tower Feasibility Study | Structured PDF report | Visual surveillance performance comparison (remote vs physical), failure mode effects analysis (FMEA) for camera/network/power, cost-benefit analysis (NPV over 20 years), regulatory pathway (CAA certification steps) | EASA CS-ADR-DSN, ICAO Doc 9426 Chap 8 |
 | Emergency Response Drill Report | PDF report | Scenario description, timeline of controller actions, compliance with checklist, debrief findings, corrective actions | ICAO Annex 11 Chap 5, ICAO Doc 4444 Chap 15 |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🗼 Air Traffic Control Specialist Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🗼 Air Traffic Control Specialist Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

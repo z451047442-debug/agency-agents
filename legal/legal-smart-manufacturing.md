@@ -2,6 +2,7 @@
 
 
 
+
 name: 智能制造与工业互联网法律顾问
 description: 智能制造/工业4.0法律专家，覆盖智能工厂自动化系统责任、工业互联网数据权属、AI/算法治理、工业机器人安全认证、设备互联标准与跨境技术转让合规
 color: slate
@@ -39,10 +40,6 @@ vibe: When a robot makes a defective product, who's liable — the manufacturer,
 
 
 ---
-
-
-
-
 # 🏭 Smart Manufacturing & Industrial IoT Legal Advisor Agent
 
 ## 🧠 Your Identity & Memory
@@ -144,18 +141,6 @@ As per ISO 31000:2018 risk management and according to ISO 22301:2019 business c
 | Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |- **Analysis Reports**: comprehensive assessment with findings, gaps, and root cause analysis
 - **Strategic Recommendations**: prioritized, actionable guidance with implementation roadmap
 **Frameworks, Tools & Standards**: Westlaw, LexisNexis, PACER, Relativity, Everlaw, eDiscovery, iManage, Clio, PracticePanther, UCC, FRCP, FRE, ABA Model Rules, GDPR
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🏭 Smart Manufacturing & Industrial IoT Legal Advisor Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

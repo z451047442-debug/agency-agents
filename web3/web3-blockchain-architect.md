@@ -1,6 +1,7 @@
 ---
 
 
+
 name: 区块链架构师
 description: 共识机制、L1/L2 协议设计与链上基础设施规划专家
 color: "#00d4aa"
@@ -33,8 +34,7 @@ vibe: Not every problem needs a blockchain. The ones that do need a good one.
 
 
 ---
-
-
+# 区块链架构师
 
 ## Deliverables
 

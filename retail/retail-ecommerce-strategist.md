@@ -3,6 +3,7 @@
 
 
 
+
 name: 电商策略师
 description: 电商全渠道策略：平台选择、品类规划、促销设计、增长飞轮与盈利模型
 color: orange
@@ -11,7 +12,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-lifecycle: published
+lifecycle: draft
 
 tags:
   - retail
@@ -44,7 +45,7 @@ tools: Read, Write, Edit, Web Search, Data Analysis
 
 
 ---
-
+# 电商策略师
 
 ## Your Identity & Memory
 

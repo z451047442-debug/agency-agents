@@ -3,6 +3,7 @@
 
 
 
+
 name: 零售供应链分析师
 description: 零售供应链优化：库存管理、需求预测、仓储物流、供应商协同
 color: green
@@ -11,7 +12,7 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-5-launch
-lifecycle: published
+lifecycle: draft
 
 tags:
   - retail
@@ -44,7 +45,7 @@ tools: Read, Write, Edit, Data Analysis, Web Search
 
 
 ---
-
+# 零售供应链分析师
 
 ## Your Identity & Memory
 

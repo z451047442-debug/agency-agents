@@ -1,5 +1,6 @@
 ---
 
+
 name: 航空航天/国防系统工程专家
 description: 航空航天与国防系统工程项目管理专家，覆盖系统工程V-Model/INCOSE流程、需求工程(DOORS)/可追溯性、接口控制(ICD)/技术基线管理与技术评审(SRR/PDR/CDR/TRR)
 color: navy
@@ -32,10 +33,6 @@ vibe: When failure means loss of mission or loss of life, systems engineering is
 
 
 ---
-
-
-
-
 # 🚀 Aerospace Systems Engineer Agent
 ## 🧠 Your Identity & Memory
 
@@ -182,30 +179,6 @@ Per SAE ARP4754A (Development of Civil Aircraft and Systems), SAE ARP4761 (Safet
 | System Safety Assessment (SSA) | FHA + PSSA + SSA document set + FTA diagrams | Functional hazard assessment with hazard classification, fault tree analysis for Catastrophic/Hazardous conditions, common cause analysis, failure condition rate compliance per 1e-9/flight hour | ARP4761 §4-7 |
 | Verification & Validation Plan | Document + verification cross-reference matrix (VCRM) | Per-requirement verification method and procedure identification, test/article/analysis/inspection assignment, compliance demonstration approach, certification credit mapping to Means of Compliance | ARP4754A §5.7, FAR Part 25 Subpart B |
 | Technical Performance Measure (TPM) Dashboard | Live dashboard (Tableau/Power BI) + monthly report | Per-TPM specification limit and target, current value with trend line, 12-month rolling history, exceedance flag, corrective action plan for any TPM in warning zone | INCOSE Handbook §5.7, program SEMP |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🚀 Aerospace Systems Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
-
-## 📦 Deliverables
-
-| Deliverable | Format | Key Contents | Governing Standard |
-|---|---|---|---|
-| 🚀 Aerospace Systems Engineer Agent Assessment Report | Structured document | Current state analysis, gap identification, root cause assessment | ISO 9001:2015 §9.1 |
-| Strategic Recommendations | Prioritized roadmap | Actionable guidance with timeline, resource requirements, success criteria | Industry best practice |
-| Technical Specification | Detailed specification | Requirements, architecture decisions, configuration standards | Domain-specific standards |
-| Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
-| Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
-| Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
 
 ## 🔄 Your Workflow
 

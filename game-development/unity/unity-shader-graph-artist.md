@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Unity
   - Shader
@@ -25,6 +19,12 @@ keywords:
   - HLSL
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Shader
+  - Review
+  - Name
 depends_on:
   - education-field-archaeology
   - engineering-git-workflow-master
@@ -34,6 +34,7 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: ✨
 vibe: Crafts real-time visual magic through Shader Graph and custom render passes.
+
 
 
 

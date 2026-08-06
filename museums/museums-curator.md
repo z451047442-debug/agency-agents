@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - museums
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 博物馆策展人
   - 展览概念与叙事发展
@@ -25,14 +19,20 @@ keywords:
   - 展览设计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - museums
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
   - marketing-book-co-author
   - museums-conservator
 emoji: 🏛️
 vibe: Every object has a story waiting to be told — weaves scholarship, design, and community voice into exhibitions that move people.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 
 
 

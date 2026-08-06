@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - robotics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - ROS开发工程师
   - 机器人操作系统
@@ -23,12 +17,19 @@ keywords:
   - 开发专家，覆盖节点架构
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-language-model-nlp
   - robotics-automation-engineer
   - testing-engineering-test-automation-framework
 emoji: 🦾
 vibe: ROS gives you the pipes — but filling them with intelligence that survives the real world is where the engineering begins
+
 
 
 ---

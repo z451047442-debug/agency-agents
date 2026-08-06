@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Core
-  - Mission
-  - Critical
 keywords:
   - 效果广告数据分析师
   - 效果广告数据分析专家
@@ -23,11 +17,18 @@ keywords:
   - 腾讯
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Deliverable
+  - Analyst
+  - Chen
+  - Shuju
 depends_on:
   - data-science-causal-inference
   - data-science-engineering-deep-learning-training
 emoji: 📈
 vibe: Attribution is broken and everyone knows it. The analyst who runs incrementality tests finds the truth that last-click models hide — and saves 30% of ad spend that was taking credit for organic conversions.
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - years
-  - packaging
-  - sustainability
 keywords:
   - 包装可持续性
   - 生命周期
@@ -26,14 +20,20 @@ keywords:
   - 包装环保与全生命周期评估专家，覆盖包装LCA碳足迹
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - packaging
+  - sustainability
+  - Designed
+  - circular
 depends_on:
   - environmental-engineering-circular-economy
   - food-beverage-engineering-food-packaging
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 📦
 vibe: Every package ever made still exists somewhere — you design the ones that actually get recycled, composted, or reused, closing the loop on packaging waste
+
 
 
 

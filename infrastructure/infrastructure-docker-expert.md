@@ -1,12 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 容器化平台专家
   - Docker与容器化平台构建专家
@@ -15,6 +9,12 @@ keywords:
   - 多阶段构建
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Actionable
+  - Directives
+  - Deliverable
+  - References
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -36,6 +36,7 @@ version: 1.0.0
 vibe: Docker made containers accessible to every developer. The Docker expert who
   optimizes the build cache, hardens the runtime, and locks down the registry prevents
   'works on my machine' from becoming 'fails in production.'
+
 
 ---
 

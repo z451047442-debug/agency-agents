@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - vehicle
-  - thermal
 keywords:
   - 汽车热管理
   - 空调系统工程师
@@ -16,6 +10,12 @@ keywords:
   - 余热回收
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - vehicle
+  - thermal
+  - management
+  - Designed
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: An EV's range drops 30% in winter because of heating — you design the heat pump
   and thermal systems that keep passengers warm without killing the battery
+
 
 ---
 # 🌡️ Automotive Thermal Engineer Agent

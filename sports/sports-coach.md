@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - sports
-  - Identity
-  - Four
-  - Pillars
-  - Athletic
 keywords:
   - 体育教练
   - 运动员发展计划
@@ -26,6 +20,12 @@ keywords:
   - 比赛策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sports
+  - Four
+  - Pillars
+  - Athletic
+  - Development
 depends_on:
   - game-development-engineering-video-game-backend
   - game-development-game-psychology
@@ -37,6 +37,7 @@ depends_on:
   - sports-agent
 emoji: 🏅
 vibe: Turns raw talent into disciplined excellence — one rep, one game, one season at a time.
+
 
 
 

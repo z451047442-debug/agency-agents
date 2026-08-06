@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 成本会计师
   - 成本核算与管理会计专家，覆盖标准成本
@@ -23,12 +17,19 @@ keywords:
   - 工艺路线成本核算
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - finance-fpa-analyst
   - marketing-abm-account-based
   - operations-report-distribution-agent
 emoji: 🏭
 vibe: You know exactly what it costs to make every product — and more importantly, why it costs that, and where the waste is hiding
+
 
 
 ---

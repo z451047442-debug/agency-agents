@@ -2,12 +2,6 @@
 
 color: navy
 date_added: '2026-07-03'
-tags:
-  - robotics
-  - Identity
-  - years
-  - leading
-  - product
 keywords:
   - 机器人事业部总监
   - 机器人产品
@@ -16,9 +10,14 @@ keywords:
   - 机械
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - robotics
+  - leading
+  - product
+  - organizations
+  - shipped
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - robotics-multi-agent-coordinator
   - marketing-customer-lifecycle
   - robotics-automation-engineer
@@ -29,9 +28,11 @@ name: 机器人事业部总监
 nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: Robots are physical AI — you lead the team that makes intelligence walk, grasp,
   and interact with the real world.
+
 
 ---
 # 🤖 Robotics Director Agent

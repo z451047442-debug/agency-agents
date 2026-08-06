@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 游戏音频工程师
   - FMOD
@@ -25,6 +19,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Music
+  - System
+  - Parameters
 depends_on:
   - engineering-minimal-change-engineer
   - logistics-public-transit
@@ -34,6 +34,7 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🎵
 vibe: Makes every gunshot, footstep, and musical cue feel alive in the game world.
+
 
 
 

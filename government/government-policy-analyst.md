@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Domain
-  - Expertise
 keywords:
   - 公共政策分析师
   - 政策研究
@@ -26,6 +20,12 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - Domain
+  - Expertise
+  - Success
+  - Metrics
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - government-digital-presales-consultant
@@ -35,6 +35,7 @@ depends_on:
 emoji: 📋
 vibe: Reads between the lines of policy documents to predict what's coming and what it means.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

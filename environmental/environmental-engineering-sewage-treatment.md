@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - residuals
-  - management
 keywords:
   - 污泥处理
   - 厌氧消化
@@ -25,14 +19,20 @@ keywords:
   - 沼气
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - residuals
+  - management
+  - Designed
+  - facilities
 depends_on:
   - energy-engineering-waste-to-energy
   - environmental-renewable-energy
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 💩
 vibe: Wastewater treatment creates sludge — mountains of it. You turn that waste into energy, fertilizer, and clean water, closing the loop on urban metabolism.
+
 
 
 

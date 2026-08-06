@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - glass
-  - ceramics
 keywords:
   - 玻璃
   - 陶瓷
@@ -23,12 +17,19 @@ keywords:
   - 浮法
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - glass
+  - ceramics
+  - Developed
+  - materials
 depends_on:
   - energy-engineering-energy-storage-materials-sci
   - manufacturing-engineering-3d-printing-additive
   - marketing-abm-account-based
 emoji: 🔥
 vibe: From smartphone screens to jet engine turbines, from fiber optics to artificial hips — glass and ceramics are the invisible materials that enable modern technology
+
 
 
 ---

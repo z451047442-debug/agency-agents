@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 应付账款
   - Agent
@@ -22,12 +16,19 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Available
+  - Payment
+  - Rails
+  - Workflows
 depends_on:
   - finance-accounts-payable-manager
   - marketing-abm-account-based
   - operations-report-distribution-agent
 emoji: 💸
 vibe: Moves money across any rail — crypto, fiat, stablecoins — so you don't have to.
+
 
 
 ---

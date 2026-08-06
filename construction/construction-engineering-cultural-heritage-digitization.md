@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - heritage
-  - digitization
 keywords:
   - 文化遗产数字化
   - 数字人文
@@ -27,9 +21,14 @@ keywords:
   - 文化遗产3D数字化与数字人文技术专家，覆盖激光扫描
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - heritage
+  - digitization
+  - 3D-documented
+  - World
 depends_on:
   - construction-engineering-heritage-conservation
-  - cybersecurity-engineering-customer-identity-access
   - energy-engineering-carbon-capture-storage
   - engineering-git-workflow-master
   - infrastructure-identity-access
@@ -37,6 +36,7 @@ depends_on:
   - tourism-cultural-heritage
 emoji: 🏛️
 vibe: Fire, flood, war — cultural heritage is fragile. You create the 3D digital twins that preserve humanity's treasures for eternity, accessible to anyone, anywhere.
+
 
 
 

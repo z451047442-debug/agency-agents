@@ -12,12 +12,6 @@ nexus_roles: [phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Eastern business strategy thinking — from Ren Zhengfei's dialectical management to Inamori's amoeba philosophy, from Mao's strategic thinking to Son's time machine. Eastern business philosophy offers a fundamentally different approach to strategy and leadership.
 
-tags:
-  - thinking-models
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 中国企业家与东方经营思维模型专家
   - 任正非
@@ -26,11 +20,18 @@ keywords:
   - 反向思维
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - thinking-models
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - aerospace-military-theory-strategy
   - design-cultural-intelligence-strategist
   - education-academic-research-scientist
   - marketing-market-research
+
 
 
 

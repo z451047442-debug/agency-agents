@@ -1,12 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-tags:
-  - web3
-  - Identity
-  - years
-  - blockchain
-  - security
 keywords:
   - 智能合约安全审计
   - 形式化验证专家
@@ -15,11 +9,16 @@ keywords:
   - 抢跑
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - web3
+  - blockchain
+  - security
+  - Audited
+  - protocols
 depends_on:
   - engineering-code-reviewer
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-risk
-  - operations-report-distribution-agent
   - web3-smart-contract-dev
   - web3-smart-contract-developer
 description: 区块链智能合约安全性与形式化验证专家，覆盖重入/溢出/抢跑/闪电贷攻击模式、Slither/Mythril/Foundry安全工具、CertiK/Trail
@@ -33,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A smart contract bug can drain $100M in seconds — you find the vulnerabilities
   before deployment because after deployment, there's no undo
+
 
 ---
 

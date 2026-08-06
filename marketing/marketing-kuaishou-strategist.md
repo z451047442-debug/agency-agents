@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 快手运营策略师
   - Expert
@@ -25,10 +19,17 @@ keywords:
   - strategist
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Technical
+  - Account
+  - Positioning
+  - Content
 depends_on:
   - logistics-supply-chain-strategist
 emoji: 🎥
 vibe: Grows grassroots audiences and drives live commerce on 快手.
+
 
 
 

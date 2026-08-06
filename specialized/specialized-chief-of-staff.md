@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 幕僚长
   - 创始人与高管的协调专家
@@ -24,12 +18,19 @@ keywords:
   - 确保一致性
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - specialized
+  - Process
+  - Technical
+  - Professional
+  - Scope
 depends_on:
   - specialized-agentic-identity-trust
   - legal-billing-time-tracking
   - product-director
 emoji: 🧭
 vibe: "I don't own any function. I own the space between all of them."
+
 
 
 

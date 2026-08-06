@@ -11,12 +11,6 @@ nexus_roles: [phase-0-discovery, phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Field archaeologist — from stratigraphic excavation to OSL dating, from magnetometry survey to site conservation. Archaeology reconstructs human history one careful trowel stroke at a time.
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 田野考古专家
   - 考古调查与发掘方法
@@ -25,11 +19,17 @@ keywords:
   - 放射性碳
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - agriculture-engineering-soil-science
-  - operations-report-distribution-agent
   - specialized-identity-graph-operator
   - testing-engineering-test-automation-framework
+
 
 
 ---

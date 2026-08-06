@@ -16,12 +16,6 @@ lifecycle: published
 emoji: "🚨"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - emergency
-  - Identity
-  - Memory
-  - Disaster
-  - Response
 keywords:
   - 应急管理总经理
   - 应急管理领域全面经营管理者，覆盖业务运营
@@ -30,12 +24,18 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - emergency
+  - Disaster
+  - Response
+  - Domain
+  - Knowledge
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - emergency-director
   - government-general-manager
   - healthcare-general-manager
   - specialized-customer-success-manager
+
 
 
 

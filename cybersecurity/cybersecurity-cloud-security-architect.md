@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 云安全架构师
   - 设计零信任架构
@@ -26,6 +20,12 @@ keywords:
   - GCP深度防御的云原生安全专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - cybersecurity
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-threat-detection-engineer
@@ -34,6 +34,7 @@ depends_on:
   - infrastructure-github-actions-expert
 emoji: ☁️
 vibe: Builds cloud infrastructure where "secure by default" isn't just a slide title.
+
 
 
 

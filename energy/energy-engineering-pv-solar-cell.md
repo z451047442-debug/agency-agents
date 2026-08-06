@@ -2,12 +2,6 @@
 
 color: yellow
 date_added: '2026-07-03'
-tags:
-  - energy
-  - Identity
-  - years
-  - photovoltaics
-  - Developed
 keywords:
   - 光伏电池
   - 钙钛矿太阳电池研究员
@@ -16,6 +10,12 @@ keywords:
   - 叠层太阳电池器件物理与工艺研究员，覆盖PERC
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - photovoltaics
+  - Developed
+  - high-efficiency
+  - solar
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -32,6 +32,7 @@ version: 1.0.0
 vibe: A solar cell thinner than a human hair converts sunlight into electricity at
   25%+ efficiency — you push the physics and materials that make solar the cheapest
   energy in history
+
 
 ---
 # ☀️ Solar Cell Researcher Agent

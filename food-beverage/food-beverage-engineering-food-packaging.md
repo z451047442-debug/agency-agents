@@ -1,12 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-tags:
-  - food-beverage
-  - Identity
-  - years
-  - food
-  - packaging
 keywords:
   - 食品包装
   - 阻隔材料工程师
@@ -15,6 +9,12 @@ keywords:
   - 真空镀铝阻隔膜
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - food
+  - packaging
+  - Developed
+  - packages
 depends_on:
   - environmental-engineering-packaging-sustainability
   - food-beverage-beverage-rd
@@ -30,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A potato chip that stays crispy for 6 months, milk that lasts 30 days without
   refrigeration — that's food packaging science
+
 
 ---
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - insurance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 风险查勘师
   - 保险风险查勘与防灾防损专家，通过现场勘查识别风险隐患
@@ -26,6 +20,12 @@ keywords:
   - Wang
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - insurance
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - construction-fire-protection
   - education-special-needs
@@ -34,6 +34,7 @@ depends_on:
   - operations-executive-summary-generator
 emoji: 🏗️
 vibe: See the risk before it becomes a claim — your eyes on the ground protect billions in insured assets
+
 
 
 

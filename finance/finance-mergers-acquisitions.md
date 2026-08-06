@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - investment
-  - banking
 keywords:
   - 并购
   - 企业融资
@@ -23,12 +17,19 @@ keywords:
   - 企业并购与投资银行顾问，覆盖并购目标筛选
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - investment
+  - banking
+  - Executed
+  - transactions
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
   - legal-engineering-legal-document-automation
 emoji: 🤝
 vibe: Companies are bought, not sold — the best deals create value that neither company could achieve alone. You structure the transactions that reshape industries.
+
 
 
 ---

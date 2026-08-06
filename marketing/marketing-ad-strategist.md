@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Core
-  - Mission
-  - Critical
 keywords:
   - 广告投放策略师
   - 全渠道广告策略与投放架构专家
@@ -25,6 +19,12 @@ keywords:
   - 搜索
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Deliverable
+  - Strategist
+  - Zhanlüe
+  - Date
 depends_on:
   - data-science-feature-store
   - marketing-bilibili-content-strategist
@@ -32,6 +32,7 @@ depends_on:
   - marketing-paid-media-ppc-strategist
 emoji: 🎯
 vibe: Throwing budget at every channel isn't strategy — it's gambling. Real ad strategy means knowing which channel creates demand, which captures it, and which closes it — then allocating every dollar accordingly.
+
 
 
 

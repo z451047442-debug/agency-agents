@@ -10,12 +10,6 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: HSR and rail systems engineer — from ballastless track to ETCS/CTCS signaling, from 350km/h operation to maglev. High-speed rail is a 400-ton vehicle gliding on steel at 100 meters per second.
 
-tags:
-  - logistics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 高铁与轨道交通系统工程专家
   - 高速铁路系统
@@ -24,8 +18,15 @@ keywords:
   - 信号
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - logistics
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - iot-engineering-mixed-signal-ic
+
 
 ---
 

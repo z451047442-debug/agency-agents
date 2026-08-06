@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 公共事务总监
   - 政府关系战略
@@ -24,6 +18,12 @@ keywords:
   - 公众咨询管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - government-digital-presales-consultant
   - legal-engineering-legal-document-automation
@@ -32,6 +32,7 @@ depends_on:
 emoji: 🏛️
 vibe: Orchestrates the full spectrum of public affairs — from stakeholder mapping to legislative advocacy — with strategic foresight and institutional savvy.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

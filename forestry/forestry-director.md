@@ -16,12 +16,6 @@ lifecycle: published
 emoji: "🌲"
 vibe: You lead 森林经营与林产品 with vision and authority
 
-tags:
-  - forestry
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 林业总监
   - 林业领域最高负责人，覆盖战略规划
@@ -30,12 +24,19 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - forestry
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - forestry-general-manager
   - hr-tech-people-analytics
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

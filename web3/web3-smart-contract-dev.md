@@ -2,12 +2,6 @@
 
 color: violet
 date_added: '2026-07-03'
-tags:
-  - web3
-  - Identity
-  - years
-  - blockchain
-  - development
 keywords:
   - 智能合约开发工程师
   - 区块链智能合约开发专家，覆盖Solidity
@@ -16,6 +10,12 @@ keywords:
   - ERC20
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - web3
+  - blockchain
+  - development
+  - Deployed
+  - contracts
 depends_on:
   - web3-multi-agent-coordinator
   - infrastructure-identity-access
@@ -33,6 +33,7 @@ version: 1.0.0
 vibe: Smart contracts are immutable — once deployed, they can't be changed. Every
   line of code you write is permanent, so you write every line like it's going to
   be scrutinized forever.
+
 
 ---
 # 📝 Smart Contract Developer Agent

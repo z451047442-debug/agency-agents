@@ -11,14 +11,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - operations
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 高管摘要生成师
   - 级沟通
@@ -27,6 +22,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - operations
+  - Required
+  - Output
+  - Format
+  - SITUATION
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -39,6 +40,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 📝
 vibe: Thinks like a McKinsey consultant, writes for the C-suite.
+
 
 
 

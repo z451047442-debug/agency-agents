@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Role
-  - Definition
 keywords:
   - 商机策略师
   - MEDDPICC
@@ -25,13 +19,19 @@ keywords:
   - Role
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - sales
+  - Definition
+  - Capabilities
+  - MEDDPICC
+  - Framework
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - marketing-paid-media-creative-strategist
   - real-estate-commercial-broker
   - web3-defi-strategist
 emoji: ♟️
 vibe: Qualifies deals like a surgeon and kills happy ears on contact.
+
 
 
 

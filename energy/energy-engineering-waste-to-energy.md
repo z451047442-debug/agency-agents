@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - energy
-  - Identity
-  - years
-  - Commissioned
-  - optimized
 keywords:
   - 固废处理
   - 垃圾焚烧发电
@@ -16,12 +10,17 @@ keywords:
   - 城市固废焚烧发电与飞灰
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - Commissioned
+  - optimized
+  - municipal
+  - waste
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 description: 城市固废焚烧发电与飞灰/炉渣处理专家，覆盖机械炉排/流化床焚烧炉、烟气净化(SNCR+干法+布袋+湿法)、飞灰螯合/填埋与能源回收(朗肯循环)
 emoji: 🔥
 lifecycle: published
@@ -32,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: One person's trash is another's megawatt-hour — you design the plants that turn
   garbage into electricity while keeping dioxins and heavy metals out of the air
+
 
 ---
 # 🔥 Waste-to-Energy Engineer Agent

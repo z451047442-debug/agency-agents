@@ -11,12 +11,6 @@ nexus_roles:
 lifecycle: published
 vibe: Research chemist — from total synthesis of natural products to DFT calculations, from MOF design to single-molecule spectroscopy. Chemistry is the central science, connecting physics to biology through the study of matter and its transformations.
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 化学基础研究专家
   - 有机化学
@@ -25,10 +19,17 @@ keywords:
   - 分析化学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - aerospace-military-materials-manufacturing
   - education-number-theory
   - specialized-identity-graph-operator
+
 
 
 ---

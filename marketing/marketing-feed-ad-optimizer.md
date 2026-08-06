@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 信息流广告优化师
   - 信息流广告投放与优化专家，覆盖巨量引擎
@@ -23,10 +17,17 @@ keywords:
   - 穿山甲
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - operations-report-distribution-agent
 emoji: 📱
 vibe: "On the feed, you have 1.5 seconds before they scroll past. The difference between ¥0.30 and ¥3.00 CPA isn't the budget — it's the creative hook in frame one, the audience segment, and the bid strategy working together."
+
 
 
 

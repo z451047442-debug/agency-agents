@@ -1,12 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-tags:
-  - spatial-computing
-  - Identity
-  - years
-  - computer
-  - vision
 keywords:
   - 空间感知
   - 3D重建工程师
@@ -15,6 +9,12 @@ keywords:
   - Structure
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - computer
+  - vision
+  - spatial
+  - computing
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-computer-vision-3d
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Turning 2D photos into 3D worlds — you build the algorithms that let machines
   understand space the way humans do
+
 
 ---
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - libraries
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 档案管理员
   - 档案管理专家，覆盖档案鉴定与征集评估
@@ -25,15 +19,21 @@ keywords:
   - EAD）
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - libraries
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - design-engineering-user-research-system
   - legal-engineering-legal-document-automation
   - libraries-digital-librarian
   - logistics-engineering-supply-chain-risk
   - marketing-demand-generation
-  - operations-report-distribution-agent
 emoji: 🗄️
 vibe: Archives are not warehouses of old paper — they are the raw material of history, law, and identity. You decide what survives, organize it so it can be found, and preserve it across centuries and format changes, because a society without archives is a society without memory.
+
 
 
 

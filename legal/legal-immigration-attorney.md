@@ -2,12 +2,6 @@
 
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - legal
-  - Identity
-  - years
-  - immigration
-  - Managed
 keywords:
   - 移民
   - 出入境法律顾问
@@ -16,6 +10,12 @@ keywords:
   - 技术移民
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - immigration
+  - Managed
+  - global
+  - mobility
 depends_on:
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every country controls who enters and who stays — you navigate the immigration
   systems that move talent across borders legally and efficiently
+
 
 ---
 # 🛂 Immigration Attorney Agent

@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - private
-  - banking
 keywords:
   - 财富管理
   - 私人银行顾问
@@ -23,12 +17,19 @@ keywords:
   - 家族信托
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - finance
+  - private
+  - banking
+  - wealth
+  - management
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
   - marketing-private-domain-operator
 emoji: 💎
 vibe: Wealth isn't just about making money — it's about preserving it, growing it, and transferring it across generations. You manage the complexity for those who've earned it.
+
 
 
 ---

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - landscape
-  - architecture
 keywords:
   - 景观建筑
   - 景观生态设计师
@@ -26,6 +20,12 @@ keywords:
   - 绿色屋顶
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - landscape
+  - architecture
+  - Designed
+  - public
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -34,6 +34,7 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🌳
 vibe: A city isn't just buildings — it's the trees, parks, and waterways that make it livable. You design the green infrastructure that cools cities, manages stormwater, and restores nature.
+
 
 
 

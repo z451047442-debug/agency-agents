@@ -9,14 +9,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - insurance
-  - technology
 keywords:
   - 保险科技
   - InsurTech
@@ -25,15 +20,21 @@ keywords:
   - 嵌入式保险
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - insurance
+  - technology
+  - Built
+  - digital
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-insurance-claims-analytics
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-brand-strategist-name
-  - operations-report-distribution-agent
 emoji: 🛡️
 vibe: Insurance hasn't changed in 300 years — until now. You build the digital products that make insurance instant, personalized, and fair.
+
 
 
 

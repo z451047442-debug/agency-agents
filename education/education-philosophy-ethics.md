@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Philosopher — from Plato's forms to Turing's test, from Kant's categorical imperative to AI alignment ethics. Philosophy clarifies concepts, questions assumptions, and builds rigorous arguments.
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 哲学与伦理学专家
   - 形而上学与认识论
@@ -26,10 +20,17 @@ keywords:
   - 逻辑学与语言哲学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - finance-engineering-credit-risk-model
   - hr-tech-general-manager
   - hr-tech-hrtech-people-analytics
+
 
 
 ---

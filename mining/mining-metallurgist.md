@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - mining
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 冶金工程师
   - 矿物加工流程设计
@@ -26,6 +20,12 @@ keywords:
   - 湿法与火法冶金
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - mining
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-language-model-nlp
@@ -38,6 +38,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🔥
 vibe: Turns crushed rock into pure metal — the alchemist who makes mining economics work at scale
+
 
 
 

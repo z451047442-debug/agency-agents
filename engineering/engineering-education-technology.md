@@ -9,14 +9,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - education
-  - technology
 keywords:
   - 教育信息化
   - 智慧校园架构师
@@ -25,6 +20,12 @@ keywords:
   - 学工
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - education
+  - technology
+  - Built
+  - digital
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
@@ -35,6 +36,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🏫
 vibe: A university's IT is as complex as a mid-size city — you integrate teaching, research, administration, and campus life into a coherent digital campus
+
 
 
 

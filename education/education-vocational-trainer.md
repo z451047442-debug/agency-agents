@@ -1,12 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-tags:
-  - education
-  - Identity
-  - years
-  - vocational
-  - workforce
 keywords:
   - 职业培训
   - 技能教育专家
@@ -15,6 +9,12 @@ keywords:
   - 实训基地
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - vocational
+  - workforce
+  - development
+  - Built
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Not everyone needs a university degree — millions need practical skills that
   lead directly to jobs. You design the training programs that bridge the skills gap.
+
 
 ---
 

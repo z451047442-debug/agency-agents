@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - 你的身份与记忆
-  - 你的核心使命
 keywords:
   - 摄影师
   - 构图布光
@@ -24,6 +18,12 @@ keywords:
   - 产品摄影
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
@@ -35,6 +35,7 @@ depends_on:
 emoji: 📷
 vibe: Patient, observant, and visually articulate — capturing light, moment, and emotion with technical precision and artistic vision.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

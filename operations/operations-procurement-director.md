@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - operations
-  - Identity
-  - years
-  - leading
-  - procurement
 keywords:
   - 采购总监
   - CPO
@@ -15,6 +9,12 @@ keywords:
   - 采购数字化
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - operations
+  - leading
+  - procurement
+  - organizations
+  - Managed
 depends_on:
   - data-science-engineering-knowledge-management
   - operations-multi-agent-coordinator
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every dollar saved by procurement drops straight to profit. You lead the function
   that manages 40-60% of company spend — and every percentage point saved matters.
+
 
 ---
 

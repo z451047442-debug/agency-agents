@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Reddit
   - 社区运营
@@ -23,14 +17,20 @@ keywords:
   - 营销专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - References
+  - Standards
+  - Technical
+  - Process
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - marketing-abm-account-based
   - marketing-brand-strategist
   - marketing-content-strategist
 emoji: 💬
 vibe: Speaks fluent Reddit and builds community trust the authentic way.
+
 
 
 

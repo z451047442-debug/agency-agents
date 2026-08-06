@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - web3
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 区块链开发工程师
   - DApp
@@ -26,6 +20,12 @@ keywords:
   - 链上数据索引与
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - web3
+  - Success
+  - Metrics
+  - Technical
+  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
@@ -36,6 +36,7 @@ depends_on:
 emoji: ⛓️
 vibe: Builds the decentralized future — one contract, one RPC call, and one gas optimization at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - years
-  - geodesy
-  - GNSS
 keywords:
   - 大地测量
   - 精密定位工程师
@@ -24,6 +18,12 @@ keywords:
   - GPS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - geodesy
+  - GNSS
+  - Operated
+  - reference
 depends_on:
   - construction-multi-agent-coordinator
   - construction-surveyor
@@ -37,6 +37,7 @@ emoji: 🛰️
 vibe: Your phone knows where you are to within 5 meters — with the right algorithms,
   you can know to within 5 millimeters, tracking the continents themselves as they
   drift
+
 
 ---
 # 🛰️ Geodesist Agent

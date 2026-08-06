@@ -20,6 +20,12 @@ keywords:
   - ADMET评估
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pharma-biotech
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -28,7 +34,7 @@ depends_on:
   - pharma-biotech-biostatistics
 description: 小分子/大分子药物早期研发专家，覆盖靶点发现、先导化合物优化、ADMET评估、IND申报
 category: pharma-biotech
-tags: [drug-discovery, medicinal-chemistry, target-identification, ADMET, IND]
+
 
 
 

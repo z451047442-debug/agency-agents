@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 现场实施工程师
   - 项目现场实施与调试专家，覆盖系统安装部署集成
@@ -26,14 +20,20 @@ keywords:
   - 联调
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-engineering-construction-materials
-  - cybersecurity-engineering-customer-identity-access
   - engineering-programming-language
   - infrastructure-identity-access
   - tourism-travel-agent
 emoji: 🔧
 vibe: Design is theory; installation is reality. You make it work on-site, with the wrong tools and the customer watching, because that's what it takes.
+
 
 
 

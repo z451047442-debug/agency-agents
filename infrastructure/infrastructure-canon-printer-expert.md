@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Canon打印机专家
   - Canon
@@ -25,6 +19,12 @@ keywords:
   - imageCLASS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - Process
+  - References
+  - Standards
 depends_on:
   - engineering-visual-studio-web-aspnet
   - healthcare-engineering-gene-editing-crispr
@@ -32,6 +32,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: Canon's heritage is in optics and imaging — their printers think like cameras, and understanding the lens-to-print pipeline is what sets a Canon specialist apart from a generic print admin
+
 
 
 

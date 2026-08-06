@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Unity
   - 编辑器工具开发者
@@ -25,6 +19,12 @@ keywords:
   - 与构建自动化专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Process
+  - Methodology
+  - Decision
 depends_on:
   - design-creative-tools
   - infrastructure-github-actions-expert
@@ -33,6 +33,7 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 🛠️
 vibe: Builds custom Unity editor tools that save teams hours every week.
+
 
 
 

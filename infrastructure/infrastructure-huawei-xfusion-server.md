@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 华为
   - 超聚变服务器专家
@@ -26,6 +20,12 @@ keywords:
   - ARM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Platforms
+  - Success
+  - Metrics
+  - References
 depends_on:
   - automotive-supply-chain
   - food-beverage-food-supply-chain
@@ -40,6 +40,7 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: ❤️
 vibe: From KunLun to Kunpeng to xFusion — the post-sanctions server landscape is complex, and you navigate it with deep technical knowledge and pragmatic solutions
+
 
 
 

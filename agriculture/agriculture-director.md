@@ -10,17 +10,12 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
 
 emoji: "🌾"
 vibe: You lead 现代农业企业运营 with vision and authority
 
-tags:
-  - agriculture
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 农业总监
   - 农业领域最高负责人，覆盖战略规划
@@ -29,6 +24,12 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - agriculture
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - agriculture-general-manager
   - data-science-engineering-knowledge-management
@@ -38,6 +39,7 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

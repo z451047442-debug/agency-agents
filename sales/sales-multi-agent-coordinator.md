@@ -2,12 +2,6 @@
 
 color: '#2563EB'
 date_added: '2026-07-19'
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Sales
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - sales
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for sales — pipeline management, deal strategy, account planning, revenue operations
@@ -25,8 +25,10 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: orchestrating sales specialists into coherent multi-agent workflows
+
 
 ---
 # Sales Multi-Agent Coordinator

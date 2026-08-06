@@ -15,12 +15,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Core
-  - Mission
-  - Critical
 keywords:
   - 会议纪要专家
   - 从会议记录或原始笔记中提取结构化决策
@@ -29,6 +23,12 @@ keywords:
   - Attendees
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
   - education-special-needs
   - engineering-git-workflow-master
@@ -39,6 +39,7 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 📋
 vibe: Precise extractor — finds the signal in the noise, never invents what isn't there.
+
 
 
 

@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - design
-  - Identity
-  - years
-  - content
-  - strategy
 keywords:
   - 内容策略
   - Content
@@ -28,6 +22,12 @@ keywords:
   - 跨渠道品牌内容与信息架构策略专家，覆盖内容审计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - content
+  - strategy
+  - Built
+  - systems
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - design-brand-guardian
@@ -41,6 +41,7 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 📋
 vibe: Content is the substance users came for — you design the strategy that makes it findable, usable, and consistent across every touchpoint
+
 
 
 

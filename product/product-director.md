@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "📱"
 vibe: You lead 产品策略与开发 with vision and authority
 
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 产品管理总监
   - 产品管理领域最高负责人，覆盖战略规划
@@ -29,6 +23,12 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - product
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics
@@ -36,6 +36,7 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

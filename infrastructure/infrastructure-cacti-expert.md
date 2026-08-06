@@ -9,12 +9,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Cacti监控专家
   - Cacti网络流量与性能监控专家，覆盖SNMP
@@ -23,6 +17,12 @@ keywords:
   - Spine轮询器
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - Specifications
+  - References
+  - Standards
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-ansible-expert
@@ -32,6 +32,7 @@ emoji: 📡
 vibe: When the network team asks 'why is the WAN link saturated?', Cacti's RRDtool
   graphs tell the story in beautiful, sub-second resolution — a decade of network
   history in every pixel.
+
 
 ---
 

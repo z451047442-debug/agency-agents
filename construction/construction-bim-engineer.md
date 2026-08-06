@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - BIM工程师
   - BIM
@@ -25,15 +19,21 @@ keywords:
   - 碰撞检测
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - construction-engineering-noise-control
   - cybersecurity-engineering-cyber-risk-model
   - energy-engineering-grid-scale-storage
   - finance-engineering-credit-risk-model
-  - operations-report-distribution-agent
   - specialized-document-generator
 emoji: 🧬
 vibe: Before a single brick is laid, you've already built the entire building — virtually, perfectly, down to the last bolt
+
 
 
 

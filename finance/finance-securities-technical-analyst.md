@@ -1,12 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 技术分析师
   - 技术分析与量化择时专家，覆盖K线
@@ -15,6 +9,12 @@ keywords:
   - RSI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Tools
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - design-engineering-user-research-system
   - finance-securities-multi-agent-coordinator
@@ -35,6 +35,7 @@ version: 1.0.0
 vibe: Price is the ultimate truth — every fundamental, every rumor, every emotion
   is already reflected in the chart. You read what the market is saying, not what
   it should be saying.
+
 
 ---
 

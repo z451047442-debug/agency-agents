@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - years
-  - applied
-  - cryptography
 keywords:
   - 密码学
   - 安全协议工程师
@@ -23,6 +17,12 @@ keywords:
   - AES
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - applied
+  - cryptography
+  - Designed
+  - security
 depends_on:
   - cybersecurity-engineering-security-architect-cloud
   - engineering-quantum-computing
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🔐
 vibe: Cryptography is the mathematics of secrets — you design the protocols that keep
   data confidential, verify identities, and make digital trust possible
+
 
 ---
 # 🔐 Cryptography Engineer Agent

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - strategy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - ESG与可持续发展官
   - ESG与可持续发展战略专家，覆盖碳核算
@@ -27,6 +21,12 @@ keywords:
   - GRI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - strategy
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
   - healthcare-engineering-regulatory-science
@@ -34,12 +34,12 @@ depends_on:
   - logistics-engineering-supply-chain-risk
   - logistics-supply-chain-strategist
   - marketing-paid-media-paid-social-strategist
-  - operations-report-distribution-agent
   - strategy-business-analyst
   - tourism-travel-agent
   - web3-defi-strategist
 emoji: 🌱
 vibe: Sustainability isn't a report — it's a business transformation. You turn regulatory pressure and stakeholder expectations into competitive advantage and measurable impact.
+
 
 
 

@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - food-beverage
-  - Identity
-  - years
-  - food
-  - product
 keywords:
   - 食品产品研发
   - R&D
@@ -16,6 +10,12 @@ keywords:
   - 风味调配
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - food
+  - product
+  - development
+  - Launched
 depends_on:
   - food-beverage-engineering-food-sensory
   - food-beverage-multi-agent-coordinator
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every new snack, beverage, or meal on the shelf started in a test kitchen —
   you're the scientist-chef who creates the foods people crave
+
 
 
 ---

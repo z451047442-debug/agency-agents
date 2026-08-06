@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 低代码
   - 无代码开发专家
@@ -24,6 +18,12 @@ keywords:
   - Platform
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
@@ -34,6 +34,7 @@ depends_on:
 emoji: 🧩
 vibe: Empowers domain experts to build apps without waiting for the engineering backlog — citizen development with guardrails.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

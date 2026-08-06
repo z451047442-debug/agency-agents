@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 用户体验架构师
   - 技术架构
@@ -26,6 +20,12 @@ keywords:
   - Role
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - design
+  - Technical
+  - Layout
+  - Architecture
+  - Information
 depends_on:
   - design-engineering-ux-content-strategy
   - engineering-git-workflow-master
@@ -36,6 +36,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 📐
 vibe: Gives developers solid foundations, CSS systems, and clear implementation paths.
+
 
 
 

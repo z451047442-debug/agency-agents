@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - machinery
-  - diagnostics
 keywords:
   - 振动分析
   - 旋转机械诊断工程师
@@ -23,11 +17,18 @@ keywords:
   - 包络谱
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - machinery
+  - diagnostics
+  - Predicted
+  - thousands
 depends_on:
   - manufacturing-tpm-reliability
   - marketing-paid-media-tracking-specialist
 emoji: 📊
 vibe: Every machine tells you it's failing — through vibration, temperature, and sound. You listen to the machines and predict their failures before they happen.
+
 
 
 

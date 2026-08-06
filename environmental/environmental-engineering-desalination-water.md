@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - environmental
-  - Identity
-  - years
-  - membrane
-  - desalination
 keywords:
   - 海水淡化
   - 膜分离技术工程师
@@ -16,12 +10,17 @@ keywords:
   - 纳滤
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - membrane
+  - desalination
+  - Designed
+  - plants
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-water-treatment
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 description: 反渗透(RO)/纳滤(NF)/电渗析(ED)膜法水处理专家，覆盖海水淡化SWRO工艺(预处理/高压泵/ERD能量回收)、苦咸水BWRO/超纯水UPW、膜污染/清洗/寿命与热法(MSF/MED)
 emoji: 💧
 lifecycle: published
@@ -33,6 +32,7 @@ version: 1.0.0
 vibe: The sea is an infinite water source if you can remove the salt — you design
   the membranes, pumps, and energy recovery that turn seawater into drinking water
   at $0.50/m³
+
 
 ---
 # 💧 Desalination Engineer Agent

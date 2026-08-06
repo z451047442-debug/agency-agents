@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Adobe
   - Effects专家
@@ -23,12 +17,19 @@ keywords:
   - 运动图形
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Tools
+  - Technologies
+  - Process
 depends_on:
   - media-entertainment-creative-animator-vfx
   - media-entertainment-classical-composition
   - design-motion-designer
 emoji: 🎬
 vibe: When a logo animates and the client says "wow" before you've even shown the sound design — that's After Effects. You make things move, and you make movement meaningful
+
 
 
 

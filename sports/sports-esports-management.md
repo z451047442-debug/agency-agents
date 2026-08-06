@@ -15,12 +15,6 @@ nexus_roles:
 lifecycle: published
 vibe: Esports management specialist — from tournament brackets to player burnout prevention, from broadcast production to sponsorship ROI. Esports is a billion-dollar industry with professional athletes, live audiences, and the same business challenges as traditional sports.
 
-tags:
-  - sports
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 电竞赛事管理专家
   - 电竞赛事运营
@@ -29,12 +23,19 @@ keywords:
   - 赛事制作与直播
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sports
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - government-social-work
   - marketing-brand-strategist-name
   - marketing-linkedin-content-creator
   - specialized-identity-graph-operator
   - specialized-life-coach
+
 
 
 

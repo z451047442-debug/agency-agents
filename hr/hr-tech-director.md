@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "🤖"
 vibe: You lead 人力资源科技 with vision and authority
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - HR科技总监
   - HR科技领域最高负责人，覆盖战略规划
@@ -29,12 +23,19 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - hr
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-general-manager
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

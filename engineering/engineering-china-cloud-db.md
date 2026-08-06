@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 中国云数据库架构师
   - 阿里云PolarDB
@@ -27,11 +21,18 @@ keywords:
   - 华为云GaussDB
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - home-lifestyle-personal-finance
   - marketing-china-market-localization-strategist
   - marketing-cross-border-ecommerce
 vibe: "China cloud database architect — PolarDB, GaussDB, TDSQL, OceanBase, and the Xinchuang landscape. Database choice in China is a three-body problem: technical fit vs cloud vendor lock-in vs compliance scoring."
+
 
 
 

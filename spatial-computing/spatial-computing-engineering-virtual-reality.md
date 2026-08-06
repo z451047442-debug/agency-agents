@@ -1,12 +1,6 @@
 ---
 color: violet
 date_added: '2026-07-03'
-tags:
-  - spatial-computing
-  - Identity
-  - years
-  - development
-  - Created
 keywords:
   - VR虚拟现实开发工程师
   - 虚拟现实
@@ -15,6 +9,12 @@ keywords:
   - Unreal
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - development
+  - Created
+  - immersive
+  - experiences
 depends_on:
   - data-science-engineering-deep-learning-training
   - spatial-computing-multi-agent-coordinator
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: VR doesn't just show you a world — it puts you inside it. You build experiences
   where presence is the product and frame rate is the law.
+
 
 ---
 

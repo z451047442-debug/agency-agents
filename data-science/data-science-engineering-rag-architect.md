@@ -10,12 +10,6 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
-tags:
-  - data-science
-  - Real-World
-  - Scenarios
-  - Identity
-  - Memory
 keywords:
   - RAG
   - 架构师
@@ -24,6 +18,12 @@ keywords:
   - 向量检索优化与查询重写专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - data-science
+  - Real-World
+  - Scenarios
+  - Success
+  - Metrics
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -33,6 +33,7 @@ emoji: 🔍
 vibe: Bridges the gap between LLMs and enterprise knowledge — the right chunk at the
   right time changes everything.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 ---
 

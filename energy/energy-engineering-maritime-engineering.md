@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - naval
-  - architecture
 keywords:
   - 海洋工程
   - 船舶设计工程师
@@ -25,13 +19,19 @@ keywords:
   - 浮态
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - naval
+  - architecture
+  - Designed
+  - commercial
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: 🚢
 vibe: Ships are floating cities that survive hurricanes — you design vessels that are stable, seaworthy, and efficient across the world's most hostile environment
+
 
 
 

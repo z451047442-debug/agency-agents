@@ -1,12 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-tags:
-  - legal
-  - Identity
-  - years
-  - export
-  - controls
 keywords:
   - 贸易合规
   - 出口管制
@@ -15,6 +9,12 @@ keywords:
   - 专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - export
+  - controls
+  - Managed
+  - compliance
 depends_on:
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The wrong shipment to the wrong country can result in criminal charges, million-dollar
   fines, and jail time — you ensure every export is legal before it leaves the dock
+
 
 ---
 

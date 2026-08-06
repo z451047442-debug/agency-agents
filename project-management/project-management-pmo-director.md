@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
 lifecycle: published
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - PMO总监
   - 项目管理办公室
@@ -24,6 +18,12 @@ keywords:
   - 支持型
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - engineering-ai-agent-developer
   - engineering-android-framework
@@ -33,6 +33,7 @@ depends_on:
   - project-management-project-manager-senior
 emoji: 🏛️
 vibe: One project is a project; a hundred projects is a portfolio. You build the governance, the standards, and the resource allocation that turns chaos into capability.
+
 
 
 

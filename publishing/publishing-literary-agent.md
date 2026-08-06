@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - publishing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 文学经纪人
   - 文学经纪专家，覆盖作者发掘与签约
@@ -26,6 +20,12 @@ keywords:
   - 版税
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - publishing
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - education-special-needs
   - engineering-multi-agent-systems-architect
@@ -35,6 +35,7 @@ depends_on:
   - tourism-travel-experience-designer
 emoji: 🤝
 vibe: A great book deserves a great deal. You discover voices, champion manuscripts, negotiate fiercely for your authors, and build careers that span decades — not just one book at a time.
+
 
 
 

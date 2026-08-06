@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 图书联合作者
   - 思想领导力书籍
@@ -25,6 +19,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - Chapter
+  - Promise
+  - Section
 depends_on:
   - data-science-engineering-computer-vision-deep
   - education-special-needs
@@ -33,6 +33,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: "📘"
 vibe: Turns rough expertise into a recognizable book people can quote, remember, and buy into.
+
 
 
 

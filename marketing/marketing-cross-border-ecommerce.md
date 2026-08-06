@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 跨境电商专家
   - 亚马逊
@@ -22,12 +16,19 @@ keywords:
   - 与跨境履约全链路专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - Market
+  - Dimension
+  - Margin
 depends_on:
   - logistics-engineering-supply-chain-analytics
   - logistics-engineering-supply-chain-risk
   - logistics-supply-chain-strategist
 emoji: 🌏
 vibe: Takes your products from Chinese factories to global bestseller lists.
+
 
 ---
 

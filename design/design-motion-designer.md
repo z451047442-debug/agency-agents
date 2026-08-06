@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - design
-  - Identity
-  - years
-  - motion
-  - digital
 keywords:
   - 动效
   - 交互动画设计师
@@ -25,6 +19,12 @@ keywords:
   - 加载
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - motion
+  - digital
+  - products
+  - Created
 depends_on:
   - design-brand-guardian
   - marketing-abm-account-based
@@ -32,6 +32,7 @@ depends_on:
   - spatial-computing-multi-agent-coordinator
 emoji: ✨
 vibe: A button that responds with a subtle bounce doesn't just look good — it feels good. You design the motion that makes digital products feel alive.
+
 
 
 

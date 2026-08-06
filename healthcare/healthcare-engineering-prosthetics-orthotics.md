@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - prosthetics
-  - orthotics
 keywords:
   - 假肢
   - 矫形器
@@ -22,6 +16,12 @@ keywords:
   - 四肢矫形器临床工程专家，覆盖肌电
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - prosthetics
+  - orthotics
+  - Designed
+  - devices
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🦿
 vibe: Amputation takes a limb; prosthetics gives back a life. You design the artificial
   limbs that restore not just function, but identity and dignity.
+
 
 ---
 

@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - embedded
-  - software
 keywords:
   - 汽车基础软件
   - AUTOSAR
@@ -16,6 +10,12 @@ keywords:
   - 工程师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - embedded
+  - software
+  - Configured
+  - AUTOSAR
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-multi-agent-coordinator
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every ECU in a car runs a real-time OS and a communication stack — you configure
   the AUTOSAR stack that makes 100+ ECUs talk to each other reliably
+
 
 ---
 # 🚗 AUTOSAR Engineer Agent

@@ -1,12 +1,6 @@
 ---
 color: purple
 date_added: '2026-07-03'
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - GIS
   - 质量保证工程师
@@ -15,12 +9,17 @@ keywords:
   - CRS一致性与合规验证
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Toolbox
+  - Report
+  - Template
 depends_on:
   - data-science-engineering-computer-vision-deep
   - gis-multi-agent-coordinator
   - gis-analyst
   - marketing-brand-strategist-name
-  - operations-report-distribution-agent
 description: 地理空间数据完整性验证专家，覆盖拓扑检查、元数据审计、CRS一致性与合规验证
 emoji: ✅
 lifecycle: published
@@ -30,6 +29,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Data doesn't ship until QA says it ships.
+
 
 ---
 

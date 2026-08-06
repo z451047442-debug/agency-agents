@@ -1,12 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-tags:
-  - testing
-  - Identity
-  - years
-  - penetration
-  - Found
 keywords:
   - 安全渗透测试工程师
   - 应用安全渗透测试专家，覆盖OWASP
@@ -15,10 +9,15 @@ keywords:
   - Web
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - testing
+  - penetration
+  - Found
+  - vulnerabilities
+  - hundreds
 depends_on:
   - testing-multi-agent-coordinator
   - legal-engineering-legal-document-automation
-  - operations-report-distribution-agent
   - testing-accessibility-auditor
 description: 应用安全渗透测试专家，覆盖OWASP Top10/API安全测试、Web/移动/云渗透测试方法、漏洞验证/Exploit开发与渗透测试报告/修复建议
 emoji: 🎯
@@ -29,6 +28,7 @@ nexus_roles:
 version: 1.0.0
 vibe: You think like an attacker so you can defend like a professional — finding the
   vulnerabilities before the bad guys do
+
 
 ---
 

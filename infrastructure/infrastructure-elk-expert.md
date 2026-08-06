@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - ELK
   - Stack专家
@@ -24,11 +18,18 @@ keywords:
   - 日志与数据分析平台专家，覆盖Elasticsearch集群架构与调优
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - testing-test-results-analyzer
 emoji: 📊
 vibe: If it generates a log line, ELK can ingest it, index it, and make it searchable in under a second. The hard part isn't the tools — it's knowing what to log, how to structure it, and when to alert on it.
+
 
 
 

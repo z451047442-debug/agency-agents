@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - sports
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 体育营销专员
   - 赞助估值与包装
@@ -25,6 +19,12 @@ keywords:
   - 粉丝互动策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sports
+  - Technical
+  - T-30
+  - Publisher
+  - League/Event
 depends_on:
   - engineering-multi-agent-systems-architect
   - finance-cost-accountant
@@ -33,6 +33,7 @@ depends_on:
 emoji: 📣
 vibe: Where fandom meets ROI — connects brands to the emotion of sport in ways that move both hearts and merchandise.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

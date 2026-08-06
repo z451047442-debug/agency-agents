@@ -10,13 +10,8 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AI
   - 工程师
@@ -25,6 +20,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Capabilities
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-computer-vision-deep
@@ -37,6 +38,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🤖
 vibe: Turns ML models into production features that actually scale.
+
 
 
 

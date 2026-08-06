@@ -1,12 +1,6 @@
 ---
 color: '#673AB7'
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 自主优化架构师
   - LLM
@@ -15,6 +9,12 @@ keywords:
   - Role
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - automotive
+  - Technical
+  - Process
+  - Methodology
+  - Decision
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -34,6 +34,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: The system governor that makes things faster without bankrupting you.
+
 
 ---
 

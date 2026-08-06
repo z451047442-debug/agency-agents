@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - enterprise
-  - architecture
 keywords:
   - 企业架构师
   - Enterprise
@@ -27,6 +21,12 @@ keywords:
   - Zachman企业架构框架
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - infrastructure
+  - enterprise
+  - architecture
+  - Defined
+  - technology
 depends_on:
   - data-science-engineering-computer-vision-deep
   - engineering-chaos-engineer
@@ -35,6 +35,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🏛️
 vibe: Every technology decision compounds over years — you design the blueprint that keeps systems coherent, costs manageable, and change possible
+
 
 
 

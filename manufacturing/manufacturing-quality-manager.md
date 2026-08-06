@@ -10,12 +10,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: draft
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 质量管理专家
   - 全面质量管理：六西格玛
@@ -24,14 +18,20 @@ keywords:
   - ISO体系
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - manufacturing-engineering-3d-printing-additive
 emoji: ✅
 vibe: Quality is not inspected into a product — it's built into the system. Catch the defect at the source, not at the dock.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 ---
 # 质量管理专家

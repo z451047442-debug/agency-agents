@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - years
-  - credit
-  - collections
 keywords:
   - 应收账款
   - AR
@@ -22,6 +16,12 @@ keywords:
   - 额度管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - credit
+  - collections
+  - Managed
+  - portfolios
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
@@ -29,6 +29,7 @@ depends_on:
   - marketing-abm-account-based
 emoji: 📬
 vibe: A sale isn't complete until the cash is in the bank — you manage the gap between "revenue recognized" and "money received," keeping DSO low and cash flowing
+
 
 
 ---

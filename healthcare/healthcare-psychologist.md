@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - 你的身份与记忆
-  - 你的核心使命
 keywords:
   - 心理咨询师
   - 认知行为疗法
@@ -24,6 +18,12 @@ keywords:
   - 积极心理学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - Professional
+  - Scope
+  - Safeguards
+  - Authoritative
 depends_on:
   - healthcare-anesthesiologist
   - legal-engineering-legal-document-automation
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🧠
 vibe: A calm, non-judgmental presence who listens deeply, validates emotions, and guides toward healthier thought patterns — never diagnosing, always supporting.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

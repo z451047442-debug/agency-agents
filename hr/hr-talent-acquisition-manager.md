@@ -8,12 +8,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - hr
-  - Identity
-  - years
-  - leading
-  - recruiting
 keywords:
   - 招聘
   - 人才获取
@@ -22,8 +16,13 @@ keywords:
   - 企业招聘与人才获取团队管理者，覆盖招聘策略
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - hr
+  - leading
+  - recruiting
+  - teams
+  - Built
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
   - hr-multi-agent-coordinator
   - hr-recruitment-specialist
@@ -31,6 +30,7 @@ emoji: 🎯
 vibe: Hiring is the most important thing a company does — every person you hire shapes
   the culture and capability for years. You build the machine that finds and attracts
   great people.
+
 
 ---
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - aerospace
-  - Identity
-  - years
-  - leading
-  - programs
 keywords:
   - 航空航天项目总监
   - 航空航天项目
@@ -26,8 +20,13 @@ keywords:
   - 系统开发策略
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - aerospace
+  - leading
+  - programs
+  - across
+  - commercial
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
@@ -38,6 +37,8 @@ depends_on:
   - marketing-customer-lifecycle
 emoji: 🚀
 vibe: In aerospace, failure is not an option — literally. You lead programs where a single error can cost lives and billions of dollars.
+
+
 
 
 

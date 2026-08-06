@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - LLM推理部署专家
   - 大语言模型推理引擎与部署专家
@@ -23,6 +17,12 @@ keywords:
   - TRT-LLM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -35,6 +35,7 @@ emoji: 🚀
 vibe: Training a model is science. Serving it at 1000 requests per second with p99
   latency under 500ms is engineering. vLLM with PagedAttention makes the impossible
   possible.
+
 
 ---
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 小红书运营专家
   - 生活方式内容
@@ -24,11 +18,17 @@ keywords:
   - Identity
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
 emoji: 🌸
 vibe: Masters lifestyle content and aesthetic storytelling on 小红书.
+
 
 
 

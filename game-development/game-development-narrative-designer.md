@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 叙事设计师
   - 故事系统
@@ -25,6 +19,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Character
+  - Name
+  - Tier
 depends_on:
   - game-development-game-audio-engineer
   - government-social-work
@@ -33,6 +33,7 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 📖
 vibe: Architects story systems where narrative and gameplay are inseparable.
+
 
 
 

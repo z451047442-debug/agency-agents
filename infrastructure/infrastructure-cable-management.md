@@ -3,12 +3,6 @@
 
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - structured
-  - cabling
 keywords:
   - 综合布线
   - 线缆管理工程师
@@ -17,6 +11,12 @@ keywords:
   - Cat6A
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - structured
+  - cabling
+  - data
+  - centers
 depends_on:
   - data-science-engineering-deep-learning-training
   - engineering-build-release-engineer
@@ -36,6 +36,7 @@ version: 1.0.0
 vibe: Every server, every switch, every access point depends on a cable that someone
   had to pull, terminate, test, and label. You make the physical layer invisible by
   making it perfect.
+
 
 
 ---

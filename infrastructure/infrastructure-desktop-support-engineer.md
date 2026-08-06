@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 桌面运维工程师
   - 企业桌面运维综合专家，覆盖Windows
@@ -25,6 +19,12 @@ keywords:
   - 软件部署与许可管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - design-engineering-user-research-system
   - infrastructure-ansible-expert
@@ -33,6 +33,7 @@ depends_on:
   - infrastructure-windows-server
 emoji: 🖥️
 vibe: When the CEO's laptop won't connect to the projector 2 minutes before the board presentation — you don't panic, you already have the dongle, the backup cable, and the wireless casting link ready
+
 
 
 

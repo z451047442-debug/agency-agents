@@ -2,12 +2,6 @@
 
 color: teal
 date_added: '2026-07-03'
-tags:
-  - customer-service
-  - Identity
-  - years
-  - contact
-  - center
 keywords:
   - 客服排班
   - 劳动力管理
@@ -16,9 +10,14 @@ keywords:
   - 客服中心劳动力管理与排班专家，覆盖话务量预测
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - customer-service
+  - contact
+  - center
+  - Managed
+  - scheduling
 depends_on:
   - customer-service-call-center
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - data-science-engineering-knowledge-management
   - customer-service-multi-agent-coordinator
@@ -38,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The call center runs 24/7 and every half-hour window must have exactly the right
   number of agents — too few and customers wait, too many and you waste money
+
 
 ---
 # 📅 Workforce Management Specialist Agent

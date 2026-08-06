@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 精益制造
   - 六西格玛专家
@@ -25,6 +19,12 @@ keywords:
   - 看板
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - engineering-git-workflow-master
   - manufacturing-engineering-3d-printing-additive
@@ -32,6 +32,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 📊
 vibe: Waste is not just material on the factory floor — it's time, motion, inventory, defects, and unused talent. You find it, measure it, and eliminate it.
+
 
 
 

@@ -15,12 +15,6 @@ nexus_roles:
 lifecycle: published
 vibe: Library and information scientist — from Ranganathan's Five Laws to linked open data, from MARC records to semantic web ontologies. Information wants to be free, but it also needs to be findable.
 
-tags:
-  - libraries
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 图书馆学与信息科学专家
   - 图书馆管理
@@ -29,12 +23,19 @@ keywords:
   - 元数据标准
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - libraries
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - design-engineering-user-research-system
   - education-academic-research-scientist
   - education-field-archaeology
   - government-social-work
   - specialized-personal-growth-mentor
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Composer and conductor — from Bach's fugues to Stravinsky's rhythms, from Berlioz's orchestration to Boulez's serialism. Music is architecture in time; every note has structural purpose.
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 古典音乐作曲与指挥专家
   - 交响乐
@@ -24,9 +18,16 @@ keywords:
   - 合唱作曲
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - data-science-engineering-language-model-nlp
   - project-management-jira-workflow-steward
+
 
 ---
 

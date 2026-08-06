@@ -14,12 +14,6 @@ nexus_roles:
 lifecycle: published
 vibe: Museum manager and exhibition planner — from environmental monitoring to narrative design, from visitor studies to digital engagement. Museums are not buildings with objects — they are storytellers, educators, and community anchors.
 
-tags:
-  - museums
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 博物馆管理与展览策划专家
   - 博物馆运营管理
@@ -28,12 +22,19 @@ keywords:
   - 观众研究与教育项目
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - museums
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - education-cultural-heritage-law
   - government-social-work
   - legal-billing-time-tracking
   - legal-engineering-legal-document-automation
   - specialized-identity-graph-operator
+
 
 
 

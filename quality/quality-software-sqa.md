@@ -10,12 +10,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - quality
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 软件质量保证
   - SQA
@@ -24,6 +18,12 @@ keywords:
   - CMMI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - quality
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - engineering-build-release-engineer
   - manufacturing-engineering-test-chip-bringup
@@ -32,6 +32,7 @@ depends_on:
   - quality-customer-cqe
 emoji: 💻
 vibe: Testing finds bugs; SQA prevents them from being written in the first place. You build the quality culture, the metrics, and the processes that make quality systematic.
+
 
 
 ---

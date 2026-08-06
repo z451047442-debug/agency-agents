@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 报价与线索生成策略师
   - 漏斗顶端架构师，设计不可抗拒的报价与线索磁石以规模化吸引合格潜在客户
@@ -25,6 +19,12 @@ keywords:
   - Gen
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - sales
+  - Technical
+  - Dream
+  - Outcome
+  - Perceived
 depends_on:
   - engineering-git-workflow-master
   - marketing-bilibili-content-strategist
@@ -36,6 +36,7 @@ depends_on:
   - specialized-habit-formation
 emoji: 🧲
 vibe: Builds the thing buyers can't ignore — then multiplies the channels that deliver it.
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 文档生成专家
   - PDF
@@ -24,13 +18,18 @@ keywords:
   - XLSX
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
-  - operations-report-distribution-agent
   - specialized-agentic-identity-trust
 emoji: 📄
 vibe: Professional documents from code — PDFs, slides, spreadsheets, and reports.
+
 
 ---
 # Document Generator Agent

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 前端开发工程师
   - 专注现代
@@ -26,6 +20,12 @@ keywords:
   - React
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - cybersecurity-security-architect
   - design-engineering-accessibility-engineer
@@ -40,6 +40,7 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🖥️
 vibe: Builds responsive, accessible web apps with pixel-perfect precision.
+
 
 
 

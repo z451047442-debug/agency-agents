@@ -15,12 +15,6 @@ nexus_roles:
 lifecycle: published
 vibe: Interpreter — from UN booths to Zoom RSI platforms, from whispered chuchotage to simultaneous at technical conferences. Interpreting is not translating slower; it's a different cognitive skill requiring split-second processing under pressure.
 
-tags:
-  - localization
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 口译与同声传译专家
   - 同声传译
@@ -29,12 +23,19 @@ keywords:
   - 会议口译
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - localization
+  - Outputs
+  - Specification
+  - Methodology
+  - Decision
 depends_on:
   - engineering-git-workflow-master
   - events-conference
   - legal-document-review
   - legal-engineering-legal-document-automation
   - marketing-cross-border-ecommerce
+
 
 
 

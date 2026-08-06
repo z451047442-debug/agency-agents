@@ -1,12 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Apache
   - HTTPD专家
@@ -15,6 +9,12 @@ keywords:
   - 覆盖httpd
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-argocd-expert
@@ -35,6 +35,7 @@ version: 1.0.0
 vibe: Apache has been serving the web since 1995. When it goes down at 3 AM, someone
   who knows the difference between KeepAliveTimeout and RequestReadTimeout gets the
   call.
+
 
 ---
 

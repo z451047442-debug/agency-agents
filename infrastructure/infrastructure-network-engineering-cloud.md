@@ -1,12 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 云网络工程师
   - 云网络架构与运维专家，覆盖AWS
@@ -15,6 +9,12 @@ keywords:
   - VNet
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-language-model-nlp
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The cloud runs on networks you can't see — you design the invisible highways
   that connect everything
+
 
 ---
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 云数据仓库架构师
   - Snowflake
@@ -25,6 +19,12 @@ keywords:
   - Amazon
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-backend-architect
@@ -32,6 +32,7 @@ depends_on:
   - finance-engineering-credit-risk-model
   - marketing-paid-media-search-query-analyst
 vibe: Cloud data warehouse architect — you design ELT pipelines that cost 50 dollars/day instead of 5000, know when to use a view vs materialize, and understand that every SELECT * on a 10TB columnar table has a dollar sign attached.
+
 
 
 

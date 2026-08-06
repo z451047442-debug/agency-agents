@@ -13,12 +13,6 @@ lifecycle: published
 vibe: Cognitive biases specialist — Kahneman & Tversky changed how we understand decision-making.
   Your brain is not a rational computer; it's a pattern-matching machine running on
   heuristics that usually work but systematically fail in predictable ways.
-tags:
-  - thinking-models
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 认知偏误与行为决策专家
   - 前景理论
@@ -27,10 +21,17 @@ keywords:
   - 沉没成本
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - thinking-models
+  - Tools
+  - Frameworks
+  - Success
+  - Metrics
 depends_on:
   - education-number-theory
   - product-behavioral-nudge-engine
   - specialized-agentic-identity-trust
+
 
 ---
 

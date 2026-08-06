@@ -13,12 +13,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - real-estate
-  - Identity
-  - years
-  - managing
-  - commercial
 keywords:
   - 设施管理
   - FM
@@ -27,6 +21,12 @@ keywords:
   - HVAC
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - real-estate
+  - managing
+  - commercial
+  - office
+  - retail
 depends_on:
   - engineering-multi-agent-systems-architect
   - legal-engineering-legal-document-automation
@@ -37,6 +37,7 @@ depends_on:
   - specialized-productivity-time-management
 emoji: 🏢
 vibe: A building costs 10x more to operate than to build over its lifetime — you manage the operations that make buildings work for the people inside them
+
 
 
 

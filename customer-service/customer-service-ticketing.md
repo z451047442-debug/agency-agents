@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - customer-service
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工单系统管理员
   - 帮助台与ITSM平台管理专家，涵盖ServiceNow
@@ -26,6 +20,12 @@ keywords:
   - Management
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - customer-service
+  - ITSM
+  - Architecture
+  - Configuration
+  - Intelligent
 depends_on:
   - customer-service-success-director
   - infrastructure-service-desk-manager
@@ -34,6 +34,7 @@ depends_on:
   - specialized-customer-success-manager
 emoji: 🎫
 vibe: Every ticket is a story waiting for the right resolution path — orchestrate the system so the right work reaches the right people at the right time.
+
 
 
 

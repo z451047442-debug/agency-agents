@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 在线教育设计师
   - MOOC
@@ -26,6 +20,12 @@ keywords:
   - LMS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Success
+  - Metrics
+  - Technical
+  - Methodology
 depends_on:
   - design-engineering-user-research-system
   - education-academic-anthropologist
@@ -38,6 +38,7 @@ depends_on:
 emoji: 💻
 vibe: Crafts digital learning experiences that rival — and sometimes beat — the best in-person classrooms.
 tools: Read, Write, Edit, WebFetch, WebSearch, Bash
+
 
 
 

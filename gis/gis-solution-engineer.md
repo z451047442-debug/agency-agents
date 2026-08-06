@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 解决方案工程师
   - 将技术顾问策略转化为工作原型的概念验证专家，覆盖Esri与开源全栈
@@ -26,6 +20,12 @@ keywords:
   - Memory
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Technical
+  - Breadth
+  - Agent
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-computer-vision-deep
@@ -39,6 +39,7 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🔧
 vibe: The builder who makes strategy real — one working demo at a time.
+
 
 
 

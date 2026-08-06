@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - pets
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 宠物营养师
   - 宠物营养专家，覆盖物种适宜饮食配方设计（犬
@@ -25,15 +19,21 @@ keywords:
   - 成年
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pets
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
   - design-engineering-human-factors
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-supply-chain-analytics
   - logistics-engineering-supply-chain-risk
   - logistics-engineering-supply-chain-software
-  - operations-report-distribution-agent
 emoji: 🐕
 vibe: A food bowl is a health decision made twice a day. You apply nutritional science to those decisions — formulating diets that match species biology, life stage needs, and individual health conditions, because the right food prevents more disease than any medicine.
+
 
 
 

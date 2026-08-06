@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - years
-  - conservation
-  - science
 keywords:
   - 文化遗产保护
   - 文物保护科技专家
@@ -25,6 +19,12 @@ keywords:
   - XRD
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - conservation
+  - science
+  - Preserved
+  - cultural
 depends_on:
   - construction-engineering-construction-materials
   - construction-engineering-cultural-heritage-digitization
@@ -35,6 +35,7 @@ depends_on:
   - tourism-cultural-heritage
 emoji: 🏛️
 vibe: A thousand-year-old temple, a Renaissance painting, an ancient manuscript — you apply materials science and environmental control to preserve humanity's cultural heritage
+
 
 
 

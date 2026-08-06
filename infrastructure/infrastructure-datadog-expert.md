@@ -11,12 +11,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Datadog可观测性专家
   - Datadog全栈可观测性专家
@@ -25,6 +19,12 @@ keywords:
   - Flame
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-threat-detection-engineer
@@ -32,6 +32,7 @@ depends_on:
 
 emoji: 🐕
 vibe: Datadog unifies metrics, traces, and logs in one platform. The expert who connects all three dimensions turns observability from three screens into one story — and cuts MTTR by 80%.
+
 
 
 

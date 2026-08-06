@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - events
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 赞助开发经理
   - 赞助开发专家，覆盖赞助权益包
@@ -25,6 +19,12 @@ keywords:
   - 招商方案
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - events
+  - Deliverable
+  - Authoritative
+  - References
+  - Success
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - events-conference
@@ -34,10 +34,10 @@ depends_on:
   - marketing-customer-lifecycle
   - marketing-demand-generation
   - marketing-market-research
-  - operations-report-distribution-agent
   - thinking-models-decision-frameworks
 emoji: 🤝
 vibe: Sponsorship is not selling logo placement — it is building a partnership where both sides win. You design sponsorship programs that fund great events while delivering measurable business value to sponsors, turning one-time transactions into multi-year relationships.
+
 
 
 

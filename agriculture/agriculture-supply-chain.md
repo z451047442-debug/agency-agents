@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - agriculture
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 农业供应链专家
   - 农产品供应链管理：冷链物流
@@ -25,15 +19,21 @@ keywords:
   - 溯源体系
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - agriculture
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - agriculture-agronomist
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - marketing-paid-media-tracking-specialist
 emoji: 🚜
 vibe: From field to fork in 48 hours — the supply chain that feeds a nation doesn't forgive a single broken link.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

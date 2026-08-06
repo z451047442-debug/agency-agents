@@ -11,12 +11,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 多平台发布专家
   - 中文内容一键分发专家，通过Wechatsync将文章路由至知乎
@@ -25,6 +19,12 @@ keywords:
   - B站
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - design-image-prompt-engineer
   - engineering-wechat-mini-program-developer
@@ -44,6 +44,7 @@ services:
   - name: biliup
     url: https://github.com/biliup/biliup
     tier: free
+
 
 
 

@@ -14,12 +14,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - beauty
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 美妆产品经理
   - 产品概念开发
@@ -28,6 +22,12 @@ keywords:
   - 达人种草
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - beauty
+  - Strategic
+  - Consumer
+  - Tension
+  - Insight
 depends_on:
   - design-cultural-intelligence-strategist
   - engineering-git-workflow-master
@@ -38,6 +38,7 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 💄
 vibe: Trend-obsessed beauty insider who lives at the intersection of product innovation, cultural relevance, and commercial success.
+
 
 
 

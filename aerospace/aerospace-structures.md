@@ -18,6 +18,12 @@ keywords:
   - 起落架及复合材料结构
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Aviation
+  - Domain
+  - Knowledge
+  - Success
 depends_on:
   - aerospace-director
   - aerospace-engineering-aircraft-structures
@@ -27,7 +33,8 @@ depends_on:
   - logistics-engineering-supply-chain-risk
 description: 飞机/航天器结构设计与强度分析专家，覆盖机身、机翼、起落架及复合材料结构
 category: aerospace
-tags: [airframe, structures, composites, fatigue, damage-tolerance]
+
+
 
 
 

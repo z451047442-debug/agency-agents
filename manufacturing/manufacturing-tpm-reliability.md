@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
   - phase-4-hardening
 lifecycle: published
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 设备维护与可靠性
   - TPM
@@ -23,11 +17,18 @@ keywords:
   - 自主保全
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
   - testing-engineering-reliability-testing
 emoji: 🔧
 vibe: A machine that breaks down at 2AM costs production, costs overtime, costs customer deliveries — your job is making sure it never breaks down at 2AM, because you already predicted and prevented it
+
 
 
 ---

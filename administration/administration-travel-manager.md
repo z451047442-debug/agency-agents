@@ -2,12 +2,6 @@
 
 color: teal
 date_added: '2026-07-03'
-tags:
-  - administration
-  - Identity
-  - years
-  - managing
-  - corporate
 keywords:
   - 差旅管理专家
   - 企业差旅与出行管理专家，覆盖差旅政策
@@ -16,6 +10,12 @@ keywords:
   - 航司
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - administration
+  - managing
+  - corporate
+  - travel
+  - programs
 depends_on:
   - administration-contract-manager
   - data-science-engineering-knowledge-management
@@ -37,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Business travel is a multi-million dollar line item that nobody manages until
   someone books a first-class ticket to a meeting that could have been a Zoom call
+
 
 ---
 # ✈️ Corporate Travel Manager Agent

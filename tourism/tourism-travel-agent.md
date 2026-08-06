@@ -9,12 +9,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - tourism
-  - Identity
-  - years
-  - travel
-  - agency
 keywords:
   - 旅行社
   - 旅行顾问
@@ -23,8 +17,13 @@ keywords:
   - 酒店
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - travel
+  - agency
+  - operations
+  - Designed
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
   - tourism-multi-agent-coordinator
   - tourism-travel-agency
@@ -32,6 +31,7 @@ depends_on:
 emoji: 🧳
 vibe: Travel is the only thing you buy that makes you richer — you craft the journeys
   that create lifelong memories, not just itineraries.
+
 
 ---
 # 🧳 Travel Agency & Advisor Agent

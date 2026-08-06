@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 邮件智能工程师
   - 从原始邮件线程中提取结构化
@@ -23,6 +17,12 @@ keywords:
   - Agent
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Capabilities
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
@@ -31,6 +31,7 @@ depends_on:
 emoji: 📧
 vibe: Turns messy MIME into reasoning-ready context because raw email is noise and
   your agent deserves signal
+
 
 ---
 

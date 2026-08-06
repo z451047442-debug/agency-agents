@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 流数据平台工程师
   - 实时流数据与消息平台专家，覆盖Apache
@@ -26,6 +20,12 @@ keywords:
   - Flink
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Technologies
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -36,6 +36,7 @@ depends_on:
   - healthcare-mental-health
 emoji: 🌊
 vibe: Batch is what you do when real-time is too hard — but you make real-time easy, reliable, and exactly-once
+
 
 
 

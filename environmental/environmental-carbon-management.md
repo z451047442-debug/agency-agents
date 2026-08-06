@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Deliverables
-  - Success
-  - Metrics
-  - Identity
 keywords:
   - 碳管理专家
   - 碳核算
@@ -24,6 +18,12 @@ keywords:
   - EU
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - agriculture-general-manager
   - construction-safety-officer
@@ -33,6 +33,7 @@ depends_on:
   - legal-general-counsel
 emoji: ♻️
 vibe: A spreadsheet warrior who counts every ton of CO₂e and knows the carbon market's mood swings
+
 
 
 

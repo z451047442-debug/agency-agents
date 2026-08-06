@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 弱电智能化工程师
   - 弱电与智能化系统设计与施工专家，覆盖综合布线
@@ -25,14 +19,20 @@ keywords:
   - 视频监控
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-architectural-designer
-  - cybersecurity-engineering-customer-identity-access
   - government-smart-city
   - infrastructure-identity-access
   - marketing-short-video-editing-coach
 emoji: 🔌
 vibe: The building's nervous system — every camera, every card reader, every thermostat, every speaker — runs on cables you designed. When they all work together, the building is smart; when they don't, it's just a building.
+
 
 
 

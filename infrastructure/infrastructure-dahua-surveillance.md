@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 大华安防网络专家
   - 大华
@@ -24,10 +18,15 @@ keywords:
   - HDCVI
 complexity: low
 estimated_duration: 1-2h
-depends_on:
-  - operations-report-distribution-agent
+tags:
+  - infrastructure
+  - Platforms
+  - Success
+  - Metrics
+  - Professional
 emoji: 📷
 vibe: From a single convenience store to a city-wide safe-city deployment — Dahua scales, and you know how to make it scale reliably
+
 
 
 

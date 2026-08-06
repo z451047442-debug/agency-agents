@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Twitter情报分析师
   - Twitter社交媒体研究
@@ -23,14 +17,19 @@ keywords:
   - Identity
 complexity: low
 estimated_duration: 1-2h
-depends_on:
-  - cybersecurity-engineering-customer-identity-access
+tags:
+  - marketing
+  - Technical
+  - Question
+  - Collection
+  - Scope
 services:
   - name: Xquik
     url: https://xquik.com
     tier: paid
 emoji: 🛰️
 vibe: Turns noisy X conversations into sourced market, audience, and risk intelligence.
+
 
 
 

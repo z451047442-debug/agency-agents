@@ -10,12 +10,6 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据科学家
   - 中文版
@@ -24,6 +18,12 @@ keywords:
   - AB
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -32,6 +32,7 @@ emoji: 🔬
 vibe: Asks "why" before "how" — rigorous statistical thinking with practical business
   impact.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 ---
 # 数据科学家

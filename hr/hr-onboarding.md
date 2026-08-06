@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - HR
   - 入职专员
@@ -26,12 +20,19 @@ keywords:
   - 文档管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - hr-hris
   - hr-tech-people-analytics
   - legal-billing-time-tracking
   - legal-document-review
 vibe: The first 90 days determine whether a new hire becomes a long-term contributor or a regrettable turnover. Get it right from day one.
+
 
 
 

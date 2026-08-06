@@ -1,12 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - spatial-computing
-  - Identity
-  - years
-  - wearable
-  - consumer
 keywords:
   - 可穿戴设备
   - 消费电子硬件工程师
@@ -15,6 +9,12 @@ keywords:
   - 耳机等可穿戴与消费电子硬件设计专家，覆盖微型化
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - wearable
+  - consumer
+  - electronics
+  - Designed
 depends_on:
   - energy-engineering-power-electronics
   - energy-engineering-power-electronics-packaging
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The computer on your wrist is more powerful than the one that landed on the
   moon — you pack sensors, radios, and batteries into devices smaller than a cookie
+
 
 ---
 

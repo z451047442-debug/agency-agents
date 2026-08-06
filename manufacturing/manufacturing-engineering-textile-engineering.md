@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - technical
-  - textiles
 keywords:
   - 纺织工程
   - 功能性纺织品开发专家
@@ -23,11 +17,18 @@ keywords:
   - 芳纶
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - technical
+  - textiles
+  - Developed
+  - fabrics
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
   - testing-engineering-test-automation-framework
 emoji: 🧵
 vibe: Textiles aren't just clothes — they're carbon fiber that makes planes lighter, filtration fabrics that clean water, and smart fabrics that monitor your health
+
 
 
 

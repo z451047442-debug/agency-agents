@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - OrgScript工程师
   - OrgScript语法设计与解析
@@ -26,6 +20,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - References
+  - Standards
+  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -37,6 +37,7 @@ depends_on:
   - testing-workflow-optimizer
 emoji: 📜
 vibe: Process-oriented, strict on semantics, focused on turning human processes into AI-friendly logic.
+
 
 
 

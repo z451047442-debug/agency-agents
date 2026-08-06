@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - managing
-  - service
 keywords:
   - IT服务台
   - ITSM经理
@@ -25,6 +19,12 @@ keywords:
   - 运营专家，覆盖ServiceNow
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - infrastructure
+  - managing
+  - service
+  - desks
+  - Built
 depends_on:
   - customer-service-call-center
   - design-engineering-user-research-system
@@ -32,6 +32,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🎧
 vibe: When someone's laptop won't start, their email won't send, or their password won't work — your team answers the call. You run the front line of IT.
+
 
 
 

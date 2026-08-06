@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Critical
-  - Rules
 keywords:
   - 电网工程师
   - 电力系统运行与维护：输配电网络
@@ -26,15 +20,21 @@ keywords:
   - SCADA调度
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - energy-engineering-power-systems
   - infrastructure-identity-access
   - marketing-abm-account-based
 emoji: ⚡
 vibe: The grid hums at 50Hz and never sleeps — neither does the engineer who keeps the lights on.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

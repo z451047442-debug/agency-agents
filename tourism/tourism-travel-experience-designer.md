@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 旅行体验设计师
   - 沉浸式旅行体验策划专家，从文化沉浸到冒险路线，打造不可复制的旅程记忆
@@ -23,14 +17,20 @@ keywords:
   - narrative
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - engineering-programming-language
   - marketing-private-domain-operator
   - marketing-southeast-asia-expert
-  - operations-report-distribution-agent
   - tourism-travel-agent
 emoji: 🗺️
 vibe: The best trips aren't the ones you photograph — they're the ones that photograph themselves onto you
+
 
 
 

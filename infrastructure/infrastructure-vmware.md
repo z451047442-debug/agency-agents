@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - VMware虚拟化专家
   - VMware
@@ -16,6 +10,12 @@ keywords:
   - vCenter
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technologies
+  - Success
+  - Metrics
+  - References
 depends_on:
   - education-special-needs
   - energy-engineering-grid-scale-storage
@@ -38,6 +38,7 @@ version: 1.0.0
 vibe: Before the cloud, there was VMware — and in data centers everywhere, there still
   is. You keep the hypervisor humming, the VMs migrating, and the storage from melting
   down.
+
 
 ---
 # 🔶 VMware Virtualization Specialist Agent

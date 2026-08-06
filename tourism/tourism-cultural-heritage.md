@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 文化遗产旅游专家
   - 遗产地阐释与故事讲述
@@ -26,6 +20,12 @@ keywords:
   - 社区旅游
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-engineering-cultural-heritage-digitization
   - construction-engineering-heritage-conservation
@@ -33,10 +33,10 @@ depends_on:
   - engineering-git-workflow-master
   - healthcare-engineering-regulatory-science
   - marketing-southeast-asia-expert
-  - operations-report-distribution-agent
   - tourism-cruise
 emoji: 🏯
 vibe: Heritage is not a monument — it is a living conversation between past and present, and every visitor who walks through a temple gate is joining that conversation
+
 
 
 

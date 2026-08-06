@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - years
-  - aviation
-  - fuel
 keywords:
   - 航空替代燃料
   - AST
@@ -24,6 +18,12 @@ keywords:
   - 分析师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - aviation
+  - fuel
+  - Qualified
+  - pathways
 depends_on:
   - aerospace-engineering-aviation-sustainability
   - finance-accounts-payable-agent
@@ -36,6 +36,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: ✈️
 vibe: Sustainable aviation fuel is chemically identical to Jet A-1 but made from waste, not oil — you verify the carbon savings and certify the fuel to fly
+
+
 
 
 

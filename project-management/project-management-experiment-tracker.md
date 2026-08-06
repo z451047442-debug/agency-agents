@@ -11,14 +11,9 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-6-operate
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 实验追踪专家
   - 测试
@@ -27,6 +22,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Technical
+  - Hypothesis
+  - Experimental
+  - Design
 depends_on:
   - operations-executive-summary-generator
   - project-management-agents-orchestrator
@@ -36,6 +37,7 @@ depends_on:
   - thinking-models-scientific-method
 emoji: 🧪
 vibe: Designs experiments, tracks results, and lets the data decide.
+
 
 
 

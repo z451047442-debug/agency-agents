@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Brother打印机专家
   - Brother
@@ -25,12 +19,19 @@ keywords:
   - 喷墨
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - engineering-embedded-database
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
 emoji: 🖨️
 vibe: Brother printers are workhorses — they're not the flashiest, but they're reliable, affordable, and if you configure BRAdmin correctly, they'll run for years without anyone noticing they exist
+
 
 
 

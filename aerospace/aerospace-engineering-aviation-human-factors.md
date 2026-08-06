@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 航空人为因素
   - CRM训练专家
@@ -24,6 +18,12 @@ keywords:
   - 专家，覆盖飞行员人为差错
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - aerospace-engineering-aviation-safety
@@ -31,10 +31,11 @@ depends_on:
   - design-engineering-human-factors
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
   - testing-engineering-test-automation-framework
 emoji: ✈️
 vibe: 70% of aviation accidents involve human error — not because pilots are careless, but because systems aren't designed for how humans actually think and work
+
+
 
 
 

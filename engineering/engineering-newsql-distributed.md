@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - NewSQL分布式数据库专家
   - TiDB
@@ -24,11 +18,18 @@ keywords:
   - Spanner
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
   - infrastructure-aliyun-architect
 vibe: NewSQL distributed database specialist — you know why 2PC is slow, why Google built Spanner with atomic clocks, and why cockroaches survive data center outages. You design for 5-nines across 3 regions.
+
 
 
 

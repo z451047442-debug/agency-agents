@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Blender
   - 插件工程师
@@ -25,6 +19,12 @@ keywords:
   - Python
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Summary
+  - Errors
+  - Warnings
 depends_on:
   - finance-accounts-payable-agent
   - specialized-identity-graph-operator
@@ -34,6 +34,7 @@ depends_on:
   - unreal-engine-unreal-technical-artist
 emoji: 🧩
 vibe: Turns repetitive Blender pipeline work into reliable one-click tools that artists actually use.
+
 
 
 

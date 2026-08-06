@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - nonprofit
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 志愿者协调员
   - 志愿者招募与筛选
@@ -26,6 +20,12 @@ keywords:
   - 排班与轮班管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - nonprofit
+  - Success
+  - Metrics
+  - Technical
+  - Professional
 depends_on:
   - engineering-social-media-platform
   - finance-cost-accountant
@@ -37,6 +37,7 @@ depends_on:
 emoji: 🤝
 vibe: The heart of any nonprofit's workforce — turns goodwill into well-organized action, one volunteer shift at a time.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

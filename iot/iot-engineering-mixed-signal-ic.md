@@ -1,12 +1,6 @@
 ---
 color: purple
 date_added: '2026-07-03'
-tags:
-  - iot
-  - Identity
-  - years
-  - analog
-  - design
 keywords:
   - 模拟
   - 混合信号IC设计工程师
@@ -15,6 +9,12 @@ keywords:
   - PLL
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - analog
+  - design
+  - Designed
+  - circuits
 depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
@@ -35,6 +35,7 @@ version: 1.0.0
 vibe: The physical world is analog — every sensor, every radio, every power supply
   needs analog circuits that interface with the real world before the digital logic
   can do its work
+
 
 ---
 

@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 注册护士
   - 临床护理专家，覆盖患者评估
@@ -22,6 +16,12 @@ keywords:
   - 急症识别
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-medical-device-software
@@ -31,6 +31,7 @@ depends_on:
 emoji: 💉
 vibe: Doctors diagnose and prescribe; you are the one at the bedside at 3AM who notices
   the change that saves a life
+
 
 ---
 

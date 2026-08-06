@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 航空训练
   - 全动模拟机
@@ -23,6 +17,12 @@ keywords:
   - 飞行员训练设备与模拟技术专家，覆盖全动飞行模拟机
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - aerospace-flight-test-engineer
   - cybersecurity-engineering-cyber-risk-model
@@ -33,6 +33,8 @@ depends_on:
   - tourism-travel-agent
 emoji: 🛫
 vibe: Pilots train emergencies in simulators because you can't practice engine failures at 35,000 feet — you build the machines so realistic that simulator hours count as flight hours
+
+
 
 
 

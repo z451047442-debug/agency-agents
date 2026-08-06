@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
 lifecycle: published
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 定价分析师
   - 通过市场研究
@@ -25,6 +19,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Technical
+  - Executive
+  - Summary
+  - Cost
 depends_on:
   - aerospace-military-materials-manufacturing
   - design-cultural-intelligence-strategist
@@ -36,6 +36,7 @@ depends_on:
 emoji: 💰
 vibe: Finds the price point where value captured meets value delivered — then proves it with data.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 
 
 

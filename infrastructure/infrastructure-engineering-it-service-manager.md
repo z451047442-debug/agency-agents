@@ -9,12 +9,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - IT服务管理
   - ITIL
@@ -23,6 +17,12 @@ keywords:
   - 问题
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - infrastructure
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -32,6 +32,7 @@ emoji: 🖧
 vibe: When the incident goes from "my email is slow" to "the CEO's email is down,"
   you have 15 minutes to fix it, the process to coordinate it, and the CMDB to know
   what's affected
+
 
 ---
 

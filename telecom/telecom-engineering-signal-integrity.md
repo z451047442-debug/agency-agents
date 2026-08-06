@@ -1,12 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-tags:
-  - telecom
-  - Identity
-  - years
-  - signal
-  - power
 keywords:
   - 信号完整性
   - SI
@@ -15,13 +9,18 @@ keywords:
   - 工程师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - telecom
+  - signal
+  - power
+  - integrity
+  - Ensured
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
   - finance-cost-accountant
   - finance-engineering-credit-risk-model
-  - operations-report-distribution-agent
   - telecom-5g-core
   - telecom-data-analyst
 description: 高速数字系统信号与电源完整性专家，覆盖SerDes/DDR/PCIe高速接口SI仿真(HFSS/SIwave)、PDN阻抗/去耦电容优化、IBIS-AMI/TDR/VNA测量与PCB
@@ -36,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: At multi-gigabit speeds, a PCB trace is not a wire — it's a transmission line.
   You ensure the 1s and 0s arrive intact, not as mush.
+
 
 ---
 

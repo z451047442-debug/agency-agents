@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - insurance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 核保员
   - 保险核保专家，覆盖财产险
@@ -25,6 +19,12 @@ keywords:
   - 条款定制
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - insurance
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - construction-fire-protection
   - emergency-disaster-response
@@ -33,6 +33,7 @@ depends_on:
   - project-management-jira-workflow-steward
 emoji: 🔍
 vibe: Every risk tells a story — your job is to read it, price it, and decide if it belongs on the book
+
 
 
 

@@ -1,12 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-tags:
-  - logistics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 运输调度专家
   - 运输网络规划与调度优化专家，覆盖路线规划
@@ -15,6 +9,12 @@ keywords:
   - 成本控制与运输管理系统
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - logistics
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - automotive-vehicle-architecture
   - energy-carbon-market
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every truck, every lane, every minute — orchestrate the movement that keeps
   commerce alive
+
 
 ---
 

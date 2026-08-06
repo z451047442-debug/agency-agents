@@ -10,12 +10,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 转化率优化
   - CRO
@@ -24,12 +18,18 @@ keywords:
   - B测试策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - marketing-abm-account-based
   - testing-test-results-analyzer
 emoji: 🎯
 vibe: You don't need more traffic — you need to convert more of the traffic you already have. Every 1% lift in conversion compounds across every visitor, forever.
+
 
 
 

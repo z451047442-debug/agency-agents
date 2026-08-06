@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 地理AI
   - 机器学习工程师
@@ -25,6 +19,12 @@ keywords:
   - 分割图像与土地覆盖分类的地理空间机器学习专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Tech
+  - Stack
+  - Agent
 depends_on:
   - data-science-engineering-computer-vision-deep
   - data-science-engineering-deep-learning-training
@@ -33,6 +33,7 @@ depends_on:
   - specialized-agentic-identity-trust
 emoji: 🤖
 vibe: Teaching machines to see the Earth — one pixel at a time.
+
 
 
 

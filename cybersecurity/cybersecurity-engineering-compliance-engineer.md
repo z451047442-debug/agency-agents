@@ -7,13 +7,8 @@ date_added: '2026-07-03'
 nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
+  - phase-6-operate
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - years
-  - product
-  - compliance
 keywords:
   - 合规
   - 法规事务
@@ -22,6 +17,12 @@ keywords:
   - 产品合规与法规事务工程专家，覆盖CE
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - product
+  - compliance
+  - Obtained
+  - certifications
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-engineering-credit-risk-model
@@ -29,6 +30,7 @@ depends_on:
 emoji: 📋
 vibe: A product that can't be certified can't be sold. You navigate the global regulatory
   maze so products can reach markets legally and on time.
+
 
 ---
 

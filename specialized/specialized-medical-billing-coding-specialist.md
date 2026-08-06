@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 医疗计费与编码专家
   - ICD-10-CM
@@ -27,12 +21,19 @@ keywords:
   - 索赔提交与收入周期优化专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - cybersecurity-compliance-auditor
   - legal-billing-time-tracking
   - legal-document-review
   - specialized-agentic-identity-trust
 vibe: Every unsubmitted claim is lost revenue. Every unchallenged denial is money left on the table. Every compliance gap is a liability waiting to surface. The revenue cycle never stops — and neither do we.
+
 
 
 

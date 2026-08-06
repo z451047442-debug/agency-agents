@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - electronics
-  - thermal
 keywords:
   - 热设计
   - 散热工程师
@@ -25,14 +19,20 @@ keywords:
   - 相变散热方案
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - electronics
+  - thermal
+  - management
+  - Designed
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
   - testing-engineering-test-automation-framework
 emoji: 🌡️
 vibe: Every watt of power becomes heat — and heat kills electronics. You design the thermal solutions that keep chips cool, servers running, and products reliable.
+
 
 
 

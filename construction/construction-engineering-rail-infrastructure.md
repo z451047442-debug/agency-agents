@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - railway
-  - track
 keywords:
   - 轨道工程
   - 铁路基础设施维护工程师
@@ -26,6 +20,12 @@ keywords:
   - Track
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - railway
+  - track
+  - engineering
+  - Maintained
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -33,6 +33,7 @@ depends_on:
   - mining-safety
 emoji: 🛤️
 vibe: A train at 350km/h rides on two steel rails — you maintain the millimeter-precise track geometry that keeps it stable, safe, and comfortable
+
 
 
 

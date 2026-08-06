@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
   - phase-6-operate
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据库GUI工具专家
   - MySQL
@@ -26,6 +20,12 @@ keywords:
   - Compass
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - engineering-database-administrator
   - infrastructure-backup-admin
@@ -34,6 +34,7 @@ depends_on:
   - testing-test-results-analyzer
   - unity-editor-tool-developer
 vibe: Database GUI tools specialist — visual ER diagrams that explain a schema faster than DDL, query editing that beats the CLI for exploration, and data import wizards that save you from writing yet another CSV parser.
+
 
 
 

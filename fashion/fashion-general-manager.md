@@ -11,17 +11,12 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
   - phase-5-launch
+  - phase-6-operate
 lifecycle: published
 
 emoji: "👗"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - fashion
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 时尚总经理
   - 时尚领域全面经营管理者，覆盖业务运营
@@ -30,14 +25,20 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - fashion
+  - Industry
+  - Context
+  - Best
+  - Practices
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - fashion-director
   - government-general-manager
   - pets-general-manager
   - real-estate-general-manager
   - cybersecurity-general-manager
   - specialized-customer-success-manager
+
 
 
 

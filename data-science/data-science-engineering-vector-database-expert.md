@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 向量数据库专家
   - Milvus
@@ -28,6 +22,12 @@ keywords:
   - 向量索引与
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -38,6 +38,7 @@ depends_on:
 emoji: 🗂️
 vibe: When "find similar" needs to happen across a billion vectors in under 10ms — that's where you live.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

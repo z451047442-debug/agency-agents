@@ -10,12 +10,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Epson打印机专家
   - Epson
@@ -24,6 +18,12 @@ keywords:
   - EcoTank
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - infrastructure-datadog-expert
   - infrastructure-splunk-expert
@@ -32,6 +32,7 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: 🖨️
 vibe: Epson doesn't use toner cartridges — the PrecisionCore printhead and EcoTank system fundamentally change the economics of printing
+
 
 
 

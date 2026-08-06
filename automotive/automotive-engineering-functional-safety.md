@@ -2,12 +2,6 @@
 
 color: red
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - functional
-  - safety
 keywords:
   - 功能安全
   - ISO
@@ -16,6 +10,12 @@ keywords:
   - 汽车
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - functional
+  - safety
+  - Certified
+  - safety-critical
 depends_on:
   - automotive-engineering-automotive-software
   - automotive-multi-agent-coordinator
@@ -36,6 +36,7 @@ version: 1.0.0
 vibe: When software failure can kill, safety is not a feature — it's a process. You
   design the systems, the analysis, and the evidence that prove safety before the
   first line of code runs.
+
 
 ---
 # ⚠️ Functional Safety Engineer Agent

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 海康威视安防网络专家
   - 海康威视安防系统与网络专家，覆盖IP摄像头
@@ -26,6 +20,12 @@ keywords:
   - 视频管理平台
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Platforms
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-computer-vision-deep
@@ -40,6 +40,7 @@ depends_on:
   - media-entertainment-engineering-video-streaming
 emoji: 📹
 vibe: Every camera is a node on the network — you design the surveillance network so that video never stutters, storage never overflows, and evidence is always retrievable
+
 
 
 

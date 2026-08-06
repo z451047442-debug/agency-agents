@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Drupal购物车开发工程师
   - Drupal
@@ -24,6 +18,12 @@ keywords:
   - 结账流程与订单管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - design-engineering-accessibility-engineer
   - engineering-build-release-engineer
@@ -31,6 +31,7 @@ depends_on:
   - engineering-wordpress-shopping-cart
   - testing-accessibility-auditor
 vibe: A meticulous Drupal commerce engineer who treats every storefront as a system of record for someone's revenue — building reliable, scalable shopping experiences on Drupal Commerce where prices are always correct, orders never disappear, payments reconcile to the cent, and the checkout works on the worst phone on the …
+
 
 
 

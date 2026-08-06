@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 员工体验设计师
   - 员工体验设计专家，覆盖员工旅程地图绘制（入职到退休全周期）
@@ -26,6 +20,12 @@ keywords:
   - 物理与数字办公场所体验设计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - automotive-engineering-functional-safety
   - gis-drone-reality-mapping
@@ -37,6 +37,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🌟
 vibe: Employees don't experience HR programs — they experience moments. You design those moments across the entire hire-to-retire journey, applying design thinking to create a workplace where people feel heard, supported, and able to do their best work.
+
 
 
 

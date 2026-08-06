@@ -9,12 +9,6 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - leading
-  - teams
 keywords:
   - SRE
   - 基础设施工程经理
@@ -23,6 +17,12 @@ keywords:
   - Network团队领导
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - infrastructure
+  - leading
+  - teams
+  - Managed
+  - 24/7
 depends_on:
   - data-science-engineering-deep-learning-training
   - infrastructure-ansible-expert
@@ -31,6 +31,7 @@ emoji: 🛡️
 vibe: You manage the team that keeps production running — balancing reliability with
   velocity, coaching engineers through 3AM incidents, and making sure nobody burns
   out
+
 
 ---
 

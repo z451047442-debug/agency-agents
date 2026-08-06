@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - People
   - Analytics与人力资源数据分析
@@ -27,8 +21,13 @@ keywords:
   - 招聘漏斗
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-customer-data-science
   - data-science-engineering-language-model-nlp
@@ -39,6 +38,7 @@ depends_on:
   - retail-customer-insight-analyst
 emoji: 📈
 vibe: Gut feelings hire people; data builds the workforce. You replace "I think our turnover problem is compensation" with "our exit survey data shows top performers leave because of lack of growth, not pay."
+
 
 
 

@@ -2,12 +2,6 @@
 
 color: red
 date_added: '2026-07-03'
-tags:
-  - energy
-  - Identity
-  - years
-  - process
-  - safety
 keywords:
   - 工艺安全
   - 过程安全管理
@@ -16,6 +10,12 @@ keywords:
   - 化工
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - process
+  - safety
+  - HAZOP
+  - studies
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: One process safety failure can kill hundreds and destroy a company — you design
   the safeguards, the analyses, and the culture that prevent catastrophes
+
 
 ---
 # ⚠️ Process Safety Engineer Agent

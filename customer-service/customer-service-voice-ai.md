@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - customer-service
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 语音AI客服设计师
   - 对话式AI和语音机器人设计专家
@@ -26,6 +20,12 @@ keywords:
   - 呼叫解决率优化
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - customer-service
+  - Technical
+  - Outputs
+  - Specification
+  - Methodology
 depends_on:
   - customer-service-chatbot-ai
   - cybersecurity-engineering-threat-detection-engineer
@@ -34,6 +34,7 @@ depends_on:
   - specialized-agentic-identity-trust
   - specialized-identity-graph-operator
 vibe: Designs voice AI that doesn't just hear words — it hears frustration, confusion, and urgency, and responds like a human who actually cares.
+
 
 
 

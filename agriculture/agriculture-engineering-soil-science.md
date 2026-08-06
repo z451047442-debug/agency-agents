@@ -1,12 +1,6 @@
 ---
 color: brown
 date_added: '2026-07-03'
-tags:
-  - agriculture
-  - Identity
-  - years
-  - contaminated
-  - land
 keywords:
   - 土壤科学
   - 土壤修复专家
@@ -15,6 +9,12 @@ keywords:
   - II
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - agriculture
+  - contaminated
+  - land
+  - assessment
+  - remediation
 depends_on:
   - agriculture-agronomist
   - cybersecurity-engineering-cyber-risk-model
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every contaminated site has a story — you investigate it, model the risk, and
   design the remedy that returns land to safe use
+
 
 ---
 

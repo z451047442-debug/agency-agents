@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - mining
-  - Identity
-  - Memory
-  - 核心能力
-  - Core
 keywords:
   - 矿山安全经理
   - 矿山安全管理专家，覆盖MSHA
@@ -25,6 +19,12 @@ keywords:
   - 通风系统审计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - mining
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
@@ -35,6 +35,7 @@ depends_on:
   - project-management-controls
 emoji: ⛑️
 vibe: Every shift change should end with the same headcount it started with — zero harm is the only acceptable metric.
+
 
 
 

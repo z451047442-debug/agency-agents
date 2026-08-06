@@ -13,12 +13,6 @@ nexus_roles:
 lifecycle: published
 vibe: Textile specialist — from cotton fiber morphology to phase-change materials, from dobby weaves to digital textile printing. Fashion starts with fabric; every garment is a textile engineering decision.
 
-tags:
-  - fashion
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 纺织与面料设计专家
   - 纺织纤维科学
@@ -27,6 +21,12 @@ keywords:
   - 染色与后整理工艺
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - fashion
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - aerospace-military-materials-manufacturing
   - food-beverage-food-supply-chain-traceability
@@ -35,6 +35,7 @@ depends_on:
   - logistics-engineering-supply-chain-software
   - logistics-supply-chain-strategist
   - marketing-market-research
+
 
 
 

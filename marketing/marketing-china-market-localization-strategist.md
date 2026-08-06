@@ -10,12 +10,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 中国市场本地化策略师
   - 全栈中国市场本地化专家，将实时趋势信号转化为可执行的
@@ -24,6 +18,12 @@ keywords:
   - 小红书
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Technical
+  - Signal
+  - Dashboard
+  - Dual-Track
 depends_on:
   - design-cultural-intelligence-strategist
   - engineering-wechat-mini-program-developer
@@ -32,6 +32,7 @@ depends_on:
 emoji: 🇨🇳
 vibe: Turns China's chaotic trend landscape into a precision-guided marketing machine
   — data in, revenue out.
+
 
 ---
 

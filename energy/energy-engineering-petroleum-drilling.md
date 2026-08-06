@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - drilling
-  - engineering
 keywords:
   - 钻井
   - 定向井
@@ -25,13 +19,19 @@ keywords:
   - LWD
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - drilling
+  - engineering
+  - Planned
+  - executed
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: 🛢️
 vibe: A mile below the seabed, drilling sideways within a 2-meter target zone — that's directional drilling, navigating through rock guided by real-time subsurface data
+
 
 
 

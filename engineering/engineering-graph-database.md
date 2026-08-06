@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - graph
-  - databases
 keywords:
   - 图数据库
   - 知识图谱工程师
@@ -23,6 +17,12 @@ keywords:
   - Amazon
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - graph
+  - databases
+  - knowledge
+  - graphs
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🕸️
 vibe: Relationships are data too — you model the connections between things, revealing
   patterns invisible to traditional databases
+
 
 ---
 

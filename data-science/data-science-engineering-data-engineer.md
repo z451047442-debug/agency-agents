@@ -1,12 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据工程师
   - 数据管道
@@ -15,6 +9,12 @@ keywords:
   - ELT
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Technical
+  - Process
+  - Learning
+  - References
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - data-science-data-engineer
@@ -39,6 +39,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Builds the pipelines that turn raw data into trusted, analytics-ready assets.
+
 
 ---
 

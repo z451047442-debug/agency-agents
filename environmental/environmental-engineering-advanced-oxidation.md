@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 高级氧化
   - 水中新污染物
@@ -24,11 +18,18 @@ keywords:
   - 水中新污染物与难降解有机物去除专家，覆盖PFAS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - environmental-carbon-management
   - legal-billing-time-tracking
 emoji: 💧
 vibe: '"Forever chemicals" don''t break down in nature — you design the advanced oxidation and adsorption systems that destroy or capture them before they reach drinking water'
+
 
 
 

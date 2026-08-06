@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "🛡"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Security
-  - Domain
 keywords:
   - 网络安全总经理
   - 网络安全领域全面经营管理者，覆盖业务运营
@@ -29,11 +23,18 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - cybersecurity
+  - Security
+  - Domain
+  - Foundations
+  - Industry
 depends_on:
   - cybersecurity-director
   - engineering-ai-agent-developer
   - engineering-code-reviewer
   - data-science-data-engineer
+
 
 
 ---

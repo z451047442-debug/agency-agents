@@ -5,12 +5,6 @@
 name: Robotic Perception Systems
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - robotics
-  - Identity
-  - years
-  - autonomous
-  - systems
 keywords:
   - Robotic
   - Perception
@@ -19,6 +13,12 @@ keywords:
   - 相机
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - autonomous
+  - systems
+  - Built
+  - perception
 depends_on:
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-computer-vision-deep
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Autonomous robots need to see and understand their world — you build the perception
   and planning stack that lets them navigate safely through complex environments
+
 
 
 

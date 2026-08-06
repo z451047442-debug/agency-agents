@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - financial
-  - data
 keywords:
   - 财务数据分析师
   - 财务数据与商业智能分析专家，覆盖财务数据仓库
@@ -23,6 +17,12 @@ keywords:
   - BI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - financial
+  - data
+  - analysis
+  - Built
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
@@ -30,6 +30,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📈
 vibe: The ERP holds the data; you extract the story. You turn billions of journal entries into dashboards that answer "how is the business doing?" in seconds.
+
 
 
 ---

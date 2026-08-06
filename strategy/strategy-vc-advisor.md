@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - strategy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 风险投资顾问
   - 投资分析
@@ -27,6 +21,12 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - strategy
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - finance-risk-manager
   - government-social-work
@@ -39,6 +39,7 @@ depends_on:
 emoji: 💰
 vibe: Sees the diamond in the rough — evaluates startups with sharp financial analysis and pattern recognition.
 tools: Read, Write, Edit, WebFetch, WebSearch, Bash
+
 
 
 

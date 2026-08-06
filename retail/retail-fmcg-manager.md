@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - retail
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 快消品经理
   - 快消品品牌经理，覆盖通路营销策略
@@ -25,14 +19,20 @@ keywords:
   - 店内激活与POSM
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - retail
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - food-beverage-food-safety
   - logistics-last-mile-delivery
   - marketing-brand-strategist-name
-  - operations-report-distribution-agent
   - quality-food-safety
 emoji: 🧴
 vibe: In the world of razor-thin margins and impulse purchases, every facing and every promotion counts.
+
 
 
 

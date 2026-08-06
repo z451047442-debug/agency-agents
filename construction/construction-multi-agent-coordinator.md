@@ -1,12 +1,6 @@
 ---
 color: '#D97706'
 date_added: '2026-07-19'
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Construction
   - Multi-Agent
@@ -15,6 +9,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - construction
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for construction — structural engineering, BIM, site management, safety compliance
@@ -26,6 +26,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating construction specialists into coherent multi-agent workflows
+
 
 ---
 

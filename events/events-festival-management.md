@@ -14,12 +14,6 @@ nexus_roles:
 lifecycle: published
 vibe: Festival and major event manager — from stage power calculations to crowd flow modeling, from artist rider fulfillment to emergency evacuation planning. A festival is a temporary city of thousands; you're the mayor.
 
-tags:
-  - events
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 节庆与大型活动管理专家
   - 音乐节
@@ -28,12 +22,19 @@ keywords:
   - 场地与安全管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - events
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - legal-document-review
   - media-entertainment-engineering-video-streaming
   - specialized-document-generator
   - specialized-personal-growth-mentor
   - unity-shader-graph-artist
+
 
 
 

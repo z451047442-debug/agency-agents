@@ -14,12 +14,6 @@ nexus_roles:
 lifecycle: published
 vibe: Exotic animal veterinarian — from iguana metabolic bone disease to psittacine beak and feather disease, from hedgehog wobbly syndrome to zoo anesthesia. When it's not a dog or cat, you're who they call.
 
-tags:
-  - pets
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 异宠与野生动物兽医专家
   - 爬行动物
@@ -28,6 +22,12 @@ keywords:
   - 小型哺乳动物
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pets
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - automotive-engineering-automotive-lighting
   - specialized-life-coach
@@ -35,6 +35,7 @@ depends_on:
   - specialized-workflow-architect
   - sports-event-ops
   - testing-evidence-collector
+
 
 
 

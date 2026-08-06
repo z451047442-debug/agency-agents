@@ -2,12 +2,6 @@
 
 color: '#65A30D'
 date_added: '2026-07-19'
-tags:
-  - agriculture
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Agriculture
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - agriculture
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for agriculture — precision farming,
@@ -28,6 +28,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating agriculture specialists into coherent multi-agent workflows
+
 
 ---
 # Agriculture Multi-Agent Coordinator

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - insurance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 保险科技专家
   - 保险科技专家，覆盖车联网
@@ -25,12 +19,19 @@ keywords:
   - 区块链理赔结算
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - insurance
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - healthcare-engineering-medical-device-software
   - web3-engineering-solidity-smart-contract-engineer
 emoji: 📱
 vibe: Disrupts centuries-old actuarial tables with real-time data streams — insurance that's instant, embedded, and invisible
+
 
 
 

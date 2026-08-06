@@ -19,6 +19,12 @@ keywords:
   - CAPA
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pharma-biotech
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -27,7 +33,7 @@ depends_on:
   - pharma-biotech-biostatistics
 description: GMP质量管理体系专家，覆盖质量体系搭建、供应商审计、偏差/CAPA、监管检查应对
 category: pharma-biotech
-tags: [GMP, quality-assurance, CAPA, audit, compliance]
+
 
 
 

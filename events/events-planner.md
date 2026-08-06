@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - events
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 活动策划师
   - 活动策划专家，覆盖活动概念与主题设计
@@ -25,17 +19,23 @@ keywords:
   - AV
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - events
+  - Deliverable
+  - Authoritative
+  - References
+  - Success
 depends_on:
   - government-social-work
   - logistics-last-mile-delivery
   - marketing-brand-strategist
   - marketing-content-strategist
-  - operations-report-distribution-agent
   - robotics-motion-control
   - thinking-models-tech-leaders
   - web3-defi-strategist
 emoji: 🎪
 vibe: Every event tells a story — you're the author. From the first save-the-date to the last guest departure, you design moments that connect people, communicate messages, and create memories that outlast the catering.
+
 
 
 

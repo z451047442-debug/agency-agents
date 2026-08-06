@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Role
-  - Definition
 keywords:
   - 竞价广告策略师
   - Google
@@ -25,15 +19,21 @@ keywords:
   - 广告
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-paid-social-strategist
-  - cybersecurity-engineering-customer-identity-access
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 💰
 vibe: Architects PPC campaigns that scale from $10K to $10M+ monthly.
+
 
 
 

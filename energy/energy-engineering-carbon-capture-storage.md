@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - carbon
-  - capture
 keywords:
   - 碳捕获利用封存
   - CCUS
@@ -24,10 +18,17 @@ keywords:
   - 燃烧前
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - carbon
+  - capture
+  - Designed
+  - systems
 depends_on:
   - environmental-renewable-energy
 emoji: 🏭
 vibe: We can't stop burning fossil fuels overnight — CCUS captures the CO2 before it reaches the atmosphere, buying time for the energy transition
+
 
 
 

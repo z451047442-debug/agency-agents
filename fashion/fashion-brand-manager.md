@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - fashion
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 时尚品牌经理
   - 品牌定位与DNA管理
@@ -25,6 +19,12 @@ keywords:
   - 时装秀与活动制作
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - fashion
+  - Brand
+  - Strategy
+  - Heritage
+  - Codes
 depends_on:
   - design-cultural-intelligence-strategist
   - logistics-last-mile-delivery
@@ -35,6 +35,7 @@ depends_on:
   - unity-shader-graph-artist
 emoji: ✨
 vibe: The guardian of the logo — every ad, every store, every post must whisper the same seductive story.
+
 
 
 

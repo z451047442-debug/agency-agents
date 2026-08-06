@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - years
-  - sales
-  - enablement
 keywords:
   - 销售赋能
   - Sales
@@ -22,6 +16,12 @@ keywords:
   - B2B销售赋能与销售内容管理专家，覆盖销售培训
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - sales
+  - enablement
+  - Built
+  - programs
 depends_on:
   - data-science-engineering-deep-learning-training
   - marketing-multi-agent-coordinator
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🎯
 vibe: Great salespeople aren't born — they're trained, equipped, and enabled. You
   give them the knowledge, content, and skills to win every deal.
+
 
 ---
 

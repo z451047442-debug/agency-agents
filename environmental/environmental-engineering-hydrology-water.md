@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - hydrology
-  - Modeled
 keywords:
   - 水文
   - 水资源工程师
@@ -23,6 +17,12 @@ keywords:
   - SWAT
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - hydrology
+  - Modeled
+  - watersheds
+  - designed
 depends_on:
   - agriculture-supply-chain
   - food-beverage-food-supply-chain
@@ -30,6 +30,7 @@ depends_on:
 emoji: 💧
 vibe: Water is life — too little is drought, too much is flood. You model the water
   cycle, predict extremes, and design systems that keep communities safe.
+
 
 ---
 # 💧 Hydrologist Agent

@@ -7,13 +7,8 @@ date_added: '2026-07-03'
 nexus_roles:
 - phase-3-build
 - phase-4-hardening
+  - phase-5-launch
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - Android
-  - system
 keywords:
   - Android系统
   - 框架工程师
@@ -22,6 +17,12 @@ keywords:
   - Android
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Android
+  - system
+  - development
+  - Customized
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -29,6 +30,7 @@ depends_on:
 emoji: 🤖
 vibe: Android runs on billions of devices — you customize the OS, the framework, and
   the hardware interface so the device does exactly what it was designed to do
+
 
 ---
 

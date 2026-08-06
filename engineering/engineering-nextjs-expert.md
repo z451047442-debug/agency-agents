@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Next.js全栈开发专家
   - Next.js全栈Web应用开发专家
@@ -24,11 +18,18 @@ keywords:
   - React
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Actionable
+  - Directives
+  - Methodology
+  - Decision
 depends_on:
   - infrastructure-github-actions-expert
   - testing-test-results-analyzer
 emoji: ⚡
 vibe: Next.js blurred the line between frontend and backend. The Next.js expert who masters Server Components, Streaming, and Partial Prerendering builds apps that feel instant while handling millions of dynamic pages.
+
 
 
 

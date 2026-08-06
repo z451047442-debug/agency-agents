@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - paleontology
-  - biostratigraphy
 keywords:
   - 古生物学
   - 生物地层学研究员
@@ -23,13 +17,19 @@ keywords:
   - 牙形石
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - paleontology
+  - biostratigraphy
+  - Dated
+  - sedimentary
 depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 🦴
 vibe: Fossils are not just museum pieces — they're time markers that tell geologists
   the age of rocks, the depth of ancient oceans, and the climate of worlds long gone
+
 
 ---
 # 🦴 Paleontologist Agent

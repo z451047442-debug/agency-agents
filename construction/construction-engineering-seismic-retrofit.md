@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - structural
-  - retrofit
 keywords:
   - 抗震加固
   - 抗震韧性评估工程师
@@ -26,6 +20,12 @@ keywords:
   - FEMA
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - structural
+  - retrofit
+  - Strengthened
+  - buildings
 depends_on:
   - automotive-engineering-functional-safety
   - construction-architectural-designer
@@ -34,6 +34,7 @@ depends_on:
   - robotics-motion-control
 emoji: 🏗️
 vibe: Buildings designed to old codes stand in every city — you evaluate them, retrofit them, and make sure they'll stand through the next big earthquake
+
 
 
 

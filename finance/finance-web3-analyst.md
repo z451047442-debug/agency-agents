@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Web3
   - 分析师
@@ -25,12 +19,19 @@ keywords:
   - 协议评估
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
 emoji: ⛓️
 vibe: Reads blockchains like financial statements — every transaction tells a story, every wallet has a strategy.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 
 
 

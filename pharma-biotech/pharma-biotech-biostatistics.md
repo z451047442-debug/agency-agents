@@ -2,12 +2,6 @@
 
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - pharma-biotech
-  - Identity
-  - years
-  - clinical
-  - biostatistics
 keywords:
   - 生物统计师
   - 临床试验生物统计专家，覆盖临床试验设计
@@ -16,6 +10,12 @@ keywords:
   - 统计分析计划
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pharma-biotech
+  - clinical
+  - biostatistics
+  - Designed
+  - analyzed
 depends_on:
   - pharma-biotech-multi-agent-coordinator
   - healthcare-engineering-biostatistics-clinical
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Statistics turns data into evidence — you design the trials and analyze the
   data that determine whether a drug is safe and effective
+
 
 ---
 # 📈 Biostatistician Agent

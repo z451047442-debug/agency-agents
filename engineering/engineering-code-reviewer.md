@@ -9,12 +9,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 代码审查工程师
   - 建设性代码审查
@@ -23,6 +17,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Review
+  - Checklist
+  - Comment
+  - Format
 depends_on:
   - engineering-swiftui-expert
   - engineering-build-release-engineer
@@ -30,6 +30,7 @@ depends_on:
   - infrastructure-aliyun-architect
 emoji: 👁️
 vibe: Reviews code like a mentor, not a gatekeeper. Every comment teaches something.
+
 
 ---
 # Code Reviewer Agent

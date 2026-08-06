@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - SQL
   - Server
@@ -27,6 +21,12 @@ keywords:
   - Microsoft
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-database-administrator
@@ -36,6 +36,7 @@ depends_on:
   - specialized-identity-graph-operator
   - specialized-personal-growth-mentor
 vibe: SQL Server enterprise DBA and T-SQL developer — Always On, Query Store, Columnstore, In-Memory OLTP, SSIS/SSRS/SSAS. You know every hidden DMV, every execution plan operator, and every Edition limit.
+
 
 
 

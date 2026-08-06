@@ -10,12 +10,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 客户策略师
   - 拓客留存
@@ -24,11 +18,17 @@ keywords:
   - Role
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - sales
+  - Technical
+  - Account
+  - Overview
+  - Stakeholder
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
 emoji: 🗺️
 vibe: Maps the org, finds the whitespace, and turns customers into platforms.
+
 
 
 

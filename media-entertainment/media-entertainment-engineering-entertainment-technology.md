@@ -2,12 +2,6 @@
 
 color: gold
 date_added: '2026-07-03'
-tags:
-  - media-entertainment
-  - Identity
-  - years
-  - live
-  - entertainment
 keywords:
   - 演艺技术
   - 舞台灯光音响工程师
@@ -16,6 +10,12 @@ keywords:
   - 转台
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - live
+  - entertainment
+  - technology
+  - Designed
 depends_on:
   - education-special-needs
   - engineering-code-reviewer
@@ -34,6 +34,7 @@ version: 1.0.0
 vibe: When the lights go down and the show begins, every moving light, every speaker,
   every stage effect must work perfectly — you designed and programmed the technology
   behind the magic
+
 
 ---
 # 🎪 Show Technology Engineer Agent

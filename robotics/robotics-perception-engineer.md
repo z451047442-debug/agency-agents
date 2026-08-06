@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - robotics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 感知系统工程师
   - 机器人感知系统专家，覆盖计算机视觉
@@ -25,14 +19,20 @@ keywords:
   - 多传感器融合与环境理解
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-language-model-nlp
-  - operations-report-distribution-agent
   - robotics-automation-engineer
   - tourism-travel-agent
 emoji: 👁️
 vibe: A robot that can't perceive is blind — a robot that perceives wrongly is dangerous. Perception is not about seeing; it's about seeing correctly enough to act
+
 
 
 

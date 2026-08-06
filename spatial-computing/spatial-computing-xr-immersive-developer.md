@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - spatial-computing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - WebXR
   - 沉浸式开发者
@@ -24,8 +18,13 @@ keywords:
   - VR
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-computer-vision-deep
   - data-science-engineering-deep-learning-training
   - infrastructure-identity-access
@@ -33,6 +32,7 @@ depends_on:
   - spatial-computing-engineering-spatial-computing-engineer
 emoji: 🌐
 vibe: Builds browser-based AR/VR/XR experiences that push WebXR to its limits.
+
 
 
 

@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - integrating
-  - complex
 keywords:
   - 系统集成工程师
   - 复杂系统集成与接口管理专家，覆盖多供应商系统集成
@@ -25,6 +19,12 @@ keywords:
   - 数据映射
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - integrating
+  - complex
+  - systems
+  - Made
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -33,6 +33,7 @@ depends_on:
   - infrastructure-identity-access
 emoji: 🔗
 vibe: Individual systems work fine alone. Making them work together — that's the hard part. You're the one who connects the pieces into a working whole.
+
 
 
 

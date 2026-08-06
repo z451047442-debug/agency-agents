@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - bioprinting
-  - Printed
 keywords:
   - 生物3D打印
   - 组织器官打印研究员
@@ -24,6 +18,12 @@ keywords:
   - 光固化
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - bioprinting
+  - Printed
+  - living
+  - tissues
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -32,6 +32,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🖨️
 vibe: Printing living human tissue layer by layer — skin for burn victims, cartilage for joints, eventually whole organs. That's bioprinting.
+
 
 
 

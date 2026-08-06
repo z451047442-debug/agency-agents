@@ -2,12 +2,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - charging
-  - infrastructure
 keywords:
   - 充电桩
   - 电动汽车充电工程师
@@ -16,6 +10,12 @@ keywords:
   - GB
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - charging
+  - infrastructure
+  - Designed
+  - networks
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: EVs need chargers everywhere — you design the infrastructure that powers the
   electric revolution, from home wallboxes to highway megawatt charging
+
 
 ---
 # 🔌 EV Charging Engineer Agent

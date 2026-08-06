@@ -8,12 +8,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-4-hardening
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - years
-  - quantitative
-  - risk
 keywords:
   - 金融风险
   - 市场风险
@@ -22,12 +16,19 @@ keywords:
   - 量化分析师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - quantitative
+  - risk
+  - Built
+  - models
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model
 emoji: 📉
 vibe: Risk doesn't go away — it transforms, hides, and reappears where you least expect it. You quantify the risks nobody else sees.
+
 
 ---
 

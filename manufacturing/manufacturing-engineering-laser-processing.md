@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - laser
-  - materials
 keywords:
   - 激光加工
   - 激光制造工程师
@@ -23,6 +17,12 @@ keywords:
   - 打标
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - laser
+  - materials
+  - processing
+  - Developed
 depends_on:
   - energy-engineering-energy-storage-materials-sci
   - energy-engineering-power-electronics
@@ -30,6 +30,7 @@ depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
 emoji: 💥
 vibe: A laser can cut steel like butter, weld with micron precision, and mark a serial number smaller than a grain of sand — you harness that power for manufacturing
+
 
 
 ---

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - safety
-  - management
 keywords:
   - 建筑安全
   - 健康与环境
@@ -26,14 +20,20 @@ keywords:
   - 建筑施工安全与职业健康管理专家，覆盖HSE管理体系
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - safety
+  - management
+  - Managed
+  - projects
 depends_on:
   - construction-architectural-designer
   - data-science-engineering-deep-learning-training
   - engineering-git-workflow-master
   - marketing-paid-media-tracking-specialist
-  - operations-report-distribution-agent
 emoji: ⛑️
 vibe: Construction is one of the most dangerous industries on Earth — you're the person who makes sure every worker goes home to their family at the end of the day
+
 
 
 

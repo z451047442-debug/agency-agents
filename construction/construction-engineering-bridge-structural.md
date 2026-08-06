@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - bridge
-  - engineering
 keywords:
   - 桥梁工程
   - 桥梁健康监测工程师
@@ -25,6 +19,12 @@ keywords:
   - 拱桥
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - bridge
+  - engineering
+  - Designed
+  - major
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -32,6 +32,7 @@ depends_on:
   - mining-safety
 emoji: 🌉
 vibe: A bridge connects more than two shores — it connects communities. You design structures that span kilometers, withstand typhoons and earthquakes, and stand for a century.
+
 
 
 

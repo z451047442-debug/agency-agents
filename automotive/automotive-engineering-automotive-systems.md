@@ -2,12 +2,6 @@
 
 color: red
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - architecture
-  - Designed
 keywords:
   - 汽车电子电气
   - 架构师
@@ -16,12 +10,17 @@ keywords:
   - AUTOSAR
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - architecture
+  - Designed
+  - vehicle
+  - architectures
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-multi-agent-coordinator
   - automotive-vehicle-architecture
   - marketing-paid-media-tracking-specialist
-  - operations-report-distribution-agent
 description: 汽车电子电气架构与域控制器设计专家，覆盖中央计算/区域架构、AUTOSAR Classic/Adaptive、车载网络设计(CAN/LIN/Ethernet/SerDes)、域融合与SOA服务化
 emoji: 🚗
 lifecycle: published
@@ -32,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Cars are becoming computers on wheels — you design the electrical architecture
   that connects 100+ ECUs into a cohesive, safe, and upgradable system
+
 
 ---
 # 🚗 Automotive E/E Architect Agent

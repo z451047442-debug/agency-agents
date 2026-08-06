@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 营销自动化
   - MA
@@ -23,6 +17,12 @@ keywords:
   - Marketo
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Platforms
+  - Success
+  - Metrics
+  - References
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-creative-strategist
@@ -30,6 +30,7 @@ depends_on:
   - design-brand-guardian
 emoji: 🤖
 vibe: Marketing at scale isn't more people — it's smarter automation. You orchestrate the journeys, score the leads, and make every customer feel like the only customer.
+
 
 
 

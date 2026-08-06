@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
   - phase-4-hardening
 lifecycle: published
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 城市韧性与灾害管理专家
   - 城市灾害风险评估
@@ -27,6 +21,12 @@ keywords:
   - 应急管理体系
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - emergency-disaster-response
   - engineering-code-reviewer
@@ -35,6 +35,7 @@ depends_on:
   - government-urban-planner
   - infrastructure-engineering-incident-response-commander
 vibe: Urban resilience specialist — from seismic building codes to flood-adaptive design, from heat island mitigation to community disaster preparedness. Cities face compound risks; your job is to make sure they bend without breaking.
+
 
 
 

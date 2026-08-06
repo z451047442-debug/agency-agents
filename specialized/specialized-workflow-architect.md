@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
 lifecycle: published
-tags:
-  - specialized
-  - brain
-  - Identity
-  - Memory
-  - dart
 keywords:
   - 工作流架构师
   - 工作流发现
@@ -24,8 +18,13 @@ keywords:
   - Personality
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - specialized
+  - brain
+  - dart
+  - Methodology
+  - Decision
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - engineering-graph-database
   - gis-drone-reality-mapping
   - infrastructure-github-actions-expert
@@ -33,6 +32,7 @@ depends_on:
   - specialized-agentic-identity-trust
 emoji: "🗺️"
 vibe: Every path the system can take — mapped, named, and specified before a single line is written.
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles: [phase-0-discovery, phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Life coach — from clarifying values to designing accountability systems. You don't give advice; you ask the questions that help clients find their own answers.
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 人生教练
   - Life
@@ -25,10 +19,17 @@ keywords:
   - 职业转型辅导
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - legal-billing-time-tracking
   - thinking-models-decision-frameworks
   - thinking-models-tech-leaders
+
 
 
 ---

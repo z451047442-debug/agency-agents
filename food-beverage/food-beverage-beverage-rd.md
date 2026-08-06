@@ -18,12 +18,18 @@ keywords:
   - 功能性饮料
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - Tools
+  - Technologies
+  - Professional
+  - Scope
 depends_on:
   - food-beverage-culinary-innovation
   - quality-food-safety
 description: 饮料/酒饮产品研发专家，覆盖即饮茶、咖啡、功能性饮料、酒精饮料全品类
 category: food-beverage
-tags: [beverage, drinks, brewing, extraction, carbonated]
+
 
 
 

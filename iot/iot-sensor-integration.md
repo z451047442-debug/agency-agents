@@ -2,12 +2,6 @@
 
 color: lime
 date_added: '2026-07-03'
-tags:
-  - iot
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 传感器集成专家
   - 传感器选型
@@ -16,6 +10,12 @@ keywords:
   - 光学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-optical-character-recognition
   - healthcare-engineering-medical-device-software
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A sensor is only as good as its calibration — the difference between a measurement
   and a number is rigorous signal processing
+
 
 ---
 # 📡 Sensor Integration Specialist Agent

@@ -2,12 +2,6 @@
 
 color: violet
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - years
-  - vision
-  - depth
 keywords:
   - 3D视觉
   - 深度传感工程师
@@ -16,6 +10,12 @@ keywords:
   - 双目立体视觉深度传感
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - vision
+  - depth
+  - sensing
+  - Built
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-deep
@@ -35,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The world is three-dimensional — you build the sensors and algorithms that let
   machines perceive depth, shape, and space
+
 
 ---
 # 👁️ 3D Vision Engineer Agent

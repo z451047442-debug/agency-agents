@@ -1,12 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-tags:
-  - testing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 可用性测试专家
   - 可用性与用户体验测试专家，覆盖可用性评估方法
@@ -15,12 +9,17 @@ keywords:
   - 眼动追踪分析与可访问性测试
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - testing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - aerospace-flight-test-engineer
   - data-science-engineering-language-model-nlp
   - design-engineering-user-research-system
   - testing-multi-agent-coordinator
-  - operations-report-distribution-agent
   - testing-playwright-expert
 description: 可用性与用户体验测试专家，覆盖可用性评估方法、用户测试执行、启发式评估、眼动追踪分析与可访问性测试
 emoji: 👤
@@ -31,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Your product makes perfect sense to you — but you built it; the real test is
   whether someone seeing it for the first time can actually use it
+
 
 ---
 

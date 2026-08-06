@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 媒体
   - 创意总监
@@ -15,6 +9,12 @@ keywords:
   - 制作团队
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - media-entertainment
+  - Creative
+  - vision
+  - business
+  - discipline
 depends_on:
   - data-science-engineering-computer-vision-deep
   - media-entertainment-multi-agent-coordinator
@@ -22,7 +22,6 @@ depends_on:
   - marketing-abm-account-based
   - marketing-paid-media-creative-strategist
   - media-entertainment-3ds-max-expert
-  - operations-report-distribution-agent
 description: 媒体制作与创意团队最高负责人，覆盖内容策略/创意方向、制作团队/预算管理、多平台发行与IP/版权管理
 emoji: 🎬
 lifecycle: published
@@ -31,9 +30,11 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: Content is king, but production is the kingdom. You lead the creative and business
   sides of making content that moves people.
+
 
 ---
 

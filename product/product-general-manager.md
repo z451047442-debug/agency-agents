@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "📱"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 产品管理总经理
   - 产品管理领域全面经营管理者，覆盖业务运营
@@ -29,14 +23,20 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - product
+  - Industry
+  - Context
+  - Best
+  - Practices
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - government-general-manager
   - pets-general-manager
   - product-director
   - real-estate-general-manager
   - cybersecurity-general-manager
   - specialized-customer-success-manager
+
 
 
 

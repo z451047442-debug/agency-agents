@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - libraries
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数字图书馆员
   - 数字馆藏开发
@@ -26,17 +20,23 @@ keywords:
   - Core
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - libraries
+  - Schema
+  - Foundation
+  - Element
+  - Specifications
 depends_on:
   - education-cultural-heritage-law
   - engineering-embedded-database
   - marketing-linkedin-content-creator
   - marketing-short-video-editing-coach
-  - operations-report-distribution-agent
   - specialized-agentic-identity-trust
   - testing-test-results-analyzer
   - unity-editor-tool-developer
 emoji: 📖
 vibe: Guardian of digital knowledge — metadata precision meets preservation wisdom.
+
 
 
 

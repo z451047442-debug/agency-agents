@@ -16,12 +16,6 @@ lifecycle: published
 emoji: "👨‍👩‍👧‍👦"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - parenting-family
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 亲子家庭总经理
   - 亲子家庭领域全面经营管理者，覆盖业务运营
@@ -30,14 +24,20 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - parenting-family
+  - Industry
+  - Context
+  - Best
+  - Practices
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - government-general-manager
   - parenting-family-director
   - pets-general-manager
   - real-estate-general-manager
   - cybersecurity-general-manager
   - specialized-customer-success-manager
+
 
 
 

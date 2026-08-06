@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 学术人类学家
   - 文化研究
@@ -27,6 +21,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - education-academic-dean
   - government-social-work
@@ -37,6 +37,7 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 🌍
 vibe: No culture is random — every practice is a solution to a problem you might not see yet
+
 
 
 

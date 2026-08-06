@@ -9,12 +9,6 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 游戏制作人
   - 游戏制作与项目管理专家，覆盖游戏开发流程
@@ -23,6 +17,12 @@ keywords:
   - 预算控制与发行策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - construction-engineering-noise-control
   - logistics-last-mile-delivery
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🎯
 vibe: Great games aren't just designed — they're produced; you're the one who turns
   creative vision into shipped product, on time and in scope
+
 
 ---
 

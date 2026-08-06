@@ -10,14 +10,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - localization
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 国际化产品经理
   - 全球市场就绪
@@ -26,8 +21,13 @@ keywords:
   - 全球发布协调
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - localization
+  - Strategy
+  - Product
+  - Name
+  - Assessment
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-cultural-intelligence-strategist
   - marketing-china-market-localization-strategist
   - marketing-cross-border-ecommerce
@@ -37,6 +37,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🌍
 vibe: Your compass for navigating global markets and launching products that feel local everywhere.
+
 
 
 

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - asset
-  - management
 keywords:
   - IT资产管理
   - ITAM
@@ -27,6 +21,12 @@ keywords:
   - 软件资产发现
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - infrastructure
+  - asset
+  - management
+  - Managed
+  - lifecycles
 depends_on:
   - engineering-database-optimizer
   - engineering-graph-database
@@ -35,6 +35,7 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🏷️
 vibe: You can't manage what you don't know you have. Every laptop, every server, every software license must be tracked — because an unmanaged asset is a security risk, a compliance gap, and wasted money.
+
 
 
 

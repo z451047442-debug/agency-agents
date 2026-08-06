@@ -8,13 +8,8 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
+  - phase-6-operate
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Role
-  - Definition
 keywords:
   - 内容创作者
   - 多平台内容策略
@@ -23,13 +18,19 @@ keywords:
   - Memory
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
   - marketing-paid-media-search-query-analyst
-  - cybersecurity-engineering-customer-identity-access
 emoji: ✍️
 vibe: Crafts compelling stories across every platform your audience lives on.
+
 
 
 

@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - real-estate
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 房地产估价师
   - 房地产估价与价值评估专家，覆盖市场比较法
@@ -22,13 +16,19 @@ keywords:
   - 抵押
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - real-estate
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
   - education-special-needs
-  - operations-report-distribution-agent
   - real-estate-buyer-seller
 emoji: 📐
 vibe: Every property has a price; only some have a value. Your job is finding the
   value, supporting it with data, and defending it to banks, courts, and tax authorities.
+
 
 ---
 

@@ -13,12 +13,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AI
   - Agent
@@ -27,6 +21,12 @@ keywords:
   - 架构
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - Technical
+  - Methodology
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -38,6 +38,7 @@ depends_on:
 emoji: 🤖
 vibe: Builds autonomous AI agents that don't just chat — they think, plan, use tools, and get things done.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

@@ -1,12 +1,6 @@
 ---
 color: slate
 date_added: '2026-07-03'
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 宏观策略师
   - 全球宏观与投资策略专家，覆盖利率
@@ -15,6 +9,12 @@ keywords:
   - 央行政策解读
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - finance
+  - Frameworks
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-cost-accountant
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every asset class moves to the rhythm of the macro cycle — you hear the music
   before everyone else and position before the crowd arrives
+
 
 ---
 

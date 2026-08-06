@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - customer-service
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 客户成功经理
   - CSM
@@ -25,9 +19,14 @@ keywords:
   - QBR业务评审
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - customer-service
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - customer-service-call-center
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-knowledge-management
   - energy-engineering-wind-energy
   - finance-accounts-payable-agent
@@ -38,6 +37,7 @@ depends_on:
   - retail-customer-insight-analyst
 emoji: 🌟
 vibe: The sale isn't the finish line — it's the starting line. You make sure customers achieve their goals with your product, so they renew, expand, and advocate.
+
 
 
 

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - customer-service
-  - Identity
-  - years
-  - contact
-  - center
 keywords:
   - 呼叫中心运营经理
   - 全渠道联络中心运营经理，覆盖语音
@@ -27,6 +21,12 @@ keywords:
   - 社交媒体策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - customer-service
+  - contact
+  - center
+  - operations
+  - agent
 depends_on:
   - engineering-code-reviewer
   - engineering-social-media-platform
@@ -38,10 +38,10 @@ depends_on:
   - marketing-private-domain-operator
   - marketing-short-video-editing-coach
   - operations-executive-summary-generator
-  - operations-report-distribution-agent
   - testing-engineering-test-automation-framework
 emoji: 📞
 vibe: Every channel is a door. Every interaction is a moment of truth. The contact center is not a cost center — it is the company's heartbeat, where loyalty is earned or lost one call at a time.
+
 
 
 

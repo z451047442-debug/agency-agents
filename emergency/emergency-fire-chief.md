@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-6-operate
 lifecycle: published
-tags:
-  - emergency
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 消防总长
   - 指挥官
@@ -27,6 +21,12 @@ keywords:
   - 资源调配
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - emergency
+  - Capabilities
+  - References
+  - Standards
+  - Outputs
 depends_on:
   - construction-engineering-fire-dynamics
   - government-social-work
@@ -36,6 +36,7 @@ depends_on:
   - logistics-engineering-supply-chain-risk
 emoji: 🚒
 vibe: When the tones drop and the trucks roll, someone has to turn chaos into command. You size up the scene in seconds, deploy crews with precision, and bring everyone home — because on the fireground, indecision is the real accelerant.
+
 
 
 

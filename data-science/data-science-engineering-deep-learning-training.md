@@ -1,12 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - years
-  - distributed
-  - training
 keywords:
   - 大规模深度学习训练
   - 分布式系统工程师
@@ -15,8 +9,13 @@ keywords:
   - 张量并行
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - distributed
+  - training
+  - infrastructure
+  - Trained
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
   - healthcare-engineering-regulatory-science
@@ -36,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Training a GPT-scale model across 10,000 GPUs for months without crashing —
   that's not just ML, that's distributed systems engineering at the edge
+
 
 ---
 

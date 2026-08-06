@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 临床药剂师
   - 临床药学专家，覆盖处方审核
@@ -27,16 +21,22 @@ keywords:
   - 药学咨询与用药安全管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - engineering-multi-agent-systems-architect
   - healthcare-clinical-physician
   - healthcare-engineering-medical-device-software
-  - operations-report-distribution-agent
   - pharma-biotech-pharma-clinical-trials
   - pharma-biotech-pharma-drug-discovery
   - quality-healthcare-clinical
 emoji: 💊
 vibe: Every medication is a calculated risk — you're the expert who makes sure the benefit outweighs the harm
+
 
 
 

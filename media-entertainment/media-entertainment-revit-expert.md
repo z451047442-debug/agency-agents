@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Autodesk
   - Revit专家
@@ -24,11 +18,18 @@ keywords:
   - 专家，覆盖建筑
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - media-entertainment-3ds-max-expert
   - data-science-model-qa
 emoji: 🏛️
 vibe: Revit isn't CAD — it's a database that happens to produce drawings. When you understand the data model, walls, doors, and schedules all update themselves
+
 
 
 

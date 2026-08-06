@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 建筑设计师
   - 建筑设计与空间规划专家，覆盖概念设计
@@ -26,6 +20,12 @@ keywords:
   - 可持续设计与BIM协同
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - construction-engineering-construction-materials
@@ -36,6 +36,7 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🏛️
 vibe: Every building starts as a line on paper — you make that line worth inhabiting for generations
+
 
 
 

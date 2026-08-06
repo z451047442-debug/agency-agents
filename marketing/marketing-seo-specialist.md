@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - SEO
   - 专家
@@ -24,6 +18,12 @@ keywords:
   - Core
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - Crawlability
+  - Indexation
+  - Site
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
@@ -31,6 +31,7 @@ depends_on:
   - design-brand-guardian
 emoji: 🔍
 vibe: Drives sustainable organic traffic through technical SEO and content strategy.
+
 
 
 

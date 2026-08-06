@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 分析型数据库专家
   - ClickHouse
@@ -24,11 +18,18 @@ keywords:
   - StarRocks
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
   - infrastructure-aliyun-architect
 vibe: OLAP and analytical database specialist — you think in columnar scans, materialized views, and aggregation pipelines. A full table scan is the point, not the problem.
+
 
 
 

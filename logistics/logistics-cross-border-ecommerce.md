@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - logistics
-  - Identity
-  - years
-  - cross-border
-  - e-commerce
 keywords:
   - 跨境电商物流专家
   - 跨境电商与小包物流
@@ -16,8 +10,13 @@ keywords:
   - 9810海关监管方式
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - logistics
+  - cross-border
+  - e-commerce
+  - Moved
+  - millions
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist
@@ -33,6 +32,7 @@ version: 1.0.0
 vibe: A ¥50 product ordered on Shein must cross an ocean, clear customs, and reach
   the customer's doorstep — you design the logistics network that makes cross-border
   e-commerce possible
+
 
 ---
 # 🌏 Cross-Border E-Commerce Logistics Specialist Agent

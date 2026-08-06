@@ -2,12 +2,6 @@
 
 color: '#0D9488'
 date_added: '2026-07-19'
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Product
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - product
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for product — product management, analytics, growth, operations
@@ -27,6 +27,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating product specialists into coherent multi-agent workflows
+
 
 ---
 # Product Multi-Agent Coordinator

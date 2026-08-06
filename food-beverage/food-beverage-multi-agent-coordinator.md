@@ -2,12 +2,6 @@
 
 color: '#DC2626'
 date_added: '2026-07-19'
-tags:
-  - food-beverage
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Food
   - Beverage
@@ -16,6 +10,12 @@ keywords:
   - Coordinates
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - food-beverage
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for food & beverage — product development,
@@ -26,8 +26,10 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: orchestrating food-beverage specialists into coherent multi-agent workflows
+
 
 ---
 # Food & Beverage Multi-Agent Coordinator

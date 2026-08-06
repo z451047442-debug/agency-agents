@@ -10,12 +10,6 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Topologist — from fundamental groups to stable homotopy, from knot invariants to persistent homology. A coffee cup and a donut are the same object to a topologist.
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 拓扑学专家
   - 代数拓扑
@@ -24,10 +18,17 @@ keywords:
   - 微分拓扑
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - finance-engineering-credit-risk-model
   - hr-tech-general-manager
   - hr-tech-hrtech-people-analytics
+
 
 ---
 

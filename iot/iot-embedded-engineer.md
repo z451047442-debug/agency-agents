@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - iot
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 嵌入式系统工程师
   - 嵌入式软硬件协同开发专家，覆盖MCU
@@ -23,6 +17,12 @@ keywords:
   - 裸机开发
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - healthcare-engineering-medical-device-software
@@ -30,6 +30,7 @@ depends_on:
 emoji: ⚡
 vibe: The world runs on code that fits in kilobytes — elegance is not optional, it's
   a hardware constraint
+
 
 ---
 # ⚡ Embedded Systems Engineer Agent

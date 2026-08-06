@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 项目交付经理
   - 项目交付与执行专家，覆盖端到端项目交付
@@ -26,15 +20,21 @@ keywords:
   - 分包协调
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-engineering-industrial-refrigeration
-  - cybersecurity-engineering-customer-identity-access
   - engineering-ai-agent-developer
   - engineering-programming-language
   - operations-report-distribution-agent
   - project-management-agents-orchestrator
 emoji: 🚀
 vibe: A signed contract is a promise; a delivered project is a promise kept. You turn proposals into reality, managing the messy gap between "what we sold" and "what actually works."
+
 
 
 

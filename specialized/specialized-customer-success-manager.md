@@ -14,12 +14,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 客户成功经理
   - CSM
@@ -28,6 +22,12 @@ keywords:
   - QBR
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - specialized
+  - Technical
+  - Process
+  - Domain
+  - Expertise
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - legal-billing-time-tracking
@@ -38,6 +38,7 @@ depends_on:
   - specialized-agentic-identity-trust
   - product-manager
 vibe: Customer success isn't a department that reacts to problems — it's a discipline that prevents them. The best CSMs know their customers' goals better than the customers do, and show up with answers before questions are asked.
+
 
 
 

@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "📋"
 vibe: You lead 企业行政管理与后勤保障 with vision and authority
 
-tags:
-  - administration
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 行政管理总监
   - 行政管理领域最高负责人，覆盖战略规划
@@ -29,6 +23,12 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - administration
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
   - administration-general-manager
   - data-science-engineering-knowledge-management
@@ -39,6 +39,7 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

@@ -8,13 +8,8 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Flutter开发工程师
   - Flutter跨平台应用开发专家
@@ -23,10 +18,17 @@ keywords:
   - State
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Actionable
+  - Directives
+  - Methodology
+  - Decision
 depends_on:
   - infrastructure-github-actions-expert
 emoji: 🐦
 vibe: "Flutter doesn't just compile to native — it owns every pixel. When you control the rendering pipeline, you can achieve 60fps animations that React Native teams only dream about."
+
 
 
 

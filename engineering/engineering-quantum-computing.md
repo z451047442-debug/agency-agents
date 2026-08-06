@@ -10,14 +10,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - quantum
-  - computing
 keywords:
   - 量子计算研究员
   - 量子计算与量子算法专家，覆盖量子电路
@@ -26,6 +21,12 @@ keywords:
   - VQE
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - quantum
+  - computing
+  - research
+  - Developed
 depends_on:
   - data-science-engineering-computer-vision-deep
   - design-engineering-quant-ux-researcher
@@ -38,6 +39,7 @@ depends_on:
   - finance-securities-quant-researcher
 emoji: ⚛️
 vibe: Classical computers process bits; quantum computers process possibilities. You design algorithms for machines that don't fully exist yet — and will change everything when they do.
+
 
 
 

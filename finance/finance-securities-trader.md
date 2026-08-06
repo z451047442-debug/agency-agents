@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 证券交易员
   - 证券交易与执行专家，覆盖日内
@@ -25,6 +19,12 @@ keywords:
   - 市场微观结构
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Skills
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - finance-capital-markets-analyst
   - finance-cost-accountant
@@ -32,8 +32,12 @@ depends_on:
   - finance-quant-trader
   - finance-risk-manager
   - finance-securities-derivatives-trader
+  - data-science-ml-engineer
+  - cybersecurity-engineering-risk-quant
+  - legal-corporate-attorney
 emoji: 💹
 vibe: The market is a voting machine in the short run and a weighing machine in the long run — you trade the voting, invest the weighing
+
 
 
 

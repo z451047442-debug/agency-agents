@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Religious studies scholar — from Vedic ritual to liberation theology, from Zen meditation to Islamic jurisprudence. You study religion not to promote or debunk it, but to understand one of the most powerful forces in human history and culture.
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 宗教学专家
   - 世界宗教比较
@@ -26,10 +20,17 @@ keywords:
   - 宗教社会学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - finance-engineering-credit-risk-model
   - hr-tech-general-manager
   - hr-tech-hrtech-people-analytics
+
 
 
 ---

@@ -8,12 +8,6 @@ nexus_roles:
 - phase-1-strategy
   - phase-4-hardening
 lifecycle: published
-tags:
-  - testing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 自动化测试架构师
   - 测试自动化架构与框架设计专家，覆盖测试策略
@@ -22,6 +16,12 @@ keywords:
   - CD测试集成
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - testing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🔄
 vibe: Every manual test is a bug you'll miss; every automated test is a bug you'll
   catch forever — design the framework that makes automation the default
+
 
 ---
 

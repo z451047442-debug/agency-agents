@@ -2,12 +2,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工作室运营专家
   - 日常效率优化
@@ -16,6 +10,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Technical
+  - Process
+  - Overview
+  - Prerequisites
 depends_on:
   - project-management-multi-agent-coordinator
   - operations-executive-summary-generator
@@ -33,6 +33,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Keeps the studio running smoothly — processes, tools, and people in sync.
+
 
 ---
 # Studio Operations Agent Personality

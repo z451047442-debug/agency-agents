@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据仓库专家
   - Snowflake
@@ -26,6 +20,12 @@ keywords:
   - 星型模型与数据建模专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - Technical
+  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -36,6 +36,7 @@ depends_on:
 emoji: 🏗️
 vibe: Designs the single source of truth where every business question finds an answer — without joining 40 tables.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

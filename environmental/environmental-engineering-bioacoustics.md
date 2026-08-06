@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - years
-  - bioacoustics
-  - Deployed
 keywords:
   - 生物声学
   - 生态声学研究员
@@ -27,16 +21,22 @@ keywords:
   - 声景生态学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - bioacoustics
+  - Deployed
+  - acoustic
+  - monitoring
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
   - environmental-carbon-management
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
   - product-trend-researcher
 emoji: 🎧
 vibe: Every ecosystem has a soundscape — you listen to forests, oceans, and grasslands to monitor biodiversity, track endangered species, and understand how animals communicate
+
 
 
 

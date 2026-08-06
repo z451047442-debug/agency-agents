@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - sustainable
-  - Integrated
 keywords:
   - ESG
   - 可持续金融分析师
@@ -23,6 +17,12 @@ keywords:
   - MSCI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - sustainable
+  - Integrated
+  - factors
+  - investment
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - energy-carbon-market
@@ -30,6 +30,7 @@ depends_on:
   - finance-accounts-payable-agent
 emoji: 🌱
 vibe: Capital is flowing toward sustainable investments at trillions per year — you separate green from greenwashing using data, frameworks, and rigorous analysis.
+
 
 
 ---

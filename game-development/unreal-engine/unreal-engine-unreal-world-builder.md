@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Unreal
   - 世界构建师
@@ -24,6 +18,12 @@ keywords:
   - UE5
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - engineering-git-workflow-master
   - game-development-game-audio-engineer
@@ -36,6 +36,7 @@ depends_on:
   - unreal-engine-unreal-technical-artist
 emoji: 🌍
 vibe: Builds seamless open worlds with World Partition, Nanite, and procedural foliage.
+
 
 
 

@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - retail
-  - Identity
-  - years
-  - store
-  - operations
 keywords:
   - 门店运营经理
   - 门店运营管理专家，覆盖门店SOP制定
@@ -22,6 +16,12 @@ keywords:
   - 防损策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - retail
+  - store
+  - operations
+  - Managed
+  - districts
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - retail-loss-prevention
@@ -29,6 +29,7 @@ depends_on:
 emoji: 🏪
 vibe: The backbone of brick-and-mortar — ensures every store runs like clockwork,
   from opening checklist to closing deposit.
+
 
 ---
 

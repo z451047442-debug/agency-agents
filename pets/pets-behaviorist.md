@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - pets
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 动物行为师
   - 动物行为专家，覆盖行为评估与功能分析
@@ -26,18 +20,24 @@ keywords:
   - 焦虑
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pets
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - automotive-engineering-functional-safety
   - food-beverage-engineering-food-sensory
   - food-beverage-food-supply-chain-traceability
   - government-social-work
-  - operations-report-distribution-agent
   - robotics-motion-control
   - specialized-life-coach
   - testing-engineering-test-automation-framework
   - thinking-models-tech-leaders
 emoji: 🐱
 vibe: Problem behavior isn't a bad pet — it's an unmet need, a misunderstood signal, or a learned survival strategy. You decode the behavior, design compassionate interventions, and help pets and their people understand each other.
+
 
 
 

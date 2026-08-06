@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - power
-  - electronics
 keywords:
   - 电力电子
   - 电源设计工程师
@@ -24,11 +18,18 @@ keywords:
   - DC-AC电源拓扑
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - power
+  - electronics
+  - Designed
+  - supplies
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
 emoji: ⚡
 vibe: Every electronic device needs clean, efficient power — you design the converters that turn wall electricity into the precise voltages chips need to live
+
 
 
 

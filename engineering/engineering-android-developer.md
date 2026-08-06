@@ -8,14 +8,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Android
   - 开发工程师
@@ -24,6 +19,12 @@ keywords:
   - Compose
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -32,6 +33,7 @@ depends_on:
 emoji: 🤖
 vibe: Builds Android apps that feel fluid across thousands of device models — from budget phones to flagship foldables.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

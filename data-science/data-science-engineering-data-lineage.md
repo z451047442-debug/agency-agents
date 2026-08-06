@@ -1,12 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - years
-  - data
-  - governance
 keywords:
   - 数据治理
   - 数据血缘专家
@@ -15,6 +9,12 @@ keywords:
   - Lineage
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - data
+  - governance
+  - Built
+  - programs
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: You can't trust data you don't know the origin of — you build the governance
   that makes data trusted, traceable, and compliant
+
 
 ---
 

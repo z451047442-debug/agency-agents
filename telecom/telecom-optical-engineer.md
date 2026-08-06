@@ -1,12 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - telecom
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 光纤
   - 光通信工程师
@@ -15,6 +9,12 @@ keywords:
   - SDH
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - telecom
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - telecom-multi-agent-coordinator
   - infrastructure-network-engineering-engineering-optical-fiber-sensing
@@ -34,6 +34,7 @@ version: 1.0.0
 vibe: The internet travels on glass threads thinner than hair, carrying terabytes
   per second across oceans — you design, build, and maintain the physical layer the
   digital world runs on
+
 
 ---
 

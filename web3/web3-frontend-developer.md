@@ -1,12 +1,6 @@
 ---
 color: '#f7931a'
 date_added: '2026-07-03'
-tags:
-  - web3
-  - Deliverables
-  - Success
-  - Metrics
-  - Identity
 keywords:
   - Web3
   - 前端开发工程师
@@ -15,6 +9,12 @@ keywords:
   - 交互与去中心化前端架构专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - web3
+  - Success
+  - Metrics
+  - Expertise
+  - Approach
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - web3-multi-agent-coordinator
@@ -31,6 +31,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: The best dApp UX is the one your grandma doesn't realize is on-chain.
+
 
 ---
 

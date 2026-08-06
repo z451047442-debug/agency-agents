@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - battery
-  - recycling
 keywords:
   - 电池回收
   - 退役电池梯次利用工程师
@@ -25,13 +19,19 @@ keywords:
   - 溶剂萃取
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - battery
+  - recycling
+  - Developed
+  - processes
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: ♻️
 vibe: Every EV battery will eventually retire — you design the recycling systems that recover lithium, cobalt, and nickel, closing the loop on the electric revolution
+
 
 
 

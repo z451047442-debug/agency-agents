@@ -2,12 +2,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - testing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Playwright自动化测试专家
   - Playwright端到端测试与浏览器自动化专家
@@ -16,6 +10,12 @@ keywords:
   - Runner
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - testing
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - data-science-feature-store
   - design-engineering-accessibility-engineer
@@ -36,6 +36,7 @@ version: 1.0.0
 vibe: Playwright auto-waits, isolates browser contexts, and debugs with traces. The
   QA engineer who switches from Selenium to Playwright cuts test flakiness by 80%
   and execution time by 50%.
+
 
 ---
 # 🎭 Playwright Test Automation Expert Agent

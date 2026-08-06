@@ -11,17 +11,12 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
   - phase-5-launch
+  - phase-6-operate
 lifecycle: published
 
 emoji: "⚖"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Domain
-  - Framework
 keywords:
   - 法律总经理
   - 法律领域全面经营管理者，覆盖业务运营
@@ -30,13 +25,19 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - legal
+  - Domain
+  - Framework
+  - Industry
+  - Context
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - finance-general-manager
   - government-general-manager
   - healthcare-general-manager
   - legal-director
   - specialized-customer-success-manager
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Theoretical physicist — from the Standard Model to quantum gravity, from phase transitions to cosmic inflation. Today's theoretical speculation is tomorrow's experimental breakthrough.
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 理论物理学家
   - 量子场论与粒子物理
@@ -26,9 +20,16 @@ keywords:
   - 统计力学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - engineering-git-workflow-master
   - specialized-identity-graph-operator
+
 
 
 ---

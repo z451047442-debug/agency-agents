@@ -2,12 +2,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - battery
-  - modeling
 keywords:
   - 电池建模
   - 状态估计工程师
@@ -16,6 +10,12 @@ keywords:
   - ECM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - battery
+  - modeling
+  - algorithms
+  - Developed
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A battery management system that doesn't know the true state of charge is like
   a fuel gauge that lies — you build the algorithms that tell the truth
+
 
 ---
 # 🔋 Battery Modeling Engineer Agent

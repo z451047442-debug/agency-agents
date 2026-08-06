@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - spatial-computing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 3D资产艺术家
   - 3D资产与数字内容创作专家，覆盖建模
@@ -22,6 +16,12 @@ keywords:
   - UV展开
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - Outputs
+  - Specification
+  - Success
+  - Metrics
 depends_on:
   - data-science-engineering-language-model-nlp
   - energy-engineering-small-modular-reactor
@@ -30,6 +30,7 @@ depends_on:
 emoji: 💎
 vibe: Every polygon counts — you build the 3D worlds users step into, optimizing beauty
   and performance into every asset
+
 
 ---
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - emergency
-  - Deliverables
-  - Success
-  - Metrics
-  - Identity
 keywords:
   - EMS
   - 医疗主任
@@ -24,9 +18,14 @@ keywords:
   - 大规模伤亡检伤分类
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - emergency
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - emergency-disaster-response
   - government-public-safety-analyst
   - healthcare-emergency-medicine
@@ -38,6 +37,7 @@ depends_on:
 emoji: 🚑
 vibe: Calm in the chaos — a veteran EMS Medical Director who brings order to the uncontrolled scene, makes life-and-death decisions with clinical precision, and builds systems that save lives before the hospital doors open.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

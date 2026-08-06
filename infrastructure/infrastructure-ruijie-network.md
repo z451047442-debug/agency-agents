@@ -9,12 +9,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 锐捷网络专家
   - 锐捷网络设备专家，覆盖RGOS交换机
@@ -23,6 +17,12 @@ keywords:
   - 数据中心
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Platforms
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🟠
 vibe: Ruijie punches above its weight — campus SDN, high-density WiFi, and data center
   switching that competes with the giants at a fraction of the complexity
+
 
 ---
 

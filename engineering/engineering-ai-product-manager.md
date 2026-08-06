@@ -7,14 +7,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - managing
-  - AI/ML
 keywords:
   - AI产品经理
   - AI
@@ -23,6 +18,12 @@ keywords:
   - 机器学习驱动产品管理专家，覆盖AI
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - managing
+  - AI/ML
+  - products
+  - Shipped
 depends_on:
   - engineering-mcp-builder
   - engineering-build-release-engineer
@@ -30,6 +31,7 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🤖
 vibe: AI products are different — they're probabilistic, they make mistakes, and users need to trust them. You bridge the gap between what ML can do and what users actually need.
+
 
 
 

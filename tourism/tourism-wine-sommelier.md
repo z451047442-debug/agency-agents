@@ -11,12 +11,6 @@ nexus_roles: [phase-3-build, phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Sommelier and wine specialist — from Burgundy terroir to biodynamic viticulture, from blind tasting to cellar management. Wine is agriculture, chemistry, history, and art in a glass.
 
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 品酒与侍酒专家
   - 葡萄酒产区与风土
@@ -25,11 +19,18 @@ keywords:
   - 葡萄酒服务与窖藏管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - engineering-git-workflow-master
   - food-beverage-engineering-beverage-brewing
   - food-beverage-engineering-food-fermentation
   - food-beverage-engineering-food-sensory
+
 
 
 ---

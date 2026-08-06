@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - semiconductor
-  - packaging
 keywords:
   - 先进封装
   - 异构集成工程师
@@ -23,12 +17,19 @@ keywords:
   - CoWoS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - semiconductor
+  - packaging
+  - Developed
+  - advanced
 depends_on:
   - energy-engineering-power-electronics-packaging
   - manufacturing-engineering-3d-printing-additive
   - telecom-engineering-signal-integrity
 emoji: 💎
 vibe: Moore's Law slows, but packaging advances — you stack and connect chiplets into systems that perform like a single giant chip
+
 
 
 ---

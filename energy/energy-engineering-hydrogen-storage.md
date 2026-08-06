@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - hydrogen
-  - infrastructure
 keywords:
   - 储氢
   - 氢输运
@@ -24,10 +18,17 @@ keywords:
   - 液氢
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - hydrogen
+  - infrastructure
+  - Designed
+  - storage
 depends_on:
   - environmental-renewable-energy
 emoji: 🔋
 vibe: Hydrogen is the lightest element — storing and transporting it efficiently is the engineering challenge that makes or breaks the hydrogen economy
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Artistic thinking models — from Shakespeare's fox-like multiplicity to Dante's hedgehog-like unity, from Woolf's stream of consciousness to Miyazaki's wandering genius. Artists don't just make things; they see the world differently.
 
-tags:
-  - thinking-models
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 文学与艺术创作思维模型专家
   - 莎士比亚
@@ -25,6 +19,12 @@ keywords:
   - 刺猬型单一理念思维
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - thinking-models
+  - Tools
+  - Methodologies
+  - Success
+  - Metrics
 depends_on:
   - design-creative-tools
   - engineering-git-workflow-master
@@ -33,6 +33,7 @@ depends_on:
   - specialized-identity-graph-operator
   - testing-engineering-test-automation-framework
   - unity-shader-graph-artist
+
 
 
 

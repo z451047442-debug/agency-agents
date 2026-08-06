@@ -10,12 +10,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - architecting
-  - e-commerce
 keywords:
   - 电商平台架构师
   - 大规模电子商务平台技术架构专家，覆盖商品
@@ -24,6 +18,12 @@ keywords:
   - 促销
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - architecting
+  - e-commerce
+  - platforms
+  - Designed
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🛒
 vibe: A crash on Black Friday costs millions per minute — you design the architecture
   that handles 100x normal traffic without breaking a sweat
+
 
 ---
 # 🛒 E-Commerce Architect Agent

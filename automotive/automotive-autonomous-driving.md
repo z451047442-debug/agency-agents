@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - automotive
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 自动驾驶系统工程师
   - L4
@@ -24,6 +18,12 @@ keywords:
   - Dr
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - automotive-vehicle-architecture
   - cybersecurity-engineering-cyber-risk-model
@@ -33,6 +33,7 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🚗
 vibe: Driving is humanity's most dangerous daily activity — autonomy isn't about convenience, it's about making the roads statistically safe for the people we love
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 计算机视觉专家
   - 图像分类
@@ -26,6 +20,12 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -36,6 +36,7 @@ depends_on:
 emoji: 👁️
 vibe: Teaching machines to see — from medical imaging to autonomous driving, pixels are just the beginning.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

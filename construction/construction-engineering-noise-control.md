@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - environmental
-  - acoustics
 keywords:
   - 环境噪声
   - 交通噪声控制工程师
@@ -26,6 +20,12 @@ keywords:
   - 铁路
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - environmental
+  - acoustics
+  - Modeled
+  - mitigated
 depends_on:
   - construction-architectural-designer
   - cybersecurity-engineering-cyber-risk-model
@@ -35,6 +35,7 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🔇
 vibe: Noise is the invisible pollutant — it disturbs sleep, impairs learning, and shortens lives. You design the barriers, insulation, and policies that bring quiet to cities.
+
 
 
 

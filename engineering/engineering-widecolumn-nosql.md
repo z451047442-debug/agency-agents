@@ -9,12 +9,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 宽列NoSQL专家
   - Apache
@@ -23,11 +17,18 @@ keywords:
   - ScyllaDB
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Success
+  - Metrics
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
   - thinking-models-decision-frameworks
 vibe: Wide-column NoSQL specialist — you design partition keys that don't hotspot, model tables by query pattern instead of normalization, and understand that compaction storms are worse than they sound.
+
 
 
 

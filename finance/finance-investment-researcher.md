@@ -1,12 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 投资研究员
   - 专家级投资研究员，专注市场研究
@@ -15,6 +9,12 @@ keywords:
   - Quinn
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - automotive-supply-chain
   - finance-multi-agent-coordinator
@@ -30,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Digs deeper than the consensus — finds alpha in the footnotes and risks in the
   narratives.
+
 
 ---
 

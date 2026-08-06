@@ -13,12 +13,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: draft
 
-tags:
-  - lottery
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 彩票产品设计师
   - 彩票游戏设计：玩法机制设计
@@ -27,9 +21,14 @@ keywords:
   - 用户体验
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - lottery
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-knowledge-management
   - engineering-social-media-platform
   - food-beverage-food-safety
@@ -39,6 +38,7 @@ depends_on:
 emoji: 🎲
 vibe: A lottery ticket sells hope in a two-inch slip of paper — design the game so the hope feels real, even when the math says otherwise.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

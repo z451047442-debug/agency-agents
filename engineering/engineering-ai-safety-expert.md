@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AI安全与对齐专家
   - AI安全
@@ -23,6 +17,12 @@ keywords:
   - DPO
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - cybersecurity-engineering-threat-detection-engineer
@@ -33,6 +33,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🛡️
 vibe: "A powerful model without safety is a liability. The alignment engineer is the one who makes sure your AI says 'I can't help with that' to a dangerous request and actually helps with the safe ones."
+
 
 
 

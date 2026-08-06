@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - corporate
-  - controller
 keywords:
   - 财务总监
   - Controller
@@ -26,6 +20,12 @@ keywords:
   - IFRS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - corporate
+  - controller
+  - Managed
+  - financial
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-consolidation-agent
@@ -34,6 +34,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📒
 vibe: The numbers must be right — every quarter, every disclosure, every footnote. Investors, regulators, and the board depend on your financial statements being accurate.
+
 
 
 

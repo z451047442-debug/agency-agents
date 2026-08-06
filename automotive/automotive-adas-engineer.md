@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - automotive
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - ADAS高级驾驶辅助工程师
   - L2
@@ -23,6 +17,12 @@ keywords:
   - LKA功能安全与ISO
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-engineering-vehicle-dynamics
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🛡️
 vibe: The best safety system is the one the driver never notices — until the moment
   it saves their life
+
 
 ---
 # 🛡️ ADAS Engineer Agent

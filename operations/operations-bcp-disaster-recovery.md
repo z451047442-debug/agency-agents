@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
   - phase-4-hardening
 lifecycle: published
-tags:
-  - operations
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 业务连续性
   - BCP
@@ -26,14 +20,20 @@ keywords:
   - DRP计划编制
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - operations
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - legal-engineering-legal-document-automation
   - operations-report-distribution-agent
   - project-management-event-manager
   - project-management-site-engineer
 emoji: 🛡️
 vibe: When the data center floods, the ransomware hits, or the supply chain collapses, everyone looks at you. You already planned for this.
+
 
 
 

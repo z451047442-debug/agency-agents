@@ -11,12 +11,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 大数据工程师
   - Hadoop
@@ -25,6 +19,12 @@ keywords:
   - 数据湖与实时计算专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -35,6 +35,7 @@ depends_on:
 emoji: 🐘
 vibe: Tames petabyte-scale data chaos into reliable, queryable pipelines that won't break at 3am.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

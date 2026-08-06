@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 飞书集成开发工程师
   - 飞书
@@ -25,6 +19,12 @@ keywords:
   - 机器人与工作流集成专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
@@ -35,6 +35,7 @@ depends_on:
   - infrastructure-identity-access
 emoji: 🔗
 vibe: Builds enterprise integrations on the Feishu (Lark) platform — bots, approvals, data sync, and SSO — so your team's workflows run on autopilot.
+
 
 
 

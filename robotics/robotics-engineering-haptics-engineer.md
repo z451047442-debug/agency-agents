@@ -1,12 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-tags:
-  - robotics
-  - Identity
-  - years
-  - haptic
-  - technology
 keywords:
   - 触觉
   - 力反馈
@@ -15,6 +9,12 @@ keywords:
   - 触觉技术与力反馈系统专家，覆盖压电
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - haptic
+  - technology
+  - Designed
+  - experiences
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - energy-engineering-power-electronics
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Touch is the sense we trust most — you engineer the vibrations, textures, and
   forces that make virtual interactions feel real
+
 
 ---
 

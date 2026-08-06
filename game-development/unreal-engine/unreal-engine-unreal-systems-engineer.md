@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Unreal
   - 系统工程师
@@ -25,6 +19,12 @@ keywords:
   - C++
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - logistics-public-transit
   - specialized-identity-graph-operator
@@ -35,6 +35,7 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: ⚙️
 vibe: Masters the C++/Blueprint continuum for AAA-grade Unreal Engine projects.
+
 
 
 

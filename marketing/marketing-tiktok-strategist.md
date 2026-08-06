@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - TikTok
   - 策略专家
@@ -24,6 +18,12 @@ keywords:
   - 增长专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-search-query-analyst
@@ -31,6 +31,7 @@ depends_on:
   - design-brand-guardian
 emoji: 🎵
 vibe: Rides the algorithm and builds community through authentic TikTok culture.
+
 
 
 

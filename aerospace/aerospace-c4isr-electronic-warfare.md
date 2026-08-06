@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 电子信息与指挥控制专家
   - 雷达探测
@@ -26,12 +20,20 @@ keywords:
   - 火控系统
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Outputs
+  - Specification
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - telecom-engineering-radar-systems
   - aerospace-avionics
   - aerospace-engineering-systems-aerospace
 vibe: C4ISR and electronic warfare specialist — from phased-array radars to distributed kill chains, from SIGINT collection to electromagnetic spectrum dominance. The side that owns the spectrum owns the battlefield.
+
+
 
 
 

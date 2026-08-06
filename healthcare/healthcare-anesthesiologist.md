@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - anesthesiology
-  - Managed
 keywords:
   - 麻醉科医师
   - 临床麻醉与围术期医学专家，覆盖全身
@@ -22,6 +16,12 @@ keywords:
   - 困难气道管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - anesthesiology
+  - Managed
+  - anesthesia
+  - surgical
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -31,6 +31,7 @@ emoji: 💤
 vibe: You take patients to the edge of consciousness and bring them back safely —
   managing pain, maintaining physiology, and watching over every heartbeat during
   surgery
+
 
 ---
 

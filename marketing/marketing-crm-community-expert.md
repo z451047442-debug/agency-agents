@@ -9,12 +9,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 会员
   - 社群运营专家
@@ -23,12 +17,19 @@ keywords:
   - 忠诚度计划
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - marketing-customer-lifecycle
   - design-brand-guardian
 emoji: 👥
 vibe: Turns one-time buyers into lifelong fans — the difference between a transaction and a relationship is community.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

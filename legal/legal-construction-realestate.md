@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工程建设与不动产律师
   - 工程建设与不动产法律专家，覆盖建设工程施工合同
@@ -26,9 +20,14 @@ keywords:
   - 政府采购法
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - construction-fire-protection
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model
   - legal-engineering-legal-contracts-ai
@@ -36,6 +35,7 @@ depends_on:
   - legal-general-counsel
 emoji: 🏗️
 vibe: Every skyscraper starts with a contract, every smart building with a legal framework — you structure the deals and resolve the disputes that build the built environment
+
 
 
 

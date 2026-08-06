@@ -1,12 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - years
-  - process
-  - mining
 keywords:
   - 流程挖掘
   - 业务流程智能分析师
@@ -15,6 +9,12 @@ keywords:
   - CRM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - process
+  - mining
+  - Analyzed
+  - business
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -35,6 +35,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Your ERP system records every transaction — you mine those event logs to discover
   how processes ACTUALLY run, finding bottlenecks, deviations, and automation opportunities
+
 
 ---
 

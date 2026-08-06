@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - nuclear
-  - decommissioning
 keywords:
   - 核设施退役
   - 放射性废物管理专家
@@ -25,13 +19,19 @@ keywords:
   - 核设施退役策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - nuclear
+  - decommissioning
+  - Managed
+  - safe
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: ☢️
 vibe: Building a nuclear plant is hard; decommissioning one safely, decades after it was built, with incomplete records — that's a different kind of hard
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - welding
-  - engineering
 keywords:
   - 焊接工程
   - 焊接冶金专家
@@ -24,11 +18,18 @@ keywords:
   - GTAW
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - welding
+  - engineering
+  - Qualified
+  - procedures
 depends_on:
   - legal-engineering-legal-document-automation
   - manufacturing-engineering-3d-printing-additive
 emoji: 🔥
 vibe: Every skyscraper, every ship, every pipeline is held together by welds — you design the procedures that join metal with metallurgical integrity
+
 
 
 

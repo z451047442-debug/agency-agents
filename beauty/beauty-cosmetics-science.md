@@ -10,12 +10,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - beauty
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 化妆品科学与配方专家
   - 化妆品原料科学
@@ -24,6 +18,12 @@ keywords:
   - 法规合规
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - beauty
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - food-beverage-engineering-cosmetics-science
   - healthcare-engineering-regulatory-science
@@ -32,6 +32,7 @@ depends_on:
 vibe: Cosmetic scientist — from emulsion stability to active ingredient delivery,
   from preservative efficacy testing to SPF measurement. A great moisturizer is colloid
   science; a great lipstick is rheology.
+
 
 ---
 

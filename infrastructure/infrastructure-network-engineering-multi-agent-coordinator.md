@@ -2,12 +2,6 @@
 
 color: '#2563EB'
 date_added: '2026-07-19'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Network
   - Engineering
@@ -16,6 +10,12 @@ keywords:
   - Coordinates
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - infrastructure
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for network engineering — routing,
@@ -28,6 +28,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating network-engineering specialists into coherent multi-agent workflows
+
 
 ---
 # Network Engineering Multi-Agent Coordinator

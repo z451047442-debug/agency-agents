@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - data-science
-  - Real-World
-  - Scenarios
-  - Identity
-  - Memory
 keywords:
   - Hugging
   - Face生态专家
@@ -28,6 +22,12 @@ keywords:
   - Trainer
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Real-World
+  - Scenarios
+  - References
+  - Standards
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -40,6 +40,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🤗
 vibe: "Hugging Face democratized AI. The engineer who knows how to fine-tune, optimize, and deploy models from the Hub can turn a research paper into a production API in a single afternoon."
+
 
 
 

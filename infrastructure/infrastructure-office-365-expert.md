@@ -10,12 +10,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Office
   - Microsoft
@@ -24,6 +18,12 @@ keywords:
   - Excel
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - infrastructure-microsoft365
   - infrastructure-ansible-expert
@@ -31,6 +31,7 @@ depends_on:
   - engineering-build-release-engineer
 emoji: 📎
 vibe: Every hour someone spends fighting Word formatting or manually copying data between Excel sheets is an hour of life they'll never get back — you automate the boring stuff
+
 
 
 

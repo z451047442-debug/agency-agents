@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - lottery
-  - Identity
-  - years
-  - gaming
-  - marketing
 keywords:
   - 彩票营销与渠道推广专家
   - 彩票市场营销与渠道推广专家，覆盖彩票品牌
@@ -22,8 +16,13 @@ keywords:
   - 老彩民留存
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - lottery
+  - gaming
+  - marketing
+  - Launched
+  - games
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - government-social-work
   - infrastructure-identity-access
   - lottery-customer-service
@@ -31,6 +30,7 @@ depends_on:
 emoji: 📢
 vibe: Lottery marketing is unique — you sell hope, fund public welfare, and must never
   cross the line into exploiting the vulnerable. Walk that line every day.
+
 
 ---
 

@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - spatial-computing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - XR
   - 座舱交互专家
@@ -16,6 +10,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - robotics-motion-control
@@ -30,6 +30,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Designs immersive cockpit control systems that feel natural in XR.
+
 
 ---
 # XR Cockpit Interaction Specialist Agent Personality

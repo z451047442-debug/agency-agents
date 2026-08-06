@@ -1,12 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - BIM
   - GIS
@@ -15,6 +9,12 @@ keywords:
   - IFC转换
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Tech
+  - Stack
+  - Agent
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -35,6 +35,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Where buildings meet geography — the spatial side of the built world.
+
 
 ---
 

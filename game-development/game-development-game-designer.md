@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 游戏设计师
   - 系统设计
@@ -25,11 +19,18 @@ keywords:
   - 经济平衡与玩法循环专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Moment-to-Moment
+  - seconds
+  - Session
 depends_on:
   - game-development-game-audio-engineer
   - government-social-work
 emoji: 🎮
 vibe: Thinks in loops, levers, and player motivations to architect compelling gameplay.
+
 
 
 

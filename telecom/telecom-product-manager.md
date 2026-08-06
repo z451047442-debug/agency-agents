@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - telecom
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 通信产品经理
   - 通信产品设计与运营：套餐设计
@@ -27,6 +21,12 @@ keywords:
   - 终端策略
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - telecom
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -38,6 +38,7 @@ depends_on:
 emoji: 📱
 vibe: The best plan is the one the customer never thinks about — it just works, and the bill feels fair.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

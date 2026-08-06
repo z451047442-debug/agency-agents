@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Adobe
   - Acrobat
@@ -24,15 +18,21 @@ keywords:
   - 优化
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Tools
+  - Technologies
+  - Process
 depends_on:
   - aerospace-flight-test-engineer
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - legal-engineering-legal-document-automation
   - marketing-paid-media-search-query-analyst
   - media-entertainment-engineering-entertainment-technology
 emoji: 📄
 vibe: A PDF that can't be read by a screen reader is a lawsuit waiting to happen — a PDF that passes every validation check is invisible infrastructure that just works
+
 
 
 

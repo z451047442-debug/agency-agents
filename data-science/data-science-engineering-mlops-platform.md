@@ -2,12 +2,6 @@
 
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - years
-  - building
-  - platforms
 keywords:
   - MLOps
   - ML平台工程师
@@ -16,6 +10,12 @@ keywords:
   - Kubeflow
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - building
+  - platforms
+  - Built
+  - infrastructure
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -36,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Data scientists build models; you build the factory that produces them. From
   notebook to production, your platform turns experiments into reliable ML services.
+
 
 ---
 # ⚙️ MLOps Platform Engineer Agent

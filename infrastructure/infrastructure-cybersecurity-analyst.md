@@ -10,12 +10,6 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - network
-  - security
 keywords:
   - 网络安全运营
   - NOC
@@ -24,6 +18,12 @@ keywords:
   - 网络与安全运营中心
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - network
+  - security
+  - operations
+  - centers
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
@@ -32,6 +32,7 @@ depends_on:
 emoji: 📡
 vibe: When the alert fires at 3AM, you're the first responder — triaging, documenting,
   escalating, and keeping the lights on until the day shift arrives
+
 
 ---
 

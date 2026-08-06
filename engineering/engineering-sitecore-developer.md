@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - performance
-  - Optimized
 keywords:
   - 前端架构
   - 性能优化工程师
@@ -24,6 +18,12 @@ keywords:
   - Vitals
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - performance
+  - Optimized
+  - sites
+  - serving
 depends_on:
   - engineering-nextjs-expert
   - engineering-build-release-engineer
@@ -31,6 +31,7 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: ⚡
 vibe: A website that loads in 1 second converts; one that loads in 5 seconds loses half its visitors. You make the web fast, one millisecond at a time.
+
 
 
 

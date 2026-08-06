@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - plant
-  - phenotyping
 keywords:
   - 表型组学
   - 高通量植物表型研究员
@@ -24,6 +18,12 @@ keywords:
   - 荧光
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - plant
+  - phenotyping
+  - Built
+  - automated
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -31,6 +31,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🌱
 vibe: Breeding better crops requires measuring millions of plants — you build the cameras, sensors, and AI that see which plants will feed the future
+
 
 
 

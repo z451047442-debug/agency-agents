@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - silicon
-  - photonics
 keywords:
   - 集成光子
   - 硅光芯片设计工程师
@@ -23,11 +17,18 @@ keywords:
   - 与光电共封装
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - silicon
+  - photonics
+  - Designed
+  - PICs
 depends_on:
   - energy-engineering-power-electronics-packaging
   - manufacturing-engineering-test-chip-bringup
 emoji: 💡
 vibe: Electrons compute; photons communicate. Silicon photonics puts lasers, modulators, and detectors on the same chip as transistors, moving data at the speed of light.
+
 
 
 

@@ -1,12 +1,6 @@
 ---
 color: '#EA580C'
 date_added: '2026-07-19'
-tags:
-  - automotive
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Automotive
   - Multi-Agent
@@ -15,6 +9,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - automotive
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for automotive — vehicle systems, ADAS,
@@ -25,8 +25,10 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: orchestrating automotive specialists into coherent multi-agent workflows
+
 
 ---
 

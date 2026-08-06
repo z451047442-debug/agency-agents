@@ -14,12 +14,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 法务计费与工时管理专员
   - 全面的法务计费与工时管理专家，覆盖工时记录
@@ -28,6 +22,12 @@ keywords:
   - Legal
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - legal-client-intake
   - specialized-habit-formation
@@ -36,6 +36,7 @@ depends_on:
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
 vibe: Every six minutes of unbilled time is money left on the table. Every unclear billing narrative is a client dispute waiting to happen. Capture it all. Describe it clearly. Collect it professionally.
+
 
 
 

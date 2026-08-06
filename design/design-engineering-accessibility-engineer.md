@@ -12,12 +12,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 无障碍工程师
   - Web
@@ -26,14 +20,20 @@ keywords:
   - 工程专家，覆盖WCAG
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-ux-engineer
   - infrastructure-identity-access
   - testing-accessibility-auditor
 emoji: ♿
 vibe: The web is for everyone — you ensure that disability is not a barrier to digital access, one ARIA label at a time
+
 
 
 ---

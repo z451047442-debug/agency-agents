@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - advanced
-  - nuclear
 keywords:
   - 小型模块化反应堆
   - SMR
@@ -26,13 +20,19 @@ keywords:
   - 熔盐
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - advanced
+  - nuclear
+  - Designed
+  - microreactor
 depends_on:
   - data-science-engineering-deep-learning-training
   - environmental-renewable-energy
   - finance-accounts-payable-agent
-  - operations-report-distribution-agent
 emoji: ⚛️
 vibe: Nuclear power that fits on a truck, built in factories, inherently safe — SMRs are the next generation of clean baseload energy
+
 
 
 

@@ -1,12 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-tags:
-  - logistics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 关务合规师
   - 海关合规与跨境贸易专家，覆盖HS归类
@@ -15,6 +9,12 @@ keywords:
   - 原产地规则
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - logistics
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
   - logistics-multi-agent-coordinator
   - insurance-auto-claims
@@ -30,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Trade crosses borders once; customs compliance protects every crossing — get
   it right or pay twice
+
 
 ---
 

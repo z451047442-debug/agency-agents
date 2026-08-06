@@ -11,12 +11,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - marketing
-  - Citation
-  - Audit
-  - Scorecard
-  - Date
 keywords:
   - AI
   - 引用策略师
@@ -25,6 +19,12 @@ keywords:
   - 推荐可见度与引用审计专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Citation
+  - Audit
+  - Scorecard
+  - Date
 depends_on:
   - data-science-engineering-language-model-nlp
   - marketing-brand-strategist
@@ -33,6 +33,7 @@ depends_on:
 emoji: 🔮
 vibe: Figures out why the AI recommends your competitor and rewires the signals so
   it recommends you instead
+
 
 ---
 

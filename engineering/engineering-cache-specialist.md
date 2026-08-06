@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 缓存技术专家
   - Redis
@@ -24,11 +18,18 @@ keywords:
   - Ehcache
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect
   - infrastructure-aliyun-architect
 vibe: Cache specialist — you think in TTLs, eviction policies, and cache invalidation (one of the two hard problems in CS). A properly designed cache layer turns 100ms DB queries into 1ms lookups.
+
 
 
 

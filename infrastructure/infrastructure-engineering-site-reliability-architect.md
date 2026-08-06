@@ -10,12 +10,6 @@ nexus_roles:
 - phase-2-foundation
   - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - designing
-  - reliable
 keywords:
   - 站点可靠性架构师
   - SRE
@@ -24,6 +18,12 @@ keywords:
   - 混沌工程
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - infrastructure
+  - designing
+  - reliable
+  - distributed
+  - systems
 depends_on:
   - data-science-engineering-deep-learning-training
   - infrastructure-ansible-expert
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🏗️
 vibe: Reliability is a feature, not an accident — you architect systems that stay
   up when everything around them is falling down
+
 
 ---
 # 🏗️ SRE Architect Agent

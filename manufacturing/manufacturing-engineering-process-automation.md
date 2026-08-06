@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - process
-  - automation
 keywords:
   - 流程自动化
   - RPA
@@ -23,11 +17,18 @@ keywords:
   - 机器人流程自动化与业务流程自动化专家，覆盖UiPath
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - process
+  - automation
+  - Automated
+  - thousands
 depends_on:
   - manufacturing-engineering-composites-manufacturing
   - testing-engineering-test-automation-framework
 emoji: 🤖
 vibe: Millions of hours are wasted on repetitive computer tasks — you automate them, freeing humans to do what humans do best
+
 
 
 

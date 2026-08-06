@@ -14,12 +14,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 创意注入师
   - 品牌个性
@@ -28,6 +22,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - Whimsy
+  - Personality
+  - Spectrum
+  - Taxonomy
 depends_on:
   - design-brand-guardian
   - education-stem-engineering-teaching
@@ -38,6 +38,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: ✨
 vibe: Adds the unexpected moments of delight that make brands unforgettable.
+
 
 
 

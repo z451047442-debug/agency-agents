@@ -1,12 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 服务网格架构师
   - Istio服务网格与企业级微服务治理专家
@@ -15,6 +9,12 @@ keywords:
   - 与数据面
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-ansible-expert
@@ -38,6 +38,7 @@ version: 1.0.0
 vibe: Istio moves networking logic out of application code and into the infrastructure
   layer. When every service call is automatically encrypted, traced, and metered,
   your microservices become simpler and your platform becomes smarter.
+
 
 ---
 

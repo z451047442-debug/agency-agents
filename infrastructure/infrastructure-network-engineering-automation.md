@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 网络自动化工程师
   - 网络自动化与可编程网络专家，覆盖Ansible
@@ -27,6 +21,12 @@ keywords:
   - CD网络管道
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - automotive-engineering-functional-safety
   - infrastructure-ansible-expert
@@ -38,6 +38,7 @@ depends_on:
   - infrastructure-network-engineering-cloud
 emoji: 🤖
 vibe: Stop configuring switches by hand — every CLI command you type is a bug waiting to happen; automate it, test it, and never touch a production router again
+
 
 
 

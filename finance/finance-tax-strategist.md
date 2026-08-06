@@ -1,12 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 税务策略师
   - 专家级税务策略师，专注税务优化
@@ -15,6 +9,12 @@ keywords:
   - Cassandra
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - finance
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - automotive-supply-chain
   - finance-multi-agent-coordinator
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Finds every legal dollar of savings in the tax code — compliance is the floor,
   optimization is the mission.
+
 
 ---
 

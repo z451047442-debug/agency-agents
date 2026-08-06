@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - lottery
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 彩票运营专家
   - 彩票零售与渠道运营专家，覆盖投注站选址
@@ -26,14 +20,20 @@ keywords:
   - 会员体系
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - lottery
+  - Operations
+  - Success
+  - Metrics
+  - References
 depends_on:
   - education-special-needs
   - finance-engineering-credit-risk-model
   - lottery-customer-service
   - marketing-europe-market
-  - operations-report-distribution-agent
 emoji: 🎫
 vibe: A lottery ticket sells at the intersection of hope and habit — you design the retail experience, the marketing campaigns, and the member programs that bring players back
+
 
 
 

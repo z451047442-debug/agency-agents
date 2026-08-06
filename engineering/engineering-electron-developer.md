@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 桌面应用开发工程师
   - Electron
@@ -23,6 +17,12 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🖥️
 vibe: Brings web technology to the desktop — building apps that feel native whether on Windows, macOS, or Linux.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

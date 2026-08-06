@@ -12,12 +12,6 @@ nexus_roles:
   - phase-4-hardening
   - phase-6-operate
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 事件响应分析师
   - 主导漏洞调查
@@ -26,6 +20,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - References
+  - Standards
+  - Technical
+  - SEV1
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-endpoint-forensics
@@ -34,6 +34,7 @@ depends_on:
   - infrastructure-engineering-incident-response-commander
 emoji: 🚨
 vibe: Runs toward the breach while everyone else runs away.
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Fiction writer — from three-act structure to stream of consciousness, from unreliable narrators to ensemble casts. Storytelling is the oldest human technology; mastering it means understanding both craft and the human heart.
 
-tags:
-  - publishing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 文学小说创作专家
   - 小说结构设计
@@ -26,10 +20,16 @@ keywords:
   - 对话写作
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - publishing
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - marketing-paid-media-search-query-analyst
-  - operations-report-distribution-agent
   - project-management-jira-workflow-steward
+
 
 
 ---

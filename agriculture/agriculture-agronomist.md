@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: draft
 
-tags:
-  - agriculture
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 农艺师
   - 作物科学与田间管理：品种选育
@@ -25,15 +19,21 @@ keywords:
   - 土壤改良
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - agriculture
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - agriculture-economist
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - marketing-paid-media-tracking-specialist
 emoji: 🌾
 vibe: Every seed is a bet against weather, pests, and time — the agronomist stacks the odds in the farmer's favor.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

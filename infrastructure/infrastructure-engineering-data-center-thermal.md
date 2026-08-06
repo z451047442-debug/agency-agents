@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - data
-  - center
 keywords:
   - 数据中心热管理
   - 液冷专家
@@ -26,6 +20,12 @@ keywords:
   - 浸没式冷却
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - data
+  - center
+  - cooling
+  - Designed
 depends_on:
   - engineering-database-optimizer
   - engineering-graph-database
@@ -33,6 +33,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🌡️
 vibe: AI servers pack 100kW per rack — air cooling can't handle that. You design the liquid cooling systems that keep the most powerful computers on Earth from melting down.
+
 
 
 

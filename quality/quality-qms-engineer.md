@@ -11,12 +11,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - quality
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - QMS
   - 质量体系工程师
@@ -25,14 +19,20 @@ keywords:
   - IATF16949
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - quality
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - finance-internal-auditor
   - healthcare-engineering-medical-device-software
   - hr-employee-relations
   - quality-customer-cqe
 emoji: 📋
 vibe: Quality isn't inspected in — it's built in. You design the management system that makes quality systematic, auditable, and continuously improving.
+
 
 
 

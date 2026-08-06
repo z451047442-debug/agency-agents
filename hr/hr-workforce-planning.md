@@ -1,12 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-tags:
-  - hr
-  - Identity
-  - years
-  - workforce
-  - planning
 keywords:
   - 人力规划
   - 编制管理专家
@@ -15,6 +9,12 @@ keywords:
   - 编制预算
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - workforce
+  - planning
+  - strategy
+  - Built
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-assessment-specialist
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Headcount is the largest expense in most companies — you plan how many people,
   in which roles, at what cost, to execute the business strategy
+
 
 ---
 

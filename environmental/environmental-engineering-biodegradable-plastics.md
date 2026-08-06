@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - years
-  - biopolymers
-  - Developed
 keywords:
   - 生物可降解
   - 可堆肥高分子材料工程师
@@ -26,14 +20,20 @@ keywords:
   - PBAT
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - biopolymers
+  - Developed
+  - compostable
+  - plastics
 depends_on:
   - environmental-carbon-management
   - food-beverage-engineering-food-packaging
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 🌱
 vibe: Plastic that disappears after use — not in 500 years, but in months. You engineer the polymers that biodegrade in soil, compost, and ocean, solving plastic pollution at the molecular level.
+
 
 
 

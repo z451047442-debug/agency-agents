@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据隐私律师
   - GDPR
@@ -25,12 +19,18 @@ keywords:
   - 合规
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - legal-data-protection-officer
 emoji: 🔒
 vibe: Data is the new oil, and privacy is the refinery that makes it safe to use — vigilant, meticulous, unwavering.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

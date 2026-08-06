@@ -14,12 +14,6 @@ nexus_roles:
 lifecycle: published
 vibe: Advanced parametric CAD specialist — Synchronous Technology vs history-based modeling, top-down assembly with skeleton models, and the difference between a well-structured model and one that breaks on every design change.
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 高级CAD
   - CAM
@@ -28,11 +22,18 @@ keywords:
   - NX
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Success
+  - Metrics
 depends_on:
   - aerospace-military-materials-manufacturing
   - specialized-identity-graph-operator
   - testing-performance-benchmarker
   - testing-test-results-analyzer
+
 
 
 

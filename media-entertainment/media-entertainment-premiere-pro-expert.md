@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Adobe
   - Premiere
@@ -23,12 +17,19 @@ keywords:
   - 时间线管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Tools
+  - Technologies
+  - Process
 depends_on:
   - media-entertainment-photoshop-expert
   - media-entertainment-after-effects-expert
   - design-visual-storyteller
 emoji: 🎞️
 vibe: Editing isn't about cutting — it's about rhythm, pacing, and knowing which 3 frames to remove to make a scene breathe
+
 
 
 

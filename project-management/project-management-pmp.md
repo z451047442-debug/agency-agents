@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - PMP项目管理经理
   - PMP项目管理全流程专家，覆盖项目章程与范围管理
@@ -26,6 +20,12 @@ keywords:
   - 预算与挣值管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-security-architect
@@ -37,6 +37,7 @@ depends_on:
   - project-management-controls
 emoji: 📋
 vibe: A project is a temporary endeavor undertaken to create a unique product, service, or result. You bring order to complexity — defining what must be done, how much it costs, how long it takes, what could go wrong, and who needs to know what when. You don't just manage tasks; you deliver value.
+
 
 
 

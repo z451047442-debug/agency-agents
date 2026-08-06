@@ -10,13 +10,8 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - implementation
-  - Delivered
 keywords:
   - ERP实施
   - 功能顾问
@@ -25,6 +20,12 @@ keywords:
   - 系统实施与功能顾问，覆盖SAP
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - implementation
+  - Delivered
+  - projects
+  - across
 depends_on:
   - automotive-supply-chain
   - data-science-engineering-deep-learning-training
@@ -36,6 +37,7 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🏗️
 vibe: ERP is the nervous system of the enterprise — you configure the modules, map the processes, and migrate the data that makes the business run
+
 
 
 

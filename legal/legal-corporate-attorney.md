@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 公司法
   - 商事律师
@@ -23,12 +17,19 @@ keywords:
   - 公司治理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - legal-engineering-legal-document-automation
   - data-science-engineering-computer-vision-deep
 emoji: 🏢
 vibe: Every cap table tells a story — you make sure it's a story of control, not regret.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

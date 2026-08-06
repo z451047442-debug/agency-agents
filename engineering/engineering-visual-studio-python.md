@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Visual
   - Studio
@@ -23,6 +17,12 @@ keywords:
   - 数据科学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -30,6 +30,7 @@ depends_on:
   - infrastructure-engineering-devops-automator
 emoji: 🐍
 vibe: "Python in Visual Studio has a killer advantage: the mixed-mode debugger. You can step from Python into C extension code and back out without breaking stride"
+
 
 
 

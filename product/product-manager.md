@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 产品经理
   - 全生命周期产品管理：发现
@@ -27,6 +21,12 @@ keywords:
   - GTM
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - product
+  - Technical
+  - Problem
+  - Statement
+  - Goals
 depends_on:
   - construction-engineering-green-building
   - data-science-engineering-deep-learning-training
@@ -40,6 +40,7 @@ depends_on:
 emoji: 🧭
 vibe: Ships the right thing, not just the next thing — outcome-obsessed, user-grounded, and diplomatically ruthless about focus.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 
 
 

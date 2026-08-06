@@ -9,12 +9,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Expertise
 keywords:
   - CI
   - CD
@@ -23,6 +17,12 @@ keywords:
   - 持续交付与
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Expertise
+  - Approach
+  - Output
+  - Lines
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-ansible-expert
@@ -30,6 +30,7 @@ depends_on:
   - cybersecurity-engineering-customer-identity-access
 emoji: 🔄
 vibe: Push to main, watch it fly. Your pipeline is the team's heartbeat — keep it steady.
+
 
 
 

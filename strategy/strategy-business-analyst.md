@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - strategy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 商业分析师
   - 需求分析
@@ -26,17 +20,24 @@ keywords:
   - FRD
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - strategy
+  - Success
+  - Metrics
+  - Technical
+  - Process
 depends_on:
   - finance-risk-manager
   - government-social-work
   - lottery-risk-manager
   - marketing-retail-media-ad
   - specialized-document-generator
-  - strategy-business-strategist
+  - specialized-business-strategist
   - thinking-models-tech-leaders
 emoji: 📊
 vibe: Translates business ambiguity into crystal-clear requirements that engineers love.
 tools: Read, Write, Edit, WebFetch, WebSearch, Bash, Grep, Glob
+
 
 
 

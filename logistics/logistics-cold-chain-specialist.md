@@ -1,12 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - logistics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 冷链物流专家
   - 温控供应链管理专家，覆盖冷藏
@@ -15,6 +9,12 @@ keywords:
   - 温度监控
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - logistics
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - logistics-multi-agent-coordinator
   - healthcare-engineering-cold-chain-pharma
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Protecting the cold chain — where degrees matter, minutes count, and excursions
   cost more than money
+
 
 ---
 

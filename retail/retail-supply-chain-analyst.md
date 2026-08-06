@@ -14,12 +14,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: draft
 
-tags:
-  - retail
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 零售供应链分析师
   - 零售供应链优化：库存管理
@@ -28,6 +22,12 @@ keywords:
   - 供应商协同
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - retail
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -39,6 +39,7 @@ depends_on:
 emoji: 📦
 vibe: Every shelf empty is a sale lost; every pallet idle is capital tied up — the sweet spot is razor-thin and always moving.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

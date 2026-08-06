@@ -10,12 +10,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Filament
   - 优化专家
@@ -24,6 +18,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Process
+  - Technical
+  - Success
+  - Metrics
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -33,6 +33,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🔧
 vibe: Pragmatic perfectionist — streamlines complex admin environments.
+
 
 ---
 # Agent Personality

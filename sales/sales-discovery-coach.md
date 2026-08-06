@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - sales
-  - Identity
-  - Three
-  - Discovery
-  - Frameworks
 keywords:
   - 销售发现教练
   - SPIN
@@ -27,6 +21,12 @@ keywords:
   - Sandler
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sales
+  - Three
+  - Discovery
+  - Frameworks
+  - Elite
 depends_on:
   - automotive-engineering-functional-safety
   - education-special-needs
@@ -37,6 +37,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🔍
 vibe: Asks one more question than everyone else — and that's the one that closes the deal.
+
 
 
 

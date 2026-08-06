@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - marine
-  - surveying
 keywords:
   - 船舶与海洋工程维护
   - 检验师
@@ -23,14 +17,20 @@ keywords:
   - CAP
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - marine
+  - surveying
+  - Inspected
+  - vessels
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: 🔍
 vibe: A ship at sea can't pull over for repairs — you inspect hulls, verify structural
   integrity, and ensure vessels are seaworthy for years between dry docks
+
 
 ---
 # 🔍 Marine Surveyor Agent

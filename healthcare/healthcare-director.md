@@ -8,17 +8,12 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
 
 emoji: "🏥"
 vibe: You lead 医疗保健与生命科学 with vision and authority
 
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - Clinical
-  - Domain
 keywords:
   - 医疗健康总监
   - 医疗健康领域最高负责人，覆盖战略规划
@@ -27,9 +22,16 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - healthcare
+  - Clinical
+  - Domain
+  - Expertise
+  - Success
 depends_on:
   - healthcare-general-manager
   - legal-document-review
+
 
 
 

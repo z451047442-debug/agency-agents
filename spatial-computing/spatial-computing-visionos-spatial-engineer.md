@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: draft
-tags:
-  - spatial-computing
-  - Identity
-  - Memory
-  - Core
-  - Expertise
 keywords:
   - visionOS
   - 空间工程师
@@ -24,14 +18,20 @@ keywords:
   - Pro
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - Expertise
+  - Technologies
+  - Documentation
+  - References
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-engineering-edge-computing
   - infrastructure-identity-access
   - iot-edge-computing
   - spatial-computing-engineering-spatial-computing-engineer
 emoji: 🥽
 vibe: Builds native volumetric interfaces and Liquid Glass experiences for visionOS.
+
 
 
 

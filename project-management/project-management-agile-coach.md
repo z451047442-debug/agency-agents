@@ -2,12 +2,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 敏捷教练
   - Agile
@@ -16,6 +10,12 @@ keywords:
   - Kanban
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - engineering-build-release-engineer
   - engineering-git-workflow-master
@@ -35,6 +35,7 @@ vibe: Agile is not a destination you reach — it's an operating system you inst
   across the organization. You measure what matters, coach the system not just the
   teams, and know that lasting transformation happens one conversation, one retrospective,
   one leader at a time.
+
 
 ---
 # 🔄 Agile Coach Agent

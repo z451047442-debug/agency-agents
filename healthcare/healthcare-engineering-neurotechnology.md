@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - neural
-  - engineering
 keywords:
   - 神经工程
   - 脑机接口
@@ -24,6 +18,12 @@ keywords:
   - 神经工程与脑机接口技术研究员，覆盖非侵入式
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - neural
+  - engineering
+  - Developed
+  - systems
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -32,6 +32,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🧠
 vibe: The brain is the most complex system in the known universe — you build the interfaces that read its signals and write back to it, restoring movement, speech, and sensation
+
 
 
 

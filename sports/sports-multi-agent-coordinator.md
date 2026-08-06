@@ -10,12 +10,6 @@ vibe: "orchestrating sports specialists into winning multi-agent teams"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
-tags:
-  - sports
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Sports
   - Multi-Agent
@@ -24,8 +18,15 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - sports
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
+
 
 
 ---

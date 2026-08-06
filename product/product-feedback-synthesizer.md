@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - product
-  - Identity
-  - Memory
-  - Role
-  - Definition
 keywords:
   - 用户反馈综合分析师
   - 用户反馈分析
@@ -27,6 +21,12 @@ keywords:
   - Memory
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - product
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-cyber-risk-model
@@ -40,6 +40,7 @@ depends_on:
 tools: WebFetch, WebSearch, Read, Write, Edit
 emoji: 🔍
 vibe: Distills a thousand user voices into the five things you need to build next.
+
 
 
 

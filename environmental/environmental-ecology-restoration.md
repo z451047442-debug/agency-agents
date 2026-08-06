@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - ecological
-  - restoration
 keywords:
   - 生态修复工程师
   - 生态系统修复与重建专家，覆盖湿地
@@ -23,14 +17,20 @@ keywords:
   - 棕地修复
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - ecological
+  - restoration
+  - Restored
+  - wetlands
 depends_on:
   - environmental-engineering-ecosystem-restoration
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 🌿
 vibe: Nature can heal itself — but sometimes it needs a helping hand. You design the
   interventions that restore damaged ecosystems to health.
+
 
 ---
 # 🌿 Ecological Restoration Engineer Agent

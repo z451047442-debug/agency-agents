@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 营销数据分析师
   - 营销数据分析与归因专家，覆盖多渠道归因
@@ -15,6 +9,12 @@ keywords:
   - LTV
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-language-model-nlp
   - data-science-engineering-video-analytics
@@ -35,6 +35,7 @@ version: 1.0.0
 vibe: Half the money spent on marketing is wasted — you just don't know which half.
   Until now. You find the waste, double down on what works, and prove marketing's
   ROI to the CFO.
+
 
 ---
 

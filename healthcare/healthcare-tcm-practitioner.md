@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 中医药师
   - 中医诊断
@@ -23,6 +17,12 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -32,6 +32,7 @@ emoji: 🍃
 vibe: 5000 years of empirical medicine — understands patterns of disharmony and restores
   balance with nature's pharmacy.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 ---
 # 中医药师

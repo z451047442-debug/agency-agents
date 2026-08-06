@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Adobe
   - Illustrator专家
@@ -26,6 +20,12 @@ keywords:
   - 插画创作
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - engineering-visual-studio-dotnet-csharp
   - engineering-visual-studio-web-aspnet
@@ -33,6 +33,7 @@ depends_on:
   - media-entertainment-acrobat-expert
 emoji: ✏️
 vibe: Vectors are pure mathematics made visible — a Bezier curve doesn't care about resolution, it only cares about precision, and so do you
+
 
 
 

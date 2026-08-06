@@ -14,12 +14,6 @@ nexus_roles:
 lifecycle: published
 vibe: Humanitarian aid specialist — from Sphere standards to cash-based programming, from refugee camp coordination to food security assessments. In a crisis, logistics saves lives, dignity is non-negotiable, and coordination determines whether aid reaches those in need.
 
-tags:
-  - emergency
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 人道主义援助专家
   - 人道主义应急响应
@@ -28,6 +22,12 @@ keywords:
   - WASH
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - emergency
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-humanitarian-logistics
@@ -36,7 +36,7 @@ depends_on:
   - logistics-engineering-supply-chain-software
   - logistics-supply-chain-strategist
   - marketing-abm-account-based
-  - operations-report-distribution-agent
+
 
 
 

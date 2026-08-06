@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - BI
   - 商业智能工程师
@@ -26,6 +20,12 @@ keywords:
   - Superset
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -36,6 +36,7 @@ depends_on:
 emoji: 📈
 vibe: Turns "I think" into "I know" — replaces gut feelings with dashboards that tell the truth.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
+
 
 
 

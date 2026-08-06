@@ -10,12 +10,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - building
-  - social
 keywords:
   - 社交媒体
   - 内容平台架构师
@@ -24,14 +18,20 @@ keywords:
   - 推荐系统
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - building
+  - social
+  - content
+  - platforms
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-content-creator
-  - operations-report-distribution-agent
 emoji: 📱
 vibe: A billion people scroll feeds you designed — every like, every share, every
   notification flows through systems that must be fast, fair, and safe
+
 
 ---
 # 📱 Social Platform Architect Agent

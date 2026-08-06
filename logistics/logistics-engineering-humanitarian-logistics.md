@@ -2,12 +2,6 @@
 
 color: red
 date_added: '2026-07-03'
-tags:
-  - logistics
-  - Identity
-  - years
-  - humanitarian
-  - Delivered
 keywords:
   - 应急物流
   - 灾害响应供应链专家
@@ -16,12 +10,17 @@ keywords:
   - 最后一公里配送
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - logistics
+  - humanitarian
+  - Delivered
+  - conflict
+  - zones
 depends_on:
   - education-special-needs
   - emergency-disaster-response
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist
-  - operations-report-distribution-agent
 description: 人道主义应急物流与灾害救援供应链专家，覆盖灾害预置库存/紧急采购/最后一公里配送、冷链(疫苗)/危化品(燃料)应急物流、需求评估/物流集群(Logistics
   Cluster)协调与供应链韧性/业务连续性(BCP)
 emoji: 🚁
@@ -33,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Hours after disaster strikes, relief supplies must reach the affected — you
   design the supply chains that deliver life-saving aid when normal logistics collapse
+
 
 ---
 # 🚁 Humanitarian Logistician Agent

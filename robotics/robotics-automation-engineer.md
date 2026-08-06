@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - robotics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 机器人自动化工程师
   - 机器人系统设计与自动化专家，覆盖机械臂
@@ -24,6 +18,12 @@ keywords:
   - 运动规划
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-language-model-nlp
   - manufacturing-production-planner
@@ -33,6 +33,7 @@ depends_on:
   - robotics-motion-control
 emoji: 🤖
 vibe: A robot that works in simulation but fails in production failed where it matters — the physical world is the only test that counts
+
 
 
 

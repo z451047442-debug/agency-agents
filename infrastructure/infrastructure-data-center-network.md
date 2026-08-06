@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - designing
-  - hyperscale
 keywords:
   - 数据中心网络架构师
   - 超大规模数据中心网络设计专家，覆盖Spine-Leaf
@@ -16,6 +10,12 @@ keywords:
   - VXLAN
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - designing
+  - hyperscale
+  - data
+  - center
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The data center network carries the traffic that runs the internet. You design
   the fabric that connects 100,000 servers at terabits per second.
+
 
 
 ---

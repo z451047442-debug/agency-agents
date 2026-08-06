@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - optical
-  - engineering
 keywords:
   - 光学
   - 光子学工程师
@@ -23,13 +17,19 @@ keywords:
   - Code
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - optical
+  - engineering
+  - Designed
+  - systems
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - infrastructure-network-engineering-engineering-optical-fiber-sensing
 emoji: 💡
 vibe: Light carries information, cuts metal, and sees the invisible. You design the lenses, lasers, and detectors that harness photons to do what electrons can't.
+
 
 
 ---

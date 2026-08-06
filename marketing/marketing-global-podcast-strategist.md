@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 全球播客策略师
   - 专注节目定位
@@ -24,11 +18,18 @@ keywords:
   - Core
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - marketing-social-media-strategist
   - design-brand-guardian
 emoji: 🎙️
 vibe: Turns conversations into communities and episodes into growth engines.
+
 
 
 

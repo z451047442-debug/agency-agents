@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 技术顾问
   - 将业务问题转化为地理空间解决方案的战略顾问，覆盖差距分析与技术路线图
@@ -27,6 +21,12 @@ keywords:
   - Memory
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Sample
+  - Agent
+  - Success
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs
@@ -35,11 +35,11 @@ depends_on:
   - finance-engineering-credit-risk-model
   - finance-engineering-risk-quant
   - gis-3d-scene-developer
-  - operations-report-distribution-agent
   - testing-tool-evaluator
   - web3-defi-strategist
 emoji: 🧠
 vibe: The strategist who connects business pain points with geospatial solutions that actually deliver ROI.
+
 
 
 

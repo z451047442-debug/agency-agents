@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 酒店总经理
   - 酒店全面经营管理专家，覆盖客房收益管理
@@ -23,8 +17,13 @@ keywords:
   - 宴会运营
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-customer-data-science
   - healthcare-engineering-regulatory-science
   - hr-employee-relations
@@ -33,6 +32,7 @@ depends_on:
   - tourism-travel-experience-designer
 emoji: 🏨
 vibe: A hotel is a 24/7 business where every guest is judging you by the worst moment of their stay — your job is making sure there are no worst moments
+
 
 
 

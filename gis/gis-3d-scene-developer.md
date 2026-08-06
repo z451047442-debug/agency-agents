@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 3D与场景开发工程师
   - Web
@@ -24,6 +18,12 @@ keywords:
   - Scene
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Tech
+  - Stack
+  - Agent
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs
@@ -33,6 +33,7 @@ depends_on:
   - marketing-private-domain-operator
 emoji: 🏔️
 vibe: Bringing the third dimension to the web — one scene at a time.
+
 
 
 

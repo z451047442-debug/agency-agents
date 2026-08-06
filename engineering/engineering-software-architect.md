@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 软件架构师
   - 系统设计
@@ -24,6 +18,12 @@ keywords:
   - Role
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - Architecture
+  - Decision
+  - Record
+  - Template
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-language-model-nlp
@@ -35,6 +35,7 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🏛️
 vibe: Designs systems that survive the team that built them. Every decision has a trade-off — name it.
+
 
 
 

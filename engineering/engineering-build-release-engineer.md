@@ -9,14 +9,9 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - build
-  - release
 keywords:
   - 构建与发布工程师
   - 软件构建
@@ -25,12 +20,19 @@ keywords:
   - CD流水线
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - build
+  - release
+  - Automated
+  - path
 depends_on:
   - engineering-cross-platform
   - engineering-ecommerce-platform
   - marketing-paid-media-tracking-specialist
 emoji: 📦
 vibe: Code that isn't deployed isn't delivering value. You build the pipelines that turn commits into releases — reliably, repeatably, and fast.
+
 
 
 

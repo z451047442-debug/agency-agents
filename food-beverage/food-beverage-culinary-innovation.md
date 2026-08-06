@@ -18,12 +18,18 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - Professional
+  - Scope
+  - Safeguards
+  - Authoritative
 depends_on:
   - food-beverage-beverage-rd
   - quality-food-safety
 description: 餐饮连锁与中央厨房产品研发专家，覆盖菜品标准化、预制菜、酱料工业化
 category: food-beverage
-tags: [culinary, R&D, central-kitchen, recipe-standardization, prepared-food]
+
 
 
 

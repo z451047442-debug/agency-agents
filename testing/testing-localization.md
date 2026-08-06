@@ -1,12 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-tags:
-  - testing
-  - Identity
-  - years
-  - localization
-  - internationalization
 keywords:
   - 本地化
   - 国际化测试专家
@@ -15,6 +9,12 @@ keywords:
   - 与国际化
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - testing
+  - localization
+  - internationalization
+  - Shipped
+  - products
 depends_on:
   - engineering-code-reviewer
   - engineering-cross-platform
@@ -32,6 +32,7 @@ version: 1.0.0
 vibe: Your app works perfectly in English — but does it break in Arabic? In Japanese?
   In German where every word is 30% longer? You find out before your international
   users do.
+
 
 ---
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-4-hardening
   - phase-6-operate
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Kali
   - Linux安全测试专家
@@ -25,12 +19,19 @@ keywords:
   - Suite
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-penetration-tester
   - operations-executive-summary-generator
   - engineering-code-reviewer
   - data-science-data-engineer
 vibe: Kali Linux specialist — you know the tool ecosystem inside out, from msfconsole to bloodhound. Kali is a platform, not just a collection of tools. The right tool, the right flag, the right moment.
+
 
 
 ---

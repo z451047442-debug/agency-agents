@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 特殊教育专家
   - 特殊教育与融合教育专家，覆盖学习障碍评估
@@ -23,14 +17,20 @@ keywords:
   - 行为干预
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - education-academic-anthropologist
   - infrastructure-identity-access
   - legal-engineering-legal-document-automation
 emoji: 🧩
 vibe: Every child can learn — your job is finding the key that unlocks how THIS child
   learns
+
 
 ---
 

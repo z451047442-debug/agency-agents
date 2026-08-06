@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - designing
-  - data
 keywords:
   - 数据中心电气
   - 暖通设计工程师
@@ -26,14 +20,20 @@ keywords:
   - 暖通
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - designing
+  - data
+  - center
+  - Designed
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - marketing-demand-generation
-  - operations-report-distribution-agent
   - testing-engineering-reliability-testing
 emoji: 🏭
 vibe: Data centers are the factories of the digital age — you design the power and cooling that keep the cloud running at 99.995% availability
+
 
 
 

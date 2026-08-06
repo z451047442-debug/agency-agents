@@ -10,12 +10,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Microsoft
   - Project
@@ -24,6 +18,12 @@ keywords:
   - PPM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - infrastructure-microsoft365
   - infrastructure-office-365-expert
@@ -32,6 +32,7 @@ depends_on:
   - media-entertainment-after-effects-expert
 emoji: 📊
 vibe: Every delayed project has a Gantt chart that showed the warning signs three weeks ago — you know how to read it, and more importantly, how to fix it before the steering committee notices
+
 
 
 

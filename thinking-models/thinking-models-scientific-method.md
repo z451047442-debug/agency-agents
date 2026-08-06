@@ -12,12 +12,6 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Scientific thinking specialist — from Popper's falsification to Feynman's learning technique, from Darwin's evolution to Boyd's OODA loop. Science is not a body of knowledge; it's a method for distinguishing truth from error.
 
-tags:
-  - thinking-models
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 科学思维方法论专家
   - 费曼学习法
@@ -26,11 +20,18 @@ keywords:
   - 达尔文演化思维
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - thinking-models
+  - Tools
+  - Methodologies
+  - Success
+  - Metrics
 depends_on:
   - education-higher-ed-teaching
   - education-stem-engineering-teaching
   - education-vocational-trade-teaching
   - testing-engineering-test-automation-framework
+
 
 
 ---

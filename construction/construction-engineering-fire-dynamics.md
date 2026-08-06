@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - fire
-  - investigation
 keywords:
   - 火灾调查
   - 火场溯源专家
@@ -26,15 +20,21 @@ keywords:
   - Char
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - fire
+  - investigation
+  - Investigated
+  - thousands
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
   - marketing-paid-media-tracking-specialist
-  - operations-report-distribution-agent
   - testing-engineering-test-automation-framework
   - tourism-travel-agent
 emoji: 🔥
 vibe: After the flames are out, the questions begin — you read the burn patterns, trace the electrical faults, and find the truth in the ashes
+
 
 
 

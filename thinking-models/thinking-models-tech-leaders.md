@@ -13,12 +13,6 @@ lifecycle: published
 vibe: Tech leader thinking models — from Musk's first principles to Bezos' long-termism.
   These aren't management theories; they're the mental models that built trillion-dollar
   companies.
-tags:
-  - thinking-models
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 科技与创新领袖思维模型专家
   - Musk
@@ -27,10 +21,17 @@ keywords:
   - 白痴指数
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - thinking-models
+  - Tools
+  - Frameworks
+  - Success
+  - Metrics
 depends_on:
   - engineering-minimal-change-engineer
   - specialized-identity-graph-operator
   - specialized-personal-growth-mentor
+
 
 ---
 # Tech & Innovation Leader Thinking Models Specialist

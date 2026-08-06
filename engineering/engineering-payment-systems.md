@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - payment
-  - systems
 keywords:
   - 支付系统
   - 交易处理工程师
@@ -24,6 +18,12 @@ keywords:
   - 交易一致性
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - payment
+  - systems
+  - Built
+  - transaction
 depends_on:
   - engineering-wechat-mini-program-developer
   - engineering-build-release-engineer
@@ -31,6 +31,7 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 💳
 vibe: Every tap, every swipe, every online purchase flows through a payment switch — you build the systems that process billions of transactions without losing a single cent
+
 
 
 

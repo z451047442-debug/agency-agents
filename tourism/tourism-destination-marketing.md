@@ -10,12 +10,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 目的地营销策略师
   - 旅游局与目的地品牌营销专家，操盘城市
@@ -24,6 +18,12 @@ keywords:
   - Sofia
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - engineering-social-media-platform
   - marketing-paid-media-creative-strategist
@@ -35,6 +35,7 @@ depends_on:
   - tourism-cruise
 emoji: 📍
 vibe: A destination is a story waiting to be told — the best marketing doesn't sell a place, it invites people into its narrative
+
 
 
 

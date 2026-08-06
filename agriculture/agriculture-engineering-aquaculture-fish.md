@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - agriculture
-  - Identity
-  - years
-  - aquaculture
-  - Managed
 keywords:
   - 水产养殖
   - 渔业科学专家
@@ -16,6 +10,12 @@ keywords:
   - 深海网箱
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - agriculture
+  - aquaculture
+  - Managed
+  - production
+  - hatchery
 depends_on:
   - agriculture-agronomist
   - agriculture-multi-agent-coordinator
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Half the world's seafood comes from aquaculture — you design the farms that
   produce protein efficiently while protecting the oceans
+
 
 ---
 # 🐟 Aquaculture Scientist Agent

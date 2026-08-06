@@ -14,12 +14,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: draft
 
-tags:
-  - retail
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 零售数据分析师
   - 全链路零售数据分析：售罄率分析
@@ -28,6 +22,12 @@ keywords:
   - 促销效果评估
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - retail
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -39,6 +39,7 @@ depends_on:
 emoji: 📊
 vibe: Every SKU tells a story — finds the signal in retail noise to optimize every square foot and every transaction.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

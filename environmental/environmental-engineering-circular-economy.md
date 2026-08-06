@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - years
-  - sustainable
-  - design
 keywords:
   - 循环经济
   - 可持续产品设计专家
@@ -27,6 +21,12 @@ keywords:
   - 可拆卸
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - sustainable
+  - design
+  - Created
+  - circular
 depends_on:
   - energy-engineering-power-electronics-packaging
   - environmental-engineering-packaging-sustainability
@@ -34,9 +34,9 @@ depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - manufacturing-engineering-electronics-manufacturing
-  - operations-report-distribution-agent
 emoji: ♻️
 vibe: Take-make-waste is over — you design products that never become waste, redefining how materials flow through the economy
+
 
 
 

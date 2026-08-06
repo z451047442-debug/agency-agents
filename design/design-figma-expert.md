@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
 lifecycle: published
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Figma设计系统专家
   - Figma设计系统与协作平台专家
@@ -27,6 +21,12 @@ keywords:
   - Token
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - Actionable
+  - Directives
+  - References
+  - Standards
 depends_on:
   - design-engineering-accessibility-engineer
   - government-smart-city
@@ -35,9 +35,9 @@ depends_on:
   - logistics-public-transit
   - marketing-brand-strategist-name
   - marketing-field-marketing
-  - operations-report-distribution-agent
 emoji: 🎨
 vibe: "Figma made design collaborative. When the entire team works in the same file, the design system is truth, and devs inspect instead of asking for redlines, you've moved from handoff to partnership."
+
 
 
 

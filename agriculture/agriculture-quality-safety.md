@@ -1,12 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-tags:
-  - agriculture
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 农产品质量安全专家
   - 农产品质量安全与合规专家，覆盖GAP认证
@@ -15,6 +9,12 @@ keywords:
   - HACCP
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - agriculture
+  - Technical
+  - Process
+  - Learning
+  - Methodology
 depends_on:
   - agriculture-agronomist
   - cybersecurity-incident-response
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every bite carries trust — you make sure that trust is earned through science,
   systems, and relentless verification
+
 
 ---
 

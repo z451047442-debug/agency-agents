@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - across
-  - frontend
 keywords:
   - 全栈开发工程师
   - 全栈Web开发专家，覆盖React
@@ -23,12 +17,19 @@ keywords:
   - Python
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - across
+  - frontend
+  - backend
+  - Built
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-paid-media-tracking-specialist
 emoji: 🏗️
 vibe: Frontend, backend, database, deployment — you build features end to end, understanding the full stack without being a master of none
+
 
 
 

@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - semiconductor
-  - plasma
 keywords:
   - 等离子体
   - 半导体工艺刻蚀工程师
@@ -23,11 +17,18 @@ keywords:
   - RIE等离子体刻蚀
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - semiconductor
+  - plasma
+  - processing
+  - Developed
 depends_on:
   - manufacturing-engineering-semiconductor-process
   - marketing-paid-media-tracking-specialist
 emoji: ⚡
 vibe: Plasma etches features 10,000x thinner than a human hair — you control the ions, radicals, and electrons that sculpt the transistors inside every chip
+
 
 
 

@@ -2,12 +2,6 @@
 
 color: '#475569'
 date_added: '2026-07-19'
-tags:
-  - operations
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Operations
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - operations
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for business operations
@@ -27,6 +27,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating operations specialists into coherent multi-agent workflows
+
 
 ---
 # Operations Multi-Agent Coordinator

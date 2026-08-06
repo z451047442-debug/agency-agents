@@ -9,12 +9,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - TP-Link网络专家
   - TP-Link企业网络设备专家，覆盖JetStream交换机
@@ -23,15 +17,21 @@ keywords:
   - 商用路由器与WiFi
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Platforms
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-identity-access
-  - operations-report-distribution-agent
 emoji: 🟢
 vibe: TP-Link isn't just home routers anymore — JetStream switches and Omada SDN bring
   enterprise features to SMB budgets, and you know how to make them sing
+
 
 ---
 

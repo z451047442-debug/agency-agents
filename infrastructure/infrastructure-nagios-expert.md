@@ -9,12 +9,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Nagios监控专家
   - Nagios
@@ -23,6 +17,12 @@ keywords:
   - NSCA
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-multi-agent-coordinator
@@ -38,6 +38,7 @@ emoji: 📡
 vibe: It's been monitoring production since before Kubernetes existed. When your fancy
   observability stack goes down, Nagios is still there — blinking red, as reliable
   as the day it was installed in 2008.
+
 
 ---
 

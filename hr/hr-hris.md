@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
 lifecycle: published
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - HRIS
   - 人力资源信息系统专家
@@ -24,6 +18,12 @@ keywords:
   - SuccessFactors
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - education-special-needs
@@ -33,6 +33,7 @@ depends_on:
   - marketing-abm-account-based
 emoji: 💻
 vibe: Payroll runs on time, benefits enroll without error, and the org chart reflects reality — because you designed the system that makes it all work
+
 
 
 

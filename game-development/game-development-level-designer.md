@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 关卡设计师
   - 布局理论
@@ -25,6 +19,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Intent
+  - Layout
+  - Specification
 depends_on:
   - design-visual-storyteller
   - game-development-game-audio-engineer
@@ -33,6 +33,7 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🗺️
 vibe: Treats every level as an authored experience where space tells the story.
+
 
 
 

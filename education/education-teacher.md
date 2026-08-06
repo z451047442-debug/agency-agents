@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 教育专家
   - 学科教学法
@@ -25,6 +19,12 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
@@ -33,6 +33,7 @@ depends_on:
 emoji: 📚
 vibe: Designs learning experiences that actually change how people think, not just what they memorize.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

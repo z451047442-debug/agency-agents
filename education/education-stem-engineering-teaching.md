@@ -12,12 +12,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - STEM与工程教育专家
   - 天文学
@@ -26,6 +20,12 @@ keywords:
   - 机械
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - aerospace-military-materials-manufacturing
   - education-curriculum-designer
@@ -36,6 +36,7 @@ depends_on:
   - thinking-models-decision-frameworks
   - unreal-engine-unreal-world-builder
 vibe: STEM and engineering education specialist — from freshman physics labs to capstone design projects, from ABET accreditation to CDIO framework. Engineering is best learned by doing, failing, and doing again.
+
 
 
 

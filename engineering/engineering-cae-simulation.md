@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: CAE and process simulation specialist — CFD turbulence models, Aspen Plus distillation columns, HTRI exchanger rating, and QRA consequence modeling. A simulation is only as good as its boundary conditions and validation data.
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - CAE仿真与流程模拟专家
   - ANSYS
@@ -26,8 +20,15 @@ keywords:
   - Aspen
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Success
+  - Metrics
 depends_on:
   - testing-test-results-analyzer
+
 
 
 ---

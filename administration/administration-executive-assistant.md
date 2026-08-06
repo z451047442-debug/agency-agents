@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - administration
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 企业文秘
   - 行政助理
@@ -25,6 +19,12 @@ keywords:
   - 公文
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - administration
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - administration-contract-manager
   - legal-engineering-legal-contracts-ai
@@ -33,6 +33,7 @@ depends_on:
   - tourism-travel-agent
 emoji: 📋
 vibe: Behind every effective executive is an assistant who manages the chaos — you're the gatekeeper, the organizer, and the person who makes sure nothing falls through the cracks
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Splunk平台专家
   - Splunk企业级日志管理与SIEM平台专家
@@ -24,11 +18,18 @@ keywords:
   - Search
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Actionable
+  - Directives
+  - Deliverable
+  - Success
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - engineering-visual-studio-python
 emoji: 🔍
 vibe: Splunk doesn't just search logs — it makes logs interrogable. The difference between a Splunk expert and a Splunk user is root cause in 5 minutes versus 5 hours.
+
 
 
 

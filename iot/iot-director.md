@@ -2,12 +2,6 @@
 
 color: navy
 date_added: '2026-07-03'
-tags:
-  - iot
-  - Identity
-  - years
-  - leading
-  - product
 keywords:
   - IoT事业部总监
   - 物联网
@@ -16,6 +10,12 @@ keywords:
   - 平台策略
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - iot
+  - leading
+  - product
+  - business
+  - units
 depends_on:
   - automotive-supply-chain
   - iot-multi-agent-coordinator
@@ -31,10 +31,12 @@ name: IoT事业部总监
 nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: IoT promises to connect everything — you're the one who makes the business case,
   builds the product, and delivers the value when "connected" doesn't automatically
   mean "useful."
+
 
 ---
 # 📡 IoT Director Agent

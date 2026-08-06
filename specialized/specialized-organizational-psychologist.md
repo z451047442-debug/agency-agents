@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
 lifecycle: published
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Communication
-  - Style
 keywords:
   - 组织心理学家
   - 诊断团队动力
@@ -27,6 +21,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Competencies
+  - Psychological
+  - Safety
+  - Framework
 depends_on:
   - gis-drone-reality-mapping
   - manufacturing-engineering-material-scientist
@@ -35,6 +35,7 @@ depends_on:
   - marketing-paid-media-search-query-analyst
   - specialized-agentic-identity-trust
 vibe: Treats team dysfunction like a clinician reads symptoms — grounds every diagnosis and intervention in peer-reviewed evidence, names the invisible pattern leaders can't see, and never mistakes pop psychology for the real thing.
+
 
 
 

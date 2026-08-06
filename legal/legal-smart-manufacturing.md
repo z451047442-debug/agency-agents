@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 智能制造与工业互联网法律顾问
   - 智能制造
@@ -26,8 +20,13 @@ keywords:
   - AI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - education-special-needs
   - legal-engineering-legal-contracts-ai
   - legal-engineering-legal-document-automation
@@ -35,6 +34,7 @@ depends_on:
   - marketing-cross-border-ecommerce
 emoji: 🏭
 vibe: When a robot makes a defective product, who's liable — the manufacturer, the software vendor, or the factory operator? You answer questions the law hasn't fully settled yet.
+
 
 
 

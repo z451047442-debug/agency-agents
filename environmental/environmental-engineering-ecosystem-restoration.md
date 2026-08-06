@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - forestry
-  - carbon
 keywords:
   - 森林生态
   - 碳汇林业专家
@@ -26,6 +20,12 @@ keywords:
   - LiDAR
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - forestry
+  - carbon
+  - Developed
+  - forest
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model
@@ -33,9 +33,9 @@ depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-supply-chain-risk
-  - operations-report-distribution-agent
 emoji: 🌲
 vibe: A trillion trees can capture a century of emissions — you design the forest carbon projects that turn photosynthesis into verified carbon credits
+
 
 
 

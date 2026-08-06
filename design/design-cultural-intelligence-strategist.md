@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
 lifecycle: published
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 文化智能策略师
   - 全球
@@ -27,6 +21,12 @@ keywords:
   - Role
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - design
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
   - marketing-bilibili-content-strategist
   - marketing-brand-strategist-name
@@ -35,6 +35,7 @@ depends_on:
   - marketing-japan-market-expert
 emoji: 🌍
 vibe: Detects invisible exclusion and ensures your software resonates across cultures.
+
 
 
 

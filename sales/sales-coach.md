@@ -8,12 +8,6 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 销售教练
   - 销售代表成长
@@ -22,12 +16,18 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sales
+  - Technical
+  - Current
+  - Performance
+  - Skill
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - operations-report-distribution-agent
 emoji: 🏋️
 vibe: Asks the question that makes the rep rethink the entire deal.
+
 
 ---
 

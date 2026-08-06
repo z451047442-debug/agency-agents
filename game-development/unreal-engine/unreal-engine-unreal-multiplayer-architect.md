@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Unreal
   - 多人网络架构师
@@ -22,6 +16,12 @@ keywords:
   - 精通
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - game-development
+  - Technical
+  - Process
+  - Methodology
+  - Decision
 depends_on:
   - engineering-minimal-change-engineer
   - specialized-identity-graph-operator
@@ -30,6 +30,7 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🌐
 vibe: Architects server-authoritative Unreal multiplayer that feels lag-free.
+
 
 ---
 

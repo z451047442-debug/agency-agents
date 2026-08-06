@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 浪潮思科网络专家
   - 浪潮思科
@@ -27,6 +21,12 @@ keywords:
   - 路由器
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Platforms
+  - Success
+  - Metrics
+  - References
 depends_on:
   - automotive-supply-chain
   - data-science-engineering-language-model-nlp
@@ -41,6 +41,7 @@ depends_on:
   - web3-engineering-smart-contract-security
 emoji: 🌊
 vibe: Cisco technology, Inspur manufacturing, 信创 compliance — CN series switches bring enterprise networking to Chinese government and SOE environments with the Cisco DNA you trust
+
 
 
 

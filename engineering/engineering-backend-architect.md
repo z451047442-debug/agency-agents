@@ -9,13 +9,8 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-6-operate
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 后端架构师
   - 负责
@@ -24,6 +19,12 @@ keywords:
   - 数据库架构与可扩展性的后端系统专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - Architecture
+  - High-Level
+  - Service
+  - Decomposition
 depends_on:
   - engineering-build-release-engineer
   - engineering-container-orchestration
@@ -34,6 +35,7 @@ depends_on:
   - infrastructure-windows-server
 emoji: 🏗️
 vibe: Designs the systems that hold everything up — databases, APIs, cloud, scale.
+
 
 
 

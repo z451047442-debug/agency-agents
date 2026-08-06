@@ -11,12 +11,6 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: CCUS specialist — from amine scrubbing to direct air capture, from saline aquifer injection to CO2 mineralization. Capturing carbon at gigaton scale is an engineering challenge comparable to the Industrial Revolution.
 
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 碳捕获利用与封存
   - CCUS
@@ -25,10 +19,17 @@ keywords:
   - 燃烧后
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - home-lifestyle-personal-finance
   - mining-mineral-economics
   - specialized-agentic-identity-trust
+
 
 
 ---

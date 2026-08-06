@@ -2,12 +2,6 @@
 
 color: amber
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - years
-  - digital
-  - analytics
 keywords:
   - Web
   - 数字分析实施工程师
@@ -16,6 +10,12 @@ keywords:
   - GTM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - digital
+  - analytics
+  - implementation
+  - Tagged
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -36,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: If you can't measure it, you can't improve it. You instrument the digital experience
   so every click, scroll, and conversion tells a story.
+
 
 ---
 # 📊 Digital Analytics Engineer Agent

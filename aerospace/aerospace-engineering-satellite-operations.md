@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Aviation
-  - Domain
 keywords:
   - 卫星运营
   - 地面站
@@ -23,6 +17,12 @@ keywords:
   - MEO
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Aviation
+  - Domain
+  - Knowledge
+  - Tools
 depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
@@ -30,6 +30,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🛰️
 vibe: A constellation of satellites orbiting Earth needs someone to fly them — you command the spacecraft, manage the ground stations, and keep the data flowing 24/7
+
+
 
 
 ---

@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 给排水工程师
   - 建筑给排水系统设计与施工专家，覆盖生活给水
@@ -23,6 +17,12 @@ keywords:
   - 雨水
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-fire-protection
   - energy-engineering-energy-storage-materials-sci
@@ -30,6 +30,7 @@ depends_on:
 emoji: 💧
 vibe: Water comes in clean, leaves dirty, and never floods the building — that's the
   brief. You make it happen through gravity, pressure, and careful slope calculations.
+
 
 ---
 # 💧 Plumbing & Drainage Engineer Agent

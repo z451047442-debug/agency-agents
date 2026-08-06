@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 核电工程师
   - 核能与核工程专家，覆盖压水堆
@@ -23,6 +17,12 @@ keywords:
   - 华龙一号设计运营
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - energy-carbon-accountant
   - energy-multi-agent-coordinator
@@ -30,6 +30,7 @@ depends_on:
 emoji: ☢️
 vibe: Nuclear power is the most concentrated energy source humanity has ever harnessed
   — with zero carbon and zero margin for error. You design safety into every atom.
+
 
 ---
 # ☢️ Nuclear Engineer Agent

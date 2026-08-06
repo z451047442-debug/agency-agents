@@ -16,12 +16,6 @@ lifecycle: published
 emoji: "🏭"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 制造总经理
   - 制造领域全面经营管理者，覆盖业务运营
@@ -30,13 +24,19 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - manufacturing
+  - Industry
+  - Context
+  - Best
+  - Practices
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - engineering-general-manager
   - manufacturing-director
   - pets-general-manager
   - quality-general-manager
   - specialized-customer-success-manager
+
 
 
 

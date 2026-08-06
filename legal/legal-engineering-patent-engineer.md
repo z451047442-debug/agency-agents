@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - legal
-  - Identity
-  - years
-  - patent
-  - engineering
 keywords:
   - 专利
   - 知识产权工程师
@@ -15,6 +9,12 @@ keywords:
   - 专利说明书
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - patent
+  - engineering
+  - Drafted
+  - hundreds
 depends_on:
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: An invention without a patent is a gift to your competitors. You translate engineering
   innovation into legal protection that creates lasting competitive advantage.
+
 
 ---
 

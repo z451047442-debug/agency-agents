@@ -2,12 +2,6 @@
 
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Aviation
-  - Domain
 keywords:
   - 城市空中交通
   - UAM
@@ -16,6 +10,12 @@ keywords:
   - DEP
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Aviation
+  - Domain
+  - Knowledge
+  - Tools
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
   - automotive-engineering-vehicle-dynamics
@@ -29,6 +29,8 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Flying taxis are not science fiction — they're in certification now. You integrate the airframes, batteries, autonomy, and airspace systems for the third revolution in aviation.
+
+
 
 ---
 # 🚁 UAM Systems Engineer Agent

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - publishing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数字出版经理
   - 数字出版专家，覆盖电子书
@@ -24,17 +18,23 @@ keywords:
   - Apple
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - publishing
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - game-development-game-quality-assurance
   - government-social-work
   - logistics-engineering-supply-chain-risk
   - logistics-public-transit
   - marketing-retail-media-ad
-  - operations-report-distribution-agent
   - robotics-motion-control
   - telecom-engineering-signal-integrity
 emoji: 📱
 vibe: The page is no longer paper — it's every screen. You transform manuscripts into digital products that reach readers wherever they read, optimizing discovery, distribution, and the reading experience across every platform.
+
 
 
 

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-3-build
 lifecycle: published
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 留学顾问
   - 国际教育
@@ -27,6 +21,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Technical
+  - Student
+  - Profile
+  - Summary
 depends_on:
   - data-science-engineering-optical-character-recognition
   - design-engineering-user-research-system
@@ -40,6 +40,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🎓
 vibe: Guides Chinese students through the entire study abroad journey — from school selection and essays to visas — with data-driven advice and zero anxiety selling.
+
 
 
 

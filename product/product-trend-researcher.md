@@ -8,12 +8,6 @@ nexus_roles:
 - phase-0-discovery
 - phase-4-hardening
 lifecycle: published
-tags:
-  - product
-  - Deliverables
-  - Identity
-  - Memory
-  - Role
 keywords:
   - 市场趋势研究员
   - 市场情报
@@ -22,6 +16,12 @@ keywords:
   - Memory
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - product
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - data-science-engineering-deep-learning-training
   - education-academic-research-scientist
@@ -36,6 +36,7 @@ depends_on:
 tools: WebFetch, WebSearch, Read, Write, Edit
 emoji: 🔭
 vibe: Spots emerging trends before they hit the mainstream.
+
 
 ---
 

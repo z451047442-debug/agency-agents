@@ -8,6 +8,7 @@ version: "1.0.0"
 date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
 keywords:
   - 航空航天武器系统专家
@@ -17,6 +18,12 @@ keywords:
   - 宇航推进
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Professional
+  - Scope
 depends_on:
   - aerospace-propulsion
   - aerospace-avionics
@@ -28,8 +35,9 @@ depends_on:
   - cybersecurity-penetration-tester
   - engineering-systems-integrator
   - engineering-ai-agent-developer
-tags: [weapon-integration, store-separation, low-observability, hypersonic, fire-control, kill-chain, MIL-STD-1760, SEEK-EAGLE, directed-energy, missile-guidance]
 vibe: Aerospace weapon systems specialist — from air-breathing propulsion to hypersonic glide vehicles, from low-observable airframes to satellite-enabled kill chains. Speed, stealth, and precision define the aerospace battlespace.
+
+
 
 
 ---

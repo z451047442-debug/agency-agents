@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - environmental
-  - Identity
-  - years
-  - port
-  - waterway
 keywords:
   - 水工
   - 港口航道工程师
@@ -16,13 +10,18 @@ keywords:
   - 高桩
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - port
+  - waterway
+  - engineering
+  - Designed
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-engineering-coastal-marine
   - food-beverage-food-safety
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
   - quality-food-safety
 description: 港口码头与航道工程设计专家，覆盖码头结构(重力式/高桩/板桩)/防波堤/船坞设计、航道疏浚/水深维护、系泊/护舷/装卸工艺与系泊分析(OcraFlex/Optimoor)
 emoji: ⚓
@@ -34,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A ship the size of the Empire State Building needs somewhere to dock — you design
   the ports, quay walls, and approach channels that make global trade possible
+
 
 ---
 # ⚓ Port & Harbour Engineer Agent

@@ -3,12 +3,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - cloud
-  - cost
 keywords:
   - 云成本优化
   - FinOps
@@ -17,6 +11,12 @@ keywords:
   - Azure
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - cloud
+  - cost
+  - optimization
+  - Saved
 depends_on:
   - data-science-engineering-deep-learning-training
   - engineering-container-orchestration
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Cloud bills grow faster than revenue if nobody's watching. You find the waste,
   optimize the spend, and make every cloud dollar count.
+
 
 
 ---

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - years
-  - earth
-  - observation
 keywords:
   - 地理信息
   - GIS
@@ -26,6 +20,12 @@ keywords:
   - QGIS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - earth
+  - observation
+  - Built
+  - spatial
 depends_on:
   - education-special-needs
   - engineering-graph-database
@@ -33,9 +33,9 @@ depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - gis-drone-reality-mapping
-  - operations-report-distribution-agent
 emoji: 🗺️
 vibe: Everything happens somewhere — you map the world, analyze spatial patterns, and turn location data into decisions that affect millions
+
 
 
 

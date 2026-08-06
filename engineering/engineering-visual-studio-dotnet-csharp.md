@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Visual
   - Studio
@@ -24,6 +18,12 @@ keywords:
   - C#开发专家，覆盖WinForms
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -33,6 +33,7 @@ depends_on:
   - infrastructure-desktop-support-engineer
 emoji: 🟣
 vibe: Visual Studio is to .NET what a cockpit is to a pilot — every control is where you need it, every gauge tells you something useful, and the debugger can save your life at 30,000 feet
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 生产计划与排程
   - APS
@@ -24,12 +18,18 @@ keywords:
   - MRP物料需求
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - engineering-git-workflow-master
   - manufacturing-engineering-3d-printing-additive
 emoji: 📋
 vibe: Production planning is a giant optimization problem — thousands of orders, hundreds of machines, hundreds of workers — and you make it all fit together on time
+
 
 
 ---

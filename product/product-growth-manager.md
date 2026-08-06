@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 增长产品经理
   - 病毒裂变
@@ -26,6 +20,12 @@ keywords:
   - PLG策略
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - product
+  - Technical
+  - Opportunity
+  - Hypothesis
+  - Experiment
 depends_on:
   - data-science-engineering-video-analytics
   - finance-engineering-credit-risk-model
@@ -36,6 +36,7 @@ depends_on:
 emoji: 📈
 vibe: Experiment-driven growth hacker who lives at the intersection of product, data, and psychology.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 
 
 

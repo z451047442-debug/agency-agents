@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - additive
-  - Qualified
 keywords:
   - 增材制造
   - 3D打印工程师
@@ -25,6 +19,12 @@ keywords:
   - FDM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - additive
+  - Qualified
+  - 3D-printed
+  - parts
 depends_on:
   - automotive-supply-chain
   - food-beverage-food-supply-chain
@@ -36,6 +36,7 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🖨️
 vibe: Manufacturing without molds, without tooling, without limits on geometry — you build parts layer by layer, turning digital designs into physical reality
+
 
 
 

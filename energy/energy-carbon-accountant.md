@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 碳核算专家
   - 碳核算与碳资产管理：GHG盘查
@@ -26,15 +20,21 @@ keywords:
   - CCER开发
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - Success
+  - Metrics
+  - Tools
+  - Technologies
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - energy-carbon-market
   - infrastructure-identity-access
   - marketing-abm-account-based
 emoji: 🌍
 vibe: You can't manage what you don't measure — and carbon is the currency of the next industrial revolution.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

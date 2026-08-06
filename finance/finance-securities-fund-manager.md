@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 基金经理
   - 组合管理人专家，覆盖投资哲学与流程设计
@@ -15,6 +9,12 @@ keywords:
   - 自下而上证券选择
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - finance
+  - Skills
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - construction-engineering-bridge-structural
   - finance-securities-multi-agent-coordinator
@@ -33,6 +33,7 @@ version: 1.0.0
 vibe: Investing is not beating others at their game — it's controlling yourself at
   your own game. Discipline, process, and temperament compound faster than any asset
   class
+
 
 ---
 

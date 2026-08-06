@@ -10,12 +10,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - data-science
-  - Identity
-  - years
-  - Built
-  - LLM-powered
 keywords:
   - NLP
   - 大语言模型应用工程师
@@ -24,6 +18,12 @@ keywords:
   - Agent框架
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Built
+  - LLM-powered
+  - products
+  - serving
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -32,6 +32,7 @@ depends_on:
 emoji: 🧠
 vibe: Language AI that understands and generates human language — you build apps powered
   by LLMs
+
 
 ---
 

@@ -1,12 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-tags:
-  - education
-  - Identity
-  - years
-  - educational
-  - technology
 keywords:
   - 教育技术
   - EdTech专家
@@ -15,8 +9,13 @@ keywords:
   - Moodle
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - educational
+  - technology
+  - Implemented
+  - created
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - education-multi-agent-coordinator
   - finance-engineering-credit-risk-model
@@ -33,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Technology doesn't replace teachers — it amplifies them. You design the digital
   tools and platforms that make learning more engaging, accessible, and effective.
+
 
 ---
 

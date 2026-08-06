@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 欧洲市场专家
   - 欧洲市场营销与合规专家，覆盖GDPR
@@ -23,10 +17,15 @@ keywords:
   - 本地支付
 complexity: low
 estimated_duration: 1-2h
-depends_on:
-  - cybersecurity-engineering-customer-identity-access
+tags:
+  - marketing
+  - Market
+  - Clusters
+  - Success
+  - Metrics
 emoji: 🇪🇺
 vibe: Europe is 27 countries pretending to be one market — each with its own language, payment preferences, consumer behavior, and privacy regulator. You navigate the complexity.
+
 
 
 

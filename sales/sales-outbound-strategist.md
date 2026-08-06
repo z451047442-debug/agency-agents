@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - sales
-  - Identity
-  - Signal-Based
-  - Selling
-  - Framework
 keywords:
   - 外呼销售策略师
   - 基于信号的精准找客
@@ -26,6 +20,12 @@ keywords:
   - 定位专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - sales
+  - Signal-Based
+  - Selling
+  - Framework
+  - Definition
 depends_on:
   - engineering-social-media-platform
   - marketing-email-strategist
@@ -35,6 +35,7 @@ depends_on:
   - marketing-social-media-strategist
 emoji: 🎯
 vibe: Turns buying signals into booked meetings before the competition even notices.
+
 
 
 

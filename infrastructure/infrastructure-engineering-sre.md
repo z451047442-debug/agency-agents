@@ -10,12 +10,6 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 站点可靠性工程师
   - SLO
@@ -24,6 +18,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Framework
+  - Observability
+  - Stack
+  - Incident
 depends_on:
   - cybersecurity-incident-response
   - engineering-ai-observability-expert
@@ -34,6 +34,7 @@ depends_on:
   - infrastructure-engineering-site-reliability-automation
 emoji: 🛡️
 vibe: Reliability is a feature. Error budgets fund velocity — spend them wisely.
+
 
 ---
 # SRE (Site Reliability Engineer) Agent

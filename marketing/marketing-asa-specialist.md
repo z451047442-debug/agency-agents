@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Core
-  - Mission
-  - Critical
 keywords:
   - ASA优化师
   - Apple
@@ -24,11 +18,18 @@ keywords:
   - 覆盖ASA基础
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Deliverable
+  - Auditor
+  - Wang
+  - Pingguo
 depends_on:
   - data-science-feature-store
   - logistics-last-mile-delivery
 emoji: 🍎
 vibe: The App Store search bar is the most expensive real estate on iOS. ASA turns it from a cost center into a precision acquisition machine — when you know exactly which keywords your users search before they download.
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Unreal
   - 技术美术
@@ -25,6 +19,12 @@ keywords:
   - 精通
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Material
+  - Review
+  - Name
 depends_on:
   - engineering-git-workflow-master
   - game-development-game-audio-engineer
@@ -36,6 +36,7 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🎨
 vibe: Bridges Niagara VFX, Material Editor, and PCG into polished UE5 visuals.
+
 
 
 

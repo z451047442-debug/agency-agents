@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Fortinet安全专家
   - Fortinet安全产品与网络防护专家
@@ -23,13 +17,19 @@ keywords:
   - FortiManager
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - Actionable
+  - Directives
+  - References
+  - Standards
 depends_on:
-  - operations-report-distribution-agent
   - testing-test-results-analyzer
   - engineering-code-reviewer
   - data-science-data-engineer
 emoji: 🛡️
 vibe: When the CISO asks whether the firewall rules are airtight, the Fortinet engineer is either the hero or the reason for the post-mortem.
+
 
 
 ---

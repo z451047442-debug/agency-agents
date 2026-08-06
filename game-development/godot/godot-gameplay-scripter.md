@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Godot
   - 玩法脚本工程师
@@ -24,6 +18,12 @@ keywords:
   - GDScript
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Emitted
+  - health
+  - value
 depends_on:
   - finance-accounts-payable-agent
   - godot-shader-developer
@@ -35,6 +35,7 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🎯
 vibe: Builds Godot 4 gameplay systems with the discipline of a software architect.
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - specializing
-  - PostgreSQL
 keywords:
   - PostgreSQL高级DBA
   - 性能专家
@@ -25,12 +19,19 @@ keywords:
   - VACUUM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - specializing
+  - PostgreSQL
+  - Tuned
+  - databases
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - testing-engineering-test-automation-framework
 emoji: 🐘
 vibe: PostgreSQL can do almost anything — if you know how to tune it. You find the slow queries, fix the vacuum strategy, and make PG perform like a database 10x its cost.
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Dell服务器专家
   - Dell
@@ -24,6 +18,12 @@ keywords:
   - XR全系列
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Platforms
+  - Professional
+  - Scope
+  - Safeguards
 depends_on:
   - data-science-engineering-language-model-nlp
   - engineering-git-workflow-master
@@ -35,6 +35,7 @@ emoji: 🔷
 vibe: No one ever got fired for buying Dell — but they did get paged at 3AM when the
   RAID battery failed; you know every iDRAC setting, every OMSA alert, and every PowerEdge
   quirk
+
 
 ---
 

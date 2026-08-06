@@ -19,6 +19,12 @@ keywords:
   - eCTD编制
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pharma-biotech
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -28,7 +34,7 @@ depends_on:
   - pharma-biotech-biostatistics
 description: 药品注册与法规策略专家，覆盖NMPA/FDA/EMA申报、eCTD编制、注册路径规划
 category: pharma-biotech
-tags: [regulatory-affairs, NDA, ANDA, eCTD, drug-registration]
+
 
 
 

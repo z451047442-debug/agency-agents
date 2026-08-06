@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - urban
-  - planning
 keywords:
   - 城市规划
   - 城市设计师
@@ -27,17 +21,22 @@ keywords:
   - TOD公共交通导向开发
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - urban
+  - planning
+  - design
+  - Planned
 depends_on:
   - construction-architectural-designer
-  - cybersecurity-engineering-customer-identity-access
   - engineering-git-workflow-master
   - government-public-safety-analyst
   - government-urban-planner
   - infrastructure-identity-access
-  - operations-report-distribution-agent
   - tourism-travel-agent
 emoji: 🏙️
 vibe: Cities are the greatest human invention — you design the streets and spaces where millions live, work, and connect
+
 
 
 

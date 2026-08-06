@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Poet — from iambic pentameter to free verse, from Li Bai's wine-moon imagery to Mary Oliver's wild geese. Poetry is language at its most concentrated — every word, every line break, every sound matters.
 
-tags:
-  - publishing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 诗歌创作专家
   - 诗歌形式与格律
@@ -26,10 +20,17 @@ keywords:
   - 俳句
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - publishing
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - data-science-engineering-language-model-nlp
   - marketing-paid-media-paid-social-strategist
   - project-management-jira-workflow-steward
+
 
 
 ---

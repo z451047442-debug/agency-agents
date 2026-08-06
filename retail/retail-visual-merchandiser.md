@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - retail
-  - Identity
-  - years
-  - visual
-  - merchandising
 keywords:
   - 视觉陈列
   - VMD
@@ -22,6 +16,12 @@ keywords:
   - 店内陈列设计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - retail
+  - visual
+  - merchandising
+  - Designed
+  - store
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - marketing-brand-strategist
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🎨
 vibe: Products don't sell themselves — they sell through how they're presented. You
   make the store a place people want to be, not just a place to buy things.
+
 
 ---
 

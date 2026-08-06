@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - strategy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - OKR
   - 绩效顾问
@@ -27,6 +21,12 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - strategy
+  - Professional
+  - Scope
+  - Safeguards
+  - References
 depends_on:
   - finance-risk-manager
   - healthcare-fitness-coach
@@ -38,6 +38,7 @@ depends_on:
 emoji: 🎯
 vibe: Aligns entire organizations around outcomes that matter — not just activity that looks busy.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

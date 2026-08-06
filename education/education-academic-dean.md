@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - education
-  - Identity
-  - years
-  - academic
-  - leadership
 keywords:
   - 大学院长
   - 系主任
@@ -15,6 +9,12 @@ keywords:
   - 师资管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - academic
+  - leadership
+  - departments
+  - developed
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -36,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A university department is a small enterprise of knowledge — you lead the faculty,
   manage the curriculum, and shape the next generation of scholars.
+
 
 ---
 

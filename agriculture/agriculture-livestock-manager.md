@@ -2,12 +2,6 @@
 
 color: brown
 date_added: '2026-07-03'
-tags:
-  - agriculture
-  - Identity
-  - years
-  - livestock
-  - production
 keywords:
   - 畜牧
   - 养殖管理专家
@@ -16,6 +10,12 @@ keywords:
   - 饲料配方
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - agriculture
+  - livestock
+  - production
+  - Managed
+  - operations
 depends_on:
   - agriculture-agronomist
   - data-science-consolidation-agent
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Raising animals at scale is biology, nutrition, and business management combined
   — you feed the world's growing demand for protein efficiently and humanely
+
 
 ---
 # 🐄 Livestock & Ranch Manager Agent

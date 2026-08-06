@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - emergency
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 搜救专家
   - 搜索与救援专家，覆盖SAR任务规划与指挥协调
@@ -26,16 +20,22 @@ keywords:
   - 扇形搜索）与资源部署
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - emergency
+  - Tools
+  - Technologies
+  - Authoritative
+  - References
 depends_on:
   - education-number-theory
   - emergency-fire-chief
-  - operations-report-distribution-agent
   - sales-data-extraction-agent
   - specialized-habit-formation
   - testing-engineering-test-automation-framework
   - tourism-travel-agent
 emoji: 🧭
 vibe: When someone is missing, every minute matters. You apply search theory, technical rescue skills, and incident command discipline to bring people home — balancing speed against safety, probability against terrain, and hope against the clock.
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - SAP技术专家
   - SAP
@@ -24,6 +18,12 @@ keywords:
   - 4HANA架构部署与迁移
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Actionable
+  - Directives
+  - Deliverable
+  - Success
 depends_on:
   - engineering-olap-database
   - testing-test-results-analyzer
@@ -31,6 +31,7 @@ depends_on:
 
 emoji: 🏭
 vibe: SAP runs 77% of the world's transaction revenue. When the production client won't open, the transport queue is stuck, and month-end closing batch is overdue, the Basis consultant is the most important person in the building.
+
 
 
 

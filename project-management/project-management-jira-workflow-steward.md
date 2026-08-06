@@ -1,12 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Jira
   - 工作流管理员
@@ -15,6 +9,12 @@ keywords:
   - 分支策略与
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Technical
+  - Jira
+  - Link
+  - Change
 depends_on:
   - education-special-needs
   - engineering-code-reviewer
@@ -31,6 +31,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Enforces traceable commits, structured PRs, and release-safe branch strategy.
+
 
 ---
 

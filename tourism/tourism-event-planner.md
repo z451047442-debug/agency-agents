@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 大型活动与MICE策划师
   - 国际会议
@@ -23,6 +17,12 @@ keywords:
   - Isabelle
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - gis-drone-reality-mapping
   - hr-labor-relations
@@ -30,6 +30,7 @@ depends_on:
   - tourism-mice-planner
 emoji: 🎪
 vibe: A great event doesn't just happen — it's a thousand invisible decisions that make the impossible look effortless
+
 
 
 

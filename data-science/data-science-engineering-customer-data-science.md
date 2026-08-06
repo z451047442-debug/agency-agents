@@ -1,12 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - years
-  - product
-  - customer
 keywords:
   - 客户数据科学
   - 增长数据科学家
@@ -15,8 +9,13 @@ keywords:
   - Survival
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - product
+  - customer
+  - data
+  - science
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
   - education-online-learning-designer
@@ -35,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every user leaves a trail of data — you turn clickstreams into predictions,
   churn risks into interventions, and visitors into loyal customers
+
 
 ---
 

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: draft
 
-tags:
-  - spatial-computing
-  - Identity
-  - Memory
-  - Core
-  - Expertise
 keywords:
   - 终端集成专家
   - 终端集成
@@ -27,6 +21,12 @@ keywords:
   - Memory
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - Expertise
+  - Technical
+  - Capabilities
+  - Technologies
 depends_on:
   - data-science-engineering-computer-vision-deep
   - engineering-git-workflow-master
@@ -38,6 +38,7 @@ depends_on:
   - spatial-computing-visionos-spatial-engineer
 emoji: 🖥️
 vibe: Masters terminal emulation and text rendering in modern Swift applications.
+
 
 
 

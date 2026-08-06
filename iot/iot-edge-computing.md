@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - iot
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 边缘计算专家
   - 边缘计算架构与部署专家，覆盖边缘节点管理
@@ -24,6 +18,12 @@ keywords:
   - 边缘-云协同与离线自治
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - automotive-vehicle-architecture
   - data-science-engineering-computer-vision-3d
@@ -31,9 +31,9 @@ depends_on:
   - data-science-engineering-computer-vision-expert
   - data-science-engineering-language-model-nlp
   - iot-architect
-  - operations-report-distribution-agent
 emoji: 🔷
 vibe: The cloud is a luxury the edge can't always afford — compute where the data is born, sync what matters
+
 
 
 

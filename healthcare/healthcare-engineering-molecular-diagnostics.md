@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - product
-  - development
 keywords:
   - 分子诊断
   - 精准医疗产品开发专家
@@ -24,6 +18,12 @@ keywords:
   - 与分子诊断产品开发专家，覆盖PCR
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - product
+  - development
+  - Developed
+  - molecular
 depends_on:
   - pharma-biotech-pharma-clinical-trials
   - pharma-biotech-pharma-drug-discovery
@@ -31,6 +31,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🧬
 vibe: A single drop of blood can reveal cancer, infection, or genetic disease — you develop the tests that turn molecular biology into life-saving diagnostics
+
 
 
 

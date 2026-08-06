@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - 角色定位
-  - 核心能力
 keywords:
   - 航天器GNC
   - 制导导航控制工程师
@@ -26,14 +20,21 @@ keywords:
   - 系统专家，覆盖姿态确定与控制系统
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Methodology
+  - Decision
 depends_on:
   - aerospace-avionics
   - aerospace-engineering-systems-aerospace
   - engineering-standards-compliance
-  - cybersecurity-engineering-customer-identity-access
   - engineering-programming-language
   - testing-engineering-test-automation-framework
   - aerospace-engineering-drone-engineer
+
+
 
 
 ---

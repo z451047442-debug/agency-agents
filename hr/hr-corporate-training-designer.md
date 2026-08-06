@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 企业培训设计师
   - 企业培训
@@ -26,8 +20,13 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - References
+  - Standards
+  - Success
+  - Metrics
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
   - education-online-learning-designer
@@ -38,6 +37,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 📚
 vibe: Designs training programs that drive real behavior change — from needs analysis to Kirkpatrick Level 3 evaluation — because good training is measured by what learners do, not what instructors say.
+
 
 
 

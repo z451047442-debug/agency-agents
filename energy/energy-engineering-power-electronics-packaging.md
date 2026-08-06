@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - power
-  - semiconductor
 keywords:
   - 功率模块
   - IGBT
@@ -25,13 +19,19 @@ keywords:
   - SiC
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - power
+  - semiconductor
+  - packaging
+  - Designed
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: ⚡
 vibe: A power module the size of a sandwich handles 1,000 amps — you design the packaging that dissipates the heat, isolates the voltage, and survives millions of thermal cycles
+
 
 
 

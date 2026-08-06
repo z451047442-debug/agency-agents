@@ -13,12 +13,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - years
-  - sustainable
-  - design
 keywords:
   - 绿色建筑
   - 净零能耗设计顾问
@@ -27,6 +21,12 @@ keywords:
   - EnergyPlus
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - sustainable
+  - design
+  - Delivered
+  - net-zero
 depends_on:
   - construction-engineering-construction-materials
   - cybersecurity-engineering-cyber-risk-model
@@ -38,6 +38,7 @@ depends_on:
   - marketing-demand-generation
 emoji: 🏢
 vibe: Buildings consume 40% of energy and produce 40% of emissions — you design the ones that produce more energy than they consume
+
 
 
 

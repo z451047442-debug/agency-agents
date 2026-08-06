@@ -10,12 +10,6 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 可观测性工程师
   - 可观测性与监控工程专家，覆盖OpenTelemetry
@@ -24,6 +18,12 @@ keywords:
   - LGTM技术栈
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technologies
+  - References
+  - Standards
+  - Success
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -34,6 +34,7 @@ emoji: 🔭
 vibe: Your system is a black box until you instrument it — you turn "it's slow" into
   "the payment service is p99 2.3s because the Redis connection pool exhausted at
   14:32:17"
+
 
 ---
 # 🔭 Observability Engineer Agent

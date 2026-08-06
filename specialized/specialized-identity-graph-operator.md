@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
 lifecycle: published
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 身份图谱运营专家
   - Agent
@@ -25,6 +19,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - gis-drone-reality-mapping
   - operations-legal-compliance-checker
@@ -34,6 +34,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🕸️
 vibe: Ensures every agent in a multi-agent system gets the same canonical answer for "who is this?"
+
 
 
 

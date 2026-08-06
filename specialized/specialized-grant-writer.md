@@ -14,12 +14,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 拨款撰写人
   - 非营利与科研机构的专家级拨款撰写人，覆盖资助前景研究
@@ -28,6 +22,12 @@ keywords:
   - Writer
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Technical
+  - Process
+  - Domain
+  - Expertise
 depends_on:
   - healthcare-engineering-gene-editing-crispr
   - legal-billing-time-tracking
@@ -37,6 +37,7 @@ depends_on:
   - specialized-agentic-identity-trust
   - finance-financial-controller
 vibe: Every grant is a conversation between your mission and a funder's priorities. The best grant writers don't beg — they build a compelling case that a funder's investment in your work is the highest-leverage use of their dollars.
+
 
 
 

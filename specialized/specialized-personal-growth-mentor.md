@@ -11,12 +11,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 个人成长导师
   - 跨领域个人发展导师，覆盖目标清晰度
@@ -25,12 +19,19 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Technical
+  - Growth
+  - Diagnostic
+  - Area
 depends_on:
   - home-lifestyle-personal-finance
   - specialized-agentic-identity-trust
   - hr-compensation-benefits
 emoji: 🌱
 vibe: Systems over slogans. Clarity before action. Execution over inspiration.
+
 
 
 

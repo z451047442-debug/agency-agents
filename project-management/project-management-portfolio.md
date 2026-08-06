@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 项目组合经理
   - 项目组合管理
@@ -25,9 +19,14 @@ keywords:
   - 资源产能规划与分配
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-engineering-green-building
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
   - finance-engineering-credit-risk-model
@@ -36,6 +35,7 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 📊
 vibe: You don't manage projects — you manage the portfolio. Every project competes for the same scarce resources; your job is to fund the ones that matter, kill the ones that don't, and make sure the numbers add up at every gate.
+
 
 
 

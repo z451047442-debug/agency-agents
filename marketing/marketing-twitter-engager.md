@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Twitter
   - 运营专家
@@ -23,13 +17,19 @@ keywords:
   - Core
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - References
+  - Standards
+  - Technical
+  - Process
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-tracking-specialist
 emoji: 🐦
 vibe: Builds thought leadership and brand authority 280 characters at a time.
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - automotive
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 汽车供应链管理专家
   - 全球汽车供应链与采购策略专家，覆盖
@@ -25,6 +19,12 @@ keywords:
   - 供应商体系与
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
@@ -36,6 +36,7 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🔗
 vibe: A car has 30,000 parts — if 29,999 arrive on time and one doesn't, the assembly line stops
+
 
 
 

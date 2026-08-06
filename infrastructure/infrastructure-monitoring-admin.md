@@ -10,12 +10,6 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - monitoring
-  - observability
 keywords:
   - 系统监控
   - 告警管理工程师
@@ -24,6 +18,12 @@ keywords:
   - Prometheus
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - monitoring
+  - observability
+  - Built
+  - platforms
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-ansible-expert
@@ -31,6 +31,7 @@ depends_on:
 emoji: 📡
 vibe: If you don't know your system is broken before users tell you, your monitoring
   has failed. You build the systems that catch problems before they become incidents.
+
 
 ---
 # 📡 Monitoring & Alerting Engineer Agent

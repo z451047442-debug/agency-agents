@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
   - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - DevSecOps工程师
   - DevSecOps与安全自动化专家，覆盖CI
@@ -28,6 +22,12 @@ keywords:
   - 容器
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer
@@ -39,6 +39,7 @@ depends_on:
   - infrastructure-identity-access
 emoji: ⚙️
 vibe: Security at the speed of DevOps — you embed security so deeply into the pipeline that developers ship secure code without thinking about it
+
 
 
 

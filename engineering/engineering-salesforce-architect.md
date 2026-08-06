@@ -8,12 +8,6 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Architecture
-  - Decision
 keywords:
   - Salesforce
   - 架构师
@@ -22,6 +16,12 @@ keywords:
   - Governor
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - Architecture
+  - Decision
+  - Record
+  - Status
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - engineering-build-release-engineer
@@ -33,6 +33,7 @@ depends_on:
 emoji: ☁️
 vibe: The calm hand that turns a tangled Salesforce org into an architecture that
   scales — one governor limit at a time
+
 
 ---
 

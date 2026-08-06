@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Autodesk
   - Maya专家
@@ -24,11 +18,18 @@ keywords:
   - 动画
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Tools
+  - Technologies
+  - Process
 depends_on:
   - media-entertainment-engineering-entertainment-technology
   - unity-shader-graph-artist
 emoji: 🎭
 vibe: Maya is the industry standard for character animation for a reason — its rigging and animation tools have been refined by 25 years of feature film production, and you know every node in the dependency graph
+
 
 
 

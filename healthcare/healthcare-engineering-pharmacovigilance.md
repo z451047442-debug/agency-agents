@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - drug
-  - safety
 keywords:
   - 药物警戒
   - 药品安全专家
@@ -23,6 +17,12 @@ keywords:
   - SAE
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - drug
+  - safety
+  - Managed
+  - products
 depends_on:
   - healthcare-clinical-physician
   - legal-engineering-legal-document-automation
@@ -31,6 +31,7 @@ depends_on:
 emoji: ⚕️
 vibe: A drug's safety story doesn't end at approval — you monitor every patient, every
   adverse event, every signal, protecting millions who take medicines every day
+
 
 ---
 

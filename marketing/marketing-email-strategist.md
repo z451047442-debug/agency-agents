@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 邮件营销策略师
   - CRM驱动的邮件营销专家，覆盖生命周期自动化
@@ -25,6 +19,12 @@ keywords:
   - Personality
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Technical
+  - Sequence
+  - Name
+  - Design
 depends_on:
   - marketing-email-marketing
   - marketing-paid-media-ppc-strategist
@@ -32,6 +32,7 @@ depends_on:
   - design-brand-guardian
 emoji: 📧
 vibe: Turns a messy contact list into a segmented, automated revenue engine that sends the right message at the right time.
+
 
 
 

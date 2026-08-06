@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - publishing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 学术出版专员
   - 学术出版专家，覆盖同行评审管理
@@ -26,15 +20,21 @@ keywords:
   - 混合OA）
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - publishing
+  - Deliverable
+  - Success
+  - Metrics
+  - References
 depends_on:
   - education-academic-research-scientist
   - game-development-game-quality-assurance
   - government-social-work
   - logistics-public-transit
-  - operations-report-distribution-agent
   - thinking-models-decision-frameworks
 emoji: 🔬
 vibe: Research unpublished is research undone. You shepherd rigorous scholarship through peer review, navigate the open access revolution, and ensure knowledge reaches the global research community with integrity and speed.
+
 
 
 

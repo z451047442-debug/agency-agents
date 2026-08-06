@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - forestry
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 森林保护专家
   - 森林生态系统保护与可持续管理：生物多样性监测
@@ -25,15 +19,21 @@ keywords:
   - 毁林监测预警
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - forestry
+  - Success
+  - Metrics
+  - Non-Negotiable
+  - Technical
 depends_on:
   - environmental-engineering-ecosystem-restoration
   - environmental-engineering-gis-remote-sensing
   - finance-engineering-credit-risk-model
   - logistics-engineering-supply-chain-risk
-  - operations-report-distribution-agent
 emoji: 🦉
 vibe: The forest is not just trees — it is a living, breathing system that holds half of Earth's biodiversity, stores centuries of carbon, and whispers the planet's oldest stories to those who know how to listen.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

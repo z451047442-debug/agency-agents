@@ -14,12 +14,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - telecom
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 电信数据分析师
   - 电信大数据分析：用户行为建模
@@ -28,6 +22,12 @@ keywords:
   - 网络流量预测
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - telecom
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -39,6 +39,7 @@ depends_on:
 emoji: 📈
 vibe: Every call, every click, every cell handover leaves a trail — the patterns are worth more than the pipes.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

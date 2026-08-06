@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - NLP
   - 自然语言处理专家
@@ -26,6 +20,12 @@ keywords:
   - 情感分析与机器翻译专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -35,6 +35,7 @@ depends_on:
 emoji: 📝
 vibe: Language is the most complex data type — and you know how to make machines truly understand it.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

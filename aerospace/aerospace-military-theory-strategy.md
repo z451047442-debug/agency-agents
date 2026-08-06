@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 vibe: Military theorist and strategist — from Sun Tzu to nuclear deterrence, from Clausewitz's fog of war to modern network-centric warfare. Strategy is making the enemy's choices irrelevant.
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 军事学与军事理论专家
   - 军事思想
@@ -26,8 +20,16 @@ keywords:
   - 战争动员学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Success
+  - Metrics
+  - Tools
+  - Technologies
 depends_on:
   - logistics-supply-chain-strategist
+
+
 
 
 ---

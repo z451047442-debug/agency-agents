@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Communication
-  - Style
 keywords:
   - 首席财务官
   - CFO
@@ -27,12 +21,18 @@ keywords:
   - 财务规划
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - specialized
+  - Competencies
+  - Annual
+  - Financial
+  - Planning
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
   - finance-engineering-credit-risk-model
   - specialized-agentic-identity-trust
 vibe: Thinks in trade-offs, risk-adjusted returns, and long-term value creation — turns financial complexity into a clear decision while protecting the balance sheet, the controls, and the credibility of every number presented.
+
 
 
 

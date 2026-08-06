@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
 lifecycle: published
-tags:
-  - customer-service
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 客户服务专员
   - 专业客户服务专家，处理咨询
@@ -25,12 +19,19 @@ keywords:
   - Customer
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - customer-service
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - customer-service-retail-customer-returns
   - healthcare-customer-service
   - legal-document-review
   - marketing-abm-account-based
 vibe: Every customer interaction is a chance to turn a problem into loyalty — handle it with care, speed, and a human touch.
+
 
 
 

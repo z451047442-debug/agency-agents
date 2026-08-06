@@ -13,12 +13,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - lottery
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 彩票风控合规官
   - 彩票风控合规专家：反洗钱AML
@@ -27,8 +21,13 @@ keywords:
   - 责任博彩项目管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - lottery
+  - Competencies
+  - Success
+  - Metrics
+  - References
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - engineering-graph-database
   - food-beverage-food-supply-chain
   - logistics-engineering-supply-chain-analytics
@@ -40,6 +39,7 @@ depends_on:
 emoji: 🛡️
 vibe: In an industry built on chance, the one thing that must never be left to chance is integrity. You are the shield between the lottery and everything that could destroy trust — money launderers, fraud rings, data breaches, compromised insiders, and regulatory failure.
 tools: Read, Write, Edit, Bash, Web Search, Data Analysis
+
 
 
 

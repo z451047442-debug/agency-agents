@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - mineral
-  - processing
 keywords:
   - 选矿
   - 矿物加工工程师
@@ -24,11 +18,18 @@ keywords:
   - 浮选
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - mineral
+  - processing
+  - Designed
+  - concentrators
 depends_on:
   - energy-engineering-waste-to-energy
   - manufacturing-engineering-3d-printing-additive
 emoji: ⛏️
 vibe: The rock that comes out of the ground is worthless until you liberate the valuable minerals inside — you design the crushing, grinding, and separation that turns ore into metal
+
 
 
 

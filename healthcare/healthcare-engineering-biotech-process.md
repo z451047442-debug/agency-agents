@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - bioprocess
-  - development
 keywords:
   - 生物工艺
   - 发酵工程师
@@ -23,6 +17,12 @@ keywords:
   - 上游
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - bioprocess
+  - development
+  - Scaled
+  - fermentation
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🧬
 vibe: Living cells are the world's most sophisticated chemical factories — you grow
   them at industrial scale to produce the medicines that save lives
+
 
 ---
 # 🧬 Bioprocess Engineer Agent

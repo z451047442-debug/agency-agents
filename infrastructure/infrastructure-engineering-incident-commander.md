@@ -9,12 +9,6 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - leading
-  - incident
 keywords:
   - 事故指挥官
   - Incident
@@ -23,6 +17,12 @@ keywords:
   - 升级机制
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - leading
+  - incident
+  - response
+  - large-scale
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
@@ -33,6 +33,7 @@ depends_on:
 emoji: 🚨
 vibe: When the site is down and revenue is burning, someone needs to lead. You coordinate
   the response, make the hard calls, and get the system back online.
+
 
 ---
 

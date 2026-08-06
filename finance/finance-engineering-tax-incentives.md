@@ -10,12 +10,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - Secured
-  - hundreds
 keywords:
   - R&D税务激励
   - 研发费用加计扣除顾问
@@ -24,11 +18,18 @@ keywords:
   - 顾问，覆盖中国研发费用加计扣除
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Secured
+  - hundreds
+  - millions
+  - credits
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
 emoji: 💰
 vibe: Governments pay companies to innovate — you find every R&D tax credit, every grant, every incentive that turns R&D spending into tax savings
+
 
 
 

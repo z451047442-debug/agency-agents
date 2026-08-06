@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 外呼销售专员
   - 顾问式
@@ -25,12 +19,19 @@ keywords:
   - 线索跟进
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sales
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - engineering-email-intelligence-engineer
   - marketing-email-marketing
   - sales-discovery-coach
   - sales-revenue-operations
 vibe: The best salespeople don't sell — they help people buy. Every outreach is a conversation starter, not a pitch.
+
 
 
 

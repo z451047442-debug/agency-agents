@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - telecom
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 通信网络工程师
   - 通信网络规划与优化：5G
@@ -27,6 +21,12 @@ keywords:
   - 接入网
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - telecom
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -38,6 +38,7 @@ depends_on:
 emoji: 📡
 vibe: Bits travel at the speed of light but still find every bottleneck — the art is making the network invisible.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

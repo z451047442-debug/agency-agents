@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 阿里云架构师
   - 阿里云平台架构与解决方案专家
@@ -25,12 +19,19 @@ keywords:
   - VPC
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - infrastructure
+  - Deliverable
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - engineering-olap-database
 emoji: ☁️
 vibe: Aliyun owns 40%+ of China's cloud market. When your business depends on 双11-scale infrastructure and 等保 compliance, the Aliyun architect is the difference between celebrating GMV and explaining downtime.
+
 
 
 

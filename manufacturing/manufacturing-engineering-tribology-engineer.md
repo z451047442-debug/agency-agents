@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - tribology
-  - Solved
 keywords:
   - 摩擦学
   - 润滑工程专家
@@ -23,11 +17,18 @@ keywords:
   - EHL
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - tribology
+  - Solved
+  - wear
+  - friction
 depends_on:
   - manufacturing-engineering-3d-printing-additive
   - marketing-paid-media-tracking-specialist
 emoji: ⚙️
 vibe: Every moving part in every machine wears out — you understand why, and you design the surfaces, lubricants, and materials that make them last longer
+
 
 
 

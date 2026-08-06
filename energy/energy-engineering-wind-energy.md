@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - wind
-  - turbine
 keywords:
   - 风能
   - 风力发电机设计工程师
@@ -24,10 +18,17 @@ keywords:
   - 传动链
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - wind
+  - turbine
+  - design
+  - Designed
 depends_on:
   - environmental-renewable-energy
 emoji: 🌬️
 vibe: A 15MW turbine blade longer than a football field, spinning at the top of a tower taller than a skyscraper — you design the machines that harvest energy from the sky
+
 
 
 

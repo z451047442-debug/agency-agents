@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - web3
-  - Identity
-  - Memory
-  - Core
-  - Expertise
 keywords:
   - 智能合约开发工程师
   - Solidity
@@ -26,6 +20,12 @@ keywords:
   - 智能合约开发与安全审计专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - web3
+  - Expertise
+  - Approach
+  - Output
+  - Lines
 depends_on:
   - data-science-engineering-language-model-nlp
   - engineering-programming-language
@@ -36,6 +36,7 @@ depends_on:
   - web3-smart-contract-dev
 emoji: ⛓️
 vibe: Code is law. Every line you ship could move millions — no pressure.
+
 
 
 

@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - game-development
-  - Identity
-  - years
-  - building
-  - game
 keywords:
   - 游戏后端
   - 实时服务
@@ -23,6 +17,12 @@ keywords:
   - 工程师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - building
+  - game
+  - backends
+  - Built
 depends_on:
   - engineering-code-reviewer
   - engineering-multi-agent-systems-architect
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🎮
 vibe: A multiplayer game lives or dies by its backend — lag, disconnects, and cheaters
   destroy the experience faster than any bad review
+
 
 ---
 # 🎮 Game Backend Engineer Agent

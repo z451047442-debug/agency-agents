@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 新能源分析师
   - 新能源技术与市场分析：光伏
@@ -27,15 +21,21 @@ keywords:
   - 氢能
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - energy-engineering-grid-modernization
   - infrastructure-identity-access
   - marketing-abm-account-based
 emoji: 🌱
 vibe: The sun and wind don't send invoices — but capturing them at grid scale takes more than good intentions.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

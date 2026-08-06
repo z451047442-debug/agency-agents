@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - engineering
-  - Designed
 keywords:
   - 大坝工程
   - 水工结构工程师
@@ -26,6 +20,12 @@ keywords:
   - 重力坝
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - engineering
+  - Designed
+  - assessed
+  - dams
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -34,6 +34,7 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🏗️
 vibe: A dam holds back millions of tons of water, and if it fails, everything downstream is gone — you design the structure that must never fail
+
 
 
 

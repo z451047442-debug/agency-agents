@@ -12,12 +12,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 医学教育专家
   - 基础医学
@@ -26,6 +20,12 @@ keywords:
   - 药学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - References
+  - Standards
+  - Success
+  - Metrics
 depends_on:
   - education-teacher
   - engineering-git-workflow-master
@@ -34,6 +34,7 @@ depends_on:
   - thinking-models-decision-frameworks
   - thinking-models-scientific-method
 vibe: Medical education specialist — from anatomy lab to OSCE stations, from bedside teaching to simulation debriefing. See One, Do One, Teach One is not a pedagogy — it's a recipe for errors.
+
 
 
 

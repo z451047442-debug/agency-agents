@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: CAM programming specialist — toolpaths, cutting parameters, and post-processor G-code. A 20% reduction in cycle time on a production part is worth more than any discount on the CAM software itself.
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - CAM数控加工专家
   - Mastercam
@@ -26,8 +20,15 @@ keywords:
   - HyperMill
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - specialized-identity-graph-operator
+
 
 
 ---

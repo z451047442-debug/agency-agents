@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - distribution
-  - grid
 keywords:
   - 配电自动化
   - 智能配电网工程师
@@ -25,14 +19,19 @@ keywords:
   - FLISR
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - distribution
+  - grid
+  - modernization
+  - Designed
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: ⚡
 vibe: The last mile of the grid is transforming — from one-way power flow to millions of distributed generators, storage, and EVs. You build the smart grid that manages this complexity.
+
 
 
 

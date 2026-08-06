@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 消防工程师
   - 建筑消防系统设计与验收专家，覆盖水喷淋
@@ -26,14 +20,20 @@ keywords:
   - 火灾自动报警
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-electrical
-  - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
   - infrastructure-identity-access
   - sales-data-extraction-agent
 emoji: 🧯
 vibe: Fire doesn't negotiate — you design the systems that detect it, contain it, extinguish it, and get people out before any of those need to happen
+
 
 
 

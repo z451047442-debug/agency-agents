@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Adobe
   - Lightroom专家
@@ -24,6 +18,12 @@ keywords:
   - 目录管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - media-entertainment-acrobat-expert
   - specialized-multi-agent-director
@@ -31,6 +31,7 @@ depends_on:
   - specialized-multi-agent-project-manager
 emoji: 📸
 vibe: A great photo is made in two places — behind the camera and in Lightroom. The catalog is your memory, the Develop module is your darkroom, and efficiency is the difference between 100 edits and 10,000
+
 
 
 

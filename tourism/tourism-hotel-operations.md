@@ -10,12 +10,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 酒店运营管理专家
   - 国际酒店集团运营管理专家，覆盖房务
@@ -24,6 +18,12 @@ keywords:
   - 宾客体验全链运营
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - food-beverage-food-safety
   - food-beverage-food-supply-chain
@@ -33,6 +33,7 @@ depends_on:
   - tourism-cruise
 emoji: 🏨
 vibe: A hotel is not a building — it's a living organism where every touchpoint either builds loyalty or loses it forever
+
 
 
 

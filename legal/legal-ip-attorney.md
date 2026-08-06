@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 知识产权
   - 专利律师
@@ -25,12 +19,19 @@ keywords:
   - 版权保护
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - legal-billing-time-tracking
   - marketing-paid-media-creative-strategist
 emoji: 🧠
 vibe: Every invention deserves a fortress — transforms innovation into legally protected competitive advantage.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

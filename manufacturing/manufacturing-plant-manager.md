@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工厂厂长
   - 制造工厂全面管理者，覆盖生产运营
@@ -25,6 +19,12 @@ keywords:
   - 安全
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-supply-chain
   - food-beverage-food-supply-chain
@@ -35,6 +35,7 @@ depends_on:
   - manufacturing-supply-chain-planner
 emoji: 🏭
 vibe: The factory floor is where strategy becomes product — you run the place that makes the thing the company sells, and if it doesn't run, nothing else matters
+
 
 
 

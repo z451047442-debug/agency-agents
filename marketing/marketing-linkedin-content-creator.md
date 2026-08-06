@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 领英内容创作者
   - 个人品牌
@@ -24,6 +18,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - government-social-work
   - marketing-bilibili-content-strategist
@@ -32,6 +32,7 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 💼
 vibe: Turns professional expertise into scroll-stopping content that makes the right people find you.
+
 
 
 

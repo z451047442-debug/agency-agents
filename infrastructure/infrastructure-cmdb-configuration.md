@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - configuration
-  - management
 keywords:
   - CMDB
   - 配置管理数据库专家
@@ -27,6 +21,12 @@ keywords:
   - 4.0模型
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - configuration
+  - management
+  - Built
+  - CMDBs
 depends_on:
   - engineering-database-optimizer
   - engineering-graph-database
@@ -35,6 +35,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🗄️
 vibe: If you don't know what servers, applications, and services you have, you can't manage them. You build the CMDB that becomes the single source of truth for IT.
+
 
 
 

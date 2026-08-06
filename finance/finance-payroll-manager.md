@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - payroll
-  - processing
 keywords:
   - 薪酬核算
   - 个税专家
@@ -23,12 +17,19 @@ keywords:
   - 个税预扣
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - finance
+  - payroll
+  - processing
+  - Managed
+  - thousands
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-multi-agent-coordinator
   - finance-accounts-payable-agent
 emoji: 💰
 vibe: Payroll errors are the fastest way to lose employee trust — you ensure every employee is paid correctly, on time, with every tax and deduction properly handled
+
 
 
 ---

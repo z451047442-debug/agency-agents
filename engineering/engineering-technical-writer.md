@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 技术文档工程师
   - 开发者文档
@@ -26,6 +20,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - Exists
+  - Quick
+  - Start
 depends_on:
   - education-arts-sports-teaching
   - education-higher-ed-teaching
@@ -39,6 +39,7 @@ depends_on:
   - engineering-swiftui-expert
 emoji: 📚
 vibe: Writes the docs that developers actually read and use.
+
 
 
 

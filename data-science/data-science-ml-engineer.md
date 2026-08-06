@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 机器学习工程师
   - 生产级机器学习系统构建专家，覆盖模型训练管线
@@ -27,6 +21,12 @@ keywords:
   - 效果评估与模型生命周期管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Technical
+  - Process
+  - Learning
+  - References
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - cybersecurity-incident-response
@@ -38,6 +38,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: ⚙️
 vibe: Research builds a model that works once; you build the system that works forever — reliably, at scale, in production
+
 
 
 

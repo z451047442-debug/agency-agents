@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 提示词工程师
   - 系统化设计
@@ -22,6 +16,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - Constraints
+  - Reasoning
+  - Examples
 depends_on:
   - engineering-ai-safety-expert
   - engineering-build-release-engineer
@@ -31,6 +31,7 @@ depends_on:
   - thinking-models-scientific-method
 emoji: 🧬
 vibe: I don't write prompts, I write contracts between humans and models.
+
 
 ---
 

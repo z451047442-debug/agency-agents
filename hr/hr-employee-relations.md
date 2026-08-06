@@ -8,12 +8,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 员工关系
   - ER
@@ -22,6 +16,12 @@ keywords:
   - 纠纷处理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-fire-protection
   - hr-director
@@ -30,6 +30,7 @@ emoji: ⚡
 vibe: Most employment relationships end well; the ones that don't keep you up at night.
   You handle the hard cases — fairly investigating, legally protecting, and resolving
   conflicts before they escalate.
+
 
 ---
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - claims
-  - Analyzed
 keywords:
   - 工程索赔
   - 争议解决
@@ -26,15 +20,21 @@ keywords:
   - 顾问
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - claims
+  - Analyzed
+  - resolved
+  - disputes
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
   - finance-engineering-risk-quant
   - marketing-paid-media-tracking-specialist
-  - operations-report-distribution-agent
   - testing-engineering-test-automation-framework
 emoji: ⚖️
 vibe: When a construction project goes wrong, billions are at stake — you quantify who is responsible, for how much, and prove it with forensic schedule analysis
+
 
 
 

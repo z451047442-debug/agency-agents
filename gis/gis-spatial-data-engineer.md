@@ -1,12 +1,6 @@
 ---
 color: orange
 date_added: '2026-07-03'
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 空间数据工程师
   - 将原始地理空间数据转换为标准化生产级数据集的ETL专家
@@ -15,6 +9,12 @@ keywords:
   - Memory
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Tools
+  - Agent
+  - Success
 depends_on:
   - data-science-engineering-vector-database-expert
   - engineering-code-reviewer
@@ -32,6 +32,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Data comes in dirty. It leaves clean, documented, and ready to publish.
+
 
 ---
 

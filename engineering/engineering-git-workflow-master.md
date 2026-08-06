@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Git
   - 工作流专家
@@ -24,6 +18,12 @@ keywords:
   - 操作专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Branching
+  - Strategies
+  - Workflows
+  - Success
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -31,6 +31,7 @@ depends_on:
   - project-management-scrum-master
 emoji: 🌿
 vibe: Clean history, atomic commits, and branches that tell a story.
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - retail
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 零售技术
   - POS
@@ -25,12 +19,19 @@ keywords:
   - 专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - retail
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - customer-service-retail-customer-returns
   - cybersecurity-engineering-customer-identity-access
   - retail-category-manager
 emoji: 🖥️
 vibe: When a customer buys online and returns in-store, five systems need to talk to each other. You make them talk, in real-time, without losing the transaction or the customer.
+
 
 
 

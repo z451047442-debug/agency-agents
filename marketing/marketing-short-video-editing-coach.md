@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 短视频剪辑教练
   - 后期制作
@@ -22,6 +16,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Process
+  - Success
+  - Metrics
+  - Methodology
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-linkedin-content-creator
@@ -29,6 +29,7 @@ depends_on:
   - design-brand-guardian
 emoji: 🎬
 vibe: Turns raw footage into scroll-stopping short videos with professional polish.
+
 
 
 

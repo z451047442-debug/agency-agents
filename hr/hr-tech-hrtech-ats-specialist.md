@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - ATS实施顾问
   - 申请人跟踪系统
@@ -28,18 +22,24 @@ keywords:
   - 系统配置与业务流程映射
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Deliverable
+  - Success
+  - Metrics
+  - References
 depends_on:
   - design-engineering-human-factors
   - gis-drone-reality-mapping
   - hr-tech-hrtech-ex-designer
   - legal-engineering-legal-document-automation
   - logistics-engineering-supply-chain-risk
-  - operations-report-distribution-agent
   - spatial-computing-engineering-virtual-reality
   - web3-engineering-smart-contract-security
   - web3-smart-contract-dev
 emoji: 🔧
 vibe: A great ATS doesn't just track applicants — it removes friction from every step of hiring. You configure systems that automate the administrative, enforce the compliant, and surface the signal, so recruiters can spend their time with candidates, not spreadsheets.
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 毁伤与防护技术专家
   - 陆战毁伤
@@ -26,6 +20,12 @@ keywords:
   - 精准毁伤与主动防护技术
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Methodology
+  - Decision
 depends_on:
   - aerospace-weapon-systems-engineering
   - aerospace-engineering-systems-aerospace
@@ -34,6 +34,8 @@ depends_on:
   - construction-engineering-structural-analysis
   - thinking-models-military-strategy
 vibe: Damage and protection specialist — from shaped charge jet penetration to reactive armor, from blast wave propagation to active protection system intercept geometry. The duel between weapon and armor is an arms race that never ends.
+
+
 
 
 

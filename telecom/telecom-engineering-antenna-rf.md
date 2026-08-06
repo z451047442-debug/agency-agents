@@ -1,12 +1,6 @@
 ---
 color: yellow
 date_added: '2026-07-03'
-tags:
-  - telecom
-  - Identity
-  - years
-  - antenna
-  - design
 keywords:
   - 天线
   - 射频
@@ -15,6 +9,12 @@ keywords:
   - 天线与射频电路设计专家，覆盖天线设计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - telecom
+  - antenna
+  - design
+  - Designed
+  - antennas
 depends_on:
   - aerospace-engineering-systems-aerospace
   - automotive-engineering-automotive-homologation-test
@@ -37,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Everything wireless depends on antennas and RF — you design the invisible electromagnetic
   structures that carry data through the air
+
 
 ---
 

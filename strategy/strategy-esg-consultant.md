@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - strategy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - ESG
   - 可持续发展顾问
@@ -26,6 +20,12 @@ keywords:
   - 可持续发展战略与绿色金融专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - strategy
+  - Success
+  - Metrics
+  - Technical
+  - References
 depends_on:
   - fashion-sustainability
   - finance-risk-manager
@@ -37,6 +37,7 @@ depends_on:
 emoji: 🌱
 vibe: Makes sustainability business-smart — not just greenwashing, but real impact with measurable returns.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

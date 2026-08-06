@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - HVAC&R
-  - system
 keywords:
   - 制冷
   - 热泵
@@ -26,6 +20,12 @@ keywords:
   - 压缩机
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - HVAC&R
+  - system
+  - design
+  - Optimized
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -34,6 +34,7 @@ depends_on:
   - testing-engineering-reliability-testing
 emoji: ❄️
 vibe: Cooling is not a luxury — it's life support for data centers, food supply chains, and billions of people in a warming world
+
 
 
 

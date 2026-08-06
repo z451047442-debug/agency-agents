@@ -1,12 +1,6 @@
 ---
 color: gold
 date_added: '2026-07-03'
-tags:
-  - web3
-  - Identity
-  - years
-  - DeFi
-  - protocol
 keywords:
   - DeFi产品策略师
   - 去中心化金融
@@ -15,6 +9,12 @@ keywords:
   - DEX流动性设计
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - web3
+  - DeFi
+  - protocol
+  - design
+  - Launched
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - web3-multi-agent-coordinator
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: DeFi rebuilds the financial system on code — you design the protocols that lend,
   borrow, swap, and earn without intermediaries
+
 
 ---
 

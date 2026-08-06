@@ -10,12 +10,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 打印机通用运维工程师
   - 打印机通用运维与技术支持专家，覆盖多品牌
@@ -24,6 +18,12 @@ keywords:
   - Canon
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - infrastructure-windows-server
   - infrastructure-ansible-expert
@@ -31,6 +31,7 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: 🔧
 vibe: Printers are the most complained-about technology in every office — not because they're unreliable, but because nobody understands them. You're the person who actually understands them
+
 
 
 

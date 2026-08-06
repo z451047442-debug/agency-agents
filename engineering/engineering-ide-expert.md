@@ -10,12 +10,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - IDE与开发环境专家
   - VS
@@ -24,10 +18,17 @@ keywords:
   - IDEA
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - engineering-build-release-engineer
   - unity-editor-tool-developer
 vibe: IDE and development environment specialist — editor workspaces that feel like home, debugging complex multi-language stacks, and the difference between a good developer and a great one is often their tooling mastery.
+
 
 
 

@@ -12,12 +12,6 @@ vibe: "athletic excellence meets organizational leadership"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-tags:
-  - sports
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Sports
   - Director
@@ -26,11 +20,18 @@ keywords:
   - leadership
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - sports
+  - Technical
+  - Process
+  - Methodology
+  - Decision
 depends_on:
   - construction-engineering-landscape-architecture
   - engineering-visual-studio-python
   - healthcare-engineering-regulatory-science
   - sports-multi-agent-coordinator
+
 
 
 

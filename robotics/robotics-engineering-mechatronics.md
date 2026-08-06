@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - robotics
-  - Identity
-  - years
-  - mechanical
-  - design
 keywords:
   - 机电一体化
   - 机械设计工程师
@@ -23,6 +17,12 @@ keywords:
   - SolidWorks
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - mechanical
+  - design
+  - mechatronics
+  - Designed
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - robotics-multi-agent-coordinator
@@ -30,6 +30,7 @@ depends_on:
   - robotics-automation-engineer
 emoji: ⚙️
 vibe: The physical world moves because of mechanisms you design — gears, motors, linkages, bearings — working together with millimeter precision for millions of cycles
+
 
 
 ---

@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - legal
-  - Identity
-  - years
-  - space
-  - Advised
 keywords:
   - 空间法
   - 太空资源开发法律顾问
@@ -15,8 +9,13 @@ keywords:
   - 责任公约
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - space
+  - Advised
+  - commercial
+  - activities
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
   - legal-billing-time-tracking
@@ -35,6 +34,7 @@ version: 1.0.0
 vibe: Who owns the Moon? Can a company mine an asteroid? Space law is being written
   right now, and the answers will shape the next century of human expansion beyond
   Earth.
+
 
 ---
 

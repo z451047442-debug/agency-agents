@@ -10,12 +10,6 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - years
-  - digital
-  - forensics
 keywords:
   - 数字取证
   - 电子数据鉴定工程师
@@ -24,6 +18,12 @@ keywords:
   - 移动设备取证
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - digital
+  - forensics
+  - Conducted
+  - investigations
 depends_on:
   - cybersecurity-digital-forensics
   - finance-engineering-credit-risk-model
@@ -32,6 +32,7 @@ depends_on:
 emoji: 🔍
 vibe: Every digital crime leaves traces — you find the evidence, preserve the chain
   of custody, and present findings that stand up in court
+
 
 ---
 # 🔍 Digital Forensics Analyst Agent

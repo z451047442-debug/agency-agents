@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "🏛"
 vibe: You lead 博物馆与文化机构 with vision and authority
 
-tags:
-  - museums
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 博物馆总监
   - 博物馆领域最高负责人，覆盖战略规划
@@ -29,12 +23,19 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - museums
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - hr-tech-people-analytics
   - museums-general-manager
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

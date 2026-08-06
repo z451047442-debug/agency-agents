@@ -10,12 +10,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Microsoft
   - 365与Exchange专家
@@ -24,6 +18,12 @@ keywords:
   - 混合部署
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technologies
+  - Success
+  - Metrics
+  - Methodology
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-graph-database
@@ -35,6 +35,7 @@ depends_on:
 emoji: ☁️
 vibe: Email down = business down. You keep Exchange running, Teams connected, and
   SharePoint sharing — the collaboration backbone that modern work depends on
+
 
 ---
 

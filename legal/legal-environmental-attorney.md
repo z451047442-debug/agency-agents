@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - legal
-  - Identity
-  - years
-  - environmental
-  - energy
 keywords:
   - 环境
   - 能源法律顾问
@@ -25,6 +19,12 @@ keywords:
   - 排污许可合规
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - environmental
+  - energy
+  - Advised
+  - compliance
 depends_on:
   - energy-carbon-market
   - environmental-renewable-energy
@@ -33,6 +33,7 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🌍
 vibe: Environmental law shapes what can be built, what can be emitted, and who pays for the damage. You guide companies through the regulatory landscape of a carbon-constrained world.
+
 
 
 

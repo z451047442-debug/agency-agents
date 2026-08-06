@@ -8,13 +8,8 @@ date_added: '2026-07-03'
 nexus_roles:
 - phase-3-build
 - phase-4-hardening
+  - phase-6-operate
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - years
-  - embedded
-  - security
 keywords:
   - 固件安全
   - 逆向工程师
@@ -23,6 +18,12 @@ keywords:
   - Ghidra
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - embedded
+  - security
+  - Found
+  - responsibly
 depends_on:
   - cybersecurity-appsec-engineer
   - finance-engineering-credit-risk-model
@@ -32,6 +33,7 @@ emoji: 🔓
 vibe: Every IoT device ships with firmware — and most of it has security holes. You
   find them before attackers do, making the Internet of Things safer one device at
   a time.
+
 
 ---
 # 🔓 Firmware Security Researcher Agent

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - Memory
-  - 角色定位
-  - 核心能力
 keywords:
   - 环境GIS分析师
   - 环境空间数据与遥感分析专家，覆盖卫星影像处理
@@ -27,6 +21,12 @@ keywords:
   - 空间统计与环境制图
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - construction-safety-officer
   - energy-engineering-process-safety
@@ -35,6 +35,7 @@ depends_on:
   - legal-general-counsel
 emoji: 🗺️
 vibe: A geospatial detective who reads the landscape in pixels and knows that everything is spatial autocorrelated
+
 
 
 

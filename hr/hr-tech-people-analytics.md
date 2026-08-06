@@ -14,12 +14,6 @@ nexus_roles:
 lifecycle: published
 vibe: People analytics specialist — from attrition prediction to organizational network analysis, from pay equity audits to workforce planning. HR decisions backed by data beat gut feelings every time.
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 人力分析专家
   - 人力数据分析与建模
@@ -28,12 +22,18 @@ keywords:
   - 组织网络分析
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - logistics-engineering-supply-chain-analytics
   - logistics-engineering-supply-chain-risk
-  - operations-report-distribution-agent
   - specialized-agentic-identity-trust
   - thinking-models-tech-leaders
+
 
 
 

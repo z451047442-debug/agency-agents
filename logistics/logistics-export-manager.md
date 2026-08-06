@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - logistics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 出口业务经理
   - 出口业务拓展与管理专家，覆盖海外市场调研与渠道开发
@@ -23,11 +17,17 @@ keywords:
   - 付款
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - logistics
+  - Deliverable
+  - Success
+  - Metrics
+  - Advanced
 depends_on:
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 🌏
 vibe: "Selling domestically is chess. Exporting is 3D chess — add currencies, time zones, cultures, trade barriers, and an ocean between you and your customer. The manager who masters this plays on a global board."
+
 
 
 

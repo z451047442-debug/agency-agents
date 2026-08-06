@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 旅行社运营管理专家
   - 旅行社全链路运营管理专家，覆盖旅游产品设计与定价
@@ -23,15 +17,20 @@ keywords:
   - 团队出游协调
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - logistics-engineering-supply-chain-risk
   - marketing-abm-account-based
-  - operations-report-distribution-agent
   - tourism-travel-agent
   - tourism-travel-experience-designer
 emoji: 🧳
 vibe: A tour package is a promise sold before it's experienced — operations is the art of delivering that promise flawlessly, every time, across every timezone, crisis, and contingency
+
 
 
 

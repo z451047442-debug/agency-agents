@@ -16,12 +16,6 @@ nexus_roles:
 lifecycle: published
 vibe: Social enterprise and impact investment specialist — from theory of change to IRIS+ metrics, from patient capital to outcomes-based contracts. Doing good and doing business are not mutually exclusive; the challenge is measuring both.
 
-tags:
-  - nonprofit
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 社会企业与影响力投资专家
   - 社会企业商业模式设计
@@ -30,6 +24,12 @@ keywords:
   - IRIS+
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - nonprofit
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - gis-drone-reality-mapping
   - government-social-work
@@ -37,6 +37,7 @@ depends_on:
   - marketing-japan-market-expert
   - specialized-agentic-identity-trust
   - thinking-models-decision-frameworks
+
 
 
 

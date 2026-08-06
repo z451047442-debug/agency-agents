@@ -9,12 +9,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 招聘专家
   - 人才获取
@@ -23,13 +17,19 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Interview
+  - Process
+  - Design
+  - Campus
 depends_on:
   - data-science-engineering-deep-learning-training
-  - operations-report-distribution-agent
   - specialized-personal-growth-mentor
 emoji: 🎯
 vibe: Builds your full-cycle recruiting engine across China's hiring platforms, from
   sourcing to onboarding to compliance.
+
 
 ---
 

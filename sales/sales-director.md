@@ -9,13 +9,8 @@ nexus_roles:
 - phase-1-strategy
 - phase-5-launch
 - phase-4-hardening
+- phase-6-operate
 lifecycle: published
-tags:
-  - sales
-  - Identity
-  - years
-  - leading
-  - B2B/B2C
 keywords:
   - 销售总监
   - VP
@@ -24,13 +19,19 @@ keywords:
   - 目标制定
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - sales
+  - leading
+  - B2B/B2C
+  - organizations
+  - built
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - sales-account-strategist
   - sales-multi-agent-coordinator
 emoji: 💼
 vibe: Revenue cures all problems. You build the team, the process, and the pipeline
   that keeps the company alive.
+
 
 ---
 # 💼 Sales Director / VP Sales Agent

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-4-hardening
 lifecycle: published
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 法务文件审查专员
   - 全面的法务文件审查专家，覆盖合同
@@ -26,10 +20,16 @@ keywords:
   - Legal
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Outputs
+  - Specification
+  - Methodology
+  - Decision
 depends_on:
   - legal-data-privacy-attorney
-  - operations-report-distribution-agent
 vibe: Every word in a legal document matters. Every missed clause is a liability. Every risk caught early is a client protected.
+
 
 
 ---

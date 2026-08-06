@@ -2,12 +2,6 @@
 
 color: '#9333EA'
 date_added: '2026-07-19'
-tags:
-  - web3
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Web3
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - web3
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for Web3 — smart contracts, DeFi, DAOs,
@@ -26,8 +26,10 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: orchestrating web3 specialists into coherent multi-agent workflows
+
 
 ---
 # Web3 Multi-Agent Coordinator

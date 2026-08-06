@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - fuel
-  - cell
 keywords:
   - 氢能
   - 燃料电池系统工程师
@@ -25,13 +19,19 @@ keywords:
   - 与固体氧化物燃料电池
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - fuel
+  - cell
+  - development
+  - Designed
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: 🔋
 vibe: Hydrogen is the universe's most abundant element — you turn it into electricity with only water as exhaust, powering trucks, ships, and industries without carbon
+
 
 
 

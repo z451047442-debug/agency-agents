@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 法务客户受理专员
   - 全面的法务客户受理专家，负责潜在客户筛选
@@ -27,10 +21,17 @@ keywords:
   - Legal
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - infrastructure-engineering-incident-response-commander
   - legal-billing-time-tracking
 vibe: The first conversation with a potential client sets the tone for the entire attorney-client relationship. Get it right — warm, professional, and thorough — from the very first touch.
+
 
 
 

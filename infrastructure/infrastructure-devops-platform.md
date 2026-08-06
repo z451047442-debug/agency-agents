@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - building
-  - developer
 keywords:
   - DevOps平台
   - 工具链工程师
@@ -26,6 +20,12 @@ keywords:
   - 工程专家，覆盖GitLab
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - building
+  - developer
+  - platforms
+  - Integrated
 depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
@@ -36,6 +36,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: 🔧
 vibe: Developers spend 30% of their time on non-coding tasks — you build the platform and toolchain that automates the rest away
+
 
 
 

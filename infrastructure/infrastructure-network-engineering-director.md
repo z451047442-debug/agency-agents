@@ -2,12 +2,6 @@
 
 color: navy
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - leading
-  - network
 keywords:
   - 网络部门总监
   - 企业
@@ -16,6 +10,12 @@ keywords:
   - 团队
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - infrastructure
+  - leading
+  - network
+  - organizations
+  - across
 depends_on:
   - data-science-engineering-deep-learning-training
   - engineering-standards-compliance
@@ -39,6 +39,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The network is the foundation everything else depends on — invisible when it
   works, the only thing that matters when it doesn't.
+
 
 
 ---

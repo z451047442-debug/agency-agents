@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Autodesk
   - Fusion专家
@@ -25,11 +19,18 @@ keywords:
   - T-Spline
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Authoritative
+  - References
+  - Methodology
 depends_on:
   - aerospace-engineering-systems-aerospace
   - media-entertainment-3ds-max-expert
 emoji: ⚙️
 vibe: Fusion is where design meets manufacturing — the same platform that sketches your part also generates the toolpath that cuts it. Cloud-native, parametric, and relentlessly practical
+
 
 
 

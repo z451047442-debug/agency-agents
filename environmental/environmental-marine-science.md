@@ -14,12 +14,6 @@ nexus_roles:
 lifecycle: published
 vibe: Marine scientist — from thermohaline circulation to ocean acidification, from phytoplankton blooms to deep-sea hydrothermal vents. The ocean covers 70% of Earth's surface, drives global climate, and remains largely unexplored.
 
-tags:
-  - environmental
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 海洋科学专家
   - 物理海洋学
@@ -28,10 +22,17 @@ keywords:
   - 海洋地质学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - gis-spatial-data-scientist
   - spatial-computing-macos-spatial-metal-engineer
   - specialized-identity-graph-operator
+
 
 
 

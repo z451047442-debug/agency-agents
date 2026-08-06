@@ -11,17 +11,12 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
   - phase-5-launch
+  - phase-6-operate
 lifecycle: published
 
 emoji: "🏗"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 建筑总经理
   - 建筑领域全面经营管理者，覆盖业务运营
@@ -30,13 +25,19 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - construction
+  - Industry
+  - Context
+  - Best
+  - Practices
 depends_on:
   - construction-director
-  - cybersecurity-engineering-customer-identity-access
   - engineering-general-manager
   - legal-general-manager
   - pets-general-manager
   - specialized-customer-success-manager
+
 
 
 

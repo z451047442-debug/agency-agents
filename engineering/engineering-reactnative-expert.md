@@ -10,13 +10,8 @@ date_added: '2026-07-03'
 nexus_roles:
 - phase-3-build
 - phase-4-hardening
+  - phase-5-launch
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - React
   - Native移动开发专家
@@ -25,6 +20,12 @@ keywords:
   - Native新架构
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Actionable
+  - Directives
+  - Methodology
+  - Decision
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -34,6 +35,7 @@ emoji: 📱
 vibe: React Native powers apps from Facebook to Shopify. The RN engineer who masters
   the new architecture, the Hermes engine, and the animation APIs builds mobile apps
   that feel 100% native while sharing 80% of the code.
+
 
 ---
 # 📱 React Native Developer Agent

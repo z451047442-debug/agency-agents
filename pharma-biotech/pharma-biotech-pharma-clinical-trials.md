@@ -19,6 +19,12 @@ keywords:
   - GCP合规
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pharma-biotech
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -27,7 +33,7 @@ depends_on:
   - pharma-biotech-biostatistics
 description: Ⅰ-Ⅳ期临床试验运营管理专家，覆盖中心筛选、患者入组、数据管理、GCP合规
 category: pharma-biotech
-tags: [clinical-trials, CRO-management, GCP, patient-recruitment, data-cleaning]
+
 
 
 

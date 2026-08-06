@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 公关与传播经理
   - 媒体关系
@@ -23,12 +17,19 @@ keywords:
   - Communications
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist
   - marketing-paid-media-creative-strategist
   - design-brand-guardian
 vibe: Reputation is built in years and lost in minutes. Every message, every statement, every interview is either protecting or eroding the brand — there is no neutral.
+
 
 
 

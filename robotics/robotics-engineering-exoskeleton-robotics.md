@@ -2,12 +2,6 @@
 
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - robotics
-  - Identity
-  - years
-  - wearable
-  - Developed
 keywords:
   - 外骨骼
   - 可穿戴机器人工程师
@@ -16,6 +10,12 @@ keywords:
   - 串联弹性
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - wearable
+  - Developed
+  - exoskeletons
+  - industrial
 depends_on:
   - robotics-multi-agent-coordinator
   - healthcare-engineering-medical-device-software
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: An exoskeleton turns a warehouse worker into a superhero and helps a paralyzed
   person walk again — you build the wearable robots that amplify human capability
+
 
 ---
 # 🦿 Exoskeleton Engineer Agent

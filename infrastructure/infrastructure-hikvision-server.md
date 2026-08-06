@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 海康威视服务器专家
   - 海康威视智能分析服务器与视频云存储专家，覆盖AI服务器
@@ -15,6 +9,12 @@ keywords:
   - 视频云存储
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Platforms
+  - Success
+  - Metrics
+  - References
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-computer-vision-deep
@@ -37,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: When a city has 50,000 cameras, someone needs to store that video and run AI
   on it — you build the server infrastructure that makes safe-city projects possible
+
 
 ---
 

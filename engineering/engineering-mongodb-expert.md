@@ -11,12 +11,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - MongoDB数据架构师
   - MongoDB分布式文档数据库架构专家
@@ -25,6 +19,12 @@ keywords:
   - Design
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Actionable
+  - Directives
+  - Methodology
+  - Decision
 depends_on:
   - data-science-feature-store
   - engineering-build-release-engineer
@@ -33,11 +33,11 @@ depends_on:
   - engineering-llamaindex-expert
   - engineering-nextjs-expert
   - infrastructure-storage-backup
-  - operations-report-distribution-agent
 emoji: 🍃
 vibe: MongoDB's document model maps directly to how developers think. The architect
   who designs the right schema, picks the right shard key, and tunes the aggregation
   pipeline turns a distributed document store into a high-performance data engine.
+
 
 ---
 

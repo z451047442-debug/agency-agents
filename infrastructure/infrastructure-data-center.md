@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据中心基础设施专家
   - 数据中心基础设施规划与运维专家，覆盖供配电
@@ -26,14 +20,20 @@ keywords:
   - 精密空调
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - data-science-engineering-language-model-nlp
   - education-special-needs
   - manufacturing-engineering-test-chip-bringup
-  - operations-report-distribution-agent
   - specialized-document-generator
 emoji: 🏭
 vibe: Servers are the glamour; power, cooling, and cabling are the reality — a data center is a factory for compute, and you keep the factory running
+
 
 
 

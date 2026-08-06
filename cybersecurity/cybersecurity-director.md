@@ -14,12 +14,6 @@ lifecycle: published
 emoji: "🛡"
 vibe: You lead 信息安全与网络防御 with vision and authority
 
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Security
-  - Domain
 keywords:
   - 网络安全总监
   - 网络安全领域最高负责人，覆盖战略规划
@@ -28,6 +22,12 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - cybersecurity
+  - Security
+  - Domain
+  - Foundations
+  - Success
 depends_on:
   - cybersecurity-general-manager
   - cybersecurity-threat-intelligence
@@ -37,6 +37,7 @@ depends_on:
   - cybersecurity-soc-analyst
   - engineering-code-reviewer
   - data-science-data-engineer
+
 
 
 

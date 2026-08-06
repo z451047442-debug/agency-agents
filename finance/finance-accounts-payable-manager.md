@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - years
-  - accounts
-  - payable
 keywords:
   - 应付账款
   - AP
@@ -22,12 +16,19 @@ keywords:
   - PO
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - finance
+  - accounts
+  - payable
+  - Automated
+  - organizations
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
   - marketing-abm-account-based
 emoji: 💸
 vibe: Every invoice is a promise to pay — you process thousands of them, catching errors, optimizing timing, and keeping suppliers happy
+
 
 
 ---

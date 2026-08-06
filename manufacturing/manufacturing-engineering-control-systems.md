@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - advanced
-  - process
 keywords:
   - 控制理论
   - 先进过程控制
@@ -23,12 +17,19 @@ keywords:
   - 经典与现代控制理论应用专家，覆盖PID
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - advanced
+  - process
+  - control
+  - Optimized
 depends_on:
   - data-science-engineering-deep-learning-training
   - manufacturing-multi-agent-coordinator
   - manufacturing-engineering-composites-manufacturing
 emoji: 🎛️
 vibe: Control theory keeps planes in the sky, chemicals at the right temperature, and robots on trajectory — you design the feedback loops that make systems stable and optimal
+
 
 
 ---

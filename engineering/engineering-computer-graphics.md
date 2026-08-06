@@ -7,13 +7,8 @@ date_added: '2026-07-03'
 nexus_roles:
 - phase-3-build
 - phase-4-hardening
+  - phase-5-launch
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - real-time
-  - graphics
 keywords:
   - 计算机图形
   - 渲染工程师
@@ -22,6 +17,12 @@ keywords:
   - Metal
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - real-time
+  - graphics
+  - Built
+  - rendering
 depends_on:
   - data-science-engineering-computer-vision-deep
   - engineering-build-release-engineer
@@ -29,6 +30,7 @@ depends_on:
 emoji: 🎮
 vibe: Every pixel on screen is a calculation — you write the code that transforms
   math into light, shadow, and texture at 60 frames per second
+
 
 ---
 

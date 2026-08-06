@@ -11,12 +11,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 搜索引擎专家
   - Elasticsearch
@@ -25,11 +19,18 @@ keywords:
   - Splunk
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - data-science-engineering-vector-database-expert
   - data-science-vector-db-architect
   - testing-test-results-analyzer
 vibe: Search engine specialist — inverted indexes, relevancy scoring, and shard allocation awareness. "Just add more nodes" is not a relevance strategy. BM25 beats TF-IDF. KNN with HNSW is not magic — it's math.
+
 
 
 

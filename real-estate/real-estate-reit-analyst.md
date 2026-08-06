@@ -13,12 +13,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - real-estate
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - REIT分析师
   - REIT金融建模分析：FFO
@@ -27,9 +21,14 @@ keywords:
   - 写字楼
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - real-estate
+  - Success
+  - Metrics
+  - Tools
+  - Technologies
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - legal-engineering-legal-document-automation
   - legal-general-counsel
@@ -37,6 +36,7 @@ depends_on:
 emoji: 📈
 vibe: Where Wall Street meets Main Street real estate — dissects portfolios, cap rates, and balance sheets to find undervalued bricks.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

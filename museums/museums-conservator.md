@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - museums
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 文物修复师
   - 艺术品与文物修复专家，覆盖藏品状况评估与修复方案制定
@@ -26,17 +20,23 @@ keywords:
   - 光照控制）
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - museums
+  - Deliverable
+  - Specifications
+  - Success
+  - Metrics
 depends_on:
   - education-cultural-heritage-law
   - marketing-book-co-author
   - marketing-demand-generation
   - museums-curator
-  - operations-report-distribution-agent
   - testing-engineering-test-automation-framework
   - thinking-models-decision-frameworks
   - tourism-travel-agent
 emoji: 🖼️
 vibe: "Every object has three ages: when it was made, what it's been through, and how long it still has. You slow the clock on that third age — stabilizing deterioration, reversing past damage where possible, and ensuring future generations can see what we see today. Conservation is medicine for objects."
+
 
 
 

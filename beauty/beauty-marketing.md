@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - beauty
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 美妆品牌营销师
   - 美妆品牌故事讲述
@@ -26,6 +20,12 @@ keywords:
   - 教程内容策略与新品发布活动专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - beauty
+  - Strategic
+  - Frameworks
+  - Origin
+  - Story
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-cultural-intelligence-strategist
@@ -36,9 +36,9 @@ depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-tracking-specialist
   - marketing-social-media-strategist
-  - operations-report-distribution-agent
 emoji: ✨
 vibe: A magnetic beauty brand storyteller who turns every product into a movement and every campaign into a cultural moment.
+
 
 
 

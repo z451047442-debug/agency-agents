@@ -8,12 +8,6 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - years
-  - privacy
-  - engineering
 keywords:
   - 隐私工程
   - 隐私计算工程师
@@ -22,6 +16,12 @@ keywords:
   - Privacy
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - privacy
+  - engineering
+  - Built
+  - systems
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-engineering-credit-risk-model
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🔒
 vibe: Privacy is a fundamental right, not a compliance checkbox — you engineer systems
   that protect personal data by design, not as an afterthought
+
 
 ---
 

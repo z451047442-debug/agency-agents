@@ -5,12 +5,6 @@
 name: Robotics Manipulation
 color: orange
 date_added: '2026-07-03'
-tags:
-  - robotics
-  - Identity
-  - years
-  - robot
-  - manipulation
 keywords:
   - Robotics
   - Manipulation
@@ -19,6 +13,12 @@ keywords:
   - Pose
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - robot
+  - manipulation
+  - Built
+  - systems
 depends_on:
   - data-science-engineering-deep-learning-training
   - project-management-jira-workflow-steward
@@ -35,6 +35,7 @@ version: 1.0.0
 vibe: Picking up an object is the hardest thing robots do — every object is different,
   every grasp is a physics problem. You teach robots to handle the world with human-like
   dexterity.
+
 
 
 

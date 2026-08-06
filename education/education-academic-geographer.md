@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 学术地理学家
   - 空间分析
@@ -26,15 +20,21 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Technical
+  - Process
+  - Learning
+  - Methodology
 depends_on:
   - education-academic-anthropologist
-  - operations-report-distribution-agent
   - spatial-computing-macos-spatial-metal-engineer
   - specialized-identity-graph-operator
   - specialized-personal-growth-mentor
   - testing-test-results-analyzer
 emoji: 🗺️
 vibe: Geography is destiny — where you are determines who you become
+
 
 
 

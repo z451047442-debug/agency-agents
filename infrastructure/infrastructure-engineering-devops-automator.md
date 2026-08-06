@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - DevOps
   - 自动化工程师
@@ -27,6 +21,12 @@ keywords:
   - 基础设施自动化与云运营专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - References
+  - Standards
+  - Process
 depends_on:
   - emergency-disaster-response
   - engineering-email-intelligence-engineer
@@ -40,6 +40,7 @@ depends_on:
   - specialized-multi-agent-president
 emoji: ⚙️
 vibe: Automates infrastructure so your team ships faster and sleeps better.
+
 
 
 

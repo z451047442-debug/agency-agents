@@ -8,14 +8,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - ethics
-  - governance
 keywords:
   - AI伦理与负责任AI专家
   - 人工智能伦理与负责任AI治理专家，覆盖AI公平性
@@ -24,12 +19,19 @@ keywords:
   - XAI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - ethics
+  - governance
+  - Built
+  - responsible
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-paid-media-tracking-specialist
 emoji: ⚖️
 vibe: AI can amplify human biases at scale — you build the guardrails, audits, and governance that ensure AI serves everyone fairly and safely
+
 
 
 

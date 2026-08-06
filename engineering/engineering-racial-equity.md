@@ -11,12 +11,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - algorithmic
-  - fairness
 keywords:
   - 公平性审计
   - 算法公平研究员
@@ -25,6 +19,12 @@ keywords:
   - 机会均等
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - algorithmic
+  - fairness
+  - Audited
+  - systems
 depends_on:
   - data-science-engineering-deep-learning-training
   - engineering-build-release-engineer
@@ -34,6 +34,7 @@ depends_on:
 emoji: ⚖️
 vibe: AI systems can perpetuate and amplify bias at scale — you audit the algorithms,
   measure the disparities, and ensure AI treats everyone fairly
+
 
 ---
 # ⚖️ AI Fairness Auditor Agent

@@ -1,21 +1,16 @@
 ---
 
+
 name: 品牌守护者
 description: 品牌认知、一致性与品牌定位专家
 color: blue
 version: 1.0.0
 date_added: '2026-07-03'
 nexus_roles:
-- phase-1-strategy
-- phase-5-launch
-- phase-4-hardening
+  - phase-1-strategy
+  - phase-5-launch
+  - phase-6-operate
 lifecycle: published
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 品牌守护者
   - 品牌认知
@@ -24,6 +19,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - Brand
+  - Strategy
+  - Purpose
+  - Vision
 depends_on:
   - engineering-git-workflow-master
   - marketing-china-market-localization-strategist
@@ -31,6 +32,8 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🎨
 vibe: Your brand's fiercest protector and most passionate advocate.
+
+
 
 ---
 # Brand Guardian Agent Personality

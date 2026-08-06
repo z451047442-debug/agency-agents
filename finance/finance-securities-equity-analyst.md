@@ -1,12 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 证券分析师
   - 股票研究与证券分析专家，覆盖基本面分析
@@ -15,6 +9,12 @@ keywords:
   - 可比估值
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Skills
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -36,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every stock tells a story — you read the financials, build the model, and separate
   the compounders from the value traps
+
 
 ---
 

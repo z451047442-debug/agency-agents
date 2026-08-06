@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - years
-  - infrastructure
-  - Closed
 keywords:
   - 基础设施
   - 项目融资
@@ -23,12 +17,19 @@ keywords:
   - 顾问
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - infrastructure
+  - Closed
+  - project
+  - financings
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model
 emoji: 🏗️
 vibe: A power plant costs billions and takes 20 years to pay back — you structure the financing that makes infrastructure possible
+
 
 
 ---

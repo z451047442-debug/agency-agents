@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - design
-  - Identity
-  - years
-  - research
-  - operations
 keywords:
   - 用户研究运营
   - ResearchOps
@@ -23,12 +17,18 @@ keywords:
   - 参与者管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - research
+  - operations
+  - Built
+  - functions
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
   - marketing-abm-account-based
 emoji: ⚙️
 vibe: Researchers should spend time researching, not recruiting, scheduling, and organizing. You build the operations that make research efficient and insights reusable.
+
 
 
 

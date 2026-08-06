@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Bilibili
   - 内容策略师
@@ -25,10 +19,17 @@ keywords:
   - specialist
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Technical
+  - Account
+  - Positioning
+  - Content
 depends_on:
   - design-cultural-intelligence-strategist
 emoji: 🎬
 vibe: Speaks fluent danmaku and grows your brand on B站.
+
 
 
 

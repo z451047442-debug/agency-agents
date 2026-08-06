@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
 lifecycle: published
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 销售漏斗分析师
   - 预测
@@ -26,8 +20,13 @@ keywords:
   - RevOps
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sales
+  - Technical
+  - Velocity
+  - Metrics
+  - Coverage
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - education-special-needs
   - marketing-paid-media-programmatic-buyer
   - operations-executive-summary-generator
@@ -37,6 +36,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 📊
 vibe: Tells you your forecast is wrong before you realize it yourself.
+
 
 
 

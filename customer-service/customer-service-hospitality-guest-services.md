@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - customer-service
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 酒店客户服务专员
   - 酒店
@@ -26,6 +20,12 @@ keywords:
   - 预订
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - customer-service
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - customer-service-call-center
   - engineering-developer-advocate
@@ -33,6 +33,7 @@ depends_on:
   - specialized-workflow-architect
   - tourism-hotel-gm
 vibe: Hospitality is not a transaction — it's a feeling. Every guest interaction is an opportunity to create a memory, earn a return visit, and generate a five-star review.
+
 
 
 

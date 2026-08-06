@@ -1,12 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Jenkins
   - CI
@@ -15,6 +9,12 @@ keywords:
   - 覆盖Controller
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - Specifications
+  - References
+  - Standards
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-identity-access
@@ -30,9 +30,11 @@ name: Jenkins CI/CD专家
 nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
+  - phase-5-launch
 version: 1.0.0
 vibe: A well-tuned Jenkins master with the right plugin mix and a clean Groovy pipeline
   can still outperform any SaaS CI at 1/10th the cost.
+
 
 ---
 

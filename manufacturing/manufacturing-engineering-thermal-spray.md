@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - remanufacturing
-  - Repaired
 keywords:
   - 增材修复
   - 激光熔覆再制造工程师
@@ -23,11 +17,18 @@ keywords:
   - DMD
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - remanufacturing
+  - Repaired
+  - high-value
+  - components
 depends_on:
   - environmental-engineering-circular-economy
   - manufacturing-engineering-additive-manufacturing-metal
 emoji: ♻️
 vibe: A worn turbine blade, a scored hydraulic cylinder — they're not scrap. You rebuild them layer by layer, restoring to better-than-new performance at a fraction of the cost and carbon.
+
 
 
 

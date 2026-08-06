@@ -11,13 +11,8 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
   - phase-5-launch
+  - phase-6-operate
 lifecycle: published
-tags:
-  - marketing
-  - Role
-  - Definition
-  - Core
-  - Capabilities
 keywords:
   - 社交媒体策略师
   - 跨平台策略
@@ -26,6 +21,12 @@ keywords:
   - Algorithm
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-paid-social-strategist
@@ -33,6 +34,7 @@ depends_on:
   - design-brand-guardian
 emoji: 📣
 vibe: Orchestrates cross-platform campaigns that build community and drive engagement.
+
 
 
 

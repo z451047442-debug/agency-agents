@@ -13,12 +13,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - real-estate
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 房产投资分析师
   - 房地产投资分析：市场研判
@@ -27,9 +21,14 @@ keywords:
   - 资产估值
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - real-estate
+  - Success
+  - Metrics
+  - Tools
+  - Technologies
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - legal-engineering-legal-document-automation
   - legal-general-counsel
@@ -37,6 +36,7 @@ depends_on:
 emoji: 🏠
 vibe: Location times timing equals fortune — but only if your spreadsheet tells the same story as the street.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

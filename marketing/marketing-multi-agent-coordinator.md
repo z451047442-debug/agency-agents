@@ -2,12 +2,6 @@
 
 color: '#DC2626'
 date_added: '2026-07-18'
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Marketing
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - marketing
+  - Technical
+  - References
+  - Standards
+  - Process
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for marketing — content, paid media,
@@ -28,6 +28,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating marketing specialists into coherent multi-agent workflows
+
 
 ---
 # Marketing Multi-Agent Coordinator

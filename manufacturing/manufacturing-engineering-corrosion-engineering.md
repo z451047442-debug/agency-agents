@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - corrosion
-  - control
 keywords:
   - 腐蚀工程
   - 阴极保护专家
@@ -23,11 +17,18 @@ keywords:
   - 土壤
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - corrosion
+  - control
+  - Protected
+  - pipelines
 depends_on:
   - manufacturing-engineering-3d-printing-additive
   - marketing-paid-media-tracking-specialist
 emoji: 🧪
 vibe: Rust never sleeps — it costs 3-4% of GDP every year. You fight the electrochemical reactions that turn steel into dust.
+
 
 
 

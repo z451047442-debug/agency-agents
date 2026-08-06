@@ -12,12 +12,6 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Child development specialist — from Piaget's stages to attachment theory, from language acquisition to neurodiversity. Every child develops on their own timeline; understanding typical range distinguishes "different" from "delayed."
 
-tags:
-  - parenting-family
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 儿童发展心理学专家
   - 认知发展
@@ -26,6 +20,12 @@ keywords:
   - 语言发展
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - parenting-family
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - design-engineering-quant-ux-researcher
   - education-online-learning-designer
@@ -33,6 +33,7 @@ depends_on:
   - government-social-work
   - specialized-personal-growth-mentor
   - testing-evidence-collector
+
 
 
 

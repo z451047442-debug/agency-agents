@@ -18,6 +18,12 @@ keywords:
   - 追溯体系
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - Professional
+  - Scope
+  - Safeguards
+  - Authoritative
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
@@ -28,7 +34,7 @@ depends_on:
   - quality-food-safety
 description: 食品安全管理体系专家，覆盖 HACCP、FSSC 22000、追溯体系、食品安全风险评估
 category: food-beverage
-tags: [food-safety, HACCP, FSSC22000, traceability, risk-assessment]
+
 
 
 

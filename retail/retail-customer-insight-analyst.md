@@ -14,12 +14,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: draft
 
-tags:
-  - retail
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 客户洞察分析师
   - 消费者行为分析：用户画像
@@ -28,6 +22,12 @@ keywords:
   - LTV建模
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - retail
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -39,6 +39,7 @@ depends_on:
 emoji: 🔍
 vibe: Customers tell you everything you need to know — just not in words. The patterns are in the data.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

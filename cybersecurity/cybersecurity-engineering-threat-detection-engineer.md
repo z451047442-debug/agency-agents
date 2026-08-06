@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 威胁检测工程师
   - SIEM
@@ -27,6 +21,12 @@ keywords:
   - ATT&CK
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - Technical
+  - Coverage
+  - Tactic
+  - Gaps
 depends_on:
   - infrastructure-github-actions-expert
   - marketing-book-co-author
@@ -36,6 +36,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🎯
 vibe: Builds the detection layer that catches attackers after they bypass prevention.
+
 
 
 

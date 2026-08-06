@@ -9,12 +9,6 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
-tags:
-  - data-science
-  - Identity
-  - Mindset
-  - Core
-  - Mission
 keywords:
   - 机器学习研究员
   - 机器学习研究专家，专注深度学习
@@ -23,6 +17,12 @@ keywords:
   - 模型架构设计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Mindset
+  - Technical
+  - Details
+  - Performance
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -33,6 +33,7 @@ depends_on:
 emoji: 🤖
 vibe: Pushes the frontier of what models can do. Reads papers at breakfast, runs experiments
   at scale, and knows that SOTA is a moving target. Experiments over opinions.
+
 
 ---
 

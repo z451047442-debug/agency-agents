@@ -10,12 +10,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - managing
-  - production
 keywords:
   - 数据库管理员
   - DBA
@@ -24,6 +18,12 @@ keywords:
   - Percona
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - managing
+  - production
+  - databases
+  - Kept
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -33,6 +33,7 @@ depends_on:
 emoji: 🗄️
 vibe: The database is where the truth lives — you protect it, tune it, back it up,
   and make sure it's fast enough that users never think about it
+
 
 ---
 # 🗄️ Database Administrator (DBA) Agent

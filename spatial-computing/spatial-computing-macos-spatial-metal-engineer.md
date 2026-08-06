@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - spatial-computing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - macOS
   - 空间
@@ -25,6 +19,12 @@ keywords:
   - Swift
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - spatial-computing
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
   - engineering-git-workflow-master
   - game-development-game-audio-engineer
@@ -34,6 +34,7 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 🍎
 vibe: Pushes Metal to its limits for 3D rendering on macOS and Vision Pro.
+
 
 
 

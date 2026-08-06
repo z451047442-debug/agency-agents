@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - structural
-  - biology
 keywords:
   - 冷冻电镜
   - Cryo-EM
@@ -24,6 +18,12 @@ keywords:
   - cryo-ET
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - healthcare
+  - structural
+  - biology
+  - Determined
+  - macromolecular
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -32,6 +32,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🔬
 vibe: Seeing a protein at near-atomic resolution — down to individual amino acid side chains — that's cryo-EM, the technique that revolutionized structural biology
+
 
 
 

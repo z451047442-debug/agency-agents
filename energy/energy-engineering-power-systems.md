@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - power
-  - systems
 keywords:
   - 电力系统
   - 电网工程师
@@ -26,14 +20,20 @@ keywords:
   - 电力系统暂态
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - power
+  - systems
+  - engineering
+  - Designed
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
   - specialized-document-generator
 emoji: ⚡
 vibe: The grid is the largest machine ever built — you keep it stable at 50Hz, balance generation and load every second, and integrate renewables without blackouts
+
 
 
 

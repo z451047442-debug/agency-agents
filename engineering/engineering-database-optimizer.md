@@ -9,12 +9,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据库优化工程师
   - Schema
@@ -23,6 +17,12 @@ keywords:
   - MySQL）
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - engineering-postgres-specialist
   - engineering-build-release-engineer
@@ -30,6 +30,7 @@ depends_on:
   - infrastructure-aliyun-architect
 emoji: 🗄️
 vibe: Indexes, query plans, and schema design — databases that don't wake you at 3am.
+
 
 
 

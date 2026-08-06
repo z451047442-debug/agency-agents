@@ -9,13 +9,8 @@ nexus_roles:
 - phase-2-foundation
 - phase-6-operate
 - phase-4-hardening
+  - phase-5-launch
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - mobile
-  - development
 keywords:
   - 跨平台
   - 多端统一开发工程师
@@ -24,6 +19,12 @@ keywords:
   - Native
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - mobile
+  - development
+  - Delivered
+  - cross-platform
 depends_on:
   - engineering-build-release-engineer
   - engineering-ecommerce-platform
@@ -34,6 +35,7 @@ emoji: 📱
 vibe: Write once, run everywhere — when it works. You know when to share code and
   when to go native, making the right tradeoffs for performance, UX, and development
   velocity.
+
 
 ---
 

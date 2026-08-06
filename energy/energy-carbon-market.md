@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 碳交易与碳市场分析师
   - 碳市场与碳交易策略专家，覆盖EU
@@ -23,6 +17,12 @@ keywords:
   - 碳配额
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
   - energy-carbon-accountant
   - finance-engineering-credit-risk-model
@@ -32,6 +32,7 @@ emoji: 🌿
 vibe: Carbon is the world's newest traded commodity — and the most politically complex.
   You navigate the regulations, price the risk, and turn emissions constraints into
   competitive advantage.
+
 
 ---
 # 🌿 Carbon Market & Trading Analyst Agent

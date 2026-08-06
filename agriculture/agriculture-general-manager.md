@@ -1,12 +1,6 @@
 ---
 color: green
 date_added: '2026-07-03'
-tags:
-  - agriculture
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 农业总经理
   - 农场主
@@ -15,6 +9,12 @@ keywords:
   - 养殖战略规划
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - agriculture
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - agriculture-sustainability
   - energy-carbon-market
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Farming is a business, not a lifestyle — you manage thousands of hectares, millions
   in revenue, and the oldest industry on Earth with the newest technology available
+
 
 ---
 

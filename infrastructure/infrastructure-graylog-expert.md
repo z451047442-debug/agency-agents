@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Graylog日志管理专家
   - Graylog集中式日志管理与SIEM平台专家，覆盖集群架构设计
@@ -24,11 +18,18 @@ keywords:
   - 流规则引擎
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - Success
+  - Metrics
+  - Tools
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - cybersecurity-threat-intelligence
 emoji: 📋
 vibe: "Splunk's pricing makes CFOs cry. ELK's complexity makes engineers cry. Graylog sits in the sweet spot — powerful enough for enterprise, simple enough that the helpdesk can run their own searches."
+
 
 
 

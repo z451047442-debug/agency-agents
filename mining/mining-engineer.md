@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - mining
-  - Identity
-  - Memory
-  - 核心能力
-  - Core
 keywords:
   - 采矿工程师
   - 采矿工程与矿山设计专家，覆盖露天
@@ -26,6 +20,12 @@ keywords:
   - 通风与地压控制
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - mining
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
@@ -36,6 +36,7 @@ depends_on:
   - mining-exploration
 emoji: ⛏️
 vibe: Extracts value from kilometers underground while keeping thousands of miners safe — geology meets heavy engineering.
+
 
 
 

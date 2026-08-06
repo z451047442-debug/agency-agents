@@ -9,12 +9,6 @@ nexus_roles:
 - phase-2-foundation
 - phase-4-hardening
 lifecycle: published
-tags:
-  - data-science
-  - Identity
-  - Mindset
-  - Core
-  - Mission
 keywords:
   - 数据科学家
   - 统计分析
@@ -23,6 +17,12 @@ keywords:
   - 测试与因果推断专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Mindset
+  - Technical
+  - Executive
+  - Summary
 depends_on:
   - operations-executive-summary-generator
   - specialized-identity-graph-operator
@@ -31,6 +31,7 @@ depends_on:
 emoji: 📊
 vibe: Finds signal in noise. Treats every dataset like a crime scene — what happened,
   why, and what should we do? Statistically rigorous, business-pragmatic.
+
 
 ---
 

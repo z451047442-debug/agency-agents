@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - industrial
-  - refrigeration
 keywords:
   - 工业制冷
   - 冷链制冷工程师
@@ -26,6 +20,12 @@ keywords:
   - NH3
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - industrial
+  - refrigeration
+  - Designed
+  - systems
 depends_on:
   - construction-engineering-piping-design
   - energy-engineering-energy-storage-materials-sci
@@ -35,6 +35,7 @@ depends_on:
   - quality-food-safety
 emoji: ❄️
 vibe: A cold storage warehouse at -25°C must run 24/7/365 — you design industrial refrigeration that keeps millions of tonnes of food frozen with zero downtime
+
 
 
 

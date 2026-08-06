@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 微信公众号运营专家
   - 粉丝互动
@@ -24,10 +18,15 @@ keywords:
   - Identity
 complexity: low
 estimated_duration: 1-2h
-depends_on:
-  - cybersecurity-engineering-customer-identity-access
+tags:
+  - marketing
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 emoji: 📱
 vibe: Grows loyal WeChat subscriber communities through consistent value delivery.
+
 
 
 

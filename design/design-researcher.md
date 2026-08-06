@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - design
-  - Identity
-  - years
-  - user
-  - research
 keywords:
   - 设计研究员
   - 用户研究与设计洞察专家，覆盖用户访谈
@@ -23,12 +17,18 @@ keywords:
   - 量化研究
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - user
+  - research
+  - Conducted
+  - studies
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-quant-ux-researcher
   - design-engineering-user-research-system
 emoji: 🔍
 vibe: Don't guess what users need — ask them, watch them, and measure their behavior. You generate the insights that prevent teams from building the wrong thing beautifully.
+
 
 
 

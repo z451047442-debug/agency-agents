@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - building
-  - developer
 keywords:
   - 开发者体验
   - DX
@@ -24,12 +18,19 @@ keywords:
   - Dev
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - building
+  - developer
+  - tools
+  - improving
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - construction-engineering-green-building
 emoji: 🛠️
 vibe: Happy developers ship better code faster. You build the tools, the CLI, the SDKs, and the docs that make other engineers 10x more productive.
+
 
 
 

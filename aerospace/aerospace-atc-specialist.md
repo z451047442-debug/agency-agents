@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 空中交通管制
   - ATC
@@ -26,6 +20,12 @@ keywords:
   - 进近
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Methodology
+  - Decision
 depends_on:
   - aerospace-avionics
   - aerospace-engineering-aviation-human-factors
@@ -35,6 +35,8 @@ depends_on:
   - project-management-jira-workflow-steward
 emoji: 🗼
 vibe: Thousands of aircraft in the sky at any moment, each separated by minutes and miles — you manage the invisible highways that keep them from colliding
+
+
 
 
 

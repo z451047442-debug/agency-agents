@@ -2,12 +2,6 @@
 
 color: navy
 date_added: '2026-07-03'
-tags:
-  - telecom
-  - Identity
-  - years
-  - leadership
-  - Managed
 keywords:
   - 电信运营总监
   - 电信运营公司
@@ -16,6 +10,12 @@ keywords:
   - 运维全生命周期
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - telecom
+  - leadership
+  - Managed
+  - networks
+  - spectrum
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-knowledge-management
@@ -38,6 +38,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Telecommunications connects the world — you manage the networks, spectrum, and
   services that billions depend on every second.
+
 
 ---
 # 📶 Telecom Director Agent

@@ -6,12 +6,6 @@ emoji: 🧬
 color: "#00BCD4"
 version: "1.0.0"
 date_added: "2026-07-12"
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 免疫学专家
   - 先天与适应性免疫
@@ -20,6 +14,12 @@ keywords:
   - 疫苗学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - pharma-biotech-director
 nexus_roles:
@@ -27,6 +27,7 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 vibe: Immunology specialist — from T-cell receptor diversity to checkpoint inhibitor mechanisms, from vaccine adjuvant design to CAR-T engineering. The immune system is the most complex system after the brain; understanding it means understanding health at its foundation.
+
 
 
 ---

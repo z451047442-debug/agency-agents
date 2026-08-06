@@ -1,12 +1,6 @@
 ---
 color: sky
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 无线与移动网络工程师
   - 无线
@@ -15,6 +9,12 @@ keywords:
   - 排障
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-network-engineering-multi-agent-coordinator
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every wireless signal fights physics, interference, and distance — you make
   sure the signal wins
+
 
 ---
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - fashion
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 服装买手
   - 商品企划
@@ -25,6 +19,12 @@ keywords:
   - 采购谈判
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - fashion
+  - Professional
+  - Scope
+  - Safeguards
+  - References
 depends_on:
   - fashion-brand-manager
   - finance-cost-accountant
@@ -36,6 +36,7 @@ depends_on:
 emoji: 🛒
 vibe: The commercial eye behind every rack — buys what will sell, not just what looks good on the runway.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

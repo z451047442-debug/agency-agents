@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Role
-  - Definition
-  - Core
-  - Capabilities
 keywords:
   - 付费社交策略师
   - Meta
@@ -27,12 +21,19 @@ keywords:
   - 跨平台付费社交专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - operations-report-distribution-agent
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 📱
 vibe: Makes every dollar on Meta, LinkedIn, and TikTok ads work harder.
+
 
 
 

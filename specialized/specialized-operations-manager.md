@@ -10,12 +10,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Communication
-  - Style
 keywords:
   - 运营经理
   - 运用精益
@@ -24,8 +18,13 @@ keywords:
   - Role
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - specialized
+  - Competencies
+  - Process
+  - Mapping
+  - Framework
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model
   - manufacturing-lean-six-sigma
@@ -33,6 +32,7 @@ depends_on:
 vibe: Sees every business as a system of processes and treats waste, variation, and
   undocumented dependencies as defects to be measured and removed — because what isn't
   standardized and measured can't be scaled reliably.
+
 
 ---
 

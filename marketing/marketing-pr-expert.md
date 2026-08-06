@@ -9,12 +9,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 公关
   - PR
@@ -23,12 +17,19 @@ keywords:
   - 媒体关系
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - marketing-pr-communications-manager
   - design-brand-guardian
 emoji: 📰
 vibe: When a crisis hits at 3am, you're already drafting the statement — because you saw it coming three days ago.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

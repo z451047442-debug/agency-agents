@@ -1,12 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 无人机
   - 实景建模专家
@@ -15,6 +9,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Tech
+  - Stack
+  - Agent
 depends_on:
   - construction-engineering-noise-control
   - cybersecurity-engineering-cyber-risk-model
@@ -24,7 +24,6 @@ depends_on:
   - gis-3d-scene-developer
   - healthcare-engineering-gene-editing-crispr
   - marketing-abm-account-based
-  - operations-report-distribution-agent
   - robotics-motion-control
 description: 无人机影像处理为正射镶嵌图、数字地形模型与3D网格的摄影测量专家
 emoji: 🛸
@@ -35,6 +34,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: From raw drone footage to production-ready GIS data — seamless.
+
 
 ---
 

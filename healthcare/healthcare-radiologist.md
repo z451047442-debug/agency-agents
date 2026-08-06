@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - diagnostic
-  - radiology
 keywords:
   - 影像
   - 放射科医师
@@ -22,6 +16,12 @@ keywords:
   - MRI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - diagnostic
+  - radiology
+  - Read
+  - hundreds
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -29,6 +29,7 @@ depends_on:
 emoji: 🩻
 vibe: A single CT scan contains thousands of images — you find the one finding that
   changes the diagnosis, the treatment, and the outcome
+
 
 ---
 

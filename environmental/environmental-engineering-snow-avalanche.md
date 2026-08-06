@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - permafrost
-  - cold
 keywords:
   - 雪冰
   - 冰川
@@ -25,14 +19,20 @@ keywords:
   - 季节性冻土路基工程设计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - permafrost
+  - cold
+  - regions
+  - engineering
 depends_on:
   - environmental-engineering-climate-tech
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - healthcare-engineering-cold-chain-pharma
-  - operations-report-distribution-agent
 emoji: ❄️
 vibe: Building roads, pipelines, and railways on permafrost that's melting due to climate change — that's the challenge of cold regions engineering
+
 
 
 

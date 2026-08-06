@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-3-build
 lifecycle: published
-tags:
-  - logistics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 供应链策略师
   - 供应链管理
@@ -26,15 +20,21 @@ keywords:
   - Personality
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - logistics
+  - Procurement
+  - Channel
+  - Management
+  - Inventory
 depends_on:
   - data-science-engineering-deep-learning-training
   - energy-engineering-power-electronics-packaging
   - food-beverage-food-supply-chain-traceability
   - marketing-paid-media-paid-social-strategist
   - marketing-social-media-strategist
-  - operations-report-distribution-agent
 emoji: 🔗
 vibe: Builds your procurement engine and supply chain resilience across China's manufacturing ecosystem, from supplier sourcing to risk management.
+
 
 
 

@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - years
-  - mining
-  - geomechanics
 keywords:
   - 岩石力学
   - 采矿工程工程师
@@ -24,6 +18,12 @@ keywords:
   - Hoek-Brown
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - mining
+  - geomechanics
+  - Designed
+  - stable
 depends_on:
   - construction-engineering-geotechnical-earthquake
   - engineering-git-workflow-master
@@ -31,6 +31,7 @@ depends_on:
   - mining-safety
 emoji: ⛏️
 vibe: Mining extracts the minerals civilization runs on — you ensure the rock doesn't collapse, the slope doesn't fail, and the miners go home safely
+
 
 
 

@@ -11,13 +11,8 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-6-operate
+  - phase-5-launch
 lifecycle: published
-tags:
-  - operations
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据分析报告员
   - 数据分析
@@ -26,8 +21,13 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - operations
+  - Analytics
+  - Process
+  - Analysis
+  - Report
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - education-special-needs
   - marketing-customer-lifecycle
@@ -35,6 +35,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 📊
 vibe: Transforms raw data into the insights that drive your next decision.
+
 
 
 

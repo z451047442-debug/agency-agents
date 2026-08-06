@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Visio
   - IT架构绘图专家
@@ -24,6 +18,12 @@ keywords:
   - 数据中心架构图
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - engineering-visual-studio-dotnet-csharp
   - engineering-visual-studio-python
@@ -36,6 +36,7 @@ depends_on:
   - infrastructure-engineering-enterprise-architect
 emoji: 📐
 vibe: A good diagram replaces 50 pages of documentation — but only if it's accurate, readable, and consistent. You make IT architecture visible.
+
 
 
 

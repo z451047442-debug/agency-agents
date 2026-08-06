@@ -10,12 +10,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - quality
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 服务质量与客户体验
   - CX
@@ -24,8 +18,13 @@ keywords:
   - ISO
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - quality
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - education-special-needs
   - engineering-multi-agent-systems-architect
   - infrastructure-identity-access
@@ -33,6 +32,7 @@ depends_on:
   - testing-tool-evaluator
 emoji: ⭐
 vibe: In manufacturing, quality is measured in defects per million. In service, it's measured in moments of truth — every call, every chat, every interaction. You design the system that makes every moment count.
+
 
 
 ---

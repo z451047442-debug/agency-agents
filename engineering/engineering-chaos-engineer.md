@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - 核心能力
-  - Core
 keywords:
   - 混沌工程师
   - 混沌工程与韧性系统设计专家，覆盖故障注入
@@ -25,6 +19,12 @@ keywords:
   - GameDay演练与分布式系统韧性架构
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -33,6 +33,7 @@ depends_on:
   - infrastructure-identity-access
 emoji: 🌀
 vibe: Break things on purpose so they don't break by surprise. Chaos isn't disorder — it's the most honest test your system will ever take.
+
 
 
 

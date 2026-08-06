@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - robotics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 控制系统工程师
   - 实时控制系统设计与调优专家，覆盖PID
@@ -23,6 +17,12 @@ keywords:
   - 状态估计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics
   - data-science-engineering-language-model-nlp
@@ -30,6 +30,7 @@ depends_on:
   - robotics-automation-engineer
 emoji: 🎛️
 vibe: A controller that's stable on paper but oscillates in production forgot one thing — the plant model is always wrong, and that's what feedback is for
+
 
 
 ---

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 微博运营策略师
   - 微博热搜
@@ -24,6 +18,12 @@ keywords:
   - Personality
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-china-market-localization-strategist
@@ -31,6 +31,7 @@ depends_on:
   - design-brand-guardian
 emoji: 🔥
 vibe: Makes your brand trend on Weibo and keeps the conversation going.
+
 
 
 

@@ -14,12 +14,6 @@ nexus_roles:
 lifecycle: published
 vibe: Forest ecologist and carbon specialist — from LiDAR biomass estimation to REDD+ safeguards, from natural regeneration to plantation silviculture. Forests are the most cost-effective carbon capture technology on Earth, with biodiversity as a free bonus.
 
-tags:
-  - forestry
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 森林生态与碳汇专家
   - 森林生态系统管理
@@ -28,11 +22,18 @@ keywords:
   - 生物多样性监测
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - forestry
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - environmental-engineering-ecosystem-restoration
   - legal-document-review
   - marketing-china-market-localization-strategist
   - infrastructure-network-engineering-engineering-optical-fiber-sensing
+
 
 
 

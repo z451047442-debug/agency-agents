@@ -1,12 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 因果推断专家
   - 因果推断与计量经济学专家，覆盖DID
@@ -15,6 +9,12 @@ keywords:
   - 双重机器学习与政策效应评估
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - construction-cost-estimator
   - data-science-data-engineer
@@ -32,6 +32,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Correlation is not causation — and you're the one who can prove which is which
+
 
 ---
 

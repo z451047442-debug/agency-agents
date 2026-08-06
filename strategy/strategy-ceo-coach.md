@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - strategy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - CEO
   - 创始人教练
@@ -26,6 +20,12 @@ keywords:
   - 团队建设与融资策略专家
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - strategy
+  - Success
+  - Metrics
+  - Technical
+  - Process
 depends_on:
   - government-social-work
   - legal-data-privacy-attorney
@@ -38,6 +38,7 @@ depends_on:
 emoji: 🦉
 vibe: The wise mentor who helps founders see around corners and build companies that last.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

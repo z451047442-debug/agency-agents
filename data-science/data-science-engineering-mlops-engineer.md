@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - MLOps
   - 机器学习运维工程师
@@ -28,6 +22,12 @@ keywords:
   - 模型监控与
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -39,6 +39,7 @@ depends_on:
 emoji: 🔄
 vibe: Building an ML model is 20% of the work. Making it serve predictions reliably at scale for the next 3 years is the other 80%.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

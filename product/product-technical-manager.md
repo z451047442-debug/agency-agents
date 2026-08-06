@@ -15,12 +15,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 技术产品经理
   - TPM
@@ -29,8 +23,13 @@ keywords:
   - 技术路线图
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - product
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-consolidation-agent
   - data-science-engineering-knowledge-management
   - finance-cost-accountant
@@ -41,6 +40,7 @@ depends_on:
   - spatial-computing-engineering-metaverse-experience
 emoji: ⚡
 vibe: Building products for builders — you speak engineer and user, translating between what's possible and what's valuable
+
 
 
 

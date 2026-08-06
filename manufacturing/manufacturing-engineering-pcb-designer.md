@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - design
-  - Laid
 keywords:
   - PCB
   - 电子硬件设计工程师
@@ -24,11 +18,18 @@ keywords:
   - Layout
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - design
+  - Laid
+  - boards
+  - simple
 depends_on:
   - manufacturing-engineering-3d-printing-additive
   - telecom-engineering-signal-integrity
 emoji: 🛠️
 vibe: Every chip needs a home — you design the circuit boards that connect processors, memory, sensors, and power into working electronics
+
 
 
 

@@ -8,6 +8,7 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
 keywords:
   - 卫星系统工程师
@@ -17,6 +18,12 @@ keywords:
   - 轨道控制
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
@@ -24,7 +31,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 description: 卫星/航天器总体设计与在轨运行专家，覆盖平台设计、载荷集成、轨道控制、地面测控
 category: aerospace
-tags: [satellite, spacecraft, orbit, ground-station, payload]
+
+
 
 
 ---

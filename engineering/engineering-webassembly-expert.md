@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - WebAssembly
   - 专家
@@ -24,6 +18,12 @@ keywords:
   - WASI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -35,6 +35,7 @@ depends_on:
 emoji: ⚡
 vibe: Runs near-native code in the browser — from Figma to Photoshop, WASM makes the impossible possible.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

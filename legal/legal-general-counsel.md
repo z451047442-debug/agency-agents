@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Domain
-  - Framework
 keywords:
   - 企业法务总监
   - 总法律顾问，覆盖公司治理
@@ -15,13 +9,17 @@ keywords:
   - 合同
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Domain
+  - Framework
+  - Success
+  - Metrics
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
   - legal-multi-agent-coordinator
   - finance-accounts-payable-agent
   - legal-engineering-legal-document-automation
-  - operations-report-distribution-agent
 description: 企业法务总监/总法律顾问，覆盖公司治理/董事会法律支持、合规体系建设、合同/诉讼管理、外部律所管理、法律风险预警与业务法律支持
 emoji: ⚖️
 lifecycle: published
@@ -33,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: You don't just say no — you find the legal path to yes. The business wants to
   move fast; your job is making sure they move fast without stepping on landmines.
+
 
 ---
 

@@ -12,12 +12,6 @@ nexus_roles: [phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Political and military leader thinking models — from Napoleon's strategic genius to Churchill's indomitable will, from Washington's restraint to Eisenhower's delegation. These leaders faced decisions where millions of lives hung in the balance.
 
-tags:
-  - thinking-models
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 政治与军事领袖思维模型专家
   - 拿破仑
@@ -26,12 +20,19 @@ keywords:
   - 坚韧演说思维
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - thinking-models
+  - Tools
+  - Frameworks
+  - Success
+  - Metrics
 depends_on:
   - aerospace-military-aviation-weapons
   - specialized-agentic-identity-trust
   - specialized-personal-growth-mentor
   - testing-engineering-test-automation-framework
   - web3-defi-strategist
+
 
 
 ---

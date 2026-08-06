@@ -9,14 +9,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
+  - phase-6-operate
 lifecycle: published
 
-tags:
-  - sports
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 赛事运营经理
   - 赛事物流与场馆管理
@@ -25,16 +20,21 @@ keywords:
   - 赞助商激活管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sports
+  - Capabilities
+  - Success
+  - Metrics
+  - Professional
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-engineering-incident-response-commander
   - marketing-brand-strategist-name
   - marketing-paid-media-paid-social-strategist
   - marketing-social-media-strategist
-  - operations-report-distribution-agent
   - sports-agent
 emoji: 🏟️
 vibe: Behind every sold-out stadium is a military-grade operation — orchestrates the chaos so fans only see magic.
+
 
 
 

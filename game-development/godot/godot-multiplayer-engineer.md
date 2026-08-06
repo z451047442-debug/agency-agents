@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Godot
   - 多人网络工程师
@@ -24,6 +18,12 @@ keywords:
   - MultiplayerAPI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Process
+  - Methodology
+  - Decision
 depends_on:
   - data-science-model-qa
   - education-field-archaeology
@@ -36,6 +36,7 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 🌐
 vibe: Masters Godot's MultiplayerAPI to make real-time netcode feel seamless.
+
 
 
 

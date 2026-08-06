@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Godot
   - Shader
@@ -24,6 +18,12 @@ keywords:
   - 精通
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Godot
+  - Shader
+  - Review
 depends_on:
   - engineering-minimal-change-engineer
   - spatial-computing-macos-spatial-metal-engineer
@@ -32,6 +32,7 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 💎
 vibe: Bends light and pixels through Godot's shading language to create stunning effects.
+
 
 
 

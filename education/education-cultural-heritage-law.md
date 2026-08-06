@@ -11,12 +11,6 @@ nexus_roles: [phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Cultural heritage law specialist — from the 1970 UNESCO Convention to NAGPRA, from the Elgin Marbles to the Benin Bronzes. Who owns the past, and who decides what is preserved, returned, or destroyed?
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 文化遗产法律与政策专家
   - 文化遗产保护法
@@ -25,12 +19,19 @@ keywords:
   - 文物返还与restitution
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - engineering-code-reviewer
   - engineering-git-workflow-master
   - legal-engineering-legal-document-automation
   - testing-engineering-test-automation-framework
   - tourism-cultural-heritage
+
 
 
 ---

@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - tool
-  - design
 keywords:
   - 模具
   - 工装夹具设计工程师
@@ -23,11 +17,18 @@ keywords:
   - 压铸模具与工装夹具设计专家，覆盖注塑模
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - tool
+  - design
+  - Designed
+  - molds
 depends_on:
   - manufacturing-engineering-3d-printing-additive
   - marketing-paid-media-tracking-specialist
 emoji: 🔧
 vibe: Before a million plastic parts can be made, someone has to design the mold that makes them — that's you, engineering the tool that defines quality for every single part
+
 
 
 

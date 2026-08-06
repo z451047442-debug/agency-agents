@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Linguist — from Chomsky's Universal Grammar to usage-based construction grammar, from Proto-Indo-European to transformer language models. Language is the defining characteristic of human cognition; understanding it reveals how the mind works.
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 语言学专家
   - 理论语言学
@@ -26,10 +20,17 @@ keywords:
   - 句法
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - finance-engineering-credit-risk-model
   - hr-tech-hrtech-people-analytics
   - hr-tech-people-analytics
+
 
 
 ---

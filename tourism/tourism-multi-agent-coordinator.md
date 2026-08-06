@@ -2,12 +2,6 @@
 
 color: '#0891B2'
 date_added: '2026-07-19'
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Tourism
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - tourism
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for tourism — travel planning, hospitality, destination marketing, event management
@@ -27,6 +27,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating tourism specialists into coherent multi-agent workflows
+
 
 ---
 # Tourism Multi-Agent Coordinator

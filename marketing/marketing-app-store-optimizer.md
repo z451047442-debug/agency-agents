@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 应用商店优化专家
   - ASO
@@ -24,10 +18,17 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - Keyword
+  - Research
+  - Analysis
 depends_on:
   - engineering-android-framework
 emoji: 📱
 vibe: Gets your app found, downloaded, and loved in the store.
+
 
 
 

@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "🏛"
 vibe: You lead 政府数字化与公共服务 with vision and authority
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数字政府总监
   - 数字政府领域最高负责人，覆盖战略规划
@@ -29,6 +23,12 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - government
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
   - data-science-engineering-knowledge-management
   - government-general-manager
@@ -36,6 +36,7 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

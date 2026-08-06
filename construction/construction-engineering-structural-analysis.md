@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - structural
-  - analysis
 keywords:
   - 结构分析
   - 有限元
@@ -26,6 +20,12 @@ keywords:
   - 高级结构有限元分析与仿真专家，覆盖非线性FEA
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - structural
+  - analysis
+  - Simulated
+  - everything
 depends_on:
   - construction-architectural-designer
   - cybersecurity-engineering-cyber-risk-model
@@ -36,6 +36,7 @@ depends_on:
   - web3-smart-contract-developer
 emoji: 📐
 vibe: Before steel is cut and concrete poured, you simulate every load, every stress, every failure mode — ensuring the structure survives reality
+
 
 
 

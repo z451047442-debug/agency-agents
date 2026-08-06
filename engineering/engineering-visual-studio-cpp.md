@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Visual
   - Studio
@@ -24,6 +18,12 @@ keywords:
   - 链接器优化
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - References
+  - Standards
+  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -33,6 +33,7 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🔷
 vibe: Visual Studio C++ is not just an IDE — it's the most powerful debugger on Windows. You know every breakpoint type, every watch window trick, and exactly what /O2 does to your loops
+
 
 
 

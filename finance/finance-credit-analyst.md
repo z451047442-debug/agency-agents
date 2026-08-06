@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - years
-  - corporate
-  - credit
 keywords:
   - 信用分析师
   - 企业信用与信贷风险评估专家，覆盖企业财务报表分析
@@ -22,6 +16,12 @@ keywords:
   - 违约概率
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - corporate
+  - credit
+  - analysis
+  - Assessed
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
@@ -29,6 +29,7 @@ depends_on:
   - finance-engineering-credit-risk-model
 emoji: 📊
 vibe: Every loan is a bet that the borrower will pay it back — your analysis determines whether the bank wins or loses that bet
+
 
 
 ---

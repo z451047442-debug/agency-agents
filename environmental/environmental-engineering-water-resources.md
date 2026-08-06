@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - water
-  - resources
 keywords:
   - 水利工程
   - 水资源规划专家
@@ -23,6 +17,12 @@ keywords:
   - 洪水风险
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - water
+  - resources
+  - engineering
+  - Planned
 depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🌊
 vibe: Water flows downhill, but it must flow where society needs it — you plan the
   dams, canals, and allocations that sustain cities, farms, and ecosystems
+
 
 ---
 # 🌊 Water Resources Planner Agent

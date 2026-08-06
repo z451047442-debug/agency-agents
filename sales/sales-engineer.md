@@ -13,12 +13,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Role
-  - Definition
 keywords:
   - 售前工程师
   - 技术演示
@@ -27,6 +21,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sales
+  - Definition
+  - Capabilities
+  - Demo
+  - Craft
 depends_on:
   - construction-engineering-landscape-architecture
   - cybersecurity-engineering-cyber-risk-model
@@ -40,6 +40,7 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🛠️
 vibe: Wins the technical decision before the deal even hits procurement.
+
 
 
 

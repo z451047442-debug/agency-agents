@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - automotive
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 新能源电池系统工程师
   - 动力电池系统设计与热管理专家，覆盖电芯化学
@@ -24,15 +18,20 @@ keywords:
   - Dr
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - energy-engineering-battery-recycling
   - energy-engineering-energy-storage-materials-sci
   - energy-engineering-grid-scale-storage
   - infrastructure-identity-access
-  - operations-report-distribution-agent
 emoji: 🔋
 vibe: The battery is the heart of the electric revolution — every gram of weight, every degree of temperature, every cycle of life matters
+
 
 
 

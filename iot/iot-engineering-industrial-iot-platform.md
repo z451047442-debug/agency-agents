@@ -2,12 +2,6 @@
 
 color: teal
 date_added: '2026-07-03'
-tags:
-  - iot
-  - Identity
-  - years
-  - industrial
-  - connectivity
 keywords:
   - 工业物联网平台工程师
   - 工业物联网
@@ -16,6 +10,12 @@ keywords:
   - UA
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - industrial
+  - connectivity
+  - Connected
+  - factories
 depends_on:
   - engineering-code-reviewer
   - iot-architect
@@ -36,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Factories generate terabytes trapped in PLCs and legacy systems. You liberate
   industrial data for analytics, AI, and digital twins.
+
 
 ---
 # 🏭 IIoT Platform Engineer Agent

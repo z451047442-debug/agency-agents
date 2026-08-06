@@ -1,12 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 摄像师
   - 视频制作人
@@ -15,6 +9,12 @@ keywords:
   - 现场收音
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - media-entertainment-multi-agent-coordinator
   - marketing-paid-media-creative-strategist
@@ -30,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every frame is a choice — what you show, how you show it, and what the viewer
   feels because of those choices
+
 
 ---
 

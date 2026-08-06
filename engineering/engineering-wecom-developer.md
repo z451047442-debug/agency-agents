@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 企业微信集成开发工程师
   - 企业微信开放平台
@@ -23,6 +17,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - References
+  - Standards
+  - Success
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-engineering-incident-response-commander
@@ -31,6 +31,7 @@ depends_on:
 vibe: Builds enterprise integrations on the WeCom (企业微信) Open Platform — self-built
   apps, customer contact, message broadcasting, and external partners — bridging internal
   workflows with the WeChat ecosystem.
+
 
 ---
 

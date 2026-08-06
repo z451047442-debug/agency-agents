@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - MBSE
-  - digital
 keywords:
   - 数字主线
   - 数字工程
@@ -24,11 +18,18 @@ keywords:
   - 架构师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - MBSE
+  - digital
+  - engineering
+  - Connected
 depends_on:
   - food-beverage-food-supply-chain-traceability
   - manufacturing-engineering-3d-printing-additive
 emoji: 🔗
 vibe: A product's digital thread connects every decision from concept to retirement — requirements, design, manufacturing, and operations are all linked by data that enables traceability across decades
+
 
 
 

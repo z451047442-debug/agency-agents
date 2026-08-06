@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - iOS
   - 开发工程师
@@ -23,6 +17,12 @@ keywords:
   - App
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - aerospace-flight-test-engineer
   - engineering-build-release-engineer
@@ -33,6 +33,7 @@ emoji: 🍎
 vibe: Crafts pixel-perfect iOS experiences that feel native, fluid, and unmistakably
   Apple.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 ---
 # iOS 开发工程师

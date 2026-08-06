@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - industrial
-  - piping
 keywords:
   - 管道
   - 配管设计工程师
@@ -26,6 +20,12 @@ keywords:
   - B31.3管道规范
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - industrial
+  - piping
+  - Designed
+  - systems
 depends_on:
   - construction-engineering-industrial-refrigeration
   - engineering-git-workflow-master
@@ -34,6 +34,7 @@ depends_on:
   - mining-safety
 emoji: 🔧
 vibe: Every refinery, every chemical plant, every power station is a maze of pipes — you design the arteries that carry steam, chemicals, and fuel safely
+
 
 
 

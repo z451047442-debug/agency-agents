@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - robotics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工业自动化专家
   - 工业自动化与智能制造专家，覆盖PLC
@@ -25,6 +19,12 @@ keywords:
   - MES集成
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-engineering-noise-control
   - data-science-engineering-language-model-nlp
@@ -34,6 +34,7 @@ depends_on:
   - telecom-engineering-signal-integrity
 emoji: 🏭
 vibe: The factory floor doesn't forgive — code that controls physical machinery must be correct the first time, every time
+
 
 
 

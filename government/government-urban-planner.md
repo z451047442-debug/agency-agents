@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Domain
-  - Expertise
 keywords:
   - 城市规划师
   - 总体规划与详细规划
@@ -25,6 +19,12 @@ keywords:
   - 社区参与与公众参与
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - Domain
+  - Expertise
+  - Success
+  - Metrics
 depends_on:
   - government-digital-presales-consultant
   - legal-engineering-legal-document-automation
@@ -34,6 +34,7 @@ depends_on:
 emoji: 🏙️
 vibe: Shapes the physical and social fabric of cities with foresight, equity, and data-driven precision.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

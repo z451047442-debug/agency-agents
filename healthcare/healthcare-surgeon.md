@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - Clinical
-  - Domain
 keywords:
   - 外科医师
   - 外科手术与围术期管理专家，覆盖术前评估
@@ -23,12 +17,19 @@ keywords:
   - 微创
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - Clinical
+  - Domain
+  - Expertise
+  - Success
 depends_on:
   - design-engineering-user-research-system
   - healthcare-engineering-medical-imaging-ai
   - quality-healthcare-clinical
 emoji: 🔪
 vibe: Surgery is controlled trauma — you plan meticulously, execute precisely, and manage the aftermath because the patient trusted you with their body
+
 
 
 

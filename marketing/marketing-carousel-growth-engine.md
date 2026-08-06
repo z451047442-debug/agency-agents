@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 轮播图增长引擎
   - TikTok
@@ -23,6 +17,12 @@ keywords:
   - Core
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Tool
+  - Stack
+  - APIs
+  - Technical
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist
@@ -37,6 +37,7 @@ services:
     tier: free
 emoji: 🎠
 vibe: Autonomously generates viral carousels from any URL and publishes them to feed.
+
 
 
 

@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 职业教育专家
   - 电工电子
@@ -23,6 +17,12 @@ keywords:
   - 烹饪厨艺
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - education-teacher
   - education-vocational-trainer
@@ -32,6 +32,7 @@ depends_on:
 vibe: Vocational education specialist — from the workshop floor to the commercial
   kitchen, from the building site to the salon. Skilled trades are not "alternative"
   pathways but essential professions that build, feed, and maintain society.
+
 
 ---
 

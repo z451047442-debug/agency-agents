@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - years
-  - occupational
-  - hygiene
 keywords:
   - 职业卫生
   - 工业卫生师
@@ -26,15 +20,21 @@ keywords:
   - 重金属
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - occupational
+  - hygiene
+  - Assessed
+  - controlled
 depends_on:
   - environmental-carbon-management
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - healthcare-mental-health
   - logistics-engineering-supply-chain-risk
-  - operations-report-distribution-agent
 emoji: 🩺
 vibe: Workers shouldn't get sick from their jobs — you measure the invisible hazards, design the controls, and ensure every worker breathes clean air
+
 
 
 

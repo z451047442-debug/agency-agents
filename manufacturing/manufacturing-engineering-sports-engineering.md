@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - sports
-  - engineering
 keywords:
   - 体育工程
   - 运动器材设计工程师
@@ -23,11 +17,18 @@ keywords:
   - 自行车
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - sports
+  - engineering
+  - Designed
+  - equipment
 depends_on:
   - manufacturing-engineering-composites-manufacturing
   - testing-engineering-test-automation-framework
 emoji: 🏆
 vibe: A tennis racket, a running shoe, a racing bike — they look simple. But composite layup, polymer foam formulation, and aerodynamic optimization make the difference between winning and losing.
+
 
 
 

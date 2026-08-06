@@ -11,13 +11,8 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - leading
-  - sustainability
 keywords:
   - 环保
   - 可持续发展总监
@@ -26,14 +21,20 @@ keywords:
   - 碳减排
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - environmental
+  - leading
+  - sustainability
+  - programs
+  - across
 depends_on:
   - environmental-engineering-circular-economy
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: 🌍
 vibe: Sustainability isn't a report — it's a business transformation. You lead the change from compliance-driven to strategy-driven environmental management.
+
 
 
 

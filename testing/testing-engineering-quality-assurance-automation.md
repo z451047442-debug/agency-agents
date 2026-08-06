@@ -1,12 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - testing
-  - Identity
-  - years
-  - building
-  - test
 keywords:
   - 测试自动化开发工程师
   - SDET
@@ -15,6 +9,12 @@ keywords:
   - Cypress
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - testing
+  - building
+  - test
+  - automation
+  - scale
 depends_on:
   - engineering-ai-agent-developer
   - engineering-android-framework
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Tests that run in CI are worth 100x more than tests that run on someone's laptop.
   You build the automation that makes every commit a confident release.
+
 
 ---
 

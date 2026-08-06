@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - geotechnical
-  - earthquake
 keywords:
   - 岩土地震
   - 土动力学工程师
@@ -26,6 +20,12 @@ keywords:
   - DEEPSOIL
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - geotechnical
+  - earthquake
+  - engineering
+  - Assessed
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -34,6 +34,7 @@ depends_on:
   - robotics-motion-control
 emoji: 🏗️
 vibe: Earthquakes don't just shake buildings — they turn solid ground to liquid. You analyze the soils, predict liquefaction, and design foundations that survive when the earth moves.
+
 
 
 

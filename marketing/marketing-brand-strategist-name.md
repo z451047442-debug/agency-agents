@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - years
-  - brand
-  - naming
 keywords:
   - 品牌命名
   - 语言策略师
@@ -24,6 +18,12 @@ keywords:
   - 服务命名策略
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - brand
+  - naming
+  - verbal
+  - Named
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
@@ -31,6 +31,7 @@ depends_on:
   - design-brand-guardian
 emoji: 💬
 vibe: A great name is the shortest story you'll ever tell about your brand — you find the one word, in every language, that captures the essence and won't get you sued
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Autodesk
   - 3ds
@@ -25,6 +19,12 @@ keywords:
   - 渲染
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Tools
+  - Technologies
+  - Process
 depends_on:
   - engineering-visual-studio-cpp
   - engineering-visual-studio-dotnet-csharp
@@ -33,6 +33,7 @@ depends_on:
   - media-entertainment-engineering-entertainment-technology
 emoji: 🏗️
 vibe: 3ds Max is the Swiss Army knife of 3D — architecture, games, VFX, product design — it does everything, and you know which blade to use for each
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Unity
   - 架构师
@@ -25,6 +19,12 @@ keywords:
   - DOTS
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - game-development
+  - Technical
+  - Process
+  - Methodology
+  - Decision
 depends_on:
   - game-development-game-audio-engineer
   - logistics-public-transit
@@ -34,6 +34,7 @@ depends_on:
   - unreal-engine-unreal-technical-artist
 emoji: 🏛️
 vibe: Designs data-driven, decoupled Unity systems that scale without spaghetti.
+
 
 
 

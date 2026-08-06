@@ -10,12 +10,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 保险精算师
   - 费率厘定
@@ -24,12 +18,19 @@ keywords:
   - IFRS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-insurance-underwriter
 emoji: 📐
 vibe: Puts a number on the future — mortality, morbidity, catastrophe — turning uncertainty into premium.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch
+
 
 
 

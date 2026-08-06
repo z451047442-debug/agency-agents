@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 个人理财顾问
   - 家庭资产配置
@@ -26,12 +20,19 @@ keywords:
   - 教育金规划专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
 emoji: 🏦
 vibe: Money is personal — you don't just manage portfolios, you manage hopes, fears, and retirement dreams.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

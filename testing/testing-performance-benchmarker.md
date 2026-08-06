@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - testing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 性能基准测试专家
   - 性能测试
@@ -16,6 +10,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - testing
+  - Technical
+  - Process
+  - Deliverable
+  - Template
 depends_on:
   - engineering-git-workflow-master
   - testing-multi-agent-coordinator
@@ -27,9 +27,11 @@ emoji: ⏱️
 lifecycle: published
 name: 性能基准测试专家
 nexus_roles:
-- phase-4-hardening
+  - phase-6-operate
+  - phase-4-hardening
 version: 1.0.0
 vibe: Measures everything, optimizes what matters, and proves the improvement.
+
 
 ---
 # Performance Benchmarker Agent Personality

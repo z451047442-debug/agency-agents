@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - GitOps部署专家
   - ArgoCD与GitOps持续部署专家
@@ -22,6 +16,12 @@ keywords:
   - ApplicationSet
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Actionable
+  - Directives
+  - Deliverable
+  - References
 depends_on:
   - infrastructure-windows-server
   - infrastructure-ansible-expert
@@ -29,6 +29,7 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: 🚢
 vibe: GitOps means Git is the single source of truth. When your entire infrastructure state is declared in Git and ArgoCD reconciles it, deployments become auditable, reproducible, and one git revert away from rollback.
+
 
 
 ---

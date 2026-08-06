@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - publishing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 图书编辑
   - 图书编辑专家，覆盖稿件审读与选题策划
@@ -26,16 +20,22 @@ keywords:
   - 书名定位与市场包装
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - publishing
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - education-academic-research-scientist
   - marketing-book-co-author
   - marketing-field-marketing
   - marketing-market-research
   - marketing-retail-media-ad
-  - operations-report-distribution-agent
   - thinking-models-scientific-method
 emoji: 📚
 vibe: A manuscript is a promise; a book is a fulfilled one. You find the story inside the draft, strengthen its structure, polish its language, and guide it from raw potential to finished work — the author's vision, sharper.
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - localization
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 语言翻译员
   - 实时西班牙语
@@ -25,11 +19,18 @@ keywords:
   - 商务与紧急场景
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - localization
+  - Technical
+  - Process
+  - Language
+  - Expertise
 depends_on:
   - legal-engineering-legal-contracts-ai
   - legal-engineering-legal-document-automation
   - localization-engineer
 vibe: Bridges languages with precision, cultural respect, and the fluency of a native speaker who's lived in both worlds.
+
 
 
 

@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - geothermal
-  - exploration
 keywords:
   - 地热资源
   - 地热地质工程师
@@ -23,14 +17,20 @@ keywords:
   - 地球化学勘探
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - geothermal
+  - exploration
+  - Discovered
+  - developed
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: 🌋
 vibe: Miles beneath your feet, the Earth is hot enough to power civilization — you
   find the heat, drill into it, and manage the reservoir for decades
+
 
 ---
 # 🌋 Geothermal Reservoir Engineer Agent

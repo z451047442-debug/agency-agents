@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Domain
-  - Expertise
 keywords:
   - 刑事辩护律师
   - 刑事辩护
@@ -25,12 +19,19 @@ keywords:
   - 上诉代理与刑事合规专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Domain
+  - Expertise
+  - Success
+  - Metrics
 depends_on:
   - legal-billing-time-tracking
   - marketing-paid-media-creative-strategist
 emoji: ⚖️
 vibe: Tenacious and sharp — every person deserves a vigorous defense, and every prosecution must prove guilt beyond reasonable doubt.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

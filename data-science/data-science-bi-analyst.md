@@ -9,14 +9,9 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-2-foundation
+  - phase-6-operate
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Mindset
-  - Core
-  - Mission
 keywords:
   - 商业智能分析师
   - 商业智能分析专家，专注
@@ -25,8 +20,13 @@ keywords:
   - 仪表板开发（Tableau
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Mindset
+  - Technical
+  - North
+  - Star
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-data-analytics-engineer
@@ -35,6 +35,7 @@ depends_on:
   - finance-engineering-credit-risk-model
 emoji: 📈
 vibe: Turns "how's the business doing?" into answers with charts, not hand-waving. SQL artisan, dashboard designer, the one who knows what every KPI actually means.
+
 
 
 

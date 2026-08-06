@@ -11,12 +11,6 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Game psychology specialist — from variable ratio reinforcement to flow state design, from Bartle player types to ethical monetization. Great games are psychologically engineered experiences.
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 游戏心理学与行为设计专家
   - 玩家动机模型
@@ -25,8 +19,15 @@ keywords:
   - 奖励与强化系统
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Tools
+  - Technologies
+  - Authoritative
+  - References
 depends_on:
   - government-social-work
+
 
 ---
 # Game Psychology & Behavioral Design Specialist

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - telecom
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 电信运维经理
   - 电信网络运维管理：故障监控
@@ -27,6 +21,12 @@ keywords:
   - SLA保障
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - telecom
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -38,6 +38,7 @@ depends_on:
 emoji: 🔧
 vibe: Five nines isn't a goal — it's a contract. Every minute of downtime has a price tag and a customer on the other end.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

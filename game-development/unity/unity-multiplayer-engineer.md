@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Unity
   - 多人网络工程师
@@ -25,6 +19,12 @@ keywords:
   - Relay
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Process
+  - Methodology
+  - Decision
 depends_on:
   - data-science-model-qa
   - education-field-archaeology
@@ -37,6 +37,7 @@ depends_on:
   - sports-event-ops
 emoji: 🔗
 vibe: Makes networked Unity gameplay feel local through smart sync and prediction.
+
 
 
 

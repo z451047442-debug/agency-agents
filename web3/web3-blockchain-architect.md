@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - web3
-  - Deliverables
-  - Success
-  - Metrics
-  - Identity
 keywords:
   - 区块链架构师
   - 共识机制
@@ -25,11 +19,18 @@ keywords:
   - 协议设计与链上基础设施规划专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - web3
+  - Success
+  - Metrics
+  - Expertise
+  - Approach
 depends_on:
   - data-science-engineering-language-model-nlp
   - web3-crypto-researcher
 emoji: 🏗️
 vibe: Not every problem needs a blockchain. The ones that do need a good one.
+
 
 
 

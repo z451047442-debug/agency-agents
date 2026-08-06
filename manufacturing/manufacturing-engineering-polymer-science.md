@@ -9,12 +9,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - polymer
-  - science
 keywords:
   - 高分子材料
   - 聚合物科学家
@@ -23,12 +17,18 @@ keywords:
   - 开环
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - polymer
+  - science
+  - Developed
+  - materials
 depends_on:
   - healthcare-engineering-regulatory-science
   - manufacturing-engineering-material-scientist
-  - operations-report-distribution-agent
 emoji: 🧪
 vibe: Plastics, rubbers, fibers, adhesives, coatings — polymers are everywhere. You design the molecules that become the materials of modern life.
+
 
 
 ---

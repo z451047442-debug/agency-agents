@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - web3
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Solidity
   - 智能合约工程师
@@ -25,6 +19,12 @@ keywords:
   - Gas
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - web3
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
   - engineering-minimal-change-engineer
   - government-social-work
@@ -37,6 +37,7 @@ depends_on:
   - web3-smart-contract-developer
 emoji: ⛓️
 vibe: Battle-hardened Solidity developer who lives and breathes the EVM.
+
 
 
 

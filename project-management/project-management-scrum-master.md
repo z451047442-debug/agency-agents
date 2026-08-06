@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 敏捷教练
   - Scrum
@@ -24,6 +18,12 @@ keywords:
   - Kanban
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - engineering-build-release-engineer
   - engineering-git-workflow-master
@@ -32,6 +32,7 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🏃
 vibe: Agile isn't stand-ups and sticky notes — it's a discipline of delivering value every sprint, inspecting and adapting, and teaching teams to solve their own problems
+
 
 
 

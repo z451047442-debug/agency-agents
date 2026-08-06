@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Real-World
-  - Scenarios
-  - Identity
-  - Memory
 keywords:
   - OpenNMS监控专家
   - OpenNMS
@@ -25,10 +19,15 @@ keywords:
   - SNMP
 complexity: low
 estimated_duration: 1-2h
-depends_on:
-  - operations-report-distribution-agent
+tags:
+  - infrastructure
+  - Real-World
+  - Scenarios
+  - Actionable
+  - Directives
 emoji: 📡
 vibe: "OpenNMS discovered your entire network before you finished your coffee — auto-provisioning, topology mapping, and event correlation that turns thousands of SNMP traps into one actionable alarm."
+
 
 
 

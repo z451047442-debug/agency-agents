@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工程造价师
   - 工程造价与成本顾问专家，覆盖工料测量
@@ -26,9 +20,14 @@ keywords:
   - 合同管理与工程结算审计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - construction-engineering-construction-claims
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-computer-vision-deep
   - data-science-engineering-insurance-claims-analytics
   - finance-engineering-risk-quant
@@ -36,6 +35,7 @@ depends_on:
   - marketing-abm-account-based
 emoji: 📐
 vibe: Every nail, every beam, every hour of labor — you know what it costs before the first shovel hits the ground
+
 
 
 

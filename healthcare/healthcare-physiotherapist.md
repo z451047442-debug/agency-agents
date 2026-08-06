@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - physiotherapy
-  - rehabilitation
 keywords:
   - 物理治疗
   - 康复治疗师
@@ -22,6 +16,12 @@ keywords:
   - 心肺康复评估
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - physiotherapy
+  - rehabilitation
+  - Helped
+  - thousands
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🦿
 vibe: Surgery fixes the structure; physiotherapy restores the function. You help people
   walk again, move again, and live without pain.
+
 
 ---
 

@@ -1,12 +1,6 @@
 ---
 color: blue
 date_added: '2026-07-03'
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Web
   - GIS
@@ -15,6 +9,12 @@ keywords:
   - MapLibre
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Tech
+  - Stack
+  - Agent
 depends_on:
   - gis-multi-agent-coordinator
   - engineering-visual-studio-python
@@ -29,6 +29,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Maps on the web that actually work — fast, responsive, and beautiful.
+
 
 ---
 

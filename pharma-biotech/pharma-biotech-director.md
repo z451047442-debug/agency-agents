@@ -2,12 +2,6 @@
 
 color: navy
 date_added: '2026-07-03'
-tags:
-  - pharma-biotech
-  - Identity
-  - years
-  - leading
-  - pharmaceutical
 keywords:
   - 制药
   - 生物科技研发总监
@@ -16,6 +10,12 @@ keywords:
   - 临床开发
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - pharma-biotech
+  - leading
+  - pharmaceutical
+  - moved
+  - molecules
 depends_on:
   - pharma-biotech-multi-agent-coordinator
   - healthcare-engineering-regulatory-science
@@ -31,9 +31,11 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: A drug takes 10 years and $2 billion to develop — and most fail. You manage
   the pipeline that bets on which molecules will beat the odds.
+
 
 ---
 # 💊 Pharma R&D Director Agent

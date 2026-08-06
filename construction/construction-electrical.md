@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 建筑电气工程师
   - 建筑电气系统设计与施工专家，覆盖变配电
@@ -24,14 +18,20 @@ keywords:
   - 应急照明
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-fire-protection
   - energy-engineering-waste-to-energy
   - engineering-git-workflow-master
-  - operations-report-distribution-agent
   - specialized-document-generator
 emoji: ⚡
 vibe: Every light, every elevator, every server, every fire pump — they all need power, and you're the one who makes sure it's there, reliably, safely, efficiently
+
 
 
 

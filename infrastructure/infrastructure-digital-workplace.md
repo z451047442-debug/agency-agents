@@ -9,12 +9,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - end-user
-  - computing
 keywords:
   - 数字化工作空间
   - VDI工程师
@@ -23,6 +17,12 @@ keywords:
   - Horizon
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - end-user
+  - computing
+  - Delivered
+  - virtual
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
@@ -30,6 +30,7 @@ depends_on:
 emoji: 💻
 vibe: Work happens everywhere now — you build the virtual desktops, apps, and policies
   that let employees work securely from any device, anywhere
+
 
 ---
 

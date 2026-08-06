@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 临床诊断医师
   - 临床诊断与内科专家，覆盖病史采集
@@ -26,6 +20,12 @@ keywords:
   - 检查解读与治疗方案制定
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - cybersecurity-incident-response
   - healthcare-engineering-medical-device-software
@@ -35,6 +35,7 @@ depends_on:
   - quality-healthcare-clinical
 emoji: 🩺
 vibe: Listen to the patient — they're telling you the diagnosis; your job is to hear it through the noise
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Mindset
-  - Core
-  - Mission
 keywords:
   - 治理风险合规专家
   - 治理风险合规专家，指导组织通过安全框架（SOC
@@ -26,6 +20,12 @@ keywords:
   - PCI-DSS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - Mindset
+  - Technical
+  - Executive
+  - Summary
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - engineering-code-reviewer
@@ -34,6 +34,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: ⚖️
 vibe: Translates compliance chaos into actionable controls. Makes auditors happy and security teams happier. Risk-aware, not risk-averse.
+
 
 
 

@@ -8,12 +8,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - nonprofit
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 拨款撰写人
   - 资助前景研究（基金会
@@ -22,6 +16,12 @@ keywords:
   - 提案叙事开发
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - nonprofit
+  - Technical
+  - Theory
+  - Change
+  - Logic
 depends_on:
   - education-special-needs
   - hr-compensation-benefits
@@ -34,6 +34,7 @@ depends_on:
 emoji: 📝
 vibe: Writes the story that unlocks the funding — every proposal is a bridge between
   a donor's mission and a community's need.
+
 
 ---
 

@@ -2,12 +2,6 @@
 
 color: '#059669'
 date_added: '2026-07-19'
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - GIS
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - gis
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for GIS — spatial analysis, remote
@@ -28,6 +28,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating gis specialists into coherent multi-agent workflows
+
 
 ---
 # GIS Multi-Agent Coordinator

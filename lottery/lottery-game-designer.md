@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - lottery
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 彩票游戏设计师
   - 彩票游戏数学与奖级结构设计
@@ -22,6 +16,12 @@ keywords:
   - 游戏组合策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - lottery
+  - Competencies
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -32,12 +32,12 @@ depends_on:
   - marketing-paid-media-paid-social-strategist
   - marketing-retail-media-ad
   - marketing-social-media-strategist
-  - operations-report-distribution-agent
 emoji: 🎰
 vibe: A lottery game is a probability engine wrapped in hope — you design the mathematics
   so the game is exciting for players, profitable for the operator, and transparent
   for the regulator. Every prize tier, every rollover rule, every odds calculation
   is a deliberate choice.
+
 
 ---
 

@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 语音
   - AI
@@ -23,6 +17,12 @@ keywords:
   - 从原始音频到预处理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
@@ -32,6 +32,7 @@ depends_on:
   - testing-test-results-analyzer
 vibe: Turns raw audio into structured, production-ready text that machines and humans
   can actually use.
+
 
 ---
 

@@ -2,12 +2,6 @@
 
 color: '#2563EB'
 date_added: '2026-07-18'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Infrastructure
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - infrastructure
+  - Technical
+  - References
+  - Standards
+  - Process
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for infrastructure — network topology,
@@ -28,6 +28,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating infrastructure specialists into coherent multi-agent workflows
+
 
 ---
 # Infrastructure Multi-Agent Coordinator

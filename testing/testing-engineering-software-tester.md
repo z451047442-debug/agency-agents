@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-4-hardening
 lifecycle: published
-tags:
-  - testing
-  - Identity
-  - years
-  - SDET
-  - Built
 keywords:
   - 软件开发工程师
   - 测试方向
@@ -22,13 +16,19 @@ keywords:
   - ，覆盖单元测试
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - testing
+  - SDET
+  - Built
+  - test
+  - frameworks
 depends_on:
   - engineering-code-reviewer
   - manufacturing-multi-agent-coordinator
-  - operations-report-distribution-agent
   - testing-engineering-test-automation-framework
 emoji: 🧪
 vibe: Code that can't be tested can't be trusted. You write the tests that make refactoring safe and deployment confident.
+
 
 
 ---

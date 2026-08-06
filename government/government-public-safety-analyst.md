@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: draft
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 公共安全分析师
   - 公共安全与应急管理：风险评估
@@ -27,6 +21,12 @@ keywords:
   - 舆情监测
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -37,6 +37,7 @@ depends_on:
 emoji: 🛡️
 vibe: Safety is invisible when it works — the job is to make sure it stays that way, and to be ready when it doesn't.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles: [phase-6-operate, phase-4-hardening]
 lifecycle: published
 vibe: Productivity specialist — from GTD to Deep Work, from Pomodoro to time blocking. Productivity is not about doing more; it's about doing what matters with focused attention.
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 时间管理与生产力专家
   - 个人生产力系统
@@ -25,11 +19,18 @@ keywords:
   - 时间块
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - engineering-minimal-change-engineer
   - government-social-work
   - marketing-feed-ad-optimizer
   - testing-workflow-optimizer
+
 
 
 ---

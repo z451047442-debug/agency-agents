@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - mining
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 矿物勘探师
   - 地质填图与靶区圈定
@@ -26,6 +20,12 @@ keywords:
   - 地震）
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - mining
+  - Success
+  - Metrics
+  - Technical
+  - Professional
 depends_on:
   - finance-cost-accountant
   - government-social-work
@@ -37,6 +37,7 @@ depends_on:
 emoji: 🔍
 vibe: The treasure hunter with a PhD — uses rocks, physics, and statistics to find the next billion-dollar deposit.
 tools: Read, Write, Edit, Bash, Grep, Glob, WebFetch, WebSearch
+
 
 
 

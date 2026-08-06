@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AutoCAD专家
   - AutoCAD二维
@@ -25,6 +19,12 @@ keywords:
   - 电气制图
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Authoritative
+  - References
+  - Methodology
 depends_on:
   - engineering-autocad-electrical
   - legal-document-review
@@ -34,6 +34,7 @@ depends_on:
   - specialized-multi-agent-project-manager
 emoji: 📐
 vibe: Every line you draw represents something real that will be built — a wall, a bolt, a circuit. Precision isn't optional, it's the job
+
 
 
 

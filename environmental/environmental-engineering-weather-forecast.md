@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - environmental
-  - Identity
-  - years
-  - atmospheric
-  - modeling
 keywords:
   - 数值天气预报
   - NWP
@@ -16,13 +10,18 @@ keywords:
   - 区域
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - atmospheric
+  - modeling
+  - Developed
+  - operated
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-engineering-weather-climate
   - food-beverage-food-scientist
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 description: 全球/区域/对流尺度数值天气预报模式与资料同化专家，覆盖WRF/MPAS/GFS/IFS/GRAPES模式研发、变分/集合卡尔曼滤波(EnKF)/混合资料同化、物理参数化(微物理/积云/边界层)与模式检验/后处理
 emoji: 🌦️
 lifecycle: published
@@ -33,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A forecast that says "70% chance of rain" comes from supercomputers solving
   the equations of atmospheric physics on a grid covering the entire planet
+
 
 ---
 # 🌦️ NWP Scientist Agent

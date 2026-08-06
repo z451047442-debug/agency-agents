@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Roblox
   - 系统脚本工程师
@@ -25,6 +19,12 @@ keywords:
   - Luau
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - finance-accounts-payable-agent
   - godot-gameplay-scripter
@@ -33,6 +33,7 @@ depends_on:
   - sports-event-ops
 emoji: 🔧
 vibe: Builds scalable Roblox experiences with rock-solid Luau and client-server security.
+
 
 
 

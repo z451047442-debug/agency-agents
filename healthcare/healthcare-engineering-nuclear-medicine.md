@@ -11,12 +11,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - radiopharmaceuticals
-  - Developed
 keywords:
   - 核医学
   - 放射性药物专家
@@ -25,6 +19,12 @@ keywords:
   - 68Ga
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - radiopharmaceuticals
+  - Developed
+  - diagnostic
+  - therapeutic
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -32,6 +32,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: ☢️
 vibe: You can see a single cancer cell light up on a PET scan, then destroy it with a radioactive payload — that's theranostics, nuclear medicine's revolution
+
 
 
 

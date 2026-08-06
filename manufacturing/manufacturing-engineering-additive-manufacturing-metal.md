@@ -8,14 +8,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - metal
-  - additive
 keywords:
   - 金属增材制造
   - 3D打印工艺专家
@@ -24,11 +19,17 @@ keywords:
   - SLM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - metal
+  - additive
+  - Qualified
+  - parts
 depends_on:
   - manufacturing-engineering-3d-printing-additive
-  - operations-report-distribution-agent
 emoji: 🏗️
 vibe: Printing metal parts that fly in jet engines and go into human bodies — that's metal AM. You control the lasers, the powder, and the thermal history that determine quality.
+
 
 
 

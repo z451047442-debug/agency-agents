@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 统一通信工程师
   - VoIP与统一通信
@@ -26,6 +20,12 @@ keywords:
   - 交换
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - government-public-safety-analyst
   - marketing-paid-media-tracking-specialist
@@ -35,6 +35,7 @@ depends_on:
   - infrastructure-network-engineering-automation
 emoji: 📞
 vibe: When voice becomes packets, quality becomes engineering — every millisecond of latency and every lost packet is a conversation interrupted
+
 
 
 

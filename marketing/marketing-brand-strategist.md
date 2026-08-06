@@ -13,12 +13,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 品牌策略师
   - 品牌定位
@@ -27,12 +21,18 @@ keywords:
   - 核心信念
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - marketing-abm-account-based
 emoji: 🏷️
 vibe: The difference between a company and a brand is a story people tell themselves — and you write that story.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

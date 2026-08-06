@@ -16,9 +16,7 @@ import argparse
 import re
 import sys
 from collections import Counter
-from pathlib import Path
 
-from _shared import REPO
 from _shared.discovery import discover_agents
 from _shared.frontmatter import get_body, get_field, get_frontmatter_text
 
@@ -112,12 +110,12 @@ def main() -> None:
         print("No agents found.", file=sys.stderr)
         sys.exit(1)
 
-    stats = Counter()
+    stats: Counter[str] = Counter()
     placeholder_agents: list[str] = []
     dupe_heading_agents: list[str] = []
     no_h1_agents: list[str] = []
 
-    for category, rel_path, filepath in agents:
+    for _category, rel_path, filepath in agents:
         try:
             content = filepath.read_text(encoding="utf-8")
         except (UnicodeDecodeError, OSError):

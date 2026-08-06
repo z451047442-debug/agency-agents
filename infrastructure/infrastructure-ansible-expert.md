@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Ansible自动化专家
   - Ansible配置管理与自动化专家
@@ -22,6 +16,12 @@ keywords:
   - AWX
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Deliverable
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-apache-httpd-expert
@@ -29,6 +29,7 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: 📜
 vibe: SSH is the universal API. Ansible wraps it in YAML and makes a thousand servers dance to the same playbook — no agents, just idempotence.
+
 
 
 ---

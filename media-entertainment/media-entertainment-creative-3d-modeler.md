@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - 你的身份与记忆
-  - 你的核心使命
 keywords:
   - 3D
   - 建模师
@@ -26,6 +20,12 @@ keywords:
   - 3ds
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
@@ -37,6 +37,7 @@ depends_on:
 emoji: 🎨
 vibe: Meticulous and visually driven — sculpting geometry, crafting materials, and lighting scenes to create compelling 3D assets and worlds.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

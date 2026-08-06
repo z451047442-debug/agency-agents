@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - atmospheric
-  - science
 keywords:
   - 气象
   - 气候数据科学家
@@ -26,6 +20,12 @@ keywords:
   - WRF
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - atmospheric
+  - science
+  - weather
+  - analytics
 depends_on:
   - agriculture-engineering-soil-science
   - cybersecurity-engineering-cyber-risk-model
@@ -37,6 +37,7 @@ depends_on:
   - logistics-engineering-supply-chain-risk
 emoji: 🌦️
 vibe: Weather affects every industry — agriculture, energy, logistics, insurance. You turn atmospheric data into forecasts that help businesses prepare for what's coming.
+
 
 
 

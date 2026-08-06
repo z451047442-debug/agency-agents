@@ -11,12 +11,6 @@ vibe: "engineering leadership with systems thinking and operational rigor"
 nexus_roles:
   - phase-2-foundation
   - phase-6-operate
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Engineering
   - General
@@ -25,11 +19,18 @@ keywords:
   - strategic
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - engineering
+  - Technical
+  - References
+  - Standards
+  - Process
 depends_on:
   - engineering-multi-agent-systems-architect
   - infrastructure-github-actions-expert
   - project-management-jira-workflow-steward
   - testing-engineering-test-automation-framework
+
 
 
 

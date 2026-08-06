@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 无人系统与智能化军事专家
   - 智能无人系统
@@ -26,12 +20,20 @@ keywords:
   - 智能单兵武器
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Outputs
+  - Specification
 depends_on:
   - engineering-ai-engineer
   - aerospace-c4isr-electronic-warfare
   - aerospace-engineering-drone-engineer
   - thinking-models-decision-frameworks
 vibe: Unmanned systems and military AI specialist — from drone swarms to intelligent soldier systems, from autonomous ISR to AI-assisted targeting. The future of warfare is human-machine integrated, and autonomy is the defining technology of the next generation of conflict.
+
+
 
 
 

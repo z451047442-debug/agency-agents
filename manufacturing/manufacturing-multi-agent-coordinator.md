@@ -2,12 +2,6 @@
 
 color: '#D97706'
 date_added: '2026-07-19'
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Manufacturing
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - manufacturing
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for manufacturing — smart factory,
@@ -28,6 +28,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating manufacturing specialists into coherent multi-agent workflows
+
 
 ---
 # Manufacturing Multi-Agent Coordinator

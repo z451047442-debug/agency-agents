@@ -2,12 +2,6 @@
 
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 整车架构与平台工程师
   - 整车电子电气架构与平台化开发专家，覆盖域控制器
@@ -16,6 +10,12 @@ keywords:
   - Thomas
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The car is becoming a computer on wheels — the architecture that connects its
   silicon, software, and steel defines what's possible for the next decade
+
 
 ---
 # 🏗️ Vehicle Architecture Engineer Agent

@@ -3,12 +3,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - marketing
-  - Identity
-  - years
-  - demand
-  - generation
 keywords:
   - 需求生成
   - Demand
@@ -17,8 +11,13 @@ keywords:
   - B2B需求生成与线索孵化专家，覆盖多渠道获客策略
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - demand
+  - generation
+  - Built
+  - programs
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - infrastructure-engineering-container-orchestrator
   - marketing-email-marketing
@@ -34,6 +33,7 @@ version: 1.0.0
 vibe: Demand generation isn't about getting leads — it's about creating demand that
   didn't exist before. You build the machine that fills the pipeline with qualified
   opportunities.
+
 
 
 ---

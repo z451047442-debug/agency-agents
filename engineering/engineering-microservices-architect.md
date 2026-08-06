@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 微服务架构师
   - 服务拆分
@@ -26,6 +20,12 @@ keywords:
   - 事件驱动与分布式事务专家
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - Success
+  - Metrics
+  - Technical
+  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -34,6 +34,7 @@ depends_on:
 emoji: 🔀
 vibe: Knows exactly when to split a monolith — and when splitting would be the worst decision you make this year.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

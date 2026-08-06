@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 音频DSP
   - 音频算法工程师
@@ -24,6 +18,12 @@ keywords:
   - 自适应滤波
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - engineering-code-reviewer
   - media-entertainment-multi-agent-coordinator
@@ -31,6 +31,7 @@ depends_on:
   - media-entertainment-engineering-audio-engineer
 emoji: 🎵
 vibe: Every voice call, every song streamed, every noise canceled — audio DSP makes it happen in real-time, one sample at a time
+
 
 
 ---

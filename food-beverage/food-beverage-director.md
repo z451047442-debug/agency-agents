@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - food-beverage
-  - Identity
-  - years
-  - leading
-  - food
 keywords:
   - 食品公司总经理
   - 食品饮料企业全面管理者，覆盖产品研发
@@ -15,6 +9,12 @@ keywords:
   - 供应链
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - food-beverage
+  - leading
+  - food
+  - beverage
+  - businesses
 depends_on:
   - automotive-supply-chain
   - food-beverage-multi-agent-coordinator
@@ -28,9 +28,11 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: Everybody eats — your products are in millions of kitchens. You manage the business
   that feeds people, balancing taste, safety, cost, and brand.
+
 
 ---
 

@@ -2,12 +2,6 @@
 
 color: navy
 date_added: '2026-07-03'
-tags:
-  - web3
-  - Identity
-  - years
-  - blockchain
-  - crypto
 keywords:
   - Web3
   - 区块链项目总监
@@ -16,10 +10,15 @@ keywords:
   - 协议开发
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - web3
+  - blockchain
+  - crypto
+  - Built
+  - protocols
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-risk
-  - operations-report-distribution-agent
   - web3-engineering-smart-contract-security
   - web3-smart-contract-dev
   - web3-smart-contract-developer
@@ -30,9 +29,11 @@ name: Web3/区块链项目总监
 nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: Web3 promises to decentralize everything — you lead the team building the protocols,
   tokens, and communities that make it real.
+
 
 ---
 # ⛓️ Web3 Director Agent

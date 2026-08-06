@@ -10,12 +10,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 绩效管理专家
   - 绩效管理体系设计专家，覆盖OKR
@@ -24,13 +18,19 @@ keywords:
   - 绩效评估
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
   - hr-business-partner
   - hr-director
-  - operations-report-distribution-agent
   - project-management-jira-workflow-steward
 emoji: 🎯
 vibe: Everyone wants a fair performance system, but designing one that actually measures contribution, motivates improvement, and resists gaming — that's the art you've mastered
+
 
 
 

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工作室制作人
   - 高层编排
@@ -27,6 +21,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Technical
+  - Executive
+  - Summary
+  - Project
 depends_on:
   - design-cultural-intelligence-strategist
   - marketing-china-market-localization-strategist
@@ -37,6 +37,7 @@ depends_on:
   - thinking-models-tech-leaders
 emoji: 🎬
 vibe: Aligns creative vision with business objectives across complex initiatives.
+
 
 
 

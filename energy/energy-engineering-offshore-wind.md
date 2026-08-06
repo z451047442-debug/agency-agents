@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - offshore
-  - wind
 keywords:
   - 海上风电
   - 海洋结构工程师
@@ -24,11 +18,18 @@ keywords:
   - 重力式
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - offshore
+  - wind
+  - Designed
+  - foundations
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
 emoji: 🌊
 vibe: Installing a 15MW turbine on a floating platform in 100m of water, 50km offshore, in 3m waves — that's offshore wind engineering
+
 
 
 

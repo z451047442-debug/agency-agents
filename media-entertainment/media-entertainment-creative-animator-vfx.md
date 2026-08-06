@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 动画
   - 视觉特效
@@ -24,11 +18,18 @@ keywords:
   - 绑定
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - construction-engineering-fire-dynamics
   - media-entertainment-after-effects-expert
 emoji: ✨
 vibe: You make the impossible look real — a dragon flying over a city, a spaceship exploding, a character feeling joy through movement. The audience believes because you made them believe.
+
 
 
 

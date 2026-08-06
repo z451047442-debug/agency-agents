@@ -2,12 +2,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Nginx专家
   - Nginx高性能Web服务器与反向代理专家
@@ -16,6 +10,12 @@ keywords:
   - Nginx
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Actionable
+  - Directives
+  - Deliverable
+  - Specifications
 depends_on:
   - engineering-ai-observability-expert
   - engineering-minimal-change-engineer
@@ -39,6 +39,7 @@ version: 1.0.0
 vibe: Nginx handles 10,000 concurrent connections in 2.5MB of RAM. Apache needs 250MB
   for the same workload. That engineering elegance is why 34% of the world's busiest
   sites trust Nginx.
+
 
 
 ---

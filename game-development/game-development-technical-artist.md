@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 技术美术
   - Shader
@@ -25,6 +19,12 @@ keywords:
   - 管线与美术到引擎优化专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Characters
+  - Environment
+  - Hero
 depends_on:
   - engineering-mobile-app-builder
   - specialized-identity-graph-operator
@@ -34,6 +34,7 @@ depends_on:
   - unreal-engine-unreal-world-builder
 emoji: 🎨
 vibe: The bridge between artistic vision and engine reality.
+
 
 
 

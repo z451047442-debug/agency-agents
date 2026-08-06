@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - coastal
-  - engineering
 keywords:
   - 海岸
   - 海洋工程工程师
@@ -23,14 +17,20 @@ keywords:
   - 风暴潮水动力模型
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - coastal
+  - engineering
+  - Designed
+  - shoreline
 depends_on:
   - environmental-engineering-coastal-erosion
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 🌊
 vibe: The sea gives and takes away — you design the structures that protect coastlines,
   harness offshore energy, and withstand the most powerful storms on Earth
+
 
 ---
 # 🌊 Coastal Engineer Agent

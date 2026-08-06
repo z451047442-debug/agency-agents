@@ -19,6 +19,12 @@ keywords:
   - 制剂
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - pharma-biotech
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-engineering-knowledge-management
   - healthcare-engineering-gene-editing-crispr
@@ -27,7 +33,7 @@ depends_on:
   - pharma-biotech-biostatistics
 description: 生物药上游/下游工艺开发专家，覆盖细胞培养、纯化、制剂、技术转移与放大
 category: pharma-biotech
-tags: [bioprocess, upstream, downstream, cell-culture, purification]
+
 
 
 

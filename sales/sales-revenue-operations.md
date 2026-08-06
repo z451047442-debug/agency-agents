@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 收入运营
   - RevOps
@@ -22,6 +16,12 @@ keywords:
   - 市场
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sales
+  - single
+  - source
+  - truth
+  - Salesforce/HubSpot
 depends_on:
   - data-science-engineering-knowledge-management
   - finance-cost-accountant
@@ -31,6 +31,7 @@ depends_on:
 emoji: 📊
 vibe: Marketing, sales, and customer success are three parts of one revenue engine
   — you align the systems, data, and processes so they work as one
+
 
 ---
 

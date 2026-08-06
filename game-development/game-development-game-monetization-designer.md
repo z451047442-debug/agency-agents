@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 游戏变现设计师
   - 游戏经济与变现设计专家，覆盖免费+内购
@@ -26,6 +20,12 @@ keywords:
   - 通行证
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - data-science-engineering-knowledge-management
   - data-science-engineering-language-model-nlp
@@ -33,6 +33,7 @@ depends_on:
   - game-development-engineering-video-game-backend
 emoji: 💰
 vibe: Monetization isn't about extracting money — it's about designing exchanges of value that players feel good about, over and over
+
 
 
 

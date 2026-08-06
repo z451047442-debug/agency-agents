@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Instagram
   - 运营专家
@@ -23,6 +17,12 @@ keywords:
   - 策略专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-video-analytics
@@ -32,6 +32,7 @@ depends_on:
   - marketing-market-research
 emoji: 📸
 vibe: Masters the grid aesthetic and turns scrollers into an engaged community.
+
 
 
 

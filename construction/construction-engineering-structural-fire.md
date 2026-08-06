@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - years
-  - structural
-  - fire
 keywords:
   - 结构抗火
   - 消防工程性能化设计专家
@@ -24,6 +18,12 @@ keywords:
   - 木防火保护
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - structural
+  - fire
+  - engineering
+  - Designed
 depends_on:
   - construction-fire-protection
   - engineering-git-workflow-master
@@ -31,6 +31,7 @@ depends_on:
   - mining-safety
 emoji: 🔥
 vibe: Code says build this way; performance says prove it's safe. You use fire dynamics and structural mechanics to design buildings that survive fire and protect occupants.
+
 
 
 

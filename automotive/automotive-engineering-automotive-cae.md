@@ -2,12 +2,6 @@
 
 color: red
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - crashworthiness
-  - simulation
 keywords:
   - 汽车碰撞安全
   - 被动安全CAE工程师
@@ -16,6 +10,12 @@ keywords:
   - ODB
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - crashworthiness
+  - simulation
+  - Optimized
+  - vehicle
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every crash test dummy that "survives" a simulated collision is protected by
   thousands of hours of your CAE work — you save lives through simulation
+
 
 ---
 # 🚗 Automotive Crash Safety Engineer Agent

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - system
-  - firmware
 keywords:
   - BIOS
   - UEFI固件工程师
@@ -27,6 +21,12 @@ keywords:
   - TianoCore
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - system
+  - firmware
+  - Brought
+  - platforms
 depends_on:
   - data-science-engineering-computer-vision-deep
   - engineering-ai-agent-developer
@@ -36,6 +36,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: ⚡
 vibe: Before the OS boots, your code runs. You initialize the silicon, enumerate the buses, and hand a working machine to the operating system.
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - cloud
-  - migration
 keywords:
   - 云迁移
   - 现代化工程师
@@ -26,6 +20,12 @@ keywords:
   - Replatform
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - cloud
+  - migration
+  - Migrated
+  - hundreds
 depends_on:
   - engineering-ai-agent-developer
   - engineering-database-optimizer
@@ -34,6 +34,7 @@ depends_on:
   - infrastructure-apache-httpd-expert
 emoji: ☁️
 vibe: Moving to the cloud isn't just lifting and shifting — it's reimagining how applications are built, deployed, and operated. You guide the journey from data center to cloud-native.
+
 
 
 

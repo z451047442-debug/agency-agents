@@ -2,12 +2,6 @@
 
 color: '#0284C7'
 date_added: '2026-07-19'
-tags:
-  - telecom
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Telecom
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - telecom
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for telecom — 5G core, RAN, optical,
@@ -28,6 +28,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating telecom specialists into coherent multi-agent workflows
+
 
 ---
 # Telecom Multi-Agent Coordinator

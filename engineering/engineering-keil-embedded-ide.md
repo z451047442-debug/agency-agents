@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Embedded firmware specialist for ARM Cortex-M using Keil MDK — startup code, linker scatter files, CMSIS-Driver, and the mysterious art of making the debugger connect reliably.
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Keil嵌入式开发专家
   - Keil
@@ -26,9 +20,16 @@ keywords:
   - 嵌入式IDE专家，覆盖ARM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - iot-engineering-embedded-firmware-engineer
   - testing-test-results-analyzer
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: draft
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工业工程师
   - 工业工程与精益生产：工时研究
@@ -24,14 +18,20 @@ keywords:
   - Kaizen改善
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - manufacturing-engineering-3d-printing-additive
 emoji: 📐
 vibe: Eliminate the waste, amplify the value — every motion that doesn't add value is a candidate for removal.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 ---

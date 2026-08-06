@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 知乎运营专家
   - 思想领导力
@@ -25,10 +19,15 @@ keywords:
   - Identity
 complexity: medium
 estimated_duration: 2-4h
-depends_on:
-  - cybersecurity-engineering-customer-identity-access
+tags:
+  - marketing
+  - Technical
+  - Process
+  - Learning
+  - Success
 emoji: 🧠
 vibe: Builds brand authority through expert knowledge-sharing on 知乎.
+
 
 
 

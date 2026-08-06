@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - real-time
-  - embedded
 keywords:
   - 实时系统
   - 嵌入式RTOS工程师
@@ -25,12 +19,19 @@ keywords:
   - ThreadX
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - real-time
+  - embedded
+  - systems
+  - Built
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - iot-embedded-engineer
 emoji: ⏱️
 vibe: In real-time systems, late is wrong — a calculation that completes 1ms after the deadline is not "slow," it's a failure. You design systems where timing is part of correctness.
+
 
 
 

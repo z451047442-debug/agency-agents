@@ -9,12 +9,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - credit
-  - risk
 keywords:
   - 信用风险
   - IFRS
@@ -23,12 +17,19 @@ keywords:
   - ECL
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - credit
+  - risk
+  - modeling
+  - Built
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - finance-accounts-receivable
 emoji: 📊
 vibe: Every loan is a probability — you build the models that estimate default risk, price credit, and ensure banks hold enough capital to survive the next crisis
+
 
 ---
 

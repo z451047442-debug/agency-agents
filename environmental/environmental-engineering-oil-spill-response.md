@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - spill
-  - response
 keywords:
   - 溢油应急
   - 海洋环境应急专家
@@ -23,14 +17,20 @@ keywords:
   - OSCAR
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - spill
+  - response
+  - Managed
+  - major
 depends_on:
   - environmental-carbon-management
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 🌊
 vibe: When oil spills into the ocean, every hour matters — you direct the response
   that contains the slick, protects the coastline, and saves wildlife
+
 
 ---
 # 🌊 Oil Spill Responder Agent

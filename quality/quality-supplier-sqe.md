@@ -10,12 +10,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - quality
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 供应商质量工程师
   - SQE
@@ -24,14 +18,20 @@ keywords:
   - PPAP
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - quality
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-automotive-homologation-test
-  - cybersecurity-engineering-customer-identity-access
   - manufacturing-engineering-electronics-manufacturing
   - quality-customer-cqe
   - testing-test-results-analyzer
 emoji: 🔍
 vibe: Your supplier's quality problem becomes your quality problem the moment the part enters your factory. You catch it at their factory, before it ships.
+
 
 
 ---

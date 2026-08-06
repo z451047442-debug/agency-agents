@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 学术叙事学家
   - 叙事结构
@@ -25,12 +19,19 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Technical
+  - Process
+  - Learning
+  - Methodology
 depends_on:
   - education-academic-anthropologist
   - specialized-personal-growth-mentor
   - testing-test-results-analyzer
 emoji: 📜
 vibe: Every story is an argument — I help you find what yours is really saying
+
 
 
 

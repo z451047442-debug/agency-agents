@@ -10,12 +10,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - veterinary
-  - medicine
 keywords:
   - 兽医影像
   - 兽医外科专家
@@ -24,6 +18,12 @@ keywords:
   - 大动物兽医影像诊断与外科专家，覆盖DR
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - veterinary
+  - medicine
+  - Performed
+  - advanced
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🐾
 vibe: The same CT and MRI technology that diagnoses human disease now serves pets,
   horses, and wildlife — you're the radiologist and surgeon for the animals we love
+
 
 ---
 # 🐾 Veterinary Surgeon Agent

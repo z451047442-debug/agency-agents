@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - localization
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 本地化工程师
   - i18n
@@ -26,6 +20,12 @@ keywords:
   - CAT工具自动化
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - localization
+  - Technical
+  - References
+  - Standards
+  - Methodology
 depends_on:
   - engineering-code-reviewer
   - engineering-multi-agent-systems-architect
@@ -34,6 +34,7 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🌐
 vibe: Strings don't localize themselves — you build the pipelines, tools, and infrastructure that turn source strings into 40+ languages without anyone noticing the machinery.
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 内容策略师
   - 品牌内容与编辑策略专家，覆盖内容战略
@@ -24,6 +18,12 @@ keywords:
   - 内容支柱
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - marketing-paid-media-paid-social-strategist
   - marketing-paid-media-search-query-analyst
@@ -31,6 +31,7 @@ depends_on:
   - design-brand-guardian
 emoji: 📝
 vibe: Content marketing isn't blogging — it's building an audience through valuable information that earns attention instead of buying it. You design the strategy that makes content an asset, not an expense.
+
 
 
 

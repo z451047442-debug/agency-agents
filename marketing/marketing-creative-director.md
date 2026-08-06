@@ -9,12 +9,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - years
-  - creative
-  - leadership
 keywords:
   - 创意总监
   - Creative
@@ -23,6 +17,12 @@ keywords:
   - 品牌创意方向最高负责人，覆盖品牌创意策略
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - marketing
+  - creative
+  - leadership
+  - Created
+  - award-winning
 depends_on:
   - data-science-engineering-computer-vision-deep
   - marketing-multi-agent-coordinator
@@ -31,6 +31,7 @@ depends_on:
 emoji: 💡
 vibe: A great creative idea can do more for a brand in 30 seconds than a media budget
   can do in a year. You find the idea and make it unforgettable.
+
 
 ---
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - standards
-  - development
 keywords:
   - 标准化
   - 技术委员会专家
@@ -25,6 +19,12 @@ keywords:
   - ITU
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - standards
+  - development
+  - corporate
+  - participation
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -32,6 +32,7 @@ depends_on:
   - infrastructure-identity-access
 emoji: 📜
 vibe: Standards determine who wins and who pays — you shape the technical standards that define entire industries, turning R&D leadership into market advantage
+
 
 
 

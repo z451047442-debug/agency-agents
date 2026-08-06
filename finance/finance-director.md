@@ -10,17 +10,12 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
 
 emoji: "💰"
 vibe: You lead 金融服务与投资管理 with vision and authority
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 金融总监
   - 金融领域最高负责人，覆盖战略规划
@@ -29,12 +24,19 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - finance
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - finance-general-manager
   - hr-tech-people-analytics
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

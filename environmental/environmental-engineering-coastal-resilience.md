@@ -2,12 +2,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - environmental
-  - Identity
-  - years
-  - coastal
-  - ecosystem
 keywords:
   - 海岸韧性
   - 基于自然的方案
@@ -16,6 +10,12 @@ keywords:
   - 海岸生态工程与基于自然的防洪方案专家，覆盖红树林
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - coastal
+  - ecosystem
+  - engineering
+  - Designed
 depends_on:
   - environmental-multi-agent-coordinator
   - environmental-engineering-coastal-erosion
@@ -23,7 +23,6 @@ depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-supply-chain-risk
-  - operations-report-distribution-agent
 description: 海岸生态工程与基于自然的防洪方案专家，覆盖红树林/盐沼/牡蛎礁/珊瑚礁生态护岸、沙丘/海滩养护、基于自然的洪水风险管理与灰色-绿色混合基础设施设计
 emoji: 🌿
 lifecycle: published
@@ -34,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Concrete seawalls aren't the only answer — nature has been protecting coastlines
   for millennia. You design with mangroves, reefs, and dunes to create living shorelines.
+
 
 ---
 # 🌿 Nature-Based Coastal Engineer Agent

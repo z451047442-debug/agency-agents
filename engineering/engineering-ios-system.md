@@ -7,14 +7,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-5-launch
 lifecycle: draft
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - Apple
-  - platform
 keywords:
   - iOS
   - macOS系统工程师
@@ -23,12 +18,19 @@ keywords:
   - Metal
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Apple
+  - platform
+  - development
+  - Built
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - testing-engineering-test-automation-framework
 emoji: 🍎
 vibe: Apple's platforms are walled gardens with beautiful APIs — you work below the surface, building the system services and performance optimizations that make apps feel native
+
 
 
 

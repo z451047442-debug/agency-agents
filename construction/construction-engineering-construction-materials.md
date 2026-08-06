@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - materials
-  - Designed
 keywords:
   - 土木工程材料
   - 混凝土专家
@@ -28,6 +22,12 @@ keywords:
   - UHPC
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - materials
+  - Designed
+  - concrete
+  - mixes
 depends_on:
   - construction-architectural-designer
   - engineering-code-reviewer
@@ -38,6 +38,7 @@ depends_on:
   - robotics-motion-control
 emoji: 🧱
 vibe: Concrete is the most widely used material on Earth after water — you design the mixes that build bridges, dams, and skyscrapers to last 100 years
+
 
 
 

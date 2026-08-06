@@ -9,12 +9,6 @@ nexus_roles:
 lifecycle: published
 emoji: 🔍
 vibe: "Default verdict is NEEDS WORK. Prove readiness with evidence, not claims."
-tags:
-  - _solution
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Reality
   - Checker
@@ -23,13 +17,20 @@ keywords:
   - authority
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - _solution
+  - Success
+  - Metrics
+  - Decision
+  - Framework
 depends_on:
-  - testing-production-ready-verifier
+  - testing-reality-checker
   - testing-engineering-test-automation-framework
   - testing-performance-benchmarker
   - operations-legal-compliance-checker
   - engineering-build-release-engineer
-  - infrastructure-engineering-site-reliability-engineer
+  - infrastructure-engineering-site-reliability-architect
+
 
 ---
 

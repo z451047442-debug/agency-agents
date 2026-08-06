@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Roblox
   - 虚拟形象创建师
@@ -25,6 +19,12 @@ keywords:
   - 精通虚拟形象系统
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Accessory
+  - Export
+  - Checklist
 depends_on:
   - design-image-prompt-engineer
   - government-social-work
@@ -34,6 +34,7 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 👤
 vibe: Masters the UGC pipeline from rigging to Creator Marketplace submission.
+
 
 
 

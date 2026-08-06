@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - biomaterials
-  - Developed
 keywords:
   - 生物材料
   - 组织工程研究员
@@ -24,6 +18,12 @@ keywords:
   - PGA
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - biomaterials
+  - Developed
+  - implantable
+  - materials
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -32,6 +32,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🧬
 vibe: The body can heal itself — sometimes it just needs the right scaffold. You design the materials that guide tissue regeneration
+
 
 
 

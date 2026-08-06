@@ -2,12 +2,6 @@
 
 color: '#7C3AED'
 date_added: '2026-07-19'
-tags:
-  - nonprofit
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Nonprofit
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - nonprofit
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: coordinates multi-agent workflows for nonprofit — fundraising, grant writing, volunteer coordination, program management
@@ -27,6 +27,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating nonprofit specialists into coherent multi-agent workflows
+
 
 ---
 # Nonprofit Multi-Agent Coordinator

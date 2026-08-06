@@ -16,12 +16,6 @@ lifecycle: published
 emoji: "📋"
 vibe: You run the business — every morning you look at the numbers, the team, the customers, and the market
 
-tags:
-  - administration
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 行政管理总经理
   - 行政管理领域全面经营管理者，覆盖业务运营
@@ -30,16 +24,22 @@ keywords:
   - 客户关系与战略执行
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - administration
+  - Industry
+  - Context
+  - Best
+  - Practices
 depends_on:
   - administration-director
   - beauty-general-manager
-  - cybersecurity-engineering-customer-identity-access
   - government-general-manager
   - pets-general-manager
   - product-general-manager
   - real-estate-general-manager
   - cybersecurity-general-manager
   - specialized-customer-success-manager
+
 
 
 

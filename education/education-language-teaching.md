@@ -11,12 +11,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 语言教学专家
   - 对外汉语
@@ -25,11 +19,18 @@ keywords:
   - 法语
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - References
+  - Standards
+  - Success
+  - Metrics
 depends_on:
   - education-teacher
   - engineering-git-workflow-master
   - government-social-work
 vibe: Language teaching specialist — language acquisition follows a natural order, input hypothesis explains why immersion works, and culture is not an add-on but the very medium through which language lives.
+
 
 
 

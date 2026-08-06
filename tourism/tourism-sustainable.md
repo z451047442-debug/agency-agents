@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 可持续旅游顾问
   - 目的地承载力评估
@@ -23,6 +17,12 @@ keywords:
   - 碳中和旅行项目
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-engineering-cultural-heritage-digitization
   - construction-engineering-heritage-conservation
@@ -32,6 +32,7 @@ depends_on:
   - tourism-travel-experience-designer
 emoji: 🌿
 vibe: Tourism is a transaction between guest and host — when balanced, both walk away richer. When extractive, the host loses a home, and the guest loses a soul
+
 
 
 

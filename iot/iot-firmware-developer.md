@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - iot
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 固件开发工程师
   - 嵌入式固件开发专家，覆盖bootloader
@@ -27,6 +21,12 @@ keywords:
   - 驱动开发与安全固件签名
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - aerospace-engineering-aviation-safety
   - automotive-engineering-automotive-cae
@@ -36,6 +36,7 @@ depends_on:
   - manufacturing-engineering-control-systems
 emoji: 🔧
 vibe: Firmware is the last code that runs before the silicon — get it wrong and no amount of application logic can save you
+
 
 
 

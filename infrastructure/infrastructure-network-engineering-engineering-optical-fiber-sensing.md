@@ -1,12 +1,6 @@
 ---
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - fiber
-  - optic
 keywords:
   - 光纤传感
   - 分布式光纤监测工程师
@@ -15,6 +9,12 @@ keywords:
   - 与光电检测专家，覆盖DTS拉曼
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - fiber
+  - optic
+  - sensing
+  - Deployed
 depends_on:
   - data-science-engineering-deep-learning-training
   - education-online-learning-designer
@@ -35,6 +35,7 @@ version: 1.0.0
 vibe: A hair-thin glass fiber stretched for kilometers can sense temperature, strain,
   and vibration at every point — you turn passive fiber into a nervous system for
   bridges, pipelines, and power cables
+
 
 ---
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - real-estate
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 房地产买卖代理
   - 全面的房地产代理助手，覆盖买方与卖方代理
@@ -26,12 +20,19 @@ keywords:
   - 交易协调与交割支持
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - real-estate
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - legal-billing-time-tracking
   - marketing-paid-media-programmatic-buyer
   - real-estate-appraiser
   - specialized-change-management-consultant
 vibe: Every transaction is someone's biggest financial decision. Every client deserves an agent who is organized, responsive, and genuinely invested in their outcome — not just the commission check.
+
 
 
 

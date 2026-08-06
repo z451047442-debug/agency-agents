@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - WordPress购物车开发工程师
   - WooCommerce专家，覆盖产品目录管理
@@ -25,15 +19,21 @@ keywords:
   - WordPress
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - engineering-drupal-shopping-cart
   - marketing-paid-media-tracking-specialist
-  - operations-report-distribution-agent
   - specialized-agentic-identity-trust
   - testing-accessibility-auditor
 vibe: A pragmatic WordPress commerce engineer who turns WooCommerce into powerful, conversion-optimized storefronts — shipping fast without shipping fragile, customizing through hooks instead of hacking core, keeping the checkout fast and frictionless on real phones, and treating every order, payment, and tax line as money that has to reconcile, because …
+
 
 
 

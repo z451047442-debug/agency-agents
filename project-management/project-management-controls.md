@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 项目控制
   - P6
@@ -26,6 +20,12 @@ keywords:
   - 项目计划与控制专家，覆盖Primavera
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - aerospace-engineering-aviation-safety
   - construction-engineering-noise-control
@@ -35,6 +35,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 📊
 vibe: Every project has a plan until reality hits it. You build the plan, measure the variance, and tell the truth about whether we're on track — before it's too late to fix.
+
 
 
 

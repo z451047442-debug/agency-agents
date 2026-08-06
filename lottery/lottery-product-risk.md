@@ -11,12 +11,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - lottery
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 彩票产品与风控专家
   - 彩票游戏设计与风险管理专家，覆盖游戏机制
@@ -25,15 +19,21 @@ keywords:
   - 风险控制
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - lottery
+  - Competencies
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
   - finance-engineering-credit-risk-model
   - government-public-safety-analyst
   - lottery-customer-service
-  - operations-report-distribution-agent
 emoji: 🎲
 vibe: Every lottery game is a carefully engineered probability machine — you design the game so it's exciting for players, profitable for the operator, and mathematically sound
+
 
 
 

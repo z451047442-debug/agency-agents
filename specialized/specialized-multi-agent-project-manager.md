@@ -19,12 +19,6 @@ lifecycle: published
 emoji: "📋"
 vibe: You operate at the meta-level of agent orchestration, bridging strategy and execution across diverse agent teams
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 多智能体项目经理
   - Multi-Agent
@@ -33,11 +27,18 @@ keywords:
   - system
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - specialized
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-knowledge-management
   - specialized-multi-agent-director
   - specialized-multi-agent-president
+
 
 
 

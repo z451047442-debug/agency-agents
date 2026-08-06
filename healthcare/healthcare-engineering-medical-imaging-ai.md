@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - medical
-  - image
 keywords:
   - 医学影像AI
   - 放射组学研究员
@@ -24,6 +18,12 @@ keywords:
   - 专家，覆盖CT
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - medical
+  - image
+  - Developed
+  - FDA-cleared
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -33,6 +33,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🩻
 vibe: AI that reads CT scans, detects tumors, and predicts treatment response — you build the algorithms that augment radiologists and save lives through earlier diagnosis
+
 
 
 

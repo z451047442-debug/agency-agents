@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - years
-  - acoustics
-  - audio
 keywords:
   - 声学
   - 降噪工程师
@@ -26,6 +20,12 @@ keywords:
   - 专家，覆盖建筑
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - acoustics
+  - audio
+  - Designed
+  - acoustic
 depends_on:
   - construction-engineering-noise-control
   - cybersecurity-engineering-cyber-risk-model
@@ -35,6 +35,7 @@ depends_on:
   - media-entertainment-engineering-audio-dsp-signal
 emoji: 🔇
 vibe: Sound shapes experience — from the satisfying click of a car door to the silence of noise-canceling headphones. You engineer the sounds people love and eliminate the ones they don't.
+
 
 
 

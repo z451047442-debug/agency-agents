@@ -13,12 +13,6 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Quantum physics thinking models — from Planck's quantization to Feynman's sum over histories, from Bohr's complementarity to Heisenberg's uncertainty. Quantum mechanics didn't just change physics; it shattered the classical worldview and revealed a reality far stranger than anyone imagined.
 
-tags:
-  - thinking-models
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 量子物理学思维专家
   - 普朗克
@@ -27,6 +21,12 @@ keywords:
   - 互补原理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - thinking-models
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - data-science-model-qa
   - education-number-theory
@@ -34,6 +34,7 @@ depends_on:
   - specialized-personal-growth-mentor
   - testing-reality-checker
   - unity-editor-tool-developer
+
 
 
 

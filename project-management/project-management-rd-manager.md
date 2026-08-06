@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-6-operate
 lifecycle: published
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - R&D与科研项目经理
   - 研发与科研项目管理专家，覆盖阶段关口
@@ -25,6 +19,12 @@ keywords:
   - 技术路线图
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - design-engineering-user-research-system
   - marketing-demand-generation
@@ -35,6 +35,7 @@ depends_on:
   - project-management-government-grant
 emoji: 🔬
 vibe: Engineering projects build to spec; R&D projects build to discover. You manage the uncertainty — knowing that the path from idea to product is never a straight line.
+
 
 
 

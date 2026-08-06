@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - precision
-  - measurement
 keywords:
   - 精密测量
   - 光学计量
@@ -24,11 +18,17 @@ keywords:
   - 超精密光学测量与几何量计量专家，覆盖激光干涉仪
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - precision
+  - measurement
+  - Designed
+  - metrology
 depends_on:
   - manufacturing-engineering-composites-manufacturing
-  - operations-report-distribution-agent
 emoji: 📏
 vibe: Measuring a mirror to nanometer precision, aligning optics to microradian accuracy — that's precision metrology, the foundation of everything from chip manufacturing to gravitational wave detection
+
 
 
 

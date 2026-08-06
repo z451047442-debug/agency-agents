@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - tunnel
-  - engineering
 keywords:
   - 隧道
   - 地下工程工程师
@@ -25,6 +19,12 @@ keywords:
   - 钻爆法
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - tunnel
+  - engineering
+  - Delivered
+  - tunnels
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -32,6 +32,7 @@ depends_on:
   - mining-safety
 emoji: 🚇
 vibe: Going through a mountain is harder than going over it — but sometimes it's the only way. You design and build the tunnels that connect cities, drain floods, and move millions.
+
 
 
 

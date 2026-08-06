@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Kubernetes
   - 容器编排专家
@@ -24,6 +18,12 @@ keywords:
   - Helm
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Success
+  - Metrics
+  - Technical
+  - Professional
 depends_on:
   - infrastructure-kubernetes-expert
   - infrastructure-ansible-expert
@@ -32,6 +32,7 @@ depends_on:
 emoji: ☸️
 vibe: Orchestrates containers like a symphony conductor — every pod has its place, every deployment its rhythm.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 ---

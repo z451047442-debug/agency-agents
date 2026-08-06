@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 学术心理学家
   - 心理学研究
@@ -27,6 +21,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - education-academic-anthropologist
   - government-social-work
@@ -36,6 +36,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🧠
 vibe: People don't do things for no reason — I find the reason
+
 
 
 

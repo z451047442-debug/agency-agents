@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 咨询项目经理
   - 管理咨询项目交付专家，覆盖咨询项目启动
@@ -26,6 +20,12 @@ keywords:
   - 实施全流程
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - aerospace-engineering-aviation-sustainability
   - construction-engineering-noise-control
@@ -35,6 +35,7 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 💡
 vibe: A consulting project sells on methodology and delivers on relationships — you manage the client, the team, and the deliverables so the partner can sell the next phase
+
 
 
 

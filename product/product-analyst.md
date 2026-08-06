@@ -9,12 +9,6 @@ nexus_roles:
 - phase-0-discovery
 - phase-4-hardening
 lifecycle: published
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 产品分析师
   - 产品指标定义
@@ -23,8 +17,13 @@ keywords:
   - 漏斗分析
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - product
+  - Technical
+  - Tracking
+  - Objective
+  - User
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - logistics-last-mile-delivery
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-tracking-specialist
@@ -33,6 +32,7 @@ emoji: 📉
 vibe: Turns raw user data into product insights that drive roadmap decisions — no
   vanity metrics, only actionable truth.
 tools: Bash, Read, Write, Edit, WebFetch, WebSearch
+
 
 ---
 # 📉 Product Analyst Agent

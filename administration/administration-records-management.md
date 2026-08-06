@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - administration
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 档案与证照管理专家
   - 企业档案与证照管理专家，覆盖档案分类
@@ -26,17 +20,23 @@ keywords:
   - 利用
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - administration
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - administration-contract-manager
   - food-beverage-food-safety
   - infrastructure-identity-access
   - legal-engineering-legal-contracts-ai
   - legal-engineering-legal-document-automation
-  - operations-report-distribution-agent
   - quality-food-safety
   - tourism-travel-agent
 emoji: 🗃️
 vibe: The document you can't find when the auditor asks for it might as well not exist — you ensure every record is where it should be, when it's needed, for as long as it's required
+
 
 
 

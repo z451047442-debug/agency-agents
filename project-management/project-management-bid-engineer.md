@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 方案与投标工程师
   - 技术方案与投标专家，覆盖RFP
@@ -26,8 +20,13 @@ keywords:
   - 技术标书撰写
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - engineering-ai-agent-developer
   - engineering-developer-experience
   - engineering-graph-database
@@ -35,6 +34,7 @@ depends_on:
   - project-management-agents-orchestrator
 emoji: 📝
 vibe: Every winning bid starts with a technical proposal that answers the customer's real questions — not the ones they wrote in the RFP, but the ones they actually care about
+
 
 
 

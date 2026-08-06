@@ -11,12 +11,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - K-12学科教学专家
   - 中小学语文
@@ -25,6 +19,12 @@ keywords:
   - 物理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Subject
+  - References
+  - Standards
+  - Success
 depends_on:
   - education-curriculum-designer
   - education-teacher
@@ -34,6 +34,7 @@ depends_on:
   - specialized-identity-graph-operator
   - testing-test-results-analyzer
 vibe: K-12 master teacher — every curriculum standard, every common misconception in fractions, every lab safety rule, and the exact moment when a struggling student's eyes light up with understanding.
+
 
 
 

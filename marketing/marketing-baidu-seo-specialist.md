@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 百度
   - SEO
@@ -26,6 +20,12 @@ keywords:
   - 中国
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - Compliance
+  - Foundation
+  - Content
 depends_on:
   - engineering-mobile-app-builder
   - marketing-china-market-localization-strategist
@@ -36,6 +36,7 @@ depends_on:
   - unity-editor-tool-developer
 emoji: 🇨🇳
 vibe: Masters Baidu's algorithm so your brand ranks in China's search ecosystem.
+
 
 
 

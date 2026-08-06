@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 航空可持续性
   - SAF可持续航空燃料专家
@@ -23,6 +17,12 @@ keywords:
   - 技术专家，覆盖SAF技术路线
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - aerospace-engineering-aviation-biofuels
   - energy-carbon-market
@@ -33,6 +33,8 @@ depends_on:
   - marketing-abm-account-based
 emoji: ✈️
 vibe: Aviation accounts for 2.5% of global CO2 — you chart the path to net-zero through sustainable fuels, hydrogen propulsion, and carbon markets
+
+
 
 
 ---

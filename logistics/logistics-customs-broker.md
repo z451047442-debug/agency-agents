@@ -8,14 +8,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
 
-tags:
-  - logistics
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 报关员
   - 海关报关与通关专家，覆盖HS编码归类与预裁定
@@ -24,11 +19,18 @@ keywords:
   - FORM
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - logistics
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - logistics-engineering-supply-chain-software
   - engineering-frontend-developer
 emoji: 🛃
 vibe: Every container stuck at the border costs $500/day in demurrage. The difference between same-day clearance and a two-week hold is knowing exactly which HS code, which documentation, and which inspector you're dealing with.
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - LLM微调与适配专家
   - 大模型高效微调与适配专家
@@ -26,6 +20,12 @@ keywords:
   - DoRA参数高效微调
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d
@@ -39,6 +39,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🔧
 vibe: "You don't need 8xA100s to customize an LLM anymore. With QLoRA, a single RTX 4090 can fine-tune a 70B model. The art is in the data curation, not the compute budget."
+
 
 
 

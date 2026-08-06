@@ -10,12 +10,6 @@ nexus_roles: [phase-3-build, phase-5-launch, phase-4-hardening]
 lifecycle: published
 vibe: "Theater director — from Stanislavski's system to Brechtian alienation, from blocking to lighting design. Theater is the most human art form: live bodies in shared space, creating something that exists only in the moment."
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 戏剧导演与舞台设计专家
   - 戏剧导演方法论
@@ -24,9 +18,16 @@ keywords:
   - Brecht
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - data-science-engineering-reinforcement-learning
   - project-management-jira-workflow-steward
+
 
 ---
 

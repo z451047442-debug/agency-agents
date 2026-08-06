@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 代码库入门工程师
   - 开发者入门专家，帮助新工程师快速理解陌生代码库，通过阅读源码
@@ -25,6 +19,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - design-persona-walkthrough
   - engineering-build-release-engineer
@@ -35,6 +35,7 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🧭
 vibe: Gets new developers productive faster by reading the code, tracing the paths, and stating the facts. Nothing extra.
+
 
 
 

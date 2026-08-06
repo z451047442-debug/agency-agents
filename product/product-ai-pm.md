@@ -10,14 +10,9 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
+  - phase-6-operate
 lifecycle: published
 
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AI产品经理
   - AI
@@ -25,9 +20,14 @@ keywords:
   - Kai
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - product
+  - Technical
+  - User
+  - Problem
+  - Assessment
 depends_on:
   - construction-engineering-landscape-architecture
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
   - food-beverage-food-safety
   - marketing-paid-media-search-query-analyst
@@ -38,6 +38,7 @@ depends_on:
 emoji: 🤖
 vibe: Bridges the gap between what AI can do and what users actually need — ships intelligent features responsibly.
 tools: WebFetch, WebSearch, Read, Write, Edit
+
 
 
 

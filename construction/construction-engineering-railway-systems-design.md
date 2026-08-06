@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - railway
-  - vehicle
 keywords:
   - 铁路车辆
   - 动车组设计工程师
@@ -25,6 +19,12 @@ keywords:
   - 舒适度
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - railway
+  - vehicle
+  - engineering
+  - Designed
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -32,6 +32,7 @@ depends_on:
   - mining-safety
 emoji: 🚄
 vibe: A train at 350km/h — stable, comfortable, safe. That's engineering on bogies, brakes, and aerodynamics.
+
 
 
 

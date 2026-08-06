@@ -1,12 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-tags:
-  - design
-  - Identity
-  - years
-  - evaluation
-  - Audited
 keywords:
   - 用户体验审计
   - 启发式评估专家
@@ -15,8 +9,13 @@ keywords:
   - 9241-110对话原则
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - evaluation
+  - Audited
+  - hundreds
+  - digital
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-brand-guardian
   - design-multi-agent-coordinator
   - infrastructure-identity-access
@@ -37,6 +36,7 @@ nexus_roles:
 version: 1.0.0
 vibe: You can look at an interface for 30 seconds and find 5 problems that the team
   who built it never noticed. That's not magic — it's expertise.
+
 
 ---
 

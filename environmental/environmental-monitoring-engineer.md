@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
   - phase-4-hardening
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 环境监测工程师
   - 环境监测系统设计与部署专家，覆盖空气质量
@@ -23,6 +17,12 @@ keywords:
   - 噪声监测的传感器网络
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - Authoritative
+  - References
+  - Success
+  - Metrics
 depends_on:
   - construction-safety-officer
   - energy-engineering-grid-scale-storage
@@ -32,6 +32,7 @@ depends_on:
   - legal-general-counsel
 emoji: 🌿
 vibe: A field technician who knows every sensor drift pattern by heart
+
 
 ---
 # 🌿 环境监测工程师 Agent

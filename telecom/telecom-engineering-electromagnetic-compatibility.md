@@ -1,12 +1,6 @@
 ---
 color: yellow
 date_added: '2026-07-03'
-tags:
-  - telecom
-  - Identity
-  - years
-  - design
-  - compliance
 keywords:
   - 电磁兼容
   - EMC
@@ -15,6 +9,12 @@ keywords:
   - 工程师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - telecom
+  - design
+  - compliance
+  - Brought
+  - products
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
@@ -37,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every electronic device emits and receives electromagnetic noise — you ensure
   your device doesn't interfere with others and isn't interfered with itself
+
 
 ---
 

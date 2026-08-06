@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-3-build
 lifecycle: draft
-tags:
-  - construction
-  - Identity
-  - years
-  - architectural
-  - acoustics
 keywords:
   - 建筑声学
   - 室内声学顾问
@@ -25,6 +19,12 @@ keywords:
   - 录音棚
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - architectural
+  - acoustics
+  - Designed
+  - room
 depends_on:
   - construction-engineering-noise-control
   - engineering-git-workflow-master
@@ -32,6 +32,7 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🎵
 vibe: In a concert hall, every note should reach every seat with perfect clarity — you design the geometry and materials that make music sound magical
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 视觉叙事师
   - 视觉叙事
@@ -24,13 +18,19 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - Capabilities
+  - Process
+  - Success
+  - Metrics
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system
   - marketing-paid-media-paid-social-strategist
   - marketing-short-video-editing-coach
 emoji: 🎬
 vibe: Transforms complex information into visual narratives that move people.
+
 
 
 

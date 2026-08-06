@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - nonprofit
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 项目总监
   - 非营利项目设计与管理专家，覆盖基于使命与变革理论的项目设计
@@ -25,13 +19,19 @@ keywords:
   - M&E
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - nonprofit
+  - activity
+  - trace
+  - back
+  - theory
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - hr-tech-hrtech-people-analytics
   - nonprofit-fundraiser
   - operations-report-distribution-agent
 emoji: 🎯
 vibe: Measures success in lives changed, not dollars earned — designs programs where every activity maps to real impact.
+
 
 
 

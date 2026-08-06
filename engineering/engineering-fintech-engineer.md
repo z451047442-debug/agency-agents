@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - financial
-  - technology
 keywords:
   - 金融科技
   - FinTech
@@ -24,12 +18,19 @@ keywords:
   - 清结算系统
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - financial
+  - technology
+  - Built
+  - payment
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-paid-media-tracking-specialist
 emoji: 💳
 vibe: Money moves at the speed of code — you build the payment systems that process billions in transactions, where every millisecond and every decimal place matters
+
 
 
 

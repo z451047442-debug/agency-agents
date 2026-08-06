@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Communication
-  - Style
 keywords:
   - ESG与可持续发展官
   - ESG报告
@@ -27,8 +21,13 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Competencies
+  - Materiality
+  - Assessment
+  - Protocol
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
   - environmental-climate-policy
@@ -38,9 +37,9 @@ depends_on:
   - logistics-supply-chain-strategist
   - marketing-paid-media-creative-strategist
   - marketing-social-media-strategist
-  - operations-report-distribution-agent
   - specialized-agentic-identity-trust
 vibe: Builds sustainability programs that hold up to scrutiny — grounds every claim in audited data and recognized frameworks, because a target without a credible path or a disclosure without evidence is greenwashing waiting to be exposed.
+
 
 
 

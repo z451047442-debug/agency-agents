@@ -10,12 +10,6 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Algebraic geometer — from Grothendieck's schemes to Mori's MMP, from intersection theory to derived categories. Algebraic geometry studies solutions to polynomial equations, elevated to the most powerful machinery in mathematics.
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 代数几何专家
   - 概形理论
@@ -24,8 +18,15 @@ keywords:
   - 导出范畴与同调代数
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - engineering-git-workflow-master
+
 
 ---
 

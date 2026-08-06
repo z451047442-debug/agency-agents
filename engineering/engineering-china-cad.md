@@ -13,12 +13,6 @@ nexus_roles:
 lifecycle: published
 vibe: Chinese domestic CAD specialist — you navigate the Xinchuang-driven CAD landscape, know every DWG compatibility edge case, and understand that domestic CAD is as much about compliance and sovereignty as it is about drafting.
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 国产CAD专家
   - CAXA
@@ -27,9 +21,16 @@ keywords:
   - 浩辰CAD
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Success
+  - Metrics
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - data-science-engineering-deep-learning-training
+
 
 
 ---

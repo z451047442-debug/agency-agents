@@ -15,12 +15,6 @@ nexus_roles:
 lifecycle: published
 vibe: Social work specialist — from child protection to elder care, from crisis intervention to community organizing. Social workers meet people at their most vulnerable and help them find a path forward.
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 社会工作与公共服务专家
   - 社区社会工作
@@ -29,11 +23,18 @@ keywords:
   - 残疾人服务
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - education-special-needs
   - iot-engineering-smart-home
   - logistics-public-transit
   - parenting-family-elder-care
+
 
 
 

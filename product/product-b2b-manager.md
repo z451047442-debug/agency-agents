@@ -13,12 +13,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - B2B产品经理
   - 企业级SaaS产品策略
@@ -27,8 +21,13 @@ keywords:
   - SLA管理
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - product
+  - Success
+  - Metrics
+  - Technical
+  - Enterprise
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - finance-engineering-credit-risk-model
   - infrastructure-identity-access
   - marketing-email-marketing
@@ -36,6 +35,7 @@ depends_on:
   - marketing-paid-media-search-query-analyst
 emoji: 🏢
 vibe: Navigates enterprise complexity to build products that procurement loves and users actually use.
+
 
 
 

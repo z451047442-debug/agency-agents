@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - years
-  - edge
-  - computing
 keywords:
   - 边缘计算工程师
   - 边缘计算与CDN架构专家，覆盖边缘节点
@@ -27,6 +21,12 @@ keywords:
   - MEC多接入边缘计算
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - edge
+  - computing
+  - architecture
+  - Designed
 depends_on:
   - engineering-container-orchestration
   - engineering-database-optimizer
@@ -35,9 +35,9 @@ depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - iot-edge-computing
-  - operations-report-distribution-agent
 emoji: 🌐
 vibe: Not everything belongs in the cloud. When latency must be under 10ms, compute moves to the edge — you build the distributed infrastructure that makes it possible.
+
 
 
 

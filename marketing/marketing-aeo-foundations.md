@@ -10,18 +10,18 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AEO基础架构师
   - AI引擎优化基础设施专家，实现llms.txt
   - AI感知robots.txt与结构化内容
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - Date
+  - YYYY-MM-DD
+  - Pages
 depends_on:
   - infrastructure-engineering-devops-automator
   - infrastructure-windows-server
@@ -30,6 +30,7 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🏗️
 vibe: The foundation layer everyone skips — making sure AI systems can actually discover, read, and use your content before you worry about rankings, citations, or task completion
+
 
 
 

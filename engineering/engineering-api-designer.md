@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - designing
-  - APIs
 keywords:
   - API与接口设计师
   - API设计与管理专家，覆盖RESTful
@@ -24,6 +18,12 @@ keywords:
   - API设计原则
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - designing
+  - APIs
+  - scale
+  - Created
 depends_on:
   - engineering-wechat-mini-program-developer
   - engineering-build-release-engineer
@@ -31,6 +31,7 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🔌
 vibe: An API is a contract between producer and consumer — you design contracts that are intuitive, consistent, and evolve without breaking the other side
+
 
 
 ---

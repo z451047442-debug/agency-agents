@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 活动
   - 会展项目经理
@@ -26,14 +20,20 @@ keywords:
   - 展览策划
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - project-management
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - operations-report-distribution-agent
   - project-management-agents-orchestrator
 emoji: 🎪
 vibe: An event that looks effortless took months of planning. The keynote starts on time, the AV works, the food is hot, and the attendees never know about the three crises you solved before breakfast.
+
 
 
 

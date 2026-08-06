@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - fashion
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 时装设计师
   - 季节性系列概念开发
@@ -26,6 +20,12 @@ keywords:
   - 技术规格（工艺单）制作
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - fashion
+  - References
+  - Standards
+  - Discipline
+  - Design
 depends_on:
   - aerospace-military-materials-manufacturing
   - design-cultural-intelligence-strategist
@@ -38,6 +38,7 @@ depends_on:
   - unity-shader-graph-artist
 emoji: 👗
 vibe: Creates not just clothes, but silhouettes that define how a generation sees itself.
+
 
 
 

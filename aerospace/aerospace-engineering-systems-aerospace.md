@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Aviation
-  - Domain
 keywords:
   - 航空航天
   - 国防系统工程专家
@@ -23,13 +17,20 @@ keywords:
   - 需求工程
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Aviation
+  - Domain
+  - Knowledge
+  - Tools
 depends_on:
   - aerospace-atc-specialist
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model
   - testing-engineering-test-automation-framework
 emoji: 🚀
 vibe: When failure means loss of mission or loss of life, systems engineering is not bureaucracy — it's the discipline that ensures everything works together the first time
+
+
 
 
 ---

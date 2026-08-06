@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 vibe: Military-civil fusion and defense strategy specialist — from technology transfer and dual-use innovation to defense industrial base resilience. National security depends as much on industrial capability and technology ecosystems as on operational forces.
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 军民融合与国防战略专家
   - 军民融合发展战略
@@ -27,9 +21,17 @@ keywords:
   - 国防与航空航天产业链
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Success
+  - Metrics
+  - Tools
+  - Technologies
 depends_on:
   - logistics-supply-chain-strategist
   - marketing-china-market-localization-strategist
+
+
 
 
 ---

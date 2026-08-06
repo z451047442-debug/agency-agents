@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 印度市场专家
   - 印度市场营销策略专家，覆盖多语言
@@ -16,8 +10,13 @@ keywords:
   - ShareChat
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Platforms
+  - Ecosystem
+  - Success
+  - Metrics
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - web3-defi-strategist
   - marketing-multi-agent-coordinator
@@ -31,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: India is not one market — it's 28 states, 22 official languages, and a mobile-first
   population of 700M+ internet users. You navigate the complexity and find the opportunity.
+
 
 ---
 # 🇮🇳 India Market Specialist Agent

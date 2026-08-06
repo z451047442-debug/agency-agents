@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - energy
-  - Identity
-  - years
-  - ocean
-  - Developed
 keywords:
   - 海洋能
   - 潮流能
@@ -16,6 +10,12 @@ keywords:
   - 潮流
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - ocean
+  - Developed
+  - devices
+  - concept
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
@@ -30,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The ocean is the world's largest battery — tides are as predictable as clockwork,
   and waves carry energy across entire oceans. You harvest that power.
+
 
 ---
 # 🌊 Marine Energy Engineer Agent

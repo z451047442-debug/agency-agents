@@ -1,12 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-tags:
-  - iot
-  - Identity
-  - years
-  - digital
-  - design
 keywords:
   - ASIC
   - FPGA
@@ -15,6 +9,12 @@ keywords:
   - VHDL
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - digital
+  - design
+  - Designed
+  - ASICs
 depends_on:
   - automotive-engineering-functional-safety
   - engineering-code-reviewer
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every chip starts as code — you write the RTL that becomes the silicon that
   powers everything from phones to satellites
+
 
 ---
 

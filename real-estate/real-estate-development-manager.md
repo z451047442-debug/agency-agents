@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - real-estate
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 开发项目经理
   - 房地产开发全周期管理：拿地研判
@@ -26,9 +20,14 @@ keywords:
   - 施工管理
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - real-estate
+  - Success
+  - Metrics
+  - Tools
+  - Technologies
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - legal-engineering-legal-document-automation
   - legal-general-counsel
@@ -36,6 +35,7 @@ depends_on:
 emoji: 🏗️
 vibe: From dirt to doorstep — every permit, every pour, every punch-list item is a step toward something that will stand for decades.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

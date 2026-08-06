@@ -10,12 +10,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数据工程师
   - Data
@@ -24,6 +18,12 @@ keywords:
   - ETL管道设计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Actionable
+  - Directives
+  - Success
+  - Metrics
 depends_on:
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-computer-vision-deep
@@ -33,6 +33,7 @@ depends_on:
 emoji: 🔧
 vibe: Data scientists build models; data engineers build the foundation those models
   stand on. Without clean, reliable data pipelines, the fanciest ML model is worthless.
+
 
 ---
 

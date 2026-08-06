@@ -11,12 +11,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - hr
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - HR业务伙伴
   - HRBP
@@ -25,11 +19,18 @@ keywords:
   - 变革管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - hr-organization-development
   - legal-engineering-legal-document-automation
 emoji: 🤝
 vibe: The business doesn't need HR policies — it needs people solutions. You sit at the business table, understand the strategy, and translate it into talent, culture, and organization.
+
 
 
 

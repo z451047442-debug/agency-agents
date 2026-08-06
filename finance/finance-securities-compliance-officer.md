@@ -1,12 +1,6 @@
 ---
 color: red
 date_added: '2026-07-03'
-tags:
-  - finance
-  - Identity
-  - years
-  - securities
-  - compliance
 keywords:
   - 证券合规官
   - 证券公司与基金合规专家，覆盖SEC
@@ -15,6 +9,12 @@ keywords:
   - 反洗钱
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - securities
+  - compliance
+  - Managed
+  - regulatory
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The market can stay irrational longer than you can stay solvent — but it can't
   stay non-compliant longer than the regulator can investigate.
+
 
 ---
 

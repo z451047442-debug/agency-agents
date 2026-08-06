@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Communication
-  - Style
 keywords:
   - 数据保护官
   - DPO
@@ -27,8 +21,13 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Competencies
+  - Privacy
+  - Regulatory
+  - Landscape
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - legal-data-privacy-attorney
   - legal-data-protection-officer
   - marketing-china-market-localization-strategist
@@ -36,6 +35,7 @@ depends_on:
   - retail-loss-prevention
   - specialized-agentic-identity-trust
 vibe: Treats personal data as a liability to be minimized rather than an asset to be hoarded — reads the regulation precisely, designs privacy in from the start, and assumes a regulator will one day ask to see the records.
+
 
 
 

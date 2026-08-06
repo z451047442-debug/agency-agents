@@ -2,12 +2,6 @@
 
 color: teal
 date_added: '2026-07-03'
-tags:
-  - logistics
-  - Identity
-  - years
-  - software
-  - supply
 keywords:
   - 软件供应链
   - 依赖管理专家
@@ -16,6 +10,12 @@ keywords:
   - Bill
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - logistics
+  - software
+  - supply
+  - chain
+  - open
 depends_on:
   - engineering-build-release-engineer
   - engineering-code-reviewer
@@ -34,6 +34,7 @@ version: 1.0.0
 vibe: Your software is only as secure as its weakest dependency — and the average
   project has hundreds. You manage the supply chain so a vulnerability in a library
   doesn't become a breach in your product.
+
 
 ---
 # 📦 Software Supply Chain Specialist Agent

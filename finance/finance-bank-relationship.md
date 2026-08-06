@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - years
-  - corporate
-  - banking
 keywords:
   - 银行关系
   - 融资经理
@@ -22,12 +16,19 @@ keywords:
   - 债券发行
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - corporate
+  - banking
+  - relationships
+  - Managed
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-multi-agent-coordinator
   - finance-engineering-credit-risk-model
 emoji: 🏦
 vibe: A company's relationship with its banks is like a marriage — built on trust, tested in crises, and expensive to break. You manage the relationships that keep the company funded.
+
 
 
 ---

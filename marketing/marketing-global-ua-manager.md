@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 海外推广经理
   - 海外用户增长与广告投放专家，覆盖Google
@@ -23,12 +17,17 @@ keywords:
   - 购物
 complexity: medium
 estimated_duration: 2-4h
-depends_on:
-  - cybersecurity-engineering-customer-identity-access
+tags:
+  - marketing
+  - Deliverable
+  - References
+  - Standards
+  - Methodology
 emoji: 🌍
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: z451047442-debug
 vibe: Scaling globally isn't just translating ads. It's understanding that Japanese users convert on LINE campaigns, Brazilians trust WhatsApp ads, and Americans still search on Google. One budget, many cultures, infinite A/B tests.
+
 
 
 

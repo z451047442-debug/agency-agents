@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - 你的身份与记忆
-  - 你的核心使命
 keywords:
   - 营养师
   - 膳食规划
@@ -24,6 +18,12 @@ keywords:
   - 运动营养
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - healthcare-anesthesiologist
   - legal-engineering-legal-document-automation
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🥗
 vibe: Evidence-based, practical, and empowering — translating nutritional science into sustainable daily habits without dogma or fad diets.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

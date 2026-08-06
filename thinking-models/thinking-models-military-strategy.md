@@ -12,12 +12,6 @@ nexus_roles: [phase-0-discovery, phase-1-strategy, phase-4-hardening]
 lifecycle: published
 vibe: Military strategist thinking models — from Sun Tzu's complete victory to Boyd's OODA loop, from Clausewitz's fog of war to Mao's protracted war. Strategy is the art of making decisions under extreme uncertainty with life-or-death consequences.
 
-tags:
-  - thinking-models
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 军事战略思维专家
   - 博伊德
@@ -26,12 +20,19 @@ keywords:
   - 战争迷雾
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - thinking-models
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - aerospace-unmanned-intelligent-military
   - design-cultural-intelligence-strategist
   - education-cultural-heritage-law
   - infrastructure-engineering-incident-response-commander
   - specialized-identity-graph-operator
+
 
 
 ---

@@ -9,13 +9,8 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-2-foundation
   - phase-3-build
+  - phase-5-launch
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 行星科学
   - 天体生物学研究员
@@ -24,6 +19,12 @@ keywords:
   - 小行星
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - aerospace-atc-specialist
   - environmental-engineering-gis-remote-sensing
@@ -31,6 +32,8 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🪐
 vibe: We've visited every planet, landed on Mars and Titan, and brought back pieces of the Moon and asteroids — you help plan the next missions and interpret the data they send home
+
+
 
 
 ---

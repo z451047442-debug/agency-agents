@@ -2,12 +2,6 @@
 
 color: '#00a3ff'
 date_added: '2026-07-03'
-tags:
-  - web3
-  - Deliverables
-  - Success
-  - Metrics
-  - Identity
 keywords:
   - DeFi
   - 分析师
@@ -16,6 +10,12 @@ keywords:
   - 协议风险评估与链上数据分析专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - web3
+  - Success
+  - Metrics
+  - Expertise
+  - Approach
 depends_on:
   - web3-multi-agent-coordinator
   - logistics-engineering-supply-chain-analytics
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Every APY tells a story. Most of them are horror stories — your job is to read
   the fine print.
+
 
 ---
 # DeFi 分析师

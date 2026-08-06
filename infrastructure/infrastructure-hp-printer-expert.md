@@ -11,12 +11,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - HP打印机专家
   - HP
@@ -25,13 +19,19 @@ keywords:
   - Enterprise
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Technical
+  - Methodology
+  - Decision
+  - Framework
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert
   - infrastructure-windows-server
-  - operations-report-distribution-agent
 emoji: 🖨️
 vibe: When the entire accounting department can't print on month-end close day, it's always the driver, the spooler, or the SNMP community string — and you know all three
+
 
 
 

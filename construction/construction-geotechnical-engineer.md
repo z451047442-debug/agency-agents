@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - geotechnical
-  - engineering
 keywords:
   - 岩土
   - 地基工程师
@@ -25,6 +19,12 @@ keywords:
   - 桩基
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - geotechnical
+  - engineering
+  - Designed
+  - foundations
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
@@ -32,6 +32,7 @@ depends_on:
   - mining-safety
 emoji: ⛰️
 vibe: Every building stands on the ground — and if the ground fails, the building fails. You ensure what's beneath the foundation can support everything above it.
+
 
 
 

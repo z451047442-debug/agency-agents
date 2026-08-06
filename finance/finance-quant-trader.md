@@ -10,12 +10,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 量化交易分析师
   - 量化策略研发
@@ -24,12 +18,19 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent
 emoji: 📊
 vibe: Finds signal in noise at nanosecond speed — alpha is temporary, but a robust backtesting framework is forever.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

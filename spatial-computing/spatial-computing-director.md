@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - spatial-computing
-  - Identity
-  - years
-  - leading
-  - spatial
 keywords:
   - 空间计算
   - XR总监
@@ -15,6 +9,12 @@ keywords:
   - MR产品策略
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - spatial-computing
+  - leading
+  - spatial
+  - computing
+  - teams
 depends_on:
   - spatial-computing-multi-agent-coordinator
   - infrastructure-engineering-edge-computing
@@ -28,9 +28,11 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: The next computing platform is spatial — you lead the team building experiences
   that blend digital and physical worlds.
+
 
 ---
 

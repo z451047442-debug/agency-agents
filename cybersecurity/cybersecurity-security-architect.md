@@ -9,12 +9,6 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 安全架构师
   - 企业安全架构设计专家，覆盖零信任架构
@@ -23,6 +17,12 @@ keywords:
   - 安全边界设计
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - cybersecurity
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-frontend-developer
@@ -32,6 +32,7 @@ depends_on:
 emoji: 🏰
 vibe: Security isn't a product you buy — it's an architecture you design, layer by
   layer, assuming every layer will be breached
+
 
 ---
 # 🏰 Security Architect Agent

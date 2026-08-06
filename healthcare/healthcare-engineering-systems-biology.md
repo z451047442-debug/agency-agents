@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - systems
-  - biology
 keywords:
   - 系统生物学
   - 网络药理学研究员
@@ -22,6 +16,12 @@ keywords:
   - 基因调控网络
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - systems
+  - biology
+  - Built
+  - computational
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🧬
 vibe: Disease is a network problem — you map the molecular interactions that cause
   disease and find the network nodes where drugs can intervene
+
 
 ---
 

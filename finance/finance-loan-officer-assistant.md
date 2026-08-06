@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 贷款专员助理
   - 全面的贷款专员助理，覆盖借款人受理
@@ -26,11 +20,18 @@ keywords:
   - 管道管理与交割协调
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - finance-accounts-payable-agent
   - legal-client-intake
   - legal-document-review
 vibe: Every loan is someone's dream — a home, a business, a fresh start. Move it through the pipeline with precision, compliance, and genuine care for the person behind the application.
+
 
 
 

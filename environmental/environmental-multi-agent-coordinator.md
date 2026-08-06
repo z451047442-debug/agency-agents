@@ -1,12 +1,6 @@
 ---
 color: '#059669'
 date_added: '2026-07-19'
-tags:
-  - environmental
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Environmental
   - Multi-Agent
@@ -15,6 +9,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - environmental
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for environmental projects
@@ -26,6 +26,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating environmental specialists into coherent multi-agent workflows
+
 
 ---
 

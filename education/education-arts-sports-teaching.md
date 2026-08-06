@@ -12,12 +12,6 @@ date_added: "2026-07-12"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 艺体教育专家
   - 体育
@@ -26,6 +20,12 @@ keywords:
   - 舞蹈
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - design-creative-tools
   - marketing-short-video-editing-coach
@@ -36,6 +36,7 @@ depends_on:
   - testing-test-results-analyzer
   - unity-shader-graph-artist
 vibe: Arts and physical education specialist — from correct embouchure to correct throwing form, from color theory to choreography. Arts and sports develop the whole person. Creativity is teachable, discipline is learnable, and the stage transforms students.
+
 
 
 

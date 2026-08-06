@@ -10,12 +10,6 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
-tags:
-  - product
-  - Identity
-  - Memory
-  - Role
-  - Definition
 keywords:
   - Sprint
   - 优先级规划师
@@ -24,6 +18,12 @@ keywords:
   - 管理专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - product
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -36,6 +36,7 @@ depends_on:
 tools: WebFetch, WebSearch, Read, Write, Edit
 emoji: 🎯
 vibe: Maximizes sprint value through data-driven prioritization and ruthless focus.
+
 
 ---
 ## Your Identity & Memory

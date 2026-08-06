@@ -9,12 +9,6 @@ nexus_roles:
 - phase-6-operate
 - phase-4-hardening
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Oracle
   - DBA专家
@@ -23,6 +17,12 @@ keywords:
   - 21c
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Actionable
+  - Directives
+  - Deliverable
+  - References
 depends_on:
   - engineering-database-optimizer
   - infrastructure-ansible-expert
@@ -32,6 +32,7 @@ depends_on:
 emoji: 🗄️
 vibe: Oracle runs the financial system, the billing system, and the inventory system.
   When the DBA says wait, the CEO waits — because losing a redo log is not an option.
+
 
 ---
 

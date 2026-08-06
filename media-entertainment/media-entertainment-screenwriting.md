@@ -11,12 +11,6 @@ nexus_roles: [phase-3-build, phase-4-hardening]
 lifecycle: published
 vibe: Screenwriter — from logline to final draft, from Save the Cat to the Hero's Journey. A script is a blueprint for a movie; every scene must earn its place on screen.
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 编剧专家
   - 影视剧本结构
@@ -25,9 +19,16 @@ keywords:
   - 序列法
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - specialized-personal-growth-mentor
   - thinking-models-decision-frameworks
+
 
 
 ---

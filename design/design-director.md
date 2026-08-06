@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-3-build
 lifecycle: published
-tags:
-  - design
-  - Identity
-  - years
-  - leading
-  - teams
 keywords:
   - 设计总监
   - 设计团队最高负责人，覆盖设计战略
@@ -24,11 +18,18 @@ keywords:
   - 设计团队管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - design
+  - leading
+  - teams
+  - across
+  - product
 depends_on:
   - design-engineering-user-research-system
   - marketing-abm-account-based
 emoji: 🎨
 vibe: Design is not how it looks — it's how it works. You lead the team that makes products intuitive, beautiful, and accessible.
+
 
 
 

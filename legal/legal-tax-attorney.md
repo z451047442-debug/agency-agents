@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 税务律师
   - 税务争议解决
@@ -26,6 +20,12 @@ keywords:
   - 核心信念
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - legal
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - finance-cost-accountant
   - finance-engineering-risk-quant
@@ -34,6 +34,7 @@ depends_on:
 emoji: 📜
 vibe: Tax law is the code that runs civilization — you help clients comply, optimize, and defend.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

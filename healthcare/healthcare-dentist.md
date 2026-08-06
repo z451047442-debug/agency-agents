@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - dental
-  - practice
 keywords:
   - 口腔科
   - 牙科医师
@@ -23,6 +17,12 @@ keywords:
   - 牙周
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - dental
+  - practice
+  - Provided
+  - comprehensive
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🦷
 vibe: A smile is the first thing people notice — you restore function, relieve pain,
   and give people the confidence to smile
+
 
 ---
 # 🦷 Dentist Agent

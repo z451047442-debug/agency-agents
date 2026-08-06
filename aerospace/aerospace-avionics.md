@@ -19,17 +19,23 @@ keywords:
   - 综合模块化航电
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - aerospace-atc-specialist
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - engineering-git-workflow-master
   - engineering-programming-language
   - engineering-standards-compliance
   - infrastructure-identity-access
 description: 航空电子系统设计与集成专家，覆盖飞行管理、通信导航、座舱显示、综合模块化航电
 category: aerospace
-tags: [avionics, IMA, flight-management, navigation, cockpit-display]
+
+
 
 
 

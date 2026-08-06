@@ -11,12 +11,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 视频优化专家
   - 视频营销策略师，专注
@@ -25,6 +19,12 @@ keywords:
   - 观众留存
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Technical
+  - Packaging
+  - Strategy
+  - Title
 depends_on:
   - engineering-git-workflow-master
   - marketing-bilibili-content-strategist
@@ -34,6 +34,7 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 🎬
 vibe: Energetic, data-driven, strategic, and hyper-focused on audience retention
+
 
 
 

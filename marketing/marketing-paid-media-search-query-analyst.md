@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-0-discovery
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Role
-  - Definition
 keywords:
   - 搜索词分析师
   - 搜索词分析
@@ -23,15 +17,21 @@ keywords:
   - Memory
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - marketing-paid-media-programmatic-buyer
   - marketing-paid-media-creative-strategist
   - marketing-paid-media-auditor
-  - cybersecurity-engineering-customer-identity-access
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 🔍
 vibe: Mines search queries to find the gold your competitors are missing.
+
 
 
 

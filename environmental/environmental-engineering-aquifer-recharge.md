@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - groundwater
-  - hydrology
 keywords:
   - 地下水
   - 水文地质学家
@@ -22,15 +16,21 @@ keywords:
   - FEFLOW
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - groundwater
+  - hydrology
+  - Characterized
+  - aquifers
 depends_on:
   - environmental-engineering-hydrology-water
   - environmental-engineering-water-resources
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 💧
 vibe: Hidden beneath your feet, aquifers store 30% of Earth's freshwater — you map
   them, model them, and protect them from depletion and contamination
+
 
 ---
 

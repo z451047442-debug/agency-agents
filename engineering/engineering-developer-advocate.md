@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 开发者布道师
   - 社区建设
@@ -25,6 +19,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - engineering-build-release-engineer
   - engineering-code-reviewer
@@ -37,6 +37,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🗣️
 vibe: Bridges your product team and the developer community through authentic engagement.
+
 
 
 

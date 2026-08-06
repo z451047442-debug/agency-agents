@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - product
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 行为助推引擎
   - 行为心理学
@@ -26,6 +20,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - product
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
   - engineering-email-intelligence-engineer
   - product-ai-pm
@@ -35,6 +35,7 @@ depends_on:
   - thinking-models-cognitive-biases
 emoji: 🧠
 vibe: Adapts software interactions to maximize user motivation through behavioral psychology.
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 电子制造
   - SMT工艺工程师
@@ -26,14 +20,20 @@ keywords:
   - 波峰焊工艺
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-engineering-automotive-thermal
-  - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
   - infrastructure-identity-access
 emoji: 🏭
 vibe: A brilliant design that can't be manufactured at scale is a prototype, not a product. You make electronics manufacturing work — at volume, at quality, at cost.
+
 
 
 

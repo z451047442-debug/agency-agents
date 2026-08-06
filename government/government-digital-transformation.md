@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: draft
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 数字政府顾问
   - 数字政府转型：政务云
@@ -26,6 +20,12 @@ keywords:
   - 数字孪生城市
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -35,6 +35,7 @@ depends_on:
 emoji: 🏛️
 vibe: Government at the speed of paper is no longer acceptable — digital transformation is not about technology, it's about trust.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
 
 
 

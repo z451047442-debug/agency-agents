@@ -10,12 +10,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - LlamaIndex专家
   - LlamaIndex数据Agent与RAG框架专家
@@ -24,6 +18,12 @@ keywords:
   - Tree
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - design-image-prompt-engineer
   - engineering-build-release-engineer
@@ -35,6 +35,7 @@ emoji: 🦙
 vibe: LlamaIndex turns your data into AI-accessible knowledge. The difference between
   a naive RAG that hallucinates and a production one that doesn't is knowing which
   index, which retriever, and which router to use.
+
 
 ---
 

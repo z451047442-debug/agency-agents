@@ -1,12 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - gis
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 空间数据科学家
   - 运用统计建模
@@ -15,6 +9,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - gis
+  - Process
+  - Tech
+  - Stack
+  - Agent
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
@@ -24,7 +24,6 @@ depends_on:
   - gis-multi-agent-coordinator
   - finance-engineering-risk-quant
   - infrastructure-identity-access
-  - operations-report-distribution-agent
   - specialized-agentic-identity-trust
   - testing-test-results-analyzer
 description: 运用统计建模、空间计量经济学与预测分析的高级空间数据分析专家
@@ -37,6 +36,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: Finding the patterns in space that even experienced analysts miss.
+
 
 ---
 

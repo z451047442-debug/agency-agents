@@ -19,17 +19,23 @@ keywords:
   - 燃烧室
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Professional
+  - Scope
 depends_on:
   - aerospace-engineering-aviation-engineering
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - engineering-git-workflow-master
   - engineering-programming-language
   - engineering-standards-compliance
   - infrastructure-identity-access
 description: 航空发动机/燃气轮机设计与试验专家，覆盖总体性能、压气机、燃烧室、涡轮、控制系统
 category: aerospace
-tags: [turbine-engine, propulsion, combustion, compressor, thermodynamic]
+
+
 
 
 

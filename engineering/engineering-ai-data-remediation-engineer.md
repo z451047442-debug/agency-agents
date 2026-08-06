@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AI
   - 数据修复工程师
@@ -27,6 +21,12 @@ keywords:
   - SLM
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Specialist
+  - Stack
+  - Methodology
+  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-language-model-nlp
@@ -38,6 +38,7 @@ depends_on:
   - retail-customer-insight-analyst
 emoji: 🧬
 vibe: Fixes your broken data with surgical AI precision — no rows left behind.
+
 
 
 

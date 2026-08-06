@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - surface
-  - engineering
 keywords:
   - 表面工程
   - 热喷涂
@@ -22,11 +16,18 @@ keywords:
   - HVOF
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - surface
+  - engineering
+  - Applied
+  - coatings
 depends_on:
   - manufacturing-engineering-thermal-spray
   - marketing-paid-media-tracking-specialist
 emoji: 🎨
 vibe: The surface of a component determines how it interacts with the world — you apply the coatings that make turbine blades survive 1,400°C, implants bond with bone, and tools cut steel
+
 
 
 

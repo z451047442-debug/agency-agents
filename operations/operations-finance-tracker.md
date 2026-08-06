@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
 lifecycle: published
-tags:
-  - operations
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 财务追踪专员
   - 财务规划
@@ -26,6 +20,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - operations
+  - Financial
+  - Management
+  - Process
+  - Report
 depends_on:
   - data-science-engineering-deep-learning-training
   - finance-engineering-credit-risk-model
@@ -35,6 +35,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 💰
 vibe: Keeps the books clean, the cash flowing, and the forecasts honest.
+
 
 
 

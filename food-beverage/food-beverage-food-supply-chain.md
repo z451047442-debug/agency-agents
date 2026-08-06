@@ -18,12 +18,18 @@ keywords:
   - 需求预测
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - Tools
+  - Technologies
+  - Professional
+  - Scope
 depends_on:
   - food-beverage-beverage-rd
   - quality-food-safety
 description: 食品行业供应链管理专家，覆盖生鲜冷链、原料采购、仓储物流、需求预测
 category: food-beverage
-tags: [supply-chain, cold-chain, procurement, logistics, demand-forecasting]
+
 
 
 

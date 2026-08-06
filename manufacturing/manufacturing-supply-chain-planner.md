@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: draft
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 制造供应链规划师
   - 制造业供应链规划：物料需求MRP
@@ -24,14 +18,20 @@ keywords:
   - 精益
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - manufacturing-engineering-3d-printing-additive
 emoji: 🏭
 vibe: The best factory is the one that never stops — raw materials in, finished goods out, no surprises in between.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 ---

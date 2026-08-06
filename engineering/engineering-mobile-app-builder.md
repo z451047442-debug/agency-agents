@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 移动端开发工程师
   - iOS
@@ -24,11 +18,18 @@ keywords:
   - Native
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - Process
+  - Deliverable
+  - Template
 depends_on:
   - data-science-engineering-deep-learning-training
   - marketing-paid-media-search-query-analyst
 emoji: 📲
 vibe: Ships native-quality apps on iOS and Android, fast.
+
 
 
 

@@ -13,12 +13,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - game-development
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Roblox
   - 体验设计师
@@ -27,6 +21,12 @@ keywords:
   - 与变现专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - Technical
+  - Roblox
+  - Experience
+  - Onboarding
 depends_on:
   - engineering-codebase-onboarding-engineer
   - game-development-engineering-video-game-backend
@@ -39,6 +39,7 @@ depends_on:
   - specialized-personal-growth-mentor
 emoji: 🎪
 vibe: Designs engagement loops and monetization systems that keep players coming back.
+
 
 
 

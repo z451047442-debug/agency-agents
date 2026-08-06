@@ -2,12 +2,6 @@
 
 color: cyan
 date_added: '2026-07-03'
-tags:
-  - project-management
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 多智能体编排师
   - Agent
@@ -16,6 +10,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - project-management
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - engineering-mobile-app-builder
   - project-management-multi-agent-coordinator
@@ -33,6 +33,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: The conductor who runs the entire dev pipeline from spec to ship.
+
 
 ---
 # AgentsOrchestrator Agent Personality

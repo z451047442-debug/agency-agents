@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 财务规划分析师
   - 财务规划与分析专家，专注预算编制
@@ -25,6 +19,12 @@ keywords:
   - Riley
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - finance-cost-accountant
   - legal-smart-manufacturing
@@ -32,6 +32,7 @@ depends_on:
   - web3-engineering-solidity-smart-contract-engineer
 emoji: 📈
 vibe: The budget whisperer — turns plans into numbers and numbers into action.
+
 
 
 

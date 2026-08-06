@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - food-beverage
-  - Identity
-  - years
-  - food
-  - manufacturing
 keywords:
   - 食品工艺
   - 食品制造工程师
@@ -16,11 +10,16 @@ keywords:
   - 杀菌
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - food
+  - manufacturing
+  - Scaled
+  - products
 depends_on:
   - food-beverage-engineering-food-sensory
   - food-beverage-food-safety
   - food-beverage-multi-agent-coordinator
-  - operations-report-distribution-agent
   - quality-food-safety
 description: 食品加工工艺与工业化生产专家，覆盖热加工(巴氏/杀菌/烘焙)/非热加工(HPP/超声波)、食品添加剂/配料功能、工艺放大(中试→量产)与FSSC
   22000/HACCP合规
@@ -33,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Making food in a test kitchen is cooking; making it in a factory at 10,000 units
   per hour is engineering. You bridge the gap.
+
 
 ---
 # 🏭 Food Process Engineer Agent

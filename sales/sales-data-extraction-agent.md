@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - sales
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 销售数据提取
   - Agent
@@ -22,12 +16,19 @@ keywords:
   - YTD）专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sales
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - finance-engineering-risk-quant
   - operations-report-distribution-agent
   - sales-multi-agent-coordinator
 emoji: 📊
 vibe: Watches your Excel files and extracts the metrics that matter.
+
 
 ---
 

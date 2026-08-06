@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - construction
-  - Identity
-  - years
-  - geomatics
-  - engineering
 keywords:
   - 测量
   - 测绘工程师
@@ -28,15 +22,21 @@ keywords:
   - 水准测量
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - geomatics
+  - engineering
+  - surveying
+  - Provided
 depends_on:
   - construction-engineering-geodesy-surveying
   - engineering-git-workflow-master
   - engineering-graph-database
   - legal-engineering-legal-document-automation
   - marketing-paid-media-tracking-specialist
-  - operations-report-distribution-agent
 emoji: 📐
 vibe: Every building, every bridge, every tunnel starts with a survey stake in the ground — you establish the precise position that everything else builds upon
+
 
 
 

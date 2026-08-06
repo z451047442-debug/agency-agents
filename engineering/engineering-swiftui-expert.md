@@ -11,12 +11,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - SwiftUI
   - iOS开发专家
@@ -25,6 +19,12 @@ keywords:
   - View
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Methodology
+  - Decision
+  - Framework
+  - Deliverable
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-feature-store
@@ -37,6 +37,7 @@ emoji: 🍎
 vibe: SwiftUI turned UIKit's imperative complexity into declarative clarity. The SwiftUI
   engineer who understands the view update cycle, the actor model, and custom layout
   protocols builds iOS apps with 60% less code and 100% of the native feel.
+
 
 ---
 # 🍎 SwiftUI & iOS Developer Agent

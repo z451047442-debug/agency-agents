@@ -12,14 +12,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-6-operate
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - customer-service
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 客户支持专员
   - 客户服务
@@ -28,9 +23,14 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - customer-service
+  - Customer
+  - Support
+  - Process
+  - Interaction
 depends_on:
   - aerospace-damage-protection-technology
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - education-special-needs
   - engineering-social-media-platform
@@ -44,6 +44,7 @@ depends_on:
   - specialized-life-coach
 emoji: 💬
 vibe: Turns frustrated users into loyal advocates, one interaction at a time.
+
 
 
 

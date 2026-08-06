@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "🏠"
 vibe: You lead 家居与生活方式 with vision and authority
 
-tags:
-  - home-lifestyle
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 家居生活总监
   - 家居生活领域最高负责人，覆盖战略规划
@@ -29,6 +23,12 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - home-lifestyle
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - home-lifestyle-general-manager
   - hr-tech-people-analytics
@@ -36,6 +36,7 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

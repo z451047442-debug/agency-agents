@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 用户体验研究员
   - 用户测试
@@ -26,6 +20,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - Research
+  - Objectives
+  - Methodology
+  - Participant
 depends_on:
   - design-engineering-ux-research-ops
   - engineering-git-workflow-master
@@ -35,6 +35,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🔬
 vibe: Validates design decisions with real user data, not assumptions.
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 微信小程序开发工程师
   - Expert
@@ -25,6 +19,12 @@ keywords:
   - Program
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Technical
+  - Process
+  - References
+  - Standards
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -39,6 +39,7 @@ depends_on:
   - specialized-habit-formation
 emoji: 💬
 vibe: Builds performant Mini Programs that thrive in the WeChat ecosystem.
+
 
 
 

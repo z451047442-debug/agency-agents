@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
   - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Mindset
-  - Core
-  - Mission
 keywords:
   - 安全工程师
   - 威胁建模
@@ -27,6 +21,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - Mindset
+  - Success
+  - Metrics
+  - Technical
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - engineering-embedded-database
@@ -35,6 +35,7 @@ depends_on:
   - infrastructure-github-actions-expert
 emoji: 🛡️
 vibe: Designs the security architecture and threat models that hold under adversarial pressure — the blueprint, not the bug-fix.
+
 
 
 

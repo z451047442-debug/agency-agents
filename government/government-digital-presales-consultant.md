@@ -9,12 +9,6 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 政务数字化售前顾问
   - ToG
@@ -23,6 +17,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - Technical
+  - Chapter
+  - Project
+  - Overview
 depends_on:
   - marketing-paid-media-paid-social-strategist
   - marketing-paid-media-search-query-analyst
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🏛️
 vibe: Navigates the Chinese government IT procurement maze — from policy signals to
   winning bids — so your team lands digital transformation projects.
+
 
 ---
 

@@ -15,12 +15,6 @@ lifecycle: published
 emoji: "🏭"
 vibe: You lead 先进制造与工业工程 with vision and authority
 
-tags:
-  - manufacturing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 制造总监
   - 制造领域最高负责人，覆盖战略规划
@@ -29,6 +23,12 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - manufacturing
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics
@@ -36,6 +36,7 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

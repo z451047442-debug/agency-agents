@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - robotics
-  - Identity
-  - years
-  - collaborative
-  - Deployed
 keywords:
   - 协作机器人
   - 人机协作安全工程师
@@ -23,12 +17,19 @@ keywords:
   - TS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - collaborative
+  - Deployed
+  - cobots
+  - manufacturing
 depends_on:
   - data-science-engineering-deep-learning-training
   - robotics-multi-agent-coordinator
   - robotics-integration-engineer
 emoji: 🤝
 vibe: A robot that works safely alongside humans, sharing the same workspace without cages — that's collaborative robotics, where safety is the product
+
 
 
 ---

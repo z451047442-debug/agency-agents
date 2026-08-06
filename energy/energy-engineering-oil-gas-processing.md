@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - surface
-  - facilities
 keywords:
   - 油气集输
   - 天然气处理工程师
@@ -23,6 +17,12 @@ keywords:
   - 天然气脱硫
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - surface
+  - facilities
+  - Designed
+  - processing
 depends_on:
   - environmental-renewable-energy
   - environmental-water-treatment
@@ -31,6 +31,7 @@ emoji: 🛢️
 vibe: The oil and gas that comes out of the ground is a messy mixture — you design
   the facilities that separate, treat, and process it into products the world can
   use
+
 
 ---
 # 🛢️ Oil & Gas Facilities Engineer Agent

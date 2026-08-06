@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 播客策略师
   - 播客内容策略与平台运营专家
@@ -24,6 +18,12 @@ keywords:
   - Memory
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - marketing
+  - Technical
+  - Show
+  - Basics
+  - Content
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
@@ -31,6 +31,7 @@ depends_on:
   - design-brand-guardian
 emoji: 🎧
 vibe: Guides your podcast from concept to loyal audience in China's booming audio scene.
+
 
 
 

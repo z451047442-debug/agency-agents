@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: draft
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - internationalization
-  - Made
 keywords:
   - 国际化
   - 本地化
@@ -23,12 +17,19 @@ keywords:
   - 工程师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - internationalization
+  - Made
+  - software
+  - work
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - testing-engineering-test-automation-framework
 emoji: 🌐
 vibe: Your app users speak 7,000 languages — you build the infrastructure that makes software speak every one of them correctly
+
 
 
 

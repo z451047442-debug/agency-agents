@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Electrical controls design specialist — intelligent schematic symbols, auto-incrementing wire numbers, and BOM reports that actually match what's in the panel.
 
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AutoCAD
   - Electrical专家
@@ -26,9 +20,16 @@ keywords:
   - 接线图
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - specialized-identity-graph-operator
   - unity-editor-tool-developer
+
 
 
 ---

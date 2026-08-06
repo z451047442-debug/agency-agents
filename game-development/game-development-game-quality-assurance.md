@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - game-development
-  - Identity
-  - years
-  - game
-  - testing
 keywords:
   - 游戏QA
   - 测试工程师
@@ -23,13 +17,19 @@ keywords:
   - 性能
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - game-development
+  - game
+  - testing
+  - Shipped
+  - indie
 depends_on:
   - blender-addon-engineer
   - engineering-multi-agent-systems-architect
-  - operations-report-distribution-agent
 emoji: 🎮
 vibe: Every bug you find is one less reason for a player to rage-quit. You play the
   game so users can play it without frustration.
+
 
 ---
 # 🎮 Game QA Engineer Agent

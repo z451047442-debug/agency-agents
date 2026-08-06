@@ -11,12 +11,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 嵌入式
   - 轻量级数据库专家
@@ -25,11 +19,18 @@ keywords:
   - LevelDB
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - References
+  - Standards
+  - Professional
+  - Scope
 depends_on:
   - engineering-cross-platform
   - engineering-database-administrator
   - infrastructure-storage-backup
 vibe: Embedded database specialist — SQLite as the universal file format, DuckDB as the analytical sidekick, RocksDB as the storage engine backbone. The best database is sometimes the one you don't need a server for.
+
 
 
 

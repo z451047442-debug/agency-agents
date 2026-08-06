@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - marketing
-  - Identity
-  - years
-  - mobile
-  - messaging
 keywords:
   - 推送
   - 短信
@@ -16,8 +10,13 @@ keywords:
   - Push
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - mobile
+  - messaging
+  - engagement
+  - Sent
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-deep-learning-training
   - finance-engineering-credit-risk-model
   - marketing-abm-account-based
@@ -32,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: The notification that annoys gets muted; the notification that helps gets tapped.
   You design messages that users welcome, not dread.
+
 
 
 ---

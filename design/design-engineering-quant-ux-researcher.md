@@ -1,12 +1,6 @@
 ---
 color: indigo
 date_added: '2026-07-03'
-tags:
-  - design
-  - Identity
-  - years
-  - quantitative
-  - research
 keywords:
   - 量化用户体验研究员
   - Quant
@@ -15,6 +9,12 @@ keywords:
   - B测试统计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - quantitative
+  - research
+  - Measured
+  - user
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - design-engineering-user-research-system
@@ -34,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Qualitative research tells you why; quantitative research tells you how many
   and how much. You measure the user experience at scale with statistical rigor.
+
 
 ---
 

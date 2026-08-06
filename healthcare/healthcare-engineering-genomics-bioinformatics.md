@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - bioinformatics
-  - computational
 keywords:
   - 生物信息学
   - 基因组学数据科学家
@@ -24,6 +18,12 @@ keywords:
   - RNA-seq
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - bioinformatics
+  - computational
+  - biology
+  - Analyzed
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-medical-device-software
@@ -33,6 +33,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🧬
 vibe: The human genome is 3 billion base pairs — you write the algorithms that find meaning in the code of life, one variant at a time
+
 
 
 

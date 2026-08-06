@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 上市与资本市场财务顾问
   - 企业上市
@@ -26,6 +20,12 @@ keywords:
   - 港股
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - data-science-consolidation-agent
   - data-science-engineering-language-model-nlp
@@ -35,6 +35,7 @@ depends_on:
   - marketing-paid-media-auditor
 emoji: 📊
 vibe: Taking a company public transforms its financial operations permanently — you guide finance teams through the gauntlet and out the other side, ready for public company life
+
 
 
 

@@ -9,12 +9,6 @@ nexus_roles:
 - phase-1-strategy
 - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - years
-  - endpoint
-  - forensics
 keywords:
   - 终端检测
   - 事件响应
@@ -23,6 +17,12 @@ keywords:
   - 分析师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - endpoint
+  - forensics
+  - incident
+  - response
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🔍
 vibe: When an attacker is inside the network, you find them, contain them, and figure
   out exactly what they did — then make sure they can't do it again
+
 
 ---
 # 🔍 DFIR Analyst Agent

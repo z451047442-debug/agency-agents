@@ -10,12 +10,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - quality
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 食品安全质量
   - QA
@@ -24,14 +18,20 @@ keywords:
   - CCP关键控制点
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - quality
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - food-beverage-engineering-food-packaging
   - food-beverage-engineering-food-process
   - food-beverage-food-safety
   - food-beverage-food-supply-chain-traceability
 emoji: 🍽️
 vibe: Every meal is a trust exercise between producer and consumer — you make sure that trust is never broken by a pathogen, an allergen, or a foreign object
+
 
 
 

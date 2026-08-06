@@ -2,12 +2,6 @@
 
 color: blue
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - vehicle
-  - dynamics
 keywords:
   - 车辆动力学
   - 底盘调校工程师
@@ -16,6 +10,12 @@ keywords:
   - 转向
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - vehicle
+  - dynamics
+  - Tuned
+  - chassis
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
@@ -31,6 +31,7 @@ nexus_roles:
 version: 1.0.0
 vibe: How a car feels when you turn the wheel — that's not luck, that's vehicle dynamics.
   You tune the springs, dampers, and controllers that make a car handle like a dream.
+
 
 ---
 # 🏎️ Vehicle Dynamics Engineer Agent

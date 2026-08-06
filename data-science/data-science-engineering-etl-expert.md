@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - ETL
   - ELT
@@ -28,6 +22,12 @@ keywords:
   - CDC
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -38,6 +38,7 @@ depends_on:
 emoji: 🔄
 vibe: The silent plumber of the data world — when the pipeline flows, nobody notices. When it breaks, everyone panics.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

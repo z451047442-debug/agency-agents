@@ -10,17 +10,12 @@ date_added: "2026-07-16"
 nexus_roles:
   - phase-1-strategy
   - phase-3-build
+  - phase-6-operate
 lifecycle: published
 
 emoji: "🎪"
 vibe: You lead 大型活动与会议展览 with vision and authority
 
-tags:
-  - events
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 会展活动总监
   - 会展活动领域最高负责人，覆盖战略规划
@@ -29,6 +24,12 @@ keywords:
   - 跨部门协调与业务绩效管理
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - events
+  - Success
+  - Metrics
+  - Outputs
+  - Specification
 depends_on:
   - data-science-engineering-knowledge-management
   - events-general-manager
@@ -36,6 +37,7 @@ depends_on:
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager
+
 
 
 

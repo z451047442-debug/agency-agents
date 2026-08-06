@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - construction
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 暖通空调
   - HVAC
@@ -23,14 +17,20 @@ keywords:
   - 冷水机组
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - construction
+  - Success
+  - Metrics
+  - Authoritative
+  - References
 depends_on:
   - construction-engineering-green-building
   - construction-engineering-noise-control
   - energy-engineering-waste-to-energy
   - manufacturing-engineering-automation-systems
-  - operations-report-distribution-agent
 emoji: 🌬️
 vibe: When 500 people work in a sealed glass tower in August, they don't think about the HVAC — which means you did your job perfectly
+
 
 
 

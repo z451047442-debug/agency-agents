@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - reactor
-  - physics
 keywords:
   - 核工程
   - 反应堆物理工程师
@@ -23,14 +17,20 @@ keywords:
   - 堆芯燃料管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - reactor
+  - physics
+  - Designed
+  - analyzed
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
 emoji: ☢️
 vibe: A nuclear reactor is physics, engineering, and safety culture combined — you
   design the core, predict its behavior, and ensure it stays safe under all conditions
+
 
 ---
 # ☢️ Reactor Physicist Agent

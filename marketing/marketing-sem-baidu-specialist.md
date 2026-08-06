@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Core
-  - Mission
-  - Critical
 keywords:
   - SEM
   - 百度竞价专员
@@ -24,6 +18,12 @@ keywords:
   - 与SEM优化专家
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Deliverable
+  - Date
+  - Auditor
+  - Zhang
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-auditor
@@ -31,6 +31,7 @@ depends_on:
   - design-brand-guardian
 emoji: 🔍
 vibe: Baidu has 70%+ of China's search market. While everyone's chasing social media trends, the highest-intent traffic — people actively searching for your product right now — is on Baidu.
+
 
 
 

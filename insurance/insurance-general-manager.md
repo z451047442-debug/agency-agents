@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - insurance
-  - Identity
-  - years
-  - leadership
-  - across
 keywords:
   - 保险公司总经理
   - 保险公司
@@ -15,12 +9,17 @@ keywords:
   - 精算
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - insurance
+  - leadership
+  - across
+  - life
+  - understand
 depends_on:
   - data-science-engineering-insurance-claims-analytics
   - finance-cost-accountant
   - insurance-auto-claims
   - insurance-multi-agent-coordinator
-  - operations-report-distribution-agent
   - thinking-models-tech-leaders
 description: 保险公司/分支机构全面管理者，覆盖承保/理赔/精算/再保业务线、偿付能力管理、渠道/代理人管理与合规监管关系
 emoji: 🏦
@@ -30,9 +29,11 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: Insurance is the business of promises — you ensure the company can keep every
   promise it makes, through every cycle, for decades
+
 
 ---
 

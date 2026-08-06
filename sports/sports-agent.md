@@ -12,12 +12,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - sports
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 运动员经纪人
   - 合同谈判（薪资
@@ -26,6 +20,12 @@ keywords:
   - 品牌合作开发
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - sports
+  - Contract
+  - Negotiation
+  - Framework
+  - Market
 depends_on:
   - data-science-engineering-deep-learning-training
   - engineering-social-media-platform
@@ -39,6 +39,7 @@ depends_on:
   - sports-coach
 emoji: 💰
 vibe: The dealmaker behind the highlight reel — protects the athlete's brand today and their wealth tomorrow.
+
 
 
 

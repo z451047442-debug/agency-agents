@@ -1,12 +1,6 @@
 ---
 color: amber
 date_added: '2026-07-03'
-tags:
-  - food-beverage
-  - Identity
-  - years
-  - fermented
-  - foods
 keywords:
   - 发酵食品
   - 酵素
@@ -15,6 +9,12 @@ keywords:
   - 酵母
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - fermented
+  - foods
+  - Developed
+  - products
 depends_on:
   - food-beverage-engineering-food-sensory
   - food-beverage-food-safety
@@ -33,6 +33,7 @@ version: 1.0.0
 vibe: Kimchi, miso, yogurt, sourdough — humans have fermented food for 10,000 years.
   Now you apply microbiology and process control to make fermentation predictable,
   safe, and scalable.
+
 
 ---
 

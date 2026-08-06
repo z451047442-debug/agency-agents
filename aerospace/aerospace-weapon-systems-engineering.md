@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-3-build
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 武器系统与兵器工程专家
   - 武器系统总体设计
@@ -27,6 +21,12 @@ keywords:
   - 内弹道
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Outputs
+  - Specification
 depends_on:
   - aerospace-c4isr-electronic-warfare
   - aerospace-damage-protection-technology
@@ -35,6 +35,8 @@ depends_on:
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-supply-chain-risk
 vibe: Weapons systems engineer — from interior ballistics to terminal effects, from fuze MEMS to system reliability. Every weapon is a system of systems, and every system has failure modes you must anticipate before the first test firing.
+
+
 
 
 

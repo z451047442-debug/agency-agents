@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Critical
-  - Rules
 keywords:
   - 能源交易策略师
   - 电力市场交易策略：现货
@@ -27,15 +21,21 @@ keywords:
   - 价差套利
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - energy
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - energy-carbon-accountant
   - infrastructure-identity-access
   - marketing-abm-account-based
 emoji: 📊
 vibe: Electrons are indistinguishable but their price changes every 15 minutes — trade the spread, not the commodity.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

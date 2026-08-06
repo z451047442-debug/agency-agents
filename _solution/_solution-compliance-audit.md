@@ -15,12 +15,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 emoji: "🛡"
-tags:
-  - _solution
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 合规审计元代理
   - Compliance
@@ -29,6 +23,12 @@ keywords:
   - coordinates
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - _solution
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-cloud-security-architect
   - cybersecurity-security-architect
@@ -36,6 +36,7 @@ depends_on:
   - legal-document-review
   - operations-legal-compliance-checker
   - specialized-data-privacy-officer
+
 
 ---
 

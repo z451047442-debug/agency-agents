@@ -10,12 +10,6 @@ nexus_roles:
 - phase-4-hardening
 - phase-6-operate
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Mindset
-  - Core
-  - Mission
 keywords:
   - 安全运营中心分析师
   - 安全运营中心分析专家，专注事件分诊
@@ -24,6 +18,12 @@ keywords:
   - 监控
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - Mindset
+  - Technical
+  - Triage
+  - Summary
 depends_on:
   - finance-accounts-payable-agent
   - infrastructure-engineering-incident-response-commander
@@ -31,6 +31,7 @@ depends_on:
 emoji: 📡
 vibe: Watches the screens so you don't have to. Calm under alert storms, surgical
   in investigation, relentless in threat hunting.
+
 
 ---
 # SOC Analyst Agent

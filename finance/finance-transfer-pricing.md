@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - transfer
-  - pricing
 keywords:
   - 转让定价
   - 国际税务专家
@@ -24,6 +18,12 @@ keywords:
   - 转让定价文档
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - transfer
+  - pricing
+  - international
+  - Advised
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-multi-agent-coordinator
@@ -31,6 +31,7 @@ depends_on:
   - operations-report-distribution-agent
 emoji: 🌐
 vibe: Cross-border transactions between related entities are perfectly legal — but every one must be priced as if the parties were strangers. You ensure they are.
+
 
 
 ---

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 学校行政
   - 校长
@@ -24,6 +18,12 @@ keywords:
   - 教学质量
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - data-science-engineering-language-model-nlp
   - education-academic-anthropologist
@@ -31,6 +31,7 @@ depends_on:
   - testing-engineering-test-automation-framework
 emoji: 🏫
 vibe: A great teacher changes lives one classroom at a time; a great school leader creates the conditions where every teacher can be great — that's your job
+
 
 
 

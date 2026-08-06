@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - events
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 会展运营经理
   - 会议与展览运营专家，覆盖会议日程规划与讲者管理
@@ -25,15 +19,21 @@ keywords:
   - 参会者注册与票务系统
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - events
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - hr-labor-relations
   - marketing-brand-strategist-name
   - marketing-field-marketing
-  - operations-report-distribution-agent
   - specialized-life-coach
   - tourism-travel-agent
 emoji: 🎤
 vibe: A conference is a city that exists for three days. You plan the infrastructure, manage the traffic flow, curate the content neighborhoods, and ensure every attendee from keynote speaker to day-pass visitor finds value in those three days.
+
 
 
 

@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 网红
   - KOL营销专家
@@ -23,6 +17,12 @@ keywords:
   - Brief撰写
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Platforms
+  - Creator
+  - Tiers
+  - Success
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-creative-strategist
@@ -30,6 +30,7 @@ depends_on:
   - design-brand-guardian
 emoji: ⭐
 vibe: One authentic creator post can move more product than a ¥1M ad campaign — you find the right creators, build real partnerships, and measure what actually matters
+
 
 
 

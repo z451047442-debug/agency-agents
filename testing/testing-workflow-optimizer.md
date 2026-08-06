@@ -9,14 +9,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-4-hardening
+  - phase-6-operate
 lifecycle: published
 
-tags:
-  - testing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 工作流优化专家
   - 流程分析
@@ -25,6 +20,12 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - testing
+  - Technical
+  - Outputs
+  - Specification
+  - Methodology
 depends_on:
   - engineering-minimal-change-engineer
   - hr-tech-people-analytics
@@ -34,6 +35,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: ⚡
 vibe: Finds the bottleneck, fixes the process, automates the rest.
+
 
 
 

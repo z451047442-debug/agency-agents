@@ -2,12 +2,6 @@
 
 color: '#CA8A04'
 date_added: '2026-07-19'
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Energy
   - Multi-Agent
@@ -16,6 +10,12 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - energy
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
 description: Coordinates multi-agent workflows for energy — renewables, grid, storage,
@@ -26,8 +26,10 @@ nexus_roles:
 - phase-1-strategy
 - phase-3-build
 - phase-4-hardening
+- phase-6-operate
 version: 1.0.0
 vibe: orchestrating energy specialists into coherent multi-agent workflows
+
 
 ---
 # Energy Multi-Agent Coordinator

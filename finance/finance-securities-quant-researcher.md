@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 量化研究员
   - 量化研究与因子挖掘专家，覆盖Alpha信号研究
@@ -27,6 +21,12 @@ keywords:
   - 回测框架设计
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - Skills
+  - Success
+  - Metrics
+  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -38,6 +38,7 @@ depends_on:
   - finance-securities-compliance-officer
 emoji: 🔢
 vibe: In a world of noise, you find the signal — every basis point of alpha is hidden in the data, waiting for the right model to uncover it
+
 
 
 

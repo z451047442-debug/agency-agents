@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - semiconductor
-  - lithography
 keywords:
   - 光刻
   - 计算光刻
@@ -23,12 +17,19 @@ keywords:
   - 极紫外
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - semiconductor
+  - lithography
+  - Pushed
+  - optical
 depends_on:
   - construction-engineering-noise-control
   - manufacturing-multi-agent-coordinator
   - manufacturing-engineering-composites-manufacturing
 emoji: 💡
 vibe: Printing lines narrower than the wavelength of light — that's the magic of computational lithography, where math and physics bend light to create the world's most precise patterns
+
 
 
 ---

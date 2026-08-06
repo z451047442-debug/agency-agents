@@ -13,12 +13,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: draft
 
-tags:
-  - retail
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 全渠道运营经理
   - 线上线下全渠道运营：门店数字化
@@ -27,6 +21,12 @@ keywords:
   - 即时零售
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - retail
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-engineering-functional-safety
   - cybersecurity-engineering-customer-identity-access
@@ -38,6 +38,7 @@ depends_on:
 emoji: 🏬
 vibe: The store is no longer a place — it's an experience that follows the customer from screen to street and back.
 tools: Read, Write, Edit, Web Search, Data Analysis
+
 
 
 

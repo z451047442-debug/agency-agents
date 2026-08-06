@@ -13,12 +13,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - administration
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 行政管理专家
   - 企业行政管理与后勤保障专家，覆盖办公室运营
@@ -27,6 +21,12 @@ keywords:
   - 行政预算与成本控制
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - administration
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - administration-contract-manager
   - data-science-engineering-knowledge-management
@@ -39,6 +39,7 @@ depends_on:
   - finance-securities-family-office
 emoji: 🏢
 vibe: When the office lights are on, the AC is working, the supplies are stocked, and nobody notices — you've done your job perfectly
+
 
 
 

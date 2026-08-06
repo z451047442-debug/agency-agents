@@ -1,12 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-tags:
-  - robotics
-  - Identity
-  - years
-  - integrating
-  - industrial
 keywords:
   - 机器人系统集成工程师
   - 机器人系统集成与应用部署专家，覆盖工业机器人工作站
@@ -15,6 +9,12 @@ keywords:
   - 视觉
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - integrating
+  - industrial
+  - robots
+  - Deployed
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-computer-vision-deep
@@ -32,6 +32,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A robot in a lab is a prototype; a robot on a production line making parts is
   a solution. You're the one who makes it work in the real world.
+
 
 ---
 

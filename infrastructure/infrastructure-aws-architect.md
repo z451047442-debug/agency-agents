@@ -9,12 +9,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - AWS解决方案架构师
   - AWS云架构与解决方案专家
@@ -23,6 +17,12 @@ keywords:
   - 核心服务
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - infrastructure
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-engineering-incident-response-commander
@@ -32,6 +32,7 @@ depends_on:
   - engineering-ai-agent-developer
 emoji: ☁️
 vibe: AWS has 200+ services. The architect who knows which 20 matter and applies all six Well-Architected pillars saves the company from a six-figure surprise bill.
+
 
 
 

@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 能源
   - 新能源专家
@@ -23,12 +17,19 @@ keywords:
   - 氢能
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - Success
+  - Metrics
+  - Technical
+  - Professional
 depends_on:
   - environmental-renewable-energy
   - marketing-abm-account-based
 emoji: ⚡
 vibe: The energy transition is the biggest engineering challenge in human history — and you're in the middle of it.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

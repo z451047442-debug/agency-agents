@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Identity
-  - years
-  - climate
-  - technology
 keywords:
   - 气候科技
   - 碳移除工程师
@@ -26,15 +20,21 @@ keywords:
   - 工程专家，覆盖直接空气捕获
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - climate
+  - technology
+  - Developed
+  - carbon
 depends_on:
   - energy-engineering-carbon-capture-storage
   - energy-engineering-energy-storage-materials-sci
   - energy-engineering-grid-scale-storage
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - operations-report-distribution-agent
 emoji: 🌍
 vibe: Reducing emissions isn't enough — we need to remove carbon already in the atmosphere. You engineer the technologies that pull CO2 back out of the sky.
+
 
 
 

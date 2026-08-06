@@ -10,12 +10,6 @@ nexus_roles:
   - phase-1-strategy
   - phase-2-foundation
 lifecycle: published
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 智能体身份与信任架构师
   - Agent
@@ -24,8 +18,13 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - specialized
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-threat-detection-engineer
   - home-lifestyle-personal-finance
   - infrastructure-engineering-incident-response-commander
@@ -34,6 +33,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🔐
 vibe: Ensures every AI agent can prove who it is, what it's allowed to do, and what it actually did.
+
 
 
 

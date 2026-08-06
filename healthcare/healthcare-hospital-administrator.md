@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 医院管理专家
   - 医院管理与运营专家，覆盖医疗质量管理
@@ -22,6 +16,12 @@ keywords:
   - 感控管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - finance-engineering-credit-risk-model
   - pharma-biotech-pharma-clinical-trials
@@ -30,6 +30,7 @@ depends_on:
 emoji: 🏥
 vibe: Running a hospital is like running a hotel where every guest is having the worst
   day of their life — and you still need 5-star efficiency
+
 
 ---
 

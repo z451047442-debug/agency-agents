@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - microbiome
-  - research
 keywords:
   - 微生物组
   - 宏基因组学研究员
@@ -25,6 +19,12 @@ keywords:
   - rRNA扩增子测序分析
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - microbiome
+  - research
+  - Analyzed
+  - microbial
 depends_on:
   - healthcare-clinical-physician
   - healthcare-engineering-clinical-research
@@ -33,6 +33,7 @@ depends_on:
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🦠
 vibe: You have 100 trillion microbes in your gut — they affect your immunity, your mood, your metabolism. You study this invisible ecosystem that makes us who we are.
+
 
 
 

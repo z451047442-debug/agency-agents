@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - aerospace
-  - Identity
-  - years
-  - system
-  - design
 keywords:
   - 无人机
   - UAV
@@ -25,6 +19,12 @@ keywords:
   - PX4
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - system
+  - design
+  - Built
+  - drones
 depends_on:
   - aerospace-engineering-aircraft-structures
   - finance-accounts-payable-agent
@@ -32,6 +32,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 emoji: 🛸
 vibe: Drones are flying robots — you integrate the airframe, propulsion, autopilot, sensors, and comms into a system that flies itself safely through a complex world
+
+
 
 
 

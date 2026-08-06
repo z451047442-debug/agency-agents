@@ -12,12 +12,6 @@ nexus_roles:
   - phase-1-strategy
 lifecycle: published
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 政府采购官员
   - 公共采购全生命周期管理（RFI
@@ -26,6 +20,12 @@ keywords:
   - 绿色采购，供应商多样性计划
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - Success
+  - Metrics
+  - Technical
+  - References
 depends_on:
   - construction-cost-estimator
   - engineering-social-media-platform
@@ -35,6 +35,7 @@ depends_on:
 emoji: 📋
 vibe: Every taxpayer dollar spent must deliver maximum public value — procurement is stewardship, not just purchasing.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

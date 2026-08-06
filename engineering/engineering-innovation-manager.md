@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - years
-  - managing
-  - innovation
 keywords:
   - 创新
   - 研发项目经理
@@ -23,6 +17,12 @@ keywords:
   - Portfolio
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - managing
+  - innovation
+  - portfolios
+  - Built
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -30,6 +30,7 @@ depends_on:
 emoji: 💡
 vibe: Innovation isn't a suggestion box — it's a managed process. You build the pipeline
   that turns ideas into products and R&D spending into competitive advantage.
+
 
 ---
 # 💡 Innovation Manager Agent

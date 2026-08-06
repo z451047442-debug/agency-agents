@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - exploration
-  - geology
 keywords:
   - 石油地质
   - 勘探地球物理学家
@@ -24,11 +18,18 @@ keywords:
   - 烃源岩
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - exploration
+  - geology
+  - Discovered
+  - hydrocarbon
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
 emoji: 🔍
 vibe: Oil hides kilometers underground, invisible — you interpret the seismic waves, well logs, and rock samples that reveal where to drill
+
 
 
 

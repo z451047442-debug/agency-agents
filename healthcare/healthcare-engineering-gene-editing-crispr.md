@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - plant
-  - gene
 keywords:
   - 基因编辑
   - CRISPR农业应用研究员
@@ -23,11 +17,18 @@ keywords:
   - 作物育种与农业生物技术专家，覆盖CRISPR
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - plant
+  - gene
+  - editing
+  - Developed
 depends_on:
   - pharma-biotech-pharma-clinical-trials
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🌾
 vibe: CRISPR edits DNA with surgical precision — you design the guide RNAs that create disease-resistant wheat, drought-tolerant rice, and healthier vegetable oil
+
 
 
 

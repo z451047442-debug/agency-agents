@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - years
-  - video
-  - streaming
 keywords:
   - 视频流
   - 直播技术工程师
@@ -24,13 +18,19 @@ keywords:
   - WebRTC流媒体协议
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - video
+  - streaming
+  - Built
+  - pipelines
 depends_on:
   - engineering-code-reviewer
   - media-entertainment-multi-agent-coordinator
   - media-entertainment-3ds-max-expert
-  - operations-report-distribution-agent
 emoji: 🎥
 vibe: Millions watching simultaneously, all expecting smooth playback — you build the encoding, packaging, and delivery pipeline that makes live video feel like magic
+
 
 
 ---

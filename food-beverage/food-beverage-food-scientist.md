@@ -20,12 +20,18 @@ keywords:
   - 感官评价
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - food-beverage
+  - Tools
+  - Technologies
+  - Professional
+  - Scope
 depends_on:
   - food-beverage-beverage-rd
   - quality-food-safety
 description: 食品科学与产品开发专家，覆盖配方设计、工艺优化、保质期研究、感官评价
 category: food-beverage
-tags: [food-science, formulation, shelf-life, sensory, food-chemistry]
+
 
 
 

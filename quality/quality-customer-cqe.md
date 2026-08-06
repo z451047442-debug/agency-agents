@@ -10,12 +10,6 @@ nexus_roles:
   - phase-4-hardening
 lifecycle: published
 
-tags:
-  - quality
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 客户质量工程师
   - CQE
@@ -24,15 +18,20 @@ keywords:
   - 退货
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - quality
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response
   - data-science-engineering-deep-learning-training
   - data-science-engineering-language-model-nlp
-  - operations-report-distribution-agent
   - quality-food-safety
 emoji: 🎯
 vibe: When the customer is angry, the line is stopped, and everyone's looking at you — you stay calm, find the root cause, fix it permanently, and turn a complaint into loyalty
+
 
 
 ---

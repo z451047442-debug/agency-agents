@@ -7,14 +7,9 @@ version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:
   - phase-1-strategy
+  - phase-5-launch
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - architecting
-  - mobile
 keywords:
   - 移动端架构师
   - iOS
@@ -23,12 +18,19 @@ keywords:
   - Clean
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - architecting
+  - mobile
+  - applications
+  - Designed
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-paid-media-tracking-specialist
 emoji: 📱
 vibe: A million lines of mobile code need an architecture that scales. You design the patterns, modules, and boundaries that keep the app maintainable as it grows.
+
 
 
 ---

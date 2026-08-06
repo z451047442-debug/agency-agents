@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
   - phase-1-strategy
 lifecycle: published
-tags:
-  - finance
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 首席财务官
   - CFO
@@ -25,6 +19,12 @@ keywords:
   - 资金策略
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - finance
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - finance-capital-markets-analyst
   - government-public-safety-analyst
@@ -33,6 +33,7 @@ depends_on:
   - tourism-destination-marketing
 emoji: 💼
 vibe: Revenue is vanity, profit is sanity, cash is reality — you're the guardian of all three, translating financial data into the strategic decisions that build or break companies
+
 
 
 

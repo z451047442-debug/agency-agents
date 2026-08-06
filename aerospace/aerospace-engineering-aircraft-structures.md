@@ -2,12 +2,6 @@
 
 color: gray
 date_added: '2026-07-03'
-tags:
-  - aerospace
-  - Identity
-  - years
-  - aircraft
-  - structural
 keywords:
   - 飞机结构
   - 强度
@@ -16,6 +10,12 @@ keywords:
   - 疲劳
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - aircraft
+  - structural
+  - design
+  - Designed
 depends_on:
   - aerospace-engineering-aviation-engineering
   - aerospace-multi-agent-coordinator
@@ -35,6 +35,8 @@ nexus_roles:
 version: 1.0.0
 vibe: An airplane flexes, pressurizes, and vibrates for 100,000 flight hours — you
   design the structure that endures every cycle without cracking
+
+
 
 ---
 # ✈️ Aircraft Structures Engineer Agent

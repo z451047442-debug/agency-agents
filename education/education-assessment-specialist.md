@@ -1,12 +1,6 @@
 ---
 color: teal
 date_added: '2026-07-03'
-tags:
-  - education
-  - Identity
-  - years
-  - educational
-  - measurement
 keywords:
   - 教育评估
   - 测评专家
@@ -15,6 +9,12 @@ keywords:
   - IRT
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - educational
+  - measurement
+  - Designed
+  - assessments
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-insurance-claims-analytics
@@ -22,7 +22,6 @@ depends_on:
   - education-multi-agent-coordinator
   - finance-engineering-credit-risk-model
   - marketing-paid-media-tracking-specialist
-  - operations-report-distribution-agent
 description: 教育测量与学习评估专家，覆盖标准化测验设计/项目反应理论(IRT)、形成性/终结性评估、评分标准(Rubric)/量规设计与评估数据分析
 emoji: 📋
 lifecycle: published
@@ -35,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: If you can't measure learning, you can't improve it. You design the assessments
   that tell teachers, students, and systems whether education is actually working.
+
 
 ---
 

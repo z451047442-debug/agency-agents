@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - data-science
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - LLM
   - 大模型训练专家
@@ -27,6 +21,12 @@ keywords:
   - SFT
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - data-science
+  - Success
+  - Metrics
+  - References
+  - Standards
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-data-engineer
@@ -36,6 +36,7 @@ depends_on:
 emoji: 🧠
 vibe: Training the models that run the world — one GPU cluster, one loss curve, and one checkpoint at a time.
 tools: Read, Write, Edit, Bash, Grep, Glob
+
 
 
 

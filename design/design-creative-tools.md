@@ -13,12 +13,6 @@ nexus_roles:
 lifecycle: published
 vibe: Creative tools specialist — vector illustration in CorelDRAW, photo manipulation in GIMP, and UI/UX prototyping in Sketch. The right tool for the right creative task, and the skill to switch between them.
 
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 平面设计
   - UI设计工具专家
@@ -27,12 +21,19 @@ keywords:
   - Sketch
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - Success
+  - Metrics
+  - Methodology
+  - Decision
 depends_on:
   - engineering-git-workflow-master
   - legal-document-review
   - marketing-cross-border-ecommerce
   - specialized-identity-graph-operator
   - testing-test-results-analyzer
+
 
 
 

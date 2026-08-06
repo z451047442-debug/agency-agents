@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - hr
-  - Real-World
-  - Scenarios
-  - Identity
-  - Memory
 keywords:
   - 人力分析科学家
   - 人力分析科学家，覆盖人力数据建模与预测分析
@@ -27,15 +21,21 @@ keywords:
   - 组织网络分析
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - hr
+  - Real-World
+  - Scenarios
+  - Actionable
+  - Directives
 depends_on:
   - design-engineering-human-factors
   - education-academic-research-scientist
   - marketing-customer-lifecycle
   - operations-executive-summary-generator
-  - operations-report-distribution-agent
   - robotics-motion-control
 emoji: 📊
 vibe: Gut feelings hire people; data builds the workforce. You replace "I think our turnover problem is compensation" with statistical evidence, predictive models, and actionable insights that transform how organizations understand and manage their talent.
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - media-entertainment
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Adobe
   - InDesign专家
@@ -24,6 +18,12 @@ keywords:
   - 宣传册排版
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - Technical
+  - Tools
+  - Technologies
+  - Process
 depends_on:
   - legal-document-review
   - media-entertainment-acrobat-expert
@@ -32,6 +32,7 @@ depends_on:
   - specialized-multi-agent-project-manager
 emoji: 📖
 vibe: A 300-page book where every page looks different is a design failure — a 300-page book where every page looks perfect without anyone noticing the grid is mastery
+
 
 
 

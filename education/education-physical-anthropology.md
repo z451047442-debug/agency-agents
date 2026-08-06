@@ -11,12 +11,6 @@ nexus_roles: [phase-0-discovery, phase-4-hardening]
 lifecycle: published
 vibe: Biological anthropologist — from Australopithecus to forensic osteology, from primate tool use to ancient DNA migrations. Understanding what it means to be human starts with bones, genes, and our evolutionary story.
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 体质人类学专家
   - 人类进化与古人类学
@@ -25,11 +19,18 @@ keywords:
   - 人类骨骼生物学
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - References
+  - Standards
+  - Methodology
+  - Decision
 depends_on:
   - engineering-git-workflow-master
   - government-social-work
   - specialized-personal-growth-mentor
   - testing-engineering-test-automation-framework
+
 
 
 ---

@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Development
-  - Philosophy
 keywords:
   - 高级开发工程师
   - Laravel
@@ -23,6 +17,12 @@ keywords:
   - Role
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - engineering
+  - Development
+  - Philosophy
+  - Implementation
+  - Process
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
@@ -33,6 +33,7 @@ depends_on:
   - logistics-public-transit
 emoji: 💎
 vibe: Premium full-stack craftsperson — Laravel, Livewire, Three.js, advanced CSS.
+
 
 
 

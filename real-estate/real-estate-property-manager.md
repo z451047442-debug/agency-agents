@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - real-estate
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 物业管理经理
   - 物业管理经理，覆盖租户关系维护与续租
@@ -25,6 +19,12 @@ keywords:
   - 供应商管理（保洁
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - real-estate
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - construction-engineering-green-building
   - engineering-multi-agent-systems-architect
@@ -36,10 +36,10 @@ depends_on:
   - marketing-paid-media-programmatic-buyer
   - marketing-paid-media-search-query-analyst
   - marketing-private-domain-operator
-  - operations-report-distribution-agent
 emoji: 🔑
 vibe: The person tenants call when things break — keeps the building running, the occupancy high, and the NOI climbing.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

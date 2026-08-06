@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - iot
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 嵌入式固件工程师
   - 裸金属
@@ -26,6 +20,12 @@ keywords:
   - STM32
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - Technical
+  - Process
+  - Learning
+  - Success
 depends_on:
   - engineering-ai-safety-expert
   - engineering-code-reviewer
@@ -36,6 +36,7 @@ depends_on:
   - testing-test-results-analyzer
 emoji: 🔩
 vibe: Writes production-grade firmware for hardware that can't afford to crash.
+
 
 
 

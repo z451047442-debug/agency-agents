@@ -2,12 +2,6 @@
 
 color: amber
 date_added: '2026-07-03'
-tags:
-  - robotics
-  - Identity
-  - years
-  - robot
-  - control
 keywords:
   - 机器人运动控制工程师
   - 机器人运动规划与控制专家，覆盖正逆运动学
@@ -16,6 +10,12 @@ keywords:
   - 插补
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - robotics
+  - robot
+  - control
+  - systems
+  - Made
 depends_on:
   - manufacturing-multi-agent-coordinator
   - robotics-multi-agent-coordinator
@@ -30,6 +30,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A robot arm that moves smoothly, precisely, and safely — that's kinematics,
   dynamics, and control theory working together at 1000Hz
+
 
 
 ---

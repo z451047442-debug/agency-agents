@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - real-estate
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 物业估价师
   - 住宅与商业地产估价专家，精通收益法
@@ -25,6 +19,12 @@ keywords:
   - 最高最佳使用分析
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - real-estate
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - energy-engineering-grid-scale-storage
   - finance-engineering-credit-risk-model
@@ -34,6 +34,7 @@ depends_on:
   - marketing-paid-media-programmatic-buyer
 emoji: 📋
 vibe: The impartial arbiter of value — armed with comps, cap rates, and an unshakeable methodology.
+
 
 
 

@@ -10,12 +10,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Role
-  - Definition
-  - Core
-  - Capabilities
 keywords:
   - 追踪与埋点专家
   - GTM
@@ -24,6 +18,12 @@ keywords:
   - CAPI
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - marketing
+  - Definition
+  - Capabilities
+  - Specialized
+  - Skills
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-creative-strategist
@@ -33,6 +33,7 @@ tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
 emoji: 📡
 vibe: If it's not tracked correctly, it didn't happen.
+
 
 
 

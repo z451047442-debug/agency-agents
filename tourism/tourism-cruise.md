@@ -8,12 +8,6 @@ nexus_roles:
 - phase-5-launch
 - phase-4-hardening
 lifecycle: published
-tags:
-  - tourism
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 邮轮运营管理专家
   - 邮轮航线运营管理专家，覆盖航线规划与港口谈判
@@ -22,6 +16,12 @@ keywords:
   - 船员管理与培训
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - tourism
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - energy-engineering-carbon-capture-storage
   - environmental-water-treatment
@@ -33,6 +33,7 @@ emoji: 🚢
 vibe: A cruise ship is a floating city where 3,000 guests and 1,200 crew share one
   hull — every nautical mile is a negotiation between safety, sustainability, spectacle,
   and spreadsheet
+
 
 ---
 

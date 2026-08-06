@@ -13,12 +13,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - education
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 学术历史学家
   - 历史分析
@@ -27,16 +21,22 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - education
+  - Technical
+  - Process
+  - Learning
+  - Methodology
 depends_on:
   - education-academic-anthropologist
   - gis-drone-reality-mapping
   - government-social-work
-  - operations-report-distribution-agent
   - specialized-identity-graph-operator
   - specialized-personal-growth-mentor
   - testing-test-results-analyzer
 emoji: 📚
 vibe: History doesn't repeat, but it rhymes — and I know all the verses
+
 
 
 

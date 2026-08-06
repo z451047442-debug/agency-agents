@@ -11,12 +11,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - life
-  - health
 keywords:
   - 保险精算
   - 产品定价师
@@ -25,6 +19,12 @@ keywords:
   - 发病率经验分析
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - life
+  - health
+  - actuarial
+  - practice
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-insurance-claims-analytics
@@ -33,6 +33,7 @@ depends_on:
   - legal-engineering-legal-document-automation
 emoji: 🧮
 vibe: Insurance is the mathematics of uncertainty — you quantify life and death, health and sickness, and price the promises that protect families when the worst happens
+
 
 
 

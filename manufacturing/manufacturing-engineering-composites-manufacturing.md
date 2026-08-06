@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - manufacturing
-  - Identity
-  - years
-  - composites
-  - Automated
 keywords:
   - 复合材料制造
   - 自动铺放
@@ -23,11 +17,18 @@ keywords:
   - 工程师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - manufacturing
+  - composites
+  - Automated
+  - production
+  - aerospace
 depends_on:
   - manufacturing-engineering-control-systems
   - marketing-paid-media-tracking-specialist
 emoji: 🛠️
 vibe: Carbon fiber is lighter than aluminum and stronger than steel — you design the automated machines that lay it, cure it, and inspect it for the next generation of aircraft
+
 
 
 

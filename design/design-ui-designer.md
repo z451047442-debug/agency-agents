@@ -14,12 +14,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - UI
   - 设计师
@@ -28,6 +22,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - System
+  - Process
+  - Deliverable
+  - Template
 depends_on:
   - design-figma-expert
   - education-special-needs
@@ -37,6 +37,7 @@ depends_on:
   - thinking-models-decision-frameworks
 emoji: 🎨
 vibe: Creates beautiful, consistent, accessible interfaces that feel just right.
+
 
 
 

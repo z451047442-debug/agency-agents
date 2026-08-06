@@ -11,12 +11,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - subsea
-  - engineering
 keywords:
   - 海底
   - 水下工程技术工程师
@@ -25,15 +19,21 @@ keywords:
   - 脐带缆
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - subsea
+  - engineering
+  - Designed
+  - deepwater
 depends_on:
   - environmental-renewable-energy
   - finance-accounts-payable-agent
   - marketing-abm-account-based
-  - operations-report-distribution-agent
   - testing-engineering-test-automation-framework
   - tourism-travel-agent
 emoji: 🌊
 vibe: Extracting oil and gas from 3,000 meters below the ocean surface — that's not engineering, that's engineering at the edge of what's physically possible
+
 
 
 

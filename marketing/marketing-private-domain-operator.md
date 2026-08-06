@@ -9,12 +9,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-5-launch
 lifecycle: published
-tags:
-  - marketing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 私域运营专家
   - 企业微信
@@ -23,10 +17,15 @@ keywords:
   - Personality
 complexity: low
 estimated_duration: 1-2h
-depends_on:
-  - cybersecurity-engineering-customer-identity-access
+tags:
+  - marketing
+  - Technical
+  - Daily
+  - Content
+  - Schedule
 emoji: 🔒
 vibe: Builds your WeChat private traffic empire from first contact to lifetime value.
+
 
 
 

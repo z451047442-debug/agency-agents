@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - FastAPI后端开发专家
   - FastAPI高性能Python
@@ -23,6 +17,12 @@ keywords:
   - asyncio
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Methodology
+  - Decision
+  - Framework
+  - Deliverable
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
@@ -36,6 +36,7 @@ emoji: 🐍
 vibe: FastAPI combines Python's developer experience with Node.js-level performance.
   When you need async I/O, automatic OpenAPI docs, and Pydantic validation, FastAPI
   is the answer.
+
 
 ---
 

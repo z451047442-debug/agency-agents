@@ -12,12 +12,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: draft
 
-tags:
-  - agriculture
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 农业经济学家
   - 农业经济与政策分析：农产品定价
@@ -26,15 +20,21 @@ keywords:
   - 国际贸易
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - agriculture
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - agriculture-agronomist
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - marketing-paid-media-tracking-specialist
 emoji: 📉
 vibe: Corn prices in Chicago, drought in Brazil, tariffs in Brussels — agriculture is the most global and least predictable market on earth.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

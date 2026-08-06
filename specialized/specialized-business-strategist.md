@@ -13,12 +13,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - specialized
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 商业策略师
   - 管理咨询与商业策略专家，覆盖竞争分析
@@ -27,6 +21,12 @@ keywords:
   - Business
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - specialized
+  - Technical
+  - Process
+  - Domain
+  - Expertise
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
@@ -35,6 +35,7 @@ depends_on:
   - sales-deal-strategist
   - specialized-agentic-identity-trust
 vibe: Strategy without execution is hallucination. Execution without strategy is chaos. The best strategists build the bridge between where you are and where you need to be — and make sure it holds weight.
+
 
 
 

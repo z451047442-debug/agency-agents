@@ -8,13 +8,8 @@ date_added: '2026-07-03'
 nexus_roles:
 - phase-3-build
 - phase-4-hardening
+  - phase-6-operate
 lifecycle: published
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 飞机维修
   - 持续适航
@@ -23,6 +18,12 @@ keywords:
   - 工程师
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Tools
+  - Technologies
+  - Success
+  - Metrics
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - finance-accounts-payable-agent
@@ -31,6 +32,8 @@ depends_on:
 emoji: 🔧
 vibe: An airplane flies 16 hours a day for 30 years — you manage the maintenance programs
   that keep every aircraft airworthy, every flight safe
+
+
 
 ---
 # 🔧 Aviation MRO Engineer Agent

@@ -9,12 +9,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - finance
-  - Identity
-  - years
-  - equity
-  - capital
 keywords:
   - 资本市场
   - ECM分析师
@@ -23,6 +17,12 @@ keywords:
   - 配股交易执行
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - finance
+  - equity
+  - capital
+  - markets
+  - Executed
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-customer-data-science
@@ -30,6 +30,7 @@ depends_on:
   - healthcare-engineering-regulatory-science
 emoji: 📈
 vibe: Companies go public once; getting it right means pricing correctly, telling the story convincingly, and building a shareholder base that supports the stock for years
+
 
 
 ---

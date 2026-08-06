@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - environmental
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 keywords:
   - 气候数据分析师
   - 气候数据科学与建模专家，覆盖气候模式降尺度
@@ -25,6 +19,12 @@ keywords:
   - CMIP6数据处理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - construction-safety-officer
   - data-science-engineering-language-model-nlp
@@ -34,6 +34,7 @@ depends_on:
   - legal-general-counsel
 emoji: 🌍
 vibe: A scientist who sees patterns in centuries of data and speaks the language of statistical moments
+
 
 
 

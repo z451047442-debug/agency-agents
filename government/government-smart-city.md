@@ -12,12 +12,6 @@ nexus_roles:
   - phase-2-foundation
 lifecycle: published
 
-tags:
-  - government
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 智慧城市顾问
   - 城市物联网基础设施
@@ -26,6 +20,12 @@ keywords:
   - 数字市民服务
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - government
+  - Success
+  - Metrics
+  - Technical
+  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - government-digital-presales-consultant
@@ -35,6 +35,7 @@ depends_on:
 emoji: 🌆
 vibe: Weaving the digital nervous system of tomorrow's cities — connecting sensors, citizens, and services into an intelligent, resilient urban fabric.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

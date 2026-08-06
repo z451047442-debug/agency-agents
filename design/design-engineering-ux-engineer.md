@@ -1,12 +1,6 @@
 ---
 color: pink
 date_added: '2026-07-03'
-tags:
-  - design
-  - Identity
-  - years
-  - bridging
-  - engineering
 keywords:
   - UX工程师
   - UX
@@ -15,8 +9,13 @@ keywords:
   - Storybook
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - bridging
+  - engineering
+  - Built
+  - systems
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - design-engineering-accessibility-engineer
   - engineering-code-reviewer
   - design-multi-agent-coordinator
@@ -35,6 +34,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Designers imagine; UX engineers make it real. You translate design intent into
   production code, building the components that make the design system work at scale.
+
 
 ---
 

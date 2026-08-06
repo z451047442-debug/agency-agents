@@ -11,12 +11,6 @@ nexus_roles:
   - phase-5-launch
 lifecycle: published
 
-tags:
-  - fashion
-  - Identity
-  - Memory
-  - 你的身份与记忆
-  - 你的核心使命
 keywords:
   - 可持续时尚顾问
   - 循环时尚策略（转售
@@ -25,6 +19,12 @@ keywords:
   - 可持续材料采购（有机
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - fashion
+  - Tools
+  - Technologies
+  - Methodology
+  - Decision
 depends_on:
   - data-science-engineering-knowledge-management
   - engineering-social-media-platform
@@ -36,6 +36,7 @@ depends_on:
 emoji: ♻️
 vibe: Fashion is the second-most polluting industry — rewires the supply chain so style doesn't cost the earth.
 tools: Read, Write, Edit, WebFetch, WebSearch
+
 
 
 

@@ -2,12 +2,6 @@
 
 color: '#1E3A5F'
 date_added: '2026-07-19'
-tags:
-  - legal
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Legal
   - Multi-Agent
@@ -16,10 +10,16 @@ keywords:
   - workflows
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - legal
+  - Technical
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
   - administration-executive-assistant
-  - strategy-business-strategist
+  - specialized-business-strategist
   - cybersecurity-security-architect
 description: Coordinates multi-agent workflows for legal — corporate, IP, compliance,
   litigation support
@@ -31,6 +31,7 @@ nexus_roles:
 - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating legal specialists into coherent multi-agent workflows
+
 
 ---
 # Legal Multi-Agent Coordinator

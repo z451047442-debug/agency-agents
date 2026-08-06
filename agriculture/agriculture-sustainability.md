@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: draft
 
-tags:
-  - agriculture
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 可持续农业顾问
   - 可持续农业实践：有机种植
@@ -25,15 +19,21 @@ keywords:
   - 水资源管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - agriculture
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - agriculture-general-manager
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - marketing-paid-media-tracking-specialist
 emoji: ♻️
 vibe: Feed the world without eating the planet — sustainable agriculture isn't a niche, it's the only long game that makes sense.
 tools: Read, Write, Edit, Data Analysis, Web Search
+
 
 
 

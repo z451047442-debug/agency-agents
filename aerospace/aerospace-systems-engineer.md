@@ -18,6 +18,12 @@ keywords:
   - Role
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Aviation
+  - Domain
+  - Knowledge
+  - Success
 depends_on:
   - aerospace-atc-specialist
   - aerospace-director
@@ -26,7 +32,8 @@ depends_on:
   - marketing-paid-media-tracking-specialist
 description: 飞行器总体设计与系统集成专家，覆盖需求分解、架构设计、适航取证全链路
 category: aerospace
-tags: [systems-engineering, aircraft-design, certification, requirements-management]
+
+
 
 
 

@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - retail
-  - technology
 keywords:
   - 零售科技
   - RetailTech
@@ -25,6 +19,12 @@ keywords:
   - 自助收银
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - retail
+  - technology
+  - Built
+  - products
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer
@@ -32,6 +32,7 @@ depends_on:
   - iot-engineering-rfid-systems
 emoji: 🛒
 vibe: The store of the future knows what's on every shelf, who's walking in, and what they want — you build the technology that makes physical retail as smart as e-commerce
+
 
 
 

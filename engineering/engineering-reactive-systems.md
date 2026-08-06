@@ -9,12 +9,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 
-tags:
-  - engineering
-  - Identity
-  - years
-  - distributed
-  - systems
 keywords:
   - 响应式
   - 分布式系统架构师
@@ -23,12 +17,19 @@ keywords:
   - Orleans
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - distributed
+  - systems
+  - Designed
+  - handling
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform
   - marketing-paid-media-tracking-specialist
 emoji: ⚡
 vibe: Distributed systems are hard — you design architectures that stay responsive under load, resilient to failure, and correct despite network partitions
+
 
 
 

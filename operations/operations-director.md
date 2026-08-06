@@ -1,12 +1,6 @@
 ---
 color: navy
 date_added: '2026-07-03'
-tags:
-  - operations
-  - Identity
-  - years
-  - leading
-  - across
 keywords:
   - 运营总监
   - COO
@@ -15,6 +9,12 @@ keywords:
   - 跨部门协调
 complexity: high
 estimated_duration: 4-8h
+tags:
+  - operations
+  - leading
+  - across
+  - industries
+  - turn
 depends_on:
   - data-science-engineering-knowledge-management
   - operations-multi-agent-coordinator
@@ -33,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: Strategy is what you want to happen; operations is what actually happens. You
   close the gap between the boardroom and the front line.
+
 
 ---
 

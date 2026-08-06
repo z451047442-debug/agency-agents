@@ -12,12 +12,6 @@ nexus_roles:
 lifecycle: published
 vibe: Comics artist and illustrator — from panel layouts to page turns, from character sheets to splash pages. Comics combine the narrative depth of literature with the visual immediacy of film, creating a medium where time is literally space on the page.
 
-tags:
-  - publishing
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 漫画与插画创作专家
   - 漫画叙事
@@ -26,10 +20,17 @@ keywords:
   - 画格
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - publishing
+  - References
+  - Standards
+  - Outputs
+  - Specification
 depends_on:
   - data-science-engineering-language-model-nlp
   - logistics-last-mile-delivery
   - project-management-jira-workflow-steward
+
 
 
 ---

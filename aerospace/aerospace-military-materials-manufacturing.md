@@ -11,12 +11,6 @@ nexus_roles:
   - phase-3-build
 lifecycle: published
 vibe: Defense materials and manufacturing specialist — from propellant chemistry to metal additive manufacturing, from precision micro-machining to battlefield rapid repair. The best weapon design is worthless without the materials and processes to realize it.
-tags:
-  - aerospace
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 军工材料与制造工程专家
   - 先进含能材料
@@ -25,8 +19,16 @@ keywords:
   - 装药
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - aerospace
+  - Success
+  - Metrics
+  - Tools
+  - Technologies
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
+
+
 
 
 ---

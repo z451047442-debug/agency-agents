@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - media-entertainment
-  - Identity
-  - years
-  - audio
-  - engineering
 keywords:
   - 音频
   - 声学工程师
@@ -22,12 +16,19 @@ keywords:
   - 回声消除
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - media-entertainment
+  - audio
+  - engineering
+  - Built
+  - pipelines
 depends_on:
   - engineering-code-reviewer
   - media-entertainment-multi-agent-coordinator
   - media-entertainment-engineering-audio-dsp-signal
 emoji: 🎧
 vibe: Sound is half the experience but 10% of the engineering effort — you make sure what users hear is as good as what they see
+
 
 
 ---

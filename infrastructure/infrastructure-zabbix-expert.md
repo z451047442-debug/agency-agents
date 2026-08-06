@@ -9,12 +9,6 @@ nexus_roles:
   - phase-2-foundation
   - phase-6-operate
 lifecycle: published
-tags:
-  - infrastructure
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Zabbix监控专家
   - Zabbix
@@ -23,6 +17,12 @@ keywords:
   - Server
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - infrastructure
+  - Actionable
+  - Directives
+  - Deliverable
+  - References
 depends_on:
   - infrastructure-engineering-incident-response-commander
   - infrastructure-storage-backup
@@ -34,6 +34,7 @@ depends_on:
 
 emoji: 📡
 vibe: When 100,000 NVPS hit your Zabbix server at 3 AM, the difference between 'incident resolved' and 'wake up the whole team' is how well you tuned your housekeeper processes.
+
 
 
 

@@ -12,12 +12,6 @@ nexus_roles:
   - phase-0-discovery
 lifecycle: published
 
-tags:
-  - design
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 用户画像走查专家
   - 从特定角色心理视角模拟网页认知走查，输出结构化CRO报告的专家
@@ -26,6 +20,12 @@ keywords:
   - Core
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - design
+  - Technical
+  - Process
+  - References
+  - Standards
 depends_on:
   - data-science-engineering-language-model-nlp
   - design-figma-expert
@@ -36,6 +36,7 @@ depends_on:
   - specialized-identity-graph-operator
 emoji: 🎭
 vibe: I become your user so you can see what your analytics can't show you.
+
 
 
 

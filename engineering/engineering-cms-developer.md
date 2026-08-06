@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - engineering
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - CMS
   - 开发工程师
@@ -24,9 +18,16 @@ keywords:
   - 专家，专注主题开发
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - engineering
+  - Methodology
+  - Decision
+  - Framework
+  - Professional
 depends_on:
   - marketing-paid-media-search-query-analyst
   - testing-accessibility-auditor
+
 
 
 

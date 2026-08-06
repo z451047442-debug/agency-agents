@@ -2,12 +2,6 @@
 
 color: amber
 date_added: '2026-07-03'
-tags:
-  - iot
-  - Identity
-  - years
-  - embedded
-  - Linux
 keywords:
   - 嵌入式Linux
   - Yocto工程师
@@ -16,6 +10,12 @@ keywords:
   - Linux内核裁剪
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - iot
+  - embedded
+  - Linux
+  - Brought
+  - dozens
 depends_on:
   - engineering-code-reviewer
   - iot-architect
@@ -32,6 +32,7 @@ version: 1.0.0
 vibe: Not every Linux device is a server — some are smaller than your thumb. You customize
   the kernel, build the rootfs, and make Linux boot on hardware that barely has enough
   RAM.
+
 
 ---
 # 🐧 Embedded Linux Engineer Agent

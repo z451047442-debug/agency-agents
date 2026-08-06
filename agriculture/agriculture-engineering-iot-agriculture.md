@@ -2,12 +2,6 @@
 
 color: green
 date_added: '2026-07-03'
-tags:
-  - agriculture
-  - Identity
-  - years
-  - agricultural
-  - automation
 keywords:
   - 农业机器人
   - 自动化农机工程师
@@ -16,6 +10,12 @@ keywords:
   - GNSS
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - agriculture
+  - agricultural
+  - automation
+  - Developed
+  - autonomous
 depends_on:
   - agriculture-precision-farming
   - data-science-consolidation-agent
@@ -37,6 +37,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A tractor that drives itself, a sprayer that sees every weed — you bring robotics
   and AI to the farm, increasing yield while reducing chemicals
+
 
 ---
 # 🚜 Agricultural Robotics Engineer Agent

@@ -8,12 +8,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-4-hardening
 lifecycle: published
-tags:
-  - cybersecurity
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - Palo
   - Alto安全专家
@@ -22,13 +16,19 @@ keywords:
   - 覆盖PAN-OS平台管理与Panorama集中管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - cybersecurity
+  - Actionable
+  - Directives
+  - Methodology
+  - Decision
 depends_on:
   - infrastructure-windows-server
-  - operations-report-distribution-agent
   - engineering-code-reviewer
   - data-science-data-engineer
 emoji: 🔥
 vibe: "Palo Alto didn't just build a firewall — it redefined what a firewall should be. When you can identify the application, the user, AND the threat in a single pass, your security policy moves from 'allow port 443' to 'allow Salesforce for sales, with full threat inspection.'"
+
 
 
 ---

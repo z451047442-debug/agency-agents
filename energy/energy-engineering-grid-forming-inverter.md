@@ -10,12 +10,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - energy
-  - Identity
-  - years
-  - power
-  - electronics
 keywords:
   - 构网型逆变器
   - 微电网控制工程师
@@ -24,10 +18,17 @@ keywords:
   - 逆变器与新能源微电网专家，覆盖跟网型
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - energy
+  - power
+  - electronics
+  - Developed
+  - grid-forming
 depends_on:
   - environmental-renewable-energy
 emoji: ⚡
 vibe: Traditional inverters follow the grid; grid-forming inverters create it. You design the power electronics that let renewables run the grid without fossil fuel generators.
+
 
 
 

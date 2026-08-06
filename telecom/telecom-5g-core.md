@@ -12,12 +12,6 @@ nexus_roles:
   - phase-6-operate
 lifecycle: published
 
-tags:
-  - telecom
-  - Identity
-  - Memory
-  - Success
-  - Metrics
 keywords:
   - 5G核心网工程师
   - 5G核心网
@@ -26,6 +20,12 @@ keywords:
   - AMF
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - telecom
+  - Success
+  - Metrics
+  - Professional
+  - Scope
 depends_on:
   - automotive-autonomous-driving
   - cybersecurity-engineering-customer-identity-access
@@ -35,6 +35,7 @@ depends_on:
   - telecom-engineering-antenna-rf
 emoji: 📶
 vibe: 4G connected people; 5G connects everything — factories, cars, sensors, and cities. You build the core network that makes it all possible.
+
 
 
 

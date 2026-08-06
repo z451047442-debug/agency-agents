@@ -12,12 +12,6 @@ date_added: "2026-07-03"
 nexus_roles:
   - phase-3-build
 lifecycle: published
-tags:
-  - environmental
-  - Identity
-  - years
-  - municipal
-  - solid
 keywords:
   - 固体废物管理
   - 垃圾分类规划师
@@ -26,6 +20,12 @@ keywords:
   - 机械生物处理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - environmental
+  - municipal
+  - solid
+  - waste
+  - Planned
 depends_on:
   - energy-engineering-waste-to-energy
   - environmental-engineering-climate-tech
@@ -33,10 +33,10 @@ depends_on:
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - manufacturing-supply-chain-planner
-  - operations-report-distribution-agent
   - tourism-event-planner
 emoji: 🗑️
 vibe: There is no "away" when you throw something away — you design the systems that collect, sort, treat, and recycle what society discards
+
 
 
 

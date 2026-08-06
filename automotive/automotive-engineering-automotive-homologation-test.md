@@ -2,12 +2,6 @@
 
 color: orange
 date_added: '2026-07-03'
-tags:
-  - automotive
-  - Identity
-  - years
-  - testing
-  - Validated
 keywords:
   - 汽车测试
   - 耐久性验证工程师
@@ -16,10 +10,15 @@ keywords:
   - 台架
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - automotive
+  - testing
+  - Validated
+  - durability
+  - vehicles
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
-  - cybersecurity-engineering-customer-identity-access
   - education-special-needs
   - marketing-paid-media-tracking-specialist
   - marketing-southeast-asia-expert
@@ -34,6 +33,7 @@ nexus_roles:
 version: 1.0.0
 vibe: A car must survive 150,000 km of potholes, salt, heat, cold, and neglect — you
   design the tests that prove it will, before the first customer drives off the lot
+
 
 ---
 # 🔬 Automotive Test Engineer Agent

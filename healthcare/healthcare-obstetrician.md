@@ -9,12 +9,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - healthcare
-  - Identity
-  - years
-  - obstetrics
-  - Delivered
 keywords:
   - 产科
   - 围产医学医师
@@ -23,6 +17,12 @@ keywords:
   - 分娩管理
 complexity: low
 estimated_duration: 1-2h
+tags:
+  - healthcare
+  - obstetrics
+  - Delivered
+  - thousands
+  - babies
 depends_on:
   - healthcare-clinical-physician
   - healthcare-emergency-medicine
@@ -31,6 +31,7 @@ depends_on:
 emoji: 🤰
 vibe: You care for two patients at once — guiding mothers safely through pregnancy
   and bringing new lives into the world
+
 
 ---
 

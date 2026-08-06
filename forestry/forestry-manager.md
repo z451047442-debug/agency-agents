@@ -8,12 +8,6 @@ nexus_roles:
 - phase-3-build
 - phase-4-hardening
 lifecycle: published
-tags:
-  - forestry
-  - Identity
-  - Memory
-  - Core
-  - Mission
 keywords:
   - 林业经理
   - 可持续森林经营
@@ -22,6 +16,12 @@ keywords:
   - 森林认证
 complexity: medium
 estimated_duration: 2-4h
+tags:
+  - forestry
+  - Capabilities
+  - Process
+  - Success
+  - Metrics
 depends_on:
   - energy-engineering-carbon-capture-storage
   - energy-engineering-grid-scale-storage
@@ -32,6 +32,7 @@ emoji: 🌲
 vibe: Forests are the longest-term investment on Earth — you think in decades, plan
   in centuries, and balance timber production with the living ecosystem that sustains
   it all.
+
 
 ---
 

@@ -189,3 +189,151 @@ class TestExpandAgent:
             assert content.index(section) < scope_pos, (
                 f"{section} appears after Professional Scope"
             )
+
+
+# ── edge cases ──────────────────────────────────────────────────────────────
+
+class TestEdgeCases:
+    def test_generate_section_template_unknown_section(self):
+        """Returns empty string for unknown section name."""
+        agent = {"name": "Test", "category": "test"}
+        result = mod.generate_section_template(agent, "NoSuchSection")
+        assert result == ""
+
+    def test_strip_header_single_line(self):
+        """Falls back to returning the input when no header split."""
+        result = mod._strip_header("Just a single line")
+        assert result == "Just a single line"
+
+    def test_find_insertion_point_no_headings(self):
+        """Returns end of body when no ## headings exist."""
+        body = "Plain text without any headings.\nJust paragraphs."
+        pos = mod.find_insertion_point(body)
+        assert pos == len(body)
+
+    def test_expand_agent_unreadable_file(self, tmp_path):
+        """Gracefully handles unreadable files."""
+        d = tmp_path / "testing"
+        d.mkdir()
+        f = d / "testing-bad.md"
+        f.write_text("not valid", encoding="utf-8")
+        f.chmod(0o000)
+        if f.exists():
+            try:
+                result = mod.expand_agent(f)
+                assert result == []
+            finally:
+                f.chmod(0o644)
+
+    def test_expand_agent_no_frontmatter(self, tmp_path):
+        """Returns empty list when file has no YAML frontmatter."""
+        d = tmp_path / "testing"
+        d.mkdir()
+        f = d / "testing-nofm.md"
+        f.write_text("No frontmatter here.\n## Identity\nJust text.", encoding="utf-8")
+        result = mod.expand_agent(f)
+        assert result == []
+
+    def test_expand_short_section(self, tmp_path):
+        """Short sections (< 30 words) get expanded with template body."""
+        d = tmp_path / "testing"
+        d.mkdir()
+        f = d / "testing-short.md"
+        body = _section_body("I am an agent that tests things well enough to count.")
+        f.write_text(
+            "---\nname: Short Agent\ndescription: Testing short section expansion\nemoji: X\ncolor: red\n---\n"
+            f"## Identity\n{body}\n\n"
+            f"## Core Mission\n{body}\n\n"
+            f"## Critical Rules\n{body}\n\n"
+            "## Deliverables\nToo short.\n\n"
+            "## Workflow\nAlso short.\n",
+            encoding="utf-8",
+        )
+        added = mod.expand_agent(f)
+        assert "Deliverables" in added or "Workflow" in added
+        content = f.read_text(encoding="utf-8")
+        assert len(content.split()) > 100, "Content should be expanded"
+
+
+# ── main() CLI ───────────────────────────────────────────────────────────────
+
+class TestMain:
+    def test_no_args_shows_help(self, capsys):
+        """No arguments prints help and exits."""
+        test_args = ["prog"]
+        monkeypatch = pytest.MonkeyPatch()
+        monkeypatch.setattr(sys, "argv", test_args)
+        try:
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+        finally:
+            monkeypatch.undo()
+
+    def test_agent_not_found(self, capsys):
+        """Non-existent agent ID exits with error."""
+        test_args = ["prog", "--agent", "nonexistent-agent-999"]
+        monkeypatch = pytest.MonkeyPatch()
+        monkeypatch.setattr(sys, "argv", test_args)
+        try:
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+        finally:
+            monkeypatch.undo()
+
+    def test_dry_run_all(self, capsys, tmp_path):
+        """--dry-run --category scans without modifying files."""
+        d = tmp_path / "testing"
+        d.mkdir()
+        f = d / "testing-thin-cli.md"
+        body = _section_body("I am a thin CLI agent with enough test content.")
+        f.write_text(
+            "---\nname: Thin CLI\ndescription: CLI test agent\nemoji: X\ncolor: red\n"
+            f"date_added: '2026-07-01'\n---\n"
+            f"## Identity\n{body}\n\n"
+            f"## Core Mission\n{body}\n\n"
+            f"## Critical Rules\n{body}\n",
+            encoding="utf-8",
+        )
+        original = f.read_text(encoding="utf-8")
+
+        monkeypatch = pytest.MonkeyPatch()
+        monkeypatch.setattr("_shared.discovery.REPO", tmp_path)
+        test_args = ["prog", "--dry-run", "--category", "testing"]
+        monkeypatch.setattr(sys, "argv", test_args)
+        try:
+            mod.main()
+            assert f.read_text(encoding="utf-8") == original, "Dry-run must not modify file"
+        finally:
+            monkeypatch.undo()
+
+    def test_no_thin_agents(self, capsys, tmp_path):
+        """Prints message when no thin agents found."""
+        d = tmp_path / "testing"
+        d.mkdir()
+        f = d / "testing-full-cli.md"
+        body = _section_body("I am a full CLI agent with enough content for testing.")
+        f.write_text(
+            "---\nname: Full CLI\ndescription: Full CLI agent\nemoji: X\ncolor: red\n"
+            f"date_added: '2026-07-01'\n---\n"
+            f"## Identity\n{body}\n\n"
+            f"## Core Mission\n{body}\n\n"
+            f"## Critical Rules\n{body}\n\n"
+            f"## Deliverables\n{body}\n\n"
+            f"## Workflow\n{body}\n\n"
+            f"## Success Metrics\n{body}\n\n"
+            f"## Communication Style\n{body}\n",
+            encoding="utf-8",
+        )
+
+        monkeypatch = pytest.MonkeyPatch()
+        monkeypatch.setattr("_shared.discovery.REPO", tmp_path)
+        test_args = ["prog", "--dry-run", "--category", "testing"]
+        monkeypatch.setattr(sys, "argv", test_args)
+        try:
+            mod.main()
+            captured = capsys.readouterr()
+            assert "No thin agents found" in captured.out
+        finally:
+            monkeypatch.undo()

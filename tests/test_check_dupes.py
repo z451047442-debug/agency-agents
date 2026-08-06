@@ -176,3 +176,59 @@ class TestMainFunction:
                 mod.main()
             assert exc.value.code == 0
         assert json.loads(capsys.readouterr().out) == []
+
+    def test_scorer_import_error_handled(self, tmp_path, monkeypatch, capsys):
+        """When score_agents module fails to load, duplicates are still shown."""
+        index_path = self._make_index(tmp_path, [
+            {"id": "x1", "name": "Frontend Dev", "description": "React",
+             "category": "eng", "path": "engineering/x1.md"},
+            {"id": "x2", "name": "Frontend Dev", "description": "React",
+             "category": "eng", "path": "engineering/x2.md"},
+        ])
+        monkeypatch.setattr(mod, "INDEX_PATH", index_path)
+        import importlib
+        with patch.object(importlib.util, "spec_from_file_location",
+                          side_effect=ImportError("mock error")):
+            with patch.object(sys, "argv", ["check-dupes.py", "--threshold", "0.85"]):
+                with pytest.raises(SystemExit) as exc:
+                    mod.main()
+                assert exc.value.code == 1
+        assert "flagged for review" in capsys.readouterr().out
+
+    def test_score_comparison_shows_keep(self, tmp_path, monkeypatch, capsys):
+        """When score_agents loads, score comparison with KEEP recommendation."""
+        # Create agent files AND a minimal score-agents.py
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir(parents=True)
+        scripts_dir = tmp_path / "scripts"
+        scripts_dir.mkdir()
+        (eng_dir / "x1.md").write_text(
+            "---\nname: T\n---\n## Identity\ntest\n## Mission\ntest\n"
+            "## Rules\n1. rule\n## Deliverables\n- item\n## Workflow\nstep\n",
+            encoding="utf-8")
+        (eng_dir / "x2.md").write_text(
+            "---\nname: T\n---\n## Identity\ntest\n",
+            encoding="utf-8")
+        # Minimal score-agents module
+        (scripts_dir / "score-agents.py").write_text(
+            "def score_agent(f, check_freshness=True):\n"
+            "    n = len(f.read_text(encoding='utf-8'))\n"
+            "    total = 12 if n > 100 else 8\n"
+            "    return {'total': total, 'grade': 'A' if total > 10 else 'C',"
+            " 'risk_tier': 'high' if total < 10 else 'general'}\n",
+            encoding="utf-8")
+        index_path = tmp_path / "AGENTS.json"
+        index_path.write_text(json.dumps({"agents": [
+            {"id": "x1", "name": "Frontend Dev", "description": "React",
+             "category": "eng", "path": "engineering/x1.md"},
+            {"id": "x2", "name": "Frontend Dev", "description": "React",
+             "category": "eng", "path": "engineering/x2.md"},
+        ]}), encoding="utf-8")
+        monkeypatch.setattr(mod, "INDEX_PATH", index_path)
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["check-dupes.py", "--threshold", "0.85"]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+        out = capsys.readouterr().out
+        assert "scores:" in out
+        assert "KEEP" in out

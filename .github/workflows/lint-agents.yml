@@ -14,8 +14,12 @@ on:
 
 # ── Job placement strategy ─────────────────────────────────────────────────
 # Multi-platform (ubuntu + macos + windows):
-#   lint, check-index, validate-index, pytest
+#   lint, check-index, validate-index
 #   These run Python-based validation that benefits from OS diversity.
+#
+# pytest is covered by ci.yml's cross-platform matrix (ubuntu + windows ×
+# py3.10/3.11/3.12).  Duplicating it here wasted 3 extra CI jobs without
+# meaningful coverage gain for this content-validation project.
 #
 # Ubuntu-only:
 #   integration
@@ -120,28 +124,6 @@ jobs:
 
       - name: Run validate-index.py
         run: python scripts/validate-index.py
-
-  # ── Multi-platform Python unit tests ─────────────────────────────────────
-  pytest:
-    name: Python tests (${{ matrix.os }})
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
-    steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
-
-      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
-        with:
-          python-version: "3.11"
-          cache: pip
-
-      - name: Install dependencies
-        run: pip install .[dev]
-
-      - name: Run tests
-        run: python -m pytest tests/ -v
 
   # ── Multi-platform i18n validation ──────────────────────────────────────
   i18n:

@@ -159,7 +159,7 @@ function buildCatList() {
   sorted.forEach(function(c) {
     var zh = labels[c] || '';
     var display = zh ? zh + ' ' + c : c;
-    html += '<div class="cat-item" data-cat="' + c + '"><span>' + display + '</span><span class="count">' + cats[c] + '</span></div>';
+    html += '<div class="cat-item" data-cat="' + esc(c) + '"><span>' + display + '</span><span class="count">' + cats[c] + '</span></div>';
   });
   document.getElementById('catList').innerHTML = html;
   document.querySelectorAll('.cat-item').forEach(function(el) {
@@ -188,8 +188,8 @@ function render() {
     return;
   }
   document.getElementById('grid').innerHTML = agents.map(function(a) {
-    var deps = (a.depends_on || []).map(function(d) { return '<span class="dep">' + d + '</span>'; }).join('');
-    var nexus = (a.nexus_roles || []).map(function(n) { return '<span class="tag tag-nexus">' + n + '</span>'; }).join(' ');
+    var deps = (a.depends_on || []).map(function(d) { return '<span class="dep">' + esc(d) + '</span>'; }).join('');
+    var nexus = (a.nexus_roles || []).map(function(n) { return '<span class="tag tag-nexus">' + esc(n) + '</span>'; }).join(' ');
     var sub = a.subcategory ? ' / ' + esc(a.subcategory) : '';
     var isOpen = expanded[a.id] ? ' open' : '';
     return '<div class="card' + isOpen + '" data-id="' + a.id + '">' +
@@ -201,7 +201,7 @@ function render() {
         '</div>' +
       '</div>' +
       '<div class="meta">' +
-        '<span class="tag tag-cat">' + a.category + sub + '</span>' +
+        '<span class="tag tag-cat">' + esc(a.category) + sub + '</span>' +
         nexus +
       '</div>' +
       '<div class="extra">' +

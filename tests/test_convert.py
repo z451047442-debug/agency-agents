@@ -218,7 +218,7 @@ class TestWriteFrontmatter:
 class TestConvertCursor:
     def test_creates_rule_file(self, tmp_path):
         out_dir = tmp_path / "cursor"
-        convert_cursor(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir)
+        convert_cursor(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir)
         rule_file = out_dir / "rules" / "test-agent.mdc"
         assert rule_file.exists()
         content = rule_file.read_text(encoding="utf-8")
@@ -231,7 +231,7 @@ class TestConvertCursor:
 class TestConvertGeminiCli:
     def test_creates_agent_file(self, tmp_path):
         out_dir = tmp_path / "gemini-cli"
-        convert_gemini_cli(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir)
+        convert_gemini_cli(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir)
         agent_file = out_dir / "agents" / "test-agent.md"
         assert agent_file.exists()
         content = agent_file.read_text(encoding="utf-8")
@@ -243,7 +243,7 @@ class TestConvertGeminiCli:
 class TestConvertCodex:
     def test_creates_toml_file(self, tmp_path):
         out_dir = tmp_path / "codex"
-        convert_codex(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir)
+        convert_codex(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir)
         toml_file = out_dir / "agents" / "test-agent.toml"
         assert toml_file.exists()
         content = toml_file.read_text(encoding="utf-8")
@@ -256,7 +256,7 @@ class TestConvertCodex:
 class TestConvertOpencode:
     def test_creates_agent_file(self, tmp_path):
         out_dir = tmp_path / "opencode"
-        convert_opencode(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir)
+        convert_opencode(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir)
         agent_file = out_dir / "agents" / "test-agent.md"
         assert agent_file.exists()
         content = agent_file.read_text(encoding="utf-8")
@@ -268,7 +268,7 @@ class TestConvertOpencode:
 class TestConvertKimi:
     def test_creates_yaml_and_system_md(self, tmp_path):
         out_dir = tmp_path / "kimi"
-        convert_kimi(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir)
+        convert_kimi(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir)
         yaml_file = out_dir / "test-agent" / "agent.yaml"
         system_file = out_dir / "test-agent" / "system.md"
         assert yaml_file.exists()
@@ -284,7 +284,7 @@ class TestConvertKimi:
 class TestConvertAntigravity:
     def test_creates_skill_file(self, tmp_path):
         out_dir = tmp_path / "antigravity"
-        convert_antigravity(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir)
+        convert_antigravity(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir)
         skill_file = out_dir / "agency-test-agent" / "SKILL.md"
         assert skill_file.exists()
         content = skill_file.read_text(encoding="utf-8")
@@ -296,7 +296,7 @@ class TestConvertAntigravity:
 class TestConvertOsaurus:
     def test_creates_skill_file(self, tmp_path):
         out_dir = tmp_path / "osaurus"
-        convert_osaurus(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir)
+        convert_osaurus(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir)
         skill_file = out_dir / "agency-test-agent" / "SKILL.md"
         assert skill_file.exists()
         content = skill_file.read_text(encoding="utf-8")
@@ -307,7 +307,7 @@ class TestConvertOsaurus:
 class TestConvertQwen:
     def test_creates_agent_file_without_tools(self, tmp_path):
         out_dir = tmp_path / "qwen"
-        convert_qwen(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir, "")
+        convert_qwen(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir, "")
         agent_file = out_dir / "agents" / "test-agent.md"
         assert agent_file.exists()
         content = agent_file.read_text(encoding="utf-8")
@@ -317,7 +317,7 @@ class TestConvertQwen:
     def test_creates_agent_file_with_tools(self, tmp_path):
         out_dir = tmp_path / "qwen"
         fm = 'tools: "search, code_execution"\n'
-        convert_qwen(AGENT_NAME, AGENT_DESC, AGENT_BODY, out_dir, fm)
+        convert_qwen(AGENT_NAME, AGENT_DESC, AGENT_BODY, "test-agent", out_dir, fm)
         agent_file = out_dir / "agents" / "test-agent.md"
         content = agent_file.read_text(encoding="utf-8")
         assert "tools:" in content
@@ -333,7 +333,7 @@ class TestConvertOpenclaw:
             "## Mission\nHelp with testing.\n\n"
             "## Deliverables\nReports and analysis.\n"
         )
-        convert_openclaw(AGENT_NAME, AGENT_DESC, body, out_dir, fm_text)
+        convert_openclaw(AGENT_NAME, AGENT_DESC, body, "test-agent", out_dir, fm_text)
         agent_dir = out_dir / "test-agent"
         assert agent_dir.exists()
         # SOUL.md should have identity + rules
@@ -351,7 +351,7 @@ class TestConvertOpenclaw:
     def test_creates_identity_without_emoji_vibe(self, tmp_path):
         out_dir = tmp_path / "openclaw"
         body = "## Identity\nYou are a test agent.\n\n## Mission\nHelp with testing.\n"
-        convert_openclaw(AGENT_NAME, AGENT_DESC, body, out_dir, "")
+        convert_openclaw(AGENT_NAME, AGENT_DESC, body, "test-agent", out_dir, "")
         identity = (out_dir / "test-agent" / "IDENTITY.md").read_text(encoding="utf-8")
         assert AGENT_DESC in identity
 
@@ -428,7 +428,7 @@ class TestRunTool:
         out_dir = tmp_path / "integrations"
         count = run_tool("cursor", agents, out_dir)
         assert count == 1
-        rule_file = out_dir / "cursor" / "rules" / "test-agent.mdc"
+        rule_file = out_dir / "cursor" / "rules" / "agent.mdc"
         assert rule_file.exists()
 
     def test_run_tool_aider(self, tmp_path, monkeypatch):
@@ -660,7 +660,7 @@ class TestRunToolHermes:
 
         count = convert.run_tool("opencode", agents, out_dir)
         assert count == 1
-        agent_file = out_dir / "opencode" / "agents" / "color-agent.md"
+        agent_file = out_dir / "opencode" / "agents" / "agent.md"
         assert agent_file.exists()
         content = agent_file.read_text(encoding="utf-8")
         # Color resolution from cyan -> #00FFFF
@@ -828,7 +828,7 @@ class TestMain:
         out_dir = tmp_path / "integrations"
         rules_dir = out_dir / "cursor" / "rules"
         rules_dir.mkdir(parents=True)
-        (rules_dir / "test-agent.mdc").write_text("stale content here\n")
+        (rules_dir / "agent.mdc").write_text("stale content here\n")
 
         old_argv = sys.argv
         sys.argv = ["convert.py", "--tool", "cursor", "--check",
@@ -867,8 +867,8 @@ class TestMain:
         rules_dir = out_dir / "cursor" / "rules"
         rules_dir.mkdir(parents=True)
         for i in range(22):
-            slug = convert.slugify(f"Agent {i}")
-            (rules_dir / f"{slug}.mdc").write_text("stale content\n")
+            stem = f"engineering-agent-{i}"
+            (rules_dir / f"{stem}.mdc").write_text("stale content\n")
 
         old_argv = sys.argv
         sys.argv = ["convert.py", "--tool", "cursor", "--check",
@@ -885,3 +885,95 @@ class TestMain:
             sys.argv = old_argv
         output = captured.getvalue()
         assert "and" in output.lower()
+
+
+# ── incremental mode ──────────────────────────────────────────────────────────
+
+class TestIncremental:
+    """run_tool_incremental — mtime-based skip of fresh agents."""
+
+    def _setup(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
+        (tmp_path / "engineering").mkdir()
+        src = tmp_path / "engineering" / "engineering-test-agent.md"
+        src.write_text(FULL_AGENT_CONTENT, encoding="utf-8")
+        return src
+
+    def test_first_run_converts_all(self, tmp_path, monkeypatch):
+        self._setup(tmp_path, monkeypatch)
+        agents = _discover_agents_with_fm()
+        written, skipped = convert.run_tool_incremental(
+            "cursor", agents, tmp_path / "integrations")
+        assert written == 1
+        assert skipped == 0
+        out = tmp_path / "integrations" / "cursor" / "rules" / "engineering-test-agent.mdc"
+        assert out.exists()
+
+    def test_second_run_skips_fresh(self, tmp_path, monkeypatch):
+        self._setup(tmp_path, monkeypatch)
+        agents = _discover_agents_with_fm()
+        out_dir = tmp_path / "integrations"
+        convert.run_tool_incremental("cursor", agents, out_dir)
+        written, skipped = convert.run_tool_incremental("cursor", agents, out_dir)
+        assert written == 0
+        assert skipped == 1
+
+    def test_rewrites_modified_source(self, tmp_path, monkeypatch):
+        src = self._setup(tmp_path, monkeypatch)
+        out_dir = tmp_path / "integrations"
+        agents = _discover_agents_with_fm()
+        convert.run_tool_incremental("cursor", agents, out_dir)
+
+        src.write_text(
+            FULL_AGENT_CONTENT.replace("A test agent for unit testing",
+                                       "Updated description for testing"),
+            encoding="utf-8")
+        agents = _discover_agents_with_fm()
+        written, skipped = convert.run_tool_incremental("cursor", agents, out_dir)
+        assert written == 1
+        assert skipped == 0
+        content = (out_dir / "cursor" / "rules" / "engineering-test-agent.mdc") \
+            .read_text(encoding="utf-8")
+        assert "Updated description for testing" in content
+
+    def test_new_agent_after_existing(self, tmp_path, monkeypatch):
+        """A newly added agent is converted even when others are fresh."""
+        self._setup(tmp_path, monkeypatch)
+        out_dir = tmp_path / "integrations"
+        agents = _discover_agents_with_fm()
+        convert.run_tool_incremental("cursor", agents, out_dir)
+
+        (tmp_path / "engineering" / "engineering-second-agent.md").write_text(
+            FULL_AGENT_CONTENT.replace("Test Agent", "Second Agent"),
+            encoding="utf-8")
+        agents = _discover_agents_with_fm()
+        written, skipped = convert.run_tool_incremental("cursor", agents, out_dir)
+        assert written == 1
+        assert skipped == 1
+        assert (out_dir / "cursor" / "rules" / "engineering-second-agent.mdc").exists()
+
+    def test_aider_rebuilds_when_any_source_newer(self, tmp_path, monkeypatch):
+        self._setup(tmp_path, monkeypatch)
+        out_dir = tmp_path / "integrations"
+        agents = _discover_agents_with_fm()
+        written, _ = convert.run_tool_incremental("aider", agents, out_dir)
+        assert written == 1
+        dest = out_dir / "aider" / "CONVENTIONS.md"
+        assert dest.exists()
+
+        # No changes → skipped
+        written, skipped = convert.run_tool_incremental("aider", agents, out_dir)
+        assert written == 0
+        assert skipped == 1
+
+        # Source modified → rebuilt
+        src = tmp_path / "engineering" / "engineering-test-agent.md"
+        src.write_text(
+            FULL_AGENT_CONTENT.replace("A test agent for unit testing",
+                                       "Rebuilt description for testing"),
+            encoding="utf-8")
+        agents = _discover_agents_with_fm()
+        written, _ = convert.run_tool_incremental("aider", agents, out_dir)
+        assert written == 1
+        assert "Rebuilt description for testing" in dest.read_text(encoding="utf-8")

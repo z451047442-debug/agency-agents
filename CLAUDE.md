@@ -6,6 +6,20 @@ The Agency is a collection of 1400 AI agent personality definitions (`.md` files
 
 The project has **no runtime code** — it is a content repository. Python scripts under `scripts/` handle installation, linting, validation, indexing, and tool-specific integration. Shell scripts in the same directory are thin wrappers around their Python counterparts.
 
+## Quick start (pip-installed)
+
+```bash
+pip install -e .                    # install agency CLI into your environment
+agency search kubernetes            # search agents by keyword
+agency lint --all                   # lint all agent files
+agency score --threshold 8          # quality score gate
+agency validate                     # validate AGENTS.json integrity
+agency --help                       # list all 14 subcommands
+```
+
+The `agency` CLI (`agency_cli.py`) is a thin dispatcher that routes subcommands
+to the corresponding `scripts/*.py` modules.
+
 ## Common commands
 
 ```bash

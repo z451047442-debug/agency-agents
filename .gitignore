@@ -100,3 +100,18 @@ _solution/bin/
 suggested_deps.json
 tests/_debug_test/
 .score-history.jsonl
+
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+
+# Ruflo/AgentDB runtime databases (never commit local vector/memory stores)
+.swarm/
+ruvector.db
+*.db
+*.db-wal
+*.db-shm

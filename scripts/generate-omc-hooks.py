@@ -14,6 +14,7 @@ import argparse
 import json
 import re
 from pathlib import Path
+from typing import Any, cast
 
 from _shared import REPO, atomic_write
 
@@ -49,9 +50,9 @@ PRIORITY_TERMS = {
 }
 
 
-def load_agents() -> list[dict]:
+def load_agents() -> list[dict[str, Any]]:
     with open(INDEX_PATH, encoding="utf-8") as f:
-        return json.load(f)["agents"]
+        return cast(list[dict[str, Any]], json.load(f)["agents"])
 
 
 def extract_keywords(text: str) -> set[str]:

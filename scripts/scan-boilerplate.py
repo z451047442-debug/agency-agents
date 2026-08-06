@@ -10,7 +10,6 @@ Usage:
 import argparse
 import json
 import re
-import sys
 from difflib import SequenceMatcher
 
 from _shared.discovery import discover_agents

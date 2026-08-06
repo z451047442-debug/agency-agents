@@ -142,6 +142,44 @@ None.
             discovery.REPO = original_repo
 
 
+    def test_optional_metadata_fields_preserved(self, tmp_path):
+        """Lines 121,123,129: model_tier, tdd_framework, compatible_platforms in index."""
+        from _shared import discovery
+        original_repo = discovery.REPO
+        try:
+            discovery.REPO = tmp_path
+            cat_dir = tmp_path / "engineering"
+            cat_dir.mkdir(parents=True)
+            content = """---
+name: "Full Agent"
+description: "Has all optional fields"
+emoji: "\U0001f9ea"
+color: teal
+version: "1.0.0"
+date_added: "2026-07-03"
+model_tier: opus
+tdd_framework: pytest
+compatible_platforms:
+  - claude-code
+  - cursor
+---
+## Identity
+Full agent.
+## Mission
+Test optional fields.
+## Rules
+Be complete.
+"""
+            (cat_dir / "engineering-full.md").write_text(content, encoding="utf-8")
+            index = build_index()
+            agent = index["agents"][0]
+            assert agent["model_tier"] == "opus"
+            assert agent["tdd_framework"] == "pytest"
+            assert agent["compatible_platforms"] == ["claude-code", "cursor"]
+        finally:
+            discovery.REPO = original_repo
+
+
 class TestFormatJson:
     def test_formats_agents_as_json_lines(self):
         data = {

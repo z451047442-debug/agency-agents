@@ -48,6 +48,10 @@ STOP_WORDS = frozenset({
     "few", "most", "other", "such", "only", "own", "same", "new",
     "one", "two", "who", "whom", "which", "what", "when", "where",
     "why", "how", "use", "used", "using", "based", "via",
+    # Boilerplate section-header words that leak into tags
+    "years", "year", "identity", "memory", "core", "mission",
+    "must", "follow", "critical", "rules", "role", "key",
+    "workflow", "deliverables", "communication", "style",
 })
 
 
@@ -76,6 +80,9 @@ def _split_and_clean(text: str) -> list[str]:
     return results
 
 
+_CJK_RE = re.compile(r"[一-鿿㐀-䶿豈-﫿]")
+
+
 def extract_tags(category: str, body: str) -> list[str]:
     """Extract 3-5 tags from category name and body section headers."""
     tags: list[str] = []
@@ -84,6 +91,9 @@ def extract_tags(category: str, body: str) -> list[str]:
     def add(t: str) -> None:
         t = t.strip()
         if not t or len(t) < 2:
+            return
+        # Skip pure-CJK tokens — these are header leaks, not tags
+        if _CJK_RE.search(t):
             return
         key = t.lower()
         if key not in seen:
@@ -196,17 +206,36 @@ def has_field(field: str, fm_text: str) -> bool:
 def insert_fields(
     fm_text: str,
     new_fields: list[tuple[str, str | list[str]]],
+    force: bool = False,
 ) -> tuple[str, bool, list[str]]:
     """Insert new fields into frontmatter before ``depends_on`` (if it exists),
     otherwise before the closing ``---``.
 
     Returns (new_fm_text, was_modified, list_of_inserted_field_names).
     """
-    to_insert = [(n, v) for n, v in new_fields if not has_field(n, fm_text)]
+    to_insert = [(n, v) for n, v in new_fields if force or not has_field(n, fm_text)]
     if not to_insert:
         return fm_text, False, []
 
     lines = fm_text.split("\n")
+
+    # In force mode, strip existing blocks for fields we're about to replace
+    if force:
+        force_names = {n for n, _ in to_insert}
+        stripped = []
+        skip_until_next = False
+        for line in lines:
+            if skip_until_next:
+                if line and not line.startswith(" ") and not line.startswith("\t"):
+                    skip_until_next = False
+                else:
+                    continue
+            name_match = re.match(r"^(\w[\w-]*):", line)
+            if name_match and name_match.group(1) in force_names:
+                skip_until_next = not line[len(name_match.group(1)) + 1:].strip()
+                continue
+            stripped.append(line)
+        lines = stripped
 
     # Find the insertion point
     insert_at = len(lines)  # default: end of frontmatter
@@ -230,8 +259,7 @@ def insert_fields(
     # Append remaining original lines
     result.extend(lines[insert_at:])
 
-    # Ensure the frontmatter ends with a trailing newline (the YAML closing
-    # ``---`` must be on its own line).
+    # Ensure the frontmatter ends with a trailing newline
     if result and result[-1] != "":
         result.append("")
 
@@ -267,6 +295,11 @@ def main() -> None:
         "-v",
         action="store_true",
         help="Show detailed per-file output",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Regenerate fields even if they already exist in frontmatter",
     )
     args = parser.parse_args()
 
@@ -305,10 +338,10 @@ def main() -> None:
 
         f = args.field
 
-        if f in ("all", "tags") and not has_tags:
+        if f in ("all", "tags") and (args.force or not has_tags):
             tags = extract_tags(category, body)
 
-        if f in ("all", "keywords") and not has_keywords:
+        if f in ("all", "keywords") and (args.force or not has_keywords):
             keywords = extract_keywords(description, name, body)
 
         # Complexity is needed directly or for duration inference
@@ -318,10 +351,10 @@ def main() -> None:
         else:
             comp = infer_complexity(agent_id, name, description)
 
-        if f in ("all", "complexity") and not has_complexity:
+        if f in ("all", "complexity") and (args.force or not has_complexity):
             complexity = comp
 
-        if f in ("all", "duration") and not has_duration:
+        if f in ("all", "duration") and (args.force or not has_duration):
             duration = infer_duration(comp)
 
         # If nothing new to insert, skip
@@ -340,7 +373,7 @@ def main() -> None:
         if duration is not None:
             new_fields.append(("estimated_duration", duration))
 
-        new_fm, dirty, inserted = insert_fields(fm_text, new_fields)
+        new_fm, dirty, inserted = insert_fields(fm_text, new_fields, force=args.force)
         if not dirty:
             already += 1
             continue

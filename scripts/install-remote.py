@@ -8,15 +8,25 @@ Usage:
 
 import argparse
 import json
+import re
 from pathlib import Path
 from urllib.request import urlopen
 
 DEFAULT_REPO = "z451047442-debug/agency-agents"
 DEFAULT_BRANCH = "main"
 
+_REPO_RE = re.compile(r"^[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+$")
+_BRANCH_RE = re.compile(r"^[a-zA-Z0-9._/-]+$")
+_AGENT_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$")
+
 
 def log(msg: str) -> None:
     print(f"  {msg}")
+
+
+def is_safe_agent_id(aid: str) -> bool:
+    """Reject path traversal and non-conforming agent IDs."""
+    return bool(_AGENT_ID_RE.match(aid)) and ".." not in aid
 
 
 def slugify(name: str) -> str:
@@ -48,13 +58,19 @@ def install_agents(raw_base: str, tool: str, divisions: set[str] | None,
         aid = agent["id"]
         cat = agent["category"]
 
+        if not is_safe_agent_id(aid):
+            log(f"  skip {aid}: invalid agent id (rejected for safety)")
+            continue
         if divisions and cat not in divisions:
             continue
         if agent_filter and agent_filter != aid:
             continue
 
         url = f"{raw_base}/{agent['path']}"
-        dest_file = dest / f"{aid}.md"
+        dest_file = (dest / f"{aid}.md").resolve()
+        if dest_file.parent != dest.resolve():
+            log(f"  skip {aid}: path traversal detected")
+            continue
 
         try:
             with urlopen(url, timeout=30) as resp:
@@ -76,6 +92,13 @@ def main() -> None:
     parser.add_argument("--repo", default=DEFAULT_REPO)
     parser.add_argument("--branch", default=DEFAULT_BRANCH)
     args = parser.parse_args()
+
+    if not _REPO_RE.match(args.repo):
+        print(f"Error: --repo '{args.repo}' has invalid format (expected owner/name)")
+        return
+    if not _BRANCH_RE.match(args.branch):
+        print(f"Error: --branch '{args.branch}' contains invalid characters")
+        return
 
     raw_base = f"https://raw.githubusercontent.com/{args.repo}/{args.branch}"
     divisions = {d.strip() for d in args.division.split(",")} if args.division else None

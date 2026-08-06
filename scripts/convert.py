@@ -9,6 +9,7 @@ Usage:
     python scripts/convert.py --check              # verify integrations/ is in sync
     python scripts/convert.py --parallel           # run independent tools in parallel
     python scripts/convert.py --parallel --jobs 4
+    python scripts/convert.py --incremental        # skip agents whose output is fresh
 """
 
 import argparse
@@ -111,8 +112,8 @@ def _write_frontmatter(path, fields, body):
                 f.write("\n")
 
 
-def convert_antigravity(name, desc, body, out_dir):
-    slug = f"agency-{slugify(name)}"
+def convert_antigravity(name, desc, body, agent_id, out_dir):
+    slug = f"agency-{agent_id}"
     _write_frontmatter(out_dir / slug / "SKILL.md", {
         "name": slug,
         "description": desc,
@@ -122,8 +123,8 @@ def convert_antigravity(name, desc, body, out_dir):
     }, body)
 
 
-def convert_osaurus(name, desc, body, out_dir):
-    slug = f"agency-{slugify(name)}"
+def convert_osaurus(name, desc, body, agent_id, out_dir):
+    slug = f"agency-{agent_id}"
     _write_frontmatter(out_dir / slug / "SKILL.md", {
         "name": slug,
         "description": desc,
@@ -161,22 +162,21 @@ def _toml_escape(text):
     return "".join(result)
 
 
-def convert_codex(name, desc, body, out_dir):
-    slug = slugify(name)
+def convert_codex(name, desc, body, agent_id, out_dir):
     agents_dir = out_dir / "agents"
     agents_dir.mkdir(parents=True, exist_ok=True)
     escaped_body = _toml_escape(body)
     escaped_name = _toml_escape(name)
     escaped_desc = _toml_escape(desc)
-    with open(agents_dir / f"{slug}.toml", "w", encoding="utf-8") as f:
+    with open(agents_dir / f"{agent_id}.toml", "w", encoding="utf-8") as f:
         f.write(f'name = "{escaped_name}"\n')
         f.write(f'description = "{escaped_desc}"\n')
         f.write(f'developer_instructions = "{escaped_body}"\n')
 
 
-def convert_gemini_cli(name, desc, body, out_dir):
-    _write_frontmatter(out_dir / "agents" / f"{slugify(name)}.md", {
-        "name": slugify(name),
+def convert_gemini_cli(name, desc, body, agent_id, out_dir):
+    _write_frontmatter(out_dir / "agents" / f"{agent_id}.md", {
+        "name": agent_id,
         "description": desc,
     }, body)
 
@@ -228,12 +228,12 @@ def resolve_opencode_color(color_name):
     return OPENCODE_COLOR_MAP.get(c, DEFAULT_OPENCODE_COLOR)
 
 
-def convert_opencode(name, desc, body, out_dir, fm_text=None):
+def convert_opencode(name, desc, body, agent_id, out_dir, fm_text=None):
     color_name = get_field("color", fm_text) if fm_text else ""
     color = resolve_opencode_color(color_name)
     agents_dir = out_dir / "agents"
     agents_dir.mkdir(parents=True, exist_ok=True)
-    with open(agents_dir / f"{slugify(name)}.md", "w", encoding="utf-8") as f:
+    with open(agents_dir / f"{agent_id}.md", "w", encoding="utf-8") as f:
         f.write("---\n")
         f.write(f"name: {name}\n")
         f.write(f"description: {desc}\n")
@@ -243,19 +243,18 @@ def convert_opencode(name, desc, body, out_dir, fm_text=None):
         f.write(body)
 
 
-def convert_cursor(name, desc, body, out_dir):
+def convert_cursor(name, desc, body, agent_id, out_dir):
     rules_dir = out_dir / "rules"
-    _write_frontmatter(rules_dir / f"{slugify(name)}.mdc", {
+    _write_frontmatter(rules_dir / f"{agent_id}.mdc", {
         "description": desc,
         "globs": '""',
         "alwaysApply": "false",
     }, body)
 
 
-def convert_openclaw(name, desc, body, out_dir, fm_text):
+def convert_openclaw(name, desc, body, agent_id, out_dir, fm_text):
     """Split body into SOUL.md (persona/rules) and AGENTS.md (mission/workflow)."""
-    slug = slugify(name)
-    agent_dir = out_dir / slug
+    agent_dir = out_dir / agent_id
     agent_dir.mkdir(parents=True, exist_ok=True)
 
     soul_keywords = ["identity", "learning", "memory", "communication",
@@ -290,13 +289,13 @@ def convert_openclaw(name, desc, body, out_dir, fm_text):
         (agent_dir / "IDENTITY.md").write_text(f"# {name}\n{desc}\n", encoding="utf-8")
 
 
-def convert_qwen(name, desc, body, out_dir, fm_text):
+def convert_qwen(name, desc, body, agent_id, out_dir, fm_text):
     agents_dir = out_dir / "agents"
     agents_dir.mkdir(parents=True, exist_ok=True)
     tools = get_field("tools", fm_text)
-    with open(agents_dir / f"{slugify(name)}.md", "w", encoding="utf-8") as f:
+    with open(agents_dir / f"{agent_id}.md", "w", encoding="utf-8") as f:
         f.write("---\n")
-        f.write(f"name: {slugify(name)}\n")
+        f.write(f"name: {agent_id}\n")
         f.write(f"description: {desc}\n")
         if tools:
             f.write(f"tools: {tools}\n")
@@ -304,14 +303,13 @@ def convert_qwen(name, desc, body, out_dir, fm_text):
         f.write(body)
 
 
-def convert_kimi(name, desc, body, out_dir):
-    slug = slugify(name)
-    agent_dir = out_dir / slug
+def convert_kimi(name, desc, body, agent_id, out_dir):
+    agent_dir = out_dir / agent_id
     agent_dir.mkdir(parents=True, exist_ok=True)
     with open(agent_dir / "agent.yaml", "w", encoding="utf-8") as f:
         f.write("version: 1\n")
         f.write("agent:\n")
-        f.write(f"  name: {slug}\n")
+        f.write(f"  name: {agent_id}\n")
         f.write("  extend: default\n")
         f.write("  system_prompt_path: ./system.md\n")
     with open(agent_dir / "system.md", "w", encoding="utf-8") as f:
@@ -492,20 +490,94 @@ def run_tool(tool, agents, out_dir):
         return len(buf)
 
     count = 0
-    for _category, _filepath, fm_text, body in agents:
+    for _category, file_path, fm_text, body in agents:
         name = get_field("name", fm_text)
         desc = get_field("description", fm_text)
         if not name or not desc:
             continue
+        agent_id = file_path.stem
 
         d = out_dir / tool
         if tool in ("openclaw", "qwen", "opencode"):
-            CONVERTERS[tool](name, desc, body, d, fm_text)
+            CONVERTERS[tool](name, desc, body, agent_id, d, fm_text)
         else:
-            CONVERTERS[tool](name, desc, body, d)
+            CONVERTERS[tool](name, desc, body, agent_id, d)
         count += 1
 
     return count
+
+
+# ── incremental mode ─────────────────────────────────────────────────────────
+
+# Primary output file per tool, used for mtime-based freshness checks.
+# d is the tool's output dir (out_dir / tool).
+_PRIMARY_OUTPUT = {
+    "antigravity": lambda agent_id, d: d / f"agency-{agent_id}" / "SKILL.md",
+    "osaurus":     lambda agent_id, d: d / f"agency-{agent_id}" / "SKILL.md",
+    "gemini-cli":  lambda agent_id, d: d / "agents" / f"{agent_id}.md",
+    "opencode":    lambda agent_id, d: d / "agents" / f"{agent_id}.md",
+    "cursor":      lambda agent_id, d: d / "rules" / f"{agent_id}.mdc",
+    "openclaw":    lambda agent_id, d: d / agent_id / "SOUL.md",
+    "qwen":        lambda agent_id, d: d / "agents" / f"{agent_id}.md",
+    "kimi":        lambda agent_id, d: d / agent_id / "agent.yaml",
+    "codex":       lambda agent_id, d: d / "agents" / f"{agent_id}.toml",
+}
+
+
+def _agent_fresh(file_path, agent_id, tool, out_dir):
+    """True if the agent's primary output is strictly newer than its source."""
+    primary = _PRIMARY_OUTPUT[tool](agent_id, out_dir / tool)
+    if not primary.exists():
+        return False
+    return primary.stat().st_mtime > file_path.stat().st_mtime
+
+
+def run_tool_incremental(tool, agents, out_dir):
+    """Convert only agents whose source is newer than their existing output.
+
+    Skips clean_tool_output(), so output for deleted agents is left behind —
+    run a full (non-incremental) conversion periodically to clean up.
+    Returns (written_count, skipped_count).
+    """
+    if tool == "hermes":
+        run_hermes(out_dir)
+        return len(agents), 0
+
+    if tool == "oh-my-claudecode":
+        convert_oh_my_claudecode("", "", "", out_dir)
+        return len(agents), 0
+
+    if tool in ("aider", "windsurf"):
+        # Single accumulated file — rebuild only if some source is newer.
+        buf = [(get_field("name", fm), get_field("description", fm), body)
+               for _, _, fm, body in agents
+               if get_field("name", fm) and get_field("description", fm)]
+        dest = (out_dir / "aider" / "CONVENTIONS.md") if tool == "aider" \
+            else (out_dir / "windsurf" / ".windsurfrules")
+        if dest.exists():
+            newest_source = max((fp.stat().st_mtime for _, fp, _, _ in agents), default=0)
+            if dest.stat().st_mtime > newest_source:
+                return 0, len(buf)
+        build_aider_windsurf(buf, out_dir, tool)
+        return len(buf), 0
+
+    written = skipped = 0
+    for _category, file_path, fm_text, body in agents:
+        name = get_field("name", fm_text)
+        desc = get_field("description", fm_text)
+        if not name or not desc:
+            continue
+        agent_id = file_path.stem
+        if _agent_fresh(file_path, agent_id, tool, out_dir):
+            skipped += 1
+            continue
+        d = out_dir / tool
+        if tool in ("openclaw", "qwen", "opencode"):
+            CONVERTERS[tool](name, desc, body, agent_id, d, fm_text)
+        else:
+            CONVERTERS[tool](name, desc, body, agent_id, d)
+        written += 1
+    return written, skipped
 
 
 def main():
@@ -537,6 +609,11 @@ def main():
                         help="Run independent tools in parallel (--tool all only)")
     parser.add_argument("--jobs", type=int, default=None,
                         help="Max parallel jobs (default: CPU count)")
+    parser.add_argument("--incremental", action="store_true",
+                        help="Skip agents whose converted output is newer than their "
+                             "source. Faster for repeated local runs; stale output for "
+                             "deleted agents is not cleaned (run without --incremental "
+                             "periodically). Ignored in --check mode.")
     args = parser.parse_args()
 
     if args.tool not in ALL_TOOLS + ["all"]:
@@ -638,6 +715,9 @@ def main():
         completed = [0]     # mutable counter for the closure
 
         def _run_one(tool):
+            if args.incremental:
+                written, _skipped = run_tool_incremental(tool, agents, out_dir)
+                return tool, written
             return tool, run_tool(tool, agents, out_dir)
 
         with ThreadPoolExecutor(max_workers=jobs) as pool:
@@ -663,9 +743,13 @@ def main():
             progress_bar(i, n_tools)
             print()
             header(f"Converting: {tool} ({i}/{n_tools})")
-            count = run_tool(tool, agents, out_dir)
-            total += count
-            info(f"Converted {count} agents for {tool}")
+            if args.incremental:
+                written, skipped = run_tool_incremental(tool, agents, out_dir)
+                count = written
+                info(f"Converted {written} agents for {tool} ({skipped} fresh, skipped)")
+            else:
+                count = run_tool(tool, agents, out_dir)
+                info(f"Converted {count} agents for {tool}")
 
     # Build depends_on manifest for install-time dependency warnings
     header("Building dependency manifest")

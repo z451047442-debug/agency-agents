@@ -15,6 +15,7 @@ import argparse
 import json
 import sys
 from datetime import datetime
+from typing import Any, cast
 
 from _shared import REPO, atomic_write
 
@@ -144,21 +145,23 @@ GATE_QUESTIONS = {
 }
 
 
-def load_agents() -> list[dict]:
+def load_agents() -> list[dict[str, Any]]:
     with open(INDEX_PATH, encoding="utf-8") as f:
-        return json.load(f)["agents"]
+        return cast(list[dict[str, Any]], json.load(f)["agents"])
 
 
-def agents_for_phase(agents: list[dict], phase: str) -> list[dict]:
-    role = f"phase-{phase}-{PHASES[phase]['label'].lower()}"
+def agents_for_phase(agents: list[dict[str, Any]], phase: str) -> list[dict[str, Any]]:
+    label: str = cast(str, PHASES[phase]["label"])
+    role = f"phase-{phase}-{label.lower()}"
     return sorted(
         [a for a in agents if role in (a.get("nexus_roles") or [])],
         key=lambda a: (a["category"], a["name"]),
     )
 
 
-def build_skill_md(phase: str, agents: list[dict]) -> str:
+def build_skill_md(phase: str, agents: list[dict[str, Any]]) -> str:
     p = PHASES[phase]
+    p_label: str = cast(str, p["label"])
     phase_agents = agents_for_phase(agents, phase)
 
     by_cat: dict[str, list[str]] = {}
@@ -188,7 +191,7 @@ version: "1.0"
 generated: {datetime.now().isoformat()[:10]}
 ---
 
-# NEXUS Phase {phase}: {p['label']}
+# NEXUS Phase {phase}: {p_label}
 
 ## Objective
 
@@ -208,7 +211,7 @@ All items must pass before advancing to Phase {int(phase) + 1}:
 
 Say any of these to activate this phase: {triggers}
 
-When activated, follow the NEXUS playbook at `docs/playbooks/phase-{phase}-{p['label'].lower()}.md`.
+When activated, follow the NEXUS playbook at `docs/playbooks/phase-{phase}-{p_label.lower()}.md`.
 
 ## Handoff Protocol
 

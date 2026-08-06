@@ -92,7 +92,7 @@ CONFIG_PATTERNS = {
 
 def scan_file(filepath: Path, patterns: dict) -> list[dict]:
     """Scan a file for security patterns. Returns list of findings."""
-    findings = []
+    findings: list[dict] = []
     try:
         content = filepath.read_text(encoding="utf-8")
     except (UnicodeDecodeError, OSError):
@@ -131,7 +131,7 @@ def print_report(findings: list[dict]) -> int:
         print(f"{GREEN}No security issues found.{RESET}")
         return 0
 
-    by_sev = {"CRITICAL": [], "HIGH": [], "MEDIUM": [], "LOW": []}
+    by_sev: dict[str, list[dict]] = {"CRITICAL": [], "HIGH": [], "MEDIUM": [], "LOW": []}
     for f in findings:
         by_sev[f["severity"]].append(f)
 

@@ -17,6 +17,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from typing import Any, cast
 
 from _shared import REPO, atomic_write
 
@@ -34,9 +35,9 @@ def grade_label(score: float) -> str:
     return "D"
 
 
-def load_agents() -> list[dict]:
+def load_agents() -> list[dict[str, Any]]:
     with open(INDEX_PATH, encoding="utf-8") as f:
-        return json.load(f)["agents"]
+        return cast(list[dict[str, Any]], json.load(f)["agents"])
 
 
 def compute_scores(agents: list[dict]) -> dict[str, float]:

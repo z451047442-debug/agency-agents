@@ -18,6 +18,7 @@ import re
 import shutil
 import sys
 from pathlib import Path
+from typing import Any, cast
 
 from _shared import REPO
 
@@ -25,9 +26,9 @@ INDEX_PATH = REPO / "AGENTS.json"
 TOOLS_PATH = REPO / "tools.json"
 
 
-def load_json(path: Path) -> dict:
+def load_json(path: Path) -> dict[str, Any]:
     with open(path, encoding="utf-8") as f:
-        return json.load(f)
+        return cast(dict[str, Any], json.load(f))
 
 
 def slugify(name: str) -> str:
@@ -37,12 +38,12 @@ def slugify(name: str) -> str:
     return s.strip("-")
 
 
-def get_tool_cfg(tool: str) -> dict:
+def get_tool_cfg(tool: str) -> dict[str, Any]:
     tools = load_json(TOOLS_PATH).get("tools", {})
     if tool not in tools:
         print(f"Unknown tool: {tool}. Available: {', '.join(sorted(tools))}", file=sys.stderr)
         sys.exit(1)
-    return tools[tool]
+    return cast(dict[str, Any], tools[tool])
 
 
 def resolve_dest(tool: str, scope: str) -> list[tuple[Path, str]]:
@@ -59,14 +60,14 @@ def resolve_dest(tool: str, scope: str) -> list[tuple[Path, str]]:
         for pattern in TEMPLATES:
             if tmpl.endswith(pattern):
                 base = tmpl[:-len(pattern)]
-                resolved = home / base if scope == "user" else REPO / base
+                resolved = home / base if scope == "user" else Path.cwd() / base
                 results.append((resolved, pattern.lstrip("/")))
                 matched = True
                 break
         if not matched:
             base = tmpl.rsplit("/", 1)[0] if "/" in tmpl else ""
             fname = tmpl.rsplit("/", 1)[-1] if "/" in tmpl else tmpl
-            resolved = home / base if scope == "user" else REPO / base
+            resolved = home / base if scope == "user" else Path.cwd() / base
             results.append((resolved, fname))
     return results
 
@@ -97,7 +98,10 @@ def install_agent(agent: dict, tool_cfg: dict, dest_dirs: list[tuple[Path, str]]
                       file=sys.stderr)
                 return 0
             for candidate in integ.rglob("*"):
-                if candidate.is_file() and agent["id"] in candidate.name:
+                if not candidate.is_file():
+                    continue
+                # Match by agent id in filename (single-file) or parent dir (multi-file)
+                if agent["id"] in candidate.name or agent["id"] == candidate.parent.name:
                     dest.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copy2(candidate, dest)
                     count += 1
@@ -106,16 +110,22 @@ def install_agent(agent: dict, tool_cfg: dict, dest_dirs: list[tuple[Path, str]]
 
 
 def install_tool(tool: str, divisions: set[str] | None,
-                 agent_id: str | None) -> int:
+                 agent_id: str | None, scope: str = "user") -> int:
     cfg = get_tool_cfg(tool)
 
     if cfg.get("installKind") == "plugin":
         print(f"{tool}: plugin type, use convert.py")
         return 0
 
-    dest_dirs = resolve_dest(tool, "user")
-    if not dest_dirs:
-        print(f"{tool}: no user-scope destinations configured", file=sys.stderr)
+    # Resolve destinations for each scope that is enabled in tools.json
+    scopes_to_use = ["user", "project"] if scope == "both" else [scope]
+    all_dest_dirs = []
+    for s in scopes_to_use:
+        if cfg.get("scope", {}).get(s):
+            all_dest_dirs.extend(resolve_dest(tool, s))
+
+    if not all_dest_dirs:
+        print(f"{tool}: no destinations for scope={scope}", file=sys.stderr)
         return 0
 
     agents = load_json(INDEX_PATH).get("agents", [])
@@ -126,10 +136,10 @@ def install_tool(tool: str, divisions: set[str] | None,
             continue
         if agent_id and agent["id"] != agent_id:
             continue
-        installed += install_agent(agent, cfg, dest_dirs)
+        installed += install_agent(agent, cfg, all_dest_dirs)
 
-    home = str(Path.home())
-    print(f"{tool}: {installed} agents -> {str(dest_dirs[0][0]).replace(home, '~')}")
+    cwd = str(Path.cwd())
+    print(f"{tool}: {installed} agents -> {str(all_dest_dirs[0][0]).replace(cwd, '.')}")
     return installed
 
 
@@ -193,6 +203,8 @@ def main() -> None:
     parser.add_argument("--tool", default="claude-code", help="Target tool")
     parser.add_argument("--division", help="Comma-separated division filter")
     parser.add_argument("--agent", help="Single agent ID")
+    parser.add_argument("--scope", default="user", choices=["user", "project", "both"],
+                        help="Install scope: user, project, or both (default: user)")
     parser.add_argument("--uninstall", action="store_true")
     parser.add_argument("--list-installed", action="store_true")
     parser.add_argument("--verify", action="store_true")
@@ -209,7 +221,7 @@ def main() -> None:
         return
 
     divisions = {d.strip() for d in args.division.split(",")} if args.division else None
-    n = install_tool(args.tool, divisions, args.agent)
+    n = install_tool(args.tool, divisions, args.agent, scope=args.scope)
     print(f"Done. {n} agents installed.")
 
 

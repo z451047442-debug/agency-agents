@@ -18,6 +18,7 @@ Usage:
 import argparse
 import json
 from pathlib import Path
+from typing import Any, cast
 
 from _shared import REPO, atomic_write
 
@@ -53,12 +54,12 @@ TEAM_STAGES = {
 }
 
 
-def load_agents() -> list[dict]:
+def load_agents() -> list[dict[str, Any]]:
     with open(INDEX_PATH, encoding="utf-8") as f:
-        return json.load(f)["agents"]
+        return cast(list[dict[str, Any]], json.load(f)["agents"])
 
 
-def agents_for_roles(agents: list[dict], roles: list[str]) -> list[dict]:
+def agents_for_roles(agents: list[dict[str, Any]], roles: list[str]) -> list[dict[str, Any]]:
     return sorted(
         [a for a in agents if any(r in (a.get("nexus_roles") or []) for r in roles)],
         key=lambda a: (a["category"], a["name"]),
@@ -68,7 +69,7 @@ def agents_for_roles(agents: list[dict], roles: list[str]) -> list[dict]:
 def build_team_config(agents: list[dict]) -> dict:
     config: dict[str, dict] = {}
     for stage_name, stage_def in TEAM_STAGES.items():
-        matched = agents_for_roles(agents, stage_def["nexus_roles"])
+        matched = agents_for_roles(agents, list(stage_def["nexus_roles"]))
         categories = sorted({a["category"] for a in matched})
         config[stage_name] = {
             "description": stage_def["description"],

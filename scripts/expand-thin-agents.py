@@ -257,7 +257,7 @@ def expand_agent(filepath: Path, dry_run: bool = False) -> list[str]:
 
     # --- Apply expansions bottom-up (reverse positional order) ----------------
     expansions = [(m[0], m[2], m[3]) for m in modifications if m[1] == "expand"]
-    expansions.sort(key=lambda x: -x[1])  # highest position first
+    expansions.sort(key=lambda x: -(x[1] or 0))  # highest position first (None → 0)
 
     for _section_name, pos, text in expansions:
         body = body[:pos] + text + body[pos:]

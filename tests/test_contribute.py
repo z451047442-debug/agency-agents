@@ -163,6 +163,27 @@ class TestBuildOpportunities:
             assert o["scores"]["frontmatter"] == 0
             assert o["impact"] >= 2.0
 
+    def test_content_gap_adds_impact(self, monkeypatch):
+        """Lines 116-117: content_depth < 2 + low word_count triggers content gap impact."""
+        def mock_score(filepath, check_freshness=False):
+            return {
+                "grade": "D", "total": 3,
+                "scores": {"content_depth": 1, "structure": 3, "frontmatter": 2, "file_health": 2},
+                "issues": ["thin content"],
+                "word_count": 200,
+            }
+
+        def mock_lint(filepath, errors, warnings, infos, freshness=False):
+            pass
+
+        monkeypatch.setattr(mod, "score_agent", mock_score)
+        monkeypatch.setattr(mod, "lint_file", mock_lint)
+
+        opps = build_opportunities(category_filter="engineering")
+        for o in opps:
+            assert o["scores"]["content_depth"] == 1
+            assert o["impact"] >= 2.0  # (400-200)/100 * weight >= 2.0
+
 
 # ── print_dashboard ──────────────────────────────────────────────────────────
 

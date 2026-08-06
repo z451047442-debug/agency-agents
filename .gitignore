@@ -115,3 +115,9 @@ ruvector.db
 *.db
 *.db-wal
 *.db-shm
+
+# Local agent tooling (user-specific installs, never commit)
+.agents/
+.claude/
+.claude-flow/
+.mcp.json

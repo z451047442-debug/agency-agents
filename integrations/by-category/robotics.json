@@ -1,7 +1,7 @@
 {
   "category": "robotics",
-  "agent_count": 15,
-  "generated": "2026-07-16",
+  "agent_count": 16,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "robotics-automation-engineer",
@@ -21,6 +21,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A robot that works in simulation but fails in production failed where it matters — the physical world is the only test that counts",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "机器人自动化工程师",
+        "机器人系统设计与自动化专家，覆盖机械臂",
+        "AGV",
+        "AMR",
+        "运动规划"
       ]
     },
     {
@@ -39,6 +57,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A controller that's stable on paper but oscillates in production forgot one thing — the plant model is always wrong, and that's what feedback is for",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "控制系统工程师",
+        "实时控制系统设计与调优专家，覆盖PID",
+        "MPC",
+        "LQR",
+        "状态估计"
       ]
     },
     {
@@ -51,25 +87,44 @@
       "path": "robotics/robotics-director.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "robotics-multi-agent-coordinator",
         "marketing-customer-lifecycle",
         "robotics-automation-engineer"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Robots are physical AI — you lead the team that makes intelligence walk, grasp,",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "leading",
+        "product",
+        "organizations",
+        "shipped"
+      ],
+      "keywords": [
+        "机器人事业部总监",
+        "机器人产品",
+        "业务最高负责人，覆盖机器人产品战略",
+        "应用场景",
+        "机械"
       ]
     },
     {
       "id": "robotics-engineering-exoskeleton-robotics",
       "name": "外骨骼/可穿戴机器人工程师",
-      "description": "助力外骨骼与可穿戴机器人系统专家，覆盖人体生物力学/步态分析、串联弹性/可变刚度/液压驱动、人机交互力/意图检测(EMG/力传感器)与安全/ISO 13482认证",
+      "description": "助力外骨骼与可穿戴机器人系统专家，覆盖人体生物力学/步态分析、串联弹性/可变刚度/液压驱动、人机交互力/意图检测(EMG/力传感器)与安全/ISO",
       "emoji": "🦿",
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-exoskeleton-robotics.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "robotics-multi-agent-coordinator",
         "healthcare-engineering-medical-device-software",
         "healthcare-engineering-medical-robotics",
         "robotics-engineering-industrial-robotics",
@@ -77,7 +132,26 @@
         "spatial-computing-engineering-wearable-tech"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "An exoskeleton turns a warehouse worker into a superhero and helps a paralyzed",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "wearable",
+        "Developed",
+        "exoskeletons",
+        "industrial"
+      ],
+      "keywords": [
+        "外骨骼",
+        "可穿戴机器人工程师",
+        "助力外骨骼与可穿戴机器人系统专家，覆盖人体生物力学",
+        "步态分析",
+        "串联弹性"
       ]
     },
     {
@@ -92,11 +166,30 @@
         "automotive-engineering-automotive-homologation-test",
         "energy-engineering-power-electronics",
         "energy-engineering-power-electronics-packaging",
-        "engineering-multi-agent-systems-architect",
+        "robotics-multi-agent-coordinator",
         "robotics-automation-engineer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Touch is the sense we trust most — you engineer the vibrations, textures, and",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "haptic",
+        "technology",
+        "Designed",
+        "experiences"
+      ],
+      "keywords": [
+        "触觉",
+        "力反馈",
+        "Haptics",
+        "工程师",
+        "触觉技术与力反馈系统专家，覆盖压电"
       ]
     },
     {
@@ -109,11 +202,29 @@
       "path": "robotics/robotics-engineering-industrial-robotics.md",
       "depends_on": [
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
+        "robotics-multi-agent-coordinator",
         "robotics-integration-engineer"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A robot that works safely alongside humans, sharing the same workspace without cages — that's collaborative robotics, where safety is the product",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "collaborative",
+        "Deployed",
+        "cobots",
+        "manufacturing"
+      ],
+      "keywords": [
+        "协作机器人",
+        "人机协作安全工程师",
+        "cobot",
+        "安全与应用工程专家，覆盖ISO",
+        "TS"
       ]
     },
     {
@@ -126,28 +237,68 @@
       "path": "robotics/robotics-engineering-mechatronics.md",
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
-        "engineering-multi-agent-systems-architect",
+        "robotics-multi-agent-coordinator",
         "manufacturing-engineering-electronics-manufacturing",
         "robotics-automation-engineer"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The physical world moves because of mechanisms you design — gears, motors, linkages, bearings — working together with millimeter precision for millions of cycles",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "mechanical",
+        "design",
+        "mechatronics",
+        "Designed"
+      ],
+      "keywords": [
+        "机电一体化",
+        "机械设计工程师",
+        "精密机械设计与机电一体化专家，覆盖3D",
+        "CAD",
+        "SolidWorks"
       ]
     },
     {
       "id": "robotics-engineering-robotic-perception-systems",
-      "name": "机器人环境感知系统工程师",
+      "name": "Robotic Perception Systems",
       "description": "移动机器人环境感知与导航系统专家，覆盖LiDAR/相机/毫米波雷达融合感知、占据栅格地图/ BEV感知、路径规划(A*/RRT/Lattice)与自主导航定位",
       "emoji": "🤖",
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-robotic-perception-systems.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "robotics-automation-engineer"
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep",
+        "data-science-engineering-deep-learning-training",
+        "robotics-automation-engineer",
+        "robotics-engineering-robotics-manipulation",
+        "robotics-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Autonomous robots need to see and understand their world — you build the perception",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "autonomous",
+        "systems",
+        "Built",
+        "perception"
+      ],
+      "keywords": [
+        "Robotic",
+        "Perception",
+        "Systems",
+        "移动机器人环境感知与导航系统专家，覆盖LiDAR",
+        "相机"
       ]
     },
     {
@@ -160,30 +311,70 @@
       "path": "robotics/robotics-engineering-robotics-control-systems.md",
       "depends_on": [
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
+        "robotics-multi-agent-coordinator",
         "finance-engineering-credit-risk-model",
         "marketing-demand-generation",
         "robotics-engineering-industrial-robotics",
         "robotics-motion-control"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A robot is only as precise as its control loop — you write the algorithms that",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "robot",
+        "control",
+        "systems",
+        "Developed"
+      ],
+      "keywords": [
+        "机器人控制算法工程师",
+        "机器人控制理论与实时控制系统专家，覆盖反馈",
+        "前馈",
+        "自适应控制",
+        "阻抗混合控制"
       ]
     },
     {
       "id": "robotics-engineering-robotics-manipulation",
-      "name": "机器人操作/抓取工程师",
-      "description": "机器人灵巧操作与自主抓取专家，覆盖抓取规划(6D Pose Estimation)、夹爪/灵巧手设计、力触觉反馈、视觉伺服(Visual Servoing)与Bin Picking无序抓取",
+      "name": "Robotics Manipulation",
+      "description": "机器人灵巧操作与自主抓取专家，覆盖抓取规划(6D Pose Estimation)、夹爪/灵巧手设计、力触觉反馈、视觉伺服(Visual",
       "emoji": "🦾",
       "category": "robotics",
       "subcategory": "",
       "path": "robotics/robotics-engineering-robotics-manipulation.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "robotics-automation-engineer"
+        "data-science-engineering-deep-learning-training",
+        "project-management-jira-workflow-steward",
+        "robotics-automation-engineer",
+        "robotics-engineering-robotic-perception-systems",
+        "robotics-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Picking up an object is the hardest thing robots do — every object is different,",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "robot",
+        "manipulation",
+        "Built",
+        "systems"
+      ],
+      "keywords": [
+        "Robotics",
+        "Manipulation",
+        "机器人灵巧操作与自主抓取专家，覆盖抓取规划",
+        "6D",
+        "Pose"
       ]
     },
     {
@@ -204,6 +395,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The factory floor doesn't forgive — code that controls physical machinery must be correct the first time, every time",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "工业自动化专家",
+        "工业自动化与智能制造专家，覆盖PLC",
+        "DCS编程",
+        "SCADA系统",
+        "MES集成"
       ]
     },
     {
@@ -218,12 +427,31 @@
         "automotive-engineering-functional-safety",
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
+        "robotics-multi-agent-coordinator",
         "infrastructure-identity-access",
         "robotics-engineering-industrial-robotics"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A robot in a lab is a prototype; a robot on a production line making parts is",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "integrating",
+        "industrial",
+        "robots",
+        "Deployed"
+      ],
+      "keywords": [
+        "机器人系统集成工程师",
+        "机器人系统集成与应用部署专家，覆盖工业机器人工作站",
+        "产线集成",
+        "末端执行器",
+        "视觉"
       ]
     },
     {
@@ -235,11 +463,66 @@
       "subcategory": "",
       "path": "robotics/robotics-motion-control.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "manufacturing-multi-agent-coordinator",
+        "robotics-multi-agent-coordinator",
         "robotics-ros-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A robot arm that moves smoothly, precisely, and safely — that's kinematics,",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "robot",
+        "control",
+        "systems",
+        "Made"
+      ],
+      "keywords": [
+        "机器人运动控制工程师",
+        "机器人运动规划与控制专家，覆盖正逆运动学",
+        "动力学",
+        "轨迹规划",
+        "插补"
+      ]
+    },
+    {
+      "id": "robotics-multi-agent-coordinator",
+      "name": "Robotics Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for robotics — motion control, perception,",
+      "emoji": "🤖",
+      "category": "robotics",
+      "subcategory": "",
+      "path": "robotics/robotics-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating robotics specialists into coherent multi-agent workflows",
+      "tags": [
+        "robotics",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Robotics",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -253,12 +536,29 @@
       "depends_on": [
         "data-science-engineering-computer-vision-3d",
         "data-science-engineering-language-model-nlp",
-        "operations-report-distribution-agent",
         "robotics-automation-engineer",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A robot that can't perceive is blind — a robot that perceives wrongly is dangerous. Perception is not about seeing; it's about seeing correctly enough to act",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "感知系统工程师",
+        "机器人感知系统专家，覆盖计算机视觉",
+        "LiDAR点云处理",
+        "SLAM",
+        "多传感器融合与环境理解"
       ]
     },
     {
@@ -276,6 +576,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "ROS gives you the pipes — but filling them with intelligence that survives the real world is where the engineering begins",
+      "lifecycle": "published",
+      "tags": [
+        "robotics",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "ROS开发工程师",
+        "机器人操作系统",
+        "ROS",
+        "ROS2",
+        "开发专家，覆盖节点架构"
       ]
     }
   ]

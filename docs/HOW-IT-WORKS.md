@@ -2,7 +2,7 @@
 
 ## 一句话总结
 
-The Agency 是一个 **AI 人格库**——1400 个 `.md` 文件定义了"专家怎么思考"，实际干活的是 AI 工具（Claude Code 等）自带的代码读写/命令执行能力。
+The Agency 是一个 **AI 人格库**——1402 个 `.md` 文件定义了"专家怎么思考"，实际干活的是 AI 工具（Claude Code 等）自带的代码读写/命令执行能力。
 
 ---
 
@@ -139,7 +139,7 @@ python scripts/install.py --tool claude-code
 ├── engineering-frontend-developer.md    ← 17KB 的提示词文件
 ├── engineering-backend-architect.md
 ├── cybersecurity-penetration-tester.md
-└── ... (1397 more)
+└── ... (1399 more)
 ```
 
 对于 Claude Code，这些文件**不需要任何转换**（identity 格式），因为 Claude Code 原生就能读取 `.md` 作为 agent 定义。其他工具（Cursor、Windsurf 等）需要 `convert.py` 转换成各自格式。
@@ -179,7 +179,7 @@ python scripts/install.py --tool claude-code
   "version": 1.0,
   "generated": "2026-08-02",
   "total_categories": 62,
-  "total_agents": 1400,
+  "total_agents": 1402,
   "groupings": { },
   "agents": [
     {
@@ -232,7 +232,7 @@ AGENTS.json（索引层）
 ```
                     ┌─ identity ──→ Claude Code、Copilot（直接用 .md）
                     │
-1400 个 .md ──→ convert.py ──→ cursor-mdc ──→ Cursor 规则文件
+1402 个 .md ──→ convert.py ──→ cursor-mdc ──→ Cursor 规则文件
                     │
                     ├─ gemini-md ──→ Gemini CLI
                     ├─ windsurf-rules → Windsurf（合并为单文件）
@@ -259,7 +259,7 @@ CONVERTERS = {
 
 ## 质量保障体系
 
-1400 个 agent 靠自动化流水线维持质量：
+1402 个 agent 靠自动化流水线维持质量：
 
 ### 1. Lint（结构校验）
 
@@ -267,7 +267,7 @@ CONVERTERS = {
 python scripts/lint-agents.py --all
 ```
 
-检查每项：YAML 语法、必填字段、章节完整性、字数下限(100)、文件上限(50KB)、断链、CRLF 行尾。
+检查每项：YAML 语法、必填字段、章节完整性、字数下限(100)、文件上限(55KB 警告 / 80KB 错误)、断链、CRLF 行尾。
 
 ### 2. Score（质量评分）
 
@@ -319,7 +319,7 @@ v7 引擎（0-18 分制），采用 Gate + Score 分离架构：
 > **粗体** = 当前版本保留 &emsp; — = 已移除（该维度全员满分，不再有区分度）
 
 关键转折点：
-- **v5**：砍掉 structure/frontmatter/file_health（1400 个 agent 全部满分），加入跨分类引用和交付物规格
+- **v5**：砍掉 structure/frontmatter/file_health（1406 个 agent 全部满分），加入跨分类引用和交付物规格
 - **v7**：safeguards 和 output_spec 升格为门禁（不通过直接 D），因为这两项是底线不是加分项；新增约束意识、协作协议、边界案例三个维度
 - **v8 方向**：等 v7 某维度也全员满分时，砍掉换新的
 
@@ -345,7 +345,7 @@ git push → lint → validate-index → score gate → tests → build check
 
 ## 搜索与发现
 
-1400 个专家中如何快速找到需要的？
+1402 个专家中如何快速找到需要的？
 
 ```bash
 # 关键词搜索（AND 逻辑）
@@ -386,7 +386,7 @@ python scripts/install.py --tool claude-code --division cybersecurity
 python scripts/feedback.py --agent engineering-frontend-developer --rate 5
 ```
 
-**不需要每次都重装**。agent 安装一次，之后每次打开 Claude Code 都会自动可用。就像给工具箱里配齐了 1400 把专业工具，随时取用。
+**不需要每次都重装**。agent 安装一次，之后每次打开 Claude Code 都会自动可用。就像给工具箱里配齐了 1402 把专业工具，随时取用。
 
 ---
 

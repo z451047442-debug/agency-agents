@@ -266,7 +266,8 @@ class TestValidators:
         assert m is not None, "BROKEN_LINK_RE should match [name](file.md)"
         # For find_broken_links, use a non-existent path
         result = find_broken_links(body, __import__("pathlib").Path("fake.md"))
-        assert len(result) >= 0
+        # The linked file does not exist, so it must be flagged as broken
+        assert any("target not found" in reason for _link, reason in result)
 
     def test_find_broken_links_broken_link_re_matches(self):
         """Cover BROKEN_LINK_RE regex + find_broken_links entry path."""

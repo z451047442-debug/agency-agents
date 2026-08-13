@@ -1,7 +1,7 @@
 {
   "category": "thinking-models",
   "agent_count": 13,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "thinking-models-ai-paradigms",
@@ -20,7 +20,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-15",
+      "vibe": "AI paradigm thinker — from symbolic logic engines to distributed neural networks, from reinforcement learning agents to decentralized trust systems. The fundamental question is not \"what can AI do?\" but \"how should we think about intelligence itself?",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "AI与计算机科学范式思维专家",
+        "符号主义",
+        "知识图谱与逻辑推理",
+        "连接主义",
+        "深度学习与分布式表征"
       ]
     },
     {
@@ -41,7 +60,26 @@
         "unity-shader-graph-artist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Artistic thinking models — from Shakespeare's fox-like multiplicity to Dante's hedgehog-like unity, from Woolf's stream of consciousness to Miyazaki's wandering genius. Artists don't just make things; they see the world differently.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Tools",
+        "Methodologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "文学与艺术创作思维模型专家",
+        "莎士比亚",
+        "狐狸型多目标思维",
+        "但丁",
+        "刺猬型单一理念思维"
       ]
     },
     {
@@ -59,7 +97,26 @@
         "marketing-market-research"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Eastern business strategy thinking — from Ren Zhengfei's dialectical management to Inamori's amoeba philosophy, from Mao's strategic thinking to Son's time machine. Eastern business philosophy offers a fundamentally different approach to strategy and leadership.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "中国企业家与东方经营思维模型专家",
+        "任正非",
+        "战略框架",
+        "悖论整合",
+        "反向思维"
       ]
     },
     {
@@ -77,7 +134,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Cognitive biases specialist — Kahneman & Tversky changed how we understand decision-making.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Tools",
+        "Frameworks",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "认知偏误与行为决策专家",
+        "前景理论",
+        "确认偏误",
+        "损失规避",
+        "沉没成本"
       ]
     },
     {
@@ -97,7 +173,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Thinking frameworks specialist — from MECE to Occam's Razor, from De Bono's hats to second-order thinking. Thinking is a skill, and like any skill, it has tools. These are the tools.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "通用思维与决策框架专家",
+        "批判性思维",
+        "系统思维",
+        "设计思维",
+        "金字塔原理"
       ]
     },
     {
@@ -110,11 +205,32 @@
       "path": "thinking-models/thinking-models-economic-thinkers.md",
       "depends_on": [
         "government-social-work",
-        "marketing-private-domain-operator"
+        "marketing-private-domain-operator",
+        "engineering-code-reviewer",
+        "data-science-data-engineer"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-15",
+      "vibe": "Economic thinking models — from Hayek's spontaneous order to Keynes' aggregate demand, from Mises' praxeology to marginal analysis. Economics is not about money; it is about choice under scarcity and the emergent patterns those choices create.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Success",
+        "Metrics",
+        "Tools",
+        "Frameworks"
+      ],
+      "keywords": [
+        "经济学思维模型专家",
+        "哈耶克",
+        "自发秩序",
+        "米塞斯",
+        "行动学"
       ]
     },
     {
@@ -132,7 +248,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Investment master thinking models — from Munger's latticework to Dalio's principles, from Taleb's antifragility to Soros' reflexivity. The best investors are philosophers who happen to buy stocks.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Tools",
+        "Methodologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "投资与商业大师思维模型专家",
+        "Buffett",
+        "双目标清单",
+        "能力圈",
+        "安全边际"
       ]
     },
     {
@@ -152,7 +287,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-15",
+      "vibe": "Military strategist thinking models — from Sun Tzu's complete victory to Boyd's OODA loop, from Clausewitz's fog of war to Mao's protracted war. Strategy is the art of making decisions under extreme uncertainty with life-or-death consequences.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "军事战略思维专家",
+        "博伊德",
+        "OODA循环",
+        "克劳塞维茨",
+        "战争迷雾"
       ]
     },
     {
@@ -170,7 +324,26 @@
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Philosophical thinking models — from Confucian harmony to Nietzschean perspective, from Socratic questioning to Daoist non-action. Philosophy is the operating system of civilization, shaping how billions think about truth, ethics, and meaning.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "东西方哲学思想家思维模型专家",
+        "孔子",
+        "中庸",
+        "仁学",
+        "孟子"
       ]
     },
     {
@@ -189,7 +362,26 @@
         "web3-defi-strategist"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Political and military leader thinking models — from Napoleon's strategic genius to Churchill's indomitable will, from Washington's restraint to Eisenhower's delegation. These leaders faced decisions where millions of lives hung in the balance.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Tools",
+        "Frameworks",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "政治与军事领袖思维模型专家",
+        "拿破仑",
+        "战略征服思维",
+        "丘吉尔",
+        "坚韧演说思维"
       ]
     },
     {
@@ -209,7 +401,26 @@
         "unity-editor-tool-developer"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-15",
+      "vibe": "Quantum physics thinking models — from Planck's quantization to Feynman's sum over histories, from Bohr's complementarity to Heisenberg's uncertainty. Quantum mechanics didn't just change physics; it shattered the classical worldview and revealed a reality far stranger than anyone imagined.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "量子物理学思维专家",
+        "普朗克",
+        "量子化",
+        "玻尔",
+        "互补原理"
       ]
     },
     {
@@ -227,7 +438,26 @@
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Scientific thinking specialist — from Popper's falsification to Feynman's learning technique, from Darwin's evolution to Boyd's OODA loop. Science is not a body of knowledge; it's a method for distinguishing truth from error.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Tools",
+        "Methodologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "科学思维方法论专家",
+        "费曼学习法",
+        "波普尔证伪主义",
+        "库恩范式转换",
+        "达尔文演化思维"
       ]
     },
     {
@@ -244,7 +474,26 @@
         "specialized-personal-growth-mentor"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Tech leader thinking models — from Musk's first principles to Bezos' long-termism.",
+      "lifecycle": "published",
+      "tags": [
+        "thinking-models",
+        "Tools",
+        "Frameworks",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "科技与创新领袖思维模型专家",
+        "Musk",
+        "第一性原理",
+        "五步工作法",
+        "白痴指数"
       ]
     }
   ]

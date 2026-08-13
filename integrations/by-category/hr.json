@@ -1,7 +1,7 @@
 {
   "category": "hr",
-  "agent_count": 15,
-  "generated": "2026-07-16",
+  "agent_count": 22,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "hr-business-partner",
@@ -17,6 +17,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The business doesn't need HR policies — it needs people solutions. You sit at the business table, understand the strategy, and translate it into talent, culture, and organization.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "HR业务伙伴",
+        "HRBP",
+        "人力资源业务伙伴，作为业务单元的战略HR搭档，覆盖组织诊断",
+        "人才盘点",
+        "变革管理"
       ]
     },
     {
@@ -34,7 +52,26 @@
         "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Pay is the loudest statement an organization makes about what it values — you",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "薪酬福利专家",
+        "薪酬福利与激励设计专家，覆盖薪酬架构",
+        "岗位评估",
+        "短期",
+        "长期激励"
       ]
     },
     {
@@ -46,7 +83,6 @@
       "subcategory": "",
       "path": "hr/hr-corporate-training-designer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-deep-learning-training",
         "design-engineering-user-research-system",
         "education-online-learning-designer",
@@ -58,6 +94,24 @@
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs training programs that drive real behavior change — from needs analysis to Kirkpatrick Level 3 evaluation — because good training is measured by what learners do, not what instructors say.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "References",
+        "Standards",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "企业培训设计师",
+        "企业培训",
+        "课程开发与学习系统设计专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -69,12 +123,31 @@
       "subcategory": "",
       "path": "hr/hr-director.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "hr-employee-relations",
+        "hr-multi-agent-coordinator",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every company says \"people are our greatest asset\" — you're the one who actually",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "leadership",
+        "built",
+        "functions",
+        "administrative"
+      ],
+      "keywords": [
+        "人力资源总监",
+        "CHRO",
+        "人力资源最高负责人，覆盖人才战略",
+        "组织设计",
+        "薪酬福利"
       ]
     },
     {
@@ -91,7 +164,26 @@
         "legal-engineering-legal-document-automation"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Most employment relationships end well; the ones that don't keep you up at night.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "员工关系",
+        "ER",
+        "专家",
+        "员工关系与劳动关系专家，覆盖员工投诉",
+        "纠纷处理"
       ]
     },
     {
@@ -112,6 +204,24 @@
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Payroll runs on time, benefits enroll without error, and the org chart reflects reality — because you designed the system that makes it all work",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "HRIS",
+        "人力资源信息系统专家",
+        "人力资源信息系统",
+        "与HR数字化转型专家，覆盖SAP",
+        "SuccessFactors"
       ]
     },
     {
@@ -123,14 +233,66 @@
       "subcategory": "",
       "path": "hr/hr-labor-relations.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
         "environmental-engineering-climate-tech",
         "hr-employee-relations",
+        "hr-multi-agent-coordinator",
         "infrastructure-identity-access"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When management and workers find common ground, the company thrives. You build",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "labor",
+        "relations",
+        "Navigated",
+        "union"
+      ],
+      "keywords": [
+        "劳动关系",
+        "工会关系专家",
+        "企业劳动关系与集体协商专家，覆盖工会",
+        "职工代表制度建设",
+        "集体合同"
+      ]
+    },
+    {
+      "id": "hr-multi-agent-coordinator",
+      "name": "HR Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for HR — recruitment, people analytics,",
+      "emoji": "👥",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating hr specialists into coherent multi-agent workflows",
+      "tags": [
+        "hr",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "HR",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -149,6 +311,24 @@
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The first 90 days determine whether a new hire becomes a long-term contributor or a regrettable turnover. Get it right from day one.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "HR",
+        "入职专员",
+        "全面的",
+        "入职专家，负责员工入职引导",
+        "文档管理"
       ]
     },
     {
@@ -161,11 +341,29 @@
       "path": "hr/hr-organization-development.md",
       "depends_on": [
         "hr-employee-relations",
-        "hr-labor-relations",
-        "operations-report-distribution-agent"
+        "hr-labor-relations"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Organizations don't change because you tell them to — they change when the systems,",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "组织发展专家",
+        "组织发展与变革管理专家，覆盖组织诊断",
+        "文化建设",
+        "领导力发展",
+        "人才梯队"
       ]
     },
     {
@@ -177,7 +375,6 @@
       "subcategory": "",
       "path": "hr/hr-people-analytics.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-customer-data-science",
         "data-science-engineering-language-model-nlp",
@@ -190,6 +387,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Gut feelings hire people; data builds the workforce. You replace \"I think our turnover problem is compensation\" with \"our exit survey data shows top performers leave because of lack of growth, not pay.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "People",
+        "Analytics与人力资源数据分析",
+        "人力资源数据分析专家，覆盖离职预测",
+        "流失分析",
+        "招聘漏斗"
       ]
     },
     {
@@ -201,15 +416,30 @@
       "subcategory": "",
       "path": "hr/hr-performance-management.md",
       "depends_on": [
-        "cybersecurity-engineering-cyber-risk-model",
-        "data-science-engineering-language-model-nlp",
-        "finance-engineering-credit-risk-model",
-        "finance-engineering-risk-quant",
-        "legal-engineering-legal-document-automation",
-        "operations-report-distribution-agent"
+        "hr-business-partner",
+        "hr-director",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Everyone wants a fair performance system, but designing one that actually measures contribution, motivates improvement, and resists gaming — that's the art you've mastered",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "绩效管理专家",
+        "绩效管理体系设计专家，覆盖OKR",
+        "KPI",
+        "平衡计分卡",
+        "绩效评估"
       ]
     },
     {
@@ -222,12 +452,30 @@
       "path": "hr/hr-recruitment-specialist.md",
       "depends_on": [
         "data-science-engineering-deep-learning-training",
-        "operations-report-distribution-agent",
         "specialized-personal-growth-mentor"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds your full-cycle recruiting engine across China's hiring platforms, from",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Interview",
+        "Process",
+        "Design",
+        "Campus"
+      ],
+      "keywords": [
+        "招聘专家",
+        "人才获取",
+        "招聘运营与雇主品牌专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -239,13 +487,265 @@
       "subcategory": "",
       "path": "hr/hr-talent-acquisition-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
+        "hr-multi-agent-coordinator",
         "hr-recruitment-specialist"
       ],
       "nexus_roles": [
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Hiring is the most important thing a company does — every person you hire shapes",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "leading",
+        "recruiting",
+        "teams",
+        "Built"
+      ],
+      "keywords": [
+        "招聘",
+        "人才获取",
+        "TA",
+        "经理",
+        "企业招聘与人才获取团队管理者，覆盖招聘策略"
+      ]
+    },
+    {
+      "id": "hr-tech-director",
+      "name": "HR科技总监",
+      "description": "HR科技领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "🤖",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-tech-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 人力资源科技 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "HR科技总监",
+        "HR科技领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
+      ]
+    },
+    {
+      "id": "hr-tech-general-manager",
+      "name": "HR科技总经理",
+      "description": "HR科技领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "🤖",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-tech-general-manager.md",
+      "depends_on": [
+        "government-general-manager",
+        "hr-tech-director",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "cybersecurity-general-manager",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "HR科技总经理",
+        "HR科技领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
+      ]
+    },
+    {
+      "id": "hr-tech-hrtech-ats-specialist",
+      "name": "ATS实施顾问",
+      "description": "申请人跟踪系统(ATS)实施顾问，覆盖ATS选型评估与RFP撰写、系统配置与业务流程映射、招聘流程优化与自动化规则设计、HRIS/薪资系统集成对接、EEO/OFCCP/GDPR招聘合规配置",
+      "emoji": "🔧",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-tech-hrtech-ats-specialist.md",
+      "depends_on": [
+        "design-engineering-human-factors",
+        "gis-drone-reality-mapping",
+        "hr-tech-hrtech-ex-designer",
+        "legal-engineering-legal-document-automation",
+        "logistics-engineering-supply-chain-risk",
+        "spatial-computing-engineering-virtual-reality",
+        "web3-engineering-smart-contract-security",
+        "web3-smart-contract-dev"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A great ATS doesn't just track applicants — it removes friction from every step of hiring. You configure systems that automate the administrative, enforce the compliant, and surface the signal, so recruiters can spend their time with candidates, not spreadsheets.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Deliverable",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "ATS实施顾问",
+        "申请人跟踪系统",
+        "ATS",
+        "实施顾问，覆盖ATS选型评估与RFP撰写",
+        "系统配置与业务流程映射"
+      ]
+    },
+    {
+      "id": "hr-tech-hrtech-ex-designer",
+      "name": "员工体验设计师",
+      "description": "员工体验设计专家，覆盖员工旅程地图绘制（入职到退休全周期）、EX策略与关键时刻设计、员工倾听系统与持续反馈机制、物理与数字办公场所体验设计、EX度量体系与投资回报追踪",
+      "emoji": "🌟",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-tech-hrtech-ex-designer.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "gis-drone-reality-mapping",
+        "hr-tech-hrtech-ats-specialist",
+        "marketing-customer-lifecycle",
+        "robotics-motion-control",
+        "sales-customer-onboarding",
+        "testing-engineering-test-automation-framework",
+        "thinking-models-tech-leaders"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Employees don't experience HR programs — they experience moments. You design those moments across the entire hire-to-retire journey, applying design thinking to create a workplace where people feel heard, supported, and able to do their best work.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "员工体验设计师",
+        "员工体验设计专家，覆盖员工旅程地图绘制（入职到退休全周期）",
+        "EX策略与关键时刻设计",
+        "员工倾听系统与持续反馈机制",
+        "物理与数字办公场所体验设计"
+      ]
+    },
+    {
+      "id": "hr-tech-hrtech-people-analytics",
+      "name": "人力分析科学家",
+      "description": "人力分析科学家，覆盖人力数据建模与预测分析、员工生命周期分析（招聘-入职-发展-离职）、员工敬业度调查设计与因子分析、组织网络分析(ONA)与关系图谱、薪酬公平性与薪酬差距分析",
+      "emoji": "📊",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-tech-hrtech-people-analytics.md",
+      "depends_on": [
+        "design-engineering-human-factors",
+        "education-academic-research-scientist",
+        "marketing-customer-lifecycle",
+        "operations-executive-summary-generator",
+        "robotics-motion-control"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Gut feelings hire people; data builds the workforce. You replace \"I think our turnover problem is compensation\" with statistical evidence, predictive models, and actionable insights that transform how organizations understand and manage their talent.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Real-World",
+        "Scenarios",
+        "Actionable",
+        "Directives"
+      ],
+      "keywords": [
+        "人力分析科学家",
+        "人力分析科学家，覆盖人力数据建模与预测分析",
+        "员工生命周期分析（招聘-入职-发展-离职）",
+        "员工敬业度调查设计与因子分析",
+        "组织网络分析"
+      ]
+    },
+    {
+      "id": "hr-tech-people-analytics",
+      "name": "人力分析专家",
+      "description": "人力数据分析与建模、员工生命周期分析、敬业度调查与因子分析、组织网络分析(ONA)、薪酬公平性分析、人才预测与劳动力规划专家",
+      "emoji": "📊",
+      "category": "hr",
+      "subcategory": "",
+      "path": "hr/hr-tech-people-analytics.md",
+      "depends_on": [
+        "logistics-engineering-supply-chain-analytics",
+        "logistics-engineering-supply-chain-risk",
+        "specialized-agentic-identity-trust",
+        "thinking-models-tech-leaders"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "People analytics specialist — from attrition prediction to organizational network analysis, from pay equity audits to workforce planning. HR decisions backed by data beat gut feelings every time.",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "人力分析专家",
+        "人力数据分析与建模",
+        "员工生命周期分析",
+        "敬业度调查与因子分析",
+        "组织网络分析"
       ]
     },
     {
@@ -260,12 +760,31 @@
         "cybersecurity-engineering-cyber-risk-model",
         "education-assessment-specialist",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-credit-risk-model",
-        "hr-business-partner"
+        "hr-business-partner",
+        "hr-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Headcount is the largest expense in most companies — you plan how many people,",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "workforce",
+        "planning",
+        "strategy",
+        "Built"
+      ],
+      "keywords": [
+        "人力规划",
+        "编制管理专家",
+        "企业人力编制与劳动力规划专家，覆盖战略人力规划",
+        "3-5年",
+        "编制预算"
       ]
     },
     {
@@ -280,12 +799,31 @@
         "education-assessment-specialist",
         "education-physical-anthropology",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "healthcare-mental-health",
-        "hr-business-partner"
+        "hr-business-partner",
+        "hr-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Burnout costs companies more than turnover — it costs creativity, engagement,",
+      "lifecycle": "published",
+      "tags": [
+        "hr",
+        "workplace",
+        "wellness",
+        "Built",
+        "programs"
+      ],
+      "keywords": [
+        "员工健康与福利",
+        "EAP",
+        "专家",
+        "企业员工健康管理与员工援助计划",
+        "专家，覆盖心理健康支持"
       ]
     }
   ]

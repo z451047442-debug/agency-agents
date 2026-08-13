@@ -1,7 +1,7 @@
 {
   "category": "marketing",
-  "agent_count": 84,
-  "generated": "2026-07-16",
+  "agent_count": 86,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "marketing-abm-account-based",
@@ -13,12 +13,31 @@
       "path": "marketing/marketing-abm-account-based.md",
       "depends_on": [
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "marketing-market-research"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Stop marketing to everyone and start marketing to the 50 accounts that will",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "account-based",
+        "Built",
+        "programs",
+        "generating"
+      ],
+      "keywords": [
+        "基于客户的营销",
+        "ABM",
+        "经理",
+        "B2B大客户ABM营销策略专家，覆盖1",
+        "Many"
       ]
     },
     {
@@ -39,6 +58,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Throwing budget at every channel isn't strategy — it's gambling. Real ad strategy means knowing which channel creates demand, which captures it, and which closes it — then allocating every dollar accordingly.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Deliverable",
+        "Strategist",
+        "Zhanlüe",
+        "Date"
+      ],
+      "keywords": [
+        "广告投放策略师",
+        "全渠道广告策略与投放架构专家",
+        "覆盖品牌-效果投放矩阵设计",
+        "渠道组合与预算分配",
+        "搜索"
       ]
     },
     {
@@ -59,6 +96,22 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The foundation layer everyone skips — making sure AI systems can actually discover, read, and use your content before you worry about rankings, citations, or task completion",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Date",
+        "YYYY-MM-DD",
+        "Pages"
+      ],
+      "keywords": [
+        "AEO基础架构师",
+        "AI引擎优化基础设施专家，实现llms.txt",
+        "AI感知robots.txt与结构化内容"
       ]
     },
     {
@@ -70,13 +123,31 @@
       "subcategory": "",
       "path": "marketing/marketing-affiliate-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "finance-engineering-risk-quant",
         "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Why pay for ads when you can pay for performance? You build a network of partners",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "affiliate",
+        "partner",
+        "Built",
+        "networks"
+      ],
+      "keywords": [
+        "联盟",
+        "渠道营销经理",
+        "联盟营销与渠道合作伙伴管理专家，覆盖联盟网络",
+        "CJ",
+        "Impact"
       ]
     },
     {
@@ -90,10 +161,29 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-paid-media-paid-social-strategist",
-        "marketing-social-media-strategist"
+        "marketing-social-media-strategist",
+        "finance-engineering-credit-risk-model"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Navigates Africa's mobile-first, trust-driven, infrastructure-leapfrogging consumer markets with deep understanding of M-Pesa ecosystems, informal retail networks, and the continent's unprecedented demographic opportunity.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "非洲市场专家",
+        "非洲市场进入",
+        "移动支付M-Pesa体系",
+        "尼日利亚",
+        "肯尼亚"
       ]
     },
     {
@@ -105,13 +195,32 @@
       "subcategory": "",
       "path": "marketing/marketing-agentic-search-optimizer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "marketing-ai-citation-strategist",
         "specialized-identity-graph-operator",
-        "specialized-workflow-architect"
+        "specialized-workflow-architect",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "While everyone else is optimizing to get cited by AI, this agent makes sure",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "WebMCP",
+        "Readiness",
+        "Scorecard"
+      ],
+      "keywords": [
+        "智能搜索优化师",
+        "WebMCP",
+        "就绪与智能体任务完成审计专家",
+        "验证",
+        "AI"
       ]
     },
     {
@@ -132,7 +241,26 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-2-foundation",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Figures out why the AI recommends your competitor and rewires the signals so",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Citation",
+        "Audit",
+        "Scorecard",
+        "Date"
+      ],
+      "keywords": [
+        "AI",
+        "引用策略师",
+        "AEO",
+        "GEO",
+        "推荐可见度与引用审计专家"
       ]
     },
     {
@@ -146,15 +274,34 @@
       "depends_on": [
         "data-science-engineering-language-model-nlp",
         "data-science-engineering-video-analytics",
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-credit-risk-model",
         "government-public-safety-analyst",
         "marketing-paid-media-paid-social-strategist",
-        "marketing-paid-media-search-query-analyst"
+        "marketing-paid-media-search-query-analyst",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Half the money spent on marketing is wasted — you just don't know which half.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "营销数据分析师",
+        "营销数据分析与归因专家，覆盖多渠道归因",
+        "MMM",
+        "MTA",
+        "LTV"
       ]
     },
     {
@@ -170,6 +317,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Gets your app found, downloaded, and loved in the store.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Keyword",
+        "Research",
+        "Analysis"
+      ],
+      "keywords": [
+        "应用商店优化专家",
+        "ASO",
+        "转化率优化与应用曝光专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -187,6 +352,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The App Store search bar is the most expensive real estate on iOS. ASA turns it from a cost center into a precision acquisition machine — when you know exactly which keywords your users search before they download.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Deliverable",
+        "Auditor",
+        "Wang",
+        "Pingguo"
+      ],
+      "keywords": [
+        "ASA优化师",
+        "Apple",
+        "Search",
+        "Ads优化专家",
+        "覆盖ASA基础"
       ]
     },
     {
@@ -200,10 +383,29 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-paid-media-creative-strategist",
-        "marketing-paid-media-auditor"
+        "marketing-paid-media-auditor",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Marketing at scale isn't more people — it's smarter automation. You orchestrate the journeys, score the leads, and make every customer feel like the only customer.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "营销自动化",
+        "MA",
+        "专家",
+        "营销自动化平台与Martech专家，覆盖HubSpot",
+        "Marketo"
       ]
     },
     {
@@ -226,6 +428,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Masters Baidu's algorithm so your brand ranks in China's search ecosystem.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Compliance",
+        "Foundation",
+        "Content"
+      ],
+      "keywords": [
+        "百度",
+        "SEO",
+        "专家",
+        "百度优化",
+        "中国"
       ]
     },
     {
@@ -243,13 +463,31 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Speaks fluent danmaku and grows your brand on B站.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Account",
+        "Positioning",
+        "Content"
+      ],
+      "keywords": [
+        "Bilibili",
+        "内容策略师",
+        "Expert",
+        "marketing",
+        "specialist"
       ]
     },
     {
       "id": "marketing-book-co-author",
       "name": "图书联合作者",
       "description": "思想领导力书籍、代笔写作与出版策略专家",
-      "emoji": "\"📘\"",
+      "emoji": "📘",
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-book-co-author.md",
@@ -262,6 +500,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns rough expertise into a recognizable book people can quote, remember, and buy into.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Chapter",
+        "Promise",
+        "Section"
+      ],
+      "keywords": [
+        "图书联合作者",
+        "思想领导力书籍",
+        "代笔写作与出版策略专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -279,6 +535,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The difference between a company and a brand is a story people tell themselves — and you write that story.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "品牌策略师",
+        "品牌定位",
+        "品牌架构",
+        "品牌重命名与品牌资产测量专家",
+        "核心信念"
       ]
     },
     {
@@ -292,12 +566,31 @@
       "depends_on": [
         "marketing-social-media-strategist",
         "marketing-paid-media-creative-strategist",
-        "marketing-brand-strategist"
+        "marketing-brand-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A great name is the shortest story you'll ever tell about your brand — you find the one word, in every language, that captures the essence and won't get you sued",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "brand",
+        "naming",
+        "verbal",
+        "Named"
+      ],
+      "keywords": [
+        "品牌命名",
+        "语言策略师",
+        "品牌命名与语言识别专家，覆盖品牌",
+        "产品",
+        "服务命名策略"
       ]
     },
     {
@@ -311,10 +604,29 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-social-media-strategist",
-        "marketing-paid-media-creative-strategist"
+        "marketing-paid-media-creative-strategist",
+        "finance-engineering-credit-risk-model"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Autonomously generates viral carousels from any URL and publishes them to feed.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Tool",
+        "Stack",
+        "APIs",
+        "Technical"
+      ],
+      "keywords": [
+        "轮播图增长引擎",
+        "TikTok",
+        "Instagram",
+        "轮播图创作与自动发布专家",
+        "Core"
       ]
     },
     {
@@ -332,7 +644,26 @@
         "marketing-short-video-editing-coach"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Runs your Taobao, Tmall, Pinduoduo, and JD storefronts like a native operator.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Platform",
+        "Overview",
+        "Traffic"
+      ],
+      "keywords": [
+        "中国电商运营专家",
+        "淘宝",
+        "天猫",
+        "拼多多与直播电商运营专家",
+        "Role"
       ]
     },
     {
@@ -352,7 +683,26 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns China's chaotic trend landscape into a precision-guided marketing machine",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Signal",
+        "Dashboard",
+        "Dual-Track"
+      ],
+      "keywords": [
+        "中国市场本地化策略师",
+        "全栈中国市场本地化专家，将实时趋势信号转化为可执行的",
+        "GTM",
+        "策略，覆盖抖音",
+        "小红书"
       ]
     },
     {
@@ -364,12 +714,33 @@
       "subcategory": "",
       "path": "marketing/marketing-community-manager.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "data-science-engineering-deep-learning-training",
         "marketing-bilibili-content-strategist",
-        "marketing-kuaishou-strategist"
+        "marketing-kuaishou-strategist",
+        "marketing-multi-agent-coordinator",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A community isn't an audience — it's a group of people who care about each other",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "building",
+        "managing",
+        "online",
+        "communities"
+      ],
+      "keywords": [
+        "社群",
+        "社区运营经理",
+        "在线社群与用户社区运营专家，覆盖Discord",
+        "Slack",
+        "微信群"
       ]
     },
     {
@@ -386,7 +757,26 @@
         "marketing-paid-media-search-query-analyst"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Crafts compelling stories across every platform your audience lives on.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "内容创作者",
+        "多平台内容策略",
+        "编辑日历与文案专家",
+        "Role",
+        "Memory"
       ]
     },
     {
@@ -400,12 +790,31 @@
       "depends_on": [
         "marketing-paid-media-paid-social-strategist",
         "marketing-paid-media-search-query-analyst",
-        "marketing-social-media-strategist"
+        "marketing-social-media-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Content marketing isn't blogging — it's building an audience through valuable information that earns attention instead of buying it. You design the strategy that makes content an asset, not an expense.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "内容策略师",
+        "品牌内容与编辑策略专家，覆盖内容战略",
+        "编辑日历规划",
+        "SEO驱动型内容",
+        "内容支柱"
       ]
     },
     {
@@ -417,12 +826,30 @@
       "subcategory": "",
       "path": "marketing/marketing-conversion-copywriter.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Words sell. Every headline, every CTA, every email subject line either moves",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "direct",
+        "response",
+        "conversion",
+        "copywriting"
+      ],
+      "keywords": [
+        "转化文案",
+        "销售文案专家",
+        "直接反应与转化导向文案撰写专家，覆盖销售页",
+        "Landing",
+        "Page文案"
       ]
     },
     {
@@ -435,13 +862,32 @@
       "path": "marketing/marketing-creative-director.md",
       "depends_on": [
         "data-science-engineering-computer-vision-deep",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "marketing-abm-account-based",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A great creative idea can do more for a brand in 30 seconds than a media budget",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "creative",
+        "leadership",
+        "Created",
+        "award-winning"
+      ],
+      "keywords": [
+        "创意总监",
+        "Creative",
+        "Director",
+        "广告",
+        "品牌创意方向最高负责人，覆盖品牌创意策略"
       ]
     },
     {
@@ -453,10 +899,29 @@
       "subcategory": "",
       "path": "marketing/marketing-crm-community-expert.md",
       "depends_on": [
-        "marketing-customer-lifecycle"
+        "marketing-customer-lifecycle",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns one-time buyers into lifelong fans — the difference between a transaction and a relationship is community.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "会员",
+        "社群运营专家",
+        "CRM",
+        "体系设计",
+        "忠诚度计划"
       ]
     },
     {
@@ -468,12 +933,29 @@
       "subcategory": "",
       "path": "marketing/marketing-cro.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "marketing-abm-account-based",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You don't need more traffic — you need to convert more of the traffic you already have. Every 1% lift in conversion compounds across every visitor, forever.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "转化率优化",
+        "CRO",
+        "专家",
+        "转化率优化专家，覆盖落地页优化",
+        "B测试策略"
       ]
     },
     {
@@ -490,7 +972,26 @@
         "logistics-supply-chain-strategist"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Takes your products from Chinese factories to global bestseller lists.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Market",
+        "Dimension",
+        "Margin"
+      ],
+      "keywords": [
+        "跨境电商专家",
+        "亚马逊",
+        "Shopee",
+        "Lazada",
+        "与跨境履约全链路专家"
       ]
     },
     {
@@ -502,32 +1003,68 @@
       "subcategory": "",
       "path": "marketing/marketing-customer-advocacy.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-risk-quant",
         "legal-engineering-legal-document-automation",
-        "marketing-director"
+        "marketing-director",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your happiest customers are your best salespeople — you capture their stories,",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "customer",
+        "advocacy",
+        "reference",
+        "programs"
+      ],
+      "keywords": [
+        "客户倡导",
+        "参考案例经理",
+        "B2B客户倡导与营销案例管理专家，覆盖客户成功案例",
+        "Success",
+        "Story"
       ]
     },
     {
       "id": "marketing-customer-data-platform",
       "name": "CDP/客户数据平台专家",
-      "description": "客户数据平台(CDP)与营销数据架构专家，覆盖Segment/mParticle/Tealium CDP实施、客户身份拼接/360°画像、实时受众/分群与多渠道激活(Audience Activation)",
+      "description": "客户数据平台(CDP)与营销数据架构专家，覆盖Segment/mParticle/Tealium CDP实施、客户身份拼接/360°画像、实时受众/分群与多渠道激活(Audience",
       "emoji": "🗂️",
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-customer-data-platform.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "marketing-kuaishou-strategist"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every touchpoint generates data — but it's scattered across a dozen systems.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "customer",
+        "data",
+        "platforms",
+        "architecture"
+      ],
+      "keywords": [
+        "CDP",
+        "客户数据平台专家",
+        "客户数据平台",
+        "与营销数据架构专家，覆盖Segment",
+        "mParticle"
       ]
     },
     {
@@ -539,13 +1076,31 @@
       "subcategory": "",
       "path": "marketing/marketing-customer-lifecycle.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "marketing-kuaishou-strategist",
         "sales-customer-onboarding"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Acquiring a customer costs 5x more than keeping one — you design the campaigns",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "lifecycle",
+        "Built",
+        "programs",
+        "increased"
+      ],
+      "keywords": [
+        "客户生命周期营销专家",
+        "客户生命周期与CRM营销专家，覆盖客户旅程编排",
+        "个性化",
+        "RFM分层",
+        "精准营销"
       ]
     },
     {
@@ -557,11 +1112,32 @@
       "subcategory": "",
       "path": "marketing/marketing-demand-generation.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "marketing-email-marketing"
+        "data-science-engineering-deep-learning-training",
+        "infrastructure-engineering-container-orchestrator",
+        "marketing-email-marketing",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Demand generation isn't about getting leads — it's about creating demand that",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "demand",
+        "generation",
+        "Built",
+        "programs"
+      ],
+      "keywords": [
+        "需求生成",
+        "Demand",
+        "Gen",
+        "经理",
+        "B2B需求生成与线索孵化专家，覆盖多渠道获客策略"
       ]
     },
     {
@@ -573,15 +1149,33 @@
       "subcategory": "",
       "path": "marketing/marketing-director.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "marketing-bilibili-content-strategist",
         "marketing-kuaishou-strategist",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Half the marketing budget is wasted — you just don't know which half. Your job",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "leadership",
+        "across",
+        "built",
+        "brands"
+      ],
+      "keywords": [
+        "市场营销总监",
+        "CMO",
+        "市场营销最高负责人，覆盖品牌",
+        "增长",
+        "内容"
       ]
     },
     {
@@ -595,12 +1189,31 @@
       "depends_on": [
         "marketing-paid-media-creative-strategist",
         "marketing-china-market-localization-strategist",
-        "marketing-paid-media-search-query-analyst"
+        "marketing-paid-media-search-query-analyst",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Masters the Douyin algorithm so your short videos actually get seen.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "抖音运营策略师",
+        "抖音平台",
+        "短视频营销与算法增长专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -614,10 +1227,29 @@
       "depends_on": [
         "marketing-social-media-strategist",
         "marketing-paid-media-creative-strategist",
-        "marketing-email-strategist"
+        "marketing-email-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Email is 40 years old and still has the highest ROI of any marketing channel — you make sure every send earns its place in the inbox, not the spam folder",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "邮件营销专家",
+        "邮件营销与自动化专家，覆盖EDM策略",
+        "邮件序列设计",
+        "B测试",
+        "送达率优化"
       ]
     },
     {
@@ -631,12 +1263,31 @@
       "depends_on": [
         "marketing-email-marketing",
         "marketing-paid-media-ppc-strategist",
-        "marketing-bilibili-content-strategist"
+        "marketing-bilibili-content-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns a messy contact list into a segmented, automated revenue engine that sends the right message at the right time.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Sequence",
+        "Name",
+        "Design"
+      ],
+      "keywords": [
+        "邮件营销策略师",
+        "CRM驱动的邮件营销专家，覆盖生命周期自动化",
+        "分群架构与送达率优化",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -657,22 +1308,61 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A healthy community isn't the loudest one. It's the one where newcomers become contributors, and contributors become maintainers.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Expertise",
+        "Approach",
+        "Output",
+        "Lines"
+      ],
+      "keywords": [
+        "社区管理",
+        "开发者社区运营",
+        "Discord",
+        "论坛管理",
+        "活动策划与生态增长专家"
       ]
     },
     {
       "id": "marketing-engineering-seo-technical",
       "name": "技术SEO/搜索引擎工程师",
-      "description": "技术SEO与搜索引擎优化工程专家，覆盖网站架构/爬虫优化(Crawl Budget)、Core Web Vitals/Page Experience、结构化数据(Schema.org/JSON-LD)、JavaScript SEO与SERP特性(Featured Snippet)",
+      "description": "技术SEO与搜索引擎优化工程专家，覆盖网站架构/爬虫优化(Crawl Budget)、Core Web Vitals/Page Experience、结构化数据(Schema.org/JSON-LD)、JavaScript",
       "emoji": "🔍",
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-engineering-seo-technical.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "marketing-inbound-strategist"
+        "data-science-engineering-deep-learning-training",
+        "infrastructure-engineering-container-orchestrator",
+        "marketing-inbound-strategist",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Search engines are the front door to the internet — you make sure they can find,",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "technical",
+        "Optimized",
+        "sites",
+        "ranking"
+      ],
+      "keywords": [
+        "技术SEO",
+        "搜索引擎工程师",
+        "技术SEO与搜索引擎优化工程专家，覆盖网站架构",
+        "爬虫优化",
+        "Crawl"
       ]
     },
     {
@@ -683,11 +1373,26 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-europe-market.md",
-      "depends_on": [
-        "cybersecurity-engineering-customer-identity-access"
-      ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Europe is 27 countries pretending to be one market — each with its own language, payment preferences, consumer behavior, and privacy regulator. You navigate the complexity.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Market",
+        "Clusters",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "欧洲市场专家",
+        "欧洲市场营销与合规专家，覆盖GDPR",
+        "ePrivacy数据合规",
+        "多国多语言本地化",
+        "本地支付"
       ]
     },
     {
@@ -703,6 +1408,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "On the feed, you have 1.5 seconds before they scroll past. The difference between ¥0.30 and ¥3.00 CPA isn't the budget — it's the creative hook in frame one, the audience segment, and the bid strategy working together.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "信息流广告优化师",
+        "信息流广告投放与优化专家，覆盖巨量引擎",
+        "抖音",
+        "头条",
+        "穿山甲"
       ]
     },
     {
@@ -714,11 +1437,32 @@
       "subcategory": "",
       "path": "marketing/marketing-field-marketing.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "marketing-kuaishou-strategist"
+        "data-science-engineering-deep-learning-training",
+        "marketing-kuaishou-strategist",
+        "marketing-multi-agent-coordinator",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Marketing isn't just digital — sometimes you need to be in the room, at the",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "field",
+        "regional",
+        "Executed",
+        "campaigns"
+      ],
+      "keywords": [
+        "区域",
+        "现场营销",
+        "Field",
+        "Marketing",
+        "经理"
       ]
     },
     {
@@ -737,7 +1481,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The insider who decodes the opaque French consulting food chain so freelancers",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Margin",
+        "Architecture",
+        "Platform",
+        "Comparison"
+      ],
+      "keywords": [
+        "法国咨询市场导航师",
+        "ESN",
+        "SI",
+        "生态与法国",
+        "自由职业专家"
       ]
     },
     {
@@ -749,12 +1512,31 @@
       "subcategory": "",
       "path": "marketing/marketing-global-podcast-strategist.md",
       "depends_on": [
-        "marketing-social-media-strategist"
+        "marketing-social-media-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns conversations into communities and episodes into growth engines.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "全球播客策略师",
+        "专注节目定位",
+        "受众发展",
+        "内容策略与变现的播客增长专家",
+        "Core"
       ]
     },
     {
@@ -765,11 +1547,26 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-global-ua-manager.md",
-      "depends_on": [
-        "cybersecurity-engineering-customer-identity-access"
-      ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Scaling globally isn't just translating ads. It's understanding that Japanese users convert on LINE campaigns, Brazilians trust WhatsApp ads, and Americans still search on Google. One budget, many cultures, infinite A/B tests.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "海外推广经理",
+        "海外用户增长与广告投放专家，覆盖Google",
+        "Ads",
+        "搜索",
+        "购物"
       ]
     },
     {
@@ -786,7 +1583,26 @@
         "marketing-paid-media-creative-strategist"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds the growth channel nobody's exploited yet — then scales it.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "增长黑客",
+        "快速用户获取",
+        "病毒循环与实验驱动增长专家",
+        "Role",
+        "Memory"
       ]
     },
     {
@@ -799,14 +1615,33 @@
       "path": "marketing/marketing-inbound-strategist.md",
       "depends_on": [
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "marketing-market-research",
         "marketing-paid-media-search-query-analyst"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Don't chase customers — attract them. You build the content and SEO engine that",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "inbound",
+        "Built",
+        "organic",
+        "channels"
+      ],
+      "keywords": [
+        "SEO",
+        "内容",
+        "集客营销",
+        "Inbound",
+        "经理"
       ]
     },
     {
@@ -818,13 +1653,31 @@
       "subcategory": "",
       "path": "marketing/marketing-india-market.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
         "infrastructure-identity-access",
-        "web3-defi-strategist"
+        "web3-defi-strategist",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "India is not one market — it's 28 states, 22 official languages, and a mobile-first",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Platforms",
+        "Ecosystem",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "印度市场专家",
+        "印度市场营销策略专家，覆盖多语言",
+        "多邦策略",
+        "WhatsApp",
+        "ShareChat"
       ]
     },
     {
@@ -838,10 +1691,29 @@
       "depends_on": [
         "marketing-social-media-strategist",
         "marketing-paid-media-creative-strategist",
-        "marketing-paid-media-paid-social-strategist"
+        "marketing-paid-media-paid-social-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "One authentic creator post can move more product than a ¥1M ad campaign — you find the right creators, build real partnerships, and measure what actually matters",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Platforms",
+        "Creator",
+        "Tiers",
+        "Success"
+      ],
+      "keywords": [
+        "网红",
+        "KOL营销专家",
+        "网红与KOL营销策略专家，覆盖达人筛选",
+        "数据评估",
+        "Brief撰写"
       ]
     },
     {
@@ -862,6 +1734,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Masters the grid aesthetic and turns scrollers into an engaged community.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "Instagram",
+        "运营专家",
+        "视觉叙事",
+        "社区运营与",
+        "策略专家"
       ]
     },
     {
@@ -875,10 +1765,29 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-social-media-strategist",
-        "marketing-paid-media-creative-strategist"
+        "marketing-paid-media-creative-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Navigates Japan's unique consumer psyche, platform ecosystem, and business culture to launch and scale brands in the world's third-largest economy.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Process",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "日本市场专家",
+        "日本市场进入",
+        "Rakuten",
+        "Yahoo!",
+        "JAPAN营销"
       ]
     },
     {
@@ -902,6 +1811,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The bridge between Western directness and Korean relationship dynamics — reads the room so you don't torch the deal",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Approval",
+        "Process",
+        "Timeline",
+        "Nunchi"
+      ],
+      "keywords": [
+        "韩国商务导航师",
+        "韩国商业文化",
+        "品议流程与人际关系机制专家",
+        "Role",
+        "Memory"
       ]
     },
     {
@@ -919,6 +1846,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Grows grassroots audiences and drives live commerce on 快手.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Account",
+        "Positioning",
+        "Content"
+      ],
+      "keywords": [
+        "快手运营策略师",
+        "Expert",
+        "Kuaishou",
+        "marketing",
+        "strategist"
       ]
     },
     {
@@ -938,6 +1883,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns professional expertise into scroll-stopping content that makes the right people find you.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "领英内容创作者",
+        "个人品牌",
+        "思想领导力与领英专业内容专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -955,6 +1918,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Coaches your livestream hosts from awkward beginners to million-yuan sellers.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Minute",
+        "Retention",
+        "Pain"
+      ],
+      "keywords": [
+        "直播带货教练",
+        "主播培训",
+        "直播间优化与转化提升专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -966,15 +1947,67 @@
       "subcategory": "",
       "path": "marketing/marketing-market-research.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
         "marketing-abm-account-based",
         "product-trend-researcher",
-        "retail-customer-insight-analyst"
+        "retail-customer-insight-analyst",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Gut instinct launches products; research validates them. You replace \"I think",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "market",
+        "research",
+        "Conducted",
+        "studies"
+      ],
+      "keywords": [
+        "市场研究员",
+        "市场研究与消费者洞察专家，覆盖定量",
+        "定性研究方法",
+        "问卷设计",
+        "抽样"
+      ]
+    },
+    {
+      "id": "marketing-multi-agent-coordinator",
+      "name": "Marketing Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for marketing — content, paid media,",
+      "emoji": "📢",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-18",
+      "vibe": "orchestrating marketing specialists into coherent multi-agent workflows",
+      "tags": [
+        "marketing",
+        "Technical",
+        "References",
+        "Standards",
+        "Process"
+      ],
+      "keywords": [
+        "Marketing",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -996,6 +2029,59 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "One article, all platforms, safely — the traffic conductor for Chinese content creators.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "多平台发布专家",
+        "中文内容一键分发专家，通过Wechatsync将文章路由至知乎",
+        "小红书",
+        "CSDN",
+        "B站"
+      ]
+    },
+    {
+      "id": "marketing-operate-retention-strategist",
+      "name": "Operate Retention Strategist",
+      "description": "Churn cohort analysis, win-back journeys, re-engagement campaigns, save-rate optimization, and Day 7/30/90 retention program ownership for the Operate phase",
+      "emoji": "🔄",
+      "category": "marketing",
+      "subcategory": "",
+      "path": "marketing/marketing-operate-retention-strategist.md",
+      "depends_on": [
+        "marketing-customer-lifecycle",
+        "data-science-data-scientist",
+        "product-analyst"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-08-05",
+      "vibe": "Every churned user was once excited about your product. Your job is to understand why they left — and bring back the ones who should never have gone.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Retention",
+        "Framework",
+        "Collaboration",
+        "Protocol"
+      ],
+      "keywords": [
+        "Operate Retention Strategist",
+        "churn analysis",
+        "win-back",
+        "re-engagement"
       ]
     },
     {
@@ -1014,6 +2100,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds the waste in your ad spend before your CFO does.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "付费媒体审计师",
+        "200+",
+        "维度账户审计与竞争对手分析专家",
+        "Role",
+        "Memory"
       ]
     },
     {
@@ -1033,6 +2137,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns ad creative from guesswork into a repeatable science.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "广告创意策略师",
+        "RSA",
+        "文案",
+        "Meta",
+        "创意与"
       ]
     },
     {
@@ -1051,6 +2173,24 @@
         "phase-1-strategy",
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Makes every dollar on Meta, LinkedIn, and TikTok ads work harder.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "付费社交策略师",
+        "Meta",
+        "LinkedIn",
+        "TikTok",
+        "跨平台付费社交专家"
       ]
     },
     {
@@ -1070,6 +2210,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Architects PPC campaigns that scale from $10K to $10M+ monthly.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "竞价广告策略师",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "广告"
       ]
     },
     {
@@ -1083,10 +2241,29 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-paid-media-creative-strategist",
-        "marketing-paid-media-auditor"
+        "marketing-paid-media-auditor",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Buys display and video inventory at scale with surgical precision.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "程序化广告购买专家",
+        "GDN",
+        "DSP",
+        "合作媒体与",
+        "ABM"
       ]
     },
     {
@@ -1104,6 +2281,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Mines search queries to find the gold your competitors are missing.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "搜索词分析师",
+        "搜索词分析",
+        "否定关键词与意图映射专家",
+        "Role",
+        "Memory"
       ]
     },
     {
@@ -1117,11 +2312,30 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-paid-media-creative-strategist",
-        "marketing-paid-media-auditor"
+        "marketing-paid-media-auditor",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If it's not tracked correctly, it didn't happen.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "追踪与埋点专家",
+        "GTM",
+        "GA4",
+        "转化追踪与",
+        "CAPI"
       ]
     },
     {
@@ -1138,6 +2352,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Attribution is broken and everyone knows it. The analyst who runs incrementality tests finds the truth that last-click models hide — and saves 30% of ad spend that was taking credit for organic conversions.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Deliverable",
+        "Analyst",
+        "Chen",
+        "Shuju"
+      ],
+      "keywords": [
+        "效果广告数据分析师",
+        "效果广告数据分析专家",
+        "覆盖多平台数据整合",
+        "巨量",
+        "腾讯"
       ]
     },
     {
@@ -1151,12 +2383,31 @@
       "depends_on": [
         "marketing-social-media-strategist",
         "marketing-paid-media-creative-strategist",
-        "marketing-china-market-localization-strategist"
+        "marketing-china-market-localization-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Guides your podcast from concept to loyal audience in China's booming audio scene.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Show",
+        "Basics",
+        "Content"
+      ],
+      "keywords": [
+        "播客策略师",
+        "播客内容策略与平台运营专家",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
@@ -1170,10 +2421,29 @@
       "depends_on": [
         "marketing-social-media-strategist",
         "marketing-paid-media-paid-social-strategist",
-        "marketing-paid-media-creative-strategist"
+        "marketing-paid-media-creative-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reputation is built in years and lost in minutes. Every message, every statement, every interview is either protecting or eroding the brand — there is no neutral.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "公关与传播经理",
+        "媒体关系",
+        "新闻稿",
+        "危机传播与整合传播规划的战略公关专家",
+        "Communications"
       ]
     },
     {
@@ -1185,10 +2455,29 @@
       "subcategory": "",
       "path": "marketing/marketing-pr-expert.md",
       "depends_on": [
-        "marketing-pr-communications-manager"
+        "marketing-pr-communications-manager",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When a crisis hits at 3am, you're already drafting the statement — because you saw it coming three days ago.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "公关",
+        "PR",
+        "专家",
+        "危机公关",
+        "媒体关系"
       ]
     },
     {
@@ -1199,11 +2488,26 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-private-domain-operator.md",
-      "depends_on": [
-        "cybersecurity-engineering-customer-identity-access"
-      ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds your WeChat private traffic empire from first contact to lifetime value.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Daily",
+        "Content",
+        "Schedule"
+      ],
+      "keywords": [
+        "私域运营专家",
+        "企业微信",
+        "私域流量与社群运营专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -1215,12 +2519,31 @@
       "subcategory": "",
       "path": "marketing/marketing-reddit-community-builder.md",
       "depends_on": [
-        "marketing-brand-strategist",
+        "data-science-engineering-deep-learning-training",
         "marketing-abm-account-based",
+        "marketing-brand-strategist",
         "marketing-content-strategist"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Speaks fluent Reddit and builds community trust the authentic way.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "References",
+        "Standards",
+        "Technical",
+        "Process"
+      ],
+      "keywords": [
+        "Reddit",
+        "社区运营",
+        "真实互动",
+        "价值内容与",
+        "营销专家"
       ]
     },
     {
@@ -1232,15 +2555,34 @@
       "subcategory": "",
       "path": "marketing/marketing-retail-media-ad.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "engineering-social-media-platform",
         "government-social-work",
         "marketing-paid-media-paid-social-strategist",
         "marketing-paid-media-search-query-analyst",
-        "marketing-social-media-strategist"
+        "marketing-social-media-strategist",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The retailer's website is the new ad platform. Product listings become ad inventory,",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "retail",
+        "media",
+        "Managed",
+        "spend"
+      ],
+      "keywords": [
+        "零售媒体",
+        "电商广告专家",
+        "零售媒体网络",
+        "Retail",
+        "Media"
       ]
     },
     {
@@ -1253,12 +2595,31 @@
       "path": "marketing/marketing-sales-enablement.md",
       "depends_on": [
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
+        "marketing-multi-agent-coordinator",
         "marketing-field-marketing",
         "specialized-productivity-time-management"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Great salespeople aren't born — they're trained, equipped, and enabled. You",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "sales",
+        "enablement",
+        "Built",
+        "programs"
+      ],
+      "keywords": [
+        "销售赋能",
+        "Sales",
+        "Enablement",
+        "经理",
+        "B2B销售赋能与销售内容管理专家，覆盖销售培训"
       ]
     },
     {
@@ -1272,11 +2633,30 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-paid-media-auditor",
-        "marketing-paid-media-paid-social-strategist"
+        "marketing-paid-media-paid-social-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Baidu has 70%+ of China's search market. While everyone's chasing social media trends, the highest-intent traffic — people actively searching for your product right now — is on Baidu.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Deliverable",
+        "Date",
+        "Auditor",
+        "Zhang"
+      ],
+      "keywords": [
+        "SEM",
+        "百度竞价专员",
+        "百度搜索推广",
+        "凤巢",
+        "与SEM优化专家"
       ]
     },
     {
@@ -1290,11 +2670,30 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-social-media-strategist",
-        "marketing-paid-media-creative-strategist"
+        "marketing-paid-media-creative-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Drives sustainable organic traffic through technical SEO and content strategy.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Crawlability",
+        "Indexation",
+        "Site"
+      ],
+      "keywords": [
+        "SEO",
+        "专家",
+        "技术",
+        "内容策略与外链建设专家",
+        "Core"
       ]
     },
     {
@@ -1308,10 +2707,29 @@
       "depends_on": [
         "marketing-paid-media-creative-strategist",
         "marketing-linkedin-content-creator",
-        "marketing-field-marketing"
+        "marketing-field-marketing",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns raw footage into scroll-stopping short videos with professional polish.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Process",
+        "Success",
+        "Metrics",
+        "Methodology"
+      ],
+      "keywords": [
+        "短视频剪辑教练",
+        "后期制作",
+        "剪辑流程与平台规格优化专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -1323,11 +2741,32 @@
       "subcategory": "",
       "path": "marketing/marketing-sms-push-notifications.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "marketing-abm-account-based"
+        "data-science-engineering-deep-learning-training",
+        "finance-engineering-credit-risk-model",
+        "marketing-abm-account-based",
+        "marketing-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The notification that annoys gets muted; the notification that helps gets tapped.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "mobile",
+        "messaging",
+        "engagement",
+        "Sent"
+      ],
+      "keywords": [
+        "推送",
+        "短信",
+        "应用内消息专家",
+        "移动推送与消息触达策略专家，覆盖App",
+        "Push"
       ]
     },
     {
@@ -1341,13 +2780,33 @@
       "depends_on": [
         "marketing-paid-media-creative-strategist",
         "marketing-paid-media-paid-social-strategist",
-        "marketing-reddit-community-builder"
+        "marketing-reddit-community-builder",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-2-foundation",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Orchestrates cross-platform campaigns that build community and drive engagement.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "社交媒体策略师",
+        "跨平台策略",
+        "营销活动与社媒整体规划专家",
+        "Platform",
+        "Algorithm"
       ]
     },
     {
@@ -1361,10 +2820,29 @@
       "depends_on": [
         "marketing-paid-media-search-query-analyst",
         "marketing-paid-media-tracking-specialist",
-        "marketing-paid-media-paid-social-strategist"
+        "marketing-paid-media-paid-social-strategist",
+        "operations-report-distribution-agent"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Navigates Southeast Asia's fragmented yet hyper-growth digital economy across six distinct markets, orchestrating super-app ecosystems, social commerce, and cross-border logistics.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "东南亚市场专家",
+        "东南亚六国市场策略",
+        "Grab",
+        "GoTo超级应用生态",
+        "社交媒体矩阵与本地化支付专家"
       ]
     },
     {
@@ -1378,12 +2856,31 @@
       "depends_on": [
         "marketing-paid-media-creative-strategist",
         "marketing-paid-media-search-query-analyst",
-        "marketing-social-media-strategist"
+        "marketing-social-media-strategist",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Rides the algorithm and builds community through authentic TikTok culture.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "TikTok",
+        "策略专家",
+        "病毒内容",
+        "算法优化与",
+        "增长专家"
       ]
     },
     {
@@ -1395,14 +2892,30 @@
       "subcategory": "",
       "path": "marketing/marketing-twitter-engager.md",
       "depends_on": [
-        "data-science-engineering-video-analytics",
-        "design-image-prompt-engineer",
+        "data-science-engineering-deep-learning-training",
         "marketing-paid-media-creative-strategist",
-        "marketing-paid-media-tracking-specialist",
-        "retail-customer-insight-analyst"
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds thought leadership and brand authority 280 characters at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "References",
+        "Standards",
+        "Technical",
+        "Process"
+      ],
+      "keywords": [
+        "Twitter",
+        "运营专家",
+        "实时互动",
+        "思想领导力与推特策略专家",
+        "Core"
       ]
     },
     {
@@ -1424,6 +2937,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Energetic, data-driven, strategic, and hyper-focused on audience retention",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Packaging",
+        "Strategy",
+        "Title"
+      ],
+      "keywords": [
+        "视频优化专家",
+        "视频营销策略师，专注",
+        "YouTube",
+        "算法优化",
+        "观众留存"
       ]
     },
     {
@@ -1434,12 +2965,27 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-wechat-official-account.md",
-      "depends_on": [
-        "cybersecurity-engineering-customer-identity-access"
-      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Grows loyal WeChat subscriber communities through consistent value delivery.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "微信公众号运营专家",
+        "粉丝互动",
+        "内容营销与微信公众号策略专家",
+        "Core",
+        "Identity"
       ]
     },
     {
@@ -1453,12 +2999,31 @@
       "depends_on": [
         "marketing-paid-media-creative-strategist",
         "marketing-china-market-localization-strategist",
-        "marketing-brand-strategist-name"
+        "marketing-brand-strategist-name",
+        "design-brand-guardian"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Makes your brand trend on Weibo and keeps the conversation going.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "微博运营策略师",
+        "微博热搜",
+        "话题营销与粉丝互动专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -1469,11 +3034,26 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-x-twitter-intelligence-analyst.md",
-      "depends_on": [
-        "cybersecurity-engineering-customer-identity-access"
-      ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns noisy X conversations into sourced market, audience, and risk intelligence.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Question",
+        "Collection",
+        "Scope"
+      ],
+      "keywords": [
+        "Twitter情报分析师",
+        "Twitter社交媒体研究",
+        "趋势检测与受众洞察的情报分析专家",
+        "Core",
+        "Identity"
       ]
     },
     {
@@ -1485,12 +3065,29 @@
       "subcategory": "",
       "path": "marketing/marketing-xiaohongshu-specialist.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-user-research-system"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Masters lifestyle content and aesthetic storytelling on 小红书.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "小红书运营专家",
+        "生活方式内容",
+        "趋势策略与小红书增长专家",
+        "Core",
+        "Identity"
       ]
     },
     {
@@ -1501,13 +3098,28 @@
       "category": "marketing",
       "subcategory": "",
       "path": "marketing/marketing-zhihu-strategist.md",
-      "depends_on": [
-        "cybersecurity-engineering-customer-identity-access"
-      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds brand authority through expert knowledge-sharing on 知乎.",
+      "lifecycle": "published",
+      "tags": [
+        "marketing",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "知乎运营专家",
+        "思想领导力",
+        "知识驱动互动与知乎权威建立专家",
+        "Core",
+        "Identity"
       ]
     }
   ]

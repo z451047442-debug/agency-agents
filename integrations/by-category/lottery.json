@@ -1,7 +1,7 @@
 {
   "category": "lottery",
-  "agent_count": 12,
-  "generated": "2026-07-16",
+  "agent_count": 13,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "lottery-customer-service",
@@ -12,12 +12,30 @@
       "subcategory": "",
       "path": "lottery/lottery-customer-service.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
-        "lottery-data-analyst"
+        "lottery-data-analyst",
+        "lottery-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When someone wins millions, you're the first person they call. When someone",
+      "lifecycle": "published",
+      "tags": [
+        "lottery",
+        "operations",
+        "Managed",
+        "prize",
+        "claims"
+      ],
+      "keywords": [
+        "彩票客服与兑奖管理专家",
+        "彩票客户服务与奖金兑付专家，覆盖彩民咨询",
+        "投诉处理",
+        "大奖兑付流程",
+        "身份验证"
       ]
     },
     {
@@ -30,7 +48,6 @@
       "path": "lottery/lottery-data-analyst.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
         "engineering-social-media-platform",
         "food-beverage-food-safety",
@@ -41,13 +58,31 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The numbers don't lie — but they don't promise anything either. The math says the house always wins; the art is making the game worth playing.",
+      "lifecycle": "draft",
+      "tags": [
+        "lottery",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "彩票数据分析师",
+        "彩票数据深度分析：历史号码统计",
+        "冷热号趋势",
+        "概率建模",
+        "返奖率分析"
       ]
     },
     {
       "id": "lottery-director",
       "name": "彩票总监",
       "description": "彩票领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🎰\"",
+      "emoji": "🎰",
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-director.md",
@@ -61,7 +96,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 彩票与博彩运营 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "lottery",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "彩票总监",
+        "彩票领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -75,40 +129,76 @@
       "depends_on": [
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-language-model-nlp",
-        "engineering-multi-agent-systems-architect",
         "engineering-social-media-platform",
         "finance-engineering-credit-risk-model",
         "lottery-customer-service",
+        "lottery-multi-agent-coordinator",
         "marketing-paid-media-paid-social-strategist",
         "marketing-retail-media-ad",
-        "marketing-social-media-strategist",
-        "operations-report-distribution-agent"
+        "marketing-social-media-strategist"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A lottery game is a probability engine wrapped in hope — you design the mathematics",
+      "lifecycle": "published",
+      "tags": [
+        "lottery",
+        "Competencies",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "彩票游戏设计师",
+        "彩票游戏数学与奖级结构设计",
+        "摇奖游戏与即开票设计",
+        "头奖与赔率建模",
+        "游戏组合策略"
       ]
     },
     {
       "id": "lottery-general-manager",
       "name": "彩票总经理",
       "description": "彩票领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🎰\"",
+      "emoji": "🎰",
       "category": "lottery",
       "subcategory": "",
       "path": "lottery/lottery-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "lottery-director",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "lottery",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "彩票总经理",
+        "彩票领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -120,14 +210,66 @@
       "subcategory": "",
       "path": "lottery/lottery-marketing.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
         "government-social-work",
         "infrastructure-identity-access",
-        "lottery-customer-service"
+        "lottery-customer-service",
+        "lottery-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Lottery marketing is unique — you sell hope, fund public welfare, and must never",
+      "lifecycle": "published",
+      "tags": [
+        "lottery",
+        "gaming",
+        "marketing",
+        "Launched",
+        "games"
+      ],
+      "keywords": [
+        "彩票营销与渠道推广专家",
+        "彩票市场营销与渠道推广专家，覆盖彩票品牌",
+        "公益形象传播",
+        "新彩民获客",
+        "老彩民留存"
+      ]
+    },
+    {
+      "id": "lottery-multi-agent-coordinator",
+      "name": "Lottery Multi-Agent Coordinator",
+      "description": "coordinates multi-agent workflows for lottery — game design, risk management, retail network, marketing",
+      "emoji": "🎲",
+      "category": "lottery",
+      "subcategory": "",
+      "path": "lottery/lottery-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating lottery specialists into coherent multi-agent workflows",
+      "tags": [
+        "lottery",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Lottery",
+        "Multi-Agent",
+        "Coordinator",
+        "coordinates",
+        "workflows"
       ]
     },
     {
@@ -142,11 +284,28 @@
         "education-special-needs",
         "finance-engineering-credit-risk-model",
         "lottery-customer-service",
-        "marketing-europe-market",
-        "operations-report-distribution-agent"
+        "marketing-europe-market"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A lottery ticket sells at the intersection of hope and habit — you design the retail experience, the marketing campaigns, and the member programs that bring players back",
+      "lifecycle": "published",
+      "tags": [
+        "lottery",
+        "Operations",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "彩票运营专家",
+        "彩票零售与渠道运营专家，覆盖投注站选址",
+        "运营管理",
+        "彩民营销",
+        "会员体系"
       ]
     },
     {
@@ -159,7 +318,6 @@
       "path": "lottery/lottery-product-designer.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
         "engineering-social-media-platform",
         "food-beverage-food-safety",
@@ -169,6 +327,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A lottery ticket sells hope in a two-inch slip of paper — design the game so the hope feels real, even when the math says otherwise.",
+      "lifecycle": "draft",
+      "tags": [
+        "lottery",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "彩票产品设计师",
+        "彩票游戏设计：玩法机制设计",
+        "奖级结构",
+        "赔率计算",
+        "用户体验"
       ]
     },
     {
@@ -184,12 +360,29 @@
         "data-science-engineering-language-model-nlp",
         "finance-engineering-credit-risk-model",
         "government-public-safety-analyst",
-        "lottery-customer-service",
-        "operations-report-distribution-agent"
+        "lottery-customer-service"
       ],
       "nexus_roles": [
         "phase-5-launch",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every lottery game is a carefully engineered probability machine — you design the game so it's exciting for players, profitable for the operator, and mathematically sound",
+      "lifecycle": "published",
+      "tags": [
+        "lottery",
+        "Competencies",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "彩票产品与风控专家",
+        "彩票游戏设计与风险管理专家，覆盖游戏机制",
+        "赔率设计",
+        "奖池资金管理",
+        "风险控制"
       ]
     },
     {
@@ -201,12 +394,33 @@
       "subcategory": "",
       "path": "lottery/lottery-retail-network.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "lottery-customer-service"
+        "lottery-customer-service",
+        "lottery-multi-agent-coordinator",
+        "marketing-paid-media-search-query-analyst",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A lottery terminal is a small business in a box — you recruit the right retailers,",
+      "lifecycle": "draft",
+      "tags": [
+        "lottery",
+        "retail",
+        "network",
+        "management",
+        "Recruited"
+      ],
+      "keywords": [
+        "彩票零售网络管理专家",
+        "彩票零售网络管理专家，覆盖零售商招募与入驻",
+        "终端与POS部署",
+        "零售商培训与绩效管理",
+        "佣金与激励结构"
       ]
     },
     {
@@ -218,7 +432,6 @@
       "subcategory": "",
       "path": "lottery/lottery-risk-compliance.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-graph-database",
         "food-beverage-food-supply-chain",
         "logistics-engineering-supply-chain-analytics",
@@ -231,6 +444,24 @@
       "nexus_roles": [
         "phase-5-launch",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In an industry built on chance, the one thing that must never be left to chance is integrity. You are the shield between the lottery and everything that could destroy trust — money launderers, fraud rings, data breaches, compromised insiders, and regulatory failure.",
+      "lifecycle": "published",
+      "tags": [
+        "lottery",
+        "Competencies",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "彩票风控合规官",
+        "彩票风控合规专家：反洗钱AML",
+        "KYC运营",
+        "游戏公正性与反欺诈控制",
+        "责任博彩项目管理"
       ]
     },
     {
@@ -243,7 +474,6 @@
       "path": "lottery/lottery-risk-manager.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
         "engineering-social-media-platform",
         "food-beverage-food-safety",
@@ -254,6 +484,24 @@
       "nexus_roles": [
         "phase-5-launch",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the stakes are high and the money moves fast, the line between entertainment and exploitation is one algorithm wide.",
+      "lifecycle": "draft",
+      "tags": [
+        "lottery",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "博彩风控专家",
+        "博彩风控与合规：反洗钱AML",
+        "异常投注检测",
+        "风险限额管理",
+        "责任博彩"
       ]
     }
   ]

@@ -44,15 +44,15 @@
 
 | | v1 / v2 | v3 | v4 | v5 | v6 | v7 |
 |---|---:|---:|---:|---:|---:|---:|
-| A 线 | 9+ | 8+ | 8+ | 12+ / 13+ | 13+ / 14+ | **15+ / 16+** |
-| B 线 | 7+ | 6+ | 6+ | 9+ | 10+ | **10+ / 11+** |
-| C 线 | 5+ | 4+ | 4+ | 6+ | 7+ | **7+ / 8+** |
-| CI 新 agent | &mdash; | &mdash; | &mdash; | 9 | 10 | **8（门禁必须通过）** |
-| CI 修改 agent | &mdash; | &mdash; | &mdash; | 6 | 7 | **7** |
+| A 线 | 9+ | 8+ | 8+ | 12+ / 13+ | 13+ / 14+ | **12.5+ / 13+** |
+| B 线 | 7+ | 6+ | 6+ | 9+ | 10+ | **10+ / 10.5+** |
+| C 线 | 5+ | 4+ | 4+ | 6+ | 7+ | **8+ / 8.5+** |
+| CI 新 agent | &mdash; | &mdash; | &mdash; | 9 | 10 | **10（quality-gate 新增 agent）** |
+| CI 修改 agent | &mdash; | &mdash; | &mdash; | 6 | 7 | **8（quality-gate 修改 agent）** |
 | 门禁维度 | &mdash; | &mdash; | &mdash; | &mdash; | &mdash; | Safeguards + Output Spec |
 | 最终结果 | &mdash; | 假全A | 覆盖 40+ 领域 | 1406 A &sigma;=1.02 | 1406 A &sigma;=0.68 | TBD |
 
-> 高风险领域（航空航天、医疗、法律等）使用较高的 A 线（v5: 13+, v6: 14+）。
+> 高风险领域（航空航天、医疗、法律等）使用较高的 A 线（v5: 13+, v6: 14+, v7: 13+）。v7 阈值与 `scripts/scoring/v7.py` 一致：critical 类别 A&ge;13 / B&ge;10.5 / C&ge;8.5；high/general 类别 A&ge;12.5 / B&ge;10 / C&ge;8。**门禁维度（Safeguards + Output Spec）未通过时一律评为 D，与得分无关**（`_compute_v7_grade` 在任何分数计算之前先执行门禁检查）。CI 全量门禁使用 `--threshold 8`（ci.yml）；quality-gate.yml 对新增 agent 要求 &ge;10、修改 agent 要求 &ge;8。
 
 ---
 

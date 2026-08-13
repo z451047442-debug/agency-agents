@@ -1,7 +1,7 @@
 {
   "category": "administration",
-  "agent_count": 9,
-  "generated": "2026-07-16",
+  "agent_count": 10,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "administration-contract-manager",
@@ -13,20 +13,40 @@
       "path": "administration/administration-contract-manager.md",
       "depends_on": [
         "administration-executive-assistant",
-        "engineering-multi-agent-systems-architect",
+        "administration-multi-agent-coordinator",
         "legal-engineering-legal-contracts-ai",
         "legal-engineering-legal-document-automation",
-        "logistics-engineering-supply-chain-risk"
+        "logistics-engineering-supply-chain-risk",
+        "tourism-travel-agent"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A contract signed and forgotten is a liability waiting to happen — you track",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "合同管理专员",
+        "企业合同全生命周期管理专家，覆盖合同起草",
+        "模板",
+        "审批流",
+        "签约"
       ]
     },
     {
       "id": "administration-director",
       "name": "行政管理总监",
       "description": "行政管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"📋\"",
+      "emoji": "📋",
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-director.md",
@@ -34,6 +54,9 @@
         "administration-general-manager",
         "data-science-engineering-knowledge-management",
         "hr-tech-people-analytics",
+        "legal-billing-time-tracking",
+        "legal-document-review",
+        "parenting-family-elder-care",
         "specialized-multi-agent-director",
         "specialized-multi-agent-president",
         "specialized-multi-agent-project-manager"
@@ -41,6 +64,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 企业行政管理与后勤保障 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "行政管理总监",
+        "行政管理领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -60,6 +101,24 @@
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Behind every effective executive is an assistant who manages the chaos — you're the gatekeeper, the organizer, and the person who makes sure nothing falls through the cracks",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "企业文秘",
+        "行政助理",
+        "企业文秘与行政助理专家，覆盖高管日程",
+        "会议管理",
+        "公文"
       ]
     },
     {
@@ -72,37 +131,112 @@
       "path": "administration/administration-fleet-manager.md",
       "depends_on": [
         "administration-contract-manager",
+        "cybersecurity-incident-response",
         "data-science-engineering-deep-learning-training",
         "engineering-insurance-technology",
-        "engineering-multi-agent-systems-architect",
+        "administration-multi-agent-coordinator",
         "finance-cost-accountant",
-        "hr-corporate-training-designer"
+        "hr-corporate-training-designer",
+        "marketing-abm-account-based",
+        "tourism-travel-agent"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A fleet of 100 vehicles is a logistics operation hiding in an admin budget —",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "managing",
+        "corporate",
+        "vehicle",
+        "fleets"
+      ],
+      "keywords": [
+        "企业车辆",
+        "车队管理专家",
+        "企业车队与公务车辆管理专家，覆盖车辆采购",
+        "租赁",
+        "处置全生命周期"
       ]
     },
     {
       "id": "administration-general-manager",
       "name": "行政管理总经理",
       "description": "行政管理领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"📋\"",
+      "emoji": "📋",
       "category": "administration",
       "subcategory": "",
       "path": "administration/administration-general-manager.md",
       "depends_on": [
         "administration-director",
-        "cybersecurity-engineering-customer-identity-access",
+        "beauty-general-manager",
         "government-general-manager",
         "pets-general-manager",
+        "product-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "行政管理总经理",
+        "行政管理领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
+      ]
+    },
+    {
+      "id": "administration-multi-agent-coordinator",
+      "name": "Administration Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for administration",
+      "emoji": "🏢",
+      "category": "administration",
+      "subcategory": "",
+      "path": "administration/administration-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating administration specialists into coherent multi-agent workflows",
+      "tags": [
+        "administration",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Administration",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -120,10 +254,30 @@
         "engineering-insurance-technology",
         "finance-cost-accountant",
         "hr-employee-relations",
-        "securities-family-office"
+        "infrastructure-backup-admin",
+        "manufacturing-engineering-cyber-physical",
+        "finance-securities-family-office"
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the office lights are on, the AC is working, the supplies are stocked, and nobody notices — you've done your job perfectly",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "行政管理专家",
+        "企业行政管理与后勤保障专家，覆盖办公室运营",
+        "固定资产",
+        "办公资产管理",
+        "行政预算与成本控制"
       ]
     },
     {
@@ -139,10 +293,29 @@
         "data-science-engineering-knowledge-management",
         "finance-cost-accountant",
         "healthcare-engineering-gene-editing-crispr",
-        "logistics-engineering-supply-chain-risk"
+        "logistics-engineering-supply-chain-risk",
+        "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every dollar saved in procurement drops straight to the bottom line — you negotiate not just price, but terms, quality, and partnership",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "采购与供应商管理专家",
+        "企业采购与供应链管理专家，覆盖供应商寻源",
+        "评估",
+        "分级",
+        "招标谈判"
       ]
     },
     {
@@ -159,11 +332,29 @@
         "infrastructure-identity-access",
         "legal-engineering-legal-contracts-ai",
         "legal-engineering-legal-document-automation",
-        "operations-report-distribution-agent",
-        "quality-food-safety"
+        "quality-food-safety",
+        "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The document you can't find when the auditor asks for it might as well not exist — you ensure every record is where it should be, when it's needed, for as long as it's required",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "档案与证照管理专家",
+        "企业档案与证照管理专家，覆盖档案分类",
+        "归档",
+        "保管",
+        "利用"
       ]
     },
     {
@@ -177,15 +368,36 @@
       "depends_on": [
         "administration-contract-manager",
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "administration-multi-agent-coordinator",
         "finance-cost-accountant",
+        "hr-corporate-training-designer",
         "legal-engineering-legal-document-automation",
         "lottery-product-risk",
         "lottery-risk-compliance",
+        "marketing-paid-media-tracking-specialist",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Business travel is a multi-million dollar line item that nobody manages until",
+      "lifecycle": "published",
+      "tags": [
+        "administration",
+        "managing",
+        "corporate",
+        "travel",
+        "programs"
+      ],
+      "keywords": [
+        "差旅管理专家",
+        "企业差旅与出行管理专家，覆盖差旅政策",
+        "预算管控",
+        "供应商合同",
+        "航司"
       ]
     }
   ]

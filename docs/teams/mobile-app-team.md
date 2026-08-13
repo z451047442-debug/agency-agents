@@ -16,7 +16,7 @@
 | 🍎 iOS | `engineering-ios-developer` | iOS 原生模块、App Store 发布 |
 | 🤖 Android | `engineering-android-developer` | Android 原生模块、Google Play 发布 |
 | 🔍 QA | `testing-mobile` | 多设备兼容性测试、手势测试 |
-| 🚀 DevOps | `engineering-devops-automator` | Fastlane CI/CD、TestFlight |
+| 🚀 DevOps | `infrastructure-engineering-devops-automator` | Fastlane CI/CD、TestFlight |
 | 📈 ASO | `marketing-app-store-optimizer` | 商店元数据优化、关键词策略 |
 | 📊 分析 | `product-analyst` | 埋点、留存分析、崩溃率监控 |
 

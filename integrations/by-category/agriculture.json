@@ -1,7 +1,7 @@
 {
   "category": "agriculture",
-  "agent_count": 13,
-  "generated": "2026-07-16",
+  "agent_count": 14,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "agriculture-agronomist",
@@ -14,18 +14,36 @@
       "depends_on": [
         "agriculture-economist",
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
-        "infrastructure-identity-access"
+        "infrastructure-identity-access",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every seed is a bet against weather, pests, and time — the agronomist stacks the odds in the farmer's favor.",
+      "lifecycle": "draft",
+      "tags": [
+        "agriculture",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "农艺师",
+        "作物科学与田间管理：品种选育",
+        "水肥管理",
+        "植保方案",
+        "土壤改良"
       ]
     },
     {
       "id": "agriculture-director",
       "name": "农业总监",
       "description": "农业领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🌾\"",
+      "emoji": "🌾",
       "category": "agriculture",
       "subcategory": "",
       "path": "agriculture/agriculture-director.md",
@@ -33,13 +51,34 @@
         "agriculture-general-manager",
         "data-science-engineering-knowledge-management",
         "hr-tech-people-analytics",
+        "legal-billing-time-tracking",
+        "legal-document-review",
         "specialized-multi-agent-director",
         "specialized-multi-agent-president",
         "specialized-multi-agent-project-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 现代农业企业运营 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "农业总监",
+        "农业领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -53,11 +92,29 @@
       "depends_on": [
         "agriculture-agronomist",
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
-        "infrastructure-identity-access"
+        "infrastructure-identity-access",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Corn prices in Chicago, drought in Brazil, tariffs in Brussels — agriculture is the most global and least predictable market on earth.",
+      "lifecycle": "draft",
+      "tags": [
+        "agriculture",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "农业经济学家",
+        "农业经济与政策分析：农产品定价",
+        "期货市场",
+        "补贴政策",
+        "国际贸易"
       ]
     },
     {
@@ -70,13 +127,33 @@
       "path": "agriculture/agriculture-engineering-aquaculture-fish.md",
       "depends_on": [
         "agriculture-agronomist",
-        "engineering-multi-agent-systems-architect",
+        "agriculture-multi-agent-coordinator",
         "environmental-water-treatment",
         "food-beverage-food-scientist",
-        "healthcare-mental-health"
+        "healthcare-mental-health",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Half the world's seafood comes from aquaculture — you design the farms that",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "aquaculture",
+        "Managed",
+        "production",
+        "hatchery"
+      ],
+      "keywords": [
+        "水产养殖",
+        "渔业科学专家",
+        "工业化水产养殖与可持续渔业管理专家，覆盖循环水养殖系统",
+        "RAS",
+        "深海网箱"
       ]
     },
     {
@@ -93,11 +170,33 @@
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-deep-learning-training",
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "agriculture-multi-agent-coordinator",
+        "gis-drone-reality-mapping",
+        "healthcare-mental-health",
+        "marketing-paid-media-tracking-specialist",
         "robotics-engineering-robotics-control-systems"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A tractor that drives itself, a sprayer that sees every weed — you bring robotics",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "agricultural",
+        "automation",
+        "Developed",
+        "autonomous"
+      ],
+      "keywords": [
+        "农业机器人",
+        "自动化农机工程师",
+        "农业自动驾驶与智能农机专家，覆盖拖拉机",
+        "收割机自动驾驶",
+        "GNSS"
       ]
     },
     {
@@ -111,12 +210,33 @@
       "depends_on": [
         "agriculture-agronomist",
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
-        "finance-engineering-credit-risk-model"
+        "agriculture-multi-agent-coordinator",
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every contaminated site has a story — you investigate it, model the risk, and",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "contaminated",
+        "land",
+        "assessment",
+        "remediation"
+      ],
+      "keywords": [
+        "土壤科学",
+        "土壤修复专家",
+        "土壤环境科学与污染场地修复专家，覆盖场地调查",
+        "Phase",
+        "II"
       ]
     },
     {
@@ -131,13 +251,33 @@
         "agriculture-sustainability",
         "energy-carbon-market",
         "energy-engineering-carbon-capture-storage",
-        "engineering-multi-agent-systems-architect",
+        "agriculture-multi-agent-coordinator",
         "finance-capital-markets-analyst",
-        "hr-labor-relations"
+        "hr-labor-relations",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Farming is a business, not a lifestyle — you manage thousands of hectares, millions",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "农业总经理",
+        "农场主",
+        "农业企业",
+        "大型农场全面经营管理者，覆盖种植",
+        "养殖战略规划"
       ]
     },
     {
@@ -150,12 +290,32 @@
       "path": "agriculture/agriculture-iot-engineer.md",
       "depends_on": [
         "agriculture-agronomist",
-        "engineering-multi-agent-systems-architect",
+        "cybersecurity-engineering-threat-detection-engineer",
+        "agriculture-multi-agent-coordinator",
         "iot-edge-computing",
         "logistics-last-mile-delivery"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sensors in the soil, eyes in the sky, intelligence at the edge — connecting",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "Technical",
+        "Process",
+        "Learning",
+        "Methodology"
+      ],
+      "keywords": [
+        "农业物联网工程师",
+        "农业IoT与智能装备专家，覆盖土壤",
+        "气象传感器网络",
+        "智能灌溉控制",
+        "农业无人机"
       ]
     },
     {
@@ -172,10 +332,64 @@
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-deep-learning-training",
         "data-science-engineering-knowledge-management",
+        "agriculture-multi-agent-coordinator",
+        "marketing-paid-media-tracking-specialist"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Raising animals at scale is biology, nutrition, and business management combined",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "livestock",
+        "production",
+        "Managed",
+        "operations"
+      ],
+      "keywords": [
+        "畜牧",
+        "养殖管理专家",
+        "畜禽养殖与牧场管理专家，覆盖养殖场设计",
+        "生物安全",
+        "饲料配方"
+      ]
+    },
+    {
+      "id": "agriculture-multi-agent-coordinator",
+      "name": "Agriculture Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for agriculture — precision farming,",
+      "emoji": "🌾",
+      "category": "agriculture",
+      "subcategory": "",
+      "path": "agriculture/agriculture-multi-agent-coordinator.md",
+      "depends_on": [
         "engineering-multi-agent-systems-architect"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating agriculture specialists into coherent multi-agent workflows",
+      "tags": [
+        "agriculture",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Agriculture",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -190,13 +404,32 @@
         "agriculture-engineering-iot-agriculture",
         "data-science-feature-store",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
+        "agriculture-multi-agent-coordinator",
         "environmental-water-treatment",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every hectare tells a story in data — you read the soil, the sky, and the crop",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "精准农业专家",
+        "精准农业与数字农艺专家，覆盖遥感监测",
+        "变量施肥",
+        "产量预测",
+        "土壤建模与农业数据分析"
       ]
     },
     {
@@ -210,7 +443,7 @@
       "depends_on": [
         "agriculture-agronomist",
         "cybersecurity-incident-response",
-        "engineering-multi-agent-systems-architect",
+        "agriculture-multi-agent-coordinator",
         "finance-internal-auditor",
         "food-beverage-food-safety",
         "marketing-europe-market",
@@ -219,6 +452,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every bite carries trust — you make sure that trust is earned through science,",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "Technical",
+        "Process",
+        "Learning",
+        "Methodology"
+      ],
+      "keywords": [
+        "农产品质量安全专家",
+        "农产品质量安全与合规专家，覆盖GAP认证",
+        "农药残留管理",
+        "食品安全体系",
+        "HACCP"
       ]
     },
     {
@@ -232,11 +483,29 @@
       "depends_on": [
         "agriculture-agronomist",
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
-        "infrastructure-identity-access"
+        "infrastructure-identity-access",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "From field to fork in 48 hours — the supply chain that feeds a nation doesn't forgive a single broken link.",
+      "lifecycle": "published",
+      "tags": [
+        "agriculture",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "农业供应链专家",
+        "农产品供应链管理：冷链物流",
+        "产地仓储",
+        "产销对接",
+        "溯源体系"
       ]
     },
     {
@@ -250,11 +519,29 @@
       "depends_on": [
         "agriculture-general-manager",
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
-        "infrastructure-identity-access"
+        "infrastructure-identity-access",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Feed the world without eating the planet — sustainable agriculture isn't a niche, it's the only long game that makes sense.",
+      "lifecycle": "draft",
+      "tags": [
+        "agriculture",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "可持续农业顾问",
+        "可持续农业实践：有机种植",
+        "碳汇农业",
+        "生物多样性",
+        "水资源管理"
       ]
     }
   ]

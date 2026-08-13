@@ -1,7 +1,7 @@
 {
   "category": "manufacturing",
-  "agent_count": 46,
-  "generated": "2026-07-16",
+  "agent_count": 47,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "manufacturing-chemistry-research",
@@ -18,13 +18,31 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Research chemist — from total synthesis of natural products to DFT calculations, from MOF design to single-molecule spectroscopy. Chemistry is the central science, connecting physics to biology through the study of matter and its transformations.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "化学基础研究专家",
+        "有机化学",
+        "无机化学",
+        "物理化学",
+        "分析化学"
       ]
     },
     {
       "id": "manufacturing-director",
       "name": "制造总监",
       "description": "制造领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🏭\"",
+      "emoji": "🏭",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-director.md",
@@ -39,6 +57,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 先进制造与工业工程 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "制造总监",
+        "制造领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -61,6 +97,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Manufacturing without molds, without tooling, without limits on geometry — you build parts layer by layer, turning digital designs into physical reality",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "additive",
+        "Qualified",
+        "3D-printed",
+        "parts"
+      ],
+      "keywords": [
+        "增材制造",
+        "3D打印工程师",
+        "工业3D打印与增材制造专家，覆盖SLM",
+        "SLS",
+        "FDM"
       ]
     },
     {
@@ -72,11 +126,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-additive-manufacturing-metal.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive",
-        "operations-report-distribution-agent"
+        "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Printing metal parts that fly in jet engines and go into human bodies — that's metal AM. You control the lasers, the powder, and the thermal history that determine quality.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "metal",
+        "additive",
+        "Qualified",
+        "parts"
+      ],
+      "keywords": [
+        "金属增材制造",
+        "3D打印工艺专家",
+        "金属粉末床熔融",
+        "LPBF",
+        "SLM"
       ]
     },
     {
@@ -91,14 +163,33 @@
         "automotive-engineering-functional-safety",
         "energy-engineering-wind-energy",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "manufacturing-multi-agent-coordinator",
         "infrastructure-identity-access",
         "infrastructure-windows-server",
         "manufacturing-engineering-process-automation",
         "marketing-brand-strategist-name"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Buildings consume 40% of global energy — you design the automation systems that",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "楼宇自动化",
+        "BAS",
+        "BMS",
+        "系统工程师",
+        "智能楼宇自动化与能源管理系统专家，覆盖楼宇自控"
       ]
     },
     {
@@ -110,10 +201,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-composites-manufacturing.md",
       "depends_on": [
-        "manufacturing-engineering-control-systems"
+        "manufacturing-engineering-control-systems",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Carbon fiber is lighter than aluminum and stronger than steel — you design the automated machines that lay it, cure it, and inspect it for the next generation of aircraft",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "composites",
+        "Automated",
+        "production",
+        "aerospace"
+      ],
+      "keywords": [
+        "复合材料制造",
+        "自动铺放",
+        "AFP",
+        "ATL",
+        "工程师"
       ]
     },
     {
@@ -126,11 +236,29 @@
       "path": "manufacturing/manufacturing-engineering-control-systems.md",
       "depends_on": [
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
+        "manufacturing-multi-agent-coordinator",
         "manufacturing-engineering-composites-manufacturing"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Control theory keeps planes in the sky, chemicals at the right temperature, and robots on trajectory — you design the feedback loops that make systems stable and optimal",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "advanced",
+        "process",
+        "control",
+        "Optimized"
+      ],
+      "keywords": [
+        "控制理论",
+        "先进过程控制",
+        "APC",
+        "工程师",
+        "经典与现代控制理论应用专家，覆盖PID"
       ]
     },
     {
@@ -142,10 +270,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-corrosion-engineering.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive"
+        "manufacturing-engineering-3d-printing-additive",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Rust never sleeps — it costs 3-4% of GDP every year. You fight the electrochemical reactions that turn steel into dust.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "corrosion",
+        "control",
+        "Protected",
+        "pipelines"
+      ],
+      "keywords": [
+        "腐蚀工程",
+        "阴极保护专家",
+        "金属腐蚀防护与电化学保护专家，覆盖大气",
+        "海水",
+        "土壤"
       ]
     },
     {
@@ -162,6 +309,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The physical and digital worlds are merging — you build the systems where physical processes are monitored, simulated, and controlled in real-time by digital twins",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "bridging",
+        "physical",
+        "digital",
+        "systems"
+      ],
+      "keywords": [
+        "信息物理系统",
+        "CPS",
+        "工程师",
+        "信息物理系统与数字孪生专家，覆盖物理系统建模",
+        "仿真"
       ]
     },
     {
@@ -178,6 +343,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A product's digital thread connects every decision from concept to retirement — requirements, design, manufacturing, and operations are all linked by data that enables traceability across decades",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "MBSE",
+        "digital",
+        "engineering",
+        "Connected"
+      ],
+      "keywords": [
+        "数字主线",
+        "数字工程",
+        "Digital",
+        "Thread",
+        "架构师"
       ]
     },
     {
@@ -195,6 +378,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every turbine, every pump, every motor has a digital twin that predicts when it will fail — you build the platform that saves millions by preventing unplanned downtime",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "industrial",
+        "digital",
+        "twins",
+        "Built"
+      ],
+      "keywords": [
+        "工业数字孪生平台工程师",
+        "工业资产数字孪生与资产性能管理",
+        "APM",
+        "平台专家，覆盖3D模型",
+        "实时数据融合"
       ]
     },
     {
@@ -208,12 +409,29 @@
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
         "automotive-engineering-automotive-thermal",
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-build-release-engineer",
         "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A brilliant design that can't be manufactured at scale is a prototype, not a product. You make electronics manufacturing work — at volume, at quality, at cost.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "电子制造",
+        "SMT工艺工程师",
+        "电子组装制造与SMT工艺专家，覆盖SMT贴片",
+        "回流焊",
+        "波峰焊工艺"
       ]
     },
     {
@@ -231,6 +449,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "From smartphone screens to jet engine turbines, from fiber optics to artificial hips — glass and ceramics are the invisible materials that enable modern technology",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "glass",
+        "ceramics",
+        "Developed",
+        "materials"
+      ],
+      "keywords": [
+        "玻璃",
+        "陶瓷",
+        "耐火材料工程师",
+        "无机非金属材料与高温过程专家，覆盖玻璃熔制",
+        "浮法"
       ]
     },
     {
@@ -248,6 +484,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Moore's Law slows, but packaging advances — you stack and connect chiplets into systems that perform like a single giant chip",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "semiconductor",
+        "packaging",
+        "Developed",
+        "advanced"
+      ],
+      "keywords": [
+        "先进封装",
+        "异构集成工程师",
+        "先进IC封装与异构集成技术专家，覆盖2.5D",
+        "3D封装",
+        "CoWoS"
       ]
     },
     {
@@ -266,6 +520,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A laser can cut steel like butter, weld with micron precision, and mark a serial number smaller than a grain of sand — you harness that power for manufacturing",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "laser",
+        "materials",
+        "processing",
+        "Developed"
+      ],
+      "keywords": [
+        "激光加工",
+        "激光制造工程师",
+        "工业激光材料加工与激光制造专家，覆盖激光切割",
+        "焊接",
+        "打标"
       ]
     },
     {
@@ -278,7 +550,7 @@
       "path": "manufacturing/manufacturing-engineering-material-scientist.md",
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
-        "engineering-multi-agent-systems-architect",
+        "manufacturing-multi-agent-coordinator",
         "healthcare-engineering-regulatory-science",
         "manufacturing-engineering-3d-printing-additive"
       ],
@@ -286,6 +558,24 @@
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every product is made of something — choosing the right material and processing determines cost, performance, and reliability",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "materials",
+        "science",
+        "engineering",
+        "Selected"
+      ],
+      "keywords": [
+        "材料科学与工程专家",
+        "材料科学与选材工程专家，覆盖金属",
+        "陶瓷",
+        "聚合物",
+        "复合材料特性"
       ]
     },
     {
@@ -302,6 +592,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The rock that comes out of the ground is worthless until you liberate the valuable minerals inside — you design the crushing, grinding, and separation that turns ore into metal",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "mineral",
+        "processing",
+        "Designed",
+        "concentrators"
+      ],
+      "keywords": [
+        "选矿",
+        "矿物加工工程师",
+        "矿石粉碎",
+        "磨矿",
+        "浮选"
       ]
     },
     {
@@ -314,11 +622,29 @@
       "path": "manufacturing/manufacturing-engineering-optical-lithography.md",
       "depends_on": [
         "construction-engineering-noise-control",
-        "engineering-multi-agent-systems-architect",
+        "manufacturing-multi-agent-coordinator",
         "manufacturing-engineering-composites-manufacturing"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Printing lines narrower than the wavelength of light — that's the magic of computational lithography, where math and physics bend light to create the world's most precise patterns",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "semiconductor",
+        "lithography",
+        "Pushed",
+        "optical"
+      ],
+      "keywords": [
+        "光刻",
+        "计算光刻",
+        "OPC",
+        "工程师",
+        "极紫外"
       ]
     },
     {
@@ -330,11 +656,28 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-optical-metrology.md",
       "depends_on": [
-        "manufacturing-engineering-composites-manufacturing",
-        "operations-report-distribution-agent"
+        "manufacturing-engineering-composites-manufacturing"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Measuring a mirror to nanometer precision, aligning optics to microradian accuracy — that's precision metrology, the foundation of everything from chip manufacturing to gravitational wave detection",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "precision",
+        "measurement",
+        "Designed",
+        "metrology"
+      ],
+      "keywords": [
+        "精密测量",
+        "光学计量",
+        "Metrology",
+        "工程师",
+        "超精密光学测量与几何量计量专家，覆盖激光干涉仪"
       ]
     },
     {
@@ -351,6 +694,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every chip needs a home — you design the circuit boards that connect processors, memory, sensors, and power into working electronics",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "design",
+        "Laid",
+        "boards",
+        "simple"
+      ],
+      "keywords": [
+        "PCB",
+        "电子硬件设计工程师",
+        "印刷电路板与电子硬件设计专家，覆盖高速",
+        "混合信号PCB",
+        "Layout"
       ]
     },
     {
@@ -363,12 +724,29 @@
       "path": "manufacturing/manufacturing-engineering-photonics-engineer.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
-        "network-engineering-engineering-optical-fiber-sensing"
+        "infrastructure-network-engineering-engineering-optical-fiber-sensing"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Light carries information, cuts metal, and sees the invisible. You design the lenses, lasers, and detectors that harness photons to do what electrons can't.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "optical",
+        "engineering",
+        "Designed",
+        "systems"
+      ],
+      "keywords": [
+        "光学",
+        "光子学工程师",
+        "光学系统与光子学设计专家，覆盖光学设计",
+        "Zemax",
+        "Code"
       ]
     },
     {
@@ -385,6 +763,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Electrons compute; photons communicate. Silicon photonics puts lasers, modulators, and detectors on the same chip as transistors, moving data at the speed of light.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "silicon",
+        "photonics",
+        "Designed",
+        "PICs"
+      ],
+      "keywords": [
+        "集成光子",
+        "硅光芯片设计工程师",
+        "硅基光子集成",
+        "PIC",
+        "与光电共封装"
       ]
     },
     {
@@ -396,10 +792,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-plasma-technology.md",
       "depends_on": [
-        "manufacturing-engineering-semiconductor-process"
+        "manufacturing-engineering-semiconductor-process",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Plasma etches features 10,000x thinner than a human hair — you control the ions, radicals, and electrons that sculpt the transistors inside every chip",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "semiconductor",
+        "plasma",
+        "processing",
+        "Developed"
+      ],
+      "keywords": [
+        "等离子体",
+        "半导体工艺刻蚀工程师",
+        "半导体等离子体刻蚀与薄膜沉积工艺专家，覆盖ICP",
+        "CCP",
+        "RIE等离子体刻蚀"
       ]
     },
     {
@@ -412,12 +827,29 @@
       "path": "manufacturing/manufacturing-engineering-polymer-science.md",
       "depends_on": [
         "healthcare-engineering-regulatory-science",
-        "manufacturing-engineering-material-scientist",
-        "operations-report-distribution-agent"
+        "manufacturing-engineering-material-scientist"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Plastics, rubbers, fibers, adhesives, coatings — polymers are everywhere. You design the molecules that become the materials of modern life.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "polymer",
+        "science",
+        "Developed",
+        "materials"
+      ],
+      "keywords": [
+        "高分子材料",
+        "聚合物科学家",
+        "高分子合成与聚合物材料物理专家，覆盖自由基",
+        "缩聚",
+        "开环"
       ]
     },
     {
@@ -429,10 +861,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-process-automation.md",
       "depends_on": [
-        "manufacturing-engineering-composites-manufacturing"
+        "manufacturing-engineering-composites-manufacturing",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Millions of hours are wasted on repetitive computer tasks — you automate them, freeing humans to do what humans do best",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "process",
+        "automation",
+        "Automated",
+        "thousands"
+      ],
+      "keywords": [
+        "流程自动化",
+        "RPA",
+        "BPA",
+        "工程师",
+        "机器人流程自动化与业务流程自动化专家，覆盖UiPath"
       ]
     },
     {
@@ -447,13 +898,32 @@
         "construction-engineering-green-building",
         "construction-engineering-noise-control",
         "data-science-engineering-language-model-nlp",
-        "engineering-multi-agent-systems-architect",
+        "manufacturing-multi-agent-coordinator",
         "manufacturing-engineering-additive-manufacturing-metal",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A single particle can kill a chip — you control the billion-dollar cleanroom",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Real-World",
+        "Scenarios",
+        "Actionable",
+        "Directives"
+      ],
+      "keywords": [
+        "半导体工艺",
+        "良率工程师",
+        "晶圆制造工艺与良率提升专家，覆盖光刻",
+        "蚀刻",
+        "CVD"
       ]
     },
     {
@@ -465,11 +935,32 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-simulation-engineer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "manufacturing-engineering-sports-engineering"
+        "logistics-multi-agent-coordinator",
+        "manufacturing-engineering-sports-engineering",
+        "manufacturing-multi-agent-coordinator",
+        "robotics-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Before you build a physical prototype, you build a virtual one. You predict",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "multiphysics",
+        "simulation",
+        "Simulated",
+        "everything"
+      ],
+      "keywords": [
+        "仿真",
+        "CAE工程师",
+        "计算机辅助工程与多物理场仿真专家，覆盖FEM有限元",
+        "CFD",
+        "多体动力学仿真"
       ]
     },
     {
@@ -481,10 +972,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-sports-engineering.md",
       "depends_on": [
-        "manufacturing-engineering-composites-manufacturing"
+        "manufacturing-engineering-composites-manufacturing",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A tennis racket, a running shoe, a racing bike — they look simple. But composite layup, polymer foam formulation, and aerodynamic optimization make the difference between winning and losing.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "sports",
+        "engineering",
+        "Designed",
+        "equipment"
+      ],
+      "keywords": [
+        "体育工程",
+        "运动器材设计工程师",
+        "体育器材与运动装备工程设计师，覆盖复合材料",
+        "碳纤维",
+        "自行车"
       ]
     },
     {
@@ -496,10 +1006,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-surface-engineering.md",
       "depends_on": [
-        "manufacturing-engineering-thermal-spray"
+        "manufacturing-engineering-thermal-spray",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The surface of a component determines how it interacts with the world — you apply the coatings that make turbine blades survive 1,400°C, implants bond with bone, and tools cut steel",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "surface",
+        "engineering",
+        "Applied",
+        "coatings"
+      ],
+      "keywords": [
+        "表面工程",
+        "热喷涂",
+        "电镀工程师",
+        "先进表面涂层与表面改性技术专家，覆盖热喷涂",
+        "HVOF"
       ]
     },
     {
@@ -511,11 +1040,30 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-test-chip-bringup.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive"
+        "manufacturing-engineering-3d-printing-additive",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Billion-transistor chips need billion-vector test suites — you write the patterns that prove the silicon works before it ships to customers",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "semiconductor",
+        "testing",
+        "Developed",
+        "production"
+      ],
+      "keywords": [
+        "芯片验证",
+        "测试开发工程师",
+        "芯片Bring-Up与测试开发专家，覆盖ATE测试",
+        "Advantest",
+        "Teradyne"
       ]
     },
     {
@@ -527,10 +1075,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-textile-engineering.md",
       "depends_on": [
-        "manufacturing-engineering-additive-manufacturing-metal"
+        "manufacturing-engineering-additive-manufacturing-metal",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Textiles aren't just clothes — they're carbon fiber that makes planes lighter, filtration fabrics that clean water, and smart fabrics that monitor your health",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "technical",
+        "textiles",
+        "Developed",
+        "fabrics"
+      ],
+      "keywords": [
+        "纺织工程",
+        "功能性纺织品开发专家",
+        "产业用纺织品与功能性面料开发专家，覆盖高性能纤维",
+        "碳纤维",
+        "芳纶"
       ]
     },
     {
@@ -547,6 +1114,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A worn turbine blade, a scored hydraulic cylinder — they're not scrap. You rebuild them layer by layer, restoring to better-than-new performance at a fraction of the cost and carbon.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "remanufacturing",
+        "Repaired",
+        "high-value",
+        "components"
+      ],
+      "keywords": [
+        "增材修复",
+        "激光熔覆再制造工程师",
+        "高能束增材修复与零部件再制造专家，覆盖激光熔覆",
+        "LENS",
+        "DMD"
       ]
     },
     {
@@ -558,10 +1143,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-tooling-design.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive"
+        "manufacturing-engineering-3d-printing-additive",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Before a million plastic parts can be made, someone has to design the mold that makes them — that's you, engineering the tool that defines quality for every single part",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "tool",
+        "design",
+        "Designed",
+        "molds"
+      ],
+      "keywords": [
+        "模具",
+        "工装夹具设计工程师",
+        "注塑模具",
+        "冲压模具",
+        "压铸模具与工装夹具设计专家，覆盖注塑模"
       ]
     },
     {
@@ -573,10 +1177,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-tribology-engineer.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive"
+        "manufacturing-engineering-3d-printing-additive",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every moving part in every machine wears out — you understand why, and you design the surfaces, lubricants, and materials that make them last longer",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "tribology",
+        "Solved",
+        "wear",
+        "friction"
+      ],
+      "keywords": [
+        "摩擦学",
+        "润滑工程专家",
+        "摩擦磨损与润滑科学专家，覆盖接触力学",
+        "弹流润滑",
+        "EHL"
       ]
     },
     {
@@ -588,10 +1211,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-vibration-analysis.md",
       "depends_on": [
-        "manufacturing-tpm-reliability"
+        "manufacturing-tpm-reliability",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every machine tells you it's failing — through vibration, temperature, and sound. You listen to the machines and predict their failures before they happen.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "machinery",
+        "diagnostics",
+        "Predicted",
+        "thousands"
+      ],
+      "keywords": [
+        "振动分析",
+        "旋转机械诊断工程师",
+        "工业旋转机械振动诊断与状态监测专家，覆盖振动频谱分析",
+        "FFT",
+        "包络谱"
       ]
     },
     {
@@ -610,6 +1252,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Products fail in the field because testing wasn't harsh enough — you shake, bake, freeze, and shock products until they break, so they won't break on the customer",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "environmental",
+        "testing",
+        "Qualified",
+        "products"
+      ],
+      "keywords": [
+        "环境应力筛选",
+        "振动冲击试验工程师",
+        "产品环境与可靠性试验验证专家，覆盖随机振动",
+        "正弦扫频",
+        "经典冲击"
       ]
     },
     {
@@ -626,18 +1286,35 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every skyscraper, every ship, every pipeline is held together by welds — you design the procedures that join metal with metallurgical integrity",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "welding",
+        "engineering",
+        "Qualified",
+        "procedures"
+      ],
+      "keywords": [
+        "焊接工程",
+        "焊接冶金专家",
+        "焊接工艺与焊接冶金专家，覆盖电弧焊",
+        "GMAW",
+        "GTAW"
       ]
     },
     {
       "id": "manufacturing-general-manager",
       "name": "制造总经理",
       "description": "制造领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🏭\"",
+      "emoji": "🏭",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-general-manager",
         "manufacturing-director",
         "pets-general-manager",
@@ -648,6 +1325,24 @@
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "制造总经理",
+        "制造领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -660,12 +1355,29 @@
       "path": "manufacturing/manufacturing-industrial-engineer.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Eliminate the waste, amplify the value — every motion that doesn't add value is a candidate for removal.",
+      "lifecycle": "draft",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "工业工程师",
+        "工业工程与精益生产：工时研究",
+        "人机工程",
+        "价值流图VSM",
+        "Kaizen改善"
       ]
     },
     {
@@ -684,6 +1396,58 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Waste is not just material on the factory floor — it's time, motion, inventory, defects, and unused talent. You find it, measure it, and eliminate it.",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "精益制造",
+        "六西格玛专家",
+        "精益制造与六西格玛质量改进专家，覆盖VSM价值流图析",
+        "5S",
+        "看板"
+      ]
+    },
+    {
+      "id": "manufacturing-multi-agent-coordinator",
+      "name": "Manufacturing Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for manufacturing — smart factory,",
+      "emoji": "🏭",
+      "category": "manufacturing",
+      "subcategory": "",
+      "path": "manufacturing/manufacturing-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating manufacturing specialists into coherent multi-agent workflows",
+      "tags": [
+        "manufacturing",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Manufacturing",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -705,6 +1469,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The factory floor is where strategy becomes product — you run the place that makes the thing the company sells, and if it doesn't run, nothing else matters",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "工厂厂长",
+        "制造工厂全面管理者，覆盖生产运营",
+        "产出效率",
+        "质量",
+        "安全"
       ]
     },
     {
@@ -717,12 +1499,29 @@
       "path": "manufacturing/manufacturing-process-engineer.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every micron matters. The difference between scrap and gold is in the process, not the blueprint.",
+      "lifecycle": "draft",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "工艺工程师",
+        "制造工艺设计与优化：工艺流程规划",
+        "设备选型",
+        "产线布局",
+        "参数调优"
       ]
     },
     {
@@ -734,12 +1533,29 @@
       "subcategory": "",
       "path": "manufacturing/manufacturing-production-planner.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-git-workflow-master",
         "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Production planning is a giant optimization problem — thousands of orders, hundreds of machines, hundreds of workers — and you make it all fit together on time",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "生产计划与排程",
+        "APS",
+        "专家",
+        "生产计划与高级排程专家，覆盖MPS主计划",
+        "MRP物料需求"
       ]
     },
     {
@@ -752,13 +1568,30 @@
       "path": "manufacturing/manufacturing-quality-manager.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Quality is not inspected into a product — it's built into the system. Catch the defect at the source, not at the dock.",
+      "lifecycle": "draft",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "质量管理专家",
+        "全面质量管理：六西格玛",
+        "SPC统计过程控制",
+        "FMEA失效分析",
+        "ISO体系"
       ]
     },
     {
@@ -771,12 +1604,29 @@
       "path": "manufacturing/manufacturing-supply-chain-planner.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The best factory is the one that never stops — raw materials in, finished goods out, no surprises in between.",
+      "lifecycle": "draft",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "制造供应链规划师",
+        "制造业供应链规划：物料需求MRP",
+        "产能平衡",
+        "JIT",
+        "精益"
       ]
     },
     {
@@ -794,6 +1644,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A machine that breaks down at 2AM costs production, costs overtime, costs customer deliveries — your job is making sure it never breaks down at 2AM, because you already predicted and prevented it",
+      "lifecycle": "published",
+      "tags": [
+        "manufacturing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "设备维护与可靠性",
+        "TPM",
+        "工程师",
+        "设备维护管理与可靠性工程专家，覆盖TPM全员生产维护",
+        "自主保全"
       ]
     }
   ]

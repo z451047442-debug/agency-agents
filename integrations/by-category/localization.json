@@ -1,13 +1,13 @@
 {
   "category": "localization",
   "agent_count": 7,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "localization-director",
       "name": "本地化总监",
       "description": "本地化领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🌐\"",
+      "emoji": "🌐",
       "category": "localization",
       "subcategory": "",
       "path": "localization/localization-director.md",
@@ -21,7 +21,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 国际化与本地化服务 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "localization",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "本地化总监",
+        "本地化领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -41,29 +60,65 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Strings don't localize themselves — you build the pipelines, tools, and infrastructure that turn source strings into 40+ languages without anyone noticing the machinery.",
+      "lifecycle": "published",
+      "tags": [
+        "localization",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "本地化工程师",
+        "i18n",
+        "l10n基础设施",
+        "TMS配置",
+        "CAT工具自动化"
       ]
     },
     {
       "id": "localization-general-manager",
       "name": "本地化总经理",
       "description": "本地化领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🌐\"",
+      "emoji": "🌐",
       "category": "localization",
       "subcategory": "",
       "path": "localization/localization-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "localization-director",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "localization",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "本地化总经理",
+        "本地化领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -75,7 +130,6 @@
       "subcategory": "",
       "path": "localization/localization-i18n-pm.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-cultural-intelligence-strategist",
         "marketing-china-market-localization-strategist",
         "marketing-cross-border-ecommerce",
@@ -85,7 +139,26 @@
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your compass for navigating global markets and launching products that feel local everywhere.",
+      "lifecycle": "published",
+      "tags": [
+        "localization",
+        "Strategy",
+        "Product",
+        "Name",
+        "Assessment"
+      ],
+      "keywords": [
+        "国际化产品经理",
+        "全球市场就绪",
+        "区域优先级",
+        "国际用户体验适配",
+        "全球发布协调"
       ]
     },
     {
@@ -106,6 +179,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Interpreter — from UN booths to Zoom RSI platforms, from whispered chuchotage to simultaneous at technical conferences. Interpreting is not translating slower; it's a different cognitive skill requiring split-second processing under pressure.",
+      "lifecycle": "published",
+      "tags": [
+        "localization",
+        "Outputs",
+        "Specification",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "口译与同声传译专家",
+        "同声传译",
+        "交替传译",
+        "陪同口译",
+        "会议口译"
       ]
     },
     {
@@ -123,6 +214,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Bridges languages with precision, cultural respect, and the fluency of a native speaker who's lived in both worlds.",
+      "lifecycle": "published",
+      "tags": [
+        "localization",
+        "Technical",
+        "Process",
+        "Language",
+        "Expertise"
+      ],
+      "keywords": [
+        "语言翻译员",
+        "实时西班牙语",
+        "英语翻译专家，具备文化语境",
+        "地域方言意识，适用于日常",
+        "商务与紧急场景"
       ]
     },
     {
@@ -144,6 +253,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Translation isn't just about words — it's about whether the message lands in Tokyo the same way it lands in Toronto. You're the last line of defense before content goes global.",
+      "lifecycle": "published",
+      "tags": [
+        "localization",
+        "translation",
+        "quality",
+        "linguistic",
+        "Reviewed"
+      ],
+      "keywords": [
+        "翻译审校与QA专家",
+        "翻译质量审校与评估专家，覆盖MQM",
+        "LISA质量评估模型",
+        "语言QA测试",
+        "术语一致性"
       ]
     }
   ]

@@ -706,6 +706,10 @@ class TestMain:
         import io, sys
 
         monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
+        # OUT is a module-level constant bound to the real repo at import
+        # time; without patching it, main() without --out cleans/rebuilds
+        # the REAL integrations/ directory.
+        monkeypatch.setattr(convert, "OUT", tmp_path / "integrations")
         TestMain._make_mock_agent(tmp_path)
 
         # Mock run_hermes to avoid subprocess call
@@ -844,6 +848,39 @@ class TestMain:
             sys.stdout = old_stdout
             sys.argv = old_argv
 
+    def test_check_mode_detects_nested_missing_file(self, tmp_path, monkeypatch):
+        """--check must catch a nested output file missing from integrations/.
+
+        Regression test: the old shallow comparison missed nested
+        additions/removals, so a brand-new agent's converted file went
+        undetected.
+        """
+        import io, sys
+
+        monkeypatch.setattr(convert, "REPO", tmp_path); monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
+        self._make_mock_agent(tmp_path)
+
+        # Pre-create output dir with cursor/rules/ EMPTY — the mock agent's
+        # .mdc file is missing at the nested level (old check missed this).
+        out_dir = tmp_path / "integrations"
+        (out_dir / "cursor" / "rules").mkdir(parents=True)
+
+        old_argv = sys.argv
+        sys.argv = ["convert.py", "--tool", "cursor", "--check",
+                    "--out", str(out_dir)]
+        captured = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = captured
+        try:
+            with pytest.raises(SystemExit) as exc_info:
+                convert.main()
+            # The stale report goes to stderr (error()); the exit code is
+            # the contract here, matching test_check_mode_with_diffs.
+            assert exc_info.value.code == 1
+        finally:
+            sys.stdout = old_stdout
+            sys.argv = old_argv
+
     def test_check_mode_many_diffs(self, tmp_path, monkeypatch):
         """Test --check mode with >20 diffs triggers 'and N more' message.
 
@@ -895,6 +932,9 @@ class TestIncremental:
     def _setup(self, tmp_path, monkeypatch):
         monkeypatch.setattr(convert, "REPO", tmp_path)
         monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
+        # Keep aggregate-freshness checks away from the real repo's OMC
+        # outputs (module-level constant bound at import time).
+        monkeypatch.setattr(convert, "_OMC_OUT", tmp_path / "integrations" / "oh-my-claudecode")
         (tmp_path / "engineering").mkdir()
         src = tmp_path / "engineering" / "engineering-test-agent.md"
         src.write_text(FULL_AGENT_CONTENT, encoding="utf-8")
@@ -977,3 +1017,105 @@ class TestIncremental:
         written, _ = convert.run_tool_incremental("aider", agents, out_dir)
         assert written == 1
         assert "Rebuilt description for testing" in dest.read_text(encoding="utf-8")
+
+    def _setup_hermes_outputs(self, out_dir):
+        """Simulate build-hermes-plugin output without invoking subprocesses."""
+        p = out_dir / "hermes" / "agency-agents-router" / "data" / "agents.json"
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text('{"agents": []}', encoding="utf-8")
+        return p
+
+    def test_hermes_skips_when_plugin_fresh(self, tmp_path, monkeypatch):
+        """Aggregate outputs are all-or-nothing: fresh plugin → full skip."""
+        self._setup(tmp_path, monkeypatch)
+        out_dir = tmp_path / "integrations"
+        agents = _discover_agents_with_fm()
+
+        def fake_hermes(out):
+            self._setup_hermes_outputs(out)
+
+        monkeypatch.setattr(convert, "run_hermes", fake_hermes)
+        written, skipped = convert.run_tool_incremental("hermes", agents, out_dir)
+        assert written == 1
+        assert skipped == 0
+
+        written, skipped = convert.run_tool_incremental("hermes", agents, out_dir)
+        assert written == 0
+        assert skipped == 1
+
+    def test_hermes_rebuilds_when_source_modified(self, tmp_path, monkeypatch):
+        self._setup(tmp_path, monkeypatch)
+        out_dir = tmp_path / "integrations"
+        agents = _discover_agents_with_fm()
+        calls = []
+
+        def fake_hermes(out):
+            calls.append(out)
+            self._setup_hermes_outputs(out)
+
+        monkeypatch.setattr(convert, "run_hermes", fake_hermes)
+        convert.run_tool_incremental("hermes", agents, out_dir)
+        assert len(calls) == 1
+
+        src = tmp_path / "engineering" / "engineering-test-agent.md"
+        src.write_text(
+            FULL_AGENT_CONTENT.replace("A test agent for unit testing",
+                                       "Hermes rebuild"),
+            encoding="utf-8")
+        agents = _discover_agents_with_fm()
+        written, _ = convert.run_tool_incremental("hermes", agents, out_dir)
+        assert written == 1
+        assert len(calls) == 2
+
+    def _setup_omc_outputs(self, omc_out):
+        omc_out.mkdir(parents=True, exist_ok=True)
+        for name in ("hooks.json", "team-config.json", "model-routing.json"):
+            (omc_out / name).write_text("{}", encoding="utf-8")
+        for keyword in ("discover", "strategize", "scaffold", "build",
+                        "harden", "launch", "operate", "full"):
+            d = omc_out / "skills" / f"nexus-{keyword}"
+            d.mkdir(parents=True, exist_ok=True)
+            (d / "SKILL.md").write_text("---\nname: nexus\n---\n", encoding="utf-8")
+
+    def test_omc_skips_when_all_outputs_fresh(self, tmp_path, monkeypatch):
+        """oh-my-claudecode aggregates skip when every output is fresh."""
+        self._setup(tmp_path, monkeypatch)
+        out_dir = tmp_path / "integrations"
+        omc_out = out_dir / "oh-my-claudecode"
+        monkeypatch.setattr(convert, "_OMC_OUT", omc_out)
+        agents = _discover_agents_with_fm()
+        calls = []
+
+        def fake_omc(name, description, body, out):
+            self._setup_omc_outputs(omc_out)
+
+        monkeypatch.setattr(convert, "convert_oh_my_claudecode", fake_omc)
+        written, skipped = convert.run_tool_incremental("oh-my-claudecode", agents, out_dir)
+        assert written == 1
+        assert skipped == 0
+
+        written, skipped = convert.run_tool_incremental("oh-my-claudecode", agents, out_dir)
+        assert written == 0
+        assert skipped == 1
+
+    def test_omc_rebuilds_when_output_missing(self, tmp_path, monkeypatch):
+        """A missing aggregate output forces a rebuild (self-heal)."""
+        self._setup(tmp_path, monkeypatch)
+        out_dir = tmp_path / "integrations"
+        omc_out = out_dir / "oh-my-claudecode"
+        monkeypatch.setattr(convert, "_OMC_OUT", omc_out)
+        agents = _discover_agents_with_fm()
+        calls = []
+
+        def fake_omc(name, description, body, out):
+            calls.append(1)
+            self._setup_omc_outputs(omc_out)
+
+        monkeypatch.setattr(convert, "convert_oh_my_claudecode", fake_omc)
+        convert.run_tool_incremental("oh-my-claudecode", agents, out_dir)
+        assert len(calls) == 1
+
+        (omc_out / "hooks.json").unlink()
+        written, _ = convert.run_tool_incremental("oh-my-claudecode", agents, out_dir)
+        assert written == 1
+        assert len(calls) == 2

@@ -1,7 +1,7 @@
 {
   "category": "nonprofit",
-  "agent_count": 5,
-  "generated": "2026-07-16",
+  "agent_count": 6,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "nonprofit-fundraiser",
@@ -12,18 +12,37 @@
       "subcategory": "",
       "path": "nonprofit/nonprofit-fundraiser.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "hr-people-analytics",
         "hr-tech-hrtech-people-analytics",
         "legal-data-protection-officer",
         "logistics-last-mile-delivery",
         "marketing-email-marketing",
         "nonprofit-grant-writer",
+        "nonprofit-multi-agent-coordinator",
         "project-management-government-grant",
-        "securities-family-office"
+        "finance-securities-family-office"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns passion into funding — connects donors' desire to change the world with",
+      "lifecycle": "published",
+      "tags": [
+        "nonprofit",
+        "Technical",
+        "Lead",
+        "Gifts",
+        "60-70"
+      ],
+      "keywords": [
+        "募款经理",
+        "非营利募款经理",
+        "筹款策略专家，覆盖个人捐赠计划（大额捐赠",
+        "年度基金）",
+        "企业赞助开发"
       ]
     },
     {
@@ -36,16 +55,69 @@
       "path": "nonprofit/nonprofit-grant-writer.md",
       "depends_on": [
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "hr-compensation-benefits",
         "logistics-last-mile-delivery",
+        "nonprofit-multi-agent-coordinator",
         "project-management-government-grant",
         "specialized-grant-writer",
         "tourism-travel-agency",
         "tourism-travel-experience-designer"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Writes the story that unlocks the funding — every proposal is a bridge between",
+      "lifecycle": "published",
+      "tags": [
+        "nonprofit",
+        "Technical",
+        "Theory",
+        "Change",
+        "Logic"
+      ],
+      "keywords": [
+        "拨款撰写人",
+        "资助前景研究（基金会",
+        "政府",
+        "企业）",
+        "提案叙事开发"
+      ]
+    },
+    {
+      "id": "nonprofit-multi-agent-coordinator",
+      "name": "Nonprofit Multi-Agent Coordinator",
+      "description": "coordinates multi-agent workflows for nonprofit — fundraising, grant writing, volunteer coordination, program management",
+      "emoji": "🤝",
+      "category": "nonprofit",
+      "subcategory": "",
+      "path": "nonprofit/nonprofit-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating nonprofit specialists into coherent multi-agent workflows",
+      "tags": [
+        "nonprofit",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Nonprofit",
+        "Multi-Agent",
+        "Coordinator",
+        "coordinates",
+        "workflows"
       ]
     },
     {
@@ -57,16 +129,31 @@
       "subcategory": "",
       "path": "nonprofit/nonprofit-program-director.md",
       "depends_on": [
-        "data-science-engineering-computer-vision-deep",
-        "education-number-theory",
-        "education-special-needs",
-        "engineering-multi-agent-systems-architect",
+        "hr-tech-hrtech-people-analytics",
         "nonprofit-fundraiser",
         "operations-report-distribution-agent"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Measures success in lives changed, not dollars earned — designs programs where every activity maps to real impact.",
+      "lifecycle": "published",
+      "tags": [
+        "nonprofit",
+        "activity",
+        "trace",
+        "back",
+        "theory"
+      ],
+      "keywords": [
+        "项目总监",
+        "非营利项目设计与管理专家，覆盖基于使命与变革理论的项目设计",
+        "受益人需求评估",
+        "监测与评估",
+        "M&E"
       ]
     },
     {
@@ -89,6 +176,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Social enterprise and impact investment specialist — from theory of change to IRIS+ metrics, from patient capital to outcomes-based contracts. Doing good and doing business are not mutually exclusive; the challenge is measuring both.",
+      "lifecycle": "published",
+      "tags": [
+        "nonprofit",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "社会企业与影响力投资专家",
+        "社会企业商业模式设计",
+        "影响力衡量与管理",
+        "IMM",
+        "IRIS+"
       ]
     },
     {
@@ -111,6 +216,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The heart of any nonprofit's workforce — turns goodwill into well-organized action, one volunteer shift at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "nonprofit",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "志愿者协调员",
+        "志愿者招募与筛选",
+        "岗位匹配与入职",
+        "培训与技能发展",
+        "排班与轮班管理"
       ]
     }
   ]

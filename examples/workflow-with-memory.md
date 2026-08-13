@@ -76,7 +76,7 @@ Break this into 4 weekly sprints with clear deliverables and acceptance criteria
 Remember your sprint plan tagged for this project when done.
 ```
 
-The Sprint Prioritizer produces the sprint plan and stores it in memory tagged with `sprint-prioritizer`, `retroboard`, and `sprint-plan`.
+The Sprint Prioritizer produces the sprint plan and stores it in memory tagged with `product-sprint-prioritizer`, `retroboard`, and `sprint-plan`.
 
 **Step 2 — Activate UX Researcher (in parallel)**
 
@@ -94,7 +94,7 @@ Run a quick competitive analysis and identify:
 Output a 1-page research brief. Remember it tagged for this project when done.
 ```
 
-The UX Researcher stores the research brief tagged with `ux-researcher`, `retroboard`, and `research-brief`.
+The UX Researcher stores the research brief tagged with `design-ux-researcher`, `retroboard`, and `research-brief`.
 
 **Step 3 — Hand off to Backend Architect**
 
@@ -110,10 +110,10 @@ Design:
 3. WebSocket events for real-time board updates
 4. Auth strategy recommendation
 
-Remember each deliverable tagged for this project and for the frontend-developer.
+Remember each deliverable tagged for this project and for the engineering-frontend-developer.
 ```
 
-The Backend Architect recalls the sprint plan and research brief from memory automatically. No copy-paste. It stores its schema and API spec tagged with `backend-architect`, `retroboard`, `api-spec`, and `frontend-developer`.
+The Backend Architect recalls the sprint plan and research brief from memory automatically. No copy-paste. It stores its schema and API spec tagged with `engineering-backend-architect`, `retroboard`, `api-spec`, and `engineering-frontend-developer`.
 
 ### Week 2: Build Core Features
 
@@ -227,7 +227,7 @@ The Backend Architect can see exactly what the Reality Checker flagged, recall i
 ## Key Patterns
 
 1. **Tag everything with the project name**: This is what makes recall work. Every memory gets tagged with `retroboard` (or whatever your project is).
-2. **Tag deliverables for the receiving agent**: When the Backend Architect finishes an API spec, it tags the memory with `frontend-developer` so the Frontend Developer finds it on recall.
+2. **Tag deliverables for the receiving agent**: When the Backend Architect finishes an API spec, it tags the memory with `engineering-frontend-developer` so the Frontend Developer finds it on recall.
 3. **Reality Checker gets full visibility**: Because all agents store their work in memory, the Reality Checker can recall everything for the project without you compiling it.
 4. **Rollback replaces manual undo**: When something fails, roll back to the last checkpoint instead of trying to figure out what changed.
 

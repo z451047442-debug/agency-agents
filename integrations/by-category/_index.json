@@ -1,397 +1,379 @@
 {
-  "generated": "2026-07-16",
-  "total_agents": 1363,
-  "total_categories": 65,
+  "generated": "2026-08-13",
+  "total_agents": 1402,
+  "total_categories": 62,
   "categories": [
     {
+      "category": "_solution",
+      "agent_count": 4,
+      "file": "_solution.json",
+      "size_kb": 4.9
+    },
+    {
       "category": "administration",
-      "agent_count": 9,
+      "agent_count": 10,
       "file": "administration.json",
-      "size_kb": 7.1
+      "size_kb": 13.4
     },
     {
       "category": "aerospace",
-      "agent_count": 32,
+      "agent_count": 33,
       "file": "aerospace.json",
-      "size_kb": 24.2
+      "size_kb": 45.1
     },
     {
       "category": "agriculture",
-      "agent_count": 13,
+      "agent_count": 14,
       "file": "agriculture.json",
-      "size_kb": 9.4
+      "size_kb": 17.7
     },
     {
       "category": "automotive",
-      "agent_count": 22,
+      "agent_count": 23,
       "file": "automotive.json",
-      "size_kb": 16.0
+      "size_kb": 29.4
     },
     {
       "category": "beauty",
       "agent_count": 6,
       "file": "beauty.json",
-      "size_kb": 4.4
+      "size_kb": 7.8
     },
     {
       "category": "construction",
-      "agent_count": 42,
+      "agent_count": 43,
       "file": "construction.json",
-      "size_kb": 30.7
+      "size_kb": 58.0
     },
     {
       "category": "customer-service",
-      "agent_count": 12,
+      "agent_count": 13,
       "file": "customer-service.json",
-      "size_kb": 9.9
+      "size_kb": 18.0
     },
     {
       "category": "cybersecurity",
-      "agent_count": 38,
+      "agent_count": 39,
       "file": "cybersecurity.json",
-      "size_kb": 28.3
+      "size_kb": 50.3
     },
     {
       "category": "data-science",
-      "agent_count": 46,
+      "agent_count": 47,
       "file": "data-science.json",
-      "size_kb": 36.9
+      "size_kb": 64.2
     },
     {
       "category": "design",
-      "agent_count": 24,
+      "agent_count": 25,
       "file": "design.json",
-      "size_kb": 17.7
+      "size_kb": 31.0
     },
     {
       "category": "education",
-      "agent_count": 35,
+      "agent_count": 36,
       "file": "education.json",
-      "size_kb": 23.3
+      "size_kb": 45.4
     },
     {
       "category": "emergency",
       "agent_count": 7,
       "file": "emergency.json",
-      "size_kb": 5.5
+      "size_kb": 9.6
     },
     {
       "category": "energy",
-      "agent_count": 43,
+      "agent_count": 44,
       "file": "energy.json",
-      "size_kb": 29.4
+      "size_kb": 52.6
     },
     {
       "category": "engineering",
       "agent_count": 114,
       "file": "engineering.json",
-      "size_kb": 82.1
+      "size_kb": 142.8
     },
     {
       "category": "environmental",
-      "agent_count": 37,
+      "agent_count": 38,
       "file": "environmental.json",
-      "size_kb": 30.2
+      "size_kb": 50.8
     },
     {
       "category": "events",
       "agent_count": 7,
       "file": "events.json",
-      "size_kb": 5.5
+      "size_kb": 9.8
     },
     {
       "category": "fashion",
       "agent_count": 7,
       "file": "fashion.json",
-      "size_kb": 5.5
+      "size_kb": 9.1
     },
     {
       "category": "finance",
-      "agent_count": 38,
+      "agent_count": 53,
       "file": "finance.json",
-      "size_kb": 24.9
+      "size_kb": 65.0
     },
     {
       "category": "food-beverage",
-      "agent_count": 15,
+      "agent_count": 16,
       "file": "food-beverage.json",
-      "size_kb": 10.5
+      "size_kb": 18.9
     },
     {
       "category": "forestry",
       "agent_count": 6,
       "file": "forestry.json",
-      "size_kb": 4.5
+      "size_kb": 8.1
     },
     {
       "category": "game-development",
       "agent_count": 26,
       "file": "game-development.json",
-      "size_kb": 18.8
+      "size_kb": 31.1
     },
     {
       "category": "gis",
-      "agent_count": 15,
+      "agent_count": 16,
       "file": "gis.json",
-      "size_kb": 11.6
+      "size_kb": 19.6
     },
     {
       "category": "government",
       "agent_count": 14,
       "file": "government.json",
-      "size_kb": 9.8
+      "size_kb": 17.5
     },
     {
       "category": "healthcare",
       "agent_count": 54,
       "file": "healthcare.json",
-      "size_kb": 38.8
+      "size_kb": 67.8
     },
     {
       "category": "home-lifestyle",
       "agent_count": 5,
       "file": "home-lifestyle.json",
-      "size_kb": 3.9
+      "size_kb": 6.8
     },
     {
       "category": "hr",
-      "agent_count": 15,
+      "agent_count": 22,
       "file": "hr.json",
-      "size_kb": 10.1
-    },
-    {
-      "category": "hr-tech",
-      "agent_count": 6,
-      "file": "hr-tech.json",
-      "size_kb": 5.0
+      "size_kb": 27.0
     },
     {
       "category": "infrastructure",
-      "agent_count": 97,
+      "agent_count": 111,
       "file": "infrastructure.json",
-      "size_kb": 77.3
+      "size_kb": 150.2
     },
     {
       "category": "insurance",
-      "agent_count": 11,
+      "agent_count": 12,
       "file": "insurance.json",
-      "size_kb": 7.9
+      "size_kb": 14.7
     },
     {
       "category": "iot",
-      "agent_count": 19,
+      "agent_count": 20,
       "file": "iot.json",
-      "size_kb": 13.8
+      "size_kb": 24.0
     },
     {
       "category": "legal",
-      "agent_count": 24,
+      "agent_count": 25,
       "file": "legal.json",
-      "size_kb": 17.1
+      "size_kb": 30.5
     },
     {
       "category": "libraries",
       "agent_count": 3,
       "file": "libraries.json",
-      "size_kb": 2.4
+      "size_kb": 4.1
     },
     {
       "category": "localization",
       "agent_count": 7,
       "file": "localization.json",
-      "size_kb": 5.2
+      "size_kb": 9.0
     },
     {
       "category": "logistics",
-      "agent_count": 21,
+      "agent_count": 22,
       "file": "logistics.json",
-      "size_kb": 14.9
+      "size_kb": 26.9
     },
     {
       "category": "lottery",
-      "agent_count": 12,
+      "agent_count": 13,
       "file": "lottery.json",
-      "size_kb": 9.4
+      "size_kb": 16.7
     },
     {
       "category": "manufacturing",
-      "agent_count": 46,
+      "agent_count": 47,
       "file": "manufacturing.json",
-      "size_kb": 33.1
+      "size_kb": 60.1
     },
     {
       "category": "marketing",
-      "agent_count": 84,
+      "agent_count": 86,
       "file": "marketing.json",
-      "size_kb": 52.7
+      "size_kb": 97.2
     },
     {
       "category": "media-entertainment",
-      "agent_count": 30,
+      "agent_count": 31,
       "file": "media-entertainment.json",
-      "size_kb": 22.1
+      "size_kb": 40.1
     },
     {
       "category": "mining",
       "agent_count": 7,
       "file": "mining.json",
-      "size_kb": 5.6
+      "size_kb": 9.3
     },
     {
       "category": "museums",
       "agent_count": 5,
       "file": "museums.json",
-      "size_kb": 3.8
-    },
-    {
-      "category": "network-engineering",
-      "agent_count": 12,
-      "file": "network-engineering.json",
-      "size_kb": 10.6
+      "size_kb": 6.5
     },
     {
       "category": "nonprofit",
-      "agent_count": 5,
+      "agent_count": 6,
       "file": "nonprofit.json",
-      "size_kb": 4.3
+      "size_kb": 7.9
     },
     {
       "category": "operations",
-      "agent_count": 11,
+      "agent_count": 12,
       "file": "operations.json",
-      "size_kb": 8.1
+      "size_kb": 14.3
     },
     {
       "category": "parenting-family",
       "agent_count": 5,
       "file": "parenting-family.json",
-      "size_kb": 3.9
+      "size_kb": 6.8
     },
     {
       "category": "pets",
       "agent_count": 6,
       "file": "pets.json",
-      "size_kb": 4.8
+      "size_kb": 8.3
     },
     {
       "category": "pharma-biotech",
-      "agent_count": 8,
+      "agent_count": 9,
       "file": "pharma-biotech.json",
-      "size_kb": 6.0
+      "size_kb": 10.7
     },
     {
       "category": "product",
-      "agent_count": 13,
+      "agent_count": 14,
       "file": "product.json",
-      "size_kb": 10.3
+      "size_kb": 17.6
     },
     {
       "category": "project-management",
-      "agent_count": 23,
+      "agent_count": 25,
       "file": "project-management.json",
-      "size_kb": 18.8
+      "size_kb": 33.5
     },
     {
       "category": "publishing",
       "agent_count": 9,
       "file": "publishing.json",
-      "size_kb": 6.6
+      "size_kb": 11.8
     },
     {
       "category": "quality",
       "agent_count": 11,
       "file": "quality.json",
-      "size_kb": 8.5
+      "size_kb": 14.2
     },
     {
       "category": "real-estate",
       "agent_count": 12,
       "file": "real-estate.json",
-      "size_kb": 9.3
+      "size_kb": 15.4
     },
     {
       "category": "retail",
-      "agent_count": 14,
+      "agent_count": 15,
       "file": "retail.json",
-      "size_kb": 10.2
+      "size_kb": 18.3
     },
     {
       "category": "robotics",
-      "agent_count": 15,
+      "agent_count": 16,
       "file": "robotics.json",
-      "size_kb": 10.8
+      "size_kb": 20.0
     },
     {
       "category": "sales",
-      "agent_count": 15,
+      "agent_count": 16,
       "file": "sales.json",
-      "size_kb": 10.0
-    },
-    {
-      "category": "securities",
-      "agent_count": 13,
-      "file": "securities.json",
-      "size_kb": 10.3
-    },
-    {
-      "category": "security",
-      "agent_count": 8,
-      "file": "security.json",
-      "size_kb": 6.1
+      "size_kb": 17.6
     },
     {
       "category": "spatial-computing",
-      "agent_count": 15,
+      "agent_count": 16,
       "file": "spatial-computing.json",
-      "size_kb": 11.4
+      "size_kb": 19.7
     },
     {
       "category": "specialized",
       "agent_count": 26,
       "file": "specialized.json",
-      "size_kb": 18.5
+      "size_kb": 32.7
     },
     {
       "category": "sports",
-      "agent_count": 8,
+      "agent_count": 9,
       "file": "sports.json",
-      "size_kb": 6.0
+      "size_kb": 10.9
     },
     {
       "category": "strategy",
-      "agent_count": 7,
+      "agent_count": 6,
       "file": "strategy.json",
-      "size_kb": 5.2
+      "size_kb": 7.4
     },
     {
       "category": "telecom",
-      "agent_count": 12,
+      "agent_count": 13,
       "file": "telecom.json",
-      "size_kb": 10.1
+      "size_kb": 16.9
     },
     {
       "category": "testing",
-      "agent_count": 20,
+      "agent_count": 22,
       "file": "testing.json",
-      "size_kb": 13.9
+      "size_kb": 25.2
     },
     {
       "category": "thinking-models",
       "agent_count": 13,
       "file": "thinking-models.json",
-      "size_kb": 10.9
+      "size_kb": 19.3
     },
     {
       "category": "tourism",
-      "agent_count": 15,
+      "agent_count": 16,
       "file": "tourism.json",
-      "size_kb": 10.9
+      "size_kb": 19.9
     },
     {
       "category": "web3",
-      "agent_count": 13,
+      "agent_count": 14,
       "file": "web3.json",
-      "size_kb": 9.2
+      "size_kb": 16.1
     }
   ]
 }

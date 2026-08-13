@@ -27,7 +27,7 @@ Where both a `.py` and `.sh` exist for the same task, the `.py` is canonical. Th
 
 ```
 scripts/
-├── lib.sh                   Shared bash helpers: frontmatter parsing, ANSI colors, TUI primitives
+├── _shared/                 Shared Python package: validators, common constants, helpers
 ├── convert.py               Canonical converter: .md -> tool-specific formats (integrations/)
 ├── convert.sh               Shell wrapper: delegates to convert.py
 ├── lint-agents.py            Canonical linter: validates agent .md files
@@ -153,6 +153,6 @@ All multi-platform jobs use `fail-fast: false` so a macos-specific issue does no
 ## Conventions
 
 - **Python scripts**: Use `pathlib.Path`, `REPO = Path(__file__).resolve().parent.parent`, and `_supports_color()` for terminal output.
-- **Shell scripts**: Use `set -euo pipefail`, source `lib.sh` for shared helpers (ANSI, get_field, slugify), and prefer `awk` for frontmatter extraction over external YAML parsers.
+- **Shell scripts**: Use `set -euo pipefail`. Only the installer sources `scripts/install/lib.sh` for shared bash helpers (ANSI colors, progress bars, path resolution, tool detection); all other `.sh` files are thin wrappers that delegate to their canonical Python implementation. Prefer `awk` for frontmatter extraction over external YAML parsers.
 - **Per-tool modules**: Each lives in `scripts/install/install-<tool>.sh` and exposes `install_tool_<tool>()` and `uninstall_tool_<tool>()` functions sourced by `install.sh`.
 - **CI**: Python-based checks run on all three OSes. Shell-heavy checks (convert.sh, create-agent.sh, search-agents.sh) run ubuntu-only to avoid redundant cross-platform coverage.

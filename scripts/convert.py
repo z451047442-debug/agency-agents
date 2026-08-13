@@ -532,6 +532,47 @@ def _agent_fresh(file_path, agent_id, tool, out_dir):
     return primary.stat().st_mtime > file_path.stat().st_mtime
 
 
+# Generator scripts whose code changes should also trigger an aggregate rebuild.
+_AGGREGATE_SCRIPTS = {
+    "hermes": ["scripts/build-hermes-plugin.py"],
+    "oh-my-claudecode": [
+        "scripts/generate-nexus-skills.py",
+        "scripts/generate-omc-hooks.py",
+        "scripts/generate-omc-model-routing.py",
+        "scripts/generate-omc-team-config.py",
+    ],
+}
+
+
+def _aggregate_fresh(agents, tool, out_dir):
+    """True if every aggregate output for tool is newer than every source.
+
+    hermes and oh-my-claudecode each produce whole-roster artifacts (one
+    plugin / a few JSONs), so freshness is all-or-nothing. A missing output
+    counts as stale, which also self-heals partial generator failures.
+    """
+    mtimes = [fp.stat().st_mtime for _, fp, _, _ in agents]
+    index = REPO / "AGENTS.json"
+    if index.exists():
+        mtimes.append(index.stat().st_mtime)
+    for rel in _AGGREGATE_SCRIPTS[tool]:
+        p = REPO / rel
+        if p.exists():
+            mtimes.append(p.stat().st_mtime)
+    newest_source = max(mtimes, default=0)
+
+    if tool == "hermes":
+        outputs = [out_dir / "hermes" / "agency-agents-router" / "data" / "agents.json"]
+    else:
+        outputs = [
+            _OMC_OUT / "hooks.json",
+            _OMC_OUT / "team-config.json",
+            _OMC_OUT / "model-routing.json",
+        ]
+        outputs.extend(_OMC_OUT.glob("skills/nexus-*/SKILL.md"))
+    return all(p.exists() and p.stat().st_mtime > newest_source for p in outputs)
+
+
 def run_tool_incremental(tool, agents, out_dir):
     """Convert only agents whose source is newer than their existing output.
 
@@ -539,12 +580,13 @@ def run_tool_incremental(tool, agents, out_dir):
     run a full (non-incremental) conversion periodically to clean up.
     Returns (written_count, skipped_count).
     """
-    if tool == "hermes":
-        run_hermes(out_dir)
-        return len(agents), 0
-
-    if tool == "oh-my-claudecode":
-        convert_oh_my_claudecode("", "", "", out_dir)
+    if tool in ("hermes", "oh-my-claudecode"):
+        if _aggregate_fresh(agents, tool, out_dir):
+            return 0, len(agents)
+        if tool == "hermes":
+            run_hermes(out_dir)
+        else:
+            convert_oh_my_claudecode("", "", "", out_dir)
         return len(agents), 0
 
     if tool in ("aider", "windsurf"):
@@ -658,22 +700,38 @@ def main():
                 "by-category", "oh-my-claudecode",
             })
 
-            # Compare tmp vs real integrations/
-            result = filecmp.dircmp(str(tmp), str(out_dir))
-            diffs = result.diff_files + result.left_only + result.right_only
-            for root, _dirs, files in os.walk(str(tmp)):
-                for f in files:
-                    rel = os.path.relpath(os.path.join(root, f), str(tmp))
-                    a = os.path.join(str(tmp), rel)
-                    b = os.path.join(str(out_dir), rel)
-                    if os.path.exists(b) and not filecmp.cmp(a, b, shallow=False):
-                        diffs.append(rel)
+            # Compare tmp vs real integrations/ — full recursive diff.
+            # dircmp is shallow, and walking only the tmp side misses nested
+            # additions/removals, so snapshot both trees completely.
+            def _tree_files(root):
+                files = set()
+                for base, _dirs, names in os.walk(str(root)):
+                    rel_base = os.path.relpath(base, str(root))
+                    for f in names:
+                        rel = os.path.normpath(os.path.join(rel_base, f))
+                        files.add(rel)
+                return files
 
-            diffs = sorted(set(diffs))
-            # Exclude files/dirs not managed by convert.py
+            tmp_files = _tree_files(tmp)
+            real_files = _tree_files(out_dir)
+
+            diffs = []
+            for rel in sorted(tmp_files | real_files):
+                a = os.path.join(str(tmp), rel)
+                b = os.path.join(str(out_dir), rel)
+                if rel in tmp_files and rel in real_files:
+                    if not filecmp.cmp(a, b, shallow=False):
+                        diffs.append(rel)
+                elif rel in tmp_files:
+                    diffs.append(rel)  # generated but missing in integrations/
+                else:
+                    diffs.append(rel)  # extra file in integrations/
+            # Exclude files/dirs not managed by convert.py. README.md and
+            # depends_on.json are excluded by basename — each tool dir has
+            # its own committed README that convert never generates.
             diffs = [d for d in diffs if d.split(os.sep)[0] not in _CONVERT_EXTERNAL
-                     and d != "README.md"
-                     and d != "depends_on.json"]
+                     and os.path.basename(d) != "README.md"
+                     and os.path.basename(d) != "depends_on.json"]
             if diffs:
                 error(f"integrations/ is stale ({len(diffs)} files differ).")
                 print("Run: python scripts/convert.py")
@@ -750,6 +808,7 @@ def main():
             else:
                 count = run_tool(tool, agents, out_dir)
                 info(f"Converted {count} agents for {tool}")
+            total += count
 
     # Build depends_on manifest for install-time dependency warnings
     header("Building dependency manifest")

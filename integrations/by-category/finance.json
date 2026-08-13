@@ -1,7 +1,7 @@
 {
   "category": "finance",
-  "agent_count": 38,
-  "generated": "2026-07-16",
+  "agent_count": 53,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "finance-accounts-payable-agent",
@@ -18,6 +18,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Moves money across any rail — crypto, fiat, stablecoins — so you don't have to.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Available",
+        "Payment",
+        "Rails",
+        "Workflows"
+      ],
+      "keywords": [
+        "应付账款",
+        "Agent",
+        "支付处理",
+        "供应商管理与自主支付专家",
+        "Role"
       ]
     },
     {
@@ -35,6 +53,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every invoice is a promise to pay — you process thousands of them, catching errors, optimizing timing, and keeping suppliers happy",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "accounts",
+        "payable",
+        "Automated",
+        "organizations"
+      ],
+      "keywords": [
+        "应付账款",
+        "AP",
+        "自动化专家",
+        "应付账款与发票处理自动化专家，覆盖三单匹配",
+        "PO"
       ]
     },
     {
@@ -53,6 +89,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A sale isn't complete until the cash is in the bank — you manage the gap between \"revenue recognized\" and \"money received,\" keeping DSO low and cash flowing",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "credit",
+        "collections",
+        "Managed",
+        "portfolios"
+      ],
+      "keywords": [
+        "应收账款",
+        "AR",
+        "信用控制专家",
+        "企业应收账款管理与信用控制专家，覆盖客户信用评估",
+        "额度管理"
       ]
     },
     {
@@ -69,6 +123,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Puts a number on the future — mortality, morbidity, catastrophe — turning uncertainty into premium.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "保险精算师",
+        "费率厘定",
+        "准备金评估",
+        "偿付能力管理与",
+        "IFRS"
       ]
     },
     {
@@ -86,6 +158,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Trust but verify — then verify again. Every number tells a story, and you read between the lines.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "审计师",
+        "财务审计",
+        "内控审计",
+        "审计与反舞弊调查专家",
+        "核心信念"
       ]
     },
     {
@@ -98,11 +188,29 @@
       "path": "finance/finance-bank-relationship.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "finance-multi-agent-coordinator",
         "finance-engineering-credit-risk-model"
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A company's relationship with its banks is like a marriage — built on trust, tested in crises, and expensive to break. You manage the relationships that keep the company funded.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "corporate",
+        "banking",
+        "relationships",
+        "Managed"
+      ],
+      "keywords": [
+        "银行关系",
+        "融资经理",
+        "企业银行关系与债权融资专家，覆盖银行授信",
+        "银团贷款",
+        "债券发行"
       ]
     },
     {
@@ -115,12 +223,31 @@
       "path": "finance/finance-bookkeeper-controller.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "finance-multi-agent-coordinator",
         "finance-financial-controller",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every penny accounted for, every close on time — the backbone of financial trust.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "簿记与财务总监",
+        "精通日常会计核算",
+        "财务对账",
+        "月末结账与内控的专业簿记专家",
+        "Dana"
       ]
     },
     {
@@ -139,6 +266,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Companies go public once; getting it right means pricing correctly, telling the story convincingly, and building a shareholder base that supports the stock for years",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "equity",
+        "capital",
+        "markets",
+        "Executed"
+      ],
+      "keywords": [
+        "资本市场",
+        "ECM分析师",
+        "股权资本市场与公司金融分析师，覆盖IPO",
+        "再融资",
+        "配股交易执行"
       ]
     },
     {
@@ -159,6 +304,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Revenue is vanity, profit is sanity, cash is reality — you're the guardian of all three, translating financial data into the strategic decisions that build or break companies",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "首席财务官",
+        "CFO",
+        "企业首席财务官",
+        "财务战略专家，覆盖资本配置",
+        "资金策略"
       ]
     },
     {
@@ -176,6 +339,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You know exactly what it costs to make every product — and more importantly, why it costs that, and where the waste is hiding",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "成本会计师",
+        "成本核算与管理会计专家，覆盖标准成本",
+        "实际成本法",
+        "BOM",
+        "工艺路线成本核算"
       ]
     },
     {
@@ -194,6 +375,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every loan is a bet that the borrower will pay it back — your analysis determines whether the bank wins or loses that bet",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "corporate",
+        "credit",
+        "analysis",
+        "Assessed"
+      ],
+      "keywords": [
+        "信用分析师",
+        "企业信用与信贷风险评估专家，覆盖企业财务报表分析",
+        "现金流建模",
+        "信用评级",
+        "违约概率"
       ]
     },
     {
@@ -212,13 +411,31 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The ERP holds the data; you extract the story. You turn billions of journal entries into dashboards that answer \"how is the business doing?\" in seconds.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "financial",
+        "data",
+        "analysis",
+        "Built"
+      ],
+      "keywords": [
+        "财务数据分析师",
+        "财务数据与商业智能分析专家，覆盖财务数据仓库",
+        "BI建模",
+        "Power",
+        "BI"
       ]
     },
     {
       "id": "finance-director",
       "name": "金融总监",
       "description": "金融领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"💰\"",
+      "emoji": "💰",
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-director.md",
@@ -231,7 +448,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 金融服务与投资管理 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "金融总监",
+        "金融领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -250,6 +486,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every loan is a probability — you build the models that estimate default risk, price credit, and ensure banks hold enough capital to survive the next crisis",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "credit",
+        "risk",
+        "modeling",
+        "Built"
+      ],
+      "keywords": [
+        "信用风险",
+        "IFRS",
+        "CECL模型开发专家",
+        "银行信用风险量化模型与预期信用损失",
+        "ECL"
       ]
     },
     {
@@ -268,6 +522,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Follow the money — it always tells the truth, even when people don't. You find the fraud, quantify the damage, and present evidence that stands up in court.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "forensic",
+        "accounting",
+        "Investigated",
+        "fraud"
+      ],
+      "keywords": [
+        "法务会计",
+        "舞弊调查会计师",
+        "财务舞弊调查与诉讼支持会计专家，覆盖财务报表舞弊",
+        "资产侵占",
+        "贪污腐败调查"
       ]
     },
     {
@@ -286,6 +558,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A power plant costs billions and takes 20 years to pay back — you structure the financing that makes infrastructure possible",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "infrastructure",
+        "Closed",
+        "project",
+        "financings"
+      ],
+      "keywords": [
+        "基础设施",
+        "项目融资",
+        "Project",
+        "Finance",
+        "顾问"
       ]
     },
     {
@@ -304,6 +594,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Risk doesn't go away — it transforms, hides, and reappears where you least expect it. You quantify the risks nobody else sees.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "quantitative",
+        "risk",
+        "Built",
+        "models"
+      ],
+      "keywords": [
+        "金融风险",
+        "市场风险",
+        "FRTB",
+        "XVA",
+        "量化分析师"
       ]
     },
     {
@@ -320,6 +628,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Governments pay companies to innovate — you find every R&D tax credit, every grant, every incentive that turns R&D spending into tax savings",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Secured",
+        "hundreds",
+        "millions",
+        "credits"
+      ],
+      "keywords": [
+        "R&D税务激励",
+        "研发费用加计扣除顾问",
+        "全球研发税收激励与政府补助",
+        "Grants",
+        "顾问，覆盖中国研发费用加计扣除"
       ]
     },
     {
@@ -338,6 +664,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Capital is flowing toward sustainable investments at trillions per year — you separate green from greenwashing using data, frameworks, and rigorous analysis.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "sustainable",
+        "Integrated",
+        "factors",
+        "investment"
+      ],
+      "keywords": [
+        "ESG",
+        "可持续金融分析师",
+        "ESG投资与可持续金融分析专家，覆盖ESG评级",
+        "评分",
+        "MSCI"
       ]
     },
     {
@@ -349,13 +693,32 @@
       "subcategory": "",
       "path": "finance/finance-financial-analyst.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "finance-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "operations-executive-summary-generator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns spreadsheets into strategy — every number tells a story, every model drives",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "财务分析师",
+        "专家级财务分析师，专注财务建模",
+        "预测",
+        "情景分析与数据驱动决策",
+        "Morgan"
       ]
     },
     {
@@ -376,6 +739,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The numbers must be right — every quarter, every disclosure, every footnote. Investors, regulators, and the board depend on your financial statements being accurate.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "corporate",
+        "controller",
+        "Managed",
+        "financial"
+      ],
+      "keywords": [
+        "财务总监",
+        "Controller",
+        "企业财务报告与会计控制专家，覆盖US",
+        "GAAP",
+        "IFRS"
       ]
     },
     {
@@ -394,13 +775,31 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The budget whisperer — turns plans into numbers and numbers into action.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "财务规划分析师",
+        "财务规划与分析专家，专注预算编制",
+        "差异分析",
+        "滚动预测与战略决策支持",
+        "Riley"
       ]
     },
     {
       "id": "finance-general-manager",
       "name": "金融总经理",
       "description": "金融领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"💰\"",
+      "emoji": "💰",
       "category": "finance",
       "subcategory": "",
       "path": "finance/finance-general-manager.md",
@@ -409,13 +808,32 @@
         "cybersecurity-general-manager",
         "finance-director",
         "legal-general-manager",
-        "securities-general-manager",
+        "finance-securities-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "金融总经理",
+        "金融领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -435,6 +853,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Insurance is the mathematics of uncertainty — you quantify life and death, health and sickness, and price the promises that protect families when the worst happens",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "life",
+        "health",
+        "actuarial",
+        "practice"
+      ],
+      "keywords": [
+        "保险精算",
+        "产品定价师",
+        "寿险",
+        "健康险精算与产品开发专家，覆盖死亡率",
+        "发病率经验分析"
       ]
     },
     {
@@ -456,6 +892,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "External auditors check the numbers; you check everything else — the processes, the controls, the risks, and whether anyone is circumventing them",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "内部审计师",
+        "内部审计与内部控制专家，覆盖风险导向审计计划",
+        "SOX",
+        "内控测试",
+        "运营审计"
       ]
     },
     {
@@ -468,12 +922,31 @@
       "path": "finance/finance-investment-researcher.md",
       "depends_on": [
         "automotive-supply-chain",
-        "engineering-multi-agent-systems-architect",
+        "finance-multi-agent-coordinator",
         "finance-web3-analyst",
-        "securities-quant-researcher"
+        "finance-securities-quant-researcher"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Digs deeper than the consensus — finds alpha in the footnotes and risks in the",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "投资研究员",
+        "专家级投资研究员，专注市场研究",
+        "尽职调查",
+        "投资组合分析与资产估值",
+        "Quinn"
       ]
     },
     {
@@ -495,6 +968,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Taking a company public transforms its financial operations permanently — you guide finance teams through the gauntlet and out the other side, ready for public company life",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "上市与资本市场财务顾问",
+        "企业上市",
+        "IPO",
+        "与资本市场财务专家，覆盖A股",
+        "港股"
       ]
     },
     {
@@ -512,6 +1003,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every loan is someone's dream — a home, a business, a fresh start. Move it through the pipeline with precision, compliance, and genuine care for the person behind the application.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "贷款专员助理",
+        "全面的贷款专员助理，覆盖借款人受理",
+        "预审资格",
+        "文件收集",
+        "管道管理与交割协调"
       ]
     },
     {
@@ -529,6 +1038,58 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Companies are bought, not sold — the best deals create value that neither company could achieve alone. You structure the transactions that reshape industries.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "investment",
+        "banking",
+        "Executed",
+        "transactions"
+      ],
+      "keywords": [
+        "并购",
+        "企业融资",
+        "M&A",
+        "顾问",
+        "企业并购与投资银行顾问，覆盖并购目标筛选"
+      ]
+    },
+    {
+      "id": "finance-multi-agent-coordinator",
+      "name": "Finance Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for finance — FP&A, accounting, treasury,",
+      "emoji": "💰",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating finance specialists into coherent multi-agent workflows",
+      "tags": [
+        "finance",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Finance",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -541,11 +1102,29 @@
       "path": "finance/finance-payroll-manager.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "finance-multi-agent-coordinator",
         "finance-accounts-payable-agent"
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Payroll errors are the fastest way to lose employee trust — you ensure every employee is paid correctly, on time, with every tax and deduction properly handled",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "payroll",
+        "processing",
+        "Managed",
+        "thousands"
+      ],
+      "keywords": [
+        "薪酬核算",
+        "个税专家",
+        "企业薪酬核算与个人所得税专家，覆盖月度薪资计算",
+        "社保公积金核算",
+        "个税预扣"
       ]
     },
     {
@@ -563,6 +1142,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Money is personal — you don't just manage portfolios, you manage hopes, fears, and retirement dreams.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "个人理财顾问",
+        "家庭资产配置",
+        "保险规划",
+        "税务优化与养老",
+        "教育金规划专家"
       ]
     },
     {
@@ -579,6 +1176,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds signal in noise at nanosecond speed — alpha is temporary, but a robust backtesting framework is forever.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "量化交易分析师",
+        "量化策略研发",
+        "因子挖掘",
+        "回测框架构建与高频交易系统专家",
+        "核心信念"
       ]
     },
     {
@@ -596,6 +1211,583 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sees the downside before anyone else — and puts a number on it so the business can take calculated risks.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "风险管理专家",
+        "市场风险",
+        "信用风险",
+        "操作风险与",
+        "VaR"
+      ]
+    },
+    {
+      "id": "finance-securities-compliance-officer",
+      "name": "证券合规官",
+      "description": "证券公司与基金合规专家，覆盖SEC/CSRC/证监会监管合规、反洗钱(AML)/KYC、内幕交易防控、销售适当性与信息披露合规",
+      "emoji": "📋",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-compliance-officer.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "design-engineering-user-research-system",
+        "finance-securities-multi-agent-coordinator",
+        "marketing-market-research",
+        "operations-report-distribution-agent",
+        "finance-securities-derivatives-trader"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The market can stay irrational longer than you can stay solvent — but it can't",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "securities",
+        "compliance",
+        "Managed",
+        "regulatory"
+      ],
+      "keywords": [
+        "证券合规官",
+        "证券公司与基金合规专家，覆盖SEC",
+        "CSRC",
+        "证监会监管合规",
+        "反洗钱"
+      ]
+    },
+    {
+      "id": "finance-securities-derivatives-trader",
+      "name": "衍生品交易员",
+      "description": "金融衍生品交易与定价专家，覆盖期货/期权/互换定价模型(Black-Scholes/二叉树)、希腊值/Greeks风险管理、波动率交易与做市策略",
+      "emoji": "📉",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-derivatives-trader.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "finance-cost-accountant",
+        "finance-engineering-risk-quant",
+        "finance-quant-trader",
+        "finance-risk-manager",
+        "finance-securities-compliance-officer",
+        "finance-securities-multi-agent-coordinator"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Derivatives are weapons of financial mass destruction — or precision instruments",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "trading",
+        "derivatives",
+        "across",
+        "equities"
+      ],
+      "keywords": [
+        "衍生品交易员",
+        "金融衍生品交易与定价专家，覆盖期货",
+        "期权",
+        "互换定价模型",
+        "Black-Scholes"
+      ]
+    },
+    {
+      "id": "finance-securities-director",
+      "name": "证券总监",
+      "description": "证券领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "emoji": "📈",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-director.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "hr-tech-people-analytics",
+        "finance-securities-general-manager",
+        "specialized-multi-agent-director",
+        "specialized-multi-agent-president",
+        "specialized-multi-agent-project-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 证券投资与资本市场 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "证券总监",
+        "证券领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
+      ]
+    },
+    {
+      "id": "finance-securities-equity-analyst",
+      "name": "证券分析师",
+      "description": "股票研究与证券分析专家，覆盖基本面分析/财务建模、DCF/可比估值、行业/公司深度研究、盈利预测与研报撰写",
+      "emoji": "📈",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-equity-analyst.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "finance-securities-multi-agent-coordinator",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "government-public-safety-analyst",
+        "marketing-market-research",
+        "retail-customer-insight-analyst",
+        "finance-securities-compliance-officer"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every stock tells a story — you read the financials, build the model, and separate",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Skills",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "证券分析师",
+        "股票研究与证券分析专家，覆盖基本面分析",
+        "财务建模",
+        "DCF",
+        "可比估值"
+      ]
+    },
+    {
+      "id": "finance-securities-family-office",
+      "name": "家族办公室投资顾问",
+      "description": "家族办公室投资管理专家，覆盖多代财富传承战略、公开/私募/实物跨资产配置、直投与联合投资、税务优化结构、慈善与影响力投资、家族治理与投资政策、综合业绩报告",
+      "emoji": "🏰",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-family-office.md",
+      "depends_on": [
+        "finance-securities-multi-agent-coordinator",
+        "finance-capital-markets-analyst",
+        "government-public-safety-analyst",
+        "legal-engineering-legal-document-automation",
+        "marketing-cross-border-ecommerce",
+        "marketing-europe-market",
+        "marketing-private-domain-operator",
+        "finance-securities-compliance-officer"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Wealth is not just about returns — you build structures that preserve capital",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Skills",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "家族办公室投资顾问",
+        "家族办公室投资管理专家，覆盖多代财富传承战略",
+        "公开",
+        "私募",
+        "实物跨资产配置"
+      ]
+    },
+    {
+      "id": "finance-securities-fixed-income",
+      "name": "固收/债券分析师",
+      "description": "固定收益与信用分析专家，覆盖国债/企业债/可转债分析、收益率曲线/久期/凸性、信用评级/违约概率与利差策略",
+      "emoji": "📊",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-fixed-income.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "finance-cost-accountant",
+        "finance-credit-analyst",
+        "finance-engineering-credit-risk-model",
+        "finance-risk-manager",
+        "finance-securities-compliance-officer",
+        "finance-securities-multi-agent-coordinator",
+        "project-management-jira-workflow-steward"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Equities get the headlines; fixed income moves the world. The bond market is",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "analyzing",
+        "fixed",
+        "income",
+        "markets"
+      ],
+      "keywords": [
+        "固收",
+        "债券分析师",
+        "固定收益与信用分析专家，覆盖国债",
+        "企业债",
+        "可转债分析"
+      ]
+    },
+    {
+      "id": "finance-securities-fund-manager",
+      "name": "基金经理",
+      "description": "基金经理/组合管理人专家，覆盖投资哲学与流程设计、组合构建与资产配置、自上而下/自下而上证券选择、风险预算与敞口管理、业绩归因与分析、投资者沟通与报告、ESG整合投资管理",
+      "emoji": "💼",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-fund-manager.md",
+      "depends_on": [
+        "construction-engineering-bridge-structural",
+        "finance-securities-multi-agent-coordinator",
+        "finance-capital-markets-analyst",
+        "marketing-abm-account-based",
+        "project-management-jira-workflow-steward",
+        "finance-securities-compliance-officer"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Investing is not beating others at their game — it's controlling yourself at",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Skills",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "基金经理",
+        "组合管理人专家，覆盖投资哲学与流程设计",
+        "组合构建与资产配置",
+        "自上而下",
+        "自下而上证券选择"
+      ]
+    },
+    {
+      "id": "finance-securities-general-manager",
+      "name": "证券总经理",
+      "description": "证券领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "emoji": "📈",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-general-manager.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "finance-general-manager",
+        "pets-general-manager",
+        "real-estate-general-manager",
+        "finance-securities-director",
+        "specialized-customer-success-manager"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "证券总经理",
+        "证券领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
+      ]
+    },
+    {
+      "id": "finance-securities-macro-strategist",
+      "name": "宏观策略师",
+      "description": "全球宏观与投资策略专家，覆盖利率/汇率/通胀研判、央行政策解读、资产轮动框架(美林时钟)、地缘风险与跨资产配置策略",
+      "emoji": "🌍",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-macro-strategist.md",
+      "depends_on": [
+        "finance-securities-multi-agent-coordinator",
+        "finance-cost-accountant",
+        "finance-risk-manager",
+        "finance-transfer-pricing",
+        "finance-securities-compliance-officer",
+        "web3-defi-strategist"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every asset class moves to the rhythm of the macro cycle — you hear the music",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Frameworks",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "宏观策略师",
+        "全球宏观与投资策略专家，覆盖利率",
+        "汇率",
+        "通胀研判",
+        "央行政策解读"
+      ]
+    },
+    {
+      "id": "finance-securities-multi-agent-coordinator",
+      "name": "Securities Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for securities — trading, analysis,",
+      "emoji": "📈",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating securities specialists into coherent multi-agent workflows",
+      "tags": [
+        "finance",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Securities",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
+      ]
+    },
+    {
+      "id": "finance-securities-portfolio-manager",
+      "name": "投资组合经理",
+      "description": "资产管理与组合构建专家，覆盖大类资产配置、组合优化(均值方差/风险平价)、再平衡策略、业绩归因(Brinson)与风险管理",
+      "emoji": "🧩",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-portfolio-manager.md",
+      "depends_on": [
+        "finance-securities-multi-agent-coordinator",
+        "finance-accounts-payable-agent",
+        "finance-capital-markets-analyst",
+        "marketing-abm-account-based",
+        "finance-securities-compliance-officer"
+      ],
+      "nexus_roles": [
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Diversification is the only free lunch in finance — you assemble assets that",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "投资组合经理",
+        "资产管理与组合构建专家，覆盖大类资产配置",
+        "组合优化",
+        "均值方差",
+        "风险平价"
+      ]
+    },
+    {
+      "id": "finance-securities-quant-researcher",
+      "name": "量化研究员",
+      "description": "量化研究与因子挖掘专家，覆盖Alpha信号研究/因子发现、统计套利策略开发、回测框架设计、另类数据采集与处理、市场微观结构分析、投资组合构建与优化、风险模型开发",
+      "emoji": "🔢",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-quant-researcher.md",
+      "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
+        "data-science-engineering-language-model-nlp",
+        "education-academic-research-scientist",
+        "finance-capital-markets-analyst",
+        "finance-engineering-credit-risk-model",
+        "finance-engineering-risk-quant",
+        "marketing-market-research",
+        "finance-securities-compliance-officer"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In a world of noise, you find the signal — every basis point of alpha is hidden in the data, waiting for the right model to uncover it",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Skills",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "量化研究员",
+        "量化研究与因子挖掘专家，覆盖Alpha信号研究",
+        "因子发现",
+        "统计套利策略开发",
+        "回测框架设计"
+      ]
+    },
+    {
+      "id": "finance-securities-technical-analyst",
+      "name": "技术分析师",
+      "description": "技术分析与量化择时专家，覆盖K线/均线/布林/RSI/MACD/WR指标、量价关系、形态识别(头肩/双底/旗形)、波浪理论与多时间框架分析",
+      "emoji": "📉",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-technical-analyst.md",
+      "depends_on": [
+        "design-engineering-user-research-system",
+        "finance-securities-multi-agent-coordinator",
+        "marketing-market-research",
+        "marketing-paid-media-search-query-analyst",
+        "operations-report-distribution-agent",
+        "finance-securities-compliance-officer",
+        "testing-engineering-test-automation-framework"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Price is the ultimate truth — every fundamental, every rumor, every emotion",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Tools",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "技术分析师",
+        "技术分析与量化择时专家，覆盖K线",
+        "均线",
+        "布林",
+        "RSI"
+      ]
+    },
+    {
+      "id": "finance-securities-trader",
+      "name": "证券交易员",
+      "description": "证券交易与执行专家，覆盖日内/波段/趋势交易策略、市场微观结构、算法交易/TWAP/VWAP、流动性分析与风险控制",
+      "emoji": "💹",
+      "category": "finance",
+      "subcategory": "",
+      "path": "finance/finance-securities-trader.md",
+      "depends_on": [
+        "finance-capital-markets-analyst",
+        "finance-cost-accountant",
+        "finance-engineering-risk-quant",
+        "finance-quant-trader",
+        "finance-risk-manager",
+        "finance-securities-derivatives-trader",
+        "data-science-ml-engineer",
+        "cybersecurity-engineering-risk-quant",
+        "legal-corporate-attorney"
+      ],
+      "nexus_roles": [
+        "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The market is a voting machine in the short run and a weighing machine in the long run — you trade the voting, invest the weighing",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Skills",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "证券交易员",
+        "证券交易与执行专家，覆盖日内",
+        "波段",
+        "趋势交易策略",
+        "市场微观结构"
       ]
     },
     {
@@ -608,14 +1800,33 @@
       "path": "finance/finance-tax-strategist.md",
       "depends_on": [
         "automotive-supply-chain",
-        "engineering-multi-agent-systems-architect",
+        "finance-multi-agent-coordinator",
         "environmental-water-treatment",
         "finance-engineering-tax-incentives",
         "hr-compensation-benefits"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds every legal dollar of savings in the tax code — compliance is the floor,",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "税务策略师",
+        "专家级税务策略师，专注税务优化",
+        "跨管辖区合规",
+        "转移定价与战略税务规划",
+        "Cassandra"
       ]
     },
     {
@@ -628,13 +1839,31 @@
       "path": "finance/finance-transfer-pricing.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "finance-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "operations-report-distribution-agent"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cross-border transactions between related entities are perfectly legal — but every one must be priced as if the parties were strangers. You ensure they are.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "transfer",
+        "pricing",
+        "international",
+        "Advised"
+      ],
+      "keywords": [
+        "转让定价",
+        "国际税务专家",
+        "转让定价与跨境税务筹划专家，覆盖关联交易",
+        "独立交易原则",
+        "转让定价文档"
       ]
     },
     {
@@ -648,11 +1877,30 @@
       "depends_on": [
         "automotive-engineering-functional-safety",
         "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "finance-multi-agent-coordinator",
         "infrastructure-identity-access"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cash is the oxygen of the business — you make sure the company never runs out",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "资金管理与司库专家",
+        "企业资金",
+        "司库管理专家，覆盖现金流预测与管理",
+        "银行关系",
+        "授信"
       ]
     },
     {
@@ -670,6 +1918,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Wealth isn't just about making money — it's about preserving it, growing it, and transferring it across generations. You manage the complexity for those who've earned it.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "private",
+        "banking",
+        "wealth",
+        "management"
+      ],
+      "keywords": [
+        "财富管理",
+        "私人银行顾问",
+        "高净值客户财富管理与私人银行专家，覆盖资产配置",
+        "投资组合管理",
+        "家族信托"
       ]
     },
     {
@@ -686,6 +1952,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reads blockchains like financial statements — every transaction tells a story, every wallet has a strategy.",
+      "lifecycle": "published",
+      "tags": [
+        "finance",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "Web3",
+        "分析师",
+        "链上数据分析",
+        "DeFi",
+        "协议评估"
       ]
     }
   ]

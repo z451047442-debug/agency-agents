@@ -35,7 +35,6 @@ services:
   - name: Upload-Post
     url: https://upload-post.com
     tier: free
-emoji: 🎠
 vibe: Autonomously generates viral carousels from any URL and publishes them to feed.
 
 

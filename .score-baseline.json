@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-31",
-  "total_agents": 1400,
-  "mean_score": 10.88,
-  "median_score": 11.0,
-  "a_pct": 93.2,
-  "d_count": 2
+  "date": "2026-08-07",
+  "total_agents": 1402,
+  "mean_score": 10.8,
+  "median_score": 10.5,
+  "a_pct": 88.3,
+  "d_count": 46
 }

@@ -31,7 +31,6 @@ depends_on:
   - operations-report-distribution-agent
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
-emoji: 📱
 vibe: Makes every dollar on Meta, LinkedIn, and TikTok ads work harder.
 
 

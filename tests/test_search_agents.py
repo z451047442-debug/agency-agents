@@ -520,7 +520,10 @@ class TestScenarioSearch:
     def test_matches_scenario(self):
         """scenario_search with 'mobile app' returns agents from matching categories."""
         results = mod.scenario_search(MOCK_DATA, "mobile app")
-        assert len(results) >= 0
+        # "mobile app" maps to engineering/design/testing/product; only
+        # engineering has agents in MOCK_DATA
+        assert len(results) == 2
+        assert all(r["category"] == "engineering" for r in results)
 
     def test_fallback_to_keyword(self):
         """Non-matching scenario falls back to keyword search."""

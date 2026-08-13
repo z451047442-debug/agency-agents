@@ -1,7 +1,7 @@
 {
   "category": "testing",
-  "agent_count": 20,
-  "generated": "2026-07-16",
+  "agent_count": 22,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "testing-accessibility-auditor",
@@ -21,6 +21,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If it's not tested with a screen reader, it's not accessible.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Audit",
+        "Overview",
+        "Methodology",
+        "Summary"
+      ],
+      "keywords": [
+        "无障碍审计师",
+        "WCAG",
+        "审计",
+        "辅助技术测试与包容性设计专家",
+        "Role"
       ]
     },
     {
@@ -34,12 +52,30 @@
       "depends_on": [
         "cybersecurity-penetration-tester",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
-        "security-penetration-tester",
+        "testing-multi-agent-coordinator",
+        "cybersecurity-penetration-tester",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Breaks your API before your users do.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Technical",
+        "Process",
+        "Deliverable",
+        "Template"
+      ],
+      "keywords": [
+        "API",
+        "测试工程师",
+        "验证",
+        "集成测试与端点核查专家",
+        "Role"
       ]
     },
     {
@@ -57,7 +93,26 @@
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every manual test is a bug you'll miss; every automated test is a bug you'll",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "自动化测试架构师",
+        "测试自动化架构与框架设计专家，覆盖测试策略",
+        "框架选型",
+        "CI",
+        "CD测试集成"
       ]
     },
     {
@@ -71,11 +126,30 @@
       "depends_on": [
         "engineering-ai-agent-developer",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "testing-automation-architect"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Testing finds bugs; quality prevents them. You build the organization that does",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "leading",
+        "organizations",
+        "transformed",
+        "manual"
+      ],
+      "keywords": [
+        "测试总监",
+        "QA",
+        "Director",
+        "软件测试与质量保证最高负责人，覆盖测试策略",
+        "质量体系"
       ]
     },
     {
@@ -90,12 +164,30 @@
         "engineering-ai-agent-developer",
         "engineering-android-framework",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Tests that run in CI are worth 100x more than tests that run on someone's laptop.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "building",
+        "test",
+        "automation",
+        "scale"
+      ],
+      "keywords": [
+        "测试自动化开发工程师",
+        "SDET",
+        "II",
+        "高级测试自动化与测试框架开发专家，覆盖Selenium",
+        "Cypress"
       ]
     },
     {
@@ -110,11 +202,29 @@
         "engineering-ai-agent-developer",
         "engineering-code-reviewer",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "testing-accessibility-auditor"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Products fail in the field because weaknesses weren't found in the lab. You",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "reliability",
+        "engineering",
+        "Found",
+        "weak"
+      ],
+      "keywords": [
+        "可靠性测试",
+        "HALT",
+        "HASS",
+        "工程师",
+        "产品可靠性工程与加速寿命测试专家，覆盖HALT高加速寿命测试"
       ]
     },
     {
@@ -128,12 +238,30 @@
       "depends_on": [
         "engineering-code-reviewer",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "testing-playwright-expert"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You don't find bugs — you build the systems that find bugs before they ship,",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "测试开发工程师",
+        "SDET",
+        "自动化测试框架",
+        "CI",
+        "CD"
       ]
     },
     {
@@ -146,11 +274,29 @@
       "path": "testing/testing-engineering-software-tester.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "manufacturing-multi-agent-coordinator",
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Code that can't be tested can't be trusted. You write the tests that make refactoring safe and deployment confident.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "SDET",
+        "Built",
+        "test",
+        "frameworks"
+      ],
+      "keywords": [
+        "软件开发工程师",
+        "测试方向",
+        "专注于测试的软件开发工程师",
+        "SDET",
+        "，覆盖单元测试"
       ]
     },
     {
@@ -164,13 +310,30 @@
       "depends_on": [
         "education-special-needs",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
-        "operations-report-distribution-agent",
+        "testing-multi-agent-coordinator",
         "testing-playwright-expert"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A well-designed test framework makes writing tests so easy that developers do",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "designing",
+        "test",
+        "frameworks",
+        "adopted"
+      ],
+      "keywords": [
+        "测试框架架构师",
+        "企业级测试自动化框架设计专家，覆盖多语言",
+        "多平台测试框架",
+        "Pytest",
+        "JUnit"
       ]
     },
     {
@@ -192,6 +355,59 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Screenshot-obsessed QA who won't approve anything without visual proof.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Mandatory",
+        "Process",
+        "Methodology",
+        "Accordion"
+      ],
+      "keywords": [
+        "测试证据采集员",
+        "截图",
+        "QA",
+        "视觉验证与",
+        "Bug"
+      ]
+    },
+    {
+      "id": "testing-launch-readiness-auditor",
+      "name": "Launch Readiness Auditor",
+      "description": "Runs the pre-launch shift-left checklist — Lighthouse SEO, meta tags, sitemap, analytics events, accessibility audit, brand review, load test sign-off — and produces a Launch Readiness Certificate",
+      "emoji": "🔍",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-launch-readiness-auditor.md",
+      "depends_on": [
+        "testing-performance-benchmarker",
+        "testing-workflow-optimizer",
+        "marketing-app-store-optimizer"
+      ],
+      "nexus_roles": [
+        "phase-0-discovery",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-08-05",
+      "vibe": "You don't launch and pray. You verify every gate, sign off every checklist item, and only then flip the switch.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Launch",
+        "Readiness",
+        "Checklist",
+        "Collaboration"
+      ],
+      "keywords": [
+        "Launch Readiness Auditor",
+        "shift-left",
+        "pre-launch checklist"
       ]
     },
     {
@@ -206,12 +422,30 @@
         "engineering-code-reviewer",
         "engineering-cross-platform",
         "engineering-i18n-l10n",
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "engineering-programming-language",
         "testing-accessibility-auditor"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your app works perfectly in English — but does it break in Arabic? In Japanese?",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "localization",
+        "internationalization",
+        "Shipped",
+        "products"
+      ],
+      "keywords": [
+        "本地化",
+        "国际化测试专家",
+        "软件本地化",
+        "L10n",
+        "与国际化"
       ]
     },
     {
@@ -233,6 +467,58 @@
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your app runs on 10,000 different device models — you test across the ones that matter, automate the rest, and catch crashes before users do",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "移动应用测试专家",
+        "移动应用测试专家，覆盖iOS",
+        "Android真机测试",
+        "设备碎片化管理",
+        "手势"
+      ]
+    },
+    {
+      "id": "testing-multi-agent-coordinator",
+      "name": "Testing Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for testing — QA automation, performance,",
+      "emoji": "🧪",
+      "category": "testing",
+      "subcategory": "",
+      "path": "testing/testing-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating testing specialists into coherent multi-agent workflows",
+      "tags": [
+        "testing",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Testing",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -245,19 +531,38 @@
       "path": "testing/testing-performance-benchmarker.md",
       "depends_on": [
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "infrastructure-engineering-incident-response-commander",
         "specialized-personal-growth-mentor",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
+        "phase-6-operate",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Measures everything, optimizes what matters, and proves the improvement.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Technical",
+        "Process",
+        "Deliverable",
+        "Template"
+      ],
+      "keywords": [
+        "性能基准测试专家",
+        "性能测试",
+        "压力测试与速度优化专家",
+        "Role",
+        "Personality"
       ]
     },
     {
       "id": "testing-playwright-expert",
       "name": "Playwright自动化测试专家",
-      "description": "Playwright端到端测试与浏览器自动化专家,覆盖Playwright Test Runner(Test/Expect/Fixtures/Hooks)与TypeScript配置、Page Object Model与测试架构模式、API testing(APIRequestContext)与混合UI/API测试策略、视觉回归测试(screenshot/toHaveScreenshot/pixelmatch)与可访问性测试(axe-core integration)、CI集成(GitHub Actions/Docker/parallel sharding)与Trace Viewer调试",
+      "description": "Playwright端到端测试与浏览器自动化专家,覆盖Playwright Test Runner(Test/Expect/Fixtures/Hooks)与TypeScript配置、Page",
       "emoji": "🎭",
       "category": "testing",
       "subcategory": "",
@@ -266,13 +571,31 @@
         "data-science-feature-store",
         "design-engineering-accessibility-engineer",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "infrastructure-github-actions-expert",
         "testing-api-tester"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Playwright auto-waits, isolates browser contexts, and debugs with traces. The",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "Playwright自动化测试专家",
+        "Playwright端到端测试与浏览器自动化专家",
+        "覆盖Playwright",
+        "Test",
+        "Runner"
       ]
     },
     {
@@ -292,6 +615,24 @@
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Defaults to \"NEEDS WORK\" — requires overwhelming proof for production readiness.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Mandatory",
+        "Process",
+        "Integration",
+        "Methodology"
+      ],
+      "keywords": [
+        "生产就绪验证员",
+        "基于证据的认证",
+        "质量门与发布认证专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -303,13 +644,30 @@
       "subcategory": "",
       "path": "testing/testing-security-penetration.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "legal-engineering-legal-document-automation",
-        "operations-report-distribution-agent",
         "testing-accessibility-auditor"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You think like an attacker so you can defend like a professional — finding the",
+      "lifecycle": "draft",
+      "tags": [
+        "testing",
+        "penetration",
+        "Found",
+        "vulnerabilities",
+        "hundreds"
+      ],
+      "keywords": [
+        "安全渗透测试工程师",
+        "应用安全渗透测试专家，覆盖OWASP",
+        "Top10",
+        "API安全测试",
+        "Web"
       ]
     },
     {
@@ -322,7 +680,7 @@
       "path": "testing/testing-test-results-analyzer.md",
       "depends_on": [
         "construction-cost-estimator",
-        "engineering-multi-agent-systems-architect",
+        "testing-multi-agent-coordinator",
         "insurance-auto-claims",
         "operations-executive-summary-generator",
         "testing-playwright-expert",
@@ -330,6 +688,24 @@
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reads test results like a detective reads evidence — nothing gets past.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Technical",
+        "Process",
+        "Deliverable",
+        "Template"
+      ],
+      "keywords": [
+        "测试结果分析师",
+        "测试评估",
+        "质量指标分析与覆盖率报告专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -350,6 +726,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Tests and recommends the right tools so your team doesn't waste time on the wrong ones.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Technical",
+        "Outputs",
+        "Specification",
+        "Methodology"
+      ],
+      "keywords": [
+        "工具评估专家",
+        "技术评估与工具选型专家",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
@@ -364,12 +758,29 @@
         "aerospace-flight-test-engineer",
         "data-science-engineering-language-model-nlp",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
-        "operations-report-distribution-agent",
+        "testing-multi-agent-coordinator",
         "testing-playwright-expert"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your product makes perfect sense to you — but you built it; the real test is",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "可用性测试专家",
+        "可用性与用户体验测试专家，覆盖可用性评估方法",
+        "用户测试执行",
+        "启发式评估",
+        "眼动追踪分析与可访问性测试"
       ]
     },
     {
@@ -389,7 +800,26 @@
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
-        "phase-4-hardening"
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds the bottleneck, fixes the process, automates the rest.",
+      "lifecycle": "published",
+      "tags": [
+        "testing",
+        "Technical",
+        "Outputs",
+        "Specification",
+        "Methodology"
+      ],
+      "keywords": [
+        "工作流优化专家",
+        "流程分析",
+        "工作流改进与自动化机会挖掘专家",
+        "Role",
+        "Personality"
       ]
     }
   ]

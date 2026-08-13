@@ -128,10 +128,10 @@ def count_substantive_sections(body):
 
 CRITICAL_RISK_CATEGORIES = frozenset({
     "healthcare", "pharma-biotech", "aerospace", "legal",
-    "cybersecurity", "security", "emergency",
+    "cybersecurity", "emergency",
 })
 
 HIGH_RISK_CATEGORIES = frozenset({
-    "finance", "insurance", "securities", "automotive",
+    "finance", "insurance", "automotive",
     "construction", "energy", "mining",
 })

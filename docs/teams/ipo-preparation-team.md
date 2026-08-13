@@ -4,18 +4,18 @@
 IPO readiness — financial compliance, legal due diligence, prospectus drafting, investor relations.
 
 - **NEXUS Mode**: Full (6 agents, 18-24 months)
-- **Related Runbook**: [scenario-incident-response.md](../runbooks/scenario-incident-response.md)  *(IPO-specific runbook not yet created; this team follows NEXUS-Full mode directly)*
+- **Related Runbook**: 无 IPO 专属 runbook（尚未创建）；本团队直接采用 NEXUS-Full 模式执行
 
 ## Agent Roster
 
 | Role | Agent | Responsibility |
 |------|-------|---------------|
-| CFO | `chief-financial-officer` | Financial strategy, equity story, investor narrative |
+| CFO | `specialized-chief-financial-officer` | Financial strategy, equity story, investor narrative |
 | IPO Advisor | `finance-ipo-advisor` | IPO process, financial remediation, prospectus financials |
 | Controller | `finance-financial-controller` | Audit-ready financials, SOX/internal controls |
 | General Counsel | `legal-general-counsel` | Legal DD, regulatory compliance, prospectus legal sections |
 | Internal Audit | `finance-internal-auditor` | SOX testing, control validation |
-| Strategist | `strategy-business-strategist` | Corporate positioning, competitive landscape analysis |
+| Strategist | `specialized-business-strategist` | Corporate positioning, competitive landscape analysis |
 
 ## Workflow
 

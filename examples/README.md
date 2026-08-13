@@ -57,7 +57,6 @@ NEXUS-Micro pipeline demonstrating a 5-agent code review workflow: Code Reviewer
 
 ### [nexus-sprint-notification-system.md](./nexus-sprint-notification-system.md)
 Complete NEXUS-Sprint example: 18 agents across 6 phases building a Smart Notification System. Covers the full pipeline from Discovery (Phase 0) through Operate (Phase 6) with quality gates, deliverables, and launch checklist.
-NEXUS-Micro pipeline demonstrating a 5-agent code review workflow: Code Reviewer → Security Architect → Performance Benchmarker → Accessibility Auditor → Evidence Collector.
 
 ### [workflow-startup-mvp.md](./workflow-startup-mvp.md)
 NEXUS-Sprint example: building an MVP from idea to launch in 4-6 weeks.

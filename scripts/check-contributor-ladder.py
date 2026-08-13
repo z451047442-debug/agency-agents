@@ -32,11 +32,29 @@ def _run_git(cmd):
     return result.stdout.strip()
 
 
-def _count_merged_prs_per_author():
-    output = _run_git([
-        "git", "log", "main", "--merges", "--format=%an",
-        "--since=2025-01-01",
-    ])
+def _first_commit_date():
+    """Return the repo's first commit date (YYYY-MM-DD), or None if unavailable.
+
+    Used as the default --since anchor so the ladder always covers the full
+    project history instead of a hardcoded date that goes stale over time.
+    """
+    try:
+        output = _run_git([
+            "git", "log", "--reverse", "--format=%ad", "--date=short",
+        ])
+    except OSError:
+        return None
+    for line in output.splitlines():
+        if line.strip():
+            return line.strip()
+    return None
+
+
+def _count_merged_prs_per_author(since=None):
+    cmd = ["git", "log", "main", "--merges", "--format=%an"]
+    if since:
+        cmd.append(f"--since={since}")
+    output = _run_git(cmd)
     counts: dict[str, int] = defaultdict(int)
     for line in output.split("\n"):
         if line.strip():
@@ -44,11 +62,11 @@ def _count_merged_prs_per_author():
     return dict(counts)
 
 
-def _count_reviews_per_reviewer():
-    output = _run_git([
-        "git", "log", "main", "--format=%b",
-        "--since=2025-01-01",
-    ])
+def _count_reviews_per_reviewer(since=None):
+    cmd = ["git", "log", "main", "--format=%b"]
+    if since:
+        cmd.append(f"--since={since}")
+    output = _run_git(cmd)
     counts: dict[str, int] = defaultdict(int)
     for line in output.split("\n"):
         if line.startswith("Reviewed-by:") or line.startswith("Co-authored-by:"):
@@ -58,11 +76,11 @@ def _count_reviews_per_reviewer():
     return dict(counts)
 
 
-def _count_commits_per_author():
-    output = _run_git([
-        "git", "log", "main", "--no-merges", "--format=%an",
-        "--since=2025-01-01",
-    ])
+def _count_commits_per_author(since=None):
+    cmd = ["git", "log", "main", "--no-merges", "--format=%an"]
+    if since:
+        cmd.append(f"--since={since}")
+    output = _run_git(cmd)
     counts: dict[str, int] = defaultdict(int)
     for line in output.split("\n"):
         if line.strip():
@@ -71,9 +89,10 @@ def _count_commits_per_author():
 
 
 def check_eligibility():
-    prs = _count_merged_prs_per_author()
-    reviews = _count_reviews_per_reviewer()
-    commits = _count_commits_per_author()
+    since = _first_commit_date()
+    prs = _count_merged_prs_per_author(since)
+    reviews = _count_reviews_per_reviewer(since)
+    commits = _count_commits_per_author(since)
 
     all_authors = set(list(prs.keys()) + list(reviews.keys()) + list(commits.keys()))
 
@@ -127,15 +146,15 @@ def print_report(results, json_output=False):
             next_level = ""
             if level == "newcomer":
                 need = max(0, CRITERIA["contributor"]["merged_prs"] - r["merged_prs"])
-                next_level = f"  → Contributor (need {need} more PR)"
+                next_level = f"  -> Contributor (need {need} more PR)"
             elif level == "contributor":
                 need_prs = max(0, CRITERIA["reviewer"]["merged_prs"] - r["merged_prs"])
                 need_rev = max(0, CRITERIA["reviewer"]["reviews"] - r["reviews"])
-                next_level = f"  → Reviewer (need {need_prs} PR + {need_rev} reviews)"
+                next_level = f"  -> Reviewer (need {need_prs} PR + {need_rev} reviews)"
             elif level == "reviewer":
                 need_prs = max(0, CRITERIA["maintainer"]["merged_prs"] - r["merged_prs"])
                 need_rev = max(0, CRITERIA["maintainer"]["reviews"] - r["reviews"])
-                next_level = f"  → Maintainer (need {need_prs} PR + {need_rev} reviews)"
+                next_level = f"  -> Maintainer (need {need_prs} PR + {need_rev} reviews)"
             print(f"  {r['author']:<30s} PRs={r['merged_prs']:>3d}  "
                   f"reviews={r['reviews']:>3d}  commits={r['commits']:>4d}{next_level}")
         print()

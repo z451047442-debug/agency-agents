@@ -1,13 +1,13 @@
 {
   "category": "home-lifestyle",
   "agent_count": 5,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "home-lifestyle-director",
       "name": "家居生活总监",
       "description": "家居生活领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🏠\"",
+      "emoji": "🏠",
       "category": "home-lifestyle",
       "subcategory": "",
       "path": "home-lifestyle/home-lifestyle-director.md",
@@ -22,6 +22,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 家居与生活方式 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "home-lifestyle",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "家居生活总监",
+        "家居生活领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -41,30 +59,66 @@
         "testing-evidence-collector"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Gardener and landscape designer — from cottage gardens to edible landscapes, from balcony containers to Japanese zen gardens. Gardening is the slowest of the performing arts, and the most rewarding.",
+      "lifecycle": "published",
+      "tags": [
+        "home-lifestyle",
+        "Domain",
+        "Expertise",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "园艺与景观设计专家",
+        "花园设计与植物配置",
+        "可食用园艺",
+        "蔬菜",
+        "果树"
       ]
     },
     {
       "id": "home-lifestyle-general-manager",
       "name": "家居生活总经理",
       "description": "家居生活领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🏠\"",
+      "emoji": "🏠",
       "category": "home-lifestyle",
       "subcategory": "",
       "path": "home-lifestyle/home-lifestyle-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "home-lifestyle-director",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "home-lifestyle",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "家居生活总经理",
+        "家居生活领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -84,7 +138,26 @@
         "specialized-personal-growth-mentor"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Interior designer — from spatial flow to lighting temperature, from material tactility to color psychology. A well-designed room doesn't just look good; it makes you feel better, work better, live better.",
+      "lifecycle": "published",
+      "tags": [
+        "home-lifestyle",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "室内设计与空间规划专家",
+        "居住空间设计",
+        "商业与办公空间设计",
+        "照明设计",
+        "色彩与材料"
       ]
     },
     {
@@ -100,11 +173,30 @@
         "government-social-work",
         "marketing-abm-account-based",
         "marketing-japan-market-expert",
-        "securities-fixed-income",
+        "finance-securities-fixed-income",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Personal finance specialist — from 50/30/20 budgeting to the 4% rule, from emergency funds to index investing. Personal finance is 20% knowledge and 80% behavior.",
+      "lifecycle": "published",
+      "tags": [
+        "home-lifestyle",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "个人财务管理专家",
+        "家庭预算与记账",
+        "储蓄与应急基金",
+        "投资入门",
+        "股票"
       ]
     }
   ]

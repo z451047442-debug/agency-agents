@@ -1,7 +1,7 @@
 {
   "category": "design",
-  "agent_count": 24,
-  "generated": "2026-07-16",
+  "agent_count": 25,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "design-brand-guardian",
@@ -19,7 +19,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your brand's fiercest protector and most passionate advocate.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Brand",
+        "Strategy",
+        "Purpose",
+        "Vision"
+      ],
+      "keywords": [
+        "品牌守护者",
+        "品牌认知",
+        "一致性与品牌定位专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -39,6 +58,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Creative tools specialist — vector illustration in CorelDRAW, photo manipulation in GIMP, and UI/UX prototyping in Sketch. The right tool for the right creative task, and the skill to switch between them.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "平面设计",
+        "UI设计工具专家",
+        "CorelDRAW",
+        "GIMP",
+        "Sketch"
       ]
     },
     {
@@ -60,6 +97,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Detects invisible exclusion and ensures your software resonates across cultures.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "文化智能策略师",
+        "全球",
+        "UX",
+        "多元呈现与文化排斥规避专家",
+        "Role"
       ]
     },
     {
@@ -71,14 +126,30 @@
       "subcategory": "",
       "path": "design/design-director.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
-        "infrastructure-identity-access"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Design is not how it looks — it's how it works. You lead the team that makes products intuitive, beautiful, and accessible.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "leading",
+        "teams",
+        "across",
+        "product"
+      ],
+      "keywords": [
+        "设计总监",
+        "设计团队最高负责人，覆盖设计战略",
+        "系统",
+        "品牌体验一致性",
+        "设计团队管理"
       ]
     },
     {
@@ -91,7 +162,6 @@
       "path": "design/design-engineering-accessibility-engineer.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-ux-engineer",
         "infrastructure-identity-access",
         "testing-accessibility-auditor"
@@ -100,12 +170,30 @@
         "phase-1-strategy",
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The web is for everyone — you ensure that disability is not a barrier to digital access, one ARIA label at a time",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "无障碍工程师",
+        "Web",
+        "移动端无障碍",
+        "A11y",
+        "工程专家，覆盖WCAG"
       ]
     },
     {
       "id": "design-engineering-human-factors",
       "name": "人因/工效学(Human Factors)工程师",
-      "description": "人因工程与用户安全设计专家，覆盖人机交互/人误预防、驾驶舱/控制室/医疗设备人因设计、可用性工程(IEC 62366/FDA Human Factors)与认知负荷/情境意识",
+      "description": "人因工程与用户安全设计专家，覆盖人机交互/人误预防、驾驶舱/控制室/医疗设备人因设计、可用性工程(IEC 62366/FDA Human",
       "emoji": "🧑‍🔬",
       "category": "design",
       "subcategory": "",
@@ -114,12 +202,33 @@
         "aerospace-engineering-aviation-human-factors",
         "aerospace-engineering-aviation-safety",
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
-        "finance-engineering-credit-risk-model"
+        "design-multi-agent-coordinator",
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Technology should fit humans, not the other way around — you design systems",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "human",
+        "factors",
+        "Designed",
+        "safety-critical"
+      ],
+      "keywords": [
+        "人因",
+        "工效学",
+        "Human",
+        "Factors",
+        "工程师"
       ]
     },
     {
@@ -133,15 +242,34 @@
       "depends_on": [
         "cybersecurity-engineering-cyber-risk-model",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
+        "design-multi-agent-coordinator",
         "finance-engineering-credit-risk-model",
         "finance-engineering-risk-quant",
         "healthcare-engineering-regulatory-science",
         "product-trend-researcher",
-        "securities-quant-researcher"
+        "finance-securities-quant-researcher"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Qualitative research tells you why; quantitative research tells you how many",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "quantitative",
+        "research",
+        "Measured",
+        "user"
+      ],
+      "keywords": [
+        "量化用户体验研究员",
+        "Quant",
+        "UX",
+        "大规模量化用户研究与行为数据科学家，覆盖A",
+        "B测试统计"
       ]
     },
     {
@@ -154,31 +282,55 @@
       "path": "design/design-engineering-user-research-system.md",
       "depends_on": [
         "design-engineering-quant-ux-researcher",
-        "engineering-multi-agent-systems-architect",
+        "design-multi-agent-coordinator",
         "marketing-abm-account-based",
         "marketing-analytics",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist",
         "marketing-private-domain-operator",
         "spatial-computing-engineering-metaverse-experience",
         "spatial-computing-engineering-wearable-tech",
+        "testing-engineering-test-automation-framework",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Great products are measured, not guessed — you define the metrics that tell",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "product",
+        "analytics",
+        "measurement",
+        "Built"
+      ],
+      "keywords": [
+        "用户体验度量",
+        "产品分析经理",
+        "产品用户体验指标与数据驱动优化专家，覆盖HEART",
+        "PULSE",
+        "SUPR-Q产品体验框架"
       ]
     },
     {
       "id": "design-engineering-ux-auditor",
       "name": "用户体验审计/启发式评估专家",
-      "description": "数字产品UX审计与可用性启发式评估专家，覆盖Nielsen十大可用性原则/ISO 9241-110对话原则、认知走查(Cognitive Walkthrough)、WCAG 2.2 AA/AAA无障碍审计与UX成熟度评估",
+      "description": "数字产品UX审计与可用性启发式评估专家，覆盖Nielsen十大可用性原则/ISO 9241-110对话原则、认知走查(Cognitive",
       "emoji": "🔍",
       "category": "design",
       "subcategory": "",
       "path": "design/design-engineering-ux-auditor.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-brand-guardian",
-        "engineering-multi-agent-systems-architect",
+        "design-multi-agent-coordinator",
         "infrastructure-identity-access",
+        "marketing-paid-media-auditor",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist",
         "testing-accessibility-auditor"
       ],
       "nexus_roles": [
@@ -186,6 +338,24 @@
         "phase-1-strategy",
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You can look at an interface for 30 seconds and find 5 problems that the team",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "evaluation",
+        "Audited",
+        "hundreds",
+        "digital"
+      ],
+      "keywords": [
+        "用户体验审计",
+        "启发式评估专家",
+        "数字产品UX审计与可用性启发式评估专家，覆盖Nielsen十大可用性原则",
+        "ISO",
+        "9241-110对话原则"
       ]
     },
     {
@@ -203,11 +373,32 @@
         "finance-engineering-credit-risk-model",
         "marketing-brand-strategist",
         "marketing-brand-strategist-name",
-        "marketing-content-strategist"
+        "marketing-content-strategist",
+        "marketing-paid-media-creative-strategist",
+        "marketing-paid-media-ppc-strategist",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Content is the substance users came for — you design the strategy that makes it findable, usable, and consistent across every touchpoint",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "content",
+        "strategy",
+        "Built",
+        "systems"
+      ],
+      "keywords": [
+        "内容策略",
+        "Content",
+        "Strategy",
+        "专家",
+        "跨渠道品牌内容与信息架构策略专家，覆盖内容审计"
       ]
     },
     {
@@ -219,15 +410,36 @@
       "subcategory": "",
       "path": "design/design-engineering-ux-engineer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-accessibility-engineer",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
-        "infrastructure-identity-access"
+        "design-multi-agent-coordinator",
+        "infrastructure-identity-access",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designers imagine; UX engineers make it real. You translate design intent into",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "bridging",
+        "engineering",
+        "Built",
+        "systems"
+      ],
+      "keywords": [
+        "UX工程师",
+        "UX",
+        "Engineer",
+        "用户体验工程与前端实现专家，桥接设计与开发，覆盖设计系统组件化实现",
+        "Storybook"
       ]
     },
     {
@@ -240,13 +452,28 @@
       "path": "design/design-engineering-ux-research-ops.md",
       "depends_on": [
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
-        "government-social-work",
-        "operations-report-distribution-agent",
-        "product-trend-researcher"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Researchers should spend time researching, not recruiting, scheduling, and organizing. You build the operations that make research efficient and insights reusable.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "research",
+        "operations",
+        "Built",
+        "functions"
+      ],
+      "keywords": [
+        "用户研究运营",
+        "ResearchOps",
+        "专家",
+        "用户研究运营与规模化研究平台专家，覆盖研究招募",
+        "参与者管理"
       ]
     },
     {
@@ -259,15 +486,37 @@
       "path": "design/design-engineering-ux-writer.md",
       "depends_on": [
         "design-brand-guardian",
-        "engineering-multi-agent-systems-architect",
+        "design-multi-agent-coordinator",
         "marketing-content-creator",
         "marketing-content-strategist",
+        "marketing-paid-media-search-query-analyst",
+        "marketing-paid-media-tracking-specialist",
         "marketing-private-domain-operator",
-        "marketing-sms-push-notifications"
+        "marketing-sms-push-notifications",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The right words in the right place turn confusion into clarity, frustration",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "writing",
+        "content",
+        "Wrote",
+        "words"
+      ],
+      "keywords": [
+        "UX写作",
+        "内容设计师",
+        "产品界面文案与用户体验写作专家，覆盖按钮",
+        "错误",
+        "空状态"
       ]
     },
     {
@@ -285,12 +534,29 @@
         "logistics-cross-border-ecommerce",
         "logistics-public-transit",
         "marketing-brand-strategist-name",
-        "marketing-field-marketing",
-        "operations-report-distribution-agent"
+        "marketing-field-marketing"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Figma made design collaborative. When the entire team works in the same file, the design system is truth, and devs inspect instead of asking for redlines, you've moved from handoff to partnership.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Actionable",
+        "Directives",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "Figma设计系统专家",
+        "Figma设计系统与协作平台专家",
+        "覆盖组件库",
+        "Design",
+        "Token"
       ]
     },
     {
@@ -303,9 +569,11 @@
       "path": "design/design-image-prompt-engineer.md",
       "depends_on": [
         "construction-engineering-construction-materials",
+        "data-science-engineering-language-model-nlp",
         "design-brand-guardian",
-        "engineering-multi-agent-systems-architect",
+        "design-multi-agent-coordinator",
         "marketing-brand-strategist-name",
+        "marketing-demand-generation",
         "specialized-identity-graph-operator",
         "testing-engineering-test-automation-framework",
         "testing-test-results-analyzer",
@@ -314,7 +582,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Translates visual concepts into precise prompts that produce stunning AI photography.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Capabilities",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "图像提示词工程师",
+        "AI",
+        "图像生成提示词",
+        "摄影风格指令专家",
+        "Role"
       ]
     },
     {
@@ -333,6 +620,24 @@
         "phase-1-strategy",
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Defeats systemic AI biases to generate culturally accurate, affirming imagery.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "包容性视觉专家",
+        "多元化呈现",
+        "偏见消除与真实",
+        "AI",
+        "图像生成专家"
       ]
     },
     {
@@ -344,14 +649,66 @@
       "subcategory": "",
       "path": "design/design-motion-designer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-brand-guardian",
-        "engineering-multi-agent-systems-architect",
-        "infrastructure-identity-access"
+        "marketing-abm-account-based",
+        "marketing-paid-media-tracking-specialist",
+        "spatial-computing-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A button that responds with a subtle bounce doesn't just look good — it feels good. You design the motion that makes digital products feel alive.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "motion",
+        "digital",
+        "products",
+        "Created"
+      ],
+      "keywords": [
+        "动效",
+        "交互动画设计师",
+        "UI动效与交互反馈设计专家，覆盖微交互",
+        "转场动画",
+        "加载"
+      ]
+    },
+    {
+      "id": "design-multi-agent-coordinator",
+      "name": "Design Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for design — UX/UI, brand, visual systems,",
+      "emoji": "🎨",
+      "category": "design",
+      "subcategory": "",
+      "path": "design/design-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating design specialists into coherent multi-agent workflows",
+      "tags": [
+        "design",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Design",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -367,10 +724,30 @@
         "design-figma-expert",
         "marketing-japan-market-expert",
         "marketing-linkedin-content-creator",
-        "marketing-short-video-editing-coach"
+        "marketing-short-video-editing-coach",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "I become your user so you can see what your analytics can't show you.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Technical",
+        "Process",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "用户画像走查专家",
+        "从特定角色心理视角模拟网页认知走查，输出结构化CRO报告的专家",
+        "Identity",
+        "Memory",
+        "Core"
       ]
     },
     {
@@ -383,14 +760,28 @@
       "path": "design/design-researcher.md",
       "depends_on": [
         "design-engineering-quant-ux-researcher",
-        "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
-        "finance-engineering-risk-quant",
-        "product-trend-researcher",
-        "securities-quant-researcher"
+        "design-engineering-user-research-system"
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Don't guess what users need — ask them, watch them, and measure their behavior. You generate the insights that prevent teams from building the wrong thing beautifully.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "user",
+        "research",
+        "Conducted",
+        "studies"
+      ],
+      "keywords": [
+        "设计研究员",
+        "用户研究与设计洞察专家，覆盖用户访谈",
+        "情境访谈",
+        "问卷调查",
+        "量化研究"
       ]
     },
     {
@@ -405,12 +796,31 @@
         "design-figma-expert",
         "education-special-needs",
         "engineering-git-workflow-master",
+        "engineering-minimal-change-engineer",
         "specialized-identity-graph-operator",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Creates beautiful, consistent, accessible interfaces that feel just right.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "System",
+        "Process",
+        "Deliverable",
+        "Template"
+      ],
+      "keywords": [
+        "UI",
+        "设计师",
+        "视觉设计",
+        "组件库与设计系统专家",
+        "Role"
       ]
     },
     {
@@ -432,6 +842,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Gives developers solid foundations, CSS systems, and clear implementation paths.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Technical",
+        "Layout",
+        "Architecture",
+        "Information"
+      ],
+      "keywords": [
+        "用户体验架构师",
+        "技术架构",
+        "CSS",
+        "系统与前端实现指导专家",
+        "Role"
       ]
     },
     {
@@ -452,6 +880,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Validates design decisions with real user data, not assumptions.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Research",
+        "Objectives",
+        "Methodology",
+        "Participant"
+      ],
+      "keywords": [
+        "用户体验研究员",
+        "用户测试",
+        "行为分析与可用性研究专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -463,17 +909,31 @@
       "subcategory": "",
       "path": "design/design-visual-storyteller.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "marketing-linkedin-content-creator",
-        "marketing-market-research",
-        "marketing-paid-media-creative-strategist",
+        "design-engineering-user-research-system",
         "marketing-paid-media-paid-social-strategist",
-        "marketing-paid-media-search-query-analyst",
         "marketing-short-video-editing-coach"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Transforms complex information into visual narratives that move people.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Capabilities",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "视觉叙事师",
+        "视觉叙事",
+        "多媒体内容与品牌故事专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -490,11 +950,30 @@
         "engineering-git-workflow-master",
         "government-social-work",
         "specialized-productivity-time-management",
-        "testing-test-results-analyzer"
+        "testing-test-results-analyzer",
+        "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Adds the unexpected moments of delight that make brands unforgettable.",
+      "lifecycle": "published",
+      "tags": [
+        "design",
+        "Whimsy",
+        "Personality",
+        "Spectrum",
+        "Taxonomy"
+      ],
+      "keywords": [
+        "创意注入师",
+        "品牌个性",
+        "微互动与趣味体验设计专家",
+        "Role",
+        "Personality"
       ]
     }
   ]

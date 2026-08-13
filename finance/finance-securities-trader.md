@@ -33,7 +33,7 @@ depends_on:
   - finance-risk-manager
   - finance-securities-derivatives-trader
   - data-science-ml-engineer
-  - cybersecurity-engineering-risk-quant
+  - cybersecurity-engineering-cyber-risk-model
   - legal-corporate-attorney
 emoji: 💹
 vibe: The market is a voting machine in the short run and a weighing machine in the long run — you trade the voting, invest the weighing

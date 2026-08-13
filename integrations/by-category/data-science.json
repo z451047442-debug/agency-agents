@@ -1,7 +1,7 @@
 {
   "category": "data-science",
-  "agent_count": 46,
-  "generated": "2026-07-16",
+  "agent_count": 47,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "data-science-bi-analyst",
@@ -17,12 +17,30 @@
         "data-science-engineering-data-analytics-engineer",
         "data-science-engineering-web-analytics",
         "engineering-email-intelligence-engineer",
-        "specialized-agentic-identity-trust",
-        "thinking-models-decision-frameworks"
+        "finance-engineering-credit-risk-model"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns \"how's the business doing?\" into answers with charts, not hand-waving. SQL artisan, dashboard designer, the one who knows what every KPI actually means.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Mindset",
+        "Technical",
+        "North",
+        "Star"
+      ],
+      "keywords": [
+        "商业智能分析师",
+        "商业智能分析专家，专注",
+        "SQL",
+        "分析",
+        "仪表板开发（Tableau"
       ]
     },
     {
@@ -37,13 +55,32 @@
         "construction-cost-estimator",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
-        "engineering-multi-agent-systems-architect",
         "operations-executive-summary-generator",
-        "testing-test-results-analyzer"
+        "testing-test-results-analyzer",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Correlation is not causation — and you're the one who can prove which is which",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "因果推断专家",
+        "因果推断与计量经济学专家，覆盖DID",
+        "RDD",
+        "工具变量",
+        "双重机器学习与政策效应评估"
       ]
     },
     {
@@ -58,14 +95,35 @@
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "data-science-engineering-computer-vision-deep",
-        "engineering-multi-agent-systems-architect",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science",
         "marketing-demand-generation",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Consolidates scattered sales data into live reporting dashboards.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "数据整合",
+        "Agent",
+        "销售数据聚合与仪表板报告专家",
+        "Data",
+        "Consolidation"
       ]
     },
     {
@@ -86,7 +144,26 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data scientists build models; data engineers build the foundation those models",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Actionable",
+        "Directives",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "数据工程师",
+        "Data",
+        "Engineer",
+        "数据工程与数据管道构建专家，覆盖ELT",
+        "ETL管道设计"
       ]
     },
     {
@@ -105,7 +182,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds signal in noise. Treats every dataset like a crime scene — what happened,",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Mindset",
+        "Technical",
+        "Executive",
+        "Summary"
+      ],
+      "keywords": [
+        "数据科学家",
+        "统计分析",
+        "机器学习建模",
+        "AB",
+        "测试与因果推断专家"
       ]
     },
     {
@@ -123,7 +219,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Asks \"why\" before \"how\" — rigorous statistical thinking with practical business",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "数据科学家",
+        "中文版",
+        "面向中文用户的数据科学专家——统计建模",
+        "机器学习",
+        "AB"
       ]
     },
     {
@@ -140,13 +255,34 @@
         "design-engineering-user-research-system",
         "healthcare-engineering-regulatory-science",
         "marketing-market-research",
-        "operations-report-distribution-agent"
+        "marketing-paid-media-search-query-analyst",
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data is the new oil, but only if you refine it. You build the refinery — the",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "leading",
+        "data",
+        "science",
+        "AI/ML"
+      ],
+      "keywords": [
+        "数据科学总监",
+        "数据科学与AI团队最高负责人，覆盖数据",
+        "AI战略",
+        "模型治理与MLOps",
+        "数据团队建设"
       ]
     },
     {
@@ -160,11 +296,32 @@
       "depends_on": [
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
-        "healthcare-engineering-regulatory-science"
+        "healthcare-engineering-regulatory-science",
+        "infrastructure-identity-access",
+        "marketing-paid-media-search-query-analyst",
+        "operations-report-distribution-agent"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns \"I think\" into \"I know\" — replaces gut feelings with dashboards that tell the truth.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "BI",
+        "商业智能工程师",
+        "Tableau",
+        "PowerBI",
+        "Superset"
       ]
     },
     {
@@ -176,13 +333,34 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-big-data-engineer.md",
       "depends_on": [
-        "data-science-engineering-data-lakes-warehouse",
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-data-engineer",
-        "data-science-engineering-computer-vision-3d"
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-data-lakes-warehouse",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Tames petabyte-scale data chaos into reliable, queryable pipelines that won't break at 3am.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "大数据工程师",
+        "Hadoop",
+        "Spark",
+        "Flink",
+        "数据湖与实时计算专家"
       ]
     },
     {
@@ -196,15 +374,34 @@
       "depends_on": [
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-deep",
-        "engineering-multi-agent-systems-architect",
         "healthcare-engineering-regulatory-science",
         "operations-report-distribution-agent",
-        "robotics-engineering-industrial-robotics"
+        "robotics-engineering-industrial-robotics",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The world is three-dimensional — you build the sensors and algorithms that let",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "vision",
+        "depth",
+        "sensing",
+        "Built"
+      ],
+      "keywords": [
+        "3D视觉",
+        "深度传感工程师",
+        "3D视觉与深度感知技术专家，覆盖结构光",
+        "ToF",
+        "双目立体视觉深度传感"
       ]
     },
     {
@@ -222,12 +419,32 @@
         "data-science-engineering-customer-data-science",
         "data-science-engineering-deep-learning-training",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Machines that can see transform industries — from autonomous driving to medical",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Real-World",
+        "Scenarios",
+        "computer",
+        "vision"
+      ],
+      "keywords": [
+        "计算机视觉",
+        "深度学习工程师",
+        "深度学习与计算机视觉算法专家，覆盖CNN",
+        "Transformer",
+        "ViT视觉模型"
       ]
     },
     {
@@ -239,14 +456,35 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-computer-vision-expert.md",
       "depends_on": [
-        "data-science-engineering-computer-vision-deep",
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-data-engineer",
-        "data-science-engineering-computer-vision-3d"
+        "data-science-engineering-computer-vision-3d",
+        "data-science-engineering-computer-vision-deep",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Teaching machines to see — from medical imaging to autonomous driving, pixels are just the beginning.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "计算机视觉专家",
+        "图像分类",
+        "目标检测",
+        "图像分割与视频分析专家",
+        "核心信念"
       ]
     },
     {
@@ -258,23 +496,42 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-customer-data-science.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "education-online-learning-designer",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every user leaves a trail of data — you turn clickstreams into predictions,",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "product",
+        "customer",
+        "data",
+        "science"
+      ],
+      "keywords": [
+        "客户数据科学",
+        "增长数据科学家",
+        "用户增长与客户行为数据科学家，覆盖用户留存",
+        "流失预测模型",
+        "Survival"
       ]
     },
     {
       "id": "data-science-engineering-data-analytics-engineer",
       "name": "数据分析工程师(Analytics Engineer)",
-      "description": "数据分析工程与数据建模专家，覆盖dbt/Snowflake/ BigQuery数据转换、数据建模(星型/雪花)、BI语义层设计与数据血缘/文档(data catalog)",
+      "description": "数据分析工程与数据建模专家，覆盖dbt/Snowflake/ BigQuery数据转换、数据建模(星型/雪花)、BI语义层设计与数据血缘/文档(data",
       "emoji": "📊",
       "category": "data-science",
       "subcategory": "",
@@ -285,12 +542,33 @@
         "data-science-engineering-web-analytics",
         "engineering-code-reviewer",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "marketing-paid-media-search-query-analyst",
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Raw data is ore; you refine it into insights. Between the data warehouse and",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "analytics",
+        "engineering",
+        "Built",
+        "data"
+      ],
+      "keywords": [
+        "数据分析工程师",
+        "Analytics",
+        "Engineer",
+        "数据分析工程与数据建模专家，覆盖dbt",
+        "Snowflake"
       ]
     },
     {
@@ -302,6 +580,7 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-data-engineer.md",
       "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "data-science-engineering-computer-vision-deep",
@@ -309,14 +588,34 @@
         "data-science-engineering-data-lakes-warehouse",
         "engineering-email-intelligence-engineer",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
         "marketing-email-marketing",
-        "tourism-travel-experience-designer"
+        "cybersecurity-threat-intelligence",
+        "tourism-travel-experience-designer",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds the pipelines that turn raw data into trusted, analytics-ready assets.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Technical",
+        "Process",
+        "Learning",
+        "References"
+      ],
+      "keywords": [
+        "数据工程师",
+        "数据管道",
+        "湖仓架构与",
+        "ETL",
+        "ELT"
       ]
     },
     {
@@ -336,13 +635,32 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When \"which number is right?\" becomes a daily argument — you're the one who",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "数据治理专家",
+        "数据质量管理",
+        "元数据管理",
+        "数据血缘与数据目录专家",
+        "核心信念"
       ]
     },
     {
       "id": "data-science-engineering-data-lakes-warehouse",
       "name": "数据湖/湖仓一体(Lakehouse)架构师",
-      "description": "数据湖与湖仓一体平台架构专家，覆盖Apache Iceberg/Delta Lake/Hudi开放表格式、Spark/Trino/Presto查询引擎、Medallion架构(Bronze/Silver/Gold)与数据网格(Data Mesh)",
+      "description": "数据湖与湖仓一体平台架构专家，覆盖Apache Iceberg/Delta Lake/Hudi开放表格式、Spark/Trino/Presto查询引擎、Medallion架构(Bronze/Silver/Gold)与数据网格(Data",
       "emoji": "🏞️",
       "category": "data-science",
       "subcategory": "",
@@ -351,12 +669,33 @@
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "marketing-paid-media-search-query-analyst",
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The data lake promised cheap storage but became a swamp — you build the lakehouse",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "data",
+        "platform",
+        "architecture",
+        "Designed"
+      ],
+      "keywords": [
+        "数据湖",
+        "湖仓一体",
+        "Lakehouse",
+        "架构师",
+        "数据湖与湖仓一体平台架构专家，覆盖Apache"
       ]
     },
     {
@@ -371,12 +710,33 @@
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "testing-engineering-test-automation-framework",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You can't trust data you don't know the origin of — you build the governance",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "data",
+        "governance",
+        "Built",
+        "programs"
+      ],
+      "keywords": [
+        "数据治理",
+        "数据血缘专家",
+        "企业数据治理与元数据管理专家，覆盖数据血缘",
+        "Data",
+        "Lineage"
       ]
     },
     {
@@ -388,14 +748,35 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-data-warehouse-expert.md",
       "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
-        "data-science-engineering-computer-vision-deep"
+        "data-science-engineering-computer-vision-deep",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs the single source of truth where every business question finds an answer — without joining 40 tables.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "数据仓库专家",
+        "Snowflake",
+        "Redshift",
+        "BigQuery",
+        "星型模型与数据建模专家"
       ]
     },
     {
@@ -407,17 +788,37 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-deep-learning-training.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "healthcare-engineering-regulatory-science",
         "infrastructure-identity-access",
-        "operations-report-distribution-agent"
+        "marketing-app-store-optimizer",
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Training a GPT-scale model across 10,000 GPUs for months without crashing —",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "distributed",
+        "training",
+        "infrastructure",
+        "Trained"
+      ],
+      "keywords": [
+        "大规模深度学习训练",
+        "分布式系统工程师",
+        "千卡",
+        "万卡级大模型分布式训练系统专家，覆盖数据并行",
+        "张量并行"
       ]
     },
     {
@@ -429,14 +830,35 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-etl-expert.md",
       "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
-        "engineering-postgres-specialist"
+        "engineering-postgres-specialist",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The silent plumber of the data world — when the pipeline flows, nobody notices. When it breaks, everyone panics.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "ETL",
+        "ELT",
+        "专家",
+        "数据管道",
+        "CDC"
       ]
     },
     {
@@ -452,18 +874,39 @@
         "data-science-engineering-computer-vision-3d",
         "data-science-engineering-web-analytics",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "iot-engineering-mixed-signal-ic",
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Fraud costs insurers billions and honest policyholders higher premiums — you",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "insurance",
+        "analytics",
+        "Built",
+        "fraud"
+      ],
+      "keywords": [
+        "理赔数据科学",
+        "反欺诈分析师",
+        "保险理赔数据分析与欺诈检测专家，覆盖结构化",
+        "非结构化",
+        "文本"
       ]
     },
     {
       "id": "data-science-engineering-knowledge-management",
       "name": "企业知识管理/组织学习顾问",
-      "description": "企业知识管理与组织学习系统顾问，覆盖知识管理(KM)战略/KM成熟度、经验教训/最佳实践/复盘(After Action Review)、知识图谱/企业维基/Wiki与学习型组织(Learning Organization)建设",
+      "description": "企业知识管理与组织学习系统顾问，覆盖知识管理(KM)战略/KM成熟度、经验教训/最佳实践/复盘(After Action Review)、知识图谱/企业维基/Wiki与学习型组织(Learning",
       "emoji": "🧠",
       "category": "data-science",
       "subcategory": "",
@@ -473,12 +916,32 @@
         "data-science-engineering-computer-vision-3d",
         "energy-engineering-carbon-capture-storage",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every time an expert leaves, their knowledge leaves too — unless you've captured",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "knowledge",
+        "management",
+        "Built",
+        "systems"
+      ],
+      "keywords": [
+        "企业知识管理",
+        "组织学习顾问",
+        "企业知识管理与组织学习系统顾问，覆盖知识管理",
+        "KM",
+        "战略"
       ]
     },
     {
@@ -498,7 +961,26 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Language AI that understands and generates human language — you build apps powered",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Built",
+        "LLM-powered",
+        "products",
+        "serving"
+      ],
+      "keywords": [
+        "NLP",
+        "大语言模型应用工程师",
+        "自然语言处理与大模型应用开发专家，覆盖LLM",
+        "RAG",
+        "Agent框架"
       ]
     },
     {
@@ -510,13 +992,34 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-llm-training-expert.md",
       "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-data-engineer",
-        "data-science-engineering-computer-vision-3d"
+        "data-science-engineering-computer-vision-3d",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Training the models that run the world — one GPU cluster, one loss curve, and one checkpoint at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "LLM",
+        "大模型训练专家",
+        "预训练",
+        "微调",
+        "SFT"
       ]
     },
     {
@@ -528,15 +1031,36 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-mlops-engineer.md",
       "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "data-science-engineering-mlops-platform",
-        "education-online-learning-designer"
+        "education-online-learning-designer",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Building an ML model is 20% of the work. Making it serve predictions reliably at scale for the next 3 years is the other 80%.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "MLOps",
+        "机器学习运维工程师",
+        "模型部署",
+        "特征存储",
+        "模型监控与"
       ]
     },
     {
@@ -550,14 +1074,35 @@
       "depends_on": [
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
+        "engineering-build-release-engineer",
         "engineering-code-reviewer",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data scientists build models; you build the factory that produces them. From",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "building",
+        "platforms",
+        "Built",
+        "infrastructure"
+      ],
+      "keywords": [
+        "MLOps",
+        "ML平台工程师",
+        "机器学习平台与MLOps工程专家，覆盖ML训练",
+        "推理平台架构",
+        "Kubeflow"
       ]
     },
     {
@@ -569,19 +1114,40 @@
       "subcategory": "",
       "path": "data-science/data-science-engineering-nlp-expert.md",
       "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-data-engineer",
-        "data-science-engineering-computer-vision-3d"
+        "data-science-engineering-computer-vision-3d",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Language is the most complex data type — and you know how to make machines truly understand it.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "NLP",
+        "自然语言处理专家",
+        "文本分类",
+        "命名实体识别",
+        "情感分析与机器翻译专家"
       ]
     },
     {
       "id": "data-science-engineering-optical-character-recognition",
       "name": "OCR/文档理解/Document AI研究员",
-      "description": "光学字符识别与AI文档理解专家，覆盖OCR/场景文字检测识别(CRAFT/TrOCR/Donut)、文档版面分析/表格提取/Key-Value抽取、多模态文档理解(Document VQA/LayoutLM)与IDP智能文档处理",
+      "description": "光学字符识别与AI文档理解专家，覆盖OCR/场景文字检测识别(CRAFT/TrOCR/Donut)、文档版面分析/表格提取/Key-Value抽取、多模态文档理解(Document",
       "emoji": "📄",
       "category": "data-science",
       "subcategory": "",
@@ -589,15 +1155,35 @@
       "depends_on": [
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
-        "engineering-multi-agent-systems-architect",
+        "engineering-build-release-engineer",
         "healthcare-engineering-regulatory-science",
         "marketing-field-marketing",
-        "marketing-market-research"
+        "marketing-market-research",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A billion documents sit in filing cabinets and PDF archives — you build the",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "document",
+        "understanding",
+        "Built",
+        "systems"
+      ],
+      "keywords": [
+        "OCR",
+        "文档理解",
+        "Document",
+        "AI研究员",
+        "光学字符识别与AI文档理解专家，覆盖OCR"
       ]
     },
     {
@@ -613,12 +1199,33 @@
         "data-science-engineering-computer-vision-3d",
         "healthcare-engineering-regulatory-science",
         "operations-report-distribution-agent",
-        "sales-data-extraction-agent"
+        "sales-data-extraction-agent",
+        "testing-engineering-test-automation-framework",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your ERP system records every transaction — you mine those event logs to discover",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "process",
+        "mining",
+        "Analyzed",
+        "business"
+      ],
+      "keywords": [
+        "流程挖掘",
+        "业务流程智能分析师",
+        "流程挖掘与业务流程分析专家，覆盖事件日志提取",
+        "ERP",
+        "CRM"
       ]
     },
     {
@@ -637,7 +1244,26 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The difference between a good and great AI output is often just the prompt —",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "提示词工程师",
+        "Prompt",
+        "设计优化",
+        "Few-shot",
+        "Chain-of-Thought"
       ]
     },
     {
@@ -657,7 +1283,26 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Bridges the gap between LLMs and enterprise knowledge — the right chunk at the",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Real-World",
+        "Scenarios",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "RAG",
+        "架构师",
+        "检索增强生成",
+        "文档分块策略",
+        "向量检索优化与查询重写专家"
       ]
     },
     {
@@ -670,12 +1315,32 @@
       "path": "data-science/data-science-engineering-reinforcement-learning.md",
       "depends_on": [
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Supervised learning learns from examples; RL learns from experience. You build",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Real-World",
+        "Scenarios",
+        "reinforcement",
+        "learning"
+      ],
+      "keywords": [
+        "强化学习",
+        "RL",
+        "工程师",
+        "强化学习与决策智能专家，覆盖DQN",
+        "PPO"
       ]
     },
     {
@@ -692,12 +1357,32 @@
         "data-science-engineering-computer-vision-3d",
         "finance-engineering-credit-risk-model",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The difference between gold and fourth place is often 0.1% — you find that 0.1%",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "elite",
+        "sports",
+        "Analyzed",
+        "performance"
+      ],
+      "keywords": [
+        "体育科学",
+        "运动表现分析师",
+        "竞技体育科学与运动表现数据分析专家，覆盖运动员GPS",
+        "惯性",
+        "生理数据采集分析"
       ]
     },
     {
@@ -721,6 +1406,24 @@
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Batch is what you do when real-time is too hard — but you make real-time easy, reliable, and exactly-once",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Technologies",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "流数据平台工程师",
+        "实时流数据与消息平台专家，覆盖Apache",
+        "Kafka",
+        "Pulsar消息平台",
+        "Flink"
       ]
     },
     {
@@ -744,6 +1447,24 @@
         "phase-1-strategy",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When \"find similar\" needs to happen across a billion vectors in under 10ms — that's where you live.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "向量数据库专家",
+        "Milvus",
+        "Pinecone",
+        "Weaviate",
+        "向量索引与"
       ]
     },
     {
@@ -757,22 +1478,43 @@
       "depends_on": [
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
-        "engineering-multi-agent-systems-architect",
+        "engineering-build-release-engineer",
         "healthcare-engineering-regulatory-science",
         "hr-people-analytics",
+        "marketing-paid-media-tracking-specialist",
         "operations-report-distribution-agent",
-        "sales-data-extraction-agent"
+        "sales-data-extraction-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every surveillance camera, every sports broadcast, every YouTube video — you",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "video",
+        "understanding",
+        "Built",
+        "systems"
+      ],
+      "keywords": [
+        "视频智能分析",
+        "视频AI工程师",
+        "大规模视频内容理解与智能分析专家，覆盖视频分类",
+        "动作识别",
+        "时序定位"
       ]
     },
     {
       "id": "data-science-engineering-web-analytics",
       "name": "Web/数字分析实施工程师",
-      "description": "数字分析埋点与数据采集专家，覆盖Google Analytics 4/GTM/Adobe Analytics实施、增强电商(Enhanced Ecommerce)数据层、服务端跟踪(Server-Side Tagging)与隐私合规(Cookie Consent/GTM Consent Mode)",
+      "description": "数字分析埋点与数据采集专家，覆盖Google Analytics 4/GTM/Adobe Analytics实施、增强电商(Enhanced",
       "emoji": "📊",
       "category": "data-science",
       "subcategory": "",
@@ -781,12 +1523,33 @@
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "healthcare-engineering-regulatory-science",
-        "operations-report-distribution-agent"
+        "marketing-paid-media-tracking-specialist",
+        "operations-report-distribution-agent",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If you can't measure it, you can't improve it. You instrument the digital experience",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "digital",
+        "analytics",
+        "implementation",
+        "Tagged"
+      ],
+      "keywords": [
+        "Web",
+        "数字分析实施工程师",
+        "数字分析埋点与数据采集专家，覆盖Google",
+        "Analytics",
+        "GTM"
       ]
     },
     {
@@ -801,12 +1564,31 @@
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
-        "testing-test-results-analyzer"
+        "testing-test-results-analyzer",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "One experiment is worth a thousand expert opinions — design it right, analyze",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "实验设计与A",
+        "B测试专家",
+        "在线实验设计与分析专家，覆盖样本量计算",
+        "随机化策略",
+        "序贯检验"
       ]
     },
     {
@@ -818,18 +1600,38 @@
       "subcategory": "",
       "path": "data-science/data-science-feature-store.md",
       "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "healthcare-mental-health",
         "insurance-health-underwriter",
-        "logistics-inventory-planner"
+        "logistics-inventory-planner",
+        "data-science-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Features are the foundation everything else rests on — get them right and models",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Technical",
+        "Process",
+        "Learning",
+        "Methodology"
+      ],
+      "keywords": [
+        "特征平台专家",
+        "特征工程与特征平台架构专家，覆盖特征存储设计",
+        "特征复用",
+        "时间点正确性",
+        "特征血缘与在线"
       ]
     },
     {
@@ -855,6 +1657,24 @@
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Hugging Face democratized AI. The engineer who knows how to fine-tune, optimize, and deploy models from the Hub can turn a research paper into a production API in a single afternoon.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Real-World",
+        "Scenarios",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "Hugging",
+        "Face生态专家",
+        "Face模型生态与应用专家",
+        "覆盖Transformers",
+        "Trainer"
       ]
     },
     {
@@ -873,6 +1693,7 @@
         "engineering-git-workflow-master",
         "engineering-llm-inference-expert",
         "engineering-minimal-change-engineer",
+        "home-lifestyle-personal-finance",
         "marketing-feed-ad-optimizer",
         "testing-test-results-analyzer"
       ],
@@ -880,6 +1701,24 @@
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You don't need 8xA100s to customize an LLM anymore. With QLoRA, a single RTX 4090 can fine-tune a 70B model. The art is in the data curation, not the compute budget.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "LLM微调与适配专家",
+        "大模型高效微调与适配专家",
+        "覆盖LoRA",
+        "QLoRA",
+        "DoRA参数高效微调"
       ]
     },
     {
@@ -891,6 +1730,7 @@
       "subcategory": "",
       "path": "data-science/data-science-ml-engineer.md",
       "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
         "cybersecurity-incident-response",
         "data-science-data-engineer",
         "data-science-engineering-computer-vision-3d",
@@ -903,6 +1743,24 @@
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Research builds a model that works once; you build the system that works forever — reliably, at scale, in production",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Technical",
+        "Process",
+        "Learning",
+        "References"
+      ],
+      "keywords": [
+        "机器学习工程师",
+        "生产级机器学习系统构建专家，覆盖模型训练管线",
+        "特征工程",
+        "模型服务",
+        "效果评估与模型生命周期管理"
       ]
     },
     {
@@ -923,7 +1781,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Pushes the frontier of what models can do. Reads papers at breakfast, runs experiments",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Mindset",
+        "Technical",
+        "Details",
+        "Performance"
+      ],
+      "keywords": [
+        "机器学习研究员",
+        "机器学习研究专家，专注深度学习",
+        "NLP",
+        "计算机视觉",
+        "模型架构设计"
       ]
     },
     {
@@ -943,13 +1820,66 @@
         "legal-document-review",
         "operations-executive-summary-generator",
         "specialized-identity-graph-operator",
-        "testing-test-results-analyzer"
+        "testing-test-results-analyzer",
+        "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Audits ML models end-to-end — from data reconstruction to calibration testing.",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "模型",
+        "QA",
+        "专家",
+        "ML",
+        "审计"
+      ]
+    },
+    {
+      "id": "data-science-multi-agent-coordinator",
+      "name": "Data Science Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for data science — ML pipelines, experiment",
+      "emoji": "📊",
+      "category": "data-science",
+      "subcategory": "",
+      "path": "data-science/data-science-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-18",
+      "vibe": "orchestrating data-science specialists into coherent multi-agent workflows",
+      "tags": [
+        "data-science",
+        "Technical",
+        "References",
+        "Standards",
+        "Process"
+      ],
+      "keywords": [
+        "Data",
+        "Science",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates"
       ]
     },
     {
@@ -961,7 +1891,6 @@
       "subcategory": "",
       "path": "data-science/data-science-vector-db-architect.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-embedded-database",
         "engineering-git-workflow-master",
         "marketing-short-video-editing-coach"
@@ -969,7 +1898,26 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Vector search isn't just nearest neighbors — it's the retrieval backbone of",
+      "lifecycle": "published",
+      "tags": [
+        "data-science",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "向量数据库架构师",
+        "向量数据库选型与架构设计专家",
+        "覆盖Milvus",
+        "Pinecone",
+        "Weaviate"
       ]
     }
   ]

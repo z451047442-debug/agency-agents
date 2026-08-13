@@ -1,7 +1,7 @@
 {
   "category": "logistics",
-  "agent_count": 21,
-  "generated": "2026-07-16",
+  "agent_count": 22,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "logistics-cold-chain-specialist",
@@ -12,14 +12,33 @@
       "subcategory": "",
       "path": "logistics/logistics-cold-chain-specialist.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "healthcare-engineering-cold-chain-pharma",
         "healthcare-engineering-regulatory-science",
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Protecting the cold chain — where degrees matter, minutes count, and excursions",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "冷链物流专家",
+        "温控供应链管理专家，覆盖冷藏",
+        "冷冻运输",
+        "冷链仓储",
+        "温度监控"
       ]
     },
     {
@@ -31,11 +50,31 @@
       "subcategory": "",
       "path": "logistics/logistics-courier-express.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "logistics-cold-chain-specialist"
+        "logistics-multi-agent-coordinator",
+        "logistics-cold-chain-specialist",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every package has a journey — from pickup to sort center to line haul to delivery.",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "express",
+        "delivery",
+        "parcel",
+        "network"
+      ],
+      "keywords": [
+        "快递",
+        "快运网络运营专家",
+        "快递与快运网络运营管理专家，覆盖分拨中心",
+        "转运枢纽运营",
+        "路由网络规划"
       ]
     },
     {
@@ -47,14 +86,32 @@
       "subcategory": "",
       "path": "logistics/logistics-cross-border-ecommerce.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "logistics-cold-chain-specialist",
         "marketing-cross-border-ecommerce"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A ¥50 product ordered on Shein must cross an ocean, clear customs, and reach",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "cross-border",
+        "e-commerce",
+        "Moved",
+        "millions"
+      ],
+      "keywords": [
+        "跨境电商物流专家",
+        "跨境电商与小包物流",
+        "B2C",
+        "专家，覆盖9610",
+        "9810海关监管方式"
       ]
     },
     {
@@ -66,14 +123,30 @@
       "subcategory": "",
       "path": "logistics/logistics-customs-broker.md",
       "depends_on": [
-        "construction-engineering-construction-claims",
-        "engineering-multi-agent-systems-architect",
-        "insurance-auto-claims",
-        "iot-edge-computing",
-        "logistics-engineering-supply-chain-software"
+        "logistics-engineering-supply-chain-software",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every container stuck at the border costs $500/day in demurrage. The difference between same-day clearance and a two-week hold is knowing exactly which HS code, which documentation, and which inspector you're dealing with.",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "报关员",
+        "海关报关与通关专家，覆盖HS编码归类与预裁定",
+        "完税价格审定",
+        "原产地证申领",
+        "FORM"
       ]
     },
     {
@@ -85,7 +158,7 @@
       "subcategory": "",
       "path": "logistics/logistics-customs-compliance.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "insurance-auto-claims",
         "logistics-customs-broker",
         "logistics-engineering-supply-chain-risk"
@@ -93,28 +166,66 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Trade crosses borders once; customs compliance protects every crossing — get",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "关务合规师",
+        "海关合规与跨境贸易专家，覆盖HS归类",
+        "关税筹划",
+        "AEO认证",
+        "原产地规则"
       ]
     },
     {
       "id": "logistics-engineering-automation-robotics-intralogistics",
       "name": "内部物流/仓储自动化系统工程师",
-      "description": "自动化仓储与内部物流系统集成专家，覆盖AGV/AMR移动机器人(WMS/WCS调度)、堆垛机ASRS/Miniload/穿梭车、输送分拣系统(Crossbelt/Shoe Sorter)与仓库控制系统(WCS/WES)集成",
+      "description": "自动化仓储与内部物流系统集成专家，覆盖AGV/AMR移动机器人(WMS/WCS调度)、堆垛机ASRS/Miniload/穿梭车、输送分拣系统(Crossbelt/Shoe",
       "emoji": "🏭",
       "category": "logistics",
       "subcategory": "",
       "path": "logistics/logistics-engineering-automation-robotics-intralogistics.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "logistics-cold-chain-specialist"
+        "logistics-multi-agent-coordinator",
+        "logistics-cold-chain-specialist",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A warehouse where robots bring shelves to pickers, conveyor belts sort packages,",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "warehouse",
+        "automation",
+        "Designed",
+        "automated"
+      ],
+      "keywords": [
+        "内部物流",
+        "仓储自动化系统工程师",
+        "自动化仓储与内部物流系统集成专家，覆盖AGV",
+        "AMR移动机器人",
+        "WMS"
       ]
     },
     {
       "id": "logistics-engineering-humanitarian-logistics",
       "name": "应急物流/灾害响应供应链专家",
-      "description": "人道主义应急物流与灾害救援供应链专家，覆盖灾害预置库存/紧急采购/最后一公里配送、冷链(疫苗)/危化品(燃料)应急物流、需求评估/物流集群(Logistics Cluster)协调与供应链韧性/业务连续性(BCP)",
+      "description": "人道主义应急物流与灾害救援供应链专家，覆盖灾害预置库存/紧急采购/最后一公里配送、冷链(疫苗)/危化品(燃料)应急物流、需求评估/物流集群(Logistics",
       "emoji": "🚁",
       "category": "logistics",
       "subcategory": "",
@@ -122,12 +233,30 @@
       "depends_on": [
         "education-special-needs",
         "emergency-disaster-response",
-        "engineering-multi-agent-systems-architect",
-        "logistics-cold-chain-specialist",
-        "operations-report-distribution-agent"
+        "logistics-multi-agent-coordinator",
+        "logistics-cold-chain-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Hours after disaster strikes, relief supplies must reach the affected — you",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "humanitarian",
+        "Delivered",
+        "conflict",
+        "zones"
+      ],
+      "keywords": [
+        "应急物流",
+        "灾害响应供应链专家",
+        "人道主义应急物流与灾害救援供应链专家，覆盖灾害预置库存",
+        "紧急采购",
+        "最后一公里配送"
       ]
     },
     {
@@ -139,12 +268,31 @@
       "subcategory": "",
       "path": "logistics/logistics-engineering-supply-chain-analytics.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "manufacturing-supply-chain-planner"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Supply chains are giant optimization problems — you apply operations research",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "supply",
+        "chain",
+        "optimization",
+        "Built"
+      ],
+      "keywords": [
+        "供应链分析",
+        "优化",
+        "科学家",
+        "运筹学与供应链优化科学家，覆盖线性",
+        "整数"
       ]
     },
     {
@@ -156,7 +304,7 @@
       "subcategory": "",
       "path": "logistics/logistics-engineering-supply-chain-risk.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "logistics-engineering-supply-chain-analytics",
         "logistics-engineering-supply-chain-software",
         "logistics-supply-chain-strategist",
@@ -165,6 +313,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Supply chains optimized for cost break when optimized for resilience saves them",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "supply",
+        "chain",
+        "risk",
+        "Assessed"
+      ],
+      "keywords": [
+        "供应链风险管理",
+        "韧性顾问",
+        "全球供应链风险与韧性战略顾问，覆盖供应商风险",
+        "财务",
+        "合规"
       ]
     },
     {
@@ -178,13 +344,32 @@
       "depends_on": [
         "engineering-build-release-engineer",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "logistics-engineering-supply-chain-analytics",
         "logistics-engineering-supply-chain-risk",
         "logistics-supply-chain-strategist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your software is only as secure as its weakest dependency — and the average",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "software",
+        "supply",
+        "chain",
+        "open"
+      ],
+      "keywords": [
+        "软件供应链",
+        "依赖管理专家",
+        "软件供应链安全与依赖管理专家，覆盖SBOM",
+        "Software",
+        "Bill"
       ]
     },
     {
@@ -196,11 +381,28 @@
       "subcategory": "",
       "path": "logistics/logistics-export-manager.md",
       "depends_on": [
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Selling domestically is chess. Exporting is 3D chess — add currencies, time zones, cultures, trade barriers, and an ocean between you and your customer. The manager who masters this plays on a global board.",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Deliverable",
+        "Success",
+        "Metrics",
+        "Advanced"
+      ],
+      "keywords": [
+        "出口业务经理",
+        "出口业务拓展与管理专家，覆盖海外市场调研与渠道开发",
+        "国际客户谈判",
+        "价格",
+        "付款"
       ]
     },
     {
@@ -218,7 +420,26 @@
         "marketing-europe-market"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Navigating global trade lanes — one shipment, one customs entry, one satisfied",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "货运代理专家",
+        "国际货运代理与贸易合规专家，精通海运",
+        "空运",
+        "报关",
+        "贸易术语"
       ]
     },
     {
@@ -230,8 +451,7 @@
       "subcategory": "",
       "path": "logistics/logistics-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "logistics-cold-chain-specialist",
         "marketing-abm-account-based",
@@ -239,7 +459,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every package that arrives on time is a promise kept; every late shipment is",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "leadership",
+        "business",
+        "moves",
+        "businesses"
+      ],
+      "keywords": [
+        "物流公司总经理",
+        "第三方物流",
+        "3PL",
+        "合同物流企业全面管理者，覆盖战略客户开发",
+        "仓储"
       ]
     },
     {
@@ -254,7 +493,26 @@
         "iot-engineering-mixed-signal-ic"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "HSR and rail systems engineer — from ballastless track to ETCS/CTCS signaling, from 350km/h operation to maglev. High-speed rail is a 400-ton vehicle gliding on steel at 100 meters per second.",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "高铁与轨道交通系统工程专家",
+        "高速铁路系统",
+        "轨道",
+        "供电",
+        "信号"
       ]
     },
     {
@@ -268,12 +526,31 @@
       "depends_on": [
         "automotive-supply-chain",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "logistics-cold-chain-specialist",
         "tourism-event-planner"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Right product, right place, right quantity, right time — inventory is money",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Technical",
+        "Process",
+        "Learning",
+        "Methodology"
+      ],
+      "keywords": [
+        "库存规划师",
+        "库存管理与需求预测专家，覆盖安全库存策略",
+        "补货计划",
+        "ABC分类",
+        "滞销品管理与库存周转优化"
       ]
     },
     {
@@ -288,12 +565,65 @@
         "automotive-supply-chain",
         "education-special-needs",
         "energy-carbon-market",
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "logistics-cold-chain-specialist",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The last 100 meters make or break the first 1,000 kilometers — deliver the promise",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Technical",
+        "Process",
+        "Learning",
+        "Methodology"
+      ],
+      "keywords": [
+        "最后一公里配送专家",
+        "末端配送网络设计与运营专家，覆盖即时配送",
+        "快递柜",
+        "社区团购",
+        "路径优化与骑手管理"
+      ]
+    },
+    {
+      "id": "logistics-multi-agent-coordinator",
+      "name": "Logistics Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for logistics — supply chain, freight,",
+      "emoji": "🚚",
+      "category": "logistics",
+      "subcategory": "",
+      "path": "logistics/logistics-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating logistics specialists into coherent multi-agent workflows",
+      "tags": [
+        "logistics",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Logistics",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -310,7 +640,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Public transit planner — from metro network design to bus route optimization, from TOD station development to fare policy. A great transit system doesn't just move people; it shapes how a city grows.",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "公共交通规划专家",
+        "城市轨道交通",
+        "地铁",
+        "轻轨",
+        "有轨电车"
       ]
     },
     {
@@ -326,12 +675,29 @@
         "energy-engineering-power-electronics-packaging",
         "food-beverage-food-supply-chain-traceability",
         "marketing-paid-media-paid-social-strategist",
-        "marketing-social-media-strategist",
-        "operations-report-distribution-agent"
+        "marketing-social-media-strategist"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds your procurement engine and supply chain resilience across China's manufacturing ecosystem, from supplier sourcing to risk management.",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Procurement",
+        "Channel",
+        "Management",
+        "Inventory"
+      ],
+      "keywords": [
+        "供应链策略师",
+        "供应链管理",
+        "采购策略与优化专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -343,14 +709,31 @@
       "subcategory": "",
       "path": "logistics/logistics-trade-operations.md",
       "depends_on": [
-        "automotive-engineering-automotive-homologation-test",
-        "education-online-learning-designer",
-        "logistics-customs-broker",
+        "logistics-last-mile-delivery",
         "logistics-engineering-supply-chain-risk",
-        "logistics-last-mile-delivery"
+        "logistics-customs-broker",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A signed PO is just the starting gun. Between contract and payment are 47 documents, 12 handoffs, and a thousand ways for a shipment to go wrong. The ops specialist catches them all before they become claims.",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Deliverable",
+        "Success",
+        "Metrics",
+        "Methodology"
+      ],
+      "keywords": [
+        "外贸跟单员",
+        "外贸跟单与订单执行专家，覆盖国际贸易合同审核",
+        "Incoterms",
+        "C条款",
+        "生产跟催与验货排程"
       ]
     },
     {
@@ -364,12 +747,31 @@
       "depends_on": [
         "automotive-vehicle-architecture",
         "energy-carbon-market",
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "logistics-last-mile-delivery",
         "marketing-europe-market"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every truck, every lane, every minute — orchestrate the movement that keeps",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "运输调度专家",
+        "运输网络规划与调度优化专家，覆盖路线规划",
+        "承运商管理",
+        "多式联运",
+        "成本控制与运输管理系统"
       ]
     },
     {
@@ -383,12 +785,31 @@
       "depends_on": [
         "automotive-supply-chain",
         "customer-service-complaints",
-        "engineering-multi-agent-systems-architect",
+        "logistics-multi-agent-coordinator",
         "infrastructure-storage-backup",
         "logistics-cold-chain-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns chaos into order — every pallet has its place, every pick path its purpose",
+      "lifecycle": "published",
+      "tags": [
+        "logistics",
+        "Technical",
+        "Process",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "仓储经理",
+        "全面的仓库运营管理专家，覆盖仓储布局规划",
+        "库存管理",
+        "WMS系统实施",
+        "人力调度与安全合规"
       ]
     }
   ]

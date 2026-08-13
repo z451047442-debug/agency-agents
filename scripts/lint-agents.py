@@ -36,7 +36,7 @@ REQUIRED_FIELDS = ("name", "description", "emoji", "color")
 SKIP_SECTION_CHECK: frozenset[str] = frozenset({"thinking-models"})
 SECTION_PATTERNS = {
     "Identity": r"identity",
-    "Core Mission": r"core\s*mission|mission\s*[—\-]{1,2}",
+    "Core Mission": r"core\s*mission|\bmission\s*[—\-]{1,2}",
     "Critical Rules": r"critical\s*rules?|rules?\s*[—\-]{1,2}|rules?\s*you\s*must\s*follow",
     "Deliverable": r"deliverable",
     "Workflow": r"workflow|process|your\s*workflow",
@@ -306,7 +306,7 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
         )
     elif file_size_kb > 55:
         warnings.append(
-            f"WARN  {rel}: file too large ({file_size_kb:.1f} KB > 50 KB); "
+            f"WARN  {rel}: file too large ({file_size_kb:.1f} KB > 55 KB); "
             f"consider splitting into multiple agents"
         )
 
@@ -458,8 +458,6 @@ def main():
                         help="Lint all agents")
     parser.add_argument("--check", action="store_true",
                         help="Alias for --all")
-    parser.add_argument("--freshness", action="store_true",
-                        help="Check git last-modified date (on by default; use --no-freshness to skip)")
     parser.add_argument("--no-freshness", action="store_true",
                         help="Skip git freshness check (faster)")
     args = parser.parse_args()

@@ -1,7 +1,7 @@
 {
   "category": "iot",
-  "agent_count": 19,
-  "generated": "2026-07-16",
+  "agent_count": 20,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "iot-architect",
@@ -14,11 +14,29 @@
       "depends_on": [
         "energy-engineering-power-electronics",
         "energy-engineering-power-electronics-packaging",
-        "iot-data-platform",
-        "operations-report-distribution-agent"
+        "iot-data-platform"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every object that matters will be connected — the architecture must make that",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "IoT系统架构师",
+        "物联网端到端架构设计专家，覆盖设备层",
+        "边缘层",
+        "云平台",
+        "数据管道与安全体系"
       ]
     },
     {
@@ -31,15 +49,34 @@
       "path": "iot/iot-data-platform.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
         "iot-engineering-iot-engineer",
+        "iot-multi-agent-coordinator",
         "logistics-general-manager",
         "manufacturing-engineering-laser-processing",
         "manufacturing-tpm-reliability"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Millions of devices generating billions of data points — you build the platform",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "building",
+        "data",
+        "platforms",
+        "Designed"
+      ],
+      "keywords": [
+        "IoT数据平台工程师",
+        "物联网数据平台与流处理专家，覆盖时序数据库",
+        "InfluxDB",
+        "TimescaleDB",
+        "MQTT"
       ]
     },
     {
@@ -52,7 +89,7 @@
       "path": "iot/iot-director.md",
       "depends_on": [
         "automotive-supply-chain",
-        "engineering-multi-agent-systems-architect",
+        "iot-multi-agent-coordinator",
         "logistics-engineering-supply-chain-analytics",
         "logistics-engineering-supply-chain-risk",
         "logistics-engineering-supply-chain-software",
@@ -60,7 +97,27 @@
         "manufacturing-supply-chain-planner"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "IoT promises to connect everything — you're the one who makes the business case,",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "leading",
+        "product",
+        "business",
+        "units"
+      ],
+      "keywords": [
+        "IoT事业部总监",
+        "物联网",
+        "IoT",
+        "业务最高负责人，覆盖IoT产品",
+        "平台策略"
       ]
     },
     {
@@ -77,11 +134,28 @@
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-computer-vision-expert",
         "data-science-engineering-language-model-nlp",
-        "iot-architect",
-        "operations-report-distribution-agent"
+        "iot-architect"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The cloud is a luxury the edge can't always afford — compute where the data is born, sync what matters",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "边缘计算专家",
+        "边缘计算架构与部署专家，覆盖边缘节点管理",
+        "本地推理",
+        "数据预处理",
+        "边缘-云协同与离线自治"
       ]
     },
     {
@@ -98,7 +172,26 @@
         "iot-engineering-embedded-firmware-engineer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The world runs on code that fits in kilobytes — elegance is not optional, it's",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "嵌入式系统工程师",
+        "嵌入式软硬件协同开发专家，覆盖MCU",
+        "MPU选型",
+        "RTOS",
+        "裸机开发"
       ]
     },
     {
@@ -112,31 +205,69 @@
       "depends_on": [
         "automotive-engineering-functional-safety",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
         "iot-architect",
+        "iot-multi-agent-coordinator",
         "manufacturing-engineering-test-chip-bringup"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every chip starts as code — you write the RTL that becomes the silicon that",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "digital",
+        "design",
+        "Designed",
+        "ASICs"
+      ],
+      "keywords": [
+        "ASIC",
+        "FPGA",
+        "数字IC设计工程师",
+        "数字集成电路与FPGA设计专家，覆盖Verilog",
+        "VHDL"
       ]
     },
     {
       "id": "iot-engineering-embedded-ai",
       "name": "嵌入式AI/TinyML工程师",
-      "description": "嵌入式设备端AI与微型机器学习专家，覆盖TensorFlow Lite Micro/ ONNX Runtime嵌入式、模型量化(INT8/FP16)、NPU/TPU/ MCU推理加速与传感器端AI",
+      "description": "嵌入式设备端AI与微型机器学习专家，覆盖TensorFlow Lite Micro/ ONNX Runtime嵌入式、模型量化(INT8/FP16)、NPU/TPU/",
       "emoji": "🧠",
       "category": "iot",
       "subcategory": "",
       "path": "iot/iot-engineering-embedded-ai.md",
       "depends_on": [
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-credit-risk-model",
         "finance-engineering-risk-quant",
-        "iot-architect"
+        "iot-architect",
+        "iot-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AI doesn't need the cloud — you squeeze neural networks onto microcontrollers",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "embedded",
+        "Deployed",
+        "microcontrollers",
+        "edge"
+      ],
+      "keywords": [
+        "嵌入式AI",
+        "TinyML工程师",
+        "嵌入式设备端AI与微型机器学习专家，覆盖TensorFlow",
+        "Lite",
+        "Micro"
       ]
     },
     {
@@ -158,6 +289,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Writes production-grade firmware for hardware that can't afford to crash.",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "嵌入式固件工程师",
+        "裸金属",
+        "RTOS",
+        "ESP32",
+        "STM32"
       ]
     },
     {
@@ -170,12 +319,31 @@
       "path": "iot/iot-engineering-embedded-linux.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
         "iot-architect",
+        "iot-multi-agent-coordinator",
         "logistics-general-manager"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Not every Linux device is a server — some are smaller than your thumb. You customize",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "embedded",
+        "Linux",
+        "Brought",
+        "dozens"
+      ],
+      "keywords": [
+        "嵌入式Linux",
+        "Yocto工程师",
+        "嵌入式Linux系统定制与BSP开发专家，覆盖Yocto",
+        "Buildroot构建系统",
+        "Linux内核裁剪"
       ]
     },
     {
@@ -188,8 +356,8 @@
       "path": "iot/iot-engineering-industrial-iot-platform.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
         "iot-architect",
+        "iot-multi-agent-coordinator",
         "logistics-general-manager",
         "manufacturing-engineering-laser-processing",
         "manufacturing-engineering-vibration-testing",
@@ -198,7 +366,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Factories generate terabytes trapped in PLCs and legacy systems. You liberate",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "industrial",
+        "connectivity",
+        "Connected",
+        "factories"
+      ],
+      "keywords": [
+        "工业物联网平台工程师",
+        "工业物联网",
+        "IIoT",
+        "数据采集与平台专家，覆盖OPC",
+        "UA"
       ]
     },
     {
@@ -219,6 +406,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Connects the physical world to the digital — billions of devices, one message at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "IoT",
+        "物联网工程师",
+        "智能硬件",
+        "边缘计算",
+        "MQTT"
       ]
     },
     {
@@ -231,15 +436,34 @@
       "path": "iot/iot-engineering-iot-hardware.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
         "iot-engineering-smart-home",
+        "iot-multi-agent-coordinator",
         "logistics-general-manager",
         "manufacturing-engineering-additive-manufacturing-metal",
         "manufacturing-engineering-composites-manufacturing",
         "manufacturing-engineering-test-chip-bringup"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every IoT device whispers data through the air — you design the radio, the antenna,",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "hardware",
+        "wireless",
+        "Designed",
+        "connected"
+      ],
+      "keywords": [
+        "IoT硬件",
+        "无线通信工程师",
+        "物联网无线通信与硬件集成专家，覆盖BLE",
+        "WiFi",
+        "Zigbee"
       ]
     },
     {
@@ -253,11 +477,30 @@
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
-        "iot-architect"
+        "iot-architect",
+        "iot-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every smartphone, every car, every drone knows which way is up because of a",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "MEMS",
+        "sensor",
+        "design",
+        "Designed"
+      ],
+      "keywords": [
+        "MEMS",
+        "传感器设计工程师",
+        "微机电系统与传感器设计专家，覆盖MEMS加速度计",
+        "陀螺仪",
+        "压力传感器设计"
       ]
     },
     {
@@ -271,15 +514,34 @@
       "depends_on": [
         "engineering-ai-agent-developer",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
         "iot-architect",
+        "iot-multi-agent-coordinator",
         "logistics-cross-border-ecommerce",
         "logistics-engineering-supply-chain-risk",
         "logistics-general-manager",
         "manufacturing-engineering-simulation-engineer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The physical world is analog — every sensor, every radio, every power supply",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "analog",
+        "design",
+        "Designed",
+        "circuits"
+      ],
+      "keywords": [
+        "模拟",
+        "混合信号IC设计工程师",
+        "模拟与混合信号集成电路设计专家，覆盖ADC",
+        "DAC",
+        "PLL"
       ]
     },
     {
@@ -292,7 +554,7 @@
       "path": "iot/iot-engineering-rfid-systems.md",
       "depends_on": [
         "automotive-supply-chain",
-        "engineering-multi-agent-systems-architect",
+        "iot-multi-agent-coordinator",
         "logistics-engineering-supply-chain-analytics",
         "logistics-engineering-supply-chain-risk",
         "logistics-engineering-supply-chain-software",
@@ -300,7 +562,26 @@
         "manufacturing-supply-chain-planner"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every item in a warehouse, every garment in a store, every part on an assembly",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "RFID",
+        "Deployed",
+        "systems",
+        "tracking"
+      ],
+      "keywords": [
+        "RFID",
+        "物联网感知系统工程师",
+        "UHF",
+        "HF",
+        "NFC"
       ]
     },
     {
@@ -314,13 +595,32 @@
       "depends_on": [
         "engineering-ai-agent-developer",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
         "iot-director",
+        "iot-multi-agent-coordinator",
         "logistics-engineering-supply-chain-risk",
         "logistics-general-manager"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The connected home should make life simpler, not more complicated — you design",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "consumer",
+        "smart",
+        "home",
+        "Launched"
+      ],
+      "keywords": [
+        "智能家居",
+        "IoT",
+        "Consumer",
+        "产品经理",
+        "消费物联网与智能家居产品专家，覆盖智能音箱"
       ]
     },
     {
@@ -341,12 +641,65 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Firmware is the last code that runs before the silicon — get it wrong and no amount of application logic can save you",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "固件开发工程师",
+        "嵌入式固件开发专家，覆盖bootloader",
+        "OTA升级",
+        "文件系统",
+        "驱动开发与安全固件签名"
+      ]
+    },
+    {
+      "id": "iot-multi-agent-coordinator",
+      "name": "IoT Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for IoT — edge computing, sensor networks,",
+      "emoji": "📡",
+      "category": "iot",
+      "subcategory": "",
+      "path": "iot/iot-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating iot specialists into coherent multi-agent workflows",
+      "tags": [
+        "iot",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "IoT",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
       "id": "iot-security-specialist",
       "name": "IoT安全专家",
-      "description": "物联网安全工程专家，覆盖嵌入式安全/安全启动、设备身份/认证(PKI)、固件安全OTA、通信加密与IoT安全标准(ETSI EN 303 645)",
+      "description": "物联网安全工程专家，覆盖嵌入式安全/安全启动、设备身份/认证(PKI)、固件安全OTA、通信加密与IoT安全标准(ETSI EN 303",
       "emoji": "🔒",
       "category": "iot",
       "subcategory": "",
@@ -354,14 +707,32 @@
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "infrastructure-identity-access",
-        "iot-architect"
+        "iot-architect",
+        "iot-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every IoT device is a computer on the internet — and most of them have no firewall,",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "securing",
+        "embedded",
+        "systems",
+        "Hardened"
+      ],
+      "keywords": [
+        "IoT安全专家",
+        "物联网安全工程专家，覆盖嵌入式安全",
+        "安全启动",
+        "设备身份",
+        "认证"
       ]
     },
     {
@@ -374,13 +745,32 @@
       "path": "iot/iot-sensor-integration.md",
       "depends_on": [
         "data-science-engineering-optical-character-recognition",
-        "engineering-multi-agent-systems-architect",
         "healthcare-engineering-medical-device-software",
         "iot-engineering-mems-sensors",
-        "network-engineering-engineering-optical-fiber-sensing"
+        "iot-multi-agent-coordinator",
+        "infrastructure-network-engineering-engineering-optical-fiber-sensing"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A sensor is only as good as its calibration — the difference between a measurement",
+      "lifecycle": "published",
+      "tags": [
+        "iot",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "传感器集成专家",
+        "传感器选型",
+        "信号调理",
+        "数据融合与校准专家，覆盖MEMS",
+        "光学"
       ]
     }
   ]

@@ -111,7 +111,6 @@ Based on your domain expertise and mission, you produce the following work produ
 
 > One-sentence description of what this does and why it matters.
 
-[![npm version](https://badge.fury.io/js/your-package.svg)](https://badge.fury.io/js/your-package)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Why This Exists
@@ -187,14 +186,14 @@ info:
 
     ## Authentication
     All requests require a Bearer token in the `Authorization` header.
-    Get your API key from [the dashboard](https://app.example.com/settings/api).
+    Get your API key from the dashboard in your account settings.
 
     ## Rate Limiting
     Requests are limited to 100/minute per API key. Rate limit headers are
-    included in every response. See [Rate Limiting guide](https://docs.example.com/rate-limits).
+    included in every response. See the Rate Limiting guide in the API documentation.
 
     ## Versioning
-    This is v2 of the API. See the [migration guide](https://docs.example.com/v1-to-v2)
+    This is v2 of the API. See the v1-to-v2 migration guide
     if upgrading from v1.
 
 paths:
@@ -267,9 +266,9 @@ paths:
 - Concept C
 
 **Prerequisites**:
-- [ ] [Tool X](link) installed (version Y+)
+- [ ] Tool X installed (version Y+)
 - [ ] Basic knowledge of [concept]
-- [ ] An account at [service] ([sign up free](link))
+- [ ] An account at [service] (free sign-up available)
 
 ---
 
@@ -289,7 +288,7 @@ You should see output like:
 Wrote to /path/to/my-project/package.json: { ... }
 ```
 
-> **Tip**: If you see `EACCES` errors, [fix npm permissions](https://link) or use `npx`.
+> **Tip**: If you see `EACCES` errors, fix npm permissions or use `npx`.
 
 ## Step 2: Install Dependencies
 
@@ -305,9 +304,8 @@ You built a [description]. Here's what you learned:
 
 ## Next Steps
 
-- [Advanced tutorial: Add authentication](link)
-- [Reference: Full API docs](link)
-- (link)
+- Advanced tutorial: Add authentication to your app
+- Reference: Full API documentation
 ```
 
 ### Docusaurus Configuration

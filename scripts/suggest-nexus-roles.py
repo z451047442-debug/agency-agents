@@ -156,10 +156,14 @@ def main() -> None:
 
         if matches:
             suggested += 1
+            try:
+                rel_path = str(f.relative_to(REPO)).replace("\\", "/")
+            except ValueError:
+                rel_path = str(f)
             entry = {
                 "agent_id": f.stem,
                 "category": f.parent.name,
-                "path": str(f),
+                "path": rel_path,
                 "matches": [{"phase": pid, "label": label, "keywords": count}
                             for pid, label, count in matches],
             }

@@ -59,7 +59,7 @@ IMPACT_WEIGHTS = {
 RISK_MULTIPLIER = {"critical": 2.0, "high": 1.5, "general": 1.0}
 
 
-def estimate_effort(issues, scores, word_count):
+def estimate_effort(issues, scores):
     """Categorize the effort needed to fix an agent."""
     if not issues and scores.get("content_depth", 0) >= 3 and scores.get("structure", 0) >= 1 and scores.get("frontmatter", 0) >= 1:
         return "done"
@@ -102,7 +102,7 @@ def build_opportunities(category_filter=None):
         issues = score_result.get("issues", [])
         word_count = score_result.get("word_count", 0)
 
-        effort = estimate_effort(issues, score_result["scores"], word_count)
+        effort = estimate_effort(issues, score_result["scores"])
 
         if effort == "done":
             continue

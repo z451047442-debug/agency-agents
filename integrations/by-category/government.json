@@ -1,7 +1,7 @@
 {
   "category": "government",
   "agent_count": 14,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "government-digital-presales-consultant",
@@ -18,7 +18,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Navigates the Chinese government IT procurement maze — from policy signals to",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Technical",
+        "Chapter",
+        "Project",
+        "Overview"
+      ],
+      "keywords": [
+        "政务数字化售前顾问",
+        "ToG",
+        "项目售前与数字政府转型方案专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -38,13 +57,31 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Government at the speed of paper is no longer acceptable — digital transformation is not about technology, it's about trust.",
+      "lifecycle": "draft",
+      "tags": [
+        "government",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "数字政府顾问",
+        "数字政府转型：政务云",
+        "数据共享平台",
+        "一网通办",
+        "数字孪生城市"
       ]
     },
     {
       "id": "government-director",
       "name": "数字政府总监",
       "description": "数字政府领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🏛\"",
+      "emoji": "🏛",
       "category": "government",
       "subcategory": "",
       "path": "government/government-director.md",
@@ -59,13 +96,31 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 政府数字化与公共服务 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "数字政府总监",
+        "数字政府领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
       "id": "government-general-manager",
       "name": "数字政府总经理",
       "description": "数字政府领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🏛\"",
+      "emoji": "🏛",
       "category": "government",
       "subcategory": "",
       "path": "government/government-general-manager.md",
@@ -81,6 +136,24 @@
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "数字政府总经理",
+        "数字政府领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -100,6 +173,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Navigates the complex intersection of business and government with strategic precision.",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Domain",
+        "Expertise",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "政府关系专家",
+        "政策沟通",
+        "政企协调",
+        "行业监管与公共事务专家",
+        "核心信念"
       ]
     },
     {
@@ -120,6 +211,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reads between the lines of policy documents to predict what's coming and what it means.",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Domain",
+        "Expertise",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "公共政策分析师",
+        "政策研究",
+        "影响评估",
+        "政策建议与法规分析专家",
+        "核心信念"
       ]
     },
     {
@@ -139,6 +248,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every taxpayer dollar spent must deliver maximum public value — procurement is stewardship, not just purchasing.",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Success",
+        "Metrics",
+        "Technical",
+        "References"
+      ],
+      "keywords": [
+        "政府采购官员",
+        "公共采购全生命周期管理（RFI",
+        "RFP",
+        "RFQ），投标评估与供应商选择，政府合同谈判，采购合规与审计，电子采购系统，可持续",
+        "绿色采购，供应商多样性计划"
       ]
     },
     {
@@ -155,7 +282,26 @@
         "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Government is the institution that makes civilization work — you manage the",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "public",
+        "administration",
+        "Managed",
+        "departments"
+      ],
+      "keywords": [
+        "公共管理",
+        "公务员专家",
+        "公共行政与政府管理专家，覆盖公共政策执行",
+        "公共服务交付",
+        "预算编制"
       ]
     },
     {
@@ -169,12 +315,29 @@
       "depends_on": [
         "government-digital-presales-consultant",
         "legal-engineering-legal-document-automation",
-        "legal-engineering-trade-compliance",
-        "legal-general-counsel",
+        "marketing-paid-media-tracking-specialist",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Orchestrates the full spectrum of public affairs — from stakeholder mapping to legislative advocacy — with strategic foresight and institutional savvy.",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "公共事务总监",
+        "政府关系战略",
+        "利益相关者图谱",
+        "政策倡导",
+        "公众咨询管理"
       ]
     },
     {
@@ -196,6 +359,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Safety is invisible when it works — the job is to make sure it stays that way, and to be ready when it doesn't.",
+      "lifecycle": "draft",
+      "tags": [
+        "government",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "公共安全分析师",
+        "公共安全与应急管理：风险评估",
+        "应急预案",
+        "防灾减灾",
+        "舆情监测"
       ]
     },
     {
@@ -216,6 +397,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Weaving the digital nervous system of tomorrow's cities — connecting sensors, citizens, and services into an intelligent, resilient urban fabric.",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "智慧城市顾问",
+        "城市物联网基础设施",
+        "智能交通系统",
+        "智能电网与能源管理",
+        "数字市民服务"
       ]
     },
     {
@@ -236,6 +435,24 @@
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Social work specialist — from child protection to elder care, from crisis intervention to community organizing. Social workers meet people at their most vulnerable and help them find a path forward.",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "社会工作与公共服务专家",
+        "社区社会工作",
+        "青少年",
+        "老年",
+        "残疾人服务"
       ]
     },
     {
@@ -255,6 +472,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Shapes the physical and social fabric of cities with foresight, equity, and data-driven precision.",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "Domain",
+        "Expertise",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "城市规划师",
+        "总体规划与详细规划",
+        "土地利用与区划管理",
+        "交通规划",
+        "社区参与与公众参与"
       ]
     },
     {
@@ -275,7 +510,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Urban resilience specialist — from seismic building codes to flood-adaptive design, from heat island mitigation to community disaster preparedness. Cities face compound risks; your job is to make sure they bend without breaking.",
+      "lifecycle": "published",
+      "tags": [
+        "government",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "城市韧性与灾害管理专家",
+        "城市灾害风险评估",
+        "韧性城市规划",
+        "气候变化适应",
+        "应急管理体系"
       ]
     }
   ]

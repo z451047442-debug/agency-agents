@@ -1,7 +1,7 @@
 {
   "category": "beauty",
   "agent_count": 6,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "beauty-cosmetics-science",
@@ -19,14 +19,33 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Cosmetic scientist — from emulsion stability to active ingredient delivery,",
+      "lifecycle": "published",
+      "tags": [
+        "beauty",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "化妆品科学与配方专家",
+        "化妆品原料科学",
+        "配方开发与工艺放大",
+        "功效评价与安全性评估",
+        "法规合规"
       ]
     },
     {
       "id": "beauty-director",
       "name": "美妆总监",
       "description": "美妆领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"💄\"",
+      "emoji": "💄",
       "category": "beauty",
       "subcategory": "",
       "path": "beauty/beauty-director.md",
@@ -34,13 +53,34 @@
         "beauty-general-manager",
         "data-science-engineering-knowledge-management",
         "hr-tech-people-analytics",
+        "legal-billing-time-tracking",
+        "legal-document-review",
         "specialized-multi-agent-director",
         "specialized-multi-agent-president",
         "specialized-multi-agent-project-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 美妆与个人护理行业 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "beauty",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "美妆总监",
+        "美妆领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -52,37 +92,76 @@
       "subcategory": "",
       "path": "beauty/beauty-formulation.md",
       "depends_on": [
+        "automotive-engineering-functional-safety",
         "beauty-marketing",
         "data-science-engineering-knowledge-management",
         "food-beverage-engineering-cosmetics-science",
         "healthcare-engineering-regulatory-science",
+        "infrastructure-identity-access",
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Behind every elegant texture and every visible result lies rigorous science — you bridge the art of formulation with the discipline of chemistry.",
+      "lifecycle": "published",
+      "tags": [
+        "beauty",
+        "Limitations",
+        "Scope",
+        "Domain",
+        "Standards"
+      ],
+      "keywords": [
+        "化妆品配方科学家",
+        "护肤与彩妆配方研发",
+        "成分功效评估",
+        "稳定性测试",
+        "纯净美妆"
       ]
     },
     {
       "id": "beauty-general-manager",
       "name": "美妆总经理",
       "description": "美妆领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"💄\"",
+      "emoji": "💄",
       "category": "beauty",
       "subcategory": "",
       "path": "beauty/beauty-general-manager.md",
       "depends_on": [
         "beauty-director",
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "pets-general-manager",
+        "product-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "beauty",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "美妆总经理",
+        "美妆领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -99,13 +178,31 @@
         "marketing-carousel-growth-engine",
         "marketing-paid-media-creative-strategist",
         "marketing-paid-media-paid-social-strategist",
+        "marketing-paid-media-ppc-strategist",
         "marketing-paid-media-search-query-analyst",
         "marketing-paid-media-tracking-specialist",
-        "marketing-social-media-strategist",
-        "operations-report-distribution-agent"
+        "marketing-social-media-strategist"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A magnetic beauty brand storyteller who turns every product into a movement and every campaign into a cultural moment.",
+      "lifecycle": "published",
+      "tags": [
+        "beauty",
+        "Strategic",
+        "Frameworks",
+        "Origin",
+        "Story"
+      ],
+      "keywords": [
+        "美妆品牌营销师",
+        "美妆品牌故事讲述",
+        "社交媒体社群运营",
+        "达人合作",
+        "教程内容策略与新品发布活动专家"
       ]
     },
     {
@@ -118,6 +215,7 @@
       "path": "beauty/beauty-product-manager.md",
       "depends_on": [
         "design-cultural-intelligence-strategist",
+        "engineering-git-workflow-master",
         "logistics-supply-chain-strategist",
         "marketing-bilibili-content-strategist",
         "marketing-email-strategist",
@@ -126,6 +224,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Trend-obsessed beauty insider who lives at the intersection of product innovation, cultural relevance, and commercial success.",
+      "lifecycle": "published",
+      "tags": [
+        "beauty",
+        "Strategic",
+        "Consumer",
+        "Tension",
+        "Insight"
+      ],
+      "keywords": [
+        "美妆产品经理",
+        "产品概念开发",
+        "包装策略",
+        "上市推广",
+        "达人种草"
       ]
     }
   ]

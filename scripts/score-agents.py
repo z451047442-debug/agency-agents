@@ -7,7 +7,7 @@ Usage:
     python scripts/score-agents.py                    # all agents
     python scripts/score-agents.py --category engineering
     python scripts/score-agents.py --file path/to/agent.md
-    python scripts/score-agents.py --threshold 7      # CI gate
+    python scripts/score-agents.py --threshold 8      # CI gate
     python scripts/score-agents.py --json              # machine-readable output
 
 v7 dimensions (score_agent_v7, 0-18, Gate+Score architecture):
@@ -131,7 +131,9 @@ def main():
         cur_files = list(discover_agents(category_filter=args.category))
         cur_scores = {}
         for _cat, _rel, filepath in cur_files:
-            r = score_agent(filepath, check_freshness=False)
+            r = score_agent_v7(filepath, check_freshness=False)
+            r["total"] = r["v7_total"]
+            r["category"] = filepath.parent.name
             cur_scores[filepath.stem] = r
 
         # Score base state via git show
@@ -151,7 +153,9 @@ def main():
                     tmp = Path(tmpdir) / _filepath.name
                     tmp.parent.mkdir(parents=True, exist_ok=True)
                     tmp.write_text(result.stdout, encoding="utf-8")
-                    r = score_agent(tmp, check_freshness=False)
+                    r = score_agent_v7(tmp, check_freshness=False)
+                    r["total"] = r["v7_total"]
+                    r["category"] = _filepath.parent.name
                     base_scores[_filepath.stem] = r
                 except (subprocess.TimeoutExpired, FileNotFoundError, OSError):
                     base_scores[_filepath.stem] = None
@@ -240,6 +244,7 @@ def main():
     all_grades = defaultdict(int)
     for r in results:
         all_grades[r["grade"]] += 1
+    all_results = list(results)  # unfiltered set — CI gates must see every agent
 
     score_key = "total"
     if args.risk:
@@ -265,7 +270,7 @@ def main():
             "healthcare", "pharma-biotech", "legal", "finance", "insurance", "securities",
         }
         no_safeguard = [
-            r for r in results
+            r for r in all_results
             if (r["category"] in SAFEGUARD_REQUIRED
                 and r.get("safeguard_signals", 0) == 0)
         ]
@@ -283,7 +288,7 @@ def main():
 
     # CI gate: per-agent threshold (changed agents must meet bar)
     if args.threshold is not None and args.threshold > 0:
-        below = [r for r in results if r["total"] < args.threshold]
+        below = [r for r in all_results if r["total"] < args.threshold]
         if below:
             print(f"THRESHOLD FAIL: {len(below)} agent(s) below {args.threshold}",
                   file=sys.stderr)
@@ -291,7 +296,7 @@ def main():
 
     # CI gate: absolute floor (no agent may fall below this, period)
     if args.min_score is not None and args.min_score > 0:
-        below_floor = [r for r in results if r["total"] < args.min_score]
+        below_floor = [r for r in all_results if r["total"] < args.min_score]
         if below_floor:
             print(
                 f"FLOOR FAIL: {len(below_floor)} agent(s) below absolute floor"
@@ -299,7 +304,7 @@ def main():
                 file=sys.stderr,
             )
             for r in sorted(below_floor, key=lambda x: x["total"])[:10]:
-                print(f"  {r['total']}/10  {r['id']} ({r['category']})", file=sys.stderr)
+                print(f"  {r['total']}/18  {r['id']} ({r['category']})", file=sys.stderr)
             if len(below_floor) > 10:
                 print(f"  ... and {len(below_floor) - 10} more", file=sys.stderr)
             sys.exit(1)
@@ -308,17 +313,25 @@ def main():
     if not args.no_baseline and all_totals and not args.file:
         current = {
             "date": date.today().isoformat(),
-            "total_agents": len(results),
+            "total_agents": len(all_totals),
             "mean_score": round(statistics.mean(all_totals), 2),
             "median_score": round(statistics.median(all_totals), 1),
-            "a_pct": round((all_grades.get("A", 0) + all_grades.get("B", 0)) / len(results) * 100, 1),
+            "a_pct": round((all_grades.get("A", 0) + all_grades.get("B", 0)) / len(all_totals) * 100, 1),
             "d_count": all_grades.get("D", 0),
         }
-        # Append to history JSONL
+        # Append to history JSONL (LF newlines — repo enforces eol=lf)
         HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
-        with open(HISTORY_FILE, "a", encoding="utf-8") as hf:
+        with open(HISTORY_FILE, "a", encoding="utf-8", newline="\n") as hf:
             json.dump(current, hf, ensure_ascii=False)
             hf.write("\n")
+
+        # Accept the current state before the gate compares against it.
+        if args.update_baseline:
+            with open(BASELINE_FILE, "w", encoding="utf-8", newline="\n") as bf:
+                json.dump(current, bf, indent=2, ensure_ascii=False)
+                bf.write("\n")
+            print(f"{GREEN}Baseline updated: {BASELINE_FILE}{RESET}",
+                  file=sys.stderr)
 
         if BASELINE_FILE.exists():
             with open(BASELINE_FILE, encoding="utf-8") as bf:
@@ -345,13 +358,6 @@ def main():
                 if improved:
                     print(f"{GREEN}Baseline improved: {', '.join(improved)}{RESET}",
                           file=sys.stderr)
-
-        if args.update_baseline:
-            with open(BASELINE_FILE, "w", encoding="utf-8") as bf:
-                json.dump(current, bf, indent=2, ensure_ascii=False)
-                bf.write("\n")
-            print(f"{GREEN}Baseline updated: {BASELINE_FILE}{RESET}",
-                  file=sys.stderr)
 
     try:
         from telemetry import record_event

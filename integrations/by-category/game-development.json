@@ -1,7 +1,7 @@
 {
   "category": "game-development",
   "agent_count": 26,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "blender-addon-engineer",
@@ -21,6 +21,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns repetitive Blender pipeline work into reliable one-click tools that artists actually use.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Summary",
+        "Errors",
+        "Warnings"
+      ],
+      "keywords": [
+        "Blender",
+        "插件工程师",
+        "工具开发专家",
+        "构建",
+        "Python"
       ]
     },
     {
@@ -37,7 +55,26 @@
         "game-development-game-monetization-designer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A multiplayer game lives or dies by its backend — lag, disconnects, and cheaters",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "building",
+        "game",
+        "backends",
+        "Built"
+      ],
+      "keywords": [
+        "游戏后端",
+        "实时服务",
+        "Live",
+        "Service",
+        "工程师"
       ]
     },
     {
@@ -58,6 +95,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Makes every gunshot, footstep, and musical cue feel alive in the game world.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Music",
+        "System",
+        "Parameters"
+      ],
+      "keywords": [
+        "游戏音频工程师",
+        "FMOD",
+        "Wwise",
+        "自适应音乐与空间音频专家",
+        "Role"
       ]
     },
     {
@@ -75,6 +130,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Thinks in loops, levers, and player motivations to architect compelling gameplay.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Moment-to-Moment",
+        "seconds",
+        "Session"
+      ],
+      "keywords": [
+        "游戏设计师",
+        "系统设计",
+        "GDD",
+        "写作",
+        "经济平衡与玩法循环专家"
       ]
     },
     {
@@ -94,6 +167,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Monetization isn't about extracting money — it's about designing exchanges of value that players feel good about, over and over",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "游戏变现设计师",
+        "游戏经济与变现设计专家，覆盖免费+内购",
+        "F2P",
+        "经济系统",
+        "通行证"
       ]
     },
     {
@@ -111,7 +202,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Great games aren't just designed — they're produced; you're the one who turns",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "游戏制作人",
+        "游戏制作与项目管理专家，覆盖游戏开发流程",
+        "里程碑管理",
+        "团队协调",
+        "预算控制与发行策略"
       ]
     },
     {
@@ -126,7 +236,26 @@
         "government-social-work"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Game psychology specialist — from variable ratio reinforcement to flow state design, from Bartle player types to ethical monetization. Great games are psychologically engineered experiences.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Tools",
+        "Technologies",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "游戏心理学与行为设计专家",
+        "玩家动机模型",
+        "Bartle",
+        "SDT",
+        "奖励与强化系统"
       ]
     },
     {
@@ -139,12 +268,29 @@
       "path": "game-development/game-development-game-quality-assurance.md",
       "depends_on": [
         "blender-addon-engineer",
-        "engineering-multi-agent-systems-architect",
-        "operations-report-distribution-agent"
+        "engineering-multi-agent-systems-architect"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every bug you find is one less reason for a player to rage-quit. You play the",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "game",
+        "testing",
+        "Shipped",
+        "indie"
+      ],
+      "keywords": [
+        "游戏QA",
+        "测试工程师",
+        "游戏质量保证与测试专家，覆盖功能测试",
+        "关卡测试",
+        "性能"
       ]
     },
     {
@@ -165,6 +311,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Treats every level as an authored experience where space tells the story.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Intent",
+        "Layout",
+        "Specification"
+      ],
+      "keywords": [
+        "关卡设计师",
+        "布局理论",
+        "节奏",
+        "遭遇设计与环境叙事专家",
+        "Role"
       ]
     },
     {
@@ -181,7 +345,26 @@
         "specialized-agentic-identity-trust"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Game narrative designer — from branching dialogue to environmental storytelling.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "游戏叙事与世界观设计专家",
+        "互动叙事设计",
+        "分支叙事",
+        "环境叙事",
+        "涌现叙事"
       ]
     },
     {
@@ -202,6 +385,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Architects story systems where narrative and gameplay are inseparable.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Character",
+        "Name",
+        "Tier"
+      ],
+      "keywords": [
+        "叙事设计师",
+        "故事系统",
+        "分支对话与世界观架构专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -222,6 +423,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The bridge between artistic vision and engine reality.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Characters",
+        "Environment",
+        "Hero"
+      ],
+      "keywords": [
+        "技术美术",
+        "Shader",
+        "VFX",
+        "LOD",
+        "管线与美术到引擎优化专家"
       ]
     },
     {
@@ -244,6 +463,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds Godot 4 gameplay systems with the discipline of a software architect.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Emitted",
+        "health",
+        "value"
+      ],
+      "keywords": [
+        "Godot",
+        "玩法脚本工程师",
+        "组合与信号完整性专家",
+        "精通",
+        "GDScript"
       ]
     },
     {
@@ -267,6 +504,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Masters Godot's MultiplayerAPI to make real-time netcode feel seamless.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Process",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Godot",
+        "多人网络工程师",
+        "网络专家",
+        "精通",
+        "MultiplayerAPI"
       ]
     },
     {
@@ -286,6 +541,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Bends light and pixels through Godot's shading language to create stunning effects.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Godot",
+        "Shader",
+        "Review"
+      ],
+      "keywords": [
+        "Godot",
+        "Shader",
+        "开发工程师",
+        "视觉效果专家",
+        "精通"
       ]
     },
     {
@@ -306,6 +579,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Masters the UGC pipeline from rigging to Creator Marketplace submission.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Accessory",
+        "Export",
+        "Checklist"
+      ],
+      "keywords": [
+        "Roblox",
+        "虚拟形象创建师",
+        "UGC",
+        "与虚拟形象流水线专家",
+        "精通虚拟形象系统"
       ]
     },
     {
@@ -330,6 +621,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs engagement loops and monetization systems that keep players coming back.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Roblox",
+        "Experience",
+        "Onboarding"
+      ],
+      "keywords": [
+        "Roblox",
+        "体验设计师",
+        "平台",
+        "UX",
+        "与变现专家"
       ]
     },
     {
@@ -349,6 +658,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds scalable Roblox experiences with rock-solid Luau and client-server security.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "Roblox",
+        "系统脚本工程师",
+        "平台工程专家",
+        "精通",
+        "Luau"
       ]
     },
     {
@@ -369,6 +696,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs data-driven, decoupled Unity systems that scale without spaghetti.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Process",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Unity",
+        "架构师",
+        "ScriptableObjects",
+        "数据驱动模块化与",
+        "DOTS"
       ]
     },
     {
@@ -388,6 +733,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds custom Unity editor tools that save teams hours every week.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Process",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Unity",
+        "编辑器工具开发者",
+        "EditorWindow",
+        "AssetPostprocessor",
+        "与构建自动化专家"
       ]
     },
     {
@@ -411,6 +774,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Makes networked Unity gameplay feel local through smart sync and prediction.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Process",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Unity",
+        "多人网络工程师",
+        "Netcode",
+        "GameObjects",
+        "Relay"
       ]
     },
     {
@@ -431,6 +812,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Crafts real-time visual magic through Shader Graph and custom render passes.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Shader",
+        "Review",
+        "Name"
+      ],
+      "keywords": [
+        "Unity",
+        "Shader",
+        "艺术家",
+        "Graph",
+        "HLSL"
       ]
     },
     {
@@ -449,7 +848,26 @@
         "unreal-engine-unreal-world-builder"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Architects server-authoritative Unreal multiplayer that feels lag-free.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Process",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Unreal",
+        "多人网络架构师",
+        "Engine",
+        "网络专家",
+        "精通"
       ]
     },
     {
@@ -471,6 +889,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Masters the C++/Blueprint continuum for AAA-grade Unreal Engine projects.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "Unreal",
+        "系统工程师",
+        "性能与混合架构专家",
+        "精通",
+        "C++"
       ]
     },
     {
@@ -493,6 +929,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Bridges Niagara VFX, Material Editor, and PCG into polished UE5 visuals.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Technical",
+        "Material",
+        "Review",
+        "Name"
+      ],
+      "keywords": [
+        "Unreal",
+        "技术美术",
+        "Engine",
+        "视觉管线专家",
+        "精通"
       ]
     },
     {
@@ -516,6 +970,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds seamless open worlds with World Partition, Nanite, and procedural foliage.",
+      "lifecycle": "published",
+      "tags": [
+        "game-development",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "Unreal",
+        "世界构建师",
+        "开放世界与环境专家",
+        "精通",
+        "UE5"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "category": "events",
   "agent_count": 7,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "events-conference",
@@ -15,19 +15,36 @@
         "hr-labor-relations",
         "marketing-brand-strategist-name",
         "marketing-field-marketing",
-        "operations-report-distribution-agent",
         "specialized-life-coach",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A conference is a city that exists for three days. You plan the infrastructure, manage the traffic flow, curate the content neighborhoods, and ensure every attendee from keynote speaker to day-pass visitor finds value in those three days.",
+      "lifecycle": "published",
+      "tags": [
+        "events",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "会展运营经理",
+        "会议与展览运营专家，覆盖会议日程规划与讲者管理",
+        "展位布局与动线设计",
+        "赞助方案开发与分层报价",
+        "参会者注册与票务系统"
       ]
     },
     {
       "id": "events-director",
       "name": "会展活动总监",
       "description": "会展活动领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🎪\"",
+      "emoji": "🎪",
       "category": "events",
       "subcategory": "",
       "path": "events/events-director.md",
@@ -41,7 +58,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 大型活动与会议展览 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "events",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "会展活动总监",
+        "会展活动领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -62,29 +98,65 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Festival and major event manager — from stage power calculations to crowd flow modeling, from artist rider fulfillment to emergency evacuation planning. A festival is a temporary city of thousands; you're the mayor.",
+      "lifecycle": "published",
+      "tags": [
+        "events",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "节庆与大型活动管理专家",
+        "音乐节",
+        "文化节",
+        "体育赛事策划运营",
+        "场地与安全管理"
       ]
     },
     {
       "id": "events-general-manager",
       "name": "会展活动总经理",
       "description": "会展活动领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🎪\"",
+      "emoji": "🎪",
       "category": "events",
       "subcategory": "",
       "path": "events/events-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "events-director",
         "government-general-manager",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "events",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "会展活动总经理",
+        "会展活动领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -100,13 +172,30 @@
         "logistics-last-mile-delivery",
         "marketing-brand-strategist",
         "marketing-content-strategist",
-        "operations-report-distribution-agent",
         "robotics-motion-control",
         "thinking-models-tech-leaders",
         "web3-defi-strategist"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every event tells a story — you're the author. From the first save-the-date to the last guest departure, you design moments that connect people, communicate messages, and create memories that outlast the catering.",
+      "lifecycle": "published",
+      "tags": [
+        "events",
+        "Deliverable",
+        "Authoritative",
+        "References",
+        "Success"
+      ],
+      "keywords": [
+        "活动策划师",
+        "活动策划专家，覆盖活动概念与主题设计",
+        "场地寻源与合同谈判",
+        "供应商管理（餐饮",
+        "AV"
       ]
     },
     {
@@ -126,11 +215,28 @@
         "marketing-customer-lifecycle",
         "marketing-demand-generation",
         "marketing-market-research",
-        "operations-report-distribution-agent",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sponsorship is not selling logo placement — it is building a partnership where both sides win. You design sponsorship programs that fund great events while delivering measurable business value to sponsors, turning one-time transactions into multi-year relationships.",
+      "lifecycle": "published",
+      "tags": [
+        "events",
+        "Deliverable",
+        "Authoritative",
+        "References",
+        "Success"
+      ],
+      "keywords": [
+        "赞助开发经理",
+        "赞助开发专家，覆盖赞助权益包",
+        "分层体系设计",
+        "潜在赞助商调研与画像匹配",
+        "招商方案"
       ]
     },
     {
@@ -147,11 +253,28 @@
         "logistics-last-mile-delivery",
         "logistics-public-transit",
         "media-entertainment-dance-choreography",
-        "operations-report-distribution-agent",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A wedding is the most important event most people will ever host — and they have never done it before. You bring calm to the chaos, taste to the choices, and ensure the only thing the couple worries about on the day is whether they will cry during the vows.",
+      "lifecycle": "published",
+      "tags": [
+        "events",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "婚礼策划师",
+        "婚礼策划专家，覆盖婚礼风格设计与视觉定位",
+        "供应商遴选与预算分配（场地",
+        "摄影",
+        "化妆"
       ]
     }
   ]

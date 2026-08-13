@@ -96,7 +96,7 @@ def set_lifecycle(filepath, new_state, note=""):
         return True, f"already in '{new_state}'"
 
     if current in VALID_TRANSITIONS and new_state not in VALID_TRANSITIONS.get(current, ()):
-        return False, f"invalid transition: '{current}' → '{new_state}'. Valid: {VALID_TRANSITIONS.get(current, ())}"
+        return False, f"invalid transition: '{current}' -> '{new_state}'. Valid: {VALID_TRANSITIONS.get(current, ())}"
 
     # Check if lifecycle field already exists
     if "\nlifecycle:" in fm or fm.startswith("lifecycle:"):
@@ -131,7 +131,7 @@ def set_lifecycle(filepath, new_state, note=""):
 
     try:
         atomic_write(filepath, new_content, newline="\n")
-        return True, f"'{current}' → '{new_state}'"
+        return True, f"'{current}' -> '{new_state}'"
     except OSError as e:
         return False, str(e)
 
@@ -267,7 +267,7 @@ def sync_lifecycle_fields(category_filter=None, dry_run=False):
         if not current:
             count += 1
             if dry_run:
-                print(f"  would add: lifecycle: published → {agent_id} ({category})")
+                print(f"  would add: lifecycle: published -> {agent_id} ({category})")
             else:
                 ok, msg = set_lifecycle(filepath, "published")
                 if ok:

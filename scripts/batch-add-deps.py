@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Batch-apply high-confidence depends_on suggestions to agent frontmatter."""
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -58,7 +59,10 @@ def add_deps(filepath, dep_ids):
             insert_at += 1
             fm_end += 1
     else:
-        # Find last multi-line field or nexus_roles block
+        # Prefer the end of the nexus_roles list, otherwise the last simple
+        # scalar field line. Never insert after a block-scalar opener
+        # (`field: |` / `field: >`) — that would place depends_on inside the
+        # scalar's continuation block and corrupt the frontmatter YAML.
         insert_at = None
         for i in range(1, fm_end):
             ls = lines[i].strip()
@@ -69,9 +73,14 @@ def add_deps(filepath, dep_ids):
                     j += 1
                 insert_at = j; break
         if insert_at is None:
+            simple_field = re.compile(r'^\w[\w-]*:\s*\S')
+            block_opener = re.compile(r'^\w[\w-]*:\s*[|>]')
+            last_simple = None
             for i in range(1, fm_end):
-                if ':' in lines[i] and not lines[i].strip().startswith('-'):
-                    insert_at = i + 1
+                ls = lines[i].strip()
+                if simple_field.match(ls) and not block_opener.match(ls):
+                    last_simple = i + 1
+            insert_at = last_simple
         if insert_at is None: insert_at = fm_end
         new_lines = ['', 'depends_on:'] + [f'  - {d}' for d in dep_ids]
         for nl in reversed(new_lines):

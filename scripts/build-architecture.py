@@ -9,6 +9,7 @@ Usage:
 
 import argparse
 import json
+import re
 import subprocess
 import sys
 from collections import Counter
@@ -1025,6 +1026,15 @@ def main():
         md_path = Path(args.out_md)
         html_path = Path(args.out_html)
         ok = True
+        # The rendered output embeds a generation timestamp; re-rendering now
+        # would always differ from the committed file. Reuse the committed
+        # timestamp so --check only flags real content drift.
+        if md_path.exists():
+            m = re.search(r"Generated: (.+)", md_path.read_text(encoding="utf-8"))
+            if m:
+                data["generated"] = m.group(1).strip()
+                md_content = render_markdown(data)
+                html_content = render_html(data)
         if md_path.read_text(encoding="utf-8") != md_content:
             print(f"ERROR: {md_path} is stale. Run scripts/build-architecture.py to update.", file=sys.stderr)
             ok = False
@@ -1035,8 +1045,8 @@ def main():
             print("OK: ARCHITECTURE.md and ARCHITECTURE.html are up to date.")
         sys.exit(0 if ok else 1)
 
-    Path(args.out_md).write_text(md_content, encoding="utf-8")
-    Path(args.out_html).write_text(html_content, encoding="utf-8")
+    Path(args.out_md).write_text(md_content, encoding="utf-8", newline="\n")
+    Path(args.out_html).write_text(html_content, encoding="utf-8", newline="\n")
 
     print(f"Built {args.out_md} ({data['total_agents']:,} agents, {data['total_categories']} categories)")
     print(f"Built {args.out_html} ({data['total_agents']:,} agents, {data['total_categories']} categories)")

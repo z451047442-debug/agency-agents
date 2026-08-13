@@ -1,7 +1,7 @@
 {
   "category": "gis",
-  "agent_count": 15,
-  "generated": "2026-07-16",
+  "agent_count": 16,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "gis-3d-scene-developer",
@@ -21,6 +21,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Bringing the third dimension to the web — one scene at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Tech",
+        "Stack",
+        "Agent"
+      ],
+      "keywords": [
+        "3D与场景开发工程师",
+        "Web",
+        "3D可视化专家，使用Cesium",
+        "ArcGIS",
+        "Scene"
       ]
     },
     {
@@ -35,15 +53,33 @@
         "data-science-engineering-vector-database-expert",
         "education-special-needs",
         "engineering-graph-database",
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "gis-spatial-data-scientist",
         "healthcare-engineering-gene-editing-crispr",
-        "operations-report-distribution-agent",
         "specialized-agentic-identity-trust",
         "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The reliable hands-on operator who keeps the GIS running day to day.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Tool",
+        "Proficiency",
+        "Agent"
+      ],
+      "keywords": [
+        "GIS",
+        "分析师",
+        "桌面与Web环境中的地图创建",
+        "图层管理",
+        "空间查询与地理数据维护专家"
       ]
     },
     {
@@ -58,7 +94,7 @@
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-language-model-nlp",
         "engineering-graph-database",
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "finance-engineering-credit-risk-model",
         "gis-drone-reality-mapping",
         "infrastructure-identity-access",
@@ -67,7 +103,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Where buildings meet geography — the spatial side of the built world.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Tech",
+        "Stack",
+        "Agent"
+      ],
+      "keywords": [
+        "BIM",
+        "GIS",
+        "专家",
+        "建筑信息模型与地理信息系统集成专家，覆盖Revit",
+        "IFC转换"
       ]
     },
     {
@@ -82,23 +137,41 @@
         "construction-engineering-green-building",
         "engineering-code-reviewer",
         "engineering-minimal-change-engineer",
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "finance-engineering-risk-quant",
         "gis-spatial-data-scientist",
         "infrastructure-identity-access",
-        "operations-report-distribution-agent",
         "thinking-models-scientific-method",
         "unity-editor-tool-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A map that communicates beautifully is a map that gets used.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Design",
+        "Process",
+        "Tools",
+        "Techniques"
+      ],
+      "keywords": [
+        "地图设计专家",
+        "印刷与Web地图美学设计专家，精通色彩理论",
+        "排版",
+        "标签放置与视觉层次",
+        "Role"
       ]
     },
     {
       "id": "gis-director",
       "name": "地理信息总监",
       "description": "地理信息领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🗺\"",
+      "emoji": "🗺",
       "category": "gis",
       "subcategory": "",
       "path": "gis/gis-director.md",
@@ -112,7 +185,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead GIS与空间数据服务 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "地理信息总监",
+        "地理信息领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -127,39 +219,75 @@
         "construction-engineering-noise-control",
         "cybersecurity-engineering-cyber-risk-model",
         "engineering-minimal-change-engineer",
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "finance-engineering-credit-risk-model",
         "gis-3d-scene-developer",
         "healthcare-engineering-gene-editing-crispr",
         "marketing-abm-account-based",
-        "operations-report-distribution-agent",
         "robotics-motion-control"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "From raw drone footage to production-ready GIS data — seamless.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Tech",
+        "Stack",
+        "Agent"
+      ],
+      "keywords": [
+        "无人机",
+        "实景建模专家",
+        "无人机影像处理为正射镶嵌图",
+        "数字地形模型与3D网格的摄影测量专家",
+        "Role"
       ]
     },
     {
       "id": "gis-general-manager",
       "name": "地理信息总经理",
       "description": "地理信息领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🗺\"",
+      "emoji": "🗺",
       "category": "gis",
       "subcategory": "",
       "path": "gis/gis-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "gis-director",
         "government-general-manager",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "地理信息总经理",
+        "地理信息领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -179,6 +307,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Teaching machines to see the Earth — one pixel at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Tech",
+        "Stack",
+        "Agent"
+      ],
+      "keywords": [
+        "地理AI",
+        "机器学习工程师",
+        "从卫星与航空影像中提取特征",
+        "检测目标",
+        "分割图像与土地覆盖分类的地理空间机器学习专家"
       ]
     },
     {
@@ -193,16 +339,68 @@
         "cybersecurity-engineering-cyber-risk-model",
         "education-special-needs",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "finance-engineering-credit-risk-model",
         "gis-3d-scene-developer",
         "infrastructure-identity-access",
-        "marketing-paid-media-search-query-analyst",
-        "operations-report-distribution-agent"
+        "marketing-paid-media-search-query-analyst"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If you've done it manually more than twice, this agent will automate it.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Skills",
+        "Agent",
+        "Success"
+      ],
+      "keywords": [
+        "地理处理专家",
+        "ArcPy与Python工具箱自动化空间工作流专家，构建自定义工具箱与批处理地理处理",
+        "Role",
+        "Personality",
+        "Memory"
+      ]
+    },
+    {
+      "id": "gis-multi-agent-coordinator",
+      "name": "GIS Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for GIS — spatial analysis, remote",
+      "emoji": "🗺️",
+      "category": "gis",
+      "subcategory": "",
+      "path": "gis/gis-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating gis specialists into coherent multi-agent workflows",
+      "tags": [
+        "gis",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "GIS",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -215,14 +413,31 @@
       "path": "gis/gis-qa-engineer.md",
       "depends_on": [
         "data-science-engineering-computer-vision-deep",
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "gis-analyst",
-        "marketing-brand-strategist-name",
-        "operations-report-distribution-agent"
+        "marketing-brand-strategist-name"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data doesn't ship until QA says it ships.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Toolbox",
+        "Report",
+        "Template"
+      ],
+      "keywords": [
+        "GIS",
+        "质量保证工程师",
+        "地理空间数据完整性验证专家，覆盖拓扑检查",
+        "元数据审计",
+        "CRS一致性与合规验证"
       ]
     },
     {
@@ -247,6 +462,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The builder who makes strategy real — one working demo at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Technical",
+        "Breadth",
+        "Agent"
+      ],
+      "keywords": [
+        "解决方案工程师",
+        "将技术顾问策略转化为工作原型的概念验证专家，覆盖Esri与开源全栈",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
@@ -260,14 +493,33 @@
       "depends_on": [
         "data-science-engineering-vector-database-expert",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "gis-drone-reality-mapping",
         "gis-spatial-data-scientist",
         "logistics-cross-border-ecommerce",
         "marketing-cross-border-ecommerce"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data comes in dirty. It leaves clean, documented, and ready to publish.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Tools",
+        "Agent",
+        "Success"
+      ],
+      "keywords": [
+        "空间数据工程师",
+        "将原始地理空间数据转换为标准化生产级数据集的ETL专家",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
@@ -284,16 +536,34 @@
         "data-science-engineering-language-model-nlp",
         "education-academic-research-scientist",
         "energy-engineering-grid-scale-storage",
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "finance-engineering-risk-quant",
         "infrastructure-identity-access",
-        "operations-report-distribution-agent",
         "specialized-agentic-identity-trust",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finding the patterns in space that even experienced analysts miss.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Tech",
+        "Stack",
+        "Agent"
+      ],
+      "keywords": [
+        "空间数据科学家",
+        "运用统计建模",
+        "空间计量经济学与预测分析的高级空间数据分析专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -312,13 +582,30 @@
         "finance-engineering-credit-risk-model",
         "finance-engineering-risk-quant",
         "gis-3d-scene-developer",
-        "operations-report-distribution-agent",
         "testing-tool-evaluator",
         "web3-defi-strategist"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The strategist who connects business pain points with geospatial solutions that actually deliver ROI.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Sample",
+        "Agent",
+        "Success"
+      ],
+      "keywords": [
+        "技术顾问",
+        "将业务问题转化为地理空间解决方案的战略顾问，覆盖差距分析与技术路线图",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
@@ -330,13 +617,32 @@
       "subcategory": "",
       "path": "gis/gis-web-gis-developer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "gis-multi-agent-coordinator",
         "engineering-visual-studio-python",
         "gis-3d-scene-developer",
         "marketing-paid-media-search-query-analyst"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Maps on the web that actually work — fast, responsive, and beautiful.",
+      "lifecycle": "published",
+      "tags": [
+        "gis",
+        "Process",
+        "Tech",
+        "Stack",
+        "Agent"
+      ],
+      "keywords": [
+        "Web",
+        "GIS",
+        "开发工程师",
+        "交互式地图应用全栈开发专家，覆盖",
+        "MapLibre"
       ]
     }
   ]

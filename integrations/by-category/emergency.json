@@ -1,18 +1,20 @@
 {
   "category": "emergency",
   "agent_count": 7,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "emergency-director",
       "name": "应急管理总监",
       "description": "应急管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🚨\"",
+      "emoji": "🚨",
       "category": "emergency",
       "subcategory": "",
       "path": "emergency/emergency-director.md",
       "depends_on": [
         "emergency-general-manager",
+        "government-smart-city",
+        "home-lifestyle-personal-finance",
         "hr-tech-people-analytics",
         "specialized-habit-formation",
         "specialized-multi-agent-director",
@@ -22,6 +24,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 应急响应与灾害管理 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "emergency",
+        "Disaster",
+        "Response",
+        "Domain",
+        "Knowledge"
+      ],
+      "keywords": [
+        "应急管理总监",
+        "应急管理领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -33,18 +53,33 @@
       "subcategory": "",
       "path": "emergency/emergency-disaster-response.md",
       "depends_on": [
-        "aerospace-damage-protection-technology",
+        "emergency-director",
         "emergency-ems",
-        "government-urban-resilience",
-        "logistics-public-transit",
-        "marketing-cross-border-ecommerce",
-        "specialized-agentic-identity-trust",
-        "thinking-models-decision-frameworks",
-        "thinking-models-political-leaders"
+        "emergency-general-manager",
+        "food-beverage-food-supply-chain",
+        "logistics-engineering-supply-chain-analytics"
       ],
       "nexus_roles": [
         "phase-6-operate",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the ground shakes and the waters rise, you are the calm voice on the radio — coordinating helicopters, shelters, and supply chains so help arrives before hope runs out.",
+      "lifecycle": "published",
+      "tags": [
+        "emergency",
+        "Capabilities",
+        "Process",
+        "Deliverable",
+        "Templates"
+      ],
+      "keywords": [
+        "灾害响应协调员",
+        "多机构协调（FEMA",
+        "UN",
+        "红十字会）",
+        "快速损害评估"
       ]
     },
     {
@@ -56,16 +91,36 @@
       "subcategory": "",
       "path": "emergency/emergency-ems.md",
       "depends_on": [
+        "automotive-engineering-functional-safety",
         "emergency-disaster-response",
         "government-public-safety-analyst",
         "healthcare-emergency-medicine",
         "healthcare-engineering-gene-editing-crispr",
         "healthcare-engineering-nuclear-medicine",
         "healthcare-engineering-veterinary-medicine",
-        "healthcare-mental-health"
+        "healthcare-mental-health",
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Calm in the chaos — a veteran EMS Medical Director who brings order to the uncontrolled scene, makes life-and-death decisions with clinical precision, and builds systems that save lives before the hospital doors open.",
+      "lifecycle": "published",
+      "tags": [
+        "emergency",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "EMS",
+        "医疗主任",
+        "院前急救方案",
+        "救护车运营",
+        "大规模伤亡检伤分类"
       ]
     },
     {
@@ -79,6 +134,7 @@
       "depends_on": [
         "construction-engineering-fire-dynamics",
         "government-social-work",
+        "healthcare-engineering-medical-device-software",
         "healthcare-mental-health",
         "infrastructure-engineering-incident-response-commander",
         "logistics-engineering-supply-chain-risk"
@@ -86,18 +142,35 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the tones drop and the trucks roll, someone has to turn chaos into command. You size up the scene in seconds, deploy crews with precision, and bring everyone home — because on the fireground, indecision is the real accelerant.",
+      "lifecycle": "published",
+      "tags": [
+        "emergency",
+        "Capabilities",
+        "References",
+        "Standards",
+        "Outputs"
+      ],
+      "keywords": [
+        "消防总长",
+        "指挥官",
+        "ICS（事故指挥系统）操作",
+        "火场战略",
+        "资源调配"
       ]
     },
     {
       "id": "emergency-general-manager",
       "name": "应急管理总经理",
       "description": "应急管理领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🚨\"",
+      "emoji": "🚨",
       "category": "emergency",
       "subcategory": "",
       "path": "emergency/emergency-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "emergency-director",
         "government-general-manager",
         "healthcare-general-manager",
@@ -107,6 +180,24 @@
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "emergency",
+        "Disaster",
+        "Response",
+        "Domain",
+        "Knowledge"
+      ],
+      "keywords": [
+        "应急管理总经理",
+        "应急管理领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -124,12 +215,29 @@
         "logistics-engineering-supply-chain-risk",
         "logistics-engineering-supply-chain-software",
         "logistics-supply-chain-strategist",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Humanitarian aid specialist — from Sphere standards to cash-based programming, from refugee camp coordination to food security assessments. In a crisis, logistics saves lives, dignity is non-negotiable, and coordination determines whether aid reaches those in need.",
+      "lifecycle": "published",
+      "tags": [
+        "emergency",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "人道主义援助专家",
+        "人道主义应急响应",
+        "难民与流离失所者援助",
+        "粮食安全与营养",
+        "WASH"
       ]
     },
     {
@@ -143,7 +251,6 @@
       "depends_on": [
         "education-number-theory",
         "emergency-fire-chief",
-        "operations-report-distribution-agent",
         "sales-data-extraction-agent",
         "specialized-habit-formation",
         "testing-engineering-test-automation-framework",
@@ -151,6 +258,24 @@
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When someone is missing, every minute matters. You apply search theory, technical rescue skills, and incident command discipline to bring people home — balancing speed against safety, probability against terrain, and hope against the clock.",
+      "lifecycle": "published",
+      "tags": [
+        "emergency",
+        "Tools",
+        "Technologies",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "搜救专家",
+        "搜索与救援专家，覆盖SAR任务规划与指挥协调",
+        "搜索理论（概率",
+        "网格",
+        "扇形搜索）与资源部署"
       ]
     }
   ]

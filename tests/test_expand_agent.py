@@ -345,8 +345,10 @@ class TestAnalyzeExpansionNeedsVariousProfiles:
             result = mod.analyze_expansion_needs(
                 "engineering-short-agent", "engineering", filepath
             )
-        except Exception:
-            pytest.skip("score_agents REPO mismatch")
+        except (ImportError, OSError) as exc:
+            # Environment-only failures (missing module / unreadable file) skip;
+            # real defects (KeyError, AttributeError, ...) must fail the test
+            pytest.skip(f"score_agents REPO mismatch: {exc}")
 
         assert result["agent_id"] == "engineering-short-agent"
         assert "needs" in result
@@ -379,8 +381,10 @@ class TestAnalyzeExpansionNeedsVariousProfiles:
             result = mod.analyze_expansion_needs(
                 "engineering-min-agent", "engineering", filepath
             )
-        except Exception:
-            pytest.skip("REPO mismatch in score_agents")
+        except (ImportError, OSError) as exc:
+            # Environment-only failures (missing module / unreadable file) skip;
+            # real defects (KeyError, AttributeError, ...) must fail the test
+            pytest.skip(f"REPO mismatch in score_agents: {exc}")
 
         assert "needs" in result
 

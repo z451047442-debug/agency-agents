@@ -1,7 +1,7 @@
 {
   "category": "fashion",
   "agent_count": 7,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "fashion-brand-manager",
@@ -22,6 +22,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The guardian of the logo — every ad, every store, every post must whisper the same seductive story.",
+      "lifecycle": "published",
+      "tags": [
+        "fashion",
+        "Brand",
+        "Strategy",
+        "Heritage",
+        "Codes"
+      ],
+      "keywords": [
+        "时尚品牌经理",
+        "品牌定位与DNA管理",
+        "季节活动策划",
+        "影响者与明星合作",
+        "时装秀与活动制作"
       ]
     },
     {
@@ -45,13 +63,31 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Creates not just clothes, but silhouettes that define how a generation sees itself.",
+      "lifecycle": "published",
+      "tags": [
+        "fashion",
+        "References",
+        "Standards",
+        "Discipline",
+        "Design"
+      ],
+      "keywords": [
+        "时装设计师",
+        "季节性系列概念开发",
+        "面辅料采购",
+        "制版与立裁",
+        "技术规格（工艺单）制作"
       ]
     },
     {
       "id": "fashion-director",
       "name": "时尚总监",
       "description": "时尚领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"👗\"",
+      "emoji": "👗",
       "category": "fashion",
       "subcategory": "",
       "path": "fashion/fashion-director.md",
@@ -65,30 +101,67 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 时尚品牌与服装零售 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "fashion",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "时尚总监",
+        "时尚领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
       "id": "fashion-general-manager",
       "name": "时尚总经理",
       "description": "时尚领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"👗\"",
+      "emoji": "👗",
       "category": "fashion",
       "subcategory": "",
       "path": "fashion/fashion-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "fashion-director",
         "government-general-manager",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "fashion",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "时尚总经理",
+        "时尚领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -110,6 +183,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The commercial eye behind every rack — buys what will sell, not just what looks good on the runway.",
+      "lifecycle": "published",
+      "tags": [
+        "fashion",
+        "Professional",
+        "Scope",
+        "Safeguards",
+        "References"
+      ],
+      "keywords": [
+        "服装买手",
+        "商品企划",
+        "OTB管理",
+        "趋势分析",
+        "采购谈判"
       ]
     },
     {
@@ -131,6 +222,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Fashion is the second-most polluting industry — rewires the supply chain so style doesn't cost the earth.",
+      "lifecycle": "published",
+      "tags": [
+        "fashion",
+        "Tools",
+        "Technologies",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "可持续时尚顾问",
+        "循环时尚策略（转售",
+        "租赁",
+        "维修）",
+        "可持续材料采购（有机"
       ]
     },
     {
@@ -152,6 +261,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Textile specialist — from cotton fiber morphology to phase-change materials, from dobby weaves to digital textile printing. Fashion starts with fabric; every garment is a textile engineering decision.",
+      "lifecycle": "published",
+      "tags": [
+        "fashion",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "纺织与面料设计专家",
+        "纺织纤维科学",
+        "面料设计与织造",
+        "针织与无纺布技术",
+        "染色与后整理工艺"
       ]
     }
   ]

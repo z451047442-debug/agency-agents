@@ -120,12 +120,12 @@ color: cyan                  # required: named color or #RRGGBB
 
 The agent content is too thin. Add more detail to body sections — expand the workflow steps, add code examples, flesh out the communication style.
 
-### "WARN: file exceeds 10 KB"
+### "WARN: file too large" / "ERROR: file way too large"
 
-The file is unusually large. Consider:
+The linter warns when a file exceeds **55 KB** and errors when it exceeds **80 KB**. The file is unusually large. Consider:
 - Moving lengthy code examples to referenced external files
 - Trimming redundant workflow steps
-- Moving background/context paragraphs to a README if the agent had one
+- Splitting the agent into multiple specialized agents (required above 80 KB)
 
 ### "WARN: missing recommended section: Identity / Core Mission / Critical Rules"
 

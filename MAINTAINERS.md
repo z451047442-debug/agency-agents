@@ -15,7 +15,7 @@ This document describes the governance model for The Agency project.
 A Category Maintainer owns one or more agent categories. Responsibilities:
 
 - Review and merge PRs within their categories
-- Ensure agents in their categories meet quality standards (score >= 7)
+- Ensure agents in their categories meet quality standards (score >= 8, matching the CI `--threshold 8` gate)
 - Keep agents up to date with domain knowledge
 - Flag stale or low-quality agents for review
 

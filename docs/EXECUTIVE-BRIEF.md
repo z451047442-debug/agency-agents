@@ -6,7 +6,7 @@
 
 ## 1. SITUATION OVERVIEW
 
-The Agency comprises specialized AI agents across 9 divisions — engineering, design, marketing, product, project management, testing, support, spatial computing, and specialized operations. Individually, each agent delivers expert-level output. **Without coordination, they produce conflicting decisions, duplicated effort, and quality gaps at handoff boundaries.** NEXUS transforms this collection into an orchestrated intelligence network with defined pipelines, quality gates, and measurable outcomes.
+The Agency comprises specialized AI agents across 62 industry categories (engineering, design, marketing, product, project management, testing, cybersecurity, healthcare, and more). Individually, each agent delivers expert-level output. **Without coordination, they produce conflicting decisions, duplicated effort, and quality gaps at handoff boundaries.** NEXUS transforms this collection into an orchestrated intelligence network with defined pipelines, quality gates, and measurable outcomes.
 
 ## 2. KEY FINDINGS
 
@@ -34,7 +34,7 @@ The Agency comprises specialized AI agents across 9 divisions — engineering, d
 | **Phase Playbooks** (7) | Step-by-step activation sequences with agent prompts, timelines, and quality gates |
 | **Activation Prompts** | Ready-to-use prompt templates for every agent in every pipeline role |
 | **Handoff Templates** (7) | Standardized formats for QA pass/fail, escalation, phase gates, sprints, incidents |
-| **Scenario Runbooks** (5) | Pre-built configurations for Startup MVP, Enterprise Feature, Marketing Campaign, Incident Response, Rollback & Recovery |
+| **Scenario Runbooks** (8) | Pre-built configurations for Startup MVP, Enterprise Feature, Marketing Campaign, Incident Response, Rollback & Recovery, Course Design, Research Report, Strategy Consulting |
 | **Quick-Start Guide** | 5-minute guide to activating any NEXUS mode |
 
 ## 5. THREE DEPLOYMENT MODES
@@ -94,9 +94,12 @@ docs/
     ├── scenario-enterprise-feature.md ← Enterprise feature development
     ├── scenario-marketing-campaign.md ← Multi-channel campaign
     ├── scenario-incident-response.md  ← Production incident handling
-    └── scenario-rollback-recovery.md  ← Rollback decision tree + execution
+    ├── scenario-rollback-recovery.md  ← Rollback decision tree + execution
+    ├── scenario-course-design.md     ← Course design & delivery
+    ├── scenario-research-report.md   ← Research report production
+    └── scenario-strategy-consulting.md ← Strategy consulting engagement
 ```
 
 ---
 
-*NEXUS: 9 Divisions. 7 Phases. One Unified Strategy.*
+*NEXUS: 62 Categories. 7 Phases. One Unified Strategy.*

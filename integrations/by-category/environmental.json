@@ -1,7 +1,7 @@
 {
   "category": "environmental",
-  "agent_count": 37,
-  "generated": "2026-07-16",
+  "agent_count": 38,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "environmental-carbon-management",
@@ -21,6 +21,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A spreadsheet warrior who counts every ton of CO₂e and knows the carbon market's mood swings",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "碳管理专家",
+        "碳核算",
+        "碳交易与碳中和路径规划专家，覆盖GHG",
+        "Protocol",
+        "EU"
       ]
     },
     {
@@ -38,7 +56,26 @@
         "marketing-bilibili-content-strategist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Circular economy designer — from Design for Disassembly to product-as-a-service,",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "循环经济与零废弃设计专家",
+        "循环经济商业模式",
+        "产品即服务",
+        "回收再造",
+        "可修复与可拆卸设计"
       ]
     },
     {
@@ -60,6 +97,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A scientist who sees patterns in centuries of data and speaks the language of statistical moments",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "气候数据分析师",
+        "气候数据科学与建模专家，覆盖气候模式降尺度",
+        "极端事件归因",
+        "长期趋势分析与预测",
+        "CMIP6数据处理"
       ]
     },
     {
@@ -78,6 +133,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Climate policy specialist — from UNFCCC negotiations to carbon border adjustments, from NDC ratchets to Article 6 carbon markets. Climate policy is the most complex coordination problem humanity has ever faced.",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "气候政策与碳市场专家",
+        "国际气候治理",
+        "UNFCCC",
+        "巴黎协定",
+        "COP"
       ]
     },
     {
@@ -92,12 +165,30 @@
         "environmental-engineering-circular-economy",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sustainability isn't a report — it's a business transformation. You lead the change from compliance-driven to strategy-driven environmental management.",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "leading",
+        "sustainability",
+        "programs",
+        "across"
+      ],
+      "keywords": [
+        "环保",
+        "可持续发展总监",
+        "企业环保与可持续发展最高负责人，覆盖环境管理体系",
+        "ISO14001",
+        "碳减排"
       ]
     },
     {
@@ -111,11 +202,29 @@
       "depends_on": [
         "environmental-engineering-ecosystem-restoration",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Nature can heal itself — but sometimes it needs a helping hand. You design the",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "ecological",
+        "restoration",
+        "Restored",
+        "wetlands"
+      ],
+      "keywords": [
+        "生态修复工程师",
+        "生态系统修复与重建专家，覆盖湿地",
+        "河流",
+        "矿山",
+        "棕地修复"
       ]
     },
     {
@@ -127,10 +236,29 @@
       "subcategory": "",
       "path": "environmental/environmental-engineering-advanced-oxidation.md",
       "depends_on": [
-        "environmental-carbon-management"
+        "environmental-carbon-management",
+        "legal-billing-time-tracking"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "\"Forever chemicals\" don''t break down in nature — you design the advanced oxidation and adsorption systems that destroy or capture them before they reach drinking water",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "高级氧化",
+        "水中新污染物",
+        "PFAS",
+        "处理工程师",
+        "水中新污染物与难降解有机物去除专家，覆盖PFAS"
       ]
     },
     {
@@ -145,12 +273,29 @@
         "environmental-carbon-management",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "legal-engineering-legal-document-automation",
-        "operations-report-distribution-agent"
+        "legal-engineering-legal-document-automation"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every factory chimney, every car tailpipe, every power plant stack — you model where the emissions go, who they affect, and how to clean them up",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "quality",
+        "Modeled",
+        "dispersion",
+        "designed"
+      ],
+      "keywords": [
+        "大气环境",
+        "空气质量工程师",
+        "大气污染扩散模拟与空气质量专家，覆盖AERMOD",
+        "CALPUFF",
+        "CMAQ大气扩散模型"
       ]
     },
     {
@@ -165,11 +310,29 @@
         "environmental-engineering-hydrology-water",
         "environmental-engineering-water-resources",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Hidden beneath your feet, aquifers store 30% of Earth's freshwater — you map",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "groundwater",
+        "hydrology",
+        "Characterized",
+        "aquifers"
+      ],
+      "keywords": [
+        "地下水",
+        "水文地质学家",
+        "地下水科学与水文地质专家，覆盖地下水数值模拟",
+        "MODFLOW",
+        "FEFLOW"
       ]
     },
     {
@@ -186,11 +349,28 @@
         "environmental-carbon-management",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent",
         "product-trend-researcher"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every ecosystem has a soundscape — you listen to forests, oceans, and grasslands to monitor biodiversity, track endangered species, and understand how animals communicate",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "bioacoustics",
+        "Deployed",
+        "acoustic",
+        "monitoring"
+      ],
+      "keywords": [
+        "生物声学",
+        "生态声学研究员",
+        "动物声学通信与环境声学生态监测专家，覆盖被动声学监测",
+        "PAM",
+        "声景生态学"
       ]
     },
     {
@@ -205,11 +385,28 @@
         "environmental-carbon-management",
         "food-beverage-engineering-food-packaging",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Plastic that disappears after use — not in 500 years, but in months. You engineer the polymers that biodegrade in soil, compost, and ocean, solving plastic pollution at the molecular level.",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "biopolymers",
+        "Developed",
+        "compostable",
+        "plastics"
+      ],
+      "keywords": [
+        "生物可降解",
+        "可堆肥高分子材料工程师",
+        "生物可降解塑料与生物基高分子专家，覆盖PLA",
+        "PHA",
+        "PBAT"
       ]
     },
     {
@@ -226,12 +423,29 @@
         "food-beverage-engineering-food-packaging",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "manufacturing-engineering-electronics-manufacturing",
-        "operations-report-distribution-agent"
+        "manufacturing-engineering-electronics-manufacturing"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Take-make-waste is over — you design products that never become waste, redefining how materials flow through the economy",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "sustainable",
+        "design",
+        "Created",
+        "circular"
+      ],
+      "keywords": [
+        "循环经济",
+        "可持续产品设计专家",
+        "循环经济与产品全生命周期可持续设计专家，覆盖产品LCA生命周期评价",
+        "ISO",
+        "可拆卸"
       ]
     },
     {
@@ -247,11 +461,28 @@
         "energy-engineering-energy-storage-materials-sci",
         "energy-engineering-grid-scale-storage",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reducing emissions isn't enough — we need to remove carbon already in the atmosphere. You engineer the technologies that pull CO2 back out of the sky.",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "climate",
+        "technology",
+        "Developed",
+        "carbon"
+      ],
+      "keywords": [
+        "气候科技",
+        "碳移除工程师",
+        "气候技术与碳移除",
+        "CDR",
+        "工程专家，覆盖直接空气捕获"
       ]
     },
     {
@@ -263,16 +494,34 @@
       "subcategory": "",
       "path": "environmental/environmental-engineering-coastal-erosion.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "environmental-multi-agent-coordinator",
         "environmental-engineering-coastal-marine",
         "food-beverage-food-safety",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent",
         "quality-food-safety"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A ship the size of the Empire State Building needs somewhere to dock — you design",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "port",
+        "waterway",
+        "engineering",
+        "Designed"
+      ],
+      "keywords": [
+        "水工",
+        "港口航道工程师",
+        "港口码头与航道工程设计专家，覆盖码头结构",
+        "重力式",
+        "高桩"
       ]
     },
     {
@@ -286,11 +535,29 @@
       "depends_on": [
         "environmental-engineering-coastal-erosion",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The sea gives and takes away — you design the structures that protect coastlines,",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "coastal",
+        "engineering",
+        "Designed",
+        "shoreline"
+      ],
+      "keywords": [
+        "海岸",
+        "海洋工程工程师",
+        "海岸防护与近海工程技术专家，覆盖波浪",
+        "潮流",
+        "风暴潮水动力模型"
       ]
     },
     {
@@ -302,17 +569,34 @@
       "subcategory": "",
       "path": "environmental/environmental-engineering-coastal-resilience.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "environmental-multi-agent-coordinator",
         "environmental-engineering-coastal-erosion",
         "environmental-engineering-ecosystem-restoration",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "logistics-engineering-supply-chain-risk",
-        "operations-report-distribution-agent"
+        "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Concrete seawalls aren't the only answer — nature has been protecting coastlines",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "coastal",
+        "ecosystem",
+        "engineering",
+        "Designed"
+      ],
+      "keywords": [
+        "海岸韧性",
+        "基于自然的方案",
+        "NbS",
+        "工程师",
+        "海岸生态工程与基于自然的防洪方案专家，覆盖红树林"
       ]
     },
     {
@@ -324,14 +608,32 @@
       "subcategory": "",
       "path": "environmental/environmental-engineering-desalination-water.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "environmental-multi-agent-coordinator",
         "environmental-water-treatment",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The sea is an infinite water source if you can remove the salt — you design",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "membrane",
+        "desalination",
+        "Designed",
+        "plants"
+      ],
+      "keywords": [
+        "海水淡化",
+        "膜分离技术工程师",
+        "反渗透",
+        "RO",
+        "纳滤"
       ]
     },
     {
@@ -348,11 +650,28 @@
         "finance-engineering-risk-quant",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "logistics-engineering-supply-chain-risk",
-        "operations-report-distribution-agent"
+        "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A trillion trees can capture a century of emissions — you design the forest carbon projects that turn photosynthesis into verified carbon credits",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "forestry",
+        "carbon",
+        "Developed",
+        "forest"
+      ],
+      "keywords": [
+        "森林生态",
+        "碳汇林业专家",
+        "森林生态系统管理与森林碳汇MRV专家，覆盖森林资源清查",
+        "生长模型",
+        "LiDAR"
       ]
     },
     {
@@ -369,11 +688,28 @@
         "environmental-engineering-weather-climate",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "gis-drone-reality-mapping",
-        "operations-report-distribution-agent"
+        "gis-drone-reality-mapping"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Everything happens somewhere — you map the world, analyze spatial patterns, and turn location data into decisions that affect millions",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "earth",
+        "observation",
+        "Built",
+        "spatial"
+      ],
+      "keywords": [
+        "地理信息",
+        "GIS",
+        "遥感工程师",
+        "地理信息系统与遥感分析专家，覆盖ArcGIS",
+        "QGIS"
       ]
     },
     {
@@ -390,7 +726,26 @@
         "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Water is life — too little is drought, too much is flood. You model the water",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "hydrology",
+        "Modeled",
+        "watersheds",
+        "designed"
+      ],
+      "keywords": [
+        "水文",
+        "水资源工程师",
+        "水文分析与水资源规划管理专家，覆盖流域水文模型",
+        "HEC-HMS",
+        "SWAT"
       ]
     },
     {
@@ -406,11 +761,28 @@
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
         "healthcare-mental-health",
-        "logistics-engineering-supply-chain-risk",
-        "operations-report-distribution-agent"
+        "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Workers shouldn't get sick from their jobs — you measure the invisible hazards, design the controls, and ensure every worker breathes clean air",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "occupational",
+        "hygiene",
+        "Assessed",
+        "controlled"
+      ],
+      "keywords": [
+        "职业卫生",
+        "工业卫生师",
+        "工作场所职业健康危害评估与控制专家，覆盖化学危害",
+        "有机溶剂",
+        "重金属"
       ]
     },
     {
@@ -424,11 +796,29 @@
       "depends_on": [
         "environmental-carbon-management",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When oil spills into the ocean, every hour matters — you direct the response",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "spill",
+        "response",
+        "Managed",
+        "major"
+      ],
+      "keywords": [
+        "溢油应急",
+        "海洋环境应急专家",
+        "海上溢油应急与海洋污染防控专家，覆盖溢油轨迹",
+        "风化漂移模型",
+        "OSCAR"
       ]
     },
     {
@@ -443,11 +833,28 @@
         "environmental-engineering-circular-economy",
         "food-beverage-engineering-food-packaging",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every package ever made still exists somewhere — you design the ones that actually get recycled, composted, or reused, closing the loop on packaging waste",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "packaging",
+        "sustainability",
+        "Designed",
+        "circular"
+      ],
+      "keywords": [
+        "包装可持续性",
+        "生命周期",
+        "LCA",
+        "顾问",
+        "包装环保与全生命周期评估专家，覆盖包装LCA碳足迹"
       ]
     },
     {
@@ -460,11 +867,29 @@
       "path": "environmental/environmental-engineering-paleontology-stratigraphy.md",
       "depends_on": [
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Fossils are not just museum pieces — they're time markers that tell geologists",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "paleontology",
+        "biostratigraphy",
+        "Dated",
+        "sedimentary"
+      ],
+      "keywords": [
+        "古生物学",
+        "生物地层学研究员",
+        "化石记录与地质年代地层专家，覆盖微体化石",
+        "有孔虫",
+        "牙形石"
       ]
     },
     {
@@ -479,11 +904,28 @@
         "energy-engineering-waste-to-energy",
         "environmental-renewable-energy",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Wastewater treatment creates sludge — mountains of it. You turn that waste into energy, fertilizer, and clean water, closing the loop on urban metabolism.",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "residuals",
+        "management",
+        "Designed",
+        "facilities"
+      ],
+      "keywords": [
+        "污泥处理",
+        "厌氧消化",
+        "沼气工程师",
+        "污泥处理处置与有机固废资源化专家，覆盖厌氧消化",
+        "沼气"
       ]
     },
     {
@@ -498,11 +940,28 @@
         "environmental-engineering-climate-tech",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "healthcare-engineering-cold-chain-pharma",
-        "operations-report-distribution-agent"
+        "healthcare-engineering-cold-chain-pharma"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Building roads, pipelines, and railways on permafrost that's melting due to climate change — that's the challenge of cold regions engineering",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "permafrost",
+        "cold",
+        "regions",
+        "engineering"
+      ],
+      "keywords": [
+        "雪冰",
+        "冰川",
+        "冻土工程师",
+        "寒区工程与冰冻圈科学专家，覆盖多年冻土",
+        "季节性冻土路基工程设计"
       ]
     },
     {
@@ -518,11 +977,28 @@
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
         "healthcare-engineering-cold-chain-pharma",
-        "operations-report-distribution-agent",
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every chemical reaction produces waste — you redesign synthesis routes to minimize solvents, maximize atom economy, and make chemistry sustainable by design",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "sustainable",
+        "chemistry",
+        "Developed",
+        "greener"
+      ],
+      "keywords": [
+        "绿色化学",
+        "可持续化学工艺开发专家",
+        "绿色化学十二原则与可持续化学工艺专家，覆盖原子经济性",
+        "催化",
+        "均相"
       ]
     },
     {
@@ -540,11 +1016,28 @@
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
         "manufacturing-supply-chain-planner",
-        "operations-report-distribution-agent",
         "tourism-event-planner"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "There is no \"away\" when you throw something away — you design the systems that collect, sort, treat, and recycle what society discards",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "municipal",
+        "solid",
+        "waste",
+        "Planned"
+      ],
+      "keywords": [
+        "固体废物管理",
+        "垃圾分类规划师",
+        "城市固废管理与资源化规划专家，覆盖垃圾分类",
+        "收运体系规划",
+        "机械生物处理"
       ]
     },
     {
@@ -561,7 +1054,26 @@
         "manufacturing-supply-chain-planner"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Water flows downhill, but it must flow where society needs it — you plan the",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "water",
+        "resources",
+        "engineering",
+        "Planned"
+      ],
+      "keywords": [
+        "水利工程",
+        "水资源规划专家",
+        "水资源综合规划与水利枢纽设计专家，覆盖流域水资源配置",
+        "水库群联合调度",
+        "洪水风险"
       ]
     },
     {
@@ -584,6 +1096,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Weather affects every industry — agriculture, energy, logistics, insurance. You turn atmospheric data into forecasts that help businesses prepare for what's coming.",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "atmospheric",
+        "science",
+        "weather",
+        "analytics"
+      ],
+      "keywords": [
+        "气象",
+        "气候数据科学家",
+        "气象预报与气候数据分析专家，覆盖数值天气预报",
+        "NWP",
+        "WRF"
       ]
     },
     {
@@ -595,15 +1125,33 @@
       "subcategory": "",
       "path": "environmental/environmental-engineering-weather-forecast.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "environmental-multi-agent-coordinator",
         "environmental-engineering-weather-climate",
         "food-beverage-food-scientist",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "operations-report-distribution-agent"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A forecast that says \"70% chance of rain\" comes from supercomputers solving",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "atmospheric",
+        "modeling",
+        "Developed",
+        "operated"
+      ],
+      "keywords": [
+        "数值天气预报",
+        "NWP",
+        "模式专家",
+        "全球",
+        "区域"
       ]
     },
     {
@@ -624,6 +1172,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A geospatial detective who reads the landscape in pixels and knows that everything is spatial autocorrelated",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "环境GIS分析师",
+        "环境空间数据与遥感分析专家，覆盖卫星影像处理",
+        "土地利用分类",
+        "环境遥感反演",
+        "空间统计与环境制图"
       ]
     },
     {
@@ -642,6 +1208,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Marine scientist — from thermohaline circulation to ocean acidification, from phytoplankton blooms to deep-sea hydrothermal vents. The ocean covers 70% of Earth's surface, drives global climate, and remains largely unexplored.",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "海洋科学专家",
+        "物理海洋学",
+        "海洋化学",
+        "海洋生物学",
+        "海洋地质学"
       ]
     },
     {
@@ -663,6 +1247,58 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A field technician who knows every sensor drift pattern by heart",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Authoritative",
+        "References",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "环境监测工程师",
+        "环境监测系统设计与部署专家，覆盖空气质量",
+        "水质",
+        "土壤",
+        "噪声监测的传感器网络"
+      ]
+    },
+    {
+      "id": "environmental-multi-agent-coordinator",
+      "name": "Environmental Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for environmental projects",
+      "emoji": "🌍",
+      "category": "environmental",
+      "subcategory": "",
+      "path": "environmental/environmental-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating environmental specialists into coherent multi-agent workflows",
+      "tags": [
+        "environmental",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Environmental",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -683,6 +1319,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "An engineer who measures everything in kWh/m² and talks to inverters more than people",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "可再生能源工程师",
+        "可再生能源系统设计与评估专家，覆盖太阳能光伏",
+        "光热",
+        "风力发电",
+        "储能系统"
       ]
     },
     {
@@ -698,7 +1352,26 @@
         "logistics-supply-chain-strategist"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Sustainability strategist — from materiality assessment to SBTi targets, from scope 3 supply chains to TNFD biodiversity. Sustainability is no longer a nice-to-have; it's a competitive imperative.",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "可持续发展战略咨询专家",
+        "企业ESG战略与报告",
+        "GRI",
+        "SASB",
+        "ISSB"
       ]
     },
     {
@@ -716,7 +1389,26 @@
         "quality-food-safety"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Water is the most undervalued resource on Earth — you take what comes in dirty",
+      "lifecycle": "published",
+      "tags": [
+        "environmental",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "水处理工程师",
+        "水处理与水环境工程专家，覆盖市政供水",
+        "污水处理",
+        "MBR膜生物反应器",
+        "RO反渗透"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "category": "sales",
-  "agent_count": 15,
-  "generated": "2026-07-16",
+  "agent_count": 16,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "sales-account-strategist",
@@ -12,12 +12,29 @@
       "subcategory": "",
       "path": "sales/sales-account-strategist.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-user-research-system"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Maps the org, finds the whitespace, and turns customers into platforms.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Technical",
+        "Account",
+        "Overview",
+        "Stakeholder"
+      ],
+      "keywords": [
+        "客户策略师",
+        "拓客留存",
+        "QBR",
+        "与利益相关者地图专家",
+        "Role"
       ]
     },
     {
@@ -29,12 +46,30 @@
       "subcategory": "",
       "path": "sales/sales-coach.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-deep-learning-training",
         "operations-report-distribution-agent"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Asks the question that makes the rep rethink the entire deal.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Technical",
+        "Current",
+        "Performance",
+        "Skill"
+      ],
+      "keywords": [
+        "销售教练",
+        "销售代表成长",
+        "通话辅导与管道审查促进专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -46,13 +81,31 @@
       "subcategory": "",
       "path": "sales/sales-customer-onboarding.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
-        "infrastructure-identity-access"
+        "infrastructure-identity-access",
+        "sales-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The sale isn't done until the customer is live, trained, and seeing value. You",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "客户导入",
+        "实施",
+        "Onboarding",
+        "经理",
+        "B2B"
       ]
     },
     {
@@ -64,12 +117,31 @@
       "subcategory": "",
       "path": "sales/sales-data-extraction-agent.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-risk-quant",
-        "operations-report-distribution-agent"
+        "operations-report-distribution-agent",
+        "sales-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Watches your Excel files and extracts the metrics that matter.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "销售数据提取",
+        "Agent",
+        "Excel",
+        "监控与销售指标提取（MTD",
+        "YTD）专家"
       ]
     },
     {
@@ -81,7 +153,6 @@
       "subcategory": "",
       "path": "sales/sales-deal-strategist.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "marketing-paid-media-creative-strategist",
         "real-estate-commercial-broker",
         "web3-defi-strategist"
@@ -89,6 +160,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Qualifies deals like a surgeon and kills happy ears on contact.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Definition",
+        "Capabilities",
+        "MEDDPICC",
+        "Framework"
+      ],
+      "keywords": [
+        "商机策略师",
+        "MEDDPICC",
+        "资格认定",
+        "竞争定位与赢单策略专家",
+        "Role"
       ]
     },
     {
@@ -100,13 +189,32 @@
       "subcategory": "",
       "path": "sales/sales-director.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
-        "sales-account-strategist"
+        "sales-account-strategist",
+        "sales-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Revenue cures all problems. You build the team, the process, and the pipeline",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "leading",
+        "B2B/B2C",
+        "organizations",
+        "built"
+      ],
+      "keywords": [
+        "销售总监",
+        "VP",
+        "Sales",
+        "销售团队最高负责人，覆盖销售策略",
+        "目标制定"
       ]
     },
     {
@@ -129,6 +237,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Asks one more question than everyone else — and that's the one that closes the deal.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Three",
+        "Discovery",
+        "Frameworks",
+        "Elite"
+      ],
+      "keywords": [
+        "销售发现教练",
+        "SPIN",
+        "Gap",
+        "Selling",
+        "Sandler"
       ]
     },
     {
@@ -153,6 +279,59 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Wins the technical decision before the deal even hits procurement.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Definition",
+        "Capabilities",
+        "Demo",
+        "Craft"
+      ],
+      "keywords": [
+        "售前工程师",
+        "技术演示",
+        "POC",
+        "范围确定与竞争技术定位专家",
+        "Role"
+      ]
+    },
+    {
+      "id": "sales-multi-agent-coordinator",
+      "name": "Sales Multi-Agent Coordinator",
+      "description": "coordinates multi-agent workflows for sales — pipeline management, deal strategy, account planning, revenue operations",
+      "emoji": "📊",
+      "category": "sales",
+      "subcategory": "",
+      "path": "sales/sales-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating sales specialists into coherent multi-agent workflows",
+      "tags": [
+        "sales",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Sales",
+        "Multi-Agent",
+        "Coordinator",
+        "coordinates",
+        "workflows"
       ]
     },
     {
@@ -176,6 +355,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds the thing buyers can't ignore — then multiplies the channels that deliver it.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Technical",
+        "Dream",
+        "Outcome",
+        "Perceived"
+      ],
+      "keywords": [
+        "报价与线索生成策略师",
+        "漏斗顶端架构师，设计不可抗拒的报价与线索磁石以规模化吸引合格潜在客户",
+        "Offer",
+        "Lead",
+        "Gen"
       ]
     },
     {
@@ -197,6 +394,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns buying signals into booked meetings before the competition even notices.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Signal-Based",
+        "Selling",
+        "Framework",
+        "Definition"
+      ],
+      "keywords": [
+        "外呼销售策略师",
+        "基于信号的精准找客",
+        "多渠道序列与",
+        "ICP",
+        "定位专家"
       ]
     },
     {
@@ -215,6 +430,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The best salespeople don't sell — they help people buy. Every outreach is a conversation starter, not a pitch.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "外呼销售专员",
+        "顾问式",
+        "B2B",
+        "销售外呼专家，覆盖冷线索挖掘",
+        "线索跟进"
       ]
     },
     {
@@ -226,7 +459,6 @@
       "subcategory": "",
       "path": "sales/sales-pipeline-analyst.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "education-special-needs",
         "marketing-paid-media-programmatic-buyer",
         "operations-executive-summary-generator",
@@ -238,6 +470,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Tells you your forecast is wrong before you realize it yourself.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Technical",
+        "Velocity",
+        "Metrics",
+        "Coverage"
+      ],
+      "keywords": [
+        "销售漏斗分析师",
+        "预测",
+        "漏斗健康度",
+        "商机速度与",
+        "RevOps"
       ]
     },
     {
@@ -258,6 +508,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns RFP responses into stories buyers can't put down.",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "Technical",
+        "Theme",
+        "Client-Centric",
+        "Statement"
+      ],
+      "keywords": [
+        "提案策略师",
+        "RFP",
+        "响应",
+        "赢单主题与叙事结构专家",
+        "Role"
       ]
     },
     {
@@ -270,13 +538,32 @@
       "path": "sales/sales-revenue-operations.md",
       "depends_on": [
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
         "finance-cost-accountant",
+        "sales-multi-agent-coordinator",
         "sales-pipeline-analyst",
         "specialized-productivity-time-management"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Marketing, sales, and customer success are three parts of one revenue engine",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "single",
+        "source",
+        "truth",
+        "Salesforce/HubSpot"
+      ],
+      "keywords": [
+        "收入运营",
+        "RevOps",
+        "经理",
+        "销售",
+        "市场"
       ]
     },
     {
@@ -290,13 +577,32 @@
       "depends_on": [
         "data-science-engineering-deep-learning-training",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-risk-quant",
         "marketing-demand-generation",
+        "sales-multi-agent-coordinator",
         "sales-revenue-operations"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The AE closes deals; the SDR opens doors. You build the team that fills the",
+      "lifecycle": "published",
+      "tags": [
+        "sales",
+        "building",
+        "leading",
+        "development",
+        "teams"
+      ],
+      "keywords": [
+        "销售开发",
+        "SDR",
+        "BDR",
+        "经理",
+        "销售开发与线索挖掘团队管理者，覆盖SDR"
       ]
     }
   ]

@@ -1840,51 +1840,41 @@ retry without verifying idempotency for payment or transaction operations.
         assert result["v7_grade"] == "D"
 
 
+def _normalize_v7(r):
+    """Mirror main()'s normalization: expose v7_* under top-level keys."""
+    r["total"] = r["v7_total"]
+    r["grade"] = r["v7_grade"]
+    r["scores"] = r["v7_scores"]
+    r["risk_tier"] = r["v7_risk_tier"]
+    return r
+
+
 class TestV7JsonOutput:
-    pytestmark = pytest.mark.skip(reason="removed in v7 unification")
-    """Tests for JSON report with v7 data."""
+    """JSON report carries v7 gate diagnostics when results provide them."""
 
-    def test_json_includes_v7(self, tmp_path):
-        f = tmp_path / "testing" / "v7-json.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V7_RICH_AGENT, encoding="utf-8")
-        r = mod.score_agent(f, check_freshness=False)
-        v7_r = score_agent_v7(f, check_freshness=False)
-        buf = io.StringIO()
-        sys.stdout = buf
-        mod.print_json_report([r], v7_results=[v7_r])
-        sys.stdout = sys.__stdout__
-        data = json.loads(buf.getvalue())
-        assert "v7" in data
-        assert data["v7"]["agents"][0]["v7_total"] >= 10
-        assert data["v7"]["agents"][0]["v7_gate_passed"] is True
-
-    def test_json_includes_gate_info(self, tmp_path):
-        f = tmp_path / "testing" / "v7-gatejson.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V7_RICH_AGENT, encoding="utf-8")
-        r = mod.score_agent(f, check_freshness=False)
-        v7_r = score_agent_v7(f, check_freshness=False)
-        buf = io.StringIO()
-        sys.stdout = buf
-        mod.print_json_report([r], v7_results=[v7_r])
-        sys.stdout = sys.__stdout__
-        data = json.loads(buf.getvalue())
-        agent_entry = data["v7"]["agents"][0]
-        assert "v7_gate_passed" in agent_entry
-        assert "v7_gate_failures" in agent_entry
-
-    def test_json_no_v7_when_not_passed(self, tmp_path):
-        f = tmp_path / "testing" / "v7-nojson.md"
-        f.parent.mkdir(parents=True, exist_ok=True)
-        f.write_text(V7_RICH_AGENT, encoding="utf-8")
-        r = mod.score_agent(f, check_freshness=False)
-        buf = io.StringIO()
-        sys.stdout = buf
+    def test_json_includes_v7_gate_fields(self, capsys):
+        r = _normalize_v7(_v7_result(agent_id="v7-json"))
         mod.print_json_report([r])
-        sys.stdout = sys.__stdout__
-        data = json.loads(buf.getvalue())
-        assert "v7" not in data
+        data = json.loads(capsys.readouterr().out)
+        agent_entry = data["agents"][0]
+        assert agent_entry["v7_gate_passed"] is True
+        assert agent_entry["v7_gate_failures"] == []
+
+    def test_json_includes_gate_failures(self, capsys):
+        r = _normalize_v7(_v7_result(agent_id="v7-gate", total=6, grade="D",
+                                     v7_gate_passed=False,
+                                     v7_gate_failures=["safeguards: no disclaimer detected"]))
+        mod.print_json_report([r])
+        data = json.loads(capsys.readouterr().out)
+        agent_entry = data["agents"][0]
+        assert agent_entry["v7_gate_passed"] is False
+        assert "safeguards: no disclaimer detected" in agent_entry["v7_gate_failures"]
+
+    def test_json_gate_fields_absent_for_legacy_results(self, capsys):
+        r = _make_result("legacy", "testing", 7, "B")
+        mod.print_json_report([r])
+        data = json.loads(capsys.readouterr().out)
+        assert data["agents"][0].get("v7_gate_passed") is None
 
 
 class TestV7BackwardCompat:
@@ -1895,3 +1885,317 @@ class TestV7BackwardCompat:
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text(SAMPLE, encoding="utf-8")
         result = score_agent(f, check_freshness=False)
+        # Legacy consumers (contribute.py, quality-report.py) rely on these keys.
+        assert "total" in result and "grade" in result
+        assert "scores" in result and "issues" in result
+        assert "content_depth" in result["scores"]
+        assert result["category"] == "testing"
+
+
+# ── main() CLI shell tests ────────────────────────────────────────────────────
+
+def _isolate_storage(tmp_path, monkeypatch):
+    """Redirect baseline/history files to tmp so main() never touches the repo."""
+    monkeypatch.setattr(mod, "HISTORY_FILE", tmp_path / "history.jsonl")
+    monkeypatch.setattr(mod, "BASELINE_FILE", tmp_path / "baseline.json")
+    try:
+        import telemetry
+        monkeypatch.setattr(telemetry, "record_event", lambda *a, **k: None)
+    except ImportError:
+        pass
+
+
+def _v7_result(agent_id="test", category="testing", total=13, grade="A",
+               risk="general", safeguards=3, references=3, word_count=600,
+               v7_gate_passed=True, v7_gate_failures=None):
+    """Build a result dict with the v7_* keys main() normalizes into r['total'] etc."""
+    scores = {"content_depth": 4, "references": 2, "cross_refs": 2,
+              "method_decision_model": 3, "constraint_awareness": 2,
+              "collab_protocol": 0, "edge_cases": 0}
+    return {
+        "id": agent_id,
+        "category": category,
+        "path": f"{category}/{agent_id}.md",
+        "v7_total": total,
+        "v7_grade": grade,
+        "v7_scores": scores,
+        "v7_risk_tier": risk,
+        "v7_improvement_plan": [],
+        "v7_word_count": word_count,
+        "v7_safeguard_signals": safeguards,
+        "v7_reference_signals": references,
+        "v7_gate_passed": v7_gate_passed,
+        "v7_gate_failures": v7_gate_failures if v7_gate_failures is not None else [],
+    }
+
+
+def _stub_agents(monkeypatch, agents):
+    """agents: {id: (category, v7_result_dict)} — stubs discovery + v7 scoring."""
+    files = []
+    for aid, (cat, _r) in agents.items():
+        files.append((cat, f"{cat}/{aid}.md", Path(cat) / f"{aid}.md"))
+    monkeypatch.setattr(mod, "discover_agents",
+                        lambda category_filter=None: list(files))
+    monkeypatch.setattr(mod, "score_agent_v7",
+                        lambda path, check_freshness=True: agents[Path(path).stem][1])
+
+
+class TestMainCLI:
+    """Coverage for main() argparse shell + CI gates (replaces skipped TestMain)."""
+
+    @pytest.fixture(autouse=True)
+    def _isolate(self, tmp_path, monkeypatch):
+        _isolate_storage(tmp_path, monkeypatch)
+
+    def _run(self, monkeypatch, *argv):
+        monkeypatch.setattr(sys, "argv", ["score-agents.py", *argv])
+        with pytest.raises(SystemExit) as exc:
+            main()
+        return exc.value.code
+
+    def test_default_terminal_report(self, monkeypatch, capsys):
+        _stub_agents(monkeypatch, {
+            "alpha": ("testing", _v7_result(agent_id="alpha")),
+            "beta": ("testing", _v7_result(agent_id="beta", total=6, grade="D")),
+        })
+        code = self._run(monkeypatch)
+        out = capsys.readouterr().out
+        assert code == 0
+        assert "Agent Quality Report" in out
+        assert "Total: 2 agents" in out
+
+    def test_json_output(self, monkeypatch, capsys):
+        _stub_agents(monkeypatch, {
+            "alpha": ("testing", _v7_result(agent_id="alpha")),
+        })
+        code = self._run(monkeypatch, "--json")
+        data = json.loads(capsys.readouterr().out)
+        assert code == 0
+        assert data["total_agents"] == 1
+        assert data["agents"][0]["id"] == "alpha"
+        assert data["grade_distribution"] == {"A": 1}
+
+    def test_json_out_file(self, monkeypatch, tmp_path):
+        _stub_agents(monkeypatch, {
+            "alpha": ("testing", _v7_result(agent_id="alpha")),
+        })
+        out_file = tmp_path / "report.json"
+        code = self._run(monkeypatch, "--json", "--out", str(out_file))
+        assert code == 0
+        data = json.loads(out_file.read_text(encoding="utf-8"))
+        assert data["total_agents"] == 1
+        assert data["agents"][0]["id"] == "alpha"
+
+    def test_file_absolute_path(self, monkeypatch, capsys, tmp_path):
+        f = tmp_path / "testing" / "alpha.md"
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(SAMPLE, encoding="utf-8")
+        monkeypatch.setattr(mod, "score_agent_v7",
+                            lambda path, check_freshness=True: _v7_result(agent_id="alpha"))
+        code = self._run(monkeypatch, "--file", str(f))
+        out = capsys.readouterr().out
+        assert code == 0
+        assert "alpha" in out
+
+    def test_file_relative_path(self, monkeypatch, capsys, tmp_path):
+        cat = tmp_path / "testing"
+        cat.mkdir(parents=True, exist_ok=True)
+        (cat / "beta.md").write_text(SAMPLE, encoding="utf-8")
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        monkeypatch.setattr(mod, "score_agent_v7",
+                            lambda path, check_freshness=True: _v7_result(agent_id="beta"))
+        code = self._run(monkeypatch, "--file", "testing/beta.md")
+        out = capsys.readouterr().out
+        assert code == 0
+        assert "beta" in out
+
+    def test_file_not_found(self, monkeypatch, capsys):
+        code = self._run(monkeypatch, "--file", "testing/nope.md")
+        err = capsys.readouterr().err
+        assert code == 1
+        assert "file not found" in err
+
+    def test_no_agents_found(self, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "discover_agents", lambda category_filter=None: [])
+        code = self._run(monkeypatch)
+        err = capsys.readouterr().err
+        assert code == 1
+        assert "No agent files found" in err
+
+    def test_risk_filter(self, monkeypatch, capsys):
+        _stub_agents(monkeypatch, {
+            "crit": ("healthcare", _v7_result(agent_id="crit", category="healthcare",
+                                              risk="critical", safeguards=2)),
+            "gen": ("testing", _v7_result(agent_id="gen")),
+        })
+        code = self._run(monkeypatch, "--risk", "critical", "--json")
+        data = json.loads(capsys.readouterr().out)
+        assert code == 0
+        assert data["total_agents"] == 1
+        assert data["agents"][0]["id"] == "crit"
+
+    def test_risk_filter_empty(self, monkeypatch, capsys):
+        _stub_agents(monkeypatch, {
+            "gen": ("testing", _v7_result(agent_id="gen")),
+        })
+        code = self._run(monkeypatch, "--risk", "critical")
+        err = capsys.readouterr().err
+        assert code == 0
+        assert "No agents match" in err
+
+    def test_below_above_filters(self, monkeypatch, capsys):
+        agents = {
+            "lo": ("testing", _v7_result(agent_id="lo", total=6, grade="D")),
+            "hi": ("testing", _v7_result(agent_id="hi")),
+        }
+        _stub_agents(monkeypatch, agents)
+        code = self._run(monkeypatch, "--below", "10", "--json")
+        data = json.loads(capsys.readouterr().out)
+        assert code == 0
+        assert [a["id"] for a in data["agents"]] == ["lo"]
+
+        _stub_agents(monkeypatch, agents)
+        code = self._run(monkeypatch, "--above", "10", "--json")
+        data = json.loads(capsys.readouterr().out)
+        assert code == 0
+        assert [a["id"] for a in data["agents"]] == ["hi"]
+
+    def test_threshold_fail(self, monkeypatch, capsys):
+        _stub_agents(monkeypatch, {
+            "lo": ("testing", _v7_result(agent_id="lo", total=6, grade="D")),
+        })
+        code = self._run(monkeypatch, "--threshold", "8")
+        err = capsys.readouterr().err
+        assert code == 1
+        assert "THRESHOLD FAIL" in err
+
+    def test_threshold_pass(self, monkeypatch):
+        _stub_agents(monkeypatch, {
+            "hi": ("testing", _v7_result(agent_id="hi")),
+        })
+        assert self._run(monkeypatch, "--threshold", "8") == 0
+
+    def test_min_score_fail(self, monkeypatch, capsys):
+        _stub_agents(monkeypatch, {
+            "lo": ("testing", _v7_result(agent_id="lo", total=5, grade="D")),
+        })
+        code = self._run(monkeypatch, "--min-score", "6")
+        err = capsys.readouterr().err
+        assert code == 1
+        assert "FLOOR FAIL" in err
+
+    def test_require_safeguards_fail(self, monkeypatch, capsys):
+        _stub_agents(monkeypatch, {
+            "doc": ("healthcare", _v7_result(agent_id="doc", category="healthcare",
+                                             risk="critical", safeguards=0)),
+        })
+        code = self._run(monkeypatch, "--require-safeguards")
+        err = capsys.readouterr().err
+        assert code == 1
+        assert "SAFEGUARD FAIL" in err
+
+    def test_require_safeguards_pass(self, monkeypatch):
+        _stub_agents(monkeypatch, {
+            "doc": ("healthcare", _v7_result(agent_id="doc", category="healthcare",
+                                             risk="critical", safeguards=3)),
+        })
+        assert self._run(monkeypatch, "--require-safeguards") == 0
+
+    def test_history_appended(self, monkeypatch, tmp_path):
+        _stub_agents(monkeypatch, {
+            "a": ("testing", _v7_result(agent_id="a")),
+        })
+        assert self._run(monkeypatch) == 0
+        assert self._run(monkeypatch) == 0
+        lines = mod.HISTORY_FILE.read_text(encoding="utf-8").strip().splitlines()
+        assert len(lines) == 2
+        entry = json.loads(lines[0])
+        assert entry["total_agents"] == 1
+        assert entry["mean_score"] == 13.0
+
+    def test_baseline_regression_exit_1(self, monkeypatch, capsys, tmp_path):
+        mod.BASELINE_FILE.write_text(json.dumps(
+            {"date": "2026-01-01", "total_agents": 99, "mean_score": 18.0,
+             "median_score": 18.0, "a_pct": 100.0, "d_count": 0}), encoding="utf-8")
+        _stub_agents(monkeypatch, {
+            "a": ("testing", _v7_result(agent_id="a")),
+        })
+        code = self._run(monkeypatch)
+        err = capsys.readouterr().err
+        assert code == 1
+        assert "BASELINE REGRESSION" in err
+
+    def test_update_baseline_writes_before_gate(self, monkeypatch, tmp_path):
+        # Regression baseline → --update-baseline must accept current state first.
+        mod.BASELINE_FILE.write_text(json.dumps(
+            {"date": "2026-01-01", "total_agents": 99, "mean_score": 18.0,
+             "median_score": 18.0, "a_pct": 100.0, "d_count": 0}), encoding="utf-8")
+        _stub_agents(monkeypatch, {
+            "a": ("testing", _v7_result(agent_id="a")),
+        })
+        assert self._run(monkeypatch, "--update-baseline") == 0
+        saved = json.loads(mod.BASELINE_FILE.read_text(encoding="utf-8"))
+        assert saved["mean_score"] == 13.0
+        assert saved["total_agents"] == 1
+
+    def test_no_baseline_skips_history(self, monkeypatch, tmp_path):
+        _stub_agents(monkeypatch, {
+            "a": ("testing", _v7_result(agent_id="a")),
+        })
+        assert self._run(monkeypatch, "--no-baseline") == 0
+        assert not mod.HISTORY_FILE.exists()
+
+
+class TestMainCompare:
+    """Coverage for main() --compare branch (scores HEAD vs a base ref)."""
+
+    @pytest.fixture(autouse=True)
+    def _isolate(self, tmp_path, monkeypatch):
+        _isolate_storage(tmp_path, monkeypatch)
+
+    def _setup(self, tmp_path, monkeypatch, current_content, base_content=None):
+        cat = tmp_path / "testing"
+        cat.mkdir(parents=True, exist_ok=True)
+        agent_file = cat / "compare-agent.md"
+        agent_file.write_text(current_content, encoding="utf-8")
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        monkeypatch.setattr(
+            mod, "discover_agents",
+            lambda category_filter=None: [("testing", "testing/compare-agent.md",
+                                           agent_file)])
+
+        def fake_run(cmd, **kwargs):
+            result = type("Result", (), {})()
+            result.stdout = base_content or ""
+            result.returncode = 0 if base_content is not None else 1
+            return result
+        monkeypatch.setattr(mod.subprocess, "run", fake_run)
+
+    def _run(self, monkeypatch, *argv):
+        monkeypatch.setattr(sys, "argv",
+                            ["score-agents.py", "--compare", "origin/main", *argv])
+        with pytest.raises(SystemExit) as exc:
+            main()
+        return exc.value.code
+
+    def test_compare_up(self, tmp_path, monkeypatch, capsys):
+        self._setup(tmp_path, monkeypatch, V7_RICH_AGENT, base_content=V5_MINIMAL_AGENT)
+        assert self._run(monkeypatch) == 0
+        out = capsys.readouterr().out
+        assert "Score Improvements" in out
+        assert "+" in out
+
+    def test_compare_down_exits_1(self, tmp_path, monkeypatch, capsys):
+        self._setup(tmp_path, monkeypatch, V5_MINIMAL_AGENT, base_content=V7_RICH_AGENT)
+        assert self._run(monkeypatch) == 1
+        assert "Score Regressions" in capsys.readouterr().out
+
+    def test_compare_new_agent(self, tmp_path, monkeypatch, capsys):
+        self._setup(tmp_path, monkeypatch, V7_RICH_AGENT, base_content=None)
+        assert self._run(monkeypatch) == 0
+        assert "New agents" in capsys.readouterr().out
+
+    def test_compare_no_changes(self, tmp_path, monkeypatch, capsys):
+        self._setup(tmp_path, monkeypatch, V7_RICH_AGENT, base_content=V7_RICH_AGENT)
+        assert self._run(monkeypatch) == 0
+        assert "No score changes detected" in capsys.readouterr().out

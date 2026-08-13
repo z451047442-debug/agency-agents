@@ -187,7 +187,9 @@ def collect_source_agents(repo_root):
     for entry in sorted(repo_root.iterdir()):
         if not entry.is_dir() or entry.name.startswith("."):
             continue
-        if entry.name in EXCLUDE_DIRS:
+        # Skip "_"-prefixed dirs (e.g. _solution/) to match check-i18n.py's
+        # discover_agents(), keeping coverage denominators consistent.
+        if entry.name.startswith("_") or entry.name in EXCLUDE_DIRS:
             continue
         for md in sorted(entry.rglob("*.md")):
             files.append(md)

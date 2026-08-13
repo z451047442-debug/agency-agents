@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3790a6f7-e91a-49d4-a0e9-524f4fe6816d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>agency_agents.py</StartupFile>
+    <StartupFile>agency_cli.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="agency_agents.py" />
+    <Compile Include="agency_cli.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

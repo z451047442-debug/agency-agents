@@ -58,41 +58,42 @@ class TestImpactWeights:
 class TestEstimateEffort:
     def test_no_issues_all_good_scores_returns_done(self):
         scores = {"content_depth": 3, "structure": 3, "frontmatter": 2, "file_health": 2}
-        assert estimate_effort([], scores, 800) == "done"
+        assert estimate_effort([], scores) == "done"
 
     def test_done_when_enough_scores(self):
         scores = {"content_depth": 2, "structure": 3, "frontmatter": 2, "file_health": 2}
-        assert estimate_effort([], scores, 500) == "done"
+        assert estimate_effort([], scores) == "done"
 
     def test_low_content_depth_is_hard(self):
         scores = {"content_depth": 1, "structure": 3, "frontmatter": 2, "file_health": 2}
-        assert estimate_effort([], scores, 100) == "hard"
+        assert estimate_effort([], scores) == "hard"
 
     def test_lint_error_is_hard(self):
         scores = {"content_depth": 3, "structure": 3, "frontmatter": 2, "file_health": 2}
-        assert estimate_effort(["ERROR: bad yaml"], scores, 500) == "hard"
+        assert estimate_effort(["ERROR: bad yaml"], scores) == "hard"
 
     def test_low_structure_is_moderate(self):
         scores = {"content_depth": 2, "structure": 2, "frontmatter": 2, "file_health": 2}
-        assert estimate_effort([], scores, 500) == "moderate"
+        assert estimate_effort([], scores) == "moderate"
 
     def test_many_issues_is_moderate(self):
         scores = {"content_depth": 3, "structure": 3, "frontmatter": 2, "file_health": 2}
         issues = ["warn: missing section", "warn: short content", "warn: no nexus_roles"]
-        assert estimate_effort(issues, scores, 500) == "moderate"
+        assert estimate_effort(issues, scores) == "moderate"
 
     def test_few_warnings_is_easy(self):
         scores = {"content_depth": 3, "structure": 3, "frontmatter": 2, "file_health": 2}
-        assert estimate_effort(["warn: missing section"], scores, 500) == "easy"
+        assert estimate_effort(["warn: missing section"], scores) == "easy"
 
-    def test_word_count_not_used_in_effort(self):
+    def test_effort_independent_of_word_count(self):
+        # word_count was removed from the signature; effort is driven by
+        # issues and dimension scores only.
         scores = {"content_depth": 3, "structure": 3, "frontmatter": 2, "file_health": 2}
-        assert estimate_effort([], scores, 100) == "done"
-        assert estimate_effort([], scores, 10000) == "done"
+        assert estimate_effort([], scores) == "done"
 
     def test_single_warning_is_easy(self):
         scores = {"content_depth": 3, "structure": 3, "frontmatter": 2, "file_health": 2}
-        assert estimate_effort(["warn: missing link"], scores, 500) == "easy"
+        assert estimate_effort(["warn: missing link"], scores) == "easy"
 
     def test_done_when_no_issues_but_scores_below_threshold(self):
         """Line 81: returns 'done' when no issues but some scores below threshold.
@@ -102,7 +103,7 @@ class TestEstimateEffort:
         second 'done' at line 81.
         """
         scores = {"content_depth": 2, "structure": 3, "frontmatter": 1, "file_health": 2}
-        assert estimate_effort([], scores, 500) == "done"
+        assert estimate_effort([], scores) == "done"
 
 
 # ── build_opportunities ──────────────────────────────────────────────────────

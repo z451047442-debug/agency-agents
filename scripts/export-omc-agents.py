@@ -89,7 +89,13 @@ def export_agents(
         if not dry_run:
             content = source.read_text(encoding="utf-8")
             atomic_write(dest, content)
-        exported.append({**agent, "score": round(score, 1), "grade": grade_label(score)})
+        entry = {**agent, "score": round(score, 1), "grade": grade_label(score)}
+        # Rewrite "path" to be relative to the output directory: exported files
+        # are flattened to <output>/<id>.md, so the repo-relative source path
+        # from AGENTS.json would be wrong for consumers of this index.
+        # Matches verify_export()'s lookup (output / f"{a['id']}.md").
+        entry["path"] = f"{aid}.md"
+        exported.append(entry)
 
     if not dry_run and exported:
         write_index(exported, output)
@@ -149,7 +155,7 @@ def show_summary(exported: list[dict], output: Path, dry_run: bool) -> None:
         by_cat[a["category"]] = by_cat.get(a["category"], 0) + 1
 
     prefix = "[DRY RUN] " if dry_run else ""
-    print(f"\n{prefix}Export summary: {len(exported)} agents → {output}")
+    print(f"\n{prefix}Export summary: {len(exported)} agents -> {output}")
     print(f"  Grades: {', '.join(f'{g}:{c}' for g, c in sorted(by_grade.items()))}")
     print(f"  Categories: {len(by_cat)}")
     print(f"  Index: {output / 'AGENTS.json'}")

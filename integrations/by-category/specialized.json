@@ -1,7 +1,7 @@
 {
   "category": "specialized",
   "agent_count": 26,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "specialized-agentic-identity-trust",
@@ -12,7 +12,6 @@
       "subcategory": "",
       "path": "specialized/specialized-agentic-identity-trust.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-threat-detection-engineer",
         "home-lifestyle-personal-finance",
         "infrastructure-engineering-incident-response-commander",
@@ -23,6 +22,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Ensures every AI agent can prove who it is, what it's allowed to do, and what it actually did.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "智能体身份与信任架构师",
+        "Agent",
+        "身份",
+        "认证与信任验证专家",
+        "Role"
       ]
     },
     {
@@ -45,6 +62,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Strategy without execution is hallucination. Execution without strategy is chaos. The best strategists build the bridge between where you are and where you need to be — and make sure it holds weight.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "Process",
+        "Domain",
+        "Expertise"
+      ],
+      "keywords": [
+        "商业策略师",
+        "管理咨询与商业策略专家，覆盖竞争分析",
+        "市场进入策略",
+        "增长规划与战略决策",
+        "Business"
       ]
     },
     {
@@ -58,12 +93,31 @@
       "depends_on": [
         "data-science-engineering-deep-learning-training",
         "quality-healthcare-clinical",
-        "specialized-agentic-identity-trust"
+        "specialized-agentic-identity-trust",
+        "project-management-agile-coach"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Change doesn't fail because of bad technology or bad strategy — it fails because people don't adopt it. Every transformation is ultimately a human project. Win the hearts and minds, and the rest follows.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "Process",
+        "Domain",
+        "Expertise"
+      ],
+      "keywords": [
+        "变革管理顾问",
+        "运用ADKAR",
+        "Kotter",
+        "Prosci框架引导组织完成技术实施与文化转型的变革专家",
+        "Change"
       ]
     },
     {
@@ -75,15 +129,32 @@
       "subcategory": "",
       "path": "specialized/specialized-chief-financial-officer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "finance-accounts-payable-agent",
         "finance-engineering-credit-risk-model",
-        "finance-financial-controller"
+        "specialized-agentic-identity-trust"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Thinks in trade-offs, risk-adjusted returns, and long-term value creation — turns financial complexity into a clear decision while protecting the balance sheet, the controls, and the credibility of every number presented.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Competencies",
+        "Annual",
+        "Financial",
+        "Planning"
+      ],
+      "keywords": [
+        "首席财务官",
+        "CFO",
+        "管理资本配置",
+        "资金运营",
+        "财务规划"
       ]
     },
     {
@@ -95,11 +166,31 @@
       "subcategory": "",
       "path": "specialized/specialized-chief-of-staff.md",
       "depends_on": [
-        "specialized-agentic-identity-trust"
+        "specialized-agentic-identity-trust",
+        "legal-billing-time-tracking",
+        "product-director"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "I don't own any function. I own the space between all of them.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Process",
+        "Technical",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "幕僚长",
+        "创始人与高管的协调专家",
+        "过滤噪音",
+        "把控流程",
+        "确保一致性"
       ]
     },
     {
@@ -117,11 +208,30 @@
         "logistics-last-mile-delivery",
         "marketing-customer-advocacy",
         "sales-customer-onboarding",
-        "specialized-agentic-identity-trust"
+        "specialized-agentic-identity-trust",
+        "product-manager"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Customer success isn't a department that reacts to problems — it's a discipline that prevents them. The best CSMs know their customers' goals better than the customers do, and show up with answers before questions are asked.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "Process",
+        "Domain",
+        "Expertise"
+      ],
+      "keywords": [
+        "客户成功经理",
+        "CSM",
+        "专注客户入职",
+        "健康度评分",
+        "QBR"
       ]
     },
     {
@@ -133,7 +243,6 @@
       "subcategory": "",
       "path": "specialized/specialized-data-privacy-officer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "legal-data-privacy-attorney",
         "legal-data-protection-officer",
         "marketing-china-market-localization-strategist",
@@ -144,6 +253,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Treats personal data as a liability to be minimized rather than an asset to be hoarded — reads the regulation precisely, designs privacy in from the start, and assumes a regulator will one day ask to see the records.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Competencies",
+        "Privacy",
+        "Regulatory",
+        "Landscape"
+      ],
+      "keywords": [
+        "数据保护官",
+        "DPO",
+        "构建GDPR",
+        "CCPA与全球隐私合规项目的企业数据隐私专家",
+        "Role"
       ]
     },
     {
@@ -155,14 +282,31 @@
       "subcategory": "",
       "path": "specialized/specialized-document-generator.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
-        "operations-report-distribution-agent",
         "specialized-agentic-identity-trust"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Professional documents from code — PDFs, slides, spreadsheets, and reports.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "文档生成专家",
+        "PDF",
+        "PPTX",
+        "DOCX",
+        "XLSX"
       ]
     },
     {
@@ -174,7 +318,6 @@
       "subcategory": "",
       "path": "specialized/specialized-esg-sustainability-officer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-deep-learning-training",
         "environmental-climate-policy",
@@ -184,12 +327,29 @@
         "logistics-supply-chain-strategist",
         "marketing-paid-media-creative-strategist",
         "marketing-social-media-strategist",
-        "operations-report-distribution-agent",
         "specialized-agentic-identity-trust"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds sustainability programs that hold up to scrutiny — grounds every claim in audited data and recognized frameworks, because a target without a credible path or a disclosure without evidence is greenwashing waiting to be exposed.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Competencies",
+        "Materiality",
+        "Assessment",
+        "Protocol"
+      ],
+      "keywords": [
+        "ESG与可持续发展官",
+        "ESG报告",
+        "碳中和战略",
+        "可持续发展项目与利益相关方期望对齐的企业可持续发展战略家",
+        "Role"
       ]
     },
     {
@@ -206,11 +366,30 @@
         "legal-document-review",
         "nonprofit-grant-writer",
         "project-management-government-grant",
-        "specialized-agentic-identity-trust"
+        "specialized-agentic-identity-trust",
+        "finance-financial-controller"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every grant is a conversation between your mission and a funder's priorities. The best grant writers don't beg — they build a compelling case that a funder's investment in your work is the highest-leverage use of their dollars.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "Process",
+        "Domain",
+        "Expertise"
+      ],
+      "keywords": [
+        "拨款撰写人",
+        "非营利与科研机构的专家级拨款撰写人，覆盖资助前景研究",
+        "提案撰写与预算叙事",
+        "Grant",
+        "Writer"
       ]
     },
     {
@@ -229,7 +408,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Behavior designer — from Tiny Habits to the habit loop, from nudges to commitment devices. You don't rely on willpower; you design environments where the right behavior is the easy behavior.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "习惯养成与行为设计专家",
+        "习惯形成科学",
+        "行为心理学",
+        "神经科学",
+        "行为设计"
       ]
     },
     {
@@ -251,6 +449,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this?",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "身份图谱运营专家",
+        "Agent",
+        "系统实体去重与身份一致性专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -268,7 +484,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Life coach — from clarifying values to designing accountability systems. You don't give advice; you ask the questions that help clients find their own answers.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "人生教练",
+        "Life",
+        "Coach",
+        "个人成长与目标设定",
+        "职业转型辅导"
       ]
     },
     {
@@ -281,7 +516,6 @@
       "path": "specialized/specialized-ma-integration-manager.md",
       "depends_on": [
         "construction-engineering-bridge-structural",
-        "cybersecurity-engineering-customer-identity-access",
         "finance-accounts-payable-agent",
         "finance-engineering-credit-risk-model",
         "operations-executive-summary-generator",
@@ -290,7 +524,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Treats the signed deal as the starting line, not the finish — runs post-merger integration like a program with a clock on it, because synergy value erodes every day Day 1 readiness slips and culture is left to chance.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Competencies",
+        "Integration",
+        "Strategy",
+        "Framework"
+      ],
+      "keywords": [
+        "并购整合经理",
+        "设计与执行并购后整合方案的专家，覆盖Day",
+        "1准备",
+        "百日计划与协同效应追踪",
+        "Role"
       ]
     },
     {
@@ -310,13 +563,31 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every unsubmitted claim is lost revenue. Every unchallenged denial is money left on the table. Every compliance gap is a liability waiting to surface. The revenue cycle never stops — and neither do we.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "医疗计费与编码专家",
+        "ICD-10-CM",
+        "PCS",
+        "CPT与HCPCS编码",
+        "索赔提交与收入周期优化专家"
       ]
     },
     {
       "id": "specialized-multi-agent-director",
       "name": "多智能体总监",
       "description": "Multi-Agent Director — multi-agent system orchestration specialist",
-      "emoji": "\"🎯\"",
+      "emoji": "🎯",
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-multi-agent-director.md",
@@ -332,13 +603,31 @@
         "phase-3-build",
         "phase-5-launch",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You operate at the meta-level of agent orchestration, bridging strategy and execution across diverse agent teams",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Success",
+        "Metrics",
+        "Director",
+        "President"
+      ],
+      "keywords": [
+        "多智能体总监",
+        "Multi-Agent",
+        "Director",
+        "system",
+        "orchestration"
       ]
     },
     {
       "id": "specialized-multi-agent-president",
       "name": "多智能体总裁",
       "description": "Multi-Agent President — multi-agent system orchestration specialist",
-      "emoji": "\"🏛\"",
+      "emoji": "🏛",
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-multi-agent-president.md",
@@ -354,13 +643,31 @@
         "phase-3-build",
         "phase-5-launch",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You operate at the meta-level of agent orchestration, bridging strategy and execution across diverse agent teams",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "多智能体总裁",
+        "Multi-Agent",
+        "President",
+        "system",
+        "orchestration"
       ]
     },
     {
       "id": "specialized-multi-agent-project-manager",
       "name": "多智能体项目经理",
       "description": "Multi-Agent Project Manager — multi-agent system orchestration specialist",
-      "emoji": "\"📋\"",
+      "emoji": "📋",
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-multi-agent-project-manager.md",
@@ -377,6 +684,24 @@
         "phase-3-build",
         "phase-5-launch",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You operate at the meta-level of agent orchestration, bridging strategy and execution across diverse agent teams",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "多智能体项目经理",
+        "Multi-Agent",
+        "Project",
+        "Manager",
+        "system"
       ]
     },
     {
@@ -388,7 +713,6 @@
       "subcategory": "",
       "path": "specialized/specialized-operations-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-cyber-risk-model",
         "finance-engineering-credit-risk-model",
         "manufacturing-lean-six-sigma",
@@ -396,7 +720,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sees every business as a system of processes and treats waste, variation, and",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Competencies",
+        "Process",
+        "Mapping",
+        "Framework"
+      ],
+      "keywords": [
+        "运营经理",
+        "运用精益",
+        "六西格玛与系统思维进行流程映射",
+        "产能规划与组织效率优化的业务运营专家",
+        "Role"
       ]
     },
     {
@@ -418,6 +761,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Treats team dysfunction like a clinician reads symptoms — grounds every diagnosis and intervention in peer-reviewed evidence, names the invisible pattern leaders can't see, and never mistakes pop psychology for the real thing.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Competencies",
+        "Psychological",
+        "Safety",
+        "Framework"
+      ],
+      "keywords": [
+        "组织心理学家",
+        "诊断团队动力",
+        "心理安全",
+        "倦怠风险与文化健康的应用组织心理学专家",
+        "Role"
       ]
     },
     {
@@ -430,11 +791,30 @@
       "path": "specialized/specialized-personal-growth-mentor.md",
       "depends_on": [
         "home-lifestyle-personal-finance",
-        "specialized-agentic-identity-trust"
+        "specialized-agentic-identity-trust",
+        "hr-compensation-benefits"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Systems over slogans. Clarity before action. Execution over inspiration.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "Growth",
+        "Diagnostic",
+        "Area"
+      ],
+      "keywords": [
+        "个人成长导师",
+        "跨领域个人发展导师，覆盖目标清晰度",
+        "习惯设计",
+        "战略决策与问责",
+        "Role"
       ]
     },
     {
@@ -457,6 +837,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds the price point where value captured meets value delivered — then proves it with data.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "Executive",
+        "Summary",
+        "Cost"
+      ],
+      "keywords": [
+        "定价分析师",
+        "通过市场研究",
+        "竞争分析与成本结构评估制定最优定价模型的专业定价专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -474,7 +872,26 @@
         "testing-workflow-optimizer"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Productivity specialist — from GTD to Deep Work, from Pomodoro to time blocking. Productivity is not about doing more; it's about doing what matters with focused attention.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "时间管理与生产力专家",
+        "个人生产力系统",
+        "GTD",
+        "番茄工作法",
+        "时间块"
       ]
     },
     {
@@ -493,19 +910,37 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Orchestrates high-stakes, turn-based strategy battles with sharp analysis and",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "策略对决Agent",
+        "运用博弈论与三十六计进行实时策略对决的专家",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
       "id": "specialized-workflow-architect",
       "name": "工作流架构师",
       "description": "工作流发现、流程映射与规格说明专家",
-      "emoji": "\"🗺️\"",
+      "emoji": "🗺️",
       "category": "specialized",
       "subcategory": "",
       "path": "specialized/specialized-workflow-architect.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-graph-database",
         "gis-drone-reality-mapping",
         "infrastructure-github-actions-expert",
@@ -515,6 +950,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every path the system can take — mapped, named, and specified before a single line is written.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "brain",
+        "dart",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "工作流架构师",
+        "工作流发现",
+        "流程映射与规格说明专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -533,7 +986,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Channels Luhmann's Zettelkasten to build connected, validated knowledge bases.",
+      "lifecycle": "published",
+      "tags": [
+        "specialized",
+        "Technical",
+        "Validation",
+        "Overview",
+        "Questions"
+      ],
+      "keywords": [
+        "知识卡片管理员",
+        "知识管理",
+        "Zettelkasten",
+        "与笔记系统专家",
+        "Role"
       ]
     }
   ]

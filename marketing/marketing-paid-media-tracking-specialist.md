@@ -31,7 +31,6 @@ depends_on:
   - design-brand-guardian
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: John Williams (@itallstartedwithaidea)
-emoji: 📡
 vibe: If it's not tracked correctly, it didn't happen.
 
 

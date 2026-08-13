@@ -1,6 +1,7 @@
 # 📚 Runbook: Course / Curriculum Design
 
-> **Mode**: NEXUS-Education | **Duration**: 3-6 weeks | **Agents**: 8-12
+> **Mode**: NEXUS-Sprint | **Duration**: 3-6 weeks | **Agents**: 8-12
+> 本场景采用 Sprint 模式（NEXUS 三模式之一：Full / Sprint / Micro）执行。
 
 ---
 

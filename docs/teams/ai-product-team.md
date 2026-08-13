@@ -10,11 +10,11 @@
 | 🎯 统筹 | `project-management-studio-producer` | AI 产品策略、伦理审查 |
 | 📋 PM | `engineering-ai-product-manager` | AI 功能优先级、模型评估指标定义 |
 | 🧠 AI 架构 | `engineering-ai-engineer` | 模型选型、推理架构、RAG 管道设计 |
-| 🔬 ML 研究 | `ml-researcher` | 模型微调、Prompt 优化、评估基准 |
+| 🔬 ML 研究 | `data-science-ml-researcher` | 模型微调、Prompt 优化、评估基准 |
 | 🏗️ 后端 | `engineering-backend-architect` | API 网关、推理服务、向量数据库 |
 | 🎨 前端 | `engineering-frontend-developer` | AI 交互 UI：流式输出、对话界面 |
 | ⚡ 推理部署 | `engineering-llm-inference-expert` | vLLM/TGI 部署、量化、KV Cache 优化 |
-| 🔗 RAG | `engineering-rag-architect` | 文档分块、向量检索、混合搜索 |
+| 🔗 RAG | `data-science-engineering-rag-architect` | 文档分块、向量检索、混合搜索 |
 | 🔒 安全 | `engineering-ai-safety-expert` | Guardrails、越狱防御、内容安全 |
 | 🔍 QA | `testing-test-results-analyzer` | 模型评估指标、A/B 测试、幻觉率监控 |
 | 📊 分析 | `product-analyst` | Token 成本、延迟分布、用户留存 |

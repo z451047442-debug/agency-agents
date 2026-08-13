@@ -6,8 +6,8 @@ Usage:
 
 Exit codes:
     0   All checks passed.
-    1   Validation failed (syntax, schema, or cross-reference mismatch).
-    2   Usage error (file not found, etc.).
+    1   Validation failed (syntax, schema, or cross-reference mismatch,
+        or file not found).
 
 Requires: jsonschema (pip install jsonschema). If not installed, only JSON syntax
 and filesystem cross-reference checks run; schema validation is skipped with a warning.

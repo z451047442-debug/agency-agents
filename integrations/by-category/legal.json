@@ -1,7 +1,7 @@
 {
   "category": "legal",
-  "agent_count": 24,
-  "generated": "2026-07-16",
+  "agent_count": 25,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "legal-billing-time-tracking",
@@ -22,6 +22,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every six minutes of unbilled time is money left on the table. Every unclear billing narrative is a client dispute waiting to happen. Capture it all. Describe it clearly. Collect it professionally.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "法务计费与工时管理专员",
+        "全面的法务计费与工时管理专家，覆盖工时记录",
+        "发票生成",
+        "收款管理与信托账户合规",
+        "Legal"
       ]
     },
     {
@@ -39,6 +57,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The first conversation with a potential client sets the tone for the entire attorney-client relationship. Get it right — warm, professional, and thorough — from the very first touch.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "法务客户受理专员",
+        "全面的法务客户受理专家，负责潜在客户筛选",
+        "案件信息收集",
+        "咨询预约与利益冲突检查",
+        "Legal"
       ]
     },
     {
@@ -51,7 +87,6 @@
       "path": "legal/legal-construction-realestate.md",
       "depends_on": [
         "construction-fire-protection",
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-cyber-risk-model",
         "finance-engineering-credit-risk-model",
         "legal-engineering-legal-contracts-ai",
@@ -61,6 +96,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every skyscraper starts with a contract, every smart building with a legal framework — you structure the deals and resolve the disputes that build the built environment",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "工程建设与不动产律师",
+        "工程建设与不动产法律专家，覆盖建设工程施工合同",
+        "EPC",
+        "招投标",
+        "政府采购法"
       ]
     },
     {
@@ -72,11 +125,30 @@
       "subcategory": "",
       "path": "legal/legal-corporate-attorney.md",
       "depends_on": [
-        "legal-engineering-legal-document-automation"
+        "legal-engineering-legal-document-automation",
+        "data-science-engineering-computer-vision-deep"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every cap table tells a story — you make sure it's a story of control, not regret.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "公司法",
+        "商事律师",
+        "投融资",
+        "并购重组",
+        "公司治理"
       ]
     },
     {
@@ -94,6 +166,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Tenacious and sharp — every person deserves a vigorous defense, and every prosecution must prove guilt beyond reasonable doubt.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Domain",
+        "Expertise",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "刑事辩护律师",
+        "刑事辩护",
+        "取保候审",
+        "量刑协商",
+        "上诉代理与刑事合规专家"
       ]
     },
     {
@@ -115,6 +205,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When a data breach happens, the regulators don't call the CISO — they call the GC. You make sure the company has answers before the questions are asked.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "网络安全与数据合规律师",
+        "网络安全与数据安全法律专家，覆盖《网络安全法》《数据安全法》《个人信息保护法》",
+        "等保",
+        "关基合规",
+        "数据跨境传输安全评估"
       ]
     },
     {
@@ -126,12 +234,29 @@
       "subcategory": "",
       "path": "legal/legal-data-privacy-attorney.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "legal-data-protection-officer"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data is the new oil, and privacy is the refinery that makes it safe to use — vigilant, meticulous, unwavering.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "数据隐私律师",
+        "GDPR",
+        "PIPL",
+        "CCPA",
+        "合规"
       ]
     },
     {
@@ -143,20 +268,38 @@
       "subcategory": "",
       "path": "legal/legal-data-protection-officer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-privacy-engineer",
         "government-public-safety-analyst"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every piece of personal data your company holds is a promise to protect it —",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "数据保护官",
+        "DPO",
+        "数据保护与隐私合规专家，覆盖GDPR",
+        "PIPL",
+        "CCPA合规"
       ]
     },
     {
       "id": "legal-director",
       "name": "法律总监",
       "description": "法律领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"⚖\"",
+      "emoji": "⚖",
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-director.md",
@@ -169,7 +312,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 法律与合规服务 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Domain",
+        "Framework",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "法律总监",
+        "法律领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -181,13 +343,30 @@
       "subcategory": "",
       "path": "legal/legal-document-review.md",
       "depends_on": [
-        "legal-data-privacy-attorney",
-        "operations-report-distribution-agent"
+        "legal-data-privacy-attorney"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every word in a legal document matters. Every missed clause is a liability. Every risk caught early is a client protected.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Outputs",
+        "Specification",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "法务文件审查专员",
+        "全面的法务文件审查专家，覆盖合同",
+        "诉讼文件与不动产协议的摘要",
+        "风险条款标记与合规检查",
+        "Legal"
       ]
     },
     {
@@ -200,7 +379,7 @@
       "path": "legal/legal-engineering-legal-contracts-ai.md",
       "depends_on": [
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
+        "legal-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "finance-engineering-credit-risk-model",
         "legal-engineering-legal-document-automation",
@@ -208,7 +387,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Law is a system of rules that can be modeled, searched, and reasoned about —",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "technology",
+        "Built",
+        "models",
+        "document"
+      ],
+      "keywords": [
+        "法律AI",
+        "计算法律学研究员",
+        "计算法律学与AI法律推理专家，覆盖法律文本NLP",
+        "命名实体识别",
+        "当事人"
       ]
     },
     {
@@ -220,7 +418,7 @@
       "subcategory": "",
       "path": "legal/legal-engineering-legal-document-automation.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "legal-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "legal-engineering-legal-contracts-ai",
         "marketing-abm-account-based",
@@ -229,7 +427,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Legal documents are just structured data in prose form — you encode legal logic",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "automation",
+        "Built",
+        "document",
+        "generation"
+      ],
+      "keywords": [
+        "智能合约",
+        "法律文档自动化工程师",
+        "法律文档自动化与智能合约模板专家，覆盖文档自动化",
+        "HotDocs",
+        "Docassemble"
       ]
     },
     {
@@ -241,8 +458,7 @@
       "subcategory": "",
       "path": "legal/legal-engineering-legal-technology.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "legal-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "legal-engineering-legal-document-automation",
         "marketing-abm-account-based",
@@ -250,7 +466,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Law is the last industry to digitize — you build the products that make legal",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "building",
+        "technology",
+        "products",
+        "Shipped"
+      ],
+      "keywords": [
+        "法律科技",
+        "LegalTech",
+        "产品经理",
+        "法律科技与智能合同管理产品专家，覆盖AI合同审查",
+        "智能合约"
       ]
     },
     {
@@ -262,8 +497,7 @@
       "subcategory": "",
       "path": "legal/legal-engineering-outer-space-law.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "legal-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "legal-billing-time-tracking",
         "marketing-japan-market-expert",
@@ -272,7 +506,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Who owns the Moon? Can a company mine an asteroid? Space law is being written",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "space",
+        "Advised",
+        "commercial",
+        "activities"
+      ],
+      "keywords": [
+        "空间法",
+        "太空资源开发法律顾问",
+        "国际空间法与商业航天法律专家，覆盖外空条约",
+        "OST",
+        "责任公约"
       ]
     },
     {
@@ -284,7 +537,7 @@
       "subcategory": "",
       "path": "legal/legal-engineering-patent-engineer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "legal-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "legal-engineering-legal-document-automation",
         "marketing-abm-account-based",
@@ -292,7 +545,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "An invention without a patent is a gift to your competitors. You translate engineering",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "patent",
+        "engineering",
+        "Drafted",
+        "hundreds"
+      ],
+      "keywords": [
+        "专利",
+        "知识产权工程师",
+        "技术专利与知识产权工程专家，覆盖专利检索",
+        "现有技术分析",
+        "专利说明书"
       ]
     },
     {
@@ -304,7 +576,7 @@
       "subcategory": "",
       "path": "legal/legal-engineering-trade-compliance.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "legal-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "legal-billing-time-tracking",
         "marketing-abm-account-based",
@@ -314,6 +586,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The wrong shipment to the wrong country can result in criminal charges, million-dollar",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "export",
+        "controls",
+        "Managed",
+        "compliance"
+      ],
+      "keywords": [
+        "贸易合规",
+        "出口管制",
+        "ECCN",
+        "HS",
+        "专家"
       ]
     },
     {
@@ -334,6 +624,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Environmental law shapes what can be built, what can be emitted, and who pays for the damage. You guide companies through the regulatory landscape of a carbon-constrained world.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "environmental",
+        "energy",
+        "Advised",
+        "compliance"
+      ],
+      "keywords": [
+        "环境",
+        "能源法律顾问",
+        "环境法与能源法律专家，覆盖环境影响评价",
+        "EIA",
+        "排污许可合规"
       ]
     },
     {
@@ -345,28 +653,44 @@
       "subcategory": "",
       "path": "legal/legal-general-counsel.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-incident-response",
-        "engineering-multi-agent-systems-architect",
+        "legal-multi-agent-coordinator",
         "finance-accounts-payable-agent",
-        "legal-engineering-legal-document-automation",
-        "operations-report-distribution-agent"
+        "legal-engineering-legal-document-automation"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You don't just say no — you find the legal path to yes. The business wants to",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Domain",
+        "Framework",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "企业法务总监",
+        "总法律顾问，覆盖公司治理",
+        "董事会法律支持",
+        "合规体系建设",
+        "合同"
       ]
     },
     {
       "id": "legal-general-manager",
       "name": "法律总经理",
       "description": "法律领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"⚖\"",
+      "emoji": "⚖",
       "category": "legal",
       "subcategory": "",
       "path": "legal/legal-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "finance-general-manager",
         "government-general-manager",
         "healthcare-general-manager",
@@ -376,7 +700,26 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Domain",
+        "Framework",
+        "Industry",
+        "Context"
+      ],
+      "keywords": [
+        "法律总经理",
+        "法律领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -388,7 +731,7 @@
       "subcategory": "",
       "path": "legal/legal-immigration-attorney.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "legal-multi-agent-coordinator",
         "finance-accounts-payable-agent",
         "legal-criminal-defense-attorney",
         "marketing-abm-account-based",
@@ -397,7 +740,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every country controls who enters and who stays — you navigate the immigration",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "immigration",
+        "Managed",
+        "global",
+        "mobility"
+      ],
+      "keywords": [
+        "移民",
+        "出入境法律顾问",
+        "移民法与全球人才流动法律专家，覆盖工作签证",
+        "居留许可",
+        "技术移民"
       ]
     },
     {
@@ -415,6 +777,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every invention deserves a fortress — transforms innovation into legally protected competitive advantage.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "知识产权",
+        "专利律师",
+        "专利申请",
+        "商标注册",
+        "版权保护"
       ]
     },
     {
@@ -432,6 +812,61 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Fair, firm, and deeply knowledgeable — every workplace relationship has legal guardrails, and someone needs to know exactly where they are.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Domain",
+        "Expertise",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "劳动法律师",
+        "劳动合同管理",
+        "劳动争议仲裁",
+        "工伤赔偿与竞业限制纠纷专家",
+        "核心信念"
+      ]
+    },
+    {
+      "id": "legal-multi-agent-coordinator",
+      "name": "Legal Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for legal — corporate, IP, compliance,",
+      "emoji": "⚖️",
+      "category": "legal",
+      "subcategory": "",
+      "path": "legal/legal-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect",
+        "administration-executive-assistant",
+        "specialized-business-strategist",
+        "cybersecurity-security-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating legal specialists into coherent multi-agent workflows",
+      "tags": [
+        "legal",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Legal",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -443,7 +878,6 @@
       "subcategory": "",
       "path": "legal/legal-smart-manufacturing.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "education-special-needs",
         "legal-engineering-legal-contracts-ai",
         "legal-engineering-legal-document-automation",
@@ -453,6 +887,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When a robot makes a defective product, who's liable — the manufacturer, the software vendor, or the factory operator? You answer questions the law hasn't fully settled yet.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "智能制造与工业互联网法律顾问",
+        "智能制造",
+        "工业4.0法律专家，覆盖智能工厂自动化系统责任",
+        "工业互联网数据权属",
+        "AI"
       ]
     },
     {
@@ -472,6 +924,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Tax law is the code that runs civilization — you help clients comply, optimize, and defend.",
+      "lifecycle": "published",
+      "tags": [
+        "legal",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "税务律师",
+        "税务争议解决",
+        "税务筹划",
+        "转让定价与跨境税收法律专家",
+        "核心信念"
       ]
     }
   ]

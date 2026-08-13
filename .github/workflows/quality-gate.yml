@@ -18,10 +18,10 @@ concurrency:
 
 jobs:
   # ── Quality scoring with tiered thresholds ──────────────────────────────
-  # New agents (added files) must score ≥7 (B-grade).
-  # Modified existing agents must score ≥5 (C-grade) and not regress.
+  # New agents (added files) must score ≥10 (B-grade).
+  # Modified existing agents must score ≥8 (C-grade) and not regress.
   score:
-    name: Score agents (new ≥7 / modified ≥5)
+    name: Score agents (new ≥10 / modified ≥8)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
@@ -243,7 +243,13 @@ jobs:
 
       - name: Check for score regressions
         run: |
-          git checkout "${{ github.base_ref }}"
+          # Fork PRs may not have the base branch available for checkout.
+          # Fetch it explicitly; if unavailable, skip with a notice instead of failing.
+          if ! git fetch origin "${{ github.base_ref }}" 2>/dev/null; then
+            echo "::notice::Skipping score-regression step — could not fetch base branch '${{ github.base_ref }}' (fork PR without base ref)."
+            exit 0
+          fi
+          git checkout -b base-scores FETCH_HEAD
           python scripts/score-agents.py --json --no-freshness > /tmp/base-scores.json
           git checkout -
           python scripts/score-agents.py --json --no-freshness > /tmp/pr-scores.json

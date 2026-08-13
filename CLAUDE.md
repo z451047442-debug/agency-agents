@@ -2,7 +2,7 @@
 
 ## Project overview
 
-The Agency is a collection of 1400 AI agent personality definitions (`.md` files with YAML frontmatter) organized into 62 industry categories. Each agent file defines a specialized expert — its identity, mission, workflows, deliverables, and communication style. These files are installed into AI coding tools (Claude Code, Copilot, Cursor, Windsurf, Gemini CLI, etc.) to provide on-demand domain expertise.
+The Agency is a collection of 1402 AI agent personality definitions (`.md` files with YAML frontmatter) organized into 62 industry categories (+ `_solution/`). Each agent file defines a specialized expert — its identity, mission, workflows, deliverables, and communication style. These files are installed into AI coding tools (Claude Code, Copilot, Cursor, Windsurf, Gemini CLI, etc.) to provide on-demand domain expertise.
 
 The project has **no runtime code** — it is a content repository. Python scripts under `scripts/` handle installation, linting, validation, indexing, and tool-specific integration. Shell scripts in the same directory are thin wrappers around their Python counterparts.
 
@@ -36,7 +36,7 @@ python scripts/lint-agents.py path/to/agent.md
 
 # Install agents into Claude Code (no convert step needed — reads .md directly)
 # Python is the canonical installer — works on ALL platforms without bash
-python scripts/install.py --tool claude-code                  # all 1399 agents
+python scripts/install.py --tool claude-code                  # all 1402 agents
 python scripts/install.py --tool claude-code --division engineering,design
 python scripts/install.py --list-installed --tool claude-code  # verify
 python scripts/install.py --verify --tool claude-code          # integrity check
@@ -114,8 +114,11 @@ python scripts/check-contributor-ladder.py       # audit contributor ladder comp
 python scripts/build-hermes-plugin.py            # build Hermes router plugin from agents
 
 # A/B testing tools
-python scripts/ab-test.py --case tests/ab-cases/tc-001.json  # run A/B test against agents
-python scripts/ab-evaluate.py --result tests/ab-results/     # evaluate A/B test results
+python scripts/ab-test.py --init                        # initialize the A/B test suite
+python scripts/ab-test.py --list                        # list A/B test cases
+python scripts/ab-test.py --run <agent-id>              # run A/B evaluation for an agent
+python scripts/ab-test.py --report --json               # show results summary (JSON)
+python scripts/ab-evaluate.py --agent <agent-id>        # evaluate results for one agent
 
 # Telemetry (internal)
 python scripts/telemetry.py                      # collect and report usage telemetry
@@ -151,10 +154,10 @@ python scripts/analyze-deps.py --cross-stats         # cross-category dep covera
 python scripts/analyze-deps.py --apply               # write suggested cross-category deps
 python scripts/analyze-deps.py --json                # output depends_on.json
 python scripts/analyze-deps.py --report              # dependency health dashboard
-python scripts/batch-add-deps.py --category engineering  # batch add deps to agents
+python scripts/batch-add-deps.py                  # batch apply depends_on from suggested_deps.json
 
 # Content quality & maintenance
-python scripts/expand-agent.py path/to/agent.md      # organic content expansion
+python scripts/expand-agent.py <agent-id>            # organic content expansion (agent ID, not path)
 python scripts/quality-report.py                     # generate quality report
 python scripts/agent-lifecycle.py --auto-flag        # flag agents for review
 python scripts/suggest-nexus-roles.py --category engineering  # suggest nexus_roles

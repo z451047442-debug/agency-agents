@@ -559,7 +559,7 @@ def print_dependency_health(all_agents):
     if broken:
         print(f"\n{BOLD}Broken depends_on (target agent not found):{RESET}")
         for source, target in broken:
-            print(f"  {RED}✗{RESET} {source} → {target} (not found)")
+            print(f"  {RED}✗{RESET} {source} -> {target} (not found)")
 
     if valid:
         print(f"\n{BOLD}Existing Dependency Graph:{RESET}")
@@ -590,7 +590,7 @@ def print_suggestions(suggestions, agent_filter=None, top_n=10):
             print(f"{BOLD}{agent_filter}:{RESET}")
             if deps:
                 for target_id, confidence, evidence in deps:
-                    print(f"  {confidence:.2f} → {CYAN}{target_id}{RESET}")
+                    print(f"  {confidence:.2f} -> {CYAN}{target_id}{RESET}")
                     for e in evidence:
                         print(f"        {e}")
             else:
@@ -606,7 +606,7 @@ def print_suggestions(suggestions, agent_filter=None, top_n=10):
         ranked.sort(key=lambda x: -x[0])
 
         for confidence, agent_id, target_id, evidence in ranked[:top_n]:
-            print(f"  {confidence:.2f}  {agent_id} → {CYAN}{target_id}{RESET}")
+            print(f"  {confidence:.2f}  {agent_id} -> {CYAN}{target_id}{RESET}")
             print(f"          {evidence[0] if evidence else ''}")
 
 
@@ -756,7 +756,7 @@ def main():
         print(f"  Broken references:        {RED}{len(broken)}{RESET}")
         if broken:
             for source, target in broken:
-                print(f"  {RED}✗{RESET} {source} → {target}")
+                print(f"  {RED}✗{RESET} {source} -> {target}")
         return
 
     # --suggest mode

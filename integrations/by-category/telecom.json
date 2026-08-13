@@ -1,7 +1,7 @@
 {
   "category": "telecom",
-  "agent_count": 12,
-  "generated": "2026-07-16",
+  "agent_count": 13,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "telecom-5g-core",
@@ -15,13 +15,31 @@
         "automotive-autonomous-driving",
         "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
-        "network-engineering-engineering-network-protocol",
+        "infrastructure-network-engineering-engineering-network-protocol",
         "telecom-data-analyst",
         "telecom-engineering-antenna-rf"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "4G connected people; 5G connects everything — factories, cars, sensors, and cities. You build the core network that makes it all possible.",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "5G核心网工程师",
+        "5G核心网",
+        "移动通信专家，覆盖5GC服务化架构",
+        "SBA",
+        "AMF"
       ]
     },
     {
@@ -45,6 +63,24 @@
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every call, every click, every cell handover leaves a trail — the patterns are worth more than the pipes.",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "电信数据分析师",
+        "电信大数据分析：用户行为建模",
+        "离网预警",
+        "精准营销",
+        "网络流量预测"
       ]
     },
     {
@@ -58,7 +94,7 @@
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "telecom-multi-agent-coordinator",
         "finance-cost-accountant",
         "lottery-risk-compliance",
         "marketing-customer-lifecycle",
@@ -69,13 +105,32 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Telecommunications connects the world — you manage the networks, spectrum, and",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "leadership",
+        "Managed",
+        "networks",
+        "spectrum"
+      ],
+      "keywords": [
+        "电信运营总监",
+        "电信运营公司",
+        "部门最高负责人，覆盖网络规划",
+        "建设",
+        "运维全生命周期"
       ]
     },
     {
       "id": "telecom-engineering-antenna-rf",
       "name": "天线/射频(RF)设计工程师",
-      "description": "天线与射频电路设计专家，覆盖天线设计(贴片/偶极/阵列)/HFSS/CST仿真、阻抗匹配/S参数、射频前端(RFFE)/滤波器与OTA/ SAR测试",
+      "description": "天线与射频电路设计专家，覆盖天线设计(贴片/偶极/阵列)/HFSS/CST仿真、阻抗匹配/S参数、射频前端(RFFE)/滤波器与OTA/",
       "emoji": "📡",
       "category": "telecom",
       "subcategory": "",
@@ -84,7 +139,7 @@
         "aerospace-engineering-systems-aerospace",
         "automotive-engineering-automotive-homologation-test",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
+        "telecom-multi-agent-coordinator",
         "finance-cost-accountant",
         "hr-performance-management",
         "lottery-product-risk",
@@ -93,20 +148,39 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Everything wireless depends on antennas and RF — you design the invisible electromagnetic",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "antenna",
+        "design",
+        "Designed",
+        "antennas"
+      ],
+      "keywords": [
+        "天线",
+        "射频",
+        "RF",
+        "设计工程师",
+        "天线与射频电路设计专家，覆盖天线设计"
       ]
     },
     {
       "id": "telecom-engineering-electromagnetic-compatibility",
       "name": "电磁兼容(EMC)/电磁干扰(EMI)工程师",
-      "description": "电子设备电磁兼容设计与整改专家，覆盖传导/辐射发射(CE/RE)与抗扰度(CS/RS/ESD/EFT/Surge)、PCB Layout/屏蔽/滤波/接地EMC设计、EMC暗室/接收机/天线测试与FCC/CE/CISPR/GB EMC合规",
+      "description": "电子设备电磁兼容设计与整改专家，覆盖传导/辐射发射(CE/RE)与抗扰度(CS/RS/ESD/EFT/Surge)、PCB Layout/屏蔽/滤波/接地EMC设计、EMC暗室/接收机/天线测试与FCC/CE/CISPR/GB",
       "emoji": "📡",
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-engineering-electromagnetic-compatibility.md",
       "depends_on": [
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "telecom-multi-agent-coordinator",
         "finance-cost-accountant",
         "hr-performance-management",
         "lottery-product-risk",
@@ -117,31 +191,68 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every electronic device emits and receives electromagnetic noise — you ensure",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "design",
+        "compliance",
+        "Brought",
+        "products"
+      ],
+      "keywords": [
+        "电磁兼容",
+        "EMC",
+        "电磁干扰",
+        "EMI",
+        "工程师"
       ]
     },
     {
       "id": "telecom-engineering-maritime-navigation",
       "name": "船舶电气/自动化工程师",
-      "description": "船舶电气系统与机舱自动化专家，覆盖船舶电力系统(发电/配电/电力推进)、船舶自动化(IAS/AMS/PMS)、DP动力定位(DP1/2/3)与船级社(IEC 60092/DNV/ABS CCS)",
+      "description": "船舶电气系统与机舱自动化专家，覆盖船舶电力系统(发电/配电/电力推进)、船舶自动化(IAS/AMS/PMS)、DP动力定位(DP1/2/3)与船级社(IEC",
       "emoji": "🚢",
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-engineering-maritime-navigation.md",
       "depends_on": [
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "telecom-multi-agent-coordinator",
         "finance-cost-accountant",
         "lottery-product-risk",
         "lottery-risk-compliance",
         "marketing-demand-generation",
-        "operations-report-distribution-agent",
         "telecom-5g-core",
         "telecom-data-analyst"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A ship at sea is a self-contained power grid with its own generation, distribution,",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "marine",
+        "electrical",
+        "systems",
+        "Designed"
+      ],
+      "keywords": [
+        "船舶电气",
+        "自动化工程师",
+        "船舶电气系统与机舱自动化专家，覆盖船舶电力系统",
+        "发电",
+        "配电"
       ]
     },
     {
@@ -154,7 +265,7 @@
       "path": "telecom/telecom-engineering-radar-systems.md",
       "depends_on": [
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "telecom-multi-agent-coordinator",
         "finance-cost-accountant",
         "hr-performance-management",
         "iot-engineering-industrial-iot-platform",
@@ -163,13 +274,32 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Radar sees in the dark, through fog, at hundreds of meters — you design the",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "radar",
+        "systems",
+        "Designed",
+        "radars"
+      ],
+      "keywords": [
+        "雷达系统",
+        "射频感知工程师",
+        "雷达系统与射频探测技术专家，覆盖毫米波雷达",
+        "77GHz",
+        "相控阵"
       ]
     },
     {
       "id": "telecom-engineering-signal-integrity",
       "name": "信号完整性(SI)/电源完整性(PI)工程师",
-      "description": "高速数字系统信号与电源完整性专家，覆盖SerDes/DDR/PCIe高速接口SI仿真(HFSS/SIwave)、PDN阻抗/去耦电容优化、IBIS-AMI/TDR/VNA测量与PCB Stackup设计",
+      "description": "高速数字系统信号与电源完整性专家，覆盖SerDes/DDR/PCIe高速接口SI仿真(HFSS/SIwave)、PDN阻抗/去耦电容优化、IBIS-AMI/TDR/VNA测量与PCB",
       "emoji": "📊",
       "category": "telecom",
       "subcategory": "",
@@ -177,16 +307,68 @@
       "depends_on": [
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "telecom-multi-agent-coordinator",
         "finance-cost-accountant",
         "finance-engineering-credit-risk-model",
-        "operations-report-distribution-agent",
         "telecom-5g-core",
         "telecom-data-analyst"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "At multi-gigabit speeds, a PCB trace is not a wire — it's a transmission line.",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "signal",
+        "power",
+        "integrity",
+        "Ensured"
+      ],
+      "keywords": [
+        "信号完整性",
+        "SI",
+        "电源完整性",
+        "PI",
+        "工程师"
+      ]
+    },
+    {
+      "id": "telecom-multi-agent-coordinator",
+      "name": "Telecom Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for telecom — 5G core, RAN, optical,",
+      "emoji": "📶",
+      "category": "telecom",
+      "subcategory": "",
+      "path": "telecom/telecom-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating telecom specialists into coherent multi-agent workflows",
+      "tags": [
+        "telecom",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Telecom",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -209,6 +391,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Bits travel at the speed of light but still find every bottleneck — the art is making the network invisible.",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "通信网络工程师",
+        "通信网络规划与优化：5G",
+        "LTE",
+        "核心网",
+        "接入网"
       ]
     },
     {
@@ -231,6 +431,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Five nines isn't a goal — it's a contract. Every minute of downtime has a price tag and a customer on the other end.",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "电信运维经理",
+        "电信网络运维管理：故障监控",
+        "告警分析",
+        "变更管理",
+        "SLA保障"
       ]
     },
     {
@@ -242,8 +460,8 @@
       "subcategory": "",
       "path": "telecom/telecom-optical-engineer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "network-engineering-engineering-optical-fiber-sensing",
+        "telecom-multi-agent-coordinator",
+        "infrastructure-network-engineering-engineering-optical-fiber-sensing",
         "specialized-document-generator",
         "telecom-5g-core",
         "telecom-data-analyst",
@@ -251,7 +469,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The internet travels on glass threads thinner than hair, carrying terabytes",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "光纤",
+        "光通信工程师",
+        "光纤通信与光传输网络专家，覆盖OTN",
+        "DWDM波分复用",
+        "SDH"
       ]
     },
     {
@@ -274,6 +511,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The best plan is the one the customer never thinks about — it just works, and the bill feels fair.",
+      "lifecycle": "published",
+      "tags": [
+        "telecom",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "通信产品经理",
+        "通信产品设计与运营：套餐设计",
+        "用户增长",
+        "ARPU提升",
+        "终端策略"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "category": "project-management",
-  "agent_count": 23,
-  "generated": "2026-07-16",
+  "agent_count": 25,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "project-management-agents-orchestrator",
@@ -13,7 +13,7 @@
       "path": "project-management/project-management-agents-orchestrator.md",
       "depends_on": [
         "engineering-mobile-app-builder",
-        "engineering-multi-agent-systems-architect",
+        "project-management-multi-agent-coordinator",
         "engineering-rapid-prototyper",
         "infrastructure-engineering-devops-automator",
         "operations-report-distribution-agent",
@@ -21,13 +21,32 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The conductor who runs the entire dev pipeline from spec to ship.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "多智能体编排师",
+        "Agent",
+        "协调",
+        "工作流管理与复杂项目统筹专家",
+        "Role"
       ]
     },
     {
       "id": "project-management-agile-coach",
       "name": "敏捷教练/Agile Coach",
-      "description": "敏捷转型策略与组织变革专家，覆盖Scrum/Kanban/SAFe框架实施、团队成熟度评估与教练辅导、敏捷度量与健康检查、仪式与回顾引导、产品负责人与Scrum Master导师、组织级变革管理推动敏捷采纳",
+      "description": "敏捷转型策略与组织变革专家，覆盖Scrum/Kanban/SAFe框架实施、团队成熟度评估与教练辅导、敏捷度量与健康检查、仪式与回顾引导、产品负责人与Scrum",
       "emoji": "🔄",
       "category": "project-management",
       "subcategory": "",
@@ -35,12 +54,31 @@
       "depends_on": [
         "engineering-build-release-engineer",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "project-management-multi-agent-coordinator",
         "operations-report-distribution-agent",
         "project-management-scrum-master"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Agile is not a destination you reach — it's an operating system you install",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "敏捷教练",
+        "Agile",
+        "Coach",
+        "敏捷转型策略与组织变革专家，覆盖Scrum",
+        "Kanban"
       ]
     },
     {
@@ -52,7 +90,6 @@
       "subcategory": "",
       "path": "project-management/project-management-bid-engineer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-ai-agent-developer",
         "engineering-developer-experience",
         "engineering-graph-database",
@@ -62,6 +99,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every winning bid starts with a technical proposal that answers the customer's real questions — not the ones they wrote in the RFP, but the ones they actually care about",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "方案与投标工程师",
+        "技术方案与投标专家，覆盖RFP",
+        "招标文件分析",
+        "技术方案",
+        "技术标书撰写"
       ]
     },
     {
@@ -83,6 +138,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A consulting project sells on methodology and delivers on relationships — you manage the client, the team, and the deliverables so the partner can sell the next phase",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "咨询项目经理",
+        "管理咨询项目交付专家，覆盖咨询项目启动",
+        "诊断",
+        "方案",
+        "实施全流程"
       ]
     },
     {
@@ -104,6 +177,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every project has a plan until reality hits it. You build the plan, measure the variance, and tell the truth about whether we're on track — before it's too late to fix.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "项目控制",
+        "P6",
+        "计划",
+        "工程师",
+        "项目计划与控制专家，覆盖Primavera"
       ]
     },
     {
@@ -115,17 +206,35 @@
       "subcategory": "",
       "path": "project-management/project-management-engineering-technical-program-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-code-reviewer",
         "engineering-cross-platform",
-        "engineering-multi-agent-systems-architect",
+        "project-management-multi-agent-coordinator",
         "infrastructure-identity-access",
         "marketing-abm-account-based",
         "project-management-rd-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Engineering builds; TPMs align. You coordinate the complex multi-team projects",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "managing",
+        "large-scale",
+        "technical",
+        "programs"
+      ],
+      "keywords": [
+        "技术项目经理",
+        "TPM",
+        "跨团队技术项目管理专家，覆盖大型技术项目规划",
+        "分解",
+        "WBS"
       ]
     },
     {
@@ -138,7 +247,6 @@
       "path": "project-management/project-management-event-manager.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "operations-report-distribution-agent",
         "project-management-agents-orchestrator"
@@ -146,6 +254,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "An event that looks effortless took months of planning. The keynote starts on time, the AV works, the food is hot, and the attendees never know about the three crises you solved before breakfast.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "活动",
+        "会展项目经理",
+        "活动与会展项目管理专家，覆盖大型活动",
+        "会议",
+        "展览策划"
       ]
     },
     {
@@ -166,7 +292,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs experiments, tracks results, and lets the data decide.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Technical",
+        "Hypothesis",
+        "Experimental",
+        "Design"
+      ],
+      "keywords": [
+        "实验追踪专家",
+        "测试",
+        "假设验证与数据驱动决策专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -179,7 +324,7 @@
       "path": "project-management/project-management-film-producer.md",
       "depends_on": [
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "project-management-multi-agent-coordinator",
         "marketing-paid-media-creative-strategist",
         "marketing-short-video-editing-coach",
         "media-entertainment-creative-music-producer",
@@ -187,7 +332,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every frame costs money and every day over schedule costs more — you balance",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "影视制片人",
+        "影视",
+        "视频项目制片管理专家，覆盖影视项目预算",
+        "融资",
+        "拍摄排期"
       ]
     },
     {
@@ -210,6 +374,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every year, governments distribute billions in grants, tax incentives, and subsidies — and most companies leave money on the table because they don't know how to apply. You get them the money they deserve.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "政府项目申报专员",
+        "政府资金",
+        "补贴项目申报专家，覆盖科技厅",
+        "工信厅",
+        "发改委专项资金"
       ]
     },
     {
@@ -223,13 +405,68 @@
       "depends_on": [
         "education-special-needs",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "project-management-multi-agent-coordinator",
         "infrastructure-github-actions-expert",
         "project-management-agents-orchestrator"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Enforces traceable commits, structured PRs, and release-safe branch strategy.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Technical",
+        "Jira",
+        "Link",
+        "Change"
+      ],
+      "keywords": [
+        "Jira",
+        "工作流管理员",
+        "Git",
+        "工作流",
+        "分支策略与"
+      ]
+    },
+    {
+      "id": "project-management-launch-gtm-director",
+      "name": "Launch GTM Director",
+      "description": "Owns the T-7 to T+14 launch calendar, cross-channel sequencing, launch-day war room, and go-to-market execution orchestration",
+      "emoji": "🚀",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-launch-gtm-director.md",
+      "depends_on": [
+        "marketing-growth-hacker",
+        "marketing-content-creator",
+        "marketing-social-media-strategist",
+        "project-management-project-shepherd",
+        "operations-executive-summary-generator"
+      ],
+      "nexus_roles": [
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-08-05",
+      "vibe": "Launch day is not a date on a calendar — it's a precisely orchestrated sequence where every channel, every asset, and every team member fires at exactly the right moment.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Launch",
+        "Calendar",
+        "Framework",
+        "Collaboration"
+      ],
+      "keywords": [
+        "Launch GTM Director",
+        "go-to-market",
+        "launch orchestration",
+        "cross-channel sequencing"
       ]
     },
     {
@@ -242,7 +479,6 @@
       "path": "project-management/project-management-manager.md",
       "depends_on": [
         "construction-engineering-industrial-refrigeration",
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-ai-agent-developer",
         "engineering-programming-language",
         "operations-report-distribution-agent",
@@ -251,6 +487,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A signed contract is a promise; a delivered project is a promise kept. You turn proposals into reality, managing the messy gap between \"what we sold\" and \"what actually works.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "项目交付经理",
+        "项目交付与执行专家，覆盖端到端项目交付",
+        "技术方案落地管理",
+        "项目团队",
+        "分包协调"
       ]
     },
     {
@@ -274,6 +528,58 @@
         "phase-1-strategy",
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Precise extractor — finds the signal in the noise, never invents what isn't there.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "会议纪要专家",
+        "从会议记录或原始笔记中提取结构化决策",
+        "行动项与待决问题的专家",
+        "Date",
+        "Attendees"
+      ]
+    },
+    {
+      "id": "project-management-multi-agent-coordinator",
+      "name": "Project Management Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for project management — PMO, scheduling,",
+      "emoji": "📋",
+      "category": "project-management",
+      "subcategory": "",
+      "path": "project-management/project-management-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating project-management specialists into coherent multi-agent workflows",
+      "tags": [
+        "project-management",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Project",
+        "Management",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates"
       ]
     },
     {
@@ -294,6 +600,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "One project is a project; a hundred projects is a portfolio. You build the governance, the standards, and the resource allocation that turns chaos into capability.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "PMO总监",
+        "项目管理办公室",
+        "PMO",
+        "与项目组合治理专家，覆盖PMO体系",
+        "支持型"
       ]
     },
     {
@@ -317,6 +641,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A project is a temporary endeavor undertaken to create a unique product, service, or result. You bring order to complexity — defining what must be done, how much it costs, how long it takes, what could go wrong, and who needs to know what when. You don't just manage tasks; you deliver value.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "PMP项目管理经理",
+        "PMP项目管理全流程专家，覆盖项目章程与范围管理",
+        "WBS与进度编制",
+        "关键路径法",
+        "预算与挣值管理"
       ]
     },
     {
@@ -329,7 +671,6 @@
       "path": "project-management/project-management-portfolio.md",
       "depends_on": [
         "construction-engineering-green-building",
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-language-model-nlp",
         "finance-engineering-credit-risk-model",
@@ -339,6 +680,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You don't manage projects — you manage the portfolio. Every project competes for the same scarce resources; your job is to fund the ones that matter, kill the ones that don't, and make sure the numbers add up at every gate.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "项目组合经理",
+        "项目组合管理",
+        "PPM",
+        "专家，覆盖组合优先级排序与遴选",
+        "资源产能规划与分配"
       ]
     },
     {
@@ -357,7 +716,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Converts specs to tasks with realistic scope — no gold-plating, no fantasy.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Responsibilities",
+        "Task",
+        "List",
+        "Format"
+      ],
+      "keywords": [
+        "高级项目经理",
+        "现实范围评估与规格转任务分解专家",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
@@ -378,7 +756,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Herds cross-functional chaos into on-time, on-scope delivery.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Technical",
+        "Project",
+        "Overview",
+        "Stakeholder"
+      ],
+      "keywords": [
+        "项目协调专家",
+        "跨职能协调",
+        "时间轴管理与端到端项目统筹专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -401,6 +798,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Engineering projects build to spec; R&D projects build to discover. You manage the uncertainty — knowing that the path from idea to product is never a straight line.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "R&D与科研项目经理",
+        "研发与科研项目管理专家，覆盖阶段关口",
+        "Stage-Gate",
+        "敏捷研发流程",
+        "技术路线图"
       ]
     },
     {
@@ -420,6 +835,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Agile isn't stand-ups and sticky notes — it's a discipline of delivering value every sprint, inspecting and adapting, and teaching teams to solve their own problems",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "敏捷教练",
+        "Scrum",
+        "Master",
+        "敏捷开发与Scrum专家，覆盖Scrum",
+        "Kanban"
       ]
     },
     {
@@ -432,7 +865,6 @@
       "path": "project-management/project-management-site-engineer.md",
       "depends_on": [
         "construction-engineering-construction-materials",
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-programming-language",
         "infrastructure-identity-access",
         "tourism-travel-agent"
@@ -440,6 +872,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Design is theory; installation is reality. You make it work on-site, with the wrong tools and the customer watching, because that's what it takes.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "现场实施工程师",
+        "项目现场实施与调试专家，覆盖系统安装部署集成",
+        "现场冷调",
+        "热调",
+        "联调"
       ]
     },
     {
@@ -451,7 +901,7 @@
       "subcategory": "",
       "path": "project-management/project-management-studio-operations.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "project-management-multi-agent-coordinator",
         "operations-executive-summary-generator",
         "project-management-agents-orchestrator",
         "specialized-personal-growth-mentor",
@@ -460,7 +910,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Keeps the studio running smoothly — processes, tools, and people in sync.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Technical",
+        "Process",
+        "Overview",
+        "Prerequisites"
+      ],
+      "keywords": [
+        "工作室运营专家",
+        "日常效率优化",
+        "流程改进与生产支持专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -483,6 +952,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Aligns creative vision with business objectives across complex initiatives.",
+      "lifecycle": "published",
+      "tags": [
+        "project-management",
+        "Technical",
+        "Executive",
+        "Summary",
+        "Project"
+      ],
+      "keywords": [
+        "工作室制作人",
+        "高层编排",
+        "投资组合管理与多项目监督专家",
+        "Role",
+        "Personality"
       ]
     }
   ]

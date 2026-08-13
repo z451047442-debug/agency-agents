@@ -138,23 +138,29 @@ def print_terminal_report(results, args):
 
     print()
 
-    # Perimeter stats
+    # Perimeter stats. stale/broken/thin are v1-engine-only metrics (v7 results
+    # don't carry them); derive each stat only from fields present in the
+    # result set so v7 runs don't report bogus zeros or full-roster counts.
+    _V1_FIELDS = ("days_since_modified", "broken_links", "substantive_sections")
+    has_v1_fields = any(k in r for r in results for k in _V1_FIELDS)
     short = sum(1 for r in results if r.get("word_count", 0) < 100)
-    stale = sum(1 for r in results if r.get("days_since_modified", 0) > 365)
-    broken = sum(1 for r in results if r.get("broken_links", 0) > 0)
-    thin = sum(1 for r in results if r.get("substantive_sections", 0) < 4)
     no_safe = sum(1 for r in results if r.get("safeguard_signals", 0) == 0)
     no_ref = sum(1 for r in results if r.get("reference_signals", 0) == 0)
     critical_low = sum(
         1 for r in results
-        if r.get("risk_tier") == "critical" and r["scores"]["content_depth"] < 2
+        if r.get("risk_tier") == "critical"
+        and r.get("scores", {}).get("content_depth", 0) < 2
     )
     print(f"Perimeter: {RED}{short} short{RESET} (<100w) | "
-          f"{YELLOW}{thin} thin{RESET} (<4 substantive sections) | "
-          f"{YELLOW}{stale} stale{RESET} (>1yr) | "
-          f"{YELLOW}{broken} broken links{RESET}")
-    print(f"          {RED}{no_safe} no safeguards{RESET} | "
+          f"{RED}{no_safe} no safeguards{RESET} | "
           f"{YELLOW}{no_ref} no references{RESET}")
+    if has_v1_fields:
+        stale = sum(1 for r in results if r.get("days_since_modified", 0) > 365)
+        broken = sum(1 for r in results if r.get("broken_links", 0) > 0)
+        thin = sum(1 for r in results if r.get("substantive_sections", 0) < 4)
+        print(f"          {YELLOW}{thin} thin{RESET} (<4 substantive sections) | "
+              f"{YELLOW}{stale} stale{RESET} (>1yr) | "
+              f"{YELLOW}{broken} broken links{RESET}")
     if critical_low:
         print(f"  {RED}[!] {critical_low} critical-risk agents with insufficient content depth{RESET}")
 
@@ -208,6 +214,8 @@ def print_json_report(results, out_path=None):
             "file_size_kb": r.get("file_size_kb", 0),
             "issues": r.get("issues", []),
             "last_modified": r.get("last_modified"),
+            "v7_gate_passed": r.get("v7_gate_passed"),
+            "v7_gate_failures": r.get("v7_gate_failures", []),
         }
         output["agents"].append(agent_entry)
 

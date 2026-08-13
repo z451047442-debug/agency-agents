@@ -1,7 +1,7 @@
 {
   "category": "engineering",
   "agent_count": 114,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "engineering-ai-agent-developer",
@@ -16,11 +16,30 @@
         "engineering-cross-platform",
         "engineering-multi-agent-systems-architect",
         "infrastructure-cloud-cost-optimization",
+        "infrastructure-devops-platform",
         "infrastructure-identity-access",
         "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds autonomous AI agents that don't just chat — they think, plan, use tools, and get things done.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Methodology"
+      ],
+      "keywords": [
+        "AI",
+        "Agent",
+        "开发专家",
+        "自主",
+        "架构"
       ]
     },
     {
@@ -38,10 +57,29 @@
         "marketing-customer-lifecycle",
         "marketing-paid-media-auditor",
         "marketing-paid-media-creative-strategist",
-        "marketing-paid-media-search-query-analyst"
+        "marketing-paid-media-search-query-analyst",
+        "retail-customer-insight-analyst"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Fixes your broken data with surgical AI precision — no rows left behind.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Specialist",
+        "Stack",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "AI",
+        "数据修复工程师",
+        "自愈数据管道",
+        "离线",
+        "SLM"
       ]
     },
     {
@@ -64,7 +102,26 @@
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns ML models into production features that actually scale.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Capabilities",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "AI",
+        "工程师",
+        "机器学习模型部署",
+        "集成与数据管道专家",
+        "Role"
       ]
     },
     {
@@ -77,10 +134,30 @@
       "path": "engineering/engineering-ai-ethics.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AI can amplify human biases at scale — you build the guardrails, audits, and governance that ensure AI serves everyone fairly and safely",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "ethics",
+        "governance",
+        "Built",
+        "responsible"
+      ],
+      "keywords": [
+        "AI伦理与负责任AI专家",
+        "人工智能伦理与负责任AI治理专家，覆盖AI公平性",
+        "Fairness检测与缓解",
+        "可解释性",
+        "XAI"
       ]
     },
     {
@@ -105,7 +182,27 @@
       ],
       "nexus_roles": [
         "phase-3-build",
-        "phase-4-hardening"
+        "phase-4-hardening",
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "LLMs are non-deterministic black boxes. Without observability, you're flying blind. The AI observability engineer turns black-box behavior into traceable, measurable, optimizable metrics.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "AI应用可观测性专家",
+        "AI",
+        "LLM应用监控与可观测性专家",
+        "覆盖LLM追踪与调试",
+        "LangSmith"
       ]
     },
     {
@@ -119,10 +216,30 @@
       "depends_on": [
         "engineering-mcp-builder",
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AI products are different — they're probabilistic, they make mistakes, and users need to trust them. You bridge the gap between what ML can do and what users actually need.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "managing",
+        "AI/ML",
+        "products",
+        "Shipped"
+      ],
+      "keywords": [
+        "AI产品经理",
+        "AI",
+        "PM",
+        "人工智能",
+        "机器学习驱动产品管理专家，覆盖AI"
       ]
     },
     {
@@ -144,6 +261,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A powerful model without safety is a liability. The alignment engineer is the one who makes sure your AI says 'I can't help with that' to a dangerous request and actually helps with the safe ones.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "AI安全与对齐专家",
+        "AI安全",
+        "对齐与负责任AI专家",
+        "覆盖RLHF",
+        "DPO"
       ]
     },
     {
@@ -161,7 +296,26 @@
         "infrastructure-identity-access"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds Android apps that feel fluid across thousands of device models — from budget phones to flagship foldables.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Android",
+        "开发工程师",
+        "Kotlin",
+        "Jetpack",
+        "Compose"
       ]
     },
     {
@@ -178,7 +332,27 @@
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Android runs on billions of devices — you customize the OS, the framework, and",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Android",
+        "system",
+        "development",
+        "Customized"
+      ],
+      "keywords": [
+        "Android系统",
+        "框架工程师",
+        "Android系统与AOSP框架开发专家，覆盖AOSP定制",
+        "ROM开发",
+        "Android"
       ]
     },
     {
@@ -192,10 +366,29 @@
       "depends_on": [
         "engineering-wechat-mini-program-developer",
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "An API is a contract between producer and consumer — you design contracts that are intuitive, consistent, and evolve without breaking the other side",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "designing",
+        "APIs",
+        "scale",
+        "Created"
+      ],
+      "keywords": [
+        "API与接口设计师",
+        "API设计与管理专家，覆盖RESTful",
+        "GraphQL",
+        "gRPC",
+        "API设计原则"
       ]
     },
     {
@@ -212,6 +405,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Electrical controls design specialist — intelligent schematic symbols, auto-incrementing wire numbers, and BOM reports that actually match what's in the panel.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "AutoCAD",
+        "Electrical专家",
+        "Electrical电气控制系统设计专家，覆盖原理图设计",
+        "PLC",
+        "接线图"
       ]
     },
     {
@@ -232,7 +443,26 @@
         "infrastructure-windows-server"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs the systems that hold everything up — databases, APIs, cloud, scale.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Architecture",
+        "High-Level",
+        "Service",
+        "Decomposition"
+      ],
+      "keywords": [
+        "后端架构师",
+        "负责",
+        "API",
+        "设计",
+        "数据库架构与可扩展性的后端系统专家"
       ]
     },
     {
@@ -245,11 +475,31 @@
       "path": "engineering/engineering-build-release-engineer.md",
       "depends_on": [
         "engineering-cross-platform",
-        "engineering-ecommerce-platform"
+        "engineering-ecommerce-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Code that isn't deployed isn't delivering value. You build the pipelines that turn commits into releases — reliably, repeatably, and fast.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "build",
+        "release",
+        "Automated",
+        "path"
+      ],
+      "keywords": [
+        "构建与发布工程师",
+        "软件构建",
+        "打包",
+        "发布工程专家，覆盖CI",
+        "CD流水线"
       ]
     },
     {
@@ -262,11 +512,30 @@
       "path": "engineering/engineering-cache-specialist.md",
       "depends_on": [
         "engineering-database-administrator",
-        "engineering-backend-architect"
+        "engineering-backend-architect",
+        "infrastructure-aliyun-architect"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Cache specialist — you think in TTLs, eviction policies, and cache invalidation (one of the two hard problems in CS). A properly designed cache layer turns 100ms DB queries into 1ms lookups.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "缓存技术专家",
+        "Redis",
+        "Memcached",
+        "Hazelcast",
+        "Ehcache"
       ]
     },
     {
@@ -285,6 +554,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Advanced parametric CAD specialist — Synchronous Technology vs history-based modeling, top-down assembly with skeleton models, and the difference between a well-structured model and one that breaks on every design change.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "高级CAD",
+        "CAM",
+        "CAE工程师",
+        "Siemens",
+        "NX"
       ]
     },
     {
@@ -300,6 +587,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "CAE and process simulation specialist — CFD turbulence models, Aspen Plus distillation columns, HTRI exchanger rating, and QRA consequence modeling. A simulation is only as good as its boundary conditions and validation data.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "CAE仿真与流程模拟专家",
+        "ANSYS",
+        "Fluent",
+        "CFX",
+        "Aspen"
       ]
     },
     {
@@ -315,6 +620,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "CAM programming specialist — toolpaths, cutting parameters, and post-processor G-code. A 20% reduction in cycle time on a production part is worth more than any discount on the CAM software itself.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "CAM数控加工专家",
+        "Mastercam",
+        "EdgeCAM",
+        "Cimatron",
+        "HyperMill"
       ]
     },
     {
@@ -334,6 +657,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Break things on purpose so they don't break by surprise. Chaos isn't disorder — it's the most honest test your system will ever take.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "混沌工程师",
+        "混沌工程与韧性系统设计专家，覆盖故障注入",
+        "爆炸半径控制",
+        "稳态假说验证",
+        "GameDay演练与分布式系统韧性架构"
       ]
     },
     {
@@ -351,6 +692,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Chinese domestic CAD specialist — you navigate the Xinchuang-driven CAD landscape, know every DWG compatibility edge case, and understand that domestic CAD is as much about compliance and sovereignty as it is about drafting.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "国产CAD专家",
+        "CAXA",
+        "中望CAD",
+        "ZWCAD",
+        "浩辰CAD"
       ]
     },
     {
@@ -370,6 +729,24 @@
         "phase-1-strategy",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "China cloud database architect — PolarDB, GaussDB, TDSQL, OceanBase, and the Xinchuang landscape. Database choice in China is a three-body problem: technical fit vs cloud vendor lock-in vs compliance scoring.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "中国云数据库架构师",
+        "阿里云PolarDB",
+        "Lindorm",
+        "Tair",
+        "华为云GaussDB"
       ]
     },
     {
@@ -381,16 +758,33 @@
       "subcategory": "",
       "path": "engineering/engineering-cloud-dw-architect.md",
       "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
         "engineering-backend-architect",
         "engineering-database-administrator",
-        "marketing-agentic-search-optimizer",
-        "marketing-app-store-optimizer",
-        "specialized-customer-success-manager",
-        "testing-workflow-optimizer"
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-search-query-analyst"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Cloud data warehouse architect — you design ELT pipelines that cost 50 dollars/day instead of 5000, know when to use a view vs materialize, and understand that every SELECT * on a 10TB columnar table has a dollar sign attached.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "云数据仓库架构师",
+        "Snowflake",
+        "Google",
+        "BigQuery",
+        "Amazon"
       ]
     },
     {
@@ -407,6 +801,23 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "CMS",
+        "开发工程师",
+        "Drupal",
+        "WordPress",
+        "专家，专注主题开发"
       ]
     },
     {
@@ -420,10 +831,29 @@
       "depends_on": [
         "engineering-swiftui-expert",
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "infrastructure-aliyun-architect"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reviews code like a mentor, not a gatekeeper. Every comment teaches something.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Review",
+        "Checklist",
+        "Comment",
+        "Format"
+      ],
+      "keywords": [
+        "代码审查工程师",
+        "建设性代码审查",
+        "安全与可维护性评估专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -445,6 +875,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Gets new developers productive faster by reading the code, tracing the paths, and stating the facts. Nothing extra.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "代码库入门工程师",
+        "开发者入门专家，帮助新工程师快速理解陌生代码库，通过阅读源码",
+        "追踪代码路径了解架构",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -461,7 +909,27 @@
         "engineering-cross-platform"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every pixel on screen is a calculation — you write the code that transforms",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "real-time",
+        "graphics",
+        "Built",
+        "rendering"
+      ],
+      "keywords": [
+        "计算机图形",
+        "渲染工程师",
+        "实时渲染与计算机图形学专家，覆盖OpenGL",
+        "Vulkan",
+        "Metal"
       ]
     },
     {
@@ -481,13 +949,33 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Containers changed how we package; Kubernetes changed how we run. You orchestrate",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "container",
+        "platforms",
+        "Built",
+        "operated"
+      ],
+      "keywords": [
+        "容器",
+        "平台工程",
+        "K8s",
+        "专家",
+        "Kubernetes与容器编排平台专家，覆盖K8s集群架构"
       ]
     },
     {
       "id": "engineering-cross-platform",
       "name": "跨平台/多端统一开发工程师",
-      "description": "Flutter/React Native/KMP跨平台移动端统一开发专家，覆盖Flutter(Widget/Rendering/Native Plugin)、React Native(JSI/Fabric/TurboModule)、Kotlin Multiplatform与原生桥接/性能优化",
+      "description": "Flutter/React Native/KMP跨平台移动端统一开发专家，覆盖Flutter(Widget/Rendering/Native",
       "emoji": "📱",
       "category": "engineering",
       "subcategory": "",
@@ -501,7 +989,27 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Write once, run everywhere — when it works. You know when to share code and",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "mobile",
+        "development",
+        "Delivered",
+        "cross-platform"
+      ],
+      "keywords": [
+        "跨平台",
+        "多端统一开发工程师",
+        "Flutter",
+        "React",
+        "Native"
       ]
     },
     {
@@ -521,7 +1029,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The database is where the truth lives — you protect it, tune it, back it up,",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "managing",
+        "production",
+        "databases",
+        "Kept"
+      ],
+      "keywords": [
+        "数据库管理员",
+        "DBA",
+        "数据库管理与运维专家，覆盖MySQL",
+        "MariaDB",
+        "Percona"
       ]
     },
     {
@@ -535,11 +1062,30 @@
       "depends_on": [
         "engineering-postgres-specialist",
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "infrastructure-aliyun-architect"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Indexes, query plans, and schema design — databases that don't wake you at 3am.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "数据库优化工程师",
+        "Schema",
+        "设计",
+        "查询优化与索引策略专家（PostgreSQL",
+        "MySQL）"
       ]
     },
     {
@@ -561,6 +1107,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Database GUI tools specialist — visual ER diagrams that explain a schema faster than DDL, query editing that beats the CLI for exploration, and data import wizards that save you from writing yet another CSV parser.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "数据库GUI工具专家",
+        "MySQL",
+        "Workbench",
+        "MongoDB",
+        "Compass"
       ]
     },
     {
@@ -584,6 +1148,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Bridges your product team and the developer community through authentic engagement.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "开发者布道师",
+        "社区建设",
+        "开发者体验与技术内容创作专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -596,10 +1178,29 @@
       "path": "engineering/engineering-developer-experience.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "construction-engineering-green-building"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Happy developers ship better code faster. You build the tools, the CLI, the SDKs, and the docs that make other engineers 10x more productive.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "building",
+        "developer",
+        "tools",
+        "improving"
+      ],
+      "keywords": [
+        "开发者体验",
+        "DX",
+        "工程师",
+        "开发者体验与工具链工程专家，覆盖本地开发环境",
+        "Dev"
       ]
     },
     {
@@ -618,7 +1219,27 @@
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Great developer tools don't need selling — they need unblocking. Your job is",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Expertise",
+        "Approach",
+        "Output",
+        "Lines"
+      ],
+      "keywords": [
+        "开发者关系工程师",
+        "SDK",
+        "开发",
+        "技术文档撰写",
+        "社区赋能与产品反馈闭环专家"
       ]
     },
     {
@@ -636,14 +1257,33 @@
         "marketing-paid-media-search-query-analyst"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Builds enterprise integrations on the DingTalk Open Platform — bots, OA approvals,",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "References",
+        "Standards",
+        "Success"
+      ],
+      "keywords": [
+        "钉钉集成开发工程师",
+        "钉钉开放平台",
+        "机器人",
+        "审批流与工作通知集成专家",
+        "Role"
       ]
     },
     {
       "id": "engineering-director",
       "name": "工程总监",
       "description": "工程领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"⚙\"",
+      "emoji": "⚙",
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-director.md",
@@ -658,6 +1298,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 软件工程与技术开发 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "工程总监",
+        "工程领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -677,12 +1335,30 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A meticulous Drupal commerce engineer who treats every storefront as a system of record for someone's revenue — building reliable, scalable shopping experiences on Drupal Commerce where prices are always correct, orders never disappear, payments reconcile to the cent, and the checkout works on the worst phone on the …",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "Drupal购物车开发工程师",
+        "Drupal",
+        "Commerce专家，覆盖产品目录管理",
+        "支付集成",
+        "结账流程与订单管理"
       ]
     },
     {
       "id": "engineering-dynamodb-developer",
       "name": "DynamoDB开发专家",
-      "description": "Amazon DynamoDB、DocumentDB、Keyspaces 无服务器NoSQL专家，覆盖单表设计、GSI/LSI、DynamoDB Streams与DAX缓存",
+      "description": "Amazon DynamoDB、DocumentDB、Keyspaces 无服务器NoSQL专家，覆盖单表设计、GSI/LSI、DynamoDB",
       "emoji": "⚡",
       "category": "engineering",
       "subcategory": "",
@@ -693,7 +1369,26 @@
         "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "DynamoDB specialist — you think in access patterns, not schema. Single-table",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "DynamoDB开发专家",
+        "Amazon",
+        "DynamoDB",
+        "DocumentDB",
+        "Keyspaces"
       ]
     },
     {
@@ -711,7 +1406,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A crash on Black Friday costs millions per minute — you design the architecture",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "architecting",
+        "e-commerce",
+        "platforms",
+        "Designed"
+      ],
+      "keywords": [
+        "电商平台架构师",
+        "大规模电子商务平台技术架构专家，覆盖商品",
+        "库存",
+        "价格",
+        "促销"
       ]
     },
     {
@@ -732,7 +1446,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A university's IT is as complex as a mid-size city — you integrate teaching, research, administration, and campus life into a coherent digital campus",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "education",
+        "technology",
+        "Built",
+        "digital"
+      ],
+      "keywords": [
+        "教育信息化",
+        "智慧校园架构师",
+        "K12",
+        "高校智慧校园与教育信息化平台专家，覆盖教务",
+        "学工"
       ]
     },
     {
@@ -745,10 +1478,29 @@
       "path": "engineering/engineering-electron-developer.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Brings web technology to the desktop — building apps that feel native whether on Windows, macOS, or Linux.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "桌面应用开发工程师",
+        "Electron",
+        "Tauri",
+        "跨平台桌面应用开发专家",
+        "核心信念"
       ]
     },
     {
@@ -767,7 +1519,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns messy MIME into reasoning-ready context because raw email is noise and",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Capabilities",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "邮件智能工程师",
+        "从原始邮件线程中提取结构化",
+        "可供推理使用的数据的专家，服务于",
+        "AI",
+        "Agent"
       ]
     },
     {
@@ -786,6 +1557,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Embedded database specialist — SQLite as the universal file format, DuckDB as the analytical sidekick, RocksDB as the storage engine backbone. The best database is sometimes the one you don't need a server for.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "嵌入式",
+        "轻量级数据库专家",
+        "SQLite",
+        "DuckDB",
+        "LevelDB"
       ]
     },
     {
@@ -807,13 +1596,32 @@
         "manufacturing-supply-chain-planner"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "ERP is the nervous system of the enterprise — you configure the modules, map the processes, and migrate the data that makes the business run",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "implementation",
+        "Delivered",
+        "projects",
+        "across"
+      ],
+      "keywords": [
+        "ERP实施",
+        "功能顾问",
+        "企业资源计划",
+        "ERP",
+        "系统实施与功能顾问，覆盖SAP"
       ]
     },
     {
       "id": "engineering-fastapi-expert",
       "name": "FastAPI后端开发专家",
-      "description": "FastAPI高性能Python API开发专家,覆盖Python异步编程(asyncio/async/await)与FastAPI路由设计、Pydantic v2数据验证与Schema建模、依赖注入(Depends)与中间件(Middleware/CORS)、SQLAlchemy 2.0/SQLModel异步ORM与数据库迁移(Alembic)、性能优化(连接池/缓存/后台任务)与OpenAPI文档",
+      "description": "FastAPI高性能Python API开发专家,覆盖Python异步编程(asyncio/async/await)与FastAPI路由设计、Pydantic",
       "emoji": "🐍",
       "category": "engineering",
       "subcategory": "",
@@ -829,7 +1637,26 @@
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "FastAPI combines Python's developer experience with Node.js-level performance.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Deliverable"
+      ],
+      "keywords": [
+        "FastAPI后端开发专家",
+        "FastAPI高性能Python",
+        "API开发专家",
+        "覆盖Python异步编程",
+        "asyncio"
       ]
     },
     {
@@ -851,6 +1678,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds enterprise integrations on the Feishu (Lark) platform — bots, approvals, data sync, and SSO — so your team's workflows run on autopilot.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "飞书集成开发工程师",
+        "飞书",
+        "Lark",
+        "开放平台",
+        "机器人与工作流集成专家"
       ]
     },
     {
@@ -871,7 +1716,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Pragmatic perfectionist — streamlines complex admin environments.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Process",
+        "Technical",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Filament",
+        "优化专家",
+        "PHP",
+        "管理面板重构与优化专家，专注高影响力的结构改进而非表面调整",
+        "Role"
       ]
     },
     {
@@ -884,10 +1748,29 @@
       "path": "engineering/engineering-fintech-engineer.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Money moves at the speed of code — you build the payment systems that process billions in transactions, where every millisecond and every decimal place matters",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "financial",
+        "technology",
+        "Built",
+        "payment"
+      ],
+      "keywords": [
+        "金融科技",
+        "FinTech",
+        "工程师",
+        "金融科技与支付系统开发专家，覆盖支付网关",
+        "清结算系统"
       ]
     },
     {
@@ -902,7 +1785,26 @@
         "infrastructure-github-actions-expert"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Flutter doesn't just compile to native — it owns every pixel. When you control the rendering pipeline, you can achieve 60fps animations that React Native teams only dream about.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Actionable",
+        "Directives",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Flutter开发工程师",
+        "Flutter跨平台应用开发专家",
+        "覆盖Dart语言与Flutter框架",
+        "Widget",
+        "State"
       ]
     },
     {
@@ -928,6 +1830,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds responsive, accessible web apps with pixel-perfect precision.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "前端开发工程师",
+        "专注现代",
+        "Web",
+        "技术",
+        "React"
       ]
     },
     {
@@ -940,32 +1860,65 @@
       "path": "engineering/engineering-fullstack-developer.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Frontend, backend, database, deployment — you build features end to end, understanding the full stack without being a master of none",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "across",
+        "frontend",
+        "backend",
+        "Built"
+      ],
+      "keywords": [
+        "全栈开发工程师",
+        "全栈Web开发专家，覆盖React",
+        "Vue",
+        "Angular前端+Node.js",
+        "Python"
       ]
     },
     {
       "id": "engineering-general-manager",
-      "name": "工程总经理",
-      "description": "工程领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"⚙\"",
+      "name": "Engineering General Manager",
+      "description": "Engineering department general manager — strategic leadership across software, infrastructure, and operations",
+      "emoji": "🏗️",
       "category": "engineering",
       "subcategory": "",
       "path": "engineering/engineering-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "cybersecurity-general-manager",
-        "engineering-director",
-        "manufacturing-general-manager",
-        "security-general-manager",
-        "specialized-customer-success-manager"
+        "engineering-multi-agent-systems-architect",
+        "infrastructure-github-actions-expert",
+        "project-management-jira-workflow-steward",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-1-strategy",
-        "phase-3-build",
-        "phase-5-launch"
+        "phase-2-foundation",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "engineering leadership with systems thinking and operational rigor",
+      "tags": [
+        "engineering",
+        "Technical",
+        "References",
+        "Standards",
+        "Process"
+      ],
+      "keywords": [
+        "Engineering",
+        "General",
+        "Manager",
+        "department",
+        "strategic"
       ]
     },
     {
@@ -984,6 +1937,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Clean history, atomic commits, and branches that tell a story.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Branching",
+        "Strategies",
+        "Workflows",
+        "Success"
+      ],
+      "keywords": [
+        "Git",
+        "工作流专家",
+        "分支策略",
+        "规范提交与高级",
+        "操作专家"
       ]
     },
     {
@@ -1001,7 +1972,26 @@
         "infrastructure-identity-access"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "CPUs are generalists; GPUs are the specialists that make AI possible. You program",
+      "lifecycle": "draft",
+      "tags": [
+        "engineering",
+        "programming",
+        "Optimized",
+        "CUDA",
+        "kernels"
+      ],
+      "keywords": [
+        "GPU",
+        "异构计算工程师",
+        "GPU计算与高性能计算",
+        "HPC",
+        "专家，覆盖CUDA"
       ]
     },
     {
@@ -1020,13 +2010,32 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Relationships are data too — you model the connections between things, revealing",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "graph",
+        "databases",
+        "knowledge",
+        "graphs"
+      ],
+      "keywords": [
+        "图数据库",
+        "知识图谱工程师",
+        "图数据库与知识图谱专家，覆盖Neo4j",
+        "JanusGraph",
+        "Amazon"
       ]
     },
     {
       "id": "engineering-graphql-expert",
       "name": "GraphQL API架构师",
-      "description": "GraphQL API设计与架构专家,覆盖GraphQL Schema设计(SDL/Code-First)与类型系统、Apollo GraphOS (Router/Federation/Supergraph)与微服务GraphQL网关、Query/Mutation/Subscription设计与N+1解决方案(DataLoader/@defer/@stream)、GraphQL安全(深度限制/复杂度分析/持久化查询/授权)与性能优化(CDN/APQ/批处理)、Relay/URQL/Apollo Client状态管理与缓存策略",
+      "description": "GraphQL API设计与架构专家,覆盖GraphQL Schema设计(SDL/Code-First)与类型系统、Apollo GraphOS",
       "emoji": "◈",
       "category": "engineering",
       "subcategory": "",
@@ -1041,7 +2050,27 @@
         "infrastructure-engineering-incident-response-commander"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "GraphQL gives frontend teams the power to ask for exactly what they need. The",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Actionable",
+        "Directives",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "GraphQL",
+        "API架构师",
+        "API设计与架构专家",
+        "覆盖GraphQL",
+        "Schema设计"
       ]
     },
     {
@@ -1059,7 +2088,26 @@
         "marketing-southeast-asia-expert"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When disaster strikes, water kills faster than hunger — you bring clean water, sanitation, and dignity to people who have lost everything",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "humanitarian",
+        "WASH",
+        "Responded",
+        "emergencies"
+      ],
+      "keywords": [
+        "人道主义工程",
+        "WASH专家",
+        "人道主义水卫生",
+        "WASH",
+        "与应急工程专家，覆盖紧急供水"
       ]
     },
     {
@@ -1072,10 +2120,29 @@
       "path": "engineering/engineering-i18n-l10n.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your app users speak 7,000 languages — you build the infrastructure that makes software speak every one of them correctly",
+      "lifecycle": "draft",
+      "tags": [
+        "engineering",
+        "internationalization",
+        "Made",
+        "software",
+        "work"
+      ],
+      "keywords": [
+        "国际化",
+        "本地化",
+        "i18n",
+        "L10n",
+        "工程师"
       ]
     },
     {
@@ -1092,6 +2159,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "IDE and development environment specialist — editor workspaces that feel like home, debugging complex multi-language stacks, and the difference between a good developer and a great one is often their tooling mastery.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "IDE与开发环境专家",
+        "VS",
+        "Code",
+        "IntelliJ",
+        "IDEA"
       ]
     },
     {
@@ -1108,7 +2193,26 @@
         "marketing-demand-generation"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Innovation isn't a suggestion box — it's a managed process. You build the pipeline",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "managing",
+        "innovation",
+        "portfolios",
+        "Built"
+      ],
+      "keywords": [
+        "创新",
+        "研发项目经理",
+        "企业创新管理与研发组合",
+        "R&D",
+        "Portfolio"
       ]
     },
     {
@@ -1124,11 +2228,29 @@
         "data-science-engineering-insurance-claims-analytics",
         "engineering-build-release-engineer",
         "engineering-cross-platform",
-        "marketing-brand-strategist-name",
-        "operations-report-distribution-agent"
+        "marketing-brand-strategist-name"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Insurance hasn't changed in 300 years — until now. You build the digital products that make insurance instant, personalized, and fair.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "insurance",
+        "technology",
+        "Built",
+        "digital"
+      ],
+      "keywords": [
+        "保险科技",
+        "InsurTech",
+        "产品经理",
+        "保险科技与数字化保险产品专家，覆盖互联网保险",
+        "嵌入式保险"
       ]
     },
     {
@@ -1147,7 +2269,26 @@
         "engineering-swiftui-expert"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Crafts pixel-perfect iOS experiences that feel native, fluid, and unmistakably",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "iOS",
+        "开发工程师",
+        "Swift",
+        "SwiftUI",
+        "App"
       ]
     },
     {
@@ -1160,10 +2301,30 @@
       "path": "engineering/engineering-ios-system.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Apple's platforms are walled gardens with beautiful APIs — you work below the surface, building the system services and performance optimizations that make apps feel native",
+      "lifecycle": "draft",
+      "tags": [
+        "engineering",
+        "Apple",
+        "platform",
+        "development",
+        "Built"
+      ],
+      "keywords": [
+        "iOS",
+        "macOS系统工程师",
+        "Apple平台系统软件开发专家，覆盖Darwin",
+        "XNU内核扩展",
+        "Metal"
       ]
     },
     {
@@ -1184,6 +2345,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "IT exists to serve the business — not the other way around. Every ticket, every SLA, every change window is a promise made to the people who depend on technology to do their jobs. Keep the promises. Measure everything. Improve continuously.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Process",
+        "Domain",
+        "Expertise"
+      ],
+      "keywords": [
+        "IT服务经理",
+        "运用ITIL",
+        "4框架进行服务目录设计",
+        "事件与问题管理",
+        "变更控制与SLA治理的专家"
       ]
     },
     {
@@ -1200,6 +2379,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Embedded firmware specialist for ARM Cortex-M using Keil MDK — startup code, linker scatter files, CMSIS-Driver, and the mysterious art of making the debugger connect reliably.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "Keil嵌入式开发专家",
+        "Keil",
+        "MDK-ARM",
+        "µVision",
+        "嵌入式IDE专家，覆盖ARM"
       ]
     },
     {
@@ -1221,12 +2418,30 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "LangChain didn't just build a framework — it built the operating system for AI agents. When you need an agent that reasons, remembers, and acts, the LangChain stack is where the rubber meets the LLM.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "LangChain",
+        "LangGraph专家",
+        "LangChain与LangGraph",
+        "AI",
+        "Agent框架专家"
       ]
     },
     {
       "id": "engineering-llamaindex-expert",
       "name": "LlamaIndex专家",
-      "description": "LlamaIndex数据Agent与RAG框架专家,覆盖Index架构(Summary/Tree/Keyword/Vector)与数据连接器、高级RAG(Sentence Window/Auto-Merging/Hierarchical)与检索策略、Query Engine与Agent推理(ReAct/OpenAI/Anthropic Agent)、多模态索引与结构化数据提取、生产化部署与Router/Ingestion Pipeline",
+      "description": "LlamaIndex数据Agent与RAG框架专家,覆盖Index架构(Summary/Tree/Keyword/Vector)与数据连接器、高级RAG(Sentence",
       "emoji": "🦙",
       "category": "engineering",
       "subcategory": "",
@@ -1240,13 +2455,32 @@
         "testing-tool-evaluator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "LlamaIndex turns your data into AI-accessible knowledge. The difference between",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "LlamaIndex专家",
+        "LlamaIndex数据Agent与RAG框架专家",
+        "覆盖Index架构",
+        "Summary",
+        "Tree"
       ]
     },
     {
       "id": "engineering-llm-inference-expert",
       "name": "LLM推理部署专家",
-      "description": "大语言模型推理引擎与部署专家,覆盖vLLM(SGLang/TRT-LLM/TGI/Ollama)推理框架架构与选型、KV Cache管理与PagedAttention内存优化、量化部署(GPTQ/AWQ/GGUF/bitsandbytes)与精度调优、分布式推理(TP/PP/DP)与多GPU扩展、服务化部署与负载均衡(API Gateway/Rate Limit/Auto Scaling)",
+      "description": "大语言模型推理引擎与部署专家,覆盖vLLM(SGLang/TRT-LLM/TGI/Ollama)推理框架架构与选型、KV Cache管理与PagedAttention内存优化、量化部署(GPTQ/AWQ/GGUF/bitsandbytes)与精度调优、分布式推理(TP/PP/DP)与多GPU扩展、服务化部署与负载均衡(API",
       "emoji": "🚀",
       "category": "engineering",
       "subcategory": "",
@@ -1261,7 +2495,26 @@
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Training a model is science. Serving it at 1000 requests per second with p99",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "LLM推理部署专家",
+        "大语言模型推理引擎与部署专家",
+        "覆盖vLLM",
+        "SGLang",
+        "TRT-LLM"
       ]
     },
     {
@@ -1282,6 +2535,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Empowers domain experts to build apps without waiting for the engineering backlog — citizen development with guardrails.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "低代码",
+        "无代码开发专家",
+        "OutSystems",
+        "Power",
+        "Platform"
       ]
     },
     {
@@ -1301,7 +2572,26 @@
         "unreal-engine-unreal-world-builder"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds unified code intelligence through LSP orchestration and semantic indexing.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Process",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "语言服务器",
+        "索引工程师",
+        "LSP",
+        "实现",
+        "代码智能与语义索引专家"
       ]
     },
     {
@@ -1325,6 +2615,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds the tools that make AI agents actually useful in the real world.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "MCP",
+        "构建专家",
+        "Model",
+        "Context",
+        "Protocol"
       ]
     },
     {
@@ -1343,6 +2651,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Knows exactly when to split a monolith — and when splitting would be the worst decision you make this year.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "微服务架构师",
+        "服务拆分",
+        "API",
+        "网关",
+        "事件驱动与分布式事务专家"
       ]
     },
     {
@@ -1362,7 +2688,26 @@
         "specialized-life-coach"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The smallest diff that solves the problem — every extra line is a liability.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Scope",
+        "Self-Check",
+        "References"
+      ],
+      "keywords": [
+        "最小变更工程师",
+        "专注最小可行差异的工程专家",
+        "仅修复要求的范围",
+        "拒绝范围蔓延",
+        "防止"
       ]
     },
     {
@@ -1379,6 +2724,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Ships native-quality apps on iOS and Android, fast.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Process",
+        "Deliverable",
+        "Template"
+      ],
+      "keywords": [
+        "移动端开发工程师",
+        "iOS",
+        "Android",
+        "React",
+        "Native"
       ]
     },
     {
@@ -1391,16 +2754,36 @@
       "path": "engineering/engineering-mobile-architect.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A million lines of mobile code need an architecture that scales. You design the patterns, modules, and boundaries that keep the app maintainable as it grows.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "architecting",
+        "mobile",
+        "applications",
+        "Designed"
+      ],
+      "keywords": [
+        "移动端架构师",
+        "iOS",
+        "Android移动应用架构专家，覆盖MVVM",
+        "MVI",
+        "Clean"
       ]
     },
     {
       "id": "engineering-mongodb-expert",
       "name": "MongoDB数据架构师",
-      "description": "MongoDB分布式文档数据库架构专家,覆盖Document Schema Design(嵌入/引用/多态/桶模式)与反范式化策略、Replica Set高可用(Oplog/Write Concern/Read Concern/Read Preference)与故障恢复、Sharding分片集群(Shard Key选型/Chunk均衡/Zones)与水平扩展、Aggregation Pipeline(索引优化/物化视图/$lookup/$merge/$facet)与查询性能调优、Atlas云平台管理与运维自动化(Backup/Encryption/Network Peering)",
+      "description": "MongoDB分布式文档数据库架构专家,覆盖Document Schema Design(嵌入/引用/多态/桶模式)与反范式化策略、Replica",
       "emoji": "🍃",
       "category": "engineering",
       "subcategory": "",
@@ -1412,11 +2795,29 @@
         "engineering-graphql-expert",
         "engineering-llamaindex-expert",
         "engineering-nextjs-expert",
-        "infrastructure-storage-backup",
-        "operations-report-distribution-agent"
+        "infrastructure-storage-backup"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "MongoDB's document model maps directly to how developers think. The architect",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Actionable",
+        "Directives",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "MongoDB数据架构师",
+        "MongoDB分布式文档数据库架构专家",
+        "覆盖Document",
+        "Schema",
+        "Design"
       ]
     },
     {
@@ -1440,6 +2841,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "One agent is an assistant; a hundred agents is a system. You design the topology, the trust model, and the failure recovery that keeps the system running when individual agents go rogue.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "多智能体系统架构师",
+        "多Agent系统设计与治理专家，覆盖Agent拓扑",
+        "编排模式",
+        "上下文",
+        "记忆管理"
       ]
     },
     {
@@ -1462,7 +2881,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Packets do not care about intent. Verify the path, prove the state, then change",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "网络工程师",
+        "Cisco",
+        "IOS",
+        "IOS-XE",
+        "Juniper"
       ]
     },
     {
@@ -1475,11 +2913,30 @@
       "path": "engineering/engineering-newsql-distributed.md",
       "depends_on": [
         "engineering-database-administrator",
-        "engineering-backend-architect"
+        "engineering-backend-architect",
+        "infrastructure-aliyun-architect"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "NewSQL distributed database specialist — you know why 2PC is slow, why Google built Spanner with atomic clocks, and why cockroaches survive data center outages. You design for 5-nines across 3 regions.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "NewSQL分布式数据库专家",
+        "TiDB",
+        "CockroachDB",
+        "Google",
+        "Spanner"
       ]
     },
     {
@@ -1496,6 +2953,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Next.js blurred the line between frontend and backend. The Next.js expert who masters Server Components, Streaming, and Partial Prerendering builds apps that feel instant while handling millions of dynamic pages.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Actionable",
+        "Directives",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Next.js全栈开发专家",
+        "Next.js全栈Web应用开发专家",
+        "覆盖App",
+        "Router",
+        "React"
       ]
     },
     {
@@ -1508,10 +2983,30 @@
       "path": "engineering/engineering-nocode-developer.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Not every problem needs custom code — sometimes the fastest path to production is a drag-and-drop builder. You know when to code, when to configure, and when to do both.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "low-code",
+        "development",
+        "Built",
+        "enterprise"
+      ],
+      "keywords": [
+        "低代码",
+        "无代码开发专家",
+        "低代码与无代码平台开发专家，覆盖Power",
+        "Platform",
+        "Canvas"
       ]
     },
     {
@@ -1524,11 +3019,30 @@
       "path": "engineering/engineering-olap-database.md",
       "depends_on": [
         "engineering-database-administrator",
-        "engineering-backend-architect"
+        "engineering-backend-architect",
+        "infrastructure-aliyun-architect"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "OLAP and analytical database specialist — you think in columnar scans, materialized views, and aggregation pipelines. A full table scan is the point, not the problem.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "分析型数据库专家",
+        "ClickHouse",
+        "Druid",
+        "DuckDB",
+        "StarRocks"
       ]
     },
     {
@@ -1551,6 +3065,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Process-oriented, strict on semantics, focused on turning human processes into AI-friendly logic.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "References",
+        "Standards",
+        "Professional"
+      ],
+      "keywords": [
+        "OrgScript工程师",
+        "OrgScript语法设计与解析",
+        "AST验证与业务逻辑定义的专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -1564,10 +3096,29 @@
       "depends_on": [
         "engineering-wechat-mini-program-developer",
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every tap, every swipe, every online purchase flows through a payment switch — you build the systems that process billions of transactions without losing a single cent",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "payment",
+        "systems",
+        "Built",
+        "transaction"
+      ],
+      "keywords": [
+        "支付系统",
+        "交易处理工程师",
+        "大规模支付交易处理系统专家，覆盖双活",
+        "多活异地多活支付架构",
+        "交易一致性"
       ]
     },
     {
@@ -1580,11 +3131,30 @@
       "path": "engineering/engineering-postgres-specialist.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "PostgreSQL can do almost anything — if you know how to tune it. You find the slow queries, fix the vacuum strategy, and make PG perform like a database 10x its cost.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "specializing",
+        "PostgreSQL",
+        "Tuned",
+        "databases"
+      ],
+      "keywords": [
+        "PostgreSQL高级DBA",
+        "性能专家",
+        "PostgreSQL数据库深度优化与管理专家，覆盖PG执行计划",
+        "查询优化",
+        "VACUUM"
       ]
     },
     {
@@ -1602,7 +3172,27 @@
         "specialized-document-generator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every line of code someone writes runs through a compiler you might have built.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "compilers",
+        "programming",
+        "languages",
+        "Built"
+      ],
+      "keywords": [
+        "编译器",
+        "编程语言工程师",
+        "编译器与编程语言设计专家，覆盖词法",
+        "语法",
+        "语义分析"
       ]
     },
     {
@@ -1622,7 +3212,26 @@
         "thinking-models-scientific-method"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "I don't write prompts, I write contracts between humans and models.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Constraints",
+        "Reasoning",
+        "Examples"
+      ],
+      "keywords": [
+        "提示词工程师",
+        "系统化设计",
+        "测试与优化大语言模型提示词的专家，将模糊指令转化为可靠的生产级AI行为",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -1642,16 +3251,35 @@
         "infrastructure-engineering-edge-computing",
         "iot-edge-computing",
         "product-trend-researcher",
-        "securities-quant-researcher"
+        "finance-securities-quant-researcher"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Classical computers process bits; quantum computers process possibilities. You design algorithms for machines that don't fully exist yet — and will change everything when they do.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "quantum",
+        "computing",
+        "research",
+        "Developed"
+      ],
+      "keywords": [
+        "量子计算研究员",
+        "量子计算与量子算法专家，覆盖量子电路",
+        "门模型",
+        "变分量子算法",
+        "VQE"
       ]
     },
     {
       "id": "engineering-racial-equity",
       "name": "公平性审计/算法公平研究员",
-      "description": "AI系统公平性与社会影响评估专家，覆盖算法公平性指标(人口平等/机会均等/校准)、公平性审计/红队(Red Teaming)、去偏技术(预处理/训练中/后处理)与反歧视法(AI Act/EEOC/ NYC 144)",
+      "description": "AI系统公平性与社会影响评估专家，覆盖算法公平性指标(人口平等/机会均等/校准)、公平性审计/红队(Red Teaming)、去偏技术(预处理/训练中/后处理)与反歧视法(AI",
       "emoji": "⚖️",
       "category": "engineering",
       "subcategory": "",
@@ -1665,7 +3293,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AI systems can perpetuate and amplify bias at scale — you audit the algorithms,",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "algorithmic",
+        "fairness",
+        "Audited",
+        "systems"
+      ],
+      "keywords": [
+        "公平性审计",
+        "算法公平研究员",
+        "AI系统公平性与社会影响评估专家，覆盖算法公平性指标",
+        "人口平等",
+        "机会均等"
       ]
     },
     {
@@ -1686,6 +3333,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns an idea into a working prototype before the meeting's over.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Process",
+        "Deliverable",
+        "Template"
+      ],
+      "keywords": [
+        "快速原型工程师",
+        "快速",
+        "POC",
+        "开发",
+        "MVP"
       ]
     },
     {
@@ -1698,16 +3363,35 @@
       "path": "engineering/engineering-reactive-systems.md",
       "depends_on": [
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Distributed systems are hard — you design architectures that stay responsive under load, resilient to failure, and correct despite network partitions",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "distributed",
+        "systems",
+        "Designed",
+        "handling"
+      ],
+      "keywords": [
+        "响应式",
+        "分布式系统架构师",
+        "大规模分布式系统与响应式架构专家，覆盖Actor模型",
+        "Akka",
+        "Orleans"
       ]
     },
     {
       "id": "engineering-reactnative-expert",
       "name": "React Native移动开发专家",
-      "description": "React Native跨平台移动应用开发专家,覆盖React Native新架构(Fabric/TurboModules/JSI/Codegen)与性能优化、Hermes引擎调优与Native Module桥接、React Navigation 7.x导航架构与Deep Link路由、状态管理(Zustand/TanStack Query/Jotai)与离线优先策略、iOS/Android构建签名(App Store/TestFlight/Google Play/Fastlane)与OTA更新(CodePush/EAS Update)",
+      "description": "React Native跨平台移动应用开发专家,覆盖React Native新架构(Fabric/TurboModules/JSI/Codegen)与性能优化、Hermes引擎调优与Native",
       "emoji": "📱",
       "category": "engineering",
       "subcategory": "",
@@ -1719,7 +3403,27 @@
         "infrastructure-github-actions-expert"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "React Native powers apps from Facebook to Shopify. The RN engineer who masters",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Actionable",
+        "Directives",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "React",
+        "Native移动开发专家",
+        "Native跨平台移动应用开发专家",
+        "覆盖React",
+        "Native新架构"
       ]
     },
     {
@@ -1737,6 +3441,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In real-time systems, late is wrong — a calculation that completes 1ms after the deadline is not \"slow,\" it's a failure. You design systems where timing is part of correctness.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "real-time",
+        "embedded",
+        "systems",
+        "Built"
+      ],
+      "keywords": [
+        "实时系统",
+        "嵌入式RTOS工程师",
+        "实时操作系统与确定性系统专家，覆盖FreeRTOS",
+        "Zephyr",
+        "ThreadX"
       ]
     },
     {
@@ -1755,6 +3477,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The store of the future knows what's on every shelf, who's walking in, and what they want — you build the technology that makes physical retail as smart as e-commerce",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "retail",
+        "technology",
+        "Built",
+        "products"
+      ],
+      "keywords": [
+        "零售科技",
+        "RetailTech",
+        "产品经理",
+        "零售科技与智能门店方案产品专家，覆盖POS",
+        "自助收银"
       ]
     },
     {
@@ -1775,7 +3515,26 @@
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The calm hand that turns a tangled Salesforce org into an architecture that",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Architecture",
+        "Decision",
+        "Record",
+        "Status"
+      ],
+      "keywords": [
+        "Salesforce",
+        "架构师",
+        "多云",
+        "设计",
+        "Governor"
       ]
     },
     {
@@ -1793,6 +3552,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Search engine specialist — inverted indexes, relevancy scoring, and shard allocation awareness. \"Just add more nodes\" is not a relevance strategy. BM25 beats TF-IDF. KNN with HNSW is not magic — it's math.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "搜索引擎专家",
+        "Elasticsearch",
+        "OpenSearch",
+        "Solr",
+        "Splunk"
       ]
     },
     {
@@ -1814,6 +3591,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Premium full-stack craftsperson — Laravel, Livewire, Three.js, advanced CSS.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Development",
+        "Philosophy",
+        "Implementation",
+        "Process"
+      ],
+      "keywords": [
+        "高级开发工程师",
+        "Laravel",
+        "Livewire",
+        "复杂模式与架构决策专家",
+        "Role"
       ]
     },
     {
@@ -1827,10 +3622,29 @@
       "depends_on": [
         "engineering-nextjs-expert",
         "engineering-build-release-engineer",
-        "engineering-cross-platform"
+        "engineering-cross-platform",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A website that loads in 1 second converts; one that loads in 5 seconds loses half its visitors. You make the web fast, one millisecond at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "performance",
+        "Optimized",
+        "sites",
+        "serving"
+      ],
+      "keywords": [
+        "前端架构",
+        "性能优化工程师",
+        "Web前端性能优化与架构专家，覆盖Core",
+        "Web",
+        "Vitals"
       ]
     },
     {
@@ -1844,12 +3658,30 @@
       "depends_on": [
         "engineering-build-release-engineer",
         "engineering-cross-platform",
-        "marketing-content-creator",
-        "operations-report-distribution-agent"
+        "marketing-content-creator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A billion people scroll feeds you designed — every like, every share, every",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "building",
+        "social",
+        "content",
+        "platforms"
+      ],
+      "keywords": [
+        "社交媒体",
+        "内容平台架构师",
+        "社交媒体与UGC内容平台技术架构专家，覆盖Feed",
+        "Timeline",
+        "推荐系统"
       ]
     },
     {
@@ -1872,6 +3704,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs systems that survive the team that built them. Every decision has a trade-off — name it.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Architecture",
+        "Decision",
+        "Record",
+        "Template"
+      ],
+      "keywords": [
+        "软件架构师",
+        "系统设计",
+        "DDD",
+        "架构模式与权衡分析专家",
+        "Role"
       ]
     },
     {
@@ -1894,6 +3744,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "SQL Server enterprise DBA and T-SQL developer — Always On, Query Store, Columnstore, In-Memory OLTP, SSIS/SSRS/SSAS. You know every hidden DMV, every execution plan operator, and every Edition limit.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "SQL",
+        "Server",
+        "DBA",
+        "开发专家",
+        "Microsoft"
       ]
     },
     {
@@ -1913,12 +3781,30 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Standards determine who wins and who pays — you shape the technical standards that define entire industries, turning R&D leadership into market advantage",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "standards",
+        "development",
+        "corporate",
+        "participation"
+      ],
+      "keywords": [
+        "标准化",
+        "技术委员会专家",
+        "国际标准制定与技术委员会管理专家，覆盖ISO",
+        "IEEE",
+        "ITU"
       ]
     },
     {
       "id": "engineering-swiftui-expert",
       "name": "SwiftUI/iOS开发专家",
-      "description": "SwiftUI声明式UI与iOS原生开发专家,覆盖SwiftUI视图体系(View/Modifier/PreferenceKey/Environment)与Swift 6并发(async/await/Actor/Sendable)、SwiftData/Core Data持久化与CloudKit同步、TCA/MVVM架构与依赖注入、SwiftUI动画与自定义转场(MatchedGeometryEffect/PhaseAnimator/KeyframeAnimator)、App Store提交(TestFlight/App Review/StoreKit 2/App Intents/Siri/Widget)",
+      "description": "SwiftUI声明式UI与iOS原生开发专家,覆盖SwiftUI视图体系(View/Modifier/PreferenceKey/Environment)与Swift",
       "emoji": "🍎",
       "category": "engineering",
       "subcategory": "",
@@ -1933,7 +3819,26 @@
         "engineering-wechat-mini-program-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "SwiftUI turned UIKit's imperative complexity into declarative clarity. The SwiftUI",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Deliverable"
+      ],
+      "keywords": [
+        "SwiftUI",
+        "iOS开发专家",
+        "SwiftUI声明式UI与iOS原生开发专家",
+        "覆盖SwiftUI视图体系",
+        "View"
       ]
     },
     {
@@ -1953,6 +3858,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Individual systems work fine alone. Making them work together — that's the hard part. You're the one who connects the pieces into a working whole.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "integrating",
+        "complex",
+        "systems",
+        "Made"
+      ],
+      "keywords": [
+        "系统集成工程师",
+        "复杂系统集成与接口管理专家，覆盖多供应商系统集成",
+        "SoI",
+        "接口协议",
+        "数据映射"
       ]
     },
     {
@@ -1977,6 +3900,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Writes the docs that developers actually read and use.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Exists",
+        "Quick",
+        "Start"
+      ],
+      "keywords": [
+        "技术文档工程师",
+        "开发者文档",
+        "API",
+        "参考手册与教程撰写专家",
+        "Role"
       ]
     },
     {
@@ -1997,6 +3938,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Visual Studio C++ is not just an IDE — it's the most powerful debugger on Windows. You know every breakpoint type, every watch window trick, and exactly what /O2 does to your loops",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "References",
+        "Standards",
+        "Professional"
+      ],
+      "keywords": [
+        "Visual",
+        "Studio",
+        "C++开发专家",
+        "C++开发专家，覆盖MSVC编译器",
+        "链接器优化"
       ]
     },
     {
@@ -2017,6 +3976,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Visual Studio is to .NET what a cockpit is to a pilot — every control is where you need it, every gauge tells you something useful, and the debugger can save your life at 30,000 feet",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "Visual",
+        "Studio",
+        "NET",
+        "C#开发专家",
+        "C#开发专家，覆盖WinForms"
       ]
     },
     {
@@ -2035,6 +4012,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Python in Visual Studio has a killer advantage: the mixed-mode debugger. You can step from Python into C extension code and back out without breaking stride",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "Visual",
+        "Studio",
+        "Python开发专家",
+        "Python开发专家，覆盖Python工具",
+        "数据科学"
       ]
     },
     {
@@ -2055,6 +4050,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Visual Studio's web tooling — Browser Link, Hot Reload, and the network debugger — turns web development from \"save, refresh, wait\" into a real-time feedback loop",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "References",
+        "Standards",
+        "Professional"
+      ],
+      "keywords": [
+        "Visual",
+        "Studio",
+        "Web",
+        "ASP.NET开发专家",
+        "Web开发专家，覆盖ASP.NET"
       ]
     },
     {
@@ -2074,7 +4087,26 @@
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns raw audio into structured, production-ready text that machines and humans",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "语音",
+        "AI",
+        "集成工程师",
+        "端到端语音转录管线构建专家",
+        "从原始音频到预处理"
       ]
     },
     {
@@ -2096,6 +4128,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Runs near-native code in the browser — from Figma to Photoshop, WASM makes the impossible possible.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "WebAssembly",
+        "专家",
+        "WASM",
+        "运行时",
+        "WASI"
       ]
     },
     {
@@ -2121,6 +4171,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds performant Mini Programs that thrive in the WeChat ecosystem.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Process",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "微信小程序开发工程师",
+        "Expert",
+        "WeChat",
+        "Mini",
+        "Program"
       ]
     },
     {
@@ -2138,7 +4206,26 @@
         "marketing-wechat-official-account"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Builds enterprise integrations on the WeCom (企业微信) Open Platform — self-built",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "References",
+        "Standards",
+        "Success"
+      ],
+      "keywords": [
+        "企业微信集成开发工程师",
+        "企业微信开放平台",
+        "自建应用",
+        "客户联系与消息推送集成专家",
+        "Role"
       ]
     },
     {
@@ -2151,10 +4238,29 @@
       "path": "engineering/engineering-widecolumn-nosql.md",
       "depends_on": [
         "engineering-database-administrator",
-        "engineering-backend-architect"
+        "engineering-backend-architect",
+        "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Wide-column NoSQL specialist — you design partition keys that don't hotspot, model tables by query pattern instead of normalization, and understand that compaction storms are worse than they sound.",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "References",
+        "Standards",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "宽列NoSQL专家",
+        "Apache",
+        "Cassandra",
+        "HBase",
+        "ScyllaDB"
       ]
     },
     {
@@ -2170,12 +4276,29 @@
         "engineering-cross-platform",
         "engineering-drupal-shopping-cart",
         "marketing-paid-media-tracking-specialist",
-        "operations-report-distribution-agent",
         "specialized-agentic-identity-trust",
         "testing-accessibility-auditor"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A pragmatic WordPress commerce engineer who turns WooCommerce into powerful, conversion-optimized storefronts — shipping fast without shipping fragile, customizing through hooks instead of hacking core, keeping the checkout fast and frictionless on real phones, and treating every order, payment, and tax line as money that has to reconcile, because …",
+      "lifecycle": "published",
+      "tags": [
+        "engineering",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "WordPress购物车开发工程师",
+        "WooCommerce专家，覆盖产品目录管理",
+        "支付集成",
+        "结账定制与转化优化",
+        "WordPress"
       ]
     }
   ]

@@ -1,14 +1,14 @@
 # 🎭 The Agency
 
-### 1,400 AI specialists, one command away
+### 1,402 AI specialists, one command away
 
 > Frontend wizards. Reddit ninjas. Startup coaches. Brain surgeons. Penetration testers. Actuaries.
-> 1,400 specialized AI agents — each with personality, process, and proven deliverables. One command to install.
+> 1,402 specialized AI agents — each with personality, process, and proven deliverables. One command to install.
 
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)
 [![Nightly Audit](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml)
-[![Agents](https://img.shields.io/badge/agents-1,400-blue)](https://github.com/z451047442-debug/agency-agents)
+[![Agents](https://img.shields.io/badge/agents-1,402-blue)](https://github.com/z451047442-debug/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/z451047442-debug)
@@ -17,7 +17,7 @@
 
 | 🎭 | 📂 | 🛠️ | 📝 |
 |:---:|:---:|:---:|:---:|
-| **1,400** agents | **62** domains | **14** tools | **~95,000+** lines |
+| **1,402** agents | **62** domains | **15** tools | **~95,000+** lines |
 
 ---
 
@@ -35,7 +35,7 @@ Born from a Reddit thread and refined through thousands of real-world sessions, 
 ---
 ## 🎯 Real-World Use Cases
 
-> See [USE-CASES.md](USE-CASES.md) for 14 detailed scenarios across software, marketing, product, data, ops, and specialized domains.
+> See [USE-CASES.md](USE-CASES.md) for 100 detailed scenarios across software, marketing, product, data, ops, and specialized domains.
 
 ### Scenario 1: Building a Startup MVP
 
@@ -168,7 +168,7 @@ Each agent is designed with:
 
 ## 📊 Stats
 
-- 🎭 **1400 Specialized Agents** across 62 categories
+- 🎭 **1402 Specialized Agents** across 62 industry categories + _solution
 - 📝 **~95,000+ lines** of personality, process, and code examples
 - 🏗️ **NEXUS**: 7-phase multi-agent orchestration framework
 - ⏱️ **Months of iteration** from real-world usage
@@ -187,7 +187,7 @@ cd agency-agents
 python scripts/install.py --tool claude-code
 ```
 
-One command, all platforms (Windows / macOS / Linux). 1,400 agents installed to `~/.claude/agents/`.
+One command, all platforms (Windows / macOS / Linux). 1,402 agents installed to `~/.claude/agents/`.
 
 ```bash
 python scripts/install.py --tool claude-code --division engineering,design   # specific categories
@@ -311,9 +311,9 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 > 🇨🇳 中文用户请参阅 [README-zh.md](README-zh.md) · For contribution guidelines in Chinese see [CONTRIBUTING_zh-CN.md](CONTRIBUTING_zh-CN.md)
 >
-> **62 Categories · 1400 Agents**
+> **62 Categories (+ _solution) · 1402 Agents**
 
-### 💻 Technology (453 agents)
+### 💻 Technology (454 agents)
 
 | Category | Domain | Count | Description |
 |------|------|------|-----------|
@@ -322,7 +322,7 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 | [data-science](data-science/) | Data Science | 47 | BI, ML, NLP, CV, data engineering, data governance, AI agents, prompt engineering |
 | [cybersecurity](cybersecurity/) | Cybersecurity | 39 | Penetration testing, SOC, digital forensics, threat detection, malware, compliance |
 | [game-development](game-development/) | Game Development | 26 | Unity, Unreal, Godot, Roblox, Blender engine specialists |
-| [testing](testing/) | Testing & QA | 21 | SDET, API testing, performance benchmarking, accessibility, mobile testing |
+| [testing](testing/) | Testing & QA | 22 | SDET, API testing, performance benchmarking, accessibility, mobile testing |
 | [iot](iot/) | IoT | 20 | Embedded IoT, firmware, sensors, edge computing, smart home |
 | [spatial-computing](spatial-computing/) | Spatial Computing | 16 | visionOS, WebXR, XR interfaces, cockpit interaction, VR, AR |
 | [robotics](robotics/) | Robotics | 16 | Robot control, ROS, automation, machine vision, exoskeletons |
@@ -330,11 +330,11 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 | [telecom](telecom/) | Telecom | 13 | 5G, 6G, core networks, RF, wireless, Bluetooth, antennas |
 | [gis](gis/) | GIS | 16 | Spatial analysis, remote sensing, cartography, geodata pipelines, GIS development |
 
-### 📈 Business & Marketing (172 agents)
+### 📈 Business & Marketing (173 agents)
 
 | Category | Domain | Count | Description |
 |------|------|------|-----------|
-| [marketing](marketing/) | Marketing | 85 | Social media, content, SEO, paid ads, email, influencers, regional markets |
+| [marketing](marketing/) | Marketing | 86 | Social media, content, SEO, paid ads, email, influencers, regional markets |
 | [sales](sales/) | Sales | 16 | Sales coaching, funnel analysis, outbound strategy, proposals, pre-sales |
 | [customer-service](customer-service/) | Customer Service | 13 | Call centers, customer success, ticketing, voice AI, complaint management |
 | [tourism](tourism/) | Tourism & Hospitality | 16 | Travel agencies, cruises, cultural tourism, sustainable tourism, heritage sites |
@@ -348,13 +348,13 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 |------|------|------|-----------|
 | [finance](finance/) | Finance & Accounting | 53 | Financial analysis, audit, actuarial, tax, cost, treasury, risk, fintech, securities |
 | [legal](legal/) | Legal | 25 | Corporate, criminal, labor, IP, data privacy, legal tech, compliance |
-| [project-management](project-management/) | Project Management | 24 | PMP, agile, PMO, bidding, Scrum, events, film production, portfolio |
+| [project-management](project-management/) | Project Management | 25 | PMP, agile, PMO, bidding, Scrum, events, film production, portfolio |
 | [hr](hr/) | Human Resources | 22 | HRBP, recruiting, compensation, performance, OD, employee relations, onboarding, training, HR tech |
 | [operations](operations/) | Internal Operations | 12 | Data reporting, executive summaries, financial tracking, automation governance, infrastructure |
 | [real-estate](real-estate/) | Real Estate | 12 | Commercial brokerage, appraisal, development, property management, REIT, buyer/seller agent |
 | [quality](quality/) | Quality Management | 11 | QMS, SQE, CQE, PQE, SQA, healthcare quality, food safety |
 | [administration](administration/) | Administration | 10 | Office management, secretarial, procurement, archives, contracts, travel, fleet |
-| [strategy](strategy/) | Strategy & Consulting | 7 | Business analysis, CEO coaching, ESG, OKR, VC, business strategy |
+| [strategy](strategy/) | Strategy & Consulting | 6 | Business analysis, CEO coaching, ESG, OKR, VC, business strategy |
 
 ### 🏭 Manufacturing & Industry (204 agents)
 
@@ -417,7 +417,7 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 ## 🎭 Complete Agent Roster
 
-Browse all 1400 agents in each category directory (62 domains):
+Browse all 1402 agents in each category directory (62 domains):
 
 **Technology**: [engineering](engineering/)(114) · [infrastructure](infrastructure/)(111) · [data-science](data-science/)(47) · [cybersecurity](cybersecurity/)(39) · [game-development](game-development/)(26) · [testing](testing/)(21) · [iot](iot/)(20) · [spatial-computing](spatial-computing/)(16) · [robotics](robotics/)(16) · [gis](gis/)(16) · [web3](web3/)(14) · [telecom](telecom/)(13)
 
@@ -850,7 +850,7 @@ MIT License - Use freely, commercially or personally. Attribution appreciated bu
 
 ## 🙏 Acknowledgments
 
-What started as a Reddit thread about AI agent specialization has grown into something remarkable — **~1400 agents across 62 categories**, supported by a community of contributors from around the world. Every agent in this repo exists because someone cared enough to write it, test it, and share it.
+What started as a Reddit thread about AI agent specialization has grown into something remarkable — **~1402 agents across 62 categories**, supported by a community of contributors from around the world. Every agent in this repo exists because someone cared enough to write it, test it, and share it.
 
 To everyone who has opened a PR, filed an issue, started a Discussion, or simply tried an agent and told us what worked — thank you. You're the reason The Agency keeps getting better.
 

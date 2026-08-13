@@ -14,7 +14,7 @@
 | 🐦 Twitter | `marketing-twitter-engager` | 实时互动、Thread 策略、行业对话 |
 | 📸 Instagram | `marketing-instagram-curator` | 视觉内容、Stories、Reels |
 | 🎵 TikTok | `marketing-tiktok-strategist` | 短视频内容、趋势跟踪 |
-| 🎬 视频 | `creative-videographer` | 长视频、教程、客户证言视频 |
+| 🎬 视频 | `media-entertainment-creative-videographer` | 长视频、教程、客户证言视频 |
 | 📊 分析 | `marketing-analytics` | 内容 ROI、渠道归因、受众洞察 |
 | 📈 增长 | `marketing-growth-hacker` | 内容分发策略、SEO 增长、病毒传播 |
 | 🎨 设计 | `design-visual-storyteller` | 信息图、社交媒体素材、视觉品牌 |

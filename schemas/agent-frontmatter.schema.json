@@ -129,6 +129,16 @@
       },
       "uniqueItems": true,
       "minItems": 1
+    },
+    "tools": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Comma-separated tool names this agent is expected to use (e.g. 'Read, Write, Edit, Bash, Grep, Glob')."
+    },
+    "category": {
+      "type": "string",
+      "maxLength": 64,
+      "description": "Category directory this agent belongs to (informational; derived from the file path)."
     }
   },
   "additionalProperties": false

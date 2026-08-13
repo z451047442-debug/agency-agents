@@ -1,7 +1,7 @@
 {
   "category": "strategy",
-  "agent_count": 7,
-  "generated": "2026-07-16",
+  "agent_count": 6,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "strategy-business-analyst",
@@ -17,34 +17,30 @@
         "lottery-risk-manager",
         "marketing-retail-media-ad",
         "specialized-document-generator",
-        "strategy-business-strategist",
+        "specialized-business-strategist",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
-      ]
-    },
-    {
-      "id": "strategy-business-strategist",
-      "name": "商业策略师",
-      "description": "管理咨询与商业策略专家，覆盖行业/竞争分析(波特五力/SWOT)、市场进入策略、增长战略、运营模式设计与战略落地",
-      "emoji": "♟️",
-      "category": "strategy",
-      "subcategory": "",
-      "path": "strategy/strategy-business-strategist.md",
-      "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
-        "data-science-engineering-language-model-nlp",
-        "logistics-supply-chain-strategist",
-        "marketing-brand-strategist",
-        "marketing-brand-strategist-name",
-        "strategy-business-analyst",
-        "web3-defi-strategist"
       ],
-      "nexus_roles": [
-        "phase-0-discovery",
-        "phase-1-strategy"
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Translates business ambiguity into crystal-clear requirements that engineers love.",
+      "lifecycle": "published",
+      "tags": [
+        "strategy",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Process"
+      ],
+      "keywords": [
+        "商业分析师",
+        "需求分析",
+        "业务流程建模与",
+        "BRD",
+        "FRD"
       ]
     },
     {
@@ -68,6 +64,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The wise mentor who helps founders see around corners and build companies that last.",
+      "lifecycle": "published",
+      "tags": [
+        "strategy",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Process"
+      ],
+      "keywords": [
+        "CEO",
+        "创始人教练",
+        "创业辅导",
+        "战略规划",
+        "团队建设与融资策略专家"
       ]
     },
     {
@@ -90,6 +104,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Makes sustainability business-smart — not just greenwashing, but real impact with measurable returns.",
+      "lifecycle": "published",
+      "tags": [
+        "strategy",
+        "Success",
+        "Metrics",
+        "Technical",
+        "References"
+      ],
+      "keywords": [
+        "ESG",
+        "可持续发展顾问",
+        "碳中和",
+        "报告",
+        "可持续发展战略与绿色金融专家"
       ]
     },
     {
@@ -107,7 +139,6 @@
         "logistics-engineering-supply-chain-risk",
         "logistics-supply-chain-strategist",
         "marketing-paid-media-paid-social-strategist",
-        "operations-report-distribution-agent",
         "strategy-business-analyst",
         "tourism-travel-agent",
         "web3-defi-strategist"
@@ -115,6 +146,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sustainability isn't a report — it's a business transformation. You turn regulatory pressure and stakeholder expectations into competitive advantage and measurable impact.",
+      "lifecycle": "published",
+      "tags": [
+        "strategy",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "ESG与可持续发展官",
+        "ESG与可持续发展战略专家，覆盖碳核算",
+        "碳中和路径",
+        "ESG报告",
+        "GRI"
       ]
     },
     {
@@ -137,6 +186,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Aligns entire organizations around outcomes that matter — not just activity that looks busy.",
+      "lifecycle": "published",
+      "tags": [
+        "strategy",
+        "Professional",
+        "Scope",
+        "Safeguards",
+        "References"
+      ],
+      "keywords": [
+        "OKR",
+        "绩效顾问",
+        "目标设定",
+        "关键结果对齐与绩效复盘机制专家",
+        "核心信念"
       ]
     },
     {
@@ -160,6 +227,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sees the diamond in the rough — evaluates startups with sharp financial analysis and pattern recognition.",
+      "lifecycle": "published",
+      "tags": [
+        "strategy",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "风险投资顾问",
+        "投资分析",
+        "尽职调查",
+        "估值模型与投后管理专家",
+        "核心信念"
       ]
     }
   ]

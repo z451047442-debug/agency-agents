@@ -38,7 +38,7 @@ class TestMatches:
         assert matches("engineering-security-auditor", [r"test", r"security"])
 
 
-AGENT_WITH_P4 = chr(34)*3 + """---
+AGENT_WITH_P4 = """---
 name: "Test Builder"
 description: "Builds things"
 emoji: "X"
@@ -58,10 +58,10 @@ Test.
 
 ## Rules
 Test.
-""" + chr(34)*3
+"""
 
 
-AGENT_WITHOUT_P4 = chr(34)*3 + """---
+AGENT_WITHOUT_P4 = """---
 name: "Test Researcher"
 description: "Researches things"
 emoji: "X"
@@ -80,10 +80,10 @@ Test.
 
 ## Rules
 Test.
-""" + chr(34)*3
+"""
 
 
-AGENT_INFRA = chr(34)*3 + """---
+AGENT_INFRA = """---
 name: "Test Platform Engineer"
 description: "Platform"
 emoji: "X"
@@ -102,32 +102,50 @@ Test.
 
 ## Rules
 Test.
-""" + chr(34)*3
+"""
 
 
 class TestRebalance:
-    def test_dry_run_removes_p4(self, tmp_path, monkeypatch):
+    def test_dry_run_removes_p4(self, tmp_path, monkeypatch, capsys):
         monkeypatch.setattr(mod, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir(parents=True)
-        (tmp_path / "engineering/engineering-test-builder.md").write_text(
-            AGENT_WITH_P4, encoding="utf-8")
+        agent_path = tmp_path / "engineering/engineering-widget-builder.md"
+        agent_path.write_text(AGENT_WITH_P4, encoding="utf-8")
         rebalance(dry_run=True)
+        out = capsys.readouterr().out
+        # Dry run reports the planned Phase 4 removal ...
+        assert "engineering-widget-builder" in out
+        assert "Phase 4 removed:  1" in out
+        # ... but must not write anything to disk
+        assert "phase-4-hardening" in agent_path.read_text(encoding="utf-8")
 
-    def test_dry_run_adds_p0_to_researcher(self, tmp_path, monkeypatch):
+    def test_dry_run_adds_p0_to_researcher(self, tmp_path, monkeypatch, capsys):
         monkeypatch.setattr(mod, "REPO", tmp_path)
         (tmp_path / "data-science").mkdir(parents=True)
-        (tmp_path / "data-science/data-science-researcher.md").write_text(
-            AGENT_WITHOUT_P4, encoding="utf-8")
+        agent_path = tmp_path / "data-science/data-science-researcher.md"
+        agent_path.write_text(AGENT_WITHOUT_P4, encoding="utf-8")
         rebalance(dry_run=True)
+        out = capsys.readouterr().out
+        # Dry run reports the planned Phase 0 addition ...
+        assert "data-science-researcher" in out
+        assert "Phase 0 added:    1" in out
+        # ... but must not write anything to disk
+        assert "phase-0-discovery" not in agent_path.read_text(encoding="utf-8")
 
-    def test_dry_run_adds_p2_to_infra(self, tmp_path, monkeypatch):
+    def test_dry_run_adds_p2_to_infra(self, tmp_path, monkeypatch, capsys):
         monkeypatch.setattr(mod, "REPO", tmp_path)
         (tmp_path / "infrastructure").mkdir(parents=True)
-        (tmp_path / "infrastructure/infrastructure-platform-engineer.md").write_text(
-            AGENT_INFRA, encoding="utf-8")
+        agent_path = tmp_path / "infrastructure/infrastructure-platform-engineer.md"
+        agent_path.write_text(AGENT_INFRA, encoding="utf-8")
         rebalance(dry_run=True)
+        out = capsys.readouterr().out
+        # Dry run reports the planned Phase 2 addition ...
+        assert "infrastructure-platform-engineer" in out
+        assert "Phase 2 added:    1" in out
+        # ... but must not write anything to disk
+        assert "phase-2-foundation" not in agent_path.read_text(encoding="utf-8")
 
-    def test_dry_run_skips_no_roles(self, tmp_path, monkeypatch):
+    def test_dry_run_skips_no_roles(self, tmp_path, monkeypatch, capsys):
         monkeypatch.setattr(mod, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir(parents=True)
         content = """---
@@ -144,8 +162,13 @@ Test.
 ## Rules
 Test.
 """
-        (tmp_path / "engineering/engineering-no-roles.md").write_text(content, encoding="utf-8")
+        agent_path = tmp_path / "engineering/engineering-no-roles.md"
+        agent_path.write_text(content, encoding="utf-8")
         rebalance(dry_run=True)
+        out = capsys.readouterr().out
+        # Agents without nexus_roles are skipped, not modified
+        assert "Skipped:          1" in out
+        assert agent_path.read_text(encoding="utf-8") == content
 
     def test_apply_removes_p4_from_non_keeper(self, tmp_path, monkeypatch):
         monkeypatch.setattr(mod, "REPO", tmp_path)
@@ -227,10 +250,13 @@ Test.
     def test_apply_writes_changes(self, tmp_path, monkeypatch):
         monkeypatch.setattr(mod, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir(parents=True)
-        agent_path = tmp_path / "engineering/engineering-test-builder.md"
+        # "test" in the filename would match KEEP_P4, so use a non-keeper id
+        agent_path = tmp_path / "engineering/engineering-widget-builder.md"
         agent_path.write_text(AGENT_WITH_P4, encoding="utf-8")
         rebalance(dry_run=False)
         content = agent_path.read_text(encoding="utf-8")
+        assert "phase-4-hardening" not in content
+        assert "phase-3-build" in content
 
 
 _TEST_AGENT_BUILDER = """---
@@ -427,15 +453,40 @@ class TestPrintPhaseReport:
 
 
 class TestMain:
-    def test_main_dry_run_default(self, capsys):
+    def test_main_dry_run_default(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        (tmp_path / "engineering").mkdir(parents=True)
+        agent_path = tmp_path / "engineering/engineering-widget-builder.md"
+        agent_path.write_text(AGENT_WITH_P4, encoding="utf-8")
         with patch.object(sys, "argv", ["rebalance-nexus-phases.py"]):
             mod.main()
-        assert "DRY RUN" in capsys.readouterr().out
+        out = capsys.readouterr().out
+        assert "DRY RUN" in out
+        # Default dry-run must not write to any file
+        assert "phase-4-hardening" in agent_path.read_text(encoding="utf-8")
 
-    def test_main_apply_flag(self, capsys):
+    def test_main_apply_flag(self, tmp_path, monkeypatch, capsys):
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        (tmp_path / "engineering").mkdir(parents=True)
+        (tmp_path / "data-science").mkdir(parents=True)
+        (tmp_path / "infrastructure").mkdir(parents=True)
+        fixture_files = [
+            tmp_path / "engineering/engineering-widget-builder.md",
+            tmp_path / "data-science/data-science-researcher.md",
+            tmp_path / "infrastructure/infrastructure-platform-engineer.md",
+        ]
+        fixture_files[0].write_text(AGENT_WITH_P4, encoding="utf-8")
+        fixture_files[1].write_text(AGENT_WITHOUT_P4, encoding="utf-8")
+        fixture_files[2].write_text(AGENT_INFRA, encoding="utf-8")
         with patch.object(sys, "argv", ["rebalance-nexus-phases.py", "--apply"]):
             mod.main()
-        assert "DRY RUN" not in capsys.readouterr().out
+        out = capsys.readouterr().out
+        assert "DRY RUN" not in out
+        # --apply rewrites only the tmp_path fixture files (REPO monkeypatched),
+        # never the real repo's 1400 agent files
+        assert "phase-4-hardening" not in fixture_files[0].read_text(encoding="utf-8")
+        assert "phase-0-discovery" in fixture_files[1].read_text(encoding="utf-8")
+        assert "phase-2-foundation" in fixture_files[2].read_text(encoding="utf-8")
 
     def test_main_report_flag(self, monkeypatch, capsys):
         monkeypatch.setattr(mod, "phase_distribution", lambda: dict(_ALL_PHASES))

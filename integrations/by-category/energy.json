@@ -1,7 +1,7 @@
 {
   "category": "energy",
-  "agent_count": 43,
-  "generated": "2026-07-16",
+  "agent_count": 44,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "energy-carbon-accountant",
@@ -13,13 +13,30 @@
       "path": "energy/energy-carbon-accountant.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "energy-carbon-market",
         "infrastructure-identity-access",
         "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You can't manage what you don't measure — and carbon is the currency of the next industrial revolution.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Success",
+        "Metrics",
+        "Tools",
+        "Technologies"
+      ],
+      "keywords": [
+        "碳核算专家",
+        "碳核算与碳资产管理：GHG盘查",
+        "产品碳足迹",
+        "碳配额交易",
+        "CCER开发"
       ]
     },
     {
@@ -36,7 +53,26 @@
         "specialized-agentic-identity-trust"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "CCUS specialist — from amine scrubbing to direct air capture, from saline aquifer injection to CO2 mineralization. Capturing carbon at gigaton scale is an engineering challenge comparable to the Industrial Revolution.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "碳捕获利用与封存",
+        "CCUS",
+        "专家",
+        "CO2捕集技术",
+        "燃烧后"
       ]
     },
     {
@@ -54,7 +90,26 @@
         "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Carbon is the world's newest traded commodity — and the most politically complex.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "碳交易与碳市场分析师",
+        "碳市场与碳交易策略专家，覆盖EU",
+        "ETS",
+        "中国全国碳市场",
+        "碳配额"
       ]
     },
     {
@@ -68,12 +123,31 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Energy is the foundation of modern civilization. You manage the assets that",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "managing",
+        "assets",
+        "projects",
+        "across"
+      ],
+      "keywords": [
+        "能源项目总监",
+        "能源项目",
+        "资产最高负责人，覆盖能源资产",
+        "电站",
+        "风场"
       ]
     },
     {
@@ -87,11 +161,28 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every EV battery will eventually retire — you design the recycling systems that recover lithium, cobalt, and nickel, closing the loop on the electric revolution",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "battery",
+        "recycling",
+        "Developed",
+        "processes"
+      ],
+      "keywords": [
+        "电池回收",
+        "退役电池梯次利用工程师",
+        "锂离子电池回收与梯次利用专家，覆盖湿法冶金",
+        "浸出",
+        "溶剂萃取"
       ]
     },
     {
@@ -107,12 +198,30 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "We can't stop burning fossil fuels overnight — CCUS captures the CO2 before it reaches the atmosphere, buying time for the energy transition",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "carbon",
+        "capture",
+        "Designed",
+        "systems"
+      ],
+      "keywords": [
+        "碳捕获利用封存",
+        "CCUS",
+        "工程师",
+        "燃烧后",
+        "燃烧前"
       ]
     },
     {
       "id": "energy-engineering-cryogenic-engineering",
       "name": "低温/超导磁体工程师",
-      "description": "低温工程与超导磁体系统专家，覆盖液氦(4.2K)/液氮(77K)/GM/JT/Turbo-Brayton低温制冷、MRI/NMR超导磁体( NbTi/Nb3Sn/REBCO HTS)、真空多层绝热(MLI)与失超(Quench)保护",
+      "description": "低温工程与超导磁体系统专家，覆盖液氦(4.2K)/液氮(77K)/GM/JT/Turbo-Brayton低温制冷、MRI/NMR超导磁体(",
       "emoji": "🧊",
       "category": "energy",
       "subcategory": "",
@@ -120,11 +229,29 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "At -269°C, materials behave differently — superconductors carry current without",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "cryogenics",
+        "superconducting",
+        "magnets",
+        "Built"
+      ],
+      "keywords": [
+        "低温",
+        "超导磁体工程师",
+        "低温工程与超导磁体系统专家，覆盖液氦",
+        "4.2K",
+        "液氮"
       ]
     },
     {
@@ -141,6 +268,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The energy transition is the biggest engineering challenge in human history — and you're in the middle of it.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "能源",
+        "新能源专家",
+        "光伏",
+        "储能",
+        "氢能"
       ]
     },
     {
@@ -152,12 +297,31 @@
       "subcategory": "",
       "path": "energy/energy-engineering-energy-storage-materials-sci.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "energy-multi-agent-coordinator",
         "environmental-renewable-energy"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The next battery revolution starts in a lab — you invent the materials that",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "electrochemical",
+        "storage",
+        "Researched",
+        "next-gen"
+      ],
+      "keywords": [
+        "电池材料",
+        "电化学科学家",
+        "下一代锂离子",
+        "固态",
+        "钠离子电池材料研究专家，覆盖正极"
       ]
     },
     {
@@ -171,11 +335,29 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Miles beneath your feet, the Earth is hot enough to power civilization — you",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "geothermal",
+        "exploration",
+        "Discovered",
+        "developed"
+      ],
+      "keywords": [
+        "地热资源",
+        "地热地质工程师",
+        "地热资源勘探评估与储层工程管理专家，覆盖地热地质",
+        "地球物理",
+        "地球化学勘探"
       ]
     },
     {
@@ -191,6 +373,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Traditional inverters follow the grid; grid-forming inverters create it. You design the power electronics that let renewables run the grid without fossil fuel generators.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "power",
+        "electronics",
+        "Developed",
+        "grid-forming"
+      ],
+      "keywords": [
+        "构网型逆变器",
+        "微电网控制工程师",
+        "构网型",
+        "GFM",
+        "逆变器与新能源微电网专家，覆盖跟网型"
       ]
     },
     {
@@ -202,14 +402,30 @@
       "subcategory": "",
       "path": "energy/energy-engineering-grid-modernization.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The last mile of the grid is transforming — from one-way power flow to millions of distributed generators, storage, and EVs. You build the smart grid that manages this complexity.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "distribution",
+        "grid",
+        "modernization",
+        "Designed"
+      ],
+      "keywords": [
+        "配电自动化",
+        "智能配电网工程师",
+        "中低压配电网自动化与智能电网专家，覆盖配电自动化",
+        "DA",
+        "FLISR"
       ]
     },
     {
@@ -221,11 +437,30 @@
       "subcategory": "",
       "path": "energy/energy-engineering-grid-scale-storage.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "energy-multi-agent-coordinator",
         "environmental-renewable-energy"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Storage transforms electricity from a just-in-time product to a storable commodity",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "storage",
+        "markets",
+        "Modeled",
+        "revenue"
+      ],
+      "keywords": [
+        "电网级储能",
+        "电力市场分析师",
+        "大型储能电站投资与电力市场收益优化专家，覆盖锂电储能",
+        "液流",
+        "压缩空气"
       ]
     },
     {
@@ -239,11 +474,28 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Hydrogen is the universe's most abundant element — you turn it into electricity with only water as exhaust, powering trucks, ships, and industries without carbon",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "fuel",
+        "cell",
+        "development",
+        "Designed"
+      ],
+      "keywords": [
+        "氢能",
+        "燃料电池系统工程师",
+        "质子交换膜燃料电池",
+        "PEMFC",
+        "与固体氧化物燃料电池"
       ]
     },
     {
@@ -259,6 +511,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Hydrogen is the lightest element — storing and transporting it efficiently is the engineering challenge that makes or breaks the hydrogen economy",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "hydrogen",
+        "infrastructure",
+        "Designed",
+        "storage"
+      ],
+      "keywords": [
+        "储氢",
+        "氢输运",
+        "加氢站工程师",
+        "高压气态",
+        "液氢"
       ]
     },
     {
@@ -272,11 +542,29 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A ship at sea can't pull over for repairs — you inspect hulls, verify structural",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "marine",
+        "surveying",
+        "Inspected",
+        "vessels"
+      ],
+      "keywords": [
+        "船舶与海洋工程维护",
+        "检验师",
+        "船舶与海洋结构物检验与船级社规范专家，覆盖船体结构测厚",
+        "近观检验",
+        "CAP"
       ]
     },
     {
@@ -290,11 +578,28 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Ships are floating cities that survive hurricanes — you design vessels that are stable, seaworthy, and efficient across the world's most hostile environment",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "naval",
+        "architecture",
+        "Designed",
+        "commercial"
+      ],
+      "keywords": [
+        "海洋工程",
+        "船舶设计工程师",
+        "海洋工程与船舶",
+        "海工结构设计专家，覆盖船舶稳性",
+        "浮态"
       ]
     },
     {
@@ -308,11 +613,28 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Building a nuclear plant is hard; decommissioning one safely, decades after it was built, with incomplete records — that's a different kind of hard",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "nuclear",
+        "decommissioning",
+        "Managed",
+        "safe"
+      ],
+      "keywords": [
+        "核设施退役",
+        "放射性废物管理专家",
+        "核设施退役与放射性废物处理处置专家，覆盖核电厂",
+        "研究堆",
+        "核设施退役策略"
       ]
     },
     {
@@ -329,6 +651,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Installing a 15MW turbine on a floating platform in 100m of water, 50km offshore, in 3m waves — that's offshore wind engineering",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "offshore",
+        "wind",
+        "Designed",
+        "foundations"
+      ],
+      "keywords": [
+        "海上风电",
+        "海洋结构工程师",
+        "海上风电场基础结构与安装工程专家，覆盖单桩",
+        "导管架",
+        "重力式"
       ]
     },
     {
@@ -345,7 +685,26 @@
         "finance-accounts-payable-agent"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The oil and gas that comes out of the ground is a messy mixture — you design",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "surface",
+        "facilities",
+        "Designed",
+        "processing"
+      ],
+      "keywords": [
+        "油气集输",
+        "天然气处理工程师",
+        "油气田地面工程与天然气处理专家，覆盖油气水分离",
+        "原油脱水脱盐",
+        "天然气脱硫"
       ]
     },
     {
@@ -359,11 +718,28 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A mile below the seabed, drilling sideways within a 2-meter target zone — that's directional drilling, navigating through rock guided by real-time subsurface data",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "drilling",
+        "engineering",
+        "Planned",
+        "executed"
+      ],
+      "keywords": [
+        "钻井",
+        "定向井",
+        "随钻测井",
+        "MWD",
+        "LWD"
       ]
     },
     {
@@ -380,6 +756,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Oil hides kilometers underground, invisible — you interpret the seismic waves, well logs, and rock samples that reveal where to drill",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "exploration",
+        "geology",
+        "Discovered",
+        "hydrocarbon"
+      ],
+      "keywords": [
+        "石油地质",
+        "勘探地球物理学家",
+        "油气勘探地质与地震解释专家，覆盖沉积盆地分析",
+        "石油系统",
+        "烃源岩"
       ]
     },
     {
@@ -393,11 +787,29 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A billion barrels of oil in the ground — but only 30-40% can be recovered with",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "petroleum",
+        "engineering",
+        "Managed",
+        "reservoirs"
+      ],
+      "keywords": [
+        "油藏工程",
+        "石油工程专家",
+        "油气藏评价与开发工程专家，覆盖油藏数值模拟",
+        "ECLIPSE",
+        "CMG"
       ]
     },
     {
@@ -414,6 +826,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every electronic device needs clean, efficient power — you design the converters that turn wall electricity into the precise voltages chips need to live",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "power",
+        "electronics",
+        "Designed",
+        "supplies"
+      ],
+      "keywords": [
+        "电力电子",
+        "电源设计工程师",
+        "电力电子与开关电源设计专家，覆盖AC-DC",
+        "DC-DC",
+        "DC-AC电源拓扑"
       ]
     },
     {
@@ -427,11 +857,28 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A power module the size of a sandwich handles 1,000 amps — you design the packaging that dissipates the heat, isolates the voltage, and survives millions of thermal cycles",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "power",
+        "semiconductor",
+        "packaging",
+        "Designed"
+      ],
+      "keywords": [
+        "功率模块",
+        "IGBT",
+        "SiC封装工程师",
+        "电力电子功率模块封装与可靠性专家，覆盖IGBT",
+        "SiC"
       ]
     },
     {
@@ -446,11 +893,28 @@
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
         "marketing-abm-account-based",
-        "operations-report-distribution-agent",
         "specialized-document-generator"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The grid is the largest machine ever built — you keep it stable at 50Hz, balance generation and load every second, and integrate renewables without blackouts",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "power",
+        "systems",
+        "engineering",
+        "Designed"
+      ],
+      "keywords": [
+        "电力系统",
+        "电网工程师",
+        "电力系统与智能电网专家，覆盖输配电",
+        "变电站设计",
+        "电力系统暂态"
       ]
     },
     {
@@ -462,30 +926,68 @@
       "subcategory": "",
       "path": "energy/energy-engineering-process-safety.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "energy-multi-agent-coordinator",
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
         "finance-engineering-risk-quant"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "One process safety failure can kill hundreds and destroy a company — you design",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "process",
+        "safety",
+        "HAZOP",
+        "studies"
+      ],
+      "keywords": [
+        "工艺安全",
+        "过程安全管理",
+        "PSM",
+        "工程师",
+        "化工"
       ]
     },
     {
       "id": "energy-engineering-pv-solar-cell",
       "name": "光伏电池/钙钛矿太阳电池研究员",
-      "description": "晶硅/钙钛矿/叠层太阳电池器件物理与工艺研究员，覆盖PERC/TOPCon/HJT晶硅电池、钙钛矿单结/晶硅-钙钛矿叠层、薄膜(CIGS/CdTe)与光伏组件封装/可靠性(IEC 61215/61730)",
+      "description": "晶硅/钙钛矿/叠层太阳电池器件物理与工艺研究员，覆盖PERC/TOPCon/HJT晶硅电池、钙钛矿单结/晶硅-钙钛矿叠层、薄膜(CIGS/CdTe)与光伏组件封装/可靠性(IEC",
       "emoji": "☀️",
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-engineering-pv-solar-cell.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "energy-multi-agent-coordinator",
         "environmental-renewable-energy",
         "finance-accounts-payable-agent"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A solar cell thinner than a human hair converts sunlight into electricity at",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "photovoltaics",
+        "Developed",
+        "high-efficiency",
+        "solar"
+      ],
+      "keywords": [
+        "光伏电池",
+        "钙钛矿太阳电池研究员",
+        "晶硅",
+        "钙钛矿",
+        "叠层太阳电池器件物理与工艺研究员，覆盖PERC"
       ]
     },
     {
@@ -499,12 +1001,29 @@
       "depends_on": [
         "data-science-engineering-deep-learning-training",
         "environmental-renewable-energy",
-        "finance-accounts-payable-agent",
-        "operations-report-distribution-agent"
+        "finance-accounts-payable-agent"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Nuclear power that fits on a truck, built in factories, inherently safe — SMRs are the next generation of clean baseload energy",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "advanced",
+        "nuclear",
+        "Designed",
+        "microreactor"
+      ],
+      "keywords": [
+        "小型模块化反应堆",
+        "SMR",
+        "先进堆工程师",
+        "轻水",
+        "熔盐"
       ]
     },
     {
@@ -519,12 +1038,29 @@
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
         "marketing-abm-account-based",
-        "operations-report-distribution-agent",
         "testing-engineering-test-automation-framework",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Extracting oil and gas from 3,000 meters below the ocean surface — that's not engineering, that's engineering at the edge of what's physically possible",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "subsea",
+        "engineering",
+        "Designed",
+        "deepwater"
+      ],
+      "keywords": [
+        "海底",
+        "水下工程技术工程师",
+        "海洋油气与海上风电海底生产系统专家，覆盖海底采油树",
+        "管汇",
+        "脐带缆"
       ]
     },
     {
@@ -539,11 +1075,28 @@
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
         "marketing-abm-account-based",
-        "operations-report-distribution-agent",
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every watt of power becomes heat — and heat kills electronics. You design the thermal solutions that keep chips cool, servers running, and products reliable.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "electronics",
+        "thermal",
+        "management",
+        "Designed"
+      ],
+      "keywords": [
+        "热设计",
+        "散热工程师",
+        "电子产品热管理设计专家，覆盖风冷",
+        "液冷",
+        "相变散热方案"
       ]
     },
     {
@@ -557,11 +1110,29 @@
       "depends_on": [
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A nuclear reactor is physics, engineering, and safety culture combined — you",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "reactor",
+        "physics",
+        "Designed",
+        "analyzed"
+      ],
+      "keywords": [
+        "核工程",
+        "反应堆物理工程师",
+        "核反应堆物理与热工水力学专家，覆盖中子输运",
+        "扩散理论",
+        "堆芯燃料管理"
       ]
     },
     {
@@ -573,12 +1144,31 @@
       "subcategory": "",
       "path": "energy/energy-engineering-tidal-energy.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "energy-multi-agent-coordinator",
         "environmental-renewable-energy",
         "finance-accounts-payable-agent"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The ocean is the world's largest battery — tides are as predictable as clockwork,",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "ocean",
+        "Developed",
+        "devices",
+        "concept"
+      ],
+      "keywords": [
+        "海洋能",
+        "潮流能",
+        "波浪能工程师",
+        "潮汐",
+        "潮流"
       ]
     },
     {
@@ -590,14 +1180,32 @@
       "subcategory": "",
       "path": "energy/energy-engineering-waste-to-energy.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "energy-multi-agent-coordinator",
         "environmental-renewable-energy",
         "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "One person's trash is another's megawatt-hour — you design the plants that turn",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Commissioned",
+        "optimized",
+        "municipal",
+        "waste"
+      ],
+      "keywords": [
+        "固废处理",
+        "垃圾焚烧发电",
+        "WTE",
+        "工程师",
+        "城市固废焚烧发电与飞灰"
       ]
     },
     {
@@ -613,6 +1221,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A 15MW turbine blade longer than a football field, spinning at the top of a tower taller than a skyscraper — you design the machines that harvest energy from the sky",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "wind",
+        "turbine",
+        "design",
+        "Designed"
+      ],
+      "keywords": [
+        "风能",
+        "风力发电机设计工程师",
+        "大型风力发电机组设计与系统集成专家，覆盖风轮空气动力学",
+        "BEM理论",
+        "传动链"
       ]
     },
     {
@@ -629,6 +1255,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The Earth's core is a nuclear reactor that's been running for 4.5 billion years — you tap into that free, constant, carbon-free heat",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "geothermal",
+        "Developed",
+        "projects",
+        "resource"
+      ],
+      "keywords": [
+        "地热能源工程师",
+        "地热能开发与利用专家，覆盖地热资源评估",
+        "勘探",
+        "地热发电",
+        "干蒸汽"
       ]
     },
     {
@@ -641,13 +1285,30 @@
       "path": "energy/energy-grid-engineer.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "energy-engineering-power-systems",
         "infrastructure-identity-access",
         "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The grid hums at 50Hz and never sleeps — neither does the engineer who keeps the lights on.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "电网工程师",
+        "电力系统运行与维护：输配电网络",
+        "变电站",
+        "继电保护",
+        "SCADA调度"
       ]
     },
     {
@@ -658,9 +1319,68 @@
       "category": "energy",
       "subcategory": "",
       "path": "energy/energy-hydrogen-economy.md",
+      "depends_on": [
+        "energy-engineering-hydrogen-fuel-cell",
+        "environmental-renewable-energy",
+        "logistics-supply-chain-strategist"
+      ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Hydrogen economy specialist — from green hydrogen electrolysis to fuel cell vehicles, from hydrogen pipelines to industrial decarbonization. Hydrogen is not the answer to everything, but for steel, chemicals, and long-duration storage, it's essential.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "氢能全产业链专家",
+        "制氢技术",
+        "电解水",
+        "化石燃料重整",
+        "生物质"
+      ]
+    },
+    {
+      "id": "energy-multi-agent-coordinator",
+      "name": "Energy Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for energy — renewables, grid, storage,",
+      "emoji": "⚡",
+      "category": "energy",
+      "subcategory": "",
+      "path": "energy/energy-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating energy specialists into coherent multi-agent workflows",
+      "tags": [
+        "energy",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Energy",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -673,11 +1393,30 @@
       "path": "energy/energy-nuclear-engineer.md",
       "depends_on": [
         "energy-carbon-accountant",
-        "engineering-multi-agent-systems-architect",
+        "energy-multi-agent-coordinator",
         "government-public-safety-analyst"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Nuclear power is the most concentrated energy source humanity has ever harnessed",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "核电工程师",
+        "核能与核工程专家，覆盖压水堆",
+        "PWR",
+        "AP1000",
+        "华龙一号设计运营"
       ]
     },
     {
@@ -694,7 +1433,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Fusion engineer — from Lawson criterion to H-mode, from ITER to SPARC, from tritium breeding to first-wall materials. Fusion promises limitless clean energy; the engineering challenge is making it work on a power grid timeline.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "核聚变工程专家",
+        "磁约束聚变",
+        "托卡马克",
+        "仿星器",
+        "惯性约束聚变"
       ]
     },
     {
@@ -707,7 +1465,6 @@
       "path": "energy/energy-renewable-analyst.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "energy-engineering-grid-modernization",
         "infrastructure-identity-access",
         "marketing-abm-account-based"
@@ -715,6 +1472,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The sun and wind don't send invoices — but capturing them at grid scale takes more than good intentions.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "新能源分析师",
+        "新能源技术与市场分析：光伏",
+        "风电",
+        "储能",
+        "氢能"
       ]
     },
     {
@@ -726,12 +1501,32 @@
       "subcategory": "",
       "path": "energy/energy-storage-engineer.md",
       "depends_on": [
-        "energy-engineering-grid-scale-storage",
         "energy-engineering-energy-storage-materials-sci",
-        "energy-engineering-wind-energy"
+        "energy-engineering-grid-scale-storage",
+        "energy-engineering-wind-energy",
+        "engineering-ai-agent-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Solar generates when the sun shines; wind generates when the wind blows. Storage",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "储能系统工程师",
+        "电化学储能与电池系统专家，覆盖锂电池",
+        "液流",
+        "钠硫储能技术",
+        "BMS电池管理"
       ]
     },
     {
@@ -744,7 +1539,6 @@
       "path": "energy/energy-trading-strategist.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "energy-carbon-accountant",
         "infrastructure-identity-access",
         "marketing-abm-account-based"
@@ -752,6 +1546,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Electrons are indistinguishable but their price changes every 15 minutes — trade the spread, not the commodity.",
+      "lifecycle": "published",
+      "tags": [
+        "energy",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "能源交易策略师",
+        "电力市场交易策略：现货",
+        "期货",
+        "中长期合约",
+        "价差套利"
       ]
     }
   ]

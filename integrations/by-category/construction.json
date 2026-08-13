@@ -1,7 +1,7 @@
 {
   "category": "construction",
-  "agent_count": 42,
-  "generated": "2026-07-16",
+  "agent_count": 43,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "construction-architectural-designer",
@@ -16,11 +16,30 @@
         "construction-engineering-construction-materials",
         "construction-engineering-noise-control",
         "energy-engineering-wind-energy",
+        "healthcare-engineering-regulatory-science",
         "infrastructure-identity-access",
         "legal-engineering-legal-document-automation"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every building starts as a line on paper — you make that line worth inhabiting for generations",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "建筑设计师",
+        "建筑设计与空间规划专家，覆盖概念设计",
+        "方案深化",
+        "建筑规范",
+        "可持续设计与BIM协同"
       ]
     },
     {
@@ -36,11 +55,28 @@
         "cybersecurity-engineering-cyber-risk-model",
         "energy-engineering-grid-scale-storage",
         "finance-engineering-credit-risk-model",
-        "operations-report-distribution-agent",
         "specialized-document-generator"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Before a single brick is laid, you've already built the entire building — virtually, perfectly, down to the last bolt",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "BIM工程师",
+        "BIM",
+        "建筑信息模型",
+        "与数字建造专家，覆盖Revit建模",
+        "碰撞检测"
       ]
     },
     {
@@ -53,7 +89,6 @@
       "path": "construction/construction-cost-estimator.md",
       "depends_on": [
         "construction-engineering-construction-claims",
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-insurance-claims-analytics",
         "finance-engineering-risk-quant",
@@ -62,13 +97,31 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every nail, every beam, every hour of labor — you know what it costs before the first shovel hits the ground",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "工程造价师",
+        "工程造价与成本顾问专家，覆盖工料测量",
+        "造价估算",
+        "招标管理",
+        "合同管理与工程结算审计"
       ]
     },
     {
       "id": "construction-director",
       "name": "建筑总监",
       "description": "建筑领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🏗\"",
+      "emoji": "🏗",
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-director.md",
@@ -76,13 +129,34 @@
         "construction-general-manager",
         "data-science-engineering-knowledge-management",
         "hr-tech-people-analytics",
+        "legal-billing-time-tracking",
+        "legal-document-review",
         "specialized-multi-agent-director",
         "specialized-multi-agent-president",
         "specialized-multi-agent-project-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 建筑工程与地产开发 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "建筑总监",
+        "建筑领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -96,11 +170,29 @@
       "depends_on": [
         "construction-fire-protection",
         "energy-engineering-waste-to-energy",
-        "operations-report-distribution-agent",
+        "engineering-git-workflow-master",
         "specialized-document-generator"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every light, every elevator, every server, every fire pump — they all need power, and you're the one who makes sure it's there, reliably, safely, efficiently",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "建筑电气工程师",
+        "建筑电气系统设计与施工专家，覆盖变配电",
+        "高低压",
+        "照明",
+        "应急照明"
       ]
     },
     {
@@ -112,11 +204,32 @@
       "subcategory": "",
       "path": "construction/construction-engineering-acoustics-consultant.md",
       "depends_on": [
-        "construction-engineering-noise-control"
+        "construction-engineering-noise-control",
+        "engineering-git-workflow-master",
+        "government-public-safety-analyst",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In a concert hall, every note should reach every seat with perfect clarity — you design the geometry and materials that make music sound magical",
+      "lifecycle": "draft",
+      "tags": [
+        "construction",
+        "architectural",
+        "acoustics",
+        "Designed",
+        "room"
+      ],
+      "keywords": [
+        "建筑声学",
+        "室内声学顾问",
+        "建筑声学与室内声学设计顾问，覆盖音乐厅",
+        "剧院",
+        "录音棚"
       ]
     },
     {
@@ -130,12 +243,32 @@
       "depends_on": [
         "construction-engineering-noise-control",
         "cybersecurity-engineering-cyber-risk-model",
+        "engineering-git-workflow-master",
         "finance-engineering-credit-risk-model",
+        "marketing-paid-media-tracking-specialist",
         "media-entertainment-engineering-audio-dsp-signal"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sound shapes experience — from the satisfying click of a car door to the silence of noise-canceling headphones. You engineer the sounds people love and eliminate the ones they don't.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "acoustics",
+        "audio",
+        "Designed",
+        "acoustic"
+      ],
+      "keywords": [
+        "声学",
+        "降噪工程师",
+        "声学工程与主动降噪",
+        "ANC",
+        "专家，覆盖建筑"
       ]
     },
     {
@@ -147,10 +280,31 @@
       "subcategory": "",
       "path": "construction/construction-engineering-bridge-structural.md",
       "depends_on": [
-        "construction-architectural-designer"
+        "construction-architectural-designer",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A bridge connects more than two shores — it connects communities. You design structures that span kilometers, withstand typhoons and earthquakes, and stand for a century.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "bridge",
+        "engineering",
+        "Designed",
+        "major"
+      ],
+      "keywords": [
+        "桥梁工程",
+        "桥梁健康监测工程师",
+        "大跨度桥梁设计与结构健康监测专家，覆盖悬索桥",
+        "斜拉桥",
+        "拱桥"
       ]
     },
     {
@@ -163,15 +317,35 @@
       "path": "construction/construction-engineering-civil-engineer.md",
       "depends_on": [
         "construction-architectural-designer",
+        "construction-multi-agent-coordinator",
+        "cybersecurity-engineering-threat-detection-engineer",
         "engineering-embedded-database",
-        "engineering-multi-agent-systems-architect",
         "environmental-circular-economy-design",
         "testing-test-results-analyzer",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs structures that stand across borders — from seismic Tokyo to wind-swept",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Global",
+        "Standards",
+        "Coverage",
+        "Technical"
+      ],
+      "keywords": [
+        "土木工程师",
+        "全球标准覆盖的土木结构工程专家",
+        "Eurocode",
+        "DIN",
+        "ACI"
       ]
     },
     {
@@ -184,11 +358,31 @@
       "path": "construction/construction-engineering-construction-claims.md",
       "depends_on": [
         "construction-architectural-designer",
+        "engineering-git-workflow-master",
         "finance-engineering-risk-quant",
-        "operations-report-distribution-agent"
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When a construction project goes wrong, billions are at stake — you quantify who is responsible, for how much, and prove it with forensic schedule analysis",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "claims",
+        "Analyzed",
+        "resolved",
+        "disputes"
+      ],
+      "keywords": [
+        "工程索赔",
+        "争议解决",
+        "量子",
+        "工期",
+        "顾问"
       ]
     },
     {
@@ -202,11 +396,32 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-code-reviewer",
+        "engineering-git-workflow-master",
         "legal-engineering-legal-document-automation",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety",
         "robotics-motion-control"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Concrete is the most widely used material on Earth after water — you design the mixes that build bridges, dams, and skyscrapers to last 100 years",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "materials",
+        "Designed",
+        "concrete",
+        "mixes"
+      ],
+      "keywords": [
+        "土木工程材料",
+        "混凝土专家",
+        "水泥混凝土与工程材料专家，覆盖高性能混凝土",
+        "HPC",
+        "UHPC"
       ]
     },
     {
@@ -219,13 +434,32 @@
       "path": "construction/construction-engineering-cultural-heritage-digitization.md",
       "depends_on": [
         "construction-engineering-heritage-conservation",
-        "cybersecurity-engineering-customer-identity-access",
         "energy-engineering-carbon-capture-storage",
+        "engineering-git-workflow-master",
         "infrastructure-identity-access",
+        "marketing-paid-media-tracking-specialist",
         "tourism-cultural-heritage"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Fire, flood, war — cultural heritage is fragile. You create the 3D digital twins that preserve humanity's treasures for eternity, accessible to anyone, anywhere.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "heritage",
+        "digitization",
+        "3D-documented",
+        "World"
+      ],
+      "keywords": [
+        "文化遗产数字化",
+        "数字人文",
+        "DH",
+        "专家",
+        "文化遗产3D数字化与数字人文技术专家，覆盖激光扫描"
       ]
     },
     {
@@ -238,11 +472,31 @@
       "path": "construction/construction-engineering-dam-engineering.md",
       "depends_on": [
         "construction-architectural-designer",
+        "engineering-git-workflow-master",
         "environmental-water-treatment",
-        "logistics-engineering-supply-chain-risk"
+        "logistics-engineering-supply-chain-risk",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A dam holds back millions of tons of water, and if it fails, everything downstream is gone — you design the structure that must never fail",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "engineering",
+        "Designed",
+        "assessed",
+        "dams"
+      ],
+      "keywords": [
+        "大坝工程",
+        "水工结构工程师",
+        "混凝土坝",
+        "土石坝设计与安全监测专家，覆盖拱坝",
+        "重力坝"
       ]
     },
     {
@@ -255,11 +509,32 @@
       "path": "construction/construction-engineering-facade-engineering.md",
       "depends_on": [
         "construction-architectural-designer",
+        "construction-multi-agent-coordinator",
         "energy-engineering-wind-energy",
-        "engineering-multi-agent-systems-architect"
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A skyscraper's skin keeps out wind, rain, and heat while letting in light and",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "façade",
+        "engineering",
+        "Designed",
+        "building"
+      ],
+      "keywords": [
+        "幕墙",
+        "建筑外围护工程师",
+        "高层建筑幕墙与建筑外围护结构专家，覆盖玻璃幕墙",
+        "单元式",
+        "构件式"
       ]
     },
     {
@@ -272,11 +547,31 @@
       "path": "construction/construction-engineering-fire-dynamics.md",
       "depends_on": [
         "construction-architectural-designer",
-        "operations-report-distribution-agent",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "After the flames are out, the questions begin — you read the burn patterns, trace the electrical faults, and find the truth in the ashes",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "fire",
+        "investigation",
+        "Investigated",
+        "thousands"
+      ],
+      "keywords": [
+        "火灾调查",
+        "火场溯源专家",
+        "火灾起因调查与火场重建专家，覆盖火灾痕迹",
+        "烧损图",
+        "Char"
       ]
     },
     {
@@ -288,16 +583,37 @@
       "subcategory": "",
       "path": "construction/construction-engineering-geodesy-surveying.md",
       "depends_on": [
+        "construction-multi-agent-coordinator",
         "construction-surveyor",
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
+        "engineering-git-workflow-master",
         "finance-engineering-credit-risk-model",
         "marketing-abm-account-based",
+        "marketing-paid-media-tracking-specialist",
         "robotics-motion-control"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your phone knows where you are to within 5 meters — with the right algorithms,",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "geodesy",
+        "GNSS",
+        "Operated",
+        "reference"
+      ],
+      "keywords": [
+        "大地测量",
+        "精密定位工程师",
+        "卫星大地测量与精密定位系统专家，覆盖GNSS",
+        "北斗",
+        "GPS"
       ]
     },
     {
@@ -310,10 +626,31 @@
       "path": "construction/construction-engineering-geotechnical-earthquake.md",
       "depends_on": [
         "construction-architectural-designer",
+        "engineering-git-workflow-master",
+        "infrastructure-identity-access",
+        "marketing-paid-media-tracking-specialist",
         "robotics-motion-control"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Earthquakes don't just shake buildings — they turn solid ground to liquid. You analyze the soils, predict liquefaction, and design foundations that survive when the earth moves.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "geotechnical",
+        "earthquake",
+        "engineering",
+        "Assessed"
+      ],
+      "keywords": [
+        "岩土地震",
+        "土动力学工程师",
+        "岩土地震工程与场地效应专家，覆盖场地地震反应分析",
+        "SHAKE",
+        "DEEPSOIL"
       ]
     },
     {
@@ -328,6 +665,7 @@
         "construction-engineering-construction-materials",
         "cybersecurity-engineering-cyber-risk-model",
         "energy-engineering-energy-storage-materials-sci",
+        "engineering-git-workflow-master",
         "environmental-renewable-energy",
         "finance-engineering-credit-risk-model",
         "logistics-engineering-supply-chain-risk",
@@ -335,6 +673,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Buildings consume 40% of energy and produce 40% of emissions — you design the ones that produce more energy than they consume",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "sustainable",
+        "design",
+        "Delivered",
+        "net-zero"
+      ],
+      "keywords": [
+        "绿色建筑",
+        "净零能耗设计顾问",
+        "高性能绿色建筑与零碳建筑设计顾问，覆盖被动式设计",
+        "建筑物理模拟",
+        "EnergyPlus"
       ]
     },
     {
@@ -348,12 +704,32 @@
       "depends_on": [
         "construction-engineering-construction-materials",
         "construction-engineering-cultural-heritage-digitization",
+        "engineering-git-workflow-master",
         "healthcare-engineering-regulatory-science",
         "manufacturing-engineering-material-scientist",
+        "marketing-paid-media-tracking-specialist",
         "tourism-cultural-heritage"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A thousand-year-old temple, a Renaissance painting, an ancient manuscript — you apply materials science and environmental control to preserve humanity's cultural heritage",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "conservation",
+        "science",
+        "Preserved",
+        "cultural"
+      ],
+      "keywords": [
+        "文化遗产保护",
+        "文物保护科技专家",
+        "文化遗产保护科学技术与修复专家，覆盖文物材料分析",
+        "XRF",
+        "XRD"
       ]
     },
     {
@@ -366,10 +742,31 @@
       "path": "construction/construction-engineering-hvac-automation.md",
       "depends_on": [
         "construction-architectural-designer",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety",
         "testing-engineering-reliability-testing"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cooling is not a luxury — it's life support for data centers, food supply chains, and billions of people in a warming world",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "HVAC&R",
+        "system",
+        "design",
+        "Optimized"
+      ],
+      "keywords": [
+        "制冷",
+        "热泵",
+        "空调系统工程师",
+        "蒸气压缩制冷与热泵系统设计专家，覆盖制冷循环",
+        "压缩机"
       ]
     },
     {
@@ -383,11 +780,31 @@
       "depends_on": [
         "construction-engineering-piping-design",
         "energy-engineering-energy-storage-materials-sci",
+        "engineering-git-workflow-master",
         "food-beverage-food-safety",
+        "marketing-paid-media-tracking-specialist",
         "quality-food-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A cold storage warehouse at -25°C must run 24/7/365 — you design industrial refrigeration that keeps millions of tonnes of food frozen with zero downtime",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "industrial",
+        "refrigeration",
+        "Designed",
+        "systems"
+      ],
+      "keywords": [
+        "工业制冷",
+        "冷链制冷工程师",
+        "工业氨",
+        "CO2制冷系统与大型冷库设计专家，覆盖氨",
+        "NH3"
       ]
     },
     {
@@ -400,10 +817,31 @@
       "path": "construction/construction-engineering-landscape-architecture.md",
       "depends_on": [
         "construction-architectural-designer",
-        "marketing-abm-account-based"
+        "engineering-git-workflow-master",
+        "government-public-safety-analyst",
+        "marketing-abm-account-based",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A city isn't just buildings — it's the trees, parks, and waterways that make it livable. You design the green infrastructure that cools cities, manages stormwater, and restores nature.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "landscape",
+        "architecture",
+        "Designed",
+        "public"
+      ],
+      "keywords": [
+        "景观建筑",
+        "景观生态设计师",
+        "可持续景观与城市生态设计专家，覆盖雨水花园",
+        "生物滞留",
+        "绿色屋顶"
       ]
     },
     {
@@ -417,11 +855,31 @@
       "depends_on": [
         "construction-architectural-designer",
         "cybersecurity-engineering-cyber-risk-model",
+        "engineering-git-workflow-master",
         "finance-engineering-credit-risk-model",
-        "healthcare-mental-health"
+        "healthcare-mental-health",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Noise is the invisible pollutant — it disturbs sleep, impairs learning, and shortens lives. You design the barriers, insulation, and policies that bring quiet to cities.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "environmental",
+        "acoustics",
+        "Modeled",
+        "mitigated"
+      ],
+      "keywords": [
+        "环境噪声",
+        "交通噪声控制工程师",
+        "城市环境噪声与交通噪声预测控制专家，覆盖交通噪声",
+        "公路",
+        "铁路"
       ]
     },
     {
@@ -434,10 +892,31 @@
       "path": "construction/construction-engineering-piping-design.md",
       "depends_on": [
         "construction-engineering-industrial-refrigeration",
-        "marketing-abm-account-based"
+        "engineering-git-workflow-master",
+        "marketing-abm-account-based",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every refinery, every chemical plant, every power station is a maze of pipes — you design the arteries that carry steam, chemicals, and fuel safely",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "industrial",
+        "piping",
+        "Designed",
+        "systems"
+      ],
+      "keywords": [
+        "管道",
+        "配管设计工程师",
+        "工业管道系统与工艺配管设计专家，覆盖ASME",
+        "B31.1",
+        "B31.3管道规范"
       ]
     },
     {
@@ -449,11 +928,32 @@
       "subcategory": "",
       "path": "construction/construction-engineering-rail-infrastructure.md",
       "depends_on": [
-        "construction-architectural-designer"
+        "construction-architectural-designer",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A train at 350km/h rides on two steel rails — you maintain the millimeter-precise track geometry that keeps it stable, safe, and comfortable",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "railway",
+        "track",
+        "engineering",
+        "Maintained"
+      ],
+      "keywords": [
+        "轨道工程",
+        "铁路基础设施维护工程师",
+        "有砟",
+        "无砟轨道结构与铁路基础设施专家，覆盖轨道几何",
+        "Track"
       ]
     },
     {
@@ -466,13 +966,33 @@
       "path": "construction/construction-engineering-rail-transit.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "construction-architectural-designer",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "telecom-engineering-signal-integrity"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Trains running at 350km/h with 3-minute headways — that's not luck, that's signaling. You design the systems that keep millions moving safely every day.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "railway",
+        "signaling",
+        "Designed",
+        "CBTC"
+      ],
+      "keywords": [
+        "轨道交通",
+        "信号系统工程专家",
+        "CBTC",
+        "ETCS",
+        "联锁",
+        "CBI",
+        "ATP",
+        "SIL4",
+        "EN 50126"
       ]
     },
     {
@@ -484,10 +1004,31 @@
       "subcategory": "",
       "path": "construction/construction-engineering-railway-systems-design.md",
       "depends_on": [
-        "construction-architectural-designer"
+        "construction-architectural-designer",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A train at 350km/h — stable, comfortable, safe. That's engineering on bogies, brakes, and aerodynamics.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "railway",
+        "vehicle",
+        "engineering",
+        "Designed"
+      ],
+      "keywords": [
+        "铁路车辆",
+        "动车组设计工程师",
+        "铁路车辆与高速动车组机械设计专家，覆盖车辆动力学",
+        "蛇行",
+        "舒适度"
       ]
     },
     {
@@ -499,10 +1040,31 @@
       "subcategory": "",
       "path": "construction/construction-engineering-rock-mechanics.md",
       "depends_on": [
-        "construction-engineering-geotechnical-earthquake"
+        "construction-engineering-geotechnical-earthquake",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Mining extracts the minerals civilization runs on — you ensure the rock doesn't collapse, the slope doesn't fail, and the miners go home safely",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "mining",
+        "geomechanics",
+        "Designed",
+        "stable"
+      ],
+      "keywords": [
+        "岩石力学",
+        "采矿工程工程师",
+        "岩石力学与采矿",
+        "隧道围岩稳定性专家，覆盖岩石强度准则",
+        "Hoek-Brown"
       ]
     },
     {
@@ -516,10 +1078,30 @@
       "depends_on": [
         "automotive-engineering-functional-safety",
         "construction-architectural-designer",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
         "robotics-motion-control"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Buildings designed to old codes stand in every city — you evaluate them, retrofit them, and make sure they'll stand through the next big earthquake",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "structural",
+        "retrofit",
+        "Strengthened",
+        "buildings"
+      ],
+      "keywords": [
+        "抗震加固",
+        "抗震韧性评估工程师",
+        "既有建筑抗震鉴定与结构加固改造专家，覆盖抗震鉴定",
+        "ATC-40",
+        "FEMA"
       ]
     },
     {
@@ -533,11 +1115,32 @@
       "depends_on": [
         "construction-architectural-designer",
         "cybersecurity-engineering-cyber-risk-model",
+        "engineering-git-workflow-master",
         "finance-engineering-credit-risk-model",
-        "government-smart-city"
+        "government-smart-city",
+        "web3-smart-contract-dev",
+        "web3-smart-contract-developer"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Before steel is cut and concrete poured, you simulate every load, every stress, every failure mode — ensuring the structure survives reality",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "structural",
+        "analysis",
+        "Simulated",
+        "everything"
+      ],
+      "keywords": [
+        "结构分析",
+        "有限元",
+        "FEA",
+        "高级工程师",
+        "高级结构有限元分析与仿真专家，覆盖非线性FEA"
       ]
     },
     {
@@ -549,10 +1152,31 @@
       "subcategory": "",
       "path": "construction/construction-engineering-structural-fire.md",
       "depends_on": [
-        "construction-fire-protection"
+        "construction-fire-protection",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Code says build this way; performance says prove it's safe. You use fire dynamics and structural mechanics to design buildings that survive fire and protect occupants.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "structural",
+        "fire",
+        "engineering",
+        "Designed"
+      ],
+      "keywords": [
+        "结构抗火",
+        "消防工程性能化设计专家",
+        "建筑结构抗火与性能化消防工程专家，覆盖结构耐火",
+        "混凝土",
+        "木防火保护"
       ]
     },
     {
@@ -564,10 +1188,31 @@
       "subcategory": "",
       "path": "construction/construction-engineering-tunnel-engineering.md",
       "depends_on": [
-        "construction-architectural-designer"
+        "construction-architectural-designer",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Going through a mountain is harder than going over it — but sometimes it's the only way. You design and build the tunnels that connect cities, drain floods, and move millions.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "tunnel",
+        "engineering",
+        "Delivered",
+        "tunnels"
+      ],
+      "keywords": [
+        "隧道",
+        "地下工程工程师",
+        "隧道与地下空间工程设计与施工专家，覆盖TBM",
+        "盾构",
+        "钻爆法"
       ]
     },
     {
@@ -580,14 +1225,32 @@
       "path": "construction/construction-engineering-urban-planning-design.md",
       "depends_on": [
         "construction-architectural-designer",
-        "cybersecurity-engineering-customer-identity-access",
+        "engineering-git-workflow-master",
+        "government-public-safety-analyst",
         "government-urban-planner",
         "infrastructure-identity-access",
-        "operations-report-distribution-agent",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cities are the greatest human invention — you design the streets and spaces where millions live, work, and connect",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "urban",
+        "planning",
+        "design",
+        "Planned"
+      ],
+      "keywords": [
+        "城市规划",
+        "城市设计师",
+        "可持续城市规划与城市设计专家，覆盖总体规划",
+        "控制性详规",
+        "TOD公共交通导向开发"
       ]
     },
     {
@@ -600,26 +1263,42 @@
       "path": "construction/construction-fire-protection.md",
       "depends_on": [
         "construction-electrical",
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-build-release-engineer",
         "infrastructure-identity-access",
         "sales-data-extraction-agent"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Fire doesn't negotiate — you design the systems that detect it, contain it, extinguish it, and get people out before any of those need to happen",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "消防工程师",
+        "建筑消防系统设计与验收专家，覆盖水喷淋",
+        "消火栓",
+        "气体灭火",
+        "火灾自动报警"
       ]
     },
     {
       "id": "construction-general-manager",
       "name": "建筑总经理",
       "description": "建筑领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🏗\"",
+      "emoji": "🏗",
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-general-manager.md",
       "depends_on": [
         "construction-director",
-        "cybersecurity-engineering-customer-identity-access",
         "engineering-general-manager",
         "legal-general-manager",
         "pets-general-manager",
@@ -628,7 +1307,26 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "建筑总经理",
+        "建筑领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -640,10 +1338,31 @@
       "subcategory": "",
       "path": "construction/construction-geotechnical-engineer.md",
       "depends_on": [
-        "construction-architectural-designer"
+        "construction-architectural-designer",
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist",
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every building stands on the ground — and if the ground fails, the building fails. You ensure what's beneath the foundation can support everything above it.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "geotechnical",
+        "engineering",
+        "Designed",
+        "foundations"
+      ],
+      "keywords": [
+        "岩土",
+        "地基工程师",
+        "岩土工程与地基基础设计专家，覆盖场地勘察",
+        "地质报告解读",
+        "桩基"
       ]
     },
     {
@@ -658,11 +1377,28 @@
         "construction-engineering-green-building",
         "construction-engineering-noise-control",
         "energy-engineering-waste-to-energy",
-        "manufacturing-engineering-automation-systems",
-        "operations-report-distribution-agent"
+        "manufacturing-engineering-automation-systems"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When 500 people work in a sealed glass tower in August, they don't think about the HVAC — which means you did your job perfectly",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "暖通空调",
+        "HVAC",
+        "工程师",
+        "暖通空调系统设计与施工专家，覆盖冷热源系统",
+        "冷水机组"
       ]
     },
     {
@@ -675,13 +1411,64 @@
       "path": "construction/construction-low-voltage.md",
       "depends_on": [
         "construction-architectural-designer",
-        "cybersecurity-engineering-customer-identity-access",
         "government-smart-city",
         "infrastructure-identity-access",
         "marketing-short-video-editing-coach"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The building's nervous system — every camera, every card reader, every thermostat, every speaker — runs on cables you designed. When they all work together, the building is smart; when they don't, it's just a building.",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "弱电智能化工程师",
+        "弱电与智能化系统设计与施工专家，覆盖综合布线",
+        "结构化布线",
+        "安防",
+        "视频监控"
+      ]
+    },
+    {
+      "id": "construction-multi-agent-coordinator",
+      "name": "Construction Multi-Agent Coordinator",
+      "description": "coordinates multi-agent workflows for construction — structural engineering, BIM, site management, safety compliance",
+      "emoji": "🏠",
+      "category": "construction",
+      "subcategory": "",
+      "path": "construction/construction-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating construction specialists into coherent multi-agent workflows",
+      "tags": [
+        "construction",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Construction",
+        "Multi-Agent",
+        "Coordinator",
+        "coordinates",
+        "workflows"
       ]
     },
     {
@@ -698,7 +1485,26 @@
         "energy-engineering-waste-to-energy"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Water comes in clean, leaves dirty, and never floods the building — that's the",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "给排水工程师",
+        "建筑给排水系统设计与施工专家，覆盖生活给水",
+        "热水",
+        "污废水排水",
+        "雨水"
       ]
     },
     {
@@ -713,11 +1519,29 @@
         "construction-engineering-construction-claims",
         "construction-engineering-construction-materials",
         "environmental-engineering-weather-forecast",
-        "finance-bank-relationship",
-        "operations-report-distribution-agent"
+        "finance-bank-relationship"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turning drawings into buildings — on time, on budget, and with everyone going",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "施工项目经理",
+        "施工项目管理专家，覆盖施工计划",
+        "进度控制",
+        "成本管理",
+        "分包协调"
       ]
     },
     {
@@ -731,10 +1555,29 @@
       "depends_on": [
         "construction-architectural-designer",
         "data-science-engineering-deep-learning-training",
-        "operations-report-distribution-agent"
+        "engineering-git-workflow-master",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Construction is one of the most dangerous industries on Earth — you're the person who makes sure every worker goes home to their family at the end of the day",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "safety",
+        "management",
+        "Managed",
+        "projects"
+      ],
+      "keywords": [
+        "建筑安全",
+        "健康与环境",
+        "HSE",
+        "经理",
+        "建筑施工安全与职业健康管理专家，覆盖HSE管理体系"
       ]
     },
     {
@@ -747,12 +1590,32 @@
       "path": "construction/construction-surveyor.md",
       "depends_on": [
         "construction-engineering-geodesy-surveying",
+        "engineering-git-workflow-master",
         "engineering-graph-database",
-        "legal-engineering-legal-document-automation"
+        "legal-engineering-legal-document-automation",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every building, every bridge, every tunnel starts with a survey stake in the ground — you establish the precise position that everything else builds upon",
+      "lifecycle": "published",
+      "tags": [
+        "construction",
+        "geomatics",
+        "engineering",
+        "surveying",
+        "Provided"
+      ],
+      "keywords": [
+        "测量",
+        "测绘工程师",
+        "工程测量与测绘专家，覆盖GNSS",
+        "全站仪",
+        "水准测量"
       ]
     }
   ]

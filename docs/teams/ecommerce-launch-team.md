@@ -8,15 +8,15 @@
 | 角色 | Agent | 职责 |
 |------|-------|------|
 | 🎯 统筹 | `project-management-studio-producer` | 平台战略、供应商谈判、里程碑管理 |
-| 📋 PM | `project-manager-senior` | 任务拆解、进度追踪 |
+| 📋 PM | `project-management-project-manager-senior` | 任务拆解、进度追踪 |
 | 🏗️ 后端架构 | `engineering-backend-architect` | 商品/库存/订单/支付核心域建模 |
 | 🎨 前端 | `engineering-frontend-developer` | 买家端 + 商家后台 UI |
 | 📱 移动端 | `engineering-mobile-app-builder` | iOS/Android 购物 App |
 | 💳 支付 | `engineering-payment-systems` | 支付网关集成、PCI-DSS 合规 |
-| 🔒 安全 | `compliance-auditor` | 交易安全、数据加密、隐私合规 |
+| 🔒 安全 | `cybersecurity-compliance-auditor` | 交易安全、数据加密、隐私合规 |
 | 🔍 QA | `testing-evidence-collector` | 全链路测试：选品→下单→支付→退款 |
 | 📊 数据 | `data-science-data-engineer` | 埋点、用户行为分析、推荐数据管道 |
-| 🚀 DevOps | `engineering-devops-automator` | CI/CD、自动扩缩容、大促压测 |
+| 🚀 DevOps | `infrastructure-engineering-devops-automator` | CI/CD、自动扩缩容、大促压测 |
 | 📢 营销 | `marketing-growth-hacker` | 获客策略、优惠券体系、裂变活动 |
 | 🛡️ 风控 | `finance-risk-manager` | 反欺诈、刷单检测、信用评估 |
 

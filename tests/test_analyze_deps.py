@@ -89,7 +89,8 @@ class TestExtractTerms:
         )
         result = extract_terms(f)
         assert result is not None
-        assert len(result["desc_terms"]) >= 0
+        # "machine", "learning", "model", ... should be extracted
+        assert len(result["desc_terms"]) > 0
 
     def test_extracts_body_bold_terms(self, tmp_path):
         f = make_agent_file(
@@ -466,8 +467,7 @@ Standard data processing pipeline.
         result = extract_terms(path)
         assert result is not None
         # Should extract "人工智能技术" or "深度学习框架" as body terms
-        assert any("人工智能" in t or "深度学习" in t for t in result["body_terms"]) or \
-               len(result["body_terms"]) >= 0
+        assert any("人工智能" in t or "深度学习" in t for t in result["body_terms"])
 
     def test_acronym_extraction(self, tmp_path):
         """Cover lines 125-126 — ALL_CAPS acronym extraction from body."""

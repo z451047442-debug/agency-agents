@@ -1,7 +1,7 @@
 {
   "category": "healthcare",
   "agent_count": 54,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "healthcare-anesthesiologist",
@@ -18,7 +18,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You take patients to the edge of consciousness and bring them back safely —",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "anesthesiology",
+        "Managed",
+        "anesthesia",
+        "surgical"
+      ],
+      "keywords": [
+        "麻醉科医师",
+        "临床麻醉与围术期医学专家，覆盖全身",
+        "区域",
+        "局部麻醉",
+        "困难气道管理"
       ]
     },
     {
@@ -40,6 +59,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Listen to the patient — they're telling you the diagnosis; your job is to hear it through the noise",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "临床诊断医师",
+        "临床诊断与内科专家，覆盖病史采集",
+        "鉴别诊断",
+        "循证医学",
+        "检查解读与治疗方案制定"
       ]
     },
     {
@@ -57,7 +94,26 @@
         "specialized-medical-billing-coding-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every patient deserves to feel heard, respected, and supported — especially",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "医疗客服专员",
+        "富有同理心的医疗客户服务专家，处理患者支持",
+        "账单咨询",
+        "预约管理",
+        "保险问题与投诉解决"
       ]
     },
     {
@@ -75,23 +131,62 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A smile is the first thing people notice — you restore function, relieve pain,",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "dental",
+        "practice",
+        "Provided",
+        "comprehensive"
+      ],
+      "keywords": [
+        "口腔科",
+        "牙科医师",
+        "口腔医学与牙科临床专家，覆盖口腔疾病诊治",
+        "龋病",
+        "牙周"
       ]
     },
     {
       "id": "healthcare-director",
       "name": "医疗健康总监",
       "description": "医疗健康领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🏥\"",
+      "emoji": "🏥",
       "category": "healthcare",
       "subcategory": "",
       "path": "healthcare/healthcare-director.md",
       "depends_on": [
-        "healthcare-general-manager"
+        "healthcare-general-manager",
+        "legal-document-review"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 医疗保健与生命科学 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Clinical",
+        "Domain",
+        "Expertise",
+        "Success"
+      ],
+      "keywords": [
+        "医疗健康总监",
+        "医疗健康领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -110,7 +205,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In the ED, you have minutes to make decisions that will affect the rest of the",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "急诊",
+        "院前急救医师",
+        "急诊医学与院前急救专家，覆盖急诊分诊",
+        "危重症识别",
+        "创伤"
       ]
     },
     {
@@ -130,6 +244,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Printing living human tissue layer by layer — skin for burn victims, cartilage for joints, eventually whole organs. That's bioprinting.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "bioprinting",
+        "Printed",
+        "living",
+        "tissues"
+      ],
+      "keywords": [
+        "生物3D打印",
+        "组织器官打印研究员",
+        "生物墨水与活细胞3D打印专家，覆盖挤出式",
+        "喷墨式",
+        "光固化"
       ]
     },
     {
@@ -149,6 +281,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The body can heal itself — sometimes it just needs the right scaffold. You design the materials that guide tissue regeneration",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "biomaterials",
+        "Developed",
+        "implantable",
+        "materials"
+      ],
+      "keywords": [
+        "生物材料",
+        "组织工程研究员",
+        "可植入生物材料与组织再生支架专家，覆盖可降解聚合物",
+        "PLA",
+        "PGA"
       ]
     },
     {
@@ -167,7 +317,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Engineering meets medicine — you design the devices that diagnose disease, replace",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "medical",
+        "device",
+        "development",
+        "Designed"
+      ],
+      "keywords": [
+        "生物医学工程师",
+        "生物医学工程与医疗器械开发专家，覆盖医疗设备设计",
+        "开发",
+        "ISO",
+        "生物信号处理"
       ]
     },
     {
@@ -185,7 +354,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Clinical trial data proves whether medicines work — you manage and analyze the",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "clinical",
+        "statistical",
+        "programming",
+        "Programmed"
+      ],
+      "keywords": [
+        "临床数据管理",
+        "生物统计程序员",
+        "临床试验数据管理与SAS",
+        "R统计编程专家，覆盖CRF",
+        "eCRF病例报告表设计"
       ]
     },
     {
@@ -203,7 +391,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Living cells are the world's most sophisticated chemical factories — you grow",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "bioprocess",
+        "development",
+        "Scaled",
+        "fermentation"
+      ],
+      "keywords": [
+        "生物工艺",
+        "发酵工程师",
+        "生物反应器与发酵工艺放大专家，覆盖CHO",
+        "微生物发酵工艺开发",
+        "上游"
       ]
     },
     {
@@ -221,13 +428,32 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Clinical trials save future lives, but only if conducted rigorously — you manage",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "clinical",
+        "research",
+        "Coordinated",
+        "trials"
+      ],
+      "keywords": [
+        "临床研究协调员",
+        "CRC",
+        "研究护士",
+        "临床试验现场运营与受试者管理专家，覆盖GCP",
+        "ICH"
       ]
     },
     {
       "id": "healthcare-engineering-cold-chain-pharma",
       "name": "医药冷链/GDP温控物流工程师",
-      "description": "药品优良分销规范(GDP)冷链物流与温度控制专家，覆盖药品冷链(2-8°C/15-25°C/-20°C)温控包装(被动PCM/主动温控箱)、温度监测(数据记录器/实时IoT)、冷链验证/确认(ISTA 7D/WHO/PDA TR39)与药品序列化/追溯(DSCSA/EU FMD)",
+      "description": "药品优良分销规范(GDP)冷链物流与温度控制专家，覆盖药品冷链(2-8°C/15-25°C/-20°C)温控包装(被动PCM/主动温控箱)、温度监测(数据记录器/实时IoT)、冷链验证/确认(ISTA",
       "emoji": "💊",
       "category": "healthcare",
       "subcategory": "",
@@ -239,7 +465,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A vaccine that gets too warm is just an expensive liquid — you design the cold",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "pharmaceutical",
+        "logistics",
+        "Designed",
+        "cold"
+      ],
+      "keywords": [
+        "医药冷链",
+        "GDP温控物流工程师",
+        "药品优良分销规范",
+        "GDP",
+        "冷链物流与温度控制专家，覆盖药品冷链"
       ]
     },
     {
@@ -259,6 +504,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Seeing a protein at near-atomic resolution — down to individual amino acid side chains — that's cryo-EM, the technique that revolutionized structural biology",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "structural",
+        "biology",
+        "Determined",
+        "macromolecular"
+      ],
+      "keywords": [
+        "冷冻电镜",
+        "Cryo-EM",
+        "结构生物学研究员",
+        "单颗粒冷冻电镜与冷冻电子断层扫描",
+        "cryo-ET"
       ]
     },
     {
@@ -275,12 +538,30 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "CRISPR edits DNA with surgical precision — you design the guide RNAs that create disease-resistant wheat, drought-tolerant rice, and healthier vegetable oil",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "plant",
+        "gene",
+        "editing",
+        "Developed"
+      ],
+      "keywords": [
+        "基因编辑",
+        "CRISPR农业应用研究员",
+        "Gene",
+        "Editing",
+        "作物育种与农业生物技术专家，覆盖CRISPR"
       ]
     },
     {
       "id": "healthcare-engineering-gene-therapy",
       "name": "基因治疗/细胞治疗CMC专家",
-      "description": "AAV/慢病毒载体基因治疗与CAR-T/ TCR-T细胞治疗CMC工艺专家，覆盖病毒载体(悬浮HEK293/Sf9-杆状病毒)上游/下游纯化、自体/异体细胞治疗工艺(磁珠/自动化)、关键质量属性(CQA)/效力检测与BLA/MAA CMC模块",
+      "description": "AAV/慢病毒载体基因治疗与CAR-T/ TCR-T细胞治疗CMC工艺专家，覆盖病毒载体(悬浮HEK293/Sf9-杆状病毒)上游/下游纯化、自体/异体细胞治疗工艺(磁珠/自动化)、关键质量属性(CQA)/效力检测与BLA/MAA",
       "emoji": "🧬",
       "category": "healthcare",
       "subcategory": "",
@@ -292,7 +573,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "One infusion of engineered cells or one injection of a viral vector can cure",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "advanced",
+        "therapy",
+        "Developed",
+        "manufacturing"
+      ],
+      "keywords": [
+        "基因治疗",
+        "细胞治疗CMC专家",
+        "AAV",
+        "慢病毒载体基因治疗与CAR-T",
+        "TCR-T细胞治疗CMC工艺专家，覆盖病毒载体"
       ]
     },
     {
@@ -313,12 +613,30 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The human genome is 3 billion base pairs — you write the algorithms that find meaning in the code of life, one variant at a time",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "bioinformatics",
+        "computational",
+        "biology",
+        "Analyzed"
+      ],
+      "keywords": [
+        "生物信息学",
+        "基因组学数据科学家",
+        "生物信息学与基因组数据分析专家，覆盖NGS测序数据处理",
+        "DNA",
+        "RNA-seq"
       ]
     },
     {
       "id": "healthcare-engineering-medical-device-software",
       "name": "医疗设备软件(SaMD/SiMD)工程师",
-      "description": "医疗器械软件与健康IT合规开发专家，覆盖IEC 62304软件生命周期、FDA 510(k)/PMA/De Novo提交、医疗设备网络安全(FDA Cybersecurity Guidance)与互操作性(HL7/FHIR/DICOM)",
+      "description": "医疗器械软件与健康IT合规开发专家，覆盖IEC 62304软件生命周期、FDA 510(k)/PMA/De Novo提交、医疗设备网络安全(FDA",
       "emoji": "🏥",
       "category": "healthcare",
       "subcategory": "",
@@ -330,7 +648,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Medical software can save lives or cause harm — every line of code must be validated,",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "medical",
+        "device",
+        "software",
+        "Developed"
+      ],
+      "keywords": [
+        "医疗设备软件",
+        "SaMD",
+        "SiMD",
+        "工程师",
+        "医疗器械软件与健康IT合规开发专家，覆盖IEC"
       ]
     },
     {
@@ -351,12 +688,30 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AI that reads CT scans, detects tumors, and predicts treatment response — you build the algorithms that augment radiologists and save lives through earlier diagnosis",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "medical",
+        "image",
+        "Developed",
+        "FDA-cleared"
+      ],
+      "keywords": [
+        "医学影像AI",
+        "放射组学研究员",
+        "医学影像人工智能与影像组学",
+        "Radiomics",
+        "专家，覆盖CT"
       ]
     },
     {
       "id": "healthcare-engineering-medical-robotics",
       "name": "手术机器人/医疗机器人工程师",
-      "description": "微创手术机器人与介入导航系统专家，覆盖主从控制/力反馈/运动缩放、手术器械/末端执行器/无菌适配器、术中导航/光学追踪与FDA/CE注册(IEC 60601/IEC 62304/RAMS)",
+      "description": "微创手术机器人与介入导航系统专家，覆盖主从控制/力反馈/运动缩放、手术器械/末端执行器/无菌适配器、术中导航/光学追踪与FDA/CE注册(IEC",
       "emoji": "🏥",
       "category": "healthcare",
       "subcategory": "",
@@ -369,7 +724,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A surgeon's hands tremor, their reach is limited, and their vision is direct",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "medical",
+        "robotics",
+        "Developed",
+        "surgical"
+      ],
+      "keywords": [
+        "手术机器人",
+        "医疗机器人工程师",
+        "微创手术机器人与介入导航系统专家，覆盖主从控制",
+        "力反馈",
+        "运动缩放"
       ]
     },
     {
@@ -390,6 +764,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You have 100 trillion microbes in your gut — they affect your immunity, your mood, your metabolism. You study this invisible ecosystem that makes us who we are.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "microbiome",
+        "research",
+        "Analyzed",
+        "microbial"
+      ],
+      "keywords": [
+        "微生物组",
+        "宏基因组学研究员",
+        "人体与环境微生物组计算生物学专家，覆盖宏基因组",
+        "16S",
+        "rRNA扩增子测序分析"
       ]
     },
     {
@@ -408,6 +800,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A single drop of blood can reveal cancer, infection, or genetic disease — you develop the tests that turn molecular biology into life-saving diagnostics",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "product",
+        "development",
+        "Developed",
+        "molecular"
+      ],
+      "keywords": [
+        "分子诊断",
+        "精准医疗产品开发专家",
+        "体外诊断",
+        "IVD",
+        "与分子诊断产品开发专家，覆盖PCR"
       ]
     },
     {
@@ -427,6 +837,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The brain is the most complex system in the known universe — you build the interfaces that read its signals and write back to it, restoring movement, speech, and sensation",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "neural",
+        "engineering",
+        "Developed",
+        "systems"
+      ],
+      "keywords": [
+        "神经工程",
+        "脑机接口",
+        "BCI",
+        "研究员",
+        "神经工程与脑机接口技术研究员，覆盖非侵入式"
       ]
     },
     {
@@ -446,6 +874,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You can see a single cancer cell light up on a PET scan, then destroy it with a radioactive payload — that's theranostics, nuclear medicine's revolution",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "radiopharmaceuticals",
+        "Developed",
+        "diagnostic",
+        "therapeutic"
+      ],
+      "keywords": [
+        "核医学",
+        "放射性药物专家",
+        "诊断治疗一体化核医学与放射性药物专家，覆盖PET",
+        "18F",
+        "68Ga"
       ]
     },
     {
@@ -463,7 +909,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A precision-ground lens corrects vision to 20/20 — you design the optics that",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "ophthalmic",
+        "optics",
+        "Designed",
+        "lenses"
+      ],
+      "keywords": [
+        "视光学",
+        "眼科光学工程师",
+        "眼科光学与视觉矫正技术专家，覆盖眼镜片光学设计",
+        "单光",
+        "渐进多焦点"
       ]
     },
     {
@@ -481,13 +946,32 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Peptides and oligonucleotides are the molecules between small drugs and large",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "peptide",
+        "oligonucleotide",
+        "manufacturing",
+        "Scaled"
+      ],
+      "keywords": [
+        "多肽",
+        "寡核苷酸药物CMC专家",
+        "治疗性多肽与反义寡核苷酸",
+        "ASO",
+        "siRNA"
       ]
     },
     {
       "id": "healthcare-engineering-pharmacoeconomics",
       "name": "药物经济学/卫生技术评估(HTA)专家",
-      "description": "药物经济学评价与医保准入谈判专家，覆盖成本效果/成本效用分析(CER/ICER/QALY)、预算影响分析(BIA)、卫生技术评估(HTA)/价值档案(Value Dossier)与国家医保目录(NRDL)准入谈判",
+      "description": "药物经济学评价与医保准入谈判专家，覆盖成本效果/成本效用分析(CER/ICER/QALY)、预算影响分析(BIA)、卫生技术评估(HTA)/价值档案(Value",
       "emoji": "💊",
       "category": "healthcare",
       "subcategory": "",
@@ -499,13 +983,32 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A drug that cures cancer but costs $1 million per patient — is it worth it?",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "pharmacoeconomics",
+        "Built",
+        "submissions",
+        "value"
+      ],
+      "keywords": [
+        "药物经济学",
+        "卫生技术评估",
+        "HTA",
+        "专家",
+        "药物经济学评价与医保准入谈判专家，覆盖成本效果"
       ]
     },
     {
       "id": "healthcare-engineering-pharmacovigilance",
       "name": "药物警戒/药品安全专家",
-      "description": "上市后药物警戒与药品安全管理专家，覆盖不良事件(AE/SAE/SUSAR)个例报告处理/MedDRA编码、PSUR/PBRER/DSUR定期报告、信号检测(Empirical Bayes/PRR)与风险管理计划(RMP/REMS)",
+      "description": "上市后药物警戒与药品安全管理专家，覆盖不良事件(AE/SAE/SUSAR)个例报告处理/MedDRA编码、PSUR/PBRER/DSUR定期报告、信号检测(Empirical",
       "emoji": "⚕️",
       "category": "healthcare",
       "subcategory": "",
@@ -517,7 +1020,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A drug's safety story doesn't end at approval — you monitor every patient, every",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "drug",
+        "safety",
+        "Managed",
+        "products"
+      ],
+      "keywords": [
+        "药物警戒",
+        "药品安全专家",
+        "上市后药物警戒与药品安全管理专家，覆盖不良事件",
+        "AE",
+        "SAE"
       ]
     },
     {
@@ -536,6 +1058,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Breeding better crops requires measuring millions of plants — you build the cameras, sensors, and AI that see which plants will feed the future",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "plant",
+        "phenotyping",
+        "Built",
+        "automated"
+      ],
+      "keywords": [
+        "表型组学",
+        "高通量植物表型研究员",
+        "植物表型组学与高通量自动化表型平台专家，覆盖可见光",
+        "高光谱",
+        "荧光"
       ]
     },
     {
@@ -553,7 +1093,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Amputation takes a limb; prosthetics gives back a life. You design the artificial",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "prosthetics",
+        "orthotics",
+        "Designed",
+        "devices"
+      ],
+      "keywords": [
+        "假肢",
+        "矫形器",
+        "康复辅具工程师",
+        "上下肢假肢与脊柱",
+        "四肢矫形器临床工程专家，覆盖肌电"
       ]
     },
     {
@@ -572,13 +1131,32 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A drug that can't get approved is a scientific discovery, not a medicine. You",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "regulatory",
+        "affairs",
+        "successful",
+        "NDA/BLA"
+      ],
+      "keywords": [
+        "监管科学",
+        "法规策略",
+        "Regulatory",
+        "Strategy",
+        "顾问"
       ]
     },
     {
       "id": "healthcare-engineering-sewage-epidemiology",
       "name": "污水流行病学(WBE)/环境病原监测专家",
-      "description": "基于废水的公共卫生监测与流行病学专家，覆盖污水中病原体(病毒/细菌/耐药基因AMR)/药物/代谢标志物检测(qPCR/ddPCR/靶向/非靶向分析)、人群消费/健康行为反演(WBE Back-Calculation)与公共卫生早期预警",
+      "description": "基于废水的公共卫生监测与流行病学专家，覆盖污水中病原体(病毒/细菌/耐药基因AMR)/药物/代谢标志物检测(qPCR/ddPCR/靶向/非靶向分析)、人群消费/健康行为反演(WBE",
       "emoji": "🦠",
       "category": "healthcare",
       "subcategory": "",
@@ -590,13 +1168,32 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "What a city flushes down the toilet tells you about its health — you monitor",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Monitored",
+        "population",
+        "health",
+        "through"
+      ],
+      "keywords": [
+        "污水流行病学",
+        "WBE",
+        "环境病原监测专家",
+        "基于废水的公共卫生监测与流行病学专家，覆盖污水中病原体",
+        "病毒"
       ]
     },
     {
       "id": "healthcare-engineering-synthetic-biology",
       "name": "合成生物学/基因线路设计研究员",
-      "description": "合成生物学与基因线路工程专家，覆盖CRISPR/Cas基因编辑/碱基编辑、基因线路(逻辑门/振荡器/开关)设计、代谢途径工程/底盘生物与DNA合成/组装(Gibson/Golden Gate)",
+      "description": "合成生物学与基因线路工程专家，覆盖CRISPR/Cas基因编辑/碱基编辑、基因线路(逻辑门/振荡器/开关)设计、代谢途径工程/底盘生物与DNA合成/组装(Gibson/Golden",
       "emoji": "🧬",
       "category": "healthcare",
       "subcategory": "",
@@ -608,7 +1205,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Biology is programmable — you write the genetic code that reprograms cells to",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "synthetic",
+        "biology",
+        "Engineered",
+        "organisms"
+      ],
+      "keywords": [
+        "合成生物学",
+        "基因线路设计研究员",
+        "合成生物学与基因线路工程专家，覆盖CRISPR",
+        "Cas基因编辑",
+        "碱基编辑"
       ]
     },
     {
@@ -626,7 +1242,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Disease is a network problem — you map the molecular interactions that cause",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "systems",
+        "biology",
+        "Built",
+        "computational"
+      ],
+      "keywords": [
+        "系统生物学",
+        "网络药理学研究员",
+        "系统生物学与网络药理学研究专家，覆盖蛋白质互作网络",
+        "PPI",
+        "基因调控网络"
       ]
     },
     {
@@ -644,7 +1279,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The same CT and MRI technology that diagnoses human disease now serves pets,",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "veterinary",
+        "medicine",
+        "Performed",
+        "advanced"
+      ],
+      "keywords": [
+        "兽医影像",
+        "兽医外科专家",
+        "小动物",
+        "异宠",
+        "大动物兽医影像诊断与外科专家，覆盖DR"
       ]
     },
     {
@@ -662,13 +1316,31 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Disciplined yet encouraging — blending exercise science with motivational coaching to build strength that lasts a lifetime, not just a season.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "健身教练",
+        "力量训练",
+        "功能性训练",
+        "康复训练",
+        "运动处方"
       ]
     },
     {
       "id": "healthcare-general-manager",
       "name": "医疗健康总经理",
       "description": "医疗健康领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🏥\"",
+      "emoji": "🏥",
       "category": "healthcare",
       "subcategory": "",
       "path": "healthcare/healthcare-general-manager.md",
@@ -682,7 +1354,26 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Clinical",
+        "Domain",
+        "Expertise",
+        "Industry"
+      ],
+      "keywords": [
+        "医疗健康总经理",
+        "医疗健康领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -700,7 +1391,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Running a hospital is like running a hotel where every guest is having the worst",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "医院管理专家",
+        "医院管理与运营专家，覆盖医疗质量管理",
+        "JCI评审",
+        "床位调度",
+        "感控管理"
       ]
     },
     {
@@ -719,7 +1429,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A hospital is a business that can never turn away a customer who can't pay.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Clinical",
+        "Domain",
+        "Expertise",
+        "Success"
+      ],
+      "keywords": [
+        "医院院长",
+        "CEO",
+        "医院最高管理者，覆盖医院战略",
+        "学科建设",
+        "医疗质量"
       ]
     },
     {
@@ -730,9 +1459,30 @@
       "category": "healthcare",
       "subcategory": "",
       "path": "healthcare/healthcare-immunology.md",
+      "depends_on": [
+        "pharma-biotech-director"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Immunology specialist — from T-cell receptor diversity to checkpoint inhibitor mechanisms, from vaccine adjuvant design to CAR-T engineering. The immune system is the most complex system after the brain; understanding it means understanding health at its foundation.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "免疫学专家",
+        "先天与适应性免疫",
+        "自身免疫病",
+        "肿瘤免疫学",
+        "疫苗学"
       ]
     },
     {
@@ -751,6 +1501,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Keeps your healthcare marketing legal in China's tightly regulated landscape",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Compliance",
+        "Review",
+        "Tools",
+        "Basic"
+      ],
+      "keywords": [
+        "医疗营销合规专家",
+        "中国医疗广告法规合规专家",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
@@ -768,7 +1536,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Mental illness is as real as any physical disease — you diagnose it, treat it,",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "psychiatry",
+        "Treated",
+        "thousands",
+        "across"
+      ],
+      "keywords": [
+        "精神科",
+        "心理健康医师",
+        "精神医学与心理健康临床专家，覆盖抑郁",
+        "焦虑",
+        "双相"
       ]
     },
     {
@@ -779,9 +1566,30 @@
       "category": "healthcare",
       "subcategory": "",
       "path": "healthcare/healthcare-neuroscience-advanced.md",
+      "depends_on": [
+        "pharma-biotech-director"
+      ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Neuroscientist — from synaptic plasticity to large-scale brain networks, from Alzheimer's pathology to brain-computer interfaces. The brain is the most complex object in the known universe.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "神经科学专家",
+        "系统与认知神经科学",
+        "神经退行性疾病",
+        "神经可塑性",
+        "神经影像学"
       ]
     },
     {
@@ -800,7 +1608,26 @@
         "pharma-biotech-pharma-drug-discovery"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Doctors diagnose and prescribe; you are the one at the bedside at 3AM who notices",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "注册护士",
+        "临床护理专家，覆盖患者评估",
+        "护理计划",
+        "给药管理",
+        "急症识别"
       ]
     },
     {
@@ -818,6 +1645,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Evidence-based, practical, and empowering — translating nutritional science into sustainable daily habits without dogma or fad diets.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "营养师",
+        "膳食规划",
+        "营养评估",
+        "慢病营养管理",
+        "运动营养"
       ]
     },
     {
@@ -836,7 +1681,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You care for two patients at once — guiding mothers safely through pregnancy",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "obstetrics",
+        "Delivered",
+        "thousands",
+        "babies"
+      ],
+      "keywords": [
+        "产科",
+        "围产医学医师",
+        "产科与围产期保健专家，覆盖孕期管理",
+        "产前筛查",
+        "分娩管理"
       ]
     },
     {
@@ -855,7 +1719,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Children aren't small adults — their bodies, diseases, and psychology are different.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "pediatrics",
+        "Cared",
+        "children",
+        "birth"
+      ],
+      "keywords": [
+        "儿科医师",
+        "儿科与儿童保健专家，覆盖儿童生长发育",
+        "预防保健",
+        "新生儿",
+        "儿童常见病诊治"
       ]
     },
     {
@@ -870,7 +1753,6 @@
         "engineering-multi-agent-systems-architect",
         "healthcare-clinical-physician",
         "healthcare-engineering-medical-device-software",
-        "operations-report-distribution-agent",
         "pharma-biotech-pharma-clinical-trials",
         "pharma-biotech-pharma-drug-discovery",
         "quality-healthcare-clinical"
@@ -878,6 +1760,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every medication is a calculated risk — you're the expert who makes sure the benefit outweighs the harm",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "临床药剂师",
+        "临床药学专家，覆盖处方审核",
+        "药物相互作用评估",
+        "治疗药物监测",
+        "药学咨询与用药安全管理"
       ]
     },
     {
@@ -895,7 +1795,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Surgery fixes the structure; physiotherapy restores the function. You help people",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "physiotherapy",
+        "rehabilitation",
+        "Helped",
+        "thousands"
+      ],
+      "keywords": [
+        "物理治疗",
+        "康复治疗师",
+        "物理治疗与运动康复专家，覆盖骨骼肌肉",
+        "神经",
+        "心肺康复评估"
       ]
     },
     {
@@ -913,6 +1832,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A calm, non-judgmental presence who listens deeply, validates emotions, and guides toward healthier thought patterns — never diagnosing, always supporting.",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Professional",
+        "Scope",
+        "Safeguards",
+        "Authoritative"
+      ],
+      "keywords": [
+        "心理咨询师",
+        "认知行为疗法",
+        "心理评估",
+        "危机干预",
+        "积极心理学"
       ]
     },
     {
@@ -929,7 +1866,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A single CT scan contains thousands of images — you find the one finding that",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "diagnostic",
+        "radiology",
+        "Read",
+        "hundreds"
+      ],
+      "keywords": [
+        "影像",
+        "放射科医师",
+        "医学影像诊断与介入放射专家，覆盖X线",
+        "CT",
+        "MRI"
       ]
     },
     {
@@ -947,6 +1903,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Surgery is controlled trauma — you plan meticulously, execute precisely, and manage the aftermath because the patient trusted you with their body",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Clinical",
+        "Domain",
+        "Expertise",
+        "Success"
+      ],
+      "keywords": [
+        "外科医师",
+        "外科手术与围术期管理专家，覆盖术前评估",
+        "手术规划",
+        "开放",
+        "微创"
       ]
     },
     {
@@ -964,7 +1938,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "5000 years of empirical medicine — understands patterns of disharmony and restores",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "中医药师",
+        "中医诊断",
+        "方剂调配",
+        "针灸推拿与中西医结合咨询专家",
+        "核心信念"
       ]
     },
     {
@@ -982,7 +1975,26 @@
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "They can't tell you where it hurts — so you become their voice, their advocate,",
+      "lifecycle": "published",
+      "tags": [
+        "healthcare",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "宠物医生",
+        "犬猫内科",
+        "外科手术",
+        "皮肤科与宠物预防医学专家",
+        "核心信念"
       ]
     }
   ]

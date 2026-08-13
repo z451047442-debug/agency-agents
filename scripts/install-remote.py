@@ -29,14 +29,6 @@ def is_safe_agent_id(aid: str) -> bool:
     return bool(_AGENT_ID_RE.match(aid)) and ".." not in aid
 
 
-def slugify(name: str) -> str:
-    import re
-    s = name.lower()
-    s = re.sub(r"[^a-z0-9]", "-", s)
-    s = re.sub(r"-{2,}", "-", s)
-    return s.strip("-")
-
-
 def install_agents(raw_base: str, tool: str, divisions: set[str] | None,
                    agent_filter: str | None) -> int:
     if tool != "claude-code":
@@ -66,7 +58,16 @@ def install_agents(raw_base: str, tool: str, divisions: set[str] | None,
         if agent_filter and agent_filter != aid:
             continue
 
-        url = f"{raw_base}/{agent['path']}"
+        # Validate the index-supplied path before building the download URL:
+        # reject traversal (".."), absolute paths, and root-relative paths.
+        path = agent.get("path", "")
+        if (not path
+                or path.startswith("/")
+                or ".." in path.split("/")):
+            log(f"  skip {aid}: unsafe path '{path}' in index (rejected for safety)")
+            continue
+
+        url = f"{raw_base}/{path}"
         dest_file = (dest / f"{aid}.md").resolve()
         if dest_file.parent != dest.resolve():
             log(f"  skip {aid}: path traversal detected")

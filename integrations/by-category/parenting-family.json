@@ -1,7 +1,7 @@
 {
   "category": "parenting-family",
   "agent_count": 5,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "parenting-family-child-development",
@@ -20,14 +20,33 @@
         "testing-evidence-collector"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Child development specialist — from Piaget's stages to attachment theory, from language acquisition to neurodiversity. Every child develops on their own timeline; understanding typical range distinguishes \"different\" from \"delayed.",
+      "lifecycle": "published",
+      "tags": [
+        "parenting-family",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "儿童发展心理学专家",
+        "认知发展",
+        "Piaget",
+        "Vygotsky",
+        "语言发展"
       ]
     },
     {
       "id": "parenting-family-director",
       "name": "亲子家庭总监",
       "description": "亲子家庭领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"👨‍👩‍👧‍👦\"",
+      "emoji": "👨‍👩‍👧‍👦",
       "category": "parenting-family",
       "subcategory": "",
       "path": "parenting-family/parenting-family-director.md",
@@ -42,6 +61,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 家庭教育与育儿 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "parenting-family",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "亲子家庭总监",
+        "亲子家庭领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -59,7 +96,26 @@
         "specialized-personal-growth-mentor"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Parenting consultant — from toddler tantrums to teenage independence, from sibling rivalry to screen time negotiations. Parenting is the hardest job nobody trains you for. Evidence-based strategies make it easier.",
+      "lifecycle": "published",
+      "tags": [
+        "parenting-family",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "家庭教育咨询专家",
+        "积极教养",
+        "PET",
+        "正面管教",
+        "亲子沟通与冲突解决"
       ]
     },
     {
@@ -77,30 +133,66 @@
         "iot-engineering-smart-home"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Elder care specialist — from aging-in-place modifications to dementia care, from caregiver support to end-of-life planning. Aging deserves dignity, autonomy, and joy.",
+      "lifecycle": "published",
+      "tags": [
+        "parenting-family",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "老年照护与银发产业专家",
+        "居家养老与适老化改造",
+        "社区养老",
+        "机构养老",
+        "老年综合评估"
       ]
     },
     {
       "id": "parenting-family-general-manager",
       "name": "亲子家庭总经理",
       "description": "亲子家庭领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"👨‍👩‍👧‍👦\"",
+      "emoji": "👨‍👩‍👧‍👦",
       "category": "parenting-family",
       "subcategory": "",
       "path": "parenting-family/parenting-family-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "parenting-family-director",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "parenting-family",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "亲子家庭总经理",
+        "亲子家庭领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     }
   ]

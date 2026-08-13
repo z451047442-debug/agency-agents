@@ -16,25 +16,7 @@ spec = importlib.util.spec_from_file_location(
 mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
 
-slugify = mod.slugify
 install_agents = mod.install_agents
-
-
-class TestSlugify:
-    def test_simple(self):
-        assert slugify("Frontend Developer") == "frontend-developer"
-
-    def test_special_chars(self):
-        assert slugify("C++ Expert (Embedded)") == "c-expert-embedded"
-
-    def test_multiple_dashes(self):
-        assert slugify("A & B -- Co.") == "a-b-co"
-
-    def test_leading_trailing_dash(self):
-        assert slugify("-hello world-") == "hello-world"
-
-    def test_numbers(self):
-        assert slugify("Model 3.0 Pro") == "model-3-0-pro"
 
 
 class TestInstallAgents:

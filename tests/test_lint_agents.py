@@ -649,23 +649,14 @@ class TestLintFileFreshness:
         assert any("stale" in i for i in infos)
 
     def test_freshness_exception_handled(self, tmp_path, monkeypatch):
-        """Exception during git freshness check is silently caught."""
+        """git_last_modified failure (returns None) must not crash lint_file."""
         monkeypatch.setattr(lint_agents, "git_last_modified",
                            lambda fp: None)
         filepath = make_agent_file(tmp_path, SAMPLE_AGENT_CONTENT)
         errors, warnings, infos = [], [], []
-        # Should not raise
+        # Should not raise; freshness is unknown, so no stale INFO is fabricated
         lint_file(filepath, errors, warnings, infos, freshness=True)
-        assert any("stale" in i for i in infos)
-
-    def test_freshness_exception_handled(self, tmp_path, monkeypatch):
-        """Exception during git freshness check is silently caught."""
-        monkeypatch.setattr(lint_agents, "git_last_modified",
-                           lambda fp: None)
-        filepath = make_agent_file(tmp_path, SAMPLE_AGENT_CONTENT)
-        errors, warnings, infos = [], [], []
-        # Should not raise
-        lint_file(filepath, errors, warnings, infos, freshness=True)
+        assert not any("stale" in i for i in infos)
 
 
 # ── lint_file security findings with different levels ──────────────────────

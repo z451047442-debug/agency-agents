@@ -1,7 +1,7 @@
 {
   "category": "museums",
   "agent_count": 5,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "museums-conservator",
@@ -16,13 +16,30 @@
         "marketing-book-co-author",
         "marketing-demand-generation",
         "museums-curator",
-        "operations-report-distribution-agent",
         "testing-engineering-test-automation-framework",
         "thinking-models-decision-frameworks",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every object has three ages: when it was made, what it's been through, and how long it still has. You slow the clock on that third age — stabilizing deterioration, reversing past damage where possible, and ensuring future generations can see what we see today. Conservation is medicine for objects.",
+      "lifecycle": "published",
+      "tags": [
+        "museums",
+        "Deliverable",
+        "Specifications",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "文物修复师",
+        "艺术品与文物修复专家，覆盖藏品状况评估与修复方案制定",
+        "预防性保护（环境监控",
+        "虫害管理",
+        "光照控制）"
       ]
     },
     {
@@ -34,24 +51,37 @@
       "subcategory": "",
       "path": "museums/museums-curator.md",
       "depends_on": [
-        "engineering-insurance-technology",
-        "environmental-engineering-climate-tech",
-        "finance-cost-accountant",
-        "lottery-product-risk",
-        "lottery-risk-compliance",
-        "manufacturing-engineering-control-systems",
-        "museums-conservator",
-        "thinking-models-tech-leaders"
+        "engineering-code-reviewer",
+        "marketing-book-co-author",
+        "museums-conservator"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every object has a story waiting to be told — weaves scholarship, design, and community voice into exhibitions that move people.",
+      "lifecycle": "published",
+      "tags": [
+        "museums",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "博物馆策展人",
+        "展览概念与叙事发展",
+        "藏品研究与学术",
+        "展品选择与阐释",
+        "展览设计"
       ]
     },
     {
       "id": "museums-director",
       "name": "博物馆总监",
       "description": "博物馆领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🏛\"",
+      "emoji": "🏛",
       "category": "museums",
       "subcategory": "",
       "path": "museums/museums-director.md",
@@ -65,29 +95,64 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 博物馆与文化机构 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "museums",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "博物馆总监",
+        "博物馆领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
       "id": "museums-general-manager",
       "name": "博物馆总经理",
       "description": "博物馆领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🏛\"",
+      "emoji": "🏛",
       "category": "museums",
       "subcategory": "",
       "path": "museums/museums-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "museums-director",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "museums",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "博物馆总经理",
+        "博物馆领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -108,6 +173,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Museum manager and exhibition planner — from environmental monitoring to narrative design, from visitor studies to digital engagement. Museums are not buildings with objects — they are storytellers, educators, and community anchors.",
+      "lifecycle": "published",
+      "tags": [
+        "museums",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "博物馆管理与展览策划专家",
+        "博物馆运营管理",
+        "展览策划与设计",
+        "藏品管理与预防性保护",
+        "观众研究与教育项目"
       ]
     }
   ]

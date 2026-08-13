@@ -1,7 +1,7 @@
 {
   "category": "media-entertainment",
-  "agent_count": 30,
-  "generated": "2026-07-16",
+  "agent_count": 31,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "media-entertainment-3ds-max-expert",
@@ -20,6 +20,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "3ds Max is the Swiss Army knife of 3D — architecture, games, VFX, product design — it does everything, and you know which blade to use for each",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Tools",
+        "Technologies",
+        "Process"
+      ],
+      "keywords": [
+        "Autodesk",
+        "3ds",
+        "Max专家",
+        "Max三维建模",
+        "渲染"
       ]
     },
     {
@@ -32,7 +50,6 @@
       "path": "media-entertainment/media-entertainment-acrobat-expert.md",
       "depends_on": [
         "aerospace-flight-test-engineer",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "legal-engineering-legal-document-automation",
         "marketing-paid-media-search-query-analyst",
@@ -40,6 +57,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A PDF that can't be read by a screen reader is a lawsuit waiting to happen — a PDF that passes every validation check is invisible infrastructure that just works",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Tools",
+        "Technologies",
+        "Process"
+      ],
+      "keywords": [
+        "Adobe",
+        "Acrobat",
+        "PDF专家",
+        "Acrobat与PDF文档工程专家，覆盖PDF创建",
+        "优化"
       ]
     },
     {
@@ -51,10 +86,30 @@
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-after-effects-expert.md",
       "depends_on": [
-        "media-entertainment-creative-animator-vfx"
+        "media-entertainment-creative-animator-vfx",
+        "media-entertainment-classical-composition",
+        "design-motion-designer"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When a logo animates and the client says \"wow\" before you've even shown the sound design — that's After Effects. You make things move, and you make movement meaningful",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Tools",
+        "Technologies",
+        "Process"
+      ],
+      "keywords": [
+        "Adobe",
+        "Effects专家",
+        "Effects动态图形与视觉特效专家，覆盖2D",
+        "3D合成",
+        "运动图形"
       ]
     },
     {
@@ -75,6 +130,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every line you draw represents something real that will be built — a wall, a bolt, a circuit. Precision isn't optional, it's the job",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Authoritative",
+        "References",
+        "Methodology"
+      ],
+      "keywords": [
+        "AutoCAD专家",
+        "AutoCAD二维",
+        "三维CAD设计专家，覆盖建筑",
+        "机械",
+        "电气制图"
       ]
     },
     {
@@ -86,12 +159,30 @@
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-classical-composition.md",
       "depends_on": [
-        "education-online-learning-designer",
-        "engineering-minimal-change-engineer",
-        "specialized-personal-growth-mentor"
+        "data-science-engineering-language-model-nlp",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Composer and conductor — from Bach's fugues to Stravinsky's rhythms, from Berlioz's orchestration to Boulez's serialism. Music is architecture in time; every note has structural purpose.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "古典音乐作曲与指挥专家",
+        "交响乐",
+        "室内乐",
+        "歌剧",
+        "合唱作曲"
       ]
     },
     {
@@ -113,6 +204,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Meticulous and visually driven — sculpting geometry, crafting materials, and lighting scenes to create compelling 3D assets and worlds.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "3D",
+        "建模师",
+        "Blender",
+        "Maya",
+        "3ds"
       ]
     },
     {
@@ -129,6 +238,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You make the impossible look real — a dragon flying over a city, a spaceship exploding, a character feeling joy through movement. The audience believes because you made them believe.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "动画",
+        "视觉特效",
+        "VFX",
+        "3D动画与视觉特效专家，覆盖角色动画",
+        "绑定"
       ]
     },
     {
@@ -150,6 +277,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Creative yet technically precise — bridging musical intuition with production craft to turn ideas into polished, release-ready tracks.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "音乐制作人",
+        "作曲编曲",
+        "混音母带",
+        "DAW",
+        "Ableton"
       ]
     },
     {
@@ -171,6 +316,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Patient, observant, and visually articulate — capturing light, moment, and emotion with technical precision and artistic vision.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "摄影师",
+        "构图布光",
+        "人像",
+        "风光",
+        "产品摄影"
       ]
     },
     {
@@ -182,12 +345,31 @@
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-creative-sound-designer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "media-entertainment-multi-agent-coordinator",
         "marketing-paid-media-creative-strategist",
         "media-entertainment-creative-music-producer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sound is half the experience — you build worlds the audience feels even when",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "音效与声音设计师",
+        "声音设计与音频后期专家，覆盖音效设计",
+        "拟音",
+        "Foley",
+        "环境音场"
       ]
     },
     {
@@ -199,13 +381,32 @@
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-creative-videographer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "media-entertainment-multi-agent-coordinator",
         "marketing-paid-media-creative-strategist",
         "media-entertainment-creative-music-producer",
         "media-entertainment-creative-sound-designer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every frame is a choice — what you show, how you show it, and what the viewer",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "摄像师",
+        "视频制作人",
+        "视频拍摄与制作专家，覆盖摄影构图",
+        "灯光布光",
+        "现场收音"
       ]
     },
     {
@@ -217,10 +418,30 @@
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-dance-choreography.md",
       "depends_on": [
-        "specialized-identity-graph-operator"
+        "hr-tech-general-manager",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Choreographer — from classical ballet vocabulary to postmodern pedestrian movement, from Labanotation to contact improvisation. Dance is thought made visible through the body. The body doesn't lie.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "舞蹈编导与身体艺术专家",
+        "芭蕾",
+        "现代舞",
+        "当代舞",
+        "中国古典舞与民族民间舞编导"
       ]
     },
     {
@@ -233,12 +454,30 @@
       "path": "media-entertainment/media-entertainment-engineering-audio-dsp-signal.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "media-entertainment-multi-agent-coordinator",
         "finance-engineering-risk-quant",
         "media-entertainment-engineering-audio-engineer"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every voice call, every song streamed, every noise canceled — audio DSP makes it happen in real-time, one sample at a time",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "音频DSP",
+        "音频算法工程师",
+        "实时音频数字信号处理与音频算法专家，覆盖FIR",
+        "IIR滤波器设计",
+        "自适应滤波"
       ]
     },
     {
@@ -251,17 +490,35 @@
       "path": "media-entertainment/media-entertainment-engineering-audio-engineer.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "media-entertainment-multi-agent-coordinator",
         "media-entertainment-engineering-audio-dsp-signal"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sound is half the experience but 10% of the engineering effort — you make sure what users hear is as good as what they see",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "audio",
+        "engineering",
+        "Built",
+        "pipelines"
+      ],
+      "keywords": [
+        "音频",
+        "声学工程师",
+        "音频处理与声学工程专家，覆盖音频DSP",
+        "降噪",
+        "回声消除"
       ]
     },
     {
       "id": "media-entertainment-engineering-entertainment-technology",
       "name": "演艺技术/舞台灯光音响工程师",
-      "description": "大型演出与主题娱乐技术系统工程师，覆盖舞台机械/威亚/转台/升降台、专业灯光(Moving Light/LED/Media Server)/数字调音台/线阵列音响、演出控制(Show Control/MIDI/Timecode)与临时结构安全",
+      "description": "大型演出与主题娱乐技术系统工程师，覆盖舞台机械/威亚/转台/升降台、专业灯光(Moving Light/LED/Media Server)/数字调音台/线阵列音响、演出控制(Show",
       "emoji": "🎪",
       "category": "media-entertainment",
       "subcategory": "",
@@ -269,12 +526,31 @@
       "depends_on": [
         "education-special-needs",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "media-entertainment-multi-agent-coordinator",
         "marketing-paid-media-creative-strategist",
         "media-entertainment-3ds-max-expert"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the lights go down and the show begins, every moving light, every speaker,",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "live",
+        "entertainment",
+        "technology",
+        "Designed"
+      ],
+      "keywords": [
+        "演艺技术",
+        "舞台灯光音响工程师",
+        "大型演出与主题娱乐技术系统工程师，覆盖舞台机械",
+        "威亚",
+        "转台"
       ]
     },
     {
@@ -289,7 +565,7 @@
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-deep-learning-training",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
+        "media-entertainment-multi-agent-coordinator",
         "finance-engineering-credit-risk-model",
         "legal-engineering-legal-document-automation",
         "marketing-demand-generation",
@@ -298,7 +574,26 @@
         "product-trend-researcher"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AI can compose symphonies, recommend the perfect song, and isolate vocals from",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "music",
+        "information",
+        "retrieval",
+        "Built"
+      ],
+      "keywords": [
+        "音乐科技",
+        "音乐信息检索",
+        "MIR",
+        "研究员",
+        "音乐信息检索与AI音乐生成专家，覆盖音乐特征提取"
       ]
     },
     {
@@ -311,12 +606,29 @@
       "path": "media-entertainment/media-entertainment-engineering-video-streaming.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
-        "media-entertainment-3ds-max-expert",
-        "operations-report-distribution-agent"
+        "media-entertainment-multi-agent-coordinator",
+        "media-entertainment-3ds-max-expert"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Millions watching simultaneously, all expecting smooth playback — you build the encoding, packaging, and delivery pipeline that makes live video feel like magic",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "video",
+        "streaming",
+        "Built",
+        "pipelines"
+      ],
+      "keywords": [
+        "视频流",
+        "直播技术工程师",
+        "视频流媒体与直播技术专家，覆盖RTMP",
+        "HLS",
+        "WebRTC流媒体协议"
       ]
     },
     {
@@ -333,7 +645,26 @@
       ],
       "nexus_roles": [
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Film director — from shot list to final cut, from blocking actors to choosing lenses. The director orchestrates every department into one cohesive story.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "电影导演专家",
+        "视觉叙事与场面调度",
+        "演员指导与表演",
+        "摄影与镜头语言",
+        "剪辑与节奏"
       ]
     },
     {
@@ -347,13 +678,31 @@
       "depends_on": [
         "home-lifestyle-personal-finance",
         "hr-talent-acquisition-manager",
-        "logistics-engineering-supply-chain-risk",
-        "operations-report-distribution-agent"
+        "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Film producer — from optioning a script to walking the red carpet, from raising finance to selling territories at Cannes. The producer makes the movie happen, period.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Authoritative",
+        "References",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "电影制片人专家",
+        "电影项目开发与投融资",
+        "预算编制与控制",
+        "拍摄制作管理",
+        "发行与销售策略"
       ]
     },
     {
@@ -370,6 +719,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Fusion is where design meets manufacturing — the same platform that sketches your part also generates the toolpath that cuts it. Cloud-native, parametric, and relentlessly practical",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Authoritative",
+        "References",
+        "Methodology"
+      ],
+      "keywords": [
+        "Autodesk",
+        "Fusion专家",
+        "Fusion产品设计与制造专家，覆盖参数化实体建模",
+        "自由曲面",
+        "T-Spline"
       ]
     },
     {
@@ -388,6 +755,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Vectors are pure mathematics made visible — a Bezier curve doesn't care about resolution, it only cares about precision, and so do you",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "Adobe",
+        "Illustrator专家",
+        "Illustrator矢量设计专家，覆盖品牌标识",
+        "Logo设计",
+        "插画创作"
       ]
     },
     {
@@ -407,6 +792,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A 300-page book where every page looks different is a design failure — a 300-page book where every page looks perfect without anyone noticing the grid is mastery",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Tools",
+        "Technologies",
+        "Process"
+      ],
+      "keywords": [
+        "Adobe",
+        "InDesign专家",
+        "InDesign排版与出版专家，覆盖书籍",
+        "杂志",
+        "宣传册排版"
       ]
     },
     {
@@ -425,6 +828,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A great photo is made in two places — behind the camera and in Lightroom. The catalog is your memory, the Develop module is your darkroom, and efficiency is the difference between 100 edits and 10,000",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Adobe",
+        "Lightroom专家",
+        "Lightroom照片管理与后期处理专家，覆盖RAW处理",
+        "批量调色",
+        "目录管理"
       ]
     },
     {
@@ -441,6 +862,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Maya is the industry standard for character animation for a reason — its rigging and animation tools have been refined by 25 years of feature film production, and you know every node in the dependency graph",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Tools",
+        "Technologies",
+        "Process"
+      ],
+      "keywords": [
+        "Autodesk",
+        "Maya专家",
+        "Maya三维动画与视觉效果专家，覆盖角色建模",
+        "绑定",
+        "动画"
       ]
     },
     {
@@ -453,16 +892,70 @@
       "path": "media-entertainment/media-entertainment-media-director.md",
       "depends_on": [
         "data-science-engineering-computer-vision-deep",
-        "engineering-multi-agent-systems-architect",
+        "media-entertainment-multi-agent-coordinator",
         "finance-cost-accountant",
         "marketing-abm-account-based",
         "marketing-paid-media-creative-strategist",
-        "media-entertainment-3ds-max-expert",
-        "operations-report-distribution-agent"
+        "media-entertainment-3ds-max-expert"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Content is king, but production is the kingdom. You lead the creative and business",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Creative",
+        "vision",
+        "business",
+        "discipline"
+      ],
+      "keywords": [
+        "媒体",
+        "创意总监",
+        "媒体制作与创意团队最高负责人，覆盖内容策略",
+        "创意方向",
+        "制作团队"
+      ]
+    },
+    {
+      "id": "media-entertainment-multi-agent-coordinator",
+      "name": "Media & Entertainment Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for media — production, post-production,",
+      "emoji": "🎬",
+      "category": "media-entertainment",
+      "subcategory": "",
+      "path": "media-entertainment/media-entertainment-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating media-entertainment specialists into coherent multi-agent workflows",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Media",
+        "Entertainment",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates"
       ]
     },
     {
@@ -480,6 +973,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every pixel matters — you don't just edit images, you craft visual stories layer by layer, mask by mask, until reality and imagination are indistinguishable",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Tools",
+        "Technologies",
+        "Process"
+      ],
+      "keywords": [
+        "Adobe",
+        "Photoshop专家",
+        "Photoshop图像处理专家，覆盖图像合成",
+        "精修",
+        "调色"
       ]
     },
     {
@@ -491,10 +1002,30 @@
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-premiere-pro-expert.md",
       "depends_on": [
-        "media-entertainment-photoshop-expert"
+        "media-entertainment-photoshop-expert",
+        "media-entertainment-after-effects-expert",
+        "design-visual-storyteller"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Editing isn't about cutting — it's about rhythm, pacing, and knowing which 3 frames to remove to make a scene breathe",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Technical",
+        "Tools",
+        "Technologies",
+        "Process"
+      ],
+      "keywords": [
+        "Adobe",
+        "Premiere",
+        "Pro专家",
+        "Pro视频剪辑专家，覆盖多机位剪辑",
+        "时间线管理"
       ]
     },
     {
@@ -506,10 +1037,29 @@
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-revit-expert.md",
       "depends_on": [
-        "media-entertainment-3ds-max-expert"
+        "media-entertainment-3ds-max-expert",
+        "data-science-model-qa"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Revit isn't CAD — it's a database that happens to produce drawings. When you understand the data model, walls, doors, and schedules all update themselves",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "Autodesk",
+        "Revit专家",
+        "Revit建筑信息模型",
+        "BIM",
+        "专家，覆盖建筑"
       ]
     },
     {
@@ -525,7 +1075,26 @@
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Screenwriter — from logline to final draft, from Save the Cat to the Hero's Journey. A script is a blueprint for a movie; every scene must earn its place on screen.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "编剧专家",
+        "影视剧本结构",
+        "三幕",
+        "五幕",
+        "序列法"
       ]
     },
     {
@@ -537,12 +1106,31 @@
       "subcategory": "",
       "path": "media-entertainment/media-entertainment-theater-directing.md",
       "depends_on": [
-        "specialized-identity-graph-operator",
-        "unity-shader-graph-artist"
+        "data-science-engineering-reinforcement-learning",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Theater director — from Stanislavski's system to Brechtian alienation, from blocking to lighting design. Theater is the most human art form: live bodies in shared space, creating something that exists only in the moment.",
+      "lifecycle": "published",
+      "tags": [
+        "media-entertainment",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "戏剧导演与舞台设计专家",
+        "戏剧导演方法论",
+        "Stanislavski",
+        "Meisner",
+        "Brecht"
       ]
     }
   ]

@@ -36,18 +36,23 @@ jobs:
       - name: Validate AGENTS.json sync
         run: python scripts/validate-index.py
 
-      - name: Validate agent count consistency (AGENTS.json ↔ pyproject.toml)
+      - name: Validate agent count consistency (disk ↔ AGENTS.json ↔ pyproject.toml)
         run: |
           python -c "
-          import json, re
+          import json, re, sys
+          sys.path.insert(0, 'scripts')
+          from _shared import discover_agents
+          disk_count = sum(1 for _ in discover_agents())
           with open('AGENTS.json', encoding='utf-8') as f:
               index_count = json.load(f)['total_agents']
           with open('pyproject.toml', encoding='utf-8') as f:
               m = re.search(r'(\d+)\s+AI agent', f.read())
               toml_count = int(m.group(1)) if m else 0
+          assert index_count == disk_count, \
+              f'AGENTS.json has {index_count} agents but disk has {disk_count} (regenerate with scripts/generate-index.py)'
           assert index_count == toml_count, \
               f'AGENTS.json has {index_count} agents but pyproject.toml says {toml_count}'
-          print(f'OK: both report {index_count} agents')
+          print(f'OK: disk={disk_count} index={index_count} toml={toml_count}')
           "
 
       - name: Run tests + coverage gate

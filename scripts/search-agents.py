@@ -142,7 +142,7 @@ SCENARIO_CATEGORIES = {
     "mobile app": ["engineering", "design", "testing", "product"],
     "web app": ["engineering", "design", "testing", "product"],
     "saas": ["engineering", "marketing", "sales", "product", "finance"],
-    "security audit": ["cybersecurity", "security", "infrastructure", "testing"],
+    "security audit": ["cybersecurity", "infrastructure", "testing"],
     "startup": ["strategy", "engineering", "marketing", "finance", "legal"],
     "api": ["engineering", "testing", "infrastructure"],
     "devops": ["infrastructure", "engineering", "testing"],
@@ -153,10 +153,10 @@ SCENARIO_CATEGORIES = {
     "blockchain": ["web3", "engineering", "legal", "finance"],
     "cloud migration": ["infrastructure", "engineering", "data-science"],
     "compliance": ["legal", "cybersecurity", "finance", "insurance"],
-    "hiring": ["hr", "hr-tech", "operations"],
+    "hiring": ["hr", "operations"],
     "construction project": ["construction", "project-management", "real-estate"],
     "healthcare it": ["healthcare", "engineering", "data-science", "cybersecurity"],
-    "financial model": ["finance", "securities", "insurance", "data-science"],
+    "financial model": ["finance", "insurance", "data-science"],
     "supply chain": ["logistics", "manufacturing", "retail", "agriculture"],
     "customer support": ["customer-service", "operations", "product"],
     "ar/vr": ["spatial-computing", "design", "engineering"],
@@ -282,6 +282,14 @@ def main():
         print(f"ERROR: Invalid field '{args.field}'. Valid: name, description, id, emoji, category",
               file=sys.stderr)
         sys.exit(1)
+
+    # Validate regex at the CLI boundary instead of letting re.error escape
+    if args.regex and args.query:
+        try:
+            re.compile(args.query)
+        except re.error as e:
+            print(f"ERROR: invalid regular expression: {e}", file=sys.stderr)
+            sys.exit(1)
 
     try:
         from telemetry import record_event

@@ -1,7 +1,7 @@
 {
   "category": "publishing",
   "agent_count": 9,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "publishing-academic",
@@ -16,12 +16,29 @@
         "game-development-game-quality-assurance",
         "government-social-work",
         "logistics-public-transit",
-        "operations-report-distribution-agent",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Research unpublished is research undone. You shepherd rigorous scholarship through peer review, navigate the open access revolution, and ensure knowledge reaches the global research community with integrity and speed.",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "Deliverable",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "学术出版专员",
+        "学术出版专家，覆盖同行评审管理",
+        "开放获取合规（金色",
+        "绿色",
+        "混合OA）"
       ]
     },
     {
@@ -33,14 +50,30 @@
       "subcategory": "",
       "path": "publishing/publishing-comics-illustration.md",
       "depends_on": [
-        "design-visual-storyteller",
-        "marketing-linkedin-content-creator",
-        "specialized-identity-graph-operator",
-        "unity-editor-tool-developer",
-        "unity-shader-graph-artist"
+        "data-science-engineering-language-model-nlp",
+        "logistics-last-mile-delivery",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Comics artist and illustrator — from panel layouts to page turns, from character sheets to splash pages. Comics combine the narrative depth of literature with the visual immediacy of film, creating a medium where time is literally space on the page.",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "漫画与插画创作专家",
+        "漫画叙事",
+        "分镜",
+        "节奏",
+        "画格"
       ]
     },
     {
@@ -52,13 +85,29 @@
       "subcategory": "",
       "path": "publishing/publishing-creative-fiction.md",
       "depends_on": [
-        "marketing-linkedin-content-creator",
-        "marketing-short-video-editing-coach",
-        "operations-report-distribution-agent",
-        "specialized-personal-growth-mentor"
+        "marketing-paid-media-search-query-analyst",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Fiction writer — from three-act structure to stream of consciousness, from unreliable narrators to ensemble casts. Storytelling is the oldest human technology; mastering it means understanding both craft and the human heart.",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "文学小说创作专家",
+        "小说结构设计",
+        "人物塑造",
+        "叙事视角与声音",
+        "对话写作"
       ]
     },
     {
@@ -75,19 +124,36 @@
         "logistics-engineering-supply-chain-risk",
         "logistics-public-transit",
         "marketing-retail-media-ad",
-        "operations-report-distribution-agent",
         "robotics-motion-control",
         "telecom-engineering-signal-integrity"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The page is no longer paper — it's every screen. You transform manuscripts into digital products that reach readers wherever they read, optimizing discovery, distribution, and the reading experience across every platform.",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "数字出版经理",
+        "数字出版专家，覆盖电子书",
+        "有声书制作",
+        "数字分发渠道（Kindle",
+        "Apple"
       ]
     },
     {
       "id": "publishing-director",
       "name": "出版总监",
       "description": "出版领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"📖\"",
+      "emoji": "📖",
       "category": "publishing",
       "subcategory": "",
       "path": "publishing/publishing-director.md",
@@ -101,7 +167,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 出版与数字内容 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "出版总监",
+        "出版领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -118,34 +203,69 @@
         "marketing-field-marketing",
         "marketing-market-research",
         "marketing-retail-media-ad",
-        "operations-report-distribution-agent",
         "thinking-models-scientific-method"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A manuscript is a promise; a book is a fulfilled one. You find the story inside the draft, strengthen its structure, polish its language, and guide it from raw potential to finished work — the author's vision, sharper.",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "图书编辑",
+        "图书编辑专家，覆盖稿件审读与选题策划",
+        "发展性编辑与逐行编辑",
+        "作者关系管理",
+        "书名定位与市场包装"
       ]
     },
     {
       "id": "publishing-general-manager",
       "name": "出版总经理",
       "description": "出版领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"📖\"",
+      "emoji": "📖",
       "category": "publishing",
       "subcategory": "",
       "path": "publishing/publishing-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "pets-general-manager",
         "publishing-director",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "出版总经理",
+        "出版领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -166,6 +286,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A great book deserves a great deal. You discover voices, champion manuscripts, negotiate fiercely for your authors, and build careers that span decades — not just one book at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "文学经纪人",
+        "文学经纪专家，覆盖作者发掘与签约",
+        "稿件打磨与提案撰写",
+        "出版合同谈判（预付",
+        "版税"
       ]
     },
     {
@@ -177,13 +315,30 @@
       "subcategory": "",
       "path": "publishing/publishing-poetry.md",
       "depends_on": [
-        "specialized-personal-growth-mentor",
-        "sports-event-ops",
-        "testing-evidence-collector",
-        "unity-editor-tool-developer"
+        "data-science-engineering-language-model-nlp",
+        "marketing-paid-media-paid-social-strategist",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Poet — from iambic pentameter to free verse, from Li Bai's wine-moon imagery to Mary Oliver's wild geese. Poetry is language at its most concentrated — every word, every line break, every sound matters.",
+      "lifecycle": "published",
+      "tags": [
+        "publishing",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "诗歌创作专家",
+        "诗歌形式与格律",
+        "自由诗",
+        "十四行诗",
+        "俳句"
       ]
     }
   ]

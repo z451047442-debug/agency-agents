@@ -97,15 +97,26 @@ def install_agent(agent: dict, tool_cfg: dict, dest_dirs: list[tuple[Path, str]]
                 print(f"  Run convert first: python scripts/convert.py --tool {tool_cfg['kebab']}",
                       file=sys.stderr)
                 return 0
-            for candidate in integ.rglob("*"):
-                if not candidate.is_file():
-                    continue
-                # Match by agent id in filename (single-file) or parent dir (multi-file)
-                if agent["id"] in candidate.name or agent["id"] == candidate.parent.name:
-                    dest.parent.mkdir(parents=True, exist_ok=True)
-                    shutil.copy2(candidate, dest)
-                    count += 1
-                    break
+            # Prefer the exact source path implied by the dest template
+            # (e.g. "{slug}/agent.yaml" -> integrations/kimi/{id}/agent.yaml),
+            # which also copies the right file for multi-file formats.
+            rel_tmpl = name_tmpl.replace("{slug}", slug)
+            src = integ / rel_tmpl
+            if not src.exists():
+                src = None
+                # Fallback: exact id match — stem for single-file formats,
+                # parent dir for multi-file formats. Never substring-match,
+                # which could pick up a different agent's file.
+                for candidate in integ.rglob("*"):
+                    if not candidate.is_file():
+                        continue
+                    if agent["id"] == candidate.stem or agent["id"] == candidate.parent.name:
+                        src = candidate
+                        break
+            if src is not None:
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(src, dest)
+                count += 1
     return count
 
 
@@ -149,8 +160,10 @@ def list_installed(tool: str) -> None:
         if not dest_dir.exists():
             print(f"{tool}: not installed")
             continue
-        files = sorted(dest_dir.glob("*.md"))
-        print(f"{tool}: {len(files)} agents at ~/{dest_dir.relative_to(Path.home())}")
+        # Count files (single-file formats) and dirs (multi-file formats
+        # like kimi/openclaw install one directory per agent).
+        entries = sorted(dest_dir.iterdir())
+        print(f"{tool}: {len(entries)} agents at ~/{dest_dir.relative_to(Path.home())}")
 
 
 def verify_install(tool: str) -> bool:
@@ -161,7 +174,7 @@ def verify_install(tool: str) -> bool:
 
     agents = load_json(INDEX_PATH).get("agents", [])
     dest_dir = dest_dirs[0][0]
-    installed = {f.stem for f in dest_dir.glob("*.md")}
+    installed = {p.stem for p in dest_dir.iterdir()}
     expected = {a["id"] for a in agents}
     missing = expected - installed
     extra = installed - expected
@@ -185,11 +198,14 @@ def uninstall_tool(tool: str, agent_id: str | None) -> int:
         if not dest_dir.exists():
             continue
         if agent_id:
-            f = dest_dir / f"{agent_id}.md"
-            if f.exists():
-                f.unlink()
-                count += 1
-                print(f"  removed: {agent_id}")
+            for p in dest_dir.iterdir():
+                if p.stem == agent_id:
+                    if p.is_dir():
+                        shutil.rmtree(p)
+                    else:
+                        p.unlink()
+                    count += 1
+                    print(f"  removed: {agent_id}")
         else:
             for f in dest_dir.glob("*.md"):
                 f.unlink()

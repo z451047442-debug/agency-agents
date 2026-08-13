@@ -1,7 +1,7 @@
 {
   "category": "quality",
   "agent_count": 11,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "quality-customer-cqe",
@@ -12,22 +12,38 @@
       "subcategory": "",
       "path": "quality/quality-customer-cqe.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-incident-response",
         "data-science-engineering-deep-learning-training",
         "data-science-engineering-language-model-nlp",
-        "operations-report-distribution-agent",
         "quality-food-safety"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the customer is angry, the line is stopped, and everyone's looking at you — you stay calm, find the root cause, fix it permanently, and turn a complaint into loyalty",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "客户质量工程师",
+        "CQE",
+        "客户质量与投诉处理专家，覆盖客户投诉处理",
+        "8D根本原因分析",
+        "退货"
       ]
     },
     {
       "id": "quality-director",
       "name": "质量管理总监",
       "description": "质量管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"✅\"",
+      "emoji": "✅",
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-director.md",
@@ -41,7 +57,27 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 质量保证与卓越运营 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "质量管理总监",
+        "质量管理领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -53,7 +89,6 @@
       "subcategory": "",
       "path": "quality/quality-food-safety.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "food-beverage-engineering-food-packaging",
         "food-beverage-engineering-food-process",
         "food-beverage-food-safety",
@@ -61,18 +96,35 @@
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every meal is a trust exercise between producer and consumer — you make sure that trust is never broken by a pathogen, an allergen, or a foreign object",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "食品安全质量",
+        "QA",
+        "专家",
+        "食品质量与安全管理专家，覆盖HACCP危害分析",
+        "CCP关键控制点"
       ]
     },
     {
       "id": "quality-general-manager",
       "name": "质量管理总经理",
       "description": "质量管理领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"✅\"",
+      "emoji": "✅",
       "category": "quality",
       "subcategory": "",
       "path": "quality/quality-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "manufacturing-general-manager",
         "pets-general-manager",
         "quality-director",
@@ -82,7 +134,27 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "质量管理总经理",
+        "质量管理领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -100,11 +172,28 @@
         "design-engineering-human-factors",
         "finance-engineering-credit-risk-model",
         "healthcare-clinical-physician",
-        "marketing-short-video-editing-coach",
-        "operations-report-distribution-agent"
+        "marketing-short-video-editing-coach"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In manufacturing, a defect is a returned product. In healthcare, a defect can be a life. You build the systems that make healthcare safer — one process improvement, one checklist, one saved life at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "医疗质量与患者安全专家",
+        "医疗质量管理与患者安全专家，覆盖JCI",
+        "三级医院评审标准",
+        "临床质量指标",
+        "死亡率"
       ]
     },
     {
@@ -116,15 +205,31 @@
       "subcategory": "",
       "path": "quality/quality-lab-17025.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "education-special-needs",
         "food-beverage-food-supply-chain-traceability",
         "legal-engineering-legal-document-automation",
-        "operations-report-distribution-agent",
         "quality-service-callcenter"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A test result is only as good as the laboratory that produced it — you ensure every result is valid, traceable, and defensible to regulators and customers",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "实验室质量",
+        "ISO",
+        "专家",
+        "实验室质量管理与认可专家，覆盖ISO",
+        "IEC"
       ]
     },
     {
@@ -137,13 +242,30 @@
       "path": "quality/quality-process-pqe.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "manufacturing-engineering-control-systems",
         "manufacturing-production-planner",
         "quality-healthcare-clinical"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The production line is where quality happens or doesn't — you're on the floor, with the data, making sure every process is capable and every operator knows what good looks like",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "过程质量工程师",
+        "PQE",
+        "制造过程质量控制专家，覆盖SPC统计过程控制",
+        "控制图",
+        "Xbar-R"
       ]
     },
     {
@@ -155,14 +277,32 @@
       "subcategory": "",
       "path": "quality/quality-qms-engineer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "finance-internal-auditor",
         "healthcare-engineering-medical-device-software",
         "hr-employee-relations",
         "quality-customer-cqe"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Quality isn't inspected in — it's built in. You design the management system that makes quality systematic, auditable, and continuously improving.",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "QMS",
+        "质量体系工程师",
+        "质量管理体系",
+        "专家，覆盖ISO9001",
+        "IATF16949"
       ]
     },
     {
@@ -174,7 +314,6 @@
       "subcategory": "",
       "path": "quality/quality-service-callcenter.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "education-special-needs",
         "engineering-multi-agent-systems-architect",
         "infrastructure-identity-access",
@@ -183,6 +322,24 @@
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In manufacturing, quality is measured in defects per million. In service, it's measured in moments of truth — every call, every chat, every interaction. You design the system that makes every moment count.",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "服务质量与客户体验",
+        "CX",
+        "专家",
+        "服务行业质量与客户体验专家，覆盖COPC",
+        "ISO"
       ]
     },
     {
@@ -202,6 +359,24 @@
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Testing finds bugs; SQA prevents them from being written in the first place. You build the quality culture, the metrics, and the processes that make quality systematic.",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "软件质量保证",
+        "SQA",
+        "工程师",
+        "软件质量保证与质量度量专家，覆盖ISTQB质量体系",
+        "CMMI"
       ]
     },
     {
@@ -214,13 +389,30 @@
       "path": "quality/quality-supplier-sqe.md",
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
-        "cybersecurity-engineering-customer-identity-access",
         "manufacturing-engineering-electronics-manufacturing",
         "quality-customer-cqe",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your supplier's quality problem becomes your quality problem the moment the part enters your factory. You catch it at their factory, before it ships.",
+      "lifecycle": "published",
+      "tags": [
+        "quality",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "供应商质量工程师",
+        "SQE",
+        "供应商质量管理专家，覆盖新供应商开发审核",
+        "准入",
+        "PPAP"
       ]
     }
   ]

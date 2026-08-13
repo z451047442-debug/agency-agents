@@ -1,7 +1,7 @@
 {
   "category": "forestry",
   "agent_count": 6,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "forestry-conservation",
@@ -15,18 +15,35 @@
         "environmental-engineering-ecosystem-restoration",
         "environmental-engineering-gis-remote-sensing",
         "finance-engineering-credit-risk-model",
-        "logistics-engineering-supply-chain-risk",
-        "operations-report-distribution-agent"
+        "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The forest is not just trees — it is a living, breathing system that holds half of Earth's biodiversity, stores centuries of carbon, and whispers the planet's oldest stories to those who know how to listen.",
+      "lifecycle": "published",
+      "tags": [
+        "forestry",
+        "Success",
+        "Metrics",
+        "Non-Negotiable",
+        "Technical"
+      ],
+      "keywords": [
+        "森林保护专家",
+        "森林生态系统保护与可持续管理：生物多样性监测",
+        "碳核算与REDD+",
+        "保护区管理",
+        "毁林监测预警"
       ]
     },
     {
       "id": "forestry-director",
       "name": "林业总监",
       "description": "林业领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🌲\"",
+      "emoji": "🌲",
       "category": "forestry",
       "subcategory": "",
       "path": "forestry/forestry-director.md",
@@ -40,6 +57,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 森林经营与林产品 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "forestry",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "林业总监",
+        "林业领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -54,34 +89,69 @@
         "environmental-engineering-ecosystem-restoration",
         "legal-document-review",
         "marketing-china-market-localization-strategist",
-        "network-engineering-engineering-optical-fiber-sensing"
+        "infrastructure-network-engineering-engineering-optical-fiber-sensing"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Forest ecologist and carbon specialist — from LiDAR biomass estimation to REDD+ safeguards, from natural regeneration to plantation silviculture. Forests are the most cost-effective carbon capture technology on Earth, with biodiversity as a free bonus.",
+      "lifecycle": "published",
+      "tags": [
+        "forestry",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "森林生态与碳汇专家",
+        "森林生态系统管理",
+        "森林碳汇计量与MRV",
+        "REDD+与碳信用项目开发",
+        "生物多样性监测"
       ]
     },
     {
       "id": "forestry-general-manager",
       "name": "林业总经理",
       "description": "林业领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🌲\"",
+      "emoji": "🌲",
       "category": "forestry",
       "subcategory": "",
       "path": "forestry/forestry-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "forestry-director",
         "government-general-manager",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "forestry",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "林业总经理",
+        "林业领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -100,7 +170,26 @@
         "finance-engineering-credit-risk-model"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Forests are the longest-term investment on Earth — you think in decades, plan",
+      "lifecycle": "published",
+      "tags": [
+        "forestry",
+        "Capabilities",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "林业经理",
+        "可持续森林经营",
+        "木材采伐调度",
+        "造林育林",
+        "森林认证"
       ]
     },
     {
@@ -124,6 +213,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Trees become timber, timber becomes houses, furniture, paper — but only if the supply chain works. You orchestrate the journey from forest to mill to market, balancing cost, sustainability certification, quality specifications, and the relentless unpredictability of weather, equipment, and market prices.",
+      "lifecycle": "published",
+      "tags": [
+        "forestry",
+        "Tools",
+        "Technologies",
+        "Deliverable",
+        "Authoritative"
+      ],
+      "keywords": [
+        "木材供应链经理",
+        "木材供应链专家，覆盖原木采购与林地资源寻源",
+        "运输物流与车队调度管理",
+        "锯木厂协调与加工排产对接",
+        "木材市场价格分析与采购策略"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "category": "food-beverage",
-  "agent_count": 15,
-  "generated": "2026-07-16",
+  "agent_count": 16,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "food-beverage-beverage-rd",
@@ -17,6 +17,23 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "Tools",
+        "Technologies",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "饮品研发工程师",
+        "饮料",
+        "酒饮产品研发专家，覆盖即饮茶",
+        "咖啡",
+        "功能性饮料"
       ]
     },
     {
@@ -33,6 +50,23 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "Professional",
+        "Scope",
+        "Safeguards",
+        "Authoritative"
+      ],
+      "keywords": [
+        "餐饮研发与创新厨师",
+        "餐饮连锁与中央厨房产品研发专家，覆盖菜品标准化",
+        "预制菜",
+        "酱料工业化",
+        "Role"
       ]
     },
     {
@@ -45,32 +79,71 @@
       "path": "food-beverage/food-beverage-director.md",
       "depends_on": [
         "automotive-supply-chain",
-        "engineering-multi-agent-systems-architect",
+        "food-beverage-multi-agent-coordinator",
         "logistics-engineering-supply-chain-risk",
         "logistics-engineering-supply-chain-software"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Everybody eats — your products are in millions of kitchens. You manage the business",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "leading",
+        "food",
+        "beverage",
+        "businesses"
+      ],
+      "keywords": [
+        "食品公司总经理",
+        "食品饮料企业全面管理者，覆盖产品研发",
+        "创新",
+        "生产",
+        "供应链"
       ]
     },
     {
       "id": "food-beverage-engineering-alt-protein",
       "name": "替代蛋白/细胞农业科学家",
-      "description": "植物基与细胞培养替代蛋白研发专家，覆盖植物蛋白(大豆/豌豆/小麦)组织化/挤压、细胞培养肉(增殖/分化/支架)、精密发酵/微生物蛋白与新型食品法规(Novel Food)",
+      "description": "植物基与细胞培养替代蛋白研发专家，覆盖植物蛋白(大豆/豌豆/小麦)组织化/挤压、细胞培养肉(增殖/分化/支架)、精密发酵/微生物蛋白与新型食品法规(Novel",
       "emoji": "🧪",
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-alt-protein.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "food-beverage-engineering-food-fermentation",
         "food-beverage-engineering-food-sensory",
         "food-beverage-food-scientist",
+        "food-beverage-multi-agent-coordinator",
         "sales-data-extraction-agent"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Feeding 10 billion people without destroying the planet requires reinventing",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "alternative",
+        "protein",
+        "Developed",
+        "plant-based"
+      ],
+      "keywords": [
+        "替代蛋白",
+        "细胞农业科学家",
+        "植物基与细胞培养替代蛋白研发专家，覆盖植物蛋白",
+        "大豆",
+        "豌豆"
       ]
     },
     {
@@ -82,11 +155,32 @@
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-beverage-brewing.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "food-beverage-beverage-rd"
+        "data-science-engineering-deep-learning-training",
+        "food-beverage-beverage-rd",
+        "food-beverage-multi-agent-coordinator",
+        "quality-food-safety"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Beer is 95% water — the other 5% is the result of 7,000 years of biochemical",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "brewing",
+        "fermentation",
+        "Brewed",
+        "beer"
+      ],
+      "keywords": [
+        "酿造",
+        "发酵饮料工艺工程师",
+        "啤酒",
+        "葡萄酒",
+        "烈酒酿造与饮料微生物发酵专家，覆盖麦芽"
       ]
     },
     {
@@ -99,68 +193,143 @@
       "path": "food-beverage/food-beverage-engineering-cosmetics-science.md",
       "depends_on": [
         "beauty-cosmetics-science",
-        "engineering-multi-agent-systems-architect",
+        "food-beverage-multi-agent-coordinator",
         "healthcare-engineering-regulatory-science",
         "quality-food-safety"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A face cream is an emulsion perfected through colloid science, a serum is a",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "cosmetic",
+        "science",
+        "Developed",
+        "skincare"
+      ],
+      "keywords": [
+        "化妆品科学",
+        "配方化学家",
+        "化妆品与个人护理品配方科学专家，覆盖乳化",
+        "增稠",
+        "表面活性剂体系"
       ]
     },
     {
       "id": "food-beverage-engineering-food-fermentation",
       "name": "发酵食品/酵素/益生菌工艺专家",
-      "description": "传统与现代发酵食品工艺科学家，覆盖乳酸菌/酵母/曲霉/芽孢杆菌发酵剂管理、发酵过程监控(pH/温度/DO/代谢物)、益生菌/后生元/酵素产品开发与发酵食品功能声称/法规(GRAS/Novel Food)",
+      "description": "传统与现代发酵食品工艺科学家，覆盖乳酸菌/酵母/曲霉/芽孢杆菌发酵剂管理、发酵过程监控(pH/温度/DO/代谢物)、益生菌/后生元/酵素产品开发与发酵食品功能声称/法规(GRAS/Novel",
       "emoji": "🧫",
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-food-fermentation.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "food-beverage-engineering-food-sensory",
         "food-beverage-food-safety",
         "food-beverage-food-scientist",
+        "food-beverage-multi-agent-coordinator",
         "quality-food-safety"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Kimchi, miso, yogurt, sourdough — humans have fermented food for 10,000 years.",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "fermented",
+        "foods",
+        "Developed",
+        "products"
+      ],
+      "keywords": [
+        "发酵食品",
+        "酵素",
+        "益生菌工艺专家",
+        "传统与现代发酵食品工艺科学家，覆盖乳酸菌",
+        "酵母"
       ]
     },
     {
       "id": "food-beverage-engineering-food-packaging",
       "name": "食品包装/阻隔材料工程师",
-      "description": "食品接触包装材料与活性/智能包装专家，覆盖多层共挤/真空镀铝阻隔膜(OTR/WVTR)、MAP气调包装/真空包装、活性包装(氧气吸收/抗菌)、智能包装(TTI/ RFID/NFC)与食品接触材料法规(EU 1935/2004/FDA/GB 9685)",
+      "description": "食品接触包装材料与活性/智能包装专家，覆盖多层共挤/真空镀铝阻隔膜(OTR/WVTR)、MAP气调包装/真空包装、活性包装(氧气吸收/抗菌)、智能包装(TTI/",
       "emoji": "📦",
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-food-packaging.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "environmental-engineering-packaging-sustainability",
-        "food-beverage-beverage-rd"
+        "food-beverage-beverage-rd",
+        "food-beverage-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A potato chip that stays crispy for 6 months, milk that lasts 30 days without",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "food",
+        "packaging",
+        "Developed",
+        "packages"
+      ],
+      "keywords": [
+        "食品包装",
+        "阻隔材料工程师",
+        "食品接触包装材料与活性",
+        "智能包装专家，覆盖多层共挤",
+        "真空镀铝阻隔膜"
       ]
     },
     {
       "id": "food-beverage-engineering-food-process",
       "name": "食品工艺/食品制造工程师",
-      "description": "食品加工工艺与工业化生产专家，覆盖热加工(巴氏/杀菌/烘焙)/非热加工(HPP/超声波)、食品添加剂/配料功能、工艺放大(中试→量产)与FSSC 22000/HACCP合规",
+      "description": "食品加工工艺与工业化生产专家，覆盖热加工(巴氏/杀菌/烘焙)/非热加工(HPP/超声波)、食品添加剂/配料功能、工艺放大(中试→量产)与FSSC",
       "emoji": "🏭",
       "category": "food-beverage",
       "subcategory": "",
       "path": "food-beverage/food-beverage-engineering-food-process.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "food-beverage-engineering-food-sensory",
         "food-beverage-food-safety",
-        "operations-report-distribution-agent",
+        "food-beverage-multi-agent-coordinator",
         "quality-food-safety"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Making food in a test kitchen is cooking; making it in a factory at 10,000 units",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "food",
+        "manufacturing",
+        "Scaled",
+        "products"
+      ],
+      "keywords": [
+        "食品工艺",
+        "食品制造工程师",
+        "食品加工工艺与工业化生产专家，覆盖热加工",
+        "巴氏",
+        "杀菌"
       ]
     },
     {
@@ -173,12 +342,31 @@
       "path": "food-beverage/food-beverage-engineering-food-sensory.md",
       "depends_on": [
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
         "food-beverage-food-scientist",
+        "food-beverage-multi-agent-coordinator",
         "healthcare-engineering-regulatory-science"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Flavor is chemistry perceived — you measure what the nose and tongue detect,",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "sensory",
+        "science",
+        "Profiled",
+        "flavors"
+      ],
+      "keywords": [
+        "感官科学",
+        "风味化学专家",
+        "食品感官评价与风味化学专家，覆盖描述性分析",
+        "QDA",
+        "差别检验"
       ]
     },
     {
@@ -190,11 +378,32 @@
       "subcategory": "",
       "path": "food-beverage/food-beverage-food-product-developer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
-        "food-beverage-engineering-food-sensory"
+        "food-beverage-engineering-food-sensory",
+        "food-beverage-multi-agent-coordinator",
+        "manufacturing-lean-six-sigma",
+        "quality-food-safety"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every new snack, beverage, or meal on the shelf started in a test kitchen —",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "food",
+        "product",
+        "development",
+        "Launched"
+      ],
+      "keywords": [
+        "食品产品研发",
+        "R&D",
+        "专家",
+        "食品新产品开发与感官科学专家，覆盖配方研发",
+        "风味调配"
       ]
     },
     {
@@ -216,6 +425,23 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "Professional",
+        "Scope",
+        "Safeguards",
+        "Authoritative"
+      ],
+      "keywords": [
+        "食品安全与质量专家",
+        "食品安全管理体系专家，覆盖",
+        "HACCP",
+        "FSSC",
+        "追溯体系"
       ]
     },
     {
@@ -234,6 +460,23 @@
         "phase-0-discovery",
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "Tools",
+        "Technologies",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "食品科学家",
+        "食品科学与产品开发专家，覆盖配方设计",
+        "工艺优化",
+        "保质期研究",
+        "感官评价"
       ]
     },
     {
@@ -250,6 +493,23 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "Tools",
+        "Technologies",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "食品供应链经理",
+        "食品行业供应链管理专家，覆盖生鲜冷链",
+        "原料采购",
+        "仓储物流",
+        "需求预测"
       ]
     },
     {
@@ -263,7 +523,7 @@
       "depends_on": [
         "agriculture-supply-chain",
         "automotive-supply-chain",
-        "engineering-multi-agent-systems-architect",
+        "food-beverage-multi-agent-coordinator",
         "logistics-engineering-supply-chain-analytics",
         "logistics-engineering-supply-chain-risk",
         "logistics-engineering-supply-chain-software",
@@ -271,7 +531,61 @@
         "manufacturing-supply-chain-planner"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When a food safety crisis hits, you need to trace back to the source in minutes,",
+      "lifecycle": "published",
+      "tags": [
+        "food-beverage",
+        "food",
+        "supply",
+        "chain",
+        "traceability"
+      ],
+      "keywords": [
+        "食品溯源与供应链透明专家",
+        "食品供应链溯源与透明化专家，覆盖区块链",
+        "GS1溯源系统",
+        "产地到餐桌全程可视化",
+        "召回效率与可持续采购认证"
+      ]
+    },
+    {
+      "id": "food-beverage-multi-agent-coordinator",
+      "name": "Food & Beverage Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for food & beverage — product development,",
+      "emoji": "🍽️",
+      "category": "food-beverage",
+      "subcategory": "",
+      "path": "food-beverage/food-beverage-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating food-beverage specialists into coherent multi-agent workflows",
+      "tags": [
+        "food-beverage",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Food",
+        "Beverage",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates"
       ]
     }
   ]

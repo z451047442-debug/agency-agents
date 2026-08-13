@@ -122,7 +122,9 @@ _TOOL_FRAMEWORK_PATTERNS = [
     # ── Education ──
     r"\b(?:LMS|Canvas|Moodle|Blackboard|SCORM|xAPI|ADDIE|Bloom.s\s*taxonomy)\b",
 ]
-_TOOL_FRAMEWORK_RE = re.compile("|".join(_TOOL_FRAMEWORK_PATTERNS))
+_TOOL_FRAMEWORK_RE = re.compile(
+    "|".join(_TOOL_FRAMEWORK_PATTERNS), re.IGNORECASE
+)
 
 # Expanded boilerplate — generic AI-generated filler phrases that signal template content
 _EXPANDED_BOILERPLATE = _BOILERPLATE_PATTERNS + [

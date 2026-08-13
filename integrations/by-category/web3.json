@@ -1,7 +1,7 @@
 {
   "category": "web3",
-  "agent_count": 13,
-  "generated": "2026-07-16",
+  "agent_count": 14,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "web3-blockchain-architect",
@@ -17,6 +17,24 @@
       ],
       "nexus_roles": [
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Not every problem needs a blockchain. The ones that do need a good one.",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "Success",
+        "Metrics",
+        "Expertise",
+        "Approach"
+      ],
+      "keywords": [
+        "区块链架构师",
+        "共识机制",
+        "L1",
+        "L2",
+        "协议设计与链上基础设施规划专家"
       ]
     },
     {
@@ -30,7 +48,6 @@
       "depends_on": [
         "data-science-engineering-language-model-nlp",
         "marketing-market-research",
-        "operations-report-distribution-agent",
         "product-trend-researcher",
         "web3-engineering-smart-contract-security",
         "web3-smart-contract-dev",
@@ -38,6 +55,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Alpha is public. The hard part is filtering signal from noise before everyone else does.",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "Success",
+        "Metrics",
+        "Expertise",
+        "Approach"
+      ],
+      "keywords": [
+        "加密货币研究员",
+        "NFT",
+        "市场分析",
+        "项目尽职调查与链上",
+        "Alpha"
       ]
     },
     {
@@ -49,7 +84,7 @@
       "subcategory": "",
       "path": "web3/web3-defi-analyst.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "web3-multi-agent-coordinator",
         "logistics-engineering-supply-chain-analytics",
         "operations-executive-summary-generator",
         "web3-engineering-smart-contract-security",
@@ -57,7 +92,26 @@
         "web3-smart-contract-developer"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every APY tells a story. Most of them are horror stories — your job is to read",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "Success",
+        "Metrics",
+        "Expertise",
+        "Approach"
+      ],
+      "keywords": [
+        "DeFi",
+        "分析师",
+        "流动性挖矿",
+        "收益策略",
+        "协议风险评估与链上数据分析专家"
       ]
     },
     {
@@ -70,14 +124,33 @@
       "path": "web3/web3-defi-strategist.md",
       "depends_on": [
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
+        "web3-multi-agent-coordinator",
         "finance-capital-markets-analyst",
         "finance-engineering-credit-risk-model",
         "web3-defi-analyst"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "DeFi rebuilds the financial system on code — you design the protocols that lend,",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "DeFi",
+        "protocol",
+        "design",
+        "Launched"
+      ],
+      "keywords": [
+        "DeFi产品策略师",
+        "去中心化金融",
+        "DeFi",
+        "产品设计与策略专家，覆盖AMM",
+        "DEX流动性设计"
       ]
     },
     {
@@ -89,15 +162,34 @@
       "subcategory": "",
       "path": "web3/web3-director.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "web3-multi-agent-coordinator",
         "logistics-engineering-supply-chain-risk",
-        "operations-report-distribution-agent",
         "web3-engineering-smart-contract-security",
         "web3-smart-contract-dev",
         "web3-smart-contract-developer"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Web3 promises to decentralize everything — you lead the team building the protocols,",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "blockchain",
+        "crypto",
+        "Built",
+        "protocols"
+      ],
+      "keywords": [
+        "Web3",
+        "区块链项目总监",
+        "区块链业务最高负责人，覆盖去中心化产品策略",
+        "智能合约",
+        "协议开发"
       ]
     },
     {
@@ -109,15 +201,33 @@
       "subcategory": "",
       "path": "web3/web3-engineering-blockchain-architect.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "web3-multi-agent-coordinator",
         "logistics-engineering-supply-chain-risk",
-        "operations-report-distribution-agent",
         "web3-engineering-smart-contract-security",
         "web3-smart-contract-dev",
         "web3-smart-contract-developer"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Blockchain is a distributed database where nobody trusts anybody and everyone",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "blockchain",
+        "protocol",
+        "design",
+        "Architected"
+      ],
+      "keywords": [
+        "区块链",
+        "分布式账本架构师",
+        "区块链底层协议与分布式共识系统架构师，覆盖共识机制",
+        "PoW",
+        "PoS"
       ]
     },
     {
@@ -138,27 +248,62 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds the decentralized future — one contract, one RPC call, and one gas optimization at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "区块链开发工程师",
+        "DApp",
+        "开发",
+        "智能合约",
+        "链上数据索引与"
       ]
     },
     {
       "id": "web3-engineering-smart-contract-security",
       "name": "智能合约安全审计/形式化验证专家",
-      "description": "区块链智能合约安全性与形式化验证专家，覆盖重入/溢出/抢跑/闪电贷攻击模式、Slither/Mythril/Foundry安全工具、CertiK/Trail of Bits审计方法与形式化验证(K Framework/Certora)",
+      "description": "区块链智能合约安全性与形式化验证专家，覆盖重入/溢出/抢跑/闪电贷攻击模式、Slither/Mythril/Foundry安全工具、CertiK/Trail",
       "emoji": "🔒",
       "category": "web3",
       "subcategory": "",
       "path": "web3/web3-engineering-smart-contract-security.md",
       "depends_on": [
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
+        "web3-multi-agent-coordinator",
         "logistics-engineering-supply-chain-risk",
-        "operations-report-distribution-agent",
         "web3-smart-contract-dev",
         "web3-smart-contract-developer"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A smart contract bug can drain $100M in seconds — you find the vulnerabilities",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "blockchain",
+        "security",
+        "Audited",
+        "protocols"
+      ],
+      "keywords": [
+        "智能合约安全审计",
+        "形式化验证专家",
+        "区块链智能合约安全性与形式化验证专家，覆盖重入",
+        "溢出",
+        "抢跑"
       ]
     },
     {
@@ -182,6 +327,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Battle-hardened Solidity developer who lives and breathes the EVM.",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "Solidity",
+        "智能合约工程师",
+        "EVM",
+        "合约",
+        "Gas"
       ]
     },
     {
@@ -193,12 +356,31 @@
       "subcategory": "",
       "path": "web3/web3-engineering-web3-frontend.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "web3-multi-agent-coordinator",
         "logistics-engineering-supply-chain-risk",
         "web3-engineering-blockchain-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Web3 needs Web2 UX — you build the frontend that makes interacting with smart",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "frontend",
+        "Built",
+        "DApps",
+        "serving"
+      ],
+      "keywords": [
+        "Web3前端",
+        "DApp开发工程师",
+        "去中心化应用",
+        "DApp",
+        "前端开发专家，覆盖ethers.js"
       ]
     },
     {
@@ -211,14 +393,68 @@
       "path": "web3/web3-frontend-developer.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "web3-multi-agent-coordinator",
         "infrastructure-identity-access",
         "marketing-abm-account-based",
         "marketing-private-domain-operator",
         "web3-engineering-web3-frontend"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The best dApp UX is the one your grandma doesn't realize is on-chain.",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "Success",
+        "Metrics",
+        "Expertise",
+        "Approach"
+      ],
+      "keywords": [
+        "Web3",
+        "前端开发工程师",
+        "钱包集成",
+        "dApp",
+        "交互与去中心化前端架构专家"
+      ]
+    },
+    {
+      "id": "web3-multi-agent-coordinator",
+      "name": "Web3 Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for Web3 — smart contracts, DeFi, DAOs,",
+      "emoji": "⛓️",
+      "category": "web3",
+      "subcategory": "",
+      "path": "web3/web3-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating web3 specialists into coherent multi-agent workflows",
+      "tags": [
+        "web3",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Web3",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -230,14 +466,33 @@
       "subcategory": "",
       "path": "web3/web3-smart-contract-dev.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "web3-multi-agent-coordinator",
         "infrastructure-identity-access",
         "logistics-engineering-supply-chain-risk",
         "web3-engineering-smart-contract-security",
         "web3-smart-contract-developer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Smart contracts are immutable — once deployed, they can't be changed. Every",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "blockchain",
+        "development",
+        "Deployed",
+        "contracts"
+      ],
+      "keywords": [
+        "智能合约开发工程师",
+        "区块链智能合约开发专家，覆盖Solidity",
+        "Rust合约开发",
+        "ERC标准",
+        "ERC20"
       ]
     },
     {
@@ -259,6 +514,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Code is law. Every line you ship could move millions — no pressure.",
+      "lifecycle": "published",
+      "tags": [
+        "web3",
+        "Expertise",
+        "Approach",
+        "Output",
+        "Lines"
+      ],
+      "keywords": [
+        "智能合约开发工程师",
+        "Solidity",
+        "Rust",
+        "Move",
+        "智能合约开发与安全审计专家"
       ]
     }
   ]

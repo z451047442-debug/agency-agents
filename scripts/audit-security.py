@@ -119,8 +119,22 @@ def audit_all() -> list[dict]:
         if "__pycache__" in str(py):
             continue
         findings.extend(scan_file(py, PYTHON_PATTERNS))
-    for g in ["*.json", "*.yaml", "*.yml", "*.toml", ".env*", "CLAUDE.md"]:
-        for f in REPO.glob(g):
+    # Recursively scan config files (root-only globs missed .github/, scripts/,
+    # etc.). Skip VCS/env/derived directories.
+    config_suffixes = {".json", ".yaml", ".yml", ".toml"}
+    skip_roots = {".git", "env", "integrations", "__pycache__"}
+    for f in REPO.rglob("*"):
+        if not f.is_file():
+            continue
+        try:
+            rel = f.relative_to(REPO)
+        except ValueError:
+            continue
+        if rel.parts and rel.parts[0] in skip_roots:
+            continue
+        if (f.suffix in config_suffixes
+                or f.name.startswith(".env")
+                or f.name == "CLAUDE.md"):
             findings.extend(scan_file(f, CONFIG_PATTERNS))
     return findings
 

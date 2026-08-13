@@ -1,7 +1,7 @@
 {
   "category": "insurance",
-  "agent_count": 11,
-  "generated": "2026-07-16",
+  "agent_count": 12,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "insurance-auto-claims",
@@ -14,13 +14,32 @@
       "depends_on": [
         "data-science-engineering-optical-character-recognition",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "insurance-claims-adjuster",
+        "insurance-multi-agent-coordinator",
         "logistics-last-mile-delivery",
-        "securities-family-office"
+        "finance-securities-family-office"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Gets drivers back on the road fast — fair assessments, zero fraud tolerance,",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "车险理赔专员",
+        "车险理赔专家，覆盖车辆损失评估",
+        "维修成本核算",
+        "全损鉴定",
+        "欺诈检测"
       ]
     },
     {
@@ -33,14 +52,33 @@
       "path": "insurance/insurance-broker.md",
       "depends_on": [
         "cybersecurity-incident-response",
-        "engineering-multi-agent-systems-architect",
         "insurance-auto-claims",
+        "insurance-multi-agent-coordinator",
         "legal-document-review",
         "specialized-multi-agent-director",
         "specialized-multi-agent-president"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You don't sell insurance — you architect protection, advocate fiercely, and",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "保险经纪人",
+        "保险经纪与风险管理顾问，为客户设计保险方案",
+        "询价议价",
+        "管理续保与理赔协助，代表投保人利益",
+        "Chen"
       ]
     },
     {
@@ -54,12 +92,31 @@
       "depends_on": [
         "cybersecurity-incident-response",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "finance-cost-accountant",
-        "insurance-auto-claims"
+        "insurance-auto-claims",
+        "insurance-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the worst happens, you're the one who makes it right — fair, fast, and",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "理赔专员",
+        "保险理赔专家，覆盖财产险",
+        "责任险",
+        "货运险的事故调查",
+        "损失评估"
       ]
     },
     {
@@ -72,15 +129,34 @@
       "path": "insurance/insurance-general-manager.md",
       "depends_on": [
         "data-science-engineering-insurance-claims-analytics",
-        "engineering-multi-agent-systems-architect",
         "finance-cost-accountant",
         "insurance-auto-claims",
-        "operations-report-distribution-agent",
+        "insurance-multi-agent-coordinator",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Insurance is the business of promises — you ensure the company can keep every",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "leadership",
+        "across",
+        "life",
+        "understand"
+      ],
+      "keywords": [
+        "保险公司总经理",
+        "保险公司",
+        "分支机构全面管理者，覆盖承保",
+        "理赔",
+        "精算"
       ]
     },
     {
@@ -93,14 +169,33 @@
       "path": "insurance/insurance-health-underwriter.md",
       "depends_on": [
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "environmental-water-treatment",
         "healthcare-clinical-physician",
         "healthcare-emergency-medicine",
-        "insurance-auto-claims"
+        "insurance-auto-claims",
+        "insurance-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Balances risk pool sustainability with access to care — the gatekeeper who says",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "健康险核保师",
+        "健康险核保专家，覆盖个人与团体健康险的医学核保指引",
+        "既往症评估",
+        "发病率风险评分",
+        "医疗成本趋势分析"
       ]
     },
     {
@@ -118,6 +213,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Disrupts centuries-old actuarial tables with real-time data streams — insurance that's instant, embedded, and invisible",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "保险科技专家",
+        "保险科技专家，覆盖车联网",
+        "物联网的UBI保险",
+        "AI核保",
+        "区块链理赔结算"
       ]
     },
     {
@@ -129,15 +242,69 @@
       "subcategory": "",
       "path": "insurance/insurance-life-actuary.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-credit-risk-model",
         "finance-financial-controller",
         "finance-insurance-underwriter",
         "hr-compensation-benefits",
+        "insurance-multi-agent-coordinator",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Where mathematics meets mortality — ensures every policy is priced for profit",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "寿险精算师",
+        "寿险精算专家，覆盖死亡率表构建",
+        "定期",
+        "终身",
+        "万能寿险定价"
+      ]
+    },
+    {
+      "id": "insurance-multi-agent-coordinator",
+      "name": "Insurance Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for insurance — underwriting, claims,",
+      "emoji": "🛡️",
+      "category": "insurance",
+      "subcategory": "",
+      "path": "insurance/insurance-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating insurance specialists into coherent multi-agent workflows",
+      "tags": [
+        "insurance",
+        "Insurance-Specific",
+        "Agent",
+        "Topologies",
+        "Compliance"
+      ],
+      "keywords": [
+        "Insurance",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -152,12 +319,31 @@
         "cybersecurity-engineering-cyber-risk-model",
         "education-special-needs",
         "energy-carbon-market",
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-credit-risk-model",
+        "insurance-multi-agent-coordinator",
         "marketing-europe-market"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Insurance for insurance companies — layers risk so no single hurricane or earthquake",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "再保险经纪人",
+        "再保险经纪人，覆盖合约与临时分保排分",
+        "巨灾建模",
+        "RMS",
+        "AIR"
       ]
     },
     {
@@ -171,12 +357,31 @@
       "depends_on": [
         "construction-fire-protection",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
+        "insurance-multi-agent-coordinator",
         "insurance-reinsurance-broker"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Insurance for insurance companies — designing the financial architecture that",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "再保险专家",
+        "再保险与风险转移专家，覆盖合约再保",
+        "临时分保",
+        "巨灾建模",
+        "转分保与再保险方案结构设计"
       ]
     },
     {
@@ -198,6 +403,24 @@
         "phase-0-discovery",
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "See the risk before it becomes a claim — your eyes on the ground protect billions in insured assets",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "风险查勘师",
+        "保险风险查勘与防灾防损专家，通过现场勘查识别风险隐患",
+        "评估安全措施",
+        "提出整改建议并降低赔付率",
+        "Wang"
       ]
     },
     {
@@ -217,6 +440,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every risk tells a story — your job is to read it, price it, and decide if it belongs on the book",
+      "lifecycle": "published",
+      "tags": [
+        "insurance",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "核保员",
+        "保险核保专家，覆盖财产险",
+        "责任险",
+        "意外险的风险评估",
+        "条款定制"
       ]
     }
   ]

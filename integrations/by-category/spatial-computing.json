@@ -1,7 +1,7 @@
 {
   "category": "spatial-computing",
-  "agent_count": 15,
-  "generated": "2026-07-16",
+  "agent_count": 16,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "spatial-computing-3d-asset-artist",
@@ -18,7 +18,26 @@
         "spatial-computing-ar-filter-creator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every polygon counts — you build the 3D worlds users step into, optimizing beauty",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "Outputs",
+        "Specification",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "3D资产艺术家",
+        "3D资产与数字内容创作专家，覆盖建模",
+        "雕刻",
+        "PBR材质",
+        "UV展开"
       ]
     },
     {
@@ -38,6 +57,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The world is your canvas — you paint digital layers over reality, making people stop, smile, and share",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "AR滤镜与体验创作者",
+        "AR滤镜与增强现实体验创作专家，覆盖Spark",
+        "AR",
+        "Meta",
+        "Camera"
       ]
     },
     {
@@ -49,14 +86,34 @@
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-director.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "infrastructure-engineering-edge-computing",
         "iot-edge-computing",
         "spatial-computing-engineering-spatial-computing-engineer"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The next computing platform is spatial — you lead the team building experiences",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "leading",
+        "spatial",
+        "computing",
+        "teams"
+      ],
+      "keywords": [
+        "空间计算",
+        "XR总监",
+        "空间计算与XR业务最高负责人，覆盖AR",
+        "VR",
+        "MR产品策略"
       ]
     },
     {
@@ -68,15 +125,33 @@
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-engineering-metaverse-experience.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "government-social-work",
         "infrastructure-identity-access",
         "iot-edge-computing",
-        "operations-report-distribution-agent",
         "spatial-computing-3d-asset-artist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The metaverse isn't a place — it's a moment when digital life feels more meaningful",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "virtual",
+        "worlds",
+        "social",
+        "platforms"
+      ],
+      "keywords": [
+        "虚拟世界",
+        "元宇宙体验设计师",
+        "沉浸式虚拟世界与社交元宇宙体验设计专家，覆盖虚拟空间",
+        "世界构建",
+        "World"
       ]
     },
     {
@@ -92,12 +167,31 @@
         "data-science-engineering-computer-vision-3d",
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-computer-vision-expert",
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "finance-engineering-credit-risk-model",
         "iot-edge-computing"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turning 2D photos into 3D worlds — you build the algorithms that let machines",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "computer",
+        "vision",
+        "spatial",
+        "computing"
+      ],
+      "keywords": [
+        "空间感知",
+        "3D重建工程师",
+        "空间感知与三维重建专家，覆盖多视图几何",
+        "SfM",
+        "Structure"
       ]
     },
     {
@@ -109,32 +203,70 @@
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-engineering-technical-architect-ar.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "infrastructure-engineering-edge-computing",
         "iot-edge-computing",
         "spatial-computing-3d-asset-artist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AR overlays digital information onto the physical world — you build the experiences",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "development",
+        "Built",
+        "apps",
+        "SDKs"
+      ],
+      "keywords": [
+        "增强现实",
+        "AR",
+        "开发工程师",
+        "增强现实应用开发专家，覆盖ARKit",
+        "ARCore"
       ]
     },
     {
       "id": "spatial-computing-engineering-virtual-reality",
       "name": "VR虚拟现实开发工程师",
-      "description": "虚拟现实(VR)应用与沉浸式体验开发专家，覆盖Unity/Unreal VR开发、OpenXR/SteamVR运行时、VR交互(手势/控制器)、性能优化(注视点渲染)与VR UX设计",
+      "description": "虚拟现实(VR)应用与沉浸式体验开发专家，覆盖Unity/Unreal VR开发、OpenXR/SteamVR运行时、VR交互(手势/控制器)、性能优化(注视点渲染)与VR",
       "emoji": "🥽",
       "category": "spatial-computing",
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-engineering-virtual-reality.md",
       "depends_on": [
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "infrastructure-identity-access",
         "iot-edge-computing",
         "spatial-computing-3d-asset-artist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "VR doesn't just show you a world — it puts you inside it. You build experiences",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "development",
+        "Created",
+        "immersive",
+        "experiences"
+      ],
+      "keywords": [
+        "VR虚拟现实开发工程师",
+        "虚拟现实",
+        "VR",
+        "应用与沉浸式体验开发专家，覆盖Unity",
+        "Unreal"
       ]
     },
     {
@@ -148,13 +280,32 @@
       "depends_on": [
         "energy-engineering-power-electronics",
         "energy-engineering-power-electronics-packaging",
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "iot-edge-computing",
         "manufacturing-engineering-electronics-manufacturing",
         "spatial-computing-3d-asset-artist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The computer on your wrist is more powerful than the one that landed on the",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "wearable",
+        "consumer",
+        "electronics",
+        "Designed"
+      ],
+      "keywords": [
+        "可穿戴设备",
+        "消费电子硬件工程师",
+        "智能手表",
+        "手环",
+        "耳机等可穿戴与消费电子硬件设计专家，覆盖微型化"
       ]
     },
     {
@@ -175,6 +326,59 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Pushes Metal to its limits for 3D rendering on macOS and Vision Pro.",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "macOS",
+        "空间",
+        "Metal",
+        "工程师",
+        "Swift"
+      ]
+    },
+    {
+      "id": "spatial-computing-multi-agent-coordinator",
+      "name": "Spatial Computing Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for spatial computing — AR/VR/XR, 3D",
+      "emoji": "🥽",
+      "category": "spatial-computing",
+      "subcategory": "",
+      "path": "spatial-computing/spatial-computing-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating spatial-computing specialists into coherent multi-agent workflows",
+      "tags": [
+        "spatial-computing",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Spatial",
+        "Computing",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates"
       ]
     },
     {
@@ -198,6 +402,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Masters terminal emulation and text rendering in modern Swift applications.",
+      "lifecycle": "draft",
+      "tags": [
+        "spatial-computing",
+        "Expertise",
+        "Technical",
+        "Capabilities",
+        "Technologies"
+      ],
+      "keywords": [
+        "终端集成专家",
+        "终端集成",
+        "命令行工具与开发者工作流专家",
+        "Role",
+        "Memory"
       ]
     },
     {
@@ -209,13 +431,32 @@
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-ux-designer.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "infrastructure-engineering-edge-computing",
         "iot-edge-computing",
         "spatial-computing-3d-asset-artist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Flat screens taught us to click; spatial computing teaches us to reach out and",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "designing",
+        "spatial",
+        "immersive",
+        "interfaces"
+      ],
+      "keywords": [
+        "空间交互",
+        "UX设计师",
+        "空间计算交互体验设计师，覆盖空间UI",
+        "UX范式",
+        "注视"
       ]
     },
     {
@@ -227,7 +468,6 @@
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-visionos-spatial-engineer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-engineering-edge-computing",
         "infrastructure-identity-access",
         "iot-edge-computing",
@@ -235,6 +475,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds native volumetric interfaces and Liquid Glass experiences for visionOS.",
+      "lifecycle": "draft",
+      "tags": [
+        "spatial-computing",
+        "Expertise",
+        "Technologies",
+        "Documentation",
+        "References"
+      ],
+      "keywords": [
+        "visionOS",
+        "空间工程师",
+        "Apple",
+        "Vision",
+        "Pro"
       ]
     },
     {
@@ -246,13 +504,32 @@
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-xr-cockpit-interaction-specialist.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "robotics-motion-control",
         "spatial-computing-3d-asset-artist"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs immersive cockpit control systems that feel natural in XR.",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "XR",
+        "座舱交互专家",
+        "座舱控制系统与沉浸式控制界面专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -264,7 +541,6 @@
       "subcategory": "",
       "path": "spatial-computing/spatial-computing-xr-immersive-developer.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-deep-learning-training",
         "infrastructure-identity-access",
@@ -273,6 +549,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds browser-based AR/VR/XR experiences that push WebXR to its limits.",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "WebXR",
+        "沉浸式开发者",
+        "浏览器端",
+        "AR",
+        "VR"
       ]
     },
     {
@@ -286,13 +580,32 @@
       "depends_on": [
         "data-science-engineering-language-model-nlp",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
+        "spatial-computing-multi-agent-coordinator",
         "infrastructure-identity-access",
         "spatial-computing-xr-cockpit-interaction-specialist",
         "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs spatial interfaces where interaction feels like instinct, not instruction.",
+      "lifecycle": "published",
+      "tags": [
+        "spatial-computing",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "XR",
+        "界面架构师",
+        "空间交互设计与沉浸式",
+        "UX",
+        "专家（AR"
       ]
     }
   ]

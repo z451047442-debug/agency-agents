@@ -1,7 +1,7 @@
 {
   "category": "product",
-  "agent_count": 13,
-  "generated": "2026-07-16",
+  "agent_count": 14,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "product-ai-pm",
@@ -13,16 +13,35 @@
       "path": "product/product-ai-pm.md",
       "depends_on": [
         "construction-engineering-landscape-architecture",
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-user-research-system",
         "food-beverage-food-safety",
         "marketing-paid-media-search-query-analyst",
         "marketing-short-video-editing-coach",
+        "data-science-engineering-deep-learning-training",
+        "testing-test-results-analyzer",
         "operations-report-distribution-agent"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Bridges the gap between what AI can do and what users actually need — ships intelligent features responsibly.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Technical",
+        "User",
+        "Problem",
+        "Assessment"
+      ],
+      "keywords": [
+        "AI产品经理",
+        "AI",
+        "ML产品策略，模型生命周期管理，产品提示工程，AI伦理与负责任AI，数据飞轮设计，LLM集成规划，AI功能优先级排序",
+        "Kai"
       ]
     },
     {
@@ -34,14 +53,32 @@
       "subcategory": "",
       "path": "product/product-analyst.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "logistics-last-mile-delivery",
         "marketing-paid-media-search-query-analyst",
         "marketing-paid-media-tracking-specialist",
         "operations-report-distribution-agent"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns raw user data into product insights that drive roadmap decisions — no",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Technical",
+        "Tracking",
+        "Objective",
+        "User"
+      ],
+      "keywords": [
+        "产品分析师",
+        "产品指标定义",
+        "埋点设计",
+        "用户行为分析",
+        "漏斗分析"
       ]
     },
     {
@@ -53,7 +90,6 @@
       "subcategory": "",
       "path": "product/product-b2b-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "finance-engineering-credit-risk-model",
         "infrastructure-identity-access",
         "marketing-email-marketing",
@@ -64,6 +100,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Navigates enterprise complexity to build products that procurement loves and users actually use.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Enterprise"
+      ],
+      "keywords": [
+        "B2B产品经理",
+        "企业级SaaS产品策略",
+        "多租户架构规划",
+        "RBAC权限设计",
+        "SLA管理"
       ]
     },
     {
@@ -85,13 +139,31 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Adapts software interactions to maximize user motivation through behavioral psychology.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "行为助推引擎",
+        "行为心理学",
+        "助推设计与用户激励专家",
+        "Role",
+        "Personality"
       ]
     },
     {
       "id": "product-director",
       "name": "产品管理总监",
       "description": "产品管理领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"📱\"",
+      "emoji": "📱",
       "category": "product",
       "subcategory": "",
       "path": "product/product-director.md",
@@ -106,6 +178,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 产品策略与开发 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "产品管理总监",
+        "产品管理领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -131,29 +221,64 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Distills a thousand user voices into the five things you need to build next.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "用户反馈综合分析师",
+        "用户反馈分析",
+        "洞察提取与产品优先级专家",
+        "Role",
+        "Memory"
       ]
     },
     {
       "id": "product-general-manager",
       "name": "产品管理总经理",
       "description": "产品管理领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"📱\"",
+      "emoji": "📱",
       "category": "product",
       "subcategory": "",
       "path": "product/product-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "pets-general-manager",
         "product-director",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "产品管理总经理",
+        "产品管理领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -174,6 +299,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Experiment-driven growth hacker who lives at the intersection of product, data, and psychology.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Technical",
+        "Opportunity",
+        "Hypothesis",
+        "Experiment"
+      ],
+      "keywords": [
+        "增长产品经理",
+        "病毒裂变",
+        "留存优化",
+        "引导漏斗设计",
+        "PLG策略"
       ]
     },
     {
@@ -199,6 +342,58 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Ships the right thing, not just the next thing — outcome-obsessed, user-grounded, and diplomatically ruthless about focus.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Technical",
+        "Problem",
+        "Statement",
+        "Goals"
+      ],
+      "keywords": [
+        "产品经理",
+        "全生命周期产品管理：发现",
+        "PRD",
+        "路线图",
+        "GTM"
+      ]
+    },
+    {
+      "id": "product-multi-agent-coordinator",
+      "name": "Product Multi-Agent Coordinator",
+      "description": "coordinates multi-agent workflows for product — product management, analytics, growth, operations",
+      "emoji": "📦",
+      "category": "product",
+      "subcategory": "",
+      "path": "product/product-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating product specialists into coherent multi-agent workflows",
+      "tags": [
+        "product",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Product",
+        "Multi-Agent",
+        "Coordinator",
+        "coordinates",
+        "workflows"
       ]
     },
     {
@@ -212,17 +407,36 @@
       "depends_on": [
         "data-science-feature-store",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
         "hr-people-analytics",
         "infrastructure-engineering-incident-response-commander",
         "marketing-email-marketing",
         "product-ai-pm",
+        "product-multi-agent-coordinator",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data-driven operator who turns product strategy into measurable execution.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Engineering",
+        "Readiness",
+        "Marketing",
+        "Sales"
+      ],
+      "keywords": [
+        "产品运营经理",
+        "产品运营全链路管理：发版运营",
+        "用户反馈闭环",
+        "数据驱动优化",
+        "跨职能协调"
       ]
     },
     {
@@ -237,15 +451,34 @@
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-deep-learning-training",
         "data-science-engineering-language-model-nlp",
-        "engineering-multi-agent-systems-architect",
         "operations-report-distribution-agent",
+        "product-multi-agent-coordinator",
         "project-management-agile-coach",
         "project-management-meeting-notes-specialist",
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Maximizes sprint value through data-driven prioritization and ruthless focus.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "Sprint",
+        "优先级规划师",
+        "敏捷规划",
+        "功能优先级与",
+        "管理专家"
       ]
     },
     {
@@ -257,7 +490,6 @@
       "subcategory": "",
       "path": "product/product-technical-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-consolidation-agent",
         "data-science-engineering-knowledge-management",
         "finance-cost-accountant",
@@ -271,6 +503,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Building products for builders — you speak engineer and user, translating between what's possible and what's valuable",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "技术产品经理",
+        "TPM",
+        "专家，覆盖API产品设计",
+        "平台产品策略",
+        "技术路线图"
       ]
     },
     {
@@ -285,16 +535,35 @@
         "data-science-engineering-deep-learning-training",
         "education-academic-research-scientist",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
         "engineering-social-media-platform",
         "government-public-safety-analyst",
         "marketing-customer-advocacy",
         "marketing-customer-lifecycle",
         "marketing-paid-media-search-query-analyst",
-        "product-ai-pm"
+        "product-ai-pm",
+        "product-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Spots emerging trends before they hit the mainstream.",
+      "lifecycle": "published",
+      "tags": [
+        "product",
+        "Definition",
+        "Capabilities",
+        "Specialized",
+        "Skills"
+      ],
+      "keywords": [
+        "市场趋势研究员",
+        "市场情报",
+        "竞品分析与机会识别专家",
+        "Role",
+        "Memory"
       ]
     }
   ]

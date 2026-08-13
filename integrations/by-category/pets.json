@@ -1,7 +1,7 @@
 {
   "category": "pets",
   "agent_count": 6,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "pets-behaviorist",
@@ -16,7 +16,6 @@
         "food-beverage-engineering-food-sensory",
         "food-beverage-food-supply-chain-traceability",
         "government-social-work",
-        "operations-report-distribution-agent",
         "robotics-motion-control",
         "specialized-life-coach",
         "testing-engineering-test-automation-framework",
@@ -24,13 +23,31 @@
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Problem behavior isn't a bad pet — it's an unmet need, a misunderstood signal, or a learned survival strategy. You decode the behavior, design compassionate interventions, and help pets and their people understand each other.",
+      "lifecycle": "published",
+      "tags": [
+        "pets",
+        "References",
+        "Standards",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "动物行为师",
+        "动物行为专家，覆盖行为评估与功能分析",
+        "正向强化训练方案设计",
+        "恐惧",
+        "焦虑"
       ]
     },
     {
       "id": "pets-director",
       "name": "宠物总监",
       "description": "宠物领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🐾\"",
+      "emoji": "🐾",
       "category": "pets",
       "subcategory": "",
       "path": "pets/pets-director.md",
@@ -45,29 +62,64 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 宠物服务与产品 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "pets",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "宠物总监",
+        "宠物领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
       "id": "pets-general-manager",
       "name": "宠物总经理",
       "description": "宠物领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🐾\"",
+      "emoji": "🐾",
       "category": "pets",
       "subcategory": "",
       "path": "pets/pets-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "pets-director",
         "real-estate-general-manager",
-        "securities-general-manager",
-        "security-general-manager",
+        "finance-securities-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "pets",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "宠物总经理",
+        "宠物领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -82,13 +134,30 @@
         "automotive-engineering-functional-safety",
         "iot-engineering-mixed-signal-ic",
         "marketing-abm-account-based",
-        "operations-report-distribution-agent",
         "pets-behaviorist",
         "robotics-motion-control",
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Grooming isn't just about looking good — it's about skin health, early disease detection, and a stress-free experience that keeps pets happy to come back. You run a salon where every scissor cut is breed-correct, every restraint is fear-free, and every client leaves healthier than they arrived.",
+      "lifecycle": "published",
+      "tags": [
+        "pets",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "宠物美容与门店运营",
+        "宠物美容与门店运营专家，覆盖品种标准美容造型（贵宾",
+        "比熊",
+        "雪纳瑞等）",
+        "宠物操作安全与低应激处理"
       ]
     },
     {
@@ -104,11 +173,28 @@
         "food-beverage-food-supply-chain-traceability",
         "logistics-engineering-supply-chain-analytics",
         "logistics-engineering-supply-chain-risk",
-        "logistics-engineering-supply-chain-software",
-        "operations-report-distribution-agent"
+        "logistics-engineering-supply-chain-software"
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A food bowl is a health decision made twice a day. You apply nutritional science to those decisions — formulating diets that match species biology, life stage needs, and individual health conditions, because the right food prevents more disease than any medicine.",
+      "lifecycle": "published",
+      "tags": [
+        "pets",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "宠物营养师",
+        "宠物营养专家，覆盖物种适宜饮食配方设计（犬",
+        "异宠）",
+        "生命周期阶段营养规划（幼年",
+        "成年"
       ]
     },
     {
@@ -130,6 +216,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Exotic animal veterinarian — from iguana metabolic bone disease to psittacine beak and feather disease, from hedgehog wobbly syndrome to zoo anesthesia. When it's not a dog or cat, you're who they call.",
+      "lifecycle": "published",
+      "tags": [
+        "pets",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "异宠与野生动物兽医专家",
+        "爬行动物",
+        "两栖动物",
+        "鸟类",
+        "小型哺乳动物"
       ]
     }
   ]

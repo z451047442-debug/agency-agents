@@ -1,10 +1,10 @@
 # 🎯 Use Cases — 100+ Real-World Scenarios
 
-How to combine The Agency's 1,399 specialists inside your AI coding tool.
+How to combine The Agency's 1,402 specialists inside your AI coding tool.
 Each scenario lists the agent team, what they do, and the expected outcome.
 
 > These are **multi-agent patterns** — load them into Claude Code, Cursor, Copilot,
-> or any of the [14 supported tools](integrations/). One command per specialist.
+> or any of the [15 supported tools](integrations/). One command per specialist.
 
 ---
 
@@ -1067,5 +1067,5 @@ Note-taking workflow → folder/tag taxonomy → review cadence → tool configu
 
 ---
 
-*Each scenario uses agents from [The Agency's catalog](../README.md). Mix and match — every agent works independently or in teams.*
+*Each scenario uses agents from [The Agency's catalog](README.md). Mix and match — every agent works independently or in teams.*
 *See [NEXUS runbooks](docs/runbooks/) for structured multi-agent pipelines.*

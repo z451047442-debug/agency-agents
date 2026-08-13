@@ -9,14 +9,14 @@
 |------|-------|------|
 | 🎯 统筹 | `project-management-studio-producer` | 数据战略、ROI、路线图 |
 | 🏗️ 数据架构 | `data-science-data-engineer` | 数据湖/仓架构设计 (Medallion / Data Vault) |
-| 📥 数据集成 | `engineering-etl-expert` | CDC、批流一体管道、数据接入 |
-| 🗄️ 数据仓库 | `engineering-data-warehouse-expert` | 星型模型、物化视图、性能调优 |
-| 🔄 数据治理 | `engineering-data-governance-expert` | 数据目录、血缘、质量框架、GDPR 合规 |
-| 📊 BI | `bi-analyst` | Tableau/PowerBI 看板、语义层 |
+| 📥 数据集成 | `data-science-engineering-etl-expert` | CDC、批流一体管道、数据接入 |
+| 🗄️ 数据仓库 | `data-science-engineering-data-warehouse-expert` | 星型模型、物化视图、性能调优 |
+| 🔄 数据治理 | `data-science-engineering-data-governance-expert` | 数据目录、血缘、质量框架、GDPR 合规 |
+| 📊 BI | `data-science-bi-analyst` | Tableau/PowerBI 看板、语义层 |
 | 🤖 ML 平台 | `data-science-ml-engineer` | 特征存储、模型训练管道、模型服务 |
-| 🔍 数据分析 | `data-scientist` | 业务指标定义、探索性分析 |
-| 🔒 安全 | `compliance-auditor` | 数据脱敏、列级权限、审计日志 |
-| 🚀 DevOps | `engineering-devops-automator` | Airflow/dbt CI/CD、基础设施即代码 |
+| 🔍 数据分析 | `data-science-data-scientist` | 业务指标定义、探索性分析 |
+| 🔒 安全 | `cybersecurity-compliance-auditor` | 数据脱敏、列级权限、审计日志 |
+| 🚀 DevOps | `infrastructure-engineering-devops-automator` | Airflow/dbt CI/CD、基础设施即代码 |
 | 📈 产品 | `product-analyst` | 埋点设计、A/B 实验平台、产品指标 |
 
 ## 工作流

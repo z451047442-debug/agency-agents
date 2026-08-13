@@ -4,10 +4,9 @@
 divisions.json (repo root) is canonical. This script fails if any of the
 following disagree with it:
   1. The actual top-level agent directories on disk
-  2. AGENT_DIRS in scripts/convert.sh and scripts/lint-agents.sh
-  3. Path filters in .github/workflows/lint-agents.yml
-  4. Every divisions.json entry has label, icon, and color
-  5. Every division directory contains at least one agent file
+  2. Path filters in .github/workflows/lint-agents.yml
+  3. Every divisions.json entry has label, icon, and color
+  4. Every division directory contains at least one agent file
 """
 
 import json
@@ -48,15 +47,6 @@ def get_actual_dirs() -> list[str]:
             if base and not base.startswith(".") and base not in NON_DIVISION_DIRS:
                 dirs.add(base)
     return sorted(dirs)
-
-
-def extract_agent_dirs_from_script(script_path: Path) -> list[str]:
-    text = script_path.read_text(encoding="utf-8")
-    m = re.search(r"AGENT_DIRS=\((.*?)\)", text, re.DOTALL)
-    if not m:
-        return []
-    names = re.findall(r'["\']?([a-z0-9-]+)["\']?', m.group(1))
-    return sorted(set(names))
 
 
 def has_agent_file(directory: Path) -> bool:
@@ -100,17 +90,6 @@ def main() -> None:
     errors += compare_sets(
         "agent directories on disk", canonical, get_actual_dirs()
     )
-
-    for script_name in ["convert.sh", "lint-agents.sh"]:
-        script_path = REPO / "scripts" / script_name
-        if script_path.exists():
-            script_dirs = extract_agent_dirs_from_script(script_path)
-            if script_dirs:  # scripts use dynamic discovery when AGENT_DIRS is absent
-                errors += compare_sets(
-                    f"scripts/{script_name} AGENT_DIRS",
-                    canonical,
-                    script_dirs,
-                )
 
     wf = REPO / ".github" / "workflows" / "lint-agents.yml"
     if wf.exists():

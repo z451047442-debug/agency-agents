@@ -12,7 +12,7 @@
 | 🔒 安全架构 | `cybersecurity-security-architect` | 安全控制设计、零信任架构 |
 | 🏗️ 后端 | `engineering-backend-architect` | 加密实现、日志审计、数据保留 |
 | 🔐 IAM | `infrastructure-identity-access` | SSO、MFA、RBAC、PAM 实施 |
-| 🚀 DevOps | `engineering-devops-automator` | 安全 CI/CD、IaC 合规扫描、证据自动化 |
+| 🚀 DevOps | `infrastructure-engineering-devops-automator` | 安全 CI/CD、IaC 合规扫描、证据自动化 |
 | 📊 证据 | `testing-evidence-collector` | 控制项证据截图、合规报告生成 |
 | 📝 文档 | `engineering-technical-writer` | 策略文档、SSP、BCP/DRP 撰写 |
 | 🔍 内审 | `finance-internal-auditor` | 控制测试、抽样审计、缺陷跟踪 |

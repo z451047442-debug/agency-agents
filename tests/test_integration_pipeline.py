@@ -202,6 +202,36 @@ class TestPipelineIntegration:
         agent_index = analyze_deps.build_agent_index()
         findings = analyze_deps.validate_depends_on(agent_index)
         assert len(findings) == 3  # (valid_refs, broken_refs, agents_with_deps)
+        # Fixture agents declare no depends_on, so nothing is valid or broken
+        assert findings[0] == []
+        assert findings[1] == []
+        assert findings[2] == 0
+
+    def test_validate_depends_on_broken_ref(self, fixture_agents, monkeypatch):
+        """depends_on pointing to a nonexistent agent must be reported as broken."""
+        import _shared.discovery as discovery
+
+        monkeypatch.setattr(discovery, "REPO", fixture_agents)
+
+        analyze_deps = _load_script("analyze_deps", "analyze-deps.py")
+        agent_index = analyze_deps.build_agent_index()
+
+        # An agent whose depends_on targets an agent absent from the index
+        broken_path = fixture_agents / "engineering" / "engineering-broken-ref.md"
+        broken_path.write_text(
+            "---\nname: Broken Ref\ndescription: Has a broken dependency\n"
+            "emoji: X\ncolor: blue\nversion: '1.0.0'\ndate_added: '2026-07-16'\n"
+            "depends_on:\n  - engineering-no-such-agent\n---\n\n"
+            "## Identity\nYou are a test agent.\n\n"
+            "## Core Mission\nTest.\n\n"
+            "## Critical Rules\n1. Test.\n",
+            encoding="utf-8",
+        )
+
+        valid, broken, agents_with_deps = analyze_deps.validate_depends_on(agent_index)
+        assert ("engineering-broken-ref", "engineering-no-such-agent") in broken
+        assert agents_with_deps == 1
+        assert valid == []
 
     def test_agent_lifecycle_on_fixture(self, fixture_agents, monkeypatch):
         import _shared.discovery as discovery
@@ -242,5 +272,12 @@ class TestPipelineIntegration:
         # Accept broader range — fixture agents are intentionally minimal
         assert 2 <= avg <= 9
 
-        findings = analyze_deps.validate_depends_on(agents)
-        assert len(findings) == 3
+        # validate_depends_on expects a dict keyed by agent ID, not the
+        # (category, relpath, filepath) tuples from discover_agents()
+        agent_index = analyze_deps.build_agent_index()
+        findings = analyze_deps.validate_depends_on(agent_index)
+        assert len(findings) == 3  # (valid_refs, broken_refs, agents_with_deps)
+        # Fixture agents declare no depends_on, so nothing is valid or broken
+        assert findings[0] == []
+        assert findings[1] == []
+        assert findings[2] == 0

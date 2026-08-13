@@ -1,7 +1,7 @@
 {
   "category": "education",
-  "agent_count": 35,
-  "generated": "2026-07-16",
+  "agent_count": 36,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "education-academic-anthropologist",
@@ -17,11 +17,30 @@
         "marketing-africa-market-expert",
         "marketing-japan-market-expert",
         "project-management-jira-workflow-steward",
-        "specialized-identity-graph-operator"
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "No culture is random — every practice is a solution to a problem you might not see yet",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "学术人类学家",
+        "文化研究",
+        "田野调查与人类学视角分析专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -33,17 +52,38 @@
       "subcategory": "",
       "path": "education/education-academic-dean.md",
       "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-deep-learning-training",
         "design-engineering-user-research-system",
         "education-academic-research-scientist",
-        "engineering-multi-agent-systems-architect",
+        "education-multi-agent-coordinator",
         "finance-engineering-credit-risk-model",
         "marketing-abm-account-based",
+        "specialized-productivity-time-management",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A university department is a small enterprise of knowledge — you lead the faculty,",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "academic",
+        "leadership",
+        "departments",
+        "developed"
+      ],
+      "keywords": [
+        "大学院长",
+        "系主任",
+        "高等教育学术管理者，覆盖学科建设",
+        "课程发展",
+        "师资管理"
       ]
     },
     {
@@ -56,13 +96,32 @@
       "path": "education/education-academic-geographer.md",
       "depends_on": [
         "education-academic-anthropologist",
-        "operations-report-distribution-agent",
         "spatial-computing-macos-spatial-metal-engineer",
-        "specialized-identity-graph-operator"
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Geography is destiny — where you are determines who you become",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Technical",
+        "Process",
+        "Learning",
+        "Methodology"
+      ],
+      "keywords": [
+        "学术地理学家",
+        "空间分析",
+        "地理信息与地缘研究专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -75,13 +134,33 @@
       "path": "education/education-academic-historian.md",
       "depends_on": [
         "education-academic-anthropologist",
+        "gis-drone-reality-mapping",
         "government-social-work",
-        "operations-report-distribution-agent",
-        "specialized-identity-graph-operator"
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "History doesn't repeat, but it rhymes — and I know all the verses",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Technical",
+        "Process",
+        "Learning",
+        "Methodology"
+      ],
+      "keywords": [
+        "学术历史学家",
+        "历史分析",
+        "史料解读与历史叙事专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -93,11 +172,31 @@
       "subcategory": "",
       "path": "education/education-academic-narratologist.md",
       "depends_on": [
-        "education-academic-anthropologist"
+        "education-academic-anthropologist",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every story is an argument — I help you find what yours is really saying",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Technical",
+        "Process",
+        "Learning",
+        "Methodology"
+      ],
+      "keywords": [
+        "学术叙事学家",
+        "叙事结构",
+        "故事理论与文本分析专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -112,12 +211,31 @@
         "education-academic-anthropologist",
         "government-social-work",
         "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer",
         "thinking-models-cognitive-biases",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "People don't do things for no reason — I find the reason",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "学术心理学家",
+        "心理学研究",
+        "行为分析与认知科学专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -131,13 +249,34 @@
       "depends_on": [
         "design-engineering-user-research-system",
         "education-academic-anthropologist",
-        "engineering-multi-agent-systems-architect",
-        "healthcare-engineering-regulatory-science"
+        "education-multi-agent-coordinator",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Research is the pursuit of truth through systematic inquiry — you design studies,",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "academic",
+        "research",
+        "Published",
+        "extensively"
+      ],
+      "keywords": [
+        "学术研究科学家",
+        "大学",
+        "研究机构科研工作者，覆盖研究设计",
+        "方法论",
+        "基金申请"
       ]
     },
     {
@@ -152,7 +291,26 @@
         "engineering-git-workflow-master"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Algebraic geometer — from Grothendieck's schemes to Mori's MMP, from intersection theory to derived categories. Algebraic geometry studies solutions to polynomial equations, elevated to the most powerful machinery in mathematics.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "代数几何专家",
+        "概形理论",
+        "代数簇分类",
+        "相交理论",
+        "导出范畴与同调代数"
       ]
     },
     {
@@ -166,6 +324,8 @@
       "depends_on": [
         "design-creative-tools",
         "marketing-short-video-editing-coach",
+        "media-entertainment-classical-composition",
+        "media-entertainment-dance-choreography",
         "media-entertainment-film-directing",
         "specialized-identity-graph-operator",
         "testing-test-results-analyzer",
@@ -173,6 +333,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Arts and physical education specialist — from correct embouchure to correct throwing form, from color theory to choreography. Arts and sports develop the whole person. Creativity is teachable, discipline is learnable, and the stage transforms students.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "艺体教育专家",
+        "体育",
+        "音乐",
+        "美术",
+        "舞蹈"
       ]
     },
     {
@@ -185,14 +363,35 @@
       "path": "education/education-assessment-specialist.md",
       "depends_on": [
         "data-science-engineering-deep-learning-training",
+        "data-science-engineering-insurance-claims-analytics",
         "education-academic-anthropologist",
-        "engineering-multi-agent-systems-architect",
-        "operations-report-distribution-agent"
+        "education-multi-agent-coordinator",
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If you can't measure learning, you can't improve it. You design the assessments",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "educational",
+        "measurement",
+        "Designed",
+        "assessments"
+      ],
+      "keywords": [
+        "教育评估",
+        "测评专家",
+        "教育测量与学习评估专家，覆盖标准化测验设计",
+        "项目反应理论",
+        "IRT"
       ]
     },
     {
@@ -211,7 +410,26 @@
         "tourism-cultural-heritage"
       ],
       "nexus_roles": [
-        "phase-1-strategy"
+        "phase-1-strategy",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Cultural heritage law specialist — from the 1970 UNESCO Convention to NAGPRA, from the Elgin Marbles to the Benin Bronzes. Who owns the past, and who decides what is preserved, returned, or destroyed?",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "文化遗产法律与政策专家",
+        "文化遗产保护法",
+        "国际公约",
+        "国内法",
+        "文物返还与restitution"
       ]
     },
     {
@@ -225,11 +443,33 @@
       "depends_on": [
         "aerospace-engineering-aviation-pilot-training",
         "data-science-engineering-deep-learning-training",
+        "data-science-engineering-language-model-nlp",
         "education-academic-anthropologist",
-        "hr-corporate-training-designer"
+        "education-multi-agent-coordinator",
+        "hr-corporate-training-designer",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every great learning experience starts with one question — what should the learner",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "课程设计师",
+        "课程与教学设计专家，覆盖学习目标分析",
+        "课程体系构建",
+        "评估设计",
+        "教学资源开发与教育技术应用"
       ]
     },
     {
@@ -241,12 +481,35 @@
       "subcategory": "",
       "path": "education/education-director.md",
       "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
         "education-academic-anthropologist",
-        "engineering-multi-agent-systems-architect"
+        "education-multi-agent-coordinator",
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Education changes lives — but only if the school is well-run. You lead the institution",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "leading",
+        "educational",
+        "institutions",
+        "balance"
+      ],
+      "keywords": [
+        "教育机构总监",
+        "校长",
+        "学校",
+        "教育机构最高管理者，覆盖教育战略",
+        "课程体系"
       ]
     },
     {
@@ -259,11 +522,31 @@
       "path": "education/education-field-archaeology.md",
       "depends_on": [
         "agriculture-engineering-soil-science",
-        "specialized-identity-graph-operator"
+        "specialized-identity-graph-operator",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Field archaeologist — from stratigraphic excavation to OSL dating, from magnetometry survey to site conservation. Archaeology reconstructs human history one careful trowel stroke at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "田野考古专家",
+        "考古调查与发掘方法",
+        "地层学与类型学",
+        "考古测年技术",
+        "放射性碳"
       ]
     },
     {
@@ -280,7 +563,26 @@
         "government-social-work"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Higher education teaching specialist — from freshman seminars to doctoral supervision,",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "高等教育教学专家",
+        "大学本科",
+        "研究生阶段哲学",
+        "法学",
+        "经济学"
       ]
     },
     {
@@ -292,13 +594,34 @@
       "subcategory": "",
       "path": "education/education-instructional-technologist.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
-        "infrastructure-identity-access"
+        "education-multi-agent-coordinator",
+        "finance-engineering-credit-risk-model",
+        "healthcare-engineering-regulatory-science",
+        "infrastructure-identity-access",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Technology doesn't replace teachers — it amplifies them. You design the digital",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "educational",
+        "technology",
+        "Implemented",
+        "created"
+      ],
+      "keywords": [
+        "教育技术",
+        "EdTech专家",
+        "教育技术与数字学习专家，覆盖LMS学习管理系统",
+        "Canvas",
+        "Moodle"
       ]
     },
     {
@@ -320,6 +643,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "K-12 master teacher — every curriculum standard, every common misconception in fractions, every lab safety rule, and the exact moment when a struggling student's eyes light up with understanding.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Subject",
+        "References",
+        "Standards",
+        "Success"
+      ],
+      "keywords": [
+        "K-12学科教学专家",
+        "中小学语文",
+        "数学",
+        "英语",
+        "物理"
       ]
     },
     {
@@ -332,10 +673,29 @@
       "path": "education/education-language-teaching.md",
       "depends_on": [
         "education-teacher",
+        "engineering-git-workflow-master",
         "government-social-work"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Language teaching specialist — language acquisition follows a natural order, input hypothesis explains why immersion works, and culture is not an add-on but the very medium through which language lives.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "References",
+        "Standards",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "语言教学专家",
+        "对外汉语",
+        "汉语国际教育",
+        "日语",
+        "法语"
       ]
     },
     {
@@ -347,11 +707,30 @@
       "subcategory": "",
       "path": "education/education-linguistics.md",
       "depends_on": [
-        "engineering-code-reviewer",
-        "engineering-minimal-change-engineer"
+        "finance-engineering-credit-risk-model",
+        "hr-tech-hrtech-people-analytics",
+        "hr-tech-people-analytics"
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Linguist — from Chomsky's Universal Grammar to usage-based construction grammar, from Proto-Indo-European to transformer language models. Language is the defining characteristic of human cognition; understanding it reveals how the mind works.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "语言学专家",
+        "理论语言学",
+        "音系",
+        "形态",
+        "句法"
       ]
     },
     {
@@ -367,10 +746,64 @@
         "engineering-git-workflow-master",
         "specialized-agentic-identity-trust",
         "specialized-habit-formation",
-        "thinking-models-decision-frameworks"
+        "thinking-models-decision-frameworks",
+        "thinking-models-scientific-method"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Medical education specialist — from anatomy lab to OSCE stations, from bedside teaching to simulation debriefing. See One, Do One, Teach One is not a pedagogy — it's a recipe for errors.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "References",
+        "Standards",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "医学教育专家",
+        "基础医学",
+        "临床医学",
+        "护理学",
+        "药学"
+      ]
+    },
+    {
+      "id": "education-multi-agent-coordinator",
+      "name": "Education Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for education — curriculum design,",
+      "emoji": "📚",
+      "category": "education",
+      "subcategory": "",
+      "path": "education/education-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating education specialists into coherent multi-agent workflows",
+      "tags": [
+        "education",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Education",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -386,7 +819,26 @@
         "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Number theorist — from the Riemann Hypothesis to elliptic curve cryptography, from prime distribution to Fermat's Last Theorem. Number theory was the \"queen of mathematics\" for its pure beauty; now it secures the internet.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "数论专家",
+        "解析数论",
+        "代数数论",
+        "算术几何",
+        "模形式与椭圆曲线"
       ]
     },
     {
@@ -401,12 +853,32 @@
         "design-engineering-user-research-system",
         "education-academic-anthropologist",
         "finance-cost-accountant",
+        "hr-people-analytics",
+        "hr-performance-management",
         "lottery-product-risk",
         "lottery-risk-compliance",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Crafts digital learning experiences that rival — and sometimes beat — the best in-person classrooms.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Methodology"
+      ],
+      "keywords": [
+        "在线教育设计师",
+        "MOOC",
+        "设计",
+        "混合式教学",
+        "LMS"
       ]
     },
     {
@@ -418,13 +890,30 @@
       "subcategory": "",
       "path": "education/education-philosophy-ethics.md",
       "depends_on": [
-        "aerospace-military-civil-fusion",
-        "engineering-git-workflow-master",
-        "government-social-work",
-        "testing-engineering-test-automation-framework"
+        "finance-engineering-credit-risk-model",
+        "hr-tech-general-manager",
+        "hr-tech-hrtech-people-analytics"
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Philosopher — from Plato's forms to Turing's test, from Kant's categorical imperative to AI alignment ethics. Philosophy clarifies concepts, questions assumptions, and builds rigorous arguments.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "哲学与伦理学专家",
+        "形而上学与认识论",
+        "伦理学与道德哲学",
+        "政治哲学",
+        "逻辑学与语言哲学"
       ]
     },
     {
@@ -442,7 +931,26 @@
         "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Biological anthropologist — from Australopithecus to forensic osteology, from primate tool use to ancient DNA migrations. Understanding what it means to be human starts with bones, genes, and our evolutionary story.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "体质人类学专家",
+        "人类进化与古人类学",
+        "灵长类行为与比较解剖学",
+        "法医人类学",
+        "人类骨骼生物学"
       ]
     },
     {
@@ -459,7 +967,26 @@
         "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Probabilist — from Kolmogorov's axioms to Ito's lemma, from branching processes to SDEs. Probability is the mathematics of uncertainty, and uncertainty is everywhere.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "概率论与随机过程专家",
+        "测度论概率基础",
+        "随机过程",
+        "马尔可夫",
+        "布朗运动"
       ]
     },
     {
@@ -471,11 +998,30 @@
       "subcategory": "",
       "path": "education/education-religious-studies.md",
       "depends_on": [
-        "engineering-git-workflow-master",
-        "government-social-work"
+        "finance-engineering-credit-risk-model",
+        "hr-tech-general-manager",
+        "hr-tech-hrtech-people-analytics"
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Religious studies scholar — from Vedic ritual to liberation theology, from Zen meditation to Islamic jurisprudence. You study religion not to promote or debunk it, but to understand one of the most powerful forces in human history and culture.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "宗教学专家",
+        "世界宗教比较",
+        "宗教哲学",
+        "宗教人类学",
+        "宗教社会学"
       ]
     },
     {
@@ -487,10 +1033,31 @@
       "subcategory": "",
       "path": "education/education-school-administrator.md",
       "depends_on": [
-        "education-academic-anthropologist"
+        "data-science-engineering-language-model-nlp",
+        "education-academic-anthropologist",
+        "environmental-engineering-climate-tech",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A great teacher changes lives one classroom at a time; a great school leader creates the conditions where every teacher can be great — that's your job",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "学校行政",
+        "校长",
+        "学校管理与教育行政专家，覆盖学校战略",
+        "发展规划",
+        "教学质量"
       ]
     },
     {
@@ -502,14 +1069,32 @@
       "subcategory": "",
       "path": "education/education-special-needs.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "education-academic-anthropologist",
         "infrastructure-identity-access",
         "legal-engineering-legal-document-automation"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every child can learn — your job is finding the key that unlocks how THIS child",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "特殊教育专家",
+        "特殊教育与融合教育专家，覆盖学习障碍评估",
+        "个别化教育计划",
+        "IEP",
+        "行为干预"
       ]
     },
     {
@@ -527,10 +1112,29 @@
         "engineering-git-workflow-master",
         "engineering-visual-studio-cpp",
         "specialized-personal-growth-mentor",
+        "thinking-models-decision-frameworks",
         "unreal-engine-unreal-world-builder"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "STEM and engineering education specialist — from freshman physics labs to capstone design projects, from ABET accreditation to CDIO framework. Engineering is best learned by doing, failing, and doing again.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "STEM与工程教育专家",
+        "天文学",
+        "环境科学",
+        "材料",
+        "机械"
       ]
     },
     {
@@ -542,18 +1146,38 @@
       "subcategory": "",
       "path": "education/education-study-abroad-advisor.md",
       "depends_on": [
+        "data-science-engineering-optical-character-recognition",
         "design-engineering-user-research-system",
         "education-academic-research-scientist",
         "finance-engineering-risk-quant",
         "logistics-public-transit",
         "marketing-europe-market",
         "marketing-linkedin-content-creator",
+        "marketing-market-research",
         "marketing-paid-media-search-query-analyst",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Guides Chinese students through the entire study abroad journey — from school selection and essays to visas — with data-driven advice and zero anxiety selling.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Technical",
+        "Student",
+        "Profile",
+        "Summary"
+      ],
+      "keywords": [
+        "留学顾问",
+        "国际教育",
+        "申请规划与留学目的地专家（美",
+        "澳）",
+        "Role"
       ]
     },
     {
@@ -565,15 +1189,31 @@
       "subcategory": "",
       "path": "education/education-teacher.md",
       "depends_on": [
-        "data-science-engineering-knowledge-management",
+        "data-science-engineering-deep-learning-training",
         "design-engineering-user-research-system",
         "education-academic-anthropologist",
-        "finance-cost-accountant",
-        "lottery-product-risk",
-        "marketing-paid-media-creative-strategist"
+        "hr-tech-general-manager"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs learning experiences that actually change how people think, not just what they memorize.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "教育专家",
+        "学科教学法",
+        "课程设计",
+        "学习评估与教育技术专家",
+        "核心信念"
       ]
     },
     {
@@ -590,6 +1230,24 @@
       ],
       "nexus_roles": [
         "phase-0-discovery"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Theoretical physicist — from the Standard Model to quantum gravity, from phase transitions to cosmic inflation. Today's theoretical speculation is tomorrow's experimental breakthrough.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "理论物理学家",
+        "量子场论与粒子物理",
+        "广义相对论与引力",
+        "凝聚态理论",
+        "统计力学"
       ]
     },
     {
@@ -601,11 +1259,31 @@
       "subcategory": "",
       "path": "education/education-topology.md",
       "depends_on": [
-        "engineering-code-reviewer",
-        "engineering-git-workflow-master"
+        "finance-engineering-credit-risk-model",
+        "hr-tech-general-manager",
+        "hr-tech-hrtech-people-analytics"
       ],
       "nexus_roles": [
-        "phase-0-discovery"
+        "phase-0-discovery",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Topologist — from fundamental groups to stable homotopy, from knot invariants to persistent homology. A coffee cup and a donut are the same object to a topologist.",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "拓扑学专家",
+        "代数拓扑",
+        "同伦",
+        "同调",
+        "微分拓扑"
       ]
     },
     {
@@ -624,7 +1302,26 @@
         "specialized-personal-growth-mentor"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Vocational education specialist — from the workshop floor to the commercial",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "职业教育专家",
+        "电工电子",
+        "汽车维修",
+        "数控技术",
+        "烹饪厨艺"
       ]
     },
     {
@@ -636,12 +1333,34 @@
       "subcategory": "",
       "path": "education/education-vocational-trainer.md",
       "depends_on": [
+        "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-deep-learning-training",
         "education-academic-anthropologist",
-        "engineering-multi-agent-systems-architect"
+        "education-multi-agent-coordinator",
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Not everyone needs a university degree — millions need practical skills that",
+      "lifecycle": "published",
+      "tags": [
+        "education",
+        "vocational",
+        "workforce",
+        "development",
+        "Built"
+      ],
+      "keywords": [
+        "职业培训",
+        "技能教育专家",
+        "职业技能培训与成人教育专家，覆盖职业技能标准",
+        "课程开发",
+        "实训基地"
       ]
     }
   ]

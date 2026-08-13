@@ -238,7 +238,7 @@ GATE_QUESTIONS = {
             ("Weekly report delivered?", "Campaign status shared with stakeholders?"),
         ],
         "3": [
-            ("Comprehensive campaign analysis done?", "Full funnel: reach → engagement → conversion?"),
+            ("Comprehensive campaign analysis done?", "Full funnel: reach -> engagement -> conversion?"),
             ("ROI calculated?", "Total spend vs. return by channel?"),
             ("Lessons documented?", "What worked, what didn't, and recommendations?"),
             ("Executive summary delivered?", "C-suite brief with key takeaways and next steps?"),
@@ -328,7 +328,7 @@ def init_project(name: str, scenario: str) -> None:
     sc = SCENARIOS[scenario]
     print(f"Created project '{name}' ({sc['name']})")
     print(f"  Duration: {sc['duration']}  |  Agents: {sc['agents']}")
-    print(f"  Phases: {' → '.join(sc['phases'])}")
+    print(f"  Phases: {' -> '.join(sc['phases'])}")
     print(f"  Runbook: {sc['runbook']}")
     print(f"  Checkpoint: {checkpoint_path(name)}")
     print(f"\nNext: python scripts/nexus-orchestrator.py --project {name} --start 0")
@@ -347,7 +347,7 @@ def show_status(name: str) -> None:
         if ps["started"]:
             extra += f"  {ps['started'][:10]}"
         if ps["completed"]:
-            extra += f" → {ps['completed'][:10]}"
+            extra += f" -> {ps['completed'][:10]}"
         label = get_phase_label(cp["scenario"], p)
         print(f"  {icon} Phase {p} - {label:<22} {ps['status']:<12}{extra}")
     current = cp.get("current_phase")
@@ -422,8 +422,18 @@ def run_gate(name: str, phase: str, gate_file: str | None = None) -> None:
     # Load answers from file if provided (non-interactive mode)
     gate_answers = {}
     if gate_file:
-        with open(gate_file, encoding="utf-8") as f:
-            gate_answers = json.load(f)
+        try:
+            with open(gate_file, encoding="utf-8") as f:
+                gate_answers = json.load(f)
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"ERROR: could not read gate answers from '{gate_file}': {e}",
+                  file=sys.stderr)
+            sys.exit(1)
+        if not isinstance(gate_answers, dict):
+            print(f"ERROR: '{gate_file}' must contain a JSON object of answers "
+                  f"(question -> {{passed, evidence}}), got {type(gate_answers).__name__}",
+                  file=sys.stderr)
+            sys.exit(1)
     ps = cp["phases"][phase]
     if ps["status"] != "in_progress":
         print(f"Phase {phase} is {ps['status']}. Use --start {phase} first.", file=sys.stderr)
@@ -558,6 +568,14 @@ def rollback_phase(name: str, phase: str) -> None:
     if not target:
         print(f"No feedback loop defined for Phase {phase}.", file=sys.stderr)
         sys.exit(1)
+    # Warn before discarding any recorded gate answers
+    if cp["phases"][phase].get("gate"):
+        print(f"WARNING: clearing {len(cp['phases'][phase]['gate'])} recorded gate "
+              f"answer(s) for Phase {phase} ({get_phase_label(cp['scenario'], phase)})")
+    if cp["phases"][target].get("gate"):
+        print(f"WARNING: clearing {len(cp['phases'][target]['gate'])} recorded gate "
+              f"answer(s) for Phase {target} ({get_phase_label(cp['scenario'], target)})")
+
     # Mark current phase as in_progress (rework) and reset the target
     ps["status"] = "in_progress"
     cp["phases"][phase]["completed"] = None
@@ -570,7 +588,7 @@ def rollback_phase(name: str, phase: str) -> None:
     save_checkpoint(name, cp)
     from_label = get_phase_label(cp["scenario"], phase)
     to_label = get_phase_label(cp["scenario"], target)
-    print(f"Rolled back: {from_label} (P{phase}) → {to_label} (P{target})")
+    print(f"Rolled back: {from_label} (P{phase}) -> {to_label} (P{target})")
     print("Both phases reopened for rework.")
     print(f"\nNext: --project {name} --start {target}")
 
@@ -606,13 +624,13 @@ def discover_scenario(query: str) -> None:
         print("  No direct matches. Try different keywords.\n")
         print("Available scenarios:")
         for name, sc in SCENARIOS.items():
-            print(f"  --scenario {name:<20} → {sc['name']} ({sc['duration']})")
+            print(f"  --scenario {name:<20} -> {sc['name']} ({sc['duration']})")
         return
 
     for scenario, score in sorted(scores.items(), key=lambda x: -x[1]):
         sc = SCENARIOS[scenario]
         bar = "█" * min(score // 3, 10)
-        phases_str = " → ".join(sc["phases"])
+        phases_str = " -> ".join(sc["phases"])
         print(f"  --scenario {scenario:<14} {bar:<8} {phases_str:<8} {sc['duration']:<20}")
 
     best = max(scores, key=lambda k: scores[k])
@@ -786,7 +804,7 @@ def query_phase(phase: str, mode: str, category: str | None, json_out: bool, ver
 
 def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
-        sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[union-attr]
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
     parser = argparse.ArgumentParser(description="NEXUS multi-agent project orchestrator")
     # Project commands
     parser.add_argument("--init", help="Create a new NEXUS project")

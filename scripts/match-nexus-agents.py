@@ -10,7 +10,6 @@ import argparse
 import json
 import re
 import sys
-from pathlib import Path
 
 from _shared import BOLD, CYAN, GREEN, RESET, YELLOW
 from _shared.discovery import discover_agents
@@ -50,28 +49,6 @@ def tokenize(text: str) -> list[str]:
     """Tokenize text into meaningful keywords, filtering stopwords and short words."""
     words = re.findall(r"[a-zA-Z][a-zA-Z0-9#+.]{1,}", text.lower())
     return [w for w in words if w not in STOPWORDS and len(w) >= 3]
-
-
-def score_agent(agent_path: Path, keywords: list[str]) -> int:
-    """Score a single agent by counting keyword matches in body + description."""
-    try:
-        text = agent_path.read_text(encoding="utf-8")
-    except OSError:
-        return 0
-    if not text.startswith("---"):
-        return 0
-
-    fm_text = get_frontmatter_text(text)
-    body = get_body(text)
-    description = get_field("description", fm_text)
-
-    search_text = (body + " " + description).lower()
-
-    score = 0
-    for kw in keywords:
-        if re.search(rf"\b{re.escape(kw)}\b", search_text):
-            score += 1
-    return score
 
 
 def build_roster(project_description: str, phase_filter: str | None = None) -> dict[str, list[dict]]:

@@ -91,6 +91,8 @@ integrations/kimi/*
 integrations/codex/agents/*
 integrations/osaurus/agency-*/
 integrations/hermes/agency-agents-router/
+integrations/oh-my-claudecode/*
+!integrations/oh-my-claudecode/README.md
 integrations/depends_on.json
 graphify-out/
 

@@ -1,7 +1,7 @@
 {
   "category": "sports",
-  "agent_count": 8,
-  "generated": "2026-07-16",
+  "agent_count": 9,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "sports-agent",
@@ -19,12 +19,30 @@
         "marketing-cross-border-ecommerce",
         "marketing-demand-generation",
         "marketing-paid-media-creative-strategist",
-        "securities-family-office",
+        "finance-securities-family-office",
         "specialized-agentic-identity-trust",
         "sports-coach"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The dealmaker behind the highlight reel — protects the athlete's brand today and their wealth tomorrow.",
+      "lifecycle": "published",
+      "tags": [
+        "sports",
+        "Contract",
+        "Negotiation",
+        "Framework",
+        "Market"
+      ],
+      "keywords": [
+        "运动员经纪人",
+        "合同谈判（薪资",
+        "奖金",
+        "代言）",
+        "品牌合作开发"
       ]
     },
     {
@@ -47,26 +65,60 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns raw talent into disciplined excellence — one rep, one game, one season at a time.",
+      "lifecycle": "published",
+      "tags": [
+        "sports",
+        "Four",
+        "Pillars",
+        "Athletic",
+        "Development"
+      ],
+      "keywords": [
+        "体育教练",
+        "运动员发展计划",
+        "技术分析",
+        "训练周期化",
+        "比赛策略"
       ]
     },
     {
       "id": "sports-director",
-      "name": "体育总监",
-      "description": "体育领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"⚽\"",
+      "name": "Sports Director",
+      "description": "Sports organization director — strategic leadership across athletic programs, coaching, and operations",
+      "emoji": "🏟️",
       "category": "sports",
       "subcategory": "",
       "path": "sports/sports-director.md",
       "depends_on": [
-        "hr-tech-people-analytics",
-        "specialized-multi-agent-director",
-        "specialized-multi-agent-president",
-        "specialized-multi-agent-project-manager",
-        "sports-general-manager"
+        "construction-engineering-landscape-architecture",
+        "engineering-visual-studio-python",
+        "healthcare-engineering-regulatory-science",
+        "sports-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-1-strategy",
-        "phase-3-build"
+        "phase-2-foundation",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "athletic excellence meets organizational leadership",
+      "tags": [
+        "sports",
+        "Technical",
+        "Process",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Sports",
+        "Director",
+        "organization",
+        "strategic",
+        "leadership"
       ]
     },
     {
@@ -87,6 +139,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Esports management specialist — from tournament brackets to player burnout prevention, from broadcast production to sponsorship ROI. Esports is a billion-dollar industry with professional athletes, live audiences, and the same business challenges as traditional sports.",
+      "lifecycle": "published",
+      "tags": [
+        "sports",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "电竞赛事管理专家",
+        "电竞赛事运营",
+        "战队管理",
+        "选手健康与职业发展",
+        "赛事制作与直播"
       ]
     },
     {
@@ -98,32 +168,48 @@
       "subcategory": "",
       "path": "sports/sports-event-ops.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-engineering-incident-response-commander",
         "marketing-brand-strategist-name",
         "marketing-paid-media-paid-social-strategist",
         "marketing-social-media-strategist",
-        "operations-report-distribution-agent",
         "sports-agent"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Behind every sold-out stadium is a military-grade operation — orchestrates the chaos so fans only see magic.",
+      "lifecycle": "published",
+      "tags": [
+        "sports",
+        "Capabilities",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "赛事运营经理",
+        "赛事物流与场馆管理",
+        "票务与观赛体验",
+        "转播与媒体协调",
+        "赞助商激活管理"
       ]
     },
     {
       "id": "sports-general-manager",
       "name": "体育总经理",
       "description": "体育领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"⚽\"",
+      "emoji": "⚽",
       "category": "sports",
       "subcategory": "",
       "path": "sports/sports-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager",
         "sports-director"
       ],
@@ -131,6 +217,24 @@
         "phase-1-strategy",
         "phase-3-build",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "sports",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "体育总经理",
+        "体育领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -149,6 +253,57 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Where fandom meets ROI — connects brands to the emotion of sport in ways that move both hearts and merchandise.",
+      "lifecycle": "published",
+      "tags": [
+        "sports",
+        "Technical",
+        "T-30",
+        "Publisher",
+        "League/Event"
+      ],
+      "keywords": [
+        "体育营销专员",
+        "赞助估值与包装",
+        "运动员品牌大使计划",
+        "体育内容营销",
+        "粉丝互动策略"
+      ]
+    },
+    {
+      "id": "sports-multi-agent-coordinator",
+      "name": "Sports Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for sports projects — coaching, analytics, event management",
+      "emoji": "🏟️",
+      "category": "sports",
+      "subcategory": "",
+      "path": "sports/sports-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating sports specialists into winning multi-agent teams",
+      "tags": [
+        "sports",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Sports",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -172,6 +327,24 @@
         "phase-2-foundation",
         "phase-3-build",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Sports medicine specialist — from ACL reconstruction rehab to heat illness prevention, from periodized nutrition to return-to-play protocols. Athletes push limits; you make sure their bodies survive it.",
+      "lifecycle": "published",
+      "tags": [
+        "sports",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "运动医学专家",
+        "运动损伤预防与康复",
+        "运动生理学",
+        "运动营养",
+        "运动心理学"
       ]
     }
   ]

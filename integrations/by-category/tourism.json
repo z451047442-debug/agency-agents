@@ -1,7 +1,7 @@
 {
   "category": "tourism",
-  "agent_count": 15,
-  "generated": "2026-07-16",
+  "agent_count": 16,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "tourism-cruise",
@@ -13,14 +13,33 @@
       "path": "tourism/tourism-cruise.md",
       "depends_on": [
         "energy-engineering-carbon-capture-storage",
-        "engineering-multi-agent-systems-architect",
         "environmental-water-treatment",
         "healthcare-engineering-regulatory-science",
         "logistics-last-mile-delivery",
-        "tourism-cultural-heritage"
+        "tourism-cultural-heritage",
+        "tourism-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A cruise ship is a floating city where 3,000 guests and 1,200 crew share one",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "邮轮运营管理专家",
+        "邮轮航线运营管理专家，覆盖航线规划与港口谈判",
+        "船上体验与娱乐",
+        "海事安全与SOLAS合规",
+        "船员管理与培训"
       ]
     },
     {
@@ -38,11 +57,28 @@
         "engineering-git-workflow-master",
         "healthcare-engineering-regulatory-science",
         "marketing-southeast-asia-expert",
-        "operations-report-distribution-agent",
         "tourism-cruise"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Heritage is not a monument — it is a living conversation between past and present, and every visitor who walks through a temple gate is joining that conversation",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "文化遗产旅游专家",
+        "遗产地阐释与故事讲述",
+        "UNESCO世界遗产申报与管理",
+        "文化遗产旅游产品开发",
+        "社区旅游"
       ]
     },
     {
@@ -65,13 +101,31 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A destination is a story waiting to be told — the best marketing doesn't sell a place, it invites people into its narrative",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "目的地营销策略师",
+        "旅游局与目的地品牌营销专家，操盘城市",
+        "地区",
+        "国家旅游形象的全球推广",
+        "Sofia"
       ]
     },
     {
       "id": "tourism-director",
       "name": "旅游总监",
       "description": "旅游领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"✈\"",
+      "emoji": "✈",
       "category": "tourism",
       "subcategory": "",
       "path": "tourism/tourism-director.md",
@@ -88,6 +142,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 旅游与酒店管理 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "旅游总监",
+        "旅游领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -106,6 +178,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A great event doesn't just happen — it's a thousand invisible decisions that make the impossible look effortless",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "大型活动与MICE策划师",
+        "国际会议",
+        "展览",
+        "奖励旅游策划专家，千万级预算项目全案操盘",
+        "Isabelle"
       ]
     },
     {
@@ -124,7 +214,26 @@
         "quality-food-safety"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Restaurant operator — from menu engineering to food cost control, from service sequence to kitchen workflow. A great restaurant serves food AND experience; both must be managed with equal precision.",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "餐饮运营管理专家",
+        "餐厅运营管理",
+        "菜单工程与定价",
+        "食材采购与供应链",
+        "食品安全"
       ]
     },
     {
@@ -136,7 +245,6 @@
       "subcategory": "",
       "path": "tourism/tourism-hotel-gm.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-customer-data-science",
         "healthcare-engineering-regulatory-science",
         "hr-employee-relations",
@@ -146,6 +254,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A hotel is a 24/7 business where every guest is judging you by the worst moment of their stay — your job is making sure there are no worst moments",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "酒店总经理",
+        "酒店全面经营管理专家，覆盖客房收益管理",
+        "RevPAR",
+        "餐饮",
+        "宴会运营"
       ]
     },
     {
@@ -166,6 +292,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A hotel is not a building — it's a living organism where every touchpoint either builds loyalty or loses it forever",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "酒店运营管理专家",
+        "国际酒店集团运营管理专家，覆盖房务",
+        "餐饮",
+        "收益",
+        "宾客体验全链运营"
       ]
     },
     {
@@ -177,13 +321,67 @@
       "subcategory": "",
       "path": "tourism/tourism-mice-planner.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "project-management-jira-workflow-steward",
         "tourism-event-planner",
+        "tourism-multi-agent-coordinator",
         "tourism-travel-agent",
         "tourism-travel-experience-designer"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A 500-person incentive trip to Bali isn't a vacation — it's a logistics operation",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "MICE",
+        "corporate",
+        "event",
+        "planning"
+      ],
+      "keywords": [
+        "MICE",
+        "会奖旅游策划师",
+        "会议",
+        "奖励旅游",
+        "大型企业活动"
+      ]
+    },
+    {
+      "id": "tourism-multi-agent-coordinator",
+      "name": "Tourism Multi-Agent Coordinator",
+      "description": "coordinates multi-agent workflows for tourism — travel planning, hospitality, destination marketing, event management",
+      "emoji": "✈️",
+      "category": "tourism",
+      "subcategory": "",
+      "path": "tourism/tourism-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating tourism specialists into coherent multi-agent workflows",
+      "tags": [
+        "tourism",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Tourism",
+        "Multi-Agent",
+        "Coordinator",
+        "coordinates",
+        "workflows"
       ]
     },
     {
@@ -196,11 +394,29 @@
       "path": "tourism/tourism-revenue-manager.md",
       "depends_on": [
         "data-science-engineering-language-model-nlp",
-        "operations-report-distribution-agent",
         "tourism-cruise"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every unsold room and empty seat is a perishable asset that will never exist",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "旅游收益管理专家",
+        "酒店与航司收益管理专家，动态定价",
+        "库存优化",
+        "需求预测全链路操盘",
+        "David"
       ]
     },
     {
@@ -221,6 +437,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Tourism is a transaction between guest and host — when balanced, both walk away richer. When extractive, the host loses a home, and the guest loses a soul",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "可持续旅游顾问",
+        "目的地承载力评估",
+        "生态旅游认证",
+        "GSTC",
+        "碳中和旅行项目"
       ]
     },
     {
@@ -232,15 +466,31 @@
       "subcategory": "",
       "path": "tourism/tourism-travel-agency.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "logistics-engineering-supply-chain-risk",
         "marketing-abm-account-based",
-        "operations-report-distribution-agent",
         "tourism-travel-agent",
         "tourism-travel-experience-designer"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A tour package is a promise sold before it's experienced — operations is the art of delivering that promise flawlessly, every time, across every timezone, crisis, and contingency",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "旅行社运营管理专家",
+        "旅行社全链路运营管理专家，覆盖旅游产品设计与定价",
+        "目的地合作与签约",
+        "预订系统与GDS管理",
+        "团队出游协调"
       ]
     },
     {
@@ -252,14 +502,32 @@
       "subcategory": "",
       "path": "tourism/tourism-travel-agent.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "design-engineering-user-research-system",
-        "engineering-multi-agent-systems-architect",
+        "tourism-multi-agent-coordinator",
         "tourism-travel-agency",
         "tourism-travel-experience-designer"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Travel is the only thing you buy that makes you richer — you craft the journeys",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "travel",
+        "agency",
+        "operations",
+        "Designed"
+      ],
+      "keywords": [
+        "旅行社",
+        "旅行顾问",
+        "旅行社经营与旅行顾问专家，覆盖个性化行程设计",
+        "机票",
+        "酒店"
       ]
     },
     {
@@ -274,11 +542,28 @@
         "engineering-programming-language",
         "marketing-private-domain-operator",
         "marketing-southeast-asia-expert",
-        "operations-report-distribution-agent",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The best trips aren't the ones you photograph — they're the ones that photograph themselves onto you",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "旅行体验设计师",
+        "沉浸式旅行体验策划专家，从文化沉浸到冒险路线，打造不可复制的旅程记忆",
+        "Marco",
+        "Chen",
+        "narrative"
       ]
     },
     {
@@ -297,7 +582,26 @@
       ],
       "nexus_roles": [
         "phase-3-build",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Sommelier and wine specialist — from Burgundy terroir to biodynamic viticulture, from blind tasting to cellar management. Wine is agriculture, chemistry, history, and art in a glass.",
+      "lifecycle": "published",
+      "tags": [
+        "tourism",
+        "Tools",
+        "Technologies",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "品酒与侍酒专家",
+        "葡萄酒产区与风土",
+        "品鉴方法与感官分析",
+        "餐酒搭配",
+        "葡萄酒服务与窖藏管理"
       ]
     }
   ]

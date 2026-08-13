@@ -23,11 +23,11 @@
 git clone https://github.com/z451047442-debug/agency-agents.git
 cd agency-agents
 
-# Install Python test dependencies
-pip install -r requirements-dev.txt
+# Install Python dev dependencies
+pip install -e ".[dev]"
 ```
 
-The only Python dependencies are `pytest>=7.0` and `pyyaml>=6.0`. The project has no runtime code -- these are for testing and validation only.
+The dev dependencies (from `pyproject.toml` `[project.optional-dependencies].dev`) are `pytest>=7.0`, `pytest-cov>=4.0`, and `pyyaml>=6.0`. The project has no runtime code -- these are for testing and validation only.
 
 ---
 
@@ -130,7 +130,7 @@ All CI workflows run on pull requests and pushes to `main`. See `.github/workflo
 
 | Task | Command |
 |------|---------|
-| Install test deps | `pip install -r requirements-dev.txt` |
+| Install dev deps | `pip install -e ".[dev]"` |
 | Run all tests | `python -m pytest tests/ -v` |
 | Lint all agents | `python scripts/lint-agents.py --all` |
 | Regenerate index | `./scripts/generate-index.sh` |

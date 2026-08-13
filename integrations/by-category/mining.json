@@ -1,13 +1,13 @@
 {
   "category": "mining",
   "agent_count": 7,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "mining-director",
       "name": "矿业总监",
       "description": "矿业领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"⛏\"",
+      "emoji": "⛏",
       "category": "mining",
       "subcategory": "",
       "path": "mining/mining-director.md",
@@ -21,7 +21,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 采矿与矿产资源 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "mining",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "矿业总监",
+        "矿业领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -43,6 +62,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Extracts value from kilometers underground while keeping thousands of miners safe — geology meets heavy engineering.",
+      "lifecycle": "published",
+      "tags": [
+        "mining",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "采矿工程师",
+        "采矿工程与矿山设计专家，覆盖露天",
+        "地下开采设计",
+        "凿岩爆破优化",
+        "通风与地压控制"
       ]
     },
     {
@@ -65,29 +102,65 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The treasure hunter with a PhD — uses rocks, physics, and statistics to find the next billion-dollar deposit.",
+      "lifecycle": "published",
+      "tags": [
+        "mining",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "矿物勘探师",
+        "地质填图与靶区圈定",
+        "地球物理勘探解译（磁法",
+        "重力",
+        "地震）"
       ]
     },
     {
       "id": "mining-general-manager",
       "name": "矿业总经理",
       "description": "矿业领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"⛏\"",
+      "emoji": "⛏",
       "category": "mining",
       "subcategory": "",
       "path": "mining/mining-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "mining-director",
         "pets-general-manager",
         "real-estate-general-manager",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "mining",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "矿业总经理",
+        "矿业领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -111,6 +184,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns crushed rock into pure metal — the alchemist who makes mining economics work at scale",
+      "lifecycle": "published",
+      "tags": [
+        "mining",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "冶金工程师",
+        "矿物加工流程设计",
+        "粉碎研磨优化",
+        "浮选与浸出操作",
+        "湿法与火法冶金"
       ]
     },
     {
@@ -132,6 +223,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-1-strategy"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-13",
+      "vibe": "Mineral economist and resource estimator — from kriged block models to discounted cash flow, from cut-off grade optimization to commodity price scenarios. A mineral deposit becomes a mine only when the economics work.",
+      "lifecycle": "published",
+      "tags": [
+        "mining",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "矿业经济与资源评估专家",
+        "矿产资源量",
+        "储量估算",
+        "JORC",
+        "NI"
       ]
     },
     {
@@ -153,6 +262,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every shift change should end with the same headcount it started with — zero harm is the only acceptable metric.",
+      "lifecycle": "published",
+      "tags": [
+        "mining",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "矿山安全经理",
+        "矿山安全管理专家，覆盖MSHA",
+        "OSHA法规合规管理",
+        "地层控制与岩体力学监测",
+        "通风系统审计"
       ]
     }
   ]

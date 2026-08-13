@@ -1,7 +1,7 @@
 {
   "category": "real-estate",
   "agent_count": 12,
-  "generated": "2026-07-16",
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "real-estate-appraiser",
@@ -13,11 +13,29 @@
       "path": "real-estate/real-estate-appraiser.md",
       "depends_on": [
         "education-special-needs",
-        "operations-report-distribution-agent",
         "real-estate-buyer-seller"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every property has a price; only some have a value. Your job is finding the",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Success",
+        "Metrics",
+        "Outputs",
+        "Specification"
+      ],
+      "keywords": [
+        "房地产估价师",
+        "房地产估价与价值评估专家，覆盖市场比较法",
+        "收益法",
+        "成本法三大估价方法",
+        "抵押"
       ]
     },
     {
@@ -36,6 +54,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every transaction is someone's biggest financial decision. Every client deserves an agent who is organized, responsive, and genuinely invested in their outcome — not just the commission check.",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "房地产买卖代理",
+        "全面的房地产代理助手，覆盖买方与卖方代理",
+        "房源管理",
+        "报价谈判",
+        "交易协调与交割支持"
       ]
     },
     {
@@ -53,7 +89,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every square foot has a price and every lease has leverage — negotiates deals",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Terms",
+        "Financial",
+        "Summary",
+        "Income"
+      ],
+      "keywords": [
+        "商业地产经纪人",
+        "商业地产经纪：写字楼",
+        "零售",
+        "工业租赁",
+        "资本化率与净运营收入分析"
       ]
     },
     {
@@ -67,11 +122,29 @@
       "depends_on": [
         "finance-engineering-credit-risk-model",
         "legal-engineering-legal-contracts-ai",
-        "legal-engineering-legal-document-automation",
-        "operations-report-distribution-agent"
+        "legal-engineering-legal-document-automation"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sees a vacant lot and envisions a community — manages the decade-long journey",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Development",
+        "Forma",
+        "Template",
+        "Location"
+      ],
+      "keywords": [
+        "房地产开发商",
+        "房地产开发全周期专家，覆盖土地获取与可行性分析",
+        "规划审批与区划协调",
+        "项目融资（建设贷款",
+        "夹层融资"
       ]
     },
     {
@@ -84,7 +157,6 @@
       "path": "real-estate/real-estate-development-manager.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "legal-engineering-legal-document-automation",
         "legal-general-counsel",
@@ -92,13 +164,31 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "From dirt to doorstep — every permit, every pour, every punch-list item is a step toward something that will stand for decades.",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Success",
+        "Metrics",
+        "Tools",
+        "Technologies"
+      ],
+      "keywords": [
+        "开发项目经理",
+        "房地产开发全周期管理：拿地研判",
+        "规划设计",
+        "报建审批",
+        "施工管理"
       ]
     },
     {
       "id": "real-estate-director",
       "name": "房地产总监",
       "description": "房地产领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🏘\"",
+      "emoji": "🏘",
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-director.md",
@@ -112,7 +202,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 房地产开发与投资 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "房地产总监",
+        "房地产领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -135,18 +244,35 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A building costs 10x more to operate than to build over its lifetime — you manage the operations that make buildings work for the people inside them",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "managing",
+        "commercial",
+        "office",
+        "retail"
+      ],
+      "keywords": [
+        "设施管理",
+        "FM",
+        "专家",
+        "商业建筑设施管理专家，覆盖楼宇机电",
+        "HVAC"
       ]
     },
     {
       "id": "real-estate-general-manager",
       "name": "房地产总经理",
       "description": "房地产领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🏘\"",
+      "emoji": "🏘",
       "category": "real-estate",
       "subcategory": "",
       "path": "real-estate/real-estate-general-manager.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "government-general-manager",
         "legal-general-manager",
         "pets-general-manager",
@@ -156,7 +282,26 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "房地产总经理",
+        "房地产领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -169,7 +314,6 @@
       "path": "real-estate/real-estate-investment-analyst.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "legal-engineering-legal-document-automation",
         "legal-general-counsel",
@@ -178,6 +322,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Location times timing equals fortune — but only if your spreadsheet tells the same story as the street.",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Success",
+        "Metrics",
+        "Tools",
+        "Technologies"
+      ],
+      "keywords": [
+        "房产投资分析师",
+        "房地产投资分析：市场研判",
+        "投资回报ROI",
+        "现金流模型",
+        "资产估值"
       ]
     },
     {
@@ -198,11 +360,28 @@
         "marketing-paid-media-creative-strategist",
         "marketing-paid-media-programmatic-buyer",
         "marketing-paid-media-search-query-analyst",
-        "marketing-private-domain-operator",
-        "operations-report-distribution-agent"
+        "marketing-private-domain-operator"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The person tenants call when things break — keeps the building running, the occupancy high, and the NOI climbing.",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "物业管理经理",
+        "物业管理经理，覆盖租户关系维护与续租",
+        "租赁合同管理与租金收取",
+        "日常维修与资本改善规划",
+        "供应商管理（保洁"
       ]
     },
     {
@@ -223,6 +402,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The impartial arbiter of value — armed with comps, cap rates, and an unshakeable methodology.",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "物业估价师",
+        "住宅与商业地产估价专家，精通收益法",
+        "市场法",
+        "成本法",
+        "最高最佳使用分析"
       ]
     },
     {
@@ -235,7 +432,6 @@
       "path": "real-estate/real-estate-reit-analyst.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "legal-engineering-legal-document-automation",
         "legal-general-counsel",
@@ -244,6 +440,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Where Wall Street meets Main Street real estate — dissects portfolios, cap rates, and balance sheets to find undervalued bricks.",
+      "lifecycle": "published",
+      "tags": [
+        "real-estate",
+        "Success",
+        "Metrics",
+        "Tools",
+        "Technologies"
+      ],
+      "keywords": [
+        "REIT分析师",
+        "REIT金融建模分析：FFO",
+        "AFFO调整",
+        "物业板块研判",
+        "写字楼"
       ]
     }
   ]

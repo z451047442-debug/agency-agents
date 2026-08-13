@@ -248,10 +248,12 @@ def main():
     del data["generated"]
     data["category_labels"] = ZH_LABELS
 
-    html = HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False))
+    # Escape "</" as "<\/" so agent descriptions containing "</script>" cannot
+    # terminate the embedded <script> block and break the page.
+    html = HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
 
     out = Path(args.out)
-    out.write_text(html, encoding="utf-8")
+    out.write_text(html, encoding="utf-8", newline="\n")
     print(f"Built {out} ({data['total_agents']} agents, {data['total_categories']} categories)")
 
 

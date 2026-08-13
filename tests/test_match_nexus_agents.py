@@ -19,7 +19,6 @@ mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
 
 tokenize = mod.tokenize
-score_agent = mod.score_agent
 build_roster = mod.build_roster
 PHASE_LABELS = mod.PHASE_LABELS
 
@@ -59,50 +58,6 @@ class TestTokenize:
         assert "application" in tokens
         assert "kubernetes" in tokens
         assert "with" not in tokens
-
-
-# ---------------------------------------------------------------------------
-# score_agent
-# ---------------------------------------------------------------------------
-
-class TestScoreAgent:
-    def test_matches_body(self, tmp_path):
-        f = tmp_path / "agent.md"
-        f.write_text(
-            "---\nname: Tester\ndescription: Something\n---\n"
-            "I perform security audits and code reviews for web applications.",
-            encoding="utf-8",
-        )
-        score = score_agent(f, ["security", "web"])
-        assert score == 2
-
-    def test_matches_description(self, tmp_path):
-        f = tmp_path / "agent.md"
-        f.write_text(
-            "---\nname: Tester\n"
-            "description: This agent handles security and web development\n---\n"
-            "Body content here.",
-            encoding="utf-8",
-        )
-        score = score_agent(f, ["security", "web"])
-        assert score == 2
-
-    def test_no_frontmatter_returns_zero(self, tmp_path):
-        f = tmp_path / "agent.md"
-        f.write_text("plain text no frontmatter", encoding="utf-8")
-        assert score_agent(f, ["security"]) == 0
-
-    def test_no_matches_returns_zero(self, tmp_path):
-        f = tmp_path / "agent.md"
-        f.write_text(
-            "---\nname: Tester\ndescription: Something completely unrelated\n---\n"
-            "This has nothing to do with the keywords.",
-            encoding="utf-8",
-        )
-        assert score_agent(f, ["security", "testing"]) == 0
-
-    def test_missing_file_returns_zero(self, tmp_path):
-        assert score_agent(tmp_path / "nonexistent.md", ["security"]) == 0
 
 
 # ---------------------------------------------------------------------------

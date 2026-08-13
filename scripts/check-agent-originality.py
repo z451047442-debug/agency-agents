@@ -92,7 +92,6 @@ def check_originality(
         key = str(p)
         cand_sh[key] = corpus.get(key) or shingles(tokens(p.read_text(encoding="utf-8")))
 
-    worst = 0.0
     fails: list[tuple[str, str, float]] = []
     warns: list[tuple[str, str, float]] = []
 
@@ -122,7 +121,6 @@ def check_originality(
                 best_name, best_score = _rel(op_key) + " (same change set)", s
 
         pct = best_score * 100
-        worst = max(worst, pct)
         tag = "OK   "
         if pct >= fail_threshold:
             tag = "FAIL "

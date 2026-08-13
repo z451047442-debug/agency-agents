@@ -1,7 +1,7 @@
 {
   "category": "infrastructure",
-  "agent_count": 97,
-  "generated": "2026-07-16",
+  "agent_count": 111,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "infrastructure-aliyun-architect",
@@ -19,6 +19,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Aliyun owns 40%+ of China's cloud market. When your business depends on 双11-scale infrastructure and 等保 compliance, the Aliyun architect is the difference between celebrating GMV and explaining downtime.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "阿里云架构师",
+        "阿里云平台架构与解决方案专家",
+        "覆盖飞天平台核心服务",
+        "ECS",
+        "VPC"
       ]
     },
     {
@@ -32,10 +50,29 @@
       "depends_on": [
         "infrastructure-github-actions-expert",
         "infrastructure-apache-httpd-expert",
-        "infrastructure-argocd-expert"
+        "infrastructure-argocd-expert",
+        "engineering-ai-agent-developer"
       ],
       "nexus_roles": [
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "SSH is the universal API. Ansible wraps it in YAML and makes a thousand servers dance to the same playbook — no agents, just idempotence.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Ansible自动化专家",
+        "Ansible配置管理与自动化专家",
+        "覆盖Ansible",
+        "Core",
+        "AWX"
       ]
     },
     {
@@ -47,16 +84,36 @@
       "subcategory": "",
       "path": "infrastructure/infrastructure-apache-httpd-expert.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-argocd-expert",
         "infrastructure-datadog-expert",
         "infrastructure-nginx-expert",
-        "infrastructure-splunk-expert"
+        "infrastructure-splunk-expert",
+        "infrastructure-multi-agent-coordinator",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Apache has been serving the web since 1995. When it goes down at 3 AM, someone",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Apache",
+        "HTTPD专家",
+        "HTTP",
+        "Server运维与优化专家",
+        "覆盖httpd"
       ]
     },
     {
@@ -70,16 +127,35 @@
       "depends_on": [
         "infrastructure-windows-server",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "engineering-ai-agent-developer"
       ],
       "nexus_roles": [
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "GitOps means Git is the single source of truth. When your entire infrastructure state is declared in Git and ArgoCD reconciles it, deployments become auditable, reproducible, and one git revert away from rollback.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "References"
+      ],
+      "keywords": [
+        "GitOps部署专家",
+        "ArgoCD与GitOps持续部署专家",
+        "覆盖ArgoCD",
+        "Application",
+        "ApplicationSet"
       ]
     },
     {
       "id": "infrastructure-aruba-network",
       "name": "Aruba网络专家",
-      "description": "Aruba(HPE)企业网络专家，覆盖CX交换机/AOS-CX、Central云管、AOS10 WiFi 6E/7 AP、ClearPass NAC策略、SD-Branch与EdgeConnect SD-WAN",
+      "description": "Aruba(HPE)企业网络专家，覆盖CX交换机/AOS-CX、Central云管、AOS10 WiFi 6E/7 AP、ClearPass",
       "emoji": "🟣",
       "category": "infrastructure",
       "subcategory": "",
@@ -95,7 +171,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Aruba is HPE's networking crown jewel — CX switches run like a dream, Central",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "Aruba网络专家",
+        "Aruba",
+        "HPE",
+        "企业网络专家，覆盖CX交换机",
+        "AOS-CX"
       ]
     },
     {
@@ -111,11 +206,30 @@
         "infrastructure-engineering-incident-response-commander",
         "infrastructure-storage-backup",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "engineering-ai-agent-developer"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AWS has 200+ services. The architect who knows which 20 matter and applies all six Well-Architected pillars saves the company from a six-figure surprise bill.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "AWS解决方案架构师",
+        "AWS云架构与解决方案专家",
+        "覆盖Well-Architected",
+        "Framework六大支柱",
+        "核心服务"
       ]
     },
     {
@@ -127,14 +241,35 @@
       "subcategory": "",
       "path": "infrastructure/infrastructure-backup-admin.md",
       "depends_on": [
-        "infrastructure-storage-backup",
+        "data-science-engineering-deep-learning-training",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-multi-agent-coordinator",
+        "infrastructure-storage-backup",
+        "project-management-jira-workflow-steward"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Nobody cares about backups until they need them — and then it's the only thing",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "managing",
+        "enterprise",
+        "backup",
+        "recovery"
+      ],
+      "keywords": [
+        "备份与恢复管理员",
+        "企业数据备份与灾难恢复专家，覆盖Veeam",
+        "Commvault",
+        "Veritas备份方案",
+        "磁带"
       ]
     },
     {
@@ -153,6 +288,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Brother printers are workhorses — they're not the flashiest, but they're reliable, affordable, and if you configure BRAdmin correctly, they'll run for years without anyone noticing they exist",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Brother打印机专家",
+        "Brother",
+        "兄弟",
+        "打印机与办公解决方案专家，覆盖激光",
+        "喷墨"
       ]
     },
     {
@@ -164,12 +317,35 @@
       "subcategory": "",
       "path": "infrastructure/infrastructure-cable-management.md",
       "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-build-release-engineer",
+        "engineering-container-orchestration",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every server, every switch, every access point depends on a cable that someone",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "structured",
+        "cabling",
+        "data",
+        "centers"
+      ],
+      "keywords": [
+        "综合布线",
+        "线缆管理工程师",
+        "数据中心",
+        "企业结构化布线专家，覆盖铜缆",
+        "Cat6A"
       ]
     },
     {
@@ -188,7 +364,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the network team asks 'why is the WAN link saturated?', Cacti's RRDtool",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "Specifications",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "Cacti监控专家",
+        "Cacti网络流量与性能监控专家，覆盖SNMP",
+        "SNMPv3数据采集",
+        "RRDtool图形引擎",
+        "Spine轮询器"
       ]
     },
     {
@@ -208,12 +403,30 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Canon's heritage is in optics and imaging — their printers think like cameras, and understanding the lens-to-print pipeline is what sets a Canon specialist apart from a generic print admin",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "Process",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "Canon打印机专家",
+        "Canon",
+        "佳能",
+        "打印机与影像解决方案专家，覆盖imageRUNNER",
+        "imageCLASS"
       ]
     },
     {
       "id": "infrastructure-cisco-network",
       "name": "Cisco网络专家",
-      "description": "Cisco网络设备专家，覆盖IOS/IOS-XE/NX-OS、Catalyst/Nexus/ISR/ASR、SD-Access/A CI、DNAC/Catalyst Center与Meraki云管",
+      "description": "Cisco网络设备专家，覆盖IOS/IOS-XE/NX-OS、Catalyst/Nexus/ISR/ASR、SD-Access/A CI、DNAC/Catalyst",
       "emoji": "🔵",
       "category": "infrastructure",
       "subcategory": "",
@@ -228,7 +441,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The network that runs the internet runs on Cisco — you speak IOS like a second",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "Cisco网络专家",
+        "Cisco网络设备专家，覆盖IOS",
+        "IOS-XE",
+        "NX-OS",
+        "Catalyst"
       ]
     },
     {
@@ -247,7 +479,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every cloud dollar wasted is margin lost — you find the idle resources, optimize",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "cloud",
+        "financial",
+        "management",
+        "Saved"
+      ],
+      "keywords": [
+        "云成本",
+        "FinOps管理顾问",
+        "多云成本优化与FinOps治理顾问，覆盖AWS",
+        "Azure",
+        "GCP"
       ]
     },
     {
@@ -268,6 +519,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If you don't know what servers, applications, and services you have, you can't manage them. You build the CMDB that becomes the single source of truth for IT.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "configuration",
+        "management",
+        "Built",
+        "CMDBs"
+      ],
+      "keywords": [
+        "CMDB",
+        "配置管理数据库专家",
+        "IT配置管理数据库与服务映射专家，覆盖ServiceNow",
+        "CSDM",
+        "4.0模型"
       ]
     },
     {
@@ -289,6 +558,24 @@
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the alert fires at 3AM, you're the first responder — triaging, documenting,",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "network",
+        "security",
+        "operations",
+        "centers"
+      ],
+      "keywords": [
+        "网络安全运营",
+        "NOC",
+        "SOC",
+        "分析师",
+        "网络与安全运营中心"
       ]
     },
     {
@@ -302,7 +589,7 @@
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "infrastructure-multi-agent-coordinator",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-dahua-surveillance",
@@ -310,7 +597,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Behind every Dahua DSS platform running a city's surveillance is a cluster of",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "大华服务器专家",
+        "大华智能服务器与云存储专家，覆盖AI服务器",
+        "GPU",
+        "MLU",
+        "视频云存储"
       ]
     },
     {
@@ -321,12 +627,27 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-dahua-surveillance.md",
-      "depends_on": [
-        "operations-report-distribution-agent"
-      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "From a single convenience store to a city-wide safe-city deployment — Dahua scales, and you know how to make it scale reliably",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "大华安防网络专家",
+        "大华",
+        "Dahua",
+        "安防系统与网络专家，覆盖IP摄像头",
+        "HDCVI"
       ]
     },
     {
@@ -341,12 +662,29 @@
         "data-science-engineering-language-model-nlp",
         "education-special-needs",
         "manufacturing-engineering-test-chip-bringup",
-        "operations-report-distribution-agent",
         "specialized-document-generator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Servers are the glamour; power, cooling, and cabling are the reality — a data center is a factory for compute, and you keep the factory running",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "数据中心基础设施专家",
+        "数据中心基础设施规划与运维专家，覆盖供配电",
+        "UPS",
+        "柴油发电",
+        "精密空调"
       ]
     },
     {
@@ -358,12 +696,35 @@
       "subcategory": "",
       "path": "infrastructure/infrastructure-data-center-network.md",
       "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "data-science-engineering-deep-learning-training",
+        "engineering-standards-compliance",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The data center network carries the traffic that runs the internet. You design",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "designing",
+        "hyperscale",
+        "data",
+        "center"
+      ],
+      "keywords": [
+        "数据中心网络架构师",
+        "超大规模数据中心网络设计专家，覆盖Spine-Leaf",
+        "Clos",
+        "Fabric架构",
+        "VXLAN"
       ]
     },
     {
@@ -376,17 +737,36 @@
       "path": "infrastructure/infrastructure-datadog-expert.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "cybersecurity-engineering-threat-detection-engineer"
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Datadog unifies metrics, traces, and logs in one platform. The expert who connects all three dimensions turns observability from three screens into one story — and cuts MTTR by 80%.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Datadog可观测性专家",
+        "Datadog全栈可观测性专家",
+        "覆盖Agent部署与600+集成管理",
+        "APM与分布式追踪",
+        "Flame"
       ]
     },
     {
       "id": "infrastructure-dell-server",
       "name": "Dell服务器专家",
-      "description": "Dell PowerEdge服务器与超融合专家，覆盖PowerEdge R/T/MX/XR全系列、iDRAC、OpenManage、VxRail HCI、PowerFlex/PowerStore与Dell数据中心网络",
+      "description": "Dell PowerEdge服务器与超融合专家，覆盖PowerEdge R/T/MX/XR全系列、iDRAC、OpenManage、VxRail",
       "emoji": "🔷",
       "category": "infrastructure",
       "subcategory": "",
@@ -401,7 +781,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "No one ever got fired for buying Dell — but they did get paged at 3AM when the",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Professional",
+        "Scope",
+        "Safeguards"
+      ],
+      "keywords": [
+        "Dell服务器专家",
+        "Dell",
+        "PowerEdge服务器与超融合专家，覆盖PowerEdge",
+        "MX",
+        "XR全系列"
       ]
     },
     {
@@ -422,6 +821,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the CEO's laptop won't connect to the projector 2 minutes before the board presentation — you don't panic, you already have the dongle, the backup cable, and the wireless casting link ready",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "桌面运维工程师",
+        "企业桌面运维综合专家，覆盖Windows",
+        "macOS双平台",
+        "硬件故障诊断与更换",
+        "软件部署与许可管理"
       ]
     },
     {
@@ -443,6 +860,24 @@
       ],
       "nexus_roles": [
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Developers spend 30% of their time on non-coding tasks — you build the platform and toolchain that automates the rest away",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "building",
+        "developer",
+        "platforms",
+        "Integrated"
+      ],
+      "keywords": [
+        "DevOps平台",
+        "工具链工程师",
+        "DevOps平台与开发者工具链",
+        "SDLC",
+        "工程专家，覆盖GitLab"
       ]
     },
     {
@@ -460,25 +895,66 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Work happens everywhere now — you build the virtual desktops, apps, and policies",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "end-user",
+        "computing",
+        "Delivered",
+        "virtual"
+      ],
+      "keywords": [
+        "数字化工作空间",
+        "VDI工程师",
+        "企业终端用户计算与虚拟桌面专家，覆盖Citrix",
+        "VMware",
+        "Horizon"
       ]
     },
     {
       "id": "infrastructure-docker-expert",
       "name": "容器化平台专家",
-      "description": "Docker与容器化平台构建专家,覆盖OCI容器镜像构建(Dockerfile/多阶段构建/BuildKit/buildah)与镜像优化、容器运行时(containerd/runc/gVisor/kata/Firecracker)与隔离技术(namespace/cgroup/seccomp)、Registry管理(Harbor/Distribution/ECS/ACR)与镜像安全扫描(Trivy/Grype/Snyk)、Docker Compose/Docker Swarm编排与开发环境标准化、容器安全最佳实践与CIS Benchmark合规",
+      "description": "Docker与容器化平台构建专家,覆盖OCI容器镜像构建(Dockerfile/多阶段构建/BuildKit/buildah)与镜像优化、容器运行时(containerd/runc/gVisor/kata/Firecracker)与隔离技术(namespace/cgroup/seccomp)、Registry管理(Harbor/Distribution/ECS/ACR)与镜像安全扫描(Trivy/Grype/Snyk)、Docker",
       "emoji": "🐳",
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-docker-expert.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
-        "infrastructure-github-actions-expert"
+        "infrastructure-github-actions-expert",
+        "infrastructure-multi-agent-coordinator",
+        "engineering-frontend-developer",
+        "cybersecurity-incident-response",
+        "cybersecurity-cloud-security-architect"
       ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Docker made containers accessible to every developer. The Docker expert who",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "References"
+      ],
+      "keywords": [
+        "容器化平台专家",
+        "Docker与容器化平台构建专家",
+        "覆盖OCI容器镜像构建",
+        "Dockerfile",
+        "多阶段构建"
       ]
     },
     {
@@ -496,6 +972,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If it generates a log line, ELK can ingest it, index it, and make it searchable in under a second. The hard part isn't the tools — it's knowing what to log, how to structure it, and when to alert on it.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "ELK",
+        "Stack专家",
+        "Elastic",
+        "Stack",
+        "日志与数据分析平台专家，覆盖Elasticsearch集群架构与调优"
       ]
     },
     {
@@ -517,6 +1011,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Before the OS boots, your code runs. You initialize the silicon, enumerate the buses, and hand a working machine to the operating system.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "system",
+        "firmware",
+        "Brought",
+        "platforms"
+      ],
+      "keywords": [
+        "BIOS",
+        "UEFI固件工程师",
+        "系统固件与平台初始化专家，覆盖UEFI",
+        "BIOS开发",
+        "TianoCore"
       ]
     },
     {
@@ -530,11 +1042,30 @@
       "depends_on": [
         "infrastructure-github-actions-expert",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "cybersecurity-engineering-customer-identity-access"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Push to main, watch it fly. Your pipeline is the team's heartbeat — keep it steady.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Expertise",
+        "Approach",
+        "Output",
+        "Lines"
+      ],
+      "keywords": [
+        "CI",
+        "CD",
+        "流水线工程师",
+        "持续集成",
+        "持续交付与"
       ]
     },
     {
@@ -555,6 +1086,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs cloud architectures where cost, performance, and reliability find their equilibrium — multi-cloud is not a buzzword, it's a survival strategy.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "云计算架构师",
+        "AWS",
+        "Azure",
+        "GCP",
+        "阿里云多平台架构设计"
       ]
     },
     {
@@ -566,12 +1115,34 @@
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-cloud-finops.md",
       "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-container-orchestration",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cloud bills grow faster than revenue if nobody's watching. You find the waste,",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "cloud",
+        "cost",
+        "optimization",
+        "Saved"
+      ],
+      "keywords": [
+        "云成本优化",
+        "FinOps",
+        "工程师",
+        "云成本管理与FinOps专家，覆盖AWS",
+        "Azure"
       ]
     },
     {
@@ -592,12 +1163,30 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Moving to the cloud isn't just lifting and shifting — it's reimagining how applications are built, deployed, and operated. You guide the journey from data center to cloud-native.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "cloud",
+        "migration",
+        "Migrated",
+        "hundreds"
+      ],
+      "keywords": [
+        "云迁移",
+        "现代化工程师",
+        "应用云迁移与现代化转型专家，覆盖6R迁移策略",
+        "Rehost",
+        "Replatform"
       ]
     },
     {
       "id": "infrastructure-engineering-cloud-native",
       "name": "云原生/Serverless架构师",
-      "description": "云原生应用架构与Serverless计算专家，覆盖Kubernetes/Service Mesh、FaaS(AWS Lambda/Azure Functions)、事件驱动架构(EDA)/EventBridge/Kafka与12-Factor应用设计",
+      "description": "云原生应用架构与Serverless计算专家，覆盖Kubernetes/Service Mesh、FaaS(AWS Lambda/Azure",
       "emoji": "☁️",
       "category": "infrastructure",
       "subcategory": "",
@@ -609,7 +1198,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Servers are somebody else's problem — you design applications that scale from",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "cloud",
+        "architecture",
+        "Designed",
+        "cloud-native"
+      ],
+      "keywords": [
+        "云原生",
+        "Serverless架构师",
+        "云原生应用架构与Serverless计算专家，覆盖Kubernetes",
+        "Service",
+        "Mesh"
       ]
     },
     {
@@ -623,13 +1231,32 @@
       "depends_on": [
         "energy-engineering-grid-scale-storage",
         "engineering-container-orchestration",
-        "engineering-multi-agent-systems-architect",
+        "infrastructure-multi-agent-coordinator",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-engineering-kubernetes-expert"
       ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If it runs in a container, it runs anywhere. If it runs on Kubernetes, it runs",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "容器编排工程师",
+        "Docker",
+        "Kubernetes",
+        "集群管理与微服务容器化部署专家",
+        "Memory"
       ]
     },
     {
@@ -644,12 +1271,29 @@
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "marketing-demand-generation",
-        "operations-report-distribution-agent",
         "testing-engineering-reliability-testing"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data centers are the factories of the digital age — you design the power and cooling that keep the cloud running at 99.995% availability",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "designing",
+        "data",
+        "center",
+        "Designed"
+      ],
+      "keywords": [
+        "数据中心电气",
+        "暖通设计工程师",
+        "数据中心关键设施",
+        "电气",
+        "暖通"
       ]
     },
     {
@@ -668,7 +1312,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The cloud runs in data centers, and data centers run because of you — managing",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "facility",
+        "operations",
+        "Managed",
+        "24/7"
+      ],
+      "keywords": [
+        "数据中心运营",
+        "现场运维经理",
+        "超大规模数据中心现场运营与基础设施运维经理，覆盖7×24基础设施",
+        "电气",
+        "暖通"
       ]
     },
     {
@@ -688,6 +1351,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "AI servers pack 100kW per rack — air cooling can't handle that. You design the liquid cooling systems that keep the most powerful computers on Earth from melting down.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "data",
+        "center",
+        "cooling",
+        "Designed"
+      ],
+      "keywords": [
+        "数据中心热管理",
+        "液冷专家",
+        "高密度数据中心制冷与液冷系统专家，覆盖直接芯片液冷",
+        "DLC",
+        "浸没式冷却"
       ]
     },
     {
@@ -712,6 +1393,24 @@
       ],
       "nexus_roles": [
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Automates infrastructure so your team ships faster and sleeps better.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Process"
+      ],
+      "keywords": [
+        "DevOps",
+        "自动化工程师",
+        "CI",
+        "CD",
+        "基础设施自动化与云运营专家"
       ]
     },
     {
@@ -729,12 +1428,29 @@
         "engineering-quantum-computing",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
-        "iot-edge-computing",
-        "operations-report-distribution-agent"
+        "iot-edge-computing"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Not everything belongs in the cloud. When latency must be under 10ms, compute moves to the edge — you build the distributed infrastructure that makes it possible.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "edge",
+        "computing",
+        "architecture",
+        "Designed"
+      ],
+      "keywords": [
+        "边缘计算工程师",
+        "边缘计算与CDN架构专家，覆盖边缘节点",
+        "Edge",
+        "Cloud设计",
+        "MEC多接入边缘计算"
       ]
     },
     {
@@ -755,6 +1471,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every technology decision compounds over years — you design the blueprint that keeps systems coherent, costs manageable, and change possible",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "enterprise",
+        "architecture",
+        "Defined",
+        "technology"
+      ],
+      "keywords": [
+        "企业架构师",
+        "Enterprise",
+        "Architect",
+        "企业级信息技术架构与战略规划专家，覆盖TOGAF",
+        "Zachman企业架构框架"
       ]
     },
     {
@@ -777,6 +1511,24 @@
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the site is down and revenue is burning, someone needs to lead. You coordinate",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "leading",
+        "incident",
+        "response",
+        "large-scale"
+      ],
+      "keywords": [
+        "事故指挥官",
+        "Incident",
+        "Commander",
+        "重大技术事故应急指挥专家，覆盖事故分级",
+        "升级机制"
       ]
     },
     {
@@ -805,6 +1557,24 @@
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Turns production chaos into structured resolution.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "故障响应指挥官",
+        "事件管理",
+        "故障复盘与值班应急专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -823,7 +1593,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the incident goes from \"my email is slow\" to \"the CEO's email is down,",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "IT服务管理",
+        "ITIL",
+        "专家",
+        "4服务管理专家，覆盖事件",
+        "问题"
       ]
     },
     {
@@ -837,10 +1626,29 @@
       "depends_on": [
         "infrastructure-kubernetes-expert",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "engineering-ai-agent-developer"
       ],
       "nexus_roles": [
         "phase-2-foundation"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Orchestrates containers like a symphony conductor — every pod has its place, every deployment its rhythm.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "Kubernetes",
+        "容器编排专家",
+        "K8s",
+        "集群管理",
+        "Helm"
       ]
     },
     {
@@ -858,7 +1666,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The silent guardian of production — when everything works, nobody knows you",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Professional"
+      ],
+      "keywords": [
+        "Linux",
+        "系统管理员",
+        "系统运维",
+        "性能调优",
+        "Shell"
       ]
     },
     {
@@ -883,6 +1710,24 @@
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You can't fix what you can't see. Good monitoring turns \"it's down\" into \"it's",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Expertise",
+        "Approach"
+      ],
+      "keywords": [
+        "监控告警工程师",
+        "Prometheus",
+        "Grafana",
+        "可观测性堆栈建设与告警策略设计专家",
+        "Monitoring"
       ]
     },
     {
@@ -894,13 +1739,35 @@
       "subcategory": "",
       "path": "infrastructure/infrastructure-engineering-observability-architect.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "data-science-engineering-deep-learning-training",
+        "engineering-build-release-engineer",
+        "engineering-container-orchestration",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your system is a black box until you instrument it. You architect the observability",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "building",
+        "observability",
+        "platforms",
+        "Instrumented"
+      ],
+      "keywords": [
+        "可观测性架构师",
+        "企业级可观测性平台架构专家，覆盖OpenTelemetry标准化采集",
+        "LGTM",
+        "Mimir",
+        "Tempo"
       ]
     },
     {
@@ -922,6 +1789,24 @@
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your system is a black box until you instrument it — you turn \"it's slow\" into",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technologies",
+        "References",
+        "Standards",
+        "Success"
+      ],
+      "keywords": [
+        "可观测性工程师",
+        "可观测性与监控工程专家，覆盖OpenTelemetry",
+        "Prometheus",
+        "Grafana",
+        "LGTM技术栈"
       ]
     },
     {
@@ -940,7 +1825,26 @@
         "marketing-market-research"
       ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Build the platform that builds the products — every hour of developer toil you",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "平台工程师",
+        "平台工程与开发者体验",
+        "DX",
+        "专家，覆盖内部开发者平台",
+        "IDP"
       ]
     },
     {
@@ -958,7 +1862,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reliability is a feature, not an accident — you architect systems that stay",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "designing",
+        "reliable",
+        "distributed",
+        "systems"
+      ],
+      "keywords": [
+        "站点可靠性架构师",
+        "SRE",
+        "Architect",
+        "高级SRE与系统可靠性架构师，覆盖大规模分布式系统可靠性设计",
+        "混沌工程"
       ]
     },
     {
@@ -979,7 +1902,26 @@
         "infrastructure-apache-httpd-expert"
       ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If you have to do it twice, automate it. If you have to do it at 3AM, automate it first. You build the automation that keeps systems running while you sleep.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "automation",
+        "Built",
+        "self-service",
+        "platforms"
+      ],
+      "keywords": [
+        "SRE自动化",
+        "运维开发工程师",
+        "SRE运维自动化与平台开发专家，覆盖Terraform",
+        "Pulumi基础设施即代码",
+        "IaC"
       ]
     },
     {
@@ -1003,6 +1945,24 @@
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reliability is a feature. Error budgets fund velocity — spend them wisely.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Framework",
+        "Observability",
+        "Stack",
+        "Incident"
+      ],
+      "keywords": [
+        "站点可靠性工程师",
+        "SLO",
+        "错误预算",
+        "可观测性与混沌工程专家",
+        "Role"
       ]
     },
     {
@@ -1022,6 +1982,24 @@
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You manage the team that keeps production running — balancing reliability with",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "leading",
+        "teams",
+        "Managed",
+        "24/7"
+      ],
+      "keywords": [
+        "SRE",
+        "基础设施工程经理",
+        "SRE与基础设施工程团队管理者，覆盖SRE",
+        "SysAdmin",
+        "Network团队领导"
       ]
     },
     {
@@ -1036,31 +2014,71 @@
         "infrastructure-datadog-expert",
         "infrastructure-splunk-expert",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "engineering-ai-agent-developer"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Epson doesn't use toner cartridges — the PrecisionCore printhead and EcoTank system fundamentally change the economics of printing",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Epson打印机专家",
+        "Epson",
+        "爱普生",
+        "打印机与影像解决方案专家，覆盖WorkForce",
+        "EcoTank"
       ]
     },
     {
       "id": "infrastructure-github-actions-expert",
       "name": "GitHub Actions CI/CD专家",
-      "description": "GitHub Actions持续集成与部署专家,覆盖Workflow/Job/Step/Runner架构与YAML语法、Reusable Workflow与Composite Action模块化设计、Self-Hosted Runner部署与Auto-Scaling、Secrets/OIDC/Environment保护与安全最佳实践、Marketplace Action评估与自定义Action开发(JS/Docker/Composite)",
+      "description": "GitHub Actions持续集成与部署专家,覆盖Workflow/Job/Step/Runner架构与YAML语法、Reusable",
       "emoji": "🔄",
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-github-actions-expert.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-code-reviewer",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-datadog-expert",
         "infrastructure-jenkins-expert",
+        "infrastructure-multi-agent-coordinator",
         "infrastructure-vmware"
       ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "GitHub Actions is the default CI/CD for 100 million repositories. The expert",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "Specifications",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "GitHub",
+        "Actions",
+        "CI",
+        "CD专家",
+        "Actions持续集成与部署专家"
       ]
     },
     {
@@ -1073,31 +2091,68 @@
       "path": "infrastructure/infrastructure-graylog-expert.md",
       "depends_on": [
         "cybersecurity-engineering-threat-detection-engineer",
-        "security-threat-intelligence-analyst"
+        "cybersecurity-threat-intelligence"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Splunk's pricing makes CFOs cry. ELK's complexity makes engineers cry. Graylog sits in the sweet spot — powerful enough for enterprise, simple enough that the helpdesk can run their own searches.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "Success",
+        "Metrics",
+        "Tools"
+      ],
+      "keywords": [
+        "Graylog日志管理专家",
+        "Graylog集中式日志管理与SIEM平台专家，覆盖集群架构设计",
+        "输入",
+        "提取器",
+        "流规则引擎"
       ]
     },
     {
       "id": "infrastructure-h3c-network",
       "name": "H3C网络专家",
-      "description": "H3C(新华三)网络设备专家，覆盖Comware OS、交换机/路由器/WLAN、IRF堆叠、SDN(AD-Campus/AD-DC)与H3C iMC管理平台",
+      "description": "H3C(新华三)网络设备专家，覆盖Comware OS、交换机/路由器/WLAN、IRF堆叠、SDN(AD-Campus/AD-DC)与H3C",
       "emoji": "🔷",
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-h3c-network.md",
       "depends_on": [
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "infrastructure-multi-agent-coordinator",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-data-center-network"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Comware CLI runs deep — you know every command, every quirk, every IRF split-brain",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "H3C网络专家",
+        "H3C",
+        "新华三",
+        "网络设备专家，覆盖Comware",
+        "OS"
       ]
     },
     {
@@ -1113,16 +2168,35 @@
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-language-model-nlp",
         "data-science-engineering-video-analytics",
-        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-identity-access",
         "marketing-paid-media-search-query-analyst",
-        "media-entertainment-engineering-video-streaming"
+        "media-entertainment-engineering-video-streaming",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When a city has 50,000 cameras, someone needs to store that video and run AI",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "海康威视服务器专家",
+        "海康威视智能分析服务器与视频云存储专家，覆盖AI服务器",
+        "GPU",
+        "Atlas",
+        "视频云存储"
       ]
     },
     {
@@ -1149,6 +2223,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every camera is a node on the network — you design the surveillance network so that video never stutters, storage never overflows, and evidence is always retrievable",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "海康威视安防网络专家",
+        "海康威视安防系统与网络专家，覆盖IP摄像头",
+        "NVR",
+        "DVR",
+        "视频管理平台"
       ]
     },
     {
@@ -1162,18 +2254,35 @@
       "depends_on": [
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
-        "infrastructure-windows-server",
-        "operations-report-distribution-agent"
+        "infrastructure-windows-server"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the entire accounting department can't print on month-end close day, it's always the driver, the spooler, or the SNMP community string — and you know all three",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "HP打印机专家",
+        "HP",
+        "惠普",
+        "打印机与打印解决方案专家，覆盖LaserJet",
+        "Enterprise"
       ]
     },
     {
       "id": "infrastructure-hpe-server",
       "name": "HPE服务器专家",
-      "description": "HPE ProLiant/ Synergy服务器与存储专家，覆盖iLO/OneView、Apollo HPC、SimpliVity HCI、Nimble/Alletra 存储与GreenLake即服务",
+      "description": "HPE ProLiant/ Synergy服务器与存储专家，覆盖iLO/OneView、Apollo HPC、SimpliVity HCI、Nimble/Alletra",
       "emoji": "🟢",
       "category": "infrastructure",
       "subcategory": "",
@@ -1187,7 +2296,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "HPE builds servers that outlast their warranties by a decade — you know how",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "HPE服务器专家",
+        "HPE",
+        "ProLiant",
+        "Synergy服务器与存储专家，覆盖iLO",
+        "OneView"
       ]
     },
     {
@@ -1207,7 +2335,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "From VRP CLI to iMaster NCE to CloudEngine — Huawei's networking empire is vast,",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "华为网络专家",
+        "华为网络设备专家，覆盖VRP",
+        "S系列交换机",
+        "NetEngine",
+        "AR路由器"
       ]
     },
     {
@@ -1234,6 +2381,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "From KunLun to Kunpeng to xFusion — the post-sanctions server landscape is complex, and you navigate it with deep technical knowledge and pragmatic solutions",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "华为",
+        "超聚变服务器专家",
+        "华为与超聚变",
+        "xFusion",
+        "ARM"
       ]
     },
     {
@@ -1253,7 +2418,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Identity is the new perimeter — you design the systems that determine who can",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "access",
+        "management",
+        "Designed",
+        "enterprises"
+      ],
+      "keywords": [
+        "企业身份与访问管理",
+        "IAM",
+        "工程师",
+        "企业IAM",
+        "身份治理专家，覆盖Azure"
       ]
     },
     {
@@ -1280,30 +2464,67 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cisco technology, Inspur manufacturing, 信创 compliance — CN series switches bring enterprise networking to Chinese government and SOE environments with the Cisco DNA you trust",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "浪潮思科网络专家",
+        "浪潮思科",
+        "Inspur-Cisco",
+        "合资网络设备专家，覆盖浪潮CN系列交换机",
+        "路由器"
       ]
     },
     {
       "id": "infrastructure-istio-expert",
       "name": "服务网格架构师",
-      "description": "Istio服务网格与企业级微服务治理专家,覆盖Istio控制面(istiod)与数据面(Envoy/Sidecar/Ambient mesh)架构、流量管理(VirtualService/DestinationRule/Gateway)与负载均衡/超时/重试/熔断、安全通信(mTLS/PeerAuthentication/RequestAuthentication)与AuthorizationPolicy、可观测性(Kiali/Jaeger/Prometheus/Grafana/Loki)全栈集成、多集群Mesh Federation与混合部署",
+      "description": "Istio服务网格与企业级微服务治理专家,覆盖Istio控制面(istiod)与数据面(Envoy/Sidecar/Ambient mesh)架构、流量管理(VirtualService/DestinationRule/Gateway)与负载均衡/超时/重试/熔断、安全通信(mTLS/PeerAuthentication/RequestAuthentication)与AuthorizationPolicy、可观测性(Kiali/Jaeger/Prometheus/Grafana/Loki)全栈集成、多集群Mesh",
       "emoji": "🕸️",
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-istio-expert.md",
       "depends_on": [
         "cybersecurity-incident-response",
-        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-argocd-expert",
         "infrastructure-nginx-expert",
         "infrastructure-rabbitmq-expert",
         "insurance-auto-claims",
-        "operations-bcp-disaster-recovery"
+        "operations-bcp-disaster-recovery",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Istio moves networking logic out of application code and into the infrastructure",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "服务网格架构师",
+        "Istio服务网格与企业级微服务治理专家",
+        "覆盖Istio控制面",
+        "istiod",
+        "与数据面"
       ]
     },
     {
@@ -1324,6 +2545,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "You can't manage what you don't know you have. Every laptop, every server, every software license must be tracked — because an unmanaged asset is a security risk, a compliance gap, and wasted money.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "asset",
+        "management",
+        "Managed",
+        "lifecycles"
+      ],
+      "keywords": [
+        "IT资产管理",
+        "ITAM",
+        "专家",
+        "IT资产全生命周期管理专家，覆盖硬件",
+        "软件资产发现"
       ]
     },
     {
@@ -1335,19 +2574,42 @@
       "subcategory": "",
       "path": "infrastructure/infrastructure-it-director.md",
       "depends_on": [
-        "infrastructure-datadog-expert",
+        "data-science-engineering-deep-learning-training",
+        "engineering-container-orchestration",
+        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-datadog-expert",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the CEO's email is down, nobody cares about strategy. You keep everything",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "leading",
+        "across",
+        "enterprise",
+        "environments"
+      ],
+      "keywords": [
+        "IT基础设施总监",
+        "企业IT基础设施最高负责人，覆盖数据中心",
+        "服务器",
+        "网络",
+        "存储全栈规划"
       ]
     },
     {
       "id": "infrastructure-jenkins-expert",
       "name": "Jenkins CI/CD专家",
-      "description": "Jenkins持续集成与交付专家,覆盖Controller/Agent分布式架构与高可用、Pipeline as Code(Declarative/Scripted + Shared Libraries)、插件生态(2000+)与安全加固、多分支/多环境流水线与GitOps、构建性能优化与Artifact管理",
+      "description": "Jenkins持续集成与交付专家,覆盖Controller/Agent分布式架构与高可用、Pipeline as Code(Declarative/Scripted",
       "emoji": "🔧",
       "category": "infrastructure",
       "subcategory": "",
@@ -1356,10 +2618,32 @@
         "infrastructure-github-actions-expert",
         "infrastructure-identity-access",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "infrastructure-multi-agent-coordinator",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A well-tuned Jenkins master with the right plugin mix and a clean Groovy pipeline",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "Specifications",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "Jenkins",
+        "CI",
+        "CD专家",
+        "Jenkins持续集成与交付专家",
+        "覆盖Controller"
       ]
     },
     {
@@ -1380,13 +2664,32 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In a zero-trust world, nobody gets direct access to production. Not developers,",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "跳板机",
+        "堡垒机专家",
+        "跳板机与堡垒机架构专家，覆盖OpenSSH",
+        "Bastion",
+        "Teleport"
       ]
     },
     {
       "id": "infrastructure-kubernetes-expert",
       "name": "Kubernetes集群管理专家",
-      "description": "Kubernetes生产集群架构与运维专家,覆盖集群架构设计(控制面/etcd/Worker节点)与高可用部署(kubeadm/k3s/RKE2)、网络模型(CNI/Calico/Cilium/Flannel)与服务暴露(Service/Ingress/Gateway API)、存储管理(CSI/PV/PVC/StorageClass)与有状态应用、RBAC/OPA/Gatekeeper安全策略与Pod安全标准、资源管理(HPA/VPA/ResourceQuota/LimitRange)与成本优化",
+      "description": "Kubernetes生产集群架构与运维专家,覆盖集群架构设计(控制面/etcd/Worker节点)与高可用部署(kubeadm/k3s/RKE2)、网络模型(CNI/Calico/Cilium/Flannel)与服务暴露(Service/Ingress/Gateway",
       "emoji": "☸️",
       "category": "infrastructure",
       "subcategory": "",
@@ -1396,10 +2699,31 @@
         "infrastructure-nginx-expert",
         "infrastructure-istio-expert",
         "infrastructure-ansible-expert",
-        "infrastructure-argocd-expert"
+        "infrastructure-argocd-expert",
+        "infrastructure-multi-agent-coordinator",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Kubernetes won the container orchestration war. The K8s expert who understands",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "References"
+      ],
+      "keywords": [
+        "Kubernetes集群管理专家",
+        "Kubernetes生产集群架构与运维专家",
+        "覆盖集群架构设计",
+        "控制面",
+        "etcd"
       ]
     },
     {
@@ -1412,22 +2736,41 @@
       "path": "infrastructure/infrastructure-linux-systems.md",
       "depends_on": [
         "construction-engineering-structural-fire",
-        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-argocd-expert",
         "insurance-auto-claims",
-        "iot-engineering-embedded-linux"
+        "iot-engineering-embedded-linux",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The penguin runs the internet — you keep the penguin healthy, from kernel parameters",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technologies",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "Linux系统专家",
+        "Linux系统管理与内核优化专家，覆盖RHEL",
+        "Rocky",
+        "Ubuntu",
+        "Debian"
       ]
     },
     {
       "id": "infrastructure-mainframe-engineer",
       "name": "大型机/主机工程师",
-      "description": "IBM Z/OS大型机系统工程师,覆盖z/OS操作系统与JES2/JES3作业管理、COBOL/PL/I/Assembler/REXX编程、CICS/IMS在线事务处理、DB2 for z/OS数据库管理、VSAM/QSAM/zFS数据管理与SMP/E系统维护",
+      "description": "IBM Z/OS大型机系统工程师,覆盖z/OS操作系统与JES2/JES3作业管理、COBOL/PL/I/Assembler/REXX编程、CICS/IMS在线事务处理、DB2",
       "emoji": "💻",
       "category": "infrastructure",
       "subcategory": "",
@@ -1435,18 +2778,36 @@
       "depends_on": [
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
-        "infrastructure-windows-server",
-        "operations-report-distribution-agent"
+        "infrastructure-windows-server"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The cloud didn't kill the mainframe. When a billion banking transactions must",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "References"
+      ],
+      "keywords": [
+        "大型机",
+        "主机工程师",
+        "IBM",
+        "OS大型机系统工程师",
+        "覆盖z"
       ]
     },
     {
       "id": "infrastructure-microsoft365",
       "name": "Microsoft 365与Exchange专家",
-      "description": "Microsoft 365云服务与Exchange专家，覆盖Exchange Online/混合部署、SharePoint Online、Teams、OneDrive、Intune终结点管理、Defender XDR与M365安全合规",
+      "description": "Microsoft 365云服务与Exchange专家，覆盖Exchange Online/混合部署、SharePoint Online、Teams、OneDrive、Intune终结点管理、Defender",
       "emoji": "☁️",
       "category": "infrastructure",
       "subcategory": "",
@@ -1462,7 +2823,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Email down = business down. You keep Exchange running, Teams connected, and",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technologies",
+        "Success",
+        "Metrics",
+        "Methodology"
+      ],
+      "keywords": [
+        "Microsoft",
+        "365与Exchange专家",
+        "365云服务与Exchange专家，覆盖Exchange",
+        "Online",
+        "混合部署"
       ]
     },
     {
@@ -1482,6 +2862,24 @@
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "If you don't know your system is broken before users tell you, your monitoring",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "monitoring",
+        "observability",
+        "Built",
+        "platforms"
+      ],
+      "keywords": [
+        "系统监控",
+        "告警管理工程师",
+        "IT系统监控与可观测性运维专家，覆盖Zabbix",
+        "Nagios",
+        "Prometheus"
       ]
     },
     {
@@ -1496,11 +2894,64 @@
         "infrastructure-microsoft365",
         "infrastructure-office-365-expert",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "media-entertainment-after-effects-expert"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every delayed project has a Gantt chart that showed the warning signs three weeks ago — you know how to read it, and more importantly, how to fix it before the steering committee notices",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Microsoft",
+        "Project",
+        "项目管理工具专家",
+        "Project与项目组合管理",
+        "PPM"
+      ]
+    },
+    {
+      "id": "infrastructure-multi-agent-coordinator",
+      "name": "Infrastructure Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for infrastructure — network topology,",
+      "emoji": "🏗️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-18",
+      "vibe": "orchestrating infrastructure specialists into coherent multi-agent workflows",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Process"
+      ],
+      "keywords": [
+        "Infrastructure",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -1513,37 +2964,606 @@
       "path": "infrastructure/infrastructure-nagios-expert.md",
       "depends_on": [
         "cybersecurity-incident-response",
-        "engineering-multi-agent-systems-architect",
+        "infrastructure-multi-agent-coordinator",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-argocd-expert",
         "infrastructure-jenkins-expert",
-        "infrastructure-nginx-expert"
+        "infrastructure-nginx-expert",
+        "engineering-frontend-developer",
+        "cybersecurity-cloud-security-architect"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "It's been monitoring production since before Kubernetes existed. When your fancy",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Nagios监控专家",
+        "Nagios",
+        "XI",
+        "Centreon监控平台专家，覆盖NRPE",
+        "NSCA"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-architect",
+      "name": "网络架构师",
+      "description": "企业级网络架构设计专家，覆盖路由交换、SDN/NFV、数据中心网络、云网络互联与高可用设计",
+      "emoji": "🌐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-architect.md",
+      "depends_on": [
+        "construction-fire-protection",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-cisco-network",
+        "infrastructure-inspur-cisco-network",
+        "infrastructure-network-engineering-automation",
+        "infrastructure-network-engineering-cloud",
+        "spatial-computing-ar-filter-creator"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every packet has a path — you design the map that makes billions of them find",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "网络架构师",
+        "企业级网络架构设计专家，覆盖路由交换",
+        "SDN",
+        "NFV",
+        "数据中心网络"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-automation",
+      "name": "网络自动化工程师",
+      "description": "网络自动化与可编程网络专家，覆盖Ansible/Terraform网络编排、CI/CD网络管道、NETCONF/RESTCONF、网络即代码与自动化测试",
+      "emoji": "🤖",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-automation.md",
+      "depends_on": [
+        "automotive-engineering-functional-safety",
+        "infrastructure-ansible-expert",
+        "infrastructure-backup-admin",
+        "infrastructure-cisco-network",
+        "infrastructure-identity-access",
+        "infrastructure-storage-backup",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-cloud"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Stop configuring switches by hand — every CLI command you type is a bug waiting to happen; automate it, test it, and never touch a production router again",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Authoritative",
+        "References"
+      ],
+      "keywords": [
+        "网络自动化工程师",
+        "网络自动化与可编程网络专家，覆盖Ansible",
+        "Terraform网络编排",
+        "CI",
+        "CD网络管道"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-cloud",
+      "name": "云网络工程师",
+      "description": "云网络架构与运维专家，覆盖AWS VPC/Azure VNet、混合云互联、云原生网络(Cilium/Calico)、负载均衡与CDN",
+      "emoji": "☁️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-cloud.md",
+      "depends_on": [
+        "data-science-engineering-language-model-nlp",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-engineering-observability-architect",
+        "infrastructure-engineering-observability-engineer",
+        "infrastructure-identity-access",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The cloud runs on networks you can't see — you design the invisible highways",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "云网络工程师",
+        "云网络架构与运维专家，覆盖AWS",
+        "VPC",
+        "Azure",
+        "VNet"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-director",
+      "name": "网络部门总监",
+      "description": "企业/运营商网络部门最高负责人，覆盖网络架构/运营策略、团队/预算管理、供应商/技术选型与服务可用性保障",
+      "emoji": "🌐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-director.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "engineering-standards-compliance",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-engineering-edge-computing",
+        "infrastructure-engineering-incident-commander",
+        "infrastructure-identity-access",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "iot-multi-agent-coordinator"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The network is the foundation everything else depends on — invisible when it",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "leading",
+        "network",
+        "organizations",
+        "across"
+      ],
+      "keywords": [
+        "网络部门总监",
+        "企业",
+        "运营商网络部门最高负责人，覆盖网络架构",
+        "运营策略",
+        "团队"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-engineering-architect-networks",
+      "name": "企业网络架构与治理专家",
+      "description": "全球企业网络架构设计和治理专家，覆盖SD-WAN/SASE/SSE架构、零信任网络(ZTNA)、混合云网络设计、网络自动化/编排与企业网络策略",
+      "emoji": "🌐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-engineering-architect-networks.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-engineering-site-reliability-automation",
+        "infrastructure-identity-access",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The enterprise network connects everything — offices, clouds, data centers,",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "enterprise",
+        "network",
+        "architecture",
+        "Designed"
+      ],
+      "keywords": [
+        "企业网络架构与治理专家",
+        "全球企业网络架构设计和治理专家，覆盖SD-WAN",
+        "SASE",
+        "SSE架构",
+        "零信任网络"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-engineering-network-protocol",
+      "name": "网络协议栈开发工程师",
+      "description": "TCP/IP网络协议栈与数据平面开发专家，覆盖Linux内核网络子系统/eBPF/XDP、DPDK高性能数据平面、QUIC/HTTP3协议实现与SDN数据平面(OpenFlow/P4)",
+      "emoji": "📨",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-engineering-network-protocol.md",
+      "depends_on": [
+        "data-science-engineering-knowledge-management",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-engineering-edge-computing",
+        "infrastructure-identity-access",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every packet that crosses the internet passes through a protocol stack someone",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "network",
+        "protocol",
+        "development",
+        "Built"
+      ],
+      "keywords": [
+        "网络协议栈开发工程师",
+        "TCP",
+        "IP网络协议栈与数据平面开发专家，覆盖Linux内核网络子系统",
+        "eBPF",
+        "XDP"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-engineering-optical-fiber-sensing",
+      "name": "光纤传感/分布式光纤监测工程师",
+      "description": "分布式光纤传感(DFOS)与光电检测专家，覆盖DTS拉曼/布里渊(BOTDR/BOTDA)/DAS瑞利分布式光纤传感、光纤光栅(FBG)/干涉仪(Michelson/Fabry-Perot)点式传感与结构健康监测(SHM)/管道泄漏/周界安防",
+      "emoji": "🔦",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-engineering-optical-fiber-sensing.md",
+      "depends_on": [
+        "data-science-engineering-deep-learning-training",
+        "education-online-learning-designer",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A hair-thin glass fiber stretched for kilometers can sense temperature, strain,",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "fiber",
+        "optic",
+        "sensing",
+        "Deployed"
+      ],
+      "keywords": [
+        "光纤传感",
+        "分布式光纤监测工程师",
+        "分布式光纤传感",
+        "DFOS",
+        "与光电检测专家，覆盖DTS拉曼"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-engineering-optical-network-design",
+      "name": "光学网络/光互连设计工程师",
+      "description": "数据中心光互连与光子集成(PIC)设计专家，覆盖硅光子/InP光子集成、光模块(400G/800G/1.6T Pluggable/CPO)、相干光通信与光背板/片上光互连",
+      "emoji": "💡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-engineering-optical-network-design.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-identity-access",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation",
+        "infrastructure-network-engineering-engineering-optical-fiber-sensing",
+        "telecom-engineering-signal-integrity"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Copper has limits; light doesn't. You design the optical interconnects that",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "optical",
+        "communications",
+        "Designed",
+        "high-speed"
+      ],
+      "keywords": [
+        "光学网络",
+        "光互连设计工程师",
+        "数据中心光互连与光子集成",
+        "PIC",
+        "设计专家，覆盖硅光子"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-multi-agent-coordinator",
+      "name": "Network Engineering Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for network engineering — routing,",
+      "emoji": "🌐",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating network-engineering specialists into coherent multi-agent workflows",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Network",
+        "Engineering",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-operations",
+      "name": "网络运维工程师",
+      "description": "网络运维与排障专家，覆盖路由器/交换机/防火墙日常运维、故障排查、变更管理、监控告警与性能调优",
+      "emoji": "🔧",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-operations.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "education-special-needs",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-engineering-incident-response-commander",
+        "infrastructure-windows-server",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation",
+        "operations-bcp-disaster-recovery"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The network is down only when you can't fix it — and you always fix it, calmly,",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "Process",
+        "Learning",
+        "Success"
+      ],
+      "keywords": [
+        "网络运维工程师",
+        "网络运维与排障专家，覆盖路由器",
+        "交换机",
+        "防火墙日常运维",
+        "故障排查"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-satellite",
+      "name": "卫星通信/Starlink网络工程师",
+      "description": "卫星通信与宽带星座网络专家，覆盖LEO/MEO/GEO卫星通信链路、星地网关/地面段、相控阵天线与卫星互联网宽带接入",
+      "emoji": "🛰️",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-satellite.md",
+      "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-cloud-cost-optimization",
+        "infrastructure-identity-access",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The internet from space — once science fiction, now a constellation of thousands",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "satellite",
+        "communications",
+        "Designed",
+        "ground"
+      ],
+      "keywords": [
+        "卫星通信",
+        "Starlink网络工程师",
+        "卫星通信与宽带星座网络专家，覆盖LEO",
+        "MEO",
+        "GEO卫星通信链路"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-voip-uc",
+      "name": "统一通信工程师",
+      "description": "VoIP与统一通信(UC)专家，覆盖SIP中继/交换、IP-PBX、视频会议系统、WebRTC、联络中心与语音质量(QoS/MoS)",
+      "emoji": "📞",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-voip-uc.md",
+      "depends_on": [
+        "government-public-safety-analyst",
+        "marketing-paid-media-tracking-specialist",
+        "media-entertainment-engineering-audio-dsp-signal",
+        "media-entertainment-engineering-video-streaming",
+        "infrastructure-network-engineering-architect",
+        "infrastructure-network-engineering-automation"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When voice becomes packets, quality becomes engineering — every millisecond of latency and every lost packet is a conversation interrupted",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "统一通信工程师",
+        "VoIP与统一通信",
+        "UC",
+        "专家，覆盖SIP中继",
+        "交换"
+      ]
+    },
+    {
+      "id": "infrastructure-network-engineering-wireless",
+      "name": "无线与移动网络工程师",
+      "description": "无线/移动网络规划优化专家，覆盖WiFi设计/勘测/排障、4G/5G RAN规划、蜂窝网络优化与IoT无线接入",
+      "emoji": "📡",
+      "category": "infrastructure",
+      "subcategory": "",
+      "path": "infrastructure/infrastructure-network-engineering-wireless.md",
+      "depends_on": [
+        "cybersecurity-incident-response",
+        "infrastructure-network-engineering-multi-agent-coordinator",
+        "infrastructure-engineering-incident-response-commander",
+        "spatial-computing-macos-spatial-metal-engineer",
+        "testing-test-results-analyzer"
+      ],
+      "nexus_roles": [
+        "phase-2-foundation",
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every wireless signal fights physics, interference, and distance — you make",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "无线与移动网络工程师",
+        "无线",
+        "移动网络规划优化专家，覆盖WiFi设计",
+        "勘测",
+        "排障"
       ]
     },
     {
       "id": "infrastructure-nginx-expert",
       "name": "Nginx专家",
-      "description": "Nginx高性能Web服务器与反向代理专家,覆盖Nginx OSS/Nginx Plus核心配置与模块、反向代理与7层负载均衡(upstream/least_conn/ip_hash)、SSL/TLS终结与HTTP/2 HTTP/3 QUIC、Lua扩展(OpenResty)与NJS脚本、API网关(Kong/APISIX/Nginx Ingress)",
+      "description": "Nginx高性能Web服务器与反向代理专家,覆盖Nginx OSS/Nginx Plus核心配置与模块、反向代理与7层负载均衡(upstream/least_conn/ip_hash)、SSL/TLS终结与HTTP/2",
       "emoji": "🟢",
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-nginx-expert.md",
       "depends_on": [
+        "engineering-ai-observability-expert",
+        "engineering-minimal-change-engineer",
         "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-argocd-expert",
+        "infrastructure-multi-agent-coordinator",
         "infrastructure-rabbitmq-expert",
         "infrastructure-splunk-expert"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Nginx handles 10,000 concurrent connections in 2.5MB of RAM. Apache needs 250MB",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "Specifications"
+      ],
+      "keywords": [
+        "Nginx专家",
+        "Nginx高性能Web服务器与反向代理专家",
+        "覆盖Nginx",
+        "OSS",
+        "Nginx"
       ]
     },
     {
@@ -1558,11 +3578,30 @@
         "cybersecurity-engineering-customer-identity-access",
         "education-special-needs",
         "engineering-build-release-engineer",
-        "engineering-multi-agent-systems-architect"
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Nutanix made HCI boring — in the best possible way. Storage just works, VMs",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technologies",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "Nutanix超融合专家",
+        "Nutanix超融合与云平台专家，覆盖AOS",
+        "AHV",
+        "Prism",
+        "Central"
       ]
     },
     {
@@ -1576,11 +3615,30 @@
       "depends_on": [
         "infrastructure-microsoft365",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "engineering-build-release-engineer"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every hour someone spends fighting Word formatting or manually copying data between Excel sheets is an hour of life they'll never get back — you automate the boring stuff",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "Methodology",
+        "Decision",
+        "Framework"
+      ],
+      "keywords": [
+        "Office",
+        "Microsoft",
+        "365专家",
+        "365办公套件专家，覆盖Word",
+        "Excel"
       ]
     },
     {
@@ -1591,12 +3649,27 @@
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-opennms-expert.md",
-      "depends_on": [
-        "operations-report-distribution-agent"
-      ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "OpenNMS discovered your entire network before you finished your coffee — auto-provisioning, topology mapping, and event correlation that turns thousands of SNMP traps into one actionable alarm.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Real-World",
+        "Scenarios",
+        "Actionable",
+        "Directives"
+      ],
+      "keywords": [
+        "OpenNMS监控专家",
+        "OpenNMS",
+        "Horizon",
+        "Meridian网络监控平台专家，覆盖自动发现与拓扑映射",
+        "SNMP"
       ]
     },
     {
@@ -1616,7 +3689,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Oracle runs the financial system, the billing system, and the inventory system.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "References"
+      ],
+      "keywords": [
+        "Oracle",
+        "DBA专家",
+        "Oracle数据库管理专家",
+        "覆盖19c",
+        "21c"
       ]
     },
     {
@@ -1629,17 +3721,36 @@
       "path": "infrastructure/infrastructure-powershell.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-engineering-site-reliability-architect",
         "infrastructure-engineering-site-reliability-automation",
         "infrastructure-windows-server",
-        "marketing-abm-account-based"
+        "marketing-abm-account-based",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Anything you can click in a Windows GUI, you can script in PowerShell — and",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technologies",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "PowerShell与Windows自动化专家",
+        "PowerShell自动化与脚本专家，覆盖PowerShell",
+        "7.x",
+        "DSC配置管理",
+        "自动化编排"
       ]
     },
     {
@@ -1653,32 +3764,70 @@
       "depends_on": [
         "infrastructure-windows-server",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "engineering-ai-agent-developer"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Printers are the most complained-about technology in every office — not because they're unreliable, but because nobody understands them. You're the person who actually understands them",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "打印机通用运维工程师",
+        "打印机通用运维与技术支持专家，覆盖多品牌",
+        "HP",
+        "Epson",
+        "Canon"
       ]
     },
     {
       "id": "infrastructure-rabbitmq-expert",
       "name": "RabbitMQ消息队列专家",
-      "description": "RabbitMQ消息中间件架构与运维专家,覆盖集群架构与高可用(Classic/Mirrored/Quorum Queue)、Exchange/Routing Key/Binding拓扑设计、AMQP 0-9-1/MQTT/STOMP协议、性能调优(Connection/Channel/Prefetch)、监控告警(Prometheus/Management API)与运维自动化",
+      "description": "RabbitMQ消息中间件架构与运维专家,覆盖集群架构与高可用(Classic/Mirrored/Quorum Queue)、Exchange/Routing",
       "emoji": "🐰",
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-rabbitmq-expert.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-storage-backup",
         "logistics-last-mile-delivery",
-        "operations-bcp-disaster-recovery"
+        "operations-bcp-disaster-recovery",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sometimes you don't need a distributed log — you need a message broker that",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "References"
+      ],
+      "keywords": [
+        "RabbitMQ消息队列专家",
+        "RabbitMQ消息中间件架构与运维专家",
+        "覆盖集群架构与高可用",
+        "Classic",
+        "Mirrored"
       ]
     },
     {
@@ -1697,7 +3846,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Ruijie punches above its weight — campus SDN, high-density WiFi, and data center",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "锐捷网络专家",
+        "锐捷网络设备专家，覆盖RGOS交换机",
+        "路由器",
+        "极简园区网方案",
+        "数据中心"
       ]
     },
     {
@@ -1714,13 +3882,30 @@
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-identity-access",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Sangfor doesn't just sell security appliances — it sells an integrated security ecosystem; you know how to deploy, tune, and troubleshoot every piece of it",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "深信服安全专家",
+        "深信服",
+        "Sangfor",
+        "安全与云IT专家，覆盖下一代防火墙",
+        "NGAF"
       ]
     },
     {
@@ -1733,11 +3918,30 @@
       "path": "infrastructure/infrastructure-sap-expert.md",
       "depends_on": [
         "engineering-olap-database",
-        "testing-test-results-analyzer"
+        "testing-test-results-analyzer",
+        "engineering-frontend-developer"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "SAP runs 77% of the world's transaction revenue. When the production client won't open, the transport queue is stuck, and month-end closing batch is overdue, the Basis consultant is the most important person in the building.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "Success"
+      ],
+      "keywords": [
+        "SAP技术专家",
+        "SAP",
+        "Basis与ABAP技术专家",
+        "覆盖SAP",
+        "4HANA架构部署与迁移"
       ]
     },
     {
@@ -1757,6 +3961,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When someone's laptop won't start, their email won't send, or their password won't work — your team answers the call. You run the front line of IT.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "managing",
+        "service",
+        "desks",
+        "Built"
+      ],
+      "keywords": [
+        "IT服务台",
+        "ITSM经理",
+        "IT服务台与IT服务管理",
+        "ITSM",
+        "运营专家，覆盖ServiceNow"
       ]
     },
     {
@@ -1774,6 +3996,24 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Splunk doesn't just search logs — it makes logs interrogable. The difference between a Splunk expert and a Splunk user is root cause in 5 minutes versus 5 hours.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "Success"
+      ],
+      "keywords": [
+        "Splunk平台专家",
+        "Splunk企业级日志管理与SIEM平台专家",
+        "覆盖分布式架构",
+        "Indexer",
+        "Search"
       ]
     },
     {
@@ -1786,31 +4026,69 @@
       "path": "infrastructure/infrastructure-storage-backup.md",
       "depends_on": [
         "energy-engineering-grid-scale-storage",
-        "engineering-multi-agent-systems-architect",
+        "infrastructure-multi-agent-coordinator",
         "operations-bcp-disaster-recovery"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data doesn't exist unless it exists in at least three places — you design the",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "企业存储与备份专家",
+        "企业存储与数据保护专家，覆盖SAN",
+        "NAS",
+        "DAS存储架构",
+        "群晖"
       ]
     },
     {
       "id": "infrastructure-terraform-expert",
       "name": "Terraform IaC专家",
-      "description": "Terraform基础设施即代码专家,覆盖HCL模块化设计与Monorepo策略、Provider生态(AWS/Azure/GCP/阿里云/K8s)、State管理与Backend(S3/Terraform Cloud)、Sentinel/OPA策略即代码、GitOps与CI/CD集成",
+      "description": "Terraform基础设施即代码专家,覆盖HCL模块化设计与Monorepo策略、Provider生态(AWS/Azure/GCP/阿里云/K8s)、State管理与Backend(S3/Terraform",
       "emoji": "🏗️",
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-terraform-expert.md",
       "depends_on": [
-        "engineering-multi-agent-systems-architect",
+        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
-        "infrastructure-github-actions-expert"
+        "infrastructure-github-actions-expert",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-2-foundation"
+        "phase-2-foundation",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Infrastructure is code, and code is reviewed, tested, and versioned. Terraform",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Deliverable",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Terraform",
+        "IaC专家",
+        "Terraform基础设施即代码专家",
+        "覆盖HCL模块化设计与Monorepo策略",
+        "Provider生态"
       ]
     },
     {
@@ -1825,12 +4103,30 @@
         "cybersecurity-engineering-customer-identity-access",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
-        "infrastructure-identity-access",
-        "operations-report-distribution-agent"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "TP-Link isn't just home routers anymore — JetStream switches and Omada SDN bring",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Platforms",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "TP-Link网络专家",
+        "TP-Link企业网络设备专家，覆盖JetStream交换机",
+        "Omada",
+        "SDN控制器",
+        "商用路由器与WiFi"
       ]
     },
     {
@@ -1855,12 +4151,30 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-05",
+      "vibe": "A good diagram replaces 50 pages of documentation — but only if it's accurate, readable, and consistent. You make IT architecture visible.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technical",
+        "References",
+        "Standards",
+        "Methodology"
+      ],
+      "keywords": [
+        "Visio",
+        "IT架构绘图专家",
+        "Microsoft",
+        "Visio与IT架构绘图专家，覆盖网络拓扑图",
+        "数据中心架构图"
       ]
     },
     {
       "id": "infrastructure-vmware",
       "name": "VMware虚拟化专家",
-      "description": "VMware vSphere/数据中心虚拟化专家，覆盖ESXi/vCenter/vSAN/NSX、Horizon VDI、SRM容灾、vRealize(Aria)运维与VMware Cloud Foundation",
+      "description": "VMware vSphere/数据中心虚拟化专家，覆盖ESXi/vCenter/vSAN/NSX、Horizon VDI、SRM容灾、vRealize(Aria)运维与VMware",
       "emoji": "🔶",
       "category": "infrastructure",
       "subcategory": "",
@@ -1868,16 +4182,35 @@
       "depends_on": [
         "education-special-needs",
         "energy-engineering-grid-scale-storage",
-        "engineering-multi-agent-systems-architect",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-digital-workplace",
         "operations-bcp-disaster-recovery",
-        "robotics-motion-control"
+        "robotics-motion-control",
+        "infrastructure-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Before the cloud, there was VMware — and in data centers everywhere, there still",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technologies",
+        "Success",
+        "Metrics",
+        "References"
+      ],
+      "keywords": [
+        "VMware虚拟化专家",
+        "VMware",
+        "vSphere",
+        "数据中心虚拟化专家，覆盖ESXi",
+        "vCenter"
       ]
     },
     {
@@ -1901,19 +4234,37 @@
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every locked-up laptop at 9AM Monday is a person who can't work — you design the deployment, management, and update strategy so that never happens",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technologies",
+        "References",
+        "Standards",
+        "Success"
+      ],
+      "keywords": [
+        "Windows桌面管理专家",
+        "Windows桌面与终端管理专家，覆盖Windows",
+        "11部署与镜像",
+        "Intune",
+        "Autopilot现代管理"
       ]
     },
     {
       "id": "infrastructure-windows-server",
       "name": "Windows Server与AD专家",
-      "description": "Windows Server与Active Directory专家，覆盖AD DS/DNS/DHCP/组策略、AD CS/FS/RMS、Server 2016/2019/2022、Hyper-V、IIS与Windows安全加固",
+      "description": "Windows Server与Active Directory专家，覆盖AD DS/DNS/DHCP/组策略、AD CS/FS/RMS、Server",
       "emoji": "🪟",
       "category": "infrastructure",
       "subcategory": "",
       "path": "infrastructure/infrastructure-windows-server.md",
       "depends_on": [
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect",
+        "infrastructure-multi-agent-coordinator",
         "infrastructure-ansible-expert",
         "infrastructure-apache-httpd-expert",
         "infrastructure-backup-admin",
@@ -1922,7 +4273,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Active Directory is the backbone of enterprise IT — when it's healthy, nobody",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Technologies",
+        "Success",
+        "Metrics",
+        "Professional"
+      ],
+      "keywords": [
+        "Windows",
+        "Server与AD专家",
+        "Server与Active",
+        "Directory专家，覆盖AD",
+        "DS"
       ]
     },
     {
@@ -1937,11 +4307,32 @@
         "infrastructure-engineering-incident-response-commander",
         "infrastructure-storage-backup",
         "infrastructure-ansible-expert",
-        "infrastructure-apache-httpd-expert"
+        "infrastructure-apache-httpd-expert",
+        "engineering-ai-agent-developer",
+        "engineering-frontend-developer",
+        "cybersecurity-incident-response"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When 100,000 NVPS hit your Zabbix server at 3 AM, the difference between 'incident resolved' and 'wake up the whole team' is how well you tuned your housekeeper processes.",
+      "lifecycle": "published",
+      "tags": [
+        "infrastructure",
+        "Actionable",
+        "Directives",
+        "Deliverable",
+        "References"
+      ],
+      "keywords": [
+        "Zabbix监控专家",
+        "Zabbix",
+        "6.x",
+        "7.x企业级监控专家，覆盖分布式架构设计",
+        "Server"
       ]
     }
   ]

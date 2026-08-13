@@ -1,14 +1,14 @@
 # 🎭 The Agency
 
-### 1,400 个 AI 专家，一行命令即可召唤
+### 1,402 个 AI 专家，一行命令即可召唤
 
 > 前端魔法师。Reddit 达人。创业教练。脑外科医生。安全渗透师。精算师。
-> 1,400 个专业 AI Agent — 每个都有个性、有流程、有交付物。一行命令即可安装。
+> 1,402 个专业 AI Agent — 每个都有个性、有流程、有交付物。一行命令即可安装。
 
 [![GitHub stars](https://img.shields.io/github/stars/z451047442-debug/agency-agents?style=social)](https://github.com/z451047442-debug/agency-agents)
 [![CI Lint](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/lint-agents.yml)
 [![Nightly Audit](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml/badge.svg)](https://github.com/z451047442-debug/agency-agents/actions/workflows/nightly-full-audit.yml)
-[![Agents](https://img.shields.io/badge/agents-1,400-blue)](https://github.com/z451047442-debug/agency-agents)
+[![Agents](https://img.shields.io/badge/agents-1,402-blue)](https://github.com/z451047442-debug/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/z451047442-debug)
@@ -17,7 +17,7 @@
 
 | 🎭 | 📂 | 🛠️ | 📝 |
 |:---:|:---:|:---:|:---:|
-| **1,400** 个 Agent | **62** 个领域 | **14** 种工具 | **~95,000+** 行内容 |
+| **1,402** 个 Agent | **62** 个领域 | **15** 种工具 | **~95,000+** 行内容 |
 
 ---
 
@@ -167,7 +167,7 @@
 
 ## 📊 统计数据
 
-- 🎭 **1400 个专业 Agent**，覆盖 62 个分类
+- 🎭 **1402 个专业 Agent**，覆盖 62 个行业类别 + _solution
 - 📝 **约 95,000+ 行**人格定义、流程和代码示例
 - 🏗️ **NEXUS**：7 阶段多 Agent 编排框架
 - ⏱️ **数月的迭代**，源自真实使用反馈
@@ -309,9 +309,9 @@ ls ~/.claude/agents/
 
 ## 🎨 Agent 名册
 
-> **62 个分类 · 1400 个 Agent**
+> **62 个行业类别 + _solution · 1402 个 Agent**
 
-### 💻 IT 技术（453 个 Agent）
+### 💻 IT 技术（454 个 Agent）
 
 | 分类 | 中文 | 数量 | 一句话说明 |
 |------|------|------|-----------|
@@ -320,7 +320,7 @@ ls ~/.claude/agents/
 | [data-science](data-science/) | 数据科学 | 47 | BI/ML/NLP/CV/数据工程/数据治理/AI Agent/提示工程 |
 | [cybersecurity](cybersecurity/) | 网络安全 | 39 | 渗透测试/SOC/数字取证/威胁检测/恶意软件/合规 |
 | [game-development](game-development/) | 游戏开发 | 26 | Unity/Unreal/Godot/Roblox/Blender 引擎专家 |
-| [testing](testing/) | 测试与QA | 21 | SDET/API测试/性能基准/无障碍/移动测试 |
+| [testing](testing/) | 测试与QA | 22 | SDET/API测试/性能基准/无障碍/移动测试 |
 | [iot](iot/) | 物联网 | 20 | 嵌入式IoT/固件/传感器/边缘计算/智能家居 |
 | [spatial-computing](spatial-computing/) | 空间计算 | 16 | visionOS/WebXR/XR界面/座舱交互/VR/AR |
 | [robotics](robotics/) | 机器人 | 16 | 机器人控制/ROS/自动化/机器视觉/外骨骼 |
@@ -328,11 +328,11 @@ ls ~/.claude/agents/
 | [telecom](telecom/) | 电信 | 13 | 5G/6G/核心网/RF/无线/蓝牙/天线 |
 | [gis](gis/) | GIS与地理信息 | 16 | 空间分析/遥感/制图/地理数据管道/GIS开发 |
 
-### 📈 业务与营销（172 个 Agent）
+### 📈 业务与营销（173 个 Agent）
 
 | 分类 | 中文 | 数量 | 一句话说明 |
 |------|------|------|-----------|
-| [marketing](marketing/) | 市场营销 | 85 | 社媒/内容/SEO/付费广告/邮件/网红/区域市场 |
+| [marketing](marketing/) | 市场营销 | 86 | 社媒/内容/SEO/付费广告/邮件/网红/区域市场 |
 | [sales](sales/) | 销售 | 16 | 销售教练/漏斗分析/外呼策略/提案/售前 |
 | [customer-service](customer-service/) | 客户服务 | 13 | 呼叫中心/客户成功/工单系统/语音AI/投诉管理 |
 | [tourism](tourism/) | 旅游与酒店 | 16 | 旅行社/游轮/文旅/可持续旅游/文化遗址 |
@@ -346,13 +346,13 @@ ls ~/.claude/agents/
 |------|------|------|-----------|
 | [finance](finance/) | 财务会计 | 53 | 财务分析/审计/精算/税务/成本/资金/风控/金融科技/证券 |
 | [legal](legal/) | 法律法务 | 25 | 公司/刑事/劳动/知识产权/数据隐私/法律科技/合规 |
-| [project-management](project-management/) | 项目管理 | 24 | PMP/敏捷/PMO/投标/Scrum/活动/制片/项目组合 |
+| [project-management](project-management/) | 项目管理 | 25 | PMP/敏捷/PMO/投标/Scrum/活动/制片/项目组合 |
 | [hr](hr/) | 人力资源 | 22 | HRBP/招聘/薪酬/绩效/OD/员工关系/入职/培训/HR科技 |
 | [operations](operations/) | 内部运营 | 12 | 数据报告/高管摘要/财务追踪/自动化治理/基础设施 |
 | [real-estate](real-estate/) | 房地产 | 12 | 商业经纪/估价/开发/物业/REIT/买卖代理 |
 | [quality](quality/) | 品质管理 | 11 | QMS/SQE/CQE/PQE/SQA/医疗质量/食品安全 |
 | [administration](administration/) | 行政管理 | 10 | 办公室管理/文秘/采购/档案/合同/差旅/车队 |
-| [strategy](strategy/) | 战略与咨询 | 7 | 商业分析/CEO教练/ESG/OKR/VC/商业策略 |
+| [strategy](strategy/) | 战略与咨询 | 6 | 商业分析/CEO教练/ESG/OKR/VC/商业策略 |
 
 ### 🏭 制造与工业（204 个 Agent）
 
@@ -415,21 +415,21 @@ ls ~/.claude/agents/
 
 ## 🎭 完整 Agent 名册
 
-浏览全部 1400 个 Agent 详见各分类目录（62 个领域）：
+浏览全部 1402 个 Agent 详见各分类目录（62 个领域）：
 
-**IT 技术**: [engineering](engineering/)(75) · [infrastructure](infrastructure/)(90) · [data-science](data-science/)(43) · [cybersecurity](cybersecurity/)(33) · [game-development](game-development/)(24) · [testing](testing/)(19) · [iot](iot/)(19) · [spatial-computing](spatial-computing/)(15) · [robotics](robotics/)(15) · [web3](web3/)(13) · [telecom](telecom/)(12)
+**IT 技术**: [engineering](engineering/)(114) · [infrastructure](infrastructure/)(111) · [data-science](data-science/)(47) · [cybersecurity](cybersecurity/)(39) · [game-development](game-development/)(26) · [testing](testing/)(22) · [iot](iot/)(20) · [spatial-computing](spatial-computing/)(16) · [robotics](robotics/)(16) · [web3](web3/)(14) · [telecom](telecom/)(13) · [gis](gis/)(16)
 
-**业务营销**: [marketing](marketing/)(72) · [sales](sales/)(14) · [customer-service](customer-service/)(12) · [tourism](tourism/)(12) · [retail](retail/)(12) · [product](product/)(11) · [lottery](lottery/)(10)
+**业务营销**: [marketing](marketing/)(86) · [sales](sales/)(16) · [customer-service](customer-service/)(13) · [tourism](tourism/)(16) · [retail](retail/)(15) · [product](product/)(14) · [lottery](lottery/)(13)
 
-**企业管理**: [finance](finance/)(50) · [legal](legal/)(22) · [project-management](project-management/)(22) · [hr](hr/)(21) · [operations](operations/)(11) · [real-estate](real-estate/)(10) · [quality](quality/)(9) · [administration](administration/)(7) · [strategy](strategy/)(7)
+**企业管理**: [finance](finance/)(53) · [legal](legal/)(25) · [project-management](project-management/)(25) · [hr](hr/)(22) · [operations](operations/)(12) · [real-estate](real-estate/)(12) · [quality](quality/)(11) · [administration](administration/)(10) · [strategy](strategy/)(6)
 
-**制造工业**: [manufacturing](manufacturing/)(43) · [construction](construction/)(40) · [energy](energy/)(40) · [aerospace](aerospace/)(23) · [automotive](automotive/)(22) · [agriculture](agriculture/)(12)
+**制造工业**: [manufacturing](manufacturing/)(47) · [construction](construction/)(43) · [energy](energy/)(44) · [aerospace](aerospace/)(33) · [automotive](automotive/)(23) · [agriculture](agriculture/)(14)
 
-**行业垂直**: [healthcare](healthcare/)(50) · [environmental](environmental/)(33) · [media-entertainment](media-entertainment/)(24) · [design](design/)(21) · [education](education/)(17) · [logistics](logistics/)(16) · [food-beverage](food-beverage/)(15) · [insurance](insurance/)(11) · [government](government/)(10) · [pharma-biotech](pharma-biotech/)(8)
+**行业垂直**: [healthcare](healthcare/)(54) · [environmental](environmental/)(38) · [media-entertainment](media-entertainment/)(31) · [design](design/)(25) · [education](education/)(36) · [logistics](logistics/)(22) · [food-beverage](food-beverage/)(16) · [insurance](insurance/)(12) · [government](government/)(14) · [pharma-biotech](pharma-biotech/)(9)
 
-**新增领域**: [sports](sports/)(4) · [fashion](fashion/)(4) · [mining](mining/)(4) · [nonprofit](nonprofit/)(4) · [publishing](publishing/)(4) · [events](events/)(4) · [localization](localization/)(4) · [emergency](emergency/)(4) · [forestry](forestry/)(3) · [beauty](beauty/)(3) · [pets](pets/)(3) · [libraries](libraries/)(2) · [museums](museums/)(2)
+**新增领域**: [sports](sports/)(9) · [fashion](fashion/)(7) · [mining](mining/)(7) · [nonprofit](nonprofit/)(6) · [publishing](publishing/)(9) · [events](events/)(7) · [localization](localization/)(7) · [emergency](emergency/)(7) · [forestry](forestry/)(6) · [beauty](beauty/)(6) · [pets](pets/)(6) · [libraries](libraries/)(3) · [museums](museums/)(5) · [thinking-models](thinking-models/)(13) · [home-lifestyle](home-lifestyle/)(5) · [parenting-family](parenting-family/)(5)
 
-**综合**: [specialized](specialized/)(6)
+**综合**: [specialized](specialized/)(26)
 
 > 💡 点击任意目录链接浏览该领域所有 Agent 的完整详情（身份/任务/交付物/工作流/成功指标）。
 
@@ -848,7 +848,7 @@ MIT License — 自由使用，商业或个人用途均可。注明出处即可�
 
 ## 🙏 致谢
 
-始于一个关于 AI Agent 专业化的 Reddit 帖子，如今已成长为一项了不起的项目 — **约 1,400 个 Agent 覆盖 62 个分类**，得到了来自世界各地的社区贡献者的支持。这个仓库中的每个 Agent 都源于有人愿意花时间编写、测试和分享。
+始于一个关于 AI Agent 专业化的 Reddit 帖子，如今已成长为一项了不起的项目 — **约 1,402 个 Agent 覆盖 62 个行业类别**，得到了来自世界各地的社区贡献者的支持。这个仓库中的每个 Agent 都源于有人愿意花时间编写、测试和分享。
 
 致所有提交过 PR、报告过 Issue、发起过 Discussion，或者仅仅是尝试过一个 Agent 并告诉我们效果如何的朋友 — 谢谢你们。正是因为有你们，The Agency 才一直在变得更好。
 

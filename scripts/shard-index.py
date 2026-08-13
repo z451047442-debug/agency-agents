@@ -151,6 +151,11 @@ def print_stats():
         count = len(data.get("agents", []))
         shards.append((shard_file.stem, count, size_kb))
 
+    if not shards:
+        print(f"{YELLOW}No shard files found in {SHARD_DIR}. "
+              f"Run 'python scripts/shard-index.py' first.{RESET}")
+        return
+
     shards.sort(key=lambda x: -x[2])
 
     print(f"\n{BOLD}Shard Size Distribution{RESET}\n")

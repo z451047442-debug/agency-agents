@@ -1,7 +1,7 @@
 {
   "category": "operations",
-  "agent_count": 11,
-  "generated": "2026-07-16",
+  "agent_count": 12,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "operations-analytics-reporter",
@@ -12,7 +12,6 @@
       "subcategory": "",
       "path": "operations/operations-analytics-reporter.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-deep-learning-training",
         "education-special-needs",
         "marketing-customer-lifecycle",
@@ -21,7 +20,26 @@
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Transforms raw data into the insights that drive your next decision.",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Analytics",
+        "Process",
+        "Analysis",
+        "Report"
+      ],
+      "keywords": [
+        "数据分析报告员",
+        "数据分析",
+        "仪表板与业务洞察专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -33,7 +51,6 @@
       "subcategory": "",
       "path": "operations/operations-automation-governance-architect.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-language-model-nlp",
         "finance-engineering-credit-risk-model",
@@ -45,6 +62,24 @@
       "nexus_roles": [
         "phase-6-operate",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Calm, skeptical, and operations-focused. Prefer reliable systems over automation hype.",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Non-Negotiable",
+        "Decision",
+        "Framework",
+        "Mandatory"
+      ],
+      "keywords": [
+        "自动化治理架构师",
+        "自动化治理",
+        "n8n",
+        "与工作流审计专家",
+        "think"
       ]
     },
     {
@@ -56,7 +91,6 @@
       "subcategory": "",
       "path": "operations/operations-bcp-disaster-recovery.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "legal-engineering-legal-document-automation",
         "operations-report-distribution-agent",
         "project-management-event-manager",
@@ -65,6 +99,24 @@
       "nexus_roles": [
         "phase-6-operate",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the data center floods, the ransomware hits, or the supply chain collapses, everyone looks at you. You already planned for this.",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "业务连续性",
+        "BCP",
+        "与灾备专家",
+        "业务连续性与灾难恢复专家，覆盖BIA业务影响分析",
+        "DRP计划编制"
       ]
     },
     {
@@ -77,12 +129,31 @@
       "path": "operations/operations-change-management.md",
       "depends_on": [
         "data-science-engineering-language-model-nlp",
-        "engineering-multi-agent-systems-architect",
+        "operations-multi-agent-coordinator",
         "operations-analytics-reporter",
         "project-management-agile-coach"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The best strategy in the world fails if people don't adopt it — you design the",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "变革管理顾问",
+        "组织变革管理专家，覆盖ADKAR",
+        "Kotter",
+        "PROSCI变革方法论",
+        "干系人分析"
       ]
     },
     {
@@ -95,7 +166,7 @@
       "path": "operations/operations-director.md",
       "depends_on": [
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "operations-multi-agent-coordinator",
         "finance-cost-accountant",
         "lottery-product-risk",
         "lottery-risk-compliance",
@@ -103,7 +174,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Strategy is what you want to happen; operations is what actually happens. You",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "leading",
+        "across",
+        "industries",
+        "turn"
+      ],
+      "keywords": [
+        "运营总监",
+        "COO",
+        "企业运营最高负责人，覆盖业务流程优化",
+        "标准化",
+        "跨部门协调"
       ]
     },
     {
@@ -126,7 +216,26 @@
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Thinks like a McKinsey consultant, writes for the C-suite.",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Required",
+        "Output",
+        "Format",
+        "SITUATION"
+      ],
+      "keywords": [
+        "高管摘要生成师",
+        "级沟通",
+        "战略摘要与决策支持专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -147,6 +256,24 @@
       ],
       "nexus_roles": [
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Keeps the books clean, the cash flowing, and the forecasts honest.",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Financial",
+        "Management",
+        "Process",
+        "Report"
+      ],
+      "keywords": [
+        "财务追踪专员",
+        "财务规划",
+        "预算管理与业务绩效分析专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -169,7 +296,26 @@
       ],
       "nexus_roles": [
         "phase-2-foundation",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Keeps the lights on, the servers humming, and the alerts quiet.",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Infrastructure",
+        "Management",
+        "Process",
+        "Report"
+      ],
+      "keywords": [
+        "基础设施维护工程师",
+        "系统可靠性",
+        "性能优化与基础设施运营专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -181,7 +327,6 @@
       "subcategory": "",
       "path": "operations/operations-legal-compliance-checker.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "legal-data-protection-officer",
         "marketing-cross-border-ecommerce",
         "marketing-email-marketing",
@@ -190,6 +335,58 @@
       "nexus_roles": [
         "phase-6-operate",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Ensures your operations comply with the law across every jurisdiction that matters.",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Legal",
+        "Compliance",
+        "Process",
+        "Assessment"
+      ],
+      "keywords": [
+        "法律合规检查员",
+        "合规审查",
+        "监管要求与风险管理专家",
+        "Role",
+        "Personality"
+      ]
+    },
+    {
+      "id": "operations-multi-agent-coordinator",
+      "name": "Operations Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for business operations",
+      "emoji": "⚙️",
+      "category": "operations",
+      "subcategory": "",
+      "path": "operations/operations-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating operations specialists into coherent multi-agent workflows",
+      "tags": [
+        "operations",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Operations",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -202,15 +399,34 @@
       "path": "operations/operations-procurement-director.md",
       "depends_on": [
         "data-science-engineering-knowledge-management",
-        "engineering-multi-agent-systems-architect",
+        "operations-multi-agent-coordinator",
         "finance-cost-accountant",
         "marketing-customer-lifecycle",
         "operations-analytics-reporter",
-        "securities-family-office"
+        "finance-securities-family-office"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every dollar saved by procurement drops straight to profit. You lead the function",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "leading",
+        "procurement",
+        "organizations",
+        "Managed"
+      ],
+      "keywords": [
+        "采购总监",
+        "CPO",
+        "企业采购与供应链最高负责人，覆盖品类采购战略",
+        "供应商关系管理",
+        "采购数字化"
       ]
     },
     {
@@ -223,13 +439,32 @@
       "path": "operations/operations-report-distribution-agent.md",
       "depends_on": [
         "data-science-consolidation-agent",
-        "engineering-multi-agent-systems-architect",
+        "operations-multi-agent-coordinator",
         "finance-cost-accountant",
         "hr-performance-management",
         "operations-analytics-reporter"
       ],
       "nexus_roles": [
-        "phase-6-operate"
+        "phase-6-operate",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Automates delivery of consolidated sales reports to the right reps.",
+      "lifecycle": "published",
+      "tags": [
+        "operations",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "报告分发",
+        "Agent",
+        "自动化报告交付与按区域定时发送专家",
+        "Report",
+        "Distribution"
       ]
     }
   ]

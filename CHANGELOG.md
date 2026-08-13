@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.2.3] — 2026-08-14 — AI Review & Production Readiness
+
+### Fixed
+- **Critical**: `tests/test_rebalance_nexus_phases.py` apply 测试未隔离 REPO，运行测试会真实改写 1400 个 agent 文件 — 已隔离并补真实断言
+- **Critical**: `_shared.atomic_write` 默认 `newline=None` 在 Windows 写 CRLF，与 `.gitattributes eol=lf` 及 lint CRLF-ERROR 规则系统性冲突 — 默认改为 LF，全部生成物重新生成
+- **Critical**: `build-architecture.py --check` 渲染含分钟级时间戳，重渲染比对恒失败 — 复用已提交时间戳
+- **Critical**: ci.yml 数量断言 1400 vs AGENTS.json 1402 必红 — pyproject 描述更新为 1402，断言升级为磁盘/索引/pyproject 三方比对
+- **Critical**: `batch-add-deps.py` 插入点算法可能把 depends_on 插入块标量内部损坏 frontmatter YAML — 改为安全锚点
+- **Critical**: `tests/test_convert.py` TestMain 未隔离模块级 OUT 常量，测试会真实清理重建 integrations/ — 补 patch `OUT`/`_OMC_OUT`
+- **High**: `score-agents.py` 基线统计在过滤后用过滤数量做分母（a_pct 可超 100%）；`--compare` 用旧 0-10 引擎却显示 /18；FLOOR 报错 /10 — 全量分母、统一 v7 引擎、/18
+- **High**: `scoring/report.py` v7 模式 Perimeter 统计读 v1 字段（thin 恒全量、stale/broken 恒 0）— 按字段存在性统计；JSON 报告增加 v7 门禁字段
+- **High**: `search-agents.py` `--regex` 非法正则直接 traceback — CLI 边界预编译校验；场景映射清理 3 个已删类别
+- **High**: `convert.py --check` 浅比较漏检嵌套新增/删除文件 — 完整递归快照对比（README 按 basename 排除）
+- **High**: `install.py` 非 identity 格式用子串匹配可能装错文件；list/verify/uninstall 只认 .md — 精确匹配并支持全部格式
+- **High**: 9 个 agent 文件含未填充模板占位符、14 处占位链接、8 处坏 depends_on、1 处乱码、8 个重复 emoji 键、2 个错域/结构损坏文件 — 全部修复
+- **Medium**: 558 个文件 Identity 区模板碎片清理；评分阈值文档六种口径统一（SCORING/TIERS/MAINTAINERS/CLAUDE.md 对齐 CI 实际）；README 家族数量口径 1402/63/15/100 场景；`integrations/by-category` 重新生成并删除 4 个过期分片；schema 增加 `tools`/`category` 可选属性；`.gitignore` 补 `integrations/oh-my-claudecode/`；GBK 控制台箭头乱码改 ASCII；`release-type: simple`→`python`；coverage omit 补 `_archive/` 与 `agency_cli.py`；`install-remote.py` 下载路径加固
+- **Low**: 死代码清理（slugify/局部 score_agent/extract_agent_dirs 等）、删除无效 `--freshness` 参数、`check-contributor-ladder.py` 2025-01-01 时间炸弹改为动态首提交日期、恒真断言测试修复、CLAUDE.md 命令示例与 CLI 对齐
+
+### Data
+- **AGENTS.json**: 重新生成（1402 agents / 62 categories，LF）
+- **integrations/**: 全部工具产物重新转换（18226 次），OMC 插件产物重建
+- **ARCHITECTURE.md/html、agent-browser.html**: 重新生成（1402/62）
+- **评分**: mean 10.8 → 11.01（`_TOOL_FRAMEWORK_RE` 补 IGNORECASE 后质量信号识别更全）
+
+### Verification
+- pytest: 1417 passed / 0 failed / 20 skipped，覆盖率 92.42%（门禁 ≥90%）
+- lint: 0 错误 / 9 警告（均为 >55KB 建议拆分的内容级 WARN）
+- depends_on: 6836 条引用 0 损坏；convert --check / build-architecture --check 全部通过
+
 ## [2.2.2] — 2026-08-02 — CI Recovery & Cross-File Consistency
 
 ### Fixed

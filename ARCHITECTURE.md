@@ -1,8 +1,8 @@
-# The Agency — System Architecture v2.2.1
+# The Agency — System Architecture v2.2.2
 
-**1,400 AI Agent Personality Definitions · 62 Categories · 35 Tooling Scripts · 1,357 Tests · OMC Smart Plugin**
+**1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,442 Tests · OMC Smart Plugin**
 
-Generated: 2026-08-01 23:58 UTC
+Generated: 2026-08-13 15:51 UTC
 
 ---
 
@@ -20,30 +20,32 @@ Generated: 2026-08-01 23:58 UTC
 
 ---
 
-## Layer 1: Test Suite (40 modules, 1,357 tests)
+## Layer 1: Test Suite (43 modules, 1,442 tests)
 
 | Module (tests) | Module (tests) |
 |----------------|----------------|
-| test_score_agents.py (96) | test_rebalance_nexus_phases.py (25) |
-| test_agent_lifecycle.py (80) | test_shard_index.py (25) |
-| test_convert.py (78) | test_suggest_nexus_roles.py (25) |
-| test_lint_agents.py (78) | test_build_architecture.py (23) |
-| test_nexus_orchestrator.py (78) | test_match_nexus_agents.py (22) |
-| test_analyze_deps.py (73) | test_nexus_coverage.py (21) |
-| test_omc_scripts.py (69) | test_batch_version.py (20) |
-| test_quality_report.py (53) | test_check_divisions.py (18) |
-| test_search_agents.py (51) | test_batch_add_deps.py (16) |
-| test_batch_add_metadata.py (42) | test_batch_date_added.py (16) |
-| test_batch_nexus_roles.py (42) | test_analyze_deps_auto.py (15) |
-| test_build_hermes_plugin.py (40) | test_check_dupes.py (15) |
-| test_expand_agent.py (40) | test_expand_thin_agents.py (11) |
-| test_contribute.py (38) | test_generate_index.py (11) |
-| test_feedback.py (37) | test_quality_pipeline.py (10) |
-| test_validate_index.py (37) | test_batch_add_hardening_v2.py (9) |
+| test_score_agents.py (119) | test_suggest_nexus_roles.py (25) |
+| test_convert.py (88) | test_build_architecture.py (23) |
+| test_agent_lifecycle.py (80) | test_expand_thin_agents.py (21) |
+| test_lint_agents.py (78) | test_nexus_coverage.py (21) |
+| test_nexus_orchestrator.py (78) | test_batch_version.py (20) |
+| test_analyze_deps.py (73) | test_extract_patterns.py (20) |
+| test_omc_scripts.py (69) | test_audit_security.py (17) |
+| test_quality_report.py (53) | test_check_dupes.py (17) |
+| test_search_agents.py (51) | test_match_nexus_agents.py (17) |
+| test_batch_add_metadata.py (42) | test_batch_add_deps.py (16) |
+| test_batch_nexus_roles.py (42) | test_batch_date_added.py (16) |
+| test_build_hermes_plugin.py (40) | test_check_divisions.py (16) |
+| test_expand_agent.py (40) | test_analyze_deps_auto.py (15) |
+| test_contribute.py (39) | test_generate_index.py (12) |
+| test_feedback.py (37) | test_scan_boilerplate.py (12) |
+| test_validate_index.py (37) | test_quality_pipeline.py (10) |
 | test_shared.py (35) | test_install_remote.py (9) |
 | test_add_comm_section.py (29) | test_batch_nexus_roles_gap.py (7) |
-| test_check_agent_originality.py (29) | test_integration_pipeline.py (6) |
-| test_clean.py (25) | test_build_agent_browser.py (3) |
+| test_check_agent_originality.py (29) | test_integration_pipeline.py (7) |
+| test_clean.py (25) | test_fix_crlf.py (4) |
+| test_rebalance_nexus_phases.py (25) | test_build_agent_browser.py (3) |
+| test_shard_index.py (25) |  |
 
 ---
 
@@ -63,11 +65,11 @@ Generated: 2026-08-01 23:58 UTC
 **__init__.py** — Module entry point and dynamic loader
 - Exports: `Re-exports all 15 symbols + load_module()`
 
-**38 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · audit-security · batch-add-hardening-v2 · batch-add-metadata · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · expand-thin-agents · export-omc-agents · extract-patterns · fix-filename-prefixes · fix-lint · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · match-nexus-agents · nexus-coverage · nexus-orchestrator · quality-report · rebalance-nexus-phases · score-agents · search-agents · suggest-nexus-roles · validate-index
+**44 consumers**: batch-add-hardening-v2 · fix-agent-content · fix-lint · add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · audit-security · batch-add-metadata · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · expand-thin-agents · export-omc-agents · extract-patterns · fix-filename-prefixes · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · match-nexus-agents · nexus-coverage · nexus-orchestrator · quality-report · rebalance-nexus-phases · scan-boilerplate · score-agents · engine · report · signals · v7 · search-agents · suggest-nexus-roles · validate-index
 
 ---
 
-## Layer 3: Tooling Scripts (35 Python modules + 19 shell wrappers)
+## Layer 3: Tooling Scripts (34 Python modules + 18 shell wrappers)
 
 ### Quality Pipeline (11 scripts)
 | Script | Purpose |
@@ -84,7 +86,7 @@ Generated: 2026-08-01 23:58 UTC
 | score-agents.py | A-D grading with risk tiers, domain signals, and score variance |
 | validate-index.py | AGENTS.json JSON schema + filesystem cross-reference validation |
 
-### Maintenance Tools (12 scripts)
+### Maintenance Tools (11 scripts)
 | Script | Purpose |
 |--------|---------|
 | add-comm-section.py | Communication Style section generator with domain traits |
@@ -96,7 +98,6 @@ Generated: 2026-08-01 23:58 UTC
 | clean.py | Project cleanup: __pycache__, build artifacts |
 | contribute.py | Contribution dashboard with skill-level filtering |
 | expand-agent.py | B-grade to A-grade content expansion with template engine |
-| fix-lint.py | Incremental lint fixer: ruff + mypy auto-fix pipeline |
 | rebalance-nexus-phases.py | Rebalance agent distribution across NEXUS phases |
 | suggest-nexus-roles.py | Auto-suggest NEXUS roles based on agent content |
 
@@ -120,11 +121,11 @@ Generated: 2026-08-01 23:58 UTC
 | i18n/check-i18n.py | Translation coverage tracking and template generation |
 | i18n/localize-agents.py | Name + description patching from JSON translation maps |
 
-Plus 19 shell wrappers (thin entry points delegating to .py counterparts).
+Plus 18 shell wrappers (thin entry points delegating to .py counterparts).
 
 ---
 
-## Layer 4: Agent Content (1,400 .md files, 62 categories)
+## Layer 4: Agent Content (1,402 .md files, 62 categories)
 
 ### Category Distribution (all 62)
 
@@ -132,7 +133,7 @@ Plus 19 shell wrappers (thin entry points delegating to .py counterparts).
 |----|---------|--------|
 | 工程开发 | engineering | 114 |
 | 基础设施 | infrastructure | 111 |
-| 市场营销 | marketing | 85 |
+| 市场营销 | marketing | 86 |
 | 医疗健康 | healthcare | 54 |
 | 金融 | finance | 53 |
 | 数据科学 | data-science | 47 |
@@ -148,11 +149,11 @@ Plus 19 shell wrappers (thin entry points delegating to .py counterparts).
 | 专业角色 | specialized | 26 |
 | 设计 | design | 25 |
 | 法律 | legal | 25 |
-| 项目管理 | project-management | 24 |
+| 项目管理 | project-management | 25 |
 | 汽车 | automotive | 23 |
 | 人力资源 | hr | 22 |
 | 物流 | logistics | 22 |
-| 测试 | testing | 21 |
+| 测试 | testing | 22 |
 | 物联网 | iot | 20 |
 | 食品饮料 | food-beverage | 16 |
 | 地理信息 | gis | 16 |
@@ -182,11 +183,11 @@ Plus 19 shell wrappers (thin entry points delegating to .py counterparts).
 | 时尚 | fashion | 7 |
 | 本地化 | localization | 7 |
 | 矿业 | mining | 7 |
-| 战略咨询 | strategy | 7 |
 | 美妆 | beauty | 6 |
 | 林业 | forestry | 6 |
 | 公益 | nonprofit | 6 |
 | 宠物 | pets | 6 |
+| 战略咨询 | strategy | 6 |
 | 家居生活 | home-lifestyle | 5 |
 | 博物馆 | museums | 5 |
 | 亲子家庭 | parenting-family | 5 |
@@ -267,7 +268,7 @@ OMC (oh-my-claudecode) 是唯一不通过 convert.py 转换的集成目标 — �
 
 ### Shared Foundation
 
-All 35 Python scripts read agent data through `_shared/` — none call each other's output:
+All 34 Python scripts read agent data through `_shared/` — none call each other's output:
 
 ```
                       _shared/
@@ -311,7 +312,7 @@ All 16 consumers depend on `_shared/` modules; cross-script imports use `load_mo
 
 Phase 0: Discovery -> Phase 1: Strategy -> Phase 2: Foundation -> Phase 3: Build -> Phase 4: Hardening -> Phase 5: Launch -> Phase 6: Operate
 
-**7 phases** with 1,400 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
+**7 phases** with 1,402 agents distributed across them (agents opt in via `nexus_roles` frontmatter field).
 
 Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` | `docs/runbooks/` | `docs/teams/` | `docs/coordination/`
 
@@ -321,15 +322,15 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 
 | Metric | Value |
 |--------|-------|
-| Version | v2.2.1 |
+| Version | v2.2.2 |
 | Python | >=3.10 |
 | Coverage threshold | 90% |
-| Agent files | 1,400 |
-| Tool scripts | 35 (.py) + 19 (.sh) |
-| Tests | 1,357 across 40 modules |
+| Agent files | 1,402 |
+| Tool scripts | 34 (.py) + 18 (.sh) |
+| Tests | 1,442 across 43 modules |
 | CI workflows | 7 |
 | Integration targets | 10 |
 | OMC plugin artifacts | 4 |
 | NEXUS phases | 7 |
 
-Generated: 2026-08-01 23:58 UTC
+Generated: 2026-08-13 15:51 UTC

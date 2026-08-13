@@ -53,11 +53,15 @@ def get_lint_file():
     return _get_script_function("lint-agents", "lint_file")
 
 
-def atomic_write(path, content, encoding="utf-8", newline=None):
+def atomic_write(path, content, encoding="utf-8", newline="\n"):
     """Atomically write content to path using tmp + os.replace.
 
     Writes to a temp file in the same directory, then atomically replaces
     the target. This prevents partial writes from corrupting existing files.
+
+    Defaults to LF newlines: the repo enforces eol=lf via .gitattributes and
+    lint-agents.py flags CRLF as ERROR, so Windows text-mode translation
+    (newline=None) would systematically produce CRLF output.
     """
     import os
     from pathlib import Path as _Path

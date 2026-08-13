@@ -1,6 +1,7 @@
 # 📄 Runbook: Research Report / White Paper
 
-> **Mode**: NEXUS-Research | **Duration**: 2-4 weeks | **Agents**: 8-12
+> **Mode**: NEXUS-Sprint | **Duration**: 2-4 weeks | **Agents**: 8-12
+> 本场景采用 Sprint 模式（NEXUS 三模式之一：Full / Sprint / Micro）执行。
 
 ---
 

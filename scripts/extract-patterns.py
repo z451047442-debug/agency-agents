@@ -111,7 +111,7 @@ def print_report(analysis: dict) -> None:
     if suggestions:
         print(f"\n{BOLD}Suggested actions:{RESET}")
         for s in suggestions:
-            print(f"  {YELLOW}→{RESET} {s}")
+            print(f"  {YELLOW}->{RESET} {s}")
 
     if not analysis["low_rated"] and not analysis["issues"]:
         print(f"{GREEN}All feedback is positive.{RESET}")

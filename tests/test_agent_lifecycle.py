@@ -309,7 +309,7 @@ class TestSetLifecycleEdgeCases:
         f = tmp_path / "nonexistent" / "agent.md"
         ok, msg = set_lifecycle(f, "review")
         assert not ok
-        assert "No such file" in msg or "Error" in msg or msg
+        assert "No such file" in msg or "Error" in msg
 
     def test_write_error_on_directory(self, tmp_path):
         """Cover lines 134-135 — write_text fails because path is a directory."""

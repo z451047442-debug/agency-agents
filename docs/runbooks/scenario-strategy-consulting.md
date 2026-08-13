@@ -1,6 +1,7 @@
 # 🏛️ Runbook: Strategy Consulting Engagement
 
-> **Mode**: NEXUS-Consulting | **Duration**: 4-8 weeks | **Agents**: 10-15
+> **Mode**: NEXUS-Sprint | **Duration**: 4-8 weeks | **Agents**: 10-15
+> 本场景采用 Sprint 模式（NEXUS 三模式之一：Full / Sprint / Micro）执行。
 
 ---
 

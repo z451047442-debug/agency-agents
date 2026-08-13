@@ -1,7 +1,7 @@
 {
   "category": "automotive",
-  "agent_count": 22,
-  "generated": "2026-07-16",
+  "agent_count": 23,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "automotive-adas-engineer",
@@ -18,7 +18,26 @@
         "marketing-japan-market-expert"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The best safety system is the one the driver never notices — until the moment",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "ADAS高级驾驶辅助工程师",
+        "L2",
+        "L3驾驶辅助系统开发专家，覆盖AEB",
+        "ACC",
+        "LKA功能安全与ISO"
       ]
     },
     {
@@ -39,6 +58,24 @@
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Driving is humanity's most dangerous daily activity — autonomy isn't about convenience, it's about making the roads statistically safe for the people we love",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "自动驾驶系统工程师",
+        "L4",
+        "L5自动驾驶系统架构与感知规划专家，覆盖传感器融合",
+        "路径规划与安全验证",
+        "Dr"
       ]
     },
     {
@@ -50,32 +87,72 @@
       "subcategory": "",
       "path": "automotive/automotive-director.md",
       "depends_on": [
+        "automotive-multi-agent-coordinator",
         "automotive-vehicle-architecture",
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-credit-risk-model"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cars are the most complex consumer product on Earth — you lead the thousands",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "leading",
+        "engineering",
+        "organizations",
+        "delivered"
+      ],
+      "keywords": [
+        "汽车研发",
+        "事业部总监",
+        "汽车研发或事业部最高负责人，覆盖整车",
+        "系统开发策略",
+        "平台架构"
       ]
     },
     {
       "id": "automotive-engineering-automotive-cae",
       "name": "汽车碰撞安全/被动安全CAE工程师",
-      "description": "汽车碰撞安全与乘员约束系统CAE仿真专家，覆盖整车碰撞(正面FRB/ODB/MDB/侧柱/翻滚)结构耐撞性/侵入、乘员约束(安全气囊/安全带/座椅) MADYMO仿真、行人保护与NCAP/法规星级评定",
+      "description": "汽车碰撞安全与乘员约束系统CAE仿真专家，覆盖整车碰撞(正面FRB/ODB/MDB/侧柱/翻滚)结构耐撞性/侵入、乘员约束(安全气囊/安全带/座椅)",
       "emoji": "🚗",
       "category": "automotive",
       "subcategory": "",
       "path": "automotive/automotive-engineering-automotive-cae.md",
       "depends_on": [
         "automotive-adas-engineer",
+        "automotive-multi-agent-coordinator",
         "cybersecurity-engineering-cyber-risk-model",
-        "engineering-multi-agent-systems-architect",
-        "finance-engineering-credit-risk-model"
+        "finance-engineering-credit-risk-model",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every crash test dummy that \"survives\" a simulated collision is protected by",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "crashworthiness",
+        "simulation",
+        "Optimized",
+        "vehicle"
+      ],
+      "keywords": [
+        "汽车碰撞安全",
+        "被动安全CAE工程师",
+        "汽车碰撞安全与乘员约束系统CAE仿真专家，覆盖整车碰撞",
+        "正面FRB",
+        "ODB"
       ]
     },
     {
@@ -88,14 +165,34 @@
       "path": "automotive/automotive-engineering-automotive-engineer.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
+        "automotive-multi-agent-coordinator",
         "cybersecurity-engineering-cyber-risk-model",
         "cybersecurity-engineering-cybersecurity-risk",
         "engineering-code-reviewer",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect"
+        "engineering-standards-compliance"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds the brain of the car — perception, planning, control — where a 1% error",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Methodology"
+      ],
+      "keywords": [
+        "汽车",
+        "智能驾驶工程师",
+        "自动驾驶",
+        "智能座舱",
+        "车联网与汽车电子系统开发专家"
       ]
     },
     {
@@ -108,47 +205,107 @@
       "path": "automotive/automotive-engineering-automotive-homologation-test.md",
       "depends_on": [
         "automotive-adas-engineer",
-        "cybersecurity-engineering-customer-identity-access",
+        "automotive-multi-agent-coordinator",
         "education-special-needs",
-        "engineering-multi-agent-systems-architect",
-        "marketing-southeast-asia-expert"
+        "marketing-paid-media-tracking-specialist",
+        "marketing-southeast-asia-expert",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A car must survive 150,000 km of potholes, salt, heat, cold, and neglect — you",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "testing",
+        "Validated",
+        "durability",
+        "vehicles"
+      ],
+      "keywords": [
+        "汽车测试",
+        "耐久性验证工程师",
+        "汽车整车与零部件耐久性",
+        "可靠性测试验证专家，覆盖整车道路",
+        "台架"
       ]
     },
     {
       "id": "automotive-engineering-automotive-lighting",
       "name": "汽车照明/车灯光学设计工程师",
-      "description": "汽车外部照明与信号系统光学专家，覆盖LED矩阵/ADB自适应远光/μLED/激光光源、自由曲面/微透镜阵列光学设计(LucidShape/SPEOS)、法规(GB/ECE/FMVSS 108)与散热/雾气管理",
+      "description": "汽车外部照明与信号系统光学专家，覆盖LED矩阵/ADB自适应远光/μLED/激光光源、自由曲面/微透镜阵列光学设计(LucidShape/SPEOS)、法规(GB/ECE/FMVSS",
       "emoji": "💡",
       "category": "automotive",
       "subcategory": "",
       "path": "automotive/automotive-engineering-automotive-lighting.md",
       "depends_on": [
         "automotive-engineering-automotive-thermal",
-        "engineering-multi-agent-systems-architect"
+        "automotive-multi-agent-coordinator",
+        "energy-engineering-power-electronics",
+        "manufacturing-engineering-electronics-manufacturing"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Headlights don't just illuminate the road — they communicate, they adapt, and",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "lighting",
+        "Designed",
+        "headlamps",
+        "signal"
+      ],
+      "keywords": [
+        "汽车照明",
+        "车灯光学设计工程师",
+        "汽车外部照明与信号系统光学专家，覆盖LED矩阵",
+        "ADB自适应远光",
+        "μLED"
       ]
     },
     {
       "id": "automotive-engineering-automotive-software",
       "name": "汽车基础软件(AUTOSAR CP/AP)工程师",
-      "description": "AUTOSAR汽车基础软件与中间件开发专家，覆盖AUTOSAR Classic(COM Stack/RTE/BSW)/Adaptive(ARA)/Safety(ISO 26262 ASIL)、 SOME/IP/DDS与ECU软件集成/刷写(UDS on CAN/DoIP)",
+      "description": "AUTOSAR汽车基础软件与中间件开发专家，覆盖AUTOSAR Classic(COM Stack/RTE/BSW)/Adaptive(ARA)/Safety(ISO",
       "emoji": "🚗",
       "category": "automotive",
       "subcategory": "",
       "path": "automotive/automotive-engineering-automotive-software.md",
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
+        "automotive-multi-agent-coordinator",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect"
+        "iot-edge-computing"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every ECU in a car runs a real-time OS and a communication stack — you configure",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "embedded",
+        "software",
+        "Configured",
+        "AUTOSAR"
+      ],
+      "keywords": [
+        "汽车基础软件",
+        "AUTOSAR",
+        "CP",
+        "AP",
+        "工程师"
       ]
     },
     {
@@ -161,12 +318,31 @@
       "path": "automotive/automotive-engineering-automotive-systems.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
+        "automotive-multi-agent-coordinator",
         "automotive-vehicle-architecture",
-        "engineering-multi-agent-systems-architect",
-        "operations-report-distribution-agent"
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cars are becoming computers on wheels — you design the electrical architecture",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "architecture",
+        "Designed",
+        "vehicle",
+        "architectures"
+      ],
+      "keywords": [
+        "汽车电子电气",
+        "架构师",
+        "汽车电子电气架构与域控制器设计专家，覆盖中央计算",
+        "区域架构",
+        "AUTOSAR"
       ]
     },
     {
@@ -179,12 +355,33 @@
       "path": "automotive/automotive-engineering-automotive-thermal.md",
       "depends_on": [
         "automotive-adas-engineer",
+        "automotive-multi-agent-coordinator",
         "energy-engineering-waste-to-energy",
         "energy-engineering-wind-energy",
-        "engineering-multi-agent-systems-architect"
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "An EV's range drops 30% in winter because of heating — you design the heat pump",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "vehicle",
+        "thermal",
+        "management",
+        "Designed"
+      ],
+      "keywords": [
+        "汽车热管理",
+        "空调系统工程师",
+        "纯电",
+        "混动汽车整车热管理系统专家，覆盖热泵系统",
+        "余热回收"
       ]
     },
     {
@@ -197,15 +394,36 @@
       "path": "automotive/automotive-engineering-autonomous-optimization-architect.md",
       "depends_on": [
         "automotive-adas-engineer",
+        "automotive-multi-agent-coordinator",
         "engineering-code-reviewer",
         "engineering-db-gui-tools",
+        "engineering-git-workflow-master",
         "engineering-olap-database",
         "specialized-agentic-identity-trust",
         "testing-performance-benchmarker",
         "testing-tool-evaluator"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The system governor that makes things faster without bankrupting you.",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "Technical",
+        "Process",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "自主优化架构师",
+        "LLM",
+        "路由",
+        "成本优化与影子测试专家",
+        "Role"
       ]
     },
     {
@@ -218,14 +436,33 @@
       "path": "automotive/automotive-engineering-battery-modeling.md",
       "depends_on": [
         "automotive-adas-engineer",
+        "automotive-multi-agent-coordinator",
         "cybersecurity-engineering-cyber-risk-model",
         "energy-engineering-carbon-capture-storage",
         "energy-engineering-energy-storage-materials-sci",
-        "engineering-multi-agent-systems-architect",
         "finance-engineering-credit-risk-model"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A battery management system that doesn't know the true state of charge is like",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "battery",
+        "modeling",
+        "algorithms",
+        "Developed"
+      ],
+      "keywords": [
+        "电池建模",
+        "状态估计工程师",
+        "电池数学模型与BMS算法专家，覆盖电化学",
+        "等效电路模型",
+        "ECM"
       ]
     },
     {
@@ -238,10 +475,31 @@
       "path": "automotive/automotive-engineering-electric-vehicle-aerodynamics.md",
       "depends_on": [
         "automotive-engineering-vehicle-dynamics",
-        "engineering-multi-agent-systems-architect"
+        "automotive-multi-agent-coordinator",
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "At highway speeds, most energy goes to pushing air — every 0.01 Cd reduction",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "aerodynamics",
+        "Optimized",
+        "drag",
+        "aeroacoustics"
+      ],
+      "keywords": [
+        "汽车空气动力学",
+        "气动声学工程师",
+        "整车空气动力学与风噪优化专家，覆盖外流场Cd风阻",
+        "升力",
+        "横风稳定性CFD"
       ]
     },
     {
@@ -254,52 +512,113 @@
       "path": "automotive/automotive-engineering-ev-charging.md",
       "depends_on": [
         "automotive-adas-engineer",
+        "automotive-multi-agent-coordinator",
         "engineering-ai-agent-developer",
         "engineering-code-reviewer",
-        "engineering-multi-agent-systems-architect",
-        "engineering-standards-compliance"
+        "engineering-standards-compliance",
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "EVs need chargers everywhere — you design the infrastructure that powers the",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "charging",
+        "infrastructure",
+        "Designed",
+        "networks"
+      ],
+      "keywords": [
+        "充电桩",
+        "电动汽车充电工程师",
+        "电动汽车充电基础设施与系统专家，覆盖AC",
+        "DC充电桩",
+        "GB"
       ]
     },
     {
       "id": "automotive-engineering-functional-safety",
       "name": "功能安全(ISO 26262/IEC 61508)工程师",
-      "description": "汽车/工业功能安全工程专家，覆盖ISO 26262(汽车)/IEC 61508(工业)功能安全标准、HARA/安全目标/ASIL等级、安全概念(FSC/TSC)、FMEA/FTA安全分析与安全案例(Safety Case)",
+      "description": "汽车/工业功能安全工程专家，覆盖ISO 26262(汽车)/IEC 61508(工业)功能安全标准、HARA/安全目标/ASIL等级、安全概念(FSC/TSC)、FMEA/FTA安全分析与安全案例(Safety",
       "emoji": "⚠️",
       "category": "automotive",
       "subcategory": "",
       "path": "automotive/automotive-engineering-functional-safety.md",
       "depends_on": [
         "automotive-engineering-automotive-software",
+        "automotive-multi-agent-coordinator",
         "engineering-ai-agent-developer",
         "engineering-code-reviewer",
         "engineering-git-workflow-master",
-        "engineering-multi-agent-systems-architect"
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When software failure can kill, safety is not a feature — it's a process. You",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "functional",
+        "safety",
+        "Certified",
+        "safety-critical"
+      ],
+      "keywords": [
+        "功能安全",
+        "ISO",
+        "IEC",
+        "工程师",
+        "汽车"
       ]
     },
     {
       "id": "automotive-engineering-vehicle-bus",
       "name": "车载网络/总线(CAN/LIN/Ethernet)工程师",
-      "description": "汽车车载网络与总线系统专家，覆盖CAN/CAN FD/LIN/FlexRay总线协议、车载以太网(100BASE-T1/1000BASE-T1)、AUTOSAR CP/AP通信栈与UDS/OBD诊断",
+      "description": "汽车车载网络与总线系统专家，覆盖CAN/CAN FD/LIN/FlexRay总线协议、车载以太网(100BASE-T1/1000BASE-T1)、AUTOSAR",
       "emoji": "🚗",
       "category": "automotive",
       "subcategory": "",
       "path": "automotive/automotive-engineering-vehicle-bus.md",
       "depends_on": [
         "automotive-engineering-automotive-systems",
-        "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "automotive-multi-agent-coordinator",
         "infrastructure-engineering-edge-computing",
         "infrastructure-identity-access",
-        "iot-edge-computing"
+        "iot-edge-computing",
+        "marketing-paid-media-tracking-specialist"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Modern cars have 100+ ECUs talking on 5 different bus systems — you design the",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "networking",
+        "Designed",
+        "in-vehicle",
+        "networks"
+      ],
+      "keywords": [
+        "车载网络",
+        "总线",
+        "LIN",
+        "Ethernet",
+        "工程师"
       ]
     },
     {
@@ -312,10 +631,31 @@
       "path": "automotive/automotive-engineering-vehicle-dynamics.md",
       "depends_on": [
         "automotive-adas-engineer",
-        "engineering-multi-agent-systems-architect"
+        "automotive-multi-agent-coordinator",
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "How a car feels when you turn the wheel — that's not luck, that's vehicle dynamics.",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "vehicle",
+        "dynamics",
+        "Tuned",
+        "chassis"
+      ],
+      "keywords": [
+        "车辆动力学",
+        "底盘调校工程师",
+        "汽车底盘动力学与整车操控调校专家，覆盖悬架",
+        "K&C",
+        "转向"
       ]
     },
     {
@@ -327,15 +667,31 @@
       "subcategory": "",
       "path": "automotive/automotive-ev-battery.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "energy-engineering-battery-recycling",
         "energy-engineering-energy-storage-materials-sci",
         "energy-engineering-grid-scale-storage",
-        "infrastructure-identity-access",
-        "operations-report-distribution-agent"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The battery is the heart of the electric revolution — every gram of weight, every degree of temperature, every cycle of life matters",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "新能源电池系统工程师",
+        "动力电池系统设计与热管理专家，覆盖电芯化学",
+        "BMS",
+        "pack集成与回收全生命周期",
+        "Dr"
       ]
     },
     {
@@ -348,11 +704,67 @@
       "path": "automotive/automotive-homologation.md",
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
-        "engineering-multi-agent-systems-architect",
-        "marketing-europe-market"
+        "automotive-multi-agent-coordinator",
+        "marketing-europe-market",
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A car that can't be certified can't be sold — you navigate the regulatory maze",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "certification",
+        "Obtained",
+        "type",
+        "approval"
+      ],
+      "keywords": [
+        "汽车认证",
+        "法规工程师",
+        "汽车型式认证与法规合规专家，覆盖中国CCC",
+        "公告",
+        "国六"
+      ]
+    },
+    {
+      "id": "automotive-multi-agent-coordinator",
+      "name": "Automotive Multi-Agent Coordinator",
+      "description": "Coordinates multi-agent workflows for automotive — vehicle systems, ADAS,",
+      "emoji": "🚗",
+      "category": "automotive",
+      "subcategory": "",
+      "path": "automotive/automotive-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating automotive specialists into coherent multi-agent workflows",
+      "tags": [
+        "automotive",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Automotive",
+        "Multi-Agent",
+        "Coordinator",
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -365,10 +777,31 @@
       "path": "automotive/automotive-nvh-engineer.md",
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
-        "engineering-multi-agent-systems-architect"
+        "automotive-multi-agent-coordinator",
+        "marketing-paid-media-tracking-specialist",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A quiet car feels premium; a noisy car feels cheap. You engineer the silence",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "Made",
+        "cars",
+        "quieter",
+        "through"
+      ],
+      "keywords": [
+        "汽车NVH工程师",
+        "汽车噪声振动与声振粗糙度",
+        "NVH",
+        "专家，覆盖动力总成",
+        "路噪"
       ]
     },
     {
@@ -386,10 +819,29 @@
         "logistics-engineering-supply-chain-risk",
         "logistics-engineering-supply-chain-software",
         "logistics-supply-chain-strategist",
+        "manufacturing-engineering-test-chip-bringup",
         "manufacturing-supply-chain-planner"
       ],
       "nexus_roles": [
         "phase-3-build"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A car has 30,000 parts — if 29,999 arrive on time and one doesn't, the assembly line stops",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "汽车供应链管理专家",
+        "全球汽车供应链与采购策略专家，覆盖",
+        "tier-1",
+        "tier-N",
+        "供应商体系与"
       ]
     },
     {
@@ -402,11 +854,32 @@
       "path": "automotive/automotive-vehicle-architecture.md",
       "depends_on": [
         "automotive-adas-engineer",
+        "automotive-multi-agent-coordinator",
         "construction-engineering-noise-control",
-        "engineering-multi-agent-systems-architect"
+        "quality-supplier-sqe",
+        "testing-engineering-test-automation-framework"
       ],
       "nexus_roles": [
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The car is becoming a computer on wheels — the architecture that connects its",
+      "lifecycle": "published",
+      "tags": [
+        "automotive",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "整车架构与平台工程师",
+        "整车电子电气架构与平台化开发专家，覆盖域控制器",
+        "软件定义汽车与OTA架构",
+        "Dr",
+        "Thomas"
       ]
     }
   ]

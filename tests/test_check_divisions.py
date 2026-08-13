@@ -18,7 +18,6 @@ mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
 
 load_canonical_divisions = mod.load_canonical_divisions
-extract_agent_dirs_from_script = mod.extract_agent_dirs_from_script
 has_agent_file = mod.has_agent_file
 compare_sets = mod.compare_sets
 
@@ -32,20 +31,6 @@ class TestLoadCanonicalDivisions:
         monkeypatch.setattr(mod, "DIVISIONS_JSON", f)
         divs = load_canonical_divisions()
         assert divs == ["design", "engineering", "marketing"]
-
-
-class TestExtractAgentDirs:
-    def test_extracts_array(self, tmp_path):
-        f = tmp_path / "convert.sh"
-        f.write_text('AGENT_DIRS=( engineering design "game-development" marketing )', encoding="utf-8")
-        dirs = extract_agent_dirs_from_script(f)
-        assert "engineering" in dirs
-        assert "game-development" in dirs
-
-    def test_no_array_returns_empty(self, tmp_path):
-        f = tmp_path / "script.sh"
-        f.write_text("echo hello", encoding="utf-8")
-        assert extract_agent_dirs_from_script(f) == []
 
 
 class TestHasAgentFile:

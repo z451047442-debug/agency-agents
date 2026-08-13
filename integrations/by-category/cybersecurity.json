@@ -1,24 +1,47 @@
 {
   "category": "cybersecurity",
-  "agent_count": 38,
-  "generated": "2026-07-16",
+  "agent_count": 39,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "cybersecurity-appsec-engineer",
       "name": "应用安全工程师",
-      "description": "应用安全(AppSec)专家，覆盖安全代码审查、SAST/DAST/SCA工具链、安全开发生命周期(SDL)、漏洞管理与安全修复",
-      "emoji": "🛡️",
+      "description": "通过威胁建模、安全代码审查与SAST/DAST集成的应用安全(AppSec)专家",
+      "emoji": "🔐",
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-appsec-engineer.md",
       "depends_on": [
-        "cybersecurity-paloalto-expert",
-        "security-appsec-engineer",
-        "testing-test-results-analyzer"
+        "cybersecurity-engineering-customer-identity-access",
+        "infrastructure-identity-access",
+        "logistics-public-transit",
+        "cybersecurity-cloud-security-architect",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "specialized-personal-growth-mentor",
+        "testing-test-results-analyzer",
+        "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
-        "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Makes developers write secure code without even realizing it.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Technical",
+        "System",
+        "Overview",
+        "Architecture"
+      ],
+      "keywords": [
+        "应用安全工程师",
+        "通过威胁建模",
+        "安全代码审查与SAST",
+        "DAST集成的应用安全",
+        "AppSec"
       ]
     },
     {
@@ -31,6 +54,7 @@
       "path": "cybersecurity/cybersecurity-blockchain-security-auditor.md",
       "depends_on": [
         "engineering-minimal-change-engineer",
+        "home-lifestyle-personal-finance",
         "infrastructure-engineering-incident-response-commander",
         "operations-executive-summary-generator",
         "specialized-agentic-identity-trust",
@@ -41,6 +65,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds the exploit in your smart contract before the attacker does.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Technical",
+        "Hierarchy",
+        "Initialization",
+        "Upgrade"
+      ],
+      "keywords": [
+        "区块链安全审计师",
+        "智能合约审计与漏洞分析专家",
+        "Role",
+        "Personality",
+        "Memory"
       ]
     },
     {
@@ -56,11 +98,29 @@
         "engineering-minimal-change-engineer",
         "finance-accounts-payable-agent",
         "marketing-short-video-editing-coach",
-        "security-penetration-tester",
+        "cybersecurity-penetration-tester",
         "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Finds bugs that scanner tools miss. Creative, efficient, impact-driven — every report demonstrates real business impact with copy-paste reproduction steps.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Mindset",
+        "Technical",
+        "Report",
+        "Metadata"
+      ],
+      "keywords": [
+        "漏洞赏金猎人",
+        "漏洞赏金猎人与漏洞研究专家，专注众测安全测试",
+        "创造性漏洞利用链",
+        "负责任披露及最大化赏金收益，覆盖",
+        "Web"
       ]
     },
     {
@@ -80,28 +140,63 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Security is not about eliminating risk — it's about managing it to the board's appetite",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Security",
+        "Domain",
+        "Foundations",
+        "Success"
+      ],
+      "keywords": [
+        "首席信息安全官",
+        "CISO",
+        "企业信息安全最高负责人，覆盖安全战略",
+        "治理框架",
+        "安全预算"
       ]
     },
     {
       "id": "cybersecurity-cloud-security-architect",
       "name": "云安全架构师",
-      "description": "云安全架构专家，专注多云安全（AWS/GCP/Azure）、云原生安全控制、零信任身份架构、工作负载保护及策略即代码实施",
+      "description": "设计零信任架构、跨AWS/Azure/GCP深度防御的云原生安全专家",
       "emoji": "☁️",
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-cloud-security-architect.md",
       "depends_on": [
+        "cybersecurity-engineering-customer-identity-access",
         "cybersecurity-engineering-threat-detection-engineer",
-        "finance-accounts-payable-agent",
-        "infrastructure-engineering-incident-response-commander",
-        "infrastructure-identity-access",
-        "infrastructure-kubernetes-expert",
-        "specialized-agentic-identity-trust"
+        "engineering-embedded-database",
+        "engineering-minimal-change-engineer",
+        "infrastructure-github-actions-expert"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-2-foundation",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds cloud infrastructure where \"secure by default\" isn't just a slide title.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "References",
+        "Standards",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "云安全架构师",
+        "设计零信任架构",
+        "跨AWS",
+        "Azure",
+        "GCP深度防御的云原生安全专家"
       ]
     },
     {
@@ -122,6 +217,24 @@
         "phase-0-discovery",
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Walks you from readiness assessment through evidence collection to SOC 2 certification.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Compliance",
+        "Executive",
+        "Summary",
+        "Findings"
+      ],
+      "keywords": [
+        "合规审计师",
+        "SOC2",
+        "ISO27001",
+        "HIPAA",
+        "PCI-DSS"
       ]
     },
     {
@@ -136,7 +249,9 @@
         "cybersecurity-engineering-customer-identity-access",
         "engineering-code-reviewer",
         "engineering-container-orchestration",
+        "engineering-programming-language",
         "government-public-safety-analyst",
+        "infrastructure-cloud-cost-optimization",
         "infrastructure-devops-platform",
         "infrastructure-identity-access"
       ],
@@ -144,6 +259,24 @@
         "phase-2-foundation",
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Security at the speed of DevOps — you embed security so deeply into the pipeline that developers ship secure code without thinking about it",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "DevSecOps工程师",
+        "DevSecOps与安全自动化专家，覆盖CI",
+        "CD安全集成",
+        "基础设施即代码安全",
+        "容器"
       ]
     },
     {
@@ -157,6 +290,7 @@
       "depends_on": [
         "cybersecurity-engineering-endpoint-forensics",
         "engineering-cache-specialist",
+        "engineering-git-workflow-master",
         "engineering-olap-database",
         "operations-executive-summary-generator",
         "specialized-identity-graph-operator"
@@ -164,29 +298,72 @@
       "nexus_roles": [
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Follows the digital footprints nobody else sees. Recovers what attackers tried to delete, builds timelines from fragments, and tells the story the logs don't want you to know.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Mindset",
+        "Technical",
+        "Case",
+        "Information"
+      ],
+      "keywords": [
+        "数字取证调查员",
+        "数字取证调查专家，专注证据收集",
+        "取证镜像",
+        "时间线分析",
+        "痕迹恢复及保管链文档，覆盖终端"
       ]
     },
     {
       "id": "cybersecurity-director",
       "name": "网络安全总监",
       "description": "网络安全领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🛡\"",
+      "emoji": "🛡",
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-director.md",
       "depends_on": [
         "cybersecurity-general-manager",
-        "security-threat-intelligence-analyst"
+        "cybersecurity-threat-intelligence",
+        "cybersecurity-engineering-cybersecurity-risk",
+        "cybersecurity-grc-specialist",
+        "cybersecurity-security-architect",
+        "cybersecurity-soc-analyst",
+        "engineering-code-reviewer",
+        "data-science-data-engineer"
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 信息安全与网络防御 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Security",
+        "Domain",
+        "Foundations",
+        "Success"
+      ],
+      "keywords": [
+        "网络安全总监",
+        "网络安全领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
       "id": "cybersecurity-engineering-biometric-engineer",
       "name": "生物识别/身份认证工程师",
-      "description": "生物特征识别与身份认证技术专家，覆盖指纹/人脸/虹膜/声纹/静脉识别算法、活体检测/防伪(PAD)、FIDO2/WebAuthn无密码认证与生物特征数据保护(ISO 30107)",
+      "description": "生物特征识别与身份认证技术专家，覆盖指纹/人脸/虹膜/声纹/静脉识别算法、活体检测/防伪(PAD)、FIDO2/WebAuthn无密码认证与生物特征数据保护(ISO",
       "emoji": "🔐",
       "category": "cybersecurity",
       "subcategory": "",
@@ -199,6 +376,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Your face, your fingerprint, your voice — they're your password now. You build",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "biometric",
+        "systems",
+        "Deployed",
+        "authentication"
+      ],
+      "keywords": [
+        "生物识别",
+        "身份认证工程师",
+        "生物特征识别与身份认证技术专家，覆盖指纹",
+        "人脸",
+        "虹膜"
       ]
     },
     {
@@ -216,7 +411,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-4-hardening"
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "A product that can't be certified can't be sold. You navigate the global regulatory",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "product",
+        "compliance",
+        "Obtained",
+        "certifications"
+      ],
+      "keywords": [
+        "合规",
+        "法规事务",
+        "RA",
+        "工程师",
+        "产品合规与法规事务工程专家，覆盖CE"
       ]
     },
     {
@@ -236,6 +450,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cryptography is the mathematics of secrets — you design the protocols that keep",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "applied",
+        "cryptography",
+        "Designed",
+        "security"
+      ],
+      "keywords": [
+        "密码学",
+        "安全协议工程师",
+        "应用密码学与安全协议设计专家，覆盖对称",
+        "非对称加密",
+        "AES"
       ]
     },
     {
@@ -254,7 +486,26 @@
       ],
       "nexus_roles": [
         "phase-3-build",
-        "phase-4-hardening"
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every sign-up, every login, every \"Sign in with Google\" flows through CIAM —",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "customer",
+        "Built",
+        "CIAM",
+        "platforms"
+      ],
+      "keywords": [
+        "客户身份与访问管理",
+        "CIAM",
+        "工程师",
+        "面向消费者的身份认证与客户数据平台专家，覆盖Auth0",
+        "AWS"
       ]
     },
     {
@@ -274,6 +525,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Cyber risk is the fastest-growing insurance exposure — you quantify threats",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "cyber",
+        "insurance",
+        "Built",
+        "models"
+      ],
+      "keywords": [
+        "网络风险量化",
+        "网络安全保险精算师",
+        "网络风险建模与网络安全保险产品设计专家，覆盖网络损失分布",
+        "蒙特卡洛模拟",
+        "安全控制审计"
       ]
     },
     {
@@ -288,12 +557,30 @@
         "cybersecurity-grc-specialist",
         "finance-accounts-payable-agent",
         "finance-engineering-credit-risk-model",
-        "marketing-abm-account-based",
-        "operations-report-distribution-agent"
+        "infrastructure-identity-access",
+        "marketing-abm-account-based"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Technical controls are necessary; governance is what makes them sufficient. You translate security risk into business language that boards and regulators understand.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "security",
+        "governance",
+        "risk",
+        "compliance"
+      ],
+      "keywords": [
+        "安全风险",
+        "GRC管理顾问",
+        "信息安全风险与治理合规",
+        "GRC",
+        "顾问，覆盖NIST"
       ]
     },
     {
@@ -313,6 +600,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Data is the new oil, but privacy is the new safety regulation — you invent the",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "privacy-preserving",
+        "technologies",
+        "Researched",
+        "deployed"
+      ],
+      "keywords": [
+        "隐私增强技术",
+        "PETs",
+        "研究员",
+        "隐私增强技术与数据安全研究专家，覆盖联邦学习",
+        "Federated"
       ]
     },
     {
@@ -332,6 +637,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When an attacker is inside the network, you find them, contain them, and figure",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "endpoint",
+        "forensics",
+        "incident",
+        "response"
+      ],
+      "keywords": [
+        "终端检测",
+        "事件响应",
+        "EDR",
+        "DFIR",
+        "分析师"
       ]
     },
     {
@@ -350,7 +673,26 @@
       ],
       "nexus_roles": [
         "phase-3-build",
-        "phase-4-hardening"
+        "phase-4-hardening",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every IoT device ships with firmware — and most of it has security holes. You",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "embedded",
+        "security",
+        "Found",
+        "responsibly"
+      ],
+      "keywords": [
+        "固件安全",
+        "逆向工程师",
+        "嵌入式固件安全分析与逆向工程专家，覆盖固件提取",
+        "反汇编",
+        "Ghidra"
       ]
     },
     {
@@ -371,12 +713,30 @@
         "phase-0-discovery",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every digital crime leaves traces — you find the evidence, preserve the chain",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "digital",
+        "forensics",
+        "Conducted",
+        "investigations"
+      ],
+      "keywords": [
+        "数字取证",
+        "电子数据鉴定工程师",
+        "数字取证与电子数据司法鉴定专家，覆盖磁盘",
+        "内存",
+        "移动设备取证"
       ]
     },
     {
       "id": "cybersecurity-engineering-hardware-security",
       "name": "硬件安全/芯片安全工程师",
-      "description": "集成电路与硬件安全专家，覆盖侧信道攻击(DPA/SPA)/故障注入防护、物理不可克隆函数(PUF)/真随机数发生器、安全Enclave/TEE/Secure Element与芯片级安全认证(CC EAL)",
+      "description": "集成电路与硬件安全专家，覆盖侧信道攻击(DPA/SPA)/故障注入防护、物理不可克隆函数(PUF)/真随机数发生器、安全Enclave/TEE/Secure",
       "emoji": "🔐",
       "category": "cybersecurity",
       "subcategory": "",
@@ -390,6 +750,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Software security assumes the hardware is trustworthy. You make sure it actually",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "hardware",
+        "security",
+        "Hardened",
+        "chips"
+      ],
+      "keywords": [
+        "硬件安全",
+        "芯片安全工程师",
+        "集成电路与硬件安全专家，覆盖侧信道攻击",
+        "DPA",
+        "SPA"
       ]
     },
     {
@@ -409,6 +787,24 @@
         "phase-2-foundation",
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Defends the perimeter and hunts threats inside — the network sees everything",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Success",
+        "Metrics",
+        "Technical",
+        "Methodology"
+      ],
+      "keywords": [
+        "网络安全工程师",
+        "防火墙",
+        "IDS",
+        "IPS",
+        "渗透测试与安全审计专家"
       ]
     },
     {
@@ -428,6 +824,24 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Privacy is a fundamental right, not a compliance checkbox — you engineer systems",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "privacy",
+        "engineering",
+        "Built",
+        "systems"
+      ],
+      "keywords": [
+        "隐私工程",
+        "隐私计算工程师",
+        "隐私保护技术与隐私计算专家，覆盖GDPR",
+        "PIPL隐私工程",
+        "Privacy"
       ]
     },
     {
@@ -448,6 +862,24 @@
         "phase-1-strategy",
         "phase-2-foundation",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The cloud is just someone else's computer — but with a thousand new ways to",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Professional",
+        "Scope",
+        "Safeguards",
+        "cloud"
+      ],
+      "keywords": [
+        "云安全架构师",
+        "云计算平台安全架构专家，覆盖AWS",
+        "Azure",
+        "GCP",
+        "阿里云安全架构"
       ]
     },
     {
@@ -467,6 +899,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Security can't be outsourced to a separate team — every developer must think",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "bridging",
+        "development",
+        "security",
+        "Embedded"
+      ],
+      "keywords": [
+        "安全卫士",
+        "安全教练",
+        "Security",
+        "Champion",
+        "嵌入开发团队的安全倡导者，覆盖安全需求分析"
       ]
     },
     {
@@ -487,6 +937,24 @@
       "nexus_roles": [
         "phase-3-build",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Designs the security architecture and threat models that hold under adversarial pressure — the blueprint, not the bug-fix.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Mindset",
+        "Success",
+        "Metrics",
+        "Technical"
+      ],
+      "keywords": [
+        "安全工程师",
+        "威胁建模",
+        "安全代码审查与应用安全架构专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -500,13 +968,32 @@
       "depends_on": [
         "infrastructure-github-actions-expert",
         "marketing-book-co-author",
-        "security-threat-intelligence-analyst",
+        "cybersecurity-threat-intelligence",
         "specialized-agentic-identity-trust",
-        "testing-test-results-analyzer"
+        "testing-test-results-analyzer",
+        "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Builds the detection layer that catches attackers after they bypass prevention.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Technical",
+        "Coverage",
+        "Tactic",
+        "Gaps"
+      ],
+      "keywords": [
+        "威胁检测工程师",
+        "SIEM",
+        "规则",
+        "威胁狩猎与",
+        "ATT&CK"
       ]
     },
     {
@@ -518,28 +1005,69 @@
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-fortinet-expert.md",
       "depends_on": [
-        "operations-report-distribution-agent",
-        "testing-test-results-analyzer"
+        "testing-test-results-analyzer",
+        "engineering-code-reviewer",
+        "data-science-data-engineer"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When the CISO asks whether the firewall rules are airtight, the Fortinet engineer is either the hero or the reason for the post-mortem.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Actionable",
+        "Directives",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "Fortinet安全专家",
+        "Fortinet安全产品与网络防护专家",
+        "覆盖FortiGate",
+        "NGFW防火墙策略与UTM配置",
+        "FortiManager"
       ]
     },
     {
       "id": "cybersecurity-general-manager",
       "name": "网络安全总经理",
       "description": "网络安全领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🛡\"",
+      "emoji": "🛡",
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-general-manager.md",
       "depends_on": [
-        "cybersecurity-director"
+        "cybersecurity-director",
+        "engineering-ai-agent-developer",
+        "engineering-code-reviewer",
+        "data-science-data-engineer"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Security",
+        "Domain",
+        "Foundations",
+        "Industry"
+      ],
+      "keywords": [
+        "网络安全总经理",
+        "网络安全领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -561,27 +1089,63 @@
         "phase-1-strategy",
         "phase-2-foundation",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Translates compliance chaos into actionable controls. Makes auditors happy and security teams happier. Risk-aware, not risk-averse.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Mindset",
+        "Technical",
+        "Executive",
+        "Summary"
+      ],
+      "keywords": [
+        "治理风险合规专家",
+        "治理风险合规专家，指导组织通过安全框架（SOC",
+        "ISO",
+        "HIPAA",
+        "PCI-DSS"
       ]
     },
     {
       "id": "cybersecurity-incident-response",
       "name": "事件响应分析师",
-      "description": "安全事件响应(IR)专家，覆盖入侵检测、应急响应、取证分析、威胁狩猎与事件复盘",
+      "description": "主导漏洞调查、遏制主动威胁、协调危机响应的事故响应与数字取证专家",
       "emoji": "🚨",
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-incident-response.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "finance-accounts-payable-agent",
-        "infrastructure-engineering-incident-response-commander",
-        "infrastructure-identity-access",
-        "legal-engineering-legal-document-automation"
+        "cybersecurity-engineering-endpoint-forensics",
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-email-intelligence-engineer",
+        "infrastructure-engineering-incident-response-commander"
       ],
       "nexus_roles": [
         "phase-2-foundation",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Runs toward the breach while everyone else runs away.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "References",
+        "Standards",
+        "Technical",
+        "SEV1"
+      ],
+      "keywords": [
+        "事件响应分析师",
+        "主导漏洞调查",
+        "遏制主动威胁",
+        "协调危机响应的事故响应与数字取证专家",
+        "Role"
       ]
     },
     {
@@ -594,11 +1158,31 @@
       "path": "cybersecurity/cybersecurity-kali-linux.md",
       "depends_on": [
         "cybersecurity-penetration-tester",
-        "operations-executive-summary-generator"
+        "operations-executive-summary-generator",
+        "engineering-code-reviewer",
+        "data-science-data-engineer"
       ],
       "nexus_roles": [
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-12",
+      "vibe": "Kali Linux specialist — you know the tool ecosystem inside out, from msfconsole to bloodhound. Kali is a platform, not just a collection of tools. The right tool, the right flag, the right moment.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Kali",
+        "Linux安全测试专家",
+        "Linux渗透测试平台专家，覆盖工具链（Metasploit",
+        "Burp",
+        "Suite"
       ]
     },
     {
@@ -611,13 +1195,32 @@
       "path": "cybersecurity/cybersecurity-malware-analyst.md",
       "depends_on": [
         "infrastructure-engineering-incident-response-commander",
-        "security-threat-intelligence-analyst",
+        "logistics-supply-chain-strategist",
+        "cybersecurity-threat-intelligence",
         "specialized-agentic-identity-trust"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Reverse-engineers evil for a living. Disassembles binaries, finds the killswitch nobody else noticed, writes YARA rules that actually catch things.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Mindset",
+        "Technical",
+        "Executive",
+        "Summary"
+      ],
+      "keywords": [
+        "恶意软件分析师",
+        "恶意软件分析专家，专注逆向工程",
+        "静态与动态分析",
+        "威胁情报及恶意软件家族分类，解剖恶意软件提取威胁指标以加固防御",
+        "Role"
       ]
     },
     {
@@ -630,33 +1233,67 @@
       "path": "cybersecurity/cybersecurity-paloalto-expert.md",
       "depends_on": [
         "infrastructure-windows-server",
-        "operations-report-distribution-agent"
+        "engineering-code-reviewer",
+        "data-science-data-engineer"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Palo Alto didn't just build a firewall — it redefined what a firewall should be. When you can identify the application, the user, AND the threat in a single pass, your security policy moves from 'allow port 443' to 'allow Salesforce for sales, with full threat inspection.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Actionable",
+        "Directives",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "Palo",
+        "Alto安全专家",
+        "Alto",
+        "Networks下一代防火墙与安全平台专家",
+        "覆盖PAN-OS平台管理与Panorama集中管理"
       ]
     },
     {
       "id": "cybersecurity-penetration-tester",
       "name": "渗透测试工程师",
-      "description": "渗透测试专家，专注红队行动、攻击性安全评估及对抗模拟，覆盖 Web、网络、云与移动端目标",
-      "emoji": "🎯",
+      "description": "授权渗透测试、红队行动与漏洞评估的攻击性安全专家",
+      "emoji": "🗡️",
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-penetration-tester.md",
       "depends_on": [
-        "cybersecurity-malware-analyst",
-        "cybersecurity-threat-intelligence",
+        "cybersecurity-engineering-customer-identity-access",
+        "design-creative-tools",
+        "engineering-git-workflow-master",
         "finance-accounts-payable-agent",
-        "government-social-work",
-        "infrastructure-identity-access",
-        "operations-executive-summary-generator",
-        "specialized-agentic-identity-trust",
-        "specialized-identity-graph-operator",
-        "thinking-models-tech-leaders"
+        "infrastructure-engineering-incident-response-commander",
+        "cybersecurity-incident-response"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Breaks into your systems so the real attackers can't.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Technical",
+        "Phase",
+        "Initial",
+        "Access"
+      ],
+      "keywords": [
+        "渗透测试工程师",
+        "授权渗透测试",
+        "红队行动与漏洞评估的攻击性安全专家",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -677,6 +1314,63 @@
       "nexus_roles": [
         "phase-1-strategy",
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Security isn't a product you buy — it's an architecture you design, layer by",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Success",
+        "Metrics",
+        "Methodology",
+        "Decision"
+      ],
+      "keywords": [
+        "安全架构师",
+        "企业安全架构设计专家，覆盖零信任架构",
+        "身份与访问管理",
+        "IAM",
+        "安全边界设计"
+      ]
+    },
+    {
+      "id": "cybersecurity-senior-secops",
+      "name": "高级安全运营工程师",
+      "description": "防御性应用安全专家，覆盖密钥扫描、认证授权与安全头配置",
+      "emoji": "🛡️",
+      "category": "cybersecurity",
+      "subcategory": "",
+      "path": "cybersecurity/cybersecurity-senior-secops.md",
+      "depends_on": [
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-codebase-onboarding-engineer",
+        "engineering-embedded-database",
+        "marketing-private-domain-operator",
+        "cybersecurity-appsec-engineer",
+        "specialized-agentic-identity-trust",
+        "thinking-models-decision-frameworks"
+      ],
+      "nexus_roles": [
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Before I read your request, I've already scanned your code for secrets. Security isn't a phase — it's line zero.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Invocation",
+        "Automatic",
+        "Security",
+        "Scan"
+      ],
+      "keywords": [
+        "高级安全运营工程师",
+        "防御性应用安全专家，覆盖密钥扫描",
+        "认证授权与安全头配置",
+        "Role",
+        "Personality"
       ]
     },
     {
@@ -690,33 +1384,71 @@
       "depends_on": [
         "finance-accounts-payable-agent",
         "infrastructure-engineering-incident-response-commander",
-        "security-threat-intelligence-analyst"
+        "cybersecurity-threat-intelligence"
       ],
       "nexus_roles": [
         "phase-0-discovery",
         "phase-4-hardening",
         "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Watches the screens so you don't have to. Calm under alert storms, surgical",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Mindset",
+        "Technical",
+        "Triage",
+        "Summary"
+      ],
+      "keywords": [
+        "安全运营中心分析师",
+        "安全运营中心分析专家，专注事件分诊",
+        "威胁检测",
+        "SIEM",
+        "监控"
       ]
     },
     {
       "id": "cybersecurity-threat-intelligence",
       "name": "威胁情报分析师",
-      "description": "网络威胁情报(CTI)分析专家，覆盖APT组织追踪/TTP映射(MITRE ATT&CK)、IOC管理/威胁狩猎、暗网监控与战略/战术/运营三级威胁情报",
+      "description": "追踪APT组织、映射攻击活动到MITRE ATT&CK并构建检测规则的专家",
       "emoji": "🔍",
       "category": "cybersecurity",
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-threat-intelligence.md",
       "depends_on": [
         "cybersecurity-engineering-cyber-risk-model",
-        "finance-accounts-payable-agent",
-        "finance-engineering-credit-risk-model",
-        "legal-criminal-defense-attorney",
-        "marketing-abm-account-based"
+        "cybersecurity-engineering-threat-detection-engineer",
+        "engineering-email-intelligence-engineer",
+        "government-social-work",
+        "specialized-agentic-identity-trust",
+        "specialized-identity-graph-operator",
+        "testing-test-results-analyzer",
+        "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
         "phase-0-discovery",
-        "phase-4-hardening",
-        "phase-6-operate"
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Knows what the adversary will do before the adversary does.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Technical",
+        "Attribution",
+        "Aliases",
+        "Overview"
+      ],
+      "keywords": [
+        "威胁情报分析师",
+        "追踪APT组织",
+        "映射攻击活动到MITRE",
+        "ATT&CK并构建检测规则的专家",
+        "Role"
       ]
     },
     {
@@ -728,10 +1460,29 @@
       "subcategory": "",
       "path": "cybersecurity/cybersecurity-wireshark-expert.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access"
+        "cybersecurity-engineering-customer-identity-access",
+        "engineering-ai-agent-developer"
       ],
       "nexus_roles": [
         "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Packets don't lie. When application logs, monitoring dashboards, and vendor support all point in different directions, the pcap is the single source of truth.",
+      "lifecycle": "published",
+      "tags": [
+        "cybersecurity",
+        "Methodology",
+        "Decision",
+        "Framework",
+        "Professional"
+      ],
+      "keywords": [
+        "Wireshark网络分析专家",
+        "Wireshark",
+        "tshark网络数据包分析专家，覆盖抓包策略设计",
+        "BPF",
+        "MAC"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "category": "retail",
-  "agent_count": 14,
-  "generated": "2026-07-16",
+  "agent_count": 15,
+  "generated": "2026-08-13",
   "agents": [
     {
       "id": "retail-category-manager",
@@ -19,7 +19,26 @@
         "logistics-last-mile-delivery"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Owns the P&L of every shelf — data-driven category captain who balances margin,",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "品类经理",
+        "零售品类管理与空间规划专家，覆盖品类战略与商品组合规划",
+        "货架图",
+        "Planogram",
+        "优化"
       ]
     },
     {
@@ -42,6 +61,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Customers tell you everything you need to know — just not in words. The patterns are in the data.",
+      "lifecycle": "draft",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "客户洞察分析师",
+        "消费者行为分析：用户画像",
+        "RFM分层",
+        "流失预警",
+        "LTV建模"
       ]
     },
     {
@@ -64,13 +101,31 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every SKU tells a story — finds the signal in retail noise to optimize every square foot and every transaction.",
+      "lifecycle": "draft",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "零售数据分析师",
+        "全链路零售数据分析：售罄率分析",
+        "客流分析",
+        "RFM客户分层",
+        "促销效果评估"
       ]
     },
     {
       "id": "retail-director",
       "name": "零售总监",
       "description": "零售领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
-      "emoji": "\"🛒\"",
+      "emoji": "🛒",
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-director.md",
@@ -84,7 +139,26 @@
       ],
       "nexus_roles": [
         "phase-1-strategy",
-        "phase-3-build"
+        "phase-3-build",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You lead 零售与全渠道商务 with vision and authority",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "References",
+        "Standards"
+      ],
+      "keywords": [
+        "零售总监",
+        "零售领域最高负责人，覆盖战略规划",
+        "团队建设",
+        "资源分配",
+        "跨部门协调与业务绩效管理"
       ]
     },
     {
@@ -107,6 +181,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Revenue is vanity, margin is sanity — but the right strategy makes both dance together.",
+      "lifecycle": "draft",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "电商策略师",
+        "电商全渠道策略：平台选择",
+        "品类规划",
+        "促销设计",
+        "增长飞轮与盈利模型"
       ]
     },
     {
@@ -121,18 +213,35 @@
         "food-beverage-food-safety",
         "logistics-last-mile-delivery",
         "marketing-brand-strategist-name",
-        "operations-report-distribution-agent",
         "quality-food-safety"
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "In the world of razor-thin margins and impulse purchases, every facing and every promotion counts.",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "快消品经理",
+        "快消品品牌经理，覆盖通路营销策略",
+        "经销商",
+        "批发商渠道管理",
+        "店内激活与POSM"
       ]
     },
     {
       "id": "retail-general-manager",
       "name": "零售总经理",
       "description": "零售领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
-      "emoji": "\"🛒\"",
+      "emoji": "🛒",
       "category": "retail",
       "subcategory": "",
       "path": "retail/retail-general-manager.md",
@@ -142,13 +251,32 @@
         "pets-general-manager",
         "real-estate-general-manager",
         "retail-director",
-        "security-general-manager",
+        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
         "phase-1-strategy",
         "phase-3-build",
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-6-operate"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-16",
+      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "Industry",
+        "Context",
+        "Best",
+        "Practices"
+      ],
+      "keywords": [
+        "零售总经理",
+        "零售领域全面经营管理者，覆盖业务运营",
+        "财务绩效",
+        "团队建设",
+        "客户关系与战略执行"
       ]
     },
     {
@@ -161,13 +289,66 @@
       "path": "retail/retail-loss-prevention.md",
       "depends_on": [
         "data-science-engineering-deep-learning-training",
-        "engineering-multi-agent-systems-architect",
         "legal-engineering-legal-document-automation",
         "logistics-engineering-supply-chain-risk",
-        "retail-category-manager"
+        "retail-category-manager",
+        "retail-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Shrinkage steals 1-3% of retail revenue — that's billions across the industry.",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "loss",
+        "prevention",
+        "Managed",
+        "security"
+      ],
+      "keywords": [
+        "零售防损",
+        "资产保护专家",
+        "零售防损与资产保护专家，覆盖店铺内外盗",
+        "员工舞弊防控",
+        "库存损耗"
+      ]
+    },
+    {
+      "id": "retail-multi-agent-coordinator",
+      "name": "Retail Multi-Agent Coordinator",
+      "description": "coordinates multi-agent workflows for retail — store operations, merchandising, omnichannel strategy, loss prevention",
+      "emoji": "🛒",
+      "category": "retail",
+      "subcategory": "",
+      "path": "retail/retail-multi-agent-coordinator.md",
+      "depends_on": [
+        "engineering-multi-agent-systems-architect"
+      ],
+      "nexus_roles": [
+        "phase-1-strategy",
+        "phase-3-build",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-19",
+      "vibe": "orchestrating retail specialists into coherent multi-agent workflows",
+      "tags": [
+        "retail",
+        "Technical",
+        "Process",
+        "Success",
+        "Metrics"
+      ],
+      "keywords": [
+        "Retail",
+        "Multi-Agent",
+        "Coordinator",
+        "coordinates",
+        "workflows"
       ]
     },
     {
@@ -180,12 +361,31 @@
       "path": "retail/retail-omnichannel.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
+        "retail-multi-agent-coordinator",
         "retail-store-ops",
         "specialized-document-generator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Blurs the line between online and offline — creates seamless customer journeys",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "全渠道零售专家",
+        "全渠道零售策略：统一商务战略",
+        "BOPIS",
+        "到店自提优化",
+        "无尽货架落地"
       ]
     },
     {
@@ -207,6 +407,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The store is no longer a place — it's an experience that follows the customer from screen to street and back.",
+      "lifecycle": "draft",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "全渠道运营经理",
+        "线上线下全渠道运营：门店数字化",
+        "私域流量",
+        "直播电商",
+        "即时零售"
       ]
     },
     {
@@ -219,11 +437,30 @@
       "path": "retail/retail-store-ops.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
-        "retail-loss-prevention"
+        "retail-loss-prevention",
+        "retail-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "The backbone of brick-and-mortar — ensures every store runs like clockwork,",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "store",
+        "operations",
+        "Managed",
+        "districts"
+      ],
+      "keywords": [
+        "门店运营经理",
+        "门店运营管理专家，覆盖门店SOP制定",
+        "人员排班优化",
+        "视觉陈列标准",
+        "防损策略"
       ]
     },
     {
@@ -246,6 +483,24 @@
       "nexus_roles": [
         "phase-0-discovery",
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Every shelf empty is a sale lost; every pallet idle is capital tied up — the sweet spot is razor-thin and always moving.",
+      "lifecycle": "draft",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "零售供应链分析师",
+        "零售供应链优化：库存管理",
+        "需求预测",
+        "仓储物流",
+        "供应商协同"
       ]
     },
     {
@@ -263,6 +518,24 @@
       ],
       "nexus_roles": [
         "phase-5-launch"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "When a customer buys online and returns in-store, five systems need to talk to each other. You make them talk, in real-time, without losing the transaction or the customer.",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "Success",
+        "Metrics",
+        "Professional",
+        "Scope"
+      ],
+      "keywords": [
+        "零售技术",
+        "POS",
+        "WMS",
+        "OMO",
+        "专家"
       ]
     },
     {
@@ -275,13 +548,32 @@
       "path": "retail/retail-visual-merchandiser.md",
       "depends_on": [
         "cybersecurity-engineering-customer-identity-access",
-        "engineering-multi-agent-systems-architect",
         "marketing-brand-strategist",
         "marketing-customer-lifecycle",
-        "retail-category-manager"
+        "retail-category-manager",
+        "retail-multi-agent-coordinator"
       ],
       "nexus_roles": [
-        "phase-5-launch"
+        "phase-5-launch",
+        "phase-4-hardening"
+      ],
+      "version": "1.0.0",
+      "date_added": "2026-07-03",
+      "vibe": "Products don't sell themselves — they sell through how they're presented. You",
+      "lifecycle": "published",
+      "tags": [
+        "retail",
+        "visual",
+        "merchandising",
+        "Designed",
+        "store"
+      ],
+      "keywords": [
+        "视觉陈列",
+        "VMD",
+        "设计师",
+        "零售视觉陈列与店面体验设计专家，覆盖橱窗",
+        "店内陈列设计"
       ]
     }
   ]

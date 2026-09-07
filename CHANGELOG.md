@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.5](https://github.com/z451047442-debug/agency-agents/compare/v2.2.4...v2.2.5) (2026-09-07)
+
+
+### Bug Fixes
+
+* restore install toolchain (wire oh-my-claudecode, fix shared lib path) ([65950ea](https://github.com/z451047442-debug/agency-agents/commit/65950ea96efc3ecbedee919b9a85fda726a81adf))
+
 ## [2.2.4] — 2026-09-07 — Bug Fixes & Production Readiness
 
 ### Fixed

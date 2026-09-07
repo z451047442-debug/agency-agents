@@ -12,7 +12,7 @@ description = "1402 AI agent personality definitions + quality toolkit for codin
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "pyyaml>=6.0",
+    "pyyaml>=6.0.3",
 ]
 
 [project.scripts]
@@ -22,7 +22,7 @@ agency = "agency_cli:main"
 dev = [
     "pytest>=7.0",
     "pytest-cov>=4.0",
-    "pyyaml>=6.0",
+    "pyyaml>=6.0.3",
     "ruff>=0.5",
     "mypy>=1.0",
     "jsonschema>=4.0",

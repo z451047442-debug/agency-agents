@@ -413,7 +413,7 @@ class TestAnalyzeExpansionNeedsVariousProfiles:
             return {
                 "grade": "C", "id": "test-agent", "word_count": 200,
                 "total": 3, "scores": {"content_depth": 2, "structure": 2,
-                                       "frontmatter": 2, "file_health": 1},
+                                       "frontmatter": 2, "file_health": 0},
                 "sections_found": 2, "issues": ["Short content"],
                 "frontmatter_details": [], "file_size_kb": 1,
             }

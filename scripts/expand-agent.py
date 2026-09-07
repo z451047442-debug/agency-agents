@@ -126,8 +126,8 @@ def print_diagnosis(result):
     print(f"\n{BOLD}Diagnosis: {result.get('id', '?')} ({result.get('category', '?')}){RESET}")
     print(f"  Score: {result.get('total', '?')}/10 ({result.get('grade', '?')}) | "
           f"Risk: {risk} | Words: {result.get('word_count', 0)}")
-    print(f"  Depth={scores.get('content_depth', '?')}/3 | Structure={scores.get('structure', '?')}/3 | "
-          f"FM={scores.get('frontmatter', '?')}/2 | Health={scores.get('file_health', '?')}/2")
+    print(f"  Depth={scores.get('content_depth', '?')}/4 | Structure={scores.get('structure', '?')}/1 | "
+          f"FM={scores.get('frontmatter', '?')}/1 | Health={scores.get('file_health', '?')}/1")
 
     if ds < 5:
         print(f"  {YELLOW}-> domain signals: {ds} (<5) — add tool names, standards, framework references{RESET}")
@@ -191,7 +191,7 @@ def analyze_expansion_needs(agent_id, category, filepath, verbose=False):
             "priority": 1,
         })
 
-    if scores["file_health"] < 2:
+    if scores["file_health"] < 1:
         needs.append({
             "dimension": "file_health",
             "current": f"{result.get('file_size_kb', 0)} KB",

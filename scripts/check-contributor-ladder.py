@@ -69,7 +69,7 @@ def _count_reviews_per_reviewer(since=None):
     output = _run_git(cmd)
     counts: dict[str, int] = defaultdict(int)
     for line in output.split("\n"):
-        if line.startswith("Reviewed-by:") or line.startswith("Co-authored-by:"):
+        if line.startswith("Reviewed-by:") or line.startswith("Co-authored-by:") or line.startswith("Co-Authored-By:"):
             name = line.split(":", 1)[1].strip().split("<")[0].strip()
             if name and "noreply" not in name.lower():
                 counts[name] += 1

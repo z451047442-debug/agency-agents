@@ -1,8 +1,8 @@
-# The Agency — System Architecture v2.2.2
+# The Agency — System Architecture v2.2.4
 
-**1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,442 Tests · OMC Smart Plugin**
+**1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,437 Tests · OMC Smart Plugin**
 
-Generated: 2026-08-13 15:51 UTC
+Generated: 2026-09-07 00:27 UTC
 
 ---
 
@@ -20,7 +20,7 @@ Generated: 2026-08-13 15:51 UTC
 
 ---
 
-## Layer 1: Test Suite (43 modules, 1,442 tests)
+## Layer 1: Test Suite (43 modules, 1,437 tests)
 
 | Module (tests) | Module (tests) |
 |----------------|----------------|
@@ -40,10 +40,10 @@ Generated: 2026-08-13 15:51 UTC
 | test_contribute.py (39) | test_generate_index.py (12) |
 | test_feedback.py (37) | test_scan_boilerplate.py (12) |
 | test_validate_index.py (37) | test_quality_pipeline.py (10) |
-| test_shared.py (35) | test_install_remote.py (9) |
-| test_add_comm_section.py (29) | test_batch_nexus_roles_gap.py (7) |
-| test_check_agent_originality.py (29) | test_integration_pipeline.py (7) |
-| test_clean.py (25) | test_fix_crlf.py (4) |
+| test_shared.py (35) | test_batch_nexus_roles_gap.py (7) |
+| test_add_comm_section.py (29) | test_integration_pipeline.py (7) |
+| test_check_agent_originality.py (29) | test_fix_crlf.py (4) |
+| test_clean.py (25) | test_install_remote.py (4) |
 | test_rebalance_nexus_phases.py (25) | test_build_agent_browser.py (3) |
 | test_shard_index.py (25) |  |
 
@@ -322,15 +322,15 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 
 | Metric | Value |
 |--------|-------|
-| Version | v2.2.2 |
+| Version | v2.2.4 |
 | Python | >=3.10 |
 | Coverage threshold | 90% |
 | Agent files | 1,402 |
 | Tool scripts | 34 (.py) + 18 (.sh) |
-| Tests | 1,442 across 43 modules |
+| Tests | 1,437 across 43 modules |
 | CI workflows | 7 |
 | Integration targets | 10 |
 | OMC plugin artifacts | 4 |
 | NEXUS phases | 7 |
 
-Generated: 2026-08-13 15:51 UTC
+Generated: 2026-09-07 00:27 UTC

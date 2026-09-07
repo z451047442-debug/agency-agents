@@ -65,7 +65,7 @@ def estimate_effort(issues, scores):
         return "done"
 
     needs_content = scores.get("content_depth", 0) < 2
-    needs_sections = scores.get("structure", 0) < 3
+    needs_sections = scores.get("structure", 0) < 1
     has_lint_errors = any("ERROR" in str(i) for i in issues)
     has_security = any("SECURITY" in str(i) or "suspicious" in str(i) for i in issues)
 

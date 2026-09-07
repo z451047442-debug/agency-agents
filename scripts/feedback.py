@@ -198,8 +198,14 @@ def submit_feedback():
 
 
 def purge_feedback():
+    removed = False
     if FEEDBACK_FILE.exists():
         FEEDBACK_FILE.unlink()
+        removed = True
+    if USAGE_FILE.exists():
+        USAGE_FILE.unlink()
+        removed = True
+    if removed:
         print("Local feedback data cleared.")
     else:
         print("No feedback data to clear.")

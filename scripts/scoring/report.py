@@ -221,7 +221,7 @@ def print_json_report(results, out_path=None):
 
     output["grade_distribution"] = dict(grades)
     output["quality_gate"] = (
-        "PASS" if (grades.get("A", 0) + grades.get("B", 0)) / len(results) >= 0.4
+        "PASS" if results and (grades.get("A", 0) + grades.get("B", 0)) / len(results) >= 0.4
         else "FAIL"
     )
 

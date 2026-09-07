@@ -352,7 +352,7 @@ def main():
                 new_fm = replace_nexus_roles(fm_text, roles)
             else:
                 new_fm = add_nexus_roles(fm_text, roles)
-            new_content = "---\n" + new_fm + "---" + body
+            new_content = "---\n" + new_fm + "\n---" + body
 
             if args.dry_run:
                 if args.verbose:

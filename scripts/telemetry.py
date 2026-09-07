@@ -147,10 +147,10 @@ def print_recommendations():
                     try:
                         sd = json.loads(r.stdout)
                         ag = sd.get("agents", [{}])[0]
-                        if ag.get("total", 0) < 7:
+                        if ag.get("grade", "") in ("C", "D"):
                             suggestions.append(
                                 f"  PRIORITY: {agent} (installed {count}x) scores "
-                                f"{ag['total']}/10 ({ag.get('grade','?')}). "
+                                f"{ag['total']}/18 ({ag.get('grade','?')}). "
                                 f"Popular but needs depth enhancement."
                             )
                     except (json.JSONDecodeError, KeyError, IndexError):

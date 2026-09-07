@@ -53,6 +53,7 @@ def shard_index(data):
 
     # Write per-category files
     total_bytes = 0
+    cat_sizes: dict[str, int] = {}
     for cat in sorted(by_category.keys()):
         agents = by_category[cat]
         shard = {
@@ -65,6 +66,7 @@ def shard_index(data):
         content = json.dumps(shard, indent=2, ensure_ascii=False)
         filepath.write_text(content, encoding="utf-8")
         total_bytes += len(content.encode("utf-8"))
+        cat_sizes[cat] = len(content.encode("utf-8"))
 
     # Write category index
     cat_index = {
@@ -76,9 +78,7 @@ def shard_index(data):
                 "category": cat,
                 "agent_count": len(agents),
                 "file": f"{cat}.json",
-                "size_kb": round(
-                    len(json.dumps({"agents": agents}, indent=2, ensure_ascii=False).encode("utf-8")) / 1024, 1
-                ),
+                "size_kb": round(cat_sizes.get(cat, 0) / 1024, 1),
             }
             for cat, agents in sorted(by_category.items())
         ],

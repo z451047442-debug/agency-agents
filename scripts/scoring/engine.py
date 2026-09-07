@@ -23,7 +23,7 @@ from scoring.signals import (
 
 # Test files monkeypatch REPO/git_last_modified on the importlib-loaded shim
 # module; engine looks up the patched namespace at call time.
-_SHIMS = []
+_SHIMS: list[dict] = []
 _REPO_DEFAULT = REPO
 _GIT_DEFAULT = git_last_modified
 

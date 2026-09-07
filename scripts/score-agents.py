@@ -149,8 +149,9 @@ def main():
                     if result.returncode != 0 or not result.stdout.strip():
                         base_scores[_filepath.stem] = None  # new file
                         continue
-                    # Write to temp so score_agent can read it
-                    tmp = Path(tmpdir) / _filepath.name
+                    # Write into a category-named subdir so score_agent_v7
+                    # derives the correct risk_tier (its parent dir name == category).
+                    tmp = Path(tmpdir) / _filepath.parent.name / _filepath.name
                     tmp.parent.mkdir(parents=True, exist_ok=True)
                     tmp.write_text(result.stdout, encoding="utf-8")
                     r = score_agent_v7(tmp, check_freshness=False)
@@ -179,7 +180,7 @@ def main():
         down = sum(1 for c in changes if c[5] == "DOWN")
         new = sum(1 for c in changes if c[5] == "NEW")
         if changes:
-            net = sum(c[4] for c in changes if isinstance(c[4], (int, float)))
+            net = sum(c[4] for c in changes if c[5] != "NEW" and isinstance(c[4], (int, float)))
             net_str = f"+{net}" if net > 0 else str(net)
             print(f"  {GREEN}{up} up{RESET}  {RED}{down} down{RESET}  {new} new  net: {net_str}")
         else:

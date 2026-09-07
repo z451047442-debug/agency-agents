@@ -66,7 +66,7 @@ def main():
         ("Security Audit", [sys.executable, str(SCRIPT_DIR / "audit-security.py"), "--check"]),
         ("Python Lint (Ruff)", [sys.executable, "-m", "ruff", "check", str(SCRIPT_DIR)]),
         # Relaxed threshold (35%) for the quality pipeline's own quick run.
-        # The CI job enforces 80% via pyproject.toml [tool.coverage.report] fail_under.
+        # The CI job enforces 90% via pyproject.toml [tool.coverage.report] fail_under.
         ("Tests + Coverage", [
             sys.executable, "-m", "pytest", str(ROOT / "tests"),
             "-q", "--cov=scripts", "--cov-fail-under=35",

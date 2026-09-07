@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.2.4] — 2026-09-07 — Bug Fixes & Production Readiness
+
+### Fixed
+- **High**: `contribute.py` `estimate_effort` 用 `structure < 3`（v1 structure 实为 0-1，恒真）导致 `easy` 分支死代码、贡献面板 beginner 过滤失效 — 改为 `< 1`
+- **High**: `convert.py --check` 经硬编码 `_OMC_OUT` 副作用重写真实 `integrations/oh-my-claudecode/`，且 OMC 被排除在 diff 外从未被校验 — `--check` 跳过 OMC 生成，消除副作用
+- **High**: `telemetry.py` 推荐逻辑用 `<7`、`/10`（score --json 现为 v7 0-18）导致推荐几乎不触发且打印错值 — 改按 grade 判定并打印 `/18`
+- **High**: `score-agents.py --compare` NEW agent 把自身 total 计入 net 求和；base 评分 temp 文件父目录名导致 risk_tier 恒为 general — temp 文件写入 `<category>/` 子目录、net 排除 NEW
+- **Medium**: `build-architecture.py get_coverage_threshold` 搜 `cov-fail-under`（pyproject 实为 `fail_under`）恒返回硬编码 90 — 改搜 `fail_under`
+- **Medium**: `expand-agent.py` 诊断量纲过时（Depth/3、Structure/3、FM/2、Health/2）且 `file_health < 2` 恒真 — 更正为真实量纲、改 `< 1`
+- **Medium**: `scoring/report.py` `print_json_report` 对空 results 除零 — 加保护
+- **Medium**: `install.py` 多文件工具（kimi/openclaw）的 `system.md`/`AGENTS.md`/`IDENTITY.md` 装到字面量 `{slug}` 目录；全量卸载只删 `.md` — `resolve_dest` 正确保留路径中 `{slug}`、卸载同时删目录
+- **Medium**: `clean.py` 漏 codex/osaurus/hermes/oh-my-claudecode/by-category 目标且 gemini-cli 路径写错 — 补全并更正
+- **Low**: `shard-index.py` `_index.json` size_kb 漏 wrapper 字段 — 用实际字节数；`feedback.py purge` 只删 FEEDBACK 不删 USAGE — 两者都删；`check-contributor-ladder.py` 漏 `Co-Authored-By:` trailer — 兼容；`batch-nexus-roles.py` 结尾 `---` 无换行粘接 — 补 `\n`；`scoring/engine.py _SHIMS` 补类型注解（mypy）；`quality.py`/`agent-lifecycle.py` 注释量纲更正
+
+### Data
+- **AGENTS.json**: 重新生成（1402 agents / 62 categories，修正 finance-securities-trader 的 depends_on 旧引用）
+- **lottery/lottery-customer-service.md**: 删除重复样板、补 4 跨类目 depends_on 与 Edge Cases/Collaboration 内容（评分 7.25 D → 12.2 B）
+- **ARCHITECTURE.md/html**: 重新生成（版本同步至 v2.2.3、测试数 1437）
+
+### Verification
+- pytest: 1417 passed / 0 failed / 20 skipped，覆盖率 92.40%（门禁 ≥90%）
+- lint: 0 错误 / 9 警告（均为 >55KB 建议拆分的内容级 WARN）
+- mypy: no issues in 68 files
+- score gate: `--threshold 8` 通过；depends_on 6840 引用 0 损坏；generate-index/validate-index/build-architecture --check 全过
+
 ## [2.2.3] — 2026-08-14 — AI Review & Production Readiness
 
 ### Fixed

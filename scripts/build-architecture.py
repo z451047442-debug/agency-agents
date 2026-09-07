@@ -56,7 +56,7 @@ def get_coverage_threshold() -> str:
     try:
         text = (REPO / "pyproject.toml").read_text(encoding="utf-8")
         for line in text.splitlines():
-            if "cov-fail-under" in line:
+            if "fail_under" in line:
                 return line.split("=", 1)[1].strip().strip('"').strip("'")
     except (OSError, subprocess.CalledProcessError):
         pass

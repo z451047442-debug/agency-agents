@@ -10,7 +10,7 @@ REPO = Path(__file__).resolve().parent.parent
 
 INTEGRATION_TARGETS: list[tuple[str, str | None]] = [
     ("antigravity/agency-*", "dirs"),
-    ("gemini-cli/skills", "dir"),
+    ("gemini-cli/agents", "dir"),
     ("gemini-cli/gemini-extension.json", "file"),
     ("opencode/agents", "dir"),
     ("cursor/rules", "dir"),
@@ -19,6 +19,11 @@ INTEGRATION_TARGETS: list[tuple[str, str | None]] = [
     ("openclaw", "dir_contents_except_readme"),
     ("qwen/agents", "dir"),
     ("kimi", "subdirs"),
+    ("codex/agents", "dir"),
+    ("osaurus/agency-*", "dirs"),
+    ("hermes", "dir_contents_except_readme"),
+    ("oh-my-claudecode", "dir_contents_except_readme"),
+    ("by-category", "dir"),
 ]
 
 DEEP_PATTERNS: list[tuple[str, str]] = [

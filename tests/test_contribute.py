@@ -73,7 +73,8 @@ class TestEstimateEffort:
         assert estimate_effort(["ERROR: bad yaml"], scores) == "hard"
 
     def test_low_structure_is_moderate(self):
-        scores = {"content_depth": 2, "structure": 2, "frontmatter": 2, "file_health": 2}
+        # structure is 0-1 on the v1 scale; 0 means "low structure".
+        scores = {"content_depth": 2, "structure": 0, "frontmatter": 2, "file_health": 2}
         assert estimate_effort([], scores) == "moderate"
 
     def test_many_issues_is_moderate(self):

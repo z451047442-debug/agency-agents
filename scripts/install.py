@@ -65,8 +65,18 @@ def resolve_dest(tool: str, scope: str) -> list[tuple[Path, str]]:
                 matched = True
                 break
         if not matched:
-            base = tmpl.rsplit("/", 1)[0] if "/" in tmpl else ""
-            fname = tmpl.rsplit("/", 1)[-1] if "/" in tmpl else tmpl
+            # Keep a mid-path {slug} in the filename template so install_agent
+            # can substitute it; the base is everything before the last {slug}.
+            # (Multi-file formats like kimi/openclaw have one template that
+            # matches a known suffix and others — e.g. AGENTS.md, system.md —
+            # whose {slug} sits in the middle and must not be baked into base.)
+            if "{slug}" in tmpl:
+                idx = tmpl.rfind("{slug}")
+                base = tmpl[:idx].rstrip("/")
+                fname = tmpl[idx:]
+            else:
+                base = tmpl.rsplit("/", 1)[0] if "/" in tmpl else ""
+                fname = tmpl.rsplit("/", 1)[-1] if "/" in tmpl else tmpl
             resolved = home / base if scope == "user" else Path.cwd() / base
             results.append((resolved, fname))
     return results
@@ -207,8 +217,13 @@ def uninstall_tool(tool: str, agent_id: str | None) -> int:
                     count += 1
                     print(f"  removed: {agent_id}")
         else:
-            for f in dest_dir.glob("*.md"):
-                f.unlink()
+            # Remove every installed entry — single-file formats (.md) and
+            # multi-file formats (one directory per agent, e.g. kimi/openclaw).
+            for f in sorted(dest_dir.iterdir()):
+                if f.is_dir():
+                    shutil.rmtree(f)
+                else:
+                    f.unlink()
                 count += 1
     print(f"{tool}: {count} agents removed")
     return count

@@ -687,7 +687,12 @@ def main():
         import tempfile
         tmp = Path(tempfile.mkdtemp())
         try:
-            tools_to_run = ALL_TOOLS if args.tool == "all" else [args.tool]
+            # oh-my-claudecode writes to the real integrations/ dir via its
+            # subprocess generators (not the temp dir), and its output is
+            # excluded from the --check diff anyway — running it here would
+            # only mutate real files. Skip it to keep --check side-effect-free.
+            tools_to_run = [t for t in (ALL_TOOLS if args.tool == "all" else [args.tool])
+                            if t != "oh-my-claudecode"]
             for tool in tools_to_run:
                 run_tool(tool, agents, tmp)
 

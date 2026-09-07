@@ -301,7 +301,7 @@ def auto_flag_agents(dry_run=False, category_filter=None):
     """Flag agents for review based on quality signals from the scoring system.
 
     Criteria (any one triggers a flag):
-      - Score < 7 (below B-grade)
+      - Score < 7 (below A-grade on the 0-10 scale)
       - Critical-risk category + content_depth < 2
       - < 4 substantive sections (template-heavy)
       - Zero cross-category depends_on (siloed)
@@ -323,7 +323,7 @@ def auto_flag_agents(dry_run=False, category_filter=None):
 
         risk = result.get("risk_tier", "general")
         if risk == "critical" and result["scores"]["content_depth"] < 2:
-            reasons.append(f"critical-risk + depth {result['scores']['content_depth']}/3")
+            reasons.append(f"critical-risk + depth {result['scores']['content_depth']}/4")
 
         subs = result.get("substantive_sections", 0)
         if subs < 4:

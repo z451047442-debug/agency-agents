@@ -90,10 +90,10 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 INTEGRATIONS="$REPO_ROOT/integrations"
 
 # Shared helpers (get_field, agent_slug, slugify, incr, ANSI + TUI primitives)
-# shellcheck source=../lib.sh
-. "$SCRIPT_DIR/lib.sh"
+# shellcheck source=../_archive/lib.sh
+. "$SCRIPT_DIR/_archive/lib.sh"
 
-ALL_TOOLS=(claude-code copilot antigravity gemini-cli opencode openclaw cursor aider windsurf qwen kimi codex osaurus hermes)
+ALL_TOOLS=(claude-code copilot antigravity gemini-cli opencode openclaw cursor aider windsurf qwen kimi codex osaurus hermes oh-my-claudecode)
 
 # Auto-discover all agent category directories (shared logic -- see _discover_dirs.sh)
 source "$SCRIPT_DIR/_discover_dirs.sh"
@@ -851,5 +851,6 @@ install_tool() {
     codex)       install_codex       ;;
     osaurus)     install_osaurus     ;;
     hermes)      install_hermes      ;;
+    oh-my-claudecode) install_oh_my_claudecode ;;
   esac
 }

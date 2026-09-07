@@ -86,6 +86,7 @@ set -euo pipefail
 . "$_AGENCY_INSTALL_LIB_DIR/install-codex.sh"
 . "$_AGENCY_INSTALL_LIB_DIR/install-osaurus.sh"
 . "$_AGENCY_INSTALL_LIB_DIR/install-hermes.sh"
+. "$_AGENCY_INSTALL_LIB_DIR/install-oh-my-claudecode.sh"
 
 # ---------------------------------------------------------------------------
 # Usage

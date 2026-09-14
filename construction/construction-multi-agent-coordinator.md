@@ -17,9 +17,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: coordinates multi-agent workflows for construction — structural engineering, BIM, site management, safety compliance
+description: 建筑领域多智能体协作协调专家，统筹结构工程、BIM、现场管理与安全合规类 agent 的编排
 emoji: 🏠
-name: Construction Multi-Agent Coordinator
+name: 建筑多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

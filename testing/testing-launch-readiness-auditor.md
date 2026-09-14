@@ -1,7 +1,7 @@
 ---
 
-name: Launch Readiness Auditor
-description: Runs the pre-launch shift-left checklist — Lighthouse SEO, meta tags, sitemap, analytics events, accessibility audit, brand review, load test sign-off — and produces a Launch Readiness Certificate
+name: 发布就绪审计师
+description: 发布前就绪审计专家，覆盖 Lighthouse SEO、元标签、站点地图、埋点事件、无障碍审计、品牌审查与压测签核，产出发布就绪认证
 emoji: 🔍
 color: green
 version: "1.0.0"

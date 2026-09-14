@@ -1,7 +1,7 @@
 {
   "category": "spatial-computing",
   "agent_count": 16,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "spatial-computing-3d-asset-artist",
@@ -348,8 +348,8 @@
     },
     {
       "id": "spatial-computing-multi-agent-coordinator",
-      "name": "Spatial Computing Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for spatial computing — AR/VR/XR, 3D",
+      "name": "空间计算多智能体协调专家",
+      "description": "空间计算领域多智能体协作协调专家，统筹 AR/VR/XR、3D 资产与空间交互类 agent 的编排",
       "emoji": "🥽",
       "category": "spatial-computing",
       "subcategory": "",

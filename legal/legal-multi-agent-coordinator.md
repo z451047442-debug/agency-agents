@@ -21,10 +21,9 @@ depends_on:
   - administration-executive-assistant
   - specialized-business-strategist
   - cybersecurity-security-architect
-description: Coordinates multi-agent workflows for legal — corporate, IP, compliance,
-  litigation support
+description: 法律领域多智能体协作协调专家，统筹公司法务、知识产权与合规类 agent 的编排
 emoji: ⚖️
-name: Legal Multi-Agent Coordinator
+name: 法律多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

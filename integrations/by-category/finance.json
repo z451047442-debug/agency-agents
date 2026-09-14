@@ -1,7 +1,7 @@
 {
   "category": "finance",
   "agent_count": 53,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "finance-accounts-payable-agent",
@@ -1060,8 +1060,8 @@
     },
     {
       "id": "finance-multi-agent-coordinator",
-      "name": "Finance Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for finance — FP&A, accounting, treasury,",
+      "name": "金融多智能体协调专家",
+      "description": "金融领域多智能体协作协调专家，统筹 FP&A、会计与资金管理类 agent 的编排",
       "emoji": "💰",
       "category": "finance",
       "subcategory": "",
@@ -1597,8 +1597,8 @@
     },
     {
       "id": "finance-securities-multi-agent-coordinator",
-      "name": "Securities Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for securities — trading, analysis,",
+      "name": "证券多智能体协调专家",
+      "description": "证券领域多智能体协作协调专家，统筹交易、投研与组合管理类 agent 的编排",
       "emoji": "📈",
       "category": "finance",
       "subcategory": "",
@@ -1765,7 +1765,7 @@
         "finance-risk-manager",
         "finance-securities-derivatives-trader",
         "data-science-ml-engineer",
-        "cybersecurity-engineering-risk-quant",
+        "cybersecurity-engineering-cyber-risk-model",
         "legal-corporate-attorney"
       ],
       "nexus_roles": [

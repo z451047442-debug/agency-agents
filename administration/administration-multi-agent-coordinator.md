@@ -18,9 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for administration
+description: 企业行政多智能体协作协调专家，统筹办公运营、固定资产、行政预算与后勤保障类 agent 的编排
 emoji: 🏢
-name: Administration Multi-Agent Coordinator
+name: 行政多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

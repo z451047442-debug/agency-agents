@@ -18,9 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for customer service
+description: 客户服务领域多智能体协作协调专家，统筹坐席支持、工单流转与客户体验类 agent 的编排
 emoji: 🎧
-name: Customer Service Multi-Agent Coordinator
+name: 客户服务多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

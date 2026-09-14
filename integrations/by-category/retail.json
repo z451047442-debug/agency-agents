@@ -1,7 +1,7 @@
 {
   "category": "retail",
   "agent_count": 15,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "retail-category-manager",
@@ -319,8 +319,8 @@
     },
     {
       "id": "retail-multi-agent-coordinator",
-      "name": "Retail Multi-Agent Coordinator",
-      "description": "coordinates multi-agent workflows for retail — store operations, merchandising, omnichannel strategy, loss prevention",
+      "name": "零售多智能体协调专家",
+      "description": "零售领域多智能体协作协调专家，统筹门店运营、商品企划与全渠道策略类 agent 的编排",
       "emoji": "🛒",
       "category": "retail",
       "subcategory": "",

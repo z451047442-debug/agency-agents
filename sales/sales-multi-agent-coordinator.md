@@ -18,9 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: coordinates multi-agent workflows for sales — pipeline management, deal strategy, account planning, revenue operations
+description: 销售领域多智能体协作协调专家，统筹管道管理、交易策略与收入运营类 agent 的编排
 emoji: 📊
-name: Sales Multi-Agent Coordinator
+name: 销售多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

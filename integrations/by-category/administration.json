@@ -1,7 +1,7 @@
 {
   "category": "administration",
   "agent_count": 10,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "administration-contract-manager",
@@ -207,8 +207,8 @@
     },
     {
       "id": "administration-multi-agent-coordinator",
-      "name": "Administration Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for administration",
+      "name": "行政多智能体协调专家",
+      "description": "企业行政多智能体协作协调专家，统筹办公运营、固定资产、行政预算与后勤保障类 agent 的编排",
       "emoji": "🏢",
       "category": "administration",
       "subcategory": "",

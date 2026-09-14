@@ -1,7 +1,7 @@
 {
   "category": "infrastructure",
   "agent_count": 111,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "infrastructure-aliyun-architect",
@@ -2922,8 +2922,8 @@
     },
     {
       "id": "infrastructure-multi-agent-coordinator",
-      "name": "Infrastructure Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for infrastructure — network topology,",
+      "name": "基础设施多智能体协调专家",
+      "description": "基础设施领域多智能体协作协调专家，统筹网络拓扑、云架构与数据中心运维类 agent 的编排",
       "emoji": "🏗️",
       "category": "infrastructure",
       "subcategory": "",
@@ -3331,8 +3331,8 @@
     },
     {
       "id": "infrastructure-network-engineering-multi-agent-coordinator",
-      "name": "Network Engineering Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for network engineering — routing,",
+      "name": "网络工程多智能体协调专家",
+      "description": "网络工程领域多智能体协作协调专家，统筹路由交换、SDN 与网络自动化类 agent 的编排",
       "emoji": "🌐",
       "category": "infrastructure",
       "subcategory": "",

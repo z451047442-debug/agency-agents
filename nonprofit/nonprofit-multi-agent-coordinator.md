@@ -18,9 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: coordinates multi-agent workflows for nonprofit — fundraising, grant writing, volunteer coordination, program management
+description: 非营利领域多智能体协作协调专家，统筹募款、拨款撰写与志愿者协调类 agent 的编排
 emoji: 🤝
-name: Nonprofit Multi-Agent Coordinator
+name: 非营利多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

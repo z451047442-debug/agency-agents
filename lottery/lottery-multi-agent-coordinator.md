@@ -17,9 +17,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: coordinates multi-agent workflows for lottery — game design, risk management, retail network, marketing
+description: 彩票领域多智能体协作协调专家，统筹游戏设计、风险管理与零售网络类 agent 的编排
 emoji: 🎲
-name: Lottery Multi-Agent Coordinator
+name: 彩票多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

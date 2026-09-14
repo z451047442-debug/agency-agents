@@ -18,9 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: coordinates multi-agent workflows for retail — store operations, merchandising, omnichannel strategy, loss prevention
+description: 零售领域多智能体协作协调专家，统筹门店运营、商品企划与全渠道策略类 agent 的编排
 emoji: 🛒
-name: Retail Multi-Agent Coordinator
+name: 零售多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

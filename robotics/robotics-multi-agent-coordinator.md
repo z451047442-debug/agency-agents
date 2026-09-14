@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for robotics — motion control, perception,
-  ROS, automation integration
+description: 机器人领域多智能体协作协调专家，统筹运动控制、感知与自动化集成类 agent 的编排
 emoji: 🤖
-name: Robotics Multi-Agent Coordinator
+name: 机器人多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

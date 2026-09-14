@@ -1,7 +1,7 @@
 {
   "category": "energy",
   "agent_count": 44,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "energy-carbon-accountant",
@@ -1350,8 +1350,8 @@
     },
     {
       "id": "energy-multi-agent-coordinator",
-      "name": "Energy Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for energy — renewables, grid, storage,",
+      "name": "能源多智能体协调专家",
+      "description": "能源领域多智能体协作协调专家，统筹可再生能源、电网与储能类 agent 的编排",
       "emoji": "⚡",
       "category": "energy",
       "subcategory": "",

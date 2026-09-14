@@ -18,9 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: coordinates multi-agent workflows for product — product management, analytics, growth, operations
+description: 产品领域多智能体协作协调专家，统筹产品管理、产品分析与增长类 agent 的编排
 emoji: 📦
-name: Product Multi-Agent Coordinator
+name: 产品多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

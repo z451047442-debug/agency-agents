@@ -1,7 +1,7 @@
 {
   "category": "hr",
   "agent_count": 22,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "hr-business-partner",
@@ -263,8 +263,8 @@
     },
     {
       "id": "hr-multi-agent-coordinator",
-      "name": "HR Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for HR — recruitment, people analytics,",
+      "name": "人力资源多智能体协调专家",
+      "description": "人力资源领域多智能体协作协调专家，统筹招聘、人力分析与员工体验类 agent 的编排",
       "emoji": "👥",
       "category": "hr",
       "subcategory": "",

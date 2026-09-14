@@ -17,10 +17,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for design — UX/UI, brand, visual systems,
-  design ops
+description: 设计领域多智能体协作协调专家，统筹 UX/UI、品牌与视觉系统类 agent 的编排
 emoji: 🎨
-name: Design Multi-Agent Coordinator
+name: 设计多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

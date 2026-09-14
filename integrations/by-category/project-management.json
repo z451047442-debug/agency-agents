@@ -1,7 +1,7 @@
 {
   "category": "project-management",
   "agent_count": 25,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "project-management-agents-orchestrator",
@@ -435,8 +435,8 @@
     },
     {
       "id": "project-management-launch-gtm-director",
-      "name": "Launch GTM Director",
-      "description": "Owns the T-7 to T+14 launch calendar, cross-channel sequencing, launch-day war room, and go-to-market execution orchestration",
+      "name": "上市 GTM 总监",
+      "description": "上市操盘总监，负责 T-7 至 T+14 上市日历、跨渠道节奏编排、上市日作战室与 GTM 执行统筹",
       "emoji": "🚀",
       "category": "project-management",
       "subcategory": "",
@@ -550,8 +550,8 @@
     },
     {
       "id": "project-management-multi-agent-coordinator",
-      "name": "Project Management Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for project management — PMO, scheduling,",
+      "name": "项目管理多智能体协调专家",
+      "description": "项目管理领域多智能体协作协调专家，统筹 PMO、进度计划与风险管控类 agent 的编排",
       "emoji": "📋",
       "category": "project-management",
       "subcategory": "",

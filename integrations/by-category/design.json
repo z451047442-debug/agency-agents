@@ -1,7 +1,7 @@
 {
   "category": "design",
   "agent_count": 25,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "design-brand-guardian",
@@ -679,8 +679,8 @@
     },
     {
       "id": "design-multi-agent-coordinator",
-      "name": "Design Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for design — UX/UI, brand, visual systems,",
+      "name": "设计多智能体协调专家",
+      "description": "设计领域多智能体协作协调专家，统筹 UX/UI、品牌与视觉系统类 agent 的编排",
       "emoji": "🎨",
       "category": "design",
       "subcategory": "",

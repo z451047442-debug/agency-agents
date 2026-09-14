@@ -1,7 +1,7 @@
 {
   "category": "food-beverage",
   "agent_count": 16,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "food-beverage-beverage-rd",
@@ -555,8 +555,8 @@
     },
     {
       "id": "food-beverage-multi-agent-coordinator",
-      "name": "Food & Beverage Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for food & beverage — product development,",
+      "name": "食品饮料多智能体协调专家",
+      "description": "食品饮料领域多智能体协作协调专家，统筹产品研发、食品安全与供应链类 agent 的编排",
       "emoji": "🍽️",
       "category": "food-beverage",
       "subcategory": "",

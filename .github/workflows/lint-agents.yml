@@ -165,7 +165,18 @@ jobs:
           rm testing/testing-test-agent.md
           echo "create-agent.sh: OK"
 
-      - name: Verify integrations are up to date
+      - name: Generate integrations
         run: |
           chmod +x scripts/convert.sh
+          # A fresh checkout carries no generated artifacts — integrations/
+          # output is .gitignored (only READMEs and by-category/*.json are
+          # committed) — so `--check` on its own would always report "stale".
+          # Generate first; this also exercises the converter end-to-end,
+          # which no other CI job does.
+          ./scripts/convert.sh
+
+      - name: Verify integrations are deterministic
+        run: |
+          # Regenerates into a temp dir and diffs against the tree produced
+          # above, so a clean run proves the converter is idempotent.
           ./scripts/convert.sh --check

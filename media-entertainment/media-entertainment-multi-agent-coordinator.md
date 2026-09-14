@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for media — production, post-production,
-  animation, sound design
+description: 媒体娱乐领域多智能体协作协调专家，统筹制作、后期与动画音效类 agent 的编排
 emoji: 🎬
-name: Media & Entertainment Multi-Agent Coordinator
+name: 媒体娱乐多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

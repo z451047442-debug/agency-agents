@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for testing — QA automation, performance,
-  security, accessibility
+description: 测试领域多智能体协作协调专家，统筹 QA 自动化、性能与安全测试类 agent 的编排
 emoji: 🧪
-name: Testing Multi-Agent Coordinator
+name: 测试多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

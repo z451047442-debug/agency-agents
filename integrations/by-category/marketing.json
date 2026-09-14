@@ -1,7 +1,7 @@
 {
   "category": "marketing",
   "agent_count": 86,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "marketing-abm-account-based",
@@ -1978,8 +1978,8 @@
     },
     {
       "id": "marketing-multi-agent-coordinator",
-      "name": "Marketing Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for marketing — content, paid media,",
+      "name": "营销多智能体协调专家",
+      "description": "营销领域多智能体协作协调专家，统筹内容、付费媒体与营销分析类 agent 的编排",
       "emoji": "📢",
       "category": "marketing",
       "subcategory": "",
@@ -2051,8 +2051,8 @@
     },
     {
       "id": "marketing-operate-retention-strategist",
-      "name": "Operate Retention Strategist",
-      "description": "Churn cohort analysis, win-back journeys, re-engagement campaigns, save-rate optimization, and Day 7/30/90 retention program ownership for the Operate phase",
+      "name": "留存运营策略师",
+      "description": "运营阶段留存策略专家，覆盖流失队列分析、召回旅程、再激活活动、留存率优化与 D7/30/90 留存计划归属",
       "emoji": "🔄",
       "category": "marketing",
       "subcategory": "",

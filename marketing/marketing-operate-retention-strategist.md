@@ -1,7 +1,7 @@
 ---
 
-name: Operate Retention Strategist
-description: Churn cohort analysis, win-back journeys, re-engagement campaigns, save-rate optimization, and Day 7/30/90 retention program ownership for the Operate phase
+name: 留存运营策略师
+description: 运营阶段留存策略专家，覆盖流失队列分析、召回旅程、再激活活动、留存率优化与 D7/30/90 留存计划归属
 emoji: 🔄
 color: teal
 version: "1.0.0"

@@ -1,7 +1,7 @@
 {
   "category": "automotive",
   "agent_count": 23,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "automotive-adas-engineer",
@@ -734,8 +734,8 @@
     },
     {
       "id": "automotive-multi-agent-coordinator",
-      "name": "Automotive Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for automotive — vehicle systems, ADAS,",
+      "name": "汽车多智能体协调专家",
+      "description": "汽车领域多智能体协作协调专家，统筹整车系统、ADAS 与动力总成类 agent 的编排",
       "emoji": "🚗",
       "category": "automotive",
       "subcategory": "",

@@ -18,9 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: coordinates multi-agent workflows for tourism — travel planning, hospitality, destination marketing, event management
+description: 旅游领域多智能体协作协调专家，统筹行程规划、酒店与目的地营销类 agent 的编排
 emoji: ✈️
-name: Tourism Multi-Agent Coordinator
+name: 旅游多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

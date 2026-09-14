@@ -2,7 +2,7 @@
 
 
 
-name: Robotic Perception Systems
+name: 机器人感知系统专家
 color: cyan
 date_added: '2026-07-03'
 keywords:

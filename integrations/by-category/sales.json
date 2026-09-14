@@ -1,7 +1,7 @@
 {
   "category": "sales",
   "agent_count": 16,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "sales-account-strategist",
@@ -301,8 +301,8 @@
     },
     {
       "id": "sales-multi-agent-coordinator",
-      "name": "Sales Multi-Agent Coordinator",
-      "description": "coordinates multi-agent workflows for sales — pipeline management, deal strategy, account planning, revenue operations",
+      "name": "销售多智能体协调专家",
+      "description": "销售领域多智能体协作协调专家，统筹管道管理、交易策略与收入运营类 agent 的编排",
       "emoji": "📊",
       "category": "sales",
       "subcategory": "",

@@ -1,6 +1,6 @@
 ---
-name: Launch GTM Director
-description: Owns the T-7 to T+14 launch calendar, cross-channel sequencing, launch-day war room, and go-to-market execution orchestration
+name: 上市 GTM 总监
+description: 上市操盘总监，负责 T-7 至 T+14 上市日历、跨渠道节奏编排、上市日作战室与 GTM 执行统筹
 emoji: 🚀
 color: orange
 version: "1.0.0"

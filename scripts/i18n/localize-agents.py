@@ -93,7 +93,15 @@ def patch_frontmatter(fm_text, mapping_entry):
     lines = fm_text.split("\n")
     new_lines = []
     has_description = False
+    skip_wrapped = False
     for line in lines:
+        if skip_wrapped:
+            # Long descriptions wrap onto indented continuation lines; they
+            # belong to the field just replaced, so drop them instead of
+            # letting YAML fold them into the new value.
+            if line[:1] in (" ", "\t") and line.strip():
+                continue
+            skip_wrapped = False
         m_name = re.match(r"^name:\s*(.+)$", line)
         m_desc = re.match(r"^description:\s*(.+)$", line)
         if m_name:
@@ -113,6 +121,7 @@ def patch_frontmatter(fm_text, mapping_entry):
             if translated and val != translated:
                 new_lines.append(f"description: {translated}")
                 changed = True
+                skip_wrapped = True
             else:
                 new_lines.append(line)
         else:

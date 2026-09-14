@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for agriculture — precision farming,
-  agri-supply-chain, IoT, agronomy
+description: 农业领域多智能体协作协调专家，统筹精准农业、农业供应链与农业物联网类 agent 的编排
 emoji: 🌾
-name: Agriculture Multi-Agent Coordinator
+name: 农业多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

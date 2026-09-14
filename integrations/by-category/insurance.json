@@ -1,7 +1,7 @@
 {
   "category": "insurance",
   "agent_count": 12,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "insurance-auto-claims",
@@ -274,8 +274,8 @@
     },
     {
       "id": "insurance-multi-agent-coordinator",
-      "name": "Insurance Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for insurance — underwriting, claims,",
+      "name": "保险多智能体协调专家",
+      "description": "保险领域多智能体协作协调专家，统筹核保、理赔与精算类 agent 的编排",
       "emoji": "🛡️",
       "category": "insurance",
       "subcategory": "",

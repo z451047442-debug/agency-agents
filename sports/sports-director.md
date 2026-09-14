@@ -2,8 +2,8 @@
 
 
 
-name: "Sports Director"
-description: "Sports organization director — strategic leadership across athletic programs, coaching, and operations"
+name: 体育总监
+description: 体育机构总监，统筹运动项目、教练团队与赛事运营的战略领导与业务绩效
 emoji: "🏟️"
 color: "#DC2626"
 version: "1.0.0"

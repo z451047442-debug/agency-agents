@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for energy — renewables, grid, storage,
-  carbon management
+description: 能源领域多智能体协作协调专家，统筹可再生能源、电网与储能类 agent 的编排
 emoji: ⚡
-name: Energy Multi-Agent Coordinator
+name: 能源多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

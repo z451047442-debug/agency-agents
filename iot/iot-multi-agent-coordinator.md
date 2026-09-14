@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for IoT — edge computing, sensor networks,
-  embedded systems
+description: 物联网领域多智能体协作协调专家，统筹边缘计算、传感器网络与嵌入式系统类 agent 的编排
 emoji: 📡
-name: IoT Multi-Agent Coordinator
+name: 物联网多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

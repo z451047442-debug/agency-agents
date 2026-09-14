@@ -1,7 +1,7 @@
 {
   "category": "iot",
   "agent_count": 20,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "iot-architect",
@@ -663,8 +663,8 @@
     },
     {
       "id": "iot-multi-agent-coordinator",
-      "name": "IoT Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for IoT — edge computing, sensor networks,",
+      "name": "物联网多智能体协调专家",
+      "description": "物联网领域多智能体协作协调专家，统筹边缘计算、传感器网络与嵌入式系统类 agent 的编排",
       "emoji": "📡",
       "category": "iot",
       "subcategory": "",

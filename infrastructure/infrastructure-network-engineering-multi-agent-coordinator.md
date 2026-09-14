@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for network engineering — routing,
-  switching, SDN, network automation
+description: 网络工程领域多智能体协作协调专家，统筹路由交换、SDN 与网络自动化类 agent 的编排
 emoji: 🌐
-name: Network Engineering Multi-Agent Coordinator
+name: 网络工程多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

@@ -1,7 +1,7 @@
 {
   "category": "education",
   "agent_count": 36,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "education-academic-anthropologist",
@@ -773,8 +773,8 @@
     },
     {
       "id": "education-multi-agent-coordinator",
-      "name": "Education Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for education — curriculum design,",
+      "name": "教育多智能体协调专家",
+      "description": "教育领域多智能体协作协调专家，统筹课程设计、教育技术与学业评估类 agent 的编排",
       "emoji": "📚",
       "category": "education",
       "subcategory": "",

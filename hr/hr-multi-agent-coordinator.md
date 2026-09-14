@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for HR — recruitment, people analytics,
-  employee experience
+description: 人力资源领域多智能体协作协调专家，统筹招聘、人力分析与员工体验类 agent 的编排
 emoji: 👥
-name: HR Multi-Agent Coordinator
+name: 人力资源多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

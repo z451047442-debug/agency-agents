@@ -23,10 +23,9 @@ depends_on:
   - aerospace-engineering-aviation-engineering
   - aerospace-engineering-aviation-safety
   - aerospace-avionics
-description: Coordinates multi-agent workflows for aerospace — aircraft structures, avionics,
-  propulsion, space systems, UAM, certification, and safety across the full product lifecycle
+description: 航空航天领域多智能体协作协调专家，统筹飞行器结构、航电、推进、空间系统与适航认证类 agent 的编排
 emoji: ✈️
-name: Aerospace Multi-Agent Coordinator
+name: 航空航天多智能体协调专家
 nexus_roles:
   - phase-0-discovery
   - phase-1-strategy

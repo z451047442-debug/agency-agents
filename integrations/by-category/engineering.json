@@ -1,7 +1,7 @@
 {
   "category": "engineering",
   "agent_count": 114,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "engineering-ai-agent-developer",
@@ -1887,8 +1887,8 @@
     },
     {
       "id": "engineering-general-manager",
-      "name": "Engineering General Manager",
-      "description": "Engineering department general manager — strategic leadership across software, infrastructure, and operations",
+      "name": "工程总经理",
+      "description": "工程部门总经理，统筹软件、基础设施与运维的战略领导、团队建设与跨部门协同",
       "emoji": "🏗️",
       "category": "engineering",
       "subcategory": "",

@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for pharma & biotech — drug development,
-  clinical trials, regulatory
+description: 医药生物领域多智能体协作协调专家，统筹药物开发、临床试验与法规事务类 agent 的编排
 emoji: 💊
-name: Pharma & Biotech Multi-Agent Coordinator
+name: 医药生物多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

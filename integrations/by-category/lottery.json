@@ -1,7 +1,7 @@
 {
   "category": "lottery",
   "agent_count": 13,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "lottery-customer-service",
@@ -13,7 +13,11 @@
       "path": "lottery/lottery-customer-service.md",
       "depends_on": [
         "lottery-data-analyst",
-        "lottery-multi-agent-coordinator"
+        "lottery-multi-agent-coordinator",
+        "finance-tax-strategist",
+        "legal-data-privacy-attorney",
+        "customer-service-complaints",
+        "data-science-bi-analyst"
       ],
       "nexus_roles": [
         "phase-5-launch",
@@ -240,8 +244,8 @@
     },
     {
       "id": "lottery-multi-agent-coordinator",
-      "name": "Lottery Multi-Agent Coordinator",
-      "description": "coordinates multi-agent workflows for lottery — game design, risk management, retail network, marketing",
+      "name": "彩票多智能体协调专家",
+      "description": "彩票领域多智能体协作协调专家，统筹游戏设计、风险管理与零售网络类 agent 的编排",
       "emoji": "🎲",
       "category": "lottery",
       "subcategory": "",

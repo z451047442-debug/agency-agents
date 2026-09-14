@@ -17,9 +17,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for environmental projects
+description: 环保领域多智能体协作协调专家，统筹环境监测、污染治理与合规评估类 agent 的编排
 emoji: 🌍
-name: Environmental Multi-Agent Coordinator
+name: 环保多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for logistics — supply chain, freight,
-  warehousing, last-mile delivery
+description: 物流领域多智能体协作协调专家，统筹供应链、货运与仓储类 agent 的编排
 emoji: 🚚
-name: Logistics Multi-Agent Coordinator
+name: 物流多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

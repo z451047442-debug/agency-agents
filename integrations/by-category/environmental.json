@@ -1,7 +1,7 @@
 {
   "category": "environmental",
   "agent_count": 38,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "environmental-carbon-management",
@@ -1269,8 +1269,8 @@
     },
     {
       "id": "environmental-multi-agent-coordinator",
-      "name": "Environmental Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for environmental projects",
+      "name": "环保多智能体协调专家",
+      "description": "环保领域多智能体协作协调专家，统筹环境监测、污染治理与合规评估类 agent 的编排",
       "emoji": "🌍",
       "category": "environmental",
       "subcategory": "",

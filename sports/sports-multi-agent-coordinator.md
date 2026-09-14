@@ -1,7 +1,7 @@
 ---
 
-name: "Sports Multi-Agent Coordinator"
-description: "Coordinates multi-agent workflows for sports projects — coaching, analytics, event management"
+name: 体育多智能体协调专家
+description: 体育领域多智能体协作协调专家，统筹教练、数据分析与赛事运营类 agent 的编排
 emoji: "🏟️"
 color: "#DC2626"
 version: "1.0.0"

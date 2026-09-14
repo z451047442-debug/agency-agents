@@ -1,7 +1,7 @@
 {
   "category": "logistics",
   "agent_count": 22,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "logistics-cold-chain-specialist",
@@ -594,8 +594,8 @@
     },
     {
       "id": "logistics-multi-agent-coordinator",
-      "name": "Logistics Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for logistics — supply chain, freight,",
+      "name": "物流多智能体协调专家",
+      "description": "物流领域多智能体协作协调专家，统筹供应链、货运与仓储类 agent 的编排",
       "emoji": "🚚",
       "category": "logistics",
       "subcategory": "",

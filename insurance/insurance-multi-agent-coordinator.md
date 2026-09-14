@@ -17,10 +17,9 @@ tags:
   - Compliance
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for insurance — underwriting, claims,
-  actuarial, insurtech
+description: 保险领域多智能体协作协调专家，统筹核保、理赔与精算类 agent 的编排
 emoji: 🛡️
-name: Insurance Multi-Agent Coordinator
+name: 保险多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

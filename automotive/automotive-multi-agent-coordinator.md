@@ -17,10 +17,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for automotive — vehicle systems, ADAS,
-  powertrain, homologation
+description: 汽车领域多智能体协作协调专家，统筹整车系统、ADAS 与动力总成类 agent 的编排
 emoji: 🚗
-name: Automotive Multi-Agent Coordinator
+name: 汽车多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

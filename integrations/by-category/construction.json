@@ -1,7 +1,7 @@
 {
   "category": "construction",
   "agent_count": 43,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "construction-architectural-designer",
@@ -1439,8 +1439,8 @@
     },
     {
       "id": "construction-multi-agent-coordinator",
-      "name": "Construction Multi-Agent Coordinator",
-      "description": "coordinates multi-agent workflows for construction — structural engineering, BIM, site management, safety compliance",
+      "name": "建筑多智能体协调专家",
+      "description": "建筑领域多智能体协作协调专家，统筹结构工程、BIM、现场管理与安全合规类 agent 的编排",
       "emoji": "🏠",
       "category": "construction",
       "subcategory": "",

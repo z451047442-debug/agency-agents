@@ -1,7 +1,7 @@
 {
   "category": "legal",
   "agent_count": 25,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "legal-billing-time-tracking",
@@ -834,8 +834,8 @@
     },
     {
       "id": "legal-multi-agent-coordinator",
-      "name": "Legal Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for legal — corporate, IP, compliance,",
+      "name": "法律多智能体协调专家",
+      "description": "法律领域多智能体协作协调专家，统筹公司法务、知识产权与合规类 agent 的编排",
       "emoji": "⚖️",
       "category": "legal",
       "subcategory": "",

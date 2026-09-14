@@ -239,23 +239,19 @@ class TestFindReferenceAgents:
 
 class TestAnalyzeExpansionNeeds:
     def test_returns_expected_keys(self):
-        """Test with a real agent file from a small category."""
-        agent_file = SCRIPTS_DIR.parent / "aviation" / "aviation-flight-test-engineer.md"
-        if not agent_file.exists():
-            pytest.skip("aviation agent file not found")
+        """Test with a real agent file from the repository."""
+        agent_file = SCRIPTS_DIR.parent / "aerospace" / "aerospace-flight-test-engineer.md"
         result = analyze_expansion_needs(
-            "aviation-flight-test-engineer", "aviation", agent_file
+            "aerospace-flight-test-engineer", "aerospace", agent_file
         )
         for key in ("agent_id", "category", "current_grade", "current_total",
                      "word_count", "needs", "estimated_new_words", "projected_grade"):
             assert key in result, f"Missing key: {key}"
 
     def test_agent_id_matches_input(self):
-        agent_file = SCRIPTS_DIR.parent / "aviation" / "aviation-flight-test-engineer.md"
-        if not agent_file.exists():
-            pytest.skip("aviation agent file not found")
+        agent_file = SCRIPTS_DIR.parent / "aerospace" / "aerospace-flight-test-engineer.md"
         result = analyze_expansion_needs(
-            "test-id-123", "aviation", agent_file
+            "test-id-123", "aerospace", agent_file
         )
         assert result["agent_id"] == "test-id-123"
 

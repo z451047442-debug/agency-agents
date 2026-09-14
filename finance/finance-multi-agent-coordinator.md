@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for finance — FP&A, accounting, treasury,
-  corporate finance
+description: 金融领域多智能体协作协调专家，统筹 FP&A、会计与资金管理类 agent 的编排
 emoji: 💰
-name: Finance Multi-Agent Coordinator
+name: 金融多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

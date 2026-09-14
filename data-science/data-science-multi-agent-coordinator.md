@@ -18,10 +18,9 @@ tags:
   - Process
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for data science — ML pipelines, experiment
-  tracking, model deployment
+description: 数据科学领域多智能体协作协调专家，统筹 ML 管道、实验追踪与模型部署类 agent 的编排
 emoji: 📊
-name: Data Science Multi-Agent Coordinator
+name: 数据科学多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

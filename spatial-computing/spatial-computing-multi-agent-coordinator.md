@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for spatial computing — AR/VR/XR, 3D
-  assets, spatial interaction design
+description: 空间计算领域多智能体协作协调专家，统筹 AR/VR/XR、3D 资产与空间交互类 agent 的编排
 emoji: 🥽
-name: Spatial Computing Multi-Agent Coordinator
+name: 空间计算多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

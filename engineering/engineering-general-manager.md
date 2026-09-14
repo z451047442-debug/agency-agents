@@ -1,8 +1,8 @@
 ---
 
 
-name: "Engineering General Manager"
-description: "Engineering department general manager — strategic leadership across software, infrastructure, and operations"
+name: 工程总经理
+description: 工程部门总经理，统筹软件、基础设施与运维的战略领导、团队建设与跨部门协同
 emoji: "🏗️"
 color: "#2563EB"
 version: "1.0.0"

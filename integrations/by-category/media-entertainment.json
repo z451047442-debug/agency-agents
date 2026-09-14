@@ -1,7 +1,7 @@
 {
   "category": "media-entertainment",
   "agent_count": 31,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "media-entertainment-3ds-max-expert",
@@ -925,8 +925,8 @@
     },
     {
       "id": "media-entertainment-multi-agent-coordinator",
-      "name": "Media & Entertainment Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for media — production, post-production,",
+      "name": "媒体娱乐多智能体协调专家",
+      "description": "媒体娱乐领域多智能体协作协调专家，统筹制作、后期与动画音效类 agent 的编排",
       "emoji": "🎬",
       "category": "media-entertainment",
       "subcategory": "",

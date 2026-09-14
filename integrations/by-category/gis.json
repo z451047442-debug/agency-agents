@@ -1,7 +1,7 @@
 {
   "category": "gis",
   "agent_count": 16,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "gis-3d-scene-developer",
@@ -371,8 +371,8 @@
     },
     {
       "id": "gis-multi-agent-coordinator",
-      "name": "GIS Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for GIS — spatial analysis, remote",
+      "name": "地理信息多智能体协调专家",
+      "description": "地理信息领域多智能体协作协调专家，统筹空间分析、遥感与制图类 agent 的编排",
       "emoji": "🗺️",
       "category": "gis",
       "subcategory": "",

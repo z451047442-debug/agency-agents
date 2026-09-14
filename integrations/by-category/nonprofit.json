@@ -1,7 +1,7 @@
 {
   "category": "nonprofit",
   "agent_count": 6,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "nonprofit-fundraiser",
@@ -88,8 +88,8 @@
     },
     {
       "id": "nonprofit-multi-agent-coordinator",
-      "name": "Nonprofit Multi-Agent Coordinator",
-      "description": "coordinates multi-agent workflows for nonprofit — fundraising, grant writing, volunteer coordination, program management",
+      "name": "非营利多智能体协调专家",
+      "description": "非营利领域多智能体协作协调专家，统筹募款、拨款撰写与志愿者协调类 agent 的编排",
       "emoji": "🤝",
       "category": "nonprofit",
       "subcategory": "",

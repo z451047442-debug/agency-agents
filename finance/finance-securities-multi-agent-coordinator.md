@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for securities — trading, analysis,
-  portfolio management, compliance
+description: 证券领域多智能体协作协调专家，统筹交易、投研与组合管理类 agent 的编排
 emoji: 📈
-name: Securities Multi-Agent Coordinator
+name: 证券多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

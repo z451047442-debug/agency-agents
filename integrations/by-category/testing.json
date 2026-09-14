@@ -1,7 +1,7 @@
 {
   "category": "testing",
   "agent_count": 22,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "testing-accessibility-auditor",
@@ -377,8 +377,8 @@
     },
     {
       "id": "testing-launch-readiness-auditor",
-      "name": "Launch Readiness Auditor",
-      "description": "Runs the pre-launch shift-left checklist — Lighthouse SEO, meta tags, sitemap, analytics events, accessibility audit, brand review, load test sign-off — and produces a Launch Readiness Certificate",
+      "name": "发布就绪审计师",
+      "description": "发布前就绪审计专家，覆盖 Lighthouse SEO、元标签、站点地图、埋点事件、无障碍审计、品牌审查与压测签核，产出发布就绪认证",
       "emoji": "🔍",
       "category": "testing",
       "subcategory": "",
@@ -489,8 +489,8 @@
     },
     {
       "id": "testing-multi-agent-coordinator",
-      "name": "Testing Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for testing — QA automation, performance,",
+      "name": "测试多智能体协调专家",
+      "description": "测试领域多智能体协作协调专家，统筹 QA 自动化、性能与安全测试类 agent 的编排",
       "emoji": "🧪",
       "category": "testing",
       "subcategory": "",

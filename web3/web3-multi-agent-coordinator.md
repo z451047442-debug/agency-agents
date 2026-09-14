@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for Web3 — smart contracts, DeFi, DAOs,
-  blockchain infrastructure
+description: Web3 领域多智能体协作协调专家，统筹智能合约、DeFi 与 DAO 类 agent 的编排
 emoji: ⛓️
-name: Web3 Multi-Agent Coordinator
+name: Web3 多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

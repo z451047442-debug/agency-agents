@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for education — curriculum design,
-  EdTech, assessment, academic research
+description: 教育领域多智能体协作协调专家，统筹课程设计、教育技术与学业评估类 agent 的编排
 emoji: 📚
-name: Education Multi-Agent Coordinator
+name: 教育多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

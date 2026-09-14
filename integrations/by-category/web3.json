@@ -1,7 +1,7 @@
 {
   "category": "web3",
   "agent_count": 14,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "web3-blockchain-architect",
@@ -424,8 +424,8 @@
     },
     {
       "id": "web3-multi-agent-coordinator",
-      "name": "Web3 Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for Web3 — smart contracts, DeFi, DAOs,",
+      "name": "Web3 多智能体协调专家",
+      "description": "Web3 领域多智能体协作协调专家，统筹智能合约、DeFi 与 DAO 类 agent 的编排",
       "emoji": "⛓️",
       "category": "web3",
       "subcategory": "",

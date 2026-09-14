@@ -18,10 +18,9 @@ tags:
   - Process
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for infrastructure — network topology,
-  cloud architecture, data center operations
+description: 基础设施领域多智能体协作协调专家，统筹网络拓扑、云架构与数据中心运维类 agent 的编排
 emoji: 🏗️
-name: Infrastructure Multi-Agent Coordinator
+name: 基础设施多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for GIS — spatial analysis, remote
-  sensing, cartography, geodata pipelines
+description: 地理信息领域多智能体协作协调专家，统筹空间分析、遥感与制图类 agent 的编排
 emoji: 🗺️
-name: GIS Multi-Agent Coordinator
+name: 地理信息多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

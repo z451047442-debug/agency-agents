@@ -1,7 +1,7 @@
 {
   "category": "pharma-biotech",
   "agent_count": 9,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "pharma-biotech-biostatistics",
@@ -119,8 +119,8 @@
     },
     {
       "id": "pharma-biotech-multi-agent-coordinator",
-      "name": "Pharma & Biotech Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for pharma & biotech — drug development,",
+      "name": "医药生物多智能体协调专家",
+      "description": "医药生物领域多智能体协作协调专家，统筹药物开发、临床试验与法规事务类 agent 的编排",
       "emoji": "💊",
       "category": "pharma-biotech",
       "subcategory": "",

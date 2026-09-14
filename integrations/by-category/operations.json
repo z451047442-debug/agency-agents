@@ -1,7 +1,7 @@
 {
   "category": "operations",
   "agent_count": 12,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "operations-analytics-reporter",
@@ -357,8 +357,8 @@
     },
     {
       "id": "operations-multi-agent-coordinator",
-      "name": "Operations Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for business operations",
+      "name": "运营多智能体协调专家",
+      "description": "业务运营多智能体协作协调专家，统筹流程优化、跨部门协同与运营指标类 agent 的编排",
       "emoji": "⚙️",
       "category": "operations",
       "subcategory": "",

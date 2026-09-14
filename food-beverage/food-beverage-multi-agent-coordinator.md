@@ -18,10 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for food & beverage — product development,
-  safety, supply chain, manufacturing
+description: 食品饮料领域多智能体协作协调专家，统筹产品研发、食品安全与供应链类 agent 的编排
 emoji: 🍽️
-name: Food & Beverage Multi-Agent Coordinator
+name: 食品饮料多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

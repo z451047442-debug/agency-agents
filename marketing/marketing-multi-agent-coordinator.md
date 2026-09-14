@@ -18,10 +18,9 @@ tags:
   - Process
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for marketing — content, paid media,
-  SEO, analytics
+description: 营销领域多智能体协作协调专家，统筹内容、付费媒体与营销分析类 agent 的编排
 emoji: 📢
-name: Marketing Multi-Agent Coordinator
+name: 营销多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

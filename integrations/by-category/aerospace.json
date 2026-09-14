@@ -1,7 +1,7 @@
 {
   "category": "aerospace",
   "agent_count": 33,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "aerospace-atc-specialist",
@@ -954,8 +954,8 @@
     },
     {
       "id": "aerospace-multi-agent-coordinator",
-      "name": "Aerospace Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for aerospace — aircraft structures, avionics,",
+      "name": "航空航天多智能体协调专家",
+      "description": "航空航天领域多智能体协作协调专家，统筹飞行器结构、航电、推进、空间系统与适航认证类 agent 的编排",
       "emoji": "✈️",
       "category": "aerospace",
       "subcategory": "",

@@ -18,9 +18,9 @@ tags:
   - Metrics
 depends_on:
   - engineering-multi-agent-systems-architect
-description: Coordinates multi-agent workflows for business operations
+description: 业务运营多智能体协作协调专家，统筹流程优化、跨部门协同与运营指标类 agent 的编排
 emoji: ⚙️
-name: Operations Multi-Agent Coordinator
+name: 运营多智能体协调专家
 nexus_roles:
 - phase-1-strategy
 - phase-3-build

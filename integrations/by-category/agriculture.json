@@ -1,7 +1,7 @@
 {
   "category": "agriculture",
   "agent_count": 14,
-  "generated": "2026-08-13",
+  "generated": "2026-09-14",
   "agents": [
     {
       "id": "agriculture-agronomist",
@@ -360,8 +360,8 @@
     },
     {
       "id": "agriculture-multi-agent-coordinator",
-      "name": "Agriculture Multi-Agent Coordinator",
-      "description": "Coordinates multi-agent workflows for agriculture — precision farming,",
+      "name": "农业多智能体协调专家",
+      "description": "农业领域多智能体协作协调专家，统筹精准农业、农业供应链与农业物联网类 agent 的编排",
       "emoji": "🌾",
       "category": "agriculture",
       "subcategory": "",

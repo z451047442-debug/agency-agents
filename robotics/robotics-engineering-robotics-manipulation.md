@@ -2,7 +2,7 @@
 
 
 
-name: Robotics Manipulation
+name: 机器人灵巧操作专家
 color: orange
 date_added: '2026-07-03'
 keywords:
@@ -25,8 +25,7 @@ depends_on:
   - robotics-automation-engineer
   - robotics-engineering-robotic-perception-systems
   - robotics-multi-agent-coordinator
-description: 机器人灵巧操作与自主抓取专家，覆盖抓取规划(6D Pose Estimation)、夹爪/灵巧手设计、力触觉反馈、视觉伺服(Visual
-  Servoing)与Bin Picking无序抓取
+description: 机器人灵巧操作与自主抓取专家，覆盖抓取规划(6D Pose Estimation)、夹爪/灵巧手设计、力触觉反馈、视觉伺服(Visual Servoing)与Bin Picking无序抓取
 emoji: 🦾
 lifecycle: published
 nexus_roles:

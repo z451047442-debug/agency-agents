@@ -128,9 +128,9 @@ def main() -> None:
         try:
             f = REPO / agent_dict["path"]
             if f.exists():
-                r = score_mod.score_agent(f, check_freshness=False)
-                return r["total"], r["grade"], r.get("risk_tier", "general")
-        except (ImportError, OSError, KeyError):
+                r = score_mod.score_agent_v7(f, check_freshness=False)
+                return r["v7_total"], r["v7_grade"], r.get("v7_risk_tier", "general")
+        except (ImportError, OSError, KeyError, AttributeError):
             pass
         return None
 
@@ -146,7 +146,7 @@ def main() -> None:
         sb = _get_score(b)
         if sa and sb:
             better = a if sa[0] > sb[0] else b if sb[0] > sa[0] else None
-            print(f"            scores: {sa[0]}/10 {sa[1]} vs {sb[0]}/10 {sb[1]}")
+            print(f"            scores: {sa[0]}/18 {sa[1]} vs {sb[0]}/18 {sb[1]}")
             if better:
                 risk_a = RISK_ORDER.get(sa[2], 99)
                 risk_b = RISK_ORDER.get(sb[2], 99)
@@ -155,7 +155,7 @@ def main() -> None:
                 elif risk_b < risk_a:
                     print(f"            KEEP {b['id']} (higher risk tier: {sb[2]} vs {sa[2]})")
                 else:
-                    print(f"            KEEP {better['id']} (higher score: {max(sa[0], sb[0])}/10)")
+                    print(f"            KEEP {better['id']} (higher score: {max(sa[0], sb[0])}/18)")
         print()
 
     print(f"Total: {len(pairs)} pair(s) flagged for review.")

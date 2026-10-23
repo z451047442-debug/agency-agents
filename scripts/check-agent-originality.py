@@ -18,15 +18,21 @@ REPO = Path(__file__).resolve().parent.parent
 
 
 # Proper nouns we neutralize so find-replace re-skins still score as duplicates.
+# Lookarounds (instead of \b) also neutralize entities adjacent to CJK text.
 ENTITY = re.compile(
-    r'\b(vietnam|vietnamese|china|chinese|douyin|tiktok|korea|korean|japan|japanese|'
+    r'(?<![a-z0-9])(vietnam|vietnamese|china|chinese|douyin|tiktok|korea|korean|japan|japanese|'
     r'india|indian|indonesia|indonesian|thailand|thai|philippines|filipino|brazil|'
     r'brazilian|mexico|mexican|wechat|weixin|weibo|xiaohongshu|rednote|kuaishou|'
     r'bilibili|zhihu|baidu|shopee|lazada|zalo|tokopedia|taobao|tmall|pinduoduo|'
-    r'instagram|facebook|youtube|reels|shorts|linkedin|twitter|threads|snapchat)\b')
+    r'instagram|facebook|youtube|reels|shorts|linkedin|twitter|threads|snapchat)(?![a-z0-9])')
 
-# Pre-compiled regex for stripping non-alphanumeric characters in tokenization.
-NON_ALNUM = re.compile(r'[^a-z0-9 ]')
+# Keep Unicode word characters (including CJK) when normalizing punctuation.
+NON_WORD = re.compile(r'[^\w ]|_', re.UNICODE)
+# Split CJK/Hiragana/Katakana/Hangul into individual tokens so character
+# shingles measure Chinese/Japanese/Korean body similarity.
+CJK_CHAR = re.compile(
+    r'([一-鿿㐀-䶿豈-﫿぀-ヿ가-힯])'
+)
 
 
 def strip_frontmatter(text: str) -> str:
@@ -39,7 +45,8 @@ def strip_frontmatter(text: str) -> str:
 
 def tokens(text: str) -> list[str]:
     text = ENTITY.sub(" ", strip_frontmatter(text).lower())
-    text = NON_ALNUM.sub(" ", text)
+    text = NON_WORD.sub(" ", text)
+    text = CJK_CHAR.sub(r' \1 ', text)
     return text.split()
 
 

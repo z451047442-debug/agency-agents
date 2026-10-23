@@ -311,7 +311,12 @@ def main():
             sys.exit(1)
 
     # ── Baseline regression gate ──────────────────────────────────────────────
-    if not args.no_baseline and all_totals and not args.file:
+    # History/baseline are global statistics: never record a filtered subset.
+    is_filtered = bool(
+        args.file or args.category or args.risk
+        or args.below > 0 or args.above > 0
+    )
+    if not args.no_baseline and all_totals and not is_filtered:
         current = {
             "date": date.today().isoformat(),
             "total_agents": len(all_totals),

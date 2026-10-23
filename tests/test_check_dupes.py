@@ -2,6 +2,7 @@
 
 import importlib.util
 import json
+import re
 import sys
 from pathlib import Path
 from unittest.mock import patch
@@ -209,13 +210,16 @@ class TestMainFunction:
         (eng_dir / "x2.md").write_text(
             "---\nname: T\n---\n## Identity\ntest\n",
             encoding="utf-8")
-        # Minimal score-agents module
+        # Minimal score-agents module: legacy scorer returns fixed /10 values,
+        # v7 scorer returns /18 values that the output must use.
         (scripts_dir / "score-agents.py").write_text(
             "def score_agent(f, check_freshness=True):\n"
+            "    return {'total': 12, 'grade': 'B', 'risk_tier': 'general'}\n"
+            "def score_agent_v7(f, check_freshness=True):\n"
             "    n = len(f.read_text(encoding='utf-8'))\n"
-            "    total = 12 if n > 100 else 8\n"
-            "    return {'total': total, 'grade': 'A' if total > 10 else 'C',"
-            " 'risk_tier': 'high' if total < 10 else 'general'}\n",
+            "    total = 16 if n > 100 else 9\n"
+            "    return {'v7_total': total, 'v7_grade': 'A' if total > 12 else 'C',"
+            " 'v7_risk_tier': 'general'}\n",
             encoding="utf-8")
         index_path = tmp_path / "AGENTS.json"
         index_path.write_text(json.dumps({"agents": [
@@ -227,8 +231,27 @@ class TestMainFunction:
         monkeypatch.setattr(mod, "INDEX_PATH", index_path)
         monkeypatch.setattr(mod, "REPO", tmp_path)
         with patch.object(sys, "argv", ["check-dupes.py", "--threshold", "0.85"]):
-            with pytest.raises(SystemExit) as exc:
+            with pytest.raises(SystemExit):
                 mod.main()
         out = capsys.readouterr().out
         assert "scores:" in out
+        assert "16/18" in out
+        assert "12/10" not in out
         assert "KEEP" in out
+
+
+WORKFLOWS_DIR = Path(__file__).resolve().parent.parent / ".github" / "workflows"
+
+
+class TestWorkflowThresholds:
+    """CI and Nightly must enforce the same dedup threshold."""
+
+    @staticmethod
+    def _threshold(filename):
+        text = (WORKFLOWS_DIR / filename).read_text(encoding="utf-8")
+        match = re.search(r"check-dupes\.sh --threshold (0\.\d+)", text)
+        assert match, f"no dedup threshold found in {filename}"
+        return float(match.group(1))
+
+    def test_ci_and_nightly_thresholds_match(self):
+        assert self._threshold("ci.yml") == self._threshold("nightly-full-audit.yml")

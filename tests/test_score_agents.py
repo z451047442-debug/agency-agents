@@ -1,11 +1,9 @@
 """Tests for scripts/score-agents.py"""
 import importlib.util
-import io
 import json
 import sys
 from datetime import date, timedelta
 from pathlib import Path
-from unittest.mock import patch
 
 import pytest
 
@@ -2143,6 +2141,19 @@ class TestMainCLI:
             "a": ("testing", _v7_result(agent_id="a")),
         })
         assert self._run(monkeypatch, "--no-baseline") == 0
+        assert not mod.HISTORY_FILE.exists()
+
+    @pytest.mark.parametrize("argv", [
+        ("--category", "testing"),
+        ("--risk", "general"),
+        ("--below", "99"),
+        ("--above", "10"),
+    ])
+    def test_filtered_runs_skip_history(self, monkeypatch, argv):
+        _stub_agents(monkeypatch, {
+            "a": ("testing", _v7_result(agent_id="a")),
+        })
+        assert self._run(monkeypatch, *argv) == 0
         assert not mod.HISTORY_FILE.exists()
 
 

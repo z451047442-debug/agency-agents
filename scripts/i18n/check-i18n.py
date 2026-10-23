@@ -127,7 +127,7 @@ def check_coverage(lang="zh", show_untranslated=True, template=False,
 
     # The denominator for coverage should exclude already-localized agents
     translatable_count = agent_count - already_localized
-    coverage_pct = (has_translation * 100 / translatable_count) if translatable_count else 0
+    coverage_pct = (has_translation * 100 / translatable_count) if translatable_count else 100.0
 
     # ── report ──────────────────────────────────────────────────────────────
 
@@ -279,15 +279,17 @@ def main():
     )
     args = parser.parse_args()
 
+    all_errors = 0
+    all_warnings = 0
+
     # Validate mapping file exists (warning, not error)
     map_path = I18N_DIR / f"agent-names-{args.lang}.json"
     if not map_path.exists():
         warn(f"Mapping file not found: {map_path}")
+        all_warnings += 1
         if args.lang == "zh":
             warn("Create agent-names-zh.json to enable coverage tracking.")
-
-    all_errors = 0
-    all_warnings = 0
+            all_warnings += 1
 
     # Run coverage check — when generating a template, send the human-readable
     # report to stderr so that stdout carries only the JSON template.

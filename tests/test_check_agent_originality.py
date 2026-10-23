@@ -1,6 +1,9 @@
 """Tests for scripts/check-agent-originality.py — originality detection."""
 
 import importlib.util
+import os
+import shutil
+import subprocess
 import sys
 from pathlib import Path
 from unittest.mock import patch
@@ -194,7 +197,7 @@ class TestCheckOriginalityExtra:
             [f1, f2], corpus, fail_threshold=95, warn_threshold=30,
         )
         assert exit_code == 0
-        assert any("warning" in l.lower() for l in lines)
+        assert any("warning" in line.lower() for line in lines)
 
     def test_same_change_set_beats_corpus(self, tmp_path):
         content = "shared common text for testing purposes across all files. " * 20
@@ -260,3 +263,75 @@ class TestMainFunction:
                 mod.main()
             # Unique agent should pass
             assert exc.value.code == 0
+
+
+class TestShellWrapper:
+    """The .sh wrapper must run with ORIGINALITY_* unset (set -u safe)."""
+
+    def _run(self, agent, env_overrides=None):
+        bash = shutil.which("bash")
+        if not bash:
+            pytest.skip("bash not available")
+        env = {k: v for k, v in os.environ.items() if not k.startswith("ORIGINALITY_")}
+        if env_overrides:
+            env.update(env_overrides)
+        return subprocess.run(
+            [bash, str(SCRIPTS_DIR / "check-agent-originality.sh"), str(agent)],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            env=env,
+            cwd=str(SCRIPTS_DIR.parent),
+        )
+
+    def test_runs_with_defaults_when_env_unset(self, tmp_path):
+        agent = tmp_path / "unique-wrapper-smoke.md"
+        agent.write_text(
+            "---\nname: Unique Wrapper Smoke\n---\n"
+            + ("distinct wrapper smoke test content " * 60),
+            encoding="utf-8",
+        )
+        result = self._run(agent)
+        assert result.returncode == 0, result.stdout + result.stderr
+        assert "unbound variable" not in result.stderr
+        assert "PASSED" in result.stdout
+
+    def test_respects_env_threshold_override(self, tmp_path):
+        agent = tmp_path / "unique-wrapper-override.md"
+        agent.write_text(
+            "---\nname: Unique Wrapper Override\n---\n"
+            + ("another distinct wrapper content " * 60),
+            encoding="utf-8",
+        )
+        result = self._run(agent, {"ORIGINALITY_FAIL": "0", "ORIGINALITY_WARN": "0"})
+        assert result.returncode == 1, result.stdout + result.stderr
+
+
+class TestCjkTokenization:
+    def test_cjk_characters_are_tokenized(self):
+        assert tokens("林业资源管理") == ["林", "业", "资", "源", "管", "理"]
+
+    def test_mixed_cjk_and_latin(self):
+        result = tokens("使用 Kubernetes 管理林业")
+        assert "kubernetes" in result
+        assert "林" in result
+
+    def test_neutralizes_entities_adjacent_to_cjk(self):
+        result = tokens("使用tiktok营销")
+        assert "tiktok" not in result
+
+
+class TestCjkOriginality:
+    def test_identical_chinese_bodies_fail(self, tmp_path):
+        body = "## Identity\n" + ("林业资源管理与木材产销。" * 200)
+        f1 = tmp_path / "a1.md"
+        f1.write_text("---\nname: A\n---\n" + body + " Kubernetes", encoding="utf-8")
+        f2 = tmp_path / "a2.md"
+        f2.write_text("---\nname: B\n---\n" + body + " TensorFlow", encoding="utf-8")
+        corpus = {
+            str(f1.resolve()): shingles(tokens(f1.read_text(encoding="utf-8"))),
+            str(f2.resolve()): shingles(tokens(f2.read_text(encoding="utf-8"))),
+        }
+        exit_code, _ = check_originality([f1, f2], corpus)
+        assert exit_code == 1

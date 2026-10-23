@@ -30,7 +30,7 @@ jobs:
         run: python scripts/score-agents.py --json
 
       - name: Duplicate detection
-        run: bash scripts/check-dupes.sh --threshold 0.90
+        run: bash scripts/check-dupes.sh --threshold 0.85
 
       - name: Dependency validation
         run: python scripts/analyze-deps.py --validate

@@ -44,8 +44,8 @@ if [ -z "$PYTHON" ]; then
     exit 2
 fi
 
-ORIGINALITY_FAIL="${ORIGINALITY_FAIL:-40}" \
-ORIGINALITY_WARN="${ORIGINALITY_WARN:-20}" \
+ORIGINALITY_FAIL="${ORIGINALITY_FAIL:-40}"
+ORIGINALITY_WARN="${ORIGINALITY_WARN:-20}"
 exec "$PYTHON" "$SCRIPT_DIR/check-agent-originality.py" \
     --fail-threshold "$ORIGINALITY_FAIL" \
     --warn-threshold "$ORIGINALITY_WARN" \

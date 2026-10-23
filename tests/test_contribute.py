@@ -32,7 +32,7 @@ class TestSkillLevels:
         assert set(SKILL_LEVELS.keys()) == {"beginner", "intermediate", "advanced"}
 
     def test_each_level_has_required_fields(self):
-        for level, config in SKILL_LEVELS.items():
+        for config in SKILL_LEVELS.values():
             assert "description" in config
             assert "max_effort" in config
             assert "time_estimate" in config
@@ -110,6 +110,59 @@ class TestEstimateEffort:
 # ── build_opportunities ──────────────────────────────────────────────────────
 
 class TestBuildOpportunities:
+    @pytest.fixture(autouse=True)
+    def _small_repo(self, monkeypatch):
+        """Keep build_opportunities off the full 1402-agent repo (slow)."""
+        agents = {
+            "alpha": ("engineering", {
+                "grade": "C", "total": 4, "risk_tier": "general",
+                "scores": {"content_depth": 1, "structure": 3,
+                           "frontmatter": 2, "file_health": 2},
+                "issues": ["thin content"], "word_count": 200,
+            }),
+            "beta": ("engineering", {
+                "grade": "C", "total": 4, "risk_tier": "high",
+                "scores": {"content_depth": 3, "structure": 0,
+                           "frontmatter": 2, "file_health": 2},
+                "issues": ["Missing section"], "word_count": 600,
+            }),
+            "gamma": ("engineering", {
+                "grade": "C", "total": 4, "risk_tier": "general",
+                "scores": {"content_depth": 3, "structure": 3,
+                           "frontmatter": 2, "file_health": 2},
+                "issues": ["minor issue"], "word_count": 600,
+            }),
+            "delta": ("engineering", {
+                "grade": "A", "total": 13, "risk_tier": "general",
+                "scores": {"content_depth": 3, "structure": 3,
+                           "frontmatter": 2, "file_health": 2},
+                "issues": [], "word_count": 600,
+            }),
+            "epsilon": ("aviation", {
+                "grade": "C", "total": 4, "risk_tier": "critical",
+                "scores": {"content_depth": 1, "structure": 3,
+                           "frontmatter": 2, "file_health": 2},
+                "issues": ["thin content"], "word_count": 350,
+            }),
+        }
+
+        def fake_discover(category_filter=None):
+            return [
+                (cat, f"{cat}/{aid}.md", Path(cat) / f"{aid}.md")
+                for aid, (cat, _result) in agents.items()
+                if category_filter is None or cat == category_filter
+            ]
+
+        def fake_score(filepath, check_freshness=False):
+            return agents[filepath.stem][1]
+
+        def fake_lint(filepath, errors, warnings, infos, freshness=False):
+            pass
+
+        monkeypatch.setattr(mod, "discover_agents", fake_discover)
+        monkeypatch.setattr(mod, "score_agent", fake_score)
+        monkeypatch.setattr(mod, "lint_file", fake_lint)
+
     def test_returns_list_of_dicts(self):
         opps = build_opportunities()
         assert isinstance(opps, list)

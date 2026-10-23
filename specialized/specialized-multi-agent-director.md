@@ -3,7 +3,7 @@
 
 
 name: 多智能体总监
-description: Multi-Agent Director — multi-agent system orchestration specialist
+description: "Multi-Agent Director — turns strategy into execution: runs agent work streams, tracks health and KPIs, clears cross-team blockers, and enforces quality gates."
 color: crimson
 version: "1.0.0"
 date_added: "2026-07-16"

@@ -3,7 +3,7 @@
 
 
 name: 多智能体总裁
-description: Multi-Agent President — multi-agent system orchestration specialist
+description: Multi-Agent President — sets organization-wide mission, portfolio priorities, resource allocation, and executive governance across all agent teams.
 color: navy
 version: "1.0.0"
 date_added: "2026-07-16"

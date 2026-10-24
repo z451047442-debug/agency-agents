@@ -4,7 +4,7 @@
 
 
 
-name: 森林生态/碳汇林业专家
+name: 森林恢复与碳汇MRV专家
 description: 森林生态系统管理与森林碳汇MRV专家，覆盖森林资源清查/生长模型(LiDAR/遥感)、造林/再造林/森林经营碳汇计量(CDM/VCS/CCER)、REDD+与林业碳汇项目开发
 color: green
 version: "1.0.0"

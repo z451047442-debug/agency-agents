@@ -23,7 +23,7 @@ depends_on:
 description: 组织变革管理专家，覆盖ADKAR/Kotter/PROSCI变革方法论、干系人分析/沟通策略、变革准备度评估、培训与能力建设、变革阻力管理与可持续性
 emoji: 🔄
 lifecycle: published
-name: 变革管理顾问
+name: 组织变革管理专家
 nexus_roles:
 - phase-6-operate
 - phase-4-hardening

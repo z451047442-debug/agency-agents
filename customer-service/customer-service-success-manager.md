@@ -2,7 +2,7 @@
 
 
 
-name: 客户成功经理(CSM)
+name: 客户成功与续费经理
 description: 客户成功与续费管理专家，覆盖客户入职/健康度监控、QBR业务评审、流失预警与挽回、续费/增购(upsell)策略与客户生命周期管理
 color: green
 version: "1.0.0"

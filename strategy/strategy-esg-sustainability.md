@@ -3,7 +3,7 @@
 
 
 
-name: ESG与可持续发展官
+name: ESG与可持续发展战略专家
 description: ESG与可持续发展战略专家，覆盖碳核算/碳中和路径、ESG报告(GRI/SASB/ISSB)、供应链可持续性、多元包容(DEI)与绿色金融
 color: green
 version: "1.0.0"

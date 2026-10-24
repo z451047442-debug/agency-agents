@@ -2,7 +2,7 @@
 
 
 
-name: 数据保护官(DPO)
+name: 企业隐私合规专家
 emoji: 🔐
 description: 构建GDPR、CCPA与全球隐私合规项目的企业数据隐私专家
 color: purple

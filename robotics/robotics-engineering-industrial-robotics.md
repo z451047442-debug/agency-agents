@@ -1,6 +1,6 @@
 ---
 
-name: 协作机器人/人机协作安全工程师
+name: 工业与协作机器人集成工程师
 description: 工业机器人与协作机器人工作站集成专家，覆盖机器人手臂/单元布局选型、末端执行器与视觉集成、ISO 10218/ISO TS 15066安全(PL/SIL、PFL/SLS)与PLC/机器人接口调试
 color: teal
 version: "1.0.0"

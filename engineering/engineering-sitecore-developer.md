@@ -1,5 +1,5 @@
 ---
-name: 前端架构/性能优化工程师
+name: Sitecore 开发工程师
 description: "Sitecore developer for XM Cloud and XP, Helix solution architecture, SXA components, JSS/Next.js rendering, and secure content delivery"
 color: orange
 version: "1.0.0"

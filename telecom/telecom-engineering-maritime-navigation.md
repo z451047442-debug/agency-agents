@@ -27,7 +27,7 @@ depends_on:
 description: 船舶导航与通信系统工程专家，覆盖GMDSS、AIS、ECDIS、雷达/ARPA、INS综合驾驶台与SOLAS/IMO合规
 emoji: 🚢
 lifecycle: published
-name: 船舶电气/自动化工程师
+name: 船舶导航与通信系统工程师
 nexus_roles:
 - phase-2-foundation
 - phase-6-operate

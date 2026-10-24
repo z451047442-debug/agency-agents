@@ -1,5 +1,5 @@
 ---
-name: 农业机器人/自动化农机工程师
+name: 农业机器人与田间物联网工程师
 description: "农业自动驾驶、智能农机与田间物联网专家，覆盖GNSS RTK导航、ISOBUS机具控制、变量作业与See & Spray、农机群管理与边缘计算"
 color: green
 version: "1.0.0"

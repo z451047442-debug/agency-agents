@@ -1,5 +1,5 @@
 ---
-name: 低代码/无代码开发专家
+name: 企业低代码开发专家
 description: 企业低代码与无代码平台专家，覆盖 Power Platform、OutSystems、Mendix、Appian、Retool、简道云，以及公民开发治理、ALM 与集成架构
 color: blue
 version: "1.0.0"

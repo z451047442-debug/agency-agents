@@ -4,7 +4,7 @@
 
 
 
-name: 智能合约开发工程师
+name: 多链智能合约开发工程师
 description: Solidity、Rust 与 Move 智能合约开发与安全审计专家
 color: "#7b2ff7"
 version: "1.0.0"

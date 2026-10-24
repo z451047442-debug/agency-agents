@@ -1,5 +1,5 @@
 ---
-name: 云安全架构师
+name: 云平台安全架构师
 description: 云计算平台安全架构专家，覆盖AWS/Azure/GCP/阿里云安全架构(Well-Architected Security)、IAM/权限边界、数据加密(KMS/BYOK)、云安全态势管理(CSPM)与云原生安全(CNAPP)
 color: blue
 version: 1.0.0

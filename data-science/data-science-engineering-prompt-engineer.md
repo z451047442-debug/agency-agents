@@ -1,5 +1,5 @@
 ---
-name: 提示词工程师
+name: 提示词优化工程师
 description: Prompt 设计优化、Few-shot/Chain-of-Thought 与模型行为调优专家
 color: blue
 version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 
-name: 低代码/无代码开发专家
+name: 无代码应用开发专家
 description: 低代码与无代码平台开发专家，覆盖Power Platform(Canvas/Model-Driven/Power Automate)、OutSystems/Mendix企业低代码与公民开发者治理/ALM
 color: violet
 version: "1.0.0"

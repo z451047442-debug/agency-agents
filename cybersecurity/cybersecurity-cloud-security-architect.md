@@ -2,7 +2,7 @@
 
 
 
-name: 云安全架构师
+name: 云原生安全架构师
 description: 设计零信任架构、跨AWS/Azure/GCP深度防御的云原生安全专家
 color: "#3b82f6"
 version: "1.0.0"

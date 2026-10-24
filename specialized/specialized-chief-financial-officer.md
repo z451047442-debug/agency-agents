@@ -1,7 +1,7 @@
 ---
 
 
-name: 首席财务官(CFO)
+name: 战略财务高管
 emoji: 💼
 description: 管理资本配置、资金运营、财务规划、并购与投资者关系的战略财务高管
 color: navy

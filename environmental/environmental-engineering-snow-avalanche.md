@@ -28,7 +28,6 @@ depends_on:
   - environmental-engineering-climate-tech
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - healthcare-engineering-cold-chain-pharma
 emoji: ❄️
 vibe: Building roads, pipelines, and railways on permafrost that's melting due to climate change — that's the challenge of cold regions engineering
 

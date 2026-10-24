@@ -28,9 +28,6 @@ depends_on:
   - aerospace-engineering-aviation-safety
   - data-science-engineering-deep-learning-training
   - design-engineering-human-factors
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
-  - testing-engineering-test-automation-framework
 emoji: ✈️
 vibe: 70% of aviation accidents involve human error — not because pilots are careless, but because systems aren't designed for how humans actually think and work
 

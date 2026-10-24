@@ -22,7 +22,6 @@ depends_on:
   - food-beverage-engineering-food-sensory
   - food-beverage-food-scientist
   - food-beverage-multi-agent-coordinator
-  - sales-data-extraction-agent
 description: 替代蛋白与细胞农业科学家，覆盖植物蛋白提取/组织化挤压、细胞培养肉、精密发酵蛋白与新型食品法规(Novel Food/GRAS)
 emoji: 🧪
 lifecycle: published

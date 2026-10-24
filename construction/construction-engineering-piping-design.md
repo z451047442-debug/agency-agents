@@ -29,8 +29,6 @@ tags:
 depends_on:
   - construction-engineering-industrial-refrigeration
   - engineering-git-workflow-master
-  - marketing-abm-account-based
-  - marketing-paid-media-tracking-specialist
   - mining-safety
 emoji: 🔧
 vibe: Every refinery, every chemical plant, every power station is a maze of pipes — you design the arteries that carry steam, chemicals, and fuel safely

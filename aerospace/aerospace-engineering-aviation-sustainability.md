@@ -27,9 +27,7 @@ depends_on:
   - energy-carbon-market
   - energy-engineering-carbon-capture-storage
   - energy-engineering-hydrogen-fuel-cell
-  - finance-accounts-payable-agent
   - logistics-engineering-supply-chain-risk
-  - marketing-abm-account-based
 emoji: ✈️
 vibe: Aviation accounts for 2.5% of global CO2 — you chart the path to net-zero through sustainable fuels, hydrogen propulsion, and carbon markets
 

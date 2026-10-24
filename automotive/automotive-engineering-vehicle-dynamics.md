@@ -28,8 +28,6 @@ tags:
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 emoji: 🏎️
 vibe: The driver never feels a spring rate or a damper curve — they feel how the car answers the road, and that answer is written in forces and moments
 ---

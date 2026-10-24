@@ -19,7 +19,6 @@ depends_on:
   - engineering-code-reviewer
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist
-  - marketing-cross-border-ecommerce
 description: 跨境电商与小包物流(B2C)专家，覆盖9610/9710/9810海关监管方式、海外仓(FBA/第三方仓)头程/尾程物流、跨境小包/专线与目的国清关合规
 emoji: 🌏
 lifecycle: published

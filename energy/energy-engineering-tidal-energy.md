@@ -24,7 +24,6 @@ tags:
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
 description: 潮汐/潮流/波浪/温差海洋可再生能源专家，覆盖潮流能水轮机(水平轴/垂直轴/振荡水翼)、波浪能(振荡水柱OWC/点吸收/衰减器)、潮汐泻湖/堤坝与海上系泊/防腐/生物污损
 emoji: 🌊
 lifecycle: published

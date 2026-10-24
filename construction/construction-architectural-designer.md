@@ -29,9 +29,7 @@ depends_on:
   - construction-engineering-construction-materials
   - construction-engineering-noise-control
   - energy-engineering-wind-energy
-  - healthcare-engineering-regulatory-science
   - infrastructure-identity-access
-  - legal-engineering-legal-document-automation
 emoji: 🏛️
 vibe: Every building starts as a line on paper — you make that line worth inhabiting for generations
 

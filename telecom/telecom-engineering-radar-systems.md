@@ -17,7 +17,6 @@ tags:
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
-  - finance-cost-accountant
   - hr-performance-management
   - iot-engineering-industrial-iot-platform
   - telecom-5g-core

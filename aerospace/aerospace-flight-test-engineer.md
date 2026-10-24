@@ -26,8 +26,6 @@ tags:
 depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
-  - testing-engineering-test-automation-framework
-  - cybersecurity-security-architect
   - data-science-data-engineer
 emoji: 🛫
 vibe: Every aircraft must prove it can fly safely before it carries passengers — you design the tests that prove it, in the air, at the edge of the envelope

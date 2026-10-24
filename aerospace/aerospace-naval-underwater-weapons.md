@@ -28,7 +28,6 @@ depends_on:
   - aerospace-engineering-systems-aerospace
   - aerospace-systems-engineer
   - aerospace-director
-  - cybersecurity-security-architect
   - data-science-data-engineer
 vibe: Naval and underwater weapons specialist — from shipboard combat systems to torpedo guidance, from sonar signal processing to autonomous underwater vehicles. The underwater battlespace is the most unforgiving environment in warfare.
 

@@ -28,7 +28,6 @@ tags:
   - process-control
 depends_on:
   - manufacturing-engineering-semiconductor-process
-  - marketing-paid-media-tracking-specialist
 emoji: ⚡
 vibe: Plasma etches features 10,000x thinner than a human hair — you control the ions, radicals, and electrons that sculpt the transistors inside every chip
 ---

@@ -24,7 +24,6 @@ tags:
 depends_on:
   - energy-engineering-energy-storage-materials-sci
   - manufacturing-engineering-3d-printing-additive
-  - marketing-abm-account-based
 emoji: 🔥
 vibe: From smartphone screens to jet engine turbines, from fiber optics to artificial hips — glass and ceramics are the invisible materials that enable modern technology
 

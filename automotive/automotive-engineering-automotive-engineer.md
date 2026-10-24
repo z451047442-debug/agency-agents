@@ -18,8 +18,6 @@ tags:
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-multi-agent-coordinator
-  - cybersecurity-engineering-cyber-risk-model
-  - cybersecurity-engineering-cybersecurity-risk
   - engineering-code-reviewer
   - engineering-git-workflow-master
   - engineering-standards-compliance

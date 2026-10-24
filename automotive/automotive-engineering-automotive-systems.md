@@ -22,7 +22,6 @@ depends_on:
   - automotive-engineering-functional-safety
   - automotive-multi-agent-coordinator
   - automotive-vehicle-architecture
-  - marketing-paid-media-tracking-specialist
 description: "Automotive E/E architect covering zonal and central-compute topology, CAN FD/LIN/Ethernet networks, AUTOSAR, ASIL allocation, power distribution, and software-defined vehicle platforms"
 emoji: 🚗
 lifecycle: published

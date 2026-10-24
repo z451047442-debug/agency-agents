@@ -27,8 +27,6 @@ tags:
   - process
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 ---
 
 # ♻️ Battery Recycling & Second-Life Engineer

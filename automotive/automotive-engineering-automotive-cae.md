@@ -21,9 +21,6 @@ tags:
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
-  - cybersecurity-engineering-cyber-risk-model
-  - finance-engineering-credit-risk-model
-  - marketing-paid-media-tracking-specialist
 description: "Crashworthiness and passive-safety CAE engineer covering full-vehicle frontal, side, pole, rear and rollover simulation, occupant restraint modelling, pedestrian protection, battery intrusion, and correlation to physical tests"
 emoji: 🚗
 lifecycle: published

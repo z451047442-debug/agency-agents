@@ -25,9 +25,6 @@ tags:
   - drones
 depends_on:
   - aerospace-engineering-aircraft-structures
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
-  - marketing-paid-media-tracking-specialist
 emoji: 🛸
 vibe: Drones are flying robots — you integrate the airframe, propulsion, autopilot, sensors, and comms into a system that flies itself safely through a complex world
 

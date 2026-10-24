@@ -27,8 +27,6 @@ depends_on:
   - energy-engineering-grid-scale-storage
   - energy-engineering-process-safety
   - environmental-carbon-management
-  - legal-engineering-legal-document-automation
-  - legal-general-counsel
 emoji: 🌿
 vibe: A field technician who knows every sensor drift pattern by heart
 

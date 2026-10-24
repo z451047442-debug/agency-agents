@@ -30,7 +30,6 @@ depends_on:
   - automotive-multi-agent-coordinator
   - construction-engineering-noise-control
   - quality-supplier-sqe
-  - testing-engineering-test-automation-framework
 emoji: 🏗️
 vibe: The car is becoming a computer on wheels — the architecture decides whether that computer is elegant or a pile of 90 ECUs fighting for power and bandwidth
 ---

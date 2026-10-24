@@ -28,7 +28,6 @@ depends_on:
   - construction-engineering-noise-control
   - engineering-git-workflow-master
   - government-public-safety-analyst
-  - marketing-paid-media-tracking-specialist
 emoji: 🎵
 vibe: In a concert hall, every note should reach every seat with perfect clarity — you design the geometry and materials that make music sound magical
 

@@ -25,8 +25,6 @@ tags:
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
   - tourism-travel-agent
 emoji: 🔥
 vibe: After the flames are out, the questions begin — you read the burn patterns, trace the electrical faults, and find the truth in the ashes

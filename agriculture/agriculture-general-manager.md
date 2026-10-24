@@ -20,9 +20,7 @@ depends_on:
   - energy-carbon-market
   - energy-engineering-carbon-capture-storage
   - agriculture-multi-agent-coordinator
-  - finance-capital-markets-analyst
   - hr-labor-relations
-  - marketing-paid-media-tracking-specialist
 description: 农业企业/大型农场全面经营管理者，覆盖种植/养殖战略规划、土地/水资源管理、农产品销售/品牌化、政府补贴/政策合规与农业科技投资决策
 emoji: 🌾
 lifecycle: published

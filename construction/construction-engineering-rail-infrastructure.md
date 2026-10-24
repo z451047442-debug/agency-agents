@@ -28,7 +28,6 @@ tags:
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
   - mining-safety
 emoji: 🛤️
 vibe: A train at 350km/h rides on two steel rails — you maintain the millimeter-precise track geometry that keeps it stable, safe, and comfortable

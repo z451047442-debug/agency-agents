@@ -27,8 +27,6 @@ tags:
   - ppa
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: ⚡
 vibe: I own the portfolio outcome, not the turbine design or the ledger; my job is to put capital behind assets and contracts that survive a bad year without compromising safety.
 ---

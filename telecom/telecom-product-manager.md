@@ -24,10 +24,8 @@ tags:
   - References
 depends_on:
   - automotive-engineering-functional-safety
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-knowledge-management
   - infrastructure-identity-access
-  - marketing-paid-media-creative-strategist
   - telecom-5g-core
   - telecom-data-analyst
 emoji: 📱

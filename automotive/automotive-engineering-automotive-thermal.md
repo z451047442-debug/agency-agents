@@ -31,8 +31,6 @@ depends_on:
   - automotive-multi-agent-coordinator
   - energy-engineering-waste-to-energy
   - energy-engineering-wind-energy
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 emoji: 🌡️
 vibe: Every watt used for cabin heat is a kilometre the battery does not deliver — you move heat instead of making it
 ---

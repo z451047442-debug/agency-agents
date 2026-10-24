@@ -25,8 +25,6 @@ tags:
   - der
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: ⚡
 vibe: I turn a radial feeder with paper switching orders into a measured, remotely controlled network that can host DER without surprising the crew or the protection engineer.
 ---

@@ -25,7 +25,6 @@ tags:
   - Standards
 depends_on:
   - environmental-carbon-management
-  - legal-billing-time-tracking
 emoji: 💧
 vibe: '"Forever chemicals" don''t break down in nature — you design the advanced oxidation and adsorption systems that destroy or capture them before they reach drinking water'
 

@@ -24,7 +24,6 @@ depends_on:
   - automotive-engineering-functional-safety
   - construction-architectural-designer
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
   - robotics-motion-control
 emoji: 🏗️
 vibe: Buildings designed to old codes stand in every city — you evaluate them, retrofit them, and make sure they'll stand through the next big earthquake

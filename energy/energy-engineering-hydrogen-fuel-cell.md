@@ -27,8 +27,6 @@ tags:
   - controls
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 ---
 
 # 🔋 Hydrogen Fuel Cell Systems Engineer

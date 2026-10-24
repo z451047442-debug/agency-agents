@@ -29,7 +29,6 @@ depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
   - infrastructure-identity-access
-  - marketing-paid-media-tracking-specialist
   - robotics-motion-control
 emoji: 🏗️
 vibe: Earthquakes don't just shake buildings — they turn solid ground to liquid. You analyze the soils, predict liquefaction, and design foundations that survive when the earth moves.

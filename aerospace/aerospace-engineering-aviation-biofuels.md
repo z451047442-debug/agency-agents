@@ -29,14 +29,10 @@ tags:
   - certification
 depends_on:
   - aerospace-engineering-aviation-sustainability
-  - finance-accounts-payable-agent
-  - finance-engineering-credit-risk-model
   - food-beverage-food-safety
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-supply-chain-risk
-  - marketing-abm-account-based
   - quality-food-safety
-  - testing-engineering-test-automation-framework
 emoji: ✈️
 vibe: SAF is not a marketing attribute — it is a qualified fuel with a chain of custody and a carbon-intensity number that must survive an auditor
 ---

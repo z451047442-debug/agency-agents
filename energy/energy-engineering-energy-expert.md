@@ -24,7 +24,6 @@ tags:
   - Technical
 depends_on:
   - environmental-renewable-energy
-  - marketing-abm-account-based
 emoji: ⚡
 vibe: The energy transition is the biggest engineering challenge in human history — and you're in the middle of it.
 tools: Read, Write, Edit, WebFetch, WebSearch

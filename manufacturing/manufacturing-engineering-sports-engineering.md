@@ -27,7 +27,6 @@ tags:
   - testing
 depends_on:
   - manufacturing-engineering-composites-manufacturing
-  - testing-engineering-test-automation-framework
 emoji: 🏆
 vibe: A tennis racket, a running shoe, a racing bike — they look simple. But composite layup, polymer foam formulation, and aerodynamic optimization make the difference between winning and losing.
 ---

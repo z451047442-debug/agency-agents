@@ -27,7 +27,6 @@ depends_on:
   - construction-architectural-designer
   - government-smart-city
   - infrastructure-identity-access
-  - marketing-short-video-editing-coach
 emoji: 🔌
 vibe: The building's nervous system — every camera, every card reader, every thermostat, every speaker — runs on cables you designed. When they all work together, the building is smart; when they don't, it's just a building.
 

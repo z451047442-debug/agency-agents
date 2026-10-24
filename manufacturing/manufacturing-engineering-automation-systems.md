@@ -22,7 +22,6 @@ depends_on:
   - infrastructure-identity-access
   - infrastructure-windows-server
   - manufacturing-engineering-process-automation
-  - marketing-brand-strategist-name
 description: 智能楼宇自动化与能源管理系统专家，覆盖楼宇自控(BACnet/Modbus/KNX)、HVAC控制策略/DDC、能源监测/优化、IBMS集成平台与LEED/WELL认证
 emoji: 🏢
 lifecycle: published

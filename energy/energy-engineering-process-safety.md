@@ -19,8 +19,6 @@ tags:
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - finance-engineering-risk-quant
 description: 化工/石化/制药工艺安全管理专家，覆盖HAZOP/HAZID/LOPA保护层分析、SIL定级/验证(IEC 61511)、QRA定量风险评估/后果模拟(PHAST)与过程安全信息(PSI)
 emoji: ⚠️
 lifecycle: published

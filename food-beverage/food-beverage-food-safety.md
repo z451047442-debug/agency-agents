@@ -25,7 +25,6 @@ tags:
 depends_on:
   - automotive-engineering-functional-safety
   - data-science-engineering-knowledge-management
-  - education-assessment-specialist
   - engineering-programming-language
   - food-beverage-engineering-food-process
   - mining-safety

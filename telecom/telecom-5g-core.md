@@ -26,7 +26,6 @@ tags:
   - Scope
 depends_on:
   - automotive-autonomous-driving
-  - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access
   - infrastructure-network-engineering-engineering-network-protocol
   - telecom-data-analyst

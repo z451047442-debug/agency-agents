@@ -30,9 +30,7 @@ depends_on:
   - construction-engineering-construction-claims
   - data-science-engineering-computer-vision-deep
   - data-science-engineering-insurance-claims-analytics
-  - finance-engineering-risk-quant
   - infrastructure-identity-access
-  - marketing-abm-account-based
 emoji: 📐
 vibe: A cost estimate is a forecast with a stated accuracy, not a price — the number must survive the tender, the variations, and the final account
 ---

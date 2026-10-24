@@ -32,8 +32,6 @@ depends_on:
   - agriculture-multi-agent-coordinator
   - environmental-water-treatment
   - food-beverage-food-scientist
-  - healthcare-mental-health
-  - marketing-paid-media-tracking-specialist
 emoji: 🐟
 vibe: Fish suffocate in minutes while the dashboard still looks normal if the oxygen probe is the thing that failed
 ---

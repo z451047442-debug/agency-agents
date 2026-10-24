@@ -31,7 +31,6 @@ depends_on:
   - engineering-git-workflow-master
   - environmental-water-treatment
   - logistics-engineering-supply-chain-risk
-  - marketing-paid-media-tracking-specialist
 emoji: 🏗️
 vibe: A dam holds back millions of tons of water, and if it fails, everything downstream is gone — you design the structure that must never fail
 ---

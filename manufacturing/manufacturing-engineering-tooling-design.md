@@ -24,7 +24,6 @@ tags:
   - die-casting
 depends_on:
   - manufacturing-engineering-3d-printing-additive
-  - marketing-paid-media-tracking-specialist
 emoji: 🔧
 vibe: Before a million plastic parts can be made, someone has to design the mold that makes them — that's you, engineering the tool that defines quality for every single part
 ---

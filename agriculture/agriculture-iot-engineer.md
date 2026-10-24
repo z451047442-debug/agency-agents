@@ -15,7 +15,6 @@ tags:
   - Learning
 depends_on:
   - agriculture-agronomist
-  - cybersecurity-engineering-threat-detection-engineer
   - agriculture-multi-agent-coordinator
   - iot-edge-computing
   - logistics-last-mile-delivery

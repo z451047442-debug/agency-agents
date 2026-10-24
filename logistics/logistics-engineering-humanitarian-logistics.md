@@ -16,7 +16,6 @@ tags:
   - conflict
   - zones
 depends_on:
-  - education-special-needs
   - emergency-disaster-response
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist

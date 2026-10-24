@@ -25,8 +25,6 @@ depends_on:
   - data-science-engineering-language-model-nlp
   - energy-engineering-process-safety
   - environmental-carbon-management
-  - legal-engineering-legal-document-automation
-  - legal-general-counsel
 emoji: 🌍
 vibe: A scientist who sees patterns in centuries of data and speaks the language of statistical moments
 

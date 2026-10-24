@@ -32,7 +32,6 @@ depends_on:
   - construction-multi-agent-coordinator
   - energy-engineering-wind-energy
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
 emoji: 🏢
 vibe: A skyscraper's skin keeps out wind, rain, and heat while letting in light and
   views — you design the façade that makes tall buildings habitable

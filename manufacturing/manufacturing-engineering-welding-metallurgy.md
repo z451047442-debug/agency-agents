@@ -26,7 +26,6 @@ tags:
   - fabrication
   - NDT
 depends_on:
-  - legal-engineering-legal-document-automation
   - manufacturing-engineering-3d-printing-additive
 emoji: 🔥
 vibe: Every skyscraper, every ship, every pipeline is held together by welds — you design the procedures that join metal with metallurgical integrity

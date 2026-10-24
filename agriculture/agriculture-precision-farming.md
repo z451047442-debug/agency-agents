@@ -16,10 +16,8 @@ tags:
 depends_on:
   - agriculture-engineering-iot-agriculture
   - data-science-feature-store
-  - education-special-needs
   - agriculture-multi-agent-coordinator
   - environmental-water-treatment
-  - testing-test-results-analyzer
 description: 精准农业与数字农艺专家，覆盖遥感监测、变量施肥、产量预测、土壤建模与农业数据分析
 emoji: 🌾
 lifecycle: published

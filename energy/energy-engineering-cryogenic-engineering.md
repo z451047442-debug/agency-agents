@@ -30,8 +30,6 @@ tags:
   - vacuum
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: 🧊
 vibe: At 4.2 K, removing one watt costs several hundred watts at room temperature, and a magnet storing 20 MJ can dump it into a few kilograms of copper in seconds — every milliwatt and every millisecond is designed
 ---

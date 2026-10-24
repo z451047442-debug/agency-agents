@@ -30,7 +30,6 @@ depends_on:
   - construction-architectural-designer
   - data-science-engineering-deep-learning-training
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
 emoji: ⛑️
 vibe: Construction is one of the most dangerous industries on Earth — you're the person who makes sure every worker goes home to their family at the end of the day
 ---

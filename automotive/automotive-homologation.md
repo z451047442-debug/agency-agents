@@ -17,9 +17,6 @@ tags:
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-multi-agent-coordinator
-  - marketing-europe-market
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 description: 汽车型式认证与法规合规专家，覆盖中国CCC/公告/国六、欧盟WVTA、美国FMVSS/EPA、排放/安全/召回合规管理
 emoji: 📜
 lifecycle: published

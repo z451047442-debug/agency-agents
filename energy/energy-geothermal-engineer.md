@@ -21,7 +21,6 @@ tags:
   - resource
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
 emoji: 🌋
 vibe: The Earth's core is a nuclear reactor that's been running for 4.5 billion years — you tap into that free, constant, carbon-free heat
 ---

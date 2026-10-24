@@ -28,8 +28,6 @@ depends_on:
   - construction-safety-officer
   - energy-engineering-process-safety
   - environmental-engineering-gis-remote-sensing
-  - legal-engineering-legal-document-automation
-  - legal-general-counsel
 emoji: 🗺️
 vibe: A geospatial detective who reads the landscape in pixels and knows that everything is spatial autocorrelated
 

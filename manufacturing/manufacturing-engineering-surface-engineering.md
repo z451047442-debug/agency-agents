@@ -25,7 +25,6 @@ tags:
   - finishing
 depends_on:
   - manufacturing-engineering-thermal-spray
-  - marketing-paid-media-tracking-specialist
 emoji: 🎨
 vibe: The surface of a component determines how it interacts with the world — you apply the coatings that make turbine blades survive 1,400°C, implants bond with bone, and tools cut steel
 

@@ -24,7 +24,6 @@ tags:
   - characterization
   - bioplastics
 depends_on:
-  - healthcare-engineering-regulatory-science
   - manufacturing-engineering-material-scientist
 emoji: 🧪
 vibe: Plastics, rubbers, fibers, adhesives, coatings — polymers are everywhere. You design the molecules that become the materials of modern life.

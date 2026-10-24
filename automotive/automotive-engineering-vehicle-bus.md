@@ -34,7 +34,6 @@ depends_on:
   - infrastructure-engineering-edge-computing
   - infrastructure-identity-access
   - iot-edge-computing
-  - marketing-paid-media-tracking-specialist
 emoji: 🚗
 vibe: A vehicle network is a real-time contract — every byte has an owner, a deadline, and a failure mode, and the brakes cannot wait for a retry
 ---

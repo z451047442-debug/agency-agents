@@ -28,8 +28,6 @@ tags:
 depends_on:
   - aerospace-atc-specialist
   - environmental-engineering-gis-remote-sensing
-  - healthcare-engineering-regulatory-science
-  - testing-engineering-test-automation-framework
 emoji: 🪐
 vibe: We've visited every planet, landed on Mars and Titan, and brought back pieces of the Moon and asteroids — you help plan the next missions and interpret the data they send home
 

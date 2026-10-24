@@ -28,7 +28,6 @@ depends_on:
   - environmental-engineering-packaging-sustainability
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - healthcare-engineering-cold-chain-pharma
   - pharma-biotech-pharma-regulatory-affairs
 emoji: 🧪
 vibe: Every chemical reaction produces waste — you redesign synthesis routes to minimize solvents, maximize atom economy, and make chemistry sustainable by design

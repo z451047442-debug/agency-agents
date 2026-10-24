@@ -28,8 +28,6 @@ tags:
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - automotive-multi-agent-coordinator
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 emoji: 🔇
 vibe: A quiet car is not an empty car — it is a car where every remaining sound was chosen, placed, and balanced on purpose
 ---

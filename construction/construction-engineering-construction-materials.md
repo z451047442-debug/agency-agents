@@ -27,8 +27,6 @@ depends_on:
   - construction-architectural-designer
   - engineering-code-reviewer
   - engineering-git-workflow-master
-  - legal-engineering-legal-document-automation
-  - marketing-paid-media-tracking-specialist
   - mining-safety
   - robotics-motion-control
 emoji: 🧱

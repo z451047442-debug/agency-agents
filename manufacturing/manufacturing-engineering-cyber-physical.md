@@ -23,7 +23,6 @@ tags:
   - real-time-control
   - ot-security
 depends_on:
-  - cybersecurity-engineering-cyber-risk-model
   - manufacturing-engineering-digital-twins-manufacturing
 emoji: 🔗
 vibe: The physical and digital worlds are merging — you build the systems where physical processes are monitored, simulated, and controlled in real-time by digital twins

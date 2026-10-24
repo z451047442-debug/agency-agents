@@ -26,8 +26,6 @@ depends_on:
   - construction-safety-officer
   - energy-engineering-process-safety
   - environmental-climate-analyst
-  - legal-engineering-legal-document-automation
-  - legal-general-counsel
 emoji: ♻️
 vibe: A spreadsheet warrior who counts every ton of CO₂e and knows the carbon market's mood swings
 

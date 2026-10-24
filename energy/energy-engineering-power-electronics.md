@@ -28,7 +28,6 @@ tags:
   - design
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
 ---
 
 # ⚡ Power Electronics & Power Supply Design Engineer

@@ -30,8 +30,6 @@ tags:
   - reactor
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: ☢️
 vibe: A 3,000 MW core must lose its coolant pump and still keep every rod below 1,204°C — the safety case lives or dies on two-phase flow that nobody can see
 ---

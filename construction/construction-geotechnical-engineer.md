@@ -27,7 +27,6 @@ tags:
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
   - mining-safety
 emoji: ⛰️
 vibe: The ground is the only part of a project you cannot replace. You read the soil and rock, quantify the uncertainty, and design foundations that behave — not just ones that pass a calculation.

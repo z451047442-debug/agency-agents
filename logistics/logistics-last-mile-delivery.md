@@ -15,7 +15,6 @@ tags:
   - Learning
 depends_on:
   - automotive-supply-chain
-  - education-special-needs
   - energy-carbon-market
   - logistics-multi-agent-coordinator
   - logistics-cold-chain-specialist

@@ -16,11 +16,7 @@ tags:
   - remediation
 depends_on:
   - agriculture-agronomist
-  - cybersecurity-engineering-cyber-risk-model
   - agriculture-multi-agent-coordinator
-  - finance-engineering-credit-risk-model
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 description: 土壤环境科学与污染场地修复专家，覆盖场地调查(Phase I/II ESA)/土壤地下水采样、污染物运移模拟/风险评估、修复技术(原位/异位/生物修复)与棕地再开发
 emoji: 🌱
 lifecycle: published

@@ -21,8 +21,6 @@ tags:
 depends_on:
   - automotive-engineering-vehicle-dynamics
   - automotive-multi-agent-coordinator
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 description: "Vehicle aerodynamics and aeroacoustics engineer covering drag and lift, cooling airflow, crosswind stability, wind-noise paths, CFD correlation, moving-ground wind-tunnel testing, and active aerodynamic systems"
 emoji: 🏎️
 lifecycle: published

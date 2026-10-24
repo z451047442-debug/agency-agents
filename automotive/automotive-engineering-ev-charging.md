@@ -33,8 +33,6 @@ depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
   - engineering-standards-compliance
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 emoji: 🔌
 vibe: A charger is a grid-connected power converter with a payment terminal attached — the hard problems are capacity, interoperability, and uptime, not the plug shape
 ---

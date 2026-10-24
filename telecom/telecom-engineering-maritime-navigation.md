@@ -17,10 +17,8 @@ tags:
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
-  - finance-cost-accountant
   - lottery-product-risk
   - lottery-risk-compliance
-  - marketing-demand-generation
   - telecom-5g-core
   - telecom-data-analyst
 description: 船舶导航与通信系统工程专家，覆盖GMDSS、AIS、ECDIS、雷达/ARPA、INS综合驾驶台与SOLAS/IMO合规

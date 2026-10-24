@@ -28,7 +28,6 @@ depends_on:
   - agriculture-agronomist
   - automotive-engineering-functional-safety
   - infrastructure-identity-access
-  - marketing-paid-media-tracking-specialist
 emoji: 🚜
 vibe: From field to fork in 48 hours — the supply chain that feeds a nation doesn't forgive a single broken link.
 tools: Read, Write, Edit, Data Analysis, Web Search

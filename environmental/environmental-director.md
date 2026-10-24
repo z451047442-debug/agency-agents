@@ -30,7 +30,6 @@ depends_on:
   - environmental-engineering-circular-economy
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - marketing-abm-account-based
 emoji: 🌍
 vibe: Sustainability isn't a report — it's a business transformation. You lead the change from compliance-driven to strategy-driven environmental management.
 

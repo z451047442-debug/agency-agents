@@ -27,7 +27,6 @@ depends_on:
   - energy-engineering-carbon-capture-storage
   - engineering-git-workflow-master
   - infrastructure-identity-access
-  - marketing-paid-media-tracking-specialist
   - tourism-cultural-heritage
 emoji: 🏛️
 vibe: Fire, flood, war — cultural heritage is fragile. You create the 3D digital twins that preserve humanity's treasures for eternity, accessible to anyone, anywhere.

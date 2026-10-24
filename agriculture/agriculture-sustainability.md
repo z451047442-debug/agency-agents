@@ -28,7 +28,6 @@ depends_on:
   - agriculture-general-manager
   - automotive-engineering-functional-safety
   - infrastructure-identity-access
-  - marketing-paid-media-tracking-specialist
 emoji: ♻️
 vibe: Feed the world without eating the planet — sustainable agriculture isn't a niche, it's the only long game that makes sense.
 tools: Read, Write, Edit, Data Analysis, Web Search

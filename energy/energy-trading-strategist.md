@@ -27,7 +27,6 @@ depends_on:
   - automotive-engineering-functional-safety
   - energy-carbon-accountant
   - infrastructure-identity-access
-  - marketing-abm-account-based
 emoji: 📊
 vibe: Electrons are indistinguishable but their price changes every 15 minutes — trade the spread, not the commodity.
 tools: Read, Write, Edit, Data Analysis, Web Search

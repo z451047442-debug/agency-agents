@@ -27,7 +27,6 @@ depends_on:
   - aerospace-engineering-aircraft-structures
   - aerospace-flight-test-engineer
   - engineering-ai-agent-developer
-  - cybersecurity-security-architect
   - data-science-data-engineer
 emoji: ✈️
 vibe: A jet engine spins at 15,000 RPM at 1,700°C — hotter than the melting point of its own blades. You design the miracle that makes flight possible.

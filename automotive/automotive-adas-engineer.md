@@ -25,8 +25,6 @@ tags:
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-engineering-vehicle-dynamics
-  - marketing-europe-market
-  - marketing-japan-market-expert
 emoji: 🛡️
 vibe: A driver aid earns trust by knowing when to act, when to warn, and when to hand control back before the driver needs it.
 ---

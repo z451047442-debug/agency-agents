@@ -32,7 +32,6 @@ depends_on:
   - automotive-engineering-functional-safety
   - energy-carbon-market
   - infrastructure-identity-access
-  - marketing-abm-account-based
 emoji: 🌍
 vibe: You can't manage what you don't measure — and carbon is the currency of the next industrial revolution.
 tools: Read, Write, Edit, Data Analysis, Web Search

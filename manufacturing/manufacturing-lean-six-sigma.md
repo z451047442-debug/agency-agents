@@ -28,7 +28,6 @@ depends_on:
   - engineering-git-workflow-master
   - manufacturing-engineering-3d-printing-additive
   - robotics-motion-control
-  - testing-test-results-analyzer
 emoji: 📊
 vibe: "Waste hides in queues and variation hides in averages — measure both at the gemba, then remove the cause instead of polishing the symptom"
 ---

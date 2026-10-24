@@ -13,8 +13,6 @@ tags:
   - Technical
 depends_on:
   - logistics-multi-agent-coordinator
-  - healthcare-engineering-cold-chain-pharma
-  - healthcare-engineering-regulatory-science
   - pharma-biotech-pharma-regulatory-affairs
 description: 温控供应链管理专家，覆盖冷藏/冷冻运输、冷链仓储、温度监控、GDP合规与生鲜/医药冷链解决方案
 emoji: ❄️

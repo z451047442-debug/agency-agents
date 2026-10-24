@@ -28,7 +28,6 @@ tags:
   - governance
 depends_on:
   - manufacturing-engineering-composites-manufacturing
-  - testing-engineering-test-automation-framework
 emoji: 🤖
 vibe: Millions of hours are wasted on repetitive computer tasks — you automate them, freeing humans to do what humans do best
 ---

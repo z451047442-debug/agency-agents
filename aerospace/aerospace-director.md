@@ -26,14 +26,12 @@ tags:
   - across
   - commercial
 depends_on:
-  - cybersecurity-engineering-cyber-risk-model
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-supply-chain-analytics
   - logistics-engineering-supply-chain-risk
   - logistics-engineering-supply-chain-software
   - manufacturing-supply-chain-planner
-  - marketing-customer-lifecycle
 emoji: 🚀
 vibe: In aerospace, failure is not an option — literally. You lead programs where a single error can cost lives and billions of dollars.
 

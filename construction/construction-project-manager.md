@@ -31,7 +31,6 @@ depends_on:
   - construction-engineering-construction-claims
   - construction-engineering-construction-materials
   - environmental-engineering-weather-forecast
-  - finance-bank-relationship
 emoji: 🏗️
 vibe: The estimate wins the job; the programme, the crews, and the hold points deliver it — a construction manager controls the interface between plan and site
 ---

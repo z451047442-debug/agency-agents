@@ -25,9 +25,6 @@ depends_on:
   - construction-safety-officer
   - energy-engineering-offshore-wind
   - environmental-carbon-management
-  - legal-engineering-legal-document-automation
-  - legal-environmental-attorney
-  - legal-general-counsel
 emoji: ☀️
 vibe: An engineer who measures everything in kWh/m² and talks to inverters more than people
 

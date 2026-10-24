@@ -24,8 +24,6 @@ tags:
   - protection
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
   - specialized-document-generator
 emoji: ⚡
 vibe: The interconnect has no undo button; I study the contingency before it happens, validate the model against the disturbance, and keep frequency and voltage inside limits while the generation mix changes.

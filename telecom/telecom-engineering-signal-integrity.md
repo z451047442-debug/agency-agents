@@ -16,11 +16,8 @@ tags:
   - integrity
   - Ensured
 depends_on:
-  - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
-  - finance-cost-accountant
-  - finance-engineering-credit-risk-model
   - telecom-5g-core
   - telecom-data-analyst
 description: 高速数字系统信号与电源完整性专家，覆盖SerDes/DDR/PCIe高速接口SI仿真(HFSS/SIwave)、PDN阻抗/去耦电容优化、IBIS-AMI/TDR/VNA测量与PCB

@@ -26,8 +26,6 @@ tags:
   - commercial
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: 🚢
 vibe: Ships are floating cities that survive hurricanes — you design vessels that are stable, seaworthy, and efficient across the world's most hostile environment
 

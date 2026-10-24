@@ -29,7 +29,6 @@ depends_on:
   - environmental-carbon-management
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - legal-engineering-legal-document-automation
 emoji: 🌬️
 vibe: Every factory chimney, every car tailpipe, every power plant stack — you model where the emissions go, who they affect, and how to clean them up
 

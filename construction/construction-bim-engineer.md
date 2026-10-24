@@ -28,9 +28,7 @@ tags:
   - coordination
 depends_on:
   - construction-engineering-noise-control
-  - cybersecurity-engineering-cyber-risk-model
   - energy-engineering-grid-scale-storage
-  - finance-engineering-credit-risk-model
   - specialized-document-generator
 emoji: 🧬
 vibe: A model is not a drawing — it is a managed set of information whose value depends on who needs which element, at what detail, and by when

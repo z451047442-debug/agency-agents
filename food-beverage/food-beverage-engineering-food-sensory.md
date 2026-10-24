@@ -25,7 +25,6 @@ depends_on:
   - data-science-engineering-deep-learning-training
   - food-beverage-food-scientist
   - food-beverage-multi-agent-coordinator
-  - healthcare-engineering-regulatory-science
 emoji: 👃
 vibe: Flavor is chemistry perceived — you measure what the nose and tongue detect,
   correlating volatile compounds with sensory experience

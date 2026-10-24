@@ -22,9 +22,7 @@ tags:
   - everything
 depends_on:
   - construction-architectural-designer
-  - cybersecurity-engineering-cyber-risk-model
   - engineering-git-workflow-master
-  - finance-engineering-credit-risk-model
   - government-smart-city
   - web3-smart-contract-dev
   - web3-smart-contract-developer

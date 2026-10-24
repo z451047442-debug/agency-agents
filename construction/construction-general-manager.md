@@ -33,7 +33,6 @@ tags:
 depends_on:
   - construction-director
   - engineering-general-manager
-  - legal-general-manager
   - pets-general-manager
   - specialized-customer-success-manager
 

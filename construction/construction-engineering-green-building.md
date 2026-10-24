@@ -23,13 +23,10 @@ tags:
   - net-zero
 depends_on:
   - construction-engineering-construction-materials
-  - cybersecurity-engineering-cyber-risk-model
   - energy-engineering-energy-storage-materials-sci
   - engineering-git-workflow-master
   - environmental-renewable-energy
-  - finance-engineering-credit-risk-model
   - logistics-engineering-supply-chain-risk
-  - marketing-demand-generation
 emoji: 🏢
 vibe: Buildings consume 40% of energy and produce 40% of emissions — you design the ones that produce more energy than they consume
 ---

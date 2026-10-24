@@ -26,8 +26,6 @@ tags:
   - safe
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: ☢️
 vibe: Building a nuclear plant is hard; decommissioning one safely, decades after it was built, with incomplete records — that's a different kind of hard
 

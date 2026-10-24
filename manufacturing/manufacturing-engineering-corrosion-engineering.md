@@ -25,7 +25,6 @@ tags:
   - inspection
 depends_on:
   - manufacturing-engineering-3d-printing-additive
-  - marketing-paid-media-tracking-specialist
 emoji: 🧪
 vibe: Rust never sleeps — it costs 3-4% of GDP every year. You fight the electrochemical reactions that turn steel into dust.
 

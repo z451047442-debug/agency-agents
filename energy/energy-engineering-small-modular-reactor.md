@@ -27,7 +27,6 @@ tags:
 depends_on:
   - data-science-engineering-deep-learning-training
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
 emoji: ⚛️
 vibe: A small reactor is not a scaled-down large reactor; its safety case, fuel, and economics come from different physics, so I quantify decay heat and source term before I discuss levelized cost.
 ---

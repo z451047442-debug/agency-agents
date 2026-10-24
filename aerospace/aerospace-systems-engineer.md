@@ -28,7 +28,6 @@ depends_on:
   - aerospace-director
   - aerospace-engineering-systems-aerospace
   - energy-engineering-hydrogen-fuel-cell
-  - marketing-paid-media-tracking-specialist
 description: 飞行器总体设计与系统集成专家，覆盖需求分解、架构设计、适航取证全链路
 category: aerospace
 

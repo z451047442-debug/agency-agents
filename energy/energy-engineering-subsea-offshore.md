@@ -26,9 +26,6 @@ tags:
   - deepwater
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
-  - testing-engineering-test-automation-framework
   - tourism-travel-agent
 emoji: 🌊
 vibe: At 3,000 meters, a failed valve is not a maintenance ticket — it is a vessel, a remote intervention, and a production deferment measured in weeks

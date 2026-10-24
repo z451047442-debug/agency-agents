@@ -20,9 +20,7 @@ tags:
   - p-and-l
 depends_on:
   - logistics-multi-agent-coordinator
-  - finance-accounts-payable-agent
   - logistics-cold-chain-specialist
-  - marketing-abm-account-based
   - thinking-models-tech-leaders
 description: 第三方物流(3PL)/合同物流企业总经理，覆盖战略客户开发与续约、仓储/运输网络规划、成本与营运资金管理、EBITDA提升与安全合规
 emoji: 🚛

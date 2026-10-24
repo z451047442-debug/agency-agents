@@ -28,7 +28,6 @@ tags:
 depends_on:
   - environmental-engineering-ecosystem-restoration
   - environmental-engineering-gis-remote-sensing
-  - finance-engineering-credit-risk-model
   - logistics-engineering-supply-chain-risk
 emoji: 🦉
 vibe: The forest is not just trees — it is a living, breathing system that holds half of Earth's biodiversity, stores centuries of carbon, and whispers the planet's oldest stories to those who know how to listen.

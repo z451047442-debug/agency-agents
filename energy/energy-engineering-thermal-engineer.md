@@ -28,9 +28,6 @@ tags:
   - reliability
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
-  - testing-engineering-test-automation-framework
 ---
 
 # 🌡️ Thermal Design & Electronics Cooling Engineer

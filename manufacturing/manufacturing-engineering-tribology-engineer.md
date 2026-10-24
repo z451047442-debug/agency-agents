@@ -27,7 +27,6 @@ tags:
   - wear
 depends_on:
   - manufacturing-engineering-3d-printing-additive
-  - marketing-paid-media-tracking-specialist
 emoji: ⚙️
 vibe: Every moving part in every machine wears out — you understand why, and you design the surfaces, lubricants, and materials that make them last longer
 

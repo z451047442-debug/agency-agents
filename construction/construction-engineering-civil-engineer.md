@@ -25,10 +25,8 @@ tags:
 depends_on:
   - construction-architectural-designer
   - construction-multi-agent-coordinator
-  - cybersecurity-engineering-threat-detection-engineer
   - engineering-embedded-database
   - environmental-circular-economy-design
-  - testing-test-results-analyzer
   - thinking-models-decision-frameworks
 emoji: 🏗️
 vibe: Designs structures that stand across borders — from seismic Tokyo to wind-swept

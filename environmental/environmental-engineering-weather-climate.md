@@ -27,7 +27,6 @@ tags:
   - analytics
 depends_on:
   - agriculture-engineering-soil-science
-  - cybersecurity-engineering-cyber-risk-model
   - environmental-engineering-climate-tech
   - environmental-engineering-weather-forecast
   - food-beverage-food-supply-chain

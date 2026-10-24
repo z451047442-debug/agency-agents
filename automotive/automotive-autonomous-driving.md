@@ -23,9 +23,7 @@ tags:
   - fleet-operations
 depends_on:
   - automotive-vehicle-architecture
-  - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp
-  - finance-engineering-credit-risk-model
   - logistics-engineering-supply-chain-risk
   - manufacturing-supply-chain-planner
 emoji: 🚗

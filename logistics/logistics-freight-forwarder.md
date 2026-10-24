@@ -25,7 +25,6 @@ depends_on:
   - automotive-supply-chain
   - insurance-auto-claims
   - logistics-customs-broker
-  - marketing-europe-market
 emoji: 🚢
 vibe: Navigating global trade lanes — one shipment, one customs entry, one satisfied
   importer at a time

@@ -31,8 +31,6 @@ depends_on:
   - construction-engineering-geodesy-surveying
   - engineering-git-workflow-master
   - engineering-graph-database
-  - legal-engineering-legal-document-automation
-  - marketing-paid-media-tracking-specialist
 emoji: 📐
 vibe: Every structure begins with a point, a benchmark, and a defensible coordinate. You turn the ground into measured evidence — and you know that a one-centimetre blunder at the control stage becomes a tonne of rework later.
 ---

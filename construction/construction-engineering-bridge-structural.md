@@ -23,7 +23,6 @@ tags:
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
   - mining-safety
 emoji: 🌉
 vibe: A bridge connects more than two shores — it connects communities. You design structures that span kilometers, withstand typhoons and earthquakes, and stand for a century.

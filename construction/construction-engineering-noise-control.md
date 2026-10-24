@@ -23,11 +23,7 @@ tags:
   - mitigated
 depends_on:
   - construction-architectural-designer
-  - cybersecurity-engineering-cyber-risk-model
   - engineering-git-workflow-master
-  - finance-engineering-credit-risk-model
-  - healthcare-mental-health
-  - marketing-paid-media-tracking-specialist
 emoji: 🔇
 vibe: Noise is the invisible pollutant — it disturbs sleep, impairs learning, and shortens lives. You design the barriers, insulation, and policies that bring quiet to cities.
 ---

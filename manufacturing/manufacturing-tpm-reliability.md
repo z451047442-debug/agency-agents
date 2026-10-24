@@ -27,7 +27,6 @@ tags:
   - condition-monitoring
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
-  - testing-engineering-reliability-testing
 emoji: 🔧
 vibe: "A machine does not care about your schedule — choose the maintenance task from the failure mode, not from the calendar or the vendor's brochure"
 ---

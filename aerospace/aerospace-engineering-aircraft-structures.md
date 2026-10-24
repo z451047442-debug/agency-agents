@@ -21,11 +21,8 @@ tags:
 depends_on:
   - aerospace-engineering-aviation-engineering
   - aerospace-multi-agent-coordinator
-  - finance-accounts-payable-agent
   - infrastructure-engineering-site-reliability-architect
   - infrastructure-engineering-site-reliability-automation
-  - marketing-abm-account-based
-  - testing-engineering-test-automation-framework
 description: "Civil aircraft structures engineer for metallic and composite airframes: static strength, fatigue and damage tolerance, finite element analysis, certification to CS-25/FAR 25.571, and weight optimization"
 emoji: ✈️
 lifecycle: published

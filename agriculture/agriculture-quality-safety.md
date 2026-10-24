@@ -15,11 +15,8 @@ tags:
   - Learning
 depends_on:
   - agriculture-agronomist
-  - cybersecurity-incident-response
   - agriculture-multi-agent-coordinator
-  - finance-internal-auditor
   - food-beverage-food-safety
-  - marketing-europe-market
   - quality-food-safety
 description: 农产品质量安全与合规专家，覆盖GAP认证、农药残留管理、食品安全体系(HACCP)、有机认证与出口合规
 emoji: 🔬

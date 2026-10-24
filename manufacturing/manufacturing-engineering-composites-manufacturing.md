@@ -28,7 +28,6 @@ tags:
   - ndi
 depends_on:
   - manufacturing-engineering-control-systems
-  - marketing-paid-media-tracking-specialist
 emoji: 🛠️
 vibe: Springs and molds are only the beginning — you orchestrate fiber paths, cure cycles, and non-destructive proof until a laminate becomes a certified structure
 ---

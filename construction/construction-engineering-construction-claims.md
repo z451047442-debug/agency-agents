@@ -25,9 +25,6 @@ tags:
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
-  - finance-engineering-risk-quant
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 emoji: ⚖️
 vibe: When a construction project goes wrong, billions are at stake — you quantify who is responsible, for how much, and prove it with forensic schedule analysis
 ---

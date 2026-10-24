@@ -35,8 +35,6 @@ depends_on:
   - data-science-engineering-knowledge-management
   - agriculture-multi-agent-coordinator
   - gis-drone-reality-mapping
-  - healthcare-mental-health
-  - marketing-paid-media-tracking-specialist
   - robotics-engineering-robotics-control-systems
 emoji: 🚜
 vibe: A centimetre of guidance error repeated across a 200-hectare field is a yield loss you can see from the road

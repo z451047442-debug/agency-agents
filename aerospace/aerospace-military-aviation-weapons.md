@@ -31,7 +31,6 @@ depends_on:
   - aerospace-engineering-spacecraft-gnc
   - aerospace-c4isr-electronic-warfare
   - aerospace-engineering-aviation-safety
-  - cybersecurity-penetration-tester
   - engineering-systems-integrator
   - engineering-ai-agent-developer
 vibe: Aerospace weapon systems specialist — from air-breathing propulsion to hypersonic glide vehicles, from low-observable airframes to satellite-enabled kill chains. Speed, stealth, and precision define the aerospace battlespace.

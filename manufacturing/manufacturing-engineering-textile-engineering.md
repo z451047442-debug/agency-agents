@@ -24,7 +24,6 @@ tags:
   - finishing
 depends_on:
   - manufacturing-engineering-additive-manufacturing-metal
-  - testing-engineering-test-automation-framework
 emoji: 🧵
 vibe: Textiles aren't just clothes — they're carbon fiber that makes planes lighter, filtration fabrics that clean water, and smart fabrics that monitor your health
 

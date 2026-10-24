@@ -24,8 +24,6 @@ tags:
   - Tools
 depends_on:
   - aerospace-atc-specialist
-  - cybersecurity-engineering-cyber-risk-model
-  - testing-engineering-test-automation-framework
 emoji: 🚀
 vibe: When failure means loss of mission or loss of life, systems engineering is not bureaucracy — it's the discipline that ensures everything works together the first time
 

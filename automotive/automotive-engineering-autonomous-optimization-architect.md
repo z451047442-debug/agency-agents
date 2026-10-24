@@ -21,8 +21,6 @@ depends_on:
   - engineering-git-workflow-master
   - engineering-olap-database
   - specialized-agentic-identity-trust
-  - testing-performance-benchmarker
-  - testing-tool-evaluator
 description: LLM 路由、成本优化与影子测试专家
 emoji: ⚡
 lifecycle: published

@@ -23,8 +23,6 @@ tags:
   - executed
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: 🛢️
 vibe: A mile below the seabed, drilling sideways within a 2-meter target zone — that's directional drilling, navigating through rock guided by real-time subsurface data
 ---

@@ -5,8 +5,6 @@ depends_on:
   - agriculture-general-manager
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics
-  - legal-billing-time-tracking
-  - legal-document-review
   - specialized-multi-agent-director
   - specialized-multi-agent-president
   - specialized-multi-agent-project-manager

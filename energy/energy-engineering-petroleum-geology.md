@@ -25,7 +25,6 @@ tags:
   - hydrocarbon
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
 emoji: 🔍
 vibe: Oil hides kilometers underground — you turn seismic, rock, and well evidence into a risked target before anyone spends money on a bit
 ---

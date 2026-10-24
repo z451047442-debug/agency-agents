@@ -24,11 +24,7 @@ tags:
   - Metrics
 depends_on:
   - aerospace-flight-test-engineer
-  - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training
-  - finance-engineering-credit-risk-model
-  - marketing-abm-account-based
-  - testing-engineering-test-automation-framework
   - tourism-travel-agent
 emoji: 🛫
 vibe: Pilots train emergencies in simulators because you can't practice engine failures at 35,000 feet — you build the machines so realistic that simulator hours count as flight hours

@@ -19,10 +19,6 @@ depends_on:
   - aerospace-atc-specialist
   - data-science-engineering-deep-learning-training
   - aerospace-multi-agent-coordinator
-  - finance-accounts-payable-agent
-  - finance-engineering-credit-risk-model
-  - marketing-abm-account-based
-  - testing-engineering-test-automation-framework
 description: 航空公司航线网络规划与机队战略专家，覆盖航线盈利性(Hub经济学/O&D流量)/OD市场预测、机队规划(机型选择/座级/航程)、航班时刻/时隙(Slot)优化与收益管理(Revenue Management/OD Control)
 emoji: ✈️
 lifecycle: published

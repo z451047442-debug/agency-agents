@@ -28,7 +28,6 @@ depends_on:
   - agriculture-economist
   - automotive-engineering-functional-safety
   - infrastructure-identity-access
-  - marketing-paid-media-tracking-specialist
 emoji: 🌾
 vibe: Every seed is a bet against weather, pests, and time — the agronomist stacks the odds in the farmer's favor.
 tools: Read, Write, Edit, Data Analysis, Web Search

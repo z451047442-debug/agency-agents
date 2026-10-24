@@ -26,9 +26,6 @@ tags:
   - Metrics
 depends_on:
   - aerospace-engineering-aviation-pilot-training
-  - finance-accounts-payable-agent
-  - legal-engineering-legal-document-automation
-  - marketing-abm-account-based
 emoji: 🔧
 vibe: An airplane flies 16 hours a day for 30 years — you manage the maintenance programs
   that keep every aircraft airworthy, every flight safe

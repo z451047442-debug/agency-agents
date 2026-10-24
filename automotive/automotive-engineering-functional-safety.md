@@ -22,8 +22,6 @@ depends_on:
   - engineering-ai-agent-developer
   - engineering-code-reviewer
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
-  - testing-engineering-test-automation-framework
 description: 汽车/工业功能安全工程专家，覆盖ISO 26262(汽车)/IEC 61508(工业)功能安全标准、HARA/安全目标/ASIL等级、安全概念(FSC/TSC)、FMEA/FTA安全分析与安全案例(Safety
   Case)
 emoji: ⚠️

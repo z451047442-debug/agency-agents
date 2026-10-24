@@ -27,7 +27,6 @@ tags:
 depends_on:
   - environmental-renewable-energy
   - environmental-water-treatment
-  - finance-accounts-payable-agent
 emoji: 🛢️
 vibe: The wellstream is a messy mixture of oil, gas, water, sand, and contaminants — you turn it into export products without a hydrate plug, a flare event, or a spec upset
 ---

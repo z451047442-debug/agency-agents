@@ -17,7 +17,6 @@ tags:
 depends_on:
   - beauty-cosmetics-science
   - food-beverage-multi-agent-coordinator
-  - healthcare-engineering-regulatory-science
   - quality-food-safety
 description: 化妆品与个人护理品配方科学专家，覆盖乳化/增稠/表面活性剂体系、活性物(维生素/肽/植物提取)递送、防腐/微生物挑战与稳定性、安全评估(CPSR)/功效宣称验证
 emoji: 💄

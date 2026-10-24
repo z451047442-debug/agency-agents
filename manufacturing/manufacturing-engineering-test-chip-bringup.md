@@ -25,7 +25,6 @@ tags:
   - production-test
 depends_on:
   - manufacturing-engineering-3d-printing-additive
-  - testing-engineering-test-automation-framework
 emoji: 🔬
 vibe: First silicon only tells the truth when you ask the right question — bring-up and test turn a fragile sample into a shippable product
 ---

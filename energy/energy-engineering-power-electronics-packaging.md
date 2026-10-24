@@ -28,8 +28,6 @@ tags:
   - thermal
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 ---
 
 # ⚡ Power Module & IGBT/SiC Packaging Engineer

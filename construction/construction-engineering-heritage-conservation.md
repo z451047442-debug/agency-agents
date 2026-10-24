@@ -25,9 +25,7 @@ depends_on:
   - construction-engineering-construction-materials
   - construction-engineering-cultural-heritage-digitization
   - engineering-git-workflow-master
-  - healthcare-engineering-regulatory-science
   - manufacturing-engineering-material-scientist
-  - marketing-paid-media-tracking-specialist
   - tourism-cultural-heritage
 emoji: 🏛️
 vibe: A thousand-year-old temple, a Renaissance painting, an ancient manuscript — you apply materials science and environmental control to preserve humanity's cultural heritage

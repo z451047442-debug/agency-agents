@@ -30,9 +30,7 @@ tags:
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
   - mining-safety
-  - testing-engineering-reliability-testing
 emoji: ❄️
 vibe: Cooling is not a luxury — it's life support for data centers, food supply chains, and billions of people in a warming world
 ---

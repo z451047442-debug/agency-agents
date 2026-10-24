@@ -29,7 +29,6 @@ depends_on:
   - agriculture-agronomist
   - automotive-engineering-functional-safety
   - infrastructure-identity-access
-  - marketing-paid-media-tracking-specialist
 emoji: 📉
 vibe: Corn prices in Chicago, drought in Brazil, tariffs in Brussels — agriculture is the most global and least predictable market on earth.
 tools: Read, Write, Edit, Data Analysis, Web Search

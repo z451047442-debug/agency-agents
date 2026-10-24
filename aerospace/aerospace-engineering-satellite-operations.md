@@ -26,7 +26,6 @@ depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
   - infrastructure-identity-access
-  - testing-engineering-test-automation-framework
 emoji: 🛰️
 vibe: A constellation of satellites orbiting Earth needs someone to fly them — you command the spacecraft, manage the ground stations, and keep the data flowing 24/7
 

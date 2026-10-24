@@ -24,7 +24,6 @@ tags:
 depends_on:
   - energy-carbon-market
   - home-lifestyle-personal-finance
-  - marketing-china-market-localization-strategist
   - thinking-models-decision-frameworks
 
 

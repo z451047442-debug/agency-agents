@@ -30,8 +30,6 @@ tags:
 depends_on:
   - automotive-multi-agent-coordinator
   - automotive-vehicle-architecture
-  - cybersecurity-engineering-cyber-risk-model
-  - finance-engineering-credit-risk-model
 emoji: 🚗
 vibe: A vehicle program is a multi-billion-dollar bet placed years before the market votes — the director's job is to make that bet explicit, funded, and reversible before it becomes unrecoverable.
 ---

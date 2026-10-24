@@ -16,12 +16,9 @@ tags:
   - networks
   - spectrum
 depends_on:
-  - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
-  - finance-cost-accountant
   - lottery-risk-compliance
-  - marketing-customer-lifecycle
   - telecom-5g-core
   - telecom-data-analyst
   - thinking-models-tech-leaders

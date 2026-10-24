@@ -26,8 +26,6 @@ tags:
   - class-survey
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: 🔍
 vibe: A hull does not fail because the average thickness is low; it fails at the one pit, crack, or coating holiday that the survey plan never visited, so I measure the critical detail and write the repair before the vessel sails.
 ---

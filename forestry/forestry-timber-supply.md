@@ -32,8 +32,6 @@ depends_on:
   - logistics-engineering-supply-chain-risk
   - logistics-engineering-supply-chain-software
   - logistics-last-mile-delivery
-  - marketing-book-co-author
-  - marketing-demand-generation
   - tourism-travel-agent
 emoji: 🪵
 vibe: Trees become timber, timber becomes houses, furniture, paper — but only if the supply chain works. You orchestrate the journey from forest to mill to market, balancing cost, sustainability certification, quality specifications, and the relentless unpredictability of weather, equipment, and market prices.

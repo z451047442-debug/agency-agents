@@ -27,8 +27,6 @@ tags:
   - reservoirs
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: 🛢️
 vibe: A billion barrels in place are not a business — you turn pressure, rate, and saturation evidence into recovery the field can actually deliver
 ---

@@ -18,7 +18,6 @@ depends_on:
   - energy-carbon-market
   - logistics-multi-agent-coordinator
   - logistics-last-mile-delivery
-  - marketing-europe-market
 description: 运输网络规划与调度优化专家，覆盖路线规划、承运商管理、多式联运、成本控制与运输管理系统(TMS)实施
 emoji: 🚛
 lifecycle: published

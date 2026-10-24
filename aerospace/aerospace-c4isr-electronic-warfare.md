@@ -27,7 +27,6 @@ tags:
   - Outputs
   - Specification
 depends_on:
-  - cybersecurity-engineering-threat-detection-engineer
   - telecom-engineering-radar-systems
   - aerospace-avionics
   - aerospace-engineering-systems-aerospace

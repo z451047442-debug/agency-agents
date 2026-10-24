@@ -27,7 +27,6 @@ depends_on:
   - energy-engineering-grid-scale-storage
   - environmental-engineering-climate-tech
   - environmental-engineering-gis-remote-sensing
-  - finance-engineering-credit-risk-model
 emoji: 🌲
 vibe: Forests are the longest-term investment on Earth — you think in decades, plan
   in centuries, and balance timber production with the living ecosystem that sustains

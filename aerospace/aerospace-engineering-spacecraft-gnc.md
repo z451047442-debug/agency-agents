@@ -28,7 +28,6 @@ depends_on:
   - aerospace-engineering-systems-aerospace
   - engineering-standards-compliance
   - engineering-programming-language
-  - testing-engineering-test-automation-framework
   - aerospace-engineering-drone-engineer
 
 

@@ -26,7 +26,6 @@ tags:
   - structural-fatigue
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
 emoji: 🌊
 vibe: A 15 MW turbine on a monopile in 45 m of water, 60 km from shore, must survive 25 years of North Atlantic storms without a single unplanned crane lift
 ---

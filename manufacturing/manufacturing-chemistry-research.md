@@ -25,7 +25,6 @@ tags:
   - Standards
 depends_on:
   - aerospace-military-materials-manufacturing
-  - education-number-theory
   - specialized-identity-graph-operator
 
 

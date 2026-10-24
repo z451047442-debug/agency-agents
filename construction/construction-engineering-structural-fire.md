@@ -23,7 +23,6 @@ tags:
 depends_on:
   - construction-fire-protection
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
   - mining-safety
 emoji: 🔥
 vibe: Code says build this way; performance says prove it's safe. You use fire dynamics and structural mechanics to design buildings that survive fire and protect occupants.

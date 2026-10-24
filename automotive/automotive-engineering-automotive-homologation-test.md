@@ -21,10 +21,6 @@ tags:
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
-  - education-special-needs
-  - marketing-paid-media-tracking-specialist
-  - marketing-southeast-asia-expert
-  - testing-engineering-test-automation-framework
 description: "汽车整车与零部件耐久性/可靠性验证工程师，覆盖DV/PV试验设计、道路载荷采集与疲劳损伤编辑、试验场与四立柱/MAST/伺服液压台架、环境与热循环、加速寿命与Weibull/B10分析、失效归因、CAE相关性及耐久签发"
 emoji: 🔬
 lifecycle: published

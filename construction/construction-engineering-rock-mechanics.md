@@ -23,7 +23,6 @@ tags:
 depends_on:
   - construction-engineering-geotechnical-earthquake
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
   - mining-safety
 emoji: ⛏️
 vibe: Mining extracts the minerals civilization runs on — you ensure the rock doesn't collapse, the slope doesn't fail, and the miners go home safely

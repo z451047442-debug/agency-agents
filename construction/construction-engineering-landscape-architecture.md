@@ -25,8 +25,6 @@ depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
   - government-public-safety-analyst
-  - marketing-abm-account-based
-  - marketing-paid-media-tracking-specialist
 emoji: 🌳
 vibe: A city isn't just buildings — it's the trees, parks, and waterways that make it livable. You design the green infrastructure that cools cities, manages stormwater, and restores nature.
 ---

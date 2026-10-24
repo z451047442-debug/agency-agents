@@ -29,7 +29,6 @@ tags:
 depends_on:
   - construction-architectural-designer
   - engineering-git-workflow-master
-  - marketing-paid-media-tracking-specialist
   - mining-safety
 emoji: 🚄
 vibe: A train at 350km/h — stable, comfortable, safe. That's engineering on bogies, brakes, and aerodynamics.

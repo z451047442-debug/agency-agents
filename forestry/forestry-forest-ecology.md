@@ -3,8 +3,6 @@ color: "#2E7D32"
 date_added: "2026-07-13"
 depends_on:
   - environmental-engineering-ecosystem-restoration
-  - legal-document-review
-  - marketing-china-market-localization-strategist
   - infrastructure-network-engineering-engineering-optical-fiber-sensing
 description: 森林生态系统管理、森林碳汇计量与MRV、REDD+与碳信用项目开发、生物多样性监测、造林与森林恢复、社区林业与可持续林产品专家
 emoji: 🌳

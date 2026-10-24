@@ -17,9 +17,7 @@ tags:
 depends_on:
   - aerospace-engineering-systems-aerospace
   - automotive-engineering-automotive-homologation-test
-  - education-special-needs
   - telecom-multi-agent-coordinator
-  - finance-cost-accountant
   - hr-performance-management
   - lottery-product-risk
   - telecom-5g-core

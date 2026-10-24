@@ -29,7 +29,6 @@ tags:
   - Technologies
 depends_on:
   - logistics-supply-chain-strategist
-  - marketing-china-market-localization-strategist
 
 
 

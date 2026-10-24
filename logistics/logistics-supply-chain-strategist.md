@@ -30,8 +30,6 @@ depends_on:
   - data-science-engineering-deep-learning-training
   - energy-engineering-power-electronics-packaging
   - food-beverage-food-supply-chain-traceability
-  - marketing-paid-media-paid-social-strategist
-  - marketing-social-media-strategist
 emoji: 🔗
 vibe: Builds your procurement engine and supply chain resilience across China's manufacturing ecosystem, from supplier sourcing to risk management.
 

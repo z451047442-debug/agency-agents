@@ -23,10 +23,7 @@ tags:
   - acoustic
 depends_on:
   - construction-engineering-noise-control
-  - cybersecurity-engineering-cyber-risk-model
   - engineering-git-workflow-master
-  - finance-engineering-credit-risk-model
-  - marketing-paid-media-tracking-specialist
   - media-entertainment-engineering-audio-dsp-signal
 emoji: 🔇
 vibe: Sound shapes experience — from the satisfying click of a car door to the silence of noise-canceling headphones. You engineer the sounds people love and eliminate the ones they don't.

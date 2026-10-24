@@ -24,7 +24,6 @@ tags:
   - predictive-maintenance
 depends_on:
   - manufacturing-tpm-reliability
-  - marketing-paid-media-tracking-specialist
 emoji: 📊
 vibe: Every machine tells you it's failing — through vibration, temperature, and sound. You listen to the machines and predict their failures before they happen.
 ---

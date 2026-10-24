@@ -23,8 +23,6 @@ tags:
   - developed
 depends_on:
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 emoji: 🌋
 vibe: Miles beneath your feet, the Earth is hot enough to power civilization — you find the heat, drill into it, and manage the reservoir for decades
 ---

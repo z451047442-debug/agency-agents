@@ -27,7 +27,6 @@ depends_on:
   - aerospace-atc-specialist
   - aerospace-engineering-systems-aerospace
   - infrastructure-identity-access
-  - testing-engineering-test-automation-framework
 description: 卫星/航天器总体设计与在轨运行专家，覆盖平台设计、载荷集成、轨道控制、地面测控
 category: aerospace
 

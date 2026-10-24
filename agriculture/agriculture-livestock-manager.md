@@ -33,7 +33,6 @@ depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-knowledge-management
   - agriculture-multi-agent-coordinator
-  - marketing-paid-media-tracking-specialist
 emoji: 🐄
 vibe: A herd is a biological system with a cash-flow statement — every ration, calving, and treatment decision shows up in both
 ---

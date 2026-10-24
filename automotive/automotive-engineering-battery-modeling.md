@@ -30,10 +30,8 @@ tags:
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator
-  - cybersecurity-engineering-cyber-risk-model
   - energy-engineering-carbon-capture-storage
   - energy-engineering-energy-storage-materials-sci
-  - finance-engineering-credit-risk-model
 emoji: 🔋
 vibe: A BMS that reports 40% when the cell is at 15% is not a gauge error — it is a stranded driver and a warranty claim
 ---

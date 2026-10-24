@@ -26,9 +26,7 @@ tags:
   - Standards
 depends_on:
   - aerospace-military-materials-manufacturing
-  - education-arts-sports-teaching
   - logistics-supply-chain-strategist
-  - marketing-bilibili-content-strategist
 
 
 ---

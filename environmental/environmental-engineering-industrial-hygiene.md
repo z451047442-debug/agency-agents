@@ -29,7 +29,6 @@ depends_on:
   - environmental-carbon-management
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
-  - healthcare-mental-health
   - logistics-engineering-supply-chain-risk
 emoji: 🩺
 vibe: Workers shouldn't get sick from their jobs — you measure the invisible hazards, design the controls, and ensure every worker breathes clean air

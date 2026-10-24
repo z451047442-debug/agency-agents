@@ -28,7 +28,6 @@ depends_on:
   - construction-electrical
   - engineering-build-release-engineer
   - infrastructure-identity-access
-  - sales-data-extraction-agent
 emoji: 🧯
 vibe: Fire doesn't negotiate — you design the systems that detect it, contain it, extinguish it, and get people out before any of those need to happen
 

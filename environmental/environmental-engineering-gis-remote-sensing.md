@@ -25,7 +25,6 @@ tags:
   - observation
   - spatial
 depends_on:
-  - education-special-needs
   - engineering-graph-database
   - environmental-engineering-weather-climate
   - food-beverage-food-supply-chain

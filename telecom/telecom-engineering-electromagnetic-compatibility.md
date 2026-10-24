@@ -18,11 +18,9 @@ tags:
 depends_on:
   - data-science-engineering-knowledge-management
   - telecom-multi-agent-coordinator
-  - finance-cost-accountant
   - hr-performance-management
   - lottery-product-risk
   - lottery-risk-compliance
-  - marketing-japan-market-expert
   - telecom-5g-core
   - telecom-data-analyst
 description: 电子设备电磁兼容设计与整改专家，覆盖传导/辐射发射(CE/RE)与抗扰度(CS/RS/ESD/EFT/Surge)、PCB Layout/屏蔽/滤波/接地EMC设计、EMC暗室/接收机/天线测试与FCC/CE/CISPR/GB

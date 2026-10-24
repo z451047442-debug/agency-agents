@@ -24,8 +24,6 @@ tags:
   - Specification
 depends_on:
   - energy-carbon-accountant
-  - finance-engineering-credit-risk-model
-  - legal-engineering-legal-document-automation
   - logistics-engineering-supply-chain-risk
 emoji: 🌿
 vibe: Carbon is the world's newest traded commodity — and the most politically complex.

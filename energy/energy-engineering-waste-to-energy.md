@@ -19,8 +19,6 @@ tags:
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
-  - marketing-abm-account-based
 description: 城市固废焚烧发电与飞灰/炉渣处理专家，覆盖机械炉排/流化床焚烧炉、烟气净化(SNCR+干法+布袋+湿法)、飞灰螯合/填埋与能源回收(朗肯循环)
 emoji: 🔥
 lifecycle: published

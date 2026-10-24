@@ -25,9 +25,6 @@ tags:
   - carbon
   - forest
 depends_on:
-  - cybersecurity-engineering-cyber-risk-model
-  - finance-engineering-credit-risk-model
-  - finance-engineering-risk-quant
   - food-beverage-food-supply-chain
   - food-beverage-food-supply-chain-traceability
   - logistics-engineering-supply-chain-risk

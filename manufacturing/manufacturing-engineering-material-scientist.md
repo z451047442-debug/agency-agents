@@ -28,7 +28,6 @@ tags:
 depends_on:
   - automotive-engineering-automotive-homologation-test
   - manufacturing-multi-agent-coordinator
-  - healthcare-engineering-regulatory-science
   - manufacturing-engineering-3d-printing-additive
 emoji: 🧪
 vibe: Every product is made of something — choosing the right material and processing determines cost, performance, and reliability

@@ -16,7 +16,6 @@ tags:
   - Standards
 depends_on:
   - automotive-supply-chain
-  - customer-service-complaints
   - logistics-multi-agent-coordinator
   - infrastructure-storage-backup
   - logistics-cold-chain-specialist

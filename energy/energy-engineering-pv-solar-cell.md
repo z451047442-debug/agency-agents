@@ -24,7 +24,6 @@ tags:
 depends_on:
   - energy-multi-agent-coordinator
   - environmental-renewable-energy
-  - finance-accounts-payable-agent
 description: 晶硅/钙钛矿/叠层太阳电池器件物理与工艺研究员，覆盖PERC/TOPCon/HJT晶硅电池、钙钛矿单结/晶硅-钙钛矿叠层、薄膜(CIGS/CdTe)与光伏组件封装/可靠性(IEC
   61215/61730)
 emoji: ☀️

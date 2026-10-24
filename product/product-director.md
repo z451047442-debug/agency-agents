@@ -17,7 +17,6 @@ vibe: You lead 产品策略与开发 with vision and authority
 
 keywords:
   - 产品管理总监
-  - 产品管理领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

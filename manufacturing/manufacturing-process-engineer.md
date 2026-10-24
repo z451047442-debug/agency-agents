@@ -22,7 +22,6 @@ tags:
   - manufacturing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

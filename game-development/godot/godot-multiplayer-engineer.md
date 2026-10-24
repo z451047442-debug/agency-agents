@@ -22,8 +22,6 @@ tags:
   - game-development
   - Technical
   - Process
-  - Methodology
-  - Decision
 depends_on:
   - data-science-model-qa
   - education-field-archaeology

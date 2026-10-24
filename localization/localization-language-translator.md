@@ -14,8 +14,6 @@ lifecycle: published
 keywords:
   - 语言翻译员
   - 实时西班牙语
-  - 英语翻译专家，具备文化语境
-  - 地域方言意识，适用于日常
   - 商务与紧急场景
 complexity: low
 estimated_duration: 1-2h

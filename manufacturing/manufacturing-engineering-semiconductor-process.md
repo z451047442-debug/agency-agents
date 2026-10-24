@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 半导体工艺
   - 良率工程师
-  - 晶圆制造工艺与良率提升专家，覆盖光刻
   - 蚀刻
   - CVD
 complexity: low

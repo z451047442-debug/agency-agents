@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - Playwright自动化测试专家
   - Playwright端到端测试与浏览器自动化专家
-  - 覆盖Playwright
   - Test
   - Runner
 complexity: low

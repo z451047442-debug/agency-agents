@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 溢油应急
   - 海洋环境应急专家
-  - 海上溢油应急与海洋污染防控专家，覆盖溢油轨迹
   - 风化漂移模型
   - OSCAR
 complexity: low

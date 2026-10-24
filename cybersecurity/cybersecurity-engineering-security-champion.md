@@ -14,7 +14,6 @@ keywords:
   - 安全教练
   - Security
   - Champion
-  - 嵌入开发团队的安全倡导者，覆盖安全需求分析
 complexity: low
 estimated_duration: 1-2h
 tags:

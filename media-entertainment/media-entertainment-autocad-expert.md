@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - AutoCAD专家
   - AutoCAD二维
-  - 三维CAD设计专家，覆盖建筑
   - 机械
   - 电气制图
 complexity: low
@@ -24,7 +23,6 @@ tags:
   - Technical
   - Authoritative
   - References
-  - Methodology
 depends_on:
   - engineering-autocad-electrical
   - legal-document-review

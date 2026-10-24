@@ -14,7 +14,6 @@ keywords:
   - 食品安全质量
   - QA
   - 专家
-  - 食品质量与安全管理专家，覆盖HACCP危害分析
   - CCP关键控制点
 complexity: low
 estimated_duration: 1-2h
@@ -22,7 +21,6 @@ tags:
   - quality
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - food-beverage-engineering-food-packaging

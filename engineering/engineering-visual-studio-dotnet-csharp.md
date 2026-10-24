@@ -15,14 +15,12 @@ keywords:
   - Studio
   - NET
   - C#开发专家
-  - C#开发专家，覆盖WinForms
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
   - References
   - Standards
-  - Professional
   - Scope
 depends_on:
   - engineering-build-release-engineer

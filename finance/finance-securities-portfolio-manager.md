@@ -3,7 +3,6 @@ color: indigo
 date_added: '2026-07-03'
 keywords:
   - 投资组合经理
-  - 资产管理与组合构建专家，覆盖大类资产配置
   - 组合优化
   - 均值方差
   - 风险平价
@@ -13,7 +12,6 @@ tags:
   - finance
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - finance-securities-multi-agent-coordinator

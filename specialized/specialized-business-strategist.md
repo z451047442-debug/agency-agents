@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 商业策略师
-  - 管理咨询与商业策略专家，覆盖竞争分析
   - 市场进入策略
   - 增长规划与战略决策
   - Business

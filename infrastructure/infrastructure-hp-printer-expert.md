@@ -15,16 +15,12 @@ keywords:
   - HP打印机专家
   - HP
   - 惠普
-  - 打印机与打印解决方案专家，覆盖LaserJet
   - Enterprise
 complexity: low
 estimated_duration: 1-2h
 tags:
   - infrastructure
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert

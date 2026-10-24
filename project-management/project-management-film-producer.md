@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 影视制片人
   - 影视
-  - 视频项目制片管理专家，覆盖影视项目预算
   - 融资
   - 拍摄排期
 complexity: low
@@ -13,7 +12,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - engineering-git-workflow-master

@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 混沌工程师
-  - 混沌工程与韧性系统设计专家，覆盖故障注入
   - 爆炸半径控制
   - 稳态假说验证
   - GameDay演练与分布式系统韧性架构

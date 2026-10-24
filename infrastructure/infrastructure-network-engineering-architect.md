@@ -3,7 +3,6 @@ color: indigo
 date_added: '2026-07-03'
 keywords:
   - 网络架构师
-  - 企业级网络架构设计专家，覆盖路由交换
   - SDN
   - NFV
   - 数据中心网络
@@ -14,7 +13,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - construction-fire-protection
   - infrastructure-network-engineering-multi-agent-coordinator

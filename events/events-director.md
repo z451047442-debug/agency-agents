@@ -18,7 +18,6 @@ vibe: You lead 大型活动与会议展览 with vision and authority
 
 keywords:
   - 会展活动总监
-  - 会展活动领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

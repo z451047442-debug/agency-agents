@@ -6,14 +6,12 @@ keywords:
   - 文档理解
   - Document
   - AI研究员
-  - 光学字符识别与AI文档理解专家，覆盖OCR
 complexity: low
 estimated_duration: 1-2h
 tags:
   - data-science
   - document
   - understanding
-  - Built
   - systems
 depends_on:
   - data-science-data-engineer

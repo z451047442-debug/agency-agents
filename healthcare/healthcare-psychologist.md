@@ -20,7 +20,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - healthcare
-  - Professional
   - Scope
   - Safeguards
   - Authoritative

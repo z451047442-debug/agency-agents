@@ -15,7 +15,6 @@ keywords:
   - Canon打印机专家
   - Canon
   - 佳能
-  - 打印机与影像解决方案专家，覆盖imageRUNNER
   - imageCLASS
 complexity: low
 estimated_duration: 1-2h

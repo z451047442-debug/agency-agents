@@ -13,15 +13,11 @@ keywords:
   - FastAPI后端开发专家
   - FastAPI高性能Python
   - API开发专家
-  - 覆盖Python异步编程
   - asyncio
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
-  - Methodology
-  - Decision
-  - Framework
   - Deliverable
 depends_on:
   - engineering-build-release-engineer

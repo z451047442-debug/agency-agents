@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 工业自动化专家
-  - 工业自动化与智能制造专家，覆盖PLC
   - DCS编程
   - SCADA系统
   - MES集成
@@ -23,7 +22,6 @@ tags:
   - robotics
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-engineering-noise-control

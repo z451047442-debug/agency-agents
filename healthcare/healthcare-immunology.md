@@ -18,8 +18,6 @@ tags:
   - healthcare
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - pharma-biotech-director
 nexus_roles:

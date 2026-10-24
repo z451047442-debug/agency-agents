@@ -20,7 +20,6 @@ tags:
   - lottery
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

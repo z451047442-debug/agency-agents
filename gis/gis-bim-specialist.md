@@ -5,7 +5,6 @@ keywords:
   - BIM
   - GIS
   - 专家
-  - 建筑信息模型与地理信息系统集成专家，覆盖Revit
   - IFC转换
 complexity: low
 estimated_duration: 1-2h

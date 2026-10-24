@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - Microsoft
   - 365与Exchange专家
-  - 365云服务与Exchange专家，覆盖Exchange
   - Online
   - 混合部署
 complexity: low
@@ -23,7 +22,6 @@ tags:
   - Technologies
   - Success
   - Metrics
-  - Methodology
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-graph-database

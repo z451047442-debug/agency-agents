@@ -18,7 +18,6 @@ vibe: You lead 质量保证与卓越运营 with vision and authority
 
 keywords:
   - 质量管理总监
-  - 质量管理领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

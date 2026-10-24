@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 政府项目申报专员
   - 政府资金
-  - 补贴项目申报专家，覆盖科技厅
   - 工信厅
   - 发改委专项资金
 complexity: low
@@ -20,7 +19,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - aerospace-engineering-planetary-science

@@ -25,7 +25,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer

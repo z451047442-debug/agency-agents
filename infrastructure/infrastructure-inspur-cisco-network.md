@@ -17,7 +17,6 @@ keywords:
   - 浪潮思科网络专家
   - 浪潮思科
   - Inspur-Cisco
-  - 合资网络设备专家，覆盖浪潮CN系列交换机
   - 路由器
 complexity: low
 estimated_duration: 1-2h

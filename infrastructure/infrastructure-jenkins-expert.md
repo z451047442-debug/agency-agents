@@ -6,7 +6,6 @@ keywords:
   - CI
   - CD专家
   - Jenkins持续集成与交付专家
-  - 覆盖Controller
 complexity: low
 estimated_duration: 1-2h
 tags:

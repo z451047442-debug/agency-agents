@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - Adobe
   - Illustrator专家
-  - Illustrator矢量设计专家，覆盖品牌标识
   - Logo设计
   - 插画创作
 complexity: low
@@ -23,9 +22,6 @@ estimated_duration: 1-2h
 tags:
   - media-entertainment
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - engineering-visual-studio-dotnet-csharp
   - engineering-visual-studio-web-aspnet

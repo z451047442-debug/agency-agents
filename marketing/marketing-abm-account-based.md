@@ -12,14 +12,12 @@ keywords:
   - 基于客户的营销
   - ABM
   - 经理
-  - B2B大客户ABM营销策略专家，覆盖1
   - Many
 complexity: low
 estimated_duration: 1-2h
 tags:
   - marketing
   - account-based
-  - Built
   - programs
   - generating
 depends_on:

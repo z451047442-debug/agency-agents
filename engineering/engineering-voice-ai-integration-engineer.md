@@ -20,9 +20,6 @@ estimated_duration: 1-2h
 tags:
   - engineering
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer

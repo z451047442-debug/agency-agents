@@ -23,8 +23,6 @@ tags:
   - specialized
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - legal-billing-time-tracking
   - thinking-models-decision-frameworks

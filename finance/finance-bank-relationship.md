@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 银行关系
   - 融资经理
-  - 企业银行关系与债权融资专家，覆盖银行授信
   - 银团贷款
   - 债券发行
 complexity: low

@@ -11,7 +11,6 @@ lifecycle: published
 
 keywords:
   - 成本会计师
-  - 成本核算与管理会计专家，覆盖标准成本
   - 实际成本法
   - BOM
   - 工艺路线成本核算
@@ -21,7 +20,6 @@ tags:
   - finance
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - finance-fpa-analyst

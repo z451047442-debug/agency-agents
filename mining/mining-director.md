@@ -18,7 +18,6 @@ vibe: You lead 采矿与矿产资源 with vision and authority
 
 keywords:
   - 矿业总监
-  - 矿业领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

@@ -21,7 +21,6 @@ tags:
   - legal
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - legal-engineering-legal-document-automation

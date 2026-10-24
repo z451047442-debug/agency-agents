@@ -11,9 +11,7 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 漏洞赏金猎人
-  - 漏洞赏金猎人与漏洞研究专家，专注众测安全测试
   - 创造性漏洞利用链
-  - 负责任披露及最大化赏金收益，覆盖
   - Web
 complexity: low
 estimated_duration: 1-2h

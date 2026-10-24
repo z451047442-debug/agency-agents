@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 环境
   - 能源法律顾问
-  - 环境法与能源法律专家，覆盖环境影响评价
   - EIA
   - 排污许可合规
 complexity: low

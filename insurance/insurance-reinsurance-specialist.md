@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 再保险专家
-  - 再保险与风险转移专家，覆盖合约再保
   - 临时分保
   - 巨灾建模
   - 转分保与再保险方案结构设计
@@ -21,8 +20,6 @@ tags:
   - insurance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - construction-fire-protection
   - education-special-needs

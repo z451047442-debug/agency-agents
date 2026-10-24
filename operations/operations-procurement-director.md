@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 采购总监
   - CPO
-  - 企业采购与供应链最高负责人，覆盖品类采购战略
   - 供应商关系管理
   - 采购数字化
 complexity: high

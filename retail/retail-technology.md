@@ -23,7 +23,6 @@ tags:
   - retail
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - customer-service-retail-customer-returns

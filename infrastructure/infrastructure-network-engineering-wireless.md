@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 无线与移动网络工程师
   - 无线
-  - 移动网络规划优化专家，覆盖WiFi设计
   - 勘测
   - 排障
 complexity: low
@@ -13,8 +12,6 @@ tags:
   - infrastructure
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-network-engineering-multi-agent-coordinator

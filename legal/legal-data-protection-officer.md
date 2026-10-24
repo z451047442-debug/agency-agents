@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 数据保护官
   - DPO
-  - 数据保护与隐私合规专家，覆盖GDPR
   - PIPL
   - CCPA合规
 complexity: low
@@ -22,8 +21,6 @@ tags:
   - legal
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-privacy-engineer
   - government-public-safety-analyst

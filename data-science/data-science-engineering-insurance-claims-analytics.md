@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 理赔数据科学
   - 反欺诈分析师
-  - 保险理赔数据分析与欺诈检测专家，覆盖结构化
   - 非结构化
   - 文本
 complexity: low
@@ -14,7 +13,6 @@ tags:
   - data-science
   - insurance
   - analytics
-  - Built
   - fraud
 depends_on:
   - data-science-data-engineer

@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 药物研发科学家
   - 小分子
-  - 大分子药物早期研发专家，覆盖靶点发现
   - 先导化合物优化
   - ADMET评估
 complexity: low
@@ -20,7 +19,6 @@ tags:
   - pharma-biotech
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-knowledge-management

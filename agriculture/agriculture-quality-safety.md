@@ -3,7 +3,6 @@ color: amber
 date_added: '2026-07-03'
 keywords:
   - 农产品质量安全专家
-  - 农产品质量安全与合规专家，覆盖GAP认证
   - 农药残留管理
   - 食品安全体系
   - HACCP
@@ -14,7 +13,6 @@ tags:
   - Technical
   - Process
   - Learning
-  - Methodology
 depends_on:
   - agriculture-agronomist
   - cybersecurity-incident-response

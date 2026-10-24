@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 设计研究员
-  - 用户研究与设计洞察专家，覆盖用户访谈
   - 情境访谈
   - 问卷调查
   - 量化研究

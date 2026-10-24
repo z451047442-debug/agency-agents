@@ -6,7 +6,6 @@ keywords:
   - HALT
   - HASS
   - 工程师
-  - 产品可靠性工程与加速寿命测试专家，覆盖HALT高加速寿命测试
 complexity: low
 estimated_duration: 1-2h
 tags:

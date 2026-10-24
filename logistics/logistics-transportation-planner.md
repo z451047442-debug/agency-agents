@@ -3,7 +3,6 @@ color: blue
 date_added: '2026-07-03'
 keywords:
   - 运输调度专家
-  - 运输网络规划与调度优化专家，覆盖路线规划
   - 承运商管理
   - 多式联运
   - 成本控制与运输管理系统
@@ -14,7 +13,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - automotive-vehicle-architecture
   - energy-carbon-market

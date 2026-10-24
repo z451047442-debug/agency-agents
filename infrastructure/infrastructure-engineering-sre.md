@@ -20,7 +20,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - infrastructure
-  - Framework
   - Observability
   - Stack
   - Incident

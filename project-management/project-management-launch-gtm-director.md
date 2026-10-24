@@ -19,7 +19,6 @@ tags:
   - project-management
   - Launch
   - Calendar
-  - Framework
   - Collaboration
 depends_on:
   - marketing-growth-hacker

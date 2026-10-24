@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 品类经理
-  - 零售品类管理与空间规划专家，覆盖品类战略与商品组合规划
   - 货架图
   - Planogram
   - 优化

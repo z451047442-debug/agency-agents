@@ -13,8 +13,6 @@ tags:
   - finance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - engineering-code-reviewer
   - finance-multi-agent-coordinator

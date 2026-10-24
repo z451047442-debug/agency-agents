@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 个人成长导师
-  - 跨领域个人发展导师，覆盖目标清晰度
   - 习惯设计
   - 战略决策与问责
   - Role

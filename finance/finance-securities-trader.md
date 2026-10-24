@@ -13,7 +13,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 证券交易员
-  - 证券交易与执行专家，覆盖日内
   - 波段
   - 趋势交易策略
   - 市场微观结构
@@ -24,7 +23,6 @@ tags:
   - Skills
   - Success
   - Metrics
-  - Professional
 depends_on:
   - finance-capital-markets-analyst
   - finance-cost-accountant

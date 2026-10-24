@@ -27,8 +27,6 @@ tags:
   - _solution
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - design-ui-designer
   - engineering-backend-architect

@@ -5,7 +5,6 @@ keywords:
   - Web
   - GIS
   - 开发工程师
-  - 交互式地图应用全栈开发专家，覆盖
   - MapLibre
 complexity: low
 estimated_duration: 1-2h

@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 法务客户受理专员
-  - 全面的法务客户受理专家，负责潜在客户筛选
   - 案件信息收集
   - 咨询预约与利益冲突检查
   - Legal

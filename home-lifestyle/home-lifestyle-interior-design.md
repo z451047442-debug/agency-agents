@@ -22,8 +22,6 @@ tags:
   - home-lifestyle
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - automotive-engineering-automotive-lighting
   - data-science-model-qa

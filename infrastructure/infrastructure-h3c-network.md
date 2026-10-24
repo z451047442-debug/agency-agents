@@ -14,7 +14,6 @@ keywords:
   - H3C网络专家
   - H3C
   - 新华三
-  - 网络设备专家，覆盖Comware
   - OS
 complexity: low
 estimated_duration: 1-2h
@@ -23,7 +22,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 depends_on:
   - engineering-git-workflow-master
   - infrastructure-multi-agent-coordinator

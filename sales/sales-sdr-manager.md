@@ -13,7 +13,6 @@ keywords:
   - SDR
   - BDR
   - 经理
-  - 销售开发与线索挖掘团队管理者，覆盖SDR
 complexity: medium
 estimated_duration: 2-4h
 tags:

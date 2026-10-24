@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 嵌入式Linux
   - Yocto工程师
-  - 嵌入式Linux系统定制与BSP开发专家，覆盖Yocto
   - Buildroot构建系统
   - Linux内核裁剪
 complexity: low

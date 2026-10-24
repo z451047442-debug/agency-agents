@@ -20,7 +20,6 @@ estimated_duration: 2-4h
 tags:
   - marketing
   - Retention
-  - Framework
   - Collaboration
   - Protocol
 depends_on:

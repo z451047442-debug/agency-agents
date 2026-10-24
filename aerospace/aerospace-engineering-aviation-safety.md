@@ -14,7 +14,6 @@ keywords:
   - 飞行品质监控
   - FOQA
   - 分析师
-  - 飞行数据监控与航空安全管理专家，覆盖FOQA
 complexity: low
 estimated_duration: 1-2h
 tags:

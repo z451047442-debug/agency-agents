@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 音频DSP
   - 音频算法工程师
-  - 实时音频数字信号处理与音频算法专家，覆盖FIR
   - IIR滤波器设计
   - 自适应滤波
 complexity: low
@@ -22,8 +21,6 @@ tags:
   - media-entertainment
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - engineering-code-reviewer
   - media-entertainment-multi-agent-coordinator

@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 财富管理
   - 私人银行顾问
-  - 高净值客户财富管理与私人银行专家，覆盖资产配置
   - 投资组合管理
   - 家族信托
 complexity: medium

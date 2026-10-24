@@ -21,8 +21,6 @@ tags:
   - education
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - education-teacher
   - education-vocational-trainer

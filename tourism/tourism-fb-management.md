@@ -23,7 +23,6 @@ tags:
   - tourism
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - food-beverage-food-safety

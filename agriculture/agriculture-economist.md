@@ -24,7 +24,6 @@ tags:
   - agriculture
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - agriculture-agronomist

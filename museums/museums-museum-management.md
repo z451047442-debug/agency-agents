@@ -22,8 +22,6 @@ tags:
   - museums
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - education-cultural-heritage-law
   - government-social-work

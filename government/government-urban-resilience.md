@@ -25,7 +25,6 @@ tags:
   - government
   - References
   - Standards
-  - Professional
   - Scope
 depends_on:
   - emergency-disaster-response

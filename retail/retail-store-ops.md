@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 门店运营经理
-  - 门店运营管理专家，覆盖门店SOP制定
   - 人员排班优化
   - 视觉陈列标准
   - 防损策略

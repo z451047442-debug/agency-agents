@@ -15,7 +15,6 @@ keywords:
   - 主机工程师
   - IBM
   - OS大型机系统工程师
-  - 覆盖z
 complexity: low
 estimated_duration: 1-2h
 tags:

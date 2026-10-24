@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 化妆品科学
   - 配方化学家
-  - 化妆品与个人护理品配方科学专家，覆盖乳化
   - 增稠
   - 表面活性剂体系
 complexity: low
@@ -14,7 +13,6 @@ tags:
   - food-beverage
   - cosmetic
   - science
-  - Developed
   - skincare
 depends_on:
   - beauty-cosmetics-science

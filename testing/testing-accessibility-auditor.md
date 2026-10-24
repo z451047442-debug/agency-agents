@@ -20,7 +20,6 @@ tags:
   - testing
   - Audit
   - Overview
-  - Methodology
   - Summary
 depends_on:
   - design-engineering-accessibility-engineer

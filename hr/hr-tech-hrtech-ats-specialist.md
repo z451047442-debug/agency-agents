@@ -18,7 +18,6 @@ keywords:
   - ATS实施顾问
   - 申请人跟踪系统
   - ATS
-  - 实施顾问，覆盖ATS选型评估与RFP撰写
   - 系统配置与业务流程映射
 complexity: low
 estimated_duration: 1-2h

@@ -24,9 +24,6 @@ estimated_duration: 1-2h
 tags:
   - education
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - education-academic-anthropologist
   - government-social-work

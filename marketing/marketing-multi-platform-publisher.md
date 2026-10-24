@@ -13,7 +13,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 多平台发布专家
-  - 中文内容一键分发专家，通过Wechatsync将文章路由至知乎
   - 小红书
   - CSDN
   - B站
@@ -24,7 +23,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - design-image-prompt-engineer
   - engineering-wechat-mini-program-developer

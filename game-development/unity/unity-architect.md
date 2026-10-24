@@ -23,8 +23,6 @@ tags:
   - game-development
   - Technical
   - Process
-  - Methodology
-  - Decision
 depends_on:
   - game-development-game-audio-engineer
   - logistics-public-transit

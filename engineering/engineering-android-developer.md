@@ -23,8 +23,6 @@ tags:
   - engineering
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

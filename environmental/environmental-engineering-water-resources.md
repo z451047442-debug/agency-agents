@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 水利工程
   - 水资源规划专家
-  - 水资源综合规划与水利枢纽设计专家，覆盖流域水资源配置
   - 水库群联合调度
   - 洪水风险
 complexity: low

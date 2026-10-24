@@ -20,10 +20,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - marketing
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - design-engineering-user-research-system
 emoji: 🌸

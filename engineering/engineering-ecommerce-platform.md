@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 电商平台架构师
-  - 大规模电子商务平台技术架构专家，覆盖商品
   - 库存
   - 价格
   - 促销

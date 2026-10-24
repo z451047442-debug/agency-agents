@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 会展运营经理
-  - 会议与展览运营专家，覆盖会议日程规划与讲者管理
   - 展位布局与动线设计
   - 赞助方案开发与分层报价
   - 参会者注册与票务系统
@@ -23,8 +22,6 @@ tags:
   - events
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - hr-labor-relations
   - marketing-brand-strategist-name

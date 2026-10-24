@@ -3,7 +3,6 @@ color: indigo
 date_added: '2026-07-03'
 keywords:
   - 课程设计师
-  - 课程与教学设计专家，覆盖学习目标分析
   - 课程体系构建
   - 评估设计
   - 教学资源开发与教育技术应用
@@ -13,8 +12,6 @@ tags:
   - education
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - aerospace-engineering-aviation-pilot-training
   - data-science-engineering-deep-learning-training

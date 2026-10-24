@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 打印机通用运维工程师
-  - 打印机通用运维与技术支持专家，覆盖多品牌
 complexity: low
 estimated_duration: 1-2h
 tags:
@@ -18,7 +17,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - infrastructure-windows-server
   - infrastructure-ansible-expert

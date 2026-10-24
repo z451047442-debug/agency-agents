@@ -23,8 +23,6 @@ tags:
   - thinking-models
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - game-development-game-psychology
   - parenting-family-education-consulting

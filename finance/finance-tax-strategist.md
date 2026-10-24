@@ -3,7 +3,6 @@ color: green
 date_added: '2026-07-03'
 keywords:
   - 税务策略师
-  - 专家级税务策略师，专注税务优化
   - 跨管辖区合规
   - 转移定价与战略税务规划
   - Cassandra
@@ -13,8 +12,6 @@ tags:
   - finance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - automotive-supply-chain
   - finance-multi-agent-coordinator

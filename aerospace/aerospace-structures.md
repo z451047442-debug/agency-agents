@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 飞行器结构工程师
   - 飞机
-  - 航天器结构设计与强度分析专家，覆盖机身
   - 机翼
   - 起落架及复合材料结构
 complexity: low

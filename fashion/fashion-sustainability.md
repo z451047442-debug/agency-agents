@@ -23,8 +23,6 @@ tags:
   - fashion
   - Tools
   - Technologies
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-knowledge-management
   - engineering-social-media-platform

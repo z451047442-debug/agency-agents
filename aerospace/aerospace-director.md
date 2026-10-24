@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 航空航天项目总监
   - 航空航天项目
-  - 事业部最高负责人，覆盖飞行器
   - 卫星
   - 系统开发策略
 complexity: high

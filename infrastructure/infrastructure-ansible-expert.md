@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - Ansible自动化专家
   - Ansible配置管理与自动化专家
-  - 覆盖Ansible
   - Core
   - AWX
 complexity: low
@@ -21,7 +20,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - infrastructure-github-actions-expert
   - infrastructure-apache-httpd-expert

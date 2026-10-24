@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 旅行社
   - 旅行顾问
-  - 旅行社经营与旅行顾问专家，覆盖个性化行程设计
   - 机票
   - 酒店
 complexity: low

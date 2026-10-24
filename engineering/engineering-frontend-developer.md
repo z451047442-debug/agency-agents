@@ -25,7 +25,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-security-architect
   - design-engineering-accessibility-engineer

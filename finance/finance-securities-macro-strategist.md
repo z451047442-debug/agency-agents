@@ -3,7 +3,6 @@ color: slate
 date_added: '2026-07-03'
 keywords:
   - 宏观策略师
-  - 全球宏观与投资策略专家，覆盖利率
   - 汇率
   - 通胀研判
   - 央行政策解读
@@ -14,7 +13,6 @@ tags:
   - Frameworks
   - Success
   - Metrics
-  - Professional
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-cost-accountant

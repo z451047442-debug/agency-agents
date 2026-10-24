@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 档案管理员
-  - 档案管理专家，覆盖档案鉴定与征集评估
   - 检索工具编制（ISAD
   - DACS
   - EAD）
@@ -23,8 +22,6 @@ tags:
   - libraries
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - design-engineering-user-research-system
   - legal-engineering-legal-document-automation

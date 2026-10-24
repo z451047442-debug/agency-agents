@@ -3,7 +3,6 @@ color: red
 date_added: '2026-07-03'
 keywords:
   - 理赔专员
-  - 保险理赔专家，覆盖财产险
   - 责任险
   - 货运险的事故调查
   - 损失评估
@@ -13,8 +12,6 @@ tags:
   - insurance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-incident-response
   - education-special-needs

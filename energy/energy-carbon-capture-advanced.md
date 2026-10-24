@@ -23,8 +23,6 @@ tags:
   - energy
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - home-lifestyle-personal-finance
   - mining-mineral-economics

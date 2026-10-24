@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 过程质量工程师
   - PQE
-  - 制造过程质量控制专家，覆盖SPC统计过程控制
   - 控制图
   - Xbar-R
 complexity: low
@@ -21,8 +20,6 @@ tags:
   - quality
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - automotive-engineering-functional-safety
   - manufacturing-engineering-control-systems

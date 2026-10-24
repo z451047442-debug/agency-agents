@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 核保员
-  - 保险核保专家，覆盖财产险
   - 责任险
   - 意外险的风险评估
   - 条款定制
@@ -23,8 +22,6 @@ tags:
   - insurance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - construction-fire-protection
   - emergency-disaster-response

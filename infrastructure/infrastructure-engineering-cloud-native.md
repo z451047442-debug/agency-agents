@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 云原生
   - Serverless架构师
-  - 云原生应用架构与Serverless计算专家，覆盖Kubernetes
   - Service
   - Mesh
 complexity: low

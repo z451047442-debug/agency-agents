@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 活动
   - 会展项目经理
-  - 活动与会展项目管理专家，覆盖大型活动
   - 会议
   - 展览策划
 complexity: medium
@@ -20,7 +19,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

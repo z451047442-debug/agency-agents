@@ -12,17 +12,12 @@ lifecycle: published
 keywords:
   - LLM推理部署专家
   - 大语言模型推理引擎与部署专家
-  - 覆盖vLLM
   - SGLang
   - TRT-LLM
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

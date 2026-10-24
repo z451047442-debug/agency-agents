@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 食品供应链经理
-  - 食品行业供应链管理专家，覆盖生鲜冷链
   - 原料采购
   - 仓储物流
   - 需求预测
@@ -22,7 +21,6 @@ tags:
   - food-beverage
   - Tools
   - Technologies
-  - Professional
   - Scope
 depends_on:
   - food-beverage-beverage-rd

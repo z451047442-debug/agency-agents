@@ -16,7 +16,6 @@ lifecycle: published
 
 keywords:
   - 法务计费与工时管理专员
-  - 全面的法务计费与工时管理专家，覆盖工时记录
   - 发票生成
   - 收款管理与信托账户合规
   - Legal

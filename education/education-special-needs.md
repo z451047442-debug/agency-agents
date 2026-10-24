@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 特殊教育专家
-  - 特殊教育与融合教育专家，覆盖学习障碍评估
   - 个别化教育计划
   - IEP
   - 行为干预
@@ -21,8 +20,6 @@ tags:
   - education
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - education-academic-anthropologist
   - infrastructure-identity-access

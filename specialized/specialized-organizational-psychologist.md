@@ -26,7 +26,6 @@ tags:
   - Competencies
   - Psychological
   - Safety
-  - Framework
 depends_on:
   - gis-drone-reality-mapping
   - manufacturing-engineering-material-scientist

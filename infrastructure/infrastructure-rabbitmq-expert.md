@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - RabbitMQ消息队列专家
   - RabbitMQ消息中间件架构与运维专家
-  - 覆盖集群架构与高可用
   - Classic
   - Mirrored
 complexity: low

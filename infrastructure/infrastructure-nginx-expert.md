@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - Nginx专家
   - Nginx高性能Web服务器与反向代理专家
-  - 覆盖Nginx
   - OSS
   - Nginx
 complexity: low

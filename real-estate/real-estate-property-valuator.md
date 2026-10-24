@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 物业估价师
-  - 住宅与商业地产估价专家，精通收益法
   - 市场法
   - 成本法
   - 最高最佳使用分析
@@ -23,7 +22,6 @@ tags:
   - real-estate
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - energy-engineering-grid-scale-storage

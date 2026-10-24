@@ -22,7 +22,6 @@ tags:
   - finance
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - cybersecurity-engineering-customer-identity-access

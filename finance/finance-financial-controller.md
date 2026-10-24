@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 财务总监
   - Controller
-  - 企业财务报告与会计控制专家，覆盖US
   - GAAP
   - IFRS
 complexity: low

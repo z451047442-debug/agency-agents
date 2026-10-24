@@ -24,8 +24,6 @@ tags:
   - environmental
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - aerospace-military-materials-manufacturing
   - education-arts-sports-teaching

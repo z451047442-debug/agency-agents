@@ -14,7 +14,6 @@ keywords:
   - 动画
   - 视觉特效
   - VFX
-  - 3D动画与视觉特效专家，覆盖角色动画
   - 绑定
 complexity: low
 estimated_duration: 1-2h

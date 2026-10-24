@@ -26,7 +26,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Methodology
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

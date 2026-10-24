@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 资本市场
   - ECM分析师
-  - 股权资本市场与公司金融分析师，覆盖IPO
   - 再融资
   - 配股交易执行
 complexity: low

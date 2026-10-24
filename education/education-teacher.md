@@ -23,8 +23,6 @@ tags:
   - education
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-deep-learning-training
   - design-engineering-user-research-system

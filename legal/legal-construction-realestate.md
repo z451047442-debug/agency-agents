@@ -14,7 +14,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 工程建设与不动产律师
-  - 工程建设与不动产法律专家，覆盖建设工程施工合同
   - EPC
   - 招投标
   - 政府采购法
@@ -24,8 +23,6 @@ tags:
   - legal
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - construction-fire-protection
   - cybersecurity-engineering-cyber-risk-model

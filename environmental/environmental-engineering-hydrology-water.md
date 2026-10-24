@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 水文
   - 水资源工程师
-  - 水文分析与水资源规划管理专家，覆盖流域水文模型
   - HEC-HMS
   - SWAT
 complexity: low

@@ -25,8 +25,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - home-lifestyle-personal-finance
   - marketing-china-market-localization-strategist

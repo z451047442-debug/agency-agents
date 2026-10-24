@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 感官科学
   - 风味化学专家
-  - 食品感官评价与风味化学专家，覆盖描述性分析
   - QDA
   - 差别检验
 complexity: low

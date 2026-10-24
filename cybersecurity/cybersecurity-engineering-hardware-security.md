@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 硬件安全
   - 芯片安全工程师
-  - 集成电路与硬件安全专家，覆盖侧信道攻击
   - DPA
   - SPA
 complexity: low

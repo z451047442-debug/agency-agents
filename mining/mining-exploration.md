@@ -25,7 +25,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - finance-cost-accountant
   - government-social-work

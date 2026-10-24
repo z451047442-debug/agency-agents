@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 出口业务经理
-  - 出口业务拓展与管理专家，覆盖海外市场调研与渠道开发
   - 国际客户谈判
   - 价格
   - 付款

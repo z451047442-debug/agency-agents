@@ -15,7 +15,6 @@ keywords:
   - CRM训练专家
   - 航空安全人为因素与机组资源管理
   - CRM
-  - 专家，覆盖飞行员人为差错
 complexity: low
 estimated_duration: 1-2h
 tags:

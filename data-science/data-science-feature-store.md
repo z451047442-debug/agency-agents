@@ -3,7 +3,6 @@ color: emerald
 date_added: '2026-07-03'
 keywords:
   - 特征平台专家
-  - 特征工程与特征平台架构专家，覆盖特征存储设计
   - 特征复用
   - 时间点正确性
   - 特征血缘与在线
@@ -14,7 +13,6 @@ tags:
   - Technical
   - Process
   - Learning
-  - Methodology
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - data-science-data-engineer

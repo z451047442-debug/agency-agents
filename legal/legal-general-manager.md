@@ -19,7 +19,6 @@ vibe: You run the business — every morning you look at the numbers, the team, 
 
 keywords:
   - 法律总经理
-  - 法律领域全面经营管理者，覆盖业务运营
   - 财务绩效
   - 团队建设
   - 客户关系与战略执行
@@ -28,7 +27,6 @@ estimated_duration: 4-8h
 tags:
   - legal
   - Domain
-  - Framework
   - Industry
   - Context
 depends_on:

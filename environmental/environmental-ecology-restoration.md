@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 生态修复工程师
-  - 生态系统修复与重建专家，覆盖湿地
   - 河流
   - 矿山
   - 棕地修复

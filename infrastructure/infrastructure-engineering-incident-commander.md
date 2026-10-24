@@ -13,7 +13,6 @@ keywords:
   - 事故指挥官
   - Incident
   - Commander
-  - 重大技术事故应急指挥专家，覆盖事故分级
   - 升级机制
 complexity: low
 estimated_duration: 1-2h

@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 大学院长
   - 系主任
-  - 高等教育学术管理者，覆盖学科建设
   - 课程发展
   - 师资管理
 complexity: low

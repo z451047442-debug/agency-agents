@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 服务网格架构师
   - Istio服务网格与企业级微服务治理专家
-  - 覆盖Istio控制面
   - istiod
   - 与数据面
 complexity: low
@@ -14,7 +13,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-ansible-expert

@@ -3,7 +3,6 @@ color: cyan
 date_added: '2026-07-03'
 keywords:
   - 云网络工程师
-  - 云网络架构与运维专家，覆盖AWS
   - VPC
   - Azure
   - VNet
@@ -13,7 +12,6 @@ tags:
   - infrastructure
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-language-model-nlp

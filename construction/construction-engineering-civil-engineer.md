@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 土木工程师
-  - 全球标准覆盖的土木结构工程专家
   - Eurocode
   - DIN
   - ACI

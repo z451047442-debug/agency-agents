@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 软件供应链
   - 依赖管理专家
-  - 软件供应链安全与依赖管理专家，覆盖SBOM
   - Software
   - Bill
 complexity: low

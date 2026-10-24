@@ -26,8 +26,6 @@ estimated_duration: 2-4h
 tags:
   - operations
   - Non-Negotiable
-  - Decision
-  - Framework
   - Mandatory
 depends_on:
   - cybersecurity-engineering-cyber-risk-model

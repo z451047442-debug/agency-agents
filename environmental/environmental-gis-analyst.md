@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 环境GIS分析师
-  - 环境空间数据与遥感分析专家，覆盖卫星影像处理
   - 土地利用分类
   - 环境遥感反演
   - 空间统计与环境制图
@@ -25,8 +24,6 @@ tags:
   - environmental
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - construction-safety-officer
   - energy-engineering-process-safety

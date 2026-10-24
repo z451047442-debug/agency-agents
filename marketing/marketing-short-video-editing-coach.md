@@ -21,7 +21,6 @@ tags:
   - Process
   - Success
   - Metrics
-  - Methodology
 depends_on:
   - marketing-paid-media-creative-strategist
   - marketing-linkedin-content-creator

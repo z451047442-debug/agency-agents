@@ -14,7 +14,6 @@ keywords:
   - HRIS
   - 人力资源信息系统专家
   - 人力资源信息系统
-  - 与HR数字化转型专家，覆盖SAP
   - SuccessFactors
 complexity: low
 estimated_duration: 1-2h
@@ -22,7 +21,6 @@ tags:
   - hr
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 流程挖掘
   - 业务流程智能分析师
-  - 流程挖掘与业务流程分析专家，覆盖事件日志提取
   - ERP
   - CRM
 complexity: low

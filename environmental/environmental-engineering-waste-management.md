@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 固体废物管理
   - 垃圾分类规划师
-  - 城市固废管理与资源化规划专家，覆盖垃圾分类
   - 收运体系规划
   - 机械生物处理
 complexity: low

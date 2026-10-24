@@ -22,8 +22,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - design-image-prompt-engineer
   - engineering-build-release-engineer

@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - Adobe
   - Lightroom专家
-  - Lightroom照片管理与后期处理专家，覆盖RAW处理
   - 批量调色
   - 目录管理
 complexity: low

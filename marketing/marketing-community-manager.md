@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 社群
   - 社区运营经理
-  - 在线社群与用户社区运营专家，覆盖Discord
   - Slack
   - 微信群
 complexity: medium

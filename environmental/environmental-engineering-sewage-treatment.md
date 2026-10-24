@@ -15,7 +15,6 @@ keywords:
   - 污泥处理
   - 厌氧消化
   - 沼气工程师
-  - 污泥处理处置与有机固废资源化专家，覆盖厌氧消化
   - 沼气
 complexity: low
 estimated_duration: 1-2h

@@ -17,7 +17,6 @@ keywords:
   - 生命周期
   - LCA
   - 顾问
-  - 包装环保与全生命周期评估专家，覆盖包装LCA碳足迹
 complexity: low
 estimated_duration: 1-2h
 tags:

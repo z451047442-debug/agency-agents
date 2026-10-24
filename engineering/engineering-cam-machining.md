@@ -24,7 +24,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Professional
   - Scope
 depends_on:
   - specialized-identity-graph-operator

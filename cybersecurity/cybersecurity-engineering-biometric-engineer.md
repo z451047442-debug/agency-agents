@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 生物识别
   - 身份认证工程师
-  - 生物特征识别与身份认证技术专家，覆盖指纹
   - 人脸
   - 虹膜
 complexity: low

@@ -22,9 +22,6 @@ estimated_duration: 1-2h
 tags:
   - game-development
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - logistics-public-transit
   - specialized-identity-graph-operator

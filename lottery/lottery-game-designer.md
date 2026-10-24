@@ -19,9 +19,6 @@ estimated_duration: 1-2h
 tags:
   - lottery
   - Competencies
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp

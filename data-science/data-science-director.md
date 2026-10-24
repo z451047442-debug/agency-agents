@@ -3,7 +3,6 @@ color: navy
 date_added: '2026-07-03'
 keywords:
   - 数据科学总监
-  - 数据科学与AI团队最高负责人，覆盖数据
   - AI战略
   - 模型治理与MLOps
   - 数据团队建设

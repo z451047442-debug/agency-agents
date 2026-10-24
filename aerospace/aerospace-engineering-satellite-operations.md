@@ -13,7 +13,6 @@ keywords:
   - 卫星运营
   - 地面站
   - 飞控工程师
-  - 在轨卫星运营与地面站系统工程专家，覆盖LEO
   - MEO
 complexity: low
 estimated_duration: 1-2h

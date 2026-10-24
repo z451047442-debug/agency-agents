@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 企业存储与备份专家
-  - 企业存储与数据保护专家，覆盖SAN
   - NAS
   - DAS存储架构
   - 群晖

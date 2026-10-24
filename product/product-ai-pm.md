@@ -16,7 +16,6 @@ lifecycle: published
 keywords:
   - AI产品经理
   - AI
-  - ML产品策略，模型生命周期管理，产品提示工程，AI伦理与负责任AI，数据飞轮设计，LLM集成规划，AI功能优先级排序
   - Kai
 complexity: low
 estimated_duration: 1-2h

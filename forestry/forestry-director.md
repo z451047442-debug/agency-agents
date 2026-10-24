@@ -18,7 +18,6 @@ vibe: You lead 森林经营与林产品 with vision and authority
 
 keywords:
   - 林业总监
-  - 林业领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

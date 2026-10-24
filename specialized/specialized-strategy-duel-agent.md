@@ -23,7 +23,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - education-number-theory
   - engineering-git-workflow-master

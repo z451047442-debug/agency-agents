@@ -3,7 +3,6 @@ color: navy
 date_added: '2026-07-03'
 keywords:
   - 营销数据分析师
-  - 营销数据分析与归因专家，覆盖多渠道归因
   - MMM
   - MTA
   - LTV
@@ -13,7 +12,6 @@ tags:
   - marketing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-language-model-nlp

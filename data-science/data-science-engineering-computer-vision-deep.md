@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 计算机视觉
   - 深度学习工程师
-  - 深度学习与计算机视觉算法专家，覆盖CNN
   - Transformer
   - ViT视觉模型
 complexity: low

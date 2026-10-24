@@ -13,8 +13,6 @@ tags:
   - automotive
   - Technical
   - Process
-  - Methodology
-  - Decision
 depends_on:
   - automotive-adas-engineer
   - automotive-multi-agent-coordinator

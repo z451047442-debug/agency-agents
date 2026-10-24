@@ -19,7 +19,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - engineering-build-release-engineer

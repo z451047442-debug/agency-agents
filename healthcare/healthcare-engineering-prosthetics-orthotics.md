@@ -13,7 +13,6 @@ keywords:
   - 矫形器
   - 康复辅具工程师
   - 上下肢假肢与脊柱
-  - 四肢矫形器临床工程专家，覆盖肌电
 complexity: low
 estimated_duration: 1-2h
 tags:

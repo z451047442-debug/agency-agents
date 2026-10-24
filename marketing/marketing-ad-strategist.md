@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 广告投放策略师
   - 全渠道广告策略与投放架构专家
-  - 覆盖品牌-效果投放矩阵设计
   - 渠道组合与预算分配
   - 搜索
 complexity: medium

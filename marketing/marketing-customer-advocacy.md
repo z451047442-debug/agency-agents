@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 客户倡导
   - 参考案例经理
-  - B2B客户倡导与营销案例管理专家，覆盖客户成功案例
   - Success
   - Story
 complexity: low

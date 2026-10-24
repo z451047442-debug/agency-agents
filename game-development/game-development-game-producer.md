@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 游戏制作人
-  - 游戏制作与项目管理专家，覆盖游戏开发流程
   - 里程碑管理
   - 团队协调
   - 预算控制
@@ -22,8 +21,6 @@ tags:
   - game-development
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - construction-engineering-noise-control
   - logistics-last-mile-delivery

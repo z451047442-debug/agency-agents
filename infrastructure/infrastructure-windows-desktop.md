@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - Windows桌面管理专家
-  - Windows桌面与终端管理专家，覆盖Windows
   - 11部署与镜像
   - Intune
   - Autopilot现代管理

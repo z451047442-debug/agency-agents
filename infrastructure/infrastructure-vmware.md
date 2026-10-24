@@ -6,7 +6,6 @@ keywords:
   - VMware虚拟化专家
   - VMware
   - vSphere
-  - 数据中心虚拟化专家，覆盖ESXi
   - vCenter
 complexity: low
 estimated_duration: 1-2h

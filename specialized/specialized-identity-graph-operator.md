@@ -24,7 +24,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - gis-drone-reality-mapping
   - operations-legal-compliance-checker

@@ -5,7 +5,6 @@ keywords:
   - 测试自动化开发工程师
   - SDET
   - II
-  - 高级测试自动化与测试框架开发专家，覆盖Selenium
   - Cypress
 complexity: low
 estimated_duration: 1-2h

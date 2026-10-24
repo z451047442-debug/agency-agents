@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 环境监测工程师
-  - 环境监测系统设计与部署专家，覆盖空气质量
   - 水质
   - 土壤
   - 噪声监测的传感器网络

@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 快消品经理
-  - 快消品品牌经理，覆盖通路营销策略
   - 经销商
   - 批发商渠道管理
   - 店内激活与POSM
@@ -23,7 +22,6 @@ tags:
   - retail
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - food-beverage-food-safety

@@ -17,7 +17,6 @@ vibe: You lead 软件工程与技术开发 with vision and authority
 
 keywords:
   - 工程总监
-  - 工程领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

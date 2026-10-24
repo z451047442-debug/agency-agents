@@ -16,7 +16,6 @@ keywords:
   - HR
   - 入职专员
   - 全面的
-  - 入职专家，负责员工入职引导
   - 文档管理
 complexity: low
 estimated_duration: 1-2h
@@ -25,7 +24,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - hr-hris
   - hr-tech-people-analytics

@@ -14,7 +14,6 @@ keywords:
   - CDP
   - 客户数据平台专家
   - 客户数据平台
-  - 与营销数据架构专家，覆盖Segment
   - mParticle
 complexity: low
 estimated_duration: 1-2h

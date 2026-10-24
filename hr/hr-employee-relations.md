@@ -12,7 +12,6 @@ keywords:
   - 员工关系
   - ER
   - 专家
-  - 员工关系与劳动关系专家，覆盖员工投诉
   - 纠纷处理
 complexity: low
 estimated_duration: 1-2h
@@ -20,7 +19,6 @@ tags:
   - hr
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-fire-protection

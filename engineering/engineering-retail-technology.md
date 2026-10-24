@@ -13,7 +13,6 @@ keywords:
   - 零售科技
   - RetailTech
   - 产品经理
-  - 零售科技与智能门店方案产品专家，覆盖POS
   - 自助收银
 complexity: low
 estimated_duration: 1-2h
@@ -21,7 +20,6 @@ tags:
   - engineering
   - retail
   - technology
-  - Built
   - products
 depends_on:
   - cybersecurity-engineering-customer-identity-access

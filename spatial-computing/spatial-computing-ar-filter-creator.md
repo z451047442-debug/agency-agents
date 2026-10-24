@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - AR滤镜与体验创作者
-  - AR滤镜与增强现实体验创作专家，覆盖Spark
   - AR
   - Meta
   - Camera
@@ -23,7 +22,6 @@ tags:
   - spatial-computing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - engineering-visual-studio-cpp

@@ -15,15 +15,11 @@ keywords:
   - SwiftUI
   - iOS开发专家
   - SwiftUI声明式UI与iOS原生开发专家
-  - 覆盖SwiftUI视图体系
   - View
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
-  - Methodology
-  - Decision
-  - Framework
   - Deliverable
 depends_on:
   - cybersecurity-engineering-customer-identity-access

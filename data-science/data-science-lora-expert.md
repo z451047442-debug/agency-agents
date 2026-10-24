@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - LLM微调与适配专家
   - 大模型高效微调与适配专家
-  - 覆盖LoRA
   - QLoRA
   - DoRA参数高效微调
 complexity: low
@@ -24,8 +23,6 @@ tags:
   - data-science
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d

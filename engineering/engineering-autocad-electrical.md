@@ -15,7 +15,6 @@ vibe: Electrical controls design specialist — intelligent schematic symbols, a
 keywords:
   - AutoCAD
   - Electrical专家
-  - Electrical电气控制系统设计专家，覆盖原理图设计
   - PLC
   - 接线图
 complexity: low
@@ -24,8 +23,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - specialized-identity-graph-operator
   - unity-editor-tool-developer

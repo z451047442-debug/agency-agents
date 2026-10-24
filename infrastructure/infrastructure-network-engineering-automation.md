@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 网络自动化工程师
-  - 网络自动化与可编程网络专家，覆盖Ansible
   - Terraform网络编排
   - CI
   - CD网络管道

@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 效果广告数据分析师
   - 效果广告数据分析专家
-  - 覆盖多平台数据整合
   - 巨量
   - 腾讯
 complexity: low

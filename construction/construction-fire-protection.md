@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 消防工程师
-  - 建筑消防系统设计与验收专家，覆盖水喷淋
   - 消火栓
   - 气体灭火
   - 火灾自动报警
@@ -24,7 +23,6 @@ tags:
   - construction
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-electrical

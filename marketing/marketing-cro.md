@@ -14,7 +14,6 @@ keywords:
   - 转化率优化
   - CRO
   - 专家
-  - 转化率优化专家，覆盖落地页优化
   - B测试策略
 complexity: low
 estimated_duration: 1-2h
@@ -22,8 +21,6 @@ tags:
   - marketing
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - marketing-abm-account-based
   - testing-test-results-analyzer

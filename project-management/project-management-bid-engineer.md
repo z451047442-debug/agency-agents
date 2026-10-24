@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 方案与投标工程师
-  - 技术方案与投标专家，覆盖RFP
   - 招标文件分析
   - 技术方案
   - 技术标书撰写
@@ -20,7 +19,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - engineering-ai-agent-developer

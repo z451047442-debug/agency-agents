@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 可再生能源工程师
-  - 可再生能源系统设计与评估专家，覆盖太阳能光伏
   - 光热
   - 风力发电
   - 储能系统
@@ -22,8 +21,6 @@ tags:
   - environmental
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - construction-safety-officer
   - energy-engineering-offshore-wind

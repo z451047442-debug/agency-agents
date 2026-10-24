@@ -18,7 +18,6 @@ keywords:
   - GRC管理顾问
   - 信息安全风险与治理合规
   - GRC
-  - 顾问，覆盖NIST
 complexity: low
 estimated_duration: 1-2h
 tags:

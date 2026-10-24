@@ -12,10 +12,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - project-management
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - engineering-mobile-app-builder
   - project-management-multi-agent-coordinator

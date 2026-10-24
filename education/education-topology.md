@@ -22,8 +22,6 @@ tags:
   - education
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - finance-engineering-credit-risk-model
   - hr-tech-general-manager

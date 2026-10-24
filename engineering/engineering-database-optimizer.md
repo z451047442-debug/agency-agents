@@ -21,7 +21,6 @@ tags:
   - engineering
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - engineering-postgres-specialist

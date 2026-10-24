@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: draft
 keywords:
   - 彩票零售网络管理专家
-  - 彩票零售网络管理专家，覆盖零售商招募与入驻
   - 终端与POS部署
   - 零售商培训与绩效管理
   - 佣金与激励结构

@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 数字取证
   - 电子数据鉴定工程师
-  - 数字取证与电子数据司法鉴定专家，覆盖磁盘
   - 内存
   - 移动设备取证
 complexity: low

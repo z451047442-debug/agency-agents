@@ -13,7 +13,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 内部审计师
-  - 内部审计与内部控制专家，覆盖风险导向审计计划
   - SOX
   - 内控测试
   - 运营审计
@@ -23,7 +22,6 @@ tags:
   - finance
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - cybersecurity-engineering-cyber-risk-model

@@ -14,14 +14,12 @@ keywords:
   - 机器人操作系统
   - ROS
   - ROS2
-  - 开发专家，覆盖节点架构
 complexity: low
 estimated_duration: 1-2h
 tags:
   - robotics
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-language-model-nlp

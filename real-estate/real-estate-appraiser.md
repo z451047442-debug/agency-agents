@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 房地产估价师
-  - 房地产估价与价值评估专家，覆盖市场比较法
   - 收益法
   - 成本法三大估价方法
   - 抵押

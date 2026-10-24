@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 运营总监
   - COO
-  - 企业运营最高负责人，覆盖业务流程优化
   - 标准化
   - 跨部门协调
 complexity: high

@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 飞行测试工程师
-  - 飞行测试与验证专家，覆盖试飞计划
   - 测试点设计
   - 飞行数据采集
   - 分析

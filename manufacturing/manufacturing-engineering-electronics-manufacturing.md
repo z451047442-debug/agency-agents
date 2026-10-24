@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 电子制造
   - SMT工艺工程师
-  - 电子组装制造与SMT工艺专家，覆盖SMT贴片
   - 回流焊
   - 波峰焊工艺
 complexity: low
@@ -24,7 +23,6 @@ tags:
   - manufacturing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-automotive-homologation-test

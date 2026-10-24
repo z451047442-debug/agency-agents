@@ -22,10 +22,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - education
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - aerospace-military-materials-manufacturing
   - education-curriculum-designer

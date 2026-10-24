@@ -3,7 +3,6 @@ color: cyan
 date_added: '2026-07-03'
 keywords:
   - 冷链物流专家
-  - 温控供应链管理专家，覆盖冷藏
   - 冷冻运输
   - 冷链仓储
   - 温度监控
@@ -12,9 +11,6 @@ estimated_duration: 1-2h
 tags:
   - logistics
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - logistics-multi-agent-coordinator
   - healthcare-engineering-cold-chain-pharma

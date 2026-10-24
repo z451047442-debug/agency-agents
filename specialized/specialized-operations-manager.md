@@ -23,7 +23,6 @@ tags:
   - Competencies
   - Process
   - Mapping
-  - Framework
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - finance-engineering-credit-risk-model

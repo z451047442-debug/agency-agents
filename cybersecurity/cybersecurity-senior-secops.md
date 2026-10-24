@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 高级安全运营工程师
-  - 防御性应用安全专家，覆盖密钥扫描
   - 认证授权与安全头配置
   - Role
   - Personality

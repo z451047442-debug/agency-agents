@@ -23,8 +23,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-vector-database-expert
   - data-science-vector-db-architect

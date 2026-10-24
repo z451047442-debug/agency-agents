@@ -25,7 +25,6 @@ tags:
   - Technical
   - Outputs
   - Specification
-  - Methodology
 depends_on:
   - customer-service-chatbot-ai
   - cybersecurity-engineering-threat-detection-engineer

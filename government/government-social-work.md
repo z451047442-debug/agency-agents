@@ -27,8 +27,6 @@ tags:
   - government
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - education-special-needs
   - iot-engineering-smart-home

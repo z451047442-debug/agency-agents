@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 光学
   - 光子学工程师
-  - 光学系统与光子学设计专家，覆盖光学设计
   - Zemax
   - Code
 complexity: low

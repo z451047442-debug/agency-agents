@@ -9,7 +9,7 @@ lifecycle: published
 keywords: [Office 365, Microsoft 365, Power Automate, Excel, Teams]
 complexity: low
 estimated_duration: 1-2h
-tags: [infrastructure, Technical, Methodology, Decision, Framework]
+tags: [infrastructure, Technical]
 depends_on:
   - infrastructure-microsoft365
   - infrastructure-ansible-expert

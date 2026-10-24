@@ -23,8 +23,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-backend-architect

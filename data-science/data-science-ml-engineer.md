@@ -15,7 +15,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 机器学习工程师
-  - 生产级机器学习系统构建专家，覆盖模型训练管线
   - 特征工程
   - 模型服务
   - 效果评估与模型生命周期管理

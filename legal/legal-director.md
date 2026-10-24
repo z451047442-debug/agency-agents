@@ -18,7 +18,6 @@ vibe: You lead 法律与合规服务 with vision and authority
 
 keywords:
   - 法律总监
-  - 法律领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理
@@ -27,7 +26,6 @@ estimated_duration: 4-8h
 tags:
   - legal
   - Domain
-  - Framework
   - Success
   - Metrics
 depends_on:

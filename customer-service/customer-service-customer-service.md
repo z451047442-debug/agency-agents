@@ -13,18 +13,13 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 客户服务专员
-  - 专业客户服务专家，处理咨询
   - 投诉
-  - 账户支持与常见问题解答，以温暖高效的服务面向客户
   - Customer
 complexity: low
 estimated_duration: 1-2h
 tags:
   - customer-service
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - customer-service-retail-customer-returns
   - healthcare-customer-service

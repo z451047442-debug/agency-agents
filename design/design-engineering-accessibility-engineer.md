@@ -17,14 +17,12 @@ keywords:
   - Web
   - 移动端无障碍
   - A11y
-  - 工程专家，覆盖WCAG
 complexity: low
 estimated_duration: 1-2h
 tags:
   - design
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

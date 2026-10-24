@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - HR业务伙伴
   - HRBP
-  - 人力资源业务伙伴，作为业务单元的战略HR搭档，覆盖组织诊断
   - 人才盘点
   - 变革管理
 complexity: low

@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - Nutanix超融合专家
-  - Nutanix超融合与云平台专家，覆盖AOS
   - AHV
   - Prism
   - Central
@@ -22,7 +21,6 @@ tags:
   - Technologies
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - education-special-needs

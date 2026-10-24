@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - Splunk平台专家
   - Splunk企业级日志管理与SIEM平台专家
-  - 覆盖分布式架构
   - Indexer
   - Search
 complexity: low

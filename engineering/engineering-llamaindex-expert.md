@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - LlamaIndex专家
   - LlamaIndex数据Agent与RAG框架专家
-  - 覆盖Index架构
   - Summary
   - Tree
 complexity: low
@@ -22,8 +21,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - design-image-prompt-engineer
   - engineering-build-release-engineer

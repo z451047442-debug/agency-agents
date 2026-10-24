@@ -20,8 +20,6 @@ tags:
   - marketing
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-paid-social-strategist

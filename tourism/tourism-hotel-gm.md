@@ -9,7 +9,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 酒店总经理
-  - 酒店全面经营管理专家，覆盖客房收益管理
   - RevPAR
   - 餐饮
   - 宴会运营
@@ -19,7 +18,6 @@ tags:
   - tourism
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-customer-data-science

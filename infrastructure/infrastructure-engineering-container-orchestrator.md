@@ -18,10 +18,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - infrastructure
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - energy-engineering-grid-scale-storage
   - engineering-container-orchestration

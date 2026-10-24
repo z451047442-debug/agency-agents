@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 感知系统工程师
-  - 机器人感知系统专家，覆盖计算机视觉
   - LiDAR点云处理
   - SLAM
   - 多传感器融合与环境理解
@@ -23,7 +22,6 @@ tags:
   - robotics
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-computer-vision-3d

@@ -4,7 +4,6 @@ color: red
 date_added: '2026-07-03'
 keywords:
   - 地理处理专家
-  - ArcPy与Python工具箱自动化空间工作流专家，构建自定义工具箱与批处理地理处理
   - Role
   - Personality
   - Memory

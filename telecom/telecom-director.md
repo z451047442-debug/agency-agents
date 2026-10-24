@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 电信运营总监
   - 电信运营公司
-  - 部门最高负责人，覆盖网络规划
   - 建设
   - 运维全生命周期
 complexity: high

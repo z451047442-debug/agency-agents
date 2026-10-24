@@ -26,7 +26,6 @@ tags:
   - retail
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

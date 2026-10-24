@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 编译器
   - 编程语言工程师
-  - 编译器与编程语言设计专家，覆盖词法
   - 语法
   - 语义分析
 complexity: low
@@ -22,7 +21,6 @@ tags:
   - compilers
   - programming
   - languages
-  - Built
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

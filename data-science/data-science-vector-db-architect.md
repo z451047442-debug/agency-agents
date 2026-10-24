@@ -13,17 +13,12 @@ lifecycle: published
 keywords:
   - 向量数据库架构师
   - 向量数据库选型与架构设计专家
-  - 覆盖Milvus
   - Pinecone
   - Weaviate
 complexity: medium
 estimated_duration: 2-4h
 tags:
   - data-science
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - engineering-embedded-database
   - engineering-git-workflow-master

@@ -23,7 +23,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - infrastructure-kubernetes-expert
   - infrastructure-ansible-expert

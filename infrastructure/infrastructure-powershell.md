@@ -4,7 +4,6 @@ color: indigo
 date_added: '2026-07-03'
 keywords:
   - PowerShell与Windows自动化专家
-  - PowerShell自动化与脚本专家，覆盖PowerShell
   - 7.x
   - DSC配置管理
   - 自动化编排

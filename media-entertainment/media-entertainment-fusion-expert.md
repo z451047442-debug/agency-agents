@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - Autodesk
   - Fusion专家
-  - Fusion产品设计与制造专家，覆盖参数化实体建模
   - 自由曲面
   - T-Spline
 complexity: low
@@ -24,7 +23,6 @@ tags:
   - Technical
   - Authoritative
   - References
-  - Methodology
 depends_on:
   - aerospace-engineering-systems-aerospace
   - media-entertainment-3ds-max-expert

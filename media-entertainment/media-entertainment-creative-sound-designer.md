@@ -4,7 +4,6 @@ color: cyan
 date_added: '2026-07-03'
 keywords:
   - 音效与声音设计师
-  - 声音设计与音频后期专家，覆盖音效设计
   - 拟音
   - Foley
   - 环境音场
@@ -14,8 +13,6 @@ tags:
   - media-entertainment
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - media-entertainment-multi-agent-coordinator
   - marketing-paid-media-creative-strategist

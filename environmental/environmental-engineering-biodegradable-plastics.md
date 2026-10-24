@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 生物可降解
   - 可堆肥高分子材料工程师
-  - 生物可降解塑料与生物基高分子专家，覆盖PLA
   - PHA
   - PBAT
 complexity: low
@@ -23,7 +22,6 @@ estimated_duration: 1-2h
 tags:
   - environmental
   - biopolymers
-  - Developed
   - compostable
   - plastics
 depends_on:

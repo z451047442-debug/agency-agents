@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 欧洲市场专家
-  - 欧洲市场营销与合规专家，覆盖GDPR
   - ePrivacy数据合规
   - 多国多语言本地化
   - 本地支付

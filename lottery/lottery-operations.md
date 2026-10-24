@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 彩票运营专家
-  - 彩票零售与渠道运营专家，覆盖投注站选址
   - 运营管理
   - 彩民营销
   - 会员体系

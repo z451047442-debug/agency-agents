@@ -13,7 +13,6 @@ lifecycle: draft
 keywords:
   - iOS
   - macOS系统工程师
-  - Apple平台系统软件开发专家，覆盖Darwin
   - XNU内核扩展
   - Metal
 complexity: low
@@ -23,7 +22,6 @@ tags:
   - Apple
   - platform
   - development
-  - Built
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

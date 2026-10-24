@@ -12,9 +12,7 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 中国市场本地化策略师
-  - 全栈中国市场本地化专家，将实时趋势信号转化为可执行的
   - GTM
-  - 策略，覆盖抖音
   - 小红书
 complexity: medium
 estimated_duration: 2-4h

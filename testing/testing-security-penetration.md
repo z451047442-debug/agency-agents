@@ -3,7 +3,6 @@ color: red
 date_added: '2026-07-03'
 keywords:
   - 安全渗透测试工程师
-  - 应用安全渗透测试专家，覆盖OWASP
   - Top10
   - API安全测试
   - Web

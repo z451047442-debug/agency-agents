@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 解决方案工程师
-  - 将技术顾问策略转化为工作原型的概念验证专家，覆盖Esri与开源全栈
   - Role
   - Personality
   - Memory

@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 代码库入门工程师
-  - 开发者入门专家，帮助新工程师快速理解陌生代码库，通过阅读源码
   - 追踪代码路径了解架构
   - Role
   - Personality
@@ -23,7 +22,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Professional
   - Scope
 depends_on:
   - design-persona-walkthrough

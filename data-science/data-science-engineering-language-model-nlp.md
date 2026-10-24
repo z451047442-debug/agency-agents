@@ -13,14 +13,12 @@ lifecycle: published
 keywords:
   - NLP
   - 大语言模型应用工程师
-  - 自然语言处理与大模型应用开发专家，覆盖LLM
   - RAG
   - Agent框架
 complexity: low
 estimated_duration: 1-2h
 tags:
   - data-science
-  - Built
   - LLM-powered
   - products
   - serving

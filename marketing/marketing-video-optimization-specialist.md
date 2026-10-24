@@ -13,7 +13,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 视频优化专家
-  - 视频营销策略师，专注
   - YouTube
   - 算法优化
   - 观众留存

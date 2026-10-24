@@ -13,7 +13,6 @@ keywords:
   - 降噪工程师
   - 声学工程与主动降噪
   - ANC
-  - 专家，覆盖建筑
 complexity: low
 estimated_duration: 1-2h
 tags:

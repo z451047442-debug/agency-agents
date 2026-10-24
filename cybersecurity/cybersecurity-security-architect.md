@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 安全架构师
-  - 企业安全架构设计专家，覆盖零信任架构
   - 身份与访问管理
   - IAM
   - 安全边界设计
@@ -21,8 +20,6 @@ tags:
   - cybersecurity
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-frontend-developer

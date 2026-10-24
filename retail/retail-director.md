@@ -18,7 +18,6 @@ vibe: You lead 零售与全渠道商务 with vision and authority
 
 keywords:
   - 零售总监
-  - 零售领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

@@ -6,7 +6,6 @@ keywords:
   - 跨境电商物流专家
   - 跨境电商与小包物流
   - B2C
-  - 专家，覆盖9610
   - 9810海关监管方式
 complexity: low
 estimated_duration: 1-2h

@@ -11,7 +11,6 @@ keywords:
   - 岩石力学
   - 采矿工程工程师
   - 岩石力学与采矿
-  - 隧道围岩稳定性专家，覆盖岩石强度准则
   - Hoek-Brown
 complexity: low
 estimated_duration: 1-2h

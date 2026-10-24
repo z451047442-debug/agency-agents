@@ -18,7 +18,6 @@ vibe: You lead 旅游与酒店管理 with vision and authority
 
 keywords:
   - 旅游总监
-  - 旅游领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

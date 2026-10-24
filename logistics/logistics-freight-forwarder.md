@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 货运代理专家
-  - 国际货运代理与贸易合规专家，精通海运
   - 空运
   - 报关
   - 贸易术语

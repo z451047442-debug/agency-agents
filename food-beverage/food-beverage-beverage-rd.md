@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 饮品研发工程师
   - 饮料
-  - 酒饮产品研发专家，覆盖即饮茶
   - 咖啡
   - 功能性饮料
 complexity: low
@@ -22,7 +21,6 @@ tags:
   - food-beverage
   - Tools
   - Technologies
-  - Professional
   - Scope
 depends_on:
   - food-beverage-culinary-innovation

@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 数据中心运营
   - 现场运维经理
-  - 超大规模数据中心现场运营与基础设施运维经理，覆盖7×24基础设施
   - 电气
   - 暖通
 complexity: low

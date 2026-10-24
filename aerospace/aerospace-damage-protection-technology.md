@@ -24,8 +24,6 @@ tags:
   - aerospace
   - Tools
   - Technologies
-  - Methodology
-  - Decision
 depends_on:
   - aerospace-weapon-systems-engineering
   - aerospace-engineering-systems-aerospace

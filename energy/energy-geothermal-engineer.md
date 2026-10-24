@@ -9,7 +9,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 地热能源工程师
-  - 地热能开发与利用专家，覆盖地热资源评估
   - 勘探
   - 地热发电
   - 干蒸汽
@@ -18,7 +17,6 @@ estimated_duration: 1-2h
 tags:
   - energy
   - geothermal
-  - Developed
   - projects
   - resource
 depends_on:

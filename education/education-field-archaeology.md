@@ -23,8 +23,6 @@ tags:
   - education
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - agriculture-engineering-soil-science
   - specialized-identity-graph-operator

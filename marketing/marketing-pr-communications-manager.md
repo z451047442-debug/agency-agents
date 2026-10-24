@@ -19,10 +19,6 @@ complexity: medium
 estimated_duration: 2-4h
 tags:
   - marketing
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - marketing-social-media-strategist
   - marketing-paid-media-paid-social-strategist

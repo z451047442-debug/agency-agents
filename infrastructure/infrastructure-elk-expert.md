@@ -15,7 +15,6 @@ keywords:
   - Stack专家
   - Elastic
   - Stack
-  - 日志与数据分析平台专家，覆盖Elasticsearch集群架构与调优
 complexity: low
 estimated_duration: 1-2h
 tags:
@@ -23,7 +22,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - testing-test-results-analyzer

@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 工单系统管理员
-  - 帮助台与ITSM平台管理专家，涵盖ServiceNow
   - Jira
   - Service
   - Management

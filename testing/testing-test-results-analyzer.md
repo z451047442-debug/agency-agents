@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 测试结果分析师
   - 测试评估
-  - 质量指标分析与覆盖率报告专家
   - Role
   - Personality
 complexity: low

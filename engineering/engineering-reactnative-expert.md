@@ -16,7 +16,6 @@ keywords:
   - React
   - Native移动开发专家
   - Native跨平台移动应用开发专家
-  - 覆盖React
   - Native新架构
 complexity: low
 estimated_duration: 1-2h
@@ -24,8 +23,6 @@ tags:
   - engineering
   - Actionable
   - Directives
-  - Methodology
-  - Decision
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

@@ -6,7 +6,6 @@ keywords:
   - Terraform
   - IaC专家
   - Terraform基础设施即代码专家
-  - 覆盖HCL模块化设计与Monorepo策略
   - Provider生态
 complexity: low
 estimated_duration: 1-2h
@@ -15,7 +14,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert

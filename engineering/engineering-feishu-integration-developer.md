@@ -21,10 +21,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-incident-response

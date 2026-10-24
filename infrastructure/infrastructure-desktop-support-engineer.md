@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 桌面运维工程师
-  - 企业桌面运维综合专家，覆盖Windows
   - macOS双平台
   - 硬件故障诊断与更换
   - 软件部署与许可管理
@@ -24,7 +23,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - design-engineering-user-research-system
   - infrastructure-ansible-expert

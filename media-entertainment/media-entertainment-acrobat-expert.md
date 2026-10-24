@@ -14,7 +14,6 @@ keywords:
   - Adobe
   - Acrobat
   - PDF专家
-  - Acrobat与PDF文档工程专家，覆盖PDF创建
   - 优化
 complexity: low
 estimated_duration: 1-2h

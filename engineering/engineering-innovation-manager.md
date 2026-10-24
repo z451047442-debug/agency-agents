@@ -22,7 +22,6 @@ tags:
   - managing
   - innovation
   - portfolios
-  - Built
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

@@ -5,7 +5,6 @@ keywords:
   - 大规模深度学习训练
   - 分布式系统工程师
   - 千卡
-  - 万卡级大模型分布式训练系统专家，覆盖数据并行
   - 张量并行
 complexity: low
 estimated_duration: 1-2h

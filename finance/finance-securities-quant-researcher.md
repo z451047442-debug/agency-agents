@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 量化研究员
-  - 量化研究与因子挖掘专家，覆盖Alpha信号研究
   - 因子发现
   - 统计套利策略开发
   - 回测框架设计
@@ -26,7 +25,6 @@ tags:
   - Skills
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp

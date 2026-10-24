@@ -20,8 +20,6 @@ tags:
   - game-development
   - Technical
   - Process
-  - Methodology
-  - Decision
 depends_on:
   - engineering-minimal-change-engineer
   - specialized-identity-graph-operator

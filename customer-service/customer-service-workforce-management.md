@@ -7,7 +7,6 @@ keywords:
   - 劳动力管理
   - WFM
   - 专家
-  - 客服中心劳动力管理与排班专家，覆盖话务量预测
 complexity: low
 estimated_duration: 1-2h
 tags:

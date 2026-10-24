@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 锐捷网络专家
-  - 锐捷网络设备专家，覆盖RGOS交换机
   - 路由器
   - 极简园区网方案
   - 数据中心
@@ -22,7 +21,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert

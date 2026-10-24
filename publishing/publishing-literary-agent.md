@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 文学经纪人
-  - 文学经纪专家，覆盖作者发掘与签约
   - 稿件打磨与提案撰写
   - 出版合同谈判（预付
   - 版税
@@ -24,8 +23,6 @@ tags:
   - publishing
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - education-special-needs
   - engineering-multi-agent-systems-architect

@@ -13,7 +13,6 @@ keywords:
   - Nagios监控专家
   - Nagios
   - XI
-  - Centreon监控平台专家，覆盖NRPE
   - NSCA
 complexity: low
 estimated_duration: 1-2h
@@ -22,7 +21,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-incident-response
   - infrastructure-multi-agent-coordinator

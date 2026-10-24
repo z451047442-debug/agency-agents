@@ -27,8 +27,6 @@ tags:
   - localization
   - Outputs
   - Specification
-  - Methodology
-  - Decision
 depends_on:
   - engineering-git-workflow-master
   - events-conference

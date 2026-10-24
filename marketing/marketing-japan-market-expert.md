@@ -20,8 +20,6 @@ tags:
   - marketing
   - Technical
   - Process
-  - Methodology
-  - Decision
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-social-media-strategist

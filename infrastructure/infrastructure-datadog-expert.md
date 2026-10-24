@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - Datadog可观测性专家
   - Datadog全栈可观测性专家
-  - 覆盖Agent部署与600+集成管理
   - APM与分布式追踪
   - Flame
 complexity: low
@@ -24,7 +23,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-threat-detection-engineer

@@ -21,7 +21,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - fashion
-  - Professional
   - Scope
   - Safeguards
   - References

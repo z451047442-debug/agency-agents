@@ -21,8 +21,6 @@ tags:
   - infrastructure
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-apache-httpd-expert

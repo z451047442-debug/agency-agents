@@ -23,7 +23,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Methodology
 depends_on:
   - cybersecurity-fortinet-expert
   - finance-engineering-credit-risk-model

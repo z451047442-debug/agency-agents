@@ -21,10 +21,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - game-development
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - finance-accounts-payable-agent
   - godot-gameplay-scripter

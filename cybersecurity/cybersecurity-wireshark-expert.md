@@ -11,17 +11,12 @@ lifecycle: published
 keywords:
   - Wireshark网络分析专家
   - Wireshark
-  - tshark网络数据包分析专家，覆盖抓包策略设计
   - BPF
   - MAC
 complexity: low
 estimated_duration: 1-2h
 tags:
   - cybersecurity
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-ai-agent-developer

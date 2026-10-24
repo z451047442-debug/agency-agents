@@ -23,9 +23,6 @@ estimated_duration: 1-2h
 tags:
   - customer-service
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - customer-service-call-center
   - engineering-developer-advocate

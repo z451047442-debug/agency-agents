@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 支付系统
   - 交易处理工程师
-  - 大规模支付交易处理系统专家，覆盖双活
   - 多活异地多活支付架构
   - 交易一致性
 complexity: low
@@ -22,7 +21,6 @@ tags:
   - engineering
   - payment
   - systems
-  - Built
   - transaction
 depends_on:
   - engineering-wechat-mini-program-developer

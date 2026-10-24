@@ -23,8 +23,6 @@ tags:
   - media-entertainment
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - specialized-personal-growth-mentor
   - thinking-models-decision-frameworks

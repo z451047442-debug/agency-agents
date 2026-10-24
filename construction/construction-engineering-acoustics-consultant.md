@@ -14,7 +14,6 @@ lifecycle: draft
 keywords:
   - 建筑声学
   - 室内声学顾问
-  - 建筑声学与室内声学设计顾问，覆盖音乐厅
   - 剧院
   - 录音棚
 complexity: low

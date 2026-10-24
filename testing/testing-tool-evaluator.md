@@ -24,7 +24,6 @@ tags:
   - Technical
   - Outputs
   - Specification
-  - Methodology
 depends_on:
   - operations-executive-summary-generator
   - specialized-productivity-time-management

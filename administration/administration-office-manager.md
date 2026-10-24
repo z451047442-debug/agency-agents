@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 行政管理专家
-  - 企业行政管理与后勤保障专家，覆盖办公室运营
   - 固定资产
   - 办公资产管理
   - 行政预算与成本控制
@@ -25,7 +24,6 @@ tags:
   - administration
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - administration-contract-manager

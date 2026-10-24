@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 房地产买卖代理
-  - 全面的房地产代理助手，覆盖买方与卖方代理
   - 房源管理
   - 报价谈判
   - 交易协调与交割支持
@@ -24,8 +23,6 @@ tags:
   - real-estate
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - legal-billing-time-tracking
   - marketing-paid-media-programmatic-buyer

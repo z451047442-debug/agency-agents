@@ -15,7 +15,6 @@ keywords:
   - 无人机
   - UAV
   - 系统工程师
-  - UAS系统设计与集成专家，覆盖飞控
   - PX4
 complexity: low
 estimated_duration: 1-2h
@@ -23,7 +22,6 @@ tags:
   - aerospace
   - system
   - design
-  - Built
   - drones
 depends_on:
   - aerospace-engineering-aircraft-structures

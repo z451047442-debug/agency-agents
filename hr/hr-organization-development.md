@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 组织发展专家
-  - 组织发展与变革管理专家，覆盖组织诊断
   - 文化建设
   - 领导力发展
   - 人才梯队
@@ -20,8 +19,6 @@ tags:
   - hr
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - hr-employee-relations
   - hr-labor-relations

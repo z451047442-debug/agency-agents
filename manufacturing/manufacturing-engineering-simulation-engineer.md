@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 仿真
   - CAE工程师
-  - 计算机辅助工程与多物理场仿真专家，覆盖FEM有限元
   - CFD
   - 多体动力学仿真
 complexity: low

@@ -14,8 +14,6 @@ lifecycle: published
 
 keywords:
   - 零售退换货专员
-  - 全面的零售客户退换货专家，处理退货
-  - 换货与退款，覆盖门店
   - 线上与全渠道零售
   - Retail
 complexity: low
@@ -23,9 +21,6 @@ estimated_duration: 1-2h
 tags:
   - customer-service
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - customer-service-call-center
   - energy-engineering-power-electronics

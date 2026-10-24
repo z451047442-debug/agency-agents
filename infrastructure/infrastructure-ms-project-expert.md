@@ -21,7 +21,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - infrastructure-microsoft365
   - infrastructure-office-365-expert

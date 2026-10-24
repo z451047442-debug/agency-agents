@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 采矿工程师
-  - 采矿工程与矿山设计专家，覆盖露天
   - 地下开采设计
   - 凿岩爆破优化
   - 通风与地压控制
@@ -24,7 +23,6 @@ tags:
   - mining
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

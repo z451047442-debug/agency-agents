@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 档案与证照管理专家
-  - 企业档案与证照管理专家，覆盖档案分类
   - 归档
   - 保管
   - 利用
@@ -24,7 +23,6 @@ tags:
   - administration
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - administration-contract-manager

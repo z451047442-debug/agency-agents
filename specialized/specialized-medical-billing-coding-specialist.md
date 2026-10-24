@@ -26,7 +26,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-compliance-auditor
   - legal-billing-time-tracking

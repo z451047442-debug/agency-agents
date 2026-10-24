@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 大气环境
   - 空气质量工程师
-  - 大气污染扩散模拟与空气质量专家，覆盖AERMOD
   - CALPUFF
   - CMAQ大气扩散模型
 complexity: low

@@ -23,8 +23,6 @@ tags:
   - media-entertainment
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - design-visual-storyteller
   - engineering-git-workflow-master

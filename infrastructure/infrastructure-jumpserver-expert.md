@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 跳板机
   - 堡垒机专家
-  - 跳板机与堡垒机架构专家，覆盖OpenSSH
   - Bastion
   - Teleport
 complexity: low
@@ -22,7 +21,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-engineering-threat-detection-engineer
   - infrastructure-ansible-expert

@@ -22,7 +22,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - environmental-renewable-energy
   - marketing-abm-account-based

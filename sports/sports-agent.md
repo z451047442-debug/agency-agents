@@ -24,7 +24,6 @@ tags:
   - sports
   - Contract
   - Negotiation
-  - Framework
   - Market
 depends_on:
   - data-science-engineering-deep-learning-training

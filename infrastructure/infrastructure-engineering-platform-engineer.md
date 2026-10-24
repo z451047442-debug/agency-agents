@@ -20,8 +20,6 @@ tags:
   - infrastructure
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - design-engineering-user-research-system

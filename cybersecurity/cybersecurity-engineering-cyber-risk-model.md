@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 网络风险量化
   - 网络安全保险精算师
-  - 网络风险建模与网络安全保险产品设计专家，覆盖网络损失分布
   - 蒙特卡洛模拟
   - 安全控制审计
 complexity: low
@@ -21,7 +20,6 @@ tags:
   - cybersecurity
   - cyber
   - insurance
-  - Built
   - models
 depends_on:
   - cybersecurity-appsec-engineer

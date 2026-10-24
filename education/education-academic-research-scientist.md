@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 学术研究科学家
   - 大学
-  - 研究机构科研工作者，覆盖研究设计
   - 方法论
   - 基金申请
 complexity: low

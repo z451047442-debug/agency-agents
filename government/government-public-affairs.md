@@ -22,8 +22,6 @@ tags:
   - government
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - government-digital-presales-consultant
   - legal-engineering-legal-document-automation

@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - IoT系统架构师
-  - 物联网端到端架构设计专家，覆盖设备层
   - 边缘层
   - 云平台
   - 数据管道与安全体系
@@ -20,7 +19,6 @@ tags:
   - iot
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - energy-engineering-power-electronics

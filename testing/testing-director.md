@@ -5,7 +5,6 @@ keywords:
   - 测试总监
   - QA
   - Director
-  - 软件测试与质量保证最高负责人，覆盖测试策略
   - 质量体系
 complexity: high
 estimated_duration: 4-8h

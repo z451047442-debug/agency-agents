@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 商业智能分析师
-  - 商业智能分析专家，专注
   - SQL
   - 分析
   - 仪表板开发（Tableau

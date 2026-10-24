@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 信用分析师
-  - 企业信用与信贷风险评估专家，覆盖企业财务报表分析
   - 现金流建模
   - 信用评级
   - 违约概率

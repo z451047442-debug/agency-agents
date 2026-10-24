@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 技术顾问
-  - 将业务问题转化为地理空间解决方案的战略顾问，覆盖差距分析与技术路线图
   - Role
   - Personality
   - Memory

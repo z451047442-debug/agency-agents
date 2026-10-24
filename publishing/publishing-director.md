@@ -18,7 +18,6 @@ vibe: You lead 出版与数字内容 with vision and authority
 
 keywords:
   - 出版总监
-  - 出版领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

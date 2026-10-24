@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 水处理工程师
-  - 水处理与水环境工程专家，覆盖市政供水
   - 污水处理
   - MBR膜生物反应器
   - RO反渗透
@@ -21,8 +20,6 @@ tags:
   - environmental
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - energy-engineering-waste-to-energy
   - environmental-carbon-management

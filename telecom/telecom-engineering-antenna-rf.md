@@ -6,7 +6,6 @@ keywords:
   - 射频
   - RF
   - 设计工程师
-  - 天线与射频电路设计专家，覆盖天线设计
 complexity: low
 estimated_duration: 1-2h
 tags:

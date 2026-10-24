@@ -20,7 +20,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - aerospace-engineering-aviation-safety

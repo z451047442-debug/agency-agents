@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - Kubernetes集群管理专家
   - Kubernetes生产集群架构与运维专家
-  - 覆盖集群架构设计
   - 控制面
   - etcd
 complexity: low

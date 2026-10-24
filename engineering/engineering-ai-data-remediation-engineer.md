@@ -25,8 +25,6 @@ tags:
   - engineering
   - Specialist
   - Stack
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-language-model-nlp

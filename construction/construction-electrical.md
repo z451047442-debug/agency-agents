@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 建筑电气工程师
-  - 建筑电气系统设计与施工专家，覆盖变配电
   - 高低压
   - 照明
   - 应急照明
@@ -22,7 +21,6 @@ tags:
   - construction
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-fire-protection

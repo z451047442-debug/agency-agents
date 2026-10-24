@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 设计总监
-  - 设计团队最高负责人，覆盖设计战略
   - 系统
   - 品牌体验一致性
   - 设计团队管理

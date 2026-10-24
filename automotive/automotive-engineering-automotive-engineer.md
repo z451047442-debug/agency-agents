@@ -15,7 +15,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Methodology
 depends_on:
   - automotive-engineering-functional-safety
   - automotive-multi-agent-coordinator

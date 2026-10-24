@@ -16,7 +16,6 @@ lifecycle: published
 keywords:
   - 生物声学
   - 生态声学研究员
-  - 动物声学通信与环境声学生态监测专家，覆盖被动声学监测
   - PAM
   - 声景生态学
 complexity: low

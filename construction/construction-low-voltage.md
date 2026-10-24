@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 弱电智能化工程师
-  - 弱电与智能化系统设计与施工专家，覆盖综合布线
   - 结构化布线
   - 安防
   - 视频监控
@@ -23,7 +22,6 @@ tags:
   - construction
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-architectural-designer

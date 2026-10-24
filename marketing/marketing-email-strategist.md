@@ -13,7 +13,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 邮件营销策略师
-  - CRM驱动的邮件营销专家，覆盖生命周期自动化
   - 分群架构与送达率优化
   - Role
   - Personality

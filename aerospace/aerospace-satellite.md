@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 卫星系统工程师
   - 卫星
-  - 航天器总体设计与在轨运行专家，覆盖平台设计
   - 载荷集成
   - 轨道控制
 complexity: low

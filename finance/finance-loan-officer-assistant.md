@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 贷款专员助理
-  - 全面的贷款专员助理，覆盖借款人受理
   - 预审资格
   - 文件收集
   - 管道管理与交割协调
@@ -24,8 +23,6 @@ tags:
   - finance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - finance-accounts-payable-agent
   - legal-client-intake

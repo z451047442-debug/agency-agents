@@ -15,7 +15,6 @@ keywords:
   - 研发费用加计扣除顾问
   - 全球研发税收激励与政府补助
   - Grants
-  - 顾问，覆盖中国研发费用加计扣除
 complexity: low
 estimated_duration: 1-2h
 tags:

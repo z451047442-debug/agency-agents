@@ -3,7 +3,6 @@ color: purple
 date_added: '2026-07-03'
 keywords:
   - 库存规划师
-  - 库存管理与需求预测专家，覆盖安全库存策略
   - 补货计划
   - ABC分类
   - 滞销品管理与库存周转优化
@@ -14,7 +13,6 @@ tags:
   - Technical
   - Process
   - Learning
-  - Methodology
 depends_on:
   - automotive-supply-chain
   - education-special-needs

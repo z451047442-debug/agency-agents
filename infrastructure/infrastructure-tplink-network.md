@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - TP-Link网络专家
-  - TP-Link企业网络设备专家，覆盖JetStream交换机
   - Omada
   - SDN控制器
   - 商用路由器与WiFi
@@ -22,7 +21,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert

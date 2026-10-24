@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - PMP项目管理经理
-  - PMP项目管理全流程专家，覆盖项目章程与范围管理
   - WBS与进度编制
   - 关键路径法
   - 预算与挣值管理
@@ -24,7 +23,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

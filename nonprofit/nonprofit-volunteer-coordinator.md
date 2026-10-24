@@ -25,7 +25,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - engineering-social-media-platform
   - finance-cost-accountant

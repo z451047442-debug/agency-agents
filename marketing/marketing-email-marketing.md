@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 邮件营销专家
-  - 邮件营销与自动化专家，覆盖EDM策略
   - 邮件序列设计
   - B测试
   - 送达率优化
@@ -20,7 +19,6 @@ tags:
   - marketing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - marketing-social-media-strategist

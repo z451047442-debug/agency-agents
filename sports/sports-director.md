@@ -21,8 +21,6 @@ tags:
   - sports
   - Technical
   - Process
-  - Methodology
-  - Decision
 depends_on:
   - construction-engineering-landscape-architecture
   - engineering-visual-studio-python

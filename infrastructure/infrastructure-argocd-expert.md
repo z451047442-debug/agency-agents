@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - GitOps部署专家
   - ArgoCD与GitOps持续部署专家
-  - 覆盖ArgoCD
   - Application
   - ApplicationSet
 complexity: low

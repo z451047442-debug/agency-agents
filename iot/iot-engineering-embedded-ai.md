@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 嵌入式AI
   - TinyML工程师
-  - 嵌入式设备端AI与微型机器学习专家，覆盖TensorFlow
   - Lite
   - Micro
 complexity: low

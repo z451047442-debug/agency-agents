@@ -10,7 +10,6 @@ lifecycle: published
 keywords:
   - 结构抗火
   - 消防工程性能化设计专家
-  - 建筑结构抗火与性能化消防工程专家，覆盖结构耐火
   - 混凝土
   - 木防火保护
 complexity: low

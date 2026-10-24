@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 募款经理
   - 非营利募款经理
-  - 筹款策略专家，覆盖个人捐赠计划（大额捐赠
   - 年度基金）
   - 企业赞助开发
 complexity: low

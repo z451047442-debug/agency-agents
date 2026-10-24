@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 量子计算研究员
-  - 量子计算与量子算法专家，覆盖量子电路
   - 门模型
   - 变分量子算法
   - VQE
@@ -23,7 +22,6 @@ tags:
   - quantum
   - computing
   - research
-  - Developed
 depends_on:
   - data-science-engineering-computer-vision-deep
   - design-engineering-quant-ux-researcher

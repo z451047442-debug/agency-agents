@@ -15,7 +15,6 @@ keywords:
   - 销售总监
   - VP
   - Sales
-  - 销售团队最高负责人，覆盖销售策略
   - 目标制定
 complexity: high
 estimated_duration: 4-8h

@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 地下水
   - 水文地质学家
-  - 地下水科学与水文地质专家，覆盖地下水数值模拟
   - MODFLOW
   - FEFLOW
 complexity: low

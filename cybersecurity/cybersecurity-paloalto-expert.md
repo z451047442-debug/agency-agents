@@ -13,15 +13,12 @@ keywords:
   - Alto安全专家
   - Alto
   - Networks下一代防火墙与安全平台专家
-  - 覆盖PAN-OS平台管理与Panorama集中管理
 complexity: low
 estimated_duration: 1-2h
 tags:
   - cybersecurity
   - Actionable
   - Directives
-  - Methodology
-  - Decision
 depends_on:
   - infrastructure-windows-server
   - engineering-code-reviewer

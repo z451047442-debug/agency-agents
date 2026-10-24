@@ -11,7 +11,6 @@ lifecycle: published
 
 keywords:
   - 游戏变现设计师
-  - 游戏经济与变现设计专家，覆盖免费+内购
   - F2P
   - 经济系统
   - 通行证
@@ -21,8 +20,6 @@ tags:
   - game-development
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-knowledge-management
   - data-science-engineering-language-model-nlp

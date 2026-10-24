@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 学校行政
   - 校长
-  - 学校管理与教育行政专家，覆盖学校战略
   - 发展规划
   - 教学质量
 complexity: low
@@ -22,8 +21,6 @@ tags:
   - education
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-language-model-nlp
   - education-academic-anthropologist

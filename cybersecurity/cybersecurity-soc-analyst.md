@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 安全运营中心分析师
-  - 安全运营中心分析专家，专注事件分诊
   - 威胁检测
   - SIEM
   - 监控

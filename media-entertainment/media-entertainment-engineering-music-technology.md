@@ -7,7 +7,6 @@ keywords:
   - 音乐信息检索
   - MIR
   - 研究员
-  - 音乐信息检索与AI音乐生成专家，覆盖音乐特征提取
 complexity: low
 estimated_duration: 1-2h
 tags:
@@ -15,7 +14,6 @@ tags:
   - music
   - information
   - retrieval
-  - Built
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-deep-learning-training

@@ -24,8 +24,6 @@ tags:
   - cybersecurity
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-threat-detection-engineer

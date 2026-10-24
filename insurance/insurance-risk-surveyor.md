@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 风险查勘师
-  - 保险风险查勘与防灾防损专家，通过现场勘查识别风险隐患
   - 评估安全措施
   - 提出整改建议并降低赔付率
   - Wang
@@ -24,8 +23,6 @@ tags:
   - insurance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - construction-fire-protection
   - education-special-needs

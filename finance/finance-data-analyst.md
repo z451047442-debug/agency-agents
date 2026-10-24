@@ -11,7 +11,6 @@ lifecycle: published
 
 keywords:
   - 财务数据分析师
-  - 财务数据与商业智能分析专家，覆盖财务数据仓库
   - BI建模
   - Power
   - BI
@@ -22,7 +21,6 @@ tags:
   - financial
   - data
   - analysis
-  - Built
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model

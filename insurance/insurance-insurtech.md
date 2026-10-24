@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 保险科技专家
-  - 保险科技专家，覆盖车联网
   - 物联网的UBI保险
   - AI核保
   - 区块链理赔结算
@@ -23,8 +22,6 @@ tags:
   - insurance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - healthcare-engineering-medical-device-software

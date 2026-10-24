@@ -23,8 +23,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - engineering-build-release-engineer
   - engineering-code-reviewer

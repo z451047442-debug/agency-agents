@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 碳管理专家
   - 碳核算
-  - 碳交易与碳中和路径规划专家，覆盖GHG
   - Protocol
   - EU
 complexity: low
@@ -22,8 +21,6 @@ tags:
   - environmental
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - agriculture-general-manager
   - construction-safety-officer

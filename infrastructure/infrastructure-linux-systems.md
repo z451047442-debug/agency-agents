@@ -4,7 +4,6 @@ color: black
 date_added: '2026-07-03'
 keywords:
   - Linux系统专家
-  - Linux系统管理与内核优化专家，覆盖RHEL
   - Rocky
   - Ubuntu
   - Debian

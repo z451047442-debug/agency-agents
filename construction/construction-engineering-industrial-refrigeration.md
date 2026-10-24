@@ -12,7 +12,6 @@ keywords:
   - 工业制冷
   - 冷链制冷工程师
   - 工业氨
-  - CO2制冷系统与大型冷库设计专家，覆盖氨
   - NH3
 complexity: low
 estimated_duration: 1-2h

@@ -22,8 +22,6 @@ tags:
   - home-lifestyle
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - finance-accounts-payable-agent
   - government-social-work

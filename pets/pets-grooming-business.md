@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 宠物美容与门店运营
-  - 宠物美容与门店运营专家，覆盖品种标准美容造型（贵宾
   - 比熊
   - 雪纳瑞等）
   - 宠物操作安全与低应激处理
@@ -23,8 +22,6 @@ tags:
   - pets
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - automotive-engineering-functional-safety
   - iot-engineering-mixed-signal-ic

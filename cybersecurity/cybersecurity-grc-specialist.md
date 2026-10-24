@@ -14,7 +14,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 治理风险合规专家
-  - 治理风险合规专家，指导组织通过安全框架（SOC
   - ISO
   - HIPAA
   - PCI-DSS

@@ -13,16 +13,12 @@ keywords:
   - Visual
   - Studio
   - Python开发专家
-  - Python开发专家，覆盖Python工具
   - 数据科学
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

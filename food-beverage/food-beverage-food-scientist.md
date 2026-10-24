@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 食品科学家
-  - 食品科学与产品开发专家，覆盖配方设计
   - 工艺优化
   - 保质期研究
   - 感官评价
@@ -24,7 +23,6 @@ tags:
   - food-beverage
   - Tools
   - Technologies
-  - Professional
   - Scope
 depends_on:
   - food-beverage-beverage-rd

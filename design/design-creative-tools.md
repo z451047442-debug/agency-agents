@@ -25,8 +25,6 @@ tags:
   - design
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - engineering-git-workflow-master
   - legal-document-review

@@ -25,7 +25,6 @@ tags:
   - Technical
   - Process
   - Learning
-  - Methodology
 depends_on:
   - education-academic-anthropologist
   - spatial-computing-macos-spatial-metal-engineer

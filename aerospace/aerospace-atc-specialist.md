@@ -16,7 +16,6 @@ keywords:
   - 空中交通管制
   - ATC
   - 专家
-  - 空中交通管理与管制专家，覆盖塔台
   - 进近
 complexity: low
 estimated_duration: 1-2h
@@ -24,8 +23,6 @@ tags:
   - aerospace
   - Tools
   - Technologies
-  - Methodology
-  - Decision
 depends_on:
   - aerospace-avionics
   - aerospace-engineering-aviation-human-factors

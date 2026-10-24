@@ -14,7 +14,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 流数据平台工程师
-  - 实时流数据与消息平台专家，覆盖Apache
   - Kafka
   - Pulsar消息平台
   - Flink
@@ -25,7 +24,6 @@ tags:
   - Technologies
   - Success
   - Metrics
-  - Professional
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d

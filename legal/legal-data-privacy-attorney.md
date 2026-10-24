@@ -23,7 +23,6 @@ tags:
   - legal
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - legal-data-protection-officer

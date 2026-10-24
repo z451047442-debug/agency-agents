@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 景观建筑
   - 景观生态设计师
-  - 可持续景观与城市生态设计专家，覆盖雨水花园
   - 生物滞留
   - 绿色屋顶
 complexity: low

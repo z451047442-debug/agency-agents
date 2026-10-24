@@ -13,7 +13,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 报价与线索生成策略师
-  - 漏斗顶端架构师，设计不可抗拒的报价与线索磁石以规模化吸引合格潜在客户
   - Offer
   - Lead
   - Gen

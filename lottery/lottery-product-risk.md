@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 彩票产品与风控专家
-  - 彩票游戏设计与风险管理专家，覆盖游戏机制
   - 赔率设计
   - 奖池资金管理
   - 风险控制
@@ -24,7 +23,6 @@ tags:
   - Competencies
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - data-science-engineering-language-model-nlp

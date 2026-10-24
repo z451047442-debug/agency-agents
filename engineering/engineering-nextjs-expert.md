@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - Next.js全栈开发专家
   - Next.js全栈Web应用开发专家
-  - 覆盖App
   - Router
   - React
 complexity: low
@@ -22,8 +21,6 @@ tags:
   - engineering
   - Actionable
   - Directives
-  - Methodology
-  - Decision
 depends_on:
   - infrastructure-github-actions-expert
   - testing-test-results-analyzer

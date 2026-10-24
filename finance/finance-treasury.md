@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 资金管理与司库专家
   - 企业资金
-  - 司库管理专家，覆盖现金流预测与管理
   - 银行关系
   - 授信
 complexity: low
@@ -14,7 +13,6 @@ tags:
   - finance
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

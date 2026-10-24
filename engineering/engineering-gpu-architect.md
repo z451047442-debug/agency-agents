@@ -13,7 +13,6 @@ keywords:
   - 异构计算工程师
   - GPU计算与高性能计算
   - HPC
-  - 专家，覆盖CUDA
 complexity: medium
 estimated_duration: 2-4h
 tags:

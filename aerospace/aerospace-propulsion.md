@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 航空发动机工程师
   - 航空发动机
-  - 燃气轮机设计与试验专家，覆盖总体性能
   - 压气机
   - 燃烧室
 complexity: low
@@ -23,7 +22,6 @@ tags:
   - aerospace
   - Tools
   - Technologies
-  - Professional
   - Scope
 depends_on:
   - aerospace-engineering-aviation-engineering

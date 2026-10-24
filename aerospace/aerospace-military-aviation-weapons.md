@@ -22,7 +22,6 @@ tags:
   - aerospace
   - Tools
   - Technologies
-  - Professional
   - Scope
 depends_on:
   - aerospace-propulsion

@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 医疗质量与患者安全专家
-  - 医疗质量管理与患者安全专家，覆盖JCI
   - 三级医院评审标准
   - 临床质量指标
   - 死亡率
@@ -23,7 +22,6 @@ tags:
   - quality
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - aerospace-engineering-aviation-human-factors

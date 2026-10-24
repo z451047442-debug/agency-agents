@@ -14,7 +14,6 @@ keywords:
   - Visual
   - Studio
   - C++开发专家
-  - C++开发专家，覆盖MSVC编译器
   - 链接器优化
 complexity: low
 estimated_duration: 1-2h
@@ -23,7 +22,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

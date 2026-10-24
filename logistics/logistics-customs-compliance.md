@@ -3,7 +3,6 @@ color: red
 date_added: '2026-07-03'
 keywords:
   - 关务合规师
-  - 海关合规与跨境贸易专家，覆盖HS归类
   - 关税筹划
   - AEO认证
   - 原产地规则

@@ -23,7 +23,6 @@ tags:
   - museums
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - engineering-code-reviewer

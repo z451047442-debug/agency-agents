@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - Dell服务器专家
   - Dell
-  - PowerEdge服务器与超融合专家，覆盖PowerEdge
   - MX
   - XR全系列
 complexity: low
@@ -21,7 +20,6 @@ estimated_duration: 1-2h
 tags:
   - infrastructure
   - Platforms
-  - Professional
   - Scope
   - Safeguards
 depends_on:

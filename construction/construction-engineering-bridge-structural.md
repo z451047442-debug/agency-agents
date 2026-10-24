@@ -10,7 +10,6 @@ lifecycle: published
 keywords:
   - 桥梁工程
   - 桥梁健康监测工程师
-  - 大跨度桥梁设计与结构健康监测专家，覆盖悬索桥
   - 斜拉桥
   - 拱桥
 complexity: low

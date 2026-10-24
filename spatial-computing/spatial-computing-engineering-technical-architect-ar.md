@@ -6,14 +6,12 @@ keywords:
   - 增强现实
   - AR
   - 开发工程师
-  - 增强现实应用开发专家，覆盖ARKit
   - ARCore
 complexity: medium
 estimated_duration: 2-4h
 tags:
   - spatial-computing
   - development
-  - Built
   - apps
   - SDKs
 depends_on:

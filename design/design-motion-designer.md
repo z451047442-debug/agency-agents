@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 动效
   - 交互动画设计师
-  - UI动效与交互反馈设计专家，覆盖微交互
   - 转场动画
   - 加载
 complexity: low

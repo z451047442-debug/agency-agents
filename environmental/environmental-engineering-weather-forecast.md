@@ -14,7 +14,6 @@ tags:
   - environmental
   - atmospheric
   - modeling
-  - Developed
   - operated
 depends_on:
   - environmental-multi-agent-coordinator

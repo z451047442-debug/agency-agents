@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 搜救专家
-  - 搜索与救援专家，覆盖SAR任务规划与指挥协调
   - 搜索理论（概率
   - 网格
   - 扇形搜索）与资源部署

@@ -15,7 +15,6 @@ keywords:
   - 项目组合经理
   - 项目组合管理
   - PPM
-  - 专家，覆盖组合优先级排序与遴选
   - 资源产能规划与分配
 complexity: low
 estimated_duration: 1-2h
@@ -23,7 +22,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-engineering-green-building

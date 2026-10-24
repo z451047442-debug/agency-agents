@@ -14,7 +14,6 @@ keywords:
   - Studio
   - Web
   - ASP.NET开发专家
-  - Web开发专家，覆盖ASP.NET
 complexity: low
 estimated_duration: 1-2h
 tags:
@@ -22,7 +21,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - Cisco网络专家
-  - Cisco网络设备专家，覆盖IOS
   - IOS-XE
   - NX-OS
   - Catalyst
@@ -23,7 +22,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-ansible-expert

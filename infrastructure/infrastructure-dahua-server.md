@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 大华服务器专家
-  - 大华智能服务器与云存储专家，覆盖AI服务器
   - GPU
   - MLU
   - 视频云存储
@@ -22,7 +21,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-git-workflow-master

@@ -13,7 +13,6 @@ keywords:
   - 暖通空调
   - HVAC
   - 工程师
-  - 暖通空调系统设计与施工专家，覆盖冷热源系统
   - 冷水机组
 complexity: low
 estimated_duration: 1-2h

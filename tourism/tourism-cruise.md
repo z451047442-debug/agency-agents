@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 邮轮运营管理专家
-  - 邮轮航线运营管理专家，覆盖航线规划与港口谈判
   - 船上体验与娱乐
   - 海事安全与SOLAS合规
   - 船员管理与培训
@@ -20,7 +19,6 @@ tags:
   - tourism
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - energy-engineering-carbon-capture-storage

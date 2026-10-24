@@ -23,8 +23,6 @@ tags:
   - game-development
   - Technical
   - Process
-  - Methodology
-  - Decision
 depends_on:
   - design-creative-tools
   - infrastructure-github-actions-expert

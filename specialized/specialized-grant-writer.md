@@ -16,7 +16,6 @@ lifecycle: published
 
 keywords:
   - 拨款撰写人
-  - 非营利与科研机构的专家级拨款撰写人，覆盖资助前景研究
   - 提案撰写与预算叙事
   - Grant
   - Writer

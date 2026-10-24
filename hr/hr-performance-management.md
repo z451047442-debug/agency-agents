@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 绩效管理专家
-  - 绩效管理体系设计专家，覆盖OKR
   - KPI
   - 平衡计分卡
   - 绩效评估

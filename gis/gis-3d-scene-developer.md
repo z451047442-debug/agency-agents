@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 3D与场景开发工程师
   - Web
-  - 3D可视化专家，使用Cesium
   - ArcGIS
   - Scene
 complexity: low

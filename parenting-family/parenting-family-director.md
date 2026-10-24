@@ -17,7 +17,6 @@ vibe: You lead 家庭教育与育儿 with vision and authority
 
 keywords:
   - 亲子家庭总监
-  - 亲子家庭领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理
@@ -27,8 +26,6 @@ tags:
   - parenting-family
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics

@@ -10,7 +10,6 @@ lifecycle: published
 keywords:
   - 隧道
   - 地下工程工程师
-  - 隧道与地下空间工程设计与施工专家，覆盖TBM
   - 盾构
   - 钻爆法
 complexity: low

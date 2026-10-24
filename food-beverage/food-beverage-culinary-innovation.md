@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 餐饮研发与创新厨师
-  - 餐饮连锁与中央厨房产品研发专家，覆盖菜品标准化
   - 预制菜
   - 酱料工业化
   - Role
@@ -20,7 +19,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - food-beverage
-  - Professional
   - Scope
   - Safeguards
   - Authoritative

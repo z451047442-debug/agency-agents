@@ -7,7 +7,6 @@ keywords:
   - Customer
   - Success
   - Director
-  - 客户成功最高负责人，覆盖企业CS战略与团队领导
 complexity: high
 estimated_duration: 4-8h
 tags:

@@ -16,16 +16,11 @@ keywords:
   - AI应用可观测性专家
   - AI
   - LLM应用监控与可观测性专家
-  - 覆盖LLM追踪与调试
   - LangSmith
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

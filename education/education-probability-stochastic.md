@@ -23,8 +23,6 @@ tags:
   - education
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - home-lifestyle-personal-finance
   - logistics-engineering-supply-chain-risk

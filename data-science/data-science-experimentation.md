@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 实验设计与A
   - B测试专家
-  - 在线实验设计与分析专家，覆盖样本量计算
   - 随机化策略
   - 序贯检验
 complexity: low
@@ -14,7 +13,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d

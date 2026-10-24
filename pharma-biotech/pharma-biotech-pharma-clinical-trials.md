@@ -9,7 +9,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 临床试验项目经理
-  - Ⅰ-Ⅳ期临床试验运营管理专家，覆盖中心筛选
   - 患者入组
   - 数据管理
   - GCP合规
@@ -19,7 +18,6 @@ tags:
   - pharma-biotech
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-knowledge-management

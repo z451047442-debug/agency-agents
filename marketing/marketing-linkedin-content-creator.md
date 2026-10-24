@@ -23,7 +23,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - government-social-work
   - marketing-bilibili-content-strategist

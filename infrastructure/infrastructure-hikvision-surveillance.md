@@ -14,7 +14,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 海康威视安防网络专家
-  - 海康威视安防系统与网络专家，覆盖IP摄像头
   - NVR
   - DVR
   - 视频管理平台
@@ -25,7 +24,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - data-science-engineering-computer-vision-deep

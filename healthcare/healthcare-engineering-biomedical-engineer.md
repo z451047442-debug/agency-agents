@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 生物医学工程师
-  - 生物医学工程与医疗器械开发专家，覆盖医疗设备设计
   - 开发
   - ISO
   - 生物信号处理

@@ -3,7 +3,6 @@ color: gray
 date_added: '2026-07-03'
 keywords:
   - 寿险精算师
-  - 寿险精算专家，覆盖死亡率表构建
   - 定期
   - 终身
   - 万能寿险定价
@@ -13,8 +12,6 @@ tags:
   - insurance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - finance-engineering-credit-risk-model
   - finance-financial-controller

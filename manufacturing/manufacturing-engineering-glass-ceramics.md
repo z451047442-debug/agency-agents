@@ -13,7 +13,6 @@ keywords:
   - 玻璃
   - 陶瓷
   - 耐火材料工程师
-  - 无机非金属材料与高温过程专家，覆盖玻璃熔制
   - 浮法
 complexity: low
 estimated_duration: 1-2h
@@ -21,7 +20,6 @@ tags:
   - manufacturing
   - glass
   - ceramics
-  - Developed
   - materials
 depends_on:
   - energy-engineering-energy-storage-materials-sci

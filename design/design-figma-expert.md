@@ -16,7 +16,6 @@ lifecycle: published
 keywords:
   - Figma设计系统专家
   - Figma设计系统与协作平台专家
-  - 覆盖组件库
   - Design
   - Token
 complexity: low

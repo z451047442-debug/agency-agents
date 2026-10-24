@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 岩土地震
   - 土动力学工程师
-  - 岩土地震工程与场地效应专家，覆盖场地地震反应分析
   - SHAKE
   - DEEPSOIL
 complexity: low

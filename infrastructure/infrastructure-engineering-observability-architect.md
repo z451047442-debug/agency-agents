@@ -5,7 +5,6 @@ color: cyan
 date_added: '2026-07-03'
 keywords:
   - 可观测性架构师
-  - 企业级可观测性平台架构专家，覆盖OpenTelemetry标准化采集
   - LGTM
   - Mimir
   - Tempo

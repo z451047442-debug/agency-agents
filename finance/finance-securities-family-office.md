@@ -3,7 +3,6 @@ color: gold
 date_added: '2026-07-03'
 keywords:
   - 家族办公室投资顾问
-  - 家族办公室投资管理专家，覆盖多代财富传承战略
   - 公开
   - 私募
   - 实物跨资产配置
@@ -14,7 +13,6 @@ tags:
   - Skills
   - Success
   - Metrics
-  - Professional
 depends_on:
   - finance-securities-multi-agent-coordinator
   - finance-capital-markets-analyst

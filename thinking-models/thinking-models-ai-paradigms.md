@@ -22,10 +22,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - thinking-models
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - specialized-agentic-identity-trust
   - specialized-identity-graph-operator

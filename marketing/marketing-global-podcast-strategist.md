@@ -23,7 +23,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - marketing-social-media-strategist
   - design-brand-guardian

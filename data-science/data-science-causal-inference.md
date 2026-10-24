@@ -3,7 +3,6 @@ color: indigo
 date_added: '2026-07-03'
 keywords:
   - 因果推断专家
-  - 因果推断与计量经济学专家，覆盖DID
   - RDD
   - 工具变量
   - 双重机器学习与政策效应评估
@@ -14,7 +13,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - construction-cost-estimator
   - data-science-data-engineer

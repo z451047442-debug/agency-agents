@@ -15,7 +15,6 @@ keywords:
   - 深信服安全专家
   - 深信服
   - Sangfor
-  - 安全与云IT专家，覆盖下一代防火墙
   - NGAF
 complexity: low
 estimated_duration: 1-2h
@@ -24,7 +23,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - finance-accounts-payable-agent

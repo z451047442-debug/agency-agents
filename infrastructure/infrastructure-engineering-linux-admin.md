@@ -23,7 +23,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - engineering-database-administrator
   - infrastructure-ansible-expert

@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - AI伦理与负责任AI专家
-  - 人工智能伦理与负责任AI治理专家，覆盖AI公平性
   - Fairness检测与缓解
   - 可解释性
   - XAI
@@ -23,7 +22,6 @@ tags:
   - engineering
   - ethics
   - governance
-  - Built
   - responsible
 depends_on:
   - engineering-build-release-engineer

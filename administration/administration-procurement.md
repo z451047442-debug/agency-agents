@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 采购与供应商管理专家
-  - 企业采购与供应链管理专家，覆盖供应商寻源
   - 评估
   - 分级
   - 招标谈判
@@ -25,7 +24,6 @@ tags:
   - administration
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - administration-contract-manager

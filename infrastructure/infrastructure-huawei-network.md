@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 华为网络专家
-  - 华为网络设备专家，覆盖VRP
   - S系列交换机
   - NetEngine
   - AR路由器
@@ -22,7 +21,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 depends_on:
   - engineering-git-workflow-master
   - finance-financial-controller

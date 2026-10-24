@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 薪酬福利专家
-  - 薪酬福利与激励设计专家，覆盖薪酬架构
   - 岗位评估
   - 短期
   - 长期激励
@@ -20,7 +19,6 @@ tags:
   - hr
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - finance-accounts-payable-agent

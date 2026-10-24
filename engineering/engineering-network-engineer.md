@@ -20,9 +20,6 @@ estimated_duration: 1-2h
 tags:
   - engineering
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

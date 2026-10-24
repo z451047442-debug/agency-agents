@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 航空经济
   - 航线网络规划分析师
-  - 航空公司航线网络规划与机队战略专家，覆盖航线盈利性
   - Hub经济学
   - O&D流量
 complexity: low

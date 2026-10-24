@@ -23,8 +23,6 @@ tags:
   - education
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - engineering-git-workflow-master
   - government-social-work

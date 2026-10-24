@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 视频流
   - 直播技术工程师
-  - 视频流媒体与直播技术专家，覆盖RTMP
   - HLS
   - WebRTC流媒体协议
 complexity: low
@@ -22,7 +21,6 @@ tags:
   - media-entertainment
   - video
   - streaming
-  - Built
   - pipelines
 depends_on:
   - engineering-code-reviewer

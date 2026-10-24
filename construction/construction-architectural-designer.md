@@ -14,7 +14,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 建筑设计师
-  - 建筑设计与空间规划专家，覆盖概念设计
   - 方案深化
   - 建筑规范
   - 可持续设计与BIM协同
@@ -24,7 +23,6 @@ tags:
   - construction
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

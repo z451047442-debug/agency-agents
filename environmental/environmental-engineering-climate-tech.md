@@ -17,14 +17,12 @@ keywords:
   - 碳移除工程师
   - 气候技术与碳移除
   - CDR
-  - 工程专家，覆盖直接空气捕获
 complexity: low
 estimated_duration: 1-2h
 tags:
   - environmental
   - climate
   - technology
-  - Developed
   - carbon
 depends_on:
   - energy-engineering-carbon-capture-storage

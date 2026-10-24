@@ -18,7 +18,6 @@ lifecycle: published
 keywords:
   - 技术产品经理
   - TPM
-  - 专家，覆盖API产品设计
   - 平台产品策略
   - 技术路线图
 complexity: medium

@@ -16,7 +16,6 @@ lifecycle: published
 keywords:
   - 环保
   - 可持续发展总监
-  - 企业环保与可持续发展最高负责人，覆盖环境管理体系
   - ISO14001
   - 碳减排
 complexity: high

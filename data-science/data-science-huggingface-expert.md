@@ -18,7 +18,6 @@ keywords:
   - Hugging
   - Face生态专家
   - Face模型生态与应用专家
-  - 覆盖Transformers
   - Trainer
 complexity: low
 estimated_duration: 1-2h

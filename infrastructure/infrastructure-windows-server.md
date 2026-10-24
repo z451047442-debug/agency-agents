@@ -14,7 +14,6 @@ keywords:
   - Windows
   - Server与AD专家
   - Server与Active
-  - Directory专家，覆盖AD
   - DS
 complexity: high
 estimated_duration: 4-8h
@@ -23,7 +22,6 @@ tags:
   - Technologies
   - Success
   - Metrics
-  - Professional
 depends_on:
   - engineering-git-workflow-master
   - infrastructure-multi-agent-coordinator

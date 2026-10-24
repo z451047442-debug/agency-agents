@@ -15,7 +15,6 @@ keywords:
   - 海洋工程
   - 船舶设计工程师
   - 海洋工程与船舶
-  - 海工结构设计专家，覆盖船舶稳性
   - 浮态
 complexity: low
 estimated_duration: 1-2h

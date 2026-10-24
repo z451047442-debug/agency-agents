@@ -20,10 +20,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - game-development
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - engineering-git-workflow-master
   - game-development-game-audio-engineer

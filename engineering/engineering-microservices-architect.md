@@ -25,7 +25,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

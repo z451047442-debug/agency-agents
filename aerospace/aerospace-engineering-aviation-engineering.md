@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 航空发动机设计工程师
-  - 燃气涡轮航空发动机设计与性能专家，覆盖涡扇
   - 涡桨
   - 涡轴发动机热力循环
   - 压气机

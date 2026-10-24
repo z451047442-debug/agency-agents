@@ -16,7 +16,6 @@ lifecycle: published
 keywords:
   - People
   - Analytics与人力资源数据分析
-  - 人力资源数据分析专家，覆盖离职预测
   - 流失分析
   - 招聘漏斗
 complexity: low
@@ -25,7 +24,6 @@ tags:
   - hr
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - cybersecurity-engineering-cyber-risk-model

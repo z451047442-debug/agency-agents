@@ -16,7 +16,6 @@ keywords:
   - 统一通信工程师
   - VoIP与统一通信
   - UC
-  - 专家，覆盖SIP中继
   - 交换
 complexity: low
 estimated_duration: 1-2h
@@ -24,7 +23,6 @@ tags:
   - infrastructure
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - government-public-safety-analyst

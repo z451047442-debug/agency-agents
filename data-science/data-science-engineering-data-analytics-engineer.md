@@ -5,7 +5,6 @@ keywords:
   - 数据分析工程师
   - Analytics
   - Engineer
-  - 数据分析工程与数据建模专家，覆盖dbt
   - Snowflake
 complexity: low
 estimated_duration: 1-2h
@@ -13,7 +12,6 @@ tags:
   - data-science
   - analytics
   - engineering
-  - Built
   - data
 depends_on:
   - data-science-data-engineer

@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 教育评估
   - 测评专家
-  - 教育测量与学习评估专家，覆盖标准化测验设计
   - 项目反应理论
   - IRT
 complexity: low

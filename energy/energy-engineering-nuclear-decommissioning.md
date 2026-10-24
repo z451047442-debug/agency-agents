@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 核设施退役
   - 放射性废物管理专家
-  - 核设施退役与放射性废物处理处置专家，覆盖核电厂
   - 研究堆
   - 核设施退役策略
 complexity: low

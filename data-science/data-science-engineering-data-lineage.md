@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 数据治理
   - 数据血缘专家
-  - 企业数据治理与元数据管理专家，覆盖数据血缘
   - Data
   - Lineage
 complexity: low
@@ -13,7 +12,6 @@ tags:
   - data-science
   - data
   - governance
-  - Built
   - programs
 depends_on:
   - data-science-data-engineer

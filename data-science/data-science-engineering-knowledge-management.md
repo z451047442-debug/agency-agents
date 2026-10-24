@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 企业知识管理
   - 组织学习顾问
-  - 企业知识管理与组织学习系统顾问，覆盖知识管理
   - KM
   - 战略
 complexity: low
@@ -14,7 +13,6 @@ tags:
   - data-science
   - knowledge
   - management
-  - Built
   - systems
 depends_on:
   - data-science-data-engineer

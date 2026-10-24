@@ -17,7 +17,6 @@ keywords:
   - 设施管理
   - FM
   - 专家
-  - 商业建筑设施管理专家，覆盖楼宇机电
   - HVAC
 complexity: medium
 estimated_duration: 2-4h

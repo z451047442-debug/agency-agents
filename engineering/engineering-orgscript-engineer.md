@@ -25,7 +25,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Professional
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

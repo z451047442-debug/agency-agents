@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 报关员
-  - 海关报关与通关专家，覆盖HS编码归类与预裁定
   - 完税价格审定
   - 原产地证申领
   - FORM
@@ -21,10 +20,6 @@ complexity: high
 estimated_duration: 4-8h
 tags:
   - logistics
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - logistics-engineering-supply-chain-software
   - engineering-frontend-developer

@@ -23,8 +23,6 @@ tags:
   - environmental
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - government-social-work
   - logistics-supply-chain-strategist

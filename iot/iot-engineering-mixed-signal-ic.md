@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 模拟
   - 混合信号IC设计工程师
-  - 模拟与混合信号集成电路设计专家，覆盖ADC
   - DAC
   - PLL
 complexity: low

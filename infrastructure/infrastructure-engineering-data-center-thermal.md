@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 数据中心热管理
   - 液冷专家
-  - 高密度数据中心制冷与液冷系统专家，覆盖直接芯片液冷
   - DLC
   - 浸没式冷却
 complexity: low

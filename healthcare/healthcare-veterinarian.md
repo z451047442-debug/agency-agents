@@ -20,7 +20,6 @@ tags:
   - healthcare
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - healthcare-clinical-physician

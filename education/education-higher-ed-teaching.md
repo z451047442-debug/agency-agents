@@ -19,10 +19,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - education
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - education-curriculum-designer
   - education-teacher

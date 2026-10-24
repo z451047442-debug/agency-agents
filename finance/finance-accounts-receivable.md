@@ -12,7 +12,6 @@ keywords:
   - 应收账款
   - AR
   - 信用控制专家
-  - 企业应收账款管理与信用控制专家，覆盖客户信用评估
   - 额度管理
 complexity: low
 estimated_duration: 1-2h

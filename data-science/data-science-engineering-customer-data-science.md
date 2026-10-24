@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 客户数据科学
   - 增长数据科学家
-  - 用户增长与客户行为数据科学家，覆盖用户留存
   - 流失预测模型
   - Survival
 complexity: low

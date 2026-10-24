@@ -15,7 +15,6 @@ keywords:
   - GraphQL
   - API架构师
   - API设计与架构专家
-  - 覆盖GraphQL
   - Schema设计
 complexity: low
 estimated_duration: 1-2h
@@ -23,8 +22,6 @@ tags:
   - engineering
   - Actionable
   - Directives
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-incident-response
   - engineering-build-release-engineer

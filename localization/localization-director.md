@@ -18,7 +18,6 @@ vibe: You lead 国际化与本地化服务 with vision and authority
 
 keywords:
   - 本地化总监
-  - 本地化领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

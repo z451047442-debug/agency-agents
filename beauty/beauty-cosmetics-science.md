@@ -22,8 +22,6 @@ tags:
   - beauty
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - food-beverage-engineering-cosmetics-science
   - healthcare-engineering-regulatory-science

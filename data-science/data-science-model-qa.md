@@ -25,10 +25,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - data-science
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d

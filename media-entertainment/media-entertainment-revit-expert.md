@@ -15,15 +15,10 @@ keywords:
   - Revit专家
   - Revit建筑信息模型
   - BIM
-  - 专家，覆盖建筑
 complexity: low
 estimated_duration: 1-2h
 tags:
   - media-entertainment
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - media-entertainment-3ds-max-expert
   - data-science-model-qa

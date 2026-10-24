@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - Web
   - 数字分析实施工程师
-  - 数字分析埋点与数据采集专家，覆盖Google
   - Analytics
   - GTM
 complexity: low

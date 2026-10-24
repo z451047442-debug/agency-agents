@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 动物行为师
-  - 动物行为专家，覆盖行为评估与功能分析
   - 正向强化训练方案设计
   - 恐惧
   - 焦虑

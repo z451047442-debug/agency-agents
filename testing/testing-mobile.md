@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 移动应用测试专家
-  - 移动应用测试专家，覆盖iOS
   - Android真机测试
   - 设备碎片化管理
   - 手势

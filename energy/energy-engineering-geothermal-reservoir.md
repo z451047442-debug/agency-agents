@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 地热资源
   - 地热地质工程师
-  - 地热资源勘探评估与储层工程管理专家，覆盖地热地质
   - 地球物理
   - 地球化学勘探
 complexity: low

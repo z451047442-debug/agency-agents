@@ -15,7 +15,6 @@ keywords:
   - 雪冰
   - 冰川
   - 冻土工程师
-  - 寒区工程与冰冻圈科学专家，覆盖多年冻土
   - 季节性冻土路基工程设计
 complexity: low
 estimated_duration: 1-2h

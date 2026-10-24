@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 汽车认证
   - 法规工程师
-  - 汽车型式认证与法规合规专家，覆盖中国CCC
   - 公告
   - 国六
 complexity: low

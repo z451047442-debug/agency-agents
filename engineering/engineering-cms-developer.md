@@ -15,15 +15,10 @@ keywords:
   - 开发工程师
   - Drupal
   - WordPress
-  - 专家，专注主题开发
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - marketing-paid-media-search-query-analyst
   - testing-accessibility-auditor

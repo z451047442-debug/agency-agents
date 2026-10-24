@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 首席信息安全官
   - CISO
-  - 企业信息安全最高负责人，覆盖安全战略
   - 治理框架
   - 安全预算
 complexity: high

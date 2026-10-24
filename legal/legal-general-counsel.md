@@ -3,7 +3,6 @@ color: navy
 date_added: '2026-07-03'
 keywords:
   - 企业法务总监
-  - 总法律顾问，覆盖公司治理
   - 董事会法律支持
   - 合规体系建设
   - 合同
@@ -12,7 +11,6 @@ estimated_duration: 1-2h
 tags:
   - legal
   - Domain
-  - Framework
   - Success
   - Metrics
 depends_on:

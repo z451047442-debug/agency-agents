@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - AEO基础架构师
-  - AI引擎优化基础设施专家，实现llms.txt
   - AI感知robots.txt与结构化内容
 complexity: low
 estimated_duration: 1-2h

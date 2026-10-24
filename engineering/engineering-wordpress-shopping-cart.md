@@ -13,7 +13,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - WordPress购物车开发工程师
-  - WooCommerce专家，覆盖产品目录管理
   - 支付集成
   - 结账定制与转化优化
   - WordPress
@@ -22,9 +21,6 @@ estimated_duration: 1-2h
 tags:
   - engineering
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

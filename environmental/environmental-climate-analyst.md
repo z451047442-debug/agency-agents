@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 气候数据分析师
-  - 气候数据科学与建模专家，覆盖气候模式降尺度
   - 极端事件归因
   - 长期趋势分析与预测
   - CMIP6数据处理
@@ -21,10 +20,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - environmental
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - construction-safety-officer
   - data-science-engineering-language-model-nlp

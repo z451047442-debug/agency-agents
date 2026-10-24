@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 船舶电气
   - 自动化工程师
-  - 船舶导航与通信系统工程专家，覆盖GMDSS
   - AIS
   - ECDIS
 complexity: low

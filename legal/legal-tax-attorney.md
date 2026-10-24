@@ -24,7 +24,6 @@ tags:
   - legal
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - finance-cost-accountant

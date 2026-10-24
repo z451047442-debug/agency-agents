@@ -25,8 +25,6 @@ tags:
   - marketing
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - marketing-abm-account-based
 emoji: 🏷️

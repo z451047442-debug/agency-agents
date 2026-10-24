@@ -14,7 +14,6 @@ keywords:
   - SAF可持续航空燃料专家
   - 航空业脱碳与可持续航空燃料
   - SAF
-  - 技术专家，覆盖SAF技术路线
 complexity: low
 estimated_duration: 1-2h
 tags:

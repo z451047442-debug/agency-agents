@@ -24,7 +24,6 @@ tags:
   - Definition
   - Capabilities
   - MEDDPICC
-  - Framework
 depends_on:
   - marketing-paid-media-creative-strategist
   - real-estate-commercial-broker

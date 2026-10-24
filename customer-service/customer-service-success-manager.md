@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 客户成功经理
   - CSM
-  - 客户成功与续费管理专家，覆盖客户入职
   - 健康度监控
   - QBR业务评审
 complexity: medium
@@ -23,7 +22,6 @@ tags:
   - customer-service
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - customer-service-call-center

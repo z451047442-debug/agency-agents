@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 生物材料
   - 组织工程研究员
-  - 可植入生物材料与组织再生支架专家，覆盖可降解聚合物
   - PLA
   - PGA
 complexity: low
@@ -21,7 +20,6 @@ estimated_duration: 1-2h
 tags:
   - healthcare
   - biomaterials
-  - Developed
   - implantable
   - materials
 depends_on:

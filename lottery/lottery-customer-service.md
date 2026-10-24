@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 彩票客服与兑奖管理专家
-  - 彩票客户服务与奖金兑付专家，覆盖彩民咨询
   - 投诉处理
   - 大奖兑付流程
   - 身份验证

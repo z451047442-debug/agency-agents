@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 阿里云架构师
   - 阿里云平台架构与解决方案专家
-  - 覆盖飞天平台核心服务
   - ECS
   - VPC
 complexity: medium
@@ -24,7 +23,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - cybersecurity-engineering-cyber-risk-model

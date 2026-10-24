@@ -6,7 +6,6 @@ keywords:
   - HTTPD专家
   - HTTP
   - Server运维与优化专家
-  - 覆盖httpd
 complexity: low
 estimated_duration: 1-2h
 tags:
@@ -14,7 +13,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 depends_on:
   - infrastructure-ansible-expert
   - infrastructure-argocd-expert

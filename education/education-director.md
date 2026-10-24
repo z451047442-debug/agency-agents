@@ -5,7 +5,6 @@ keywords:
   - 教育机构总监
   - 校长
   - 学校
-  - 教育机构最高管理者，覆盖教育战略
   - 课程体系
 complexity: high
 estimated_duration: 4-8h

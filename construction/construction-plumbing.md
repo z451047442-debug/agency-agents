@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 给排水工程师
-  - 建筑给排水系统设计与施工专家，覆盖生活给水
   - 热水
   - 污废水排水
   - 雨水
@@ -21,7 +20,6 @@ tags:
   - construction
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-fire-protection

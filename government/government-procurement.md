@@ -16,8 +16,6 @@ keywords:
   - 政府采购官员
   - 公共采购全生命周期管理（RFI
   - RFP
-  - RFQ），投标评估与供应商选择，政府合同谈判，采购合规与审计，电子采购系统，可持续
-  - 绿色采购，供应商多样性计划
 complexity: low
 estimated_duration: 1-2h
 tags:

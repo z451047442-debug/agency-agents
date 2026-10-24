@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 自动化测试架构师
-  - 测试自动化架构与框架设计专家，覆盖测试策略
   - 框架选型
   - CI
   - CD测试集成
@@ -20,7 +19,6 @@ tags:
   - testing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - cybersecurity-engineering-cyber-risk-model

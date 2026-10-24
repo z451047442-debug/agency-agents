@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 城市规划
   - 城市设计师
-  - 可持续城市规划与城市设计专家，覆盖总体规划
   - 控制性详规
   - TOD公共交通导向开发
 complexity: low

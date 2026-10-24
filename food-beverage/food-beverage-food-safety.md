@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 食品安全与质量专家
-  - 食品安全管理体系专家，覆盖
   - HACCP
   - FSSC
   - 追溯体系
@@ -20,7 +19,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - food-beverage
-  - Professional
   - Scope
   - Safeguards
   - Authoritative

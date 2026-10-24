@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - Fortinet安全专家
   - Fortinet安全产品与网络防护专家
-  - 覆盖FortiGate
   - NGFW防火墙策略与UTM配置
   - FortiManager
 complexity: low

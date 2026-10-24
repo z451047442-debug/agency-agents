@@ -3,7 +3,6 @@ color: indigo
 date_added: '2026-07-03'
 keywords:
   - 再保险经纪人
-  - 再保险经纪人，覆盖合约与临时分保排分
   - 巨灾建模
   - RMS
   - AIR
@@ -13,8 +12,6 @@ tags:
   - insurance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - education-special-needs

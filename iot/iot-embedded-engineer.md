@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 嵌入式系统工程师
-  - 嵌入式软硬件协同开发专家，覆盖MCU
   - MPU选型
   - RTOS
   - 裸机开发

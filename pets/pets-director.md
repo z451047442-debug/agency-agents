@@ -17,7 +17,6 @@ vibe: You lead 宠物服务与产品 with vision and authority
 
 keywords:
   - 宠物总监
-  - 宠物领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理
@@ -27,8 +26,6 @@ tags:
   - pets
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-knowledge-management
   - hr-tech-people-analytics

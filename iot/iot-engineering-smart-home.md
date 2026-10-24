@@ -6,7 +6,6 @@ keywords:
   - IoT
   - Consumer
   - 产品经理
-  - 消费物联网与智能家居产品专家，覆盖智能音箱
 complexity: low
 estimated_duration: 1-2h
 tags:

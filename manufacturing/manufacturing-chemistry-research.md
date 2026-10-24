@@ -23,8 +23,6 @@ tags:
   - manufacturing
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - aerospace-military-materials-manufacturing
   - education-number-theory

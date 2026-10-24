@@ -16,10 +16,8 @@ lifecycle: published
 
 keywords:
   - 数字取证调查员
-  - 数字取证调查专家，专注证据收集
   - 取证镜像
   - 时间线分析
-  - 痕迹恢复及保管链文档，覆盖终端
 complexity: low
 estimated_duration: 1-2h
 tags:

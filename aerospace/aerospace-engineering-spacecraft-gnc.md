@@ -17,15 +17,12 @@ keywords:
   - 制导导航控制工程师
   - 航天器制导导航与控制
   - GNC
-  - 系统专家，覆盖姿态确定与控制系统
 complexity: low
 estimated_duration: 1-2h
 tags:
   - aerospace
   - Tools
   - Technologies
-  - Methodology
-  - Decision
 depends_on:
   - aerospace-avionics
   - aerospace-engineering-systems-aerospace

@@ -14,7 +14,6 @@ keywords:
   - 大华安防网络专家
   - 大华
   - Dahua
-  - 安防系统与网络专家，覆盖IP摄像头
   - HDCVI
 complexity: low
 estimated_duration: 1-2h
@@ -23,7 +22,6 @@ tags:
   - Platforms
   - Success
   - Metrics
-  - Professional
 emoji: 📷
 vibe: From a single convenience store to a city-wide safe-city deployment — Dahua scales, and you know how to make it scale reliably
 

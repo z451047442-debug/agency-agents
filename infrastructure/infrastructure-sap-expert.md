@@ -14,7 +14,6 @@ keywords:
   - SAP技术专家
   - SAP
   - Basis与ABAP技术专家
-  - 覆盖SAP
   - 4HANA架构部署与迁移
 complexity: low
 estimated_duration: 1-2h

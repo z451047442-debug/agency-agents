@@ -13,7 +13,6 @@ keywords:
   - 营销自动化
   - MA
   - 专家
-  - 营销自动化平台与Martech专家，覆盖HubSpot
   - Marketo
 complexity: low
 estimated_duration: 1-2h

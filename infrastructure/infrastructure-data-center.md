@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 数据中心基础设施专家
-  - 数据中心基础设施规划与运维专家，覆盖供配电
   - UPS
   - 柴油发电
   - 精密空调

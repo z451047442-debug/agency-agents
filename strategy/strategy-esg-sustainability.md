@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - ESG与可持续发展官
-  - ESG与可持续发展战略专家，覆盖碳核算
   - 碳中和路径
   - ESG报告
   - GRI
@@ -25,7 +24,6 @@ tags:
   - strategy
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-electric-vehicle-aerodynamics

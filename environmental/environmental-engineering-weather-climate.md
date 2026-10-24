@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 气象
   - 气候数据科学家
-  - 气象预报与气候数据分析专家，覆盖数值天气预报
   - NWP
   - WRF
 complexity: low

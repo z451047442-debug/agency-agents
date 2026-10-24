@@ -19,7 +19,6 @@ vibe: You run the business — every morning you look at the numbers, the team, 
 
 keywords:
   - 时尚总经理
-  - 时尚领域全面经营管理者，覆盖业务运营
   - 财务绩效
   - 团队建设
   - 客户关系与战略执行

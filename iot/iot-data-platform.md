@@ -3,7 +3,6 @@ color: cyan
 date_added: '2026-07-03'
 keywords:
   - IoT数据平台工程师
-  - 物联网数据平台与流处理专家，覆盖时序数据库
   - InfluxDB
   - TimescaleDB
   - MQTT

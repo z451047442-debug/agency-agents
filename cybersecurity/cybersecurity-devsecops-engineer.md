@@ -16,7 +16,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - DevSecOps工程师
-  - DevSecOps与安全自动化专家，覆盖CI
   - CD安全集成
   - 基础设施即代码安全
   - 容器
@@ -26,8 +25,6 @@ tags:
   - cybersecurity
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-code-reviewer

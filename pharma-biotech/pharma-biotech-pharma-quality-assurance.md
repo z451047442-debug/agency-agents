@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 药品质量管理专家
-  - GMP质量管理体系专家，覆盖质量体系搭建
   - 供应商审计
   - 偏差
   - CAPA
@@ -20,7 +19,6 @@ tags:
   - pharma-biotech
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-knowledge-management

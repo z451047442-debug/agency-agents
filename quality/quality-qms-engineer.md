@@ -15,7 +15,6 @@ keywords:
   - QMS
   - 质量体系工程师
   - 质量管理体系
-  - 专家，覆盖ISO9001
   - IATF16949
 complexity: low
 estimated_duration: 1-2h
@@ -23,7 +22,6 @@ tags:
   - quality
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - finance-internal-auditor

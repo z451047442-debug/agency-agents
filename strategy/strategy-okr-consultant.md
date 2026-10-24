@@ -23,7 +23,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - strategy
-  - Professional
   - Scope
   - Safeguards
   - References

@@ -3,7 +3,6 @@ color: green
 date_added: '2026-07-03'
 keywords:
   - 精准农业专家
-  - 精准农业与数字农艺专家，覆盖遥感监测
   - 变量施肥
   - 产量预测
   - 土壤建模与农业数据分析
@@ -14,7 +13,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - agriculture-engineering-iot-agriculture
   - data-science-feature-store

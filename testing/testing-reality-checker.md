@@ -22,7 +22,6 @@ tags:
   - Mandatory
   - Process
   - Integration
-  - Methodology
 depends_on:
   - automotive-engineering-functional-safety
   - education-special-needs

@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 数字出版经理
-  - 数字出版专家，覆盖电子书
   - 有声书制作
   - 数字分发渠道（Kindle
   - Apple
@@ -22,7 +21,6 @@ tags:
   - publishing
   - References
   - Standards
-  - Professional
   - Scope
 depends_on:
   - game-development-game-quality-assurance

@@ -22,7 +22,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Professional
   - Scope
 depends_on:
   - engineering-build-release-engineer

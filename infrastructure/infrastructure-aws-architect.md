@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - AWS解决方案架构师
   - AWS云架构与解决方案专家
-  - 覆盖Well-Architected
   - Framework六大支柱
   - 核心服务
 complexity: medium

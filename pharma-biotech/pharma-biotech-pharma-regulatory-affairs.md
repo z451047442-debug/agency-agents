@@ -9,7 +9,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 药品注册事务专家
-  - 药品注册与法规策略专家，覆盖NMPA
   - FDA
   - EMA申报
   - eCTD编制
@@ -19,7 +18,6 @@ tags:
   - pharma-biotech
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-knowledge-management

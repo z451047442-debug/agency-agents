@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - Graylog日志管理专家
-  - Graylog集中式日志管理与SIEM平台专家，覆盖集群架构设计
   - 输入
   - 提取器
   - 流规则引擎

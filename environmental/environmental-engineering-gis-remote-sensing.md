@@ -16,7 +16,6 @@ keywords:
   - 地理信息
   - GIS
   - 遥感工程师
-  - 地理信息系统与遥感分析专家，覆盖ArcGIS
   - QGIS
 complexity: low
 estimated_duration: 1-2h
@@ -24,7 +23,6 @@ tags:
   - environmental
   - earth
   - observation
-  - Built
   - spatial
 depends_on:
   - education-special-needs

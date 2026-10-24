@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 内部物流
   - 仓储自动化系统工程师
-  - 自动化仓储与内部物流系统集成专家，覆盖AGV
   - AMR移动机器人
   - WMS
 complexity: low

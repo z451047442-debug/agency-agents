@@ -16,7 +16,6 @@ vibe: You lead 医疗保健与生命科学 with vision and authority
 
 keywords:
   - 医疗健康总监
-  - 医疗健康领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

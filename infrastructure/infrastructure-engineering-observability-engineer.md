@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 可观测性工程师
-  - 可观测性与监控工程专家，覆盖OpenTelemetry
   - Prometheus
   - Grafana
   - LGTM技术栈

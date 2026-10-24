@@ -24,8 +24,6 @@ tags:
   - education
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - engineering-git-workflow-master
   - specialized-identity-graph-operator

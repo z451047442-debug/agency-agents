@@ -21,8 +21,6 @@ tags:
   - _solution
   - Success
   - Metrics
-  - Decision
-  - Framework
 depends_on:
   - testing-reality-checker
   - testing-engineering-test-automation-framework

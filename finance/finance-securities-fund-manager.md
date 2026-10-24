@@ -3,7 +3,6 @@ color: navy
 date_added: '2026-07-03'
 keywords:
   - 基金经理
-  - 组合管理人专家，覆盖投资哲学与流程设计
   - 组合构建与资产配置
   - 自上而下
   - 自下而上证券选择
@@ -14,7 +13,6 @@ tags:
   - Skills
   - Success
   - Metrics
-  - Professional
 depends_on:
   - construction-engineering-bridge-structural
   - finance-securities-multi-agent-coordinator

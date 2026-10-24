@@ -13,7 +13,6 @@ keywords:
   - 用户研究运营
   - ResearchOps
   - 专家
-  - 用户研究运营与规模化研究平台专家，覆盖研究招募
   - 参与者管理
 complexity: low
 estimated_duration: 1-2h
@@ -21,7 +20,6 @@ tags:
   - design
   - research
   - operations
-  - Built
   - functions
 depends_on:
   - design-engineering-user-research-system

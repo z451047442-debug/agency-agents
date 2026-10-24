@@ -25,7 +25,6 @@ tags:
   - Capabilities
   - Success
   - Metrics
-  - Professional
 depends_on:
   - infrastructure-engineering-incident-response-commander
   - marketing-brand-strategist-name

@@ -12,7 +12,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 医疗客服专员
-  - 富有同理心的医疗客户服务专家，处理患者支持
   - 账单咨询
   - 预约管理
   - 保险问题与投诉解决
@@ -22,8 +21,6 @@ tags:
   - healthcare
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - engineering-insurance-technology
   - legal-billing-time-tracking

@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 用户画像走查专家
-  - 从特定角色心理视角模拟网页认知走查，输出结构化CRO报告的专家
   - Identity
   - Memory
   - Core

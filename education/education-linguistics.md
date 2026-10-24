@@ -24,8 +24,6 @@ tags:
   - education
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - finance-engineering-credit-risk-model
   - hr-tech-hrtech-people-analytics

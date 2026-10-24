@@ -13,7 +13,6 @@ keywords:
   - Zabbix监控专家
   - Zabbix
   - 6.x
-  - 7.x企业级监控专家，覆盖分布式架构设计
   - Server
 complexity: low
 estimated_duration: 1-2h

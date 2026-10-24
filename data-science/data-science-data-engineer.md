@@ -14,7 +14,6 @@ keywords:
   - 数据工程师
   - Data
   - Engineer
-  - 数据工程与数据管道构建专家，覆盖ELT
   - ETL管道设计
 complexity: low
 estimated_duration: 1-2h

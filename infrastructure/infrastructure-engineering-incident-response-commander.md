@@ -22,10 +22,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - infrastructure
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - finance-accounts-payable-agent
   - hr-tech-people-analytics

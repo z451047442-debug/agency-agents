@@ -3,7 +3,6 @@ color: red
 date_added: '2026-07-03'
 keywords:
   - 车险理赔专员
-  - 车险理赔专家，覆盖车辆损失评估
   - 维修成本核算
   - 全损鉴定
   - 欺诈检测
@@ -13,7 +12,6 @@ tags:
   - insurance
   - References
   - Standards
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-optical-character-recognition

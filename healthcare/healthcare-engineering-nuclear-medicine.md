@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 核医学
   - 放射性药物专家
-  - 诊断治疗一体化核医学与放射性药物专家，覆盖PET
   - 18F
   - 68Ga
 complexity: low
@@ -22,7 +21,6 @@ estimated_duration: 1-2h
 tags:
   - healthcare
   - radiopharmaceuticals
-  - Developed
   - diagnostic
   - therapeutic
 depends_on:

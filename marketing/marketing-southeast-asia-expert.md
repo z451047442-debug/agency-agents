@@ -18,10 +18,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - marketing
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - marketing-paid-media-search-query-analyst
   - marketing-paid-media-tracking-specialist

@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 矿山安全经理
-  - 矿山安全管理专家，覆盖MSHA
   - OSHA法规合规管理
   - 地层控制与岩体力学监测
   - 通风系统审计
@@ -23,7 +22,6 @@ tags:
   - mining
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

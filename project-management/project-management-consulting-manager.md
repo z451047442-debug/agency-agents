@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 咨询项目经理
-  - 管理咨询项目交付专家，覆盖咨询项目启动
   - 诊断
   - 方案
   - 实施全流程
@@ -24,7 +23,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - aerospace-engineering-aviation-sustainability

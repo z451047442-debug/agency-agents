@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 法务会计
   - 舞弊调查会计师
-  - 财务舞弊调查与诉讼支持会计专家，覆盖财务报表舞弊
   - 资产侵占
   - 贪污腐败调查
 complexity: low

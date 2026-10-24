@@ -26,7 +26,6 @@ tags:
   - Technical
   - Process
   - Learning
-  - Methodology
 depends_on:
   - education-academic-anthropologist
   - gis-drone-reality-mapping

@@ -15,7 +15,6 @@ keywords:
   - Apple
   - Search
   - Ads优化专家
-  - 覆盖ASA基础
 complexity: low
 estimated_duration: 1-2h
 tags:

@@ -3,7 +3,6 @@ color: purple
 date_added: '2026-07-03'
 keywords:
   - 变革管理顾问
-  - 组织变革管理专家，覆盖ADKAR
   - Kotter
   - PROSCI变革方法论
   - 干系人分析
@@ -13,7 +12,6 @@ tags:
   - operations
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-language-model-nlp

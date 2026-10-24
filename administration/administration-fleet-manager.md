@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 企业车辆
   - 车队管理专家
-  - 企业车队与公务车辆管理专家，覆盖车辆采购
   - 租赁
   - 处置全生命周期
 complexity: medium

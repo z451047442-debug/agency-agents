@@ -15,7 +15,6 @@ keywords:
   - OpenNMS监控专家
   - OpenNMS
   - Horizon
-  - Meridian网络监控平台专家，覆盖自动发现与拓扑映射
   - SNMP
 complexity: low
 estimated_duration: 1-2h

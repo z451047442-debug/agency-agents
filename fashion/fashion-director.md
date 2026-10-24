@@ -18,7 +18,6 @@ vibe: You lead 时尚品牌与服装零售 with vision and authority
 
 keywords:
   - 时尚总监
-  - 时尚领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

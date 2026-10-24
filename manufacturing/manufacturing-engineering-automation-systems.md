@@ -7,14 +7,12 @@ keywords:
   - BAS
   - BMS
   - 系统工程师
-  - 智能楼宇自动化与能源管理系统专家，覆盖楼宇自控
 complexity: low
 estimated_duration: 1-2h
 tags:
   - manufacturing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-engineering-functional-safety

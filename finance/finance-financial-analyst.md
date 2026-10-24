@@ -3,7 +3,6 @@ color: green
 date_added: '2026-07-03'
 keywords:
   - 财务分析师
-  - 专家级财务分析师，专注财务建模
   - 预测
   - 情景分析与数据驱动决策
   - Morgan
@@ -13,8 +12,6 @@ tags:
   - finance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - finance-multi-agent-coordinator
   - finance-accounts-payable-agent

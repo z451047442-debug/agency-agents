@@ -12,7 +12,6 @@ lifecycle: published
 
 keywords:
   - 边缘计算专家
-  - 边缘计算架构与部署专家，覆盖边缘节点管理
   - 本地推理
   - 数据预处理
   - 边缘-云协同与离线自治
@@ -22,8 +21,6 @@ tags:
   - iot
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - automotive-vehicle-architecture
   - data-science-engineering-computer-vision-3d

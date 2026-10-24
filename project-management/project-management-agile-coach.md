@@ -6,7 +6,6 @@ keywords:
   - 敏捷教练
   - Agile
   - Coach
-  - 敏捷转型策略与组织变革专家，覆盖Scrum
   - Kanban
 complexity: low
 estimated_duration: 1-2h
@@ -14,7 +13,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - engineering-build-release-engineer

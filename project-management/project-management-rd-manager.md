@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - R&D与科研项目经理
-  - 研发与科研项目管理专家，覆盖阶段关口
   - Stage-Gate
   - 敏捷研发流程
   - 技术路线图
@@ -20,7 +19,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - design-engineering-user-research-system

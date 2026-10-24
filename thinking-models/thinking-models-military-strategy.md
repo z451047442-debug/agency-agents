@@ -22,10 +22,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - thinking-models
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - aerospace-unmanned-intelligent-military
   - design-cultural-intelligence-strategist

@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 绿色化学
   - 可持续化学工艺开发专家
-  - 绿色化学十二原则与可持续化学工艺专家，覆盖原子经济性
   - 催化
   - 均相
 complexity: low
@@ -24,7 +23,6 @@ tags:
   - environmental
   - sustainable
   - chemistry
-  - Developed
   - greener
 depends_on:
   - environmental-engineering-packaging-sustainability

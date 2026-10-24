@@ -3,7 +3,6 @@ color: pink
 date_added: '2026-07-03'
 keywords:
   - 地图设计专家
-  - 印刷与Web地图美学设计专家，精通色彩理论
   - 排版
   - 标签放置与视觉层次
   - Role

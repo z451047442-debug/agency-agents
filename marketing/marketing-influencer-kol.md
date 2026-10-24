@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 网红
   - KOL营销专家
-  - 网红与KOL营销策略专家，覆盖达人筛选
   - 数据评估
   - Brief撰写
 complexity: low

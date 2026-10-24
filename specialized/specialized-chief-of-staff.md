@@ -22,7 +22,6 @@ tags:
   - specialized
   - Process
   - Technical
-  - Professional
   - Scope
 depends_on:
   - specialized-agentic-identity-trust

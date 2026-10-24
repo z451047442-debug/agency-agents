@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 固件开发工程师
-  - 嵌入式固件开发专家，覆盖bootloader
   - OTA升级
   - 文件系统
   - 驱动开发与安全固件签名

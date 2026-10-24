@@ -25,7 +25,6 @@ tags:
   - Technical
   - Outputs
   - Specification
-  - Methodology
 depends_on:
   - engineering-minimal-change-engineer
   - hr-tech-people-analytics

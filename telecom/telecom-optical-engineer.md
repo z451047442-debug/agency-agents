@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 光纤
   - 光通信工程师
-  - 光纤通信与光传输网络专家，覆盖OTN
   - DWDM波分复用
   - SDH
 complexity: low
@@ -13,7 +12,6 @@ tags:
   - telecom
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - telecom-multi-agent-coordinator

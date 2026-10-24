@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 学术出版专员
-  - 学术出版专家，覆盖同行评审管理
   - 开放获取合规（金色
   - 绿色
   - 混合OA）

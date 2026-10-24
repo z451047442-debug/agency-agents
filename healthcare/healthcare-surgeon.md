@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 外科医师
-  - 外科手术与围术期管理专家，覆盖术前评估
   - 手术规划
   - 开放
   - 微创

@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - 企业文秘
   - 行政助理
-  - 企业文秘与行政助理专家，覆盖高管日程
   - 会议管理
   - 公文
 complexity: low
@@ -23,7 +22,6 @@ tags:
   - administration
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - administration-contract-manager

@@ -23,9 +23,6 @@ estimated_duration: 1-2h
 tags:
   - engineering
   - Capabilities
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - data-science-engineering-computer-vision-3d
   - data-science-engineering-computer-vision-deep

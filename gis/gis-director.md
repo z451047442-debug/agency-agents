@@ -18,7 +18,6 @@ vibe: You lead GIS与空间数据服务 with vision and authority
 
 keywords:
   - 地理信息总监
-  - 地理信息领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理
@@ -28,8 +27,6 @@ tags:
   - gis
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-knowledge-management
   - gis-general-manager

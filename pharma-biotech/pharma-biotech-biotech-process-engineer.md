@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 生物工艺工程师
   - 生物药上游
-  - 下游工艺开发专家，覆盖细胞培养
   - 纯化
   - 制剂
 complexity: low
@@ -20,7 +19,6 @@ tags:
   - pharma-biotech
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-knowledge-management

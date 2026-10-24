@@ -17,14 +17,12 @@ keywords:
   - Keil
   - MDK-ARM
   - µVision
-  - 嵌入式IDE专家，覆盖ARM
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
   - References
   - Standards
-  - Professional
   - Scope
 depends_on:
   - iot-engineering-embedded-firmware-engineer

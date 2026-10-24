@@ -6,7 +6,6 @@ keywords:
   - 食品产品研发
   - R&D
   - 专家
-  - 食品新产品开发与感官科学专家，覆盖配方研发
   - 风味调配
 complexity: low
 estimated_duration: 1-2h

@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 固收
   - 债券分析师
-  - 固定收益与信用分析专家，覆盖国债
   - 企业债
   - 可转债分析
 complexity: low

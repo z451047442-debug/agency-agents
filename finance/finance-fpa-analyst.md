@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 财务规划分析师
-  - 财务规划与分析专家，专注预算编制
   - 差异分析
   - 滚动预测与战略决策支持
   - Riley
@@ -23,8 +22,6 @@ tags:
   - finance
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - finance-cost-accountant
   - legal-smart-manufacturing

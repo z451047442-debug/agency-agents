@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 公共管理
   - 公务员专家
-  - 公共行政与政府管理专家，覆盖公共政策执行
   - 公共服务交付
   - 预算编制
 complexity: low

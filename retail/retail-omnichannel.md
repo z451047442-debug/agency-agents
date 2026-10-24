@@ -20,7 +20,6 @@ tags:
   - retail
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - cybersecurity-engineering-customer-identity-access

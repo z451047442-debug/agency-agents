@@ -3,7 +3,6 @@ color: teal
 date_added: '2026-07-03'
 keywords:
   - 农业物联网工程师
-  - 农业IoT与智能装备专家，覆盖土壤
   - 气象传感器网络
   - 智能灌溉控制
   - 农业无人机
@@ -14,7 +13,6 @@ tags:
   - Technical
   - Process
   - Learning
-  - Methodology
 depends_on:
   - agriculture-agronomist
   - cybersecurity-engineering-threat-detection-engineer

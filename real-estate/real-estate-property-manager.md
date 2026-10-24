@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 物业管理经理
-  - 物业管理经理，覆盖租户关系维护与续租
   - 租赁合同管理与租金收取
   - 日常维修与资本改善规划
   - 供应商管理（保洁
@@ -23,7 +22,6 @@ tags:
   - real-estate
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-engineering-green-building

@@ -12,7 +12,6 @@ keywords:
   - 有限元
   - FEA
   - 高级工程师
-  - 高级结构有限元分析与仿真专家，覆盖非线性FEA
 complexity: low
 estimated_duration: 1-2h
 tags:

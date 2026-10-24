@@ -3,7 +3,6 @@ color: amber
 date_added: '2026-07-03'
 keywords:
   - 技术分析师
-  - 技术分析与量化择时专家，覆盖K线
   - 均线
   - 布林
   - RSI
@@ -14,7 +13,6 @@ tags:
   - Tools
   - Success
   - Metrics
-  - Professional
 depends_on:
   - design-engineering-user-research-system
   - finance-securities-multi-agent-coordinator

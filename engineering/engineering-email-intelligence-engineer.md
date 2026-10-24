@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 邮件智能工程师
   - 从原始邮件线程中提取结构化
-  - 可供推理使用的数据的专家，服务于
   - AI
   - Agent
 complexity: low
@@ -20,9 +19,6 @@ estimated_duration: 1-2h
 tags:
   - engineering
   - Capabilities
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - infrastructure-identity-access

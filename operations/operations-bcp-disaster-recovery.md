@@ -16,7 +16,6 @@ keywords:
   - 业务连续性
   - BCP
   - 与灾备专家
-  - 业务连续性与灾难恢复专家，覆盖BIA业务影响分析
   - DRP计划编制
 complexity: low
 estimated_duration: 1-2h

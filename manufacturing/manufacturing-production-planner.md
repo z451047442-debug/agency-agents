@@ -14,7 +14,6 @@ keywords:
   - 生产计划与排程
   - APS
   - 专家
-  - 生产计划与高级排程专家，覆盖MPS主计划
   - MRP物料需求
 complexity: low
 estimated_duration: 1-2h
@@ -22,7 +21,6 @@ tags:
   - manufacturing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - engineering-git-workflow-master

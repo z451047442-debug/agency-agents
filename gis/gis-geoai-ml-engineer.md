@@ -16,7 +16,6 @@ keywords:
   - 机器学习工程师
   - 从卫星与航空影像中提取特征
   - 检测目标
-  - 分割图像与土地覆盖分类的地理空间机器学习专家
 complexity: low
 estimated_duration: 1-2h
 tags:

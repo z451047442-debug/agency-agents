@@ -13,7 +13,6 @@ keywords:
   - 隐私增强技术
   - PETs
   - 研究员
-  - 隐私增强技术与数据安全研究专家，覆盖联邦学习
   - Federated
 complexity: medium
 estimated_duration: 2-4h

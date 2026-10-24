@@ -6,7 +6,6 @@ keywords:
   - IoT事业部总监
   - 物联网
   - IoT
-  - 业务最高负责人，覆盖IoT产品
   - 平台策略
 complexity: high
 estimated_duration: 4-8h

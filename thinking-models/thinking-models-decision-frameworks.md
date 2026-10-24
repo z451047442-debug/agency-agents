@@ -23,8 +23,6 @@ tags:
   - thinking-models
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - design-creative-tools
   - gis-drone-reality-mapping

@@ -15,7 +15,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 临床药剂师
-  - 临床药学专家，覆盖处方审核
   - 药物相互作用评估
   - 治疗药物监测
   - 药学咨询与用药安全管理
@@ -25,8 +24,6 @@ tags:
   - healthcare
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - engineering-multi-agent-systems-architect
   - healthcare-clinical-physician

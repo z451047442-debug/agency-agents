@@ -16,7 +16,6 @@ keywords:
   - 缺陷逃逸率
   - 质量门禁
   - 技术债务
-  - 代码覆盖率
   - 发布就绪
 complexity: low
 estimated_duration: 1-2h

@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 外贸跟单员
-  - 外贸跟单与订单执行专家，覆盖国际贸易合同审核
   - Incoterms
   - C条款
   - 生产跟催与验货排程
@@ -21,7 +20,6 @@ tags:
   - Deliverable
   - Success
   - Metrics
-  - Methodology
 depends_on:
   - logistics-last-mile-delivery
   - logistics-engineering-supply-chain-risk

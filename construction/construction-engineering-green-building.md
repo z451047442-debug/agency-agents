@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 绿色建筑
   - 净零能耗设计顾问
-  - 高性能绿色建筑与零碳建筑设计顾问，覆盖被动式设计
   - 建筑物理模拟
   - EnergyPlus
 complexity: low

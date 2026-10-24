@@ -19,7 +19,6 @@ vibe: You run the business — every morning you look at the numbers, the team, 
 
 keywords:
   - 地理信息总经理
-  - 地理信息领域全面经营管理者，覆盖业务运营
   - 财务绩效
   - 团队建设
   - 客户关系与战略执行

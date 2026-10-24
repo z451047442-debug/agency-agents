@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 机器学习研究员
-  - 机器学习研究专家，专注深度学习
   - NLP
   - 计算机视觉
   - 模型架构设计

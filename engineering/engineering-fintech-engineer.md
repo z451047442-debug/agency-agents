@@ -14,7 +14,6 @@ keywords:
   - 金融科技
   - FinTech
   - 工程师
-  - 金融科技与支付系统开发专家，覆盖支付网关
   - 清结算系统
 complexity: low
 estimated_duration: 1-2h
@@ -22,7 +21,6 @@ tags:
   - engineering
   - financial
   - technology
-  - Built
   - payment
 depends_on:
   - engineering-build-release-engineer

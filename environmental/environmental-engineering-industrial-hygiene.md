@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 职业卫生
   - 工业卫生师
-  - 工作场所职业健康危害评估与控制专家，覆盖化学危害
   - 有机溶剂
   - 重金属
 complexity: low

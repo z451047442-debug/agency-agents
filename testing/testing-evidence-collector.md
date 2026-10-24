@@ -22,7 +22,6 @@ tags:
   - testing
   - Mandatory
   - Process
-  - Methodology
   - Accordion
 depends_on:
   - automotive-engineering-functional-safety

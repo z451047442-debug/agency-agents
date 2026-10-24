@@ -6,7 +6,6 @@ keywords:
   - 湖仓一体
   - Lakehouse
   - 架构师
-  - 数据湖与湖仓一体平台架构专家，覆盖Apache
 complexity: low
 estimated_duration: 1-2h
 tags:

@@ -25,8 +25,6 @@ tags:
   - fashion
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - aerospace-military-materials-manufacturing
   - food-beverage-food-supply-chain-traceability

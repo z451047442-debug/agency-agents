@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 提示词工程师
   - 系统化设计
-  - 测试与优化大语言模型提示词的专家，将模糊指令转化为可靠的生产级AI行为
   - Role
   - Personality
 complexity: low

@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - Cacti监控专家
-  - Cacti网络流量与性能监控专家，覆盖SNMP
   - SNMPv3数据采集
   - RRDtool图形引擎
   - Spine轮询器

@@ -17,7 +17,6 @@ lifecycle: published
 
 keywords:
   - 并购整合经理
-  - 设计与执行并购后整合方案的专家，覆盖Day
   - 1准备
   - 百日计划与协同效应追踪
   - Role
@@ -28,7 +27,6 @@ tags:
   - Competencies
   - Integration
   - Strategy
-  - Framework
 depends_on:
   - construction-engineering-bridge-structural
   - finance-accounts-payable-agent

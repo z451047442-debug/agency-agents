@@ -21,8 +21,6 @@ tags:
   - healthcare
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - healthcare-clinical-physician
   - pharma-biotech-pharma-clinical-trials

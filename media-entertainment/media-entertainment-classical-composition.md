@@ -22,8 +22,6 @@ tags:
   - media-entertainment
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - data-science-engineering-language-model-nlp
   - project-management-jira-workflow-steward

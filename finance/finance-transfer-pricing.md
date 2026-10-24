@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 转让定价
   - 国际税务专家
-  - 转让定价与跨境税务筹划专家，覆盖关联交易
   - 独立交易原则
   - 转让定价文档
 complexity: low

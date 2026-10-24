@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 房地产开发商
-  - 房地产开发全周期专家，覆盖土地获取与可行性分析
   - 规划审批与区划协调
   - 项目融资（建设贷款
   - 夹层融资

@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 多智能体系统架构师
-  - 多Agent系统设计与治理专家，覆盖Agent拓扑
   - 编排模式
   - 上下文
   - 记忆管理
@@ -23,8 +22,6 @@ tags:
   - engineering
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-engineering-customer-identity-access
   - engineering-build-release-engineer

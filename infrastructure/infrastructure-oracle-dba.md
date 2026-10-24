@@ -13,7 +13,6 @@ keywords:
   - Oracle
   - DBA专家
   - Oracle数据库管理专家
-  - 覆盖19c
   - 21c
 complexity: low
 estimated_duration: 1-2h

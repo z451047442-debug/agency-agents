@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 航空航天
   - 国防系统工程专家
-  - 航空航天与国防系统工程项目管理专家，覆盖系统工程V-Model
   - INCOSE流程
   - 需求工程
 complexity: low

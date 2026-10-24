@@ -13,7 +13,6 @@ keywords:
   - 实验室质量
   - ISO
   - 专家
-  - 实验室质量管理与认可专家，覆盖ISO
   - IEC
 complexity: low
 estimated_duration: 1-2h
@@ -21,7 +20,6 @@ tags:
   - quality
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - education-special-needs

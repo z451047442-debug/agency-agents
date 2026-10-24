@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 固件安全
   - 逆向工程师
-  - 嵌入式固件安全分析与逆向工程专家，覆盖固件提取
   - 反汇编
   - Ghidra
 complexity: low

@@ -25,7 +25,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - engineering-code-reviewer
   - engineering-multi-agent-systems-architect

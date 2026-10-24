@@ -15,7 +15,6 @@ keywords:
   - 水中新污染物
   - PFAS
   - 处理工程师
-  - 水中新污染物与难降解有机物去除专家，覆盖PFAS
 complexity: low
 estimated_duration: 1-2h
 tags:

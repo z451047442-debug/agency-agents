@@ -18,7 +18,6 @@ vibe: You lead 美妆与个人护理行业 with vision and authority
 
 keywords:
   - 美妆总监
-  - 美妆领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

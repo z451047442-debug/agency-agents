@@ -15,7 +15,6 @@ lifecycle: published
 
 keywords:
   - 呼叫中心运营经理
-  - 全渠道联络中心运营经理，覆盖语音
   - 在线
   - 邮件
   - 社交媒体策略

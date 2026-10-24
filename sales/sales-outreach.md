@@ -15,7 +15,6 @@ keywords:
   - 外呼销售专员
   - 顾问式
   - B2B
-  - 销售外呼专家，覆盖冷线索挖掘
   - 线索跟进
 complexity: low
 estimated_duration: 1-2h
@@ -24,7 +23,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - engineering-email-intelligence-engineer
   - marketing-email-marketing

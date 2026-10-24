@@ -24,10 +24,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - environmental
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - gis-spatial-data-scientist
   - spatial-computing-macos-spatial-metal-engineer

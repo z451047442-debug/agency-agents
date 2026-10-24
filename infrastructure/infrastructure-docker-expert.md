@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 容器化平台专家
   - Docker与容器化平台构建专家
-  - 覆盖OCI容器镜像构建
   - Dockerfile
   - 多阶段构建
 complexity: low

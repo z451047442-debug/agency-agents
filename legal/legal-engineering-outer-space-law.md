@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 空间法
   - 太空资源开发法律顾问
-  - 国际空间法与商业航天法律专家，覆盖外空条约
   - OST
   - 责任公约
 complexity: low

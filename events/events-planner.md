@@ -13,7 +13,6 @@ lifecycle: published
 
 keywords:
   - 活动策划师
-  - 活动策划专家，覆盖活动概念与主题设计
   - 场地寻源与合同谈判
   - 供应商管理（餐饮
   - AV

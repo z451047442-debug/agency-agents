@@ -22,8 +22,6 @@ tags:
   - engineering
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - engineering-backend-architect
   - engineering-database-administrator

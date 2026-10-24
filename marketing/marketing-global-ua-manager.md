@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 海外推广经理
-  - 海外用户增长与广告投放专家，覆盖Google
   - Ads
   - 搜索
   - 购物
@@ -22,7 +21,6 @@ tags:
   - Deliverable
   - References
   - Standards
-  - Methodology
 emoji: 🌍
 tools: WebFetch, WebSearch, Read, Write, Edit, Bash
 author: z451047442-debug

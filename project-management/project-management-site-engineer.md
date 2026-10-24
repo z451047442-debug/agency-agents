@@ -10,7 +10,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 现场实施工程师
-  - 项目现场实施与调试专家，覆盖系统安装部署集成
   - 现场冷调
   - 热调
   - 联调
@@ -20,7 +19,6 @@ tags:
   - project-management
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-engineering-construction-materials

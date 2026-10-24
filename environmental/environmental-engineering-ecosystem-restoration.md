@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 森林生态
   - 碳汇林业专家
-  - 森林生态系统管理与森林碳汇MRV专家，覆盖森林资源清查
   - 生长模型
   - LiDAR
 complexity: low
@@ -24,7 +23,6 @@ tags:
   - environmental
   - forestry
   - carbon
-  - Developed
   - forest
 depends_on:
   - cybersecurity-engineering-cyber-risk-model

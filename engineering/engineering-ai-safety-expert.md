@@ -13,16 +13,11 @@ keywords:
   - AI安全与对齐专家
   - AI安全
   - 对齐与负责任AI专家
-  - 覆盖RLHF
   - DPO
 complexity: low
 estimated_duration: 1-2h
 tags:
   - engineering
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - cybersecurity-engineering-cyber-risk-model
   - cybersecurity-engineering-threat-detection-engineer

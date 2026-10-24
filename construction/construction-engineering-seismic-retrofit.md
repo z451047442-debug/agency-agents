@@ -10,7 +10,6 @@ lifecycle: published
 keywords:
   - 抗震加固
   - 抗震韧性评估工程师
-  - 既有建筑抗震鉴定与结构加固改造专家，覆盖抗震鉴定
   - ATC-40
   - FEMA
 complexity: low

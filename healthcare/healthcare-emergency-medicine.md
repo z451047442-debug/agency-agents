@@ -12,7 +12,6 @@ lifecycle: published
 keywords:
   - 急诊
   - 院前急救医师
-  - 急诊医学与院前急救专家，覆盖急诊分诊
   - 危重症识别
   - 创伤
 complexity: low
@@ -21,7 +20,6 @@ tags:
   - healthcare
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - education-special-needs

@@ -13,14 +13,12 @@ keywords:
   - 客户身份与访问管理
   - CIAM
   - 工程师
-  - 面向消费者的身份认证与客户数据平台专家，覆盖Auth0
   - AWS
 complexity: low
 estimated_duration: 1-2h
 tags:
   - cybersecurity
   - customer
-  - Built
   - CIAM
   - platforms
 depends_on:

@@ -22,8 +22,6 @@ tags:
   - engineering
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - engineering-database-administrator
   - engineering-backend-architect

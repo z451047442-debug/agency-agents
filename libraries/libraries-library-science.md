@@ -27,7 +27,6 @@ tags:
   - libraries
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - design-engineering-user-research-system

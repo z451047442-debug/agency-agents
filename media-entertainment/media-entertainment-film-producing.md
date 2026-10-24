@@ -21,8 +21,6 @@ tags:
   - media-entertainment
   - Authoritative
   - References
-  - Methodology
-  - Decision
 depends_on:
   - home-lifestyle-personal-finance
   - hr-talent-acquisition-manager

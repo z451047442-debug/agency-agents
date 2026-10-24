@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - Kali
   - Linux安全测试专家
-  - Linux渗透测试平台专家，覆盖工具链（Metasploit
   - Burp
   - Suite
 complexity: low
@@ -23,8 +22,6 @@ tags:
   - cybersecurity
   - Success
   - Metrics
-  - Methodology
-  - Decision
 depends_on:
   - cybersecurity-penetration-tester
   - operations-executive-summary-generator

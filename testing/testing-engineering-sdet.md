@@ -14,7 +14,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - engineering-code-reviewer
   - engineering-git-workflow-master

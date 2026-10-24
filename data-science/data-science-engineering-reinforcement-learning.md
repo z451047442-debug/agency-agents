@@ -5,7 +5,6 @@ keywords:
   - 强化学习
   - RL
   - 工程师
-  - 强化学习与决策智能专家，覆盖DQN
   - PPO
 complexity: low
 estimated_duration: 1-2h

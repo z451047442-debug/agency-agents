@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - 大地测量
   - 精密定位工程师
-  - 卫星大地测量与精密定位系统专家，覆盖GNSS
   - 北斗
   - GPS
 complexity: low

@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - Flutter开发工程师
   - Flutter跨平台应用开发专家
-  - 覆盖Dart语言与Flutter框架
   - Widget
   - State
 complexity: low
@@ -22,8 +21,6 @@ tags:
   - engineering
   - Actionable
   - Directives
-  - Methodology
-  - Decision
 depends_on:
   - infrastructure-github-actions-expert
 emoji: 🐦

@@ -3,7 +3,6 @@ color: green
 date_added: '2026-07-03'
 keywords:
   - 最后一公里配送专家
-  - 末端配送网络设计与运营专家，覆盖即时配送
   - 快递柜
   - 社区团购
   - 路径优化与骑手管理
@@ -14,7 +13,6 @@ tags:
   - Technical
   - Process
   - Learning
-  - Methodology
 depends_on:
   - automotive-supply-chain
   - education-special-needs

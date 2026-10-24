@@ -5,7 +5,6 @@ date_added: '2026-07-03'
 keywords:
   - 技术项目经理
   - TPM
-  - 跨团队技术项目管理专家，覆盖大型技术项目规划
   - 分解
   - WBS
 complexity: medium

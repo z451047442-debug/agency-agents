@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - IoT硬件
   - 无线通信工程师
-  - 物联网无线通信与硬件集成专家，覆盖BLE
   - WiFi
   - Zigbee
 complexity: low

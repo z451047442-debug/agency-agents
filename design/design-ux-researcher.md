@@ -24,7 +24,6 @@ tags:
   - design
   - Research
   - Objectives
-  - Methodology
   - Participant
 depends_on:
   - design-engineering-ux-research-ops

@@ -24,7 +24,6 @@ tags:
   - sales
   - Signal-Based
   - Selling
-  - Framework
   - Definition
 depends_on:
   - engineering-social-media-platform

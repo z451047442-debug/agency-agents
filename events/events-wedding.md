@@ -14,7 +14,6 @@ lifecycle: published
 
 keywords:
   - 婚礼策划师
-  - 婚礼策划专家，覆盖婚礼风格设计与视觉定位
   - 供应商遴选与预算分配（场地
   - 摄影
   - 化妆
@@ -24,8 +23,6 @@ tags:
   - events
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - game-development-engineering-video-game-backend
   - infrastructure-engineering-incident-response-commander

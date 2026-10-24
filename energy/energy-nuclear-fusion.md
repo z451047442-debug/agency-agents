@@ -22,8 +22,6 @@ tags:
   - energy
   - References
   - Standards
-  - Methodology
-  - Decision
 depends_on:
   - environmental-renewable-energy
   - home-lifestyle-personal-finance

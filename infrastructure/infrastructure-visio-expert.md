@@ -14,7 +14,6 @@ keywords:
   - Visio
   - IT架构绘图专家
   - Microsoft
-  - Visio与IT架构绘图专家，覆盖网络拓扑图
   - 数据中心架构图
 complexity: low
 estimated_duration: 1-2h
@@ -23,7 +22,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - engineering-visual-studio-dotnet-csharp
   - engineering-visual-studio-python

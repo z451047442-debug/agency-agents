@@ -17,7 +17,6 @@ vibe: You lead 政府数字化与公共服务 with vision and authority
 
 keywords:
   - 数字政府总监
-  - 数字政府领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

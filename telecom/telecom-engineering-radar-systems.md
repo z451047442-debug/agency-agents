@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 雷达系统
   - 射频感知工程师
-  - 雷达系统与射频探测技术专家，覆盖毫米波雷达
   - 77GHz
   - 相控阵
 complexity: low

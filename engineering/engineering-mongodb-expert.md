@@ -14,7 +14,6 @@ lifecycle: published
 keywords:
   - MongoDB数据架构师
   - MongoDB分布式文档数据库架构专家
-  - 覆盖Document
   - Schema
   - Design
 complexity: low
@@ -23,8 +22,6 @@ tags:
   - engineering
   - Actionable
   - Directives
-  - Methodology
-  - Decision
 depends_on:
   - data-science-feature-store
   - engineering-build-release-engineer

@@ -13,7 +13,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 工厂厂长
-  - 制造工厂全面管理者，覆盖生产运营
   - 产出效率
   - 质量
   - 安全
@@ -23,7 +22,6 @@ tags:
   - manufacturing
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-supply-chain

@@ -13,7 +13,6 @@ lifecycle: published
 keywords:
   - Drupal购物车开发工程师
   - Drupal
-  - Commerce专家，覆盖产品目录管理
   - 支付集成
   - 结账流程与订单管理
 complexity: low
@@ -21,9 +20,6 @@ estimated_duration: 1-2h
 tags:
   - engineering
   - Technical
-  - Methodology
-  - Decision
-  - Framework
 depends_on:
   - design-engineering-accessibility-engineer
   - engineering-build-release-engineer

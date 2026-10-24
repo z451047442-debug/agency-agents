@@ -15,14 +15,12 @@ keywords:
   - 脑机接口
   - BCI
   - 研究员
-  - 神经工程与脑机接口技术研究员，覆盖非侵入式
 complexity: low
 estimated_duration: 1-2h
 tags:
   - healthcare
   - neural
   - engineering
-  - Developed
   - systems
 depends_on:
   - healthcare-clinical-physician

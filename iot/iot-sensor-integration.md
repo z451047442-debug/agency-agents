@@ -6,7 +6,6 @@ keywords:
   - 传感器集成专家
   - 传感器选型
   - 信号调理
-  - 数据融合与校准专家，覆盖MEMS
   - 光学
 complexity: low
 estimated_duration: 1-2h
@@ -14,7 +13,6 @@ tags:
   - iot
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - data-science-engineering-optical-character-recognition

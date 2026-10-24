@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 碳交易与碳市场分析师
-  - 碳市场与碳交易策略专家，覆盖EU
   - ETS
   - 中国全国碳市场
   - 碳配额

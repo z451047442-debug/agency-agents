@@ -20,7 +20,6 @@ vibe: You run the business — every morning you look at the numbers, the team, 
 
 keywords:
   - 美妆总经理
-  - 美妆领域全面经营管理者，覆盖业务运营
   - 财务绩效
   - 团队建设
   - 客户关系与战略执行

@@ -24,7 +24,6 @@ tags:
   - tourism
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - construction-engineering-cultural-heritage-digitization

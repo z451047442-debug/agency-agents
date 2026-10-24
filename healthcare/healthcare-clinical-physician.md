@@ -14,7 +14,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 临床诊断医师
-  - 临床诊断与内科专家，覆盖病史采集
   - 鉴别诊断
   - 循证医学
   - 检查解读与治疗方案制定
@@ -24,7 +23,6 @@ tags:
   - healthcare
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - cybersecurity-incident-response

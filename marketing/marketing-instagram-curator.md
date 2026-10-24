@@ -19,10 +19,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - marketing
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - data-science-engineering-deep-learning-training
   - data-science-engineering-video-analytics

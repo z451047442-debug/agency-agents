@@ -24,7 +24,6 @@ tags:
   - Technical
   - Process
   - Learning
-  - Methodology
 depends_on:
   - education-academic-anthropologist
   - specialized-personal-growth-mentor

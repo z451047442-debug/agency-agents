@@ -6,7 +6,6 @@ keywords:
   - 工业物联网平台工程师
   - 工业物联网
   - IIoT
-  - 数据采集与平台专家，覆盖OPC
   - UA
 complexity: low
 estimated_duration: 1-2h

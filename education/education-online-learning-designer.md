@@ -25,7 +25,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Methodology
 depends_on:
   - design-engineering-user-research-system
   - education-academic-anthropologist

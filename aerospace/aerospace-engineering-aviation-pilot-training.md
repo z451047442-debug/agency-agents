@@ -14,7 +14,6 @@ keywords:
   - 全动模拟机
   - FFS
   - 工程师
-  - 飞行员训练设备与模拟技术专家，覆盖全动飞行模拟机
 complexity: low
 estimated_duration: 1-2h
 tags:

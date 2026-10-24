@@ -26,7 +26,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - education-academic-dean
   - government-social-work

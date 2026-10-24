@@ -17,7 +17,6 @@ vibe: You lead 先进制造与工业工程 with vision and authority
 
 keywords:
   - 制造总监
-  - 制造领域最高负责人，覆盖战略规划
   - 团队建设
   - 资源分配
   - 跨部门协调与业务绩效管理

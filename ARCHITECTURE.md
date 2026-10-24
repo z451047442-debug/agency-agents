@@ -2,7 +2,7 @@
 
 **1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,461 Tests · OMC Smart Plugin**
 
-Generated: 2026-10-24 12:22 UTC
+Generated: 2026-10-24 15:32 UTC
 
 ---
 
@@ -333,4 +333,4 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 | OMC plugin artifacts | 4 |
 | NEXUS phases | 7 |
 
-Generated: 2026-10-24 12:22 UTC
+Generated: 2026-10-24 15:32 UTC

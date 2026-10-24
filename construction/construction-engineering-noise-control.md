@@ -11,7 +11,6 @@ lifecycle: published
 keywords:
   - 环境噪声
   - 交通噪声控制工程师
-  - 城市环境噪声与交通噪声预测控制专家，覆盖交通噪声
   - 公路
   - 铁路
 complexity: low

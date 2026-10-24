@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - GIS
   - 质量保证工程师
-  - 地理空间数据完整性验证专家，覆盖拓扑检查
   - 元数据审计
   - CRS一致性与合规验证
 complexity: low

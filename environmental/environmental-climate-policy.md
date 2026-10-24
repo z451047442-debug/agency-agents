@@ -21,10 +21,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - environmental
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - energy-carbon-market
   - home-lifestyle-personal-finance

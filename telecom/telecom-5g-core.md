@@ -15,7 +15,6 @@ lifecycle: published
 keywords:
   - 5G核心网工程师
   - 5G核心网
-  - 移动通信专家，覆盖5GC服务化架构
   - SBA
   - AMF
 complexity: low
@@ -24,7 +23,6 @@ tags:
   - telecom
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - automotive-autonomous-driving

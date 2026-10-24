@@ -21,7 +21,6 @@ estimated_duration: 2-4h
 tags:
   - engineering
   - Architecture
-  - Decision
   - Record
   - Template
 depends_on:

@@ -23,7 +23,6 @@ tags:
   - Success
   - Metrics
   - Technical
-  - Professional
 depends_on:
   - data-science-data-engineer
   - data-science-engineering-computer-vision-3d

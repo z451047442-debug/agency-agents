@@ -24,7 +24,6 @@ tags:
   - Technical
   - References
   - Standards
-  - Methodology
 depends_on:
   - engineering-build-release-engineer
   - engineering-cross-platform

@@ -11,7 +11,6 @@ nexus_roles:
 lifecycle: published
 keywords:
   - 信息流广告优化师
-  - 信息流广告投放与优化专家，覆盖巨量引擎
   - 抖音
   - 头条
   - 穿山甲
@@ -19,10 +18,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - marketing
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 depends_on:
   - operations-report-distribution-agent
 emoji: 📱

@@ -4,7 +4,6 @@ color: orange
 date_added: '2026-07-03'
 keywords:
   - 印度市场专家
-  - 印度市场营销策略专家，覆盖多语言
   - 多邦策略
   - WhatsApp
   - ShareChat

@@ -22,8 +22,6 @@ tags:
   - specialized
   - brain
   - dart
-  - Methodology
-  - Decision
 depends_on:
   - engineering-graph-database
   - gis-drone-reality-mapping

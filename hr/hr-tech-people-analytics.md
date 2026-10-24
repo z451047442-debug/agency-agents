@@ -26,7 +26,6 @@ tags:
   - hr
   - Success
   - Metrics
-  - Professional
   - Scope
 depends_on:
   - logistics-engineering-supply-chain-analytics

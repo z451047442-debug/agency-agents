@@ -20,10 +20,6 @@ complexity: low
 estimated_duration: 1-2h
 tags:
   - marketing
-  - Methodology
-  - Decision
-  - Framework
-  - Professional
 emoji: 📱
 vibe: Grows loyal WeChat subscriber communities through consistent value delivery.
 

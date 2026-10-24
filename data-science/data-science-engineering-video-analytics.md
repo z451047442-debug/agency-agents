@@ -4,7 +4,6 @@ date_added: '2026-07-03'
 keywords:
   - 视频智能分析
   - 视频AI工程师
-  - 大规模视频内容理解与智能分析专家，覆盖视频分类
   - 动作识别
   - 时序定位
 complexity: low
@@ -13,7 +12,6 @@ tags:
   - data-science
   - video
   - understanding
-  - Built
   - systems
 depends_on:
   - data-science-data-engineer

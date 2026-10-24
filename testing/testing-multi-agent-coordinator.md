@@ -22,8 +22,8 @@ description: 测试领域多智能体协作协调专家，统筹 QA 自动化、
 emoji: 🧪
 name: 测试多智能体协调专家
 nexus_roles:
-- phase-1-strategy
-- phase-3-build
+  - phase-1-strategy
+  - phase-3-build
   - phase-4-hardening
 version: 1.0.0
 vibe: orchestrating testing specialists into coherent multi-agent workflows

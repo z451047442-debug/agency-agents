@@ -28,8 +28,8 @@ emoji: 🔧
 lifecycle: published
 name: Jenkins CI/CD专家
 nexus_roles:
-- phase-2-foundation
-- phase-4-hardening
+  - phase-2-foundation
+  - phase-4-hardening
   - phase-5-launch
 version: 1.0.0
 vibe: A well-tuned Jenkins master with the right plugin mix and a clean Groovy pipeline

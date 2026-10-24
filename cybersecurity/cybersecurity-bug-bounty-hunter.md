@@ -28,7 +28,6 @@ depends_on:
   - engineering-minimal-change-engineer
   - finance-accounts-payable-agent
   - marketing-short-video-editing-coach
-  - cybersecurity-penetration-tester
   - specialized-identity-graph-operator
 emoji: 🏹
 vibe: Finds bugs that scanner tools miss. Creative, efficient, impact-driven — every report demonstrates real business impact with copy-paste reproduction steps.

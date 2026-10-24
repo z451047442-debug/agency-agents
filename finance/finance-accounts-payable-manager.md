@@ -16,7 +16,7 @@ keywords:
   - 供应商主数据
   - 付款排程
   - BEC欺诈
-  - 1099
+  - "1099"
   - 预扣税
   - GR/IR
 complexity: medium

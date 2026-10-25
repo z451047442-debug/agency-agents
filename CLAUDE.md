@@ -154,7 +154,8 @@ python scripts/analyze-deps.py --cross-stats         # cross-category dep covera
 python scripts/analyze-deps.py --apply               # write suggested cross-category deps
 python scripts/analyze-deps.py --json                # output depends_on.json
 python scripts/analyze-deps.py --report              # dependency health dashboard
-python scripts/batch-add-deps.py                  # batch apply depends_on from suggested_deps.json
+python scripts/batch-add-deps.py                  # dry-run: preview suggested deps
+python scripts/batch-add-deps.py --apply          # write suggested deps (review first)
 
 # Content quality & maintenance
 python scripts/expand-agent.py <agent-id>            # organic content expansion (agent ID, not path)

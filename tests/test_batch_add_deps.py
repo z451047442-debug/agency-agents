@@ -1,10 +1,7 @@
 """Tests for scripts/batch-add-deps.py frontmatter manipulation logic."""
 import importlib.util
 import json
-import tempfile
 from pathlib import Path
-
-import pytest
 
 SCRIPTS_DIR = Path(__file__).resolve().parent.parent / "scripts"
 spec = importlib.util.spec_from_file_location(
@@ -237,10 +234,44 @@ class TestMain:
             json.dumps(agents_data), encoding="utf-8"
         )
 
-        mod.main()
+        mod.main(["--apply"])
         captured = capsys.readouterr()
         assert "Loaded" in captured.out
         assert "Applied" in captured.out
+
+    def test_dry_run_is_default_and_does_not_write(self, tmp_path, monkeypatch, capsys):
+        """Without --apply, main() must not modify agent files."""
+        monkeypatch.setattr(mod, "ROOT", tmp_path)
+
+        suggested = {
+            "high_confidence": {
+                "engineering-frontend-dev": [
+                    {"agent_id": "engineering-ux-designer"},
+                ],
+            }
+        }
+        (tmp_path / "suggested_deps.json").write_text(
+            json.dumps(suggested), encoding="utf-8"
+        )
+
+        (tmp_path / "engineering").mkdir(parents=True)
+        agent_md = (
+            "---\nname: Test\ndescription: Test\nemoji: X\ncolor: blue\n"
+            "---\n\n# Body\n"
+        )
+        agent_path = tmp_path / "engineering" / "engineering-frontend-dev.md"
+        agent_path.write_text(agent_md, encoding="utf-8")
+
+        (tmp_path / "AGENTS.json").write_text(
+            json.dumps({"agents": [{"id": "engineering-frontend-dev", "depends_on": []}]}),
+            encoding="utf-8",
+        )
+
+        mod.main([])
+        captured = capsys.readouterr()
+        assert "DRY-RUN" in captured.out
+        assert "[dry-run]" in captured.out
+        assert agent_path.read_text(encoding="utf-8") == agent_md
 
     def test_all_generic_deps_skipped(self, tmp_path, monkeypatch, capsys):
         """When all deps are generic, the agent is skipped."""
@@ -262,7 +293,7 @@ class TestMain:
             json.dumps({"agents": [{"id": "dummy"}]}), encoding="utf-8"
         )
 
-        mod.main()
+        mod.main(["--apply"])
         captured = capsys.readouterr()
         assert "Skipped" in captured.out
 
@@ -299,7 +330,7 @@ class TestMain:
         # Monkeypatch add_deps to raise an exception
         monkeypatch.setattr(mod, "add_deps", lambda f, deps: (_ for _ in ()).throw(OSError("boom")))
 
-        mod.main()
+        mod.main(["--apply"])
         captured = capsys.readouterr()
         # Should show Skipped: 1 since the exception was caught
         assert "Skipped: 1" in captured.out

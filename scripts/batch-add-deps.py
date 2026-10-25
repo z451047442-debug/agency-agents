@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Batch-apply high-confidence depends_on suggestions to agent frontmatter."""
+"""Batch-apply high-confidence depends_on suggestions to agent frontmatter.
+
+Dry-run by default. Pass --apply to write changes. Bulk application can create
+nonsensical cross-category dependencies; review the suggestions before applying.
+"""
+import argparse
 import json
 import re
 import sys
@@ -92,29 +97,87 @@ def add_deps(filepath, dep_ids):
     tmp_path.replace(filepath)
     return True
 
-def main():
+def existing_deps(filepath):
+    """Return dependency IDs already listed in the file's frontmatter."""
+    c = filepath.read_text(encoding='utf-8')
+    lines = c.split('\n')
+    fm_end = None
+    for i, line in enumerate(lines):
+        if i > 0 and line.strip() == '---':
+            fm_end = i
+            break
+    if fm_end is None:
+        return []
+    deps = []
+    in_deps = False
+    for i in range(1, fm_end):
+        line = lines[i]
+        if line.strip().startswith('depends_on:'):
+            in_deps = True
+            continue
+        if in_deps:
+            stripped = line.strip()
+            if stripped.startswith('- '):
+                deps.append(stripped[2:].strip().strip('"').strip("'"))
+            elif stripped and not line.startswith('  '):
+                break
+    return deps
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(
+        description="Add high-confidence depends_on suggestions to agent frontmatter."
+    )
+    parser.add_argument(
+        "--apply",
+        action="store_true",
+        help="Write changes to files. Without this flag the script only prints a dry-run.",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=3,
+        help="Maximum suggestions to add per agent (default: 3).",
+    )
+    args = parser.parse_args(argv)
+
     with open(ROOT / 'suggested_deps.json', encoding='utf-8') as f:
         data = json.load(f)
     high = data['high_confidence']
     print(f"Loaded {len(high)} high-confidence suggestions")
+    print(f"Mode: {'APPLY' if args.apply else 'DRY-RUN'} (pass --apply to write changes)")
+    print("WARNING: review cross-category suggestions; bulk application can create nonsensical dependencies.")
+
     applied = skipped = total = 0
     for aid, deps in high.items():
         filtered = [d for d in deps if d['agent_id'] not in GENERIC]
-        if not filtered: skipped += 1; continue
-        dep_ids = [d['agent_id'] for d in filtered[:3]]
+        if not filtered:
+            skipped += 1
+            continue
+        dep_ids = [d['agent_id'] for d in filtered[:args.limit]]
         mdf = find_file(aid)
-        if not mdf: skipped += 1; continue
+        if not mdf:
+            skipped += 1
+            continue
+        if not args.apply:
+            to_add = [d for d in dep_ids if d not in existing_deps(mdf)]
+            if to_add:
+                print(f"  [dry-run] {aid}: + {', '.join(to_add)}")
+            skipped += 1
+            continue
         try:
             if add_deps(mdf, dep_ids):
-                applied += 1; total += len(dep_ids)
+                applied += 1
+                total += len(dep_ids)
         except (OSError, UnicodeDecodeError) as e:
             print(f"  Warning: skipping {mdf.name}: {e}", file=sys.stderr)
             skipped += 1
-    print(f"Applied: {applied} agents, {total} deps, Skipped: {skipped}")
+    if args.apply:
+        print(f"Applied: {applied} agents, {total} deps, Skipped: {skipped}")
+    else:
+        print(f"Dry-run: no files changed. Reviewed without writing: {skipped}")
     with open(ROOT / 'AGENTS.json', encoding='utf-8') as f:
         agents_data = json.load(f)
     with_deps = sum(1 for a in agents_data['agents'] if a.get('depends_on') and len(a['depends_on']) > 0)
-    # Not regenerated yet, add our applied count
     est = with_deps + applied
     print(f"Est coverage: {est}/{len(agents_data['agents'])} ({est/len(agents_data['agents'])*100:.0f}%)")
     print("Run ./scripts/generate-index.sh to update AGENTS.json")

@@ -1,8 +1,8 @@
 # The Agency — System Architecture v2.2.4
 
-**1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,461 Tests · OMC Smart Plugin**
+**1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,462 Tests · OMC Smart Plugin**
 
-Generated: 2026-10-24 16:01 UTC
+Generated: 2026-10-25 02:04 UTC
 
 ---
 
@@ -20,7 +20,7 @@ Generated: 2026-10-24 16:01 UTC
 
 ---
 
-## Layer 1: Test Suite (44 modules, 1,461 tests)
+## Layer 1: Test Suite (44 modules, 1,462 tests)
 
 | Module (tests) | Module (tests) |
 |----------------|----------------|
@@ -32,8 +32,8 @@ Generated: 2026-10-24 16:01 UTC
 | test_analyze_deps.py (73) | test_extract_patterns.py (20) |
 | test_omc_scripts.py (69) | test_check_dupes.py (18) |
 | test_quality_report.py (53) | test_audit_security.py (17) |
-| test_search_agents.py (51) | test_match_nexus_agents.py (17) |
-| test_batch_add_metadata.py (42) | test_batch_add_deps.py (16) |
+| test_search_agents.py (51) | test_batch_add_deps.py (17) |
+| test_batch_add_metadata.py (42) | test_match_nexus_agents.py (17) |
 | test_batch_nexus_roles.py (42) | test_batch_date_added.py (16) |
 | test_build_hermes_plugin.py (40) | test_check_divisions.py (16) |
 | test_expand_agent.py (40) | test_analyze_deps_auto.py (15) |
@@ -327,10 +327,10 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 | Coverage threshold | 90% |
 | Agent files | 1,402 |
 | Tool scripts | 34 (.py) + 18 (.sh) |
-| Tests | 1,461 across 44 modules |
+| Tests | 1,462 across 44 modules |
 | CI workflows | 7 |
 | Integration targets | 10 |
 | OMC plugin artifacts | 4 |
 | NEXUS phases | 7 |
 
-Generated: 2026-10-24 16:01 UTC
+Generated: 2026-10-25 02:04 UTC

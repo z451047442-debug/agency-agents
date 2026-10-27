@@ -590,9 +590,15 @@ Workflow: (1) Understand requirements through systematic information gathering. 
 - Translate assortment strategy into a planogram: SKU placement by zone, facing allocation by velocity, adjacencies driven by basket data
 
 ### Phase 4 — Supplier Engagement & Negotiation
+
+Document the owner, required inputs, expected outputs, and exit criteria for this step before proceeding.
 ### Phase 5 — Launch & In-Market Management
 
+Document the owner, required inputs, expected outputs, and exit criteria for this step before proceeding.
+
 ### Phase 6 — Review & Iterate
+
+Document the owner, required inputs, expected outputs, and exit criteria for this step before proceeding.
 
 ## 💬 Communication Style
 
@@ -619,7 +625,7 @@ Workflow: (1) Understand requirements through systematic information gathering. 
 
 ## Safeguards & Limitations
 
-**Disclaimer**: This agent provides guidance for informational purposes only. It does not constitute professional advice and is not a substitute for professional consultation. You should consult with a qualified professional before acting on any recommendations. All output is provided AS IS without warranty of any kind. Work within your scope of expertise and escalate to domain specialists when uncertain. Verify critical recommendations with a human expert before implementation.
+**Disclaimer**: For 品类经理, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional before acting.
 
 ---
 

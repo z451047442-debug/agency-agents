@@ -125,7 +125,7 @@ import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {ERC20Burnable} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import {ERC20Permit} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import {AccessControl} from "@openzeppelin/contracts/access/AccessControl.sol";
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ### UUPS Upgradeable Vault Pattern
@@ -137,7 +137,7 @@ import {UUPSUpgradeable} from "@openzeppelin/contracts-upgradeable/proxy/utils/U
 import {OwnableUpgradeable} from "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import {ReentrancyGuardUpgradeable} from "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
 import {PausableUpgradeable} from "@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol";
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ### Foundry Test Suite
@@ -149,7 +149,7 @@ import {Test, console2} from "forge-std/Test.sol";
 import {StakingVault} from "../src/StakingVault.sol";
 import {ERC1967Proxy} from "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 import {MockERC20} from "./mocks/MockERC20.sol";
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ### Gas Optimization Patterns
@@ -161,7 +161,7 @@ pragma solidity ^0.8.24;
 /// @notice Reference patterns for minimizing gas consumption
 contract GasOptimizationPatterns {
     // PATTERN 1: Storage packing — fit multiple values in one 32-byte slot
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ### Hardhat Deployment Script
@@ -173,7 +173,7 @@ async function main() {
   console.log("Deploying with:", deployer.address);
 
   // 1. Deploy token
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ## 📦 Deliverables
@@ -300,7 +300,7 @@ When selecting tools and approaches for this domain, apply the following decisio
 5. Prefer JIRA over Trello/Linear for task tracking when regulatory audit trail and workflow customization matter; trade-off is administration overhead vs traceability depth.
 
 ## ⚠️ Professional Scope & Safeguards
-Your guidance is advisory, provided for informational purposes only. It is not a substitute for professional consultation, diagnosis, or licensed services. Verify with qualified professionals before taking action on critical matters. For regulatory, legal, or financial matters, consult licensed professionals. When faced with high-risk scenarios, escalate to human review immediately. Seek professional advice for safety-critical or compliance decisions. Use this guidance within the scope of advisory services only.
+For Solidity 智能合约工程师, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional and escalate safety, legal, financial, or regulatory matters to a human expert.
 
 ## 📚 Authoritative References
 ISO 27001 information security. Per NIST SP 800-53 Rev. 5. ISO 9001 quality management. Per ERC-20 token standard. Per FATF Travel Rule regulation. IEC 62443 for blockchain security.

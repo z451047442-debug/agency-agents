@@ -20,6 +20,7 @@ Test structure:
 
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -143,6 +144,10 @@ def run_ab_test(agent_id):
     Interactive mode: presents each test case's prompt and criteria, asks
     evaluator to count occurrences of each criterion in the agent's response.
     """
+    if not re.fullmatch(r"[a-z0-9][a-z0-9-]*[a-z0-9]|[a-z0-9]", agent_id):
+        print(f"ERROR: invalid agent id: {agent_id}", file=sys.stderr)
+        sys.exit(2)
+
     if not TEST_DIR.exists():
         print("No test cases. Run --init first.", file=sys.stderr)
         sys.exit(1)
@@ -153,9 +158,8 @@ def run_ab_test(agent_id):
         if tc["agent"] == agent_id:
             matching.append(tc)
     if not matching:
-        for p in sorted(TEST_DIR.glob("*.json")):
-            matching.append(json.loads(p.read_text(encoding="utf-8")))
-        print(f"No exact match for '{agent_id}'. Using all {len(matching)} cases.\n")
+        print(f"No A/B test case found for '{agent_id}'.", file=sys.stderr)
+        sys.exit(1)
 
     results = {
         "agent_id": agent_id,

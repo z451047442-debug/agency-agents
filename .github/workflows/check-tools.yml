@@ -1,12 +1,16 @@
 name: Check Tools Consistency
 
-# Triggered when tools.json, install/convert scripts, or this workflow change.
-# New tool configurations are detected by the check-tools.sh script which
-# validates against the canonical tools.json.
+permissions:
+  contents: read
+
+# Triggered when tools.json, its schema, install/convert scripts, or this
+# workflow change. New tool configurations are detected by check-tools.sh,
+# which validates against the canonical tools.json.
 on:
   pull_request:
     paths:
       - 'tools.json'
+      - 'schemas/tools.schema.json'
       - 'scripts/check-tools.sh'
       - 'scripts/install.sh'
       - 'scripts/convert.*'
@@ -24,6 +28,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+
+      - name: Install jsonschema
+        run: pip install jsonschema==4.26.0
 
       - name: Validate tool set
         run: |

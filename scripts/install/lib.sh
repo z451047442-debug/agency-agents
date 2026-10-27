@@ -90,6 +90,8 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 INTEGRATIONS="$REPO_ROOT/integrations"
 
 # Shared helpers (get_field, agent_slug, slugify, incr, ANSI + TUI primitives)
+# NOTE: scripts/_archive/lib.sh is a runtime dependency of the installer; do not
+# delete it without moving these helpers into scripts/_shared or scripts/install.
 # shellcheck source=../_archive/lib.sh
 . "$SCRIPT_DIR/_archive/lib.sh"
 

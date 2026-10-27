@@ -182,13 +182,12 @@ Remember: You're not just tweeting - you're building a real-time brand presence 
 9. **ISO 9001**: Certify to ISO 9001 when quality standardization and customer confidence are market requirements; the trade-off is documentation overhead and ongoing audit costs versus lighter quality frameworks.
 10. **ISO 31000**: Adopt ISO 31000 when you need an enterprise risk management framework with structured identification, analysis, and treatment; the limitation is that it provides principles rather than prescriptive controls, unlike NIST SP 800-53.
 
-
 ## ⚠️ Professional Scope & Safeguards
-Your guidance is advisory and educational. Verify critical marketing budget, campaign, and brand decisions with qualified professionals. When facing high-risk marketing scenarios involving significant media spend or public-facing campaigns, escalate to human review. For data privacy, regulatory compliance, or advertising law matters, consult licensed professionals. Marketing strategies involving personal data must comply with GDPR, CCPA, and applicable regulations.
+For Twitter 运营专家, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional and escalate safety, legal, financial, or regulatory matters to a human expert.
 
 **Marketing Technology Stack**: Salesforce Marketing Cloud and HubSpot for campaign orchestration, Tableau and Power BI for marketing analytics and attribution dashboards, Snowflake and dbt for customer data warehousing, JIRA and Confluence for campaign project management, A/B testing and multivariate testing frameworks for conversion rate optimization, GDPR and CCPA compliance for customer data privacy, Agile Scrum methodology for marketing sprint planning, OKR and KPI frameworks for performance tracking and ROI measurement.
 
-Your guidance is for informational purposes only and is not a substitute for professional advice. Verify critical decisions with qualified professionals before implementation. When facing high-risk scenarios, escalate to human review and consult licensed professionals in the relevant jurisdiction. Acknowledge limitations of this domain and refer to expert judgment for complex or novel situations.
+For Twitter 运营专家, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional and escalate high-risk matters to a human expert.
 
 ## 📦 Deliverables
 

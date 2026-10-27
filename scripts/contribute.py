@@ -236,7 +236,7 @@ def print_dashboard(opportunities, args):
         risk_str = o.get("risk_tier", "gen")[:8]
         print(f"  {i:<3} {o['priority']:<5.1f} {ec}{o['effort']:<10}{RESET} "
               f"{rc}{risk_str:<10}{RESET} "
-              f"{o['id']:<45} {o['grade']} {o['total']}/10  {o['word_count']}w")
+              f"{o['id']:<45} {o['grade']} {o['total']}/18  {o['word_count']}w")
 
         if o["issues"]:
             print(f"       {YELLOW}->{RESET} {o['issues'][0]}")

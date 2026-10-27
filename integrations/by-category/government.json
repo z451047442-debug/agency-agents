@@ -1,7 +1,7 @@
 {
   "category": "government",
   "agent_count": 14,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "government-digital-presales-consultant",
@@ -66,7 +66,6 @@
         "government",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -110,7 +109,6 @@
       ],
       "keywords": [
         "数字政府总监",
-        "数字政府领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -150,7 +148,6 @@
       ],
       "keywords": [
         "数字政府总经理",
-        "数字政府领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -263,9 +260,7 @@
       "keywords": [
         "政府采购官员",
         "公共采购全生命周期管理（RFI",
-        "RFP",
-        "RFQ），投标评估与供应商选择，政府合同谈判，采购合规与审计，电子采购系统，可持续",
-        "绿色采购，供应商多样性计划"
+        "RFP"
       ]
     },
     {
@@ -299,7 +294,6 @@
       "keywords": [
         "公共管理",
         "公务员专家",
-        "公共行政与政府管理专家，覆盖公共政策执行",
         "公共服务交付",
         "预算编制"
       ]
@@ -328,9 +322,7 @@
       "tags": [
         "government",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "公共事务总监",
@@ -368,7 +360,6 @@
         "government",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -406,8 +397,7 @@
         "government",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "智慧城市顾问",
@@ -443,9 +433,7 @@
       "tags": [
         "government",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "社会工作与公共服务专家",
@@ -521,7 +509,6 @@
         "government",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [

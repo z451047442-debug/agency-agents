@@ -1,7 +1,7 @@
 {
   "category": "tourism",
   "agent_count": 16,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "tourism-cruise",
@@ -31,12 +31,10 @@
         "tourism",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "邮轮运营管理专家",
-        "邮轮航线运营管理专家，覆盖航线规划与港口谈判",
         "船上体验与娱乐",
         "海事安全与SOLAS合规",
         "船员管理与培训"
@@ -70,7 +68,6 @@
         "tourism",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -84,7 +81,7 @@
     {
       "id": "tourism-destination-marketing",
       "name": "目的地营销策略师",
-      "description": "旅游局与目的地品牌营销专家，操盘城市、地区、国家旅游形象的全球推广",
+      "description": "目的地品牌与DMO营销专家，负责城市、地区与国家旅游形象定位、客源市场组合、淡季均衡与居民好感度管理",
       "emoji": "📍",
       "category": "tourism",
       "subcategory": "",
@@ -104,21 +101,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A destination is a story waiting to be told — the best marketing doesn't sell a place, it invites people into its narrative",
+      "vibe": "A destination brand is a promise made by an entire community — marketing only works when the product, the residents, and the story agree",
       "lifecycle": "published",
       "tags": [
         "tourism",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "destination-marketing",
+        "brand-strategy",
+        "visitor-economy",
+        "sustainability"
       ],
       "keywords": [
-        "目的地营销策略师",
-        "旅游局与目的地品牌营销专家，操盘城市",
-        "地区",
-        "国家旅游形象的全球推广",
-        "Sofia"
+        "destination marketing",
+        "DMO strategy",
+        "place branding",
+        "visitor economy",
+        "seasonality",
+        "resident sentiment",
+        "earned media",
+        "GSTC"
       ]
     },
     {
@@ -156,7 +156,6 @@
       ],
       "keywords": [
         "旅游总监",
-        "旅游领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -165,7 +164,7 @@
     {
       "id": "tourism-event-planner",
       "name": "大型活动与MICE策划师",
-      "description": "国际会议、展览、奖励旅游策划专家，千万级预算项目全案操盘",
+      "description": "国际会议、展览、奖励旅游与品牌活动策划专家，覆盖预算、场地、run-of-show、人群安全与可持续认证",
       "emoji": "🎪",
       "category": "tourism",
       "subcategory": "",
@@ -181,21 +180,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A great event doesn't just happen — it's a thousand invisible decisions that make the impossible look effortless",
+      "vibe": "A great event is a thousand invisible decisions made early enough that the guest never sees the risk",
       "lifecycle": "published",
       "tags": [
         "tourism",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "events",
+        "mice",
+        "event-operations",
+        "sustainability"
       ],
       "keywords": [
-        "大型活动与MICE策划师",
-        "国际会议",
-        "展览",
-        "奖励旅游策划专家，千万级预算项目全案操盘",
-        "Isabelle"
+        "MICE",
+        "event planning",
+        "association congress",
+        "exhibition",
+        "incentive travel",
+        "run-of-show",
+        "crowd safety",
+        "ISO 20121"
       ]
     },
     {
@@ -225,7 +227,6 @@
         "tourism",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -263,12 +264,10 @@
         "tourism",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "酒店总经理",
-        "酒店全面经营管理专家，覆盖客房收益管理",
         "RevPAR",
         "餐饮",
         "宴会运营"
@@ -277,7 +276,7 @@
     {
       "id": "tourism-hotel-operations",
       "name": "酒店运营管理专家",
-      "description": "国际酒店集团运营管理专家，覆盖房务、餐饮、收益、宾客体验全链运营",
+      "description": "国际酒店集团运营管理专家，覆盖房务、餐饮、工程、安保与宾客体验，兼顾品牌标准、成本控制与员工可持续性",
       "emoji": "🏨",
       "category": "tourism",
       "subcategory": "",
@@ -295,21 +294,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A hotel is not a building — it's a living organism where every touchpoint either builds loyalty or loses it forever",
+      "vibe": "A hotel is a living operation — the guest sees the lobby, but the truth lives in the linen par, the chiller log and the 6 a.m. room inspection",
       "lifecycle": "published",
       "tags": [
         "tourism",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "hotel-operations",
+        "hospitality",
+        "service-quality",
+        "facilities"
       ],
       "keywords": [
-        "酒店运营管理专家",
-        "国际酒店集团运营管理专家，覆盖房务",
-        "餐饮",
-        "收益",
-        "宾客体验全链运营"
+        "hotel operations",
+        "rooms division",
+        "housekeeping",
+        "front office",
+        "food and beverage",
+        "guest experience",
+        "preventive maintenance",
+        "HACCP"
       ]
     },
     {
@@ -387,7 +389,7 @@
     {
       "id": "tourism-revenue-manager",
       "name": "旅游收益管理专家",
-      "description": "酒店与航司收益管理专家，动态定价、库存优化、需求预测全链路操盘",
+      "description": "酒店、航司与邮轮收益管理专家，覆盖需求预测、动态定价、库存控制、超售与渠道组合优化",
       "emoji": "📊",
       "category": "tourism",
       "subcategory": "",
@@ -402,21 +404,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every unsold room and empty seat is a perishable asset that will never exist",
+      "vibe": "Every unsold room and empty seat is a perishable asset — the job is to price the risk, not just the room",
       "lifecycle": "published",
       "tags": [
         "tourism",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "revenue-management",
+        "pricing",
+        "forecasting",
+        "hotel-operations"
       ],
       "keywords": [
-        "旅游收益管理专家",
-        "酒店与航司收益管理专家，动态定价",
-        "库存优化",
-        "需求预测全链路操盘",
-        "David"
+        "revenue management",
+        "RevPAR",
+        "ADR",
+        "booking curve",
+        "displacement analysis",
+        "overbooking",
+        "RGI",
+        "TRevPAR"
       ]
     },
     {
@@ -444,17 +449,18 @@
       "lifecycle": "published",
       "tags": [
         "tourism",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "sustainability",
+        "destination-management",
+        "climate",
+        "certification"
       ],
       "keywords": [
-        "可持续旅游顾问",
-        "目的地承载力评估",
-        "生态旅游认证",
-        "GSTC",
-        "碳中和旅行项目"
+        "sustainable tourism",
+        "carrying capacity",
+        "GSTC certification",
+        "tourism carbon footprint",
+        "local leakage",
+        "community consent"
       ]
     },
     {
@@ -480,17 +486,18 @@
       "lifecycle": "published",
       "tags": [
         "tourism",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "travel-operations",
+        "revenue-management",
+        "risk",
+        "customer-service"
       ],
       "keywords": [
-        "旅行社运营管理专家",
-        "旅行社全链路运营管理专家，覆盖旅游产品设计与定价",
-        "目的地合作与签约",
-        "预订系统与GDS管理",
-        "团队出游协调"
+        "tour operations",
+        "package pricing",
+        "GDS and NDC",
+        "supplier contracting",
+        "travel risk",
+        "disruption management"
       ]
     },
     {
@@ -525,7 +532,6 @@
       "keywords": [
         "旅行社",
         "旅行顾问",
-        "旅行社经营与旅行顾问专家，覆盖个性化行程设计",
         "机票",
         "酒店"
       ]
@@ -533,7 +539,7 @@
     {
       "id": "tourism-travel-experience-designer",
       "name": "旅行体验设计师",
-      "description": "沉浸式旅行体验策划专家，从文化沉浸到冒险路线，打造不可复制的旅程记忆",
+      "description": "沉浸式旅行体验设计专家，以叙事、节奏与地方感构建旅程，覆盖文化尊重、社区收益、无障碍与野外风险管理",
       "emoji": "🗺️",
       "category": "tourism",
       "subcategory": "",
@@ -549,21 +555,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The best trips aren't the ones you photograph — they're the ones that photograph themselves onto you",
+      "vibe": "The best trips are not the ones you photograph — they are the ones that change what you notice afterwards",
       "lifecycle": "published",
       "tags": [
         "tourism",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "experience-design",
+        "itinerary",
+        "cultural-tourism",
+        "sustainable-travel"
       ],
       "keywords": [
-        "旅行体验设计师",
-        "沉浸式旅行体验策划专家，从文化沉浸到冒险路线，打造不可复制的旅程记忆",
-        "Marco",
-        "Chen",
-        "narrative"
+        "experience design",
+        "itinerary design",
+        "cultural immersion",
+        "sense of place",
+        "slow travel",
+        "accessible travel",
+        "adventure safety",
+        "community benefit"
       ]
     },
     {

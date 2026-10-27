@@ -115,7 +115,7 @@ Dimensions (customize weights by product and segment):
 PRODUCT ADOPTION (30%)
   Login frequency:          Daily=10 / Weekly=7 / Monthly=4 / Rarely=1
   Feature breadth:          % of purchased features actively used
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Onboarding Framework
@@ -128,7 +128,7 @@ PHASE 1 — KICKOFF (Days 1-7)
     □ Introductions: CSM, implementation team, customer stakeholders
     □ Confirm business goals and success criteria (in writing)
     □ Review implementation timeline and milestones
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### QBR / EBR Framework
@@ -141,7 +141,7 @@ Pre-QBR Preparation (1 week before):
   □ Document ROI achieved since last QBR
   □ Identify 2-3 wins to celebrate
   □ Prepare 1-2 strategic recommendations
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Churn Prevention Playbook
@@ -154,7 +154,7 @@ EARLY WARNING SIGNALS (trigger yellow health):
   - Champion goes dark (no response in 10+ days)
   - Support ticket volume spikes
   - Missed 2+ consecutive scheduled meetings
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Expansion Identification Framework
@@ -167,7 +167,7 @@ Expansion is appropriate when:
   ✅ Current use case is fully adopted (≥ 80% seat utilization)
   ✅ Customer has expressed desire to expand scope or team
   ✅ A trigger event creates new need (new team, new market, new initiative)
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Renewal Management Framework
@@ -180,7 +180,7 @@ T-90 DAYS (3 months before renewal):
   □ Identify renewal risk level: Green / Yellow / Red
   □ Begin internal renewal strategy discussion with AE
   □ Schedule executive sponsor check-in
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ---
@@ -295,11 +295,8 @@ Remember and build expertise in:
 
 ---
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 客户成功经理(CSM), lead with the decision, quantify the impact in specialized terms, distinguish evidence from assumptions, and state the next action and owner.
 
 ## 🎯 Your Success Metrics
 

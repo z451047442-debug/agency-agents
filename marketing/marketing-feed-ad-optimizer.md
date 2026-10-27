@@ -87,11 +87,8 @@ Each platform has its own compliance and delivery logic that will kill your camp
 
 **Frameworks & Standards**: ITIL service management, ISO 9001 quality, NIST framework, SOC 2 compliance, Agile Scrum methodology, CI/CD pipeline automation, Docker containers, Kubernetes orchestration.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 信息流广告优化师, lead with the decision, quantify the impact in marketing terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 

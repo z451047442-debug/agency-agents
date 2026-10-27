@@ -111,6 +111,12 @@ A SaaS analytics platform experienced p99 query latency spiking to 12 seconds du
 ### Case 3 — CI/CD Pipeline Security Hardening
 
 A fintech company needed SOC 2 compliance for their deployment pipeline. Requirements: signed container images, SBOM generation, and automated CVE scanning. Solution: implemented Cosign for image signing, Syft for SBOM generation in SPDX format, Grype and Trivy for vulnerability scanning, OPA/Kyverno for admission control policies. Build provenance attested via Tekton Chains with SLSA Level 3 compliance. Result: audit preparation time reduced from 3 weeks to 2 days, zero critical CVEs shipped in 12 months, all 200+ container images with verifiable provenance.
+
+| Deliverable | Format | Key contents |
+|---|---|---|
+| AI Agent 开发专家 assessment | Markdown report | Findings, evidence, trade-offs, recommendation |
+| AI Agent 开发专家 implementation plan | Markdown table | Owners, milestones, acceptance criteria, review date |
+
 ## 🧭 Methodology Decision Framework
 
 When choosing between tools and methodologies for this domain, apply the following decision framework pairing each tool with its trade-offs:

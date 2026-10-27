@@ -5,7 +5,7 @@ Filters agents by quality score and category, copies them to the Claude Code
 agents directory, and generates a filtered index for OMC's explore agent.
 
 Usage:
-    python scripts/export-omc-agents.py                           # all agents, score >= 0
+    python scripts/export-omc-agents.py                           # agents scoring >= 8
     python scripts/export-omc-agents.py --min-score 10            # B-grade and above
     python scripts/export-omc-agents.py --categories engineering,design
     python scripts/export-omc-agents.py --output ~/.claude/agents
@@ -15,6 +15,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any, cast
@@ -49,11 +50,14 @@ def compute_scores(agents: list[dict]) -> dict[str, float]:
         capture_output=True, text=True, cwd=str(REPO),
     )
     if result.returncode != 0:
-        print(f"Warning: scoring failed ({result.stderr.strip()}). All agents get score 0.",
-              file=sys.stderr)
-        return {a["id"]: 0.0 for a in agents}
+        raise RuntimeError(
+            f"scoring failed ({result.stderr.strip() or result.returncode})"
+        )
 
-    data = json.loads(result.stdout)
+    try:
+        data = json.loads(result.stdout)
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"scoring produced invalid JSON: {exc}") from exc
     scores: dict[str, float] = {}
     for entry in data.get("agents", []):
         scores[entry["id"]] = entry.get("total", 0.0)
@@ -67,6 +71,7 @@ def export_agents(
     min_score: float,
     categories: set[str] | None,
     dry_run: bool,
+    force: bool = False,
 ) -> tuple[int, list[dict]]:
     """Copy qualifying agents to output directory. Returns (count, exported_list)."""
     output.mkdir(parents=True, exist_ok=True)
@@ -85,7 +90,16 @@ def export_agents(
             print(f"  skip: {aid} (source missing: {agent['path']})", file=sys.stderr)
             continue
 
-        dest = output / f"{aid}.md"
+        dest = (output / f"{aid}.md").resolve()
+        if dest.parent != output.resolve():
+            print(f"  skip: {aid} (unsafe agent id)", file=sys.stderr)
+            continue
+        if not re.fullmatch(r"[a-z0-9][a-z0-9-]*[a-z0-9]|[a-z0-9]", aid):
+            print(f"  skip: {aid} (invalid agent id)", file=sys.stderr)
+            continue
+        if dest.exists() and not force:
+            print(f"  skip: {aid} (already exists; use --force to overwrite)", file=sys.stderr)
+            continue
         if not dry_run:
             content = source.read_text(encoding="utf-8")
             atomic_write(dest, content)
@@ -165,8 +179,10 @@ def show_summary(exported: list[dict], output: Path, dry_run: bool) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export agency agents for oh-my-claudecode")
-    parser.add_argument("--min-score", type=float, default=0.0,
-                        help="Minimum quality score (default: 0 = all agents)")
+    parser.add_argument("--min-score", type=float, default=8.0,
+                        help="Minimum quality score (default: 8 = C-grade and above)")
+    parser.add_argument("--force", action="store_true",
+                        help="Overwrite existing files in the output directory")
     parser.add_argument("--categories", help="Comma-separated category filter")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT,
                         help=f"Output directory (default: {DEFAULT_OUTPUT})")
@@ -174,6 +190,7 @@ def main() -> None:
     parser.add_argument("--verify", action="store_true", help="Verify existing export integrity")
     args = parser.parse_args()
 
+    args.output = args.output.expanduser()
     if args.verify:
         ok = verify_export(args.output)
         sys.exit(0 if ok else 1)
@@ -183,12 +200,17 @@ def main() -> None:
     agents = load_agents()
     print(f"Loaded {len(agents)} agents from AGENTS.json")
 
-    scores = compute_scores(agents)
+    try:
+        scores = compute_scores(agents)
+    except RuntimeError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
     scored_count = sum(1 for s in scores.values() if s > 0)
     print(f"Scored {scored_count} agents")
 
     count, exported_list = export_agents(agents, scores, args.output,
-                                         args.min_score, categories, args.dry_run)
+                                         args.min_score, categories, args.dry_run,
+                                         force=args.force)
     show_summary(exported_list, args.output, args.dry_run)
 
 

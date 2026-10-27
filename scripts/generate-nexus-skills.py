@@ -14,7 +14,6 @@ Usage:
 import argparse
 import json
 import sys
-from datetime import datetime
 from typing import Any, cast
 
 from _shared import REPO, atomic_write
@@ -188,7 +187,6 @@ triggers: [{', '.join(p['triggers'])}]
 category: nexus
 source: agency-agents
 version: "1.0"
-generated: {datetime.now().isoformat()[:10]}
 ---
 
 # NEXUS Phase {phase}: {p_label}
@@ -270,7 +268,6 @@ triggers: [nexus, full pipeline, nexus full, end to end, NEXUS, 全流程, 端�
 category: nexus
 source: agency-agents
 version: "1.0"
-generated: {datetime.now().isoformat()[:10]}
 ---
 
 # NEXUS Full Pipeline

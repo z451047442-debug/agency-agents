@@ -106,7 +106,7 @@ Strategic Pillars:
      - Onboarding: time-to-first-value acceleration
      - Adoption: feature depth and breadth expansion
      - Optimization: continuous value realization and benchmarking
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Customer Health Scoring System
@@ -119,7 +119,7 @@ Score Composition (Weighted Composite, 0-100):
   PRODUCT ADOPTION (30%)
   ├── Feature depth: % of core features adopted (weight: 10%)
   ├── Usage breadth: unique users / licensed seats (weight: 8%)
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Onboarding & Adoption Program
@@ -132,7 +132,7 @@ Phased Onboarding Journey:
   PHASE 1: FOUNDATION (Days 1-14)
   ├── Welcome sequence: executive sponsor letter, CSM introduction, access provisioning
   ├── Technical setup: integration configuration, SSO setup, data migration kickoff
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Executive Business Review (EBR/QBR)
@@ -145,7 +145,7 @@ Pre-QBR Preparation (2 weeks before):
   2. ROI calculation: hours saved, revenue gained, risk reduced, efficiency improved
   3. Success plan review: progress against agreed milestones
   4. Stakeholder mapping: who's attending, what do they care about?
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Expansion & Upsell Strategy
@@ -158,7 +158,7 @@ Expansion Triggers (signals that expansion is appropriate):
   ✅ Core features adopted by ≥ 80% of users (value is being realized)
   ✅ At least one QBR completed with positive ROI demonstrated (trust established)
   ✅ Customer has expressed or demonstrated a business need additional features address
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Voice of Customer (VoC) Program
@@ -171,7 +171,7 @@ Feedback Collection Channels:
   QUANTITATIVE:
   ├── NPS/CSAT surveys: transactional (post-interaction) + relational (quarterly)
   ├── Product satisfaction surveys: feature-level satisfaction scoring
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Customer Advocacy & Reference Program
@@ -184,7 +184,7 @@ Advocacy Ladder (Progressive Engagement):
   LEVEL 1: SATISFIED USER
   ├── Criteria: health score ≥ 75, NPS promoter (9-10)
   ├── Engagement: CSAT surveys, NPS responses, product reviews (G2, TrustRadius)
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Churn Prediction & Intervention
@@ -197,7 +197,7 @@ Leading Indicators (90-120 day signals):
   USAGE DECLINE (strongest predictor):
   ├── 3+ consecutive weeks of declining active users
   ├── DAU/MAU ratio dropping below historical baseline
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### CS Team Leadership & Development
@@ -210,7 +210,7 @@ Hiring Profile — What Makes a Great CSM:
   ├── Business acumen: understands customer's business model and industry
   ├── Communication: executive presence, written and verbal clarity
   ├── Data literacy: can interpret usage data and derive actionable insights
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ---
@@ -228,11 +228,8 @@ Hiring Profile — What Makes a Great CSM:
 
 Each deliverable follows a complete evidence chain: requirements to analysis to recommendation to implementation to verification. Documentation is audit-ready per applicable quality management and industry-specific standards, with clear ownership, timelines, and success criteria for every action item.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 客户成功总监(Customer Success Director), lead with the decision, quantify the impact in customer-service terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 

@@ -1,7 +1,7 @@
 {
   "category": "gis",
   "agent_count": 16,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "gis-3d-scene-developer",
@@ -36,7 +36,6 @@
       "keywords": [
         "3D与场景开发工程师",
         "Web",
-        "3D可视化专家，使用Cesium",
         "ArcGIS",
         "Scene"
       ]
@@ -121,7 +120,6 @@
         "BIM",
         "GIS",
         "专家",
-        "建筑信息模型与地理信息系统集成专家，覆盖Revit",
         "IFC转换"
       ]
     },
@@ -161,7 +159,6 @@
       ],
       "keywords": [
         "地图设计专家",
-        "印刷与Web地图美学设计专家，精通色彩理论",
         "排版",
         "标签放置与视觉层次",
         "Role"
@@ -195,13 +192,10 @@
       "tags": [
         "gis",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "地理信息总监",
-        "地理信息领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -284,7 +278,6 @@
       ],
       "keywords": [
         "地理信息总经理",
-        "地理信息领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -323,8 +316,7 @@
         "地理AI",
         "机器学习工程师",
         "从卫星与航空影像中提取特征",
-        "检测目标",
-        "分割图像与土地覆盖分类的地理空间机器学习专家"
+        "检测目标"
       ]
     },
     {
@@ -363,7 +355,6 @@
       ],
       "keywords": [
         "地理处理专家",
-        "ArcPy与Python工具箱自动化空间工作流专家，构建自定义工具箱与批处理地理处理",
         "Role",
         "Personality",
         "Memory"
@@ -387,7 +378,7 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating gis specialists into coherent multi-agent workflows",
+      "vibe": "orchestrating GIS specialists into coherent multi-agent workflows",
       "tags": [
         "gis",
         "Technical",
@@ -435,7 +426,6 @@
       "keywords": [
         "GIS",
         "质量保证工程师",
-        "地理空间数据完整性验证专家，覆盖拓扑检查",
         "元数据审计",
         "CRS一致性与合规验证"
       ]
@@ -476,7 +466,6 @@
       ],
       "keywords": [
         "解决方案工程师",
-        "将技术顾问策略转化为工作原型的概念验证专家，覆盖Esri与开源全栈",
         "Role",
         "Personality",
         "Memory"
@@ -602,7 +591,6 @@
       ],
       "keywords": [
         "技术顾问",
-        "将业务问题转化为地理空间解决方案的战略顾问，覆盖差距分析与技术路线图",
         "Role",
         "Personality",
         "Memory"
@@ -641,7 +629,6 @@
         "Web",
         "GIS",
         "开发工程师",
-        "交互式地图应用全栈开发专家，覆盖",
         "MapLibre"
       ]
     }

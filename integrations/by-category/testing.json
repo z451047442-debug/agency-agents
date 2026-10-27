@@ -1,7 +1,7 @@
 {
   "category": "testing",
   "agent_count": 22,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "testing-accessibility-auditor",
@@ -30,7 +30,6 @@
         "testing",
         "Audit",
         "Overview",
-        "Methodology",
         "Summary"
       ],
       "keywords": [
@@ -53,7 +52,6 @@
         "cybersecurity-penetration-tester",
         "engineering-git-workflow-master",
         "testing-multi-agent-coordinator",
-        "cybersecurity-penetration-tester",
         "testing-test-results-analyzer"
       ],
       "nexus_roles": [
@@ -104,12 +102,10 @@
         "testing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "自动化测试架构师",
-        "测试自动化架构与框架设计专家，覆盖测试策略",
         "框架选型",
         "CI",
         "CD测试集成"
@@ -148,7 +144,6 @@
         "测试总监",
         "QA",
         "Director",
-        "软件测试与质量保证最高负责人，覆盖测试策略",
         "质量体系"
       ]
     },
@@ -186,7 +181,6 @@
         "测试自动化开发工程师",
         "SDET",
         "II",
-        "高级测试自动化与测试框架开发专家，覆盖Selenium",
         "Cypress"
       ]
     },
@@ -223,8 +217,7 @@
         "可靠性测试",
         "HALT",
         "HASS",
-        "工程师",
-        "产品可靠性工程与加速寿命测试专家，覆盖HALT高加速寿命测试"
+        "工程师"
       ]
     },
     {
@@ -253,8 +246,7 @@
         "testing",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "测试开发工程师",
@@ -267,7 +259,7 @@
     {
       "id": "testing-engineering-software-tester",
       "name": "软件开发工程师(测试方向)",
-      "description": "专注于测试的软件开发工程师(SDET)，覆盖单元测试/集成测试/端到端测试框架、测试驱动开发(TDD)、Mock/Stub/Fixture设计与代码可测试性",
+      "description": "测试方向软件开发工程师(SDET)，覆盖单元/集成/E2E 测试设计、TDD 与可测试性重构、风险建模、缺陷分析与发布退出标准，兼顾探索式测试与自动化",
       "emoji": "🧪",
       "category": "testing",
       "subcategory": "",
@@ -282,27 +274,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Code that can't be tested can't be trusted. You write the tests that make refactoring safe and deployment confident.",
+      "vibe": "A test is an executable claim about behavior — if it cannot fail for the right reason, it is not evidence",
       "lifecycle": "published",
       "tags": [
         "testing",
-        "SDET",
-        "Built",
-        "test",
-        "frameworks"
+        "sdet",
+        "quality",
+        "risk",
+        "automation"
       ],
       "keywords": [
-        "软件开发工程师",
-        "测试方向",
-        "专注于测试的软件开发工程师",
         "SDET",
-        "，覆盖单元测试"
+        "软件测试",
+        "测试设计",
+        "TDD",
+        "单元测试",
+        "集成测试",
+        "探索式测试",
+        "缺陷分析",
+        "发布门禁",
+        "风险测试"
       ]
     },
     {
       "id": "testing-engineering-test-automation-framework",
       "name": "测试框架架构师",
-      "description": "企业级测试自动化框架设计专家，覆盖多语言/多平台测试框架(Pytest/JUnit/TestNG)、BDD/TDD/ATDD实践(Cucumber/SpecFlow)、测试数据/环境即代码与CI/CD集成",
+      "description": "企业级测试自动化框架架构专家，覆盖 pytest/JUnit/Playwright/Cypress 分层设计、测试数据与环境即代码、并行分片、波动治理与 CI/CD 质量门",
       "emoji": "🧪",
       "category": "testing",
       "subcategory": "",
@@ -319,21 +316,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A well-designed test framework makes writing tests so easy that developers do",
+      "vibe": "A test framework succeeds when the easiest thing a developer can do is write a reliable test — and the second easiest is find out why it failed",
       "lifecycle": "published",
       "tags": [
         "testing",
-        "designing",
-        "test",
-        "frameworks",
-        "adopted"
+        "automation",
+        "framework",
+        "ci-cd",
+        "developer-experience"
       ],
       "keywords": [
-        "测试框架架构师",
-        "企业级测试自动化框架设计专家，覆盖多语言",
-        "多平台测试框架",
-        "Pytest",
-        "JUnit"
+        "测试框架",
+        "自动化测试",
+        "pytest",
+        "Playwright",
+        "Cypress",
+        "测试数据",
+        "并行分片",
+        "波动治理",
+        "CI/CD",
+        "契约测试"
       ]
     },
     {
@@ -364,7 +366,6 @@
         "testing",
         "Mandatory",
         "Process",
-        "Methodology",
         "Accordion"
       ],
       "keywords": [
@@ -413,7 +414,7 @@
     {
       "id": "testing-localization",
       "name": "本地化/国际化测试专家",
-      "description": "软件本地化(L10n)与国际化(i18n)测试专家，覆盖多语言UI/内容验证、日期/货币/数字格式、RTL语言/双字节字符、文化适配与伪本地化测试",
+      "description": "国际化与本地化测试专家，覆盖 ICU/CLDR 格式化、XLIFF/TMS 流程、伪本地化、RTL/双向文本、文本膨胀与 MQM 语言质量评估、多语言发布门禁",
       "emoji": "🌐",
       "category": "testing",
       "subcategory": "",
@@ -431,21 +432,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Your app works perfectly in English — but does it break in Arabic? In Japanese?",
+      "vibe": "A product that works in English has proven one locale — the other forty are hypotheses until you test them",
       "lifecycle": "published",
       "tags": [
         "testing",
         "localization",
         "internationalization",
-        "Shipped",
-        "products"
+        "quality",
+        "rtl"
       ],
       "keywords": [
-        "本地化",
-        "国际化测试专家",
-        "软件本地化",
-        "L10n",
-        "与国际化"
+        "本地化测试",
+        "国际化测试",
+        "ICU",
+        "CLDR",
+        "XLIFF",
+        "伪本地化",
+        "RTL",
+        "双向文本",
+        "MQM",
+        "多语言发布"
       ]
     },
     {
@@ -481,7 +487,6 @@
       ],
       "keywords": [
         "移动应用测试专家",
-        "移动应用测试专家，覆盖iOS",
         "Android真机测试",
         "设备碎片化管理",
         "手势"
@@ -593,7 +598,6 @@
       "keywords": [
         "Playwright自动化测试专家",
         "Playwright端到端测试与浏览器自动化专家",
-        "覆盖Playwright",
         "Test",
         "Runner"
       ]
@@ -624,8 +628,7 @@
         "testing",
         "Mandatory",
         "Process",
-        "Integration",
-        "Methodology"
+        "Integration"
       ],
       "keywords": [
         "生产就绪验证员",
@@ -664,7 +667,6 @@
       ],
       "keywords": [
         "安全渗透测试工程师",
-        "应用安全渗透测试专家，覆盖OWASP",
         "Top10",
         "API安全测试",
         "Web"
@@ -703,7 +705,6 @@
       "keywords": [
         "测试结果分析师",
         "测试评估",
-        "质量指标分析与覆盖率报告专家",
         "Role",
         "Personality"
       ]
@@ -735,8 +736,7 @@
         "testing",
         "Technical",
         "Outputs",
-        "Specification",
-        "Methodology"
+        "Specification"
       ],
       "keywords": [
         "工具评估专家",
@@ -772,12 +772,10 @@
         "testing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "可用性测试专家",
-        "可用性与用户体验测试专家，覆盖可用性评估方法",
         "用户测试执行",
         "启发式评估",
         "眼动追踪分析与可访问性测试"
@@ -811,8 +809,7 @@
         "testing",
         "Technical",
         "Outputs",
-        "Specification",
-        "Methodology"
+        "Specification"
       ],
       "keywords": [
         "工作流优化专家",

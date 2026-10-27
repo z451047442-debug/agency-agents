@@ -1,7 +1,7 @@
 {
   "category": "game-development",
   "agent_count": 26,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "blender-addon-engineer",
@@ -44,7 +44,7 @@
     {
       "id": "game-development-engineering-video-game-backend",
       "name": "游戏后端/实时服务(Live Service)工程师",
-      "description": "大型多人在线游戏后端与实时服务专家，覆盖游戏服务器(专用服务器Dedicated Server/P2P)、匹配系统(Matchmaking/SBMM)、玩家状态/存档、经济系统/防作弊与Unity/Unreal后端集成",
+      "description": "大型多人在线游戏后端与实时服务专家：权威服务器/Netcode/Relay 拓扑、PlayFab/Agones/GameLift、匹配与 SBMM、延迟预算、经济账本与防作弊",
       "emoji": "🎮",
       "category": "game-development",
       "subcategory": "",
@@ -60,21 +60,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A multiplayer game lives or dies by its backend — lag, disconnects, and cheaters",
+      "vibe": "A multiplayer game lives or dies by its backend — lag, disconnects, and cheaters destroy the experience faster than any bad review",
       "lifecycle": "published",
       "tags": [
         "game-development",
-        "building",
-        "game",
-        "backends",
-        "Built"
+        "game-backend",
+        "netcode",
+        "live-service",
+        "multiplayer"
       ],
       "keywords": [
         "游戏后端",
         "实时服务",
-        "Live",
-        "Service",
-        "工程师"
+        "Netcode",
+        "Relay",
+        "专用服务器",
+        "PlayFab",
+        "Agones",
+        "延迟预算",
+        "匹配系统",
+        "防作弊"
       ]
     },
     {
@@ -175,13 +180,10 @@
       "tags": [
         "game-development",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "游戏变现设计师",
-        "游戏经济与变现设计专家，覆盖免费+内购",
         "F2P",
         "经济系统",
         "通行证"
@@ -207,21 +209,18 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Great games aren't just designed — they're produced; you're the one who turns",
+      "vibe": "Great games aren't just designed — they're produced; you're the one who turns creative vision into shipped product, on time and in scope",
       "lifecycle": "published",
       "tags": [
         "game-development",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "游戏制作人",
-        "游戏制作与项目管理专家，覆盖游戏开发流程",
         "里程碑管理",
         "团队协调",
-        "预算控制与发行策略"
+        "预算控制"
       ]
     },
     {
@@ -261,7 +260,7 @@
     {
       "id": "game-development-game-quality-assurance",
       "name": "游戏QA/测试工程师",
-      "description": "游戏质量保证与测试专家，覆盖功能测试/关卡测试、性能/兼容性测试(多平台/设备)、多人/网络测试、自动化测试框架与Bug追踪/回归",
+      "description": "游戏质量保证与认证测试专家：风险驱动测试矩阵、功能/性能/兼容/网络/浸泡测试、ISTQB 方法、TRC/TCR 认证与自动化回归",
       "emoji": "🎮",
       "category": "game-development",
       "subcategory": "",
@@ -276,21 +275,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every bug you find is one less reason for a player to rage-quit. You play the",
+      "vibe": "Every bug you find is one less reason for a player to rage-quit. You play the game so users can play it without frustration.",
       "lifecycle": "published",
       "tags": [
         "game-development",
-        "game",
-        "testing",
-        "Shipped",
-        "indie"
+        "game-qa",
+        "certification",
+        "test-automation",
+        "release-readiness"
       ],
       "keywords": [
         "游戏QA",
-        "测试工程师",
-        "游戏质量保证与测试专家，覆盖功能测试",
-        "关卡测试",
-        "性能"
+        "测试矩阵",
+        "ISTQB",
+        "TRC/TCR",
+        "Lotcheck",
+        "浸泡测试",
+        "自动化回归",
+        "兼容性测试",
+        "崩溃率",
+        "认证测试"
       ]
     },
     {
@@ -512,9 +516,7 @@
       "tags": [
         "game-development",
         "Technical",
-        "Process",
-        "Methodology",
-        "Decision"
+        "Process"
       ],
       "keywords": [
         "Godot",
@@ -664,11 +666,7 @@
       "vibe": "Builds scalable Roblox experiences with rock-solid Luau and client-server security.",
       "lifecycle": "published",
       "tags": [
-        "game-development",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "game-development"
       ],
       "keywords": [
         "Roblox",
@@ -704,9 +702,7 @@
       "tags": [
         "game-development",
         "Technical",
-        "Process",
-        "Methodology",
-        "Decision"
+        "Process"
       ],
       "keywords": [
         "Unity",
@@ -741,9 +737,7 @@
       "tags": [
         "game-development",
         "Technical",
-        "Process",
-        "Methodology",
-        "Decision"
+        "Process"
       ],
       "keywords": [
         "Unity",
@@ -782,9 +776,7 @@
       "tags": [
         "game-development",
         "Technical",
-        "Process",
-        "Methodology",
-        "Decision"
+        "Process"
       ],
       "keywords": [
         "Unity",
@@ -858,9 +850,7 @@
       "tags": [
         "game-development",
         "Technical",
-        "Process",
-        "Methodology",
-        "Decision"
+        "Process"
       ],
       "keywords": [
         "Unreal",
@@ -896,10 +886,7 @@
       "lifecycle": "published",
       "tags": [
         "game-development",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "Unreal",
@@ -976,11 +963,7 @@
       "vibe": "Builds seamless open worlds with World Partition, Nanite, and procedural foliage.",
       "lifecycle": "published",
       "tags": [
-        "game-development",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "game-development"
       ],
       "keywords": [
         "Unreal",

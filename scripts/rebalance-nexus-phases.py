@@ -11,7 +11,7 @@ import re
 from pathlib import Path
 
 from _shared import atomic_write
-from _shared.frontmatter import get_body, get_frontmatter_text
+from _shared.frontmatter import get_body, get_frontmatter_text, get_list_field
 
 REPO = Path(__file__).resolve().parent.parent
 EXCLUDE_DIRS = {"docs", "scripts", "examples", "integrations", "schemas", ".git", ".github"}
@@ -71,26 +71,8 @@ def rebalance(dry_run: bool = True):
         fm = get_frontmatter_text(content)
         if not fm:
             continue
-        lines = fm.split("\n")
-        new_lines = []
-        in_nexus = False
-        roles: list[str] = []
+        roles: list[str] = get_list_field("nexus_roles", fm) or []
         changed = False
-
-        for line in lines:
-            if line.strip().startswith("nexus_roles:"):
-                in_nexus = True
-                new_lines.append(line)
-                continue
-            if in_nexus:
-                m = re.match(r"^(\s+)-\s+(phase-\d-\w+)", line)
-                if m:
-                    roles.append(m.group(2))
-                    new_lines.append(line)
-                    continue
-                elif re.match(r"^\S", line):
-                    in_nexus = False
-            new_lines.append(line)
 
         if not roles:
             stats["skipped"] += 1

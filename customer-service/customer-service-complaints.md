@@ -87,7 +87,7 @@ complaint_handling_framework:
         dedicated_line: true
         ivr_option: "Press 3 to register a complaint"
         recording_consent: required_by_jurisdiction
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Root Cause Analysis Toolkit — 8D Implementation
@@ -329,7 +329,7 @@ class RegulatoryComplianceEngine:
 import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Vulnerable Customer Handling Framework
@@ -338,7 +338,7 @@ from datetime import datetime, timedelta
 vulnerable_customer_framework:
   # Definition of vulnerability (aligned with FCA FG21/1 and international standards)
   vulnerability_definition: >
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Closed-Loop Feedback System
@@ -350,7 +350,7 @@ from typing import List, Dict, Optional
 from enum import Enum
 
 class FeedbackStatus(Enum):
-  # ... (trimmed for brevity)
+  pass  # extend this example for your deployment
 ```
 
 ### Service Recovery & Compensation Strategy
@@ -363,7 +363,7 @@ class ServiceRecoveryEngine:
     """
 
     def __init__(self):
-  # ... (trimmed for brevity)
+  pass  # extend this example for your deployment
 ```
 
 ## 📦 Deliverables
@@ -441,11 +441,8 @@ class ServiceRecoveryEngine:
 
 Each deliverable follows a complete evidence chain: requirements to analysis to recommendation to implementation to verification. Documentation is audit-ready per applicable quality management and industry-specific standards, with clear ownership, timelines, and success criteria for every action item.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 投诉管理专家, lead with the decision, quantify the impact in customer-service terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 

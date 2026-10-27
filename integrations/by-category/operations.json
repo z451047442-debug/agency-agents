@@ -1,7 +1,7 @@
 {
   "category": "operations",
   "agent_count": 12,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "operations-analytics-reporter",
@@ -70,8 +70,6 @@
       "tags": [
         "operations",
         "Non-Negotiable",
-        "Decision",
-        "Framework",
         "Mandatory"
       ],
       "keywords": [
@@ -115,13 +113,12 @@
         "业务连续性",
         "BCP",
         "与灾备专家",
-        "业务连续性与灾难恢复专家，覆盖BIA业务影响分析",
         "DRP计划编制"
       ]
     },
     {
       "id": "operations-change-management",
-      "name": "变革管理顾问",
+      "name": "组织变革管理专家",
       "description": "组织变革管理专家，覆盖ADKAR/Kotter/PROSCI变革方法论、干系人分析/沟通策略、变革准备度评估、培训与能力建设、变革阻力管理与可持续性",
       "emoji": "🔄",
       "category": "operations",
@@ -145,12 +142,10 @@
         "operations",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "变革管理顾问",
-        "组织变革管理专家，覆盖ADKAR",
         "Kotter",
         "PROSCI变革方法论",
         "干系人分析"
@@ -191,7 +186,6 @@
       "keywords": [
         "运营总监",
         "COO",
-        "企业运营最高负责人，覆盖业务流程优化",
         "标准化",
         "跨部门协调"
       ]
@@ -424,7 +418,6 @@
       "keywords": [
         "采购总监",
         "CPO",
-        "企业采购与供应链最高负责人，覆盖品类采购战略",
         "供应商关系管理",
         "采购数字化"
       ]

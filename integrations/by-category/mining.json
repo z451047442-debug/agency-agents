@@ -1,7 +1,7 @@
 {
   "category": "mining",
   "agent_count": 7,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "mining-director",
@@ -37,7 +37,6 @@
       ],
       "keywords": [
         "矿业总监",
-        "矿业领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -71,12 +70,10 @@
         "mining",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "采矿工程师",
-        "采矿工程与矿山设计专家，覆盖露天",
         "地下开采设计",
         "凿岩爆破优化",
         "通风与地压控制"
@@ -111,8 +108,7 @@
         "mining",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "矿物勘探师",
@@ -125,7 +121,7 @@
     {
       "id": "mining-general-manager",
       "name": "矿业总经理",
-      "description": "矿业领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "description": "矿业企业全面经营管理者，主导矿山勘探开发、采选生产、矿石销售与安全环保合规，平衡资源接续、成本与长期盈利能力",
       "emoji": "⛏",
       "category": "mining",
       "subcategory": "",
@@ -157,7 +153,6 @@
       ],
       "keywords": [
         "矿业总经理",
-        "矿业领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -230,17 +225,19 @@
       "lifecycle": "published",
       "tags": [
         "mining",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "mineral-economics",
+        "resource-estimation",
+        "feasibility",
+        "valuation"
       ],
       "keywords": [
         "矿业经济与资源评估专家",
         "矿产资源量",
         "储量估算",
         "JORC",
-        "NI"
+        "NI 43-101",
+        "SEC S-K 1300",
+        "矿业权评估"
       ]
     },
     {
@@ -271,12 +268,10 @@
         "mining",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "矿山安全经理",
-        "矿山安全管理专家，覆盖MSHA",
         "OSHA法规合规管理",
         "地层控制与岩体力学监测",
         "通风系统审计"

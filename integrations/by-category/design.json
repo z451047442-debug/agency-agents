@@ -1,7 +1,7 @@
 {
   "category": "design",
   "agent_count": 25,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "design-brand-guardian",
@@ -66,9 +66,7 @@
       "tags": [
         "design",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "平面设计",
@@ -146,7 +144,6 @@
       ],
       "keywords": [
         "设计总监",
-        "设计团队最高负责人，覆盖设计战略",
         "系统",
         "品牌体验一致性",
         "设计团队管理"
@@ -179,15 +176,13 @@
         "design",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "无障碍工程师",
         "Web",
         "移动端无障碍",
-        "A11y",
-        "工程专家，覆盖WCAG"
+        "A11y"
       ]
     },
     {
@@ -218,23 +213,24 @@
       "lifecycle": "published",
       "tags": [
         "design",
-        "human",
-        "factors",
-        "Designed",
-        "safety-critical"
+        "human-factors",
+        "safety-critical",
+        "medical-devices",
+        "validation"
       ],
       "keywords": [
-        "人因",
-        "工效学",
-        "Human",
-        "Factors",
-        "工程师"
+        "human factors",
+        "usability engineering",
+        "use error",
+        "cognitive workload",
+        "situation awareness",
+        "safety-critical design"
       ]
     },
     {
       "id": "design-engineering-quant-ux-researcher",
       "name": "量化用户体验研究员(Quant UX)",
-      "description": "大规模量化用户研究与行为数据科学家，覆盖A/B测试统计/实验设计、用户行为日志分析/Clickstream、产品体验指标(HEART/PULSE)与用户体验度量基准",
+      "description": "大规模量化用户体验与行为数据科学家，覆盖实验设计与功效分析、Clickstream/留存建模、HEART/PULSE 指标、问卷调查方法与因果推断，用区间估计和决策规则代替直觉",
       "emoji": "📈",
       "category": "design",
       "subcategory": "",
@@ -255,21 +251,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Qualitative research tells you why; quantitative research tells you how many",
+      "vibe": "A number without an estimand is trivia; a decision without an interval is a guess — you make uncertainty legible enough to act on",
       "lifecycle": "published",
       "tags": [
         "design",
         "quantitative",
         "research",
-        "Measured",
-        "user"
+        "experimentation",
+        "causal-inference"
       ],
       "keywords": [
-        "量化用户体验研究员",
-        "Quant",
-        "UX",
-        "大规模量化用户研究与行为数据科学家，覆盖A",
-        "B测试统计"
+        "量化用户体验",
+        "实验设计",
+        "功效分析",
+        "CUPED",
+        "行为分析",
+        "Clickstream",
+        "HEART",
+        "PULSE",
+        "因果推断",
+        "问卷科学"
       ]
     },
     {
@@ -305,13 +306,11 @@
         "design",
         "product",
         "analytics",
-        "measurement",
-        "Built"
+        "measurement"
       ],
       "keywords": [
         "用户体验度量",
         "产品分析经理",
-        "产品用户体验指标与数据驱动优化专家，覆盖HEART",
         "PULSE",
         "SUPR-Q产品体验框架"
       ]
@@ -345,23 +344,24 @@
       "lifecycle": "published",
       "tags": [
         "design",
-        "evaluation",
-        "Audited",
-        "hundreds",
-        "digital"
+        "ux-audit",
+        "usability",
+        "accessibility",
+        "heuristic-evaluation"
       ],
       "keywords": [
-        "用户体验审计",
-        "启发式评估专家",
-        "数字产品UX审计与可用性启发式评估专家，覆盖Nielsen十大可用性原则",
-        "ISO",
-        "9241-110对话原则"
+        "UX audit",
+        "heuristic evaluation",
+        "cognitive walkthrough",
+        "WCAG 2.2",
+        "severity rating",
+        "remediation"
       ]
     },
     {
       "id": "design-engineering-ux-content-strategy",
       "name": "内容策略(Content Strategy)专家",
-      "description": "跨渠道品牌内容与信息架构策略专家，覆盖内容审计/内容清单、信息架构(IA)/内容建模、多平台内容治理/工作流与内容运营/编辑标准",
+      "description": "跨渠道内容策略与信息架构专家，覆盖内容审计/ROT治理、结构化内容建模、编辑标准、内容生命周期与本地化运营，以可度量方式提升内容可发现性和任务完成率",
       "emoji": "📋",
       "category": "design",
       "subcategory": "",
@@ -384,27 +384,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Content is the substance users came for — you design the strategy that makes it findable, usable, and consistent across every touchpoint",
+      "vibe": "Content is the substance users came for — you build the operating system that keeps it findable, accurate, and maintainable long after launch",
       "lifecycle": "published",
       "tags": [
         "design",
         "content",
         "strategy",
-        "Built",
-        "systems"
+        "information-architecture",
+        "content-governance"
       ],
       "keywords": [
         "内容策略",
-        "Content",
-        "Strategy",
-        "专家",
-        "跨渠道品牌内容与信息架构策略专家，覆盖内容审计"
+        "内容审计",
+        "信息架构",
+        "结构化内容",
+        "内容治理",
+        "编辑标准",
+        "内容生命周期",
+        "本地化",
+        "ROT",
+        "可发现性"
       ]
     },
     {
       "id": "design-engineering-ux-engineer",
       "name": "UX工程师(UX Engineer)",
-      "description": "用户体验工程与前端实现专家，桥接设计与开发，覆盖设计系统组件化实现(Storybook)、CSS架构/Design Tokens、无障碍(A11y)代码实现与原型工程",
+      "description": "设计系统与前端实现工程师，把设计意图落成可访问、可测试、可演进的组件与 Design Tokens，覆盖 React/Vue/Angular 组件库、Storybook 文档、视觉回归与 Core Web Vitals 性能预算",
       "emoji": "🎨",
       "category": "design",
       "subcategory": "",
@@ -425,21 +430,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Designers imagine; UX engineers make it real. You translate design intent into",
+      "vibe": "A design is a promise; production code is where that promise either holds under keyboards, screen readers, slow networks, and time — or quietly breaks",
       "lifecycle": "published",
       "tags": [
         "design",
-        "bridging",
         "engineering",
-        "Built",
-        "systems"
+        "design-systems",
+        "accessibility",
+        "frontend"
       ],
       "keywords": [
-        "UX工程师",
-        "UX",
-        "Engineer",
-        "用户体验工程与前端实现专家，桥接设计与开发，覆盖设计系统组件化实现",
-        "Storybook"
+        "UX工程",
+        "设计系统",
+        "Design Tokens",
+        "组件库",
+        "无障碍实现",
+        "Storybook",
+        "前端性能",
+        "视觉回归",
+        "Core Web Vitals",
+        "设计到代码"
       ]
     },
     {
@@ -465,14 +475,12 @@
         "design",
         "research",
         "operations",
-        "Built",
         "functions"
       ],
       "keywords": [
         "用户研究运营",
         "ResearchOps",
         "专家",
-        "用户研究运营与规模化研究平台专家，覆盖研究招募",
         "参与者管理"
       ]
     },
@@ -514,7 +522,6 @@
       "keywords": [
         "UX写作",
         "内容设计师",
-        "产品界面文案与用户体验写作专家，覆盖按钮",
         "错误",
         "空状态"
       ]
@@ -554,7 +561,6 @@
       "keywords": [
         "Figma设计系统专家",
         "Figma设计系统与协作平台专家",
-        "覆盖组件库",
         "Design",
         "Token"
       ]
@@ -672,7 +678,6 @@
       "keywords": [
         "动效",
         "交互动画设计师",
-        "UI动效与交互反馈设计专家，覆盖微交互",
         "转场动画",
         "加载"
       ]
@@ -744,7 +749,6 @@
       ],
       "keywords": [
         "用户画像走查专家",
-        "从特定角色心理视角模拟网页认知走查，输出结构化CRO报告的专家",
         "Identity",
         "Memory",
         "Core"
@@ -778,7 +782,6 @@
       ],
       "keywords": [
         "设计研究员",
-        "用户研究与设计洞察专家，覆盖用户访谈",
         "情境访谈",
         "问卷调查",
         "量化研究"
@@ -889,7 +892,6 @@
         "design",
         "Research",
         "Objectives",
-        "Methodology",
         "Participant"
       ],
       "keywords": [

@@ -1,7 +1,7 @@
 {
   "category": "infrastructure",
   "agent_count": 111,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "infrastructure-aliyun-architect",
@@ -28,13 +28,11 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "阿里云架构师",
         "阿里云平台架构与解决方案专家",
-        "覆盖飞天平台核心服务",
         "ECS",
         "VPC"
       ]
@@ -64,13 +62,11 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "Ansible自动化专家",
         "Ansible配置管理与自动化专家",
-        "覆盖Ansible",
         "Core",
         "AWX"
       ]
@@ -105,15 +101,13 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "Apache",
         "HTTPD专家",
         "HTTP",
-        "Server运维与优化专家",
-        "覆盖httpd"
+        "Server运维与优化专家"
       ]
     },
     {
@@ -147,7 +141,6 @@
       "keywords": [
         "GitOps部署专家",
         "ArgoCD与GitOps持续部署专家",
-        "覆盖ArgoCD",
         "Application",
         "ApplicationSet"
       ]
@@ -182,14 +175,12 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "Aruba网络专家",
         "Aruba",
         "HPE",
-        "企业网络专家，覆盖CX交换机",
         "AOS-CX"
       ]
     },
@@ -227,7 +218,6 @@
       "keywords": [
         "AWS解决方案架构师",
         "AWS云架构与解决方案专家",
-        "覆盖Well-Architected",
         "Framework六大支柱",
         "核心服务"
       ]
@@ -235,7 +225,7 @@
     {
       "id": "infrastructure-backup-admin",
       "name": "备份与恢复管理员",
-      "description": "企业数据备份与灾难恢复专家，覆盖Veeam/Commvault/Veritas备份方案、磁带/磁盘/云分层备份策略、RPO/RTO合规与恢复演练",
+      "description": "企业数据保护管理员，负责备份策略、不可变存储、磁带/对象存储分层、RPO/RTO 达标与恢复演练验证",
       "emoji": "💾",
       "category": "infrastructure",
       "subcategory": "",
@@ -255,21 +245,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Nobody cares about backups until they need them — and then it's the only thing",
+      "vibe": "A backup is a promise; a restore is the proof. Keep the chain immutable, the catalog recoverable, and the RTO honest.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "managing",
-        "enterprise",
         "backup",
-        "recovery"
+        "disaster-recovery",
+        "data-protection",
+        "ransomware-resilience"
       ],
       "keywords": [
-        "备份与恢复管理员",
-        "企业数据备份与灾难恢复专家，覆盖Veeam",
+        "数据保护",
+        "备份与恢复",
+        "RPO/RTO",
+        "不可变存储",
+        "磁带归档",
+        "Veeam",
         "Commvault",
-        "Veritas备份方案",
-        "磁带"
+        "恢复演练"
       ]
     },
     {
@@ -291,27 +284,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Brother printers are workhorses — they're not the flashiest, but they're reliable, affordable, and if you configure BRAdmin correctly, they'll run for years without anyone noticing they exist",
+      "vibe": "A Brother fleet earns its keep quietly — match the engine to the duty cycle, watch the cost per page, and treat firmware and consumables as controls rather than afterthoughts",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "Technical",
-        "References",
-        "Standards",
-        "Methodology"
+        "printers",
+        "brother",
+        "fleet-management",
+        "print-security"
       ],
       "keywords": [
-        "Brother打印机专家",
         "Brother",
-        "兄弟",
-        "打印机与办公解决方案专家，覆盖激光",
-        "喷墨"
+        "激光打印机",
+        "标签打印机",
+        "BRAdmin Professional",
+        "打印服务器",
+        "网络扫描",
+        "耗材管理",
+        "企业打印管理"
       ]
     },
     {
       "id": "infrastructure-cable-management",
       "name": "综合布线/线缆管理工程师",
-      "description": "数据中心/企业结构化布线专家，覆盖铜缆(Cat6A/8)/光纤(OM4/OS2)布线标准(TIA-568/ISO 11801)、配线架/桥架/管道设计、线缆测试/认证(Fluke)与线缆资产管理(DCIM)",
+      "description": "Structured cabling and cable-management engineer covering Cat6A/Cat8 copper, OM4/OS2 fiber, TIA-568 and ISO 11801 design, field certification, pathways, labeling, and DCIM records",
       "emoji": "🔌",
       "category": "infrastructure",
       "subcategory": "",
@@ -331,21 +327,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every server, every switch, every access point depends on a cable that someone",
+      "vibe": "The network is invisible only when every cable has a home, a label, a test result, and a route someone can trace at 02:00 during an incident.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "structured",
-        "cabling",
-        "data",
-        "centers"
+        "structured-cabling",
+        "data-center",
+        "physical-layer",
+        "dcim"
       ],
       "keywords": [
-        "综合布线",
-        "线缆管理工程师",
-        "数据中心",
-        "企业结构化布线专家，覆盖铜缆",
-        "Cat6A"
+        "structured cabling",
+        "copper and fiber",
+        "Cat6A and Cat8",
+        "OM4 and OS2",
+        "permanent link certification",
+        "cable pathways",
+        "labeling and DCIM",
+        "PoE cabling"
       ]
     },
     {
@@ -380,7 +379,6 @@
       ],
       "keywords": [
         "Cacti监控专家",
-        "Cacti网络流量与性能监控专家，覆盖SNMP",
         "SNMPv3数据采集",
         "RRDtool图形引擎",
         "Spine轮询器"
@@ -419,7 +417,6 @@
         "Canon打印机专家",
         "Canon",
         "佳能",
-        "打印机与影像解决方案专家，覆盖imageRUNNER",
         "imageCLASS"
       ]
     },
@@ -452,12 +449,10 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "Cisco网络专家",
-        "Cisco网络设备专家，覆盖IOS",
         "IOS-XE",
         "NX-OS",
         "Catalyst"
@@ -466,7 +461,7 @@
     {
       "id": "infrastructure-cloud-cost-optimization",
       "name": "云成本/FinOps管理顾问",
-      "description": "多云成本优化与FinOps治理顾问，覆盖AWS/Azure/GCP/阿里云成本分析、RI/SP/Savings Plans购买策略、资源标签/成本分摊(Showback/Chargeback)与云治理自动化",
+      "description": "多云 FinOps 顾问，负责成本可见性、标签分摊、资源优化、承诺折扣组合与单位经济学治理",
       "emoji": "💰",
       "category": "infrastructure",
       "subcategory": "",
@@ -484,19 +479,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every cloud dollar wasted is margin lost — you find the idle resources, optimize",
+      "vibe": "Cloud spend is an engineering output, not a finance surprise. Make it visible per team, per unit, and per decision.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
         "cloud",
-        "financial",
-        "management",
-        "Saved"
+        "finops",
+        "cost-optimization",
+        "governance"
       ],
       "keywords": [
-        "云成本",
-        "FinOps管理顾问",
-        "多云成本优化与FinOps治理顾问，覆盖AWS",
+        "FinOps",
+        "云成本优化",
+        "成本分摊",
+        "承诺折扣",
+        "单位经济学",
+        "AWS",
         "Azure",
         "GCP"
       ]
@@ -522,21 +520,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "If you don't know what servers, applications, and services you have, you can't manage them. You build the CMDB that becomes the single source of truth for IT.",
+      "vibe": "A CMDB is not a database of everything — it is a map of what you run, what it supports, and who owns it; if the map lies, every incident decision inherits the lie",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "configuration",
-        "management",
-        "Built",
-        "CMDBs"
+        "cmdb",
+        "configuration-management",
+        "service-mapping",
+        "data-quality"
       ],
       "keywords": [
         "CMDB",
-        "配置管理数据库专家",
-        "IT配置管理数据库与服务映射专家，覆盖ServiceNow",
         "CSDM",
-        "4.0模型"
+        "ServiceNow",
+        "配置管理",
+        "CI生命周期",
+        "服务映射",
+        "数据质量",
+        "ITOM"
       ]
     },
     {
@@ -561,21 +562,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When the alert fires at 3AM, you're the first responder — triaging, documenting,",
+      "vibe": "When the alert fires at 3AM, you are the first responder — triage with evidence, escalate with a timeline, and leave the next shift a picture it can trust",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "network",
-        "security",
-        "operations",
-        "centers"
+        "security-operations",
+        "monitoring",
+        "incident-triage",
+        "shift-handover"
       ],
       "keywords": [
         "网络安全运营",
         "NOC",
         "SOC",
-        "分析师",
-        "网络与安全运营中心"
+        "告警分诊",
+        "事件升级",
+        "交接班"
       ]
     },
     {
@@ -608,12 +610,10 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "大华服务器专家",
-        "大华智能服务器与云存储专家，覆盖AI服务器",
         "GPU",
         "MLU",
         "视频云存储"
@@ -639,14 +639,12 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "大华安防网络专家",
         "大华",
         "Dahua",
-        "安防系统与网络专家，覆盖IP摄像头",
         "HDCVI"
       ]
     },
@@ -681,7 +679,6 @@
       ],
       "keywords": [
         "数据中心基础设施专家",
-        "数据中心基础设施规划与运维专家，覆盖供配电",
         "UPS",
         "柴油发电",
         "精密空调"
@@ -710,21 +707,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The data center network carries the traffic that runs the internet. You design",
+      "vibe": "The data center network carries the traffic that runs the internet. You design the fabric that connects 100,000 servers at terabits per second.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "designing",
-        "hyperscale",
-        "data",
-        "center"
+        "data-center",
+        "network",
+        "fabric",
+        "evpn"
       ],
       "keywords": [
-        "数据中心网络架构师",
-        "超大规模数据中心网络设计专家，覆盖Spine-Leaf",
-        "Clos",
-        "Fabric架构",
-        "VXLAN"
+        "data center network",
+        "spine-leaf",
+        "Clos fabric",
+        "EVPN",
+        "VXLAN",
+        "RoCEv2",
+        "BGP",
+        "network automation"
       ]
     },
     {
@@ -752,13 +752,11 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "Datadog可观测性专家",
         "Datadog全栈可观测性专家",
-        "覆盖Agent部署与600+集成管理",
         "APM与分布式追踪",
         "Flame"
       ]
@@ -791,14 +789,12 @@
       "tags": [
         "infrastructure",
         "Platforms",
-        "Professional",
         "Scope",
         "Safeguards"
       ],
       "keywords": [
         "Dell服务器专家",
         "Dell",
-        "PowerEdge服务器与超融合专家，覆盖PowerEdge",
         "MX",
         "XR全系列"
       ]
@@ -830,12 +826,10 @@
         "infrastructure",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "桌面运维工程师",
-        "企业桌面运维综合专家，覆盖Windows",
         "macOS双平台",
         "硬件故障诊断与更换",
         "软件部署与许可管理"
@@ -844,7 +838,7 @@
     {
       "id": "infrastructure-devops-platform",
       "name": "DevOps平台/工具链工程师",
-      "description": "DevOps平台与开发者工具链(SDLC)工程专家，覆盖GitLab/GitHub/Bitbucket CI/CD流水线、制品仓库(Artifactory/Nexus/Harbor)、代码质量(SonarQube)与DevSecOps工具链集成",
+      "description": "DevOps 平台工程专家，负责黄金路径、CI/CD、制品与签名、密钥治理、开发者门户与 DORA 度量",
       "emoji": "🔧",
       "category": "infrastructure",
       "subcategory": "",
@@ -863,21 +857,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Developers spend 30% of their time on non-coding tasks — you build the platform and toolchain that automates the rest away",
+      "vibe": "The platform is a product. If the golden path is slower than the workaround, developers will build their own and you have failed.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "building",
-        "developer",
-        "platforms",
-        "Integrated"
+        "devops",
+        "platform-engineering",
+        "ci-cd",
+        "developer-experience"
       ],
       "keywords": [
         "DevOps平台",
-        "工具链工程师",
-        "DevOps平台与开发者工具链",
-        "SDLC",
-        "工程专家，覆盖GitLab"
+        "平台工程",
+        "CI/CD",
+        "黄金路径",
+        "制品管理",
+        "软件供应链",
+        "DORA",
+        "开发者体验"
       ]
     },
     {
@@ -904,17 +901,21 @@
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "end-user",
-        "computing",
-        "Delivered",
-        "virtual"
+        "end-user-computing",
+        "virtual-desktop",
+        "modern-management",
+        "employee-experience"
       ],
       "keywords": [
-        "数字化工作空间",
-        "VDI工程师",
-        "企业终端用户计算与虚拟桌面专家，覆盖Citrix",
-        "VMware",
-        "Horizon"
+        "digital workplace",
+        "VDI",
+        "Azure Virtual Desktop",
+        "Windows 365",
+        "Citrix",
+        "VMware Horizon",
+        "FSLogix",
+        "Intune",
+        "DEX"
       ]
     },
     {
@@ -952,7 +953,6 @@
       "keywords": [
         "容器化平台专家",
         "Docker与容器化平台构建专家",
-        "覆盖OCI容器镜像构建",
         "Dockerfile",
         "多阶段构建"
       ]
@@ -981,15 +981,13 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "ELK",
         "Stack专家",
         "Elastic",
-        "Stack",
-        "日志与数据分析平台专家，覆盖Elasticsearch集群架构与调优"
+        "Stack"
       ]
     },
     {
@@ -1018,17 +1016,20 @@
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "system",
         "firmware",
-        "Brought",
-        "platforms"
+        "platform",
+        "boot",
+        "security"
       ],
       "keywords": [
-        "BIOS",
-        "UEFI固件工程师",
-        "系统固件与平台初始化专家，覆盖UEFI",
-        "BIOS开发",
-        "TianoCore"
+        "UEFI",
+        "EDK II",
+        "coreboot",
+        "ACPI",
+        "SMBIOS",
+        "Secure Boot",
+        "TPM",
+        "firmware update"
       ]
     },
     {
@@ -1095,8 +1096,7 @@
         "infrastructure",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "云计算架构师",
@@ -1109,7 +1109,7 @@
     {
       "id": "infrastructure-engineering-cloud-finops",
       "name": "云成本优化(FinOps)工程师",
-      "description": "云成本管理与FinOps专家，覆盖AWS/Azure/GCP成本分析/优化、预留实例/Savings Plans策略、资源标签/成本归因(Showback/Chargeback)与云治理",
+      "description": "Cloud FinOps engineer covering FOCUS-aligned cost allocation, commitment coverage and utilization, rightsizing, unit economics, anomaly response, and showback or chargeback",
       "emoji": "💰",
       "category": "infrastructure",
       "subcategory": "",
@@ -1128,21 +1128,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Cloud bills grow faster than revenue if nobody's watching. You find the waste,",
+      "vibe": "A cloud bill is an operational log of every engineering decision — my job is to turn it into a forecast, an owner, and a cheaper next decision.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "cloud",
-        "cost",
-        "optimization",
-        "Saved"
+        "finops",
+        "cloud-cost",
+        "governance",
+        "unit-economics"
       ],
       "keywords": [
-        "云成本优化",
         "FinOps",
-        "工程师",
-        "云成本管理与FinOps专家，覆盖AWS",
-        "Azure"
+        "cloud cost allocation",
+        "unit economics",
+        "commitment coverage",
+        "rightsizing",
+        "anomaly detection",
+        "FOCUS billing data",
+        "showback and chargeback"
       ]
     },
     {
@@ -1172,15 +1175,18 @@
         "infrastructure",
         "cloud",
         "migration",
-        "Migrated",
-        "hundreds"
+        "modernization",
+        "finops"
       ],
       "keywords": [
-        "云迁移",
-        "现代化工程师",
-        "应用云迁移与现代化转型专家，覆盖6R迁移策略",
-        "Rehost",
-        "Replatform"
+        "cloud migration",
+        "6R",
+        "rehost",
+        "replatform",
+        "refactor",
+        "wave planning",
+        "landing zone",
+        "FinOps"
       ]
     },
     {
@@ -1215,7 +1221,6 @@
       "keywords": [
         "云原生",
         "Serverless架构师",
-        "云原生应用架构与Serverless计算专家，覆盖Kubernetes",
         "Service",
         "Mesh"
       ]
@@ -1245,11 +1250,7 @@
       "vibe": "If it runs in a container, it runs anywhere. If it runs on Kubernetes, it runs",
       "lifecycle": "published",
       "tags": [
-        "infrastructure",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "infrastructure"
       ],
       "keywords": [
         "容器编排工程师",
@@ -1262,7 +1263,7 @@
     {
       "id": "infrastructure-engineering-data-center-facility",
       "name": "数据中心电气/暖通设计工程师",
-      "description": "数据中心关键设施(电气/暖通)设计专家，覆盖Uptime Tier III/IV设计、双路供配电/柴发/UPS、冷冻水/间接蒸发冷却、列间/液冷与BMS/DCIM",
+      "description": "数据中心关键设施(MEP)工程师，负责供配电、柴发/UPS、冷冻水/液冷、 commissioning 与 PUE/可用性运营",
       "emoji": "🏭",
       "category": "infrastructure",
       "subcategory": "",
@@ -1279,21 +1280,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Data centers are the factories of the digital age — you design the power and cooling that keep the cloud running at 99.995% availability",
+      "vibe": "The cloud sits on switchgear and chilled water. Design the power and heat path so one maintenance event never becomes an outage.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "designing",
-        "data",
-        "center",
-        "Designed"
+        "data-center",
+        "facilities",
+        "power",
+        "cooling"
       ],
       "keywords": [
-        "数据中心电气",
-        "暖通设计工程师",
-        "数据中心关键设施",
-        "电气",
-        "暖通"
+        "数据中心",
+        "MEP",
+        "供配电",
+        "UPS",
+        "冷冻水",
+        "液冷",
+        "PUE",
+        "Uptime Tier"
       ]
     },
     {
@@ -1329,7 +1333,6 @@
       "keywords": [
         "数据中心运营",
         "现场运维经理",
-        "超大规模数据中心现场运营与基础设施运维经理，覆盖7×24基础设施",
         "电气",
         "暖通"
       ]
@@ -1366,7 +1369,6 @@
       "keywords": [
         "数据中心热管理",
         "液冷专家",
-        "高密度数据中心制冷与液冷系统专家，覆盖直接芯片液冷",
         "DLC",
         "浸没式冷却"
       ]
@@ -1441,16 +1443,18 @@
       "tags": [
         "infrastructure",
         "edge",
-        "computing",
-        "architecture",
-        "Designed"
+        "cdn",
+        "distributed-systems",
+        "latency"
       ],
       "keywords": [
-        "边缘计算工程师",
-        "边缘计算与CDN架构专家，覆盖边缘节点",
-        "Edge",
-        "Cloud设计",
-        "MEC多接入边缘计算"
+        "edge computing",
+        "CDN",
+        "MEC",
+        "edge caching",
+        "last mile",
+        "PoP design",
+        "5G edge"
       ]
     },
     {
@@ -1478,17 +1482,19 @@
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "enterprise",
-        "architecture",
-        "Defined",
-        "technology"
+        "enterprise-architecture",
+        "strategy",
+        "portfolio",
+        "governance"
       ],
       "keywords": [
-        "企业架构师",
-        "Enterprise",
-        "Architect",
-        "企业级信息技术架构与战略规划专家，覆盖TOGAF",
-        "Zachman企业架构框架"
+        "enterprise architecture",
+        "TOGAF",
+        "ArchiMate",
+        "capability map",
+        "portfolio rationalization",
+        "technical debt",
+        "architecture governance"
       ]
     },
     {
@@ -1527,7 +1533,6 @@
         "事故指挥官",
         "Incident",
         "Commander",
-        "重大技术事故应急指挥专家，覆盖事故分级",
         "升级机制"
       ]
     },
@@ -1563,11 +1568,7 @@
       "vibe": "Turns production chaos into structured resolution.",
       "lifecycle": "published",
       "tags": [
-        "infrastructure",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "infrastructure"
       ],
       "keywords": [
         "故障响应指挥官",
@@ -1598,21 +1599,19 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When the incident goes from \"my email is slow\" to \"the CEO's email is down,",
+      "vibe": "When the incident goes from \"my email is slow\" to \"the CEO's email is down,\" you have 15 minutes to fix it, the process to coordinate it, and the CMDB to know what's affected",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "IT服务管理",
         "ITIL",
-        "专家",
-        "4服务管理专家，覆盖事件",
-        "问题"
+        "事件管理",
+        "问题管理",
+        "SLA"
       ]
     },
     {
@@ -1640,8 +1639,7 @@
         "infrastructure",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "Kubernetes",
@@ -1677,8 +1675,7 @@
         "infrastructure",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "Linux",
@@ -1691,7 +1688,7 @@
     {
       "id": "infrastructure-engineering-monitoring-engineer",
       "name": "监控告警工程师",
-      "description": "Prometheus、Grafana、可观测性堆栈建设与告警策略设计专家",
+      "description": "监控与告警语义设计专家，覆盖SLI/SLO定义、指标埋点与基数治理、PromQL告警规则、分布式追踪与可观测性数据质量",
       "emoji": "📡",
       "category": "infrastructure",
       "subcategory": "",
@@ -1713,21 +1710,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "You can't fix what you can't see. Good monitoring turns \"it's down\" into \"it's",
+      "vibe": "An alert is a promise that someone should stop what they are doing right now; every page that breaks that promise makes the next one less believable.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "Success",
-        "Metrics",
-        "Expertise",
-        "Approach"
+        "monitoring",
+        "observability",
+        "reliability",
+        "alerting"
       ],
       "keywords": [
-        "监控告警工程师",
-        "Prometheus",
-        "Grafana",
-        "可观测性堆栈建设与告警策略设计专家",
-        "Monitoring"
+        "SLI SLO",
+        "alert design",
+        "burn rate",
+        "instrumentation",
+        "cardinality control",
+        "distributed tracing",
+        "telemetry quality",
+        "OpenTelemetry"
       ]
     },
     {
@@ -1764,7 +1764,6 @@
       ],
       "keywords": [
         "可观测性架构师",
-        "企业级可观测性平台架构专家，覆盖OpenTelemetry标准化采集",
         "LGTM",
         "Mimir",
         "Tempo"
@@ -1803,7 +1802,6 @@
       ],
       "keywords": [
         "可观测性工程师",
-        "可观测性与监控工程专家，覆盖OpenTelemetry",
         "Prometheus",
         "Grafana",
         "LGTM技术栈"
@@ -1830,27 +1828,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Build the platform that builds the products — every hour of developer toil you",
+      "vibe": "Build the platform that builds the products — every hour of developer toil you eliminate compounds across the entire engineering org",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "平台工程师",
         "平台工程与开发者体验",
         "DX",
-        "专家，覆盖内部开发者平台",
+        "内部开发者平台",
         "IDP"
       ]
     },
     {
       "id": "infrastructure-engineering-site-reliability-architect",
       "name": "站点可靠性架构师(SRE Architect)",
-      "description": "高级SRE与系统可靠性架构师，覆盖大规模分布式系统可靠性设计、混沌工程/故障注入、容量规划/弹性伸缩、灾难恢复架构与SLO驱动运维",
+      "description": "分布式系统可靠性架构师，负责 SLO 与依赖建模、超时/重试/隔离设计、容量与多区域容灾、混沌验证",
       "emoji": "🏗️",
       "category": "infrastructure",
       "subcategory": "",
@@ -1867,27 +1863,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Reliability is a feature, not an accident — you architect systems that stay",
+      "vibe": "Users experience journeys, not servers. Find every synchronous dependency, give it a deadline, and prove what happens when it disappears.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "designing",
-        "reliable",
-        "distributed",
-        "systems"
+        "sre",
+        "reliability-architecture",
+        "distributed-systems",
+        "disaster-recovery"
       ],
       "keywords": [
-        "站点可靠性架构师",
-        "SRE",
-        "Architect",
-        "高级SRE与系统可靠性架构师，覆盖大规模分布式系统可靠性设计",
-        "混沌工程"
+        "站点可靠性架构",
+        "分布式系统",
+        "SLO",
+        "容灾架构",
+        "混沌工程",
+        "容量规划",
+        "故障隔离",
+        "可靠性设计"
       ]
     },
     {
       "id": "infrastructure-engineering-site-reliability-automation",
       "name": "SRE自动化/运维开发工程师",
-      "description": "SRE运维自动化与平台开发专家，覆盖Terraform/Pulumi基础设施即代码(IaC)、GitOps(ArgoCD/Flux)、自愈系统(Self-Healing)、ChatOps与运维数据平台",
+      "description": "SRE运维自动化与平台开发专家，覆盖Terraform/Pulumi基础设施即代码(IaC)、GitOps(ArgoCD/Flux)、自愈系统(Self-Healing)、策略即代码与ChatOps运维工具链",
       "emoji": "🛠️",
       "category": "infrastructure",
       "subcategory": "",
@@ -1907,21 +1906,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "If you have to do it twice, automate it. If you have to do it at 3AM, automate it first. You build the automation that keeps systems running while you sleep.",
+      "vibe": "If you have to do it twice, automate it; if you have to do it at 03:00, automate it first and make sure the rollback is faster than the outage.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
         "automation",
-        "Built",
+        "platform-engineering",
         "self-service",
-        "platforms"
+        "reliability"
       ],
       "keywords": [
-        "SRE自动化",
-        "运维开发工程师",
-        "SRE运维自动化与平台开发专家，覆盖Terraform",
-        "Pulumi基础设施即代码",
-        "IaC"
+        "SRE automation",
+        "infrastructure as code",
+        "GitOps",
+        "self-healing",
+        "policy as code",
+        "runbook automation",
+        "ChatOps",
+        "drift detection"
       ]
     },
     {
@@ -1952,7 +1954,6 @@
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "Framework",
         "Observability",
         "Stack",
         "Incident"
@@ -1968,7 +1969,7 @@
     {
       "id": "infrastructure-engineering-sre-manager",
       "name": "SRE/基础设施工程经理",
-      "description": "SRE与基础设施工程团队管理者，覆盖SRE/SysAdmin/Network团队领导、生产环境可用性责任、基础设施OKR/SLO/SLI体系与ITIL变更/事故/问题管理",
+      "description": "SRE 团队与可靠性治理负责人，负责 SLO/错误预算政策、值班与事故机制、toil 削减、容量与人才发展",
       "emoji": "🛡️",
       "category": "infrastructure",
       "subcategory": "",
@@ -1985,21 +1986,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "You manage the team that keeps production running — balancing reliability with",
+      "vibe": "Reliability is built by a healthy team, a negotiated SLO, and an error budget people actually respect. Protect all three.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "leading",
-        "teams",
-        "Managed",
-        "24/7"
+        "sre",
+        "engineering-management",
+        "reliability-governance",
+        "on-call"
       ],
       "keywords": [
-        "SRE",
-        "基础设施工程经理",
-        "SRE与基础设施工程团队管理者，覆盖SRE",
-        "SysAdmin",
-        "Network团队领导"
+        "SRE管理",
+        "SLO",
+        "错误预算",
+        "值班",
+        "事故管理",
+        "toil",
+        "团队发展"
       ]
     },
     {
@@ -2023,21 +2026,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Epson doesn't use toner cartridges — the PrecisionCore printhead and EcoTank system fundamentally change the economics of printing",
+      "vibe": "Epson replaces the toner cartridge with a printhead you must keep alive — no heat, no drum, but ink that settles, clogs, and punishes neglect",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "Technical",
-        "References",
-        "Standards",
-        "Methodology"
+        "printers",
+        "epson",
+        "inkjet",
+        "color-management"
       ],
       "keywords": [
-        "Epson打印机专家",
         "Epson",
-        "爱普生",
-        "打印机与影像解决方案专家，覆盖WorkForce",
-        "EcoTank"
+        "EcoTank",
+        "SureColor",
+        "微压电",
+        "PrecisionCore",
+        "Epson Connect",
+        "ESC/POS",
+        "色彩管理"
       ]
     },
     {
@@ -2110,7 +2116,6 @@
       ],
       "keywords": [
         "Graylog日志管理专家",
-        "Graylog集中式日志管理与SIEM平台专家，覆盖集群架构设计",
         "输入",
         "提取器",
         "流规则引擎"
@@ -2144,14 +2149,12 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "H3C网络专家",
         "H3C",
         "新华三",
-        "网络设备专家，覆盖Comware",
         "OS"
       ]
     },
@@ -2182,7 +2185,7 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When a city has 50,000 cameras, someone needs to store that video and run AI",
+      "vibe": "When a city has 50,000 cameras, someone needs to store that video and run AI on it — you build the server infrastructure that makes safe-city projects possible",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
@@ -2193,10 +2196,10 @@
       ],
       "keywords": [
         "海康威视服务器专家",
-        "海康威视智能分析服务器与视频云存储专家，覆盖AI服务器",
-        "GPU",
-        "Atlas",
-        "视频云存储"
+        "视频云存储",
+        "AI服务器",
+        "DeepinMind",
+        "视频监控"
       ]
     },
     {
@@ -2232,12 +2235,10 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "海康威视安防网络专家",
-        "海康威视安防系统与网络专家，覆盖IP摄像头",
         "NVR",
         "DVR",
         "视频管理平台"
@@ -2266,23 +2267,19 @@
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "HP打印机专家",
         "HP",
         "惠普",
-        "打印机与打印解决方案专家，覆盖LaserJet",
         "Enterprise"
       ]
     },
     {
       "id": "infrastructure-hpe-server",
       "name": "HPE服务器专家",
-      "description": "HPE ProLiant/ Synergy服务器与存储专家，覆盖iLO/OneView、Apollo HPC、SimpliVity HCI、Nimble/Alletra",
+      "description": "HPE ProLiant/ Synergy服务器与存储专家，覆盖iLO/OneView、Apollo HPC、SimpliVity HCI、Nimble/Alletra 存储与GreenLake即服务",
       "emoji": "🟢",
       "category": "infrastructure",
       "subcategory": "",
@@ -2301,7 +2298,7 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "HPE builds servers that outlast their warranties by a decade — you know how",
+      "vibe": "HPE builds servers that outlast their warranties by a decade — you know how to spec them, deploy them, and keep them running when the iLO says everything is fine but the OS disagrees",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
@@ -2312,10 +2309,10 @@
       ],
       "keywords": [
         "HPE服务器专家",
-        "HPE",
-        "ProLiant",
-        "Synergy服务器与存储专家，覆盖iLO",
-        "OneView"
+        "HPE ProLiant",
+        "iLO",
+        "OneView",
+        "GreenLake"
       ]
     },
     {
@@ -2346,12 +2343,10 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "华为网络专家",
-        "华为网络设备专家，覆盖VRP",
         "S系列交换机",
         "NetEngine",
         "AR路由器"
@@ -2423,21 +2418,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Identity is the new perimeter — you design the systems that determine who can",
+      "vibe": "Identity is the new perimeter — every login is a policy decision, and every account that survives its owner is a door left open",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "access",
-        "management",
-        "Designed",
-        "enterprises"
+        "identity",
+        "access-management",
+        "federation",
+        "privileged-access"
       ],
       "keywords": [
-        "企业身份与访问管理",
+        "身份与访问管理",
         "IAM",
-        "工程师",
-        "企业IAM",
-        "身份治理专家，覆盖Azure"
+        "单点登录",
+        "SSO",
+        "多因素认证",
+        "MFA",
+        "JML",
+        "PAM",
+        "SCIM",
+        "OIDC"
       ]
     },
     {
@@ -2480,7 +2480,6 @@
         "浪潮思科网络专家",
         "浪潮思科",
         "Inspur-Cisco",
-        "合资网络设备专家，覆盖浪潮CN系列交换机",
         "路由器"
       ]
     },
@@ -2516,13 +2515,11 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "服务网格架构师",
         "Istio服务网格与企业级微服务治理专家",
-        "覆盖Istio控制面",
         "istiod",
         "与数据面"
       ]
@@ -2552,17 +2549,19 @@
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "asset",
-        "management",
-        "Managed",
-        "lifecycles"
+        "itam",
+        "sam",
+        "cmdb",
+        "compliance"
       ],
       "keywords": [
-        "IT资产管理",
-        "ITAM",
-        "专家",
-        "IT资产全生命周期管理专家，覆盖硬件",
-        "软件资产发现"
+        "IT asset management",
+        "software asset management",
+        "license compliance",
+        "CMDB",
+        "discovery",
+        "hardware lifecycle",
+        "SaaS spend"
       ]
     },
     {
@@ -2589,21 +2588,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When the CEO's email is down, nobody cares about strategy. You keep everything",
+      "vibe": "Uptime is the entry ticket; the real job is choosing which infrastructure bets the business can afford to keep.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "leading",
-        "across",
-        "enterprise",
-        "environments"
+        "leadership",
+        "governance",
+        "finops",
+        "service-management"
       ],
       "keywords": [
         "IT基础设施总监",
-        "企业IT基础设施最高负责人，覆盖数据中心",
-        "服务器",
-        "网络",
-        "存储全栈规划"
+        "IT portfolio governance",
+        "infrastructure budget",
+        "FinOps",
+        "service management",
+        "data center strategy",
+        "vendor concentration",
+        "disaster recovery"
       ]
     },
     {
@@ -2642,8 +2644,7 @@
         "Jenkins",
         "CI",
         "CD专家",
-        "Jenkins持续集成与交付专家",
-        "覆盖Controller"
+        "Jenkins持续集成与交付专家"
       ]
     },
     {
@@ -2675,13 +2676,11 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "跳板机",
         "堡垒机专家",
-        "跳板机与堡垒机架构专家，覆盖OpenSSH",
         "Bastion",
         "Teleport"
       ]
@@ -2721,7 +2720,6 @@
       "keywords": [
         "Kubernetes集群管理专家",
         "Kubernetes生产集群架构与运维专家",
-        "覆盖集群架构设计",
         "控制面",
         "etcd"
       ]
@@ -2761,7 +2759,6 @@
       ],
       "keywords": [
         "Linux系统专家",
-        "Linux系统管理与内核优化专家，覆盖RHEL",
         "Rocky",
         "Ubuntu",
         "Debian"
@@ -2800,8 +2797,7 @@
         "大型机",
         "主机工程师",
         "IBM",
-        "OS大型机系统工程师",
-        "覆盖z"
+        "OS大型机系统工程师"
       ]
     },
     {
@@ -2834,13 +2830,11 @@
         "infrastructure",
         "Technologies",
         "Success",
-        "Metrics",
-        "Methodology"
+        "Metrics"
       ],
       "keywords": [
         "Microsoft",
         "365与Exchange专家",
-        "365云服务与Exchange专家，覆盖Exchange",
         "Online",
         "混合部署"
       ]
@@ -2865,21 +2859,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "If you don't know your system is broken before users tell you, your monitoring",
+      "vibe": "A dashboard is not monitoring until it is collected, stored, evaluated, routed, and owned by someone who knows what to do at 03:00.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
         "monitoring",
         "observability",
-        "Built",
-        "platforms"
+        "platform-engineering",
+        "on-call"
       ],
       "keywords": [
-        "系统监控",
-        "告警管理工程师",
-        "IT系统监控与可观测性运维专家，覆盖Zabbix",
-        "Nagios",
-        "Prometheus"
+        "monitoring platform administration",
+        "Zabbix",
+        "Prometheus",
+        "Grafana",
+        "Alertmanager",
+        "alert routing",
+        "observability cost",
+        "runbook coverage"
       ]
     },
     {
@@ -2909,8 +2906,7 @@
         "infrastructure",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "Microsoft",
@@ -2986,14 +2982,12 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "Nagios监控专家",
         "Nagios",
         "XI",
-        "Centreon监控平台专家，覆盖NRPE",
         "NSCA"
       ]
     },
@@ -3027,12 +3021,10 @@
         "infrastructure",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "网络架构师",
-        "企业级网络架构设计专家，覆盖路由交换",
         "SDN",
         "NFV",
         "数据中心网络"
@@ -3073,7 +3065,6 @@
       ],
       "keywords": [
         "网络自动化工程师",
-        "网络自动化与可编程网络专家，覆盖Ansible",
         "Terraform网络编排",
         "CI",
         "CD网络管道"
@@ -3109,12 +3100,10 @@
         "infrastructure",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "云网络工程师",
-        "云网络架构与运维专家，覆盖AWS",
         "VPC",
         "Azure",
         "VNet"
@@ -3148,27 +3137,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The network is the foundation everything else depends on — invisible when it",
+      "vibe": "The network is invisible only when the operating model behind it is sound; my job is to fund the resilience nobody notices until it is gone.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "leading",
+        "leadership",
         "network",
-        "organizations",
-        "across"
+        "governance",
+        "vendor-management"
       ],
       "keywords": [
-        "网络部门总监",
-        "企业",
-        "运营商网络部门最高负责人，覆盖网络架构",
-        "运营策略",
-        "团队"
+        "network director",
+        "network strategy",
+        "vendor management",
+        "network budget",
+        "service availability",
+        "operating model",
+        "capacity planning",
+        "M&A integration"
       ]
     },
     {
       "id": "infrastructure-network-engineering-engineering-architect-networks",
       "name": "企业网络架构与治理专家",
-      "description": "全球企业网络架构设计和治理专家，覆盖SD-WAN/SASE/SSE架构、零信任网络(ZTNA)、混合云网络设计、网络自动化/编排与企业网络策略",
+      "description": "企业网络架构与治理专家，覆盖园区/数据中心/WAN/云互联设计、SD-WAN/SASE、EVPN-VXLAN、分段与零信任、HLD/LLD 与架构治理",
       "emoji": "🌐",
       "category": "infrastructure",
       "subcategory": "",
@@ -3189,27 +3181,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The enterprise network connects everything — offices, clouds, data centers,",
+      "vibe": "A network diagram is a promise about failure domains; my job is to make sure the promise survives a fiber cut, a bad route, and the next acquisition.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
         "enterprise",
         "network",
         "architecture",
-        "Designed"
+        "standards"
       ],
       "keywords": [
-        "企业网络架构与治理专家",
-        "全球企业网络架构设计和治理专家，覆盖SD-WAN",
+        "enterprise network architecture",
+        "SD-WAN",
         "SASE",
-        "SSE架构",
-        "零信任网络"
+        "EVPN-VXLAN",
+        "zero trust networking",
+        "network segmentation",
+        "HLD LLD",
+        "network standards"
       ]
     },
     {
       "id": "infrastructure-network-engineering-engineering-network-protocol",
       "name": "网络协议栈开发工程师",
-      "description": "TCP/IP网络协议栈与数据平面开发专家，覆盖Linux内核网络子系统/eBPF/XDP、DPDK高性能数据平面、QUIC/HTTP3协议实现与SDN数据平面(OpenFlow/P4)",
+      "description": "Network protocol stack and data-plane engineer covering Linux TCP/IP, eBPF/XDP, AF_XDP, DPDK, QUIC, P4/OpenFlow, congestion control, and line-rate packet processing",
       "emoji": "📨",
       "category": "infrastructure",
       "subcategory": "",
@@ -3230,27 +3225,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every packet that crosses the internet passes through a protocol stack someone",
+      "vibe": "The packet path is a sequence of engineering decisions measured in nanoseconds — I write the code and the tests that keep those decisions correct at line rate.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "network",
-        "protocol",
-        "development",
-        "Built"
+        "networking",
+        "protocols",
+        "data-plane",
+        "ebpf"
       ],
       "keywords": [
-        "网络协议栈开发工程师",
-        "TCP",
-        "IP网络协议栈与数据平面开发专家，覆盖Linux内核网络子系统",
-        "eBPF",
-        "XDP"
+        "network protocol stack",
+        "eBPF and XDP",
+        "AF_XDP",
+        "DPDK",
+        "QUIC and HTTP/3",
+        "P4 and OpenFlow",
+        "congestion control",
+        "packet processing performance"
       ]
     },
     {
       "id": "infrastructure-network-engineering-engineering-optical-fiber-sensing",
       "name": "光纤传感/分布式光纤监测工程师",
-      "description": "分布式光纤传感(DFOS)与光电检测专家，覆盖DTS拉曼/布里渊(BOTDR/BOTDA)/DAS瑞利分布式光纤传感、光纤光栅(FBG)/干涉仪(Michelson/Fabry-Perot)点式传感与结构健康监测(SHM)/管道泄漏/周界安防",
+      "description": "Distributed and point fiber-optic sensing engineer covering DTS, DAS, BOTDR/BOTDA, FBG, OFDR, strain-transfer design, calibration, and structural health monitoring",
       "emoji": "🔦",
       "category": "infrastructure",
       "subcategory": "",
@@ -3271,27 +3269,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A hair-thin glass fiber stretched for kilometers can sense temperature, strain,",
+      "vibe": "A fiber is not only a cable — it is a continuous sensor, and every centimeter of it has a physical story to tell if the measurement is calibrated and installed correctly.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "fiber",
-        "optic",
-        "sensing",
-        "Deployed"
+        "fiber-sensing",
+        "dfos",
+        "shm",
+        "monitoring"
       ],
       "keywords": [
-        "光纤传感",
-        "分布式光纤监测工程师",
-        "分布式光纤传感",
-        "DFOS",
-        "与光电检测专家，覆盖DTS拉曼"
+        "distributed fiber sensing",
+        "DTS",
+        "DAS",
+        "BOTDR and BOTDA",
+        "FBG",
+        "structural health monitoring",
+        "pipeline leak detection",
+        "strain and temperature measurement"
       ]
     },
     {
       "id": "infrastructure-network-engineering-engineering-optical-network-design",
       "name": "光学网络/光互连设计工程师",
-      "description": "数据中心光互连与光子集成(PIC)设计专家，覆盖硅光子/InP光子集成、光模块(400G/800G/1.6T Pluggable/CPO)、相干光通信与光背板/片上光互连",
+      "description": "Data-center optical interconnect and photonic integration designer covering 400G/800G/1.6T pluggables, coherent links, silicon photonics, CPO, and optical link budgets",
       "emoji": "💡",
       "category": "infrastructure",
       "subcategory": "",
@@ -3312,21 +3313,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Copper has limits; light doesn't. You design the optical interconnects that",
+      "vibe": "Light is the only practical way to move a terabit across a hall without melting the copper — you design the link that keeps every photon accounted for.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
         "optical",
-        "communications",
-        "Designed",
-        "high-speed"
+        "interconnect",
+        "datacenter",
+        "photonics"
       ],
       "keywords": [
-        "光学网络",
-        "光互连设计工程师",
-        "数据中心光互连与光子集成",
-        "PIC",
-        "设计专家，覆盖硅光子"
+        "optical interconnect",
+        "data center optics",
+        "800G and 1.6T",
+        "silicon photonics",
+        "coherent transmission",
+        "co-packaged optics",
+        "link budget",
+        "DWDM"
       ]
     },
     {
@@ -3347,20 +3351,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating network-engineering specialists into coherent multi-agent workflows",
+      "vibe": "A network is a promise about reachability — if the path cannot be drawn, the change cannot be approved.",
       "tags": [
         "infrastructure",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "networking",
+        "cloud",
+        "security",
+        "multi-agent-coordination"
       ],
       "keywords": [
-        "Network",
-        "Engineering",
-        "Multi-Agent",
-        "Coordinator",
-        "Coordinates"
+        "network-engineering",
+        "routing-switching",
+        "sdn",
+        "network-automation",
+        "zero-trust"
       ]
     },
     {
@@ -3399,7 +3403,6 @@
       ],
       "keywords": [
         "网络运维工程师",
-        "网络运维与排障专家，覆盖路由器",
         "交换机",
         "防火墙日常运维",
         "故障排查"
@@ -3408,7 +3411,7 @@
     {
       "id": "infrastructure-network-engineering-satellite",
       "name": "卫星通信/Starlink网络工程师",
-      "description": "卫星通信与宽带星座网络专家，覆盖LEO/MEO/GEO卫星通信链路、星地网关/地面段、相控阵天线与卫星互联网宽带接入",
+      "description": "Broadband satellite and NGSO constellation network engineer covering LEO/MEO/GEO link budgets, DVB-S2X, ground gateways, phased arrays, rain fade, and spectrum coordination",
       "emoji": "🛰️",
       "category": "infrastructure",
       "subcategory": "",
@@ -3428,21 +3431,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The internet from space — once science fiction, now a constellation of thousands",
+      "vibe": "A satellite link is a budget written in decibels and paid for in geometry — every handover, raindrop, and degree of elevation changes the bill.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
         "satellite",
         "communications",
-        "Designed",
-        "ground"
+        "ground-segment",
+        "ngso"
       ],
       "keywords": [
-        "卫星通信",
-        "Starlink网络工程师",
-        "卫星通信与宽带星座网络专家，覆盖LEO",
-        "MEO",
-        "GEO卫星通信链路"
+        "satellite broadband",
+        "LEO constellation",
+        "link budget",
+        "DVB-S2X",
+        "ground segment",
+        "phased array",
+        "rain fade",
+        "spectrum coordination"
       ]
     },
     {
@@ -3473,14 +3479,12 @@
         "infrastructure",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "统一通信工程师",
         "VoIP与统一通信",
         "UC",
-        "专家，覆盖SIP中继",
         "交换"
       ]
     },
@@ -3511,14 +3515,11 @@
       "tags": [
         "infrastructure",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "无线与移动网络工程师",
         "无线",
-        "移动网络规划优化专家，覆盖WiFi设计",
         "勘测",
         "排障"
       ]
@@ -3561,7 +3562,6 @@
       "keywords": [
         "Nginx专家",
         "Nginx高性能Web服务器与反向代理专家",
-        "覆盖Nginx",
         "OSS",
         "Nginx"
       ]
@@ -3593,12 +3593,10 @@
         "infrastructure",
         "Technologies",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "Nutanix超融合专家",
-        "Nutanix超融合与云平台专家，覆盖AOS",
         "AHV",
         "Prism",
         "Central"
@@ -3628,17 +3626,14 @@
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
-        "Office",
-        "Microsoft",
-        "365专家",
-        "365办公套件专家，覆盖Word",
-        "Excel"
+        "Office 365",
+        "Microsoft 365",
+        "Power Automate",
+        "Excel",
+        "Teams"
       ]
     },
     {
@@ -3668,7 +3663,6 @@
         "OpenNMS监控专家",
         "OpenNMS",
         "Horizon",
-        "Meridian网络监控平台专家，覆盖自动发现与拓扑映射",
         "SNMP"
       ]
     },
@@ -3707,7 +3701,6 @@
         "Oracle",
         "DBA专家",
         "Oracle数据库管理专家",
-        "覆盖19c",
         "21c"
       ]
     },
@@ -3747,7 +3740,6 @@
       ],
       "keywords": [
         "PowerShell与Windows自动化专家",
-        "PowerShell自动化与脚本专家，覆盖PowerShell",
         "7.x",
         "DSC配置管理",
         "自动化编排"
@@ -3779,15 +3771,10 @@
         "infrastructure",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
-        "打印机通用运维工程师",
-        "打印机通用运维与技术支持专家，覆盖多品牌",
-        "HP",
-        "Epson",
-        "Canon"
+        "打印机通用运维工程师"
       ]
     },
     {
@@ -3825,7 +3812,6 @@
       "keywords": [
         "RabbitMQ消息队列专家",
         "RabbitMQ消息中间件架构与运维专家",
-        "覆盖集群架构与高可用",
         "Classic",
         "Mirrored"
       ]
@@ -3857,12 +3843,10 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "锐捷网络专家",
-        "锐捷网络设备专家，覆盖RGOS交换机",
         "路由器",
         "极简园区网方案",
         "数据中心"
@@ -3897,14 +3881,12 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "深信服安全专家",
         "深信服",
         "Sangfor",
-        "安全与云IT专家，覆盖下一代防火墙",
         "NGAF"
       ]
     },
@@ -3940,14 +3922,13 @@
         "SAP技术专家",
         "SAP",
         "Basis与ABAP技术专家",
-        "覆盖SAP",
         "4HANA架构部署与迁移"
       ]
     },
     {
       "id": "infrastructure-service-desk-manager",
       "name": "IT服务台/ITSM经理",
-      "description": "IT服务台与IT服务管理(ITSM)运营专家，覆盖ServiceNow/Jira Service Management、ITIL 4事件/请求/问题管理、服务水平(SLA/OLA)管理与服务台KPI",
+      "description": "IT 服务台与 ITSM 运营管理者，负责服务目录、优先级与 SLA、排班预测、知识管理、座席质量与持续改进",
       "emoji": "🎧",
       "category": "infrastructure",
       "subcategory": "",
@@ -3964,21 +3945,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When someone's laptop won't start, their email won't send, or their password won't work — your team answers the call. You run the front line of IT.",
+      "vibe": "The service desk is where IT meets a bad day. Resolve fast, communicate clearly, and never let a metric hide a broken experience.",
       "lifecycle": "published",
       "tags": [
         "infrastructure",
-        "managing",
-        "service",
-        "desks",
-        "Built"
+        "service-desk",
+        "itsm",
+        "support-operations",
+        "people-management"
       ],
       "keywords": [
         "IT服务台",
-        "ITSM经理",
-        "IT服务台与IT服务管理",
         "ITSM",
-        "运营专家，覆盖ServiceNow"
+        "SLA",
+        "首次解决率",
+        "知识管理",
+        "排班预测",
+        "服务质量"
       ]
     },
     {
@@ -4011,7 +3994,6 @@
       "keywords": [
         "Splunk平台专家",
         "Splunk企业级日志管理与SIEM平台专家",
-        "覆盖分布式架构",
         "Indexer",
         "Search"
       ]
@@ -4047,7 +4029,6 @@
       ],
       "keywords": [
         "企业存储与备份专家",
-        "企业存储与数据保护专家，覆盖SAN",
         "NAS",
         "DAS存储架构",
         "群晖"
@@ -4080,14 +4061,12 @@
         "infrastructure",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "Terraform",
         "IaC专家",
         "Terraform基础设施即代码专家",
-        "覆盖HCL模块化设计与Monorepo策略",
         "Provider生态"
       ]
     },
@@ -4118,12 +4097,10 @@
         "infrastructure",
         "Platforms",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "TP-Link网络专家",
-        "TP-Link企业网络设备专家，覆盖JetStream交换机",
         "Omada",
         "SDN控制器",
         "商用路由器与WiFi"
@@ -4160,14 +4137,12 @@
         "infrastructure",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "Visio",
         "IT架构绘图专家",
         "Microsoft",
-        "Visio与IT架构绘图专家，覆盖网络拓扑图",
         "数据中心架构图"
       ]
     },
@@ -4209,7 +4184,6 @@
         "VMware虚拟化专家",
         "VMware",
         "vSphere",
-        "数据中心虚拟化专家，覆盖ESXi",
         "vCenter"
       ]
     },
@@ -4248,7 +4222,6 @@
       ],
       "keywords": [
         "Windows桌面管理专家",
-        "Windows桌面与终端管理专家，覆盖Windows",
         "11部署与镜像",
         "Intune",
         "Autopilot现代管理"
@@ -4284,14 +4257,12 @@
         "infrastructure",
         "Technologies",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "Windows",
         "Server与AD专家",
         "Server与Active",
-        "Directory专家，覆盖AD",
         "DS"
       ]
     },
@@ -4331,7 +4302,6 @@
         "Zabbix监控专家",
         "Zabbix",
         "6.x",
-        "7.x企业级监控专家，覆盖分布式架构设计",
         "Server"
       ]
     }

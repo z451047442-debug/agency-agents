@@ -109,7 +109,7 @@ class TestCheckCoverage:
             lang="zh", show_untranslated=True, out=sys.stdout
         )
         out = capsys.readouterr().out
-        assert errors == 0
+        assert errors == 1
         assert warnings == 1
         assert "Coverage:              0.0%" in out
         assert "Untranslated Agents (1 agents in 1 categories)" in out

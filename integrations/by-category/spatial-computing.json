@@ -1,12 +1,12 @@
 {
   "category": "spatial-computing",
   "agent_count": 16,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "spatial-computing-3d-asset-artist",
       "name": "3D资产艺术家",
-      "description": "3D资产与数字内容创作专家，覆盖建模/雕刻、PBR材质、UV展开、LOD优化与跨引擎资产管线",
+      "description": "3D资产与数字内容创作专家，覆盖建模/雕刻、PBR材质、UV与纹素密度、LOD/碰撞优化与跨引擎资产管线",
       "emoji": "💎",
       "category": "spatial-computing",
       "subcategory": "",
@@ -23,21 +23,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every polygon counts — you build the 3D worlds users step into, optimizing beauty",
+      "vibe": "Every polygon and every texel is a budget line — you build assets that look inevitable in context and still fit the frame.",
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "Outputs",
-        "Specification",
-        "Success",
-        "Metrics"
+        "3d",
+        "asset-pipeline",
+        "pbr",
+        "optimization"
       ],
       "keywords": [
-        "3D资产艺术家",
-        "3D资产与数字内容创作专家，覆盖建模",
-        "雕刻",
-        "PBR材质",
-        "UV展开"
+        "3D asset",
+        "PBR",
+        "UV layout",
+        "texel density",
+        "LOD",
+        "glTF",
+        "USD",
+        "game-ready"
       ]
     },
     {
@@ -66,12 +69,10 @@
         "spatial-computing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "AR滤镜与体验创作者",
-        "AR滤镜与增强现实体验创作专家，覆盖Spark",
         "AR",
         "Meta",
         "Camera"
@@ -80,7 +81,7 @@
     {
       "id": "spatial-computing-director",
       "name": "空间计算/XR总监",
-      "description": "空间计算与XR业务最高负责人，覆盖AR/VR/MR产品策略、空间交互设计、3D内容生态、硬件/软件平台路线图与沉浸式体验创新",
+      "description": "空间计算与XR业务最高负责人，覆盖AR/VR/MR产品策略、平台路线图、3D内容生态、硬件/软件组合管理、开发者生态与沉浸式体验创新的商业与组织决策",
       "emoji": "🥽",
       "category": "spatial-computing",
       "subcategory": "",
@@ -99,21 +100,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The next computing platform is spatial — you lead the team building experiences",
+      "vibe": "The next computing platform is spatial — but platforms are won by developer economics and retained users, not by launch-day demos.",
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "leading",
-        "spatial",
-        "computing",
-        "teams"
+        "leadership",
+        "platform-strategy",
+        "portfolio",
+        "ecosystem"
       ],
       "keywords": [
-        "空间计算",
-        "XR总监",
-        "空间计算与XR业务最高负责人，覆盖AR",
-        "VR",
-        "MR产品策略"
+        "XR strategy",
+        "spatial computing portfolio",
+        "platform economics",
+        "developer ecosystem",
+        "hardware roadmap",
+        "AR VR MR",
+        "P&L",
+        "build buy partner",
+        "governance",
+        "unit economics"
       ]
     },
     {
@@ -137,21 +143,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The metaverse isn't a place — it's a moment when digital life feels more meaningful",
+      "vibe": "A world becomes a metaverse only when people return for each other, not for the scenery — you design the social gravity.",
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "virtual",
-        "worlds",
-        "social",
-        "platforms"
+        "virtual-worlds",
+        "social-platforms",
+        "identity",
+        "economy"
       ],
       "keywords": [
-        "虚拟世界",
-        "元宇宙体验设计师",
-        "沉浸式虚拟世界与社交元宇宙体验设计专家，覆盖虚拟空间",
-        "世界构建",
-        "World"
+        "metaverse",
+        "persistent worlds",
+        "avatar identity",
+        "social presence",
+        "UGC moderation",
+        "virtual economy",
+        "OpenXR",
+        "WebXR",
+        "VRM",
+        "cross-platform"
       ]
     },
     {
@@ -177,21 +188,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Turning 2D photos into 3D worlds — you build the algorithms that let machines",
+      "vibe": "Turning 2D pixels into metric 3D space — you build the perception stack that lets a machine know where it is, what surrounds it, and how confident it should be.",
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "computer",
-        "vision",
-        "spatial",
-        "computing"
+        "computer-vision",
+        "spatial-perception",
+        "3d-reconstruction",
+        "slam"
       ],
       "keywords": [
-        "空间感知",
-        "3D重建工程师",
-        "空间感知与三维重建专家，覆盖多视图几何",
+        "3D reconstruction",
         "SfM",
-        "Structure"
+        "NeRF",
+        "3D Gaussian Splatting",
+        "SLAM",
+        "LiDAR",
+        "depth estimation",
+        "multi-view geometry",
+        "point cloud",
+        "sensor calibration"
       ]
     },
     {
@@ -219,7 +235,6 @@
       "tags": [
         "spatial-computing",
         "development",
-        "Built",
         "apps",
         "SDKs"
       ],
@@ -227,14 +242,13 @@
         "增强现实",
         "AR",
         "开发工程师",
-        "增强现实应用开发专家，覆盖ARKit",
         "ARCore"
       ]
     },
     {
       "id": "spatial-computing-engineering-virtual-reality",
       "name": "VR虚拟现实开发工程师",
-      "description": "虚拟现实(VR)应用与沉浸式体验开发专家，覆盖Unity/Unreal VR开发、OpenXR/SteamVR运行时、VR交互(手势/控制器)、性能优化(注视点渲染)与VR",
+      "description": "虚拟现实(VR)应用与沉浸式体验开发专家，覆盖Unity/Unreal VR开发、OpenXR/SteamVR运行时、VR交互(手势/控制器)、性能优化(注视点渲染)与VR UX设计",
       "emoji": "🥽",
       "category": "spatial-computing",
       "subcategory": "",
@@ -252,21 +266,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "VR doesn't just show you a world — it puts you inside it. You build experiences",
+      "vibe": "Presence is a lateness budget — every millisecond between head motion and photon is a decision you either made or left to the runtime.",
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "development",
-        "Created",
-        "immersive",
-        "experiences"
+        "vr-development",
+        "realtime-rendering",
+        "xr-runtime",
+        "performance"
       ],
       "keywords": [
-        "VR虚拟现实开发工程师",
-        "虚拟现实",
-        "VR",
-        "应用与沉浸式体验开发专家，覆盖Unity",
-        "Unreal"
+        "VR development",
+        "Unity XR",
+        "Unreal Engine",
+        "OpenXR",
+        "SteamVR",
+        "frame budget",
+        "foveated rendering",
+        "late latching",
+        "motion sickness",
+        "spatial audio"
       ]
     },
     {
@@ -291,21 +310,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The computer on your wrist is more powerful than the one that landed on the",
+      "vibe": "The computer on your wrist is more powerful than the one that landed on the moon — you pack sensors, radios, and a battery into something smaller than a cookie, then survive the shower.",
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
         "wearable",
-        "consumer",
-        "electronics",
-        "Designed"
+        "consumer-electronics",
+        "embedded-hardware",
+        "reliability"
       ],
       "keywords": [
-        "可穿戴设备",
-        "消费电子硬件工程师",
-        "智能手表",
-        "手环",
-        "耳机等可穿戴与消费电子硬件设计专家，覆盖微型化"
+        "wearable hardware",
+        "smartwatch",
+        "low-power BLE",
+        "PPG ECG sensors",
+        "battery management",
+        "HDI PCB",
+        "system-in-package",
+        "IP68 reliability",
+        "medical certification",
+        "DFM"
       ]
     },
     {
@@ -384,7 +408,7 @@
     {
       "id": "spatial-computing-terminal-integration-specialist",
       "name": "终端集成专家",
-      "description": "终端集成、命令行工具与开发者工作流专家",
+      "description": "Terminal emulation and integration specialist for Swift applications, covering VT/xterm control sequences, Unicode text rendering, PTY and SSH transport, input security, and accessibility",
       "emoji": "🖥️",
       "category": "spatial-computing",
       "subcategory": "",
@@ -405,27 +429,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Masters terminal emulation and text rendering in modern Swift applications.",
+      "vibe": "A terminal is a byte protocol wearing a text interface — every glyph, cursor jump, and pasted line must survive a hostile stream without lying about state.",
       "lifecycle": "draft",
       "tags": [
         "spatial-computing",
-        "Expertise",
-        "Technical",
-        "Capabilities",
-        "Technologies"
+        "terminal",
+        "swift",
+        "text-rendering",
+        "developer-tools"
       ],
       "keywords": [
-        "终端集成专家",
-        "终端集成",
-        "命令行工具与开发者工作流专家",
-        "Role",
-        "Memory"
+        "terminal emulation",
+        "SwiftTerm",
+        "VT100",
+        "xterm",
+        "UTF-8",
+        "PTY",
+        "SSH",
+        "text rendering",
+        "OSC 52",
+        "accessibility"
       ]
     },
     {
       "id": "spatial-computing-ux-designer",
       "name": "空间交互/UX设计师",
-      "description": "空间计算交互体验设计师，覆盖空间UI/UX范式(注视/手势/语音)、3D界面/信息架构、空间原型设计工具与无障碍空间交互",
+      "description": "空间计算交互体验设计师，覆盖空间UI/UX范式(注视/手势/语音/控制器)、3D界面与信息架构、空间原型与可用性测试、舒适度与无障碍空间交互",
       "emoji": "🖐️",
       "category": "spatial-computing",
       "subcategory": "",
@@ -442,21 +471,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Flat screens taught us to click; spatial computing teaches us to reach out and",
+      "vibe": "Flat screens taught us to click; spatial computing teaches us to reach, gaze, and speak. You design interactions that feel inevitable in three dimensions and comfortable in the twentieth minute.",
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "designing",
-        "spatial",
-        "immersive",
-        "interfaces"
+        "interaction-design",
+        "immersive-interfaces",
+        "accessibility",
+        "human-factors"
       ],
       "keywords": [
-        "空间交互",
-        "UX设计师",
-        "空间计算交互体验设计师，覆盖空间UI",
-        "UX范式",
-        "注视"
+        "spatial UX",
+        "gaze and pinch",
+        "hand tracking",
+        "spatial UI",
+        "comfort",
+        "accessibility",
+        "interaction design",
+        "usability testing",
+        "ergonomics",
+        "information architecture"
       ]
     },
     {
@@ -498,7 +532,7 @@
     {
       "id": "spatial-computing-xr-cockpit-interaction-specialist",
       "name": "XR 座舱交互专家",
-      "description": "座舱控制系统与沉浸式控制界面专家",
+      "description": "Seated XR cockpit interaction specialist for fixed-perspective control decks, reach-safe spatial controls, hand and gaze input, and simulator comfort validation",
       "emoji": "🕹️",
       "category": "spatial-computing",
       "subcategory": "",
@@ -515,21 +549,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Designs immersive cockpit control systems that feel natural in XR.",
+      "vibe": "A cockpit is not a menu floating in space — every switch sits within reach, every alert is felt, and the user never has to stand up to fly.",
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "Success",
-        "Metrics",
-        "Authoritative",
-        "References"
+        "xr",
+        "cockpit",
+        "interaction-design",
+        "human-factors"
       ],
       "keywords": [
-        "XR",
-        "座舱交互专家",
-        "座舱控制系统与沉浸式控制界面专家",
-        "Role",
-        "Personality"
+        "XR cockpit",
+        "seated interaction",
+        "OpenXR",
+        "hand tracking",
+        "gaze and pinch",
+        "human factors",
+        "flight deck",
+        "simulator comfort"
       ]
     },
     {
@@ -556,17 +593,18 @@
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "webxr",
+        "realtime-graphics",
+        "performance",
+        "cross-platform"
       ],
       "keywords": [
         "WebXR",
-        "沉浸式开发者",
-        "浏览器端",
-        "AR",
-        "VR"
+        "OpenXR",
+        "immersive web",
+        "spatial computing",
+        "performance budget",
+        "hand tracking"
       ]
     },
     {
@@ -595,17 +633,18 @@
       "lifecycle": "published",
       "tags": [
         "spatial-computing",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "xr",
+        "interaction-design",
+        "accessibility",
+        "usability"
       ],
       "keywords": [
-        "XR",
-        "界面架构师",
-        "空间交互设计与沉浸式",
-        "UX",
-        "专家（AR"
+        "spatial interaction",
+        "XR UX",
+        "interface architecture",
+        "comfort",
+        "accessibility",
+        "usability validation"
       ]
     }
   ]

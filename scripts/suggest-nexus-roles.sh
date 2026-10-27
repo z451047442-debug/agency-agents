@@ -11,7 +11,6 @@
 #   --category name       Only analyze one category
 #   --file path           Analyze a single agent file
 #   --min-confidence N    Minimum keyword match count to suggest (default: 2)
-#   --apply               Write suggestions into agent files (prompts for confirmation)
 
 set -euo pipefail
 
@@ -39,9 +38,8 @@ while [[ $# -gt 0 ]]; do
     --category|-c)       PY_ARGS+=("--category" "$2"); shift 2 ;;
     --file|-f)           PY_ARGS+=("--file" "$2"); shift 2 ;;
     --min-confidence)    PY_ARGS+=("--min-confidence" "$2"); shift 2 ;;
-    --apply)             PY_ARGS+=("--apply"); shift ;;
     --help|-h)           exec "$PYTHON" "$SCRIPT_DIR/suggest-nexus-roles.py" --help ;;
-    *)                   echo "Unknown option: $1" >&2; shift ;;
+    *)                   echo "Unknown option: $1" >&2; exit 2 ;;
   esac
 done
 

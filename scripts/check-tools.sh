@@ -77,6 +77,45 @@ while IFS= read -r t; do
   fi
 done < <(echo "$canon")
 
+# 4. tools.json must validate against schemas/tools.schema.json.
+PYBIN="${PYTHON:-}"
+if [[ -z "$PYBIN" ]]; then
+  for candidate in python3 python; do
+    if command -v "$candidate" >/dev/null 2>&1; then
+      PYBIN="$candidate"
+      break
+    fi
+  done
+fi
+if [[ -n "$PYBIN" ]] && "$PYBIN" -c "import jsonschema" >/dev/null 2>&1; then
+  if ! "$PYBIN" - "$JSON" "schemas/tools.schema.json" <<'PYEOF'
+import json
+import sys
+
+import jsonschema
+
+with open(sys.argv[1], encoding="utf-8") as fh:
+    data = json.load(fh)
+with open(sys.argv[2], encoding="utf-8") as fh:
+    schema = json.load(fh)
+
+errors = sorted(
+    jsonschema.Draft7Validator(schema).iter_errors(data),
+    key=lambda error: list(error.path),
+)
+for error in errors[:10]:
+    print(f"  {list(error.path)}: {error.message}", file=sys.stderr)
+if errors:
+    print(f"  {len(errors)} schema error(s)", file=sys.stderr)
+    sys.exit(1)
+PYEOF
+  then
+    fail "$JSON does not validate against schemas/tools.schema.json"
+  fi
+else
+  echo "WARN jsonschema/Python not available; skipping schema validation" >&2
+fi
+
 # --- result ----------------------------------------------------------------
 
 count="$(echo "$canon" | grep -c .)"

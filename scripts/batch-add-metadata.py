@@ -281,6 +281,11 @@ def main() -> None:
         help="Preview changes without writing any files",
     )
     parser.add_argument(
+        "--apply",
+        action="store_true",
+        help="Write changes. Without this flag the tool runs in dry-run mode.",
+    )
+    parser.add_argument(
         "--field",
         choices=["tags", "keywords", "complexity", "duration", "all"],
         default="all",
@@ -302,6 +307,10 @@ def main() -> None:
         help="Regenerate fields even if they already exist in frontmatter",
     )
     args = parser.parse_args()
+
+    if args.apply and args.dry_run:
+        parser.error("--apply and --dry-run are mutually exclusive")
+    dry_run = not args.apply
 
     processed = 0
     skipped = 0
@@ -380,7 +389,7 @@ def main() -> None:
 
         new_content = "---" + new_fm + "\n---" + body
 
-        if args.dry_run:
+        if dry_run:
             if args.verbose:
                 print(f"  WOULD UPDATE {rel} -> {inserted}")
             processed += 1
@@ -392,7 +401,7 @@ def main() -> None:
 
     print(f"\nProcessed: {processed}  Already had: {already}  "
           f"Skipped: {skipped}  Errors: {errors}")
-    if args.dry_run:
+    if dry_run:
         print("DRY RUN — no files modified")
 
 

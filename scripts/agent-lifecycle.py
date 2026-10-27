@@ -301,7 +301,7 @@ def auto_flag_agents(dry_run=False, category_filter=None):
     """Flag agents for review based on quality signals from the scoring system.
 
     Criteria (any one triggers a flag):
-      - Score < 7 (below A-grade on the 0-10 scale)
+      - Score < 8 (below C-grade on the 0-18 scale)
       - Critical-risk category + content_depth < 2
       - < 4 substantive sections (template-heavy)
       - Zero cross-category depends_on (siloed)
@@ -318,8 +318,8 @@ def auto_flag_agents(dry_run=False, category_filter=None):
         result = score_agent_fn(filepath, check_freshness=False)
         reasons = []
 
-        if result["total"] < 7:
-            reasons.append(f"score {result['total']}/10 < 7")
+        if result["total"] < 8:
+            reasons.append(f"score {result['total']}/18 < 8")
 
         risk = result.get("risk_tier", "general")
         if risk == "critical" and result["scores"]["content_depth"] < 2:
@@ -372,9 +372,9 @@ def print_auto_flag_report(flags):
 
     print(f"\n{BOLD}Flagged agents (lowest score first):{RESET}")
     for agent_id, category, state, reason, score in flags[:30]:
-        sc_color = RED if score < 5 else YELLOW if score < 7 else RESET
+        sc_color = RED if score < 8 else YELLOW if score < 10 else RESET
         risk = " [critical]" if category in CRITICAL_RISK_CATEGORIES else ""
-        print(f"  {sc_color}{score:>2}/10{RESET} {agent_id} ({category}{risk}) [{state}]")
+        print(f"  {sc_color}{score:>4}/18{RESET} {agent_id} ({category}{risk}) [{state}]")
         print(f"       {reason}")
 
     if len(flags) > 30:
@@ -407,7 +407,7 @@ def main():
     parser.add_argument("--months", type=int, default=12,
                         help="Staleness threshold in months (default: 12)")
     parser.add_argument("--min-severity", type=int, default=0,
-                        help="Only flag agents scoring below this level (0-10, higher = stricter)")
+                        help="Only show agents scoring below this threshold (0-18; higher = more agents shown)")
     parser.add_argument("--json", action="store_true",
                         help="Machine-readable JSON output")
     args = parser.parse_args()
@@ -437,10 +437,17 @@ def main():
                   file=sys.stderr)
             sys.exit(1)
 
+        if args.note:
+            print("  Note: --note is accepted for compatibility but is not persisted in this version.",
+                  file=sys.stderr)
+
         if args.agent:
             # Single agent transition
             for filepath, agent_id, category in discover_all_agents():
                 if agent_id == args.agent:
+                    if args.dry_run:
+                        print(f"\n  would transition {agent_id}: '{get_current_lifecycle(filepath)}' -> '{args.transition}'")
+                        return
                     ok, msg = set_lifecycle(filepath, args.transition, args.note or "")
                     color = GREEN if ok else RED
                     print(f"\n  {color}{'✓' if ok else '✗'}{RESET} {agent_id}: {msg}")
@@ -453,16 +460,29 @@ def main():
         elif args.category:
             # Batch transition by category
             count = 0
+            failures = 0
             for filepath, agent_id, category in discover_all_agents(args.category):
                 current = get_current_lifecycle(filepath)
                 if current == args.transition:
+                    continue
+                if args.dry_run:
+                    print(f"  would transition {agent_id}: '{current}' -> '{args.transition}'")
+                    count += 1
                     continue
                 ok, msg = set_lifecycle(filepath, args.transition, args.note or "")
                 status = f"{GREEN}✓{RESET}" if ok else f"{RED}✗{RESET}"
                 if ok:
                     count += 1
+                else:
+                    failures += 1
                 print(f"  {status} {agent_id}: {msg}")
-            print(f"\n  Transitioned {count} agents to '{args.transition}' in {args.category}")
+            if args.dry_run:
+                print(f"\n  DRY RUN: {count} agents would transition to '{args.transition}' in {args.category}")
+            else:
+                print(f"\n  Transitioned {count} agents to '{args.transition}' in {args.category}")
+                if failures:
+                    print(f"  {RED}{failures} agent(s) failed to transition.{RESET}", file=sys.stderr)
+                    sys.exit(1)
             return
 
         else:
@@ -491,7 +511,7 @@ def main():
         if args.min_severity and args.min_severity > 0:
             flags = [f for f in flags if f[4] < args.min_severity]
             print(
-                f"\n  Filtered to agents scoring below {args.min_severity}/10"
+                f"\n  Filtered to agents scoring below {args.min_severity}/18"
                 f" ({len(flags)} flagged)"
             )
         print_auto_flag_report(flags)

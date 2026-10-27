@@ -1,7 +1,7 @@
 {
   "category": "hr",
   "agent_count": 22,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "hr-business-partner",
@@ -32,7 +32,6 @@
       "keywords": [
         "HR业务伙伴",
         "HRBP",
-        "人力资源业务伙伴，作为业务单元的战略HR搭档，覆盖组织诊断",
         "人才盘点",
         "变革管理"
       ]
@@ -63,12 +62,10 @@
         "hr",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "薪酬福利专家",
-        "薪酬福利与激励设计专家，覆盖薪酬架构",
         "岗位评估",
         "短期",
         "长期激励"
@@ -117,7 +114,7 @@
     {
       "id": "hr-director",
       "name": "人力资源总监/CHRO",
-      "description": "人力资源最高负责人，覆盖人才战略/组织设计、薪酬福利/绩效体系、人才招聘/发展、员工关系/文化与HR数字化转型",
+      "description": "企业人力资源最高负责人，覆盖人力资本战略、组织设计与劳动力规划、高管薪酬治理、员工关系风险、HR运营模式与董事会人力资本披露",
       "emoji": "👥",
       "category": "hr",
       "subcategory": "",
@@ -133,21 +130,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every company says \"people are our greatest asset\" — you're the one who actually",
+      "vibe": "The CHRO turns people decisions into board-defensible economics — every org chart, pay band, and culture bet carries a cost, a risk, and an owner.",
       "lifecycle": "published",
       "tags": [
         "hr",
         "leadership",
-        "built",
-        "functions",
-        "administrative"
+        "people-strategy",
+        "total-rewards",
+        "governance"
       ],
       "keywords": [
         "人力资源总监",
         "CHRO",
-        "人力资源最高负责人，覆盖人才战略",
+        "人力资本报告",
         "组织设计",
-        "薪酬福利"
+        "高管薪酬治理",
+        "劳动力规划",
+        "员工关系风险",
+        "HR运营模式"
       ]
     },
     {
@@ -175,14 +175,12 @@
         "hr",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "员工关系",
         "ER",
         "专家",
-        "员工关系与劳动关系专家，覆盖员工投诉",
         "纠纷处理"
       ]
     },
@@ -213,14 +211,12 @@
         "hr",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "HRIS",
         "人力资源信息系统专家",
         "人力资源信息系统",
-        "与HR数字化转型专家，覆盖SAP",
         "SuccessFactors"
       ]
     },
@@ -244,21 +240,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When management and workers find common ground, the company thrives. You build",
+      "vibe": "When management and workers find common ground, the company thrives. You build the bridges through negotiation, communication, and fair process.",
       "lifecycle": "published",
       "tags": [
         "hr",
-        "labor",
-        "relations",
-        "Navigated",
-        "union"
+        "labor-relations",
+        "unions",
+        "negotiation"
       ],
       "keywords": [
-        "劳动关系",
-        "工会关系专家",
-        "企业劳动关系与集体协商专家，覆盖工会",
-        "职工代表制度建设",
-        "集体合同"
+        "labor relations",
+        "collective bargaining",
+        "grievance procedure",
+        "union engagement",
+        "works council"
       ]
     },
     {
@@ -279,20 +274,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating hr specialists into coherent multi-agent workflows",
+      "vibe": "People decisions are never only data decisions — measure carefully, document fairly, and keep the human consequence in the room.",
       "tags": [
         "hr",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "talent",
+        "people-analytics",
+        "compliance",
+        "multi-agent-coordination"
       ],
       "keywords": [
-        "HR",
-        "Multi-Agent",
-        "Coordinator",
-        "Coordinates",
-        "workflows"
+        "hr",
+        "recruitment",
+        "compensation",
+        "employee-relations",
+        "people-analytics"
       ]
     },
     {
@@ -320,14 +315,12 @@
         "hr",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "HR",
         "入职专员",
         "全面的",
-        "入职专家，负责员工入职引导",
         "文档管理"
       ]
     },
@@ -354,13 +347,10 @@
       "tags": [
         "hr",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "组织发展专家",
-        "组织发展与变革管理专家，覆盖组织诊断",
         "文化建设",
         "领导力发展",
         "人才梯队"
@@ -396,13 +386,11 @@
         "hr",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "People",
         "Analytics与人力资源数据分析",
-        "人力资源数据分析专家，覆盖离职预测",
         "流失分析",
         "招聘漏斗"
       ]
@@ -436,7 +424,6 @@
       ],
       "keywords": [
         "绩效管理专家",
-        "绩效管理体系设计专家，覆盖OKR",
         "KPI",
         "平衡计分卡",
         "绩效评估"
@@ -481,7 +468,7 @@
     {
       "id": "hr-talent-acquisition-manager",
       "name": "招聘/人才获取(TA)经理",
-      "description": "企业招聘与人才获取团队管理者，覆盖招聘策略/雇主品牌(EVP)、招聘渠道/ATS系统管理、面试流程设计与招聘团队KPI/效率管理",
+      "description": "招聘团队负责人，覆盖招聘需求校准、寻源渠道与人才地图、结构化面试与录用决策、ATS数据治理、雇主品牌与招聘产能管理",
       "emoji": "🎯",
       "category": "hr",
       "subcategory": "",
@@ -497,21 +484,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Hiring is the most important thing a company does — every person you hire shapes",
+      "vibe": "Hiring is a production system — intake quality, sourcing throughput, interview signal, and offer conversion decide whether the team ships or stalls.",
       "lifecycle": "published",
       "tags": [
         "hr",
-        "leading",
         "recruiting",
-        "teams",
-        "Built"
+        "talent-acquisition",
+        "hiring-operations",
+        "employer-brand"
       ],
       "keywords": [
         "招聘",
         "人才获取",
         "TA",
-        "经理",
-        "企业招聘与人才获取团队管理者，覆盖招聘策略"
+        "结构化面试",
+        "招聘漏斗",
+        "雇主品牌",
+        "ATS",
+        "招聘运营"
       ]
     },
     {
@@ -546,7 +536,6 @@
       ],
       "keywords": [
         "HR科技总监",
-        "HR科技领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -586,7 +575,6 @@
       ],
       "keywords": [
         "HR科技总经理",
-        "HR科技领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -629,7 +617,6 @@
         "ATS实施顾问",
         "申请人跟踪系统",
         "ATS",
-        "实施顾问，覆盖ATS选型评估与RFP撰写",
         "系统配置与业务流程映射"
       ]
     },
@@ -667,7 +654,6 @@
       ],
       "keywords": [
         "员工体验设计师",
-        "员工体验设计专家，覆盖员工旅程地图绘制（入职到退休全周期）",
         "EX策略与关键时刻设计",
         "员工倾听系统与持续反馈机制",
         "物理与数字办公场所体验设计"
@@ -705,7 +691,6 @@
       ],
       "keywords": [
         "人力分析科学家",
-        "人力分析科学家，覆盖人力数据建模与预测分析",
         "员工生命周期分析（招聘-入职-发展-离职）",
         "员工敬业度调查设计与因子分析",
         "组织网络分析"
@@ -737,7 +722,6 @@
         "hr",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -770,21 +754,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Headcount is the largest expense in most companies — you plan how many people,",
+      "vibe": "Headcount is the largest expense in most companies — you plan how many people, in which roles, at what cost, to execute the business strategy.",
       "lifecycle": "published",
       "tags": [
         "hr",
         "workforce",
         "planning",
-        "strategy",
-        "Built"
+        "strategy"
       ],
       "keywords": [
-        "人力规划",
-        "编制管理专家",
-        "企业人力编制与劳动力规划专家，覆盖战略人力规划",
-        "3-5年",
-        "编制预算"
+        "workforce planning",
+        "headcount planning",
+        "demand forecasting",
+        "skills gap",
+        "org design"
       ]
     },
     {
@@ -809,21 +792,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Burnout costs companies more than turnover — it costs creativity, engagement,",
+      "vibe": "Burnout costs companies more than turnover — it costs creativity, engagement, and human potential. You build the conditions that keep people healthy and whole.",
       "lifecycle": "published",
       "tags": [
         "hr",
         "workplace",
         "wellness",
-        "Built",
-        "programs"
+        "mental-health"
       ],
       "keywords": [
-        "员工健康与福利",
+        "employee wellness",
         "EAP",
-        "专家",
-        "企业员工健康管理与员工援助计划",
-        "专家，覆盖心理健康支持"
+        "psychosocial risk",
+        "burnout prevention",
+        "occupational health"
       ]
     }
   ]

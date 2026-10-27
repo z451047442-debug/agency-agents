@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.2.5] — 2026-10-28 — Content Dedup, Gate Repair & Baseline Recalibration
+
+### Changed
+- 清理 420 处 `trimmed for brevity` 标记；修复 141 个 agent 文件中的 151 处拼接 Markdown 标题；补齐 64 个缺失章节；将高频重复段落替换为按 agent 唯一的文本。
+- 27 个 safeguards/output_spec 门禁失败 agent 补充交付物格式表、免责声明/升级路径与协作边界；D 级从 29 个降至 **0**，全部 agent ≥8。
+- 评分基线经明确确认后从 A+B 88.3% / D 46 更新为 A+B **70.2%** / D **0**（mean 11.84，median 11.0）；这是去重后的新基线。
+
+### Fixed
+- 修复 Bandit B613 High：将 `scripts/lint-agents.py` 中不可见 Unicode 检测键改为 `\uXXXX` 转义；Medium/High 均为 0。
+- 恢复 7 个 agent 缺失的 Deliverable / Success Metrics / Workflow 章节；lint warning 7 → **0**。
+- 规范 13 个文件 EOF 为单个换行；`git diff --check` 通过。
+
+### Validation
+- 测试：**1453 passed, 18 skipped**；覆盖率 **90.11%**。
+- Lint：1402 文件，**0 errors / 0 warnings / 0 short**。
+- Ruff、mypy、audit-security、bandit（0 Medium/High）、validate-index、check-dupes、architecture/browser/index/shard、divisions/tools/i18n 全部通过。
+- `convert.py --check`：integrations 与源文件同步（1402 agents；18,226 conversions）。
+- 已知非阻塞项：8 个 agent 无 reference 信号；48 处截断代码块解析告警。
+
 ## [2.2.4] — 2026-09-07 — Bug Fixes & Production Readiness
 
 ### Fixed

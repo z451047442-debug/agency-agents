@@ -17,6 +17,10 @@
     { "type": "test", "section": "Changed", "hidden": false },
     { "type": "ci", "section": "Changed", "hidden": false },
     { "type": "build", "section": "Changed", "hidden": false },
+    { "type": "content", "section": "Changed", "hidden": false },
+    { "type": "tooling", "section": "Changed", "hidden": false },
+    { "type": "metadata", "section": "Changed", "hidden": false },
+    { "type": "merge", "section": "Changed", "hidden": false },
     { "type": "revert", "section": "Changed", "hidden": false }
   ],
   "packages": {

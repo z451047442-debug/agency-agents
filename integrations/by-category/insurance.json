@@ -1,7 +1,7 @@
 {
   "category": "insurance",
   "agent_count": 12,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "insurance-auto-claims",
@@ -31,12 +31,10 @@
         "insurance",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "车险理赔专员",
-        "车险理赔专家，覆盖车辆损失评估",
         "维修成本核算",
         "全损鉴定",
         "欺诈检测"
@@ -69,15 +67,11 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "保险经纪人",
-        "保险经纪与风险管理顾问，为客户设计保险方案",
         "询价议价",
-        "管理续保与理赔协助，代表投保人利益",
         "Chen"
       ]
     },
@@ -107,13 +101,10 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "理赔专员",
-        "保险理赔专家，覆盖财产险",
         "责任险",
         "货运险的事故调查",
         "损失评估"
@@ -122,7 +113,7 @@
     {
       "id": "insurance-general-manager",
       "name": "保险公司总经理",
-      "description": "保险公司/分支机构全面管理者，覆盖承保/理赔/精算/再保业务线、偿付能力管理、渠道/代理人管理与合规监管关系",
+      "description": "保险公司/分支机构全面管理者，覆盖承保与定价纪律、理赔运营、精算与准备金、再保险安排、偿付能力与资本管理、渠道与代理人管理及监管合规",
       "emoji": "🏦",
       "category": "insurance",
       "subcategory": "",
@@ -142,21 +133,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Insurance is the business of promises — you ensure the company can keep every",
+      "vibe": "Insurance is the business of promises — the job is to make sure the company can keep every promise through every cycle, and still earn an underwriting profit while doing it.",
       "lifecycle": "published",
       "tags": [
         "insurance",
-        "leadership",
-        "across",
-        "life",
-        "understand"
+        "underwriting",
+        "solvency",
+        "claims",
+        "distribution"
       ],
       "keywords": [
         "保险公司总经理",
-        "保险公司",
-        "分支机构全面管理者，覆盖承保",
-        "理赔",
-        "精算"
+        "承保利润",
+        "偿付能力",
+        "综合成本率",
+        "再保险"
       ]
     },
     {
@@ -186,13 +177,10 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "健康险核保师",
-        "健康险核保专家，覆盖个人与团体健康险的医学核保指引",
         "既往症评估",
         "发病率风险评分",
         "医疗成本趋势分析"
@@ -221,13 +209,10 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "保险科技专家",
-        "保险科技专家，覆盖车联网",
         "物联网的UBI保险",
         "AI核保",
         "区块链理赔结算"
@@ -260,13 +245,10 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "寿险精算师",
-        "寿险精算专家，覆盖死亡率表构建",
         "定期",
         "终身",
         "万能寿险定价"
@@ -334,13 +316,10 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "再保险经纪人",
-        "再保险经纪人，覆盖合约与临时分保排分",
         "巨灾建模",
         "RMS",
         "AIR"
@@ -372,13 +351,10 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "再保险专家",
-        "再保险与风险转移专家，覆盖合约再保",
         "临时分保",
         "巨灾建模",
         "转分保与再保险方案结构设计"
@@ -411,13 +387,10 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "风险查勘师",
-        "保险风险查勘与防灾防损专家，通过现场勘查识别风险隐患",
         "评估安全措施",
         "提出整改建议并降低赔付率",
         "Wang"
@@ -448,13 +421,10 @@
       "tags": [
         "insurance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "核保员",
-        "保险核保专家，覆盖财产险",
         "责任险",
         "意外险的风险评估",
         "条款定制"

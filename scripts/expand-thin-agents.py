@@ -270,6 +270,8 @@ def expand_agent(filepath: Path, dry_run: bool = False) -> list[str]:
         body = body[:insertion_point] + "\n\n" + new_content + "\n" + body[insertion_point:]
 
     full_content = frontmatter + body
+    if re.search(r"\[[^\]]+\]", "\n".join(m[3] for m in modifications)):
+        print(f"  {YELLOW}Warning: generated sections still contain [bracketed] placeholders; review before publishing.{RESET}")
     atomic_write(filepath, full_content, newline="\n")
     return [m[0] for m in modifications]
 
@@ -290,7 +292,11 @@ def main():
     )
     parser.add_argument(
         "--dry-run", action="store_true",
-        help="Preview only — no files are modified",
+        help="Preview only — no files are modified (default)",
+    )
+    parser.add_argument(
+        "--apply", action="store_true",
+        help="Write changes. Without this flag the tool runs in dry-run mode.",
     )
     parser.add_argument(
         "--agent", "-a",
@@ -305,6 +311,10 @@ def main():
         help="Scan all categories for thin agents",
     )
     args = parser.parse_args()
+
+    if args.apply and args.dry_run:
+        parser.error("--apply and --dry-run are mutually exclusive")
+    dry_run = not args.apply
 
     if not any([args.agent, args.category, args.all]):
         parser.print_help()
@@ -353,20 +363,20 @@ def main():
         print(f"{GREEN}No thin agents found.{RESET}")
         return
 
-    mode_label = "Dry-run" if args.dry_run else "Expanding"
+    mode_label = "Dry-run" if dry_run else "Expanding"
     _print_header(f"{mode_label}: {len(thin_agents)} thin agents")
 
     total_added = 0
     for n, _cat, rel, fp in thin_agents:
         print(f"  [{n}/7] {rel}")
-        added = expand_agent(fp, dry_run=args.dry_run)
+        added = expand_agent(fp, dry_run=dry_run)
         if added:
             total_added += len(added)
 
     print(
         f"\n{BOLD}Summary: {len(thin_agents)} agents, "
         f"{total_added} section{'s' if total_added != 1 else ''} "
-        f"({'would be ' if args.dry_run else ''}added){RESET}"
+        f"({'would be ' if dry_run else ''}added){RESET}"
     )
 
 

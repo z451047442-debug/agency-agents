@@ -1,7 +1,7 @@
 {
   "category": "cybersecurity",
   "agent_count": 39,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "cybersecurity-appsec-engineer",
@@ -98,7 +98,6 @@
         "engineering-minimal-change-engineer",
         "finance-accounts-payable-agent",
         "marketing-short-video-editing-coach",
-        "cybersecurity-penetration-tester",
         "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
@@ -117,9 +116,7 @@
       ],
       "keywords": [
         "漏洞赏金猎人",
-        "漏洞赏金猎人与漏洞研究专家，专注众测安全测试",
         "创造性漏洞利用链",
-        "负责任披露及最大化赏金收益，覆盖",
         "Web"
       ]
     },
@@ -155,14 +152,13 @@
       "keywords": [
         "首席信息安全官",
         "CISO",
-        "企业信息安全最高负责人，覆盖安全战略",
         "治理框架",
         "安全预算"
       ]
     },
     {
       "id": "cybersecurity-cloud-security-architect",
-      "name": "云安全架构师",
+      "name": "云原生安全架构师",
       "description": "设计零信任架构、跨AWS/Azure/GCP深度防御的云原生安全专家",
       "emoji": "☁️",
       "category": "cybersecurity",
@@ -187,9 +183,7 @@
       "tags": [
         "cybersecurity",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "云安全架构师",
@@ -267,13 +261,10 @@
       "tags": [
         "cybersecurity",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "DevSecOps工程师",
-        "DevSecOps与安全自动化专家，覆盖CI",
         "CD安全集成",
         "基础设施即代码安全",
         "容器"
@@ -312,10 +303,8 @@
       ],
       "keywords": [
         "数字取证调查员",
-        "数字取证调查专家，专注证据收集",
         "取证镜像",
-        "时间线分析",
-        "痕迹恢复及保管链文档，覆盖终端"
+        "时间线分析"
       ]
     },
     {
@@ -354,7 +343,6 @@
       ],
       "keywords": [
         "网络安全总监",
-        "网络安全领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -391,7 +379,6 @@
       "keywords": [
         "生物识别",
         "身份认证工程师",
-        "生物特征识别与身份认证技术专家，覆盖指纹",
         "人脸",
         "虹膜"
       ]
@@ -399,7 +386,7 @@
     {
       "id": "cybersecurity-engineering-compliance-engineer",
       "name": "合规/法规事务(RA)工程师",
-      "description": "产品合规与法规事务工程专家，覆盖CE/FCC/UL/CCC/ SRRC/ RoHS/REACH等全球市场准入认证、产品安全标准(IEC/GB)、EMC/无线/能效测试与法规情报",
+      "description": "Security compliance and audit engineering expert: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP and CMMC control mapping, evidence architecture, audit readiness and continuous compliance",
       "emoji": "📋",
       "category": "cybersecurity",
       "subcategory": "",
@@ -416,21 +403,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A product that can't be certified can't be sold. You navigate the global regulatory",
+      "vibe": "An auditor does not buy your security story — they test whether your evidence can survive a sample. You build the chain from control claim to artifact.",
       "lifecycle": "published",
       "tags": [
         "cybersecurity",
-        "product",
         "compliance",
-        "Obtained",
-        "certifications"
+        "audit",
+        "governance",
+        "evidence"
       ],
       "keywords": [
-        "合规",
-        "法规事务",
-        "RA",
-        "工程师",
-        "产品合规与法规事务工程专家，覆盖CE"
+        "compliance",
+        "security compliance",
+        "audit readiness",
+        "SOC 2",
+        "ISO 27001",
+        "PCI DSS",
+        "HIPAA",
+        "FedRAMP",
+        "CMMC",
+        "OSCAL"
       ]
     },
     {
@@ -457,17 +449,22 @@
       "lifecycle": "published",
       "tags": [
         "cybersecurity",
-        "applied",
-        "cryptography",
-        "Designed",
-        "security"
+        "applied-cryptography",
+        "protocols",
+        "key-management",
+        "pqc"
       ],
       "keywords": [
-        "密码学",
-        "安全协议工程师",
-        "应用密码学与安全协议设计专家，覆盖对称",
-        "非对称加密",
-        "AES"
+        "cryptography",
+        "TLS 1.3",
+        "post-quantum",
+        "FIPS 140-3",
+        "key management",
+        "HSM",
+        "PKI",
+        "AEAD",
+        "protocol design",
+        "crypto agility"
       ]
     },
     {
@@ -496,7 +493,6 @@
       "tags": [
         "cybersecurity",
         "customer",
-        "Built",
         "CIAM",
         "platforms"
       ],
@@ -504,7 +500,6 @@
         "客户身份与访问管理",
         "CIAM",
         "工程师",
-        "面向消费者的身份认证与客户数据平台专家，覆盖Auth0",
         "AWS"
       ]
     },
@@ -534,13 +529,11 @@
         "cybersecurity",
         "cyber",
         "insurance",
-        "Built",
         "models"
       ],
       "keywords": [
         "网络风险量化",
         "网络安全保险精算师",
-        "网络风险建模与网络安全保险产品设计专家，覆盖网络损失分布",
         "蒙特卡洛模拟",
         "安全控制审计"
       ]
@@ -579,8 +572,7 @@
         "安全风险",
         "GRC管理顾问",
         "信息安全风险与治理合规",
-        "GRC",
-        "顾问，覆盖NIST"
+        "GRC"
       ]
     },
     {
@@ -616,7 +608,6 @@
         "隐私增强技术",
         "PETs",
         "研究员",
-        "隐私增强技术与数据安全研究专家，覆盖联邦学习",
         "Federated"
       ]
     },
@@ -690,7 +681,6 @@
       "keywords": [
         "固件安全",
         "逆向工程师",
-        "嵌入式固件安全分析与逆向工程专家，覆盖固件提取",
         "反汇编",
         "Ghidra"
       ]
@@ -728,7 +718,6 @@
       "keywords": [
         "数字取证",
         "电子数据鉴定工程师",
-        "数字取证与电子数据司法鉴定专家，覆盖磁盘",
         "内存",
         "移动设备取证"
       ]
@@ -765,7 +754,6 @@
       "keywords": [
         "硬件安全",
         "芯片安全工程师",
-        "集成电路与硬件安全专家，覆盖侧信道攻击",
         "DPA",
         "SPA"
       ]
@@ -796,8 +784,7 @@
         "cybersecurity",
         "Success",
         "Metrics",
-        "Technical",
-        "Methodology"
+        "Technical"
       ],
       "keywords": [
         "网络安全工程师",
@@ -833,20 +820,25 @@
         "cybersecurity",
         "privacy",
         "engineering",
-        "Built",
-        "systems"
+        "PETs",
+        "data-protection"
       ],
       "keywords": [
-        "隐私工程",
-        "隐私计算工程师",
-        "隐私保护技术与隐私计算专家，覆盖GDPR",
-        "PIPL隐私工程",
-        "Privacy"
+        "privacy engineering",
+        "GDPR",
+        "PIPL",
+        "differential privacy",
+        "federated learning",
+        "MPC",
+        "anonymization",
+        "consent management",
+        "DSAR",
+        "data minimization"
       ]
     },
     {
       "id": "cybersecurity-engineering-security-architect-cloud",
-      "name": "云安全架构师",
+      "name": "云平台安全架构师",
       "description": "云计算平台安全架构专家，覆盖AWS/Azure/GCP/阿里云安全架构(Well-Architected Security)、IAM/权限边界、数据加密(KMS/BYOK)、云安全态势管理(CSPM)与云原生安全(CNAPP)",
       "emoji": "☁️",
       "category": "cybersecurity",
@@ -869,17 +861,22 @@
       "lifecycle": "published",
       "tags": [
         "cybersecurity",
-        "Professional",
-        "Scope",
-        "Safeguards",
-        "cloud"
+        "cloud",
+        "architecture",
+        "zero-trust",
+        "guardrails"
       ],
       "keywords": [
-        "云安全架构师",
-        "云计算平台安全架构专家，覆盖AWS",
-        "Azure",
-        "GCP",
-        "阿里云安全架构"
+        "cloud security",
+        "security architecture",
+        "landing zone",
+        "IAM",
+        "zero trust",
+        "CSPM",
+        "CNAPP",
+        "encryption",
+        "multi-cloud",
+        "guardrails"
       ]
     },
     {
@@ -915,8 +912,7 @@
         "安全卫士",
         "安全教练",
         "Security",
-        "Champion",
-        "嵌入开发团队的安全倡导者，覆盖安全需求分析"
+        "Champion"
       ]
     },
     {
@@ -1026,7 +1022,6 @@
       "keywords": [
         "Fortinet安全专家",
         "Fortinet安全产品与网络防护专家",
-        "覆盖FortiGate",
         "NGFW防火墙策略与UTM配置",
         "FortiManager"
       ]
@@ -1064,7 +1059,6 @@
       ],
       "keywords": [
         "网络安全总经理",
-        "网络安全领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -1103,7 +1097,6 @@
       ],
       "keywords": [
         "治理风险合规专家",
-        "治理风险合规专家，指导组织通过安全框架（SOC",
         "ISO",
         "HIPAA",
         "PCI-DSS"
@@ -1173,14 +1166,11 @@
       "tags": [
         "cybersecurity",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "Kali",
         "Linux安全测试专家",
-        "Linux渗透测试平台专家，覆盖工具链（Metasploit",
         "Burp",
         "Suite"
       ]
@@ -1217,9 +1207,7 @@
       ],
       "keywords": [
         "恶意软件分析师",
-        "恶意软件分析专家，专注逆向工程",
         "静态与动态分析",
-        "威胁情报及恶意软件家族分类，解剖恶意软件提取威胁指标以加固防御",
         "Role"
       ]
     },
@@ -1246,16 +1234,13 @@
       "tags": [
         "cybersecurity",
         "Actionable",
-        "Directives",
-        "Methodology",
-        "Decision"
+        "Directives"
       ],
       "keywords": [
         "Palo",
         "Alto安全专家",
         "Alto",
-        "Networks下一代防火墙与安全平台专家",
-        "覆盖PAN-OS平台管理与Panorama集中管理"
+        "Networks下一代防火墙与安全平台专家"
       ]
     },
     {
@@ -1322,13 +1307,10 @@
       "tags": [
         "cybersecurity",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "安全架构师",
-        "企业安全架构设计专家，覆盖零信任架构",
         "身份与访问管理",
         "IAM",
         "安全边界设计"
@@ -1367,7 +1349,6 @@
       ],
       "keywords": [
         "高级安全运营工程师",
-        "防御性应用安全专家，覆盖密钥扫描",
         "认证授权与安全头配置",
         "Role",
         "Personality"
@@ -1404,7 +1385,6 @@
       ],
       "keywords": [
         "安全运营中心分析师",
-        "安全运营中心分析专家，专注事件分诊",
         "威胁检测",
         "SIEM",
         "监控"
@@ -1471,16 +1451,11 @@
       "vibe": "Packets don't lie. When application logs, monitoring dashboards, and vendor support all point in different directions, the pcap is the single source of truth.",
       "lifecycle": "published",
       "tags": [
-        "cybersecurity",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "cybersecurity"
       ],
       "keywords": [
         "Wireshark网络分析专家",
         "Wireshark",
-        "tshark网络数据包分析专家，覆盖抓包策略设计",
         "BPF",
         "MAC"
       ]

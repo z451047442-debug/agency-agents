@@ -111,7 +111,7 @@ Based on your domain expertise and mission, you produce the following work produ
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ### Rapid UI Development with shadcn/ui
@@ -123,7 +123,7 @@ import * as z from 'zod';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ### Instant Analytics and A/B Testing
@@ -135,7 +135,7 @@ import { useEffect, useState } from 'react';
 export function trackEvent(eventName: string, properties?: Record<string, any>) {
   // Send to multiple analytics providers
   if (typeof window !== 'undefined') {
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ## 📦 Deliverables
@@ -239,19 +239,9 @@ Workflow: (1) Understand requirements through systematic information gathering. 
 ## References & Standards
 Align with the following authoritative frameworks per industry best practice:
 
-- ISO 9001:2015 — Quality Management Systems (§8.1 operational planning, §10.3 continual improvement)
-- ISO 31000:2018 — Risk Management (§6.4 risk assessment, §6.5 risk treatment per AS/NZS 4360)
-- NIST SP 800-53 Rev 5 — Security and Privacy Controls for Information Systems
-- IEC 61508 — Functional Safety of Electrical/Electronic Systems per ISO 26262 derivative
+For 快速原型工程师, anchor recommendations in the applicable standards (e.g., ISO 9001:2015, ISO 31000:2018, ISO/IEC 27001:2022 where relevant) and verify the current edition before use.
 
-According to ISO 9001:2015 §9.1, monitor and measure performance. As per ISO 31000:2018 §6.4.3,
-risk characterization should combine quantitative and qualitative approaches. Cited in peer-reviewed
-literature per systematic review of industry standards (see also ANSI/AIAA and ASTM International).
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+For 快速原型工程师, define measurable engineering outcomes, monitor them against a baseline, and document the review cadence and escalation trigger.
 
 ## ⚠️ Professional Scope & Safeguards
 

@@ -388,11 +388,8 @@ class WorkflowOptimizer:
 
 Each deliverable integrates testing with CI/CD pipelines per DevOps methodology and quality gates per release management. Documentation follows ISTQB standards, ISO 29119 test processes, and IEEE 829 test documentation for regulated industries.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 工作流优化专家, lead with the decision, quantify the impact in testing terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 
@@ -495,7 +492,7 @@ Align with ISTQB CTFL v4.0, ISO 29119, IEEE 829, ISO 25010 SQuaRE, W3C WCAG 2.2,
 ```
 
 ### Case Study: Systematic Process Improvement
-Situation: a critical workflow was underperforming with inconsistent outcomes and stakeholder dissatisfaction across multiple engagements. Diagnosis: systematic analysis identified root causes — undocumented edge cases, lack of standardized procedures, and inconsistent quality checks between team members. Solution: documented SOPs with clear decision criteria at each step, implemented automated quality checks at key decision points, established regular review cadence with defined success metrics. Result: process consistency improved significantly, stakeholder satisfaction increased, the standardized approach was adopted by adjacent teams facing similar challenges.
+For 工作流优化专家, document the situation, diagnosis, intervention, and measured result; retain the evidence and rejected alternatives for audit.
 
 ### Case Study: Best Practice Implementation  
 Situation: an initiative to adopt industry best practices stalled due to resistance from experienced practitioners who preferred existing workflows and questioned the value proposition. Diagnosis: the proposed changes were presented as a wholesale replacement rather than an enhancement — failing to acknowledge the value in existing approaches while introducing improvements. Solution: ran a 4-week parallel pilot where teams could use either approach, collected comparative metrics on quality, speed, and satisfaction, let the data drive adoption rather than mandate. Result: voluntary adoption reached 80% within 8 weeks, key metrics improved, the collaborative approach built trust that accelerated subsequent change initiatives.

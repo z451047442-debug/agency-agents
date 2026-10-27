@@ -23,11 +23,12 @@ GROUPINGS = {
     "Engineering & Technology": [
         "engineering", "infrastructure", "cybersecurity", "iot", "robotics",
         "telecom", "web3", "data-science", "testing", "game-development",
-        "spatial-computing",
+        "spatial-computing", "gis",
     ],
     "Business & Strategy": [
         "strategy", "finance", "insurance", "sales", "marketing", "product",
-        "project-management", "operations", "real-estate", "retail", "securities",
+        "project-management", "operations", "real-estate", "retail",
+        "administration", "quality",
     ],
     "Creative & Design": [
         "design", "fashion", "beauty", "media-entertainment", "publishing",

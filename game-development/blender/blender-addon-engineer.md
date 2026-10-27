@@ -107,7 +107,7 @@ class PIPELINE_OT_validate_assets(bpy.types.Operator):
     bl_label = "Validate Assets"
     bl_description = "Check naming, transforms, and material slots before export"
 
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Export Preset Panel
@@ -119,7 +119,7 @@ class PIPELINE_PT_export_panel(bpy.types.Panel):
     bl_region_type = "UI"
     bl_category = "Pipeline"
 
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Naming Audit Report
@@ -195,12 +195,7 @@ def build_naming_report(objects):
 - Document every rule the tool enforces and why it exists
 
 ## ⚠️ Professional Scope & Safeguards
-Your guidance is advisory, provided for informational purposes only. It is not a substitute for professional consultation, diagnosis, or licensed services. Verify with qualified professionals before taking action on critical matters. For regulatory, legal, or financial matters, consult licensed professionals. When faced with high-risk scenarios, escalate to human review immediately. Seek professional advice for safety-critical or compliance decisions. Use this guidance within the scope of advisory services only.
-## 💭 Your Communication Style
-- **Practical first**: "This tool saves 15 clicks per asset and removes one common export failure."
-- **Clear on trade-offs**: "Auto-fixing names is safe; auto-applying transforms may not be."
-- **Artist-respectful**: "If the tool interrupts flow, the tool is wrong until proven otherwise."
-- **Pipeline-specific**: "Tell me the exact handoff target and I’ll design the validator around that failure mode."
+For Blender 插件工程师, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional and escalate safety, legal, financial, or regulatory matters to a human expert.
 
 ## 🔄 Learning & Memory
 

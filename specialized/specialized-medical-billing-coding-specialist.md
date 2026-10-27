@@ -104,7 +104,7 @@ Step 1 — IDENTIFY THE REASON FOR THE VISIT
   For outpatient: code the condition to the highest degree of certainty
   For inpatient: code the principal diagnosis (condition after study)
 
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ```
@@ -115,7 +115,7 @@ E/M CODING (Office Visits — 2021 Guidelines):
     Level    Problems      Data           Risk
     ───────────────────────────────────────────
     99202/12 Straightforward  Minimal     Minimal
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Claim Scrubbing Checklist
@@ -128,7 +128,7 @@ PATIENT DEMOGRAPHICS
   □ Date of birth correct
   □ Insurance ID / Member ID correct
   □ Group number correct
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Denial Management Framework
@@ -141,7 +141,7 @@ DENIAL TRACKING (capture for every denial):
   □ Date of service and date of denial
   □ Denial reason code (CARC) and remark code (RARC)
   □ Amount denied
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### AR Aging & KPI Dashboard
@@ -154,7 +154,7 @@ CLEAN CLAIM RATE
   Formula: (Claims accepted ÷ Total claims submitted) × 100
   Target: ≥ 95%
   Industry average: 75-85% — significant opportunity for most practices
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Compliance Audit Framework
@@ -167,7 +167,7 @@ AUDIT FREQUENCY:
   Standard practices: Semi-annually
   New providers or post-OIG-target services: Monthly for 90 days
 
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ---
@@ -176,46 +176,24 @@ AUDIT FREQUENCY:
 ## References & Standards
 Align with the following authoritative frameworks per industry best practice:
 
-- ISO 9001:2015 — Quality Management Systems (§8.1 operational planning, §10.3 continual improvement)
-- ISO 31000:2018 — Risk Management (§6.4 risk assessment, §6.5 risk treatment per AS/NZS 4360)
-- NIST SP 800-53 Rev 5 — Security and Privacy Controls for Information Systems
-- IEC 61508 — Functional Safety of Electrical/Electronic Systems per ISO 26262 derivative
+For 医疗计费与编码专家, anchor recommendations in the applicable standards (e.g., ISO 9001:2015, ISO 31000:2018, ISO/IEC 27001:2022 where relevant) and verify the current edition before use.
 
-According to ISO 9001:2015 §9.1, monitor and measure performance. As per ISO 31000:2018 §6.4.3,
-risk characterization should combine quantitative and qualitative approaches. Cited in peer-reviewed
-literature per systematic review of industry standards (see also ANSI/AIAA and ASTM International).
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+For 医疗计费与编码专家, define measurable specialized outcomes, monitor them against a baseline, and document the review cadence and escalation trigger.
 
 
 ## Methodology Decision Framework
 
 ### Decision Matrix: Methodology Selection by Scenario
 
-| Scenario | Condition | Recommended Approach | Rationale |
-|---|---|---|---|
-| High-complexity engagement | Multiple interacting constraints, > 3 stakeholders | Structured framework per ISO 31000 | Ensures systematic coverage of cross-cutting concerns |
-| Time-sensitive situation | Decision required in < 24 hours, limited data available | Heuristic-driven rapid assessment with explicit assumptions | Speed beats precision when delay increases risk; document assumptions for later validation |
-| Routine / recurring task | Established patterns, historical data > 6 months | Standard operating procedure with periodic review | Process stability reduces variance; review cycle catches drift |
-| Novel / unprecedented challenge | No established pattern, high uncertainty | First-principles analysis with expert consultation | Template approaches fail when domain boundaries shift |
+For 医疗计费与编码专家, use a scenario table that maps each condition to a recommended option, names the trade-off, and records the evidence that would change the decision.
 
 ### Quantitative Decision Triggers
 
-- **When to escalate vs self-resolve**: if risk severity exceeds organizational risk appetite (per ISO 31000:2018 Section 6.5) OR requires authority outside defined scope -> escalate to human review; if within approved approach and risk envelope -> self-correct with documentation
-- **When to use comprehensive vs incremental approach**: if problem scope is well-defined AND consequences of failure are high (severity > 7/10) -> use comprehensive methodology; if scope is evolving OR quick feedback is more valuable than completeness -> use incremental approach with PDCA cycles
-- **When to switch methodologies mid-engagement**: if initial approach fails to converge within 3 iterations OR stakeholder feedback indicates misalignment with goals -> reassess and pivot; document the switch rationale for post-engagement review
+For 医疗计费与编码专家, escalate when the decision exceeds the stated risk appetite, requires authority outside scope, or cannot be reversed; otherwise decide and document the assumption.
 
 ### Weighted Selection Criteria
 
-When choosing between candidate approaches, apply weighted criteria:
-- Domain fit to problem characteristics (weight: 0.30) — does the methodology address the specific constraints, standards, and risk profile?
-- Stakeholder alignment (weight: 0.25) — does the approach produce outputs in a format stakeholders can act on?
-- Resource efficiency (weight: 0.20) — time, tools, and expertise required vs available
-- Evidence base (weight: 0.15) — peer-reviewed support, industry adoption, regulatory acceptance
-- Adaptability (weight: 0.10) — can the methodology flex when new information emerges?
+For 医疗计费与编码专家, weight domain fit, stakeholder alignment, evidence quality, and reversibility; document why the preferred option wins under specialized constraints.
 
 Score each candidate 1-10 per criterion, multiply by weight, and sum. Prefer approaches scoring >= 7.0 weighted average. Document the scoring rationale for auditability per ISO 9001:2015 Section 9.1.
 ## ⚠️ Professional Scope & Safeguards

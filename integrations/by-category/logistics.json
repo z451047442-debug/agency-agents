@@ -1,7 +1,7 @@
 {
   "category": "logistics",
   "agent_count": 22,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "logistics-cold-chain-specialist",
@@ -13,8 +13,6 @@
       "path": "logistics/logistics-cold-chain-specialist.md",
       "depends_on": [
         "logistics-multi-agent-coordinator",
-        "healthcare-engineering-cold-chain-pharma",
-        "healthcare-engineering-regulatory-science",
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
@@ -28,14 +26,10 @@
       "lifecycle": "published",
       "tags": [
         "logistics",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "冷链物流专家",
-        "温控供应链管理专家，覆盖冷藏",
         "冷冻运输",
         "冷链仓储",
         "温度监控"
@@ -44,7 +38,7 @@
     {
       "id": "logistics-courier-express",
       "name": "快递/快运网络运营专家",
-      "description": "快递与快运网络运营管理专家，覆盖分拨中心/转运枢纽运营、路由网络规划、末端网点/驿站管理、时效管控与成本优化",
+      "description": "Express and parcel network operations specialist covering hub-and-spoke design, sortation, linehaul scheduling, last-mile delivery, cross-border clearance, service-level control, and cost-to-serve.",
       "emoji": "📦",
       "category": "logistics",
       "subcategory": "",
@@ -60,21 +54,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every package has a journey — from pickup to sort center to line haul to delivery.",
+      "vibe": "A parcel network is a promise with a timestamp: every cutoff, sort wave, and doorbell either protects that promise or quietly breaks it.",
       "lifecycle": "published",
       "tags": [
         "logistics",
+        "courier",
         "express",
-        "delivery",
-        "parcel",
-        "network"
+        "last-mile",
+        "parcel-operations"
       ],
       "keywords": [
-        "快递",
-        "快运网络运营专家",
-        "快递与快运网络运营管理专家，覆盖分拨中心",
-        "转运枢纽运营",
-        "路由网络规划"
+        "courier",
+        "express",
+        "parcel network",
+        "hub sortation",
+        "linehaul",
+        "last-mile delivery",
+        "cross-border parcels"
       ]
     },
     {
@@ -88,8 +84,7 @@
       "depends_on": [
         "engineering-code-reviewer",
         "logistics-multi-agent-coordinator",
-        "logistics-cold-chain-specialist",
-        "marketing-cross-border-ecommerce"
+        "logistics-cold-chain-specialist"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -110,7 +105,6 @@
         "跨境电商物流专家",
         "跨境电商与小包物流",
         "B2C",
-        "专家，覆盖9610",
         "9810海关监管方式"
       ]
     },
@@ -135,15 +129,10 @@
       "vibe": "Every container stuck at the border costs $500/day in demurrage. The difference between same-day clearance and a two-week hold is knowing exactly which HS code, which documentation, and which inspector you're dealing with.",
       "lifecycle": "published",
       "tags": [
-        "logistics",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "logistics"
       ],
       "keywords": [
         "报关员",
-        "海关报关与通关专家，覆盖HS编码归类与预裁定",
         "完税价格审定",
         "原产地证申领",
         "FORM"
@@ -180,7 +169,6 @@
       ],
       "keywords": [
         "关务合规师",
-        "海关合规与跨境贸易专家，覆盖HS归类",
         "关税筹划",
         "AEO认证",
         "原产地规则"
@@ -217,7 +205,6 @@
       "keywords": [
         "内部物流",
         "仓储自动化系统工程师",
-        "自动化仓储与内部物流系统集成专家，覆盖AGV",
         "AMR移动机器人",
         "WMS"
       ]
@@ -231,7 +218,6 @@
       "subcategory": "",
       "path": "logistics/logistics-engineering-humanitarian-logistics.md",
       "depends_on": [
-        "education-special-needs",
         "emergency-disaster-response",
         "logistics-multi-agent-coordinator",
         "logistics-cold-chain-specialist"
@@ -254,7 +240,6 @@
       "keywords": [
         "应急物流",
         "灾害响应供应链专家",
-        "人道主义应急物流与灾害救援供应链专家，覆盖灾害预置库存",
         "紧急采购",
         "最后一公里配送"
       ]
@@ -262,7 +247,7 @@
     {
       "id": "logistics-engineering-supply-chain-analytics",
       "name": "供应链分析/优化(OR)科学家",
-      "description": "运筹学与供应链优化科学家，覆盖线性/整数/混合整数规划、网络流/车辆路径(VRP)优化、库存优化(报童模型/多级)、需求预测与供应链数字孪生",
+      "description": "Operations research and supply-chain analytics scientist covering LP and MILP, network flow, vehicle routing, multi-echelon inventory, forecasting, stochastic and robust optimization, simulation, and decision-grade model deployment.",
       "emoji": "📊",
       "category": "logistics",
       "subcategory": "",
@@ -278,21 +263,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Supply chains are giant optimization problems — you apply operations research",
+      "vibe": "A supply chain is a set of decisions under uncertainty, not a dashboard. The model earns its keep only when it changes a decision that someone can actually execute.",
       "lifecycle": "published",
       "tags": [
         "logistics",
-        "supply",
-        "chain",
-        "optimization",
-        "Built"
+        "operations-research",
+        "supply-chain",
+        "analytics",
+        "optimization"
       ],
       "keywords": [
-        "供应链分析",
-        "优化",
-        "科学家",
-        "运筹学与供应链优化科学家，覆盖线性",
-        "整数"
+        "supply chain analytics",
+        "operations research",
+        "optimization",
+        "mixed-integer programming",
+        "vehicle routing",
+        "inventory optimization",
+        "demand forecasting",
+        "digital twin"
       ]
     },
     {
@@ -328,7 +316,6 @@
       "keywords": [
         "供应链风险管理",
         "韧性顾问",
-        "全球供应链风险与韧性战略顾问，覆盖供应商风险",
         "财务",
         "合规"
       ]
@@ -367,7 +354,6 @@
       "keywords": [
         "软件供应链",
         "依赖管理专家",
-        "软件供应链安全与依赖管理专家，覆盖SBOM",
         "Software",
         "Bill"
       ]
@@ -399,7 +385,6 @@
       ],
       "keywords": [
         "出口业务经理",
-        "出口业务拓展与管理专家，覆盖海外市场调研与渠道开发",
         "国际客户谈判",
         "价格",
         "付款"
@@ -416,8 +401,7 @@
       "depends_on": [
         "automotive-supply-chain",
         "insurance-auto-claims",
-        "logistics-customs-broker",
-        "marketing-europe-market"
+        "logistics-customs-broker"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -436,7 +420,6 @@
       ],
       "keywords": [
         "货运代理专家",
-        "国际货运代理与贸易合规专家，精通海运",
         "空运",
         "报关",
         "贸易术语"
@@ -445,16 +428,14 @@
     {
       "id": "logistics-general-manager",
       "name": "物流公司总经理",
-      "description": "第三方物流(3PL)/合同物流企业全面管理者，覆盖战略客户开发、仓储/运输网络规划、运营效率/成本控制与团队建设",
+      "description": "第三方物流(3PL)/合同物流企业总经理，覆盖战略客户开发与续约、仓储/运输网络规划、成本与营运资金管理、EBITDA提升与安全合规",
       "emoji": "🚛",
       "category": "logistics",
       "subcategory": "",
       "path": "logistics/logistics-general-manager.md",
       "depends_on": [
         "logistics-multi-agent-coordinator",
-        "finance-accounts-payable-agent",
         "logistics-cold-chain-specialist",
-        "marketing-abm-account-based",
         "thinking-models-tech-leaders"
       ],
       "nexus_roles": [
@@ -464,27 +445,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every package that arrives on time is a promise kept; every late shipment is",
+      "vibe": "Every pallet that arrives on time is a promise kept and every empty mile is margin burned — run the network on cost-to-serve, cash, and safety, not on revenue headlines.",
       "lifecycle": "published",
       "tags": [
         "logistics",
         "leadership",
-        "business",
-        "moves",
-        "businesses"
+        "3pl",
+        "contract-logistics",
+        "p-and-l"
       ],
       "keywords": [
         "物流公司总经理",
-        "第三方物流",
         "3PL",
-        "合同物流企业全面管理者，覆盖战略客户开发",
-        "仓储"
+        "合同物流",
+        "仓储网络",
+        "运输网络",
+        "EBITDA",
+        "营运资金",
+        "大客户续约"
       ]
     },
     {
       "id": "logistics-hsr-rail-systems",
       "name": "高铁与轨道交通系统工程专家",
-      "description": "高速铁路系统(轨道/供电/信号/车辆)、城际与市域铁路、重载货运铁路、磁悬浮与真空管道超高速、铁路运营调度与安全专家",
+      "description": "高速铁路与轨道交通系统工程专家，覆盖轨道/路基/桥隧、牵引供电、ETCS/CTCS信号、动车组接口、RAMS与安全论证、TSI互联互通及运营维护",
       "emoji": "🚄",
       "category": "logistics",
       "subcategory": "",
@@ -498,21 +482,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "HSR and rail systems engineer — from ballastless track to ETCS/CTCS signaling, from 350km/h operation to maglev. High-speed rail is a 400-ton vehicle gliding on steel at 100 meters per second.",
+      "vibe": "At 350 km/h the margin is measured in millimetres and seconds — integrate track, power, signalling, and rolling stock as one safety case, not four silos.",
       "lifecycle": "published",
       "tags": [
         "logistics",
-        "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "rail-systems",
+        "high-speed-rail",
+        "systems-engineering",
+        "rams"
       ],
       "keywords": [
-        "高铁与轨道交通系统工程专家",
-        "高速铁路系统",
-        "轨道",
-        "供电",
-        "信号"
+        "高速铁路",
+        "轨道交通",
+        "轨道工程",
+        "牵引供电",
+        "ETCS",
+        "CTCS",
+        "RAMS",
+        "TSI",
+        "联调联试",
+        "无砟轨道"
       ]
     },
     {
@@ -525,7 +514,6 @@
       "path": "logistics/logistics-inventory-planner.md",
       "depends_on": [
         "automotive-supply-chain",
-        "education-special-needs",
         "logistics-multi-agent-coordinator",
         "logistics-cold-chain-specialist",
         "tourism-event-planner"
@@ -542,12 +530,10 @@
         "logistics",
         "Technical",
         "Process",
-        "Learning",
-        "Methodology"
+        "Learning"
       ],
       "keywords": [
         "库存规划师",
-        "库存管理与需求预测专家，覆盖安全库存策略",
         "补货计划",
         "ABC分类",
         "滞销品管理与库存周转优化"
@@ -563,7 +549,6 @@
       "path": "logistics/logistics-last-mile-delivery.md",
       "depends_on": [
         "automotive-supply-chain",
-        "education-special-needs",
         "energy-carbon-market",
         "logistics-multi-agent-coordinator",
         "logistics-cold-chain-specialist",
@@ -581,12 +566,10 @@
         "logistics",
         "Technical",
         "Process",
-        "Learning",
-        "Methodology"
+        "Learning"
       ],
       "keywords": [
         "最后一公里配送专家",
-        "末端配送网络设计与运营专家，覆盖即时配送",
         "快递柜",
         "社区团购",
         "路径优化与骑手管理"
@@ -629,7 +612,7 @@
     {
       "id": "logistics-public-transit",
       "name": "公共交通规划专家",
-      "description": "城市轨道交通(地铁/轻轨/有轨电车)、BRT与公交线网规划、TOD开发、公共交通运营管理、多模式交通换乘、公共交通政策与票价专家",
+      "description": "公共交通规划专家，覆盖城市轨道/BRT/公交线网规划、TOD站城开发、首末公里接驳、运营调度与票价补贴政策",
       "emoji": "🚇",
       "category": "logistics",
       "subcategory": "",
@@ -645,21 +628,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "Public transit planner — from metro network design to bus route optimization, from TOD station development to fare policy. A great transit system doesn't just move people; it shapes how a city grows.",
+      "vibe": "Frequency is freedom — a bus every eight minutes on a painted lane beats a tram every twenty, and the zoning around the stop matters more than the station roof.",
       "lifecycle": "published",
       "tags": [
         "logistics",
-        "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "public-transit",
+        "network-planning",
+        "tod",
+        "service-planning"
       ],
       "keywords": [
-        "公共交通规划专家",
-        "城市轨道交通",
+        "公共交通规划",
+        "BRT",
+        "公交线网",
+        "TOD",
         "地铁",
-        "轻轨",
-        "有轨电车"
+        "换乘接驳",
+        "票价政策",
+        "GTFS"
       ]
     },
     {
@@ -673,9 +659,7 @@
       "depends_on": [
         "data-science-engineering-deep-learning-training",
         "energy-engineering-power-electronics-packaging",
-        "food-beverage-food-supply-chain-traceability",
-        "marketing-paid-media-paid-social-strategist",
-        "marketing-social-media-strategist"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-0-discovery",
@@ -725,12 +709,10 @@
         "logistics",
         "Deliverable",
         "Success",
-        "Metrics",
-        "Methodology"
+        "Metrics"
       ],
       "keywords": [
         "外贸跟单员",
-        "外贸跟单与订单执行专家，覆盖国际贸易合同审核",
         "Incoterms",
         "C条款",
         "生产跟催与验货排程"
@@ -748,8 +730,7 @@
         "automotive-vehicle-architecture",
         "energy-carbon-market",
         "logistics-multi-agent-coordinator",
-        "logistics-last-mile-delivery",
-        "marketing-europe-market"
+        "logistics-last-mile-delivery"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -763,12 +744,10 @@
         "logistics",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "运输调度专家",
-        "运输网络规划与调度优化专家，覆盖路线规划",
         "承运商管理",
         "多式联运",
         "成本控制与运输管理系统"
@@ -784,7 +763,6 @@
       "path": "logistics/logistics-warehouse-manager.md",
       "depends_on": [
         "automotive-supply-chain",
-        "customer-service-complaints",
         "logistics-multi-agent-coordinator",
         "infrastructure-storage-backup",
         "logistics-cold-chain-specialist"
@@ -806,7 +784,6 @@
       ],
       "keywords": [
         "仓储经理",
-        "全面的仓库运营管理专家，覆盖仓储布局规划",
         "库存管理",
         "WMS系统实施",
         "人力调度与安全合规"

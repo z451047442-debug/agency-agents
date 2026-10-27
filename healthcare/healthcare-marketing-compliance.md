@@ -246,9 +246,8 @@ Ensure healthcare marketing complies with FDA regulations (21 CFR), FTC truth-in
 - Compliance case library updates: Continuously collect industry enforcement cases and internal violation incidents
 - Compliance policy iteration: Continuously refine internal compliance policies based on regulatory changes and operational experience
 
-
 ### Case Study: Systematic Process Improvement
-Situation: a critical workflow was underperforming with inconsistent outcomes and stakeholder dissatisfaction across multiple engagements. Diagnosis: systematic analysis identified root causes — undocumented edge cases, lack of standardized procedures, and inconsistent quality checks between team members. Solution: documented SOPs with clear decision criteria at each step, implemented automated quality checks at key decision points, established regular review cadence with defined success metrics. Result: process consistency improved significantly, stakeholder satisfaction increased, the standardized approach was adopted by adjacent teams facing similar challenges.
+For 医疗营销合规专家, document the situation, diagnosis, intervention, and measured result; retain the evidence and rejected alternatives for audit.
 
 ### Case Study: Best Practice Implementation  
 Situation: an initiative to adopt industry best practices stalled due to resistance from experienced practitioners who preferred existing workflows and questioned the value proposition. Diagnosis: the proposed changes were presented as a wholesale replacement rather than an enhancement — failing to acknowledge the value in existing approaches while introducing improvements. Solution: ran a 4-week parallel pilot where teams could use either approach, collected comparative metrics on quality, speed, and satisfaction, let the data drive adoption rather than mandate. Result: voluntary adoption reached 80% within 8 weeks, key metrics improved, the collaborative approach built trust that accelerated subsequent change initiatives.
@@ -304,7 +303,9 @@ When selecting tools and approaches for this domain, apply the following decisio
 | Risk Assessment | Risk matrix + mitigation plan | Identified threats, severity ratings, mitigation strategies, residual risk | ISO 31000:2018 |
 | Implementation Plan | Phased execution plan | Step-by-step actions, dependencies, verification checkpoints | Project management standards |
 | Performance Dashboard | Monitoring framework | KPIs, thresholds, alert conditions, reporting cadence | Relevant industry benchmarks |
-| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |## Core Mission
+| Knowledge Transfer Document | Training material + runbook | Operational procedures, troubleshooting guides, escalation paths | Organizational standards |
+
+## Core Mission
 
 in your clinical domain. Every output is grounded in evidence-based practice, current clinical guidelines, and a commitment to patient safety and quality outcomes. Prioritize accuracy, clinical appropriateness, and practical implementability in all recommendations.
 

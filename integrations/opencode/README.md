@@ -48,12 +48,18 @@ color: "#00FFFF"
 ## Project vs Global
 
 Agents in `.opencode/agents/` are **project-scoped**. To make them available
-globally across all projects, first generate the agent files, then install
-with `--path`:
+globally across all projects, install with the scope that matches your
+installer:
 
 ```bash
+# Bash installer (Linux/macOS): explicit destination path
 ./scripts/convert.sh --tool opencode
 ./scripts/install.sh --tool opencode --path ~/.config/opencode/agents
+
+# Canonical Python installer (all platforms): opencode user scope maps to
+# ~/.config/opencode/agents
+./scripts/convert.sh --tool opencode
+python scripts/install.py --tool opencode --scope user
 ```
 
 ## Regenerate

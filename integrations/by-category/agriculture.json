@@ -1,7 +1,7 @@
 {
   "category": "agriculture",
   "agent_count": 14,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "agriculture-agronomist",
@@ -14,8 +14,7 @@
       "depends_on": [
         "agriculture-economist",
         "automotive-engineering-functional-safety",
-        "infrastructure-identity-access",
-        "marketing-paid-media-tracking-specialist"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -28,7 +27,6 @@
         "agriculture",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -51,8 +49,6 @@
         "agriculture-general-manager",
         "data-science-engineering-knowledge-management",
         "hr-tech-people-analytics",
-        "legal-billing-time-tracking",
-        "legal-document-review",
         "specialized-multi-agent-director",
         "specialized-multi-agent-president",
         "specialized-multi-agent-project-manager"
@@ -68,17 +64,17 @@
       "lifecycle": "published",
       "tags": [
         "agriculture",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "strategy",
+        "portfolio-management",
+        "capital-allocation",
+        "sustainability"
       ],
       "keywords": [
         "农业总监",
-        "农业领域最高负责人，覆盖战略规划",
-        "团队建设",
-        "资源分配",
-        "跨部门协调与业务绩效管理"
+        "农业集团战略",
+        "资本配置",
+        "并购整合",
+        "农业可持续发展"
       ]
     },
     {
@@ -92,8 +88,7 @@
       "depends_on": [
         "agriculture-agronomist",
         "automotive-engineering-functional-safety",
-        "infrastructure-identity-access",
-        "marketing-paid-media-tracking-specialist"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -106,7 +101,6 @@
         "agriculture",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -120,7 +114,7 @@
     {
       "id": "agriculture-engineering-aquaculture-fish",
       "name": "水产养殖/渔业科学专家",
-      "description": "工业化水产养殖与可持续渔业管理专家，覆盖循环水养殖系统(RAS)/深海网箱/池塘精养、鱼虾贝藻种苗繁育/遗传选育、水产饲料/营养/病害防控与水产养殖尾水处理/碳汇渔业",
+      "description": "工业化水产养殖与可持续渔业专家，覆盖RAS循环水/池塘/网箱系统、水质与气体平衡、鱼虾贝藻营养与健康、生物安全及尾水与碳足迹",
       "emoji": "🐟",
       "category": "agriculture",
       "subcategory": "",
@@ -129,9 +123,7 @@
         "agriculture-agronomist",
         "agriculture-multi-agent-coordinator",
         "environmental-water-treatment",
-        "food-beverage-food-scientist",
-        "healthcare-mental-health",
-        "marketing-paid-media-tracking-specialist"
+        "food-beverage-food-scientist"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -139,27 +131,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Half the world's seafood comes from aquaculture — you design the farms that",
+      "vibe": "Fish suffocate in minutes while the dashboard still looks normal if the oxygen probe is the thing that failed",
       "lifecycle": "published",
       "tags": [
         "agriculture",
         "aquaculture",
-        "Managed",
         "production",
-        "hatchery"
+        "hatchery",
+        "water-quality"
       ],
       "keywords": [
         "水产养殖",
-        "渔业科学专家",
-        "工业化水产养殖与可持续渔业管理专家，覆盖循环水养殖系统",
         "RAS",
-        "深海网箱"
+        "循环水养殖",
+        "水质管理",
+        "生物滤池",
+        "鱼类营养",
+        "水产病害",
+        "生物安全",
+        "尾水处理",
+        "可持续渔业"
       ]
     },
     {
       "id": "agriculture-engineering-iot-agriculture",
-      "name": "农业机器人/自动化农机工程师",
-      "description": "农业自动驾驶与智能农机专家，覆盖拖拉机/收割机自动驾驶(GNSS RTK/视觉导航)、精量播种/变量施肥/智能喷药(See & Spray)、农机ISOBUS/机群管理与作业数据平台",
+      "name": "农业机器人与田间物联网工程师",
+      "description": "农业自动驾驶、智能农机与田间物联网专家，覆盖GNSS RTK导航、ISOBUS机具控制、变量作业与See & Spray、农机群管理与边缘计算",
       "emoji": "🚜",
       "category": "agriculture",
       "subcategory": "",
@@ -172,8 +169,6 @@
         "data-science-engineering-knowledge-management",
         "agriculture-multi-agent-coordinator",
         "gis-drone-reality-mapping",
-        "healthcare-mental-health",
-        "marketing-paid-media-tracking-specialist",
         "robotics-engineering-robotics-control-systems"
       ],
       "nexus_roles": [
@@ -182,21 +177,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A tractor that drives itself, a sprayer that sees every weed — you bring robotics",
+      "vibe": "A centimetre of guidance error repeated across a 200-hectare field is a yield loss you can see from the road",
       "lifecycle": "published",
       "tags": [
         "agriculture",
         "agricultural",
         "automation",
-        "Developed",
-        "autonomous"
+        "autonomous",
+        "isobus"
       ],
       "keywords": [
         "农业机器人",
-        "自动化农机工程师",
-        "农业自动驾驶与智能农机专家，覆盖拖拉机",
-        "收割机自动驾驶",
-        "GNSS"
+        "自动驾驶农机",
+        "GNSS RTK",
+        "ISOBUS",
+        "变量作业",
+        "See & Spray",
+        "农机群管理",
+        "农业物联网",
+        "边缘计算",
+        "精准农业"
       ]
     },
     {
@@ -209,11 +209,7 @@
       "path": "agriculture/agriculture-engineering-soil-science.md",
       "depends_on": [
         "agriculture-agronomist",
-        "cybersecurity-engineering-cyber-risk-model",
-        "agriculture-multi-agent-coordinator",
-        "finance-engineering-credit-risk-model",
-        "marketing-paid-media-tracking-specialist",
-        "testing-engineering-test-automation-framework"
+        "agriculture-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-2-foundation",
@@ -234,7 +230,6 @@
       "keywords": [
         "土壤科学",
         "土壤修复专家",
-        "土壤环境科学与污染场地修复专家，覆盖场地调查",
         "Phase",
         "II"
       ]
@@ -252,9 +247,7 @@
         "energy-carbon-market",
         "energy-engineering-carbon-capture-storage",
         "agriculture-multi-agent-coordinator",
-        "finance-capital-markets-analyst",
-        "hr-labor-relations",
-        "marketing-paid-media-tracking-specialist"
+        "hr-labor-relations"
       ],
       "nexus_roles": [
         "phase-1-strategy",
@@ -263,21 +256,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Farming is a business, not a lifestyle — you manage thousands of hectares, millions",
+      "vibe": "Farming is a business, not a lifestyle — you manage thousands of hectares, millions in revenue, and the oldest industry on Earth with the newest technology available",
       "lifecycle": "published",
       "tags": [
         "agriculture",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "farm-operations",
+        "agribusiness",
+        "pnl",
+        "risk-management"
       ],
       "keywords": [
         "农业总经理",
         "农场主",
         "农业企业",
-        "大型农场全面经营管理者，覆盖种植",
-        "养殖战略规划"
+        "大型农场全面经营管理者",
+        "种植养殖战略规划"
       ]
     },
     {
@@ -290,7 +283,6 @@
       "path": "agriculture/agriculture-iot-engineer.md",
       "depends_on": [
         "agriculture-agronomist",
-        "cybersecurity-engineering-threat-detection-engineer",
         "agriculture-multi-agent-coordinator",
         "iot-edge-computing",
         "logistics-last-mile-delivery"
@@ -307,12 +299,10 @@
         "agriculture",
         "Technical",
         "Process",
-        "Learning",
-        "Methodology"
+        "Learning"
       ],
       "keywords": [
         "农业物联网工程师",
-        "农业IoT与智能装备专家，覆盖土壤",
         "气象传感器网络",
         "智能灌溉控制",
         "农业无人机"
@@ -321,7 +311,7 @@
     {
       "id": "agriculture-livestock-manager",
       "name": "畜牧/养殖管理专家",
-      "description": "畜禽养殖与牧场管理专家，覆盖养殖场设计/生物安全、饲料配方/营养管理、繁殖/遗传改良、动物健康/福利与养殖经济",
+      "description": "畜禽养殖与牧场经营管理专家，覆盖牛猪禽饲养与营养、繁殖与遗传选育、生物安全与动物健康、福利与牧场经济",
       "emoji": "🐄",
       "category": "agriculture",
       "subcategory": "",
@@ -332,8 +322,7 @@
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-deep-learning-training",
         "data-science-engineering-knowledge-management",
-        "agriculture-multi-agent-coordinator",
-        "marketing-paid-media-tracking-specialist"
+        "agriculture-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -341,21 +330,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Raising animals at scale is biology, nutrition, and business management combined",
+      "vibe": "A herd is a biological system with a cash-flow statement — every ration, calving, and treatment decision shows up in both",
       "lifecycle": "published",
       "tags": [
         "agriculture",
         "livestock",
         "production",
-        "Managed",
-        "operations"
+        "operations",
+        "animal-health"
       ],
       "keywords": [
-        "畜牧",
-        "养殖管理专家",
-        "畜禽养殖与牧场管理专家，覆盖养殖场设计",
+        "畜牧管理",
+        "牧场经营",
+        "饲料营养",
+        "繁殖管理",
+        "遗传选育",
         "生物安全",
-        "饲料配方"
+        "动物福利",
+        "牛群健康",
+        "养殖经济"
       ]
     },
     {
@@ -376,20 +369,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating agriculture specialists into coherent multi-agent workflows",
+      "vibe": "A season window will not wait for consensus — route agronomy, field telemetry, and harvest logistics through one accountable plan.",
       "tags": [
         "agriculture",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "agronomy",
+        "precision-farming",
+        "agri-supply-chain",
+        "multi-agent-coordination"
       ],
       "keywords": [
-        "Agriculture",
-        "Multi-Agent",
-        "Coordinator",
-        "Coordinates",
-        "workflows"
+        "agriculture",
+        "seasonal-operations",
+        "precision-agronomy",
+        "agri-iot",
+        "harvest-traceability"
       ]
     },
     {
@@ -403,10 +396,8 @@
       "depends_on": [
         "agriculture-engineering-iot-agriculture",
         "data-science-feature-store",
-        "education-special-needs",
         "agriculture-multi-agent-coordinator",
-        "environmental-water-treatment",
-        "testing-test-results-analyzer"
+        "environmental-water-treatment"
       ],
       "nexus_roles": [
         "phase-2-foundation",
@@ -421,12 +412,10 @@
         "agriculture",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "精准农业专家",
-        "精准农业与数字农艺专家，覆盖遥感监测",
         "变量施肥",
         "产量预测",
         "土壤建模与农业数据分析"
@@ -442,11 +431,8 @@
       "path": "agriculture/agriculture-quality-safety.md",
       "depends_on": [
         "agriculture-agronomist",
-        "cybersecurity-incident-response",
         "agriculture-multi-agent-coordinator",
-        "finance-internal-auditor",
         "food-beverage-food-safety",
-        "marketing-europe-market",
         "quality-food-safety"
       ],
       "nexus_roles": [
@@ -461,12 +447,10 @@
         "agriculture",
         "Technical",
         "Process",
-        "Learning",
-        "Methodology"
+        "Learning"
       ],
       "keywords": [
         "农产品质量安全专家",
-        "农产品质量安全与合规专家，覆盖GAP认证",
         "农药残留管理",
         "食品安全体系",
         "HACCP"
@@ -483,8 +467,7 @@
       "depends_on": [
         "agriculture-agronomist",
         "automotive-engineering-functional-safety",
-        "infrastructure-identity-access",
-        "marketing-paid-media-tracking-specialist"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -497,7 +480,6 @@
         "agriculture",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -519,8 +501,7 @@
       "depends_on": [
         "agriculture-general-manager",
         "automotive-engineering-functional-safety",
-        "infrastructure-identity-access",
-        "marketing-paid-media-tracking-specialist"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -533,7 +514,6 @@
         "agriculture",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [

@@ -133,11 +133,8 @@ As per ISO 31000:2018 risk management and according to ISO 22301:2019 business c
 
 All deliverables integrate sport science, analytics, commercial strategy, and operations. Documentation follows relevant sport governing body regulations (FIFA, IOC, NCAA, NFL, NBA, MLB, NHL etc.), IOC Medical Commission guidelines, and WADA Code where applicable.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 运动医学专家, lead with the decision, quantify the impact in sports terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 

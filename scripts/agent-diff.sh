@@ -354,7 +354,13 @@ main() {
     case "$1" in
       --changed)   mode="changed"; shift ;;
       --category)  mode="category"; category="${2:?'--category requires a value'}"; shift 2 ;;
-      --since)     since="${2:?'--since requires a value'}"; shift 2 ;;
+      --since)
+        since="${2:?'--since requires a value'}"
+        [[ "$since" =~ ^[0-9]+$ ]] || {
+          echo "ERROR: --since must be a non-negative integer number of days." >&2
+          exit 2
+        }
+        shift 2 ;;
       --commit)    commit="${2:?'--commit requires a value'}"; shift 2 ;;
       --help|-h)   usage ;;
       -*)          echo "Unknown option: $1" >&2; usage ;;

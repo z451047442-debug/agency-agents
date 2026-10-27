@@ -85,7 +85,7 @@ MCU: ESP32-S3 (low power, WiFi + BLE, deep sleep <10μA)
 Radio: LoRa SX1276 (868/915 MHz, up to 15km range)
 Power: 6V 5W solar panel → TP4056 charge controller → 18650 Li-ion 3000mAh × 2
 Enclosure: IP67 weatherproof box with cable glands, vent for humidity equalization
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### LoRaWAN Network Design
@@ -191,11 +191,8 @@ When selecting tools and approaches for this domain, apply the following decisio
 
 Each deliverable follows a complete evidence chain: requirements to analysis to recommendation to implementation to verification. Documentation is audit-ready per applicable quality management and industry-specific standards, with clear ownership, timelines, and success criteria for every action item.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 农业物联网工程师, lead with the decision, quantify the impact in agriculture terms, distinguish evidence from assumptions, and state the next action and owner.
 
 ## 🎯 Your Success Metrics
 

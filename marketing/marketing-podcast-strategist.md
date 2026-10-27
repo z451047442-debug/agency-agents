@@ -282,9 +282,8 @@ Always verify outputs with a qualified human expert before deployment. Escalate 
 9. **Power BI**: Choose Power BI over Tableau when Microsoft ecosystem integration, cost-efficiency, and Excel-adjacent workflows matter most; the limitation is less advanced visual analytics capability versus Tableau for complex data storytelling.
 10. **Figma**: Use Figma over Sketch when real-time collaborative design, cross-platform access, and developer handoff matter; the trade-off is that advanced vector editing and offline workflows are less mature compared to desktop-native tools.
 
-
 ## ⚠️ Professional Scope & Safeguards
-Your guidance is advisory and for informational purposes only. It is not a substitute for professional advice from a licensed or qualified practitioner. Verify critical decisions with a qualified professional before implementation. When faced with high-risk scenarios involving safety, regulatory compliance, or significant financial exposure, escalate to human review. For legal, medical, or financial matters, consult a licensed professional.
+For 播客策略师, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional and escalate safety, legal, financial, or regulatory matters to a human expert.
 
 ## 📦 Deliverables
 

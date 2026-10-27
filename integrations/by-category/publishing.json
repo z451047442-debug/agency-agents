@@ -1,7 +1,7 @@
 {
   "category": "publishing",
   "agent_count": 9,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "publishing-academic",
@@ -35,7 +35,6 @@
       ],
       "keywords": [
         "学术出版专员",
-        "学术出版专家，覆盖同行评审管理",
         "开放获取合规（金色",
         "绿色",
         "混合OA）"
@@ -44,7 +43,7 @@
     {
       "id": "publishing-comics-illustration",
       "name": "漫画与插画创作专家",
-      "description": "漫画叙事(分镜/节奏/画格)、角色设计、插图风格(Manga/BD/美漫/图像小说)、数字绘画工具、叙事插画与出版流程专家",
+      "description": "漫画叙事与插画创作专家，覆盖分镜、画格节奏、角色设计、勾线上色、字体与印前、数字出版与创作者版权",
       "emoji": "🎨",
       "category": "publishing",
       "subcategory": "",
@@ -59,27 +58,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-12",
-      "vibe": "Comics artist and illustrator — from panel layouts to page turns, from character sheets to splash pages. Comics combine the narrative depth of literature with the visual immediacy of film, creating a medium where time is literally space on the page.",
+      "vibe": "In comics, time is space — a gutter is a held breath, and the page turn is the loudest beat you own",
       "lifecycle": "published",
       "tags": [
         "publishing",
-        "References",
-        "Standards",
-        "Outputs",
-        "Specification"
+        "comics",
+        "illustration",
+        "sequential-art",
+        "prepress"
       ],
       "keywords": [
-        "漫画与插画创作专家",
-        "漫画叙事",
-        "分镜",
-        "节奏",
-        "画格"
+        "comics",
+        "sequential art",
+        "storyboarding",
+        "panel layout",
+        "character design",
+        "lettering",
+        "illustration",
+        "prepress"
       ]
     },
     {
       "id": "publishing-creative-fiction",
       "name": "文学小说创作专家",
-      "description": "小说结构设计、人物塑造、叙事视角与声音、对话写作、场景构建、类型小说与写作工坊专家",
+      "description": "长篇小说与短篇小说创作专家，覆盖结构、人物、视角、声音、场景、类型契约、修订流程与投稿规范",
       "emoji": "📝",
       "category": "publishing",
       "subcategory": "",
@@ -93,21 +95,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-12",
-      "vibe": "Fiction writer — from three-act structure to stream of consciousness, from unreliable narrators to ensemble casts. Storytelling is the oldest human technology; mastering it means understanding both craft and the human heart.",
+      "vibe": "A story is a promise made in the first paragraph and kept, transformed, in the last — craft is knowing which promise you made",
       "lifecycle": "published",
       "tags": [
         "publishing",
-        "References",
-        "Standards",
-        "Outputs",
-        "Specification"
+        "creative-writing",
+        "fiction",
+        "narrative-craft",
+        "editorial"
       ],
       "keywords": [
-        "文学小说创作专家",
-        "小说结构设计",
-        "人物塑造",
-        "叙事视角与声音",
-        "对话写作"
+        "fiction writing",
+        "novel structure",
+        "character arc",
+        "point of view",
+        "scene and sequel",
+        "dialogue",
+        "genre conventions",
+        "revision"
       ]
     },
     {
@@ -138,12 +143,10 @@
         "publishing",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "数字出版经理",
-        "数字出版专家，覆盖电子书",
         "有声书制作",
         "数字分发渠道（Kindle",
         "Apple"
@@ -183,7 +186,6 @@
       ],
       "keywords": [
         "出版总监",
-        "出版领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -221,7 +223,6 @@
       ],
       "keywords": [
         "图书编辑",
-        "图书编辑专家，覆盖稿件审读与选题策划",
         "发展性编辑与逐行编辑",
         "作者关系管理",
         "书名定位与市场包装"
@@ -262,7 +263,6 @@
       ],
       "keywords": [
         "出版总经理",
-        "出版领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -294,13 +294,10 @@
       "tags": [
         "publishing",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "文学经纪人",
-        "文学经纪专家，覆盖作者发掘与签约",
         "稿件打磨与提案撰写",
         "出版合同谈判（预付",
         "版税"
@@ -309,7 +306,7 @@
     {
       "id": "publishing-poetry",
       "name": "诗歌创作专家",
-      "description": "诗歌形式与格律(自由诗/十四行诗/俳句/词/律诗)、意象与隐喻、声音与节奏、现代与古典诗歌传统、诗歌批评与工作坊专家",
+      "description": "诗歌创作与编辑专家，覆盖格律与自由诗、声音与行断、意象与隐喻、翻译伦理、朗诵与投稿策略",
       "emoji": "🎼",
       "category": "publishing",
       "subcategory": "",
@@ -324,21 +321,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-12",
-      "vibe": "Poet — from iambic pentameter to free verse, from Li Bai's wine-moon imagery to Mary Oliver's wild geese. Poetry is language at its most concentrated — every word, every line break, every sound matters.",
+      "vibe": "A poem is language under pressure — every line break, vowel and silence has to justify its place",
       "lifecycle": "published",
       "tags": [
         "publishing",
-        "References",
-        "Standards",
-        "Outputs",
-        "Specification"
+        "poetry",
+        "creative-writing",
+        "prosody",
+        "literary-editing"
       ],
       "keywords": [
-        "诗歌创作专家",
-        "诗歌形式与格律",
-        "自由诗",
-        "十四行诗",
-        "俳句"
+        "poetry",
+        "prosody",
+        "free verse",
+        "sonnet",
+        "haiku",
+        "regulated verse",
+        "line breaks",
+        "translation"
       ]
     }
   ]

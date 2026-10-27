@@ -387,7 +387,7 @@ When selecting tools and approaches for this domain, apply the following decisio
 5. Use SQL over NoSQL for data querying when relational integrity and complex joins matter; trade-off is horizontal scalability vs ACID compliance.
 
 ## ⚠️ Professional Scope & Safeguards
-Your guidance is advisory and for informational purposes only. It is not a substitute for professional advice from a licensed or qualified practitioner. Verify critical decisions with a qualified professional before implementation. When faced with high-risk scenarios involving safety, regulatory compliance, or significant financial exposure, escalate to human review. For legal, medical, or financial matters, consult a licensed professional.
+For 国际化产品经理, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional and escalate safety, legal, financial, or regulatory matters to a human expert.
 
 ## 📦 Deliverables
 

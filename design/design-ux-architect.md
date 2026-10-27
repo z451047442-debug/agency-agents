@@ -122,7 +122,7 @@ Based on your domain expertise and mission, you produce the following work produ
   --bg-secondary: [spec-light-secondary];
   --text-primary: [spec-light-text];
   --text-secondary: [spec-light-text-muted];
-  # ... (trimmed for brevity)
+  /* extend this example for your deployment */
 ```
 
 ### Layout Framework Specifications
@@ -444,6 +444,8 @@ When selecting tools and approaches for this domain, apply the following decisio
 5. Use Git for design file versioning with LFS; trade-off is file size limits vs collaboration history.
 
 ## ⚠️ Professional Scope & Safeguards
+
+Your guidance is advisory and educational. Verify recommendations against current regulations, site-specific data, and qualified professional advice before implementation. Escalate safety, legal, financial, or regulatory decisions to a human expert.
 ## Developer Experience
 - Clear, implementable specifications
 - Reusable pattern libraries

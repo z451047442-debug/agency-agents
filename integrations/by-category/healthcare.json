@@ -1,7 +1,7 @@
 {
   "category": "healthcare",
   "agent_count": 54,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "healthcare-anesthesiologist",
@@ -28,16 +28,19 @@
       "tags": [
         "healthcare",
         "anesthesiology",
-        "Managed",
         "anesthesia",
-        "surgical"
+        "perioperative",
+        "patient-safety"
       ],
       "keywords": [
         "麻醉科医师",
-        "临床麻醉与围术期医学专家，覆盖全身",
-        "区域",
-        "局部麻醉",
-        "困难气道管理"
+        "全身麻醉",
+        "区域麻醉",
+        "困难气道",
+        "术中监测",
+        "术后镇痛",
+        "PACU",
+        "围术期医学"
       ]
     },
     {
@@ -68,12 +71,10 @@
         "healthcare",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "临床诊断医师",
-        "临床诊断与内科专家，覆盖病史采集",
         "鉴别诊断",
         "循证医学",
         "检查解读与治疗方案制定"
@@ -104,13 +105,10 @@
       "tags": [
         "healthcare",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "医疗客服专员",
-        "富有同理心的医疗客户服务专家，处理患者支持",
         "账单咨询",
         "预约管理",
         "保险问题与投诉解决"
@@ -119,7 +117,7 @@
     {
       "id": "healthcare-dentist",
       "name": "口腔科/牙科医师",
-      "description": "口腔医学与牙科临床专家，覆盖口腔疾病诊治(龋病/牙周/牙髓)、口腔修复(冠/桥/种植/义齿)/正畸、儿童牙科/预防保健与口腔颌面影像/麻醉",
+      "description": "Dentist covering caries risk, periodontal staging, endodontics, implants, oral surgery triage, local anesthesia limits, infection control, and medically complex dental care",
       "emoji": "🦷",
       "category": "healthcare",
       "subcategory": "",
@@ -136,21 +134,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A smile is the first thing people notice — you restore function, relieve pain,",
+      "vibe": "A tooth is a small organ with a large consequence — you stop pain, arrest infection, and protect the mouth that the rest of the body depends on",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "dental",
-        "practice",
-        "Provided",
-        "comprehensive"
+        "dentistry",
+        "oral-health",
+        "clinical-practice",
+        "patient-safety"
       ],
       "keywords": [
-        "口腔科",
-        "牙科医师",
-        "口腔医学与牙科临床专家，覆盖口腔疾病诊治",
-        "龋病",
-        "牙周"
+        "dentistry",
+        "caries",
+        "periodontitis",
+        "endodontics",
+        "dental implants",
+        "oral surgery",
+        "infection control",
+        "local anesthesia"
       ]
     },
     {
@@ -183,7 +184,6 @@
       ],
       "keywords": [
         "医疗健康总监",
-        "医疗健康领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -216,13 +216,11 @@
         "healthcare",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "急诊",
         "院前急救医师",
-        "急诊医学与院前急救专家，覆盖急诊分诊",
         "危重症识别",
         "创伤"
       ]
@@ -230,7 +228,7 @@
     {
       "id": "healthcare-engineering-3d-bioprinting",
       "name": "生物3D打印/组织器官打印研究员",
-      "description": "生物墨水与活细胞3D打印专家，覆盖挤出式/喷墨式/光固化(DLP/SLA)生物打印、生物墨水(水凝胶/脱细胞基质/纳米纤维素)、细胞存活率/血管化/组织成熟与生物打印ISO/ASTM标准",
+      "description": "生物3D打印与组织工程研究员，覆盖挤出/喷墨/光固化生物打印、生物墨水与流变学、细胞存活率与血管化、ISO 10993/ASTM F2150 表征、无菌工艺与 21 CFR 1271 人体细胞组织法规",
       "emoji": "🖨️",
       "category": "healthcare",
       "subcategory": "",
@@ -247,21 +245,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Printing living human tissue layer by layer — skin for burn victims, cartilage for joints, eventually whole organs. That's bioprinting.",
+      "vibe": "A printed tissue is only as good as its weakest filament — rheology, shear, sterility, and maturation decide whether the cells survive the print",
       "lifecycle": "published",
       "tags": [
         "healthcare",
         "bioprinting",
-        "Printed",
-        "living",
-        "tissues"
+        "tissue-engineering",
+        "biomaterials",
+        "regenerative-medicine"
       ],
       "keywords": [
         "生物3D打印",
-        "组织器官打印研究员",
-        "生物墨水与活细胞3D打印专家，覆盖挤出式",
-        "喷墨式",
-        "光固化"
+        "生物墨水",
+        "组织工程",
+        "挤出式打印",
+        "光固化打印",
+        "血管化",
+        "ISO 10993",
+        "ASTM F2150"
       ]
     },
     {
@@ -289,14 +290,12 @@
       "tags": [
         "healthcare",
         "biomaterials",
-        "Developed",
         "implantable",
         "materials"
       ],
       "keywords": [
         "生物材料",
         "组织工程研究员",
-        "可植入生物材料与组织再生支架专家，覆盖可降解聚合物",
         "PLA",
         "PGA"
       ]
@@ -333,7 +332,6 @@
       ],
       "keywords": [
         "生物医学工程师",
-        "生物医学工程与医疗器械开发专家，覆盖医疗设备设计",
         "开发",
         "ISO",
         "生物信号处理"
@@ -342,7 +340,7 @@
     {
       "id": "healthcare-engineering-biostatistics-clinical",
       "name": "临床数据管理/生物统计程序员",
-      "description": "临床试验数据管理与SAS/R统计编程专家，覆盖CRF/eCRF病例报告表设计、CDISC标准(SDTM/ADaM)、SAS/R统计分析编程(TLF)与临床数据核查/清洗",
+      "description": "Clinical data manager and statistical programmer covering estimands, SAP design, CDISC SDTM/ADaM, double programming, multiplicity control, and submission-ready TLFs",
       "emoji": "💻",
       "category": "healthcare",
       "subcategory": "",
@@ -359,27 +357,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Clinical trial data proves whether medicines work — you manage and analyze the",
+      "vibe": "The conclusion is only as trustworthy as the dataset behind it — you make every number in a submission reproducible, traceable, and defensible",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "clinical",
-        "statistical",
-        "programming",
-        "Programmed"
+        "clinical-trials",
+        "biostatistics",
+        "data-management",
+        "regulatory-submission"
       ],
       "keywords": [
-        "临床数据管理",
-        "生物统计程序员",
-        "临床试验数据管理与SAS",
-        "R统计编程专家，覆盖CRF",
-        "eCRF病例报告表设计"
+        "clinical biostatistics",
+        "statistical programming",
+        "CDISC",
+        "SDTM",
+        "ADaM",
+        "estimand",
+        "SAP",
+        "data management"
       ]
     },
     {
       "id": "healthcare-engineering-biotech-process",
       "name": "生物工艺/发酵工程师",
-      "description": "生物反应器与发酵工艺放大专家，覆盖CHO/微生物发酵工艺开发、上游(USP)/下游(DSP)生物工艺、PAT过程分析技术与cGMP生物制药生产",
+      "description": "Bioprocess engineer covering CHO and microbial upstream development, harvest and downstream purification, scale-up, process validation, viral safety, and cGMP manufacturing",
       "emoji": "🧬",
       "category": "healthcare",
       "subcategory": "",
@@ -396,21 +397,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Living cells are the world's most sophisticated chemical factories — you grow",
+      "vibe": "Cells do the chemistry, but the process earns the batch — you turn a lab-scale culture into a reproducible medicine",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "bioprocess",
-        "development",
-        "Scaled",
-        "fermentation"
+        "bioprocessing",
+        "biopharmaceutical",
+        "manufacturing",
+        "quality"
       ],
       "keywords": [
-        "生物工艺",
-        "发酵工程师",
-        "生物反应器与发酵工艺放大专家，覆盖CHO",
-        "微生物发酵工艺开发",
-        "上游"
+        "bioprocess",
+        "upstream",
+        "downstream",
+        "CHO cells",
+        "fermentation",
+        "process validation",
+        "viral clearance",
+        "cGMP"
       ]
     },
     {
@@ -437,17 +441,22 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "clinical",
-        "research",
-        "Coordinated",
-        "trials"
+        "clinical-research",
+        "gcp",
+        "site-operations",
+        "patient-safety"
       ],
       "keywords": [
         "临床研究协调员",
         "CRC",
         "研究护士",
-        "临床试验现场运营与受试者管理专家，覆盖GCP",
-        "ICH"
+        "知情同意",
+        "受试者随访",
+        "源数据核查",
+        "试验药物管理",
+        "生物样本管理",
+        "GCP",
+        "ICH E6(R2)"
       ]
     },
     {
@@ -475,22 +484,27 @@
       "tags": [
         "healthcare",
         "pharmaceutical",
+        "cold-chain",
         "logistics",
-        "Designed",
-        "cold"
+        "gdp"
       ],
       "keywords": [
         "医药冷链",
-        "GDP温控物流工程师",
-        "药品优良分销规范",
         "GDP",
-        "冷链物流与温度控制专家，覆盖药品冷链"
+        "温控包装",
+        "被动温控",
+        "主动温控",
+        "温度监测",
+        "冷链验证",
+        "药品序列化",
+        "DSCSA",
+        "EU FMD"
       ]
     },
     {
       "id": "healthcare-engineering-cryo-electron-microscopy",
       "name": "冷冻电镜(Cryo-EM)/结构生物学研究员",
-      "description": "单颗粒冷冻电镜与冷冻电子断层扫描(cryo-ET)结构生物学专家，覆盖冷冻样品制备( Vitrobot/Plunge Freeze)/数据收集、单颗粒分析(RELION/cryoSPARC)/图像处理与原子模型搭建/验证(Coot/Phenix)",
+      "description": "单颗粒冷冻电镜与冷冻电子断层扫描(cryo-ET)结构生物学专家，覆盖冷冻样品制备(Vitrobot/Plunge Freeze)/数据收集、单颗粒分析(RELION/cryoSPARC)/图像处理与原子模型搭建/验证(Coot/Phenix)",
       "emoji": "🔬",
       "category": "healthcare",
       "subcategory": "",
@@ -511,17 +525,18 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "structural",
-        "biology",
-        "Determined",
-        "macromolecular"
+        "cryo-em",
+        "structural-biology",
+        "single-particle",
+        "model-validation"
       ],
       "keywords": [
         "冷冻电镜",
         "Cryo-EM",
-        "结构生物学研究员",
-        "单颗粒冷冻电镜与冷冻电子断层扫描",
-        "cryo-ET"
+        "cryo-ET",
+        "单颗粒分析",
+        "结构生物学",
+        "原子模型验证"
       ]
     },
     {
@@ -545,23 +560,23 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "plant",
-        "gene",
-        "editing",
-        "Developed"
+        "plant-biotechnology",
+        "gene-editing",
+        "crop-breeding",
+        "biosafety"
       ],
       "keywords": [
         "基因编辑",
-        "CRISPR农业应用研究员",
-        "Gene",
-        "Editing",
-        "作物育种与农业生物技术专家，覆盖CRISPR"
+        "CRISPR",
+        "作物育种",
+        "植物转化",
+        "基因编辑作物法规"
       ]
     },
     {
       "id": "healthcare-engineering-gene-therapy",
       "name": "基因治疗/细胞治疗CMC专家",
-      "description": "AAV/慢病毒载体基因治疗与CAR-T/ TCR-T细胞治疗CMC工艺专家，覆盖病毒载体(悬浮HEK293/Sf9-杆状病毒)上游/下游纯化、自体/异体细胞治疗工艺(磁珠/自动化)、关键质量属性(CQA)/效力检测与BLA/MAA",
+      "description": "AAV/慢病毒载体与CAR-T/TCR-T细胞治疗CMC专家，覆盖上游生产、下游纯化、CQA与效力方法、自体批次唯一性与身份链、无菌工艺、ICH Q5/Q8-Q11 与 BLA/IND 的 CMC 模块",
       "emoji": "🧬",
       "category": "healthcare",
       "subcategory": "",
@@ -578,21 +593,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "One infusion of engineered cells or one injection of a viral vector can cure",
+      "vibe": "In advanced therapy manufacturing the product is the process, the batch may be one patient, and a single unclosed identity loop can turn a cure into a catastrophic mix-up",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "advanced",
-        "therapy",
-        "Developed",
-        "manufacturing"
+        "gene-therapy",
+        "cell-therapy",
+        "bioprocessing",
+        "regulatory-cmc"
       ],
       "keywords": [
         "基因治疗",
-        "细胞治疗CMC专家",
+        "细胞治疗",
+        "CMC",
         "AAV",
-        "慢病毒载体基因治疗与CAR-T",
-        "TCR-T细胞治疗CMC工艺专家，覆盖病毒载体"
+        "慢病毒载体",
+        "CAR-T",
+        "关键质量属性",
+        "效力检测",
+        "无菌工艺",
+        "ICH Q5"
       ]
     },
     {
@@ -621,22 +641,23 @@
       "tags": [
         "healthcare",
         "bioinformatics",
-        "computational",
-        "biology",
-        "Analyzed"
+        "genomics",
+        "ngs-pipelines",
+        "variant-calling"
       ],
       "keywords": [
         "生物信息学",
-        "基因组学数据科学家",
-        "生物信息学与基因组数据分析专家，覆盖NGS测序数据处理",
-        "DNA",
-        "RNA-seq"
+        "基因组学",
+        "NGS",
+        "变异检测",
+        "单细胞",
+        "生物信息学管道"
       ]
     },
     {
       "id": "healthcare-engineering-medical-device-software",
       "name": "医疗设备软件(SaMD/SiMD)工程师",
-      "description": "医疗器械软件与健康IT合规开发专家，覆盖IEC 62304软件生命周期、FDA 510(k)/PMA/De Novo提交、医疗设备网络安全(FDA",
+      "description": "医疗器械软件与健康IT合规开发专家，覆盖IEC 62304软件生命周期、FDA 510(k)/PMA/De Novo提交、医疗设备网络安全(FDA Cybersecurity Guidance)与互操作性(HL7/FHIR/DICOM)",
       "emoji": "🏥",
       "category": "healthcare",
       "subcategory": "",
@@ -657,23 +678,28 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "medical",
-        "device",
+        "medical-device",
         "software",
-        "Developed"
+        "regulatory",
+        "cybersecurity"
       ],
       "keywords": [
-        "医疗设备软件",
         "SaMD",
         "SiMD",
-        "工程师",
-        "医疗器械软件与健康IT合规开发专家，覆盖IEC"
+        "IEC 62304",
+        "ISO 14971",
+        "医疗器械网络安全",
+        "FDA 510(k)",
+        "FHIR",
+        "DICOM",
+        "SBOM",
+        "设计控制"
       ]
     },
     {
       "id": "healthcare-engineering-medical-imaging-ai",
       "name": "医学影像AI/放射组学研究员",
-      "description": "医学影像人工智能与影像组学(Radiomics)专家，覆盖CT/MRI/PET/病理图像AI分割/分类/检测、放射组学特征提取(PyRadiomics)/特征选择、多模态影像融合与AI医学设备FDA/CE/NMPA注册(SaMD)",
+      "description": "Medical imaging AI and radiomics researcher covering DICOM pipelines, segmentation, external validation, calibration, SaMD regulation, and post-market drift monitoring",
       "emoji": "🩻",
       "category": "healthcare",
       "subcategory": "",
@@ -691,27 +717,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "AI that reads CT scans, detects tumors, and predicts treatment response — you build the algorithms that augment radiologists and save lives through earlier diagnosis",
+      "vibe": "An algorithm is not a diagnosis — you build imaging models that survive new scanners, new hospitals, and the scrutiny of a regulator",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "medical",
-        "image",
-        "Developed",
-        "FDA-cleared"
+        "medical-imaging",
+        "artificial-intelligence",
+        "regulatory",
+        "clinical-validation"
       ],
       "keywords": [
-        "医学影像AI",
-        "放射组学研究员",
-        "医学影像人工智能与影像组学",
-        "Radiomics",
-        "专家，覆盖CT"
+        "medical imaging AI",
+        "radiomics",
+        "DICOM",
+        "segmentation",
+        "external validation",
+        "SaMD",
+        "FDA 510(k)",
+        "model monitoring"
       ]
     },
     {
       "id": "healthcare-engineering-medical-robotics",
       "name": "手术机器人/医疗机器人工程师",
-      "description": "微创手术机器人与介入导航系统专家，覆盖主从控制/力反馈/运动缩放、手术器械/末端执行器/无菌适配器、术中导航/光学追踪与FDA/CE注册(IEC",
+      "description": "微创手术机器人系统工程师，覆盖主从遥操作与运动学、力反馈/阻抗控制、无菌器械与末端执行器、术中光学/电磁导航，以及IEC 60601/62304/ISO 14971与FDA/MDR注册证据链",
       "emoji": "🏥",
       "category": "healthcare",
       "subcategory": "",
@@ -729,21 +758,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A surgeon's hands tremor, their reach is limited, and their vision is direct",
+      "vibe": "A surgical robot earns its place in the OR only when every motion is bounded, every hazard is traced to a control, and every claim is backed by evidence the surgeon and regulator can inspect.",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "medical",
-        "robotics",
-        "Developed",
-        "surgical"
+        "medical-robotics",
+        "surgical",
+        "control-systems",
+        "regulatory"
       ],
       "keywords": [
         "手术机器人",
-        "医疗机器人工程师",
-        "微创手术机器人与介入导航系统专家，覆盖主从控制",
+        "医疗机器人",
+        "主从控制",
         "力反馈",
-        "运动缩放"
+        "运动学",
+        "无菌器械",
+        "术中导航",
+        "IEC 62304",
+        "ISO 14971",
+        "FDA 510(k)"
       ]
     },
     {
@@ -772,16 +806,18 @@
       "tags": [
         "healthcare",
         "microbiome",
-        "research",
-        "Analyzed",
-        "microbial"
+        "metagenomics",
+        "host-microbe",
+        "live-biotherapeutics"
       ],
       "keywords": [
         "微生物组",
-        "宏基因组学研究员",
-        "人体与环境微生物组计算生物学专家，覆盖宏基因组",
-        "16S",
-        "rRNA扩增子测序分析"
+        "宏基因组学",
+        "16S rRNA",
+        "多组学整合",
+        "菌群-宿主互作",
+        "益生菌",
+        "活体生物药"
       ]
     },
     {
@@ -807,17 +843,20 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "product",
-        "development",
-        "Developed",
-        "molecular"
+        "molecular-diagnostics",
+        "ivd",
+        "assay-development",
+        "regulatory"
       ],
       "keywords": [
         "分子诊断",
-        "精准医疗产品开发专家",
         "体外诊断",
-        "IVD",
-        "与分子诊断产品开发专家，覆盖PCR"
+        "精准医疗",
+        "伴随诊断",
+        "PCR",
+        "NGS",
+        "IVDR",
+        "NMPA"
       ]
     },
     {
@@ -846,15 +885,13 @@
         "healthcare",
         "neural",
         "engineering",
-        "Developed",
         "systems"
       ],
       "keywords": [
         "神经工程",
         "脑机接口",
         "BCI",
-        "研究员",
-        "神经工程与脑机接口技术研究员，覆盖非侵入式"
+        "研究员"
       ]
     },
     {
@@ -882,14 +919,12 @@
       "tags": [
         "healthcare",
         "radiopharmaceuticals",
-        "Developed",
         "diagnostic",
         "therapeutic"
       ],
       "keywords": [
         "核医学",
         "放射性药物专家",
-        "诊断治疗一体化核医学与放射性药物专家，覆盖PET",
         "18F",
         "68Ga"
       ]
@@ -918,17 +953,17 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "ophthalmic",
-        "optics",
-        "Designed",
-        "lenses"
+        "optometry",
+        "ophthalmic-optics",
+        "lens-design",
+        "contact-lenses"
       ],
       "keywords": [
         "视光学",
-        "眼科光学工程师",
-        "眼科光学与视觉矫正技术专家，覆盖眼镜片光学设计",
-        "单光",
-        "渐进多焦点"
+        "眼科光学",
+        "渐进多焦点镜片",
+        "角膜接触镜",
+        "波前像差"
       ]
     },
     {
@@ -971,7 +1006,7 @@
     {
       "id": "healthcare-engineering-pharmacoeconomics",
       "name": "药物经济学/卫生技术评估(HTA)专家",
-      "description": "药物经济学评价与医保准入谈判专家，覆盖成本效果/成本效用分析(CER/ICER/QALY)、预算影响分析(BIA)、卫生技术评估(HTA)/价值档案(Value",
+      "description": "Pharmacoeconomics and HTA specialist covering cost-effectiveness and cost-utility models, ICERs, QALYs, budget impact analysis, value dossiers, and payer reimbursement strategy",
       "emoji": "💊",
       "category": "healthcare",
       "subcategory": "",
@@ -988,27 +1023,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A drug that cures cancer but costs $1 million per patient — is it worth it?",
+      "vibe": "Price is not value — you translate clinical evidence into the economic argument that decides whether a therapy reaches patients",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "pharmacoeconomics",
-        "Built",
-        "submissions",
-        "value"
+        "health-economics",
+        "market-access",
+        "payer-strategy",
+        "reimbursement"
       ],
       "keywords": [
-        "药物经济学",
-        "卫生技术评估",
+        "pharmacoeconomics",
+        "health technology assessment",
         "HTA",
-        "专家",
-        "药物经济学评价与医保准入谈判专家，覆盖成本效果"
+        "cost-effectiveness",
+        "QALY",
+        "ICER",
+        "budget impact",
+        "market access"
       ]
     },
     {
       "id": "healthcare-engineering-pharmacovigilance",
       "name": "药物警戒/药品安全专家",
-      "description": "上市后药物警戒与药品安全管理专家，覆盖不良事件(AE/SAE/SUSAR)个例报告处理/MedDRA编码、PSUR/PBRER/DSUR定期报告、信号检测(Empirical",
+      "description": "药物警戒与药品安全专家，覆盖ICSR(AE/SAE/SUSAR)处理与MedDRA编码、信号检测(PRR/BCPNN)、DSUR/PSUR/PBRER与RMP/REMS",
       "emoji": "⚕️",
       "category": "healthcare",
       "subcategory": "",
@@ -1029,23 +1067,29 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "drug",
-        "safety",
-        "Managed",
-        "products"
+        "pharmacovigilance",
+        "drug-safety",
+        "regulatory",
+        "patient-safety"
       ],
       "keywords": [
         "药物警戒",
-        "药品安全专家",
-        "上市后药物警戒与药品安全管理专家，覆盖不良事件",
-        "AE",
-        "SAE"
+        "药品安全",
+        "ICSR",
+        "SUSAR",
+        "MedDRA",
+        "信号检测",
+        "PSUR",
+        "PBRER",
+        "DSUR",
+        "RMP",
+        "REMS"
       ]
     },
     {
       "id": "healthcare-engineering-phenomics-phenotyping",
       "name": "表型组学/高通量植物表型研究员",
-      "description": "植物表型组学与高通量自动化表型平台专家，覆盖可见光/高光谱/荧光/热红外/LiDAR传感器表型数据采集、图像处理/深度学习特征提取(GWAS/QTL)、环境响应(GxE互作)与Field/Lab/Greenhouse表型平台",
+      "description": "植物表型组学与高通量自动化表型平台专家，覆盖可见光/高光谱/荧光/热红外/LiDAR传感器采集、图像与深度学习特征提取、GWAS/QTL与GxE分析及Field/Lab/Greenhouse表型平台",
       "emoji": "🌱",
       "category": "healthcare",
       "subcategory": "",
@@ -1065,17 +1109,17 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "plant",
-        "phenotyping",
-        "Built",
-        "automated"
+        "plant-phenomics",
+        "high-throughput-phenotyping",
+        "remote-sensing",
+        "quantitative-genetics"
       ],
       "keywords": [
         "表型组学",
-        "高通量植物表型研究员",
-        "植物表型组学与高通量自动化表型平台专家，覆盖可见光",
-        "高光谱",
-        "荧光"
+        "高通量植物表型",
+        "植物表型平台",
+        "高光谱成像",
+        "基因组选择"
       ]
     },
     {
@@ -1111,14 +1155,13 @@
         "假肢",
         "矫形器",
         "康复辅具工程师",
-        "上下肢假肢与脊柱",
-        "四肢矫形器临床工程专家，覆盖肌电"
+        "上下肢假肢与脊柱"
       ]
     },
     {
       "id": "healthcare-engineering-regulatory-science",
       "name": "监管科学/法规策略(Regulatory Strategy)顾问",
-      "description": "药品/医疗器械/食品化妆品法规注册策略专家，覆盖FDA IND/NDA/BLA、EMA MAA、NMPA IND/NDA注册路径、孤儿药/突破性疗法/优先审评与CMC法规(药学/工艺验证)",
+      "description": "Drug, biologic, device, food and cosmetic regulatory strategist covering FDA IND/NDA/BLA, EMA MAA, NMPA routes, expedited programs, and CMC/labeling lifecycle strategy",
       "emoji": "📋",
       "category": "healthcare",
       "subcategory": "",
@@ -1136,27 +1179,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A drug that can't get approved is a scientific discovery, not a medicine. You",
+      "vibe": "A molecule is not a medicine until a regulator says yes — you design the evidence and the route that make that yes defensible",
       "lifecycle": "published",
       "tags": [
         "healthcare",
         "regulatory",
-        "affairs",
-        "successful",
-        "NDA/BLA"
+        "submissions",
+        "drugs",
+        "devices"
       ],
       "keywords": [
-        "监管科学",
-        "法规策略",
-        "Regulatory",
-        "Strategy",
-        "顾问"
+        "regulatory science",
+        "regulatory strategy",
+        "FDA",
+        "EMA",
+        "NMPA",
+        "IND",
+        "NDA",
+        "BLA",
+        "MAA",
+        "CMC"
       ]
     },
     {
       "id": "healthcare-engineering-sewage-epidemiology",
       "name": "污水流行病学(WBE)/环境病原监测专家",
-      "description": "基于废水的公共卫生监测与流行病学专家，覆盖污水中病原体(病毒/细菌/耐药基因AMR)/药物/代谢标志物检测(qPCR/ddPCR/靶向/非靶向分析)、人群消费/健康行为反演(WBE",
+      "description": "基于废水的公共卫生监测专家，覆盖污水病原体/耐药基因/药物标志物检测(qPCR/ddPCR/LC-MS)、WBE反演与公共卫生早期预警",
       "emoji": "🦠",
       "category": "healthcare",
       "subcategory": "",
@@ -1177,23 +1225,23 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "Monitored",
-        "population",
-        "health",
-        "through"
+        "wastewater-epidemiology",
+        "environmental-surveillance",
+        "public-health",
+        "amr"
       ],
       "keywords": [
         "污水流行病学",
-        "WBE",
-        "环境病原监测专家",
-        "基于废水的公共卫生监测与流行病学专家，覆盖污水中病原体",
-        "病毒"
+        "废水监测",
+        "环境病原监测",
+        "抗微生物耐药",
+        "公共卫生预警"
       ]
     },
     {
       "id": "healthcare-engineering-synthetic-biology",
       "name": "合成生物学/基因线路设计研究员",
-      "description": "合成生物学与基因线路工程专家，覆盖CRISPR/Cas基因编辑/碱基编辑、基因线路(逻辑门/振荡器/开关)设计、代谢途径工程/底盘生物与DNA合成/组装(Gibson/Golden",
+      "description": "合成生物学与基因线路工程专家，覆盖CRISPR/Cas基因编辑/碱基编辑、基因线路(逻辑门/振荡器/开关)设计、代谢途径工程/底盘生物与DNA合成/组装(Gibson/Golden Gate)",
       "emoji": "🧬",
       "category": "healthcare",
       "subcategory": "",
@@ -1210,21 +1258,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Biology is programmable — you write the genetic code that reprograms cells to",
+      "vibe": "Biology is programmable — you write the genetic code that reprograms cells to produce medicines, materials, and food",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "synthetic",
-        "biology",
-        "Engineered",
-        "organisms"
+        "synthetic-biology",
+        "gene-circuits",
+        "metabolic-engineering",
+        "genome-editing"
       ],
       "keywords": [
         "合成生物学",
-        "基因线路设计研究员",
-        "合成生物学与基因线路工程专家，覆盖CRISPR",
-        "Cas基因编辑",
-        "碱基编辑"
+        "基因线路",
+        "CRISPR/Cas",
+        "碱基编辑",
+        "代谢工程",
+        "DNA组装",
+        "底盘细胞"
       ]
     },
     {
@@ -1251,23 +1301,25 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "systems",
-        "biology",
-        "Built",
-        "computational"
+        "systems-biology",
+        "network-pharmacology",
+        "multi-omics",
+        "target-discovery"
       ],
       "keywords": [
         "系统生物学",
-        "网络药理学研究员",
-        "系统生物学与网络药理学研究专家，覆盖蛋白质互作网络",
-        "PPI",
-        "基因调控网络"
+        "网络药理学",
+        "蛋白质互作网络",
+        "基因调控网络",
+        "多组学整合",
+        "药物靶点发现",
+        "老药新用"
       ]
     },
     {
       "id": "healthcare-engineering-veterinary-medicine",
       "name": "兽医影像/兽医外科专家",
-      "description": "小动物/异宠/大动物兽医影像诊断与外科专家，覆盖DR/CT/MRI/超声兽医影像判读、软组织/骨科/神经外科/微创(腹腔镜/关节镜)、麻醉/疼痛管理与兽医临床病理",
+      "description": "Veterinary imaging and surgery specialist covering species-specific anesthesia, orthopedic and soft-tissue procedures, emergency triage, pain assessment, and client communication",
       "emoji": "🐾",
       "category": "healthcare",
       "subcategory": "",
@@ -1284,21 +1336,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The same CT and MRI technology that diagnoses human disease now serves pets,",
+      "vibe": "A dog, a cat, a rabbit, and a horse are not small versions of each other — you treat the species in front of you, and the family who loves it",
       "lifecycle": "published",
       "tags": [
         "healthcare",
         "veterinary",
-        "medicine",
-        "Performed",
-        "advanced"
+        "surgery",
+        "imaging",
+        "animal-welfare"
       ],
       "keywords": [
-        "兽医影像",
-        "兽医外科专家",
-        "小动物",
-        "异宠",
-        "大动物兽医影像诊断与外科专家，覆盖DR"
+        "veterinary medicine",
+        "veterinary surgery",
+        "veterinary imaging",
+        "anesthesia",
+        "pain management",
+        "emergency care",
+        "species differences"
       ]
     },
     {
@@ -1325,7 +1379,6 @@
         "healthcare",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1370,7 +1423,6 @@
       ],
       "keywords": [
         "医疗健康总经理",
-        "医疗健康领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -1379,7 +1431,7 @@
     {
       "id": "healthcare-hospital-administrator",
       "name": "医院管理专家",
-      "description": "医院管理与运营专家，覆盖医疗质量管理、JCI评审、床位调度、感控管理、医保控费与服务流程优化",
+      "description": "医院运营与质量管理专家，覆盖患者流转与床位调度、CMS CoPs/JCI 评审准备、感染防控、人力配置、不良事件管理与运营指标体系",
       "emoji": "🏥",
       "category": "healthcare",
       "subcategory": "",
@@ -1396,27 +1448,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Running a hospital is like running a hotel where every guest is having the worst",
+      "vibe": "A hospital runs on thousands of handoffs a day — my job is to make the next one safer, faster, and funded",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "hospital-operations",
+        "patient-flow",
+        "quality-safety",
+        "regulatory-readiness"
       ],
       "keywords": [
-        "医院管理专家",
-        "医院管理与运营专家，覆盖医疗质量管理",
-        "JCI评审",
+        "医院运营管理",
+        "患者流转",
         "床位调度",
-        "感控管理"
+        "CMS CoPs",
+        "JCI评审",
+        "感控管理",
+        "医疗质量管理",
+        "运营指标"
       ]
     },
     {
       "id": "healthcare-hospital-ceo",
       "name": "医院院长/CEO",
-      "description": "医院最高管理者，覆盖医院战略/学科建设、医疗质量/患者安全治理、财务可持续性/医保控费、人才梯队/科研教学与政府/社区关系",
+      "description": "医院院长/CEO，负责董事会治理与战略、资本配置与支付方合同、服务线组合与并购、CMS Star/HRRP 质量激励、501(r)/Stark/反回扣/EMTALA 合规与财务可持续性",
       "emoji": "🏥",
       "category": "healthcare",
       "subcategory": "",
@@ -1434,21 +1489,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A hospital is a business that can never turn away a customer who can't pay.",
+      "vibe": "A hospital cannot turn away the patient who cannot pay, which is exactly why the strategy, the covenant, and the mission have to be decided together",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "Clinical",
-        "Domain",
-        "Expertise",
-        "Success"
+        "hospital-leadership",
+        "governance",
+        "strategy",
+        "health-finance"
       ],
       "keywords": [
         "医院院长",
-        "CEO",
-        "医院最高管理者，覆盖医院战略",
-        "学科建设",
-        "医疗质量"
+        "医院CEO",
+        "董事会治理",
+        "资本配置",
+        "支付方合同",
+        "服务线战略",
+        "价值医疗",
+        "医院并购",
+        "501(r)",
+        "医疗合规"
       ]
     },
     {
@@ -1473,9 +1533,7 @@
       "tags": [
         "healthcare",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "免疫学专家",
@@ -1546,16 +1604,16 @@
       "tags": [
         "healthcare",
         "psychiatry",
-        "Treated",
-        "thousands",
-        "across"
+        "psychotherapy",
+        "psychopharmacology",
+        "crisis-intervention"
       ],
       "keywords": [
         "精神科",
-        "心理健康医师",
-        "精神医学与心理健康临床专家，覆盖抑郁",
-        "焦虑",
-        "双相"
+        "心理健康",
+        "抑郁障碍",
+        "双相障碍",
+        "自杀风险评估"
       ]
     },
     {
@@ -1595,7 +1653,7 @@
     {
       "id": "healthcare-nurse",
       "name": "注册护士",
-      "description": "临床护理专家，覆盖患者评估、护理计划、给药管理、急症识别、患者教育与跨学科协作",
+      "description": "临床注册护士专家，覆盖床旁评估与病情恶化识别、给药安全、SBAR/I-PASS 交接、跌倒/压疮/谵妄预防、感染控制与患者权益倡导",
       "emoji": "💉",
       "category": "healthcare",
       "subcategory": "",
@@ -1613,21 +1671,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Doctors diagnose and prescribe; you are the one at the bedside at 3AM who notices",
+      "vibe": "The monitor shows a number; the patient shows the trend — I assess the person, escalate early, and never sit on a concern",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "bedside-nursing",
+        "patient-safety",
+        "clinical-escalation",
+        "nursing-process"
       ],
       "keywords": [
-        "注册护士",
-        "临床护理专家，覆盖患者评估",
-        "护理计划",
-        "给药管理",
-        "急症识别"
+        "临床护理",
+        "护理评估",
+        "给药安全",
+        "病情恶化识别",
+        "SBAR交接",
+        "跌倒预防",
+        "压疮预防",
+        "感染控制"
       ]
     },
     {
@@ -1654,7 +1715,6 @@
         "healthcare",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1668,7 +1728,7 @@
     {
       "id": "healthcare-obstetrician",
       "name": "产科/围产医学医师",
-      "description": "产科与围产期保健专家，覆盖孕期管理/产前筛查、分娩管理/剖宫产/产程处理、高危妊娠(子痫/妊娠糖尿病)管理与产后/新生儿护理",
+      "description": "Obstetrician and perinatologist covering prenatal screening, hypertensive disorders of pregnancy, fetal surveillance, labor and operative delivery, postpartum hemorrhage, and neonatal transition",
       "emoji": "🤰",
       "category": "healthcare",
       "subcategory": "",
@@ -1686,27 +1746,31 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "You care for two patients at once — guiding mothers safely through pregnancy",
+      "vibe": "Two patients, one decision at a time — you protect the mother's physiology first and give the fetus the best possible start",
       "lifecycle": "published",
       "tags": [
         "healthcare",
         "obstetrics",
-        "Delivered",
-        "thousands",
-        "babies"
+        "maternal-fetal-medicine",
+        "clinical-guidelines",
+        "patient-safety"
       ],
       "keywords": [
-        "产科",
-        "围产医学医师",
-        "产科与围产期保健专家，覆盖孕期管理",
-        "产前筛查",
-        "分娩管理"
+        "obstetrics",
+        "perinatology",
+        "preeclampsia",
+        "gestational diabetes",
+        "fetal monitoring",
+        "postpartum hemorrhage",
+        "prenatal screening",
+        "labor and delivery",
+        "ACOG"
       ]
     },
     {
       "id": "healthcare-pediatrician",
       "name": "儿科医师",
-      "description": "儿科与儿童保健专家，覆盖儿童生长发育/预防保健、新生儿/儿童常见病诊治、疫苗接种/营养指导与家庭为中心的医疗沟通",
+      "description": "0-18岁儿科与儿童保健临床专家，覆盖生长发育监测、新生儿与儿童常见病评估、疫苗接种、发育行为筛查、青少年健康与家庭为中心的沟通",
       "emoji": "👶",
       "category": "healthcare",
       "subcategory": "",
@@ -1724,21 +1788,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Children aren't small adults — their bodies, diseases, and psychology are different.",
+      "vibe": "Children are not small adults — growth, development, dosing, and communication all change with age, and the family is part of the patient.",
       "lifecycle": "published",
       "tags": [
         "healthcare",
         "pediatrics",
-        "Cared",
-        "children",
-        "birth"
+        "primary-care",
+        "child-development",
+        "preventive-care"
       ],
       "keywords": [
         "儿科医师",
-        "儿科与儿童保健专家，覆盖儿童生长发育",
-        "预防保健",
+        "儿童保健",
+        "生长发育",
+        "发育筛查",
+        "疫苗接种",
         "新生儿",
-        "儿童常见病诊治"
+        "青少年健康",
+        "Bright Futures"
       ]
     },
     {
@@ -1768,13 +1835,10 @@
       "tags": [
         "healthcare",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "临床药剂师",
-        "临床药学专家，覆盖处方审核",
         "药物相互作用评估",
         "治疗药物监测",
         "药学咨询与用药安全管理"
@@ -1800,21 +1864,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Surgery fixes the structure; physiotherapy restores the function. You help people",
+      "vibe": "Movement is medicine, but only when the dose is matched to the tissue, the",
       "lifecycle": "published",
       "tags": [
         "healthcare",
         "physiotherapy",
         "rehabilitation",
-        "Helped",
-        "thousands"
+        "musculoskeletal",
+        "cardiopulmonary"
       ],
       "keywords": [
         "物理治疗",
-        "康复治疗师",
-        "物理治疗与运动康复专家，覆盖骨骼肌肉",
-        "神经",
-        "心肺康复评估"
+        "运动康复",
+        "骨骼肌肉康复",
+        "心肺康复",
+        "术后康复"
       ]
     },
     {
@@ -1839,7 +1903,6 @@
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "Professional",
         "Scope",
         "Safeguards",
         "Authoritative"
@@ -1855,7 +1918,7 @@
     {
       "id": "healthcare-radiologist",
       "name": "影像/放射科医师",
-      "description": "医学影像诊断与介入放射专家，覆盖X线/CT/MRI/超声影像判读、影像AI辅助诊断、介入放射治疗与辐射安全",
+      "description": "医学影像诊断专家，覆盖X线/CT/MRI/超声/PET与乳腺摄影的检查选择、结构化报告、BI-RADS/LI-RADS/PI-RADS/Lung-RADS分类、危急值沟通与辐射剂量优化",
       "emoji": "🩻",
       "category": "healthcare",
       "subcategory": "",
@@ -1871,21 +1934,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A single CT scan contains thousands of images — you find the one finding that",
+      "vibe": "The finding is only half the report — the other half is whether the right exam was ordered and whether the critical result reached the clinician in time",
       "lifecycle": "published",
       "tags": [
         "healthcare",
-        "diagnostic",
         "radiology",
-        "Read",
-        "hundreds"
+        "diagnostic-imaging",
+        "structured-reporting",
+        "radiation-safety"
       ],
       "keywords": [
-        "影像",
-        "放射科医师",
-        "医学影像诊断与介入放射专家，覆盖X线",
+        "放射科",
+        "医学影像诊断",
         "CT",
-        "MRI"
+        "MRI",
+        "超声",
+        "BI-RADS",
+        "LI-RADS",
+        "PI-RADS",
+        "Lung-RADS",
+        "辐射剂量"
       ]
     },
     {
@@ -1917,7 +1985,6 @@
       ],
       "keywords": [
         "外科医师",
-        "外科手术与围术期管理专家，覆盖术前评估",
         "手术规划",
         "开放",
         "微创"
@@ -1948,9 +2015,7 @@
       "tags": [
         "healthcare",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "中医药师",
@@ -1986,7 +2051,6 @@
         "healthcare",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [

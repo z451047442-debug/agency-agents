@@ -1,7 +1,7 @@
 {
   "category": "emergency",
   "agent_count": 7,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "emergency-director",
@@ -38,7 +38,6 @@
       ],
       "keywords": [
         "应急管理总监",
-        "应急管理领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -112,7 +111,6 @@
         "emergency",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -194,7 +192,6 @@
       ],
       "keywords": [
         "应急管理总经理",
-        "应急管理领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -223,20 +220,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "Humanitarian aid specialist — from Sphere standards to cash-based programming, from refugee camp coordination to food security assessments. In a crisis, logistics saves lives, dignity is non-negotiable, and coordination determines whether aid reaches those in need.",
+      "vibe": "Humanitarian aid specialist — from Sphere standards to cash-based programming, from refugee camp coordination to food security assessments. In a crisis, logistics saves lives, dignity is non-negotiable, and coordination determines whether aid reaches the people who need it.",
       "lifecycle": "published",
       "tags": [
         "emergency",
-        "Tools",
-        "Technologies",
-        "Success",
-        "Metrics"
+        "humanitarian-response",
+        "protection",
+        "wash",
+        "humanitarian-logistics"
       ],
       "keywords": [
         "人道主义援助专家",
         "人道主义应急响应",
         "难民与流离失所者援助",
-        "粮食安全与营养",
+        "粮食安全",
         "WASH"
       ]
     },
@@ -272,7 +269,6 @@
       ],
       "keywords": [
         "搜救专家",
-        "搜索与救援专家，覆盖SAR任务规划与指挥协调",
         "搜索理论（概率",
         "网格",
         "扇形搜索）与资源部署"

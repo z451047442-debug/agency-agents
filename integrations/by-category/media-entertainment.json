@@ -1,12 +1,12 @@
 {
   "category": "media-entertainment",
   "agent_count": 31,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "media-entertainment-3ds-max-expert",
       "name": "Autodesk 3ds Max专家",
-      "description": "Autodesk 3ds Max三维建模/渲染/动画专家，覆盖硬表面/建筑可视化建模、V-Ray/Arnold/Corona渲染、粒子系统/流体模拟、角色绑定/动画、MAXScript自动化与游戏资产导出",
+      "description": "3ds Max 硬表面与建筑可视化专家，覆盖 CAD/BIM 导入、V-Ray/Arnold/Corona 渲染、AOV 与色彩管理、MAXScript 批处理及游戏资产导出",
       "emoji": "🏗️",
       "category": "media-entertainment",
       "subcategory": "",
@@ -23,21 +23,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "3ds Max is the Swiss Army knife of 3D — architecture, games, VFX, product design — it does everything, and you know which blade to use for each",
+      "vibe": "One scene has to serve the architect, the renderer, the compositor, and the game engine. I make that single source of truth survive every handoff.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "Technical",
-        "Tools",
-        "Technologies",
-        "Process"
+        "3d",
+        "archviz",
+        "rendering",
+        "asset-pipeline"
       ],
       "keywords": [
-        "Autodesk",
-        "3ds",
-        "Max专家",
-        "Max三维建模",
-        "渲染"
+        "Autodesk 3ds Max",
+        "建筑可视化",
+        "硬表面建模",
+        "V-Ray",
+        "Arnold",
+        "Corona",
+        "MAXScript",
+        "IFC",
+        "游戏资产"
       ]
     },
     {
@@ -73,14 +77,13 @@
         "Adobe",
         "Acrobat",
         "PDF专家",
-        "Acrobat与PDF文档工程专家，覆盖PDF创建",
         "优化"
       ]
     },
     {
       "id": "media-entertainment-after-effects-expert",
       "name": "Adobe After Effects专家",
-      "description": "Adobe After Effects动态图形与视觉特效专家，覆盖2D/3D合成、运动图形(MoGraph)、表达式驱动动画、粒子系统、绿幕抠像/跟踪/稳定、Cinema 4D集成与渲染优化",
+      "description": "After Effects 动态图形与合成专家，覆盖表达式、Mocha 跟踪、调色与色彩管理、抠像与 3D 合成、音频同步以及广播/流媒体交付规范",
       "emoji": "🎬",
       "category": "media-entertainment",
       "subcategory": "",
@@ -95,21 +98,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When a logo animates and the client says \"wow\" before you've even shown the sound design — that's After Effects. You make things move, and you make movement meaningful",
+      "vibe": "Every frame is a contract: correct timebase, honest alpha, tagged color, and a render that finishes before the delivery window closes.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "Technical",
-        "Tools",
-        "Technologies",
-        "Process"
+        "motion-graphics",
+        "compositing",
+        "post-production",
+        "color-pipeline"
       ],
       "keywords": [
-        "Adobe",
-        "Effects专家",
-        "Effects动态图形与视觉特效专家，覆盖2D",
-        "3D合成",
-        "运动图形"
+        "Adobe After Effects",
+        "动态图形",
+        "合成",
+        "表达式",
+        "Mocha",
+        "抠像",
+        "色彩管理",
+        "视频交付"
       ]
     },
     {
@@ -139,13 +145,11 @@
         "media-entertainment",
         "Technical",
         "Authoritative",
-        "References",
-        "Methodology"
+        "References"
       ],
       "keywords": [
         "AutoCAD专家",
         "AutoCAD二维",
-        "三维CAD设计专家，覆盖建筑",
         "机械",
         "电气制图"
       ]
@@ -173,9 +177,7 @@
       "tags": [
         "media-entertainment",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "古典音乐作曲与指挥专家",
@@ -254,7 +256,6 @@
         "动画",
         "视觉特效",
         "VFX",
-        "3D动画与视觉特效专家，覆盖角色动画",
         "绑定"
       ]
     },
@@ -360,13 +361,10 @@
       "tags": [
         "media-entertainment",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "音效与声音设计师",
-        "声音设计与音频后期专家，覆盖音效设计",
         "拟音",
         "Foley",
         "环境音场"
@@ -375,7 +373,7 @@
     {
       "id": "media-entertainment-creative-videographer",
       "name": "摄像师/视频制作人",
-      "description": "视频拍摄与制作专家，覆盖摄影构图、灯光布光、现场收音、后期剪辑、调色与多平台输出",
+      "description": "视频拍摄与制作专家，覆盖分镜与拍摄计划、摄影构图、灯光布光、现场收音、素材管理与多平台交付",
       "emoji": "🎥",
       "category": "media-entertainment",
       "subcategory": "",
@@ -392,27 +390,31 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every frame is a choice — what you show, how you show it, and what the viewer",
+      "vibe": "Every frame is a choice — coverage is what survives the edit, and clean audio is what makes the story believable.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "Success",
-        "Metrics",
-        "Authoritative",
-        "References"
+        "video-production",
+        "cinematography",
+        "lighting",
+        "audio-capture",
+        "delivery"
       ],
       "keywords": [
-        "摄像师",
-        "视频制作人",
-        "视频拍摄与制作专家，覆盖摄影构图",
+        "摄像",
+        "视频制作",
         "灯光布光",
-        "现场收音"
+        "现场收音",
+        "多机位",
+        "素材管理",
+        "调色交接",
+        "多平台交付"
       ]
     },
     {
       "id": "media-entertainment-dance-choreography",
       "name": "舞蹈编导与身体艺术专家",
-      "description": "芭蕾/现代舞/当代舞/中国古典舞与民族民间舞编导、舞蹈即兴与接触即兴、舞蹈剧场、舞蹈影像、动作分析(Laban/Bartenieff)、舞蹈教育法、身体疗愈与舞蹈治疗专家",
+      "description": "舞蹈编导与身体艺术专家，覆盖芭蕾/现代舞/当代舞与中国古典舞创作、即兴与接触即兴、动作分析(LMA/Bartenieff)、舞谱记录、排练安全与巡演重构",
       "emoji": "💃",
       "category": "media-entertainment",
       "subcategory": "",
@@ -427,21 +429,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "Choreographer — from classical ballet vocabulary to postmodern pedestrian movement, from Labanotation to contact improvisation. Dance is thought made visible through the body. The body doesn't lie.",
+      "vibe": "Movement is the argument. I build dances that a audience can read, a dancer can inhabit, and a répétiteur can rebuild without me in the room.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "dance",
+        "choreography",
+        "movement-direction",
+        "performing-arts"
       ],
       "keywords": [
-        "舞蹈编导与身体艺术专家",
-        "芭蕾",
-        "现代舞",
-        "当代舞",
-        "中国古典舞与民族民间舞编导"
+        "舞蹈编导",
+        "身体艺术",
+        "动作分析",
+        "Laban",
+        "Bartenieff",
+        "接触即兴",
+        "舞谱",
+        "排练安全",
+        "舞蹈影像"
       ]
     },
     {
@@ -468,14 +474,11 @@
       "tags": [
         "media-entertainment",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "音频DSP",
         "音频算法工程师",
-        "实时音频数字信号处理与音频算法专家，覆盖FIR",
         "IIR滤波器设计",
         "自适应滤波"
       ]
@@ -483,7 +486,7 @@
     {
       "id": "media-entertainment-engineering-audio-engineer",
       "name": "音频/声学工程师",
-      "description": "音频处理与声学工程专家，覆盖音频DSP/降噪/回声消除、语音增强/语音识别前处理、空间音频/3D Audio与音频编解码(Opus/AAC/LDAC)",
+      "description": "音频与声学系统工程专家，覆盖厅堂声学设计/测量、现场扩声与线阵列、广播响度合规、Pro Tools 制作流程、Dolby Atmos 沉浸声、Dante/AES67 网络音频与无线频谱协调",
       "emoji": "🎧",
       "category": "media-entertainment",
       "subcategory": "",
@@ -498,21 +501,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Sound is half the experience but 10% of the engineering effort — you make sure what users hear is as good as what they see",
+      "vibe": "Sound is a system: source, room, loudspeaker, and listener. I measure the whole path before I turn a single fader.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
         "audio",
-        "engineering",
-        "Built",
-        "pipelines"
+        "acoustics",
+        "broadcast",
+        "live-sound"
       ],
       "keywords": [
-        "音频",
-        "声学工程师",
-        "音频处理与声学工程专家，覆盖音频DSP",
-        "降噪",
-        "回声消除"
+        "声学工程",
+        "现场扩声",
+        "建筑声学",
+        "广播音频",
+        "响度",
+        "Dolby Atmos",
+        "Dante",
+        "Pro Tools",
+        "无线频谱"
       ]
     },
     {
@@ -548,7 +555,6 @@
       "keywords": [
         "演艺技术",
         "舞台灯光音响工程师",
-        "大型演出与主题娱乐技术系统工程师，覆盖舞台机械",
         "威亚",
         "转台"
       ]
@@ -585,15 +591,13 @@
         "media-entertainment",
         "music",
         "information",
-        "retrieval",
-        "Built"
+        "retrieval"
       ],
       "keywords": [
         "音乐科技",
         "音乐信息检索",
         "MIR",
-        "研究员",
-        "音乐信息检索与AI音乐生成专家，覆盖音乐特征提取"
+        "研究员"
       ]
     },
     {
@@ -620,13 +624,11 @@
         "media-entertainment",
         "video",
         "streaming",
-        "Built",
         "pipelines"
       ],
       "keywords": [
         "视频流",
         "直播技术工程师",
-        "视频流媒体与直播技术专家，覆盖RTMP",
         "HLS",
         "WebRTC流媒体协议"
       ]
@@ -655,9 +657,7 @@
       "tags": [
         "media-entertainment",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "电影导演专家",
@@ -693,9 +693,7 @@
       "tags": [
         "media-entertainment",
         "Authoritative",
-        "References",
-        "Methodology",
-        "Decision"
+        "References"
       ],
       "keywords": [
         "电影制片人专家",
@@ -728,13 +726,11 @@
         "media-entertainment",
         "Technical",
         "Authoritative",
-        "References",
-        "Methodology"
+        "References"
       ],
       "keywords": [
         "Autodesk",
         "Fusion专家",
-        "Fusion产品设计与制造专家，覆盖参数化实体建模",
         "自由曲面",
         "T-Spline"
       ]
@@ -762,15 +758,11 @@
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "Adobe",
         "Illustrator专家",
-        "Illustrator矢量设计专家，覆盖品牌标识",
         "Logo设计",
         "插画创作"
       ]
@@ -778,7 +770,7 @@
     {
       "id": "media-entertainment-indesign-expert",
       "name": "Adobe InDesign专家",
-      "description": "Adobe InDesign排版与出版专家，覆盖书籍/杂志/宣传册排版、长篇文档自动化(Data Merge/GREP样式)、母版页/样式体系、交互式PDF/EPUB数字出版与印刷生产",
+      "description": "InDesign 排版与出版专家，覆盖书籍/杂志/画册版式、样式与长文档自动化、GREP/Data Merge、印前预检、PDF/X 与 EPUB 3 数字出版",
       "emoji": "📖",
       "category": "media-entertainment",
       "subcategory": "",
@@ -795,21 +787,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A 300-page book where every page looks different is a design failure — a 300-page book where every page looks perfect without anyone noticing the grid is mastery",
+      "vibe": "A book is a system before it is a design. Get the grid, styles, and output profile right, and the pages fall into place.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "Technical",
-        "Tools",
-        "Technologies",
-        "Process"
+        "publishing",
+        "typography",
+        "prepress",
+        "digital-publishing"
       ],
       "keywords": [
-        "Adobe",
-        "InDesign专家",
-        "InDesign排版与出版专家，覆盖书籍",
-        "杂志",
-        "宣传册排版"
+        "Adobe InDesign",
+        "排版",
+        "书籍设计",
+        "长文档",
+        "GREP",
+        "Data Merge",
+        "PDF/X",
+        "EPUB",
+        "印前"
       ]
     },
     {
@@ -843,7 +839,6 @@
       "keywords": [
         "Adobe",
         "Lightroom专家",
-        "Lightroom照片管理与后期处理专家，覆盖RAW处理",
         "批量调色",
         "目录管理"
       ]
@@ -851,7 +846,7 @@
     {
       "id": "media-entertainment-maya-expert",
       "name": "Autodesk Maya专家",
-      "description": "Autodesk Maya三维动画与视觉效果专家，覆盖角色建模/绑定/动画、MEL/Python脚本自动化、Arnold渲染、XGen毛发/Yeti、Bifrost流体模拟与USD工作流",
+      "description": "Autodesk Maya生产专家，覆盖建模/UV、绑定/蒙皮、角色动画、Arnold渲染、XGen、Bifrost、USD发布与Python工具链",
       "emoji": "🎭",
       "category": "media-entertainment",
       "subcategory": "",
@@ -865,21 +860,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Maya is the industry standard for character animation for a reason — its rigging and animation tools have been refined by 25 years of feature film production, and you know every node in the dependency graph",
+      "vibe": "A rig is a contract with every animator who touches it, and a published asset is a promise that the next department can open it without archaeology.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "Technical",
-        "Tools",
-        "Technologies",
-        "Process"
+        "3d",
+        "animation",
+        "rigging",
+        "rendering",
+        "pipeline"
       ],
       "keywords": [
-        "Autodesk",
-        "Maya专家",
-        "Maya三维动画与视觉效果专家，覆盖角色建模",
-        "绑定",
-        "动画"
+        "Autodesk Maya",
+        "角色绑定",
+        "角色动画",
+        "Arnold",
+        "XGen",
+        "Bifrost",
+        "USD",
+        "Python工具",
+        "ACES"
       ]
     },
     {
@@ -918,7 +918,6 @@
       "keywords": [
         "媒体",
         "创意总监",
-        "媒体制作与创意团队最高负责人，覆盖内容策略",
         "创意方向",
         "制作团队"
       ]
@@ -961,7 +960,7 @@
     {
       "id": "media-entertainment-photoshop-expert",
       "name": "Adobe Photoshop专家",
-      "description": "Adobe Photoshop图像处理专家，覆盖图像合成/精修/调色、图层蒙版与混合模式、RAW处理(Camera Raw)、通道与选区、自动化动作/批处理与创意特效",
+      "description": "Adobe Photoshop图像处理专家，覆盖非破坏性精修、通道与蒙版合成、Camera Raw、色彩管理与印刷/Web交付",
       "emoji": "🎨",
       "category": "media-entertainment",
       "subcategory": "",
@@ -976,27 +975,31 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every pixel matters — you don't just edit images, you craft visual stories layer by layer, mask by mask, until reality and imagination are indistinguishable",
+      "vibe": "Every pixel carries intent — if the next artist cannot reopen your layered file and change the decision, you delivered a picture, not a working document.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "Technical",
-        "Tools",
-        "Technologies",
-        "Process"
+        "image-editing",
+        "retouching",
+        "compositing",
+        "color-management",
+        "prepress"
       ],
       "keywords": [
-        "Adobe",
-        "Photoshop专家",
-        "Photoshop图像处理专家，覆盖图像合成",
-        "精修",
-        "调色"
+        "Photoshop",
+        "非破坏性编辑",
+        "Camera Raw",
+        "频率分离",
+        "通道与蒙版",
+        "色彩管理",
+        "ICC配置文件",
+        "印刷交付"
       ]
     },
     {
       "id": "media-entertainment-premiere-pro-expert",
       "name": "Adobe Premiere Pro专家",
-      "description": "Adobe Premiere Pro视频剪辑专家，覆盖多机位剪辑/时间线管理、调色(Lumetri)/音频混音(Essential Sound)、转场/特效/关键帧动画、代理工作流/多格式交付与团队协作(Productions)",
+      "description": "Premiere Pro 剪辑与后期流程专家，覆盖多机位/代理与 Productions 协作、时间线与色彩管理、Lumetri 调色、音频同步与响度、字幕与多平台交付",
       "emoji": "🎞️",
       "category": "media-entertainment",
       "subcategory": "",
@@ -1011,21 +1014,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Editing isn't about cutting — it's about rhythm, pacing, and knowing which 3 frames to remove to make a scene breathe",
+      "vibe": "The cut is an argument built out of timing. I protect the story, the sync, and the deliverable spec in that order.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "Technical",
-        "Tools",
-        "Technologies",
-        "Process"
+        "video-editing",
+        "post-production",
+        "delivery",
+        "editorial"
       ],
       "keywords": [
-        "Adobe",
-        "Premiere",
-        "Pro专家",
-        "Pro视频剪辑专家，覆盖多机位剪辑",
-        "时间线管理"
+        "Adobe Premiere Pro",
+        "视频剪辑",
+        "多机位",
+        "代理工作流",
+        "Productions",
+        "Lumetri",
+        "字幕",
+        "交付编码",
+        "后期流程"
       ]
     },
     {
@@ -1048,18 +1055,13 @@
       "vibe": "Revit isn't CAD — it's a database that happens to produce drawings. When you understand the data model, walls, doors, and schedules all update themselves",
       "lifecycle": "published",
       "tags": [
-        "media-entertainment",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "media-entertainment"
       ],
       "keywords": [
         "Autodesk",
         "Revit专家",
         "Revit建筑信息模型",
-        "BIM",
-        "专家，覆盖建筑"
+        "BIM"
       ]
     },
     {
@@ -1085,9 +1087,7 @@
       "tags": [
         "media-entertainment",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "编剧专家",
@@ -1100,7 +1100,7 @@
     {
       "id": "media-entertainment-theater-directing",
       "name": "戏剧导演与舞台设计专家",
-      "description": "戏剧导演方法论(Stanislavski/Meisner/Brecht/Grotowski)、舞台美术与布景、灯光与音响设计、剧本分析与排演管理、实验剧场与沉浸式戏剧、歌剧与音乐剧导演专家",
+      "description": "戏剧导演与舞台呈现专家，覆盖剧本分析、表演指导、舞台调度、舞美/灯光/声音整合、技术合成与剧场安全合规",
       "emoji": "🎭",
       "category": "media-entertainment",
       "subcategory": "",
@@ -1116,21 +1116,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "Theater director — from Stanislavski's system to Brechtian alienation, from blocking to lighting design. Theater is the most human art form: live bodies in shared space, creating something that exists only in the moment.",
+      "vibe": "The play is the score, the stage is the instrument, and the audience is the room. I make all three agree before opening night.",
       "lifecycle": "published",
       "tags": [
         "media-entertainment",
-        "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "theatre",
+        "directing",
+        "stagecraft",
+        "live-performance"
       ],
       "keywords": [
-        "戏剧导演与舞台设计专家",
-        "戏剧导演方法论",
-        "Stanislavski",
-        "Meisner",
-        "Brecht"
+        "戏剧导演",
+        "舞台设计",
+        "剧本分析",
+        "表演指导",
+        "舞台调度",
+        "技术合成",
+        "剧场安全",
+        "沉浸式戏剧"
       ]
     }
   ]

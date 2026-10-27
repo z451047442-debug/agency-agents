@@ -85,6 +85,11 @@ def main() -> None:
 
     agents = data["agents"]
 
+    categories = {a["category"] for a in agents}
+    if args.category and args.category not in categories:
+        print(f"Unknown category: {args.category}", file=sys.stderr)
+        sys.exit(2)
+
     if args.category:
         print(f"Category filter: {args.category} ({len([a for a in agents if a['category'] == args.category])} agents)\n")
 

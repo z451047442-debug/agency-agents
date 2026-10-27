@@ -1,5 +1,8 @@
 name: Quality Gate
 
+permissions:
+  contents: read
+
 on:
   pull_request:
     paths:
@@ -34,7 +37,7 @@ jobs:
           cache: pip
 
       - name: Install deps
-        run: pip install pyyaml
+        run: pip install pyyaml==6.0.3
 
       - name: Get changed agent files (new vs modified)
         id: changed
@@ -132,12 +135,12 @@ jobs:
           cache: pip
 
       - name: Install deps
-        run: pip install pyyaml bandit pip-audit
+        run: pip install -r requirements.lock && pip install pip-audit
 
       - name: Get changed agent files
         id: changed
         run: |
-          FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- '*.md' ':!examples/*' ':!integrations/*' ':!scripts/*' ':!docs/*' ':!.github/*')
+          FILES=$(git diff --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- '*.md' ':!/*.md' ':!examples/*' ':!integrations/*' ':!scripts/*' ':!docs/*' ':!.github/*')
           {
             echo "files<<ENDOFLIST"
             echo "$FILES"
@@ -149,6 +152,7 @@ jobs:
         env:
           CHANGED_FILES: ${{ steps.changed.outputs.files }}
         run: |
+          set +e
           echo "::group::Lint + Security Scan"
           python scripts/lint-agents.py $CHANGED_FILES --no-freshness
           LINT_EXIT=$?
@@ -160,6 +164,11 @@ jobs:
           BANDIT_EXIT=$?
           echo "::endgroup::"
 
+          echo "::group::Security audit"
+          python scripts/audit-security.py --check
+          AUDIT_EXIT=$?
+          echo "::endgroup::"
+
           echo "::group::Dependency audit (pip-audit)"
           pip-audit --skip-editable 2>&1 || echo "::warning::Dependency vulnerabilities found — review and update affected packages"
           echo "::endgroup::"
@@ -168,7 +177,8 @@ jobs:
           python scripts/lint-agents.py $CHANGED_FILES --no-freshness 2>&1 | grep "SECURITY" || echo "No content security findings"
           echo "::endgroup::"
 
-          if [ $LINT_EXIT -ne 0 ] || [ $BANDIT_EXIT -ne 0 ]; then
+          set -e
+          if [ $LINT_EXIT -ne 0 ] || [ $BANDIT_EXIT -ne 0 ] || [ $AUDIT_EXIT -ne 0 ]; then
             exit 1
           fi
 
@@ -185,7 +195,7 @@ jobs:
           cache: pip
 
       - name: Install deps
-        run: pip install pyyaml
+        run: pip install pyyaml==6.0.3
 
       - name: Check for broken dependencies
         run: |
@@ -239,7 +249,7 @@ jobs:
           cache: pip
 
       - name: Install deps
-        run: pip install pyyaml
+        run: pip install pyyaml==6.0.3
 
       - name: Check for score regressions
         run: |

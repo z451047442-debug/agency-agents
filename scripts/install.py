@@ -211,7 +211,7 @@ def uninstall_tool(tool: str, agent_id: str | None) -> int:
             for p in dest_dir.iterdir():
                 if p.stem == agent_id:
                     if p.is_dir():
-                        shutil.rmtree(p)
+                        shutil.rmtree(p)  # audit-security: allow (install destination)
                     else:
                         p.unlink()
                     count += 1
@@ -221,7 +221,7 @@ def uninstall_tool(tool: str, agent_id: str | None) -> int:
             # multi-file formats (one directory per agent, e.g. kimi/openclaw).
             for f in sorted(dest_dir.iterdir()):
                 if f.is_dir():
-                    shutil.rmtree(f)
+                    shutil.rmtree(f)  # audit-security: allow (install destination)
                 else:
                     f.unlink()
                 count += 1

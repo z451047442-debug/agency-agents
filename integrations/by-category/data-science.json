@@ -1,7 +1,7 @@
 {
   "category": "data-science",
   "agent_count": 47,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "data-science-bi-analyst",
@@ -37,7 +37,6 @@
       ],
       "keywords": [
         "商业智能分析师",
-        "商业智能分析专家，专注",
         "SQL",
         "分析",
         "仪表板开发（Tableau"
@@ -72,12 +71,10 @@
         "data-science",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "因果推断专家",
-        "因果推断与计量经济学专家，覆盖DID",
         "RDD",
         "工具变量",
         "双重机器学习与政策效应评估"
@@ -162,7 +159,6 @@
         "数据工程师",
         "Data",
         "Engineer",
-        "数据工程与数据管道构建专家，覆盖ELT",
         "ETL管道设计"
       ]
     },
@@ -279,7 +275,6 @@
       ],
       "keywords": [
         "数据科学总监",
-        "数据科学与AI团队最高负责人，覆盖数据",
         "AI战略",
         "模型治理与MLOps",
         "数据团队建设"
@@ -312,9 +307,7 @@
       "tags": [
         "data-science",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "BI",
@@ -327,7 +320,7 @@
     {
       "id": "data-science-engineering-big-data-engineer",
       "name": "大数据工程师",
-      "description": "Hadoop/Spark/Flink、数据湖与实时计算专家",
+      "description": "Big data engineer for Spark and Flink pipelines, Kafka ingestion, lakehouse table formats, and petabyte-scale batch and streaming reliability",
       "emoji": "🐘",
       "category": "data-science",
       "subcategory": "",
@@ -346,27 +339,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Tames petabyte-scale data chaos into reliable, queryable pipelines that won't break at 3am.",
+      "vibe": "A pipeline is correct only when it is idempotent, replayable, and honest about late data. Throughput without those three properties is just a faster way to be wrong.",
       "lifecycle": "published",
       "tags": [
         "data-science",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "big-data",
+        "data-engineering",
+        "streaming",
+        "lakehouse"
       ],
       "keywords": [
-        "大数据工程师",
-        "Hadoop",
-        "Spark",
-        "Flink",
-        "数据湖与实时计算专家"
+        "big data",
+        "Apache Spark",
+        "Apache Flink",
+        "Apache Kafka",
+        "data lakehouse",
+        "Apache Iceberg",
+        "stream processing",
+        "data pipeline"
       ]
     },
     {
       "id": "data-science-engineering-computer-vision-3d",
       "name": "3D视觉/深度传感工程师",
-      "description": "3D视觉与深度感知技术专家，覆盖结构光/ToF/双目立体视觉深度传感、点云配准(ICP/NDT)、RGB-D SLAM与3D场景理解",
+      "description": "3D vision and depth sensing engineer covering stereo, structured light, ToF and LiDAR calibration, point-cloud registration, NeRF and 3D Gaussian Splatting reconstruction",
       "emoji": "👁️",
       "category": "data-science",
       "subcategory": "",
@@ -387,21 +383,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The world is three-dimensional — you build the sensors and algorithms that let",
+      "vibe": "A depth map is a measurement with uncertainty, not a picture. If the frame, scale, and calibration are wrong, the prettiest reconstruction is still wrong.",
       "lifecycle": "published",
       "tags": [
         "data-science",
-        "vision",
-        "depth",
-        "sensing",
-        "Built"
+        "computer-vision",
+        "3d-reconstruction",
+        "depth-sensing",
+        "point-cloud"
       ],
       "keywords": [
-        "3D视觉",
-        "深度传感工程师",
-        "3D视觉与深度感知技术专家，覆盖结构光",
-        "ToF",
-        "双目立体视觉深度传感"
+        "3D vision",
+        "depth sensing",
+        "point cloud",
+        "LiDAR",
+        "stereo vision",
+        "NeRF",
+        "3D Gaussian Splatting",
+        "SLAM"
       ]
     },
     {
@@ -442,7 +441,6 @@
       "keywords": [
         "计算机视觉",
         "深度学习工程师",
-        "深度学习与计算机视觉算法专家，覆盖CNN",
         "Transformer",
         "ViT视觉模型"
       ]
@@ -450,7 +448,7 @@
     {
       "id": "data-science-engineering-computer-vision-expert",
       "name": "计算机视觉专家",
-      "description": "图像分类、目标检测、图像分割与视频分析专家",
+      "description": "视觉感知系统专家：图像分类、目标检测、分割与视频理解，覆盖数据增强、模型压缩、量化与 TensorRT/CoreML 边缘部署",
       "emoji": "👁️",
       "category": "data-science",
       "subcategory": "",
@@ -474,17 +472,18 @@
       "lifecycle": "published",
       "tags": [
         "data-science",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "computer-vision",
+        "deep-learning",
+        "edge-ai"
       ],
       "keywords": [
-        "计算机视觉专家",
-        "图像分类",
+        "计算机视觉",
         "目标检测",
-        "图像分割与视频分析专家",
-        "核心信念"
+        "语义分割",
+        "ViT",
+        "模型量化",
+        "边缘推理",
+        "TensorRT"
       ]
     },
     {
@@ -523,7 +522,6 @@
       "keywords": [
         "客户数据科学",
         "增长数据科学家",
-        "用户增长与客户行为数据科学家，覆盖用户留存",
         "流失预测模型",
         "Survival"
       ]
@@ -560,14 +558,12 @@
         "data-science",
         "analytics",
         "engineering",
-        "Built",
         "data"
       ],
       "keywords": [
         "数据分析工程师",
         "Analytics",
         "Engineer",
-        "数据分析工程与数据建模专家，覆盖dbt",
         "Snowflake"
       ]
     },
@@ -646,8 +642,7 @@
         "data-science",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "数据治理专家",
@@ -694,8 +689,7 @@
         "数据湖",
         "湖仓一体",
         "Lakehouse",
-        "架构师",
-        "数据湖与湖仓一体平台架构专家，覆盖Apache"
+        "架构师"
       ]
     },
     {
@@ -728,13 +722,11 @@
         "data-science",
         "data",
         "governance",
-        "Built",
         "programs"
       ],
       "keywords": [
         "数据治理",
         "数据血缘专家",
-        "企业数据治理与元数据管理专家，覆盖数据血缘",
         "Data",
         "Lineage"
       ]
@@ -768,8 +760,7 @@
         "data-science",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "数据仓库专家",
@@ -817,7 +808,6 @@
         "大规模深度学习训练",
         "分布式系统工程师",
         "千卡",
-        "万卡级大模型分布式训练系统专家，覆盖数据并行",
         "张量并行"
       ]
     },
@@ -892,13 +882,11 @@
         "data-science",
         "insurance",
         "analytics",
-        "Built",
         "fraud"
       ],
       "keywords": [
         "理赔数据科学",
         "反欺诈分析师",
-        "保险理赔数据分析与欺诈检测专家，覆盖结构化",
         "非结构化",
         "文本"
       ]
@@ -933,13 +921,11 @@
         "data-science",
         "knowledge",
         "management",
-        "Built",
         "systems"
       ],
       "keywords": [
         "企业知识管理",
         "组织学习顾问",
-        "企业知识管理与组织学习系统顾问，覆盖知识管理",
         "KM",
         "战略"
       ]
@@ -970,7 +956,6 @@
       "lifecycle": "published",
       "tags": [
         "data-science",
-        "Built",
         "LLM-powered",
         "products",
         "serving"
@@ -978,7 +963,6 @@
       "keywords": [
         "NLP",
         "大语言模型应用工程师",
-        "自然语言处理与大模型应用开发专家，覆盖LLM",
         "RAG",
         "Agent框架"
       ]
@@ -986,7 +970,7 @@
     {
       "id": "data-science-engineering-llm-training-expert",
       "name": "LLM/大模型训练专家",
-      "description": "预训练、微调 SFT/RLHF、分布式训练与模型评估专家",
+      "description": "大模型训练与对齐专家：预训练数据管线、SFT、RLHF/DPO、FSDP/Megatron/DeepSpeed 分布式训练、损失尖峰排查与模型评估",
       "emoji": "🧠",
       "category": "data-science",
       "subcategory": "",
@@ -1009,23 +993,24 @@
       "lifecycle": "published",
       "tags": [
         "data-science",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "llm",
+        "training",
+        "alignment"
       ],
       "keywords": [
-        "LLM",
-        "大模型训练专家",
+        "大模型训练",
         "预训练",
-        "微调",
-        "SFT"
+        "SFT",
+        "RLHF",
+        "DPO",
+        "分布式训练",
+        "模型评估"
       ]
     },
     {
       "id": "data-science-engineering-mlops-engineer",
       "name": "MLOps/机器学习运维工程师",
-      "description": "模型部署、特征存储、模型监控与 ML 管道自动化专家",
+      "description": "生产级 ML 交付与运维专家：推理服务、特征存储、实验追踪、模型注册、漂移监控、CI/CD 与可回滚发布",
       "emoji": "🔄",
       "category": "data-science",
       "subcategory": "",
@@ -1050,23 +1035,24 @@
       "lifecycle": "published",
       "tags": [
         "data-science",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "mlops",
+        "serving",
+        "observability"
       ],
       "keywords": [
         "MLOps",
-        "机器学习运维工程师",
         "模型部署",
+        "推理服务",
         "特征存储",
-        "模型监控与"
+        "模型监控",
+        "漂移检测",
+        "模型注册表"
       ]
     },
     {
       "id": "data-science-engineering-mlops-platform",
       "name": "MLOps/ML平台工程师",
-      "description": "机器学习平台与MLOps工程专家，覆盖ML训练/推理平台架构(Kubeflow/MLflow/Ray)、特征存储/模型注册表、A/B实验框架与模型监控/漂移检测",
+      "description": "MLOps platform engineer for reproducible training pipelines, feature stores, model registries, serving infrastructure, and production drift monitoring",
       "emoji": "⚙️",
       "category": "data-science",
       "subcategory": "",
@@ -1088,27 +1074,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Data scientists build models; you build the factory that produces them. From",
+      "vibe": "A model in a notebook is a hypothesis; a model behind a versioned endpoint with lineage, monitoring, and a rollback path is a product.",
       "lifecycle": "published",
       "tags": [
         "data-science",
-        "building",
-        "platforms",
-        "Built",
-        "infrastructure"
+        "mlops",
+        "ml-platform",
+        "model-serving",
+        "reliability"
       ],
       "keywords": [
         "MLOps",
-        "ML平台工程师",
-        "机器学习平台与MLOps工程专家，覆盖ML训练",
-        "推理平台架构",
-        "Kubeflow"
+        "ML platform",
+        "Kubeflow",
+        "MLflow",
+        "feature store",
+        "model serving",
+        "drift detection",
+        "model registry"
       ]
     },
     {
       "id": "data-science-engineering-nlp-expert",
       "name": "NLP/自然语言处理专家",
-      "description": "文本分类、命名实体识别、情感分析与机器翻译专家",
+      "description": "NLP expert for text classification, named entity recognition, sentiment analysis, machine translation, and retrieval-augmented LLM systems",
       "emoji": "📝",
       "category": "data-science",
       "subcategory": "",
@@ -1127,21 +1116,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Language is the most complex data type — and you know how to make machines truly understand it.",
+      "vibe": "Language models predict tokens, not truth. Your job is to define the task, measure the error that matters, and never let a fluent answer stand in for a correct one.",
       "lifecycle": "published",
       "tags": [
         "data-science",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "nlp",
+        "transformers",
+        "machine-translation",
+        "llm"
       ],
       "keywords": [
         "NLP",
-        "自然语言处理专家",
-        "文本分类",
-        "命名实体识别",
-        "情感分析与机器翻译专家"
+        "natural language processing",
+        "named entity recognition",
+        "text classification",
+        "sentiment analysis",
+        "machine translation",
+        "transformers",
+        "retrieval-augmented generation"
       ]
     },
     {
@@ -1175,15 +1167,13 @@
         "data-science",
         "document",
         "understanding",
-        "Built",
         "systems"
       ],
       "keywords": [
         "OCR",
         "文档理解",
         "Document",
-        "AI研究员",
-        "光学字符识别与AI文档理解专家，覆盖OCR"
+        "AI研究员"
       ]
     },
     {
@@ -1223,14 +1213,13 @@
       "keywords": [
         "流程挖掘",
         "业务流程智能分析师",
-        "流程挖掘与业务流程分析专家，覆盖事件日志提取",
         "ERP",
         "CRM"
       ]
     },
     {
       "id": "data-science-engineering-prompt-engineer",
-      "name": "提示词工程师",
+      "name": "提示词优化工程师",
       "description": "Prompt 设计优化、Few-shot/Chain-of-Thought 与模型行为调优专家",
       "emoji": "🎛️",
       "category": "data-science",
@@ -1339,7 +1328,6 @@
         "强化学习",
         "RL",
         "工程师",
-        "强化学习与决策智能专家，覆盖DQN",
         "PPO"
       ]
     },
@@ -1380,7 +1368,6 @@
       "keywords": [
         "体育科学",
         "运动表现分析师",
-        "竞技体育科学与运动表现数据分析专家，覆盖运动员GPS",
         "惯性",
         "生理数据采集分析"
       ]
@@ -1415,12 +1402,10 @@
         "data-science",
         "Technologies",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "流数据平台工程师",
-        "实时流数据与消息平台专家，覆盖Apache",
         "Kafka",
         "Pulsar消息平台",
         "Flink"
@@ -1500,13 +1485,11 @@
         "data-science",
         "video",
         "understanding",
-        "Built",
         "systems"
       ],
       "keywords": [
         "视频智能分析",
         "视频AI工程师",
-        "大规模视频内容理解与智能分析专家，覆盖视频分类",
         "动作识别",
         "时序定位"
       ]
@@ -1547,7 +1530,6 @@
       "keywords": [
         "Web",
         "数字分析实施工程师",
-        "数字分析埋点与数据采集专家，覆盖Google",
         "Analytics",
         "GTM"
       ]
@@ -1580,13 +1562,11 @@
         "data-science",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "实验设计与A",
         "B测试专家",
-        "在线实验设计与分析专家，覆盖样本量计算",
         "随机化策略",
         "序贯检验"
       ]
@@ -1623,12 +1603,10 @@
         "data-science",
         "Technical",
         "Process",
-        "Learning",
-        "Methodology"
+        "Learning"
       ],
       "keywords": [
         "特征平台专家",
-        "特征工程与特征平台架构专家，覆盖特征存储设计",
         "特征复用",
         "时间点正确性",
         "特征血缘与在线"
@@ -1673,7 +1651,6 @@
         "Hugging",
         "Face生态专家",
         "Face模型生态与应用专家",
-        "覆盖Transformers",
         "Trainer"
       ]
     },
@@ -1709,14 +1686,11 @@
       "tags": [
         "data-science",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "LLM微调与适配专家",
         "大模型高效微调与适配专家",
-        "覆盖LoRA",
         "QLoRA",
         "DoRA参数高效微调"
       ]
@@ -1757,7 +1731,6 @@
       ],
       "keywords": [
         "机器学习工程师",
-        "生产级机器学习系统构建专家，覆盖模型训练管线",
         "特征工程",
         "模型服务",
         "效果评估与模型生命周期管理"
@@ -1797,7 +1770,6 @@
       ],
       "keywords": [
         "机器学习研究员",
-        "机器学习研究专家，专注深度学习",
         "NLP",
         "计算机视觉",
         "模型架构设计"
@@ -1834,11 +1806,7 @@
       "vibe": "Audits ML models end-to-end — from data reconstruction to calibration testing.",
       "lifecycle": "published",
       "tags": [
-        "data-science",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "data-science"
       ],
       "keywords": [
         "模型",
@@ -1906,16 +1874,11 @@
       "vibe": "Vector search isn't just nearest neighbors — it's the retrieval backbone of",
       "lifecycle": "published",
       "tags": [
-        "data-science",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "data-science"
       ],
       "keywords": [
         "向量数据库架构师",
         "向量数据库选型与架构设计专家",
-        "覆盖Milvus",
         "Pinecone",
         "Weaviate"
       ]

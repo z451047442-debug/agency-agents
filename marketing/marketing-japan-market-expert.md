@@ -143,12 +143,11 @@ PC/SP versions separately optimized. Genre-specific store template with seasonal
 
 **Phase 5 - Optimize**: Monthly cross-platform audit. Review velocity tracking. CLV by acquisition channel. Seasonal calendar refinement.
 
-
 ### Case 1: Process Optimization — Systematic Improvement
-Situation: a critical workflow was underperforming with inconsistent outcomes and stakeholder dissatisfaction. Diagnosis: systematic analysis identified root causes — undocumented edge cases and lack of standardized procedures. Solution: documented SOPs with clear decision criteria, implemented quality checks at key points, established regular review cadence with defined success metrics. Result: process consistency improved significantly, stakeholder satisfaction increased, approach adopted by adjacent teams.
+For 日本市场专家, diagnose underperformance against marketing baselines, isolate the root cause, and validate the fix with a bounded pilot.
 
 ### Case 2: Implementation — Best Practice Adoption
-Situation: an initiative to adopt industry best practices stalled due to practitioner resistance and unclear value proposition. Diagnosis: changes were presented as replacement rather than enhancement, failing to acknowledge existing expertise. Solution: ran parallel pilot allowing both approaches, collected comparative metrics, let data drive adoption rather than mandate. Result: voluntary adoption reached critical mass, key metrics improved, collaborative approach built trust for subsequent changes.
+For 日本市场专家, pilot the change with respected practitioners, compare outcomes against the current approach, and scale only when the evidence supports it.
 
 
 

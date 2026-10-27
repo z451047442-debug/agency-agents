@@ -237,6 +237,8 @@ def main():
     parser = argparse.ArgumentParser(description="Build agent-browser.html")
     parser.add_argument("--out", default=str(REPO / "agent-browser.html"),
                         help="Output path (default: repo-root/agent-browser.html)")
+    parser.add_argument("--check", action="store_true",
+                        help="Exit 1 if the existing output is missing or stale")
     args = parser.parse_args()
 
     index_path = REPO / "AGENTS.json"
@@ -253,6 +255,15 @@ def main():
     html = HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
 
     out = Path(args.out)
+    if args.check:
+        if not out.exists():
+            print(f"STALE: {out} is missing. Run scripts/build-agent-browser.py.")
+            sys.exit(1)
+        if out.read_text(encoding="utf-8") != html:
+            print(f"STALE: {out} is out of date. Run scripts/build-agent-browser.py.")
+            sys.exit(1)
+        print(f"OK: {out} is up to date")
+        return
     out.write_text(html, encoding="utf-8", newline="\n")
     print(f"Built {out} ({data['total_agents']} agents, {data['total_categories']} categories)")
 

@@ -1,7 +1,7 @@
 {
   "category": "environmental",
   "agent_count": 38,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "environmental-carbon-management",
@@ -15,9 +15,7 @@
         "agriculture-general-manager",
         "construction-safety-officer",
         "energy-engineering-process-safety",
-        "environmental-climate-analyst",
-        "legal-engineering-legal-document-automation",
-        "legal-general-counsel"
+        "environmental-climate-analyst"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -29,14 +27,11 @@
       "tags": [
         "environmental",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "碳管理专家",
         "碳核算",
-        "碳交易与碳中和路径规划专家，覆盖GHG",
         "Protocol",
         "EU"
       ]
@@ -51,9 +46,7 @@
       "path": "environmental/environmental-circular-economy-design.md",
       "depends_on": [
         "aerospace-military-materials-manufacturing",
-        "education-arts-sports-teaching",
-        "logistics-supply-chain-strategist",
-        "marketing-bilibili-content-strategist"
+        "logistics-supply-chain-strategist"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -66,9 +59,7 @@
       "tags": [
         "environmental",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "循环经济与零废弃设计专家",
@@ -90,9 +81,7 @@
         "construction-safety-officer",
         "data-science-engineering-language-model-nlp",
         "energy-engineering-process-safety",
-        "environmental-carbon-management",
-        "legal-engineering-legal-document-automation",
-        "legal-general-counsel"
+        "environmental-carbon-management"
       ],
       "nexus_roles": [
         "phase-0-discovery",
@@ -103,15 +92,10 @@
       "vibe": "A scientist who sees patterns in centuries of data and speaks the language of statistical moments",
       "lifecycle": "published",
       "tags": [
-        "environmental",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "environmental"
       ],
       "keywords": [
         "气候数据分析师",
-        "气候数据科学与建模专家，覆盖气候模式降尺度",
         "极端事件归因",
         "长期趋势分析与预测",
         "CMIP6数据处理"
@@ -128,7 +112,6 @@
       "depends_on": [
         "energy-carbon-market",
         "home-lifestyle-personal-finance",
-        "marketing-china-market-localization-strategist",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
@@ -139,11 +122,7 @@
       "vibe": "Climate policy specialist — from UNFCCC negotiations to carbon border adjustments, from NDC ratchets to Article 6 carbon markets. Climate policy is the most complex coordination problem humanity has ever faced.",
       "lifecycle": "published",
       "tags": [
-        "environmental",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "environmental"
       ],
       "keywords": [
         "气候政策与碳市场专家",
@@ -164,8 +143,7 @@
       "depends_on": [
         "environmental-engineering-circular-economy",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "marketing-abm-account-based"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-1-strategy",
@@ -186,7 +164,6 @@
       "keywords": [
         "环保",
         "可持续发展总监",
-        "企业环保与可持续发展最高负责人，覆盖环境管理体系",
         "ISO14001",
         "碳减排"
       ]
@@ -221,7 +198,6 @@
       ],
       "keywords": [
         "生态修复工程师",
-        "生态系统修复与重建专家，覆盖湿地",
         "河流",
         "矿山",
         "棕地修复"
@@ -236,8 +212,7 @@
       "subcategory": "",
       "path": "environmental/environmental-engineering-advanced-oxidation.md",
       "depends_on": [
-        "environmental-carbon-management",
-        "legal-billing-time-tracking"
+        "environmental-carbon-management"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -257,8 +232,7 @@
         "高级氧化",
         "水中新污染物",
         "PFAS",
-        "处理工程师",
-        "水中新污染物与难降解有机物去除专家，覆盖PFAS"
+        "处理工程师"
       ]
     },
     {
@@ -272,8 +246,7 @@
       "depends_on": [
         "environmental-carbon-management",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "legal-engineering-legal-document-automation"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -293,7 +266,6 @@
       "keywords": [
         "大气环境",
         "空气质量工程师",
-        "大气污染扩散模拟与空气质量专家，覆盖AERMOD",
         "CALPUFF",
         "CMAQ大气扩散模型"
       ]
@@ -330,7 +302,6 @@
       "keywords": [
         "地下水",
         "水文地质学家",
-        "地下水科学与水文地质专家，覆盖地下水数值模拟",
         "MODFLOW",
         "FEFLOW"
       ]
@@ -368,7 +339,6 @@
       "keywords": [
         "生物声学",
         "生态声学研究员",
-        "动物声学通信与环境声学生态监测专家，覆盖被动声学监测",
         "PAM",
         "声景生态学"
       ]
@@ -397,14 +367,12 @@
       "tags": [
         "environmental",
         "biopolymers",
-        "Developed",
         "compostable",
         "plastics"
       ],
       "keywords": [
         "生物可降解",
         "可堆肥高分子材料工程师",
-        "生物可降解塑料与生物基高分子专家，覆盖PLA",
         "PHA",
         "PBAT"
       ]
@@ -412,7 +380,7 @@
     {
       "id": "environmental-engineering-circular-economy",
       "name": "循环经济/可持续产品设计专家",
-      "description": "循环经济与产品全生命周期可持续设计专家，覆盖产品LCA生命周期评价(ISO 14040/14044)、可拆卸/可修复/可回收设计(DfX)、材料护照/循环供应链与EPR生产者延伸责任",
+      "description": "Circular economy and sustainable product design specialist: ISO 14040/14044 LCA, material-flow analysis, design for disassembly and recycling, recycled-content claims, EPR and digital product passports, and EU ESPR/Battery Regulation compliance",
       "emoji": "♻️",
       "category": "environmental",
       "subcategory": "",
@@ -431,21 +399,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Take-make-waste is over — you design products that never become waste, redefining how materials flow through the economy",
+      "vibe": "Waste is a design decision made upstream — measure the material flow, then redesign the joint, the material, and the business model that created it",
       "lifecycle": "published",
       "tags": [
         "environmental",
-        "sustainable",
-        "design",
-        "Created",
-        "circular"
+        "circular-economy",
+        "lca",
+        "product-design",
+        "compliance"
       ],
       "keywords": [
-        "循环经济",
-        "可持续产品设计专家",
-        "循环经济与产品全生命周期可持续设计专家，覆盖产品LCA生命周期评价",
-        "ISO",
-        "可拆卸"
+        "circular economy",
+        "life cycle assessment",
+        "sustainable product design",
+        "design for recycling",
+        "material flow analysis",
+        "digital product passport",
+        "EPR",
+        "ISO 14044"
       ]
     },
     {
@@ -474,22 +445,20 @@
         "environmental",
         "climate",
         "technology",
-        "Developed",
         "carbon"
       ],
       "keywords": [
         "气候科技",
         "碳移除工程师",
         "气候技术与碳移除",
-        "CDR",
-        "工程专家，覆盖直接空气捕获"
+        "CDR"
       ]
     },
     {
       "id": "environmental-engineering-coastal-erosion",
-      "name": "水工/港口航道工程师",
-      "description": "港口码头与航道工程设计专家，覆盖码头结构(重力式/高桩/板桩)/防波堤/船坞设计、航道疏浚/水深维护、系泊/护舷/装卸工艺与系泊分析(OcraFlex/Optimoor)",
-      "emoji": "⚓",
+      "name": "海岸侵蚀/岸线防护工程师",
+      "description": "海岸侵蚀与岸线防护工程专家，覆盖泥沙收支/岸线演变分析、海堤/护岸/丁坝/离岸堤设计、海滩养护与硬防护环境影响评估",
+      "emoji": "🌊",
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-coastal-erosion.md",
@@ -507,27 +476,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A ship the size of the Empire State Building needs somewhere to dock — you design",
+      "vibe": "Shorelines move; structures do not. You read the sediment budget before",
       "lifecycle": "published",
       "tags": [
         "environmental",
-        "port",
-        "waterway",
-        "engineering",
-        "Designed"
+        "coastal",
+        "erosion",
+        "shoreline",
+        "engineering"
       ],
       "keywords": [
-        "水工",
-        "港口航道工程师",
-        "港口码头与航道工程设计专家，覆盖码头结构",
-        "重力式",
-        "高桩"
+        "coastal-erosion",
+        "shoreline-change",
+        "sediment-budget",
+        "littoral-drift",
+        "seawall",
+        "revetment",
+        "groyne",
+        "beach-nourishment",
+        "DSAS",
+        "XBeach"
       ]
     },
     {
       "id": "environmental-engineering-coastal-marine",
       "name": "海岸/海洋工程工程师",
-      "description": "海岸防护与近海工程技术专家，覆盖波浪/潮流/风暴潮水动力模型(Delft3D/MIKE21)、防波堤/海堤/护岸设计、泥沙输运/岸线演变与海上风电基础(单桩/导管架/浮式)",
+      "description": "海岸与海洋工程生态界面专家，覆盖海洋环境影响评价(EIA)、疏浚/弃土/水下噪声/取水卷载、海洋生境与生态工程(生态海堤/人工鱼礁/有益利用)",
       "emoji": "🌊",
       "category": "environmental",
       "subcategory": "",
@@ -543,21 +517,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The sea gives and takes away — you design the structures that protect coastlines,",
+      "vibe": "Every structure placed in the sea is also a habitat decision. You design the",
       "lifecycle": "published",
       "tags": [
         "environmental",
         "coastal",
-        "engineering",
-        "Designed",
-        "shoreline"
+        "marine",
+        "ecology",
+        "engineering"
       ],
       "keywords": [
-        "海岸",
-        "海洋工程工程师",
-        "海岸防护与近海工程技术专家，覆盖波浪",
-        "潮流",
-        "风暴潮水动力模型"
+        "marine-environment",
+        "marine-ecology",
+        "environmental-impact-assessment",
+        "dredging",
+        "underwater-noise",
+        "marine-mammals",
+        "artificial-reef",
+        "eco-engineering",
+        "habitat",
+        "marine-spatial-planning"
       ]
     },
     {
@@ -587,16 +566,21 @@
       "tags": [
         "environmental",
         "coastal",
-        "ecosystem",
-        "engineering",
-        "Designed"
+        "resilience",
+        "nature-based",
+        "ecosystem"
       ],
       "keywords": [
-        "海岸韧性",
-        "基于自然的方案",
+        "coastal-resilience",
+        "nature-based-solutions",
         "NbS",
-        "工程师",
-        "海岸生态工程与基于自然的防洪方案专家，覆盖红树林"
+        "mangrove",
+        "salt-marsh",
+        "oyster-reef",
+        "dune-restoration",
+        "living-shoreline",
+        "hybrid-infrastructure",
+        "iucn-nbs-standard"
       ]
     },
     {
@@ -638,16 +622,13 @@
     },
     {
       "id": "environmental-engineering-ecosystem-restoration",
-      "name": "森林生态/碳汇林业专家",
-      "description": "森林生态系统管理与森林碳汇MRV专家，覆盖森林资源清查/生长模型(LiDAR/遥感)、造林/再造林/森林经营碳汇计量(CDM/VCS/CCER)、REDD+与林业碳汇项目开发",
+      "name": "森林恢复与碳汇MRV专家",
+      "description": "森林恢复工程与碳汇MRV核查专家：参考生态系统与恢复方案、土壤碳/样地抽样设计、ISO 14064-2/3碳计量与独立核查、遥感生物量与不确定性分析、核查证据与数据质量管理",
       "emoji": "🌲",
       "category": "environmental",
       "subcategory": "",
       "path": "environmental/environmental-engineering-ecosystem-restoration.md",
       "depends_on": [
-        "cybersecurity-engineering-cyber-risk-model",
-        "finance-engineering-credit-risk-model",
-        "finance-engineering-risk-quant",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
         "logistics-engineering-supply-chain-risk"
@@ -657,19 +638,19 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A trillion trees can capture a century of emissions — you design the forest carbon projects that turn photosynthesis into verified carbon credits",
+      "vibe": "Carbon credits are only as good as the evidence behind them — you design the sampling, quantify the uncertainty, and audit the evidence until a restoration claim can survive independent verification.",
       "lifecycle": "published",
       "tags": [
         "environmental",
         "forestry",
         "carbon",
-        "Developed",
         "forest"
       ],
       "keywords": [
-        "森林生态",
-        "碳汇林业专家",
-        "森林生态系统管理与森林碳汇MRV专家，覆盖森林资源清查",
+        "森林恢复",
+        "碳汇MRV",
+        "独立核查",
+        "森林资源清查",
         "生长模型",
         "LiDAR"
       ]
@@ -683,7 +664,6 @@
       "subcategory": "",
       "path": "environmental/environmental-engineering-gis-remote-sensing.md",
       "depends_on": [
-        "education-special-needs",
         "engineering-graph-database",
         "environmental-engineering-weather-climate",
         "food-beverage-food-supply-chain",
@@ -701,14 +681,12 @@
         "environmental",
         "earth",
         "observation",
-        "Built",
         "spatial"
       ],
       "keywords": [
         "地理信息",
         "GIS",
         "遥感工程师",
-        "地理信息系统与遥感分析专家，覆盖ArcGIS",
         "QGIS"
       ]
     },
@@ -743,7 +721,6 @@
       "keywords": [
         "水文",
         "水资源工程师",
-        "水文分析与水资源规划管理专家，覆盖流域水文模型",
         "HEC-HMS",
         "SWAT"
       ]
@@ -760,7 +737,6 @@
         "environmental-carbon-management",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "healthcare-mental-health",
         "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
@@ -780,7 +756,6 @@
       "keywords": [
         "职业卫生",
         "工业卫生师",
-        "工作场所职业健康危害评估与控制专家，覆盖化学危害",
         "有机溶剂",
         "重金属"
       ]
@@ -816,7 +791,6 @@
       "keywords": [
         "溢油应急",
         "海洋环境应急专家",
-        "海上溢油应急与海洋污染防控专家，覆盖溢油轨迹",
         "风化漂移模型",
         "OSCAR"
       ]
@@ -853,14 +827,13 @@
         "包装可持续性",
         "生命周期",
         "LCA",
-        "顾问",
-        "包装环保与全生命周期评估专家，覆盖包装LCA碳足迹"
+        "顾问"
       ]
     },
     {
       "id": "environmental-engineering-paleontology-stratigraphy",
       "name": "古生物学/生物地层学研究员",
-      "description": "化石记录与地质年代地层专家，覆盖微体化石(有孔虫/牙形石/孢粉/钙质超微)/大化石鉴定与生物地层、沉积相/古环境/古气候重建、定量生物地层(UAgraph/RASC)/天文旋回地层与油气/矿产勘探应用",
+      "description": "Paleontology and biostratigraphy researcher: microfossil and macrofossil identification, biozonation, quantitative stratigraphic correlation (RASC, CONOP, UAgraph), paleoenvironmental reconstruction, and age calibration for basin and resource studies",
       "emoji": "🦴",
       "category": "environmental",
       "subcategory": "",
@@ -875,21 +848,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Fossils are not just museum pieces — they're time markers that tell geologists",
+      "vibe": "A fossil is an observation with an age attached — the value is not the specimen but the correlation it lets you defend",
       "lifecycle": "published",
       "tags": [
         "environmental",
         "paleontology",
-        "biostratigraphy",
-        "Dated",
-        "sedimentary"
+        "stratigraphy",
+        "geology",
+        "geochronology"
       ],
       "keywords": [
-        "古生物学",
-        "生物地层学研究员",
-        "化石记录与地质年代地层专家，覆盖微体化石",
-        "有孔虫",
-        "牙形石"
+        "paleontology",
+        "biostratigraphy",
+        "micropaleontology",
+        "biozone",
+        "chemostratigraphy",
+        "UAgraph",
+        "RASC",
+        "CONOP"
       ]
     },
     {
@@ -924,7 +900,6 @@
         "污泥处理",
         "厌氧消化",
         "沼气工程师",
-        "污泥处理处置与有机固废资源化专家，覆盖厌氧消化",
         "沼气"
       ]
     },
@@ -939,8 +914,7 @@
       "depends_on": [
         "environmental-engineering-climate-tech",
         "food-beverage-food-supply-chain",
-        "food-beverage-food-supply-chain-traceability",
-        "healthcare-engineering-cold-chain-pharma"
+        "food-beverage-food-supply-chain-traceability"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -960,7 +934,6 @@
         "雪冰",
         "冰川",
         "冻土工程师",
-        "寒区工程与冰冻圈科学专家，覆盖多年冻土",
         "季节性冻土路基工程设计"
       ]
     },
@@ -976,7 +949,6 @@
         "environmental-engineering-packaging-sustainability",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
-        "healthcare-engineering-cold-chain-pharma",
         "pharma-biotech-pharma-regulatory-affairs"
       ],
       "nexus_roles": [
@@ -990,13 +962,11 @@
         "environmental",
         "sustainable",
         "chemistry",
-        "Developed",
         "greener"
       ],
       "keywords": [
         "绿色化学",
         "可持续化学工艺开发专家",
-        "绿色化学十二原则与可持续化学工艺专家，覆盖原子经济性",
         "催化",
         "均相"
       ]
@@ -1035,7 +1005,6 @@
       "keywords": [
         "固体废物管理",
         "垃圾分类规划师",
-        "城市固废管理与资源化规划专家，覆盖垃圾分类",
         "收运体系规划",
         "机械生物处理"
       ]
@@ -1071,7 +1040,6 @@
       "keywords": [
         "水利工程",
         "水资源规划专家",
-        "水资源综合规划与水利枢纽设计专家，覆盖流域水资源配置",
         "水库群联合调度",
         "洪水风险"
       ]
@@ -1086,7 +1054,6 @@
       "path": "environmental/environmental-engineering-weather-climate.md",
       "depends_on": [
         "agriculture-engineering-soil-science",
-        "cybersecurity-engineering-cyber-risk-model",
         "environmental-engineering-climate-tech",
         "environmental-engineering-weather-forecast",
         "food-beverage-food-supply-chain",
@@ -1111,7 +1078,6 @@
       "keywords": [
         "气象",
         "气候数据科学家",
-        "气象预报与气候数据分析专家，覆盖数值天气预报",
         "NWP",
         "WRF"
       ]
@@ -1143,7 +1109,6 @@
         "environmental",
         "atmospheric",
         "modeling",
-        "Developed",
         "operated"
       ],
       "keywords": [
@@ -1165,9 +1130,7 @@
       "depends_on": [
         "construction-safety-officer",
         "energy-engineering-process-safety",
-        "environmental-engineering-gis-remote-sensing",
-        "legal-engineering-legal-document-automation",
-        "legal-general-counsel"
+        "environmental-engineering-gis-remote-sensing"
       ],
       "nexus_roles": [
         "phase-0-discovery",
@@ -1180,13 +1143,10 @@
       "tags": [
         "environmental",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "环境GIS分析师",
-        "环境空间数据与遥感分析专家，覆盖卫星影像处理",
         "土地利用分类",
         "环境遥感反演",
         "空间统计与环境制图"
@@ -1214,11 +1174,7 @@
       "vibe": "Marine scientist — from thermohaline circulation to ocean acidification, from phytoplankton blooms to deep-sea hydrothermal vents. The ocean covers 70% of Earth's surface, drives global climate, and remains largely unexplored.",
       "lifecycle": "published",
       "tags": [
-        "environmental",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "environmental"
       ],
       "keywords": [
         "海洋科学专家",
@@ -1240,9 +1196,7 @@
         "construction-safety-officer",
         "energy-engineering-grid-scale-storage",
         "energy-engineering-process-safety",
-        "environmental-carbon-management",
-        "legal-engineering-legal-document-automation",
-        "legal-general-counsel"
+        "environmental-carbon-management"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -1261,7 +1215,6 @@
       ],
       "keywords": [
         "环境监测工程师",
-        "环境监测系统设计与部署专家，覆盖空气质量",
         "水质",
         "土壤",
         "噪声监测的传感器网络"
@@ -1312,10 +1265,7 @@
       "depends_on": [
         "construction-safety-officer",
         "energy-engineering-offshore-wind",
-        "environmental-carbon-management",
-        "legal-engineering-legal-document-automation",
-        "legal-environmental-attorney",
-        "legal-general-counsel"
+        "environmental-carbon-management"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1327,13 +1277,10 @@
       "tags": [
         "environmental",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "可再生能源工程师",
-        "可再生能源系统设计与评估专家，覆盖太阳能光伏",
         "光热",
         "风力发电",
         "储能系统"
@@ -1362,9 +1309,7 @@
       "tags": [
         "environmental",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "可持续发展战略咨询专家",
@@ -1399,13 +1344,10 @@
       "tags": [
         "environmental",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "水处理工程师",
-        "水处理与水环境工程专家，覆盖市政供水",
         "污水处理",
         "MBR膜生物反应器",
         "RO反渗透"

@@ -1,7 +1,7 @@
 {
   "category": "retail",
   "agent_count": 15,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "retail-category-manager",
@@ -35,7 +35,6 @@
       ],
       "keywords": [
         "品类经理",
-        "零售品类管理与空间规划专家，覆盖品类战略与商品组合规划",
         "货架图",
         "Planogram",
         "优化"
@@ -70,7 +69,6 @@
         "retail",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -110,7 +108,6 @@
         "retail",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -155,7 +152,6 @@
       ],
       "keywords": [
         "零售总监",
-        "零售领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -190,7 +186,6 @@
         "retail",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -226,12 +221,10 @@
         "retail",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "快消品经理",
-        "快消品品牌经理，覆盖通路营销策略",
         "经销商",
         "批发商渠道管理",
         "店内激活与POSM"
@@ -273,7 +266,6 @@
       ],
       "keywords": [
         "零售总经理",
-        "零售领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -304,17 +296,22 @@
       "lifecycle": "published",
       "tags": [
         "retail",
-        "loss",
-        "prevention",
-        "Managed",
+        "loss-prevention",
+        "asset-protection",
+        "shrink",
         "security"
       ],
       "keywords": [
-        "零售防损",
-        "资产保护专家",
-        "零售防损与资产保护专家，覆盖店铺内外盗",
-        "员工舞弊防控",
-        "库存损耗"
+        "retail-loss-prevention",
+        "shrink",
+        "organized-retail-crime",
+        "internal-theft",
+        "pos-exceptions",
+        "eas",
+        "cctv",
+        "inventory-audit",
+        "asset-protection",
+        "case-management"
       ]
     },
     {
@@ -335,20 +332,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating retail specialists into coherent multi-agent workflows",
+      "vibe": "Retail is one promise made in three places at once — the shelf, the screen, and the warehouse must tell the same story about price, stock, and delivery.",
       "tags": [
         "retail",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "ecommerce",
+        "merchandising",
+        "supply-chain",
+        "multi-agent-coordination"
       ],
       "keywords": [
-        "Retail",
-        "Multi-Agent",
-        "Coordinator",
-        "coordinates",
-        "workflows"
+        "retail",
+        "merchandising",
+        "store-operations",
+        "omnichannel",
+        "loss-prevention"
       ]
     },
     {
@@ -377,7 +374,6 @@
         "retail",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -416,7 +412,6 @@
         "retail",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -457,7 +452,6 @@
       ],
       "keywords": [
         "门店运营经理",
-        "门店运营管理专家，覆盖门店SOP制定",
         "人员排班优化",
         "视觉陈列标准",
         "防损策略"
@@ -492,7 +486,6 @@
         "retail",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -527,7 +520,6 @@
         "retail",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -563,17 +555,22 @@
       "lifecycle": "published",
       "tags": [
         "retail",
-        "visual",
-        "merchandising",
-        "Designed",
-        "store"
+        "visual-merchandising",
+        "store-experience",
+        "design",
+        "planogram"
       ],
       "keywords": [
-        "视觉陈列",
-        "VMD",
-        "设计师",
-        "零售视觉陈列与店面体验设计专家，覆盖橱窗",
-        "店内陈列设计"
+        "visual-merchandising",
+        "vmd",
+        "window-display",
+        "store-layout",
+        "planogram",
+        "customer-flow",
+        "retail-design",
+        "seasonal-changeover",
+        "fixture-planning",
+        "vm-audit"
       ]
     }
   ]

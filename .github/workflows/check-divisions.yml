@@ -1,5 +1,8 @@
 name: Check Divisions Consistency
 
+permissions:
+  contents: read
+
 # Triggered when divisions.json, check-divisions scripts, or this workflow change.
 # New division directories are detected by the check-divisions.sh script which
 # scans the filesystem directly.
@@ -9,6 +12,7 @@ on:
       - 'divisions.json'
       - 'scripts/check-divisions.*'
       - '.github/workflows/check-divisions.yml'
+      - '**/*.md'
   push:
     branches: [main]
 
@@ -29,7 +33,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml==6.0.3
 
       - name: Validate division set
         run: |

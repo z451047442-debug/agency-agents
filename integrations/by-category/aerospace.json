@@ -1,7 +1,7 @@
 {
   "category": "aerospace",
   "agent_count": 33,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "aerospace-atc-specialist",
@@ -30,15 +30,12 @@
       "tags": [
         "aerospace",
         "Tools",
-        "Technologies",
-        "Methodology",
-        "Decision"
+        "Technologies"
       ],
       "keywords": [
         "空中交通管制",
         "ATC",
         "专家",
-        "空中交通管理与管制专家，覆盖塔台",
         "进近"
       ]
     },
@@ -73,7 +70,6 @@
       ],
       "keywords": [
         "航电系统工程师",
-        "航空电子系统设计与集成专家，覆盖飞行管理",
         "通信导航",
         "座舱显示",
         "综合模块化航电"
@@ -88,7 +84,6 @@
       "subcategory": "",
       "path": "aerospace/aerospace-c4isr-electronic-warfare.md",
       "depends_on": [
-        "cybersecurity-engineering-threat-detection-engineer",
         "telecom-engineering-radar-systems",
         "aerospace-avionics",
         "aerospace-engineering-systems-aerospace"
@@ -143,9 +138,7 @@
       "tags": [
         "aerospace",
         "Tools",
-        "Technologies",
-        "Methodology",
-        "Decision"
+        "Technologies"
       ],
       "keywords": [
         "毁伤与防护技术专家",
@@ -164,14 +157,12 @@
       "subcategory": "",
       "path": "aerospace/aerospace-director.md",
       "depends_on": [
-        "cybersecurity-engineering-cyber-risk-model",
         "food-beverage-food-supply-chain",
         "food-beverage-food-supply-chain-traceability",
         "logistics-engineering-supply-chain-analytics",
         "logistics-engineering-supply-chain-risk",
         "logistics-engineering-supply-chain-software",
-        "manufacturing-supply-chain-planner",
-        "marketing-customer-lifecycle"
+        "manufacturing-supply-chain-planner"
       ],
       "nexus_roles": [
         "phase-1-strategy",
@@ -191,7 +182,6 @@
       "keywords": [
         "航空航天项目总监",
         "航空航天项目",
-        "事业部最高负责人，覆盖飞行器",
         "卫星",
         "系统开发策略"
       ]
@@ -228,14 +218,13 @@
         "城市空中交通",
         "UAM",
         "eVTOL系统工程专家",
-        "电动垂直起降飞行器与城市空中交通生态系统专家，覆盖eVTOL分布式电推进",
         "DEP"
       ]
     },
     {
       "id": "aerospace-engineering-aircraft-structures",
       "name": "飞机结构/强度/疲劳设计工程师",
-      "description": "民用飞机金属与复合材料结构静力/疲劳/损伤容限专家，覆盖机身/机翼/尾翼结构设计、有限元应力分析(Nastran/Abaqus)、疲劳/裂纹扩展/广布疲劳损伤(WFD)与适航(CS-25/FAR",
+      "description": "Civil aircraft structures engineer for metallic and composite airframes: static strength, fatigue and damage tolerance, finite element analysis, certification to CS-25/FAR 25.571, and weight optimization",
       "emoji": "✈️",
       "category": "aerospace",
       "subcategory": "",
@@ -243,11 +232,8 @@
       "depends_on": [
         "aerospace-engineering-aviation-engineering",
         "aerospace-multi-agent-coordinator",
-        "finance-accounts-payable-agent",
         "infrastructure-engineering-site-reliability-architect",
-        "infrastructure-engineering-site-reliability-automation",
-        "marketing-abm-account-based",
-        "testing-engineering-test-automation-framework"
+        "infrastructure-engineering-site-reliability-automation"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -255,62 +241,63 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "An airplane flexes, pressurizes, and vibrates for 100,000 flight hours — you",
+      "vibe": "An airframe flexes, pressurizes, and vibrates for 100,000 flights — design the structure that carries every cycle without losing residual strength",
       "lifecycle": "published",
       "tags": [
         "aerospace",
         "aircraft",
         "structural",
         "design",
-        "Designed"
+        "certification"
       ],
       "keywords": [
-        "飞机结构",
-        "强度",
-        "疲劳设计工程师",
-        "民用飞机金属与复合材料结构静力",
-        "疲劳"
+        "aircraft structures",
+        "static strength",
+        "fatigue and damage tolerance",
+        "composite airframe",
+        "finite element analysis",
+        "certification",
+        "widespread fatigue damage"
       ]
     },
     {
       "id": "aerospace-engineering-aviation-biofuels",
       "name": "航空替代燃料(AST D7566/SAF)分析师",
-      "description": "可持续航空燃料认证与碳强度分析师，覆盖ASTM D7566/D1655 SAF认证途径(HEFA/ATJ-SPK/HFS-SIP/FT-SPK)、ICAO CORSIA全生命周期排放值/Core LCA与EU ReFuelEU Aviation/UK SAF Mandate合规",
+      "description": "Sustainable aviation fuel certification and carbon-intensity analyst: ASTM D7566/D1655 pathway qualification (HEFA, ATJ, FT, CHJ, HFS-SIP), CORSIA lifecycle values, EU ReFuelEU Aviation, and UK SAF Mandate compliance",
       "emoji": "✈️",
       "category": "aerospace",
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-biofuels.md",
       "depends_on": [
         "aerospace-engineering-aviation-sustainability",
-        "finance-accounts-payable-agent",
-        "finance-engineering-credit-risk-model",
         "food-beverage-food-safety",
         "food-beverage-food-supply-chain-traceability",
         "logistics-engineering-supply-chain-risk",
-        "marketing-abm-account-based",
-        "quality-food-safety",
-        "testing-engineering-test-automation-framework"
+        "quality-food-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Sustainable aviation fuel is chemically identical to Jet A-1 but made from waste, not oil — you verify the carbon savings and certify the fuel to fly",
+      "vibe": "SAF is not a marketing attribute — it is a qualified fuel with a chain of custody and a carbon-intensity number that must survive an auditor",
       "lifecycle": "published",
       "tags": [
         "aerospace",
         "aviation",
         "fuel",
-        "Qualified",
-        "pathways"
+        "sustainability",
+        "certification"
       ],
       "keywords": [
-        "航空替代燃料",
-        "AST",
-        "D7566",
+        "sustainable aviation fuel",
         "SAF",
-        "分析师"
+        "ASTM D7566",
+        "HEFA",
+        "alcohol-to-jet",
+        "CORSIA",
+        "ReFuelEU",
+        "carbon intensity"
       ]
     },
     {
@@ -324,11 +311,7 @@
       "depends_on": [
         "aerospace-atc-specialist",
         "data-science-engineering-deep-learning-training",
-        "aerospace-multi-agent-coordinator",
-        "finance-accounts-payable-agent",
-        "finance-engineering-credit-risk-model",
-        "marketing-abm-account-based",
-        "testing-engineering-test-automation-framework"
+        "aerospace-multi-agent-coordinator"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -348,7 +331,6 @@
       "keywords": [
         "航空经济",
         "航线网络规划分析师",
-        "航空公司航线网络规划与机队战略专家，覆盖航线盈利性",
         "Hub经济学",
         "O&D流量"
       ]
@@ -365,7 +347,6 @@
         "aerospace-engineering-aircraft-structures",
         "aerospace-flight-test-engineer",
         "engineering-ai-agent-developer",
-        "cybersecurity-security-architect",
         "data-science-data-engineer"
       ],
       "nexus_roles": [
@@ -385,7 +366,6 @@
       ],
       "keywords": [
         "航空发动机设计工程师",
-        "燃气涡轮航空发动机设计与性能专家，覆盖涡扇",
         "涡桨",
         "涡轴发动机热力循环",
         "压气机"
@@ -403,10 +383,7 @@
         "aerospace-engineering-aviation-pilot-training",
         "aerospace-engineering-aviation-safety",
         "data-science-engineering-deep-learning-training",
-        "design-engineering-human-factors",
-        "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "testing-engineering-test-automation-framework"
+        "design-engineering-human-factors"
       ],
       "nexus_roles": [
         "phase-1-strategy",
@@ -427,8 +404,7 @@
         "航空人为因素",
         "CRM训练专家",
         "航空安全人为因素与机组资源管理",
-        "CRM",
-        "专家，覆盖飞行员人为差错"
+        "CRM"
       ]
     },
     {
@@ -440,10 +416,7 @@
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-aviation-maintenance.md",
       "depends_on": [
-        "aerospace-engineering-aviation-pilot-training",
-        "finance-accounts-payable-agent",
-        "legal-engineering-legal-document-automation",
-        "marketing-abm-account-based"
+        "aerospace-engineering-aviation-pilot-training"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -479,11 +452,7 @@
       "path": "aerospace/aerospace-engineering-aviation-pilot-training.md",
       "depends_on": [
         "aerospace-flight-test-engineer",
-        "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-deep-learning-training",
-        "finance-engineering-credit-risk-model",
-        "marketing-abm-account-based",
-        "testing-engineering-test-automation-framework",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
@@ -504,8 +473,7 @@
         "航空训练",
         "全动模拟机",
         "FFS",
-        "工程师",
-        "飞行员训练设备与模拟技术专家，覆盖全动飞行模拟机"
+        "工程师"
       ]
     },
     {
@@ -542,8 +510,7 @@
         "航空安全",
         "飞行品质监控",
         "FOQA",
-        "分析师",
-        "飞行数据监控与航空安全管理专家，覆盖FOQA"
+        "分析师"
       ]
     },
     {
@@ -559,9 +526,7 @@
         "energy-carbon-market",
         "energy-engineering-carbon-capture-storage",
         "energy-engineering-hydrogen-fuel-cell",
-        "finance-accounts-payable-agent",
-        "logistics-engineering-supply-chain-risk",
-        "marketing-abm-account-based"
+        "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -581,8 +546,7 @@
         "航空可持续性",
         "SAF可持续航空燃料专家",
         "航空业脱碳与可持续航空燃料",
-        "SAF",
-        "技术专家，覆盖SAF技术路线"
+        "SAF"
       ]
     },
     {
@@ -594,10 +558,7 @@
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-drone-engineer.md",
       "depends_on": [
-        "aerospace-engineering-aircraft-structures",
-        "finance-accounts-payable-agent",
-        "marketing-abm-account-based",
-        "marketing-paid-media-tracking-specialist"
+        "aerospace-engineering-aircraft-structures"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -610,14 +571,12 @@
         "aerospace",
         "system",
         "design",
-        "Built",
         "drones"
       ],
       "keywords": [
         "无人机",
         "UAV",
         "系统工程师",
-        "UAS系统设计与集成专家，覆盖飞控",
         "PX4"
       ]
     },
@@ -631,9 +590,7 @@
       "path": "aerospace/aerospace-engineering-planetary-science.md",
       "depends_on": [
         "aerospace-atc-specialist",
-        "environmental-engineering-gis-remote-sensing",
-        "healthcare-engineering-regulatory-science",
-        "testing-engineering-test-automation-framework"
+        "environmental-engineering-gis-remote-sensing"
       ],
       "nexus_roles": [
         "phase-2-foundation",
@@ -670,8 +627,7 @@
       "depends_on": [
         "aerospace-atc-specialist",
         "aerospace-engineering-systems-aerospace",
-        "infrastructure-identity-access",
-        "testing-engineering-test-automation-framework"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -691,7 +647,6 @@
         "卫星运营",
         "地面站",
         "飞控工程师",
-        "在轨卫星运营与地面站系统工程专家，覆盖LEO",
         "MEO"
       ]
     },
@@ -708,7 +663,6 @@
         "aerospace-engineering-systems-aerospace",
         "engineering-standards-compliance",
         "engineering-programming-language",
-        "testing-engineering-test-automation-framework",
         "aerospace-engineering-drone-engineer"
       ],
       "nexus_roles": [
@@ -720,16 +674,13 @@
       "tags": [
         "aerospace",
         "Tools",
-        "Technologies",
-        "Methodology",
-        "Decision"
+        "Technologies"
       ],
       "keywords": [
         "航天器GNC",
         "制导导航控制工程师",
         "航天器制导导航与控制",
-        "GNC",
-        "系统专家，覆盖姿态确定与控制系统"
+        "GNC"
       ]
     },
     {
@@ -741,9 +692,7 @@
       "subcategory": "",
       "path": "aerospace/aerospace-engineering-systems-aerospace.md",
       "depends_on": [
-        "aerospace-atc-specialist",
-        "cybersecurity-engineering-cyber-risk-model",
-        "testing-engineering-test-automation-framework"
+        "aerospace-atc-specialist"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -762,7 +711,6 @@
       "keywords": [
         "航空航天",
         "国防系统工程专家",
-        "航空航天与国防系统工程项目管理专家，覆盖系统工程V-Model",
         "INCOSE流程",
         "需求工程"
       ]
@@ -778,8 +726,6 @@
       "depends_on": [
         "aerospace-atc-specialist",
         "aerospace-engineering-systems-aerospace",
-        "testing-engineering-test-automation-framework",
-        "cybersecurity-security-architect",
         "data-science-data-engineer"
       ],
       "nexus_roles": [
@@ -800,7 +746,6 @@
       ],
       "keywords": [
         "飞行测试工程师",
-        "飞行测试与验证专家，覆盖试飞计划",
         "测试点设计",
         "飞行数据采集",
         "分析"
@@ -822,7 +767,6 @@
         "aerospace-engineering-spacecraft-gnc",
         "aerospace-c4isr-electronic-warfare",
         "aerospace-engineering-aviation-safety",
-        "cybersecurity-penetration-tester",
         "engineering-systems-integrator",
         "engineering-ai-agent-developer"
       ],
@@ -838,7 +782,6 @@
         "aerospace",
         "Tools",
         "Technologies",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -858,8 +801,7 @@
       "subcategory": "",
       "path": "aerospace/aerospace-military-civil-fusion.md",
       "depends_on": [
-        "logistics-supply-chain-strategist",
-        "marketing-china-market-localization-strategist"
+        "logistics-supply-chain-strategist"
       ],
       "nexus_roles": [
         "phase-0-discovery",
@@ -1002,7 +944,6 @@
         "aerospace-engineering-systems-aerospace",
         "aerospace-systems-engineer",
         "aerospace-director",
-        "cybersecurity-security-architect",
         "data-science-data-engineer"
       ],
       "nexus_roles": [
@@ -1053,13 +994,11 @@
         "aerospace",
         "Tools",
         "Technologies",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "航空发动机工程师",
         "航空发动机",
-        "燃气轮机设计与试验专家，覆盖总体性能",
         "压气机",
         "燃烧室"
       ]
@@ -1075,8 +1014,7 @@
       "depends_on": [
         "aerospace-atc-specialist",
         "aerospace-engineering-systems-aerospace",
-        "infrastructure-identity-access",
-        "testing-engineering-test-automation-framework"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -1095,7 +1033,6 @@
       "keywords": [
         "卫星系统工程师",
         "卫星",
-        "航天器总体设计与在轨运行专家，覆盖平台设计",
         "载荷集成",
         "轨道控制"
       ]
@@ -1132,7 +1069,6 @@
       "keywords": [
         "飞行器结构工程师",
         "飞机",
-        "航天器结构设计与强度分析专家，覆盖机身",
         "机翼",
         "起落架及复合材料结构"
       ]
@@ -1149,8 +1085,7 @@
         "aerospace-atc-specialist",
         "aerospace-director",
         "aerospace-engineering-systems-aerospace",
-        "energy-engineering-hydrogen-fuel-cell",
-        "marketing-paid-media-tracking-specialist"
+        "energy-engineering-hydrogen-fuel-cell"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1167,7 +1102,6 @@
       ],
       "keywords": [
         "航空航天系统工程师",
-        "飞行器总体设计与系统集成专家，覆盖需求分解",
         "架构设计",
         "适航取证全链路",
         "Role"

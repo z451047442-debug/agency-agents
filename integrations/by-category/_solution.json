@@ -1,7 +1,7 @@
 {
   "category": "_solution",
   "agent_count": 4,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "_solution-compliance-audit",
@@ -113,9 +113,7 @@
       "tags": [
         "_solution",
         "Success",
-        "Metrics",
-        "Decision",
-        "Framework"
+        "Metrics"
       ],
       "keywords": [
         "Reality",
@@ -158,9 +156,7 @@
       "tags": [
         "_solution",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "软件项目全生命周期元代理",

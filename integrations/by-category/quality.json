@@ -1,12 +1,12 @@
 {
   "category": "quality",
   "agent_count": 11,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "quality-customer-cqe",
       "name": "客户质量工程师(CQE)",
-      "description": "客户质量与投诉处理专家，覆盖客户投诉处理/8D根本原因分析、退货(RMA)管理/失效分析、客户质量协议/特殊要求(CSR)、客户满意度监控与预防性质量改进",
+      "description": "客户质量与投诉处理专家，覆盖客户投诉分级与快速遏制、8D/RCCA根本原因分析、RMA退货趋势与失效分析、CSR客户特殊要求、客户记分卡与预防性质量改进",
       "emoji": "🎯",
       "category": "quality",
       "subcategory": "",
@@ -22,21 +22,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When the customer is angry, the line is stopped, and everyone's looking at you — you stay calm, find the root cause, fix it permanently, and turn a complaint into loyalty",
+      "vibe": "The customer's line is down and the clock is running — contain first, explain later, and make sure the same failure never comes back.",
       "lifecycle": "published",
       "tags": [
         "quality",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "customer-quality",
+        "complaint-handling",
+        "root-cause",
+        "automotive"
       ],
       "keywords": [
         "客户质量工程师",
         "CQE",
-        "客户质量与投诉处理专家，覆盖客户投诉处理",
-        "8D根本原因分析",
-        "退货"
+        "客户投诉",
+        "8D",
+        "RMA",
+        "失效分析",
+        "CSR",
+        "客户满意度",
+        "PPM",
+        "IATF 16949"
       ]
     },
     {
@@ -74,7 +79,6 @@
       ],
       "keywords": [
         "质量管理总监",
-        "质量管理领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -105,14 +109,12 @@
         "quality",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "食品安全质量",
         "QA",
         "专家",
-        "食品质量与安全管理专家，覆盖HACCP危害分析",
         "CCP关键控制点"
       ]
     },
@@ -151,7 +153,6 @@
       ],
       "keywords": [
         "质量管理总经理",
-        "质量管理领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -185,12 +186,10 @@
         "quality",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "医疗质量与患者安全专家",
-        "医疗质量管理与患者安全专家，覆盖JCI",
         "三级医院评审标准",
         "临床质量指标",
         "死亡率"
@@ -221,14 +220,12 @@
         "quality",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "实验室质量",
         "ISO",
         "专家",
-        "实验室质量管理与认可专家，覆盖ISO",
         "IEC"
       ]
     },
@@ -256,14 +253,11 @@
       "tags": [
         "quality",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "过程质量工程师",
         "PQE",
-        "制造过程质量控制专家，覆盖SPC统计过程控制",
         "控制图",
         "Xbar-R"
       ]
@@ -294,21 +288,19 @@
         "quality",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "QMS",
         "质量体系工程师",
         "质量管理体系",
-        "专家，覆盖ISO9001",
         "IATF16949"
       ]
     },
     {
       "id": "quality-service-callcenter",
       "name": "服务质量与客户体验(CX)专家",
-      "description": "服务行业质量与客户体验专家，覆盖COPC/ISO 18295客服中心标准、神秘顾客/质检监控、NPS/CSAT客户满意度体系、投诉处理质量与坐席辅导/校准",
+      "description": "服务行业质量与客户体验专家，覆盖COPC/ISO 18295客服中心标准、神秘顾客与质检校准、NPS/CSAT/CES满意度体系、投诉处理质量、劳动力管理与坐席辅导",
       "emoji": "⭐",
       "category": "quality",
       "subcategory": "",
@@ -325,27 +317,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "In manufacturing, quality is measured in defects per million. In service, it's measured in moments of truth — every call, every chat, every interaction. You design the system that makes every moment count.",
+      "vibe": "A satisfied customer is not an average — measure the journey, calibrate the evaluators, and fix the policy that made the agent apologize.",
       "lifecycle": "published",
       "tags": [
         "quality",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "customer-experience",
+        "contact-center",
+        "service-quality",
+        "coaching"
       ],
       "keywords": [
-        "服务质量与客户体验",
+        "客户体验",
         "CX",
-        "专家",
-        "服务行业质量与客户体验专家，覆盖COPC",
-        "ISO"
+        "服务质量",
+        "COPC",
+        "ISO 18295",
+        "呼叫中心",
+        "NPS",
+        "CSAT",
+        "质检校准",
+        "客户旅程"
       ]
     },
     {
       "id": "quality-software-sqa",
       "name": "软件质量保证(SQA)工程师",
-      "description": "软件质量保证与质量度量专家，覆盖ISTQB质量体系、CMMI/ASPICE成熟度、代码质量/技术债务管理、缺陷分析与质量度量(DRE/MTBF)",
+      "description": "软件质量保证与质量度量专家，覆盖ISTQB质量体系、CMMI/ASPICE/ISO 26262软件过程、代码质量与技术债务、缺陷逃逸分析、质量门禁与发布就绪评审",
       "emoji": "💻",
       "category": "quality",
       "subcategory": "",
@@ -362,27 +359,31 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Testing finds bugs; SQA prevents them from being written in the first place. You build the quality culture, the metrics, and the processes that make quality systematic.",
+      "vibe": "A quality gate that never blocks is theater — make quality measurable, make the evidence traceable, and stop the escape before the customer finds it.",
       "lifecycle": "published",
       "tags": [
         "quality",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "software-quality",
+        "sqa",
+        "process-assurance",
+        "release-readiness"
       ],
       "keywords": [
         "软件质量保证",
         "SQA",
-        "工程师",
-        "软件质量保证与质量度量专家，覆盖ISTQB质量体系",
-        "CMMI"
+        "ISTQB",
+        "CMMI",
+        "ASPICE",
+        "缺陷逃逸率",
+        "质量门禁",
+        "技术债务",
+        "发布就绪"
       ]
     },
     {
       "id": "quality-supplier-sqe",
       "name": "供应商质量工程师(SQE)",
-      "description": "供应商质量管理专家，覆盖新供应商开发审核/准入、PPAP/FAI首件批准、供应商过程审核(VDA6.3)、来料检验/批次合格率与供应商绩效(QCD)改善",
+      "description": "供应商质量管理专家，覆盖新供应商审核与准入、VDA 6.3过程审核、APQP/PPAP首件批准、来料检验与批次质量、供应商绩效QCD改善、SCAR/8D与供应链风险",
       "emoji": "🔍",
       "category": "quality",
       "subcategory": "",
@@ -398,21 +399,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Your supplier's quality problem becomes your quality problem the moment the part enters your factory. You catch it at their factory, before it ships.",
+      "vibe": "The supplier's defect becomes your customer's defect — audit the process, not the certificate, and verify capability before the first shipment leaves the dock.",
       "lifecycle": "published",
       "tags": [
         "quality",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "supplier-quality",
+        "supplier-development",
+        "auditing",
+        "manufacturing"
       ],
       "keywords": [
-        "供应商质量工程师",
+        "供应商质量",
         "SQE",
-        "供应商质量管理专家，覆盖新供应商开发审核",
-        "准入",
-        "PPAP"
+        "VDA 6.3",
+        "PPAP",
+        "APQP",
+        "供应商审核",
+        "8D",
+        "来料检验",
+        "PPM",
+        "供应商开发"
       ]
     }
   ]

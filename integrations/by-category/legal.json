@@ -1,7 +1,7 @@
 {
   "category": "legal",
   "agent_count": 25,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "legal-billing-time-tracking",
@@ -36,7 +36,6 @@
       ],
       "keywords": [
         "法务计费与工时管理专员",
-        "全面的法务计费与工时管理专家，覆盖工时记录",
         "发票生成",
         "收款管理与信托账户合规",
         "Legal"
@@ -71,7 +70,6 @@
       ],
       "keywords": [
         "法务客户受理专员",
-        "全面的法务客户受理专家，负责潜在客户筛选",
         "案件信息收集",
         "咨询预约与利益冲突检查",
         "Legal"
@@ -104,13 +102,10 @@
       "tags": [
         "legal",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "工程建设与不动产律师",
-        "工程建设与不动产法律专家，覆盖建设工程施工合同",
         "EPC",
         "招投标",
         "政府采购法"
@@ -140,7 +135,6 @@
         "legal",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -154,7 +148,7 @@
     {
       "id": "legal-criminal-defense-attorney",
       "name": "刑事辩护律师",
-      "description": "刑事辩护、取保候审、量刑协商、上诉代理与刑事合规专家",
+      "description": "US criminal defense strategist for investigation-stage defense, suppression litigation, plea negotiation, trial, and sentencing mitigation under federal and state law.",
       "emoji": "⚖️",
       "category": "legal",
       "subcategory": "",
@@ -169,27 +163,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Tenacious and sharp — every person deserves a vigorous defense, and every prosecution must prove guilt beyond reasonable doubt.",
+      "vibe": "The government carries the burden, and every shortcut in its evidence chain deserves a documented challenge before the client gives up a right.",
       "lifecycle": "published",
       "tags": [
         "legal",
-        "Domain",
-        "Expertise",
-        "Success",
-        "Metrics"
+        "criminal-defense",
+        "constitutional-law",
+        "litigation",
+        "sentencing"
       ],
       "keywords": [
-        "刑事辩护律师",
-        "刑事辩护",
-        "取保候审",
-        "量刑协商",
-        "上诉代理与刑事合规专家"
+        "criminal defense",
+        "Fourth Amendment",
+        "Brady and Giglio",
+        "suppression motion",
+        "plea negotiation",
+        "US Sentencing Guidelines",
+        "sentencing mitigation",
+        "trial advocacy",
+        "appellate preservation",
+        "collateral consequences"
       ]
     },
     {
       "id": "legal-cybersecurity-data",
       "name": "网络安全与数据合规律师",
-      "description": "网络安全与数据安全法律专家，覆盖《网络安全法》《数据安全法》《个人信息保护法》、等保/关基合规、数据跨境传输安全评估、网络安全事件应急与监管应对",
+      "description": "Cybersecurity and data protection counsel for China and cross-border operations, covering PIPL, DSL, MLPS, GDPR, CCPA, breach response, transfer assessments, vendor contracts, and regulator-facing readiness.",
       "emoji": "🔐",
       "category": "legal",
       "subcategory": "",
@@ -208,21 +207,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When a data breach happens, the regulators don't call the CISO — they call the GC. You make sure the company has answers before the questions are asked.",
+      "vibe": "A data incident is a legal event before it is a technical one — classify the data, start the clock, preserve the evidence, and give the regulator facts rather than adjectives.",
       "lifecycle": "published",
       "tags": [
         "legal",
-        "Success",
-        "Metrics",
-        "Outputs",
-        "Specification"
+        "cybersecurity",
+        "data-privacy",
+        "compliance",
+        "incident-response"
       ],
       "keywords": [
-        "网络安全与数据合规律师",
-        "网络安全与数据安全法律专家，覆盖《网络安全法》《数据安全法》《个人信息保护法》",
-        "等保",
-        "关基合规",
-        "数据跨境传输安全评估"
+        "cybersecurity law",
+        "data protection",
+        "PIPL compliance",
+        "data classification",
+        "cross-border data transfer",
+        "MLPS 2.0",
+        "breach notification",
+        "incident response",
+        "privacy impact assessment",
+        "vendor risk"
       ]
     },
     {
@@ -248,7 +252,6 @@
         "legal",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -283,14 +286,11 @@
       "tags": [
         "legal",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "数据保护官",
         "DPO",
-        "数据保护与隐私合规专家，覆盖GDPR",
         "PIPL",
         "CCPA合规"
       ]
@@ -322,13 +322,11 @@
       "tags": [
         "legal",
         "Domain",
-        "Framework",
         "Success",
         "Metrics"
       ],
       "keywords": [
         "法律总监",
-        "法律领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -357,13 +355,10 @@
       "tags": [
         "legal",
         "Outputs",
-        "Specification",
-        "Methodology",
-        "Decision"
+        "Specification"
       ],
       "keywords": [
         "法务文件审查专员",
-        "全面的法务文件审查专家，覆盖合同",
         "诉讼文件与不动产协议的摘要",
         "风险条款标记与合规检查",
         "Legal"
@@ -396,23 +391,24 @@
       "lifecycle": "published",
       "tags": [
         "legal",
-        "technology",
-        "Built",
-        "models",
-        "document"
+        "contracts",
+        "machine-learning",
+        "evaluation",
+        "governance"
       ],
       "keywords": [
-        "法律AI",
-        "计算法律学研究员",
-        "计算法律学与AI法律推理专家，覆盖法律文本NLP",
-        "命名实体识别",
-        "当事人"
+        "contract AI",
+        "clause extraction",
+        "legal NLP",
+        "retrieval grounding",
+        "evaluation",
+        "privilege"
       ]
     },
     {
       "id": "legal-engineering-legal-document-automation",
       "name": "智能合约/法律文档自动化工程师",
-      "description": "法律文档自动化与智能合约模板专家，覆盖文档自动化(HotDocs/Docassemble)、合同生命周期编码、法律规则引擎与NLP合同条款提取",
+      "description": "Legal document automation engineer who turns approved clause language into versioned, tested document-assembly systems with jurisdiction logic, data contracts, audit trails, and e-signature handoffs.",
       "emoji": "📄",
       "category": "legal",
       "subcategory": "",
@@ -432,21 +428,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Legal documents are just structured data in prose form — you encode legal logic",
+      "vibe": "A template is not a Word file with blanks — it is code that carries legal consequences, so every branch, data field, and clause version must be testable and traceable.",
       "lifecycle": "published",
       "tags": [
         "legal",
-        "automation",
-        "Built",
-        "document",
-        "generation"
+        "legaltech",
+        "document-automation",
+        "contracts",
+        "engineering"
       ],
       "keywords": [
-        "智能合约",
-        "法律文档自动化工程师",
-        "法律文档自动化与智能合约模板专家，覆盖文档自动化",
-        "HotDocs",
-        "Docassemble"
+        "legal document automation",
+        "document assembly",
+        "clause library",
+        "contract lifecycle management",
+        "guided interview",
+        "template governance",
+        "legal rules engine",
+        "document regression testing",
+        "e-signature",
+        "PDF/A archiving"
       ]
     },
     {
@@ -475,17 +476,18 @@
       "lifecycle": "published",
       "tags": [
         "legal",
-        "building",
-        "technology",
-        "products",
-        "Shipped"
+        "legaltech",
+        "product-management",
+        "clm",
+        "ediscovery"
       ],
       "keywords": [
-        "法律科技",
-        "LegalTech",
-        "产品经理",
-        "法律科技与智能合同管理产品专家，覆盖AI合同审查",
-        "智能合约"
+        "LegalTech product",
+        "CLM",
+        "eDiscovery",
+        "workflow automation",
+        "adoption",
+        "legal data security"
       ]
     },
     {
@@ -523,7 +525,6 @@
       "keywords": [
         "空间法",
         "太空资源开发法律顾问",
-        "国际空间法与商业航天法律专家，覆盖外空条约",
         "OST",
         "责任公约"
       ]
@@ -531,7 +532,7 @@
     {
       "id": "legal-engineering-patent-engineer",
       "name": "专利/知识产权工程师",
-      "description": "技术专利与知识产权工程专家，覆盖专利检索/现有技术分析、专利说明书/权利要求撰写、发明人访谈/技术交底与专利审查答辩",
+      "description": "Patent engineer for invention capture, prior-art searching, claim drafting, prosecution strategy, freedom-to-operate analysis, and portfolio decisions across the USPTO, EPO, and PCT.",
       "emoji": "📜",
       "category": "legal",
       "subcategory": "",
@@ -550,21 +551,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "An invention without a patent is a gift to your competitors. You translate engineering",
+      "vibe": "A patent is a bargain with the public — you disclose enough to teach the invention, and in return you get a right to exclude that is only as strong as the claims you can defend.",
       "lifecycle": "published",
       "tags": [
         "legal",
         "patent",
-        "engineering",
-        "Drafted",
-        "hundreds"
+        "intellectual-property",
+        "prosecution",
+        "portfolio-strategy"
       ],
       "keywords": [
-        "专利",
-        "知识产权工程师",
-        "技术专利与知识产权工程专家，覆盖专利检索",
-        "现有技术分析",
-        "专利说明书"
+        "patent prosecution",
+        "claim drafting",
+        "prior art search",
+        "freedom to operate",
+        "patent portfolio",
+        "PCT strategy",
+        "patent eligibility",
+        "office action response",
+        "IP due diligence",
+        "patent valuation"
       ]
     },
     {
@@ -639,7 +645,6 @@
       "keywords": [
         "环境",
         "能源法律顾问",
-        "环境法与能源法律专家，覆盖环境影响评价",
         "EIA",
         "排污许可合规"
       ]
@@ -670,13 +675,11 @@
       "tags": [
         "legal",
         "Domain",
-        "Framework",
         "Success",
         "Metrics"
       ],
       "keywords": [
         "企业法务总监",
-        "总法律顾问，覆盖公司治理",
         "董事会法律支持",
         "合规体系建设",
         "合同"
@@ -710,13 +713,11 @@
       "tags": [
         "legal",
         "Domain",
-        "Framework",
         "Industry",
         "Context"
       ],
       "keywords": [
         "法律总经理",
-        "法律领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -757,7 +758,6 @@
       "keywords": [
         "移民",
         "出入境法律顾问",
-        "移民法与全球人才流动法律专家，覆盖工作签证",
         "居留许可",
         "技术移民"
       ]
@@ -786,7 +786,6 @@
         "legal",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -800,7 +799,7 @@
     {
       "id": "legal-labor-attorney",
       "name": "劳动法律师",
-      "description": "劳动合同管理、劳动争议仲裁、工伤赔偿与竞业限制纠纷专家",
+      "description": "US labor and employment counsel for wage-hour classification, discrimination and retaliation defense, leave administration, reductions in force, restrictive covenants, and labor relations.",
       "emoji": "🤝",
       "category": "legal",
       "subcategory": "",
@@ -815,21 +814,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Fair, firm, and deeply knowledgeable — every workplace relationship has legal guardrails, and someone needs to know exactly where they are.",
+      "vibe": "Employment decisions are made in ordinary conversations, but they are defended years later in depositions — build the record while the facts are still fresh.",
       "lifecycle": "published",
       "tags": [
         "legal",
-        "Domain",
-        "Expertise",
-        "Success",
-        "Metrics"
+        "labor-employment",
+        "workplace-compliance",
+        "litigation",
+        "human-resources"
       ],
       "keywords": [
-        "劳动法律师",
-        "劳动合同管理",
-        "劳动争议仲裁",
-        "工伤赔偿与竞业限制纠纷专家",
-        "核心信念"
+        "labor law",
+        "employment law",
+        "wage and hour",
+        "FLSA exemptions",
+        "discrimination and retaliation",
+        "FMLA and ADA",
+        "WARN Act",
+        "noncompete agreements",
+        "NLRB",
+        "workplace investigations"
       ]
     },
     {
@@ -872,7 +876,7 @@
     {
       "id": "legal-smart-manufacturing",
       "name": "智能制造与工业互联网法律顾问",
-      "description": "智能制造/工业4.0法律专家，覆盖智能工厂自动化系统责任、工业互联网数据权属、AI/算法治理、工业机器人安全认证、设备互联标准与跨境技术转让合规",
+      "description": "Smart manufacturing and industrial IoT counsel for automation liability, machine safety, data rights, AI quality decisions, OT security, and cross-border technology transfer.",
       "emoji": "🏭",
       "category": "legal",
       "subcategory": "",
@@ -890,21 +894,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "When a robot makes a defective product, who's liable — the manufacturer, the software vendor, or the factory operator? You answer questions the law hasn't fully settled yet.",
+      "vibe": "When an autonomous cell injures someone or an algorithm scraps a good batch, the contract decides who pays — write it before the factory is running, not after the alarm sounds.",
       "lifecycle": "published",
       "tags": [
         "legal",
-        "Success",
-        "Metrics",
-        "Outputs",
-        "Specification"
+        "manufacturing",
+        "industrial-iot",
+        "contracts",
+        "product-liability"
       ],
       "keywords": [
-        "智能制造与工业互联网法律顾问",
-        "智能制造",
-        "工业4.0法律专家，覆盖智能工厂自动化系统责任",
-        "工业互联网数据权属",
-        "AI"
+        "smart manufacturing",
+        "industrial IoT",
+        "automation liability",
+        "machine safety",
+        "collaborative robots",
+        "industrial data rights",
+        "OT security",
+        "AI quality decisions",
+        "technology transfer",
+        "export controls"
       ]
     },
     {
@@ -933,7 +942,6 @@
         "legal",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [

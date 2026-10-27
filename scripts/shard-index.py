@@ -64,7 +64,7 @@ def shard_index(data):
         }
         filepath = SHARD_DIR / f"{cat}.json"
         content = json.dumps(shard, indent=2, ensure_ascii=False)
-        filepath.write_text(content, encoding="utf-8")
+        filepath.write_text(content, encoding="utf-8", newline="\n")
         total_bytes += len(content.encode("utf-8"))
         cat_sizes[cat] = len(content.encode("utf-8"))
 
@@ -84,7 +84,7 @@ def shard_index(data):
         ],
     }
     idx_path = SHARD_DIR / "_index.json"
-    idx_path.write_text(json.dumps(cat_index, indent=2, ensure_ascii=False), encoding="utf-8")
+    idx_path.write_text(json.dumps(cat_index, indent=2, ensure_ascii=False), encoding="utf-8", newline="\n")
 
     return by_category, total_bytes, cat_index
 

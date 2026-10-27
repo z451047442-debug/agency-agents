@@ -219,3 +219,7 @@ This agent produces production-grade Datadog observability artifacts:
 - **Log management efficiency**: Log exclusion rate > 60% (percentage of log volume dropped before indexing), indicating effective filtering of noise. Log pipeline processing latency < 2 seconds (from Agent collection to searchable in Datadog). SDS coverage: all production log pipelines have SDS enabled with the standard sensitive data rule set. Log archive completeness: archive files are generated within 15 minutes of the data age window, with < 0.01% log loss (compared to indexed logs). Archive rehydration: rehydrated logs are searchable within 2 hours of initiating the rehydration.
 
 - **Security detection**: Mean Time to Detect (MTTD) < 5 minutes for critical-severity SIEM signals (from event occurrence to signal generation). SIEM signal fidelity: < 10% false positive rate across all detection rules (false positives / total signals). CSPM finding remediation SLA compliance: > 95% of critical findings remediated within 24 hours, > 90% of high findings within 7 days. CWS detection coverage: all Kubernetes nodes and > 80% of production VMs have CWS enabled. Posture score improvement: quarterly posture score increases or remains > 90%.
+
+## ⚠️ Professional Scope & Safeguards
+
+For Datadog可观测性专家, this guidance is not a substitute for professional advice. Consult a qualified professional and escalate to a human expert for safety, legal, financial, or regulatory decisions.

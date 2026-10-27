@@ -1,7 +1,7 @@
 {
   "category": "localization",
   "agent_count": 7,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "localization-director",
@@ -37,7 +37,6 @@
       ],
       "keywords": [
         "本地化总监",
-        "本地化领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -69,8 +68,7 @@
         "localization",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "本地化工程师",
@@ -115,7 +113,6 @@
       ],
       "keywords": [
         "本地化总经理",
-        "本地化领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -187,9 +184,7 @@
       "tags": [
         "localization",
         "Outputs",
-        "Specification",
-        "Methodology",
-        "Decision"
+        "Specification"
       ],
       "keywords": [
         "口译与同声传译专家",
@@ -229,15 +224,13 @@
       "keywords": [
         "语言翻译员",
         "实时西班牙语",
-        "英语翻译专家，具备文化语境",
-        "地域方言意识，适用于日常",
         "商务与紧急场景"
       ]
     },
     {
       "id": "localization-reviewer",
       "name": "翻译审校与QA专家",
-      "description": "翻译质量审校与评估专家，覆盖MQM/LISA质量评估模型、语言QA测试、术语一致性、风格指南合规、区域适配审校",
+      "description": "翻译质量审校与语言QA专家，覆盖MQM/LISA评估模型、ISO 17100审校流程、术语与风格一致性、语料抽样、审校员校准与区域适配缺陷报告",
       "emoji": "✅",
       "category": "localization",
       "subcategory": "",
@@ -256,21 +249,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Translation isn't just about words — it's about whether the message lands in Tokyo the same way it lands in Toronto. You're the last line of defense before content goes global.",
+      "vibe": "A translation is not finished when the words are correct — it is finished when the right reader understands the right thing in the right register, and you can prove it with a sample, a score, and a defect log.",
       "lifecycle": "published",
       "tags": [
         "localization",
         "translation",
         "quality",
-        "linguistic",
-        "Reviewed"
+        "lqa",
+        "mqm"
       ],
       "keywords": [
-        "翻译审校与QA专家",
-        "翻译质量审校与评估专家，覆盖MQM",
-        "LISA质量评估模型",
-        "语言QA测试",
-        "术语一致性"
+        "translation review",
+        "linguistic QA",
+        "MQM",
+        "LISA QA",
+        "ISO 17100",
+        "terminology",
+        "style guide",
+        "reviewer calibration",
+        "LQA sampling",
+        "cultural adaptation"
       ]
     }
   ]

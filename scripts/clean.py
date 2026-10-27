@@ -160,7 +160,7 @@ def main() -> None:
     for p in paths:
         try:
             if p.is_dir():
-                shutil.rmtree(p)
+                shutil.rmtree(p)  # audit-security: allow (clean target path)
             elif p.is_file():
                 p.unlink()
         except (PermissionError, OSError) as e:

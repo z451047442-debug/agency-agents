@@ -110,3 +110,66 @@ class TestInstallAgents:
                 written = dest / "eng-dev.md"
                 assert written.exists()
                 assert written.read_bytes() == agent_content
+
+    def test_rejects_non_https_url(self):
+        with pytest.raises(ValueError, match="non-HTTPS"):
+            mod._open_url("http://example.com/file")
+
+    def test_unsupported_tool_raises(self):
+        with pytest.raises(ValueError, match="not supported"):
+            install_agents("https://example.com/repo/main", "cursor", None, None)
+
+    def _agent_responses(self, payload):
+        index = MagicMock()
+        index.read.return_value = (
+            b'{"agents":[{"id":"eng-dev","category":"engineering","path":"eng/eng-dev.md"}]}'
+        )
+        index.__enter__.return_value = index
+        body = MagicMock()
+        body.read.return_value = payload
+        body.__enter__.return_value = body
+        return index, body
+
+    def test_rejects_missing_frontmatter(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod.Path, "home", lambda: tmp_path)
+        index, body = self._agent_responses(b"not an agent")
+        with patch.object(mod, "urlopen", side_effect=[index, body]):
+            result = install_agents(
+                "https://example.com/repo/main", "claude-code", None, None,
+            )
+        assert result == -1
+
+    def test_rejects_oversized_payload(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod.Path, "home", lambda: tmp_path)
+        index, body = self._agent_responses(b"x" * (mod.MAX_AGENT_BYTES + 1))
+        with patch.object(mod, "urlopen", side_effect=[index, body]):
+            result = install_agents(
+                "https://example.com/repo/main", "claude-code", None, None,
+            )
+        assert result == -1
+
+    def test_rejects_invalid_utf8(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod.Path, "home", lambda: tmp_path)
+        index, body = self._agent_responses(b"\xff\xfe")
+        with patch.object(mod, "urlopen", side_effect=[index, body]):
+            result = install_agents(
+                "https://example.com/repo/main", "claude-code", None, None,
+            )
+        assert result == -1
+
+    def test_rejects_checksum_mismatch(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod.Path, "home", lambda: tmp_path)
+        payload = b"---\nname: Test\n---\n# Body"
+        index, body = self._agent_responses(payload)
+        with patch.object(mod, "urlopen", side_effect=[index, body]):
+            result = install_agents(
+                "https://example.com/repo/main", "claude-code", None, None,
+                checksums={"eng/eng-dev.md": "0" * 64},
+            )
+        assert result == -1
+
+    def test_load_checksums_rejects_non_object(self, tmp_path):
+        manifest = tmp_path / "checksums.json"
+        manifest.write_text("[]", encoding="utf-8")
+        with pytest.raises(ValueError, match="JSON object"):
+            mod._load_checksums(str(manifest))

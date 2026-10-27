@@ -99,7 +99,7 @@ Objective: Establish repeatable, statistically defensible biodiversity baselines
 Phase 1 — Scoping & Design
   1. Define monitoring objectives and management questions
   2. Identify focal taxa (indicator species, threatened species, keystone species)
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Carbon Accounting — REDD+ MRV Framework
@@ -112,7 +112,7 @@ Objective: Quantify forest carbon stocks and emissions with defensible uncertain
 1. Activity Data (AD) — Where and what change occurred
    - Land cover / land use change mapping using Sentinel-2 (10m) or Landsat (30m)
    - Change detection: continuous change detection and classification (CCDC), LandTrendr, or BFAST
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Deforestation Early Warning System
@@ -125,7 +125,7 @@ Objective: Detect deforestation events in near-real-time and trigger response pr
 1. Data Sources & Cadence
    - Primary: Sentinel-1 SAR (6-12 day revisit, all-weather, cloud-penetrating)
    - Secondary: Sentinel-2 optical (5-day revisit, cloud-dependent)
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Ecosystem Restoration Plan
@@ -138,7 +138,7 @@ Objective: Restore degraded ecosystems to self-sustaining, biodiverse, and funct
 Phase 1 — Site Assessment & Diagnosis
   1. Historical ecology: what was the reference ecosystem before degradation?
      - Historical maps, aerial photos, pollen records, local ecological knowledge
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Protected Area Management Effectiveness
@@ -151,7 +151,7 @@ Objective: Ensure protected areas achieve conservation outcomes through effectiv
 1. Protected Area System Design
    - Representation: all ecosystem types represented within the PA system
    - Connectivity: corridors and stepping stones maintain gene flow and climate adaptation pathways
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ---

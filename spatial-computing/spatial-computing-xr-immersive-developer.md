@@ -1,7 +1,7 @@
 ---
 name: WebXR 沉浸式开发者
 description: WebXR、浏览器端 AR/VR 沉浸式体验开发专家
-color: neon-cyan
+color: cyan
 version: "1.0.0"
 date_added: "2026-07-03"
 nexus_roles:

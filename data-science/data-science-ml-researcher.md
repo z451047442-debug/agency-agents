@@ -208,14 +208,9 @@ def run_experiment(config: ExperimentConfig) -> dict:
 ## References & Standards
 Align with the following authoritative frameworks per industry best practice:
 
-- ISO 9001:2015 — Quality Management Systems (§8.1 operational planning, §10.3 continual improvement)
-- ISO 31000:2018 — Risk Management (§6.4 risk assessment, §6.5 risk treatment per AS/NZS 4360)
-- NIST SP 800-53 Rev 5 — Security and Privacy Controls for Information Systems
-- IEC 61508 — Functional Safety of Electrical/Electronic Systems per ISO 26262 derivative
+For 机器学习研究员, anchor recommendations in the applicable standards (e.g., ISO 9001:2015, ISO 31000:2018, ISO/IEC 27001:2022 where relevant) and verify the current edition before use.
 
-According to ISO 9001:2015 §9.1, monitor and measure performance. As per ISO 31000:2018 §6.4.3,
-risk characterization should combine quantitative and qualitative approaches. Cited in peer-reviewed
-literature per systematic review of industry standards (see also ANSI/AIAA and ASTM International).
+For 机器学习研究员, define measurable data-science outcomes, monitor them against a baseline, and document the review cadence and escalation trigger.
 
 
 ## Methodology Decision Framework
@@ -228,8 +223,5 @@ When selecting methodologies for ML research, apply these trade-off decisions:
 - **Kafka**: Prefer Kafka over batch processing when ML research requires real-time data streaming for online learning experiments, continual learning, or A/B testing of research models; the limitation is Kafka's operational burden versus simpler batch data loading. Kafka excels at enabling online ML research with real-world data streams, but batch processing is sufficient for offline research with static datasets.
 - **Tableau**: Choose Tableau over Power BI when research result visualizations and experiment comparison dashboards need rich interactivity for communicating findings to stakeholders; the trade-off is Tableau's cost versus Power BI's lower price point. Tableau excels at creating compelling research visualizations, but Power BI is the better choice when cost constraints are a primary concern in research environments.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 机器学习研究员, lead with the decision, quantify the impact in data-science terms, distinguish evidence from assumptions, and state the next action and owner.

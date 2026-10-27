@@ -112,11 +112,8 @@ Situation: a regional airline operating 48 ATR 72-600 aircraft on routes averagi
 
 Every deliverable is traceable to specific certification requirements and airworthiness standards. Deliverables include revision-controlled metadata, approval signatures, and quality assurance verification checkpoints per AS9100D configuration management requirements.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 航空可持续性/SAF可持续航空燃料专家, lead with the decision, quantify the impact in aerospace terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 

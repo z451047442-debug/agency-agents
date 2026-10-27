@@ -25,6 +25,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+import yaml
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from _shared import BOLD, EXCLUDE_DIRS, GREEN, RED, REPO, RESET, YELLOW  # noqa: E402
 
@@ -43,7 +45,8 @@ def header(msg): print(f"\n{BOLD}{msg}{RESET}")
 def discover_agents():
     """Yield (category, filepath, english_name, description) for every agent."""
     for entry in sorted(REPO.iterdir()):
-        if not entry.is_dir() or entry.name.startswith(".") or entry.name.startswith("_"):
+        if (not entry.is_dir() or entry.name.startswith(".")
+                or (entry.name.startswith("_") and entry.name != "_solution")):
             continue
         if entry.name in EXCLUDE_DIRS:
             continue
@@ -55,10 +58,14 @@ def discover_agents():
             if len(parts) < 3:
                 continue
             fm_text = parts[1]
-            name_match = re.search(r"^name:\s*(.+)$", fm_text, re.MULTILINE)
-            desc_match = re.search(r"^description:\s*(.+)$", fm_text, re.MULTILINE)
-            name = name_match.group(1).strip() if name_match else ""
-            desc = desc_match.group(1).strip() if desc_match else ""
+            try:
+                fm_data = yaml.safe_load(fm_text) or {}
+            except yaml.YAMLError:
+                fm_data = {}
+            if not isinstance(fm_data, dict):
+                fm_data = {}
+            name = str(fm_data.get("name", "") or "").strip()
+            desc = str(fm_data.get("description", "") or "").strip()
             if not name:
                 continue
             yield entry.name, md, name, desc
@@ -124,6 +131,9 @@ def check_coverage(lang="zh", show_untranslated=True, template=False,
             has_translation += 1
         else:
             untranslated[category].append((name, filepath))
+
+    # Missing translations are gate failures, not just informational output.
+    errors_count += sum(len(v) for v in untranslated.values())
 
     # The denominator for coverage should exclude already-localized agents
     translatable_count = agent_count - already_localized

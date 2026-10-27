@@ -124,7 +124,7 @@ def print_diagnosis(result):
     risk = result.get("risk_tier", "general")
 
     print(f"\n{BOLD}Diagnosis: {result.get('id', '?')} ({result.get('category', '?')}){RESET}")
-    print(f"  Score: {result.get('total', '?')}/10 ({result.get('grade', '?')}) | "
+    print(f"  Score: {result.get('total', '?')}/18 ({result.get('grade', '?')}) | "
           f"Risk: {risk} | Words: {result.get('word_count', 0)}")
     print(f"  Depth={scores.get('content_depth', '?')}/4 | Structure={scores.get('structure', '?')}/1 | "
           f"FM={scores.get('frontmatter', '?')}/1 | Health={scores.get('file_health', '?')}/1")
@@ -199,6 +199,8 @@ def analyze_expansion_needs(agent_id, category, filepath, verbose=False):
             "priority": 3,
         })
 
+    projected_total = result["total"] + min(3, len(needs))
+
     return {
         "agent_id": agent_id,
         "category": category,
@@ -209,7 +211,12 @@ def analyze_expansion_needs(agent_id, category, filepath, verbose=False):
         "word_count": result["word_count"],
         "needs": needs,
         "estimated_new_words": word_budget,
-        "projected_grade": "A" if result["total"] >= 8 or (result["total"] + min(3, len(needs))) >= 8 else "B",
+        "projected_grade": (
+            "A" if projected_total >= 12.5
+            else "B" if projected_total >= 10
+            else "C" if projected_total >= 8
+            else "D"
+        ),
         "issues": result["issues"],
     }
 
@@ -285,9 +292,9 @@ def print_expansion_plan(analysis, ref_agents, plan):
     print(f"\n{BOLD}{'='*60}{RESET}")
     print(f"{BOLD}  Agent Expansion Plan{RESET}")
     print(f"  Agent: {analysis['agent_id']} ({analysis['category']})")
-    print(f"  Current: {analysis['current_grade']} ({analysis['current_total']}/10) "
+    print(f"  Current: {analysis['current_grade']} ({analysis['current_total']}/18) "
           f"| {analysis['word_count']} words")
-    print(f"  Target:  {GREEN}A (8+/10){RESET} | +{analysis['estimated_new_words']} words needed")
+    print(f"  Target:  {GREEN}A (12.5+/18){RESET} | +{analysis['estimated_new_words']} words needed")
     print(f"{BOLD}{'='*60}{RESET}\n")
 
     # Current issues
@@ -301,7 +308,7 @@ def print_expansion_plan(analysis, ref_agents, plan):
     if ref_agents:
         print(f"{BOLD}Reference A-Grade Agents (same category):{RESET}")
         for _wc, _total, ref_id, _ref_path in ref_agents:
-            print(f"  {GREEN}✔{RESET} {ref_id} ({_wc} words, {_total}/10)")
+            print(f"  {GREEN}✔{RESET} {ref_id} ({_wc} words, {_total}/18)")
         print()
 
     # Step-by-step expansion plan
@@ -358,7 +365,7 @@ def main():
                 gap = args.all_below - result["word_count"]
                 print(f"  {YELLOW}{result['id']}{RESET} — "
                       f"{result['word_count']}w (need +{gap}w)  "
-                      f"[{result['grade']} {result['total']}/10]")
+                      f"[{result['grade']} {result['total']}/18]")
                 count += 1
         print(f"\n  Total: {count} agents below {args.all_below} words")
         return
@@ -387,7 +394,7 @@ def main():
     analysis = analyze_expansion_needs(agent_id, category, filepath, verbose=True)
 
     if analysis["current_grade"] == "A":
-        print(f"\n{GREEN}Agent '{agent_id}' is already A-grade ({analysis['current_total']}/10).{RESET}")
+        print(f"\n{GREEN}Agent '{agent_id}' is already A-grade ({analysis['current_total']}/18).{RESET}")
         print("No expansion needed.")
         return
 

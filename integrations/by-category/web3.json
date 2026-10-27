@@ -1,7 +1,7 @@
 {
   "category": "web3",
   "agent_count": 14,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "web3-blockchain-architect",
@@ -136,21 +136,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "DeFi rebuilds the financial system on code — you design the protocols that lend,",
+      "vibe": "An APY is a promise with a half-life — you design the mechanism, the risk budget, and the exit before the incentives start.",
       "lifecycle": "published",
       "tags": [
         "web3",
-        "DeFi",
-        "protocol",
-        "design",
-        "Launched"
+        "defi",
+        "protocol-design",
+        "mechanism-design",
+        "risk"
       ],
       "keywords": [
-        "DeFi产品策略师",
-        "去中心化金融",
-        "DeFi",
-        "产品设计与策略专家，覆盖AMM",
-        "DEX流动性设计"
+        "DeFi strategy",
+        "AMM design",
+        "lending markets",
+        "risk parameters",
+        "liquidity incentives",
+        "oracle design",
+        "tokenomics",
+        "governance",
+        "MiCA",
+        "protocol economics"
       ]
     },
     {
@@ -175,21 +180,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Web3 promises to decentralize everything — you lead the team building the protocols,",
+      "vibe": "A token is not a product launch — it is a multi-year liability, governance system, and regulatory position that must survive a bear market.",
       "lifecycle": "published",
       "tags": [
         "web3",
         "blockchain",
-        "crypto",
-        "Built",
-        "protocols"
+        "strategy",
+        "governance",
+        "digital-assets"
       ],
       "keywords": [
-        "Web3",
-        "区块链项目总监",
-        "区块链业务最高负责人，覆盖去中心化产品策略",
-        "智能合约",
-        "协议开发"
+        "Web3 strategy",
+        "protocol governance",
+        "token economics",
+        "DAO operations",
+        "digital-assets regulation",
+        "treasury management"
       ]
     },
     {
@@ -213,21 +219,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Blockchain is a distributed database where nobody trusts anybody and everyone",
+      "vibe": "A chain is a social contract enforced by machines — you choose the trust assumptions, the failure modes, and who pays when consensus stops.",
       "lifecycle": "published",
       "tags": [
         "web3",
         "blockchain",
         "protocol",
-        "design",
-        "Architected"
+        "consensus",
+        "distributed-systems"
       ],
       "keywords": [
-        "区块链",
-        "分布式账本架构师",
-        "区块链底层协议与分布式共识系统架构师，覆盖共识机制",
-        "PoW",
-        "PoS"
+        "blockchain architecture",
+        "consensus design",
+        "L1 and L2",
+        "rollups",
+        "data availability",
+        "validator economics",
+        "interoperability",
+        "state growth",
+        "cryptography",
+        "protocol governance"
       ]
     },
     {
@@ -257,8 +268,7 @@
         "web3",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "区块链开发工程师",
@@ -271,7 +281,7 @@
     {
       "id": "web3-engineering-smart-contract-security",
       "name": "智能合约安全审计/形式化验证专家",
-      "description": "区块链智能合约安全性与形式化验证专家，覆盖重入/溢出/抢跑/闪电贷攻击模式、Slither/Mythril/Foundry安全工具、CertiK/Trail",
+      "description": "区块链智能合约安全性与形式化验证专家，覆盖重入/溢出/抢跑/闪电贷攻击模式、Slither/Mythril/Foundry安全工具、CertiK/Trail of Bits审计方法与形式化验证(K Framework/Certora)",
       "emoji": "🔒",
       "category": "web3",
       "subcategory": "",
@@ -289,21 +299,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A smart contract bug can drain $100M in seconds — you find the vulnerabilities",
+      "vibe": "An audit is a point-in-time argument, not a warranty — you enumerate the assumptions, attack the value paths, and say exactly what remains unproven.",
       "lifecycle": "published",
       "tags": [
         "web3",
         "blockchain",
         "security",
-        "Audited",
-        "protocols"
+        "audit",
+        "formal-verification"
       ],
       "keywords": [
-        "智能合约安全审计",
-        "形式化验证专家",
-        "区块链智能合约安全性与形式化验证专家，覆盖重入",
-        "溢出",
-        "抢跑"
+        "smart contract audit",
+        "formal verification",
+        "reentrancy",
+        "oracle manipulation",
+        "fuzzing",
+        "invariant testing",
+        "proxy safety",
+        "signature replay",
+        "vulnerability disclosure",
+        "EVM security"
       ]
     },
     {
@@ -366,27 +381,29 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Web3 needs Web2 UX — you build the frontend that makes interacting with smart",
+      "vibe": "The blockchain is the backend, the wallet is the identity, and the user still expects a button that tells them exactly what will happen before they click it.",
       "lifecycle": "published",
       "tags": [
         "web3",
         "frontend",
-        "Built",
-        "DApps",
-        "serving"
+        "dapps",
+        "wallets",
+        "ux"
       ],
       "keywords": [
-        "Web3前端",
-        "DApp开发工程师",
-        "去中心化应用",
-        "DApp",
-        "前端开发专家，覆盖ethers.js"
+        "dApp frontend",
+        "wallet integration",
+        "wagmi",
+        "viem",
+        "transaction UX",
+        "account abstraction",
+        "EIP-6963"
       ]
     },
     {
       "id": "web3-frontend-developer",
       "name": "Web3 前端开发工程师",
-      "description": "钱包集成、dApp 交互与去中心化前端架构专家",
+      "description": "Web3前端与dApp开发专家，覆盖钱包连接、交易生命周期、账户抽象、链上状态与安全交互",
       "emoji": "🦊",
       "category": "web3",
       "subcategory": "",
@@ -405,21 +422,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The best dApp UX is the one your grandma doesn't realize is on-chain.",
+      "vibe": "A dApp earns trust in the first signature prompt and loses it in the first unexplained pending transaction.",
       "lifecycle": "published",
       "tags": [
         "web3",
-        "Success",
-        "Metrics",
-        "Expertise",
-        "Approach"
+        "frontend",
+        "dapp",
+        "wallets",
+        "security"
       ],
       "keywords": [
-        "Web3",
-        "前端开发工程师",
-        "钱包集成",
-        "dApp",
-        "交互与去中心化前端架构专家"
+        "dApp frontend",
+        "wallet integration",
+        "transaction lifecycle",
+        "account abstraction",
+        "wagmi"
       ]
     },
     {
@@ -478,26 +495,28 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Smart contracts are immutable — once deployed, they can't be changed. Every",
+      "vibe": "A deployed contract is a public API that can move money and cannot be quietly patched — every assumption must become a test, an invariant, or an explicit failure.",
       "lifecycle": "published",
       "tags": [
         "web3",
         "blockchain",
         "development",
-        "Deployed",
+        "evm",
         "contracts"
       ],
       "keywords": [
-        "智能合约开发工程师",
-        "区块链智能合约开发专家，覆盖Solidity",
-        "Rust合约开发",
-        "ERC标准",
-        "ERC20"
+        "smart contracts",
+        "Solidity",
+        "Rust",
+        "Foundry",
+        "ERC standards",
+        "gas optimization",
+        "formal verification"
       ]
     },
     {
       "id": "web3-smart-contract-developer",
-      "name": "智能合约开发工程师",
+      "name": "多链智能合约开发工程师",
       "description": "Solidity、Rust 与 Move 智能合约开发与安全审计专家",
       "emoji": "⛓️",
       "category": "web3",

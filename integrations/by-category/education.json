@@ -1,7 +1,7 @@
 {
   "category": "education",
   "agent_count": 36,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "education-academic-anthropologist",
@@ -32,8 +32,7 @@
         "education",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "学术人类学家",
@@ -81,7 +80,6 @@
       "keywords": [
         "大学院长",
         "系主任",
-        "高等教育学术管理者，覆盖学科建设",
         "课程发展",
         "师资管理"
       ]
@@ -113,8 +111,7 @@
         "education",
         "Technical",
         "Process",
-        "Learning",
-        "Methodology"
+        "Learning"
       ],
       "keywords": [
         "学术地理学家",
@@ -152,8 +149,7 @@
         "education",
         "Technical",
         "Process",
-        "Learning",
-        "Methodology"
+        "Learning"
       ],
       "keywords": [
         "学术历史学家",
@@ -188,8 +184,7 @@
         "education",
         "Technical",
         "Process",
-        "Learning",
-        "Methodology"
+        "Learning"
       ],
       "keywords": [
         "学术叙事学家",
@@ -225,10 +220,7 @@
       "lifecycle": "published",
       "tags": [
         "education",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "学术心理学家",
@@ -274,7 +266,6 @@
       "keywords": [
         "学术研究科学家",
         "大学",
-        "研究机构科研工作者，覆盖研究设计",
         "方法论",
         "基金申请"
       ]
@@ -282,7 +273,7 @@
     {
       "id": "education-algebraic-geometry",
       "name": "代数几何专家",
-      "description": "概形理论、代数簇分类、相交理论、导出范畴与同调代数、霍奇理论、双有理几何与极小模型纲领专家",
+      "description": "Research-grade algebraic geometry teaching and proof guidance: schemes, sheaf cohomology, intersection theory, birational geometry and the MMP, moduli, and derived categories",
       "emoji": "📐",
       "category": "education",
       "subcategory": "",
@@ -296,21 +287,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "Algebraic geometer — from Grothendieck's schemes to Mori's MMP, from intersection theory to derived categories. Algebraic geometry studies solutions to polynomial equations, elevated to the most powerful machinery in mathematics.",
+      "vibe": "Geometry asks the question, algebra supplies the proof, and the examples decide whether either one is honest.",
       "lifecycle": "published",
       "tags": [
         "education",
-        "Success",
-        "Metrics",
-        "Authoritative",
-        "References"
+        "mathematics",
+        "algebraic-geometry",
+        "proof-based-teaching"
       ],
       "keywords": [
-        "代数几何专家",
-        "概形理论",
-        "代数簇分类",
-        "相交理论",
-        "导出范畴与同调代数"
+        "代数几何",
+        "algebraic geometry",
+        "scheme theory",
+        "sheaf cohomology",
+        "intersection theory",
+        "minimal model program",
+        "moduli spaces",
+        "derived categories"
       ]
     },
     {
@@ -339,11 +332,7 @@
       "vibe": "Arts and physical education specialist — from correct embouchure to correct throwing form, from color theory to choreography. Arts and sports develop the whole person. Creativity is teachable, discipline is learnable, and the stage transforms students.",
       "lifecycle": "published",
       "tags": [
-        "education",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "education"
       ],
       "keywords": [
         "艺体教育专家",
@@ -389,7 +378,6 @@
       "keywords": [
         "教育评估",
         "测评专家",
-        "教育测量与学习评估专家，覆盖标准化测验设计",
         "项目反应理论",
         "IRT"
       ]
@@ -460,13 +448,10 @@
       "tags": [
         "education",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "课程设计师",
-        "课程与教学设计专家，覆盖学习目标分析",
         "课程体系构建",
         "评估设计",
         "教学资源开发与教育技术应用"
@@ -508,7 +493,6 @@
         "教育机构总监",
         "校长",
         "学校",
-        "教育机构最高管理者，覆盖教育战略",
         "课程体系"
       ]
     },
@@ -537,9 +521,7 @@
       "tags": [
         "education",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "田野考古专家",
@@ -571,11 +553,7 @@
       "vibe": "Higher education teaching specialist — from freshman seminars to doctoral supervision,",
       "lifecycle": "published",
       "tags": [
-        "education",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "education"
       ],
       "keywords": [
         "高等教育教学专家",
@@ -588,7 +566,7 @@
     {
       "id": "education-instructional-technologist",
       "name": "教育技术/EdTech专家",
-      "description": "教育技术与数字学习专家，覆盖LMS学习管理系统(Canvas/Moodle/Blackboard)、交互式数字内容/模拟、学习分析/数据驱动教学与AI+教育",
+      "description": "Learning engineering and digital-learning platforms: evidence-based course design, LMS and LRS architecture, accessibility conformance, interoperability (LTI/SCORM/xAPI), learning analytics, and AI integration",
       "emoji": "💻",
       "category": "education",
       "subcategory": "",
@@ -607,21 +585,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Technology doesn't replace teachers — it amplifies them. You design the digital",
+      "vibe": "A platform is not a pedagogy; technology earns its place only when it removes a specific barrier to learning and can be shown to have done so.",
       "lifecycle": "published",
       "tags": [
         "education",
-        "educational",
-        "technology",
-        "Implemented",
-        "created"
+        "instructional-technology",
+        "learning-design",
+        "accessibility"
       ],
       "keywords": [
         "教育技术",
-        "EdTech专家",
-        "教育技术与数字学习专家，覆盖LMS学习管理系统",
-        "Canvas",
-        "Moodle"
+        "instructional design",
+        "LMS architecture",
+        "learning analytics",
+        "accessibility",
+        "interoperability",
+        "xAPI",
+        "AI in education"
       ]
     },
     {
@@ -721,9 +701,7 @@
       "tags": [
         "education",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "语言学专家",
@@ -809,7 +787,7 @@
     {
       "id": "education-number-theory",
       "name": "数论专家",
-      "description": "解析数论、代数数论、算术几何、模形式与椭圆曲线、丢番图方程、密码学中的数论应用专家",
+      "description": "Analytic, algebraic, and computational number theory: zeta and L-functions, sieves, number fields and class groups, elliptic curves and modular forms, Diophantine equations, and cryptographic applications",
       "emoji": "🔢",
       "category": "education",
       "subcategory": "",
@@ -824,21 +802,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "Number theorist — from the Riemann Hypothesis to elliptic curve cryptography, from prime distribution to Fermat's Last Theorem. Number theory was the \"queen of mathematics\" for its pure beauty; now it secures the internet.",
+      "vibe": "A pattern checked to a trillion terms is a conjecture, not a theorem; the job is to know exactly which one you are holding.",
       "lifecycle": "published",
       "tags": [
         "education",
-        "Success",
-        "Metrics",
-        "Authoritative",
-        "References"
+        "mathematics",
+        "number-theory",
+        "proof-based-teaching"
       ],
       "keywords": [
         "数论专家",
-        "解析数论",
-        "代数数论",
-        "算术几何",
-        "模形式与椭圆曲线"
+        "analytic number theory",
+        "algebraic number theory",
+        "arithmetic geometry",
+        "elliptic curves",
+        "modular forms",
+        "Diophantine equations",
+        "computational number theory"
       ]
     },
     {
@@ -870,8 +850,7 @@
         "education",
         "Success",
         "Metrics",
-        "Technical",
-        "Methodology"
+        "Technical"
       ],
       "keywords": [
         "在线教育设计师",
@@ -884,7 +863,7 @@
     {
       "id": "education-philosophy-ethics",
       "name": "哲学与伦理学专家",
-      "description": "形而上学与认识论、伦理学与道德哲学、政治哲学、逻辑学与语言哲学、心灵哲学、科技伦理与应用伦理专家",
+      "description": "Rigorous philosophy and ethics teaching: argument reconstruction, formal and informal logic, normative and metaethics, political philosophy, epistemology, philosophy of mind, and applied technology ethics",
       "emoji": "🏛️",
       "category": "education",
       "subcategory": "",
@@ -899,21 +878,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-12",
-      "vibe": "Philosopher — from Plato's forms to Turing's test, from Kant's categorical imperative to AI alignment ethics. Philosophy clarifies concepts, questions assumptions, and builds rigorous arguments.",
+      "vibe": "The first job is not to win the argument but to state it so clearly that its weakest premise becomes visible to everyone, including its defender.",
       "lifecycle": "published",
       "tags": [
         "education",
-        "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "philosophy",
+        "ethics",
+        "critical-thinking"
       ],
       "keywords": [
         "哲学与伦理学专家",
-        "形而上学与认识论",
-        "伦理学与道德哲学",
-        "政治哲学",
-        "逻辑学与语言哲学"
+        "argument analysis",
+        "normative ethics",
+        "metaethics",
+        "political philosophy",
+        "epistemology",
+        "philosophy of mind",
+        "applied ethics"
       ]
     },
     {
@@ -941,9 +922,7 @@
       "tags": [
         "education",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "体质人类学专家",
@@ -977,9 +956,7 @@
       "tags": [
         "education",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "概率论与随机过程专家",
@@ -992,7 +969,7 @@
     {
       "id": "education-religious-studies",
       "name": "宗教学专家",
-      "description": "世界宗教比较、宗教哲学、宗教人类学、宗教社会学、宗教文本研究、宗教心理学与当代宗教现象专家",
+      "description": "Academic, non-confessional religious studies: comparative and historical methods, textual criticism, ethnography of lived religion, material culture, sociology and anthropology of religion, and religion in public life",
       "emoji": "☸️",
       "category": "education",
       "subcategory": "",
@@ -1007,21 +984,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-12",
-      "vibe": "Religious studies scholar — from Vedic ritual to liberation theology, from Zen meditation to Islamic jurisprudence. You study religion not to promote or debunk it, but to understand one of the most powerful forces in human history and culture.",
+      "vibe": "Religion is not a single object to be defended or debunked; it is a family of practices, texts, institutions, and experiences that must be described before it is judged.",
       "lifecycle": "published",
       "tags": [
         "education",
-        "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "religious-studies",
+        "comparative-religion",
+        "ethnography"
       ],
       "keywords": [
         "宗教学专家",
-        "世界宗教比较",
-        "宗教哲学",
-        "宗教人类学",
-        "宗教社会学"
+        "comparative religion",
+        "lived religion",
+        "textual criticism",
+        "anthropology of religion",
+        "sociology of religion",
+        "material culture",
+        "religious literacy"
       ]
     },
     {
@@ -1048,14 +1027,11 @@
       "tags": [
         "education",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "学校行政",
         "校长",
-        "学校管理与教育行政专家，覆盖学校战略",
         "发展规划",
         "教学质量"
       ]
@@ -1085,13 +1061,10 @@
       "tags": [
         "education",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "特殊教育专家",
-        "特殊教育与融合教育专家，覆盖学习障碍评估",
         "个别化教育计划",
         "IEP",
         "行为干预"
@@ -1123,11 +1096,7 @@
       "vibe": "STEM and engineering education specialist — from freshman physics labs to capstone design projects, from ABET accreditation to CDIO framework. Engineering is best learned by doing, failing, and doing again.",
       "lifecycle": "published",
       "tags": [
-        "education",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "education"
       ],
       "keywords": [
         "STEM与工程教育专家",
@@ -1204,9 +1173,7 @@
       "tags": [
         "education",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "教育专家",
@@ -1238,9 +1205,7 @@
       "tags": [
         "education",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "理论物理学家",
@@ -1274,9 +1239,7 @@
       "tags": [
         "education",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "拓扑学专家",
@@ -1312,9 +1275,7 @@
       "tags": [
         "education",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "职业教育专家",
@@ -1327,7 +1288,7 @@
     {
       "id": "education-vocational-trainer",
       "name": "职业培训/技能教育专家",
-      "description": "职业技能培训与成人教育专家，覆盖职业技能标准/课程开发、实训基地/校企合作、职业资格认证/技能鉴定与就业对接",
+      "description": "Competency-based vocational education and adult training: occupational standards, DACUM curriculum, apprenticeship and work-based learning, psychomotor assessment, RPL, safety-critical training, and employer-led placement",
       "emoji": "🔧",
       "category": "education",
       "subcategory": "",
@@ -1346,21 +1307,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Not everyone needs a university degree — millions need practical skills that",
+      "vibe": "A certificate proves someone sat in a room; a verified work sample proves they can do the job safely when nobody is grading them.",
       "lifecycle": "published",
       "tags": [
         "education",
         "vocational",
         "workforce",
-        "development",
-        "Built"
+        "competency-based-training"
       ],
       "keywords": [
         "职业培训",
-        "技能教育专家",
-        "职业技能培训与成人教育专家，覆盖职业技能标准",
-        "课程开发",
-        "实训基地"
+        "competency-based training",
+        "apprenticeship",
+        "workplace assessment",
+        "vocational qualification",
+        "DACUM",
+        "RPL",
+        "workforce development"
       ]
     }
   ]

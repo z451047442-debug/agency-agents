@@ -100,11 +100,8 @@ Situation: an airline's annual LOSA audit across the A320 fleet showed the TEM t
 - **Automation surprise frequency**: <1 automation surprise report per 1,000 flight cycles (tracked via ASAP/voluntary report taxonomy)
 - **FRMS compliance**: 100% of rostered duties within FRMS fatigue likelihood criteria; zero FRMS policy deviations
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 航空人为因素/CRM训练专家, lead with the decision, quantify the impact in aerospace terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 ## Methodology Decision Framework

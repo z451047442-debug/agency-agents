@@ -42,6 +42,21 @@ SHELL_PATTERNS = {
         "LOW",
         "sudo in script — elevated privileges; ensure the script is not run unattended",
     ),
+    "curl_pipe_interpreter": (
+        r"curl\s+.+\|\s*(?:python3?|pwsh|powershell)\b",
+        "CRITICAL",
+        "curl pipe interpreter — remote code execution risk; verify the URL and checksum",
+    ),
+    "shell_dash_c": (
+        r"\b(?:bash|sh)\s+-c\s+[\"']",
+        "HIGH",
+        "shell -c with a quoted command — verify the command is not built from untrusted input",
+    ),
+    "powershell_download_exec": (
+        r"(?i)(?:invoke-webrequest|invoke-expression|\biwr\b|\biex\b)",
+        "HIGH",
+        "PowerShell download/execute primitive — verify the source and signature",
+    ),
 }
 
 # ── Python script patterns ─────────────────────────────────────────────────
@@ -53,7 +68,7 @@ PYTHON_PATTERNS = {
         "os.system with format string — command injection risk; use subprocess.run",
     ),
     "hardcoded_secret": (
-        r"(?:password|secret|token|api_key|apikey)\s*[:=]\s*[\"'][^\"']{8,}[\"']",
+        r"(?i)(?:password|secret|token|api_key|apikey)\s*[:=]\s*[\"'][^\"']{8,}[\"']",
         "HIGH",
         "hardcoded credential — use environment variables",
     ),
@@ -63,9 +78,19 @@ PYTHON_PATTERNS = {
         "pickle deserialization — arbitrary code execution risk; use json instead",
     ),
     "yaml_load_unsafe": (
-        r"yaml\.load\(",
+        r"yaml\.load\((?![^)]*SafeLoader)",
         "MEDIUM",
         "yaml.load without SafeLoader — use yaml.safe_load instead",
+    ),
+    "eval_exec": (
+        r"\b(?:eval|exec)\s*\(",
+        "HIGH",
+        "dynamic code execution — avoid eval/exec on untrusted data",
+    ),
+    "destructive_file_ops": (
+        r"(?:os\.remove|os\.unlink|shutil\.rmtree)\s*\(",
+        "HIGH",
+        "destructive file operation — verify the path is constrained to the intended root",
     ),
     "shell_true": (
         r"subprocess\.\w+\(.*shell\s*=\s*True",
@@ -87,6 +112,11 @@ CONFIG_PATTERNS = {
         "CRITICAL",
         "AWS access key in config — revoke and use IAM roles or env vars",
     ),
+    "private_key": (
+        r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----",
+        "CRITICAL",
+        "private key material in config — revoke/rotate and remove from the repository",
+    ),
 }
 
 
@@ -99,9 +129,13 @@ def scan_file(filepath: Path, patterns: dict) -> list[dict]:
         return findings
 
     rel = str(filepath.relative_to(REPO)).replace("\\", "/")
+    lines = content.splitlines()
     for name, (pattern, severity, desc) in patterns.items():
         for m in re.finditer(pattern, content, re.MULTILINE):
             ln = content[:m.start()].count("\n") + 1
+            line_text = lines[ln - 1] if 0 < ln <= len(lines) else ""
+            if "audit-security: allow" in line_text.lower():
+                continue
             snippet = content[max(0, m.start() - 10):m.end() + 10].replace("\n", " ").strip()
             findings.append({
                 "file": rel, "line": ln, "severity": severity,
@@ -115,6 +149,9 @@ def audit_all() -> list[dict]:
     findings = []
     for sh in REPO.glob("scripts/**/*.sh"):
         findings.extend(scan_file(sh, SHELL_PATTERNS))
+    for pattern in ("scripts/**/*.ps1", "scripts/**/*.bat", "scripts/**/*.cmd"):
+        for sh in REPO.glob(pattern):
+            findings.extend(scan_file(sh, SHELL_PATTERNS))
     for py in REPO.glob("scripts/**/*.py"):
         if "__pycache__" in str(py):
             continue

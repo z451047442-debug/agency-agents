@@ -1,7 +1,7 @@
 {
   "category": "engineering",
   "agent_count": 114,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "engineering-ai-agent-developer",
@@ -31,8 +31,7 @@
         "engineering",
         "Success",
         "Metrics",
-        "Technical",
-        "Methodology"
+        "Technical"
       ],
       "keywords": [
         "AI",
@@ -70,9 +69,7 @@
       "tags": [
         "engineering",
         "Specialist",
-        "Stack",
-        "Methodology",
-        "Decision"
+        "Stack"
       ],
       "keywords": [
         "AI",
@@ -111,10 +108,7 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Capabilities",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Capabilities"
       ],
       "keywords": [
         "AI",
@@ -149,12 +143,10 @@
         "engineering",
         "ethics",
         "governance",
-        "Built",
         "responsible"
       ],
       "keywords": [
         "AI伦理与负责任AI专家",
-        "人工智能伦理与负责任AI治理专家，覆盖AI公平性",
         "Fairness检测与缓解",
         "可解释性",
         "XAI"
@@ -191,24 +183,19 @@
       "vibe": "LLMs are non-deterministic black boxes. Without observability, you're flying blind. The AI observability engineer turns black-box behavior into traceable, measurable, optimizable metrics.",
       "lifecycle": "published",
       "tags": [
-        "engineering",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "engineering"
       ],
       "keywords": [
         "AI应用可观测性专家",
         "AI",
         "LLM应用监控与可观测性专家",
-        "覆盖LLM追踪与调试",
         "LangSmith"
       ]
     },
     {
       "id": "engineering-ai-product-manager",
       "name": "AI产品经理(AI PM)",
-      "description": "人工智能/机器学习驱动产品管理专家，覆盖AI/ML产品策略/可行性评估、数据需求/标注策略、模型评估指标/公平性/安全与AI UX/Human-AI交互设计",
+      "description": "人工智能/机器学习产品管理专家，覆盖AI产品策略与可行性评估、数据需求/标注策略、模型评估/公平性/安全与AI UX/人机交互设计",
       "emoji": "🤖",
       "category": "engineering",
       "subcategory": "",
@@ -229,17 +216,17 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "managing",
-        "AI/ML",
-        "products",
-        "Shipped"
+        "ai-product",
+        "machine-learning",
+        "model-evaluation",
+        "responsible-ai"
       ],
       "keywords": [
         "AI产品经理",
-        "AI",
-        "PM",
-        "人工智能",
-        "机器学习驱动产品管理专家，覆盖AI"
+        "AI/ML",
+        "模型评估",
+        "数据标注",
+        "负责任AI"
       ]
     },
     {
@@ -267,17 +254,12 @@
       "vibe": "A powerful model without safety is a liability. The alignment engineer is the one who makes sure your AI says 'I can't help with that' to a dangerous request and actually helps with the safe ones.",
       "lifecycle": "published",
       "tags": [
-        "engineering",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "engineering"
       ],
       "keywords": [
         "AI安全与对齐专家",
         "AI安全",
         "对齐与负责任AI专家",
-        "覆盖RLHF",
         "DPO"
       ]
     },
@@ -306,9 +288,7 @@
       "tags": [
         "engineering",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "Android",
@@ -321,7 +301,7 @@
     {
       "id": "engineering-android-framework",
       "name": "Android系统/框架工程师",
-      "description": "Android系统与AOSP框架开发专家，覆盖AOSP定制/ROM开发、Android Framework(AMS/WMS/PMS)、HAL硬件抽象层、Treble架构与系统性能优化",
+      "description": "Android系统与AOSP框架开发专家，覆盖AOSP/ROM定制、系统服务(AMS/WMS/PMS)、HAL与Treble架构、CTS/VTS合规及系统性能优化",
       "emoji": "🤖",
       "category": "engineering",
       "subcategory": "",
@@ -342,17 +322,17 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Android",
-        "system",
-        "development",
-        "Customized"
+        "android",
+        "aosp",
+        "framework",
+        "rom"
       ],
       "keywords": [
         "Android系统",
-        "框架工程师",
-        "Android系统与AOSP框架开发专家，覆盖AOSP定制",
-        "ROM开发",
-        "Android"
+        "AOSP",
+        "Framework",
+        "HAL",
+        "Treble"
       ]
     },
     {
@@ -378,17 +358,17 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "designing",
-        "APIs",
-        "scale",
-        "Created"
+        "api-design",
+        "openapi",
+        "api-governance",
+        "developer-experience"
       ],
       "keywords": [
-        "API与接口设计师",
-        "API设计与管理专家，覆盖RESTful",
-        "GraphQL",
-        "gRPC",
-        "API设计原则"
+        "API design",
+        "REST GraphQL gRPC",
+        "OpenAPI AsyncAPI",
+        "API versioning",
+        "developer portal governance"
       ]
     },
     {
@@ -413,14 +393,11 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "AutoCAD",
         "Electrical专家",
-        "Electrical电气控制系统设计专家，覆盖原理图设计",
         "PLC",
         "接线图"
       ]
@@ -468,7 +445,7 @@
     {
       "id": "engineering-build-release-engineer",
       "name": "构建与发布工程师",
-      "description": "软件构建/打包/发布工程专家，覆盖CI/CD流水线(Jenkins/GitLab CI/GitHub Actions)、制品管理(Artifactory/Nexus)、容器镜像构建、发布编排与回滚策略",
+      "description": "Build and release engineer for hermetic CI pipelines, immutable artifact promotion, signed provenance, and reversible production deployment",
       "emoji": "📦",
       "category": "engineering",
       "subcategory": "",
@@ -485,21 +462,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Code that isn't deployed isn't delivering value. You build the pipelines that turn commits into releases — reliably, repeatably, and fast.",
+      "vibe": "A release is a chain of custody. Build once, sign what you built, and make every deploy reversible.",
       "lifecycle": "published",
       "tags": [
         "engineering",
         "build",
         "release",
-        "Automated",
-        "path"
+        "ci-cd",
+        "supply-chain"
       ],
       "keywords": [
-        "构建与发布工程师",
-        "软件构建",
-        "打包",
-        "发布工程专家，覆盖CI",
-        "CD流水线"
+        "build engineering",
+        "release engineering",
+        "CI/CD",
+        "artifact management",
+        "SLSA provenance",
+        "supply chain security"
       ]
     },
     {
@@ -526,9 +504,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "缓存技术专家",
@@ -629,7 +605,6 @@
         "engineering",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -671,7 +646,6 @@
       ],
       "keywords": [
         "混沌工程师",
-        "混沌工程与韧性系统设计专家，覆盖故障注入",
         "爆炸半径控制",
         "稳态假说验证",
         "GameDay演练与分布式系统韧性架构"
@@ -737,9 +711,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "中国云数据库架构师",
@@ -775,9 +747,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "云数据仓库架构师",
@@ -806,18 +776,13 @@
       "date_added": "2026-07-03",
       "lifecycle": "published",
       "tags": [
-        "engineering",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "engineering"
       ],
       "keywords": [
         "CMS",
         "开发工程师",
         "Drupal",
-        "WordPress",
-        "专家，专注主题开发"
+        "WordPress"
       ]
     },
     {
@@ -884,12 +849,10 @@
         "engineering",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "代码库入门工程师",
-        "开发者入门专家，帮助新工程师快速理解陌生代码库，通过阅读源码",
         "追踪代码路径了解架构",
         "Role",
         "Personality"
@@ -915,21 +878,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every pixel on screen is a calculation — you write the code that transforms",
+      "vibe": "Every pixel on screen is a calculation — you write the code that transforms math into light, shadow, and texture at 60 frames per second",
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "real-time",
         "graphics",
-        "Built",
-        "rendering"
+        "rendering",
+        "vulkan",
+        "ray-tracing"
       ],
       "keywords": [
         "计算机图形",
-        "渲染工程师",
-        "实时渲染与计算机图形学专家，覆盖OpenGL",
+        "实时渲染",
         "Vulkan",
-        "Metal"
+        "光线追踪",
+        "PBR"
       ]
     },
     {
@@ -961,21 +924,26 @@
         "engineering",
         "container",
         "platforms",
-        "Built",
-        "operated"
+        "kubernetes",
+        "platform-engineering"
       ],
       "keywords": [
         "容器",
         "平台工程",
         "K8s",
-        "专家",
-        "Kubernetes与容器编排平台专家，覆盖K8s集群架构"
+        "Kubernetes",
+        "集群架构",
+        "调度",
+        "服务网格",
+        "平台工程",
+        "GPU调度",
+        "多集群"
       ]
     },
     {
       "id": "engineering-cross-platform",
       "name": "跨平台/多端统一开发工程师",
-      "description": "Flutter/React Native/KMP跨平台移动端统一开发专家，覆盖Flutter(Widget/Rendering/Native",
+      "description": "Flutter/React Native/KMP跨平台移动端统一开发专家，覆盖Flutter(Widget/Rendering/Native Plugin)、React Native(JSI/Fabric/TurboModule)、Kotlin Multiplatform与原生桥接/性能优化",
       "emoji": "📱",
       "category": "engineering",
       "subcategory": "",
@@ -995,27 +963,27 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Write once, run everywhere — when it works. You know when to share code and",
+      "vibe": "Write once, run everywhere — when it works. You know when to share code and when to go native, making the right tradeoffs for performance, UX, and development velocity.",
       "lifecycle": "published",
       "tags": [
         "engineering",
         "mobile",
-        "development",
-        "Delivered",
-        "cross-platform"
+        "cross-platform",
+        "flutter",
+        "react-native"
       ],
       "keywords": [
-        "跨平台",
-        "多端统一开发工程师",
+        "跨平台开发",
         "Flutter",
-        "React",
-        "Native"
+        "React Native",
+        "Kotlin Multiplatform",
+        "原生桥接"
       ]
     },
     {
       "id": "engineering-database-administrator",
       "name": "数据库管理员(DBA)",
-      "description": "数据库管理与运维专家，覆盖MySQL/MariaDB/Percona Server/PostgreSQL/MongoDB/Redis日常运维、备份恢复/高可用(主从/集群)、SQL性能调优/慢查询分析与容量规划",
+      "description": "Database administrator for PostgreSQL, MySQL, MongoDB, and Redis covering backup and PITR, replication, query tuning, and capacity planning",
       "emoji": "🗄️",
       "category": "engineering",
       "subcategory": "",
@@ -1034,21 +1002,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The database is where the truth lives — you protect it, tune it, back it up,",
+      "vibe": "A database is not healthy because it is running; it is healthy when a restore is proven, replication is honest, and the next failover is boring.",
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "managing",
-        "production",
-        "databases",
-        "Kept"
+        "database",
+        "operations",
+        "reliability",
+        "performance"
       ],
       "keywords": [
-        "数据库管理员",
-        "DBA",
-        "数据库管理与运维专家，覆盖MySQL",
-        "MariaDB",
-        "Percona"
+        "database administration",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "backup and recovery",
+        "replication",
+        "query tuning"
       ]
     },
     {
@@ -1077,7 +1048,6 @@
         "engineering",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1115,9 +1085,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "数据库GUI工具专家",
@@ -1156,9 +1124,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "开发者布道师",
@@ -1171,7 +1137,7 @@
     {
       "id": "engineering-developer-experience",
       "name": "开发者体验(DX)工程师",
-      "description": "开发者体验与工具链工程专家，覆盖本地开发环境/Dev Container、CLI工具/开发者门户、SDK/库设计、文档/入门体验与开发者生产力度量",
+      "description": "Developer experience engineer for internal developer platforms, golden paths, reproducible environments, and evidence-based productivity measurement",
       "emoji": "🛠️",
       "category": "engineering",
       "subcategory": "",
@@ -1186,27 +1152,29 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Happy developers ship better code faster. You build the tools, the CLI, the SDKs, and the docs that make other engineers 10x more productive.",
+      "vibe": "A platform is good when a new engineer ships a safe change on day one without asking where anything lives.",
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "building",
-        "developer",
-        "tools",
-        "improving"
+        "developer-experience",
+        "platform-engineering",
+        "tooling",
+        "productivity"
       ],
       "keywords": [
-        "开发者体验",
-        "DX",
-        "工程师",
-        "开发者体验与工具链工程专家，覆盖本地开发环境",
-        "Dev"
+        "developer experience",
+        "platform engineering",
+        "internal developer platform",
+        "Dev Containers",
+        "Backstage",
+        "DORA",
+        "SPACE"
       ]
     },
     {
       "id": "engineering-developer-relations",
       "name": "开发者关系工程师",
-      "description": "SDK 开发、技术文档撰写、社区赋能与产品反馈闭环专家",
+      "description": "Developer relations engineer for SDKs, executable documentation, community programs, and a closed developer-feedback loop into product",
       "emoji": "🤝",
       "category": "engineering",
       "subcategory": "",
@@ -1225,21 +1193,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Great developer tools don't need selling — they need unblocking. Your job is",
+      "vibe": "Developers do not read your marketing; they copy your first code sample and decide whether to trust you in five minutes.",
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Expertise",
-        "Approach",
-        "Output",
-        "Lines"
+        "developer-relations",
+        "developer-experience",
+        "community",
+        "documentation"
       ],
       "keywords": [
-        "开发者关系工程师",
-        "SDK",
-        "开发",
-        "技术文档撰写",
-        "社区赋能与产品反馈闭环专家"
+        "developer relations",
+        "DevRel",
+        "SDK design",
+        "technical documentation",
+        "developer community",
+        "developer experience"
       ]
     },
     {
@@ -1312,7 +1281,6 @@
       ],
       "keywords": [
         "工程总监",
-        "工程领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -1342,15 +1310,11 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "Drupal购物车开发工程师",
         "Drupal",
-        "Commerce专家，覆盖产品目录管理",
         "支付集成",
         "结账流程与订单管理"
       ]
@@ -1379,9 +1343,7 @@
       "tags": [
         "engineering",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "DynamoDB开发专家",
@@ -1422,7 +1384,6 @@
       ],
       "keywords": [
         "电商平台架构师",
-        "大规模电子商务平台技术架构专家，覆盖商品",
         "库存",
         "价格",
         "促销"
@@ -1457,15 +1418,20 @@
         "engineering",
         "education",
         "technology",
-        "Built",
-        "digital"
+        "interoperability",
+        "learning-platforms"
       ],
       "keywords": [
         "教育信息化",
         "智慧校园架构师",
         "K12",
-        "高校智慧校园与教育信息化平台专家，覆盖教务",
-        "学工"
+        "高校",
+        "学习管理系统",
+        "身份联邦",
+        "数据互操作",
+        "无障碍",
+        "学生隐私",
+        "学习分析"
       ]
     },
     {
@@ -1491,9 +1457,7 @@
       "tags": [
         "engineering",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "桌面应用开发工程师",
@@ -1528,15 +1492,11 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Capabilities",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Capabilities"
       ],
       "keywords": [
         "邮件智能工程师",
         "从原始邮件线程中提取结构化",
-        "可供推理使用的数据的专家，服务于",
         "AI",
         "Agent"
       ]
@@ -1566,7 +1526,6 @@
         "engineering",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1605,17 +1564,17 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
+        "erp",
         "implementation",
-        "Delivered",
-        "projects",
-        "across"
+        "sap",
+        "data-migration"
       ],
       "keywords": [
         "ERP实施",
         "功能顾问",
-        "企业资源计划",
-        "ERP",
-        "系统实施与功能顾问，覆盖SAP"
+        "SAP S/4HANA",
+        "数据迁移",
+        "上线切换"
       ]
     },
     {
@@ -1646,16 +1605,12 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Methodology",
-        "Decision",
-        "Framework",
         "Deliverable"
       ],
       "keywords": [
         "FastAPI后端开发专家",
         "FastAPI高性能Python",
         "API开发专家",
-        "覆盖Python异步编程",
         "asyncio"
       ]
     },
@@ -1684,11 +1639,7 @@
       "vibe": "Builds enterprise integrations on the Feishu (Lark) platform — bots, approvals, data sync, and SSO — so your team's workflows run on autopilot.",
       "lifecycle": "published",
       "tags": [
-        "engineering",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "engineering"
       ],
       "keywords": [
         "飞书集成开发工程师",
@@ -1734,7 +1685,6 @@
         "Filament",
         "优化专家",
         "PHP",
-        "管理面板重构与优化专家，专注高影响力的结构改进而非表面调整",
         "Role"
       ]
     },
@@ -1762,14 +1712,12 @@
         "engineering",
         "financial",
         "technology",
-        "Built",
         "payment"
       ],
       "keywords": [
         "金融科技",
         "FinTech",
         "工程师",
-        "金融科技与支付系统开发专家，覆盖支付网关",
         "清结算系统"
       ]
     },
@@ -1795,14 +1743,11 @@
       "tags": [
         "engineering",
         "Actionable",
-        "Directives",
-        "Methodology",
-        "Decision"
+        "Directives"
       ],
       "keywords": [
         "Flutter开发工程师",
         "Flutter跨平台应用开发专家",
-        "覆盖Dart语言与Flutter框架",
         "Widget",
         "State"
       ]
@@ -1839,8 +1784,7 @@
         "engineering",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "前端开发工程师",
@@ -1853,7 +1797,7 @@
     {
       "id": "engineering-fullstack-developer",
       "name": "全栈开发工程师",
-      "description": "全栈Web开发专家，覆盖React/Vue/Angular前端+Node.js/Python/Go后端、REST/GraphQL API、数据库设计与DevOps基础",
+      "description": "全栈 Web 开发专家，覆盖 React/Next.js 前端、Node.js/TypeScript 后端、REST/GraphQL API、PostgreSQL 数据建模与 CI/CD 交付",
       "emoji": "🏗️",
       "category": "engineering",
       "subcategory": "",
@@ -1868,21 +1812,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Frontend, backend, database, deployment — you build features end to end, understanding the full stack without being a master of none",
+      "vibe": "You own the whole feature slice — schema, API, UI, and the deploy — and you say out loud where your expertise stops",
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "across",
+        "fullstack",
         "frontend",
         "backend",
-        "Built"
+        "api"
       ],
       "keywords": [
-        "全栈开发工程师",
-        "全栈Web开发专家，覆盖React",
-        "Vue",
-        "Angular前端+Node.js",
-        "Python"
+        "全栈开发",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "GraphQL",
+        "PostgreSQL",
+        "API 设计",
+        "Core Web Vitals",
+        "CI/CD"
       ]
     },
     {
@@ -1990,14 +1939,13 @@
         "GPU",
         "异构计算工程师",
         "GPU计算与高性能计算",
-        "HPC",
-        "专家，覆盖CUDA"
+        "HPC"
       ]
     },
     {
       "id": "engineering-graph-database",
       "name": "图数据库/知识图谱工程师",
-      "description": "图数据库与知识图谱专家，覆盖Neo4j/JanusGraph/Amazon Neptune/NebulaGraph/Dgraph/HugeGraph/TuGraph/TigerGraph/ArangoDB/OrientDB、Cypher/Gremlin/nGQL图查询、知识图谱建模/推理、图算法与社交网络分析",
+      "description": "图数据库与知识图谱专家，覆盖 Neo4j/JanusGraph/Neptune/NebulaGraph/TigerGraph、Cypher/GQL/SPARQL 查询优化、本体与 SHACL 校验、图算法与反欺诈/推荐/供应链场景",
       "emoji": "🕸️",
       "category": "engineering",
       "subcategory": "",
@@ -2015,21 +1963,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Relationships are data too — you model the connections between things, revealing",
+      "vibe": "Relationships are data too — but a graph earns its cost only when traversal is the query, not an afterthought",
       "lifecycle": "published",
       "tags": [
         "engineering",
         "graph",
         "databases",
-        "knowledge",
-        "graphs"
+        "knowledge-graph",
+        "data-modeling"
       ],
       "keywords": [
         "图数据库",
-        "知识图谱工程师",
-        "图数据库与知识图谱专家，覆盖Neo4j",
-        "JanusGraph",
-        "Amazon"
+        "知识图谱",
+        "Neo4j",
+        "Cypher",
+        "GQL",
+        "SPARQL",
+        "图算法",
+        "实体消歧"
       ]
     },
     {
@@ -2061,22 +2012,19 @@
       "tags": [
         "engineering",
         "Actionable",
-        "Directives",
-        "Methodology",
-        "Decision"
+        "Directives"
       ],
       "keywords": [
         "GraphQL",
         "API架构师",
         "API设计与架构专家",
-        "覆盖GraphQL",
         "Schema设计"
       ]
     },
     {
       "id": "engineering-humanitarian-engineering",
       "name": "人道主义工程/WASH专家",
-      "description": "人道主义水卫生(WASH)与应急工程专家，覆盖紧急供水(打井/运水/净水药片)/环境卫生(应急厕所/粪便污泥管理)、难民营/临时安置点规划与人道主义标准(SPHERE/ Core Humanitarian Standard)",
+      "description": "人道主义水卫生(WASH)与应急工程专家，覆盖紧急供水(打井/运水/氯化)、应急环境卫生与粪便污泥管理、难民营/临时安置点规划及SPHERE/CHS人道主义标准",
       "emoji": "💧",
       "category": "engineering",
       "subcategory": "",
@@ -2098,16 +2046,16 @@
       "tags": [
         "engineering",
         "humanitarian",
-        "WASH",
-        "Responded",
-        "emergencies"
+        "wash",
+        "emergency-response",
+        "sphere-standards"
       ],
       "keywords": [
         "人道主义工程",
-        "WASH专家",
-        "人道主义水卫生",
         "WASH",
-        "与应急工程专家，覆盖紧急供水"
+        "应急供水",
+        "应急环境卫生",
+        "难民营规划"
       ]
     },
     {
@@ -2168,7 +2116,6 @@
         "engineering",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -2204,8 +2151,7 @@
         "engineering",
         "managing",
         "innovation",
-        "portfolios",
-        "Built"
+        "portfolios"
       ],
       "keywords": [
         "创新",
@@ -2241,16 +2187,16 @@
       "tags": [
         "engineering",
         "insurance",
-        "technology",
-        "Built",
-        "digital"
+        "insurtech",
+        "product-management",
+        "embedded-insurance"
       ],
       "keywords": [
         "保险科技",
         "InsurTech",
-        "产品经理",
-        "保险科技与数字化保险产品专家，覆盖互联网保险",
-        "嵌入式保险"
+        "嵌入式保险",
+        "智能核保",
+        "理赔自动化"
       ]
     },
     {
@@ -2316,13 +2262,11 @@
         "engineering",
         "Apple",
         "platform",
-        "development",
-        "Built"
+        "development"
       ],
       "keywords": [
         "iOS",
         "macOS系统工程师",
-        "Apple平台系统软件开发专家，覆盖Darwin",
         "XNU内核扩展",
         "Metal"
       ]
@@ -2388,15 +2332,13 @@
         "engineering",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "Keil嵌入式开发专家",
         "Keil",
         "MDK-ARM",
-        "µVision",
-        "嵌入式IDE专家，覆盖ARM"
+        "µVision"
       ]
     },
     {
@@ -2426,9 +2368,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "LangChain",
@@ -2465,14 +2405,11 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "LlamaIndex专家",
         "LlamaIndex数据Agent与RAG框架专家",
-        "覆盖Index架构",
         "Summary",
         "Tree"
       ]
@@ -2503,24 +2440,19 @@
       "vibe": "Training a model is science. Serving it at 1000 requests per second with p99",
       "lifecycle": "published",
       "tags": [
-        "engineering",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "engineering"
       ],
       "keywords": [
         "LLM推理部署专家",
         "大语言模型推理引擎与部署专家",
-        "覆盖vLLM",
         "SGLang",
         "TRT-LLM"
       ]
     },
     {
       "id": "engineering-lowcode-expert",
-      "name": "低代码/无代码开发专家",
-      "description": "OutSystems/Power Platform/简道云、流程自动化与企业级低代码平台专家",
+      "name": "企业低代码开发专家",
+      "description": "企业低代码与无代码平台专家，覆盖 Power Platform、OutSystems、Mendix、Appian、Retool、简道云，以及公民开发治理、ALM 与集成架构",
       "emoji": "🧩",
       "category": "engineering",
       "subcategory": "",
@@ -2538,21 +2470,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Empowers domain experts to build apps without waiting for the engineering backlog — citizen development with guardrails.",
+      "vibe": "Citizen development is not the absence of engineering discipline — it is engineering discipline delivered as a platform service",
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "lowcode",
+        "governance",
+        "platform",
+        "integration"
       ],
       "keywords": [
         "低代码",
-        "无代码开发专家",
+        "无代码",
+        "Power Platform",
         "OutSystems",
-        "Power",
-        "Platform"
+        "Mendix",
+        "Dataverse",
+        "公民开发",
+        "ALM",
+        "DLP",
+        "集成架构"
       ]
     },
     {
@@ -2624,8 +2561,7 @@
         "engineering",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "MCP",
@@ -2660,8 +2596,7 @@
         "engineering",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "微服务架构师",
@@ -2767,17 +2702,16 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "architecting",
         "mobile",
-        "applications",
-        "Designed"
+        "architecture",
+        "modularization"
       ],
       "keywords": [
-        "移动端架构师",
-        "iOS",
-        "Android移动应用架构专家，覆盖MVVM",
-        "MVI",
-        "Clean"
+        "移动端架构",
+        "模块化",
+        "状态管理",
+        "离线同步",
+        "性能预算"
       ]
     },
     {
@@ -2808,14 +2742,11 @@
       "tags": [
         "engineering",
         "Actionable",
-        "Directives",
-        "Methodology",
-        "Decision"
+        "Directives"
       ],
       "keywords": [
         "MongoDB数据架构师",
         "MongoDB分布式文档数据库架构专家",
-        "覆盖Document",
         "Schema",
         "Design"
       ]
@@ -2849,13 +2780,10 @@
       "tags": [
         "engineering",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "多智能体系统架构师",
-        "多Agent系统设计与治理专家，覆盖Agent拓扑",
         "编排模式",
         "上下文",
         "记忆管理"
@@ -2890,10 +2818,7 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "网络工程师",
@@ -2928,7 +2853,6 @@
         "engineering",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -2961,22 +2885,19 @@
       "tags": [
         "engineering",
         "Actionable",
-        "Directives",
-        "Methodology",
-        "Decision"
+        "Directives"
       ],
       "keywords": [
         "Next.js全栈开发专家",
         "Next.js全栈Web应用开发专家",
-        "覆盖App",
         "Router",
         "React"
       ]
     },
     {
       "id": "engineering-nocode-developer",
-      "name": "低代码/无代码开发专家",
-      "description": "低代码与无代码平台开发专家，覆盖Power Platform(Canvas/Model-Driven/Power Automate)、OutSystems/Mendix企业低代码与企业级LCNC治理",
+      "name": "无代码应用开发专家",
+      "description": "低代码与无代码平台开发专家，覆盖Power Platform(Canvas/Model-Driven/Power Automate)、OutSystems/Mendix企业低代码与公民开发者治理/ALM",
       "emoji": "🧩",
       "category": "engineering",
       "subcategory": "",
@@ -2997,16 +2918,16 @@
       "tags": [
         "engineering",
         "low-code",
-        "development",
-        "Built",
-        "enterprise"
+        "power-platform",
+        "outsystems",
+        "mendix"
       ],
       "keywords": [
         "低代码",
-        "无代码开发专家",
-        "低代码与无代码平台开发专家，覆盖Power",
-        "Platform",
-        "Canvas"
+        "无代码",
+        "Power Platform",
+        "OutSystems",
+        "Mendix"
       ]
     },
     {
@@ -3033,9 +2954,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "分析型数据库专家",
@@ -3074,8 +2993,7 @@
         "engineering",
         "Technical",
         "References",
-        "Standards",
-        "Professional"
+        "Standards"
       ],
       "keywords": [
         "OrgScript工程师",
@@ -3110,13 +3028,11 @@
         "engineering",
         "payment",
         "systems",
-        "Built",
         "transaction"
       ],
       "keywords": [
         "支付系统",
         "交易处理工程师",
-        "大规模支付交易处理系统专家，覆盖双活",
         "多活异地多活支付架构",
         "交易一致性"
       ]
@@ -3144,17 +3060,17 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "specializing",
-        "PostgreSQL",
-        "Tuned",
-        "databases"
+        "postgresql",
+        "database",
+        "performance",
+        "high-availability"
       ],
       "keywords": [
-        "PostgreSQL高级DBA",
-        "性能专家",
-        "PostgreSQL数据库深度优化与管理专家，覆盖PG执行计划",
-        "查询优化",
-        "VACUUM"
+        "PostgreSQL performance",
+        "query plans",
+        "vacuum and bloat",
+        "streaming replication",
+        "partitioning"
       ]
     },
     {
@@ -3184,13 +3100,11 @@
         "engineering",
         "compilers",
         "programming",
-        "languages",
-        "Built"
+        "languages"
       ],
       "keywords": [
         "编译器",
         "编程语言工程师",
-        "编译器与编程语言设计专家，覆盖词法",
         "语法",
         "语义分析"
       ]
@@ -3229,7 +3143,6 @@
       "keywords": [
         "提示词工程师",
         "系统化设计",
-        "测试与优化大语言模型提示词的专家，将模糊指令转化为可靠的生产级AI行为",
         "Role",
         "Personality"
       ]
@@ -3265,12 +3178,10 @@
         "engineering",
         "quantum",
         "computing",
-        "research",
-        "Developed"
+        "research"
       ],
       "keywords": [
         "量子计算研究员",
-        "量子计算与量子算法专家，覆盖量子电路",
         "门模型",
         "变分量子算法",
         "VQE"
@@ -3302,17 +3213,21 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "algorithmic",
-        "fairness",
-        "Audited",
-        "systems"
+        "algorithmic-fairness",
+        "civil-rights",
+        "responsible-ai",
+        "audit"
       ],
       "keywords": [
         "公平性审计",
-        "算法公平研究员",
-        "AI系统公平性与社会影响评估专家，覆盖算法公平性指标",
+        "算法公平",
         "人口平等",
-        "机会均等"
+        "机会均等",
+        "校准",
+        "去偏技术",
+        "公平性红队",
+        "AI Act",
+        "NYC 144"
       ]
     },
     {
@@ -3356,7 +3271,7 @@
     {
       "id": "engineering-reactive-systems",
       "name": "响应式/分布式系统架构师",
-      "description": "大规模分布式系统与响应式架构专家，覆盖Actor模型(Akka/Orleans)、CQRS/Event Sourcing模式、最终一致性/CRDT/Saga模式与Reactive Manifesto(响应/弹性/韧性/消息驱动)",
+      "description": "大规模分布式系统与响应式架构专家，覆盖 Actor 模型、CQRS/Event Sourcing、Saga 与 CRDT、Kafka/Flink 流平台、背压与韧性设计",
       "emoji": "⚡",
       "category": "engineering",
       "subcategory": "",
@@ -3371,21 +3286,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Distributed systems are hard — you design architectures that stay responsive under load, resilient to failure, and correct despite network partitions",
+      "vibe": "The network will partition, the broker will redeliver, and a retry will arrive twice — you design for the failure, not the happy path",
       "lifecycle": "published",
       "tags": [
         "engineering",
         "distributed",
         "systems",
-        "Designed",
-        "handling"
+        "messaging",
+        "resilience"
       ],
       "keywords": [
-        "响应式",
-        "分布式系统架构师",
-        "大规模分布式系统与响应式架构专家，覆盖Actor模型",
-        "Akka",
-        "Orleans"
+        "响应式架构",
+        "分布式系统",
+        "Actor 模型",
+        "CQRS",
+        "Event Sourcing",
+        "最终一致性",
+        "Saga",
+        "CRDT",
+        "Kafka",
+        "背压"
       ]
     },
     {
@@ -3414,15 +3334,12 @@
       "tags": [
         "engineering",
         "Actionable",
-        "Directives",
-        "Methodology",
-        "Decision"
+        "Directives"
       ],
       "keywords": [
         "React",
         "Native移动开发专家",
         "Native跨平台移动应用开发专家",
-        "覆盖React",
         "Native新架构"
       ]
     },
@@ -3450,15 +3367,15 @@
         "engineering",
         "real-time",
         "embedded",
-        "systems",
-        "Built"
+        "rtos",
+        "safety-critical"
       ],
       "keywords": [
-        "实时系统",
-        "嵌入式RTOS工程师",
-        "实时操作系统与确定性系统专家，覆盖FreeRTOS",
-        "Zephyr",
-        "ThreadX"
+        "real-time scheduling",
+        "RTOS",
+        "worst-case execution time",
+        "priority inversion",
+        "safety certification"
       ]
     },
     {
@@ -3486,14 +3403,12 @@
         "engineering",
         "retail",
         "technology",
-        "Built",
         "products"
       ],
       "keywords": [
         "零售科技",
         "RetailTech",
         "产品经理",
-        "零售科技与智能门店方案产品专家，覆盖POS",
         "自助收银"
       ]
     },
@@ -3525,7 +3440,6 @@
       "tags": [
         "engineering",
         "Architecture",
-        "Decision",
         "Record",
         "Status"
       ],
@@ -3560,9 +3474,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "搜索引擎专家",
@@ -3613,8 +3525,8 @@
     },
     {
       "id": "engineering-sitecore-developer",
-      "name": "前端架构/性能优化工程师",
-      "description": "Web前端性能优化与架构专家，覆盖Core Web Vitals(LCP/FID/CLS)优化、代码分割/懒加载/Tree Shaking、CDN/缓存策略与前端可观测性(RUM)",
+      "name": "Sitecore 开发工程师",
+      "description": "Sitecore developer for XM Cloud and XP, Helix solution architecture, SXA components, JSS/Next.js rendering, and secure content delivery",
       "emoji": "⚡",
       "category": "engineering",
       "subcategory": "",
@@ -3630,21 +3542,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A website that loads in 1 second converts; one that loads in 5 seconds loses half its visitors. You make the web fast, one millisecond at a time.",
+      "vibe": "A Sitecore build succeeds when editors can compose freely, developers can extend safely, and visitors never see the plumbing.",
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "performance",
-        "Optimized",
-        "sites",
-        "serving"
+        "sitecore",
+        "cms",
+        "headless",
+        "content-platform"
       ],
       "keywords": [
-        "前端架构",
-        "性能优化工程师",
-        "Web前端性能优化与架构专家，覆盖Core",
-        "Web",
-        "Vitals"
+        "Sitecore",
+        "XM Cloud",
+        "Sitecore XP",
+        "Helix",
+        "SXA",
+        "JSS",
+        "Next.js",
+        "content management"
       ]
     },
     {
@@ -3671,17 +3586,17 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "building",
-        "social",
-        "content",
-        "platforms"
+        "social-platform",
+        "recommendation",
+        "content-moderation",
+        "high-concurrency"
       ],
       "keywords": [
-        "社交媒体",
-        "内容平台架构师",
-        "社交媒体与UGC内容平台技术架构专家，覆盖Feed",
-        "Timeline",
-        "推荐系统"
+        "social media platform",
+        "feed architecture",
+        "social graph",
+        "UGC moderation",
+        "notification fan-out"
       ]
     },
     {
@@ -3712,7 +3627,6 @@
       "tags": [
         "engineering",
         "Architecture",
-        "Decision",
         "Record",
         "Template"
       ],
@@ -3752,9 +3666,7 @@
       "tags": [
         "engineering",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "SQL",
@@ -3767,7 +3679,7 @@
     {
       "id": "engineering-standards-compliance",
       "name": "标准化/技术委员会专家",
-      "description": "国际标准制定与技术委员会管理专家，覆盖ISO/IEEE/ITU/3GPP/IETF国际标准组织、标准必要专利(SEP)/FRAND许可、标准参与策略与企业标准化治理",
+      "description": "国际标准制定与技术委员会管理专家，覆盖ISO/IEC/ITU/3GPP/IETF标准组织、标准必要专利(SEP)/FRAND许可、标准参与策略与企业标准化治理",
       "emoji": "📜",
       "category": "engineering",
       "subcategory": "",
@@ -3789,16 +3701,16 @@
       "tags": [
         "engineering",
         "standards",
-        "development",
-        "corporate",
-        "participation"
+        "sep-frand",
+        "technical-committees",
+        "standards-governance"
       ],
       "keywords": [
         "标准化",
-        "技术委员会专家",
-        "国际标准制定与技术委员会管理专家，覆盖ISO",
-        "IEEE",
-        "ITU"
+        "技术委员会",
+        "SEP",
+        "FRAND",
+        "国际标准"
       ]
     },
     {
@@ -3828,16 +3740,12 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Methodology",
-        "Decision",
-        "Framework",
         "Deliverable"
       ],
       "keywords": [
         "SwiftUI",
         "iOS开发专家",
         "SwiftUI声明式UI与iOS原生开发专家",
-        "覆盖SwiftUI视图体系",
         "View"
       ]
     },
@@ -3865,17 +3773,17 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "integrating",
-        "complex",
-        "systems",
-        "Made"
+        "systems-integration",
+        "interface-management",
+        "data-mapping",
+        "acceptance-testing"
       ],
       "keywords": [
-        "系统集成工程师",
-        "复杂系统集成与接口管理专家，覆盖多供应商系统集成",
-        "SoI",
-        "接口协议",
-        "数据映射"
+        "system of systems integration",
+        "interface control document",
+        "data mapping",
+        "end-to-end integration testing",
+        "acceptance and risk"
       ]
     },
     {
@@ -3947,14 +3855,12 @@
         "engineering",
         "Technical",
         "References",
-        "Standards",
-        "Professional"
+        "Standards"
       ],
       "keywords": [
         "Visual",
         "Studio",
         "C++开发专家",
-        "C++开发专家，覆盖MSVC编译器",
         "链接器优化"
       ]
     },
@@ -3985,15 +3891,13 @@
         "engineering",
         "References",
         "Standards",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "Visual",
         "Studio",
         "NET",
-        "C#开发专家",
-        "C#开发专家，覆盖WinForms"
+        "C#开发专家"
       ]
     },
     {
@@ -4019,16 +3923,12 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "Visual",
         "Studio",
         "Python开发专家",
-        "Python开发专家，覆盖Python工具",
         "数据科学"
       ]
     },
@@ -4059,15 +3959,13 @@
         "engineering",
         "Technical",
         "References",
-        "Standards",
-        "Professional"
+        "Standards"
       ],
       "keywords": [
         "Visual",
         "Studio",
         "Web",
-        "ASP.NET开发专家",
-        "Web开发专家，覆盖ASP.NET"
+        "ASP.NET开发专家"
       ]
     },
     {
@@ -4096,10 +3994,7 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "语音",
@@ -4112,7 +4007,7 @@
     {
       "id": "engineering-webassembly-expert",
       "name": "WebAssembly 专家",
-      "description": "WASM 运行时、WASI 与高性能前端计算专家",
+      "description": "WebAssembly 2.0、WASI Preview 2、Component Model 与 wasm-bindgen 专家，覆盖 Rust/C++ 编译、服务端沙箱运行时、SIMD/线程与 JS 边界性能优化",
       "emoji": "⚡",
       "category": "engineering",
       "subcategory": "",
@@ -4131,21 +4026,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Runs near-native code in the browser — from Figma to Photoshop, WASM makes the impossible possible.",
+      "vibe": "WebAssembly is a compilation target with a capability model, not a magic performance switch — the boundary is where the design lives",
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "webassembly",
+        "runtime",
+        "performance",
+        "wasi"
       ],
       "keywords": [
         "WebAssembly",
-        "专家",
-        "WASM",
-        "运行时",
-        "WASI"
+        "WASI",
+        "Component Model",
+        "Rust",
+        "wasm-bindgen",
+        "wasmtime",
+        "SIMD",
+        "边缘计算",
+        "沙箱",
+        "wasm-opt"
       ]
     },
     {
@@ -4288,14 +4188,10 @@
       "lifecycle": "published",
       "tags": [
         "engineering",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "WordPress购物车开发工程师",
-        "WooCommerce专家，覆盖产品目录管理",
         "支付集成",
         "结账定制与转化优化",
         "WordPress"

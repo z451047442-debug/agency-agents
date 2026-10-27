@@ -1,12 +1,12 @@
 {
   "category": "forestry",
   "agent_count": 6,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "forestry-conservation",
       "name": "森林保护专家",
-      "description": "森林生态系统保护与可持续管理：生物多样性监测、碳核算与REDD+、保护区管理、毁林监测预警、生态恢复规划与实施",
+      "description": "森林保护与生物多样性专家：生物多样性监测、保护区网络规划与管理有效性(METT)评估、毁林/退化监测预警、栖息地连通性、生态恢复规划与社区共管(FPIC)",
       "emoji": "🦉",
       "category": "forestry",
       "subcategory": "",
@@ -14,7 +14,6 @@
       "depends_on": [
         "environmental-engineering-ecosystem-restoration",
         "environmental-engineering-gis-remote-sensing",
-        "finance-engineering-credit-risk-model",
         "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
@@ -26,17 +25,18 @@
       "lifecycle": "published",
       "tags": [
         "forestry",
-        "Success",
-        "Metrics",
-        "Non-Negotiable",
-        "Technical"
+        "conservation",
+        "biodiversity",
+        "protected-areas",
+        "deforestation-monitoring"
       ],
       "keywords": [
-        "森林保护专家",
-        "森林生态系统保护与可持续管理：生物多样性监测",
-        "碳核算与REDD+",
+        "森林保护",
+        "生物多样性监测",
         "保护区管理",
-        "毁林监测预警"
+        "毁林监测预警",
+        "社区共管",
+        "生态恢复"
       ]
     },
     {
@@ -71,7 +71,6 @@
       ],
       "keywords": [
         "林业总监",
-        "林业领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -80,15 +79,13 @@
     {
       "id": "forestry-forest-ecology",
       "name": "森林生态与碳汇专家",
-      "description": "森林生态系统管理、森林碳汇计量与MRV、REDD+与碳信用项目开发、生物多样性监测、造林与森林恢复、社区林业与可持续林产品专家",
+      "description": "林业碳汇项目开发与森林经营专家：碳汇项目设计(基线/额外性/PDD)、造林再造林与森林经营、LiDAR/遥感生物量与生长模型、项目MRV体系运行、FSC/PEFC认证与碳收益测算",
       "emoji": "🌳",
       "category": "forestry",
       "subcategory": "",
       "path": "forestry/forestry-forest-ecology.md",
       "depends_on": [
         "environmental-engineering-ecosystem-restoration",
-        "legal-document-review",
-        "marketing-china-market-localization-strategist",
         "infrastructure-network-engineering-engineering-optical-fiber-sensing"
       ],
       "nexus_roles": [
@@ -101,23 +98,25 @@
       "lifecycle": "published",
       "tags": [
         "forestry",
-        "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "forest-ecology",
+        "carbon-mrv",
+        "redd-plus",
+        "biodiversity"
       ],
       "keywords": [
-        "森林生态与碳汇专家",
+        "森林碳汇项目开发",
         "森林生态系统管理",
-        "森林碳汇计量与MRV",
+        "碳汇计量与项目MRV",
         "REDD+与碳信用项目开发",
-        "生物多样性监测"
+        "PDD与额外性",
+        "FSC",
+        "PEFC"
       ]
     },
     {
       "id": "forestry-general-manager",
       "name": "林业总经理",
-      "description": "林业领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "description": "林业企业全面经营管理者，负责森林资源培育与采伐、木材及林产品产销、林业碳汇与可持续经营，并对 P&L、团队和客户关系负责",
       "emoji": "🌲",
       "category": "forestry",
       "subcategory": "",
@@ -127,7 +126,6 @@
         "government-general-manager",
         "pets-general-manager",
         "real-estate-general-manager",
-        "cybersecurity-general-manager",
         "specialized-customer-success-manager"
       ],
       "nexus_roles": [
@@ -148,7 +146,6 @@
       ],
       "keywords": [
         "林业总经理",
-        "林业领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -166,8 +163,7 @@
         "energy-engineering-carbon-capture-storage",
         "energy-engineering-grid-scale-storage",
         "environmental-engineering-climate-tech",
-        "environmental-engineering-gis-remote-sensing",
-        "finance-engineering-credit-risk-model"
+        "environmental-engineering-gis-remote-sensing"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -207,8 +203,6 @@
         "logistics-engineering-supply-chain-risk",
         "logistics-engineering-supply-chain-software",
         "logistics-last-mile-delivery",
-        "marketing-book-co-author",
-        "marketing-demand-generation",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
@@ -227,7 +221,6 @@
       ],
       "keywords": [
         "木材供应链经理",
-        "木材供应链专家，覆盖原木采购与林地资源寻源",
         "运输物流与车队调度管理",
         "锯木厂协调与加工排产对接",
         "木材市场价格分析与采购策略"

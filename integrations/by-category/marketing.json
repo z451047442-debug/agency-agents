@@ -1,7 +1,7 @@
 {
   "category": "marketing",
   "agent_count": 86,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "marketing-abm-account-based",
@@ -28,7 +28,6 @@
       "tags": [
         "marketing",
         "account-based",
-        "Built",
         "programs",
         "generating"
       ],
@@ -36,7 +35,6 @@
         "基于客户的营销",
         "ABM",
         "经理",
-        "B2B大客户ABM营销策略专家，覆盖1",
         "Many"
       ]
     },
@@ -73,7 +71,6 @@
       "keywords": [
         "广告投放策略师",
         "全渠道广告策略与投放架构专家",
-        "覆盖品牌-效果投放矩阵设计",
         "渠道组合与预算分配",
         "搜索"
       ]
@@ -110,14 +107,13 @@
       ],
       "keywords": [
         "AEO基础架构师",
-        "AI引擎优化基础设施专家，实现llms.txt",
         "AI感知robots.txt与结构化内容"
       ]
     },
     {
       "id": "marketing-affiliate-manager",
       "name": "联盟/渠道营销经理",
-      "description": "联盟营销与渠道合作伙伴管理专家，覆盖联盟网络(CJ/Impact/Awin)策略、佣金结构/归因、KOL/内容合作伙伴招募与效果优化",
+      "description": "联盟营销与渠道合作伙伴管理专家，覆盖联盟网络(CJ/Impact/Awin/Partnerize)选型、佣金与归因、招募激活、反欺诈与增量衡量",
       "emoji": "🤝",
       "category": "marketing",
       "subcategory": "",
@@ -133,21 +129,27 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Why pay for ads when you can pay for performance? You build a network of partners",
+      "vibe": "Affiliate spend is not a discount line — it is a governed distribution channel where every payout must buy incremental revenue.",
       "lifecycle": "published",
       "tags": [
         "marketing",
         "affiliate",
-        "partner",
-        "Built",
-        "networks"
+        "partner-marketing",
+        "performance-marketing",
+        "attribution",
+        "fraud-prevention"
       ],
       "keywords": [
-        "联盟",
-        "渠道营销经理",
-        "联盟营销与渠道合作伙伴管理专家，覆盖联盟网络",
-        "CJ",
-        "Impact"
+        "联盟营销",
+        "渠道营销",
+        "affiliate",
+        "CJ Affiliate",
+        "Impact.com",
+        "Awin",
+        "Partnerize",
+        "佣金结构",
+        "增量测试",
+        "反欺诈"
       ]
     },
     {
@@ -174,9 +176,7 @@
       "tags": [
         "marketing",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "非洲市场专家",
@@ -293,12 +293,10 @@
         "marketing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "营销数据分析师",
-        "营销数据分析与归因专家，覆盖多渠道归因",
         "MMM",
         "MTA",
         "LTV"
@@ -368,8 +366,7 @@
         "ASA优化师",
         "Apple",
         "Search",
-        "Ads优化专家",
-        "覆盖ASA基础"
+        "Ads优化专家"
       ]
     },
     {
@@ -404,7 +401,6 @@
         "营销自动化",
         "MA",
         "专家",
-        "营销自动化平台与Martech专家，覆盖HubSpot",
         "Marketo"
       ]
     },
@@ -543,9 +539,7 @@
       "tags": [
         "marketing",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "品牌策略师",
@@ -558,7 +552,7 @@
     {
       "id": "marketing-brand-strategist-name",
       "name": "品牌命名/语言策略师",
-      "description": "品牌命名与语言识别专家，覆盖品牌/产品/服务命名策略、商标检索/可用性评估、多语言命名/文化适配与语言识别(Verbal Identity)/品牌语调(Tone of Voice)",
+      "description": "品牌命名与语言识别专家：命名策略、商标与语言筛查、跨文化适配、品牌语调与信息架构",
       "emoji": "💬",
       "category": "marketing",
       "subcategory": "",
@@ -576,21 +570,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A great name is the shortest story you'll ever tell about your brand — you find the one word, in every language, that captures the essence and won't get you sued",
+      "vibe": "A name is the shortest story a brand will ever tell — and the easiest thing to lose in a courtroom or a translation.",
       "lifecycle": "published",
       "tags": [
         "marketing",
         "brand",
         "naming",
-        "verbal",
-        "Named"
+        "verbal-identity",
+        "localization"
       ],
       "keywords": [
         "品牌命名",
-        "语言策略师",
-        "品牌命名与语言识别专家，覆盖品牌",
-        "产品",
-        "服务命名策略"
+        "verbal identity",
+        "naming strategy",
+        "trademark screening",
+        "linguistic screening",
+        "tone of voice",
+        "brand architecture",
+        "naming territories"
       ]
     },
     {
@@ -699,9 +696,7 @@
       ],
       "keywords": [
         "中国市场本地化策略师",
-        "全栈中国市场本地化专家，将实时趋势信号转化为可执行的",
         "GTM",
-        "策略，覆盖抖音",
         "小红书"
       ]
     },
@@ -738,7 +733,6 @@
       "keywords": [
         "社群",
         "社区运营经理",
-        "在线社群与用户社区运营专家，覆盖Discord",
         "Slack",
         "微信群"
       ]
@@ -746,7 +740,7 @@
     {
       "id": "marketing-content-creator",
       "name": "内容创作者",
-      "description": "多平台内容策略、编辑日历与文案专家",
+      "description": "多平台内容创作与编辑策略专家：选题研究、叙事与脚本、短视频钩子、内容复用、编辑日历与可访问性",
       "emoji": "✍️",
       "category": "marketing",
       "subcategory": "",
@@ -762,27 +756,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Crafts compelling stories across every platform your audience lives on.",
+      "vibe": "A hook earns three seconds; a useful idea earns the next three minutes. Write for both.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "Definition",
-        "Capabilities",
-        "Specialized",
-        "Skills"
+        "content",
+        "editorial",
+        "social",
+        "storytelling"
       ],
       "keywords": [
-        "内容创作者",
-        "多平台内容策略",
-        "编辑日历与文案专家",
-        "Role",
-        "Memory"
+        "content creation",
+        "editorial calendar",
+        "short-form video",
+        "storytelling",
+        "content repurposing",
+        "copywriting",
+        "accessibility",
+        "content operations"
       ]
     },
     {
       "id": "marketing-content-strategist",
       "name": "内容策略师",
-      "description": "品牌内容与编辑策略专家，覆盖内容战略/编辑日历规划、SEO驱动型内容/内容支柱(Pillar)策略、多渠道内容分发(博客/社交/视频/播客)与内容ROI衡量",
+      "description": "品牌内容与编辑策略专家，覆盖内容支柱与主题集群、编辑日历、内容运营、SEO与多渠道分发、内容ROI衡量",
       "emoji": "📝",
       "category": "marketing",
       "subcategory": "",
@@ -800,21 +797,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Content marketing isn't blogging — it's building an audience through valuable information that earns attention instead of buying it. You design the strategy that makes content an asset, not an expense.",
+      "vibe": "Content is an operating system for demand — plan the jobs, prove the evidence, and retire what no longer earns attention.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "content-strategy",
+        "editorial",
+        "seo",
+        "content-operations",
+        "measurement"
       ],
       "keywords": [
-        "内容策略师",
-        "品牌内容与编辑策略专家，覆盖内容战略",
-        "编辑日历规划",
-        "SEO驱动型内容",
-        "内容支柱"
+        "内容策略",
+        "编辑日历",
+        "内容支柱",
+        "主题集群",
+        "内容运营",
+        "SEO内容",
+        "内容ROI",
+        "内容审计"
       ]
     },
     {
@@ -835,21 +836,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Words sell. Every headline, every CTA, every email subject line either moves",
+      "vibe": "Copy is not decoration around an offer. It is the shortest, most honest path between a reader's real problem and the next action you want them to take.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "direct",
-        "response",
+        "copywriting",
         "conversion",
-        "copywriting"
+        "direct-response",
+        "cro"
       ],
       "keywords": [
         "转化文案",
-        "销售文案专家",
-        "直接反应与转化导向文案撰写专家，覆盖销售页",
-        "Landing",
-        "Page文案"
+        "销售文案",
+        "Landing Page",
+        "邮件序列",
+        "CTA",
+        "A/B测试"
       ]
     },
     {
@@ -873,21 +875,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A great creative idea can do more for a brand in 30 seconds than a media budget",
+      "vibe": "A campaign is not a collection of assets. It is one idea that can survive contact with every channel, every stakeholder, and a distracted audience — and still be worth remembering.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "creative",
-        "leadership",
-        "Created",
-        "award-winning"
+        "creative-direction",
+        "brand-campaigns",
+        "art-direction",
+        "creative-leadership"
       ],
       "keywords": [
         "创意总监",
-        "Creative",
-        "Director",
-        "广告",
-        "品牌创意方向最高负责人，覆盖品牌创意策略"
+        "品牌创意",
+        "大创意",
+        "广告campaign",
+        "美术指导",
+        "创意团队管理"
       ]
     },
     {
@@ -946,15 +949,12 @@
       "tags": [
         "marketing",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "转化率优化",
         "CRO",
         "专家",
-        "转化率优化专家，覆盖落地页优化",
         "B测试策略"
       ]
     },
@@ -1026,7 +1026,6 @@
       "keywords": [
         "客户倡导",
         "参考案例经理",
-        "B2B客户倡导与营销案例管理专家，覆盖客户成功案例",
         "Success",
         "Story"
       ]
@@ -1063,7 +1062,6 @@
         "CDP",
         "客户数据平台专家",
         "客户数据平台",
-        "与营销数据架构专家，覆盖Segment",
         "mParticle"
       ]
     },
@@ -1086,27 +1084,29 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Acquiring a customer costs 5x more than keeping one — you design the campaigns",
+      "vibe": "Acquisition wins the first order; lifecycle marketing decides whether there is a second, a fifth, and a customer who brings someone else.",
       "lifecycle": "published",
       "tags": [
         "marketing",
         "lifecycle",
-        "Built",
-        "programs",
-        "increased"
+        "crm",
+        "retention",
+        "loyalty"
       ],
       "keywords": [
-        "客户生命周期营销专家",
-        "客户生命周期与CRM营销专家，覆盖客户旅程编排",
-        "个性化",
-        "RFM分层",
-        "精准营销"
+        "客户生命周期",
+        "CRM营销",
+        "客户旅程",
+        "RFM",
+        "忠诚度计划",
+        "留存",
+        "挽回"
       ]
     },
     {
       "id": "marketing-demand-generation",
       "name": "需求生成(Demand Gen)经理",
-      "description": "B2B需求生成与线索孵化专家，覆盖多渠道获客策略(内容/广告/活动/邮件)、线索评分/孵化/培育流转、营销自动化工作流与SQL管道生成",
+      "description": "B2B 需求生成与管道营销专家：ICP 与采购委员会、MQL/SQL 定义、线索评分、培育编排、销售 SLA 与管道归因",
       "emoji": "📈",
       "category": "marketing",
       "subcategory": "",
@@ -1123,21 +1123,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Demand generation isn't about getting leads — it's about creating demand that",
+      "vibe": "Demand generation is not a lead count; it is a repeatable path from a real problem to a qualified buying conversation.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "demand",
-        "generation",
-        "Built",
-        "programs"
+        "demand-gen",
+        "b2b",
+        "pipeline",
+        "revenue"
       ],
       "keywords": [
-        "需求生成",
-        "Demand",
-        "Gen",
-        "经理",
-        "B2B需求生成与线索孵化专家，覆盖多渠道获客策略"
+        "demand generation",
+        "B2B pipeline",
+        "ICP",
+        "MQL SQL",
+        "lead scoring",
+        "nurture",
+        "ABM",
+        "pipeline attribution"
       ]
     },
     {
@@ -1161,21 +1164,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Half the marketing budget is wasted — you just don't know which half. Your job",
+      "vibe": "A CMO is not the person with the loudest campaign; it is the person who can explain which marketing dollar creates enterprise value, which one merely creates activity, and what the team will stop doing next quarter.",
       "lifecycle": "published",
       "tags": [
         "marketing",
         "leadership",
-        "across",
-        "built",
-        "brands"
+        "brand-strategy",
+        "growth",
+        "marketing-ops"
       ],
       "keywords": [
         "市场营销总监",
         "CMO",
-        "市场营销最高负责人，覆盖品牌",
-        "增长",
-        "内容"
+        "品牌战略",
+        "增长营销",
+        "营销预算"
       ]
     },
     {
@@ -1202,11 +1205,7 @@
       "vibe": "Masters the Douyin algorithm so your short videos actually get seen.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "抖音运营策略师",
@@ -1241,12 +1240,10 @@
         "marketing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "邮件营销专家",
-        "邮件营销与自动化专家，覆盖EDM策略",
         "邮件序列设计",
         "B测试",
         "送达率优化"
@@ -1284,7 +1281,6 @@
       ],
       "keywords": [
         "邮件营销策略师",
-        "CRM驱动的邮件营销专家，覆盖生命周期自动化",
         "分群架构与送达率优化",
         "Role",
         "Personality"
@@ -1331,7 +1327,7 @@
     {
       "id": "marketing-engineering-seo-technical",
       "name": "技术SEO/搜索引擎工程师",
-      "description": "技术SEO与搜索引擎优化工程专家，覆盖网站架构/爬虫优化(Crawl Budget)、Core Web Vitals/Page Experience、结构化数据(Schema.org/JSON-LD)、JavaScript",
+      "description": "技术 SEO 与搜索工程专家：抓取与索引、JavaScript 渲染、站点架构、Core Web Vitals、结构化数据、国际化与迁移",
       "emoji": "🔍",
       "category": "marketing",
       "subcategory": "",
@@ -1348,21 +1344,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Search engines are the front door to the internet — you make sure they can find,",
+      "vibe": "Search engines cannot rank what they cannot crawl, render, or trust. Fix the plumbing before arguing about the copy.",
       "lifecycle": "published",
       "tags": [
         "marketing",
+        "seo",
         "technical",
-        "Optimized",
-        "sites",
-        "ranking"
+        "web-performance",
+        "search"
       ],
       "keywords": [
-        "技术SEO",
-        "搜索引擎工程师",
-        "技术SEO与搜索引擎优化工程专家，覆盖网站架构",
-        "爬虫优化",
-        "Crawl"
+        "technical SEO",
+        "crawl budget",
+        "indexation",
+        "Core Web Vitals",
+        "structured data",
+        "JavaScript SEO",
+        "hreflang",
+        "site migration"
       ]
     },
     {
@@ -1389,7 +1388,6 @@
       ],
       "keywords": [
         "欧洲市场专家",
-        "欧洲市场营销与合规专家，覆盖GDPR",
         "ePrivacy数据合规",
         "多国多语言本地化",
         "本地支付"
@@ -1414,15 +1412,10 @@
       "vibe": "On the feed, you have 1.5 seconds before they scroll past. The difference between ¥0.30 and ¥3.00 CPA isn't the budget — it's the creative hook in frame one, the audience segment, and the bid strategy working together.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "信息流广告优化师",
-        "信息流广告投放与优化专家，覆盖巨量引擎",
         "抖音",
         "头条",
         "穿山甲"
@@ -1528,8 +1521,7 @@
         "marketing",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "全球播客策略师",
@@ -1558,12 +1550,10 @@
         "marketing",
         "Deliverable",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "海外推广经理",
-        "海外用户增长与广告投放专家，覆盖Google",
         "Ads",
         "搜索",
         "购物"
@@ -1572,7 +1562,7 @@
     {
       "id": "marketing-growth-hacker",
       "name": "增长黑客",
-      "description": "快速用户获取、病毒循环与实验驱动增长专家",
+      "description": "实验驱动增长专家：增长模型与漏斗、激活与留存、病毒循环、渠道实验、增量测量与单位经济",
       "emoji": "🚀",
       "category": "marketing",
       "subcategory": "",
@@ -1588,27 +1578,30 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Finds the growth channel nobody's exploited yet — then scales it.",
+      "vibe": "Growth is not a hack; it is a loop that compounds. Find the loop, prove the lift, then turn the dial.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "Definition",
-        "Capabilities",
-        "Specialized",
-        "Skills"
+        "growth",
+        "experimentation",
+        "analytics",
+        "product-led"
       ],
       "keywords": [
-        "增长黑客",
-        "快速用户获取",
-        "病毒循环与实验驱动增长专家",
-        "Role",
-        "Memory"
+        "growth hacking",
+        "experimentation",
+        "activation",
+        "retention",
+        "viral loop",
+        "CAC payback",
+        "incrementality",
+        "A/B testing"
       ]
     },
     {
       "id": "marketing-inbound-strategist",
       "name": "SEO/内容/集客营销(Inbound)经理",
-      "description": "搜索引擎优化与集客营销增长专家，覆盖内容SEO/技术SEO/外链建设、博客/白皮书/案例等集客内容、营销自动化线索孵化与Organic渠道ROI",
+      "description": "搜索引擎优化与集客营销增长专家，覆盖技术SEO/内容SEO/外链与数字PR、主题集群与编辑内容、AI搜索可见性(AEO/GEO)、内容转化与Organic渠道ROI",
       "emoji": "🧲",
       "category": "marketing",
       "subcategory": "",
@@ -1627,21 +1620,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Don't chase customers — attract them. You build the content and SEO engine that",
+      "vibe": "Organic growth is not a traffic trick. It is the compounding result of being the most useful, crawlable, and trustworthy answer to a question someone actually asks.",
       "lifecycle": "published",
       "tags": [
         "marketing",
         "inbound",
-        "Built",
-        "organic",
-        "channels"
+        "seo",
+        "content-strategy",
+        "organic-growth"
       ],
       "keywords": [
         "SEO",
-        "内容",
+        "内容营销",
         "集客营销",
-        "Inbound",
-        "经理"
+        "技术SEO",
+        "主题集群",
+        "AI搜索",
+        "自然流量"
       ]
     },
     {
@@ -1674,7 +1669,6 @@
       ],
       "keywords": [
         "印度市场专家",
-        "印度市场营销策略专家，覆盖多语言",
         "多邦策略",
         "WhatsApp",
         "ShareChat"
@@ -1711,7 +1705,6 @@
       "keywords": [
         "网红",
         "KOL营销专家",
-        "网红与KOL营销策略专家，覆盖达人筛选",
         "数据评估",
         "Brief撰写"
       ]
@@ -1740,11 +1733,7 @@
       "vibe": "Masters the grid aesthetic and turns scrollers into an engaged community.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "Instagram",
@@ -1778,9 +1767,7 @@
       "tags": [
         "marketing",
         "Technical",
-        "Process",
-        "Methodology",
-        "Decision"
+        "Process"
       ],
       "keywords": [
         "日本市场专家",
@@ -1892,8 +1879,7 @@
         "marketing",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "领英内容创作者",
@@ -1941,7 +1927,7 @@
     {
       "id": "marketing-market-research",
       "name": "市场研究员",
-      "description": "市场研究与消费者洞察专家，覆盖定量/定性研究方法、问卷设计/抽样、焦点小组/深度访谈、联合分析(Conjoint)与市场细分/品牌追踪",
+      "description": "市场研究与消费者洞察专家，覆盖定量/定性研究方法、问卷设计与抽样、焦点小组/深度访谈、联合分析(Conjoint)、市场细分与品牌追踪",
       "emoji": "📊",
       "category": "marketing",
       "subcategory": "",
@@ -1959,21 +1945,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Gut instinct launches products; research validates them. You replace \"I think",
+      "vibe": "Research is not a fact factory. It is a disciplined way to reduce the cost of being wrong about a market, a price, or a customer.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "market",
-        "research",
-        "Conducted",
-        "studies"
+        "market-research",
+        "consumer-insights",
+        "segmentation",
+        "pricing"
       ],
       "keywords": [
-        "市场研究员",
-        "市场研究与消费者洞察专家，覆盖定量",
-        "定性研究方法",
-        "问卷设计",
-        "抽样"
+        "市场研究",
+        "消费者洞察",
+        "定量研究",
+        "定性研究",
+        "联合分析",
+        "市场细分",
+        "品牌追踪"
       ]
     },
     {
@@ -2038,12 +2026,10 @@
         "marketing",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "多平台发布专家",
-        "中文内容一键分发专家，通过Wechatsync将文章路由至知乎",
         "小红书",
         "CSDN",
         "B站"
@@ -2073,7 +2059,6 @@
       "tags": [
         "marketing",
         "Retention",
-        "Framework",
         "Collaboration",
         "Protocol"
       ],
@@ -2087,7 +2072,7 @@
     {
       "id": "marketing-paid-media-auditor",
       "name": "付费媒体审计师",
-      "description": "200+ 维度账户审计与竞争对手分析专家",
+      "description": "独立付费媒体审计专家，覆盖200+检查点、P0-P3发现分级、追踪与隐私、预算浪费、政策合规与可复现证据",
       "emoji": "📋",
       "category": "marketing",
       "subcategory": "",
@@ -2103,27 +2088,31 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Finds the waste in your ad spend before your CFO does.",
+      "vibe": "An audit is not an opinion about what I would do — it is reproducible evidence that something is broken, expensive, or unproven.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "Definition",
-        "Capabilities",
-        "Specialized",
-        "Skills"
+        "paid-media",
+        "audit",
+        "measurement",
+        "compliance",
+        "waste-reduction"
       ],
       "keywords": [
-        "付费媒体审计师",
-        "200+",
-        "维度账户审计与竞争对手分析专家",
-        "Role",
-        "Memory"
+        "付费媒体审计",
+        "广告账户审计",
+        "P0-P3",
+        "追踪审计",
+        "预算浪费",
+        "广告政策",
+        "竞争对手分析",
+        "可复现证据"
       ]
     },
     {
       "id": "marketing-paid-media-creative-strategist",
       "name": "广告创意策略师",
-      "description": "RSA 文案、Meta 创意与 PMax 素材专家",
+      "description": "效果广告创意策略专家，覆盖RSA文案架构、PMax素材组、Meta/TikTok/YouTube钩子、创意测试与声明合规",
       "emoji": "🎨",
       "category": "marketing",
       "subcategory": "",
@@ -2140,21 +2129,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Turns ad creative from guesswork into a repeatable science.",
+      "vibe": "When the algorithm owns the bid, the creative is the only lever you truly control — write every asset as a testable hypothesis.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "Definition",
-        "Capabilities",
-        "Specialized",
-        "Skills"
+        "paid-media",
+        "creative-strategy",
+        "copywriting",
+        "creative-testing",
+        "ad-policy"
       ],
       "keywords": [
-        "广告创意策略师",
-        "RSA",
-        "文案",
-        "Meta",
-        "创意与"
+        "效果广告创意",
+        "RSA文案",
+        "PMax素材",
+        "Meta创意",
+        "TikTok钩子",
+        "YouTube广告",
+        "创意测试",
+        "广告声明合规"
       ]
     },
     {
@@ -2196,7 +2189,7 @@
     {
       "id": "marketing-paid-media-ppc-strategist",
       "name": "竞价广告策略师",
-      "description": "Google/Microsoft/Amazon 广告、账户结构与出价专家",
+      "description": "Google/Microsoft/Amazon 付费搜索与购物广告策略专家，覆盖账户架构、预算与出价、PMax/Shopping、增量测量",
       "emoji": "💸",
       "category": "marketing",
       "subcategory": "",
@@ -2213,21 +2206,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Architects PPC campaigns that scale from $10K to $10M+ monthly.",
+      "vibe": "Paid search is an auction with a P&L attached — structure the account so every marginal dollar has a measurable job.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "Definition",
-        "Capabilities",
-        "Specialized",
-        "Skills"
+        "paid-search",
+        "ppc",
+        "performance-marketing",
+        "bidding",
+        "measurement"
       ],
       "keywords": [
-        "竞价广告策略师",
-        "Google",
-        "Microsoft",
-        "Amazon",
-        "广告"
+        "竞价广告",
+        "PPC",
+        "Google Ads",
+        "Microsoft Advertising",
+        "Amazon Ads",
+        "Performance Max",
+        "Smart Bidding",
+        "预算分配",
+        "增量测量"
       ]
     },
     {
@@ -2269,7 +2267,7 @@
     {
       "id": "marketing-paid-media-search-query-analyst",
       "name": "搜索词分析师",
-      "description": "搜索词分析、否定关键词与意图映射专家",
+      "description": "搜索词与查询意图分析专家，覆盖n-gram挖掘、否定关键词架构、查询雕琢、PMax查询洞察与浪费支出治理",
       "emoji": "🔎",
       "category": "marketing",
       "subcategory": "",
@@ -2284,21 +2282,25 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Mines search queries to find the gold your competitors are missing.",
+      "vibe": "Every query is a user telling you what they meant — your job is to stop paying for the ones who meant something else.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "Definition",
-        "Capabilities",
-        "Specialized",
-        "Skills"
+        "paid-search",
+        "search-queries",
+        "negative-keywords",
+        "intent-analysis",
+        "waste-reduction"
       ],
       "keywords": [
-        "搜索词分析师",
         "搜索词分析",
-        "否定关键词与意图映射专家",
-        "Role",
-        "Memory"
+        "否定关键词",
+        "查询意图",
+        "n-gram分析",
+        "查询雕琢",
+        "搜索词报告",
+        "PMax查询洞察",
+        "浪费支出"
       ]
     },
     {
@@ -2367,7 +2369,6 @@
       "keywords": [
         "效果广告数据分析师",
         "效果广告数据分析专家",
-        "覆盖多平台数据整合",
         "巨量",
         "腾讯"
       ]
@@ -2432,11 +2433,7 @@
       "vibe": "Reputation is built in years and lost in minutes. Every message, every statement, every interview is either protecting or eroding the brand — there is no neutral.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "公关与传播经理",
@@ -2568,27 +2565,29 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The retailer's website is the new ad platform. Product listings become ad inventory,",
+      "vibe": "The retailer's search bar is the highest-intent media on the internet. My job is to win that moment at a profit, not to rent the top of the page at any price.",
       "lifecycle": "published",
       "tags": [
         "marketing",
-        "retail",
-        "media",
-        "Managed",
-        "spend"
+        "retail-media",
+        "ecommerce",
+        "amazon-ads",
+        "performance-marketing"
       ],
       "keywords": [
         "零售媒体",
-        "电商广告专家",
-        "零售媒体网络",
-        "Retail",
-        "Media"
+        "电商广告",
+        "Amazon Ads",
+        "Walmart Connect",
+        "Sponsored Products",
+        "DSP",
+        "ROAS"
       ]
     },
     {
       "id": "marketing-sales-enablement",
       "name": "销售赋能(Sales Enablement)经理",
-      "description": "B2B销售赋能与销售内容管理专家，覆盖销售培训/认证体系、销售话术/Playbook/竞争对比(Battlecard)、销售内容库/CRM内容集成与新员工Onboarding",
+      "description": "B2B销售赋能与销售内容管理专家，覆盖销售培训/认证体系、销售话术/Playbook/竞争对比(Battlecard)、销售内容库与CRM内容集成、新员工Onboarding与销售经理教练体系",
       "emoji": "🎯",
       "category": "marketing",
       "subcategory": "",
@@ -2605,21 +2604,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Great salespeople aren't born — they're trained, equipped, and enabled. You",
+      "vibe": "Enablement is not a library of slides. It is the shortest path between what the best sellers do and what every seller can reliably do in front of a customer.",
       "lifecycle": "published",
       "tags": [
         "marketing",
         "sales",
         "enablement",
-        "Built",
-        "programs"
+        "sales-content",
+        "coaching"
       ],
       "keywords": [
         "销售赋能",
-        "Sales",
-        "Enablement",
-        "经理",
-        "B2B销售赋能与销售内容管理专家，覆盖销售培训"
+        "销售培训",
+        "销售Playbook",
+        "Battlecard",
+        "销售内容",
+        "新员工培训",
+        "销售教练"
       ]
     },
     {
@@ -2721,8 +2722,7 @@
         "marketing",
         "Process",
         "Success",
-        "Metrics",
-        "Methodology"
+        "Metrics"
       ],
       "keywords": [
         "短视频剪辑教练",
@@ -2735,7 +2735,7 @@
     {
       "id": "marketing-sms-push-notifications",
       "name": "推送/短信/应用内消息专家",
-      "description": "移动推送与消息触达策略专家，覆盖App Push/短信/微信模板消息/应用内消息、用户分群/触发策略、A/B消息测试与送达率优化",
+      "description": "移动推送、SMS 与站内消息策略专家：同意与合规、分群触发、发送时机、频次控制、送达率与增量测量",
       "emoji": "📲",
       "category": "marketing",
       "subcategory": "",
@@ -2752,21 +2752,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The notification that annoys gets muted; the notification that helps gets tapped.",
+      "vibe": "The notification that annoys gets muted; the notification that helps gets tapped. Earn the second one.",
       "lifecycle": "published",
       "tags": [
         "marketing",
         "mobile",
         "messaging",
         "engagement",
-        "Sent"
+        "lifecycle"
       ],
       "keywords": [
-        "推送",
-        "短信",
-        "应用内消息专家",
-        "移动推送与消息触达策略专家，覆盖App",
-        "Push"
+        "push notifications",
+        "SMS marketing",
+        "in-app messaging",
+        "TCPA consent",
+        "10DLC",
+        "deliverability",
+        "quiet hours",
+        "notification fatigue"
       ]
     },
     {
@@ -2831,11 +2834,7 @@
       "vibe": "Navigates Southeast Asia's fragmented yet hyper-growth digital economy across six distinct markets, orchestrating super-app ecosystems, social commerce, and cross-border logistics.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "东南亚市场专家",
@@ -2869,11 +2868,7 @@
       "vibe": "Rides the algorithm and builds community through authentic TikTok culture.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "TikTok",
@@ -2951,7 +2946,6 @@
       ],
       "keywords": [
         "视频优化专家",
-        "视频营销策略师，专注",
         "YouTube",
         "算法优化",
         "观众留存"
@@ -2974,11 +2968,7 @@
       "vibe": "Grows loyal WeChat subscriber communities through consistent value delivery.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "微信公众号运营专家",
@@ -3012,11 +3002,7 @@
       "vibe": "Makes your brand trend on Weibo and keeps the conversation going.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "微博运营策略师",
@@ -3076,11 +3062,7 @@
       "vibe": "Masters lifestyle content and aesthetic storytelling on 小红书.",
       "lifecycle": "published",
       "tags": [
-        "marketing",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "marketing"
       ],
       "keywords": [
         "小红书运营专家",

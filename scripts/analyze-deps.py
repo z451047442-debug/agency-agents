@@ -21,6 +21,7 @@ import re
 import sys
 from collections import defaultdict
 
+import yaml
 from _shared import (
     BOLD,
     CYAN,
@@ -842,7 +843,11 @@ def main():
             if not cross_deps:
                 continue
 
-            content = filepath.read_text(encoding="utf-8")
+            try:
+                content = filepath.read_text(encoding="utf-8")
+            except (UnicodeDecodeError, OSError) as exc:
+                print(f"  {RED}skip {agent_id}: cannot read ({exc}){RESET}")
+                continue
             fm = get_frontmatter_text(content)
             existing = set(get_list_field("depends_on", fm))
             new_deps = [tid for tid, _ in cross_deps if tid not in existing]
@@ -853,40 +858,54 @@ def main():
             new_deps = new_deps[:3]
             all_updated = sorted(existing | set(new_deps))
 
-            # Rebuild depends_on block at YAML root level
+            # Rebuild depends_on as a block list.
             dep_lines = ["depends_on:"]
             for dep in all_updated:
                 dep_lines.append(f"  - {dep}")
 
-            # Replace or insert depends_on in frontmatter
+            # Replace the complete depends_on block (block or flow style).
             fm_lines = fm.split("\n")
-            new_fm_lines = []
-            in_deps = False
-            deps_written = False
-            for line in fm_lines:
-                stripped = line.strip()
-                if stripped.startswith("depends_on:"):
-                    in_deps = True
-                    if not deps_written:
-                        new_fm_lines.extend(dep_lines)
-                        deps_written = True
-                    continue
-                if in_deps and re.match(r"^\s+- ", line):
-                    continue
-                if in_deps and not re.match(r"^\s+- ", line):
-                    in_deps = False
-                new_fm_lines.append(line)
+            start = next(
+                (i for i, line in enumerate(fm_lines)
+                 if re.match(r"^depends_on\s*:", line)),
+                None,
+            )
+            if start is None:
+                fm_lines.extend(dep_lines)
+            else:
+                end = start + 1
+                while end < len(fm_lines):
+                    line = fm_lines[end]
+                    if (line.strip() == ""
+                            or line.lstrip().startswith("#")
+                            or line[:1].isspace()):
+                        end += 1
+                        continue
+                    break
+                fm_lines[start:end] = dep_lines
 
-            if not deps_written:
-                # Insert before closing --- of frontmatter
-                new_fm_lines.extend(dep_lines)
+            new_fm = "\n".join(fm_lines)
+            try:
+                parsed = yaml.safe_load(new_fm)
+                if not isinstance(parsed, dict):
+                    raise ValueError("frontmatter is not a mapping")
+            except Exception as exc:
+                print(f"  {RED}skip {agent_id}: invalid YAML after edit ({exc}){RESET}")
+                continue
 
-            new_fm = "\n".join(new_fm_lines)
             body = get_body(content)
             new_content = f"---\n{new_fm}\n---{body}"
             tmp_path = filepath.with_suffix(filepath.suffix + ".tmp")
-            tmp_path.write_text(new_content, encoding="utf-8", newline="\n")
-            tmp_path.replace(filepath)
+            try:
+                tmp_path.write_text(new_content, encoding="utf-8", newline="\n")
+                tmp_path.replace(filepath)
+            except OSError as exc:
+                print(f"  {RED}skip {agent_id}: write failed ({exc}){RESET}")
+                try:
+                    tmp_path.unlink()
+                except OSError:
+                    pass
+                continue
             applied += 1
             print(f"  {GREEN}+{len(new_deps)}{RESET} cross-category deps added to {agent_id} "
                   f"({', '.join(new_deps[:2])}{'...' if len(new_deps) > 2 else ''})")

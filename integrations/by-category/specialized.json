@@ -1,7 +1,7 @@
 {
   "category": "specialized",
   "agent_count": 26,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "specialized-agentic-identity-trust",
@@ -76,7 +76,6 @@
       ],
       "keywords": [
         "商业策略师",
-        "管理咨询与商业策略专家，覆盖竞争分析",
         "市场进入策略",
         "增长规划与战略决策",
         "Business"
@@ -122,7 +121,7 @@
     },
     {
       "id": "specialized-chief-financial-officer",
-      "name": "首席财务官(CFO)",
+      "name": "战略财务高管",
       "description": "管理资本配置、资金运营、财务规划、并购与投资者关系的战略财务高管",
       "emoji": "💼",
       "category": "specialized",
@@ -182,7 +181,6 @@
         "specialized",
         "Process",
         "Technical",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -236,7 +234,7 @@
     },
     {
       "id": "specialized-data-privacy-officer",
-      "name": "数据保护官(DPO)",
+      "name": "企业隐私合规专家",
       "description": "构建GDPR、CCPA与全球隐私合规项目的企业数据隐私专家",
       "emoji": "🔐",
       "category": "specialized",
@@ -276,7 +274,7 @@
     {
       "id": "specialized-document-generator",
       "name": "文档生成专家",
-      "description": "PDF/PPTX/DOCX/XLSX 代码生成与专业文档创建专家",
+      "description": "PDF/PPTX/DOCX/XLSX 程序化文档生成专家：ReportLab/WeasyPrint/python-pptx/python-docx/openpyxl，PDF/A、Tagged PDF 与无障碍合规",
       "emoji": "📄",
       "category": "specialized",
       "subcategory": "",
@@ -292,21 +290,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Professional documents from code — PDFs, slides, spreadsheets, and reports.",
+      "vibe": "A generated document is a contract with its reader — every glyph, tag, and cell must survive the trip from data to print, screen, and archive.",
       "lifecycle": "published",
       "tags": [
         "specialized",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "document-generation",
+        "pdf-accessibility",
+        "reporting",
+        "office-automation"
       ],
       "keywords": [
-        "文档生成专家",
-        "PDF",
-        "PPTX",
-        "DOCX",
-        "XLSX"
+        "文档生成",
+        "PDF/A",
+        "PDF/UA",
+        "Tagged PDF",
+        "ReportLab",
+        "WeasyPrint",
+        "python-pptx",
+        "python-docx",
+        "openpyxl",
+        "WCAG 2.2"
       ]
     },
     {
@@ -386,7 +389,6 @@
       ],
       "keywords": [
         "拨款撰写人",
-        "非营利与科研机构的专家级拨款撰写人，覆盖资助前景研究",
         "提案撰写与预算叙事",
         "Grant",
         "Writer"
@@ -417,17 +419,16 @@
       "lifecycle": "published",
       "tags": [
         "specialized",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "behavior-change",
+        "coaching",
+        "productivity"
       ],
       "keywords": [
-        "习惯养成与行为设计专家",
-        "习惯形成科学",
-        "行为心理学",
-        "神经科学",
-        "行为设计"
+        "habit formation",
+        "behavior design",
+        "COM-B",
+        "implementation intentions",
+        "tiny habits"
       ]
     },
     {
@@ -458,8 +459,7 @@
         "specialized",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "身份图谱运营专家",
@@ -494,9 +494,7 @@
       "tags": [
         "specialized",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "人生教练",
@@ -535,12 +533,10 @@
         "specialized",
         "Competencies",
         "Integration",
-        "Strategy",
-        "Framework"
+        "Strategy"
       ],
       "keywords": [
         "并购整合经理",
-        "设计与执行并购后整合方案的专家，覆盖Day",
         "1准备",
         "百日计划与协同效应追踪",
         "Role"
@@ -572,8 +568,7 @@
         "specialized",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "医疗计费与编码专家",
@@ -586,7 +581,7 @@
     {
       "id": "specialized-multi-agent-director",
       "name": "多智能体总监",
-      "description": "Multi-Agent Director — multi-agent system orchestration specialist",
+      "description": "Multi-Agent Director — turns strategy into execution: runs agent work streams, tracks health and KPIs, clears cross-team blockers, and enforces quality gates.",
       "emoji": "🎯",
       "category": "specialized",
       "subcategory": "",
@@ -626,7 +621,7 @@
     {
       "id": "specialized-multi-agent-president",
       "name": "多智能体总裁",
-      "description": "Multi-Agent President — multi-agent system orchestration specialist",
+      "description": "Multi-Agent President — sets organization-wide mission, portfolio priorities, resource allocation, and executive governance across all agent teams.",
       "emoji": "🏛",
       "category": "specialized",
       "subcategory": "",
@@ -731,8 +726,7 @@
         "specialized",
         "Competencies",
         "Process",
-        "Mapping",
-        "Framework"
+        "Mapping"
       ],
       "keywords": [
         "运营经理",
@@ -770,8 +764,7 @@
         "specialized",
         "Competencies",
         "Psychological",
-        "Safety",
-        "Framework"
+        "Safety"
       ],
       "keywords": [
         "组织心理学家",
@@ -811,7 +804,6 @@
       ],
       "keywords": [
         "个人成长导师",
-        "跨领域个人发展导师，覆盖目标清晰度",
         "习惯设计",
         "战略决策与问责",
         "Role"
@@ -881,17 +873,16 @@
       "lifecycle": "published",
       "tags": [
         "specialized",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "productivity",
+        "focus",
+        "knowledge-work"
       ],
       "keywords": [
-        "时间管理与生产力专家",
-        "个人生产力系统",
+        "time management",
         "GTD",
-        "番茄工作法",
-        "时间块"
+        "time blocking",
+        "deep work",
+        "attention management"
       ]
     },
     {
@@ -921,8 +912,7 @@
         "specialized",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "策略对决Agent",
@@ -958,9 +948,7 @@
       "tags": [
         "specialized",
         "brain",
-        "dart",
-        "Methodology",
-        "Decision"
+        "dart"
       ],
       "keywords": [
         "工作流架构师",

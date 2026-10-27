@@ -1,7 +1,7 @@
 {
   "category": "construction",
   "agent_count": 43,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "construction-architectural-designer",
@@ -16,9 +16,7 @@
         "construction-engineering-construction-materials",
         "construction-engineering-noise-control",
         "energy-engineering-wind-energy",
-        "healthcare-engineering-regulatory-science",
-        "infrastructure-identity-access",
-        "legal-engineering-legal-document-automation"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -31,12 +29,10 @@
         "construction",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "建筑设计师",
-        "建筑设计与空间规划专家，覆盖概念设计",
         "方案深化",
         "建筑规范",
         "可持续设计与BIM协同"
@@ -45,16 +41,14 @@
     {
       "id": "construction-bim-engineer",
       "name": "BIM工程师",
-      "description": "BIM(建筑信息模型)与数字建造专家，覆盖Revit建模、碰撞检测、4D/5D模拟、点云扫描与数字化交付",
+      "description": "Building information modelling specialist covering ISO 19650 information management, federated model coordination, IFC/IDS/COBie exchange, clash triage and digital handover",
       "emoji": "🧬",
       "category": "construction",
       "subcategory": "",
       "path": "construction/construction-bim-engineer.md",
       "depends_on": [
         "construction-engineering-noise-control",
-        "cybersecurity-engineering-cyber-risk-model",
         "energy-engineering-grid-scale-storage",
-        "finance-engineering-credit-risk-model",
         "specialized-document-generator"
       ],
       "nexus_roles": [
@@ -62,27 +56,32 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Before a single brick is laid, you've already built the entire building — virtually, perfectly, down to the last bolt",
+      "vibe": "A model is not a drawing — it is a managed set of information whose value depends on who needs which element, at what detail, and by when",
       "lifecycle": "published",
       "tags": [
         "construction",
-        "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "bim",
+        "digital-construction",
+        "information-management",
+        "coordination"
       ],
       "keywords": [
-        "BIM工程师",
-        "BIM",
-        "建筑信息模型",
-        "与数字建造专家，覆盖Revit建模",
-        "碰撞检测"
+        "building information modelling",
+        "ISO 19650",
+        "common data environment",
+        "IFC",
+        "COBie",
+        "clash detection",
+        "model federation",
+        "LOD and LOIN",
+        "digital twin",
+        "information delivery"
       ]
     },
     {
       "id": "construction-cost-estimator",
       "name": "工程造价师",
-      "description": "工程造价与成本顾问专家，覆盖工料测量、造价估算、招标管理、合同管理与工程结算审计",
+      "description": "Cost planning and quantity surveying specialist covering AACE-class estimates, BoQ measurement, tender evaluation, contract administration and final-account audit",
       "emoji": "📐",
       "category": "construction",
       "subcategory": "",
@@ -91,30 +90,33 @@
         "construction-engineering-construction-claims",
         "data-science-engineering-computer-vision-deep",
         "data-science-engineering-insurance-claims-analytics",
-        "finance-engineering-risk-quant",
-        "infrastructure-identity-access",
-        "marketing-abm-account-based"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every nail, every beam, every hour of labor — you know what it costs before the first shovel hits the ground",
+      "vibe": "A cost estimate is a forecast with a stated accuracy, not a price — the number must survive the tender, the variations, and the final account",
       "lifecycle": "published",
       "tags": [
         "construction",
-        "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "cost-estimating",
+        "quantity-surveying",
+        "contracts",
+        "commercial"
       ],
       "keywords": [
-        "工程造价师",
-        "工程造价与成本顾问专家，覆盖工料测量",
-        "造价估算",
-        "招标管理",
-        "合同管理与工程结算审计"
+        "quantity surveying",
+        "cost planning",
+        "AACE estimate classification",
+        "bill of quantities",
+        "NRM2",
+        "CESMM4",
+        "tender evaluation",
+        "final account",
+        "value engineering",
+        "Monte Carlo contingency"
       ]
     },
     {
@@ -129,8 +131,6 @@
         "construction-general-manager",
         "data-science-engineering-knowledge-management",
         "hr-tech-people-analytics",
-        "legal-billing-time-tracking",
-        "legal-document-review",
         "specialized-multi-agent-director",
         "specialized-multi-agent-president",
         "specialized-multi-agent-project-manager"
@@ -153,7 +153,6 @@
       ],
       "keywords": [
         "建筑总监",
-        "建筑领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -184,12 +183,10 @@
         "construction",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "建筑电气工程师",
-        "建筑电气系统设计与施工专家，覆盖变配电",
         "高低压",
         "照明",
         "应急照明"
@@ -206,8 +203,7 @@
       "depends_on": [
         "construction-engineering-noise-control",
         "engineering-git-workflow-master",
-        "government-public-safety-analyst",
-        "marketing-paid-media-tracking-specialist"
+        "government-public-safety-analyst"
       ],
       "nexus_roles": [
         "phase-0-discovery",
@@ -227,7 +223,6 @@
       "keywords": [
         "建筑声学",
         "室内声学顾问",
-        "建筑声学与室内声学设计顾问，覆盖音乐厅",
         "剧院",
         "录音棚"
       ]
@@ -242,10 +237,7 @@
       "path": "construction/construction-engineering-acoustics-specialist.md",
       "depends_on": [
         "construction-engineering-noise-control",
-        "cybersecurity-engineering-cyber-risk-model",
         "engineering-git-workflow-master",
-        "finance-engineering-credit-risk-model",
-        "marketing-paid-media-tracking-specialist",
         "media-entertainment-engineering-audio-dsp-signal"
       ],
       "nexus_roles": [
@@ -267,8 +259,7 @@
         "声学",
         "降噪工程师",
         "声学工程与主动降噪",
-        "ANC",
-        "专家，覆盖建筑"
+        "ANC"
       ]
     },
     {
@@ -282,7 +273,6 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety"
       ],
       "nexus_roles": [
@@ -302,7 +292,6 @@
       "keywords": [
         "桥梁工程",
         "桥梁健康监测工程师",
-        "大跨度桥梁设计与结构健康监测专家，覆盖悬索桥",
         "斜拉桥",
         "拱桥"
       ]
@@ -318,10 +307,8 @@
       "depends_on": [
         "construction-architectural-designer",
         "construction-multi-agent-coordinator",
-        "cybersecurity-engineering-threat-detection-engineer",
         "engineering-embedded-database",
         "environmental-circular-economy-design",
-        "testing-test-results-analyzer",
         "thinking-models-decision-frameworks"
       ],
       "nexus_roles": [
@@ -342,7 +329,6 @@
       ],
       "keywords": [
         "土木工程师",
-        "全球标准覆盖的土木结构工程专家",
         "Eurocode",
         "DIN",
         "ACI"
@@ -358,10 +344,7 @@
       "path": "construction/construction-engineering-construction-claims.md",
       "depends_on": [
         "construction-architectural-designer",
-        "engineering-git-workflow-master",
-        "finance-engineering-risk-quant",
-        "marketing-paid-media-tracking-specialist",
-        "testing-engineering-test-automation-framework"
+        "engineering-git-workflow-master"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -373,16 +356,17 @@
       "tags": [
         "construction",
         "claims",
-        "Analyzed",
-        "resolved",
-        "disputes"
+        "delay-analysis",
+        "quantum",
+        "dispute-resolution"
       ],
       "keywords": [
         "工程索赔",
+        "工期延误分析",
+        "时间影响分析",
+        "量子计算",
         "争议解决",
-        "量子",
-        "工期",
-        "顾问"
+        "专家证人"
       ]
     },
     {
@@ -397,8 +381,6 @@
         "construction-architectural-designer",
         "engineering-code-reviewer",
         "engineering-git-workflow-master",
-        "legal-engineering-legal-document-automation",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety",
         "robotics-motion-control"
       ],
@@ -412,22 +394,24 @@
       "tags": [
         "construction",
         "materials",
-        "Designed",
         "concrete",
-        "mixes"
+        "mix-design",
+        "durability",
+        "ndt"
       ],
       "keywords": [
         "土木工程材料",
-        "混凝土专家",
-        "水泥混凝土与工程材料专家，覆盖高性能混凝土",
-        "HPC",
-        "UHPC"
+        "高性能混凝土",
+        "超高性能混凝土",
+        "配合比设计",
+        "耐久性",
+        "无损检测"
       ]
     },
     {
       "id": "construction-engineering-cultural-heritage-digitization",
       "name": "文化遗产数字化/数字人文(DH)专家",
-      "description": "文化遗产3D数字化与数字人文技术专家，覆盖激光扫描/摄影测量/RTI(Reflectance Transformation Imaging)、3D建模/虚拟修复/VR/AR文化遗产、文化遗产元数据(CIDOC-CRM)/数字档案与数字孪生/预防性保护",
+      "description": "文化遗产3D数字化与数字人文专家，聚焦激光扫描/摄影测量/RTI高保真采集、点云处理与虚拟修复、CIDOC-CRM元数据、IIIF/OAIS长期保存及VR/AR数字孪生",
       "emoji": "🏛️",
       "category": "construction",
       "subcategory": "",
@@ -437,7 +421,6 @@
         "energy-engineering-carbon-capture-storage",
         "engineering-git-workflow-master",
         "infrastructure-identity-access",
-        "marketing-paid-media-tracking-specialist",
         "tourism-cultural-heritage"
       ],
       "nexus_roles": [
@@ -451,21 +434,22 @@
         "construction",
         "heritage",
         "digitization",
-        "3D-documented",
-        "World"
+        "3d-capture",
+        "digital-preservation"
       ],
       "keywords": [
         "文化遗产数字化",
-        "数字人文",
-        "DH",
-        "专家",
-        "文化遗产3D数字化与数字人文技术专家，覆盖激光扫描"
+        "三维采集",
+        "摄影测量",
+        "RTI",
+        "CIDOC-CRM",
+        "数字孪生"
       ]
     },
     {
       "id": "construction-engineering-dam-engineering",
       "name": "大坝工程/水工结构工程师",
-      "description": "混凝土坝/土石坝设计与安全监测专家，覆盖拱坝/重力坝/面板堆石坝(CFRD)结构设计、坝基/坝肩/库岸边坡稳定性、大坝安全监测(变形/渗流/应力)与溃坝洪水/风险分析",
+      "description": "混凝土坝、土石坝与面板堆石坝(CFRD)设计及安全评估专家，覆盖坝基/坝肩稳定、渗流与内部侵蚀控制、安全监测和溃坝洪水风险分析",
       "emoji": "🏗️",
       "category": "construction",
       "subcategory": "",
@@ -474,8 +458,7 @@
         "construction-architectural-designer",
         "engineering-git-workflow-master",
         "environmental-water-treatment",
-        "logistics-engineering-supply-chain-risk",
-        "marketing-paid-media-tracking-specialist"
+        "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -486,17 +469,22 @@
       "lifecycle": "published",
       "tags": [
         "construction",
-        "engineering",
-        "Designed",
-        "assessed",
-        "dams"
+        "dams",
+        "hydraulic-structures",
+        "dam-safety",
+        "geotechnical"
       ],
       "keywords": [
         "大坝工程",
-        "水工结构工程师",
-        "混凝土坝",
-        "土石坝设计与安全监测专家，覆盖拱坝",
-        "重力坝"
+        "水工结构",
+        "混凝土重力坝",
+        "拱坝",
+        "土石坝",
+        "CFRD",
+        "渗流控制",
+        "大坝安全监测",
+        "溃坝分析",
+        "ICOLD"
       ]
     },
     {
@@ -511,8 +499,7 @@
         "construction-architectural-designer",
         "construction-multi-agent-coordinator",
         "energy-engineering-wind-energy",
-        "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist"
+        "engineering-git-workflow-master"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -525,16 +512,21 @@
       "tags": [
         "construction",
         "façade",
-        "engineering",
-        "Designed",
-        "building"
+        "building-envelope",
+        "curtain-wall",
+        "thermal-performance"
       ],
       "keywords": [
         "幕墙",
-        "建筑外围护工程师",
-        "高层建筑幕墙与建筑外围护结构专家，覆盖玻璃幕墙",
-        "单元式",
-        "构件式"
+        "建筑外围护",
+        "单元式幕墙",
+        "构件式幕墙",
+        "热工性能",
+        "抗风压",
+        "水密气密",
+        "防火封堵",
+        "幕墙检测",
+        "建筑外围护结构"
       ]
     },
     {
@@ -548,8 +540,6 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
-        "testing-engineering-test-automation-framework",
         "tourism-travel-agent"
       ],
       "nexus_roles": [
@@ -563,15 +553,16 @@
         "construction",
         "fire",
         "investigation",
-        "Investigated",
-        "thousands"
+        "origin-and-cause",
+        "forensics"
       ],
       "keywords": [
         "火灾调查",
-        "火场溯源专家",
-        "火灾起因调查与火场重建专家，覆盖火灾痕迹",
-        "烧损图",
-        "Char"
+        "火场重建",
+        "火灾痕迹",
+        "电气火灾",
+        "NFPA 921",
+        "专家证人"
       ]
     },
     {
@@ -585,11 +576,7 @@
       "depends_on": [
         "construction-multi-agent-coordinator",
         "construction-surveyor",
-        "cybersecurity-engineering-cyber-risk-model",
         "engineering-git-workflow-master",
-        "finance-engineering-credit-risk-model",
-        "marketing-abm-account-based",
-        "marketing-paid-media-tracking-specialist",
         "robotics-motion-control"
       ],
       "nexus_roles": [
@@ -599,7 +586,7 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Your phone knows where you are to within 5 meters — with the right algorithms,",
+      "vibe": "Your phone knows where you are to within 5 meters — with the right algorithms, you can know to within 5 millimeters, tracking the continents themselves as they drift",
       "lifecycle": "published",
       "tags": [
         "construction",
@@ -611,7 +598,6 @@
       "keywords": [
         "大地测量",
         "精密定位工程师",
-        "卫星大地测量与精密定位系统专家，覆盖GNSS",
         "北斗",
         "GPS"
       ]
@@ -628,7 +614,6 @@
         "construction-architectural-designer",
         "engineering-git-workflow-master",
         "infrastructure-identity-access",
-        "marketing-paid-media-tracking-specialist",
         "robotics-motion-control"
       ],
       "nexus_roles": [
@@ -648,7 +633,6 @@
       "keywords": [
         "岩土地震",
         "土动力学工程师",
-        "岩土地震工程与场地效应专家，覆盖场地地震反应分析",
         "SHAKE",
         "DEEPSOIL"
       ]
@@ -663,13 +647,10 @@
       "path": "construction/construction-engineering-green-building.md",
       "depends_on": [
         "construction-engineering-construction-materials",
-        "cybersecurity-engineering-cyber-risk-model",
         "energy-engineering-energy-storage-materials-sci",
         "engineering-git-workflow-master",
         "environmental-renewable-energy",
-        "finance-engineering-credit-risk-model",
-        "logistics-engineering-supply-chain-risk",
-        "marketing-demand-generation"
+        "logistics-engineering-supply-chain-risk"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -688,7 +669,6 @@
       "keywords": [
         "绿色建筑",
         "净零能耗设计顾问",
-        "高性能绿色建筑与零碳建筑设计顾问，覆盖被动式设计",
         "建筑物理模拟",
         "EnergyPlus"
       ]
@@ -696,7 +676,7 @@
     {
       "id": "construction-engineering-heritage-conservation",
       "name": "文化遗产保护/文物保护科技专家",
-      "description": "文化遗产保护科学技术与修复专家，覆盖文物材料分析(XRF/XRD/SEM/FTIR)、环境监测/预防性保护(温湿度/光照/污染物)、石质/金属/壁画/纸张修复与数字化保护(3D扫描/数字存档)",
+      "description": "文化遗产保护科学与修复专家，聚焦石质/金属/壁画/纸张的劣化机理、微环境监测与预防性保护、可逆修复工艺与治疗记录",
       "emoji": "🏛️",
       "category": "construction",
       "subcategory": "",
@@ -705,9 +685,7 @@
         "construction-engineering-construction-materials",
         "construction-engineering-cultural-heritage-digitization",
         "engineering-git-workflow-master",
-        "healthcare-engineering-regulatory-science",
         "manufacturing-engineering-material-scientist",
-        "marketing-paid-media-tracking-specialist",
         "tourism-cultural-heritage"
       ],
       "nexus_roles": [
@@ -720,22 +698,22 @@
       "tags": [
         "construction",
         "conservation",
-        "science",
-        "Preserved",
-        "cultural"
+        "materials-analysis",
+        "preventive-conservation",
+        "restoration"
       ],
       "keywords": [
-        "文化遗产保护",
-        "文物保护科技专家",
-        "文化遗产保护科学技术与修复专家，覆盖文物材料分析",
-        "XRF",
-        "XRD"
+        "文物保护科学",
+        "材料劣化诊断",
+        "预防性保护",
+        "微环境监测",
+        "可逆修复"
       ]
     },
     {
       "id": "construction-engineering-hvac-automation",
       "name": "制冷/热泵/空调系统工程师",
-      "description": "蒸气压缩制冷与热泵系统设计专家，覆盖制冷循环/压缩机/换热器/膨胀阀选型、制冷剂(R32/R290/R744/R1234yf)环保替代、变频/数码涡旋容量调节与热泵除霜/极寒制热",
+      "description": "制冷、热泵与暖通空调系统设计工程师，覆盖蒸气压缩循环、压缩机/换热器/节流阀选型、R32/R290/R744/R1234yf制冷剂、冷水机组/VRF、除霜与低温制热、能效与安全标准",
       "emoji": "❄️",
       "category": "construction",
       "subcategory": "",
@@ -743,9 +721,7 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
-        "mining-safety",
-        "testing-engineering-reliability-testing"
+        "mining-safety"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -756,17 +732,23 @@
       "lifecycle": "published",
       "tags": [
         "construction",
-        "HVAC&R",
-        "system",
-        "design",
-        "Optimized"
+        "refrigeration",
+        "heat-pumps",
+        "hvac",
+        "energy-efficiency"
       ],
       "keywords": [
         "制冷",
         "热泵",
-        "空调系统工程师",
-        "蒸气压缩制冷与热泵系统设计专家，覆盖制冷循环",
-        "压缩机"
+        "蒸气压缩循环",
+        "压缩机",
+        "换热器",
+        "制冷剂",
+        "冷水机组",
+        "VRF",
+        "除霜",
+        "低温制热",
+        "COP"
       ]
     },
     {
@@ -782,7 +764,6 @@
         "energy-engineering-energy-storage-materials-sci",
         "engineering-git-workflow-master",
         "food-beverage-food-safety",
-        "marketing-paid-media-tracking-specialist",
         "quality-food-safety"
       ],
       "nexus_roles": [
@@ -803,7 +784,6 @@
         "工业制冷",
         "冷链制冷工程师",
         "工业氨",
-        "CO2制冷系统与大型冷库设计专家，覆盖氨",
         "NH3"
       ]
     },
@@ -818,9 +798,7 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "government-public-safety-analyst",
-        "marketing-abm-account-based",
-        "marketing-paid-media-tracking-specialist"
+        "government-public-safety-analyst"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -839,7 +817,6 @@
       "keywords": [
         "景观建筑",
         "景观生态设计师",
-        "可持续景观与城市生态设计专家，覆盖雨水花园",
         "生物滞留",
         "绿色屋顶"
       ]
@@ -854,11 +831,7 @@
       "path": "construction/construction-engineering-noise-control.md",
       "depends_on": [
         "construction-architectural-designer",
-        "cybersecurity-engineering-cyber-risk-model",
-        "engineering-git-workflow-master",
-        "finance-engineering-credit-risk-model",
-        "healthcare-mental-health",
-        "marketing-paid-media-tracking-specialist"
+        "engineering-git-workflow-master"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -877,7 +850,6 @@
       "keywords": [
         "环境噪声",
         "交通噪声控制工程师",
-        "城市环境噪声与交通噪声预测控制专家，覆盖交通噪声",
         "公路",
         "铁路"
       ]
@@ -885,7 +857,7 @@
     {
       "id": "construction-engineering-piping-design",
       "name": "管道/配管设计工程师",
-      "description": "工业管道系统与工艺配管设计专家，覆盖ASME B31.1/B31.3管道规范、管道应力分析(CAESAR II)、P&ID/管道材料等级、三维管道设计(PDMS/SP3D/Plant 3D)与管道支吊架设计",
+      "description": "工业管道与工艺配管设计专家，覆盖ASME B31.1/B31.3、管道应力分析(CAESAR II/AutoPIPE)、P&ID与材料等级、三维配管和支吊架设计",
       "emoji": "🔧",
       "category": "construction",
       "subcategory": "",
@@ -893,8 +865,6 @@
       "depends_on": [
         "construction-engineering-industrial-refrigeration",
         "engineering-git-workflow-master",
-        "marketing-abm-account-based",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety"
       ],
       "nexus_roles": [
@@ -906,23 +876,28 @@
       "lifecycle": "published",
       "tags": [
         "construction",
-        "industrial",
         "piping",
-        "Designed",
-        "systems"
+        "process-plant",
+        "stress-analysis",
+        "mechanical"
       ],
       "keywords": [
-        "管道",
-        "配管设计工程师",
-        "工业管道系统与工艺配管设计专家，覆盖ASME",
-        "B31.1",
-        "B31.3管道规范"
+        "管道设计",
+        "配管",
+        "ASME B31.3",
+        "管道应力分析",
+        "CAESAR II",
+        "P&ID",
+        "材料等级",
+        "支吊架",
+        "等轴测图",
+        "水压试验"
       ]
     },
     {
       "id": "construction-engineering-rail-infrastructure",
       "name": "轨道工程/铁路基础设施维护工程师",
-      "description": "有砟/无砟轨道结构与铁路基础设施专家，覆盖轨道几何(Track Geometry)/钢轨廓形/波磨/伤损管理、道床/扣件/轨枕/道岔维护、打磨/换轨/大修/养路机械(捣固车/清筛车)与轨道检测(轨检车/Ultrasonic)",
+      "description": "有砟/无砟轨道结构维护专家，覆盖轨道几何(Track Geometry)、钢轨廓形与波磨、道床/扣件/轨枕/道岔、捣固/打磨/清筛作业与轨检车/超声探伤检测",
       "emoji": "🛤️",
       "category": "construction",
       "subcategory": "",
@@ -930,7 +905,6 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety"
       ],
       "nexus_roles": [
@@ -944,16 +918,19 @@
       "tags": [
         "construction",
         "railway",
-        "track",
-        "engineering",
-        "Maintained"
+        "track-maintenance",
+        "asset-integrity",
+        "inspection"
       ],
       "keywords": [
         "轨道工程",
-        "铁路基础设施维护工程师",
-        "有砟",
-        "无砟轨道结构与铁路基础设施专家，覆盖轨道几何",
-        "Track"
+        "轨道几何",
+        "钢轨波磨",
+        "道岔维护",
+        "捣固打磨",
+        "轨道检测",
+        "TQI",
+        "EN 13848"
       ]
     },
     {
@@ -998,7 +975,7 @@
     {
       "id": "construction-engineering-railway-systems-design",
       "name": "铁路车辆/动车组设计工程师",
-      "description": "铁路车辆与高速动车组机械设计专家，覆盖车辆动力学(蛇行/舒适度/脱轨)、转向架/车体/车钩缓冲器、制动系统与UIC/EN/GB车辆标准",
+      "description": "铁路车辆与高速动车组机械设计工程师，覆盖车体结构、转向架/悬挂、车辆动力学(蛇行/舒适度/脱轨)、制动系统、车钩缓冲器、牵引与辅助接口及UIC/EN/GB车辆标准",
       "emoji": "🚄",
       "category": "construction",
       "subcategory": "",
@@ -1006,7 +983,6 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety"
       ],
       "nexus_roles": [
@@ -1019,16 +995,21 @@
       "tags": [
         "construction",
         "railway",
-        "vehicle",
-        "engineering",
-        "Designed"
+        "rolling-stock",
+        "vehicle-dynamics",
+        "braking"
       ],
       "keywords": [
         "铁路车辆",
-        "动车组设计工程师",
-        "铁路车辆与高速动车组机械设计专家，覆盖车辆动力学",
-        "蛇行",
-        "舒适度"
+        "动车组",
+        "车体结构",
+        "转向架",
+        "车辆动力学",
+        "制动系统",
+        "车钩缓冲器",
+        "轮轨关系",
+        "EN 14363",
+        "UIC 615-4"
       ]
     },
     {
@@ -1042,7 +1023,6 @@
       "depends_on": [
         "construction-engineering-geotechnical-earthquake",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety"
       ],
       "nexus_roles": [
@@ -1063,7 +1043,6 @@
         "岩石力学",
         "采矿工程工程师",
         "岩石力学与采矿",
-        "隧道围岩稳定性专家，覆盖岩石强度准则",
         "Hoek-Brown"
       ]
     },
@@ -1079,7 +1058,6 @@
         "automotive-engineering-functional-safety",
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
         "robotics-motion-control"
       ],
       "nexus_roles": [
@@ -1099,7 +1077,6 @@
       "keywords": [
         "抗震加固",
         "抗震韧性评估工程师",
-        "既有建筑抗震鉴定与结构加固改造专家，覆盖抗震鉴定",
         "ATC-40",
         "FEMA"
       ]
@@ -1114,9 +1091,7 @@
       "path": "construction/construction-engineering-structural-analysis.md",
       "depends_on": [
         "construction-architectural-designer",
-        "cybersecurity-engineering-cyber-risk-model",
         "engineering-git-workflow-master",
-        "finance-engineering-credit-risk-model",
         "government-smart-city",
         "web3-smart-contract-dev",
         "web3-smart-contract-developer"
@@ -1139,8 +1114,7 @@
         "结构分析",
         "有限元",
         "FEA",
-        "高级工程师",
-        "高级结构有限元分析与仿真专家，覆盖非线性FEA"
+        "高级工程师"
       ]
     },
     {
@@ -1154,7 +1128,6 @@
       "depends_on": [
         "construction-fire-protection",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety"
       ],
       "nexus_roles": [
@@ -1174,7 +1147,6 @@
       "keywords": [
         "结构抗火",
         "消防工程性能化设计专家",
-        "建筑结构抗火与性能化消防工程专家，覆盖结构耐火",
         "混凝土",
         "木防火保护"
       ]
@@ -1190,7 +1162,6 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety"
       ],
       "nexus_roles": [
@@ -1210,7 +1181,6 @@
       "keywords": [
         "隧道",
         "地下工程工程师",
-        "隧道与地下空间工程设计与施工专家，覆盖TBM",
         "盾构",
         "钻爆法"
       ]
@@ -1248,7 +1218,6 @@
       "keywords": [
         "城市规划",
         "城市设计师",
-        "可持续城市规划与城市设计专家，覆盖总体规划",
         "控制性详规",
         "TOD公共交通导向开发"
       ]
@@ -1264,8 +1233,7 @@
       "depends_on": [
         "construction-electrical",
         "engineering-build-release-engineer",
-        "infrastructure-identity-access",
-        "sales-data-extraction-agent"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1278,12 +1246,10 @@
         "construction",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "消防工程师",
-        "建筑消防系统设计与验收专家，覆盖水喷淋",
         "消火栓",
         "气体灭火",
         "火灾自动报警"
@@ -1300,7 +1266,6 @@
       "depends_on": [
         "construction-director",
         "engineering-general-manager",
-        "legal-general-manager",
         "pets-general-manager",
         "specialized-customer-success-manager"
       ],
@@ -1323,7 +1288,6 @@
       ],
       "keywords": [
         "建筑总经理",
-        "建筑领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -1340,7 +1304,6 @@
       "depends_on": [
         "construction-architectural-designer",
         "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist",
         "mining-safety"
       ],
       "nexus_roles": [
@@ -1348,21 +1311,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every building stands on the ground — and if the ground fails, the building fails. You ensure what's beneath the foundation can support everything above it.",
+      "vibe": "The ground is the only part of a project you cannot replace. You read the soil and rock, quantify the uncertainty, and design foundations that behave — not just ones that pass a calculation.",
       "lifecycle": "published",
       "tags": [
         "construction",
         "geotechnical",
-        "engineering",
+        "foundations",
         "Designed",
-        "foundations"
+        "ground-engineering"
       ],
       "keywords": [
         "岩土",
         "地基工程师",
-        "岩土工程与地基基础设计专家，覆盖场地勘察",
-        "地质报告解读",
-        "桩基"
+        "岩土工程",
+        "桩基",
+        "深基坑",
+        "地基处理",
+        "边坡稳定",
+        "岩土风险"
       ]
     },
     {
@@ -1397,7 +1363,6 @@
         "暖通空调",
         "HVAC",
         "工程师",
-        "暖通空调系统设计与施工专家，覆盖冷热源系统",
         "冷水机组"
       ]
     },
@@ -1412,8 +1377,7 @@
       "depends_on": [
         "construction-architectural-designer",
         "government-smart-city",
-        "infrastructure-identity-access",
-        "marketing-short-video-editing-coach"
+        "infrastructure-identity-access"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1426,12 +1390,10 @@
         "construction",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "弱电智能化工程师",
-        "弱电与智能化系统设计与施工专家，覆盖综合布线",
         "结构化布线",
         "安防",
         "视频监控"
@@ -1496,12 +1458,10 @@
         "construction",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "给排水工程师",
-        "建筑给排水系统设计与施工专家，覆盖生活给水",
         "热水",
         "污废水排水",
         "雨水"
@@ -1510,7 +1470,7 @@
     {
       "id": "construction-project-manager",
       "name": "施工项目经理",
-      "description": "施工项目管理专家，覆盖施工计划、进度控制、成本管理、分包协调、质量验收与安全管理",
+      "description": "Construction project manager for site delivery: CPM programme control, earned-value reporting, subcontractor coordination, safety and quality hold points, and handover",
       "emoji": "🏗️",
       "category": "construction",
       "subcategory": "",
@@ -1518,8 +1478,7 @@
       "depends_on": [
         "construction-engineering-construction-claims",
         "construction-engineering-construction-materials",
-        "environmental-engineering-weather-forecast",
-        "finance-bank-relationship"
+        "environmental-engineering-weather-forecast"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -1527,21 +1486,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Turning drawings into buildings — on time, on budget, and with everyone going",
+      "vibe": "The estimate wins the job; the programme, the crews, and the hold points deliver it — a construction manager controls the interface between plan and site",
       "lifecycle": "published",
       "tags": [
         "construction",
-        "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "project-management",
+        "site-delivery",
+        "scheduling",
+        "safety"
       ],
       "keywords": [
-        "施工项目经理",
-        "施工项目管理专家，覆盖施工计划",
-        "进度控制",
-        "成本管理",
-        "分包协调"
+        "construction project management",
+        "CPM scheduling",
+        "earned value",
+        "Last Planner",
+        "subcontractor coordination",
+        "site safety",
+        "quality hold points",
+        "commissioning",
+        "handover",
+        "Primavera P6"
       ]
     },
     {
@@ -1555,8 +1519,7 @@
       "depends_on": [
         "construction-architectural-designer",
         "data-science-engineering-deep-learning-training",
-        "engineering-git-workflow-master",
-        "marketing-paid-media-tracking-specialist"
+        "engineering-git-workflow-master"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1568,16 +1531,21 @@
       "tags": [
         "construction",
         "safety",
-        "management",
-        "Managed",
-        "projects"
+        "hse",
+        "risk-management",
+        "occupational-health"
       ],
       "keywords": [
         "建筑安全",
-        "健康与环境",
+        "职业健康",
         "HSE",
-        "经理",
-        "建筑施工安全与职业健康管理专家，覆盖HSE管理体系"
+        "高处作业",
+        "深基坑",
+        "起重吊装",
+        "受限空间",
+        "事故调查",
+        "领先指标",
+        "施工安全管理"
       ]
     },
     {
@@ -1591,9 +1559,7 @@
       "depends_on": [
         "construction-engineering-geodesy-surveying",
         "engineering-git-workflow-master",
-        "engineering-graph-database",
-        "legal-engineering-legal-document-automation",
-        "marketing-paid-media-tracking-specialist"
+        "engineering-graph-database"
       ],
       "nexus_roles": [
         "phase-0-discovery",
@@ -1601,21 +1567,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every building, every bridge, every tunnel starts with a survey stake in the ground — you establish the precise position that everything else builds upon",
+      "vibe": "Every structure begins with a point, a benchmark, and a defensible coordinate. You turn the ground into measured evidence — and you know that a one-centimetre blunder at the control stage becomes a tonne of rework later.",
       "lifecycle": "published",
       "tags": [
         "construction",
-        "geomatics",
-        "engineering",
         "surveying",
-        "Provided"
+        "geomatics",
+        "Provided",
+        "geospatial"
       ],
       "keywords": [
         "测量",
         "测绘工程师",
-        "工程测量与测绘专家，覆盖GNSS",
+        "工程测量与测绘",
+        "GNSS",
         "全站仪",
-        "水准测量"
+        "无人机摄影测量",
+        "三维激光扫描",
+        "控制网",
+        "变形监测",
+        "BIM+GIS"
       ]
     }
   ]

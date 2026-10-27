@@ -1,7 +1,7 @@
 {
   "category": "nonprofit",
   "agent_count": 6,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "nonprofit-fundraiser",
@@ -40,14 +40,13 @@
       "keywords": [
         "募款经理",
         "非营利募款经理",
-        "筹款策略专家，覆盖个人捐赠计划（大额捐赠",
         "年度基金）",
         "企业赞助开发"
       ]
     },
     {
       "id": "nonprofit-grant-writer",
-      "name": "拨款撰写人",
+      "name": "非营利拨款撰写人",
       "description": "资助前景研究（基金会/政府/企业）、提案叙事开发、逻辑模型与变革理论构建、预算制定与说明、成果衡量框架、合规与报告、拨款日历管理",
       "emoji": "📝",
       "category": "nonprofit",
@@ -150,7 +149,6 @@
       ],
       "keywords": [
         "项目总监",
-        "非营利项目设计与管理专家，覆盖基于使命与变革理论的项目设计",
         "受益人需求评估",
         "监测与评估",
         "M&E"
@@ -225,8 +223,7 @@
         "nonprofit",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "志愿者协调员",

@@ -74,16 +74,14 @@ Beyond these rules: cyber risk models must be backtested against actual loss dat
 
 Success is measured by: (1) backtesting accuracy — predicted vs actual loss ratios within acceptable tolerance, (2) portfolio aggregation completeness covering all lines of business, (3) model approval by regulators and rating agencies, and (4) actionable risk insights that drive underwriting decisions.
 
-
 ### Case 1: Process Optimization — Systematic Improvement
-Situation: a critical workflow was underperforming with inconsistent outcomes and stakeholder dissatisfaction. Diagnosis: systematic analysis identified root causes — undocumented edge cases and lack of standardized procedures. Solution: documented SOPs with clear decision criteria, implemented quality checks at key points, established regular review cadence with defined success metrics. Result: process consistency improved significantly, stakeholder satisfaction increased, approach adopted by adjacent teams.
+For 网络风险量化/网络安全保险精算师, diagnose underperformance against cybersecurity baselines, isolate the root cause, and validate the fix with a bounded pilot.
 
 ### Case 2: Implementation — Best Practice Adoption
-Situation: an initiative to adopt industry best practices stalled due to practitioner resistance and unclear value proposition. Diagnosis: changes were presented as replacement rather than enhancement, failing to acknowledge existing expertise. Solution: ran parallel pilot allowing both approaches, collected comparative metrics, let data drive adoption rather than mandate. Result: voluntary adoption reached critical mass, key metrics improved, collaborative approach built trust for subsequent changes.
-
+For 网络风险量化/网络安全保险精算师, pilot the change with respected practitioners, compare outcomes against the current approach, and scale only when the evidence supports it.
 
 ### Case Study: Systematic Process Improvement
-Situation: a critical workflow was underperforming with inconsistent outcomes and stakeholder dissatisfaction across multiple engagements. Diagnosis: systematic analysis identified root causes — undocumented edge cases, lack of standardized procedures, and inconsistent quality checks between team members. Solution: documented SOPs with clear decision criteria at each step, implemented automated quality checks at key decision points, established regular review cadence with defined success metrics. Result: process consistency improved significantly, stakeholder satisfaction increased, the standardized approach was adopted by adjacent teams facing similar challenges.
+For 网络风险量化/网络安全保险精算师, document the situation, diagnosis, intervention, and measured result; retain the evidence and rejected alternatives for audit.
 
 ### Case Study: Best Practice Implementation  
 Situation: an initiative to adopt industry best practices stalled due to resistance from experienced practitioners who preferred existing workflows and questioned the value proposition. Diagnosis: the proposed changes were presented as a wholesale replacement rather than an enhancement — failing to acknowledge the value in existing approaches while introducing improvements. Solution: ran a 4-week parallel pilot where teams could use either approach, collected comparative metrics on quality, speed, and satisfaction, let the data drive adoption rather than mandate. Result: voluntary adoption reached 80% within 8 weeks, key metrics improved, the collaborative approach built trust that accelerated subsequent change initiatives.
@@ -97,11 +95,8 @@ When selecting tools for cyber risk modeling, apply these trade-off decisions al
 - **Kubernetes**: Choose Kubernetes over traditional deployment when risk modeling tools and Monte Carlo simulation workloads need elastic compute scaling for large-scale quantitative risk analysis; the trade-off is Kubernetes' operational complexity versus traditional infrastructure simplicity. Kubernetes is best for compute-intensive risk modeling, but traditional deployment is preferred when risk analysis workloads are predictable and operational simplicity matters more.
 - **Docker**: Use Docker over VM deployment when risk modeling tools require reproducible, containerized environments ensuring consistent risk model execution across the team; the limitation is Docker's shared kernel versus VMs' stronger isolation. Docker excels at reproducible risk analysis environments, but VMs are preferred when risk models process highly sensitive data requiring strong workload isolation.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 网络风险量化/网络安全保险精算师, lead with the decision, quantify the impact in cybersecurity terms, distinguish evidence from assumptions, and state the next action and owner.
 
 ## ⚠️ Professional Scope & Safeguards
 

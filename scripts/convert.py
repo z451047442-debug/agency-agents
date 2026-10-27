@@ -466,7 +466,7 @@ def clean_tool_output(tool, out_dir):
     for item in d.iterdir():
         if item.name != "README.md":
             if item.is_dir():
-                shutil.rmtree(item)
+                shutil.rmtree(item)  # audit-security: allow (integration output dir)
             else:
                 item.unlink()
 
@@ -748,7 +748,7 @@ def main():
             else:
                 print(f"OK: integrations/ is up to date ({len(agents)} agents).")
         finally:
-            shutil.rmtree(str(tmp), ignore_errors=True)
+            shutil.rmtree(str(tmp), ignore_errors=True)  # audit-security: allow (mkdtemp temp dir)
         return
 
     # Normal conversion

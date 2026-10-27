@@ -1,7 +1,7 @@
 {
   "category": "iot",
   "agent_count": 20,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "iot-architect",
@@ -28,12 +28,10 @@
         "iot",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "IoT系统架构师",
-        "物联网端到端架构设计专家，覆盖设备层",
         "边缘层",
         "云平台",
         "数据管道与安全体系"
@@ -73,7 +71,6 @@
       ],
       "keywords": [
         "IoT数据平台工程师",
-        "物联网数据平台与流处理专家，覆盖时序数据库",
         "InfluxDB",
         "TimescaleDB",
         "MQTT"
@@ -116,7 +113,6 @@
         "IoT事业部总监",
         "物联网",
         "IoT",
-        "业务最高负责人，覆盖IoT产品",
         "平台策略"
       ]
     },
@@ -146,13 +142,10 @@
       "tags": [
         "iot",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "边缘计算专家",
-        "边缘计算架构与部署专家，覆盖边缘节点管理",
         "本地推理",
         "数据预处理",
         "边缘-云协同与离线自治"
@@ -188,7 +181,6 @@
       ],
       "keywords": [
         "嵌入式系统工程师",
-        "嵌入式软硬件协同开发专家，覆盖MCU",
         "MPU选型",
         "RTOS",
         "裸机开发"
@@ -197,7 +189,7 @@
     {
       "id": "iot-engineering-asic-fpga",
       "name": "ASIC/FPGA/数字IC设计工程师",
-      "description": "数字集成电路与FPGA设计专家，覆盖Verilog/VHDL/SystemVerilog RTL设计、逻辑综合/时序收敛、验证(UVM/Formal)与FPGA原型验证",
+      "description": "数字集成电路与FPGA设计工程师，覆盖微架构、SystemVerilog RTL、UVM/形式验证、逻辑综合与时序收敛、DFT、UPF 低功耗、FPGA 原型与流片交付",
       "emoji": "🔲",
       "category": "iot",
       "subcategory": "",
@@ -215,21 +207,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every chip starts as code — you write the RTL that becomes the silicon that",
+      "vibe": "Every chip begins as a specification and a line of RTL; the tape-out is unforgiving, so you design for the worst corner, the async boundary, and the test you cannot run until silicon returns",
       "lifecycle": "published",
       "tags": [
         "iot",
         "digital",
-        "design",
-        "Designed",
-        "ASICs"
+        "asic",
+        "fpga",
+        "rtl-design"
       ],
       "keywords": [
-        "ASIC",
-        "FPGA",
-        "数字IC设计工程师",
-        "数字集成电路与FPGA设计专家，覆盖Verilog",
-        "VHDL"
+        "ASIC设计",
+        "FPGA设计",
+        "数字IC",
+        "RTL",
+        "SystemVerilog",
+        "时序收敛",
+        "UVM",
+        "形式验证",
+        "DFT",
+        "UPF低功耗"
       ]
     },
     {
@@ -265,7 +262,6 @@
       "keywords": [
         "嵌入式AI",
         "TinyML工程师",
-        "嵌入式设备端AI与微型机器学习专家，覆盖TensorFlow",
         "Lite",
         "Micro"
       ]
@@ -341,7 +337,6 @@
       "keywords": [
         "嵌入式Linux",
         "Yocto工程师",
-        "嵌入式Linux系统定制与BSP开发专家，覆盖Yocto",
         "Buildroot构建系统",
         "Linux内核裁剪"
       ]
@@ -384,7 +379,6 @@
         "工业物联网平台工程师",
         "工业物联网",
         "IIoT",
-        "数据采集与平台专家，覆盖OPC",
         "UA"
       ]
     },
@@ -415,8 +409,7 @@
         "iot",
         "Success",
         "Metrics",
-        "Technical",
-        "Professional"
+        "Technical"
       ],
       "keywords": [
         "IoT",
@@ -461,7 +454,6 @@
       "keywords": [
         "IoT硬件",
         "无线通信工程师",
-        "物联网无线通信与硬件集成专家，覆盖BLE",
         "WiFi",
         "Zigbee"
       ]
@@ -469,7 +461,7 @@
     {
       "id": "iot-engineering-mems-sensors",
       "name": "MEMS/传感器设计工程师",
-      "description": "微机电系统与传感器设计专家，覆盖MEMS加速度计/陀螺仪/压力传感器设计、微加工工艺(光刻/蚀刻/键合)、ASIC接口与传感器校准/测试",
+      "description": "MEMS传感器设计工程师，覆盖器件物理、微加工、ASIC接口、封装、校准与车规可靠性",
       "emoji": "🔬",
       "category": "iot",
       "subcategory": "",
@@ -486,21 +478,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every smartphone, every car, every drone knows which way is up because of a",
+      "vibe": "The package, the temperature profile, and the calibration plan decide whether a brilliant MEMS die becomes a trustworthy sensor.",
       "lifecycle": "published",
       "tags": [
-        "iot",
-        "MEMS",
-        "sensor",
-        "design",
-        "Designed"
+        "mems",
+        "sensors",
+        "semiconductor",
+        "calibration",
+        "reliability"
       ],
       "keywords": [
         "MEMS",
-        "传感器设计工程师",
-        "微机电系统与传感器设计专家，覆盖MEMS加速度计",
-        "陀螺仪",
-        "压力传感器设计"
+        "accelerometer",
+        "gyroscope",
+        "pressure sensor",
+        "sensor calibration"
       ]
     },
     {
@@ -539,7 +531,6 @@
       "keywords": [
         "模拟",
         "混合信号IC设计工程师",
-        "模拟与混合信号集成电路设计专家，覆盖ADC",
         "DAC",
         "PLL"
       ]
@@ -619,8 +610,7 @@
         "智能家居",
         "IoT",
         "Consumer",
-        "产品经理",
-        "消费物联网与智能家居产品专家，覆盖智能音箱"
+        "产品经理"
       ]
     },
     {
@@ -655,7 +645,6 @@
       ],
       "keywords": [
         "固件开发工程师",
-        "嵌入式固件开发专家，覆盖bootloader",
         "OTA升级",
         "文件系统",
         "驱动开发与安全固件签名"
@@ -729,7 +718,6 @@
       ],
       "keywords": [
         "IoT安全专家",
-        "物联网安全工程专家，覆盖嵌入式安全",
         "安全启动",
         "设备身份",
         "认证"
@@ -762,14 +750,12 @@
         "iot",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "传感器集成专家",
         "传感器选型",
         "信号调理",
-        "数据融合与校准专家，覆盖MEMS",
         "光学"
       ]
     }

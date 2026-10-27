@@ -1,7 +1,7 @@
 {
   "category": "sports",
   "agent_count": 9,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "sports-agent",
@@ -34,7 +34,6 @@
         "sports",
         "Contract",
         "Negotiation",
-        "Framework",
         "Market"
       ],
       "keywords": [
@@ -109,9 +108,7 @@
       "tags": [
         "sports",
         "Technical",
-        "Process",
-        "Methodology",
-        "Decision"
+        "Process"
       ],
       "keywords": [
         "Sports",
@@ -186,8 +183,7 @@
         "sports",
         "Capabilities",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "赛事运营经理",
@@ -231,7 +227,6 @@
       ],
       "keywords": [
         "体育总经理",
-        "体育领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"

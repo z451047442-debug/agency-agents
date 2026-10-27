@@ -6,6 +6,19 @@
 ./scripts/install.sh --tool claude-code
 ```
 
+### Optional: `agency` Python CLI
+
+Install from a repository checkout in **editable** mode:
+
+```bash
+pip install -e .
+agency search kubernetes
+```
+
+Editable mode is required for subcommands: the CLI reads `scripts/` and the
+agent data from the checkout. A non-editable wheel install only provides
+`agency --help` and reports the editable-install requirement for subcommands.
+
 ## 2. Find the right specialist (60 seconds)
 
 ```bash

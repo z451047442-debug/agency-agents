@@ -37,7 +37,7 @@ SKIP_SECTION_CHECK: frozenset[str] = frozenset({"thinking-models"})
 SECTION_PATTERNS = {
     "Identity": r"identity",
     "Core Mission": r"core\s*mission|\bmission\s*[—\-]{1,2}",
-    "Critical Rules": r"critical\s*rules?|rules?\s*[—\-]{1,2}|rules?\s*you\s*must\s*follow",
+    "Critical Rules": r"critical\s*rules?|\brules?\b|rules?\s*[—\-]{1,2}|rules?\s*you\s*must\s*follow",
     "Deliverable": r"deliverable",
     "Workflow": r"workflow|process|your\s*workflow",
     "Success Metrics": r"success\s*metrics|metrics\s*[—\-]{1,2}",
@@ -112,26 +112,27 @@ SECURITY_PATTERNS = {
     ),
 }
 
-# Unicode characters commonly used in prompt injection attacks
+# Unicode characters commonly used in prompt injection attacks.
+# Keys are escaped so this source file itself contains no invisible controls.
 SUSPICIOUS_UNICODE = {
-    "​": "ZERO WIDTH SPACE",
-    "‌": "ZERO WIDTH NON-JOINER",
-    "‍": "ZERO WIDTH JOINER",
-    "‎": "LEFT-TO-RIGHT MARK",
-    "‏": "RIGHT-TO-LEFT MARK",
-    "‪": "LEFT-TO-RIGHT EMBEDDING",
-    "‫": "RIGHT-TO-LEFT EMBEDDING",
-    "‬": "POP DIRECTIONAL FORMATTING",
-    "‭": "LEFT-TO-RIGHT OVERRIDE",
-    "‮": "RIGHT-TO-LEFT OVERRIDE",
-    "⁠": "WORD JOINER",
-    "⁡": "FUNCTION APPLICATION",
-    "⁢": "INVISIBLE TIMES",
-    "⁣": "INVISIBLE SEPARATOR",
-    "⁤": "INVISIBLE PLUS",
-    "﻿": "ZERO WIDTH NO-BREAK SPACE (BOM)",
-    "￰": "HANGUL JUNGSEONG FILLER (invisible)",
-    "ﾠ": "HALFWIDTH HANGUL FILLER",
+    "\u200b": "ZERO WIDTH SPACE",
+    "\u200c": "ZERO WIDTH NON-JOINER",
+    "\u200d": "ZERO WIDTH JOINER",
+    "\u200e": "LEFT-TO-RIGHT MARK",
+    "\u200f": "RIGHT-TO-LEFT MARK",
+    "\u202a": "LEFT-TO-RIGHT EMBEDDING",
+    "\u202b": "RIGHT-TO-LEFT EMBEDDING",
+    "\u202c": "POP DIRECTIONAL FORMATTING",
+    "\u202d": "LEFT-TO-RIGHT OVERRIDE",
+    "\u202e": "RIGHT-TO-LEFT OVERRIDE",
+    "\u2060": "WORD JOINER",
+    "\u2061": "FUNCTION APPLICATION",
+    "\u2062": "INVISIBLE TIMES",
+    "\u2063": "INVISIBLE SEPARATOR",
+    "\u2064": "INVISIBLE PLUS",
+    "\ufeff": "ZERO WIDTH NO-BREAK SPACE (BOM)",
+    "\ufff0": "HANGUL JUNGSEONG FILLER (invisible)",
+    "\uffa0": "HALFWIDTH HANGUL FILLER",
 }
 
 
@@ -282,12 +283,18 @@ def lint_file(filepath, errors, warnings, infos, freshness=True):
 
     body = get_body(content)
 
-    # 3. Recommended sections
+    # 3. Recommended sections (match headings, not incidental prose)
     category = rel.split("/")[0]
     for section, pattern in SECTION_PATTERNS.items():
         if category in SKIP_SECTION_CHECK:
             continue
-        if not re.search(pattern, body, re.IGNORECASE):
+        found = False
+        for line in body.splitlines():
+            heading = re.match(r"^#{1,6}\s+(.*)$", line)
+            if heading and re.search(pattern, heading.group(1), re.IGNORECASE):
+                found = True
+                break
+        if not found:
             warnings.append(f"WARN  {rel}: missing section '{section}'")
 
     # 4. Word count

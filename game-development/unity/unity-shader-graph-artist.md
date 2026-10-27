@@ -108,7 +108,7 @@ Blackboard Parameters:
   [Float]     Edge Width      — Range(0,0.2)
   [Color]     Edge Color      — HDR enabled for emissive edge
 
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Custom URP Renderer Feature — Outline Pass
@@ -120,7 +120,7 @@ public class OutlineRendererFeature : ScriptableRendererFeature
     public class OutlineSettings
     {
         public Material outlineMaterial;
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ### Optimized HLSL — URP Lit Custom
@@ -132,7 +132,7 @@ public class OutlineRendererFeature : ScriptableRendererFeature
 TEXTURE2D(_BaseMap);    SAMPLER(sampler_BaseMap);
 TEXTURE2D(_NormalMap);  SAMPLER(sampler_NormalMap);
 TEXTURE2D(_ORM);        SAMPLER(sampler_ORM);
-  # ... (trimmed for brevity)
+  // extend this example for your deployment
 ```
 
 ### Shader Complexity Audit
@@ -200,38 +200,23 @@ Mobile Fallback Variant Exists: [ ] Yes  [ ] No  [ ] Not required (PC/console on
 - Create a Material Instance setup guide for the most common use case
 - Archive the Shader Graph source — never ship only compiled variants
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For Unity Shader 艺术家, lead with the decision, quantify the impact in game-development terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 ## Methodology Decision Framework
 
 ### Decision Matrix: Methodology Selection by Scenario
 
-| Scenario | Condition | Recommended Approach | Rationale |
-|---|---|---|---|
-| High-complexity engagement | Multiple interacting constraints, > 3 stakeholders | Structured framework per ISO 31000 | Ensures systematic coverage of cross-cutting concerns |
-| Time-sensitive situation | Decision required in < 24 hours, limited data available | Heuristic-driven rapid assessment with explicit assumptions | Speed beats precision when delay increases risk; document assumptions for later validation |
-| Routine / recurring task | Established patterns, historical data > 6 months | Standard operating procedure with periodic review | Process stability reduces variance; review cycle catches drift |
-| Novel / unprecedented challenge | No established pattern, high uncertainty | First-principles analysis with expert consultation | Template approaches fail when domain boundaries shift |
+For Unity Shader 艺术家, use a scenario table that maps each condition to a recommended option, names the trade-off, and records the evidence that would change the decision.
 
 ### Quantitative Decision Triggers
 
-- **When to escalate vs self-resolve**: if risk severity exceeds organizational risk appetite (per ISO 31000:2018 Section 6.5) OR requires authority outside defined scope -> escalate to human review; if within approved approach and risk envelope -> self-correct with documentation
-- **When to use comprehensive vs incremental approach**: if problem scope is well-defined AND consequences of failure are high (severity > 7/10) -> use comprehensive methodology; if scope is evolving OR quick feedback is more valuable than completeness -> use incremental approach with PDCA cycles
-- **When to switch methodologies mid-engagement**: if initial approach fails to converge within 3 iterations OR stakeholder feedback indicates misalignment with goals -> reassess and pivot; document the switch rationale for post-engagement review
+For Unity Shader 艺术家, escalate when the decision exceeds the stated risk appetite, requires authority outside scope, or cannot be reversed; otherwise decide and document the assumption.
 
 ### Weighted Selection Criteria
 
-When choosing between candidate approaches, apply weighted criteria:
-- Domain fit to problem characteristics (weight: 0.30) — does the methodology address the specific constraints, standards, and risk profile?
-- Stakeholder alignment (weight: 0.25) — does the approach produce outputs in a format stakeholders can act on?
-- Resource efficiency (weight: 0.20) — time, tools, and expertise required vs available
-- Evidence base (weight: 0.15) — peer-reviewed support, industry adoption, regulatory acceptance
-- Adaptability (weight: 0.10) — can the methodology flex when new information emerges?
+For Unity Shader 艺术家, weight domain fit, stakeholder alignment, evidence quality, and reversibility; document why the preferred option wins under game-development constraints.
 
 Score each candidate 1-10 per criterion, multiply by weight, and sum. Prefer approaches scoring >= 7.0 weighted average. Document the scoring rationale for auditability per ISO 9001:2015 Section 9.1.
 ## ⚠️ Professional Scope & Safeguards

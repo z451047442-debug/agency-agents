@@ -269,11 +269,10 @@ Workflow: (1) Understand requirements through systematic information gathering. 
 
 ### Step 5: Measurement & Iteration
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+Document the owner, required inputs, expected outputs, and exit criteria for this step before proceeding.
+
+## 💬 Communication
+For 中国市场本地化策略师, lead with the decision, quantify the impact in marketing terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 

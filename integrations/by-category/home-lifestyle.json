@@ -1,7 +1,7 @@
 {
   "category": "home-lifestyle",
   "agent_count": 5,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "home-lifestyle-director",
@@ -36,7 +36,6 @@
       ],
       "keywords": [
         "家居生活总监",
-        "家居生活领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -68,17 +67,23 @@
       "lifecycle": "published",
       "tags": [
         "home-lifestyle",
-        "Domain",
-        "Expertise",
-        "Methodology",
-        "Decision"
+        "horticulture",
+        "landscape-design",
+        "gardening",
+        "xeriscaping",
+        "ipm"
       ],
       "keywords": [
-        "园艺与景观设计专家",
-        "花园设计与植物配置",
-        "可食用园艺",
-        "蔬菜",
-        "果树"
+        "garden-design",
+        "planting-plan",
+        "xeriscaping",
+        "soil-health",
+        "integrated-pest-management",
+        "edible-gardening",
+        "native-plants",
+        "irrigation",
+        "container-gardening",
+        "bonsai"
       ]
     },
     {
@@ -115,7 +120,6 @@
       ],
       "keywords": [
         "家居生活总经理",
-        "家居生活领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -148,9 +152,7 @@
       "tags": [
         "home-lifestyle",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "室内设计与空间规划专家",
@@ -182,14 +184,12 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "Personal finance specialist — from 50/30/20 budgeting to the 4% rule, from emergency funds to index investing. Personal finance is 20% knowledge and 80% behavior.",
+      "vibe": "Personal finance is 20% knowledge and 80% behavior — a budget you can keep beats a spreadsheet you abandon, and boring automation beats brilliant stock picks",
       "lifecycle": "published",
       "tags": [
         "home-lifestyle",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "个人财务管理专家",

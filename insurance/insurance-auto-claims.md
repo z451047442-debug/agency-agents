@@ -84,19 +84,9 @@ Investigate, evaluate, and resolve auto physical damage claims with speed, accur
 ## References & Standards
 Align with the following authoritative frameworks per industry best practice:
 
-- ISO 9001:2015 — Quality Management Systems (§8.1 operational planning, §10.3 continual improvement)
-- ISO 31000:2018 — Risk Management (§6.4 risk assessment, §6.5 risk treatment per AS/NZS 4360)
-- NIST SP 800-53 Rev 5 — Security and Privacy Controls for Information Systems
-- IEC 61508 — Functional Safety of Electrical/Electronic Systems per ISO 26262 derivative
+For 车险理赔专员, anchor recommendations in the applicable standards (e.g., ISO 9001:2015, ISO 31000:2018, ISO/IEC 27001:2022 where relevant) and verify the current edition before use.
 
-According to ISO 9001:2015 §9.1, monitor and measure performance. As per ISO 31000:2018 §6.4.3,
-risk characterization should combine quantitative and qualitative approaches. Cited in peer-reviewed
-literature per systematic review of industry standards (see also ANSI/AIAA and ASTM International).
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+For 车险理赔专员, define measurable insurance outcomes, monitor them against a baseline, and document the review cadence and escalation trigger.
 
 ## ⚠️ Professional Scope & Safeguards
 
@@ -120,7 +110,7 @@ from enum import Enum
 
 class PartType(Enum):
     OEM = "OEM"
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Total Loss Evaluation Framework
@@ -133,7 +123,7 @@ Claim ID: [____] | Vehicle: [Year Make Model] | VIN: [________]
 STEP 1 — ACTUAL CASH VALUE (ACV) DETERMINATION
 □ Base value: [¥_______] (source: [JD Power / Red Book / market survey])
 □ Mileage adjustment: [±¥_______] (vs. average for model year)
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Liability Determination Framework
@@ -146,7 +136,7 @@ Claim ID: [____] | Date of Loss: [____] | Location: [________]
 STEP 1 — GATHER ALL EVIDENCE
 □ Police report: [Yes/No] — officer conclusion: [________]
 □ Traffic camera footage: [Yes/No] — URL/file: [________]
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Fraud Indicator Scoring System

@@ -1,7 +1,7 @@
 {
   "category": "administration",
   "agent_count": 10,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "administration-contract-manager",
@@ -31,12 +31,10 @@
         "administration",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "合同管理专员",
-        "企业合同全生命周期管理专家，覆盖合同起草",
         "模板",
         "审批流",
         "签约"
@@ -78,7 +76,6 @@
       ],
       "keywords": [
         "行政管理总监",
-        "行政管理领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -110,13 +107,11 @@
         "administration",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "企业文秘",
         "行政助理",
-        "企业文秘与行政助理专家，覆盖高管日程",
         "会议管理",
         "公文"
       ]
@@ -158,7 +153,6 @@
       "keywords": [
         "企业车辆",
         "车队管理专家",
-        "企业车队与公务车辆管理专家，覆盖车辆采购",
         "租赁",
         "处置全生命周期"
       ]
@@ -199,7 +193,6 @@
       ],
       "keywords": [
         "行政管理总经理",
-        "行政管理领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -269,12 +262,10 @@
         "administration",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "行政管理专家",
-        "企业行政管理与后勤保障专家，覆盖办公室运营",
         "固定资产",
         "办公资产管理",
         "行政预算与成本控制"
@@ -307,12 +298,10 @@
         "administration",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "采购与供应商管理专家",
-        "企业采购与供应链管理专家，覆盖供应商寻源",
         "评估",
         "分级",
         "招标谈判"
@@ -346,12 +335,10 @@
         "administration",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "档案与证照管理专家",
-        "企业档案与证照管理专家，覆盖档案分类",
         "归档",
         "保管",
         "利用"
@@ -394,7 +381,6 @@
       ],
       "keywords": [
         "差旅管理专家",
-        "企业差旅与出行管理专家，覆盖差旅政策",
         "预算管控",
         "供应商合同",
         "航司"

@@ -100,8 +100,11 @@
               "description": "Accent color for UI."
             },
             "icon": {
-              "type": "string",
-              "description": "Icon identifier for UI."
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Icon identifier for UI (null when no icon is defined)."
             },
             "order": {
               "type": "integer",
@@ -117,21 +120,33 @@
               "description": "Installation mechanism."
             },
             "scope": {
-              "type": "string",
-              "enum": [
+              "type": "object",
+              "description": "Install scope availability for this tool.",
+              "properties": {
+                "user": {
+                  "type": "boolean"
+                },
+                "project": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
                 "user",
-                "project",
-                "both"
+                "project"
               ],
-              "description": "Install scope."
+              "additionalProperties": false
             },
             "slugFrom": {
-              "type": "string",
+              "type": [
+                "string",
+                "null"
+              ],
               "enum": [
                 "source",
-                "name"
+                "name",
+                null
               ],
-              "description": "How to derive the slug."
+              "description": "How to derive the slug (null for roster/plugin tools)."
             },
             "detect": {
               "type": "object",

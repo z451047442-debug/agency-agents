@@ -107,6 +107,16 @@ tests/_debug_test/
 .env
 .env.local
 .env.*.local
+# Broader environment file patterns (keep the committed example)
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+credentials*
+secrets*
 .claude-flow/data/
 .claude-flow/logs/
 .claude-flow/sessions/

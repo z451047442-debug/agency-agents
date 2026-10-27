@@ -1,7 +1,7 @@
 {
   "category": "manufacturing",
   "agent_count": 47,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "manufacturing-chemistry-research",
@@ -13,7 +13,6 @@
       "path": "manufacturing/manufacturing-chemistry-research.md",
       "depends_on": [
         "aerospace-military-materials-manufacturing",
-        "education-number-theory",
         "specialized-identity-graph-operator"
       ],
       "nexus_roles": [
@@ -26,9 +25,7 @@
       "tags": [
         "manufacturing",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "化学基础研究专家",
@@ -71,7 +68,6 @@
       ],
       "keywords": [
         "制造总监",
-        "制造领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -80,7 +76,7 @@
     {
       "id": "manufacturing-engineering-3d-printing-additive",
       "name": "增材制造/3D打印工程师",
-      "description": "工业3D打印与增材制造专家，覆盖SLM/SLS/FDM/DLP/MJF打印工艺、金属/聚合物/陶瓷材料、拓扑优化/DfAM、后处理(热处理/HIP)与打印质量控制",
+      "description": "工业增材制造工艺与零件认证专家，覆盖SLM/LPBF、SLS、FDM、DLP、MJF工艺选择、DfAM与支撑设计、粉末复用、热处理/HIP/表面后处理、CT与力学验证及ISO/ASTM 52900与ASTM F3303框架下的零件族认证",
       "emoji": "🖨️",
       "category": "manufacturing",
       "subcategory": "",
@@ -104,17 +100,22 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "additive",
-        "Qualified",
-        "3D-printed",
-        "parts"
+        "additive-manufacturing",
+        "metal-powder",
+        "polymers",
+        "qualification"
       ],
       "keywords": [
         "增材制造",
-        "3D打印工程师",
-        "工业3D打印与增材制造专家，覆盖SLM",
+        "SLM",
+        "LPBF",
         "SLS",
-        "FDM"
+        "FDM",
+        "DLP",
+        "MJF",
+        "DfAM",
+        "粉末床熔融",
+        "零件认证"
       ]
     },
     {
@@ -166,8 +167,7 @@
         "manufacturing-multi-agent-coordinator",
         "infrastructure-identity-access",
         "infrastructure-windows-server",
-        "manufacturing-engineering-process-automation",
-        "marketing-brand-strategist-name"
+        "manufacturing-engineering-process-automation"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -181,55 +181,57 @@
         "manufacturing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "楼宇自动化",
         "BAS",
         "BMS",
-        "系统工程师",
-        "智能楼宇自动化与能源管理系统专家，覆盖楼宇自控"
+        "系统工程师"
       ]
     },
     {
       "id": "manufacturing-engineering-composites-manufacturing",
       "name": "复合材料制造/自动铺放(AFP/ATL)工程师",
-      "description": "碳纤维/玻璃纤维复合材料自动化制造专家，覆盖自动铺丝(AFP)/自动铺带(ATL)/缠绕(Filament Winding)、热压罐/非热压罐(OOA)固化、RTM树脂传递模塑/热压成型与NDI超声相控阵/热成像检测",
+      "description": "航空航天级复合材料结构制造工程师，覆盖AFP自动铺丝/ATL自动铺带/缠绕、预浸料与干纤维工艺、热压罐与OOA固化、RTM/RFI、铺层设计与缺陷控制、超声相控阵/热成像NDI及Nadcap与ASTM/CMH-17鉴定体系",
       "emoji": "🛠️",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-composites-manufacturing.md",
       "depends_on": [
-        "manufacturing-engineering-control-systems",
-        "marketing-paid-media-tracking-specialist"
+        "manufacturing-engineering-control-systems"
       ],
       "nexus_roles": [
         "phase-3-build"
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Carbon fiber is lighter than aluminum and stronger than steel — you design the automated machines that lay it, cure it, and inspect it for the next generation of aircraft",
+      "vibe": "Springs and molds are only the beginning — you orchestrate fiber paths, cure cycles, and non-destructive proof until a laminate becomes a certified structure",
       "lifecycle": "published",
       "tags": [
         "manufacturing",
         "composites",
-        "Automated",
-        "production",
-        "aerospace"
+        "aerospace",
+        "automated-layup",
+        "ndi"
       ],
       "keywords": [
-        "复合材料制造",
-        "自动铺放",
+        "复合材料",
         "AFP",
         "ATL",
-        "工程师"
+        "自动铺丝",
+        "自动铺带",
+        "预浸料",
+        "热压罐",
+        "RTM",
+        "NDI",
+        "航空结构"
       ]
     },
     {
       "id": "manufacturing-engineering-control-systems",
       "name": "控制理论/先进过程控制(APC)工程师",
-      "description": "经典与现代控制理论应用专家，覆盖PID/MPC模型预测控制、系统辨识/自适应控制、LQR/H-infinity鲁棒控制、DCS/SCADA与化工/炼油/电力过程优化",
+      "description": "经典与现代控制理论应用专家，覆盖 PID 整定、MPC 模型预测控制、LQR/LQG 与鲁棒控制、系统辨识、回路性能监控及 PLC/DCS 实时嵌入式实现",
       "emoji": "🎛️",
       "category": "manufacturing",
       "subcategory": "",
@@ -248,30 +250,30 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "advanced",
-        "process",
-        "control",
-        "Optimized"
+        "process-control",
+        "pid-mpc",
+        "system-identification",
+        "real-time-control"
       ],
       "keywords": [
         "控制理论",
-        "先进过程控制",
-        "APC",
-        "工程师",
-        "经典与现代控制理论应用专家，覆盖PID"
+        "先进过程控制 APC",
+        "PID 整定",
+        "MPC 模型预测控制",
+        "系统辨识",
+        "回路性能监控"
       ]
     },
     {
       "id": "manufacturing-engineering-corrosion-engineering",
       "name": "腐蚀工程/阴极保护专家",
-      "description": "金属腐蚀防护与电化学保护专家，覆盖大气/海水/土壤/高温/微生物(MIC)腐蚀机理、牺牲阳极/外加电流阴极保护(CP)设计与测试、涂层/缓蚀剂/材料选择与腐蚀监测(探针/LPR/超声波)",
+      "description": "Corrosion and cathodic-protection specialist covering atmospheric, marine, soil and MIC mechanisms, CP design, coatings, inhibitors, and monitoring.",
       "emoji": "🧪",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-corrosion-engineering.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive",
-        "marketing-paid-media-tracking-specialist"
+        "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -283,28 +285,28 @@
       "tags": [
         "manufacturing",
         "corrosion",
-        "control",
-        "Protected",
-        "pipelines"
+        "cathodic-protection",
+        "coatings",
+        "inspection"
       ],
       "keywords": [
-        "腐蚀工程",
-        "阴极保护专家",
-        "金属腐蚀防护与电化学保护专家，覆盖大气",
-        "海水",
-        "土壤"
+        "corrosion engineering",
+        "cathodic protection",
+        "ICCP and galvanic anodes",
+        "coating failure",
+        "microbiologically influenced corrosion",
+        "corrosion monitoring"
       ]
     },
     {
       "id": "manufacturing-engineering-cyber-physical",
       "name": "信息物理系统(CPS)工程师",
-      "description": "信息物理系统与数字孪生专家，覆盖物理系统建模/仿真、IoT+AI融合、实时控制/反馈、数字孪生平台与工业元宇宙",
+      "description": "信息物理系统架构与实时闭环专家，覆盖传感器/执行器集成、边缘推理、确定性网络(EtherCAT/TSN)、数字孪生同步、SIL/HIL 验证与 IEC 62443 工控安全",
       "emoji": "🔗",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-cyber-physical.md",
       "depends_on": [
-        "cybersecurity-engineering-cyber-risk-model",
         "manufacturing-engineering-digital-twins-manufacturing"
       ],
       "nexus_roles": [
@@ -316,23 +318,24 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "bridging",
-        "physical",
-        "digital",
-        "systems"
+        "cyber-physical-systems",
+        "industrial-iot",
+        "real-time-control",
+        "ot-security"
       ],
       "keywords": [
         "信息物理系统",
-        "CPS",
-        "工程师",
-        "信息物理系统与数字孪生专家，覆盖物理系统建模",
-        "仿真"
+        "CPS 架构",
+        "实时闭环",
+        "边缘推理",
+        "确定性网络",
+        "工控安全"
       ]
     },
     {
       "id": "manufacturing-engineering-digital-twins-manufacturing",
       "name": "数字主线/数字工程(Digital Thread)架构师",
-      "description": "产品数字主线与基于模型的系统工程(MBSE)专家，覆盖SysML/UML/UAF体系架构建模(Cameo/MagicDraw)、PLM/ALM/MES/BOM数字主线(Rethread/Aras/Windchill)、数字孪生(Live Twin)/As-Built vs As-Designed与DOD DIGITAL ENGINEERING/INCOSE",
+      "description": "数字主线与制造系统数字孪生架构师，覆盖需求-BOM-工艺-产线数据贯通、DES/物理/机器人仿真、虚拟调试、产线节拍与 WIP 优化、变更影响分析及 ISO 23247/ISO 22400 指标治理",
       "emoji": "🔗",
       "category": "manufacturing",
       "subcategory": "",
@@ -350,23 +353,24 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "MBSE",
-        "digital",
-        "engineering",
-        "Connected"
+        "digital-thread",
+        "line-simulation",
+        "virtual-commissioning",
+        "mbse"
       ],
       "keywords": [
         "数字主线",
-        "数字工程",
-        "Digital",
-        "Thread",
-        "架构师"
+        "制造系统数字孪生",
+        "产线仿真 DES",
+        "虚拟调试",
+        "变更影响分析",
+        "ISO 23247"
       ]
     },
     {
       "id": "manufacturing-engineering-digital-twins-platform",
       "name": "工业数字孪生平台工程师",
-      "description": "工业资产数字孪生与资产性能管理(APM)平台专家，覆盖3D模型/实时数据融合、故障预测/剩余寿命(RUL)、资产健康评分/维护策略优化与Digital Twin标准(ISO 23247)",
+      "description": "工业资产数字孪生与资产性能管理(APM)平台专家，覆盖资产层级与3D/实时数据融合、健康评分、RUL 剩余寿命预测、CMMS 工单闭环与 ISO 23247 数字孪生架构",
       "emoji": "🔗",
       "category": "manufacturing",
       "subcategory": "",
@@ -385,17 +389,18 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "industrial",
-        "digital",
-        "twins",
-        "Built"
+        "digital-twin-platform",
+        "asset-performance-management",
+        "predictive-maintenance",
+        "rul"
       ],
       "keywords": [
-        "工业数字孪生平台工程师",
-        "工业资产数字孪生与资产性能管理",
-        "APM",
-        "平台专家，覆盖3D模型",
-        "实时数据融合"
+        "工业数字孪生平台",
+        "资产性能管理 APM",
+        "剩余寿命 RUL",
+        "3D 数据融合",
+        "资产健康评分",
+        "ISO 23247"
       ]
     },
     {
@@ -423,13 +428,11 @@
         "manufacturing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "电子制造",
         "SMT工艺工程师",
-        "电子组装制造与SMT工艺专家，覆盖SMT贴片",
         "回流焊",
         "波峰焊工艺"
       ]
@@ -444,8 +447,7 @@
       "path": "manufacturing/manufacturing-engineering-glass-ceramics.md",
       "depends_on": [
         "energy-engineering-energy-storage-materials-sci",
-        "manufacturing-engineering-3d-printing-additive",
-        "marketing-abm-account-based"
+        "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -458,21 +460,19 @@
         "manufacturing",
         "glass",
         "ceramics",
-        "Developed",
         "materials"
       ],
       "keywords": [
         "玻璃",
         "陶瓷",
         "耐火材料工程师",
-        "无机非金属材料与高温过程专家，覆盖玻璃熔制",
         "浮法"
       ]
     },
     {
       "id": "manufacturing-engineering-ic-packaging",
       "name": "先进封装/异构集成工程师",
-      "description": "先进IC封装与异构集成技术专家，覆盖2.5D/3D封装(CoWoS/EMIB/Foveros)、芯片堆叠(混合键合Hybrid Bonding)、扇出封装(Fan-Out/FOWLP)与Chiplet/UCIe互连标准",
+      "description": "先进封装与异构集成工程师：负责2.5D/3D封装(CoWoS/EMIB/Foveros)、混合键合、扇出与Chiplet/UCIe互连的架构选型、热-力-电协同仿真、基板/中介层设计与可靠性验证，交付可量产且良率受控的封装方案。",
       "emoji": "💎",
       "category": "manufacturing",
       "subcategory": "",
@@ -491,23 +491,24 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "semiconductor",
-        "packaging",
-        "Developed",
-        "advanced"
+        "advanced-packaging",
+        "heterogeneous-integration",
+        "chiplet",
+        "hybrid-bonding"
       ],
       "keywords": [
         "先进封装",
-        "异构集成工程师",
-        "先进IC封装与异构集成技术专家，覆盖2.5D",
-        "3D封装",
-        "CoWoS"
+        "异构集成",
+        "CoWoS",
+        "EMIB",
+        "混合键合",
+        "UCIe"
       ]
     },
     {
       "id": "manufacturing-engineering-laser-processing",
       "name": "激光加工/激光制造工程师",
-      "description": "工业激光材料加工与激光制造专家，覆盖激光切割/焊接/打标/熔覆/3D打印(SLM/LPBF)、超快激光(飞秒/皮秒)微纳加工、光束整形/振镜与激光安全(IEC 60825)",
+      "description": "工业激光材料加工工程师，覆盖光纤/CO2/超快激光切割、焊接、打标、熔覆与清洗，光束传输与振镜扫描、工艺窗口DOE、在线监测及IEC 60825激光安全与ISO 9013切缝质量",
       "emoji": "💥",
       "category": "manufacturing",
       "subcategory": "",
@@ -527,23 +528,26 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "laser",
-        "materials",
-        "processing",
-        "Developed"
+        "laser-processing",
+        "optics",
+        "welding",
+        "safety"
       ],
       "keywords": [
         "激光加工",
-        "激光制造工程师",
-        "工业激光材料加工与激光制造专家，覆盖激光切割",
-        "焊接",
-        "打标"
+        "激光切割",
+        "激光焊接",
+        "光纤激光",
+        "超快激光",
+        "振镜",
+        "激光安全",
+        "熔覆"
       ]
     },
     {
       "id": "manufacturing-engineering-material-scientist",
       "name": "材料科学与工程专家",
-      "description": "材料科学与选材工程专家，覆盖金属/陶瓷/聚合物/复合材料特性、失效分析(断口/金相)、材料测试(拉伸/疲劳/蠕变)与材料选择/替代(绿色材料/轻量化)",
+      "description": "Materials selection and failure-analysis specialist covering metals, ceramics, polymers and composites, mechanical testing, fractography, process-property relationships, and substitution.",
       "emoji": "🧪",
       "category": "manufacturing",
       "subcategory": "",
@@ -551,7 +555,6 @@
       "depends_on": [
         "automotive-engineering-automotive-homologation-test",
         "manufacturing-multi-agent-coordinator",
-        "healthcare-engineering-regulatory-science",
         "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
@@ -568,20 +571,21 @@
         "materials",
         "science",
         "engineering",
-        "Selected"
+        "failure-analysis"
       ],
       "keywords": [
-        "材料科学与工程专家",
-        "材料科学与选材工程专家，覆盖金属",
-        "陶瓷",
-        "聚合物",
-        "复合材料特性"
+        "materials selection",
+        "failure analysis",
+        "fractography",
+        "mechanical testing",
+        "composites",
+        "material substitution"
       ]
     },
     {
       "id": "manufacturing-engineering-mineral-processing",
       "name": "选矿/矿物加工工程师",
-      "description": "矿石粉碎/磨矿/浮选/磁选/重选工艺专家，覆盖选矿流程设计/模拟(JKSimMet/ MODSIM)、磨矿回路/分级效率、浮选药剂/电化学与精矿脱水/尾矿处置",
+      "description": "选矿厂工艺工程师，覆盖破碎/HPGR/SAG/球磨粉碎回路、浮选/磁选/重选分离、矿石可选性试验与流程模拟、精矿脱水与尾矿膏体处置，以及回收率/品位/能耗/水耗的持续优化",
       "emoji": "⛏️",
       "category": "manufacturing",
       "subcategory": "",
@@ -599,23 +603,27 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "mineral",
-        "processing",
-        "Designed",
-        "concentrators"
+        "mineral-processing",
+        "comminution",
+        "flotation",
+        "tailings"
       ],
       "keywords": [
         "选矿",
-        "矿物加工工程师",
-        "矿石粉碎",
+        "矿物加工",
+        "粉碎",
         "磨矿",
-        "浮选"
+        "浮选",
+        "磁选",
+        "重选",
+        "尾矿",
+        "流程模拟"
       ]
     },
     {
       "id": "manufacturing-engineering-optical-lithography",
       "name": "光刻/计算光刻(OPC)工程师",
-      "description": "极紫外(EUV)/深紫外(DUV)光刻工艺与计算光刻专家，覆盖EUV光刻胶/多层膜/ Stochastic defect、OPC光学邻近修正/ ILT逆向光刻/ SMO光源掩模优化、套刻精度(Overlay)与DTCO设计工艺协同优化",
+      "description": "EUV/DUV光刻与计算光刻工程师：负责13.5 nm EUV与193i曝光方案、光刻胶与掩模协同优化、OPC/ILT/SMO修正、SRAF与MRC约束、套刻与随机缺陷控制，通过模型标定与工艺窗口验证交付可量产的光刻层。",
       "emoji": "💡",
       "category": "manufacturing",
       "subcategory": "",
@@ -630,27 +638,28 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Printing lines narrower than the wavelength of light — that's the magic of computational lithography, where math and physics bend light to create the world's most precise patterns",
+      "vibe": "Printing lines narrower than the wavelength of light — computational lithography bends physics with math to create the world's most precise patterns",
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "semiconductor",
         "lithography",
-        "Pushed",
-        "optical"
+        "computational-lithography",
+        "euv",
+        "opc"
       ],
       "keywords": [
         "光刻",
         "计算光刻",
         "OPC",
-        "工程师",
-        "极紫外"
+        "EUV",
+        "SMO",
+        "随机缺陷"
       ]
     },
     {
       "id": "manufacturing-engineering-optical-metrology",
       "name": "精密测量/光学计量(Metrology)工程师",
-      "description": "超精密光学测量与几何量计量专家，覆盖激光干涉仪/自准直仪/坐标测量机(CMM)计量、白光干涉/共聚焦/结构光3D表面计量、纳米测量/校准链/测量不确定度(GUM)与半导体/光学制造在线计量",
+      "description": "超精密光学计量与几何量测量工程师：负责激光干涉仪、坐标测量机(CMM)、白光干涉与共聚焦表面计量、光学对准与在线检测，依据GUM完成不确定度评定、量值溯源与校准链管理，为半导体光学与精密制造提供可追溯的测量结论。",
       "emoji": "📏",
       "category": "manufacturing",
       "subcategory": "",
@@ -663,27 +672,28 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Measuring a mirror to nanometer precision, aligning optics to microradian accuracy — that's precision metrology, the foundation of everything from chip manufacturing to gravitational wave detection",
+      "vibe": "Measuring a mirror to nanometer precision, aligning optics to microradian accuracy — metrology turns physical reality into numbers you can defend",
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "precision",
-        "measurement",
-        "Designed",
-        "metrology"
+        "optical-metrology",
+        "interferometry",
+        "uncertainty",
+        "calibration"
       ],
       "keywords": [
-        "精密测量",
         "光学计量",
-        "Metrology",
-        "工程师",
-        "超精密光学测量与几何量计量专家，覆盖激光干涉仪"
+        "激光干涉仪",
+        "坐标测量机",
+        "白光干涉",
+        "测量不确定度",
+        "量值溯源"
       ]
     },
     {
       "id": "manufacturing-engineering-pcb-designer",
       "name": "PCB/电子硬件设计工程师",
-      "description": "印刷电路板与电子硬件设计专家，覆盖高速/混合信号PCB Layout、Altium/Cadence/ KiCad EDA工具、信号完整性(SI)/电源完整性(PI)仿真与DFM/DFT设计",
+      "description": "高速与混合信号PCB设计工程师：负责叠层与阻抗规划、器件布局、高速布线与SI/PI仿真、EMC/ESD设计及DFM/DFT可制造性评审，使用Altium/Cadence/KiCad完成从原理图到Gerber与装配文件的量产释放。",
       "emoji": "🛠️",
       "category": "manufacturing",
       "subcategory": "",
@@ -701,17 +711,18 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "design",
-        "Laid",
-        "boards",
-        "simple"
+        "pcb-design",
+        "signal-integrity",
+        "power-integrity",
+        "dfm"
       ],
       "keywords": [
-        "PCB",
-        "电子硬件设计工程师",
-        "印刷电路板与电子硬件设计专家，覆盖高速",
-        "混合信号PCB",
-        "Layout"
+        "PCB设计",
+        "高速布线",
+        "信号完整性",
+        "电源完整性",
+        "叠层设计",
+        "DFM"
       ]
     },
     {
@@ -744,7 +755,6 @@
       "keywords": [
         "光学",
         "光子学工程师",
-        "光学系统与光子学设计专家，覆盖光学设计",
         "Zemax",
         "Code"
       ]
@@ -752,7 +762,7 @@
     {
       "id": "manufacturing-engineering-photonics-integrated",
       "name": "集成光子/硅光芯片设计工程师",
-      "description": "硅基光子集成(PIC)与光电共封装(CPO)设计专家，覆盖硅光子器件(波导/调制器/Ge PD/光栅耦合器)/PDK工艺、光子芯片(PIC)版图/DRC与光电2.5D/3D异质集成",
+      "description": "硅基光子集成(PIC)设计工程师：负责硅光器件(波导/调制器/Ge PD/耦合器)选型、PDK版图与DRC/LVS、光电协同仿真、MPW流片及CPO/2.5D封装协同，交付可测试、可封装且链路预算闭合的PIC。",
       "emoji": "💡",
       "category": "manufacturing",
       "subcategory": "",
@@ -770,30 +780,30 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "silicon",
-        "photonics",
-        "Designed",
-        "PICs"
+        "silicon-photonics",
+        "pic-design",
+        "optical-packaging",
+        "cpo"
       ],
       "keywords": [
-        "集成光子",
-        "硅光芯片设计工程师",
-        "硅基光子集成",
+        "硅光",
         "PIC",
-        "与光电共封装"
+        "PDK",
+        "光调制器",
+        "光电共封装",
+        "光子集成"
       ]
     },
     {
       "id": "manufacturing-engineering-plasma-technology",
       "name": "等离子体/半导体工艺刻蚀工程师",
-      "description": "半导体等离子体刻蚀与薄膜沉积工艺专家，覆盖ICP/CCP/RIE等离子体刻蚀、ALD/CVD/PECVD/ALE原子级沉积刻蚀、等离子体诊断(OES/Langmuir probe)与工艺窗口开发/DOE",
+      "description": "半导体等离子体工艺工程师，覆盖ICP/CCP/RIE刻蚀、PECVD/CVD/ALD沉积与ALE原子层刻蚀，等离子体诊断(OES/Langmuir/VI probe)、腔体匹配与 seasoning、工艺窗口DOE及缺陷/均匀性控制",
       "emoji": "⚡",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-plasma-technology.md",
       "depends_on": [
-        "manufacturing-engineering-semiconductor-process",
-        "marketing-paid-media-tracking-specialist"
+        "manufacturing-engineering-semiconductor-process"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -805,28 +815,32 @@
       "tags": [
         "manufacturing",
         "semiconductor",
-        "plasma",
-        "processing",
-        "Developed"
+        "plasma-processing",
+        "thin-films",
+        "process-control"
       ],
       "keywords": [
         "等离子体",
-        "半导体工艺刻蚀工程师",
-        "半导体等离子体刻蚀与薄膜沉积工艺专家，覆盖ICP",
+        "刻蚀",
+        "ICP",
         "CCP",
-        "RIE等离子体刻蚀"
+        "RIE",
+        "ALD",
+        "PECVD",
+        "ALE",
+        "工艺窗口",
+        "腔体匹配"
       ]
     },
     {
       "id": "manufacturing-engineering-polymer-science",
       "name": "高分子材料/聚合物科学家",
-      "description": "高分子合成与聚合物材料物理专家，覆盖自由基/缩聚/开环/配位聚合、高分子流变学/力学性能/热分析(DSC/DMA/TGA)、高分子共混/复合材料与生物可降解/生物基高分子",
+      "description": "Polymer scientist covering synthesis, structure-property relationships, rheology, thermal and mechanical characterization, blends, and biobased materials.",
       "emoji": "🧪",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-polymer-science.md",
       "depends_on": [
-        "healthcare-engineering-regulatory-science",
         "manufacturing-engineering-material-scientist"
       ],
       "nexus_roles": [
@@ -840,29 +854,29 @@
       "tags": [
         "manufacturing",
         "polymer",
-        "science",
-        "Developed",
-        "materials"
+        "materials",
+        "characterization",
+        "bioplastics"
       ],
       "keywords": [
-        "高分子材料",
-        "聚合物科学家",
-        "高分子合成与聚合物材料物理专家，覆盖自由基",
-        "缩聚",
-        "开环"
+        "polymer synthesis",
+        "structure-property relationships",
+        "polymer rheology",
+        "thermal analysis",
+        "polymer blends",
+        "biopolymers"
       ]
     },
     {
       "id": "manufacturing-engineering-process-automation",
       "name": "流程自动化(RPA/BPA)工程师",
-      "description": "机器人流程自动化与业务流程自动化专家，覆盖UiPath/Automation Anywhere/Power Automate RPA平台、流程挖掘/任务捕获、低代码自动化与CoE卓越中心治理",
+      "description": "机器人流程自动化与业务流程自动化专家，覆盖UiPath/Automation Anywhere/Power Automate平台、流程挖掘与任务捕获、低代码编排、CoE治理、机器人生命周期及异常处理",
       "emoji": "🤖",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-process-automation.md",
       "depends_on": [
-        "manufacturing-engineering-composites-manufacturing",
-        "testing-engineering-test-automation-framework"
+        "manufacturing-engineering-composites-manufacturing"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -873,17 +887,22 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "process",
-        "automation",
-        "Automated",
-        "thousands"
+        "rpa",
+        "business-process-automation",
+        "low-code",
+        "governance"
       ],
       "keywords": [
         "流程自动化",
         "RPA",
         "BPA",
-        "工程师",
-        "机器人流程自动化与业务流程自动化专家，覆盖UiPath"
+        "机器人流程自动化",
+        "流程挖掘",
+        "任务捕获",
+        "UiPath",
+        "Automation Anywhere",
+        "Power Automate",
+        "CoE治理"
       ]
     },
     {
@@ -921,7 +940,6 @@
       "keywords": [
         "半导体工艺",
         "良率工程师",
-        "晶圆制造工艺与良率提升专家，覆盖光刻",
         "蚀刻",
         "CVD"
       ]
@@ -958,7 +976,6 @@
       "keywords": [
         "仿真",
         "CAE工程师",
-        "计算机辅助工程与多物理场仿真专家，覆盖FEM有限元",
         "CFD",
         "多体动力学仿真"
       ]
@@ -966,14 +983,13 @@
     {
       "id": "manufacturing-engineering-sports-engineering",
       "name": "体育工程/运动器材设计工程师",
-      "description": "体育器材与运动装备工程设计师，覆盖复合材料(碳纤维)自行车/球拍/球杆/滑雪板结构力学、运动鞋/跑步鞋生物力学/缓震/能量回馈、运动装备空气动力学(风洞/CFD)与FEA/冲击/疲劳测试",
+      "description": "运动器材与装备研发工程师，覆盖碳纤维自行车/球拍/滑雪板结构设计、跑步鞋生物力学与缓震回弹、风洞/CFD空气动力学、FEA冲击与疲劳验证，以及UCI/ITF/World Athletics/EN 1078等器材规则与安全合规",
       "emoji": "🏆",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-sports-engineering.md",
       "depends_on": [
-        "manufacturing-engineering-composites-manufacturing",
-        "testing-engineering-test-automation-framework"
+        "manufacturing-engineering-composites-manufacturing"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -984,30 +1000,33 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "sports",
-        "engineering",
-        "Designed",
-        "equipment"
+        "sports-engineering",
+        "biomechanics",
+        "product-development",
+        "testing"
       ],
       "keywords": [
         "体育工程",
-        "运动器材设计工程师",
-        "体育器材与运动装备工程设计师，覆盖复合材料",
+        "运动器材",
+        "生物力学",
+        "空气动力学",
         "碳纤维",
-        "自行车"
+        "跑步鞋",
+        "自行车",
+        "风洞",
+        "疲劳测试"
       ]
     },
     {
       "id": "manufacturing-engineering-surface-engineering",
       "name": "表面工程/热喷涂/电镀工程师",
-      "description": "先进表面涂层与表面改性技术专家，覆盖热喷涂(HVOF/等离子/电弧/火焰)/冷喷涂、PVD/CVD/电镀/化学镀/阳极氧化、激光熔覆/堆焊与涂层表征(附着力/孔隙率/显微硬度/磨损)",
+      "description": "Surface engineering specialist for PVD, CVD, electroplating and anodizing, covering coating selection, pre-treatment, characterization, and finishing qualification.",
       "emoji": "🎨",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-surface-engineering.md",
       "depends_on": [
-        "manufacturing-engineering-thermal-spray",
-        "marketing-paid-media-tracking-specialist"
+        "manufacturing-engineering-thermal-spray"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1018,30 +1037,30 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "surface",
-        "engineering",
-        "Applied",
-        "coatings"
+        "surface-engineering",
+        "coatings",
+        "plating",
+        "finishing"
       ],
       "keywords": [
-        "表面工程",
-        "热喷涂",
-        "电镀工程师",
-        "先进表面涂层与表面改性技术专家，覆盖热喷涂",
-        "HVOF"
+        "surface engineering",
+        "PVD and CVD",
+        "electroplating",
+        "anodizing",
+        "coating adhesion",
+        "coating characterization"
       ]
     },
     {
       "id": "manufacturing-engineering-test-chip-bringup",
       "name": "芯片验证/测试开发工程师",
-      "description": "芯片Bring-Up与测试开发专家，覆盖ATE测试(Advantest/Teradyne)、DFT可测性设计、芯片回片调试(Bring-Up)、SLT系统级测试与量产测试程序开发",
+      "description": "芯片Bring-Up与测试开发工程师：负责首硅上电调试、电源/时钟/复位序列、DFT(Scan/MBIST/JTAG)评审、ATE(Advantest/Teradyne)测试程序开发、Shmoo表征、SLT系统级测试与量产DPPM管控，确保芯片从实验室走向稳定量产。",
       "emoji": "🔬",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-test-chip-bringup.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive",
-        "testing-engineering-test-automation-framework"
+        "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -1049,34 +1068,34 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Billion-transistor chips need billion-vector test suites — you write the patterns that prove the silicon works before it ships to customers",
+      "vibe": "First silicon only tells the truth when you ask the right question — bring-up and test turn a fragile sample into a shippable product",
       "lifecycle": "published",
       "tags": [
         "manufacturing",
         "semiconductor",
-        "testing",
-        "Developed",
-        "production"
+        "chip-bringup",
+        "ate",
+        "production-test"
       ],
       "keywords": [
-        "芯片验证",
-        "测试开发工程师",
-        "芯片Bring-Up与测试开发专家，覆盖ATE测试",
-        "Advantest",
-        "Teradyne"
+        "芯片Bring-Up",
+        "ATE测试",
+        "DFT",
+        "可测性设计",
+        "SLT",
+        "DPPM"
       ]
     },
     {
       "id": "manufacturing-engineering-textile-engineering",
       "name": "纺织工程/功能性纺织品开发专家",
-      "description": "产业用纺织品与功能性面料开发专家，覆盖高性能纤维(碳纤维/芳纶/UHMWPE)、智能/电子纺织品(E-Textiles)、非织造布/过滤材料与纺织品测试(ASTM/ISO)",
+      "description": "Technical textile engineer covering high-performance fibers, woven, knit and nonwoven structures, dyeing and finishing, performance testing, and sustainable textile development.",
       "emoji": "🧵",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-textile-engineering.md",
       "depends_on": [
-        "manufacturing-engineering-additive-manufacturing-metal",
-        "testing-engineering-test-automation-framework"
+        "manufacturing-engineering-additive-manufacturing-metal"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1087,23 +1106,24 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "technical",
         "textiles",
-        "Developed",
-        "fabrics"
+        "technical-textiles",
+        "nonwovens",
+        "finishing"
       ],
       "keywords": [
-        "纺织工程",
-        "功能性纺织品开发专家",
-        "产业用纺织品与功能性面料开发专家，覆盖高性能纤维",
-        "碳纤维",
-        "芳纶"
+        "technical textiles",
+        "high-performance fibers",
+        "nonwoven engineering",
+        "textile finishing",
+        "performance testing",
+        "sustainable textiles"
       ]
     },
     {
       "id": "manufacturing-engineering-thermal-spray",
       "name": "增材修复/激光熔覆再制造工程师",
-      "description": "高能束增材修复与零部件再制造专家，覆盖激光熔覆(LENS/DMD)/电子束/等离子/超音速火焰喷涂(HVOF)修复、损伤评估/可修复性判定(NDT)、修复后加工/热处理/检测与MRO/航空发动机/矿山机械再制造",
+      "description": "Additive repair and remanufacturing engineer for worn or damaged components, covering laser cladding (LENS/DMD), electron-beam and plasma repair, damage assessment, repairability, pre/post machining, heat treatment, residual stress, and MRO qualification.",
       "emoji": "♻️",
       "category": "manufacturing",
       "subcategory": "",
@@ -1122,29 +1142,29 @@
       "tags": [
         "manufacturing",
         "remanufacturing",
-        "Repaired",
-        "high-value",
-        "components"
+        "laser-cladding",
+        "repair",
+        "MRO"
       ],
       "keywords": [
-        "增材修复",
-        "激光熔覆再制造工程师",
-        "高能束增材修复与零部件再制造专家，覆盖激光熔覆",
-        "LENS",
-        "DMD"
+        "laser cladding",
+        "directed energy deposition",
+        "remanufacturing",
+        "damage assessment",
+        "repair qualification",
+        "MRO"
       ]
     },
     {
       "id": "manufacturing-engineering-tooling-design",
       "name": "模具/工装夹具设计工程师",
-      "description": "注塑模具/冲压模具/压铸模具与工装夹具设计专家，覆盖注塑模(热流道/冷却/顶出)、冲压模(级进模/传递模)、公差积累/GD&T与模具流动分析(Moldflow)",
+      "description": "注塑模/冲压模/压铸模与工装夹具设计专家，覆盖分型与浇注系统、冷却与顶出、级进模/传递模、GD&T 公差链、Moldflow/AutoForm 仿真与试模验收",
       "emoji": "🔧",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-tooling-design.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive",
-        "marketing-paid-media-tracking-specialist"
+        "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1155,30 +1175,30 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "tool",
-        "design",
-        "Designed",
-        "molds"
+        "tooling-design",
+        "injection-molding",
+        "metal-stamping",
+        "die-casting"
       ],
       "keywords": [
-        "模具",
-        "工装夹具设计工程师",
-        "注塑模具",
-        "冲压模具",
-        "压铸模具与工装夹具设计专家，覆盖注塑模"
+        "注塑模具设计",
+        "冲压级进模",
+        "压铸模",
+        "GD&T 公差链",
+        "Moldflow 模流分析",
+        "试模与验收"
       ]
     },
     {
       "id": "manufacturing-engineering-tribology-engineer",
       "name": "摩擦学/润滑工程专家",
-      "description": "摩擦磨损与润滑科学专家，覆盖接触力学/弹流润滑(EHL)/边界润滑薄膜、润滑油/润滑脂/固体润滑剂配方、轴承/齿轮/密封/刹车摩擦副设计与磨损/胶合/微动磨损失效分析",
+      "description": "Contact mechanics and lubrication specialist for bearings, gears, seals, and wear surfaces, covering EHL and boundary films, lubricant formulation, and fretting or pitting failures.",
       "emoji": "⚙️",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-tribology-engineer.md",
       "depends_on": [
-        "manufacturing-engineering-3d-printing-additive",
-        "marketing-paid-media-tracking-specialist"
+        "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1190,29 +1210,29 @@
       "tags": [
         "manufacturing",
         "tribology",
-        "Solved",
-        "wear",
-        "friction"
+        "lubrication",
+        "bearings",
+        "wear"
       ],
       "keywords": [
-        "摩擦学",
-        "润滑工程专家",
-        "摩擦磨损与润滑科学专家，覆盖接触力学",
-        "弹流润滑",
-        "EHL"
+        "contact mechanics",
+        "elastohydrodynamic lubrication",
+        "bearing life",
+        "fretting wear",
+        "lubricant additives",
+        "surface topography"
       ]
     },
     {
       "id": "manufacturing-engineering-vibration-analysis",
       "name": "振动分析/旋转机械诊断工程师",
-      "description": "工业旋转机械振动诊断与状态监测专家，覆盖振动频谱分析(FFT/包络谱)/轴心轨迹、轴承/齿轮/电机故障诊断、动平衡/对中修正在线/离线与预测性维护(PdM)方案",
+      "description": "旋转机械状态监测与故障诊断专家，聚焦 FFT/包络谱/阶次跟踪、轴承与齿轮缺陷识别、现场动平衡与激光对中，以及基于 ISO 20816 的预测性维护(PdM)路线设计",
       "emoji": "📊",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-vibration-analysis.md",
       "depends_on": [
-        "manufacturing-tpm-reliability",
-        "marketing-paid-media-tracking-specialist"
+        "manufacturing-tpm-reliability"
       ],
       "nexus_roles": [
         "phase-3-build"
@@ -1223,23 +1243,24 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "machinery",
-        "diagnostics",
-        "Predicted",
-        "thousands"
+        "condition-monitoring",
+        "vibration-diagnostics",
+        "rotating-equipment",
+        "predictive-maintenance"
       ],
       "keywords": [
-        "振动分析",
-        "旋转机械诊断工程师",
-        "工业旋转机械振动诊断与状态监测专家，覆盖振动频谱分析",
-        "FFT",
-        "包络谱"
+        "旋转机械振动诊断",
+        "包络谱分析",
+        "轴承故障",
+        "动平衡",
+        "激光对中",
+        "状态监测 PdM"
       ]
     },
     {
       "id": "manufacturing-engineering-vibration-testing",
       "name": "环境应力筛选/振动冲击试验工程师",
-      "description": "产品环境与可靠性试验验证专家，覆盖随机振动/正弦扫频/经典冲击/SRS冲击试验、温度/湿度/高度/盐雾综合环境试验、HALT/HASS/HASA与MIL-STD-810/DO-160/GB/T 2423",
+      "description": "产品环境与可靠性试验验证专家，覆盖随机振动/正弦扫频/经典冲击/SRS冲击、夹具模态验证、HALT/HASS/ESS、温度-振动综合试验与 MIL-STD-810H/IEC 60068/ISO 16750 合规",
       "emoji": "🔬",
       "category": "manufacturing",
       "subcategory": "",
@@ -1259,29 +1280,29 @@
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "environmental",
-        "testing",
-        "Qualified",
-        "products"
+        "environmental-testing",
+        "vibration-shock",
+        "reliability-qualification",
+        "halt-hass"
       ],
       "keywords": [
         "环境应力筛选",
-        "振动冲击试验工程师",
-        "产品环境与可靠性试验验证专家，覆盖随机振动",
-        "正弦扫频",
-        "经典冲击"
+        "振动冲击试验",
+        "夹具模态",
+        "随机振动 PSD",
+        "冲击响应谱 SRS",
+        "HALT HASS ESS"
       ]
     },
     {
       "id": "manufacturing-engineering-welding-metallurgy",
       "name": "焊接工程/焊接冶金专家",
-      "description": "焊接工艺与焊接冶金专家，覆盖电弧焊(GMAW/GTAW/SMAW/FCAW)/激光焊/搅拌摩擦焊(FSW)、焊接冶金(热影响区/残余应力)、焊接WPS/PQR/WPQ与NDT无损检测(RT/UT/MT/PT)",
+      "description": "Arc, laser, and friction stir welding specialist covering WPS/PQR qualification, HAZ metallurgy, residual stress, hydrogen cracking, and NDT acceptance.",
       "emoji": "🔥",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-engineering-welding-metallurgy.md",
       "depends_on": [
-        "legal-engineering-legal-document-automation",
         "manufacturing-engineering-3d-printing-additive"
       ],
       "nexus_roles": [
@@ -1294,16 +1315,17 @@
       "tags": [
         "manufacturing",
         "welding",
-        "engineering",
-        "Qualified",
-        "procedures"
+        "metallurgy",
+        "fabrication",
+        "NDT"
       ],
       "keywords": [
-        "焊接工程",
-        "焊接冶金专家",
-        "焊接工艺与焊接冶金专家，覆盖电弧焊",
-        "GMAW",
-        "GTAW"
+        "焊接工艺评定",
+        "WPS/PQR",
+        "热影响区",
+        "残余应力",
+        "氢致开裂",
+        "搅拌摩擦焊"
       ]
     },
     {
@@ -1339,7 +1361,6 @@
       ],
       "keywords": [
         "制造总经理",
-        "制造领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -1369,7 +1390,6 @@
         "manufacturing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1383,7 +1403,7 @@
     {
       "id": "manufacturing-lean-six-sigma",
       "name": "精益制造/六西格玛专家",
-      "description": "精益制造与六西格玛质量改进专家，覆盖VSM价值流图析、5S/看板/标准化作业、DMAIC改善、SPC统计过程控制与持续改善(Kaizen)文化",
+      "description": "Lean Six Sigma Master Black Belt for manufacturing: value-stream analysis, DMAIC, SPC and process capability, MSA, DOE, and control plans that make improvements stick",
       "emoji": "📊",
       "category": "manufacturing",
       "subcategory": "",
@@ -1391,29 +1411,31 @@
       "depends_on": [
         "engineering-git-workflow-master",
         "manufacturing-engineering-3d-printing-additive",
-        "robotics-motion-control",
-        "testing-test-results-analyzer"
+        "robotics-motion-control"
       ],
       "nexus_roles": [
         "phase-3-build"
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Waste is not just material on the factory floor — it's time, motion, inventory, defects, and unused talent. You find it, measure it, and eliminate it.",
+      "vibe": "Waste hides in queues and variation hides in averages — measure both at the gemba, then remove the cause instead of polishing the symptom",
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "lean",
+        "quality",
+        "statistics",
+        "continuous-improvement"
       ],
       "keywords": [
-        "精益制造",
-        "六西格玛专家",
-        "精益制造与六西格玛质量改进专家，覆盖VSM价值流图析",
-        "5S",
-        "看板"
+        "lean manufacturing",
+        "six sigma",
+        "DMAIC",
+        "value stream mapping",
+        "statistical process control",
+        "process capability",
+        "design of experiments",
+        "kaizen"
       ]
     },
     {
@@ -1434,20 +1456,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating manufacturing specialists into coherent multi-agent workflows",
+      "vibe": "A factory is a system of constraints — optimize the bottleneck, protect the operator, and never let a quality escape become a shipment.",
       "tags": [
         "manufacturing",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "smart-factory",
+        "quality",
+        "lean",
+        "multi-agent-coordination"
       ],
       "keywords": [
-        "Manufacturing",
-        "Multi-Agent",
-        "Coordinator",
-        "Coordinates",
-        "workflows"
+        "manufacturing",
+        "production-planning",
+        "quality-management",
+        "lean-six-sigma",
+        "maintenance-reliability"
       ]
     },
     {
@@ -1478,12 +1500,10 @@
         "manufacturing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "工厂厂长",
-        "制造工厂全面管理者，覆盖生产运营",
         "产出效率",
         "质量",
         "安全"
@@ -1513,7 +1533,6 @@
         "manufacturing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1547,14 +1566,12 @@
         "manufacturing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "生产计划与排程",
         "APS",
         "专家",
-        "生产计划与高级排程专家，覆盖MPS主计划",
         "MRP物料需求"
       ]
     },
@@ -1583,7 +1600,6 @@
         "manufacturing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1618,7 +1634,6 @@
         "manufacturing",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1632,14 +1647,13 @@
     {
       "id": "manufacturing-tpm-reliability",
       "name": "设备维护与可靠性(TPM)工程师",
-      "description": "设备维护管理与可靠性工程专家，覆盖TPM全员生产维护/自主保全、RCM以可靠性为中心的维护、预测性维护(PdM)/振动分析/油液分析、OEE综合效率与CMMS/EAM系统",
+      "description": "TPM and reliability engineer for asset-intensive plants: criticality, RCM, FMEA, condition monitoring, OEE loss analysis, and CMMS data that supports Weibull and spares decisions",
       "emoji": "🔧",
       "category": "manufacturing",
       "subcategory": "",
       "path": "manufacturing/manufacturing-tpm-reliability.md",
       "depends_on": [
-        "manufacturing-engineering-additive-manufacturing-metal",
-        "testing-engineering-reliability-testing"
+        "manufacturing-engineering-additive-manufacturing-metal"
       ],
       "nexus_roles": [
         "phase-3-build",
@@ -1647,21 +1661,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A machine that breaks down at 2AM costs production, costs overtime, costs customer deliveries — your job is making sure it never breaks down at 2AM, because you already predicted and prevented it",
+      "vibe": "A machine does not care about your schedule — choose the maintenance task from the failure mode, not from the calendar or the vendor's brochure",
       "lifecycle": "published",
       "tags": [
         "manufacturing",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "maintenance",
+        "reliability",
+        "asset-management",
+        "condition-monitoring"
       ],
       "keywords": [
-        "设备维护与可靠性",
         "TPM",
-        "工程师",
-        "设备维护管理与可靠性工程专家，覆盖TPM全员生产维护",
-        "自主保全"
+        "reliability engineering",
+        "RCM",
+        "condition monitoring",
+        "predictive maintenance",
+        "OEE",
+        "vibration analysis",
+        "CMMS"
       ]
     }
   ]

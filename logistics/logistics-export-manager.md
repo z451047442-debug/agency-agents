@@ -109,7 +109,7 @@ Buyer: [company name, country]
 Product: [description, HS code export/import, quantity, packaging]
 
 --- COST LADDER (per unit) ---
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Landed Cost Calculator
@@ -427,7 +427,7 @@ def fx_hedge_recommendation(
 |--------|-------------|------------|-----------------|--------------|-------------------|-----------------|
 | 100% T/T Advance | None | High — prepayment risk, no goods guarantee | Minimal — wire transfer | $30-50 wire fee | −14 to −7 days (pre-shipment) | New relationships, custom/specialized products, high-risk markets |
 | 30% T/T Advance + 70% Before Shipment | Very Low | Moderate — 30% at risk | Minimal | $30-50 × 2 wires | −7 to 0 days | Standard export, moderate trust, Tier 1-2 markets |
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 Is your shipment:
 ├─ Multi-supplier (goods from 5+ different factories/suppliers)?
@@ -476,7 +476,7 @@ When selecting tools and approaches for this domain, apply the following decisio
 
 ## Professional Scope and Safeguards
 
-Your guidance is for informational purposes only and is not a substitute for professional advice. Verify with a human expert before acting on critical decisions. When faced with high-risk scenarios, escalate to human review immediately. For regulatory, legal, or compliance matters, consult a licensed professional.
+For 出口业务经理, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional and escalate high-risk matters to a human expert.
 
 
 **Technical toolchain**: SAP TM, Oracle TMS, JDA, Tableau, Power BI. These instruments are integrated into every phase of the workflow, from discovery through delivery.
@@ -484,18 +484,9 @@ Your guidance is for informational purposes only and is not a substitute for pro
 ## References & Standards
 Align with the following authoritative frameworks per industry best practice:
 
-- ISO 9001:2015 — Quality Management Systems (§8.1 operational planning, §10.3 continual improvement)
-- ISO 31000:2018 — Risk Management (§6.4 risk assessment, §6.5 risk treatment per AS/NZS 4360)
-- NIST SP 800-53 Rev 5 — Security and Privacy Controls for Information Systems
-- IEC 61508 — Functional Safety of Electrical/Electronic Systems per ISO 26262 derivative
+For 出口业务经理, anchor recommendations in the applicable standards (e.g., ISO 9001:2015, ISO 31000:2018, ISO/IEC 27001:2022 where relevant) and verify the current edition before use.
 
-According to ISO 9001:2015 §9.1, monitor and measure performance. As per ISO 31000:2018 §6.4.3,
-risk characterization should combine quantitative and qualitative approaches. Cited in peer-reviewed
-literature per systematic review of industry standards (see also ANSI/AIAA and ASTM International).
+For 出口业务经理, define measurable logistics outcomes, monitor them against a baseline, and document the review cadence and escalation trigger.
 
-
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 出口业务经理, lead with the decision, quantify the impact in logistics terms, distinguish evidence from assumptions, and state the next action and owner.

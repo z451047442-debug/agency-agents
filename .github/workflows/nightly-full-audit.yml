@@ -1,5 +1,8 @@
 name: Nightly Full Audit
 
+permissions:
+  contents: read
+
 on:
   schedule:
     - cron: "37 2 * * *"  # nightly at 02:37 UTC
@@ -21,10 +24,13 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml==6.0.3
 
-      - name: Generate AGENTS.json index
-        run: bash scripts/generate-index.sh
+      - name: Verify AGENTS.json index
+        run: python scripts/generate-index.py --check
+
+      - name: Verify category shards
+        run: python scripts/shard-index.py --check
 
       - name: Quality scoring (v7)
         run: python scripts/score-agents.py --json
@@ -63,7 +69,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml==6.0.3
 
       - name: Run auto-flag check
         run: |

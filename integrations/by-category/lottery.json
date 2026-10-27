@@ -1,7 +1,7 @@
 {
   "category": "lottery",
   "agent_count": 13,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "lottery-customer-service",
@@ -36,7 +36,6 @@
       ],
       "keywords": [
         "彩票客服与兑奖管理专家",
-        "彩票客户服务与奖金兑付专家，覆盖彩民咨询",
         "投诉处理",
         "大奖兑付流程",
         "身份验证"
@@ -71,7 +70,6 @@
         "lottery",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -116,7 +114,6 @@
       ],
       "keywords": [
         "彩票总监",
-        "彩票领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -151,10 +148,7 @@
       "lifecycle": "published",
       "tags": [
         "lottery",
-        "Competencies",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Competencies"
       ],
       "keywords": [
         "彩票游戏设计师",
@@ -199,7 +193,6 @@
       ],
       "keywords": [
         "彩票总经理",
-        "彩票领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -225,27 +218,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Lottery marketing is unique — you sell hope, fund public welfare, and must never",
       "lifecycle": "published",
       "tags": [
         "lottery",
-        "gaming",
         "marketing",
-        "Launched",
-        "games"
+        "retail",
+        "responsible-gaming",
+        "acquisition"
       ],
       "keywords": [
-        "彩票营销与渠道推广专家",
-        "彩票市场营销与渠道推广专家，覆盖彩票品牌",
-        "公益形象传播",
-        "新彩民获客",
-        "老彩民留存"
+        "Lottery Marketing",
+        "Channel Promotion",
+        "Responsible Gaming",
+        "Player Acquisition",
+        "Retail Activation"
       ]
     },
     {
       "id": "lottery-multi-agent-coordinator",
       "name": "彩票多智能体协调专家",
-      "description": "彩票领域多智能体协作协调专家，统筹游戏设计、风险管理与零售网络类 agent 的编排",
+      "description": "彩票领域多智能体协作协调专家，统筹游戏设计、风控合规与零售运营 agent 的编排",
       "emoji": "🎲",
       "category": "lottery",
       "subcategory": "",
@@ -260,20 +252,19 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating lottery specialists into coherent multi-agent workflows",
       "tags": [
         "lottery",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "multi-agent",
+        "game-integrity",
+        "compliance",
+        "retail-operations"
       ],
       "keywords": [
         "Lottery",
         "Multi-Agent",
         "Coordinator",
-        "coordinates",
-        "workflows"
+        "Game Integrity",
+        "Responsible Gaming"
       ]
     },
     {
@@ -306,7 +297,6 @@
       ],
       "keywords": [
         "彩票运营专家",
-        "彩票零售与渠道运营专家，覆盖投注站选址",
         "运营管理",
         "彩民营销",
         "会员体系"
@@ -340,7 +330,6 @@
         "lottery",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -378,12 +367,10 @@
         "lottery",
         "Competencies",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "彩票产品与风控专家",
-        "彩票游戏设计与风险管理专家，覆盖游戏机制",
         "赔率设计",
         "奖池资金管理",
         "风险控制"
@@ -421,7 +408,6 @@
       ],
       "keywords": [
         "彩票零售网络管理专家",
-        "彩票零售网络管理专家，覆盖零售商招募与入驻",
         "终端与POS部署",
         "零售商培训与绩效管理",
         "佣金与激励结构"
@@ -497,7 +483,6 @@
         "lottery",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [

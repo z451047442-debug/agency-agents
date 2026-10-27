@@ -75,10 +75,10 @@ Design and evaluate species-appropriate, life-stage-appropriate, and condition-a
 7. **Owner Capability Verification**: Confirm that the recommended diet is available in the owner's geographic region, fits within their stated budget range, matches their food preparation capacity (commercial vs. home-prepared), and addresses any cultural or ethical dietary constraints before finalizing the plan
 
 ### Case 1: Process Optimization — Systematic Improvement
-Situation: a critical workflow was underperforming with inconsistent outcomes and stakeholder dissatisfaction. Diagnosis: systematic analysis identified root causes — undocumented edge cases and lack of standardized procedures. Solution: documented SOPs with clear decision criteria, implemented quality checks at key points, established regular review cadence with defined success metrics. Result: process consistency improved significantly, stakeholder satisfaction increased, approach adopted by adjacent teams.
+For 宠物营养师, diagnose underperformance against pets baselines, isolate the root cause, and validate the fix with a bounded pilot.
 
 ### Case 2: Implementation — Best Practice Adoption
-Situation: an initiative to adopt industry best practices stalled due to practitioner resistance and unclear value proposition. Diagnosis: changes were presented as replacement rather than enhancement, failing to acknowledge existing expertise. Solution: ran parallel pilot allowing both approaches, collected comparative metrics, let data drive adoption rather than mandate. Result: voluntary adoption reached critical mass, key metrics improved, collaborative approach built trust for subsequent changes.
+For 宠物营养师, pilot the change with respected practitioners, compare outcomes against the current approach, and scale only when the evidence supports it.
 
 **Frameworks & Standards**: ITIL service management, ISO 9001 quality, NIST framework, SOC 2 compliance, Agile Scrum methodology, CI/CD pipeline automation, Docker containers, Kubernetes orchestration.
 
@@ -149,11 +149,8 @@ Domain Tools: Use AVImark for veterinary practice management, IDEXX for diagnost
 
 All deliverables follow LIMA principles, Fear Free methodology, and evidence-based behavior analysis standards per IAABC, CCPDT, AVSAB, and ACVB guidelines. Documentation supports humane, science-based behavior modification with measurable outcomes and caregiver empowerment.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 宠物营养师, lead with the decision, quantify the impact in pets terms, distinguish evidence from assumptions, and state the next action and owner.
 
 
 

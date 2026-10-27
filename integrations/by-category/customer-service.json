@@ -1,7 +1,7 @@
 {
   "category": "customer-service",
   "agent_count": 13,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "customer-service-call-center",
@@ -40,7 +40,6 @@
       ],
       "keywords": [
         "呼叫中心运营经理",
-        "全渠道联络中心运营经理，覆盖语音",
         "在线",
         "邮件",
         "社交媒体策略"
@@ -72,21 +71,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A great chatbot doesn't feel like talking to a machine — it feels like talking",
+      "vibe": "A great chatbot does not feel like talking to a machine — it feels like talking to the one person in the company who knows the answer, and knows when to fetch a colleague.",
       "lifecycle": "published",
       "tags": [
         "customer-service",
-        "designing",
-        "conversational",
-        "customer",
-        "service"
+        "conversational-ai",
+        "nlu",
+        "containment",
+        "human-handoff"
       ],
       "keywords": [
         "智能客服",
         "AI对话设计师",
-        "AI客服机器人与对话体验设计师，覆盖对话流",
-        "意图识别设计",
-        "知识库"
+        "意图识别",
+        "知识库",
+        "会话式AI"
       ]
     },
     {
@@ -123,7 +122,6 @@
       ],
       "keywords": [
         "投诉管理专家",
-        "投诉管理与服务补救专家，覆盖投诉处理框架设计",
         "根因分析",
         "8D",
         "Whys"
@@ -152,16 +150,11 @@
       "lifecycle": "published",
       "tags": [
         "customer-service",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "客户服务专员",
-        "专业客户服务专家，处理咨询",
         "投诉",
-        "账户支持与常见问题解答，以温暖高效的服务面向客户",
         "Customer"
       ]
     },
@@ -189,10 +182,7 @@
       "lifecycle": "published",
       "tags": [
         "customer-service",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "酒店客户服务专员",
@@ -220,7 +210,7 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating customer-service specialists into coherent multi-agent workflows",
+      "vibe": "orchestrating customer service specialists into coherent multi-agent workflows",
       "tags": [
         "customer-service",
         "Technical",
@@ -229,11 +219,11 @@
         "Metrics"
       ],
       "keywords": [
-        "Customer",
-        "Service",
+        "Customer Service",
         "Multi-Agent",
         "Coordinator",
-        "Coordinates"
+        "Coordinates",
+        "workflows"
       ]
     },
     {
@@ -260,15 +250,10 @@
       "lifecycle": "published",
       "tags": [
         "customer-service",
-        "Technical",
-        "Methodology",
-        "Decision",
-        "Framework"
+        "Technical"
       ],
       "keywords": [
         "零售退换货专员",
-        "全面的零售客户退换货专家，处理退货",
-        "换货与退款，覆盖门店",
         "线上与全渠道零售",
         "Retail"
       ]
@@ -307,13 +292,12 @@
         "客户成功总监",
         "Customer",
         "Success",
-        "Director",
-        "客户成功最高负责人，覆盖企业CS战略与团队领导"
+        "Director"
       ]
     },
     {
       "id": "customer-service-success-manager",
-      "name": "客户成功经理(CSM)",
+      "name": "客户成功与续费经理",
       "description": "客户成功与续费管理专家，覆盖客户入职/健康度监控、QBR业务评审、流失预警与挽回、续费/增购(upsell)策略与客户生命周期管理",
       "emoji": "🌟",
       "category": "customer-service",
@@ -341,13 +325,11 @@
         "customer-service",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "客户成功经理",
         "CSM",
-        "客户成功与续费管理专家，覆盖客户入职",
         "健康度监控",
         "QBR业务评审"
       ]
@@ -428,7 +410,6 @@
       ],
       "keywords": [
         "工单系统管理员",
-        "帮助台与ITSM平台管理专家，涵盖ServiceNow",
         "Jira",
         "Service",
         "Management"
@@ -461,8 +442,7 @@
         "customer-service",
         "Technical",
         "Outputs",
-        "Specification",
-        "Methodology"
+        "Specification"
       ],
       "keywords": [
         "语音AI客服设计师",
@@ -511,8 +491,7 @@
         "客服排班",
         "劳动力管理",
         "WFM",
-        "专家",
-        "客服中心劳动力管理与排班专家，覆盖话务量预测"
+        "专家"
       ]
     }
   ]

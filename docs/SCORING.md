@@ -173,7 +173,7 @@ v6 是从"加新维度"到"深化已有维度"的转折点。
 1. 在 `scripts/score-agents.py` 中添加检测模式和新评分函数 `score_agent_v<N>()`
 2. 添加 `--v<N>` CLI 参数
 3. 创建 `scripts/upgrade-to-a-v<N>.py` 注入新内容
-4. 更新 `scripts/improvement-plan.py`
+4. 更新 `scripts/quality-report.py` 或 `scripts/contribute.py` 的展示逻辑
 5. 更新 `.github/workflows/quality-gate.yml` 中的 CI 门禁阈值
 6. 在 `tests/test_score_agents.py` 中添加测试
 7. 执行全量升级，验证全部 A 级

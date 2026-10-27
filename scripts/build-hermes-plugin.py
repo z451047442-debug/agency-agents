@@ -444,7 +444,7 @@ def build(repo_root: Path, out_dir: Path) -> int:
     agents = collect_agents(repo_root)
     plugin_dir = out_dir / PLUGIN_NAME
     if plugin_dir.exists():
-        shutil.rmtree(plugin_dir)
+        shutil.rmtree(plugin_dir)  # audit-security: allow (plugin path under out_dir)
     (plugin_dir / "data").mkdir(parents=True, exist_ok=True)
     (plugin_dir / "plugin.yaml").write_text(plugin_yaml(), encoding="utf-8")
     (plugin_dir / "__init__.py").write_text(init_py(), encoding="utf-8")

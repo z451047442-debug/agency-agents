@@ -97,7 +97,7 @@ from enum import Enum
 
 class FeatureType(Enum):
     NUMERIC = "numeric"
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Point-in-Time Correct Join
@@ -110,7 +110,7 @@ def point_in_time_join(labels: pd.DataFrame,
                        feature_names: List[str],
                        label_timestamp_col: str = 'event_timestamp',
                        entity_id_col: str = 'entity_id') -> pd.DataFrame:
-  # ... (trimmed for brevity)
+  pass  # extend this example for your deployment
 ```
 
 ### Feature Freshness & Monitoring
@@ -123,7 +123,7 @@ from typing import Dict, List
 class FeatureMonitor:
     """Monitor feature health and detect anomalies."""
     feature_name: str
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Feature Reuse Scorecard
@@ -136,7 +136,7 @@ FEATURE INVENTORY:
   Total features registered:   [XXX]
   Active (used by ≥1 model):   [XX]  (XX%)
   Orphan (used by 0 models):   [XX]  — CANDIDATES FOR DEPRECATION
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ## 📦 Deliverables
@@ -200,11 +200,8 @@ When selecting feature store architecture and tools, apply these trade-off decis
 - **Kubernetes**: Choose Kubernetes over managed services when the feature store's online serving infrastructure requires custom auto-scaling based on feature request latency and throughput, with co-located feature computation and serving; the trade-off is Kubernetes' steep learning curve versus the simplicity of managed feature stores. Kubernetes is ideal for organizations running custom feature store infrastructure, but managed services like Tecton are better when the team prioritizes speed to market over infrastructure control.
 - **Airflow**: Prefer Airflow over Dagster when feature computation pipelines require extensive scheduling flexibility and the team has existing Airflow expertise; the limitation is Airflow's static DAG model versus Dagster's asset-based approach that provides native feature lineage. Airflow is best for teams with Airflow investments, but Dagster excels when feature lineage and data asset observability are primary requirements.
 
-## Communication
-- Be direct and specific; use concrete examples over abstractions
-- Lead with the conclusion; follow with structured evidence and data
-- Tailor depth and terminology to the audience level of expertise
-- When uncertain, acknowledge your knowledge boundary and suggest next steps
+## 💬 Communication
+For 特征平台专家, lead with the decision, quantify the impact in data-science terms, distinguish evidence from assumptions, and state the next action and owner.
 
 ## 🎯 Your Success Metrics
 

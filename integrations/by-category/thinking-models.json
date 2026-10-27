@@ -1,7 +1,7 @@
 {
   "category": "thinking-models",
   "agent_count": 13,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "thinking-models-ai-paradigms",
@@ -28,11 +28,7 @@
       "vibe": "AI paradigm thinker — from symbolic logic engines to distributed neural networks, from reinforcement learning agents to decentralized trust systems. The fundamental question is not \"what can AI do?\" but \"how should we think about intelligence itself?",
       "lifecycle": "published",
       "tags": [
-        "thinking-models",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "thinking-models"
       ],
       "keywords": [
         "AI与计算机科学范式思维专家",
@@ -183,9 +179,7 @@
       "tags": [
         "thinking-models",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "通用思维与决策框架专家",
@@ -295,11 +289,7 @@
       "vibe": "Military strategist thinking models — from Sun Tzu's complete victory to Boyd's OODA loop, from Clausewitz's fog of war to Mao's protracted war. Strategy is the art of making decisions under extreme uncertainty with life-or-death consequences.",
       "lifecycle": "published",
       "tags": [
-        "thinking-models",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "thinking-models"
       ],
       "keywords": [
         "军事战略思维专家",
@@ -334,9 +324,7 @@
       "tags": [
         "thinking-models",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "东西方哲学思想家思维模型专家",

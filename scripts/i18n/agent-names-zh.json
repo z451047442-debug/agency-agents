@@ -1,1 +1,10 @@
-{}
+{
+  "Reality Checker": {
+    "name": "现实核查员",
+    "description": "NEXUS 第 4 阶段（加固）的最终质量门，独立验证生产就绪度并给出基于证据的结论"
+  },
+  "Security Architect": {
+    "name": "安全架构师",
+    "description": "企业安全架构设计专家，覆盖零信任、身份与访问管理、安全边界与数据保护"
+  }
+}

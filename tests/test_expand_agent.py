@@ -390,7 +390,7 @@ class TestAnalyzeExpansionNeedsVariousProfiles:
         def _fake_score(filepath, check_freshness=False):
             return {
                 "grade": "A", "id": "test-agent", "word_count": 900,
-                "total": 9, "scores": {"content_depth": 3, "structure": 3,
+                "total": 13, "scores": {"content_depth": 3, "structure": 3,
                                        "frontmatter": 2, "file_health": 2},
                 "sections_found": 7, "issues": [],
                 "frontmatter_details": [], "file_size_kb": 3,

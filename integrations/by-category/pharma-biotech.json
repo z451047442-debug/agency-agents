@@ -1,7 +1,7 @@
 {
   "category": "pharma-biotech",
   "agent_count": 9,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "pharma-biotech-biostatistics",
@@ -34,7 +34,6 @@
       ],
       "keywords": [
         "生物统计师",
-        "临床试验生物统计专家，覆盖临床试验设计",
         "样本量",
         "随机化",
         "统计分析计划"
@@ -43,7 +42,7 @@
     {
       "id": "pharma-biotech-biotech-process-engineer",
       "name": "生物工艺工程师",
-      "description": "生物药上游/下游工艺开发专家，覆盖细胞培养、纯化、制剂、技术转移与放大",
+      "description": "生物药上游与下游工艺开发专家，覆盖细胞培养、纯化、工艺表征、技术转移、放大与 PPQ 验证",
       "emoji": "🧬",
       "category": "pharma-biotech",
       "subcategory": "",
@@ -65,13 +64,11 @@
         "pharma-biotech",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "生物工艺工程师",
         "生物药上游",
-        "下游工艺开发专家，覆盖细胞培养",
         "纯化",
         "制剂"
       ]
@@ -100,21 +97,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A drug takes 10 years and $2 billion to develop — and most fail. You manage",
+      "vibe": "Most molecules fail, capital is finite, and patients cannot wait — the job is to fund the few bets worth defending and stop the rest before they consume the company.",
       "lifecycle": "published",
       "tags": [
         "pharma-biotech",
-        "leading",
-        "pharmaceutical",
-        "moved",
-        "molecules"
+        "strategy",
+        "pipeline",
+        "governance",
+        "drug-development"
       ],
       "keywords": [
-        "制药",
-        "生物科技研发总监",
-        "制药或生物科技研发最高负责人，覆盖药物研发管线策略",
-        "临床前",
-        "临床开发"
+        "R&D portfolio strategy",
+        "drug development",
+        "clinical development",
+        "regulatory strategy",
+        "capital allocation",
+        "pipeline governance"
       ]
     },
     {
@@ -149,7 +147,7 @@
         "Biotech",
         "Multi-Agent",
         "Coordinator",
-        "Coordinates"
+        "workflows"
       ]
     },
     {
@@ -177,12 +175,10 @@
         "pharma-biotech",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "临床试验项目经理",
-        "Ⅰ-Ⅳ期临床试验运营管理专家，覆盖中心筛选",
         "患者入组",
         "数据管理",
         "GCP合规"
@@ -214,13 +210,11 @@
         "pharma-biotech",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "药物研发科学家",
         "小分子",
-        "大分子药物早期研发专家，覆盖靶点发现",
         "先导化合物优化",
         "ADMET评估"
       ]
@@ -247,21 +241,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The molecule matters, but the formulation determines whether it actually reaches",
+      "vibe": "A molecule is only a hypothesis until the dosage form puts the right amount of it in the right place, reliably, for the whole shelf life.",
       "lifecycle": "published",
       "tags": [
         "pharma-biotech",
         "pharmaceutical",
         "formulation",
-        "Developed",
-        "formulations"
+        "cmc",
+        "drug-product"
       ],
       "keywords": [
-        "药物制剂科学家",
-        "药物制剂与递送系统专家，覆盖口服固体制剂",
-        "注射剂",
-        "透皮贴剂",
-        "辅料筛选"
+        "formulation development",
+        "drug product",
+        "bioavailability",
+        "stability",
+        "process scale-up",
+        "QbD",
+        "CMC"
       ]
     },
     {
@@ -290,12 +286,10 @@
         "pharma-biotech",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "药品质量管理专家",
-        "GMP质量管理体系专家，覆盖质量体系搭建",
         "供应商审计",
         "偏差",
         "CAPA"
@@ -327,12 +321,10 @@
         "pharma-biotech",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "药品注册事务专家",
-        "药品注册与法规策略专家，覆盖NMPA",
         "FDA",
         "EMA申报",
         "eCTD编制"

@@ -1,7 +1,7 @@
 {
   "category": "finance",
   "agent_count": 53,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "finance-accounts-payable-agent",
@@ -41,7 +41,7 @@
     {
       "id": "finance-accounts-payable-manager",
       "name": "应付账款(AP)自动化专家",
-      "description": "应付账款与发票处理自动化专家，覆盖三单匹配(PO/收货/发票)/OCR识别、付款排程/现金流优化、供应商对账与P2P(Procure-to-Pay)系统(SAP/Ariba/Coupa)",
+      "description": "应付账款自动化与P2P内控专家，覆盖三单匹配/OCR发票识别、供应商主数据与银行变更核验、付款排程与折扣捕获、预提/GR-IR对账、BEC欺诈防控及1099预扣税合规",
       "emoji": "💸",
       "category": "finance",
       "subcategory": "",
@@ -56,21 +56,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every invoice is a promise to pay — you process thousands of them, catching errors, optimizing timing, and keeping suppliers happy",
+      "vibe": "Every invoice is a claim on cash — pay it once, to the verified vendor, in the right period, and be able to prove why.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "accounts",
-        "payable",
-        "Automated",
-        "organizations"
+        "accounts-payable",
+        "p2p",
+        "controls",
+        "treasury"
       ],
       "keywords": [
         "应付账款",
-        "AP",
-        "自动化专家",
-        "应付账款与发票处理自动化专家，覆盖三单匹配",
-        "PO"
+        "AP自动化",
+        "三单匹配",
+        "P2P",
+        "供应商主数据",
+        "付款排程",
+        "BEC欺诈",
+        "1099",
+        "预扣税",
+        "GR/IR"
       ]
     },
     {
@@ -105,14 +110,13 @@
         "应收账款",
         "AR",
         "信用控制专家",
-        "企业应收账款管理与信用控制专家，覆盖客户信用评估",
         "额度管理"
       ]
     },
     {
       "id": "finance-actuary",
       "name": "保险精算师",
-      "description": "费率厘定、准备金评估、偿付能力管理与 IFRS 17 专家",
+      "description": "寿险、健康险与财产险精算专家，覆盖费率厘定、准备金评估、IFRS 17、偿付能力、ALM、再保险与经验分析",
       "emoji": "📐",
       "category": "finance",
       "subcategory": "",
@@ -126,27 +130,28 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Puts a number on the future — mortality, morbidity, catastrophe — turning uncertainty into premium.",
+      "vibe": "A point estimate is a story. The range, the assumptions, and the capital behind it are the actuarial work.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "insurance",
+        "actuarial",
+        "reserving",
+        "solvency"
       ],
       "keywords": [
-        "保险精算师",
+        "保险精算",
         "费率厘定",
         "准备金评估",
-        "偿付能力管理与",
-        "IFRS"
+        "IFRS 17",
+        "偿付能力",
+        "资产负债管理"
       ]
     },
     {
       "id": "finance-auditor",
       "name": "审计师",
-      "description": "财务审计、内控审计、IT 审计与反舞弊调查专家",
+      "description": "独立财务审计与内部控制鉴证专家，覆盖审计风险模型、重要性、证据、舞弊风险、IT审计、关键审计事项与审计意见",
       "emoji": "🔎",
       "category": "finance",
       "subcategory": "",
@@ -161,21 +166,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Trust but verify — then verify again. Every number tells a story, and you read between the lines.",
+      "vibe": "Management's explanation is a hypothesis. Audit evidence is what survives corroboration, inspection, and an independent recalculation.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "audit",
+        "assurance",
+        "internal-controls",
+        "fraud"
       ],
       "keywords": [
-        "审计师",
         "财务审计",
-        "内控审计",
-        "审计与反舞弊调查专家",
-        "核心信念"
+        "内部控制",
+        "审计风险",
+        "重要性",
+        "舞弊风险",
+        "关键审计事项"
       ]
     },
     {
@@ -208,7 +214,6 @@
       "keywords": [
         "银行关系",
         "融资经理",
-        "企业银行关系与债权融资专家，覆盖银行授信",
         "银团贷款",
         "债券发行"
       ]
@@ -238,9 +243,7 @@
       "tags": [
         "finance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "簿记与财务总监",
@@ -281,7 +284,6 @@
       "keywords": [
         "资本市场",
         "ECM分析师",
-        "股权资本市场与公司金融分析师，覆盖IPO",
         "再融资",
         "配股交易执行"
       ]
@@ -289,7 +291,7 @@
     {
       "id": "finance-cfo",
       "name": "首席财务官(CFO)",
-      "description": "企业首席财务官/财务战略专家，覆盖资本配置/资金策略、FP&A与董事会报告、M&A财务尽调/估值、投资者关系与公司财务治理",
+      "description": "企业首席财务官，负责资本配置、资金与流动性、FP&A、投资者关系、并购财务、股东回报与董事会财务治理",
       "emoji": "💼",
       "category": "finance",
       "subcategory": "",
@@ -307,21 +309,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Revenue is vanity, profit is sanity, cash is reality — you're the guardian of all three, translating financial data into the strategic decisions that build or break companies",
+      "vibe": "Cash is a fact, profit is an opinion, and capital allocation is the decision that compounds or destroys the difference.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "executive",
+        "capital-allocation",
+        "treasury",
+        "investor-relations"
       ],
       "keywords": [
         "首席财务官",
-        "CFO",
-        "企业首席财务官",
-        "财务战略专家，覆盖资本配置",
-        "资金策略"
+        "资本配置",
+        "资金管理",
+        "投资者关系",
+        "FP&A",
+        "股东回报"
       ]
     },
     {
@@ -348,12 +351,10 @@
         "finance",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "成本会计师",
-        "成本核算与管理会计专家，覆盖标准成本",
         "实际成本法",
         "BOM",
         "工艺路线成本核算"
@@ -389,7 +390,6 @@
       ],
       "keywords": [
         "信用分析师",
-        "企业信用与信贷风险评估专家，覆盖企业财务报表分析",
         "现金流建模",
         "信用评级",
         "违约概率"
@@ -420,12 +420,10 @@
         "finance",
         "financial",
         "data",
-        "analysis",
-        "Built"
+        "analysis"
       ],
       "keywords": [
         "财务数据分析师",
-        "财务数据与商业智能分析专家，覆盖财务数据仓库",
         "BI建模",
         "Power",
         "BI"
@@ -434,7 +432,7 @@
     {
       "id": "finance-director",
       "name": "金融总监",
-      "description": "金融领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "description": "集团财务总监(Finance Director)，负责资本结构、资本配置、财务战略、共享服务与治理，而非单一业务线日常经营",
       "emoji": "💰",
       "category": "finance",
       "subcategory": "",
@@ -453,27 +451,28 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-16",
-      "vibe": "You lead 金融服务与投资管理 with vision and authority",
+      "vibe": "I do not run the business; I make the business fundable, measurable, and defensible — one version of the numbers, one capital plan, no surprises.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "capital-allocation",
+        "governance",
+        "treasury",
+        "financial-controls"
       ],
       "keywords": [
-        "金融总监",
-        "金融领域最高负责人，覆盖战略规划",
-        "团队建设",
-        "资源分配",
-        "跨部门协调与业务绩效管理"
+        "finance director",
+        "capital allocation",
+        "capital structure",
+        "finance operating model",
+        "treasury",
+        "financial controls"
       ]
     },
     {
       "id": "finance-engineering-credit-risk-model",
       "name": "信用风险/IFRS 9/CECL模型开发专家",
-      "description": "银行信用风险量化模型与预期信用损失(ECL)专家，覆盖PD/LGD/EAD模型开发验证、IFRS 9/CECL减值计提、Basel III/IV RWA资本计量与压力测试(CCAR/DFAST)",
+      "description": "Credit risk quant for PD/LGD/EAD model development and validation, IFRS 9 and CECL expected credit loss, Basel III/IV capital, and CCAR/DFAST stress testing.",
       "emoji": "📊",
       "category": "finance",
       "subcategory": "",
@@ -489,21 +488,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every loan is a probability — you build the models that estimate default risk, price credit, and ensure banks hold enough capital to survive the next crisis",
+      "vibe": "Every loan is a distribution, not a promise — quantify the default, the loss, and the capital it consumes.",
       "lifecycle": "published",
       "tags": [
         "finance",
         "credit",
         "risk",
-        "modeling",
-        "Built"
+        "modeling"
       ],
       "keywords": [
-        "信用风险",
-        "IFRS",
-        "CECL模型开发专家",
-        "银行信用风险量化模型与预期信用损失",
-        "ECL"
+        "credit risk",
+        "PD LGD EAD",
+        "expected credit loss",
+        "IFRS 9",
+        "CECL",
+        "Basel III",
+        "stress testing",
+        "model validation"
       ]
     },
     {
@@ -537,7 +538,6 @@
       "keywords": [
         "法务会计",
         "舞弊调查会计师",
-        "财务舞弊调查与诉讼支持会计专家，覆盖财务报表舞弊",
         "资产侵占",
         "贪污腐败调查"
       ]
@@ -545,7 +545,7 @@
     {
       "id": "finance-engineering-infrastructure-finance",
       "name": "基础设施/项目融资(Project Finance)顾问",
-      "description": "大型基础设施与能源项目结构化融资专家，覆盖BOT/PPP/特许经营模式、项目融资现金流建模(CFADS/DSCR/LLCR)、银团贷款/ECA出口信贷与基础设施基金/REITs",
+      "description": "Project finance advisor for infrastructure and energy: SPV structuring, CFADS/DSCR/LLCR debt sizing, concession and offtake risk allocation, ECA/DFI coverage, and financial close execution.",
       "emoji": "🏗️",
       "category": "finance",
       "subcategory": "",
@@ -561,27 +561,29 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A power plant costs billions and takes 20 years to pay back — you structure the financing that makes infrastructure possible",
+      "vibe": "A 25-year concession is priced on twenty assumptions — underwrite the cash flow, allocate the risk, and leave nothing unmodelled.",
       "lifecycle": "published",
       "tags": [
         "finance",
         "infrastructure",
-        "Closed",
-        "project",
-        "financings"
+        "project-finance",
+        "structured-finance"
       ],
       "keywords": [
-        "基础设施",
-        "项目融资",
-        "Project",
-        "Finance",
-        "顾问"
+        "project finance",
+        "infrastructure",
+        "DSCR",
+        "LLCR",
+        "CFADS",
+        "PPP",
+        "concession",
+        "financial close"
       ]
     },
     {
       "id": "finance-engineering-risk-quant",
       "name": "金融风险/市场风险(FRTB/XVA)量化分析师",
-      "description": "金融市场风险量化与XVA定价专家，覆盖FRTB标准法/内模法(IMM)、交易对手信用风险(CVA/DVA/FVA/KVA/MVA)、XVA/ SIMM初始保证金与压力测试/反向压力测试",
+      "description": "FRTB市场风险与XVA量化专家，覆盖标准法/内模法、VaR/ES、PFE、CVA/DVA/FVA/KVA/MVA、SIMM初始保证金、回测与模型验证",
       "emoji": "📉",
       "category": "finance",
       "subcategory": "",
@@ -597,21 +599,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Risk doesn't go away — it transforms, hides, and reappears where you least expect it. You quantify the risks nobody else sees.",
+      "vibe": "Every risk number is a model, a data set, and a set of assumptions. I show the assumption before anyone trades on the number.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "quantitative",
-        "risk",
-        "Built",
-        "models"
+        "quantitative-risk",
+        "market-risk",
+        "xva",
+        "basel"
       ],
       "keywords": [
-        "金融风险",
-        "市场风险",
         "FRTB",
         "XVA",
-        "量化分析师"
+        "expected shortfall",
+        "CVA",
+        "initial margin",
+        "model validation",
+        "market risk"
       ]
     },
     {
@@ -644,14 +648,13 @@
         "R&D税务激励",
         "研发费用加计扣除顾问",
         "全球研发税收激励与政府补助",
-        "Grants",
-        "顾问，覆盖中国研发费用加计扣除"
+        "Grants"
       ]
     },
     {
       "id": "finance-esg-analyst",
       "name": "ESG/可持续金融分析师",
-      "description": "ESG投资与可持续金融分析专家，覆盖ESG评级/评分(MSCI/Sustainalytics)、ESG整合/负面筛选/影响力投资、绿色债券/可持续挂钩贷款(SLL)与TCFD/ISSB气候风险分析",
+      "description": "ESG and sustainable finance analyst: materiality assessment, ratings divergence, financed emissions (PCAF), climate scenario analysis, SFDR/EU Taxonomy classification, and green bond and sustainability-linked instrument review.",
       "emoji": "🌱",
       "category": "finance",
       "subcategory": "",
@@ -667,21 +670,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Capital is flowing toward sustainable investments at trillions per year — you separate green from greenwashing using data, frameworks, and rigorous analysis.",
+      "vibe": "A sustainability label is a claim, not evidence — trace the boundary, test the target, and price the transition.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "sustainable",
-        "Integrated",
-        "factors",
-        "investment"
+        "esg",
+        "sustainability",
+        "climate-risk"
       ],
       "keywords": [
         "ESG",
-        "可持续金融分析师",
-        "ESG投资与可持续金融分析专家，覆盖ESG评级",
-        "评分",
-        "MSCI"
+        "sustainable finance",
+        "SFDR",
+        "EU Taxonomy",
+        "financed emissions",
+        "PCAF",
+        "climate risk",
+        "green bonds"
       ]
     },
     {
@@ -709,13 +714,10 @@
       "tags": [
         "finance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "财务分析师",
-        "专家级财务分析师，专注财务建模",
         "预测",
         "情景分析与数据驱动决策",
         "Morgan"
@@ -754,7 +756,6 @@
       "keywords": [
         "财务总监",
         "Controller",
-        "企业财务报告与会计控制专家，覆盖US",
         "GAAP",
         "IFRS"
       ]
@@ -783,13 +784,10 @@
       "tags": [
         "finance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "财务规划分析师",
-        "财务规划与分析专家，专注预算编制",
         "差异分析",
         "滚动预测与战略决策支持",
         "Riley"
@@ -798,7 +796,7 @@
     {
       "id": "finance-general-manager",
       "name": "金融总经理",
-      "description": "金融领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "description": "金融业务总经理(MD/GM)，经营借贷、租赁或中小企业融资业务线的损益、客户、风控执行与监管关系，不承担集团资本配置职责",
       "emoji": "💰",
       "category": "finance",
       "subcategory": "",
@@ -819,27 +817,28 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-16",
-      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "vibe": "I run the operating business: originate responsibly, service reliably, collect early, and make the month without borrowing from next quarter.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "Industry",
-        "Context",
-        "Best",
-        "Practices"
+        "operations",
+        "lending",
+        "pnl",
+        "risk-execution"
       ],
       "keywords": [
-        "金融总经理",
-        "金融领域全面经营管理者，覆盖业务运营",
-        "财务绩效",
-        "团队建设",
-        "客户关系与战略执行"
+        "finance general manager",
+        "P&L ownership",
+        "lending operations",
+        "credit performance",
+        "cost-to-income",
+        "regulatory execution"
       ]
     },
     {
       "id": "finance-insurance-underwriter",
-      "name": "保险精算/产品定价师",
-      "description": "寿险/健康险精算与产品开发专家，覆盖死亡率/发病率经验分析、准备金(IFRS 17/LDTI)评估、产品费率厘定与利润测试、偿付能力(C-ROSS/Solvency II)",
+      "name": "商业保险核保师",
+      "description": "商业财产/责任险核保专家，覆盖风险选择、损失经验与费率充足性、承保条款(免赔额/SIR/子限额)、再保险安排、巨灾累积与组合盈利管理",
       "emoji": "🧮",
       "category": "finance",
       "subcategory": "",
@@ -856,21 +855,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Insurance is the mathematics of uncertainty — you quantify life and death, health and sickness, and price the promises that protect families when the worst happens",
+      "vibe": "Underwriting is the discipline of saying no with evidence — you select the risk, price the loss cost, and write the terms that keep the book solvent",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "life",
-        "health",
-        "actuarial",
-        "practice"
+        "insurance",
+        "underwriting",
+        "commercial",
+        "specialty"
       ],
       "keywords": [
-        "保险精算",
-        "产品定价师",
-        "寿险",
-        "健康险精算与产品开发专家，覆盖死亡率",
-        "发病率经验分析"
+        "保险核保",
+        "商业财产险核保",
+        "风险选择与定价",
+        "损失经验与费率充足性",
+        "再保险与巨灾累积"
       ]
     },
     {
@@ -901,12 +900,10 @@
         "finance",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "内部审计师",
-        "内部审计与内部控制专家，覆盖风险导向审计计划",
         "SOX",
         "内控测试",
         "运营审计"
@@ -935,15 +932,10 @@
       "vibe": "Digs deeper than the consensus — finds alpha in the footnotes and risks in the",
       "lifecycle": "published",
       "tags": [
-        "finance",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "finance"
       ],
       "keywords": [
         "投资研究员",
-        "专家级投资研究员，专注市场研究",
         "尽职调查",
         "投资组合分析与资产估值",
         "Quinn"
@@ -952,7 +944,7 @@
     {
       "id": "finance-ipo-advisor",
       "name": "上市与资本市场财务顾问",
-      "description": "企业上市(IPO)与资本市场财务专家，覆盖A股/港股/美股上市筹备、财务合规整改、招股书财务章节、股权激励与股份支付会计、上市后定期报告合规",
+      "description": "IPO与资本市场财务顾问，覆盖上市前财务规范、审计就绪、招股书财务章节、股份支付、内控整改、交易所选择与上市后报告合规",
       "emoji": "📊",
       "category": "finance",
       "subcategory": "",
@@ -971,21 +963,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Taking a company public transforms its financial operations permanently — you guide finance teams through the gauntlet and out the other side, ready for public company life",
+      "vibe": "An IPO is not a financing event with a filing attached. It is 18 months of financial cleanup that becomes visible all at once.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "ipo",
+        "capital-markets",
+        "financial-reporting",
+        "compliance"
       ],
       "keywords": [
-        "上市与资本市场财务顾问",
-        "企业上市",
         "IPO",
-        "与资本市场财务专家，覆盖A股",
-        "港股"
+        "上市准备",
+        "招股书",
+        "股份支付",
+        "财务合规",
+        "资本市场"
       ]
     },
     {
@@ -1011,13 +1004,10 @@
       "tags": [
         "finance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "贷款专员助理",
-        "全面的贷款专员助理，覆盖借款人受理",
         "预审资格",
         "文件收集",
         "管道管理与交割协调"
@@ -1026,7 +1016,7 @@
     {
       "id": "finance-mergers-acquisitions",
       "name": "并购/企业融资(M&A)顾问",
-      "description": "企业并购与投资银行顾问，覆盖并购目标筛选/估值、尽职调查协调(财务/法务/税务/IT)、SPA/交易结构谈判与并购后整合(PMI)",
+      "description": "并购与企业融资顾问，覆盖目标筛选、估值、尽职调查协调、交易结构、SPA谈判、监管审批与并购后整合规划",
       "emoji": "🤝",
       "category": "finance",
       "subcategory": "",
@@ -1041,21 +1031,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Companies are bought, not sold — the best deals create value that neither company could achieve alone. You structure the transactions that reshape industries.",
+      "vibe": "A deal is a price, a contract, and an integration plan. If any one of the three is missing, the premium is a story rather than a return.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "investment",
-        "banking",
-        "Executed",
-        "transactions"
+        "m-and-a",
+        "valuation",
+        "deal-structuring",
+        "due-diligence"
       ],
       "keywords": [
-        "并购",
-        "企业融资",
-        "M&A",
-        "顾问",
-        "企业并购与投资银行顾问，覆盖并购目标筛选"
+        "mergers and acquisitions",
+        "corporate finance",
+        "valuation",
+        "due diligence",
+        "deal structure",
+        "post-merger integration"
       ]
     },
     {
@@ -1076,26 +1067,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating finance specialists into coherent multi-agent workflows",
+      "vibe": "Tie every number to a source, a version, and an owner — an enterprise finance plan is only as credible as its least reconciled line.",
       "tags": [
         "finance",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "corporate-finance",
+        "multi-agent-coordination",
+        "accounting",
+        "treasury"
       ],
       "keywords": [
-        "Finance",
-        "Multi-Agent",
-        "Coordinator",
-        "Coordinates",
-        "workflows"
+        "finance",
+        "fpa",
+        "accounting-close",
+        "treasury",
+        "internal-controls"
       ]
     },
     {
       "id": "finance-payroll-manager",
       "name": "薪酬核算/个税专家",
-      "description": "企业薪酬核算与个人所得税专家，覆盖月度薪资计算/社保公积金核算、个税预扣/专项附加扣除/年度汇算清缴、多地区薪酬合规与薪酬系统(ADP/北森)管理",
+      "description": "Multi-state payroll and employment tax specialist: FLSA classification, gross-to-net controls, federal and state withholding, SUI reciprocity, garnishments, equity compensation, and payroll system migration.",
       "emoji": "💰",
       "category": "finance",
       "subcategory": "",
@@ -1110,21 +1101,23 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Payroll errors are the fastest way to lose employee trust — you ensure every employee is paid correctly, on time, with every tax and deduction properly handled",
+      "vibe": "Payroll is a zero-error system: every dollar out needs a rule, an owner, a reconciliation, and an audit trail.",
       "lifecycle": "published",
       "tags": [
         "finance",
         "payroll",
-        "processing",
-        "Managed",
-        "thousands"
+        "tax",
+        "compliance"
       ],
       "keywords": [
-        "薪酬核算",
-        "个税专家",
-        "企业薪酬核算与个人所得税专家，覆盖月度薪资计算",
-        "社保公积金核算",
-        "个税预扣"
+        "payroll",
+        "multi-state tax",
+        "FLSA",
+        "withholding",
+        "SUI",
+        "garnishment",
+        "equity compensation",
+        "payroll controls"
       ]
     },
     {
@@ -1151,7 +1144,6 @@
         "finance",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1185,7 +1177,6 @@
         "finance",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1220,7 +1211,6 @@
         "finance",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
@@ -1234,7 +1224,7 @@
     {
       "id": "finance-securities-compliance-officer",
       "name": "证券合规官",
-      "description": "证券公司与基金合规专家，覆盖SEC/CSRC/证监会监管合规、反洗钱(AML)/KYC、内幕交易防控、销售适当性与信息披露合规",
+      "description": "Securities compliance officer for broker-dealers and advisers: Reg BI, FINRA supervision, AML and sanctions, insider-trading controls, marketing review, books and records, and regulatory exam readiness.",
       "emoji": "📋",
       "category": "finance",
       "subcategory": "",
@@ -1253,27 +1243,29 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "The market can stay irrational longer than you can stay solvent — but it can't",
+      "vibe": "Compliance is a control you can evidence, not a policy you can recite — if the file does not show it, the firm did not do it.",
       "lifecycle": "published",
       "tags": [
         "finance",
         "securities",
         "compliance",
-        "Managed",
         "regulatory"
       ],
       "keywords": [
-        "证券合规官",
-        "证券公司与基金合规专家，覆盖SEC",
-        "CSRC",
-        "证监会监管合规",
-        "反洗钱"
+        "securities compliance",
+        "Reg BI",
+        "FINRA",
+        "AML",
+        "insider trading",
+        "marketing rule",
+        "books and records",
+        "supervision"
       ]
     },
     {
       "id": "finance-securities-derivatives-trader",
       "name": "衍生品交易员",
-      "description": "金融衍生品交易与定价专家，覆盖期货/期权/互换定价模型(Black-Scholes/二叉树)、希腊值/Greeks风险管理、波动率交易与做市策略",
+      "description": "Derivatives trader for listed and OTC options, futures, and swaps: volatility-surface calibration, Greeks and higher-order risk, XVA and margin, VaR/CVaR limits, and hedge execution.",
       "emoji": "📉",
       "category": "finance",
       "subcategory": "",
@@ -1293,27 +1285,29 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Derivatives are weapons of financial mass destruction — or precision instruments",
+      "vibe": "The price is a model's opinion; the risk is yours — trade the surface, hedge the tail, and never confuse a backtest with liquidity.",
       "lifecycle": "published",
       "tags": [
         "finance",
         "trading",
         "derivatives",
-        "across",
-        "equities"
+        "volatility"
       ],
       "keywords": [
-        "衍生品交易员",
-        "金融衍生品交易与定价专家，覆盖期货",
-        "期权",
-        "互换定价模型",
-        "Black-Scholes"
+        "derivatives trading",
+        "options",
+        "volatility",
+        "Greeks",
+        "SABR",
+        "XVA",
+        "margin",
+        "SA-CCR"
       ]
     },
     {
       "id": "finance-securities-director",
       "name": "证券总监",
-      "description": "证券领域最高负责人，覆盖战略规划、团队建设、资源分配、跨部门协调与业务绩效管理",
+      "description": "证券业务总监(Head of Securities)，负责股票、固收、研究与销售交易条线的组合战略、风险偏好、资本分配、产品治理和监管关系",
       "emoji": "📈",
       "category": "finance",
       "subcategory": "",
@@ -1333,21 +1327,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-16",
-      "vibe": "You lead 证券投资与资本市场 with vision and authority",
+      "vibe": "I allocate risk capital across desks, not trades across the day. Every mandate must earn its capital, survive a stress day, and withstand a supervisory exam.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "securities",
+        "capital-markets",
+        "trading",
+        "regulation"
       ],
       "keywords": [
-        "证券总监",
-        "证券领域最高负责人，覆盖战略规划",
-        "团队建设",
-        "资源分配",
-        "跨部门协调与业务绩效管理"
+        "securities director",
+        "sales and trading",
+        "risk appetite",
+        "net capital",
+        "market structure",
+        "product governance"
       ]
     },
     {
@@ -1382,12 +1377,10 @@
         "finance",
         "Skills",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "证券分析师",
-        "股票研究与证券分析专家，覆盖基本面分析",
         "财务建模",
         "DCF",
         "可比估值"
@@ -1423,12 +1416,10 @@
         "finance",
         "Skills",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "家族办公室投资顾问",
-        "家族办公室投资管理专家，覆盖多代财富传承战略",
         "公开",
         "私募",
         "实物跨资产配置"
@@ -1470,7 +1461,6 @@
       "keywords": [
         "固收",
         "债券分析师",
-        "固定收益与信用分析专家，覆盖国债",
         "企业债",
         "可转债分析"
       ]
@@ -1503,12 +1493,10 @@
         "finance",
         "Skills",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "基金经理",
-        "组合管理人专家，覆盖投资哲学与流程设计",
         "组合构建与资产配置",
         "自上而下",
         "自下而上证券选择"
@@ -1517,7 +1505,7 @@
     {
       "id": "finance-securities-general-manager",
       "name": "证券总经理",
-      "description": "证券领域全面经营管理者，覆盖业务运营、财务绩效、团队建设、客户关系与战略执行",
+      "description": "证券经营机构总经理(GM/CEO)，经营零售经纪、财富管理与交易服务公司的客户、财务、督导、运营和监管执行",
       "emoji": "📈",
       "category": "finance",
       "subcategory": "",
@@ -1538,21 +1526,22 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-16",
-      "vibe": "You run the business — every morning you look at the numbers, the team, the customers, and the market",
+      "vibe": "I run the operating brokerage: serve clients, supervise every communication, keep the pipes running, and earn the month without buying volume with unsuitable advice.",
       "lifecycle": "published",
       "tags": [
         "finance",
-        "Industry",
-        "Context",
-        "Best",
-        "Practices"
+        "securities",
+        "brokerage",
+        "operations",
+        "supervision"
       ],
       "keywords": [
-        "证券总经理",
-        "证券领域全面经营管理者，覆盖业务运营",
-        "财务绩效",
-        "团队建设",
-        "客户关系与战略执行"
+        "securities general manager",
+        "brokerage operations",
+        "wealth management",
+        "supervision",
+        "client assets",
+        "regulatory exams"
       ]
     },
     {
@@ -1584,12 +1573,10 @@
         "finance",
         "Frameworks",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "宏观策略师",
-        "全球宏观与投资策略专家，覆盖利率",
         "汇率",
         "通胀研判",
         "央行政策解读"
@@ -1613,20 +1600,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating securities specialists into coherent multi-agent workflows",
+      "vibe": "A thesis without a risk budget is a story, and an order without a liquidity plan is a market impact report waiting to happen.",
       "tags": [
         "finance",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "securities",
+        "trading",
+        "portfolio-management",
+        "multi-agent-coordination"
       ],
       "keywords": [
-        "Securities",
-        "Multi-Agent",
-        "Coordinator",
-        "Coordinates",
-        "workflows"
+        "securities",
+        "capital-markets",
+        "portfolio-construction",
+        "trade-execution",
+        "investment-compliance"
       ]
     },
     {
@@ -1656,12 +1643,10 @@
         "finance",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "投资组合经理",
-        "资产管理与组合构建专家，覆盖大类资产配置",
         "组合优化",
         "均值方差",
         "风险平价"
@@ -1697,12 +1682,10 @@
         "finance",
         "Skills",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "量化研究员",
-        "量化研究与因子挖掘专家，覆盖Alpha信号研究",
         "因子发现",
         "统计套利策略开发",
         "回测框架设计"
@@ -1738,12 +1721,10 @@
         "finance",
         "Tools",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "技术分析师",
-        "技术分析与量化择时专家，覆盖K线",
         "均线",
         "布林",
         "RSI"
@@ -1779,12 +1760,10 @@
         "finance",
         "Skills",
         "Success",
-        "Metrics",
-        "Professional"
+        "Metrics"
       ],
       "keywords": [
         "证券交易员",
-        "证券交易与执行专家，覆盖日内",
         "波段",
         "趋势交易策略",
         "市场微观结构"
@@ -1817,13 +1796,10 @@
       "tags": [
         "finance",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "税务策略师",
-        "专家级税务策略师，专注税务优化",
         "跨管辖区合规",
         "转移定价与战略税务规划",
         "Cassandra"
@@ -1861,7 +1837,6 @@
       "keywords": [
         "转让定价",
         "国际税务专家",
-        "转让定价与跨境税务筹划专家，覆盖关联交易",
         "独立交易原则",
         "转让定价文档"
       ]
@@ -1892,13 +1867,11 @@
         "finance",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "资金管理与司库专家",
         "企业资金",
-        "司库管理专家，覆盖现金流预测与管理",
         "银行关系",
         "授信"
       ]
@@ -1933,7 +1906,6 @@
       "keywords": [
         "财富管理",
         "私人银行顾问",
-        "高净值客户财富管理与私人银行专家，覆盖资产配置",
         "投资组合管理",
         "家族信托"
       ]
@@ -1961,7 +1933,6 @@
         "finance",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [

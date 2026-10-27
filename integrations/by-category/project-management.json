@@ -1,7 +1,7 @@
 {
   "category": "project-management",
   "agent_count": 25,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "project-management-agents-orchestrator",
@@ -29,11 +29,7 @@
       "vibe": "The conductor who runs the entire dev pipeline from spec to ship.",
       "lifecycle": "published",
       "tags": [
-        "project-management",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "project-management"
       ],
       "keywords": [
         "多智能体编排师",
@@ -70,14 +66,12 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "敏捷教练",
         "Agile",
         "Coach",
-        "敏捷转型策略与组织变革专家，覆盖Scrum",
         "Kanban"
       ]
     },
@@ -108,12 +102,10 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "方案与投标工程师",
-        "技术方案与投标专家，覆盖RFP",
         "招标文件分析",
         "技术方案",
         "技术标书撰写"
@@ -147,12 +139,10 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "咨询项目经理",
-        "管理咨询项目交付专家，覆盖咨询项目启动",
         "诊断",
         "方案",
         "实施全流程"
@@ -180,21 +170,19 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every project has a plan until reality hits it. You build the plan, measure the variance, and tell the truth about whether we're on track — before it's too late to fix.",
       "lifecycle": "published",
       "tags": [
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "项目控制",
         "P6",
-        "计划",
-        "工程师",
-        "项目计划与控制专家，覆盖Primavera"
+        "计划工程师",
+        "项目计划与控制专家",
+        "Primavera P6"
       ]
     },
     {
@@ -232,7 +220,6 @@
       "keywords": [
         "技术项目经理",
         "TPM",
-        "跨团队技术项目管理专家，覆盖大型技术项目规划",
         "分解",
         "WBS"
       ]
@@ -263,13 +250,11 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "活动",
         "会展项目经理",
-        "活动与会展项目管理专家，覆盖大型活动",
         "会议",
         "展览策划"
       ]
@@ -337,19 +322,17 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Every frame costs money and every day over schedule costs more — you balance",
+      "vibe": "Every frame costs money and every day over schedule costs more — you balance creative ambition with financial reality, keeping the production running and the vision intact",
       "lifecycle": "published",
       "tags": [
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "影视制片人",
         "影视",
-        "视频项目制片管理专家，覆盖影视项目预算",
         "融资",
         "拍摄排期"
       ]
@@ -383,13 +366,11 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "政府项目申报专员",
         "政府资金",
-        "补贴项目申报专家，覆盖科技厅",
         "工信厅",
         "发改委专项资金"
       ]
@@ -459,7 +440,6 @@
         "project-management",
         "Launch",
         "Calendar",
-        "Framework",
         "Collaboration"
       ],
       "keywords": [
@@ -490,21 +470,19 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A signed contract is a promise; a delivered project is a promise kept. You turn proposals into reality, managing the messy gap between \"what we sold\" and \"what actually works.",
       "lifecycle": "published",
       "tags": [
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "项目交付经理",
-        "项目交付与执行专家，覆盖端到端项目交付",
+        "项目交付与执行专家",
+        "端到端项目交付",
         "技术方案落地管理",
-        "项目团队",
-        "分包协调"
+        "客户验收"
       ]
     },
     {
@@ -551,7 +529,7 @@
     {
       "id": "project-management-multi-agent-coordinator",
       "name": "项目管理多智能体协调专家",
-      "description": "项目管理领域多智能体协作协调专家，统筹 PMO、进度计划与风险管控类 agent 的编排",
+      "description": "项目管理领域多智能体协作协调专家，统筹 PMO、计划控制与交付类 agent 的编排",
       "emoji": "📋",
       "category": "project-management",
       "subcategory": "",
@@ -566,20 +544,19 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating project-management specialists into coherent multi-agent workflows",
       "tags": [
         "project-management",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "multi-agent",
+        "pmo",
+        "delivery",
+        "governance"
       ],
       "keywords": [
-        "Project",
-        "Management",
+        "Project Management",
         "Multi-Agent",
         "Coordinator",
-        "Coordinates"
+        "PMO",
+        "Delivery Governance"
       ]
     },
     {
@@ -603,21 +580,19 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "One project is a project; a hundred projects is a portfolio. You build the governance, the standards, and the resource allocation that turns chaos into capability.",
       "lifecycle": "published",
       "tags": [
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "PMO总监",
         "项目管理办公室",
-        "PMO",
-        "与项目组合治理专家，覆盖PMO体系",
-        "支持型"
+        "项目组合治理专家",
+        "PMO体系",
+        "项目组合"
       ]
     },
     {
@@ -650,12 +625,10 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "PMP项目管理经理",
-        "PMP项目管理全流程专家，覆盖项目章程与范围管理",
         "WBS与进度编制",
         "关键路径法",
         "预算与挣值管理"
@@ -689,14 +662,12 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "项目组合经理",
         "项目组合管理",
         "PPM",
-        "专家，覆盖组合优先级排序与遴选",
         "资源产能规划与分配"
       ]
     },
@@ -807,12 +778,10 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "R&D与科研项目经理",
-        "研发与科研项目管理专家，覆盖阶段关口",
         "Stage-Gate",
         "敏捷研发流程",
         "技术路线图"
@@ -838,20 +807,18 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Agile isn't stand-ups and sticky notes — it's a discipline of delivering value every sprint, inspecting and adapting, and teaching teams to solve their own problems",
       "lifecycle": "published",
       "tags": [
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "敏捷教练",
+        "Scrum Master",
+        "敏捷开发与Scrum专家",
         "Scrum",
-        "Master",
-        "敏捷开发与Scrum专家，覆盖Scrum",
         "Kanban"
       ]
     },
@@ -881,12 +848,10 @@
         "project-management",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "现场实施工程师",
-        "项目现场实施与调试专家，覆盖系统安装部署集成",
         "现场冷调",
         "热调",
         "联调"

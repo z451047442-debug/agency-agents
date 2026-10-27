@@ -44,6 +44,12 @@ def main():
         print(f"Available: {', '.join(sorted(COMMANDS))}", file=sys.stderr)
         sys.exit(1)
 
+    if not SCRIPTS.exists():
+        print("Error: the agency CLI data files (scripts/) are not installed.", file=sys.stderr)
+        print("Install from a repository checkout in editable mode: pip install -e .",
+              file=sys.stderr)
+        sys.exit(1)
+
     # Add scripts/ to path so 'from _shared import ...' works
     if str(SCRIPTS) not in sys.path:
         sys.path.insert(0, str(SCRIPTS))

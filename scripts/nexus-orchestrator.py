@@ -21,6 +21,7 @@ Feedback loops enable rollback (Phase 4 issues -> Phase 3 rework; Phase 6 feedba
 
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -286,8 +287,24 @@ def get_feedback_loops(scenario: str) -> dict[str, str]:
 
 # ---- Project management ----
 
+_SAFE_PROJECT_NAME = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
+
+
 def checkpoint_path(name: str) -> Path:
-    return PROJECTS_DIR / name / "checkpoint.json"
+    """Return the checkpoint path, rejecting traversal and absolute names."""
+    if not _SAFE_PROJECT_NAME.fullmatch(name) or name in {".", ".."}:
+        print(
+            f"ERROR: invalid project name '{name}'. Use letters, digits, dot, "
+            "underscore, or hyphen.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
+    path = (PROJECTS_DIR / name / "checkpoint.json").resolve()
+    projects_root = PROJECTS_DIR.resolve()
+    if projects_root not in path.parents:
+        print("ERROR: project path escapes nexus-projects.", file=sys.stderr)
+        sys.exit(2)
+    return path
 
 
 def create_checkpoint(name: str, scenario: str) -> dict:
@@ -313,7 +330,7 @@ def load_checkpoint(name: str) -> dict:
 
 def save_checkpoint(name: str, data: dict) -> None:
     data["updated"] = datetime.now(UTC).isoformat()
-    proj_dir = PROJECTS_DIR / name
+    proj_dir = checkpoint_path(name).parent
     proj_dir.mkdir(parents=True, exist_ok=True)
     atomic_write(proj_dir / "checkpoint.json",
                  json.dumps(data, ensure_ascii=False, indent=2), newline="\n")
@@ -685,13 +702,21 @@ def nexus_stats() -> None:
         print(f"  {sc:<25} {count} project(s) — {name}")
 
 
-def export_project(name: str, output_path: str | None = None) -> None:
+def export_project(name: str, output_path: str | None = None, force: bool = False) -> None:
     """Export project checkpoint as JSON."""
     cp = load_checkpoint(name)
     if output_path:
-        atomic_write(Path(output_path),
-                     json.dumps(cp, ensure_ascii=False, indent=2))
-        print(f"Exported {name} to {output_path}")
+        out = Path(output_path).expanduser().resolve()
+        repo_root = PROJECTS_DIR.parent.resolve()
+        if repo_root not in out.parents and out != repo_root and not force:
+            print(
+                "ERROR: --out must be inside the repository; pass --force to override.",
+                file=sys.stderr,
+            )
+            sys.exit(2)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        atomic_write(out, json.dumps(cp, ensure_ascii=False, indent=2))
+        print(f"Exported {name} to {out}")
     else:
         print(json.dumps(cp, ensure_ascii=False, indent=2))
 
@@ -827,9 +852,23 @@ def main() -> None:
     parser.add_argument("--category", "-c", help="Filter by category")
     parser.add_argument("--export", help="Export project checkpoint as JSON (optional: --out PATH)")
     parser.add_argument("--out", help="Output path for --export")
+    parser.add_argument("--force", action="store_true",
+                        help="Allow --out outside the repository")
     parser.add_argument("--stats", action="store_true", help="Show NEXUS-wide statistics")
     parser.add_argument("--verbose", "-v", action="store_true", help="Show full agent listing")
     args = parser.parse_args()
+
+    if args.project:
+        scenario_phases = set(SCENARIOS[args.scenario]["phases"])
+        for label, value in (
+            ("--start", args.start), ("--gate", args.gate),
+            ("--complete", args.complete), ("--rollback", args.rollback),
+        ):
+            if value is not None and value not in scenario_phases:
+                parser.error(
+                    f"{label} {value} is not valid for scenario '{args.scenario}' "
+                    f"(valid phases: {', '.join(sorted(scenario_phases))})"
+                )
 
     if args.preview:
         preview_scenario(args.preview)
@@ -847,7 +886,7 @@ def main() -> None:
         init_project(args.init, args.scenario)
         return
     if args.export:
-        export_project(args.export, args.out)
+        export_project(args.export, args.out, args.force)
         return
     if args.project:
         if args.report:

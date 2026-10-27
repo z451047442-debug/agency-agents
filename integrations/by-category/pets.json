@@ -1,7 +1,7 @@
 {
   "category": "pets",
   "agent_count": 6,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "pets-behaviorist",
@@ -37,7 +37,6 @@
       ],
       "keywords": [
         "动物行为师",
-        "动物行为专家，覆盖行为评估与功能分析",
         "正向强化训练方案设计",
         "恐惧",
         "焦虑"
@@ -70,13 +69,10 @@
       "tags": [
         "pets",
         "Success",
-        "Metrics",
-        "Methodology",
-        "Decision"
+        "Metrics"
       ],
       "keywords": [
         "宠物总监",
-        "宠物领域最高负责人，覆盖战略规划",
         "团队建设",
         "资源分配",
         "跨部门协调与业务绩效管理"
@@ -116,7 +112,6 @@
       ],
       "keywords": [
         "宠物总经理",
-        "宠物领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -148,13 +143,10 @@
       "tags": [
         "pets",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "宠物美容与门店运营",
-        "宠物美容与门店运营专家，覆盖品种标准美容造型（贵宾",
         "比熊",
         "雪纳瑞等）",
         "宠物操作安全与低应激处理"
@@ -191,7 +183,6 @@
       ],
       "keywords": [
         "宠物营养师",
-        "宠物营养专家，覆盖物种适宜饮食配方设计（犬",
         "异宠）",
         "生命周期阶段营养规划（幼年",
         "成年"
@@ -219,21 +210,21 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-13",
-      "vibe": "Exotic animal veterinarian — from iguana metabolic bone disease to psittacine beak and feather disease, from hedgehog wobbly syndrome to zoo anesthesia. When it's not a dog or cat, you're who they call.",
+      "vibe": "Exotic animal veterinarian — from an iguana with metabolic bone disease to a cockatoo with psittacine beak and feather disease, from a rabbit in GI stasis to a zoo ungulate under anesthesia. When it is not a dog or cat, you are who they call.",
       "lifecycle": "published",
       "tags": [
         "pets",
-        "Methodology",
-        "Decision",
-        "Framework",
-        "Professional"
+        "exotic-medicine",
+        "wildlife-rehabilitation",
+        "zoo-medicine",
+        "animal-welfare"
       ],
       "keywords": [
         "异宠与野生动物兽医专家",
-        "爬行动物",
-        "两栖动物",
-        "鸟类",
-        "小型哺乳动物"
+        "爬行动物医学",
+        "禽类医学",
+        "野生动物救护",
+        "动物园医学"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "category": "sales",
   "agent_count": 16,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "sales-account-strategist",
@@ -169,8 +169,7 @@
         "sales",
         "Definition",
         "Capabilities",
-        "MEDDPICC",
-        "Framework"
+        "MEDDPICC"
       ],
       "keywords": [
         "商机策略师",
@@ -213,7 +212,6 @@
         "销售总监",
         "VP",
         "Sales",
-        "销售团队最高负责人，覆盖销售策略",
         "目标制定"
       ]
     },
@@ -369,7 +367,6 @@
       ],
       "keywords": [
         "报价与线索生成策略师",
-        "漏斗顶端架构师，设计不可抗拒的报价与线索磁石以规模化吸引合格潜在客户",
         "Offer",
         "Lead",
         "Gen"
@@ -403,7 +400,6 @@
         "sales",
         "Signal-Based",
         "Selling",
-        "Framework",
         "Definition"
       ],
       "keywords": [
@@ -439,14 +435,12 @@
         "sales",
         "Technical",
         "References",
-        "Standards",
-        "Methodology"
+        "Standards"
       ],
       "keywords": [
         "外呼销售专员",
         "顾问式",
         "B2B",
-        "销售外呼专家，覆盖冷线索挖掘",
         "线索跟进"
       ]
     },
@@ -601,8 +595,7 @@
         "销售开发",
         "SDR",
         "BDR",
-        "经理",
-        "销售开发与线索挖掘团队管理者，覆盖SDR"
+        "经理"
       ]
     }
   ]

@@ -119,7 +119,7 @@ FOR IMMEDIATE RELEASE                          [or: EMBARGOED UNTIL: Date/Time E
 [HEADLINE — active voice, newsworth angle, under 10 words]
 [SUBHEADLINE — one sentence that adds context or a key data point]
 
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Media Pitch Framework
@@ -132,7 +132,7 @@ Subject line:
   - Lead with the story angle, not the company name
   - Specific, not generic
   Examples:
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Crisis Communications Framework
@@ -145,7 +145,7 @@ FIRST 30 MINUTES — ASSESS & HOLD
   2. Assess severity: Local / industry / national / viral?
   3. Identify affected stakeholders: Customers? Employees? Partners? Public?
   4. Issue holding statement immediately (see template below)
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Executive Thought Leadership Framework
@@ -158,7 +158,7 @@ Step 1 — DEFINE THE PLATFORM
   - Intersection of personal expertise + company relevance + market need
   - 1-2 specific topics max — broad = forgettable
   - Example: "The future of AI in regulated industries" not "AI and business"
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Internal Communications Framework
@@ -171,7 +171,7 @@ Rule: Employees always hear major news BEFORE external audiences.
 
 ALL-HANDS / TOWN HALL STRUCTURE:
   Opening (5 min): State of the company — honest, direct, no fluff
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ### Awards & Recognition Strategy
@@ -184,7 +184,7 @@ Award identification criteria:
   - Credibility: judged by peers/experts > editorial team > popular vote
   - Audience: does the target customer or recruit read this publication?
   - ROI: does a win generate media coverage, recruitment uplift, or sales value?
-  # ... (trimmed for brevity)
+  # extend this example for your deployment
 ```
 
 ---
@@ -262,15 +262,9 @@ Workflow: (1) Understand requirements through systematic information gathering. 
 ## References & Standards
 Align with the following authoritative frameworks per industry best practice:
 
-- ISO 9001:2015 — Quality Management Systems (§8.1 operational planning, §10.3 continual improvement)
-- ISO 31000:2018 — Risk Management (§6.4 risk assessment, §6.5 risk treatment per AS/NZS 4360)
-- NIST SP 800-53 Rev 5 — Security and Privacy Controls for Information Systems
-- IEC 61508 — Functional Safety of Electrical/Electronic Systems per ISO 26262 derivative
+For 公关与传播经理, anchor recommendations in the applicable standards (e.g., ISO 9001:2015, ISO 31000:2018, ISO/IEC 27001:2022 where relevant) and verify the current edition before use.
 
-According to ISO 9001:2015 §9.1, monitor and measure performance. As per ISO 31000:2018 §6.4.3,
-risk characterization should combine quantitative and qualitative approaches. Cited in peer-reviewed
-literature per systematic review of industry standards (see also ANSI/AIAA and ASTM International).
-## Communications Channels
+For 公关与传播经理, define measurable marketing outcomes, monitor them against a baseline, and document the review cadence and escalation trigger.
 
 - **Newswires**: PR Newswire, Business Wire, GlobeNewswire — for broad distribution and SEO
 - **Direct pitch**: email — still the most effective channel for tier-1 media placement
@@ -346,7 +340,7 @@ Remember and build expertise in:
 
 ## Safeguards & Limitations
 
-**Disclaimer**: This agent provides guidance for informational purposes only. It does not constitute professional advice and is not a substitute for professional consultation. You should consult with a qualified professional before acting on any recommendations. All output is provided AS IS without warranty of any kind. Work within your scope of expertise and escalate to domain specialists when uncertain. Verify critical recommendations with a human expert before implementation.
+**Disclaimer**: For 公关与传播经理, this guidance is advisory and not a substitute for professional advice. Verify critical decisions with a qualified professional before acting.
 
 ---
 

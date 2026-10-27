@@ -1,7 +1,7 @@
 {
   "category": "telecom",
   "agent_count": 13,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "telecom-5g-core",
@@ -13,7 +13,6 @@
       "path": "telecom/telecom-5g-core.md",
       "depends_on": [
         "automotive-autonomous-driving",
-        "cybersecurity-engineering-customer-identity-access",
         "infrastructure-identity-access",
         "infrastructure-network-engineering-engineering-network-protocol",
         "telecom-data-analyst",
@@ -31,13 +30,11 @@
         "telecom",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "5G核心网工程师",
         "5G核心网",
-        "移动通信专家，覆盖5GC服务化架构",
         "SBA",
         "AMF"
       ]
@@ -45,17 +42,15 @@
     {
       "id": "telecom-data-analyst",
       "name": "电信数据分析师",
-      "description": "电信大数据分析：用户行为建模、离网预警、精准营销、网络流量预测、地理位置洞察",
+      "description": "电信数据分析：用户行为建模、离网与留存预测、网络流量预测、地理洞察、ARPU 拆解，覆盖 SQL/Python/Spark 与数据隐私合规",
       "emoji": "📈",
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-data-analyst.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
         "infrastructure-identity-access",
-        "marketing-paid-media-creative-strategist",
         "telecom-5g-core",
         "telecom-engineering-antenna-rf"
       ],
@@ -92,12 +87,9 @@
       "subcategory": "",
       "path": "telecom/telecom-director.md",
       "depends_on": [
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
         "telecom-multi-agent-coordinator",
-        "finance-cost-accountant",
         "lottery-risk-compliance",
-        "marketing-customer-lifecycle",
         "telecom-5g-core",
         "telecom-data-analyst",
         "thinking-models-tech-leaders"
@@ -122,7 +114,6 @@
       "keywords": [
         "电信运营总监",
         "电信运营公司",
-        "部门最高负责人，覆盖网络规划",
         "建设",
         "运维全生命周期"
       ]
@@ -138,9 +129,7 @@
       "depends_on": [
         "aerospace-engineering-systems-aerospace",
         "automotive-engineering-automotive-homologation-test",
-        "education-special-needs",
         "telecom-multi-agent-coordinator",
-        "finance-cost-accountant",
         "hr-performance-management",
         "lottery-product-risk",
         "telecom-5g-core",
@@ -166,8 +155,7 @@
         "天线",
         "射频",
         "RF",
-        "设计工程师",
-        "天线与射频电路设计专家，覆盖天线设计"
+        "设计工程师"
       ]
     },
     {
@@ -181,11 +169,9 @@
       "depends_on": [
         "data-science-engineering-knowledge-management",
         "telecom-multi-agent-coordinator",
-        "finance-cost-accountant",
         "hr-performance-management",
         "lottery-product-risk",
         "lottery-risk-compliance",
-        "marketing-japan-market-expert",
         "telecom-5g-core",
         "telecom-data-analyst"
       ],
@@ -215,8 +201,8 @@
     },
     {
       "id": "telecom-engineering-maritime-navigation",
-      "name": "船舶电气/自动化工程师",
-      "description": "船舶电气系统与机舱自动化专家，覆盖船舶电力系统(发电/配电/电力推进)、船舶自动化(IAS/AMS/PMS)、DP动力定位(DP1/2/3)与船级社(IEC",
+      "name": "船舶导航与通信系统工程师",
+      "description": "船舶导航与通信系统工程专家，覆盖GMDSS、AIS、ECDIS、雷达/ARPA、INS综合驾驶台与SOLAS/IMO合规",
       "emoji": "🚢",
       "category": "telecom",
       "subcategory": "",
@@ -224,10 +210,8 @@
       "depends_on": [
         "data-science-engineering-knowledge-management",
         "telecom-multi-agent-coordinator",
-        "finance-cost-accountant",
         "lottery-product-risk",
         "lottery-risk-compliance",
-        "marketing-demand-generation",
         "telecom-5g-core",
         "telecom-data-analyst"
       ],
@@ -238,21 +222,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A ship at sea is a self-contained power grid with its own generation, distribution,",
+      "vibe": "A bridge is a system of systems where a single wrong sensor can put the ship on the rocks — you design the navigation and communication chain that the watchkeeper bets the vessel on.",
       "lifecycle": "published",
       "tags": [
         "telecom",
         "marine",
-        "electrical",
-        "systems",
-        "Designed"
+        "navigation",
+        "GMDSS",
+        "bridge-systems"
       ],
       "keywords": [
         "船舶电气",
         "自动化工程师",
-        "船舶电气系统与机舱自动化专家，覆盖船舶电力系统",
-        "发电",
-        "配电"
+        "AIS",
+        "ECDIS"
       ]
     },
     {
@@ -266,7 +249,6 @@
       "depends_on": [
         "data-science-engineering-knowledge-management",
         "telecom-multi-agent-coordinator",
-        "finance-cost-accountant",
         "hr-performance-management",
         "iot-engineering-industrial-iot-platform",
         "telecom-5g-core",
@@ -291,7 +273,6 @@
       "keywords": [
         "雷达系统",
         "射频感知工程师",
-        "雷达系统与射频探测技术专家，覆盖毫米波雷达",
         "77GHz",
         "相控阵"
       ]
@@ -305,11 +286,8 @@
       "subcategory": "",
       "path": "telecom/telecom-engineering-signal-integrity.md",
       "depends_on": [
-        "cybersecurity-engineering-cyber-risk-model",
         "data-science-engineering-knowledge-management",
         "telecom-multi-agent-coordinator",
-        "finance-cost-accountant",
-        "finance-engineering-credit-risk-model",
         "telecom-5g-core",
         "telecom-data-analyst"
       ],
@@ -355,20 +333,20 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-19",
-      "vibe": "orchestrating telecom specialists into coherent multi-agent workflows",
+      "vibe": "Synchronize the radio, core, and optical clocks before promising a service level — a telecom launch fails at its weakest interface, not its best spreadsheet.",
       "tags": [
         "telecom",
-        "Technical",
-        "Process",
-        "Success",
-        "Metrics"
+        "network-engineering",
+        "multi-agent-coordination",
+        "ran",
+        "regulatory"
       ],
       "keywords": [
-        "Telecom",
-        "Multi-Agent",
-        "Coordinator",
-        "Coordinates",
-        "workflows"
+        "telecom",
+        "ran",
+        "5g-core",
+        "optical-transport",
+        "spectrum-compliance"
       ]
     },
     {
@@ -381,10 +359,8 @@
       "path": "telecom/telecom-network-engineer.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
         "infrastructure-identity-access",
-        "marketing-paid-media-creative-strategist",
         "telecom-5g-core",
         "telecom-data-analyst"
       ],
@@ -421,10 +397,8 @@
       "path": "telecom/telecom-ops-manager.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
         "infrastructure-identity-access",
-        "marketing-paid-media-creative-strategist",
         "telecom-5g-core",
         "telecom-data-analyst"
       ],
@@ -480,13 +454,11 @@
         "telecom",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "光纤",
         "光通信工程师",
-        "光纤通信与光传输网络专家，覆盖OTN",
         "DWDM波分复用",
         "SDH"
       ]
@@ -494,17 +466,15 @@
     {
       "id": "telecom-product-manager",
       "name": "通信产品经理",
-      "description": "通信产品设计与运营：套餐设计、用户增长、ARPU提升、终端策略、增值服务",
+      "description": "通信产品设计与增长：套餐资费、定价实验、用户增长与ARPU、终端与增值服务、GTM与监管约束",
       "emoji": "📱",
       "category": "telecom",
       "subcategory": "",
       "path": "telecom/telecom-product-manager.md",
       "depends_on": [
         "automotive-engineering-functional-safety",
-        "cybersecurity-engineering-customer-identity-access",
         "data-science-engineering-knowledge-management",
         "infrastructure-identity-access",
-        "marketing-paid-media-creative-strategist",
         "telecom-5g-core",
         "telecom-data-analyst"
       ],

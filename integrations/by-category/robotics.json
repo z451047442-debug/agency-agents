@@ -1,12 +1,12 @@
 {
   "category": "robotics",
   "agent_count": 16,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "robotics-automation-engineer",
       "name": "机器人自动化工程师",
-      "description": "机器人系统设计与自动化专家，覆盖机械臂、AGV/AMR、运动规划、ROS/ROS2与仿真验证",
+      "description": "机器人自动化系统设计专家，覆盖过程建模、机器人选型、运动规划、ROS 2仿真与产能验证",
       "emoji": "🤖",
       "category": "robotics",
       "subcategory": "",
@@ -24,27 +24,27 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A robot that works in simulation but fails in production failed where it matters — the physical world is the only test that counts",
+      "vibe": "Automate the stable process, not the chaotic one; a robot cannot fix a part presentation that changes every cycle.",
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "automation",
+        "manufacturing",
+        "simulation",
+        "ros2"
       ],
       "keywords": [
-        "机器人自动化工程师",
-        "机器人系统设计与自动化专家，覆盖机械臂",
-        "AGV",
-        "AMR",
-        "运动规划"
+        "robotic automation",
+        "process modeling",
+        "motion planning",
+        "ROS 2",
+        "throughput validation"
       ]
     },
     {
       "id": "robotics-control-systems",
       "name": "控制系统工程师",
-      "description": "实时控制系统设计与调优专家，覆盖PID、MPC、LQR、状态估计、系统辨识与实时嵌入式控制",
+      "description": "实时机器人控制系统专家，覆盖系统辨识、PID/LQR/MPC、状态估计、力控与确定性实现",
       "emoji": "🎛️",
       "category": "robotics",
       "subcategory": "",
@@ -60,27 +60,27 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A controller that's stable on paper but oscillates in production forgot one thing — the plant model is always wrong, and that's what feedback is for",
+      "vibe": "A controller is only as good as its model's validity domain; feedback handles the rest, but only if the loop closes on time.",
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "Success",
-        "Metrics",
-        "Professional",
-        "Scope"
+        "control-theory",
+        "real-time",
+        "mpc",
+        "embedded"
       ],
       "keywords": [
-        "控制系统工程师",
-        "实时控制系统设计与调优专家，覆盖PID",
-        "MPC",
-        "LQR",
-        "状态估计"
+        "robot control",
+        "system identification",
+        "model predictive control",
+        "state estimation",
+        "real-time systems"
       ]
     },
     {
       "id": "robotics-director",
       "name": "机器人事业部总监",
-      "description": "机器人产品/业务最高负责人，覆盖机器人产品战略/应用场景、机械/电子/软件集成开发、制造/部署/服务与安全合规",
+      "description": "Robotics business unit director covering portfolio strategy, Stage-Gate investment, TCO and RaaS economics, safety-compliance risk, pilot-to-scale deployment and fleet service",
       "emoji": "🤖",
       "category": "robotics",
       "subcategory": "",
@@ -98,21 +98,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Robots are physical AI — you lead the team that makes intelligence walk, grasp,",
+      "vibe": "A robot is a capital asset with a software margin — the demo is not the business, the deployment and the service cost are",
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "leading",
+        "leadership",
+        "strategy",
         "product",
-        "organizations",
-        "shipped"
+        "operations"
       ],
       "keywords": [
-        "机器人事业部总监",
-        "机器人产品",
-        "业务最高负责人，覆盖机器人产品战略",
-        "应用场景",
-        "机械"
+        "robotics strategy",
+        "robotics portfolio",
+        "Stage-Gate",
+        "TCO",
+        "RaaS",
+        "fleet operations",
+        "deployment scaling",
+        "safety compliance",
+        "unit economics",
+        "robotics business"
       ]
     },
     {
@@ -142,16 +147,21 @@
       "tags": [
         "robotics",
         "wearable",
-        "Developed",
         "exoskeletons",
+        "biomechanics",
         "industrial"
       ],
       "keywords": [
         "外骨骼",
-        "可穿戴机器人工程师",
-        "助力外骨骼与可穿戴机器人系统专家，覆盖人体生物力学",
+        "可穿戴机器人",
+        "人体生物力学",
         "步态分析",
-        "串联弹性"
+        "串联弹性驱动器",
+        "意图检测",
+        "sEMG",
+        "助力控制",
+        "ISO 13482",
+        "人机交互安全"
       ]
     },
     {
@@ -179,23 +189,28 @@
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "haptic",
-        "technology",
-        "Designed",
-        "experiences"
+        "haptics",
+        "actuators",
+        "human-perception",
+        "interaction"
       ],
       "keywords": [
         "触觉",
         "力反馈",
         "Haptics",
-        "工程师",
-        "触觉技术与力反馈系统专家，覆盖压电"
+        "LRA",
+        "压电执行器",
+        "音圈马达",
+        "触觉渲染",
+        "阻抗控制",
+        "心理物理学",
+        "ISO 9241-910"
       ]
     },
     {
       "id": "robotics-engineering-industrial-robotics",
-      "name": "协作机器人/人机协作安全工程师",
-      "description": "协作机器人(cobot)安全与应用工程专家，覆盖ISO/TS 15066协作机器人安全(力/功率/速度限制PFL/SLS)、末端执行器/夹具/视觉系统集成、风险评估(ISO 12100)/安全验证与应用编程(Hand-Guiding/Teach Pendant)",
+      "name": "工业与协作机器人集成工程师",
+      "description": "工业机器人与协作机器人工作站集成专家，覆盖机器人手臂/单元布局选型、末端执行器与视觉集成、ISO 10218/ISO TS 15066安全(PL/SIL、PFL/SLS)与PLC/机器人接口调试",
       "emoji": "🤝",
       "category": "robotics",
       "subcategory": "",
@@ -214,17 +229,22 @@
       "lifecycle": "published",
       "tags": [
         "robotics",
+        "industrial",
         "collaborative",
-        "Deployed",
-        "cobots",
-        "manufacturing"
+        "cell-integration",
+        "machinery-safety"
       ],
       "keywords": [
+        "工业机器人",
         "协作机器人",
-        "人机协作安全工程师",
-        "cobot",
-        "安全与应用工程专家，覆盖ISO",
-        "TS"
+        "机器人工作站",
+        "末端执行器",
+        "安全防护",
+        "ISO 10218",
+        "ISO TS 15066",
+        "功率与力限制",
+        "速度与分离监控",
+        "PLC集成"
       ]
     },
     {
@@ -251,22 +271,27 @@
       "tags": [
         "robotics",
         "mechanical",
-        "design",
+        "precision-design",
         "mechatronics",
-        "Designed"
+        "manufacturing"
       ],
       "keywords": [
         "机电一体化",
-        "机械设计工程师",
-        "精密机械设计与机电一体化专家，覆盖3D",
-        "CAD",
-        "SolidWorks"
+        "机械设计",
+        "GD&T",
+        "公差分析",
+        "传动选型",
+        "电机选型",
+        "谐波减速器",
+        "滚珠丝杠",
+        "有限元分析",
+        "可制造性设计"
       ]
     },
     {
       "id": "robotics-engineering-robotic-perception-systems",
       "name": "机器人感知系统专家",
-      "description": "移动机器人环境感知与导航系统专家，覆盖LiDAR/相机/毫米波雷达融合感知、占据栅格地图/ BEV感知、路径规划(A*/RRT/Lattice)与自主导航定位",
+      "description": "移动机器人感知与导航专家，覆盖多传感器融合、SLAM与定位、障碍物检测与跟踪、占据栅格/BEV、安全传感与 ROS 2 部署",
       "emoji": "🤖",
       "category": "robotics",
       "subcategory": "",
@@ -284,21 +309,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Autonomous robots need to see and understand their world — you build the perception",
+      "vibe": "A robot that sees everything but trusts nothing is safer than one that trusts a single camera and calls it perception",
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "autonomous",
-        "systems",
-        "Built",
-        "perception"
+        "perception",
+        "slam",
+        "sensor-fusion",
+        "autonomy"
       ],
       "keywords": [
-        "Robotic",
-        "Perception",
-        "Systems",
-        "移动机器人环境感知与导航系统专家，覆盖LiDAR",
-        "相机"
+        "机器人感知",
+        "SLAM",
+        "多传感器融合",
+        "3D LiDAR",
+        "目标检测",
+        "定位",
+        "ROS 2",
+        "ISO 3691-4"
       ]
     },
     {
@@ -327,23 +355,28 @@
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "robot",
-        "control",
-        "systems",
-        "Developed"
+        "control-theory",
+        "real-time",
+        "force-control",
+        "embedded"
       ],
       "keywords": [
-        "机器人控制算法工程师",
-        "机器人控制理论与实时控制系统专家，覆盖反馈",
-        "前馈",
-        "自适应控制",
-        "阻抗混合控制"
+        "机器人控制算法",
+        "实时控制",
+        "计算力矩控制",
+        "阻抗控制",
+        "导纳控制",
+        "力位混合控制",
+        "模型预测控制",
+        "系统辨识",
+        "EtherCAT",
+        "PREEMPT_RT"
       ]
     },
     {
       "id": "robotics-engineering-robotics-manipulation",
       "name": "机器人灵巧操作专家",
-      "description": "机器人灵巧操作与自主抓取专家，覆盖抓取规划(6D Pose Estimation)、夹爪/灵巧手设计、力触觉反馈、视觉伺服(Visual Servoing)与Bin Picking无序抓取",
+      "description": "机器人操作与抓取专家，覆盖6D位姿估计、夹爪与灵巧手选型、抓取规划、力/阻抗控制、视觉伺服、Bin Picking与安全协作",
       "emoji": "🦾",
       "category": "robotics",
       "subcategory": "",
@@ -360,21 +393,24 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "Picking up an object is the hardest thing robots do — every object is different,",
+      "vibe": "Picking up an object looks trivial until the robot has to decide where to touch, how hard to squeeze, and what to do when the object slides",
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "robot",
         "manipulation",
-        "Built",
-        "systems"
+        "grasping",
+        "force-control",
+        "dexterous-hands"
       ],
       "keywords": [
-        "Robotics",
-        "Manipulation",
-        "机器人灵巧操作与自主抓取专家，覆盖抓取规划",
-        "6D",
-        "Pose"
+        "机器人操作",
+        "抓取规划",
+        "6D位姿估计",
+        "力控制",
+        "视觉伺服",
+        "灵巧手",
+        "Bin Picking",
+        "MoveIt 2"
       ]
     },
     {
@@ -404,12 +440,10 @@
         "robotics",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "工业自动化专家",
-        "工业自动化与智能制造专家，覆盖PLC",
         "DCS编程",
         "SCADA系统",
         "MES集成"
@@ -418,7 +452,7 @@
     {
       "id": "robotics-integration-engineer",
       "name": "机器人系统集成工程师",
-      "description": "机器人系统集成与应用部署专家，覆盖工业机器人工作站/产线集成、末端执行器/视觉/传送带联调、PLC/机器人通信与安全围栏/风险评估",
+      "description": "工业机器人工作站与产线集成专家，覆盖末端执行器、PLC/机器人握手、安全验证与量产调试",
       "emoji": "🔩",
       "category": "robotics",
       "subcategory": "",
@@ -437,27 +471,27 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A robot in a lab is a prototype; a robot on a production line making parts is",
+      "vibe": "A robot on a pallet is a machine; a robot inside a validated cell making good parts every shift is an integration.",
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "integrating",
-        "industrial",
-        "robots",
-        "Deployed"
+        "systems-integration",
+        "industrial-automation",
+        "machine-safety",
+        "commissioning"
       ],
       "keywords": [
-        "机器人系统集成工程师",
-        "机器人系统集成与应用部署专家，覆盖工业机器人工作站",
-        "产线集成",
-        "末端执行器",
-        "视觉"
+        "robot cell integration",
+        "end-of-arm tooling",
+        "PLC handshake",
+        "robot safety validation",
+        "commissioning"
       ]
     },
     {
       "id": "robotics-motion-control",
       "name": "机器人运动控制工程师",
-      "description": "机器人运动规划与控制专家，覆盖正逆运动学/动力学、轨迹规划/插补、力控/阻抗控制、实时控制系统与ROS/ROS2",
+      "description": "Robot motion control engineer covering kinematics and dynamics, jerk-limited trajectory planning, servo tuning, force and impedance control, real-time EtherCAT/CANopen systems and ROS 2 integration",
       "emoji": "🦾",
       "category": "robotics",
       "subcategory": "",
@@ -473,21 +507,26 @@
       ],
       "version": "1.0.0",
       "date_added": "2026-07-03",
-      "vibe": "A robot arm that moves smoothly, precisely, and safely — that's kinematics,",
+      "vibe": "A robot arm is a set of coupled differential equations with a deadline — smooth motion is a control result, not an animation setting",
       "lifecycle": "published",
       "tags": [
         "robotics",
-        "robot",
-        "control",
-        "systems",
-        "Made"
+        "motion-control",
+        "control-theory",
+        "real-time",
+        "robotics-software"
       ],
       "keywords": [
-        "机器人运动控制工程师",
-        "机器人运动规划与控制专家，覆盖正逆运动学",
-        "动力学",
-        "轨迹规划",
-        "插补"
+        "robot motion control",
+        "inverse kinematics",
+        "dynamics",
+        "trajectory planning",
+        "impedance control",
+        "servo tuning",
+        "EtherCAT",
+        "ROS 2",
+        "ISO 9283",
+        "real-time control"
       ]
     },
     {
@@ -550,12 +589,10 @@
         "robotics",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "感知系统工程师",
-        "机器人感知系统专家，覆盖计算机视觉",
         "LiDAR点云处理",
         "SLAM",
         "多传感器融合与环境理解"
@@ -585,15 +622,13 @@
         "robotics",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "ROS开发工程师",
         "机器人操作系统",
         "ROS",
-        "ROS2",
-        "开发专家，覆盖节点架构"
+        "ROS2"
       ]
     }
   ]

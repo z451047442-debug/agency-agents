@@ -279,6 +279,21 @@ class TestMain:
         assert "Processed: 1" in captured.out
         assert "DRY RUN" in captured.out
 
+    def test_default_is_dry_run(self, tmp_path, monkeypatch, capsys):
+        """With no flags, the tool must not write."""
+        eng_dir = tmp_path / "engineering"
+        eng_dir.mkdir()
+        self._make_agent(eng_dir, "engineering-default.md", {
+            "name": "Default", "description": "default dry run", "emoji": "X", "color": "b",
+            "version": "1.0.0", "date_added": "2026-01-01",
+        })
+        monkeypatch.setattr(_disc, "REPO", tmp_path)
+        with patch.object(sys, "argv", ["batch-add-metadata.py"]):
+            mod.main()
+        content = (eng_dir / "engineering-default.md").read_text(encoding="utf-8")
+        assert "tags:" not in content
+        assert "DRY RUN" in capsys.readouterr().out
+
     def test_live_write_modifies_files(self, tmp_path, monkeypatch):
         """Normal run should write new fields."""
         eng_dir = tmp_path / "engineering"
@@ -293,7 +308,7 @@ class TestMain:
         })
 
         monkeypatch.setattr(_disc, "REPO", tmp_path)
-        with patch.object(sys, "argv", ["batch-add-metadata.py"]):
+        with patch.object(sys, "argv", ["batch-add-metadata.py", "--apply"]):
             mod.main()
 
         content = (eng_dir / "engineering-frontend-developer.md").read_text(encoding="utf-8")
@@ -339,7 +354,7 @@ class TestMain:
 
         monkeypatch.setattr(_disc, "REPO", tmp_path)
         with patch.object(sys, "argv",
-                          ["batch-add-metadata.py", "--category", "engineering"]):
+                          ["batch-add-metadata.py", "--category", "engineering", "--apply"]):
             mod.main()
 
         eng_content = (eng_dir / "engineering-dev.md").read_text(encoding="utf-8")
@@ -359,7 +374,7 @@ class TestMain:
 
         monkeypatch.setattr(_disc, "REPO", tmp_path)
         with patch.object(sys, "argv",
-                          ["batch-add-metadata.py", "--field", "tags"]):
+                          ["batch-add-metadata.py", "--field", "tags", "--apply"]):
             mod.main()
 
         content = (eng_dir / "engineering-test.md").read_text(encoding="utf-8")
@@ -394,7 +409,7 @@ class TestMain:
         path.write_text(new_content, encoding="utf-8")
 
         monkeypatch.setattr(_disc, "REPO", tmp_path)
-        with patch.object(sys, "argv", ["batch-add-metadata.py"]):
+        with patch.object(sys, "argv", ["batch-add-metadata.py", "--apply"]):
             mod.main()
 
         captured = capsys.readouterr()
@@ -409,7 +424,7 @@ class TestMain:
         )
 
         monkeypatch.setattr(_disc, "REPO", tmp_path)
-        with patch.object(sys, "argv", ["batch-add-metadata.py"]):
+        with patch.object(sys, "argv", ["batch-add-metadata.py", "--apply"]):
             mod.main()
 
         captured = capsys.readouterr()
@@ -425,7 +440,7 @@ class TestMain:
         })
 
         monkeypatch.setattr(_disc, "REPO", tmp_path)
-        with patch.object(sys, "argv", ["batch-add-metadata.py", "--verbose"]):
+        with patch.object(sys, "argv", ["batch-add-metadata.py", "--verbose", "--apply"]):
             mod.main()
 
         captured = capsys.readouterr()

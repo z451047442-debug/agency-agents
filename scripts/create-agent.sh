@@ -72,6 +72,19 @@ validate_color() {
   return 1
 }
 
+# Reject values that would be expanded by the shell heredoc or break YAML.
+validate_text_field() {
+  local label="$1" value="$2"
+  if [[ "$value" == *$'\n'* || "$value" == *$'\r'* ]]; then
+    error "$label must be a single line."
+    return 1
+  fi
+  if [[ "$value" == *'$'* || "$value" == *'`'* || "$value" == *'\'* || "$value" == *'"'* ]]; then
+    error "$label contains characters that would break the YAML template (\$, \`, \\, \")."
+    return 1
+  fi
+}
+
 # Generate agent-id: lowercase, spaces-to-hyphens, category-prefixed
 slugify() {
   printf '%s' "$1" | tr '[:upper:]' '[:lower:]' | sed 's/[[:space:]]\+/-/g;s/[^a-z0-9-]//g;s/-\+/-/g;s/^-//;s/-$//'
@@ -186,9 +199,14 @@ quality_check() {
   word_count="${word_count:-0}"
 
   # Count how many placeholders (lines with [bracketed text]) remain
-  filled=$(printf '%s' "$body" | { grep -cvE '^[[:space:]]*(-|\#|\*\*)*[[:space:]]*\[.*\]' || true; })
-  total_lines=$(printf '%s' "$body" | { grep -c . || true; })
-  fraction=$(( filled * 100 / total_lines ))
+  filled=$(printf '%s' "$body" | { grep -vE '^[[:space:]]*$' | grep -cvE '^[[:space:]]*(-|\#|\*\*)*[[:space:]]*\[.*\]' || true; })
+  total_lines=$(printf '%s' "$body" | { grep -cvE '^[[:space:]]*$' || true; })
+  total_lines="${total_lines:-0}"
+  if [[ "$total_lines" -gt 0 ]]; then
+    fraction=$(( filled * 100 / total_lines ))
+  else
+    fraction=100
+  fi
 
   echo ""
   printf "%b\n" "${BOLD}── Post-Creation Quality Check ──${RESET}"
@@ -290,6 +308,9 @@ do_create() {
   validate_category "$category" || exit 1
   validate_emoji "$emoji"     || exit 1
   validate_color "$color"     || exit 1
+  validate_text_field "Name" "$name" || exit 1
+  validate_text_field "Description" "$description" || exit 1
+  validate_text_field "Vibe" "$vibe" || exit 1
 
   agent_id=$(make_agent_id "$category" "$name")
   filepath="$AGENTS_DIR/${category}/${agent_id}.md"

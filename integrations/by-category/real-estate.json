@@ -1,7 +1,7 @@
 {
   "category": "real-estate",
   "agent_count": 12,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "real-estate-appraiser",
@@ -32,7 +32,6 @@
       ],
       "keywords": [
         "房地产估价师",
-        "房地产估价与价值评估专家，覆盖市场比较法",
         "收益法",
         "成本法三大估价方法",
         "抵押"
@@ -62,13 +61,10 @@
       "tags": [
         "real-estate",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "房地产买卖代理",
-        "全面的房地产代理助手，覆盖买方与卖方代理",
         "房源管理",
         "报价谈判",
         "交易协调与交割支持"
@@ -141,7 +137,6 @@
       ],
       "keywords": [
         "房地产开发商",
-        "房地产开发全周期专家，覆盖土地获取与可行性分析",
         "规划审批与区划协调",
         "项目融资（建设贷款",
         "夹层融资"
@@ -150,7 +145,7 @@
     {
       "id": "real-estate-development-manager",
       "name": "开发项目经理",
-      "description": "房地产开发全周期管理：拿地研判、规划设计、报建审批、施工管理、交付验收",
+      "description": "房地产开发项目经理：统筹拿地研判与可行性研究、规划报建与区划协调、设计与施工全过程管控、预售与招商、项目融资提款及退出路径落地",
       "emoji": "🏗️",
       "category": "real-estate",
       "subcategory": "",
@@ -211,17 +206,17 @@
       "lifecycle": "published",
       "tags": [
         "real-estate",
-        "Success",
-        "Metrics",
-        "References",
-        "Standards"
+        "reit",
+        "portfolio-strategy",
+        "asset-management",
+        "development"
       ],
       "keywords": [
         "房地产总监",
-        "房地产领域最高负责人，覆盖战略规划",
-        "团队建设",
-        "资源分配",
-        "跨部门协调与业务绩效管理"
+        "REIT",
+        "资产组合",
+        "资本化率",
+        "净运营收入"
       ]
     },
     {
@@ -260,7 +255,6 @@
         "设施管理",
         "FM",
         "专家",
-        "商业建筑设施管理专家，覆盖楼宇机电",
         "HVAC"
       ]
     },
@@ -298,7 +292,6 @@
       ],
       "keywords": [
         "房地产总经理",
-        "房地产领域全面经营管理者，覆盖业务运营",
         "财务绩效",
         "团队建设",
         "客户关系与战略执行"
@@ -373,12 +366,10 @@
         "real-estate",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "物业管理经理",
-        "物业管理经理，覆盖租户关系维护与续租",
         "租赁合同管理与租金收取",
         "日常维修与资本改善规划",
         "供应商管理（保洁"
@@ -411,12 +402,10 @@
         "real-estate",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [
         "物业估价师",
-        "住宅与商业地产估价专家，精通收益法",
         "市场法",
         "成本法",
         "最高最佳使用分析"

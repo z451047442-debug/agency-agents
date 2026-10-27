@@ -626,3 +626,10 @@ class TestExportProject:
         with patch.object(sys, "argv", ["nx", "--export", "ep3"]):
             mod.main()
         assert "ep3" in capsys.readouterr().out
+
+
+def test_checkpoint_path_rejects_traversal(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "PROJECTS_DIR", tmp_path)
+    with pytest.raises(SystemExit) as exc:
+        mod.checkpoint_path("../evil")
+    assert exc.value.code == 2

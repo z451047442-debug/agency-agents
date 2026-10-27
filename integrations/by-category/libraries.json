@@ -1,7 +1,7 @@
 {
   "category": "libraries",
   "agent_count": 3,
-  "generated": "2026-09-14",
+  "generated": "2026-10-27",
   "agents": [
     {
       "id": "libraries-archivist",
@@ -28,13 +28,10 @@
       "tags": [
         "libraries",
         "References",
-        "Standards",
-        "Methodology",
-        "Decision"
+        "Standards"
       ],
       "keywords": [
         "档案管理员",
-        "档案管理专家，覆盖档案鉴定与征集评估",
         "检索工具编制（ISAD",
         "DACS",
         "EAD）"
@@ -106,7 +103,6 @@
         "libraries",
         "Success",
         "Metrics",
-        "Professional",
         "Scope"
       ],
       "keywords": [

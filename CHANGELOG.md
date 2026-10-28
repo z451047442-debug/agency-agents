@@ -9,6 +9,7 @@
 
 ### Fixed
 - 修复 Bandit B613 High：将 `scripts/lint-agents.py` 中不可见 Unicode 检测键改为 `\uXXXX` 转义；Medium/High 均为 0。
+- 修复 Windows 粗粒度 mtime 下 incremental conversion 误判输出过期、重复转换的问题；测试显式覆盖“mtime 相等视为新鲜”和“源文件更新后重写”两种场景。
 - 恢复 7 个 agent 缺失的 Deliverable / Success Metrics / Workflow 章节；lint warning 7 → **0**。
 - 规范 13 个文件 EOF 为单个换行；`git diff --check` 通过。
 

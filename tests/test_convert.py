@@ -3,6 +3,7 @@
 import argparse
 import importlib.util
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -955,6 +956,12 @@ class TestIncremental:
         agents = _discover_agents_with_fm()
         out_dir = tmp_path / "integrations"
         convert.run_tool_incremental("cursor", agents, out_dir)
+        # Simulate coarse filesystem timestamps (e.g. Windows CI): if the
+        # output and source share an mtime, the output is still fresh.
+        src = tmp_path / "engineering" / "engineering-test-agent.md"
+        out = out_dir / "cursor" / "rules" / "engineering-test-agent.mdc"
+        src_stat = src.stat()
+        os.utime(out, ns=(src_stat.st_atime_ns, src_stat.st_mtime_ns))
         written, skipped = convert.run_tool_incremental("cursor", agents, out_dir)
         assert written == 0
         assert skipped == 1
@@ -969,6 +976,8 @@ class TestIncremental:
             FULL_AGENT_CONTENT.replace("A test agent for unit testing",
                                        "Updated description for testing"),
             encoding="utf-8")
+        st = src.stat()
+        os.utime(src, ns=(st.st_atime_ns, st.st_mtime_ns + 1_000_000_000))
         agents = _discover_agents_with_fm()
         written, skipped = convert.run_tool_incremental("cursor", agents, out_dir)
         assert written == 1
@@ -1013,6 +1022,8 @@ class TestIncremental:
             FULL_AGENT_CONTENT.replace("A test agent for unit testing",
                                        "Rebuilt description for testing"),
             encoding="utf-8")
+        st = src.stat()
+        os.utime(src, ns=(st.st_atime_ns, st.st_mtime_ns + 1_000_000_000))
         agents = _discover_agents_with_fm()
         written, _ = convert.run_tool_incremental("aider", agents, out_dir)
         assert written == 1
@@ -1062,6 +1073,8 @@ class TestIncremental:
             FULL_AGENT_CONTENT.replace("A test agent for unit testing",
                                        "Hermes rebuild"),
             encoding="utf-8")
+        st = src.stat()
+        os.utime(src, ns=(st.st_atime_ns, st.st_mtime_ns + 1_000_000_000))
         agents = _discover_agents_with_fm()
         written, _ = convert.run_tool_incremental("hermes", agents, out_dir)
         assert written == 1

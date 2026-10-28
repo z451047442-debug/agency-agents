@@ -525,11 +525,16 @@ _PRIMARY_OUTPUT = {
 
 
 def _agent_fresh(file_path, agent_id, tool, out_dir):
-    """True if the agent's primary output is strictly newer than its source."""
+    """True if the agent's primary output is not older than its source.
+
+    Uses >= because some filesystems (notably Windows CI) expose coarse
+    timestamps, so a freshly written output can have the same mtime as its
+    source. Strict > would rewrite every agent on those systems.
+    """
     primary = _PRIMARY_OUTPUT[tool](agent_id, out_dir / tool)
     if not primary.exists():
         return False
-    return primary.stat().st_mtime > file_path.stat().st_mtime
+    return primary.stat().st_mtime_ns >= file_path.stat().st_mtime_ns
 
 
 # Generator scripts whose code changes should also trigger an aggregate rebuild.
@@ -551,14 +556,14 @@ def _aggregate_fresh(agents, tool, out_dir):
     plugin / a few JSONs), so freshness is all-or-nothing. A missing output
     counts as stale, which also self-heals partial generator failures.
     """
-    mtimes = [fp.stat().st_mtime for _, fp, _, _ in agents]
+    mtimes = [fp.stat().st_mtime_ns for _, fp, _, _ in agents]
     index = REPO / "AGENTS.json"
     if index.exists():
-        mtimes.append(index.stat().st_mtime)
+        mtimes.append(index.stat().st_mtime_ns)
     for rel in _AGGREGATE_SCRIPTS[tool]:
         p = REPO / rel
         if p.exists():
-            mtimes.append(p.stat().st_mtime)
+            mtimes.append(p.stat().st_mtime_ns)
     newest_source = max(mtimes, default=0)
 
     if tool == "hermes":
@@ -570,7 +575,7 @@ def _aggregate_fresh(agents, tool, out_dir):
             _OMC_OUT / "model-routing.json",
         ]
         outputs.extend(_OMC_OUT.glob("skills/nexus-*/SKILL.md"))
-    return all(p.exists() and p.stat().st_mtime > newest_source for p in outputs)
+    return all(p.exists() and p.stat().st_mtime_ns >= newest_source for p in outputs)
 
 
 def run_tool_incremental(tool, agents, out_dir):
@@ -597,8 +602,8 @@ def run_tool_incremental(tool, agents, out_dir):
         dest = (out_dir / "aider" / "CONVENTIONS.md") if tool == "aider" \
             else (out_dir / "windsurf" / ".windsurfrules")
         if dest.exists():
-            newest_source = max((fp.stat().st_mtime for _, fp, _, _ in agents), default=0)
-            if dest.stat().st_mtime > newest_source:
+            newest_source = max((fp.stat().st_mtime_ns for _, fp, _, _ in agents), default=0)
+            if dest.stat().st_mtime_ns >= newest_source:
                 return 0, len(buf)
         build_aider_windsurf(buf, out_dir, tool)
         return len(buf), 0

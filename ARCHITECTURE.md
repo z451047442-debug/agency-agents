@@ -1,8 +1,8 @@
-# The Agency — System Architecture v2.2.5
+# The Agency — System Architecture v2.2.6
 
 **1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,471 Tests · OMC Smart Plugin**
 
-Generated: 2026-10-27 23:36 UTC
+Generated: 2026-10-28 16:39 UTC
 
 ---
 
@@ -322,7 +322,7 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 
 | Metric | Value |
 |--------|-------|
-| Version | v2.2.5 |
+| Version | v2.2.6 |
 | Python | >=3.10 |
 | Coverage threshold | 90% |
 | Agent files | 1,402 |
@@ -333,4 +333,4 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 | OMC plugin artifacts | 4 |
 | NEXUS phases | 7 |
 
-Generated: 2026-10-27 23:36 UTC
+Generated: 2026-10-28 16:39 UTC

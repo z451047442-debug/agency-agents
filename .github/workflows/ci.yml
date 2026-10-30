@@ -37,7 +37,7 @@ jobs:
         run: python scripts/analyze-deps.py --validate
 
       - name: Validate AGENTS.json sync
-        run: python scripts/validate-index.py
+        run: python scripts/validate-index.py --require-schema
 
       - name: Validate agent count consistency (disk ↔ AGENTS.json ↔ pyproject.toml)
         run: |
@@ -159,7 +159,7 @@ jobs:
         run: python -m pytest tests/ -q --tb=short
 
       - name: Validate index
-        run: python scripts/validate-index.py
+        run: python scripts/validate-index.py --require-schema
 
       - name: Validate category shards
         run: python scripts/shard-index.py --check

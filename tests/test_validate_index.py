@@ -2,7 +2,6 @@
 
 import importlib.util
 import json
-import os
 import sys
 from pathlib import Path
 from unittest.mock import patch
@@ -432,6 +431,36 @@ class TestMainFunction:
             with pytest.raises(SystemExit) as exc:
                 mod.main()
             assert exc.value.code == 0
+
+    def test_schema_skip_warns_by_default(self, tmp_path, monkeypatch, capsys):
+        """Missing jsonschema is a warning without --require-schema."""
+        index_path = tmp_path / "AGENTS.json"
+        _make_index(index_path)
+        _setup_repo_schema(monkeypatch, tmp_path)
+        monkeypatch.setattr(mod, "validate_schema",
+                            lambda *a, **k: ["SKIP: jsonschema not installed"])
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path),
+                           "--schema-only"]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+        assert exc.value.code == 0
+        assert "WARN:" in capsys.readouterr().out
+
+    def test_require_schema_fails_when_skip(self, tmp_path, monkeypatch, capsys):
+        """--require-schema turns a missing jsonschema into a failure."""
+        index_path = tmp_path / "AGENTS.json"
+        _make_index(index_path)
+        _setup_repo_schema(monkeypatch, tmp_path)
+        monkeypatch.setattr(mod, "validate_schema",
+                            lambda *a, **k: ["SKIP: jsonschema not installed"])
+        with patch.object(sys, "argv",
+                          ["validate-index.py", "--path", str(index_path),
+                           "--schema-only", "--require-schema"]):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+        assert exc.value.code == 1
+        assert "FAIL:" in capsys.readouterr().out
 
     def test_main_sync_only_flag(self, tmp_path, monkeypatch):
         """--sync-only skips schema validation and duplicate check."""

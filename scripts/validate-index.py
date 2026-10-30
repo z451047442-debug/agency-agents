@@ -2,7 +2,7 @@
 """Validate AGENTS.json — JSON syntax, schema conformance, and filesystem cross-reference.
 
 Usage:
-    python scripts/validate-index.py [--schema-only] [--sync-only] [--path <index.json>]
+    python scripts/validate-index.py [--schema-only] [--sync-only] [--require-schema] [--path <index.json>]
 
 Exit codes:
     0   All checks passed.
@@ -142,6 +142,8 @@ def main():
                         help="Only validate JSON syntax and schema (skip filesystem cross-check)")
     parser.add_argument("--sync-only", action="store_true",
                         help="Only cross-check AGENTS.json against filesystem .md files")
+    parser.add_argument("--require-schema", action="store_true",
+                        help="Fail when jsonschema is unavailable (CI mode)")
     args = parser.parse_args()
 
     index_path = Path(args.path)
@@ -167,7 +169,11 @@ def main():
         else:
             schema_errors = validate_schema(data, schema)
             if any(e.startswith("SKIP:") for e in schema_errors):
-                print(f"WARN: {schema_errors[0]}")
+                if args.require_schema:
+                    print(f"FAIL: {schema_errors[0]}")
+                    errors += 1
+                else:
+                    print(f"WARN: {schema_errors[0]}")
             elif schema_errors:
                 print(f"FAIL: Schema validation found {len(schema_errors)} error(s):")
                 for e in schema_errors:

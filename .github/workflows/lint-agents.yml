@@ -134,7 +134,7 @@ jobs:
         run: pip install pyyaml==6.0.3 jsonschema==4.26.0
 
       - name: Run validate-index.py
-        run: python scripts/validate-index.py
+        run: python scripts/validate-index.py --require-schema
 
   # ── Multi-platform i18n validation ──────────────────────────────────────
   i18n:

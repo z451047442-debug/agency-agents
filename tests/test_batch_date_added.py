@@ -70,6 +70,22 @@ class TestInsertDateAdded:
         f.write_text("---\nname: A\n---\nBody", encoding="utf-8")
         assert insert_date_added(f, "2026-07-01") is False
 
+    def test_body_anchor_is_ignored(self, tmp_path):
+        f = tmp_path / "a.md"
+        f.write_text("---\nname: A\n---\nversion: body-only\n", encoding="utf-8")
+        assert insert_date_added(f, "2026-07-01") is False
+        assert "date_added" not in f.read_text(encoding="utf-8")
+
+    def test_missing_opening_fence_returns_false(self, tmp_path):
+        f = tmp_path / "a.md"
+        f.write_text("name: A\nversion: \"1.0\"\n", encoding="utf-8")
+        assert insert_date_added(f, "2026-07-01") is False
+
+    def test_missing_closing_fence_returns_false(self, tmp_path):
+        f = tmp_path / "a.md"
+        f.write_text("---\nname: A\nversion: \"1.0\"\n", encoding="utf-8")
+        assert insert_date_added(f, "2026-07-01") is False
+
 
 class TestDiscoverFiles:
     def test_skips_dot_dirs(self, tmp_path, monkeypatch):

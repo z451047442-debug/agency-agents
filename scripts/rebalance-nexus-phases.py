@@ -14,7 +14,12 @@ from _shared import atomic_write
 from _shared.frontmatter import get_body, get_frontmatter_text, get_list_field
 
 REPO = Path(__file__).resolve().parent.parent
-EXCLUDE_DIRS = {"docs", "scripts", "examples", "integrations", "schemas", ".git", ".github"}
+EXCLUDE_DIRS = {
+    "docs", "scripts", "examples", "integrations", "schemas", ".git", ".github",
+    "env", ".venv", "node_modules", "nexus-projects", "nexus-demo", ".claude",
+    ".agents", ".superpowers", ".swarm", ".mypy_cache", ".pytest_cache",
+    ".ruff_cache", ".vs", ".vscode",
+}
 
 # Agents that SHOULD keep Phase 4
 KEEP_P4 = [
@@ -58,11 +63,18 @@ def matches(agent_id: str, patterns: list[str]) -> bool:
     return any(re.search(p, agent_id, re.IGNORECASE) for p in patterns)
 
 
+def _iter_agent_files():
+    """Yield agent markdown files from category directories only."""
+    for top in sorted(REPO.iterdir()):
+        if not top.is_dir() or top.name.startswith(".") or top.name in EXCLUDE_DIRS:
+            continue
+        for filepath in sorted(top.rglob("*.md")):
+            if filepath.is_file() and not filepath.is_symlink():
+                yield filepath
+
+
 def rebalance(dry_run: bool = True):
-    agent_files = [
-        f for f in sorted(REPO.rglob("*.md"))
-        if f.parts[len(REPO.parts):][0] not in EXCLUDE_DIRS
-    ]
+    agent_files = list(_iter_agent_files())
     stats = {"removed_p4": 0, "added_p0": 0, "added_p2": 0, "skipped": 0}
 
     for filepath in agent_files:

@@ -22,7 +22,8 @@ DEFAULT_BRANCH = "main"
 
 _REPO_RE = re.compile(r"^[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+$")
 _BRANCH_RE = re.compile(r"^[a-zA-Z0-9._/-]+$")
-_AGENT_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$")
+# Four shipped agents use a leading underscore (_solution-*), so allow it.
+_AGENT_ID_RE = re.compile(r"^[a-z0-9_][a-z0-9_-]*$")
 MAX_AGENT_BYTES = 1_000_000
 
 

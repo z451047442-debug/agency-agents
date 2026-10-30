@@ -58,16 +58,30 @@ def get_first_commit_date(path: Path) -> str | None:
     return lines[-1] if lines and lines[-1] else None
 
 
+def _display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(REPO)).replace("\\", "/")
+    except ValueError:
+        return str(path)
+
+
 def insert_date_added(path: Path, date_str: str) -> bool:
     lines = path.read_text(encoding="utf-8").split("\n")
+    if not lines or lines[0].strip() != "---":
+        return False
+    close_idx = next(
+        (i for i in range(1, len(lines)) if lines[i].strip() == "---"), None
+    )
+    if close_idx is None:
+        return False
     insert_idx = None
-    for i, line in enumerate(lines):
-        if line.startswith("version:"):
+    for i in range(1, close_idx):
+        if lines[i].startswith("version:"):
             insert_idx = i + 1
             break
     if insert_idx is None:
-        for i, line in enumerate(lines):
-            if line.startswith("color:"):
+        for i in range(1, close_idx):
+            if lines[i].startswith("color:"):
                 insert_idx = i + 1
                 break
     if insert_idx is None:
@@ -111,11 +125,13 @@ def main() -> None:
             continue
 
         if args.dry_run:
-            print(f'[DRY-RUN] {f.relative_to(REPO)} -> date_added: "{date_str}"')
+            print(f'[DRY-RUN] {_display_path(f)} -> date_added: "{date_str}"')
+            count += 1
+        elif insert_date_added(f, date_str):
+            print(f'{_display_path(f)} -> date_added: "{date_str}"')
+            count += 1
         else:
-            if insert_date_added(f, date_str):
-                print(f'{f.relative_to(REPO)} -> date_added: "{date_str}"')
-        count += 1
+            skipped += 1
 
     print("")
     print(f"Updated: {count} | Skipped: {skipped} | Total: {len(files)}")

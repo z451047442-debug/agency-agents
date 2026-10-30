@@ -316,6 +316,17 @@ import _shared
 
 
 class TestPhaseDistribution:
+    def test_iter_agent_files_excludes_non_category_dirs(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        (tmp_path / "engineering").mkdir()
+        (tmp_path / "engineering" / "a.md").write_text("---\nname: A\n---\n")
+        for name in ("env", ".claude", "docs", "node_modules"):
+            d = tmp_path / name
+            d.mkdir()
+            (d / "skip.md").write_text("---\nname: Skip\n---\n")
+        files = list(mod._iter_agent_files())
+        assert files == [tmp_path / "engineering" / "a.md"]
+
     def test_counts_phases_from_agent_files(self, tmp_path, monkeypatch):
         monkeypatch.setattr(mod, "REPO", tmp_path)
         (tmp_path / "engineering").mkdir()

@@ -433,6 +433,19 @@ class TestBuild:
 # ── main ───────────────────────────────────────────────────────────────────
 
 class TestMain:
+    def test_existing_plugin_requires_force(self, tmp_path, monkeypatch):
+        out_dir = tmp_path / "out"
+        plugin = out_dir / "agency-agents-router"
+        plugin.mkdir(parents=True)
+        (plugin / "plugin.yaml").write_text("x", encoding="utf-8")
+        repo = tmp_path / "repo"
+        repo.mkdir()
+        monkeypatch.setattr(
+            sys, "argv",
+            ["build-hermes-plugin.py", "--repo-root", str(repo), "--out", str(out_dir)],
+        )
+        assert mod.main() == 1
+
     def test_default_args(self, tmp_path, monkeypatch):
         """main() resolves default repo_root and out_dir."""
         out_dir = tmp_path / "integrations" / "hermes"

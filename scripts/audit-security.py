@@ -78,9 +78,9 @@ PYTHON_PATTERNS = {
         "pickle deserialization — arbitrary code execution risk; use json instead",
     ),
     "yaml_load_unsafe": (
-        r"yaml\.load\((?![^)]*SafeLoader)",
-        "MEDIUM",
-        "yaml.load without SafeLoader — use yaml.safe_load instead",
+        r"yaml\.(?:unsafe_|full_)?load\((?!.*SafeLoader)",
+        "HIGH",
+        "unsafe YAML loader — use yaml.safe_load instead",
     ),
     "eval_exec": (
         r"\b(?:eval|exec)\s*\(",
@@ -93,8 +93,8 @@ PYTHON_PATTERNS = {
         "destructive file operation — verify the path is constrained to the intended root",
     ),
     "shell_true": (
-        r"subprocess\.\w+\(.*shell\s*=\s*True",
-        "MEDIUM",
+        r"(?s)subprocess\.\w+\(.*?shell\s*=\s*True",
+        "HIGH",
         "subprocess with shell=True — prefer shell=False with list args",
     ),
 }
@@ -120,13 +120,25 @@ CONFIG_PATTERNS = {
 }
 
 
-def scan_file(filepath: Path, patterns: dict) -> list[dict]:
+def scan_file(filepath: Path, patterns: dict, *, strict: bool = False,
+              redact: bool = False) -> list[dict]:
     """Scan a file for security patterns. Returns list of findings."""
     findings: list[dict] = []
     try:
         content = filepath.read_text(encoding="utf-8")
-    except (UnicodeDecodeError, OSError):
-        return findings
+    except (UnicodeDecodeError, OSError) as exc:
+        if not strict:
+            return findings
+        try:
+            rel = str(filepath.relative_to(REPO)).replace("\\", "/")
+        except ValueError:
+            rel = str(filepath)
+        return [{
+            "file": rel, "line": 1, "severity": "HIGH",
+            "rule": "unscannable_file",
+            "desc": f"could not read/decode file for scanning: {exc}",
+            "match": "",
+        }]
 
     rel = str(filepath.relative_to(REPO)).replace("\\", "/")
     lines = content.splitlines()
@@ -136,7 +148,9 @@ def scan_file(filepath: Path, patterns: dict) -> list[dict]:
             line_text = lines[ln - 1] if 0 < ln <= len(lines) else ""
             if "audit-security: allow" in line_text.lower():
                 continue
-            snippet = content[max(0, m.start() - 10):m.end() + 10].replace("\n", " ").strip()
+            snippet = ("<redacted>" if redact
+                       else content[max(0, m.start() - 10):m.end() + 10]
+                       .replace("\n", " ").strip())
             findings.append({
                 "file": rel, "line": ln, "severity": severity,
                 "rule": name, "desc": desc, "match": snippet,
@@ -148,14 +162,18 @@ def audit_all() -> list[dict]:
     """Run all security audits and return combined findings."""
     findings = []
     for sh in REPO.glob("scripts/**/*.sh"):
-        findings.extend(scan_file(sh, SHELL_PATTERNS))
+        findings.extend(scan_file(sh, SHELL_PATTERNS, strict=True))
     for pattern in ("scripts/**/*.ps1", "scripts/**/*.bat", "scripts/**/*.cmd"):
         for sh in REPO.glob(pattern):
-            findings.extend(scan_file(sh, SHELL_PATTERNS))
-    for py in REPO.glob("scripts/**/*.py"):
+            findings.extend(scan_file(sh, SHELL_PATTERNS, strict=True))
+    python_files = list(REPO.glob("scripts/**/*.py"))
+    entry = REPO / "agency_cli.py"
+    if entry.is_file():
+        python_files.append(entry)
+    for py in python_files:
         if "__pycache__" in str(py):
             continue
-        findings.extend(scan_file(py, PYTHON_PATTERNS))
+        findings.extend(scan_file(py, PYTHON_PATTERNS, strict=True))
     # Recursively scan config files (root-only globs missed .github/, scripts/,
     # etc.). Skip VCS/env/derived directories.
     config_suffixes = {".json", ".yaml", ".yml", ".toml"}
@@ -172,7 +190,7 @@ def audit_all() -> list[dict]:
         if (f.suffix in config_suffixes
                 or f.name.startswith(".env")
                 or f.name == "CLAUDE.md"):
-            findings.extend(scan_file(f, CONFIG_PATTERNS))
+            findings.extend(scan_file(f, CONFIG_PATTERNS, redact=True))
     return findings
 
 
@@ -209,14 +227,17 @@ def main() -> None:
     args = parser.parse_args()
 
     findings = audit_all()
+    critical_high = sum(
+        1 for f in findings if f["severity"] in ("CRITICAL", "HIGH")
+    )
 
     if args.json:
         json.dump({"findings": findings, "total": len(findings)},
                   sys.stdout, indent=2, ensure_ascii=False)
         sys.stdout.write("\n")
-        return
+    else:
+        print_report(findings)
 
-    critical_high = print_report(findings)
     if args.check and critical_high > 0:
         sys.exit(1)
 

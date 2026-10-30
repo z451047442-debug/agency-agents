@@ -1,4 +1,5 @@
 """Tests for scripts/build-agent-browser.py — standalone HTML builder."""
+import copy
 import importlib.util
 import json
 import sys
@@ -104,3 +105,31 @@ class TestBuildAgentBrowser:
         finally:
             mod.REPO = original_repo
             _shared.REPO = orig_shared
+
+    def test_escapes_category_display_and_card_id(self, tmp_path):
+        mod = _load_mod()
+        index = copy.deepcopy(SAMPLE_INDEX)
+        payload = "<img src=x onerror=alert(1)>"
+        index["agents"][0]["category"] = payload
+        index["agents"][0]["id"] = payload
+        index_path = tmp_path / "AGENTS.json"
+        index_path.write_text(json.dumps(index), encoding="utf-8")
+        out_path = tmp_path / "agent-browser.html"
+
+        import _shared
+        original_repo = mod.REPO
+        orig_shared = _shared.REPO
+        try:
+            mod.REPO = tmp_path
+            _shared.REPO = tmp_path
+            with patch.object(sys, "argv", ["build-agent-browser.py", "--out", str(out_path)]):
+                mod.main()
+        finally:
+            mod.REPO = original_repo
+            _shared.REPO = orig_shared
+
+        html = out_path.read_text(encoding="utf-8")
+        assert "esc(display)" in html
+        assert "esc(a.id)" in html
+        assert "'<span>' + display + '</span>'" not in html
+        assert "data-id=\"' + a.id + '\"" not in html

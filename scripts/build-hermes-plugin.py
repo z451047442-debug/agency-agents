@@ -12,6 +12,7 @@ import argparse
 import json
 import re
 import shutil
+import sys
 import textwrap
 from pathlib import Path
 
@@ -460,9 +461,16 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo-root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--out", type=Path, default=None, help="Output directory, default integrations/hermes")
+    parser.add_argument("--force", action="store_true",
+                        help="Replace an existing non-empty plugin directory")
     args = parser.parse_args()
     repo_root = args.repo_root.resolve()
     out_dir = (args.out or (repo_root / "integrations" / "hermes")).resolve()
+    plugin_dir = out_dir / PLUGIN_NAME
+    if plugin_dir.exists() and not args.force and any(plugin_dir.iterdir()):
+        print(f"ERROR: {plugin_dir} already exists; pass --force to replace it",
+              file=sys.stderr)
+        return 1
     out_dir.mkdir(parents=True, exist_ok=True)
     count = build(repo_root, out_dir)
     print(count)

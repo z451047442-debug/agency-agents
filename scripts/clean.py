@@ -23,7 +23,6 @@ INTEGRATION_TARGETS: list[tuple[str, str | None]] = [
     ("osaurus/agency-*", "dirs"),
     ("hermes", "dir_contents_except_readme"),
     ("oh-my-claudecode", "dir_contents_except_readme"),
-    ("by-category", "dir"),
 ]
 
 DEEP_PATTERNS: list[tuple[str, str]] = [

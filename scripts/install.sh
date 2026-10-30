@@ -128,6 +128,7 @@ main() {
           done
         else
           single_agent="${2:?'--agent requires a value'}"
+          FILTER_AGENTS+=("$single_agent")
         fi
         shift 2 ;;
       --division)
@@ -135,6 +136,7 @@ main() {
         IFS=',' read -ra _divs <<< "${2:?'--division requires a value'}"
         for _d in "${_divs[@]}"; do
           _d="$(printf '%s' "$_d" | xargs)"; [[ -z "$_d" ]] && continue
+          validate_division "$_d"
           FILTER_DIVISIONS+=("$_d")
         done
         interactive_mode="no"; shift 2 ;;

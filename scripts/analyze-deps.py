@@ -758,6 +758,7 @@ def main():
         if broken:
             for source, target in broken:
                 print(f"  {RED}✗{RESET} {source} -> {target}")
+            sys.exit(1)
         return
 
     # --suggest mode

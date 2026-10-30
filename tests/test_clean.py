@@ -148,6 +148,15 @@ class TestCollectIntegrationPaths:
         paths = collect_integration_paths()
         assert len(paths) == 2
 
+    def test_by_category_shards_are_not_cleaned(self, tmp_path, monkeypatch):
+        """integrations/by-category/*.json is tracked, not disposable output."""
+        base = tmp_path / "integrations"
+        (base / "by-category").mkdir(parents=True)
+        (base / "by-category" / "engineering.json").write_text("{}")
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        paths = collect_integration_paths()
+        assert all("by-category" not in str(p) for p in paths)
+
 
 class TestCollectDeepPaths:
     def test_collects_pycache(self, tmp_path, monkeypatch):
@@ -184,6 +193,19 @@ class TestCollectDeepPaths:
 
 
 class TestMainFunction:
+    def test_remove_error_is_warned(self, tmp_path, monkeypatch, capsys):
+        base = tmp_path / "integrations"
+        (base / "cursor" / "rules").mkdir(parents=True)
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+
+        def _denied(*_args, **_kwargs):
+            raise PermissionError("denied")
+
+        monkeypatch.setattr(mod.shutil, "rmtree", _denied)
+        with patch.object(sys, "argv", ["clean.py"]):
+            mod.main()
+        assert "Could not remove" in capsys.readouterr().err
+
     def test_nothing_to_clean(self, tmp_path, monkeypatch, capsys):
         (tmp_path / "integrations").mkdir()
         monkeypatch.setattr(mod, "REPO", tmp_path)

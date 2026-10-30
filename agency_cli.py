@@ -61,7 +61,9 @@ def main():
 
     # Replace argv so the sub-command's argparse sees its own args
     sys.argv = [f"agency-{cmd}"] + sys.argv[2:]
-    func()
+    result = func()
+    if isinstance(result, int):
+        sys.exit(result)
 
 
 if __name__ == "__main__":

@@ -110,10 +110,20 @@ def check_shards(data):
         try:
             shard = json.loads(shard_path.read_text(encoding="utf-8"))
             shard_count = len(shard.get("agents", []))
+            expected = {
+                "category": cat,
+                "agent_count": len(agents),
+                "generated": data["generated"],
+                "agents": agents,
+            }
             if shard_count != len(agents):
                 issues.append(
                     f"Count mismatch in {cat}: "
                     f"AGENTS.json has {len(agents)}, shard has {shard_count}"
+                )
+            elif shard != expected:
+                issues.append(
+                    f"Content mismatch in {cat}.json — run scripts/shard-index.py"
                 )
         except (json.JSONDecodeError, OSError) as e:
             issues.append(f"Invalid JSON in {cat}.json: {e}")

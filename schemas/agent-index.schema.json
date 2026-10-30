@@ -26,6 +26,7 @@
           "id": {
             "type": "string",
             "minLength": 1,
+            "pattern": "^[a-z0-9_][a-z0-9_-]*$",
             "description": "Unique agent identifier derived from the filename (without .md extension)."
           },
           "name": {
@@ -46,6 +47,7 @@
           "category": {
             "type": "string",
             "minLength": 1,
+            "pattern": "^[a-z0-9_][a-z0-9-]*$",
             "description": "Top-level category directory name (e.g. 'engineering', 'aerospace')."
           },
           "subcategory": {
@@ -54,8 +56,8 @@
           },
           "path": {
             "type": "string",
-            "pattern": "\\.md$",
-            "description": "Relative path from the repository root to the agent .md file."
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9._/-]+\\.md$",
+            "description": "Relative POSIX path from the repository root to the agent .md file."
           },
           "depends_on": {
             "type": "array",

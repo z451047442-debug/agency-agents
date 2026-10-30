@@ -15,6 +15,7 @@ Usage:
 
 import argparse
 import json
+import os
 import platform
 import sys
 from collections import Counter
@@ -38,9 +39,17 @@ def _load():
 
 
 def _save(data):
-    TELEMETRY_DIR.mkdir(parents=True, exist_ok=True)
+    TELEMETRY_DIR.mkdir(parents=True, exist_ok=True, mode=0o700)
+    try:
+        os.chmod(TELEMETRY_DIR, 0o700)
+    except OSError:
+        pass  # platforms without POSIX modes (Windows)
     tmp = TELEMETRY_FILE.with_suffix(".tmp")
     tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    try:
+        os.chmod(tmp, 0o600)
+    except OSError:
+        pass
     tmp.replace(TELEMETRY_FILE)
 
 
@@ -69,13 +78,18 @@ def disable():
 def record_event(action, **kwargs):
     if not is_enabled():
         return
-    data = _load()
-    event = {"timestamp": datetime.now(UTC).isoformat(), "action": action}
-    event.update({k: v for k, v in kwargs.items() if v is not None})
-    data["events"].append(event)
-    if len(data["events"]) > MAX_EVENTS:
-        data["events"] = data["events"][-MAX_EVENTS:]
-    _save(data)
+    try:
+        data = _load()
+        event = {"timestamp": datetime.now(UTC).isoformat(), "action": action}
+        event.update({k: v for k, v in kwargs.items() if v is not None})
+        data.setdefault("events", [])
+        data["events"].append(event)
+        if len(data["events"]) > MAX_EVENTS:
+            data["events"] = data["events"][-MAX_EVENTS:]
+        _save(data)
+    except OSError:
+        # Telemetry is opt-in and best-effort; never break the caller.
+        return
 
 
 def print_report():

@@ -1117,7 +1117,9 @@ class TestMain:
         )
         monkeypatch.setattr(sys, 'argv',
                            ['analyze-deps.py', '--validate'])
-        mod.main()
+        with pytest.raises(SystemExit) as exc_info:
+            mod.main()
+        assert exc_info.value.code == 1
         captured = capsys.readouterr()
         assert "ghost-agent-123" in captured.out
 

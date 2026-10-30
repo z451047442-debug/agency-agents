@@ -228,6 +228,18 @@ class TestCheckShards:
             check_shards(data)
         assert exc.value.code == 1
 
+    def test_content_mismatch_with_same_count_exits_1(self, tmp_path, monkeypatch):
+        """A renamed agent must be detected even when the count is unchanged."""
+        monkeypatch.setattr(mod, "SHARD_DIR", tmp_path)
+        data = _make_data([_make_agent(1, "eng")])
+        stale = json.loads(json.dumps(data))
+        stale["agents"][0]["name"] = "Renamed Agent"
+        _write_shards(tmp_path, stale)
+
+        with pytest.raises(SystemExit) as exc:
+            check_shards(data)
+        assert exc.value.code == 1
+
 
 # ── load_index ─────────────────────────────────────────────────────────────
 

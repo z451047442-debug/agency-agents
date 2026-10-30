@@ -1,4 +1,5 @@
 """Tests for scripts/build-architecture.py."""
+import copy
 import importlib.util
 import json
 import sys
@@ -157,7 +158,7 @@ class TestHtmlRendering:
         mod = _load_mod()
         result = mod.format_html_footer_stats(SAMPLE_DATA)
         assert "1,292" in result
-        assert ">=3.10" in result
+        assert "&gt;=3.10" in result
 
     def test_format_html_category_bars(self):
         mod = _load_mod()
@@ -200,6 +201,63 @@ class TestHtmlRendering:
         mod = _load_mod()
         result = mod.format_html_integration_cards(SAMPLE_DATA["integration_targets"])
         assert "Claude Code" in result
+
+
+class TestHtmlEscaping:
+    def test_category_bars_escape_untrusted_category(self):
+        mod = _load_mod()
+        result = mod.format_html_category_bars(
+            [{"category": "<img src=x onerror=alert(1)>", "count": 1}], 1
+        )
+        lowered = result.lower()
+        assert "<img" not in lowered
+        assert "&lt;img" in lowered
+
+    def test_nexus_escapes_untrusted_phase_name(self, tmp_path):
+        mod = _load_mod()
+        role = "phase-1-<img src=x onerror=alert(1)>"
+        index = {"agents": [{"id": "t1", "name": "T1", "nexus_roles": [role]}]}
+        (tmp_path / "AGENTS.json").write_text(json.dumps(index), encoding="utf-8")
+
+        original_repo = mod.REPO
+        try:
+            mod.REPO = tmp_path
+            result = mod.format_html_nexus([role])
+        finally:
+            mod.REPO = original_repo
+
+        lowered = result.lower()
+        assert "<img" not in lowered
+        assert "&lt;img" in lowered
+
+    def test_test_cards_escape_module_name(self):
+        mod = _load_mod()
+        result = mod.format_html_test_cards(
+            [{"module": "test_<img src=x onerror=alert(1)>.py", "count": 1}]
+        )
+        assert "<img" not in result.lower()
+        assert "&lt;img" in result.lower()
+
+    def test_footer_escapes_pyproject_values(self):
+        mod = _load_mod()
+        data = copy.deepcopy(SAMPLE_DATA)
+        data["python_req"] = "<img src=x onerror=alert(1)>"
+        data["coverage_threshold"] = "<img src=x onerror=alert(1)>"
+        result = mod.format_html_footer_stats(data)
+        assert "<img" not in result.lower()
+        assert "&lt;img" in result.lower()
+
+    def test_render_html_escapes_version_consumers_and_tests(self):
+        mod = _load_mod()
+        data = copy.deepcopy(SAMPLE_DATA)
+        data["version"] = "<img src=x onerror=alert(1)>"
+        data["shared"]["consumers"] = ["<img src=x onerror=alert(1)>"]
+        data["test_modules"] = [
+            {"module": "test_<img src=x onerror=alert(1)>.py", "count": 1}
+        ]
+        result = mod.render_html(data)
+        assert "<img" not in result.lower()
+        assert "&lt;img" in result.lower()
 
 
 class TestDataCollection:

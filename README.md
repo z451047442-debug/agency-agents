@@ -419,11 +419,11 @@ See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for f
 
 Browse all 1402 agents in each category directory (62 domains):
 
-**Technology**: [engineering](engineering/)(114) · [infrastructure](infrastructure/)(111) · [data-science](data-science/)(47) · [cybersecurity](cybersecurity/)(39) · [game-development](game-development/)(26) · [testing](testing/)(21) · [iot](iot/)(20) · [spatial-computing](spatial-computing/)(16) · [robotics](robotics/)(16) · [gis](gis/)(16) · [web3](web3/)(14) · [telecom](telecom/)(13)
+**Technology**: [engineering](engineering/)(114) · [infrastructure](infrastructure/)(111) · [data-science](data-science/)(47) · [cybersecurity](cybersecurity/)(39) · [game-development](game-development/)(26) · [testing](testing/)(22) · [iot](iot/)(20) · [spatial-computing](spatial-computing/)(16) · [robotics](robotics/)(16) · [gis](gis/)(16) · [web3](web3/)(14) · [telecom](telecom/)(13)
 
-**Business & Marketing**: [marketing](marketing/)(85) · [sales](sales/)(16) · [tourism](tourism/)(16) · [retail](retail/)(15) · [product](product/)(14) · [customer-service](customer-service/)(13) · [lottery](lottery/)(13)
+**Business & Marketing**: [marketing](marketing/)(86) · [sales](sales/)(16) · [tourism](tourism/)(16) · [retail](retail/)(15) · [product](product/)(14) · [customer-service](customer-service/)(13) · [lottery](lottery/)(13)
 
-**Enterprise Management**: [finance](finance/)(53) · [legal](legal/)(25) · [project-management](project-management/)(24) · [hr](hr/)(22) · [real-estate](real-estate/)(12) · [operations](operations/)(12) · [quality](quality/)(11) · [administration](administration/)(10) · [strategy](strategy/)(7)
+**Enterprise Management**: [finance](finance/)(53) · [legal](legal/)(25) · [project-management](project-management/)(25) · [hr](hr/)(22) · [real-estate](real-estate/)(12) · [operations](operations/)(12) · [quality](quality/)(11) · [administration](administration/)(10) · [strategy](strategy/)(6)
 
 **Manufacturing & Industry**: [manufacturing](manufacturing/)(47) · [energy](energy/)(44) · [construction](construction/)(43) · [aerospace](aerospace/)(33) · [automotive](automotive/)(23) · [agriculture](agriculture/)(14)
 

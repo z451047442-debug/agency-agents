@@ -4,10 +4,12 @@ import argparse
 import importlib.util
 import json
 import os
+import subprocess
 import sys
 from pathlib import Path
 
 import pytest
+import yaml
 
 # ── Import the script as a module ──────────────────────────────────────────────
 
@@ -212,6 +214,22 @@ class TestWriteFrontmatter:
         _write_frontmatter(out, {"key": "val"}, "No newline")
         content = out.read_text(encoding="utf-8")
         assert content.endswith("\n")
+
+    def test_yaml_sensitive_scalar_is_quoted(self, tmp_path):
+        out = tmp_path / "test.md"
+        desc = "airframes: static strength"
+        _write_frontmatter(out, {"description": desc}, "")
+        content = out.read_text(encoding="utf-8")
+        frontmatter = content.split("---", 2)[1]
+        assert yaml.safe_load(frontmatter)["description"] == desc
+
+    def test_all_agent_descriptions_yaml_roundtrip(self):
+        index_path = Path(__file__).resolve().parent.parent / "AGENTS.json"
+        index = json.loads(index_path.read_text(encoding="utf-8"))
+        for agent in index["agents"]:
+            scalar = convert._yaml_scalar(agent["description"])
+            parsed = yaml.safe_load(f"description: {scalar}\n")
+            assert parsed["description"] == agent["description"]
 
 
 # ── Converter tests ────────────────────────────────────────────────────────────
@@ -620,6 +638,28 @@ class TestRunHermes:
         # Should not raise
         convert.run_hermes(out_dir)
 
+    def test_called_process_error_becomes_runtime_error(self, tmp_path, monkeypatch):
+        def _boom(*_args, **_kwargs):
+            raise subprocess.CalledProcessError(2, "build-hermes-plugin.py")
+
+        monkeypatch.setattr(convert.subprocess, "run", _boom)
+        with pytest.raises(RuntimeError):
+            convert.run_hermes(tmp_path)
+
+    def test_missing_script_becomes_runtime_error(self, tmp_path, monkeypatch):
+        def _boom(*_args, **_kwargs):
+            raise FileNotFoundError()
+
+        monkeypatch.setattr(convert.subprocess, "run", _boom)
+        with pytest.raises(RuntimeError):
+            convert.run_hermes(tmp_path)
+
+
+def test_omc_missing_generators_raises(tmp_path, monkeypatch):
+    monkeypatch.setattr(convert, "REPO", tmp_path)
+    with pytest.raises(RuntimeError):
+        convert.convert_oh_my_claudecode("", "", "", tmp_path)
+
 
 # ── run_tool hermes & fm_text path ─────────────────────────────────────────
 
@@ -645,6 +685,26 @@ class TestRunToolHermes:
         count = convert.run_tool("hermes", agents, out_dir)
         assert count == 1
         assert len(called) == 1
+
+    def test_run_tool_hermes_failure_raises(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(convert, "clean_tool_output", lambda *a: None)
+
+        def _boom(_out_dir):
+            raise RuntimeError("hermes build failed")
+
+        monkeypatch.setattr(convert, "run_hermes", _boom)
+        with pytest.raises(RuntimeError):
+            convert.run_tool("hermes", [], tmp_path)
+
+    def test_run_tool_refuses_non_default_clean(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(convert, "OUT", tmp_path / "integrations")
+        out = tmp_path / "elsewhere"
+        (out / "cursor" / "rules").mkdir(parents=True)
+        (out / "cursor" / "rules" / "x.mdc").write_text("x")
+        with pytest.raises(RuntimeError):
+            convert.run_tool("cursor", [], out)
+        # --force is the explicit escape hatch.
+        assert convert.run_tool("cursor", [], out, force=True) == 0
 
     def test_run_tool_opencode_with_fm_text(self, tmp_path, monkeypatch):
         """run_tool for opencode passes fm_text to converter."""
@@ -715,6 +775,8 @@ class TestMain:
 
         # Mock run_hermes to avoid subprocess call
         monkeypatch.setattr(convert, "run_hermes", lambda *a: None)
+        # OMC generators live in the real repo; mock them for tmp-repo tests.
+        monkeypatch.setattr(convert, "convert_oh_my_claudecode", lambda *a, **k: None)
 
         old_argv = sys.argv
         sys.argv = main_args
@@ -817,6 +879,48 @@ class TestMain:
             sys.argv = old_argv
         output = captured.getvalue()
         assert "up to date" in output
+
+    def test_check_single_tool_ignores_other_tools(self, tmp_path, monkeypatch):
+        """--tool X --check must only compare X's subtree, not the whole tree."""
+        import io
+        import sys
+
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
+        self._make_mock_agent(tmp_path)
+        out_dir = tmp_path / "integrations"
+        agents = _discover_agents_with_fm()
+        run_tool("cursor", agents, out_dir)
+        (out_dir / "aider").mkdir()
+        (out_dir / "aider" / "CONVENTIONS.md").write_text("other tool")
+
+        old_argv = sys.argv
+        sys.argv = ["convert.py", "--tool", "cursor", "--check", "--out", str(out_dir)]
+        captured = io.StringIO()
+        old_stdout = sys.stdout
+        sys.stdout = captured
+        try:
+            convert.main()
+        finally:
+            sys.stdout = old_stdout
+            sys.argv = old_argv
+        assert "up to date" in captured.getvalue()
+
+    def test_omc_non_default_out_is_rejected(self, tmp_path, monkeypatch):
+        import sys
+
+        monkeypatch.setattr(convert, "REPO", tmp_path)
+        monkeypatch.setattr(_shared_discovery, "REPO", tmp_path)
+        self._make_mock_agent(tmp_path)
+        old_argv = sys.argv
+        sys.argv = ["convert.py", "--tool", "oh-my-claudecode",
+                    "--out", str(tmp_path / "out")]
+        try:
+            with pytest.raises(SystemExit) as exc_info:
+                convert.main()
+            assert exc_info.value.code == 1
+        finally:
+            sys.argv = old_argv
 
     def test_check_mode_with_diffs(self, tmp_path, monkeypatch):
         """Test --check mode when integrations/ is stale (content differs).

@@ -138,6 +138,49 @@ class TestValidateSchema:
         errors = validate_schema(data, schema)
         assert len(errors) > 0
 
+    def _real_index(self, aid="one", path="engineering/one.md",
+                    category="engineering"):
+        return {
+            "version": "1.0",
+            "generated": "2026-10-29",
+            "total_categories": 1,
+            "total_agents": 1,
+            "agents": [{
+                "id": aid,
+                "name": "One",
+                "description": "d",
+                "emoji": "🧪",
+                "category": category,
+                "path": path,
+            }],
+        }
+
+    def _real_schema(self):
+        try:
+            import jsonschema  # noqa: F401
+        except ImportError:
+            pytest.skip("jsonschema not installed")
+        schema_path = SCRIPTS_DIR.parent / "schemas" / "agent-index.schema.json"
+        return json.loads(schema_path.read_text(encoding="utf-8"))
+
+    @pytest.mark.parametrize("aid,path", [
+        ("../evil", "engineering/one.md"),
+        ("evil", "../one.md"),
+        ("evil", "/one.md"),
+        ("evil", "engineering\\one.md"),
+        ("Evil", "engineering/one.md"),
+    ])
+    def test_real_schema_rejects_unsafe_id_or_path(self, aid, path):
+        errors = validate_schema(self._real_index(aid, path), self._real_schema())
+        assert errors
+
+    def test_real_schema_accepts_solution_id(self):
+        errors = validate_schema(
+            self._real_index("_solution-one", "_solution/_solution-one.md", "_solution"),
+            self._real_schema(),
+        )
+        assert errors == []
+
 
 # ── discover_md_files ─────────────────────────────────────────────────────────
 

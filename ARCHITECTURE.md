@@ -1,8 +1,8 @@
 # The Agency — System Architecture v2.2.6
 
-**1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,471 Tests · OMC Smart Plugin**
+**1,402 AI Agent Personality Definitions · 62 Categories · 34 Tooling Scripts · 1,537 Tests · OMC Smart Plugin**
 
-Generated: 2026-10-28 16:39 UTC
+Generated: 2026-10-30 00:17 UTC
 
 ---
 
@@ -15,43 +15,45 @@ Generated: 2026-10-28 16:39 UTC
 | CI | push/PR to main | lint -> test -> validate -> score-gate |
 | Lint Agent Files | on *.md change | YAML + structure validation |
 | Nightly Full Audit | cron daily | full pipeline audit |
-| Quality Gate | push/PR | score >= 5 threshold |
+| Quality Gate | pull_request | new >=10 / modified >=8 |
 | Release | tag push | version + changelog |
 
 ---
 
-## Layer 1: Test Suite (44 modules, 1,471 tests)
+## Layer 1: Test Suite (47 modules, 1,537 tests)
 
 | Module (tests) | Module (tests) |
 |----------------|----------------|
 | test_score_agents.py (123) | test_suggest_nexus_roles.py (25) |
-| test_convert.py (88) | test_build_architecture.py (23) |
+| test_convert.py (97) | test_audit_security.py (24) |
 | test_agent_lifecycle.py (80) | test_expand_thin_agents.py (21) |
 | test_nexus_orchestrator.py (79) | test_nexus_coverage.py (21) |
 | test_lint_agents.py (78) | test_batch_version.py (20) |
 | test_analyze_deps.py (73) | test_extract_patterns.py (20) |
-| test_omc_scripts.py (69) | test_check_dupes.py (18) |
-| test_quality_report.py (53) | test_audit_security.py (17) |
+| test_omc_scripts.py (69) | test_batch_date_added.py (19) |
+| test_quality_report.py (53) | test_check_dupes.py (18) |
 | test_search_agents.py (51) | test_batch_add_deps.py (17) |
 | test_batch_add_metadata.py (43) | test_match_nexus_agents.py (17) |
-| test_batch_nexus_roles.py (42) | test_batch_date_added.py (16) |
-| test_build_hermes_plugin.py (40) | test_check_divisions.py (16) |
-| test_expand_agent.py (40) | test_analyze_deps_auto.py (15) |
-| test_contribute.py (39) | test_localize_agents.py (13) |
-| test_feedback.py (37) | test_generate_index.py (12) |
-| test_validate_index.py (37) | test_scan_boilerplate.py (12) |
-| test_check_agent_originality.py (35) | test_install_remote.py (11) |
-| test_shared.py (35) | test_quality_pipeline.py (10) |
-| test_add_comm_section.py (29) | test_batch_nexus_roles_gap.py (7) |
-| test_clean.py (25) | test_integration_pipeline.py (7) |
-| test_rebalance_nexus_phases.py (25) | test_fix_crlf.py (4) |
-| test_shard_index.py (25) | test_build_agent_browser.py (3) |
+| test_validate_index.py (43) | test_check_divisions.py (16) |
+| test_batch_nexus_roles.py (42) | test_analyze_deps_auto.py (15) |
+| test_build_hermes_plugin.py (41) | test_localize_agents.py (13) |
+| test_expand_agent.py (40) | test_generate_index.py (12) |
+| test_contribute.py (39) | test_scan_boilerplate.py (12) |
+| test_feedback.py (37) | test_install_remote.py (11) |
+| test_check_agent_originality.py (35) | test_quality_pipeline.py (10) |
+| test_shared.py (35) | test_batch_nexus_roles_gap.py (7) |
+| test_add_comm_section.py (29) | test_integration_pipeline.py (7) |
+| test_build_architecture.py (28) | test_build_agent_browser.py (4) |
+| test_clean.py (27) | test_fix_crlf.py (4) |
+| test_install.py (27) | test_agency_cli.py (2) |
+| test_rebalance_nexus_phases.py (26) | test_telemetry.py (1) |
+| test_shard_index.py (26) |  |
 
 ---
 
 ## Layer 2: Shared Library (scripts/_shared/)
 
-**16 public API symbols** across 4 modules
+**27 public API symbols** across 4 modules
 
 **discovery.py** — Agent file discovery engine
 - Exports: `REPO, EXCLUDE_DIRS, discover_agents()`
@@ -63,9 +65,9 @@ Generated: 2026-10-28 16:39 UTC
 - Exports: `BOLD, CYAN, GREEN, RED, RESET, YELLOW, supports_color()`
 
 **__init__.py** — Module entry point and dynamic loader
-- Exports: `Re-exports all 15 symbols + load_module()`
+- Exports: `Re-exports all 27 symbols`
 
-**44 consumers**: batch-add-hardening-v2 · fix-agent-content · fix-lint · add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · audit-security · batch-add-metadata · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · expand-thin-agents · export-omc-agents · extract-patterns · fix-filename-prefixes · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · match-nexus-agents · nexus-coverage · nexus-orchestrator · quality-report · rebalance-nexus-phases · scan-boilerplate · score-agents · engine · report · signals · v7 · search-agents · suggest-nexus-roles · validate-index
+**41 consumers**: add-comm-section · agent-lifecycle · analyze-deps-auto · analyze-deps · audit-security · batch-add-metadata · batch-nexus-roles · build-agent-browser · build-architecture · build-hermes-plugin · check-agent-originality · contribute · convert · expand-agent · expand-thin-agents · export-omc-agents · extract-patterns · fix-filename-prefixes · generate-index · generate-nexus-skills · generate-omc-hooks · generate-omc-model-routing · generate-omc-team-config · check-i18n · localize-agents · install · lint-agents · match-nexus-agents · nexus-coverage · nexus-orchestrator · quality-report · rebalance-nexus-phases · scan-boilerplate · score-agents · engine · report · signals · v7 · search-agents · suggest-nexus-roles · validate-index
 
 ---
 
@@ -256,7 +258,7 @@ OMC (oh-my-claudecode) 是唯一不通过 convert.py 转换的集成目标 — �
 | 产物 | 生成器 | 输出 | 规模 | 功能 |
 |----|-----|----|----|----|
 | NEXUS Skills | generate-nexus-skills.py | SKILL.md | 7 files | 按阶段关键词触发的 skill 文件，内含该阶段 agent 列表和质量门检查清单 |
-| 模型路由 | generate-omc-model-routing.py | model-routing.json | 1399 条目 | 按 agent 质量评分分配模型层级 — A级→Opus / B级→Sonnet / C/D级→Haiku |
+| 模型路由 | generate-omc-model-routing.py | model-routing.json | 1402 条目 | 按 agent 质量评分分配模型层级 — A级→Opus / B级→Sonnet / C/D级→Haiku |
 | 关键词 Hook | generate-omc-hooks.py | hooks.json | 领域→agent | 从 agent 名称和描述中提取领域关键词，用户提及时自动推荐对应 agent |
 | 团队管线 | generate-omc-team-config.py | team-config.json | 5 阶段管线 | NEXUS 7阶段 → OMC 5阶段团队管线映射 (plan→prd→exec→verify→fix) |
 
@@ -304,7 +306,7 @@ quality.py
 | **Integration** | `convert.py`, `generate-index.py`, `build-agent-browser.py`, `build-architecture.py` |
 | **Discovery** | `search-agents.py`, `i18n/check-i18n.py`, `i18n/localize-agents.py` |
 
-All 16 consumers depend on `_shared/` modules; cross-script imports use `load_module()` for hyphenated filenames.
+All 41 consumers depend on `_shared/` modules; cross-script imports use the shared lazy loaders for hyphenated filenames.
 
 ---
 
@@ -327,10 +329,10 @@ Resources: `docs/nexus-strategy.md` | `docs/nexus-cycle.md` | `docs/playbooks/` 
 | Coverage threshold | 90% |
 | Agent files | 1,402 |
 | Tool scripts | 34 (.py) + 18 (.sh) |
-| Tests | 1,471 across 44 modules |
+| Tests | 1,537 across 47 modules |
 | CI workflows | 7 |
 | Integration targets | 10 |
 | OMC plugin artifacts | 4 |
 | NEXUS phases | 7 |
 
-Generated: 2026-10-28 16:39 UTC
+Generated: 2026-10-30 00:17 UTC

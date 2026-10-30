@@ -16,7 +16,7 @@ install_copilot() {
     [[ -d "$REPO_ROOT/$dir" ]] || continue
     while IFS= read -r -d '' f; do
       is_agent_file "$f" || continue
-      slug="$(agent_slug "$f")"; slug_allowed "$slug" || continue
+      slug="$(basename "$f" .md)"; slug_allowed "$slug" || continue
       install_file "$f" "$dest_github/"
       install_file "$f" "$dest_copilot/"
       incr count

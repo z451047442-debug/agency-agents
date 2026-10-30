@@ -152,16 +152,19 @@ build_selection() {
   local slugs="" div f s line
   for div in ${FILTER_DIVISIONS[@]+"${FILTER_DIVISIONS[@]}"}; do
     while IFS= read -r f; do
-      s="$(agent_slug "$f")"; [[ -n "$s" ]] && slugs+="$s"$'\n'
+      s="$(basename "$f" .md)"; [[ -n "$s" ]] && slugs+="$s"$'\n'
     done < <(division_files "$div")
   done
-  for s in ${FILTER_AGENTS[@]+"${FILTER_AGENTS[@]}"}; do slugs+="$(slugify "$s")"$'\n'; done
+  for s in ${FILTER_AGENTS[@]+"${FILTER_AGENTS[@]}"}; do
+    s="${s#agency-}"; slugs+="$(slugify "$s")"$'\n'
+  done
   if [[ -n "$AGENTS_FILE" ]]; then
     [[ -f "$AGENTS_FILE" ]] || { err "agents-file not found: $AGENTS_FILE"; exit 1; }
     while IFS= read -r line || [[ -n "$line" ]]; do
       line="${line%%#*}"                              # strip trailing comment
       line="${line#"${line%%[![:space:]]*}"}"; line="${line%"${line##*[![:space:]]}"}"  # trim
       [[ -z "$line" ]] && continue
+      line="${line#agency-}"
       slugs+="$(slugify "$line")"$'\n'
     done < "$AGENTS_FILE"
   fi
@@ -206,8 +209,8 @@ worker_flags() {
 # validate_division <name> -- exit on unknown division.
 validate_division() {
   local _ad
-  for _ad in "${ALL_DIVISIONS[@]}"; do [[ "$_ad" == "$1" ]] && return 0; done
-  err "Unknown division '$1'. Valid: ${ALL_DIVISIONS[*]}"
+  for _ad in "${AGENT_DIRS[@]}"; do [[ "$_ad" == "$1" ]] && return 0; done
+  err "Unknown division '$1'. Valid: ${AGENT_DIRS[*]}"
   exit 1
 }
 
@@ -218,8 +221,20 @@ USE_LINK=false        # --link
 OVERRIDE_PATH=""      # --path (single-destination override)
 
 # install_file <src> <dest> -- copy, or symlink when --link is set.
+# Copies through a temp file so an existing destination symlink is replaced
+# rather than followed (a planted symlink must not redirect writes).
 install_file() {
-  if $USE_LINK; then ln -sf "$1" "$2"; else cp "$1" "$2"; fi
+  local src="$1" target="$2" dest tmp
+  if [[ -d "$target" || "$target" == */ ]]; then
+    dest="${target%/}/$(basename "$src")"
+  else
+    dest="$target"
+  fi
+  if $USE_LINK; then ln -sfn "$src" "$dest"; return 0; fi
+  tmp="$(mktemp "${dest}.agency-tmp.XXXXXX")" || return 1
+  if ! cp "$src" "$tmp"; then rm -f "$tmp"; return 1; fi
+  chmod 0644 "$tmp" 2>/dev/null || true
+  if ! mv -f "$tmp" "$dest"; then rm -f "$tmp"; return 1; fi
 }
 
 # resolve_dest <tool> <default> -- --path > $ENV_VAR > default.
@@ -368,6 +383,7 @@ tool_label() {
     codex)       printf "%-14s  %s" "Codex"        "(~/.codex/agents)"       ;;
     osaurus)     printf "%-14s  %s" "Osaurus"      "(~/.osaurus/skills)"     ;;
     hermes)      printf "%-14s  %s" "Hermes"       "(~/.hermes/plugins)"     ;;
+    oh-my-claudecode) printf "%-14s  %s" "OMC"     "(~/.claude)"             ;;
   esac
 }
 
@@ -639,28 +655,82 @@ interactive_wizard() {
 # Global for single-agent uninstall (set by main() from --agent flag).
 single_agent=""
 
-uninstall_generic() {
-  local label="$1" dest="$2" count=0
+# All agent ids from AGENTS.json (filename stems). Used as the ownership
+# allow-list so uninstall never deletes user files.
+expected_agent_slugs() {
+  grep -o '"id"[[:space:]]*:[[:space:]]*"[^"]*"' "$REPO_ROOT/AGENTS.json" 2>/dev/null \
+    | sed -E 's/.*"([^"]*)"$/\1/' | sort -u || true
+}
+
+# uninstall_scoped <label> <dest> <prefix> <suffix>
+# suffix: .md/.toml/.yaml/.mdc or "dir". Deletes only exact owned paths.
+uninstall_scoped() {
+  local label="$1" dest="$2" prefix="${3:-}" suffix="${4:-.md}"
+  local count=0 slug requested s slugs expected
   [[ -d "$dest" ]] || { info "$label: nothing to uninstall"; return 0; }
+
+  expected="$(expected_agent_slugs)"
   if [[ -n "$single_agent" ]]; then
-    local target="${dest}/${single_agent}.md"
-    # Some tools use subdirectories (e.g. antigravity: agency-frontend-developer/SKILL.md)
-    if [[ -f "$target" ]]; then
-      rm -f "$target" && (( count++ )) || true
-    elif [[ -d "${dest}/${single_agent}" ]]; then
-      rm -rf "${dest}/${single_agent}" && (( count++ )) || true
-    else
+    requested="${single_agent#agency-}"
+    if ! printf '%s\n' "$expected" | grep -qxF "$requested"; then
       info "$label: agent '$single_agent' not installed"
       return 0
     fi
-    ok "$label: removed $single_agent"
+    slugs="$requested"
+  elif $SELECTION_ACTIVE; then
+    # Selection can name arbitrary files (--agent/--agents-file/--division).
+    # Intersect with the AGENTS.json allow-list so uninstall never deletes
+    # files that this project does not own.
+    slugs="$(comm -12 \
+      <(printf '%s\n' "$_ALLOWED_SLUGS" | sort -u) \
+      <(printf '%s\n' "$expected" | sort -u))"
+  else
+    slugs="$expected"
+  fi
+
+  while IFS= read -r slug; do
+    [[ -z "$slug" ]] && continue
+    # Defense in depth: ids from AGENTS.json are path components.
+    [[ "$slug" =~ ^[a-z0-9_][a-z0-9_-]*$ ]] || continue
+    s="${prefix}${slug}"
+    if [[ "$suffix" == "dir" ]]; then
+      if [[ -d "$dest/$s" ]]; then rm -rf "$dest/$s"; incr count; fi
+    else
+      if [[ -f "$dest/$s$suffix" ]]; then rm -f "$dest/$s$suffix"; incr count; fi
+    fi
+  done <<< "$slugs"
+  ok "$label: removed $count entries from $dest"
+}
+
+# uninstall_roster <label> <file> -- combined-file tools (aider/windsurf).
+# Only removes files carrying the convert.py ownership marker, so a
+# user-authored CONVENTIONS.md / .windsurfrules is never deleted.
+uninstall_roster() {
+  local label="$1" target="$2"
+  if [[ ! -f "$target" ]]; then info "$label: not installed"; return 0; fi
+  if [[ -n "$single_agent" ]] || $SELECTION_ACTIVE; then
+    warn "$label: single-file roster; --agent/--division filters are not supported"
     return 0
   fi
-  while IFS= read -r -d $'\0' f; do
-    [[ "$(head -1 "$f")" == "---" ]] || continue
-    rm -f "$f" && (( count++ )) || true
-  done < <(find "$dest" -name "*.md" -type f -print0 2>/dev/null)
-  ok "$label: removed $count agents from $dest"
+  if ! head -n 15 "$target" | grep -qF "Generated by scripts/convert.py"; then
+    warn "$label: refusing to remove $(basename "$target") (not generated by The Agency)"
+    return 0
+  fi
+  rm -f "$target"; ok "$label: removed $(basename "$target")"
+}
+
+# uninstall_plugin <label> <dir> -- a single owned plugin directory.
+# Refuses paths that are not the Agency router plugin (guards --path/env
+# overrides from turning uninstall into rm -rf of an arbitrary directory).
+uninstall_plugin() {
+  local label="$1" target="$2"
+  if [[ ! -e "$target" ]]; then info "$label: not installed"; return 0; fi
+  if [[ ! -d "$target" ]] || \
+     ! grep -Eq '^name:[[:space:]]*agency-agents-router[[:space:]]*$' "$target/plugin.yaml" 2>/dev/null; then
+    warn "$label: refusing to remove '$target' (not a recognised Agency plugin)"
+    return 0
+  fi
+  rm -rf "$target"; ok "$label: removed $(basename "$target")"
 }
 
 # uninstall_tool <tool> -- dispatched from main().
@@ -671,115 +741,140 @@ uninstall_tool() {
   info "Uninstalling The Agency from: $(tool_label "$tool")"
   case "$tool" in
     claude-code) uninstall_claude_code ;;
-    copilot)     uninstall_generic "Copilot" "${HOME}/.github/agents"; uninstall_generic "Copilot" "${HOME}/.copilot/agents" ;;
-    antigravity) uninstall_generic "Antigravity" "${HOME}/.gemini/antigravity/skills" ;;
-    gemini-cli)  uninstall_generic "Gemini CLI" "${HOME}/.gemini/extensions" ;;
-    opencode)    uninstall_generic "OpenCode" "${HOME}/.config/opencode/agents" ;;
-    openclaw)    uninstall_generic "OpenClaw" "${HOME}/.openclaw/agency-agents" ;;
-    cursor)      uninstall_generic "Cursor" "${HOME}/.cursor/rules" ;;
-    aider)       uninstall_generic "Aider" "${REPO_ROOT}" ;;
-    windsurf)    uninstall_generic "Windsurf" "${REPO_ROOT}" ;;
-    qwen)        uninstall_generic "Qwen Code" "${HOME}/.qwen/agents" ;;
-    kimi)        uninstall_generic "Kimi Code" "${HOME}/.config/kimi/agents" ;;
-    codex)       uninstall_generic "Codex" "${HOME}/.codex/agents" ;;
-    osaurus)     uninstall_generic "Osaurus" "${HOME}/.osaurus/skills" ;;
-    hermes)      uninstall_generic "Hermes" "$(hermes_home_dir)/plugins" ;;
+    copilot)
+      uninstall_scoped "Copilot" "$(resolve_dest copilot "${HOME}/.github/agents")" "" ".md"
+      uninstall_scoped "Copilot" "${HOME}/.copilot/agents" "" ".md" ;;
+    antigravity) uninstall_scoped "Antigravity" "$(resolve_dest antigravity "${HOME}/.gemini/antigravity/skills")" "agency-" "dir" ;;
+    gemini-cli)  uninstall_scoped "Gemini CLI" "$(resolve_dest gemini-cli "${HOME}/.gemini/agents")" "" ".md" ;;
+    opencode)    uninstall_scoped "OpenCode" "$(resolve_dest opencode "${PWD}/.opencode/agents")" "" ".md" ;;
+    openclaw)    uninstall_scoped "OpenClaw" "$(resolve_dest openclaw "${HOME}/.openclaw/agency-agents")" "" "dir" ;;
+    cursor)      uninstall_scoped "Cursor" "$(resolve_dest cursor "${PWD}/.cursor/rules")" "" ".mdc" ;;
+    aider)       uninstall_roster "Aider" "${PWD}/CONVENTIONS.md" ;;
+    windsurf)    uninstall_roster "Windsurf" "${PWD}/.windsurfrules" ;;
+    qwen)        uninstall_scoped "Qwen Code" "$(resolve_dest qwen "${PWD}/.qwen/agents")" "" ".md" ;;
+    kimi)        uninstall_scoped "Kimi Code" "$(resolve_dest kimi "${HOME}/.config/kimi/agents")" "" "dir" ;;
+    codex)       uninstall_scoped "Codex" "$(resolve_dest codex "${HOME}/.codex/agents")" "" ".toml" ;;
+    osaurus)     uninstall_scoped "Osaurus" "$(resolve_dest osaurus "${HOME}/.osaurus/skills")" "agency-" "dir" ;;
+    hermes)      uninstall_plugin "Hermes" "$(resolve_dest hermes "$(hermes_home_dir)/plugins/agency-agents-router")" ;;
+    oh-my-claudecode) info "oh-my-claudecode: plugin type; remove ~/.claude/skills/nexus-* manually if desired" ;;
     *)           err "Unknown tool: $tool"; return 1 ;;
   esac
 }
 
 # ---------------------------------------------------------------------------
-# list_installed -- iterate all tools, count agent files
+# list/verify -- owned-entry counts per tool (mirrors install_tool targets)
 # ---------------------------------------------------------------------------
+
+# tool_install_target <tool> -- "kind|dest|prefix|suffix" for owned entries.
+tool_install_target() {
+  local tool="$1"
+  case "$tool" in
+    claude-code) printf 'per-agent|%s||.md' "$(resolve_dest claude-code "${HOME}/.claude/agents")" ;;
+    copilot)     printf 'per-agent|%s||.md' "$(resolve_dest copilot "${HOME}/.github/agents")" ;;
+    antigravity) printf 'per-agent|%s|agency-|dir' "$(resolve_dest antigravity "${HOME}/.gemini/antigravity/skills")" ;;
+    gemini-cli)  printf 'per-agent|%s||.md' "$(resolve_dest gemini-cli "${HOME}/.gemini/agents")" ;;
+    opencode)    printf 'per-agent|%s||.md' "$(resolve_dest opencode "${PWD}/.opencode/agents")" ;;
+    openclaw)    printf 'per-agent|%s||dir' "$(resolve_dest openclaw "${HOME}/.openclaw/agency-agents")" ;;
+    cursor)      printf 'per-agent|%s||.mdc' "$(resolve_dest cursor "${PWD}/.cursor/rules")" ;;
+    aider)       printf 'roster|%s/CONVENTIONS.md||' "${PWD}" ;;
+    windsurf)    printf 'roster|%s/.windsurfrules||' "${PWD}" ;;
+    qwen)        printf 'per-agent|%s||.md' "$(resolve_dest qwen "${PWD}/.qwen/agents")" ;;
+    kimi)        printf 'per-agent|%s||dir' "$(resolve_dest kimi "${HOME}/.config/kimi/agents")" ;;
+    codex)       printf 'per-agent|%s||.toml' "$(resolve_dest codex "${HOME}/.codex/agents")" ;;
+    osaurus)     printf 'per-agent|%s|agency-|dir' "$(resolve_dest osaurus "${HOME}/.osaurus/skills")" ;;
+    hermes)      printf 'plugin|%s||' "$(resolve_dest hermes "$(hermes_home_dir)/plugins/agency-agents-router")" ;;
+    oh-my-claudecode) printf 'plugin|%s||' "${HOME}/.claude" ;;
+    *) return 1 ;;
+  esac
+}
+
+# owned_count <dest> <prefix> <suffix> -- count entries owned by Agency slugs.
+owned_count() {
+  local dest="$1" prefix="${2:-}" suffix="${3:-.md}" n=0 slug s
+  [[ -d "$dest" ]] || { echo 0; return; }
+  while IFS= read -r slug; do
+    [[ -z "$slug" ]] && continue
+    s="${prefix}${slug}"
+    if [[ "$suffix" == "dir" ]]; then
+      [[ -d "$dest/$s" ]] && incr n
+    else
+      [[ -f "$dest/$s$suffix" ]] && incr n
+    fi
+  done < <(expected_agent_slugs)
+  echo "$n"
+}
+
 list_installed() {
   local found=0
   header "Installed Agents"
   for t in "${ALL_TOOLS[@]}"; do
-    local dest label
-    case "$t" in
-      claude-code) dest="${HOME}/.claude/agents"; label="Claude Code" ;;
-      copilot)     dest="${HOME}/.github/agents"; label="Copilot" ;;
-      antigravity) dest="${HOME}/.gemini/antigravity/skills"; label="Antigravity" ;;
-      gemini-cli)  dest="${HOME}/.gemini/extensions/agency-agents/skills"; label="Gemini CLI" ;;
-      opencode)    dest="${HOME}/.config/opencode/agents"; label="OpenCode" ;;
-      openclaw)    dest="${HOME}/.openclaw/agency-agents"; label="OpenClaw" ;;
-      cursor)      dest="${HOME}/.cursor/rules"; label="Cursor" ;;
-      aider)       dest="${REPO_ROOT}"; label="Aider (CONVENTIONS.md)" ;;
-      windsurf)    dest="${REPO_ROOT}"; label="Windsurf (.windsurfrules)" ;;
-      qwen)        dest="${HOME}/.qwen/agents"; label="Qwen Code" ;;
-      kimi)        dest="${HOME}/.config/kimi/agents"; label="Kimi Code" ;;
-      codex)       dest="${HOME}/.codex/agents"; label="Codex" ;;
-      osaurus)     dest="${HOME}/.osaurus/skills"; label="Osaurus" ;;
-      hermes)      dest="$(hermes_home_dir)/plugins"; label="Hermes" ;;
-      *)           continue ;;
-    esac
-    if [[ -d "$dest" ]]; then
-      local count
-      count=$(find "$dest" -name "*.md" -type f 2>/dev/null | wc -l)
-      if [[ "$count" -gt 0 ]]; then
+    local spec kind dest prefix suffix count=0 label
+    spec="$(tool_install_target "$t" 2>/dev/null)" || continue
+    IFS='|' read -r kind dest prefix suffix <<< "$spec"
+    label="$(tool_label "$t")"
+    if [[ "$kind" == "roster" ]]; then
+      if [[ -f "$dest" ]]; then
+        echo "  ${C_CYAN}${label}${C_RESET}: roster file present"
+        incr found
+      fi
+    elif [[ "$kind" == "plugin" ]]; then
+      if [[ "$t" == "oh-my-claudecode" ]]; then
+        if compgen -G "$dest/skills/nexus-*/SKILL.md" >/dev/null || [[ -f "$dest/model-routing.json" ]]; then
+          echo "  ${C_CYAN}${label}${C_RESET}: plugin present"
+          incr found
+        fi
+      elif [[ -d "$dest" ]]; then
+        echo "  ${C_CYAN}${label}${C_RESET}: plugin present"
+        incr found
+      fi
+    else
+      count="$(owned_count "$dest" "$prefix" "$suffix")"
+      if [[ "$t" == "copilot" ]]; then
+        count=$(( count + $(owned_count "${HOME}/.copilot/agents" "" ".md") ))
+      fi
+      if (( count > 0 )); then
         echo "  ${C_CYAN}${label}${C_RESET}: ${count} agents in ${dest}"
         found=$((found + count))
       fi
     fi
   done
-  if [[ "$found" -eq 0 ]]; then
+  if (( found == 0 )); then
     echo "  ${C_DIM}No agents installed.${C_RESET}"
   fi
   echo ""
 }
 
-# ---------------------------------------------------------------------------
-# Post-install verification: checks each tool's install directory for
-# valid agent files (non-empty .md with YAML frontmatter).
-# ---------------------------------------------------------------------------
 verify_install() {
   header "Post-install verification"
   local ok_count=0 fail_count=0
-
   for t in "${SELECTED_TOOLS[@]}"; do
-    local dest label
-    case "$t" in
-      claude-code) dest="${HOME}/.claude/agents"; label="Claude Code" ;;
-      copilot)     dest="${HOME}/.github/agents"; label="Copilot" ;;
-      antigravity) dest="${HOME}/.gemini/antigravity/skills"; label="Antigravity" ;;
-      gemini-cli)  dest="${HOME}/.gemini/extensions/agency-agents/skills"; label="Gemini CLI" ;;
-      opencode)    dest="${HOME}/.config/opencode/agents"; label="OpenCode" ;;
-      openclaw)    dest="${HOME}/.openclaw/agency-agents"; label="OpenClaw" ;;
-      cursor)      dest="${HOME}/.cursor/rules"; label="Cursor" ;;
-      aider)       dest="${REPO_ROOT}"; label="Aider" ;;
-      windsurf)    dest="${REPO_ROOT}"; label="Windsurf" ;;
-      qwen)        dest="${HOME}/.qwen/agents"; label="Qwen Code" ;;
-      kimi)        dest="${HOME}/.config/kimi/agents"; label="Kimi Code" ;;
-      codex)       dest="${HOME}/.codex/agents"; label="Codex" ;;
-      osaurus)     dest="${HOME}/.osaurus/skills"; label="Osaurus" ;;
-      hermes)      dest="$(hermes_home_dir)/plugins"; label="Hermes" ;;
-      *)           warn "Unknown tool: $t -- skipping verify"; continue ;;
-    esac
-
-    local count=0 bad=0
-    if [[ -d "$dest" ]]; then
-      while IFS= read -r -d '' f; do
-        [[ -s "$f" ]] || { (( bad++ )) || true; continue; }
-        local first; IFS= read -r first < "$f" 2>/dev/null || first=""
-        [[ "$first" == "---" ]] || { (( bad++ )) || true; continue; }
-        (( count++ )) || true
-      done < <(find "$dest" -name "*.md" -type f -print0 2>/dev/null || true)
-    fi
-
-    if [[ "$count" -gt 0 ]]; then
-      local warn_str=""
-      [[ "$bad" -gt 0 ]] && warn_str=" (${bad} invalid)"
-      ok "${label}: ${count} valid agents${warn_str}"
-      (( ok_count++ )) || true
+    local spec kind dest prefix suffix count=0 label
+    spec="$(tool_install_target "$t" 2>/dev/null)" || {
+      warn "Unknown tool: $t -- skipping verify"; continue; }
+    IFS='|' read -r kind dest prefix suffix <<< "$spec"
+    label="$(tool_label "$t")"
+    if [[ "$kind" == "roster" ]]; then
+      if [[ -f "$dest" ]]; then ok "${label}: roster file present"; incr ok_count
+      else warn "${label}: roster file missing"; incr fail_count; fi
+    elif [[ "$kind" == "plugin" ]]; then
+      if [[ "$t" == "oh-my-claudecode" ]]; then
+        if compgen -G "$dest/skills/nexus-*/SKILL.md" >/dev/null || [[ -f "$dest/model-routing.json" ]]; then
+          ok "${label}: plugin present"; incr ok_count
+        else warn "${label}: plugin missing"; incr fail_count; fi
+      elif [[ -d "$dest" ]]; then ok "${label}: plugin present"; incr ok_count
+      else warn "${label}: plugin missing"; incr fail_count; fi
     else
-      warn "${label}: no valid agents found (${bad} invalid files)"
-      (( fail_count++ )) || true
+      count="$(owned_count "$dest" "$prefix" "$suffix")"
+      if [[ "$t" == "copilot" ]]; then
+        count=$(( count + $(owned_count "${HOME}/.copilot/agents" "" ".md") ))
+      fi
+      if (( count > 0 )); then ok "${label}: ${count} agents"; incr ok_count
+      else warn "${label}: no owned agents found"; incr fail_count; fi
     fi
   done
-
   printf "\n"
   ok "Verification complete: ${ok_count} passed, ${fail_count} failed"
-  return $fail_count
+  return "$fail_count"
 }
 
 # ---------------------------------------------------------------------------

@@ -69,6 +69,14 @@ class TestScanFile:
         findings = scan_file(f, mod.CONFIG_PATTERNS)
         assert any(r["rule"] == "github_token" for r in findings)
 
+    def test_config_match_redacted_on_request(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        f = tmp_path / ".env"
+        f.write_text("GITHUB_TOKEN=ghp_abcdefghijklmnopqrstuvwxyz1234567890\n", encoding="utf-8")
+        findings = scan_file(f, mod.CONFIG_PATTERNS, redact=True)
+        token = [r for r in findings if r["rule"] == "github_token"]
+        assert token and token[0]["match"] == "<redacted>"
+
     def test_line_number_accurate(self, tmp_path, monkeypatch):
         monkeypatch.setattr(mod, "REPO", tmp_path)
         f = tmp_path / "script.sh"
@@ -89,6 +97,38 @@ class TestScanFile:
         f.write_text("x = 1\ny = x + 1\n", encoding="utf-8")
         findings = scan_file(f, mod.PYTHON_PATTERNS)
         assert findings == []
+
+    def test_unreadable_script_reported_in_strict_mode(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        f = tmp_path / "bad.py"
+        f.write_bytes(b"\xff\xfe\x00")
+        assert scan_file(f, mod.PYTHON_PATTERNS) == []
+        findings = scan_file(f, mod.PYTHON_PATTERNS, strict=True)
+        assert any(x["severity"] == "HIGH" for x in findings)
+
+    def test_strict_unreadable_file_outside_repo_uses_absolute_path(self, tmp_path, monkeypatch):
+        repo = tmp_path / "repo"
+        repo.mkdir()
+        monkeypatch.setattr(mod, "REPO", repo)
+        f = tmp_path / "outside.py"
+        f.write_bytes(b"\xff\xfe\x00")
+        findings = scan_file(f, mod.PYTHON_PATTERNS, strict=True)
+        assert findings and findings[0]["file"].endswith("outside.py")
+
+    @pytest.mark.parametrize("loader", ["unsafe_load", "full_load"])
+    def test_unsafe_yaml_loaders_detected(self, tmp_path, monkeypatch, loader):
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        f = tmp_path / "load.py"
+        f.write_text(f"data = yaml.{loader}(raw)\n", encoding="utf-8")
+        findings = scan_file(f, mod.PYTHON_PATTERNS)
+        assert any(x["rule"] == "yaml_load_unsafe" for x in findings)
+
+    def test_multiline_shell_true_detected(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+        f = tmp_path / "run.py"
+        f.write_text("subprocess.run(\n    [cmd],\n    shell=True,\n)\n", encoding="utf-8")
+        findings = scan_file(f, mod.PYTHON_PATTERNS)
+        assert any(x["rule"] == "shell_true" for x in findings)
 
 
 class TestAuditAll:
@@ -163,3 +203,15 @@ class TestMain:
             with pytest.raises(SystemExit) as exc:
                 mod.main()
             assert exc.value.code == 1
+
+    def test_json_check_still_exits_nonzero(self, monkeypatch):
+        findings = [{"file": "x.py", "line": 1, "severity": "HIGH",
+                     "rule": "r1", "desc": "d1", "match": "m1"}]
+        monkeypatch.setattr(mod, "audit_all", lambda: findings)
+        out = io.StringIO()
+        with patch.object(sys, "argv", ["audit-security.py", "--json", "--check"]), \
+             patch.object(sys, "stdout", out):
+            with pytest.raises(SystemExit) as exc:
+                mod.main()
+            assert exc.value.code == 1
+        assert '"findings"' in out.getvalue()

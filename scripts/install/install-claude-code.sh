@@ -18,7 +18,7 @@ install_claude_code() {
     [[ -d "$REPO_ROOT/$dir" ]] || continue
     while IFS= read -r -d '' f; do
       is_agent_file "$f" || continue
-      slug="$(agent_slug "$f")"; slug_allowed "$slug" || continue
+      slug="$(basename "$f" .md)"; slug_allowed "$slug" || continue
       install_file "$f" "$dest/"; incr count
     done < <(find "$REPO_ROOT/$dir" -name "*.md" -type f -print0)
   done
@@ -26,22 +26,5 @@ install_claude_code() {
 }
 
 uninstall_claude_code() {
-  local dest="${HOME}/.claude/agents"; local count=0
-  [[ -d "$dest" ]] || { info "Claude Code: nothing to uninstall"; return 0; }
-  if [[ -n "$single_agent" ]]; then
-    local target="$dest/${single_agent}.md"
-    if [[ -f "$target" ]]; then
-      rm -f "$target" && (( count++ )) || true
-      ok "Claude Code: removed $single_agent"
-    else
-      info "Claude Code: agent '$single_agent' not installed"
-    fi
-    return 0
-  fi
-  while IFS= read -r -d $'\0' f; do
-    local first_line; first_line="$(head -1 "$f")"
-    [[ "$first_line" == "---" ]] || continue
-    rm -f "$f" && (( count++ )) || true
-  done < <(find "$dest" -name "*.md" -type f -print0)
-  ok "Claude Code: removed $count agents from $dest"
+  uninstall_scoped "Claude Code" "$(resolve_dest claude-code "${HOME}/.claude/agents")" "" ".md"
 }

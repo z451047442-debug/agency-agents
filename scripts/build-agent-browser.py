@@ -159,7 +159,7 @@ function buildCatList() {
   sorted.forEach(function(c) {
     var zh = labels[c] || '';
     var display = zh ? zh + ' ' + c : c;
-    html += '<div class="cat-item" data-cat="' + esc(c) + '"><span>' + display + '</span><span class="count">' + cats[c] + '</span></div>';
+    html += '<div class="cat-item" data-cat="' + esc(c) + '"><span>' + esc(display) + '</span><span class="count">' + cats[c] + '</span></div>';
   });
   document.getElementById('catList').innerHTML = html;
   document.querySelectorAll('.cat-item').forEach(function(el) {
@@ -192,7 +192,7 @@ function render() {
     var nexus = (a.nexus_roles || []).map(function(n) { return '<span class="tag tag-nexus">' + esc(n) + '</span>'; }).join(' ');
     var sub = a.subcategory ? ' / ' + esc(a.subcategory) : '';
     var isOpen = expanded[a.id] ? ' open' : '';
-    return '<div class="card' + isOpen + '" data-id="' + a.id + '">' +
+    return '<div class="card' + isOpen + '" data-id="' + esc(a.id) + '">' +
       '<div class="head">' +
         '<div class="emoji">' + esc(a.emoji) + '</div>' +
         '<div class="info">' +

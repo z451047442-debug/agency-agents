@@ -98,13 +98,35 @@ def validate_agent_content(filepath):
 
 # ── tool converters ──────────────────────────────────────────────────────────
 
+_YAML_PLAIN_RE = re.compile(r"^[A-Za-z0-9_./()][A-Za-z0-9 _./()&+,-]*$")
+
+
+def _yaml_scalar(value):
+    """Render a YAML scalar, quoting values that would change its meaning."""
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    if isinstance(value, (int, float)):
+        return str(value)
+    text = str(value)
+    plain = (
+        bool(_YAML_PLAIN_RE.fullmatch(text))
+        and ": " not in text
+        and " #" not in text
+        and text == text.strip()
+        and text.lower() not in {"true", "false", "null", "yes", "no", "on", "off", "~"}
+        and not re.fullmatch(r"[-+]?(?:\d+\.?\d*|\.\d+)", text)
+        and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", text)
+    )
+    return text if plain else json.dumps(text, ensure_ascii=False)
+
+
 def _write_frontmatter(path, fields, body):
     """Write a markdown file with YAML frontmatter."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write("---\n")
         for k, v in fields.items():
-            f.write(f"{k}: {v}\n")
+            f.write(f"{k}: {_yaml_scalar(v)}\n")
         f.write("---\n")
         if body:
             f.write(body)
@@ -119,7 +141,7 @@ def convert_antigravity(name, desc, body, agent_id, out_dir):
         "description": desc,
         "risk": "low",
         "source": "community",
-        "date_added": f"'{ANTIGRAVITY_DATE}'",
+        "date_added": ANTIGRAVITY_DATE,
     }, body)
 
 
@@ -235,8 +257,8 @@ def convert_opencode(name, desc, body, agent_id, out_dir, fm_text=None):
     agents_dir.mkdir(parents=True, exist_ok=True)
     with open(agents_dir / f"{agent_id}.md", "w", encoding="utf-8") as f:
         f.write("---\n")
-        f.write(f"name: {name}\n")
-        f.write(f"description: {desc}\n")
+        f.write(f"name: {_yaml_scalar(name)}\n")
+        f.write(f"description: {_yaml_scalar(desc)}\n")
         f.write("mode: subagent\n")
         f.write(f"color: '{color}'\n")
         f.write("---\n")
@@ -247,8 +269,8 @@ def convert_cursor(name, desc, body, agent_id, out_dir):
     rules_dir = out_dir / "rules"
     _write_frontmatter(rules_dir / f"{agent_id}.mdc", {
         "description": desc,
-        "globs": '""',
-        "alwaysApply": "false",
+        "globs": "",
+        "alwaysApply": False,
     }, body)
 
 
@@ -295,10 +317,10 @@ def convert_qwen(name, desc, body, agent_id, out_dir, fm_text):
     tools = get_field("tools", fm_text)
     with open(agents_dir / f"{agent_id}.md", "w", encoding="utf-8") as f:
         f.write("---\n")
-        f.write(f"name: {agent_id}\n")
-        f.write(f"description: {desc}\n")
+        f.write(f"name: {_yaml_scalar(agent_id)}\n")
+        f.write(f"description: {_yaml_scalar(desc)}\n")
         if tools:
-            f.write(f"tools: {tools}\n")
+            f.write(f"tools: {_yaml_scalar(tools)}\n")
         f.write("---\n")
         f.write(body)
 
@@ -309,7 +331,7 @@ def convert_kimi(name, desc, body, agent_id, out_dir):
     with open(agent_dir / "agent.yaml", "w", encoding="utf-8") as f:
         f.write("version: 1\n")
         f.write("agent:\n")
-        f.write(f"  name: {agent_id}\n")
+        f.write(f"  name: {_yaml_scalar(agent_id)}\n")
         f.write("  extend: default\n")
         f.write("  system_prompt_path: ./system.md\n")
     with open(agent_dir / "system.md", "w", encoding="utf-8") as f:
@@ -321,13 +343,11 @@ def run_hermes(out_dir):
     script = REPO / "scripts" / "build-hermes-plugin.py"
     try:
         subprocess.run([sys.executable, str(script), "--repo-root", str(REPO),
-                        "--out", str(out_dir / "hermes")], check=True)
+                        "--out", str(out_dir / "hermes"), "--force"], check=True)
     except subprocess.CalledProcessError as e:
-        print(f"WARNING: Hermes plugin build failed (exit {e.returncode}), skipping",
-              file=sys.stderr)
-    except FileNotFoundError:
-        print("WARNING: build-hermes-plugin.py not found, skipping Hermes",
-              file=sys.stderr)
+        raise RuntimeError(f"Hermes plugin build failed (exit {e.returncode})") from e
+    except FileNotFoundError as e:
+        raise RuntimeError("build-hermes-plugin.py not found") from e
 
 
 # ── single-file accumulators (aider, windsurf) ───────────────────────────────
@@ -425,17 +445,20 @@ def convert_oh_my_claudecode(name, description, body, out_dir, fm_text=None):
         ("generate-omc-hooks.py", []),
         ("generate-omc-team-config.py", []),
     ]
+    failures = []
     for script, extra_args in scripts:
         script_path = REPO / "scripts" / script
         if not script_path.exists():
-            warn(f"OMC: {script} not found, skipping")
+            failures.append(f"{script} not found")
             continue
         result = subprocess.run(
             [sys.executable, str(script_path)] + extra_args,
             capture_output=True, text=True, cwd=str(REPO),
         )
         if result.returncode != 0:
-            warn(f"OMC: {script} failed: {result.stderr.strip()}")
+            failures.append(f"{script} failed: {result.stderr.strip()}")
+    if failures:
+        raise RuntimeError("OMC conversion failed: " + "; ".join(failures))
 
 
 # ── main ─────────────────────────────────────────────────────────────────────
@@ -471,8 +494,21 @@ def clean_tool_output(tool, out_dir):
                 item.unlink()
 
 
-def run_tool(tool, agents, out_dir):
+def _guard_clean_target(out_dir, tool, force=False):
+    """Refuse to recursively clean a non-default output directory."""
+    d = Path(out_dir) / tool
+    if not d.exists() or Path(out_dir).resolve() == OUT.resolve() or force:
+        return
+    if any(p.name != "README.md" for p in d.iterdir()):
+        raise RuntimeError(
+            f"refusing to clean non-default output directory {d}; "
+            "use the default integrations/ or pass --force"
+        )
+
+
+def run_tool(tool, agents, out_dir, force=False):
     """Convert all agents for a single tool. Returns agent count."""
+    _guard_clean_target(out_dir, tool, force)
     clean_tool_output(tool, out_dir)
     if tool == "hermes":
         run_hermes(out_dir)
@@ -661,6 +697,8 @@ def main():
                              "source. Faster for repeated local runs; stale output for "
                              "deleted agents is not cleaned (run without --incremental "
                              "periodically). Ignored in --check mode.")
+    parser.add_argument("--force", action="store_true",
+                        help="Allow cleaning a non-default --out directory")
     args = parser.parse_args()
 
     if args.tool not in ALL_TOOLS + ["all"]:
@@ -668,6 +706,11 @@ def main():
         sys.exit(1)
 
     out_dir = Path(args.out)
+
+    if args.tool == "oh-my-claudecode" and out_dir.resolve() != OUT.resolve():
+        error("oh-my-claudecode writes to the default integrations/ only; "
+              "--out is not supported for this tool")
+        sys.exit(1)
 
     # Collect all agents once (uses shared discover_agents, reads + validates)
     raw = list(discover_agents())
@@ -690,6 +733,9 @@ def main():
     if args.check:
         import filecmp
         import tempfile
+        if args.tool == "oh-my-claudecode":
+            warn("oh-my-claudecode outputs are generated in-place; skipping --check")
+            return
         tmp = Path(tempfile.mkdtemp())
         try:
             # oh-my-claudecode writes to the real integrations/ dir via its
@@ -725,6 +771,16 @@ def main():
             tmp_files = _tree_files(tmp)
             real_files = _tree_files(out_dir)
 
+            if args.tool != "all":
+                selected = set(tools_to_run) | {args.tool}
+
+                def _in_scope(rel):
+                    return (rel.split(os.sep)[0] in selected
+                            or rel == "depends_on.json")
+
+                tmp_files = {r for r in tmp_files if _in_scope(r)}
+                real_files = {r for r in real_files if _in_scope(r)}
+
             diffs = []
             for rel in sorted(tmp_files | real_files):
                 a = os.path.join(str(tmp), rel)
@@ -758,6 +814,9 @@ def main():
 
     # Normal conversion
     tools_to_run = ALL_TOOLS if args.tool == "all" else [args.tool]
+    if out_dir.resolve() != OUT.resolve() and "oh-my-claudecode" in tools_to_run:
+        tools_to_run = [t for t in tools_to_run if t != "oh-my-claudecode"]
+        warn("oh-my-claudecode skipped: non-default --out is not supported")
     n_tools = len(tools_to_run)
 
     header("The Agency — Converting agents to tool-specific formats")
@@ -786,7 +845,7 @@ def main():
             if args.incremental:
                 written, _skipped = run_tool_incremental(tool, agents, out_dir)
                 return tool, written
-            return tool, run_tool(tool, agents, out_dir)
+            return tool, run_tool(tool, agents, out_dir, force=args.force)
 
         with ThreadPoolExecutor(max_workers=jobs) as pool:
             future_map = {pool.submit(_run_one, t): t for t in tools_to_run}
@@ -816,7 +875,7 @@ def main():
                 count = written
                 info(f"Converted {written} agents for {tool} ({skipped} fresh, skipped)")
             else:
-                count = run_tool(tool, agents, out_dir)
+                count = run_tool(tool, agents, out_dir, force=args.force)
                 info(f"Converted {count} agents for {tool}")
             total += count
 
@@ -833,4 +892,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except RuntimeError as exc:
+        error(str(exc))
+        sys.exit(1)

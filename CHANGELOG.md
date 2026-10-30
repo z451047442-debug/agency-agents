@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.7](https://github.com/z451047442-debug/agency-agents/compare/v2.2.6...v2.2.7) (2026-10-30)
+
+
+### Changed
+
+* fail closed when schema validation is unavailable ([e2b4d46](https://github.com/z451047442-debug/agency-agents/commit/e2b4d469efe7049c6995fd74e5c3e38d7c70ab89))
+* harden installers, validation gates, and generated docs ([d30d901](https://github.com/z451047442-debug/agency-agents/commit/d30d901b35969f62e155194a14f6755e197def2a))
+
 ## [2.2.6] — 2026-10-29 — Windows Incremental Conversion Fix
 
 ### Fixed
